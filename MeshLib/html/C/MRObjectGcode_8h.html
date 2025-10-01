@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRObjectGcode_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRObjectGcode_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRObjectGcode_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -183,9 +181,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9be9ae97af22d55be76e6cf4df34f8a" id="r_ac9be9ae97af22d55be76e6cf4df34f8a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a></td></tr>
 <tr class="separator:ac9be9ae97af22d55be76e6cf4df34f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f10f6b559b293d87a6320a3b17ccc6" id="r_af3f10f6b559b293d87a6320a3b17ccc6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td></tr>
-<tr class="separator:af3f10f6b559b293d87a6320a3b17ccc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
+<tr class="memitem:a39843253e49249719b6defbb7948aa79" id="r_a39843253e49249719b6defbb7948aa79"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a></td></tr>
+<tr class="separator:a39843253e49249719b6defbb7948aa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
 <tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23a4f0a386adc3ab051268483b937da" id="r_af23a4f0a386adc3ab051268483b937da"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a></td></tr>
 <tr class="separator:af23a4f0a386adc3ab051268483b937da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +235,16 @@ Functions</h2></td></tr>
 <tr class="separator:a4fa9d1803432497d8046f97e3c9ce120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a004c869d6e1b066031c090c157ca88c2" id="r_a004c869d6e1b066031c090c157ca88c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a004c869d6e1b066031c090c157ca88c2">MR_ObjectGcode_typeName</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
 <tr class="separator:a004c869d6e1b066031c090c157ca88c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab106409c155b029c885b79d4c4191db2" id="r_ab106409c155b029c885b79d4c4191db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab106409c155b029c885b79d4c4191db2">MR_ObjectGcode_ClassName</a> (void)</td></tr>
+<tr class="memdesc:ab106409c155b029c885b79d4c4191db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>ClassName</code>.  <br /></td></tr>
+<tr class="separator:ab106409c155b029c885b79d4c4191db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c0c6556bbe6e0d05158328f0ffcff7" id="r_aa5c0c6556bbe6e0d05158328f0ffcff7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c0c6556bbe6e0d05158328f0ffcff7">MR_ObjectGcode_className</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
+<tr class="separator:aa5c0c6556bbe6e0d05158328f0ffcff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5ae31d2ca7c5299072ba4361dfe635" id="r_aef5ae31d2ca7c5299072ba4361dfe635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5ae31d2ca7c5299072ba4361dfe635">MR_ObjectGcode_ClassNameInPlural</a> (void)</td></tr>
+<tr class="memdesc:aef5ae31d2ca7c5299072ba4361dfe635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>ClassNameInPlural</code>.  <br /></td></tr>
+<tr class="separator:aef5ae31d2ca7c5299072ba4361dfe635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad206310778cd9c78857ccb711bcf0c1b" id="r_ad206310778cd9c78857ccb711bcf0c1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad206310778cd9c78857ccb711bcf0c1b">MR_ObjectGcode_classNameInPlural</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
+<tr class="separator:ad206310778cd9c78857ccb711bcf0c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cc17ced56653081d67111d29e7a6f2a" id="r_a7cc17ced56653081d67111d29e7a6f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc17ced56653081d67111d29e7a6f2a">MR_ObjectGcode_clone</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
 <tr class="separator:a7cc17ced56653081d67111d29e7a6f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2720efa7d2dd6c09aaf4c265c6c1518d" id="r_a2720efa7d2dd6c09aaf4c265c6c1518d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2720efa7d2dd6c09aaf4c265c6c1518d">MR_ObjectGcode_shallowClone</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
@@ -251,16 +259,12 @@ Functions</h2></td></tr>
 <tr class="separator:a3fde7373ddc829b91a44a008375aff2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf716618128ea90bc4f1dff6e9976304" id="r_aaf716618128ea90bc4f1dff6e9976304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf716618128ea90bc4f1dff6e9976304">MR_ObjectGcode_actionList</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
 <tr class="separator:aaf716618128ea90bc4f1dff6e9976304"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b9af581a1212624606a92425875588" id="r_a04b9af581a1212624606a92425875588"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b9af581a1212624606a92425875588">MR_ObjectGcode_segmentToSourceLineMap</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
-<tr class="separator:a04b9af581a1212624606a92425875588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262acbcc54184f849cb9897ca39aede5" id="r_a262acbcc54184f849cb9897ca39aede5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262acbcc54184f849cb9897ca39aede5">MR_ObjectGcode_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, uint32_t mask, const bool *invalidateCaches)</td></tr>
-<tr class="separator:a262acbcc54184f849cb9897ca39aede5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8062120f73ffbe0522e48f68aee869" id="r_aeb8062120f73ffbe0522e48f68aee869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8062120f73ffbe0522e48f68aee869">MR_ObjectGcode_getInfoLines</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
+<tr class="memitem:a26ef3a9ab32d260d71f1b7989904a4ff" id="r_a26ef3a9ab32d260d71f1b7989904a4ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ef3a9ab32d260d71f1b7989904a4ff">MR_ObjectGcode_segmentToSourceLineMap</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
+<tr class="separator:a26ef3a9ab32d260d71f1b7989904a4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cff24bf0d815f42d51e5dcd3f8a8621" id="r_a2cff24bf0d815f42d51e5dcd3f8a8621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cff24bf0d815f42d51e5dcd3f8a8621">MR_ObjectGcode_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, unsigned int mask, const bool *invalidateCaches)</td></tr>
+<tr class="separator:a2cff24bf0d815f42d51e5dcd3f8a8621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8062120f73ffbe0522e48f68aee869" id="r_aeb8062120f73ffbe0522e48f68aee869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8062120f73ffbe0522e48f68aee869">MR_ObjectGcode_getInfoLines</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
 <tr class="separator:aeb8062120f73ffbe0522e48f68aee869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29ae31ad66ed43c778ef30d868e7fdbc" id="r_a29ae31ad66ed43c778ef30d868e7fdbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ae31ad66ed43c778ef30d868e7fdbc">MR_ObjectGcode_getClassName</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
-<tr class="separator:a29ae31ad66ed43c778ef30d868e7fdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a814be46f8215272ef3f5fc43c24029e8" id="r_a814be46f8215272ef3f5fc43c24029e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a814be46f8215272ef3f5fc43c24029e8">MR_ObjectGcode_getClassNameInPlural</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
-<tr class="separator:a814be46f8215272ef3f5fc43c24029e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4c502a2b0a897256f9592cc0fb816de" id="r_ab4c502a2b0a897256f9592cc0fb816de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c502a2b0a897256f9592cc0fb816de">MR_ObjectGcode_switchFeedrateGradient</a> (<a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, bool isFeedrateGradientEnabled)</td></tr>
 <tr class="separator:ab4c502a2b0a897256f9592cc0fb816de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59cc53366c22f137c9633b99ad896cbe" id="r_a59cc53366c22f137c9633b99ad896cbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59cc53366c22f137c9633b99ad896cbe">MR_ObjectGcode_isFeedrateGradient</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
@@ -404,14 +408,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af3f10f6b559b293d87a6320a3b17ccc6" name="af3f10f6b559b293d87a6320a3b17ccc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f10f6b559b293d87a6320a3b17ccc6">&#9670;&#160;</a></span>MR_std_vector_int32_t</h2>
+<a id="a39843253e49249719b6defbb7948aa79" name="a39843253e49249719b6defbb7948aa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39843253e49249719b6defbb7948aa79">&#9670;&#160;</a></span>MR_std_vector_int</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -439,7 +443,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -503,6 +507,80 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab106409c155b029c885b79d4c4191db2" name="ab106409c155b029c885b79d4c4191db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab106409c155b029c885b79d4c4191db2">&#9670;&#160;</a></span>MR_ObjectGcode_ClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_ObjectGcode_ClassName </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>ClassName</code>. </p>
+
+</div>
+</div>
+<a id="aa5c0c6556bbe6e0d05158328f0ffcff7" name="aa5c0c6556bbe6e0d05158328f0ffcff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c0c6556bbe6e0d05158328f0ffcff7">&#9670;&#160;</a></span>MR_ObjectGcode_className()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectGcode_className </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>className</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aef5ae31d2ca7c5299072ba4361dfe635" name="aef5ae31d2ca7c5299072ba4361dfe635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5ae31d2ca7c5299072ba4361dfe635">&#9670;&#160;</a></span>MR_ObjectGcode_ClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_ObjectGcode_ClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>ClassNameInPlural</code>. </p>
+
+</div>
+</div>
+<a id="ad206310778cd9c78857ccb711bcf0c1b" name="ad206310778cd9c78857ccb711bcf0c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad206310778cd9c78857ccb711bcf0c1b">&#9670;&#160;</a></span>MR_ObjectGcode_classNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectGcode_classNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>classNameInPlural</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -638,42 +716,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a29ae31ad66ed43c778ef30d868e7fdbc" name="a29ae31ad66ed43c778ef30d868e7fdbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29ae31ad66ed43c778ef30d868e7fdbc">&#9670;&#160;</a></span>MR_ObjectGcode_getClassName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectGcode_getClassName </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>getClassName</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="a814be46f8215272ef3f5fc43c24029e8" name="a814be46f8215272ef3f5fc43c24029e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a814be46f8215272ef3f5fc43c24029e8">&#9670;&#160;</a></span>MR_ObjectGcode_getClassNameInPlural()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectGcode_getClassNameInPlural </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectGcode.html">MR::ObjectGcode</a></code> named <code>getClassNameInPlural</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
-
-</div>
-</div>
 <a id="aeedeca47f0079fd25583741431a9f15e" name="aeedeca47f0079fd25583741431a9f15e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeedeca47f0079fd25583741431a9f15e">&#9670;&#160;</a></span>MR_ObjectGcode_getCNCMachineSettings()</h2>
 
@@ -717,7 +759,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_ObjectGcode_getInfoLines </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_ObjectGcode_getInfoLines </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -886,14 +928,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04b9af581a1212624606a92425875588" name="a04b9af581a1212624606a92425875588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04b9af581a1212624606a92425875588">&#9670;&#160;</a></span>MR_ObjectGcode_segmentToSourceLineMap()</h2>
+<a id="a26ef3a9ab32d260d71f1b7989904a4ff" name="a26ef3a9ab32d260d71f1b7989904a4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ef3a9ab32d260d71f1b7989904a4ff">&#9670;&#160;</a></span>MR_ObjectGcode_segmentToSourceLineMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> * MR_ObjectGcode_segmentToSourceLineMap </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> * MR_ObjectGcode_segmentToSourceLineMap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -948,8 +990,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a262acbcc54184f849cb9897ca39aede5" name="a262acbcc54184f849cb9897ca39aede5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a262acbcc54184f849cb9897ca39aede5">&#9670;&#160;</a></span>MR_ObjectGcode_setDirtyFlags()</h2>
+<a id="a2cff24bf0d815f42d51e5dcd3f8a8621" name="a2cff24bf0d815f42d51e5dcd3f8a8621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cff24bf0d815f42d51e5dcd3f8a8621">&#9670;&#160;</a></span>MR_ObjectGcode_setDirtyFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -962,7 +1004,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

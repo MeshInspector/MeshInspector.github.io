@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRUniteManyMeshes_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRUniteManyMeshes_8h.html',''); initResizable(true); }
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRUniteManyMeshes_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -171,19 +169,20 @@ Typedefs</h2></td></tr>
 <tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7193edfceac57cfb2d1d3b5b68a90b8" id="r_ae7193edfceac57cfb2d1d3b5b68a90b8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a></td></tr>
 <tr class="separator:ae7193edfceac57cfb2d1d3b5b68a90b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfde5ee8f62ba3de783e8f63282a683f" id="r_acfde5ee8f62ba3de783e8f63282a683f"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td></tr>
-<tr class="memdesc:acfde5ee8f62ba3de783e8f63282a683f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of processing components.  <br /></td></tr>
-<tr class="separator:acfde5ee8f62ba3de783e8f63282a683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5eb6878680e80dcb60b3200acd0b03" id="r_a8e5eb6878680e80dcb60b3200acd0b03"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e5eb6878680e80dcb60b3200acd0b03">MR_NestedComponenetsMode</a></td></tr>
+<tr class="memdesc:a8e5eb6878680e80dcb60b3200acd0b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of processing components.  <br /></td></tr>
+<tr class="separator:a8e5eb6878680e80dcb60b3200acd0b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768fbaa1a635c9393fdb3628694b9f61" id="r_a768fbaa1a635c9393fdb3628694b9f61"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a></td></tr>
 <tr class="separator:a768fbaa1a635c9393fdb3628694b9f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ad63240694c6dc2a28c24bfc2db90ad7a" id="r_ad63240694c6dc2a28c24bfc2db90ad7a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ad63240694c6dc2a28c24bfc2db90ad7aa1f9866b626345c006575db992e30e70a">MR_NestedComponenetsMode_Remove</a> = 0
-, <a class="el" href="#ad63240694c6dc2a28c24bfc2db90ad7aa5686960c5309ee42c800b9aae6d53557">MR_NestedComponenetsMode_Merge</a> = 1
-, <a class="el" href="#ad63240694c6dc2a28c24bfc2db90ad7aa78ef8e00427c0af348d84b9a69df2d85">MR_NestedComponenetsMode_Union</a> = 2
+<tr class="memitem:a4d170c6ac395b7e751c7ff25ae839ac5" id="r_a4d170c6ac395b7e751c7ff25ae839ac5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> { <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a">MR_NestedComponenetsMode_Remove</a> = 0
+, <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557">MR_NestedComponenetsMode_Merge</a> = 1
+, <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5a78ef8e00427c0af348d84b9a69df2d85">MR_NestedComponenetsMode_Union</a> = 2
  }</td></tr>
-<tr class="separator:ad63240694c6dc2a28c24bfc2db90ad7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a4d170c6ac395b7e751c7ff25ae839ac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of processing components.  <a href="#a4d170c6ac395b7e751c7ff25ae839ac5">More...</a><br /></td></tr>
+<tr class="separator:a4d170c6ac395b7e751c7ff25ae839ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -205,23 +204,23 @@ Functions</h2></td></tr>
 <tr class="separator:aaffbbf139f639e5dd671ab65d7cb37d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9168d43d84ac114dcdf6bf405b0c9232" id="r_a9168d43d84ac114dcdf6bf405b0c9232"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9168d43d84ac114dcdf6bf405b0c9232">MR_UniteManyMeshesParams_GetMutable_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a9168d43d84ac114dcdf6bf405b0c9232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c5748c8daea1c6a57a040a4742842d" id="r_a43c5748c8daea1c6a57a040a4742842d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43c5748c8daea1c6a57a040a4742842d">MR_UniteManyMeshesParams_Get_randomShiftsSeed</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
-<tr class="separator:a43c5748c8daea1c6a57a040a4742842d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3056d3f5d5596c05f94f54d6a297f5b1" id="r_a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3056d3f5d5596c05f94f54d6a297f5b1">MR_UniteManyMeshesParams_Set_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, uint32_t value)</td></tr>
-<tr class="separator:a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd81de979cc8efebbe64a15e2a517f2" id="r_a9cd81de979cc8efebbe64a15e2a517f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd81de979cc8efebbe64a15e2a517f2">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
-<tr class="separator:a9cd81de979cc8efebbe64a15e2a517f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c75718ab3a41239834c257b81dc796" id="r_a70c75718ab3a41239834c257b81dc796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const unsigned int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c75718ab3a41239834c257b81dc796">MR_UniteManyMeshesParams_Get_randomShiftsSeed</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a70c75718ab3a41239834c257b81dc796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac881f6ffd1c094cc5366a297a00c9df5" id="r_ac881f6ffd1c094cc5366a297a00c9df5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac881f6ffd1c094cc5366a297a00c9df5">MR_UniteManyMeshesParams_Set_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, unsigned int value)</td></tr>
+<tr class="separator:ac881f6ffd1c094cc5366a297a00c9df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a441855aa68b57c9e34fb4d732cdbf3fe" id="r_a441855aa68b57c9e34fb4d732cdbf3fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a441855aa68b57c9e34fb4d732cdbf3fe">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a441855aa68b57c9e34fb4d732cdbf3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af72e4f9ed5825f5341a675e70e72bc45" id="r_af72e4f9ed5825f5341a675e70e72bc45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af72e4f9ed5825f5341a675e70e72bc45">MR_UniteManyMeshesParams_Get_newFaces</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:af72e4f9ed5825f5341a675e70e72bc45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbcc59689b65300b513db258ed8cddbc" id="r_afbcc59689b65300b513db258ed8cddbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbcc59689b65300b513db258ed8cddbc">MR_UniteManyMeshesParams_Set_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
 <tr class="separator:afbcc59689b65300b513db258ed8cddbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90512e36c0f8188183949f30d298d6be" id="r_a90512e36c0f8188183949f30d298d6be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90512e36c0f8188183949f30d298d6be">MR_UniteManyMeshesParams_GetMutable_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a90512e36c0f8188183949f30d298d6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade5e7a8333f3b493b6ecd5e0de810bea" id="r_ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5e7a8333f3b493b6ecd5e0de810bea">MR_UniteManyMeshesParams_Get_nestedComponentsMode</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:ade5e7a8333f3b493b6ecd5e0de810bea" id="r_ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5e7a8333f3b493b6ecd5e0de810bea">MR_UniteManyMeshesParams_Get_nestedComponentsMode</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a765535345779f67b4492757b3d613d57" id="r_a765535345779f67b4492757b3d613d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765535345779f67b4492757b3d613d57">MR_UniteManyMeshesParams_Set_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> value)</td></tr>
+<tr class="memitem:a765535345779f67b4492757b3d613d57" id="r_a765535345779f67b4492757b3d613d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765535345779f67b4492757b3d613d57">MR_UniteManyMeshesParams_Set_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> value)</td></tr>
 <tr class="separator:a765535345779f67b4492757b3d613d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9918bbfb181a8c73974a959291c4743" id="r_ab9918bbfb181a8c73974a959291c4743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9918bbfb181a8c73974a959291c4743">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:ab9918bbfb181a8c73974a959291c4743" id="r_ab9918bbfb181a8c73974a959291c4743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9918bbfb181a8c73974a959291c4743">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:ab9918bbfb181a8c73974a959291c4743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f205153ad98413752624545ea12622c" id="r_a4f205153ad98413752624545ea12622c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f205153ad98413752624545ea12622c">MR_UniteManyMeshesParams_Get_mergeOnFail</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a4f205153ad98413752624545ea12622c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,8 +244,8 @@ Functions</h2></td></tr>
 <tr class="separator:aea25dd860532caabb4545140e67c3773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973f757a98dc45a29df0ea202982411d" id="r_a973f757a98dc45a29df0ea202982411d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973f757a98dc45a29df0ea202982411d">MR_UniteManyMeshesParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a973f757a98dc45a29df0ea202982411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa460daf111c9e7b7054c663656e01c1" id="r_afa460daf111c9e7b7054c663656e01c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa460daf111c9e7b7054c663656e01c1">MR_UniteManyMeshesParams_ConstructFrom</a> (bool useRandomShifts, bool fixDegenerations, float maxAllowedError, uint32_t randomShiftsSeed, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newFaces, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> nestedComponentsMode, bool mergeOnFail, bool forceCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
-<tr class="separator:afa460daf111c9e7b7054c663656e01c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c006da53cc0a9054d0afb1986bae2b" id="r_a87c006da53cc0a9054d0afb1986bae2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c006da53cc0a9054d0afb1986bae2b">MR_UniteManyMeshesParams_ConstructFrom</a> (bool useRandomShifts, bool fixDegenerations, float maxAllowedError, unsigned int randomShiftsSeed, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newFaces, <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> nestedComponentsMode, bool mergeOnFail, bool forceCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
+<tr class="separator:a87c006da53cc0a9054d0afb1986bae2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a963ca5e79de4f0122e2ec63db134d238" id="r_a963ca5e79de4f0122e2ec63db134d238"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963ca5e79de4f0122e2ec63db134d238">MR_UniteManyMeshesParams_OffsetPtr</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a963ca5e79de4f0122e2ec63db134d238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a963ca5e79de4f0122e2ec63db134d238"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,14 +294,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acfde5ee8f62ba3de783e8f63282a683f" name="acfde5ee8f62ba3de783e8f63282a683f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfde5ee8f62ba3de783e8f63282a683f">&#9670;&#160;</a></span>MR_NestedComponenetsMode</h2>
+<a id="a8e5eb6878680e80dcb60b3200acd0b03" name="a8e5eb6878680e80dcb60b3200acd0b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5eb6878680e80dcb60b3200acd0b03">&#9670;&#160;</a></span>MR_NestedComponenetsMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,24 +354,26 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ad63240694c6dc2a28c24bfc2db90ad7a" name="ad63240694c6dc2a28c24bfc2db90ad7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad63240694c6dc2a28c24bfc2db90ad7a">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a4d170c6ac395b7e751c7ff25ae839ac5" name="a4d170c6ac395b7e751c7ff25ae839ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d170c6ac395b7e751c7ff25ae839ac5">&#9670;&#160;</a></span>MR_NestedComponenetsMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Mode of processing components. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad63240694c6dc2a28c24bfc2db90ad7aa1f9866b626345c006575db992e30e70a" name="ad63240694c6dc2a28c24bfc2db90ad7aa1f9866b626345c006575db992e30e70a"></a>MR_NestedComponenetsMode_Remove&#160;</td><td class="fielddoc"><p>Default: separate nested meshes and remove them, just like union operation should do, use this if input meshes are single component. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a" name="a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a"></a>MR_NestedComponenetsMode_Remove&#160;</td><td class="fielddoc"><p>Default: separate nested meshes and remove them, just like union operation should do, use this if input meshes are single component. </p>
 <p>merge nested meshes, useful if input meshes are components of single object </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ad63240694c6dc2a28c24bfc2db90ad7aa5686960c5309ee42c800b9aae6d53557" name="ad63240694c6dc2a28c24bfc2db90ad7aa5686960c5309ee42c800b9aae6d53557"></a>MR_NestedComponenetsMode_Merge&#160;</td><td class="fielddoc"><p>does not separate components and call union for all input meshes, works slower than Remove and Merge method but returns valid result if input meshes has multiple components </p>
+<tr><td class="fieldname"><a id="a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557" name="a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557"></a>MR_NestedComponenetsMode_Merge&#160;</td><td class="fielddoc"><p>does not separate components and call union for all input meshes, works slower than Remove and Merge method but returns valid result if input meshes has multiple components </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ad63240694c6dc2a28c24bfc2db90ad7aa78ef8e00427c0af348d84b9a69df2d85" name="ad63240694c6dc2a28c24bfc2db90ad7aa78ef8e00427c0af348d84b9a69df2d85"></a>MR_NestedComponenetsMode_Union&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d170c6ac395b7e751c7ff25ae839ac5a78ef8e00427c0af348d84b9a69df2d85" name="a4d170c6ac395b7e751c7ff25ae839ac5a78ef8e00427c0af348d84b9a69df2d85"></a>MR_NestedComponenetsMode_Union&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -427,8 +428,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afa460daf111c9e7b7054c663656e01c1" name="afa460daf111c9e7b7054c663656e01c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa460daf111c9e7b7054c663656e01c1">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_ConstructFrom()</h2>
+<a id="a87c006da53cc0a9054d0afb1986bae2b" name="a87c006da53cc0a9054d0afb1986bae2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c006da53cc0a9054d0afb1986bae2b">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +452,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>randomShiftsSeed</em></span>, </td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>randomShiftsSeed</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -461,7 +462,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td>          <td class="paramname"><span class="paramname"><em>nestedComponentsMode</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a></td>          <td class="paramname"><span class="paramname"><em>nestedComponentsMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -664,7 +665,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_Get_nestedComponentsMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_Get_nestedComponentsMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -711,14 +712,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a43c5748c8daea1c6a57a040a4742842d" name="a43c5748c8daea1c6a57a040a4742842d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43c5748c8daea1c6a57a040a4742842d">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_randomShiftsSeed()</h2>
+<a id="a70c75718ab3a41239834c257b81dc796" name="a70c75718ab3a41239834c257b81dc796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c75718ab3a41239834c257b81dc796">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_randomShiftsSeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint32_t * MR_UniteManyMeshesParams_Get_randomShiftsSeed </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const unsigned int * MR_UniteManyMeshesParams_Get_randomShiftsSeed </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -826,7 +827,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -873,14 +874,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9cd81de979cc8efebbe64a15e2a517f2" name="a9cd81de979cc8efebbe64a15e2a517f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cd81de979cc8efebbe64a15e2a517f2">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed()</h2>
+<a id="a441855aa68b57c9e34fb4d732cdbf3fe" name="a441855aa68b57c9e34fb4d732cdbf3fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a441855aa68b57c9e34fb4d732cdbf3fe">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t * MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int * MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1057,7 +1058,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1114,8 +1115,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3056d3f5d5596c05f94f54d6a297f5b1" name="a3056d3f5d5596c05f94f54d6a297f5b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3056d3f5d5596c05f94f54d6a297f5b1">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_randomShiftsSeed()</h2>
+<a id="ac881f6ffd1c094cc5366a297a00c9df5" name="ac881f6ffd1c094cc5366a297a00c9df5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac881f6ffd1c094cc5366a297a00c9df5">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_randomShiftsSeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1128,7 +1129,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FillHoleNicelySettings =
 [
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ae6ea8ac79fa3e78fc50502640af68e2a", null ],
+    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ac5e3498c40d977fe9fde7f527d77942b", null ],
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a016577d35718910b91bbcd8974fe2141", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a50ccd6545e4fb0876ea176d9ef42a5eb", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a163fee0fdff0c18290cae488bb309f83", null ],

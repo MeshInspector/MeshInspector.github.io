@@ -17,7 +17,7 @@ var classMR_1_1MoveObjectByMouseImpl =
     [ "minDistance", "classMR_1_1MoveObjectByMouseImpl.html#a8ed871e4f43e2c23e6b2cfb9aae9b0ae", null ],
     [ "modeFromPick_", "classMR_1_1MoveObjectByMouseImpl.html#a8d4fb97994485132ccb6214d20ec2041", null ],
     [ "modeFromPickModifiers_", "classMR_1_1MoveObjectByMouseImpl.html#a1c00c84e0c80219e1fa10b926a82cf91", null ],
-    [ "onDrawDialog", "classMR_1_1MoveObjectByMouseImpl.html#a36378bb5833ffad19034fffa718f4507", null ],
+    [ "onDrawDialog", "classMR_1_1MoveObjectByMouseImpl.html#a6ce0bc82b6e4105651d707287c05c7ec", null ],
     [ "onMouseDown", "classMR_1_1MoveObjectByMouseImpl.html#a540598c4c8004c75d894fa4e63f90694", null ],
     [ "onMouseMove", "classMR_1_1MoveObjectByMouseImpl.html#a3932fa9a5384b09c3fd4b7f7179697c6", null ],
     [ "onMouseUp", "classMR_1_1MoveObjectByMouseImpl.html#a4516bc68a71f976621ce71dff17b7837", null ],

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRObjectLabel_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -159,7 +158,6 @@ $(function(){initNavTree('MRObjectLabel_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRObjectLabel_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -191,23 +189,23 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b334578883a55d60d5ef67962505ba" id="r_aa6b334578883a55d60d5ef67962505ba"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aa6b334578883a55d60d5ef67962505ba">MR_std_vector_MR_ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b334578883a55d60d5ef67962505ba">MR_std_vector_MR_ViewportMask</a></td></tr>
 <tr class="separator:aa6b334578883a55d60d5ef67962505ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17c00b529e6190f578743d2f6669ddff" id="r_a17c00b529e6190f578743d2f6669ddff"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17c00b529e6190f578743d2f6669ddff">MR_LabelVisualizePropertyType</a></td></tr>
-<tr class="separator:a17c00b529e6190f578743d2f6669ddff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84057dee07f0b5c1d6295602a46c7db5" id="r_a84057dee07f0b5c1d6295602a46c7db5"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276">MR_LabelVisualizePropertyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84057dee07f0b5c1d6295602a46c7db5">MR_LabelVisualizePropertyType</a></td></tr>
+<tr class="separator:a84057dee07f0b5c1d6295602a46c7db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4edfc78551f61ec34b3b0e5f5173453f" id="r_a4edfc78551f61ec34b3b0e5f5173453f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRObject_8h.html#a4edfc78551f61ec34b3b0e5f5173453f">MR_ObjectLabel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4edfc78551f61ec34b3b0e5f5173453f">MR_ObjectLabel</a></td></tr>
 <tr class="separator:a4edfc78551f61ec34b3b0e5f5173453f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:abe974f22edeef8189603ba75fd90ff3c" id="r_abe974f22edeef8189603ba75fd90ff3c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#abe974f22edeef8189603ba75fd90ff3ca922eb827e6cdad1d6eeff943319b9c31">MR_LabelVisualizePropertyType_SourcePoint</a> = 0
-, <a class="el" href="#abe974f22edeef8189603ba75fd90ff3ca4450fb8ce2c13de12e66a4ab68a52ccb">MR_LabelVisualizePropertyType_LeaderLine</a> = 1
-, <a class="el" href="#abe974f22edeef8189603ba75fd90ff3ca888aafe9069b38fca7601e453a53218c">MR_LabelVisualizePropertyType_Background</a> = 2
-, <a class="el" href="#abe974f22edeef8189603ba75fd90ff3ca10f3893db4f2dd57c02f35894270473f">MR_LabelVisualizePropertyType_Contour</a> = 3
+<tr class="memitem:a49cdb8c5e7c474664a48c4a47b2c5276" id="r_a49cdb8c5e7c474664a48c4a47b2c5276"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276">MR_LabelVisualizePropertyType</a> { <br />
+&#160;&#160;<a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276a922eb827e6cdad1d6eeff943319b9c31">MR_LabelVisualizePropertyType_SourcePoint</a> = 0
+, <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276a4450fb8ce2c13de12e66a4ab68a52ccb">MR_LabelVisualizePropertyType_LeaderLine</a> = 1
+, <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276a888aafe9069b38fca7601e453a53218c">MR_LabelVisualizePropertyType_Background</a> = 2
+, <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276a10f3893db4f2dd57c02f35894270473f">MR_LabelVisualizePropertyType_Contour</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#abe974f22edeef8189603ba75fd90ff3caef82af7b05f23f45af3c9c7e4d3e5a3e">MR_LabelVisualizePropertyType__count</a> = 4
+&#160;&#160;<a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276aef82af7b05f23f45af3c9c7e4d3e5a3e">MR_LabelVisualizePropertyType__count</a> = 4
 <br />
  }</td></tr>
-<tr class="separator:abe974f22edeef8189603ba75fd90ff3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a49cdb8c5e7c474664a48c4a47b2c5276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -355,14 +353,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a17c00b529e6190f578743d2f6669ddff" name="a17c00b529e6190f578743d2f6669ddff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c00b529e6190f578743d2f6669ddff">&#9670;&#160;</a></span>MR_LabelVisualizePropertyType</h2>
+<a id="a84057dee07f0b5c1d6295602a46c7db5" name="a84057dee07f0b5c1d6295602a46c7db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84057dee07f0b5c1d6295602a46c7db5">&#9670;&#160;</a></span>MR_LabelVisualizePropertyType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a17c00b529e6190f578743d2f6669ddff">MR_LabelVisualizePropertyType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276">MR_LabelVisualizePropertyType</a> <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276">MR_LabelVisualizePropertyType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -540,23 +538,23 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="abe974f22edeef8189603ba75fd90ff3c" name="abe974f22edeef8189603ba75fd90ff3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe974f22edeef8189603ba75fd90ff3c">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a49cdb8c5e7c474664a48c4a47b2c5276" name="a49cdb8c5e7c474664a48c4a47b2c5276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49cdb8c5e7c474664a48c4a47b2c5276">&#9670;&#160;</a></span>MR_LabelVisualizePropertyType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a49cdb8c5e7c474664a48c4a47b2c5276">MR_LabelVisualizePropertyType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abe974f22edeef8189603ba75fd90ff3ca922eb827e6cdad1d6eeff943319b9c31" name="abe974f22edeef8189603ba75fd90ff3ca922eb827e6cdad1d6eeff943319b9c31"></a>MR_LabelVisualizePropertyType_SourcePoint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abe974f22edeef8189603ba75fd90ff3ca4450fb8ce2c13de12e66a4ab68a52ccb" name="abe974f22edeef8189603ba75fd90ff3ca4450fb8ce2c13de12e66a4ab68a52ccb"></a>MR_LabelVisualizePropertyType_LeaderLine&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abe974f22edeef8189603ba75fd90ff3ca888aafe9069b38fca7601e453a53218c" name="abe974f22edeef8189603ba75fd90ff3ca888aafe9069b38fca7601e453a53218c"></a>MR_LabelVisualizePropertyType_Background&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abe974f22edeef8189603ba75fd90ff3ca10f3893db4f2dd57c02f35894270473f" name="abe974f22edeef8189603ba75fd90ff3ca10f3893db4f2dd57c02f35894270473f"></a>MR_LabelVisualizePropertyType_Contour&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abe974f22edeef8189603ba75fd90ff3caef82af7b05f23f45af3c9c7e4d3e5a3e" name="abe974f22edeef8189603ba75fd90ff3caef82af7b05f23f45af3c9c7e4d3e5a3e"></a>MR_LabelVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a49cdb8c5e7c474664a48c4a47b2c5276a922eb827e6cdad1d6eeff943319b9c31" name="a49cdb8c5e7c474664a48c4a47b2c5276a922eb827e6cdad1d6eeff943319b9c31"></a>MR_LabelVisualizePropertyType_SourcePoint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a49cdb8c5e7c474664a48c4a47b2c5276a4450fb8ce2c13de12e66a4ab68a52ccb" name="a49cdb8c5e7c474664a48c4a47b2c5276a4450fb8ce2c13de12e66a4ab68a52ccb"></a>MR_LabelVisualizePropertyType_LeaderLine&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a49cdb8c5e7c474664a48c4a47b2c5276a888aafe9069b38fca7601e453a53218c" name="a49cdb8c5e7c474664a48c4a47b2c5276a888aafe9069b38fca7601e453a53218c"></a>MR_LabelVisualizePropertyType_Background&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a49cdb8c5e7c474664a48c4a47b2c5276a10f3893db4f2dd57c02f35894270473f" name="a49cdb8c5e7c474664a48c4a47b2c5276a10f3893db4f2dd57c02f35894270473f"></a>MR_LabelVisualizePropertyType_Contour&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a49cdb8c5e7c474664a48c4a47b2c5276aef82af7b05f23f45af3c9c7e4d3e5a3e" name="a49cdb8c5e7c474664a48c4a47b2c5276aef82af7b05f23f45af3c9c7e4d3e5a3e"></a>MR_LabelVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

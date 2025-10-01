@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1RegionId =
 [
     [ "__init__", "classmrmeshpy_1_1RegionId.html#a412370a0005e6d68c4381cfbde89f5b9", null ],
+    [ "__init__", "classmrmeshpy_1_1RegionId.html#a7e897a6b3d898ff5d8647ceaa20278f5", null ],
     [ "__bool__", "classmrmeshpy_1_1RegionId.html#a97e5a79aa4ca1128dbbde41a60044570", null ],
     [ "__eq__", "classmrmeshpy_1_1RegionId.html#ad0ac42fa0528bed89510407cbf8abc64", null ],
     [ "__iadd__", "classmrmeshpy_1_1RegionId.html#a0f7861bd1d46de19bb790825242ec589", null ],

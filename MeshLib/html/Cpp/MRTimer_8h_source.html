@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRTimer_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -195,8 +194,12 @@ $(function(){initNavTree('MRTimer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>} <span class="comment">// namespace MR</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">   53</a></span><span class="preprocessor">#define MR_TIMER MR::Timer _timer( __FUNCTION__ )</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="MRTimer_8h.html#a46095ee84a5ee67f76a16abd1fe242fa">   54</a></span><span class="preprocessor">#define MR_NAMED_TIMER(name) MR::Timer _named_timer( name )</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#ifdef __GNUC__ </span><span class="comment">// __FUNCTION__ in GCC/Clang returns only short function name without class name and template parameters</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define MR_TIMER MR::Timer _timer( __PRETTY_FUNCTION__ )</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">   56</a></span><span class="preprocessor">#define MR_TIMER MR::Timer _timer( __FUNCTION__ )</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="MRTimer_8h.html#a46095ee84a5ee67f76a16abd1fe242fa">   58</a></span><span class="preprocessor">#define MR_NAMED_TIMER(name) MR::Timer _named_timer( name )</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aclassMR_1_1Timer_html"><div class="ttname"><a href="classMR_1_1Timer.html">MR::Timer</a></div><div class="ttdef"><b>Definition</b> MRTimer.h:17</div></div>

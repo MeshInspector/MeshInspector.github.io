@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Py/classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -170,6 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c9a02f7e3a7d2aed859be059411edec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98f1c032424b1afc102edb0e13c25a8b" id="r_a98f1c032424b1afc102edb0e13c25a8b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f1c032424b1afc102edb0e13c25a8b">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__ICPGroupPairs.html">std_vector_ICPGroupPairs</a> vec)</td></tr>
 <tr class="separator:a98f1c032424b1afc102edb0e13c25a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc98b8a241c9bf460c69b1d6f441c2d2" id="r_abc98b8a241c9bf460c69b1d6f441c2d2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc98b8a241c9bf460c69b1d6f441c2d2">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html">Vector_ICPGroupPairs_Id_ICPElemtTag</a> arg0)</td></tr>
+<tr class="separator:abc98b8a241c9bf460c69b1d6f441c2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8658eac7a369e028bdbf910cb4fbcebe" id="r_a8658eac7a369e028bdbf910cb4fbcebe"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1ICPGroupPairs.html">ICPGroupPairs</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8658eac7a369e028bdbf910cb4fbcebe">__iter__</a> (self)</td></tr>
 <tr class="separator:a8658eac7a369e028bdbf910cb4fbcebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fbf84f4640e9e0910ece07cf513d40" id="r_a43fbf84f4640e9e0910ece07cf513d40"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43fbf84f4640e9e0910ece07cf513d40">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> arg0, <a class="el" href="classmrmeshpy_1_1ICPGroupPairs.html">ICPGroupPairs</a> arg1)</td></tr>
@@ -258,14 +259,14 @@ Static Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;MR::ICPGroupPairs, MR::Id&lt;MR::ICPElemtTag&gt;&gt;
-Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_value_type, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.value_type, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.const_reference, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.reference, std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_reference
+Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.const_reference, std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_reference, std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_value_type, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.reference, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.value_type
 
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
  \\tparam T type of stored elements
  \\tparam I type of index (shall be convertible to size_t)</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af7247ddf1ba8d970a9128af7a20b83a3" name="af7247ddf1ba8d970a9128af7a20b83a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7247ddf1ba8d970a9128af7a20b83a3">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af7247ddf1ba8d970a9128af7a20b83a3">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +295,7 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
 </div>
 </div>
 <a id="a09b4445ff89197a0eefea99741e8d14d" name="a09b4445ff89197a0eefea99741e8d14d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09b4445ff89197a0eefea99741e8d14d">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b4445ff89197a0eefea99741e8d14d">&#9670;&#160;</a></span>__init__() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +313,7 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
 </div>
 </div>
 <a id="ac497c6fabe9aca833226b949beb6d2aa" name="ac497c6fabe9aca833226b949beb6d2aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac497c6fabe9aca833226b949beb6d2aa">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac497c6fabe9aca833226b949beb6d2aa">&#9670;&#160;</a></span>__init__() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +335,7 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
 </div>
 </div>
 <a id="a3c9a02f7e3a7d2aed859be059411edec" name="a3c9a02f7e3a7d2aed859be059411edec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c9a02f7e3a7d2aed859be059411edec">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9a02f7e3a7d2aed859be059411edec">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +362,7 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
 </div>
 </div>
 <a id="a98f1c032424b1afc102edb0e13c25a8b" name="a98f1c032424b1afc102edb0e13c25a8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98f1c032424b1afc102edb0e13c25a8b">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f1c032424b1afc102edb0e13c25a8b">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,6 +380,28 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
       </table>
 </div><div class="memdoc">
 <pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
+</div>
+</div>
+<a id="abc98b8a241c9bf460c69b1d6f441c2d2" name="abc98b8a241c9bf460c69b1d6f441c2d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc98b8a241c9bf460c69b1d6f441c2d2">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html">Vector_ICPGroupPairs_Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
 </pre> 
 </div>
 </div>

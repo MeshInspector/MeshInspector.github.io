@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1UndirEdgeColorMapAggregator =
 [
     [ "__init__", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a859f87926a88fa5b55e63172cb27e304", null ],
+    [ "__init__", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a726625875f9ea5e27e9a24f90fb51652", null ],
     [ "aggregate", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3", null ],
     [ "erase", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7", null ],
     [ "getColorMapNumber", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#abbbd92488de9a52ad6131be909fccae9", null ],

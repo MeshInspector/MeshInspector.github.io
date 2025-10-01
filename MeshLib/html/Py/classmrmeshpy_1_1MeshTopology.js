@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1MeshTopology =
 [
     [ "__init__", "classmrmeshpy_1_1MeshTopology.html#a8556e49dc9013002d868a8a87b17453b", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshTopology.html#ad29f6aa8456555f8a0a5e736b64b3a1d", null ],
     [ "__eq__", "classmrmeshpy_1_1MeshTopology.html#a06713d086c994bf2669fa82ecdf671c2", null ],
     [ "addFaceId", "classmrmeshpy_1_1MeshTopology.html#a68d0bb37c5ec2383b1d682dcdc9ad4e5", null ],
     [ "addPackedPart", "classmrmeshpy_1_1MeshTopology.html#a697a37efa4d99b159f0e26b4a9e73c42", null ],

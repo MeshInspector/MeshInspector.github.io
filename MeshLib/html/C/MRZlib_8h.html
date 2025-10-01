@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRZlib_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -153,7 +152,6 @@ $(function(){initNavTree('MRZlib_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRZlib_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -168,9 +166,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad9eb91abe68f24c6a0c4d7a05df3845f" id="r_ad9eb91abe68f24c6a0c4d7a05df3845f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9eb91abe68f24c6a0c4d7a05df3845f">MR_zlibCompressStream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const int32_t *level)</td></tr>
-<tr class="memdesc:ad9eb91abe68f24c6a0c4d7a05df3845f"><td class="mdescLeft">&#160;</td><td class="mdescRight">compress the input data using the Deflate algorithm  <br /></td></tr>
-<tr class="separator:ad9eb91abe68f24c6a0c4d7a05df3845f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79cbd292ea901c8733120b7ec1a0019e" id="r_a79cbd292ea901c8733120b7ec1a0019e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79cbd292ea901c8733120b7ec1a0019e">MR_zlibCompressStream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const int *level)</td></tr>
+<tr class="memdesc:a79cbd292ea901c8733120b7ec1a0019e"><td class="mdescLeft">&#160;</td><td class="mdescRight">compress the input data using the Deflate algorithm  <br /></td></tr>
+<tr class="separator:a79cbd292ea901c8733120b7ec1a0019e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a499a87f072c24e3c153c72fed3c020c3" id="r_a499a87f072c24e3c153c72fed3c020c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a499a87f072c24e3c153c72fed3c020c3">MR_zlibDecompressStream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out)</td></tr>
 <tr class="separator:a499a87f072c24e3c153c72fed3c020c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -218,8 +216,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ad9eb91abe68f24c6a0c4d7a05df3845f" name="ad9eb91abe68f24c6a0c4d7a05df3845f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9eb91abe68f24c6a0c4d7a05df3845f">&#9670;&#160;</a></span>MR_zlibCompressStream()</h2>
+<a id="a79cbd292ea901c8733120b7ec1a0019e" name="a79cbd292ea901c8733120b7ec1a0019e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79cbd292ea901c8733120b7ec1a0019e">&#9670;&#160;</a></span>MR_zlibCompressStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +235,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>level</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>level</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

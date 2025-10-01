@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRImproveSampling_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -156,7 +155,6 @@ $(function(){initNavTree('MRImproveSampling_8h.html',''); initResizable(true); }
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRImproveSampling_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -164,8 +162,8 @@ $(function(){initNavTree('MRImproveSampling_8h.html',''); initResizable(true); }
 Typedefs</h2></td></tr>
 <tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
 <tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03bc32087419c15b1153b857b4f6bc9a" id="r_a03bc32087419c15b1153b857b4f6bc9a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a></td></tr>
-<tr class="separator:a03bc32087419c15b1153b857b4f6bc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b2b530cc7e8ec49d6441a0d1d309ce" id="r_a38b2b530cc7e8ec49d6441a0d1d309ce"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a></td></tr>
+<tr class="separator:a38b2b530cc7e8ec49d6441a0d1d309ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
 <tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
@@ -180,18 +178,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa86422d7ed239f9453fa543368ab15fc" id="r_aa86422d7ed239f9453fa543368ab15fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa86422d7ed239f9453fa543368ab15fc">MR_ImproveSamplingSettings_Get_numIters</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
-<tr class="separator:aa86422d7ed239f9453fa543368ab15fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a136f1b703c4d07a84263d4d7365d5f7e" id="r_a136f1b703c4d07a84263d4d7365d5f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136f1b703c4d07a84263d4d7365d5f7e">MR_ImproveSamplingSettings_Set_numIters</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a136f1b703c4d07a84263d4d7365d5f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55cecd45ea2bd6572b15460fa8955847" id="r_a55cecd45ea2bd6572b15460fa8955847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55cecd45ea2bd6572b15460fa8955847">MR_ImproveSamplingSettings_GetMutable_numIters</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
-<tr class="separator:a55cecd45ea2bd6572b15460fa8955847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad861dd34d596fdd3a68f1fb40990121c" id="r_ad861dd34d596fdd3a68f1fb40990121c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad861dd34d596fdd3a68f1fb40990121c">MR_ImproveSamplingSettings_Get_minPointsInSample</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
-<tr class="separator:ad861dd34d596fdd3a68f1fb40990121c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d9c0bec72166236dcb8e90af90d8dbe" id="r_a4d9c0bec72166236dcb8e90af90d8dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d9c0bec72166236dcb8e90af90d8dbe">MR_ImproveSamplingSettings_Set_minPointsInSample</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a4d9c0bec72166236dcb8e90af90d8dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4111f597fce3d20ee922d2b83208b42" id="r_ad4111f597fce3d20ee922d2b83208b42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4111f597fce3d20ee922d2b83208b42">MR_ImproveSamplingSettings_GetMutable_minPointsInSample</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
-<tr class="separator:ad4111f597fce3d20ee922d2b83208b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7c59ddecf85d8f2e587cfc5b7f2874" id="r_a1b7c59ddecf85d8f2e587cfc5b7f2874"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b7c59ddecf85d8f2e587cfc5b7f2874">MR_ImproveSamplingSettings_Get_numIters</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a1b7c59ddecf85d8f2e587cfc5b7f2874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78912411e56f4413cdb706b7a81d24fc" id="r_a78912411e56f4413cdb706b7a81d24fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78912411e56f4413cdb706b7a81d24fc">MR_ImproveSamplingSettings_Set_numIters</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a78912411e56f4413cdb706b7a81d24fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910b88f210acc42c8a0d4a54f50edd54" id="r_a910b88f210acc42c8a0d4a54f50edd54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a910b88f210acc42c8a0d4a54f50edd54">MR_ImproveSamplingSettings_GetMutable_numIters</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a910b88f210acc42c8a0d4a54f50edd54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038b960e62c92ea7b36dd0be1862dc70" id="r_a038b960e62c92ea7b36dd0be1862dc70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a038b960e62c92ea7b36dd0be1862dc70">MR_ImproveSamplingSettings_Get_minPointsInSample</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a038b960e62c92ea7b36dd0be1862dc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5b93698b491eb0c30f447d31606b2b8" id="r_ac5b93698b491eb0c30f447d31606b2b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5b93698b491eb0c30f447d31606b2b8">MR_ImproveSamplingSettings_Set_minPointsInSample</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, int value)</td></tr>
+<tr class="separator:ac5b93698b491eb0c30f447d31606b2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a3ea6db0fb55262058e4c8284e20bb" id="r_a13a3ea6db0fb55262058e4c8284e20bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13a3ea6db0fb55262058e4c8284e20bb">MR_ImproveSamplingSettings_GetMutable_minPointsInSample</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a13a3ea6db0fb55262058e4c8284e20bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a305e487a617ddc79f713dd258b8d4062" id="r_a305e487a617ddc79f713dd258b8d4062"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305e487a617ddc79f713dd258b8d4062">MR_ImproveSamplingSettings_Get_pt2sm</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
 <tr class="separator:a305e487a617ddc79f713dd258b8d4062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a761a1e877434d70f7b39e19fc24a7075" id="r_a761a1e877434d70f7b39e19fc24a7075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761a1e877434d70f7b39e19fc24a7075">MR_ImproveSamplingSettings_Set_pt2sm</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *value)</td></tr>
@@ -204,12 +202,12 @@ Functions</h2></td></tr>
 <tr class="separator:a000a6708513be83be75412362114a4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab9f39bdf22c062ff3f20fb322c098f" id="r_aeab9f39bdf22c062ff3f20fb322c098f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab9f39bdf22c062ff3f20fb322c098f">MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
 <tr class="separator:aeab9f39bdf22c062ff3f20fb322c098f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44aa9eccff6ea46c4fef75cc49af3592" id="r_a44aa9eccff6ea46c4fef75cc49af3592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44aa9eccff6ea46c4fef75cc49af3592">MR_ImproveSamplingSettings_Get_ptsInSm</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
-<tr class="separator:a44aa9eccff6ea46c4fef75cc49af3592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75020e95dccfd402826f548f66fa69ea" id="r_a75020e95dccfd402826f548f66fa69ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75020e95dccfd402826f548f66fa69ea">MR_ImproveSamplingSettings_Set_ptsInSm</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> *value)</td></tr>
-<tr class="separator:a75020e95dccfd402826f548f66fa69ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6bf84c2aebccdda12efdf2056d702ea" id="r_ad6bf84c2aebccdda12efdf2056d702ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6bf84c2aebccdda12efdf2056d702ea">MR_ImproveSamplingSettings_GetMutable_ptsInSm</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
-<tr class="separator:ad6bf84c2aebccdda12efdf2056d702ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092acfae526e5e02b7aaf2e2da4552d8" id="r_a092acfae526e5e02b7aaf2e2da4552d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a092acfae526e5e02b7aaf2e2da4552d8">MR_ImproveSamplingSettings_Get_ptsInSm</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a092acfae526e5e02b7aaf2e2da4552d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0d45b46c77f008854cb9e93cbef35b" id="r_a2b0d45b46c77f008854cb9e93cbef35b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b0d45b46c77f008854cb9e93cbef35b">MR_ImproveSamplingSettings_Set_ptsInSm</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> *value)</td></tr>
+<tr class="separator:a2b0d45b46c77f008854cb9e93cbef35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4203219108b1d79e6b2c5a43a00f2a" id="r_ade4203219108b1d79e6b2c5a43a00f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4203219108b1d79e6b2c5a43a00f2a">MR_ImproveSamplingSettings_GetMutable_ptsInSm</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:ade4203219108b1d79e6b2c5a43a00f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7a42cb9031313c3350a621bd5e56c6" id="r_a6b7a42cb9031313c3350a621bd5e56c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b7a42cb9031313c3350a621bd5e56c6">MR_ImproveSamplingSettings_Get_ptColors</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this)</td></tr>
 <tr class="separator:a6b7a42cb9031313c3350a621bd5e56c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a169c1bd3748d6c8701454e5f12d528b1" id="r_a169c1bd3748d6c8701454e5f12d528b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a169c1bd3748d6c8701454e5f12d528b1">MR_ImproveSamplingSettings_Set_ptColors</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
@@ -232,8 +230,8 @@ Functions</h2></td></tr>
 <tr class="separator:a33c4a5d62553d26118d1755ef7c2913c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eac9a400ba6ce64ae87fe85740dbe05" id="r_a2eac9a400ba6ce64ae87fe85740dbe05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eac9a400ba6ce64ae87fe85740dbe05">MR_ImproveSamplingSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a2eac9a400ba6ce64ae87fe85740dbe05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4cd6cabce643c8e6874a0fd949ece65" id="r_ad4cd6cabce643c8e6874a0fd949ece65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cd6cabce643c8e6874a0fd949ece65">MR_ImproveSamplingSettings_ConstructFrom</a> (int32_t numIters, int32_t minPointsInSample, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *pt2sm, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloudOfSamples, <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> *ptsInSm, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *ptColors, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *smColors, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
-<tr class="separator:ad4cd6cabce643c8e6874a0fd949ece65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066e6f292b375452a50919869b5120ba" id="r_a066e6f292b375452a50919869b5120ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a066e6f292b375452a50919869b5120ba">MR_ImproveSamplingSettings_ConstructFrom</a> (int numIters, int minPointsInSample, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *pt2sm, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloudOfSamples, <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> *ptsInSm, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *ptColors, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *smColors, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:a066e6f292b375452a50919869b5120ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b3612fe164aa3b4af2821f319d7d168" id="r_a1b3612fe164aa3b4af2821f319d7d168"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3612fe164aa3b4af2821f319d7d168">MR_ImproveSamplingSettings_OffsetPtr</a> (const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a1b3612fe164aa3b4af2821f319d7d168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a1b3612fe164aa3b4af2821f319d7d168"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,14 +296,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a03bc32087419c15b1153b857b4f6bc9a" name="a03bc32087419c15b1153b857b4f6bc9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03bc32087419c15b1153b857b4f6bc9a">&#9670;&#160;</a></span>MR_Vector_int32_t_MR_VertId</h2>
+<a id="a38b2b530cc7e8ec49d6441a0d1d309ce" name="a38b2b530cc7e8ec49d6441a0d1d309ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b2b530cc7e8ec49d6441a0d1d309ce">&#9670;&#160;</a></span>MR_Vector_int_MR_VertId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -416,8 +414,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad4cd6cabce643c8e6874a0fd949ece65" name="ad4cd6cabce643c8e6874a0fd949ece65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4cd6cabce643c8e6874a0fd949ece65">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_ConstructFrom()</h2>
+<a id="a066e6f292b375452a50919869b5120ba" name="a066e6f292b375452a50919869b5120ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066e6f292b375452a50919869b5120ba">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,12 +423,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> * MR_ImproveSamplingSettings_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>minPointsInSample</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>minPointsInSample</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -445,7 +443,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptsInSm</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptsInSm</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -587,14 +585,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad861dd34d596fdd3a68f1fb40990121c" name="ad861dd34d596fdd3a68f1fb40990121c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad861dd34d596fdd3a68f1fb40990121c">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Get_minPointsInSample()</h2>
+<a id="a038b960e62c92ea7b36dd0be1862dc70" name="a038b960e62c92ea7b36dd0be1862dc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a038b960e62c92ea7b36dd0be1862dc70">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Get_minPointsInSample()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_ImproveSamplingSettings_Get_minPointsInSample </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_ImproveSamplingSettings_Get_minPointsInSample </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -605,14 +603,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa86422d7ed239f9453fa543368ab15fc" name="aa86422d7ed239f9453fa543368ab15fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa86422d7ed239f9453fa543368ab15fc">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Get_numIters()</h2>
+<a id="a1b7c59ddecf85d8f2e587cfc5b7f2874" name="a1b7c59ddecf85d8f2e587cfc5b7f2874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b7c59ddecf85d8f2e587cfc5b7f2874">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Get_numIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_ImproveSamplingSettings_Get_numIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_ImproveSamplingSettings_Get_numIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -677,14 +675,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a44aa9eccff6ea46c4fef75cc49af3592" name="a44aa9eccff6ea46c4fef75cc49af3592"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44aa9eccff6ea46c4fef75cc49af3592">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Get_ptsInSm()</h2>
+<a id="a092acfae526e5e02b7aaf2e2da4552d8" name="a092acfae526e5e02b7aaf2e2da4552d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a092acfae526e5e02b7aaf2e2da4552d8">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Get_ptsInSm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> *const  * MR_ImproveSamplingSettings_Get_ptsInSm </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> *const  * MR_ImproveSamplingSettings_Get_ptsInSm </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -731,14 +729,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad4111f597fce3d20ee922d2b83208b42" name="ad4111f597fce3d20ee922d2b83208b42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4111f597fce3d20ee922d2b83208b42">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_GetMutable_minPointsInSample()</h2>
+<a id="a13a3ea6db0fb55262058e4c8284e20bb" name="a13a3ea6db0fb55262058e4c8284e20bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a3ea6db0fb55262058e4c8284e20bb">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_GetMutable_minPointsInSample()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_ImproveSamplingSettings_GetMutable_minPointsInSample </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_ImproveSamplingSettings_GetMutable_minPointsInSample </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -749,14 +747,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a55cecd45ea2bd6572b15460fa8955847" name="a55cecd45ea2bd6572b15460fa8955847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55cecd45ea2bd6572b15460fa8955847">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_GetMutable_numIters()</h2>
+<a id="a910b88f210acc42c8a0d4a54f50edd54" name="a910b88f210acc42c8a0d4a54f50edd54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910b88f210acc42c8a0d4a54f50edd54">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_GetMutable_numIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_ImproveSamplingSettings_GetMutable_numIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_ImproveSamplingSettings_GetMutable_numIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -821,14 +819,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6bf84c2aebccdda12efdf2056d702ea" name="ad6bf84c2aebccdda12efdf2056d702ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6bf84c2aebccdda12efdf2056d702ea">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_GetMutable_ptsInSm()</h2>
+<a id="ade4203219108b1d79e6b2c5a43a00f2a" name="ade4203219108b1d79e6b2c5a43a00f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4203219108b1d79e6b2c5a43a00f2a">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_GetMutable_ptsInSm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> ** MR_ImproveSamplingSettings_GetMutable_ptsInSm </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> ** MR_ImproveSamplingSettings_GetMutable_ptsInSm </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -925,8 +923,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d9c0bec72166236dcb8e90af90d8dbe" name="a4d9c0bec72166236dcb8e90af90d8dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d9c0bec72166236dcb8e90af90d8dbe">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Set_minPointsInSample()</h2>
+<a id="ac5b93698b491eb0c30f447d31606b2b8" name="ac5b93698b491eb0c30f447d31606b2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5b93698b491eb0c30f447d31606b2b8">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Set_minPointsInSample()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -939,7 +937,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -947,8 +945,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a136f1b703c4d07a84263d4d7365d5f7e" name="a136f1b703c4d07a84263d4d7365d5f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a136f1b703c4d07a84263d4d7365d5f7e">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Set_numIters()</h2>
+<a id="a78912411e56f4413cdb706b7a81d24fc" name="a78912411e56f4413cdb706b7a81d24fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78912411e56f4413cdb706b7a81d24fc">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Set_numIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +959,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1040,8 +1038,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a75020e95dccfd402826f548f66fa69ea" name="a75020e95dccfd402826f548f66fa69ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75020e95dccfd402826f548f66fa69ea">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Set_ptsInSm()</h2>
+<a id="a2b0d45b46c77f008854cb9e93cbef35b" name="a2b0d45b46c77f008854cb9e93cbef35b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0d45b46c77f008854cb9e93cbef35b">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_Set_ptsInSm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1054,7 +1052,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a03bc32087419c15b1153b857b4f6bc9a">MR_Vector_int32_t_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

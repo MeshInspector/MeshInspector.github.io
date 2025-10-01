@@ -1,5 +1,7 @@
 var structMR_1_1MeshOrPoints_1_1ProjectionResult =
 [
+    [ "operator bool", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ad96f5e58f9ab65b5b186ccd7d330c64d", null ],
+    [ "valid", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#a799a4d75cde699ab800ef755c3201cf6", null ],
     [ "closestVert", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#acd151f3c2558f8dc870aa2172d32a00e", null ],
     [ "distSq", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ab04e26fe4503fb08898aaeccad548f71", null ],
     [ "isBd", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ac1e15a8f200cad28d7b9d7c56757eee4", null ],

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRSignDetectionMode_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -154,51 +153,52 @@ $(function(){initNavTree('MRSignDetectionMode_8h.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRSignDetectionMode_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0edc773fdcc3ae9b1db46fef6e47f9af" id="r_a0edc773fdcc3ae9b1db46fef6e47f9af"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0edc773fdcc3ae9b1db46fef6e47f9af">MR_SignDetectionMode</a></td></tr>
-<tr class="memdesc:a0edc773fdcc3ae9b1db46fef6e47f9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh  <br /></td></tr>
-<tr class="separator:a0edc773fdcc3ae9b1db46fef6e47f9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72267b400fd34f68348b1d13b36e9cc4" id="r_a72267b400fd34f68348b1d13b36e9cc4"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a></td></tr>
-<tr class="memdesc:a72267b400fd34f68348b1d13b36e9cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh, short version including auto-detection  <br /></td></tr>
-<tr class="separator:a72267b400fd34f68348b1d13b36e9cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5667a6a1d6e9fb09c95678ff68a3fad" id="r_ac5667a6a1d6e9fb09c95678ff68a3fad"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5667a6a1d6e9fb09c95678ff68a3fad">MR_SignDetectionMode</a></td></tr>
+<tr class="memdesc:ac5667a6a1d6e9fb09c95678ff68a3fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh  <br /></td></tr>
+<tr class="separator:ac5667a6a1d6e9fb09c95678ff68a3fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58cc14f1136bfffa8f15fdbb95d48406" id="r_a58cc14f1136bfffa8f15fdbb95d48406"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6">MR_SignDetectionModeShort</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58cc14f1136bfffa8f15fdbb95d48406">MR_SignDetectionModeShort</a></td></tr>
+<tr class="memdesc:a58cc14f1136bfffa8f15fdbb95d48406"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh, short version including auto-detection  <br /></td></tr>
+<tr class="separator:a58cc14f1136bfffa8f15fdbb95d48406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ade9ca5088d171ad20b4c237f1c2d6260" id="r_ade9ca5088d171ad20b4c237f1c2d6260"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#ade9ca5088d171ad20b4c237f1c2d6260abf87fdf5ca035202bb103aca9393b8d1">MR_SignDetectionMode_Unsigned</a> = 0
-, <a class="el" href="#ade9ca5088d171ad20b4c237f1c2d6260a2455f559eee51bfd07ac40102eaae775">MR_SignDetectionMode_OpenVDB</a> = 1
-, <a class="el" href="#ade9ca5088d171ad20b4c237f1c2d6260a0159154a09edb6fb7addf455b3841885">MR_SignDetectionMode_ProjectionNormal</a> = 2
-, <a class="el" href="#ade9ca5088d171ad20b4c237f1c2d6260ab5ab8141c9894c69d2d6de5775f32897">MR_SignDetectionMode_WindingRule</a> = 3
+<tr class="memitem:ad947acaab65b108b9b20a683b2d1c571" id="r_ad947acaab65b108b9b20a683b2d1c571"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> { <br />
+&#160;&#160;<a class="el" href="#ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1">MR_SignDetectionMode_Unsigned</a> = 0
+, <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775">MR_SignDetectionMode_OpenVDB</a> = 1
+, <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571a0159154a09edb6fb7addf455b3841885">MR_SignDetectionMode_ProjectionNormal</a> = 2
+, <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571ab5ab8141c9894c69d2d6de5775f32897">MR_SignDetectionMode_WindingRule</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#ade9ca5088d171ad20b4c237f1c2d6260a7f2d79698464d85d61eef3259fe78bea">MR_SignDetectionMode_HoleWindingRule</a> = 4
+&#160;&#160;<a class="el" href="#ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea">MR_SignDetectionMode_HoleWindingRule</a> = 4
 <br />
  }</td></tr>
-<tr class="separator:ade9ca5088d171ad20b4c237f1c2d6260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e93d8eae633734dfeb29e24a1f3a7c0" id="r_a9e93d8eae633734dfeb29e24a1f3a7c0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a9e93d8eae633734dfeb29e24a1f3a7c0a2813c30113c56c44607b0c348ad8c259">MR_SignDetectionModeShort_Auto</a> = 0
-, <a class="el" href="#a9e93d8eae633734dfeb29e24a1f3a7c0a806b7735c8bdc889b7355db916d61ae8">MR_SignDetectionModeShort_HoleWindingNumber</a> = 1
-, <a class="el" href="#a9e93d8eae633734dfeb29e24a1f3a7c0ade831408e3d4d44037958e2995f5c8be">MR_SignDetectionModeShort_ProjectionNormal</a> = 2
+<tr class="memdesc:ad947acaab65b108b9b20a683b2d1c571"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh  <a href="#ad947acaab65b108b9b20a683b2d1c571">More...</a><br /></td></tr>
+<tr class="separator:ad947acaab65b108b9b20a683b2d1c571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bd2d112ff162d30b64963883902bb6" id="r_aa5bd2d112ff162d30b64963883902bb6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5bd2d112ff162d30b64963883902bb6">MR_SignDetectionModeShort</a> { <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259">MR_SignDetectionModeShort_Auto</a> = 0
+, <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8">MR_SignDetectionModeShort_HoleWindingNumber</a> = 1
+, <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6ade831408e3d4d44037958e2995f5c8be">MR_SignDetectionModeShort_ProjectionNormal</a> = 2
  }</td></tr>
-<tr class="separator:a9e93d8eae633734dfeb29e24a1f3a7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aa5bd2d112ff162d30b64963883902bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">how to determine the sign of distances from a mesh, short version including auto-detection  <a href="#aa5bd2d112ff162d30b64963883902bb6">More...</a><br /></td></tr>
+<tr class="separator:aa5bd2d112ff162d30b64963883902bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8bab0f090f5563fc8869d6c2242b3ce2" id="r_a8bab0f090f5563fc8869d6c2242b3ce2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bab0f090f5563fc8869d6c2242b3ce2">MR_asString_MR_SignDetectionMode</a> (<a class="el" href="#a0edc773fdcc3ae9b1db46fef6e47f9af">MR_SignDetectionMode</a> m)</td></tr>
+<tr class="memitem:a8bab0f090f5563fc8869d6c2242b3ce2" id="r_a8bab0f090f5563fc8869d6c2242b3ce2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bab0f090f5563fc8869d6c2242b3ce2">MR_asString_MR_SignDetectionMode</a> (<a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> m)</td></tr>
 <tr class="separator:a8bab0f090f5563fc8869d6c2242b3ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a0edc773fdcc3ae9b1db46fef6e47f9af" name="a0edc773fdcc3ae9b1db46fef6e47f9af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0edc773fdcc3ae9b1db46fef6e47f9af">&#9670;&#160;</a></span>MR_SignDetectionMode</h2>
+<a id="ac5667a6a1d6e9fb09c95678ff68a3fad" name="ac5667a6a1d6e9fb09c95678ff68a3fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5667a6a1d6e9fb09c95678ff68a3fad">&#9670;&#160;</a></span>MR_SignDetectionMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a0edc773fdcc3ae9b1db46fef6e47f9af">MR_SignDetectionMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -207,14 +207,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a72267b400fd34f68348b1d13b36e9cc4" name="a72267b400fd34f68348b1d13b36e9cc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72267b400fd34f68348b1d13b36e9cc4">&#9670;&#160;</a></span>MR_SignDetectionModeShort</h2>
+<a id="a58cc14f1136bfffa8f15fdbb95d48406" name="a58cc14f1136bfffa8f15fdbb95d48406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58cc14f1136bfffa8f15fdbb95d48406">&#9670;&#160;</a></span>MR_SignDetectionModeShort</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6">MR_SignDetectionModeShort</a> <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6">MR_SignDetectionModeShort</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -224,50 +224,54 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ade9ca5088d171ad20b4c237f1c2d6260" name="ade9ca5088d171ad20b4c237f1c2d6260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade9ca5088d171ad20b4c237f1c2d6260">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ad947acaab65b108b9b20a683b2d1c571" name="ad947acaab65b108b9b20a683b2d1c571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad947acaab65b108b9b20a683b2d1c571">&#9670;&#160;</a></span>MR_SignDetectionMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>how to determine the sign of distances from a mesh </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ade9ca5088d171ad20b4c237f1c2d6260abf87fdf5ca035202bb103aca9393b8d1" name="ade9ca5088d171ad20b4c237f1c2d6260abf87fdf5ca035202bb103aca9393b8d1"></a>MR_SignDetectionMode_Unsigned&#160;</td><td class="fielddoc"><p>unsigned distance, useful for bidirectional <code>Shell</code> offset </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1" name="ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1"></a>MR_SignDetectionMode_Unsigned&#160;</td><td class="fielddoc"><p>unsigned distance, useful for bidirectional <code>Shell</code> offset </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ade9ca5088d171ad20b4c237f1c2d6260a2455f559eee51bfd07ac40102eaae775" name="ade9ca5088d171ad20b4c237f1c2d6260a2455f559eee51bfd07ac40102eaae775"></a>MR_SignDetectionMode_OpenVDB&#160;</td><td class="fielddoc"><p>sign detection from OpenVDB library, which is good and fast if input geometry is closed </p>
+<tr><td class="fieldname"><a id="ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775" name="ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775"></a>MR_SignDetectionMode_OpenVDB&#160;</td><td class="fielddoc"><p>sign detection from OpenVDB library, which is good and fast if input geometry is closed </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ade9ca5088d171ad20b4c237f1c2d6260a0159154a09edb6fb7addf455b3841885" name="ade9ca5088d171ad20b4c237f1c2d6260a0159154a09edb6fb7addf455b3841885"></a>MR_SignDetectionMode_ProjectionNormal&#160;</td><td class="fielddoc"><p>the sign is determined based on pseudonormal in closest mesh point (unsafe in case of self-intersections) </p>
+<tr><td class="fieldname"><a id="ad947acaab65b108b9b20a683b2d1c571a0159154a09edb6fb7addf455b3841885" name="ad947acaab65b108b9b20a683b2d1c571a0159154a09edb6fb7addf455b3841885"></a>MR_SignDetectionMode_ProjectionNormal&#160;</td><td class="fielddoc"><p>the sign is determined based on pseudonormal in closest mesh point (unsafe in case of self-intersections) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ade9ca5088d171ad20b4c237f1c2d6260ab5ab8141c9894c69d2d6de5775f32897" name="ade9ca5088d171ad20b4c237f1c2d6260ab5ab8141c9894c69d2d6de5775f32897"></a>MR_SignDetectionMode_WindingRule&#160;</td><td class="fielddoc"><p>ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh; this mode is slow, and it does NOT have CUDA acceleration at this moment </p>
+<tr><td class="fieldname"><a id="ad947acaab65b108b9b20a683b2d1c571ab5ab8141c9894c69d2d6de5775f32897" name="ad947acaab65b108b9b20a683b2d1c571ab5ab8141c9894c69d2d6de5775f32897"></a>MR_SignDetectionMode_WindingRule&#160;</td><td class="fielddoc"><p>ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh; this mode is slow, and it does NOT have CUDA acceleration at this moment </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ade9ca5088d171ad20b4c237f1c2d6260a7f2d79698464d85d61eef3259fe78bea" name="ade9ca5088d171ad20b4c237f1c2d6260a7f2d79698464d85d61eef3259fe78bea"></a>MR_SignDetectionMode_HoleWindingRule&#160;</td><td class="fielddoc"><p>computes robust winding number generalization with support of holes and self-intersections in mesh, it is the slowest sign detection mode, but it CAN be accelerated with CUDA if this mode activated e.g. in OffsetParameters.fwn </p>
+<tr><td class="fieldname"><a id="ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea" name="ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea"></a>MR_SignDetectionMode_HoleWindingRule&#160;</td><td class="fielddoc"><p>computes robust winding number generalization with support of holes and self-intersections in mesh, it is the slowest sign detection mode, but it CAN be accelerated with CUDA if this mode activated e.g. in OffsetParameters.fwn </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="a9e93d8eae633734dfeb29e24a1f3a7c0" name="a9e93d8eae633734dfeb29e24a1f3a7c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e93d8eae633734dfeb29e24a1f3a7c0">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aa5bd2d112ff162d30b64963883902bb6" name="aa5bd2d112ff162d30b64963883902bb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5bd2d112ff162d30b64963883902bb6">&#9670;&#160;</a></span>MR_SignDetectionModeShort</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#aa5bd2d112ff162d30b64963883902bb6">MR_SignDetectionModeShort</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>how to determine the sign of distances from a mesh, short version including auto-detection </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9e93d8eae633734dfeb29e24a1f3a7c0a2813c30113c56c44607b0c348ad8c259" name="a9e93d8eae633734dfeb29e24a1f3a7c0a2813c30113c56c44607b0c348ad8c259"></a>MR_SignDetectionModeShort_Auto&#160;</td><td class="fielddoc"><p>automatic selection of the fastest method among safe options for the current mesh </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259" name="aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259"></a>MR_SignDetectionModeShort_Auto&#160;</td><td class="fielddoc"><p>automatic selection of the fastest method among safe options for the current mesh </p>
 <p>detects sign from the winding number generalization with support for holes and self-intersections in mesh </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9e93d8eae633734dfeb29e24a1f3a7c0a806b7735c8bdc889b7355db916d61ae8" name="a9e93d8eae633734dfeb29e24a1f3a7c0a806b7735c8bdc889b7355db916d61ae8"></a>MR_SignDetectionModeShort_HoleWindingNumber&#160;</td><td class="fielddoc"><p>detects sign from the pseudonormal in closest mesh point, which is fast but unsafe in the presence of holes and self-intersections in mesh </p>
+<tr><td class="fieldname"><a id="aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8" name="aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8"></a>MR_SignDetectionModeShort_HoleWindingNumber&#160;</td><td class="fielddoc"><p>detects sign from the pseudonormal in closest mesh point, which is fast but unsafe in the presence of holes and self-intersections in mesh </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9e93d8eae633734dfeb29e24a1f3a7c0ade831408e3d4d44037958e2995f5c8be" name="a9e93d8eae633734dfeb29e24a1f3a7c0ade831408e3d4d44037958e2995f5c8be"></a>MR_SignDetectionModeShort_ProjectionNormal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5bd2d112ff162d30b64963883902bb6ade831408e3d4d44037958e2995f5c8be" name="aa5bd2d112ff162d30b64963883902bb6ade831408e3d4d44037958e2995f5c8be"></a>MR_SignDetectionModeShort_ProjectionNormal&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -282,7 +286,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_asString_MR_SignDetectionMode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0edc773fdcc3ae9b1db46fef6e47f9af">MR_SignDetectionMode</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

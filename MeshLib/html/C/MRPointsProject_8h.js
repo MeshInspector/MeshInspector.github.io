@@ -20,7 +20,7 @@ var MRPointsProject_8h =
     [ "MR_Vector3f", "MRPointsProject_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_VertBitSet", "MRPointsProject_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_findFewClosestPoints", "MRPointsProject_8h.html#a01ab528f34a77b0bdb4a8c30db01a7af", null ],
-    [ "MR_findNClosestPointsPerPoint", "MRPointsProject_8h.html#aecc58236b22038c2be49fd682f921355", null ],
+    [ "MR_findNClosestPointsPerPoint", "MRPointsProject_8h.html#a8a3791a77ea8f46477ee87a87d96445d", null ],
     [ "MR_findProjectionOnPoints_6", "MRPointsProject_8h.html#ad871edd307ec5f2666707ecaa102543a", null ],
     [ "MR_findProjectionOnPoints_7", "MRPointsProject_8h.html#aa82b00440182d03cf83d880189265ec1", null ],
     [ "MR_FindProjectionOnPointsSettings_AssignFromAnother", "MRPointsProject_8h.html#afcced85cb9a3371b63eddd1bb5fa2ccd", null ],

@@ -85,6 +85,11 @@ var MRUnits_8h =
       [ "inches3", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69", null ],
       [ "_count", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
+    [ "ZeroMode", "MRUnits_8h.html#aa591847657e546eba90e70acf2185c02", [
+      [ "asIs", "MRUnits_8h.html#aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07", null ],
+      [ "alwaysPositive", "MRUnits_8h.html#aa591847657e546eba90e70acf2185c02a0d0700a75fcdc18a3509f8197b41c699", null ],
+      [ "alwaysNegative", "MRUnits_8h.html#aa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c", null ]
+    ] ],
     [ "convertUnits", "MRUnits_8h.html#ab07c2e27cb1322b5471e253ff9e52a0d", null ],
     [ "convertUnits", "MRUnits_8h.html#abc1dac35ba49a323ad136b896517b3b3", null ],
     [ "getDefaultUnitParams", "MRUnits_8h.html#a80607090259b7b45b4ea7809158a48a2", null ],

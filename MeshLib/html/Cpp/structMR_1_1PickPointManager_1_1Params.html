@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1PickPointManager_1_1Params.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,7 @@ $(function(){initNavTree('structMR_1_1PickPointManager_1_1Params.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5fea1d890a42ca21cec4e297bf2ae7ed" id="r_a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fea1d890a42ca21cec4e297bf2ae7ed">widgetContourCloseMod</a> = GLFW_MOD_CONTROL</td></tr>
+<tr class="memitem:a5fea1d890a42ca21cec4e297bf2ae7ed" id="r_a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fea1d890a42ca21cec4e297bf2ae7ed">widgetContourCloseMod</a> = <a class="el" href="namespaceMR.html#ac53f1c4b02769746f625c080b0ab374e">getGlfwModPrimaryCtrl</a>()</td></tr>
 <tr class="memdesc:a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifier key for closing a contour (ordered vector of points) using the widget.  <br /></td></tr>
 <tr class="separator:a5fea1d890a42ca21cec4e297bf2ae7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a190ae905fd433a574393eca3095af" id="r_a53a190ae905fd433a574393eca3095af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a190ae905fd433a574393eca3095af">widgetDeletePointMod</a> = GLFW_MOD_SHIFT</td></tr>
@@ -191,6 +190,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a648a0ae70816ba38a53eb3e858578152" id="r_a648a0ae70816ba38a53eb3e858578152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#af5dd9ce5eda38d70eb2e0c789aa3e06c">PickerPointCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648a0ae70816ba38a53eb3e858578152">onPointAdd</a></td></tr>
 <tr class="memdesc:a648a0ae70816ba38a53eb3e858578152"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback is invoked after a point is added with its index.  <br /></td></tr>
 <tr class="separator:a648a0ae70816ba38a53eb3e858578152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9338df64363f0830a45a56dec21f983" id="r_af9338df64363f0830a45a56dec21f983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f">AllowCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9338df64363f0830a45a56dec21f983">canMovePoint</a></td></tr>
+<tr class="separator:af9338df64363f0830a45a56dec21f983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc58a961497595f91a31e0ba17b453b" id="r_aecc58a961497595f91a31e0ba17b453b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PickPointManager.html#af5dd9ce5eda38d70eb2e0c789aa3e06c">PickerPointCallBack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc58a961497595f91a31e0ba17b453b">onPointMoveStart</a></td></tr>
 <tr class="memdesc:aecc58a961497595f91a31e0ba17b453b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback is invoked when a point starts being dragged.  <br /></td></tr>
 <tr class="separator:aecc58a961497595f91a31e0ba17b453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +222,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>This callback is invoked before addition of new point (with index=-1) by mouse (but not from API or history), the addition is canceled if this callback returns false </p>
+
+</div>
+</div>
+<a id="af9338df64363f0830a45a56dec21f983" name="af9338df64363f0830a45a56dec21f983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9338df64363f0830a45a56dec21f983">&#9670;&#160;</a></span>canMovePoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f">AllowCallBack</a> MR::PickPointManager::Params::canMovePoint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This callback is invoked before point move start (but not from API or history), the move is canceled if this callback returns false </p>
 
 </div>
 </div>
@@ -452,7 +468,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::PickPointManager::Params::widgetContourCloseMod = GLFW_MOD_CONTROL</td>
+          <td class="memname">int MR::PickPointManager::Params::widgetContourCloseMod = <a class="el" href="namespaceMR.html#ac53f1c4b02769746f625c080b0ab374e">getGlfwModPrimaryCtrl</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">

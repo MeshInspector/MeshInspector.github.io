@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1FeatureObject =
 [
+    [ "className", "classmrmeshpy_1_1FeatureObject.html#a4ff00d6aea25df6e8b48aab21b141e4c", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1FeatureObject.html#ab1bd1f5f0f94b0e000d3d525cb290ded", null ],
     [ "getAllSharedProperties", "classmrmeshpy_1_1FeatureObject.html#a23676bb9fe5cb1841b3b3aba602cd2d5", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1FeatureObject.html#a840b68101f6eb43e4abae6222e049566", null ],
     [ "getBasePoint", "classmrmeshpy_1_1FeatureObject.html#a28d87db192f46cd657a79eecb1a250e2", null ],
@@ -30,5 +32,6 @@ var classmrmeshpy_1_1FeatureObject =
     [ "setSubfeatureLineWidth", "classmrmeshpy_1_1FeatureObject.html#a40a4acaefd1752b0e9359ab3876e97e4", null ],
     [ "setSubfeaturePointSize", "classmrmeshpy_1_1FeatureObject.html#a537928713294647267cf4d68345087b4", null ],
     [ "setXf", "classmrmeshpy_1_1FeatureObject.html#a1a6780eafb533347e001bbd950b19e17", null ],
-    [ "supportsVisualizeProperty", "classmrmeshpy_1_1FeatureObject.html#a1d424208c478b75ec64eccd64a0d78d6", null ]
+    [ "supportsVisualizeProperty", "classmrmeshpy_1_1FeatureObject.html#a1d424208c478b75ec64eccd64a0d78d6", null ],
+    [ "typeName", "classmrmeshpy_1_1FeatureObject.html#aef685fbdedc360b4ad4d91fc16242463", null ]
 ];

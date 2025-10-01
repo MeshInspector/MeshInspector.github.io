@@ -26,7 +26,7 @@ var MRUnionFind_8h =
     [ "MR_UnionFind_MR_FaceId_reset", "MRUnionFind_8h.html#a326ac97b2db4443eb3adee668ff2f0c6", null ],
     [ "MR_UnionFind_MR_FaceId_roots", "MRUnionFind_8h.html#ad65c4f2cd7e206df380140554ac656b1", null ],
     [ "MR_UnionFind_MR_FaceId_size", "MRUnionFind_8h.html#ac47ff399398c81d635ae35a7c7f298d8", null ],
-    [ "MR_UnionFind_MR_FaceId_sizeOfComp", "MRUnionFind_8h.html#ab781611c0de7f62d923a729e50349dc0", null ],
+    [ "MR_UnionFind_MR_FaceId_sizeOfComp", "MRUnionFind_8h.html#a895f84e2f24af17ea66808cee0bb932b", null ],
     [ "MR_UnionFind_MR_FaceId_unite", "MRUnionFind_8h.html#a3ee38579f064afe9c87b1f899d3ecf4c", null ],
     [ "MR_UnionFind_MR_FaceId_united", "MRUnionFind_8h.html#a400fccbde13fc94189626be26968141f", null ],
     [ "MR_UnionFind_MR_UndirectedEdgeId_AssignFromAnother", "MRUnionFind_8h.html#a34f890026ae18c47ac125e6489eb9129", null ],
@@ -46,7 +46,7 @@ var MRUnionFind_8h =
     [ "MR_UnionFind_MR_UndirectedEdgeId_reset", "MRUnionFind_8h.html#a79e59e98e9a75a3a8552bc61c3bb72dd", null ],
     [ "MR_UnionFind_MR_UndirectedEdgeId_roots", "MRUnionFind_8h.html#afa2b77957ae44ea32effff3f04788284", null ],
     [ "MR_UnionFind_MR_UndirectedEdgeId_size", "MRUnionFind_8h.html#ace185925be5ee1c61c12ccc467484caa", null ],
-    [ "MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp", "MRUnionFind_8h.html#ae2713c121fc0139a62d2c18b8b7e9696", null ],
+    [ "MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp", "MRUnionFind_8h.html#a9a1b9e0f0d63184f1ec3d7604ea362d6", null ],
     [ "MR_UnionFind_MR_UndirectedEdgeId_unite", "MRUnionFind_8h.html#a6bb3907b7e3c2299df2e0ce2ed5e205b", null ],
     [ "MR_UnionFind_MR_UndirectedEdgeId_united", "MRUnionFind_8h.html#a5fbae2cabf7ae865f6360ec27cdeee5b", null ],
     [ "MR_UnionFind_MR_VertId_AssignFromAnother", "MRUnionFind_8h.html#a3637adc471f4d2f80abf50d5321b8f3b", null ],
@@ -66,7 +66,7 @@ var MRUnionFind_8h =
     [ "MR_UnionFind_MR_VertId_reset", "MRUnionFind_8h.html#a39dc1136d8bf1e8bc86ee8f523fbaf24", null ],
     [ "MR_UnionFind_MR_VertId_roots", "MRUnionFind_8h.html#aad97fc8fbf03b662bf7ab8502eff121e", null ],
     [ "MR_UnionFind_MR_VertId_size", "MRUnionFind_8h.html#a984274a65f6a4b9ad347ff3b1246714c", null ],
-    [ "MR_UnionFind_MR_VertId_sizeOfComp", "MRUnionFind_8h.html#acf7dc2c6b11ebdad11d5646fe4974d6c", null ],
+    [ "MR_UnionFind_MR_VertId_sizeOfComp", "MRUnionFind_8h.html#a6f6de9d2b4153747b09a72b82990d2ba", null ],
     [ "MR_UnionFind_MR_VertId_unite", "MRUnionFind_8h.html#a1c28d7858ecc751def9a9d17ff58f2e2", null ],
     [ "MR_UnionFind_MR_VertId_united", "MRUnionFind_8h.html#af55179657264d227240f254213b8e43e", null ]
 ];

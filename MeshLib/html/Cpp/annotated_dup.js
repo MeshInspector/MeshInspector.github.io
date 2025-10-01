@@ -3,10 +3,12 @@ var annotated_dup =
     [ "ImGui", "namespaceImGui.html", [
       [ "CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", "structImGui_1_1CustomStatePluginWindowParameters" ],
       [ "HistogramGridLine", "structImGui_1_1HistogramGridLine.html", "structImGui_1_1HistogramGridLine" ],
-      [ "MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ]
+      [ "MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ],
+      [ "SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", "structImGui_1_1SavedWindowPosParams" ]
     ] ],
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
+        [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
@@ -45,6 +47,15 @@ var annotated_dup =
       [ "FileDialog", "namespaceMR_1_1FileDialog.html", [
         [ "Parameters", "structMR_1_1FileDialog_1_1Parameters.html", "structMR_1_1FileDialog_1_1Parameters" ]
       ] ],
+      [ "FillingSurface", "namespaceMR_1_1FillingSurface.html", [
+        [ "CellularSurface", "namespaceMR_1_1FillingSurface_1_1CellularSurface.html", [
+          [ "Params", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" ]
+        ] ],
+        [ "TPMS", "namespaceMR_1_1FillingSurface_1_1TPMS.html", [
+          [ "MeshParams", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
+          [ "VolumeParams", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ]
+        ] ]
+      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "FindParams", "structMR_1_1FixUndercuts_1_1FindParams.html", "structMR_1_1FixUndercuts_1_1FindParams" ],
@@ -69,11 +80,19 @@ var annotated_dup =
       [ "ImGuiMeasurementIndicators", "namespaceMR_1_1ImGuiMeasurementIndicators.html", [
         [ "CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" ],
         [ "DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" ],
+        [ "DistanceResult", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" ],
+        [ "LineBodyParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" ],
         [ "LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" ],
         [ "LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
+        [ "LineResult", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" ],
         [ "Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Params" ],
         [ "PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" ],
-        [ "StringWithIcon", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon" ]
+        [ "Stipple", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" ],
+        [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text" ],
+        [ "TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" ],
+        [ "TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" ],
+        [ "TextParams", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" ],
+        [ "TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" ]
       ] ],
       [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", [
         [ "LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ]
@@ -133,13 +152,18 @@ var annotated_dup =
       [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", [
         [ "AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],
         [ "AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", "classMR_1_1RenderDimensions_1_1AngleTask" ],
+        [ "CommonParams", "structMR_1_1RenderDimensions_1_1CommonParams.html", "structMR_1_1RenderDimensions_1_1CommonParams" ],
         [ "LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", "structMR_1_1RenderDimensions_1_1LengthParams" ],
         [ "LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", "classMR_1_1RenderDimensions_1_1LengthTask" ],
+        [ "PointParams", "structMR_1_1RenderDimensions_1_1PointParams.html", "structMR_1_1RenderDimensions_1_1PointParams" ],
+        [ "PointTask", "classMR_1_1RenderDimensions_1_1PointTask.html", "classMR_1_1RenderDimensions_1_1PointTask" ],
         [ "RadiusParams", "structMR_1_1RenderDimensions_1_1RadiusParams.html", "structMR_1_1RenderDimensions_1_1RadiusParams" ],
-        [ "RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", "classMR_1_1RenderDimensions_1_1RadiusTask" ]
+        [ "RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", "classMR_1_1RenderDimensions_1_1RadiusTask" ],
+        [ "Tolerance", "structMR_1_1RenderDimensions_1_1Tolerance.html", "structMR_1_1RenderDimensions_1_1Tolerance" ]
       ] ],
       [ "RenderFeatures", "namespaceMR_1_1RenderFeatures.html", [
         [ "detail", "namespaceMR_1_1RenderFeatures_1_1detail.html", [
+          [ "WrappedModelSubobjectBase", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" ],
           [ "WrappedModelSubobjectPart", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", null ],
           [ "WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4" ],
           [ "WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4" ],
@@ -195,6 +219,7 @@ var annotated_dup =
         [ "CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
         [ "CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", "structMR_1_1UI_1_1CheckboxOrModifierState" ],
         [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
+        [ "LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", "classMR_1_1UI_1_1LineAntialiasingDisabler" ],
         [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
         [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
         [ "RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", "structMR_1_1UI_1_1RadioButtonOrModifierState" ],
@@ -245,6 +270,7 @@ var annotated_dup =
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
       [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
       [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
+      [ "BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", "classMR_1_1BasicClickableRectUiRenderTask" ],
       [ "BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
       [ "BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", "classMR_1_1BasinVolumeCalculator" ],
       [ "BestFitParabola", "classMR_1_1BestFitParabola.html", "classMR_1_1BestFitParabola" ],
@@ -292,6 +318,7 @@ var annotated_dup =
       [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", "classMR_1_1ChangeObjectVisibilityAction" ],
       [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html", "classMR_1_1ChangeOneNormalInCloudAction" ],
       [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html", "classMR_1_1ChangeOnePointInCloudAction" ],
+      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html", "classMR_1_1ChangeOnePointInPolylineAction" ],
       [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", "classMR_1_1ChangePointCloudAction" ],
       [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", "classMR_1_1ChangePointCloudNormalsAction" ],
       [ "ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html", "classMR_1_1ChangePointCloudPointsAction" ],
@@ -323,6 +350,7 @@ var annotated_dup =
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
       [ "CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", "structMR_1_1CompensateRadiusParams" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
+      [ "ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", "structMR_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
       [ "Cone3Approximation", "classMR_1_1Cone3Approximation.html", "classMR_1_1Cone3Approximation" ],
       [ "Cone3ApproximationParams", "structMR_1_1Cone3ApproximationParams.html", "structMR_1_1Cone3ApproximationParams" ],
@@ -342,6 +370,7 @@ var annotated_dup =
       [ "CudaAccessor", "classMR_1_1CudaAccessor.html", "classMR_1_1CudaAccessor" ],
       [ "CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", "structMR_1_1CursorEntranceListener" ],
       [ "CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", "structMR_1_1CustomButtonParameters" ],
+      [ "CutByProjectionSettings", "structMR_1_1CutByProjectionSettings.html", "structMR_1_1CutByProjectionSettings" ],
       [ "CutMeshParameters", "structMR_1_1CutMeshParameters.html", "structMR_1_1CutMeshParameters" ],
       [ "CutMeshResult", "structMR_1_1CutMeshResult.html", "structMR_1_1CutMeshResult" ],
       [ "Cylinder3", "classMR_1_1Cylinder3.html", "classMR_1_1Cylinder3" ],
@@ -386,6 +415,7 @@ var annotated_dup =
       [ "DrawButtonParams", "structMR_1_1DrawButtonParams.html", "structMR_1_1DrawButtonParams" ],
       [ "DrawListener", "structMR_1_1DrawListener.html", "structMR_1_1DrawListener" ],
       [ "DrawSceneUiListener", "structMR_1_1DrawSceneUiListener.html", "structMR_1_1DrawSceneUiListener" ],
+      [ "DrawViewportWidgetsItem", "classMR_1_1DrawViewportWidgetsItem.html", "classMR_1_1DrawViewportWidgetsItem" ],
       [ "EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", "structMR_1_1EdgeLengthMesh" ],
       [ "EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", "classMR_1_1EdgePathsAStarBuilder" ],
       [ "EdgePathsBuilderT", "classMR_1_1EdgePathsBuilderT.html", "classMR_1_1EdgePathsBuilderT" ],
@@ -460,6 +490,7 @@ var annotated_dup =
       [ "HistoryStore", "classMR_1_1HistoryStore.html", "classMR_1_1HistoryStore" ],
       [ "HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", "structMR_1_1HoleEdgePoint" ],
       [ "HoleFillPlan", "structMR_1_1HoleFillPlan.html", "structMR_1_1HoleFillPlan" ],
+      [ "IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", "classMR_1_1IComputeToolDistance" ],
       [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
       [ "ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
       [ "ICPGroupPair", "structMR_1_1ICPGroupPair.html", "structMR_1_1ICPGroupPair" ],
@@ -501,8 +532,10 @@ var annotated_dup =
       [ "IsVisualizeMaskEnum< LabelVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html", null ],
       [ "IsVisualizeMaskEnum< LinesVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html", null ],
       [ "IsVisualizeMaskEnum< MeshVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html", null ],
+      [ "IsVisualizeMaskEnum< PointMeasurementVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html", null ],
       [ "IsVisualizeMaskEnum< PointsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html", null ],
       [ "IsVisualizeMaskEnum< VisualizeMaskType >", "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html", null ],
+      [ "ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", "classMR_1_1ItemEnabledPerViewport" ],
       [ "IteratorRange", "structMR_1_1IteratorRange.html", "structMR_1_1IteratorRange" ],
       [ "ITransformControls", "classMR_1_1ITransformControls.html", "classMR_1_1ITransformControls" ],
       [ "IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", "classMR_1_1IViewerSettingsManager" ],
@@ -617,6 +650,7 @@ var annotated_dup =
       [ "NumSum", "structMR_1_1NumSum.html", "structMR_1_1NumSum" ],
       [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
       [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", "classMR_1_1ObjectChildrenHolder" ],
+      [ "ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", "classMR_1_1ObjectComparableWithReference" ],
       [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
       [ "ObjectFactory", "classMR_1_1ObjectFactory.html", "classMR_1_1ObjectFactory" ],
       [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", "classMR_1_1ObjectFactoryBase" ],
@@ -690,6 +724,7 @@ var annotated_dup =
       [ "PointCloudPart", "structMR_1_1PointCloudPart.html", "structMR_1_1PointCloudPart" ],
       [ "PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", "structMR_1_1PointCloudRelaxParams" ],
       [ "PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", "structMR_1_1PointInAllSpaces" ],
+      [ "PointMeasurementObject", "classMR_1_1PointMeasurementObject.html", "classMR_1_1PointMeasurementObject" ],
       [ "PointObject", "classMR_1_1PointObject.html", "classMR_1_1PointObject" ],
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
       [ "PointOnObject", "structMR_1_1PointOnObject.html", "structMR_1_1PointOnObject" ],
@@ -720,6 +755,7 @@ var annotated_dup =
       [ "Polynomial", "structMR_1_1Polynomial.html", "structMR_1_1Polynomial" ],
       [ "PolynomialWrapper", "structMR_1_1PolynomialWrapper.html", "structMR_1_1PolynomialWrapper" ],
       [ "PositionedText", "structMR_1_1PositionedText.html", "structMR_1_1PositionedText" ],
+      [ "PositionVertsSmoothlyParams", "structMR_1_1PositionVertsSmoothlyParams.html", "structMR_1_1PositionVertsSmoothlyParams" ],
       [ "PostDrawListener", "structMR_1_1PostDrawListener.html", "structMR_1_1PostDrawListener" ],
       [ "PostFocusListener", "structMR_1_1PostFocusListener.html", "structMR_1_1PostFocusListener" ],
       [ "PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ],
@@ -729,9 +765,11 @@ var annotated_dup =
       [ "PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", "structMR_1_1PreciseVertCoords" ],
       [ "PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", "structMR_1_1PreciseVertCoords2" ],
       [ "PreDrawListener", "structMR_1_1PreDrawListener.html", "structMR_1_1PreDrawListener" ],
+      [ "PreSetupViewListener", "structMR_1_1PreSetupViewListener.html", "structMR_1_1PreSetupViewListener" ],
       [ "PriorityQueue", "classMR_1_1PriorityQueue.html", "classMR_1_1PriorityQueue" ],
       [ "ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", "structMR_1_1ProgressInterrupter" ],
       [ "ProjectAttributeParams", "structMR_1_1ProjectAttributeParams.html", "structMR_1_1ProjectAttributeParams" ],
+      [ "ProvidesViewportWidget", "classMR_1_1ProvidesViewportWidget.html", "classMR_1_1ProvidesViewportWidget" ],
       [ "PythonExport", "classMR_1_1PythonExport.html", "classMR_1_1PythonExport" ],
       [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", "structMR_1_1PythonFunctionAdder" ],
       [ "QuadraticForm", "structMR_1_1QuadraticForm.html", "structMR_1_1QuadraticForm" ],
@@ -764,6 +802,7 @@ var annotated_dup =
       [ "RenderNameObject", "classMR_1_1RenderNameObject.html", "classMR_1_1RenderNameObject" ],
       [ "RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", "classMR_1_1RenderObjectBuffer" ],
       [ "RenderObjectCombinator", "classMR_1_1RenderObjectCombinator.html", "classMR_1_1RenderObjectCombinator" ],
+      [ "RenderPointObject", "classMR_1_1RenderPointObject.html", "classMR_1_1RenderPointObject" ],
       [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ],
       [ "RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", "classMR_1_1RenderRadiusObject" ],
       [ "RenderResetDirtyComponent", "classMR_1_1RenderResetDirtyComponent.html", "classMR_1_1RenderResetDirtyComponent" ],
@@ -797,6 +836,7 @@ var annotated_dup =
       [ "RibbonSchema", "structMR_1_1RibbonSchema.html", "structMR_1_1RibbonSchema" ],
       [ "RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", "classMR_1_1RibbonSchemaHolder" ],
       [ "RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", "classMR_1_1RibbonSchemaLoader" ],
+      [ "RibbonSchemaLoadListener", "classMR_1_1RibbonSchemaLoadListener.html", "classMR_1_1RibbonSchemaLoadListener" ],
       [ "RibbonTab", "structMR_1_1RibbonTab.html", "structMR_1_1RibbonTab" ],
       [ "RigidScaleXf3", "structMR_1_1RigidScaleXf3.html", "structMR_1_1RigidScaleXf3" ],
       [ "RigidXf3", "structMR_1_1RigidXf3.html", "structMR_1_1RigidXf3" ],
@@ -891,6 +931,7 @@ var annotated_dup =
       [ "TerminalVertex", "structMR_1_1TerminalVertex.html", "structMR_1_1TerminalVertex" ],
       [ "TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", "structMR_1_1TextMeshAlignParams" ],
       [ "Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", "classMR_1_1Tgt2SrcMaps" ],
+      [ "ThickenParams", "structMR_1_1ThickenParams.html", "structMR_1_1ThickenParams" ],
       [ "ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", "structMR_1_1ThreadRootTimeRecord" ],
       [ "TiffParameters", "structMR_1_1TiffParameters.html", "structMR_1_1TiffParameters" ],
       [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],
@@ -964,6 +1005,7 @@ var annotated_dup =
       [ "ViewerTitle", "classMR_1_1ViewerTitle.html", "classMR_1_1ViewerTitle" ],
       [ "Viewport", "classMR_1_1Viewport.html", "classMR_1_1Viewport" ],
       [ "ViewportGL", "classMR_1_1ViewportGL.html", "classMR_1_1ViewportGL" ],
+      [ "ViewportGlobalBasis", "classMR_1_1ViewportGlobalBasis.html", "classMR_1_1ViewportGlobalBasis" ],
       [ "ViewportId", "classMR_1_1ViewportId.html", "classMR_1_1ViewportId" ],
       [ "ViewportIterator", "classMR_1_1ViewportIterator.html", "classMR_1_1ViewportIterator" ],
       [ "ViewportMask", "classMR_1_1ViewportMask.html", "classMR_1_1ViewportMask" ],
@@ -998,6 +1040,7 @@ var annotated_dup =
       [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
+      [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]
     ] ],
     [ "auto_cast_trait", "structauto__cast__trait.html", null ],

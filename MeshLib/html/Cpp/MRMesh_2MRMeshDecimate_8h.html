@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRMesh_2MRMeshDecimate_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -161,16 +160,17 @@ $(function(){initNavTree('MRMesh_2MRMeshDecimate_8h.html',''); initResizable(tru
 <code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;climits&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRMesh_2MRMeshDecimate_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html">MR::DecimateSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Collapse edges in mesh region according to the settings.">MR::decimateMesh</a>.  <a href="structMR_1_1DecimateSettings.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Performs mesh simplification in mesh region according to the settings.">MR::decimateMesh</a>.  <a href="structMR_1_1DecimateSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateResult.html">MR::DecimateResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Collapse edges in mesh region according to the settings.">MR::decimateMesh</a>.  <a href="structMR_1_1DecimateResult.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Performs mesh simplification in mesh region according to the settings.">MR::decimateMesh</a>.  <a href="structMR_1_1DecimateResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">MR::ResolveMeshDegenSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,8 +193,13 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga16a994862b0ba8f6a68c61463be0ed4e" id="r_ga16a994862b0ba8f6a68c61463be0ed4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e">MR::decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:ga16a994862b0ba8f6a68c61463be0ed4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in mesh region according to the settings.  <br /></td></tr>
+<tr class="memdesc:ga16a994862b0ba8f6a68c61463be0ed4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs mesh simplification in mesh region according to the settings.  <br /></td></tr>
 <tr class="separator:ga16a994862b0ba8f6a68c61463be0ed4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20348843fe2e838c097cdcb1ecba23b7" id="r_a20348843fe2e838c097cdcb1ecba23b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a20348843fe2e838c097cdcb1ecba23b7">MR::decimateObjectMeshData</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings)</td></tr>
+<tr class="separator:a20348843fe2e838c097cdcb1ecba23b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac418bb7b3d0a2041fa78205183f4d00a" id="r_ac418bb7b3d0a2041fa78205183f4d00a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac418bb7b3d0a2041fa78205183f4d00a">MR::makeDecimatedObjectMeshData</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings, <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a> *outRes=nullptr)</td></tr>
+<tr class="memdesc:ac418bb7b3d0a2041fa78205183f4d00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the data of decimated mesh given <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> (which remains unchanged) and decimation parameters  <br /></td></tr>
+<tr class="separator:ac418bb7b3d0a2041fa78205183f4d00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacb444edaf47dfdb3ecdd1e8e89947640" id="r_gacb444edaf47dfdb3ecdd1e8e89947640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> QuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#gacb444edaf47dfdb3ecdd1e8e89947640">MR::computeFormAtVertex</a> (const MeshPart &amp;mp, VertId v, float stabilizer, bool angleWeigted, const UndirectedEdgeBitSet *creases=nullptr)</td></tr>
 <tr class="memdesc:gacb444edaf47dfdb3ecdd1e8e89947640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <br /></td></tr>
 <tr class="separator:gacb444edaf47dfdb3ecdd1e8e89947640"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -3,8 +3,22 @@ var MRSystemPath_8h =
     [ "MR_std_filesystem_path", "MRSystemPath_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
     [ "MR_std_vector_std_array_std_filesystem_path_4", "MRSystemPath_8h.html#a3a17e15e4b66a301f71cac93df990e0c", null ],
     [ "MR_SystemPath", "MRSystemPath_8h.html#af29de8d6ca67e0ba0959a08446baca82", null ],
-    [ "MR_SystemPath_Directory", "MRSystemPath_8h.html#a14211c12c9f804ef899c656c1c7cfb46", null ],
-    [ "MR_SystemPath_SystemFontType", "MRSystemPath_8h.html#a9c922649d5e1a73e8dc2c36450eda659", null ],
+    [ "MR_SystemPath_Directory", "MRSystemPath_8h.html#ac81681648b9802837f3eef1c8d7d8eb8", null ],
+    [ "MR_SystemPath_SystemFontType", "MRSystemPath_8h.html#a0e3bc589c9efdedfe787f732c0223675", null ],
+    [ "MR_SystemPath_Directory", "MRSystemPath_8h.html#a70557e8d35dfa65b6cb36e9188560b8d", [
+      [ "MR_SystemPath_Directory_Resources", "MRSystemPath_8h.html#a70557e8d35dfa65b6cb36e9188560b8da8b9e0f9217140c7722033559155bbf3d", null ],
+      [ "MR_SystemPath_Directory_Fonts", "MRSystemPath_8h.html#a70557e8d35dfa65b6cb36e9188560b8da74f2b27af2e90345c92a98e0a83338b5", null ],
+      [ "MR_SystemPath_Directory_Plugins", "MRSystemPath_8h.html#a70557e8d35dfa65b6cb36e9188560b8da9fd2c7310c4d5ba08ee6a928e9eed194", null ],
+      [ "MR_SystemPath_Directory_PythonModules", "MRSystemPath_8h.html#a70557e8d35dfa65b6cb36e9188560b8da8b2abccbf088a0be1a53828a8728dc6d", null ],
+      [ "MR_SystemPath_Directory_Count", "MRSystemPath_8h.html#a70557e8d35dfa65b6cb36e9188560b8dae561935baf0248ed439e4811b796c554", null ]
+    ] ],
+    [ "MR_SystemPath_SystemFontType", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67", [
+      [ "MR_SystemPath_SystemFontType_Regular", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67a4fc55a89174256b03e8031864f248bac", null ],
+      [ "MR_SystemPath_SystemFontType_Bold", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67abf08d81aac574c56f2225132d1d18101", null ],
+      [ "MR_SystemPath_SystemFontType_Italic", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67a073462eed4a1077f66f478797091b31a", null ],
+      [ "MR_SystemPath_SystemFontType_BoldItalic", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67a901831291904b0b2c756285b51d43b3c", null ],
+      [ "MR_SystemPath_SystemFontType_Count", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8", null ]
+    ] ],
     [ "MR_SystemPath_AssignFromAnother", "MRSystemPath_8h.html#a75604acbd9a81e192361377186095f7e", null ],
     [ "MR_SystemPath_ConstructFromAnother", "MRSystemPath_8h.html#a08acfa548ee0c70010bc82d758993faf", null ],
     [ "MR_SystemPath_DefaultConstruct", "MRSystemPath_8h.html#ad19f1ec2d46eab7b759aa82b74b33957", null ],

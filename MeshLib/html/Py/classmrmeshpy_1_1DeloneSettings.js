@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1DeloneSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#a90339f6a8aa00ae65e73579898f5499c", null ],
+    [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#a16ba078a461520d1302ad3a7db234316", null ],
     [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#af8904d9e6a46b4093ed7983f36afe874", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1DeloneSettings.html#a6f3e0cd4d7fd8fcdeac0587b83569177", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1DeloneSettings.html#a84ce44bad6da1e16d66848bb4f438b83", null ],

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1RibbonMenuUIConfig.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -181,6 +180,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6ef8462bce49279a9ec938eb5cc74d8e" id="r_a6ef8462bce49279a9ec938eb5cc74d8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ef8462bce49279a9ec938eb5cc74d8e">drawNotifications</a> { true }</td></tr>
 <tr class="memdesc:a6ef8462bce49279a9ec938eb5cc74d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if false - no notifications are drawn on screen  <br /></td></tr>
 <tr class="separator:a6ef8462bce49279a9ec938eb5cc74d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6822db982eca1e5929cebbf20f784a9" id="r_ae6822db982eca1e5929cebbf20f784a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6822db982eca1e5929cebbf20f784a9">drawSearchBar</a> { true }</td></tr>
+<tr class="memdesc:ae6822db982eca1e5929cebbf20f784a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">if false - hides search bar at the header panel of ribbon  <br /></td></tr>
+<tr class="separator:ae6822db982eca1e5929cebbf20f784a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03e35b23d40e46fa4358fad1f6745421" id="r_a03e35b23d40e46fa4358fad1f6745421"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03e35b23d40e46fa4358fad1f6745421">helpLink</a> = &quot;https://meshinspector.com/inapphelp/&quot;</td></tr>
+<tr class="memdesc:a03e35b23d40e46fa4358fad1f6745421"><td class="mdescLeft">&#160;</td><td class="mdescRight">help btn leads to this page, if empty - no help btn is drawn  <br /></td></tr>
+<tr class="separator:a03e35b23d40e46fa4358fad1f6745421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab79facceed1e2c0b1f3a9daddcb6548e" name="ab79facceed1e2c0b1f3a9daddcb6548e"></a>
@@ -257,6 +262,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae6822db982eca1e5929cebbf20f784a9" name="ae6822db982eca1e5929cebbf20f784a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6822db982eca1e5929cebbf20f784a9">&#9670;&#160;</a></span>drawSearchBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RibbonMenuUIConfig::drawSearchBar { true }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if false - hides search bar at the header panel of ribbon </p>
+
+</div>
+</div>
 <a id="ad18443e86e7f3e8dee09d47d835657d6" name="ad18443e86e7f3e8dee09d47d835657d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad18443e86e7f3e8dee09d47d835657d6">&#9670;&#160;</a></span>drawToolbar</h2>
 
@@ -286,6 +307,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if false - window with viewport label and id will be hidden </p>
+
+</div>
+</div>
+<a id="a03e35b23d40e46fa4358fad1f6745421" name="a03e35b23d40e46fa4358fad1f6745421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03e35b23d40e46fa4358fad1f6745421">&#9670;&#160;</a></span>helpLink</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::RibbonMenuUIConfig::helpLink = &quot;https://meshinspector.com/inapphelp/&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>help btn leads to this page, if empty - no help btn is drawn </p>
 
 </div>
 </div>

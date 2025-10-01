@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRIterativeSampling_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -153,26 +152,24 @@ $(function(){initNavTree('MRIterativeSampling_8h_source.html',''); initResizable
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#aa319738c95f0bbde075b7ef777cf2665">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRPointCloud.h&gt;`.</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#adb03ce28cacfff1e499d75d512dc4a84">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_function_bool_from_float.h&gt;`.</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> <a class="code hl_typedef" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_optional_MR_VertBitSet.h&gt;`.</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#abbeb6a69bdd34de6cb50cd679562f803">   24</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> *<a class="code hl_function" href="MRIterativeSampling_8h.html#abbeb6a69bdd34de6cb50cd679562f803">MR_pointIterativeSampling</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, int32_t numSamples, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#aa319738c95f0bbde075b7ef777cf2665">    9</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRPointCloud.h&gt;`.</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#adb03ce28cacfff1e499d75d512dc4a84">   10</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_function_bool_from_float.h&gt;`.</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> <a class="code hl_typedef" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_optional_MR_VertBitSet.h&gt;`.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRIterativeSampling_8h.html#a603549d885b19de8cac37bb9dad1d6e1">   22</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> *<a class="code hl_function" href="MRIterativeSampling_8h.html#a603549d885b19de8cac37bb9dad1d6e1">MR_pointIterativeSampling</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <span class="keywordtype">int</span> numSamples, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMR3mf_8h_html_adb03ce28cacfff1e499d75d512dc4a84"><div class="ttname"><a href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></div><div class="ttdeci">struct MR_std_function_bool_from_float MR_std_function_bool_from_float</div><div class="ttdef"><b>Definition</b> MR3mf.h:10</div></div>
 <div class="ttc" id="aMRCloseVertices_8h_html_a0d97f913ba505f7b3b5f786c0437a6dc"><div class="ttname"><a href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a></div><div class="ttdeci">struct MR_std_optional_MR_VertBitSet MR_std_optional_MR_VertBitSet</div><div class="ttdef"><b>Definition</b> MRCloseVertices.h:19</div></div>
-<div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div><div class="ttdef"><b>Definition</b> MRCtm.h:15</div></div>
-<div class="ttc" id="aMRIterativeSampling_8h_html_abbeb6a69bdd34de6cb50cd679562f803"><div class="ttname"><a href="MRIterativeSampling_8h.html#abbeb6a69bdd34de6cb50cd679562f803">MR_pointIterativeSampling</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertBitSet * MR_pointIterativeSampling(const MR_PointCloud *cloud, int32_t numSamples, const MR_std_function_bool_from_float *cb)</div></div>
+<div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div><div class="ttdef"><b>Definition</b> MRCtm.h:14</div></div>
+<div class="ttc" id="aMRIterativeSampling_8h_html_a603549d885b19de8cac37bb9dad1d6e1"><div class="ttname"><a href="MRIterativeSampling_8h.html#a603549d885b19de8cac37bb9dad1d6e1">MR_pointIterativeSampling</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertBitSet * MR_pointIterativeSampling(const MR_PointCloud *cloud, int numSamples, const MR_std_function_bool_from_float *cb)</div></div>
 <div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
 <div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->

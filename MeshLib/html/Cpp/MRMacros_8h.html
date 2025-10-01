@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRMacros_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -168,8 +167,12 @@ Macros</h2></td></tr>
 <tr class="separator:a98c9bc1fa1800fdfc987995748d5944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb6de717e0b06df733796fec2da272a" id="r_a4cb6de717e0b06df733796fec2da272a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>(a,  b)&#160;&#160;&#160;<a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>( a, b )</td></tr>
 <tr class="separator:a4cb6de717e0b06df733796fec2da272a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac35e66533e158a4bf53982a2c109bd09" id="r_ac35e66533e158a4bf53982a2c109bd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a ## b</td></tr>
+<tr class="memitem:ac35e66533e158a4bf53982a2c109bd09" id="r_ac35e66533e158a4bf53982a2c109bd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a##b</td></tr>
 <tr class="separator:ac35e66533e158a4bf53982a2c109bd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54bd8b99129600a52a3261e1527412e5" id="r_a54bd8b99129600a52a3261e1527412e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54bd8b99129600a52a3261e1527412e5">MR_CONCAT3</a>(a,  b,  c)&#160;&#160;&#160;<a class="el" href="#a8e4c97f3488b7d743a2f01f7487f3cdc">MR_CONCAT3_</a>( a, b, c )</td></tr>
+<tr class="separator:a54bd8b99129600a52a3261e1527412e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4c97f3488b7d743a2f01f7487f3cdc" id="r_a8e4c97f3488b7d743a2f01f7487f3cdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4c97f3488b7d743a2f01f7487f3cdc">MR_CONCAT3_</a>(a,  b,  c)&#160;&#160;&#160;a##b##c</td></tr>
+<tr class="separator:a8e4c97f3488b7d743a2f01f7487f3cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2577133e8c02d830609dc0c74a53949" id="r_af2577133e8c02d830609dc0c74a53949"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2577133e8c02d830609dc0c74a53949">MR_HAS_REQUIRES</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:af2577133e8c02d830609dc0c74a53949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb4b71f9ebce86e54868bd967010ebbb" id="r_adb4b71f9ebce86e54868bd967010ebbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(...)</td></tr>
@@ -264,6 +267,58 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a54bd8b99129600a52a3261e1527412e5" name="a54bd8b99129600a52a3261e1527412e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bd8b99129600a52a3261e1527412e5">&#9670;&#160;</a></span>MR_CONCAT3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_CONCAT3</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="#a8e4c97f3488b7d743a2f01f7487f3cdc">MR_CONCAT3_</a>( a, b, c )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e4c97f3488b7d743a2f01f7487f3cdc" name="a8e4c97f3488b7d743a2f01f7487f3cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4c97f3488b7d743a2f01f7487f3cdc">&#9670;&#160;</a></span>MR_CONCAT3_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_CONCAT3_</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)&#160;&#160;&#160;a##b##c</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac35e66533e158a4bf53982a2c109bd09" name="ac35e66533e158a4bf53982a2c109bd09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac35e66533e158a4bf53982a2c109bd09">&#9670;&#160;</a></span>MR_CONCAT_</h2>
 
@@ -278,7 +333,7 @@ Macros</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)&#160;&#160;&#160;a ## b</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)&#160;&#160;&#160;a##b</td>
         </tr>
       </table>
 </div><div class="memdoc">

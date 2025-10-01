@@ -1,7 +1,8 @@
 var classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume =
 [
-    [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#aaafc212811d603a9c746e7f4dec3e51c", null ],
     [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#ab19798798fc879a42cea41e03c10eb3b", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#a257adde0e5a878fa213142beb78d4460", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#aaafc212811d603a9c746e7f4dec3e51c", null ],
     [ "getOffsetVector", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#a9c237fdfaa3265761429264498389a35", null ],
     [ "getPoints", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#a8d3c02e19871458c2b53bdc1449bda80", null ],
     [ "getValue", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__FunctionVolume.html#a6e53ca6ff34807e8477d7c1e18822c0b", null ],

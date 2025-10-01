@@ -9,7 +9,9 @@ var MRObjectsAccess_8h =
     [ "getTopmostObjects", "MRObjectsAccess_8h.html#acc9b485a213ffb2eef8b1f8736275915", null ],
     [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#a1bbf155b27ef19dd7f54b2e9a534f397", null ],
     [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#a7afd4c6187926b10b71f8631961165a0", null ],
-    [ "objectHasSelectableChildren", "MRObjectsAccess_8h.html#a8e83df3805927f1f6c006f596809d97a", null ],
+    [ "objectHasSelectableChildren", "MRObjectsAccess_8h.html#a7974cb0413a1baab9b74f14a1d14f410", null ],
+    [ "LocalSelectable", "MRObjectsAccess_8h.html#a502be4569ebb4f92d7ce2f38551965f4", null ],
+    [ "LocalSelected", "MRObjectsAccess_8h.html#a753ba03bf027d69237fecc008d1f0bec", null ],
     [ "Selectable", "MRObjectsAccess_8h.html#a22f25a3d5d44b6ce0dd9cbf858973ae3", null ],
     [ "Selected", "MRObjectsAccess_8h.html#a7c5b97c375750d43c6fc0f0a459fd9a3", null ]
 ];

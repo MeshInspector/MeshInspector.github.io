@@ -35,6 +35,7 @@ var classMR_1_1Palette =
     [ "setBaseColors", "classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49", null ],
     [ "setCustomLabels", "classMR_1_1Palette.html#a50944144ea783bb242d09a0601738ace", null ],
     [ "setDiscretizationNumber", "classMR_1_1Palette.html#a95993f62dda52bd555e9902cb0663a68", null ],
+    [ "setDrawDelayFrames", "classMR_1_1Palette.html#a00a0bcbe50c5eecc452fb6ea1bfd4d31", null ],
     [ "setFilterType", "classMR_1_1Palette.html#a1db62c44796f0e849665e352c9d02f61", null ],
     [ "setLabelsVisible", "classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73", null ],
     [ "setLegendLimits", "classMR_1_1Palette.html#a55fe096aec459b2721c9b619f977f4b2", null ],

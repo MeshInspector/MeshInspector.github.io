@@ -35,8 +35,9 @@ var menudata={children:[
 {text:"Tutorials",url:"../Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
 {text:"Examples",url:"../Examples.html",children:[
+{text:"C++ Application Based on MeshLib",url:"../Examples.html#CppApplication",children:[
+{text:"Application Based on MeshLib",url:"../BasedApplication.html"}]},
 {text:"General Samples",url:"../Examples.html#GeneralExamples",children:[
-{text:"Application Based on MeshLib",url:"../BasedApplication.html"},
 {text:"Mesh Load and Save",url:"../ExampleMeshLoadSave.html"},
 {text:"Export Raw Triangles",url:"../ExampleMeshExport.html"},
 {text:"Mesh Modification",url:"../ExampleMeshModification.html"},
@@ -62,8 +63,13 @@ var menudata={children:[
 {text:"Terrain Triangulation",url:"../ExampleTerrainTriangulation.html"},
 {text:"Fusion",url:"../ExampleFusion.html"},
 {text:"Text to Mesh",url:"../ExampleMeshFromText.html"}]},
+{text:"Collisions",url:"../Examples.html#Collisions",children:[
+{text:"Detect Collisions",url:"../ExampleDetectCollisions.html"},
+{text:"Detect Collisions Precise",url:"../ExampleDetectCollisionsPrecise.html"},
+{text:"Detect Self-Intersections",url:"../ExampleDetectSelfIntersections.html"}]},
 {text:"Python Specific Samples",url:"../Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"../ExampleViewer.html"},
+{text:"Volume Rendering",url:"../ExampleViewerVolumeRender.html"},
 {text:"Plotly Visualization",url:"../ExamplePlotly.html"},
 {text:"Using Numpy",url:"../ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"},
@@ -95,6 +101,7 @@ var menudata={children:[
 {text:"g",url:"namespacemembers_g.html#index_g"},
 {text:"h",url:"namespacemembers_h.html#index_h"},
 {text:"i",url:"namespacemembers_i.html#index_i"},
+{text:"k",url:"namespacemembers_k.html#index_k"},
 {text:"l",url:"namespacemembers_l.html#index_l"},
 {text:"m",url:"namespacemembers_m.html#index_m"},
 {text:"n",url:"namespacemembers_n.html#index_n"},
@@ -152,7 +159,8 @@ var menudata={children:[
 {text:"s",url:"namespacemembers_vars.html#index_s"},
 {text:"t",url:"namespacemembers_vars.html#index_t"},
 {text:"u",url:"namespacemembers_vars.html#index_u"},
-{text:"v",url:"namespacemembers_vars.html#index_v"}]},
+{text:"v",url:"namespacemembers_vars.html#index_v"},
+{text:"w",url:"namespacemembers_vars.html#index_w"}]},
 {text:"Typedefs",url:"namespacemembers_type.html",children:[
 {text:"a",url:"namespacemembers_type.html#index_a"},
 {text:"b",url:"namespacemembers_type_b.html#index_b"},
@@ -184,6 +192,7 @@ var menudata={children:[
 {text:"f",url:"namespacemembers_enum.html#index_f"},
 {text:"g",url:"namespacemembers_enum.html#index_g"},
 {text:"i",url:"namespacemembers_enum.html#index_i"},
+{text:"k",url:"namespacemembers_enum.html#index_k"},
 {text:"l",url:"namespacemembers_enum.html#index_l"},
 {text:"m",url:"namespacemembers_enum.html#index_m"},
 {text:"n",url:"namespacemembers_enum.html#index_n"},
@@ -195,7 +204,8 @@ var menudata={children:[
 {text:"t",url:"namespacemembers_enum.html#index_t"},
 {text:"u",url:"namespacemembers_enum.html#index_u"},
 {text:"v",url:"namespacemembers_enum.html#index_v"},
-{text:"w",url:"namespacemembers_enum.html#index_w"}]},
+{text:"w",url:"namespacemembers_enum.html#index_w"},
+{text:"z",url:"namespacemembers_enum.html#index_z"}]},
 {text:"Enumerator",url:"namespacemembers_eval.html",children:[
 {text:"c",url:"namespacemembers_eval.html#index_c"},
 {text:"d",url:"namespacemembers_eval.html#index_d"},
@@ -337,6 +347,7 @@ var menudata={children:[
 {text:"r",url:"functions_enum.html#index_r"},
 {text:"s",url:"functions_enum.html#index_s"},
 {text:"t",url:"functions_enum.html#index_t"},
+{text:"u",url:"functions_enum.html#index_u"},
 {text:"v",url:"functions_enum.html#index_v"},
 {text:"w",url:"functions_enum.html#index_w"}]},
 {text:"Enumerator",url:"functions_eval.html",children:[
@@ -368,6 +379,7 @@ var menudata={children:[
 {text:"g",url:"functions_rela.html#index_g"},
 {text:"m",url:"functions_rela.html#index_m"},
 {text:"o",url:"functions_rela.html#index_o"},
+{text:"r",url:"functions_rela.html#index_r"},
 {text:"s",url:"functions_rela.html#index_s"},
 {text:"t",url:"functions_rela.html#index_t"},
 {text:"u",url:"functions_rela.html#index_u"}]}]}]},

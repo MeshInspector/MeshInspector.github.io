@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRPositionVertsSmoothly_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -160,6 +159,8 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1InflateSettings.html">MR::InflateSettings</a></td></tr>
@@ -176,10 +177,13 @@ Functions</h2></td></tr>
 <tr class="separator:ae86354c05ad9fa894a5dd8c50099d7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a95c920b7f5516228030dfcec13b882" id="r_a2a95c920b7f5516228030dfcec13b882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2a95c920b7f5516228030dfcec13b882">MR::positionVertsSmoothly</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const VertBitSet &amp;verts, <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> edgeWeights=<a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a>, <a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> vmass=<a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a>, const VertBitSet *fixedSharpVertices=nullptr)</td></tr>
 <tr class="separator:a2a95c920b7f5516228030dfcec13b882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44cdfa0fa0f605b3ff29d5437e8a93d8" id="r_a44cdfa0fa0f605b3ff29d5437e8a93d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; *vertShifts=nullptr, const VertScalars *vertStabilizers=nullptr)</td></tr>
-<tr class="separator:a44cdfa0fa0f605b3ff29d5437e8a93d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee32fa354138e9639ff564f91e9d9c50" id="r_aee32fa354138e9639ff564f91e9d9c50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aee32fa354138e9639ff564f91e9d9c50">MR::positionVertsSmoothlySharpBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const VertBitSet &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; *vertShifts=nullptr, const VertScalars *vertStabilizers=nullptr)</td></tr>
-<tr class="separator:aee32fa354138e9639ff564f91e9d9c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8dd3b249e646ab92cf9d312ffac6e2e" id="r_af8dd3b249e646ab92cf9d312ffac6e2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af8dd3b249e646ab92cf9d312ffac6e2e">MR::positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">PositionVertsSmoothlyParams</a> &amp;params)</td></tr>
+<tr class="memdesc:af8dd3b249e646ab92cf9d312ffac6e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary;.  <br /></td></tr>
+<tr class="separator:af8dd3b249e646ab92cf9d312ffac6e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d87a4678ed70cd745acfc832ec73b1c" id="r_a8d87a4678ed70cd745acfc832ec73b1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8d87a4678ed70cd745acfc832ec73b1c">MR::positionVertsSmoothlySharpBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">PositionVertsSmoothlyParams</a> &amp;params)</td></tr>
+<tr class="separator:a8d87a4678ed70cd745acfc832ec73b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56c678ffffb2817ff5828b4e9a195fe" id="r_ac56c678ffffb2817ff5828b4e9a195fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac56c678ffffb2817ff5828b4e9a195fe">MR::positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts)</td></tr>
+<tr class="separator:ac56c678ffffb2817ff5828b4e9a195fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d34390e42800882d558656d3ea89684" id="r_a1d34390e42800882d558656d3ea89684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1d34390e42800882d558656d3ea89684">MR::positionVertsWithSpacing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:a1d34390e42800882d558656d3ea89684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves given vertices to make the distances between them as specified.  <br /></td></tr>
 <tr class="separator:a1d34390e42800882d558656d3ea89684"><td class="memSeparator" colspan="2">&#160;</td></tr>

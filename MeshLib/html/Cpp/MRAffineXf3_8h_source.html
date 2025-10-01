@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRAffineXf3_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -162,7 +161,7 @@ $(function(){initNavTree('MRAffineXf3_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">   18</a></span><a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3&lt;T&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; center, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; eye, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; up )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = (center - eye).normalized();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">const</span> <span class="keyword">auto</span> s = cross( f, up ).normalized();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">const</span> <span class="keyword">auto</span> s = cross( f, up ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3f.html#a21941fed01311ff39af20578e833dbf2">normalized</a>();</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">const</span> <span class="keyword">auto</span> u = cross( s, f );</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">return</span> AffineXf3f{ </div>
@@ -175,10 +174,11 @@ $(function(){initNavTree('MRAffineXf3_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRAffineXf_8h_html"><div class="ttname"><a href="MRMesh_2MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMatrix3_8h_html"><div class="ttname"><a href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html_a21941fed01311ff39af20578e833dbf2"><div class="ttname"><a href="../Py/classmrmeshpy_1_1Vector3f.html#a21941fed01311ff39af20578e833dbf2">mrmeshpy::Vector3f::normalized</a></div><div class="ttdeci">Vector3f normalized(self)</div></div>
 <div class="ttc" id="agroup__MathGroup_html_ga9ae923a2855ed035b5d5f74b3162c0da"><div class="ttname"><a href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">MR::lookAt</a></div><div class="ttdeci">AffineXf3&lt; T &gt; lookAt(const Vector3&lt; T &gt; &amp;center, const Vector3&lt; T &gt; &amp;eye, const Vector3&lt; T &gt; &amp;up)</div><div class="ttdoc">computes rigid transformation xf</div><div class="ttdef"><b>Definition</b> MRAffineXf3.h:18</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:21</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:28</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

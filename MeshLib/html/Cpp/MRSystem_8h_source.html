@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRSystem_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -205,7 +204,7 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif </span><span class="comment">//_WIN32</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">// returns version of MR</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36">   57</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string <a class="code hl_function" href="namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36">GetMRVersionString</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespaceMR.html#a30ab310d8783b53dbd1a71407ebfdbe9">   57</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> <span class="keywordtype">char</span> * <a class="code hl_function" href="namespaceMR.html#a30ab310d8783b53dbd1a71407ebfdbe9">GetMRVersionString</a>();</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">// Opens given link in default browser</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="namespaceMR.html#aec820d50ac448217d66131a079fce39a">   60</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#aec820d50ac448217d66131a079fce39a">OpenLink</a>( <span class="keyword">const</span> std::string&amp; url );</div>
@@ -261,6 +260,7 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a2d2055c8154d0075f8388ca7579fd794"><div class="ttname"><a href="namespaceMR.html#a2d2055c8154d0075f8388ca7579fd794">MR::OpenDocument</a></div><div class="ttdeci">MRMESH_API bool OpenDocument(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="anamespaceMR_html_a2ddb2bd9b31853c37146f070b0b472c1"><div class="ttname"><a href="namespaceMR.html#a2ddb2bd9b31853c37146f070b0b472c1">MR::GetHomeDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetHomeDirectory()</div></div>
+<div class="ttc" id="anamespaceMR_html_a30ab310d8783b53dbd1a71407ebfdbe9"><div class="ttname"><a href="namespaceMR.html#a30ab310d8783b53dbd1a71407ebfdbe9">MR::GetMRVersionString</a></div><div class="ttdeci">MRMESH_API const char * GetMRVersionString()</div></div>
 <div class="ttc" id="anamespaceMR_html_a3ba2aca05f28a3dd3c05cb49fbf09b66"><div class="ttname"><a href="namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">MR::getSystemMemory</a></div><div class="ttdeci">MRMESH_API SystemMemory getSystemMemory()</div><div class="ttdoc">return information about memory available in the system</div></div>
 <div class="ttc" id="anamespaceMR_html_a4495a70f291d11bdf905106b2a3856b5"><div class="ttname"><a href="namespaceMR.html#a4495a70f291d11bdf905106b2a3856b5">MR::getOSNoSpaces</a></div><div class="ttdeci">MRMESH_API std::string getOSNoSpaces()</div></div>
 <div class="ttc" id="anamespaceMR_html_a48fac29c948998d756efa56e0d362cc5"><div class="ttname"><a href="namespaceMR.html#a48fac29c948998d756efa56e0d362cc5">MR::GetEmbeddedPythonDirectory</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE std::filesystem::path GetEmbeddedPythonDirectory()</div></div>
@@ -276,7 +276,6 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_a940976ea08ba36431b30464cba7a9023"><div class="ttname"><a href="namespaceMR.html#a940976ea08ba36431b30464cba7a9023">MR::GetExeDirectory</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE std::filesystem::path GetExeDirectory()</div></div>
 <div class="ttc" id="anamespaceMR_html_abc117ae5bf8ce3683d73b2fc8e37cde1"><div class="ttname"><a href="namespaceMR.html#abc117ae5bf8ce3683d73b2fc8e37cde1">MR::SetCurrentThreadName</a></div><div class="ttdeci">MRMESH_API void SetCurrentThreadName(const char *name)</div></div>
 <div class="ttc" id="anamespaceMR_html_abf9e7451b5087b4485b6207161438dc3"><div class="ttname"><a href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">MR::FileNamesStack</a></div><div class="ttdeci">std::vector&lt; std::filesystem::path &gt; FileNamesStack</div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:14</div></div>
-<div class="ttc" id="anamespaceMR_html_ac6f40535c1b612f6ce24e70b7ee28a36"><div class="ttname"><a href="namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36">MR::GetMRVersionString</a></div><div class="ttdeci">MRMESH_API std::string GetMRVersionString()</div></div>
 <div class="ttc" id="anamespaceMR_html_ac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:10</div></div>
 <div class="ttc" id="anamespaceMR_html_ac8ef1e5eb550d8cb502e7a5a5ac8c038"><div class="ttname"><a href="namespaceMR.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038">MR::getUserConfigDir</a></div><div class="ttdeci">MRMESH_API std::filesystem::path getUserConfigDir()</div></div>
 <div class="ttc" id="anamespaceMR_html_ad01e0850be9f75dcc1d0bd461787535f"><div class="ttname"><a href="namespaceMR.html#ad01e0850be9f75dcc1d0bd461787535f">MR::GetResourcesDirectory</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE std::filesystem::path GetResourcesDirectory()</div></div>

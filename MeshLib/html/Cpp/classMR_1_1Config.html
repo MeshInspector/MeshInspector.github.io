@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/classMR_1_1Config.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -204,6 +203,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a74e68ee927a517e8d641aa7dbaa0a3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3388c3cd27c60f2c4a990ef889f58b70" id="r_a3388c3cd27c60f2c4a990ef889f58b70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3388c3cd27c60f2c4a990ef889f58b70">setEnum</a> (const <a class="el" href="#a3933d06b4e35a4f309cff393747e1f2f">Enum</a> &amp;enumeration, const std::string &amp;key, int keyValue)</td></tr>
 <tr class="separator:a3388c3cd27c60f2c4a990ef889f58b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbc5ddb2be70cb120f537f88ed716a5" id="r_a8bbc5ddb2be70cb120f537f88ed716a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bbc5ddb2be70cb120f537f88ed716a5">hasViewportMask</a> (const std::string &amp;key) const</td></tr>
+<tr class="separator:a8bbc5ddb2be70cb120f537f88ed716a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf8b4307b0d1edb41a8606c59f98fca1" id="r_aaf8b4307b0d1edb41a8606c59f98fca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf8b4307b0d1edb41a8606c59f98fca1">getViewportMask</a> (const std::string &amp;key, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> defaultValue={}) const</td></tr>
+<tr class="separator:aaf8b4307b0d1edb41a8606c59f98fca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca8ad2571fde2ff0a492612ede6afb4c" id="r_aca8ad2571fde2ff0a492612ede6afb4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca8ad2571fde2ff0a492612ede6afb4c">setViewportMask</a> (const std::string &amp;key, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> newValue)</td></tr>
+<tr class="separator:aca8ad2571fde2ff0a492612ede6afb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8762966496b6267975c855b7b47d3ca" id="r_af8762966496b6267975c855b7b47d3ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8762966496b6267975c855b7b47d3ca">hasJsonValue</a> (const std::string &amp;key)</td></tr>
 <tr class="separator:af8762966496b6267975c855b7b47d3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2eb8802aad4bfd9072566fa434036ce" id="r_ad2eb8802aad4bfd9072566fa434036ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Json::Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2eb8802aad4bfd9072566fa434036ce">getJsonValue</a> (const std::string &amp;key, const Json::Value &amp;defaultValue={})</td></tr>
@@ -406,6 +411,27 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aaf8b4307b0d1edb41a8606c59f98fca1" name="aaf8b4307b0d1edb41a8606c59f98fca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf8b4307b0d1edb41a8606c59f98fca1">&#9670;&#160;</a></span>getViewportMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> MR::Config::getViewportMask </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a></td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7b31d052c0355b2163f1faf7ad8f42c9" name="a7b31d052c0355b2163f1faf7ad8f42c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b31d052c0355b2163f1faf7ad8f42c9">&#9670;&#160;</a></span>hasBool()</h2>
 
@@ -503,6 +529,23 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::Config::hasVector2i </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bbc5ddb2be70cb120f537f88ed716a5" name="a8bbc5ddb2be70cb120f537f88ed716a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbc5ddb2be70cb120f537f88ed716a5">&#9670;&#160;</a></span>hasViewportMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::Config::hasViewportMask </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
           <td> const</td>
@@ -704,6 +747,27 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>keyValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca8ad2571fde2ff0a492612ede6afb4c" name="aca8ad2571fde2ff0a492612ede6afb4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca8ad2571fde2ff0a492612ede6afb4c">&#9670;&#160;</a></span>setViewportMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Config::setViewportMask </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a></td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

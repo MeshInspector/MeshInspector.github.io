@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRMeshDelone_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRMeshDelone_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRMeshDelone_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -186,19 +184,19 @@ Typedefs</h2></td></tr>
 <tr class="memitem:af90f4b39ad520e70053fc29ba9bb57c7" id="r_af90f4b39ad520e70053fc29ba9bb57c7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a></td></tr>
 <tr class="memdesc:af90f4b39ad520e70053fc29ba9bb57c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code>.  <br /></td></tr>
 <tr class="separator:af90f4b39ad520e70053fc29ba9bb57c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47f4b0063e899863c39907df0ccc21ff" id="r_a47f4b0063e899863c39907df0ccc21ff"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47f4b0063e899863c39907df0ccc21ff">MR_FlipEdge</a></td></tr>
-<tr class="separator:a47f4b0063e899863c39907df0ccc21ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25812984958f89a4d14d48a2bcf46824" id="r_a25812984958f89a4d14d48a2bcf46824"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25812984958f89a4d14d48a2bcf46824">MR_FlipEdge</a></td></tr>
+<tr class="separator:a25812984958f89a4d14d48a2bcf46824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41a41039ee70031a05a4562044cce3ca" id="r_a41a41039ee70031a05a4562044cce3ca"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a></td></tr>
 <tr class="memdesc:a41a41039ee70031a05a4562044cce3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code>.  <br /></td></tr>
 <tr class="separator:a41a41039ee70031a05a4562044cce3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2970898e8a43ce21e1cc510d49f1b89d" id="r_a2970898e8a43ce21e1cc510d49f1b89d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a2970898e8a43ce21e1cc510d49f1b89da1e535a74c97b4c58ecdef88940d255d0">MR_FlipEdge_Can</a> = 0
-, <a class="el" href="#a2970898e8a43ce21e1cc510d49f1b89daa30a4a3b259653566dd43cfb4f281a8e">MR_FlipEdge_Cannot</a> = 1
-, <a class="el" href="#a2970898e8a43ce21e1cc510d49f1b89dab516cff6dfa2c661ad2a72861328085b">MR_FlipEdge_Must</a> = 2
+<tr class="memitem:aa76435b4ee48431a19de6d633c8833ae" id="r_aa76435b4ee48431a19de6d633c8833ae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a> { <a class="el" href="#aa76435b4ee48431a19de6d633c8833aea1e535a74c97b4c58ecdef88940d255d0">MR_FlipEdge_Can</a> = 0
+, <a class="el" href="#aa76435b4ee48431a19de6d633c8833aeaa30a4a3b259653566dd43cfb4f281a8e">MR_FlipEdge_Cannot</a> = 1
+, <a class="el" href="#aa76435b4ee48431a19de6d633c8833aeab516cff6dfa2c661ad2a72861328085b">MR_FlipEdge_Must</a> = 2
  }</td></tr>
-<tr class="separator:a2970898e8a43ce21e1cc510d49f1b89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aa76435b4ee48431a19de6d633c8833ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -264,7 +262,7 @@ Functions</h2></td></tr>
 <tr class="separator:a0a7383636af3a845c54d33e4be2659e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81682aadf8efb9f4682ead4feeea3c5" id="r_ae81682aadf8efb9f4682ead4feeea3c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81682aadf8efb9f4682ead4feeea3c5">MR_checkDeloneQuadrangle_MR_Vector3f</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *a, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *b, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *c, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *d, const float *maxAngleChange)</td></tr>
 <tr class="separator:ae81682aadf8efb9f4682ead4feeea3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52e89c63c068bd558c0deb5033702550" id="r_a52e89c63c068bd558c0deb5033702550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47f4b0063e899863c39907df0ccc21ff">MR_FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e89c63c068bd558c0deb5033702550">MR_canFlipEdge</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> edge, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion)</td></tr>
+<tr class="memitem:a52e89c63c068bd558c0deb5033702550" id="r_a52e89c63c068bd558c0deb5033702550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e89c63c068bd558c0deb5033702550">MR_canFlipEdge</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> edge, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion)</td></tr>
 <tr class="separator:a52e89c63c068bd558c0deb5033702550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb3c70e96f530c248f54a982b493f8a" id="r_aedb3c70e96f530c248f54a982b493f8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedb3c70e96f530c248f54a982b493f8a">MR_checkDeloneQuadrangleInMesh_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> edge, const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *settings, float *deviationSqAfterFlip)</td></tr>
 <tr class="separator:aedb3c70e96f530c248f54a982b493f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,10 +274,10 @@ Functions</h2></td></tr>
 <tr class="separator:a5a9d358438c3b49d42e9a34cd7803763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d9f2d1395cee882c3f7ec9498c4534c" id="r_a9d9f2d1395cee882c3f7ec9498c4534c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d9f2d1395cee882c3f7ec9498c4534c">MR_makeDeloneOriginRing_4</a> (<a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e, const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *settings)</td></tr>
 <tr class="separator:a9d9f2d1395cee882c3f7ec9498c4534c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dca0503ecd52308c88a2bb0f35aac55" id="r_a0dca0503ecd52308c88a2bb0f35aac55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dca0503ecd52308c88a2bb0f35aac55">MR_makeDeloneEdgeFlips_4_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *settings, const int32_t *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
-<tr class="separator:a0dca0503ecd52308c88a2bb0f35aac55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa21fed7d29803eefe84c94cb9dd67fd" id="r_aaa21fed7d29803eefe84c94cb9dd67fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa21fed7d29803eefe84c94cb9dd67fd">MR_makeDeloneEdgeFlips_5</a> (<a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *settings, const int32_t *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
-<tr class="separator:aaa21fed7d29803eefe84c94cb9dd67fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4f4f38bedbf5f199612e3fd28d22b7" id="r_a5b4f4f38bedbf5f199612e3fd28d22b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b4f4f38bedbf5f199612e3fd28d22b7">MR_makeDeloneEdgeFlips_4_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *settings, const int *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="separator:a5b4f4f38bedbf5f199612e3fd28d22b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711ce4d63c5b526cc1518d13681f6354" id="r_a711ce4d63c5b526cc1518d13681f6354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a711ce4d63c5b526cc1518d13681f6354">MR_makeDeloneEdgeFlips_5</a> (<a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *settings, const int *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="separator:a711ce4d63c5b526cc1518d13681f6354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f2644f74dd771ba017fe270ad6d2fbf" id="r_a0f2644f74dd771ba017fe270ad6d2fbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f2644f74dd771ba017fe270ad6d2fbf">MR_IntrinsicDeloneSettings_Get_threshold</a> (const <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *_this)</td></tr>
 <tr class="separator:a0f2644f74dd771ba017fe270ad6d2fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c29dabf0325c9525755fd4fc730e3f" id="r_ad1c29dabf0325c9525755fd4fc730e3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1c29dabf0325c9525755fd4fc730e3f">MR_IntrinsicDeloneSettings_Set_threshold</a> (<a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *_this, float value)</td></tr>
@@ -326,8 +324,8 @@ Functions</h2></td></tr>
 <tr class="separator:aacfdba2cef2152ecab8226af64779f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13c05491f439fda60d9a41e34bed8503" id="r_a13c05491f439fda60d9a41e34bed8503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13c05491f439fda60d9a41e34bed8503">MR_IntrinsicDeloneSettings_AssignFromAnother</a> (<a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *_this, const <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *_other)</td></tr>
 <tr class="separator:a13c05491f439fda60d9a41e34bed8503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada8a3418f56febb4428e0e397917dc85" id="r_ada8a3418f56febb4428e0e397917dc85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada8a3418f56febb4428e0e397917dc85">MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</a> (<a class="el" href="MREdgeLengthMesh_8h.html#a21d0c9081671ec94a88f3883cd8e36f2">MR_EdgeLengthMesh</a> *mesh, const <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *settings, const int32_t *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
-<tr class="separator:ada8a3418f56febb4428e0e397917dc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace6519aee91ccff2891b2668e29ebbb1" id="r_ace6519aee91ccff2891b2668e29ebbb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace6519aee91ccff2891b2668e29ebbb1">MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</a> (<a class="el" href="MREdgeLengthMesh_8h.html#a21d0c9081671ec94a88f3883cd8e36f2">MR_EdgeLengthMesh</a> *mesh, const <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *settings, const int *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="separator:ace6519aee91ccff2891b2668e29ebbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="af90f4b39ad520e70053fc29ba9bb57c7" name="af90f4b39ad520e70053fc29ba9bb57c7"></a>
@@ -374,14 +372,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a47f4b0063e899863c39907df0ccc21ff" name="a47f4b0063e899863c39907df0ccc21ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47f4b0063e899863c39907df0ccc21ff">&#9670;&#160;</a></span>MR_FlipEdge</h2>
+<a id="a25812984958f89a4d14d48a2bcf46824" name="a25812984958f89a4d14d48a2bcf46824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25812984958f89a4d14d48a2bcf46824">&#9670;&#160;</a></span>MR_FlipEdge</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a47f4b0063e899863c39907df0ccc21ff">MR_FlipEdge</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a> <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -517,24 +515,24 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2970898e8a43ce21e1cc510d49f1b89d" name="a2970898e8a43ce21e1cc510d49f1b89d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2970898e8a43ce21e1cc510d49f1b89d">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aa76435b4ee48431a19de6d633c8833ae" name="aa76435b4ee48431a19de6d633c8833ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76435b4ee48431a19de6d633c8833ae">&#9670;&#160;</a></span>MR_FlipEdge</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2970898e8a43ce21e1cc510d49f1b89da1e535a74c97b4c58ecdef88940d255d0" name="a2970898e8a43ce21e1cc510d49f1b89da1e535a74c97b4c58ecdef88940d255d0"></a>MR_FlipEdge_Can&#160;</td><td class="fielddoc"><p>edge flipping is possible </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa76435b4ee48431a19de6d633c8833aea1e535a74c97b4c58ecdef88940d255d0" name="aa76435b4ee48431a19de6d633c8833aea1e535a74c97b4c58ecdef88940d255d0"></a>MR_FlipEdge_Can&#160;</td><td class="fielddoc"><p>edge flipping is possible </p>
 <p>edge flipping is prohibited by topology or by constraints </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a2970898e8a43ce21e1cc510d49f1b89daa30a4a3b259653566dd43cfb4f281a8e" name="a2970898e8a43ce21e1cc510d49f1b89daa30a4a3b259653566dd43cfb4f281a8e"></a>MR_FlipEdge_Cannot&#160;</td><td class="fielddoc"><p>edge flipping is required to solve some topology issue </p>
+<tr><td class="fieldname"><a id="aa76435b4ee48431a19de6d633c8833aeaa30a4a3b259653566dd43cfb4f281a8e" name="aa76435b4ee48431a19de6d633c8833aeaa30a4a3b259653566dd43cfb4f281a8e"></a>MR_FlipEdge_Cannot&#160;</td><td class="fielddoc"><p>edge flipping is required to solve some topology issue </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a2970898e8a43ce21e1cc510d49f1b89dab516cff6dfa2c661ad2a72861328085b" name="a2970898e8a43ce21e1cc510d49f1b89dab516cff6dfa2c661ad2a72861328085b"></a>MR_FlipEdge_Must&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa76435b4ee48431a19de6d633c8833aeab516cff6dfa2c661ad2a72861328085b" name="aa76435b4ee48431a19de6d633c8833aeab516cff6dfa2c661ad2a72861328085b"></a>MR_FlipEdge_Must&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -579,7 +577,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47f4b0063e899863c39907df0ccc21ff">MR_FlipEdge</a> MR_canFlipEdge </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a> MR_canFlipEdge </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1726,14 +1724,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ada8a3418f56febb4428e0e397917dc85" name="ada8a3418f56febb4428e0e397917dc85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada8a3418f56febb4428e0e397917dc85">&#9670;&#160;</a></span>MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh()</h2>
+<a id="ace6519aee91ccff2891b2668e29ebbb1" name="ace6519aee91ccff2891b2668e29ebbb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace6519aee91ccff2891b2668e29ebbb1">&#9670;&#160;</a></span>MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MREdgeLengthMesh_8h.html#a21d0c9081671ec94a88f3883cd8e36f2">MR_EdgeLengthMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1745,7 +1743,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1765,14 +1763,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0dca0503ecd52308c88a2bb0f35aac55" name="a0dca0503ecd52308c88a2bb0f35aac55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dca0503ecd52308c88a2bb0f35aac55">&#9670;&#160;</a></span>MR_makeDeloneEdgeFlips_4_MR_Mesh()</h2>
+<a id="a5b4f4f38bedbf5f199612e3fd28d22b7" name="a5b4f4f38bedbf5f199612e3fd28d22b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b4f4f38bedbf5f199612e3fd28d22b7">&#9670;&#160;</a></span>MR_makeDeloneEdgeFlips_4_MR_Mesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_makeDeloneEdgeFlips_4_MR_Mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_makeDeloneEdgeFlips_4_MR_Mesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1784,7 +1782,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1804,14 +1802,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa21fed7d29803eefe84c94cb9dd67fd" name="aaa21fed7d29803eefe84c94cb9dd67fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa21fed7d29803eefe84c94cb9dd67fd">&#9670;&#160;</a></span>MR_makeDeloneEdgeFlips_5()</h2>
+<a id="a711ce4d63c5b526cc1518d13681f6354" name="a711ce4d63c5b526cc1518d13681f6354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a711ce4d63c5b526cc1518d13681f6354">&#9670;&#160;</a></span>MR_makeDeloneEdgeFlips_5()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_makeDeloneEdgeFlips_5 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_makeDeloneEdgeFlips_5 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1828,7 +1826,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

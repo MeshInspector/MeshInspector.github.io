@@ -57,7 +57,7 @@ var MRSaveSettings_8h =
     [ "MR_transformNormals", "MRSaveSettings_8h.html#a35e393952c9b273026d176331b4d4921", null ],
     [ "MR_transformPoints", "MRSaveSettings_8h.html#aba019337d4010cdcf79405454ec8c1f5", null ],
     [ "MR_VertRenumber_AssignFromAnother", "MRSaveSettings_8h.html#a4386e1489bf8468011c18086c18b0f00", null ],
-    [ "MR_VertRenumber_call", "MRSaveSettings_8h.html#a25992f7adceb939d06d40a3e71322a4d", null ],
+    [ "MR_VertRenumber_call", "MRSaveSettings_8h.html#aaa45e6b4e0b4fab635225dddb18427df", null ],
     [ "MR_VertRenumber_Construct", "MRSaveSettings_8h.html#af9cbaba815f6a58b9ae41735bc00a9cd", null ],
     [ "MR_VertRenumber_ConstructFromAnother", "MRSaveSettings_8h.html#a65d773faf6973c8bee9ba7b8714162e5", null ],
     [ "MR_VertRenumber_Destroy", "MRSaveSettings_8h.html#a56ca1762b58f4c5e8d40a381892c74b2", null ],
@@ -65,5 +65,5 @@ var MRSaveSettings_8h =
     [ "MR_VertRenumber_OffsetMutablePtr", "MRSaveSettings_8h.html#ad8d694071de20307afc6e0bd419ffe4d", null ],
     [ "MR_VertRenumber_OffsetPtr", "MRSaveSettings_8h.html#a2f680a44634abc170025a6ec7d890402", null ],
     [ "MR_VertRenumber_saveValidOnly", "MRSaveSettings_8h.html#a9994d7d97e0d3eeef52a6b8bb1369a23", null ],
-    [ "MR_VertRenumber_sizeVerts", "MRSaveSettings_8h.html#a2f264c75877061bc3ffc6ffbba3ab635", null ]
+    [ "MR_VertRenumber_sizeVerts", "MRSaveSettings_8h.html#a75ad10fc1ae09a7fe570a489e19ee229", null ]
 ];

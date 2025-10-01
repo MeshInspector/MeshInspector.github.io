@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRDistanceMeasurementObject_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -158,7 +157,6 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h.html',''); initResizabl
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRDistanceMeasurementObject_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -170,26 +168,46 @@ Typedefs</h2></td></tr>
 <tr class="separator:accce9c9179cadabc541edda0fc7a2571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecafdb5edbdb31eb13fbab762e3c39bc" id="r_aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td></tr>
 <tr class="separator:aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0f72690d55f7690795efb3b57df7cf" id="r_aac0f72690d55f7690795efb3b57df7cf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a></td></tr>
+<tr class="separator:aac0f72690d55f7690795efb3b57df7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2078183aee736bfebb1bb874807d75d" id="r_ab2078183aee736bfebb1bb874807d75d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a></td></tr>
+<tr class="separator:ab2078183aee736bfebb1bb874807d75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd5f2632221b9bf806db1fcddbf58fa" id="r_aadd5f2632221b9bf806db1fcddbf58fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a></td></tr>
+<tr class="separator:aadd5f2632221b9bf806db1fcddbf58fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36f3696eda81d7005927ebc5fdf17e14" id="r_a36f3696eda81d7005927ebc5fdf17e14"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td></tr>
 <tr class="separator:a36f3696eda81d7005927ebc5fdf17e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d9dd1ef50d7c3b70695bdf73404526" id="r_a80d9dd1ef50d7c3b70695bdf73404526"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a></td></tr>
+<tr class="separator:a80d9dd1ef50d7c3b70695bdf73404526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4615b108b22d42920cafb89a85540b" id="r_a8e4615b108b22d42920cafb89a85540b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a></td></tr>
+<tr class="separator:a8e4615b108b22d42920cafb89a85540b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e9b9c2b8a1a0540b204b1b7e6e792f4" id="r_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td></tr>
 <tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
+<tr class="memitem:a169b2cb1c4b9a267fdcd4b388a456d37" id="r_a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a></td></tr>
+<tr class="separator:a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d91d0213ab95de48f9478fac0d21e0" id="r_af3d91d0213ab95de48f9478fac0d21e0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a></td></tr>
+<tr class="separator:af3d91d0213ab95de48f9478fac0d21e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
 <tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9185d6c78b24d67f65fff43bd4a336c3" id="r_a9185d6c78b24d67f65fff43bd4a336c3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a></td></tr>
 <tr class="separator:a9185d6c78b24d67f65fff43bd4a336c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cf12bd80528e71e9c38396316841a62" id="r_a8cf12bd80528e71e9c38396316841a62"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a></td></tr>
-<tr class="separator:a8cf12bd80528e71e9c38396316841a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd17bdc5fce292c8a32d4fd04b03ad2" id="r_a4dd17bdc5fce292c8a32d4fd04b03ad2"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd17bdc5fce292c8a32d4fd04b03ad2">MR_DistanceMeasurementObject_DistanceMode</a></td></tr>
+<tr class="separator:a4dd17bdc5fce292c8a32d4fd04b03ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a16af7b253440dadd46a80a4b9fddba4d" id="r_a16af7b253440dadd46a80a4b9fddba4d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a16af7b253440dadd46a80a4b9fddba4da711ae6cdaeddf8d20b8c5e1a7277e2a2">MR_DistanceMeasurementObject_PerCoordDeltas_none</a> = 0
-, <a class="el" href="#a16af7b253440dadd46a80a4b9fddba4daa8f0c908cc500696798e3bf8f9806415">MR_DistanceMeasurementObject_PerCoordDeltas_withSign</a> = 1
-, <a class="el" href="#a16af7b253440dadd46a80a4b9fddba4da549f3c301d32c7b0db25303423d3f53c">MR_DistanceMeasurementObject_PerCoordDeltas_absolute</a> = 2
+<tr class="memitem:a866370df7c69a40c7d8780a42858651c" id="r_a866370df7c69a40c7d8780a42858651c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> { <br />
+&#160;&#160;<a class="el" href="#a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391">MR_DistanceMeasurementObject_DistanceMode_euclidean</a> = 0
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4">MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis</a> = 1
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8">MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis</a> = 2
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df">MR_DistanceMeasurementObject_DistanceMode_xAbsolute</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c">MR_DistanceMeasurementObject_DistanceMode_yAbsolute</a> = 4
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc">MR_DistanceMeasurementObject_DistanceMode_zAbsolute</a> = 5
+<br />
  }</td></tr>
-<tr class="separator:a16af7b253440dadd46a80a4b9fddba4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a866370df7c69a40c7d8780a42858651c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -218,6 +236,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a6b6d321d7dcb4376c3a166c8f0e97463" id="r_a6b6d321d7dcb4376c3a166c8f0e97463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b6d321d7dcb4376c3a166c8f0e97463">MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="memdesc:a6b6d321d7dcb4376c3a166c8f0e97463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
 <tr class="separator:a6b6d321d7dcb4376c3a166c8f0e97463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec06e50000026abac4ac4a195af2336" id="r_abec06e50000026abac4ac4a195af2336"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec06e50000026abac4ac4a195af2336">MR_DistanceMeasurementObject_UpcastTo_MR_ObjectComparableWithReference</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="separator:abec06e50000026abac4ac4a195af2336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd8fabd66e17c44e0eeb9240dcfd8470" id="r_abd8fabd66e17c44e0eeb9240dcfd8470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd8fabd66e17c44e0eeb9240dcfd8470">MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectComparableWithReference</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memdesc:abd8fabd66e17c44e0eeb9240dcfd8470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code>.  <br /></td></tr>
+<tr class="separator:abd8fabd66e17c44e0eeb9240dcfd8470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a710440ffc1847f8c4779a1a1843fa191" id="r_a710440ffc1847f8c4779a1a1843fa191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710440ffc1847f8c4779a1a1843fa191">MR_DistanceMeasurementObject_UpcastTo_MR_VisualObject</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="separator:a710440ffc1847f8c4779a1a1843fa191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a716e2926f476bae62ce400884f7c7a86" id="r_a716e2926f476bae62ce400884f7c7a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a716e2926f476bae62ce400884f7c7a86">MR_DistanceMeasurementObject_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
@@ -238,10 +261,16 @@ Functions</h2></td></tr>
 <tr class="separator:a2f2f50e8b84709b604d6aaa445a9653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8c8c437bb7e23463c0f9bac81886736" id="r_af8c8c437bb7e23463c0f9bac81886736"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c8c437bb7e23463c0f9bac81886736">MR_DistanceMeasurementObject_typeName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:af8c8c437bb7e23463c0f9bac81886736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a453bbf8f2fd861705a1f4ff43ff44c5b" id="r_a453bbf8f2fd861705a1f4ff43ff44c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a453bbf8f2fd861705a1f4ff43ff44c5b">MR_DistanceMeasurementObject_getClassName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
-<tr class="separator:a453bbf8f2fd861705a1f4ff43ff44c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dffdb51627fe63b021709e5f5bfa960" id="r_a7dffdb51627fe63b021709e5f5bfa960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dffdb51627fe63b021709e5f5bfa960">MR_DistanceMeasurementObject_getClassNameInPlural</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
-<tr class="separator:a7dffdb51627fe63b021709e5f5bfa960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1eda2ddd8a9b63fa78b564398650d87" id="r_ae1eda2ddd8a9b63fa78b564398650d87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1eda2ddd8a9b63fa78b564398650d87">MR_DistanceMeasurementObject_ClassName</a> (void)</td></tr>
+<tr class="memdesc:ae1eda2ddd8a9b63fa78b564398650d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>ClassName</code>.  <br /></td></tr>
+<tr class="separator:ae1eda2ddd8a9b63fa78b564398650d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb389c6509ad5e6267dff71bbfbb6f5" id="r_a5eb389c6509ad5e6267dff71bbfbb6f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eb389c6509ad5e6267dff71bbfbb6f5">MR_DistanceMeasurementObject_className</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a5eb389c6509ad5e6267dff71bbfbb6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03c986c022e23d31818e3c24e1738fe" id="r_ae03c986c022e23d31818e3c24e1738fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03c986c022e23d31818e3c24e1738fe">MR_DistanceMeasurementObject_ClassNameInPlural</a> (void)</td></tr>
+<tr class="memdesc:ae03c986c022e23d31818e3c24e1738fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>ClassNameInPlural</code>.  <br /></td></tr>
+<tr class="separator:ae03c986c022e23d31818e3c24e1738fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26117f43b3dbb8ec8c3162d3cf3419ef" id="r_a26117f43b3dbb8ec8c3162d3cf3419ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26117f43b3dbb8ec8c3162d3cf3419ef">MR_DistanceMeasurementObject_classNameInPlural</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a26117f43b3dbb8ec8c3162d3cf3419ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6af8656ba8538bffa154e89bccfd9fec" id="r_a6af8656ba8538bffa154e89bccfd9fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af8656ba8538bffa154e89bccfd9fec">MR_DistanceMeasurementObject_clone</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a6af8656ba8538bffa154e89bccfd9fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acddb7fcb59c979285c2e74f7ff8dd359" id="r_acddb7fcb59c979285c2e74f7ff8dd359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acddb7fcb59c979285c2e74f7ff8dd359">MR_DistanceMeasurementObject_shallowClone</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
@@ -258,18 +287,34 @@ Functions</h2></td></tr>
 <tr class="separator:acd5857783405d58f3d298722c400865c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b1646d81d58217037d9630ee04930c1" id="r_a4b1646d81d58217037d9630ee04930c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1646d81d58217037d9630ee04930c1">MR_DistanceMeasurementObject_setLocalDelta</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *delta)</td></tr>
 <tr class="separator:a4b1646d81d58217037d9630ee04930c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafcc414c37842caf42820436226d81bf" id="r_aafcc414c37842caf42820436226d81bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafcc414c37842caf42820436226d81bf">MR_DistanceMeasurementObject_getDrawAsNegative</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
-<tr class="separator:aafcc414c37842caf42820436226d81bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6146678f51e3e5b98df2f6fe8e76db30" id="r_a6146678f51e3e5b98df2f6fe8e76db30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6146678f51e3e5b98df2f6fe8e76db30">MR_DistanceMeasurementObject_setDrawAsNegative</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, bool value)</td></tr>
-<tr class="separator:a6146678f51e3e5b98df2f6fe8e76db30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d19c42e0c192b8aa7c6d44568aa8f0" id="r_a04d19c42e0c192b8aa7c6d44568aa8f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d19c42e0c192b8aa7c6d44568aa8f0">MR_DistanceMeasurementObject_getPerCoordDeltasMode</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
-<tr class="separator:a04d19c42e0c192b8aa7c6d44568aa8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f6df29c5a03bc602befe43a5d3c579a" id="r_a5f6df29c5a03bc602befe43a5d3c579a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6df29c5a03bc602befe43a5d3c579a">MR_DistanceMeasurementObject_setPerCoordDeltasMode</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a> mode)</td></tr>
-<tr class="separator:a5f6df29c5a03bc602befe43a5d3c579a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9792f1a163a5999f16cba51828ba221" id="r_ac9792f1a163a5999f16cba51828ba221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9792f1a163a5999f16cba51828ba221">MR_DistanceMeasurementObject_isNegative</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ac9792f1a163a5999f16cba51828ba221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688727fe1d985531097ee18f91b3ef24" id="r_a688727fe1d985531097ee18f91b3ef24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688727fe1d985531097ee18f91b3ef24">MR_DistanceMeasurementObject_setIsNegative</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, bool value)</td></tr>
+<tr class="separator:a688727fe1d985531097ee18f91b3ef24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f53d448db98b308fdc53db69a8758e" id="r_a24f53d448db98b308fdc53db69a8758e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24f53d448db98b308fdc53db69a8758e">MR_DistanceMeasurementObject_getDistanceMode</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a24f53d448db98b308fdc53db69a8758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5820e60a0ae31a43a2b37b83e7d1a468" id="r_a5820e60a0ae31a43a2b37b83e7d1a468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5820e60a0ae31a43a2b37b83e7d1a468">MR_DistanceMeasurementObject_setDistanceMode</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> mode)</td></tr>
+<tr class="separator:a5820e60a0ae31a43a2b37b83e7d1a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accd2b73ecb5a61dd96c70c18bf1e61f0" id="r_accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accd2b73ecb5a61dd96c70c18bf1e61f0">MR_DistanceMeasurementObject_computeDistance</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ecfd3cff7d883fc79b3472913f207e6" id="r_a1ecfd3cff7d883fc79b3472913f207e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ecfd3cff7d883fc79b3472913f207e6">MR_DistanceMeasurementObject_getInfoLines</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a1ecfd3cff7d883fc79b3472913f207e6" id="r_a1ecfd3cff7d883fc79b3472913f207e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ecfd3cff7d883fc79b3472913f207e6">MR_DistanceMeasurementObject_getInfoLines</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a1ecfd3cff7d883fc79b3472913f207e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a8bbe39c342b29c2f684572d5a9e11" id="r_a41a8bbe39c342b29c2f684572d5a9e11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a8bbe39c342b29c2f684572d5a9e11">MR_DistanceMeasurementObject_numComparableProperties</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a41a8bbe39c342b29c2f684572d5a9e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb024026dad7b15e08ec126a334af3e" id="r_a4cb024026dad7b15e08ec126a334af3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb024026dad7b15e08ec126a334af3e">MR_DistanceMeasurementObject_getComparablePropertyName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a4cb024026dad7b15e08ec126a334af3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af63b08c28a546cf8c35f7e4b5d3f2bf1" id="r_af63b08c28a546cf8c35f7e4b5d3f2bf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af63b08c28a546cf8c35f7e4b5d3f2bf1">MR_DistanceMeasurementObject_computeComparableProperty</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:af63b08c28a546cf8c35f7e4b5d3f2bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87af518c5bb169251b3922478058bff" id="r_aa87af518c5bb169251b3922478058bff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa87af518c5bb169251b3922478058bff">MR_DistanceMeasurementObject_getComparisonTolerence</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:aa87af518c5bb169251b3922478058bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81865d6afebe75cafd80117cf0a2234d" id="r_a81865d6afebe75cafd80117cf0a2234d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81865d6afebe75cafd80117cf0a2234d">MR_DistanceMeasurementObject_setComparisonTolerance</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i, const <a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a> *newTolerance)</td></tr>
+<tr class="separator:a81865d6afebe75cafd80117cf0a2234d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f832a1fa0e16906ccc92da9cc12b805" id="r_a4f832a1fa0e16906ccc92da9cc12b805"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f832a1fa0e16906ccc92da9cc12b805">MR_DistanceMeasurementObject_getComparisonReferenceValueName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a4f832a1fa0e16906ccc92da9cc12b805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c3bf0bee3617f2fbe2a47a5a860d58" id="r_a66c3bf0bee3617f2fbe2a47a5a860d58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66c3bf0bee3617f2fbe2a47a5a860d58">MR_DistanceMeasurementObject_getComparisonReferenceValue</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a66c3bf0bee3617f2fbe2a47a5a860d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed97b724176574080dc08ad3702788b" id="r_a8ed97b724176574080dc08ad3702788b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed97b724176574080dc08ad3702788b">MR_DistanceMeasurementObject_setComparisonReferenceValue</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i, const <a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a> *value)</td></tr>
+<tr class="separator:a8ed97b724176574080dc08ad3702788b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a9185d6c78b24d67f65fff43bd4a336c3" name="a9185d6c78b24d67f65fff43bd4a336c3"></a>
@@ -283,18 +328,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> </p>
 
 </div>
 </div>
-<a id="a8cf12bd80528e71e9c38396316841a62" name="a8cf12bd80528e71e9c38396316841a62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cf12bd80528e71e9c38396316841a62">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_PerCoordDeltas</h2>
+<a id="a4dd17bdc5fce292c8a32d4fd04b03ad2" name="a4dd17bdc5fce292c8a32d4fd04b03ad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd17bdc5fce292c8a32d4fd04b03ad2">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_DistanceMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -343,6 +388,76 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aac0f72690d55f7690795efb3b57df7cf" name="aac0f72690d55f7690795efb3b57df7cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0f72690d55f7690795efb3b57df7cf">&#9670;&#160;</a></span>MR_ObjectComparableWithReference</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2078183aee736bfebb1bb874807d75d" name="ab2078183aee736bfebb1bb874807d75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2078183aee736bfebb1bb874807d75d">&#9670;&#160;</a></span>MR_ObjectComparableWithReference_ComparisonReferenceValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a> <a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadd5f2632221b9bf806db1fcddbf58fa" name="aadd5f2632221b9bf806db1fcddbf58fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd5f2632221b9bf806db1fcddbf58fa">&#9670;&#160;</a></span>MR_ObjectComparableWithReference_ComparisonTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a> <a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80d9dd1ef50d7c3b70695bdf73404526" name="a80d9dd1ef50d7c3b70695bdf73404526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d9dd1ef50d7c3b70695bdf73404526">&#9670;&#160;</a></span>MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a> <a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e4615b108b22d42920cafb89a85540b" name="a8e4615b108b22d42920cafb89a85540b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4615b108b22d42920cafb89a85540b">&#9670;&#160;</a></span>MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a> <a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9e9b9c2b8a1a0540b204b1b7e6e792f4" name="a9e9b9c2b8a1a0540b204b1b7e6e792f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_Object</h2>
 
@@ -371,6 +486,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a169b2cb1c4b9a267fdcd4b388a456d37" name="a169b2cb1c4b9a267fdcd4b388a456d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169b2cb1c4b9a267fdcd4b388a456d37">&#9670;&#160;</a></span>MR_std_string_view</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3d91d0213ab95de48f9478fac0d21e0" name="af3d91d0213ab95de48f9478fac0d21e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d91d0213ab95de48f9478fac0d21e0">&#9670;&#160;</a></span>MR_std_variant_float_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a> <a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab26d333cd7549e6f3f49cc80e3ba5900" name="ab26d333cd7549e6f3f49cc80e3ba5900"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab26d333cd7549e6f3f49cc80e3ba5900">&#9670;&#160;</a></span>MR_std_vector_std_string</h2>
 
@@ -378,7 +521,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -400,21 +543,24 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a16af7b253440dadd46a80a4b9fddba4d" name="a16af7b253440dadd46a80a4b9fddba4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16af7b253440dadd46a80a4b9fddba4d">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a866370df7c69a40c7d8780a42858651c" name="a866370df7c69a40c7d8780a42858651c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a866370df7c69a40c7d8780a42858651c">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_DistanceMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a16af7b253440dadd46a80a4b9fddba4da711ae6cdaeddf8d20b8c5e1a7277e2a2" name="a16af7b253440dadd46a80a4b9fddba4da711ae6cdaeddf8d20b8c5e1a7277e2a2"></a>MR_DistanceMeasurementObject_PerCoordDeltas_none&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a16af7b253440dadd46a80a4b9fddba4daa8f0c908cc500696798e3bf8f9806415" name="a16af7b253440dadd46a80a4b9fddba4daa8f0c908cc500696798e3bf8f9806415"></a>MR_DistanceMeasurementObject_PerCoordDeltas_withSign&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a16af7b253440dadd46a80a4b9fddba4da549f3c301d32c7b0db25303423d3f53c" name="a16af7b253440dadd46a80a4b9fddba4da549f3c301d32c7b0db25303423d3f53c"></a>MR_DistanceMeasurementObject_PerCoordDeltas_absolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391" name="a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391"></a>MR_DistanceMeasurementObject_DistanceMode_euclidean&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4" name="a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4"></a>MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8" name="a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8"></a>MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df" name="a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df"></a>MR_DistanceMeasurementObject_DistanceMode_xAbsolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c" name="a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c"></a>MR_DistanceMeasurementObject_DistanceMode_yAbsolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc" name="a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc"></a>MR_DistanceMeasurementObject_DistanceMode_zAbsolute&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -447,6 +593,80 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae1eda2ddd8a9b63fa78b564398650d87" name="ae1eda2ddd8a9b63fa78b564398650d87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1eda2ddd8a9b63fa78b564398650d87">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_ClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_DistanceMeasurementObject_ClassName </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>ClassName</code>. </p>
+
+</div>
+</div>
+<a id="a5eb389c6509ad5e6267dff71bbfbb6f5" name="a5eb389c6509ad5e6267dff71bbfbb6f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb389c6509ad5e6267dff71bbfbb6f5">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_className()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_className </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>className</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae03c986c022e23d31818e3c24e1738fe" name="ae03c986c022e23d31818e3c24e1738fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03c986c022e23d31818e3c24e1738fe">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_ClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_DistanceMeasurementObject_ClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>ClassNameInPlural</code>. </p>
+
+</div>
+</div>
+<a id="a26117f43b3dbb8ec8c3162d3cf3419ef" name="a26117f43b3dbb8ec8c3162d3cf3419ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26117f43b3dbb8ec8c3162d3cf3419ef">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_classNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_classNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>classNameInPlural</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a6af8656ba8538bffa154e89bccfd9fec" name="a6af8656ba8538bffa154e89bccfd9fec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6af8656ba8538bffa154e89bccfd9fec">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_clone()</h2>
 
@@ -462,6 +682,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>clone</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af63b08c28a546cf8c35f7e4b5d3f2bf1" name="af63b08c28a546cf8c35f7e4b5d3f2bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af63b08c28a546cf8c35f7e4b5d3f2bf1">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_computeComparableProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a> * MR_DistanceMeasurementObject_computeComparableProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>computeComparableProperty</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__ObjectComparableWithReference__ComparableProperty_8h.html#acb43a16ff92a2b399678a5e3fcf502ec" title="Destroys a heap-allocated instance of MR_std_optional_MR_ObjectComparableWithReference_ComparableProp...">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -579,57 +821,109 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a453bbf8f2fd861705a1f4ff43ff44c5b" name="a453bbf8f2fd861705a1f4ff43ff44c5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a453bbf8f2fd861705a1f4ff43ff44c5b">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getClassName()</h2>
+<a id="a4cb024026dad7b15e08ec126a334af3e" name="a4cb024026dad7b15e08ec126a334af3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb024026dad7b15e08ec126a334af3e">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getComparablePropertyName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_getClassName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_DistanceMeasurementObject_getComparablePropertyName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getComparablePropertyName</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a66c3bf0bee3617f2fbe2a47a5a860d58" name="a66c3bf0bee3617f2fbe2a47a5a860d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66c3bf0bee3617f2fbe2a47a5a860d58">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getComparisonReferenceValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a> * MR_DistanceMeasurementObject_getComparisonReferenceValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getComparisonReferenceValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRObjectComparableWithReference_8h.html#a89b78775247b545aa83fb498fb03d926" title="Destroys a heap-allocated instance of MR_ObjectComparableWithReference_ComparisonReferenceValue....">MR_ObjectComparableWithReference_ComparisonReferenceValue_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4f832a1fa0e16906ccc92da9cc12b805" name="a4f832a1fa0e16906ccc92da9cc12b805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f832a1fa0e16906ccc92da9cc12b805">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getComparisonReferenceValueName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_DistanceMeasurementObject_getComparisonReferenceValueName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getComparisonReferenceValueName</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa87af518c5bb169251b3922478058bff" name="aa87af518c5bb169251b3922478058bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa87af518c5bb169251b3922478058bff">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getComparisonTolerence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a> * MR_DistanceMeasurementObject_getComparisonTolerence </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getComparisonTolerence</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__ObjectComparableWithReference__ComparisonTolerance_8h.html#afa7307ff0b59940de04bde75242e8e56" title="Destroys a heap-allocated instance of MR_std_optional_MR_ObjectComparableWithReference_ComparisonTole...">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a24f53d448db98b308fdc53db69a8758e" name="a24f53d448db98b308fdc53db69a8758e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f53d448db98b308fdc53db69a8758e">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getDistanceMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> MR_DistanceMeasurementObject_getDistanceMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getClassName</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="a7dffdb51627fe63b021709e5f5bfa960" name="a7dffdb51627fe63b021709e5f5bfa960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dffdb51627fe63b021709e5f5bfa960">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getClassNameInPlural()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_getClassNameInPlural </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getClassNameInPlural</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="aafcc414c37842caf42820436226d81bf" name="aafcc414c37842caf42820436226d81bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafcc414c37842caf42820436226d81bf">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getDrawAsNegative()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_DistanceMeasurementObject_getDrawAsNegative </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getDrawAsNegative</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getDistanceMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -640,7 +934,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_DistanceMeasurementObject_getInfoLines </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_DistanceMeasurementObject_getInfoLines </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -687,24 +981,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04d19c42e0c192b8aa7c6d44568aa8f0" name="a04d19c42e0c192b8aa7c6d44568aa8f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04d19c42e0c192b8aa7c6d44568aa8f0">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getPerCoordDeltasMode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a> MR_DistanceMeasurementObject_getPerCoordDeltasMode </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getPerCoordDeltasMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
 <a id="a6c5ce565f7be79752f5e8fe5ccb9c0f3" name="a6c5ce565f7be79752f5e8fe5ccb9c0f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c5ce565f7be79752f5e8fe5ccb9c0f3">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_getWorldDelta()</h2>
 
@@ -738,6 +1014,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>getWorldPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ac9792f1a163a5999f16cba51828ba221" name="ac9792f1a163a5999f16cba51828ba221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9792f1a163a5999f16cba51828ba221">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_isNegative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_DistanceMeasurementObject_isNegative </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>isNegative</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -798,6 +1092,25 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abd8fabd66e17c44e0eeb9240dcfd8470" name="abd8fabd66e17c44e0eeb9240dcfd8470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd8fabd66e17c44e0eeb9240dcfd8470">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectComparableWithReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectComparableWithReference </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code>. </p>
+
+</div>
+</div>
 <a id="a716e2926f476bae62ce400884f7c7a86" name="a716e2926f476bae62ce400884f7c7a86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a716e2926f476bae62ce400884f7c7a86">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_MutableUpcastTo_MR_VisualObject()</h2>
 
@@ -814,6 +1127,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. </p>
+
+</div>
+</div>
+<a id="a41a8bbe39c342b29c2f684572d5a9e11" name="a41a8bbe39c342b29c2f684572d5a9e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41a8bbe39c342b29c2f684572d5a9e11">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_numComparableProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_DistanceMeasurementObject_numComparableProperties </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>numComparableProperties</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -863,14 +1194,90 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6146678f51e3e5b98df2f6fe8e76db30" name="a6146678f51e3e5b98df2f6fe8e76db30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6146678f51e3e5b98df2f6fe8e76db30">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_setDrawAsNegative()</h2>
+<a id="a8ed97b724176574080dc08ad3702788b" name="a8ed97b724176574080dc08ad3702788b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed97b724176574080dc08ad3702788b">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_setComparisonReferenceValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setDrawAsNegative </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setComparisonReferenceValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setComparisonReferenceValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="a81865d6afebe75cafd80117cf0a2234d" name="a81865d6afebe75cafd80117cf0a2234d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81865d6afebe75cafd80117cf0a2234d">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_setComparisonTolerance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setComparisonTolerance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a> *</td>          <td class="paramname"><span class="paramname"><em>newTolerance</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setComparisonTolerance</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newTolerance</code> is a single object. Parameter <code>newTolerance</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="a5820e60a0ae31a43a2b37b83e7d1a468" name="a5820e60a0ae31a43a2b37b83e7d1a468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5820e60a0ae31a43a2b37b83e7d1a468">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_setDistanceMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setDistanceMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setDistanceMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a688727fe1d985531097ee18f91b3ef24" name="a688727fe1d985531097ee18f91b3ef24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688727fe1d985531097ee18f91b3ef24">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_setIsNegative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setIsNegative </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -881,7 +1288,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setDrawAsNegative</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setIsNegative</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -926,28 +1333,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setLocalPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="a5f6df29c5a03bc602befe43a5d3c579a" name="a5f6df29c5a03bc602befe43a5d3c579a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f6df29c5a03bc602befe43a5d3c579a">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_setPerCoordDeltasMode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setPerCoordDeltasMode </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>setPerCoordDeltasMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1057,6 +1442,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="abec06e50000026abac4ac4a195af2336" name="abec06e50000026abac4ac4a195af2336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec06e50000026abac4ac4a195af2336">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_UpcastTo_MR_ObjectComparableWithReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> * MR_DistanceMeasurementObject_UpcastTo_MR_ObjectComparableWithReference </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code>. This version is acting on mutable pointers. </p>
 
 </div>
 </div>

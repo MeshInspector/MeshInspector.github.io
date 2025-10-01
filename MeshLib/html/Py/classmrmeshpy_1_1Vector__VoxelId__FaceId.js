@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__VoxelId__FaceId =
     [ "__init__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#ae93a239c5169911f54d13a051002148d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a6e7a183234e61b42e640b31c8d228daf", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#acc56305a123b240d009694ef7d052ba8", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a8b1495dab54db6948871e3e225355594", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a43ef4f7569e31d4cc20a1bbc2f006f9d", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a9435fbcf47f58298aca000b7c7061489", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a9435fbcf47f58298aca000b7c7061489", null ],

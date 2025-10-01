@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FixUndercuts_1_1FixParams =
 [
     [ "__init__", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#a6de6384dd4ce68168bd45a01c66e7bb5", null ],
+    [ "__init__", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#a31b1027da3a80f949a69d64a8cba90c1", null ],
     [ "__init__", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af1ef57e8bd8ce10b2215b023a604a262", null ],
     [ "bottomExtension", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#afea4240bfe67c58ab6db1362a2781955", null ],
     [ "bottomExtension", "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#a9ec687ac194321ebcadb06578cdfe401", null ],

@@ -37,6 +37,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRImGuiMenuListeners.h", "MRImGuiMenuListeners_8h.html", "MRImGuiMenuListeners_8h" ],
     [ "MRImGuiVectorOperators.h", "MRImGuiVectorOperators_8h.html", "MRImGuiVectorOperators_8h" ],
     [ "MRISceneStateCheck.h", "MRISceneStateCheck_8h.html", "MRISceneStateCheck_8h" ],
+    [ "MRItemEnabledPerViewport.h", "MRItemEnabledPerViewport_8h.html", "MRItemEnabledPerViewport_8h" ],
     [ "MRLambdaRibbonItem.h", "MRLambdaRibbonItem_8h.html", "MRLambdaRibbonItem_8h" ],
     [ "MRLinesShader.h", "MRLinesShader_8h.html", "MRLinesShader_8h" ],
     [ "MRMacOSOpenDocumentsHandler.h", "MRMacOSOpenDocumentsHandler_8h.html", null ],
@@ -67,6 +68,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRProjectMeshAttributes.h", "MRProjectMeshAttributes_8h.html", "MRProjectMeshAttributes_8h" ],
     [ "MRPythonAppendCommand.h", "MRPythonAppendCommand_8h.html", "MRPythonAppendCommand_8h" ],
     [ "MRRecentFilesStore.h", "MRRecentFilesStore_8h.html", "MRRecentFilesStore_8h" ],
+    [ "MRRenderClickableRect.h", "MRRenderClickableRect_8h.html", "MRRenderClickableRect_8h" ],
     [ "MRRenderDefaultObjects.h", "MRRenderDefaultObjects_8h.html", "MRRenderDefaultObjects_8h" ],
     [ "MRRenderDimensions.h", "MRRenderDimensions_8h.html", "MRRenderDimensions_8h" ],
     [ "MRRenderFeatureObjects.h", "MRRenderFeatureObjects_8h.html", "MRRenderFeatureObjects_8h" ],
@@ -132,6 +134,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRTouchpadParameters.h", "MRTouchpadParameters_8h.html", "MRTouchpadParameters_8h" ],
     [ "MRTouchpadWin32Handler.h", "MRTouchpadWin32Handler_8h.html", null ],
     [ "MRUINonOverlappingLabels.h", "MRUINonOverlappingLabels_8h.html", "MRUINonOverlappingLabels_8h" ],
+    [ "MRUIQualityControl.h", "MRUIQualityControl_8h.html", "MRUIQualityControl_8h" ],
     [ "MRUIRectAllocator.h", "MRUIRectAllocator_8h.html", "MRUIRectAllocator_8h" ],
     [ "MRUISaveChangesPopup.h", "MRUISaveChangesPopup_8h.html", "MRUISaveChangesPopup_8h" ],
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
@@ -151,9 +154,11 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
     [ "MRViewportCornerController.h", "MRViewportCornerController_8h.html", "MRViewportCornerController_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
+    [ "MRViewportGlobalBasis.h", "MRViewportGlobalBasis_8h.html", "MRViewportGlobalBasis_8h" ],
     [ "MRViewportParametersAction.h", "MRViewportParametersAction_8h.html", null ],
     [ "MRVisualObjectTag.h", "MRVisualObjectTag_8h.html", "MRVisualObjectTag_8h" ],
     [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],
     [ "MRVolumeShader.h", "MRVolumeShader_8h.html", "MRVolumeShader_8h" ],
-    [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ]
+    [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ],
+    [ "MRWebResponseCallback.h", "MRWebResponseCallback_8h.html", "MRWebResponseCallback_8h" ]
 ];

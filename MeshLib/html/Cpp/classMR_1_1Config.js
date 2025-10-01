@@ -9,12 +9,14 @@ var classMR_1_1Config =
     [ "getFileStack", "classMR_1_1Config.html#aad8c7c3589d77d0ed1c091938cd14ca9", null ],
     [ "getJsonValue", "classMR_1_1Config.html#ad2eb8802aad4bfd9072566fa434036ce", null ],
     [ "getVector2i", "classMR_1_1Config.html#ad4dcac4813e83411f9ae165484a09b3a", null ],
+    [ "getViewportMask", "classMR_1_1Config.html#aaf8b4307b0d1edb41a8606c59f98fca1", null ],
     [ "hasBool", "classMR_1_1Config.html#a7b31d052c0355b2163f1faf7ad8f42c9", null ],
     [ "hasColor", "classMR_1_1Config.html#a3bf71462e37500b8f9256e88b11c074f", null ],
     [ "hasEnum", "classMR_1_1Config.html#aef03ecb5f0b0ec79bd9f52d4ed8f82e4", null ],
     [ "hasFileStack", "classMR_1_1Config.html#abd89bc044490d3a6dea5d252632a4303", null ],
     [ "hasJsonValue", "classMR_1_1Config.html#af8762966496b6267975c855b7b47d3ca", null ],
     [ "hasVector2i", "classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16", null ],
+    [ "hasViewportMask", "classMR_1_1Config.html#a8bbc5ddb2be70cb120f537f88ed716a5", null ],
     [ "operator=", "classMR_1_1Config.html#ae8bd5243efd5066d7b24657c23126e25", null ],
     [ "reset", "classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3", null ],
     [ "setBool", "classMR_1_1Config.html#ae57d1ec5709dc7fc1a7115f4f745955d", null ],
@@ -23,5 +25,6 @@ var classMR_1_1Config =
     [ "setFileStack", "classMR_1_1Config.html#ae9eaec2c0bade737afbf64156d5a6ca8", null ],
     [ "setJsonValue", "classMR_1_1Config.html#a79498a0537aaf0b56bfbc5c67772eb0f", null ],
     [ "setVector2i", "classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155", null ],
+    [ "setViewportMask", "classMR_1_1Config.html#aca8ad2571fde2ff0a492612ede6afb4c", null ],
     [ "writeToFile", "classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca", null ]
 ];

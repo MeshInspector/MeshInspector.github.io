@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1MovementBuildBodyParams.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -166,6 +165,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:adcac10de1f9f5decb27a76bc24ea210d" id="r_adcac10de1f9f5decb27a76bc24ea210d"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcac10de1f9f5decb27a76bc24ea210d">b2tXf</a> { nullptr }</td></tr>
 <tr class="memdesc:adcac10de1f9f5decb27a76bc24ea210d"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional transform body space to trajectory space  <br /></td></tr>
 <tr class="separator:adcac10de1f9f5decb27a76bc24ea210d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e79aa429b49bcb7680054b007b6245" id="r_a89e79aa429b49bcb7680054b007b6245"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e79aa429b49bcb7680054b007b6245">startMeshFromBody</a> { false }</td></tr>
+<tr class="memdesc:a89e79aa429b49bcb7680054b007b6245"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then body-contours will be located exactly on resulting mesh  <br /></td></tr>
+<tr class="separator:a89e79aa429b49bcb7680054b007b6245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0d83dd8285f144d9b53b12fbb7e2a0bc" name="a0d83dd8285f144d9b53b12fbb7e2a0bc"></a>
@@ -226,6 +228,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>point in body space that follows trajectory if not set body bounding box center is used </p>
+
+</div>
+</div>
+<a id="a89e79aa429b49bcb7680054b007b6245" name="a89e79aa429b49bcb7680054b007b6245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e79aa429b49bcb7680054b007b6245">&#9670;&#160;</a></span>startMeshFromBody</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MovementBuildBodyParams::startMeshFromBody { false }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true, then body-contours will be located exactly on resulting mesh </p>
 
 </div>
 </div>

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRPrecipitationSimulator_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRPrecipitationSimulator_8h.html',''); initResizable(t
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRPrecipitationSimulator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -167,19 +165,19 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0691b4cabfa34960d5cd00f39ec4c7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b92295242390c95dc53e1966dc86b29" id="r_a1b92295242390c95dc53e1966dc86b29"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a></td></tr>
 <tr class="separator:a1b92295242390c95dc53e1966dc86b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82db0baa132154eb45774084be587171" id="r_a82db0baa132154eb45774084be587171"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td></tr>
-<tr class="separator:a82db0baa132154eb45774084be587171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430e686771186947114c9de31e5ca51b" id="r_a430e686771186947114c9de31e5ca51b"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430e686771186947114c9de31e5ca51b">MR_PrecipitationSimulator_Event</a></td></tr>
+<tr class="separator:a430e686771186947114c9de31e5ca51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3864fee6711538ede04b706cbefc7606" id="r_a3864fee6711538ede04b706cbefc7606"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a></td></tr>
 <tr class="memdesc:a3864fee6711538ede04b706cbefc7606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>.  <br /></td></tr>
 <tr class="separator:a3864fee6711538ede04b706cbefc7606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ae6dceca96ec2c7a1b4aa211264a87ef6" id="r_ae6dceca96ec2c7a1b4aa211264a87ef6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ae6dceca96ec2c7a1b4aa211264a87ef6a497f7e4d059b1e50c66a4ca4b04c9961">MR_PrecipitationSimulator_Event_Finish</a> = 0
-, <a class="el" href="#ae6dceca96ec2c7a1b4aa211264a87ef6a4e4816a65976504e9e2f84900b961e3e">MR_PrecipitationSimulator_Event_BasinFull</a> = 1
-, <a class="el" href="#ae6dceca96ec2c7a1b4aa211264a87ef6a2548769d0ab4b8eb77f9a4e8efb38240">MR_PrecipitationSimulator_Event_Merge</a> = 2
+<tr class="memitem:ae6d1330898096b0a1fefe35e2564a7f2" id="r_ae6d1330898096b0a1fefe35e2564a7f2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> { <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961">MR_PrecipitationSimulator_Event_Finish</a> = 0
+, <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e">MR_PrecipitationSimulator_Event_BasinFull</a> = 1
+, <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2a2548769d0ab4b8eb77f9a4e8efb38240">MR_PrecipitationSimulator_Event_Merge</a> = 2
  }</td></tr>
-<tr class="separator:ae6dceca96ec2c7a1b4aa211264a87ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae6d1330898096b0a1fefe35e2564a7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -201,11 +199,11 @@ Functions</h2></td></tr>
 <tr class="separator:ac1d8c0b9916b57e403d183cfae90ff30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4df5f8ff5c2e94fd4144ce0a899de1ff" id="r_a4df5f8ff5c2e94fd4144ce0a899de1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df5f8ff5c2e94fd4144ce0a899de1ff">MR_PrecipitationSimulator_simulateOne</a> (<a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *_this)</td></tr>
 <tr class="separator:a4df5f8ff5c2e94fd4144ce0a899de1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5909dbca8c412a1a3ab365eb0babb3ac" id="r_a5909dbca8c412a1a3ab365eb0babb3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5909dbca8c412a1a3ab365eb0babb3ac">MR_PrecipitationSimulator_SimulationStep_Get_event</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="memitem:a5909dbca8c412a1a3ab365eb0babb3ac" id="r_a5909dbca8c412a1a3ab365eb0babb3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5909dbca8c412a1a3ab365eb0babb3ac">MR_PrecipitationSimulator_SimulationStep_Get_event</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
 <tr class="separator:a5909dbca8c412a1a3ab365eb0babb3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43384d26289b1683c73e00a23adebb64" id="r_a43384d26289b1683c73e00a23adebb64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43384d26289b1683c73e00a23adebb64">MR_PrecipitationSimulator_SimulationStep_Set_event</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> value)</td></tr>
+<tr class="memitem:a43384d26289b1683c73e00a23adebb64" id="r_a43384d26289b1683c73e00a23adebb64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43384d26289b1683c73e00a23adebb64">MR_PrecipitationSimulator_SimulationStep_Set_event</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> value)</td></tr>
 <tr class="separator:a43384d26289b1683c73e00a23adebb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad22c759a4c302b4f2d523fc6edbab4fb" id="r_ad22c759a4c302b4f2d523fc6edbab4fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad22c759a4c302b4f2d523fc6edbab4fb">MR_PrecipitationSimulator_SimulationStep_GetMutable_event</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="memitem:ad22c759a4c302b4f2d523fc6edbab4fb" id="r_ad22c759a4c302b4f2d523fc6edbab4fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad22c759a4c302b4f2d523fc6edbab4fb">MR_PrecipitationSimulator_SimulationStep_GetMutable_event</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
 <tr class="separator:ad22c759a4c302b4f2d523fc6edbab4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0b51305bf31975a07e1a891d03805f9" id="r_af0b51305bf31975a07e1a891d03805f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0b51305bf31975a07e1a891d03805f9">MR_PrecipitationSimulator_SimulationStep_Get_amount</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
 <tr class="separator:af0b51305bf31975a07e1a891d03805f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +227,7 @@ Functions</h2></td></tr>
 <tr class="separator:a0bf80be4d80c2dc0d6346d310e118127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a609d420498454f3e02cc83bff6f1827d" id="r_a609d420498454f3e02cc83bff6f1827d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a609d420498454f3e02cc83bff6f1827d">MR_PrecipitationSimulator_SimulationStep_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a609d420498454f3e02cc83bff6f1827d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f8c6484ad69240ee4ba08dc0e0dd53" id="r_a70f8c6484ad69240ee4ba08dc0e0dd53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f8c6484ad69240ee4ba08dc0e0dd53">MR_PrecipitationSimulator_SimulationStep_ConstructFrom</a> (<a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> event, float amount, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> basin, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> neiBasin)</td></tr>
+<tr class="memitem:a70f8c6484ad69240ee4ba08dc0e0dd53" id="r_a70f8c6484ad69240ee4ba08dc0e0dd53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f8c6484ad69240ee4ba08dc0e0dd53">MR_PrecipitationSimulator_SimulationStep_ConstructFrom</a> (<a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> event, float amount, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> basin, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> neiBasin)</td></tr>
 <tr class="separator:a70f8c6484ad69240ee4ba08dc0e0dd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcfbd1fa3c390be5abcf2ad986fc0734" id="r_abcfbd1fa3c390be5abcf2ad986fc0734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfbd1fa3c390be5abcf2ad986fc0734">MR_PrecipitationSimulator_SimulationStep_OffsetPtr</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:abcfbd1fa3c390be5abcf2ad986fc0734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -264,14 +262,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a82db0baa132154eb45774084be587171" name="a82db0baa132154eb45774084be587171"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82db0baa132154eb45774084be587171">&#9670;&#160;</a></span>MR_PrecipitationSimulator_Event</h2>
+<a id="a430e686771186947114c9de31e5ca51b" name="a430e686771186947114c9de31e5ca51b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430e686771186947114c9de31e5ca51b">&#9670;&#160;</a></span>MR_PrecipitationSimulator_Event</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -309,24 +307,24 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae6dceca96ec2c7a1b4aa211264a87ef6" name="ae6dceca96ec2c7a1b4aa211264a87ef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6dceca96ec2c7a1b4aa211264a87ef6">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ae6d1330898096b0a1fefe35e2564a7f2" name="ae6d1330898096b0a1fefe35e2564a7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d1330898096b0a1fefe35e2564a7f2">&#9670;&#160;</a></span>MR_PrecipitationSimulator_Event</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6dceca96ec2c7a1b4aa211264a87ef6a497f7e4d059b1e50c66a4ca4b04c9961" name="ae6dceca96ec2c7a1b4aa211264a87ef6a497f7e4d059b1e50c66a4ca4b04c9961"></a>MR_PrecipitationSimulator_Event_Finish&#160;</td><td class="fielddoc"><p>all basins are full and water goes outside </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961" name="ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961"></a>MR_PrecipitationSimulator_Event_Finish&#160;</td><td class="fielddoc"><p>all basins are full and water goes outside </p>
 <p>one basin just became full </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ae6dceca96ec2c7a1b4aa211264a87ef6a4e4816a65976504e9e2f84900b961e3e" name="ae6dceca96ec2c7a1b4aa211264a87ef6a4e4816a65976504e9e2f84900b961e3e"></a>MR_PrecipitationSimulator_Event_BasinFull&#160;</td><td class="fielddoc"><p>two basins just merged </p>
+<tr><td class="fieldname"><a id="ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e" name="ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e"></a>MR_PrecipitationSimulator_Event_BasinFull&#160;</td><td class="fielddoc"><p>two basins just merged </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ae6dceca96ec2c7a1b4aa211264a87ef6a2548769d0ab4b8eb77f9a4e8efb38240" name="ae6dceca96ec2c7a1b4aa211264a87ef6a2548769d0ab4b8eb77f9a4e8efb38240"></a>MR_PrecipitationSimulator_Event_Merge&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae6d1330898096b0a1fefe35e2564a7f2a2548769d0ab4b8eb77f9a4e8efb38240" name="ae6d1330898096b0a1fefe35e2564a7f2a2548769d0ab4b8eb77f9a4e8efb38240"></a>MR_PrecipitationSimulator_Event_Merge&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -505,7 +503,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a></td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -663,7 +661,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> * MR_PrecipitationSimulator_SimulationStep_Get_event </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> * MR_PrecipitationSimulator_SimulationStep_Get_event </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -735,7 +733,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> * MR_PrecipitationSimulator_SimulationStep_GetMutable_event </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a> * MR_PrecipitationSimulator_SimulationStep_GetMutable_event </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -867,7 +865,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

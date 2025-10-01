@@ -35,8 +35,9 @@ var menudata={children:[
 {text:"Tutorials",url:"../Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
 {text:"Examples",url:"../Examples.html",children:[
+{text:"C++ Application Based on MeshLib",url:"../Examples.html#CppApplication",children:[
+{text:"Application Based on MeshLib",url:"../BasedApplication.html"}]},
 {text:"General Samples",url:"../Examples.html#GeneralExamples",children:[
-{text:"Application Based on MeshLib",url:"../BasedApplication.html"},
 {text:"Mesh Load and Save",url:"../ExampleMeshLoadSave.html"},
 {text:"Export Raw Triangles",url:"../ExampleMeshExport.html"},
 {text:"Mesh Modification",url:"../ExampleMeshModification.html"},
@@ -62,8 +63,13 @@ var menudata={children:[
 {text:"Terrain Triangulation",url:"../ExampleTerrainTriangulation.html"},
 {text:"Fusion",url:"../ExampleFusion.html"},
 {text:"Text to Mesh",url:"../ExampleMeshFromText.html"}]},
+{text:"Collisions",url:"../Examples.html#Collisions",children:[
+{text:"Detect Collisions",url:"../ExampleDetectCollisions.html"},
+{text:"Detect Collisions Precise",url:"../ExampleDetectCollisionsPrecise.html"},
+{text:"Detect Self-Intersections",url:"../ExampleDetectSelfIntersections.html"}]},
 {text:"Python Specific Samples",url:"../Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"../ExampleViewer.html"},
+{text:"Volume Rendering",url:"../ExampleViewerVolumeRender.html"},
 {text:"Plotly Visualization",url:"../ExamplePlotly.html"},
 {text:"Using Numpy",url:"../ExampleNumpy.html"},
 {text:"Numpy Triangulation",url:"../ExampleNumpyTriangulation.html"},
@@ -124,7 +130,8 @@ var menudata={children:[
 {text:"m",url:"globals_func.html#index_m"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
 {text:"m",url:"globals_type.html#index_m"}]},
-{text:"Enumerations",url:"globals_enum.html"},
+{text:"Enumerations",url:"globals_enum.html",children:[
+{text:"m",url:"globals_enum.html#index_m"}]},
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"m",url:"globals_eval.html#index_m"}]},
 {text:"Macros",url:"globals_defs.html"}]}]}]}]},

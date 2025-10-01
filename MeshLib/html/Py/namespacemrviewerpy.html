@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Py/namespacemrviewerpy.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -246,6 +245,12 @@ Functions</h2></td></tr>
 <tr class="separator:aba0c3af039e55734733217ed9fd8f64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afee3c6139ef04272fddcf75d10bf4dd0" id="r_afee3c6139ef04272fddcf75d10bf4dd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrviewerpy_1_1UiValueUint.html">UiValueUint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee3c6139ef04272fddcf75d10bf4dd0">uiReadValueUint</a> (list[str] arg0)</td></tr>
 <tr class="separator:afee3c6139ef04272fddcf75d10bf4dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b8fcbad852a022e76e4e06a670475e" id="r_a30b8fcbad852a022e76e4e06a670475e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30b8fcbad852a022e76e4e06a670475e">uiWriteValue</a> (list[str] arg0, int arg1)</td></tr>
+<tr class="separator:a30b8fcbad852a022e76e4e06a670475e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a650078ff8a62bab8e093fae78e06e038" id="r_a650078ff8a62bab8e093fae78e06e038"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a650078ff8a62bab8e093fae78e06e038">uiWriteValue</a> (list[str] arg0, float arg1)</td></tr>
+<tr class="separator:a650078ff8a62bab8e093fae78e06e038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ad745bf2be021726077e06fef0f7f9" id="r_a58ad745bf2be021726077e06fef0f7f9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ad745bf2be021726077e06fef0f7f9">uiWriteValue</a> (list[str] arg0, str arg1)</td></tr>
+<tr class="separator:a58ad745bf2be021726077e06fef0f7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bfe9b7df9f135d662c86bfb1f6007d4" id="r_a6bfe9b7df9f135d662c86bfb1f6007d4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bfe9b7df9f135d662c86bfb1f6007d4">uiWriteValueInt</a> (list[str] arg0, int arg1)</td></tr>
 <tr class="separator:a6bfe9b7df9f135d662c86bfb1f6007d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13b0728e00264a60ad58ba1de9f875cd" id="r_a13b0728e00264a60ad58ba1de9f875cd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13b0728e00264a60ad58ba1de9f875cd">uiWriteValueReal</a> (list[str] arg0, float arg1)</td></tr>
@@ -754,7 +759,7 @@ When you find the button you need, pass it to `uiPressButton()`.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Read a value from a drag/slider widget. This overload is for signed integers.
+<pre class="fragment">Read a value from a drag/slider widget. This function is for signed integers.
 </pre> 
 </div>
 </div>
@@ -772,7 +777,7 @@ When you find the button you need, pass it to `uiPressButton()`.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Read a value from a drag/slider widget. This overload is for real numbers.
+<pre class="fragment">Read a value from a drag/slider widget. This function is for real numbers.
 </pre> 
 </div>
 </div>
@@ -790,7 +795,7 @@ When you find the button you need, pass it to `uiPressButton()`.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Read a value from a drag/slider widget. This overload is for strings.
+<pre class="fragment">Read a value from a drag/slider widget. This function is for strings.
 </pre> 
 </div>
 </div>
@@ -808,7 +813,74 @@ When you find the button you need, pass it to `uiPressButton()`.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Read a value from a drag/slider widget. This overload is for unsigned integers.
+<pre class="fragment">Read a value from a drag/slider widget. This function is for unsigned integers.
+</pre> 
+</div>
+</div>
+<a id="a650078ff8a62bab8e093fae78e06e038" name="a650078ff8a62bab8e093fae78e06e038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a650078ff8a62bab8e093fae78e06e038">&#9670;&#160;</a></span>uiWriteValue() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrviewerpy.uiWriteValue </td>
+          <td>(</td>
+          <td class="paramtype">list[str]</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Write a value to a drag/slider widget. This overload is for real numbers.
+</pre> 
+</div>
+</div>
+<a id="a30b8fcbad852a022e76e4e06a670475e" name="a30b8fcbad852a022e76e4e06a670475e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30b8fcbad852a022e76e4e06a670475e">&#9670;&#160;</a></span>uiWriteValue() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">None mrviewerpy.uiWriteValue </td>
+          <td>(</td>
+          <td class="paramtype">list[str]</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Write a value to a drag/slider widget. This overload is for signed integers.
+</pre><pre class="fragment">Write a value to a drag/slider widget. This overload is for unsigned integers.
+</pre> 
+</div>
+</div>
+<a id="a58ad745bf2be021726077e06fef0f7f9" name="a58ad745bf2be021726077e06fef0f7f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ad745bf2be021726077e06fef0f7f9">&#9670;&#160;</a></span>uiWriteValue() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrviewerpy.uiWriteValue </td>
+          <td>(</td>
+          <td class="paramtype">list[str]</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Write a value to a drag/slider widget. This overload is for strings.
 </pre> 
 </div>
 </div>

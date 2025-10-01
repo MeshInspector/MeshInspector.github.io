@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId =
 [
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#af7357225c87d9ec69cf1c385c68af66d", null ],
+    [ "__init__", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#acc1fc26d40a2cb847c109eeb2a1c4822", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a88cd3da0476d8f1788fbd7002d6ac96c", null ],
     [ "clear", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a6cfb3114ec32f50b1204862559760df8", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a0c4ac2a63fd7c8ad67c8cd1db7519293", null ],

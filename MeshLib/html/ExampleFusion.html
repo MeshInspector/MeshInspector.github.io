@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleFusion.html" />
-
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<!-- No Index Part -->
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -211,6 +210,109 @@ $(function(){initNavTree('ExampleFusion.html',''); initResizable(true); });
 <div class="line">mesh = mm.pointsToMeshFusion(points,params)</div>
 <div class="line"> </div>
 <div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;Mesh.ctm&quot;</span>)</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointsLoad_8h.html">MRCMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointCloudRadius_8h.html">MRCMesh/MRPointCloudRadius.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointCloud_8h.html">MRCMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRBox_8h.html">MRCMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointsToMeshFusion_8h.html">MRCVoxels/MRPointsToMeshFusion.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__PointCloud__std__string_8h.html">MRCMisc/expected_MR_PointCloud_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__void__std__string_8h.html">MRCMisc/expected_void_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#ifdef max</span></div>
+<div class="line"><span class="preprocessor">#undef max</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#define max(a,b) a &gt; b ? a : b</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// load points</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a>* loadRes = <a class="code hl_functionRef" href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;Points.ply&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>* pc = <a class="code hl_functionRef" href="./C/expected__MR__PointCloud__std__string_8h.html#a2a989444cea4ad60fae95ebb89611938">MR_expected_MR_PointCloud_std_string_GetMutableValue</a>( loadRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !pc )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load points: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__PointCloud__std__string_8h.html#a0bfe8e029ec54a5d8d989a8cac187d82">MR_expected_MR_PointCloud_std_string_GetError</a>( loadRes ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRPointsToMeshFusion_8h.html#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a>* params = <a class="code hl_functionRef" href="./C/MRPointsToMeshFusion_8h.html#a16253cd2747a4a603593707250c885b2">MR_PointsToMeshParameters_DefaultConstruct</a>();</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Box3f.html">MR_Box3f</a> box = <a class="code hl_functionRef" href="./C/MRPointCloud_8h.html#a06cd202fbe59c6268bdc6de59001b676">MR_PointCloud_computeBoundingBox_1</a>( pc, NULL );</div>
+<div class="line">    <span class="keywordtype">float</span> voxelSize = <a class="code hl_functionRef" href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a>( &amp;box ) * 1e-2f;</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRPointsToMeshFusion_8h.html#a70aa6d57f226ed981c9ec2a480cd1550">MR_PointsToMeshParameters_Set_voxelSize</a>( params, voxelSize );</div>
+<div class="line">    <span class="keywordtype">float</span> avgRadius = <a class="code hl_functionRef" href="./C/MRPointCloudRadius_8h.html#a495edccb87a545b43f80226ca3eada97">MR_findAvgPointsRadius</a>( pc, 50, NULL );</div>
+<div class="line">    <span class="keywordtype">float</span> sigma = max( voxelSize, avgRadius );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRPointsToMeshFusion_8h.html#a305e42a2ed9f26297d04b65f1f5cd948">MR_PointsToMeshParameters_Set_sigma</a>( params, sigma );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRPointsToMeshFusion_8h.html#a996bea93cf5ce0e12e5efbaafe65b56c">MR_PointsToMeshParameters_Set_minWeight</a>( params, 1.0f );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* fusionRes = <a class="code hl_functionRef" href="./C/MRPointsToMeshFusion_8h.html#abd4eb307824b69a55471aee7577fee54">MR_pointsToMeshFusion</a>( pc, params );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( fusionRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to fuse points: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( fusionRes ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_fuse;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_save; <span class="comment">// error while saving file</span></div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    rc = EXIT_SUCCESS;</div>
+<div class="line">fail_save:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( saveEx );</div>
+<div class="line">fail_fuse:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( fusionRes );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRPointsToMeshFusion_8h.html#ac2e4f245d8d6d57019ca78dadd944dd4">MR_PointsToMeshParameters_Destroy</a>( params );</div>
+<div class="line">fail_load:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f">MR_expected_MR_PointCloud_std_string_Destroy</a>( loadRes );</div>
+<div class="line">    <span class="keywordflow">return</span> rc;</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="./C/MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRBox_8h_html_a09b9e77072670aa42a43c6a581960600"><div class="ttname"><a href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a></div><div class="ttdeci">MRC_API float MR_Box3f_diagonal(const MR_Box3f *_this)</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a9dbbf904c32d71d8c8ec8da2165b4a12"><div class="ttname"><a href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></div><div class="ttdeci">struct MR_expected_MR_PointCloud_std_string MR_expected_MR_PointCloud_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
+<div class="ttc" id="aMRPointCloudRadius_8h_html_a495edccb87a545b43f80226ca3eada97"><div class="ttname"><a href="./C/MRPointCloudRadius_8h.html#a495edccb87a545b43f80226ca3eada97">MR_findAvgPointsRadius</a></div><div class="ttdeci">MRC_API float MR_findAvgPointsRadius(const MR_PointCloud *pointCloud, int avgPoints, const int *samples)</div></div>
+<div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./C/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRPointCloud_8h_html_a06cd202fbe59c6268bdc6de59001b676"><div class="ttname"><a href="./C/MRPointCloud_8h.html#a06cd202fbe59c6268bdc6de59001b676">MR_PointCloud_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_PointCloud_computeBoundingBox_1(const MR_PointCloud *_this, const MR_AffineXf3f *toWorld)</div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./C/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html_aef738c6568d3615b58a044596a5f47df"><div class="ttname"><a href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_a16253cd2747a4a603593707250c885b2"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#a16253cd2747a4a603593707250c885b2">MR_PointsToMeshParameters_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_a305e42a2ed9f26297d04b65f1f5cd948"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#a305e42a2ed9f26297d04b65f1f5cd948">MR_PointsToMeshParameters_Set_sigma</a></div><div class="ttdeci">MRC_API void MR_PointsToMeshParameters_Set_sigma(MR_PointsToMeshParameters *_this, float value)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_a70aa6d57f226ed981c9ec2a480cd1550"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#a70aa6d57f226ed981c9ec2a480cd1550">MR_PointsToMeshParameters_Set_voxelSize</a></div><div class="ttdeci">MRC_API void MR_PointsToMeshParameters_Set_voxelSize(MR_PointsToMeshParameters *_this, float value)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_a996bea93cf5ce0e12e5efbaafe65b56c"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#a996bea93cf5ce0e12e5efbaafe65b56c">MR_PointsToMeshParameters_Set_minWeight</a></div><div class="ttdeci">MRC_API void MR_PointsToMeshParameters_Set_minWeight(MR_PointsToMeshParameters *_this, float value)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_abd4eb307824b69a55471aee7577fee54"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#abd4eb307824b69a55471aee7577fee54">MR_pointsToMeshFusion</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_pointsToMeshFusion(const MR_PointCloud *cloud, const MR_PointsToMeshParameters *params)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_ac2e4f245d8d6d57019ca78dadd944dd4"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#ac2e4f245d8d6d57019ca78dadd944dd4">MR_PointsToMeshParameters_Destroy</a></div><div class="ttdeci">MRC_API void MR_PointsToMeshParameters_Destroy(const MR_PointsToMeshParameters *_this)</div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html_ad87c5191463fedf3c7383ddbcb57f085"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a></div><div class="ttdeci">struct MR_PointsToMeshParameters MR_PointsToMeshParameters</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html">expected_MR_PointCloud_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html_a0bfe8e029ec54a5d8d989a8cac187d82"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html#a0bfe8e029ec54a5d8d989a8cac187d82">MR_expected_MR_PointCloud_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_PointCloud_std_string_GetError(const MR_expected_MR_PointCloud_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html_a2a989444cea4ad60fae95ebb89611938"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html#a2a989444cea4ad60fae95ebb89611938">MR_expected_MR_PointCloud_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_PointCloud * MR_expected_MR_PointCloud_std_string_GetMutableValue(MR_expected_MR_PointCloud_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html_a8654ce01cf68830f66fb0f132ea8ca5f"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f">MR_expected_MR_PointCloud_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_PointCloud_std_string_Destroy(const MR_expected_MR_PointCloud_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a9638e07d2c5281b4bf574c618ab6f2e9"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_void_std_string_Destroy(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
+<div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="./C/structMR__Box3f.html">MR_Box3f</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

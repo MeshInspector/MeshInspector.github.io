@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRObjectsAccess_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -166,8 +165,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8e83df3805927f1f6c006f596809d97a" id="r_a8e83df3805927f1f6c006f596809d97a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8e83df3805927f1f6c006f596809d97a">MR::objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object)</td></tr>
-<tr class="separator:a8e83df3805927f1f6c006f596809d97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7974cb0413a1baab9b74f14a1d14f410" id="r_a7974cb0413a1baab9b74f14a1d14f410"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7974cb0413a1baab9b74f14a1d14f410">MR::objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object, bool recurse=false)</td></tr>
+<tr class="separator:a7974cb0413a1baab9b74f14a1d14f410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a63769cf93cfa3d68cbf331f305c195d8" id="r_a63769cf93cfa3d68cbf331f305c195d8"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT  = Object&gt; </td></tr>
 <tr class="memitem:a63769cf93cfa3d68cbf331f305c195d8"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; ObjectT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a63769cf93cfa3d68cbf331f305c195d8">MR::asSelectivityType</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; obj, const ObjectSelectivityType &amp;type)</td></tr>
@@ -204,11 +203,51 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a22f25a3d5d44b6ce0dd9cbf858973ae3" id="r_a22f25a3d5d44b6ce0dd9cbf858973ae3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22f25a3d5d44b6ce0dd9cbf858973ae3">Selectable</a></td></tr>
+<tr class="memdesc:a22f25a3d5d44b6ce0dd9cbf858973ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">object itself and all its ancestors are selectable  <br /></td></tr>
 <tr class="separator:a22f25a3d5d44b6ce0dd9cbf858973ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502be4569ebb4f92d7ce2f38551965f4" id="r_a502be4569ebb4f92d7ce2f38551965f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a502be4569ebb4f92d7ce2f38551965f4">LocalSelectable</a></td></tr>
+<tr class="memdesc:a502be4569ebb4f92d7ce2f38551965f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">object itself is selectable  <br /></td></tr>
+<tr class="separator:a502be4569ebb4f92d7ce2f38551965f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c5b97c375750d43c6fc0f0a459fd9a3" id="r_a7c5b97c375750d43c6fc0f0a459fd9a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c5b97c375750d43c6fc0f0a459fd9a3">Selected</a></td></tr>
+<tr class="memdesc:a7c5b97c375750d43c6fc0f0a459fd9a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">object itself is selected and all its ancestors are selectable  <br /></td></tr>
 <tr class="separator:a7c5b97c375750d43c6fc0f0a459fd9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a753ba03bf027d69237fecc008d1f0bec" id="r_a753ba03bf027d69237fecc008d1f0bec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a753ba03bf027d69237fecc008d1f0bec">LocalSelected</a></td></tr>
+<tr class="memdesc:a753ba03bf027d69237fecc008d1f0bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">object itself is selected  <br /></td></tr>
+<tr class="separator:a753ba03bf027d69237fecc008d1f0bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a502be4569ebb4f92d7ce2f38551965f4" name="a502be4569ebb4f92d7ce2f38551965f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a502be4569ebb4f92d7ce2f38551965f4">&#9670;&#160;</a></span>LocalSelectable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LocalSelectable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>object itself is selectable </p>
+
+</div>
+</div>
+<a id="a753ba03bf027d69237fecc008d1f0bec" name="a753ba03bf027d69237fecc008d1f0bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a753ba03bf027d69237fecc008d1f0bec">&#9670;&#160;</a></span>LocalSelected</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LocalSelected</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>object itself is selected </p>
+
+</div>
+</div>
 <a id="a22f25a3d5d44b6ce0dd9cbf858973ae3" name="a22f25a3d5d44b6ce0dd9cbf858973ae3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22f25a3d5d44b6ce0dd9cbf858973ae3">&#9670;&#160;</a></span>Selectable</h2>
 
@@ -220,6 +259,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>object itself and all its ancestors are selectable </p>
 
 </div>
 </div>
@@ -234,6 +275,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>object itself is selected and all its ancestors are selectable </p>
 
 </div>
 </div>

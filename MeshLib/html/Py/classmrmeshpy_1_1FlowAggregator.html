@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Py/classmrmeshpy_1_1FlowAggregator.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -164,6 +163,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab021f0edced20e493266e08c11c886e9" id="r_ab021f0edced20e493266e08c11c886e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab021f0edced20e493266e08c11c886e9">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> heights)</td></tr>
 <tr class="separator:ab021f0edced20e493266e08c11c886e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085847a42b39cf0cca1785e84208d85a" id="r_a085847a42b39cf0cca1785e84208d85a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085847a42b39cf0cca1785e84208d85a">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1FlowAggregator.html">FlowAggregator</a> arg0)</td></tr>
+<tr class="separator:a085847a42b39cf0cca1785e84208d85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85139beb870cc0e93eb54c47ad83bb86" id="r_a85139beb870cc0e93eb54c47ad83bb86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85139beb870cc0e93eb54c47ad83bb86">computeCatchmentDelineation</a> (self)</td></tr>
 <tr class="separator:a85139beb870cc0e93eb54c47ad83bb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c7e3cde36b9f3a158b5856523663d2c" id="r_a5c7e3cde36b9f3a158b5856523663d2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7e3cde36b9f3a158b5856523663d2c">computeFlow</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__FlowOrigin.html">std_vector_FlowOrigin</a> starts, <a class="el" href="classmrmeshpy_1_1OutputFlows.html">OutputFlows</a> out='{}')</td></tr>
@@ -190,7 +191,7 @@ Static Public Member Functions</h2></td></tr>
 this class can track multiple flows and find in each mesh vertex the amount of water reached it
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a535e14a012eb17f4b8dea1515df9c0bb" name="a535e14a012eb17f4b8dea1515df9c0bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a535e14a012eb17f4b8dea1515df9c0bb">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a535e14a012eb17f4b8dea1515df9c0bb">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,7 +220,7 @@ this class can track multiple flows and find in each mesh vertex the amount of w
 </div>
 </div>
 <a id="ab021f0edced20e493266e08c11c886e9" name="ab021f0edced20e493266e08c11c886e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab021f0edced20e493266e08c11c886e9">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab021f0edced20e493266e08c11c886e9">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,6 +243,28 @@ this class can track multiple flows and find in each mesh vertex the amount of w
       </table>
 </div><div class="memdoc">
 <pre class="fragment">prepares the processing of given mesh with given height in each vertex
+</pre> 
+</div>
+</div>
+<a id="a085847a42b39cf0cca1785e84208d85a" name="a085847a42b39cf0cca1785e84208d85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085847a42b39cf0cca1785e84208d85a">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.FlowAggregator.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">FlowAggregator</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
 </pre> 
 </div>
 </div>

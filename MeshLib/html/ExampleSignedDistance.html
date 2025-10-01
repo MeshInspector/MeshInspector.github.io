@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleSignedDistance.html" />
-
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<!-- No Index Part -->
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -152,15 +151,116 @@ $(function(){initNavTree('ExampleSignedDistance.html',''); initResizable(true); 
 <div class="textblock"><p>Example of usage to get signed distance from mesh to mesh</p>
 <dl class="section note"><dt>Note</dt><dd>Please note that unlike findSignedDistances, this function return minimal distance between two meshes</dd></dl>
 <div class="tabbed"></div><div class="tabbed"><ul>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshLoad.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshMeshDistance.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">auto</span> mesh1Res = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh1.ctm&quot;</span> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh1Res.has_value() )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; mesh1Res.error();</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keyword">auto</span> mesh2Res = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh2.ctm&quot;</span> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh2Res.has_value() )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; mesh2Res.error();</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">auto</span> dist = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a>( *mesh1Res, *mesh2Res );</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Signed distance between meshes is &quot;</span> &lt;&lt; dist.signedDist &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_ga23c1ed1442e2de62ef49a64b7179d809"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a></div><div class="ttdeci">MRMESH_API MeshMeshSignedDistanceResult findSignedDistance(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</div></div>
+<div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+</div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line">mesh1 = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>)</div>
 <div class="line">mesh2 = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>)</div>
 <div class="line"> </div>
-<div class="line">a = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#af33dbc50174e05a5a33ad67b4176f4c6">mrmeshpy.findSignedDistance</a>(mesh1, mesh2)</div>
+<div class="line">a = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac17119f1019eb6496df180be2499488c">mrmeshpy.findSignedDistance</a>(mesh1, mesh2)</div>
 <div class="line">print(f<span class="stringliteral">&quot;Signed distance between meshes is {a.signedDist}&quot;</span>)</div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac17119f1019eb6496df180be2499488c"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac17119f1019eb6496df180be2499488c">mrmeshpy::findSignedDistance</a></div><div class="ttdeci">MeshMeshSignedDistanceResult findSignedDistance(MeshPart a, MeshPart b, AffineXf3f rigidB2A=None, float upDistLimitSq=3.4028234663852886e+38)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_af33dbc50174e05a5a33ad67b4176f4c6"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#af33dbc50174e05a5a33ad67b4176f4c6">mrmeshpy::findSignedDistance</a></div><div class="ttdeci">SignedDistanceToMeshResult findSignedDistance(Vector3f pt, MeshPart mp, float upDistLimitSq=3.4028234663852886e+38, float loDistLimitSq=0)</div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshPart_8h.html">MRCMesh/MRMeshPart.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshLoad_8h.html">MRCMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshMeshDistance_8h.html">MRCMesh/MRMeshMeshDistance.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Load mesh.</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* mesh1Res = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh1 = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( mesh1Res );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh1 )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( mesh1Res ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_load_1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* mesh2Res = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh2.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh2 = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( mesh2Res );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh2 )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( mesh2Res ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_load_2;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mp1 = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( mesh1, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mp2 = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( mesh2, NULL );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshMeshDistance_8h.html#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a>* res = <a class="code hl_functionRef" href="./C/MRMeshMeshDistance_8h.html#a2389870ea62bbb0a29091d67087c63ca">MR_findSignedDistance_MR_MeshPart</a>( mp1, mp2, NULL, NULL );</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span>* dist = <a class="code hl_functionRef" href="./C/MRMeshMeshDistance_8h.html#adbf43eaaf0b6523e733c5d03ac3c5a46">MR_MeshMeshSignedDistanceResult_Get_signedDist</a>( res );</div>
+<div class="line"> </div>
+<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;Signed distance between meshes is: %f\n&quot;</span>, *dist );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshMeshDistance_8h.html#af2d9bf2e2e248d405bc03ab6dc2cb41a">MR_MeshMeshSignedDistanceResult_Destroy</a>( res );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( mp2 );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( mp1 );</div>
+<div class="line"> </div>
+<div class="line">    rc = EXIT_SUCCESS;</div>
+<div class="line"> </div>
+<div class="line">fail_load_2:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( mesh2Res );</div>
+<div class="line">fail_load_1:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( mesh1Res );</div>
+<div class="line">    <span class="keywordflow">return</span> rc;</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRAABBTree_8h_html_af1ba30a3fa8a895c1f72e182f3e73e17"><div class="ttname"><a href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></div><div class="ttdeci">struct MR_MeshPart MR_MeshPart</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshMeshDistance_8h_html"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html">MRMeshMeshDistance.h</a></div></div>
+<div class="ttc" id="aMRMeshMeshDistance_8h_html_a04beb5153370f051a06c0671724b799f"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a></div><div class="ttdeci">struct MR_MeshMeshSignedDistanceResult MR_MeshMeshSignedDistanceResult</div></div>
+<div class="ttc" id="aMRMeshMeshDistance_8h_html_a2389870ea62bbb0a29091d67087c63ca"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html#a2389870ea62bbb0a29091d67087c63ca">MR_findSignedDistance_MR_MeshPart</a></div><div class="ttdeci">MRC_API MR_MeshMeshSignedDistanceResult * MR_findSignedDistance_MR_MeshPart(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A, const float *upDistLimitSq)</div></div>
+<div class="ttc" id="aMRMeshMeshDistance_8h_html_adbf43eaaf0b6523e733c5d03ac3c5a46"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html#adbf43eaaf0b6523e733c5d03ac3c5a46">MR_MeshMeshSignedDistanceResult_Get_signedDist</a></div><div class="ttdeci">MRC_API const float * MR_MeshMeshSignedDistanceResult_Get_signedDist(const MR_MeshMeshSignedDistanceResult *_this)</div></div>
+<div class="ttc" id="aMRMeshMeshDistance_8h_html_af2d9bf2e2e248d405bc03ab6dc2cb41a"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html#af2d9bf2e2e248d405bc03ab6dc2cb41a">MR_MeshMeshSignedDistanceResult_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshMeshSignedDistanceResult_Destroy(const MR_MeshMeshSignedDistanceResult *_this)</div></div>
+<div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="./C/MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
+<div class="ttc" id="aMRMeshPart_8h_html_aa166b642217494c14ed7f285e1b0fe56"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshPart_Destroy(const MR_MeshPart *_this)</div></div>
+<div class="ttc" id="aMRMeshPart_8h_html_aeeedbba2bfc476ada96fa53559390476"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a></div><div class="ttdeci">MRC_API MR_MeshPart * MR_MeshPart_Construct(const MR_Mesh *m, const MR_FaceBitSet *bs)</div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

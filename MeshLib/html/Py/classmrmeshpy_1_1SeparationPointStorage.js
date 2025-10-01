@@ -2,6 +2,7 @@ var classmrmeshpy_1_1SeparationPointStorage =
 [
     [ "Block", "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html", "classmrmeshpy_1_1SeparationPointStorage_1_1Block" ],
     [ "__init__", "classmrmeshpy_1_1SeparationPointStorage.html#ac7d5c0dc6a6b151fe2bb718b89e2da72", null ],
+    [ "__init__", "classmrmeshpy_1_1SeparationPointStorage.html#aa803ef66f115a61a971c0a585f5d81f2", null ],
     [ "findSeparationPointSet", "classmrmeshpy_1_1SeparationPointStorage.html#ab7d7ebcc7d1469d9301e82fe5270ddad", null ],
     [ "getBlock", "classmrmeshpy_1_1SeparationPointStorage.html#ababf4879105982497ee78e3e6e981ea5", null ],
     [ "getPoints", "classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350", null ],

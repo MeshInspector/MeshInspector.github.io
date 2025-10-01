@@ -3,7 +3,7 @@ var structMR_1_1Matrix3 =
     [ "QR", "structMR_1_1Matrix3_1_1QR.html", "structMR_1_1Matrix3_1_1QR" ],
     [ "ValueType", "structMR_1_1Matrix3.html#a09d8a7ceef09453960f965518848f683", null ],
     [ "VectorType", "structMR_1_1Matrix3.html#a4c4bd12ba0e345719f85975e5e76f7cc", null ],
-    [ "Matrix3", "structMR_1_1Matrix3.html#af81c56fb03d0cd84e6449455ea224282", null ],
+    [ "Matrix3", "structMR_1_1Matrix3.html#aa9cc66cd3c144819aaa0db89d58dce01", null ],
     [ "Matrix3", "structMR_1_1Matrix3.html#a3c622d7c59246f5caab7346ed60faaa7", null ],
     [ "Matrix3", "structMR_1_1Matrix3.html#ad02bef84772eb1e055cbfcd4ba2896bf", null ],
     [ "col", "structMR_1_1Matrix3.html#a737e1857a45415abf682a6fd530caf44", null ],

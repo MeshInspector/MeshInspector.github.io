@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRBuffer_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRBuffer_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRBuffer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -200,6 +198,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3d70bc8fa84fcd08c750182e3160d939" id="r_a3d70bc8fa84fcd08c750182e3160d939"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3d70bc8fa84fcd08c750182e3160d939">MR_Buffer_MR_VertId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d70bc8fa84fcd08c750182e3160d939">MR_Buffer_MR_VertId_MR_VertId</a></td></tr>
 <tr class="memdesc:a3d70bc8fa84fcd08c750182e3160d939"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="separator:a3d70bc8fa84fcd08c750182e3160d939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550e58c065e57e782377429b013a4a29" id="r_a550e58c065e57e782377429b013a4a29"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a></td></tr>
+<tr class="memdesc:a550e58c065e57e782377429b013a4a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
+<tr class="separator:a550e58c065e57e782377429b013a4a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9532c7498f492993c731c877ba0332b" id="r_ab9532c7498f492993c731c877ba0332b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a></td></tr>
 <tr class="memdesc:ab9532c7498f492993c731c877ba0332b"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="separator:ab9532c7498f492993c731c877ba0332b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,9 +213,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae59984a854d371b2c7cc8dd07657d65e" id="r_ae59984a854d371b2c7cc8dd07657d65e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a></td></tr>
 <tr class="memdesc:ae59984a854d371b2c7cc8dd07657d65e"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="separator:ae59984a854d371b2c7cc8dd07657d65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea2db741df8e0b829e6c276939e57d7c" id="r_aea2db741df8e0b829e6c276939e57d7c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a></td></tr>
-<tr class="memdesc:aea2db741df8e0b829e6c276939e57d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
-<tr class="separator:aea2db741df8e0b829e6c276939e57d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a688bf12270075ec1756174e79fbebec1" id="r_a688bf12270075ec1756174e79fbebec1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a688bf12270075ec1756174e79fbebec1">MR_Buffer_MR_EdgeId_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688bf12270075ec1756174e79fbebec1">MR_Buffer_MR_EdgeId_MR_EdgeId</a></td></tr>
 <tr class="memdesc:a688bf12270075ec1756174e79fbebec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="separator:a688bf12270075ec1756174e79fbebec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,16 +258,16 @@ Typedefs</h2></td></tr>
 <tr class="separator:ad1ad750b438e104c98e72feaa49b57ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d90af67efbfddc78b3d0a6b6d14f10" id="r_a25d90af67efbfddc78b3d0a6b6d14f10"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#a25d90af67efbfddc78b3d0a6b6d14f10">MR_BMap_MR_ObjId_MR_ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d90af67efbfddc78b3d0a6b6d14f10">MR_BMap_MR_ObjId_MR_ObjId</a></td></tr>
 <tr class="separator:a25d90af67efbfddc78b3d0a6b6d14f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f6aa85480f5ea36533be6f6b557bc1f" id="r_a7f6aa85480f5ea36533be6f6b557bc1f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a></td></tr>
-<tr class="separator:a7f6aa85480f5ea36533be6f6b557bc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af034b4103e85b60d533cd9bcaf4b9b00" id="r_af034b4103e85b60d533cd9bcaf4b9b00"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a></td></tr>
-<tr class="separator:af034b4103e85b60d533cd9bcaf4b9b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5f03336386d65f3e0804994394713e" id="r_a7f5f03336386d65f3e0804994394713e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7f5f03336386d65f3e0804994394713e">MR_BMap_MR_VertId_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5f03336386d65f3e0804994394713e">MR_BMap_MR_VertId_uint64_t</a></td></tr>
 <tr class="separator:a7f5f03336386d65f3e0804994394713e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a7105d6f2c0d694d7dff11a45e316f9" id="r_a8a7105d6f2c0d694d7dff11a45e316f9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8a7105d6f2c0d694d7dff11a45e316f9">MR_BMap_MR_UndirectedEdgeId_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a7105d6f2c0d694d7dff11a45e316f9">MR_BMap_MR_UndirectedEdgeId_uint64_t</a></td></tr>
 <tr class="separator:a8a7105d6f2c0d694d7dff11a45e316f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3b408307603e915fb9df60a6981b582" id="r_ac3b408307603e915fb9df60a6981b582"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac3b408307603e915fb9df60a6981b582">MR_BMap_MR_FaceId_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b408307603e915fb9df60a6981b582">MR_BMap_MR_FaceId_uint64_t</a></td></tr>
 <tr class="separator:ac3b408307603e915fb9df60a6981b582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6aa85480f5ea36533be6f6b557bc1f" id="r_a7f6aa85480f5ea36533be6f6b557bc1f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a></td></tr>
+<tr class="separator:a7f6aa85480f5ea36533be6f6b557bc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af034b4103e85b60d533cd9bcaf4b9b00" id="r_af034b4103e85b60d533cd9bcaf4b9b00"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a></td></tr>
+<tr class="separator:af034b4103e85b60d533cd9bcaf4b9b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2edfcbc192a56da6ffb031e1a4db21a6" id="r_a2edfcbc192a56da6ffb031e1a4db21a6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a2edfcbc192a56da6ffb031e1a4db21a6">MR_BMap_MR_VoxelId_MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2edfcbc192a56da6ffb031e1a4db21a6">MR_BMap_MR_VoxelId_MR_VoxelId</a></td></tr>
 <tr class="separator:a2edfcbc192a56da6ffb031e1a4db21a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abede243c7536fdbb10ee49eb5699e92a" id="r_abede243c7536fdbb10ee49eb5699e92a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#abede243c7536fdbb10ee49eb5699e92a">MR_BMap_MR_PixelId_MR_PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abede243c7536fdbb10ee49eb5699e92a">MR_BMap_MR_PixelId_MR_PixelId</a></td></tr>
@@ -294,9 +292,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a673fe253eca6ec7afe8f6a2bb44eca4f" id="r_a673fe253eca6ec7afe8f6a2bb44eca4f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a></td></tr>
 <tr class="memdesc:a673fe253eca6ec7afe8f6a2bb44eca4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;MR::VertId&gt;</code>.  <br /></td></tr>
 <tr class="separator:a673fe253eca6ec7afe8f6a2bb44eca4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56b3339f7052fdef352455251c59f990" id="r_a56b3339f7052fdef352455251c59f990"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a></td></tr>
-<tr class="memdesc:a56b3339f7052fdef352455251c59f990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;uint8_t&gt;</code>.  <br /></td></tr>
-<tr class="separator:a56b3339f7052fdef352455251c59f990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65aeadfa7403acec3d68ffa65802c816" id="r_a65aeadfa7403acec3d68ffa65802c816"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a></td></tr>
+<tr class="memdesc:a65aeadfa7403acec3d68ffa65802c816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;unsigned char&gt;</code>.  <br /></td></tr>
+<tr class="separator:a65aeadfa7403acec3d68ffa65802c816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abde96022140d7df9200836b495ab09ba" id="r_abde96022140d7df9200836b495ab09ba"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abde96022140d7df9200836b495ab09ba">MR_NoCtor_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde96022140d7df9200836b495ab09ba">MR_NoCtor_char</a></td></tr>
 <tr class="memdesc:abde96022140d7df9200836b495ab09ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;char&gt;</code>.  <br /></td></tr>
 <tr class="separator:abde96022140d7df9200836b495ab09ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -479,6 +477,54 @@ Functions</h2></td></tr>
 <tr class="separator:adc75dbd5680bd51a3dccb096c5dcd4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a916b8e58caa794eacddafbf3e575846c" id="r_a916b8e58caa794eacddafbf3e575846c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a916b8e58caa794eacddafbf3e575846c">MR_Buffer_MR_VertId_MR_VertId_heapBytes</a> (const <a class="el" href="#a3d70bc8fa84fcd08c750182e3160d939">MR_Buffer_MR_VertId_MR_VertId</a> *_this)</td></tr>
 <tr class="separator:a916b8e58caa794eacddafbf3e575846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae878fe6fad0b12e2095ad2e1b75e2447" id="r_ae878fe6fad0b12e2095ad2e1b75e2447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae878fe6fad0b12e2095ad2e1b75e2447">MR_Buffer_unsigned_char_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ae878fe6fad0b12e2095ad2e1b75e2447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95502cac777b4002bb2e908386897c4d" id="r_a95502cac777b4002bb2e908386897c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95502cac777b4002bb2e908386897c4d">MR_Buffer_unsigned_char_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a95502cac777b4002bb2e908386897c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e163dc66a7328fd847f41ee1cf7d80a" id="r_a6e163dc66a7328fd847f41ee1cf7d80a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e163dc66a7328fd847f41ee1cf7d80a">MR_Buffer_unsigned_char_OffsetPtr</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a6e163dc66a7328fd847f41ee1cf7d80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a6e163dc66a7328fd847f41ee1cf7d80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23080ae454f6bff66346c05b114ee202" id="r_a23080ae454f6bff66346c05b114ee202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23080ae454f6bff66346c05b114ee202">MR_Buffer_unsigned_char_OffsetMutablePtr</a> (<a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a23080ae454f6bff66346c05b114ee202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a23080ae454f6bff66346c05b114ee202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e658dd854f4ec5bd1b81ed077f7eaa" id="r_a59e658dd854f4ec5bd1b81ed077f7eaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e658dd854f4ec5bd1b81ed077f7eaa">MR_Buffer_unsigned_char_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_other)</td></tr>
+<tr class="separator:a59e658dd854f4ec5bd1b81ed077f7eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a984b6bcb19a8b5000cff55482b7dcc37" id="r_a984b6bcb19a8b5000cff55482b7dcc37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a984b6bcb19a8b5000cff55482b7dcc37">MR_Buffer_unsigned_char_Construct</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="separator:a984b6bcb19a8b5000cff55482b7dcc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7601fd8cc627478d5dd3a035e0e83aa8" id="r_a7601fd8cc627478d5dd3a035e0e83aa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7601fd8cc627478d5dd3a035e0e83aa8">MR_Buffer_unsigned_char_Destroy</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="memdesc:a7601fd8cc627478d5dd3a035e0e83aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Buffer_unsigned_char</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7601fd8cc627478d5dd3a035e0e83aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad504e0f97aca9661bc45f9094fa6b026" id="r_ad504e0f97aca9661bc45f9094fa6b026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad504e0f97aca9661bc45f9094fa6b026">MR_Buffer_unsigned_char_DestroyArray</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="memdesc:ad504e0f97aca9661bc45f9094fa6b026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Buffer_unsigned_char</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad504e0f97aca9661bc45f9094fa6b026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba4a85ce4271c62144d4076444ddfa5" id="r_afba4a85ce4271c62144d4076444ddfa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba4a85ce4271c62144d4076444ddfa5">MR_Buffer_unsigned_char_AssignFromAnother</a> (<a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_other)</td></tr>
+<tr class="separator:afba4a85ce4271c62144d4076444ddfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef637b465844effcb2d5e365d900eff8" id="r_aef637b465844effcb2d5e365d900eff8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef637b465844effcb2d5e365d900eff8">MR_Buffer_unsigned_char_capacity</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:aef637b465844effcb2d5e365d900eff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c77f76665086eb1b7e711aa56c988db" id="r_a3c77f76665086eb1b7e711aa56c988db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c77f76665086eb1b7e711aa56c988db">MR_Buffer_unsigned_char_size</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a3c77f76665086eb1b7e711aa56c988db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980f545c72f3fccd525679893bab9245" id="r_a980f545c72f3fccd525679893bab9245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a980f545c72f3fccd525679893bab9245">MR_Buffer_unsigned_char_empty</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a980f545c72f3fccd525679893bab9245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3892808e8e728c83519eaf8cc0807ec" id="r_ae3892808e8e728c83519eaf8cc0807ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3892808e8e728c83519eaf8cc0807ec">MR_Buffer_unsigned_char_clear</a> (<a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:ae3892808e8e728c83519eaf8cc0807ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae927574bca70430e4a5743a93ed300" id="r_a3ae927574bca70430e4a5743a93ed300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae927574bca70430e4a5743a93ed300">MR_Buffer_unsigned_char_resize</a> (<a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> newSize)</td></tr>
+<tr class="separator:a3ae927574bca70430e4a5743a93ed300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033486b00a9cd3b62b741d437aea4fcc" id="r_a033486b00a9cd3b62b741d437aea4fcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033486b00a9cd3b62b741d437aea4fcc">MR_Buffer_unsigned_char_index_const</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a033486b00a9cd3b62b741d437aea4fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb961cb3e7a791eea03e5497de5a954" id="r_a5eb961cb3e7a791eea03e5497de5a954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eb961cb3e7a791eea03e5497de5a954">MR_Buffer_unsigned_char_index</a> (<a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a5eb961cb3e7a791eea03e5497de5a954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f583421f9a2bd9a94e002595179fdf6" id="r_a9f583421f9a2bd9a94e002595179fdf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f583421f9a2bd9a94e002595179fdf6">MR_Buffer_unsigned_char_data</a> (<a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a9f583421f9a2bd9a94e002595179fdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf401c1ac00bdcea4e996fb663d95fe4" id="r_acf401c1ac00bdcea4e996fb663d95fe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf401c1ac00bdcea4e996fb663d95fe4">MR_Buffer_unsigned_char_data_const</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:acf401c1ac00bdcea4e996fb663d95fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c52e7444a196932109c888605869fbc" id="r_a7c52e7444a196932109c888605869fbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c52e7444a196932109c888605869fbc">MR_Buffer_unsigned_char_beginId</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a7c52e7444a196932109c888605869fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e0b7d5855f1302699bdd9984f1deca4" id="r_a6e0b7d5855f1302699bdd9984f1deca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e0b7d5855f1302699bdd9984f1deca4">MR_Buffer_unsigned_char_backId</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a6e0b7d5855f1302699bdd9984f1deca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e85f88b47911cc97f55975255535e59" id="r_a3e85f88b47911cc97f55975255535e59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e85f88b47911cc97f55975255535e59">MR_Buffer_unsigned_char_endId</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a3e85f88b47911cc97f55975255535e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4632f34547b82abcffbe45ca5c5fc23a" id="r_a4632f34547b82abcffbe45ca5c5fc23a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4632f34547b82abcffbe45ca5c5fc23a">MR_Buffer_unsigned_char_heapBytes</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *_this)</td></tr>
+<tr class="separator:a4632f34547b82abcffbe45ca5c5fc23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6e32d57a9c2a6ec096ecee7af6a65a4" id="r_ac6e32d57a9c2a6ec096ecee7af6a65a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e32d57a9c2a6ec096ecee7af6a65a4">MR_Buffer_MR_VertId_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ac6e32d57a9c2a6ec096ecee7af6a65a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295ecc1f504cf5221e92425c4b047ce5" id="r_a295ecc1f504cf5221e92425c4b047ce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a295ecc1f504cf5221e92425c4b047ce5">MR_Buffer_MR_VertId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -671,54 +717,6 @@ Functions</h2></td></tr>
 <tr class="separator:a0e5679ce4bf27f4344c05926e045f374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae3ab311584744d982b09c2ad1f8507e" id="r_aae3ab311584744d982b09c2ad1f8507e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae3ab311584744d982b09c2ad1f8507e">MR_Buffer_char_heapBytes</a> (const <a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a> *_this)</td></tr>
 <tr class="separator:aae3ab311584744d982b09c2ad1f8507e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af587d147c72f6d57b8334fc0cbd8e3fa" id="r_af587d147c72f6d57b8334fc0cbd8e3fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af587d147c72f6d57b8334fc0cbd8e3fa">MR_Buffer_uint8_t_DefaultConstruct</a> (void)</td></tr>
-<tr class="separator:af587d147c72f6d57b8334fc0cbd8e3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a1d319b78060e4222f559b7a63b28c" id="r_ae6a1d319b78060e4222f559b7a63b28c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a1d319b78060e4222f559b7a63b28c">MR_Buffer_uint8_t_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="separator:ae6a1d319b78060e4222f559b7a63b28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a658940712b1121c0d136956f28570386" id="r_a658940712b1121c0d136956f28570386"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a658940712b1121c0d136956f28570386">MR_Buffer_uint8_t_OffsetPtr</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a658940712b1121c0d136956f28570386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a658940712b1121c0d136956f28570386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d69816e04ab3cf9f010e6c242c0f49a" id="r_a1d69816e04ab3cf9f010e6c242c0f49a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d69816e04ab3cf9f010e6c242c0f49a">MR_Buffer_uint8_t_OffsetMutablePtr</a> (<a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a1d69816e04ab3cf9f010e6c242c0f49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a1d69816e04ab3cf9f010e6c242c0f49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac623a4d8496b7f303ec491a26e9c925b" id="r_ac623a4d8496b7f303ec491a26e9c925b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac623a4d8496b7f303ec491a26e9c925b">MR_Buffer_uint8_t_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_other)</td></tr>
-<tr class="separator:ac623a4d8496b7f303ec491a26e9c925b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2c2746e56a69cf9be1db60708aacaf" id="r_acd2c2746e56a69cf9be1db60708aacaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd2c2746e56a69cf9be1db60708aacaf">MR_Buffer_uint8_t_Construct</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
-<tr class="separator:acd2c2746e56a69cf9be1db60708aacaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8131f158f3502eba1d18226725b37864" id="r_a8131f158f3502eba1d18226725b37864"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8131f158f3502eba1d18226725b37864">MR_Buffer_uint8_t_Destroy</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="memdesc:a8131f158f3502eba1d18226725b37864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Buffer_uint8_t</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:a8131f158f3502eba1d18226725b37864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5de2357cf9833252bdf46f071107e28d" id="r_a5de2357cf9833252bdf46f071107e28d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de2357cf9833252bdf46f071107e28d">MR_Buffer_uint8_t_DestroyArray</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="memdesc:a5de2357cf9833252bdf46f071107e28d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Buffer_uint8_t</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:a5de2357cf9833252bdf46f071107e28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac819f01c11ae2324db9768bf9c11fd40" id="r_ac819f01c11ae2324db9768bf9c11fd40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac819f01c11ae2324db9768bf9c11fd40">MR_Buffer_uint8_t_AssignFromAnother</a> (<a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_other)</td></tr>
-<tr class="separator:ac819f01c11ae2324db9768bf9c11fd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbc6bea0152a0a803a7a6b8ee2dea45c" id="r_adbc6bea0152a0a803a7a6b8ee2dea45c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbc6bea0152a0a803a7a6b8ee2dea45c">MR_Buffer_uint8_t_capacity</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:adbc6bea0152a0a803a7a6b8ee2dea45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d6c8dc7d022b9925716179509284d56" id="r_a6d6c8dc7d022b9925716179509284d56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d6c8dc7d022b9925716179509284d56">MR_Buffer_uint8_t_size</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a6d6c8dc7d022b9925716179509284d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef60157a53ecd922b0cd618e0c6cc886" id="r_aef60157a53ecd922b0cd618e0c6cc886"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef60157a53ecd922b0cd618e0c6cc886">MR_Buffer_uint8_t_empty</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:aef60157a53ecd922b0cd618e0c6cc886"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3580c4d09093dfc9cc73d89c6a421d" id="r_a2d3580c4d09093dfc9cc73d89c6a421d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d3580c4d09093dfc9cc73d89c6a421d">MR_Buffer_uint8_t_clear</a> (<a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a2d3580c4d09093dfc9cc73d89c6a421d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d6e3636a7fc376baf89ada148fe624a" id="r_a8d6e3636a7fc376baf89ada148fe624a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6e3636a7fc376baf89ada148fe624a">MR_Buffer_uint8_t_resize</a> (<a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> newSize)</td></tr>
-<tr class="separator:a8d6e3636a7fc376baf89ada148fe624a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8548e020f30da279fb6f53eb1fc5378f" id="r_a8548e020f30da279fb6f53eb1fc5378f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8548e020f30da279fb6f53eb1fc5378f">MR_Buffer_uint8_t_index_const</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
-<tr class="separator:a8548e020f30da279fb6f53eb1fc5378f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a455e40fa412ffefadfca2d28960a9201" id="r_a455e40fa412ffefadfca2d28960a9201"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455e40fa412ffefadfca2d28960a9201">MR_Buffer_uint8_t_index</a> (<a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
-<tr class="separator:a455e40fa412ffefadfca2d28960a9201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a970e8c76b49b00f77f6ba6b45feeb" id="r_a71a970e8c76b49b00f77f6ba6b45feeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a970e8c76b49b00f77f6ba6b45feeb">MR_Buffer_uint8_t_data</a> (<a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a71a970e8c76b49b00f77f6ba6b45feeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7794e404a3e106e50e7cc2c47da703d" id="r_ad7794e404a3e106e50e7cc2c47da703d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7794e404a3e106e50e7cc2c47da703d">MR_Buffer_uint8_t_data_const</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:ad7794e404a3e106e50e7cc2c47da703d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a129f58f0ff1a6150a6f94f828ddaa01a" id="r_a129f58f0ff1a6150a6f94f828ddaa01a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129f58f0ff1a6150a6f94f828ddaa01a">MR_Buffer_uint8_t_beginId</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a129f58f0ff1a6150a6f94f828ddaa01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cb5b51e7f2dad8f32738f882530c273" id="r_a9cb5b51e7f2dad8f32738f882530c273"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb5b51e7f2dad8f32738f882530c273">MR_Buffer_uint8_t_backId</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a9cb5b51e7f2dad8f32738f882530c273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cc99e37d226c6a6548cef90d82616ff" id="r_a6cc99e37d226c6a6548cef90d82616ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc99e37d226c6a6548cef90d82616ff">MR_Buffer_uint8_t_endId</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a6cc99e37d226c6a6548cef90d82616ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bde74f6fb48d1770d72de799069e75a" id="r_a2bde74f6fb48d1770d72de799069e75a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bde74f6fb48d1770d72de799069e75a">MR_Buffer_uint8_t_heapBytes</a> (const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *_this)</td></tr>
-<tr class="separator:a2bde74f6fb48d1770d72de799069e75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd8886af9c1f3a6cb79b0cc4f39a8a6" id="r_a4dd8886af9c1f3a6cb79b0cc4f39a8a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a688bf12270075ec1756174e79fbebec1">MR_Buffer_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd8886af9c1f3a6cb79b0cc4f39a8a6">MR_Buffer_MR_EdgeId_MR_EdgeId_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a4dd8886af9c1f3a6cb79b0cc4f39a8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c594f0a4775717b161a41294d86189" id="r_af5c594f0a4775717b161a41294d86189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a688bf12270075ec1756174e79fbebec1">MR_Buffer_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c594f0a4775717b161a41294d86189">MR_Buffer_MR_EdgeId_MR_EdgeId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -1451,74 +1449,6 @@ Functions</h2></td></tr>
 <tr class="separator:af505133cc5b158b634732251406b3c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bfe3d878977bbd8af8661e3f2435e5c" id="r_a9bfe3d878977bbd8af8661e3f2435e5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#a25d90af67efbfddc78b3d0a6b6d14f10">MR_BMap_MR_ObjId_MR_ObjId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bfe3d878977bbd8af8661e3f2435e5c">MR_BMap_MR_ObjId_MR_ObjId_AssignFromAnother</a> (<a class="el" href="MRAABBTreeBase_8h.html#a25d90af67efbfddc78b3d0a6b6d14f10">MR_BMap_MR_ObjId_MR_ObjId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#a25d90af67efbfddc78b3d0a6b6d14f10">MR_BMap_MR_ObjId_MR_ObjId</a> *_other)</td></tr>
 <tr class="separator:a9bfe3d878977bbd8af8661e3f2435e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a635176485557a5f88fdd4a26d85c3e0d" id="r_a635176485557a5f88fdd4a26d85c3e0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a635176485557a5f88fdd4a26d85c3e0d">MR_BMap_MR_GraphVertId_MR_GraphVertId_Get_b</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
-<tr class="separator:a635176485557a5f88fdd4a26d85c3e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d0907c26d46edef9dcd3b1c6a550de8" id="r_a9d0907c26d46edef9dcd3b1c6a550de8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d0907c26d46edef9dcd3b1c6a550de8">MR_BMap_MR_GraphVertId_MR_GraphVertId_Set_b</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *value)</td></tr>
-<tr class="separator:a9d0907c26d46edef9dcd3b1c6a550de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52ab1ed86c7ab10719f0c4bdd5b32b64" id="r_a52ab1ed86c7ab10719f0c4bdd5b32b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52ab1ed86c7ab10719f0c4bdd5b32b64">MR_BMap_MR_GraphVertId_MR_GraphVertId_GetMutable_b</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
-<tr class="separator:a52ab1ed86c7ab10719f0c4bdd5b32b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cfc877937755562fc59513461bdb7db" id="r_a8cfc877937755562fc59513461bdb7db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cfc877937755562fc59513461bdb7db">MR_BMap_MR_GraphVertId_MR_GraphVertId_Get_tsize</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
-<tr class="separator:a8cfc877937755562fc59513461bdb7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adffdbf47b216944c190f3bd6c0e032ab" id="r_adffdbf47b216944c190f3bd6c0e032ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adffdbf47b216944c190f3bd6c0e032ab">MR_BMap_MR_GraphVertId_MR_GraphVertId_Set_tsize</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
-<tr class="separator:adffdbf47b216944c190f3bd6c0e032ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab00cdf7af0865e8ecadae291e064a952" id="r_ab00cdf7af0865e8ecadae291e064a952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab00cdf7af0865e8ecadae291e064a952">MR_BMap_MR_GraphVertId_MR_GraphVertId_GetMutable_tsize</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
-<tr class="separator:ab00cdf7af0865e8ecadae291e064a952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a449c39161cd4cefc15f3527f6a9410f5" id="r_a449c39161cd4cefc15f3527f6a9410f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449c39161cd4cefc15f3527f6a9410f5">MR_BMap_MR_GraphVertId_MR_GraphVertId_DefaultConstruct</a> (void)</td></tr>
-<tr class="separator:a449c39161cd4cefc15f3527f6a9410f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dc18f90816865dd30fcbc4ebfede835" id="r_a4dc18f90816865dd30fcbc4ebfede835"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc18f90816865dd30fcbc4ebfede835">MR_BMap_MR_GraphVertId_MR_GraphVertId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="separator:a4dc18f90816865dd30fcbc4ebfede835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1476783546495c2675ce03e68280f9e5" id="r_a1476783546495c2675ce03e68280f9e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1476783546495c2675ce03e68280f9e5">MR_BMap_MR_GraphVertId_MR_GraphVertId_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> b_pass_by, <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *b, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> tsize)</td></tr>
-<tr class="separator:a1476783546495c2675ce03e68280f9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95164320fa05f58150d5f0b007a87218" id="r_a95164320fa05f58150d5f0b007a87218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95164320fa05f58150d5f0b007a87218">MR_BMap_MR_GraphVertId_MR_GraphVertId_OffsetPtr</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a95164320fa05f58150d5f0b007a87218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a95164320fa05f58150d5f0b007a87218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a328f16267d408f990cae20c72dab9" id="r_a71a328f16267d408f990cae20c72dab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a328f16267d408f990cae20c72dab9">MR_BMap_MR_GraphVertId_MR_GraphVertId_OffsetMutablePtr</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a71a328f16267d408f990cae20c72dab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a71a328f16267d408f990cae20c72dab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58a9e907ef5c4400a9f76a9b02f6352c" id="r_a58a9e907ef5c4400a9f76a9b02f6352c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a9e907ef5c4400a9f76a9b02f6352c">MR_BMap_MR_GraphVertId_MR_GraphVertId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_other)</td></tr>
-<tr class="separator:a58a9e907ef5c4400a9f76a9b02f6352c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66907085fe4f86b0f65633346c10bd0d" id="r_a66907085fe4f86b0f65633346c10bd0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66907085fe4f86b0f65633346c10bd0d">MR_BMap_MR_GraphVertId_MR_GraphVertId_Destroy</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
-<tr class="memdesc:a66907085fe4f86b0f65633346c10bd0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_BMap_MR_GraphVertId_MR_GraphVertId</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:a66907085fe4f86b0f65633346c10bd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fee3f8d33c11395b575caf6de392308" id="r_a8fee3f8d33c11395b575caf6de392308"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fee3f8d33c11395b575caf6de392308">MR_BMap_MR_GraphVertId_MR_GraphVertId_DestroyArray</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
-<tr class="memdesc:a8fee3f8d33c11395b575caf6de392308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_BMap_MR_GraphVertId_MR_GraphVertId</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:a8fee3f8d33c11395b575caf6de392308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a134dd40b11a83bb2ceb8cf8a5af5d3f1" id="r_a134dd40b11a83bb2ceb8cf8a5af5d3f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a134dd40b11a83bb2ceb8cf8a5af5d3f1">MR_BMap_MR_GraphVertId_MR_GraphVertId_AssignFromAnother</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_other)</td></tr>
-<tr class="separator:a134dd40b11a83bb2ceb8cf8a5af5d3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302c743265af46fe1b5ec3835c22a668" id="r_a302c743265af46fe1b5ec3835c22a668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302c743265af46fe1b5ec3835c22a668">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Get_b</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
-<tr class="separator:a302c743265af46fe1b5ec3835c22a668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e75908058fcaf1e32fb874bf8b5554c" id="r_a8e75908058fcaf1e32fb874bf8b5554c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e75908058fcaf1e32fb874bf8b5554c">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Set_b</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *value)</td></tr>
-<tr class="separator:a8e75908058fcaf1e32fb874bf8b5554c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d66791b8ccc5ad349bb0afb1e197949" id="r_a8d66791b8ccc5ad349bb0afb1e197949"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d66791b8ccc5ad349bb0afb1e197949">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_GetMutable_b</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
-<tr class="separator:a8d66791b8ccc5ad349bb0afb1e197949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a395b5d53cf4a324b2d8399c2da79250f" id="r_a395b5d53cf4a324b2d8399c2da79250f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a395b5d53cf4a324b2d8399c2da79250f">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Get_tsize</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
-<tr class="separator:a395b5d53cf4a324b2d8399c2da79250f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15a10d4b323b91b7c3905fdc7d7f1fa0" id="r_a15a10d4b323b91b7c3905fdc7d7f1fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15a10d4b323b91b7c3905fdc7d7f1fa0">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Set_tsize</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
-<tr class="separator:a15a10d4b323b91b7c3905fdc7d7f1fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5128bd77e6cd55c55fc45e75fbcbd17" id="r_ac5128bd77e6cd55c55fc45e75fbcbd17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5128bd77e6cd55c55fc45e75fbcbd17">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_GetMutable_tsize</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
-<tr class="separator:ac5128bd77e6cd55c55fc45e75fbcbd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97d3a0c0edeb8a81dc0284b624da3caa" id="r_a97d3a0c0edeb8a81dc0284b624da3caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d3a0c0edeb8a81dc0284b624da3caa">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstruct</a> (void)</td></tr>
-<tr class="separator:a97d3a0c0edeb8a81dc0284b624da3caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90383308202e8b114194aa58fa22139f" id="r_a90383308202e8b114194aa58fa22139f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90383308202e8b114194aa58fa22139f">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="separator:a90383308202e8b114194aa58fa22139f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c48df7538bf49b64609c8288aebf68b" id="r_a4c48df7538bf49b64609c8288aebf68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c48df7538bf49b64609c8288aebf68b">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> b_pass_by, <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *b, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> tsize)</td></tr>
-<tr class="separator:a4c48df7538bf49b64609c8288aebf68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab777ba69bfb17310bf21159ceb25557e" id="r_ab777ba69bfb17310bf21159ceb25557e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab777ba69bfb17310bf21159ceb25557e">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_OffsetPtr</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:ab777ba69bfb17310bf21159ceb25557e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:ab777ba69bfb17310bf21159ceb25557e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21e9120624fde3abbda3055a493ceaec" id="r_a21e9120624fde3abbda3055a493ceaec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e9120624fde3abbda3055a493ceaec">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_OffsetMutablePtr</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a21e9120624fde3abbda3055a493ceaec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a21e9120624fde3abbda3055a493ceaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72367cb048e3f689adea1e1fb5710cf1" id="r_a72367cb048e3f689adea1e1fb5710cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72367cb048e3f689adea1e1fb5710cf1">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_other)</td></tr>
-<tr class="separator:a72367cb048e3f689adea1e1fb5710cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ef9254ddd92d0ecca8595828ae8b48" id="r_ab7ef9254ddd92d0ecca8595828ae8b48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ef9254ddd92d0ecca8595828ae8b48">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Destroy</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
-<tr class="memdesc:ab7ef9254ddd92d0ecca8595828ae8b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:ab7ef9254ddd92d0ecca8595828ae8b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144611b8311838867977f721639288b8" id="r_a144611b8311838867977f721639288b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a144611b8311838867977f721639288b8">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_DestroyArray</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
-<tr class="memdesc:a144611b8311838867977f721639288b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:a144611b8311838867977f721639288b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a159e61d46c97cbab22060028a21ce288" id="r_a159e61d46c97cbab22060028a21ce288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a159e61d46c97cbab22060028a21ce288">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_AssignFromAnother</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_other)</td></tr>
-<tr class="separator:a159e61d46c97cbab22060028a21ce288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afacead79a2ccf6bd82596675751d6a44" id="r_afacead79a2ccf6bd82596675751d6a44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afacead79a2ccf6bd82596675751d6a44">MR_BMap_MR_VertId_uint64_t_Get_b</a> (const <a class="el" href="#a7f5f03336386d65f3e0804994394713e">MR_BMap_MR_VertId_uint64_t</a> *_this)</td></tr>
 <tr class="separator:afacead79a2ccf6bd82596675751d6a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6cea0243aa2d82cc207f45b3709fca5" id="r_ad6cea0243aa2d82cc207f45b3709fca5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6cea0243aa2d82cc207f45b3709fca5">MR_BMap_MR_VertId_uint64_t_Set_b</a> (<a class="el" href="#a7f5f03336386d65f3e0804994394713e">MR_BMap_MR_VertId_uint64_t</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *value)</td></tr>
@@ -1621,6 +1551,74 @@ Functions</h2></td></tr>
 <tr class="separator:a44530a1a51742ddd1de28710cb305d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a013127148f7f2486c7b86a455ae99179" id="r_a013127148f7f2486c7b86a455ae99179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac3b408307603e915fb9df60a6981b582">MR_BMap_MR_FaceId_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013127148f7f2486c7b86a455ae99179">MR_BMap_MR_FaceId_uint64_t_AssignFromAnother</a> (<a class="el" href="#ac3b408307603e915fb9df60a6981b582">MR_BMap_MR_FaceId_uint64_t</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ac3b408307603e915fb9df60a6981b582">MR_BMap_MR_FaceId_uint64_t</a> *_other)</td></tr>
 <tr class="separator:a013127148f7f2486c7b86a455ae99179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a635176485557a5f88fdd4a26d85c3e0d" id="r_a635176485557a5f88fdd4a26d85c3e0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a635176485557a5f88fdd4a26d85c3e0d">MR_BMap_MR_GraphVertId_MR_GraphVertId_Get_b</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
+<tr class="separator:a635176485557a5f88fdd4a26d85c3e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0907c26d46edef9dcd3b1c6a550de8" id="r_a9d0907c26d46edef9dcd3b1c6a550de8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d0907c26d46edef9dcd3b1c6a550de8">MR_BMap_MR_GraphVertId_MR_GraphVertId_Set_b</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *value)</td></tr>
+<tr class="separator:a9d0907c26d46edef9dcd3b1c6a550de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ab1ed86c7ab10719f0c4bdd5b32b64" id="r_a52ab1ed86c7ab10719f0c4bdd5b32b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52ab1ed86c7ab10719f0c4bdd5b32b64">MR_BMap_MR_GraphVertId_MR_GraphVertId_GetMutable_b</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
+<tr class="separator:a52ab1ed86c7ab10719f0c4bdd5b32b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cfc877937755562fc59513461bdb7db" id="r_a8cfc877937755562fc59513461bdb7db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cfc877937755562fc59513461bdb7db">MR_BMap_MR_GraphVertId_MR_GraphVertId_Get_tsize</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
+<tr class="separator:a8cfc877937755562fc59513461bdb7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adffdbf47b216944c190f3bd6c0e032ab" id="r_adffdbf47b216944c190f3bd6c0e032ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adffdbf47b216944c190f3bd6c0e032ab">MR_BMap_MR_GraphVertId_MR_GraphVertId_Set_tsize</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="separator:adffdbf47b216944c190f3bd6c0e032ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00cdf7af0865e8ecadae291e064a952" id="r_ab00cdf7af0865e8ecadae291e064a952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab00cdf7af0865e8ecadae291e064a952">MR_BMap_MR_GraphVertId_MR_GraphVertId_GetMutable_tsize</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
+<tr class="separator:ab00cdf7af0865e8ecadae291e064a952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449c39161cd4cefc15f3527f6a9410f5" id="r_a449c39161cd4cefc15f3527f6a9410f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449c39161cd4cefc15f3527f6a9410f5">MR_BMap_MR_GraphVertId_MR_GraphVertId_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a449c39161cd4cefc15f3527f6a9410f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc18f90816865dd30fcbc4ebfede835" id="r_a4dc18f90816865dd30fcbc4ebfede835"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc18f90816865dd30fcbc4ebfede835">MR_BMap_MR_GraphVertId_MR_GraphVertId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a4dc18f90816865dd30fcbc4ebfede835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1476783546495c2675ce03e68280f9e5" id="r_a1476783546495c2675ce03e68280f9e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1476783546495c2675ce03e68280f9e5">MR_BMap_MR_GraphVertId_MR_GraphVertId_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> b_pass_by, <a class="el" href="#aae9d841c2af7379030570adf3d3c3f71">MR_Buffer_MR_GraphVertId_MR_GraphVertId</a> *b, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> tsize)</td></tr>
+<tr class="separator:a1476783546495c2675ce03e68280f9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95164320fa05f58150d5f0b007a87218" id="r_a95164320fa05f58150d5f0b007a87218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95164320fa05f58150d5f0b007a87218">MR_BMap_MR_GraphVertId_MR_GraphVertId_OffsetPtr</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a95164320fa05f58150d5f0b007a87218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a95164320fa05f58150d5f0b007a87218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a328f16267d408f990cae20c72dab9" id="r_a71a328f16267d408f990cae20c72dab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a328f16267d408f990cae20c72dab9">MR_BMap_MR_GraphVertId_MR_GraphVertId_OffsetMutablePtr</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a71a328f16267d408f990cae20c72dab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a71a328f16267d408f990cae20c72dab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a9e907ef5c4400a9f76a9b02f6352c" id="r_a58a9e907ef5c4400a9f76a9b02f6352c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a9e907ef5c4400a9f76a9b02f6352c">MR_BMap_MR_GraphVertId_MR_GraphVertId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_other)</td></tr>
+<tr class="separator:a58a9e907ef5c4400a9f76a9b02f6352c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66907085fe4f86b0f65633346c10bd0d" id="r_a66907085fe4f86b0f65633346c10bd0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66907085fe4f86b0f65633346c10bd0d">MR_BMap_MR_GraphVertId_MR_GraphVertId_Destroy</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
+<tr class="memdesc:a66907085fe4f86b0f65633346c10bd0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_BMap_MR_GraphVertId_MR_GraphVertId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a66907085fe4f86b0f65633346c10bd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fee3f8d33c11395b575caf6de392308" id="r_a8fee3f8d33c11395b575caf6de392308"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fee3f8d33c11395b575caf6de392308">MR_BMap_MR_GraphVertId_MR_GraphVertId_DestroyArray</a> (const <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this)</td></tr>
+<tr class="memdesc:a8fee3f8d33c11395b575caf6de392308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_BMap_MR_GraphVertId_MR_GraphVertId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a8fee3f8d33c11395b575caf6de392308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134dd40b11a83bb2ceb8cf8a5af5d3f1" id="r_a134dd40b11a83bb2ceb8cf8a5af5d3f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a134dd40b11a83bb2ceb8cf8a5af5d3f1">MR_BMap_MR_GraphVertId_MR_GraphVertId_AssignFromAnother</a> (<a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#a7f6aa85480f5ea36533be6f6b557bc1f">MR_BMap_MR_GraphVertId_MR_GraphVertId</a> *_other)</td></tr>
+<tr class="separator:a134dd40b11a83bb2ceb8cf8a5af5d3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302c743265af46fe1b5ec3835c22a668" id="r_a302c743265af46fe1b5ec3835c22a668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302c743265af46fe1b5ec3835c22a668">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Get_b</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
+<tr class="separator:a302c743265af46fe1b5ec3835c22a668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e75908058fcaf1e32fb874bf8b5554c" id="r_a8e75908058fcaf1e32fb874bf8b5554c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e75908058fcaf1e32fb874bf8b5554c">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Set_b</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *value)</td></tr>
+<tr class="separator:a8e75908058fcaf1e32fb874bf8b5554c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d66791b8ccc5ad349bb0afb1e197949" id="r_a8d66791b8ccc5ad349bb0afb1e197949"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d66791b8ccc5ad349bb0afb1e197949">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_GetMutable_b</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
+<tr class="separator:a8d66791b8ccc5ad349bb0afb1e197949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395b5d53cf4a324b2d8399c2da79250f" id="r_a395b5d53cf4a324b2d8399c2da79250f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a395b5d53cf4a324b2d8399c2da79250f">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Get_tsize</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
+<tr class="separator:a395b5d53cf4a324b2d8399c2da79250f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a10d4b323b91b7c3905fdc7d7f1fa0" id="r_a15a10d4b323b91b7c3905fdc7d7f1fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15a10d4b323b91b7c3905fdc7d7f1fa0">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Set_tsize</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="separator:a15a10d4b323b91b7c3905fdc7d7f1fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5128bd77e6cd55c55fc45e75fbcbd17" id="r_ac5128bd77e6cd55c55fc45e75fbcbd17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5128bd77e6cd55c55fc45e75fbcbd17">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_GetMutable_tsize</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
+<tr class="separator:ac5128bd77e6cd55c55fc45e75fbcbd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d3a0c0edeb8a81dc0284b624da3caa" id="r_a97d3a0c0edeb8a81dc0284b624da3caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d3a0c0edeb8a81dc0284b624da3caa">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a97d3a0c0edeb8a81dc0284b624da3caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90383308202e8b114194aa58fa22139f" id="r_a90383308202e8b114194aa58fa22139f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90383308202e8b114194aa58fa22139f">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a90383308202e8b114194aa58fa22139f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c48df7538bf49b64609c8288aebf68b" id="r_a4c48df7538bf49b64609c8288aebf68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c48df7538bf49b64609c8288aebf68b">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> b_pass_by, <a class="el" href="#aaf145b0c1e10941ff7c25a89e4dbce57">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</a> *b, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> tsize)</td></tr>
+<tr class="separator:a4c48df7538bf49b64609c8288aebf68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab777ba69bfb17310bf21159ceb25557e" id="r_ab777ba69bfb17310bf21159ceb25557e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab777ba69bfb17310bf21159ceb25557e">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_OffsetPtr</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab777ba69bfb17310bf21159ceb25557e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab777ba69bfb17310bf21159ceb25557e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e9120624fde3abbda3055a493ceaec" id="r_a21e9120624fde3abbda3055a493ceaec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e9120624fde3abbda3055a493ceaec">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_OffsetMutablePtr</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a21e9120624fde3abbda3055a493ceaec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a21e9120624fde3abbda3055a493ceaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72367cb048e3f689adea1e1fb5710cf1" id="r_a72367cb048e3f689adea1e1fb5710cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72367cb048e3f689adea1e1fb5710cf1">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_other)</td></tr>
+<tr class="separator:a72367cb048e3f689adea1e1fb5710cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7ef9254ddd92d0ecca8595828ae8b48" id="r_ab7ef9254ddd92d0ecca8595828ae8b48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ef9254ddd92d0ecca8595828ae8b48">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Destroy</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
+<tr class="memdesc:ab7ef9254ddd92d0ecca8595828ae8b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab7ef9254ddd92d0ecca8595828ae8b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a144611b8311838867977f721639288b8" id="r_a144611b8311838867977f721639288b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a144611b8311838867977f721639288b8">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_DestroyArray</a> (const <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this)</td></tr>
+<tr class="memdesc:a144611b8311838867977f721639288b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a144611b8311838867977f721639288b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159e61d46c97cbab22060028a21ce288" id="r_a159e61d46c97cbab22060028a21ce288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a159e61d46c97cbab22060028a21ce288">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_AssignFromAnother</a> (<a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRBitSet_8h.html#af034b4103e85b60d533cd9bcaf4b9b00">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</a> *_other)</td></tr>
+<tr class="separator:a159e61d46c97cbab22060028a21ce288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15054871790cc4531cdc9576efa59173" id="r_a15054871790cc4531cdc9576efa59173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a18592f8df128a626eb66b2e8567d0961">MR_Buffer_MR_VoxelId_MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15054871790cc4531cdc9576efa59173">MR_BMap_MR_VoxelId_MR_VoxelId_Get_b</a> (const <a class="el" href="MRBitSet_8h.html#a2edfcbc192a56da6ffb031e1a4db21a6">MR_BMap_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
 <tr class="separator:a15054871790cc4531cdc9576efa59173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088c6b7dacb74832b2b20636901e841c" id="r_a088c6b7dacb74832b2b20636901e841c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088c6b7dacb74832b2b20636901e841c">MR_BMap_MR_VoxelId_MR_VoxelId_Set_b</a> (<a class="el" href="MRBitSet_8h.html#a2edfcbc192a56da6ffb031e1a4db21a6">MR_BMap_MR_VoxelId_MR_VoxelId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a18592f8df128a626eb66b2e8567d0961">MR_Buffer_MR_VoxelId_MR_VoxelId</a> *value)</td></tr>
@@ -1911,26 +1909,26 @@ Functions</h2></td></tr>
 <tr class="separator:af73424aa8145ee4a47304e412d7bb3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a870030753d97ccc313635742d183956e" id="r_a870030753d97ccc313635742d183956e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870030753d97ccc313635742d183956e">MR_NoCtor_MR_VertId_AssignFromAnother</a> (<a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *_this, const <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *_other)</td></tr>
 <tr class="separator:a870030753d97ccc313635742d183956e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcccef01a7fa65476080bdf497269b0f" id="r_afcccef01a7fa65476080bdf497269b0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcccef01a7fa65476080bdf497269b0f">MR_NoCtor_uint8_t_DefaultConstruct</a> (void)</td></tr>
-<tr class="separator:afcccef01a7fa65476080bdf497269b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ed8b66862ac11d5eadd042d7e9e4cb" id="r_a01ed8b66862ac11d5eadd042d7e9e4cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01ed8b66862ac11d5eadd042d7e9e4cb">MR_NoCtor_uint8_t_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="separator:a01ed8b66862ac11d5eadd042d7e9e4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d93a7b77bcc2741c02f54851b89089" id="r_a81d93a7b77bcc2741c02f54851b89089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d93a7b77bcc2741c02f54851b89089">MR_NoCtor_uint8_t_OffsetPtr</a> (const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a81d93a7b77bcc2741c02f54851b89089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a81d93a7b77bcc2741c02f54851b89089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cdfc21095dd0c3754a0149e3aa17e51" id="r_a5cdfc21095dd0c3754a0149e3aa17e51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cdfc21095dd0c3754a0149e3aa17e51">MR_NoCtor_uint8_t_OffsetMutablePtr</a> (<a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memdesc:a5cdfc21095dd0c3754a0149e3aa17e51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
-<tr class="separator:a5cdfc21095dd0c3754a0149e3aa17e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd662a05eb7836f396579262aa599c93" id="r_acd662a05eb7836f396579262aa599c93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd662a05eb7836f396579262aa599c93">MR_NoCtor_uint8_t_ConstructFromAnother</a> (const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *_other)</td></tr>
-<tr class="separator:acd662a05eb7836f396579262aa599c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c395a8ba263600c7a9fe28c7d575e5" id="r_ad8c395a8ba263600c7a9fe28c7d575e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c395a8ba263600c7a9fe28c7d575e5">MR_NoCtor_uint8_t_Destroy</a> (const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *_this)</td></tr>
-<tr class="memdesc:ad8c395a8ba263600c7a9fe28c7d575e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_NoCtor_uint8_t</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:ad8c395a8ba263600c7a9fe28c7d575e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41f214824dd2691c16e76e5e7feda578" id="r_a41f214824dd2691c16e76e5e7feda578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41f214824dd2691c16e76e5e7feda578">MR_NoCtor_uint8_t_DestroyArray</a> (const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *_this)</td></tr>
-<tr class="memdesc:a41f214824dd2691c16e76e5e7feda578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_NoCtor_uint8_t</code>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="separator:a41f214824dd2691c16e76e5e7feda578"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab722d9edcbff52fc85bc09304b0b2fd0" id="r_ab722d9edcbff52fc85bc09304b0b2fd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab722d9edcbff52fc85bc09304b0b2fd0">MR_NoCtor_uint8_t_AssignFromAnother</a> (<a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *_this, const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *_other)</td></tr>
-<tr class="separator:ab722d9edcbff52fc85bc09304b0b2fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d97786f2ec7334f0e7e03b3571360a" id="r_ab9d97786f2ec7334f0e7e03b3571360a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d97786f2ec7334f0e7e03b3571360a">MR_NoCtor_unsigned_char_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ab9d97786f2ec7334f0e7e03b3571360a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d0c35cfcf2d9f993e144a4d26ef752" id="r_a13d0c35cfcf2d9f993e144a4d26ef752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13d0c35cfcf2d9f993e144a4d26ef752">MR_NoCtor_unsigned_char_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a13d0c35cfcf2d9f993e144a4d26ef752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d77838a4a96e6c134d3f63d4c4a97b7" id="r_a8d77838a4a96e6c134d3f63d4c4a97b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d77838a4a96e6c134d3f63d4c4a97b7">MR_NoCtor_unsigned_char_OffsetPtr</a> (const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8d77838a4a96e6c134d3f63d4c4a97b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8d77838a4a96e6c134d3f63d4c4a97b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493889c447e555119ddebfe41ebc123d" id="r_a493889c447e555119ddebfe41ebc123d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a493889c447e555119ddebfe41ebc123d">MR_NoCtor_unsigned_char_OffsetMutablePtr</a> (<a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a493889c447e555119ddebfe41ebc123d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a493889c447e555119ddebfe41ebc123d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac0fa068a24dd37e1afc7c376ecc882" id="r_a8ac0fa068a24dd37e1afc7c376ecc882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ac0fa068a24dd37e1afc7c376ecc882">MR_NoCtor_unsigned_char_ConstructFromAnother</a> (const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *_other)</td></tr>
+<tr class="separator:a8ac0fa068a24dd37e1afc7c376ecc882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3753e1e06f60a83348f69b3b33a1e9" id="r_afe3753e1e06f60a83348f69b3b33a1e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3753e1e06f60a83348f69b3b33a1e9">MR_NoCtor_unsigned_char_Destroy</a> (const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *_this)</td></tr>
+<tr class="memdesc:afe3753e1e06f60a83348f69b3b33a1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_NoCtor_unsigned_char</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afe3753e1e06f60a83348f69b3b33a1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af52e1739ab43ce30092e6e95b24ddfa2" id="r_af52e1739ab43ce30092e6e95b24ddfa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af52e1739ab43ce30092e6e95b24ddfa2">MR_NoCtor_unsigned_char_DestroyArray</a> (const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *_this)</td></tr>
+<tr class="memdesc:af52e1739ab43ce30092e6e95b24ddfa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_NoCtor_unsigned_char</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af52e1739ab43ce30092e6e95b24ddfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e720dca19cf0680e4ae450288c318c7" id="r_a6e720dca19cf0680e4ae450288c318c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e720dca19cf0680e4ae450288c318c7">MR_NoCtor_unsigned_char_AssignFromAnother</a> (<a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *_this, const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *_other)</td></tr>
+<tr class="separator:a6e720dca19cf0680e4ae450288c318c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5759af0879159d26fddd7e4eceb0d1aa" id="r_a5759af0879159d26fddd7e4eceb0d1aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abde96022140d7df9200836b495ab09ba">MR_NoCtor_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5759af0879159d26fddd7e4eceb0d1aa">MR_NoCtor_char_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a5759af0879159d26fddd7e4eceb0d1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8cf62fa88f87657fa8b98f9122ad9c" id="r_a5a8cf62fa88f87657fa8b98f9122ad9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abde96022140d7df9200836b495ab09ba">MR_NoCtor_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a8cf62fa88f87657fa8b98f9122ad9c">MR_NoCtor_char_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -2789,14 +2787,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aea2db741df8e0b829e6c276939e57d7c" name="aea2db741df8e0b829e6c276939e57d7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea2db741df8e0b829e6c276939e57d7c">&#9670;&#160;</a></span>MR_Buffer_uint8_t</h2>
+<a id="a550e58c065e57e782377429b013a4a29" name="a550e58c065e57e782377429b013a4a29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550e58c065e57e782377429b013a4a29">&#9670;&#160;</a></span>MR_Buffer_unsigned_char</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2805,7 +2803,7 @@ Functions</h2></td></tr>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">V</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code>. </td></tr>
+    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3080,19 +3078,19 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a56b3339f7052fdef352455251c59f990" name="a56b3339f7052fdef352455251c59f990"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56b3339f7052fdef352455251c59f990">&#9670;&#160;</a></span>MR_NoCtor_uint8_t</h2>
+<a id="a65aeadfa7403acec3d68ffa65802c816" name="a65aeadfa7403acec3d68ffa65802c816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65aeadfa7403acec3d68ffa65802c816">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;uint8_t&gt;</code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;unsigned char&gt;</code>. </p>
 
 </div>
 </div>
@@ -14941,16 +14939,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac819f01c11ae2324db9768bf9c11fd40" name="ac819f01c11ae2324db9768bf9c11fd40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac819f01c11ae2324db9768bf9c11fd40">&#9670;&#160;</a></span>MR_Buffer_uint8_t_AssignFromAnother()</h2>
+<a id="afba4a85ce4271c62144d4076444ddfa5" name="afba4a85ce4271c62144d4076444ddfa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afba4a85ce4271c62144d4076444ddfa5">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_AssignFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_AssignFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -14960,300 +14958,300 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
-<a id="a9cb5b51e7f2dad8f32738f882530c273" name="a9cb5b51e7f2dad8f32738f882530c273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cb5b51e7f2dad8f32738f882530c273">&#9670;&#160;</a></span>MR_Buffer_uint8_t_backId()</h2>
+<a id="a6e0b7d5855f1302699bdd9984f1deca4" name="a6e0b7d5855f1302699bdd9984f1deca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e0b7d5855f1302699bdd9984f1deca4">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_backId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_uint8_t_backId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_unsigned_char_backId </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the identifier of the back() element Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>backId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the identifier of the back() element Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>backId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a129f58f0ff1a6150a6f94f828ddaa01a" name="a129f58f0ff1a6150a6f94f828ddaa01a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a129f58f0ff1a6150a6f94f828ddaa01a">&#9670;&#160;</a></span>MR_Buffer_uint8_t_beginId()</h2>
+<a id="a7c52e7444a196932109c888605869fbc" name="a7c52e7444a196932109c888605869fbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c52e7444a196932109c888605869fbc">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_beginId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_uint8_t_beginId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_unsigned_char_beginId </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the identifier of the first element Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>beginId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the identifier of the first element Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>beginId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="adbc6bea0152a0a803a7a6b8ee2dea45c" name="adbc6bea0152a0a803a7a6b8ee2dea45c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbc6bea0152a0a803a7a6b8ee2dea45c">&#9670;&#160;</a></span>MR_Buffer_uint8_t_capacity()</h2>
+<a id="aef637b465844effcb2d5e365d900eff8" name="aef637b465844effcb2d5e365d900eff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef637b465844effcb2d5e365d900eff8">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_capacity()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_uint8_t_capacity </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_unsigned_char_capacity </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>capacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>capacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a2d3580c4d09093dfc9cc73d89c6a421d" name="a2d3580c4d09093dfc9cc73d89c6a421d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d3580c4d09093dfc9cc73d89c6a421d">&#9670;&#160;</a></span>MR_Buffer_uint8_t_clear()</h2>
+<a id="ae3892808e8e728c83519eaf8cc0807ec" name="ae3892808e8e728c83519eaf8cc0807ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3892808e8e728c83519eaf8cc0807ec">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint8_t_clear </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_unsigned_char_clear </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>clear</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>clear</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="acd2c2746e56a69cf9be1db60708aacaf" name="acd2c2746e56a69cf9be1db60708aacaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd2c2746e56a69cf9be1db60708aacaf">&#9670;&#160;</a></span>MR_Buffer_uint8_t_Construct()</h2>
+<a id="a984b6bcb19a8b5000cff55482b7dcc37" name="a984b6bcb19a8b5000cff55482b7dcc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a984b6bcb19a8b5000cff55482b7dcc37">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_Construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_Construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8131f158f3502eba1d18226725b37864" title="Destroys a heap-allocated instance of MR_Buffer_uint8_t. Does nothing if the pointer is null.">MR_Buffer_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7601fd8cc627478d5dd3a035e0e83aa8" title="Destroys a heap-allocated instance of MR_Buffer_unsigned_char. Does nothing if the pointer is null.">MR_Buffer_unsigned_char_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="ac623a4d8496b7f303ec491a26e9c925b" name="ac623a4d8496b7f303ec491a26e9c925b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac623a4d8496b7f303ec491a26e9c925b">&#9670;&#160;</a></span>MR_Buffer_uint8_t_ConstructFromAnother()</h2>
+<a id="a59e658dd854f4ec5bd1b81ed077f7eaa" name="a59e658dd854f4ec5bd1b81ed077f7eaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e658dd854f4ec5bd1b81ed077f7eaa">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8131f158f3502eba1d18226725b37864" title="Destroys a heap-allocated instance of MR_Buffer_uint8_t. Does nothing if the pointer is null.">MR_Buffer_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7601fd8cc627478d5dd3a035e0e83aa8" title="Destroys a heap-allocated instance of MR_Buffer_unsigned_char. Does nothing if the pointer is null.">MR_Buffer_unsigned_char_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a71a970e8c76b49b00f77f6ba6b45feeb" name="a71a970e8c76b49b00f77f6ba6b45feeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a970e8c76b49b00f77f6ba6b45feeb">&#9670;&#160;</a></span>MR_Buffer_uint8_t_data()</h2>
+<a id="a9f583421f9a2bd9a94e002595179fdf6" name="a9f583421f9a2bd9a94e002595179fdf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f583421f9a2bd9a94e002595179fdf6">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_data()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_Buffer_uint8_t_data </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char * MR_Buffer_unsigned_char_data </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="ad7794e404a3e106e50e7cc2c47da703d" name="ad7794e404a3e106e50e7cc2c47da703d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7794e404a3e106e50e7cc2c47da703d">&#9670;&#160;</a></span>MR_Buffer_uint8_t_data_const()</h2>
+<a id="acf401c1ac00bdcea4e996fb663d95fe4" name="acf401c1ac00bdcea4e996fb663d95fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf401c1ac00bdcea4e996fb663d95fe4">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_data_const()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_Buffer_uint8_t_data_const </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char * MR_Buffer_unsigned_char_data_const </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="af587d147c72f6d57b8334fc0cbd8e3fa" name="af587d147c72f6d57b8334fc0cbd8e3fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af587d147c72f6d57b8334fc0cbd8e3fa">&#9670;&#160;</a></span>MR_Buffer_uint8_t_DefaultConstruct()</h2>
+<a id="ae878fe6fad0b12e2095ad2e1b75e2447" name="ae878fe6fad0b12e2095ad2e1b75e2447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae878fe6fad0b12e2095ad2e1b75e2447">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_DefaultConstruct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8131f158f3502eba1d18226725b37864" title="Destroys a heap-allocated instance of MR_Buffer_uint8_t. Does nothing if the pointer is null.">MR_Buffer_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7601fd8cc627478d5dd3a035e0e83aa8" title="Destroys a heap-allocated instance of MR_Buffer_unsigned_char. Does nothing if the pointer is null.">MR_Buffer_unsigned_char_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="ae6a1d319b78060e4222f559b7a63b28c" name="ae6a1d319b78060e4222f559b7a63b28c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6a1d319b78060e4222f559b7a63b28c">&#9670;&#160;</a></span>MR_Buffer_uint8_t_DefaultConstructArray()</h2>
+<a id="a95502cac777b4002bb2e908386897c4d" name="a95502cac777b4002bb2e908386897c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95502cac777b4002bb2e908386897c4d">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_DefaultConstructArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a5de2357cf9833252bdf46f071107e28d" title="Destroys a heap-allocated array of MR_Buffer_uint8_t. Does nothing if the pointer is null.">MR_Buffer_uint8_t_DestroyArray()</a></code>. Use <code><a class="el" href="#a1d69816e04ab3cf9f010e6c242c0f49a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Buffer_uint8_t_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a658940712b1121c0d136956f28570386" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Buffer_uint8_t_OffsetPtr()</a></code> to access the array elements. </p>
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ad504e0f97aca9661bc45f9094fa6b026" title="Destroys a heap-allocated array of MR_Buffer_unsigned_char. Does nothing if the pointer is null.">MR_Buffer_unsigned_char_DestroyArray()</a></code>. Use <code><a class="el" href="#a23080ae454f6bff66346c05b114ee202" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Buffer_unsigned_char_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a6e163dc66a7328fd847f41ee1cf7d80a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Buffer_unsigned_char_OffsetPtr()</a></code> to access the array elements. </p>
 
 </div>
 </div>
-<a id="a8131f158f3502eba1d18226725b37864" name="a8131f158f3502eba1d18226725b37864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8131f158f3502eba1d18226725b37864">&#9670;&#160;</a></span>MR_Buffer_uint8_t_Destroy()</h2>
+<a id="a7601fd8cc627478d5dd3a035e0e83aa8" name="a7601fd8cc627478d5dd3a035e0e83aa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7601fd8cc627478d5dd3a035e0e83aa8">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_Destroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint8_t_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_unsigned_char_Destroy </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated instance of <code>MR_Buffer_uint8_t</code>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated instance of <code>MR_Buffer_unsigned_char</code>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
-<a id="a5de2357cf9833252bdf46f071107e28d" name="a5de2357cf9833252bdf46f071107e28d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5de2357cf9833252bdf46f071107e28d">&#9670;&#160;</a></span>MR_Buffer_uint8_t_DestroyArray()</h2>
+<a id="ad504e0f97aca9661bc45f9094fa6b026" name="ad504e0f97aca9661bc45f9094fa6b026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad504e0f97aca9661bc45f9094fa6b026">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_DestroyArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint8_t_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_unsigned_char_DestroyArray </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated array of <code>MR_Buffer_uint8_t</code>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated array of <code>MR_Buffer_unsigned_char</code>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
-<a id="aef60157a53ecd922b0cd618e0c6cc886" name="aef60157a53ecd922b0cd618e0c6cc886"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef60157a53ecd922b0cd618e0c6cc886">&#9670;&#160;</a></span>MR_Buffer_uint8_t_empty()</h2>
+<a id="a980f545c72f3fccd525679893bab9245" name="a980f545c72f3fccd525679893bab9245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a980f545c72f3fccd525679893bab9245">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_empty()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_Buffer_uint8_t_empty </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_Buffer_unsigned_char_empty </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>empty</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>empty</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a6cc99e37d226c6a6548cef90d82616ff" name="a6cc99e37d226c6a6548cef90d82616ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cc99e37d226c6a6548cef90d82616ff">&#9670;&#160;</a></span>MR_Buffer_uint8_t_endId()</h2>
+<a id="a3e85f88b47911cc97f55975255535e59" name="a3e85f88b47911cc97f55975255535e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e85f88b47911cc97f55975255535e59">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_endId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_uint8_t_endId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_unsigned_char_endId </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns backId() + 1 Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>endId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns backId() + 1 Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>endId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a2bde74f6fb48d1770d72de799069e75a" name="a2bde74f6fb48d1770d72de799069e75a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bde74f6fb48d1770d72de799069e75a">&#9670;&#160;</a></span>MR_Buffer_uint8_t_heapBytes()</h2>
+<a id="a4632f34547b82abcffbe45ca5c5fc23a" name="a4632f34547b82abcffbe45ca5c5fc23a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4632f34547b82abcffbe45ca5c5fc23a">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_heapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_uint8_t_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_unsigned_char_heapBytes </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a455e40fa412ffefadfca2d28960a9201" name="a455e40fa412ffefadfca2d28960a9201"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a455e40fa412ffefadfca2d28960a9201">&#9670;&#160;</a></span>MR_Buffer_uint8_t_index()</h2>
+<a id="a5eb961cb3e7a791eea03e5497de5a954" name="a5eb961cb3e7a791eea03e5497de5a954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb961cb3e7a791eea03e5497de5a954">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_index()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_Buffer_uint8_t_index </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char * MR_Buffer_unsigned_char_index </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15262,20 +15260,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
-<a id="a8548e020f30da279fb6f53eb1fc5378f" name="a8548e020f30da279fb6f53eb1fc5378f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8548e020f30da279fb6f53eb1fc5378f">&#9670;&#160;</a></span>MR_Buffer_uint8_t_index_const()</h2>
+<a id="a033486b00a9cd3b62b741d437aea4fcc" name="a033486b00a9cd3b62b741d437aea4fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033486b00a9cd3b62b741d437aea4fcc">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_index_const()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_Buffer_uint8_t_index_const </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const unsigned char * MR_Buffer_unsigned_char_index_const </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15284,20 +15282,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
-<a id="a1d69816e04ab3cf9f010e6c242c0f49a" name="a1d69816e04ab3cf9f010e6c242c0f49a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d69816e04ab3cf9f010e6c242c0f49a">&#9670;&#160;</a></span>MR_Buffer_uint8_t_OffsetMutablePtr()</h2>
+<a id="a23080ae454f6bff66346c05b114ee202" name="a23080ae454f6bff66346c05b114ee202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23080ae454f6bff66346c05b114ee202">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_OffsetMutablePtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_OffsetMutablePtr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15311,16 +15309,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a658940712b1121c0d136956f28570386" name="a658940712b1121c0d136956f28570386"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a658940712b1121c0d136956f28570386">&#9670;&#160;</a></span>MR_Buffer_uint8_t_OffsetPtr()</h2>
+<a id="a6e163dc66a7328fd847f41ee1cf7d80a" name="a6e163dc66a7328fd847f41ee1cf7d80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e163dc66a7328fd847f41ee1cf7d80a">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_OffsetPtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> * MR_Buffer_uint8_t_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> * MR_Buffer_unsigned_char_OffsetPtr </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15334,16 +15332,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d6e3636a7fc376baf89ada148fe624a" name="a8d6e3636a7fc376baf89ada148fe624a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d6e3636a7fc376baf89ada148fe624a">&#9670;&#160;</a></span>MR_Buffer_uint8_t_resize()</h2>
+<a id="a3ae927574bca70430e4a5743a93ed300" name="a3ae927574bca70430e4a5743a93ed300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae927574bca70430e4a5743a93ed300">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_resize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint8_t_resize </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_unsigned_char_resize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15352,25 +15350,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>resize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>resize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a6d6c8dc7d022b9925716179509284d56" name="a6d6c8dc7d022b9925716179509284d56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d6c8dc7d022b9925716179509284d56">&#9670;&#160;</a></span>MR_Buffer_uint8_t_size()</h2>
+<a id="a3c77f76665086eb1b7e711aa56c988db" name="a3c77f76665086eb1b7e711aa56c988db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c77f76665086eb1b7e711aa56c988db">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_uint8_t_size </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Buffer_unsigned_char_size </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aea2db741df8e0b829e6c276939e57d7c">MR_Buffer_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;uint8_t&gt;</code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Buffer.html">MR::Buffer</a>&lt;unsigned char&gt;</code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -18273,130 +18271,130 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab722d9edcbff52fc85bc09304b0b2fd0" name="ab722d9edcbff52fc85bc09304b0b2fd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab722d9edcbff52fc85bc09304b0b2fd0">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_AssignFromAnother()</h2>
+<a id="a6e720dca19cf0680e4ae450288c318c7" name="a6e720dca19cf0680e4ae450288c318c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e720dca19cf0680e4ae450288c318c7">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_AssignFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> * MR_NoCtor_uint8_t_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> * MR_NoCtor_unsigned_char_AssignFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;uint8_t&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;unsigned char&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
-<a id="acd662a05eb7836f396579262aa599c93" name="acd662a05eb7836f396579262aa599c93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd662a05eb7836f396579262aa599c93">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_ConstructFromAnother()</h2>
+<a id="a8ac0fa068a24dd37e1afc7c376ecc882" name="a8ac0fa068a24dd37e1afc7c376ecc882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac0fa068a24dd37e1afc7c376ecc882">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> * MR_NoCtor_uint8_t_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> * MR_NoCtor_unsigned_char_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;uint8_t&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8c395a8ba263600c7a9fe28c7d575e5" title="Destroys a heap-allocated instance of MR_NoCtor_uint8_t. Does nothing if the pointer is null.">MR_NoCtor_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1NoCtor.html">MR::NoCtor</a>&lt;unsigned char&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afe3753e1e06f60a83348f69b3b33a1e9" title="Destroys a heap-allocated instance of MR_NoCtor_unsigned_char. Does nothing if the pointer is null.">MR_NoCtor_unsigned_char_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="afcccef01a7fa65476080bdf497269b0f" name="afcccef01a7fa65476080bdf497269b0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcccef01a7fa65476080bdf497269b0f">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_DefaultConstruct()</h2>
+<a id="ab9d97786f2ec7334f0e7e03b3571360a" name="ab9d97786f2ec7334f0e7e03b3571360a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d97786f2ec7334f0e7e03b3571360a">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_DefaultConstruct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> * MR_NoCtor_uint8_t_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> * MR_NoCtor_unsigned_char_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8c395a8ba263600c7a9fe28c7d575e5" title="Destroys a heap-allocated instance of MR_NoCtor_uint8_t. Does nothing if the pointer is null.">MR_NoCtor_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afe3753e1e06f60a83348f69b3b33a1e9" title="Destroys a heap-allocated instance of MR_NoCtor_unsigned_char. Does nothing if the pointer is null.">MR_NoCtor_unsigned_char_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a01ed8b66862ac11d5eadd042d7e9e4cb" name="a01ed8b66862ac11d5eadd042d7e9e4cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01ed8b66862ac11d5eadd042d7e9e4cb">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_DefaultConstructArray()</h2>
+<a id="a13d0c35cfcf2d9f993e144a4d26ef752" name="a13d0c35cfcf2d9f993e144a4d26ef752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13d0c35cfcf2d9f993e144a4d26ef752">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_DefaultConstructArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> * MR_NoCtor_uint8_t_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> * MR_NoCtor_unsigned_char_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a41f214824dd2691c16e76e5e7feda578" title="Destroys a heap-allocated array of MR_NoCtor_uint8_t. Does nothing if the pointer is null.">MR_NoCtor_uint8_t_DestroyArray()</a></code>. Use <code><a class="el" href="#a5cdfc21095dd0c3754a0149e3aa17e51" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_NoCtor_uint8_t_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a81d93a7b77bcc2741c02f54851b89089" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_NoCtor_uint8_t_OffsetPtr()</a></code> to access the array elements. </p>
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af52e1739ab43ce30092e6e95b24ddfa2" title="Destroys a heap-allocated array of MR_NoCtor_unsigned_char. Does nothing if the pointer is null.">MR_NoCtor_unsigned_char_DestroyArray()</a></code>. Use <code><a class="el" href="#a493889c447e555119ddebfe41ebc123d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_NoCtor_unsigned_char_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8d77838a4a96e6c134d3f63d4c4a97b7" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_NoCtor_unsigned_char_OffsetPtr()</a></code> to access the array elements. </p>
 
 </div>
 </div>
-<a id="ad8c395a8ba263600c7a9fe28c7d575e5" name="ad8c395a8ba263600c7a9fe28c7d575e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8c395a8ba263600c7a9fe28c7d575e5">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_Destroy()</h2>
+<a id="afe3753e1e06f60a83348f69b3b33a1e9" name="afe3753e1e06f60a83348f69b3b33a1e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe3753e1e06f60a83348f69b3b33a1e9">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_Destroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_NoCtor_uint8_t_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_NoCtor_unsigned_char_Destroy </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated instance of <code>MR_NoCtor_uint8_t</code>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated instance of <code>MR_NoCtor_unsigned_char</code>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
-<a id="a41f214824dd2691c16e76e5e7feda578" name="a41f214824dd2691c16e76e5e7feda578"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41f214824dd2691c16e76e5e7feda578">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_DestroyArray()</h2>
+<a id="af52e1739ab43ce30092e6e95b24ddfa2" name="af52e1739ab43ce30092e6e95b24ddfa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af52e1739ab43ce30092e6e95b24ddfa2">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_DestroyArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_NoCtor_uint8_t_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_NoCtor_unsigned_char_DestroyArray </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated array of <code>MR_NoCtor_uint8_t</code>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated array of <code>MR_NoCtor_unsigned_char</code>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
-<a id="a5cdfc21095dd0c3754a0149e3aa17e51" name="a5cdfc21095dd0c3754a0149e3aa17e51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cdfc21095dd0c3754a0149e3aa17e51">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_OffsetMutablePtr()</h2>
+<a id="a493889c447e555119ddebfe41ebc123d" name="a493889c447e555119ddebfe41ebc123d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493889c447e555119ddebfe41ebc123d">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_OffsetMutablePtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> * MR_NoCtor_uint8_t_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> * MR_NoCtor_unsigned_char_OffsetMutablePtr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -18410,16 +18408,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a81d93a7b77bcc2741c02f54851b89089" name="a81d93a7b77bcc2741c02f54851b89089"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d93a7b77bcc2741c02f54851b89089">&#9670;&#160;</a></span>MR_NoCtor_uint8_t_OffsetPtr()</h2>
+<a id="a8d77838a4a96e6c134d3f63d4c4a97b7" name="a8d77838a4a96e6c134d3f63d4c4a97b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d77838a4a96e6c134d3f63d4c4a97b7">&#9670;&#160;</a></span>MR_NoCtor_unsigned_char_OffsetPtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> * MR_NoCtor_uint8_t_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> * MR_NoCtor_unsigned_char_OffsetPtr </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a56b3339f7052fdef352455251c59f990">MR_NoCtor_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

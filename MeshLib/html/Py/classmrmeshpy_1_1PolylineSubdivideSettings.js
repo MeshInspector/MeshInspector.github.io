@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1PolylineSubdivideSettings =
 [
     [ "__init__", "classmrmeshpy_1_1PolylineSubdivideSettings.html#a82fdc678e5527882194618385687812c", null ],
+    [ "__init__", "classmrmeshpy_1_1PolylineSubdivideSettings.html#a2c563a78795e98e972a7171427fa9261", null ],
     [ "__init__", "classmrmeshpy_1_1PolylineSubdivideSettings.html#a78fe777cc3feb93b0b614571cd7f7028", null ],
     [ "maxEdgeLen", "classmrmeshpy_1_1PolylineSubdivideSettings.html#a28eb7a84285b8ebe39d67368a0d3ac4f", null ],
     [ "maxEdgeLen", "classmrmeshpy_1_1PolylineSubdivideSettings.html#aed099f29be5db5ec1b190d5d1a362e72", null ],

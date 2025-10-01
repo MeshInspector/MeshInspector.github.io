@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/group__AABBTreeGroup.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -755,9 +754,9 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 <p>this callback is invoked for every triangle in range, where </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">p</td><td>closest point on original triangle </td></tr>
+    <tr><td class="paramname">p</td><td>closest point on original triangle (if distSq == 0 then it is random point on original triangle, see TriDist comment) </td></tr>
     <tr><td class="paramname">f</td><td>triangle id in question </td></tr>
-    <tr><td class="paramname">q</td><td>closest point on f-triangle </td></tr>
+    <tr><td class="paramname">q</td><td>closest point on f-triangle (if distSq == 0 then it is random point on f-triangle, see TriDist comment) </td></tr>
     <tr><td class="paramname">distSq</td><td>squared distance in between p and q </td></tr>
   </table>
   </dd>
@@ -3686,7 +3685,7 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">origins</td><td>origin point of every ray  </td></tr>
     <tr><td class="paramname">dirs</td><td>direction of every ray  </td></tr>
     <tr><td class="paramname">result</td><td>output data for every ray  </td></tr>
-    <tr><td class="paramname">closestIntersect</td><td>finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>)  </td></tr>
+    <tr><td class="paramname">closestIntersect</td><td>whether to search for the closest intersection to ray origin (line param=0), or any intersection  </td></tr>
     <tr><td class="paramname">validFaces</td><td>if given then all faces for which false is returned will be skipped </td></tr>
   </table>
   </dd>
@@ -3856,7 +3855,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Finds ray and mesh intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). <code>vadidFaces</code> if given then all faces for which false is returned will be skipped Finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>). </p>
+<p>Finds ray and mesh intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). <code>vadidFaces</code> if given then all faces for which false is returned will be skipped Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. </p>
 
 </div>
 </div>
@@ -3911,7 +3910,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Finds ray and mesh intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). <code>vadidFaces</code> if given then all faces for which false is returned will be skipped Finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>). </p>
+<p>Finds ray and mesh intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). <code>vadidFaces</code> if given then all faces for which false is returned will be skipped Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. </p>
 
 </div>
 </div>

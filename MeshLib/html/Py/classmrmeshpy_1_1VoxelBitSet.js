@@ -3,6 +3,7 @@ var classmrmeshpy_1_1VoxelBitSet =
     [ "__init__", "classmrmeshpy_1_1VoxelBitSet.html#adbb5b3919c2c22748e96d888b9c77ddf", null ],
     [ "__init__", "classmrmeshpy_1_1VoxelBitSet.html#a5c0eb2a3ac4e52f7d44e0f778a372685", null ],
     [ "__init__", "classmrmeshpy_1_1VoxelBitSet.html#a5c0eb2a3ac4e52f7d44e0f778a372685", null ],
+    [ "__init__", "classmrmeshpy_1_1VoxelBitSet.html#ae12f400cb820b1f6d0be623fef37c326", null ],
     [ "__and__", "classmrmeshpy_1_1VoxelBitSet.html#a8d6a563a507e1805f144159832347d7b", null ],
     [ "__getitem__", "classmrmeshpy_1_1VoxelBitSet.html#aef55e28b031276f9c7e39579a8576806", null ],
     [ "__iand__", "classmrmeshpy_1_1VoxelBitSet.html#ac209c8d2550a2e16f6a874d609757efa", null ],

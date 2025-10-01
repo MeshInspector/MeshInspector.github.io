@@ -2,6 +2,7 @@ var classmrmeshpy_1_1Matrix__float =
 [
     [ "__init__", "classmrmeshpy_1_1Matrix__float.html#a90f34c4b121bef4c251aba5a7340b1f5", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix__float.html#a38b008933dcd2fd7c9c67790498b8fd8", null ],
+    [ "__init__", "classmrmeshpy_1_1Matrix__float.html#ae5f9715f3d02f9ba464b83b52925d7ca", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix__float.html#a84307940ab5e501061c61721d8489ec1", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix__float.html#a84307940ab5e501061c61721d8489ec1", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix__float.html#a4252b7151edea1d2aaf491344c47b5a1", null ],

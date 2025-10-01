@@ -2,6 +2,7 @@ var classmrmeshpy_1_1FixMeshDegeneraciesParams =
 [
     [ "Mode", "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html", "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" ],
     [ "__init__", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a1e1f838f91dc42fc8dc26bbfe1d8efa4", null ],
+    [ "__init__", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a74f02bc677138a4b475b88934444675a", null ],
     [ "__init__", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a5d379da27e00e6aa350c368227b8774f", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af1fa642dd015c97f9141ea6cecb2d29a", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ad541d9f4dee2a4c7a2b11ac5f4ea2c8a", null ],

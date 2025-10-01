@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRPointsProject_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRPointsProject_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRPointsProject_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -248,9 +246,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a01ab528f34a77b0bdb4a8c30db01a7af" id="r_a01ab528f34a77b0bdb4a8c30db01a7af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01ab528f34a77b0bdb4a8c30db01a7af">MR_findFewClosestPoints</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pt, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, <a class="el" href="MRFewSmallest_8h.html#a66e1ce13e2d4b3d10a8605b9d6b685d3">MR_FewSmallest_MR_PointsProjectionResult</a> *res, const float *upDistLimitSq, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const float *loDistLimitSq)</td></tr>
 <tr class="memdesc:a01ab528f34a77b0bdb4a8c30db01a7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds a number of the closest points in the cloud (as configured in  <br /></td></tr>
 <tr class="separator:a01ab528f34a77b0bdb4a8c30db01a7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc58236b22038c2be49fd682f921355" id="r_aecc58236b22038c2be49fd682f921355"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBuffer_8h.html#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc58236b22038c2be49fd682f921355">MR_findNClosestPointsPerPoint</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, int32_t numNei, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
-<tr class="memdesc:aecc58236b22038c2be49fd682f921355"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds given number of closest points (excluding itself) to each valid point in the cloud;  <br /></td></tr>
-<tr class="separator:aecc58236b22038c2be49fd682f921355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3791a77ea8f46477ee87a87d96445d" id="r_a8a3791a77ea8f46477ee87a87d96445d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBuffer_8h.html#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3791a77ea8f46477ee87a87d96445d">MR_findNClosestPointsPerPoint</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, int numNei, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="memdesc:a8a3791a77ea8f46477ee87a87d96445d"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds given number of closest points (excluding itself) to each valid point in the cloud;  <br /></td></tr>
+<tr class="separator:a8a3791a77ea8f46477ee87a87d96445d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bc26a8ba7a52f6175dcd03f4d10ce9e" id="r_a0bc26a8ba7a52f6175dcd03f4d10ce9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a627aa1628b99fe88a3c76fb6d87ba691">MR_std_pair_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc26a8ba7a52f6175dcd03f4d10ce9e">MR_findTwoClosestPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
 <tr class="separator:a0bc26a8ba7a52f6175dcd03f4d10ce9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a497264dd043bb9099df9d8839ef0f5c7" id="r_a497264dd043bb9099df9d8839ef0f5c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a497264dd043bb9099df9d8839ef0f5c7">MR_FindProjectionOnPointsSettings_Get_valid</a> (const <a class="el" href="#a92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
@@ -698,8 +696,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aecc58236b22038c2be49fd682f921355" name="aecc58236b22038c2be49fd682f921355"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecc58236b22038c2be49fd682f921355">&#9670;&#160;</a></span>MR_findNClosestPointsPerPoint()</h2>
+<a id="a8a3791a77ea8f46477ee87a87d96445d" name="a8a3791a77ea8f46477ee87a87d96445d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a3791a77ea8f46477ee87a87d96445d">&#9670;&#160;</a></span>MR_findNClosestPointsPerPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -712,7 +710,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>numNei</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numNei</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -4,6 +4,8 @@ var MRMacros_8h =
     [ "DETAIL_MR_TRIM_LEADING_COMMA_", "MRMacros_8h.html#acaebd39479bb9677a7e966765a052de4", null ],
     [ "DETAIL_MR_TRIM_LEADING_COMMA_EMPTY", "MRMacros_8h.html#a71b7b6d36fcf0ab6752038726c7b007d", null ],
     [ "MR_CONCAT", "MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a", null ],
+    [ "MR_CONCAT3", "MRMacros_8h.html#a54bd8b99129600a52a3261e1527412e5", null ],
+    [ "MR_CONCAT3_", "MRMacros_8h.html#a8e4c97f3488b7d743a2f01f7487f3cdc", null ],
     [ "MR_CONCAT_", "MRMacros_8h.html#ac35e66533e158a4bf53982a2c109bd09", null ],
     [ "MR_END", "MRMacros_8h.html#a0fd290c4738dc2f265b144020d97b290", null ],
     [ "MR_HAS_REQUIRES", "MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949", null ],

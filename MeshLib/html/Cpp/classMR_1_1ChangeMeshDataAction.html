@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/classMR_1_1ChangeMeshDataAction.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -183,10 +182,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae7189fb8c8e3d8c3521cb0b8781a1e19" id="r_ae7189fb8c8e3d8c3521cb0b8781a1e19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7189fb8c8e3d8c3521cb0b8781a1e19">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:ae7189fb8c8e3d8c3521cb0b8781a1e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's data before making any changes in it  <br /></td></tr>
-<tr class="separator:ae7189fb8c8e3d8c3521cb0b8781a1e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adde79f1c602a61f0a33b7b9a02c6200f" id="r_adde79f1c602a61f0a33b7b9a02c6200f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde79f1c602a61f0a33b7b9a02c6200f">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj, <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;&amp;newData)</td></tr>
+<tr class="memitem:a802c34ae621a5ebc85ae77caef5d7112" id="r_a802c34ae621a5ebc85ae77caef5d7112"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a802c34ae621a5ebc85ae77caef5d7112">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a>, bool cloneMesh)</td></tr>
+<tr class="memdesc:a802c34ae621a5ebc85ae77caef5d7112"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's data before making any changes in it  <br /></td></tr>
+<tr class="separator:a802c34ae621a5ebc85ae77caef5d7112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde79f1c602a61f0a33b7b9a02c6200f" id="r_adde79f1c602a61f0a33b7b9a02c6200f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde79f1c602a61f0a33b7b9a02c6200f">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a>, <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;&amp;newData)</td></tr>
 <tr class="memdesc:adde79f1c602a61f0a33b7b9a02c6200f"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's data and immediately set new data  <br /></td></tr>
 <tr class="separator:adde79f1c602a61f0a33b7b9a02c6200f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a6297c30967ea93e6bfc131ae8911c" id="r_a17a6297c30967ea93e6bfc131ae8911c"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a> () const override</td></tr>
@@ -197,13 +196,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6fa4f260bd2f49a20d68064d7238e9d9" id="r_a6fa4f260bd2f49a20d68064d7238e9d9"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa4f260bd2f49a20d68064d7238e9d9">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a6fa4f260bd2f49a20d68064d7238e9d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a6fa4f260bd2f49a20d68064d7238e9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302de90b9b9c06b36225e604a21caee4" id="r_a302de90b9b9c06b36225e604a21caee4"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a> () const</td></tr>
+<tr class="separator:a302de90b9b9c06b36225e604a21caee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90653c68c71f52aaaa7dd151584b5fc0" id="r_a90653c68c71f52aaaa7dd151584b5fc0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90653c68c71f52aaaa7dd151584b5fc0">data</a> () const</td></tr>
+<tr class="separator:a90653c68c71f52aaaa7dd151584b5fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1HistoryAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1HistoryAction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
 <tr class="memitem:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction" id="r_a97370459d3645a1169ed426ef4896e5c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c">~HistoryAction</a> ()=default</td></tr>
 <tr class="separator:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab7ee61295eadec4e967c66a607fa76df" id="r_ab7ee61295eadec4e967c66a607fa76df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ee61295eadec4e967c66a607fa76df">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj)</td></tr>
+<tr class="memitem:ab7ee61295eadec4e967c66a607fa76df" id="r_ab7ee61295eadec4e967c66a607fa76df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ee61295eadec4e967c66a607fa76df">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a>)</td></tr>
 <tr class="separator:ab7ee61295eadec4e967c66a607fa76df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -224,8 +227,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae7189fb8c8e3d8c3521cb0b8781a1e19" name="ae7189fb8c8e3d8c3521cb0b8781a1e19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7189fb8c8e3d8c3521cb0b8781a1e19">&#9670;&#160;</a></span>ChangeMeshDataAction() <span class="overload">[1/2]</span></h2>
+<a id="a802c34ae621a5ebc85ae77caef5d7112" name="a802c34ae621a5ebc85ae77caef5d7112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802c34ae621a5ebc85ae77caef5d7112">&#9670;&#160;</a></span>ChangeMeshDataAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +244,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>cloneMesh</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -321,6 +329,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a90653c68c71f52aaaa7dd151584b5fc0" name="a90653c68c71f52aaaa7dd151584b5fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90653c68c71f52aaaa7dd151584b5fc0">&#9670;&#160;</a></span>data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp; MR::ChangeMeshDataAction::data </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6fa4f260bd2f49a20d68064d7238e9d9" name="a6fa4f260bd2f49a20d68064d7238e9d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fa4f260bd2f49a20d68064d7238e9d9">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -374,6 +407,31 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce">MR::HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="a302de90b9b9c06b36225e604a21caee4" name="a302de90b9b9c06b36225e604a21caee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302de90b9b9c06b36225e604a21caee4">&#9670;&#160;</a></span>obj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp; MR::ChangeMeshDataAction::obj </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRMesh_2MRString_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -195,7 +194,10 @@ $(function(){initNavTree('MRMesh_2MRString_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="namespaceMR.html#afc9f574268d072e85d31e140353743df">   63</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view <a class="code hl_function" href="namespaceMR.html#afc9f574268d072e85d31e140353743df">trimRight</a>( std::string_view str );</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="namespaceMR.html#a36dd0324e538647cb66802f21a522b68">   67</a></span>[[nodiscard]] <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#a36dd0324e538647cb66802f21a522b68">hasFormatPlaceholders</a>( std::string_view str );</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:80</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga245584b85505ab9157d346bb3d8caf53"><div class="ttname"><a href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a></div><div class="ttdeci">MRMESH_API size_t findSubstringCaseInsensitive(const std::string &amp;string, const std::string &amp;substring)</div></div>
@@ -203,6 +205,7 @@ $(function(){initNavTree('MRMesh_2MRString_8h_source.html',''); initResizable(tr
 <div class="ttc" id="agroup__BasicGroup_html_gadb9d497f4e19d60a460324a964581ebb"><div class="ttname"><a href="group__BasicGroup.html#gadb9d497f4e19d60a460324a964581ebb">MR::calcDamerauLevenshteinDistance</a></div><div class="ttdeci">MRMESH_API int calcDamerauLevenshteinDistance(const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a2584c6bf8d14b42355582e7b634bb1ee"><div class="ttname"><a href="namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee">MR::replace</a></div><div class="ttdeci">MRMESH_API std::string replace(std::string target, std::string_view from, std::string_view to)</div><div class="ttdoc">Returns.</div></div>
+<div class="ttc" id="anamespaceMR_html_a36dd0324e538647cb66802f21a522b68"><div class="ttname"><a href="namespaceMR.html#a36dd0324e538647cb66802f21a522b68">MR::hasFormatPlaceholders</a></div><div class="ttdeci">MRMESH_API bool hasFormatPlaceholders(std::string_view str)</div><div class="ttdoc">Returns true if str has at least one {...} formatting placeholder.</div></div>
 <div class="ttc" id="anamespaceMR_html_a7739cc70dc943e30f0635c478a93ef14"><div class="ttname"><a href="namespaceMR.html#a7739cc70dc943e30f0635c478a93ef14">MR::trimLeft</a></div><div class="ttdeci">MRMESH_API std::string_view trimLeft(std::string_view str)</div><div class="ttdoc">Removes all whitespace character (detected by std::isspace) at the beginning of string view.</div></div>
 <div class="ttc" id="anamespaceMR_html_aacd64ab3b893a3975e6dced2b5ff2722"><div class="ttname"><a href="namespaceMR.html#aacd64ab3b893a3975e6dced2b5ff2722">MR::trim</a></div><div class="ttdeci">MRMESH_API std::string_view trim(std::string_view str)</div><div class="ttdoc">Removes all whitespace character (detected by std::isspace) at the beginning and the end of string vi...</div></div>
 <div class="ttc" id="anamespaceMR_html_afc584d61fd54ca2a86dec086736fdfd4"><div class="ttname"><a href="namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4">MR::replaceInplace</a></div><div class="ttdeci">MRMESH_API void replaceInplace(std::string &amp;target, std::string_view from, std::string_view to)</div><div class="ttdoc">Replaces.</div></div>

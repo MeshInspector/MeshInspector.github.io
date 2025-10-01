@@ -38,8 +38,10 @@ var NAVTREE =
       [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ]
     ] ],
     [ "Examples", "Examples.html", [
+      [ "C++ Application Based on MeshLib", "Examples.html#CppApplication", [
+        [ "Application Based on MeshLib", "BasedApplication.html", null ]
+      ] ],
       [ "General Samples", "Examples.html#GeneralExamples", [
-        [ "Application Based on MeshLib", "BasedApplication.html", null ],
         [ "Mesh Load and Save", "ExampleMeshLoadSave.html", null ],
         [ "Export Raw Triangles", "ExampleMeshExport.html", null ],
         [ "Mesh Modification", "ExampleMeshModification.html", null ],
@@ -66,8 +68,14 @@ var NAVTREE =
         [ "Fusion", "ExampleFusion.html", null ],
         [ "Text to Mesh", "ExampleMeshFromText.html", null ]
       ] ],
+      [ "Collisions", "Examples.html#Collisions", [
+        [ "Detect Collisions", "ExampleDetectCollisions.html", null ],
+        [ "Detect Collisions Precise", "ExampleDetectCollisionsPrecise.html", null ],
+        [ "Detect Self-Intersections", "ExampleDetectSelfIntersections.html", null ]
+      ] ],
       [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
         [ "Viewer", "ExampleViewer.html", null ],
+        [ "Volume Rendering", "ExampleViewerVolumeRender.html", null ],
         [ "Plotly Visualization", "ExamplePlotly.html", null ],
         [ "Using Numpy", "ExampleNumpy.html", null ],
         [ "Numpy Triangulation", "ExampleNumpyTriangulation.html", null ],

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1SharpenMarchingCubesMeshSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a9188e44763219c386458bec4d8adb5c8", null ],
+    [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ad94fd118830f2241f06f32c9b6608ce4", null ],
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ae8aba610d5f5eae7520041afe6d77fa5", null ],
     [ "maxNewRank2VertDev", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469", null ],
     [ "maxNewRank2VertDev", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a85b8021b63109495d8bd1859355e21cb", null ],

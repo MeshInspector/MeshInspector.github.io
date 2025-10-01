@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRInnerShell_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -156,7 +155,6 @@ $(function(){initNavTree('MRInnerShell_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRInnerShell_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -172,8 +170,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
 <tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaad64e8b41947e5d45a902ccc3d5d2b6" id="r_aaad64e8b41947e5d45a902ccc3d5d2b6"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a></td></tr>
-<tr class="separator:aaad64e8b41947e5d45a902ccc3d5d2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1927fc1e31e0b7bac4d7633ba0b2d711" id="r_a1927fc1e31e0b7bac4d7633ba0b2d711"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1927fc1e31e0b7bac4d7633ba0b2d711">MR_Side</a></td></tr>
+<tr class="separator:a1927fc1e31e0b7bac4d7633ba0b2d711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aff57300d2d16a1b810eb1ac3e99abc" id="r_a1aff57300d2d16a1b810eb1ac3e99abc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a></td></tr>
 <tr class="memdesc:a1aff57300d2d16a1b810eb1ac3e99abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code>.  <br /></td></tr>
 <tr class="separator:a1aff57300d2d16a1b810eb1ac3e99abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,18 +180,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a458e651af6690959efa2afb96be7d609" id="r_a458e651af6690959efa2afb96be7d609"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a458e651af6690959efa2afb96be7d609ae9bee15864d2ec7258da834670f8d6f8">MR_Side_Negative</a> = 0
-, <a class="el" href="#a458e651af6690959efa2afb96be7d609a6461b3171f1a3826dc85611b00dac197">MR_Side_Positive</a> = 1
+<tr class="memitem:a9d88fefb52aeb60e749874b389a9cd87" id="r_a9d88fefb52aeb60e749874b389a9cd87"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> { <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87ae9bee15864d2ec7258da834670f8d6f8">MR_Side_Negative</a> = 0
+, <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87a6461b3171f1a3826dc85611b00dac197">MR_Side_Positive</a> = 1
  }</td></tr>
-<tr class="separator:a458e651af6690959efa2afb96be7d609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a9d88fefb52aeb60e749874b389a9cd87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa5cc959477a3c33a3e9971e27a01d8ca" id="r_aa5cc959477a3c33a3e9971e27a01d8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5cc959477a3c33a3e9971e27a01d8ca">MR_FindInnerShellSettings_Get_side</a> (const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
+<tr class="memitem:aa5cc959477a3c33a3e9971e27a01d8ca" id="r_aa5cc959477a3c33a3e9971e27a01d8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5cc959477a3c33a3e9971e27a01d8ca">MR_FindInnerShellSettings_Get_side</a> (const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
 <tr class="separator:aa5cc959477a3c33a3e9971e27a01d8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b791c64af678d7e9d15431a658eaec8" id="r_a5b791c64af678d7e9d15431a658eaec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b791c64af678d7e9d15431a658eaec8">MR_FindInnerShellSettings_Set_side</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this, <a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a> value)</td></tr>
+<tr class="memitem:a5b791c64af678d7e9d15431a658eaec8" id="r_a5b791c64af678d7e9d15431a658eaec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b791c64af678d7e9d15431a658eaec8">MR_FindInnerShellSettings_Set_side</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this, <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> value)</td></tr>
 <tr class="separator:a5b791c64af678d7e9d15431a658eaec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaf457f6d645b920dfc899123af9d875" id="r_aeaf457f6d645b920dfc899123af9d875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf457f6d645b920dfc899123af9d875">MR_FindInnerShellSettings_GetMutable_side</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
+<tr class="memitem:aeaf457f6d645b920dfc899123af9d875" id="r_aeaf457f6d645b920dfc899123af9d875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf457f6d645b920dfc899123af9d875">MR_FindInnerShellSettings_GetMutable_side</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
 <tr class="separator:aeaf457f6d645b920dfc899123af9d875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b1b4317dbaae7d3bbfb091c03e1c794" id="r_a8b1b4317dbaae7d3bbfb091c03e1c794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b1b4317dbaae7d3bbfb091c03e1c794">MR_FindInnerShellSettings_Get_maxDistSq</a> (const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
 <tr class="separator:a8b1b4317dbaae7d3bbfb091c03e1c794"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,18 +211,18 @@ Functions</h2></td></tr>
 <tr class="separator:a63dafb13376aec5d51d9a9e25e75dac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a413ce2fdb7ce5c9c8fada8e2b0be7b73" id="r_a413ce2fdb7ce5c9c8fada8e2b0be7b73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413ce2fdb7ce5c9c8fada8e2b0be7b73">MR_FindInnerShellSettings_GetMutable_windingNumberThreshold</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
 <tr class="separator:a413ce2fdb7ce5c9c8fada8e2b0be7b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993bdb50b5afa66da4a6deb16c36410a" id="r_a993bdb50b5afa66da4a6deb16c36410a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993bdb50b5afa66da4a6deb16c36410a">MR_FindInnerShellSettings_Get_minVertsInComp</a> (const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
-<tr class="separator:a993bdb50b5afa66da4a6deb16c36410a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbd5ac4b5d3450b49cb5bfece1dfcfcf" id="r_adbd5ac4b5d3450b49cb5bfece1dfcfcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd5ac4b5d3450b49cb5bfece1dfcfcf">MR_FindInnerShellSettings_Set_minVertsInComp</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:adbd5ac4b5d3450b49cb5bfece1dfcfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c40fd96a77ad29b13adfca26731637d" id="r_a0c40fd96a77ad29b13adfca26731637d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c40fd96a77ad29b13adfca26731637d">MR_FindInnerShellSettings_GetMutable_minVertsInComp</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
-<tr class="separator:a0c40fd96a77ad29b13adfca26731637d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32323420fc73ea7debfb8ddb0e5d354f" id="r_a32323420fc73ea7debfb8ddb0e5d354f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32323420fc73ea7debfb8ddb0e5d354f">MR_FindInnerShellSettings_Get_minVertsInComp</a> (const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
+<tr class="separator:a32323420fc73ea7debfb8ddb0e5d354f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefe6ee232d5cace3fa666f3880c74f6" id="r_adefe6ee232d5cace3fa666f3880c74f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefe6ee232d5cace3fa666f3880c74f6">MR_FindInnerShellSettings_Set_minVertsInComp</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this, int value)</td></tr>
+<tr class="separator:adefe6ee232d5cace3fa666f3880c74f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ce3046f6358a7f3a56a0d1f77cc874" id="r_ae2ce3046f6358a7f3a56a0d1f77cc874"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2ce3046f6358a7f3a56a0d1f77cc874">MR_FindInnerShellSettings_GetMutable_minVertsInComp</a> (<a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *_this)</td></tr>
+<tr class="separator:ae2ce3046f6358a7f3a56a0d1f77cc874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6fdc7cba82153ee3d12ac84e08900b7" id="r_af6fdc7cba82153ee3d12ac84e08900b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fdc7cba82153ee3d12ac84e08900b7">MR_FindInnerShellSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:af6fdc7cba82153ee3d12ac84e08900b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3373b1516d98365c7aeb47eaf4d5ed" id="r_a8e3373b1516d98365c7aeb47eaf4d5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e3373b1516d98365c7aeb47eaf4d5ed">MR_FindInnerShellSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a8e3373b1516d98365c7aeb47eaf4d5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4508a024d14d609f782848cb96b0aab9" id="r_a4508a024d14d609f782848cb96b0aab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4508a024d14d609f782848cb96b0aab9">MR_FindInnerShellSettings_ConstructFrom</a> (<a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a> side, float maxDistSq, bool useWindingNumber, float windingNumberThreshold, int32_t minVertsInComp)</td></tr>
-<tr class="separator:a4508a024d14d609f782848cb96b0aab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61b2a85fbca0730519e69227b564865" id="r_aa61b2a85fbca0730519e69227b564865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa61b2a85fbca0730519e69227b564865">MR_FindInnerShellSettings_ConstructFrom</a> (<a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> side, float maxDistSq, bool useWindingNumber, float windingNumberThreshold, int minVertsInComp)</td></tr>
+<tr class="separator:aa61b2a85fbca0730519e69227b564865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17f9c244ceae4d708c4f0265f581147a" id="r_a17f9c244ceae4d708c4f0265f581147a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17f9c244ceae4d708c4f0265f581147a">MR_FindInnerShellSettings_OffsetPtr</a> (const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a17f9c244ceae4d708c4f0265f581147a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a17f9c244ceae4d708c4f0265f581147a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,14 +362,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aaad64e8b41947e5d45a902ccc3d5d2b6" name="aaad64e8b41947e5d45a902ccc3d5d2b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaad64e8b41947e5d45a902ccc3d5d2b6">&#9670;&#160;</a></span>MR_Side</h2>
+<a id="a1927fc1e31e0b7bac4d7633ba0b2d711" name="a1927fc1e31e0b7bac4d7633ba0b2d711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1927fc1e31e0b7bac4d7633ba0b2d711">&#9670;&#160;</a></span>MR_Side</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -407,20 +405,20 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a458e651af6690959efa2afb96be7d609" name="a458e651af6690959efa2afb96be7d609"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a458e651af6690959efa2afb96be7d609">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a9d88fefb52aeb60e749874b389a9cd87" name="a9d88fefb52aeb60e749874b389a9cd87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d88fefb52aeb60e749874b389a9cd87">&#9670;&#160;</a></span>MR_Side</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a458e651af6690959efa2afb96be7d609ae9bee15864d2ec7258da834670f8d6f8" name="a458e651af6690959efa2afb96be7d609ae9bee15864d2ec7258da834670f8d6f8"></a>MR_Side_Negative&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a458e651af6690959efa2afb96be7d609a6461b3171f1a3826dc85611b00dac197" name="a458e651af6690959efa2afb96be7d609a6461b3171f1a3826dc85611b00dac197"></a>MR_Side_Positive&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9d88fefb52aeb60e749874b389a9cd87ae9bee15864d2ec7258da834670f8d6f8" name="a9d88fefb52aeb60e749874b389a9cd87ae9bee15864d2ec7258da834670f8d6f8"></a>MR_Side_Negative&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9d88fefb52aeb60e749874b389a9cd87a6461b3171f1a3826dc85611b00dac197" name="a9d88fefb52aeb60e749874b389a9cd87a6461b3171f1a3826dc85611b00dac197"></a>MR_Side_Positive&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -515,8 +513,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4508a024d14d609f782848cb96b0aab9" name="a4508a024d14d609f782848cb96b0aab9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4508a024d14d609f782848cb96b0aab9">&#9670;&#160;</a></span>MR_FindInnerShellSettings_ConstructFrom()</h2>
+<a id="aa61b2a85fbca0730519e69227b564865" name="aa61b2a85fbca0730519e69227b564865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61b2a85fbca0730519e69227b564865">&#9670;&#160;</a></span>MR_FindInnerShellSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -524,7 +522,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> * MR_FindInnerShellSettings_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a></td>          <td class="paramname"><span class="paramname"><em>side</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a></td>          <td class="paramname"><span class="paramname"><em>side</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -544,7 +542,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>minVertsInComp</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>minVertsInComp</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -662,14 +660,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a993bdb50b5afa66da4a6deb16c36410a" name="a993bdb50b5afa66da4a6deb16c36410a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a993bdb50b5afa66da4a6deb16c36410a">&#9670;&#160;</a></span>MR_FindInnerShellSettings_Get_minVertsInComp()</h2>
+<a id="a32323420fc73ea7debfb8ddb0e5d354f" name="a32323420fc73ea7debfb8ddb0e5d354f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32323420fc73ea7debfb8ddb0e5d354f">&#9670;&#160;</a></span>MR_FindInnerShellSettings_Get_minVertsInComp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_FindInnerShellSettings_Get_minVertsInComp </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_FindInnerShellSettings_Get_minVertsInComp </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -687,7 +685,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a> * MR_FindInnerShellSettings_Get_side </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> * MR_FindInnerShellSettings_Get_side </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -752,14 +750,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0c40fd96a77ad29b13adfca26731637d" name="a0c40fd96a77ad29b13adfca26731637d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c40fd96a77ad29b13adfca26731637d">&#9670;&#160;</a></span>MR_FindInnerShellSettings_GetMutable_minVertsInComp()</h2>
+<a id="ae2ce3046f6358a7f3a56a0d1f77cc874" name="ae2ce3046f6358a7f3a56a0d1f77cc874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2ce3046f6358a7f3a56a0d1f77cc874">&#9670;&#160;</a></span>MR_FindInnerShellSettings_GetMutable_minVertsInComp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_FindInnerShellSettings_GetMutable_minVertsInComp </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_FindInnerShellSettings_GetMutable_minVertsInComp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -777,7 +775,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a> * MR_FindInnerShellSettings_GetMutable_side </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a> * MR_FindInnerShellSettings_GetMutable_side </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1aff57300d2d16a1b810eb1ac3e99abc">MR_FindInnerShellSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -892,8 +890,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adbd5ac4b5d3450b49cb5bfece1dfcfcf" name="adbd5ac4b5d3450b49cb5bfece1dfcfcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbd5ac4b5d3450b49cb5bfece1dfcfcf">&#9670;&#160;</a></span>MR_FindInnerShellSettings_Set_minVertsInComp()</h2>
+<a id="adefe6ee232d5cace3fa666f3880c74f6" name="adefe6ee232d5cace3fa666f3880c74f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefe6ee232d5cace3fa666f3880c74f6">&#9670;&#160;</a></span>MR_FindInnerShellSettings_Set_minVertsInComp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -906,7 +904,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -928,7 +926,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aaad64e8b41947e5d45a902ccc3d5d2b6">MR_Side</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a9d88fefb52aeb60e749874b389a9cd87">MR_Side</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

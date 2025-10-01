@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1GraphVertId =
 [
     [ "__init__", "classmrmeshpy_1_1GraphVertId.html#a71edc5cace2f3c96c7525c4956cd3a02", null ],
+    [ "__init__", "classmrmeshpy_1_1GraphVertId.html#a37b695a95c23a7e046a79c45a452dbbc", null ],
     [ "__bool__", "classmrmeshpy_1_1GraphVertId.html#a1e7bb67e8acf0f3b9bca76c7a5b00e55", null ],
     [ "__eq__", "classmrmeshpy_1_1GraphVertId.html#a3fa80cacd4937c7fd1a7d69593ff2a1e", null ],
     [ "__iadd__", "classmrmeshpy_1_1GraphVertId.html#a81e2cbf42d7d460133126b4c4d528d0a", null ],

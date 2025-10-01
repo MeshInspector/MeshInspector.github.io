@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1QuadraticForm3d =
 [
     [ "__init__", "classmrmeshpy_1_1QuadraticForm3d.html#a2af1d89386d460e614aaa20589d32821", null ],
+    [ "__init__", "classmrmeshpy_1_1QuadraticForm3d.html#a650a0eaf40c591cff182561f2d83a8b6", null ],
     [ "__init__", "classmrmeshpy_1_1QuadraticForm3d.html#a10c5870373652a48e35399405f363f69", null ],
     [ "addDistToLine", "classmrmeshpy_1_1QuadraticForm3d.html#a182bae167c975cf41b8a0dcb44cd12ea", null ],
     [ "addDistToLine", "classmrmeshpy_1_1QuadraticForm3d.html#a6dbc45419f3b96d5b21902e952ef3fa7", null ],

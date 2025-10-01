@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRTriMath_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -176,7 +175,7 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> bc;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">if</span> ( bc &lt;= 0 )</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> ab;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = cross( b - a, c - a ).lengthSq();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = cross( b - a, c - a ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3f.html#a09c3cedbfd1bb821ea24ce933d64657b">lengthSq</a>();</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordflow">if</span> ( f &lt;= 0 )</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> std::numeric_limits&lt;T&gt;::infinity();</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">return</span> ab * ca * bc / f;</div>
@@ -195,7 +194,7 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3c69736e96e47e3a27bc8f47ba40c448">   45</a></span>[[nodiscard]] <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> <a class="code hl_function" href="namespaceMR.html#a3c69736e96e47e3a27bc8f47ba40c448">circumcircleCenter</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; b )</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">const</span> <span class="keyword">auto</span> xabSq = cross( a, b ).lengthSq();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">const</span> <span class="keyword">auto</span> xabSq = cross( a, b ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3f.html#a09c3cedbfd1bb821ea24ce933d64657b">lengthSq</a>();</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">const</span> <span class="keyword">auto</span> aa = a.<a class="code hl_function" href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">lengthSq</a>();</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">const</span> <span class="keyword">auto</span> bb = b.<a class="code hl_function" href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">lengthSq</a>();</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">if</span> ( xabSq &lt;= 0 )</div>
@@ -248,7 +247,7 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">const</span> <span class="keyword">auto</span> bc = ( c - b ).<a class="code hl_variable" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>();</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">if</span> ( ab &lt;= 0  || ca &lt;= 0 || bc &lt;= 0 )</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = cross( b - a, c - a ).length();</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = cross( b - a, c - a ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3f.html#a072407fda0eed22dd1157f3e3ef600f5">length</a>();</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordflow">return</span> f * std::min( { ab, ca, bc } ) / ( ab * ca * bc );</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>}</div>
 </div>
@@ -493,7 +492,7 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    <span class="keyword">auto</span> a = t[0] - t[2];</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    <span class="keyword">auto</span> b = t[1] - t[2];</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    <span class="keyword">auto</span> nom = dot( a, b );</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    <span class="keyword">auto</span> den = cross( a, b ).length();</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    <span class="keyword">auto</span> den = cross( a, b ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3f.html#a072407fda0eed22dd1157f3e3ef600f5">length</a>();</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    <span class="keywordflow">if</span> ( fabs( nom ) &gt;= absMaxVal * den )</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>        <span class="keywordflow">return</span> absMaxVal * <a class="code hl_function" href="namespaceMR.html#a86bf24d57f63afab9354505400a0e82c">sgn</a>( nom );</div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    <span class="keywordflow">return</span> nom / den;</div>
@@ -594,11 +593,13 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRObjectDimensionsEnum_8h_html_af9d495c1655d813d553030485d00fea7"><div class="ttname"><a href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a></div><div class="ttdeci">length</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:14</div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html_a072407fda0eed22dd1157f3e3ef600f5"><div class="ttname"><a href="../Py/classmrmeshpy_1_1Vector3f.html#a072407fda0eed22dd1157f3e3ef600f5">mrmeshpy::Vector3f::length</a></div><div class="ttdeci">float length(self)</div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html_a09c3cedbfd1bb821ea24ce933d64657b"><div class="ttname"><a href="../Py/classmrmeshpy_1_1Vector3f.html#a09c3cedbfd1bb821ea24ce933d64657b">mrmeshpy::Vector3f::lengthSq</a></div><div class="ttdeci">float lengthSq(self)</div></div>
 <div class="ttc" id="agroup__MathGroup_html_gaf5af7058ce54bba6fc77a344d28b9826"><div class="ttname"><a href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">MR::minTriangleAngleSin</a></div><div class="ttdeci">T minTriangleAngleSin(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition</b> MRTriMath.h:92</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555"><div class="ttname"><a href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">MR::NumberStyle::normal</a></div><div class="ttdeci">@ normal</div></div>
 <div class="ttc" id="anamespaceMR_html_a19abe27ef41cab9ed70e6a0b5d60026e"><div class="ttname"><a href="namespaceMR.html#a19abe27ef41cab9ed70e6a0b5d60026e">MR::area</a></div><div class="ttdeci">float area(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceId f)</div><div class="ttdoc">returns the area of given face</div><div class="ttdef"><b>Definition</b> MRMeshMath.h:165</div></div>
-<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdoc">squared value</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:753</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdoc">squared value</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:754</div></div>
 <div class="ttc" id="anamespaceMR_html_a2b0f80c1e8ad5786a1773062c11d2146"><div class="ttname"><a href="namespaceMR.html#a2b0f80c1e8ad5786a1773062c11d2146">MR::circumcircleDiameter</a></div><div class="ttdeci">MRMESH_API float circumcircleDiameter(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceId f)</div><div class="ttdoc">returns circumcircle diameter of given mesh triangle</div></div>
 <div class="ttc" id="anamespaceMR_html_a34e4cff045080ddf46cb771f7f2fdb8e"><div class="ttname"><a href="namespaceMR.html#a34e4cff045080ddf46cb771f7f2fdb8e">MR::dihedralAngle</a></div><div class="ttdeci">MRMESH_API float dihedralAngle(const MeshTopology &amp;topology, const VertCoords &amp;points, UndirectedEdgeId e)</div></div>
 <div class="ttc" id="anamespaceMR_html_a3c69736e96e47e3a27bc8f47ba40c448"><div class="ttname"><a href="namespaceMR.html#a3c69736e96e47e3a27bc8f47ba40c448">MR::circumcircleCenter</a></div><div class="ttdeci">Vector3&lt; T &gt; circumcircleCenter(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdoc">Computes the center of the the triangle's 0AB circumcircle.</div><div class="ttdef"><b>Definition</b> MRTriMath.h:45</div></div>
@@ -610,7 +611,7 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="ttc" id="anamespaceMR_html_a5b210182919ce9a4fe5cdce5115f4cc3"><div class="ttname"><a href="namespaceMR.html#a5b210182919ce9a4fe5cdce5115f4cc3">MR::triangleWithNormal</a></div><div class="ttdeci">Triangle3&lt; T &gt; triangleWithNormal(const Triangle3&lt; T &gt; &amp;t, const Vector3&lt; T &gt; &amp;n)</div><div class="ttdef"><b>Definition</b> MRTriMath.h:229</div></div>
 <div class="ttc" id="anamespaceMR_html_a60596c8cd5eca043531d0f0c4ece20c0"><div class="ttname"><a href="namespaceMR.html#a60596c8cd5eca043531d0f0c4ece20c0">MR::dirDblArea</a></div><div class="ttdeci">Vector3f dirDblArea(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceId f)</div><div class="ttdoc">computes directed double area for a triangular face from its vertices</div><div class="ttdef"><b>Definition</b> MRMeshMath.h:150</div></div>
 <div class="ttc" id="anamespaceMR_html_a69db1209a124ce8bdfb38c51922889bb"><div class="ttname"><a href="namespaceMR.html#a69db1209a124ce8bdfb38c51922889bb">MR::triangleAspectRatio</a></div><div class="ttdeci">MRMESH_API float triangleAspectRatio(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceId f)</div><div class="ttdoc">returns aspect ratio of given mesh triangle equal to the ratio of the circum-radius to twice its in-r...</div></div>
-<div class="ttc" id="anamespaceMR_html_a86bf24d57f63afab9354505400a0e82c"><div class="ttname"><a href="namespaceMR.html#a86bf24d57f63afab9354505400a0e82c">MR::sgn</a></div><div class="ttdeci">constexpr int sgn(T x) noexcept</div><div class="ttdoc">sign of given value in { -1, 0, 1 }</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:757</div></div>
+<div class="ttc" id="anamespaceMR_html_a86bf24d57f63afab9354505400a0e82c"><div class="ttname"><a href="namespaceMR.html#a86bf24d57f63afab9354505400a0e82c">MR::sgn</a></div><div class="ttdeci">constexpr int sgn(T x) noexcept</div><div class="ttdoc">sign of given value in { -1, 0, 1 }</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:758</div></div>
 <div class="ttc" id="anamespaceMR_html_a90bd3627b4b9ad81f7519392eb4fdc56"><div class="ttname"><a href="namespaceMR.html#a90bd3627b4b9ad81f7519392eb4fdc56">MR::gradientInTri</a></div><div class="ttdeci">std::optional&lt; Vector3&lt; T &gt; &gt; gradientInTri(const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, T vb, T vc)</div><div class="ttdef"><b>Definition</b> MRTriMath.h:368</div></div>
 <div class="ttc" id="anamespaceMR_html_a9d52e943714d673d29e28fcb67d1e72d"><div class="ttname"><a href="namespaceMR.html#a9d52e943714d673d29e28fcb67d1e72d">MR::tangentPlaneToSpheres</a></div><div class="ttdeci">std::optional&lt; Plane3&lt; T &gt; &gt; tangentPlaneToSpheres(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, T ra, T rb, T rc)</div><div class="ttdef"><b>Definition</b> MRTriMath.h:439</div></div>
 <div class="ttc" id="anamespaceMR_html_ab24719c8c1f71e117f3096280104749c"><div class="ttname"><a href="namespaceMR.html#ab24719c8c1f71e117f3096280104749c">MR::circumcircleDiameterSq</a></div><div class="ttdeci">MRMESH_API float circumcircleDiameterSq(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceId f)</div><div class="ttdoc">returns squared circumcircle diameter of given mesh triangle</div></div>
@@ -623,10 +624,10 @@ $(function(){initNavTree('MRTriMath_8h_source.html',''); initResizable(true); })
 <div class="ttc" id="anamespaceMR_html_af848b7a93acc5e03bfea1f8bcc3ffdb7"><div class="ttname"><a href="namespaceMR.html#af848b7a93acc5e03bfea1f8bcc3ffdb7">MR::dblAreaSq</a></div><div class="ttdeci">T dblAreaSq(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;q, const Vector3&lt; T &gt; &amp;r)</div><div class="ttdoc">computes the square of double area of given triangle</div><div class="ttdef"><b>Definition</b> MRTriMath.h:162</div></div>
 <div class="ttc" id="anamespaceMR_html_afb5e341e476649b321cdb9f27e72c6d1"><div class="ttname"><a href="namespaceMR.html#afb5e341e476649b321cdb9f27e72c6d1">MR::dihedralAngleSin</a></div><div class="ttdeci">MRMESH_API float dihedralAngleSin(const MeshTopology &amp;topology, const VertCoords &amp;points, UndirectedEdgeId e)</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html"><div class="ttname"><a href="structMR_1_1Plane3.html">MR::Plane3</a></div><div class="ttdef"><b>Definition</b> MRPlane3.h:17</div></div>
-<div class="ttc" id="astructMR_1_1Vector2_html"><div class="ttname"><a href="structMR_1_1Vector2.html">MR::Vector2</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:27</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:28</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_abcd3a5ac10c0bd8323d2f67d4d63c474"><div class="ttname"><a href="structMR_1_1Vector3.html#abcd3a5ac10c0bd8323d2f67d4d63c474">MR::Vector3::normalized</a></div><div class="ttdeci">Vector3 normalized() const MR_REQUIRES_IF_SUPPORTED(std</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:68</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_aedb5f8de6324a8ee5e71243c4b67104c"><div class="ttname"><a href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">MR::Vector3::lengthSq</a></div><div class="ttdeci">T lengthSq() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:59</div></div>
+<div class="ttc" id="astructMR_1_1Vector2_html"><div class="ttname"><a href="structMR_1_1Vector2.html">MR::Vector2</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:28</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:29</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_abcd3a5ac10c0bd8323d2f67d4d63c474"><div class="ttname"><a href="structMR_1_1Vector3.html#abcd3a5ac10c0bd8323d2f67d4d63c474">MR::Vector3::normalized</a></div><div class="ttdeci">Vector3 normalized() const MR_REQUIRES_IF_SUPPORTED(std</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:73</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_aedb5f8de6324a8ee5e71243c4b67104c"><div class="ttname"><a href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">MR::Vector3::lengthSq</a></div><div class="ttdeci">T lengthSq() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:64</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

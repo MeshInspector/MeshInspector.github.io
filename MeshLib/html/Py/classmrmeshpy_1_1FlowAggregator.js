@@ -2,6 +2,7 @@ var classmrmeshpy_1_1FlowAggregator =
 [
     [ "Flows", "classmrmeshpy_1_1FlowAggregator_1_1Flows.html", "classmrmeshpy_1_1FlowAggregator_1_1Flows" ],
     [ "__init__", "classmrmeshpy_1_1FlowAggregator.html#ab021f0edced20e493266e08c11c886e9", null ],
+    [ "__init__", "classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a", null ],
     [ "computeCatchmentDelineation", "classmrmeshpy_1_1FlowAggregator.html#a85139beb870cc0e93eb54c47ad83bb86", null ],
     [ "computeFlow", "classmrmeshpy_1_1FlowAggregator.html#a435073f6ea9ad1147e0935ef6c2c8529", null ],
     [ "computeFlow", "classmrmeshpy_1_1FlowAggregator.html#a5c7e3cde36b9f3a158b5856523663d2c", null ],

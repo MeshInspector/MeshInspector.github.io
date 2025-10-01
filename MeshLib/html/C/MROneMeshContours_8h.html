@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MROneMeshContours_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -158,7 +157,6 @@ $(function(){initNavTree('MROneMeshContours_8h.html',''); initResizable(true); }
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MROneMeshContours_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -188,8 +186,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a071da9f0f67109f51758510529ba0b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a522de6a5545bd96ceeb9db3fe5eb9694" id="r_a522de6a5545bd96ceeb9db3fe5eb9694"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a522de6a5545bd96ceeb9db3fe5eb9694">MR_std_vector_MR_OneMeshIntersection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a522de6a5545bd96ceeb9db3fe5eb9694">MR_std_vector_MR_OneMeshIntersection</a></td></tr>
 <tr class="separator:a522de6a5545bd96ceeb9db3fe5eb9694"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f10f6b559b293d87a6320a3b17ccc6" id="r_af3f10f6b559b293d87a6320a3b17ccc6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td></tr>
-<tr class="separator:af3f10f6b559b293d87a6320a3b17ccc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39843253e49249719b6defbb7948aa79" id="r_a39843253e49249719b6defbb7948aa79"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a></td></tr>
+<tr class="separator:a39843253e49249719b6defbb7948aa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eda717f5871eea7d095bcf2f34a7a98" id="r_a9eda717f5871eea7d095bcf2f34a7a98"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a></td></tr>
 <tr class="separator:a9eda717f5871eea7d095bcf2f34a7a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab48ef760c2671fd11ca83216d1b17ff8" id="r_ab48ef760c2671fd11ca83216d1b17ff8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#ab48ef760c2671fd11ca83216d1b17ff8">MR_std_vector_std_vector_MR_VarEdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab48ef760c2671fd11ca83216d1b17ff8">MR_std_vector_std_vector_MR_VarEdgeTri</a></td></tr>
@@ -336,18 +334,18 @@ Functions</h2></td></tr>
 <tr class="separator:a43d1bff96be91f4799cd332e52bf7ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26ce981b84575b8724e0b07abfaca21d" id="r_a26ce981b84575b8724e0b07abfaca21d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ce981b84575b8724e0b07abfaca21d">MR_SearchPathSettings_GetMutable_geodesicPathApprox</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this)</td></tr>
 <tr class="separator:a26ce981b84575b8724e0b07abfaca21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026a830d1aca8e1f5ab4158b7b45db9b" id="r_a026a830d1aca8e1f5ab4158b7b45db9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a026a830d1aca8e1f5ab4158b7b45db9b">MR_SearchPathSettings_Get_maxReduceIters</a> (const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this)</td></tr>
-<tr class="separator:a026a830d1aca8e1f5ab4158b7b45db9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb833f2dcf34ac7c7f11b1565c432663" id="r_afb833f2dcf34ac7c7f11b1565c432663"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb833f2dcf34ac7c7f11b1565c432663">MR_SearchPathSettings_Set_maxReduceIters</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:afb833f2dcf34ac7c7f11b1565c432663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08fe96305728566fb38b20bfde030571" id="r_a08fe96305728566fb38b20bfde030571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08fe96305728566fb38b20bfde030571">MR_SearchPathSettings_GetMutable_maxReduceIters</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this)</td></tr>
-<tr class="separator:a08fe96305728566fb38b20bfde030571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adabb5139bcd4bb5d262d273de4ec8922" id="r_adabb5139bcd4bb5d262d273de4ec8922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adabb5139bcd4bb5d262d273de4ec8922">MR_SearchPathSettings_Get_maxReduceIters</a> (const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this)</td></tr>
+<tr class="separator:adabb5139bcd4bb5d262d273de4ec8922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ae4971194ee07f41adf7024a333f70" id="r_a92ae4971194ee07f41adf7024a333f70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92ae4971194ee07f41adf7024a333f70">MR_SearchPathSettings_Set_maxReduceIters</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a92ae4971194ee07f41adf7024a333f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08de2c5300281c0589fb5795c0455ac4" id="r_a08de2c5300281c0589fb5795c0455ac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08de2c5300281c0589fb5795c0455ac4">MR_SearchPathSettings_GetMutable_maxReduceIters</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this)</td></tr>
+<tr class="separator:a08de2c5300281c0589fb5795c0455ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b52bb2f6f217568c5e3c488846b4d5" id="r_ac4b52bb2f6f217568c5e3c488846b4d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4b52bb2f6f217568c5e3c488846b4d5">MR_SearchPathSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ac4b52bb2f6f217568c5e3c488846b4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfa342aecf4a5db8d4de09a5bcacb3ed" id="r_adfa342aecf4a5db8d4de09a5bcacb3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfa342aecf4a5db8d4de09a5bcacb3ed">MR_SearchPathSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:adfa342aecf4a5db8d4de09a5bcacb3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5213a9807eb7e59a16533d11fc89b0b4" id="r_a5213a9807eb7e59a16533d11fc89b0b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5213a9807eb7e59a16533d11fc89b0b4">MR_SearchPathSettings_ConstructFrom</a> (<a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> geodesicPathApprox, int32_t maxReduceIters)</td></tr>
-<tr class="separator:a5213a9807eb7e59a16533d11fc89b0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566248147736eef8fc00bb3a3ecfc47f" id="r_a566248147736eef8fc00bb3a3ecfc47f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a566248147736eef8fc00bb3a3ecfc47f">MR_SearchPathSettings_ConstructFrom</a> (<a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> geodesicPathApprox, int maxReduceIters)</td></tr>
+<tr class="separator:a566248147736eef8fc00bb3a3ecfc47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc763c7275a6c49be287fa977c6c4676" id="r_afc763c7275a6c49be287fa977c6c4676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc763c7275a6c49be287fa977c6c4676">MR_SearchPathSettings_OffsetPtr</a> (const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:afc763c7275a6c49be287fa977c6c4676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:afc763c7275a6c49be287fa977c6c4676"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,12 +362,12 @@ Functions</h2></td></tr>
 <tr class="separator:a55d073762b3fd4d13b33b4ad738ea59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbc879fc92e83352debb2b11527c09a5" id="r_afbc879fc92e83352debb2b11527c09a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc879fc92e83352debb2b11527c09a5">MR_SearchPathSettings_AssignFromAnother</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_other)</td></tr>
 <tr class="separator:afbc879fc92e83352debb2b11527c09a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3470e47b7f25ebe54913f2f2c7505fcb" id="r_a3470e47b7f25ebe54913f2f2c7505fcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3470e47b7f25ebe54913f2f2c7505fcb">MR_convertMeshTriPointsToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *pivotIndices)</td></tr>
-<tr class="memdesc:a3470e47b7f25ebe54913f2f2c7505fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
-<tr class="separator:a3470e47b7f25ebe54913f2f2c7505fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4802eb3d37a174a571e921ffe36d0bd6" id="r_a4802eb3d37a174a571e921ffe36d0bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4802eb3d37a174a571e921ffe36d0bd6">MR_convertMeshTriPointsToClosedContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *pivotIndices)</td></tr>
-<tr class="memdesc:a4802eb3d37a174a571e921ffe36d0bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
-<tr class="separator:a4802eb3d37a174a571e921ffe36d0bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae135424c5fba4937d523b2c9565c66d4" id="r_ae135424c5fba4937d523b2c9565c66d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae135424c5fba4937d523b2c9565c66d4">MR_convertMeshTriPointsToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *pivotIndices)</td></tr>
+<tr class="memdesc:ae135424c5fba4937d523b2c9565c66d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="separator:ae135424c5fba4937d523b2c9565c66d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec6ba672ad55203411326447ed295c0" id="r_abec6ba672ad55203411326447ed295c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec6ba672ad55203411326447ed295c0">MR_convertMeshTriPointsToClosedContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *pivotIndices)</td></tr>
+<tr class="memdesc:abec6ba672ad55203411326447ed295c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
+<tr class="separator:abec6ba672ad55203411326447ed295c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6393120aff1c0d0d512e1e531b03c8c9" id="r_a6393120aff1c0d0d512e1e531b03c8c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf48f2f428c5411d09902dcb7f6e7135">MR_OneMeshContour</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6393120aff1c0d0d512e1e531b03c8c9">MR_convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
 <tr class="memdesc:a6393120aff1c0d0d512e1e531b03c8c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours.  <br /></td></tr>
 <tr class="separator:a6393120aff1c0d0d512e1e531b03c8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -553,14 +551,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af3f10f6b559b293d87a6320a3b17ccc6" name="af3f10f6b559b293d87a6320a3b17ccc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f10f6b559b293d87a6320a3b17ccc6">&#9670;&#160;</a></span>MR_std_vector_int32_t</h2>
+<a id="a39843253e49249719b6defbb7948aa79" name="a39843253e49249719b6defbb7948aa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39843253e49249719b6defbb7948aa79">&#9670;&#160;</a></span>MR_std_vector_int</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -666,8 +664,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4802eb3d37a174a571e921ffe36d0bd6" name="a4802eb3d37a174a571e921ffe36d0bd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4802eb3d37a174a571e921ffe36d0bd6">&#9670;&#160;</a></span>MR_convertMeshTriPointsToClosedContour()</h2>
+<a id="abec6ba672ad55203411326447ed295c0" name="abec6ba672ad55203411326447ed295c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec6ba672ad55203411326447ed295c0">&#9670;&#160;</a></span>MR_convertMeshTriPointsToClosedContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -690,7 +688,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -706,8 +704,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3470e47b7f25ebe54913f2f2c7505fcb" name="a3470e47b7f25ebe54913f2f2c7505fcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3470e47b7f25ebe54913f2f2c7505fcb">&#9670;&#160;</a></span>MR_convertMeshTriPointsToMeshContour()</h2>
+<a id="ae135424c5fba4937d523b2c9565c66d4" name="ae135424c5fba4937d523b2c9565c66d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae135424c5fba4937d523b2c9565c66d4">&#9670;&#160;</a></span>MR_convertMeshTriPointsToMeshContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -730,7 +728,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1550,8 +1548,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5213a9807eb7e59a16533d11fc89b0b4" name="a5213a9807eb7e59a16533d11fc89b0b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5213a9807eb7e59a16533d11fc89b0b4">&#9670;&#160;</a></span>MR_SearchPathSettings_ConstructFrom()</h2>
+<a id="a566248147736eef8fc00bb3a3ecfc47f" name="a566248147736eef8fc00bb3a3ecfc47f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566248147736eef8fc00bb3a3ecfc47f">&#9670;&#160;</a></span>MR_SearchPathSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1564,7 +1562,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxReduceIters</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxReduceIters</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1682,14 +1680,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a026a830d1aca8e1f5ab4158b7b45db9b" name="a026a830d1aca8e1f5ab4158b7b45db9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a026a830d1aca8e1f5ab4158b7b45db9b">&#9670;&#160;</a></span>MR_SearchPathSettings_Get_maxReduceIters()</h2>
+<a id="adabb5139bcd4bb5d262d273de4ec8922" name="adabb5139bcd4bb5d262d273de4ec8922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adabb5139bcd4bb5d262d273de4ec8922">&#9670;&#160;</a></span>MR_SearchPathSettings_Get_maxReduceIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_SearchPathSettings_Get_maxReduceIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_SearchPathSettings_Get_maxReduceIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1718,14 +1716,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a08fe96305728566fb38b20bfde030571" name="a08fe96305728566fb38b20bfde030571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08fe96305728566fb38b20bfde030571">&#9670;&#160;</a></span>MR_SearchPathSettings_GetMutable_maxReduceIters()</h2>
+<a id="a08de2c5300281c0589fb5795c0455ac4" name="a08de2c5300281c0589fb5795c0455ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08de2c5300281c0589fb5795c0455ac4">&#9670;&#160;</a></span>MR_SearchPathSettings_GetMutable_maxReduceIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_SearchPathSettings_GetMutable_maxReduceIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_SearchPathSettings_GetMutable_maxReduceIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1803,8 +1801,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afb833f2dcf34ac7c7f11b1565c432663" name="afb833f2dcf34ac7c7f11b1565c432663"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb833f2dcf34ac7c7f11b1565c432663">&#9670;&#160;</a></span>MR_SearchPathSettings_Set_maxReduceIters()</h2>
+<a id="a92ae4971194ee07f41adf7024a333f70" name="a92ae4971194ee07f41adf7024a333f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92ae4971194ee07f41adf7024a333f70">&#9670;&#160;</a></span>MR_SearchPathSettings_Set_maxReduceIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1817,7 +1815,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

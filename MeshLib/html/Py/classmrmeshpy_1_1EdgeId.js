@@ -5,6 +5,7 @@ var classmrmeshpy_1_1EdgeId =
     [ "__init__", "classmrmeshpy_1_1EdgeId.html#a485049720234b56a5de136c049116cf8", null ],
     [ "__init__", "classmrmeshpy_1_1EdgeId.html#a485049720234b56a5de136c049116cf8", null ],
     [ "__init__", "classmrmeshpy_1_1EdgeId.html#a485049720234b56a5de136c049116cf8", null ],
+    [ "__init__", "classmrmeshpy_1_1EdgeId.html#a3780e698f9dc136813dd0e2ccac14cc4", null ],
     [ "__add__", "classmrmeshpy_1_1EdgeId.html#a3c97305dd757c69ea42c32fa1bf479b6", null ],
     [ "__add__", "classmrmeshpy_1_1EdgeId.html#a3c97305dd757c69ea42c32fa1bf479b6", null ],
     [ "__add__", "classmrmeshpy_1_1EdgeId.html#a3c97305dd757c69ea42c32fa1bf479b6", null ],

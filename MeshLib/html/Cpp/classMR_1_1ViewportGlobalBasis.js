@@ -1,0 +1,21 @@
+var classMR_1_1ViewportGlobalBasis =
+[
+    [ "ViewportGlobalBasis", "classMR_1_1ViewportGlobalBasis.html#ad5198f7e31e7fb3b38c2eafa34f46b58", null ],
+    [ "axesChildren", "classMR_1_1ViewportGlobalBasis.html#a0140bc479277971c9a74e3e593e46b7b", null ],
+    [ "draw", "classMR_1_1ViewportGlobalBasis.html#aa325da7b15c71b8d867ac78ea2d512c5", null ],
+    [ "getAxesLength", "classMR_1_1ViewportGlobalBasis.html#a012d99e5cb1934ed13aacf0f817cdc47", null ],
+    [ "getAxesWidth", "classMR_1_1ViewportGlobalBasis.html#a8540b2156a68f3e965fa3a7d51e704fd", null ],
+    [ "getGridVisibilityMask", "classMR_1_1ViewportGlobalBasis.html#a9efec4f573b2e17be72ad7f6ea9c2cd9", null ],
+    [ "getRedrawFlag", "classMR_1_1ViewportGlobalBasis.html#adf12d6fa6b9ede282e79114ae3acf9ee", null ],
+    [ "getVisibilityMask", "classMR_1_1ViewportGlobalBasis.html#ad6ddedef8f36c08dc5dc9cd7ccd008cf", null ],
+    [ "isGridVisible", "classMR_1_1ViewportGlobalBasis.html#a9c1b6f23bb29b917c74a3b9010d96122", null ],
+    [ "isVisible", "classMR_1_1ViewportGlobalBasis.html#a50928a929ec603bfd12c73f36b3ce840", null ],
+    [ "resetConnections", "classMR_1_1ViewportGlobalBasis.html#ab35195663b7a52e332795bb058fdf6fc", null ],
+    [ "resetRedrawFlag", "classMR_1_1ViewportGlobalBasis.html#a3b01edb8a3a01ffa828ed5037b9bdd97", null ],
+    [ "setAxesProps", "classMR_1_1ViewportGlobalBasis.html#a723a077281d985e67b4601e9028f1b70", null ],
+    [ "setColors", "classMR_1_1ViewportGlobalBasis.html#a12801d2dd751246f5c16ee22920506b4", null ],
+    [ "setGridVisibilityMask", "classMR_1_1ViewportGlobalBasis.html#a6d953b83abd97c1e1b992cc9e70196e4", null ],
+    [ "setGridVisible", "classMR_1_1ViewportGlobalBasis.html#a39820f93544132d70dd40721d02f71ee", null ],
+    [ "setVisibilityMask", "classMR_1_1ViewportGlobalBasis.html#a74384187a70927d9045f6519af7eb426", null ],
+    [ "setVisible", "classMR_1_1ViewportGlobalBasis.html#ae86e6c17c2312646c28ccc581fe97280", null ]
+];

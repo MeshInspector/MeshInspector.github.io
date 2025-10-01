@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRAxis_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -151,30 +150,29 @@ $(function(){initNavTree('MRAxis_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MRAxis_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">   10</a></span><span class="keyword">typedef</span> int32_t <a class="code hl_typedef" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">enum</span> <span class="comment">// MR_Axis</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a48b64a30f5b2d82a510f6a6682ee94cd">   13</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a48b64a30f5b2d82a510f6a6682ee94cd">MR_Axis_X</a> = 0,</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a8316fc34559001b9f9a947eb6f9e3b79">   14</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a8316fc34559001b9f9a947eb6f9e3b79">MR_Axis_Y</a> = 1,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a1d9ed7b74dee0042d24ec206576e4a9f">   15</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a1d9ed7b74dee0042d24ec206576e4a9f">MR_Axis_Z</a> = 2,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a5ea4ae26446dbe373b126bfefc69f9e1">   16</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a5ea4ae26446dbe373b126bfefc69f9e1">MR_Axis_Count</a> = 3,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aMRAxis_8h_html_a99fb83031ce9923c84392b4e92f956b5a1d9ed7b74dee0042d24ec206576e4a9f"><div class="ttname"><a href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a1d9ed7b74dee0042d24ec206576e4a9f">MR_Axis_Z</a></div><div class="ttdeci">@ MR_Axis_Z</div><div class="ttdef"><b>Definition</b> MRAxis.h:15</div></div>
-<div class="ttc" id="aMRAxis_8h_html_a99fb83031ce9923c84392b4e92f956b5a48b64a30f5b2d82a510f6a6682ee94cd"><div class="ttname"><a href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a48b64a30f5b2d82a510f6a6682ee94cd">MR_Axis_X</a></div><div class="ttdeci">@ MR_Axis_X</div><div class="ttdef"><b>Definition</b> MRAxis.h:13</div></div>
-<div class="ttc" id="aMRAxis_8h_html_a99fb83031ce9923c84392b4e92f956b5a5ea4ae26446dbe373b126bfefc69f9e1"><div class="ttname"><a href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a5ea4ae26446dbe373b126bfefc69f9e1">MR_Axis_Count</a></div><div class="ttdeci">@ MR_Axis_Count</div><div class="ttdef"><b>Definition</b> MRAxis.h:16</div></div>
-<div class="ttc" id="aMRAxis_8h_html_a99fb83031ce9923c84392b4e92f956b5a8316fc34559001b9f9a947eb6f9e3b79"><div class="ttname"><a href="MRAxis_8h.html#a99fb83031ce9923c84392b4e92f956b5a8316fc34559001b9f9a947eb6f9e3b79">MR_Axis_Y</a></div><div class="ttdeci">@ MR_Axis_Y</div><div class="ttdef"><b>Definition</b> MRAxis.h:14</div></div>
-<div class="ttc" id="aMRAxis_8h_html_aa4a8cddcee7fcf66ed48e721be66c4e5"><div class="ttname"><a href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a></div><div class="ttdeci">int32_t MR_Axis</div><div class="ttdef"><b>Definition</b> MRAxis.h:10</div></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">    8</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code hl_enumeration" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa48b64a30f5b2d82a510f6a6682ee94cd">   10</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa48b64a30f5b2d82a510f6a6682ee94cd">MR_Axis_X</a> = 0,</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa8316fc34559001b9f9a947eb6f9e3b79">   11</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa8316fc34559001b9f9a947eb6f9e3b79">MR_Axis_Y</a> = 1,</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa1d9ed7b74dee0042d24ec206576e4a9f">   12</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa1d9ed7b74dee0042d24ec206576e4a9f">MR_Axis_Z</a> = 2,</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa5ea4ae26446dbe373b126bfefc69f9e1">   13</a></span>    <a class="code hl_enumvalue" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa5ea4ae26446dbe373b126bfefc69f9e1">MR_Axis_Count</a> = 3,</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRAxis_8h.html#a2722bfe3f28994b48a6a4d0a8dcecf74">   14</a></span>} <a class="code hl_enumeration" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a>;</div>
+</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAxis_8h_html_ac801dec7b03f6d32750b77048039a3cf"><div class="ttname"><a href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a></div><div class="ttdeci">MR_Axis</div><div class="ttdef"><b>Definition</b> MRAxis.h:9</div></div>
+<div class="ttc" id="aMRAxis_8h_html_ac801dec7b03f6d32750b77048039a3cfa1d9ed7b74dee0042d24ec206576e4a9f"><div class="ttname"><a href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa1d9ed7b74dee0042d24ec206576e4a9f">MR_Axis_Z</a></div><div class="ttdeci">@ MR_Axis_Z</div><div class="ttdef"><b>Definition</b> MRAxis.h:12</div></div>
+<div class="ttc" id="aMRAxis_8h_html_ac801dec7b03f6d32750b77048039a3cfa48b64a30f5b2d82a510f6a6682ee94cd"><div class="ttname"><a href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa48b64a30f5b2d82a510f6a6682ee94cd">MR_Axis_X</a></div><div class="ttdeci">@ MR_Axis_X</div><div class="ttdef"><b>Definition</b> MRAxis.h:10</div></div>
+<div class="ttc" id="aMRAxis_8h_html_ac801dec7b03f6d32750b77048039a3cfa5ea4ae26446dbe373b126bfefc69f9e1"><div class="ttname"><a href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa5ea4ae26446dbe373b126bfefc69f9e1">MR_Axis_Count</a></div><div class="ttdeci">@ MR_Axis_Count</div><div class="ttdef"><b>Definition</b> MRAxis.h:13</div></div>
+<div class="ttc" id="aMRAxis_8h_html_ac801dec7b03f6d32750b77048039a3cfa8316fc34559001b9f9a947eb6f9e3b79"><div class="ttname"><a href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cfa8316fc34559001b9f9a947eb6f9e3b79">MR_Axis_Y</a></div><div class="ttdeci">@ MR_Axis_Y</div><div class="ttdef"><b>Definition</b> MRAxis.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

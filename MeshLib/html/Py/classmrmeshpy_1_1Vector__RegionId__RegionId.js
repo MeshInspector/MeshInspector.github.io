@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__RegionId__RegionId =
     [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#aa33588db34b48ed5cc90cadfc263eb4d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a2a01b06e6867b854f537c71e1ab6c884", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a60b04eba7c07b10b5ff5401388a8f5ba", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#af774f255f6c1ca34fb48e5744c0177e6", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a7a90d6871f2570d1ac844aa409337881", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a95b72439bcb80e154b53c74e12e17421", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a95b72439bcb80e154b53c74e12e17421", null ],

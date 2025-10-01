@@ -1,5 +1,6 @@
 var structMR_1_1UI_1_1SeparatorParams =
 [
+    [ "extraScale", "structMR_1_1UI_1_1SeparatorParams.html#ab945af46c214f477d623971dd83880f9", null ],
     [ "forceImGuiSpacing", "structMR_1_1UI_1_1SeparatorParams.html#a9b20fca071888883ff3bf93187e13e24", null ],
     [ "icon", "structMR_1_1UI_1_1SeparatorParams.html#a56193ffd27a298bf344d8ca87e0a41e0", null ],
     [ "iconSize", "structMR_1_1UI_1_1SeparatorParams.html#a9566bcbe86e1d94a70ecba64961edb29", null ],

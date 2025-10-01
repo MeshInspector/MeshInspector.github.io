@@ -74,9 +74,9 @@ var MRMeshRelax_8h =
     [ "MR_relaxApprox_4", "MRMeshRelax_8h.html#a822e40cb631af953d8a354832ebe046c", null ],
     [ "MR_relaxKeepVolume_3_MR_Mesh", "MRMeshRelax_8h.html#a4f2f83618127cc7b70a4239177b828b1", null ],
     [ "MR_relaxKeepVolume_4", "MRMeshRelax_8h.html#a9ad472c26700843c6b825e2391437e8f", null ],
-    [ "MR_removeSpikes_4", "MRMeshRelax_8h.html#a95614f42d7bb9efe56a4d810b412e1fd", null ],
-    [ "MR_removeSpikes_5", "MRMeshRelax_8h.html#ad55464653566ed7389071738ad5d21c5", null ],
-    [ "MR_smoothRegionBoundary", "MRMeshRelax_8h.html#abcd02e5fd1ad781ca6dc0fb18068ac4e", null ],
+    [ "MR_removeSpikes_4", "MRMeshRelax_8h.html#af54d55dfbea91ca0b255d7a6d6696fa2", null ],
+    [ "MR_removeSpikes_5", "MRMeshRelax_8h.html#aaff0c6ae098ffa3cc02c58ee6e697c0d", null ],
+    [ "MR_smoothRegionBoundary", "MRMeshRelax_8h.html#aa016473e02fca0465e1e7816c9f7355c", null ],
     [ "MR_vertexPosEqualNeiAreas_3", "MRMeshRelax_8h.html#a55d78f4ddc69242a1f36051662c14d8f", null ],
     [ "MR_vertexPosEqualNeiAreas_4", "MRMeshRelax_8h.html#a35fe524c7cba39df29e3abfcc4726008", null ]
 ];

@@ -2,11 +2,15 @@ var MRFaceDistance_8h =
 [
     [ "MR_FaceBitSet", "MRFaceDistance_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FaceDistancesSettings", "MRFaceDistance_8h.html#a4f2d81b22e9a50d4af1fdc885f6f73a0", null ],
-    [ "MR_FaceDistancesSettings_OutputFaceValues", "MRFaceDistance_8h.html#ad6e0a78d8d1b6be01bf8ba2a4f8793e8", null ],
+    [ "MR_FaceDistancesSettings_OutputFaceValues", "MRFaceDistance_8h.html#a418b0a8654c8638bc43f1f6e2fdf6e09", null ],
     [ "MR_MeshTopology", "MRFaceDistance_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_std_function_bool_from_float", "MRFaceDistance_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_float_from_MR_EdgeId", "MRFaceDistance_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687", null ],
     [ "MR_std_optional_MR_FaceScalars", "MRFaceDistance_8h.html#a45641955fe3e90aadab23fd5fb5b31f8", null ],
+    [ "MR_FaceDistancesSettings_OutputFaceValues", "MRFaceDistance_8h.html#a5a7fecdc02b7624d1b1517fbbe867769", [
+      [ "MR_FaceDistancesSettings_OutputFaceValues_Distances", "MRFaceDistance_8h.html#a5a7fecdc02b7624d1b1517fbbe867769a518d02885b3c26b314758ca9f0ba77fc", null ],
+      [ "MR_FaceDistancesSettings_OutputFaceValues_SeqOrder", "MRFaceDistance_8h.html#a5a7fecdc02b7624d1b1517fbbe867769a345088dad23195471a558f80a6a02903", null ]
+    ] ],
     [ "MR_calcFaceDistances", "MRFaceDistance_8h.html#a4473db34fe81daa1d0c63e731d97231d", null ],
     [ "MR_FaceDistancesSettings_AssignFromAnother", "MRFaceDistance_8h.html#a0ca06fbda274cd6d519c4abb05952cfc", null ],
     [ "MR_FaceDistancesSettings_ConstructFrom", "MRFaceDistance_8h.html#af34162b252f6d83fc4fe7c01d7a52cf4", null ],

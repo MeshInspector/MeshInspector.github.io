@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRRibbonFontManager_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -175,7 +174,7 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        BigSemiBold,</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        Headline,</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        Monospace,</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    };</div>
 </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
@@ -184,58 +183,68 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">   29</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">FontFile</a></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        Regular,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        SemiBold,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        Monospace,</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        Icons,</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    };</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        RegularSC, <span class="comment">// Regular with Simple Chinese</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        SemiBold,</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        Monospace,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        Icons,</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    };</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">   38</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> = std::array&lt;std::filesystem::path, size_t( FontFile::Count )&gt;;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#acf93e10106173992a8391b7e12038700">   40</a></span>    MRVIEWER_API <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#acf93e10106173992a8391b7e12038700">RibbonFontManager</a>();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0">   43</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0">loadAllFonts</a>( ImWchar* charRanges, <span class="keywordtype">float</span> scaling );</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">   41</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> = std::array&lt;std::filesystem::path, size_t( FontFile::Count )&gt;;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#acf93e10106173992a8391b7e12038700">   43</a></span>    MRVIEWER_API <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#acf93e10106173992a8391b7e12038700">RibbonFontManager</a>();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">   46</a></span>    MRVIEWER_API ImFont* <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">getFontByType</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a0d99ef9d5a6b87aaad1197070ab64af0">   48</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a0d99ef9d5a6b87aaad1197070ab64af0">getFontSizeByType</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type );</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">   51</a></span>    MRVIEWER_API std::filesystem::path <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">getMenuFontPath</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#aef885272e89706ec05cb6ab51b2eb47b">   46</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#aef885272e89706ec05cb6ab51b2eb47b">loadAllFonts</a>( ImWchar* charRanges );</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">   49</a></span>    MRVIEWER_API ImFont* <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">getFontByType</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a0d99ef9d5a6b87aaad1197070ab64af0">   51</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a0d99ef9d5a6b87aaad1197070ab64af0">getFontSizeByType</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#aa5736661718edce158b7b07f4beca13e">   54</a></span>    <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a>&amp; <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#aa5736661718edce158b7b07f4beca13e">getAllFontPaths</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> fontPaths_; }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">   54</a></span>    MRVIEWER_API std::filesystem::path <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">getMenuFontPath</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a7ea173f1a1a258e47371b455d842de8e">   58</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a7ea173f1a1a258e47371b455d842de8e">setNewFontPaths</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a>&amp; paths );</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a518edbd9a7eae398440e4c334020dcf5">   62</a></span>    MRVIEWER_API <span class="keyword">static</span> ImFont* <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a518edbd9a7eae398440e4c334020dcf5">getFontByTypeStatic</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type );</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">   66</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">initFontManagerInstance</a>( <a class="code hl_class" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a>* ribbonFontManager );</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> fontPaths_;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">struct </span>FontData</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    {</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">FontFile</a> fontFile{ FontFile::Regular }; <span class="comment">// what file type to use for this font</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        Vector2f scaledOffset; <span class="comment">// offset that is used for each glyph while creating atlas (updates in `updateFontsScaledOffset_`), should respect font size with scaling</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        ImFont* fontPtr{ <span class="keyword">nullptr</span> }; <span class="comment">// pointer to loaded font, nullptr means that font was not loaded</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    };</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    std::array&lt;FontData, size_t( FontType::Count )&gt; fonts_;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">static</span> RibbonFontManager*&amp; getFontManagerInstance_();</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> updateFontsScaledOffset_( <span class="keywordtype">float</span> scaling );</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> loadFont_( FontType type, <span class="keyword">const</span> ImWchar* ranges, <span class="keywordtype">float</span> scaling );</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keyword">struct </span>CustomGlyph</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    {</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        std::function&lt;void( <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* texData, <span class="keywordtype">int</span> texW )&gt; render;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    };</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> addCustomGlyphs_( FontType font, <span class="keywordtype">float</span> scaling, std::vector&lt;CustomGlyph&gt;&amp; glyphs );</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">void</span> renderCustomGlyphsToAtlas_( <span class="keyword">const</span> std::vector&lt;CustomGlyph&gt;&amp; glyphs );</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>};</div>
-</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#aa5736661718edce158b7b07f4beca13e">   57</a></span>    <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a>&amp; <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#aa5736661718edce158b7b07f4beca13e">getAllFontPaths</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> fontPaths_; }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a7ea173f1a1a258e47371b455d842de8e">   61</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a7ea173f1a1a258e47371b455d842de8e">setNewFontPaths</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a>&amp; paths );</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a518edbd9a7eae398440e4c334020dcf5">   65</a></span>    MRVIEWER_API <span class="keyword">static</span> ImFont* <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a518edbd9a7eae398440e4c334020dcf5">getFontByTypeStatic</a>( <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type );</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">   69</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">initFontManagerInstance</a>( <a class="code hl_class" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a>* ribbonFontManager );</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">RibbonFontManager::FontFile</a> cFontFileRegular_ = RibbonFontManager::FontFile::RegularSC;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">RibbonFontManager::FontFile</a> cFontFileRegular_ = RibbonFontManager::FontFile::Regular;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_typedef" href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> fontPaths_;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">struct </span>FontData</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    {</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <a class="code hl_enumeration" href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">FontFile</a> fontFile{ cFontFileRegular_ }; <span class="comment">// what file type to use for this font</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        Vector2f scaledOffset; <span class="comment">// offset that is used for each glyph while creating atlas (updates in `updateFontsScaledOffset_`), should respect font size with scaling</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        ImFont* fontPtr{ <span class="keyword">nullptr</span> }; <span class="comment">// pointer to loaded font, nullptr means that font was not loaded</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    };</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    std::array&lt;FontData, size_t( FontType::Count )&gt; fonts_;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keyword">static</span> RibbonFontManager*&amp; getFontManagerInstance_();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> updateFontsScaledOffset_();</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>}</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> loadFont_( FontType type, <span class="keyword">const</span> ImWchar* ranges );</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">struct </span>CustomGlyph</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        std::function&lt;void( <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* texData, <span class="keywordtype">int</span> texW )&gt; render;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    };</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> addCustomGlyphs_( FontType font, std::vector&lt;CustomGlyph&gt;&amp; glyphs );</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> renderCustomGlyphsToAtlas_( <span class="keyword">const</span> std::vector&lt;CustomGlyph&gt;&amp; glyphs );</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>};</div>
+</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>}</div>
 <div class="ttc" id="aMRImGui_8h_html"><div class="ttname"><a href="MRImGui_8h.html">MRImGui.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html">MR::RibbonFontManager</a></div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a0d18d71db7c19b02d1b5ad1bfe8f2aa8"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">MR::RibbonFontManager::initFontManagerInstance</a></div><div class="ttdeci">static MRVIEWER_API void initFontManagerInstance(RibbonFontManager *ribbonFontManager)</div></div>
@@ -243,15 +252,15 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a467cb9c5acd294f0d22ad2b2388f4ccb"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a467cb9c5acd294f0d22ad2b2388f4ccb">MR::RibbonFontManager::FontFile</a></div><div class="ttdeci">FontFile</div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:30</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a518edbd9a7eae398440e4c334020dcf5"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a518edbd9a7eae398440e4c334020dcf5">MR::RibbonFontManager::getFontByTypeStatic</a></div><div class="ttdeci">static MRVIEWER_API ImFont * getFontByTypeStatic(FontType type)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a7ea173f1a1a258e47371b455d842de8e"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a7ea173f1a1a258e47371b455d842de8e">MR::RibbonFontManager::setNewFontPaths</a></div><div class="ttdeci">MRVIEWER_API void setNewFontPaths(const FontFilePaths &amp;paths)</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonFontManager_html_aa5736661718edce158b7b07f4beca13e"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#aa5736661718edce158b7b07f4beca13e">MR::RibbonFontManager::getAllFontPaths</a></div><div class="ttdeci">const FontFilePaths &amp; getAllFontPaths() const</div><div class="ttdoc">returns list of all font paths</div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:54</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ab37a19ee9fe77c068e749dc7e8dfd6b2"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">MR::RibbonFontManager::FontFilePaths</a></div><div class="ttdeci">std::array&lt; std::filesystem::path, size_t(FontFile::Count)&gt; FontFilePaths</div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:38</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonFontManager_html_aa5736661718edce158b7b07f4beca13e"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#aa5736661718edce158b7b07f4beca13e">MR::RibbonFontManager::getAllFontPaths</a></div><div class="ttdeci">const FontFilePaths &amp; getAllFontPaths() const</div><div class="ttdoc">returns list of all font paths</div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:57</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ab37a19ee9fe77c068e749dc7e8dfd6b2"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ab37a19ee9fe77c068e749dc7e8dfd6b2">MR::RibbonFontManager::FontFilePaths</a></div><div class="ttdeci">std::array&lt; std::filesystem::path, size_t(FontFile::Count)&gt; FontFilePaths</div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:41</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_aba42ec493818f2de36d60f069b34cee4"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">MR::RibbonFontManager::FontType</a></div><div class="ttdeci">FontType</div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_acf93e10106173992a8391b7e12038700"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#acf93e10106173992a8391b7e12038700">MR::RibbonFontManager::RibbonFontManager</a></div><div class="ttdeci">MRVIEWER_API RibbonFontManager()</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ad3f9e2f7788079bfaece40298c022f53"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">MR::RibbonFontManager::getFontByType</a></div><div class="ttdeci">MRVIEWER_API ImFont * getFontByType(FontType type) const</div><div class="ttdoc">get font by font type</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ae09d386249e4a713206d066697fe57b0"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0">MR::RibbonFontManager::loadAllFonts</a></div><div class="ttdeci">MRVIEWER_API void loadAllFonts(ImWchar *charRanges, float scaling)</div><div class="ttdoc">load all fonts using in ribbon menu</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonFontManager_html_aef885272e89706ec05cb6ab51b2eb47b"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#aef885272e89706ec05cb6ab51b2eb47b">MR::RibbonFontManager::loadAllFonts</a></div><div class="ttdeci">MRVIEWER_API void loadAllFonts(ImWchar *charRanges)</div><div class="ttdoc">load all fonts using in ribbon menu</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_af67d4ecfff6fa832444a2a214a3f471a"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">MR::RibbonFontManager::getMenuFontPath</a></div><div class="ttdeci">MRVIEWER_API std::filesystem::path getMenuFontPath() const</div><div class="ttdoc">get ribbon menu font path</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
+<div class="ttc" id="anamespaceMR_html_a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9">MR::PdfBuildinFont::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="anamespaceMR_html_aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">MR::DepthFunction::Default</a></div><div class="ttdeci">@ Default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

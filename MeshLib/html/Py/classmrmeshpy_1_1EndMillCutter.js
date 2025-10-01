@@ -2,6 +2,7 @@ var classmrmeshpy_1_1EndMillCutter =
 [
     [ "Type", "classmrmeshpy_1_1EndMillCutter_1_1Type.html", "classmrmeshpy_1_1EndMillCutter_1_1Type" ],
     [ "__init__", "classmrmeshpy_1_1EndMillCutter.html#a59c1bcf73c7ad14dd7c48687a5dc2b89", null ],
+    [ "__init__", "classmrmeshpy_1_1EndMillCutter.html#aa29101fbe251f1b7208a7537360c9a72", null ],
     [ "__init__", "classmrmeshpy_1_1EndMillCutter.html#a6f7aff8f67776e7c4f97b6af1a9f75bb", null ],
     [ "cornerRadius", "classmrmeshpy_1_1EndMillCutter.html#a48b319af41ef750266e8bb0858196d8c", null ],
     [ "cornerRadius", "classmrmeshpy_1_1EndMillCutter.html#a9bf568ce5a53554395523826e50ea217", null ],

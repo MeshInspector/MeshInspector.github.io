@@ -1,5 +1,7 @@
 var common_8h =
 [
+    [ "MRC_DEPRECATED", "common_8h.html#a6cc2b78a67b0b3773417b073b9b28af7", null ],
+    [ "MRC_DEPRECATED_REASON", "common_8h.html#a8c3610f371eccf54a150a4e60a5f5878", null ],
     [ "MR_int64_t", "common_8h.html#a54b381d2daa23833ed35cb97e4948ea0", null ],
     [ "MR_PassBy", "common_8h.html#a838e29a25f92d25810fa95aa10c742ea", null ],
     [ "MR_uint64_t", "common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49", null ],

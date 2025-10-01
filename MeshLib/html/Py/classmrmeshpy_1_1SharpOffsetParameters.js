@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1SharpOffsetParameters =
 [
     [ "__init__", "classmrmeshpy_1_1SharpOffsetParameters.html#ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf", null ],
+    [ "__init__", "classmrmeshpy_1_1SharpOffsetParameters.html#a6ff456cc409af7ba7d0dc20512e5e756", null ],
     [ "maxNewRank2VertDev", "classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3", null ],
     [ "maxNewRank2VertDev", "classmrmeshpy_1_1SharpOffsetParameters.html#a9ef2287c3724c74ca0a36fbcf8ca5fe8", null ],
     [ "maxNewRank3VertDev", "classmrmeshpy_1_1SharpOffsetParameters.html#a88fc1dbbb167b4d3fd8495dfcec8272c", null ],

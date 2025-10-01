@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRRenderModelParameters_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -155,62 +154,62 @@ $(function(){initNavTree('MRRenderModelParameters_8h.html',''); initResizable(tr
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRRenderModelParameters_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0bea41c569f1e921b13d205586d60b5b" id="r_a0bea41c569f1e921b13d205586d60b5b"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td></tr>
-<tr class="memdesc:a0bea41c569f1e921b13d205586d60b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <br /></td></tr>
-<tr class="separator:a0bea41c569f1e921b13d205586d60b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa877928cec2ad4499904dfd36eae46e7" id="r_aa877928cec2ad4499904dfd36eae46e7"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa877928cec2ad4499904dfd36eae46e7">MR_RenderModelPassMask</a></td></tr>
+<tr class="memdesc:aa877928cec2ad4499904dfd36eae46e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <br /></td></tr>
+<tr class="separator:aa877928cec2ad4499904dfd36eae46e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af8654c714018c6241d9ebd01f3fb5a26" id="r_af8654c714018c6241d9ebd01f3fb5a26"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#af8654c714018c6241d9ebd01f3fb5a26a49d680abcf3d3f77cda429406e9f23e3">MR_RenderModelPassMask_Opaque</a> = 1
-, <a class="el" href="#af8654c714018c6241d9ebd01f3fb5a26a49774edc7f73482e346a007fc0610461">MR_RenderModelPassMask_Transparent</a> = 2
-, <a class="el" href="#af8654c714018c6241d9ebd01f3fb5a26a17dbd1321090d68aac76a3ae1e7cd77e">MR_RenderModelPassMask_VolumeRendering</a> = 4
-, <a class="el" href="#af8654c714018c6241d9ebd01f3fb5a26a2bbf91f624974a12f24b71af4406bd9a">MR_RenderModelPassMask_NoDepthTest</a> = 8
+<tr class="memitem:aa2b7e22402322d93271548d06907cc62" id="r_aa2b7e22402322d93271548d06907cc62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> { <br />
+&#160;&#160;<a class="el" href="#aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3">MR_RenderModelPassMask_Opaque</a> = 1
+, <a class="el" href="#aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461">MR_RenderModelPassMask_Transparent</a> = 2
+, <a class="el" href="#aa2b7e22402322d93271548d06907cc62a17dbd1321090d68aac76a3ae1e7cd77e">MR_RenderModelPassMask_VolumeRendering</a> = 4
+, <a class="el" href="#aa2b7e22402322d93271548d06907cc62a2bbf91f624974a12f24b71af4406bd9a">MR_RenderModelPassMask_NoDepthTest</a> = 8
 , <br />
-&#160;&#160;<a class="el" href="#af8654c714018c6241d9ebd01f3fb5a26a506abec0ac0ce35a4415d0143d4bc79a">MR_RenderModelPassMask_All</a> = 15
+&#160;&#160;<a class="el" href="#aa2b7e22402322d93271548d06907cc62a506abec0ac0ce35a4415d0143d4bc79a">MR_RenderModelPassMask_All</a> = 15
 <br />
  }</td></tr>
-<tr class="separator:af8654c714018c6241d9ebd01f3fb5a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aa2b7e22402322d93271548d06907cc62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <a href="#aa2b7e22402322d93271548d06907cc62">More...</a><br /></td></tr>
+<tr class="separator:aa2b7e22402322d93271548d06907cc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aadccf70f451917d5d9e3d6e3de9176b4" id="r_aadccf70f451917d5d9e3d6e3de9176b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadccf70f451917d5d9e3d6e3de9176b4">MR_bitand_MR_RenderModelPassMask</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> a, <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> b)</td></tr>
+<tr class="memitem:aadccf70f451917d5d9e3d6e3de9176b4" id="r_aadccf70f451917d5d9e3d6e3de9176b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadccf70f451917d5d9e3d6e3de9176b4">MR_bitand_MR_RenderModelPassMask</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> a, <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> b)</td></tr>
 <tr class="memdesc:aadccf70f451917d5d9e3d6e3de9176b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR::operator&amp;</code>.  <br /></td></tr>
 <tr class="separator:aadccf70f451917d5d9e3d6e3de9176b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae21128369328074801f7c886f954a880" id="r_ae21128369328074801f7c886f954a880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21128369328074801f7c886f954a880">MR_bitor_MR_RenderModelPassMask</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> a, <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> b)</td></tr>
+<tr class="memitem:ae21128369328074801f7c886f954a880" id="r_ae21128369328074801f7c886f954a880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21128369328074801f7c886f954a880">MR_bitor_MR_RenderModelPassMask</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> a, <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> b)</td></tr>
 <tr class="memdesc:ae21128369328074801f7c886f954a880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">MR::operator|</a></code>.  <br /></td></tr>
 <tr class="separator:ae21128369328074801f7c886f954a880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa24e7bda435683f6f2ecfad194178239" id="r_aa24e7bda435683f6f2ecfad194178239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa24e7bda435683f6f2ecfad194178239">MR_compl_MR_RenderModelPassMask</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> a)</td></tr>
+<tr class="memitem:aa24e7bda435683f6f2ecfad194178239" id="r_aa24e7bda435683f6f2ecfad194178239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa24e7bda435683f6f2ecfad194178239">MR_compl_MR_RenderModelPassMask</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> a)</td></tr>
 <tr class="memdesc:aa24e7bda435683f6f2ecfad194178239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR::operator~</code>.  <br /></td></tr>
 <tr class="separator:aa24e7bda435683f6f2ecfad194178239"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b08afd904a7e22adf0e1315e89420ac" id="r_a6b08afd904a7e22adf0e1315e89420ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b08afd904a7e22adf0e1315e89420ac">MR_bitand_assign_MR_RenderModelPassMask</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *a, <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> b)</td></tr>
+<tr class="memitem:a6b08afd904a7e22adf0e1315e89420ac" id="r_a6b08afd904a7e22adf0e1315e89420ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b08afd904a7e22adf0e1315e89420ac">MR_bitand_assign_MR_RenderModelPassMask</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *a, <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> b)</td></tr>
 <tr class="separator:a6b08afd904a7e22adf0e1315e89420ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0890d74b78c2104f0921de2d6b7142fe" id="r_a0890d74b78c2104f0921de2d6b7142fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0890d74b78c2104f0921de2d6b7142fe">MR_bitor_assign_MR_RenderModelPassMask</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *a, <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> b)</td></tr>
+<tr class="memitem:a0890d74b78c2104f0921de2d6b7142fe" id="r_a0890d74b78c2104f0921de2d6b7142fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0890d74b78c2104f0921de2d6b7142fe">MR_bitor_assign_MR_RenderModelPassMask</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *a, <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> b)</td></tr>
 <tr class="separator:a0890d74b78c2104f0921de2d6b7142fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac84d349e415e6f520640dc234f0eb01f" id="r_ac84d349e415e6f520640dc234f0eb01f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac84d349e415e6f520640dc234f0eb01f">MR_mul_MR_RenderModelPassMask_bool</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> a, bool b)</td></tr>
+<tr class="memitem:ac84d349e415e6f520640dc234f0eb01f" id="r_ac84d349e415e6f520640dc234f0eb01f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac84d349e415e6f520640dc234f0eb01f">MR_mul_MR_RenderModelPassMask_bool</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> a, bool b)</td></tr>
 <tr class="memdesc:ac84d349e415e6f520640dc234f0eb01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a74faa3fac803f77476aefb0300f66b51">MR::operator*</a></code>.  <br /></td></tr>
 <tr class="separator:ac84d349e415e6f520640dc234f0eb01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4d6effeaa31169d100c2b036e4ef4ef" id="r_ab4d6effeaa31169d100c2b036e4ef4ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d6effeaa31169d100c2b036e4ef4ef">MR_mul_bool_MR_RenderModelPassMask</a> (bool a, <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> b)</td></tr>
+<tr class="memitem:ab4d6effeaa31169d100c2b036e4ef4ef" id="r_ab4d6effeaa31169d100c2b036e4ef4ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d6effeaa31169d100c2b036e4ef4ef">MR_mul_bool_MR_RenderModelPassMask</a> (bool a, <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> b)</td></tr>
 <tr class="memdesc:ab4d6effeaa31169d100c2b036e4ef4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a74faa3fac803f77476aefb0300f66b51">MR::operator*</a></code>.  <br /></td></tr>
 <tr class="separator:ab4d6effeaa31169d100c2b036e4ef4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a076ffc6ddebcb71b8d93f04c98be0acf" id="r_a076ffc6ddebcb71b8d93f04c98be0acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a076ffc6ddebcb71b8d93f04c98be0acf">MR_mul_assign_MR_RenderModelPassMask_bool</a> (<a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *a, bool b)</td></tr>
+<tr class="memitem:a076ffc6ddebcb71b8d93f04c98be0acf" id="r_a076ffc6ddebcb71b8d93f04c98be0acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a076ffc6ddebcb71b8d93f04c98be0acf">MR_mul_assign_MR_RenderModelPassMask_bool</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *a, bool b)</td></tr>
 <tr class="separator:a076ffc6ddebcb71b8d93f04c98be0acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a0bea41c569f1e921b13d205586d60b5b" name="a0bea41c569f1e921b13d205586d60b5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bea41c569f1e921b13d205586d60b5b">&#9670;&#160;</a></span>MR_RenderModelPassMask</h2>
+<a id="aa877928cec2ad4499904dfd36eae46e7" name="aa877928cec2ad4499904dfd36eae46e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa877928cec2ad4499904dfd36eae46e7">&#9670;&#160;</a></span>MR_RenderModelPassMask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -220,23 +219,25 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="af8654c714018c6241d9ebd01f3fb5a26" name="af8654c714018c6241d9ebd01f3fb5a26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8654c714018c6241d9ebd01f3fb5a26">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aa2b7e22402322d93271548d06907cc62" name="aa2b7e22402322d93271548d06907cc62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b7e22402322d93271548d06907cc62">&#9670;&#160;</a></span>MR_RenderModelPassMask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Various passes of the 3D rendering. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af8654c714018c6241d9ebd01f3fb5a26a49d680abcf3d3f77cda429406e9f23e3" name="af8654c714018c6241d9ebd01f3fb5a26a49d680abcf3d3f77cda429406e9f23e3"></a>MR_RenderModelPassMask_Opaque&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af8654c714018c6241d9ebd01f3fb5a26a49774edc7f73482e346a007fc0610461" name="af8654c714018c6241d9ebd01f3fb5a26a49774edc7f73482e346a007fc0610461"></a>MR_RenderModelPassMask_Transparent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af8654c714018c6241d9ebd01f3fb5a26a17dbd1321090d68aac76a3ae1e7cd77e" name="af8654c714018c6241d9ebd01f3fb5a26a17dbd1321090d68aac76a3ae1e7cd77e"></a>MR_RenderModelPassMask_VolumeRendering&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af8654c714018c6241d9ebd01f3fb5a26a2bbf91f624974a12f24b71af4406bd9a" name="af8654c714018c6241d9ebd01f3fb5a26a2bbf91f624974a12f24b71af4406bd9a"></a>MR_RenderModelPassMask_NoDepthTest&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af8654c714018c6241d9ebd01f3fb5a26a506abec0ac0ce35a4415d0143d4bc79a" name="af8654c714018c6241d9ebd01f3fb5a26a506abec0ac0ce35a4415d0143d4bc79a"></a>MR_RenderModelPassMask_All&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3" name="aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3"></a>MR_RenderModelPassMask_Opaque&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461" name="aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461"></a>MR_RenderModelPassMask_Transparent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa2b7e22402322d93271548d06907cc62a17dbd1321090d68aac76a3ae1e7cd77e" name="aa2b7e22402322d93271548d06907cc62a17dbd1321090d68aac76a3ae1e7cd77e"></a>MR_RenderModelPassMask_VolumeRendering&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa2b7e22402322d93271548d06907cc62a2bbf91f624974a12f24b71af4406bd9a" name="aa2b7e22402322d93271548d06907cc62a2bbf91f624974a12f24b71af4406bd9a"></a>MR_RenderModelPassMask_NoDepthTest&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa2b7e22402322d93271548d06907cc62a506abec0ac0ce35a4415d0143d4bc79a" name="aa2b7e22402322d93271548d06907cc62a506abec0ac0ce35a4415d0143d4bc79a"></a>MR_RenderModelPassMask_All&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -249,14 +250,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> * MR_bitand_assign_MR_RenderModelPassMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> * MR_bitand_assign_MR_RenderModelPassMask </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -271,14 +272,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> MR_bitand_MR_RenderModelPassMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> MR_bitand_MR_RenderModelPassMask </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -294,14 +295,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> * MR_bitor_assign_MR_RenderModelPassMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> * MR_bitor_assign_MR_RenderModelPassMask </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -316,14 +317,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> MR_bitor_MR_RenderModelPassMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> MR_bitor_MR_RenderModelPassMask </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,9 +340,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> MR_compl_MR_RenderModelPassMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> MR_compl_MR_RenderModelPassMask </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -358,9 +359,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> * MR_mul_assign_MR_RenderModelPassMask_bool </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> * MR_mul_assign_MR_RenderModelPassMask_bool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -380,14 +381,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> MR_mul_bool_MR_RenderModelPassMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> MR_mul_bool_MR_RenderModelPassMask </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -403,9 +404,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a> MR_mul_MR_RenderModelPassMask_bool </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> MR_mul_MR_RenderModelPassMask_bool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0bea41c569f1e921b13d205586d60b5b">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

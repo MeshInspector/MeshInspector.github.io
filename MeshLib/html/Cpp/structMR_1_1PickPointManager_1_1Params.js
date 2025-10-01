@@ -1,6 +1,7 @@
 var structMR_1_1PickPointManager_1_1Params =
 [
     [ "canAddPoint", "structMR_1_1PickPointManager_1_1Params.html#af2fa5fa03ddcb2645c4f22130a4a50da", null ],
+    [ "canMovePoint", "structMR_1_1PickPointManager_1_1Params.html#af9338df64363f0830a45a56dec21f983", null ],
     [ "canRemovePoint", "structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6", null ],
     [ "closeContourPointColor", "structMR_1_1PickPointManager_1_1Params.html#a9530ff46e6ad646ba04ba4460b560bca", null ],
     [ "historyNameSuffix", "structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160", null ],

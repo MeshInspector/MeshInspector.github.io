@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRTorus_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -153,7 +152,6 @@ $(function(){initNavTree('MRTorus_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRTorus_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -166,18 +164,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8f14b19701dedd60dcd2b435ff3333b6" id="r_a8f14b19701dedd60dcd2b435ff3333b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f14b19701dedd60dcd2b435ff3333b6">MR_makeTorus</a> (const float *primaryRadius, const float *secondaryRadius, const int32_t *primaryResolution, const int32_t *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
-<tr class="separator:a8f14b19701dedd60dcd2b435ff3333b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09adac82298156cd7e7ef56ad3d4c2a1" id="r_a09adac82298156cd7e7ef56ad3d4c2a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09adac82298156cd7e7ef56ad3d4c2a1">MR_makeOuterHalfTorus</a> (const float *primaryRadius, const float *secondaryRadius, const int32_t *primaryResolution, const int32_t *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
-<tr class="separator:a09adac82298156cd7e7ef56ad3d4c2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1db5a584d506724418b111c2662ca046" id="r_a1db5a584d506724418b111c2662ca046"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db5a584d506724418b111c2662ca046">MR_makeTorusWithUndercut</a> (const float *primaryRadius, const float *secondaryRadiusInner, const float *secondaryRadiusOuter, const int32_t *primaryResolution, const int32_t *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
-<tr class="separator:a1db5a584d506724418b111c2662ca046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74fb6b5d1e634c2b571189a326bf34e6" id="r_a74fb6b5d1e634c2b571189a326bf34e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74fb6b5d1e634c2b571189a326bf34e6">MR_makeTorusWithSpikes</a> (const float *primaryRadius, const float *secondaryRadiusInner, const float *secondaryRadiusOuter, const int32_t *primaryResolution, const int32_t *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
-<tr class="separator:a74fb6b5d1e634c2b571189a326bf34e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c6b912cae905cf2af754a89cbb5a8c" id="r_ae1c6b912cae905cf2af754a89cbb5a8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c6b912cae905cf2af754a89cbb5a8c">MR_makeTorusWithComponents</a> (const float *primaryRadius, const float *secondaryRadius, const int32_t *primaryResolution, const int32_t *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
-<tr class="separator:ae1c6b912cae905cf2af754a89cbb5a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0897abba023182c36e6922b790c43015" id="r_a0897abba023182c36e6922b790c43015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0897abba023182c36e6922b790c43015">MR_makeTorusWithSelfIntersections</a> (const float *primaryRadius, const float *secondaryRadius, const int32_t *primaryResolution, const int32_t *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
-<tr class="separator:a0897abba023182c36e6922b790c43015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad75f7fc4482dfb1265495d664597e838" id="r_ad75f7fc4482dfb1265495d664597e838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad75f7fc4482dfb1265495d664597e838">MR_makeTorus</a> (const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
+<tr class="separator:ad75f7fc4482dfb1265495d664597e838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2400562ce98392bd3be072697a88addb" id="r_a2400562ce98392bd3be072697a88addb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2400562ce98392bd3be072697a88addb">MR_makeOuterHalfTorus</a> (const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
+<tr class="separator:a2400562ce98392bd3be072697a88addb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3320818652092ade31eedadec2dbb7" id="r_a9b3320818652092ade31eedadec2dbb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3320818652092ade31eedadec2dbb7">MR_makeTorusWithUndercut</a> (const float *primaryRadius, const float *secondaryRadiusInner, const float *secondaryRadiusOuter, const int *primaryResolution, const int *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
+<tr class="separator:a9b3320818652092ade31eedadec2dbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d6f497d1907ead04427707bed888a1" id="r_aa7d6f497d1907ead04427707bed888a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d6f497d1907ead04427707bed888a1">MR_makeTorusWithSpikes</a> (const float *primaryRadius, const float *secondaryRadiusInner, const float *secondaryRadiusOuter, const int *primaryResolution, const int *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
+<tr class="separator:aa7d6f497d1907ead04427707bed888a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedce57ebd8030966ed44e08c2903b25e" id="r_aedce57ebd8030966ed44e08c2903b25e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedce57ebd8030966ed44e08c2903b25e">MR_makeTorusWithComponents</a> (const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
+<tr class="separator:aedce57ebd8030966ed44e08c2903b25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092c27385de77ac4ed467f3b117450d2" id="r_a092c27385de77ac4ed467f3b117450d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a092c27385de77ac4ed467f3b117450d2">MR_makeTorusWithSelfIntersections</a> (const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points)</td></tr>
+<tr class="separator:a092c27385de77ac4ed467f3b117450d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
@@ -209,8 +207,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a09adac82298156cd7e7ef56ad3d4c2a1" name="a09adac82298156cd7e7ef56ad3d4c2a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09adac82298156cd7e7ef56ad3d4c2a1">&#9670;&#160;</a></span>MR_makeOuterHalfTorus()</h2>
+<a id="a2400562ce98392bd3be072697a88addb" name="a2400562ce98392bd3be072697a88addb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2400562ce98392bd3be072697a88addb">&#9670;&#160;</a></span>MR_makeOuterHalfTorus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,12 +226,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -246,8 +244,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f14b19701dedd60dcd2b435ff3333b6" name="a8f14b19701dedd60dcd2b435ff3333b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f14b19701dedd60dcd2b435ff3333b6">&#9670;&#160;</a></span>MR_makeTorus()</h2>
+<a id="ad75f7fc4482dfb1265495d664597e838" name="ad75f7fc4482dfb1265495d664597e838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad75f7fc4482dfb1265495d664597e838">&#9670;&#160;</a></span>MR_makeTorus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,12 +263,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -283,8 +281,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae1c6b912cae905cf2af754a89cbb5a8c" name="ae1c6b912cae905cf2af754a89cbb5a8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1c6b912cae905cf2af754a89cbb5a8c">&#9670;&#160;</a></span>MR_makeTorusWithComponents()</h2>
+<a id="aedce57ebd8030966ed44e08c2903b25e" name="aedce57ebd8030966ed44e08c2903b25e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedce57ebd8030966ed44e08c2903b25e">&#9670;&#160;</a></span>MR_makeTorusWithComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,12 +300,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -320,8 +318,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0897abba023182c36e6922b790c43015" name="a0897abba023182c36e6922b790c43015"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0897abba023182c36e6922b790c43015">&#9670;&#160;</a></span>MR_makeTorusWithSelfIntersections()</h2>
+<a id="a092c27385de77ac4ed467f3b117450d2" name="a092c27385de77ac4ed467f3b117450d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a092c27385de77ac4ed467f3b117450d2">&#9670;&#160;</a></span>MR_makeTorusWithSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,12 +337,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -357,8 +355,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a74fb6b5d1e634c2b571189a326bf34e6" name="a74fb6b5d1e634c2b571189a326bf34e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74fb6b5d1e634c2b571189a326bf34e6">&#9670;&#160;</a></span>MR_makeTorusWithSpikes()</h2>
+<a id="aa7d6f497d1907ead04427707bed888a1" name="aa7d6f497d1907ead04427707bed888a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d6f497d1907ead04427707bed888a1">&#9670;&#160;</a></span>MR_makeTorusWithSpikes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,12 +379,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -399,8 +397,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1db5a584d506724418b111c2662ca046" name="a1db5a584d506724418b111c2662ca046"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1db5a584d506724418b111c2662ca046">&#9670;&#160;</a></span>MR_makeTorusWithUndercut()</h2>
+<a id="a9b3320818652092ade31eedadec2dbb7" name="a9b3320818652092ade31eedadec2dbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b3320818652092ade31eedadec2dbb7">&#9670;&#160;</a></span>MR_makeTorusWithUndercut()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,12 +421,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>primaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>secondaryResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

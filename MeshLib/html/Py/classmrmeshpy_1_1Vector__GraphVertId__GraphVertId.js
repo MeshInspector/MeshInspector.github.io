@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__GraphVertId__GraphVertId =
     [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a7ad4fa1d23e30d408a8c15a83f938808", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#af10e9644cdbf087a1bd3089e2ce6ecfa", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a8f15aa60a6b6588db2e0e106c6c0a685", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a54e7f5c7376a428147fab51dfa710db6", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#aaa24d339b4c173bd4aa6348ec8b784a3", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a9147a4efcab6d26b761d40f793599da0", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a9147a4efcab6d26b761d40f793599da0", null ],

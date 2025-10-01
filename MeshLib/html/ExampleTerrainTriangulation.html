@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleTerrainTriangulation.html" />
-
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<!-- No Index Part -->
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -210,6 +209,129 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line"><span class="keywordflow">if</span> (pc.points.vec.size() == colors.size()):</div>
 <div class="line">    mss.colors = colors</div>
 <div class="line">mm.saveMesh(terrain_mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>,mss)</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointsLoad_8h.html">MRCMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointsLoadSettings_8h.html">MRCMesh/MRPointsLoadSettings.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRVector_8h.html">MRCMesh/MRVector.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPointCloud_8h.html">MRCMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRTerrainTriangulation_8h.html">MRCMesh/MRTerrainTriangulation.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRSaveSettings_8h.html">MRCMesh/MRSaveSettings.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRColor_8h.html">MRCMesh/MRColor.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__PointCloud__std__string_8h.html">MRCMisc/expected_MR_PointCloud_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__void__std__string_8h.html">MRCMisc/expected_void_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__vector__MR__Color_8h.html">MRCMisc/std_vector_MR_Color.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__vector__MR__Vector3f_8h.html">MRCMisc/std_vector_MR_Vector3f.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
+<div class="line">    <span class="comment">// load points</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>* colors = <a class="code hl_functionRef" href="./C/MRVector_8h.html#a6a8296fb00ac3e82799fb22c11edd1c2">MR_VertColors_DefaultConstruct</a>();</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a>* pls = <a class="code hl_functionRef" href="./C/MRPointsLoadSettings_8h.html#a214631ef4cbdd805bf6b37eac808cac6">MR_PointsLoadSettings_DefaultConstruct</a>();</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRPointsLoadSettings_8h.html#a4279c9d688ea885b2cedb30e37e268ab">MR_PointsLoadSettings_Set_colors</a>( pls, colors );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a>* loadRes = <a class="code hl_functionRef" href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>* pc = <a class="code hl_functionRef" href="./C/expected__MR__PointCloud__std__string_8h.html#a2a989444cea4ad60fae95ebb89611938">MR_expected_MR_PointCloud_std_string_GetMutableValue</a>( loadRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !pc )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load points: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__PointCloud__std__string_8h.html#a0bfe8e029ec54a5d8d989a8cac187d82">MR_expected_MR_PointCloud_std_string_GetError</a>( loadRes ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_load; <span class="comment">// error while loading file</span></div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* triangulationRes = <a class="code hl_functionRef" href="./C/MRTerrainTriangulation_8h.html#a8d6422c61a56ff4d69b354d8f6215948">MR_terrainTriangulation</a>(</div>
+<div class="line">        MR_PassBy_Copy,</div>
+<div class="line">        <a class="code hl_functionRef" href="./C/MRVector_8h.html#a13a8f12c0121e7755c81f75f6289df48">MR_VertCoords_GetMutable_vec_</a>( <a class="code hl_functionRef" href="./C/MRPointCloud_8h.html#ade560de63153f9ae4d5c59230d12414d">MR_PointCloud_GetMutable_points</a>( pc ) ),</div>
+<div class="line">        MR_PassBy_DefaultArgument, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( triangulationRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to triangulate points: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( triangulationRes ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_triangulation; <span class="comment">// error while triangulating</span></div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a>* ss = <a class="code hl_functionRef" href="./C/MRSaveSettings_8h.html#af16001ecdd75188c01262bdf53566a54">MR_SaveSettings_DefaultConstruct</a>();</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/std__vector__MR__Color_8h.html#a3c8b5b58d9d7e42c17c8b71a2147437e">MR_std_vector_MR_Color_Size</a>( <a class="code hl_functionRef" href="./C/MRVector_8h.html#af022bd09608ab8cf23a9ebec1e60c680">MR_VertColors_Get_vec_</a>( colors ) ) ==</div>
+<div class="line">         <a class="code hl_functionRef" href="./C/std__vector__MR__Vector3f_8h.html#af7aab551c59ab7c5159bf56cc4091da3">MR_std_vector_MR_Vector3f_Size</a>( <a class="code hl_functionRef" href="./C/MRVector_8h.html#aff62b69cead829812f109608ebde78ec">MR_VertCoords_Get_vec_</a>( <a class="code hl_functionRef" href="./C/MRPointCloud_8h.html#a99e5242c49867b367f981b73578c61b1">MR_PointCloud_Get_points</a>( pc ) ) )</div>
+<div class="line">         )</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_functionRef" href="./C/MRSaveSettings_8h.html#a319dc4fbf88c20fb1e2a2d7c202483ad">MR_SaveSettings_Set_colors</a>( ss, colors );</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_save; <span class="comment">// error while saving file</span></div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    rc = EXIT_SUCCESS;</div>
+<div class="line">fail_save:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( saveEx );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRSaveSettings_8h.html#a5f7d34b2c9ce91a34528daff62e10e7c">MR_SaveSettings_Destroy</a>( ss );</div>
+<div class="line">fail_triangulation:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( triangulationRes );</div>
+<div class="line">fail_load:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f">MR_expected_MR_PointCloud_std_string_Destroy</a>( loadRes );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRPointsLoadSettings_8h.html#a7af9da38900409c034491eb30227eca2">MR_PointsLoadSettings_Destroy</a>( pls );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRVector_8h.html#a2ab929969ef5c6aa32c0d3e0ebbe2402">MR_VertColors_Destroy</a>( colors );</div>
+<div class="line">    <span class="keywordflow">return</span> rc;</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="./C/MRColor_8h.html">MRColor.h</a></div></div>
+<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a66434f88501a5c24a45cf39f9dbcadbb"><div class="ttname"><a href="./C/MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a></div><div class="ttdeci">struct MR_SaveSettings MR_SaveSettings</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a67029d3455a5c9aa45725d3c35e1e4df"><div class="ttname"><a href="./C/MRCtm_8h.html#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a></div><div class="ttdeci">struct MR_PointsLoadSettings MR_PointsLoadSettings</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a9dbbf904c32d71d8c8ec8da2165b4a12"><div class="ttname"><a href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></div><div class="ttdeci">struct MR_expected_MR_PointCloud_std_string MR_expected_MR_PointCloud_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div></div>
+<div class="ttc" id="aMRE57_8h_html_a20dc7d636220f61a60c7ae92b8caa768"><div class="ttname"><a href="./C/MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></div><div class="ttdeci">struct MR_VertColors MR_VertColors</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
+<div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./C/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRPointCloud_8h_html_a99e5242c49867b367f981b73578c61b1"><div class="ttname"><a href="./C/MRPointCloud_8h.html#a99e5242c49867b367f981b73578c61b1">MR_PointCloud_Get_points</a></div><div class="ttdeci">MRC_API const MR_VertCoords * MR_PointCloud_Get_points(const MR_PointCloud *_this)</div></div>
+<div class="ttc" id="aMRPointCloud_8h_html_ade560de63153f9ae4d5c59230d12414d"><div class="ttname"><a href="./C/MRPointCloud_8h.html#ade560de63153f9ae4d5c59230d12414d">MR_PointCloud_GetMutable_points</a></div><div class="ttdeci">MRC_API MR_VertCoords * MR_PointCloud_GetMutable_points(MR_PointCloud *_this)</div></div>
+<div class="ttc" id="aMRPointsLoadSettings_8h_html"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html">MRPointsLoadSettings.h</a></div></div>
+<div class="ttc" id="aMRPointsLoadSettings_8h_html_a214631ef4cbdd805bf6b37eac808cac6"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html#a214631ef4cbdd805bf6b37eac808cac6">MR_PointsLoadSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_PointsLoadSettings * MR_PointsLoadSettings_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRPointsLoadSettings_8h_html_a4279c9d688ea885b2cedb30e37e268ab"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html#a4279c9d688ea885b2cedb30e37e268ab">MR_PointsLoadSettings_Set_colors</a></div><div class="ttdeci">MRC_API void MR_PointsLoadSettings_Set_colors(MR_PointsLoadSettings *_this, MR_VertColors *value)</div></div>
+<div class="ttc" id="aMRPointsLoadSettings_8h_html_a7af9da38900409c034491eb30227eca2"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html#a7af9da38900409c034491eb30227eca2">MR_PointsLoadSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_PointsLoadSettings_Destroy(const MR_PointsLoadSettings *_this)</div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./C/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html_aef738c6568d3615b58a044596a5f47df"><div class="ttname"><a href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRSaveSettings_8h_html"><div class="ttname"><a href="./C/MRSaveSettings_8h.html">MRSaveSettings.h</a></div></div>
+<div class="ttc" id="aMRSaveSettings_8h_html_a319dc4fbf88c20fb1e2a2d7c202483ad"><div class="ttname"><a href="./C/MRSaveSettings_8h.html#a319dc4fbf88c20fb1e2a2d7c202483ad">MR_SaveSettings_Set_colors</a></div><div class="ttdeci">MRC_API void MR_SaveSettings_Set_colors(MR_SaveSettings *_this, const MR_VertColors *value)</div></div>
+<div class="ttc" id="aMRSaveSettings_8h_html_a5f7d34b2c9ce91a34528daff62e10e7c"><div class="ttname"><a href="./C/MRSaveSettings_8h.html#a5f7d34b2c9ce91a34528daff62e10e7c">MR_SaveSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_SaveSettings_Destroy(const MR_SaveSettings *_this)</div></div>
+<div class="ttc" id="aMRSaveSettings_8h_html_af16001ecdd75188c01262bdf53566a54"><div class="ttname"><a href="./C/MRSaveSettings_8h.html#af16001ecdd75188c01262bdf53566a54">MR_SaveSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SaveSettings * MR_SaveSettings_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRTerrainTriangulation_8h_html_a8d6422c61a56ff4d69b354d8f6215948"><div class="ttname"><a href="./C/MRTerrainTriangulation_8h.html#a8d6422c61a56ff4d69b354d8f6215948">MR_terrainTriangulation</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_terrainTriangulation(MR_PassBy points_pass_by, MR_std_vector_MR_Vector3f *points, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</div></div>
+<div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
+<div class="ttc" id="aMRVector_8h_html_a13a8f12c0121e7755c81f75f6289df48"><div class="ttname"><a href="./C/MRVector_8h.html#a13a8f12c0121e7755c81f75f6289df48">MR_VertCoords_GetMutable_vec_</a></div><div class="ttdeci">MRC_API MR_std_vector_MR_Vector3f * MR_VertCoords_GetMutable_vec_(MR_VertCoords *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_a2ab929969ef5c6aa32c0d3e0ebbe2402"><div class="ttname"><a href="./C/MRVector_8h.html#a2ab929969ef5c6aa32c0d3e0ebbe2402">MR_VertColors_Destroy</a></div><div class="ttdeci">MRC_API void MR_VertColors_Destroy(const MR_VertColors *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_a6a8296fb00ac3e82799fb22c11edd1c2"><div class="ttname"><a href="./C/MRVector_8h.html#a6a8296fb00ac3e82799fb22c11edd1c2">MR_VertColors_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_VertColors * MR_VertColors_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRVector_8h_html_af022bd09608ab8cf23a9ebec1e60c680"><div class="ttname"><a href="./C/MRVector_8h.html#af022bd09608ab8cf23a9ebec1e60c680">MR_VertColors_Get_vec_</a></div><div class="ttdeci">MRC_API const MR_std_vector_MR_Color * MR_VertColors_Get_vec_(const MR_VertColors *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_aff62b69cead829812f109608ebde78ec"><div class="ttname"><a href="./C/MRVector_8h.html#aff62b69cead829812f109608ebde78ec">MR_VertCoords_Get_vec_</a></div><div class="ttdeci">MRC_API const MR_std_vector_MR_Vector3f * MR_VertCoords_Get_vec_(const MR_VertCoords *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html">expected_MR_PointCloud_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html_a0bfe8e029ec54a5d8d989a8cac187d82"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html#a0bfe8e029ec54a5d8d989a8cac187d82">MR_expected_MR_PointCloud_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_PointCloud_std_string_GetError(const MR_expected_MR_PointCloud_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html_a2a989444cea4ad60fae95ebb89611938"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html#a2a989444cea4ad60fae95ebb89611938">MR_expected_MR_PointCloud_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_PointCloud * MR_expected_MR_PointCloud_std_string_GetMutableValue(MR_expected_MR_PointCloud_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html_a8654ce01cf68830f66fb0f132ea8ca5f"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f">MR_expected_MR_PointCloud_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_PointCloud_std_string_Destroy(const MR_expected_MR_PointCloud_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a9638e07d2c5281b4bf574c618ab6f2e9"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_void_std_string_Destroy(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
+<div class="ttc" id="astd__vector__MR__Color_8h_html"><div class="ttname"><a href="./C/std__vector__MR__Color_8h.html">std_vector_MR_Color.h</a></div></div>
+<div class="ttc" id="astd__vector__MR__Color_8h_html_a3c8b5b58d9d7e42c17c8b71a2147437e"><div class="ttname"><a href="./C/std__vector__MR__Color_8h.html#a3c8b5b58d9d7e42c17c8b71a2147437e">MR_std_vector_MR_Color_Size</a></div><div class="ttdeci">MRC_API size_t MR_std_vector_MR_Color_Size(const MR_std_vector_MR_Color *_this)</div></div>
+<div class="ttc" id="astd__vector__MR__Vector3f_8h_html"><div class="ttname"><a href="./C/std__vector__MR__Vector3f_8h.html">std_vector_MR_Vector3f.h</a></div></div>
+<div class="ttc" id="astd__vector__MR__Vector3f_8h_html_af7aab551c59ab7c5159bf56cc4091da3"><div class="ttname"><a href="./C/std__vector__MR__Vector3f_8h.html#af7aab551c59ab7c5159bf56cc4091da3">MR_std_vector_MR_Vector3f_Size</a></div><div class="ttdeci">MRC_API size_t MR_std_vector_MR_Vector3f_Size(const MR_std_vector_MR_Vector3f *_this)</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

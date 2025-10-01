@@ -1,7 +1,7 @@
 var classMR_1_1MeshOrPoints =
 [
     [ "ProjectionResult", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html", "structMR_1_1MeshOrPoints_1_1ProjectionResult" ],
-    [ "LimitedProjectorFunc", "classMR_1_1MeshOrPoints.html#ac587906713a870b8bb50c2b06375a28c", null ],
+    [ "LimitedProjectorFunc", "classMR_1_1MeshOrPoints.html#a0a57020e6aaf506fbbd6c3ce60c21412", null ],
     [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#a4b19905136ab6d31a445cc3884ab0c1e", null ],
     [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#a1ef5bfca52ac8e1892322d7cf4585b5b", null ],
     [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#af9cbf91d93d22bcc4e487a573b2b8067", null ],

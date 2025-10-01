@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRTiffIO_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -158,7 +157,6 @@ $(function(){initNavTree('MRTiffIO_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRTiffIO_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -172,10 +170,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fc98d739c9851d16f268884a3dc9816" id="r_a8fc98d739c9851d16f268884a3dc9816"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a></td></tr>
 <tr class="separator:a8fc98d739c9851d16f268884a3dc9816"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4f57ef5b9f066500ef14ece807fdc50" id="r_ac4f57ef5b9f066500ef14ece807fdc50"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a></td></tr>
-<tr class="separator:ac4f57ef5b9f066500ef14ece807fdc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adce4cd5a823fef82608e3296c5f74cc5" id="r_adce4cd5a823fef82608e3296c5f74cc5"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a></td></tr>
-<tr class="separator:adce4cd5a823fef82608e3296c5f74cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4345e4a158bdc76355eba3a1d2be15ee" id="r_a4345e4a158bdc76355eba3a1d2be15ee"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4345e4a158bdc76355eba3a1d2be15ee">MR_BaseTiffParameters_SampleType</a></td></tr>
+<tr class="separator:a4345e4a158bdc76355eba3a1d2be15ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ce1c79cd57427917bd749d0eeb5aff" id="r_a05ce1c79cd57427917bd749d0eeb5aff"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ce1c79cd57427917bd749d0eeb5aff">MR_BaseTiffParameters_ValueType</a></td></tr>
+<tr class="separator:a05ce1c79cd57427917bd749d0eeb5aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cbbab1639b23d07edd9ed114d018b8f" id="r_a6cbbab1639b23d07edd9ed114d018b8f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a></td></tr>
 <tr class="separator:a6cbbab1639b23d07edd9ed114d018b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b08535d382e7abf8cffb2e80807fcdc" id="r_a7b08535d382e7abf8cffb2e80807fcdc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a></td></tr>
@@ -184,39 +182,39 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a68c01102755fc7d1c810bb0b0635fa90" id="r_a68c01102755fc7d1c810bb0b0635fa90"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a68c01102755fc7d1c810bb0b0635fa90a5ee2939e46b86829d60752a7192d8320">MR_BaseTiffParameters_SampleType_Unknown</a> = 0
-, <a class="el" href="#a68c01102755fc7d1c810bb0b0635fa90a111f577c994ef1859a2ac4a0bf3de45b">MR_BaseTiffParameters_SampleType_Uint</a> = 1
-, <a class="el" href="#a68c01102755fc7d1c810bb0b0635fa90a8bcfe13356117668e64e4fdab0d82caf">MR_BaseTiffParameters_SampleType_Int</a> = 2
-, <a class="el" href="#a68c01102755fc7d1c810bb0b0635fa90a2cfd300b28504f5a24a6b72bd4d8c9b2">MR_BaseTiffParameters_SampleType_Float</a> = 3
+<tr class="memitem:af308da9e08f734f6cdaf7ab0a4211594" id="r_af308da9e08f734f6cdaf7ab0a4211594"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> { <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594a5ee2939e46b86829d60752a7192d8320">MR_BaseTiffParameters_SampleType_Unknown</a> = 0
+, <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594a111f577c994ef1859a2ac4a0bf3de45b">MR_BaseTiffParameters_SampleType_Uint</a> = 1
+, <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594a8bcfe13356117668e64e4fdab0d82caf">MR_BaseTiffParameters_SampleType_Int</a> = 2
+, <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594a2cfd300b28504f5a24a6b72bd4d8c9b2">MR_BaseTiffParameters_SampleType_Float</a> = 3
  }</td></tr>
-<tr class="separator:a68c01102755fc7d1c810bb0b0635fa90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa618c4d8c29ef4efe6f10c741fb1f47a" id="r_aa618c4d8c29ef4efe6f10c741fb1f47a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aa618c4d8c29ef4efe6f10c741fb1f47aa151e264ff621918a9bb861b8f74c6e69">MR_BaseTiffParameters_ValueType_Unknown</a> = 0
-, <a class="el" href="#aa618c4d8c29ef4efe6f10c741fb1f47aac7858153fa05ab86078a7d9c803823dd">MR_BaseTiffParameters_ValueType_Scalar</a> = 1
-, <a class="el" href="#aa618c4d8c29ef4efe6f10c741fb1f47aae86ddae04f034c908e86a67ad9a280fa">MR_BaseTiffParameters_ValueType_RGB</a> = 2
-, <a class="el" href="#aa618c4d8c29ef4efe6f10c741fb1f47aa10d74b6fb2e4e611718341dc43d539c7">MR_BaseTiffParameters_ValueType_RGBA</a> = 3
+<tr class="separator:af308da9e08f734f6cdaf7ab0a4211594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5dc799922594eedcb49960bd4d23859" id="r_ae5dc799922594eedcb49960bd4d23859"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> { <a class="el" href="#ae5dc799922594eedcb49960bd4d23859a151e264ff621918a9bb861b8f74c6e69">MR_BaseTiffParameters_ValueType_Unknown</a> = 0
+, <a class="el" href="#ae5dc799922594eedcb49960bd4d23859ac7858153fa05ab86078a7d9c803823dd">MR_BaseTiffParameters_ValueType_Scalar</a> = 1
+, <a class="el" href="#ae5dc799922594eedcb49960bd4d23859ae86ddae04f034c908e86a67ad9a280fa">MR_BaseTiffParameters_ValueType_RGB</a> = 2
+, <a class="el" href="#ae5dc799922594eedcb49960bd4d23859a10d74b6fb2e4e611718341dc43d539c7">MR_BaseTiffParameters_ValueType_RGBA</a> = 3
  }</td></tr>
-<tr class="separator:aa618c4d8c29ef4efe6f10c741fb1f47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae5dc799922594eedcb49960bd4d23859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6aa30d4eb91c11b3aef510fce7e4fb50" id="r_a6aa30d4eb91c11b3aef510fce7e4fb50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa30d4eb91c11b3aef510fce7e4fb50">MR_BaseTiffParameters_Get_sampleType</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
+<tr class="memitem:a6aa30d4eb91c11b3aef510fce7e4fb50" id="r_a6aa30d4eb91c11b3aef510fce7e4fb50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa30d4eb91c11b3aef510fce7e4fb50">MR_BaseTiffParameters_Get_sampleType</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
 <tr class="separator:a6aa30d4eb91c11b3aef510fce7e4fb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdde6e4960aa31d6e167eed08a6524f1" id="r_acdde6e4960aa31d6e167eed08a6524f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdde6e4960aa31d6e167eed08a6524f1">MR_BaseTiffParameters_Set_sampleType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, <a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a> value)</td></tr>
+<tr class="memitem:acdde6e4960aa31d6e167eed08a6524f1" id="r_acdde6e4960aa31d6e167eed08a6524f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdde6e4960aa31d6e167eed08a6524f1">MR_BaseTiffParameters_Set_sampleType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> value)</td></tr>
 <tr class="separator:acdde6e4960aa31d6e167eed08a6524f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a754353d3c31253746ceb0685e99b1075" id="r_a754353d3c31253746ceb0685e99b1075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a754353d3c31253746ceb0685e99b1075">MR_BaseTiffParameters_GetMutable_sampleType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
+<tr class="memitem:a754353d3c31253746ceb0685e99b1075" id="r_a754353d3c31253746ceb0685e99b1075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a754353d3c31253746ceb0685e99b1075">MR_BaseTiffParameters_GetMutable_sampleType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
 <tr class="separator:a754353d3c31253746ceb0685e99b1075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1e7594351d180d86cd76fefe0c6f15c" id="r_af1e7594351d180d86cd76fefe0c6f15c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1e7594351d180d86cd76fefe0c6f15c">MR_BaseTiffParameters_Get_valueType</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
+<tr class="memitem:af1e7594351d180d86cd76fefe0c6f15c" id="r_af1e7594351d180d86cd76fefe0c6f15c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1e7594351d180d86cd76fefe0c6f15c">MR_BaseTiffParameters_Get_valueType</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
 <tr class="separator:af1e7594351d180d86cd76fefe0c6f15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d632a3108e0c43647c8875eb17ed98e" id="r_a2d632a3108e0c43647c8875eb17ed98e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d632a3108e0c43647c8875eb17ed98e">MR_BaseTiffParameters_Set_valueType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a> value)</td></tr>
+<tr class="memitem:a2d632a3108e0c43647c8875eb17ed98e" id="r_a2d632a3108e0c43647c8875eb17ed98e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d632a3108e0c43647c8875eb17ed98e">MR_BaseTiffParameters_Set_valueType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> value)</td></tr>
 <tr class="separator:a2d632a3108e0c43647c8875eb17ed98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9937d7388b4c97a163903b2823339f" id="r_aab9937d7388b4c97a163903b2823339f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab9937d7388b4c97a163903b2823339f">MR_BaseTiffParameters_GetMutable_valueType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
+<tr class="memitem:aab9937d7388b4c97a163903b2823339f" id="r_aab9937d7388b4c97a163903b2823339f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab9937d7388b4c97a163903b2823339f">MR_BaseTiffParameters_GetMutable_valueType</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
 <tr class="separator:aab9937d7388b4c97a163903b2823339f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6af2e8b206fecd1c6e09dc547e8370b" id="r_ac6af2e8b206fecd1c6e09dc547e8370b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6af2e8b206fecd1c6e09dc547e8370b">MR_BaseTiffParameters_Get_bytesPerSample</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
-<tr class="separator:ac6af2e8b206fecd1c6e09dc547e8370b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad59da03a7d753bc8ba79bfc20437ee5e" id="r_ad59da03a7d753bc8ba79bfc20437ee5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad59da03a7d753bc8ba79bfc20437ee5e">MR_BaseTiffParameters_Set_bytesPerSample</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, int32_t value)</td></tr>
-<tr class="separator:ad59da03a7d753bc8ba79bfc20437ee5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb831cd4d75a85fcc42b2d91aa591398" id="r_adb831cd4d75a85fcc42b2d91aa591398"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb831cd4d75a85fcc42b2d91aa591398">MR_BaseTiffParameters_GetMutable_bytesPerSample</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
-<tr class="separator:adb831cd4d75a85fcc42b2d91aa591398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90cca47ae571f24257e0f891723742cd" id="r_a90cca47ae571f24257e0f891723742cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90cca47ae571f24257e0f891723742cd">MR_BaseTiffParameters_Get_bytesPerSample</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
+<tr class="separator:a90cca47ae571f24257e0f891723742cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061832baee968d6623ece2d9afa2bc55" id="r_a061832baee968d6623ece2d9afa2bc55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a061832baee968d6623ece2d9afa2bc55">MR_BaseTiffParameters_Set_bytesPerSample</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, int value)</td></tr>
+<tr class="separator:a061832baee968d6623ece2d9afa2bc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ed20fdd4b20ac64393c4b7181ba550" id="r_a47ed20fdd4b20ac64393c4b7181ba550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ed20fdd4b20ac64393c4b7181ba550">MR_BaseTiffParameters_GetMutable_bytesPerSample</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
+<tr class="separator:a47ed20fdd4b20ac64393c4b7181ba550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853744145d4cd32f378d4842e5253fb7" id="r_a853744145d4cd32f378d4842e5253fb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a853744145d4cd32f378d4842e5253fb7">MR_BaseTiffParameters_Get_imageSize</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this)</td></tr>
 <tr class="separator:a853744145d4cd32f378d4842e5253fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec1eec9a6ad60e3bb7a3c4bd56686d9" id="r_aeec1eec9a6ad60e3bb7a3c4bd56686d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeec1eec9a6ad60e3bb7a3c4bd56686d9">MR_BaseTiffParameters_Set_imageSize</a> (<a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *_this, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> value)</td></tr>
@@ -227,8 +225,8 @@ Functions</h2></td></tr>
 <tr class="separator:a6c692139d17aca10fdc6331826ef3cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac32979309f95a78a7583174216c74487" id="r_ac32979309f95a78a7583174216c74487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac32979309f95a78a7583174216c74487">MR_BaseTiffParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ac32979309f95a78a7583174216c74487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f6d0c8a37917251d620afff372fa2ae" id="r_a1f6d0c8a37917251d620afff372fa2ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6d0c8a37917251d620afff372fa2ae">MR_BaseTiffParameters_ConstructFrom</a> (<a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a> sampleType, <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a> valueType, int32_t bytesPerSample, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> imageSize)</td></tr>
-<tr class="separator:a1f6d0c8a37917251d620afff372fa2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152a8a8a69edcc27686bb173d0c6b5dd" id="r_a152a8a8a69edcc27686bb173d0c6b5dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a152a8a8a69edcc27686bb173d0c6b5dd">MR_BaseTiffParameters_ConstructFrom</a> (<a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> sampleType, <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> valueType, int bytesPerSample, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> imageSize)</td></tr>
+<tr class="separator:a152a8a8a69edcc27686bb173d0c6b5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9650ab9a58574954dfb012d9910ffe70" id="r_a9650ab9a58574954dfb012d9910ffe70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9650ab9a58574954dfb012d9910ffe70">MR_BaseTiffParameters_OffsetPtr</a> (const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9650ab9a58574954dfb012d9910ffe70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9650ab9a58574954dfb012d9910ffe70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,18 +261,18 @@ Functions</h2></td></tr>
 <tr class="separator:abb11fff20279ec7e1ed7f202df212432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e1af9e7f24f7b7ee3f0e2ac4ab3ea6" id="r_ad9e1af9e7f24f7b7ee3f0e2ac4ab3ea6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e1af9e7f24f7b7ee3f0e2ac4ab3ea6">MR_TiffParameters_GetMutable_tileSize</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
 <tr class="separator:ad9e1af9e7f24f7b7ee3f0e2ac4ab3ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad991f1ac1a114b346395a0c0b81ad3a4" id="r_ad991f1ac1a114b346395a0c0b81ad3a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad991f1ac1a114b346395a0c0b81ad3a4">MR_TiffParameters_Get_layers</a> (const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
-<tr class="separator:ad991f1ac1a114b346395a0c0b81ad3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1fffcbdaa8ba1b2292abab974f9aa09" id="r_ad1fffcbdaa8ba1b2292abab974f9aa09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1fffcbdaa8ba1b2292abab974f9aa09">MR_TiffParameters_Set_layers</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this, int32_t value)</td></tr>
-<tr class="separator:ad1fffcbdaa8ba1b2292abab974f9aa09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a314c20bb8357ec1b4d8c65e3d7bae517" id="r_a314c20bb8357ec1b4d8c65e3d7bae517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a314c20bb8357ec1b4d8c65e3d7bae517">MR_TiffParameters_GetMutable_layers</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
-<tr class="separator:a314c20bb8357ec1b4d8c65e3d7bae517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8332a37f963b858a907da0e9c0d3db" id="r_aeb8332a37f963b858a907da0e9c0d3db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8332a37f963b858a907da0e9c0d3db">MR_TiffParameters_Get_depth</a> (const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
-<tr class="separator:aeb8332a37f963b858a907da0e9c0d3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebdd4daa27f7af177906dac2b361db32" id="r_aebdd4daa27f7af177906dac2b361db32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebdd4daa27f7af177906dac2b361db32">MR_TiffParameters_Set_depth</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this, int32_t value)</td></tr>
-<tr class="separator:aebdd4daa27f7af177906dac2b361db32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11ac58b2892481a2b22d39ae50ea326a" id="r_a11ac58b2892481a2b22d39ae50ea326a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11ac58b2892481a2b22d39ae50ea326a">MR_TiffParameters_GetMutable_depth</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
-<tr class="separator:a11ac58b2892481a2b22d39ae50ea326a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48959bfdcaf866da45314401fa83ee79" id="r_a48959bfdcaf866da45314401fa83ee79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48959bfdcaf866da45314401fa83ee79">MR_TiffParameters_Get_layers</a> (const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
+<tr class="separator:a48959bfdcaf866da45314401fa83ee79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dd976e4dc40bc4a0dfa453ba2039b2d" id="r_a6dd976e4dc40bc4a0dfa453ba2039b2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dd976e4dc40bc4a0dfa453ba2039b2d">MR_TiffParameters_Set_layers</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this, int value)</td></tr>
+<tr class="separator:a6dd976e4dc40bc4a0dfa453ba2039b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53fab23204a0e0e758ae14e07d5c8cb" id="r_af53fab23204a0e0e758ae14e07d5c8cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af53fab23204a0e0e758ae14e07d5c8cb">MR_TiffParameters_GetMutable_layers</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
+<tr class="separator:af53fab23204a0e0e758ae14e07d5c8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2783c19801772af3e9012d5cc528c3" id="r_a3d2783c19801772af3e9012d5cc528c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d2783c19801772af3e9012d5cc528c3">MR_TiffParameters_Get_depth</a> (const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
+<tr class="separator:a3d2783c19801772af3e9012d5cc528c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6416a3645089bc7de63eefbed8fc7a" id="r_a8e6416a3645089bc7de63eefbed8fc7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e6416a3645089bc7de63eefbed8fc7a">MR_TiffParameters_Set_depth</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this, int value)</td></tr>
+<tr class="separator:a8e6416a3645089bc7de63eefbed8fc7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03f8985972ee509cd5165a9c69f23e4" id="r_af03f8985972ee509cd5165a9c69f23e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af03f8985972ee509cd5165a9c69f23e4">MR_TiffParameters_GetMutable_depth</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_this)</td></tr>
+<tr class="separator:af03f8985972ee509cd5165a9c69f23e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dee7f2d785015a9c5c5f51cef26ccdc" id="r_a4dee7f2d785015a9c5c5f51cef26ccdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dee7f2d785015a9c5c5f51cef26ccdc">MR_TiffParameters_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a4dee7f2d785015a9c5c5f51cef26ccdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20f597b012d9734911bf74a4553f7dcc" id="r_a20f597b012d9734911bf74a4553f7dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20f597b012d9734911bf74a4553f7dcc">MR_TiffParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -306,12 +304,12 @@ Functions</h2></td></tr>
 <tr class="separator:a17c5bcd6f1f2e661a7ea8f64fc95c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6e549c5b2480e273e13684f4fb2a7f" id="r_a2b6e549c5b2480e273e13684f4fb2a7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afa38952c2821dd9313d3930fac48da71">MR_expected_MR_TiffParameters_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6e549c5b2480e273e13684f4fb2a7f">MR_readTiffParameters</a> (const char *path, const char *path_end)</td></tr>
 <tr class="separator:a2b6e549c5b2480e273e13684f4fb2a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a947ab7e0372c3fed9c62da56bc339ba4" id="r_a947ab7e0372c3fed9c62da56bc339ba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947ab7e0372c3fed9c62da56bc339ba4">MR_RawTiffOutput_Get_bytes</a> (const <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this)</td></tr>
-<tr class="separator:a947ab7e0372c3fed9c62da56bc339ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba5165817578bfb2ea7b8bcbb7565938" id="r_aba5165817578bfb2ea7b8bcbb7565938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba5165817578bfb2ea7b8bcbb7565938">MR_RawTiffOutput_Set_bytes</a> (<a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this, uint8_t *value)</td></tr>
-<tr class="separator:aba5165817578bfb2ea7b8bcbb7565938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34dd6303fee3260ac540af06f83f5443" id="r_a34dd6303fee3260ac540af06f83f5443"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34dd6303fee3260ac540af06f83f5443">MR_RawTiffOutput_GetMutable_bytes</a> (<a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this)</td></tr>
-<tr class="separator:a34dd6303fee3260ac540af06f83f5443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d0f4582418040a41d7ba735a97c2fe8" id="r_a4d0f4582418040a41d7ba735a97c2fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d0f4582418040a41d7ba735a97c2fe8">MR_RawTiffOutput_Get_bytes</a> (const <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this)</td></tr>
+<tr class="separator:a4d0f4582418040a41d7ba735a97c2fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a042214539d58b0c97e28cd459e21d78b" id="r_a042214539d58b0c97e28cd459e21d78b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a042214539d58b0c97e28cd459e21d78b">MR_RawTiffOutput_Set_bytes</a> (<a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this, unsigned char *value)</td></tr>
+<tr class="separator:a042214539d58b0c97e28cd459e21d78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc7726fb5fd02628d1f20e7d29d97e2" id="r_a9cc7726fb5fd02628d1f20e7d29d97e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cc7726fb5fd02628d1f20e7d29d97e2">MR_RawTiffOutput_GetMutable_bytes</a> (<a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this)</td></tr>
+<tr class="separator:a9cc7726fb5fd02628d1f20e7d29d97e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54806fefd2daf267f3cdf2f406527ede" id="r_a54806fefd2daf267f3cdf2f406527ede"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54806fefd2daf267f3cdf2f406527ede">MR_RawTiffOutput_Get_size</a> (const <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this)</td></tr>
 <tr class="separator:a54806fefd2daf267f3cdf2f406527ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8e6ee80fdd97fc1bea76adf2a591f7" id="r_a5a8e6ee80fdd97fc1bea76adf2a591f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a8e6ee80fdd97fc1bea76adf2a591f7">MR_RawTiffOutput_Set_size</a> (<a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
@@ -352,8 +350,8 @@ Functions</h2></td></tr>
 <tr class="separator:acaf3b97c4dce78bef42f6c9bbbf883ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec00e67bd469ef24c1b4df9404aee194" id="r_aec00e67bd469ef24c1b4df9404aee194"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec00e67bd469ef24c1b4df9404aee194">MR_RawTiffOutput_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:aec00e67bd469ef24c1b4df9404aee194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46623f021e5397f9ce279a0bc8d717f5" id="r_a46623f021e5397f9ce279a0bc8d717f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46623f021e5397f9ce279a0bc8d717f5">MR_RawTiffOutput_ConstructFrom</a> (uint8_t *bytes, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *params, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *p2wXf, bool convertToFloat, float *min, float *max)</td></tr>
-<tr class="separator:a46623f021e5397f9ce279a0bc8d717f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d5d83be5ae36ad890d15234f352ecc" id="r_a06d5d83be5ae36ad890d15234f352ecc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d5d83be5ae36ad890d15234f352ecc">MR_RawTiffOutput_ConstructFrom</a> (unsigned char *bytes, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *params, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *p2wXf, bool convertToFloat, float *min, float *max)</td></tr>
+<tr class="separator:a06d5d83be5ae36ad890d15234f352ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a669a229139fb494137bbf150afa6836c" id="r_a669a229139fb494137bbf150afa6836c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a669a229139fb494137bbf150afa6836c">MR_RawTiffOutput_OffsetPtr</a> (const <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a669a229139fb494137bbf150afa6836c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a669a229139fb494137bbf150afa6836c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -372,8 +370,8 @@ Functions</h2></td></tr>
 <tr class="separator:a77c11ab8a80971a8427650232dddceaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b55d85837fc75f05299ce3519efaadc" id="r_a6b55d85837fc75f05299ce3519efaadc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b55d85837fc75f05299ce3519efaadc">MR_readRawTiff</a> (const char *path, const char *path_end, <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *output)</td></tr>
 <tr class="separator:a6b55d85837fc75f05299ce3519efaadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20884fe6e175383356de58888aff8d12" id="r_a20884fe6e175383356de58888aff8d12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20884fe6e175383356de58888aff8d12">MR_writeRawTiff</a> (const uint8_t *bytes, const char *path, const char *path_end, const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *params)</td></tr>
-<tr class="separator:a20884fe6e175383356de58888aff8d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cdac7057aa79429751fa746af6dd88" id="r_a84cdac7057aa79429751fa746af6dd88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84cdac7057aa79429751fa746af6dd88">MR_writeRawTiff</a> (const unsigned char *bytes, const char *path, const char *path_end, const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *params)</td></tr>
+<tr class="separator:a84cdac7057aa79429751fa746af6dd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
@@ -405,28 +403,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4f57ef5b9f066500ef14ece807fdc50" name="ac4f57ef5b9f066500ef14ece807fdc50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4f57ef5b9f066500ef14ece807fdc50">&#9670;&#160;</a></span>MR_BaseTiffParameters_SampleType</h2>
+<a id="a4345e4a158bdc76355eba3a1d2be15ee" name="a4345e4a158bdc76355eba3a1d2be15ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4345e4a158bdc76355eba3a1d2be15ee">&#9670;&#160;</a></span>MR_BaseTiffParameters_SampleType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="adce4cd5a823fef82608e3296c5f74cc5" name="adce4cd5a823fef82608e3296c5f74cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adce4cd5a823fef82608e3296c5f74cc5">&#9670;&#160;</a></span>MR_BaseTiffParameters_ValueType</h2>
+<a id="a05ce1c79cd57427917bd749d0eeb5aff" name="a05ce1c79cd57427917bd749d0eeb5aff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05ce1c79cd57427917bd749d0eeb5aff">&#9670;&#160;</a></span>MR_BaseTiffParameters_ValueType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -493,42 +491,42 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a68c01102755fc7d1c810bb0b0635fa90" name="a68c01102755fc7d1c810bb0b0635fa90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68c01102755fc7d1c810bb0b0635fa90">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="af308da9e08f734f6cdaf7ab0a4211594" name="af308da9e08f734f6cdaf7ab0a4211594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af308da9e08f734f6cdaf7ab0a4211594">&#9670;&#160;</a></span>MR_BaseTiffParameters_SampleType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a68c01102755fc7d1c810bb0b0635fa90a5ee2939e46b86829d60752a7192d8320" name="a68c01102755fc7d1c810bb0b0635fa90a5ee2939e46b86829d60752a7192d8320"></a>MR_BaseTiffParameters_SampleType_Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a68c01102755fc7d1c810bb0b0635fa90a111f577c994ef1859a2ac4a0bf3de45b" name="a68c01102755fc7d1c810bb0b0635fa90a111f577c994ef1859a2ac4a0bf3de45b"></a>MR_BaseTiffParameters_SampleType_Uint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a68c01102755fc7d1c810bb0b0635fa90a8bcfe13356117668e64e4fdab0d82caf" name="a68c01102755fc7d1c810bb0b0635fa90a8bcfe13356117668e64e4fdab0d82caf"></a>MR_BaseTiffParameters_SampleType_Int&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a68c01102755fc7d1c810bb0b0635fa90a2cfd300b28504f5a24a6b72bd4d8c9b2" name="a68c01102755fc7d1c810bb0b0635fa90a2cfd300b28504f5a24a6b72bd4d8c9b2"></a>MR_BaseTiffParameters_SampleType_Float&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af308da9e08f734f6cdaf7ab0a4211594a5ee2939e46b86829d60752a7192d8320" name="af308da9e08f734f6cdaf7ab0a4211594a5ee2939e46b86829d60752a7192d8320"></a>MR_BaseTiffParameters_SampleType_Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af308da9e08f734f6cdaf7ab0a4211594a111f577c994ef1859a2ac4a0bf3de45b" name="af308da9e08f734f6cdaf7ab0a4211594a111f577c994ef1859a2ac4a0bf3de45b"></a>MR_BaseTiffParameters_SampleType_Uint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af308da9e08f734f6cdaf7ab0a4211594a8bcfe13356117668e64e4fdab0d82caf" name="af308da9e08f734f6cdaf7ab0a4211594a8bcfe13356117668e64e4fdab0d82caf"></a>MR_BaseTiffParameters_SampleType_Int&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af308da9e08f734f6cdaf7ab0a4211594a2cfd300b28504f5a24a6b72bd4d8c9b2" name="af308da9e08f734f6cdaf7ab0a4211594a2cfd300b28504f5a24a6b72bd4d8c9b2"></a>MR_BaseTiffParameters_SampleType_Float&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="aa618c4d8c29ef4efe6f10c741fb1f47a" name="aa618c4d8c29ef4efe6f10c741fb1f47a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa618c4d8c29ef4efe6f10c741fb1f47a">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ae5dc799922594eedcb49960bd4d23859" name="ae5dc799922594eedcb49960bd4d23859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5dc799922594eedcb49960bd4d23859">&#9670;&#160;</a></span>MR_BaseTiffParameters_ValueType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa618c4d8c29ef4efe6f10c741fb1f47aa151e264ff621918a9bb861b8f74c6e69" name="aa618c4d8c29ef4efe6f10c741fb1f47aa151e264ff621918a9bb861b8f74c6e69"></a>MR_BaseTiffParameters_ValueType_Unknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa618c4d8c29ef4efe6f10c741fb1f47aac7858153fa05ab86078a7d9c803823dd" name="aa618c4d8c29ef4efe6f10c741fb1f47aac7858153fa05ab86078a7d9c803823dd"></a>MR_BaseTiffParameters_ValueType_Scalar&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa618c4d8c29ef4efe6f10c741fb1f47aae86ddae04f034c908e86a67ad9a280fa" name="aa618c4d8c29ef4efe6f10c741fb1f47aae86ddae04f034c908e86a67ad9a280fa"></a>MR_BaseTiffParameters_ValueType_RGB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa618c4d8c29ef4efe6f10c741fb1f47aa10d74b6fb2e4e611718341dc43d539c7" name="aa618c4d8c29ef4efe6f10c741fb1f47aa10d74b6fb2e4e611718341dc43d539c7"></a>MR_BaseTiffParameters_ValueType_RGBA&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae5dc799922594eedcb49960bd4d23859a151e264ff621918a9bb861b8f74c6e69" name="ae5dc799922594eedcb49960bd4d23859a151e264ff621918a9bb861b8f74c6e69"></a>MR_BaseTiffParameters_ValueType_Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae5dc799922594eedcb49960bd4d23859ac7858153fa05ab86078a7d9c803823dd" name="ae5dc799922594eedcb49960bd4d23859ac7858153fa05ab86078a7d9c803823dd"></a>MR_BaseTiffParameters_ValueType_Scalar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae5dc799922594eedcb49960bd4d23859ae86ddae04f034c908e86a67ad9a280fa" name="ae5dc799922594eedcb49960bd4d23859ae86ddae04f034c908e86a67ad9a280fa"></a>MR_BaseTiffParameters_ValueType_RGB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae5dc799922594eedcb49960bd4d23859a10d74b6fb2e4e611718341dc43d539c7" name="ae5dc799922594eedcb49960bd4d23859a10d74b6fb2e4e611718341dc43d539c7"></a>MR_BaseTiffParameters_ValueType_RGBA&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -556,8 +554,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f6d0c8a37917251d620afff372fa2ae" name="a1f6d0c8a37917251d620afff372fa2ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f6d0c8a37917251d620afff372fa2ae">&#9670;&#160;</a></span>MR_BaseTiffParameters_ConstructFrom()</h2>
+<a id="a152a8a8a69edcc27686bb173d0c6b5dd" name="a152a8a8a69edcc27686bb173d0c6b5dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a152a8a8a69edcc27686bb173d0c6b5dd">&#9670;&#160;</a></span>MR_BaseTiffParameters_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,17 +563,17 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> * MR_BaseTiffParameters_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a></td>          <td class="paramname"><span class="paramname"><em>sampleType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a></td>          <td class="paramname"><span class="paramname"><em>sampleType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a></td>          <td class="paramname"><span class="paramname"><em>valueType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a></td>          <td class="paramname"><span class="paramname"><em>valueType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>bytesPerSample</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bytesPerSample</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -680,14 +678,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6af2e8b206fecd1c6e09dc547e8370b" name="ac6af2e8b206fecd1c6e09dc547e8370b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6af2e8b206fecd1c6e09dc547e8370b">&#9670;&#160;</a></span>MR_BaseTiffParameters_Get_bytesPerSample()</h2>
+<a id="a90cca47ae571f24257e0f891723742cd" name="a90cca47ae571f24257e0f891723742cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90cca47ae571f24257e0f891723742cd">&#9670;&#160;</a></span>MR_BaseTiffParameters_Get_bytesPerSample()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_BaseTiffParameters_Get_bytesPerSample </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_BaseTiffParameters_Get_bytesPerSample </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -723,7 +721,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a> * MR_BaseTiffParameters_Get_sampleType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> * MR_BaseTiffParameters_Get_sampleType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -741,7 +739,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a> * MR_BaseTiffParameters_Get_valueType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> * MR_BaseTiffParameters_Get_valueType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -752,14 +750,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adb831cd4d75a85fcc42b2d91aa591398" name="adb831cd4d75a85fcc42b2d91aa591398"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb831cd4d75a85fcc42b2d91aa591398">&#9670;&#160;</a></span>MR_BaseTiffParameters_GetMutable_bytesPerSample()</h2>
+<a id="a47ed20fdd4b20ac64393c4b7181ba550" name="a47ed20fdd4b20ac64393c4b7181ba550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ed20fdd4b20ac64393c4b7181ba550">&#9670;&#160;</a></span>MR_BaseTiffParameters_GetMutable_bytesPerSample()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_BaseTiffParameters_GetMutable_bytesPerSample </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_BaseTiffParameters_GetMutable_bytesPerSample </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -795,7 +793,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a> * MR_BaseTiffParameters_GetMutable_sampleType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a> * MR_BaseTiffParameters_GetMutable_sampleType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -813,7 +811,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a> * MR_BaseTiffParameters_GetMutable_valueType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a> * MR_BaseTiffParameters_GetMutable_valueType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -888,8 +886,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad59da03a7d753bc8ba79bfc20437ee5e" name="ad59da03a7d753bc8ba79bfc20437ee5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59da03a7d753bc8ba79bfc20437ee5e">&#9670;&#160;</a></span>MR_BaseTiffParameters_Set_bytesPerSample()</h2>
+<a id="a061832baee968d6623ece2d9afa2bc55" name="a061832baee968d6623ece2d9afa2bc55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a061832baee968d6623ece2d9afa2bc55">&#9670;&#160;</a></span>MR_BaseTiffParameters_Set_bytesPerSample()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -902,7 +900,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -946,7 +944,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ac4f57ef5b9f066500ef14ece807fdc50">MR_BaseTiffParameters_SampleType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#af308da9e08f734f6cdaf7ab0a4211594">MR_BaseTiffParameters_SampleType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -968,7 +966,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#adce4cd5a823fef82608e3296c5f74cc5">MR_BaseTiffParameters_ValueType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ae5dc799922594eedcb49960bd4d23859">MR_BaseTiffParameters_ValueType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1082,8 +1080,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a46623f021e5397f9ce279a0bc8d717f5" name="a46623f021e5397f9ce279a0bc8d717f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46623f021e5397f9ce279a0bc8d717f5">&#9670;&#160;</a></span>MR_RawTiffOutput_ConstructFrom()</h2>
+<a id="a06d5d83be5ae36ad890d15234f352ecc" name="a06d5d83be5ae36ad890d15234f352ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d5d83be5ae36ad890d15234f352ecc">&#9670;&#160;</a></span>MR_RawTiffOutput_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1091,7 +1089,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> * MR_RawTiffOutput_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>, </td>
+          <td class="paramtype">unsigned char *</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1221,14 +1219,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a947ab7e0372c3fed9c62da56bc339ba4" name="a947ab7e0372c3fed9c62da56bc339ba4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a947ab7e0372c3fed9c62da56bc339ba4">&#9670;&#160;</a></span>MR_RawTiffOutput_Get_bytes()</h2>
+<a id="a4d0f4582418040a41d7ba735a97c2fe8" name="a4d0f4582418040a41d7ba735a97c2fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0f4582418040a41d7ba735a97c2fe8">&#9670;&#160;</a></span>MR_RawTiffOutput_Get_bytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *const  * MR_RawTiffOutput_Get_bytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char *const  * MR_RawTiffOutput_Get_bytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1347,14 +1345,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a34dd6303fee3260ac540af06f83f5443" name="a34dd6303fee3260ac540af06f83f5443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34dd6303fee3260ac540af06f83f5443">&#9670;&#160;</a></span>MR_RawTiffOutput_GetMutable_bytes()</h2>
+<a id="a9cc7726fb5fd02628d1f20e7d29d97e2" name="a9cc7726fb5fd02628d1f20e7d29d97e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc7726fb5fd02628d1f20e7d29d97e2">&#9670;&#160;</a></span>MR_RawTiffOutput_GetMutable_bytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t ** MR_RawTiffOutput_GetMutable_bytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned char ** MR_RawTiffOutput_GetMutable_bytes </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1519,8 +1517,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aba5165817578bfb2ea7b8bcbb7565938" name="aba5165817578bfb2ea7b8bcbb7565938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba5165817578bfb2ea7b8bcbb7565938">&#9670;&#160;</a></span>MR_RawTiffOutput_Set_bytes()</h2>
+<a id="a042214539d58b0c97e28cd459e21d78b" name="a042214539d58b0c97e28cd459e21d78b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042214539d58b0c97e28cd459e21d78b">&#9670;&#160;</a></span>MR_RawTiffOutput_Set_bytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1533,7 +1531,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">unsigned char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1836,14 +1834,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb8332a37f963b858a907da0e9c0d3db" name="aeb8332a37f963b858a907da0e9c0d3db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8332a37f963b858a907da0e9c0d3db">&#9670;&#160;</a></span>MR_TiffParameters_Get_depth()</h2>
+<a id="a3d2783c19801772af3e9012d5cc528c3" name="a3d2783c19801772af3e9012d5cc528c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2783c19801772af3e9012d5cc528c3">&#9670;&#160;</a></span>MR_TiffParameters_Get_depth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_TiffParameters_Get_depth </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_TiffParameters_Get_depth </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1854,14 +1852,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad991f1ac1a114b346395a0c0b81ad3a4" name="ad991f1ac1a114b346395a0c0b81ad3a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad991f1ac1a114b346395a0c0b81ad3a4">&#9670;&#160;</a></span>MR_TiffParameters_Get_layers()</h2>
+<a id="a48959bfdcaf866da45314401fa83ee79" name="a48959bfdcaf866da45314401fa83ee79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48959bfdcaf866da45314401fa83ee79">&#9670;&#160;</a></span>MR_TiffParameters_Get_layers()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_TiffParameters_Get_layers </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_TiffParameters_Get_layers </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1908,14 +1906,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a11ac58b2892481a2b22d39ae50ea326a" name="a11ac58b2892481a2b22d39ae50ea326a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11ac58b2892481a2b22d39ae50ea326a">&#9670;&#160;</a></span>MR_TiffParameters_GetMutable_depth()</h2>
+<a id="af03f8985972ee509cd5165a9c69f23e4" name="af03f8985972ee509cd5165a9c69f23e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af03f8985972ee509cd5165a9c69f23e4">&#9670;&#160;</a></span>MR_TiffParameters_GetMutable_depth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_TiffParameters_GetMutable_depth </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_TiffParameters_GetMutable_depth </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1926,14 +1924,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a314c20bb8357ec1b4d8c65e3d7bae517" name="a314c20bb8357ec1b4d8c65e3d7bae517"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a314c20bb8357ec1b4d8c65e3d7bae517">&#9670;&#160;</a></span>MR_TiffParameters_GetMutable_layers()</h2>
+<a id="af53fab23204a0e0e758ae14e07d5c8cb" name="af53fab23204a0e0e758ae14e07d5c8cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53fab23204a0e0e758ae14e07d5c8cb">&#9670;&#160;</a></span>MR_TiffParameters_GetMutable_layers()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_TiffParameters_GetMutable_layers </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_TiffParameters_GetMutable_layers </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2045,8 +2043,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aebdd4daa27f7af177906dac2b361db32" name="aebdd4daa27f7af177906dac2b361db32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebdd4daa27f7af177906dac2b361db32">&#9670;&#160;</a></span>MR_TiffParameters_Set_depth()</h2>
+<a id="a8e6416a3645089bc7de63eefbed8fc7a" name="a8e6416a3645089bc7de63eefbed8fc7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6416a3645089bc7de63eefbed8fc7a">&#9670;&#160;</a></span>MR_TiffParameters_Set_depth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2059,7 +2057,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2067,8 +2065,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1fffcbdaa8ba1b2292abab974f9aa09" name="ad1fffcbdaa8ba1b2292abab974f9aa09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1fffcbdaa8ba1b2292abab974f9aa09">&#9670;&#160;</a></span>MR_TiffParameters_Set_layers()</h2>
+<a id="a6dd976e4dc40bc4a0dfa453ba2039b2d" name="a6dd976e4dc40bc4a0dfa453ba2039b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dd976e4dc40bc4a0dfa453ba2039b2d">&#9670;&#160;</a></span>MR_TiffParameters_Set_layers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2081,7 +2079,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2151,8 +2149,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a20884fe6e175383356de58888aff8d12" name="a20884fe6e175383356de58888aff8d12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20884fe6e175383356de58888aff8d12">&#9670;&#160;</a></span>MR_writeRawTiff()</h2>
+<a id="a84cdac7057aa79429751fa746af6dd88" name="a84cdac7057aa79429751fa746af6dd88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cdac7057aa79429751fa746af6dd88">&#9670;&#160;</a></span>MR_writeRawTiff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2160,7 +2158,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_writeRawTiff </td>
           <td>(</td>
-          <td class="paramtype">const uint8_t *</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>, </td>
+          <td class="paramtype">const unsigned char *</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

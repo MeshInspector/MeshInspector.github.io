@@ -4,6 +4,7 @@ var classmrmeshpy_1_1ObjMap =
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#a7fb3da2638085ddf97393b76439dff41", null ],
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#a71f479f9859f1041d2bc4b37fa46fa78", null ],
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#ab7cd514dd773beddb320efb3e3bad0cf", null ],
+    [ "__init__", "classmrmeshpy_1_1ObjMap.html#a44d25296d337eeb2c8eb23bb7a0466d7", null ],
     [ "__eq__", "classmrmeshpy_1_1ObjMap.html#a02a19e87624178c3ea21e30a7387c5a5", null ],
     [ "__getitem__", "classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c", null ],
     [ "__getitem__", "classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c", null ],

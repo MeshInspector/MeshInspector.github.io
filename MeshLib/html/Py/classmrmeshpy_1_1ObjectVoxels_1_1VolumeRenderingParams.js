@@ -4,6 +4,7 @@ var classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams =
     [ "LutType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType" ],
     [ "ShadingType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType" ],
     [ "__init__", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a40bfed2ce7243a53dd40c3b719f3d6bb", null ],
+    [ "__init__", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a1007930aba59f08d485d1a2f268b21ae", null ],
     [ "__init__", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a84d219c0f39f03271739ef930d53a7da", null ],
     [ "max", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa32de8b8b0e6931568283d100fa6c773", null ],
     [ "max", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#af79375740b1dc212f68f5e770ae232b0", null ],

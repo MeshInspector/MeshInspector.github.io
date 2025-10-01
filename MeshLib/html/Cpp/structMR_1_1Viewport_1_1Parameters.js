@@ -27,5 +27,6 @@ var structMR_1_1Viewport_1_1Parameters =
     [ "lightPosition", "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1", null ],
     [ "objectScale", "structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796", null ],
     [ "orthographic", "structMR_1_1Viewport_1_1Parameters.html#a331a42d9b0fd61e7260642f7ce040342", null ],
-    [ "selectable", "structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2", null ]
+    [ "selectable", "structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2", null ],
+    [ "staticRotationPivot", "structMR_1_1Viewport_1_1Parameters.html#aba40f3c99bf1294e53abdd88d21278e8", null ]
 ];

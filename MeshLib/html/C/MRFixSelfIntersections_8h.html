@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRFixSelfIntersections_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRFixSelfIntersections_8h.html',''); initResizable(tru
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRFixSelfIntersections_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -173,16 +171,17 @@ Typedefs</h2></td></tr>
 <tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f6deedc955d5097e00c2842d51d3cef" id="r_a4f6deedc955d5097e00c2842d51d3cef"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a></td></tr>
 <tr class="separator:a4f6deedc955d5097e00c2842d51d3cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2c5cd7e815d3b9071fe74c151f54ab3" id="r_ae2c5cd7e815d3b9071fe74c151f54ab3"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td></tr>
-<tr class="memdesc:ae2c5cd7e815d3b9071fe74c151f54ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix method.  <br /></td></tr>
-<tr class="separator:ae2c5cd7e815d3b9071fe74c151f54ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4201e50c5a079001bae9b509dc2f8c4" id="r_aa4201e50c5a079001bae9b509dc2f8c4"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4201e50c5a079001bae9b509dc2f8c4">MR_SelfIntersections_Settings_Method</a></td></tr>
+<tr class="memdesc:aa4201e50c5a079001bae9b509dc2f8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix method.  <br /></td></tr>
+<tr class="separator:aa4201e50c5a079001bae9b509dc2f8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aac34dfe6c6b73b43a4656c9dce041034" id="r_aac34dfe6c6b73b43a4656c9dce041034"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034ac28c438771167d2ea8dad8bc0d44d467">MR_SelfIntersections_Settings_Method_Relax</a> = 0
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034ae9afb0710cc07ee7b617f9abebb8dbaa">MR_SelfIntersections_Settings_Method_CutAndFill</a> = 1
+<tr class="memitem:a4c56632fe368956d2a2ca09ba4ec21b7" id="r_a4c56632fe368956d2a2ca09ba4ec21b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> { <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7ac28c438771167d2ea8dad8bc0d44d467">MR_SelfIntersections_Settings_Method_Relax</a> = 0
+, <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7ae9afb0710cc07ee7b617f9abebb8dbaa">MR_SelfIntersections_Settings_Method_CutAndFill</a> = 1
  }</td></tr>
-<tr class="separator:aac34dfe6c6b73b43a4656c9dce041034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a4c56632fe368956d2a2ca09ba4ec21b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix method.  <a href="#a4c56632fe368956d2a2ca09ba4ec21b7">More...</a><br /></td></tr>
+<tr class="separator:a4c56632fe368956d2a2ca09ba4ec21b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -192,24 +191,24 @@ Functions</h2></td></tr>
 <tr class="separator:a1dfdc2bbae93b47a25f3d098d4d121a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add28ca1aff01a5abd0bbd20838e29926" id="r_add28ca1aff01a5abd0bbd20838e29926"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add28ca1aff01a5abd0bbd20838e29926">MR_SelfIntersections_Settings_GetMutable_touchIsIntersection</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
 <tr class="separator:add28ca1aff01a5abd0bbd20838e29926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa39e080e957e0a9420444ad46992df69" id="r_aa39e080e957e0a9420444ad46992df69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39e080e957e0a9420444ad46992df69">MR_SelfIntersections_Settings_Get_method</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="memitem:aa39e080e957e0a9420444ad46992df69" id="r_aa39e080e957e0a9420444ad46992df69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39e080e957e0a9420444ad46992df69">MR_SelfIntersections_Settings_Get_method</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
 <tr class="separator:aa39e080e957e0a9420444ad46992df69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eeb3eb14e60a8b10cc775595452dc8f" id="r_a0eeb3eb14e60a8b10cc775595452dc8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eeb3eb14e60a8b10cc775595452dc8f">MR_SelfIntersections_Settings_Set_method</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> value)</td></tr>
+<tr class="memitem:a0eeb3eb14e60a8b10cc775595452dc8f" id="r_a0eeb3eb14e60a8b10cc775595452dc8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eeb3eb14e60a8b10cc775595452dc8f">MR_SelfIntersections_Settings_Set_method</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> value)</td></tr>
 <tr class="separator:a0eeb3eb14e60a8b10cc775595452dc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a6b382d0df040aeaf369d2af21ef503" id="r_a6a6b382d0df040aeaf369d2af21ef503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a6b382d0df040aeaf369d2af21ef503">MR_SelfIntersections_Settings_GetMutable_method</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="memitem:a6a6b382d0df040aeaf369d2af21ef503" id="r_a6a6b382d0df040aeaf369d2af21ef503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a6b382d0df040aeaf369d2af21ef503">MR_SelfIntersections_Settings_GetMutable_method</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
 <tr class="separator:a6a6b382d0df040aeaf369d2af21ef503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae776f101af02aaabf694ad0abcf6cf15" id="r_ae776f101af02aaabf694ad0abcf6cf15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae776f101af02aaabf694ad0abcf6cf15">MR_SelfIntersections_Settings_Get_relaxIterations</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
-<tr class="separator:ae776f101af02aaabf694ad0abcf6cf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad21bb391752bd61f6131725bdedcb733" id="r_ad21bb391752bd61f6131725bdedcb733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21bb391752bd61f6131725bdedcb733">MR_SelfIntersections_Settings_Set_relaxIterations</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:ad21bb391752bd61f6131725bdedcb733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf31c43895cce5edb12a0d1affe6035e" id="r_acf31c43895cce5edb12a0d1affe6035e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf31c43895cce5edb12a0d1affe6035e">MR_SelfIntersections_Settings_GetMutable_relaxIterations</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
-<tr class="separator:acf31c43895cce5edb12a0d1affe6035e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1966e64db2237a26c1abe12866db960" id="r_ae1966e64db2237a26c1abe12866db960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1966e64db2237a26c1abe12866db960">MR_SelfIntersections_Settings_Get_maxExpand</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
-<tr class="separator:ae1966e64db2237a26c1abe12866db960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7313c299cba68ff9cedb368a082fd6e1" id="r_a7313c299cba68ff9cedb368a082fd6e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7313c299cba68ff9cedb368a082fd6e1">MR_SelfIntersections_Settings_Set_maxExpand</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a7313c299cba68ff9cedb368a082fd6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f547fb8246329ebbf2ab36f4f8fcbf9" id="r_a1f547fb8246329ebbf2ab36f4f8fcbf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f547fb8246329ebbf2ab36f4f8fcbf9">MR_SelfIntersections_Settings_GetMutable_maxExpand</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
-<tr class="separator:a1f547fb8246329ebbf2ab36f4f8fcbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8812a34b96a904c495dfaf5b881592" id="r_adf8812a34b96a904c495dfaf5b881592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf8812a34b96a904c495dfaf5b881592">MR_SelfIntersections_Settings_Get_relaxIterations</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:adf8812a34b96a904c495dfaf5b881592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e72339f26b2352bb503deb754c2e658" id="r_a5e72339f26b2352bb503deb754c2e658"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e72339f26b2352bb503deb754c2e658">MR_SelfIntersections_Settings_Set_relaxIterations</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, int value)</td></tr>
+<tr class="separator:a5e72339f26b2352bb503deb754c2e658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a454c56aafe34cd0c9246dc6f63b8d1e0" id="r_a454c56aafe34cd0c9246dc6f63b8d1e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454c56aafe34cd0c9246dc6f63b8d1e0">MR_SelfIntersections_Settings_GetMutable_relaxIterations</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a454c56aafe34cd0c9246dc6f63b8d1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9057e3819b28adeb8ae8f4d96b6d7486" id="r_a9057e3819b28adeb8ae8f4d96b6d7486"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9057e3819b28adeb8ae8f4d96b6d7486">MR_SelfIntersections_Settings_Get_maxExpand</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a9057e3819b28adeb8ae8f4d96b6d7486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f0f2a7475acf646b95ffe96eb7bc81" id="r_aa9f0f2a7475acf646b95ffe96eb7bc81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9f0f2a7475acf646b95ffe96eb7bc81">MR_SelfIntersections_Settings_Set_maxExpand</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, int value)</td></tr>
+<tr class="separator:aa9f0f2a7475acf646b95ffe96eb7bc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a683218659fe68a699fb01070178546f2" id="r_a683218659fe68a699fb01070178546f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a683218659fe68a699fb01070178546f2">MR_SelfIntersections_Settings_GetMutable_maxExpand</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a683218659fe68a699fb01070178546f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28a7705fccad3a37fcdd2cec55f8b85f" id="r_a28a7705fccad3a37fcdd2cec55f8b85f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a7705fccad3a37fcdd2cec55f8b85f">MR_SelfIntersections_Settings_Get_subdivideEdgeLen</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
 <tr class="separator:a28a7705fccad3a37fcdd2cec55f8b85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9596ec9be7c013bec0821fb939e86f29" id="r_a9596ec9be7c013bec0821fb939e86f29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9596ec9be7c013bec0821fb939e86f29">MR_SelfIntersections_Settings_Set_subdivideEdgeLen</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, float value)</td></tr>
@@ -226,8 +225,8 @@ Functions</h2></td></tr>
 <tr class="separator:acf75195a5eb51458f2e5e228ff2dfcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c6bd5e108b4f20a9210a938259d2e9a" id="r_a2c6bd5e108b4f20a9210a938259d2e9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c6bd5e108b4f20a9210a938259d2e9a">MR_SelfIntersections_Settings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a2c6bd5e108b4f20a9210a938259d2e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a7d12855f81f8ea17d91e490f2d3f19" id="r_a9a7d12855f81f8ea17d91e490f2d3f19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7d12855f81f8ea17d91e490f2d3f19">MR_SelfIntersections_Settings_ConstructFrom</a> (bool touchIsIntersection, <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> method, int32_t relaxIterations, int32_t maxExpand, float subdivideEdgeLen, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
-<tr class="separator:a9a7d12855f81f8ea17d91e490f2d3f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad069e4cb1e9ceb5ee7a5379fe8f95f2a" id="r_ad069e4cb1e9ceb5ee7a5379fe8f95f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad069e4cb1e9ceb5ee7a5379fe8f95f2a">MR_SelfIntersections_Settings_ConstructFrom</a> (bool touchIsIntersection, <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> method, int relaxIterations, int maxExpand, float subdivideEdgeLen, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:ad069e4cb1e9ceb5ee7a5379fe8f95f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e6ca8cb178111fffd20851972307d7" id="r_a61e6ca8cb178111fffd20851972307d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61e6ca8cb178111fffd20851972307d7">MR_SelfIntersections_Settings_OffsetPtr</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a61e6ca8cb178111fffd20851972307d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a61e6ca8cb178111fffd20851972307d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,14 +306,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae2c5cd7e815d3b9071fe74c151f54ab3" name="ae2c5cd7e815d3b9071fe74c151f54ab3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2c5cd7e815d3b9071fe74c151f54ab3">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Method</h2>
+<a id="aa4201e50c5a079001bae9b509dc2f8c4" name="aa4201e50c5a079001bae9b509dc2f8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4201e50c5a079001bae9b509dc2f8c4">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Method</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -338,21 +337,23 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aac34dfe6c6b73b43a4656c9dce041034" name="aac34dfe6c6b73b43a4656c9dce041034"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac34dfe6c6b73b43a4656c9dce041034">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a4c56632fe368956d2a2ca09ba4ec21b7" name="a4c56632fe368956d2a2ca09ba4ec21b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c56632fe368956d2a2ca09ba4ec21b7">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Method</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fix method. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034ac28c438771167d2ea8dad8bc0d44d467" name="aac34dfe6c6b73b43a4656c9dce041034ac28c438771167d2ea8dad8bc0d44d467"></a>MR_SelfIntersections_Settings_Method_Relax&#160;</td><td class="fielddoc"><p>Relax mesh around self-intersections. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4c56632fe368956d2a2ca09ba4ec21b7ac28c438771167d2ea8dad8bc0d44d467" name="a4c56632fe368956d2a2ca09ba4ec21b7ac28c438771167d2ea8dad8bc0d44d467"></a>MR_SelfIntersections_Settings_Method_Relax&#160;</td><td class="fielddoc"><p>Relax mesh around self-intersections. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034ae9afb0710cc07ee7b617f9abebb8dbaa" name="aac34dfe6c6b73b43a4656c9dce041034ae9afb0710cc07ee7b617f9abebb8dbaa"></a>MR_SelfIntersections_Settings_Method_CutAndFill&#160;</td><td class="fielddoc"><p>Cut and re-fill regions around self-intersections (may fall back to <code>Relax</code>) </p>
+<tr><td class="fieldname"><a id="a4c56632fe368956d2a2ca09ba4ec21b7ae9afb0710cc07ee7b617f9abebb8dbaa" name="a4c56632fe368956d2a2ca09ba4ec21b7ae9afb0710cc07ee7b617f9abebb8dbaa"></a>MR_SelfIntersections_Settings_Method_CutAndFill&#160;</td><td class="fielddoc"><p>Cut and re-fill regions around self-intersections (may fall back to <code>Relax</code>) </p>
 </td></tr>
 </table>
 
@@ -440,8 +441,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9a7d12855f81f8ea17d91e490f2d3f19" name="a9a7d12855f81f8ea17d91e490f2d3f19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a7d12855f81f8ea17d91e490f2d3f19">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_ConstructFrom()</h2>
+<a id="ad069e4cb1e9ceb5ee7a5379fe8f95f2a" name="ad069e4cb1e9ceb5ee7a5379fe8f95f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad069e4cb1e9ceb5ee7a5379fe8f95f2a">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,17 +455,17 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td>          <td class="paramname"><span class="paramname"><em>method</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a></td>          <td class="paramname"><span class="paramname"><em>method</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>relaxIterations</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>relaxIterations</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxExpand</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxExpand</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -601,14 +602,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae1966e64db2237a26c1abe12866db960" name="ae1966e64db2237a26c1abe12866db960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1966e64db2237a26c1abe12866db960">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_maxExpand()</h2>
+<a id="a9057e3819b28adeb8ae8f4d96b6d7486" name="a9057e3819b28adeb8ae8f4d96b6d7486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9057e3819b28adeb8ae8f4d96b6d7486">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_maxExpand()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_SelfIntersections_Settings_Get_maxExpand </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_SelfIntersections_Settings_Get_maxExpand </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -626,7 +627,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> * MR_SelfIntersections_Settings_Get_method </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> * MR_SelfIntersections_Settings_Get_method </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -637,14 +638,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae776f101af02aaabf694ad0abcf6cf15" name="ae776f101af02aaabf694ad0abcf6cf15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae776f101af02aaabf694ad0abcf6cf15">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_relaxIterations()</h2>
+<a id="adf8812a34b96a904c495dfaf5b881592" name="adf8812a34b96a904c495dfaf5b881592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf8812a34b96a904c495dfaf5b881592">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_relaxIterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_SelfIntersections_Settings_Get_relaxIterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_SelfIntersections_Settings_Get_relaxIterations </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -709,14 +710,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f547fb8246329ebbf2ab36f4f8fcbf9" name="a1f547fb8246329ebbf2ab36f4f8fcbf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f547fb8246329ebbf2ab36f4f8fcbf9">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_maxExpand()</h2>
+<a id="a683218659fe68a699fb01070178546f2" name="a683218659fe68a699fb01070178546f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a683218659fe68a699fb01070178546f2">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_maxExpand()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_SelfIntersections_Settings_GetMutable_maxExpand </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_SelfIntersections_Settings_GetMutable_maxExpand </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -734,7 +735,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> * MR_SelfIntersections_Settings_GetMutable_method </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a> * MR_SelfIntersections_Settings_GetMutable_method </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -745,14 +746,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acf31c43895cce5edb12a0d1affe6035e" name="acf31c43895cce5edb12a0d1affe6035e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf31c43895cce5edb12a0d1affe6035e">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_relaxIterations()</h2>
+<a id="a454c56aafe34cd0c9246dc6f63b8d1e0" name="a454c56aafe34cd0c9246dc6f63b8d1e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454c56aafe34cd0c9246dc6f63b8d1e0">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_relaxIterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_SelfIntersections_Settings_GetMutable_relaxIterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_SelfIntersections_Settings_GetMutable_relaxIterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -872,8 +873,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7313c299cba68ff9cedb368a082fd6e1" name="a7313c299cba68ff9cedb368a082fd6e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7313c299cba68ff9cedb368a082fd6e1">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_maxExpand()</h2>
+<a id="aa9f0f2a7475acf646b95ffe96eb7bc81" name="aa9f0f2a7475acf646b95ffe96eb7bc81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f0f2a7475acf646b95ffe96eb7bc81">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_maxExpand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -886,7 +887,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -908,7 +909,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a4c56632fe368956d2a2ca09ba4ec21b7">MR_SelfIntersections_Settings_Method</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -916,8 +917,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad21bb391752bd61f6131725bdedcb733" name="ad21bb391752bd61f6131725bdedcb733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad21bb391752bd61f6131725bdedcb733">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_relaxIterations()</h2>
+<a id="a5e72339f26b2352bb503deb754c2e658" name="a5e72339f26b2352bb503deb754c2e658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e72339f26b2352bb503deb754c2e658">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_relaxIterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -930,7 +931,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

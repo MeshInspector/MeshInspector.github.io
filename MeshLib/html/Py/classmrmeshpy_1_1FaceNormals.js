@@ -4,6 +4,7 @@ var classmrmeshpy_1_1FaceNormals =
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a22a4339e437547531d564c86329faed2", null ],
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a674cd101e78ed8f192c59e32cf3e1bcf", null ],
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a4c761afb6d48e15f17c52a8d34e3395c", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a9918c31bcdb0c44c5ceab28f1b93fd1e", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceNormals.html#ac5f3eb9616539c7b8a50343b382d5f5d", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceNormals.html#a4cd9660896e4b507046366c257e2aba0", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceNormals.html#a4cd9660896e4b507046366c257e2aba0", null ],

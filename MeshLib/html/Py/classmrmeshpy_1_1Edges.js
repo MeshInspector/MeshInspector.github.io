@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Edges =
     [ "__init__", "classmrmeshpy_1_1Edges.html#a6fc6fdadced5d2dfd984f95bde8dad63", null ],
     [ "__init__", "classmrmeshpy_1_1Edges.html#a3169dda529730ae5a653423204589927", null ],
     [ "__init__", "classmrmeshpy_1_1Edges.html#a6a5e7fd2d6b57290bb2f35191b2fff3b", null ],
+    [ "__init__", "classmrmeshpy_1_1Edges.html#a1405afdfe4856a5abd981a9fab4ddd78", null ],
     [ "__eq__", "classmrmeshpy_1_1Edges.html#a126153d7b6fa5df2e0e7dfa8320b3b08", null ],
     [ "__getitem__", "classmrmeshpy_1_1Edges.html#a4aaff0c16ca04b64d4047ecbb40e3ea0", null ],
     [ "__getitem__", "classmrmeshpy_1_1Edges.html#a4aaff0c16ca04b64d4047ecbb40e3ea0", null ],

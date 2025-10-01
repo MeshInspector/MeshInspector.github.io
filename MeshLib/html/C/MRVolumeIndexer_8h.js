@@ -1,12 +1,12 @@
 var MRVolumeIndexer_8h =
 [
-    [ "MR_OutEdge", "MRVolumeIndexer_8h.html#af140ffd520200f015e9fab26ea4218ae", null ],
+    [ "MR_OutEdge", "MRVolumeIndexer_8h.html#ac0b4b1b9e5e55ac05fc9acb56d085232", null ],
     [ "MR_VolumeIndexer", "MRVolumeIndexer_8h.html#a21a0b4c112c2e10f8d0497cde9a81c01", null ],
     [ "MR_VoxelBitSet", "MRVolumeIndexer_8h.html#a94b5f700f4835481dce132716ff73b05", null ],
     [ "MR_VoxelLocation", "MRVolumeIndexer_8h.html#a74e1493d8fd738638c30f10863c7324d", null ],
-    [ "MR_expandVoxelsMask", "MRVolumeIndexer_8h.html#aebeb28819bb4c358f5ae36d4944a93f8", null ],
+    [ "MR_expandVoxelsMask", "MRVolumeIndexer_8h.html#a3ed9b2f155749d57c64fc0eb4351fe13", null ],
     [ "MR_opposite_MR_OutEdge", "MRVolumeIndexer_8h.html#a8bcc72249d67d34355f3eaba7b6ef85b", null ],
-    [ "MR_shrinkVoxelsMask", "MRVolumeIndexer_8h.html#ab45f1040f024cb1b693dfd0734bac37e", null ],
+    [ "MR_shrinkVoxelsMask", "MRVolumeIndexer_8h.html#a5fdb3bb1ad3d77fcb66f3d1da4042ea5", null ],
     [ "MR_VolumeIndexer_areNeigbors_MR_Vector3i", "MRVolumeIndexer_8h.html#a95c8b0f39016f61c770ea58ebeab2fc6", null ],
     [ "MR_VolumeIndexer_areNeigbors_MR_VoxelId", "MRVolumeIndexer_8h.html#a159c3f06d33eb20dc0a2006fe2b51cb4", null ],
     [ "MR_VolumeIndexer_AssignFromAnother", "MRVolumeIndexer_8h.html#a4f0061090e8ae25d591844f396cb5307", null ],

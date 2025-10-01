@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1RawTiffOutput =
 [
     [ "__init__", "classmrmeshpy_1_1RawTiffOutput.html#a6060cc90a995ddd5c74fb4916139fec0", null ],
+    [ "__init__", "classmrmeshpy_1_1RawTiffOutput.html#a94aaf34cb637c9ed5ff6485be2809cba", null ],
     [ "__init__", "classmrmeshpy_1_1RawTiffOutput.html#a28c5c17f085ba153cd78b26e3dea8fd1", null ],
     [ "bytes", "classmrmeshpy_1_1RawTiffOutput.html#aa58a47a09fac3778002e214486b4fb08", null ],
     [ "bytes", "classmrmeshpy_1_1RawTiffOutput.html#ab189ebeaabc479ee7e5fd52c938ccc1d", null ],

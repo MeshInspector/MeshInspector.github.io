@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRVolumeIndexer_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -159,7 +158,6 @@ $(function(){initNavTree('MRVolumeIndexer_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRVolumeIndexer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -167,8 +165,8 @@ $(function(){initNavTree('MRVolumeIndexer_8h.html',''); initResizable(true); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a94b5f700f4835481dce132716ff73b05" id="r_a94b5f700f4835481dce132716ff73b05"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a></td></tr>
 <tr class="separator:a94b5f700f4835481dce132716ff73b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af140ffd520200f015e9fab26ea4218ae" id="r_af140ffd520200f015e9fab26ea4218ae"><td class="memItemLeft" align="right" valign="top">typedef int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td></tr>
-<tr class="separator:af140ffd520200f015e9fab26ea4218ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b4b1b9e5e55ac05fc9acb56d085232" id="r_ac0b4b1b9e5e55ac05fc9acb56d085232"><td class="memItemLeft" align="right" valign="top">typedef signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td></tr>
+<tr class="separator:ac0b4b1b9e5e55ac05fc9acb56d085232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e1493d8fd738638c30f10863c7324d" id="r_a74e1493d8fd738638c30f10863c7324d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a></td></tr>
 <tr class="separator:a74e1493d8fd738638c30f10863c7324d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21a0b4c112c2e10f8d0497cde9a81c01" id="r_a21a0b4c112c2e10f8d0497cde9a81c01"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a></td></tr>
@@ -177,23 +175,23 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a79e9f285d34216706a748fd7ba8941b7" id="r_a79e9f285d34216706a748fd7ba8941b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749">MR_OutEdge_Invalid</a> = -1
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868">MR_OutEdge_PlusZ</a> = 0
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1">MR_OutEdge_MinusZ</a> = 1
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a">MR_OutEdge_PlusY</a> = 2
+<tr class="memitem:abed82baf7f470b522273a3e37c24c600" id="r_abed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#abed82baf7f470b522273a3e37c24c600ae20f61ace0e4dd747e791268dfb1b749">MR_OutEdge_Invalid</a> = -1
+, <a class="el" href="#abed82baf7f470b522273a3e37c24c600a5d76cb9691050cfc82f61d9d3a594868">MR_OutEdge_PlusZ</a> = 0
+, <a class="el" href="#abed82baf7f470b522273a3e37c24c600a625374dd4a579739bd4303e8e4c5c6d1">MR_OutEdge_MinusZ</a> = 1
+, <a class="el" href="#abed82baf7f470b522273a3e37c24c600a7b070bf11e7642ac0f9d0033a0b82e1a">MR_OutEdge_PlusY</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="#a79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3">MR_OutEdge_MinusY</a> = 3
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e">MR_OutEdge_PlusX</a> = 4
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4">MR_OutEdge_MinusX</a> = 5
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937">MR_OutEdge_Count</a> = 6
+&#160;&#160;<a class="el" href="#abed82baf7f470b522273a3e37c24c600af8caf63972f5ce541e67ef04ca2dcdf3">MR_OutEdge_MinusY</a> = 3
+, <a class="el" href="#abed82baf7f470b522273a3e37c24c600ad36e52301b250140311827a65071830e">MR_OutEdge_PlusX</a> = 4
+, <a class="el" href="#abed82baf7f470b522273a3e37c24c600a6fb3759be5c853b5e7e8dc63d364a1a4">MR_OutEdge_MinusX</a> = 5
+, <a class="el" href="#abed82baf7f470b522273a3e37c24c600a09a2e381c93ab7fc487804a30792d937">MR_OutEdge_Count</a> = 6
 <br />
  }</td></tr>
-<tr class="separator:a79e9f285d34216706a748fd7ba8941b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:abed82baf7f470b522273a3e37c24c600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8bcc72249d67d34355f3eaba7b6ef85b" id="r_a8bcc72249d67d34355f3eaba7b6ef85b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bcc72249d67d34355f3eaba7b6ef85b">MR_opposite_MR_OutEdge</a> (<a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> e)</td></tr>
+<tr class="memitem:a8bcc72249d67d34355f3eaba7b6ef85b" id="r_a8bcc72249d67d34355f3eaba7b6ef85b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bcc72249d67d34355f3eaba7b6ef85b">MR_opposite_MR_OutEdge</a> (<a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> e)</td></tr>
 <tr class="memdesc:a8bcc72249d67d34355f3eaba7b6ef85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91a308e751ba7d6ace30ea1a895eb3fb">MR::opposite</a></code>.  <br /></td></tr>
 <tr class="separator:a8bcc72249d67d34355f3eaba7b6ef85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60805e31d736dc897976bba3c49bd103" id="r_a60805e31d736dc897976bba3c49bd103"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60805e31d736dc897976bba3c49bd103">MR_VoxelLocation_Get_id</a> (const <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
@@ -274,32 +272,32 @@ Functions</h2></td></tr>
 <tr class="separator:a159c3f06d33eb20dc0a2006fe2b51cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c8b0f39016f61c770ea58ebeab2fc6" id="r_a95c8b0f39016f61c770ea58ebeab2fc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95c8b0f39016f61c770ea58ebeab2fc6">MR_VolumeIndexer_areNeigbors_MR_Vector3i</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos0, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos1)</td></tr>
 <tr class="separator:a95c8b0f39016f61c770ea58ebeab2fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe9c36744f0a985a427fa2328e0d357" id="r_aafe9c36744f0a985a427fa2328e0d357"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafe9c36744f0a985a427fa2328e0d357">MR_VolumeIndexer_hasNeighbour</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos, <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="memitem:aafe9c36744f0a985a427fa2328e0d357" id="r_aafe9c36744f0a985a427fa2328e0d357"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafe9c36744f0a985a427fa2328e0d357">MR_VolumeIndexer_hasNeighbour</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos, <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> toNei)</td></tr>
 <tr class="separator:aafe9c36744f0a985a427fa2328e0d357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad81edbf838f0a7912d74d8d47be0d13e" id="r_ad81edbf838f0a7912d74d8d47be0d13e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad81edbf838f0a7912d74d8d47be0d13e">MR_VolumeIndexer_getNeighbor_2_MR_VoxelId</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="memitem:ad81edbf838f0a7912d74d8d47be0d13e" id="r_ad81edbf838f0a7912d74d8d47be0d13e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad81edbf838f0a7912d74d8d47be0d13e">MR_VolumeIndexer_getNeighbor_2_MR_VoxelId</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> toNei)</td></tr>
 <tr class="separator:ad81edbf838f0a7912d74d8d47be0d13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0083207d8d684453fceed8565ed67d1f" id="r_a0083207d8d684453fceed8565ed67d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0083207d8d684453fceed8565ed67d1f">MR_VolumeIndexer_getNeighbor_3</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos, <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="memitem:a0083207d8d684453fceed8565ed67d1f" id="r_a0083207d8d684453fceed8565ed67d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0083207d8d684453fceed8565ed67d1f">MR_VolumeIndexer_getNeighbor_3</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos, <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> toNei)</td></tr>
 <tr class="separator:a0083207d8d684453fceed8565ed67d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68f63620ee469dc78ef45f6f0c5889c1" id="r_a68f63620ee469dc78ef45f6f0c5889c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f63620ee469dc78ef45f6f0c5889c1">MR_VolumeIndexer_getNeighbor_2_MR_VoxelLocation</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *loc, <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="memitem:a68f63620ee469dc78ef45f6f0c5889c1" id="r_a68f63620ee469dc78ef45f6f0c5889c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f63620ee469dc78ef45f6f0c5889c1">MR_VolumeIndexer_getNeighbor_2_MR_VoxelLocation</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *loc, <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> toNei)</td></tr>
 <tr class="separator:a68f63620ee469dc78ef45f6f0c5889c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e098c6badc2ab8cbf3dba9b5c68571d" id="r_a8e098c6badc2ab8cbf3dba9b5c68571d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e098c6badc2ab8cbf3dba9b5c68571d">MR_VolumeIndexer_getExistingNeighbor</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="memitem:a8e098c6badc2ab8cbf3dba9b5c68571d" id="r_a8e098c6badc2ab8cbf3dba9b5c68571d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e098c6badc2ab8cbf3dba9b5c68571d">MR_VolumeIndexer_getExistingNeighbor</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> toNei)</td></tr>
 <tr class="separator:a8e098c6badc2ab8cbf3dba9b5c68571d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac58458a03f0653bbb27e31e39dfc5e6" id="r_aac58458a03f0653bbb27e31e39dfc5e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac58458a03f0653bbb27e31e39dfc5e6">MR_VolumeIndexer_getNeighbor_4</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos, bool bdPos, <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="memitem:aac58458a03f0653bbb27e31e39dfc5e6" id="r_aac58458a03f0653bbb27e31e39dfc5e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac58458a03f0653bbb27e31e39dfc5e6">MR_VolumeIndexer_getNeighbor_4</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> v, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos, bool bdPos, <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> toNei)</td></tr>
 <tr class="separator:aac58458a03f0653bbb27e31e39dfc5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebeb28819bb4c358f5ae36d4944a93f8" id="r_aebeb28819bb4c358f5ae36d4944a93f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebeb28819bb4c358f5ae36d4944a93f8">MR_expandVoxelsMask</a> (<a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask, const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *indexer, const int32_t *expansion)</td></tr>
-<tr class="separator:aebeb28819bb4c358f5ae36d4944a93f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab45f1040f024cb1b693dfd0734bac37e" id="r_ab45f1040f024cb1b693dfd0734bac37e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab45f1040f024cb1b693dfd0734bac37e">MR_shrinkVoxelsMask</a> (<a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask, const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *indexer, const int32_t *shrinkage)</td></tr>
-<tr class="separator:ab45f1040f024cb1b693dfd0734bac37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed9b2f155749d57c64fc0eb4351fe13" id="r_a3ed9b2f155749d57c64fc0eb4351fe13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed9b2f155749d57c64fc0eb4351fe13">MR_expandVoxelsMask</a> (<a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask, const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *indexer, const int *expansion)</td></tr>
+<tr class="separator:a3ed9b2f155749d57c64fc0eb4351fe13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fdb3bb1ad3d77fcb66f3d1da4042ea5" id="r_a5fdb3bb1ad3d77fcb66f3d1da4042ea5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fdb3bb1ad3d77fcb66f3d1da4042ea5">MR_shrinkVoxelsMask</a> (<a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask, const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *indexer, const int *shrinkage)</td></tr>
+<tr class="separator:a5fdb3bb1ad3d77fcb66f3d1da4042ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="af140ffd520200f015e9fab26ea4218ae" name="af140ffd520200f015e9fab26ea4218ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af140ffd520200f015e9fab26ea4218ae">&#9670;&#160;</a></span>MR_OutEdge</h2>
+<a id="ac0b4b1b9e5e55ac05fc9acb56d085232" name="ac0b4b1b9e5e55ac05fc9acb56d085232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b4b1b9e5e55ac05fc9acb56d085232">&#9670;&#160;</a></span>MR_OutEdge</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int8_t <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>
+          <td class="memname">typedef signed char <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -352,8 +350,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a79e9f285d34216706a748fd7ba8941b7" name="a79e9f285d34216706a748fd7ba8941b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e9f285d34216706a748fd7ba8941b7">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="abed82baf7f470b522273a3e37c24c600" name="abed82baf7f470b522273a3e37c24c600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed82baf7f470b522273a3e37c24c600">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,21 +362,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749" name="a79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749"></a>MR_OutEdge_Invalid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868" name="a79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868"></a>MR_OutEdge_PlusZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1" name="a79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1"></a>MR_OutEdge_MinusZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a" name="a79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a"></a>MR_OutEdge_PlusY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3" name="a79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3"></a>MR_OutEdge_MinusY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e" name="a79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e"></a>MR_OutEdge_PlusX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4" name="a79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4"></a>MR_OutEdge_MinusX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937" name="a79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937"></a>MR_OutEdge_Count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600ae20f61ace0e4dd747e791268dfb1b749" name="abed82baf7f470b522273a3e37c24c600ae20f61ace0e4dd747e791268dfb1b749"></a>MR_OutEdge_Invalid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600a5d76cb9691050cfc82f61d9d3a594868" name="abed82baf7f470b522273a3e37c24c600a5d76cb9691050cfc82f61d9d3a594868"></a>MR_OutEdge_PlusZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600a625374dd4a579739bd4303e8e4c5c6d1" name="abed82baf7f470b522273a3e37c24c600a625374dd4a579739bd4303e8e4c5c6d1"></a>MR_OutEdge_MinusZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600a7b070bf11e7642ac0f9d0033a0b82e1a" name="abed82baf7f470b522273a3e37c24c600a7b070bf11e7642ac0f9d0033a0b82e1a"></a>MR_OutEdge_PlusY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600af8caf63972f5ce541e67ef04ca2dcdf3" name="abed82baf7f470b522273a3e37c24c600af8caf63972f5ce541e67ef04ca2dcdf3"></a>MR_OutEdge_MinusY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600ad36e52301b250140311827a65071830e" name="abed82baf7f470b522273a3e37c24c600ad36e52301b250140311827a65071830e"></a>MR_OutEdge_PlusX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600a6fb3759be5c853b5e7e8dc63d364a1a4" name="abed82baf7f470b522273a3e37c24c600a6fb3759be5c853b5e7e8dc63d364a1a4"></a>MR_OutEdge_MinusX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abed82baf7f470b522273a3e37c24c600a09a2e381c93ab7fc487804a30792d937" name="abed82baf7f470b522273a3e37c24c600a09a2e381c93ab7fc487804a30792d937"></a>MR_OutEdge_Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aebeb28819bb4c358f5ae36d4944a93f8" name="aebeb28819bb4c358f5ae36d4944a93f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebeb28819bb4c358f5ae36d4944a93f8">&#9670;&#160;</a></span>MR_expandVoxelsMask()</h2>
+<a id="a3ed9b2f155749d57c64fc0eb4351fe13" name="a3ed9b2f155749d57c64fc0eb4351fe13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed9b2f155749d57c64fc0eb4351fe13">&#9670;&#160;</a></span>MR_expandVoxelsMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +394,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -411,9 +409,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> MR_opposite_MR_OutEdge </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a> MR_opposite_MR_OutEdge </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -423,8 +421,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab45f1040f024cb1b693dfd0734bac37e" name="ab45f1040f024cb1b693dfd0734bac37e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab45f1040f024cb1b693dfd0734bac37e">&#9670;&#160;</a></span>MR_shrinkVoxelsMask()</h2>
+<a id="a5fdb3bb1ad3d77fcb66f3d1da4042ea5" name="a5fdb3bb1ad3d77fcb66f3d1da4042ea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fdb3bb1ad3d77fcb66f3d1da4042ea5">&#9670;&#160;</a></span>MR_shrinkVoxelsMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +440,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>shrinkage</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>shrinkage</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -655,7 +653,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -682,7 +680,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -709,7 +707,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -741,7 +739,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -778,7 +776,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -805,7 +803,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ac0b4b1b9e5e55ac05fc9acb56d085232">MR_OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

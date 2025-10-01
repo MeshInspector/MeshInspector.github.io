@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/ImGuiHelpers_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -182,6 +181,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structImGui_1_1CustomStatePluginWindowParameters.html">ImGui::CustomStatePluginWindowParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that contains parameters for State plugin window with custom style.  <a href="structImGui_1_1CustomStatePluginWindowParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structImGui_1_1SavedWindowPosParams.html">ImGui::SavedWindowPosParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters drawing classic ImGui::Begin with loading / saving window position.  <a href="structImGui_1_1SavedWindowPosParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -240,8 +242,19 @@ Functions</h2></td></tr>
 <tr class="separator:a23ae6006298ef80c1e04a1ea1b49dabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dfe914b3199c96486e9fc7b82138777" id="r_a6dfe914b3199c96486e9fc7b82138777"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a6dfe914b3199c96486e9fc7b82138777">ImGui::GetDownPosition</a> (const float width)</td></tr>
 <tr class="separator:a6dfe914b3199c96486e9fc7b82138777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a660b386cc39248222a1d8dd3eec60024" id="r_a660b386cc39248222a1d8dd3eec60024"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a660b386cc39248222a1d8dd3eec60024">ImGui::GetTitleBarHeght</a> (float menuScaling)</td></tr>
-<tr class="separator:a660b386cc39248222a1d8dd3eec60024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9566862a34c508f460141204ccee118d" id="r_a9566862a34c508f460141204ccee118d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a9566862a34c508f460141204ccee118d">ImGui::GetTitleBarHeght</a> ()</td></tr>
+<tr class="memdesc:a9566862a34c508f460141204ccee118d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate and return the height of the window title.  <br /></td></tr>
+<tr class="separator:a9566862a34c508f460141204ccee118d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9641ecb8b0feb32e48a68aa785e864" id="r_abc9641ecb8b0feb32e48a68aa785e864"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; ImVec2, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#abc9641ecb8b0feb32e48a68aa785e864">ImGui::LoadSavedWindowPos</a> (const char *label, ImGuiWindow *window, float width, const ImVec2 *position=nullptr)</td></tr>
+<tr class="separator:abc9641ecb8b0feb32e48a68aa785e864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3aedd4bc21e49dc028ea838c0a2146" id="r_aba3aedd4bc21e49dc028ea838c0a2146"><td class="memItemLeft" align="right" valign="top">std::pair&lt; ImVec2, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#aba3aedd4bc21e49dc028ea838c0a2146">ImGui::LoadSavedWindowPos</a> (const char *label, float width, const ImVec2 *position=nullptr)</td></tr>
+<tr class="separator:aba3aedd4bc21e49dc028ea838c0a2146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083d798cae08523bfb8851595088a61b" id="r_a083d798cae08523bfb8851595088a61b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a083d798cae08523bfb8851595088a61b">ImGui::SaveWindowPosition</a> (const char *label, ImGuiWindow *window)</td></tr>
+<tr class="separator:a083d798cae08523bfb8851595088a61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cc3e778e75f9ee629a7ae99f8472c6f" id="r_a5cc3e778e75f9ee629a7ae99f8472c6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f">ImGui::SaveWindowPosition</a> (const char *label)</td></tr>
+<tr class="separator:a5cc3e778e75f9ee629a7ae99f8472c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9191609cc8db0202abe18e31641a55b" id="r_ab9191609cc8db0202abe18e31641a55b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#ab9191609cc8db0202abe18e31641a55b">ImGui::BeginSavedWindowPos</a> (const std::string &amp;name, bool *open, const <a class="el" href="structImGui_1_1SavedWindowPosParams.html">SavedWindowPosParams</a> &amp;params)</td></tr>
+<tr class="separator:ab9191609cc8db0202abe18e31641a55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8686baf36ce377f9e5cd6aea4b1d4005" id="r_a8686baf36ce377f9e5cd6aea4b1d4005"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a8686baf36ce377f9e5cd6aea4b1d4005">ImGui::BeginCustomStatePlugin</a> (const char *label, bool *open, const <a class="el" href="structImGui_1_1CustomStatePluginWindowParameters.html">CustomStatePluginWindowParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a8686baf36ce377f9e5cd6aea4b1d4005"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e59143b9ee934b74838c5c3b80c6559" id="r_a7e59143b9ee934b74838c5c3b80c6559"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a7e59143b9ee934b74838c5c3b80c6559">ImGui::EndCustomStatePlugin</a> ()</td></tr>
@@ -259,10 +272,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aabb908deed7006b50c7ad6ec124126a7" id="r_aabb908deed7006b50c7ad6ec124126a7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#aabb908deed7006b50c7ad6ec124126a7">ImGui::Link</a> (const char *label, uint32_t color=<a class="el" href="structMR_1_1Color.html">MR::Color</a>(60, 120, 255).getUInt32())</td></tr>
 <tr class="memdesc:aabb908deed7006b50c7ad6ec124126a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw text as link, calls callback on click.  <br /></td></tr>
 <tr class="separator:aabb908deed7006b50c7ad6ec124126a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57a1654a1953301d7dca389a0dba5215" id="r_a57a1654a1953301d7dca389a0dba5215"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682">PaletteChanges</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a57a1654a1953301d7dca389a0dba5215">ImGui::Palette</a> (const char *label, <a class="el" href="classMR_1_1Palette.html">MR::Palette</a> &amp;palette, std::string &amp;presetName, float width, float menuScaling, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max())</td></tr>
-<tr class="separator:a57a1654a1953301d7dca389a0dba5215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af082cf53c058ecd0adf21f0115b11121" id="r_af082cf53c058ecd0adf21f0115b11121"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#af082cf53c058ecd0adf21f0115b11121">ImGui::Plane</a> (<a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a> &amp;planeWidget, float menuScaling, <a class="el" href="namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5">PlaneWidgetFlags</a> flags={})</td></tr>
-<tr class="separator:af082cf53c058ecd0adf21f0115b11121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c130223f0795222ba5a4445f8c9e917" id="r_a9c130223f0795222ba5a4445f8c9e917"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682">PaletteChanges</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a9c130223f0795222ba5a4445f8c9e917">ImGui::Palette</a> (const char *label, <a class="el" href="classMR_1_1Palette.html">MR::Palette</a> &amp;palette, std::string &amp;presetName, float width, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max())</td></tr>
+<tr class="separator:a9c130223f0795222ba5a4445f8c9e917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff64ab0bea9537c8755a84b4226dde0" id="r_a1ff64ab0bea9537c8755a84b4226dde0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a1ff64ab0bea9537c8755a84b4226dde0">ImGui::Plane</a> (<a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a> &amp;planeWidget, <a class="el" href="namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5">PlaneWidgetFlags</a> flags={})</td></tr>
+<tr class="separator:a1ff64ab0bea9537c8755a84b4226dde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8258976ae8bdfc2882e10e03831be422" id="r_a8258976ae8bdfc2882e10e03831be422"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a8258976ae8bdfc2882e10e03831be422">ImGui::Direction</a> (<a class="el" href="classMR_1_1DirectionWidget.html">MR::DirectionWidget</a> &amp;dirWidget, bool &amp;editDragging, const std::string &amp;historyName)</td></tr>
 <tr class="separator:a8258976ae8bdfc2882e10e03831be422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35ab4450ec9a2caa24b029e5c5c11ecb" id="r_a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a35ab4450ec9a2caa24b029e5c5c11ecb">ImGui::Image</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const <a class="el" href="structMR_1_1Color.html">MR::Color</a> &amp;multColor)</td></tr>
@@ -273,18 +286,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a1fb7653d1377ce1f2dd7a8f9d1057615" id="r_a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API MR::Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615">ImGui::GetImagePointerCoord</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const ImVec2 &amp;imagePos)</td></tr>
 <tr class="memdesc:a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="mdescLeft">&#160;</td><td class="mdescRight">get image coordinates under cursor considering Y-direction flipping  <br /></td></tr>
 <tr class="separator:a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2965953a64a756c9e40bf0c620028b06" id="r_a2965953a64a756c9e40bf0c620028b06"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a2965953a64a756c9e40bf0c620028b06">ImGui::Spinner</a> (float radius, float scaling)</td></tr>
-<tr class="memdesc:a2965953a64a756c9e40bf0c620028b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw spinner in given place, radius with respect to scaling  <br /></td></tr>
-<tr class="separator:a2965953a64a756c9e40bf0c620028b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e04ca06524f269a621e6ca35c63d70a" id="r_a5e04ca06524f269a621e6ca35c63d70a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a5e04ca06524f269a621e6ca35c63d70a">ImGui::ModalBigTitle</a> (const char *title, float scaling)</td></tr>
-<tr class="memdesc:a5e04ca06524f269a621e6ca35c63d70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw big title with close cross (i.e. for settings modal popup )  <br /></td></tr>
-<tr class="separator:a5e04ca06524f269a621e6ca35c63d70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39a8802226377b3d155788257f848b1a" id="r_a39a8802226377b3d155788257f848b1a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a39a8802226377b3d155788257f848b1a">ImGui::ModalExitButton</a> (float scaling)</td></tr>
-<tr class="memdesc:a39a8802226377b3d155788257f848b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw exit button with close cross (i.e. for settings modal popup )  <br /></td></tr>
-<tr class="separator:a39a8802226377b3d155788257f848b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd01e3d0c0bcd6ca3f831a2e16d7bdd4" id="r_abd01e3d0c0bcd6ca3f831a2e16d7bdd4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#abd01e3d0c0bcd6ca3f831a2e16d7bdd4">ImGui::Spinner</a> (float radius)</td></tr>
+<tr class="memdesc:abd01e3d0c0bcd6ca3f831a2e16d7bdd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw spinner in given place, radius with respect to scaling  <br /></td></tr>
+<tr class="separator:abd01e3d0c0bcd6ca3f831a2e16d7bdd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acedb24606d4e2b34b200ade5cb5ccf14" id="r_acedb24606d4e2b34b200ade5cb5ccf14"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#acedb24606d4e2b34b200ade5cb5ccf14">ImGui::ModalBigTitle</a> (const char *title)</td></tr>
+<tr class="memdesc:acedb24606d4e2b34b200ade5cb5ccf14"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw big title with close cross (i.e. for settings modal popup )  <br /></td></tr>
+<tr class="separator:acedb24606d4e2b34b200ade5cb5ccf14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d932a1f5e6a9e91213d1a209b09e1a" id="r_a29d932a1f5e6a9e91213d1a209b09e1a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a29d932a1f5e6a9e91213d1a209b09e1a">ImGui::ModalExitButton</a> ()</td></tr>
+<tr class="memdesc:a29d932a1f5e6a9e91213d1a209b09e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw exit button with close cross (i.e. for settings modal popup )  <br /></td></tr>
+<tr class="separator:a29d932a1f5e6a9e91213d1a209b09e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22263f205e7e3988ff6be4e152a963a6" id="r_a22263f205e7e3988ff6be4e152a963a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6">ImGui::getExpSpeed</a> (float val, float frac=0.01f, float min=1e-5f)</td></tr>
 <tr class="memdesc:a22263f205e7e3988ff6be4e152a963a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get exponential speed for this value  <br /></td></tr>
 <tr class="separator:a22263f205e7e3988ff6be4e152a963a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf2f35edd39ac820b77b169fce7c33e" id="r_adcf2f35edd39ac820b77b169fce7c33e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGui.html#adcf2f35edd39ac820b77b169fce7c33e">ImGui::getLuminance</a> (const ImVec4 &amp;col)</td></tr>
+<tr class="memdesc:adcf2f35edd39ac820b77b169fce7c33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crude conversion to grayscale. Good enough for our purposes.  <br /></td></tr>
+<tr class="separator:adcf2f35edd39ac820b77b169fce7c33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

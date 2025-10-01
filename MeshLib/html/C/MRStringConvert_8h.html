@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRStringConvert_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -155,7 +154,6 @@ $(function(){initNavTree('MRStringConvert_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRStringConvert_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -174,6 +172,8 @@ Functions</h2></td></tr>
 <tr class="separator:a99bf727762fbf7aa8e30a16c8b45a558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a364d0a51cad8d9fcbd1b83734b5f52b5" id="r_a364d0a51cad8d9fcbd1b83734b5f52b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a364d0a51cad8d9fcbd1b83734b5f52b5">MR_utf8string</a> (const char *path, const char *path_end)</td></tr>
 <tr class="separator:a364d0a51cad8d9fcbd1b83734b5f52b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502366fa7a09ea97bf3887611a2431fa" id="r_a502366fa7a09ea97bf3887611a2431fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a502366fa7a09ea97bf3887611a2431fa">MR_utf8substr</a> (const char *s, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> pos, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> count)</td></tr>
+<tr class="separator:a502366fa7a09ea97bf3887611a2431fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c2bf57225428d63eefbf15ce09b020" id="r_ad8c2bf57225428d63eefbf15ce09b020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2bf57225428d63eefbf15ce09b020">MR_bytesString</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
 <tr class="separator:ad8c2bf57225428d63eefbf15ce09b020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4237f74e0dd8658a7eb52c43a1f0d0d" id="r_ae4237f74e0dd8658a7eb52c43a1f0d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4237f74e0dd8658a7eb52c43a1f0d0d">MR_hasProhibitedChars</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *line)</td></tr>
@@ -182,10 +182,10 @@ Functions</h2></td></tr>
 <tr class="separator:aa582e6208cb9fc38ab6d9cd3cd9a1cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a71cc1e444dbd286b2b92bb685b771a" id="r_a8a71cc1e444dbd286b2b92bb685b771a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a71cc1e444dbd286b2b92bb685b771a">MR_commonFilesName</a> (const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *files)</td></tr>
 <tr class="separator:a8a71cc1e444dbd286b2b92bb685b771a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea79f4b16ad668fa7c19eeb9e7ebb5b4" id="r_aea79f4b16ad668fa7c19eeb9e7ebb5b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea79f4b16ad668fa7c19eeb9e7ebb5b4">MR_roundToPrecision_double</a> (double v, int32_t precision)</td></tr>
-<tr class="separator:aea79f4b16ad668fa7c19eeb9e7ebb5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f5f74906f78f98c774f6878f84a635" id="r_a80f5f74906f78f98c774f6878f84a635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f5f74906f78f98c774f6878f84a635">MR_roundToPrecision_float</a> (float v, int32_t precision)</td></tr>
-<tr class="separator:a80f5f74906f78f98c774f6878f84a635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696800d0398977ffc2be48c17e2148b6" id="r_a696800d0398977ffc2be48c17e2148b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a696800d0398977ffc2be48c17e2148b6">MR_roundToPrecision_double</a> (double v, int precision)</td></tr>
+<tr class="separator:a696800d0398977ffc2be48c17e2148b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa061d0b228b9c1f9996d2c30c48c250b" id="r_aa061d0b228b9c1f9996d2c30c48c250b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa061d0b228b9c1f9996d2c30c48c250b">MR_roundToPrecision_float</a> (float v, int precision)</td></tr>
+<tr class="separator:aa061d0b228b9c1f9996d2c30c48c250b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7ae26dc73115bc6f2571acf8f260784" id="r_ad7ae26dc73115bc6f2571acf8f260784"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7ae26dc73115bc6f2571acf8f260784">MR_getCancelMessage</a> (const char *path, const char *path_end)</td></tr>
 <tr class="separator:ad7ae26dc73115bc6f2571acf8f260784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1211086ff4b0b0bf4f27bfb3573c743d" id="r_a1211086ff4b0b0bf4f27bfb3573c743d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1211086ff4b0b0bf4f27bfb3573c743d">MR_toLower</a> (const char *str, const char *str_end)</td></tr>
@@ -319,8 +319,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aea79f4b16ad668fa7c19eeb9e7ebb5b4" name="aea79f4b16ad668fa7c19eeb9e7ebb5b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea79f4b16ad668fa7c19eeb9e7ebb5b4">&#9670;&#160;</a></span>MR_roundToPrecision_double()</h2>
+<a id="a696800d0398977ffc2be48c17e2148b6" name="a696800d0398977ffc2be48c17e2148b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696800d0398977ffc2be48c17e2148b6">&#9670;&#160;</a></span>MR_roundToPrecision_double()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +333,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>precision</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>precision</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -341,8 +341,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a80f5f74906f78f98c774f6878f84a635" name="a80f5f74906f78f98c774f6878f84a635"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80f5f74906f78f98c774f6878f84a635">&#9670;&#160;</a></span>MR_roundToPrecision_float()</h2>
+<a id="aa061d0b228b9c1f9996d2c30c48c250b" name="aa061d0b228b9c1f9996d2c30c48c250b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa061d0b228b9c1f9996d2c30c48c250b">&#9670;&#160;</a></span>MR_roundToPrecision_float()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +355,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>precision</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>precision</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -399,7 +399,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return a copy of the string with all alphabetic characters replaced with upper-case variants Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5a70c8c1a8a14604554c8a19a86984dc">MR::toLower</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5a70c8c1a8a14604554c8a19a86984dc">MR::toLower</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -422,6 +422,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a502366fa7a09ea97bf3887611a2431fa" name="a502366fa7a09ea97bf3887611a2431fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a502366fa7a09ea97bf3887611a2431fa">&#9670;&#160;</a></span>MR_utf8substr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_utf8substr </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>given on input a valid utf8-encoded string, returns its substring starting at <code>pos</code> unicode symbol, and containing at most <code>count</code> unicode symbols (but res.size() can be more than <code>count</code> since a unicode symbol can be represented by more than 1 byte) Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga9d44c29a02f4672e97b9cf002eb4f7ca">MR::utf8substr</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

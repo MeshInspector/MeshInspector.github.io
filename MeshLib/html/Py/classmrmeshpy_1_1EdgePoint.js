@@ -4,6 +4,7 @@ var classmrmeshpy_1_1EdgePoint =
     [ "__init__", "classmrmeshpy_1_1EdgePoint.html#a3851c488bcb10e51daa8ab56e60ed504", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePoint.html#acb378ce44ce1b12942730cc1a66d374d", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePoint.html#a825a0681aa9f9020907f58916c3e1ba0", null ],
+    [ "__init__", "classmrmeshpy_1_1EdgePoint.html#a491285352d9df005d69b5e356805c6e9", null ],
     [ "__bool__", "classmrmeshpy_1_1EdgePoint.html#a9290fc097d04e3a09cc58efd3f3d3499", null ],
     [ "__eq__", "classmrmeshpy_1_1EdgePoint.html#a1b09e5501eaadb16bb7f603970f6ed3c", null ],
     [ "a", "classmrmeshpy_1_1EdgePoint.html#ab77c348d6a8d6cdb6cfb1dce6a79e746", null ],

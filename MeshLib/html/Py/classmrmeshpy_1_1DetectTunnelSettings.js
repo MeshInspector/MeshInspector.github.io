@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1DetectTunnelSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a4780f054b8c777b9fc1023365b0a2954", null ],
+    [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286", null ],
     [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a9a55ae7d0f099f84375091a8c9ccebb3", null ],
     [ "maxIters", "classmrmeshpy_1_1DetectTunnelSettings.html#a766da3ca2829e9b5b8ff6af989f1849e", null ],
     [ "maxIters", "classmrmeshpy_1_1DetectTunnelSettings.html#ae7545134a25b35222ffb06adb589b56f", null ],

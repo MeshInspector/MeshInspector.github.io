@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRConeApproximator_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -155,58 +154,57 @@ $(function(){initNavTree('MRConeApproximator_8h.html',''); initResizable(true); 
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRConeApproximator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a1d65b41779be6572696e2504ec2b6727" id="r_a1d65b41779be6572696e2504ec2b6727"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a></td></tr>
-<tr class="separator:a1d65b41779be6572696e2504ec2b6727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a821e66a791ff86124d452054a8b9fd36" id="r_a821e66a791ff86124d452054a8b9fd36"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a821e66a791ff86124d452054a8b9fd36">MR_ConeFitterType</a></td></tr>
+<tr class="separator:a821e66a791ff86124d452054a8b9fd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae55f827d4bf446beac8e7ce90fa1793e" id="r_ae55f827d4bf446beac8e7ce90fa1793e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a></td></tr>
 <tr class="memdesc:ae55f827d4bf446beac8e7ce90fa1793e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Cone3ApproximationParams.html">MR::Cone3ApproximationParams</a></code>.  <br /></td></tr>
 <tr class="separator:ae55f827d4bf446beac8e7ce90fa1793e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:abc5c98fcc1211af2b80116dd6e0a035d" id="r_abc5c98fcc1211af2b80116dd6e0a035d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#abc5c98fcc1211af2b80116dd6e0a035da900d3bd90002320be1881584e751eeb7">MR_ConeFitterType_ApproximationPCM</a> = 0
-, <a class="el" href="#abc5c98fcc1211af2b80116dd6e0a035da927f33d0db325ced85efb14acd20a3f3">MR_ConeFitterType_HemisphereSearchFit</a> = 1
-, <a class="el" href="#abc5c98fcc1211af2b80116dd6e0a035da4932847c2508e3b00db775423eec2050">MR_ConeFitterType_SpecificAxisFit</a> = 2
+<tr class="memitem:a84389e7ebe034c8e22caf5f62a212763" id="r_a84389e7ebe034c8e22caf5f62a212763"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> { <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763a900d3bd90002320be1881584e751eeb7">MR_ConeFitterType_ApproximationPCM</a> = 0
+, <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763a927f33d0db325ced85efb14acd20a3f3">MR_ConeFitterType_HemisphereSearchFit</a> = 1
+, <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050">MR_ConeFitterType_SpecificAxisFit</a> = 2
  }</td></tr>
-<tr class="separator:abc5c98fcc1211af2b80116dd6e0a035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a84389e7ebe034c8e22caf5f62a212763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a61f63ad6647785d7a4da93dfbbfc51c3" id="r_a61f63ad6647785d7a4da93dfbbfc51c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61f63ad6647785d7a4da93dfbbfc51c3">MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
-<tr class="separator:a61f63ad6647785d7a4da93dfbbfc51c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a922ae858e8fbb323fdf4f324e985dd5d" id="r_a922ae858e8fbb323fdf4f324e985dd5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a922ae858e8fbb323fdf4f324e985dd5d">MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a922ae858e8fbb323fdf4f324e985dd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac66485cb15728387b19aefa2e328d0b1" id="r_ac66485cb15728387b19aefa2e328d0b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac66485cb15728387b19aefa2e328d0b1">MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
-<tr class="separator:ac66485cb15728387b19aefa2e328d0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0140c106b96e05cbe40f27eb72baf69" id="r_ae0140c106b96e05cbe40f27eb72baf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0140c106b96e05cbe40f27eb72baf69">MR_Cone3ApproximationParams_Get_coneFitterType</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="memitem:af1df3835daba1df53d51c5d9729d8c24" id="r_af1df3835daba1df53d51c5d9729d8c24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1df3835daba1df53d51c5d9729d8c24">MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="separator:af1df3835daba1df53d51c5d9729d8c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2735d1ceb4db8efe51b1353c8e892fab" id="r_a2735d1ceb4db8efe51b1353c8e892fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2735d1ceb4db8efe51b1353c8e892fab">MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, int value)</td></tr>
+<tr class="separator:a2735d1ceb4db8efe51b1353c8e892fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d82c86840ff0512cfb3de9def2425ed" id="r_a7d82c86840ff0512cfb3de9def2425ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d82c86840ff0512cfb3de9def2425ed">MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="separator:a7d82c86840ff0512cfb3de9def2425ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0140c106b96e05cbe40f27eb72baf69" id="r_ae0140c106b96e05cbe40f27eb72baf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0140c106b96e05cbe40f27eb72baf69">MR_Cone3ApproximationParams_Get_coneFitterType</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
 <tr class="separator:ae0140c106b96e05cbe40f27eb72baf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77f5e1021a691896a71dfb605180d42" id="r_ad77f5e1021a691896a71dfb605180d42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad77f5e1021a691896a71dfb605180d42">MR_Cone3ApproximationParams_Set_coneFitterType</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a> value)</td></tr>
+<tr class="memitem:ad77f5e1021a691896a71dfb605180d42" id="r_ad77f5e1021a691896a71dfb605180d42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad77f5e1021a691896a71dfb605180d42">MR_Cone3ApproximationParams_Set_coneFitterType</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> value)</td></tr>
 <tr class="separator:ad77f5e1021a691896a71dfb605180d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa4be5eb959955ab96cacfe2b28228b2" id="r_aaa4be5eb959955ab96cacfe2b28228b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4be5eb959955ab96cacfe2b28228b2">MR_Cone3ApproximationParams_GetMutable_coneFitterType</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="memitem:aaa4be5eb959955ab96cacfe2b28228b2" id="r_aaa4be5eb959955ab96cacfe2b28228b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4be5eb959955ab96cacfe2b28228b2">MR_Cone3ApproximationParams_GetMutable_coneFitterType</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
 <tr class="separator:aaa4be5eb959955ab96cacfe2b28228b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a269de3d71939d95e65d8956f07c83f56" id="r_a269de3d71939d95e65d8956f07c83f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a269de3d71939d95e65d8956f07c83f56">MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
-<tr class="separator:a269de3d71939d95e65d8956f07c83f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25dc761f29dd7bb89e17904dedd03d30" id="r_a25dc761f29dd7bb89e17904dedd03d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25dc761f29dd7bb89e17904dedd03d30">MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a25dc761f29dd7bb89e17904dedd03d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ac04e1a01f07705a18719f2f1102ca8" id="r_a0ac04e1a01f07705a18719f2f1102ca8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac04e1a01f07705a18719f2f1102ca8">MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
-<tr class="separator:a0ac04e1a01f07705a18719f2f1102ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acff9c2bd2ffc687638b18f2ebf9f7b91" id="r_acff9c2bd2ffc687638b18f2ebf9f7b91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff9c2bd2ffc687638b18f2ebf9f7b91">MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
-<tr class="separator:acff9c2bd2ffc687638b18f2ebf9f7b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbabf6b594aa8c94a11d4aab036e1c61" id="r_acbabf6b594aa8c94a11d4aab036e1c61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbabf6b594aa8c94a11d4aab036e1c61">MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, int32_t value)</td></tr>
-<tr class="separator:acbabf6b594aa8c94a11d4aab036e1c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c25d56534768d9f382c39e0106f9bb" id="r_ae1c25d56534768d9f382c39e0106f9bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c25d56534768d9f382c39e0106f9bb">MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
-<tr class="separator:ae1c25d56534768d9f382c39e0106f9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496dfd1ccf9b4e06dd413a0d8576f440" id="r_a496dfd1ccf9b4e06dd413a0d8576f440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a496dfd1ccf9b4e06dd413a0d8576f440">MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="separator:a496dfd1ccf9b4e06dd413a0d8576f440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc1fc031f4203f12a8c6555b725177b" id="r_acfc1fc031f4203f12a8c6555b725177b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc1fc031f4203f12a8c6555b725177b">MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, int value)</td></tr>
+<tr class="separator:acfc1fc031f4203f12a8c6555b725177b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dcb485ec2220dcc73f7f393a8ad4010" id="r_a6dcb485ec2220dcc73f7f393a8ad4010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dcb485ec2220dcc73f7f393a8ad4010">MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="separator:a6dcb485ec2220dcc73f7f393a8ad4010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaabe1beff6e502ed77bbc14d9ef8e17" id="r_afaabe1beff6e502ed77bbc14d9ef8e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaabe1beff6e502ed77bbc14d9ef8e17">MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="separator:afaabe1beff6e502ed77bbc14d9ef8e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559c439f335ec8843dc78bfa2c183811" id="r_a559c439f335ec8843dc78bfa2c183811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559c439f335ec8843dc78bfa2c183811">MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this, int value)</td></tr>
+<tr class="separator:a559c439f335ec8843dc78bfa2c183811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308f6404f5cc53221f0166f941d570c7" id="r_a308f6404f5cc53221f0166f941d570c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a308f6404f5cc53221f0166f941d570c7">MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution</a> (<a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *_this)</td></tr>
+<tr class="separator:a308f6404f5cc53221f0166f941d570c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f20e46f3a9b755682137ca67336c6f8" id="r_a0f20e46f3a9b755682137ca67336c6f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f20e46f3a9b755682137ca67336c6f8">MR_Cone3ApproximationParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a0f20e46f3a9b755682137ca67336c6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a235d02c155edf8e04f76f799816fba" id="r_a9a235d02c155edf8e04f76f799816fba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a235d02c155edf8e04f76f799816fba">MR_Cone3ApproximationParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a9a235d02c155edf8e04f76f799816fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f8173b1569109aaa0d4d5f5ff44430" id="r_af2f8173b1569109aaa0d4d5f5ff44430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f8173b1569109aaa0d4d5f5ff44430">MR_Cone3ApproximationParams_ConstructFrom</a> (int32_t levenbergMarquardtMaxIteration, <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a> coneFitterType, int32_t hemisphereSearchPhiResolution, int32_t hemisphereSearchThetaResolution)</td></tr>
-<tr class="separator:af2f8173b1569109aaa0d4d5f5ff44430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab29a43f394703b0a1229d0e9dea3d1b" id="r_aab29a43f394703b0a1229d0e9dea3d1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab29a43f394703b0a1229d0e9dea3d1b">MR_Cone3ApproximationParams_ConstructFrom</a> (int levenbergMarquardtMaxIteration, <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> coneFitterType, int hemisphereSearchPhiResolution, int hemisphereSearchThetaResolution)</td></tr>
+<tr class="separator:aab29a43f394703b0a1229d0e9dea3d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeceabd97b77e8b8581ef9895ab46b5d" id="r_aaeceabd97b77e8b8581ef9895ab46b5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaeceabd97b77e8b8581ef9895ab46b5d">MR_Cone3ApproximationParams_OffsetPtr</a> (const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aaeceabd97b77e8b8581ef9895ab46b5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aaeceabd97b77e8b8581ef9895ab46b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,14 +239,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1d65b41779be6572696e2504ec2b6727" name="a1d65b41779be6572696e2504ec2b6727"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d65b41779be6572696e2504ec2b6727">&#9670;&#160;</a></span>MR_ConeFitterType</h2>
+<a id="a821e66a791ff86124d452054a8b9fd36" name="a821e66a791ff86124d452054a8b9fd36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a821e66a791ff86124d452054a8b9fd36">&#9670;&#160;</a></span>MR_ConeFitterType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,21 +254,21 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="abc5c98fcc1211af2b80116dd6e0a035d" name="abc5c98fcc1211af2b80116dd6e0a035d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc5c98fcc1211af2b80116dd6e0a035d">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a84389e7ebe034c8e22caf5f62a212763" name="a84389e7ebe034c8e22caf5f62a212763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84389e7ebe034c8e22caf5f62a212763">&#9670;&#160;</a></span>MR_ConeFitterType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abc5c98fcc1211af2b80116dd6e0a035da900d3bd90002320be1881584e751eeb7" name="abc5c98fcc1211af2b80116dd6e0a035da900d3bd90002320be1881584e751eeb7"></a>MR_ConeFitterType_ApproximationPCM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc5c98fcc1211af2b80116dd6e0a035da927f33d0db325ced85efb14acd20a3f3" name="abc5c98fcc1211af2b80116dd6e0a035da927f33d0db325ced85efb14acd20a3f3"></a>MR_ConeFitterType_HemisphereSearchFit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc5c98fcc1211af2b80116dd6e0a035da4932847c2508e3b00db775423eec2050" name="abc5c98fcc1211af2b80116dd6e0a035da4932847c2508e3b00db775423eec2050"></a>MR_ConeFitterType_SpecificAxisFit&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a84389e7ebe034c8e22caf5f62a212763a900d3bd90002320be1881584e751eeb7" name="a84389e7ebe034c8e22caf5f62a212763a900d3bd90002320be1881584e751eeb7"></a>MR_ConeFitterType_ApproximationPCM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84389e7ebe034c8e22caf5f62a212763a927f33d0db325ced85efb14acd20a3f3" name="a84389e7ebe034c8e22caf5f62a212763a927f33d0db325ced85efb14acd20a3f3"></a>MR_ConeFitterType_HemisphereSearchFit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050" name="a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050"></a>MR_ConeFitterType_SpecificAxisFit&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -298,8 +296,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af2f8173b1569109aaa0d4d5f5ff44430" name="af2f8173b1569109aaa0d4d5f5ff44430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2f8173b1569109aaa0d4d5f5ff44430">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_ConstructFrom()</h2>
+<a id="aab29a43f394703b0a1229d0e9dea3d1b" name="aab29a43f394703b0a1229d0e9dea3d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab29a43f394703b0a1229d0e9dea3d1b">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,22 +305,22 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> * MR_Cone3ApproximationParams_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>levenbergMarquardtMaxIteration</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>levenbergMarquardtMaxIteration</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a></td>          <td class="paramname"><span class="paramname"><em>coneFitterType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a></td>          <td class="paramname"><span class="paramname"><em>coneFitterType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>hemisphereSearchPhiResolution</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>hemisphereSearchPhiResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>hemisphereSearchThetaResolution</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>hemisphereSearchThetaResolution</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -429,7 +427,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a> * MR_Cone3ApproximationParams_Get_coneFitterType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> * MR_Cone3ApproximationParams_Get_coneFitterType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -440,14 +438,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a269de3d71939d95e65d8956f07c83f56" name="a269de3d71939d95e65d8956f07c83f56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a269de3d71939d95e65d8956f07c83f56">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution()</h2>
+<a id="a496dfd1ccf9b4e06dd413a0d8576f440" name="a496dfd1ccf9b4e06dd413a0d8576f440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a496dfd1ccf9b4e06dd413a0d8576f440">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -458,14 +456,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acff9c2bd2ffc687638b18f2ebf9f7b91" name="acff9c2bd2ffc687638b18f2ebf9f7b91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acff9c2bd2ffc687638b18f2ebf9f7b91">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution()</h2>
+<a id="afaabe1beff6e502ed77bbc14d9ef8e17" name="afaabe1beff6e502ed77bbc14d9ef8e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaabe1beff6e502ed77bbc14d9ef8e17">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -476,14 +474,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a61f63ad6647785d7a4da93dfbbfc51c3" name="a61f63ad6647785d7a4da93dfbbfc51c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61f63ad6647785d7a4da93dfbbfc51c3">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration()</h2>
+<a id="af1df3835daba1df53d51c5d9729d8c24" name="af1df3835daba1df53d51c5d9729d8c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1df3835daba1df53d51c5d9729d8c24">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -501,7 +499,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a> * MR_Cone3ApproximationParams_GetMutable_coneFitterType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a> * MR_Cone3ApproximationParams_GetMutable_coneFitterType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -512,14 +510,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ac04e1a01f07705a18719f2f1102ca8" name="a0ac04e1a01f07705a18719f2f1102ca8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ac04e1a01f07705a18719f2f1102ca8">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution()</h2>
+<a id="a6dcb485ec2220dcc73f7f393a8ad4010" name="a6dcb485ec2220dcc73f7f393a8ad4010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dcb485ec2220dcc73f7f393a8ad4010">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -530,14 +528,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae1c25d56534768d9f382c39e0106f9bb" name="ae1c25d56534768d9f382c39e0106f9bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1c25d56534768d9f382c39e0106f9bb">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution()</h2>
+<a id="a308f6404f5cc53221f0166f941d570c7" name="a308f6404f5cc53221f0166f941d570c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308f6404f5cc53221f0166f941d570c7">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -548,14 +546,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac66485cb15728387b19aefa2e328d0b1" name="ac66485cb15728387b19aefa2e328d0b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac66485cb15728387b19aefa2e328d0b1">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration()</h2>
+<a id="a7d82c86840ff0512cfb3de9def2425ed" name="a7d82c86840ff0512cfb3de9def2425ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d82c86840ff0512cfb3de9def2425ed">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae55f827d4bf446beac8e7ce90fa1793e">MR_Cone3ApproximationParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -626,7 +624,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a1d65b41779be6572696e2504ec2b6727">MR_ConeFitterType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a84389e7ebe034c8e22caf5f62a212763">MR_ConeFitterType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -634,8 +632,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a25dc761f29dd7bb89e17904dedd03d30" name="a25dc761f29dd7bb89e17904dedd03d30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25dc761f29dd7bb89e17904dedd03d30">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution()</h2>
+<a id="acfc1fc031f4203f12a8c6555b725177b" name="acfc1fc031f4203f12a8c6555b725177b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfc1fc031f4203f12a8c6555b725177b">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -648,7 +646,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -656,8 +654,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acbabf6b594aa8c94a11d4aab036e1c61" name="acbabf6b594aa8c94a11d4aab036e1c61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbabf6b594aa8c94a11d4aab036e1c61">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution()</h2>
+<a id="a559c439f335ec8843dc78bfa2c183811" name="a559c439f335ec8843dc78bfa2c183811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559c439f335ec8843dc78bfa2c183811">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -670,7 +668,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -678,8 +676,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a922ae858e8fbb323fdf4f324e985dd5d" name="a922ae858e8fbb323fdf4f324e985dd5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a922ae858e8fbb323fdf4f324e985dd5d">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration()</h2>
+<a id="a2735d1ceb4db8efe51b1353c8e892fab" name="a2735d1ceb4db8efe51b1353c8e892fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2735d1ceb4db8efe51b1353c8e892fab">&#9670;&#160;</a></span>MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -692,7 +690,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

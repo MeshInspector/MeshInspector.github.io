@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRVDBConversions_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -160,7 +159,6 @@ $(function(){initNavTree('MRVDBConversions_8h.html',''); initResizable(true); })
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRVDBConversions_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -199,8 +197,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a5380e0c3df890d82f6c17396ab7108cd" id="r_a5380e0c3df890d82f6c17396ab7108cd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a></td></tr>
 <tr class="memdesc:a5380e0c3df890d82f6c17396ab7108cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToVolumeParams.html">MR::MeshToVolumeParams</a></code>.  <br /></td></tr>
 <tr class="separator:a5380e0c3df890d82f6c17396ab7108cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6ac2485dbd71932348c764b94db354e" id="r_ab6ac2485dbd71932348c764b94db354e"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a></td></tr>
-<tr class="separator:ab6ac2485dbd71932348c764b94db354e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85de000e3b94f18ece90650c7cb332d1" id="r_a85de000e3b94f18ece90650c7cb332d1"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85de000e3b94f18ece90650c7cb332d1">MR_MeshToVolumeParams_Type</a></td></tr>
+<tr class="separator:a85de000e3b94f18ece90650c7cb332d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8891df202a8efc9e07dba59c3e8e71b8" id="r_a8891df202a8efc9e07dba59c3e8e71b8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a></td></tr>
 <tr class="separator:a8891df202a8efc9e07dba59c3e8e71b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab509f8f9285fcbabf0029563c6e5a754" id="r_ab509f8f9285fcbabf0029563c6e5a754"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab509f8f9285fcbabf0029563c6e5a754">MR_MakeSignedByWindingNumberSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab509f8f9285fcbabf0029563c6e5a754">MR_MakeSignedByWindingNumberSettings</a></td></tr>
@@ -212,10 +210,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a5a77d65f4abba81d4456fa6ba8136e24" id="r_a5a77d65f4abba81d4456fa6ba8136e24"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a5a77d65f4abba81d4456fa6ba8136e24adb2e41c7984fb955fd5dea97a1c6ac36">MR_MeshToVolumeParams_Type_Signed</a> = 0
-, <a class="el" href="#a5a77d65f4abba81d4456fa6ba8136e24afe178a033d57aaaee4152205b93f446c">MR_MeshToVolumeParams_Type_Unsigned</a> = 1
+<tr class="memitem:ae87247918d15904ca0ccbe8733533d30" id="r_ae87247918d15904ca0ccbe8733533d30"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> { <a class="el" href="#ae87247918d15904ca0ccbe8733533d30adb2e41c7984fb955fd5dea97a1c6ac36">MR_MeshToVolumeParams_Type_Signed</a> = 0
+, <a class="el" href="#ae87247918d15904ca0ccbe8733533d30afe178a033d57aaaee4152205b93f446c">MR_MeshToVolumeParams_Type_Unsigned</a> = 1
  }</td></tr>
-<tr class="separator:a5a77d65f4abba81d4456fa6ba8136e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae87247918d15904ca0ccbe8733533d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -223,11 +221,11 @@ Functions</h2></td></tr>
 <tr class="separator:a76081a516df5fba76b3bdd9c318e1e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a186aee4bf36025a50f3d9f4ef28f3b51" id="r_a186aee4bf36025a50f3d9f4ef28f3b51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#abc899d5a6475d6b9c15b9ccd231431b3">MR_FloatGrid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186aee4bf36025a50f3d9f4ef28f3b51">MR_meshToDistanceField</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *voxelSize, const float *surfaceOffset, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a186aee4bf36025a50f3d9f4ef28f3b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5995ca98ca9f20d8dca81599ccaa8e1" id="r_ab5995ca98ca9f20d8dca81599ccaa8e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5995ca98ca9f20d8dca81599ccaa8e1">MR_MeshToVolumeParams_Get_type</a> (const <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this)</td></tr>
+<tr class="memitem:ab5995ca98ca9f20d8dca81599ccaa8e1" id="r_ab5995ca98ca9f20d8dca81599ccaa8e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5995ca98ca9f20d8dca81599ccaa8e1">MR_MeshToVolumeParams_Get_type</a> (const <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this)</td></tr>
 <tr class="separator:ab5995ca98ca9f20d8dca81599ccaa8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0955c716644a3afe8a2531f2f2e7165b" id="r_a0955c716644a3afe8a2531f2f2e7165b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0955c716644a3afe8a2531f2f2e7165b">MR_MeshToVolumeParams_Set_type</a> (<a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this, <a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a> value)</td></tr>
+<tr class="memitem:a0955c716644a3afe8a2531f2f2e7165b" id="r_a0955c716644a3afe8a2531f2f2e7165b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0955c716644a3afe8a2531f2f2e7165b">MR_MeshToVolumeParams_Set_type</a> (<a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this, <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> value)</td></tr>
 <tr class="separator:a0955c716644a3afe8a2531f2f2e7165b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e958310e628b4b030cdf776d5d6a382" id="r_a5e958310e628b4b030cdf776d5d6a382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e958310e628b4b030cdf776d5d6a382">MR_MeshToVolumeParams_GetMutable_type</a> (<a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a5e958310e628b4b030cdf776d5d6a382" id="r_a5e958310e628b4b030cdf776d5d6a382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e958310e628b4b030cdf776d5d6a382">MR_MeshToVolumeParams_GetMutable_type</a> (<a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this)</td></tr>
 <tr class="separator:a5e958310e628b4b030cdf776d5d6a382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af166615d935ca5b5bb00062bb1aef2a3" id="r_af166615d935ca5b5bb00062bb1aef2a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af166615d935ca5b5bb00062bb1aef2a3">MR_MeshToVolumeParams_Get_surfaceOffset</a> (const <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *_this)</td></tr>
 <tr class="separator:af166615d935ca5b5bb00062bb1aef2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,7 +261,7 @@ Functions</h2></td></tr>
 <tr class="separator:aded0641a4ec3e05116a285b3ed8459dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2995df21fa2c13c5f7e69b7c7d98f62e" id="r_a2995df21fa2c13c5f7e69b7c7d98f62e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2995df21fa2c13c5f7e69b7c7d98f62e">MR_MeshToVolumeParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a2995df21fa2c13c5f7e69b7c7d98f62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fab99f91ee4cd1c24b3710e37f22a7" id="r_a47fab99f91ee4cd1c24b3710e37f22a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47fab99f91ee4cd1c24b3710e37f22a7">MR_MeshToVolumeParams_ConstructFrom</a> (<a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a> type, float surfaceOffset, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> worldXf, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *outXf, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a47fab99f91ee4cd1c24b3710e37f22a7" id="r_a47fab99f91ee4cd1c24b3710e37f22a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47fab99f91ee4cd1c24b3710e37f22a7">MR_MeshToVolumeParams_ConstructFrom</a> (<a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> type, float surfaceOffset, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> worldXf, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *outXf, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a47fab99f91ee4cd1c24b3710e37f22a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c884ee34cabad729eca51b9a72d5873" id="r_a0c884ee34cabad729eca51b9a72d5873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c884ee34cabad729eca51b9a72d5873">MR_MeshToVolumeParams_OffsetPtr</a> (const <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a0c884ee34cabad729eca51b9a72d5873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -319,18 +317,18 @@ Functions</h2></td></tr>
 <tr class="separator:afa2b56e7e4b7cf95306f25f204db09c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00be29f33329d44f905bb3d42e7d961" id="r_ae00be29f33329d44f905bb3d42e7d961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae00be29f33329d44f905bb3d42e7d961">MR_GridToMeshSettings_GetMutable_adaptivity</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
 <tr class="separator:ae00be29f33329d44f905bb3d42e7d961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d5b7c9bfe45ca648e118e64ffa7bfd5" id="r_a4d5b7c9bfe45ca648e118e64ffa7bfd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5b7c9bfe45ca648e118e64ffa7bfd5">MR_GridToMeshSettings_Get_maxFaces</a> (const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
-<tr class="separator:a4d5b7c9bfe45ca648e118e64ffa7bfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a995323e1b78e6c5153adb5e5a9c9f810" id="r_a995323e1b78e6c5153adb5e5a9c9f810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a995323e1b78e6c5153adb5e5a9c9f810">MR_GridToMeshSettings_Set_maxFaces</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a995323e1b78e6c5153adb5e5a9c9f810"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93d7a5afa7b6e710c44b32536fe20c11" id="r_a93d7a5afa7b6e710c44b32536fe20c11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93d7a5afa7b6e710c44b32536fe20c11">MR_GridToMeshSettings_GetMutable_maxFaces</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
-<tr class="separator:a93d7a5afa7b6e710c44b32536fe20c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823d877654924018a6014a2c69cadbd1" id="r_a823d877654924018a6014a2c69cadbd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823d877654924018a6014a2c69cadbd1">MR_GridToMeshSettings_Get_maxVertices</a> (const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
-<tr class="separator:a823d877654924018a6014a2c69cadbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9f361d529f9516fa7b3fa33cd2326e9" id="r_ab9f361d529f9516fa7b3fa33cd2326e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f361d529f9516fa7b3fa33cd2326e9">MR_GridToMeshSettings_Set_maxVertices</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:ab9f361d529f9516fa7b3fa33cd2326e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ee75b6659e71b7d51bc3a1562034afc" id="r_a5ee75b6659e71b7d51bc3a1562034afc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ee75b6659e71b7d51bc3a1562034afc">MR_GridToMeshSettings_GetMutable_maxVertices</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
-<tr class="separator:a5ee75b6659e71b7d51bc3a1562034afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeff841cdae1acdf500a460ed8e77bfeb" id="r_aeff841cdae1acdf500a460ed8e77bfeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff841cdae1acdf500a460ed8e77bfeb">MR_GridToMeshSettings_Get_maxFaces</a> (const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
+<tr class="separator:aeff841cdae1acdf500a460ed8e77bfeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516b3fd9f7c35a7d6c5a2207f3966b41" id="r_a516b3fd9f7c35a7d6c5a2207f3966b41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516b3fd9f7c35a7d6c5a2207f3966b41">MR_GridToMeshSettings_Set_maxFaces</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a516b3fd9f7c35a7d6c5a2207f3966b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36ca24596fbd5ac219c9146bfa788a6" id="r_ac36ca24596fbd5ac219c9146bfa788a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac36ca24596fbd5ac219c9146bfa788a6">MR_GridToMeshSettings_GetMutable_maxFaces</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ac36ca24596fbd5ac219c9146bfa788a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af463c8cfdcb649c1f3362419e142dd0e" id="r_af463c8cfdcb649c1f3362419e142dd0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af463c8cfdcb649c1f3362419e142dd0e">MR_GridToMeshSettings_Get_maxVertices</a> (const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
+<tr class="separator:af463c8cfdcb649c1f3362419e142dd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1062297ac8f5c7b532280c97d20d5ae7" id="r_a1062297ac8f5c7b532280c97d20d5ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1062297ac8f5c7b532280c97d20d5ae7">MR_GridToMeshSettings_Set_maxVertices</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a1062297ac8f5c7b532280c97d20d5ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ad637a39bf75f6ee1a2f9746fb554b" id="r_a32ad637a39bf75f6ee1a2f9746fb554b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ad637a39bf75f6ee1a2f9746fb554b">MR_GridToMeshSettings_GetMutable_maxVertices</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a32ad637a39bf75f6ee1a2f9746fb554b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62c3a1ac3937f95119130c9a1b13420c" id="r_a62c3a1ac3937f95119130c9a1b13420c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62c3a1ac3937f95119130c9a1b13420c">MR_GridToMeshSettings_Get_relaxDisorientedTriangles</a> (const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this)</td></tr>
 <tr class="separator:a62c3a1ac3937f95119130c9a1b13420c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a14623b76df624a45d7264d8e2a0212" id="r_a8a14623b76df624a45d7264d8e2a0212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a14623b76df624a45d7264d8e2a0212">MR_GridToMeshSettings_Set_relaxDisorientedTriangles</a> (<a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *_this, bool value)</td></tr>
@@ -347,8 +345,8 @@ Functions</h2></td></tr>
 <tr class="separator:abc880e353cf5abbdca61973dd28c6aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee262695d4e6d099c25fdacabeaef56" id="r_a7ee262695d4e6d099c25fdacabeaef56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee262695d4e6d099c25fdacabeaef56">MR_GridToMeshSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a7ee262695d4e6d099c25fdacabeaef56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c1f05d10b401a2a7c21c2b56d4c686" id="r_a86c1f05d10b401a2a7c21c2b56d4c686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c1f05d10b401a2a7c21c2b56d4c686">MR_GridToMeshSettings_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, float isoValue, float adaptivity, int32_t maxFaces, int32_t maxVertices, bool relaxDisorientedTriangles, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="separator:a86c1f05d10b401a2a7c21c2b56d4c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14384430a780b747b2ed6d656045a01" id="r_ad14384430a780b747b2ed6d656045a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad14384430a780b747b2ed6d656045a01">MR_GridToMeshSettings_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, float isoValue, float adaptivity, int maxFaces, int maxVertices, bool relaxDisorientedTriangles, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ad14384430a780b747b2ed6d656045a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ec5df601cff916725de14b9c5406c8c" id="r_a8ec5df601cff916725de14b9c5406c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ec5df601cff916725de14b9c5406c8c">MR_GridToMeshSettings_OffsetPtr</a> (const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a8ec5df601cff916725de14b9c5406c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a8ec5df601cff916725de14b9c5406c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -700,14 +698,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab6ac2485dbd71932348c764b94db354e" name="ab6ac2485dbd71932348c764b94db354e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6ac2485dbd71932348c764b94db354e">&#9670;&#160;</a></span>MR_MeshToVolumeParams_Type</h2>
+<a id="a85de000e3b94f18ece90650c7cb332d1" name="a85de000e3b94f18ece90650c7cb332d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85de000e3b94f18ece90650c7cb332d1">&#9670;&#160;</a></span>MR_MeshToVolumeParams_Type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -785,20 +783,20 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a5a77d65f4abba81d4456fa6ba8136e24" name="a5a77d65f4abba81d4456fa6ba8136e24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a77d65f4abba81d4456fa6ba8136e24">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ae87247918d15904ca0ccbe8733533d30" name="ae87247918d15904ca0ccbe8733533d30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae87247918d15904ca0ccbe8733533d30">&#9670;&#160;</a></span>MR_MeshToVolumeParams_Type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24adb2e41c7984fb955fd5dea97a1c6ac36" name="a5a77d65f4abba81d4456fa6ba8136e24adb2e41c7984fb955fd5dea97a1c6ac36"></a>MR_MeshToVolumeParams_Type_Signed&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24afe178a033d57aaaee4152205b93f446c" name="a5a77d65f4abba81d4456fa6ba8136e24afe178a033d57aaaee4152205b93f446c"></a>MR_MeshToVolumeParams_Type_Unsigned&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae87247918d15904ca0ccbe8733533d30adb2e41c7984fb955fd5dea97a1c6ac36" name="ae87247918d15904ca0ccbe8733533d30adb2e41c7984fb955fd5dea97a1c6ac36"></a>MR_MeshToVolumeParams_Type_Signed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae87247918d15904ca0ccbe8733533d30afe178a033d57aaaee4152205b93f446c" name="ae87247918d15904ca0ccbe8733533d30afe178a033d57aaaee4152205b93f446c"></a>MR_MeshToVolumeParams_Type_Unsigned&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1678,8 +1676,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a86c1f05d10b401a2a7c21c2b56d4c686" name="a86c1f05d10b401a2a7c21c2b56d4c686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86c1f05d10b401a2a7c21c2b56d4c686">&#9670;&#160;</a></span>MR_GridToMeshSettings_ConstructFrom()</h2>
+<a id="ad14384430a780b747b2ed6d656045a01" name="ad14384430a780b747b2ed6d656045a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14384430a780b747b2ed6d656045a01">&#9670;&#160;</a></span>MR_GridToMeshSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1702,12 +1700,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxFaces</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxFaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxVertices</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxVertices</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1880,14 +1878,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d5b7c9bfe45ca648e118e64ffa7bfd5" name="a4d5b7c9bfe45ca648e118e64ffa7bfd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d5b7c9bfe45ca648e118e64ffa7bfd5">&#9670;&#160;</a></span>MR_GridToMeshSettings_Get_maxFaces()</h2>
+<a id="aeff841cdae1acdf500a460ed8e77bfeb" name="aeff841cdae1acdf500a460ed8e77bfeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeff841cdae1acdf500a460ed8e77bfeb">&#9670;&#160;</a></span>MR_GridToMeshSettings_Get_maxFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_GridToMeshSettings_Get_maxFaces </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_GridToMeshSettings_Get_maxFaces </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1898,14 +1896,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a823d877654924018a6014a2c69cadbd1" name="a823d877654924018a6014a2c69cadbd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a823d877654924018a6014a2c69cadbd1">&#9670;&#160;</a></span>MR_GridToMeshSettings_Get_maxVertices()</h2>
+<a id="af463c8cfdcb649c1f3362419e142dd0e" name="af463c8cfdcb649c1f3362419e142dd0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af463c8cfdcb649c1f3362419e142dd0e">&#9670;&#160;</a></span>MR_GridToMeshSettings_Get_maxVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_GridToMeshSettings_Get_maxVertices </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_GridToMeshSettings_Get_maxVertices </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2006,14 +2004,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a93d7a5afa7b6e710c44b32536fe20c11" name="a93d7a5afa7b6e710c44b32536fe20c11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93d7a5afa7b6e710c44b32536fe20c11">&#9670;&#160;</a></span>MR_GridToMeshSettings_GetMutable_maxFaces()</h2>
+<a id="ac36ca24596fbd5ac219c9146bfa788a6" name="ac36ca24596fbd5ac219c9146bfa788a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36ca24596fbd5ac219c9146bfa788a6">&#9670;&#160;</a></span>MR_GridToMeshSettings_GetMutable_maxFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_GridToMeshSettings_GetMutable_maxFaces </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_GridToMeshSettings_GetMutable_maxFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2024,14 +2022,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5ee75b6659e71b7d51bc3a1562034afc" name="a5ee75b6659e71b7d51bc3a1562034afc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ee75b6659e71b7d51bc3a1562034afc">&#9670;&#160;</a></span>MR_GridToMeshSettings_GetMutable_maxVertices()</h2>
+<a id="a32ad637a39bf75f6ee1a2f9746fb554b" name="a32ad637a39bf75f6ee1a2f9746fb554b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ad637a39bf75f6ee1a2f9746fb554b">&#9670;&#160;</a></span>MR_GridToMeshSettings_GetMutable_maxVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_GridToMeshSettings_GetMutable_maxVertices </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_GridToMeshSettings_GetMutable_maxVertices </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a8891df202a8efc9e07dba59c3e8e71b8">MR_GridToMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2195,8 +2193,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a995323e1b78e6c5153adb5e5a9c9f810" name="a995323e1b78e6c5153adb5e5a9c9f810"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a995323e1b78e6c5153adb5e5a9c9f810">&#9670;&#160;</a></span>MR_GridToMeshSettings_Set_maxFaces()</h2>
+<a id="a516b3fd9f7c35a7d6c5a2207f3966b41" name="a516b3fd9f7c35a7d6c5a2207f3966b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a516b3fd9f7c35a7d6c5a2207f3966b41">&#9670;&#160;</a></span>MR_GridToMeshSettings_Set_maxFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2209,7 +2207,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2217,8 +2215,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9f361d529f9516fa7b3fa33cd2326e9" name="ab9f361d529f9516fa7b3fa33cd2326e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9f361d529f9516fa7b3fa33cd2326e9">&#9670;&#160;</a></span>MR_GridToMeshSettings_Set_maxVertices()</h2>
+<a id="a1062297ac8f5c7b532280c97d20d5ae7" name="a1062297ac8f5c7b532280c97d20d5ae7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1062297ac8f5c7b532280c97d20d5ae7">&#9670;&#160;</a></span>MR_GridToMeshSettings_Set_maxVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2231,7 +2229,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2995,7 +2993,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> * MR_MeshToVolumeParams_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3190,7 +3188,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a> * MR_MeshToVolumeParams_Get_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> * MR_MeshToVolumeParams_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -3298,7 +3296,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a> * MR_MeshToVolumeParams_GetMutable_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a> * MR_MeshToVolumeParams_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5380e0c3df890d82f6c17396ab7108cd">MR_MeshToVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -3476,7 +3474,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ab6ac2485dbd71932348c764b94db354e">MR_MeshToVolumeParams_Type</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ae87247918d15904ca0ccbe8733533d30">MR_MeshToVolumeParams_Type</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1DistanceFromWeightedPointsParams =
 [
     [ "__init__", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#af11ba51d74b0430cf3f82e00a2d1a57d", null ],
+    [ "__init__", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ab2b6d6ecf08b3e0c2fd86f81b0159050", null ],
     [ "__init__", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a648dad13be9841c6f4d3b3cc3230243f", null ],
     [ "bidirectionalMode", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a9610d76812b720cef09ac8c763ce0f76", null ],
     [ "bidirectionalMode", "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ab0bc383b2248ab02b44d177eb0d7b95b", null ],

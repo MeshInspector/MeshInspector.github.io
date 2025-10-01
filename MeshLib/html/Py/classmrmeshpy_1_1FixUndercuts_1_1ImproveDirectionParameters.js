@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters =
 [
     [ "__init__", "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a2a2020e1f3079d4526700246a5d29254", null ],
+    [ "__init__", "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aebe2148dbf8ea1e10fdc58e8ee9d2771", null ],
     [ "__init__", "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a29489f650d2b1faba0e1fa1847576d04", null ],
     [ "baseAngleStep", "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#adfb69f54dec7017f8f22b93053189c0e", null ],
     [ "baseAngleStep", "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ad62a145fc2e27ca00ba49e9726dfccbf", null ],

@@ -2,6 +2,7 @@ var classmrmeshpy_1_1PixelId =
 [
     [ "__init__", "classmrmeshpy_1_1PixelId.html#af97a62bbfcbfa348bdc8721f118ea9bd", null ],
     [ "__init__", "classmrmeshpy_1_1PixelId.html#acd608c2b14f6cfe68e1cc95632fca743", null ],
+    [ "__init__", "classmrmeshpy_1_1PixelId.html#ac43444ef36814855a820f355bd52d6d2", null ],
     [ "__bool__", "classmrmeshpy_1_1PixelId.html#a5854af204b90dc63fb75ffdb9128f718", null ],
     [ "__eq__", "classmrmeshpy_1_1PixelId.html#a6e8211529efeb8ce61b48f4204b4acfa", null ],
     [ "__iadd__", "classmrmeshpy_1_1PixelId.html#a4626091e8ba209be262bf77e2cbcea55", null ],

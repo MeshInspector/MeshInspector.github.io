@@ -6,7 +6,7 @@ var classMR_1_1SceneObjectsListDrawer =
     [ "changeSelection", "classMR_1_1SceneObjectsListDrawer.html#a9626d7f29fef80a19bfa08d0389643f4", null ],
     [ "changeVisible", "classMR_1_1SceneObjectsListDrawer.html#af36935c34390d23a46d4c38f182071c9", null ],
     [ "collapsingHeader_", "classMR_1_1SceneObjectsListDrawer.html#a9dc17f3920d20e78cb1eda269c41baa9", null ],
-    [ "draw", "classMR_1_1SceneObjectsListDrawer.html#aa0856b16d5a8f58d5d906ffbb6181167", null ],
+    [ "draw", "classMR_1_1SceneObjectsListDrawer.html#a5d3291f07fa1302e0ac7966824be977d", null ],
     [ "drawCustomObjectPrefixInScene_", "classMR_1_1SceneObjectsListDrawer.html#aed66b9726e14eb7c5c105c7d088198f4", null ],
     [ "drawCustomTreeObjectProperties_", "classMR_1_1SceneObjectsListDrawer.html#a098e7d25adfb62e62c71451173a29712", null ],
     [ "drawObject_", "classMR_1_1SceneObjectsListDrawer.html#afdc17907e38df715b38ddbf7dbcfd9f4", null ],
@@ -28,7 +28,6 @@ var classMR_1_1SceneObjectsListDrawer =
     [ "setObjectTreeState", "classMR_1_1SceneObjectsListDrawer.html#a49c5d2ad202cdc4507aed66f508d481a", null ],
     [ "setShowNewSelectedObjects", "classMR_1_1SceneObjectsListDrawer.html#a87100a0f8079f7712cae2c150a6a9ed9", null ],
     [ "deselectNewHiddenObjects_", "classMR_1_1SceneObjectsListDrawer.html#af4b84e5c4ee9c3f4eca9a8e0c73dde3d", null ],
-    [ "menuScaling_", "classMR_1_1SceneObjectsListDrawer.html#abed3811d369081a14d0878bfdaa7b0bb", null ],
     [ "sceneOpenCommands_", "classMR_1_1SceneObjectsListDrawer.html#a35cdb8be56900573df3387f4538a787b", null ],
     [ "showNewSelectedObjects_", "classMR_1_1SceneObjectsListDrawer.html#acead207f8ba93a8da9b77fd9d23770fc", null ]
 ];

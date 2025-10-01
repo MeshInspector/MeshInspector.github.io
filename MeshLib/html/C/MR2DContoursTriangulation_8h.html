@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MR2DContoursTriangulation_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -158,7 +157,6 @@ $(function(){initNavTree('MR2DContoursTriangulation_8h.html',''); initResizable(
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MR2DContoursTriangulation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -182,9 +180,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a603c36c96311a8cb693f3e5500963e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdbe8ace605f6572986fd0d93bdced2a" id="r_abdbe8ace605f6572986fd0d93bdced2a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a></td></tr>
 <tr class="separator:abdbe8ace605f6572986fd0d93bdced2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a4c9b1ea970355f0d6e785d5186f184" id="r_a5a4c9b1ea970355f0d6e785d5186f184"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a></td></tr>
-<tr class="memdesc:a5a4c9b1ea970355f0d6e785d5186f184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify mode of detecting inside and outside parts of triangulation.  <br /></td></tr>
-<tr class="separator:a5a4c9b1ea970355f0d6e785d5186f184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2322c246c75b00c3a239e335f94ebc2e" id="r_a2322c246c75b00c3a239e335f94ebc2e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2322c246c75b00c3a239e335f94ebc2e">MR_PlanarTriangulation_WindingMode</a></td></tr>
+<tr class="memdesc:a2322c246c75b00c3a239e335f94ebc2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify mode of detecting inside and outside parts of triangulation.  <br /></td></tr>
+<tr class="separator:a2322c246c75b00c3a239e335f94ebc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7904b8cd14ce798ae758acaa3e3818e3" id="r_a7904b8cd14ce798ae758acaa3e3818e3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a></td></tr>
 <tr class="separator:a7904b8cd14ce798ae758acaa3e3818e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9baf3ae71c8b6e3897162161cea892f" id="r_ae9baf3ae71c8b6e3897162161cea892f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a></td></tr>
@@ -198,11 +196,12 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:adf764cbdea00d65edcd07bb9953ad2b7" id="r_adf764cbdea00d65edcd07bb9953ad2b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#adf764cbdea00d65edcd07bb9953ad2b7a6295a3a744ce1b064617ed194dedee3b">MR_PlanarTriangulation_WindingMode_NonZero</a> = 0
-, <a class="el" href="#adf764cbdea00d65edcd07bb9953ad2b7a62cae5941c67cf355977ebe02be3534c">MR_PlanarTriangulation_WindingMode_Positive</a> = 1
-, <a class="el" href="#adf764cbdea00d65edcd07bb9953ad2b7a760d85d44259a37968a85a852de948a6">MR_PlanarTriangulation_WindingMode_Negative</a> = 2
+<tr class="memitem:a4804b01a720e7d9caac26d9ba0ddd66e" id="r_a4804b01a720e7d9caac26d9ba0ddd66e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> { <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b">MR_PlanarTriangulation_WindingMode_NonZero</a> = 0
+, <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c">MR_PlanarTriangulation_WindingMode_Positive</a> = 1
+, <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66ea760d85d44259a37968a85a852de948a6">MR_PlanarTriangulation_WindingMode_Negative</a> = 2
  }</td></tr>
-<tr class="separator:adf764cbdea00d65edcd07bb9953ad2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a4804b01a720e7d9caac26d9ba0ddd66e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify mode of detecting inside and outside parts of triangulation.  <a href="#a4804b01a720e7d9caac26d9ba0ddd66e">More...</a><br /></td></tr>
+<tr class="separator:a4804b01a720e7d9caac26d9ba0ddd66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -308,17 +307,17 @@ Functions</h2></td></tr>
 <tr class="separator:ae16f292101475d851b112329b557665a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa04cf23c4f4789ad6628642ad03a3b01" id="r_aa04cf23c4f4789ad6628642ad03a3b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa04cf23c4f4789ad6628642ad03a3b01">MR_PlanarTriangulation_BaseOutlineParameters_GetMutable_allowMerge</a> (<a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this)</td></tr>
 <tr class="separator:aa04cf23c4f4789ad6628642ad03a3b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93dc78e88336ac2dba25202431c91966" id="r_a93dc78e88336ac2dba25202431c91966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93dc78e88336ac2dba25202431c91966">MR_PlanarTriangulation_BaseOutlineParameters_Get_innerType</a> (const <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this)</td></tr>
+<tr class="memitem:a93dc78e88336ac2dba25202431c91966" id="r_a93dc78e88336ac2dba25202431c91966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93dc78e88336ac2dba25202431c91966">MR_PlanarTriangulation_BaseOutlineParameters_Get_innerType</a> (const <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this)</td></tr>
 <tr class="separator:a93dc78e88336ac2dba25202431c91966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46a5faf149472834038cb8baf426873f" id="r_a46a5faf149472834038cb8baf426873f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46a5faf149472834038cb8baf426873f">MR_PlanarTriangulation_BaseOutlineParameters_Set_innerType</a> (<a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this, <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a> value)</td></tr>
+<tr class="memitem:a46a5faf149472834038cb8baf426873f" id="r_a46a5faf149472834038cb8baf426873f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46a5faf149472834038cb8baf426873f">MR_PlanarTriangulation_BaseOutlineParameters_Set_innerType</a> (<a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this, <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> value)</td></tr>
 <tr class="separator:a46a5faf149472834038cb8baf426873f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad21d015820c20b3e85b3026e5edfa825" id="r_ad21d015820c20b3e85b3026e5edfa825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21d015820c20b3e85b3026e5edfa825">MR_PlanarTriangulation_BaseOutlineParameters_GetMutable_innerType</a> (<a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this)</td></tr>
+<tr class="memitem:ad21d015820c20b3e85b3026e5edfa825" id="r_ad21d015820c20b3e85b3026e5edfa825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21d015820c20b3e85b3026e5edfa825">MR_PlanarTriangulation_BaseOutlineParameters_GetMutable_innerType</a> (<a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *_this)</td></tr>
 <tr class="separator:ad21d015820c20b3e85b3026e5edfa825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93a4258db020c9cff6c4177ef8eae30b" id="r_a93a4258db020c9cff6c4177ef8eae30b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a4258db020c9cff6c4177ef8eae30b">MR_PlanarTriangulation_BaseOutlineParameters_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a93a4258db020c9cff6c4177ef8eae30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4866f38dff53a17888a79a51cee120b5" id="r_a4866f38dff53a17888a79a51cee120b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4866f38dff53a17888a79a51cee120b5">MR_PlanarTriangulation_BaseOutlineParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a4866f38dff53a17888a79a51cee120b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5867a7f5ee0e61af52a52f479d45ae8c" id="r_a5867a7f5ee0e61af52a52f479d45ae8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5867a7f5ee0e61af52a52f479d45ae8c">MR_PlanarTriangulation_BaseOutlineParameters_ConstructFrom</a> (bool allowMerge, <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a> innerType)</td></tr>
+<tr class="memitem:a5867a7f5ee0e61af52a52f479d45ae8c" id="r_a5867a7f5ee0e61af52a52f479d45ae8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5867a7f5ee0e61af52a52f479d45ae8c">MR_PlanarTriangulation_BaseOutlineParameters_ConstructFrom</a> (bool allowMerge, <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> innerType)</td></tr>
 <tr class="separator:a5867a7f5ee0e61af52a52f479d45ae8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae708843ce106e2535c741349e9b95556" id="r_ae708843ce106e2535c741349e9b95556"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae708843ce106e2535c741349e9b95556">MR_PlanarTriangulation_BaseOutlineParameters_OffsetPtr</a> (const <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ae708843ce106e2535c741349e9b95556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -480,14 +479,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a4c9b1ea970355f0d6e785d5186f184" name="a5a4c9b1ea970355f0d6e785d5186f184"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a4c9b1ea970355f0d6e785d5186f184">&#9670;&#160;</a></span>MR_PlanarTriangulation_WindingMode</h2>
+<a id="a2322c246c75b00c3a239e335f94ebc2e" name="a2322c246c75b00c3a239e335f94ebc2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2322c246c75b00c3a239e335f94ebc2e">&#9670;&#160;</a></span>MR_PlanarTriangulation_WindingMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -595,21 +594,23 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="adf764cbdea00d65edcd07bb9953ad2b7" name="adf764cbdea00d65edcd07bb9953ad2b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf764cbdea00d65edcd07bb9953ad2b7">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a4804b01a720e7d9caac26d9ba0ddd66e" name="a4804b01a720e7d9caac26d9ba0ddd66e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4804b01a720e7d9caac26d9ba0ddd66e">&#9670;&#160;</a></span>MR_PlanarTriangulation_WindingMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Specify mode of detecting inside and outside parts of triangulation. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf764cbdea00d65edcd07bb9953ad2b7a6295a3a744ce1b064617ed194dedee3b" name="adf764cbdea00d65edcd07bb9953ad2b7a6295a3a744ce1b064617ed194dedee3b"></a>MR_PlanarTriangulation_WindingMode_NonZero&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf764cbdea00d65edcd07bb9953ad2b7a62cae5941c67cf355977ebe02be3534c" name="adf764cbdea00d65edcd07bb9953ad2b7a62cae5941c67cf355977ebe02be3534c"></a>MR_PlanarTriangulation_WindingMode_Positive&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf764cbdea00d65edcd07bb9953ad2b7a760d85d44259a37968a85a852de948a6" name="adf764cbdea00d65edcd07bb9953ad2b7a760d85d44259a37968a85a852de948a6"></a>MR_PlanarTriangulation_WindingMode_Negative&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b" name="a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b"></a>MR_PlanarTriangulation_WindingMode_NonZero&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c" name="a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c"></a>MR_PlanarTriangulation_WindingMode_Positive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4804b01a720e7d9caac26d9ba0ddd66ea760d85d44259a37968a85a852de948a6" name="a4804b01a720e7d9caac26d9ba0ddd66ea760d85d44259a37968a85a852de948a6"></a>MR_PlanarTriangulation_WindingMode_Negative&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -651,7 +652,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a></td>          <td class="paramname"><span class="paramname"><em>innerType</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a></td>          <td class="paramname"><span class="paramname"><em>innerType</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -776,7 +777,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a> * MR_PlanarTriangulation_BaseOutlineParameters_Get_innerType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> * MR_PlanarTriangulation_BaseOutlineParameters_Get_innerType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -812,7 +813,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a> * MR_PlanarTriangulation_BaseOutlineParameters_GetMutable_innerType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a> * MR_PlanarTriangulation_BaseOutlineParameters_GetMutable_innerType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -904,7 +905,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a5a4c9b1ea970355f0d6e785d5186f184">MR_PlanarTriangulation_WindingMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a4804b01a720e7d9caac26d9ba0ddd66e">MR_PlanarTriangulation_WindingMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

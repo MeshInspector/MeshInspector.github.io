@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1Graph_1_1EndVertices =
 [
     [ "__init__", "classmrmeshpy_1_1Graph_1_1EndVertices.html#ab21207d19ae66d38587f5debc18b3cc3", null ],
+    [ "__init__", "classmrmeshpy_1_1Graph_1_1EndVertices.html#a6f8e70e64a7ce3dbfc186c60a193d48a", null ],
     [ "__init__", "classmrmeshpy_1_1Graph_1_1EndVertices.html#a7c269ebe070d737b7d9f53ab0dfa3180", null ],
     [ "otherEnd", "classmrmeshpy_1_1Graph_1_1EndVertices.html#a339a3b50bb63c9fc4bae90b0af20cc7f", null ],
     [ "replaceEnd", "classmrmeshpy_1_1Graph_1_1EndVertices.html#a4daeea424dfe137c3b4d1baef3b8f8fb", null ],

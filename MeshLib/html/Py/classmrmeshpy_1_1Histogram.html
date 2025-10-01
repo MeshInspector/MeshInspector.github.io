@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Py/classmrmeshpy_1_1Histogram.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -160,6 +159,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec1797f19ef6beeef0085525ad967ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4016e7f424620e6adc361fdb0918efc0" id="r_a4016e7f424620e6adc361fdb0918efc0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4016e7f424620e6adc361fdb0918efc0">__init__</a> (self, float min, float max, int <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
 <tr class="separator:a4016e7f424620e6adc361fdb0918efc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab248134bbf9f175c896d8c604c3e4e53" id="r_ab248134bbf9f175c896d8c604c3e4e53"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab248134bbf9f175c896d8c604c3e4e53">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> arg0)</td></tr>
+<tr class="separator:ab248134bbf9f175c896d8c604c3e4e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3fe2bcd9fff2c36db5b84ea3b2fae25" id="r_af3fe2bcd9fff2c36db5b84ea3b2fae25"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3fe2bcd9fff2c36db5b84ea3b2fae25">addHistogram</a> (self, <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> hist)</td></tr>
 <tr class="separator:af3fe2bcd9fff2c36db5b84ea3b2fae25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dec0185df4341fb8641de3d0aa4feb9" id="r_a3dec0185df4341fb8641de3d0aa4feb9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dec0185df4341fb8641de3d0aa4feb9">addSample</a> (self, float sample, int count=1)</td></tr>
@@ -192,7 +193,7 @@ Static Public Member Functions</h2></td></tr>
 Simple class for calculating histogram
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9fd29e584ec905bc7e829602b1bff6da" name="a9fd29e584ec905bc7e829602b1bff6da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fd29e584ec905bc7e829602b1bff6da">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fd29e584ec905bc7e829602b1bff6da">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +222,7 @@ Simple class for calculating histogram
 </div>
 </div>
 <a id="aec1797f19ef6beeef0085525ad967ef3" name="aec1797f19ef6beeef0085525ad967ef3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec1797f19ef6beeef0085525ad967ef3">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1797f19ef6beeef0085525ad967ef3">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,7 +239,7 @@ Simple class for calculating histogram
 </div>
 </div>
 <a id="a4016e7f424620e6adc361fdb0918efc0" name="a4016e7f424620e6adc361fdb0918efc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4016e7f424620e6adc361fdb0918efc0">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4016e7f424620e6adc361fdb0918efc0">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,6 +267,28 @@ Simple class for calculating histogram
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Initialize histogram with minimum and maximum values, and number of bins
+</pre> 
+</div>
+</div>
+<a id="ab248134bbf9f175c896d8c604c3e4e53" name="ab248134bbf9f175c896d8c604c3e4e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab248134bbf9f175c896d8c604c3e4e53">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Histogram.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
 </pre> 
 </div>
 </div>

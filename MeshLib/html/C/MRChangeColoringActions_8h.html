@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRChangeColoringActions_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRChangeColoringActions_8h.html',''); initResizable(tr
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRChangeColoringActions_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -179,8 +177,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5655fa994c66e1064866af75a1c3f2b" id="r_ac5655fa994c66e1064866af75a1c3f2b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a></td></tr>
 <tr class="separator:ac5655fa994c66e1064866af75a1c3f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8134e20f6944b47ad56683dc43298223" id="r_a8134e20f6944b47ad56683dc43298223"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8134e20f6944b47ad56683dc43298223">MR_ChangeObjectColorAction_Type</a></td></tr>
-<tr class="separator:a8134e20f6944b47ad56683dc43298223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0923473099f8142766aa2e3f19a66da" id="r_ad0923473099f8142766aa2e3f19a66da"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0923473099f8142766aa2e3f19a66da">MR_ChangeObjectColorAction_Type</a></td></tr>
+<tr class="separator:ad0923473099f8142766aa2e3f19a66da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58fe3709044e59d1dfb8d98ebf99e87" id="r_aa58fe3709044e59d1dfb8d98ebf99e87"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa58fe3709044e59d1dfb8d98ebf99e87">MR_ChangeFacesColorMapAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58fe3709044e59d1dfb8d98ebf99e87">MR_ChangeFacesColorMapAction</a></td></tr>
 <tr class="separator:aa58fe3709044e59d1dfb8d98ebf99e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d3e82a1fb3901ece39b0b72e3f54800" id="r_a5d3e82a1fb3901ece39b0b72e3f54800"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5d3e82a1fb3901ece39b0b72e3f54800">MR_ChangeLinesColorMapAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d3e82a1fb3901ece39b0b72e3f54800">MR_ChangeLinesColorMapAction</a></td></tr>
@@ -188,11 +186,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a61dadd085c1777f559549e05962b2c9e" id="r_a61dadd085c1777f559549e05962b2c9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a61dadd085c1777f559549e05962b2c9eab7a5afbdff1adbd80b5608ae7243da51">MR_ChangeObjectColorAction_Type_Unselected</a> = 0
-, <a class="el" href="#a61dadd085c1777f559549e05962b2c9ea1e8cbc41ddcf2ced5bcd057acf267063">MR_ChangeObjectColorAction_Type_Selected</a> = 1
-, <a class="el" href="#a61dadd085c1777f559549e05962b2c9eaa6bfe306da5b05891481dc4629693916">MR_ChangeObjectColorAction_Type_Back</a> = 2
+<tr class="memitem:a9789518b7ebd15e444aa399fec82113b" id="r_a9789518b7ebd15e444aa399fec82113b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a> { <a class="el" href="#a9789518b7ebd15e444aa399fec82113bab7a5afbdff1adbd80b5608ae7243da51">MR_ChangeObjectColorAction_Type_Unselected</a> = 0
+, <a class="el" href="#a9789518b7ebd15e444aa399fec82113ba1e8cbc41ddcf2ced5bcd057acf267063">MR_ChangeObjectColorAction_Type_Selected</a> = 1
+, <a class="el" href="#a9789518b7ebd15e444aa399fec82113baa6bfe306da5b05891481dc4629693916">MR_ChangeObjectColorAction_Type_Back</a> = 2
  }</td></tr>
-<tr class="separator:a61dadd085c1777f559549e05962b2c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a9789518b7ebd15e444aa399fec82113b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -209,7 +207,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a492a4fe48e7c85e1a9275525facc0065" id="r_a492a4fe48e7c85e1a9275525facc0065"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492a4fe48e7c85e1a9275525facc0065">MR_ChangeObjectColorAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *object)</td></tr>
 <tr class="memdesc:a492a4fe48e7c85e1a9275525facc0065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
 <tr class="separator:a492a4fe48e7c85e1a9275525facc0065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97d0fbd8e8c6e724773f17c6ec8d9353" id="r_a97d0fbd8e8c6e724773f17c6ec8d9353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d0fbd8e8c6e724773f17c6ec8d9353">MR_ChangeObjectColorAction_Construct</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, <a class="el" href="#a8134e20f6944b47ad56683dc43298223">MR_ChangeObjectColorAction_Type</a> type)</td></tr>
+<tr class="memitem:a97d0fbd8e8c6e724773f17c6ec8d9353" id="r_a97d0fbd8e8c6e724773f17c6ec8d9353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d0fbd8e8c6e724773f17c6ec8d9353">MR_ChangeObjectColorAction_Construct</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, <a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a> type)</td></tr>
 <tr class="separator:a97d0fbd8e8c6e724773f17c6ec8d9353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace9c17be4cdbf98c0902a0ae319d561c" id="r_ace9c17be4cdbf98c0902a0ae319d561c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace9c17be4cdbf98c0902a0ae319d561c">MR_ChangeObjectColorAction_Destroy</a> (const <a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *_this)</td></tr>
 <tr class="memdesc:ace9c17be4cdbf98c0902a0ae319d561c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeObjectColorAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -221,7 +219,7 @@ Functions</h2></td></tr>
 <tr class="separator:a9bab61b5dc389b2bed99d7c8d39d2a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e3e97b74e926c1e02dbceb80fd1afc8" id="r_a6e3e97b74e926c1e02dbceb80fd1afc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e3e97b74e926c1e02dbceb80fd1afc8">MR_ChangeObjectColorAction_name</a> (const <a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *_this)</td></tr>
 <tr class="separator:a6e3e97b74e926c1e02dbceb80fd1afc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae76482dd5493173261c171b27bdd869d" id="r_ae76482dd5493173261c171b27bdd869d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae76482dd5493173261c171b27bdd869d">MR_ChangeObjectColorAction_action</a> (<a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="memitem:ae76482dd5493173261c171b27bdd869d" id="r_ae76482dd5493173261c171b27bdd869d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae76482dd5493173261c171b27bdd869d">MR_ChangeObjectColorAction_action</a> (<a class="el" href="#ac5655fa994c66e1064866af75a1c3f2b">MR_ChangeObjectColorAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="separator:ae76482dd5493173261c171b27bdd869d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58875ac1bf3961978a1359270016a565" id="r_a58875ac1bf3961978a1359270016a565"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58875ac1bf3961978a1359270016a565">MR_ChangeObjectColorAction_setObjectDirty</a> (const <a class="el" href="#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *_1)</td></tr>
 <tr class="separator:a58875ac1bf3961978a1359270016a565"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,7 +252,7 @@ Functions</h2></td></tr>
 <tr class="separator:a38bf41ad35b0570084760057877fec8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1b71d24b57699cda61db6ff4077853" id="r_a7c1b71d24b57699cda61db6ff4077853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c1b71d24b57699cda61db6ff4077853">MR_ChangeFacesColorMapAction_name</a> (const <a class="el" href="#aa58fe3709044e59d1dfb8d98ebf99e87">MR_ChangeFacesColorMapAction</a> *_this)</td></tr>
 <tr class="separator:a7c1b71d24b57699cda61db6ff4077853"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae7b3d9f3c8a6966e77b3e8c2d9f825a" id="r_aae7b3d9f3c8a6966e77b3e8c2d9f825a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae7b3d9f3c8a6966e77b3e8c2d9f825a">MR_ChangeFacesColorMapAction_action</a> (<a class="el" href="#aa58fe3709044e59d1dfb8d98ebf99e87">MR_ChangeFacesColorMapAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="memitem:aae7b3d9f3c8a6966e77b3e8c2d9f825a" id="r_aae7b3d9f3c8a6966e77b3e8c2d9f825a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae7b3d9f3c8a6966e77b3e8c2d9f825a">MR_ChangeFacesColorMapAction_action</a> (<a class="el" href="#aa58fe3709044e59d1dfb8d98ebf99e87">MR_ChangeFacesColorMapAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="separator:aae7b3d9f3c8a6966e77b3e8c2d9f825a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7072f1851ef43d4d57bf717de45af00a" id="r_a7072f1851ef43d4d57bf717de45af00a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7072f1851ef43d4d57bf717de45af00a">MR_ChangeFacesColorMapAction_setObjectDirty</a> (const <a class="el" href="#abd3bb0462953cf0fbf4ae07efee66edb">MR_std_shared_ptr_MR_ObjectMeshHolder</a> *obj)</td></tr>
 <tr class="separator:a7072f1851ef43d4d57bf717de45af00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,7 +285,7 @@ Functions</h2></td></tr>
 <tr class="separator:a84351290c9a139df27f58490befea193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46f7cd70fae0392b1b34e1f389679700" id="r_a46f7cd70fae0392b1b34e1f389679700"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f7cd70fae0392b1b34e1f389679700">MR_ChangeLinesColorMapAction_name</a> (const <a class="el" href="#a5d3e82a1fb3901ece39b0b72e3f54800">MR_ChangeLinesColorMapAction</a> *_this)</td></tr>
 <tr class="separator:a46f7cd70fae0392b1b34e1f389679700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa711f0b579e941b423d1730f16e3695a" id="r_aa711f0b579e941b423d1730f16e3695a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa711f0b579e941b423d1730f16e3695a">MR_ChangeLinesColorMapAction_action</a> (<a class="el" href="#a5d3e82a1fb3901ece39b0b72e3f54800">MR_ChangeLinesColorMapAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="memitem:aa711f0b579e941b423d1730f16e3695a" id="r_aa711f0b579e941b423d1730f16e3695a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa711f0b579e941b423d1730f16e3695a">MR_ChangeLinesColorMapAction_action</a> (<a class="el" href="#a5d3e82a1fb3901ece39b0b72e3f54800">MR_ChangeLinesColorMapAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="separator:aa711f0b579e941b423d1730f16e3695a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac882fc3d71019a0db3306075e5c1af04" id="r_ac882fc3d71019a0db3306075e5c1af04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac882fc3d71019a0db3306075e5c1af04">MR_ChangeLinesColorMapAction_setObjectDirty</a> (const <a class="el" href="#ad458eacc045c043795ff381c6b6455a7">MR_std_shared_ptr_MR_ObjectLinesHolder</a> *obj)</td></tr>
 <tr class="separator:ac882fc3d71019a0db3306075e5c1af04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,14 +338,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8134e20f6944b47ad56683dc43298223" name="a8134e20f6944b47ad56683dc43298223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8134e20f6944b47ad56683dc43298223">&#9670;&#160;</a></span>MR_ChangeObjectColorAction_Type</h2>
+<a id="ad0923473099f8142766aa2e3f19a66da" name="ad0923473099f8142766aa2e3f19a66da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0923473099f8142766aa2e3f19a66da">&#9670;&#160;</a></span>MR_ChangeObjectColorAction_Type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a8134e20f6944b47ad56683dc43298223">MR_ChangeObjectColorAction_Type</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a> <a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -453,21 +451,21 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a61dadd085c1777f559549e05962b2c9e" name="a61dadd085c1777f559549e05962b2c9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61dadd085c1777f559549e05962b2c9e">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a9789518b7ebd15e444aa399fec82113b" name="a9789518b7ebd15e444aa399fec82113b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9789518b7ebd15e444aa399fec82113b">&#9670;&#160;</a></span>MR_ChangeObjectColorAction_Type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a61dadd085c1777f559549e05962b2c9eab7a5afbdff1adbd80b5608ae7243da51" name="a61dadd085c1777f559549e05962b2c9eab7a5afbdff1adbd80b5608ae7243da51"></a>MR_ChangeObjectColorAction_Type_Unselected&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61dadd085c1777f559549e05962b2c9ea1e8cbc41ddcf2ced5bcd057acf267063" name="a61dadd085c1777f559549e05962b2c9ea1e8cbc41ddcf2ced5bcd057acf267063"></a>MR_ChangeObjectColorAction_Type_Selected&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61dadd085c1777f559549e05962b2c9eaa6bfe306da5b05891481dc4629693916" name="a61dadd085c1777f559549e05962b2c9eaa6bfe306da5b05891481dc4629693916"></a>MR_ChangeObjectColorAction_Type_Back&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9789518b7ebd15e444aa399fec82113bab7a5afbdff1adbd80b5608ae7243da51" name="a9789518b7ebd15e444aa399fec82113bab7a5afbdff1adbd80b5608ae7243da51"></a>MR_ChangeObjectColorAction_Type_Unselected&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9789518b7ebd15e444aa399fec82113ba1e8cbc41ddcf2ced5bcd057acf267063" name="a9789518b7ebd15e444aa399fec82113ba1e8cbc41ddcf2ced5bcd057acf267063"></a>MR_ChangeObjectColorAction_Type_Selected&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9789518b7ebd15e444aa399fec82113baa6bfe306da5b05891481dc4629693916" name="a9789518b7ebd15e444aa399fec82113baa6bfe306da5b05891481dc4629693916"></a>MR_ChangeObjectColorAction_Type_Back&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -487,7 +485,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -782,7 +780,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1077,7 +1075,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1131,7 +1129,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a8134e20f6944b47ad56683dc43298223">MR_ChangeObjectColorAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a9789518b7ebd15e444aa399fec82113b">MR_ChangeObjectColorAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

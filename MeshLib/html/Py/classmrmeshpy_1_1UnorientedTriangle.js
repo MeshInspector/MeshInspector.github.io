@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1UnorientedTriangle =
 [
     [ "__init__", "classmrmeshpy_1_1UnorientedTriangle.html#adea8c915bec38ba2133be2b7d7c882a4", null ],
+    [ "__init__", "classmrmeshpy_1_1UnorientedTriangle.html#a456b7aa6ca2a994433c3914793c85abe", null ],
     [ "__eq__", "classmrmeshpy_1_1UnorientedTriangle.html#a7f63766c1b07f99cc9fd15fc66f883f3", null ],
     [ "__getitem__", "classmrmeshpy_1_1UnorientedTriangle.html#aa8f32c40569d9679657b380af4db7273", null ],
     [ "__getitem__", "classmrmeshpy_1_1UnorientedTriangle.html#aa8f32c40569d9679657b380af4db7273", null ],

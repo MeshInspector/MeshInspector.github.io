@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleMeshDecimate.html" />
-
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<!-- No Index Part -->
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -280,18 +279,18 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshDecimate_8h.html#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a>* params = <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a11fc6de32c51d96f2d0ecf2cdf0d89f2">MR_DecimateSettings_DefaultConstruct</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a91bb8e469ab722eee10d5ca1965bdb5f">MR_DecimateSettings_Set_maxDeletedFaces</a>( params, 1000 ); <span class="comment">// Number of faces to be deleted</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a4d09c1fedfc51a805ef7ca440f69964f">MR_DecimateSettings_Set_maxDeletedFaces</a>( params, 1000 ); <span class="comment">// Number of faces to be deleted</span></div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a02682bf31c53ea3dbcb40690424eabd4">MR_DecimateSettings_Set_maxError</a>( params, 0.05f ); <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
 <div class="line">    <span class="comment">// Recommended to set to the number of available CPU cores or more for the best performance</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aba88577dc78873a036e4f1b7cf7d7e3e">MR_DecimateSettings_Set_subdivideParts</a>( params, 64 );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a3cffeb8691245162333b40c6b03532e6">MR_DecimateSettings_Set_subdivideParts</a>( params, 64 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshDecimate_8h.html#a1c2bfbb682daa7da43026c7be3a4796e">MR_DecimateResult</a>* result = <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aff543414478a21a6383678de5719058b">MR_decimateMesh</a>( mesh, params );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aba4b49c1fc63bf6029d452bff2a12f37">MR_DecimateSettings_Destroy</a>( params );</div>
 <div class="line"> </div>
-<div class="line">    printf( <span class="stringliteral">&quot;Removed %d vertices, %d faces\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#ae04837a50f8e68ac182cb524f551251f">MR_DecimateResult_Get_vertsDeleted</a>( result ), *<a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#ac92ad103bf6b3e2872640d1fc6179b3e">MR_DecimateResult_Get_facesDeleted</a>( result ) );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;Removed %d vertices, %d faces\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#ab6bdafd695829e0a593cf745ea0a9709">MR_DecimateResult_Get_vertsDeleted</a>( result ), *<a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a06c3771203515b927d8d73f1f1677b33">MR_DecimateResult_Get_facesDeleted</a>( result ) );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aae88d6da898d1a97e1f9b7a9688b45e7">MR_DecimateResult_Destroy</a>( result );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
@@ -312,15 +311,15 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html">MRMeshDecimate.h</a></div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_a02682bf31c53ea3dbcb40690424eabd4"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a02682bf31c53ea3dbcb40690424eabd4">MR_DecimateSettings_Set_maxError</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_maxError(MR_DecimateSettings *_this, float value)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a06c3771203515b927d8d73f1f1677b33"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a06c3771203515b927d8d73f1f1677b33">MR_DecimateResult_Get_facesDeleted</a></div><div class="ttdeci">MRC_API const int * MR_DecimateResult_Get_facesDeleted(const MR_DecimateResult *_this)</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_a11fc6de32c51d96f2d0ecf2cdf0d89f2"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a11fc6de32c51d96f2d0ecf2cdf0d89f2">MR_DecimateSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_DecimateSettings * MR_DecimateSettings_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_a1c2bfbb682daa7da43026c7be3a4796e"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a1c2bfbb682daa7da43026c7be3a4796e">MR_DecimateResult</a></div><div class="ttdeci">struct MR_DecimateResult MR_DecimateResult</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a3cffeb8691245162333b40c6b03532e6"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a3cffeb8691245162333b40c6b03532e6">MR_DecimateSettings_Set_subdivideParts</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_subdivideParts(MR_DecimateSettings *_this, int value)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a4d09c1fedfc51a805ef7ca440f69964f"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a4d09c1fedfc51a805ef7ca440f69964f">MR_DecimateSettings_Set_maxDeletedFaces</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_maxDeletedFaces(MR_DecimateSettings *_this, int value)</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_a6e3ff7daeb59ebc150f578d14cef449a"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a></div><div class="ttdeci">struct MR_DecimateSettings MR_DecimateSettings</div></div>
-<div class="ttc" id="aMRMeshDecimate_8h_html_a91bb8e469ab722eee10d5ca1965bdb5f"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a91bb8e469ab722eee10d5ca1965bdb5f">MR_DecimateSettings_Set_maxDeletedFaces</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_maxDeletedFaces(MR_DecimateSettings *_this, int32_t value)</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_aae88d6da898d1a97e1f9b7a9688b45e7"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aae88d6da898d1a97e1f9b7a9688b45e7">MR_DecimateResult_Destroy</a></div><div class="ttdeci">MRC_API void MR_DecimateResult_Destroy(const MR_DecimateResult *_this)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_ab6bdafd695829e0a593cf745ea0a9709"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#ab6bdafd695829e0a593cf745ea0a9709">MR_DecimateResult_Get_vertsDeleted</a></div><div class="ttdeci">MRC_API const int * MR_DecimateResult_Get_vertsDeleted(const MR_DecimateResult *_this)</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_aba4b49c1fc63bf6029d452bff2a12f37"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aba4b49c1fc63bf6029d452bff2a12f37">MR_DecimateSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Destroy(const MR_DecimateSettings *_this)</div></div>
-<div class="ttc" id="aMRMeshDecimate_8h_html_aba88577dc78873a036e4f1b7cf7d7e3e"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aba88577dc78873a036e4f1b7cf7d7e3e">MR_DecimateSettings_Set_subdivideParts</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_subdivideParts(MR_DecimateSettings *_this, int32_t value)</div></div>
-<div class="ttc" id="aMRMeshDecimate_8h_html_ac92ad103bf6b3e2872640d1fc6179b3e"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#ac92ad103bf6b3e2872640d1fc6179b3e">MR_DecimateResult_Get_facesDeleted</a></div><div class="ttdeci">MRC_API const int32_t * MR_DecimateResult_Get_facesDeleted(const MR_DecimateResult *_this)</div></div>
-<div class="ttc" id="aMRMeshDecimate_8h_html_ae04837a50f8e68ac182cb524f551251f"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#ae04837a50f8e68ac182cb524f551251f">MR_DecimateResult_Get_vertsDeleted</a></div><div class="ttdeci">MRC_API const int32_t * MR_DecimateResult_Get_vertsDeleted(const MR_DecimateResult *_this)</div></div>
 <div class="ttc" id="aMRMeshDecimate_8h_html_aff543414478a21a6383678de5719058b"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aff543414478a21a6383678de5719058b">MR_decimateMesh</a></div><div class="ttdeci">MRC_API MR_DecimateResult * MR_decimateMesh(MR_Mesh *mesh, const MR_DecimateSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1ICPPairData =
 [
     [ "__init__", "classmrmeshpy_1_1ICPPairData.html#ab146480efc1ea9a30c3d8ca77e86519e", null ],
+    [ "__init__", "classmrmeshpy_1_1ICPPairData.html#a2edf225bad86490514eda1a00647fbf9", null ],
     [ "__init__", "classmrmeshpy_1_1ICPPairData.html#aad2944fb50aa2e5e9b87ac6456aa9a06", null ],
     [ "distSq", "classmrmeshpy_1_1ICPPairData.html#a81a16851930b610d0f2da952f2e9dfb2", null ],
     [ "distSq", "classmrmeshpy_1_1ICPPairData.html#ad0bc3f78c9ae7c4183be09dfdde928b0", null ],

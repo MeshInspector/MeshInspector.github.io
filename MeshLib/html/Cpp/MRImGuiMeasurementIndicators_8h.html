@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRImGuiMeasurementIndicators_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -158,22 +157,50 @@ $(function(){initNavTree('MRImGuiMeasurementIndicators_8h.html',''); initResizab
 <code>#include &quot;MRViewer/exports.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRImGuiVectorOperators_8h_source.html">MRViewer/MRImGuiVectorOperators.h</a>&quot;</code><br />
 <code>#include &lt;imgui.h&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;span&gt;</code><br />
+<code>#include &lt;variant&gt;</code><br />
 </div>
 <p><a href="MRImGuiMeasurementIndicators_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html">MR::ImGuiMeasurementIndicators::Stipple</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html">MR::ImGuiMeasurementIndicators::Stipple::Segment</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">MR::ImGuiMeasurementIndicators::Params</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">MR::ImGuiMeasurementIndicators::StringWithIcon</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">MR::ImGuiMeasurementIndicators::TextColor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">MR::ImGuiMeasurementIndicators::TextFont</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">MR::ImGuiMeasurementIndicators::Text</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html">MR::ImGuiMeasurementIndicators::Text::Elem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html">MR::ImGuiMeasurementIndicators::Text::Line</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html">MR::ImGuiMeasurementIndicators::Text::DrawResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html">MR::ImGuiMeasurementIndicators::LineBodyParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html">MR::ImGuiMeasurementIndicators::TextParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html">MR::ImGuiMeasurementIndicators::TextParams::Line</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html">MR::ImGuiMeasurementIndicators::TextResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html">MR::ImGuiMeasurementIndicators::LineCap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html">MR::ImGuiMeasurementIndicators::LineParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html">MR::ImGuiMeasurementIndicators::LineResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html">MR::ImGuiMeasurementIndicators::DistanceParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html">MR::ImGuiMeasurementIndicators::DistanceResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html">MR::ImGuiMeasurementIndicators::CurveParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,27 +221,37 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f">MR::ImGuiMeasurementIndicators::both</a> = main | outline
  }</td></tr>
 <tr class="separator:ab3d1526afb0782fa9501df90cb1b2898"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516ec43eeeb87482edc172f968bb73de" id="r_a516ec43eeeb87482edc172f968bb73de"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73de">MR::ImGuiMeasurementIndicators::StringIcon</a> { <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8">MR::ImGuiMeasurementIndicators::none</a>
-, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73dea35f16dc084a53860f5cb3962107d5378">MR::ImGuiMeasurementIndicators::diameter</a>
+<tr class="memitem:ada21c38059140ab54d2c729c198e39f4" id="r_ada21c38059140ab54d2c729c198e39f4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4">MR::ImGuiMeasurementIndicators::TextIcon</a> { <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378">MR::ImGuiMeasurementIndicators::diameter</a>
  }</td></tr>
-<tr class="separator:a516ec43eeeb87482edc172f968bb73de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ada21c38059140ab54d2c729c198e39f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d1104a2e78b1f148bbd864c7d7cd6a" id="r_a57d1104a2e78b1f148bbd864c7d7cd6a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6a">MR::ImGuiMeasurementIndicators::LineCapDecoration</a> { <br />
+&#160;&#160;<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8">MR::ImGuiMeasurementIndicators::none</a>
+, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9">MR::ImGuiMeasurementIndicators::noOutline</a>
+, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698">MR::ImGuiMeasurementIndicators::extend</a>
+, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea">MR::ImGuiMeasurementIndicators::arrow</a>
+, <br />
+&#160;&#160;<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9">MR::ImGuiMeasurementIndicators::point</a>
+<br />
+ }</td></tr>
+<tr class="separator:a57d1104a2e78b1f148bbd864c7d7cd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf160e58360dc1e2c715f0b72dba162d" id="r_aaf160e58360dc1e2c715f0b72dba162d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162d">MR::ImGuiMeasurementIndicators::LineFlags</a> { <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934">MR::ImGuiMeasurementIndicators::narrow</a> = 1 &lt;&lt; 0
 , <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74">MR::ImGuiMeasurementIndicators::noBackwardArrowTipOffset</a> = 1 &lt;&lt; 1
+, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7">MR::ImGuiMeasurementIndicators::onlyOutline</a> = 1 &lt;&lt; 2
  }</td></tr>
 <tr class="separator:aaf160e58360dc1e2c715f0b72dba162d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a41f4d6d002c7cff807425bbcb80c5edd" id="r_a41f4d6d002c7cff807425bbcb80c5edd"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">MR::ImGuiMeasurementIndicators::point</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 point)</td></tr>
-<tr class="separator:a41f4d6d002c7cff807425bbcb80c5edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332cd23bae44470d3c2076a7d5a5d0ef" id="r_a332cd23bae44470d3c2076a7d5a5d0ef"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a332cd23bae44470d3c2076a7d5a5d0ef">MR::ImGuiMeasurementIndicators::text</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 pos, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a> string, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</td></tr>
-<tr class="separator:a332cd23bae44470d3c2076a7d5a5d0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a660e781c3399b37449e24305cf8bbdc4" id="r_a660e781c3399b37449e24305cf8bbdc4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a660e781c3399b37449e24305cf8bbdc4">MR::ImGuiMeasurementIndicators::arrowTriangle</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">point</a>, ImVec2 dir)</td></tr>
-<tr class="separator:a660e781c3399b37449e24305cf8bbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6029334be476b361570837d6592b4272" id="r_a6029334be476b361570837d6592b4272"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a6029334be476b361570837d6592b4272">MR::ImGuiMeasurementIndicators::line</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html">LineParams</a> &amp;lineParams={})</td></tr>
-<tr class="separator:a6029334be476b361570837d6592b4272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2552860465fff80ce74a099710e84c6" id="r_ac2552860465fff80ce74a099710e84c6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ac2552860465fff80ce74a099710e84c6">MR::ImGuiMeasurementIndicators::distance</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a> string, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html">DistanceParams</a> &amp;distanceParams={})</td></tr>
-<tr class="separator:ac2552860465fff80ce74a099710e84c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36daa50d771e787011f42e1d74ef4fe" id="r_ad36daa50d771e787011f42e1d74ef4fe"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad36daa50d771e787011f42e1d74ef4fe">MR::ImGuiMeasurementIndicators::point</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 point)</td></tr>
+<tr class="separator:ad36daa50d771e787011f42e1d74ef4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad06ab5868363731bf9b8a19d146e0d0b" id="r_ad06ab5868363731bf9b8a19d146e0d0b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html">TextResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b">MR::ImGuiMeasurementIndicators::text</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 pos, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a> &amp;text, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html">TextParams</a> &amp;textParams={}, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</td></tr>
+<tr class="separator:ad06ab5868363731bf9b8a19d146e0d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5e10a09f814d534e98407570061530" id="r_a8c5e10a09f814d534e98407570061530"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a8c5e10a09f814d534e98407570061530">MR::ImGuiMeasurementIndicators::arrowTriangle</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad36daa50d771e787011f42e1d74ef4fe">point</a>, ImVec2 dir)</td></tr>
+<tr class="separator:a8c5e10a09f814d534e98407570061530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eeca0f9dda534003c2bd14f598dd27c" id="r_a5eeca0f9dda534003c2bd14f598dd27c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html">LineResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#a5eeca0f9dda534003c2bd14f598dd27c">MR::ImGuiMeasurementIndicators::line</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html">LineParams</a> &amp;lineParams={})</td></tr>
+<tr class="separator:a5eeca0f9dda534003c2bd14f598dd27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde528adacd6500e6e542902d77f3690" id="r_adde528adacd6500e6e542902d77f3690"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html">DistanceResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#adde528adacd6500e6e542902d77f3690">MR::ImGuiMeasurementIndicators::distance</a> (<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a> &amp;<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b">text</a>, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html">DistanceParams</a> &amp;distanceParams={})</td></tr>
+<tr class="separator:adde528adacd6500e6e542902d77f3690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8511657c2ed1cc63ff209a6ede1c0f9" id="r_aa8511657c2ed1cc63ff209a6ede1c0f9"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B , typename F , typename G , typename H  = std::nullptr_t&gt; </td></tr>
 <tr class="memitem:aa8511657c2ed1cc63ff209a6ede1c0f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html">PreparedCurve</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9">MR::ImGuiMeasurementIndicators::prepareCurve</a> (const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html">CurveParams</a> &amp;curveParams, std::vector&lt; ImVec2 &gt; &amp;pointBuffer, const A &amp;stateA, const B &amp;stateB, F &amp;&amp;stateToPoint, G &amp;&amp;bisectState, H &amp;&amp;onInsertPoint=nullptr)</td></tr>
 <tr class="separator:aa8511657c2ed1cc63ff209a6ede1c0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>

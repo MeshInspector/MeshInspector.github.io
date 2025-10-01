@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Py/classmrmeshpy_1_1ObjectSelectivityType.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -185,6 +184,10 @@ Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a0188ce53d558ef7ad20711ce816b872e" id="r_a0188ce53d558ef7ad20711ce816b872e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0188ce53d558ef7ad20711ce816b872e">Any</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td></tr>
 <tr class="separator:a0188ce53d558ef7ad20711ce816b872e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71bfc24fdc634b7abaa2457ac8890215" id="r_a71bfc24fdc634b7abaa2457ac8890215"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71bfc24fdc634b7abaa2457ac8890215">LocalSelectable</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td></tr>
+<tr class="separator:a71bfc24fdc634b7abaa2457ac8890215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40490954255378075df93bd67b8554dc" id="r_a40490954255378075df93bd67b8554dc"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40490954255378075df93bd67b8554dc">LocalSelected</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td></tr>
+<tr class="separator:a40490954255378075df93bd67b8554dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba7e5fb53bd8bf2158de5330148cbac" id="r_aaba7e5fb53bd8bf2158de5330148cbac"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba7e5fb53bd8bf2158de5330148cbac">Selectable</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td></tr>
 <tr class="separator:aaba7e5fb53bd8bf2158de5330148cbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9579c6277c988fad4001b716c6468b0d" id="r_a9579c6277c988fad4001b716c6468b0d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9579c6277c988fad4001b716c6468b0d">Selected</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td></tr>
@@ -193,11 +196,15 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Members:
 
-  Selectable
+  Selectable : object itself and all its ancestors are selectable
 
-  Selected
+  LocalSelectable : object itself is selectable
 
-  Any
+  Selected : object itself is selected and all its ancestors are selectable
+
+  LocalSelected : object itself is selected
+
+  Any : any object
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab5511164434b18b38e91f99e32689810" name="ab5511164434b18b38e91f99e32689810"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5511164434b18b38e91f99e32689810">&#9670;&#160;</a></span>__init__()</h2>
@@ -432,6 +439,50 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typing mrmeshpy.ObjectSelectivityType.Any .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71bfc24fdc634b7abaa2457ac8890215" name="a71bfc24fdc634b7abaa2457ac8890215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71bfc24fdc634b7abaa2457ac8890215">&#9670;&#160;</a></span>LocalSelectable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.ObjectSelectivityType.LocalSelectable .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40490954255378075df93bd67b8554dc" name="a40490954255378075df93bd67b8554dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40490954255378075df93bd67b8554dc">&#9670;&#160;</a></span>LocalSelected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.ObjectSelectivityType.LocalSelected .ClassVar[<a class="el" href="classmrmeshpy_1_1ObjectSelectivityType.html">ObjectSelectivityType</a>]</td>
         </tr>
       </table>
   </td>

@@ -15,6 +15,7 @@ var MRViewerEventsListener_8h =
     [ "MR::KeyUpListener", "structMR_1_1KeyUpListener.html", "structMR_1_1KeyUpListener" ],
     [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", "structMR_1_1KeyDownListener" ],
     [ "MR::KeyRepeatListener", "structMR_1_1KeyRepeatListener.html", "structMR_1_1KeyRepeatListener" ],
+    [ "MR::PreSetupViewListener", "structMR_1_1PreSetupViewListener.html", "structMR_1_1PreSetupViewListener" ],
     [ "MR::PreDrawListener", "structMR_1_1PreDrawListener.html", "structMR_1_1PreDrawListener" ],
     [ "MR::DrawListener", "structMR_1_1DrawListener.html", "structMR_1_1DrawListener" ],
     [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", "structMR_1_1PostDrawListener" ],

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FreeFormBestFit =
 [
     [ "__init__", "classmrmeshpy_1_1FreeFormBestFit.html#ae1e450673ee994549cf85d4f90fdb2bf", null ],
+    [ "__init__", "classmrmeshpy_1_1FreeFormBestFit.html#a62703f169f6d046ffcb0251df2a0ba2b", null ],
     [ "addOther", "classmrmeshpy_1_1FreeFormBestFit.html#a3c8e2ddc8430ab8fafacd693d232cec7", null ],
     [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a66891ecb6c0c9cf0fd5c99ebe9ec0cb3", null ],
     [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a839a6a6dc20a98a638944a3a74ce0465", null ],

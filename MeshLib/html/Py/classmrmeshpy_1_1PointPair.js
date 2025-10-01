@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1PointPair =
 [
     [ "__init__", "classmrmeshpy_1_1PointPair.html#afa320dd5611f71a18b07b52f44352bfc", null ],
+    [ "__init__", "classmrmeshpy_1_1PointPair.html#aa4b263a6d942bfae24a1dd4b7ce4315f", null ],
     [ "normalsAngleCos", "classmrmeshpy_1_1PointPair.html#a90a3adeb01b06145a790ca3e08c5d6fb", null ],
     [ "normalsAngleCos", "classmrmeshpy_1_1PointPair.html#ad834e1f5c4aa8929d84d3dd68ba84ea1", null ],
     [ "srcVertId", "classmrmeshpy_1_1PointPair.html#a2d273f00d07badf743028ff606773bb7", null ],

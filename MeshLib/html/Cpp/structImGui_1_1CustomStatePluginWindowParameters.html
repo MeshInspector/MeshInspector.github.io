@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structImGui_1_1CustomStatePluginWindowParameters.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -163,7 +162,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aeb0498cd6f3dce0e76837aa8d02fba62" id="r_aeb0498cd6f3dce0e76837aa8d02fba62"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb0498cd6f3dce0e76837aa8d02fba62">collapsed</a> { nullptr }</td></tr>
 <tr class="separator:aeb0498cd6f3dce0e76837aa8d02fba62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b847836011905ac5e81447b23f40ca5" id="r_a1b847836011905ac5e81447b23f40ca5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b847836011905ac5e81447b23f40ca5">width</a> { 0.0f }</td></tr>
-<tr class="memdesc:a1b847836011905ac5e81447b23f40ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">window width (should be already scaled with menuScaling)  <br /></td></tr>
+<tr class="memdesc:a1b847836011905ac5e81447b23f40ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">window width (should be already scaled with <code>UI::scale()</code>)  <br /></td></tr>
 <tr class="separator:a1b847836011905ac5e81447b23f40ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f70e63acc39d4e06bd02168e934b9d0" id="r_a1f70e63acc39d4e06bd02168e934b9d0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f70e63acc39d4e06bd02168e934b9d0">height</a> { 0.0f }</td></tr>
 <tr class="memdesc:a1f70e63acc39d4e06bd02168e934b9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">window height, usually calculated internally (if value is zero)  <br /></td></tr>
@@ -177,9 +176,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae299a30eaa219843f278913c0d69044a" id="r_ae299a30eaa219843f278913c0d69044a"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae299a30eaa219843f278913c0d69044a">pivot</a> { 0.0f, 0.0f }</td></tr>
 <tr class="memdesc:ae299a30eaa219843f278913c0d69044a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the position of the starting point of the window  <br /></td></tr>
 <tr class="separator:ae299a30eaa219843f278913c0d69044a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46f32802770f367c43e45614a0849819" id="r_a46f32802770f367c43e45614a0849819"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f32802770f367c43e45614a0849819">menuScaling</a> { 1.0f }</td></tr>
-<tr class="memdesc:a46f32802770f367c43e45614a0849819"><td class="mdescLeft">&#160;</td><td class="mdescRight">menu scaling, needed to proper scaling of internal window parts  <br /></td></tr>
-<tr class="separator:a46f32802770f367c43e45614a0849819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5754729068dbf7969cf941f3c84abfe4" id="r_a5754729068dbf7969cf941f3c84abfe4"><td class="memItemLeft" align="right" valign="top">ImGuiWindowFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5754729068dbf7969cf941f3c84abfe4">flags</a> = ImGuiWindowFlags_NoResize | ImGuiWindowFlags_AlwaysAutoResize</td></tr>
 <tr class="memdesc:a5754729068dbf7969cf941f3c84abfe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">window flags, ImGuiWindowFlags_NoScrollbar and ImGuiWindow_NoScrollingWithMouse are forced inside <code>BeginCustomStatePlugin</code> function  <br /></td></tr>
 <tr class="separator:a5754729068dbf7969cf941f3c84abfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -326,22 +322,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a46f32802770f367c43e45614a0849819" name="a46f32802770f367c43e45614a0849819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46f32802770f367c43e45614a0849819">&#9670;&#160;</a></span>menuScaling</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ImGui::CustomStatePluginWindowParameters::menuScaling { 1.0f }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>menu scaling, needed to proper scaling of internal window parts </p>
-
-</div>
-</div>
 <a id="ae299a30eaa219843f278913c0d69044a" name="ae299a30eaa219843f278913c0d69044a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae299a30eaa219843f278913c0d69044a">&#9670;&#160;</a></span>pivot</h2>
 
@@ -386,7 +366,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>window width (should be already scaled with menuScaling) </p>
+<p>window width (should be already scaled with <code>UI::scale()</code>) </p>
 
 </div>
 </div>

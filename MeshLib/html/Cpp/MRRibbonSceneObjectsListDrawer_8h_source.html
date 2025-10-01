@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRRibbonSceneObjectsListDrawer_8h_source.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -163,10 +162,10 @@ $(function(){initNavTree('MRRibbonSceneObjectsListDrawer_8h_source.html',''); in
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSceneObjectsListDrawer.html">   12</a></span><span class="keyword">class </span>MRVIEWER_CLASS <a class="code hl_class" href="classMR_1_1RibbonSceneObjectsListDrawer.html">RibbonSceneObjectsListDrawer</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1SceneObjectsListDrawer.html">SceneObjectsListDrawer</a></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSceneObjectsListDrawer.html#ab0592b6646c6a39259000c29e2a6bcce">   15</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSceneObjectsListDrawer.html#ab0592b6646c6a39259000c29e2a6bcce">draw</a>( <span class="keywordtype">float</span> height, <span class="keywordtype">float</span> scaling ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSceneObjectsListDrawer.html#aea709a4c7f86169aed34caaf2005e834">   15</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSceneObjectsListDrawer.html#aea709a4c7f86169aed34caaf2005e834">draw</a>( <span class="keywordtype">float</span> height ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a6fccd91d7785e8df8425ed250c606137">   17</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a6fccd91d7785e8df8425ed250c606137">initRibbonMenu</a>( <a class="code hl_class" href="classMR_1_1RibbonMenu.html">RibbonMenu</a>* ribbonMenu );</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a7b203ae37c12d09d2d98e86766a46fe5">   20</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a7b203ae37c12d09d2d98e86766a46fe5">setCloseContextOnChange</a>( <span class="keywordtype">bool</span> deselect ) { closeContextOnChange_ = deselect; }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a76b557373659019c5f9ce857d437e84a">   22</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a76b557373659019c5f9ce857d437e84a">getCloseContextOnChange</a>() { <span class="keywordflow">return</span> closeContextOnChange_; }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
@@ -189,7 +188,7 @@ $(function(){initNavTree('MRRibbonSceneObjectsListDrawer_8h_source.html',''); in
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> drawEyeButton_( <a class="code hl_class" href="classMR_1_1Object.html">Object</a>&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::string&amp; uniqueStr, <span class="keywordtype">bool</span> frameHovered );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> drawHierarhyLine_( <span class="keyword">const</span> Vector2f&amp; startScreenPos, <span class="keywordtype">int</span> depth, <span class="keywordtype">bool</span> skipped );</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">struct </span>LastDepthInfo</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    {</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordtype">float</span> screenPosY{ 0.0f };</div>
@@ -218,9 +217,9 @@ $(function(){initNavTree('MRRibbonSceneObjectsListDrawer_8h_source.html',''); in
 <div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_a93c05ad6cbe137ae91506d25d990e5f6"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#a93c05ad6cbe137ae91506d25d990e5f6">MR::RibbonSceneObjectsListDrawer::drawSkippedObject_</a></div><div class="ttdeci">virtual MRVIEWER_API bool drawSkippedObject_(Object &amp;object, const std::string &amp;uniqueStr, int depth) override</div><div class="ttdoc">draw dummy container for skipped object</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_a9edde88675685e22f89f455241fd1eef"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#a9edde88675685e22f89f455241fd1eef">MR::RibbonSceneObjectsListDrawer::drawObject_</a></div><div class="ttdeci">virtual MRVIEWER_API bool drawObject_(Object &amp;object, const std::string &amp;uniqueStr, int depth) override</div><div class="ttdoc">override this to customize whole object line</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_aa3fac069d87e7b77317f8987e5a591f0"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#aa3fac069d87e7b77317f8987e5a591f0">MR::RibbonSceneObjectsListDrawer::onDrawContextSignal</a></div><div class="ttdeci">Signal&lt; void()&gt; onDrawContextSignal</div><div class="ttdoc">this signal is emitted each frame inside scene context window</div><div class="ttdef"><b>Definition</b> MRRibbonSceneObjectsListDrawer.h:25</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_ab0592b6646c6a39259000c29e2a6bcce"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#ab0592b6646c6a39259000c29e2a6bcce">MR::RibbonSceneObjectsListDrawer::draw</a></div><div class="ttdeci">virtual MRVIEWER_API void draw(float height, float scaling) override</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_ace8f2d89b5482ae8137036f4d38ed4fa"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#ace8f2d89b5482ae8137036f4d38ed4fa">MR::RibbonSceneObjectsListDrawer::objectLineStrId_</a></div><div class="ttdeci">virtual MRVIEWER_API std::string objectLineStrId_(const Object &amp;object, const std::string &amp;uniqueStr) override</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_ad86a3587a045aae766a1ba386a398763"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#ad86a3587a045aae766a1ba386a398763">MR::RibbonSceneObjectsListDrawer::collapsingHeader_</a></div><div class="ttdeci">virtual MRVIEWER_API bool collapsingHeader_(const std::string &amp;uniqueName, ImGuiTreeNodeFlags flags) override</div><div class="ttdoc">override this to customize CollapsingHeader draw</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonSceneObjectsListDrawer_html_aea709a4c7f86169aed34caaf2005e834"><div class="ttname"><a href="classMR_1_1RibbonSceneObjectsListDrawer.html#aea709a4c7f86169aed34caaf2005e834">MR::RibbonSceneObjectsListDrawer::draw</a></div><div class="ttdeci">virtual MRVIEWER_API void draw(float height) override</div></div>
 <div class="ttc" id="aclassMR_1_1SceneObjectsListDrawer_html"><div class="ttname"><a href="classMR_1_1SceneObjectsListDrawer.html">MR::SceneObjectsListDrawer</a></div><div class="ttdoc">class for drawing a list of scene objects (and handling interaction with it)</div><div class="ttdef"><b>Definition</b> MRSceneObjectsListDrawer.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1SceneObjectsListDrawer_html_adef3ad4d7054ccf6e99aba195fc29cf8"><div class="ttname"><a href="classMR_1_1SceneObjectsListDrawer.html#adef3ad4d7054ccf6e99aba195fc29cf8">MR::SceneObjectsListDrawer::ImGuiTreeNodeFlags</a></div><div class="ttdeci">int ImGuiTreeNodeFlags</div><div class="ttdef"><b>Definition</b> MRSceneObjectsListDrawer.h:72</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>

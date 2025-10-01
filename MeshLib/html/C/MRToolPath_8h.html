@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRToolPath_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -159,7 +158,6 @@ $(function(){initNavTree('MRToolPath_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRToolPath_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -187,8 +185,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b88ecd897f6c27c8428cecc4a91f30" id="r_a79b88ecd897f6c27c8428cecc4a91f30"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a></td></tr>
 <tr class="separator:a79b88ecd897f6c27c8428cecc4a91f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae0872ecd95908dee22b95e7dffc783e" id="r_aae0872ecd95908dee22b95e7dffc783e"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a></td></tr>
-<tr class="separator:aae0872ecd95908dee22b95e7dffc783e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff05b8e638df734c6d49a67790adcc65" id="r_aff05b8e638df734c6d49a67790adcc65"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff05b8e638df734c6d49a67790adcc65">MR_BypassDirection</a></td></tr>
+<tr class="separator:aff05b8e638df734c6d49a67790adcc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2976135c12ae6b4dd0d22d15205b3fe2" id="r_a2976135c12ae6b4dd0d22d15205b3fe2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a></td></tr>
 <tr class="separator:a2976135c12ae6b4dd0d22d15205b3fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a719c074d2cbae47ffcae2252945d6daa" id="r_a719c074d2cbae47ffcae2252945d6daa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a></td></tr>
@@ -199,10 +197,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:af75e6f14901acb244d17e7580064fb12" id="r_af75e6f14901acb244d17e7580064fb12"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a></td></tr>
 <tr class="memdesc:af75e6f14901acb244d17e7580064fb12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ArcInterpolationParams.html">MR::ArcInterpolationParams</a></code>.  <br /></td></tr>
 <tr class="separator:af75e6f14901acb244d17e7580064fb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26c269691b85b0b3da1d336fc1a08213" id="r_a26c269691b85b0b3da1d336fc1a08213"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a></td></tr>
-<tr class="separator:a26c269691b85b0b3da1d336fc1a08213"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a547ddceea00ddbec7e7be1760869e88f" id="r_a547ddceea00ddbec7e7be1760869e88f"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a></td></tr>
-<tr class="separator:a547ddceea00ddbec7e7be1760869e88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2abacc00a3f0d8f1daab9d3f9a741e6e" id="r_a2abacc00a3f0d8f1daab9d3f9a741e6e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2abacc00a3f0d8f1daab9d3f9a741e6e">MR_MoveType</a></td></tr>
+<tr class="separator:a2abacc00a3f0d8f1daab9d3f9a741e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0a4840ee63bc108ec4c0c7a4fd46582" id="r_ad0a4840ee63bc108ec4c0c7a4fd46582"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a4840ee63bc108ec4c0c7a4fd46582">MR_ArcPlane</a></td></tr>
+<tr class="separator:ad0a4840ee63bc108ec4c0c7a4fd46582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace59308137c86730185d551295ea9885" id="r_ace59308137c86730185d551295ea9885"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace59308137c86730185d551295ea9885">MR_GCommand</a></td></tr>
 <tr class="memdesc:ace59308137c86730185d551295ea9885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GCommand.html">MR::GCommand</a></code>.  <br /></td></tr>
 <tr class="separator:ace59308137c86730185d551295ea9885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,26 +210,26 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ab39a415800ebd0d977c477376649649b" id="r_ab39a415800ebd0d977c477376649649b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ab39a415800ebd0d977c477376649649ba8a10aea1c1a8ca559692e69621e78354">MR_BypassDirection_Clockwise</a> = 0
-, <a class="el" href="#ab39a415800ebd0d977c477376649649ba73331f6cda244c671447992416e14244">MR_BypassDirection_CounterClockwise</a> = 1
+<tr class="memitem:ade17d4030c84b3ff374c1a28719bff62" id="r_ade17d4030c84b3ff374c1a28719bff62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> { <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62a8a10aea1c1a8ca559692e69621e78354">MR_BypassDirection_Clockwise</a> = 0
+, <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62a73331f6cda244c671447992416e14244">MR_BypassDirection_CounterClockwise</a> = 1
  }</td></tr>
-<tr class="separator:ab39a415800ebd0d977c477376649649b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae33c78feb670de33d2abf21ec0624531" id="r_ae33c78feb670de33d2abf21ec0624531"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#ae33c78feb670de33d2abf21ec0624531a3c4e0f06098d62845b721897abd2d49d">MR_MoveType_None</a> = -1
-, <a class="el" href="#ae33c78feb670de33d2abf21ec0624531a05c00bff41d9467b0d46cbbb6c202c2d">MR_MoveType_FastLinear</a> = 0
-, <a class="el" href="#ae33c78feb670de33d2abf21ec0624531a52753b0e6a0e729588f9e818e7588c96">MR_MoveType_Linear</a> = 1
-, <a class="el" href="#ae33c78feb670de33d2abf21ec0624531adfc11c9cfdede6008df41bec4cd638fe">MR_MoveType_ArcCW</a> = 2
+<tr class="separator:ade17d4030c84b3ff374c1a28719bff62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a0d9150193402f208b6d95363245ee" id="r_ab3a0d9150193402f208b6d95363245ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> { <br />
+&#160;&#160;<a class="el" href="#ab3a0d9150193402f208b6d95363245eea3c4e0f06098d62845b721897abd2d49d">MR_MoveType_None</a> = -1
+, <a class="el" href="#ab3a0d9150193402f208b6d95363245eea05c00bff41d9467b0d46cbbb6c202c2d">MR_MoveType_FastLinear</a> = 0
+, <a class="el" href="#ab3a0d9150193402f208b6d95363245eea52753b0e6a0e729588f9e818e7588c96">MR_MoveType_Linear</a> = 1
+, <a class="el" href="#ab3a0d9150193402f208b6d95363245eeadfc11c9cfdede6008df41bec4cd638fe">MR_MoveType_ArcCW</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="#ae33c78feb670de33d2abf21ec0624531a271619d4e06439023e921ecfb15656ab">MR_MoveType_ArcCCW</a> = 3
+&#160;&#160;<a class="el" href="#ab3a0d9150193402f208b6d95363245eea271619d4e06439023e921ecfb15656ab">MR_MoveType_ArcCCW</a> = 3
 <br />
  }</td></tr>
-<tr class="separator:ae33c78feb670de33d2abf21ec0624531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a950bf8e3371138ceb9649d45e9a96340" id="r_a950bf8e3371138ceb9649d45e9a96340"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340a7769b894b052f6818f3d40e31a23f18f">MR_ArcPlane_None</a> = -1
-, <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340a7feb7152352eadffccb0d4d569d61712">MR_ArcPlane_XY</a> = 17
-, <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340a3cb298e41069ce7c34028461e03ab84e">MR_ArcPlane_XZ</a> = 18
-, <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340a432b8276d3fdcfda74ced54325991ae4">MR_ArcPlane_YZ</a> = 19
+<tr class="separator:ab3a0d9150193402f208b6d95363245ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbdcb309b4cac6e29a29dc3a0a28bca" id="r_a7dbdcb309b4cac6e29a29dc3a0a28bca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> { <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bcaa7769b894b052f6818f3d40e31a23f18f">MR_ArcPlane_None</a> = -1
+, <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bcaa7feb7152352eadffccb0d4d569d61712">MR_ArcPlane_XY</a> = 17
+, <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bcaa3cb298e41069ce7c34028461e03ab84e">MR_ArcPlane_XZ</a> = 18
+, <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bcaa432b8276d3fdcfda74ced54325991ae4">MR_ArcPlane_YZ</a> = 19
  }</td></tr>
-<tr class="separator:a950bf8e3371138ceb9649d45e9a96340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7dbdcb309b4cac6e29a29dc3a0a28bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -295,11 +293,11 @@ Functions</h2></td></tr>
 <tr class="separator:adf8102d26a9663d6637ab725182ac435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad47637719fce3e8d9f996cbe6897785" id="r_aad47637719fce3e8d9f996cbe6897785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad47637719fce3e8d9f996cbe6897785">MR_ToolPathParams_GetMutable_safeZ</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
 <tr class="separator:aad47637719fce3e8d9f996cbe6897785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6bb65d403e78ccce9061aa5f0cd7ec5" id="r_ac6bb65d403e78ccce9061aa5f0cd7ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6bb65d403e78ccce9061aa5f0cd7ec5">MR_ToolPathParams_Get_bypassDir</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
+<tr class="memitem:ac6bb65d403e78ccce9061aa5f0cd7ec5" id="r_ac6bb65d403e78ccce9061aa5f0cd7ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6bb65d403e78ccce9061aa5f0cd7ec5">MR_ToolPathParams_Get_bypassDir</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
 <tr class="separator:ac6bb65d403e78ccce9061aa5f0cd7ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23f46c020ee923dfe2f052ca3e867d12" id="r_a23f46c020ee923dfe2f052ca3e867d12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23f46c020ee923dfe2f052ca3e867d12">MR_ToolPathParams_Set_bypassDir</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this, <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a> value)</td></tr>
+<tr class="memitem:a23f46c020ee923dfe2f052ca3e867d12" id="r_a23f46c020ee923dfe2f052ca3e867d12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23f46c020ee923dfe2f052ca3e867d12">MR_ToolPathParams_Set_bypassDir</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this, <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> value)</td></tr>
 <tr class="separator:a23f46c020ee923dfe2f052ca3e867d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31a6e5f090a44245ca4412deb0b61f61" id="r_a31a6e5f090a44245ca4412deb0b61f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a6e5f090a44245ca4412deb0b61f61">MR_ToolPathParams_GetMutable_bypassDir</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
+<tr class="memitem:a31a6e5f090a44245ca4412deb0b61f61" id="r_a31a6e5f090a44245ca4412deb0b61f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a6e5f090a44245ca4412deb0b61f61">MR_ToolPathParams_GetMutable_bypassDir</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
 <tr class="separator:a31a6e5f090a44245ca4412deb0b61f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf600bd7ba8170fca00f3f5705f4b10" id="r_a1cf600bd7ba8170fca00f3f5705f4b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cf600bd7ba8170fca00f3f5705f4b10">MR_ToolPathParams_Get_xf</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
 <tr class="separator:a1cf600bd7ba8170fca00f3f5705f4b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -353,7 +351,7 @@ Functions</h2></td></tr>
 <tr class="separator:a9af1e7a4263cfe3022d60ba8cafc9cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd68c7c19bb5525a64575f5cae4ab640" id="r_afd68c7c19bb5525a64575f5cae4ab640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd68c7c19bb5525a64575f5cae4ab640">MR_ToolPathParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:afd68c7c19bb5525a64575f5cae4ab640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22d7c4f945518649c113063532361a55" id="r_a22d7c4f945518649c113063532361a55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d7c4f945518649c113063532361a55">MR_ToolPathParams_ConstructFrom</a> (float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a> bypassDir, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, bool flatTool, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, float toolpathExpansion, <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *isolines, <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *startContours, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *startVertices, <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *offsetMesh)</td></tr>
+<tr class="memitem:a22d7c4f945518649c113063532361a55" id="r_a22d7c4f945518649c113063532361a55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d7c4f945518649c113063532361a55">MR_ToolPathParams_ConstructFrom</a> (float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> bypassDir, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, bool flatTool, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, float toolpathExpansion, <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *isolines, <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *startContours, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *startVertices, <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *offsetMesh)</td></tr>
 <tr class="separator:a22d7c4f945518649c113063532361a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73a5c1dac5b8a69ce0df19335e0bf234" id="r_a73a5c1dac5b8a69ce0df19335e0bf234"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73a5c1dac5b8a69ce0df19335e0bf234">MR_ToolPathParams_OffsetPtr</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a73a5c1dac5b8a69ce0df19335e0bf234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -486,17 +484,17 @@ Functions</h2></td></tr>
 <tr class="separator:a05a5a9124499e1619b9405f4957c4bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac160f57ed28c7fa0b45b1236497afcb0" id="r_ac160f57ed28c7fa0b45b1236497afcb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac160f57ed28c7fa0b45b1236497afcb0">MR_ArcInterpolationParams_AssignFromAnother</a> (<a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a> *_other)</td></tr>
 <tr class="separator:ac160f57ed28c7fa0b45b1236497afcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fae26b3c0e9512c602166a112e74a52" id="r_a5fae26b3c0e9512c602166a112e74a52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fae26b3c0e9512c602166a112e74a52">MR_GCommand_Get_type</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
+<tr class="memitem:a5fae26b3c0e9512c602166a112e74a52" id="r_a5fae26b3c0e9512c602166a112e74a52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fae26b3c0e9512c602166a112e74a52">MR_GCommand_Get_type</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
 <tr class="separator:a5fae26b3c0e9512c602166a112e74a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff3f2765c7c9f37ed3782532c466e207" id="r_aff3f2765c7c9f37ed3782532c466e207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff3f2765c7c9f37ed3782532c466e207">MR_GCommand_Set_type</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this, <a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a> value)</td></tr>
+<tr class="memitem:aff3f2765c7c9f37ed3782532c466e207" id="r_aff3f2765c7c9f37ed3782532c466e207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff3f2765c7c9f37ed3782532c466e207">MR_GCommand_Set_type</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this, <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> value)</td></tr>
 <tr class="separator:aff3f2765c7c9f37ed3782532c466e207"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad84da082fe6b3bc7518e09673d44a1a5" id="r_ad84da082fe6b3bc7518e09673d44a1a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84da082fe6b3bc7518e09673d44a1a5">MR_GCommand_GetMutable_type</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
+<tr class="memitem:ad84da082fe6b3bc7518e09673d44a1a5" id="r_ad84da082fe6b3bc7518e09673d44a1a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84da082fe6b3bc7518e09673d44a1a5">MR_GCommand_GetMutable_type</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
 <tr class="separator:ad84da082fe6b3bc7518e09673d44a1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d9e475c784779a004066b5fe6d1368" id="r_a90d9e475c784779a004066b5fe6d1368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90d9e475c784779a004066b5fe6d1368">MR_GCommand_Get_arcPlane</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
+<tr class="memitem:a90d9e475c784779a004066b5fe6d1368" id="r_a90d9e475c784779a004066b5fe6d1368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90d9e475c784779a004066b5fe6d1368">MR_GCommand_Get_arcPlane</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
 <tr class="separator:a90d9e475c784779a004066b5fe6d1368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac6894148db1cdfc1079b4e344b076bd" id="r_aac6894148db1cdfc1079b4e344b076bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac6894148db1cdfc1079b4e344b076bd">MR_GCommand_Set_arcPlane</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this, <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a> value)</td></tr>
+<tr class="memitem:aac6894148db1cdfc1079b4e344b076bd" id="r_aac6894148db1cdfc1079b4e344b076bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac6894148db1cdfc1079b4e344b076bd">MR_GCommand_Set_arcPlane</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this, <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> value)</td></tr>
 <tr class="separator:aac6894148db1cdfc1079b4e344b076bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a349211ca69e38b37ba58e57c52903b04" id="r_a349211ca69e38b37ba58e57c52903b04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349211ca69e38b37ba58e57c52903b04">MR_GCommand_GetMutable_arcPlane</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
+<tr class="memitem:a349211ca69e38b37ba58e57c52903b04" id="r_a349211ca69e38b37ba58e57c52903b04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349211ca69e38b37ba58e57c52903b04">MR_GCommand_GetMutable_arcPlane</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
 <tr class="separator:a349211ca69e38b37ba58e57c52903b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae73bca21296d69e6b94a3b534cc828aa" id="r_ae73bca21296d69e6b94a3b534cc828aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae73bca21296d69e6b94a3b534cc828aa">MR_GCommand_Get_feed</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *_this)</td></tr>
 <tr class="separator:ae73bca21296d69e6b94a3b534cc828aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -532,7 +530,7 @@ Functions</h2></td></tr>
 <tr class="separator:a711d24e65206159956a3e769aa3bd9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a055643b043dd7f6f6b1e1e1ef3923bb8" id="r_a055643b043dd7f6f6b1e1e1ef3923bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a055643b043dd7f6f6b1e1e1ef3923bb8">MR_GCommand_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a055643b043dd7f6f6b1e1e1ef3923bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eec6258cf8498296cfec20d8b0b839d" id="r_a5eec6258cf8498296cfec20d8b0b839d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eec6258cf8498296cfec20d8b0b839d">MR_GCommand_ConstructFrom</a> (<a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a> type, <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a> arcPlane, float feed, float x, float y, float z, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> arcCenter)</td></tr>
+<tr class="memitem:a5eec6258cf8498296cfec20d8b0b839d" id="r_a5eec6258cf8498296cfec20d8b0b839d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eec6258cf8498296cfec20d8b0b839d">MR_GCommand_ConstructFrom</a> (<a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> type, <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> arcPlane, float feed, float x, float y, float z, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> arcCenter)</td></tr>
 <tr class="separator:a5eec6258cf8498296cfec20d8b0b839d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c218317e19b4277c40df560e3643944" id="r_a5c218317e19b4277c40df560e3643944"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c218317e19b4277c40df560e3643944">MR_GCommand_OffsetPtr</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a5c218317e19b4277c40df560e3643944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -592,15 +590,15 @@ Functions</h2></td></tr>
 <tr class="separator:af4792a803b4ae84f485f9614f8bd1830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad74a702a66a94f09114661840a7965c8" id="r_ad74a702a66a94f09114661840a7965c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__ToolPathResult__std__string_8h.html#a8a1ec36123aa99a3d7cf7cdb51b663b6">MR_expected_MR_ToolPathResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad74a702a66a94f09114661840a7965c8">MR_constantZToolPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *params)</td></tr>
 <tr class="separator:ad74a702a66a94f09114661840a7965c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7fc345e37cf28469ba4d0413c1da4a5" id="r_af7fc345e37cf28469ba4d0413c1da4a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__ToolPathResult__std__string_8h.html#a8a1ec36123aa99a3d7cf7cdb51b663b6">MR_expected_MR_ToolPathResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7fc345e37cf28469ba4d0413c1da4a5">MR_lacingToolPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *params, <a class="el" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a> cutDirection)</td></tr>
+<tr class="memitem:af7fc345e37cf28469ba4d0413c1da4a5" id="r_af7fc345e37cf28469ba4d0413c1da4a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__ToolPathResult__std__string_8h.html#a8a1ec36123aa99a3d7cf7cdb51b663b6">MR_expected_MR_ToolPathResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7fc345e37cf28469ba4d0413c1da4a5">MR_lacingToolPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *params, <a class="el" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a> cutDirection)</td></tr>
 <tr class="separator:af7fc345e37cf28469ba4d0413c1da4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98d8015d33737d0511b675e877c3721f" id="r_a98d8015d33737d0511b675e877c3721f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__ToolPathResult__std__string_8h.html#a8a1ec36123aa99a3d7cf7cdb51b663b6">MR_expected_MR_ToolPathResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98d8015d33737d0511b675e877c3721f">MR_constantCuspToolPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *params)</td></tr>
 <tr class="separator:a98d8015d33737d0511b675e877c3721f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5e1a28460dc0e2656e2e5658f1728e" id="r_a8d5e1a28460dc0e2656e2e5658f1728e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__shared__ptr__MR__ObjectGcode_8h.html#a1f869d74315185b1af007bfe2e6bee69">MR_std_shared_ptr_MR_ObjectGcode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d5e1a28460dc0e2656e2e5658f1728e">MR_exportToolPathToGCode</a> (const <a class="el" href="std__vector__MR__GCommand_8h.html#a74d888f02412f83e4463e59b0c0d3861">MR_std_vector_MR_GCommand</a> *commands)</td></tr>
 <tr class="separator:a8d5e1a28460dc0e2656e2e5658f1728e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab488ba920198c5262dbbe2ca1e3b85c5" id="r_ab488ba920198c5262dbbe2ca1e3b85c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab488ba920198c5262dbbe2ca1e3b85c5">MR_interpolateLines</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#a74d888f02412f83e4463e59b0c0d3861">MR_std_vector_MR_GCommand</a> *commands, const <a class="el" href="#a47fdc09ea924ccdcd5248a10d938b430">MR_LineInterpolationParams</a> *params, <a class="el" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a> axis)</td></tr>
+<tr class="memitem:ab488ba920198c5262dbbe2ca1e3b85c5" id="r_ab488ba920198c5262dbbe2ca1e3b85c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab488ba920198c5262dbbe2ca1e3b85c5">MR_interpolateLines</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#a74d888f02412f83e4463e59b0c0d3861">MR_std_vector_MR_GCommand</a> *commands, const <a class="el" href="#a47fdc09ea924ccdcd5248a10d938b430">MR_LineInterpolationParams</a> *params, <a class="el" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a> axis)</td></tr>
 <tr class="separator:ab488ba920198c5262dbbe2ca1e3b85c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11dd67c8c9530404c63081649ead3313" id="r_a11dd67c8c9530404c63081649ead3313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11dd67c8c9530404c63081649ead3313">MR_interpolateArcs</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#a74d888f02412f83e4463e59b0c0d3861">MR_std_vector_MR_GCommand</a> *commands, const <a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a> *params, <a class="el" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a> axis)</td></tr>
+<tr class="memitem:a11dd67c8c9530404c63081649ead3313" id="r_a11dd67c8c9530404c63081649ead3313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11dd67c8c9530404c63081649ead3313">MR_interpolateArcs</a> (<a class="el" href="std__vector__MR__GCommand_8h.html#a74d888f02412f83e4463e59b0c0d3861">MR_std_vector_MR_GCommand</a> *commands, const <a class="el" href="#af75e6f14901acb244d17e7580064fb12">MR_ArcInterpolationParams</a> *params, <a class="el" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a> axis)</td></tr>
 <tr class="separator:a11dd67c8c9530404c63081649ead3313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b8ab7d5dad8221b187b80e37e068db" id="r_a92b8ab7d5dad8221b187b80e37e068db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92b8ab7d5dad8221b187b80e37e068db">MR_smoothSelection</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, float expandOffset, float shrinkOffset)</td></tr>
 <tr class="separator:a92b8ab7d5dad8221b187b80e37e068db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -636,28 +634,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a547ddceea00ddbec7e7be1760869e88f" name="a547ddceea00ddbec7e7be1760869e88f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a547ddceea00ddbec7e7be1760869e88f">&#9670;&#160;</a></span>MR_ArcPlane</h2>
+<a id="ad0a4840ee63bc108ec4c0c7a4fd46582" name="ad0a4840ee63bc108ec4c0c7a4fd46582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0a4840ee63bc108ec4c0c7a4fd46582">&#9670;&#160;</a></span>MR_ArcPlane</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aae0872ecd95908dee22b95e7dffc783e" name="aae0872ecd95908dee22b95e7dffc783e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae0872ecd95908dee22b95e7dffc783e">&#9670;&#160;</a></span>MR_BypassDirection</h2>
+<a id="aff05b8e638df734c6d49a67790adcc65" name="aff05b8e638df734c6d49a67790adcc65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff05b8e638df734c6d49a67790adcc65">&#9670;&#160;</a></span>MR_BypassDirection</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -781,14 +779,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a26c269691b85b0b3da1d336fc1a08213" name="a26c269691b85b0b3da1d336fc1a08213"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26c269691b85b0b3da1d336fc1a08213">&#9670;&#160;</a></span>MR_MoveType</h2>
+<a id="a2abacc00a3f0d8f1daab9d3f9a741e6e" name="a2abacc00a3f0d8f1daab9d3f9a741e6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2abacc00a3f0d8f1daab9d3f9a741e6e">&#9670;&#160;</a></span>MR_MoveType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -897,61 +895,61 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ab39a415800ebd0d977c477376649649b" name="ab39a415800ebd0d977c477376649649b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab39a415800ebd0d977c477376649649b">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a7dbdcb309b4cac6e29a29dc3a0a28bca" name="a7dbdcb309b4cac6e29a29dc3a0a28bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">&#9670;&#160;</a></span>MR_ArcPlane</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab39a415800ebd0d977c477376649649ba8a10aea1c1a8ca559692e69621e78354" name="ab39a415800ebd0d977c477376649649ba8a10aea1c1a8ca559692e69621e78354"></a>MR_BypassDirection_Clockwise&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab39a415800ebd0d977c477376649649ba73331f6cda244c671447992416e14244" name="ab39a415800ebd0d977c477376649649ba73331f6cda244c671447992416e14244"></a>MR_BypassDirection_CounterClockwise&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7dbdcb309b4cac6e29a29dc3a0a28bcaa7769b894b052f6818f3d40e31a23f18f" name="a7dbdcb309b4cac6e29a29dc3a0a28bcaa7769b894b052f6818f3d40e31a23f18f"></a>MR_ArcPlane_None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7dbdcb309b4cac6e29a29dc3a0a28bcaa7feb7152352eadffccb0d4d569d61712" name="a7dbdcb309b4cac6e29a29dc3a0a28bcaa7feb7152352eadffccb0d4d569d61712"></a>MR_ArcPlane_XY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7dbdcb309b4cac6e29a29dc3a0a28bcaa3cb298e41069ce7c34028461e03ab84e" name="a7dbdcb309b4cac6e29a29dc3a0a28bcaa3cb298e41069ce7c34028461e03ab84e"></a>MR_ArcPlane_XZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7dbdcb309b4cac6e29a29dc3a0a28bcaa432b8276d3fdcfda74ced54325991ae4" name="a7dbdcb309b4cac6e29a29dc3a0a28bcaa432b8276d3fdcfda74ced54325991ae4"></a>MR_ArcPlane_YZ&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="ae33c78feb670de33d2abf21ec0624531" name="ae33c78feb670de33d2abf21ec0624531"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae33c78feb670de33d2abf21ec0624531">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ade17d4030c84b3ff374c1a28719bff62" name="ade17d4030c84b3ff374c1a28719bff62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade17d4030c84b3ff374c1a28719bff62">&#9670;&#160;</a></span>MR_BypassDirection</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae33c78feb670de33d2abf21ec0624531a3c4e0f06098d62845b721897abd2d49d" name="ae33c78feb670de33d2abf21ec0624531a3c4e0f06098d62845b721897abd2d49d"></a>MR_MoveType_None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae33c78feb670de33d2abf21ec0624531a05c00bff41d9467b0d46cbbb6c202c2d" name="ae33c78feb670de33d2abf21ec0624531a05c00bff41d9467b0d46cbbb6c202c2d"></a>MR_MoveType_FastLinear&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae33c78feb670de33d2abf21ec0624531a52753b0e6a0e729588f9e818e7588c96" name="ae33c78feb670de33d2abf21ec0624531a52753b0e6a0e729588f9e818e7588c96"></a>MR_MoveType_Linear&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae33c78feb670de33d2abf21ec0624531adfc11c9cfdede6008df41bec4cd638fe" name="ae33c78feb670de33d2abf21ec0624531adfc11c9cfdede6008df41bec4cd638fe"></a>MR_MoveType_ArcCW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae33c78feb670de33d2abf21ec0624531a271619d4e06439023e921ecfb15656ab" name="ae33c78feb670de33d2abf21ec0624531a271619d4e06439023e921ecfb15656ab"></a>MR_MoveType_ArcCCW&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ade17d4030c84b3ff374c1a28719bff62a8a10aea1c1a8ca559692e69621e78354" name="ade17d4030c84b3ff374c1a28719bff62a8a10aea1c1a8ca559692e69621e78354"></a>MR_BypassDirection_Clockwise&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade17d4030c84b3ff374c1a28719bff62a73331f6cda244c671447992416e14244" name="ade17d4030c84b3ff374c1a28719bff62a73331f6cda244c671447992416e14244"></a>MR_BypassDirection_CounterClockwise&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a950bf8e3371138ceb9649d45e9a96340" name="a950bf8e3371138ceb9649d45e9a96340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a950bf8e3371138ceb9649d45e9a96340">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ab3a0d9150193402f208b6d95363245ee" name="ab3a0d9150193402f208b6d95363245ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a0d9150193402f208b6d95363245ee">&#9670;&#160;</a></span>MR_MoveType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340a7769b894b052f6818f3d40e31a23f18f" name="a950bf8e3371138ceb9649d45e9a96340a7769b894b052f6818f3d40e31a23f18f"></a>MR_ArcPlane_None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340a7feb7152352eadffccb0d4d569d61712" name="a950bf8e3371138ceb9649d45e9a96340a7feb7152352eadffccb0d4d569d61712"></a>MR_ArcPlane_XY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340a3cb298e41069ce7c34028461e03ab84e" name="a950bf8e3371138ceb9649d45e9a96340a3cb298e41069ce7c34028461e03ab84e"></a>MR_ArcPlane_XZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340a432b8276d3fdcfda74ced54325991ae4" name="a950bf8e3371138ceb9649d45e9a96340a432b8276d3fdcfda74ced54325991ae4"></a>MR_ArcPlane_YZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab3a0d9150193402f208b6d95363245eea3c4e0f06098d62845b721897abd2d49d" name="ab3a0d9150193402f208b6d95363245eea3c4e0f06098d62845b721897abd2d49d"></a>MR_MoveType_None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3a0d9150193402f208b6d95363245eea05c00bff41d9467b0d46cbbb6c202c2d" name="ab3a0d9150193402f208b6d95363245eea05c00bff41d9467b0d46cbbb6c202c2d"></a>MR_MoveType_FastLinear&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3a0d9150193402f208b6d95363245eea52753b0e6a0e729588f9e818e7588c96" name="ab3a0d9150193402f208b6d95363245eea52753b0e6a0e729588f9e818e7588c96"></a>MR_MoveType_Linear&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3a0d9150193402f208b6d95363245eeadfc11c9cfdede6008df41bec4cd638fe" name="ab3a0d9150193402f208b6d95363245eeadfc11c9cfdede6008df41bec4cd638fe"></a>MR_MoveType_ArcCW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3a0d9150193402f208b6d95363245eea271619d4e06439023e921ecfb15656ab" name="ab3a0d9150193402f208b6d95363245eea271619d4e06439023e921ecfb15656ab"></a>MR_MoveType_ArcCCW&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1694,12 +1692,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> * MR_GCommand_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a></td>          <td class="paramname"><span class="paramname"><em>arcPlane</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a></td>          <td class="paramname"><span class="paramname"><em>arcPlane</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1849,7 +1847,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a> * MR_GCommand_Get_arcPlane </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> * MR_GCommand_Get_arcPlane </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1885,7 +1883,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a> * MR_GCommand_Get_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> * MR_GCommand_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1975,7 +1973,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a> * MR_GCommand_GetMutable_arcPlane </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a> * MR_GCommand_GetMutable_arcPlane </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2011,7 +2009,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a> * MR_GCommand_GetMutable_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a> * MR_GCommand_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="std__vector__MR__GCommand_8h.html#ace59308137c86730185d551295ea9885">MR_GCommand</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2158,7 +2156,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a547ddceea00ddbec7e7be1760869e88f">MR_ArcPlane</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a7dbdcb309b4cac6e29a29dc3a0a28bca">MR_ArcPlane</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2202,7 +2200,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a26c269691b85b0b3da1d336fc1a08213">MR_MoveType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ab3a0d9150193402f208b6d95363245ee">MR_MoveType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2295,7 +2293,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a></td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a></td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2322,7 +2320,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a></td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a></td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2349,7 +2347,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRAxis_8h.html#aa4a8cddcee7fcf66ed48e721be66c4e5">MR_Axis</a></td>          <td class="paramname"><span class="paramname"><em>cutDirection</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRAxis_8h.html#ac801dec7b03f6d32750b77048039a3cf">MR_Axis</a></td>          <td class="paramname"><span class="paramname"><em>cutDirection</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2855,7 +2853,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a></td>          <td class="paramname"><span class="paramname"><em>bypassDir</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a></td>          <td class="paramname"><span class="paramname"><em>bypassDir</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3029,7 +3027,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a> * MR_ToolPathParams_Get_bypassDir </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> * MR_ToolPathParams_Get_bypassDir </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -3371,7 +3369,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a> * MR_ToolPathParams_GetMutable_bypassDir </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> * MR_ToolPathParams_GetMutable_bypassDir </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -3788,7 +3786,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aae0872ecd95908dee22b95e7dffc783e">MR_BypassDirection</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

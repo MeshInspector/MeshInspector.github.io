@@ -22,7 +22,7 @@ var MRSurfaceDistanceBuilder_8h =
     [ "MR_SurfaceDistanceBuilder_growOne", "MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453", null ],
     [ "MR_SurfaceDistanceBuilder_OffsetMutablePtr", "MRSurfaceDistanceBuilder_8h.html#a66b42416ecaa56aacea346a06a2e79dc", null ],
     [ "MR_SurfaceDistanceBuilder_OffsetPtr", "MRSurfaceDistanceBuilder_8h.html#ae47e2dee7d6b5f5b11b09ef2680fb4f1", null ],
-    [ "MR_SurfaceDistanceBuilder_setMaxVertUpdates", "MRSurfaceDistanceBuilder_8h.html#a5be174c798399a3c291e0eb3e2a0fc30", null ],
+    [ "MR_SurfaceDistanceBuilder_setMaxVertUpdates", "MRSurfaceDistanceBuilder_8h.html#a5a369594526fe4bc6cf192edab1d8d02", null ],
     [ "MR_SurfaceDistanceBuilder_takeDistanceMap", "MRSurfaceDistanceBuilder_8h.html#afaba551cd740629f35a507d191c23cdf", null ],
     [ "MR_VertDistance_AssignFromAnother", "MRSurfaceDistanceBuilder_8h.html#aad6980145779508682e297d31a2e2fb5", null ],
     [ "MR_VertDistance_Construct", "MRSurfaceDistanceBuilder_8h.html#a22fb39b5cdf9c24469e46b5037c37fd4", null ],

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRPositionVertsSmoothly_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -157,7 +156,6 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h.html',''); initResizable(tr
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRPositionVertsSmoothly_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -171,12 +169,15 @@ Typedefs</h2></td></tr>
 <tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
 <tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4bb5e8943c9b1f5d438198404d0bd4" id="r_a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td></tr>
-<tr class="separator:a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63aa216938f28c268d3a921062bf6621" id="r_a63aa216938f28c268d3a921062bf6621"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a></td></tr>
 <tr class="separator:a63aa216938f28c268d3a921062bf6621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbe1cc8b68372b33dd2718a5a6c5a109" id="r_acbe1cc8b68372b33dd2718a5a6c5a109"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a></td></tr>
 <tr class="separator:acbe1cc8b68372b33dd2718a5a6c5a109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac83010bf4ae4af15d0e13d005e33fce1" id="r_ac83010bf4ae4af15d0e13d005e33fce1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a></td></tr>
+<tr class="separator:ac83010bf4ae4af15d0e13d005e33fce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b41fec7fc0e4c60db351737899a104" id="r_a07b41fec7fc0e4c60db351737899a104"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a></td></tr>
+<tr class="memdesc:a07b41fec7fc0e4c60db351737899a104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code>.  <br /></td></tr>
+<tr class="separator:a07b41fec7fc0e4c60db351737899a104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21442c1ce5a378c8d4d3b69760b05d3a" id="r_a21442c1ce5a378c8d4d3b69760b05d3a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a></td></tr>
 <tr class="memdesc:a21442c1ce5a378c8d4d3b69760b05d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code>.  <br /></td></tr>
 <tr class="separator:a21442c1ce5a378c8d4d3b69760b05d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,14 +187,68 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac264fe91d9e7f00e6acc7f2184e0af54" id="r_ac264fe91d9e7f00e6acc7f2184e0af54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac264fe91d9e7f00e6acc7f2184e0af54">MR_positionVertsSmoothly_5</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
+<tr class="memitem:ac264fe91d9e7f00e6acc7f2184e0af54" id="r_ac264fe91d9e7f00e6acc7f2184e0af54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac264fe91d9e7f00e6acc7f2184e0af54">MR_positionVertsSmoothly_5</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
 <tr class="separator:ac264fe91d9e7f00e6acc7f2184e0af54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936f1658b7a503c88e4674b1a766b8ca" id="r_a936f1658b7a503c88e4674b1a766b8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936f1658b7a503c88e4674b1a766b8ca">MR_positionVertsSmoothly_6</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
+<tr class="memitem:a936f1658b7a503c88e4674b1a766b8ca" id="r_a936f1658b7a503c88e4674b1a766b8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936f1658b7a503c88e4674b1a766b8ca">MR_positionVertsSmoothly_6</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
 <tr class="separator:a936f1658b7a503c88e4674b1a766b8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9baff470f53ec136d7c42bdbbd67097" id="r_af9baff470f53ec136d7c42bdbbd67097"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9baff470f53ec136d7c42bdbbd67097">MR_positionVertsSmoothlySharpBd_4</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *vertShifts, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *vertStabilizers)</td></tr>
-<tr class="separator:af9baff470f53ec136d7c42bdbbd67097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c7dfade78031d66eedcc23d63d570c7" id="r_a9c7dfade78031d66eedcc23d63d570c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7dfade78031d66eedcc23d63d570c7">MR_positionVertsSmoothlySharpBd_5</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *vertShifts, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *vertStabilizers)</td></tr>
-<tr class="separator:a9c7dfade78031d66eedcc23d63d570c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad178be71e5aa549d3e5735d7713bce9" id="r_aad178be71e5aa549d3e5735d7713bce9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad178be71e5aa549d3e5735d7713bce9">MR_PositionVertsSmoothlyParams_Get_region</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:aad178be71e5aa549d3e5735d7713bce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b0aa7a32f32c02b8e18fa8b62768d57" id="r_a9b0aa7a32f32c02b8e18fa8b62768d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0aa7a32f32c02b8e18fa8b62768d57">MR_PositionVertsSmoothlyParams_Set_region</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="separator:a9b0aa7a32f32c02b8e18fa8b62768d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d740d8f5b7de3767a7c463ff5aeb93e" id="r_a2d740d8f5b7de3767a7c463ff5aeb93e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d740d8f5b7de3767a7c463ff5aeb93e">MR_PositionVertsSmoothlyParams_GetMutable_region</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:a2d740d8f5b7de3767a7c463ff5aeb93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a21a23b6eb1a0693488f0dba3bb4862" id="r_a0a21a23b6eb1a0693488f0dba3bb4862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a21a23b6eb1a0693488f0dba3bb4862">MR_PositionVertsSmoothlyParams_Get_vertShifts</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:a0a21a23b6eb1a0693488f0dba3bb4862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30bce08bccb6ee3baaeae74612275f79" id="r_a30bce08bccb6ee3baaeae74612275f79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bce08bccb6ee3baaeae74612275f79">MR_PositionVertsSmoothlyParams_Set_vertShifts</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="separator:a30bce08bccb6ee3baaeae74612275f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed85a293fe6d949a285b1997e4087f2e" id="r_aed85a293fe6d949a285b1997e4087f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed85a293fe6d949a285b1997e4087f2e">MR_PositionVertsSmoothlyParams_GetMutable_vertShifts</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:aed85a293fe6d949a285b1997e4087f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa73e0f38d04b843d6ec867b71b7c07" id="r_a7aa73e0f38d04b843d6ec867b71b7c07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa73e0f38d04b843d6ec867b71b7c07">MR_PositionVertsSmoothlyParams_Get_stabilizer</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:a7aa73e0f38d04b843d6ec867b71b7c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a495ba3efd7055223d3ce8afcb92898f7" id="r_a495ba3efd7055223d3ce8afcb92898f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a495ba3efd7055223d3ce8afcb92898f7">MR_PositionVertsSmoothlyParams_Set_stabilizer</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, float value)</td></tr>
+<tr class="separator:a495ba3efd7055223d3ce8afcb92898f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d96daf1a24b176b303e89cf0d6ca66c" id="r_a8d96daf1a24b176b303e89cf0d6ca66c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d96daf1a24b176b303e89cf0d6ca66c">MR_PositionVertsSmoothlyParams_GetMutable_stabilizer</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:a8d96daf1a24b176b303e89cf0d6ca66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53fc95f0d9f0ef1cded11d31726fcb5" id="r_ad53fc95f0d9f0ef1cded11d31726fcb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53fc95f0d9f0ef1cded11d31726fcb5">MR_PositionVertsSmoothlyParams_Get_vertStabilizers</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:ad53fc95f0d9f0ef1cded11d31726fcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac225787ed8b7157fe65d0a20baae41e2" id="r_ac225787ed8b7157fe65d0a20baae41e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac225787ed8b7157fe65d0a20baae41e2">MR_PositionVertsSmoothlyParams_Set_vertStabilizers</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *value)</td></tr>
+<tr class="separator:ac225787ed8b7157fe65d0a20baae41e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a315d4f8b1d1072f8abc3d9d440a5fade" id="r_a315d4f8b1d1072f8abc3d9d440a5fade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a315d4f8b1d1072f8abc3d9d440a5fade">MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:a315d4f8b1d1072f8abc3d9d440a5fade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bd91bbfa6b6a5205a2e8b7c9258c55" id="r_aa3bd91bbfa6b6a5205a2e8b7c9258c55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3bd91bbfa6b6a5205a2e8b7c9258c55">MR_PositionVertsSmoothlyParams_Get_edgeWeights</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:aa3bd91bbfa6b6a5205a2e8b7c9258c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d2b9e2e40ac0c1164aadd85d5ce3f8" id="r_a51d2b9e2e40ac0c1164aadd85d5ce3f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d2b9e2e40ac0c1164aadd85d5ce3f8">MR_PositionVertsSmoothlyParams_Set_edgeWeights</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *value)</td></tr>
+<tr class="separator:a51d2b9e2e40ac0c1164aadd85d5ce3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c254e115e842898af9ec6df61fb9cf3" id="r_a7c254e115e842898af9ec6df61fb9cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c254e115e842898af9ec6df61fb9cf3">MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="separator:a7c254e115e842898af9ec6df61fb9cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4704d0f834e75fb40788521498fffd25" id="r_a4704d0f834e75fb40788521498fffd25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4704d0f834e75fb40788521498fffd25">MR_PositionVertsSmoothlyParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a4704d0f834e75fb40788521498fffd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818f707c9d6d86d9d4d5c0fac7f083b8" id="r_a818f707c9d6d86d9d4d5c0fac7f083b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818f707c9d6d86d9d4d5c0fac7f083b8">MR_PositionVertsSmoothlyParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a818f707c9d6d86d9d4d5c0fac7f083b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcdfdf58c92eaa3bb2f8437342eed157" id="r_abcdfdf58c92eaa3bb2f8437342eed157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcdfdf58c92eaa3bb2f8437342eed157">MR_PositionVertsSmoothlyParams_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *vertShifts, float stabilizer, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> vertStabilizers_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *vertStabilizers, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> edgeWeights_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *edgeWeights)</td></tr>
+<tr class="separator:abcdfdf58c92eaa3bb2f8437342eed157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af259531ac28a990b34ea1f037c8a0611" id="r_af259531ac28a990b34ea1f037c8a0611"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af259531ac28a990b34ea1f037c8a0611">MR_PositionVertsSmoothlyParams_OffsetPtr</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af259531ac28a990b34ea1f037c8a0611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af259531ac28a990b34ea1f037c8a0611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5366a88dbe1aab126442b3eaa1504e1" id="r_ad5366a88dbe1aab126442b3eaa1504e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5366a88dbe1aab126442b3eaa1504e1">MR_PositionVertsSmoothlyParams_OffsetMutablePtr</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad5366a88dbe1aab126442b3eaa1504e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad5366a88dbe1aab126442b3eaa1504e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4439fd887782bab41a4b94aca56040f1" id="r_a4439fd887782bab41a4b94aca56040f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4439fd887782bab41a4b94aca56040f1">MR_PositionVertsSmoothlyParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_other)</td></tr>
+<tr class="separator:a4439fd887782bab41a4b94aca56040f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3751cfec47bcc96afd09ebfdf214d0e" id="r_ab3751cfec47bcc96afd09ebfdf214d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3751cfec47bcc96afd09ebfdf214d0e">MR_PositionVertsSmoothlyParams_Destroy</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memdesc:ab3751cfec47bcc96afd09ebfdf214d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PositionVertsSmoothlyParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab3751cfec47bcc96afd09ebfdf214d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a78c0f555279bc1761ae3f01d9a264" id="r_a12a78c0f555279bc1761ae3f01d9a264"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a78c0f555279bc1761ae3f01d9a264">MR_PositionVertsSmoothlyParams_DestroyArray</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memdesc:a12a78c0f555279bc1761ae3f01d9a264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PositionVertsSmoothlyParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a12a78c0f555279bc1761ae3f01d9a264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2794542fd7d28b913af0694a0b881d81" id="r_a2794542fd7d28b913af0694a0b881d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2794542fd7d28b913af0694a0b881d81">MR_PositionVertsSmoothlyParams_AssignFromAnother</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_other)</td></tr>
+<tr class="separator:a2794542fd7d28b913af0694a0b881d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecc467d5183327b99fb181d6a266e00" id="r_abecc467d5183327b99fb181d6a266e00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abecc467d5183327b99fb181d6a266e00">MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
+<tr class="separator:abecc467d5183327b99fb181d6a266e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976b08c78372e27987dfe13d3a2a20fd" id="r_a976b08c78372e27987dfe13d3a2a20fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976b08c78372e27987dfe13d3a2a20fd">MR_positionVertsSmoothlySharpBd_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
+<tr class="separator:a976b08c78372e27987dfe13d3a2a20fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add13f88efa95f038b4106254dd27d746" id="r_add13f88efa95f038b4106254dd27d746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a6cc2b78a67b0b3773417b073b9b28af7">MRC_DEPRECATED</a> <a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add13f88efa95f038b4106254dd27d746">MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="separator:add13f88efa95f038b4106254dd27d746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4de621a570c2227a7ad8bb6ece5d928" id="r_aa4de621a570c2227a7ad8bb6ece5d928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4de621a570c2227a7ad8bb6ece5d928">MR_SpacingSettings_Get_region</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:aa4de621a570c2227a7ad8bb6ece5d928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63e4a2a661f33618e34bdbdb21dc481b" id="r_a63e4a2a661f33618e34bdbdb21dc481b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e4a2a661f33618e34bdbdb21dc481b">MR_SpacingSettings_Set_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
@@ -206,12 +261,12 @@ Functions</h2></td></tr>
 <tr class="separator:a3423f366aa0f0ff4ca64284621b8cf55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2698e0876d41b7677526171d7d74ecd" id="r_ae2698e0876d41b7677526171d7d74ecd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2698e0876d41b7677526171d7d74ecd">MR_SpacingSettings_GetMutable_dist</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:ae2698e0876d41b7677526171d7d74ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53816064822927d9545181cf0ff383ba" id="r_a53816064822927d9545181cf0ff383ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53816064822927d9545181cf0ff383ba">MR_SpacingSettings_Get_numIters</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
-<tr class="separator:a53816064822927d9545181cf0ff383ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6289e164deefc405dccf455860011a5c" id="r_a6289e164deefc405dccf455860011a5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6289e164deefc405dccf455860011a5c">MR_SpacingSettings_Set_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a6289e164deefc405dccf455860011a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a205308715bedf1cbf7b499302f8ad89f" id="r_a205308715bedf1cbf7b499302f8ad89f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a205308715bedf1cbf7b499302f8ad89f">MR_SpacingSettings_GetMutable_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
-<tr class="separator:a205308715bedf1cbf7b499302f8ad89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0708eea2c38035fb8a90fd83c0b72b22" id="r_a0708eea2c38035fb8a90fd83c0b72b22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0708eea2c38035fb8a90fd83c0b72b22">MR_SpacingSettings_Get_numIters</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="separator:a0708eea2c38035fb8a90fd83c0b72b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d8a8431f5fe6ab5b2e76e5a62cb70f" id="r_a53d8a8431f5fe6ab5b2e76e5a62cb70f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d8a8431f5fe6ab5b2e76e5a62cb70f">MR_SpacingSettings_Set_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a53d8a8431f5fe6ab5b2e76e5a62cb70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc56288eba720f756f3f4229f27c3761" id="r_afc56288eba720f756f3f4229f27c3761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc56288eba720f756f3f4229f27c3761">MR_SpacingSettings_GetMutable_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="separator:afc56288eba720f756f3f4229f27c3761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5da0dc88c9af2b98aa854c926d2bcb3b" id="r_a5da0dc88c9af2b98aa854c926d2bcb3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da0dc88c9af2b98aa854c926d2bcb3b">MR_SpacingSettings_Get_stabilizer</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a5da0dc88c9af2b98aa854c926d2bcb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df93afc27de3f4565301dcb16661bcf" id="r_a0df93afc27de3f4565301dcb16661bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0df93afc27de3f4565301dcb16661bcf">MR_SpacingSettings_Set_stabilizer</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, float value)</td></tr>
@@ -234,8 +289,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9d4c96f65ab64f7b18d90d23bc25ee1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43b541f21dd03ae8a3fdbe0617242a4" id="r_ad43b541f21dd03ae8a3fdbe0617242a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43b541f21dd03ae8a3fdbe0617242a4">MR_SpacingSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ad43b541f21dd03ae8a3fdbe0617242a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af07ba2cef9b4825d09c492d1c17bbd3c" id="r_af07ba2cef9b4825d09c492d1c17bbd3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af07ba2cef9b4825d09c492d1c17bbd3c">MR_SpacingSettings_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> dist_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *dist, int32_t numIters, float stabilizer, float maxSumNegW, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> isInverted_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *isInverted)</td></tr>
-<tr class="separator:af07ba2cef9b4825d09c492d1c17bbd3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af209b13efc80e52883a0801eee9b9ba9" id="r_af209b13efc80e52883a0801eee9b9ba9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af209b13efc80e52883a0801eee9b9ba9">MR_SpacingSettings_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> dist_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *dist, int numIters, float stabilizer, float maxSumNegW, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> isInverted_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *isInverted)</td></tr>
+<tr class="separator:af209b13efc80e52883a0801eee9b9ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11285f700bcdde458814eb55f547f707" id="r_a11285f700bcdde458814eb55f547f707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11285f700bcdde458814eb55f547f707">MR_SpacingSettings_OffsetPtr</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a11285f700bcdde458814eb55f547f707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a11285f700bcdde458814eb55f547f707"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,12 +317,12 @@ Functions</h2></td></tr>
 <tr class="separator:af2582c7793a8ea7885c793122e42ec4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade90e9aaa88f5d9fd79992366c4ff0ff" id="r_ade90e9aaa88f5d9fd79992366c4ff0ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade90e9aaa88f5d9fd79992366c4ff0ff">MR_InflateSettings_GetMutable_pressure</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:ade90e9aaa88f5d9fd79992366c4ff0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04e5d857ab1753a66ba7fde6738eeb43" id="r_a04e5d857ab1753a66ba7fde6738eeb43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04e5d857ab1753a66ba7fde6738eeb43">MR_InflateSettings_Get_iterations</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
-<tr class="separator:a04e5d857ab1753a66ba7fde6738eeb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9e960a95a42ad98464a741311f7f086" id="r_af9e960a95a42ad98464a741311f7f086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e960a95a42ad98464a741311f7f086">MR_InflateSettings_Set_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:af9e960a95a42ad98464a741311f7f086"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac096fcd44bb7fb150ae20827a8d5566a" id="r_ac096fcd44bb7fb150ae20827a8d5566a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac096fcd44bb7fb150ae20827a8d5566a">MR_InflateSettings_GetMutable_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
-<tr class="separator:ac096fcd44bb7fb150ae20827a8d5566a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83161540b4a41f29c84ea4af233d1146" id="r_a83161540b4a41f29c84ea4af233d1146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83161540b4a41f29c84ea4af233d1146">MR_InflateSettings_Get_iterations</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="separator:a83161540b4a41f29c84ea4af233d1146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646b5479a5811b0905c7485f502eade4" id="r_a646b5479a5811b0905c7485f502eade4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646b5479a5811b0905c7485f502eade4">MR_InflateSettings_Set_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a646b5479a5811b0905c7485f502eade4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad811a0d3fd08a34b26102f4276caab0a" id="r_ad811a0d3fd08a34b26102f4276caab0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad811a0d3fd08a34b26102f4276caab0a">MR_InflateSettings_GetMutable_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="separator:ad811a0d3fd08a34b26102f4276caab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b3c649510826401f4620b1e5149f77c" id="r_a3b3c649510826401f4620b1e5149f77c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3c649510826401f4620b1e5149f77c">MR_InflateSettings_Get_preSmooth</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:a3b3c649510826401f4620b1e5149f77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adda5cd6e9dbbb119268c350dd76a1d03" id="r_adda5cd6e9dbbb119268c350dd76a1d03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda5cd6e9dbbb119268c350dd76a1d03">MR_InflateSettings_Set_preSmooth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, bool value)</td></tr>
@@ -284,8 +339,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac30af6e75758740cec8e8be0ad9181fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059f9c6181c42f1fa69b768b7933ac11" id="r_a059f9c6181c42f1fa69b768b7933ac11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a059f9c6181c42f1fa69b768b7933ac11">MR_InflateSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a059f9c6181c42f1fa69b768b7933ac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a192f36dc4d4a527e4640033de5160842" id="r_a192f36dc4d4a527e4640033de5160842"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a192f36dc4d4a527e4640033de5160842">MR_InflateSettings_ConstructFrom</a> (float pressure, int32_t iterations, bool preSmooth, bool gradualPressureGrowth)</td></tr>
-<tr class="separator:a192f36dc4d4a527e4640033de5160842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a2460f470a0d3dda34c0a48b7549ba" id="r_a12a2460f470a0d3dda34c0a48b7549ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a2460f470a0d3dda34c0a48b7549ba">MR_InflateSettings_ConstructFrom</a> (float pressure, int iterations, bool preSmooth, bool gradualPressureGrowth)</td></tr>
+<tr class="separator:a12a2460f470a0d3dda34c0a48b7549ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d367e2982b29985808263f56806fcdb" id="r_a4d367e2982b29985808263f56806fcdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d367e2982b29985808263f56806fcdb">MR_InflateSettings_OffsetPtr</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4d367e2982b29985808263f56806fcdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4d367e2982b29985808263f56806fcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -354,6 +409,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a07b41fec7fc0e4c60db351737899a104" name="a07b41fec7fc0e4c60db351737899a104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b41fec7fc0e4c60db351737899a104">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code>. </p>
+
+</div>
+</div>
 <a id="a21442c1ce5a378c8d4d3b69760b05d3a" name="a21442c1ce5a378c8d4d3b69760b05d3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21442c1ce5a378c8d4d3b69760b05d3a">&#9670;&#160;</a></span>MR_SpacingSettings</h2>
 
@@ -398,6 +469,20 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac83010bf4ae4af15d0e13d005e33fce1" name="ac83010bf4ae4af15d0e13d005e33fce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac83010bf4ae4af15d0e13d005e33fce1">&#9670;&#160;</a></span>MR_std_function_float_from_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
 
@@ -420,20 +505,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6e4bb5e8943c9b1f5d438198404d0bd4" name="a6e4bb5e8943c9b1f5d438198404d0bd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e4bb5e8943c9b1f5d438198404d0bd4">&#9670;&#160;</a></span>MR_VertScalars</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -559,8 +630,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a192f36dc4d4a527e4640033de5160842" name="a192f36dc4d4a527e4640033de5160842"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a192f36dc4d4a527e4640033de5160842">&#9670;&#160;</a></span>MR_InflateSettings_ConstructFrom()</h2>
+<a id="a12a2460f470a0d3dda34c0a48b7549ba" name="a12a2460f470a0d3dda34c0a48b7549ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a2460f470a0d3dda34c0a48b7549ba">&#9670;&#160;</a></span>MR_InflateSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -573,7 +644,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>iterations</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>iterations</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -701,14 +772,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04e5d857ab1753a66ba7fde6738eeb43" name="a04e5d857ab1753a66ba7fde6738eeb43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04e5d857ab1753a66ba7fde6738eeb43">&#9670;&#160;</a></span>MR_InflateSettings_Get_iterations()</h2>
+<a id="a83161540b4a41f29c84ea4af233d1146" name="a83161540b4a41f29c84ea4af233d1146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83161540b4a41f29c84ea4af233d1146">&#9670;&#160;</a></span>MR_InflateSettings_Get_iterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_InflateSettings_Get_iterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_InflateSettings_Get_iterations </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -773,14 +844,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac096fcd44bb7fb150ae20827a8d5566a" name="ac096fcd44bb7fb150ae20827a8d5566a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac096fcd44bb7fb150ae20827a8d5566a">&#9670;&#160;</a></span>MR_InflateSettings_GetMutable_iterations()</h2>
+<a id="ad811a0d3fd08a34b26102f4276caab0a" name="ad811a0d3fd08a34b26102f4276caab0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad811a0d3fd08a34b26102f4276caab0a">&#9670;&#160;</a></span>MR_InflateSettings_GetMutable_iterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_InflateSettings_GetMutable_iterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_InflateSettings_GetMutable_iterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -895,8 +966,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af9e960a95a42ad98464a741311f7f086" name="af9e960a95a42ad98464a741311f7f086"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9e960a95a42ad98464a741311f7f086">&#9670;&#160;</a></span>MR_InflateSettings_Set_iterations()</h2>
+<a id="a646b5479a5811b0905c7485f502eade4" name="a646b5479a5811b0905c7485f502eade4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a646b5479a5811b0905c7485f502eade4">&#9670;&#160;</a></span>MR_InflateSettings_Set_iterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -909,7 +980,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -980,12 +1051,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> *</td>          <td class="paramname"><span class="paramname"><em>vmass</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *</td>          <td class="paramname"><span class="paramname"><em>vmass</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1028,12 +1099,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> *</td>          <td class="paramname"><span class="paramname"><em>vmass</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *</td>          <td class="paramname"><span class="paramname"><em>vmass</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1046,21 +1117,43 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af9baff470f53ec136d7c42bdbbd67097" name="af9baff470f53ec136d7c42bdbbd67097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9baff470f53ec136d7c42bdbbd67097">&#9670;&#160;</a></span>MR_positionVertsSmoothlySharpBd_4()</h2>
+<a id="a2794542fd7d28b913af0694a0b881d81" name="a2794542fd7d28b913af0694a0b881d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2794542fd7d28b913af0694a0b881d81">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_AssignFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_4 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_AssignFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abcdfdf58c92eaa3bb2f8437342eed157" name="abcdfdf58c92eaa3bb2f8437342eed157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcdfdf58c92eaa3bb2f8437342eed157">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1070,29 +1163,528 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>vertStabilizers</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>stabilizer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>vertStabilizers_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>vertStabilizers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeights_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Puts given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">verts</td><td>must not include all vertices of a mesh connected component unless vertStabilizers are given </td></tr>
-    <tr><td class="paramname">vertShifts</td><td>optional additional shifts of each vertex relative to smooth position </td></tr>
-    <tr><td class="paramname">vertStabilizers</td><td>optional per-vertex stabilizers: the more the value, the bigger vertex attraction to its original position Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>vertShifts</code> defaults to a null pointer in C++. Parameter <code>vertStabilizers</code> defaults to a null pointer in C++. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab3751cfec47bcc96afd09ebfdf214d0e" title="Destroys a heap-allocated instance of MR_PositionVertsSmoothlyParams. Does nothing if the pointer is ...">MR_PositionVertsSmoothlyParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a9c7dfade78031d66eedcc23d63d570c7" name="a9c7dfade78031d66eedcc23d63d570c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c7dfade78031d66eedcc23d63d570c7">&#9670;&#160;</a></span>MR_positionVertsSmoothlySharpBd_5()</h2>
+<a id="a4439fd887782bab41a4b94aca56040f1" name="a4439fd887782bab41a4b94aca56040f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4439fd887782bab41a4b94aca56040f1">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_5 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab3751cfec47bcc96afd09ebfdf214d0e" title="Destroys a heap-allocated instance of MR_PositionVertsSmoothlyParams. Does nothing if the pointer is ...">MR_PositionVertsSmoothlyParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4704d0f834e75fb40788521498fffd25" name="a4704d0f834e75fb40788521498fffd25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4704d0f834e75fb40788521498fffd25">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab3751cfec47bcc96afd09ebfdf214d0e" title="Destroys a heap-allocated instance of MR_PositionVertsSmoothlyParams. Does nothing if the pointer is ...">MR_PositionVertsSmoothlyParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a818f707c9d6d86d9d4d5c0fac7f083b8" name="a818f707c9d6d86d9d4d5c0fac7f083b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818f707c9d6d86d9d4d5c0fac7f083b8">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a12a78c0f555279bc1761ae3f01d9a264" title="Destroys a heap-allocated array of MR_PositionVertsSmoothlyParams. Does nothing if the pointer is nul...">MR_PositionVertsSmoothlyParams_DestroyArray()</a></code>. Use <code><a class="el" href="#ad5366a88dbe1aab126442b3eaa1504e1" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PositionVertsSmoothlyParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#af259531ac28a990b34ea1f037c8a0611" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PositionVertsSmoothlyParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab3751cfec47bcc96afd09ebfdf214d0e" name="ab3751cfec47bcc96afd09ebfdf214d0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3751cfec47bcc96afd09ebfdf214d0e">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PositionVertsSmoothlyParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a12a78c0f555279bc1761ae3f01d9a264" name="a12a78c0f555279bc1761ae3f01d9a264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a78c0f555279bc1761ae3f01d9a264">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PositionVertsSmoothlyParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa3bd91bbfa6b6a5205a2e8b7c9258c55" name="aa3bd91bbfa6b6a5205a2e8b7c9258c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bd91bbfa6b6a5205a2e8b7c9258c55">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Get_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_PositionVertsSmoothlyParams_Get_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used for edge weights instead of default 1 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aad178be71e5aa549d3e5735d7713bce9" name="aad178be71e5aa549d3e5735d7713bce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad178be71e5aa549d3e5735d7713bce9">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Get_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PositionVertsSmoothlyParams_Get_region </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7aa73e0f38d04b843d6ec867b71b7c07" name="a7aa73e0f38d04b843d6ec867b71b7c07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa73e0f38d04b843d6ec867b71b7c07">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Get_stabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PositionVertsSmoothlyParams_Get_stabilizer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the more the value, the bigger attraction of each vertex to its original position Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0a21a23b6eb1a0693488f0dba3bb4862" name="a0a21a23b6eb1a0693488f0dba3bb4862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a21a23b6eb1a0693488f0dba3bb4862">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Get_vertShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const  * MR_PositionVertsSmoothlyParams_Get_vertShifts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional additional shifts of each vertex relative to smooth position Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad53fc95f0d9f0ef1cded11d31726fcb5" name="ad53fc95f0d9f0ef1cded11d31726fcb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53fc95f0d9f0ef1cded11d31726fcb5">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Get_vertStabilizers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_PositionVertsSmoothlyParams_Get_vertStabilizers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used instead of <code>stabilizer</code> Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7c254e115e842898af9ec6df61fb9cf3" name="a7c254e115e842898af9ec6df61fb9cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c254e115e842898af9ec6df61fb9cf3">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used for edge weights instead of default 1 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2d740d8f5b7de3767a7c463ff5aeb93e" name="a2d740d8f5b7de3767a7c463ff5aeb93e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d740d8f5b7de3767a7c463ff5aeb93e">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_GetMutable_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PositionVertsSmoothlyParams_GetMutable_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8d96daf1a24b176b303e89cf0d6ca66c" name="a8d96daf1a24b176b303e89cf0d6ca66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d96daf1a24b176b303e89cf0d6ca66c">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_GetMutable_stabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PositionVertsSmoothlyParams_GetMutable_stabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the more the value, the bigger attraction of each vertex to its original position Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aed85a293fe6d949a285b1997e4087f2e" name="aed85a293fe6d949a285b1997e4087f2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed85a293fe6d949a285b1997e4087f2e">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_GetMutable_vertShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> ** MR_PositionVertsSmoothlyParams_GetMutable_vertShifts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional additional shifts of each vertex relative to smooth position Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a315d4f8b1d1072f8abc3d9d440a5fade" name="a315d4f8b1d1072f8abc3d9d440a5fade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a315d4f8b1d1072f8abc3d9d440a5fade">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used instead of <code>stabilizer</code> Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad5366a88dbe1aab126442b3eaa1504e1" name="ad5366a88dbe1aab126442b3eaa1504e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5366a88dbe1aab126442b3eaa1504e1">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af259531ac28a990b34ea1f037c8a0611" name="af259531ac28a990b34ea1f037c8a0611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af259531ac28a990b34ea1f037c8a0611">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a51d2b9e2e40ac0c1164aadd85d5ce3f8" name="a51d2b9e2e40ac0c1164aadd85d5ce3f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d2b9e2e40ac0c1164aadd85d5ce3f8">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Set_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used for edge weights instead of default 1 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a9b0aa7a32f32c02b8e18fa8b62768d57" name="a9b0aa7a32f32c02b8e18fa8b62768d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b0aa7a32f32c02b8e18fa8b62768d57">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Set_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a495ba3efd7055223d3ce8afcb92898f7" name="a495ba3efd7055223d3ce8afcb92898f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a495ba3efd7055223d3ce8afcb92898f7">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Set_stabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_stabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the more the value, the bigger attraction of each vertex to its original position Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a30bce08bccb6ee3baaeae74612275f79" name="a30bce08bccb6ee3baaeae74612275f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30bce08bccb6ee3baaeae74612275f79">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Set_vertShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_vertShifts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional additional shifts of each vertex relative to smooth position Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ac225787ed8b7157fe65d0a20baae41e2" name="ac225787ed8b7157fe65d0a20baae41e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac225787ed8b7157fe65d0a20baae41e2">&#9670;&#160;</a></span>MR_PositionVertsSmoothlyParams_Set_vertStabilizers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_vertStabilizers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used instead of <code>stabilizer</code> Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="abecc467d5183327b99fb181d6a266e00" name="abecc467d5183327b99fb181d6a266e00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abecc467d5183327b99fb181d6a266e00">&#9670;&#160;</a></span>MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Puts given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af8dd3b249e646ab92cf9d312ffac6e2e">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="add13f88efa95f038b4106254dd27d746" name="add13f88efa95f038b4106254dd27d746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add13f88efa95f038b4106254dd27d746">&#9670;&#160;</a></span>MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a6cc2b78a67b0b3773417b073b9b28af7">MRC_DEPRECATED</a> <a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af8dd3b249e646ab92cf9d312ffac6e2e">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a976b08c78372e27987dfe13d3a2a20fd" name="a976b08c78372e27987dfe13d3a2a20fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976b08c78372e27987dfe13d3a2a20fd">&#9670;&#160;</a></span>MR_positionVertsSmoothlySharpBd_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1104,21 +1696,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>vertShifts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>vertStabilizers</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>vertShifts</code> defaults to a null pointer in C++. Parameter <code>vertStabilizers</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af8dd3b249e646ab92cf9d312ffac6e2e">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1198,8 +1780,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af07ba2cef9b4825d09c492d1c17bbd3c" name="af07ba2cef9b4825d09c492d1c17bbd3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af07ba2cef9b4825d09c492d1c17bbd3c">&#9670;&#160;</a></span>MR_SpacingSettings_ConstructFrom()</h2>
+<a id="af209b13efc80e52883a0801eee9b9ba9" name="af209b13efc80e52883a0801eee9b9ba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af209b13efc80e52883a0801eee9b9ba9">&#9670;&#160;</a></span>MR_SpacingSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1222,7 +1804,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1400,14 +1982,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a53816064822927d9545181cf0ff383ba" name="a53816064822927d9545181cf0ff383ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53816064822927d9545181cf0ff383ba">&#9670;&#160;</a></span>MR_SpacingSettings_Get_numIters()</h2>
+<a id="a0708eea2c38035fb8a90fd83c0b72b22" name="a0708eea2c38035fb8a90fd83c0b72b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0708eea2c38035fb8a90fd83c0b72b22">&#9670;&#160;</a></span>MR_SpacingSettings_Get_numIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_SpacingSettings_Get_numIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_SpacingSettings_Get_numIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1508,14 +2090,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a205308715bedf1cbf7b499302f8ad89f" name="a205308715bedf1cbf7b499302f8ad89f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a205308715bedf1cbf7b499302f8ad89f">&#9670;&#160;</a></span>MR_SpacingSettings_GetMutable_numIters()</h2>
+<a id="afc56288eba720f756f3f4229f27c3761" name="afc56288eba720f756f3f4229f27c3761"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc56288eba720f756f3f4229f27c3761">&#9670;&#160;</a></span>MR_SpacingSettings_GetMutable_numIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_SpacingSettings_GetMutable_numIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_SpacingSettings_GetMutable_numIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1684,8 +2266,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6289e164deefc405dccf455860011a5c" name="a6289e164deefc405dccf455860011a5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6289e164deefc405dccf455860011a5c">&#9670;&#160;</a></span>MR_SpacingSettings_Set_numIters()</h2>
+<a id="a53d8a8431f5fe6ab5b2e76e5a62cb70f" name="a53d8a8431f5fe6ab5b2e76e5a62cb70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d8a8431f5fe6ab5b2e76e5a62cb70f">&#9670;&#160;</a></span>MR_SpacingSettings_Set_numIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1698,7 +2280,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

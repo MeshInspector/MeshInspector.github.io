@@ -1,6 +1,8 @@
 var classMR_1_1FeatureObject =
 [
     [ "FeatureObject", "classMR_1_1FeatureObject.html#a537fbe1f37e55b900de3e7427c41e7b4", null ],
+    [ "className", "classMR_1_1FeatureObject.html#a9d50ec94a6a058376bf8e02827f5121c", null ],
+    [ "classNameInPlural", "classMR_1_1FeatureObject.html#a873cf4c43be4dfcce9768ae68ad3ae44", null ],
     [ "deserializeFields_", "classMR_1_1FeatureObject.html#aee2648d2f24f218b7c2cbcd1b48ae0f2", null ],
     [ "getAllSharedProperties", "classMR_1_1FeatureObject.html#a67f4c8131f16d91de68c6ac590d31fa4", null ],
     [ "getAllVisualizeProperties", "classMR_1_1FeatureObject.html#a023edd409ca58f579708564c89b70ac4", null ],
@@ -35,6 +37,7 @@ var classMR_1_1FeatureObject =
     [ "setSubfeaturePointSize", "classMR_1_1FeatureObject.html#ad4ff45224612c828ae56427661a0f00e", null ],
     [ "setXf", "classMR_1_1FeatureObject.html#a29cbd04bca216b622c6526ea818d86cb", null ],
     [ "supportsVisualizeProperty", "classMR_1_1FeatureObject.html#aa371d414660e743cb7ffe960edbd7f7b", null ],
+    [ "typeName", "classMR_1_1FeatureObject.html#a45535da24d737a00a9262dd1fbe8525f", null ],
     [ "decorationsColor_", "classMR_1_1FeatureObject.html#a1c8e2cd4e02b32ce6329d8a44ab727c6", null ],
     [ "detailsOnNameTag_", "classMR_1_1FeatureObject.html#ac252edfceb31c314bc08c0ba5fac11b3", null ],
     [ "lineWidth_", "classMR_1_1FeatureObject.html#a3b5a4031f824e124b74a89fe8c2e1a67", null ],

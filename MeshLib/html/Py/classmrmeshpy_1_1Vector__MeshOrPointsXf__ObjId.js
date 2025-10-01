@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId =
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a1d8ce87cdec6543cfaea8eedc1168e2f", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#aadedd028bfc33dd3db419e84878dece7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a19397a7d36f0445cc7c6462cbb5da770", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a93a4c74a4c2c571abf4fc3a897137c6b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ac9c84f95a55d6b015c8eb96c713a3b41", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ac9c84f95a55d6b015c8eb96c713a3b41", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a5c200245ef36bbddde624544e227f372", null ],

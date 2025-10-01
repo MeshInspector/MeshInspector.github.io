@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MREndMill_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -155,7 +154,6 @@ $(function(){initNavTree('MREndMill_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MREndMill_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -165,32 +163,33 @@ Typedefs</h2></td></tr>
 <tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0775be5ed04dda6e9b978e00a1ce786b" id="r_a0775be5ed04dda6e9b978e00a1ce786b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a></td></tr>
 <tr class="separator:a0775be5ed04dda6e9b978e00a1ce786b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c2a0426eb52d9951dc0fa13cfd2599f" id="r_a0c2a0426eb52d9951dc0fa13cfd2599f"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a></td></tr>
-<tr class="memdesc:a0c2a0426eb52d9951dc0fa13cfd2599f"><td class="mdescLeft">&#160;</td><td class="mdescRight">cutter type  <br /></td></tr>
-<tr class="separator:a0c2a0426eb52d9951dc0fa13cfd2599f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473ae07be6ee28af7d0e50e2f0b1ab11" id="r_a473ae07be6ee28af7d0e50e2f0b1ab11"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473ae07be6ee28af7d0e50e2f0b1ab11">MR_EndMillCutter_Type</a></td></tr>
+<tr class="memdesc:a473ae07be6ee28af7d0e50e2f0b1ab11"><td class="mdescLeft">&#160;</td><td class="mdescRight">cutter type  <br /></td></tr>
+<tr class="separator:a473ae07be6ee28af7d0e50e2f0b1ab11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb9772e287e6b9050531d23886e426c0" id="r_afb9772e287e6b9050531d23886e426c0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a></td></tr>
 <tr class="separator:afb9772e287e6b9050531d23886e426c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aba01db17f4a2bfbc3db60dc172972a25" id="r_aba01db17f4a2bfbc3db60dc172972a25"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#aba01db17f4a2bfbc3db60dc172972a25abed1a41fa548ed8fffd130453f1d7c7b">MR_EndMillCutter_Type_Flat</a> = 0
-, <a class="el" href="#aba01db17f4a2bfbc3db60dc172972a25a8129cf667bb1b5edd5822d007eaf2d58">MR_EndMillCutter_Type_Ball</a> = 1
-, <a class="el" href="#aba01db17f4a2bfbc3db60dc172972a25a247b13661bb5779844d9b4f98835feb1">MR_EndMillCutter_Type_BullNose</a> = 2
-, <a class="el" href="#aba01db17f4a2bfbc3db60dc172972a25abe3b0ef7d4dcefaf2f9839ea881acc74">MR_EndMillCutter_Type_Chamfer</a> = 3
+<tr class="memitem:a83570155983a77f6db263535b4f438ab" id="r_a83570155983a77f6db263535b4f438ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> { <br />
+&#160;&#160;<a class="el" href="#a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b">MR_EndMillCutter_Type_Flat</a> = 0
+, <a class="el" href="#a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58">MR_EndMillCutter_Type_Ball</a> = 1
+, <a class="el" href="#a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1">MR_EndMillCutter_Type_BullNose</a> = 2
+, <a class="el" href="#a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74">MR_EndMillCutter_Type_Chamfer</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#aba01db17f4a2bfbc3db60dc172972a25aa528dad29d246861e500801c57bc9bec">MR_EndMillCutter_Type_Count</a> = 4
+&#160;&#160;<a class="el" href="#a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec">MR_EndMillCutter_Type_Count</a> = 4
 <br />
  }</td></tr>
-<tr class="separator:aba01db17f4a2bfbc3db60dc172972a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a83570155983a77f6db263535b4f438ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">cutter type  <a href="#a83570155983a77f6db263535b4f438ab">More...</a><br /></td></tr>
+<tr class="separator:a83570155983a77f6db263535b4f438ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa4cefc9b570680126738930904e13c04" id="r_aa4cefc9b570680126738930904e13c04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4cefc9b570680126738930904e13c04">MR_EndMillCutter_Get_type</a> (const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this)</td></tr>
+<tr class="memitem:aa4cefc9b570680126738930904e13c04" id="r_aa4cefc9b570680126738930904e13c04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4cefc9b570680126738930904e13c04">MR_EndMillCutter_Get_type</a> (const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this)</td></tr>
 <tr class="separator:aa4cefc9b570680126738930904e13c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a828d4c31e5f1c906e793f17a9115bbd9" id="r_a828d4c31e5f1c906e793f17a9115bbd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a828d4c31e5f1c906e793f17a9115bbd9">MR_EndMillCutter_Set_type</a> (<a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this, <a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a> value)</td></tr>
+<tr class="memitem:a828d4c31e5f1c906e793f17a9115bbd9" id="r_a828d4c31e5f1c906e793f17a9115bbd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a828d4c31e5f1c906e793f17a9115bbd9">MR_EndMillCutter_Set_type</a> (<a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this, <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> value)</td></tr>
 <tr class="separator:a828d4c31e5f1c906e793f17a9115bbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29890165b4871985fe86ea395202855a" id="r_a29890165b4871985fe86ea395202855a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29890165b4871985fe86ea395202855a">MR_EndMillCutter_GetMutable_type</a> (<a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this)</td></tr>
+<tr class="memitem:a29890165b4871985fe86ea395202855a" id="r_a29890165b4871985fe86ea395202855a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29890165b4871985fe86ea395202855a">MR_EndMillCutter_GetMutable_type</a> (<a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this)</td></tr>
 <tr class="separator:a29890165b4871985fe86ea395202855a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde0dff128af8f2729e155231133debe" id="r_acde0dff128af8f2729e155231133debe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde0dff128af8f2729e155231133debe">MR_EndMillCutter_Get_cornerRadius</a> (const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *_this)</td></tr>
 <tr class="separator:acde0dff128af8f2729e155231133debe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,7 +213,7 @@ Functions</h2></td></tr>
 <tr class="separator:ab56f9f8a6d5393d3bbb193e59ee687bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8a3cf53f756e1060e558d4b4d02d95e" id="r_af8a3cf53f756e1060e558d4b4d02d95e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8a3cf53f756e1060e558d4b4d02d95e">MR_EndMillCutter_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:af8a3cf53f756e1060e558d4b4d02d95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7cf8af60c1869bec6adb92e7ad35c2" id="r_a1b7cf8af60c1869bec6adb92e7ad35c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b7cf8af60c1869bec6adb92e7ad35c2">MR_EndMillCutter_ConstructFrom</a> (<a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a> type, float cornerRadius, float cuttingAngle, float endDiameter)</td></tr>
+<tr class="memitem:a1b7cf8af60c1869bec6adb92e7ad35c2" id="r_a1b7cf8af60c1869bec6adb92e7ad35c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b7cf8af60c1869bec6adb92e7ad35c2">MR_EndMillCutter_ConstructFrom</a> (<a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> type, float cornerRadius, float cuttingAngle, float endDiameter)</td></tr>
 <tr class="separator:a1b7cf8af60c1869bec6adb92e7ad35c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a66d7c9923592ae7b03afb1ace753f0" id="r_a1a66d7c9923592ae7b03afb1ace753f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a66d7c9923592ae7b03afb1ace753f0">MR_EndMillCutter_OffsetPtr</a> (const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a1a66d7c9923592ae7b03afb1ace753f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -274,8 +273,8 @@ Functions</h2></td></tr>
 <tr class="separator:a75f8e5d2a73a5967f8b24071a50df9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a756aeab3798c063379fb5c21aa5a4468" id="r_a756aeab3798c063379fb5c21aa5a4468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756aeab3798c063379fb5c21aa5a4468">MR_EndMillTool_getMinimalCutLength</a> (const <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *_this)</td></tr>
 <tr class="separator:a756aeab3798c063379fb5c21aa5a4468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c9d3e70a79fe00d4cd54d46bdda92b" id="r_a36c9d3e70a79fe00d4cd54d46bdda92b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36c9d3e70a79fe00d4cd54d46bdda92b">MR_EndMillTool_toMesh</a> (const <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *_this, const int32_t *horizontalResolution, const int32_t *verticalResolution)</td></tr>
-<tr class="separator:a36c9d3e70a79fe00d4cd54d46bdda92b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4466650e1507551c5b426ce42313b165" id="r_a4466650e1507551c5b426ce42313b165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4466650e1507551c5b426ce42313b165">MR_EndMillTool_toMesh</a> (const <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *_this, const int *horizontalResolution, const int *verticalResolution)</td></tr>
+<tr class="separator:a4466650e1507551c5b426ce42313b165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a0775be5ed04dda6e9b978e00a1ce786b" name="a0775be5ed04dda6e9b978e00a1ce786b"></a>
@@ -293,14 +292,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0c2a0426eb52d9951dc0fa13cfd2599f" name="a0c2a0426eb52d9951dc0fa13cfd2599f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c2a0426eb52d9951dc0fa13cfd2599f">&#9670;&#160;</a></span>MR_EndMillCutter_Type</h2>
+<a id="a473ae07be6ee28af7d0e50e2f0b1ab11" name="a473ae07be6ee28af7d0e50e2f0b1ab11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473ae07be6ee28af7d0e50e2f0b1ab11">&#9670;&#160;</a></span>MR_EndMillCutter_Type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,27 +338,29 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aba01db17f4a2bfbc3db60dc172972a25" name="aba01db17f4a2bfbc3db60dc172972a25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba01db17f4a2bfbc3db60dc172972a25">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a83570155983a77f6db263535b4f438ab" name="a83570155983a77f6db263535b4f438ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83570155983a77f6db263535b4f438ab">&#9670;&#160;</a></span>MR_EndMillCutter_Type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>cutter type </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aba01db17f4a2bfbc3db60dc172972a25abed1a41fa548ed8fffd130453f1d7c7b" name="aba01db17f4a2bfbc3db60dc172972a25abed1a41fa548ed8fffd130453f1d7c7b"></a>MR_EndMillCutter_Type_Flat&#160;</td><td class="fielddoc"><p>flat end mill </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b" name="a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b"></a>MR_EndMillCutter_Type_Flat&#160;</td><td class="fielddoc"><p>flat end mill </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aba01db17f4a2bfbc3db60dc172972a25a8129cf667bb1b5edd5822d007eaf2d58" name="aba01db17f4a2bfbc3db60dc172972a25a8129cf667bb1b5edd5822d007eaf2d58"></a>MR_EndMillCutter_Type_Ball&#160;</td><td class="fielddoc"><p>ball end mill </p>
+<tr><td class="fieldname"><a id="a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58" name="a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58"></a>MR_EndMillCutter_Type_Ball&#160;</td><td class="fielddoc"><p>ball end mill </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aba01db17f4a2bfbc3db60dc172972a25a247b13661bb5779844d9b4f98835feb1" name="aba01db17f4a2bfbc3db60dc172972a25a247b13661bb5779844d9b4f98835feb1"></a>MR_EndMillCutter_Type_BullNose&#160;</td><td class="fielddoc"><p>bull nose end mill </p>
+<tr><td class="fieldname"><a id="a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1" name="a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1"></a>MR_EndMillCutter_Type_BullNose&#160;</td><td class="fielddoc"><p>bull nose end mill </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aba01db17f4a2bfbc3db60dc172972a25abe3b0ef7d4dcefaf2f9839ea881acc74" name="aba01db17f4a2bfbc3db60dc172972a25abe3b0ef7d4dcefaf2f9839ea881acc74"></a>MR_EndMillCutter_Type_Chamfer&#160;</td><td class="fielddoc"><p>chamfer end mill </p>
+<tr><td class="fieldname"><a id="a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74" name="a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74"></a>MR_EndMillCutter_Type_Chamfer&#160;</td><td class="fielddoc"><p>chamfer end mill </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aba01db17f4a2bfbc3db60dc172972a25aa528dad29d246861e500801c57bc9bec" name="aba01db17f4a2bfbc3db60dc172972a25aa528dad29d246861e500801c57bc9bec"></a>MR_EndMillCutter_Type_Count&#160;</td><td class="fielddoc"><p>chamfer end mill </p>
+<tr><td class="fieldname"><a id="a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec" name="a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec"></a>MR_EndMillCutter_Type_Count&#160;</td><td class="fielddoc"><p>chamfer end mill </p>
 </td></tr>
 </table>
 
@@ -397,7 +398,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> * MR_EndMillCutter_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -573,7 +574,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a> * MR_EndMillCutter_Get_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> * MR_EndMillCutter_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -645,7 +646,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a> * MR_EndMillCutter_GetMutable_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a> * MR_EndMillCutter_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -782,7 +783,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a0c2a0426eb52d9951dc0fa13cfd2599f">MR_EndMillCutter_Type</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a83570155983a77f6db263535b4f438ab">MR_EndMillCutter_Type</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1169,8 +1170,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a36c9d3e70a79fe00d4cd54d46bdda92b" name="a36c9d3e70a79fe00d4cd54d46bdda92b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c9d3e70a79fe00d4cd54d46bdda92b">&#9670;&#160;</a></span>MR_EndMillTool_toMesh()</h2>
+<a id="a4466650e1507551c5b426ce42313b165" name="a4466650e1507551c5b426ce42313b165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4466650e1507551c5b426ce42313b165">&#9670;&#160;</a></span>MR_EndMillTool_toMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1183,12 +1184,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>horizontalResolution</em></span>, </td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>horizontalResolution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>verticalResolution</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>verticalResolution</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

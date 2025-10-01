@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1RebuildMeshSettings =
 [
     [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#a5c2ce0ca210f93b89e2c85449260f6b2", null ],
+    [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#a298d9910175fb947f7ee85dd69ca7384", null ],
     [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#a3271035a52047c2de7c3663312112152", null ],
     [ "closeHolesInHoleWindingNumber", "classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8", null ],
     [ "closeHolesInHoleWindingNumber", "classmrmeshpy_1_1RebuildMeshSettings.html#a9c4472d2f3b891240bd50d5d07e8ace0", null ],

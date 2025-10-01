@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1ObjectMesh =
 [
     [ "__init__", "classmrmeshpy_1_1ObjectMesh.html#a969a9885ff3b33b06a0ada8c222f6e7c", null ],
+    [ "className", "classmrmeshpy_1_1ObjectMesh.html#a7dfbccad2835d0f6f74a50b880200d3e", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1ObjectMesh.html#a0bf0ab6bb49a91a70323cb8806f1e8ee", null ],
     [ "clone", "classmrmeshpy_1_1ObjectMesh.html#a74d05289828bf738860653a727be72e9", null ],
-    [ "getClassName", "classmrmeshpy_1_1ObjectMesh.html#a6f4c56fb83b28b2288591ade99c0e070", null ],
-    [ "getClassNameInPlural", "classmrmeshpy_1_1ObjectMesh.html#ad2e44551879d3a2d9cb370602bb91c7c", null ],
     [ "getInfoLines", "classmrmeshpy_1_1ObjectMesh.html#adc56c57b9eb3aff553e4b128a812afca", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectMesh.html#a34188c8fdfca8040bff1dc0077b91561", null ],
     [ "setMesh", "classmrmeshpy_1_1ObjectMesh.html#a0858482917c22a413b042da6e1c4920a", null ],

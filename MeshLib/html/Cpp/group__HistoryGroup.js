@@ -88,11 +88,13 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshDataAction.html#a5490c7ecfcf05757e523c10772447c18", null ],
-      [ "ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html#ae7189fb8c8e3d8c3521cb0b8781a1e19", null ],
+      [ "ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html#a802c34ae621a5ebc85ae77caef5d7112", null ],
       [ "ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html#adde79f1c602a61f0a33b7b9a02c6200f", null ],
       [ "action", "classMR_1_1ChangeMeshDataAction.html#a13d40bda09d4c09c6c66cccc88b61361", null ],
+      [ "data", "classMR_1_1ChangeMeshDataAction.html#a90653c68c71f52aaaa7dd151584b5fc0", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshDataAction.html#a6fa4f260bd2f49a20d68064d7238e9d9", null ],
-      [ "name", "classMR_1_1ChangeMeshDataAction.html#a17a6297c30967ea93e6bfc131ae8911c", null ]
+      [ "name", "classMR_1_1ChangeMeshDataAction.html#a17a6297c30967ea93e6bfc131ae8911c", null ],
+      [ "obj", "classMR_1_1ChangeMeshDataAction.html#a302de90b9b9c06b36225e604a21caee4", null ]
     ] ],
     [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", [
       [ "ChangeNameAction", "classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3", null ],
@@ -190,6 +192,14 @@ var group__HistoryGroup =
       [ "action", "classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad", null ],
       [ "heapBytes", "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef", null ],
       [ "name", "classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b", null ]
+    ] ],
+    [ "MR::ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html", [
+      [ "Obj", "classMR_1_1ChangeOnePointInPolylineAction.html#aef7c7a81af0f8a8b89d020602c31298d", null ],
+      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#ad3c95f6ed93a9497f7a959a770ecc788", null ],
+      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a85c6de61b6597e042e5aef9c02ecf52b", null ],
+      [ "action", "classMR_1_1ChangeOnePointInPolylineAction.html#a38ca71433b431c0f9253e2140cea35ef", null ],
+      [ "heapBytes", "classMR_1_1ChangeOnePointInPolylineAction.html#a6fa396d1c46311032a718c9eaf3f34bc", null ],
+      [ "name", "classMR_1_1ChangeOnePointInPolylineAction.html#a60545394635e0a3adb2be644e7bdafee", null ]
     ] ],
     [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", [
       [ "ChangeScaleAction", "classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075", null ],

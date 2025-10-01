@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1UiRenderManager.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -176,8 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af9cfebf3c57b3c9b6283d7de32fc4adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9601bd6d868289506f00155eb4711f5e" id="r_a9601bd6d868289506f00155eb4711f5e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9601bd6d868289506f00155eb4711f5e">beginBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, <a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a> &amp;tasks)</td></tr>
 <tr class="separator:a9601bd6d868289506f00155eb4711f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9aa7414b4e8a3089cf4ac6c7d413fb2" id="r_ac9aa7414b4e8a3089cf4ac6c7d413fb2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9aa7414b4e8a3089cf4ac6c7d413fb2">finishBackwardPass</a> (const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params)</td></tr>
-<tr class="separator:ac9aa7414b4e8a3089cf4ac6c7d413fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba65991bd7f7faf987ac0662a31a5875" id="r_aba65991bd7f7faf987ac0662a31a5875"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba65991bd7f7faf987ac0662a31a5875">finishBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params)</td></tr>
+<tr class="separator:aba65991bd7f7faf987ac0662a31a5875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a068f0178b855d81e92b613b5872c99ee" name="a068f0178b855d81e92b613b5872c99ee"></a>
@@ -237,8 +236,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac9aa7414b4e8a3089cf4ac6c7d413fb2" name="ac9aa7414b4e8a3089cf4ac6c7d413fb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9aa7414b4e8a3089cf4ac6c7d413fb2">&#9670;&#160;</a></span>finishBackwardPass()</h2>
+<a id="aba65991bd7f7faf987ac0662a31a5875" name="aba65991bd7f7faf987ac0662a31a5875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba65991bd7f7faf987ac0662a31a5875">&#9670;&#160;</a></span>finishBackwardPass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,8 +248,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void MR::UiRenderManager::finishBackwardPass </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -260,7 +263,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a75783b60f5b1822bf592fbaaa730bbf1">MR::ImGuiMenu::UiRenderManagerImpl</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a6eae746d6778e271123fb43ad2f8f4e2">MR::ImGuiMenu::UiRenderManagerImpl</a>.</p>
 
 </div>
 </div>

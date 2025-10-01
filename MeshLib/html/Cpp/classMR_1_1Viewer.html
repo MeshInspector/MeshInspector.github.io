@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/classMR_1_1Viewer.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -370,6 +369,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae910a1a6019718a777afe452d58802a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e5111171595097dcb08f6e009450d7f" id="r_a0e5111171595097dcb08f6e009450d7f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5111171595097dcb08f6e009450d7f">getHoveredViewportId</a> () const</td></tr>
 <tr class="separator:a0e5111171595097dcb08f6e009450d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad15c52527b406547153c2ee9ab5b9854" id="r_ad15c52527b406547153c2ee9ab5b9854"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad15c52527b406547153c2ee9ab5b9854">getHoveredViewportIdOrInvalid</a> () const</td></tr>
+<tr class="separator:ad15c52527b406547153c2ee9ab5b9854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7255da11fe1bd338aa176ee19b15eb7" id="r_aa7255da11fe1bd338aa176ee19b15eb7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7255da11fe1bd338aa176ee19b15eb7">select_hovered_viewport</a> ()</td></tr>
 <tr class="separator:aa7255da11fe1bd338aa176ee19b15eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0abf7c7fdb0f51651be12f67f1aea11c" id="r_a0abf7c7fdb0f51651be12f67f1aea11c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0abf7c7fdb0f51651be12f67f1aea11c">fitDataViewport</a> (<a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> vpList=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a>(), float fill=0.6f, bool snapView=true)</td></tr>
@@ -507,6 +508,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e7838b6c40f9f7bbdb03fbc9b53a857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebf2cb865d789166174af6ef9a67d295" id="r_aebf2cb865d789166174af6ef9a67d295"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebf2cb865d789166174af6ef9a67d295">initSpaceMouseHandler</a> (std::function&lt; void(const std::string &amp;)&gt; deviceSignal={})</td></tr>
 <tr class="separator:aebf2cb865d789166174af6ef9a67d295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4982baeba6e7a4cf6b8dcfc47b80e5f7" id="r_a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4982baeba6e7a4cf6b8dcfc47b80e5f7">drawUiRenderObjects</a> ()</td></tr>
+<tr class="memdesc:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw 2d (<a class="el" href="namespaceMR_1_1UI.html">UI</a>) part of objects in scene  <br /></td></tr>
+<tr class="separator:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -565,8 +569,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aabff40e9f5b2102161db747f1d36c787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad282257ff021063d9026914e11b361d1" id="r_ad282257ff021063d9026914e11b361d1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1CornerControllerObject.html">CornerControllerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad282257ff021063d9026914e11b361d1">basisViewController</a></td></tr>
 <tr class="separator:ad282257ff021063d9026914e11b361d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa485ba9282a8656276ea195d33c25259" id="r_aa485ba9282a8656276ea195d33c25259"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa485ba9282a8656276ea195d33c25259">globalBasisAxes</a></td></tr>
-<tr class="separator:aa485ba9282a8656276ea195d33c25259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8017221bc14ddf989b5065726236ed" id="r_a8e8017221bc14ddf989b5065726236ed"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1ViewportGlobalBasis.html">ViewportGlobalBasis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e8017221bc14ddf989b5065726236ed">globalBasis</a></td></tr>
+<tr class="separator:a8e8017221bc14ddf989b5065726236ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c175c5eee2d6f8367e9fcfe26eee6a5" id="r_a4c175c5eee2d6f8367e9fcfe26eee6a5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c175c5eee2d6f8367e9fcfe26eee6a5">rotationSphere</a></td></tr>
 <tr class="separator:a4c175c5eee2d6f8367e9fcfe26eee6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b86b8de173c41ecb9d6b4c2abe7b65" id="r_a97b86b8de173c41ecb9d6b4c2abe7b65"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97b86b8de173c41ecb9d6b4c2abe7b65">clippingPlaneObject</a></td></tr>
@@ -607,6 +611,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad6d46b28b5762441f32aaa728c6e17db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeddbff531ed133ebcca09d1d1d71b1b7" id="r_aeddbff531ed133ebcca09d1d1d71b1b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeddbff531ed133ebcca09d1d1d71b1b7">spaceMouseRepeatSignal</a></td></tr>
 <tr class="separator:aeddbff531ed133ebcca09d1d1d71b1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db27b3460f6949ee1f812fffc015e14" id="r_a0db27b3460f6949ee1f812fffc015e14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0db27b3460f6949ee1f812fffc015e14">preSetupViewSignal</a></td></tr>
+<tr class="separator:a0db27b3460f6949ee1f812fffc015e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5250e84d2551d0a55d55851ed8904f" id="r_a8d5250e84d2551d0a55d55851ed8904f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d5250e84d2551d0a55d55851ed8904f">preDrawSignal</a></td></tr>
 <tr class="separator:a8d5250e84d2551d0a55d55851ed8904f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a189e303426332fa5073bbe325ff96089" id="r_a189e303426332fa5073bbe325ff96089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a189e303426332fa5073bbe325ff96089">preDrawPostViewportSignal</a></td></tr>
@@ -1422,6 +1428,25 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a4982baeba6e7a4cf6b8dcfc47b80e5f7" name="a4982baeba6e7a4cf6b8dcfc47b80e5f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4982baeba6e7a4cf6b8dcfc47b80e5f7">&#9670;&#160;</a></span>drawUiRenderObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::drawUiRenderObjects </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw 2d (<a class="el" href="namespaceMR_1_1UI.html">UI</a>) part of objects in scene </p>
+
+</div>
+</div>
 <a id="a7491e8da28f4f91c65a046245af2b38a" name="a7491e8da28f4f91c65a046245af2b38a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7491e8da28f4f91c65a046245af2b38a">&#9670;&#160;</a></span>emplaceEvent()</h2>
 
@@ -1641,6 +1666,23 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> MR::Viewer::getHoveredViewportId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad15c52527b406547153c2ee9ab5b9854" name="ad15c52527b406547153c2ee9ab5b9854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad15c52527b406547153c2ee9ab5b9854">&#9670;&#160;</a></span>getHoveredViewportIdOrInvalid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> MR::Viewer::getHoveredViewportIdOrInvalid </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -4079,14 +4121,14 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="aa485ba9282a8656276ea195d33c25259" name="aa485ba9282a8656276ea195d33c25259"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa485ba9282a8656276ea195d33c25259">&#9670;&#160;</a></span>globalBasisAxes</h2>
+<a id="a8e8017221bc14ddf989b5065726236ed" name="a8e8017221bc14ddf989b5065726236ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8017221bc14ddf989b5065726236ed">&#9670;&#160;</a></span>globalBasis</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>&gt; MR::Viewer::globalBasisAxes</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMR_1_1ViewportGlobalBasis.html">ViewportGlobalBasis</a>&gt; MR::Viewer::globalBasis</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4381,6 +4423,20 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a> MR::Viewer::preDrawSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0db27b3460f6949ee1f812fffc015e14" name="a0db27b3460f6949ee1f812fffc015e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db27b3460f6949ee1f812fffc015e14">&#9670;&#160;</a></span>preSetupViewSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a> MR::Viewer::preSetupViewSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/C/MRTunnelDetector_8h.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -155,7 +154,6 @@ $(function(){initNavTree('MRTunnelDetector_8h.html',''); initResizable(true); })
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRTunnelDetector_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -165,7 +163,7 @@ Typedefs</h2></td></tr>
 <tr class="separator:af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aeecd4fac2aea90513510421de3f37b" id="r_a6aeecd4fac2aea90513510421de3f37b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a></td></tr>
 <tr class="separator:a6aeecd4fac2aea90513510421de3f37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbb58c6b3a4c5746c9ae773c02b24591" id="r_afbb58c6b3a4c5746c9ae773c02b24591"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a></td></tr>
+<tr class="memitem:afbb58c6b3a4c5746c9ae773c02b24591" id="r_afbb58c6b3a4c5746c9ae773c02b24591"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a></td></tr>
 <tr class="separator:afbb58c6b3a4c5746c9ae773c02b24591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
 <tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,7 +175,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3b79bba0199bbbcb1eb8ac8340e40d90" id="r_a3b79bba0199bbbcb1eb8ac8340e40d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b79bba0199bbbcb1eb8ac8340e40d90">MR_detectBasisTunnels</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> metric_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="memitem:a3b79bba0199bbbcb1eb8ac8340e40d90" id="r_a3b79bba0199bbbcb1eb8ac8340e40d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b79bba0199bbbcb1eb8ac8340e40d90">MR_detectBasisTunnels</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> metric_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
 <tr class="separator:a3b79bba0199bbbcb1eb8ac8340e40d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53cd1269ed4da5bce80239c35b8e1e2" id="r_ad53cd1269ed4da5bce80239c35b8e1e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53cd1269ed4da5bce80239c35b8e1e2">MR_DetectTunnelSettings_Get_maxTunnelLength</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="separator:ad53cd1269ed4da5bce80239c35b8e1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,12 +183,12 @@ Functions</h2></td></tr>
 <tr class="separator:a723bd6eb2335bc7580bdebec8eef4348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5f0b07706a15d0e84a13001d9c82cbb" id="r_aa5f0b07706a15d0e84a13001d9c82cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5f0b07706a15d0e84a13001d9c82cbb">MR_DetectTunnelSettings_GetMutable_maxTunnelLength</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="separator:aa5f0b07706a15d0e84a13001d9c82cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ececeaf584ce274c9dc02a8c262d556" id="r_a0ececeaf584ce274c9dc02a8c262d556"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ececeaf584ce274c9dc02a8c262d556">MR_DetectTunnelSettings_Get_maxIters</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
-<tr class="separator:a0ececeaf584ce274c9dc02a8c262d556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a41c08a62109ef84550d42e4a9e8d4" id="r_a06a41c08a62109ef84550d42e4a9e8d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06a41c08a62109ef84550d42e4a9e8d4">MR_DetectTunnelSettings_Set_maxIters</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a06a41c08a62109ef84550d42e4a9e8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d0e25b30c13ebbd317eb6090d82d833" id="r_a8d0e25b30c13ebbd317eb6090d82d833"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d0e25b30c13ebbd317eb6090d82d833">MR_DetectTunnelSettings_GetMutable_maxIters</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
-<tr class="separator:a8d0e25b30c13ebbd317eb6090d82d833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afffe41a239a31d5a79940ddfaef7fedd" id="r_afffe41a239a31d5a79940ddfaef7fedd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afffe41a239a31d5a79940ddfaef7fedd">MR_DetectTunnelSettings_Get_maxIters</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
+<tr class="separator:afffe41a239a31d5a79940ddfaef7fedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e85a0ae6534fa9e59b5daf21c7ecea" id="r_ad4e85a0ae6534fa9e59b5daf21c7ecea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4e85a0ae6534fa9e59b5daf21c7ecea">MR_DetectTunnelSettings_Set_maxIters</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, int value)</td></tr>
+<tr class="separator:ad4e85a0ae6534fa9e59b5daf21c7ecea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4d82534ba1351d5345de2593a86fa2" id="r_a1b4d82534ba1351d5345de2593a86fa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b4d82534ba1351d5345de2593a86fa2">MR_DetectTunnelSettings_GetMutable_maxIters</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
+<tr class="separator:a1b4d82534ba1351d5345de2593a86fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ca0acbed6521e4cdd14b607cbc64ee" id="r_aa4ca0acbed6521e4cdd14b607cbc64ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ca0acbed6521e4cdd14b607cbc64ee">MR_DetectTunnelSettings_Get_metric</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="separator:aa4ca0acbed6521e4cdd14b607cbc64ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd3fc575adea56c6e315220126442739" id="r_afd3fc575adea56c6e315220126442739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3fc575adea56c6e315220126442739">MR_DetectTunnelSettings_Set_metric</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *value)</td></tr>
@@ -207,8 +205,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab069192d102826e889d232e72941a7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bca0ab7c30515c0f5913937ca4252ce" id="r_a2bca0ab7c30515c0f5913937ca4252ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bca0ab7c30515c0f5913937ca4252ce">MR_DetectTunnelSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a2bca0ab7c30515c0f5913937ca4252ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c8a73b49b27439dcdc435900c2802e5" id="r_a3c8a73b49b27439dcdc435900c2802e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c8a73b49b27439dcdc435900c2802e5">MR_DetectTunnelSettings_ConstructFrom</a> (float maxTunnelLength, int32_t maxIters, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> metric_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
-<tr class="separator:a3c8a73b49b27439dcdc435900c2802e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62cdad3a328c86de5d1d89d17dfdd9a" id="r_ab62cdad3a328c86de5d1d89d17dfdd9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab62cdad3a328c86de5d1d89d17dfdd9a">MR_DetectTunnelSettings_ConstructFrom</a> (float maxTunnelLength, int maxIters, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> metric_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:ab62cdad3a328c86de5d1d89d17dfdd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a96fd4dd1fe998cc1b6ccf15985f25" id="r_a54a96fd4dd1fe998cc1b6ccf15985f25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54a96fd4dd1fe998cc1b6ccf15985f25">MR_DetectTunnelSettings_OffsetPtr</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a54a96fd4dd1fe998cc1b6ccf15985f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a54a96fd4dd1fe998cc1b6ccf15985f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,7 +264,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> <a class="el" href="MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -323,7 +321,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> * MR_detectBasisTunnels </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> * MR_detectBasisTunnels </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -402,8 +400,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c8a73b49b27439dcdc435900c2802e5" name="a3c8a73b49b27439dcdc435900c2802e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c8a73b49b27439dcdc435900c2802e5">&#9670;&#160;</a></span>MR_DetectTunnelSettings_ConstructFrom()</h2>
+<a id="ab62cdad3a328c86de5d1d89d17dfdd9a" name="ab62cdad3a328c86de5d1d89d17dfdd9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab62cdad3a328c86de5d1d89d17dfdd9a">&#9670;&#160;</a></span>MR_DetectTunnelSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -416,7 +414,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxIters</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxIters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -540,14 +538,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ececeaf584ce274c9dc02a8c262d556" name="a0ececeaf584ce274c9dc02a8c262d556"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ececeaf584ce274c9dc02a8c262d556">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Get_maxIters()</h2>
+<a id="afffe41a239a31d5a79940ddfaef7fedd" name="afffe41a239a31d5a79940ddfaef7fedd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afffe41a239a31d5a79940ddfaef7fedd">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Get_maxIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_DetectTunnelSettings_Get_maxIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_DetectTunnelSettings_Get_maxIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -612,14 +610,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d0e25b30c13ebbd317eb6090d82d833" name="a8d0e25b30c13ebbd317eb6090d82d833"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d0e25b30c13ebbd317eb6090d82d833">&#9670;&#160;</a></span>MR_DetectTunnelSettings_GetMutable_maxIters()</h2>
+<a id="a1b4d82534ba1351d5345de2593a86fa2" name="a1b4d82534ba1351d5345de2593a86fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b4d82534ba1351d5345de2593a86fa2">&#9670;&#160;</a></span>MR_DetectTunnelSettings_GetMutable_maxIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_DetectTunnelSettings_GetMutable_maxIters </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_DetectTunnelSettings_GetMutable_maxIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -730,8 +728,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a06a41c08a62109ef84550d42e4a9e8d4" name="a06a41c08a62109ef84550d42e4a9e8d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06a41c08a62109ef84550d42e4a9e8d4">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Set_maxIters()</h2>
+<a id="ad4e85a0ae6534fa9e59b5daf21c7ecea" name="ad4e85a0ae6534fa9e59b5daf21c7ecea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e85a0ae6534fa9e59b5daf21c7ecea">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Set_maxIters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -744,7 +742,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

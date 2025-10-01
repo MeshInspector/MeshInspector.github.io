@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1UnitToStringParams.html" />
-<meta name="robots" content="noindex"/>
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<meta name="robots" content="noindex, nofollow">
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="googlebot" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -170,8 +169,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a3df844b2da042b64d299fefa1b4dd1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f9d2ff9175ae13c5b2fb39d68ec515d" id="r_a0f9d2ff9175ae13c5b2fb39d68ec515d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f9d2ff9175ae13c5b2fb39d68ec515d">precision</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().precision</td></tr>
 <tr class="separator:a0f9d2ff9175ae13c5b2fb39d68ec515d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e286377b13d0f7c4f186abcb0e2ee19" id="r_a9e286377b13d0f7c4f186abcb0e2ee19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e286377b13d0f7c4f186abcb0e2ee19">allowNegativeZero</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().allowNegativeZero</td></tr>
-<tr class="separator:a9e286377b13d0f7c4f186abcb0e2ee19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0658fb5d00066d0553cabc7a7979e8c" id="r_af0658fb5d00066d0553cabc7a7979e8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0658fb5d00066d0553cabc7a7979e8c">plusSign</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().plusSign</td></tr>
+<tr class="separator:af0658fb5d00066d0553cabc7a7979e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecdb60e898b38b2adfcc70f54678543" id="r_a6ecdb60e898b38b2adfcc70f54678543"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa591847657e546eba90e70acf2185c02">ZeroMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ecdb60e898b38b2adfcc70f54678543">zeroMode</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().zeroMode</td></tr>
+<tr class="separator:a6ecdb60e898b38b2adfcc70f54678543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c03b75a184cdc31e4591f61fddedf9" id="r_af5c03b75a184cdc31e4591f61fddedf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c03b75a184cdc31e4591f61fddedf9">unicodeMinusSign</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().unicodeMinusSign</td></tr>
 <tr class="separator:af5c03b75a184cdc31e4591f61fddedf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d8034b7086f9f2abcfdbbcfbc6c8f80" id="r_a8d8034b7086f9f2abcfdbbcfbc6c8f80"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d8034b7086f9f2abcfdbbcfbc6c8f80">thousandsSeparator</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().thousandsSeparator</td></tr>
@@ -223,22 +224,6 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9e286377b13d0f7c4f186abcb0e2ee19" name="a9e286377b13d0f7c4f186abcb0e2ee19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e286377b13d0f7c4f186abcb0e2ee19">&#9670;&#160;</a></span>allowNegativeZero</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;UnitEnum E&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::allowNegativeZero = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().allowNegativeZero</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7154a0976d68f4cf955516bbd1e8c3db" name="a7154a0976d68f4cf955516bbd1e8c3db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7154a0976d68f4cf955516bbd1e8c3db">&#9670;&#160;</a></span>decorationFormatString</h2>
 
@@ -281,6 +266,22 @@ template&lt;UnitEnum E&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::leadingZero = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().leadingZero</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0658fb5d00066d0553cabc7a7979e8c" name="af0658fb5d00066d0553cabc7a7979e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0658fb5d00066d0553cabc7a7979e8c">&#9670;&#160;</a></span>plusSign</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::plusSign = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().plusSign</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -425,6 +426,22 @@ template&lt;UnitEnum E&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::unitSuffix = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().unitSuffix</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ecdb60e898b38b2adfcc70f54678543" name="a6ecdb60e898b38b2adfcc70f54678543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ecdb60e898b38b2adfcc70f54678543">&#9670;&#160;</a></span>zeroMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#aa591847657e546eba90e70acf2185c02">ZeroMode</a> <a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams</a>&lt; E &gt;::zeroMode = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().zeroMode</td>
         </tr>
       </table>
 </div><div class="memdoc">

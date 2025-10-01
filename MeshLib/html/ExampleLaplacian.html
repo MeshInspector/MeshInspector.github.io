@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleLaplacian.html" />
-
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,8 +21,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
   <!-- End Google Tag Manager -->
-<!-- No Index Part -->
- <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -290,13 +289,13 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>* freeVerts = <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#aa28433b2498a8265c106b3305ff785e3">MR_VertBitSet_DefaultConstruct</a>();</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#affa81bd1795974ca207f99540b21c50a">MR_BitSet_resize</a>( <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a2b71744c392cec8c5317363714cf4705">MR_VertBitSet_MutableUpcastTo_MR_BitSet</a>( freeVerts ), <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#adf95aefb6914c31f19b6f505951e7d93">MR_BitSet_size</a>( <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a9bc152c668e0484ce21ff9841b97517e">MR_VertBitSet_UpcastTo_MR_BitSet</a>( verts ) ), NULL );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#abb3c9fc8bc2000cb8f272aa2124224c7">MR_BitSet_set_2</a>( <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a2b71744c392cec8c5317363714cf4705">MR_VertBitSet_MutableUpcastTo_MR_BitSet</a>( freeVerts ), ancV0.<a class="code hl_variableRef" href="./C/structMR__VertId.html#a087b1bc9b8838d0c8d15c660e6ac0544">id_</a>, <span class="keyword">true</span> );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#abb3c9fc8bc2000cb8f272aa2124224c7">MR_BitSet_set_2</a>( <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a2b71744c392cec8c5317363714cf4705">MR_VertBitSet_MutableUpcastTo_MR_BitSet</a>( freeVerts ), ancV1.<a class="code hl_variableRef" href="./C/structMR__VertId.html#a087b1bc9b8838d0c8d15c660e6ac0544">id_</a>, <span class="keyword">true</span> );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#abb3c9fc8bc2000cb8f272aa2124224c7">MR_BitSet_set_2</a>( <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a2b71744c392cec8c5317363714cf4705">MR_VertBitSet_MutableUpcastTo_MR_BitSet</a>( freeVerts ), ancV0.<a class="code hl_variableRef" href="./C/structMR__VertId.html#aa09d1de62013d40fe76ab8402a15a4f7">id_</a>, <span class="keyword">true</span> );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#abb3c9fc8bc2000cb8f272aa2124224c7">MR_BitSet_set_2</a>( <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a2b71744c392cec8c5317363714cf4705">MR_VertBitSet_MutableUpcastTo_MR_BitSet</a>( freeVerts ), ancV1.<a class="code hl_variableRef" href="./C/structMR__VertId.html#aa09d1de62013d40fe76ab8402a15a4f7">id_</a>, <span class="keyword">true</span> );</div>
 <div class="line">    <span class="comment">// Expand the free area</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRExpandShrink_8h.html#aecb0c7d108c3dce09baa05d37f6383c6">MR_expand_MR_VertBitSet</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ), freeVerts, &amp;(int32_t){5} );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRExpandShrink_8h.html#aaa90fe9a5c2e826fa78f413db206bfc1">MR_expand_MR_VertBitSet</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ), freeVerts, &amp;(<span class="keywordtype">int</span>){5} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Initialize laplacian</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRLaplacian_8h.html#a120c044537eb88af38dc10d43924a0b1">MR_Laplacian_init</a>( lDeformer, freeVerts, MR_EdgeWeights_Cotan, &amp;(<a class="code hl_typedefRef" href="./C/MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a>){<a class="code hl_variableRef" href="./C/MREnums_8h.html#aaf105ae5beaca1dee30ae54530691fcea5e5ecf1c40930d2b93f875b093245ac2">MR_VertexMass_NeiArea</a>}, NULL );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRLaplacian_8h.html#a120c044537eb88af38dc10d43924a0b1">MR_Laplacian_init</a>( lDeformer, freeVerts, MR_EdgeWeights_Cotan, &amp;(<a class="code hl_enumerationRef" href="./C/MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a>){<a class="code hl_variableRef" href="./C/MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2">MR_VertexMass_NeiArea</a>}, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./C/structMR__Box3f.html">MR_Box3f</a> bbox = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a>( mesh, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> shiftAmount = <a class="code hl_functionRef" href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a>( &amp;bbox ) * 0.01f;</div>
@@ -340,10 +339,10 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="ttc" id="aMRBox_8h_html_a09b9e77072670aa42a43c6a581960600"><div class="ttname"><a href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a></div><div class="ttdeci">MRC_API float MR_Box3f_diagonal(const MR_Box3f *_this)</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMREnums_8h_html_aaf105ae5beaca1dee30ae54530691fcea5e5ecf1c40930d2b93f875b093245ac2"><div class="ttname"><a href="./C/MREnums_8h.html#aaf105ae5beaca1dee30ae54530691fcea5e5ecf1c40930d2b93f875b093245ac2">MR_VertexMass_NeiArea</a></div><div class="ttdeci">MR_VertexMass_NeiArea</div></div>
-<div class="ttc" id="aMREnums_8h_html_ac02c0b1fd3b3e73361c59b9dc3937abe"><div class="ttname"><a href="./C/MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a></div><div class="ttdeci">int32_t MR_VertexMass</div></div>
+<div class="ttc" id="aMREnums_8h_html_ae6b0258254d005d6b726579dd8ae29b3"><div class="ttname"><a href="./C/MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a></div><div class="ttdeci">MR_VertexMass</div></div>
+<div class="ttc" id="aMREnums_8h_html_ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2"><div class="ttname"><a href="./C/MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2">MR_VertexMass_NeiArea</a></div><div class="ttdeci">MR_VertexMass_NeiArea</div></div>
 <div class="ttc" id="aMRExpandShrink_8h_html"><div class="ttname"><a href="./C/MRExpandShrink_8h.html">MRExpandShrink.h</a></div></div>
-<div class="ttc" id="aMRExpandShrink_8h_html_aecb0c7d108c3dce09baa05d37f6383c6"><div class="ttname"><a href="./C/MRExpandShrink_8h.html#aecb0c7d108c3dce09baa05d37f6383c6">MR_expand_MR_VertBitSet</a></div><div class="ttdeci">MRC_API void MR_expand_MR_VertBitSet(const MR_MeshTopology *topology, MR_VertBitSet *region, const int32_t *hops)</div></div>
+<div class="ttc" id="aMRExpandShrink_8h_html_aaa90fe9a5c2e826fa78f413db206bfc1"><div class="ttname"><a href="./C/MRExpandShrink_8h.html#aaa90fe9a5c2e826fa78f413db206bfc1">MR_expand_MR_VertBitSet</a></div><div class="ttdeci">MRC_API void MR_expand_MR_VertBitSet(const MR_MeshTopology *topology, MR_VertBitSet *region, const int *hops)</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html"><div class="ttname"><a href="./C/MRLaplacian_8h.html">MRLaplacian.h</a></div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_a120c044537eb88af38dc10d43924a0b1"><div class="ttname"><a href="./C/MRLaplacian_8h.html#a120c044537eb88af38dc10d43924a0b1">MR_Laplacian_init</a></div><div class="ttdeci">MRC_API void MR_Laplacian_init(MR_Laplacian *_this, const MR_VertBitSet *freeVerts, MR_EdgeWeights weights, const MR_VertexMass *vmass, const MR_Laplacian_RememberShape *rem)</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_a5a83991ce0ccd72650f7dedbedd89cae"><div class="ttname"><a href="./C/MRLaplacian_8h.html#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a></div><div class="ttdeci">struct MR_Laplacian MR_Laplacian</div></div>
@@ -376,7 +375,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="./C/structMR__Box3f.html">MR_Box3f</a></div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
 <div class="ttc" id="astructMR__VertId_html"><div class="ttname"><a href="./C/structMR__VertId.html">MR_VertId</a></div></div>
-<div class="ttc" id="astructMR__VertId_html_a087b1bc9b8838d0c8d15c660e6ac0544"><div class="ttname"><a href="./C/structMR__VertId.html#a087b1bc9b8838d0c8d15c660e6ac0544">MR_VertId::id_</a></div><div class="ttdeci">int32_t id_</div></div>
+<div class="ttc" id="astructMR__VertId_html_aa09d1de62013d40fe76ab8402a15a4f7"><div class="ttname"><a href="./C/structMR__VertId.html#aa09d1de62013d40fe76ab8402a15a4f7">MR_VertId::id_</a></div><div class="ttdeci">int id_</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

@@ -19,7 +19,7 @@ var group__MatrixGroup =
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", [
       [ "ValueType", "structMR_1_1Matrix2.html#a7c1746ef11222bfb25d596d33f0858df", null ],
       [ "VectorType", "structMR_1_1Matrix2.html#a7cf6cc56bb0bc27163e42206eb175932", null ],
-      [ "Matrix2", "structMR_1_1Matrix2.html#ab0edfda85530e048b830e26c6d5f964e", null ],
+      [ "Matrix2", "structMR_1_1Matrix2.html#a11b0766cdd3a2c4ef934d13fe73ab629", null ],
       [ "Matrix2", "structMR_1_1Matrix2.html#a465743fcd9bcc254f07f16213bfe27b5", null ],
       [ "Matrix2", "structMR_1_1Matrix2.html#a017815a02af27c71fd22fb0aa281ba24", null ],
       [ "col", "structMR_1_1Matrix2.html#a54d2436df3221ca1c8a71f6a6f9c83f6", null ],
@@ -55,7 +55,7 @@ var group__MatrixGroup =
       ] ],
       [ "ValueType", "structMR_1_1Matrix3.html#a09d8a7ceef09453960f965518848f683", null ],
       [ "VectorType", "structMR_1_1Matrix3.html#a4c4bd12ba0e345719f85975e5e76f7cc", null ],
-      [ "Matrix3", "structMR_1_1Matrix3.html#af81c56fb03d0cd84e6449455ea224282", null ],
+      [ "Matrix3", "structMR_1_1Matrix3.html#aa9cc66cd3c144819aaa0db89d58dce01", null ],
       [ "Matrix3", "structMR_1_1Matrix3.html#a3c622d7c59246f5caab7346ed60faaa7", null ],
       [ "Matrix3", "structMR_1_1Matrix3.html#ad02bef84772eb1e055cbfcd4ba2896bf", null ],
       [ "col", "structMR_1_1Matrix3.html#a737e1857a45415abf682a6fd530caf44", null ],
@@ -88,7 +88,7 @@ var group__MatrixGroup =
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", [
       [ "ValueType", "structMR_1_1Matrix4.html#a37b7b5c48f473091b3f1489d1651c4f7", null ],
       [ "VectorType", "structMR_1_1Matrix4.html#a40a1bbeba85718db9ed906be11c92308", null ],
-      [ "Matrix4", "structMR_1_1Matrix4.html#ade24a44c56ddf3dabd01ce465b8db576", null ],
+      [ "Matrix4", "structMR_1_1Matrix4.html#ab8f81a0762c30cf1cc35e58fed5fc882", null ],
       [ "Matrix4", "structMR_1_1Matrix4.html#abd46e2cdc867cd289cbc0ec5733fa827", null ],
       [ "Matrix4", "structMR_1_1Matrix4.html#a9a83e20de940378f00e19b33ac4375d7", null ],
       [ "Matrix4", "structMR_1_1Matrix4.html#aa742a4871b2f7f749de9e6c98cc7e59c", null ],
