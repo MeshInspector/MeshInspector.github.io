@@ -1,5 +1,8 @@
 var NAVTREEINDEX171 =
 {
+"std__vector__std__vector__MR__EdgePoint_8h.html#a9c06c066fa9f179cee46cb3e93311795":[6,2,1,0,0,0,2,411,42],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a9c651a58961062408e3a6b666bc820c6":[6,2,1,0,0,0,2,411,43],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a9eda717f5871eea7d095bcf2f34a7a98":[6,2,1,0,0,0,2,411,1],
 "std__vector__std__vector__MR__EdgePoint_8h.html#a9faeb29a51677a0cb0b657a825bf3929":[6,2,1,0,0,0,2,411,18],
 "std__vector__std__vector__MR__EdgePoint_8h.html#aa40f02249d9b67c9cb138148076021ab":[6,2,1,0,0,0,2,411,55],
 "std__vector__std__vector__MR__EdgePoint_8h.html#aa707ded43584015da2cd6cb1d86ba6eb":[6,2,1,0,0,0,2,411,56],
@@ -246,8 +249,5 @@ var NAVTREEINDEX171 =
 "std__vector__std__vector__MR__OffsetContoursOrigins_8h_source.html":[6,2,1,0,0,0,2,414],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html":[6,2,1,0,0,0,2,415],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a025e67460d0d8a593567177c8cfcda91":[6,2,1,0,0,0,2,415,45],
-"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a02c4ca09ad4529d77bfe02d327886d83":[6,2,1,0,0,0,2,415,59],
-"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a047d590964f8537c01831c304073ed28":[6,2,1,0,0,0,2,415,35],
-"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a0cc15380061e94385a0141b4cc453503":[6,2,1,0,0,0,2,415,29],
-"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a1026cb21659f75221f57d002c23aeb56":[6,2,1,0,0,0,2,415,44]
+"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a02c4ca09ad4529d77bfe02d327886d83":[6,2,1,0,0,0,2,415,59]
 };

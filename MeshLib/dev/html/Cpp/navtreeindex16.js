@@ -150,7 +150,8 @@ var NAVTREEINDEX16 =
 "MRTiffIO_8h_source.html":[6,0,3,0,0,1,4,380],
 "MRTiff_8h.html":[6,0,3,0,0,1,3,11],
 "MRTiff_8h.html#a81b47ff32b023a8954f6ccf9cd62595e":[6,0,3,0,0,1,3,11,0],
-"MRTiff_8h.html#afe29a7fce91016abdf6ec236cbcf3d39":[6,0,3,0,0,1,3,11,1],
+"MRTiff_8h.html#ac986153af46b35d0ef74dd4de1b6e874":[6,0,3,0,0,1,3,11,1],
+"MRTiff_8h.html#afe29a7fce91016abdf6ec236cbcf3d39":[6,0,3,0,0,1,3,11,2],
 "MRTiff_8h_source.html":[6,0,3,0,0,1,3,11],
 "MRTimeRecord_8h.html":[6,0,3,0,0,1,4,382],
 "MRTimeRecord_8h_source.html":[6,0,3,0,0,1,4,382],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "MRTupleBindings_8h.html#a28e92a7fd124a5ea679bd55bac165135":[6,0,3,0,0,1,4,392,16],
 "MRTupleBindings_8h.html#a3c24ab14380574117e31e10f073688fc":[6,0,3,0,0,1,4,392,6],
 "MRTupleBindings_8h.html#a4bc6e978265e037bdca77110eae89d64":[6,0,3,0,0,1,4,392,14],
-"MRTupleBindings_8h.html#a4e767d46dd23fb8b21130cc65ef9eb61":[6,0,3,0,0,1,4,392,12],
-"MRTupleBindings_8h.html#a4f46e33f779ccbcf3bbee75323347837":[6,0,3,0,0,1,4,392,17]
+"MRTupleBindings_8h.html#a4e767d46dd23fb8b21130cc65ef9eb61":[6,0,3,0,0,1,4,392,12]
 };

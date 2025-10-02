@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9":[6,0,1,0,1,42,33],
+"namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882":[6,0,1,0,1,42,44],
 "namespaceMR_1_1UI.html#acc1b0768c46020da319d0cd47c499308":[6,0,1,0,1,42,90],
 "namespaceMR_1_1UI.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[6,0,1,0,1,42,26],
 "namespaceMR_1_1UI.html#ad36410efe7dec5964b4857d7d6978975":[6,0,1,0,1,42,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMRColor.html":[6,0,2,0,9],
 "structMRColor.html#a619f04ba5a882494f1459c0d2e2d3dc8":[6,0,2,0,9,1],
 "structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
-"structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
-"structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
-"structMRCoordinateConverters.html":[6,0,2,0,10]
+"structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0]
 };

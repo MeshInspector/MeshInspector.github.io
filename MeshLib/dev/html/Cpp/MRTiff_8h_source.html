@@ -154,37 +154,51 @@ $(function(){initNavTree('MRTiff_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef MRIOEXTRAS_NO_TIFF</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="MRImage_8h.html">MRMesh/MRImage.h</a>&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>ImageLoad</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e">   19</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Image&gt;</a> <a class="code hl_function" href="namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>} <span class="comment">// namespace ImageLoad</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span>ImageSave</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39">   27</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Image.html">Image</a>&amp; image, <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">// namespace ImageSave</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>} <span class="comment">// namespace MR</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="MRDistanceMapParams_8h.html">MRMesh/MRDistanceMapParams.h</a>&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>ImageLoad</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e">   20</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Image&gt;</a> <a class="code hl_function" href="namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>} <span class="comment">// namespace ImageLoad</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span>ImageSave</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39">   28</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Image.html">Image</a>&amp; image, <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace ImageSave</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespaceMR_1_1DistanceMapSave.html">   32</a></span><span class="keyword">namespace </span>DistanceMapSave</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874">   36</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874">toTiff</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1DistanceMap.html">DistanceMap</a>&amp; dmap, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a>&amp; settings = {} );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace ImageSave</span></div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRDistanceMapParams_8h_html"><div class="ttname"><a href="MRDistanceMapParams_8h.html">MRDistanceMapParams.h</a></div></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRIOExtras_2config_8h_html"><div class="ttname"><a href="MRIOExtras_2config_8h.html">config.h</a></div></div>
-<div class="ttc" id="aMRImage_8h_html"><div class="ttname"><a href="MRImage_8h.html">MRImage.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1DistanceMap_html"><div class="ttname"><a href="classMR_1_1DistanceMap.html">MR::DistanceMap</a></div><div class="ttdef"><b>Definition</b> MRDistanceMap.h:24</div></div>
+<div class="ttc" id="anamespaceMR_1_1DistanceMapSave_html_ac986153af46b35d0ef74dd4de1b6e874"><div class="ttname"><a href="namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874">MR::DistanceMapSave::toTiff</a></div><div class="ttdeci">MRIOEXTRAS_API Expected&lt; void &gt; toTiff(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</div><div class="ttdoc">saves in .tiff format</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImageLoad_html_a81b47ff32b023a8954f6ccf9cd62595e"><div class="ttname"><a href="namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e">MR::ImageLoad::fromTiff</a></div><div class="ttdeci">MRIOEXTRAS_API Expected&lt; Image &gt; fromTiff(const std::filesystem::path &amp;path)</div><div class="ttdoc">loads from .tiff format</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImageSave_html_afe29a7fce91016abdf6ec236cbcf3d39"><div class="ttname"><a href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39">MR::ImageSave::toTiff</a></div><div class="ttdeci">MRIOEXTRAS_API Expected&lt; void &gt; toTiff(const Image &amp;image, const std::filesystem::path &amp;path)</div><div class="ttdoc">saves in .tiff format</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:25</div></div>
+<div class="ttc" id="astructMR_1_1DistanceMapSaveSettings_html"><div class="ttname"><a href="structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></div><div class="ttdoc">determines how to save distance maps</div><div class="ttdef"><b>Definition</b> MRDistanceMapParams.h:198</div></div>
 <div class="ttc" id="astructMR_1_1Image_html"><div class="ttname"><a href="structMR_1_1Image.html">MR::Image</a></div><div class="ttdef"><b>Definition</b> MRImage.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

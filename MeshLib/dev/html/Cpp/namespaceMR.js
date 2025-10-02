@@ -34,7 +34,8 @@ var namespaceMR =
       [ "toMrDistanceMap", "group__DistanceMapSaveGroup.html#ga45ebc8766748a50c7620c3b1364a16df", null ],
       [ "toMrDistanceMap", "group__DistanceMapSaveGroup.html#ga81fe78ad6dc95f8cfeb80fba8665bcff", null ],
       [ "toRAW", "group__DistanceMapSaveGroup.html#gaa3625e43c93ee428ec0fc08bd7b00caf", null ],
-      [ "toRAW", "group__DistanceMapSaveGroup.html#ga0f15a32dee6cb3b525a2038b95956484", null ]
+      [ "toRAW", "group__DistanceMapSaveGroup.html#ga0f15a32dee6cb3b525a2038b95956484", null ],
+      [ "toTiff", "namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874", null ]
     ] ],
     [ "Features", "namespaceMR_1_1Features.html", "namespaceMR_1_1Features" ],
     [ "FileDialog", "namespaceMR_1_1FileDialog.html", "namespaceMR_1_1FileDialog" ],

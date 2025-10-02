@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1MeshPointAndDistance.html#a5063b9b09f75ea011d86233ae29a6ed7":[6,0,1,0,1,396,9],
+"structMR_1_1MeshPointAndDistance.html#a5063b9b09f75ea011d86233ae29a6ed7":[6,0,2,0,1,377,9],
 "structMR_1_1MeshPointAndDistance.html#a656e490b9dc2a583eca217f757e6a1db":[6,0,1,0,1,396,2],
 "structMR_1_1MeshPointAndDistance.html#a656e490b9dc2a583eca217f757e6a1db":[6,0,2,0,1,377,2],
 "structMR_1_1MeshPointAndDistance.html#a85df864c952f06e84cd510cdebc36a74":[6,0,1,0,1,396,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,1,0,1,416,0],
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,2,0,1,397,0],
 "structMR_1_1ModelPointsData.html":[6,0,1,0,1,417],
-"structMR_1_1ModelPointsData.html":[6,0,2,0,1,398],
-"structMR_1_1ModelPointsData.html#a28af87bed47360152c4d30cff182595b":[6,0,1,0,1,417,2],
-"structMR_1_1ModelPointsData.html#a28af87bed47360152c4d30cff182595b":[6,0,2,0,1,398,2]
+"structMR_1_1ModelPointsData.html":[6,0,2,0,1,398]
 };
