@@ -49,7 +49,7 @@ var classMR_1_1Viewer =
     [ "append_viewport", "classMR_1_1Viewer.html#aa748100841bb2d5cddeef5d8bf296f9f", null ],
     [ "appendHistoryAction", "classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5", null ],
     [ "bindSceneTexture", "classMR_1_1Viewer.html#aad7ae2b261b453a9a3f957579f27c381", null ],
-    [ "captureSceneScreenShot", "classMR_1_1Viewer.html#a9d098bef59db9ac38f5e669c50c289d7", null ],
+    [ "captureSceneScreenShot", "classMR_1_1Viewer.html#a53c8681342330959689b2fb706ad8616", null ],
     [ "captureUIScreenShot", "classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85", null ],
     [ "clearFramebuffers", "classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16", null ],
     [ "clearScene", "classMR_1_1Viewer.html#afa95c1310f32717a27bdeaaab2bef0bc", null ],
