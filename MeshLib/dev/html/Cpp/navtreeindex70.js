@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMRRegionId.html":[6,0,2,0,56],
+"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,56,0],
+"structMRRelaxParams.html":[6,0,2,0,57],
+"structMRRelaxParams.html#a544fe366775e3dabfb86a83f7f7c8911":[6,0,2,0,57,3],
 "structMRRelaxParams.html#a971cde2ee06090007854ed72f340262c":[6,0,2,0,57,0],
 "structMRRelaxParams.html#ab7123951867b1faf2ba67e7c60b2950f":[6,0,2,0,57,4],
 "structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,57,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1BMap.html":[6,0,2,0,1,64],
 "structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,1,0,1,83,0],
 "structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,2,0,1,64,0],
-"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,1,0,1,83,1],
-"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,2,0,1,64,1],
-"structMR_1_1Ball.html":[6,0,1,0,1,70],
-"structMR_1_1Ball.html":[6,0,2,0,1,51],
-"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,1,0,1,70,3]
+"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,1,0,1,83,1]
 };

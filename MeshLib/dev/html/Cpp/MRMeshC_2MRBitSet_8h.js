@@ -1,7 +1,7 @@
 var MRMeshC_2MRBitSet_8h =
 [
     [ "mrBitSetAutoResizeSet", "MRMeshC_2MRBitSet_8h.html#a601f9fb0815d2c1a417a4b81860ff403", null ],
-    [ "mrBitSetBlocks", "MRMeshC_2MRBitSet_8h.html#a07d5abf04d031ab3357d2873a182bbd5", null ],
+    [ "mrBitSetBlocks", "MRMeshC_2MRBitSet_8h.html#a106dd4d7b92f269eed550190c9e74ce7", null ],
     [ "mrBitSetBlocksNum", "MRMeshC_2MRBitSet_8h.html#a189723518a8ac8efdf244a47dfe332cf", null ],
     [ "mrBitSetCopy", "MRMeshC_2MRBitSet_8h.html#a81bd73519fd2dbe4f23aeed80ac691e6", null ],
     [ "mrBitSetCount", "MRMeshC_2MRBitSet_8h.html#a1d870f446bfdcfb125cabc3aeca8672c", null ],

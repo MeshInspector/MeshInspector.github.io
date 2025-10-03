@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,2,0,1,481,0,6],
+"structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,1,0,1,500,0,4],
+"structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,2,0,1,481,0,4],
+"structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,1,0,1,500,0,0],
 "structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,2,0,1,481,0,0],
 "structMR_1_1Palette_1_1Label.html":[6,0,1,0,1,500,1],
 "structMR_1_1Palette_1_1Label.html":[6,0,2,0,1,481,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,2,0,1,491,1,4],
 "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,1,0,1,510,2],
 "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,2,0,1,491,2],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,1,0,1,27,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,2,0,1,16,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,1,0,1,27,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,2,0,1,16,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a96cc494dbae32854400a1fc481ea09b4":[6,0,1,0,1,27,0,1]
+"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,1,0,1,27,0]
 };

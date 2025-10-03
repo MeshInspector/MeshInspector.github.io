@@ -3,7 +3,7 @@ var group__BasicGroup =
     [ "Iterators", "group__IteratorRange.html", "group__IteratorRange" ],
     [ "MR::BitSetParallel", "namespaceMR_1_1BitSetParallel.html", null ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
-      [ "base", "classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853", null ],
+      [ "base", "classMR_1_1BitSet.html#a12d808642765fe850b7cfe22a1484dc4", null ],
       [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
       [ "BitSet", "classMR_1_1BitSet.html#ae581135b70066374b248a52f167c4d4c", null ],
       [ "BitSet", "classMR_1_1BitSet.html#a48f325ee7390807d44715db5a07cf666", null ],

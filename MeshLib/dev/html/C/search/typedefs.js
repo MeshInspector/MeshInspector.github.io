@@ -2097,7 +2097,7 @@ var searchData=
   ['holevertids_7',['HoleVertIds',['../../Cpp/namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b',1,'MR::PlanarTriangulation']]],
   ['ball2_0',['Ball2',['../../Cpp/namespaceMR.html#a576c35058503c0c22a7d4e8846efd1b6',1,'MR']]],
   ['ball3_1',['Ball3',['../../Cpp/namespaceMR.html#a724b5c04f6cc0a7eee3c3311fd378ebc',1,'MR']]],
-  ['base_2',['base',['../../Cpp/classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::BitSet::base'],['../../Cpp/structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708',1,'vector_ref_wrapper::base'],['../../Cpp/structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd',1,'vector_wrapper::base']]],
+  ['base_2',['base',['../../Cpp/classMR_1_1BitSet.html#a12d808642765fe850b7cfe22a1484dc4',1,'MR::BitSet::base'],['../../Cpp/structvector__ref__wrapper.html#a0d49b11f9dcf316472cad002c92f3708',1,'vector_ref_wrapper::base'],['../../Cpp/structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd',1,'vector_wrapper::base']]],
   ['baseaction2f_3',['BaseAction2f',['../../Cpp/classMR_1_1GcodeProcessor.html#a02000ae4305a16e7aca1e6e09bb7e25a',1,'MR::GcodeProcessor']]],
   ['baseaction3f_4',['BaseAction3f',['../../Cpp/classMR_1_1GcodeProcessor.html#a88ffeb0a2dcab67b585df870268d537d',1,'MR::GcodeProcessor']]],
   ['basefitparams_5',['BaseFitParams',['../../Cpp/classMR_1_1Viewport.html#a14d9ce8dba0a41d18ce159115c94cef4',1,'MR::Viewport']]],

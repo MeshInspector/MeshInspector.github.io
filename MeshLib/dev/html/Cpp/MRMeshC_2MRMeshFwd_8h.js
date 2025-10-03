@@ -3,6 +3,8 @@ var MRMeshC_2MRMeshFwd_8h =
     [ "MR_EXTERN_C_BEGIN", "MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e", null ],
     [ "MR_EXTERN_C_END", "MRMeshC_2MRMeshFwd_8h.html#a4c0dd57de0c70036b4a1e14f71d2fe11", null ],
     [ "MRMESHC_API", "MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6", null ],
+    [ "MRSTD", "MRMeshC_2MRMeshFwd_8h.html#ad5a9158bf15444eac3478cbfb1c8a150", null ],
+    [ "Int64", "MRMeshC_2MRMeshFwd_8h.html#a021dcc282cdf984c9fab317f704b0cf2", null ],
     [ "MRAffineXf3f", "MRMeshC_2MRMeshFwd_8h.html#af1665fc204f46ceb2585f1ed9453edee", null ],
     [ "MRBitSet", "MRMeshC_2MRMeshFwd_8h.html#ad2c8567a61ac1e952ded2abbb02ff204", null ],
     [ "MRBox3f", "MRMeshC_2MRMeshFwd_8h.html#a1efab8f165542a85e22ea5e2d0aa18b2", null ],
@@ -20,5 +22,6 @@ var MRMeshC_2MRMeshFwd_8h =
     [ "MRUndirectedEdgeBitSet", "MRMeshC_2MRMeshFwd_8h.html#a548f82a7483e7be9fc0e69623051cef9", null ],
     [ "MRVector3f", "MRMeshC_2MRMeshFwd_8h.html#a469f0a5727d73054f9f7acba1c1193a7", null ],
     [ "MRVertBitSet", "MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44", null ],
-    [ "MRVoxelBitSet", "MRMeshC_2MRMeshFwd_8h.html#af7dcb20cfb7d62569e4fa66321b6c35a", null ]
+    [ "MRVoxelBitSet", "MRMeshC_2MRMeshFwd_8h.html#af7dcb20cfb7d62569e4fa66321b6c35a", null ],
+    [ "Uint64", "MRMeshC_2MRMeshFwd_8h.html#afd806d2557ef05814ef07f473a9a0822", null ]
 ];
