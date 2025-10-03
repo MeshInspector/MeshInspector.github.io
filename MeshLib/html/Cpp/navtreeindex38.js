@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PickPointManager.html#a517842afda1f1c9d0c1487829fb09fb4":[6,0,1,0,1,510,8],
 "classMR_1_1PickPointManager.html#a517842afda1f1c9d0c1487829fb09fb4":[6,0,2,0,1,491,8],
 "classMR_1_1PickPointManager.html#a5293eb3d7c9e32d1534443a4eaadd070":[6,0,1,0,1,510,16],
 "classMR_1_1PickPointManager.html#a5293eb3d7c9e32d1534443a4eaadd070":[6,0,2,0,1,491,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1PointMeasurementObject.html#afddca9da80584a50508e93a5d4fbd422":[6,0,2,0,1,510,19],
 "classMR_1_1PointObject.html":[6,0,0,11,0,5],
 "classMR_1_1PointObject.html#a06050ab20411667b9ec0718bd29b8047":[6,0,0,11,0,5,12],
-"classMR_1_1PointObject.html#a11959f6deff417510fd5847ba06dd31c":[6,0,0,11,0,5,8],
-"classMR_1_1PointObject.html#a1d89ac4b9c8ad61fa8d494401aab8214":[6,0,0,11,0,5,4]
+"classMR_1_1PointObject.html#a11959f6deff417510fd5847ba06dd31c":[6,0,0,11,0,5,8]
 };

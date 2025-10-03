@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1VertBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1VertBitSet.html#ac5300e210459d3297c77078cc8012cde", null ],
+    [ "__init__", "classmrmeshpy_1_1VertBitSet.html#aa2062635f3696b9ca2ba2f59143b6c09", null ],
     [ "__init__", "classmrmeshpy_1_1VertBitSet.html#af172f98cfb4268b17f7799d37e02be4a", null ],
     [ "__init__", "classmrmeshpy_1_1VertBitSet.html#af172f98cfb4268b17f7799d37e02be4a", null ],
     [ "__init__", "classmrmeshpy_1_1VertBitSet.html#a09325d1f8440d6a37d104ec90e76417f", null ],

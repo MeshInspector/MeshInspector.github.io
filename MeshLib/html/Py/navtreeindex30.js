@@ -1,5 +1,11 @@
 var NAVTREEINDEX30 =
 {
+"classmrmeshpy_1_1Features_1_1SubfeatureInfo.html#a779d40fa73dcfc1ec6d91bea53107bae":[6,1,0,0,2,253,2,6],
+"classmrmeshpy_1_1Features_1_1SubfeatureInfo.html#a779d40fa73dcfc1ec6d91bea53107bae":[6,1,1,0,1,253,2,6],
+"classmrmeshpy_1_1Features_1_1SubfeatureInfo.html#a90d4376a9f4cca6085f311a3443d9e2b":[6,1,0,0,2,253,2,8],
+"classmrmeshpy_1_1Features_1_1SubfeatureInfo.html#a90d4376a9f4cca6085f311a3443d9e2b":[6,1,1,0,1,253,2,8],
+"classmrmeshpy_1_1Features_1_1SubfeatureInfo.html#ad210547310105693c51729360a514a8b":[6,1,0,0,2,253,2,5],
+"classmrmeshpy_1_1Features_1_1SubfeatureInfo.html#ad210547310105693c51729360a514a8b":[6,1,1,0,1,253,2,5],
 "classmrmeshpy_1_1Features_1_1Traits.html":[6,1,0,0,2,253,3],
 "classmrmeshpy_1_1Features_1_1Traits.html":[6,1,1,0,1,253,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html":[6,1,0,0,2,253,3,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX30 =
 "classmrmeshpy_1_1FillHoleParams.html#a56a753028bb12d4a5fe4594e1506d1cb":[6,1,0,0,2,260,12],
 "classmrmeshpy_1_1FillHoleParams.html#a56a753028bb12d4a5fe4594e1506d1cb":[6,1,1,0,1,260,12],
 "classmrmeshpy_1_1FillHoleParams.html#a5b958606e3b0a79096f8e31eee880280":[6,1,0,0,2,260,9],
-"classmrmeshpy_1_1FillHoleParams.html#a5b958606e3b0a79096f8e31eee880280":[6,1,1,0,1,260,9],
-"classmrmeshpy_1_1FillHoleParams.html#a6c500d9b33dbffdbf9c3fb1836d6c8b7":[6,1,0,0,2,260,7],
-"classmrmeshpy_1_1FillHoleParams.html#a6c500d9b33dbffdbf9c3fb1836d6c8b7":[6,1,1,0,1,260,7],
-"classmrmeshpy_1_1FillHoleParams.html#a6d100544ab02d1306844a3bc88aa502f":[6,1,0,0,2,260,1],
-"classmrmeshpy_1_1FillHoleParams.html#a6d100544ab02d1306844a3bc88aa502f":[6,1,1,0,1,260,1],
-"classmrmeshpy_1_1FillHoleParams.html#a6ea60fb20536d5583c2926e150e9969b":[6,1,0,0,2,260,2],
-"classmrmeshpy_1_1FillHoleParams.html#a6ea60fb20536d5583c2926e150e9969b":[6,1,1,0,1,260,2]
+"classmrmeshpy_1_1FillHoleParams.html#a5b958606e3b0a79096f8e31eee880280":[6,1,1,0,1,260,9]
 };

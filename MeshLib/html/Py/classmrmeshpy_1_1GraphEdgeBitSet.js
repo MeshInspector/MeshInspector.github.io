@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1GraphEdgeBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a2852d4b89450251baafdaa456319bdb7", null ],
+    [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a39d0f2189863695d692f0c95cdaa5eb7", null ],
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a7e9409c1a67cb7aaa68feea527942b31", null ],
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a7e9409c1a67cb7aaa68feea527942b31", null ],
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#ad6107e9e27855d31e1cf542e149118f4", null ],

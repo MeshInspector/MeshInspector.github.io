@@ -153,8 +153,9 @@ $(function(){initNavTree('MRTiff_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRIOExtras_2config_8h_source.html">config.h</a>&quot;</code><br />
 <code>#include &quot;exports.h&quot;</code><br />
+<code>#include &lt;<a class="el" href="MRDistanceMapParams_8h_source.html">MRMesh/MRDistanceMapParams.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="MRImage_8h_source.html">MRMesh/MRImage.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 </div>
 <p><a href="MRTiff_8h_source.html">Go to the source code of this file.</a></p>
@@ -167,6 +168,8 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageSave.html">MR::ImageSave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapSave.html">MR::DistanceMapSave</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -176,6 +179,9 @@ Functions</h2></td></tr>
 <tr class="memitem:afe29a7fce91016abdf6ec236cbcf3d39" id="r_afe29a7fce91016abdf6ec236cbcf3d39"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39">MR::ImageSave::toTiff</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:afe29a7fce91016abdf6ec236cbcf3d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
 <tr class="separator:afe29a7fce91016abdf6ec236cbcf3d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac986153af46b35d0ef74dd4de1b6e874" id="r_ac986153af46b35d0ef74dd4de1b6e874"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874">MR::DistanceMapSave::toTiff</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;dmap, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ac986153af46b35d0ef74dd4de1b6e874"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
+<tr class="separator:ac986153af46b35d0ef74dd4de1b6e874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
