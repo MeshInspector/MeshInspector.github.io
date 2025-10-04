@@ -1,13 +1,12 @@
 var classmrmeshpy_1_1FaceBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a6f5f1fa4bdad810423d1a95586f40a65", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a66ec6c79f785c26ee877d19a77c1c124", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad76b8ae914f41226edf49c1be769371c", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad588e9f51d281a05ce61e8c3e3e9f5d9", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad588e9f51d281a05ce61e8c3e3e9f5d9", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a63b2afcce37aeab792d47351386d6e41", null ],
     [ "__and__", "classmrmeshpy_1_1FaceBitSet.html#a9185d70e452093505fdaea723f0f14a2", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceBitSet.html#a9cb1e47c66d2a21cc3730d24bd6f2386", null ],
-    [ "__getitem__", "classmrmeshpy_1_1FaceBitSet.html#a0859b9b94ac989c2b0ee64f909717d93", null ],
     [ "__iand__", "classmrmeshpy_1_1FaceBitSet.html#a2e3b6de4e0ed5b37ccbf0b8f934fa5c8", null ],
     [ "__ior__", "classmrmeshpy_1_1FaceBitSet.html#a96ae721cf5201e69bbdd9f2c8a2ed6d7", null ],
     [ "__isub__", "classmrmeshpy_1_1FaceBitSet.html#aa989812bb586a4d97db66a5d6a4b3bd7", null ],

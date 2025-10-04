@@ -2801,6 +2801,7 @@ var mrmeshpy_8pyi =
     [ "std_vector_AABBTreePoints_Node_reference", "mrmeshpy_8pyi.html#ab5a63a3f9e3d300c85e17b1ede46ead6", null ],
     [ "std_vector_AABBTreePoints_Node_value_type", "mrmeshpy_8pyi.html#a398af658c47784b65c091cfebac2a1a1", null ],
     [ "std_vector_AffineXf3f", "mrmeshpy_8pyi.html#a61e1753bf67c96323353be6cf847c26a", null ],
+    [ "std_vector_BitSet_block_type", "mrmeshpy_8pyi.html#a8d5c3ed15beaa2ce37864efcd9eff17a", null ],
     [ "std_vector_Color_const_reference", "mrmeshpy_8pyi.html#a2bb86f0e54c9e71f633f28978c7c3581", null ],
     [ "std_vector_Color_reference", "mrmeshpy_8pyi.html#a113ad4c057f63477f35bbcda637fed4f", null ],
     [ "std_vector_Color_value_type", "mrmeshpy_8pyi.html#a2cb4bc787ebc6a2f0b8dc14d4915025e", null ],

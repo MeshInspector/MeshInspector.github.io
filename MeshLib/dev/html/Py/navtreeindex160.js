@@ -1,5 +1,11 @@
 var NAVTREEINDEX160 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a36b8603a4a218f133fd7ea63af72f441":[6,1,0,0,2,960,28],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a36b8603a4a218f133fd7ea63af72f441":[6,1,1,0,1,960,28],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a3cc14f8f9520fc41d2fbcb08d48db1f8":[6,1,0,0,2,960,23],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a3cc14f8f9520fc41d2fbcb08d48db1f8":[6,1,1,0,1,960,23],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a41e4ce75513d31b9f4cb894839c4359c":[6,1,0,0,2,960,17],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a41e4ce75513d31b9f4cb894839c4359c":[6,1,1,0,1,960,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a4529cda3997ad8f17fe27d35bc8e30b7":[6,1,0,0,2,960,18],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a4529cda3997ad8f17fe27d35bc8e30b7":[6,1,1,0,1,960,18],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#a49acafa704c4c0fee61cf1b473488ea4":[6,1,0,0,2,960,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX160 =
 "classmrmeshpy_1_1std__vector__std__string.html#a30c94ff395c0548a3555a3167932b245":[6,1,0,0,2,963,1],
 "classmrmeshpy_1_1std__vector__std__string.html#a30c94ff395c0548a3555a3167932b245":[6,1,1,0,1,963,1],
 "classmrmeshpy_1_1std__vector__std__string.html#a35f49c8902a3d403982f60a89ad21761":[6,1,0,0,2,963,16],
-"classmrmeshpy_1_1std__vector__std__string.html#a35f49c8902a3d403982f60a89ad21761":[6,1,1,0,1,963,16],
-"classmrmeshpy_1_1std__vector__std__string.html#a382bd14fb2518eca0272a59c533e3568":[6,1,0,0,2,963,27],
-"classmrmeshpy_1_1std__vector__std__string.html#a382bd14fb2518eca0272a59c533e3568":[6,1,1,0,1,963,27],
-"classmrmeshpy_1_1std__vector__std__string.html#a3ee99773b8fac7d6605ede95697f042b":[6,1,0,0,2,963,19],
-"classmrmeshpy_1_1std__vector__std__string.html#a3ee99773b8fac7d6605ede95697f042b":[6,1,1,0,1,963,19],
-"classmrmeshpy_1_1std__vector__std__string.html#a41c25d5be824bf250632bc74ece52950":[6,1,0,0,2,963,22],
-"classmrmeshpy_1_1std__vector__std__string.html#a41c25d5be824bf250632bc74ece52950":[6,1,1,0,1,963,22]
+"classmrmeshpy_1_1std__vector__std__string.html#a35f49c8902a3d403982f60a89ad21761":[6,1,1,0,1,963,16]
 };

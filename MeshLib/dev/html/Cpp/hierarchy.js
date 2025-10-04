@@ -157,6 +157,9 @@ var hierarchy =
     [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::Features::Traits::Binary< Primitives::Sphere, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
+    [ "MR::BitSet", "classMR_1_1BitSet.html", [
+      [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
+    ] ],
     [ "MR::SeparationPointStorage::Block", "structMR_1_1SeparationPointStorage_1_1Block.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< FaceId, size_t >", "structMR_1_1BMap.html", null ],
@@ -345,11 +348,6 @@ var hierarchy =
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text::DrawResult", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html", null ],
-    [ "boost::dynamic_bitset", null, [
-      [ "MR::BitSet", "classMR_1_1BitSet.html", [
-        [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
-      ] ]
-    ] ],
     [ "MR::PointsLoad::E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", null ],
     [ "MR::EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],

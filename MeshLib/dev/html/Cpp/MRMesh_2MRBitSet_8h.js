@@ -1,6 +1,5 @@
 var MRMesh_2MRBitSet_8h =
 [
-    [ "BOOST_DYNAMIC_BITSET_DONT_USE_FRIENDS", "MRMesh_2MRBitSet_8h.html#ab38c1f4b0a6095561c5efffdb9486c15", null ],
     [ "begin", "MRMesh_2MRBitSet_8h.html#ga130a7b2de56f57ba4b13111c6e3a31ef", null ],
     [ "begin", "MRMesh_2MRBitSet_8h.html#gaa18932ce3c14764452a025ca4b3433d1", null ],
     [ "contains", "MRMesh_2MRBitSet_8h.html#ga57dc941dcc422cae832eb4e285f9258b", null ],

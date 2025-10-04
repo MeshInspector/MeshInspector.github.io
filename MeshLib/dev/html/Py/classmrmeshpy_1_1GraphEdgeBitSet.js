@@ -1,12 +1,11 @@
 var classmrmeshpy_1_1GraphEdgeBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a2852d4b89450251baafdaa456319bdb7", null ],
-    [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a39d0f2189863695d692f0c95cdaa5eb7", null ],
+    [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a2fcc5e8454987544e5af713aac008bdc", null ],
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a7e9409c1a67cb7aaa68feea527942b31", null ],
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a7e9409c1a67cb7aaa68feea527942b31", null ],
     [ "__init__", "classmrmeshpy_1_1GraphEdgeBitSet.html#ad6107e9e27855d31e1cf542e149118f4", null ],
     [ "__and__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a9e3039c123c28da4a58c4735a6deae81", null ],
-    [ "__getitem__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a488a1dc43f91716ad8ccbffe135a22cf", null ],
     [ "__iand__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a4d14181af650fb07af6e56bb5a0763ec", null ],
     [ "__ior__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a7fbbef9415507a11f61e4faff66ec75c", null ],
     [ "__isub__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a44ff67aa07ca09e1f5fa4eec3ccacfd0", null ],

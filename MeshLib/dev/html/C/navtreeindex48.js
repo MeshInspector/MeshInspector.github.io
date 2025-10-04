@@ -1,5 +1,11 @@
 var NAVTREEINDEX48 =
 {
+"MRMeshDecimate_8h.html#a460545849932cfb9d5b3a737ba232586":[6,2,1,0,0,0,1,163,23],
+"MRMeshDecimate_8h.html#a4640e06fcf8f717ffe30ed9b55cd7ca7":[6,2,1,0,0,0,1,163,118],
+"MRMeshDecimate_8h.html#a464a318a9744b02d8b5f147541b660d8":[6,2,1,0,0,0,1,163,144],
+"MRMeshDecimate_8h.html#a47e16a113b672745adb35b7760f4ad1d":[6,2,1,0,0,0,1,163,98],
+"MRMeshDecimate_8h.html#a492c83cd64230f0b57b457e161476307":[6,2,1,0,0,0,1,163,140],
+"MRMeshDecimate_8h.html#a4a201591764c3f6a99cdc1e8e73f1bb7":[6,2,1,0,0,0,1,163,221],
 "MRMeshDecimate_8h.html#a4a87d7cef852fb971883f945b1e21313":[6,2,1,0,0,0,1,163,64],
 "MRMeshDecimate_8h.html#a4d09c1fedfc51a805ef7ca440f69964f":[6,2,1,0,0,0,1,163,127],
 "MRMeshDecimate_8h.html#a4dc6be73767d7ac8f4650391559d2b64":[6,2,1,0,0,0,1,163,21],
@@ -243,11 +249,5 @@ var NAVTREEINDEX48 =
 "MRMeshDelone_8h.html#ace6519aee91ccff2891b2668e29ebbb1":[6,2,1,0,0,0,1,166,68],
 "MRMeshDelone_8h.html#ad001a87b87df55c0c51f0e0db48385c9":[6,2,1,0,0,0,1,166,60],
 "MRMeshDelone_8h.html#ad1c29dabf0325c9525755fd4fc730e3f":[6,2,1,0,0,0,1,166,66],
-"MRMeshDelone_8h.html#ad396cf7d4433c5ba7924776f5b379c9b":[6,2,1,0,0,0,1,166,6],
-"MRMeshDelone_8h.html#ad520441b803946ec3ec4eba0d4e456e3":[6,2,1,0,0,0,1,166,49],
-"MRMeshDelone_8h.html#adb03ce28cacfff1e499d75d512dc4a84":[6,2,1,0,0,0,1,166,7],
-"MRMeshDelone_8h.html#ade829c2465f76d4257a846227f0b5150":[6,2,1,0,0,0,1,166,45],
-"MRMeshDelone_8h.html#ae127a56234f1d5ace79ed89e1edc1213":[6,2,1,0,0,0,1,166,28],
-"MRMeshDelone_8h.html#ae81682aadf8efb9f4682ead4feeea3c5":[6,2,1,0,0,0,1,166,17],
-"MRMeshDelone_8h.html#ae9a3775cc08b8778c301be0e67730fbf":[6,2,1,0,0,0,1,166,46]
+"MRMeshDelone_8h.html#ad396cf7d4433c5ba7924776f5b379c9b":[6,2,1,0,0,0,1,166,6]
 };

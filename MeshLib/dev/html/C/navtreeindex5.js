@@ -249,5 +249,5 @@ var NAVTREEINDEX5 =
 "MRBezier_8h.html#aff7835188e7ba3c96a545e08e794ee07":[6,2,1,0,0,0,1,23,16],
 "MRBezier_8h_source.html":[6,2,1,0,0,0,1,23],
 "MRBitSet_8h.html":[6,2,1,0,0,0,1,24],
-"MRBitSet_8h.html#a0045e7de7f11580c94a906ec6e3538d6":[6,2,1,0,0,0,1,24,703]
+"MRBitSet_8h.html#a0045e7de7f11580c94a906ec6e3538d6":[6,2,1,0,0,0,1,24,711]
 };

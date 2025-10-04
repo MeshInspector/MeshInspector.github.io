@@ -1,6 +1,7 @@
 var MRStreamOperators_8h =
 [
     [ "operator<<", "MRStreamOperators_8h.html#a0a110add4a6efe36751e5740ee319f5e", null ],
+    [ "operator<<", "MRStreamOperators_8h.html#a11db6bd14a41fc72308d28a499089605", null ],
     [ "operator<<", "MRStreamOperators_8h.html#a75c4cd557e6751200281302e77c0d2a7", null ],
     [ "operator<<", "MRStreamOperators_8h.html#aa6c4fc5ecafa6360793420eff8ab251e", null ],
     [ "operator<<", "MRStreamOperators_8h.html#a1d7209284c9f49c1157db1d71e897eed", null ],
@@ -12,6 +13,7 @@ var MRStreamOperators_8h =
     [ "operator<<", "MRStreamOperators_8h.html#af6a847a4f04242c0d7469f73addb43a6", null ],
     [ "operator<<", "MRStreamOperators_8h.html#ae2c8727771324b76b5d4a25e02044a8f", null ],
     [ "operator>>", "MRStreamOperators_8h.html#aa1a7ff4f86d2841df275769894050a2c", null ],
+    [ "operator>>", "MRStreamOperators_8h.html#ab1af4061d52e47a22c37d0743de043d0", null ],
     [ "operator>>", "MRStreamOperators_8h.html#a316cb7e7134f8eb88680011380af2871", null ],
     [ "operator>>", "MRStreamOperators_8h.html#a5032191cec4caa244ffb6d2589686690", null ],
     [ "operator>>", "MRStreamOperators_8h.html#aa0227e47e412362a44ebd52aa8e7b839", null ],

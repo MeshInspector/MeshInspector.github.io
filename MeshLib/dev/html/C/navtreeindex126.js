@@ -1,5 +1,14 @@
 var NAVTREEINDEX126 =
 {
+"std__optional__MR__AllLocalTriangulations_8h.html#ad11fe80af37aaf1cd4ef49b822c5ceaf":[6,2,1,0,0,0,2,184,12],
+"std__optional__MR__AllLocalTriangulations_8h.html#af25118fdddd16671c9108d79597a08d6":[6,2,1,0,0,0,2,184,9],
+"std__optional__MR__AllLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801":[6,2,1,0,0,0,2,184,0],
+"std__optional__MR__AllLocalTriangulations_8h_source.html":[6,2,1,0,0,0,2,184],
+"std__optional__MR__Box1f_8h.html":[6,2,1,0,0,0,2,185],
+"std__optional__MR__Box1f_8h.html#a055b57f1ee62be2306e418786a7756d0":[6,2,1,0,0,0,2,185,0],
+"std__optional__MR__Box1f_8h.html#a1060651c536e9285705145ae84d0d96f":[6,2,1,0,0,0,2,185,9],
+"std__optional__MR__Box1f_8h.html#a397480e8cc58544a6e03fa20683fa0bc":[6,2,1,0,0,0,2,185,7],
+"std__optional__MR__Box1f_8h.html#a6d88243d338df390e0d17a82364fd182":[6,2,1,0,0,0,2,185,10],
 "std__optional__MR__Box1f_8h.html#a92480f7e17b36d9aaa135b5106eb081b":[6,2,1,0,0,0,2,185,4],
 "std__optional__MR__Box1f_8h.html#aa4fd6e4dd7740e4e59668b3d90a9987c":[6,2,1,0,0,0,2,185,1],
 "std__optional__MR__Box1f_8h.html#aa63dff2e9e708bd29703919a9d16aff1":[6,2,1,0,0,0,2,185,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX126 =
 "std__optional__MR__PolylineIntersectionResult2_8h.html#aab8ca47902d7c4c1ac19071c75ac56d3":[6,2,1,0,0,0,2,200,6],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#ab703fb0e787f91fc7194e3fe95e9c09a":[6,2,1,0,0,0,2,200,1],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#ad3264ceeed199d92fdebc3fa148a4cc7":[6,2,1,0,0,0,2,200,3],
-"std__optional__MR__PolylineIntersectionResult2_8h_source.html":[6,2,1,0,0,0,2,200],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html":[6,2,1,0,0,0,2,201],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616":[6,2,1,0,0,0,2,201,6],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a31751180fa24dc5f4eacbc3737c93080":[6,2,1,0,0,0,2,201,2],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a320207ac83c80a29f7b964a5dddec623":[6,2,1,0,0,0,2,201,4],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b":[6,2,1,0,0,0,2,201,1],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a38aa9985aaa2d8d1ef8a41ac7f1a0c5c":[6,2,1,0,0,0,2,201,9],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a587f74a537f9107fff82672c9eafaae8":[6,2,1,0,0,0,2,201,13],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a67fa7c1b3e61740e5a9e8a8bed955263":[6,2,1,0,0,0,2,201,10],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a73972e9a3971bd937b3cc45bc8c5ca59":[6,2,1,0,0,0,2,201,0]
+"std__optional__MR__PolylineIntersectionResult2_8h_source.html":[6,2,1,0,0,0,2,200]
 };

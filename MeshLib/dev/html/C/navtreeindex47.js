@@ -1,5 +1,11 @@
 var NAVTREEINDEX47 =
 {
+"MRMeshCollidePrecise_8h.html#a2e9f4abbb4639f291a6d9739642c293a":[6,2,1,0,0,0,1,161,25],
+"MRMeshCollidePrecise_8h.html#a2eabd8576069f651caf6674814c759bd":[6,2,1,0,0,0,1,161,49],
+"MRMeshCollidePrecise_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,161,3],
+"MRMeshCollidePrecise_8h.html#a3d502e2ab46b5aa656a771e8cbbb3ab9":[6,2,1,0,0,0,1,161,7],
+"MRMeshCollidePrecise_8h.html#a4845400311293971143928f44d26cdd3":[6,2,1,0,0,0,1,161,53],
+"MRMeshCollidePrecise_8h.html#a48ec41f8e9cbac9803ac150e613ce3c5":[6,2,1,0,0,0,1,161,54],
 "MRMeshCollidePrecise_8h.html#a4c8f7a0f7bd70b01012ba7032bd92c72":[6,2,1,0,0,0,1,161,38],
 "MRMeshCollidePrecise_8h.html#a5140764115898eadc1621865db5361e9":[6,2,1,0,0,0,1,161,32],
 "MRMeshCollidePrecise_8h.html#a53c35c2d14e148f8684f27429d802d35":[6,2,1,0,0,0,1,161,22],
@@ -243,11 +249,5 @@ var NAVTREEINDEX47 =
 "MRMeshDecimate_8h.html#a419b0f273fd294463b0030fbf9abd418":[6,2,1,0,0,0,1,163,101],
 "MRMeshDecimate_8h.html#a432a97bec2ccc7a215b290b60352da72":[6,2,1,0,0,0,1,163,63],
 "MRMeshDecimate_8h.html#a456e97e0a456ca329ac359a5fe38467a":[6,2,1,0,0,0,1,163,106],
-"MRMeshDecimate_8h.html#a456f3b777ea8bd0916c365157dc866d4":[6,2,1,0,0,0,1,163,184],
-"MRMeshDecimate_8h.html#a460545849932cfb9d5b3a737ba232586":[6,2,1,0,0,0,1,163,23],
-"MRMeshDecimate_8h.html#a4640e06fcf8f717ffe30ed9b55cd7ca7":[6,2,1,0,0,0,1,163,118],
-"MRMeshDecimate_8h.html#a464a318a9744b02d8b5f147541b660d8":[6,2,1,0,0,0,1,163,144],
-"MRMeshDecimate_8h.html#a47e16a113b672745adb35b7760f4ad1d":[6,2,1,0,0,0,1,163,98],
-"MRMeshDecimate_8h.html#a492c83cd64230f0b57b457e161476307":[6,2,1,0,0,0,1,163,140],
-"MRMeshDecimate_8h.html#a4a201591764c3f6a99cdc1e8e73f1bb7":[6,2,1,0,0,0,1,163,221]
+"MRMeshDecimate_8h.html#a456f3b777ea8bd0916c365157dc866d4":[6,2,1,0,0,0,1,163,184]
 };
