@@ -2,6 +2,7 @@ var namespaceMR_1_1FillingSurface =
 [
     [ "CellularSurface", "namespaceMR_1_1FillingSurface_1_1CellularSurface.html", "namespaceMR_1_1FillingSurface_1_1CellularSurface" ],
     [ "TPMS", "namespaceMR_1_1FillingSurface_1_1TPMS.html", "namespaceMR_1_1FillingSurface_1_1TPMS" ],
+    [ "ParamsFacade", "structMR_1_1FillingSurface_1_1ParamsFacade.html", "structMR_1_1FillingSurface_1_1ParamsFacade" ],
     [ "ConstMeshParamsRef", "namespaceMR_1_1FillingSurface.html#a2b60c026ebb4f4454921f21246c78f79", null ],
     [ "MeshParamsRef", "namespaceMR_1_1FillingSurface.html#ad93875bd1b990822d6daf1713b791372", null ],
     [ "Kind", "namespaceMR_1_1FillingSurface.html#a3ff060a54d2569204983c0341bc857d8", [
@@ -10,5 +11,7 @@ var namespaceMR_1_1FillingSurface =
     ] ],
     [ "build", "namespaceMR_1_1FillingSurface.html#ad9b3bec5316cc054606a4c30507e3ef3", null ],
     [ "fill", "namespaceMR_1_1FillingSurface.html#af2b39059e0f7cac8eac6c663fd6877ac", null ],
-    [ "getKindNames", "namespaceMR_1_1FillingSurface.html#aa858fcdc98b95de42d3f321db70b12b6", null ]
+    [ "getKindNames", "namespaceMR_1_1FillingSurface.html#aa858fcdc98b95de42d3f321db70b12b6", null ],
+    [ "ParamsFacade", "namespaceMR_1_1FillingSurface.html#a2e3d71dbe38121cbb33973133493cc07", null ],
+    [ "ParamsFacade", "namespaceMR_1_1FillingSurface.html#a2c35a3e3b5054de106dda7c8e3e54669", null ]
 ];

@@ -1,5 +1,16 @@
 var NAVTREEINDEX39 =
 {
+"MRJpeg_8h.html#a4b3fdef77440565efc1c3cf3be1904f6":[6,2,1,0,0,0,0,5,0],
+"MRJpeg_8h.html#a51655f0ee8f48f5c71e5e186b51e7a69":[6,2,1,0,0,0,0,5,5],
+"MRJpeg_8h.html#a5d526436c6c5192c523b0ee6f777ee1f":[6,2,1,0,0,0,0,5,7],
+"MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0":[6,2,1,0,0,0,0,5,2],
+"MRJpeg_8h.html#abafa8df68de7615a9755bfd17842c05d":[6,2,1,0,0,0,0,5,4],
+"MRJpeg_8h.html#aef22a11476e76208a3f9a5cf2eba4c98":[6,2,1,0,0,0,0,5,3],
+"MRJpeg_8h_source.html":[6,2,1,0,0,0,0,5],
+"MRLaplacian_8h.html":[6,2,1,0,0,0,1,132],
+"MRLaplacian_8h.html#a05611f31527f0bab7d71731a2a189aad":[6,2,1,0,0,0,1,132,24],
+"MRLaplacian_8h.html#a0980a090b8d3ee493b4321f94198ca7f":[6,2,1,0,0,0,1,132,22],
+"MRLaplacian_8h.html#a120c044537eb88af38dc10d43924a0b1":[6,2,1,0,0,0,1,132,20],
 "MRLaplacian_8h.html#a249fd9254c0c3395567807936ad32641":[6,2,1,0,0,0,1,132,6],
 "MRLaplacian_8h.html#a2fbed454afaad11363b03fd045a07589":[6,2,1,0,0,0,1,132,16],
 "MRLaplacian_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,132,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX39 =
 "MRLine_8h.html#ac71adeceb43ce627c9b3c395eff091af":[6,2,1,0,0,0,1,134,7],
 "MRLine_8h.html#ac7cb17d2d97656ab9eda6ee3a1349b09":[6,2,1,0,0,0,1,134,41],
 "MRLine_8h.html#ac99123cd113fd9063d7c3c40a2a810e4":[6,2,1,0,0,0,1,134,84],
-"MRLine_8h.html#aca1d803422d4caa25c56d04a67efbc52":[6,2,1,0,0,0,1,134,3],
-"MRLine_8h.html#aca87de4b87d278bc1bbeeb48e62adb59":[6,2,1,0,0,0,1,134,26],
-"MRLine_8h.html#ad1ad269de43cdf055aa4188fbeec74f8":[6,2,1,0,0,0,1,134,58],
-"MRLine_8h.html#ad3f8b564efc20d05f5790c58996e92c4":[6,2,1,0,0,0,1,134,17],
-"MRLine_8h.html#ad6440feacacab910724512440cdb1758":[6,2,1,0,0,0,1,134,83],
-"MRLine_8h.html#ad6d514f7f59a8a651f6e9ab9bc5591fe":[6,2,1,0,0,0,1,134,33],
-"MRLine_8h.html#ada7af5fe15ce3dd545d3f511df01240a":[6,2,1,0,0,0,1,134,73],
-"MRLine_8h.html#adaf83663de371ad642ae31944263682b":[6,2,1,0,0,0,1,134,16],
-"MRLine_8h.html#adcf2d590c59e06b533365c5ec97a8171":[6,2,1,0,0,0,1,134,47],
-"MRLine_8h.html#ade7ea206ec0d88fee38904136a58eb5a":[6,2,1,0,0,0,1,134,24],
-"MRLine_8h.html#ae384a5b8e117c348d7be2d19b38414f2":[6,2,1,0,0,0,1,134,54],
-"MRLine_8h.html#ae3a43c60fa4cf6e19daf3bbafb4cb6a4":[6,2,1,0,0,0,1,134,6]
+"MRLine_8h.html#aca1d803422d4caa25c56d04a67efbc52":[6,2,1,0,0,0,1,134,3]
 };

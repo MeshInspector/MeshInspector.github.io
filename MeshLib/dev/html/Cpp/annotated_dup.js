@@ -54,7 +54,8 @@ var annotated_dup =
         [ "TPMS", "namespaceMR_1_1FillingSurface_1_1TPMS.html", [
           [ "MeshParams", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
           [ "VolumeParams", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ]
-        ] ]
+        ] ],
+        [ "ParamsFacade", "structMR_1_1FillingSurface_1_1ParamsFacade.html", "structMR_1_1FillingSurface_1_1ParamsFacade" ]
       ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],

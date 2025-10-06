@@ -1275,6 +1275,7 @@ var hierarchy =
     [ "mrmeshpy.ChangeObjectColorAction.Type", "classmrmeshpy_1_1ChangeObjectColorAction_1_1Type.html", null ],
     [ "mrmeshpy.ChangeSceneAction.Type", "classmrmeshpy_1_1ChangeSceneAction_1_1Type.html", null ],
     [ "mrmeshpy.EndMillCutter.Type", "classmrmeshpy_1_1EndMillCutter_1_1Type.html", null ],
+    [ "mrmeshpy.FillingSurface.CellularSurface.Type", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type.html", null ],
     [ "mrmeshpy.FillingSurface.TPMS.Type", "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type.html", null ],
     [ "mrmeshpy.HistoryAction.Type", "classmrmeshpy_1_1HistoryAction_1_1Type.html", null ],
     [ "mrmeshpy.MeshToVolumeParams.Type", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html", null ],

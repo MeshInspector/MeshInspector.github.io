@@ -1,5 +1,16 @@
 var NAVTREEINDEX60 =
 {
+"MRObjectDistanceMap_8h.html#a3faf70c8dd51409064b9ba4beba0b01e":[6,2,1,0,0,0,1,212,39],
+"MRObjectDistanceMap_8h.html#a40e8146b423b231699e1da5bfdcb17b7":[6,2,1,0,0,0,1,212,42],
+"MRObjectDistanceMap_8h.html#a42cd923ac9f72daa90a4abb450b759ed":[6,2,1,0,0,0,1,212,27],
+"MRObjectDistanceMap_8h.html#a4861abd7bcea4e77a05656987e960d37":[6,2,1,0,0,0,1,212,14],
+"MRObjectDistanceMap_8h.html#a4ab2c302c8e024b438a3475225b5d0a5":[6,2,1,0,0,0,1,212,15],
+"MRObjectDistanceMap_8h.html#a4b79f27677227795652442c388c5b6c4":[6,2,1,0,0,0,1,212,33],
+"MRObjectDistanceMap_8h.html#a4bc1508e89eb29bab807525d51ff698c":[6,2,1,0,0,0,1,212,22],
+"MRObjectDistanceMap_8h.html#a528465c59e12c7d382041614781b0f5f":[6,2,1,0,0,0,1,212,19],
+"MRObjectDistanceMap_8h.html#a5e8bf7a358048f80eba09cb5582bac5b":[6,2,1,0,0,0,1,212,43],
+"MRObjectDistanceMap_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,1,212,9],
+"MRObjectDistanceMap_8h.html#a7feb0823dff278c43cf61325069dd2ae":[6,2,1,0,0,0,1,212,24],
 "MRObjectDistanceMap_8h.html#a8539a1a78fb09f67189dc38b2d91474e":[6,2,1,0,0,0,1,212,30],
 "MRObjectDistanceMap_8h.html#a88a1df6fb138786a55241b1d77a4b0cc":[6,2,1,0,0,0,1,212,0],
 "MRObjectDistanceMap_8h.html#a8c88a8affab43178f158f8b2bb9a6e93":[6,2,1,0,0,0,1,212,13],
@@ -238,16 +249,5 @@ var NAVTREEINDEX60 =
 "MRObjectLinesHolder_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc":[6,2,1,0,0,0,1,216,3],
 "MRObjectLinesHolder_8h.html#af1f7bc810d6518d6ac62456819dabc3d":[6,2,1,0,0,0,1,216,40],
 "MRObjectLinesHolder_8h.html#af22acd6f7a6e3a69afe3203f905f6a06":[6,2,1,0,0,0,1,216,53],
-"MRObjectLinesHolder_8h.html#af23a4f0a386adc3ab051268483b937da":[6,2,1,0,0,0,1,216,4],
-"MRObjectLinesHolder_8h.html#af291bf82b1be81531bbed2189f2aff30":[6,2,1,0,0,0,1,216,57],
-"MRObjectLinesHolder_8h.html#af46c30b811dbea0af7a43f2bfcf2741a":[6,2,1,0,0,0,1,216,6],
-"MRObjectLinesHolder_8h.html#af6461542fce0dc9fcd8882cb465c4df6":[6,2,1,0,0,0,1,216,48],
-"MRObjectLinesHolder_8h.html#aff8d82a4de868d97999c3be4cd2f9893":[6,2,1,0,0,0,1,216,11],
-"MRObjectLinesHolder_8h_source.html":[6,2,1,0,0,0,1,216],
-"MRObjectLines_8h.html":[6,2,1,0,0,0,1,215],
-"MRObjectLines_8h.html#a05cacc1b919acbf5b382270c4b9ce3da":[6,2,1,0,0,0,1,215,38],
-"MRObjectLines_8h.html#a0cd5a0e2b6bdb0e560676a9446862936":[6,2,1,0,0,0,1,215,31],
-"MRObjectLines_8h.html#a0ed3348e849de01b109f15690966f608":[6,2,1,0,0,0,1,215,32],
-"MRObjectLines_8h.html#a121855d894c624572a49e68d212a9d2d":[6,2,1,0,0,0,1,215,13],
-"MRObjectLines_8h.html#a1e6627f8720c1aa65087fcf250798982":[6,2,1,0,0,0,1,215,33]
+"MRObjectLinesHolder_8h.html#af23a4f0a386adc3ab051268483b937da":[6,2,1,0,0,0,1,216,4]
 };

@@ -299,6 +299,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.FillingSurface", "classmrmeshpy_1_1FillingSurface.html", "classmrmeshpy_1_1FillingSurface" ],
     [ "mrmeshpy.FillingSurface.CellularSurface", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface.html", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface" ],
     [ "mrmeshpy.FillingSurface.CellularSurface.Params", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" ],
+    [ "mrmeshpy.FillingSurface.CellularSurface.Type", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type.html", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type" ],
     [ "mrmeshpy.FillingSurface.Kind", "classmrmeshpy_1_1FillingSurface_1_1Kind.html", "classmrmeshpy_1_1FillingSurface_1_1Kind" ],
     [ "mrmeshpy.FillingSurface.TPMS", "classmrmeshpy_1_1FillingSurface_1_1TPMS.html", "classmrmeshpy_1_1FillingSurface_1_1TPMS" ],
     [ "mrmeshpy.FillingSurface.TPMS.MeshParams", "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],

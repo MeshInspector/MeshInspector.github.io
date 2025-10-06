@@ -1,5 +1,17 @@
 var NAVTREEINDEX69 =
 {
+"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,2,0,0,2,0],
+"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,1,0,0,2,1],
+"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,2,0,0,2,1],
+"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,1,0,0,2,2],
+"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,2,0,0,2,2],
+"structImGui_1_1SavedWindowPosParams.html":[6,0,1,0,0,3],
+"structImGui_1_1SavedWindowPosParams.html":[6,0,2,0,0,3],
+"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,1,0,0,3,1],
+"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,2,0,0,3,1],
+"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,1,0,0,3,2],
+"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,2,0,0,3,2],
+"structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,1,0,0,3,0],
 "structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,2,0,0,3,0],
 "structMRAffineXf3f.html":[6,0,2,0,3],
 "structMRAffineXf3f.html#aa9d39618e3ef0259f88806b24efd6974":[6,0,2,0,3,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX69 =
 "structMRNoiseSettings.html#a794506b24ca7a1d5fe95a8f05ef44d82":[6,0,2,0,47,0],
 "structMRNoiseSettings.html#a85637a19167b434e5b5b7ad62009aab2":[6,0,2,0,47,2],
 "structMRObjId.html":[6,0,2,0,48],
-"structMRObjId.html#a26da559ee8e7f8fae7407215dee6db33":[6,0,2,0,48,0],
-"structMRObjVertId.html":[6,0,2,0,49],
-"structMRObjVertId.html#a724bfda98a1cbc88bb90004372d2b844":[6,0,2,0,49,0],
-"structMRObjVertId.html#acd5a62c78cf341d9ec230a2e075f2e28":[6,0,2,0,49,1],
-"structMROffsetParameters.html":[6,0,2,0,50],
-"structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679":[6,0,2,0,50,3],
-"structMROffsetParameters.html#a4fda3dbd0f6df9ed45abc300fee48b17":[6,0,2,0,50,0],
-"structMROffsetParameters.html#a8bb60c7d4c6935ca3167597df90bf149":[6,0,2,0,50,1],
-"structMROffsetParameters.html#ad92c04c267772dc568e590dadf29dffb":[6,0,2,0,50,2],
-"structMROneMeshContour.html":[6,0,2,0,51],
-"structMROneMeshContour.html#a90b936e1e5de7336622a91129c24b832":[6,0,2,0,51,1],
-"structMROneMeshContour.html#af503136942e404c0ef37ef2cb6870e8a":[6,0,2,0,51,0],
-"structMROneMeshIntersection.html":[6,0,2,0,52]
+"structMRObjId.html#a26da559ee8e7f8fae7407215dee6db33":[6,0,2,0,48,0]
 };

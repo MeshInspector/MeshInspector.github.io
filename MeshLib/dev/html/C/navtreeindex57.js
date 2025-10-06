@@ -1,5 +1,16 @@
 var NAVTREEINDEX57 =
 {
+"MRMinMaxArg_8h.html#a4c5dd0b955fdded6396f1c3ef2cc67a2":[6,2,1,0,0,0,1,200,26],
+"MRMinMaxArg_8h.html#a51fa54cf5a9f778243f59a814dcd805a":[6,2,1,0,0,0,1,200,24],
+"MRMinMaxArg_8h.html#a5b7b05ffef88f6ae8e6133ed4a191498":[6,2,1,0,0,0,1,200,13],
+"MRMinMaxArg_8h.html#a5f2b9c72dc769751c96835b1f169b60a":[6,2,1,0,0,0,1,200,14],
+"MRMinMaxArg_8h.html#a6a4363bbafab1bbfb583fe1add26b55e":[6,2,1,0,0,0,1,200,3],
+"MRMinMaxArg_8h.html#a712d19ccad8d9b754b5e532aebc75ccd":[6,2,1,0,0,0,1,200,20],
+"MRMinMaxArg_8h.html#a858a52cf54f1711960ee0ecc00b92c9c":[6,2,1,0,0,0,1,200,18],
+"MRMinMaxArg_8h.html#a9108c59a54b4d2cf9c115d3cdd4b16bc":[6,2,1,0,0,0,1,200,16],
+"MRMinMaxArg_8h.html#a936c55faa24afaa708674f59026d5643":[6,2,1,0,0,0,1,200,5],
+"MRMinMaxArg_8h.html#a94e95814e5f5c93075bde4b4700b2373":[6,2,1,0,0,0,1,200,1],
+"MRMinMaxArg_8h.html#a991e2985fe03071f54939e3548049f23":[6,2,1,0,0,0,1,200,19],
 "MRMinMaxArg_8h.html#a9d64b64cce4cfefe7a20d3971b155038":[6,2,1,0,0,0,1,200,10],
 "MRMinMaxArg_8h.html#a9dc0899769c0925bd2650ce205b421d0":[6,2,1,0,0,0,1,200,12],
 "MRMinMaxArg_8h.html#aaae45ed988d074865116f13f80cf816b":[6,2,1,0,0,0,1,200,15],
@@ -238,16 +249,5 @@ var NAVTREEINDEX57 =
 "MRMultiwayAligningTransform_8h.html":[6,2,1,0,0,0,1,203],
 "MRMultiwayAligningTransform_8h.html#a052a3477d845269928a28731402b0d1a":[6,2,1,0,0,0,1,203,22],
 "MRMultiwayAligningTransform_8h.html#a0b07f164f45d823b1fdf19542501783e":[6,2,1,0,0,0,1,203,1],
-"MRMultiwayAligningTransform_8h.html#a0c88126490b41f115a6af3edab8769e7":[6,2,1,0,0,0,1,203,36],
-"MRMultiwayAligningTransform_8h.html#a10a8e19bddad62e1379b4c8acc1efe6b":[6,2,1,0,0,0,1,203,20],
-"MRMultiwayAligningTransform_8h.html#a122f6d8222524246589fd90ffae4efd2":[6,2,1,0,0,0,1,203,16],
-"MRMultiwayAligningTransform_8h.html#a20217acd828ca6f4f02dd921f7353f71":[6,2,1,0,0,0,1,203,7],
-"MRMultiwayAligningTransform_8h.html#a20cc4e3f1a57117a5d08bd61fc5e09b3":[6,2,1,0,0,0,1,203,10],
-"MRMultiwayAligningTransform_8h.html#a2afae0b871507c7fa599679fe44f0887":[6,2,1,0,0,0,1,203,23],
-"MRMultiwayAligningTransform_8h.html#a3a8593bbf4f4e553427048cbc8dfd934":[6,2,1,0,0,0,1,203,15],
-"MRMultiwayAligningTransform_8h.html#a3eb0d0816b5f7ca817ac57f3563ea56b":[6,2,1,0,0,0,1,203,11],
-"MRMultiwayAligningTransform_8h.html#a465405e8d3c9a65cf41fa3c59c2c1d92":[6,2,1,0,0,0,1,203,18],
-"MRMultiwayAligningTransform_8h.html#a4805a897069202a0b0ab422203d8b8a7":[6,2,1,0,0,0,1,203,30],
-"MRMultiwayAligningTransform_8h.html#a52808f79da78dfb0eea61d18596c584b":[6,2,1,0,0,0,1,203,13],
-"MRMultiwayAligningTransform_8h.html#a5b21785be1238b4861884b71eb50f6f0":[6,2,1,0,0,0,1,203,26]
+"MRMultiwayAligningTransform_8h.html#a0c88126490b41f115a6af3edab8769e7":[6,2,1,0,0,0,1,203,36]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI.html#a6d5300d4685c08883eebec83b277c71a":[6,0,1,0,1,42,43],
+"namespaceMR_1_1UI.html#a7164936f126dc1678e8ee461b926adec":[6,0,1,0,1,42,47],
+"namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[6,0,1,0,1,42,22],
+"namespaceMR_1_1UI.html#a73b24c79591c799e7d48900fbeb29f28":[6,0,1,0,1,42,54],
+"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[6,0,1,0,1,42,95],
+"namespaceMR_1_1UI.html#a7e2c992cf1725ac8f53f110fdb0f5541":[6,0,1,0,1,42,77],
+"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[6,0,1,0,1,42,91],
+"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[6,0,1,0,1,42,46],
+"namespaceMR_1_1UI.html#a8383efc65d62e5b793a5e660ecd07c1e":[6,0,1,0,1,42,75],
+"namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[6,0,1,0,1,42,79],
+"namespaceMR_1_1UI.html#a86829359873813f479f46ac25fb54708":[6,0,1,0,1,42,73],
+"namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[6,0,1,0,1,42,41],
 "namespaceMR_1_1UI.html#a878027b7be9898c79a8e079b56ccc99c":[6,0,1,0,1,42,85],
 "namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[6,0,1,0,1,42,55],
 "namespaceMR_1_1UI.html#a88497709249abe39b1a8945f1da37c1d":[6,0,1,0,1,42,21],
@@ -237,17 +249,5 @@ var NAVTREEINDEX68 =
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
 "structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2],
 "structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,2,0,0,2,0],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,1,0,0,2,1],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,2,0,0,2,1],
-"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,1,0,0,2,2],
-"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,2,0,0,2,2],
-"structImGui_1_1SavedWindowPosParams.html":[6,0,1,0,0,3],
-"structImGui_1_1SavedWindowPosParams.html":[6,0,2,0,0,3],
-"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,1,0,0,3,1],
-"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,2,0,0,3,1],
-"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,1,0,0,3,2],
-"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,2,0,0,3,2],
-"structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,1,0,0,3,0]
+"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0]
 };
