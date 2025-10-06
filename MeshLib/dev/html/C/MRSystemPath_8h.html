@@ -152,8 +152,7 @@ $(function(){initNavTree('MRSystemPath_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRSystemPath.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRSystemPath_8h_source.html">Go to the source code of this file.</a></p>
@@ -208,16 +207,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ac1a6a2d356619dc4610e0a75920a6494" id="r_ac1a6a2d356619dc4610e0a75920a6494"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1a6a2d356619dc4610e0a75920a6494">MR_SystemPath_OffsetMutablePtr</a> (<a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ac1a6a2d356619dc4610e0a75920a6494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ac1a6a2d356619dc4610e0a75920a6494"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08acfa548ee0c70010bc82d758993faf" id="r_a08acfa548ee0c70010bc82d758993faf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08acfa548ee0c70010bc82d758993faf">MR_SystemPath_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_other)</td></tr>
-<tr class="separator:a08acfa548ee0c70010bc82d758993faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae764450390af92c1f7d50fb25dd096f1" id="r_ae764450390af92c1f7d50fb25dd096f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae764450390af92c1f7d50fb25dd096f1">MR_SystemPath_ConstructFromAnother</a> (const <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_other)</td></tr>
+<tr class="separator:ae764450390af92c1f7d50fb25dd096f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab568941a25fc88dc3fcdefc131e7878d" id="r_ab568941a25fc88dc3fcdefc131e7878d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab568941a25fc88dc3fcdefc131e7878d">MR_SystemPath_Destroy</a> (const <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_this)</td></tr>
 <tr class="memdesc:ab568941a25fc88dc3fcdefc131e7878d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SystemPath</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ab568941a25fc88dc3fcdefc131e7878d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a230545ee11adfc4053917e9b5929c6ed" id="r_a230545ee11adfc4053917e9b5929c6ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a230545ee11adfc4053917e9b5929c6ed">MR_SystemPath_DestroyArray</a> (const <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_this)</td></tr>
 <tr class="memdesc:a230545ee11adfc4053917e9b5929c6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SystemPath</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a230545ee11adfc4053917e9b5929c6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75604acbd9a81e192361377186095f7e" id="r_a75604acbd9a81e192361377186095f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75604acbd9a81e192361377186095f7e">MR_SystemPath_AssignFromAnother</a> (<a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_other)</td></tr>
-<tr class="separator:a75604acbd9a81e192361377186095f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1a96581c1a9d62f7a1b728d96a5819" id="r_abb1a96581c1a9d62f7a1b728d96a5819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb1a96581c1a9d62f7a1b728d96a5819">MR_SystemPath_AssignFromAnother</a> (<a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_this, const <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_other)</td></tr>
+<tr class="separator:abb1a96581c1a9d62f7a1b728d96a5819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59112bb8f5929a70a65ddcc412c2993d" id="r_a59112bb8f5929a70a65ddcc412c2993d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59112bb8f5929a70a65ddcc412c2993d">MR_SystemPath_getDirectory</a> (<a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a> dir)</td></tr>
 <tr class="separator:a59112bb8f5929a70a65ddcc412c2993d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a819a7e67bc131d009ac4110c3ca482af" id="r_a819a7e67bc131d009ac4110c3ca482af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a819a7e67bc131d009ac4110c3ca482af">MR_SystemPath_overrideDirectory</a> (<a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a> dir, const char *path, const char *path_end)</td></tr>
@@ -358,8 +357,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a75604acbd9a81e192361377186095f7e" name="a75604acbd9a81e192361377186095f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75604acbd9a81e192361377186095f7e">&#9670;&#160;</a></span>MR_SystemPath_AssignFromAnother()</h2>
+<a id="abb1a96581c1a9d62f7a1b728d96a5819" name="abb1a96581c1a9d62f7a1b728d96a5819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1a96581c1a9d62f7a1b728d96a5819">&#9670;&#160;</a></span>MR_SystemPath_AssignFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,21 +371,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SystemPath.html">MR::SystemPath</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SystemPath.html">MR::SystemPath</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
-<a id="a08acfa548ee0c70010bc82d758993faf" name="a08acfa548ee0c70010bc82d758993faf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08acfa548ee0c70010bc82d758993faf">&#9670;&#160;</a></span>MR_SystemPath_ConstructFromAnother()</h2>
+<a id="ae764450390af92c1f7d50fb25dd096f1" name="ae764450390af92c1f7d50fb25dd096f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae764450390af92c1f7d50fb25dd096f1">&#9670;&#160;</a></span>MR_SystemPath_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,16 +388,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> * MR_SystemPath_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1SystemPath.html">MR::SystemPath</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab568941a25fc88dc3fcdefc131e7878d" title="Destroys a heap-allocated instance of MR_SystemPath. Does nothing if the pointer is null.">MR_SystemPath_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1SystemPath.html">MR::SystemPath</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab568941a25fc88dc3fcdefc131e7878d" title="Destroys a heap-allocated instance of MR_SystemPath. Does nothing if the pointer is null.">MR_SystemPath_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

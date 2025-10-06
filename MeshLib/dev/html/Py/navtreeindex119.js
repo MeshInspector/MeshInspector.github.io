@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"classmrmeshpy_1_1WrapType.html":[6,1,0,0,2,1198],
+"classmrmeshpy_1_1WrapType.html":[6,1,1,0,1,1198],
 "classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[6,1,0,0,2,1198,11],
 "classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[6,1,1,0,1,1198,11],
 "classmrmeshpy_1_1WrapType.html#a0b36738324f061864dff8926519985eb":[6,1,0,0,2,1198,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html#ad55ff2be4ce21933d755b4be1ad17dd6":[6,1,0,0,2,317,7],
 "classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html#ad55ff2be4ce21933d755b4be1ad17dd6":[6,1,1,0,1,317,7],
 "classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html#ad9ff231c362a60abb0e92efcdb008ed9":[6,1,0,0,2,317,4],
-"classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html#ad9ff231c362a60abb0e92efcdb008ed9":[6,1,1,0,1,317,4],
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html":[6,1,0,0,2,312],
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html":[6,1,1,0,1,312]
+"classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html#ad9ff231c362a60abb0e92efcdb008ed9":[6,1,1,0,1,317,4]
 };
