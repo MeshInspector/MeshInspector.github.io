@@ -3195,7 +3195,7 @@ var namespaceMR =
     [ "triangleAspectRatio", "namespaceMR.html#a69db1209a124ce8bdfb38c51922889bb", null ],
     [ "triangleAspectRatio", "group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9", null ],
     [ "triangleWithNormal", "namespaceMR.html#a5b210182919ce9a4fe5cdce5115f4cc3", null ],
-    [ "triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df", null ],
+    [ "triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9a35a19f982f5409d7939ad87946a479", null ],
     [ "triCenter", "namespaceMR.html#a3cb53a0284adb26bcdc9278da8f476ff", null ],
     [ "TriDist", "namespaceMR.html#a068b87fd749129c9bc76263ce77fe9af", null ],
     [ "trim", "namespaceMR.html#aacd64ab3b893a3975e6dced2b5ff2722", null ],

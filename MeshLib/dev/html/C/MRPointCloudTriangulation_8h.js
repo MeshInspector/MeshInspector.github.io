@@ -4,7 +4,7 @@ var MRPointCloudTriangulation_8h =
     [ "MR_std_function_bool_from_float", "MRPointCloudTriangulation_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_optional_MR_Mesh", "MRPointCloudTriangulation_8h.html#a3bbe7529fd9a3b454d1fe7040289bf3c", null ],
     [ "MR_TriangulationParameters", "MRPointCloudTriangulation_8h.html#a032845a1d3f3181b204e6dcfa00d27fd", null ],
-    [ "MR_triangulatePointCloud", "MRPointCloudTriangulation_8h.html#ae2e68afa29316c60c8b4b68a9297543f", null ],
+    [ "MR_triangulatePointCloud", "MRPointCloudTriangulation_8h.html#a553db14204b082fcea32628c3b3df80f", null ],
     [ "MR_TriangulationParameters_AssignFromAnother", "MRPointCloudTriangulation_8h.html#a9593b418904c6140f2fb4a61fcad4137", null ],
     [ "MR_TriangulationParameters_ConstructFrom", "MRPointCloudTriangulation_8h.html#a95d49a27367144fd946bb98048aeb303", null ],
     [ "MR_TriangulationParameters_ConstructFromAnother", "MRPointCloudTriangulation_8h.html#aafdbd0974347222931b6839a2f36e7d9", null ],

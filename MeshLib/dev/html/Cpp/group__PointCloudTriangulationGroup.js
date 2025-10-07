@@ -10,5 +10,5 @@ var group__PointCloudTriangulationGroup =
       [ "radius", "structMR_1_1TriangulationParameters.html#a474b58f25243d6fbbaee08808d91e4cd", null ],
       [ "searchNeighbors", "structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046", null ]
     ] ],
-    [ "MR::triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df", null ]
+    [ "MR::triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9a35a19f982f5409d7939ad87946a479", null ]
 ];
