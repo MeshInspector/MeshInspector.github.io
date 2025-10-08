@@ -2532,7 +2532,7 @@ var mrmeshpy_8pyi =
     [ "voxelsExponentMetric", "mrmeshpy_8pyi.html#a281b195ed170035a1315a603e4965cbd", null ],
     [ "voxelsSumDiffsMetric", "mrmeshpy_8pyi.html#a5bb5ce7c6be2e4bf91e18d56742361d6", null ],
     [ "writeByBlocks", "mrmeshpy_8pyi.html#a079078eedad59082f1fbde58c270207c", null ],
-    [ "writeRawTiff", "mrmeshpy_8pyi.html#acdd5de9a3ff46407ef3b1ae806c9deb6", null ],
+    [ "writeRawTiff", "mrmeshpy_8pyi.html#ab83c1314bf203d0b0b36a1058075b99a", null ],
     [ "xyPlaneMeshIntersect", "mrmeshpy_8pyi.html#a4986c8f6ab9602150d107a8c72d06f49", null ],
     [ "zCompensate", "mrmeshpy_8pyi.html#a011b8c7a6d568ddcc5cc72fbde82c594", null ],
     [ "zlibCompressStream", "mrmeshpy_8pyi.html#a42a760919f7c0e31626937cfa3dd045a", null ],

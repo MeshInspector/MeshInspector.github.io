@@ -370,8 +370,8 @@ Functions</h2></td></tr>
 <tr class="separator:a77c11ab8a80971a8427650232dddceaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b55d85837fc75f05299ce3519efaadc" id="r_a6b55d85837fc75f05299ce3519efaadc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b55d85837fc75f05299ce3519efaadc">MR_readRawTiff</a> (const char *path, const char *path_end, <a class="el" href="#a7b08535d382e7abf8cffb2e80807fcdc">MR_RawTiffOutput</a> *output)</td></tr>
 <tr class="separator:a6b55d85837fc75f05299ce3519efaadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84cdac7057aa79429751fa746af6dd88" id="r_a84cdac7057aa79429751fa746af6dd88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84cdac7057aa79429751fa746af6dd88">MR_writeRawTiff</a> (const unsigned char *bytes, const char *path, const char *path_end, const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *params)</td></tr>
-<tr class="separator:a84cdac7057aa79429751fa746af6dd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8d9d2d35e2b53b01cbc88844ffc8af" id="r_a1e8d9d2d35e2b53b01cbc88844ffc8af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8d9d2d35e2b53b01cbc88844ffc8af">MR_writeRawTiff</a> (const unsigned char *bytes, const char *path, const char *path_end, const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *params, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="separator:a1e8d9d2d35e2b53b01cbc88844ffc8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
@@ -2149,8 +2149,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a84cdac7057aa79429751fa746af6dd88" name="a84cdac7057aa79429751fa746af6dd88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84cdac7057aa79429751fa746af6dd88">&#9670;&#160;</a></span>MR_writeRawTiff()</h2>
+<a id="a1e8d9d2d35e2b53b01cbc88844ffc8af" name="a1e8d9d2d35e2b53b01cbc88844ffc8af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e8d9d2d35e2b53b01cbc88844ffc8af">&#9670;&#160;</a></span>MR_writeRawTiff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2173,11 +2173,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abdcd54b6004b70d5f63cf0695fc0a285">MR::writeRawTiff</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa483459a5ded486070b9791e279eabad">MR::writeRawTiff</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
