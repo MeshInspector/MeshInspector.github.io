@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[6,0,0,1,5,0],
+"structMR_1_1NoiseSettings.html":[6,0,1,0,1,447],
 "structMR_1_1NoiseSettings.html":[6,0,2,0,1,428],
 "structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,1,0,1,447,0],
 "structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,2,0,1,428,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1OriginAndDimensions.html":[6,0,1,0,1,494],
 "structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,475],
 "structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,1,0,1,494,1],
-"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,2,0,1,475,1],
-"structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,1,0,1,494,0],
-"structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,2,0,1,475,0]
+"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,2,0,1,475,1]
 };

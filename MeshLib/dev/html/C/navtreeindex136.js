@@ -1,5 +1,7 @@
 var NAVTREEINDEX136 =
 {
+"std__vector__MR__Dipole_8h.html#a557249d4bc02353d810fa49e78211d7a":[6,2,1,0,0,0,2,299,67],
+"std__vector__MR__Dipole_8h.html#a593644219f2ca99d6ddcd0640d9a450e":[6,2,1,0,0,0,2,299,55],
 "std__vector__MR__Dipole_8h.html#a5d2c626aee1bdd891515bfdbe5b470bb":[6,2,1,0,0,0,2,299,66],
 "std__vector__MR__Dipole_8h.html#a5e0769913e00f8741ca6d7d0bee51ab2":[6,2,1,0,0,0,2,299,31],
 "std__vector__MR__Dipole_8h.html#a5ff5588743d5a3d9f654560fc62ac5ad":[6,2,1,0,0,0,2,299,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX136 =
 "std__vector__MR__EdgePointPair_8h.html#ac2cf9ebda3ebf76ef8c4a6feb1422d33":[6,2,1,0,0,0,2,303,18],
 "std__vector__MR__EdgePointPair_8h.html#ac2d0c0e7503875ad8ef696556fe37d5a":[6,2,1,0,0,0,2,303,47],
 "std__vector__MR__EdgePointPair_8h.html#ac42c84ff324429760fc9ab56e477356a":[6,2,1,0,0,0,2,303,48],
-"std__vector__MR__EdgePointPair_8h.html#acb7de9c49f06f642a7e7ff867c02d30a":[6,2,1,0,0,0,2,303,15],
-"std__vector__MR__EdgePointPair_8h.html#acc759505fff4ba2353aa27b608511acf":[6,2,1,0,0,0,2,303,62],
-"std__vector__MR__EdgePointPair_8h.html#accd77784c5e04bc3ede2e57cdbda26a7":[6,2,1,0,0,0,2,303,57]
+"std__vector__MR__EdgePointPair_8h.html#acb7de9c49f06f642a7e7ff867c02d30a":[6,2,1,0,0,0,2,303,15]
 };

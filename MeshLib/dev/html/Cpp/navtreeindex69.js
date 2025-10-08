@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2],
+"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0],
 "structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,2,0,0,2,0],
 "structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,1,0,0,2,1],
 "structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[6,0,2,0,0,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMRNoiseSettings.html":[6,0,2,0,47],
 "structMRNoiseSettings.html#a5f609d9abf8ca6000ba1f49b95fe372c":[6,0,2,0,47,1],
 "structMRNoiseSettings.html#a794506b24ca7a1d5fe95a8f05ef44d82":[6,0,2,0,47,0],
-"structMRNoiseSettings.html#a85637a19167b434e5b5b7ad62009aab2":[6,0,2,0,47,2],
-"structMRObjId.html":[6,0,2,0,48],
-"structMRObjId.html#a26da559ee8e7f8fae7407215dee6db33":[6,0,2,0,48,0]
+"structMRNoiseSettings.html#a85637a19167b434e5b5b7ad62009aab2":[6,0,2,0,47,2]
 };

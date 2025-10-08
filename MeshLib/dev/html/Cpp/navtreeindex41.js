@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,1,0,1,34,8,1],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,2,0,1,19,8,1],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[6,0,1,0,1,34,8,0],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a44b4da055074668472c0c6167666a668":[6,0,2,0,1,19,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1RenderMeshObject.html#a7c197e5a47c0adda4d0e19fe67bc8ad6":[6,0,1,0,1,603,46],
 "classMR_1_1RenderMeshObject.html#a7c197e5a47c0adda4d0e19fe67bc8ad6":[6,0,2,0,1,584,46],
 "classMR_1_1RenderMeshObject.html#a7ca63f2d3385ab5f38ca500ab1d468f7":[6,0,1,0,1,603,65],
-"classMR_1_1RenderMeshObject.html#a7ca63f2d3385ab5f38ca500ab1d468f7":[6,0,2,0,1,584,65],
-"classMR_1_1RenderMeshObject.html#a885637207dfa4ad9a32e22b1de0fc18a":[6,0,1,0,1,603,68]
+"classMR_1_1RenderMeshObject.html#a7ca63f2d3385ab5f38ca500ab1d468f7":[6,0,2,0,1,584,65]
 };

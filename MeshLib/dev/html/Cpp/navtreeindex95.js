@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,2,0,1,25,8,4],
+"structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[6,0,1,0,1,42,10,2],
 "structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[6,0,2,0,1,25,8,2],
 "structMR_1_1UI_1_1PlotAxis.html#abb279d966586784fbc7e5ce1e6cc8fd5":[6,0,1,0,1,42,10,7],
 "structMR_1_1UI_1_1PlotAxis.html#abb279d966586784fbc7e5ce1e6cc8fd5":[6,0,2,0,1,25,8,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6],
 "structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[6,0,0,1,18,4],
 "structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[6,0,0,1,18,5],
-"structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[6,0,0,1,18,10],
-"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[6,0,0,1,18,7],
-"structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad":[6,0,0,1,18,9]
+"structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[6,0,0,1,18,10]
 };

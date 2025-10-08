@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002":[6,0,1,0,1,69,0],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002":[6,0,2,0,1,50,0],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002a056fa3d840f48b7bfbbd68c19a4797b3":[6,0,1,0,1,69,0,1],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002a056fa3d840f48b7bfbbd68c19a4797b3":[6,0,2,0,1,50,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,46,1],
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,46,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,46,2],
-"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,46,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,1,0,1,99]
+"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,46,0]
 };

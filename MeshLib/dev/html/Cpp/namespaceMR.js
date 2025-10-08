@@ -2110,6 +2110,7 @@ var namespaceMR =
     [ "fillHole", "group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05", null ],
     [ "fillHoleNicely", "namespaceMR.html#a336e1461bdc97f5a14465c6571e7f492", null ],
     [ "fillHoles", "group__FillHoleGroup.html#ga826414470e5289e2dfba2496f06d98ae", null ],
+    [ "fillHolesWithExtraPoints", "namespaceMR.html#aedc635789c90c6dc045fb16c1825eab4", null ],
     [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
     [ "fillPlanarHole", "namespaceMR.html#aa46523a0e53c329900fc28bdd021efb9", null ],
     [ "filterCreaseEdges", "namespaceMR.html#af323676e5a2bf779fb0700037ad648da", null ],

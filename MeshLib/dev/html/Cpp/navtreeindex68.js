@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI.html#a66d0089d8a8616f6c454c5bce46731a0":[6,0,1,0,1,42,86],
+"namespaceMR_1_1UI.html#a66dc61c68cc74e41c52ec9552380924e":[6,0,1,0,1,42,19],
 "namespaceMR_1_1UI.html#a6d5300d4685c08883eebec83b277c71a":[6,0,1,0,1,42,43],
 "namespaceMR_1_1UI.html#a7164936f126dc1678e8ee461b926adec":[6,0,1,0,1,42,47],
 "namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[6,0,1,0,1,42,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
-"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2],
-"structImGui_1_1MultiDragRes.html":[6,0,2,0,0,2],
-"structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[6,0,1,0,0,2,0]
+"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2]
 };

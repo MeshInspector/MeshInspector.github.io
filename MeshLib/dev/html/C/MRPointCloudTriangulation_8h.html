@@ -159,6 +159,8 @@ $(function(){initNavTree('MRPointCloudTriangulation_8h.html',''); initResizable(
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
 <tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
@@ -247,8 +249,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a553db14204b082fcea32628c3b3df80f" id="r_a553db14204b082fcea32628c3b3df80f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a553db14204b082fcea32628c3b3df80f">MR_triangulatePointCloud</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a032845a1d3f3181b204e6dcfa00d27fd">MR_TriangulationParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
 <tr class="memdesc:a553db14204b082fcea32628c3b3df80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from given point cloud according params Returns empty optional if was interrupted by progress bar.  <br /></td></tr>
 <tr class="separator:a553db14204b082fcea32628c3b3df80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdfee63bb627f1aa446dc0cf7488dc1b" id="r_acdfee63bb627f1aa446dc0cf7488dc1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdfee63bb627f1aa446dc0cf7488dc1b">MR_fillHolesWithExtraPoints</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *extraPoints, const <a class="el" href="#a032845a1d3f3181b204e6dcfa00d27fd">MR_TriangulationParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
+<tr class="separator:acdfee63bb627f1aa446dc0cf7488dc1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa319738c95f0bbde075b7ef777cf2665" name="aa319738c95f0bbde075b7ef777cf2665"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
 
@@ -309,6 +327,44 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="acdfee63bb627f1aa446dc0cf7488dc1b" name="acdfee63bb627f1aa446dc0cf7488dc1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdfee63bb627f1aa446dc0cf7488dc1b">&#9670;&#160;</a></span>MR_fillHolesWithExtraPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_fillHolesWithExtraPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>extraPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a032845a1d3f3181b204e6dcfa00d27fd">MR_TriangulationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>fills the holes in the mesh by adding triangles to it with the vertices in existing boundary vertices or given extra points (in any combination) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">extraPoints</td><td>must have normals and it will be temporary modified during the call </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the operation was canceled or incorrect input Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aedc635789c90c6dc045fb16c1825eab4">MR::fillHolesWithExtraPoints</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>extraPoints</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>progressCb</code> is a single object. Parameter <code>progressCb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+
+</div>
+</div>
 <a id="a553db14204b082fcea32628c3b3df80f" name="a553db14204b082fcea32628c3b3df80f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a553db14204b082fcea32628c3b3df80f">&#9670;&#160;</a></span>MR_triangulatePointCloud()</h2>
 

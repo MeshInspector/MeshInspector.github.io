@@ -105,6 +105,7 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRNormalDenoising_8h.html#a786dcca1baeb53c3472aeec3c347aaf0":[6,0,3,0,0,1,4,243,3],
 "MRMesh_2MRNormalDenoising_8h_source.html":[6,0,3,0,0,1,4,243],
 "MRMesh_2MRPointCloudTriangulation_8h.html":[6,0,3,0,0,1,4,287],
+"MRMesh_2MRPointCloudTriangulation_8h.html#aedc635789c90c6dc045fb16c1825eab4":[6,0,3,0,0,1,4,287,0],
 "MRMesh_2MRPointCloudTriangulation_8h_source.html":[6,0,3,0,0,1,4,287],
 "MRMesh_2MRPointCloud_8h.html":[6,0,3,0,0,1,4,280],
 "MRMesh_2MRPointCloud_8h_source.html":[6,0,3,0,0,1,4,280],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a":[6,0,3,0,0,1,11,48,1,1],
 "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62d":[6,0,3,0,0,1,11,48,0],
 "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c":[6,0,3,0,0,1,11,48,0,1],
-"MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff":[6,0,3,0,0,1,11,48,0,0],
-"MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05":[6,0,3,0,0,1,11,48,0,2]
+"MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff":[6,0,3,0,0,1,11,48,0,0]
 };

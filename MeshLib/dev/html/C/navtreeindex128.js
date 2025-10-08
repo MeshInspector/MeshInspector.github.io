@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"std__optional__std__vector__MR__ObjVertId_8h.html#aecfb6a88cf971f5c2106b53182a5ff91":[6,2,1,0,0,0,2,213,11],
+"std__optional__std__vector__MR__ObjVertId_8h_source.html":[6,2,1,0,0,0,2,213],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html":[6,2,1,0,0,0,2,214],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a05cf4c767237f7b60e71aed6076e64ed":[6,2,1,0,0,0,2,214,5],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a0b9a6d4d8debd31f923cff86a2f9aa71":[6,2,1,0,0,0,2,214,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "std__pair__MR__VertId__bool_8h.html#af8885909399e59287ceef2d6995831e3":[6,2,1,0,0,0,2,232,12],
 "std__pair__MR__VertId__bool_8h_source.html":[6,2,1,0,0,0,2,232],
 "std__pair__bool__int_8h.html":[6,2,1,0,0,0,2,215],
-"std__pair__bool__int_8h.html#a0ec1ed364f8f6adda1b59bb030541397":[6,2,1,0,0,0,2,215,1],
-"std__pair__bool__int_8h.html#a13aad4fd4ce0c022aa6190ec2d9d89b5":[6,2,1,0,0,0,2,215,5],
-"std__pair__bool__int_8h.html#a245b2f19fb62dbc09c1b18b6e6cffb2d":[6,2,1,0,0,0,2,215,11]
+"std__pair__bool__int_8h.html#a0ec1ed364f8f6adda1b59bb030541397":[6,2,1,0,0,0,2,215,1]
 };
