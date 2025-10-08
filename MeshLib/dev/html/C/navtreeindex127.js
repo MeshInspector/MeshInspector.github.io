@@ -1,5 +1,11 @@
 var NAVTREEINDEX127 =
 {
+"std__optional__MR__PointCloud_8h_source.html":[6,2,1,0,0,0,2,199],
+"std__optional__MR__PolylineIntersectionResult2_8h.html":[6,2,1,0,0,0,2,200],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a21ce17f2e6794e8b07b60b1a49316d26":[6,2,1,0,0,0,2,200,9],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a2c5c4fe2ba3d0ef815040fdaad735051":[6,2,1,0,0,0,2,200,11],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a2ef9b8f07924cf03436ba3cc741e2d02":[6,2,1,0,0,0,2,200,5],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a3b93e7f4b851b95f1f857da61fffc81f":[6,2,1,0,0,0,2,200,7],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a3db0409fc80b9fae469a9fbca2407a83":[6,2,1,0,0,0,2,200,0],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a52f262fd29dc0b9767d61a0e45e61b5c":[6,2,1,0,0,0,2,200,4],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a623148d566ce9004ab903a3c58ca828e":[6,2,1,0,0,0,2,200,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX127 =
 "std__optional__std__vector__MR__ObjVertId_8h.html#ad9c66d676d9496218ea43bfed38195f2":[6,2,1,0,0,0,2,213,4],
 "std__optional__std__vector__MR__ObjVertId_8h.html#ae1286432b335d8b4c779dca862ef8e52":[6,2,1,0,0,0,2,213,0],
 "std__optional__std__vector__MR__ObjVertId_8h.html#aecfb6a88cf971f5c2106b53182a5ff91":[6,2,1,0,0,0,2,213,11],
-"std__optional__std__vector__MR__ObjVertId_8h_source.html":[6,2,1,0,0,0,2,213],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html":[6,2,1,0,0,0,2,214],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a05cf4c767237f7b60e71aed6076e64ed":[6,2,1,0,0,0,2,214,5],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a0b9a6d4d8debd31f923cff86a2f9aa71":[6,2,1,0,0,0,2,214,13],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a12fcb330496bd99d10e65f53d31d89e9":[6,2,1,0,0,0,2,214,9],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a13d4bef8bfa67d12df7bafa84331b149":[6,2,1,0,0,0,2,214,0],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a23bc5aa137ce64a429197fca2def138b":[6,2,1,0,0,0,2,214,8]
+"std__optional__std__vector__MR__ObjVertId_8h_source.html":[6,2,1,0,0,0,2,213]
 };

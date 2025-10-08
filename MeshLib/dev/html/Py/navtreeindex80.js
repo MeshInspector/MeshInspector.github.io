@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1SliceInfo.html#a2ce306c50570d3237ce0943266838645":[6,1,0,0,2,789,1],
+"classmrmeshpy_1_1SliceInfo.html#a2ce306c50570d3237ce0943266838645":[6,1,1,0,1,789,1],
+"classmrmeshpy_1_1SliceInfo.html#a32c5b34206eb31dea38865906a30d309":[6,1,0,0,2,789,3],
+"classmrmeshpy_1_1SliceInfo.html#a32c5b34206eb31dea38865906a30d309":[6,1,1,0,1,789,3],
+"classmrmeshpy_1_1SliceInfo.html#a61d1647f4cb3411328fc43febbae2405":[6,1,0,0,2,789,2],
+"classmrmeshpy_1_1SliceInfo.html#a61d1647f4cb3411328fc43febbae2405":[6,1,1,0,1,789,2],
+"classmrmeshpy_1_1SliceInfoBase.html":[6,1,0,0,2,790],
+"classmrmeshpy_1_1SliceInfoBase.html":[6,1,1,0,1,790],
 "classmrmeshpy_1_1SliceInfoBase.html#a0b5d54c5e214c4b4808bcdb53585e9f6":[6,1,0,0,2,790,5],
 "classmrmeshpy_1_1SliceInfoBase.html#a0b5d54c5e214c4b4808bcdb53585e9f6":[6,1,1,0,1,790,5],
 "classmrmeshpy_1_1SliceInfoBase.html#a0cd0c41135a316f4d59f102459c57e37":[6,1,0,0,2,790,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1StitchHolesParams.html":[6,1,0,0,2,1005],
 "classmrmeshpy_1_1StitchHolesParams.html":[6,1,1,0,1,1005],
 "classmrmeshpy_1_1StitchHolesParams.html#a19570f6ab1308b13d150c25ee857b646":[6,1,0,0,2,1005,6],
-"classmrmeshpy_1_1StitchHolesParams.html#a19570f6ab1308b13d150c25ee857b646":[6,1,1,0,1,1005,6],
-"classmrmeshpy_1_1StitchHolesParams.html#a359d46a5b8d0e13d8cf2d4cbffeb5d1a":[6,1,0,0,2,1005,5],
-"classmrmeshpy_1_1StitchHolesParams.html#a359d46a5b8d0e13d8cf2d4cbffeb5d1a":[6,1,1,0,1,1005,5],
-"classmrmeshpy_1_1StitchHolesParams.html#a42d8064219d2b75d5c948793804b97eb":[6,1,0,0,2,1005,1],
-"classmrmeshpy_1_1StitchHolesParams.html#a42d8064219d2b75d5c948793804b97eb":[6,1,1,0,1,1005,1],
-"classmrmeshpy_1_1StitchHolesParams.html#a96b1b683216d46071341ee6fcae641ba":[6,1,0,0,2,1005,3],
-"classmrmeshpy_1_1StitchHolesParams.html#a96b1b683216d46071341ee6fcae641ba":[6,1,1,0,1,1005,3],
-"classmrmeshpy_1_1StitchHolesParams.html#aa9263fcdd3fbf8cb197b3a998e197cd5":[6,1,0,0,2,1005,4],
-"classmrmeshpy_1_1StitchHolesParams.html#aa9263fcdd3fbf8cb197b3a998e197cd5":[6,1,1,0,1,1005,4]
+"classmrmeshpy_1_1StitchHolesParams.html#a19570f6ab1308b13d150c25ee857b646":[6,1,1,0,1,1005,6]
 };

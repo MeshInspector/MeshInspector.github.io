@@ -1,5 +1,11 @@
 var NAVTREEINDEX128 =
 {
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html":[6,2,1,0,0,0,2,214],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a05cf4c767237f7b60e71aed6076e64ed":[6,2,1,0,0,0,2,214,5],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a0b9a6d4d8debd31f923cff86a2f9aa71":[6,2,1,0,0,0,2,214,13],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a12fcb330496bd99d10e65f53d31d89e9":[6,2,1,0,0,0,2,214,9],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a13d4bef8bfa67d12df7bafa84331b149":[6,2,1,0,0,0,2,214,0],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a23bc5aa137ce64a429197fca2def138b":[6,2,1,0,0,0,2,214,8],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f":[6,2,1,0,0,0,2,214,1],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6b9aad0751e52b707b472702bba194e8":[6,2,1,0,0,0,2,214,2],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6fb419834af6e74d2df2d44a0e054d00":[6,2,1,0,0,0,2,214,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX128 =
 "std__pair__bool__int_8h.html":[6,2,1,0,0,0,2,215],
 "std__pair__bool__int_8h.html#a0ec1ed364f8f6adda1b59bb030541397":[6,2,1,0,0,0,2,215,1],
 "std__pair__bool__int_8h.html#a13aad4fd4ce0c022aa6190ec2d9d89b5":[6,2,1,0,0,0,2,215,5],
-"std__pair__bool__int_8h.html#a245b2f19fb62dbc09c1b18b6e6cffb2d":[6,2,1,0,0,0,2,215,11],
-"std__pair__bool__int_8h.html#a30ce745c85e699bc2115fa02e0274e2a":[6,2,1,0,0,0,2,215,2],
-"std__pair__bool__int_8h.html#a3e62efe0fe25b68cb713a2420a709bd6":[6,2,1,0,0,0,2,215,8],
-"std__pair__bool__int_8h.html#a4af0d0bce06cd8461044b80537435b58":[6,2,1,0,0,0,2,215,10],
-"std__pair__bool__int_8h.html#a4e7630eda45520b0a83794e6fcbe9267":[6,2,1,0,0,0,2,215,3],
-"std__pair__bool__int_8h.html#a5b4e9943d1c8327731f67e39a6416b34":[6,2,1,0,0,0,2,215,9],
-"std__pair__bool__int_8h.html#a894d38afb27ed0a81b1a6efcdbe6b4f4":[6,2,1,0,0,0,2,215,12]
+"std__pair__bool__int_8h.html#a245b2f19fb62dbc09c1b18b6e6cffb2d":[6,2,1,0,0,0,2,215,11]
 };

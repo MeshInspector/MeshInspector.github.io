@@ -1,5 +1,11 @@
 var NAVTREEINDEX126 =
 {
+"std__function__void__from__int_8h.html#aa5927bcdf8ebbe8e4f49939a81adf6ab":[6,2,1,0,0,0,2,163,9],
+"std__function__void__from__int_8h.html#ac9b52557c4c84383d4d5751b740c0fbf":[6,2,1,0,0,0,2,163,2],
+"std__function__void__from__int_8h.html#ad0feb60470a3b9411f0ae948072aeac8":[6,2,1,0,0,0,2,163,1],
+"std__function__void__from__int_8h.html#ada9602511ad08b04ba3b3923402ef647":[6,2,1,0,0,0,2,163,6],
+"std__function__void__from__int_8h_source.html":[6,2,1,0,0,0,2,163],
+"std__optional__MR__AllLocalTriangulations_8h.html":[6,2,1,0,0,0,2,184],
 "std__optional__MR__AllLocalTriangulations_8h.html#a07206f863a7930f17413a0d2e2ad518a":[6,2,1,0,0,0,2,184,1],
 "std__optional__MR__AllLocalTriangulations_8h.html#a22c9b08fff7330d0e732983bcbac6fa9":[6,2,1,0,0,0,2,184,13],
 "std__optional__MR__AllLocalTriangulations_8h.html#a238f32953c4d691e5ac6b311e95d50ee":[6,2,1,0,0,0,2,184,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX126 =
 "std__optional__MR__PointCloud_8h.html#aa77f6c605e7fb6ff4b6196fec4ca7cad":[6,2,1,0,0,0,2,199,5],
 "std__optional__MR__PointCloud_8h.html#ab344b30a267b068a4443e581cbbf0c82":[6,2,1,0,0,0,2,199,1],
 "std__optional__MR__PointCloud_8h.html#ad0bf2f00b1d91b5be4387eff22339e32":[6,2,1,0,0,0,2,199,6],
-"std__optional__MR__PointCloud_8h.html#ae841f6c23349a4c298e34abd4c887e37":[6,2,1,0,0,0,2,199,8],
-"std__optional__MR__PointCloud_8h_source.html":[6,2,1,0,0,0,2,199],
-"std__optional__MR__PolylineIntersectionResult2_8h.html":[6,2,1,0,0,0,2,200],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a21ce17f2e6794e8b07b60b1a49316d26":[6,2,1,0,0,0,2,200,9],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a2c5c4fe2ba3d0ef815040fdaad735051":[6,2,1,0,0,0,2,200,11],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a2ef9b8f07924cf03436ba3cc741e2d02":[6,2,1,0,0,0,2,200,5],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a3b93e7f4b851b95f1f857da61fffc81f":[6,2,1,0,0,0,2,200,7]
+"std__optional__MR__PointCloud_8h.html#ae841f6c23349a4c298e34abd4c887e37":[6,2,1,0,0,0,2,199,8]
 };

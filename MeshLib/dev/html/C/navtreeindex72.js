@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"MRPointsProject_8h.html#ade2d785073c388e4a0a94a0929b090b3":[6,2,1,0,0,0,1,258,88],
+"MRPointsProject_8h.html#ae06e4a7b8984e7b0460735856e11a423":[6,2,1,0,0,0,1,258,36],
+"MRPointsProject_8h.html#aea50dac3a2b2a3a038d3ac0b56aac051":[6,2,1,0,0,0,1,258,60],
+"MRPointsProject_8h.html#aee5308e747ede15e90165d59013c6403":[6,2,1,0,0,0,1,258,84],
+"MRPointsProject_8h.html#aef479fba0499132b31e3e241e0625105":[6,2,1,0,0,0,1,258,57],
+"MRPointsProject_8h.html#aefed148a09a0ae55edbd22814638b462":[6,2,1,0,0,0,1,258,16],
 "MRPointsProject_8h.html#af0baabd67bd90f42879bbfa85dc77f79":[6,2,1,0,0,0,1,258,59],
 "MRPointsProject_8h.html#af1575f0818e4a58fc21a5ae3c800a7d4":[6,2,1,0,0,0,1,258,86],
 "MRPointsProject_8h.html#af858cfe7d7277c243602b2187b6c070a":[6,2,1,0,0,0,1,258,27],
@@ -243,11 +249,5 @@ var NAVTREEINDEX72 =
 "MRPolylineDecimate_8h.html#a460a1d9f4500222015069e8943ff0e4e":[6,2,1,0,0,0,1,267,21],
 "MRPolylineDecimate_8h.html#a46794944e754d85335a609c04309cf62":[6,2,1,0,0,0,1,267,45],
 "MRPolylineDecimate_8h.html#a4c9ee4667bb92375867b9c12cd173050":[6,2,1,0,0,0,1,267,89],
-"MRPolylineDecimate_8h.html#a4cccfb55bed08b84e2fb1ba176a9873c":[6,2,1,0,0,0,1,267,17],
-"MRPolylineDecimate_8h.html#a4d0e091d72b7ff8b51822c7c37ffeb82":[6,2,1,0,0,0,1,267,20],
-"MRPolylineDecimate_8h.html#a4d9164abb1b0125f190fcf936cc15474":[6,2,1,0,0,0,1,267,47],
-"MRPolylineDecimate_8h.html#a4e8b64eda278d91e3e5819be7d109e71":[6,2,1,0,0,0,1,267,12],
-"MRPolylineDecimate_8h.html#a51471f8fd8aa74f9a8cc98c74380549b":[6,2,1,0,0,0,1,267,41],
-"MRPolylineDecimate_8h.html#a53160ad4c43633bef225f5b8b029daed":[6,2,1,0,0,0,1,267,109],
-"MRPolylineDecimate_8h.html#a56467208a44fee07313d50e094722bc3":[6,2,1,0,0,0,1,267,72]
+"MRPolylineDecimate_8h.html#a4cccfb55bed08b84e2fb1ba176a9873c":[6,2,1,0,0,0,1,267,17]
 };

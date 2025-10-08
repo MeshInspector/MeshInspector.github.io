@@ -1,5 +1,11 @@
 var NAVTREEINDEX52 =
 {
+"MRMeshMath_8h.html#af8b886d56585b183345be58f18a7159a":[6,2,1,0,0,0,1,178,38],
+"MRMeshMath_8h_source.html":[6,2,1,0,0,0,1,178],
+"MRMeshMeshDistance_8h.html":[6,2,1,0,0,0,1,179],
+"MRMeshMeshDistance_8h.html#a042826741caa4022071cd068e8cfb0bd":[6,2,1,0,0,0,1,179,25],
+"MRMeshMeshDistance_8h.html#a04beb5153370f051a06c0671724b799f":[6,2,1,0,0,0,1,179,2],
+"MRMeshMeshDistance_8h.html#a0b6fb69f512709472a57ac21e980e467":[6,2,1,0,0,0,1,179,23],
 "MRMeshMeshDistance_8h.html#a0ddc3e091c81df61792f1be0d3efc9ac":[6,2,1,0,0,0,1,179,5],
 "MRMeshMeshDistance_8h.html#a0e0ead09010c658f544208310f0c959a":[6,2,1,0,0,0,1,179,15],
 "MRMeshMeshDistance_8h.html#a13bccd6e2698116d8ced1de6a54e9850":[6,2,1,0,0,0,1,179,29],
@@ -243,11 +249,5 @@ var NAVTREEINDEX52 =
 "MRMeshOverhangs_8h.html#a217042f076f8ed2be2d7e8306d33b51e":[6,2,1,0,0,0,1,184,32],
 "MRMeshOverhangs_8h.html#a30f926307f58d8adde041658e60debcf":[6,2,1,0,0,0,1,184,5],
 "MRMeshOverhangs_8h.html#a311581e1d52aef4df169af8c196eeb6c":[6,2,1,0,0,0,1,184,18],
-"MRMeshOverhangs_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,184,3],
-"MRMeshOverhangs_8h.html#a3bcd15f95955c1e069792a7f81832815":[6,2,1,0,0,0,1,184,28],
-"MRMeshOverhangs_8h.html#a3c01116d1ab7812301f5dd718e2ed575":[6,2,1,0,0,0,1,184,22],
-"MRMeshOverhangs_8h.html#a3f09999e4ca75c775888da2e04a96f78":[6,2,1,0,0,0,1,184,29],
-"MRMeshOverhangs_8h.html#a42cad8e94a73230306eda89acd723646":[6,2,1,0,0,0,1,184,6],
-"MRMeshOverhangs_8h.html#a519b75bbbcd1bc1e53c32630bb9c9b66":[6,2,1,0,0,0,1,184,19],
-"MRMeshOverhangs_8h.html#a52c8592d5a26005eecc682ddccb16bae":[6,2,1,0,0,0,1,184,26]
+"MRMeshOverhangs_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,184,3]
 };

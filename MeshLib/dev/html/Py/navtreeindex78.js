@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#af1cc942c592d7d2ca53c103aed8e1b62":[6,1,0,0,2,767,0,4],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#af1cc942c592d7d2ca53c103aed8e1b62":[6,1,1,0,1,767,0,4],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#afdc956025e168baaf262d6bd57c63e76":[6,1,0,0,2,767,0,0],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#afdc956025e168baaf262d6bd57c63e76":[6,1,1,0,1,767,0,0],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html":[6,1,0,0,2,767,1],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html":[6,1,1,0,1,767,1],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a3192df274299d70119aaae3bdbfb3f19":[6,1,0,0,2,767,1,9],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a3192df274299d70119aaae3bdbfb3f19":[6,1,1,0,1,767,1,9],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a6f9be6ef6dcc23df18422eb4a3c47535":[6,1,0,0,2,767,1,7],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a6f9be6ef6dcc23df18422eb4a3c47535":[6,1,1,0,1,767,1,7],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a7ecd86dd59d60e8b2cbda055e203a7b8":[6,1,0,0,2,767,1,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#a7230ca50a7b80c52fd634f442da3f3ee":[6,1,0,0,2,776,11],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a7230ca50a7b80c52fd634f442da3f3ee":[6,1,1,0,1,776,11],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a88fc1dbbb167b4d3fd8495dfcec8272c":[6,1,0,0,2,776,4],
-"classmrmeshpy_1_1SharpOffsetParameters.html#a88fc1dbbb167b4d3fd8495dfcec8272c":[6,1,1,0,1,776,4],
-"classmrmeshpy_1_1SharpOffsetParameters.html#a9ef2287c3724c74ca0a36fbcf8ca5fe8":[6,1,0,0,2,776,3],
-"classmrmeshpy_1_1SharpOffsetParameters.html#a9ef2287c3724c74ca0a36fbcf8ca5fe8":[6,1,1,0,1,776,3],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ac3b1bdf067bfa36595a3f3e4cd85b54e":[6,1,0,0,2,776,9],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ac3b1bdf067bfa36595a3f3e4cd85b54e":[6,1,1,0,1,776,9],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ac564f79c5f8e8ae657393664856d9ad9":[6,1,0,0,2,776,7],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ac564f79c5f8e8ae657393664856d9ad9":[6,1,1,0,1,776,7],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ad43a0da3e14be66f9ffb8de920604876":[6,1,0,0,2,776,6],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ad43a0da3e14be66f9ffb8de920604876":[6,1,1,0,1,776,6]
+"classmrmeshpy_1_1SharpOffsetParameters.html#a88fc1dbbb167b4d3fd8495dfcec8272c":[6,1,1,0,1,776,4]
 };

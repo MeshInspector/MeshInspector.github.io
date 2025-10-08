@@ -234,15 +234,15 @@ var NAVTREEINDEX =
 "structMR_1_1PickPointManager_1_1Params.html#a102e46b3888698c0b6f7dd2903516f25",
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799",
 "structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180",
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56",
-"structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a",
-"structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d",
-"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351",
-"structMR_1_1TouchpadZoomGestureUpdateListener.html",
-"structMR_1_1UI_1_1PlotAxis.html#ac57871303ee04628acb4f6e93f60fa53",
-"structMR_1_1VarEdgeTri.html#adf3bb4f9a10426c166bd866f89ddf797",
-"structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d",
-"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586"
+"structMR_1_1RenderDimensions_1_1CommonParams.html#aa609dc0e9f68c9ca781df34a9acbe475",
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545",
+"structMR_1_1SomeLocalTriangulations.html",
+"structMR_1_1SystemMemory.html",
+"structMR_1_1TouchpadZoomGestureEndListener.html#add56d98f370e0b09bbe4eb85331b6cad",
+"structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85",
+"structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c",
+"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb",
+"structMR_1_1ZeroOnMove.html#a6c54d017113955a26465a32443707c9f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

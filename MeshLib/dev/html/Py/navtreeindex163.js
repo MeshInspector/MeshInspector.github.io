@@ -1,5 +1,13 @@
 var NAVTREEINDEX163 =
 {
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#afed39567e694e0f0c2722c0467eeaba1":[6,1,0,0,2,970,5],
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#afed39567e694e0f0c2722c0467eeaba1":[6,1,1,0,1,970,5],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html":[6,1,0,0,2,971],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html":[6,1,1,0,1,971],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a00150c09b6d82e36dd2c83b3b21af9d5":[6,1,0,0,2,971,8],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a00150c09b6d82e36dd2c83b3b21af9d5":[6,1,1,0,1,971,8],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a01ef8425e005baea29ce42f67fe0b955":[6,1,0,0,2,971,13],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a01ef8425e005baea29ce42f67fe0b955":[6,1,1,0,1,971,13],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a097e77cbc91859ca72a76c5a162cc59e":[6,1,0,0,2,971,0],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a097e77cbc91859ca72a76c5a162cc59e":[6,1,1,0,1,971,0],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a1124406e1fe0c83ccbafc30699f90e6f":[6,1,0,0,2,971,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX163 =
 "classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4b652376716e83be2ee92f0e891d7fe6":[6,1,0,0,2,975,1],
 "classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4b652376716e83be2ee92f0e891d7fe6":[6,1,1,0,1,975,1],
 "classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4e85d89d99e6432776e16771c76abd57":[6,1,0,0,2,975,26],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4e85d89d99e6432776e16771c76abd57":[6,1,1,0,1,975,26],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5189bda9e4d7f35da942bc8866061899":[6,1,0,0,2,975,24],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5189bda9e4d7f35da942bc8866061899":[6,1,1,0,1,975,24],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5742a290c986baf61b607cc652a6e26c":[6,1,0,0,2,975,23],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5742a290c986baf61b607cc652a6e26c":[6,1,1,0,1,975,23],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5d7cf99995ac35819ed6d2eb43efd230":[6,1,0,0,2,975,15],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5d7cf99995ac35819ed6d2eb43efd230":[6,1,1,0,1,975,15],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a7279982529a189d772afdcc2ddf9230a":[6,1,0,0,2,975,13],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a7279982529a189d772afdcc2ddf9230a":[6,1,1,0,1,975,13]
+"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4e85d89d99e6432776e16771c76abd57":[6,1,1,0,1,975,26]
 };
