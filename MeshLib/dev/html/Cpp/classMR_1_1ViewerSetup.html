@@ -174,9 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a04abb25fb543f1b7f29d33eed34bdb81" id="r_a04abb25fb543f1b7f29d33eed34bdb81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04abb25fb543f1b7f29d33eed34bdb81">setupCommonPlugins</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *) const</td></tr>
 <tr class="memdesc:a04abb25fb543f1b7f29d33eed34bdb81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups custom plugins to viewer.  <br /></td></tr>
 <tr class="separator:a04abb25fb543f1b7f29d33eed34bdb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba29b362190cbfc386b59d8051f8b06" id="r_a9ba29b362190cbfc386b59d8051f8b06"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba29b362190cbfc386b59d8051f8b06">setupSettingsManager</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, const std::string &amp;appName) const</td></tr>
-<tr class="memdesc:a9ba29b362190cbfc386b59d8051f8b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets custom viewer settings manager to viewer.  <br /></td></tr>
-<tr class="separator:a9ba29b362190cbfc386b59d8051f8b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d93aa8d3e8ee23b874c8c2f6e4a0eca" id="r_a0d93aa8d3e8ee23b874c8c2f6e4a0eca"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d93aa8d3e8ee23b874c8c2f6e4a0eca">setupSettingsManager</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, const std::string &amp;appName, bool reset=false) const</td></tr>
+<tr class="separator:a0d93aa8d3e8ee23b874c8c2f6e4a0eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a918f69117bd46f408fda277cad5fde2d" id="r_a918f69117bd46f408fda277cad5fde2d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a918f69117bd46f408fda277cad5fde2d">setupConfiguration</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer) const</td></tr>
 <tr class="separator:a918f69117bd46f408fda277cad5fde2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a189d84a7bbccaaa4f0936339d4e30b5e" id="r_a189d84a7bbccaaa4f0936339d4e30b5e"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a189d84a7bbccaaa4f0936339d4e30b5e">setupExtendedLibraries</a> () const</td></tr>
@@ -422,8 +421,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ba29b362190cbfc386b59d8051f8b06" name="a9ba29b362190cbfc386b59d8051f8b06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ba29b362190cbfc386b59d8051f8b06">&#9670;&#160;</a></span>setupSettingsManager()</h2>
+<a id="a0d93aa8d3e8ee23b874c8c2f6e4a0eca" name="a0d93aa8d3e8ee23b874c8c2f6e4a0eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d93aa8d3e8ee23b874c8c2f6e4a0eca">&#9670;&#160;</a></span>setupSettingsManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +438,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>appName</em></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>appName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>reset</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -448,8 +452,12 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Sets custom viewer settings manager to viewer. </p>
+<p>Sets custom viewer settings manager to viewer </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reset</td><td>- flag indicates that user launched application with request for reseting config file </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

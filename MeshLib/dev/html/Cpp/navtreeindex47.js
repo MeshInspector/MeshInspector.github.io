@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1StateBasePlugin.html#ac3e8d3db81bf9d8a316c46e82f369980":[6,0,2,0,1,696,23],
+"classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,1,0,1,715,5],
+"classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,2,0,1,696,5],
+"classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,1,0,1,715,17],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,2,0,1,696,17],
 "classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[6,0,1,0,1,715,3],
 "classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[6,0,2,0,1,696,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a":[6,0,1,0,1,722,11],
 "classMR_1_1SurfacePointWidget.html#a6beef790b7d769b9129087231ce6c11a":[6,0,2,0,1,703,11],
 "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552":[6,0,1,0,1,722,24],
-"classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552":[6,0,2,0,1,703,24],
-"classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b":[6,0,1,0,1,722,7],
-"classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b":[6,0,2,0,1,703,7],
-"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[6,0,1,0,1,722,2],
-"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[6,0,2,0,1,703,2]
+"classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552":[6,0,2,0,1,703,24]
 };
