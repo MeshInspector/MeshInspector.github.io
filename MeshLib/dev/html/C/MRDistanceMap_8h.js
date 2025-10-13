@@ -95,6 +95,7 @@ var MRDistanceMap_8h =
     [ "MR_DistanceMap_DestroyArray", "MRDistanceMap_8h.html#a48ca148de32555c1b5123d2cce0a5070", null ],
     [ "MR_DistanceMap_get_1", "MRDistanceMap_8h.html#a7410bd464c374585856f786696a4fcbf", null ],
     [ "MR_DistanceMap_get_2", "MRDistanceMap_8h.html#a3c87b96d075be77ac8cf9621e583684e", null ],
+    [ "MR_DistanceMap_Get_NOT_VALID_VALUE", "MRDistanceMap_8h.html#a0d0c57aaaae332c390bb934720abddc8", null ],
     [ "MR_DistanceMap_getDerivativeMap", "MRDistanceMap_8h.html#af18202916bae7a3f6442ef8221ddca1e", null ],
     [ "MR_DistanceMap_getInterpolated", "MRDistanceMap_8h.html#aaade7e5b7c8f81f2864a88960b93123f", null ],
     [ "MR_DistanceMap_getLocalMaximums", "MRDistanceMap_8h.html#a9c6a6ee8682989e07243f04785ad2e13", null ],

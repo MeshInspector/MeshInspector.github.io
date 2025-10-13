@@ -148,6 +148,7 @@ $(function(){initNavTree('classmrmeshpy_1_1DistanceMap.html',''); initResizable(
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmrmeshpy_1_1DistanceMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.DistanceMap Class Reference</div></div>
 </div><!--header-->
@@ -284,6 +285,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5e2eed1e3b7a737a174c329787f7de26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e2eed1e3b7a737a174c329787f7de26" id="r_a5e2eed1e3b7a737a174c329787f7de26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e2eed1e3b7a737a174c329787f7de26">operator</a> (*args, **kwargs)</td></tr>
 <tr class="separator:a5e2eed1e3b7a737a174c329787f7de26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3dfc087640f8db0b5a32067d7a71e909" id="r_a3dfc087640f8db0b5a32067d7a71e909"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dfc087640f8db0b5a32067d7a71e909">NOT_VALID_VALUE</a> = -3.4028234663852886e+38</td></tr>
+<tr class="separator:a3dfc087640f8db0b5a32067d7a71e909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::DistanceMap
@@ -909,7 +915,7 @@ use this only if you sure that distance map has no invalid values or for seriali
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">checks if index element is valid (i.e. not `std::numeric_limits&lt;float&gt;::lowest()`; passing an invalid coord to this is UB)
+<pre class="fragment">checks if index element is valid (i.e. not `NOT_VALID_VALUE`; passing an invalid coord to this is UB)
 </pre> 
 </div>
 </div>
@@ -936,7 +942,7 @@ use this only if you sure that distance map has no invalid values or for seriali
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">checks if X,Y element is valid (i.e. not `std::numeric_limits&lt;float&gt;::lowest()`; passing invalid coords to this is UB)
+<pre class="fragment">checks if X,Y element is valid (i.e. not `NOT_VALID_VALUE`; passing invalid coords to this is UB)
 </pre> 
 </div>
 </div>
@@ -1362,6 +1368,29 @@ Use the same params with distance map creation
 </div><div class="memdoc">
 <pre class="fragment">invalidates value in (X,Y) element (the coords must be valid, UB otherwise)
 </pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3dfc087640f8db0b5a32067d7a71e909" name="a3dfc087640f8db0b5a32067d7a71e909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dfc087640f8db0b5a32067d7a71e909">&#9670;&#160;</a></span>NOT_VALID_VALUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.DistanceMap.NOT_VALID_VALUE = -3.4028234663852886e+38</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

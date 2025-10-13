@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,1,0,1,808,1,8],
+"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,2,0,1,789,1,8],
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,1,0,1,808,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,2,0,1,789,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,1,0,1,808,1,3],
@@ -232,6 +234,14 @@ var NAVTREEINDEX97 =
 "structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,823,1],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,842,0],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,2,0,1,823,0],
+"structMR_1_1WriteRawTiffParams.html":[6,0,1,0,1,844],
+"structMR_1_1WriteRawTiffParams.html":[6,0,2,0,1,825],
+"structMR_1_1WriteRawTiffParams.html#a1317e078308acc1053202597ce0c7fc5":[6,0,1,0,1,844,1],
+"structMR_1_1WriteRawTiffParams.html#a1317e078308acc1053202597ce0c7fc5":[6,0,2,0,1,825,1],
+"structMR_1_1WriteRawTiffParams.html#aaed0d8c11f3aa7212b03821592cd28f0":[6,0,1,0,1,844,2],
+"structMR_1_1WriteRawTiffParams.html#aaed0d8c11f3aa7212b03821592cd28f0":[6,0,2,0,1,825,2],
+"structMR_1_1WriteRawTiffParams.html#ae3407cfb581b97a1d15af1dcda46f310":[6,0,1,0,1,844,0],
+"structMR_1_1WriteRawTiffParams.html#ae3407cfb581b97a1d15af1dcda46f310":[6,0,2,0,1,825,0],
 "structMR_1_1Writer.html":[6,0,1,0,1,843],
 "structMR_1_1Writer.html":[6,0,2,0,1,824],
 "structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,1,0,1,843,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX97 =
 "structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,1,0,1,843,1],
 "structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,2,0,1,824,1],
 "structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,843,0],
-"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,824,0],
-"structMR_1_1ZCompensateParams.html":[6,0,1,0,1,845],
-"structMR_1_1ZCompensateParams.html":[6,0,2,0,1,826],
-"structMR_1_1ZCompensateParams.html#a63aacee1cab39c7a61fbcbd98bb05d08":[6,0,1,0,1,845,3],
-"structMR_1_1ZCompensateParams.html#a63aacee1cab39c7a61fbcbd98bb05d08":[6,0,2,0,1,826,3],
-"structMR_1_1ZCompensateParams.html#a6a4bf630cbc10985ba4034e18d604f3f":[6,0,1,0,1,845,2],
-"structMR_1_1ZCompensateParams.html#a6a4bf630cbc10985ba4034e18d604f3f":[6,0,2,0,1,826,2],
-"structMR_1_1ZCompensateParams.html#ab7a1ca3fc82fe6085925f64efc8337b4":[6,0,1,0,1,845,1],
-"structMR_1_1ZCompensateParams.html#ab7a1ca3fc82fe6085925f64efc8337b4":[6,0,2,0,1,826,1],
-"structMR_1_1ZCompensateParams.html#ace23d61165b2d32752b31667f44c5306":[6,0,1,0,1,845,0],
-"structMR_1_1ZCompensateParams.html#ace23d61165b2d32752b31667f44c5306":[6,0,2,0,1,826,0]
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,824,0]
 };

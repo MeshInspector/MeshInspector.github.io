@@ -1480,6 +1480,7 @@ var hierarchy =
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
     [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
+    [ "MR::WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::XfBasedCache< Box3f >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::ZCompensateParams", "structMR_1_1ZCompensateParams.html", null ],

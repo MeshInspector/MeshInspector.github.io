@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[6,0,0,1,23,0],
+"structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9":[6,0,0,1,23,1],
 "structMR_1_1MeshMeshSignedDistanceResult.html":[6,0,0,1,24],
 "structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09":[6,0,0,1,24,1],
 "structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb":[6,0,0,1,24,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1MinArg.html":[6,0,2,0,1,393],
 "structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,1,0,1,412,0],
 "structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,2,0,1,393,0],
-"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,1,0,1,412,5],
-"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,2,0,1,393,5],
-"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,1,0,1,412,1]
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,1,0,1,412,5]
 };

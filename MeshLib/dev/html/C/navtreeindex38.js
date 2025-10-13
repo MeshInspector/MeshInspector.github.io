@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"MRInnerShell_8h.html#afd168e9ecace08b60d117c7040604948":[6,2,1,0,0,0,1,120,42],
 "MRInnerShell_8h.html#afd711999a77805979373546166bee1ee":[6,2,1,0,0,0,1,120,38],
 "MRInnerShell_8h_source.html":[6,2,1,0,0,0,1,120],
 "MRIntersectionContour_8h.html":[6,2,1,0,0,0,1,122],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "MRIteratorRange_8h.html#aff28f237e4f2479ce9fc4f93add2486c":[6,2,1,0,0,0,1,131,51],
 "MRIteratorRange_8h_source.html":[6,2,1,0,0,0,1,131],
 "MRJpeg_8h.html":[6,2,1,0,0,0,0,5],
-"MRJpeg_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,0,5,1],
-"MRJpeg_8h.html#a1fa68caae7bfef43d22dd06324019562":[6,2,1,0,0,0,0,5,6]
+"MRJpeg_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,0,5,1]
 };

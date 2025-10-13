@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[6,0,1,0,1,6,0,0,5],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[6,0,2,0,1,2,0,0,5],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[6,0,1,0,1,6,0,0,18],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[6,0,2,0,1,2,0,0,18],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[6,0,1,0,1,6,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,2,0,1,234,0],
 "structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,1,0,1,253,3],
 "structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,2,0,1,234,3],
-"structMR_1_1FindOutliersParams.html":[6,0,1,0,1,254],
-"structMR_1_1FindOutliersParams.html":[6,0,2,0,1,235],
-"structMR_1_1FindOutliersParams.html#a41cffc0d0bf42f1a2f3131c84385aac0":[6,0,1,0,1,254,3]
+"structMR_1_1FindOutliersParams.html":[6,0,1,0,1,254]
 };

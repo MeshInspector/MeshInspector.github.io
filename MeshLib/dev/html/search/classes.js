@@ -303,6 +303,7 @@ var searchData=
   ['wrapper_3c_20wrappedmodelsubobject_3c_20isprimary_2c_20objecttype_20_3e_2c_20renderobjecttype_20_3e_20',['Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectType &gt;, RenderObjectType &gt;',['.././Cpp/classMR_1_1RenderWrapObject_1_1Wrapper.html',1,'MR::RenderWrapObject']]],
   ['wraptype_21',['WrapType',['.././Py/classmrmeshpy_1_1WrapType.html',1,'mrmeshpy']]],
   ['writer_22',['Writer',['.././Cpp/structMR_1_1Writer.html',1,'MR']]],
+  ['writerawtiffparams_23',['WriteRawTiffParams',['.././Cpp/structMR_1_1WriteRawTiffParams.html',1,'MR::WriteRawTiffParams'],['.././Py/classmrmeshpy_1_1WriteRawTiffParams.html',1,'mrmeshpy::WriteRawTiffParams']]],
   ['face2regionmap_0',['Face2RegionMap',['.././Py/classmrmeshpy_1_1Face2RegionMap.html',1,'mrmeshpy']]],
   ['facebitset_1',['FaceBitSet',['.././Py/classmrmeshpy_1_1FaceBitSet.html',1,'mrmeshpy']]],
   ['facebmap_2',['FaceBMap',['.././Py/classmrmeshpy_1_1FaceBMap.html',1,'mrmeshpy']]],

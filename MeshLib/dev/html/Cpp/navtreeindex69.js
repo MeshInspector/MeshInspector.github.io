@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,2,0,0,1,1],
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,1,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMRMultipleEdge.html#a99eda1238547e9eebd584fea876c5f40":[6,0,2,0,45,1],
 "structMRMultiwayICPSamplingParameters.html":[6,0,2,0,46],
 "structMRMultiwayICPSamplingParameters.html#a6ffd4ae5961126337fd51c62cf9ac751":[6,0,2,0,46,1],
-"structMRMultiwayICPSamplingParameters.html#a9e02f0c6508adad4c5bfb7fe846c9fc0":[6,0,2,0,46,2],
-"structMRMultiwayICPSamplingParameters.html#ac6058971b579e40ddc013b125896b756":[6,0,2,0,46,3],
-"structMRMultiwayICPSamplingParameters.html#afb1ffc02db827893fcb9639724311b4b":[6,0,2,0,46,0]
+"structMRMultiwayICPSamplingParameters.html#a9e02f0c6508adad4c5bfb7fe846c9fc0":[6,0,2,0,46,2]
 };

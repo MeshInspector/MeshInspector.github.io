@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"group__MeshDeloneGroup.html":[6,0,0,9,1],
 "group__MeshDeloneGroup.html#ga019b5724cb66137386f7769a26dc7292":[6,0,0,9,1,8],
 "group__MeshDeloneGroup.html#ga0a9e9023f129516daf5b28bfb921ae73":[6,0,0,9,1,12],
 "group__MeshDeloneGroup.html#ga17ac0bdda11a0bdfc51faab5936fa9b3":[6,0,0,9,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
 "group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
 "group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
-"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2],
-"group__SurfaceDistanceGroup.html":[6,0,0,16,1]
+"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2]
 };

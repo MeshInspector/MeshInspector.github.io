@@ -1040,6 +1040,7 @@ var annotated_dup =
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],
       [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
+      [ "WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", "structMR_1_1WriteRawTiffParams" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
       [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]

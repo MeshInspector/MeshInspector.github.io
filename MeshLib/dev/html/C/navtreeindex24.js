@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"MRDistanceMeasurementObject_8h.html#a4dd17bdc5fce292c8a32d4fd04b03ad2":[6,2,1,0,0,0,1,72,1],
 "MRDistanceMeasurementObject_8h.html#a4f832a1fa0e16906ccc92da9cc12b805":[6,2,1,0,0,0,1,72,32],
 "MRDistanceMeasurementObject_8h.html#a5709686613503105d4cdec32c543373a":[6,2,1,0,0,0,1,72,27],
 "MRDistanceMeasurementObject_8h.html#a5820e60a0ae31a43a2b37b83e7d1a468":[6,2,1,0,0,0,1,72,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "MREdgePathsBuilder_8h.html":[6,2,1,0,0,0,1,78],
 "MREdgePathsBuilder_8h.html#a002878fb018bcb5aacf4dbf5abd87bec":[6,2,1,0,0,0,1,78,121],
 "MREdgePathsBuilder_8h.html#a01b4355bf4dd911286bf0636d7259a4f":[6,2,1,0,0,0,1,78,55],
-"MREdgePathsBuilder_8h.html#a0272c01b3f26f50c48269168c4e1a027":[6,2,1,0,0,0,1,78,86],
-"MREdgePathsBuilder_8h.html#a057f0d6160b4b45196ff3d326c521c62":[6,2,1,0,0,0,1,78,22]
+"MREdgePathsBuilder_8h.html#a0272c01b3f26f50c48269168c4e1a027":[6,2,1,0,0,0,1,78,86]
 };

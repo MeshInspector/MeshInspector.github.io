@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"MREdgePoint_8h.html#a64ab6e45c09766341d29e139451fcb45":[6,2,1,0,0,0,1,79,71],
 "MREdgePoint_8h.html#a69b1dc90c79371e600d14817eb0c62cc":[6,2,1,0,0,0,1,79,50],
 "MREdgePoint_8h.html#a6b0939722c402e8390b83c7c511018e7":[6,2,1,0,0,0,1,79,28],
 "MREdgePoint_8h.html#a76aff3be379de172f76c94c430c91662":[6,2,1,0,0,0,1,79,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "MRExtractIsolines_8h_source.html":[6,2,1,0,0,0,1,85],
 "MRFaceDistance_8h.html":[6,2,1,0,0,0,1,86],
 "MRFaceDistance_8h.html#a02f69586da90ee4568be1ec6bfe59715":[6,2,1,0,0,0,1,86,17],
-"MRFaceDistance_8h.html#a0ca06fbda274cd6d519c4abb05952cfc":[6,2,1,0,0,0,1,86,9],
-"MRFaceDistance_8h.html#a2a5f7633ba91b2f78a704f9b86ac7311":[6,2,1,0,0,0,1,86,18]
+"MRFaceDistance_8h.html#a0ca06fbda274cd6d519c4abb05952cfc":[6,2,1,0,0,0,1,86,9]
 };

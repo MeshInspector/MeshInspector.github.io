@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__SurfaceDistanceGroup.html":[6,0,0,16,1],
 "group__SurfaceDistanceGroup.html#ga3cea63fb21eb5913ec6d762c2a6d45ae":[6,0,0,16,1,3],
 "group__SurfaceDistanceGroup.html#ga3da9c13536f2ad0435b641eb09e95c85":[6,0,0,16,1,1],
 "group__SurfaceDistanceGroup.html#ga3f228e29cdfd33222074f3a25626c1d6":[6,0,0,16,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceImGui.html#a2e673d54604370c06cb076d0449831a3":[6,0,1,0,0,18],
 "namespaceImGui.html#a35ab4450ec9a2caa24b029e5c5c11ecb":[6,0,1,0,0,28],
 "namespaceImGui.html#a378834d8803566841b144ddf878ef623":[6,0,1,0,0,33],
-"namespaceImGui.html#a392168d28bc4973532ead37f8061121e":[6,0,1,0,0,31],
-"namespaceImGui.html#a4e3833bf7761da4ac20ca9397fbdbc16":[6,0,1,0,0,30]
+"namespaceImGui.html#a392168d28bc4973532ead37f8061121e":[6,0,1,0,0,31]
 };

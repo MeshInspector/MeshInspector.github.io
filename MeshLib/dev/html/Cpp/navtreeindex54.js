@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1VisualObject.html#af63540ac95e6431477166fb4d1c249a3":[6,0,0,11,2,5,69],
 "classMR_1_1VisualObject.html#af6cd63e72a721fbe39cdff002950bce4":[6,0,0,11,2,5,78],
 "classMR_1_1VisualObject.html#af81b9247c457c9dbd36d6bbe4c74b826":[6,0,0,11,2,5,5],
 "classMR_1_1VisualObject.html#af8f1e6dfa5e98e4c44896a848932fa66":[6,0,0,11,2,5,32],
@@ -232,22 +233,21 @@ var NAVTREEINDEX54 =
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,1,0,1,6,4],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
-"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,849],
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,848],
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,850],
+"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,849],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,15,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,15,0,12],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,15,0,9],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,15,0,11],
-"conceptMR_1_1Trivial.html":[6,0,1,0,1,847],
+"conceptMR_1_1Trivial.html":[6,0,1,0,1,848],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,42,2,5],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,1,0,1,42,0,0],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,1,0,1,42,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,1,0,1,42,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,42,0,1],
-"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,851],
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,852],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,1,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,1,12],
-"dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3],
-"dir_2346133afcf87de1e7c9c1d97991d9ea.html":[6,0,3,0,0,1,0]
+"dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3]
 };
