@@ -1974,7 +1974,7 @@ var mrmeshpy_8pyi =
     [ "getParallelPlaneFillMetric", "mrmeshpy_8pyi.html#a48403b0c00f64a3ecf3535d827209a85", null ],
     [ "getPathEdgesInPlane", "mrmeshpy_8pyi.html#a3f8b8e549307a84b56b51d000a659adc", null ],
     [ "getPathPlaneIntersections", "mrmeshpy_8pyi.html#a3170fc994d2daeedbc066564e67cb146", null ],
-    [ "getPickedPointNormal", "mrmeshpy_8pyi.html#ad1744d9f1ca8bb8e75b2ca3683218e5b", null ],
+    [ "getPickedPointNormal", "mrmeshpy_8pyi.html#a30a927d47f38768b3a5aa44ee7b0c171", null ],
     [ "getPickedPointPosition", "mrmeshpy_8pyi.html#af81852a41d1037269c6f1a6e5299e963", null ],
     [ "getPlanarHoleFillPlan", "mrmeshpy_8pyi.html#a50aee1590c8ffa97a45798f5efb7e7d9", null ],
     [ "getPlanarHoleFillPlans", "mrmeshpy_8pyi.html#a8ee28bb13f35210dc8411bf7305f4419", null ],

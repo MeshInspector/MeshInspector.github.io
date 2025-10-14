@@ -3814,8 +3814,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3f8b8e549307a84b56b51d000a659adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3170fc994d2daeedbc066564e67cb146" id="r_a3170fc994d2daeedbc066564e67cb146"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3170fc994d2daeedbc066564e67cb146">getPathPlaneIntersections</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__Id__EdgeTag.html">std_vector_Id_EdgeTag</a> path, <a class="el" href="classmrmeshpy_1_1Plane3f.html">Plane3f</a> plane, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a> outIntersections=None)</td></tr>
 <tr class="separator:a3170fc994d2daeedbc066564e67cb146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1744d9f1ca8bb8e75b2ca3683218e5b" id="r_ad1744d9f1ca8bb8e75b2ca3683218e5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1744d9f1ca8bb8e75b2ca3683218e5b">getPickedPointNormal</a> (<a class="el" href="classmrmeshpy_1_1VisualObject.html">VisualObject</a> object, <a class="el" href="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html">std_variant_std_monostate_MeshTriPoint_EdgePoint_Id_VertTag</a> point)</td></tr>
-<tr class="separator:ad1744d9f1ca8bb8e75b2ca3683218e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a927d47f38768b3a5aa44ee7b0c171" id="r_a30a927d47f38768b3a5aa44ee7b0c171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30a927d47f38768b3a5aa44ee7b0c171">getPickedPointNormal</a> (<a class="el" href="classmrmeshpy_1_1VisualObject.html">VisualObject</a> object, <a class="el" href="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html">std_variant_std_monostate_MeshTriPoint_EdgePoint_Id_VertTag</a> point, bool interpolated=True)</td></tr>
+<tr class="separator:a30a927d47f38768b3a5aa44ee7b0c171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af81852a41d1037269c6f1a6e5299e963" id="r_af81852a41d1037269c6f1a6e5299e963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81852a41d1037269c6f1a6e5299e963">getPickedPointPosition</a> (<a class="el" href="classmrmeshpy_1_1VisualObject.html">VisualObject</a> object, <a class="el" href="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html">std_variant_std_monostate_MeshTriPoint_EdgePoint_Id_VertTag</a> point)</td></tr>
 <tr class="separator:af81852a41d1037269c6f1a6e5299e963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50aee1590c8ffa97a45798f5efb7e7d9" id="r_a50aee1590c8ffa97a45798f5efb7e7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1HoleFillPlan.html">HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50aee1590c8ffa97a45798f5efb7e7d9">getPlanarHoleFillPlan</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e)</td></tr>
@@ -22614,8 +22614,8 @@ the order is similar as in AABB tree, but faster to compute
 </pre> 
 </div>
 </div>
-<a id="ad1744d9f1ca8bb8e75b2ca3683218e5b" name="ad1744d9f1ca8bb8e75b2ca3683218e5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1744d9f1ca8bb8e75b2ca3683218e5b">&#9670;&#160;</a></span>getPickedPointNormal()</h2>
+<a id="a30a927d47f38768b3a5aa44ee7b0c171" name="a30a927d47f38768b3a5aa44ee7b0c171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30a927d47f38768b3a5aa44ee7b0c171">&#9670;&#160;</a></span>getPickedPointNormal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -22628,11 +22628,17 @@ the order is similar as in AABB tree, but faster to compute
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html">std_variant_std_monostate_MeshTriPoint_EdgePoint_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html">std_variant_std_monostate_MeshTriPoint_EdgePoint_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>interpolated</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Returns object normal in local coordinates at given point,
+\\param interpolated if true returns interpolated normal for mesh object, otherwise returns flat normal
 returns std::nullopt if object or point is invalid, or if it is ObjectLines or ObjectPoints without normals
 </pre> 
 </div>

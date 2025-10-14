@@ -153,6 +153,7 @@ $(function(){initNavTree('MRPointOnObject_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPointOnObject_8h_source.html">Go to the source code of this file.</a></p>
@@ -211,8 +212,8 @@ Functions</h2></td></tr>
 <tr class="separator:ace01f6b696b893300e1ad279ad731178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a049566992ac40cc0576ffce972513a49" id="r_a049566992ac40cc0576ffce972513a49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a5c7e91d11b038315c0503df15b512997">MR_std_optional_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a049566992ac40cc0576ffce972513a49">MR_getPickedPointPosition</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *object, const <a class="el" href="#a360760a7fe4afc9590f0b7400169a743">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</a> *point)</td></tr>
 <tr class="separator:a049566992ac40cc0576ffce972513a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4c8045a383b04cab7f276b6ad015b7" id="r_a6e4c8045a383b04cab7f276b6ad015b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a5c7e91d11b038315c0503df15b512997">MR_std_optional_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4c8045a383b04cab7f276b6ad015b7">MR_getPickedPointNormal</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *object, const <a class="el" href="#a360760a7fe4afc9590f0b7400169a743">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</a> *point)</td></tr>
-<tr class="separator:a6e4c8045a383b04cab7f276b6ad015b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ac754391ab0a89f37ac243489e25c9" id="r_a49ac754391ab0a89f37ac243489e25c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a5c7e91d11b038315c0503df15b512997">MR_std_optional_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ac754391ab0a89f37ac243489e25c9">MR_getPickedPointNormal</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *object, const <a class="el" href="#a360760a7fe4afc9590f0b7400169a743">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</a> *point, const bool *interpolated)</td></tr>
+<tr class="separator:a49ac754391ab0a89f37ac243489e25c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a8329bba5dc9407bd75ca1a4909c9fe9a" name="a8329bba5dc9407bd75ca1a4909c9fe9a"></a>
@@ -288,8 +289,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6e4c8045a383b04cab7f276b6ad015b7" name="a6e4c8045a383b04cab7f276b6ad015b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e4c8045a383b04cab7f276b6ad015b7">&#9670;&#160;</a></span>MR_getPickedPointNormal()</h2>
+<a id="a49ac754391ab0a89f37ac243489e25c9" name="a49ac754391ab0a89f37ac243489e25c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ac754391ab0a89f37ac243489e25c9">&#9670;&#160;</a></span>MR_getPickedPointNormal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,11 +303,21 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a360760a7fe4afc9590f0b7400169a743">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a360760a7fe4afc9590f0b7400169a743">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>interpolated</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns object normal in local coordinates at given point, returns std::nullopt if object or point is invalid, or if it is ObjectLines or ObjectPoints without normals Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2c92af53121d8650918b145970fcfda0">MR::getPickedPointNormal</a></code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__Vector3f_8h.html#a3fbaf58edcfce7a6fcd5dd55fe487dc3" title="Destroys a heap-allocated instance of MR_std_optional_MR_Vector3f. Does nothing if the pointer is nul...">MR_std_optional_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Returns object normal in local coordinates at given point, </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">interpolated</td><td>if true returns interpolated normal for mesh object, otherwise returns flat normal returns std::nullopt if object or point is invalid, or if it is ObjectLines or ObjectPoints without normals Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af403dfe39beb0bed1ae39d133f0f01a1">MR::getPickedPointNormal</a></code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Parameter <code>interpolated</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__Vector3f_8h.html#a3fbaf58edcfce7a6fcd5dd55fe487dc3" title="Destroys a heap-allocated instance of MR_std_optional_MR_Vector3f. Does nothing if the pointer is nul...">MR_std_optional_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
