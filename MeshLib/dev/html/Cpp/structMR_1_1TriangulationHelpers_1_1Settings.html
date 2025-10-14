@@ -166,9 +166,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a341b31c3cef2ea814252e40a6dfbc8aa" id="r_a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a341b31c3cef2ea814252e40a6dfbc8aa">boundaryAngle</a> = 0.9f * PI_F</td></tr>
 <tr class="memdesc:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
 <tr class="separator:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe33d444027e0033891d8d9d75e52e1f" id="r_abe33d444027e0033891d8d9d75e52e1f"><td class="memItemLeft" align="right" valign="top">const VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe33d444027e0033891d8d9d75e52e1f">trustedNormals</a> = nullptr</td></tr>
-<tr class="memdesc:abe33d444027e0033891d8d9d75e52e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if oriented normals are known, they will be used for neighbor points selection  <br /></td></tr>
-<tr class="separator:abe33d444027e0033891d8d9d75e52e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa09c4f869d92627a0ca88966af3bef" id="r_adfa09c4f869d92627a0ca88966af3bef"><td class="memItemLeft" align="right" valign="top">const VertNormals *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfa09c4f869d92627a0ca88966af3bef">orientedNormals</a> = nullptr</td></tr>
+<tr class="separator:adfa09c4f869d92627a0ca88966af3bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86643849d573e87b6dd3e459323b97a3" id="r_a86643849d573e87b6dd3e459323b97a3"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86643849d573e87b6dd3e459323b97a3">untrustedNormals</a> = nullptr</td></tr>
+<tr class="separator:a86643849d573e87b6dd3e459323b97a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49d74151d155a2c96be9eb811e05757d" id="r_a49d74151d155a2c96be9eb811e05757d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d74151d155a2c96be9eb811e05757d">automaticRadiusIncrease</a> = true</td></tr>
 <tr class="memdesc:a49d74151d155a2c96be9eb811e05757d"><td class="mdescLeft">&#160;</td><td class="mdescRight">automatic increase of the radius if points outside can make triangles from original radius not-Delone  <br /></td></tr>
 <tr class="separator:a49d74151d155a2c96be9eb811e05757d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,6 +298,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adfa09c4f869d92627a0ca88966af3bef" name="adfa09c4f869d92627a0ca88966af3bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfa09c4f869d92627a0ca88966af3bef">&#9670;&#160;</a></span>orientedNormals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertNormals* MR::TriangulationHelpers::Settings::orientedNormals = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if oriented normals are known, they will be used for neighbor points selection except for the ones indicated by untrustedNormals </p>
+
+</div>
+</div>
 <a id="aeadcc460fdb58725f5fd22d6457ea9b2" name="aeadcc460fdb58725f5fd22d6457ea9b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeadcc460fdb58725f5fd22d6457ea9b2">&#9670;&#160;</a></span>radius</h2>
 
@@ -328,19 +344,17 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abe33d444027e0033891d8d9d75e52e1f" name="abe33d444027e0033891d8d9d75e52e1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe33d444027e0033891d8d9d75e52e1f">&#9670;&#160;</a></span>trustedNormals</h2>
+<a id="a86643849d573e87b6dd3e459323b97a3" name="a86643849d573e87b6dd3e459323b97a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86643849d573e87b6dd3e459323b97a3">&#9670;&#160;</a></span>untrustedNormals</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const VertCoords* MR::TriangulationHelpers::Settings::trustedNormals = nullptr</td>
+          <td class="memname">const VertBitSet* MR::TriangulationHelpers::Settings::untrustedNormals = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>if oriented normals are known, they will be used for neighbor points selection </p>
 
 </div>
 </div>

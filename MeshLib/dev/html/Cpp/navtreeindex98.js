@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,843,0],
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,824,0],
 "structMR_1_1ZCompensateParams.html":[6,0,1,0,1,846],
 "structMR_1_1ZCompensateParams.html":[6,0,2,0,1,827],
 "structMR_1_1ZCompensateParams.html#a63aacee1cab39c7a61fbcbd98bb05d08":[6,0,1,0,1,846,3],

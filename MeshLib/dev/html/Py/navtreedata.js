@@ -215,7 +215,7 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1SystemMemory.html",
 "classmrmeshpy_1_1TextureId.html#ad021a7cd788ce697331322ec67bc2f34",
 "classmrmeshpy_1_1TransformedMesh.html#a9a09b21db9c46c4a95d142f74fd17fd8",
-"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a846986fdff410d7ce00dab884a7fa6f3",
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a87eb14349692dc49d27a6d567a9c856a",
 "classmrmeshpy_1_1UiRenderManager.html#afda41d16e224514c07953d1ec83c8617",
 "classmrmeshpy_1_1UndirectedEdgeColors.html#a72b094d1e56b11849250f1851907632a",
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#ab067b0dde020605fd85a3fb1109a33b5",
