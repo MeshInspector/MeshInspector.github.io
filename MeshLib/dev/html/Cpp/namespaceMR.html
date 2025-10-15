@@ -752,6 +752,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a><br  />
 Structure has some options to control <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a>.  <a href="structMR_1_1FillHoleParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHolesWithExtraPointsParams.html">FillHolesWithExtraPointsParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindDisorientationParams.html">FindDisorientationParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for <code>findDisorientedFaces</code> function.  <a href="structMR_1_1FindDisorientationParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5194,8 +5196,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9a35a19f982f5409d7939ad87946a479" id="r_ga9a35a19f982f5409d7939ad87946a479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudTriangulationGroup.html#ga9a35a19f982f5409d7939ad87946a479">triangulatePointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="structMR_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
 <tr class="memdesc:ga9a35a19f982f5409d7939ad87946a479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from given point cloud according params Returns empty optional if was interrupted by progress bar.  <br /></td></tr>
 <tr class="separator:ga9a35a19f982f5409d7939ad87946a479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedc635789c90c6dc045fb16c1825eab4" id="r_aedc635789c90c6dc045fb16c1825eab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedc635789c90c6dc045fb16c1825eab4">fillHolesWithExtraPoints</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;extraPoints, const <a class="el" href="structMR_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
-<tr class="separator:aedc635789c90c6dc045fb16c1825eab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78380cd08bf7f494b7cecb2264046d37" id="r_a78380cd08bf7f494b7cecb2264046d37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78380cd08bf7f494b7cecb2264046d37">fillHolesWithExtraPoints</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;extraPoints, const <a class="el" href="structMR_1_1FillHolesWithExtraPointsParams.html">FillHolesWithExtraPointsParams</a> &amp;params={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
+<tr class="separator:a78380cd08bf7f494b7cecb2264046d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89a0d173f619c99ee93c0904af771995" id="r_a89a0d173f619c99ee93c0904af771995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a0d173f619c99ee93c0904af771995">pointOnObjectToPickedPoint</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
 <tr class="memdesc:a89a0d173f619c99ee93c0904af771995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> coordinates depending on the object type to the PickedPoint variant.  <br /></td></tr>
 <tr class="separator:a89a0d173f619c99ee93c0904af771995"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -18244,8 +18246,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aedc635789c90c6dc045fb16c1825eab4" name="aedc635789c90c6dc045fb16c1825eab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedc635789c90c6dc045fb16c1825eab4">&#9670;&#160;</a></span>fillHolesWithExtraPoints()</h2>
+<a id="a78380cd08bf7f494b7cecb2264046d37" name="a78380cd08bf7f494b7cecb2264046d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78380cd08bf7f494b7cecb2264046d37">&#9670;&#160;</a></span>fillHolesWithExtraPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -18266,7 +18268,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FillHolesWithExtraPointsParams.html">FillHolesWithExtraPointsParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

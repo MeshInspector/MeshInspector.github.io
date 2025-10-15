@@ -107,7 +107,7 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRNormalDenoising_8h.html#a786dcca1baeb53c3472aeec3c347aaf0":[6,0,3,0,0,1,4,243,3],
 "MRMesh_2MRNormalDenoising_8h_source.html":[6,0,3,0,0,1,4,243],
 "MRMesh_2MRPointCloudTriangulation_8h.html":[6,0,3,0,0,1,4,287],
-"MRMesh_2MRPointCloudTriangulation_8h.html#aedc635789c90c6dc045fb16c1825eab4":[6,0,3,0,0,1,4,287,0],
+"MRMesh_2MRPointCloudTriangulation_8h.html#a78380cd08bf7f494b7cecb2264046d37":[6,0,3,0,0,1,4,287,1],
 "MRMesh_2MRPointCloudTriangulation_8h_source.html":[6,0,3,0,0,1,4,287],
 "MRMesh_2MRPointCloud_8h.html":[6,0,3,0,0,1,4,280],
 "MRMesh_2MRPointCloud_8h_source.html":[6,0,3,0,0,1,4,280],

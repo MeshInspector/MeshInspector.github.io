@@ -397,6 +397,7 @@ var hierarchy =
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
+    [ "MR::FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", null ],
     [ "MR::FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", null ],
     [ "MR::UI::RectAllocator::FindFreeRectResult", "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html", null ],
     [ "MR::FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", null ],

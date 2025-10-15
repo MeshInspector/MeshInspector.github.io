@@ -307,6 +307,7 @@ var hierarchy =
     [ "mrmeshpy.FillHoleMetric", "classmrmeshpy_1_1FillHoleMetric.html", null ],
     [ "mrmeshpy.FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", null ],
     [ "mrmeshpy.FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", null ],
+    [ "mrmeshpy.FillHolesWithExtraPointsParams", "classmrmeshpy_1_1FillHolesWithExtraPointsParams.html", null ],
     [ "mrmeshpy.FillingSurface", "classmrmeshpy_1_1FillingSurface.html", null ],
     [ "mrmeshpy.FilterType", "classmrmeshpy_1_1FilterType.html", null ],
     [ "mrmeshpy.FindDisorientationParams", "classmrmeshpy_1_1FindDisorientationParams.html", null ],

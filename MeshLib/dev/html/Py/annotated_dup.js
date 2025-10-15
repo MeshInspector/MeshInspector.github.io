@@ -269,6 +269,7 @@ var annotated_dup =
       [ "FillHoleMetric", "classmrmeshpy_1_1FillHoleMetric.html", "classmrmeshpy_1_1FillHoleMetric" ],
       [ "FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", "classmrmeshpy_1_1FillHoleNicelySettings" ],
       [ "FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", "classmrmeshpy_1_1FillHoleParams" ],
+      [ "FillHolesWithExtraPointsParams", "classmrmeshpy_1_1FillHolesWithExtraPointsParams.html", "classmrmeshpy_1_1FillHolesWithExtraPointsParams" ],
       [ "FillingSurface", "classmrmeshpy_1_1FillingSurface.html", "classmrmeshpy_1_1FillingSurface" ],
       [ "FilterType", "classmrmeshpy_1_1FilterType.html", "classmrmeshpy_1_1FilterType" ],
       [ "FindDisorientationParams", "classmrmeshpy_1_1FindDisorientationParams.html", "classmrmeshpy_1_1FindDisorientationParams" ],
