@@ -278,6 +278,10 @@ Functions</h2></td></tr>
 <tr class="memitem:adcf2f35edd39ac820b77b169fce7c33e" id="r_adcf2f35edd39ac820b77b169fce7c33e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf2f35edd39ac820b77b169fce7c33e">getLuminance</a> (const ImVec4 &amp;col)</td></tr>
 <tr class="memdesc:adcf2f35edd39ac820b77b169fce7c33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crude conversion to grayscale. Good enough for our purposes.  <br /></td></tr>
 <tr class="separator:adcf2f35edd39ac820b77b169fce7c33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cea3fa072b495fc2fe4058e9b29727" id="r_a84cea3fa072b495fc2fe4058e9b29727"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84cea3fa072b495fc2fe4058e9b29727">GetWindowContentRegionMax</a> ()</td></tr>
+<tr class="separator:a84cea3fa072b495fc2fe4058e9b29727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4dbfabbfa45d74319ef541962ce2eb" id="r_a0a4dbfabbfa45d74319ef541962ce2eb"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a4dbfabbfa45d74319ef541962ce2eb">GetContentRegionMax</a> ()</td></tr>
+<tr class="separator:a0a4dbfabbfa45d74319ef541962ce2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a27ee05a9e60f4c26c369f0331134f682" name="a27ee05a9e60f4c26c369f0331134f682"></a>
@@ -923,6 +927,32 @@ template&lt;typename Getter , typename Setter &gt; </div>
 
 </div>
 </div>
+<a id="a0a4dbfabbfa45d74319ef541962ce2eb" name="a0a4dbfabbfa45d74319ef541962ce2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4dbfabbfa45d74319ef541962ce2eb">&#9670;&#160;</a></span>GetContentRegionMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImVec2 ImGui::GetContentRegionMax </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>current content boundaries (typically window boundaries including scrolling, or current column boundaries), in windows coordinates </p><dl class="section note"><dt>Note</dt><dd>copied from imgui because imgui recommends against using this method </dd></dl>
+
+</div>
+</div>
 <a id="a6dfe914b3199c96486e9fc7b82138777" name="a6dfe914b3199c96486e9fc7b82138777"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6dfe914b3199c96486e9fc7b82138777">&#9670;&#160;</a></span>GetDownPosition()</h2>
 
@@ -1048,6 +1078,24 @@ template&lt;typename Getter , typename Setter &gt; </div>
 </div><div class="memdoc">
 
 <p>Calculate and return the height of the window title. </p>
+
+</div>
+</div>
+<a id="a84cea3fa072b495fc2fe4058e9b29727" name="a84cea3fa072b495fc2fe4058e9b29727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cea3fa072b495fc2fe4058e9b29727">&#9670;&#160;</a></span>GetWindowContentRegionMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API ImVec2 ImGui::GetWindowContentRegionMax </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>content boundaries max for the full window (roughly (0,0)+Size-Scroll) where Size can be overridden with SetNextWindowContentSize(), in window coordinates </p><dl class="section note"><dt>Note</dt><dd>copied from imgui because imgui recommends against using this method </dd></dl>
 
 </div>
 </div>

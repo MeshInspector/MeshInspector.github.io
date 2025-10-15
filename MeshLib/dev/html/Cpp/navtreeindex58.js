@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__MeshDeleteGroup.html#ga71a058b3ccf7446b5d7f0475e1fc5d32":[6,0,0,9,0,0],
+"group__MeshDeleteGroup.html#gac3468d8961b17a859a730ed22897a331":[6,0,0,9,0,1],
 "group__MeshDeloneGroup.html":[6,0,0,9,1],
 "group__MeshDeloneGroup.html#ga019b5724cb66137386f7769a26dc7292":[6,0,0,9,1,8],
 "group__MeshDeloneGroup.html#ga0a9e9023f129516daf5b28bfb921ae73":[6,0,0,9,1,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "group__SerializerGroup.html#gafab977958cb409b72f7584d9f6602a3e":[6,0,0,2,15,14],
 "group__StreamOperatorsGroup.html":[6,0,0,2,16],
 "group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
-"group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
-"group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
-"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2]
+"group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2]
 };

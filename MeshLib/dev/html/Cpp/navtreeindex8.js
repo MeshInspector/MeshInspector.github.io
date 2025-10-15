@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshC_2MRVector_8h.html":[6,0,3,0,0,1,5,72],
+"MRMeshC_2MRVector_8h.html#a0c16d4fb0512e879d774d579b1a79f59":[6,0,3,0,0,1,5,72,4],
 "MRMeshC_2MRVector_8h.html#a3bffcd943d26953930bf9399b7da112d":[6,0,3,0,0,1,5,72,2],
 "MRMeshC_2MRVector_8h.html#a598e5f23bf24e83e3c7287e85cfec739":[6,0,3,0,0,1,5,72,0],
 "MRMeshC_2MRVector_8h.html#a74170e86e3faa2d28c5da15e7d127997":[6,0,3,0,0,1,5,72,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRFixSelfIntersections_8h.html#a31221cba193e98804d912de6685cd94a":[6,0,3,0,0,1,4,121,1],
 "MRMesh_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,1,4,121],
 "MRMesh_2MRFreeFormDeformer_8h.html":[6,0,3,0,0,1,4,123],
-"MRMesh_2MRFreeFormDeformer_8h.html#a5257f65923756edeb18ddf7a4b1edf81":[6,0,3,0,0,1,4,123,2],
-"MRMesh_2MRFreeFormDeformer_8h.html#add5f5baf42852a03fb03fcd8a53b1b69":[6,0,3,0,0,1,4,123,3],
-"MRMesh_2MRFreeFormDeformer_8h_source.html":[6,0,3,0,0,1,4,123]
+"MRMesh_2MRFreeFormDeformer_8h.html#a5257f65923756edeb18ddf7a4b1edf81":[6,0,3,0,0,1,4,123,2]
 };

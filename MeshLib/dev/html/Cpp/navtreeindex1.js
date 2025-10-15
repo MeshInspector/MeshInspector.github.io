@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
+"MRBitSetParallelFor_8h.html":[6,0,3,0,0,1,4,30],
 "MRBitSetParallelFor_8h.html#a003ae747d026a9348bbd8cf8eb29b30f":[6,0,3,0,0,1,4,30,13],
 "MRBitSetParallelFor_8h.html#a3bd79eee90fc2c0edb4ad601a2405b3c":[6,0,3,0,0,1,4,30,12],
 "MRBitSetParallelFor_8h.html#a4dae19e97b7c75a723c2c38ab4f6f379":[6,0,3,0,0,1,4,30,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRDemoPlugin_8h.html":[6,0,3,0,0,1,11,16],
 "MRDemoPlugin_8h.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a":[6,0,3,0,0,1,11,16,1],
 "MRDemoPlugin_8h_source.html":[6,0,3,0,0,1,11,16],
-"MRDenseBox_8h.html":[6,0,3,0,0,1,4,79],
-"MRDenseBox_8h_source.html":[6,0,3,0,0,1,4,79],
-"MRDicom_8h.html":[6,0,3,0,0,1,12,6]
+"MRDenseBox_8h.html":[6,0,3,0,0,1,4,79]
 };
