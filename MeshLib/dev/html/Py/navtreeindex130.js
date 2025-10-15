@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a5c87600176afce472b23a4ed81d102ea":[6,1,0,0,2,833,4],
+"classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a5c87600176afce472b23a4ed81d102ea":[6,1,1,0,1,833,4],
 "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a8a620236dee0a6479a3f1a5bef6a1dae":[6,1,0,0,2,833,0],
 "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a8a620236dee0a6479a3f1a5bef6a1dae":[6,1,1,0,1,833,0],
 "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a9008ddf6c06451e20a04f7db38b9e091":[6,1,0,0,2,833,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a5504c00047bfd6b95dd5d643ef57b744":[6,1,0,0,2,854,4],
 "classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a5504c00047bfd6b95dd5d643ef57b744":[6,1,1,0,1,854,4],
 "classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a8f7572eac5d28c98e3a4634e24b3fac4":[6,1,0,0,2,854,5],
-"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a8f7572eac5d28c98e3a4634e24b3fac4":[6,1,1,0,1,854,5],
-"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a9ce88aec47a094806cc6cb597b165abb":[6,1,0,0,2,854,3],
-"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a9ce88aec47a094806cc6cb597b165abb":[6,1,1,0,1,854,3]
+"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#a8f7572eac5d28c98e3a4634e24b3fac4":[6,1,1,0,1,854,5]
 };

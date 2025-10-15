@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"std__vector__MR__GraphEdgeId_8h.html#a4dd976ac76bece08ff4a35a3f092aa17":[6,2,1,0,0,0,2,320,46],
 "std__vector__MR__GraphEdgeId_8h.html#a4fea21cdac86001f9537615ef9806597":[6,2,1,0,0,0,2,320,12],
 "std__vector__MR__GraphEdgeId_8h.html#a574af13108cc82a064b1c454febb2b7f":[6,2,1,0,0,0,2,320,24],
 "std__vector__MR__GraphEdgeId_8h.html#a5fb903367496f74768707dd1cf2ed366":[6,2,1,0,0,0,2,320,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html#a95a0af4c5284222ff661e9dd15d7f4cf":[6,2,1,0,0,0,2,322,48],
 "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html#a97dbbc9107d50c9c88edfa3d5318534e":[6,2,1,0,0,0,2,322,13],
 "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html#a9a6e8e34db761d6fd4214422463c495a":[6,2,1,0,0,0,2,322,26],
-"std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html#a9da5c0967c721c3994a6a871f7ef3d42":[6,2,1,0,0,0,2,322,1],
-"std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html#a9ddda9890bdaf6cddab462c2dd556e41":[6,2,1,0,0,0,2,322,25]
+"std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html#a9da5c0967c721c3994a6a871f7ef3d42":[6,2,1,0,0,0,2,322,1]
 };

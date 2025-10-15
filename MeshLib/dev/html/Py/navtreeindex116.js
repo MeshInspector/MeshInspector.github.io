@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"classmrmeshpy_1_1VolumeSegmenter.html#ad70a18a50e034880f7e2b1fd04ab962b":[6,1,0,0,2,1171,5],
+"classmrmeshpy_1_1VolumeSegmenter.html#ad70a18a50e034880f7e2b1fd04ab962b":[6,1,1,0,1,1171,5],
 "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html":[6,1,0,0,2,1171,0],
 "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html":[6,1,1,0,1,1171,0],
 "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a1e088a9379b699608fb28aca16792748":[6,1,0,0,2,1171,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "classmrmeshpy_1_1VoxelTraits__FloatGrid.html#acecd8e1abe16cfc7b2dddeb5d9d9e65e":[6,1,0,0,2,1188,0],
 "classmrmeshpy_1_1VoxelTraits__FloatGrid.html#acecd8e1abe16cfc7b2dddeb5d9d9e65e":[6,1,0,0,2,1188,2],
 "classmrmeshpy_1_1VoxelTraits__FloatGrid.html#acecd8e1abe16cfc7b2dddeb5d9d9e65e":[6,1,1,0,1,1188,0],
-"classmrmeshpy_1_1VoxelTraits__FloatGrid.html#acecd8e1abe16cfc7b2dddeb5d9d9e65e":[6,1,1,0,1,1188,2],
-"classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html":[6,1,0,0,2,1191],
-"classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html":[6,1,1,0,1,1191]
+"classmrmeshpy_1_1VoxelTraits__FloatGrid.html#acecd8e1abe16cfc7b2dddeb5d9d9e65e":[6,1,1,0,1,1188,2]
 };

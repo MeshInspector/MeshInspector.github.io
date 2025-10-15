@@ -46,5 +46,6 @@ var MRPointCloud_8h =
     [ "MR_PointCloud_pack_MR_VertMap_ptr", "MRPointCloud_8h.html#aa18f716ae7fbcc90afea85bee696fb73", null ],
     [ "MR_PointCloud_Set_normals", "MRPointCloud_8h.html#abe63601a44cacf9a87f8154abf2d8f79", null ],
     [ "MR_PointCloud_Set_points", "MRPointCloud_8h.html#a86db9aebdbb258466243cc693f09bd33", null ],
-    [ "MR_PointCloud_Set_validPoints", "MRPointCloud_8h.html#af6d324093dc674581c5f06d59ac94183", null ]
+    [ "MR_PointCloud_Set_validPoints", "MRPointCloud_8h.html#af6d324093dc674581c5f06d59ac94183", null ],
+    [ "MR_PointCloud_transform", "MRPointCloud_8h.html#aae229aedc2dbab2f9c636de3e21be34d", null ]
 ];

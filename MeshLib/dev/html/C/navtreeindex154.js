@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"std__vector__MR__SkyPatch_8h.html#a2fa61b4148347ffa4da3dcdf4eabab88":[6,2,1,0,0,0,2,360,9],
 "std__vector__MR__SkyPatch_8h.html#a3063c0045346c90adbc2cc74fc7d2afc":[6,2,1,0,0,0,2,360,61],
 "std__vector__MR__SkyPatch_8h.html#a30ad457f6314d4fd526aa27cf15510ba":[6,2,1,0,0,0,2,360,14],
 "std__vector__MR__SkyPatch_8h.html#a30f1430f0ec49c3c56ff05fb1a608f58":[6,2,1,0,0,0,2,360,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "std__vector__MR__TextureId_8h.html#a74b8180b60ec14a8768e4ab543830fa7":[6,2,1,0,0,0,2,363,15],
 "std__vector__MR__TextureId_8h.html#a78152bdfe292d54f1a1eb854464e9aa9":[6,2,1,0,0,0,2,363,72],
 "std__vector__MR__TextureId_8h.html#a7a8cb23ff2c14eb056be9672efb5e2d6":[6,2,1,0,0,0,2,363,53],
-"std__vector__MR__TextureId_8h.html#a7b01945141260fce8f64e90347f797a4":[6,2,1,0,0,0,2,363,26],
-"std__vector__MR__TextureId_8h.html#a85f68cb0d21a1526400d6cbbd0f79912":[6,2,1,0,0,0,2,363,35]
+"std__vector__MR__TextureId_8h.html#a7b01945141260fce8f64e90347f797a4":[6,2,1,0,0,0,2,363,26]
 };

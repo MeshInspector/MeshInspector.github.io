@@ -246,6 +246,8 @@ Functions</h2></td></tr>
 <tr class="separator:a803db3cdd5f25029e38fb7ec9e36e211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a076033859741d0824c698cd696219217" id="r_a076033859741d0824c698cd696219217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a076033859741d0824c698cd696219217">MR_PointCloud_findCenterFromBBox</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a076033859741d0824c698cd696219217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae229aedc2dbab2f9c636de3e21be34d" id="r_aae229aedc2dbab2f9c636de3e21be34d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae229aedc2dbab2f9c636de3e21be34d">MR_PointCloud_transform</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:aae229aedc2dbab2f9c636de3e21be34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5704eaefcfc7d1fd0c6106e00acca178" id="r_a5704eaefcfc7d1fd0c6106e00acca178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5704eaefcfc7d1fd0c6106e00acca178">MR_PointCloud_getLexicographicalOrder</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a5704eaefcfc7d1fd0c6106e00acca178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a6143b976dfb20ea4f602d9dfc7f4dd" id="r_a7a6143b976dfb20ea4f602d9dfc7f4dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6143b976dfb20ea4f602d9dfc7f4dd">MR_PointCloud_addPartByMask</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *from, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fromVerts, const <a class="el" href="MRCloudPartMapping_8h.html#aaab4a354143c42cc0fd161d1c270cdf5">MR_CloudPartMapping</a> *outMap, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *extNormals)</td></tr>
@@ -1196,6 +1198,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>only points and normals corresponding to set bits here are valid Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></code> named <code>validPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aae229aedc2dbab2f9c636de3e21be34d" name="aae229aedc2dbab2f9c636de3e21be34d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae229aedc2dbab2f9c636de3e21be34d">&#9670;&#160;</a></span>MR_PointCloud_transform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_transform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given transformation to specified points and corresponding transformation to their normals if present; if region is nullptr, all valid points are modified Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></code> named <code>transform</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>xf</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>

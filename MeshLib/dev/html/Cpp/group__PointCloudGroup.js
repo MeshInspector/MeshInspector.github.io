@@ -21,6 +21,7 @@ var group__PointCloudGroup =
       [ "mirror", "structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5", null ],
       [ "pack", "structMR_1_1PointCloud.html#aafd6df26682cdaa7a360a4fdacf869bf", null ],
       [ "pack", "structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2", null ],
+      [ "transform", "structMR_1_1PointCloud.html#a03a45682f57cbf2e74847106e858f712", null ],
       [ "normals", "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad", null ],
       [ "points", "structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4", null ],
       [ "validPoints", "structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03", null ]

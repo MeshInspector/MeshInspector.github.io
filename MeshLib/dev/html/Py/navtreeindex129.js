@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"classmrmeshpy_1_1std__array__WeightedVertex__3.html":[6,1,0,0,2,823],
+"classmrmeshpy_1_1std__array__WeightedVertex__3.html":[6,1,1,0,1,823],
 "classmrmeshpy_1_1std__array__WeightedVertex__3.html#a20260c389982b53a4eeda4edd6c605fa":[6,1,0,0,2,823,6],
 "classmrmeshpy_1_1std__array__WeightedVertex__3.html#a20260c389982b53a4eeda4edd6c605fa":[6,1,1,0,1,823,6],
 "classmrmeshpy_1_1std__array__WeightedVertex__3.html#a62d9e2a0f7d5c11fbdc64bf35f796512":[6,1,0,0,2,823,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html":[6,1,0,0,2,833],
 "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html":[6,1,1,0,1,833],
 "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a4651696f9fdaf1567208b8b15b5128c5":[6,1,0,0,2,833,5],
-"classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a4651696f9fdaf1567208b8b15b5128c5":[6,1,1,0,1,833,5],
-"classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a5c87600176afce472b23a4ed81d102ea":[6,1,0,0,2,833,4],
-"classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a5c87600176afce472b23a4ed81d102ea":[6,1,1,0,1,833,4]
+"classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html#a4651696f9fdaf1567208b8b15b5128c5":[6,1,1,0,1,833,5]
 };

@@ -185,6 +185,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af4769b0bcb9a9bd664aa03c8e23c0ca0" id="r_af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4769b0bcb9a9bd664aa03c8e23c0ca0">findCenterFromBBox</a> () const</td></tr>
 <tr class="memdesc:af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes bounding box and returns its center  <br /></td></tr>
 <tr class="separator:af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a45682f57cbf2e74847106e858f712" id="r_a03a45682f57cbf2e74847106e858f712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03a45682f57cbf2e74847106e858f712">transform</a> (const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:a03a45682f57cbf2e74847106e858f712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8907016552924260082e3eaa3f163359" id="r_a8907016552924260082e3eaa3f163359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8907016552924260082e3eaa3f163359">getLexicographicalOrder</a> () const</td></tr>
 <tr class="memdesc:a8907016552924260082e3eaa3f163359"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling)  <br /></td></tr>
 <tr class="separator:a8907016552924260082e3eaa3f163359"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -721,6 +723,28 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&gt; old.id </p>
+
+</div>
+</div>
+<a id="a03a45682f57cbf2e74847106e858f712" name="a03a45682f57cbf2e74847106e858f712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a45682f57cbf2e74847106e858f712">&#9670;&#160;</a></span>transform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::transform </td>
+          <td>(</td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given transformation to specified points and corresponding transformation to their normals if present; if region is nullptr, all valid points are modified </p>
 
 </div>
 </div>

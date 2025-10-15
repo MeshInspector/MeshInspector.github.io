@@ -134,9 +134,10 @@ var NAVTREEINDEX87 =
 "structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,524,3],
 "structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,2,0,1,505,3],
 "structMR_1_1PointCloud.html":[6,0,0,12,0],
-"structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4":[6,0,0,12,0,21],
+"structMR_1_1PointCloud.html#a03a45682f57cbf2e74847106e858f712":[6,0,0,12,0,20],
+"structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4":[6,0,0,12,0,22],
 "structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59":[6,0,0,12,0,15],
-"structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad":[6,0,0,12,0,20],
+"structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad":[6,0,0,12,0,21],
 "structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26":[6,0,0,12,0,11],
 "structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be":[6,0,0,12,0,8],
 "structMR_1_1PointCloud.html#a319f02ae48a72ea0f874efa137764365":[6,0,0,12,0,0],
@@ -147,7 +148,7 @@ var NAVTREEINDEX87 =
 "structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5":[6,0,0,12,0,17],
 "structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8":[6,0,0,12,0,1],
 "structMR_1_1PointCloud.html#a8907016552924260082e3eaa3f163359":[6,0,0,12,0,12],
-"structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03":[6,0,0,12,0,22],
+"structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03":[6,0,0,12,0,23],
 "structMR_1_1PointCloud.html#aa0daa10e890c517ea30f6ad9fc8cf4bd":[6,0,0,12,0,5],
 "structMR_1_1PointCloud.html#aafd6df26682cdaa7a360a4fdacf869bf":[6,0,0,12,0,18],
 "structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069":[6,0,0,12,0,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[6,0,1,0,1,536,2],
 "structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[6,0,2,0,1,517,2],
 "structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[6,0,1,0,1,536,0],
-"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[6,0,2,0,1,517,0],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[6,0,1,0,1,29,0]
+"structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[6,0,2,0,1,517,0]
 };
