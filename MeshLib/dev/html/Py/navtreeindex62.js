@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"classmrmeshpy_1_1ObjectPointsHolder.html#adfd38edd1f55d3830f74e675f1b2ab54":[6,1,0,0,2,594,13],
+"classmrmeshpy_1_1ObjectPointsHolder.html#adfd38edd1f55d3830f74e675f1b2ab54":[6,1,1,0,1,594,13],
+"classmrmeshpy_1_1ObjectPointsHolder.html#ae619aa1d3ffa919568541313c7f6f7dd":[6,1,0,0,2,594,35],
+"classmrmeshpy_1_1ObjectPointsHolder.html#ae619aa1d3ffa919568541313c7f6f7dd":[6,1,1,0,1,594,35],
+"classmrmeshpy_1_1ObjectSave.html":[6,1,0,0,2,595],
+"classmrmeshpy_1_1ObjectSave.html":[6,1,1,0,1,595],
+"classmrmeshpy_1_1ObjectSelectivityType.html":[6,1,0,0,2,596],
+"classmrmeshpy_1_1ObjectSelectivityType.html":[6,1,1,0,1,596],
 "classmrmeshpy_1_1ObjectSelectivityType.html#a36c5fc92fe89d06c70a3aefec4abcf34":[6,1,0,0,2,596,8],
 "classmrmeshpy_1_1ObjectSelectivityType.html#a36c5fc92fe89d06c70a3aefec4abcf34":[6,1,1,0,1,596,8],
 "classmrmeshpy_1_1ObjectSelectivityType.html#a4d1a01a7b76003471262a68fe01ff704":[6,1,0,0,2,596,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a5a7c68e82761c32d4e85cb55fe6c7d7c":[6,1,0,0,2,598,0,2,5],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a5a7c68e82761c32d4e85cb55fe6c7d7c":[6,1,1,0,1,598,0,2,5],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a66101f30fb11ecdadfe0cbf838fb6a87":[6,1,0,0,2,598,0,2,3],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a66101f30fb11ecdadfe0cbf838fb6a87":[6,1,1,0,1,598,0,2,3],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a973da088226c02569d16de400f2d424c":[6,1,0,0,2,598,0,2,10],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a973da088226c02569d16de400f2d424c":[6,1,1,0,1,598,0,2,10],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa008b81a3c830681d9c77e85ba6778f5":[6,1,0,0,2,598,0,2,1],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa008b81a3c830681d9c77e85ba6778f5":[6,1,1,0,1,598,0,2,1],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa44f709357c35177e30bf2f6b145ff88":[6,1,0,0,2,598,0,2,7],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa44f709357c35177e30bf2f6b145ff88":[6,1,1,0,1,598,0,2,7],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acbc1541fc9c73bd6de471d57d70ddcd4":[6,1,0,0,2,598,0,2,6],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acbc1541fc9c73bd6de471d57d70ddcd4":[6,1,1,0,1,598,0,2,6]
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a66101f30fb11ecdadfe0cbf838fb6a87":[6,1,1,0,1,598,0,2,3]
 };

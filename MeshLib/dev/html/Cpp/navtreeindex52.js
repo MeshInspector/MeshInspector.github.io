@@ -1,5 +1,14 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1ViewerSettingsPlugin.html#a25d8a5c93929180a4b438d21afe8cb02":[6,0,1,0,1,806,5],
+"classMR_1_1ViewerSettingsPlugin.html#a25d8a5c93929180a4b438d21afe8cb02":[6,0,2,0,1,787,5],
+"classMR_1_1ViewerSettingsPlugin.html#a4fda238acd33621d265e12dff2282e03":[6,0,1,0,1,806,2],
+"classMR_1_1ViewerSettingsPlugin.html#a4fda238acd33621d265e12dff2282e03":[6,0,2,0,1,787,2],
+"classMR_1_1ViewerSettingsPlugin.html#aa3fd8eed1495a80edbc79bc1dc67e298":[6,0,1,0,1,806,7],
+"classMR_1_1ViewerSettingsPlugin.html#aa3fd8eed1495a80edbc79bc1dc67e298":[6,0,2,0,1,787,7],
+"classMR_1_1ViewerSettingsPlugin.html#ac31f0ed7c0847408208b9cd59d7a9c40":[6,0,1,0,1,806,4],
+"classMR_1_1ViewerSettingsPlugin.html#ac31f0ed7c0847408208b9cd59d7a9c40":[6,0,2,0,1,787,4],
+"classMR_1_1ViewerSettingsPlugin.html#acf4f908a53429634d394195587aabb59":[6,0,1,0,1,806,3],
 "classMR_1_1ViewerSettingsPlugin.html#acf4f908a53429634d394195587aabb59":[6,0,2,0,1,787,3],
 "classMR_1_1ViewerSettingsPlugin.html#ae579b363d0283ded6914225b425efd99":[6,0,1,0,1,806,8],
 "classMR_1_1ViewerSettingsPlugin.html#ae579b363d0283ded6914225b425efd99":[6,0,2,0,1,787,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Viewport.html#ab2c9307e0042dfba8ab64f861356ad72":[6,0,1,0,1,809,12],
 "classMR_1_1Viewport.html#ab2c9307e0042dfba8ab64f861356ad72":[6,0,2,0,1,790,12],
 "classMR_1_1Viewport.html#ab849f5462b1c06bb481e6c4bc9ba751d":[6,0,1,0,1,809,59],
-"classMR_1_1Viewport.html#ab849f5462b1c06bb481e6c4bc9ba751d":[6,0,2,0,1,790,59],
-"classMR_1_1Viewport.html#ab977a36a5474fc72fb2a9370f1a892aa":[6,0,1,0,1,809,103],
-"classMR_1_1Viewport.html#ab977a36a5474fc72fb2a9370f1a892aa":[6,0,2,0,1,790,103],
-"classMR_1_1Viewport.html#abe2f2d2fe99553548fc2b3f3a9f3d4b8":[6,0,1,0,1,809,60],
-"classMR_1_1Viewport.html#abe2f2d2fe99553548fc2b3f3a9f3d4b8":[6,0,2,0,1,790,60],
-"classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493":[6,0,1,0,1,809,112],
-"classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493":[6,0,2,0,1,790,112],
-"classMR_1_1Viewport.html#ac0659d4a5dd0df38ac51ced37ea4b26d":[6,0,1,0,1,809,62],
-"classMR_1_1Viewport.html#ac0659d4a5dd0df38ac51ced37ea4b26d":[6,0,2,0,1,790,62],
-"classMR_1_1Viewport.html#ac14fb13300d3dcf19a0baf3ae59163c6":[6,0,1,0,1,809,22]
+"classMR_1_1Viewport.html#ab849f5462b1c06bb481e6c4bc9ba751d":[6,0,2,0,1,790,59]
 };

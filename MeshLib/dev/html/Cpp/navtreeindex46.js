@@ -1,5 +1,14 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,663,1],
+"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,1,0,1,681],
+"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,2,0,1,662],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,1,0,1,681,0],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[6,0,2,0,1,662,0],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[6,0,1,0,1,681,0,2],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[6,0,2,0,1,662,0,2],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e":[6,0,1,0,1,681,0,0],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e":[6,0,2,0,1,662,0,0],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da92640bd72988395b326c888614f8937a":[6,0,1,0,1,681,0,4],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da92640bd72988395b326c888614f8937a":[6,0,2,0,1,662,0,4],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f":[6,0,1,0,1,681,0,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1StateBasePlugin.html#a54181a3e2d58070b748c4d49c721a0ea":[6,0,2,0,1,697,8],
 "classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4":[6,0,1,0,1,716,19],
 "classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4":[6,0,2,0,1,697,19],
-"classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[6,0,1,0,1,716,18],
-"classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[6,0,2,0,1,697,18],
-"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[6,0,1,0,1,716,14],
-"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[6,0,2,0,1,697,14],
-"classMR_1_1StateBasePlugin.html#a730c0edb5aead3d67519512f5545bd63":[6,0,1,0,1,716,4],
-"classMR_1_1StateBasePlugin.html#a730c0edb5aead3d67519512f5545bd63":[6,0,2,0,1,697,4],
-"classMR_1_1StateBasePlugin.html#a9a8917bb4527c6108a4ec176619d2990":[6,0,1,0,1,716,1],
-"classMR_1_1StateBasePlugin.html#a9a8917bb4527c6108a4ec176619d2990":[6,0,2,0,1,697,1],
-"classMR_1_1StateBasePlugin.html#aa1855ed7ea42bd976bee234e52655ffd":[6,0,1,0,1,716,10],
-"classMR_1_1StateBasePlugin.html#aa1855ed7ea42bd976bee234e52655ffd":[6,0,2,0,1,697,10]
+"classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[6,0,1,0,1,716,18]
 };

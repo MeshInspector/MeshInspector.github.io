@@ -1,5 +1,9 @@
 var NAVTREEINDEX132 =
 {
+"std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a59a63837a4265ca3ed925a5733ae5c27":[6,2,1,0,0,0,2,272,18],
+"std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a5d682d90cd5152d77adb1283ee5b1383":[6,2,1,0,0,0,2,272,19],
+"std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a5ee311d3f97fd2c5bc870fdf18824a5f":[6,2,1,0,0,0,2,272,8],
+"std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a620553ff3e5de240b21b00f0bb2e3e47":[6,2,1,0,0,0,2,272,15],
 "std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a6f4ae418621587c3f34c3ef99fe35ac4":[6,2,1,0,0,0,2,272,9],
 "std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a8ca57c82d10fc740fd998dfcda6951df":[6,2,1,0,0,0,2,272,7],
 "std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html#a8cd0fc5075612b0937393b01bcf676de":[6,2,1,0,0,0,2,272,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX132 =
 "std__variant__MR__VertMap__phmap__flat__hash__map__MR__VertId__MR__VertId_8h_source.html":[6,2,1,0,0,0,2,280],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html":[6,2,1,0,0,0,2,281],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a05c8a0b2a783d50abb1f88499090a1c5":[6,2,1,0,0,0,2,281,0],
-"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a0dd2bc2584a9192ed84fa101eb726e59":[6,2,1,0,0,0,2,281,3],
-"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a1502ac248a823c6c8368c1d276142b83":[6,2,1,0,0,0,2,281,9],
-"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a2495dadc561861056c8310724b064166":[6,2,1,0,0,0,2,281,17],
-"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a2ba41c717b9d9ff204b5ebb2a6b18b82":[6,2,1,0,0,0,2,281,1],
-"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a2f9817f06dc4f6bcf04d5e7c929e3374":[6,2,1,0,0,0,2,281,7]
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a0dd2bc2584a9192ed84fa101eb726e59":[6,2,1,0,0,0,2,281,3]
 };

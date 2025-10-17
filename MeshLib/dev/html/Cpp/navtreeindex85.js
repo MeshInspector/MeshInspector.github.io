@@ -1,5 +1,14 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,1,0,1,438,1],
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,2,0,1,419,1],
+"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,1,0,1,438,2],
+"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,2,0,1,419,2],
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
+"structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa":[6,0,0,8,2,0],
+"structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1],
+"structMR_1_1NoCtor.html":[6,0,1,0,1,442],
+"structMR_1_1NoCtor.html":[6,0,2,0,1,423],
 "structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,1,443],
 "structMR_1_1NoCtor_3_01T_01_4.html":[6,0,2,0,1,424],
 "structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,1,0,1,443,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1OffsetParameters.html#a17a5a45fd3d4de2eba7280f9071ac737":[6,0,2,0,1,468,0],
 "structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2":[6,0,1,0,1,487,1],
 "structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2":[6,0,2,0,1,468,1],
-"structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26":[6,0,1,0,1,487,3],
-"structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26":[6,0,2,0,1,468,3],
-"structMR_1_1OffsetParameters.html#aa99164027d422577e04d9f14f605b51c":[6,0,1,0,1,487,5],
-"structMR_1_1OffsetParameters.html#aa99164027d422577e04d9f14f605b51c":[6,0,2,0,1,468,5],
-"structMR_1_1OffsetParameters.html#abd9bbd0481fadc99967608720c11fee4":[6,0,1,0,1,487,2],
-"structMR_1_1OffsetParameters.html#abd9bbd0481fadc99967608720c11fee4":[6,0,2,0,1,468,2],
-"structMR_1_1OffsetParameters.html#ad18e4a01d5b80daf7231296013920c10":[6,0,1,0,1,487,4],
-"structMR_1_1OffsetParameters.html#ad18e4a01d5b80daf7231296013920c10":[6,0,2,0,1,468,4],
-"structMR_1_1OneMeshContour.html":[6,0,1,0,1,488],
-"structMR_1_1OneMeshContour.html":[6,0,2,0,1,469]
+"structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26":[6,0,1,0,1,487,3]
 };

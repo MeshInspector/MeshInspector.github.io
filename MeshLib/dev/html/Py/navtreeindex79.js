@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ab78030fa4840386c4c0457de72b81b0d":[6,1,0,0,2,774,0,2],
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ab78030fa4840386c4c0457de72b81b0d":[6,1,1,0,1,774,0,2],
+"classmrmeshpy_1_1SetNew.html":[6,1,0,0,2,775],
+"classmrmeshpy_1_1SetNew.html":[6,1,1,0,1,775],
+"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,0,0,2,775,0],
+"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,0,0,2,775,2],
+"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,1,0,1,775,0],
+"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,1,0,1,775,2],
 "classmrmeshpy_1_1SetNew.html#ae3bf7d8eb9283e5a2fa74e5a472a52e2":[6,1,0,0,2,775,1],
 "classmrmeshpy_1_1SetNew.html#ae3bf7d8eb9283e5a2fa74e5a472a52e2":[6,1,1,0,1,775,1],
 "classmrmeshpy_1_1SharpOffsetParameters.html":[6,1,0,0,2,777],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1SimpleVolumeU16.html#a61db6fb81336bd03ba834f0b7fa75261":[6,1,0,0,2,788,2],
 "classmrmeshpy_1_1SimpleVolumeU16.html#a61db6fb81336bd03ba834f0b7fa75261":[6,1,1,0,1,788,2],
 "classmrmeshpy_1_1SimpleVolumeU16.html#a93d4ad21dc73c8014c9dc30cd9ce944f":[6,1,0,0,2,788,0],
-"classmrmeshpy_1_1SimpleVolumeU16.html#a93d4ad21dc73c8014c9dc30cd9ce944f":[6,1,1,0,1,788,0],
-"classmrmeshpy_1_1SimpleVolumeU16.html#ad3941b6b9e619f709f5b3a054b95aeb9":[6,1,0,0,2,788,1],
-"classmrmeshpy_1_1SimpleVolumeU16.html#ad3941b6b9e619f709f5b3a054b95aeb9":[6,1,1,0,1,788,1],
-"classmrmeshpy_1_1SkyPatch.html":[6,1,0,0,2,789],
-"classmrmeshpy_1_1SkyPatch.html":[6,1,1,0,1,789],
-"classmrmeshpy_1_1SkyPatch.html#a023ba46a06a6ddc24d916896a293e375":[6,1,0,0,2,789,1],
-"classmrmeshpy_1_1SkyPatch.html#a023ba46a06a6ddc24d916896a293e375":[6,1,1,0,1,789,1],
-"classmrmeshpy_1_1SkyPatch.html#a090f9fb483c6b5b5fb96459585f2dfb1":[6,1,0,0,2,789,4],
-"classmrmeshpy_1_1SkyPatch.html#a090f9fb483c6b5b5fb96459585f2dfb1":[6,1,1,0,1,789,4]
+"classmrmeshpy_1_1SimpleVolumeU16.html#a93d4ad21dc73c8014c9dc30cd9ce944f":[6,1,1,0,1,788,0]
 };

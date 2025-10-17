@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aa226d42d5a35c9f64e1e15313df72d2c":[6,0,2,0,1,2,2,2,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[6,0,1,0,1,6,2,2,4],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[6,0,2,0,1,2,2,2,4],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,1,0,1,6,2,2,5],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,2,0,1,2,2,2,5],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,1,0,1,6,0,0],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,2,0,1,2,0,0],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[6,0,1,0,1,6,0,0,11],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[6,0,2,0,1,2,0,0,11],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb":[6,0,1,0,1,6,0,0,9],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb":[6,0,2,0,1,2,0,0,9],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a31365626f0397b521d1712b59fb2a466":[6,0,1,0,1,6,0,0,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#aceded37dcd711c7cd1f2aed01f5e21a6":[6,0,1,0,1,8,1,1,0],
 "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#aceded37dcd711c7cd1f2aed01f5e21a6":[6,0,2,0,1,4,1,1,0],
 "structMR_1_1FindDisorientationParams.html":[6,0,0,9,4,2],
-"structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[6,0,0,9,4,2,1],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[6,0,0,9,4,2,0],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[6,0,0,9,4,2,0,2],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147":[6,0,0,9,4,2,0,0],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389daa16249848fdc15d3bd637c5a13101cdb":[6,0,0,9,4,2,0,1],
-"structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[6,0,0,9,4,2,2],
-"structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3],
-"structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,254],
-"structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,235],
-"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,254,1]
+"structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[6,0,0,9,4,2,1]
 };

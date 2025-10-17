@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1SplineSettings.html#abf999f6eff157034e01fdaeea97ac6e3":[6,1,0,0,2,802,10],
+"classmrmeshpy_1_1SplineSettings.html#abf999f6eff157034e01fdaeea97ac6e3":[6,1,1,0,1,802,10],
+"classmrmeshpy_1_1SplineSettings.html#adb7a9379b779951afedf7af8a36b25a2":[6,1,0,0,2,802,0],
+"classmrmeshpy_1_1SplineSettings.html#adb7a9379b779951afedf7af8a36b25a2":[6,1,1,0,1,802,0],
+"classmrmeshpy_1_1SplineSettings.html#ae578f145c50ce31fca81dc64e286bad5":[6,1,0,0,2,802,6],
+"classmrmeshpy_1_1SplineSettings.html#ae578f145c50ce31fca81dc64e286bad5":[6,1,1,0,1,802,6],
+"classmrmeshpy_1_1SplineSettings.html#aee421774f17a472442df357e81fde798":[6,1,0,0,2,802,1],
+"classmrmeshpy_1_1SplineSettings.html#aee421774f17a472442df357e81fde798":[6,1,1,0,1,802,1],
 "classmrmeshpy_1_1Src2TgtMaps.html":[6,1,0,0,2,803],
 "classmrmeshpy_1_1Src2TgtMaps.html":[6,1,1,0,1,803],
 "classmrmeshpy_1_1Src2TgtMaps.html#a3ae824875881b132e3cbf1fcf69abf70":[6,1,0,0,2,803,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1SymMatrix2f.html#a8b30e9e678b8e15d816f35ec3c8db40b":[6,1,0,0,2,1012,15],
 "classmrmeshpy_1_1SymMatrix2f.html#a8b30e9e678b8e15d816f35ec3c8db40b":[6,1,1,0,1,1012,15],
 "classmrmeshpy_1_1SymMatrix2f.html#aacf84a3628546b98d89e8ee897499e23":[6,1,0,0,2,1012,20],
-"classmrmeshpy_1_1SymMatrix2f.html#aacf84a3628546b98d89e8ee897499e23":[6,1,1,0,1,1012,20],
-"classmrmeshpy_1_1SymMatrix2f.html#ab5385618e358c4ceffe0fa2c4ae5da1f":[6,1,0,0,2,1012,12],
-"classmrmeshpy_1_1SymMatrix2f.html#ab5385618e358c4ceffe0fa2c4ae5da1f":[6,1,1,0,1,1012,12],
-"classmrmeshpy_1_1SymMatrix2f.html#ab5f34f5490f73a15585e4b1a1d9a78f7":[6,1,0,0,2,1012,19],
-"classmrmeshpy_1_1SymMatrix2f.html#ab5f34f5490f73a15585e4b1a1d9a78f7":[6,1,1,0,1,1012,19],
-"classmrmeshpy_1_1SymMatrix2f.html#ab9a7019f9c2fbf6fb1b2004461fb426d":[6,1,0,0,2,1012,16],
-"classmrmeshpy_1_1SymMatrix2f.html#ab9a7019f9c2fbf6fb1b2004461fb426d":[6,1,1,0,1,1012,16],
-"classmrmeshpy_1_1SymMatrix2f.html#ac45134e479c505271eff2a769f284986":[6,1,0,0,2,1012,21],
-"classmrmeshpy_1_1SymMatrix2f.html#ac45134e479c505271eff2a769f284986":[6,1,1,0,1,1012,21]
+"classmrmeshpy_1_1SymMatrix2f.html#aacf84a3628546b98d89e8ee897499e23":[6,1,1,0,1,1012,20]
 };

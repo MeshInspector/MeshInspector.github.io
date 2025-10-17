@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html":[6,1,0,0,2,768,0],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html":[6,1,1,0,1,768,0],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a31ff59cec1dcb4f9a6034ed768465b0d":[6,1,0,0,2,768,0,7],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a31ff59cec1dcb4f9a6034ed768465b0d":[6,1,1,0,1,768,0,7],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a44e2351d8e5af0506ebca21ea426844e":[6,1,0,0,2,768,0,10],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a44e2351d8e5af0506ebca21ea426844e":[6,1,1,0,1,768,0,10],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a44ea9d4beca65272ef1ef8e9ea54dcef":[6,1,0,0,2,768,0,8],
+"classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a44ea9d4beca65272ef1ef8e9ea54dcef":[6,1,1,0,1,768,0,8],
 "classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a562359a615d8e97bcd1a0e39ea46a8dd":[6,1,0,0,2,768,0,1],
 "classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a562359a615d8e97bcd1a0e39ea46a8dd":[6,1,1,0,1,768,0,1],
 "classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a62511d64437848eaf96edfd4804cf5df":[6,1,0,0,2,768,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a78a8b736f9babfb21447914d0ce789fd":[6,1,0,0,2,774,0,4],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a78a8b736f9babfb21447914d0ce789fd":[6,1,1,0,1,774,0,4],
 "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a9381e6f8a188411ddd4cf3ee71733507":[6,1,0,0,2,774,0,5],
-"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a9381e6f8a188411ddd4cf3ee71733507":[6,1,1,0,1,774,0,5],
-"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ab78030fa4840386c4c0457de72b81b0d":[6,1,0,0,2,774,0,2],
-"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#ab78030fa4840386c4c0457de72b81b0d":[6,1,1,0,1,774,0,2],
-"classmrmeshpy_1_1SetNew.html":[6,1,0,0,2,775],
-"classmrmeshpy_1_1SetNew.html":[6,1,1,0,1,775],
-"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,0,0,2,775,0],
-"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,0,0,2,775,2],
-"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,1,0,1,775,0],
-"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,1,0,1,775,2]
+"classmrmeshpy_1_1SeparationPointStorage_1_1Block.html#a9381e6f8a188411ddd4cf3ee71733507":[6,1,1,0,1,774,0,5]
 };

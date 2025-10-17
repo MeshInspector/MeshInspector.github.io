@@ -1,5 +1,14 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1Dirty.html#a6413c49d02f7cf2203142d292b55f311":[6,0,0,11,2,4,3],
+"structMR_1_1Dirty.html#a71af917001468a850a824a320316bee5":[6,0,0,11,2,4,4],
+"structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[6,0,0,11,2,4,6],
+"structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[6,0,0,11,2,4,1],
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,0,1,0,1,199],
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,0,2,0,1,180],
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html#a1f9b9b98c5a65f0baaaa7de96b1c030c":[6,0,1,0,1,199,0],
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html#a1f9b9b98c5a65f0baaaa7de96b1c030c":[6,0,2,0,1,180,0],
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html#adddd26b61e807f48c6420f32cb322d21":[6,0,1,0,1,199,1],
 "structMR_1_1DistanceFromWeightedPointsComputeParams.html#adddd26b61e807f48c6420f32cb322d21":[6,0,2,0,1,180,1],
 "structMR_1_1DistanceFromWeightedPointsParams.html":[6,0,1,0,1,200],
 "structMR_1_1DistanceFromWeightedPointsParams.html":[6,0,2,0,1,181],
@@ -240,14 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,1,0,1,224,7],
 "structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,2,0,1,205,7],
 "structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,1,0,1,224,2],
-"structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,2,0,1,205,2],
-"structMR_1_1EdgePoint.html#a823872832981f7242927eb2725053bea":[6,0,1,0,1,224,1],
-"structMR_1_1EdgePoint.html#a823872832981f7242927eb2725053bea":[6,0,2,0,1,205,1],
-"structMR_1_1EdgePoint.html#a8af6e44f3bf41c0895fbef7ae838a263":[6,0,1,0,1,224,8],
-"structMR_1_1EdgePoint.html#a8af6e44f3bf41c0895fbef7ae838a263":[6,0,2,0,1,205,8],
-"structMR_1_1EdgePoint.html#a91ab20425879cb337a77e130ad484350":[6,0,1,0,1,224,9],
-"structMR_1_1EdgePoint.html#a91ab20425879cb337a77e130ad484350":[6,0,2,0,1,205,9],
-"structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741":[6,0,1,0,1,224,12],
-"structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741":[6,0,2,0,1,205,12],
-"structMR_1_1EdgePoint.html#aa0e9261e0dcf014db57e19ce882ddcfb":[6,0,1,0,1,224,17]
+"structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,2,0,1,205,2]
 };

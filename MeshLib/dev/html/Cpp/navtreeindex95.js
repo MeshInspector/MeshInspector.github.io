@@ -1,5 +1,14 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,25,4,4],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a2d50ee3bfe60ac20e4bdab21f4a626b4":[6,0,1,0,1,42,6,0],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a2d50ee3bfe60ac20e4bdab21f4a626b4":[6,0,2,0,1,25,4,0],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a64d2f07a4cb06b93c9c24f2783692d80":[6,0,1,0,1,42,6,1],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a64d2f07a4cb06b93c9c24f2783692d80":[6,0,2,0,1,25,4,1],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,1,0,1,42,6,3],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,2,0,1,25,4,3],
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,42,9,0],
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,1,25,7,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,1,0,1,42,9,0,1],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,2,0,1,25,7,0,1],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,1,0,1,42,9,0,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc":[6,0,2,0,1,764,7],
 "structMR_1_1UniteManyMeshesParams.html#a87d0c6c71297df5ccba6efb599d35f57":[6,0,1,0,1,783,2],
 "structMR_1_1UniteManyMeshesParams.html#a87d0c6c71297df5ccba6efb599d35f57":[6,0,2,0,1,764,2],
-"structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1":[6,0,1,0,1,783,6],
-"structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1":[6,0,2,0,1,764,6],
-"structMR_1_1UniteManyMeshesParams.html#ac647b8fce386278e1b3407f1b5f314e5":[6,0,1,0,1,783,1],
-"structMR_1_1UniteManyMeshesParams.html#ac647b8fce386278e1b3407f1b5f314e5":[6,0,2,0,1,764,1],
-"structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab":[6,0,1,0,1,783,8],
-"structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab":[6,0,2,0,1,764,8],
-"structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4":[6,0,1,0,1,783,5],
-"structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4":[6,0,2,0,1,764,5],
-"structMR_1_1UnorientedTriangle.html":[6,0,1,0,1,786],
-"structMR_1_1UnorientedTriangle.html":[6,0,2,0,1,767]
+"structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1":[6,0,1,0,1,783,6]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a703f1cacbe40720cc5c75886cf2d20e3":[6,0,2,0,1,7,7,7],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a71c5fbbf63729c0ca109e02507b73f7c":[6,0,1,0,1,16,7,10],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a71c5fbbf63729c0ca109e02507b73f7c":[6,0,2,0,1,7,7,10],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a7d12a250d3482201dab55d16f5b3e96c":[6,0,1,0,1,16,7,4],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a7d12a250d3482201dab55d16f5b3e96c":[6,0,2,0,1,7,7,4],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9":[6,0,1,0,1,16,7,24],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9":[6,0,2,0,1,7,7,24],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[6,0,1,0,1,16,7,18],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[6,0,2,0,1,7,7,18],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a9fc5ad01833510331469add7eb13a194":[6,0,1,0,1,16,7,15],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a9fc5ad01833510331469add7eb13a194":[6,0,2,0,1,7,7,15],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ab335f87ba8ba25ad3cbdcd1390319f4c":[6,0,1,0,1,16,7,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1InSphereSearchSettings.html":[6,0,1,0,1,318],
 "structMR_1_1InSphereSearchSettings.html":[6,0,2,0,1,299],
 "structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,1,0,1,318,0],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,2,0,1,299,0],
-"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,1,0,1,318,1],
-"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,2,0,1,299,1],
-"structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[6,0,1,0,1,318,4],
-"structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[6,0,2,0,1,299,4],
-"structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[6,0,1,0,1,318,2],
-"structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[6,0,2,0,1,299,2],
-"structMR_1_1InSphereSearchSettings.html#ac17cedea371781d54bc00fa84b7b0125":[6,0,1,0,1,318,3],
-"structMR_1_1InSphereSearchSettings.html#ac17cedea371781d54bc00fa84b7b0125":[6,0,2,0,1,299,3],
-"structMR_1_1InflateSettings.html":[6,0,1,0,1,315]
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,2,0,1,299,0]
 };

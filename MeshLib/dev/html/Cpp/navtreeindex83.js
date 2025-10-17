@@ -1,5 +1,14 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94":[6,0,1,0,1,386,4],
+"structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94":[6,0,2,0,1,367,4],
+"structMR_1_1MeshLoad_1_1MeshLoader.html":[6,0,0,2,7,0],
+"structMR_1_1MeshLoad_1_1MeshLoader.html#a40a2dbad196aed53280103d84b6fd429":[6,0,0,2,7,0,0],
+"structMR_1_1MeshLoad_1_1MeshLoader.html#a5be6b39d9d48430d0288a04da8de96b7":[6,0,0,2,7,0,1],
+"structMR_1_1MeshLoad_1_1NamedMesh.html":[6,0,0,2,11,1],
+"structMR_1_1MeshLoad_1_1ObjLoadSettings.html":[6,0,0,2,11,0],
+"structMR_1_1MeshMeshConverter.html":[6,0,1,0,1,387],
+"structMR_1_1MeshMeshConverter.html":[6,0,2,0,1,368],
 "structMR_1_1MeshMeshConverter.html#a799a0b7401b397fa7e07c3a6c8f565a1":[6,0,1,0,1,387,3],
 "structMR_1_1MeshMeshConverter.html#a799a0b7401b397fa7e07c3a6c8f565a1":[6,0,2,0,1,368,3],
 "structMR_1_1MeshMeshConverter.html#a9bd956d7adf45e7f09fe6105d37a84cb":[6,0,1,0,1,387,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,1,0,1,411,0],
 "structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,2,0,1,392,0],
 "structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,1,0,1,411,2],
-"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,2,0,1,392,2],
-"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,1,0,1,411,7],
-"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,2,0,1,392,7],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,23,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,2,0,1,14,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,1,0,1,23,0,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,2,0,1,14,0,0],
-"structMR_1_1MetricToAStarPenalty.html":[6,0,1,0,1,412],
-"structMR_1_1MetricToAStarPenalty.html":[6,0,2,0,1,393],
-"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,1,0,1,412,2]
+"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,2,0,1,392,2]
 };

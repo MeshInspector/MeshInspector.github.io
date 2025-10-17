@@ -1,5 +1,14 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1QuadricApprox.html":[6,0,0,0,14],
+"classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[6,0,0,0,14,2],
+"classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[6,0,0,0,14,1],
+"classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[6,0,0,0,14,0],
+"classMR_1_1RadiusMeasurementObject.html":[6,0,1,0,1,582],
+"classMR_1_1RadiusMeasurementObject.html":[6,0,2,0,1,563],
+"classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[6,0,1,0,1,582,29],
+"classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[6,0,2,0,1,563,29],
+"classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[6,0,1,0,1,582,17],
 "classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[6,0,2,0,1,563,17],
 "classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5":[6,0,1,0,1,582,28],
 "classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5":[6,0,2,0,1,563,28],
@@ -240,14 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a25f03c394752ed95a6eb71db98714312":[6,0,1,0,1,34,4,0],
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a25f03c394752ed95a6eb71db98714312":[6,0,2,0,1,19,4,0],
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a51e67eb60266c370689d03ec27c8e963":[6,0,1,0,1,34,4,1],
-"classMR_1_1RenderDimensions_1_1LengthTask.html#a51e67eb60266c370689d03ec27c8e963":[6,0,2,0,1,19,4,1],
-"classMR_1_1RenderDimensions_1_1LengthTask.html#a8ae60075550540eed0dc6caa49b99b98":[6,0,1,0,1,34,4,3],
-"classMR_1_1RenderDimensions_1_1LengthTask.html#a8ae60075550540eed0dc6caa49b99b98":[6,0,2,0,1,19,4,3],
-"classMR_1_1RenderDimensions_1_1LengthTask.html#af4c203cb61c7b00b88193e016d8ea533":[6,0,1,0,1,34,4,2],
-"classMR_1_1RenderDimensions_1_1LengthTask.html#af4c203cb61c7b00b88193e016d8ea533":[6,0,2,0,1,19,4,2],
-"classMR_1_1RenderDimensions_1_1PointTask.html":[6,0,1,0,1,34,6],
-"classMR_1_1RenderDimensions_1_1PointTask.html":[6,0,2,0,1,19,6],
-"classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe":[6,0,1,0,1,34,6,2],
-"classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe":[6,0,2,0,1,19,6,2],
-"classMR_1_1RenderDimensions_1_1PointTask.html#a98d9ea7c04c135e0a689de9017d7bd33":[6,0,1,0,1,34,6,0]
+"classMR_1_1RenderDimensions_1_1LengthTask.html#a51e67eb60266c370689d03ec27c8e963":[6,0,2,0,1,19,4,1]
 };

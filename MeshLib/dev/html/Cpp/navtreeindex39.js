@@ -1,5 +1,14 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PointMeasurementObject.html#a456c050996b14fe38e883c1216b179a7":[6,0,1,0,1,530,11],
+"classMR_1_1PointMeasurementObject.html#a456c050996b14fe38e883c1216b179a7":[6,0,2,0,1,511,11],
+"classMR_1_1PointMeasurementObject.html#a4f096d4ff6390ee1cabcf8d8cf0ef611":[6,0,1,0,1,530,15],
+"classMR_1_1PointMeasurementObject.html#a4f096d4ff6390ee1cabcf8d8cf0ef611":[6,0,2,0,1,511,15],
+"classMR_1_1PointMeasurementObject.html#a52c10e2332240b092d2df7a5cc522ff8":[6,0,1,0,1,530,2],
+"classMR_1_1PointMeasurementObject.html#a52c10e2332240b092d2df7a5cc522ff8":[6,0,2,0,1,511,2],
+"classMR_1_1PointMeasurementObject.html#a554251a50e58777d160bfccd576090fc":[6,0,1,0,1,530,1],
+"classMR_1_1PointMeasurementObject.html#a554251a50e58777d160bfccd576090fc":[6,0,2,0,1,511,1],
+"classMR_1_1PointMeasurementObject.html#a5b3ba57a1c8309e5583843098e4db9df":[6,0,1,0,1,530,13],
 "classMR_1_1PointMeasurementObject.html#a5b3ba57a1c8309e5583843098e4db9df":[6,0,2,0,1,511,13],
 "classMR_1_1PointMeasurementObject.html#a637a5b8ccb6f5960bb6cd7f00062ac5d":[6,0,1,0,1,530,7],
 "classMR_1_1PointMeasurementObject.html#a637a5b8ccb6f5960bb6cd7f00062ac5d":[6,0,2,0,1,511,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[6,0,1,0,1,580,1],
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[6,0,2,0,1,561,1],
 "classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,1,0,1,580,0],
-"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,1,561,0],
-"classMR_1_1QuadricApprox.html":[6,0,0,0,14],
-"classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[6,0,0,0,14,2],
-"classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[6,0,0,0,14,1],
-"classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[6,0,0,0,14,0],
-"classMR_1_1RadiusMeasurementObject.html":[6,0,1,0,1,582],
-"classMR_1_1RadiusMeasurementObject.html":[6,0,2,0,1,563],
-"classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[6,0,1,0,1,582,29],
-"classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67":[6,0,2,0,1,563,29],
-"classMR_1_1RadiusMeasurementObject.html#a0be49754a007bf700b3ce5e94f689de0":[6,0,1,0,1,582,17]
+"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,1,561,0]
 };

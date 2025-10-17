@@ -1,5 +1,14 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[6,0,0,9,4,2,0],
+"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[6,0,0,9,4,2,0,2],
+"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147":[6,0,0,9,4,2,0,0],
+"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389daa16249848fdc15d3bd637c5a13101cdb":[6,0,0,9,4,2,0,1],
+"structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[6,0,0,9,4,2,2],
+"structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3],
+"structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,254],
+"structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,235],
+"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,254,1],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,235,1],
 "structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,254,2],
 "structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,235,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[6,0,1,0,1,288,5],
 "structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[6,0,2,0,1,269,5],
 "structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,1,0,1,288,0],
-"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,2,0,1,269,0],
-"structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,1,0,1,288,4],
-"structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,2,0,1,269,4],
-"structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,1,0,1,288,3],
-"structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,2,0,1,269,3],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,288,1],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,269,1],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,1,0,1,288,6],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,269,6],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,288,2]
+"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,2,0,1,269,0]
 };

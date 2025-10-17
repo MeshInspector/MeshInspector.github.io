@@ -1,5 +1,14 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab4dd4cb2861d87a165c29539ada3aeda":[6,0,2,0,1,735,2],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab51fd57e66a91ac6f90d166e8da77c1c":[6,0,1,0,1,754,0],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab51fd57e66a91ac6f90d166e8da77c1c":[6,0,2,0,1,735,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html":[6,0,1,0,1,755],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html":[6,0,2,0,1,736],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,1,0,1,755,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,2,0,1,736,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,1,0,1,755,2],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,2,0,1,736,2],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,1,0,1,755,1],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,2,0,1,736,1],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,1,0,1,755,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,2,0,1,25,4],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,1,0,1,42,6,2],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,2,0,1,25,4,2],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,1,42,6,4],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,25,4,4],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a2d50ee3bfe60ac20e4bdab21f4a626b4":[6,0,1,0,1,42,6,0],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a2d50ee3bfe60ac20e4bdab21f4a626b4":[6,0,2,0,1,25,4,0],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a64d2f07a4cb06b93c9c24f2783692d80":[6,0,1,0,1,42,6,1],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a64d2f07a4cb06b93c9c24f2783692d80":[6,0,2,0,1,25,4,1],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,1,0,1,42,6,3],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,2,0,1,25,4,3],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,42,9,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,1,25,7,0]
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,1,42,6,4]
 };
