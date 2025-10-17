@@ -1,9 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,0,0,9],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,0,0,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX69 =
 "structMRMeshSaveNamedXfMesh.html#a133ba28085351ed1b5bbd00fc9bef476":[6,0,2,0,42,2],
 "structMRMeshSaveNamedXfMesh.html#af076e7b4269e9b10f6396117b41bd43b":[6,0,2,0,42,0],
 "structMRMeshSaveNamedXfMesh.html#afffb4a4f6c7bfdb6e40d412b60500177":[6,0,2,0,42,1],
-"structMRMeshToVolumeSettings.html":[6,0,2,0,43]
+"structMRMeshToVolumeSettings.html":[6,0,2,0,43],
+"structMRMeshToVolumeSettings.html#a6be44a348adb0147372be4b6f49d8013":[6,0,2,0,43,3],
+"structMRMeshToVolumeSettings.html#a9dd30ca07a73a9295dcbd01f98ba25a9":[6,0,2,0,43,4],
+"structMRMeshToVolumeSettings.html#ab06378bf65d78b7323ceb4ace401d1f6":[6,0,2,0,43,1],
+"structMRMeshToVolumeSettings.html#ab10a18914d44ee29bbfed783f4910fe8":[6,0,2,0,43,0]
 };

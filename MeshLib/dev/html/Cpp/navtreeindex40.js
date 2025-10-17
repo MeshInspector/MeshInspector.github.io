@@ -1,7 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,1,0,1,582,0],
-"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,1,563,0],
 "classMR_1_1QuadricApprox.html":[6,0,0,0,14],
 "classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[6,0,0,0,14,2],
 "classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[6,0,0,0,14,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX40 =
 "classMR_1_1RenderDimensions_1_1LengthTask.html":[6,0,1,0,1,34,4],
 "classMR_1_1RenderDimensions_1_1LengthTask.html":[6,0,2,0,1,19,4],
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a25f03c394752ed95a6eb71db98714312":[6,0,1,0,1,34,4,0],
-"classMR_1_1RenderDimensions_1_1LengthTask.html#a25f03c394752ed95a6eb71db98714312":[6,0,2,0,1,19,4,0]
+"classMR_1_1RenderDimensions_1_1LengthTask.html#a25f03c394752ed95a6eb71db98714312":[6,0,2,0,1,19,4,0],
+"classMR_1_1RenderDimensions_1_1LengthTask.html#a51e67eb60266c370689d03ec27c8e963":[6,0,1,0,1,34,4,1],
+"classMR_1_1RenderDimensions_1_1LengthTask.html#a51e67eb60266c370689d03ec27c8e963":[6,0,2,0,1,19,4,1]
 };

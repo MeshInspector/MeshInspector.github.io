@@ -201,6 +201,7 @@ Project File</h3>
 <li><b>Linker → Input → Additional Dependencies</b>: <br  />
  Add: <code>C:\meshlib-built\install\lib\$(Configuration)\*.lib</code>    <br  />
 </li>
+<li>Define <code>IMGUI_DISABLE_OBSOLETE_FUNCTIONS</code></li>
 <li>Copy other files to target directory: <div class="fragment"><div class="line"> &lt;<span class="keywordtype">ItemGroup</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">CopyFileToFolders</span> <span class="keyword">Include</span>=<span class="stringliteral">&quot;MyPlugin.items.json&quot;</span>&gt;</div>
 <div class="line">    &lt;<span class="keywordtype">FileType</span>&gt;<span class="keyword">Document</span>&lt;/<span class="keywordtype">FileType</span>&gt;</div>

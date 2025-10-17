@@ -1,7 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"classMR_1_1PointMeasurementObject.html#a429c054af979eb58cbcbe556d8ea58a0":[6,0,1,0,1,532,3],
-"classMR_1_1PointMeasurementObject.html#a429c054af979eb58cbcbe556d8ea58a0":[6,0,2,0,1,513,3],
 "classMR_1_1PointMeasurementObject.html#a456c050996b14fe38e883c1216b179a7":[6,0,1,0,1,532,11],
 "classMR_1_1PointMeasurementObject.html#a456c050996b14fe38e883c1216b179a7":[6,0,2,0,1,513,11],
 "classMR_1_1PointMeasurementObject.html#a4f096d4ff6390ee1cabcf8d8cf0ef611":[6,0,1,0,1,532,15],
@@ -249,5 +247,7 @@ var NAVTREEINDEX39 =
 "classMR_1_1QuadTextureVertexObject.html#a091185a94f7c1bd1bf1bfac2f6bbcee9":[6,0,1,0,1,582,2],
 "classMR_1_1QuadTextureVertexObject.html#a091185a94f7c1bd1bf1bfac2f6bbcee9":[6,0,2,0,1,563,2],
 "classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[6,0,1,0,1,582,1],
-"classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[6,0,2,0,1,563,1]
+"classMR_1_1QuadTextureVertexObject.html#a208dc43cfe4121fd6fbf133e08f5866d":[6,0,2,0,1,563,1],
+"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,1,0,1,582,0],
+"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,1,563,0]
 };

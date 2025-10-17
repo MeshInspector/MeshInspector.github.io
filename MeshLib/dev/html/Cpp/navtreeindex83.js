@@ -1,9 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,1,0,1,388,7],
-"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,2,0,1,369,7],
-"structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,1,0,1,388,1],
-"structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,2,0,1,369,1],
 "structMR_1_1MeshLoadSettings.html#a49a42dcc4e94c7c1824987b168d150b9":[6,0,1,0,1,388,3],
 "structMR_1_1MeshLoadSettings.html#a49a42dcc4e94c7c1824987b168d150b9":[6,0,2,0,1,369,3],
 "structMR_1_1MeshLoadSettings.html#a60b5f4bc63d35b0ef8261da4de65917d":[6,0,1,0,1,388,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX83 =
 "structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7":[6,0,0,7,3,6],
 "structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc":[6,0,0,7,3,22],
 "structMR_1_1MeshVoxelsConverter.html":[6,0,1,0,1,413],
-"structMR_1_1MeshVoxelsConverter.html":[6,0,2,0,1,394]
+"structMR_1_1MeshVoxelsConverter.html":[6,0,2,0,1,394],
+"structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7":[6,0,1,0,1,413,4],
+"structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7":[6,0,2,0,1,394,4],
+"structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,1,0,1,413,1],
+"structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,2,0,1,394,1]
 };
