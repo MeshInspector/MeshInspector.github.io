@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,1,0,1,288,0],
+"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,2,0,1,269,0],
 "structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,1,0,1,288,4],
 "structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,2,0,1,269,4],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,1,0,1,288,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4f640dcd1790684176b42fd2521e69ff":[6,0,2,0,1,7,7,14],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a5f1af9cc5c63622d29e7355891087dc1":[6,0,1,0,1,16,7,8],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a5f1af9cc5c63622d29e7355891087dc1":[6,0,2,0,1,7,7,8],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a6649a0eb2b642371baa9647ad499ecae":[6,0,1,0,1,16,7,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a6649a0eb2b642371baa9647ad499ecae":[6,0,2,0,1,7,7,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a703f1cacbe40720cc5c75886cf2d20e3":[6,0,1,0,1,16,7,7]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a6649a0eb2b642371baa9647ad499ecae":[6,0,1,0,1,16,7,3]
 };

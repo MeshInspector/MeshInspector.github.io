@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a6649a0eb2b642371baa9647ad499ecae":[6,0,2,0,1,7,7,3],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a703f1cacbe40720cc5c75886cf2d20e3":[6,0,1,0,1,16,7,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a703f1cacbe40720cc5c75886cf2d20e3":[6,0,2,0,1,7,7,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a71c5fbbf63729c0ca109e02507b73f7c":[6,0,1,0,1,16,7,10],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a71c5fbbf63729c0ca109e02507b73f7c":[6,0,2,0,1,7,7,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,1,0,1,317,0],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,2,0,1,298,0],
 "structMR_1_1InSphereSearchSettings.html":[6,0,1,0,1,318],
-"structMR_1_1InSphereSearchSettings.html":[6,0,2,0,1,299],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,1,0,1,318,0],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,2,0,1,299,0]
+"structMR_1_1InSphereSearchSettings.html":[6,0,2,0,1,299]
 };
