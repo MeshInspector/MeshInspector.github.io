@@ -591,7 +591,6 @@ var hierarchy =
     [ "mrmeshpy.MakeBridgeResult", "classmrmeshpy_1_1MakeBridgeResult.html", null ],
     [ "mrmeshpy.MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", null ],
     [ "mrmeshpy.MakeSignedByWindingNumberSettings", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html", null ],
-    [ "mrmeshpy.MapLinkToSharedObjectModel", "classmrmeshpy_1_1MapLinkToSharedObjectModel.html", null ],
     [ "mrmeshpy.BooleanResultMapper.MapObject", "classmrmeshpy_1_1BooleanResultMapper_1_1MapObject.html", null ],
     [ "mrmeshpy.MapOrHashMap_EdgeId_EdgeId", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html", null ],
     [ "mrmeshpy.MapOrHashMap_FaceId_FaceId", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html", null ],
@@ -599,7 +598,6 @@ var hierarchy =
     [ "mrmeshpy.MapOrHashMap_UndirectedEdgeId_UndirectedEdgeId", "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__UndirectedEdgeId.html", null ],
     [ "mrmeshpy.MapOrHashMap_VertId_VertId", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html", null ],
     [ "mrmeshpy.BooleanResultMapper.Maps", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html", null ],
-    [ "mrmeshpy.MapSharedObjects", "classmrmeshpy_1_1MapSharedObjects.html", null ],
     [ "mrmeshpy.MarchingCubesByParts", "classmrmeshpy_1_1MarchingCubesByParts.html", null ],
     [ "mrmeshpy.MarchingCubesParams", "classmrmeshpy_1_1MarchingCubesParams.html", null ],
     [ "mrmeshpy.MarkedContour3f", "classmrmeshpy_1_1MarkedContour3f.html", null ],
@@ -840,8 +838,6 @@ var hierarchy =
     [ "mrmeshpy.phmap_flat_hash_map_Id_VertTag_VertPathInfo", "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int", "classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int.html", null ],
-    [ "mrmeshpy.phmap_flat_hash_map_Object_const_std_pair_Object_const_int", "classmrmeshpy_1_1phmap__flat__hash__map__Object__const__std__pair__Object__const__int.html", null ],
-    [ "mrmeshpy.phmap_flat_hash_map_std_string_Object_const", "classmrmeshpy_1_1phmap__flat__hash__map__std__string__Object__const.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_unsigned_long_std_array_Id_VertTag_3ul", "classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__std__array__Id__VertTag__3ul.html", null ],
     [ "mrmeshpy.PixelId", "classmrmeshpy_1_1PixelId.html", [
       [ "mrmeshpy.NoDefInit_PixelId", "classmrmeshpy_1_1NoDefInit__PixelId.html", null ]
