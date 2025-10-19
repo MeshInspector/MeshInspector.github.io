@@ -228,14 +228,15 @@ var NAVTREEINDEX88 =
 "MRUniqueTemporaryFolder_8h.html#a006d61fd2048bba5b5622d42cbe72526":[6,2,1,0,0,0,1,339,0],
 "MRUniqueTemporaryFolder_8h.html#a123861522b1765d714dae66dc577220b":[6,2,1,0,0,0,1,339,4],
 "MRUniqueTemporaryFolder_8h.html#a30107ef4120845cdac99e9368f431014":[6,2,1,0,0,0,1,339,1],
-"MRUniqueTemporaryFolder_8h.html#a393b914c83b60f15cea649179cb45f37":[6,2,1,0,0,0,1,339,10],
+"MRUniqueTemporaryFolder_8h.html#a393b914c83b60f15cea649179cb45f37":[6,2,1,0,0,0,1,339,11],
 "MRUniqueTemporaryFolder_8h.html#a4a438655e0772225e1f8fd14e86431da":[6,2,1,0,0,0,1,339,2],
-"MRUniqueTemporaryFolder_8h.html#a8c12bdfb7b3fcd35883962cde02cb469":[6,2,1,0,0,0,1,339,9],
+"MRUniqueTemporaryFolder_8h.html#a4e9fd4beb6ecd9c01b16c9d254429afa":[6,2,1,0,0,0,1,339,7],
+"MRUniqueTemporaryFolder_8h.html#a8c12bdfb7b3fcd35883962cde02cb469":[6,2,1,0,0,0,1,339,10],
 "MRUniqueTemporaryFolder_8h.html#a9a9c51748601c32342534bb061f44aed":[6,2,1,0,0,0,1,339,3],
-"MRUniqueTemporaryFolder_8h.html#a9d0c41537dbe9ba3f5f6f6fe5e5535aa":[6,2,1,0,0,0,1,339,8],
+"MRUniqueTemporaryFolder_8h.html#a9d0c41537dbe9ba3f5f6f6fe5e5535aa":[6,2,1,0,0,0,1,339,9],
 "MRUniqueTemporaryFolder_8h.html#ab1fc91f6dff118ab8624a15c4933c5d4":[6,2,1,0,0,0,1,339,6],
 "MRUniqueTemporaryFolder_8h.html#ae07d9765911139a58e467866d63d8443":[6,2,1,0,0,0,1,339,5],
-"MRUniqueTemporaryFolder_8h.html#aef21aab154469658a6c29e9d69d2987d":[6,2,1,0,0,0,1,339,7],
+"MRUniqueTemporaryFolder_8h.html#aef21aab154469658a6c29e9d69d2987d":[6,2,1,0,0,0,1,339,8],
 "MRUniqueTemporaryFolder_8h_source.html":[6,2,1,0,0,0,1,339],
 "MRUniqueThreadSafeOwner_8h.html":[6,2,1,0,0,0,1,340],
 "MRUniqueThreadSafeOwner_8h.html#a066a21cee5ed30c6ecaf1f498fe8f100":[6,2,1,0,0,0,1,340,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "MRUniqueThreadSafeOwner_8h.html#a3ad8a434cea0d8661ecbf5a841ef596b":[6,2,1,0,0,0,1,340,16],
 "MRUniqueThreadSafeOwner_8h.html#a40e7407fa9bd29efc3494d3f04ae0e06":[6,2,1,0,0,0,1,340,30],
 "MRUniqueThreadSafeOwner_8h.html#a424f7a9098716051e7f7a38c30c78a3a":[6,2,1,0,0,0,1,340,8],
-"MRUniqueThreadSafeOwner_8h.html#a462d7b4b9651d2c49d4f4bfd49a6733b":[6,2,1,0,0,0,1,340,24],
-"MRUniqueThreadSafeOwner_8h.html#a462d7d9126150e66e0a3694b1b50b004":[6,2,1,0,0,0,1,340,2]
+"MRUniqueThreadSafeOwner_8h.html#a462d7b4b9651d2c49d4f4bfd49a6733b":[6,2,1,0,0,0,1,340,24]
 };

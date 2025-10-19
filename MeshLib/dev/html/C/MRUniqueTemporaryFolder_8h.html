@@ -171,6 +171,8 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a123861522b1765d714dae66dc577220b" id="r_a123861522b1765d714dae66dc577220b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4a438655e0772225e1f8fd14e86431da">MR_UniqueTemporaryFolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a123861522b1765d714dae66dc577220b">MR_UniqueTemporaryFolder_Construct</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onPreTempFolderDelete_pass_by, <a class="el" href="MRObjectLoad_8h.html#a30107ef4120845cdac99e9368f431014">MR_std_function_void_from_const_std_filesystem_path_ref</a> *onPreTempFolderDelete)</td></tr>
 <tr class="separator:a123861522b1765d714dae66dc577220b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9fd4beb6ecd9c01b16c9d254429afa" id="r_a4e9fd4beb6ecd9c01b16c9d254429afa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4a438655e0772225e1f8fd14e86431da">MR_UniqueTemporaryFolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e9fd4beb6ecd9c01b16c9d254429afa">MR_UniqueTemporaryFolder_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a4e9fd4beb6ecd9c01b16c9d254429afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a393b914c83b60f15cea649179cb45f37" id="r_a393b914c83b60f15cea649179cb45f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4a438655e0772225e1f8fd14e86431da">MR_UniqueTemporaryFolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a393b914c83b60f15cea649179cb45f37">MR_UniqueTemporaryFolder_OffsetPtr</a> (const <a class="el" href="#a4a438655e0772225e1f8fd14e86431da">MR_UniqueTemporaryFolder</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a393b914c83b60f15cea649179cb45f37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a393b914c83b60f15cea649179cb45f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,7 +282,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates new folder in temp directory Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1UniqueTemporaryFolder.html">MR::UniqueTemporaryFolder</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aef21aab154469658a6c29e9d69d2987d" title="Destroys a heap-allocated instance of MR_UniqueTemporaryFolder. Does nothing if the pointer is null.">MR_UniqueTemporaryFolder_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates new folder in temp directory Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1UniqueTemporaryFolder.html">MR::UniqueTemporaryFolder</a></code>. Parameter <code>onPreTempFolderDelete</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aef21aab154469658a6c29e9d69d2987d" title="Destroys a heap-allocated instance of MR_UniqueTemporaryFolder. Does nothing if the pointer is null.">MR_UniqueTemporaryFolder_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -317,6 +319,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/classMR_1_1UniqueTemporaryFolder.html">MR::UniqueTemporaryFolder</a></code> to type <code>const std::filesystem::path &amp;</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4e9fd4beb6ecd9c01b16c9d254429afa" name="a4e9fd4beb6ecd9c01b16c9d254429afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e9fd4beb6ecd9c01b16c9d254429afa">&#9670;&#160;</a></span>MR_UniqueTemporaryFolder_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4a438655e0772225e1f8fd14e86431da">MR_UniqueTemporaryFolder</a> * MR_UniqueTemporaryFolder_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a9d0c41537dbe9ba3f5f6f6fe5e5535aa" title="Destroys a heap-allocated array of MR_UniqueTemporaryFolder. Does nothing if the pointer is null.">MR_UniqueTemporaryFolder_DestroyArray()</a></code>. Use <code><a class="el" href="#a8c12bdfb7b3fcd35883962cde02cb469" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_UniqueTemporaryFolder_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a393b914c83b60f15cea649179cb45f37" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_UniqueTemporaryFolder_OffsetPtr()</a></code> to access the array elements. </p>
 
 </div>
 </div>

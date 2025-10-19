@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"std__function__void__from__MR__EdgeId__MR__EdgeId_8h.html#ae9ff4de7ed48b4227980452373c5a1b5":[6,2,1,0,0,0,2,166,11],
 "std__function__void__from__MR__EdgeId__MR__EdgeId_8h.html#afd0201e1c072ac1cc7168c11c3bd3a49":[6,2,1,0,0,0,2,166,0],
 "std__function__void__from__MR__EdgeId__MR__EdgeId_8h_source.html":[6,2,1,0,0,0,2,166],
 "std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html":[6,2,1,0,0,0,2,167],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h_source.html":[6,2,1,0,0,0,2,159],
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html":[6,2,1,0,0,0,2,160],
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a0d066ffe3dc9de7a0e4182312f35de69":[6,2,1,0,0,0,2,160,7],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a1f4de37b957f8accbc3e204407d2c76d":[6,2,1,0,0,0,2,160,5],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a20a38e5d659ae690db138871be41709c":[6,2,1,0,0,0,2,160,10]
+"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a1f4de37b957f8accbc3e204407d2c76d":[6,2,1,0,0,0,2,160,5]
 };
