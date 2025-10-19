@@ -240,7 +240,6 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ImGuiMenu", "classMR_1_1ImGuiMenu.html", [
-          [ "MR::Menu", "classMR_1_1Menu.html", null ],
           [ "MR::RibbonMenu", "classMR_1_1RibbonMenu.html", null ]
         ] ]
       ] ],
@@ -1039,7 +1038,6 @@ var hierarchy =
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", null ],
     [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", null ],
     [ "MR::UI::PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", null ],
-    [ "MR::ImGuiMenu::PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", null ],
     [ "MR::PlyLoadParams", "structMR_1_1PlyLoadParams.html", null ],
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],

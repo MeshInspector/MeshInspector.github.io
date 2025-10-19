@@ -499,7 +499,6 @@ var namespaceMR =
     [ "Matrix4", "structMR_1_1Matrix4.html", "structMR_1_1Matrix4" ],
     [ "MaxArg", "structMR_1_1MaxArg.html", "structMR_1_1MaxArg" ],
     [ "MeasurementObject", "classMR_1_1MeasurementObject.html", "classMR_1_1MeasurementObject" ],
-    [ "Menu", "classMR_1_1Menu.html", "classMR_1_1Menu" ],
     [ "MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", "structMR_1_1MenuItemCaptionSize" ],
     [ "MenuItemInfo", "structMR_1_1MenuItemInfo.html", "structMR_1_1MenuItemInfo" ],
     [ "MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", "structMR_1_1MergeVolumePartSettings" ],
