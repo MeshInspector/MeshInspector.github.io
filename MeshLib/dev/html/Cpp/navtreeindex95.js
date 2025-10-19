@@ -1,5 +1,9 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,2,0,1,25,8,0],
+"structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8":[6,0,1,0,1,42,10,1],
+"structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8":[6,0,2,0,1,25,8,1],
+"structMR_1_1UI_1_1PlotAxis.html#a6300f8d6f358cd258351cd2c6f5a6b41":[6,0,1,0,1,42,10,8],
 "structMR_1_1UI_1_1PlotAxis.html#a6300f8d6f358cd258351cd2c6f5a6b41":[6,0,2,0,1,25,8,8],
 "structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,1,0,1,42,10,4],
 "structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,2,0,1,25,8,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8":[6,0,2,0,1,766,7],
 "structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e":[6,0,1,0,1,785,1],
 "structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e":[6,0,2,0,1,766,1],
-"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[6,0,1,0,1,785,0],
-"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[6,0,2,0,1,766,0],
-"structMR_1_1VarEdgeTri.html":[6,0,0,1,18],
-"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6],
-"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[6,0,0,1,18,4]
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[6,0,1,0,1,785,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"group__SurfaceDistanceGroup.html#ga6ce427d5b064ec0df45347189b0d06c3":[6,0,0,16,1,5],
+"group__SurfaceDistanceGroup.html#gaa59eaa9c1e5626ac4b7b3df564b892c5":[6,0,0,16,1,4],
+"group__SurfaceDistanceGroup.html#gaf9f6fdaaa31bdb4ff703d7f40fcdb78a":[6,0,0,16,1,0],
 "group__SurfacePathGroup.html":[6,0,0,16],
 "group__SurfacePathGroup.html#ga003755490808d2d716aa0de3c8f733b5":[6,0,0,16,34],
 "group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68":[6,0,0,16,38],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceImGui.html#a4e3833bf7761da4ac20ca9397fbdbc16":[6,0,1,0,0,30],
 "namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f":[6,0,1,0,0,41],
 "namespaceImGui.html#a65c23b1e96e6b6498e84ce4cc36c8b0a":[6,0,1,0,0,17],
-"namespaceImGui.html#a6dfe914b3199c96486e9fc7b82138777":[6,0,1,0,0,22],
-"namespaceImGui.html#a7e59143b9ee934b74838c5c3b80c6559":[6,0,1,0,0,21],
-"namespaceImGui.html#a8258976ae8bdfc2882e10e03831be422":[6,0,1,0,0,13],
-"namespaceImGui.html#a8686baf36ce377f9e5cd6aea4b1d4005":[6,0,1,0,0,6]
+"namespaceImGui.html#a6dfe914b3199c96486e9fc7b82138777":[6,0,1,0,0,22]
 };

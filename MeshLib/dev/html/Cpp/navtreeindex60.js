@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"namespaceImGui.html#a7e59143b9ee934b74838c5c3b80c6559":[6,0,1,0,0,21],
+"namespaceImGui.html#a8258976ae8bdfc2882e10e03831be422":[6,0,1,0,0,13],
+"namespaceImGui.html#a8686baf36ce377f9e5cd6aea4b1d4005":[6,0,1,0,0,6],
 "namespaceImGui.html#a9566862a34c508f460141204ccee118d":[6,0,1,0,0,26],
 "namespaceImGui.html#a959274b0c45550ab3c50db7f9fbb2628":[6,0,1,0,0,7],
 "namespaceImGui.html#a9c130223f0795222ba5a4445f8c9e917":[6,0,1,0,0,38],
@@ -21,6 +24,7 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a00473b872f5242451db75ba1ba87b378":[6,0,1,0,1,1886],
 "namespaceMR.html#a0140eb8894552101f3fdabe8d842eb25":[6,0,1,0,1,1569],
 "namespaceMR.html#a01413673c815bd0bfc3dea53829bb94b":[6,0,1,0,1,1756],
+"namespaceMR.html#a015a0227513181eaf159c43909acd8c0":[6,0,1,0,1,2801],
 "namespaceMR.html#a019b60315485de7cfcd1a8e889fbcb0e":[6,0,1,0,1,2169],
 "namespaceMR.html#a01c442c33cfa7f1e68e1261ab49b71b5":[6,0,1,0,1,2399],
 "namespaceMR.html#a01df447cdd25031a9480868f3a237070":[6,0,1,0,1,1413],
@@ -212,7 +216,7 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a1b27efcf0bc43958ffdc2474a71d7730":[6,0,1,0,1,2774],
 "namespaceMR.html#a1b8ac24b57e11fa07184f27066c90345":[6,0,1,0,1,2009],
 "namespaceMR.html#a1ba9e876bd033bc6803332bb875ee138":[6,0,1,0,1,981],
-"namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b":[6,0,1,0,1,2802],
+"namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b":[6,0,1,0,1,2803],
 "namespaceMR.html#a1bbf155b27ef19dd7f54b2e9a534f397":[6,0,1,0,1,1903],
 "namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976":[6,0,1,0,1,2570],
 "namespaceMR.html#a1bee00a475fada33c76a0bb71f8cbadd":[6,0,1,0,1,2726],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4":[6,0,1,0,1,2686],
 "namespaceMR.html#a1f6b3a984d70f3584097f00ae331c013":[6,0,1,0,1,1606],
 "namespaceMR.html#a1fb97c6fbff812f8691f1158b81c775c":[6,0,1,0,1,949],
-"namespaceMR.html#a1fc4b7cc580d42260b45c0af3ff2fd12":[6,0,1,0,1,1629],
-"namespaceMR.html#a200de30e6095463279bfb030e610864b":[6,0,1,0,1,1017],
-"namespaceMR.html#a20348843fe2e838c097cdcb1ecba23b7":[6,0,1,0,1,1360],
-"namespaceMR.html#a20373caf5716c8954478743f6d0d7238":[6,0,1,0,1,1719],
-"namespaceMR.html#a205de3d663a2e93f91a0e5cedc789180":[6,0,1,0,1,2168]
+"namespaceMR.html#a1fc4b7cc580d42260b45c0af3ff2fd12":[6,0,1,0,1,1629]
 };

@@ -379,6 +379,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRSystemPath.h", "MRSystemPath_8h.html", "MRSystemPath_8h" ],
     [ "MRTbbTaskArenaAndGroup.h", "MRTbbTaskArenaAndGroup_8h.html", "MRTbbTaskArenaAndGroup_8h" ],
     [ "MRTbbThreadMutex.h", "MRTbbThreadMutex_8h.html", "MRTbbThreadMutex_8h" ],
+    [ "MRTelemetry.h", "MRTelemetry_8h.html", "MRTelemetry_8h" ],
     [ "MRTerrainTriangulation.h", "MRTerrainTriangulation_8h.html", "MRTerrainTriangulation_8h" ],
     [ "MRTiffIO.h", "MRTiffIO_8h.html", "MRTiffIO_8h" ],
     [ "MRTimer.h", "MRTimer_8h.html", "MRTimer_8h" ],

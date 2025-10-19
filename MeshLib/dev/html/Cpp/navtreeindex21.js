@@ -1,5 +1,8 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,46,2],
+"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,46,0],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,1,0,1,99],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,2,0,1,80],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[6,0,1,0,1,99,1],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[6,0,2,0,1,80,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1ChangeSceneObjectsOrder.html":[6,0,0,4,27],
 "classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11":[6,0,0,4,27,1],
 "classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542":[6,0,0,4,27,0],
-"classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d":[6,0,0,4,27,3],
-"classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50":[6,0,0,4,27,2],
-"classMR_1_1ChangeSurfaceAction.html":[6,0,0,4,47],
-"classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54":[6,0,0,4,47,4]
+"classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d":[6,0,0,4,27,3]
 };
