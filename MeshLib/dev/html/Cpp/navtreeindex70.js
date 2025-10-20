@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMRMultiwayICPSamplingParameters.html#afb1ffc02db827893fcb9639724311b4b":[6,0,2,0,46,0],
+"structMRNoiseSettings.html":[6,0,2,0,47],
 "structMRNoiseSettings.html#a5f609d9abf8ca6000ba1f49b95fe372c":[6,0,2,0,47,1],
 "structMRNoiseSettings.html#a794506b24ca7a1d5fe95a8f05ef44d82":[6,0,2,0,47,0],
 "structMRNoiseSettings.html#a85637a19167b434e5b5b7ad62009aab2":[6,0,2,0,47,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1AncillaryMesh.html#adbf02a47e5a8e457c68acbf971e2a32e":[6,0,2,0,1,44,7],
 "structMR_1_1AncillaryPoints.html":[6,0,1,0,1,64],
 "structMR_1_1AncillaryPoints.html":[6,0,2,0,1,45],
-"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[6,0,1,0,1,64,5],
-"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[6,0,2,0,1,45,5],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[6,0,1,0,1,64,2]
+"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[6,0,1,0,1,64,5]
 };

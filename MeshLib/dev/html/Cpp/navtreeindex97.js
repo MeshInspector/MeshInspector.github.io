@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,1,0,1,808,1,8],
+"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,2,0,1,789,1,8],
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,1,0,1,808,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,2,0,1,789,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,1,0,1,808,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,1,0,1,843,1],
 "structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,2,0,1,824,1],
 "structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,843,0],
-"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,824,0],
-"structMR_1_1ZCompensateParams.html":[6,0,1,0,1,846],
-"structMR_1_1ZCompensateParams.html":[6,0,2,0,1,827]
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,824,0]
 };

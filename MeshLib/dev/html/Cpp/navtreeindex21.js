@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,46,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,46,2],
 "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,46,0],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,1,0,1,99],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2":[6,0,0,4,26,3],
 "classMR_1_1ChangeSceneObjectsOrder.html":[6,0,0,4,27],
 "classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11":[6,0,0,4,27,1],
-"classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542":[6,0,0,4,27,0],
-"classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d":[6,0,0,4,27,3]
+"classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542":[6,0,0,4,27,0]
 };

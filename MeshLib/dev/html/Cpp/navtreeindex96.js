@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e":[6,0,2,0,1,766,1],
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[6,0,1,0,1,785,0],
 "structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[6,0,2,0,1,766,0],
 "structMR_1_1VarEdgeTri.html":[6,0,0,1,18],
 "structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9":[6,0,1,0,1,808,1,16],
 "structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9":[6,0,2,0,1,789,1,16],
 "structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790":[6,0,1,0,1,808,1,11],
-"structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790":[6,0,2,0,1,789,1,11],
-"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,1,0,1,808,1,8],
-"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,2,0,1,789,1,8]
+"structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790":[6,0,2,0,1,789,1,11]
 };

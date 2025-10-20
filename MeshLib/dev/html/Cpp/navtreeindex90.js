@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,1,0,1,34,0,2],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,2,0,1,19,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#ae12fd753d7b41f3585a8be7f6267b05c":[6,0,1,0,1,34,0,1],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#ae12fd753d7b41f3585a8be7f6267b05c":[6,0,2,0,1,19,0,1],
 "structMR_1_1RenderDimensions_1_1CommonParams.html":[6,0,1,0,1,34,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1RigidXf3.html#ac4754dc93c2a2dc463811b28d41e34a2":[6,0,1,0,1,644,2],
 "structMR_1_1RigidXf3.html#ac4754dc93c2a2dc463811b28d41e34a2":[6,0,2,0,1,625,2],
 "structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283":[6,0,1,0,1,644,6],
-"structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283":[6,0,2,0,1,625,6],
-"structMR_1_1RigidXf3.html#ad36335768adf3c0ffb40b10e3fc37d39":[6,0,1,0,1,644,4],
-"structMR_1_1RigidXf3.html#ad36335768adf3c0ffb40b10e3fc37d39":[6,0,2,0,1,625,4]
+"structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283":[6,0,2,0,1,625,6]
 };

@@ -3351,6 +3351,7 @@ var namespaceMR =
     [ "RegionTag", "namespaceMR.html#af293d6c66d14a3940a1c5a5685a1b36f", null ],
     [ "RigidScaleXf3", "namespaceMR.html#aefb0e71ff0b54f3b21e3e841c23186f2", null ],
     [ "RigidScaleXf3f", "namespaceMR.html#a888dc5ae2b3292aed4702899b2a6cdea", null ],
+    [ "sDefaultGroupState", "namespaceMR.html#ad781fd9e905dc8e6d2f5cc6645b6d82e", null ],
     [ "setNew", "group__HistoryGroup.html#ga66d1f6caeb3fa983f8d823d501d10cc3", null ],
     [ "TelemetrySignal", "namespaceMR.html#a015a0227513181eaf159c43909acd8c0", null ],
     [ "TextureTag", "namespaceMR.html#a7d62b7c394a1e0ed5d376fcb130fafb9", null ],

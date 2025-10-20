@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,1,0,1,254,0],
+"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,2,0,1,235,0],
 "structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,1,0,1,254,3],
 "structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,2,0,1,235,3],
 "structMR_1_1FindOutliersParams.html":[6,0,1,0,1,255],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
 "structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
 "structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
-"structMR_1_1HoleEdgePoint.html":[6,0,1,0,1,294],
-"structMR_1_1HoleEdgePoint.html":[6,0,2,0,1,275],
-"structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,1,0,1,294,1]
+"structMR_1_1HoleEdgePoint.html":[6,0,1,0,1,294]
 };

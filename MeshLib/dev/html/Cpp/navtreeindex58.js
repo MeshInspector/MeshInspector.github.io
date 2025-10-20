@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"group__MeshDeloneGroup.html#ga17ac0bdda11a0bdfc51faab5936fa9b3":[6,0,0,9,1,3],
 "group__MeshDeloneGroup.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a":[6,0,0,9,1,5],
 "group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f":[6,0,0,9,1,6],
 "group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7":[6,0,0,9,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2],
 "group__SurfaceDistanceGroup.html":[6,0,0,16,1],
 "group__SurfaceDistanceGroup.html#ga3cea63fb21eb5913ec6d762c2a6d45ae":[6,0,0,16,1,3],
-"group__SurfaceDistanceGroup.html#ga3da9c13536f2ad0435b641eb09e95c85":[6,0,0,16,1,1],
-"group__SurfaceDistanceGroup.html#ga3f228e29cdfd33222074f3a25626c1d6":[6,0,0,16,1,2]
+"group__SurfaceDistanceGroup.html#ga3da9c13536f2ad0435b641eb09e95c85":[6,0,0,16,1,1]
 };
