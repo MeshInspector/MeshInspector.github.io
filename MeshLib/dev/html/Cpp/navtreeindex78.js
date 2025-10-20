@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,288,2],
+"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,2,0,1,269,2],
+"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
+"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
+"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
+"structMR_1_1HoleEdgePoint.html":[6,0,1,0,1,294],
 "structMR_1_1HoleEdgePoint.html":[6,0,2,0,1,275],
 "structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,1,0,1,294,1],
 "structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,2,0,1,275,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a7d12a250d3482201dab55d16f5b3e96c":[6,0,2,0,1,7,7,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9":[6,0,1,0,1,16,7,24],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9":[6,0,2,0,1,7,7,24],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[6,0,1,0,1,16,7,18],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[6,0,2,0,1,7,7,18],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a9fc5ad01833510331469add7eb13a194":[6,0,1,0,1,16,7,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a9fc5ad01833510331469add7eb13a194":[6,0,2,0,1,7,7,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ab335f87ba8ba25ad3cbdcd1390319f4c":[6,0,1,0,1,16,7,6],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ab335f87ba8ba25ad3cbdcd1390319f4c":[6,0,2,0,1,7,7,6],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ab89fa021b4ebfccf2f62b61807167289":[6,0,1,0,1,16,7,9]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[6,0,1,0,1,16,7,18]
 };
