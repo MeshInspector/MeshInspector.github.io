@@ -43,14 +43,14 @@ var namespaceImGui =
     [ "InputText", "namespaceImGui.html#a392168d28bc4973532ead37f8061121e", null ],
     [ "Link", "namespaceImGui.html#aabb908deed7006b50c7ad6ec124126a7", null ],
     [ "ListBox", "namespaceImGui.html#a378834d8803566841b144ddf878ef623", null ],
-    [ "LoadSavedWindowPos", "namespaceImGui.html#aba3aedd4bc21e49dc028ea838c0a2146", null ],
+    [ "LoadSavedWindowPos", "namespaceImGui.html#a6066bf27894061659a1b44c4daf5ca1d", null ],
     [ "LoadSavedWindowPos", "namespaceImGui.html#abc9641ecb8b0feb32e48a68aa785e864", null ],
     [ "ModalBigTitle", "namespaceImGui.html#acedb24606d4e2b34b200ade5cb5ccf14", null ],
     [ "ModalExitButton", "namespaceImGui.html#a29d932a1f5e6a9e91213d1a209b09e1a", null ],
     [ "Palette", "namespaceImGui.html#a9c130223f0795222ba5a4445f8c9e917", null ],
     [ "Plane", "namespaceImGui.html#a1ff64ab0bea9537c8755a84b4226dde0", null ],
     [ "PlotCustomHistogram", "namespaceImGui.html#aab9ea83bb6bf2bc7f7bb8d0c582bd9a9", null ],
-    [ "SaveWindowPosition", "namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f", null ],
+    [ "SaveWindowPosition", "namespaceImGui.html#af40083e35c7775c1fff23b763d9d0e5c", null ],
     [ "SaveWindowPosition", "namespaceImGui.html#a083d798cae08523bfb8851595088a61b", null ],
     [ "Spinner", "namespaceImGui.html#abd01e3d0c0bcd6ca3f831a2e16d7bdd4", null ]
 ];
