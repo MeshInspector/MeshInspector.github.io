@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRPythonAppendCommand_8h.html#a0f61ad5fbd50836547b99cd10c78763f":[6,0,3,0,0,1,11,65,3],
 "MRPythonAppendCommand_8h.html#a98815b53a5018d4a910654f696d65b57":[6,0,3,0,0,1,11,65,1],
 "MRPythonAppendCommand_8h.html#af07768b4409c36a0b8cc9b9849f82691":[6,0,3,0,0,1,11,65,0],
 "MRPythonAppendCommand_8h_source.html":[6,0,3,0,0,1,11,65],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRRingIterator_8h_source.html":[6,0,3,0,0,1,4,343],
 "MRSaveObjects_8h.html":[6,0,3,0,0,1,11,97],
 "MRSaveObjects_8h.html#aa8660a1f4655b61b91a481a072409fa5":[6,0,3,0,0,1,11,97,1],
-"MRSaveObjects_8h_source.html":[6,0,3,0,0,1,11,97],
-"MRSaveOnClose_8h.html":[6,0,3,0,0,1,11,98]
+"MRSaveObjects_8h_source.html":[6,0,3,0,0,1,11,97]
 };

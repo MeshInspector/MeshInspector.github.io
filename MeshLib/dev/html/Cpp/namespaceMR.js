@@ -1156,6 +1156,7 @@ var namespaceMR =
     [ "UndirectedEdgeMetric", "namespaceMR.html#ab7a3fa3c0bf9137f59a3a494350314d1", null ],
     [ "UndirectedEdgePair", "namespaceMR.html#aab52299f28e8b207084bb5e513ecd216", null ],
     [ "UndirectedEdgePredicate", "namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4", null ],
+    [ "Unexpected", "namespaceMR.html#a7c86003c754649f6ef52d71fcfb9d382", null ],
     [ "UVCoord", "namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6", null ],
     [ "VarUnitToStringParams", "namespaceMR.html#afaef792167a46a382648ec08d36b74e0", null ],
     [ "Vector2i128", "group__HighPrecisionGroup.html#ga564f83b9c74fcac72243ca5b5ca0b366", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340":[6,0,0,5,2,1],
+"structMR_1_1ContoursMeshAlignParams.html":[6,0,1,0,1,166],
 "structMR_1_1ContoursMeshAlignParams.html":[6,0,2,0,1,147],
 "structMR_1_1ContoursMeshAlignParams.html#a03ba54ef5ff8848961f9fcc18f1c332a":[6,0,1,0,1,166,5],
 "structMR_1_1ContoursMeshAlignParams.html#a03ba54ef5ff8848961f9fcc18f1c332a":[6,0,2,0,1,147,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[6,0,0,11,2,4,6],
 "structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[6,0,0,11,2,4,1],
 "structMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,0,1,0,1,199],
-"structMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,0,2,0,1,180],
-"structMR_1_1DistanceFromWeightedPointsComputeParams.html#a1f9b9b98c5a65f0baaaa7de96b1c030c":[6,0,1,0,1,199,0],
-"structMR_1_1DistanceFromWeightedPointsComputeParams.html#a1f9b9b98c5a65f0baaaa7de96b1c030c":[6,0,2,0,1,180,0]
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,0,2,0,1,180]
 };

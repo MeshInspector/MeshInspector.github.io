@@ -163,71 +163,78 @@ $(function(){initNavTree('MRExpected_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> E = std::<span class="keywordtype">string</span>&gt;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a> = std::expected&lt;T, E&gt;;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">unexpected</a>( E &amp;&amp;e )</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">return</span> std::unexpected( std::forward&lt;E&gt;( e ) );</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> E = std::<span class="keywordtype">string</span>&gt;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">   25</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a> = tl::expected&lt;T, E&gt;;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> E = std::<span class="keywordtype">string</span>&gt;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a7c86003c754649f6ef52d71fcfb9d382">Unexpected</a> = std::unexpected&lt;E&gt;;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">unexpected</a>( E &amp;&amp;e )</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">return</span> std::unexpected( std::forward&lt;E&gt;( e ) );</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
-<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">   28</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">unexpected</a>( E &amp;&amp;e )</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordflow">return</span> tl::make_unexpected( std::forward&lt;E&gt;( e ) );</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
-</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> E = std::<span class="keywordtype">string</span>&gt;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">   28</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a> = tl::expected&lt;T, E&gt;;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> E = std::<span class="keywordtype">string</span>&gt;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7c86003c754649f6ef52d71fcfb9d382">   31</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a7c86003c754649f6ef52d71fcfb9d382">Unexpected</a> = tl::unexpected&lt;E&gt;;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">   36</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">stringOperationCanceled</a>()</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Operation was canceled&quot;</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">   34</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">unexpected</a>( E &amp;&amp;e )</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> tl::make_unexpected( std::forward&lt;E&gt;( e ) );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
 </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">   42</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">unexpectedOperationCanceled</a>()</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">   42</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">stringOperationCanceled</a>()</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a>( <a class="code hl_function" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">stringOperationCanceled</a>() );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Operation was canceled&quot;</span>;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
 </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">   48</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">stringUnsupportedFileExtension</a>()</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">   48</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">unexpectedOperationCanceled</a>()</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>{</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Unsupported file extension&quot;</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a>( <a class="code hl_function" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">stringOperationCanceled</a>() );</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}</div>
 </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">   54</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">unexpectedUnsupportedFileExtension</a>()</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">   54</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">stringUnsupportedFileExtension</a>()</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>{</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a>( <a class="code hl_function" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">stringUnsupportedFileExtension</a>() );</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Unsupported file extension&quot;</span>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
 </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="foldopen" id="foldopen00060" data-start="" data-end="">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRExpected_8h.html#acceb51312ffcedf923f69bfea9ab9770">   60</a></span><span class="preprocessor">#define MR_RETURN_IF_UNEXPECTED( expr ) \</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">    if ( auto&amp;&amp; res = ( expr ); !res ) \</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">        return unexpected( std::move( res.error() ) );</span></div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">   60</a></span><a class="code hl_typedef" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">unexpectedUnsupportedFileExtension</a>()</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a>( <a class="code hl_function" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">stringUnsupportedFileExtension</a>() );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
 </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="foldopen" id="foldopen00066" data-start="" data-end="">
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="MRExpected_8h.html#acceb51312ffcedf923f69bfea9ab9770">   66</a></span><span class="preprocessor">#define MR_RETURN_IF_UNEXPECTED( expr ) \</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">    if ( auto&amp;&amp; res = ( expr ); !res ) \</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">        return unexpected( std::move( res.error() ) );</span></div>
+</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a1544b69f030c536c35a2d00c154caaf6"><div class="ttname"><a href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">MR::stringUnsupportedFileExtension</a></div><div class="ttdeci">MR_BIND_IGNORE std::string stringUnsupportedFileExtension()</div><div class="ttdoc">common message about unknown file extension</div><div class="ttdef"><b>Definition</b> MRExpected.h:48</div></div>
-<div class="ttc" id="anamespaceMR_html_a35384d6fca989aa5fd419f6c6d730022"><div class="ttname"><a href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpected(E &amp;&amp;e)</div><div class="ttdef"><b>Definition</b> MRExpected.h:28</div></div>
-<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:25</div></div>
-<div class="ttc" id="anamespaceMR_html_a7114fa1fb5a55cb47db1db69eb04634b"><div class="ttname"><a href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">MR::unexpectedUnsupportedFileExtension</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpectedUnsupportedFileExtension()</div><div class="ttdoc">returns Expected error with stringUnsupportedFileExtension()</div><div class="ttdef"><b>Definition</b> MRExpected.h:54</div></div>
-<div class="ttc" id="anamespaceMR_html_a78cf002f660ab73123553df1f3ab3bc1"><div class="ttname"><a href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">MR::unexpectedOperationCanceled</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpectedOperationCanceled()</div><div class="ttdoc">returns Expected error with stringOperationCanceled()</div><div class="ttdef"><b>Definition</b> MRExpected.h:42</div></div>
+<div class="ttc" id="anamespaceMR_html_a1544b69f030c536c35a2d00c154caaf6"><div class="ttname"><a href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">MR::stringUnsupportedFileExtension</a></div><div class="ttdeci">MR_BIND_IGNORE std::string stringUnsupportedFileExtension()</div><div class="ttdoc">common message about unknown file extension</div><div class="ttdef"><b>Definition</b> MRExpected.h:54</div></div>
+<div class="ttc" id="anamespaceMR_html_a35384d6fca989aa5fd419f6c6d730022"><div class="ttname"><a href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpected(E &amp;&amp;e)</div><div class="ttdef"><b>Definition</b> MRExpected.h:34</div></div>
+<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:28</div></div>
+<div class="ttc" id="anamespaceMR_html_a7114fa1fb5a55cb47db1db69eb04634b"><div class="ttname"><a href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">MR::unexpectedUnsupportedFileExtension</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpectedUnsupportedFileExtension()</div><div class="ttdoc">returns Expected error with stringUnsupportedFileExtension()</div><div class="ttdef"><b>Definition</b> MRExpected.h:60</div></div>
+<div class="ttc" id="anamespaceMR_html_a78cf002f660ab73123553df1f3ab3bc1"><div class="ttname"><a href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">MR::unexpectedOperationCanceled</a></div><div class="ttdeci">MR_BIND_IGNORE auto unexpectedOperationCanceled()</div><div class="ttdoc">returns Expected error with stringOperationCanceled()</div><div class="ttdef"><b>Definition</b> MRExpected.h:48</div></div>
+<div class="ttc" id="anamespaceMR_html_a7c86003c754649f6ef52d71fcfb9d382"><div class="ttname"><a href="namespaceMR.html#a7c86003c754649f6ef52d71fcfb9d382">MR::Unexpected</a></div><div class="ttdeci">tl::unexpected&lt; E &gt; Unexpected</div><div class="ttdef"><b>Definition</b> MRExpected.h:31</div></div>
 <div class="ttc" id="anamespaceMR_html_ac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:10</div></div>
-<div class="ttc" id="anamespaceMR_html_adaeda128e3a2e131a28e25934de4203c"><div class="ttname"><a href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">MR::stringOperationCanceled</a></div><div class="ttdeci">MR_BIND_IGNORE std::string stringOperationCanceled()</div><div class="ttdoc">common message about user termination of an operation</div><div class="ttdef"><b>Definition</b> MRExpected.h:36</div></div>
+<div class="ttc" id="anamespaceMR_html_adaeda128e3a2e131a28e25934de4203c"><div class="ttname"><a href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">MR::stringOperationCanceled</a></div><div class="ttdeci">MR_BIND_IGNORE std::string stringOperationCanceled()</div><div class="ttdoc">common message about user termination of an operation</div><div class="ttdef"><b>Definition</b> MRExpected.h:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
