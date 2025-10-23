@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,1,0,1,6,0,0],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,2,0,1,2,0,0],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[6,0,1,0,1,6,0,0,11],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[6,0,2,0,1,2,0,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[6,0,0,9,4,2,0,2],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147":[6,0,0,9,4,2,0,0],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389daa16249848fdc15d3bd637c5a13101cdb":[6,0,0,9,4,2,0,1],
-"structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[6,0,0,9,4,2,2],
-"structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3]
+"structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[6,0,0,9,4,2,2]
 };

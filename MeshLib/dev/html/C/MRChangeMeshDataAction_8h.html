@@ -171,6 +171,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0708d452c5be91c86b2f58af98d730f9" id="r_a0708d452c5be91c86b2f58af98d730f9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0708d452c5be91c86b2f58af98d730f9">MR_ChangeMeshDataAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0708d452c5be91c86b2f58af98d730f9">MR_ChangeMeshDataAction</a></td></tr>
 <tr class="separator:a0708d452c5be91c86b2f58af98d730f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136a2aaa9e9d665a7cfe4d01f89c09dd" id="r_a136a2aaa9e9d665a7cfe4d01f89c09dd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a></td></tr>
+<tr class="separator:a136a2aaa9e9d665a7cfe4d01f89c09dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -211,6 +213,35 @@ Functions</h2></td></tr>
 <tr class="separator:a8f7415daaad6f498afd85a45a567f055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f2bf38a44ba8e258e9fb4fc8e6fdba8" id="r_a3f2bf38a44ba8e258e9fb4fc8e6fdba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f2bf38a44ba8e258e9fb4fc8e6fdba8">MR_ChangeMeshDataAction_data</a> (const <a class="el" href="#a0708d452c5be91c86b2f58af98d730f9">MR_ChangeMeshDataAction</a> *_this)</td></tr>
 <tr class="separator:a3f2bf38a44ba8e258e9fb4fc8e6fdba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf918e065483652d735b269db987884a" id="r_adf918e065483652d735b269db987884a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf918e065483652d735b269db987884a">MR_PartialChangeMeshDataAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_other)</td></tr>
+<tr class="separator:adf918e065483652d735b269db987884a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa481f1c89da724b38acf53eb356c53" id="r_a8fa481f1c89da724b38acf53eb356c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fa481f1c89da724b38acf53eb356c53">MR_PartialChangeMeshDataAction_OffsetPtr</a> (const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8fa481f1c89da724b38acf53eb356c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8fa481f1c89da724b38acf53eb356c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3aa46f1a3c983e2795ab344228036d5" id="r_aa3aa46f1a3c983e2795ab344228036d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3aa46f1a3c983e2795ab344228036d5">MR_PartialChangeMeshDataAction_OffsetMutablePtr</a> (<a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa3aa46f1a3c983e2795ab344228036d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa3aa46f1a3c983e2795ab344228036d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46fae566609b288e6551720dfd32184b" id="r_a46fae566609b288e6551720dfd32184b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46fae566609b288e6551720dfd32184b">MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *object)</td></tr>
+<tr class="separator:a46fae566609b288e6551720dfd32184b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9f97854b00c3b93c604ebc5b6e7006" id="r_a8f9f97854b00c3b93c604ebc5b6e7006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f9f97854b00c3b93c604ebc5b6e7006">MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *object)</td></tr>
+<tr class="memdesc:a8f9f97854b00c3b93c604ebc5b6e7006"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
+<tr class="separator:a8f9f97854b00c3b93c604ebc5b6e7006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b5a21d7b29c0e25bfef697080b6e418" id="r_a6b5a21d7b29c0e25bfef697080b6e418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b5a21d7b29c0e25bfef697080b6e418">MR_PartialChangeMeshDataAction_Construct</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, const <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *obj, <a class="el" href="#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *newData)</td></tr>
+<tr class="separator:a6b5a21d7b29c0e25bfef697080b6e418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646579e1c694ee6ac3c40aa5be3e3f8b" id="r_a646579e1c694ee6ac3c40aa5be3e3f8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646579e1c694ee6ac3c40aa5be3e3f8b">MR_PartialChangeMeshDataAction_Destroy</a> (const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_this)</td></tr>
+<tr class="memdesc:a646579e1c694ee6ac3c40aa5be3e3f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PartialChangeMeshDataAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a646579e1c694ee6ac3c40aa5be3e3f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b86e21c2c271a598bac46d216a89fb7" id="r_a0b86e21c2c271a598bac46d216a89fb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b86e21c2c271a598bac46d216a89fb7">MR_PartialChangeMeshDataAction_DestroyArray</a> (const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_this)</td></tr>
+<tr class="memdesc:a0b86e21c2c271a598bac46d216a89fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PartialChangeMeshDataAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0b86e21c2c271a598bac46d216a89fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac843bd1937d3884b5ea12615e914828d" id="r_ac843bd1937d3884b5ea12615e914828d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac843bd1937d3884b5ea12615e914828d">MR_PartialChangeMeshDataAction_AssignFromAnother</a> (<a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_other)</td></tr>
+<tr class="separator:ac843bd1937d3884b5ea12615e914828d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb3cc47f2c941a734f814b83b39f29d" id="r_a7cb3cc47f2c941a734f814b83b39f29d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cb3cc47f2c941a734f814b83b39f29d">MR_PartialChangeMeshDataAction_name</a> (const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_this)</td></tr>
+<tr class="separator:a7cb3cc47f2c941a734f814b83b39f29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05ed17c104f94cbb2be70a773b1aa4b" id="r_af05ed17c104f94cbb2be70a773b1aa4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af05ed17c104f94cbb2be70a773b1aa4b">MR_PartialChangeMeshDataAction_action</a> (<a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a> type)</td></tr>
+<tr class="separator:af05ed17c104f94cbb2be70a773b1aa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37ddf857bc41c70c9bc66d9f49a50d6" id="r_ae37ddf857bc41c70c9bc66d9f49a50d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae37ddf857bc41c70c9bc66d9f49a50d6">MR_PartialChangeMeshDataAction_heapBytes</a> (const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *_this)</td></tr>
+<tr class="separator:ae37ddf857bc41c70c9bc66d9f49a50d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a0708d452c5be91c86b2f58af98d730f9" name="a0708d452c5be91c86b2f58af98d730f9"></a>
@@ -253,6 +284,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a136a2aaa9e9d665a7cfe4d01f89c09dd" name="a136a2aaa9e9d665a7cfe4d01f89c09dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Undo action for ObjectMeshData change partially Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> </p>
 
 </div>
 </div>
@@ -628,6 +674,266 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshDataAction.html">MR::ChangeMeshDataAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="af05ed17c104f94cbb2be70a773b1aa4b" name="af05ed17c104f94cbb2be70a773b1aa4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af05ed17c104f94cbb2be70a773b1aa4b">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PartialChangeMeshDataAction_action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ac843bd1937d3884b5ea12615e914828d" name="ac843bd1937d3884b5ea12615e914828d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac843bd1937d3884b5ea12615e914828d">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> * MR_PartialChangeMeshDataAction_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6b5a21d7b29c0e25bfef697080b6e418" name="a6b5a21d7b29c0e25bfef697080b6e418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b5a21d7b29c0e25bfef697080b6e418">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> * MR_PartialChangeMeshDataAction_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>newData</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use this constructor to remember object's data and immediately set new data Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code>. Parameter <code>name</code> can not be null. If <code>name_end</code> is null, then <code>name</code> is assumed to be null-terminated. Parameter <code>obj</code> can not be null. It is a single object. Parameter <code>newData</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a646579e1c694ee6ac3c40aa5be3e3f8b" title="Destroys a heap-allocated instance of MR_PartialChangeMeshDataAction. Does nothing if the pointer is ...">MR_PartialChangeMeshDataAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adf918e065483652d735b269db987884a" name="adf918e065483652d735b269db987884a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf918e065483652d735b269db987884a">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> * MR_PartialChangeMeshDataAction_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a646579e1c694ee6ac3c40aa5be3e3f8b" title="Destroys a heap-allocated instance of MR_PartialChangeMeshDataAction. Does nothing if the pointer is ...">MR_PartialChangeMeshDataAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a646579e1c694ee6ac3c40aa5be3e3f8b" name="a646579e1c694ee6ac3c40aa5be3e3f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a646579e1c694ee6ac3c40aa5be3e3f8b">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PartialChangeMeshDataAction_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PartialChangeMeshDataAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0b86e21c2c271a598bac46d216a89fb7" name="a0b86e21c2c271a598bac46d216a89fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b86e21c2c271a598bac46d216a89fb7">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PartialChangeMeshDataAction_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PartialChangeMeshDataAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae37ddf857bc41c70c9bc66d9f49a50d6" name="ae37ddf857bc41c70c9bc66d9f49a50d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37ddf857bc41c70c9bc66d9f49a50d6">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PartialChangeMeshDataAction_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a8f9f97854b00c3b93c604ebc5b6e7006" name="a8f9f97854b00c3b93c604ebc5b6e7006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9f97854b00c3b93c604ebc5b6e7006">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. </p>
+
+</div>
+</div>
+<a id="a7cb3cc47f2c941a734f814b83b39f29d" name="a7cb3cc47f2c941a734f814b83b39f29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb3cc47f2c941a734f814b83b39f29d">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PartialChangeMeshDataAction_name </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa3aa46f1a3c983e2795ab344228036d5" name="aa3aa46f1a3c983e2795ab344228036d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3aa46f1a3c983e2795ab344228036d5">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> * MR_PartialChangeMeshDataAction_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8fa481f1c89da724b38acf53eb356c53" name="a8fa481f1c89da724b38acf53eb356c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa481f1c89da724b38acf53eb356c53">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> * MR_PartialChangeMeshDataAction_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a46fae566609b288e6551720dfd32184b" name="a46fae566609b288e6551720dfd32184b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46fae566609b288e6551720dfd32184b">&#9670;&#160;</a></span>MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a136a2aaa9e9d665a7cfe4d01f89c09dd">MR_PartialChangeMeshDataAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshDataAction.html">MR::PartialChangeMeshDataAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. This version is acting on mutable pointers. </p>
 
 </div>
 </div>

@@ -1,14 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"structMR_1_1RigidXf3.html#a68f57db94c4696c100a2c8272465e168":[6,0,1,0,1,644,0],
-"structMR_1_1RigidXf3.html#a68f57db94c4696c100a2c8272465e168":[6,0,2,0,1,625,0],
-"structMR_1_1RigidXf3.html#a9edc388896551e5189ba1d9e7b60003e":[6,0,1,0,1,644,1],
-"structMR_1_1RigidXf3.html#a9edc388896551e5189ba1d9e7b60003e":[6,0,2,0,1,625,1],
-"structMR_1_1RigidXf3.html#ac4754dc93c2a2dc463811b28d41e34a2":[6,0,1,0,1,644,2],
-"structMR_1_1RigidXf3.html#ac4754dc93c2a2dc463811b28d41e34a2":[6,0,2,0,1,625,2],
-"structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283":[6,0,1,0,1,644,6],
-"structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283":[6,0,2,0,1,625,6],
-"structMR_1_1RigidXf3.html#ad36335768adf3c0ffb40b10e3fc37d39":[6,0,1,0,1,644,4],
 "structMR_1_1RigidXf3.html#ad36335768adf3c0ffb40b10e3fc37d39":[6,0,2,0,1,625,4],
 "structMR_1_1RigidXf3.html#afeb57cb12b3d557aeb536b1f9f858550":[6,0,1,0,1,644,5],
 "structMR_1_1RigidXf3.html#afeb57cb12b3d557aeb536b1f9f858550":[6,0,2,0,1,625,5],
@@ -157,7 +148,7 @@ var NAVTREEINDEX91 =
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,2,0,1,658,0,5],
 "structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,1,0,1,677,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,2,0,1,658,0,3],
-"structMR_1_1SetNew.html":[6,0,0,4,38],
+"structMR_1_1SetNew.html":[6,0,0,4,39],
 "structMR_1_1ShaderWarning.html":[6,0,1,0,1,682],
 "structMR_1_1ShaderWarning.html":[6,0,2,0,1,663],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,1,0,1,682,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX91 =
 "structMR_1_1SkyPatch.html":[6,0,1,0,1,695],
 "structMR_1_1SkyPatch.html":[6,0,2,0,1,676],
 "structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,1,0,1,695,1],
-"structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,2,0,1,676,1]
+"structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,2,0,1,676,1],
+"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[6,0,1,0,1,695,0],
+"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[6,0,2,0,1,676,0],
+"structMR_1_1SliceInfo.html":[6,0,1,0,1,696],
+"structMR_1_1SliceInfo.html":[6,0,2,0,1,677],
+"structMR_1_1SliceInfo.html#a44785160df691c40ebdf392f66282315":[6,0,1,0,1,696,0],
+"structMR_1_1SliceInfo.html#a44785160df691c40ebdf392f66282315":[6,0,2,0,1,677,0],
+"structMR_1_1SliceInfoBase.html":[6,0,1,0,1,697],
+"structMR_1_1SliceInfoBase.html":[6,0,2,0,1,678],
+"structMR_1_1SliceInfoBase.html#a0f4b29a9c38aac83de066f74ddc95c4d":[6,0,1,0,1,697,1]
 };

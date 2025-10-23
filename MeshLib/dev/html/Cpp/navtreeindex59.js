@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"group__SerializerGroup.html#gafab977958cb409b72f7584d9f6602a3e":[6,0,0,2,15,14],
+"group__StreamOperatorsGroup.html":[6,0,0,2,16],
 "group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
 "group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
 "group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,0,4,0],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258":[6,0,1,0,0,4,3],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b":[6,0,1,0,0,4,2],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,1,0,0,4,4],
-"namespaceImGui.html#a28e1c155304849c7d19acd541112fd83":[6,0,1,0,0,14],
-"namespaceImGui.html#a29d932a1f5e6a9e91213d1a209b09e1a":[6,0,1,0,0,37]
+"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,1,0,0,4,4]
 };

@@ -1,14 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"structMR_1_1PostResizeListener.html":[6,0,2,0,1,545],
-"structMR_1_1PostResizeListener.html#a2eea5fda2f64fd6b6ac4affb6a8c3028":[6,0,1,0,1,564,1],
-"structMR_1_1PostResizeListener.html#a2eea5fda2f64fd6b6ac4affb6a8c3028":[6,0,2,0,1,545,1],
-"structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[6,0,1,0,1,564,2],
-"structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[6,0,2,0,1,545,2],
-"structMR_1_1PostResizeListener.html#a5dccbda80d641a38306f4510feca9418":[6,0,1,0,1,564,0],
-"structMR_1_1PostResizeListener.html#a5dccbda80d641a38306f4510feca9418":[6,0,2,0,1,545,0],
-"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[6,0,1,0,1,564,3],
-"structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[6,0,2,0,1,545,3],
 "structMR_1_1PreDrawListener.html":[6,0,1,0,1,569],
 "structMR_1_1PreDrawListener.html":[6,0,2,0,1,550],
 "structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429":[6,0,1,0,1,569,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX89 =
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,1,0,1,596,7],
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,2,0,1,577,7],
 "structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,1,0,1,596,6],
-"structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,2,0,1,577,6]
+"structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,2,0,1,577,6],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,34,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,2,0,1,19,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,1,0,1,34,0,3],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,2,0,1,19,0,3],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[6,0,1,0,1,34,0,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[6,0,2,0,1,19,0,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aaace7c14d6dc2100d4e3e7555158c162":[6,0,1,0,1,34,0,4],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#aaace7c14d6dc2100d4e3e7555158c162":[6,0,2,0,1,19,0,4],
+"structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[6,0,1,0,1,34,0,2]
 };

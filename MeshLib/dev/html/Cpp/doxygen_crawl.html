@@ -674,7 +674,6 @@
 <a href="MRPointInAllSpaces_8h_source.html"/>
 <a href="MRPointsShader_8h_source.html"/>
 <a href="MRProgressBar_8h_source.html"/>
-<a href="MRProjectMeshAttributes_8h_source.html"/>
 <a href="MRPythonAppendCommand_8h_source.html"/>
 <a href="MRRecentFilesStore_8h_source.html"/>
 <a href="MRRenderClickableRect_8h_source.html"/>
@@ -1485,7 +1484,6 @@
 <a href="MRPointInAllSpaces_8h.html"/>
 <a href="MRPointsShader_8h.html"/>
 <a href="MRProgressBar_8h.html"/>
-<a href="MRProjectMeshAttributes_8h.html"/>
 <a href="MRPythonAppendCommand_8h.html"/>
 <a href="MRRecentFilesStore_8h.html"/>
 <a href="MRRenderClickableRect_8h.html"/>
@@ -2571,8 +2569,6 @@
 <a href="structMR_1_1Mesh-members.html"/>
 <a href="structMR_1_1MeshApproxRelaxParams.html"/>
 <a href="structMR_1_1MeshApproxRelaxParams-members.html"/>
-<a href="structMR_1_1MeshAttributes.html"/>
-<a href="structMR_1_1MeshAttributes-members.html"/>
 <a href="structMR_1_1MeshAttributesToUpdate.html"/>
 <a href="structMR_1_1MeshAttributesToUpdate-members.html"/>
 <a href="classMR_1_1MeshDiff.html"/>
@@ -2845,6 +2841,8 @@
 <a href="structMR_1_1ParallelProgressReporter_1_1TaskInfo-members.html"/>
 <a href="classMR_1_1PartialChangeMeshAction.html"/>
 <a href="classMR_1_1PartialChangeMeshAction-members.html"/>
+<a href="classMR_1_1PartialChangeMeshDataAction.html"/>
+<a href="classMR_1_1PartialChangeMeshDataAction-members.html"/>
 <a href="classMR_1_1PartialChangeMeshPointsAction.html"/>
 <a href="classMR_1_1PartialChangeMeshPointsAction-members.html"/>
 <a href="classMR_1_1PartialChangeMeshTopologyAction.html"/>
@@ -7722,10 +7720,8 @@
 <a href="MRProgressReadWrite_8h.html"/>
 <a href="MRProgressReadWrite_8h.html#a43da20cc5f0077147d57b1af6226aa53"/>
 <a href="MRProgressReadWrite_8h.html#a60a133e9f349b9183017b2b4abaf1b9b"/>
-<a href="MRProjectMeshAttributes_8h.html"/>
-<a href="MRProjectMeshAttributes_8h.html#a63afe360ace1d4556b647e6069a02502"/>
-<a href="MRProjectMeshAttributes_8h.html#ad8a0a944a1b80921f633fa066021dafe"/>
 <a href="MRProjectionMeshAttribute_8h.html"/>
+<a href="MRProjectionMeshAttribute_8h.html#acaa5c4c3fe921e2f2b78146aae104a33"/>
 <a href="MRProjectionMeshAttribute_8h.html#af2199fb84f92befa49011fd4f55f4f09"/>
 <a href="MRProjectionMeshAttribute_8h.html#afb43cdb85d285bf367875ed35c3d8d7a"/>
 <a href="MRPybind11_8h.html"/>
@@ -12424,6 +12420,11 @@
 <a href="classMR_1_1PartialChangeMeshAction.html#ad914ee31862cd630b0890770d0191df2"/>
 <a href="classMR_1_1PartialChangeMeshAction.html#ade6dceb9fa790192de46869cae89ab8f"/>
 <a href="classMR_1_1PartialChangeMeshAction.html#aed7f35076e8508987ce40affd1d98e1c"/>
+<a href="classMR_1_1PartialChangeMeshDataAction.html"/>
+<a href="classMR_1_1PartialChangeMeshDataAction.html#a0506227ed109f9b28b74220235172ddc"/>
+<a href="classMR_1_1PartialChangeMeshDataAction.html#a599df9d6ebfab0e276d415c75438e2de"/>
+<a href="classMR_1_1PartialChangeMeshDataAction.html#a846fb0d5a0466f922b3fd7fca3c1b516"/>
+<a href="classMR_1_1PartialChangeMeshDataAction.html#a86738a241e4ba1a61752fd26623c61e3"/>
 <a href="classMR_1_1PartialChangeMeshPointsAction.html"/>
 <a href="classMR_1_1PartialChangeMeshPointsAction.html#a04b08cc0eb6bacb70a04801d0a27111f"/>
 <a href="classMR_1_1PartialChangeMeshPointsAction.html#a084adee7a06ac5a670f2847f4a0c9d04"/>
@@ -16892,7 +16893,6 @@
 <a href="namespaceMR.html#a63679b306dbff600a8f7c5008a489d9d"/>
 <a href="namespaceMR.html#a63769cf93cfa3d68cbf331f305c195d8"/>
 <a href="namespaceMR.html#a6378c438e076ed530da1f0c964249855"/>
-<a href="namespaceMR.html#a63afe360ace1d4556b647e6069a02502"/>
 <a href="namespaceMR.html#a63eff6abd3e68ba4393b53531873036a"/>
 <a href="namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d"/>
 <a href="namespaceMR.html#a6442f7744bc0c8f190de09111e15d398"/>
@@ -17527,6 +17527,7 @@
 <a href="namespaceMR.html#aca3c19b890aa7fc06a27b77bbd2166dd"/>
 <a href="namespaceMR.html#aca4f34c4f899d8f2dc5fc0544af86988"/>
 <a href="namespaceMR.html#aca6757bf3fe6058264ac14a06fbb616e"/>
+<a href="namespaceMR.html#acaa5c4c3fe921e2f2b78146aae104a33"/>
 <a href="namespaceMR.html#acad54447072489545d11f4ee251429e6"/>
 <a href="namespaceMR.html#acad54447072489545d11f4ee251429e6a084532db1745b5e9a1a501e56e147295"/>
 <a href="namespaceMR.html#acad54447072489545d11f4ee251429e6a09bd244742857c8f6ca9945cb0b3121c"/>
@@ -17624,7 +17625,6 @@
 <a href="namespaceMR.html#ad7f223794186253418bc69b3f96ce456"/>
 <a href="namespaceMR.html#ad803f39e74d5d4e2388cd7b981d606da"/>
 <a href="namespaceMR.html#ad85d26b0a95cdf398372e9564135b4ba"/>
-<a href="namespaceMR.html#ad8a0a944a1b80921f633fa066021dafe"/>
 <a href="namespaceMR.html#ad8bfcdd27aa7037f5d7fa7b17f725c21"/>
 <a href="namespaceMR.html#ad8e49582fe849014967a8baf003fd27b"/>
 <a href="namespaceMR.html#ad8fa8ec5590f6b95bdbfc2224e8d190f"/>
@@ -20705,11 +20705,6 @@
 <a href="structMR_1_1MeshApproxRelaxParams.html"/>
 <a href="structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51"/>
 <a href="structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae"/>
-<a href="structMR_1_1MeshAttributes.html"/>
-<a href="structMR_1_1MeshAttributes.html#a0d5df46eea1b705b131fdf1e098b8f08"/>
-<a href="structMR_1_1MeshAttributes.html#a65ddf234b3cccc7bd0a94ad71b794e86"/>
-<a href="structMR_1_1MeshAttributes.html#a6e4a059465bedc2e9eb1dd9b160a1b94"/>
-<a href="structMR_1_1MeshAttributes.html#ab15e72729c06f643cbe820e73989f78c"/>
 <a href="structMR_1_1MeshAttributesToUpdate.html"/>
 <a href="structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7"/>
 <a href="structMR_1_1MeshAttributesToUpdate.html#a7b265a7a8c17525854733647c2bf3363"/>

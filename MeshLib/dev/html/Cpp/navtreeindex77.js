@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3],
 "structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,254],
 "structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,235],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,254,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,2,0,1,269,4],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,1,0,1,288,3],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,2,0,1,269,3],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,288,1],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,269,1]
+"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,288,1]
 };

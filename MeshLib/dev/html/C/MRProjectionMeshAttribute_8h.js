@@ -1,6 +1,9 @@
 var MRProjectionMeshAttribute_8h =
 [
+    [ "MR_expected_void_std_string", "MRProjectionMeshAttribute_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
+    [ "MR_FaceBitSet", "MRProjectionMeshAttribute_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_MeshProjectionTransforms", "MRProjectionMeshAttribute_8h.html#aedf9429d1c6a607da0d6891b231f843e", null ],
+    [ "MR_ObjectMeshData", "MRProjectionMeshAttribute_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e", null ],
     [ "MR_ProjectAttributeParams", "MRProjectionMeshAttribute_8h.html#adabae5946a19b520cce97819279afb69", null ],
     [ "MR_std_function_bool_from_float", "MRProjectionMeshAttribute_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_ProjectAttributeParams_AssignFromAnother", "MRProjectionMeshAttribute_8h.html#a497c1e420007ba21c897aee00e14dac8", null ],
@@ -17,5 +20,6 @@ var MRProjectionMeshAttribute_8h =
     [ "MR_ProjectAttributeParams_OffsetMutablePtr", "MRProjectionMeshAttribute_8h.html#aec9ae2f99520f9a360804d0d4552f86b", null ],
     [ "MR_ProjectAttributeParams_OffsetPtr", "MRProjectionMeshAttribute_8h.html#a453fe3694c51e04248e8393bc4c3a1b4", null ],
     [ "MR_ProjectAttributeParams_Set_progressCb", "MRProjectionMeshAttribute_8h.html#a04d29b424d991a83ad4358969c619cdc", null ],
-    [ "MR_ProjectAttributeParams_Set_xfs", "MRProjectionMeshAttribute_8h.html#a333be2a9ff438359c64a7c4ed53996db", null ]
+    [ "MR_ProjectAttributeParams_Set_xfs", "MRProjectionMeshAttribute_8h.html#a333be2a9ff438359c64a7c4ed53996db", null ],
+    [ "MR_projectObjectMeshData", "MRProjectionMeshAttribute_8h.html#ae2e5d48da76dc128b3e81c5fd9bfc7a7", null ]
 ];

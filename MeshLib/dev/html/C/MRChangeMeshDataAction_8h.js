@@ -3,6 +3,7 @@ var MRChangeMeshDataAction_8h =
     [ "MR_ChangeMeshDataAction", "MRChangeMeshDataAction_8h.html#a0708d452c5be91c86b2f58af98d730f9", null ],
     [ "MR_HistoryAction", "MRChangeMeshDataAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_ObjectMeshData", "MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e", null ],
+    [ "MR_PartialChangeMeshDataAction", "MRChangeMeshDataAction_8h.html#a136a2aaa9e9d665a7cfe4d01f89c09dd", null ],
     [ "MR_std_shared_ptr_MR_ObjectMesh", "MRChangeMeshDataAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a", null ],
     [ "MR_std_string", "MRChangeMeshDataAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeMeshDataAction_action", "MRChangeMeshDataAction_8h.html#a9898dd007693f5f23aa2e423b7819827", null ],
@@ -20,5 +21,17 @@ var MRChangeMeshDataAction_8h =
     [ "MR_ChangeMeshDataAction_OffsetMutablePtr", "MRChangeMeshDataAction_8h.html#a1bff4adcfc92eed3e30577101756017a", null ],
     [ "MR_ChangeMeshDataAction_OffsetPtr", "MRChangeMeshDataAction_8h.html#a1b7b70bb67e437d6c3b4be16c4664592", null ],
     [ "MR_ChangeMeshDataAction_setObjectDirty", "MRChangeMeshDataAction_8h.html#ab6280af941ce5b1c26a05f34d55ed73e", null ],
-    [ "MR_ChangeMeshDataAction_UpcastTo_MR_HistoryAction", "MRChangeMeshDataAction_8h.html#acb57964946724ddc4011786bbb55d7ee", null ]
+    [ "MR_ChangeMeshDataAction_UpcastTo_MR_HistoryAction", "MRChangeMeshDataAction_8h.html#acb57964946724ddc4011786bbb55d7ee", null ],
+    [ "MR_PartialChangeMeshDataAction_action", "MRChangeMeshDataAction_8h.html#af05ed17c104f94cbb2be70a773b1aa4b", null ],
+    [ "MR_PartialChangeMeshDataAction_AssignFromAnother", "MRChangeMeshDataAction_8h.html#ac843bd1937d3884b5ea12615e914828d", null ],
+    [ "MR_PartialChangeMeshDataAction_Construct", "MRChangeMeshDataAction_8h.html#a6b5a21d7b29c0e25bfef697080b6e418", null ],
+    [ "MR_PartialChangeMeshDataAction_ConstructFromAnother", "MRChangeMeshDataAction_8h.html#adf918e065483652d735b269db987884a", null ],
+    [ "MR_PartialChangeMeshDataAction_Destroy", "MRChangeMeshDataAction_8h.html#a646579e1c694ee6ac3c40aa5be3e3f8b", null ],
+    [ "MR_PartialChangeMeshDataAction_DestroyArray", "MRChangeMeshDataAction_8h.html#a0b86e21c2c271a598bac46d216a89fb7", null ],
+    [ "MR_PartialChangeMeshDataAction_heapBytes", "MRChangeMeshDataAction_8h.html#ae37ddf857bc41c70c9bc66d9f49a50d6", null ],
+    [ "MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction", "MRChangeMeshDataAction_8h.html#a8f9f97854b00c3b93c604ebc5b6e7006", null ],
+    [ "MR_PartialChangeMeshDataAction_name", "MRChangeMeshDataAction_8h.html#a7cb3cc47f2c941a734f814b83b39f29d", null ],
+    [ "MR_PartialChangeMeshDataAction_OffsetMutablePtr", "MRChangeMeshDataAction_8h.html#aa3aa46f1a3c983e2795ab344228036d5", null ],
+    [ "MR_PartialChangeMeshDataAction_OffsetPtr", "MRChangeMeshDataAction_8h.html#a8fa481f1c89da724b38acf53eb356c53", null ],
+    [ "MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction", "MRChangeMeshDataAction_8h.html#a46fae566609b288e6551720dfd32184b", null ]
 ];

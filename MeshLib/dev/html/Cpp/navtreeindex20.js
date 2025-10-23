@@ -1,8 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44":[6,0,1,0,1,69,5],
-"classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44":[6,0,2,0,1,50,5],
-"classMR_1_1AsyncTimer.html#abeb2bb37589334da8a5e932ed882a5d1":[6,0,1,0,1,69,3],
 "classMR_1_1AsyncTimer.html#abeb2bb37589334da8a5e932ed882a5d1":[6,0,2,0,1,50,3],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002":[6,0,1,0,1,69,0],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002":[6,0,2,0,1,50,0],
@@ -247,7 +244,10 @@ var NAVTREEINDEX20 =
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,1,78,0],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,97,1],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,78,1],
-"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,49],
-"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,46],
-"classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,46,4]
+"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,50],
+"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,47],
+"classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,47,4],
+"classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,47,1],
+"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,47,3],
+"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,47,2]
 };

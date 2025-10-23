@@ -640,6 +640,7 @@ var annotated_dup =
       [ "Parabolaf", "classmrmeshpy_1_1Parabolaf.html", "classmrmeshpy_1_1Parabolaf" ],
       [ "Parallel", "classmrmeshpy_1_1Parallel.html", "classmrmeshpy_1_1Parallel" ],
       [ "PartialChangeMeshAction", "classmrmeshpy_1_1PartialChangeMeshAction.html", "classmrmeshpy_1_1PartialChangeMeshAction" ],
+      [ "PartialChangeMeshDataAction", "classmrmeshpy_1_1PartialChangeMeshDataAction.html", "classmrmeshpy_1_1PartialChangeMeshDataAction" ],
       [ "PartialChangeMeshPointsAction", "classmrmeshpy_1_1PartialChangeMeshPointsAction.html", "classmrmeshpy_1_1PartialChangeMeshPointsAction" ],
       [ "PartialChangeMeshTopologyAction", "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html", "classmrmeshpy_1_1PartialChangeMeshTopologyAction" ],
       [ "PartMapping", "classmrmeshpy_1_1PartMapping.html", "classmrmeshpy_1_1PartMapping" ],

@@ -472,6 +472,7 @@ var hierarchy =
       [ "mrmeshpy.ChangeXfAction", "classmrmeshpy_1_1ChangeXfAction.html", null ],
       [ "mrmeshpy.CombinedHistoryAction", "classmrmeshpy_1_1CombinedHistoryAction.html", null ],
       [ "mrmeshpy.PartialChangeMeshAction", "classmrmeshpy_1_1PartialChangeMeshAction.html", null ],
+      [ "mrmeshpy.PartialChangeMeshDataAction", "classmrmeshpy_1_1PartialChangeMeshDataAction.html", null ],
       [ "mrmeshpy.PartialChangeMeshPointsAction", "classmrmeshpy_1_1PartialChangeMeshPointsAction.html", null ],
       [ "mrmeshpy.PartialChangeMeshTopologyAction", "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html", null ]
     ] ],
