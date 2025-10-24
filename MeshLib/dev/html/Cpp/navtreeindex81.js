@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1MapOrHashMap.html#a2406ff7e1c972a394a1b2375af1feb33":[6,0,2,0,1,345,12],
+"structMR_1_1MapOrHashMap.html#a2aded678aafca023ae711c2dcad233e5":[6,0,1,0,1,364,5],
 "structMR_1_1MapOrHashMap.html#a2aded678aafca023ae711c2dcad233e5":[6,0,2,0,1,345,5],
 "structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e":[6,0,1,0,1,364,4],
 "structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e":[6,0,2,0,1,345,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1MergeVolumePartSettings.html#a46d9c425aefa56ee9d112c6cb81a1415":[6,0,0,17,4,4],
 "structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f":[6,0,0,17,4,1],
 "structMR_1_1MergeVolumePartSettings.html#a4a4414df6198c1615c8f9d37c3692f87":[6,0,0,17,4,7],
-"structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89":[6,0,0,17,4,2],
-"structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975":[6,0,0,17,4,0],
-"structMR_1_1MergeVolumePartSettings.html#afd642c0d879285bf9cfb4e609c2cd816":[6,0,0,17,4,6]
+"structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89":[6,0,0,17,4,2]
 };

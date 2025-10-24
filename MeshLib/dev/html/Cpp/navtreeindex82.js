@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975":[6,0,0,17,4,0],
+"structMR_1_1MergeVolumePartSettings.html#afd642c0d879285bf9cfb4e609c2cd816":[6,0,0,17,4,6],
 "structMR_1_1Mesh.html":[6,0,0,7,1],
 "structMR_1_1Mesh.html#a0095216b1fbe49128eb4b14d6c9f8a42":[6,0,0,7,1,102],
 "structMR_1_1Mesh.html#a029d8d453e90f13a14ae22b25a71db47":[6,0,0,7,1,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1MeshMeshDistanceResult.html":[6,0,0,1,23],
 "structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9":[6,0,0,1,23,2],
 "structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[6,0,0,1,23,0],
-"structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9":[6,0,0,1,23,1],
-"structMR_1_1MeshMeshSignedDistanceResult.html":[6,0,0,1,24],
-"structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09":[6,0,0,1,24,1]
+"structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9":[6,0,0,1,23,1]
 };
