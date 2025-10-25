@@ -1004,6 +1004,7 @@ var annotated_dup =
       [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", "classMR_1_1ViewerSettingsManager" ],
       [ "ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", "classMR_1_1ViewerSettingsPlugin" ],
       [ "ViewerSetup", "classMR_1_1ViewerSetup.html", "classMR_1_1ViewerSetup" ],
+      [ "ViewerSignals", "structMR_1_1ViewerSignals.html", "structMR_1_1ViewerSignals" ],
       [ "ViewerTitle", "classMR_1_1ViewerTitle.html", "classMR_1_1ViewerTitle" ],
       [ "Viewport", "classMR_1_1Viewport.html", "classMR_1_1Viewport" ],
       [ "ViewportGL", "classMR_1_1ViewportGL.html", "classMR_1_1ViewportGL" ],

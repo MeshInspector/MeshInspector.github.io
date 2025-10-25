@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"MRStringConvert_8h.html#a5a6d09d98985d45fdd40a23f1df854c2":[6,0,3,0,0,1,4,365,0],
+"MRStringConvert_8h.html#a5a70c8c1a8a14604554c8a19a86984dc":[6,0,3,0,0,1,4,365,16],
+"MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705":[6,0,3,0,0,1,4,365,12],
 "MRStringConvert_8h.html#aa07a9eebcb6084b3728efa81a3ea4e43":[6,0,3,0,0,1,4,365,6],
 "MRStringConvert_8h_source.html":[6,0,3,0,0,1,4,365],
 "MRSubfeatures_8h.html":[6,0,3,0,0,1,4,366],
@@ -14,16 +17,16 @@ var NAVTREEINDEX15 =
 "MRSurfaceLineOffset_8h.html#a5c90e7ed0a38e9f1cd9a61f2742f12cc":[6,0,3,0,0,1,4,369,0],
 "MRSurfaceLineOffset_8h.html#a8964f9c61140cf585633903f71ced4eb":[6,0,3,0,0,1,4,369,1],
 "MRSurfaceLineOffset_8h_source.html":[6,0,3,0,0,1,4,369],
-"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,11,121],
-"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,11,121],
+"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,11,122],
+"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,11,122],
 "MRSurfacePath_8h.html":[6,0,3,0,0,1,4,370],
 "MRSurfacePath_8h_source.html":[6,0,3,0,0,1,4,370],
-"MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,11,122],
-"MRSurfacePointPicker_8h_source.html":[6,0,3,0,0,1,11,122],
+"MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,11,123],
+"MRSurfacePointPicker_8h_source.html":[6,0,3,0,0,1,11,123],
 "MRSurroundingContour_8h.html":[6,0,3,0,0,1,4,371],
 "MRSurroundingContour_8h_source.html":[6,0,3,0,0,1,4,371],
-"MRSwapRootAction_8h.html":[6,0,3,0,0,1,11,123],
-"MRSwapRootAction_8h_source.html":[6,0,3,0,0,1,11,123],
+"MRSwapRootAction_8h.html":[6,0,3,0,0,1,11,124],
+"MRSwapRootAction_8h_source.html":[6,0,3,0,0,1,11,124],
 "MRSweptVolume_8h.html":[6,0,3,0,0,1,12,26],
 "MRSweptVolume_8h.html#a7f080f919e3c7334a412f19631c396fe":[6,0,3,0,0,1,12,26,6],
 "MRSweptVolume_8h.html#aa91ec60e342e62e88f740e7fab22eaf0":[6,0,3,0,0,1,12,26,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "MRTestC2_2TestMacros_8h_source.html":[6,0,3,0,0,1,10,28],
 "MRTestC_2MRAddNoise_8h.html":[6,0,3,0,0,1,9,0],
 "MRTestC_2MRAddNoise_8h.html#adfd4599283c4059894ac0ad1f7cdb230":[6,0,3,0,0,1,9,0,0],
-"MRTestC_2MRAddNoise_8h_source.html":[6,0,3,0,0,1,9,0],
-"MRTestC_2MRAffineXf_8h.html":[6,0,3,0,0,1,9,1],
-"MRTestC_2MRAffineXf_8h.html#a614b133f738cb410ec105658ef6e6a3b":[6,0,3,0,0,1,9,1,4],
-"MRTestC_2MRAffineXf_8h.html#a6450b19a7c63daa3e6308885b1134d27":[6,0,3,0,0,1,9,1,2]
+"MRTestC_2MRAddNoise_8h_source.html":[6,0,3,0,0,1,9,0]
 };
