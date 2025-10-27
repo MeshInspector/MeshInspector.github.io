@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab046940a92e2ce97c7a270087092610d":[6,1,0,0,2,756,12],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab046940a92e2ce97c7a270087092610d":[6,1,1,0,1,756,12],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab58d9b167e66ece2adfb7d92d19ae323":[6,1,0,0,2,756,3],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab58d9b167e66ece2adfb7d92d19ae323":[6,1,1,0,1,756,3],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#adb84d67112bdb1688e57117912353308":[6,1,0,0,2,756,13],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#adb84d67112bdb1688e57117912353308":[6,1,1,0,1,756,13],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae1eecc2e72cebf1138884e492575dbeb":[6,1,0,0,2,756,1],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae1eecc2e72cebf1138884e492575dbeb":[6,1,1,0,1,756,1],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae963b743378851baa40cf623d8dbdcf0":[6,1,0,0,2,756,7],
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#ae963b743378851baa40cf623d8dbdcf0":[6,1,1,0,1,756,7],
 "classmrmeshpy_1_1RigidScaleXf3d.html":[6,1,0,0,2,757],
 "classmrmeshpy_1_1RigidScaleXf3d.html":[6,1,1,0,1,757],
 "classmrmeshpy_1_1RigidScaleXf3d.html#a4175a9984b9dd5d94b5a8a20cbb77625":[6,1,0,0,2,757,9],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#ada64f55fcedd8c58e72fea0473b5ec4b":[6,1,0,0,2,766,0,6],
 "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#ada64f55fcedd8c58e72fea0473b5ec4b":[6,1,1,0,1,766,0,6],
 "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#adba0eacf43ac0f7dc14af183d2a04383":[6,1,0,0,2,766,0,8],
-"classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#adba0eacf43ac0f7dc14af183d2a04383":[6,1,1,0,1,766,0,8],
-"classmrmeshpy_1_1SceneRoot.html":[6,1,0,0,2,767],
-"classmrmeshpy_1_1SceneRoot.html":[6,1,1,0,1,767],
-"classmrmeshpy_1_1SceneRoot.html#a8f4e480b228068348155d12067641ebf":[6,1,0,0,2,767,0],
-"classmrmeshpy_1_1SceneRoot.html#a8f4e480b228068348155d12067641ebf":[6,1,1,0,1,767,0],
-"classmrmeshpy_1_1SceneRootObject.html":[6,1,0,0,2,768],
-"classmrmeshpy_1_1SceneRootObject.html":[6,1,1,0,1,768],
-"classmrmeshpy_1_1SceneRootObject.html#a15ca2cad6fdfde06e2c701f9ef40d0af":[6,1,0,0,2,768,3],
-"classmrmeshpy_1_1SceneRootObject.html#a15ca2cad6fdfde06e2c701f9ef40d0af":[6,1,1,0,1,768,3],
-"classmrmeshpy_1_1SceneRootObject.html#a2039fa810ccd04200d0c092e8d60893f":[6,1,0,0,2,768,5],
-"classmrmeshpy_1_1SceneRootObject.html#a2039fa810ccd04200d0c092e8d60893f":[6,1,1,0,1,768,5]
+"classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#adba0eacf43ac0f7dc14af183d2a04383":[6,1,1,0,1,766,0,8]
 };

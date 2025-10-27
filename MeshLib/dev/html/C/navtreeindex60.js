@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"MRObjectComparableWithReference_8h.html#adc7b1102e8dcda86c3b8cd3cd888aeaf":[6,2,1,0,0,0,1,210,69],
+"MRObjectComparableWithReference_8h.html#ae71c102d7cb3e3421ca64dc31465fa83":[6,2,1,0,0,0,1,210,46],
+"MRObjectComparableWithReference_8h.html#ae71d7f978b36e36e9aaf77c6d7067bc5":[6,2,1,0,0,0,1,210,78],
+"MRObjectComparableWithReference_8h.html#ae79d57014b0d14ab1f2dceeb97f0eefe":[6,2,1,0,0,0,1,210,35],
+"MRObjectComparableWithReference_8h.html#aed43871fe41fb752cbd13627950d5fbb":[6,2,1,0,0,0,1,210,36],
+"MRObjectComparableWithReference_8h.html#af3b89407fcbee976dc545fa172c0f9b6":[6,2,1,0,0,0,1,210,18],
 "MRObjectComparableWithReference_8h.html#af3d91d0213ab95de48f9478fac0d21e0":[6,2,1,0,0,0,1,210,10],
 "MRObjectComparableWithReference_8h.html#afca481b4dd628ec49286a297897f9a1f":[6,2,1,0,0,0,1,210,44],
 "MRObjectComparableWithReference_8h.html#afcc44e0020d05ac9629b2ce7e47c26d8":[6,2,1,0,0,0,1,210,16],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "MRObjectLinesHolder_8h.html#a912df516262961665c8b401f5bc1c25d":[6,2,1,0,0,0,1,216,31],
 "MRObjectLinesHolder_8h.html#a92904460485c6f7108125112e346bf2d":[6,2,1,0,0,0,1,216,51],
 "MRObjectLinesHolder_8h.html#a953173153ebbb9eeb6f02a4226fb96f6":[6,2,1,0,0,0,1,216,44],
-"MRObjectLinesHolder_8h.html#a9c71acbb757eab828c8310b7cdce358e":[6,2,1,0,0,0,1,216,32],
-"MRObjectLinesHolder_8h.html#a9c9d72500dab905e67edc2678680a9ea":[6,2,1,0,0,0,1,216,7],
-"MRObjectLinesHolder_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4":[6,2,1,0,0,0,1,216,8],
-"MRObjectLinesHolder_8h.html#a9f1236c139cb895d9298d307c9d3b76a":[6,2,1,0,0,0,1,216,72],
-"MRObjectLinesHolder_8h.html#aa0687f24b330815fd7e612262f7f6106":[6,2,1,0,0,0,1,216,55],
-"MRObjectLinesHolder_8h.html#aa423994de2b40563065d0fd4085a6761":[6,2,1,0,0,0,1,216,38],
-"MRObjectLinesHolder_8h.html#aa6b334578883a55d60d5ef67962505ba":[6,2,1,0,0,0,1,216,9]
+"MRObjectLinesHolder_8h.html#a9c71acbb757eab828c8310b7cdce358e":[6,2,1,0,0,0,1,216,32]
 };

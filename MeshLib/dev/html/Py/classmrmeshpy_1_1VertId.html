@@ -325,6 +325,7 @@ This constructor is written like this instead of a plain `Id(int)`, because we a
 We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
   for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
   but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__VertId.html#a65026ca9d64b988f8e6647fd09758844">mrmeshpy.NoDefInit_VertId</a>, <a class="el" href="classmrmeshpy_1_1NoDefInit__VertId.html#ac61180161415dbae909481ab6e2bc979">mrmeshpy.NoDefInit_VertId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__VertId.html#a79d7f8ef3ee9ae12b5d5599ae7542617">mrmeshpy.NoDefInit_VertId</a>.</p>
 
@@ -354,6 +355,7 @@ This constructor is written like this instead of a plain `Id(int)`, because we a
 We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
   for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
   but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__VertId.html#a65026ca9d64b988f8e6647fd09758844">mrmeshpy.NoDefInit_VertId</a>, <a class="el" href="classmrmeshpy_1_1NoDefInit__VertId.html#ac61180161415dbae909481ab6e2bc979">mrmeshpy.NoDefInit_VertId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__VertId.html#a79d7f8ef3ee9ae12b5d5599ae7542617">mrmeshpy.NoDefInit_VertId</a>.</p>
 
