@@ -1,5 +1,8 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1DragEntranceListener.html":[6,0,1,0,1,213],
+"structMR_1_1DragEntranceListener.html":[6,0,2,0,1,194],
+"structMR_1_1DragEntranceListener.html#a4c783fc9c83aedd233e8e06a6388b292":[6,0,1,0,1,213,1],
 "structMR_1_1DragEntranceListener.html#a4c783fc9c83aedd233e8e06a6388b292":[6,0,2,0,1,194,1],
 "structMR_1_1DragEntranceListener.html#a8e343d9b5d63d5ce459c3f72307e2bd9":[6,0,1,0,1,213,2],
 "structMR_1_1DragEntranceListener.html#a8e343d9b5d63d5ce459c3f72307e2bd9":[6,0,2,0,1,194,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1EndMillTool.html#ad8f4a7587862e0863fa16e3bc9763cda":[6,0,2,0,1,212,3],
 "structMR_1_1FaceDistancesSettings.html":[6,0,1,0,1,234],
 "structMR_1_1FaceDistancesSettings.html":[6,0,2,0,1,215],
-"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,1,0,1,234,1],
-"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,2,0,1,215,1],
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,1,0,1,234,2],
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,2,0,1,215,2]
+"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,1,0,1,234,1]
 };

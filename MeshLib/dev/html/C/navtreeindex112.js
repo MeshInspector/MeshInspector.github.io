@@ -1,5 +1,8 @@
 var NAVTREEINDEX112 =
 {
+"MRZip_8h.html#adb03ce28cacfff1e499d75d512dc4a84":[6,2,1,0,0,0,1,354,1],
+"MRZip_8h.html#aef22a11476e76208a3f9a5cf2eba4c98":[6,2,1,0,0,0,1,354,2],
+"MRZip_8h_source.html":[6,2,1,0,0,0,1,354],
 "MRZlib_8h.html":[6,2,1,0,0,0,0,11],
 "MRZlib_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,0,11,0],
 "MRZlib_8h.html#a499a87f072c24e3c153c72fed3c020c3":[6,2,1,0,0,0,0,11,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX112 =
 "expected__MR__ObjectDistanceMap__std__string_8h.html":[6,2,1,0,0,0,2,13],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a13021e70d9ea0c84bb81dc2494632c76":[6,2,1,0,0,0,2,13,9],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a1e908f9ac1e836b05ff9ebb886fea329":[6,2,1,0,0,0,2,13,16],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#a228b79f2cbf565b097a60628e2a3fb32":[6,2,1,0,0,0,2,13,10],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#a3545696029539bdfa1ac654ada8176c7":[6,2,1,0,0,0,2,13,6],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#a3a623c5c822dc68bac26f6ce75eb9381":[6,2,1,0,0,0,2,13,0],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#a62d8ca7191e8d7fb3adb7938e66fc3b0":[6,2,1,0,0,0,2,13,7]
+"expected__MR__ObjectDistanceMap__std__string_8h.html#a228b79f2cbf565b097a60628e2a3fb32":[6,2,1,0,0,0,2,13,10]
 };

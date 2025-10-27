@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,2,0,1,226,0],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,245,3],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,226,3],
 "structMR_1_1FileDialog_1_1Parameters.html":[6,0,1,0,1,7,0],
 "structMR_1_1FileDialog_1_1Parameters.html":[6,0,2,0,1,3,0],
 "structMR_1_1FileDialog_1_1Parameters.html#a3b16808165abc1930db418e488d58225":[6,0,1,0,1,7,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2":[6,0,1,0,1,9,3,1],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2":[6,0,2,0,1,5,3,1],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,1,0,1,9,3,3],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,2,0,1,5,3,3],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,1,0,1,9,3,0],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,2,0,1,5,3,0],
-"structMR_1_1FlatTree.html":[6,0,1,0,1,266]
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,2,0,1,5,3,3]
 };

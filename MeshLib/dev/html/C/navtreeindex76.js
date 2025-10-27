@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"MRPositionedText_8h.html#af5d7cfc3ffa861abb9123b600762e8a8":[6,2,1,0,0,0,1,273,12],
+"MRPositionedText_8h.html#af6fc30ef508caae69ab88b0f78bb504d":[6,2,1,0,0,0,1,273,13],
+"MRPositionedText_8h_source.html":[6,2,1,0,0,0,1,273],
 "MRPrecipitationSimulator_8h.html":[6,2,1,0,0,0,1,275],
 "MRPrecipitationSimulator_8h.html#a013432e489d4337bafdd4f2355f80558":[6,2,1,0,0,0,1,275,26],
 "MRPrecipitationSimulator_8h.html#a043f195d9bf418d57010ec3d5ef36ed3":[6,2,1,0,0,0,1,275,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "MRProjectionMeshAttribute_8h.html#aedf9429d1c6a607da0d6891b231f843e":[6,2,1,0,0,0,1,282,2],
 "MRProjectionMeshAttribute_8h_source.html":[6,2,1,0,0,0,1,282],
 "MRQuadraticForm_8h.html":[6,2,1,0,0,0,1,283],
-"MRQuadraticForm_8h.html#a0c5773a804fa40baeb5bcf1f1328bbee":[6,2,1,0,0,0,1,283,56],
-"MRQuadraticForm_8h.html#a119c59251c69c21a438de45d0cc8934a":[6,2,1,0,0,0,1,283,68],
-"MRQuadraticForm_8h.html#a13cd8cbd4d45e7cccbccacbb1336a621":[6,2,1,0,0,0,1,283,5],
-"MRQuadraticForm_8h.html#a15a764b1840046e49381e310f2a01178":[6,2,1,0,0,0,1,283,76]
+"MRQuadraticForm_8h.html#a0c5773a804fa40baeb5bcf1f1328bbee":[6,2,1,0,0,0,1,283,56]
 };
