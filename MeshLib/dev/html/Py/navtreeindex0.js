@@ -62,6 +62,7 @@ var NAVTREEINDEX0 =
 "../PackageOverview.html":[5],
 "../SpacesHelp.html":[5,5],
 "../StatePluginsHelp.html":[5,7],
+"../SupportGeneratorTutorial.html":[3,1],
 "../ThirdParty.html":[7],
 "../Tutorials.html":[3],
 "../index.html":[0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#ae14b5b29f83fab6d364583e586b0fda5":[6,1,1,0,1,4,8],
 "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#afa3bbffc736a172481e6a04e277d8719":[6,1,0,0,2,4,5],
 "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#afa3bbffc736a172481e6a04e277d8719":[6,1,1,0,1,4,5],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html":[6,1,0,0,2,5],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html":[6,1,1,0,1,5]
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html":[6,1,0,0,2,5]
 };

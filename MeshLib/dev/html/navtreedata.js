@@ -35,7 +35,8 @@ var NAVTREE =
     ] ],
     [ "License", "License.html", null ],
     [ "Tutorials", "Tutorials.html", [
-      [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ]
+      [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ],
+      [ "Support Generator Tool using C++", "SupportGeneratorTutorial.html", null ]
     ] ],
     [ "Examples", "Examples.html", [
       [ "C++ Application Based on MeshLib", "Examples.html#CppApplication", [

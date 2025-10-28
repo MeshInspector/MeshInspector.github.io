@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classmrmeshpy_1_1MarchingCubesParams.html#aeb388b8df7bb7a63947019358147ad64":[6,1,1,0,1,460,13],
 "classmrmeshpy_1_1MarchingCubesParams.html#aeb6aaefe440e25320e8cb36707d3bf92":[6,1,0,0,2,460,9],
 "classmrmeshpy_1_1MarchingCubesParams.html#aeb6aaefe440e25320e8cb36707d3bf92":[6,1,1,0,1,460,9],
 "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html":[6,1,0,0,2,460,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classmrmeshpy_1_1Matrix2i.html#a885bb0a247b5643cfcf5d71426abbb9b":[6,1,1,0,1,465,24],
 "classmrmeshpy_1_1Matrix2i.html#a8c14da0c756043ffb93f864c97c17170":[6,1,0,0,2,465,22],
 "classmrmeshpy_1_1Matrix2i.html#a8c14da0c756043ffb93f864c97c17170":[6,1,1,0,1,465,22],
-"classmrmeshpy_1_1Matrix2i.html#a94832647f7d785383254f012d913262e":[6,1,0,0,2,465,21],
-"classmrmeshpy_1_1Matrix2i.html#a94832647f7d785383254f012d913262e":[6,1,1,0,1,465,21]
+"classmrmeshpy_1_1Matrix2i.html#a94832647f7d785383254f012d913262e":[6,1,0,0,2,465,21]
 };

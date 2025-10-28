@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DenseBox.html#acd9de0d2e979f4214e102f2b48c8f4b8":[6,1,1,0,1,188,5],
 "classmrmeshpy_1_1DenseBox.html#ad2cfb2da8982c798150511722d42b3cd":[6,1,0,0,2,188,2],
 "classmrmeshpy_1_1DenseBox.html#ad2cfb2da8982c798150511722d42b3cd":[6,1,1,0,1,188,2],
 "classmrmeshpy_1_1DenseBox.html#ad43075d1d7c6e89d0a530c53dbf8a453":[6,1,0,0,2,188,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#a471afe60108bd380ce0a777ed09c1e10":[6,1,1,0,1,197,3],
 "classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#a4f48943fca1f949303742a2d0940224b":[6,1,0,0,2,197,2],
 "classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#a4f48943fca1f949303742a2d0940224b":[6,1,1,0,1,197,2],
-"classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#a7c3ac99a5600eed2276cb1b290e6e5fd":[6,1,0,0,2,197,4],
-"classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#a7c3ac99a5600eed2276cb1b290e6e5fd":[6,1,1,0,1,197,4]
+"classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams.html#a7c3ac99a5600eed2276cb1b290e6e5fd":[6,1,0,0,2,197,4]
 };

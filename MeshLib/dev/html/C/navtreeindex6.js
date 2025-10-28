@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRBitSet_8h.html#a0045e7de7f11580c94a906ec6e3538d6":[6,2,1,0,0,0,1,24,711],
 "MRBitSet_8h.html#a0076da9b53c2c5f7bed0670fd6298078":[6,2,1,0,0,0,1,24,646],
 "MRBitSet_8h.html#a007aef36c1331080902daa2d026431b4":[6,2,1,0,0,0,1,24,448],
 "MRBitSet_8h.html#a00d31774d6bab0439fe7233a8d1f43b2":[6,2,1,0,0,0,1,24,775],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRBitSet_8h.html#a55a5d05c7708f891cb8f585885f25b5d":[6,2,1,0,0,0,1,24,74],
 "MRBitSet_8h.html#a56b04db3c62b9ace9ac62cfad39a0e27":[6,2,1,0,0,0,1,24,183],
 "MRBitSet_8h.html#a57cfbcbb20790bb32e2647eedaed6ead":[6,2,1,0,0,0,1,24,497],
-"MRBitSet_8h.html#a58139bde625e089c3d94e350083b1f74":[6,2,1,0,0,0,1,24,729],
-"MRBitSet_8h.html#a58374febb7a4c9b7e7a2d94c35a4f98c":[6,2,1,0,0,0,1,24,93]
+"MRBitSet_8h.html#a58139bde625e089c3d94e350083b1f74":[6,2,1,0,0,0,1,24,729]
 };

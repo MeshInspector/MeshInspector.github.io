@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"classmrmeshpy_1_1ModelPointsData.html":[6,1,1,0,1,532],
 "classmrmeshpy_1_1ModelPointsData.html#a2590d06609fe7d9f9a20aa77053a06cd":[6,1,0,0,2,532,10],
 "classmrmeshpy_1_1ModelPointsData.html#a2590d06609fe7d9f9a20aa77053a06cd":[6,1,1,0,1,532,10],
 "classmrmeshpy_1_1ModelPointsData.html#a53aea249235cb3683709942631ea79fd":[6,1,0,0,2,532,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "classmrmeshpy_1_1MultiwayICP.html#a5e6e94412ded10a2eb38575947d8ff8a":[6,1,1,0,1,541,8],
 "classmrmeshpy_1_1MultiwayICP.html#a611eadb91135f4814342f55e294e92f2":[6,1,0,0,2,541,15],
 "classmrmeshpy_1_1MultiwayICP.html#a611eadb91135f4814342f55e294e92f2":[6,1,1,0,1,541,15],
-"classmrmeshpy_1_1MultiwayICP.html#a6147b02eef605d04c670cb8aee37d837":[6,1,0,0,2,541,13],
-"classmrmeshpy_1_1MultiwayICP.html#a6147b02eef605d04c670cb8aee37d837":[6,1,1,0,1,541,13]
+"classmrmeshpy_1_1MultiwayICP.html#a6147b02eef605d04c670cb8aee37d837":[6,1,0,0,2,541,13]
 };

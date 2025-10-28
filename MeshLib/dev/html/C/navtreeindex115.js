@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"expected__MR__VoxelBitSet__std__string_8h.html#ad20cfef7dce6504553f681b258abe791":[6,2,1,0,0,0,2,36,13],
 "expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12":[6,2,1,0,0,0,2,36,0],
 "expected__MR__VoxelBitSet__std__string_8h_source.html":[6,2,1,0,0,0,2,36],
 "expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html":[6,2,1,0,0,0,2,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "expected__std__vector__MR__FaceBitSet__std__string_8h.html#aeb7c7bcfa01c96d4280bcf4277224ae8":[6,2,1,0,0,0,2,48,6],
 "expected__std__vector__MR__FaceBitSet__std__string_8h_source.html":[6,2,1,0,0,0,2,48],
 "expected__std__vector__MR__FaceFace__std__string_8h.html":[6,2,1,0,0,0,2,49],
-"expected__std__vector__MR__FaceFace__std__string_8h.html#a18f957cf3be0bf25f2db1c1ec1e8d69c":[6,2,1,0,0,0,2,49,4],
-"expected__std__vector__MR__FaceFace__std__string_8h.html#a27813681d05a3295929e623a5e489287":[6,2,1,0,0,0,2,49,9]
+"expected__std__vector__MR__FaceFace__std__string_8h.html#a18f957cf3be0bf25f2db1c1ec1e8d69c":[6,2,1,0,0,0,2,49,4]
 };

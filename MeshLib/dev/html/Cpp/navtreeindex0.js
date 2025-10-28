@@ -62,6 +62,7 @@ var NAVTREEINDEX0 =
 "../Py/APIPyPage.html":[6,1],
 "../SpacesHelp.html":[5,5],
 "../StatePluginsHelp.html":[5,7],
+"../SupportGeneratorTutorial.html":[3,1],
 "../ThirdParty.html":[7],
 "../Tutorials.html":[3],
 "../index.html":[0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRBezier_8h.html":[6,0,3,0,0,1,4,28],
 "MRBezier_8h_source.html":[6,0,3,0,0,1,4,28],
 "MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
-"MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
-"MRBitSetParallelFor_8h.html":[6,0,3,0,0,1,4,30]
+"MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0]
 };

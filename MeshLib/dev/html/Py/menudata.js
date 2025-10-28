@@ -33,7 +33,8 @@ var menudata={children:[
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"Tutorials",url:"../Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
+{text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"},
+{text:"Support Generator Tool using C++",url:"../SupportGeneratorTutorial.html"}]},
 {text:"Examples",url:"../Examples.html",children:[
 {text:"C++ Application Based on MeshLib",url:"../Examples.html#CppApplication",children:[
 {text:"Application Based on MeshLib",url:"../BasedApplication.html"}]},

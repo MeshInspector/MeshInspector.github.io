@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"MRPositionVertsSmoothly_8h.html#aa41768440da921917757eef958f8781c":[6,2,1,0,0,0,1,274,18],
 "MRPositionVertsSmoothly_8h.html#aa4de621a570c2227a7ad8bb6ece5d928":[6,2,1,0,0,0,1,274,76],
 "MRPositionVertsSmoothly_8h.html#aa91153ab56f14181d8b36f6d1e810d86":[6,2,1,0,0,0,1,274,80],
 "MRPositionVertsSmoothly_8h.html#aad178be71e5aa549d3e5735d7713bce9":[6,2,1,0,0,0,1,274,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "MRPrecisePredicates3_8h.html#afd12aa71fc4b93df21f3354992018d3f":[6,2,1,0,0,0,1,277,27],
 "MRPrecisePredicates3_8h_source.html":[6,2,1,0,0,0,1,277],
 "MRPrimitiveMapsComposition_8h.html":[6,2,1,0,0,0,1,278],
-"MRPrimitiveMapsComposition_8h.html#a0c1baad62a31685b2dfb5955f3fb8230":[6,2,1,0,0,0,1,278,2],
-"MRPrimitiveMapsComposition_8h.html#a0ffd368e277f0a7ef5715feef4345b19":[6,2,1,0,0,0,1,278,5]
+"MRPrimitiveMapsComposition_8h.html#a0c1baad62a31685b2dfb5955f3fb8230":[6,2,1,0,0,0,1,278,2]
 };

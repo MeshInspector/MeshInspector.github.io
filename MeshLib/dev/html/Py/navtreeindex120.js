@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"classmrmeshpy_1_1WeightedVertex.html#aeea90b1cada6b7e7b374a2c29f0599be":[6,1,1,0,1,1207,0],
 "classmrmeshpy_1_1WeightedVertex.html#af96dfb0ccfd4157c0a7903c33b33a310":[6,1,0,0,2,1207,2],
 "classmrmeshpy_1_1WeightedVertex.html#af96dfb0ccfd4157c0a7903c33b33a310":[6,1,1,0,1,1207,2],
 "classmrmeshpy_1_1WholeEdgeBMap.html":[6,1,0,0,2,1208],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "classmrmeshpy_1_1float__output.html#a356c1108a56e32d2b2b659bad054aa30":[6,1,1,0,1,276,0],
 "classmrmeshpy_1_1float__output.html#a4b66ccaa04f47f7e60f4066fd6163563":[6,1,0,0,2,276,3],
 "classmrmeshpy_1_1float__output.html#a4b66ccaa04f47f7e60f4066fd6163563":[6,1,1,0,1,276,3],
-"classmrmeshpy_1_1float__output.html#a607762339e39106782a0f39b4f0845d5":[6,1,0,0,2,276,2],
-"classmrmeshpy_1_1float__output.html#a607762339e39106782a0f39b4f0845d5":[6,1,1,0,1,276,2]
+"classmrmeshpy_1_1float__output.html#a607762339e39106782a0f39b4f0845d5":[6,1,0,0,2,276,2]
 };

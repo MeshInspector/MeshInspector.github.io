@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshC_2MRTorus_8h_source.html":[6,0,3,0,0,1,5,68],
 "MRMeshC_2MRTriPoint_8h.html":[6,0,3,0,0,1,5,69],
 "MRMeshC_2MRTriPoint_8h.html#a2743c1ef149bed1cb0b5e0d86eade60f":[6,0,3,0,0,1,5,69,3],
 "MRMeshC_2MRTriPoint_8h.html#a5b521d1c57d8948d4febd4b27b19e4c1":[6,0,3,0,0,1,5,69,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRColor_8h_source.html":[6,0,3,0,0,1,4,60],
 "MRMesh_2MRContoursCut_8h.html":[6,0,3,0,0,1,4,70],
 "MRMesh_2MRContoursCut_8h.html#a486d3531e070ce83fedba740ecd3650b":[6,0,3,0,0,1,4,70,5],
-"MRMesh_2MRContoursCut_8h.html#a634c3caa2efb7688c1bfa187112c6b99":[6,0,3,0,0,1,4,70,4],
-"MRMesh_2MRContoursCut_8h.html#a899f81510a6708101bbd6e1d76d8c55f":[6,0,3,0,0,1,4,70,6]
+"MRMesh_2MRContoursCut_8h.html#a634c3caa2efb7688c1bfa187112c6b99":[6,0,3,0,0,1,4,70,4]
 };

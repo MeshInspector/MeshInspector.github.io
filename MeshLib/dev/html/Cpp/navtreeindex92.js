@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,2,0,1,699,0],
 "structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
 "structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,8],
 "structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[6,0,0,9,7,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1ToolPathParams.html#a8240e069026edac1ef227f17d59c230e":[6,0,1,0,1,742,11],
 "structMR_1_1ToolPathParams.html#a8240e069026edac1ef227f17d59c230e":[6,0,2,0,1,723,11],
 "structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4":[6,0,1,0,1,742,8],
-"structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4":[6,0,2,0,1,723,8],
-"structMR_1_1ToolPathParams.html#ab01ce27f18a97921bbeb33127a0412a5":[6,0,1,0,1,742,6]
+"structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4":[6,0,2,0,1,723,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRRibbonMenuUIConfig_8h_source.html":[6,0,3,0,0,1,11,92],
 "MRRibbonMenu_8h.html":[6,0,3,0,0,1,11,89],
 "MRRibbonMenu_8h.html#a8943649eb4ec189757d628d6b1f9779f":[6,0,3,0,0,1,11,89,3],
 "MRRibbonMenu_8h_source.html":[6,0,3,0,0,1,11,89],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de":[6,0,3,0,0,1,11,120,2,4],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961":[6,0,3,0,0,1,11,120,2,1],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07":[6,0,3,0,0,1,11,120,2,6],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a972e73b7a882d0802a4e3a16946a2f94":[6,0,3,0,0,1,11,120,2,0],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77":[6,0,3,0,0,1,11,120,2,2]
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a972e73b7a882d0802a4e3a16946a2f94":[6,0,3,0,0,1,11,120,2,0]
 };

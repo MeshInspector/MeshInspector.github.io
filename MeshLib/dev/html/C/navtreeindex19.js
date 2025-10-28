@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"MRClosestWeightedPoint_8h.html#ab02c1f18f4204947685299ebcce5ee3f":[6,2,1,0,0,0,1,45,86],
 "MRClosestWeightedPoint_8h.html#ab442428a96ad03685d120d228427216d":[6,2,1,0,0,0,1,45,93],
 "MRClosestWeightedPoint_8h.html#ab717227026d36e5ade2cf78536194252":[6,2,1,0,0,0,1,45,69],
 "MRClosestWeightedPoint_8h.html#ab9d9cd2a4257220e89a677e2b9d22fec":[6,2,1,0,0,0,1,45,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "MRComputeVolume_8h.html#a88a1df6fb138786a55241b1d77a4b0cc":[6,2,1,0,0,0,4,4,0],
 "MRComputeVolume_8h.html#ab0687d61c6bef1c0a5006cb06b4e9c06":[6,2,1,0,0,0,4,4,3],
 "MRComputeVolume_8h_source.html":[6,2,1,0,0,0,4,4],
-"MRCone3_8h.html":[6,2,1,0,0,0,1,52],
-"MRCone3_8h.html#a0193cb90761de0a17b4dcc4a806ece23":[6,2,1,0,0,0,1,52,30]
+"MRCone3_8h.html":[6,2,1,0,0,0,1,52]
 };

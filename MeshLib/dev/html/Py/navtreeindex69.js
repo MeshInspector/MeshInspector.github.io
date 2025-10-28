@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad442428ab0d730dafed732399a3cc505":[6,1,1,0,1,678,0],
 "classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad626119857c15031a005591125ba370f":[6,1,0,0,2,678,1],
 "classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad626119857c15031a005591125ba370f":[6,1,1,0,1,678,1],
 "classmrmeshpy_1_1PointCloudComponents.html":[6,1,0,0,2,679],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a06f5228ec7537ed1f99c07f2a42f1cd1":[6,1,1,0,1,699,5],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a072fe7b97e3316f25be0e81c97b89f2b":[6,1,0,0,2,699,11],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a072fe7b97e3316f25be0e81c97b89f2b":[6,1,1,0,1,699,11],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a1d9af44bb970190386e87524942739ba":[6,1,0,0,2,699,10],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a1d9af44bb970190386e87524942739ba":[6,1,1,0,1,699,10]
+"classmrmeshpy_1_1PointToPointAligningTransform.html#a1d9af44bb970190386e87524942739ba":[6,1,0,0,2,699,10]
 };

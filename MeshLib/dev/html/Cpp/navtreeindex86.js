@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,1,0,1,26,1,0],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,2,0,1,15,1,0],
 "structMR_1_1Parallel_1_1CallWithTLS.html":[6,0,1,0,1,26,2],
 "structMR_1_1Parallel_1_1CallWithTLS.html":[6,0,2,0,1,15,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,2,0,1,504,0],
 "structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,1,0,1,523,1],
 "structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,504,1],
-"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,523,2],
-"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,2,0,1,504,2]
+"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,523,2]
 };

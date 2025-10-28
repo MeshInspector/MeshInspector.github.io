@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a21ee1f5bbedaafe9d62962deb2d72031":[6,1,1,0,1,89,12],
 "classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a517b8738425f1edbfd080c01e5badcdd":[6,1,0,0,2,89,15],
 "classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a517b8738425f1edbfd080c01e5badcdd":[6,1,1,0,1,89,15],
 "classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a5eef823d8747c29a68a6e7801fd77c2d":[6,1,0,0,2,89,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1Buffer__VertId__VertId.html#aea6695df50e72ddf948f2ca1f18b751e":[6,1,1,0,1,96,3],
 "classmrmeshpy_1_1Buffer__VertId__VertId.html#aeaa788c7dbdd32c60a0de169930c3375":[6,1,0,0,2,96,14],
 "classmrmeshpy_1_1Buffer__VertId__VertId.html#aeaa788c7dbdd32c60a0de169930c3375":[6,1,1,0,1,96,14],
-"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html":[6,1,0,0,2,97],
-"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html":[6,1,1,0,1,97]
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html":[6,1,0,0,2,97]
 };

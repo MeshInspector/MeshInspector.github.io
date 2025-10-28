@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRContoursCut_8h.html#a899f81510a6708101bbd6e1d76d8c55f":[6,0,3,0,0,1,4,70,6],
 "MRMesh_2MRContoursCut_8h_source.html":[6,0,3,0,0,1,4,70],
 "MRMesh_2MRConvexHull_8h.html":[6,0,3,0,0,1,4,73],
 "MRMesh_2MRConvexHull_8h.html#a2b1ae8facc8f4e9e09073b91da0f9949":[6,0,3,0,0,1,4,73,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "MRMesh_2MRMeshFwd_8h.html#a8ffc5536358ba7ed6b7e398ebbfbb8b1":[6,0,3,0,0,1,4,208,10],
 "MRMesh_2MRMeshFwd_8h.html#a90e36f0fc3aee2c8b5e3141dfc083608":[6,0,3,0,0,1,4,208,13],
 "MRMesh_2MRMeshFwd_8h.html#a911392458cc4715ee2b950f27324de87":[6,0,3,0,0,1,4,208,17],
-"MRMesh_2MRMeshFwd_8h.html#a92cbbca830da255a9350ce63a48f49c3":[6,0,3,0,0,1,4,208,57],
-"MRMesh_2MRMeshFwd_8h.html#a93482f559c684be16c718d5acd291d3e":[6,0,3,0,0,1,4,208,36]
+"MRMesh_2MRMeshFwd_8h.html#a92cbbca830da255a9350ce63a48f49c3":[6,0,3,0,0,1,4,208,57]
 };

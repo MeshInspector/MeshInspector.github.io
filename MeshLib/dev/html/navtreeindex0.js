@@ -63,6 +63,7 @@ var NAVTREEINDEX0 =
 "Py/APIPyPage.html":[6,1],
 "SpacesHelp.html":[5,5],
 "StatePluginsHelp.html":[5,7],
+"SupportGeneratorTutorial.html":[3,1],
 "ThirdParty.html":[7],
 "Tutorials.html":[3],
 "index.html":[],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1LineInterpolationParams.html#ab07a091618976d193adee5f08db97523":[6,1,1,0,1,435,4],
 "classmrmeshpy_1_1LineInterpolationParams.html#aca724297064c6209fa844768ec6b31a6":[6,1,0,0,2,435,5],
 "classmrmeshpy_1_1LineInterpolationParams.html#aca724297064c6209fa844768ec6b31a6":[6,1,1,0,1,435,5],
 "classmrmeshpy_1_1LineInterpolationParams.html#accefade69a75605164f050f233b457c2":[6,1,0,0,2,435,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1MakeBridgeResult.html#ae93ecbcd55c1e84235806542f636b146":[6,1,1,0,1,451,2],
 "classmrmeshpy_1_1MakeBridgeResult.html#aea1fde106c54ab6f9a587f6dae7ceef8":[6,1,0,0,2,451,7],
 "classmrmeshpy_1_1MakeBridgeResult.html#aea1fde106c54ab6f9a587f6dae7ceef8":[6,1,1,0,1,451,7],
-"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html":[6,1,0,0,2,452],
-"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html":[6,1,1,0,1,452]
+"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html":[6,1,0,0,2,452]
 };

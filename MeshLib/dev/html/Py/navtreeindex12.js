@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html":[6,1,1,0,1,97],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a0d74ccab0953d0520b1408392c4bc96f":[6,1,0,0,2,97,6],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a0d74ccab0953d0520b1408392c4bc96f":[6,1,1,0,1,97,6],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a226819088d19c12eaa91477d3d4bd13f":[6,1,0,0,2,97,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1ChangeFacesColorMapAction.html#afd961d919073d8279cf2e217b66fe296":[6,1,1,0,1,102,0],
 "classmrmeshpy_1_1ChangeGridAction.html":[6,1,0,0,2,103],
 "classmrmeshpy_1_1ChangeGridAction.html":[6,1,1,0,1,103],
-"classmrmeshpy_1_1ChangeGridAction.html#a1b9ccf3df607efa3891cc9632a37901f":[6,1,0,0,2,103,2],
-"classmrmeshpy_1_1ChangeGridAction.html#a1b9ccf3df607efa3891cc9632a37901f":[6,1,1,0,1,103,2]
+"classmrmeshpy_1_1ChangeGridAction.html#a1b9ccf3df607efa3891cc9632a37901f":[6,1,0,0,2,103,2]
 };

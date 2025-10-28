@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a7699014db182a7a535e174673f98d00f":[6,1,1,0,1,1073,0],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a795663338b5bb35d824f9481cbc3de67":[6,1,0,0,2,1073,34],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a795663338b5bb35d824f9481cbc3de67":[6,1,1,0,1,1073,34],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a7ebb4ecae5ba33111dd9101d9ed72a47":[6,1,0,0,2,1073,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "classmrmeshpy_1_1UniteManyMeshesParams.html#a79935178bf60d88edc14922c0be39bc8":[6,1,1,0,1,1083,5],
 "classmrmeshpy_1_1UniteManyMeshesParams.html#a867eb68bbfd79c37bd2c7a335b01dcf3":[6,1,0,0,2,1083,7],
 "classmrmeshpy_1_1UniteManyMeshesParams.html#a867eb68bbfd79c37bd2c7a335b01dcf3":[6,1,1,0,1,1083,7],
-"classmrmeshpy_1_1UniteManyMeshesParams.html#a9bcaab05e5e183de6d1444411d3f574c":[6,1,0,0,2,1083,11],
-"classmrmeshpy_1_1UniteManyMeshesParams.html#a9bcaab05e5e183de6d1444411d3f574c":[6,1,1,0,1,1083,11]
+"classmrmeshpy_1_1UniteManyMeshesParams.html#a9bcaab05e5e183de6d1444411d3f574c":[6,1,0,0,2,1083,11]
 };

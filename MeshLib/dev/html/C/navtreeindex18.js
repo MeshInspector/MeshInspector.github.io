@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"MRChangeVoxelsAction_8h.html#a84232a5921bef7b438cdbd6fede3ae10":[6,2,1,0,0,0,4,2,23],
 "MRChangeVoxelsAction_8h.html#a84bbb251d8b9f546d87b604703eb299c":[6,2,1,0,0,0,4,2,43],
 "MRChangeVoxelsAction_8h.html#a86ea6a96b491c586909a0a455015d414":[6,2,1,0,0,0,4,2,1],
 "MRChangeVoxelsAction_8h.html#a89c575f67a23c6cdecbd864b00bedec2":[6,2,1,0,0,0,4,2,58],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "MRClosestWeightedPoint_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a":[6,2,1,0,0,0,1,45,0],
 "MRClosestWeightedPoint_8h.html#aaaebf2c791f09cc94a6e6a64ce5951f6":[6,2,1,0,0,0,1,45,89],
 "MRClosestWeightedPoint_8h.html#aaee1bb58749311eeb56b48f72c56d75b":[6,2,1,0,0,0,1,45,20],
-"MRClosestWeightedPoint_8h.html#aaee634182cfac93fccaf4f3439a59ba8":[6,2,1,0,0,0,1,45,33],
-"MRClosestWeightedPoint_8h.html#ab02c1f18f4204947685299ebcce5ee3f":[6,2,1,0,0,0,1,45,86]
+"MRClosestWeightedPoint_8h.html#aaee634182cfac93fccaf4f3439a59ba8":[6,2,1,0,0,0,1,45,33]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MROpenVDB_8h.html#a78e9d88a54bcf343ebdece9711e6bf70":[6,0,3,0,0,1,12,17,0],
 "MROpenVDB_8h.html#a958e4508ed28ee5cc04249144312c15f":[6,0,3,0,0,1,12,17,2],
 "MROpenVDB_8h.html#ae71449b1cc6e6250b91f539153a7a0d3":[6,0,3,0,0,1,12,17,1],
 "MROpenVDB_8h_source.html":[6,0,3,0,0,1,12,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRProcessSelfTreeSubtasks_8h_source.html":[6,0,3,0,0,1,4,323],
 "MRProgressBar_8h.html":[6,0,3,0,0,1,11,64],
 "MRProgressBar_8h.html#a01e2c488a5c5dea28c7203cfbfbfd0f1":[6,0,3,0,0,1,11,64,11],
-"MRProgressBar_8h.html#a08670326b3d5427ad65c0583c83ff4ee":[6,0,3,0,0,1,11,64,3],
-"MRProgressBar_8h.html#a096de280a40715b2c4db2b4ccfeb821d":[6,0,3,0,0,1,11,64,0]
+"MRProgressBar_8h.html#a08670326b3d5427ad65c0583c83ff4ee":[6,0,3,0,0,1,11,64,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRAABBTreeBase_8h.html#aadc3b3c9e75dee43d6305297d9873964":[6,2,1,0,0,0,1,2,30],
 "MRAABBTreeBase_8h.html#aae0f6c9990720876bb1402b2d1d5a6fb":[6,2,1,0,0,0,1,2,79],
 "MRAABBTreeBase_8h.html#aae5cdf4ccae4c3113b37622df0f0996d":[6,2,1,0,0,0,1,2,54],
 "MRAABBTreeBase_8h.html#aafe875cdb5ff11f84921d909d41c80f3":[6,2,1,0,0,0,1,2,100],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRAABBTreePoints_8h.html#a953c0800da291a92ccd5b49123ca2b1d":[6,2,1,0,0,0,1,6,29],
 "MRAABBTreePoints_8h.html#a957488f654ed544d23382b19ce3235e2":[6,2,1,0,0,0,1,6,40],
 "MRAABBTreePoints_8h.html#aa06ff8bd5342fec197db747fb90c5fe7":[6,2,1,0,0,0,1,6,65],
-"MRAABBTreePoints_8h.html#aa0ae7c4b0682c78f63e2eab12f8712cc":[6,2,1,0,0,0,1,6,23],
-"MRAABBTreePoints_8h.html#aa319738c95f0bbde075b7ef777cf2665":[6,2,1,0,0,0,1,6,4]
+"MRAABBTreePoints_8h.html#aa0ae7c4b0682c78f63e2eab12f8712cc":[6,2,1,0,0,0,1,6,23]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1MeshPoint.html#a3ea130fe006494f9c95e26d6de39a5f7":[6,1,1,0,1,511,1],
 "classmrmeshpy_1_1MeshPoint.html#a59740927b7c5636487dff8fce0f7f2ec":[6,1,0,0,2,511,11],
 "classmrmeshpy_1_1MeshPoint.html#a59740927b7c5636487dff8fce0f7f2ec":[6,1,1,0,1,511,11],
 "classmrmeshpy_1_1MeshPoint.html#a794bb6cb2ea8a00b9a57ff62a600dd3c":[6,1,0,0,2,511,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1MeshToDistanceMapParams.html#ac4753bde802b3b4a36e2fca65556b41d":[6,1,1,0,1,520,1],
 "classmrmeshpy_1_1MeshToDistanceMapParams.html#acbc737c2a972231a06be4454b40ca135":[6,1,0,0,2,520,10],
 "classmrmeshpy_1_1MeshToDistanceMapParams.html#acbc737c2a972231a06be4454b40ca135":[6,1,1,0,1,520,10],
-"classmrmeshpy_1_1MeshToDistanceMapParams.html#ad6613ec7cbf95af22cae0898a5a81f0a":[6,1,0,0,2,520,3],
-"classmrmeshpy_1_1MeshToDistanceMapParams.html#ad6613ec7cbf95af22cae0898a5a81f0a":[6,1,1,0,1,520,3]
+"classmrmeshpy_1_1MeshToDistanceMapParams.html#ad6613ec7cbf95af22cae0898a5a81f0a":[6,1,0,0,2,520,3]
 };

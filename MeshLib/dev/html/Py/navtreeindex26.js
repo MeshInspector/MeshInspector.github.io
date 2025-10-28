@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,1,0,1,232,0],
 "classmrmeshpy_1_1ExtremeEdgeType.html":[6,1,0,0,2,235],
 "classmrmeshpy_1_1ExtremeEdgeType.html":[6,1,1,0,1,235],
 "classmrmeshpy_1_1ExtremeEdgeType.html#a0dad09717ed3ff20c857f4fb5770d16f":[6,1,0,0,2,235,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classmrmeshpy_1_1FaceColors.html#a0b188478d3a4b11c0e5a9b38ad8cc6bc":[6,1,1,0,1,240,15],
 "classmrmeshpy_1_1FaceColors.html#a0fb8bd9a6253eadedb06548c62fe5d97":[6,1,0,0,2,240,0],
 "classmrmeshpy_1_1FaceColors.html#a0fb8bd9a6253eadedb06548c62fe5d97":[6,1,1,0,1,240,0],
-"classmrmeshpy_1_1FaceColors.html#a11e7917ef1ac30e83d90136b785dc16b":[6,1,0,0,2,240,22],
-"classmrmeshpy_1_1FaceColors.html#a11e7917ef1ac30e83d90136b785dc16b":[6,1,1,0,1,240,22]
+"classmrmeshpy_1_1FaceColors.html#a11e7917ef1ac30e83d90136b785dc16b":[6,1,0,0,2,240,22]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a3229c5e21d2b04882f6241ce9d0bbc9a":[6,1,1,0,1,273,13],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a3dfcd54758246e5aa47c8ef01033c8ca":[6,1,0,0,2,273,11],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a3dfcd54758246e5aa47c8ef01033c8ca":[6,1,1,0,1,273,11],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a4ded1268c73cc51cefbceecfa7e3d7fa":[6,1,0,0,2,273,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classmrmeshpy_1_1FreeFormBestFit.html#ab87f326cd1a976f95696f85920ec6f24":[6,1,1,0,1,281,7],
 "classmrmeshpy_1_1FreeFormBestFit.html#ae1e450673ee994549cf85d4f90fdb2bf":[6,1,0,0,2,281,0],
 "classmrmeshpy_1_1FreeFormBestFit.html#ae1e450673ee994549cf85d4f90fdb2bf":[6,1,1,0,1,281,0],
-"classmrmeshpy_1_1FreeFormDeformer.html":[6,1,0,0,2,282],
-"classmrmeshpy_1_1FreeFormDeformer.html":[6,1,1,0,1,282]
+"classmrmeshpy_1_1FreeFormDeformer.html":[6,1,0,0,2,282]
 };

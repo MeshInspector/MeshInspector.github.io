@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classmrmeshpy_1_1CutMeshParameters.html#af981d8a7f3ea0fda5210521f8f7b0a00":[6,1,1,0,1,175,7],
 "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html":[6,1,0,0,2,175,0],
 "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html":[6,1,1,0,1,175,0],
 "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a106233b42a79ba31bce158ecf378bba0":[6,1,0,0,2,175,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classmrmeshpy_1_1DecimateResult.html#a97472857b1eca26185414c5e97e0cecf":[6,1,1,0,1,183,1],
 "classmrmeshpy_1_1DecimateResult.html#aed918c1e400615b9fea3b8bbe2465344":[6,1,0,0,2,183,0],
 "classmrmeshpy_1_1DecimateResult.html#aed918c1e400615b9fea3b8bbe2465344":[6,1,1,0,1,183,0],
-"classmrmeshpy_1_1DecimateResult.html#aef1888d3035be6ce6a93e24be278747f":[6,1,0,0,2,183,9],
-"classmrmeshpy_1_1DecimateResult.html#aef1888d3035be6ce6a93e24be278747f":[6,1,1,0,1,183,9]
+"classmrmeshpy_1_1DecimateResult.html#aef1888d3035be6ce6a93e24be278747f":[6,1,0,0,2,183,9]
 };

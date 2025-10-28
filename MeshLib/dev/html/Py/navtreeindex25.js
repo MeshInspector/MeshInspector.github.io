@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"classmrmeshpy_1_1EdgeSegment.html#adb9c5efeb5b81923981504650ef906b8":[6,1,1,0,1,225,7],
 "classmrmeshpy_1_1EdgeSegment.html#aed93731898b623dc75141174234232c9":[6,1,0,0,2,225,10],
 "classmrmeshpy_1_1EdgeSegment.html#aed93731898b623dc75141174234232c9":[6,1,1,0,1,225,10],
 "classmrmeshpy_1_1EdgeSegment.html#af1f097964d0c763d6b00b3e1df86b6e9":[6,1,0,0,2,225,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "classmrmeshpy_1_1EnumNeihbourVertices.html#a434a1f1052855e94c64a64250086c142":[6,1,1,0,1,232,3],
 "classmrmeshpy_1_1EnumNeihbourVertices.html#a57012db765760454218afad71ea9a3ff":[6,1,0,0,2,232,1],
 "classmrmeshpy_1_1EnumNeihbourVertices.html#a57012db765760454218afad71ea9a3ff":[6,1,1,0,1,232,1],
-"classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,0,0,2,232,0],
-"classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,1,0,1,232,0]
+"classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,0,0,2,232,0]
 };

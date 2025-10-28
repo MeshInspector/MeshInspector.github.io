@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ad4c1e45f45112e3c1b86e2fd01ee488f":[6,2,1,0,0,0,2,277,22],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ad8487d37500324d02ef70063f534b1a5":[6,2,1,0,0,0,2,277,28],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ae35abccdf75cdbde3a9f1ecfc9ec5eeb":[6,2,1,0,0,0,2,277,17],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ae390df747e3c0a5e3b731a2ddc1b96d5":[6,2,1,0,0,0,2,277,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ad6327be4e5dc9eaeda153a3952e7d9af":[6,2,1,0,0,0,2,290,26],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#addf84bf0c1eadfacd3f45fd9fca69f40":[6,2,1,0,0,0,2,290,7],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ae50b7bdb4198e0a37efcc5b03fa72ca2":[6,2,1,0,0,0,2,290,3],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ae546f32203a3a63dc2804afe650dfced":[6,2,1,0,0,0,2,290,39],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ae5d67c6fc53b2d6b0e2f3deaa5160f46":[6,2,1,0,0,0,2,290,64]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ae546f32203a3a63dc2804afe650dfced":[6,2,1,0,0,0,2,290,39]
 };

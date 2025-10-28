@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1AsyncTimer.html#a22c22547b9f3f454f3bfeb6f368eb6c8":[6,0,2,0,1,50,2],
 "classMR_1_1AsyncTimer.html#a6de5f55a304287df5371578c9fb8bfad":[6,0,1,0,1,69,1],
 "classMR_1_1AsyncTimer.html#a6de5f55a304287df5371578c9fb8bfad":[6,0,2,0,1,50,1],
 "classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44":[6,0,1,0,1,69,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,97,0],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,1,78,0],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,97,1],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,78,1],
-"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,50]
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,1,78,1]
 };

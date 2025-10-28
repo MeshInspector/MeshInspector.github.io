@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RenderDimensions_1_1PointTask.html":[6,0,2,0,1,19,6],
 "classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe":[6,0,1,0,1,34,6,2],
 "classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe":[6,0,2,0,1,19,6,2],
 "classMR_1_1RenderDimensions_1_1PointTask.html#a98d9ea7c04c135e0a689de9017d7bd33":[6,0,1,0,1,34,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1RenderMeshObject.html#a6fb6b9a55fd521017c1eea063af7225a":[6,0,2,0,1,584,66],
 "classMR_1_1RenderMeshObject.html#a7392ba05df67ae19e9e6af50c94ebe33":[6,0,1,0,1,603,69],
 "classMR_1_1RenderMeshObject.html#a7392ba05df67ae19e9e6af50c94ebe33":[6,0,2,0,1,584,69],
-"classMR_1_1RenderMeshObject.html#a74b9993ac9ec597c75dcaa9867e97114":[6,0,1,0,1,603,10],
-"classMR_1_1RenderMeshObject.html#a74b9993ac9ec597c75dcaa9867e97114":[6,0,2,0,1,584,10]
+"classMR_1_1RenderMeshObject.html#a74b9993ac9ec597c75dcaa9867e97114":[6,0,1,0,1,603,10]
 };

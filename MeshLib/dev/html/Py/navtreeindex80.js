@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1SharpOffsetParameters.html#a88fc1dbbb167b4d3fd8495dfcec8272c":[6,1,1,0,1,786,4],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a9ef2287c3724c74ca0a36fbcf8ca5fe8":[6,1,0,0,2,786,3],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a9ef2287c3724c74ca0a36fbcf8ca5fe8":[6,1,1,0,1,786,3],
 "classmrmeshpy_1_1SharpOffsetParameters.html#ac3b1bdf067bfa36595a3f3e4cd85b54e":[6,1,0,0,2,786,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1SkyPatch.html#ae8176a05d87301de26289bed281d7a0e":[6,1,1,0,1,798,6],
 "classmrmeshpy_1_1SliceInfo.html":[6,1,0,0,2,799],
 "classmrmeshpy_1_1SliceInfo.html":[6,1,1,0,1,799],
-"classmrmeshpy_1_1SliceInfo.html#a121b8ea578c4bbba0a4638cbabfcec50":[6,1,0,0,2,799,0],
-"classmrmeshpy_1_1SliceInfo.html#a121b8ea578c4bbba0a4638cbabfcec50":[6,1,1,0,1,799,0]
+"classmrmeshpy_1_1SliceInfo.html#a121b8ea578c4bbba0a4638cbabfcec50":[6,1,0,0,2,799,0]
 };

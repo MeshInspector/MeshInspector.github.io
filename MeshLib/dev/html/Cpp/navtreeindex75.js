@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,1,0,1,234,1],
 "structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,2,0,1,215,1],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,1,0,1,234,2],
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[6,0,2,0,1,215,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1FileDialogSignals.html#acb55f29975140538d4f83ab34ad6416e":[6,0,1,0,1,245,8],
 "structMR_1_1FileDialogSignals.html#acb55f29975140538d4f83ab34ad6416e":[6,0,2,0,1,226,8],
 "structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,1,0,1,245,1],
-"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,2,0,1,226,1],
-"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,1,0,1,245,0]
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,2,0,1,226,1]
 };

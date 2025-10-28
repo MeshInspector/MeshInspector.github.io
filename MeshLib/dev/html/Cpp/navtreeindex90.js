@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,2,0,1,606,0],
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,1,0,1,625,5],
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,2,0,1,606,5],
 "structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,1,0,1,625,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,1,0,1,674,1],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,2,0,1,655,1],
 "structMR_1_1SelfIntersections_1_1Settings.html":[6,0,1,0,1,39,0],
-"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,2,0,1,23,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[6,0,1,0,1,39,0,5]
+"structMR_1_1SelfIntersections_1_1Settings.html":[6,0,2,0,1,23,0]
 };

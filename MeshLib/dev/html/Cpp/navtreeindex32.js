@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1MeshTopology.html#a71f39944d4eea5bdb00d37da53ae1882":[6,0,0,7,2,93],
 "classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f":[6,0,0,7,2,109],
 "classMR_1_1MeshTopology.html#a730ccabca6bf4811fd6b7a2a87bdce13":[6,0,0,7,2,111],
 "classMR_1_1MeshTopology.html#a73880a8984f9e6f9a3895c0502a128c7":[6,0,0,7,2,60],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1NextEdgeSameLeft.html#a7cd53c8ae9e36043c2dc5e9750efcce3":[6,0,2,0,1,419,0],
 "classMR_1_1NextEdgeSameOrigin.html":[6,0,1,0,1,439],
 "classMR_1_1NextEdgeSameOrigin.html":[6,0,2,0,1,420],
-"classMR_1_1NextEdgeSameOrigin.html#a1e86c0b25fbb38bc73f3e5edcda87a35":[6,0,1,0,1,439,1],
-"classMR_1_1NextEdgeSameOrigin.html#a1e86c0b25fbb38bc73f3e5edcda87a35":[6,0,2,0,1,420,1]
+"classMR_1_1NextEdgeSameOrigin.html#a1e86c0b25fbb38bc73f3e5edcda87a35":[6,0,1,0,1,439,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"classmrmeshpy_1_1VolumeSegmenter.html#a0b06b635daa58e4559682648ee9ed67b":[6,1,1,0,1,1181,9],
 "classmrmeshpy_1_1VolumeSegmenter.html#a29e348e4928c82001b6a621223041a10":[6,1,0,0,2,1181,10],
 "classmrmeshpy_1_1VolumeSegmenter.html#a29e348e4928c82001b6a621223041a10":[6,1,1,0,1,1181,10],
 "classmrmeshpy_1_1VolumeSegmenter.html#a3294010a643ca39c7fb5ea0ca641d42e":[6,1,0,0,2,1181,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "classmrmeshpy_1_1VoxelLocation.html":[6,1,1,0,1,1187],
 "classmrmeshpy_1_1VoxelLocation.html#a8e536fda3f16a433f5aee9fe941ca0c1":[6,1,0,0,2,1187,1],
 "classmrmeshpy_1_1VoxelLocation.html#a8e536fda3f16a433f5aee9fe941ca0c1":[6,1,1,0,1,1187,1],
-"classmrmeshpy_1_1VoxelLocation.html#a91d6e82c6f4602675ee017eff1ba8280":[6,1,0,0,2,1187,0],
-"classmrmeshpy_1_1VoxelLocation.html#a91d6e82c6f4602675ee017eff1ba8280":[6,1,1,0,1,1187,0]
+"classmrmeshpy_1_1VoxelLocation.html#a91d6e82c6f4602675ee017eff1ba8280":[6,1,0,0,2,1187,0]
 };

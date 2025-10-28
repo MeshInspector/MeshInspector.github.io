@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f":[6,0,1,0,1,45,5,2],
 "namespaceMR_1_1VoxelsLoad.html#a502a6fc0f3621c800b6569b6e56e99fa":[6,0,1,0,1,45,28],
 "namespaceMR_1_1VoxelsLoad.html#a57c362015058e67cdc805cce6bfec0b8":[6,0,1,0,1,45,8],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[6,0,1,0,1,45,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMRFillHoleParams.html":[6,0,2,0,19],
 "structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[6,0,2,0,19,6],
 "structMRFillHoleParams.html#a0b7ad0efd3b32056261fa5bc624e97d1":[6,0,2,0,19,5],
-"structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[6,0,2,0,19,1],
-"structMRFillHoleParams.html#ab744cac77f9f46540cf1d4ae89c098fe":[6,0,2,0,19,0]
+"structMRFillHoleParams.html#a9f8cc59be22f24be20c9418d76f985be":[6,0,2,0,19,1]
 };

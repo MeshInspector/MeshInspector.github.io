@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[6,1,1,0,1,564,37],
 "classmrmeshpy_1_1NodeBitSet.html#ad61a251c87e3505ef479a64eb7717bf1":[6,1,0,0,2,564,21],
 "classmrmeshpy_1_1NodeBitSet.html#ad61a251c87e3505ef479a64eb7717bf1":[6,1,1,0,1,564,21],
 "classmrmeshpy_1_1NodeBitSet.html#ad93939dcd837710392a06de9f5f1767b":[6,1,0,0,2,564,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#a016d3d82065982c5172679bf104325c2":[6,1,1,0,1,609,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,0,0,2,609,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,0,0,2,609,2],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,609,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,609,2]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,609,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1SymbolMeshParams.html#af44fc74d88eb9e5459bbe2837fcc588c":[6,1,1,0,1,1018,12],
 "classmrmeshpy_1_1SystemMemory.html":[6,1,0,0,2,1036],
 "classmrmeshpy_1_1SystemMemory.html":[6,1,1,0,1,1036],
 "classmrmeshpy_1_1SystemMemory.html#a04113c6bd6673ced5f0c82304a7cbaf4":[6,1,0,0,2,1036,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1TextureId.html#a88ac2311a4f50f8e2e668b7dae5efe7b":[6,1,1,0,1,1042,12],
 "classmrmeshpy_1_1TextureId.html#a8925c96c548b4d0aecf1c2b21f087e2b":[6,1,0,0,2,1042,3],
 "classmrmeshpy_1_1TextureId.html#a8925c96c548b4d0aecf1c2b21f087e2b":[6,1,1,0,1,1042,3],
-"classmrmeshpy_1_1TextureId.html#aa3896e94d3bc2fe7cc31778cc3a83526":[6,1,0,0,2,1042,4],
-"classmrmeshpy_1_1TextureId.html#aa3896e94d3bc2fe7cc31778cc3a83526":[6,1,1,0,1,1042,4]
+"classmrmeshpy_1_1TextureId.html#aa3896e94d3bc2fe7cc31778cc3a83526":[6,1,0,0,2,1042,4]
 };
