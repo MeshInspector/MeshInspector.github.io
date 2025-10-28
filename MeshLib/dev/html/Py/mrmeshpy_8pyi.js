@@ -1189,6 +1189,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.std_optional_Box_Vector3_float", "classmrmeshpy_1_1std__optional__Box__Vector3__float.html", "classmrmeshpy_1_1std__optional__Box__Vector3__float" ],
     [ "mrmeshpy.std_optional_Box_float", "classmrmeshpy_1_1std__optional__Box__float.html", "classmrmeshpy_1_1std__optional__Box__float" ],
     [ "mrmeshpy.std_optional_Color", "classmrmeshpy_1_1std__optional__Color.html", "classmrmeshpy_1_1std__optional__Color" ],
+    [ "mrmeshpy.std_optional_LengthUnit", "classmrmeshpy_1_1std__optional__LengthUnit.html", "classmrmeshpy_1_1std__optional__LengthUnit" ],
     [ "mrmeshpy.std_optional_ObjectComparableWithReference_ComparisonTolerance", "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html", "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance" ],
     [ "mrmeshpy.std_optional_Vector2_float", "classmrmeshpy_1_1std__optional__Vector2__float.html", "classmrmeshpy_1_1std__optional__Vector2__float" ],
     [ "mrmeshpy.std_optional_Vector3_float", "classmrmeshpy_1_1std__optional__Vector3__float.html", "classmrmeshpy_1_1std__optional__Vector3__float" ],

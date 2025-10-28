@@ -1048,6 +1048,7 @@ var hierarchy =
     [ "mrmeshpy.std_optional_Color", "classmrmeshpy_1_1std__optional__Color.html", null ],
     [ "mrmeshpy.std_optional_double", "classmrmeshpy_1_1std__optional__double.html", null ],
     [ "mrmeshpy.std_optional_float", "classmrmeshpy_1_1std__optional__float.html", null ],
+    [ "mrmeshpy.std_optional_LengthUnit", "classmrmeshpy_1_1std__optional__LengthUnit.html", null ],
     [ "mrmeshpy.std_optional_ObjectComparableWithReference_ComparisonTolerance", "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html", null ],
     [ "mrmeshpy.std_optional_std_string", "classmrmeshpy_1_1std__optional__std__string.html", null ],
     [ "mrmeshpy.std_optional_std_variant_float_Vector3_float", "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html", null ],

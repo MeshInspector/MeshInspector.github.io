@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1SpacingSettings.html#ac011fc95d61ece99cc3358e1236104d9":[6,0,1,0,1,707,4],
+"structMR_1_1SpacingSettings.html#ac011fc95d61ece99cc3358e1236104d9":[6,0,2,0,1,688,4],
 "structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5":[6,0,1,0,1,707,3],
 "structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5":[6,0,2,0,1,688,3],
 "structMR_1_1Sphere.html":[6,0,0,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,2,0,1,719,4],
 "structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,1,0,1,738,0],
 "structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,2,0,1,719,0],
-"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[6,0,1,0,1,738,2],
-"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[6,0,2,0,1,719,2],
-"structMR_1_1TiffParameters.html#ad64f46697aae94f7b2569134b2cbd954":[6,0,1,0,1,738,1]
+"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[6,0,1,0,1,738,2]
 };

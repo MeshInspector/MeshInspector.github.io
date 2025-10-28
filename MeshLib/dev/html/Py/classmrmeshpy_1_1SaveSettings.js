@@ -2,9 +2,11 @@ var classmrmeshpy_1_1SaveSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093", null ],
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b", null ],
-    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#ac0bcd0c69f3669243213b7d75c22ddb8", null ],
+    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a810008bf06510579f25014f82016bb6e", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a5ec9ce1fa6f90eb7f892b31b2b3ef370", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd", null ],
+    [ "lengthUnit", "classmrmeshpy_1_1SaveSettings.html#abeb98dbc79164c4ca44a5572bf87ae7c", null ],
+    [ "lengthUnit", "classmrmeshpy_1_1SaveSettings.html#ae1c9049be74df3d1d5033225df842d1f", null ],
     [ "materialName", "classmrmeshpy_1_1SaveSettings.html#ab0308bab262ffed82505833c80b2e3c0", null ],
     [ "materialName", "classmrmeshpy_1_1SaveSettings.html#af17c4b730c97288805ab8983e82d8704", null ],
     [ "onlyValidPoints", "classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54", null ],

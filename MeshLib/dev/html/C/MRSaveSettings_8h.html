@@ -151,7 +151,8 @@ $(function(){initNavTree('MRSaveSettings_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRSaveSettings.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
@@ -182,6 +183,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
 <tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa36f7cf27ce4b9864dde0b998a0c96" id="r_abfa36f7cf27ce4b9864dde0b998a0c96"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a></td></tr>
+<tr class="separator:abfa36f7cf27ce4b9864dde0b998a0c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66434f88501a5c24a45cf39f9dbcadbb" id="r_a66434f88501a5c24a45cf39f9dbcadbb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a></td></tr>
@@ -233,6 +236,12 @@ Functions</h2></td></tr>
 <tr class="separator:ad0063a497d50dd9b3d703ba25fab87fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab259ac36c15c7f8bf6731e5481b475be" id="r_ab259ac36c15c7f8bf6731e5481b475be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab259ac36c15c7f8bf6731e5481b475be">MR_SaveSettings_GetMutable_xf</a> (<a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *_this)</td></tr>
 <tr class="separator:ab259ac36c15c7f8bf6731e5481b475be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa035db7115c09998ed4bdc1756528448" id="r_aa035db7115c09998ed4bdc1756528448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa035db7115c09998ed4bdc1756528448">MR_SaveSettings_Get_lengthUnit</a> (const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *_this)</td></tr>
+<tr class="separator:aa035db7115c09998ed4bdc1756528448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46521e4c1b7f3f089f9f514a2961681a" id="r_a46521e4c1b7f3f089f9f514a2961681a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46521e4c1b7f3f089f9f514a2961681a">MR_SaveSettings_Set_lengthUnit</a> (<a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *_this, const <a class="el" href="MREnums_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *value)</td></tr>
+<tr class="separator:a46521e4c1b7f3f089f9f514a2961681a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50c61b8865ec507fbae25fd38168f8e" id="r_aa50c61b8865ec507fbae25fd38168f8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa50c61b8865ec507fbae25fd38168f8e">MR_SaveSettings_GetMutable_lengthUnit</a> (<a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *_this)</td></tr>
+<tr class="separator:aa50c61b8865ec507fbae25fd38168f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e93a130572de8ea1849d2f6e49e938" id="r_aa2e93a130572de8ea1849d2f6e49e938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2e93a130572de8ea1849d2f6e49e938">MR_SaveSettings_Get_progress</a> (const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *_this)</td></tr>
 <tr class="separator:aa2e93a130572de8ea1849d2f6e49e938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad56722a75b4b2a43b36280d4192d3e21" id="r_ad56722a75b4b2a43b36280d4192d3e21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad56722a75b4b2a43b36280d4192d3e21">MR_SaveSettings_Set_progress</a> (<a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
@@ -243,8 +252,8 @@ Functions</h2></td></tr>
 <tr class="separator:af16001ecdd75188c01262bdf53566a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a885d32f34aa817ecc5a3656d1d29b98d" id="r_a885d32f34aa817ecc5a3656d1d29b98d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a885d32f34aa817ecc5a3656d1d29b98d">MR_SaveSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a885d32f34aa817ecc5a3656d1d29b98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a692ab760824bf4c78acf92febcf0ebda" id="r_a692ab760824bf4c78acf92febcf0ebda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a692ab760824bf4c78acf92febcf0ebda">MR_SaveSettings_ConstructFrom</a> (bool onlyValidPoints, bool packPrimitives, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors, const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *uvMap, const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *texture, const char *materialName, const char *materialName_end, const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *xf, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
-<tr class="separator:a692ab760824bf4c78acf92febcf0ebda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb6fba08c6d91d6c74881c070a7ae7b" id="r_abdb6fba08c6d91d6c74881c070a7ae7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdb6fba08c6d91d6c74881c070a7ae7b">MR_SaveSettings_ConstructFrom</a> (bool onlyValidPoints, bool packPrimitives, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors, const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *uvMap, const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *texture, const char *materialName, const char *materialName_end, const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *xf, const <a class="el" href="MREnums_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *lengthUnit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:abdb6fba08c6d91d6c74881c070a7ae7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89364ac656ed73d0c398ddf10ca8784f" id="r_a89364ac656ed73d0c398ddf10ca8784f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89364ac656ed73d0c398ddf10ca8784f">MR_SaveSettings_OffsetPtr</a> (const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a89364ac656ed73d0c398ddf10ca8784f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a89364ac656ed73d0c398ddf10ca8784f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,6 +409,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfa36f7cf27ce4b9864dde0b998a0c96" name="abfa36f7cf27ce4b9864dde0b998a0c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa36f7cf27ce4b9864dde0b998a0c96">&#9670;&#160;</a></span>MR_std_optional_MR_LengthUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -607,8 +630,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a692ab760824bf4c78acf92febcf0ebda" name="a692ab760824bf4c78acf92febcf0ebda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a692ab760824bf4c78acf92febcf0ebda">&#9670;&#160;</a></span>MR_SaveSettings_ConstructFrom()</h2>
+<a id="abdb6fba08c6d91d6c74881c070a7ae7b" name="abdb6fba08c6d91d6c74881c070a7ae7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb6fba08c6d91d6c74881c070a7ae7b">&#9670;&#160;</a></span>MR_SaveSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,6 +679,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *</td>          <td class="paramname"><span class="paramname"><em>lengthUnit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progress_pass_by</em></span>, </td>
         </tr>
         <tr>
@@ -665,7 +693,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> elementwise. Parameter <code>materialName</code> can not be null. If <code>materialName_end</code> is null, then <code>materialName</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5f7d34b2c9ce91a34528daff62e10e7c" title="Destroys a heap-allocated instance of MR_SaveSettings. Does nothing if the pointer is null.">MR_SaveSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> elementwise. Parameter <code>materialName</code> can not be null. If <code>materialName_end</code> is null, then <code>materialName</code> is assumed to be null-terminated. Parameter <code>lengthUnit</code> is optional. To keep it empty, pass a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5f7d34b2c9ce91a34528daff62e10e7c" title="Destroys a heap-allocated instance of MR_SaveSettings. Does nothing if the pointer is null.">MR_SaveSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -780,6 +808,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>optional per-vertex color to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa035db7115c09998ed4bdc1756528448" name="aa035db7115c09998ed4bdc1756528448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa035db7115c09998ed4bdc1756528448">&#9670;&#160;</a></span>MR_SaveSettings_Get_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> * MR_SaveSettings_Get_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -924,6 +970,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>optional per-vertex color to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa50c61b8865ec507fbae25fd38168f8e" name="aa50c61b8865ec507fbae25fd38168f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50c61b8865ec507fbae25fd38168f8e">&#9670;&#160;</a></span>MR_SaveSettings_GetMutable_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> * MR_SaveSettings_GetMutable_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1154,6 +1218,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>optional per-vertex color to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a46521e4c1b7f3f089f9f514a2961681a" name="a46521e4c1b7f3f089f9f514a2961681a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46521e4c1b7f3f089f9f514a2961681a">&#9670;&#160;</a></span>MR_SaveSettings_Set_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SaveSettings_Set_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
 
 </div>
 </div>

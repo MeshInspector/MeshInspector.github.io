@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html":[6,2,1,0,0,0,2,146],
+"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a18185c917995cdb0f5e18d27332c92ce":[6,2,1,0,0,0,2,146,8],
+"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a1826a90500f4656a1c95516ecba5067b":[6,2,1,0,0,0,2,146,3],
+"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a312c64ea237bab83f93ea1dbb9d358d2":[6,2,1,0,0,0,2,146,10],
 "std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a364ca9c0956e5ab7a9e0be5ce27f84f3":[6,2,1,0,0,0,2,146,7],
 "std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a43d1fc75ee526a3dde44f6fe95d13b8e":[6,2,1,0,0,0,2,146,4],
 "std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a618aa91d0289593c0e8b48081859ed4e":[6,2,1,0,0,0,2,146,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#aab83f6842a66ad370180c45803b920ef":[6,2,1,0,0,0,2,109,11],
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#ac359bdd2fee416f9082981e25b7de81c":[6,2,1,0,0,0,2,109,2],
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#aea6f4c1b17ee8ba078b28e0b4cefcd32":[6,2,1,0,0,0,2,109,1],
-"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#aeb3331b8de80e1c2a1ff6f72f2b028cb":[6,2,1,0,0,0,2,109,10],
-"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#afb22cc32fee5082b2061f921513fcbf2":[6,2,1,0,0,0,2,109,7],
-"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h_source.html":[6,2,1,0,0,0,2,109],
-"std__function__bool__from__float_8h.html":[6,2,1,0,0,0,2,110],
-"std__function__bool__from__float_8h.html#a1527482ccfed970cc7273dbffcb6f966":[6,2,1,0,0,0,2,110,5]
+"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#aeb3331b8de80e1c2a1ff6f72f2b028cb":[6,2,1,0,0,0,2,109,10]
 };

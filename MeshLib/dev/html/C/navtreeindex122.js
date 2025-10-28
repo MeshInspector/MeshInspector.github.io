@@ -1,5 +1,9 @@
 var NAVTREEINDEX122 =
 {
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a8926b75bb2beb7a906aef87b4867fe03":[6,2,1,0,0,0,2,98,0],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a9c5272167e4e19a85bf906bfeef0c677":[6,2,1,0,0,0,2,98,5],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a9dda37e6a9a8f2f73ea299112bae35b5":[6,2,1,0,0,0,2,98,13],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a9fb237af2cc98ec076badbb5ee66ee65":[6,2,1,0,0,0,2,98,8],
 "std__array__MR__SimpleVolumeMinMax__3_8h.html#aa9b2f4381e65dc6b4cbff8fa7d4338a4":[6,2,1,0,0,0,2,98,12],
 "std__array__MR__SimpleVolumeMinMax__3_8h.html#ad38c7a5d2accd732fcd56c017527bf2d":[6,2,1,0,0,0,2,98,11],
 "std__array__MR__SimpleVolumeMinMax__3_8h.html#ae893f73025a24449d9891282cca06a3f":[6,2,1,0,0,0,2,98,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX122 =
 "std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#ab896b2545daca36576e1190ee5e172f4":[6,2,1,0,0,0,2,143,11],
 "std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#abcc37ba85e761dfb3c7641155f0ae7ab":[6,2,1,0,0,0,2,143,2],
 "std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#aff582b7f2982fa33531c663cbb1a21af":[6,2,1,0,0,0,2,143,10],
-"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h_source.html":[6,2,1,0,0,0,2,143],
-"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html":[6,2,1,0,0,0,2,146],
-"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a18185c917995cdb0f5e18d27332c92ce":[6,2,1,0,0,0,2,146,8],
-"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a1826a90500f4656a1c95516ecba5067b":[6,2,1,0,0,0,2,146,3],
-"std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h.html#a312c64ea237bab83f93ea1dbb9d358d2":[6,2,1,0,0,0,2,146,10]
+"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h_source.html":[6,2,1,0,0,0,2,143]
 };

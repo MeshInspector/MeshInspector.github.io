@@ -1,6 +1,7 @@
 var structMR_1_1SaveSettings =
 [
     [ "colors", "structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a", null ],
+    [ "lengthUnit", "structMR_1_1SaveSettings.html#a1b152fd38e636ee6803cabaac71794cc", null ],
     [ "materialName", "structMR_1_1SaveSettings.html#a3614a6ca71783b2dd64369d4f122ee69", null ],
     [ "onlyValidPoints", "structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15", null ],
     [ "packPrimitives", "structMR_1_1SaveSettings.html#af59abe4d1987a4ccd1c117cfe7f3c160", null ],
