@@ -29,9 +29,11 @@ var hierarchy =
     [ "mrmeshpy.AlignType", "classmrmeshpy_1_1AlignType.html", null ],
     [ "mrmeshpy.AllLocalTriangulations", "classmrmeshpy_1_1AllLocalTriangulations.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.AlphaType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html", null ],
+    [ "mrmeshpy.AngleUnit", "classmrmeshpy_1_1AngleUnit.html", null ],
     [ "mrmeshpy.AnyVisualizeMaskEnum", "classmrmeshpy_1_1AnyVisualizeMaskEnum.html", null ],
     [ "mrmeshpy.ArcInterpolationParams", "classmrmeshpy_1_1ArcInterpolationParams.html", null ],
     [ "mrmeshpy.ArcPlane", "classmrmeshpy_1_1ArcPlane.html", null ],
+    [ "mrmeshpy.AreaUnit", "classmrmeshpy_1_1AreaUnit.html", null ],
     [ "mrmeshpy.Axis", "classmrmeshpy_1_1Axis.html", null ],
     [ "mrmeshpy.BasicUiRenderTask.BackwardPassParams", "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
     [ "mrmeshpy.Ball1d", "classmrmeshpy_1_1Ball1d.html", null ],
@@ -528,6 +530,7 @@ var hierarchy =
     [ "mrmeshpy.PlanarTriangulation.IntersectionsMap", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html", null ],
     [ "mrmeshpy.InTreePathBuilder", "classmrmeshpy_1_1InTreePathBuilder.html", null ],
     [ "mrmeshpy.IntrinsicDeloneSettings", "classmrmeshpy_1_1IntrinsicDeloneSettings.html", null ],
+    [ "mrmeshpy.InvLengthUnit", "classmrmeshpy_1_1InvLengthUnit.html", null ],
     [ "mrmeshpy.IOFilter", "classmrmeshpy_1_1IOFilter.html", null ],
     [ "mrmeshpy.IPointPairs", "classmrmeshpy_1_1IPointPairs.html", [
       [ "mrmeshpy.ICPGroupPairs", "classmrmeshpy_1_1ICPGroupPairs.html", null ],
@@ -566,6 +569,7 @@ var hierarchy =
     [ "mrmeshpy.LabelVisualizePropertyType", "classmrmeshpy_1_1LabelVisualizePropertyType.html", null ],
     [ "mrmeshpy.Laplacian", "classmrmeshpy_1_1Laplacian.html", null ],
     [ "mrmeshpy.MeshComponents.LargeByAreaComponentsSettings", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", null ],
+    [ "mrmeshpy.LengthUnit", "classmrmeshpy_1_1LengthUnit.html", null ],
     [ "mrmeshpy.Line2d", "classmrmeshpy_1_1Line2d.html", null ],
     [ "mrmeshpy.Line2f", "classmrmeshpy_1_1Line2f.html", null ],
     [ "mrmeshpy.Line3d", "classmrmeshpy_1_1Line3d.html", null ],
@@ -676,6 +680,7 @@ var hierarchy =
     [ "mrviewerpy.MouseButton", "classmrviewerpy_1_1MouseButton.html", null ],
     [ "mrmeshpy.GcodeProcessor.MoveAction", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html", null ],
     [ "mrmeshpy.MovementBuildBodyParams", "classmrmeshpy_1_1MovementBuildBodyParams.html", null ],
+    [ "mrmeshpy.MovementSpeedUnit", "classmrmeshpy_1_1MovementSpeedUnit.html", null ],
     [ "mrmeshpy.MoveMeshToVoxelMaxDerivSettings", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html", null ],
     [ "mrmeshpy.MoveType", "classmrmeshpy_1_1MoveType.html", null ],
     [ "mrmeshpy.FillHoleParams.MultipleEdgesResolveMode", "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html", null ],
@@ -720,6 +725,7 @@ var hierarchy =
     [ "mrmeshpy.NoInit", "classmrmeshpy_1_1NoInit.html", null ],
     [ "mrmeshpy.NoiseSettings", "classmrmeshpy_1_1NoiseSettings.html", null ],
     [ "mrmeshpy.NormalsToPoints", "classmrmeshpy_1_1NormalsToPoints.html", null ],
+    [ "mrmeshpy.NoUnit", "classmrmeshpy_1_1NoUnit.html", null ],
     [ "mrmeshpy.NumSum", "classmrmeshpy_1_1NumSum.html", null ],
     [ "mrmeshpy.ObjectChildrenHolder", "classmrmeshpy_1_1ObjectChildrenHolder.html", [
       [ "mrmeshpy.Object", "classmrmeshpy_1_1Object.html", [
@@ -843,6 +849,7 @@ var hierarchy =
     [ "mrmeshpy.PixelId", "classmrmeshpy_1_1PixelId.html", [
       [ "mrmeshpy.NoDefInit_PixelId", "classmrmeshpy_1_1NoDefInit__PixelId.html", null ]
     ] ],
+    [ "mrmeshpy.PixelSizeUnit", "classmrmeshpy_1_1PixelSizeUnit.html", null ],
     [ "mrmeshpy.PlanarTriangulation", "classmrmeshpy_1_1PlanarTriangulation.html", null ],
     [ "mrmeshpy.Features.Primitives.Plane", "classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html", null ],
     [ "mrmeshpy.Plane3d", "classmrmeshpy_1_1Plane3d.html", null ],
@@ -921,6 +928,7 @@ var hierarchy =
     [ "mrmeshpy.QuarterBit", "classmrmeshpy_1_1QuarterBit.html", null ],
     [ "mrmeshpy.Quaterniond", "classmrmeshpy_1_1Quaterniond.html", null ],
     [ "mrmeshpy.Quaternionf", "classmrmeshpy_1_1Quaternionf.html", null ],
+    [ "mrmeshpy.RatioUnit", "classmrmeshpy_1_1RatioUnit.html", null ],
     [ "mrmeshpy.VoxelsLoad.RawParameters", "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html", null ],
     [ "mrmeshpy.RawTiffOutput", "classmrmeshpy_1_1RawTiffOutput.html", null ],
     [ "mrmeshpy.FindDisorientationParams.RayMode", "classmrmeshpy_1_1FindDisorientationParams_1_1RayMode.html", null ],
@@ -1252,6 +1260,7 @@ var hierarchy =
     [ "mrmeshpy.TexturePerFace", "classmrmeshpy_1_1TexturePerFace.html", null ],
     [ "mrmeshpy.Tgt2SrcMaps", "classmrmeshpy_1_1Tgt2SrcMaps.html", null ],
     [ "mrmeshpy.ThickenParams", "classmrmeshpy_1_1ThickenParams.html", null ],
+    [ "mrmeshpy.TimeUnit", "classmrmeshpy_1_1TimeUnit.html", null ],
     [ "mrmeshpy.ToolPathParams", "classmrmeshpy_1_1ToolPathParams.html", [
       [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", null ]
     ] ],
@@ -1427,6 +1436,7 @@ var hierarchy =
     [ "mrmeshpy.VolumeSegmentationParameters", "classmrmeshpy_1_1VolumeSegmentationParameters.html", null ],
     [ "mrmeshpy.VolumeSegmenter", "classmrmeshpy_1_1VolumeSegmenter.html", null ],
     [ "mrmeshpy.VolumeToMeshByPartsSettings", "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html", null ],
+    [ "mrmeshpy.VolumeUnit", "classmrmeshpy_1_1VolumeUnit.html", null ],
     [ "mrmeshpy.VoxelFilterType", "classmrmeshpy_1_1VoxelFilterType.html", null ],
     [ "mrmeshpy.VoxelId", "classmrmeshpy_1_1VoxelId.html", [
       [ "mrmeshpy.NoDefInit_VoxelId", "classmrmeshpy_1_1NoDefInit__VoxelId.html", null ]
