@@ -1198,9 +1198,12 @@ var namespaceMR =
       [ "YZ", "namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512", null ]
     ] ],
     [ "AreaUnit", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4", [
-      [ "mm2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a15c50e18fe41a4c178d13f28ce36173f", null ],
+      [ "microns2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ac2ab9fc119a167292a594d648471255d", null ],
+      [ "millimeters2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a1162e59f8ccc04d063172245c4fbb816", null ],
+      [ "centimeters2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a5a1963d0876404fa625c9b8efb5c6cf2", null ],
       [ "meters2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ae534910aa7824f3c5aeb82fe2ad2a839", null ],
       [ "inches2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a608b1a160478ad4e93188c1968110978", null ],
+      [ "feet2", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ab92015a2f8a3fa731fdde1038a24f41d", null ],
       [ "_count", "namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "Axis", "namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005", [
@@ -1359,15 +1362,21 @@ var namespaceMR =
       [ "TranslationOnly", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce", null ]
     ] ],
     [ "InvLengthUnit", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5", [
-      [ "inv_mm", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22", null ],
+      [ "inv_microns", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a0a9b2c72c510da95bcdf55c16155fade", null ],
+      [ "inv_millimeters", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a44ef4af3dc0c0058d51cc748f312535a", null ],
+      [ "inv_centimeters", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5afef23026e04ef66a44c07c662a50958d", null ],
       [ "inv_meters", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a3ea45d8602a5aa192465cbbc8980376c", null ],
       [ "inv_inches", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989", null ],
+      [ "inv_feet", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad6d95d00bd489376144c8b0a79728a43", null ],
       [ "_count", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "LengthUnit", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab", [
-      [ "mm", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabab3cd915d758008bd19d0f2428fbb354a", null ],
+      [ "microns", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabae53fb82e196507824c17635a1c3c8f13", null ],
+      [ "millimeters", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba882f184dd8a217016e9d9074fe1eddee", null ],
+      [ "centimeters", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabae6ec92b31369caeccb14cdf8116fc589", null ],
       [ "meters", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba07d9e3aefc4093a49121c91ef65e708b", null ],
       [ "inches", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4", null ],
+      [ "feet", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabae03f9063484fb1967d1675c86a6094d7", null ],
       [ "_count", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "MouseButton", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d", [
@@ -1385,9 +1394,12 @@ var namespaceMR =
       [ "Count", "namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MovementSpeedUnit", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60", [
-      [ "mmPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a5f5f1dc2b81a48152d2a92c6cb7d8552", null ],
+      [ "micronsPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a37bef313095e6464a4e99e4a38f4cc8e", null ],
+      [ "millimetersPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60ac9cf6e3d4555c64f85be319c2e026b31", null ],
+      [ "centimetersPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60ae739198e12c60b73c5a76bc5db63a3f0", null ],
       [ "metersPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a5b1a9bad5dab15ff59ec1908fce8b06f", null ],
       [ "inchesPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a9ac9f9af0dc2f497b1df27b8d757c7c1", null ],
+      [ "feetPerSecond", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a0cee67c5d0e978a15a75efb65f57192d", null ],
       [ "_count", "namespaceMR.html#ab6428d5776a040cbc748843edbedfa60ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "MoveType", "namespaceMR.html#a88f1fdd848610bc41226918baa28e601", [
@@ -1660,9 +1672,12 @@ var namespaceMR =
       [ "NeiArea", "namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
     [ "VolumeUnit", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29a", [
-      [ "mm3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa205056288e7f71c459183d3cb8d46edb", null ],
+      [ "microns3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa2721926f0c08bc977b75d30560305bdf", null ],
+      [ "millimeters3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa3a7f8edab106073f428064294552e862", null ],
+      [ "centimeters3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aacd964191c4ad82fa4ea14da25913b2dd", null ],
       [ "meters3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa4f752f80e660d3b1df1b9d0a26f74145", null ],
       [ "inches3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69", null ],
+      [ "feet3", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa65f0b3020d7466b9998591f1c71fa770", null ],
       [ "_count", "namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "VoxelFilterType", "namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a", [

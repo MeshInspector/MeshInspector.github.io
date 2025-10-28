@@ -24,9 +24,12 @@ var MREnums_8h =
       [ "MR_AngleUnit__count", "MREnums_8h.html#a6c2139a816e35ef83120fde53364b934afbec17d8f5ad0e0fbd07cdd4fcb7c540", null ]
     ] ],
     [ "MR_AreaUnit", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749", [
-      [ "MR_AreaUnit_mm2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a4ac61544f064b242d5f3554582854d18", null ],
+      [ "MR_AreaUnit_microns2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a5b90dab5a3ff6c168f40f9cf97666d0c", null ],
+      [ "MR_AreaUnit_millimeters2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a462f753f4978ee99966a03c7a490646e", null ],
+      [ "MR_AreaUnit_centimeters2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749ad6bf665374939f238b29b81e9b33804a", null ],
       [ "MR_AreaUnit_meters2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a48c9ada65e59c44710f2a00ea0a51f69", null ],
       [ "MR_AreaUnit_inches2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a2a470f951d1401b9d39e03dac9f5e359", null ],
+      [ "MR_AreaUnit_feet2", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a755235179cf348c576fe14a1604ac20c", null ],
       [ "MR_AreaUnit__count", "MREnums_8h.html#aa8fdba86ccc8ac95d96d3dabe2ba2749a48bad17e656db0c6b13d0106c5605b14", null ]
     ] ],
     [ "MR_ColoringType", "MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d", [
@@ -41,21 +44,30 @@ var MREnums_8h =
       [ "MR_EdgeWeights_Cotan", "MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50a825ee3e532b35bc2472ab31f36b01591", null ]
     ] ],
     [ "MR_InvLengthUnit", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9", [
-      [ "MR_InvLengthUnit_inv_mm", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a027c64aa2a7642656bb498a5db59ceff", null ],
+      [ "MR_InvLengthUnit_inv_microns", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a2db728a105ed57962f6c7de1bcd5c858", null ],
+      [ "MR_InvLengthUnit_inv_millimeters", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a6d09d36b4a1643dcf6b27d64c6255af2", null ],
+      [ "MR_InvLengthUnit_inv_centimeters", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a58803942a6f289f7b23228c4f0478f1a", null ],
       [ "MR_InvLengthUnit_inv_meters", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a718eca28eb873cffe2dbbedc07dee94c", null ],
       [ "MR_InvLengthUnit_inv_inches", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a03d1ec0d5cfc208871d36ef7860cabe5", null ],
+      [ "MR_InvLengthUnit_inv_feet", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9abd73ec55dd6ec38c8c108f6f011643a3", null ],
       [ "MR_InvLengthUnit__count", "MREnums_8h.html#a2fe527bfd0ef6c19509abe1f2ce788a9a01409c68015edda60d1f65d4c0490d4c", null ]
     ] ],
     [ "MR_LengthUnit", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbce", [
-      [ "MR_LengthUnit_mm", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbcea8d360f15f363195dccadf2bc38cddfbd", null ],
+      [ "MR_LengthUnit_microns", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbcea9a3246fb48801481d51632b899f0567a", null ],
+      [ "MR_LengthUnit_millimeters", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbcea8706c9920951b700454c87b4c8167f30", null ],
+      [ "MR_LengthUnit_centimeters", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbceaaf91930a854a11c53479d1c1d910b8b1", null ],
       [ "MR_LengthUnit_meters", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbceadac4a58652523c2686dbb2c4556a071f", null ],
       [ "MR_LengthUnit_inches", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbceacd2454bb637558c9b92d189bbf8d4498", null ],
+      [ "MR_LengthUnit_feet", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbceabdaf26b54f04a2807791ab88a0fdbce3", null ],
       [ "MR_LengthUnit__count", "MREnums_8h.html#af88f9579711ed613f04fac0731b1cbcea7ab4dad658e26569616f2e64c8383567", null ]
     ] ],
     [ "MR_MovementSpeedUnit", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5b", [
-      [ "MR_MovementSpeedUnit_mmPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5ba9abee0893c515abd063d572891db5114", null ],
+      [ "MR_MovementSpeedUnit_micronsPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5babf713c97b2d3eac1b7af1e389cdf73fe", null ],
+      [ "MR_MovementSpeedUnit_millimetersPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5bae58a5b53d15f237c58c72c64051c36c8", null ],
+      [ "MR_MovementSpeedUnit_centimetersPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5baed6a97e9adbc43f45f05be24ae796df6", null ],
       [ "MR_MovementSpeedUnit_metersPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5ba33ca884e79f720172a4363787e6dec22", null ],
       [ "MR_MovementSpeedUnit_inchesPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5baa5bc72e17e713a11a1ab51bd30df92e7", null ],
+      [ "MR_MovementSpeedUnit_feetPerSecond", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5ba5c05e99633fad54b6262d3efa6b29a49", null ],
       [ "MR_MovementSpeedUnit__count", "MREnums_8h.html#aa4b3921cef63b9b968da38896cf93d5ba97126e0cb8cc458a5fc7b668951f5ec2", null ]
     ] ],
     [ "MR_NoUnit", "MREnums_8h.html#a33f2ca44eae2a7feebc1dd635540e4f1", [
@@ -90,9 +102,12 @@ var MREnums_8h =
       [ "MR_VertexMass_NeiArea", "MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2", null ]
     ] ],
     [ "MR_VolumeUnit", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289", [
-      [ "MR_VolumeUnit_mm3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a9df2ff7a5d4b721b13d2d736f8dbcef2", null ],
+      [ "MR_VolumeUnit_microns3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a191ca0a2da9156f781e839b7511c0830", null ],
+      [ "MR_VolumeUnit_millimeters3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a9839e0f88690e40fb9367376742ee61d", null ],
+      [ "MR_VolumeUnit_centimeters3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a2750fc96fcb0d901bc28ee67630a59b2", null ],
       [ "MR_VolumeUnit_meters3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a9fd3a6ca2af0337c4431681887854642", null ],
       [ "MR_VolumeUnit_inches3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289ac625697279b847c806d46f6369ea5f23", null ],
+      [ "MR_VolumeUnit_feet3", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a8dcccd0185e2e4d20a3da8cdaa5821fe", null ],
       [ "MR_VolumeUnit__count", "MREnums_8h.html#aaa41adb03a8dcf1fe13581a88cb41289a6748e2164bfe9846c6b1ed42c2731c5b", null ]
     ] ],
     [ "MR_asString_MR_ColoringType", "MREnums_8h.html#acfee7417484e1556a3b3e21d5d290e26", null ]
