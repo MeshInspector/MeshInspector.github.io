@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"classmrmeshpy_1_1RelaxApproxType.html#a02dd0c72e78f685b65a4f9648228621b":[6,1,1,0,1,759,3],
+"classmrmeshpy_1_1RelaxApproxType.html#a0bf1641ca3f532f7338ba0cfac2b8c0c":[6,1,0,0,2,759,0],
+"classmrmeshpy_1_1RelaxApproxType.html#a0bf1641ca3f532f7338ba0cfac2b8c0c":[6,1,1,0,1,759,0],
+"classmrmeshpy_1_1RelaxApproxType.html#a1602395bb68300b7f0784b364e004b57":[6,1,0,0,2,759,1],
+"classmrmeshpy_1_1RelaxApproxType.html#a1602395bb68300b7f0784b364e004b57":[6,1,1,0,1,759,1],
+"classmrmeshpy_1_1RelaxApproxType.html#a1ecb4acc599cfea6612769db83fe36d8":[6,1,0,0,2,759,6],
+"classmrmeshpy_1_1RelaxApproxType.html#a1ecb4acc599cfea6612769db83fe36d8":[6,1,1,0,1,759,6],
+"classmrmeshpy_1_1RelaxApproxType.html#a2ad7ea9d5f555c66c0e1187d58d5b66f":[6,1,0,0,2,759,4],
 "classmrmeshpy_1_1RelaxApproxType.html#a2ad7ea9d5f555c66c0e1187d58d5b66f":[6,1,1,0,1,759,4],
 "classmrmeshpy_1_1RelaxApproxType.html#a30afc74bc5f3e80aa4006f121b0bbde4":[6,1,0,0,2,759,8],
 "classmrmeshpy_1_1RelaxApproxType.html#a30afc74bc5f3e80aa4006f121b0bbde4":[6,1,1,0,1,759,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1RigidScaleXf3d.html#aa4bacabbb30ff6db855b27edb02a21c9":[6,1,1,0,1,765,8],
 "classmrmeshpy_1_1RigidScaleXf3d.html#ab0787027db778e553b61cb091fa5f6bb":[6,1,0,0,2,765,4],
 "classmrmeshpy_1_1RigidScaleXf3d.html#ab0787027db778e553b61cb091fa5f6bb":[6,1,1,0,1,765,4],
-"classmrmeshpy_1_1RigidScaleXf3d.html#ad07d4d7eaf7ce8ef367541e552405a07":[6,1,0,0,2,765,0],
-"classmrmeshpy_1_1RigidScaleXf3d.html#ad07d4d7eaf7ce8ef367541e552405a07":[6,1,1,0,1,765,0],
-"classmrmeshpy_1_1RigidScaleXf3f.html":[6,1,0,0,2,766],
-"classmrmeshpy_1_1RigidScaleXf3f.html":[6,1,1,0,1,766],
-"classmrmeshpy_1_1RigidScaleXf3f.html#a0c0606d89a982a80199ff6867501a220":[6,1,0,0,2,766,6],
-"classmrmeshpy_1_1RigidScaleXf3f.html#a0c0606d89a982a80199ff6867501a220":[6,1,1,0,1,766,6],
-"classmrmeshpy_1_1RigidScaleXf3f.html#a1d3081c3ee3919dbf7f77538881d96e3":[6,1,0,0,2,766,9],
-"classmrmeshpy_1_1RigidScaleXf3f.html#a1d3081c3ee3919dbf7f77538881d96e3":[6,1,1,0,1,766,9],
-"classmrmeshpy_1_1RigidScaleXf3f.html#a1dd37c58148dc0b2df2b539172961b89":[6,1,0,0,2,766,2]
+"classmrmeshpy_1_1RigidScaleXf3d.html#ad07d4d7eaf7ce8ef367541e552405a07":[6,1,0,0,2,765,0]
 };

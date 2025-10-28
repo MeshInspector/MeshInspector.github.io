@@ -1,5 +1,13 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[6,0,2,0,1,696,11],
+"classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c":[6,0,1,0,1,715,21],
+"classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c":[6,0,2,0,1,696,21],
+"classMR_1_1StateBasePlugin.html#a2cd5d2532aaf3a9fd7283d4bb24a638d":[6,0,1,0,1,715,9],
+"classMR_1_1StateBasePlugin.html#a2cd5d2532aaf3a9fd7283d4bb24a638d":[6,0,2,0,1,696,9],
+"classMR_1_1StateBasePlugin.html#a31980ff25e0e7e77cf8ace037ddd9f68":[6,0,1,0,1,715,13],
+"classMR_1_1StateBasePlugin.html#a31980ff25e0e7e77cf8ace037ddd9f68":[6,0,2,0,1,696,13],
+"classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[6,0,1,0,1,715,0],
 "classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[6,0,2,0,1,696,0],
 "classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[6,0,1,0,1,715,2],
 "classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[6,0,2,0,1,696,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1SurfaceManipulationWidget.html#af9cf7388fbbb8c4053cd1f1403584d2d":[6,0,1,0,1,721,67],
 "classMR_1_1SurfaceManipulationWidget.html#af9cf7388fbbb8c4053cd1f1403584d2d":[6,0,2,0,1,702,67],
 "classMR_1_1SurfaceManipulationWidget.html#afd37fd93e8c51f4037dda6a9b72ee3d7":[6,0,1,0,1,721,48],
-"classMR_1_1SurfaceManipulationWidget.html#afd37fd93e8c51f4037dda6a9b72ee3d7":[6,0,2,0,1,702,48],
-"classMR_1_1SurfaceManipulationWidget.html#afd5d519105a1e182ae6cf1677ea9d415":[6,0,1,0,1,721,36],
-"classMR_1_1SurfaceManipulationWidget.html#afd5d519105a1e182ae6cf1677ea9d415":[6,0,2,0,1,702,36],
-"classMR_1_1SurfacePointWidget.html":[6,0,1,0,1,722],
-"classMR_1_1SurfacePointWidget.html":[6,0,2,0,1,703],
-"classMR_1_1SurfacePointWidget.html#a074b1ad08082a7ae08f4ca175e22a4de":[6,0,1,0,1,722,23],
-"classMR_1_1SurfacePointWidget.html#a074b1ad08082a7ae08f4ca175e22a4de":[6,0,2,0,1,703,23],
-"classMR_1_1SurfacePointWidget.html#a0bd720379a39e8c1c66edd479989a1da":[6,0,1,0,1,722,13],
-"classMR_1_1SurfacePointWidget.html#a0bd720379a39e8c1c66edd479989a1da":[6,0,2,0,1,703,13]
+"classMR_1_1SurfaceManipulationWidget.html#afd37fd93e8c51f4037dda6a9b72ee3d7":[6,0,2,0,1,702,48]
 };

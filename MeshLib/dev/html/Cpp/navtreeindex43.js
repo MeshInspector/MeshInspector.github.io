@@ -1,5 +1,13 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1RibbonButtonDrawer.html#a873e857624709ee46ec0487169fd1e87":[6,0,2,0,1,596,2],
+"classMR_1_1RibbonButtonDrawer.html#a88e9dab920cc65df3ceeb3332d6508e3":[6,0,1,0,1,615,4],
+"classMR_1_1RibbonButtonDrawer.html#a88e9dab920cc65df3ceeb3332d6508e3":[6,0,2,0,1,596,4],
+"classMR_1_1RibbonButtonDrawer.html#a954e453eee79988e5bc9e09da649f469":[6,0,1,0,1,615,7],
+"classMR_1_1RibbonButtonDrawer.html#a954e453eee79988e5bc9e09da649f469":[6,0,2,0,1,596,7],
+"classMR_1_1RibbonButtonDrawer.html#a9e8e2cf8f70aa2833fcb03ec85ca1dc5":[6,0,1,0,1,615,10],
+"classMR_1_1RibbonButtonDrawer.html#a9e8e2cf8f70aa2833fcb03ec85ca1dc5":[6,0,2,0,1,596,10],
+"classMR_1_1RibbonButtonDrawer.html#aa5a084b37f1b48fd5dc902412372f975":[6,0,1,0,1,615,8],
 "classMR_1_1RibbonButtonDrawer.html#aa5a084b37f1b48fd5dc902412372f975":[6,0,2,0,1,596,8],
 "classMR_1_1RibbonButtonDrawer.html#ad76d42588ec2c9279d8695185fcd1f61":[6,0,1,0,1,615,3],
 "classMR_1_1RibbonButtonDrawer.html#ad76d42588ec2c9279d8695185fcd1f61":[6,0,2,0,1,596,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1RibbonMenu.html#afd52ffe86f76c1dcae019262f3722fd3":[6,0,2,0,1,600,84],
 "classMR_1_1RibbonMenu.html#afefdd706402e7ad5daf3433c54ae87dc":[6,0,1,0,1,619,71],
 "classMR_1_1RibbonMenu.html#afefdd706402e7ad5daf3433c54ae87dc":[6,0,2,0,1,600,71],
-"classMR_1_1RibbonMenuItem.html":[6,0,1,0,1,620],
-"classMR_1_1RibbonMenuItem.html":[6,0,2,0,1,601],
-"classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924":[6,0,1,0,1,620,15],
-"classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924":[6,0,2,0,1,601,15],
-"classMR_1_1RibbonMenuItem.html#a1141be44babb4a13201487188c332668":[6,0,1,0,1,620,5],
-"classMR_1_1RibbonMenuItem.html#a1141be44babb4a13201487188c332668":[6,0,2,0,1,601,5],
-"classMR_1_1RibbonMenuItem.html#a15b6a4b9f191b8716be1199364bb74e0":[6,0,1,0,1,620,12],
-"classMR_1_1RibbonMenuItem.html#a15b6a4b9f191b8716be1199364bb74e0":[6,0,2,0,1,601,12],
-"classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5":[6,0,1,0,1,620,14]
+"classMR_1_1RibbonMenuItem.html":[6,0,1,0,1,620]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"MRQuaternion_8h.html#aeea6259ff5da7c11dce158239539d041":[6,2,1,0,0,0,1,284,84],
+"MRQuaternion_8h.html#af1ddb8dde01acff8e85821338ec174cb":[6,2,1,0,0,0,1,284,64],
+"MRQuaternion_8h.html#af291756056bab17b12c44aaa8639b422":[6,2,1,0,0,0,1,284,62],
+"MRQuaternion_8h.html#af5f1f340b4eafbc03c720ea9960df771":[6,2,1,0,0,0,1,284,13],
 "MRQuaternion_8h.html#afffe3aa22a01cb1867aff44909dd0f57":[6,2,1,0,0,0,1,284,66],
 "MRQuaternion_8h_source.html":[6,2,1,0,0,0,1,284],
 "MRRadiusCompensation_8h.html":[6,2,1,0,0,0,1,285],
@@ -245,9 +249,5 @@ var NAVTREEINDEX78 =
 "MRRegularGridMesh_8h.html#a6bd62dcdfe70dbcd2171565f1e0f4c3e":[6,2,1,0,0,0,1,291,3],
 "MRRegularGridMesh_8h.html#ac40ea3709e908e687f88f86fd15da470":[6,2,1,0,0,0,1,291,6],
 "MRRegularGridMesh_8h.html#ad02250e56289041f5c5b145c1076976e":[6,2,1,0,0,0,1,291,2],
-"MRRegularGridMesh_8h.html#adb03ce28cacfff1e499d75d512dc4a84":[6,2,1,0,0,0,1,291,1],
-"MRRegularGridMesh_8h_source.html":[6,2,1,0,0,0,1,291],
-"MRRegularMapMesher_8h.html":[6,2,1,0,0,0,1,292],
-"MRRegularMapMesher_8h.html#a027b83c0bcd3b752bc88089a0f4ce663":[6,2,1,0,0,0,1,292,13],
-"MRRegularMapMesher_8h.html#a02a41c2b65bd16796d5a1aa5ac2a751f":[6,2,1,0,0,0,1,292,11]
+"MRRegularGridMesh_8h.html#adb03ce28cacfff1e499d75d512dc4a84":[6,2,1,0,0,0,1,291,1]
 };

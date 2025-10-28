@@ -1,5 +1,10 @@
 var NAVTREEINDEX134 =
 {
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a95e65baf2b3c3e74f5f0c3d59ac4b05e":[6,2,1,0,0,0,2,290,38],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a98e7c3263a7b54a254148d32f66f098a":[6,2,1,0,0,0,2,290,69],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a9cb2fa81d1692ccff58478467af896e5":[6,2,1,0,0,0,2,290,56],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a9ce5a2c5ab42d4055f3d7566c25ccd70":[6,2,1,0,0,0,2,290,50],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#aa44ce5c97f8b107c6538c2861d66b982":[6,2,1,0,0,0,2,290,62],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ab4e335cb52d7ecdd22e966a2cf4dc575":[6,2,1,0,0,0,2,290,18],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ab6043fc22ae3d7167e0807881e2fba91":[6,2,1,0,0,0,2,290,5],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ab71c9ed78a262d2bde88c02966faf010":[6,2,1,0,0,0,2,290,36],
@@ -244,10 +249,5 @@ var NAVTREEINDEX134 =
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#aeb63576d834c87b9e528c4bf2eb50491":[6,2,1,0,0,0,2,293,15],
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#af31410b933034532c453e5fa5a6868b9":[6,2,1,0,0,0,2,293,12],
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#afce744c546aa617bfd9c5260c893bb44":[6,2,1,0,0,0,2,293,29],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#afe7bf89c85f8bc8a3cb0353ae196ca09":[6,2,1,0,0,0,2,293,13],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h_source.html":[6,2,1,0,0,0,2,293],
-"std__vector__MR__AABBTreePoints__Node_8h.html":[6,2,1,0,0,0,2,294],
-"std__vector__MR__AABBTreePoints__Node_8h.html#a00e21a459463c66cf26fe244bea829a8":[6,2,1,0,0,0,2,294,10],
-"std__vector__MR__AABBTreePoints__Node_8h.html#a00ecb311afacd445664b7a2baa70fe39":[6,2,1,0,0,0,2,294,69],
-"std__vector__MR__AABBTreePoints__Node_8h.html#a04d9f2ce144fb73f38fae98c80c3b994":[6,2,1,0,0,0,2,294,33]
+"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#afe7bf89c85f8bc8a3cb0353ae196ca09":[6,2,1,0,0,0,2,293,13]
 };

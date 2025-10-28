@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1OffsetContoursParams.html#a55b2c0e7ca56db46f0eb09d2572aa6d2":[6,1,1,0,1,618,5],
+"classmrmeshpy_1_1OffsetContoursParams.html#a6792121c20a94bb535dbe48d312ac560":[6,1,0,0,2,618,10],
+"classmrmeshpy_1_1OffsetContoursParams.html#a6792121c20a94bb535dbe48d312ac560":[6,1,1,0,1,618,10],
+"classmrmeshpy_1_1OffsetContoursParams.html#a9db244cf9b363c92394efff55a5b3584":[6,1,0,0,2,618,9],
+"classmrmeshpy_1_1OffsetContoursParams.html#a9db244cf9b363c92394efff55a5b3584":[6,1,1,0,1,618,9],
+"classmrmeshpy_1_1OffsetContoursParams.html#ab26d1ebc28e323a0e91c2a444abb3803":[6,1,0,0,2,618,6],
+"classmrmeshpy_1_1OffsetContoursParams.html#ab26d1ebc28e323a0e91c2a444abb3803":[6,1,1,0,1,618,6],
+"classmrmeshpy_1_1OffsetContoursParams.html#ae780243b043613374bca88420840bb4e":[6,1,0,0,2,618,8],
 "classmrmeshpy_1_1OffsetContoursParams.html#ae780243b043613374bca88420840bb4e":[6,1,1,0,1,618,8],
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html":[6,1,0,0,2,618,0],
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html":[6,1,1,0,1,618,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1OutEdge2.html#a1fdea1810ac18ba16645618d25b8f13a":[6,1,1,0,1,628,1],
 "classmrmeshpy_1_1OutEdge2.html#a2254c46cf1efd4c5e250fdaaa9d7662b":[6,1,0,0,2,628,0],
 "classmrmeshpy_1_1OutEdge2.html#a2254c46cf1efd4c5e250fdaaa9d7662b":[6,1,1,0,1,628,0],
-"classmrmeshpy_1_1OutEdge2.html#a42ae5f0beba4903c9247c4d8471d7ec1":[6,1,0,0,2,628,2],
-"classmrmeshpy_1_1OutEdge2.html#a42ae5f0beba4903c9247c4d8471d7ec1":[6,1,1,0,1,628,2],
-"classmrmeshpy_1_1OutEdge2.html#a6f0738c26f5997acdbff13e82c37cb4d":[6,1,0,0,2,628,5],
-"classmrmeshpy_1_1OutEdge2.html#a6f0738c26f5997acdbff13e82c37cb4d":[6,1,1,0,1,628,5],
-"classmrmeshpy_1_1OutEdge2.html#aa76a162efe5ff6065a11375709cde364":[6,1,0,0,2,628,4],
-"classmrmeshpy_1_1OutEdge2.html#aa76a162efe5ff6065a11375709cde364":[6,1,1,0,1,628,4],
-"classmrmeshpy_1_1OutEdge2.html#abd8904f302f21f37c354c999a24a8ecc":[6,1,0,0,2,628,6],
-"classmrmeshpy_1_1OutEdge2.html#abd8904f302f21f37c354c999a24a8ecc":[6,1,1,0,1,628,6],
-"classmrmeshpy_1_1OutEdge2.html#ac2926979101ddd9f370094abfba54083":[6,1,0,0,2,628,9]
+"classmrmeshpy_1_1OutEdge2.html#a42ae5f0beba4903c9247c4d8471d7ec1":[6,1,0,0,2,628,2]
 };

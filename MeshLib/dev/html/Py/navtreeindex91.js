@@ -1,5 +1,13 @@
 var NAVTREEINDEX91 =
 {
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af5947648693def648233dba6c9c80f5c":[6,1,1,0,1,1067,7],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af74b2b3e5086b04104e9d0d2371a6624":[6,1,0,0,2,1067,37],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af74b2b3e5086b04104e9d0d2371a6624":[6,1,1,0,1,1067,37],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#afc967e6b5dd8ce2daccfe8b3906ef231":[6,1,0,0,2,1067,12],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#afc967e6b5dd8ce2daccfe8b3906ef231":[6,1,1,0,1,1067,12],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,0,0,2,1067,18],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,1,0,1,1067,18],
+"classmrmeshpy_1_1UndirectedEdgeColors.html":[6,1,0,0,2,1069],
 "classmrmeshpy_1_1UndirectedEdgeColors.html":[6,1,1,0,1,1069],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#a0058d1414d6a69b6b9d65e50d67025cc":[6,1,0,0,2,1069,31],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#a0058d1414d6a69b6b9d65e50d67025cc":[6,1,1,0,1,1069,31],
@@ -241,13 +249,5 @@ var NAVTREEINDEX91 =
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a454c0b8d1084603df4e9553a1f2c1164":[6,1,1,0,1,1073,32],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a54c869826a6b2ff65a0bf6873c1965f6":[6,1,0,0,2,1073,17],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a54c869826a6b2ff65a0bf6873c1965f6":[6,1,1,0,1,1073,17],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e":[6,1,0,0,2,1073,2],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e":[6,1,1,0,1,1073,2],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a65eaebf3d8b982a5c62f37a51b1f2d27":[6,1,0,0,2,1073,36],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a65eaebf3d8b982a5c62f37a51b1f2d27":[6,1,1,0,1,1073,36],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3":[6,1,0,0,2,1073,3],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3":[6,1,1,0,1,1073,3],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a74ece5d4a56a9d03675e1635f8626e88":[6,1,0,0,2,1073,33],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a74ece5d4a56a9d03675e1635f8626e88":[6,1,1,0,1,1073,33],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a7699014db182a7a535e174673f98d00f":[6,1,0,0,2,1073,0]
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e":[6,1,0,0,2,1073,2]
 };

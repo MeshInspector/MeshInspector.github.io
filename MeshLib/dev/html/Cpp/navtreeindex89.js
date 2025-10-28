@@ -1,5 +1,14 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,1,0,1,576,0],
+"structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29":[6,0,2,0,1,557,0],
+"structMR_1_1QuadraticForm.html":[6,0,0,0,20],
+"structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a":[6,0,0,0,20,1],
+"structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463":[6,0,0,0,20,11],
+"structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0":[6,0,0,0,20,4],
+"structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[6,0,0,0,20,8],
+"structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[6,0,0,0,20,3],
+"structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[6,0,0,0,20,2],
 "structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[6,0,0,0,20,10],
 "structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2":[6,0,0,0,20,7],
 "structMR_1_1QuadraticForm.html#abd84de324207ec889e01f594968dd8a1":[6,0,0,0,20,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,1,0,1,613,0],
 "structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6":[6,0,2,0,1,594,0],
 "structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[6,0,1,0,1,613,5],
-"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[6,0,2,0,1,594,5],
-"structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,1,0,1,613,4],
-"structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,2,0,1,594,4],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,1,0,1,615,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,1,596,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,1,0,1,615,0,1],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,596,0,1],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,615,0,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,2,0,1,596,0,0],
-"structMR_1_1RibbonConfig.html":[6,0,1,0,1,616]
+"structMR_1_1ResolveMeshDegenSettings.html#a662cd36008283eda54cd0986ab6b3b96":[6,0,2,0,1,594,5]
 };

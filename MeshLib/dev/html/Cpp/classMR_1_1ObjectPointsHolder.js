@@ -8,6 +8,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "applyScale", "classMR_1_1ObjectPointsHolder.html#abd19fedb77b950f4b6d214edc81e6611", null ],
     [ "clone", "classMR_1_1ObjectPointsHolder.html#a7f67435bceafd659dec15164f3786ff9", null ],
     [ "computeBoundingBox_", "classMR_1_1ObjectPointsHolder.html#a6f85a9f56979c1853b75dcb8a1b3b94d", null ],
+    [ "copyAllSolidColors", "classMR_1_1ObjectPointsHolder.html#a8109b854611237320d65254f81c8148a", null ],
     [ "copyColors", "classMR_1_1ObjectPointsHolder.html#a2518a2c2c8afd31aa1653e6ca5bd7f43", null ],
     [ "deserializeFields_", "classMR_1_1ObjectPointsHolder.html#a6188f5d044e81a3a0e220618684fa515", null ],
     [ "deserializeModel_", "classMR_1_1ObjectPointsHolder.html#aa5d09d8ac06d164d03a166e6a4cd6b24", null ],

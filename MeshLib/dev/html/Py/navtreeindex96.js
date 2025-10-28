@@ -1,5 +1,13 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1Vector4b.html":[6,1,1,0,1,1101],
+"classmrmeshpy_1_1Vector4b.html#a103c2bbdbd3b20bfb8ebbf962ab418e4":[6,1,0,0,2,1101,17],
+"classmrmeshpy_1_1Vector4b.html#a103c2bbdbd3b20bfb8ebbf962ab418e4":[6,1,1,0,1,1101,17],
+"classmrmeshpy_1_1Vector4b.html#a1473e887d31ef68e8472acd163fd44fb":[6,1,0,0,2,1101,20],
+"classmrmeshpy_1_1Vector4b.html#a1473e887d31ef68e8472acd163fd44fb":[6,1,1,0,1,1101,20],
+"classmrmeshpy_1_1Vector4b.html#a1e478a57876a24f4342df280721aad1d":[6,1,0,0,2,1101,5],
+"classmrmeshpy_1_1Vector4b.html#a1e478a57876a24f4342df280721aad1d":[6,1,0,0,2,1101,6],
+"classmrmeshpy_1_1Vector4b.html#a1e478a57876a24f4342df280721aad1d":[6,1,1,0,1,1101,5],
 "classmrmeshpy_1_1Vector4b.html#a1e478a57876a24f4342df280721aad1d":[6,1,1,0,1,1101,6],
 "classmrmeshpy_1_1Vector4b.html#a1e5850ab46d06896729a9b32a1492cf6":[6,1,0,0,2,1101,8],
 "classmrmeshpy_1_1Vector4b.html#a1e5850ab46d06896729a9b32a1492cf6":[6,1,1,0,1,1101,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1Vector4i64.html#ad95ce4e356a8a76b6e100ab49c573f6d":[6,1,1,0,1,1105,16],
 "classmrmeshpy_1_1Vector4i64.html#aee375ea4e1a8f3c1efb1217119d3bf5f":[6,1,0,0,2,1105,1],
 "classmrmeshpy_1_1Vector4i64.html#aee375ea4e1a8f3c1efb1217119d3bf5f":[6,1,1,0,1,1105,1],
-"classmrmeshpy_1_1Vector4i64.html#aef8273fb5221509f9d76f6bd89792b8d":[6,1,0,0,2,1105,11],
-"classmrmeshpy_1_1Vector4i64.html#aef8273fb5221509f9d76f6bd89792b8d":[6,1,1,0,1,1105,11],
-"classmrmeshpy_1_1Vector4i64.html#afcb8af38315f8782a1cb9818e25f615b":[6,1,0,0,2,1105,4],
-"classmrmeshpy_1_1Vector4i64.html#afcb8af38315f8782a1cb9818e25f615b":[6,1,1,0,1,1105,4],
-"classmrmeshpy_1_1Vector4i64.html#afd8505ec77f14ed2ab2673e1d2c8e869":[6,1,0,0,2,1105,14],
-"classmrmeshpy_1_1Vector4i64.html#afd8505ec77f14ed2ab2673e1d2c8e869":[6,1,1,0,1,1105,14],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html":[6,1,0,0,2,1106],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html":[6,1,1,0,1,1106],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a0cca83bd6e2878b73d5600d06474dc75":[6,1,0,0,2,1106,11]
+"classmrmeshpy_1_1Vector4i64.html#aef8273fb5221509f9d76f6bd89792b8d":[6,1,0,0,2,1105,11]
 };
