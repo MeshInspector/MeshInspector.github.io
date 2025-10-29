@@ -22,6 +22,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRDragDropWin32Handler.h", "MRDragDropWin32Handler_8h.html", null ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFileDialogCocoa.h", "MRFileDialogCocoa_8h.html", "MRFileDialogCocoa_8h" ],
+    [ "MRFileDialogPortal.h", "MRFileDialogPortal_8h.html", "MRFileDialogPortal_8h" ],
     [ "MRFileLoadOptions.h", "MRFileLoadOptions_8h.html", "MRFileLoadOptions_8h" ],
     [ "MRFitData.h", "MRFitData_8h.html", "MRFitData_8h" ],
     [ "MRFrameCounter.h", "MRFrameCounter_8h.html", "MRFrameCounter_8h" ],

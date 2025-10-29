@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1SaveSceneAsMenuItem.html#ac08afb2181aa6be826c5cc179272d01d":[6,0,2,0,1,630,4],
+"classMR_1_1SaveSceneAsMenuItem.html#ad61d6a7f10df6c02d7aa4131e069920a":[6,0,1,0,1,649,3],
+"classMR_1_1SaveSceneAsMenuItem.html#ad61d6a7f10df6c02d7aa4131e069920a":[6,0,2,0,1,630,3],
+"classMR_1_1SaveSceneMenuItem.html":[6,0,1,0,1,650],
 "classMR_1_1SaveSceneMenuItem.html":[6,0,2,0,1,631],
 "classMR_1_1SaveSceneMenuItem.html#a417f49d8c8d7f15f3650c9e0aa881b3d":[6,0,1,0,1,650,1],
 "classMR_1_1SaveSceneMenuItem.html#a417f49d8c8d7f15f3650c9e0aa881b3d":[6,0,2,0,1,631,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca":[6,0,0,3,4,7],
 "classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b":[6,0,0,3,4,0],
 "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea":[6,0,0,3,4,12],
-"classMR_1_1SetViewPresetMenuItem.html":[6,0,1,0,1,681],
-"classMR_1_1SetViewPresetMenuItem.html":[6,0,2,0,1,662],
-"classMR_1_1SetViewPresetMenuItem.html#a22d459e6dfc41abb30e789e165d22d13":[6,0,1,0,1,681,2],
-"classMR_1_1SetViewPresetMenuItem.html#a22d459e6dfc41abb30e789e165d22d13":[6,0,2,0,1,662,2],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dc":[6,0,1,0,1,681,0]
+"classMR_1_1SetViewPresetMenuItem.html":[6,0,1,0,1,681]
 };

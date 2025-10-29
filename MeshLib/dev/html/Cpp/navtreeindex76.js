@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,3],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,1,0,1,6,1,3,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,2,0,1,2,1,3,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,1,0,1,6,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,2,0,1,2,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,5],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f":[6,0,2,0,1,242,2],
 "structMR_1_1FixCreasesParams.html":[6,0,0,9,4,1],
 "structMR_1_1FixCreasesParams.html#a279d3fb54a0fb0946a220b96b62e06cc":[6,0,0,9,4,1,1],
-"structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c":[6,0,0,9,4,1,2],
-"structMR_1_1FixCreasesParams.html#a6921929310773c0b26398debbe0ee1f7":[6,0,0,9,4,1,0],
-"structMR_1_1FixMeshDegeneraciesParams.html":[6,0,0,9,4,0],
-"structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce":[6,0,0,9,4,0,5],
-"structMR_1_1FixMeshDegeneraciesParams.html#a0eff7987d6820ff165e578fac210c66e":[6,0,0,9,4,0,1],
-"structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec":[6,0,0,9,4,0,4],
-"structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140":[6,0,0,9,4,0,3]
+"structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c":[6,0,0,9,4,1,2]
 };
