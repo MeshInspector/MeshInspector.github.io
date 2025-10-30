@@ -1,5 +1,6 @@
 var MRUnitSettings_8h =
 [
+    [ "getActualModelLengthUnit", "MRUnitSettings_8h.html#a69150415ea6b6c4a566729d65841d8d3", null ],
     [ "getDegreesMode", "MRUnitSettings_8h.html#a18f2b660ede4fa66b9a12f1b358ae3b5", null ],
     [ "getModelLengthUnit", "MRUnitSettings_8h.html#aec4e088dc329cbd35e4ad8d65ff24d64", null ],
     [ "getShowLeadingZero", "MRUnitSettings_8h.html#aa107ba449e9a30d426079db1abc6f9e8", null ],

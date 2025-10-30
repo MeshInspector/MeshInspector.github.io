@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b":[6,0,0,3,4,0],
 "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea":[6,0,0,3,4,12],
 "classMR_1_1SetViewPresetMenuItem.html":[6,0,1,0,1,681],
 "classMR_1_1SetViewPresetMenuItem.html":[6,0,2,0,1,662],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1Src2TgtMaps.html#abeb0d23b26b0870de6d5b09538295e27":[6,0,1,0,1,714,3],
 "classMR_1_1Src2TgtMaps.html#abeb0d23b26b0870de6d5b09538295e27":[6,0,2,0,1,695,3],
 "classMR_1_1StateBasePlugin.html":[6,0,1,0,1,715],
-"classMR_1_1StateBasePlugin.html":[6,0,2,0,1,696],
-"classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457":[6,0,1,0,1,715,7]
+"classMR_1_1StateBasePlugin.html":[6,0,2,0,1,696]
 };

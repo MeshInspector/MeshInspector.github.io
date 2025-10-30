@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a43615b4c697c70edde4f7fc5fab75a2a":[6,0,1,0,1,37,0,3],
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a43615b4c697c70edde4f7fc5fab75a2a":[6,0,2,0,1,22,0,3],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[6,0,1,0,1,37,0,4],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[6,0,2,0,1,22,0,4],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[6,0,1,0,1,37,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,1,0,1,706,2],
 "structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,2,0,1,687,2],
 "structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,1,0,1,706,3],
-"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,2,0,1,687,3],
-"structMR_1_1SpacingSettings.html":[6,0,1,0,1,707],
-"structMR_1_1SpacingSettings.html":[6,0,2,0,1,688]
+"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,2,0,1,687,3]
 };

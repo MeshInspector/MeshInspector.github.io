@@ -148,6 +148,7 @@ var namespaceMR =
     [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", "namespaceMR_1_1TriangulationHelpers" ],
     [ "UI", "namespaceMR_1_1UI.html", "namespaceMR_1_1UI" ],
     [ "UnitSettings", "namespaceMR_1_1UnitSettings.html", [
+      [ "getActualModelLengthUnit", "namespaceMR_1_1UnitSettings.html#a69150415ea6b6c4a566729d65841d8d3", null ],
       [ "getDegreesMode", "namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5", null ],
       [ "getModelLengthUnit", "namespaceMR_1_1UnitSettings.html#aec4e088dc329cbd35e4ad8d65ff24d64", null ],
       [ "getShowLeadingZero", "namespaceMR_1_1UnitSettings.html#aa107ba449e9a30d426079db1abc6f9e8", null ],

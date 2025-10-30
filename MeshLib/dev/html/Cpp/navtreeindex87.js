@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a8b5c188731f0cecbac0ccc0fd4a6bfb7":[6,0,2,0,1,16,1,5],
+"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[6,0,1,0,1,27,2],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[6,0,2,0,1,16,2],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[6,0,1,0,1,27,2,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a2c09afe7b89e565c7c7549b9cbabf2f0":[6,0,2,0,1,16,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57":[6,0,0,14,0,27],
 "structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179":[6,0,0,14,0,24],
 "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609":[6,0,0,14,0,10],
-"structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b":[6,0,0,14,0,25],
-"structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d":[6,0,0,14,0,30],
-"structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a":[6,0,0,14,0,36]
+"structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b":[6,0,0,14,0,25]
 };

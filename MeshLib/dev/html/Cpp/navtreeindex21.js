@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,1,0,1,95],
 "classMR_1_1CaptureScreenshotMenuItem.html":[6,0,2,0,1,76],
 "classMR_1_1CaptureScreenshotMenuItem.html#a4a5e3c289d1d3b62a2a24aa4ff792400":[6,0,1,0,1,95,2],
 "classMR_1_1CaptureScreenshotMenuItem.html#a4a5e3c289d1d3b62a2a24aa4ff792400":[6,0,2,0,1,76,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1ChangePolylineAction.html#adafafb09d06cb25a970476fdb3169be0":[6,0,0,4,22,2],
 "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62":[6,0,0,4,22,0],
 "classMR_1_1ChangePolylinePointsAction.html":[6,0,0,4,23],
-"classMR_1_1ChangePolylinePointsAction.html#a304a69e07ee11c1bf44b60b2c38a8f12":[6,0,0,4,23,0],
-"classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1":[6,0,0,4,23,2]
+"classMR_1_1ChangePolylinePointsAction.html#a304a69e07ee11c1bf44b60b2c38a8f12":[6,0,0,4,23,0]
 };

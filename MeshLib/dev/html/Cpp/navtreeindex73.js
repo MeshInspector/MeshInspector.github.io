@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1CutByProjectionSettings.html#a789a41f7dc3d705c8ee83ea3c207ef9e":[6,0,2,0,1,156,1],
+"structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
 "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f":[6,0,0,8,3,4],
 "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf":[6,0,0,8,3,3],
 "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9":[6,0,0,8,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1DividePolylineParameters.html":[6,0,1,0,1,209],
 "structMR_1_1DividePolylineParameters.html":[6,0,2,0,1,190],
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,1,0,1,209,6],
-"structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,2,0,1,190,6],
-"structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,1,0,1,209,2],
-"structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[6,0,2,0,1,190,2]
+"structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,2,0,1,190,6]
 };
