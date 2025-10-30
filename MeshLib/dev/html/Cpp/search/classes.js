@@ -722,7 +722,7 @@ var searchData=
   ['uniquethreadsafeowner_5faabbtreepoints_41',['UniqueThreadSafeOwner_AABBTreePoints',['../../Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html',1,'mrmeshpy']]],
   ['unitecloseparams_42',['UniteCloseParams',['../structMR_1_1MeshBuilder_1_1UniteCloseParams.html',1,'MR::MeshBuilder::UniteCloseParams'],['../../Py/classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html',1,'mrmeshpy::MeshBuilder::UniteCloseParams']]],
   ['unitemanymeshesparams_43',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR::UniteManyMeshesParams'],['../../Py/classmrmeshpy_1_1UniteManyMeshesParams.html',1,'mrmeshpy::UniteManyMeshesParams']]],
-  ['unitinfo_44',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR']]],
+  ['unitinfo_44',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR::UnitInfo'],['../../Py/classmrmeshpy_1_1UnitInfo.html',1,'mrmeshpy::UnitInfo']]],
   ['unittostringparams_45',['UnitToStringParams',['../structMR_1_1UnitToStringParams.html',1,'MR']]],
   ['unorientedtriangle_46',['UnorientedTriangle',['../structMR_1_1UnorientedTriangle.html',1,'MR::UnorientedTriangle'],['../../Py/classmrmeshpy_1_1UnorientedTriangle.html',1,'mrmeshpy::UnorientedTriangle']]],
   ['unsigned_5fchar_5foutput_47',['unsigned_char_output',['../../Py/classmrmeshpy_1_1unsigned__char__output.html',1,'mrmeshpy']]],

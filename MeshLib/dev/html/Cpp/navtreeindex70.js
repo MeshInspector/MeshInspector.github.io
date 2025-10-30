@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMRResolveMeshDegenSettings.html#a40b2f63f667fbab16bbd7d3496b7f8af":[6,0,2,0,59,0],
+"structMRResolveMeshDegenSettings.html#a8ae976fcf6c01ae956769a1e25746315":[6,0,2,0,59,1],
 "structMRResolveMeshDegenSettings.html#a9b77421321a8654f8bc72f883429a070":[6,0,2,0,59,2],
 "structMRResolveMeshDegenSettings.html#aaca7eab20af75f05a9c80d319d272697":[6,0,2,0,59,3],
 "structMRResolveMeshDegenSettings.html#ac7f4eb8239025008cd8575b29ac69bce":[6,0,2,0,59,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[6,0,2,0,1,52,1],
 "structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,1,0,1,71,0],
 "structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,2,0,1,52,0],
-"structMR_1_1BaseRenderParams.html":[6,0,1,0,1,72],
-"structMR_1_1BaseRenderParams.html":[6,0,2,0,1,53],
-"structMR_1_1BaseRenderParams.html#a564bcf6e1925912d15fa1cb20a3b0a3c":[6,0,1,0,1,72,1]
+"structMR_1_1BaseRenderParams.html":[6,0,1,0,1,72]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb":[6,0,0,0,1,0,0],
+"classMR_1_1PointAccumulator.html#af42457c6f466fbc3a6b45fbae732a846":[6,0,0,0,1,0,13],
 "classMR_1_1PointMeasurementObject.html":[6,0,1,0,1,529],
 "classMR_1_1PointMeasurementObject.html":[6,0,2,0,1,510],
 "classMR_1_1PointMeasurementObject.html#a04651779fcd30d074c04198375b93a5c":[6,0,1,0,1,529,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1PythonExport.html":[6,0,1,0,1,575],
 "classMR_1_1PythonExport.html":[6,0,2,0,1,556],
 "classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,1,0,1,575,1],
-"classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,2,0,1,556,1],
-"classMR_1_1PythonExport.html#a1105f4987df7b1b8d9d469115a831880":[6,0,1,0,1,575,6],
-"classMR_1_1PythonExport.html#a1105f4987df7b1b8d9d469115a831880":[6,0,2,0,1,556,6]
+"classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,2,0,1,556,1]
 };

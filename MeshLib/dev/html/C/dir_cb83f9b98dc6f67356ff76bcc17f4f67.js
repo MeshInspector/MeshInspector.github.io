@@ -342,6 +342,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRUniqueTemporaryFolder.h", "MRUniqueTemporaryFolder_8h.html", "MRUniqueTemporaryFolder_8h" ],
     [ "MRUniqueThreadSafeOwner.h", "MRUniqueThreadSafeOwner_8h.html", "MRUniqueThreadSafeOwner_8h" ],
     [ "MRUniteManyMeshes.h", "MRUniteManyMeshes_8h.html", "MRUniteManyMeshes_8h" ],
+    [ "MRUnitInfo.h", "MRUnitInfo_8h.html", "MRUnitInfo_8h" ],
     [ "MRUnorientedTriangle.h", "MRUnorientedTriangle_8h.html", "MRUnorientedTriangle_8h" ],
     [ "MRVector.h", "MRVector_8h.html", "MRVector_8h" ],
     [ "MRVector2.h", "MRVector2_8h.html", "MRVector2_8h" ],

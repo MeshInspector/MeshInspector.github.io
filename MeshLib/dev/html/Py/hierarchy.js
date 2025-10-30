@@ -1324,6 +1324,7 @@ var hierarchy =
     [ "mrmeshpy.UniqueThreadSafeOwner_AABBTreePoints", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html", null ],
     [ "mrmeshpy.MeshBuilder.UniteCloseParams", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html", null ],
     [ "mrmeshpy.UniteManyMeshesParams", "classmrmeshpy_1_1UniteManyMeshesParams.html", null ],
+    [ "mrmeshpy.UnitInfo", "classmrmeshpy_1_1UnitInfo.html", null ],
     [ "mrmeshpy.UnorientedTriangle", "classmrmeshpy_1_1UnorientedTriangle.html", null ],
     [ "mrmeshpy.unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", null ],
     [ "mrmeshpy.UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", null ],

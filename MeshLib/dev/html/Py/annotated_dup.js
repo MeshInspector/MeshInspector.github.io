@@ -1093,6 +1093,7 @@ var annotated_dup =
       [ "UniqueThreadSafeOwner_AABBTree", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree" ],
       [ "UniqueThreadSafeOwner_AABBTreePoints", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints" ],
       [ "UniteManyMeshesParams", "classmrmeshpy_1_1UniteManyMeshesParams.html", "classmrmeshpy_1_1UniteManyMeshesParams" ],
+      [ "UnitInfo", "classmrmeshpy_1_1UnitInfo.html", "classmrmeshpy_1_1UnitInfo" ],
       [ "UnorientedTriangle", "classmrmeshpy_1_1UnorientedTriangle.html", "classmrmeshpy_1_1UnorientedTriangle" ],
       [ "unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", "classmrmeshpy_1_1unsigned__char__output" ],
       [ "UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", "classmrmeshpy_1_1UseAABBTree" ],

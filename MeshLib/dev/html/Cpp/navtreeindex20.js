@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1AngleMeasurementObject.html#aed272d8412b35e82e0df272f085f51c3":[6,0,2,0,1,46,16],
+"classMR_1_1AnyVisualizeMaskEnum.html":[6,0,0,11,2,3],
 "classMR_1_1AnyVisualizeMaskEnum.html#a8e693a1846e9d510a78d65efd9217d03":[6,0,0,11,2,3,0],
 "classMR_1_1AnyVisualizeMaskEnum.html#ad6bb8706f3ee4d236f7d26ca5e4432dd":[6,0,0,11,2,3,1],
 "classMR_1_1AsyncRequest.html":[6,0,1,0,1,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1CameraOrientation.html#a84a6d26e91901eef8efc27aa3a167aef":[6,0,2,0,1,75,2],
 "classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[6,0,1,0,1,94,1],
 "classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[6,0,2,0,1,75,1],
-"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,1,0,1,95],
-"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,2,0,1,76],
-"classMR_1_1CaptureScreenshotMenuItem.html#a4a5e3c289d1d3b62a2a24aa4ff792400":[6,0,1,0,1,95,2]
+"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,1,0,1,95]
 };

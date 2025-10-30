@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"MRWebResponseCallback_8h.html":[6,0,3,0,0,1,11,161],
+"MRWebResponseCallback_8h.html#aa81b46bc5e733f50fb93fe00f095b2f8":[6,0,3,0,0,1,11,161,0],
 "MRWebResponseCallback_8h_source.html":[6,0,3,0,0,1,11,161],
 "MRWeightedPointsShell_8h.html":[6,0,3,0,0,1,12,45],
 "MRWeightedPointsShell_8h.html#a01eafebe7cd6350d108fb538e558fb12":[6,0,3,0,0,1,12,45,14],
@@ -13,13 +15,13 @@ var NAVTREEINDEX19 =
 "MRWeightedPointsShell_8h.html#a90e26c11723ff31873a2d5046d4edc5a":[6,0,3,0,0,1,12,45,9],
 "MRWeightedPointsShell_8h.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,3,0,0,1,12,45,5],
 "MRWeightedPointsShell_8h_source.html":[6,0,3,0,0,1,12,45],
-"MRWriter_8h.html":[6,0,3,0,0,1,4,415],
-"MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060":[6,0,3,0,0,1,4,415,1],
-"MRWriter_8h_source.html":[6,0,3,0,0,1,4,415],
-"MRXfBasedCache_8h.html":[6,0,3,0,0,1,4,416],
-"MRXfBasedCache_8h_source.html":[6,0,3,0,0,1,4,416],
-"MRZip_8h.html":[6,0,3,0,0,1,4,417],
-"MRZip_8h_source.html":[6,0,3,0,0,1,4,417],
+"MRWriter_8h.html":[6,0,3,0,0,1,4,416],
+"MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060":[6,0,3,0,0,1,4,416,1],
+"MRWriter_8h_source.html":[6,0,3,0,0,1,4,416],
+"MRXfBasedCache_8h.html":[6,0,3,0,0,1,4,417],
+"MRXfBasedCache_8h_source.html":[6,0,3,0,0,1,4,417],
+"MRZip_8h.html":[6,0,3,0,0,1,4,418],
+"MRZip_8h_source.html":[6,0,3,0,0,1,4,418],
 "MRZlib_8h.html":[6,0,3,0,0,1,3,12],
 "MRZlib_8h.html#a3c93ff1b38318770dd195fbdbe3dc45c":[6,0,3,0,0,1,3,12,1],
 "MRZlib_8h.html#ade26a1cffee8e1e012f32d8d7bcc6637":[6,0,3,0,0,1,3,12,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[6,0,2,0,1,46,2],
 "classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,1,0,1,65,23],
 "classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20":[6,0,2,0,1,46,23],
-"classMR_1_1AngleMeasurementObject.html#aed272d8412b35e82e0df272f085f51c3":[6,0,1,0,1,65,16],
-"classMR_1_1AngleMeasurementObject.html#aed272d8412b35e82e0df272f085f51c3":[6,0,2,0,1,46,16],
-"classMR_1_1AnyVisualizeMaskEnum.html":[6,0,0,11,2,3]
+"classMR_1_1AngleMeasurementObject.html#aed272d8412b35e82e0df272f085f51c3":[6,0,1,0,1,65,16]
 };
