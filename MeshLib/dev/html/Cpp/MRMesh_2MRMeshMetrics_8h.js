@@ -17,5 +17,6 @@ var MRMesh_2MRMeshMetrics_8h =
     [ "getPlaneNormalizedFillMetric", "MRMesh_2MRMeshMetrics_8h.html#ga57ca3e797d9308a5db4461b06d773c01", null ],
     [ "getUniversalMetric", "MRMesh_2MRMeshMetrics_8h.html#ga16a9d70b647d9b9f745ab650b21a975e", null ],
     [ "getVerticalStitchMetric", "MRMesh_2MRMeshMetrics_8h.html#gaf5fc59fe1db6fed34f037ff6dad6bc44", null ],
+    [ "getVerticalStitchMetricEdgeBased", "MRMesh_2MRMeshMetrics_8h.html#gafdcdacfd248aae959e082574edb6dcb3", null ],
     [ "BadTriangulationMetric", "MRMesh_2MRMeshMetrics_8h.html#gac632bf42924389cba000b725ef53d7bc", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"MRNoDefInit_8h.html#a506ff988530a87a3f97280b96bb3a5be":[6,2,1,0,0,0,1,206,77],
 "MRNoDefInit_8h.html#a513791d4284f7056a9a69987b2623bc5":[6,2,1,0,0,0,1,206,115],
 "MRNoDefInit_8h.html#a589651323f166de500a5d8b101aadc91":[6,2,1,0,0,0,1,206,103],
 "MRNoDefInit_8h.html#a59d6da85ccf9375b3c66e482923ada19":[6,2,1,0,0,0,1,206,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "MRObjectComparableWithReference_8h.html#abc48b2d9f27e35e3957c748d25f10285":[6,2,1,0,0,0,1,210,42],
 "MRObjectComparableWithReference_8h.html#abd00c653356700f9d988f5122eeb6800":[6,2,1,0,0,0,1,210,72],
 "MRObjectComparableWithReference_8h.html#aca1a19623a8bbfd7f8dd94ea9bd68d17":[6,2,1,0,0,0,1,210,21],
-"MRObjectComparableWithReference_8h.html#acab5f583fb39fa332ea6d2cc90cfd10d":[6,2,1,0,0,0,1,210,25],
-"MRObjectComparableWithReference_8h.html#ad28694d5b22342a94e7bf263c5ae7bef":[6,2,1,0,0,0,1,210,81]
+"MRObjectComparableWithReference_8h.html#acab5f583fb39fa332ea6d2cc90cfd10d":[6,2,1,0,0,0,1,210,25]
 };

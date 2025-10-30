@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"MRPolylineTrimWithPlane_8h.html#aa7548d3448b3b7da1ea96433fe902e9a":[6,2,1,0,0,0,1,272,3],
 "MRPolylineTrimWithPlane_8h.html#aa8a7efbb0e61141bc6d435e0d9ccb4bb":[6,2,1,0,0,0,1,272,21],
 "MRPolylineTrimWithPlane_8h.html#abd843340f3f6d58f980567108f31ad9e":[6,2,1,0,0,0,1,272,16],
 "MRPolylineTrimWithPlane_8h.html#ac7d52d2291e16a56277a8e98cbd23018":[6,2,1,0,0,0,1,272,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "MRPositionedText_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,1,273,1],
 "MRPositionedText_8h.html#a8b1c28ce682fd16aa5b1fa02d99d5927":[6,2,1,0,0,0,1,273,4],
 "MRPositionedText_8h.html#a8b50062c206549ffc65893b91e962ebb":[6,2,1,0,0,0,1,273,11],
-"MRPositionedText_8h.html#a8fccfc2b61495ee3c85f0ca8c63c50d4":[6,2,1,0,0,0,1,273,8],
-"MRPositionedText_8h.html#a925fb33e4ae59890bdbaf8f1ea3a8775":[6,2,1,0,0,0,1,273,0]
+"MRPositionedText_8h.html#a8fccfc2b61495ee3c85f0ca8c63c50d4":[6,2,1,0,0,0,1,273,8]
 };

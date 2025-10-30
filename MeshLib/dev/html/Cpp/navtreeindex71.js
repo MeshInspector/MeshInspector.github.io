@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,1,0,1,71,0],
 "structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,2,0,1,52,0],
 "structMR_1_1BaseRenderParams.html":[6,0,1,0,1,72],
 "structMR_1_1BaseRenderParams.html":[6,0,2,0,1,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ChunkIterator.html#a90190d9b325f64a0253ca83d44cb6361":[6,0,2,0,1,124,6],
 "structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,1,0,1,143,1],
 "structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,2,0,1,124,1],
-"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,1,0,1,143,11],
-"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,2,0,1,124,11]
+"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,1,0,1,143,11]
 };

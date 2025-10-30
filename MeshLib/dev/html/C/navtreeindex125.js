@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"std__function__float__from__int__int_8h.html#a23d47000b526a287d4d41ce4740493f6":[6,2,1,0,0,0,2,128,1],
 "std__function__float__from__int__int_8h.html#a2b194a3115560d5ba2574c03d60fb4cb":[6,2,1,0,0,0,2,128,8],
 "std__function__float__from__int__int_8h.html#a2b48e79981873114863899e4a6a86fe1":[6,2,1,0,0,0,2,128,6],
 "std__function__float__from__int__int_8h.html#a3785b16fe8e4def6479fbddbbb791a00":[6,2,1,0,0,0,2,128,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "std__function__void__from__MR__SceneLoad__SceneLoadResult_8h.html#aed359156e8a69cc46ba776bb8f8077c8":[6,2,1,0,0,0,2,174,4],
 "std__function__void__from__MR__SceneLoad__SceneLoadResult_8h.html#af2ef69bc9b6d6273709936916547c778":[6,2,1,0,0,0,2,174,11],
 "std__function__void__from__MR__SceneLoad__SceneLoadResult_8h.html#af3fc50912d033312655704fad53cb471":[6,2,1,0,0,0,2,174,9],
-"std__function__void__from__MR__SceneLoad__SceneLoadResult_8h_source.html":[6,2,1,0,0,0,2,174],
-"std__function__void__from__MR__SignDetectionMode_8h.html":[6,2,1,0,0,0,2,175]
+"std__function__void__from__MR__SceneLoad__SceneLoadResult_8h_source.html":[6,2,1,0,0,0,2,174]
 };

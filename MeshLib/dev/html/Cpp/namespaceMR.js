@@ -2489,6 +2489,7 @@ var namespaceMR =
     [ "getVertexOrdering", "namespaceMR.html#aaf96c4ae6f54b13630e2800975f7b4c7", null ],
     [ "getVertexOrdering", "group__SurfacePathGroup.html#ga6fdee8dc184f919e5ad6ef399faf48ba", null ],
     [ "getVerticalStitchMetric", "group__FillHoleGroup.html#gaf5fc59fe1db6fed34f037ff6dad6bc44", null ],
+    [ "getVerticalStitchMetricEdgeBased", "group__FillHoleGroup.html#gafdcdacfd248aae959e082574edb6dcb3", null ],
     [ "getViewerInstance", "namespaceMR.html#a3e7c908172571071d6796d054d25a4f4", null ],
     [ "getVolumeFragmentShader", "namespaceMR.html#a5a4a33e29777a43598f7c8536ddd3b5f", null ],
     [ "getVolumePickerFragmentShader", "namespaceMR.html#af2d7af993188c7b28f07b6273c7fa6ec", null ],

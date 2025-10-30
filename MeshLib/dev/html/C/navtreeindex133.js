@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a78e276f611c402a6ba2daf7136bc04b1":[6,2,1,0,0,0,2,277,15],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a7ec1e6e3b3fca90ba525c25544e6d9c4":[6,2,1,0,0,0,2,277,13],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a81a037fd1fb6c81dbf3de3bd3a710d0e":[6,2,1,0,0,0,2,277,36],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a9061e5610c52ef1d08dac2a12df9ada2":[6,2,1,0,0,0,2,277,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#ad974c78cf23c9caeca1ffc0c88424ff6":[6,2,1,0,0,0,2,283,25],
 "std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#adbb2c5e5dc24f939b3df68241c75429e":[6,2,1,0,0,0,2,283,7],
 "std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#af7dd0e289f0fedcf63212e7016a8df35":[6,2,1,0,0,0,2,283,8],
-"std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#afdb0891bef89c58b1c30363e865e6eb5":[6,2,1,0,0,0,2,283,15],
-"std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_source.html":[6,2,1,0,0,0,2,283]
+"std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#afdb0891bef89c58b1c30363e865e6eb5":[6,2,1,0,0,0,2,283,15]
 };

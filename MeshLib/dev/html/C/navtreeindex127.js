@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"std__optional__MR__DentalId_8h.html":[6,2,1,0,0,0,2,188],
 "std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[6,2,1,0,0,0,2,188,6],
 "std__optional__MR__DentalId_8h.html#a2ef1f290c904a8e51dafa9b52c43bcf2":[6,2,1,0,0,0,2,188,9],
 "std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[6,2,1,0,0,0,2,188,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "std__optional__MR__Triangulation_8h.html":[6,2,1,0,0,0,2,203],
 "std__optional__MR__Triangulation_8h.html#a0d34b05b5087633fccd0bd910a2b5118":[6,2,1,0,0,0,2,203,6],
 "std__optional__MR__Triangulation_8h.html#a1313d62bdb31a82b425e4279e2fd4b4e":[6,2,1,0,0,0,2,203,2],
-"std__optional__MR__Triangulation_8h.html#a157344ea67f7bf89d1072211e18791fe":[6,2,1,0,0,0,2,203,12],
-"std__optional__MR__Triangulation_8h.html#a2bac0d5ba2d3a9f02c305f5ce9203c42":[6,2,1,0,0,0,2,203,11]
+"std__optional__MR__Triangulation_8h.html#a157344ea67f7bf89d1072211e18791fe":[6,2,1,0,0,0,2,203,12]
 };

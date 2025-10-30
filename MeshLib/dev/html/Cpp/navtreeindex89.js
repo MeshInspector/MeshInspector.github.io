@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html#ad627febe7e37f3fde1d2de58f8256a99":[6,0,2,0,1,555,0,0],
 "structMR_1_1PythonExport_1_1ModuleData.html":[6,0,1,0,1,575,0],
 "structMR_1_1PythonExport_1_1ModuleData.html":[6,0,2,0,1,556,0],
 "structMR_1_1PythonExport_1_1ModuleData.html#a0fe7a81962a7cace96c7ec89855e1064":[6,0,1,0,1,575,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,1,21,0,1],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,1,36,0,1,0],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,1,21,0,1,0],
-"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,613],
-"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,594]
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,613]
 };
