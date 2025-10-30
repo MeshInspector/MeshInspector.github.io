@@ -1141,6 +1141,7 @@ var hierarchy =
       [ "MR::RenderWrapObject::Wrapper< ObjectType, RenderObjectType >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
     ] ],
     [ "MR::ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", null ],
+    [ "MR::SceneLoad::Result", "structMR_1_1SceneLoad_1_1Result.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
     [ "MR::RibbonConfig", "structMR_1_1RibbonConfig.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
@@ -1171,7 +1172,6 @@ var hierarchy =
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
     [ "MR::SceneCache", "classMR_1_1SceneCache.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
-    [ "MR::SceneLoad::SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", null ],
     [ "MR::SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", [
       [ "MR::RibbonSceneObjectsListDrawer", "classMR_1_1RibbonSceneObjectsListDrawer.html", null ]
     ] ],
@@ -1195,6 +1195,7 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],
+    [ "MR::SceneLoad::Settings", "structMR_1_1SceneLoad_1_1Settings.html", null ],
     [ "MR::SelfIntersections::Settings", "structMR_1_1SelfIntersections_1_1Settings.html", null ],
     [ "MR::SurfaceManipulationWidget::Settings", "structMR_1_1SurfaceManipulationWidget_1_1Settings.html", null ],
     [ "MR::TriangulationHelpers::Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", null ],

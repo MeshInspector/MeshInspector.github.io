@@ -194,7 +194,8 @@ var annotated_dup =
         [ "Wrapper", "classMR_1_1RenderWrapObject_1_1Wrapper.html", "classMR_1_1RenderWrapObject_1_1Wrapper" ]
       ] ],
       [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", [
-        [ "SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", "structMR_1_1SceneLoad_1_1SceneLoadResult" ]
+        [ "Result", "structMR_1_1SceneLoad_1_1Result.html", "structMR_1_1SceneLoad_1_1Result" ],
+        [ "Settings", "structMR_1_1SceneLoad_1_1Settings.html", "structMR_1_1SceneLoad_1_1Settings" ]
       ] ],
       [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", [
         [ "Settings", "structMR_1_1SelfIntersections_1_1Settings.html", "structMR_1_1SelfIntersections_1_1Settings" ]

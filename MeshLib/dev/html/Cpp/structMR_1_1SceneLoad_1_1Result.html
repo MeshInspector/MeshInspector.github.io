@@ -26,7 +26,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MR::SceneLoad::SceneLoadResult Struct Reference</title>
+<title>MeshLib C++ Docs: MR::SceneLoad::Result Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -119,7 +119,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('structMR_1_1SceneLoad_1_1SceneLoadResult.html',''); initResizable(true); });
+$(function(){initNavTree('structMR_1_1SceneLoad_1_1Result.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -147,8 +147,8 @@ $(function(){initNavTree('structMR_1_1SceneLoad_1_1SceneLoadResult.html',''); in
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structMR_1_1SceneLoad_1_1SceneLoadResult-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::SceneLoad::SceneLoadResult Struct Reference</div></div>
+<a href="structMR_1_1SceneLoad_1_1Result-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::SceneLoad::Result Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -159,33 +159,33 @@ $(function(){initNavTree('structMR_1_1SceneLoad_1_1SceneLoadResult.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a43615b4c697c70edde4f7fc5fab75a2a" id="r_a43615b4c697c70edde4f7fc5fab75a2a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43615b4c697c70edde4f7fc5fab75a2a">scene</a></td></tr>
-<tr class="memdesc:a43615b4c697c70edde4f7fc5fab75a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The loaded scene or empty object.  <br /></td></tr>
-<tr class="separator:a43615b4c697c70edde4f7fc5fab75a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab12a398d94cb272576b5f833d981fe" id="r_a8ab12a398d94cb272576b5f833d981fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab12a398d94cb272576b5f833d981fe">isSceneConstructed</a> = false</td></tr>
-<tr class="memdesc:a8ab12a398d94cb272576b5f833d981fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks whether the scene was loaded from a single file (false) or was built from scratch (true)  <br /></td></tr>
-<tr class="separator:a8ab12a398d94cb272576b5f833d981fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97f073147fdb14c17f60c03a0dd66c2f" id="r_a97f073147fdb14c17f60c03a0dd66c2f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97f073147fdb14c17f60c03a0dd66c2f">loadedFiles</a></td></tr>
-<tr class="memdesc:a97f073147fdb14c17f60c03a0dd66c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of successfully loaded files.  <br /></td></tr>
-<tr class="separator:a97f073147fdb14c17f60c03a0dd66c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153339b0418a9f66dcd46058e4f30dc8" id="r_a153339b0418a9f66dcd46058e4f30dc8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a153339b0418a9f66dcd46058e4f30dc8">errorSummary</a></td></tr>
-<tr class="memdesc:a153339b0418a9f66dcd46058e4f30dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error summary text.  <br /></td></tr>
-<tr class="separator:a153339b0418a9f66dcd46058e4f30dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c844d4db5149403cd2595555c42df49" id="r_a4c844d4db5149403cd2595555c42df49"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c844d4db5149403cd2595555c42df49">warningSummary</a></td></tr>
-<tr class="memdesc:a4c844d4db5149403cd2595555c42df49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning summary text.  <br /></td></tr>
-<tr class="separator:a4c844d4db5149403cd2595555c42df49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5ebe12ef215f5866a7b1e6e8d59818" id="r_aae5ebe12ef215f5866a7b1e6e8d59818"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5ebe12ef215f5866a7b1e6e8d59818">scene</a></td></tr>
+<tr class="memdesc:aae5ebe12ef215f5866a7b1e6e8d59818"><td class="mdescLeft">&#160;</td><td class="mdescRight">The loaded scene or empty object.  <br /></td></tr>
+<tr class="separator:aae5ebe12ef215f5866a7b1e6e8d59818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcfb794202c73cf1889f44eaed89d0d" id="r_a0dcfb794202c73cf1889f44eaed89d0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dcfb794202c73cf1889f44eaed89d0d">isSceneConstructed</a> = false</td></tr>
+<tr class="memdesc:a0dcfb794202c73cf1889f44eaed89d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks whether the scene was loaded from a single file (false) or was built from scratch (true)  <br /></td></tr>
+<tr class="separator:a0dcfb794202c73cf1889f44eaed89d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57fd04706f9c25567280def68b08031c" id="r_a57fd04706f9c25567280def68b08031c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fd04706f9c25567280def68b08031c">loadedFiles</a></td></tr>
+<tr class="memdesc:a57fd04706f9c25567280def68b08031c"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of successfully loaded files.  <br /></td></tr>
+<tr class="separator:a57fd04706f9c25567280def68b08031c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409add35c10dc29848facd011e0eadd4" id="r_a409add35c10dc29848facd011e0eadd4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a409add35c10dc29848facd011e0eadd4">errorSummary</a></td></tr>
+<tr class="memdesc:a409add35c10dc29848facd011e0eadd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error summary text.  <br /></td></tr>
+<tr class="separator:a409add35c10dc29848facd011e0eadd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7891207519da19a19494389126e28db" id="r_aa7891207519da19a19494389126e28db"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7891207519da19a19494389126e28db">warningSummary</a></td></tr>
+<tr class="memdesc:aa7891207519da19a19494389126e28db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning summary text.  <br /></td></tr>
+<tr class="separator:aa7891207519da19a19494389126e28db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Scene loading result. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a153339b0418a9f66dcd46058e4f30dc8" name="a153339b0418a9f66dcd46058e4f30dc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a153339b0418a9f66dcd46058e4f30dc8">&#9670;&#160;</a></span>errorSummary</h2>
+<a id="a409add35c10dc29848facd011e0eadd4" name="a409add35c10dc29848facd011e0eadd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409add35c10dc29848facd011e0eadd4">&#9670;&#160;</a></span>errorSummary</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MR::SceneLoad::SceneLoadResult::errorSummary</td>
+          <td class="memname">std::string MR::SceneLoad::Result::errorSummary</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -194,14 +194,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ab12a398d94cb272576b5f833d981fe" name="a8ab12a398d94cb272576b5f833d981fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab12a398d94cb272576b5f833d981fe">&#9670;&#160;</a></span>isSceneConstructed</h2>
+<a id="a0dcfb794202c73cf1889f44eaed89d0d" name="a0dcfb794202c73cf1889f44eaed89d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dcfb794202c73cf1889f44eaed89d0d">&#9670;&#160;</a></span>isSceneConstructed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::SceneLoad::SceneLoadResult::isSceneConstructed = false</td>
+          <td class="memname">bool MR::SceneLoad::Result::isSceneConstructed = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -210,14 +210,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a97f073147fdb14c17f60c03a0dd66c2f" name="a97f073147fdb14c17f60c03a0dd66c2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97f073147fdb14c17f60c03a0dd66c2f">&#9670;&#160;</a></span>loadedFiles</h2>
+<a id="a57fd04706f9c25567280def68b08031c" name="a57fd04706f9c25567280def68b08031c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57fd04706f9c25567280def68b08031c">&#9670;&#160;</a></span>loadedFiles</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::filesystem::path&gt; MR::SceneLoad::SceneLoadResult::loadedFiles</td>
+          <td class="memname">std::vector&lt;std::filesystem::path&gt; MR::SceneLoad::Result::loadedFiles</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -226,14 +226,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a43615b4c697c70edde4f7fc5fab75a2a" name="a43615b4c697c70edde4f7fc5fab75a2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43615b4c697c70edde4f7fc5fab75a2a">&#9670;&#160;</a></span>scene</h2>
+<a id="aae5ebe12ef215f5866a7b1e6e8d59818" name="aae5ebe12ef215f5866a7b1e6e8d59818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5ebe12ef215f5866a7b1e6e8d59818">&#9670;&#160;</a></span>scene</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a>&gt; MR::SceneLoad::SceneLoadResult::scene</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a>&gt; MR::SceneLoad::Result::scene</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -242,14 +242,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c844d4db5149403cd2595555c42df49" name="a4c844d4db5149403cd2595555c42df49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c844d4db5149403cd2595555c42df49">&#9670;&#160;</a></span>warningSummary</h2>
+<a id="aa7891207519da19a19494389126e28db" name="aa7891207519da19a19494389126e28db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7891207519da19a19494389126e28db">&#9670;&#160;</a></span>warningSummary</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MR::SceneLoad::SceneLoadResult::warningSummary</td>
+          <td class="memname">std::string MR::SceneLoad::Result::warningSummary</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -267,7 +267,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1SceneLoad.html">SceneLoad</a></li><li class="navelem"><a class="el" href="structMR_1_1SceneLoad_1_1SceneLoadResult.html">SceneLoadResult</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1SceneLoad.html">SceneLoad</a></li><li class="navelem"><a class="el" href="structMR_1_1SceneLoad_1_1Result.html">Result</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

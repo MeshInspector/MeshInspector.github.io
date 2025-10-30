@@ -354,7 +354,7 @@ var namespacemrmeshpy =
     [ "func_void_from_Mesh_float_float", "classmrmeshpy_1_1func__void__from__Mesh__float__float.html", "classmrmeshpy_1_1func__void__from__Mesh__float__float" ],
     [ "func_void_from_Mesh_PartMapping", "classmrmeshpy_1_1func__void__from__Mesh__PartMapping.html", "classmrmeshpy_1_1func__void__from__Mesh__PartMapping" ],
     [ "func_void_from_Pdf", "classmrmeshpy_1_1func__void__from__Pdf.html", "classmrmeshpy_1_1func__void__from__Pdf" ],
-    [ "func_void_from_SceneLoad_SceneLoadResult", "classmrmeshpy_1_1func__void__from__SceneLoad__SceneLoadResult.html", "classmrmeshpy_1_1func__void__from__SceneLoad__SceneLoadResult" ],
+    [ "func_void_from_SceneLoad_Result", "classmrmeshpy_1_1func__void__from__SceneLoad__Result.html", "classmrmeshpy_1_1func__void__from__SceneLoad__Result" ],
     [ "func_void_from_SignDetectionMode", "classmrmeshpy_1_1func__void__from__SignDetectionMode.html", "classmrmeshpy_1_1func__void__from__SignDetectionMode" ],
     [ "func_void_from_std_filesystem_path", "classmrmeshpy_1_1func__void__from__std__filesystem__path.html", "classmrmeshpy_1_1func__void__from__std__filesystem__path" ],
     [ "func_void_from_std_variant_float_Vector3_float_FeatureObject_ViewportId", "classmrmeshpy_1_1func__void__from__std__variant__float__Vector3__float__FeatureObject__ViewportId.html", "classmrmeshpy_1_1func__void__from__std__variant__float__Vector3__float__FeatureObject__ViewportId" ],

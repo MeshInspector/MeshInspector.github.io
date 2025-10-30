@@ -154,13 +154,17 @@ $(function(){initNavTree('MRSceneLoad_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRObject_8h_source.html">MRObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRUnitInfo_8h_source.html">MRUnitInfo.h</a>&quot;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRSceneLoad_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scene loading result.  <a href="structMR_1_1SceneLoad_1_1SceneLoadResult.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scene loading result.  <a href="structMR_1_1SceneLoad_1_1Result.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -172,16 +176,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ab13020e377967aca04518368ed70a509" id="r_ab13020e377967aca04518368ed70a509"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneLoad.html#ab13020e377967aca04518368ed70a509">MR::SceneLoad::PostLoadCallback</a> = std::function&lt;void ( <a class="el" href="structMR_1_1SceneLoad_1_1SceneLoadResult.html">SceneLoadResult</a> )&gt;</td></tr>
-<tr class="separator:ab13020e377967aca04518368ed70a509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9301168bfb0258833ac6729cfb138a9" id="r_ad9301168bfb0258833ac6729cfb138a9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9">MR::SceneLoad::PostLoadCallback</a> = std::function&lt;void ( <a class="el" href="structMR_1_1SceneLoad_1_1Result.html">Result</a> )&gt;</td></tr>
+<tr class="separator:ad9301168bfb0258833ac6729cfb138a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a089505a3e07c34d60c30955259757d11" id="r_a089505a3e07c34d60c30955259757d11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1SceneLoad_1_1SceneLoadResult.html">SceneLoadResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneLoad.html#a089505a3e07c34d60c30955259757d11">MR::SceneLoad::fromAnySupportedFormat</a> (const std::vector&lt; std::filesystem::path &gt; &amp;files, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:a089505a3e07c34d60c30955259757d11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene from file.  <br /></td></tr>
-<tr class="separator:a089505a3e07c34d60c30955259757d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70619566d4d89dbf29aaa2a7a3b4833e" id="r_a70619566d4d89dbf29aaa2a7a3b4833e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneLoad.html#a70619566d4d89dbf29aaa2a7a3b4833e">MR::SceneLoad::asyncFromAnySupportedFormat</a> (const std::vector&lt; std::filesystem::path &gt; &amp;files, <a class="el" href="namespaceMR_1_1SceneLoad.html#ab13020e377967aca04518368ed70a509">PostLoadCallback</a> postLoadCallback, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
-<tr class="separator:a70619566d4d89dbf29aaa2a7a3b4833e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac487a300831be5cc92806c51ce12f922" id="r_ac487a300831be5cc92806c51ce12f922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1SceneLoad_1_1Result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneLoad.html#ac487a300831be5cc92806c51ce12f922">MR::SceneLoad::fromAnySupportedFormat</a> (const std::vector&lt; std::filesystem::path &gt; &amp;files, const <a class="el" href="structMR_1_1SceneLoad_1_1Settings.html">Settings</a> &amp;settings={})</td></tr>
+<tr class="separator:ac487a300831be5cc92806c51ce12f922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9736b6c4eba76b43a108d16f183036" id="r_adf9736b6c4eba76b43a108d16f183036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SceneLoad.html#adf9736b6c4eba76b43a108d16f183036">MR::SceneLoad::asyncFromAnySupportedFormat</a> (const std::vector&lt; std::filesystem::path &gt; &amp;files, const <a class="el" href="namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9">PostLoadCallback</a> &amp;postLoadCallback, const <a class="el" href="structMR_1_1SceneLoad_1_1Settings.html">Settings</a> &amp;settings={})</td></tr>
+<tr class="separator:adf9736b6c4eba76b43a108d16f183036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

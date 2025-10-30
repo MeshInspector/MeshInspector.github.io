@@ -174,7 +174,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_function_void_from_MR_Mesh_ref_float_float.h", "std__function__void__from__MR__Mesh__ref__float__float_8h.html", "std__function__void__from__MR__Mesh__ref__float__float_8h" ],
     [ "std_function_void_from_MR_ObjId_MR_MeshOrPoints_ProjectionResult.h", "std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html", "std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h" ],
     [ "std_function_void_from_MR_Pdf_ref.h", "std__function__void__from__MR__Pdf__ref_8h.html", "std__function__void__from__MR__Pdf__ref_8h" ],
-    [ "std_function_void_from_MR_SceneLoad_SceneLoadResult.h", "std__function__void__from__MR__SceneLoad__SceneLoadResult_8h.html", "std__function__void__from__MR__SceneLoad__SceneLoadResult_8h" ],
+    [ "std_function_void_from_MR_SceneLoad_Result.h", "std__function__void__from__MR__SceneLoad__Result_8h.html", "std__function__void__from__MR__SceneLoad__Result_8h" ],
     [ "std_function_void_from_MR_SignDetectionMode.h", "std__function__void__from__MR__SignDetectionMode_8h.html", "std__function__void__from__MR__SignDetectionMode_8h" ],
     [ "std_function_void_from_MR_UndirectedEdgeId_const_MR_Vector2f_ref_float.h", "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html", "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h" ],
     [ "std_function_void_from_MR_UndirectedEdgeId_const_MR_Vector3f_ref_float.h", "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html", "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h" ],
