@@ -150,7 +150,6 @@ $(function(){initNavTree('MRMesh_2MRMeshFwd_8h.html',''); initResizable(true); }
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MRMeshFwd.h File Reference</div></div>
@@ -178,6 +177,8 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectSave.html">MR::ObjectSave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html">MR::MeshBuilder</a></td></tr>
 <tr class="memdesc:namespaceMR_1_1MeshBuilder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building topologies by triangles. <br /></td></tr>
@@ -376,24 +377,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0cc9f139078c5c5597f9bb7465fd7fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga51ff94746a41880cd06d3272b5bcf710" id="r_ga51ff94746a41880cd06d3272b5bcf710"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(float)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></td></tr>
 <tr class="separator:ga51ff94746a41880cd06d3272b5bcf710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a6b6dd7eadc1056fc5ffd8af1810d925a" id="r_a6b6dd7eadc1056fc5ffd8af1810d925a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">MR::FilterType</a> : char { <a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b">MR::Linear</a>
-, <a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553">MR::Discrete</a>
- }</td></tr>
-<tr class="separator:a6b6dd7eadc1056fc5ffd8af1810d925a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e519d6a7c053c5d86dac33ecd0fa00c" id="r_a0e519d6a7c053c5d86dac33ecd0fa00c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c">MR::WrapType</a> : char { <a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8">MR::Repeat</a>
-, <a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e">MR::Mirror</a>
-, <a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c">MR::Clamp</a>
- }</td></tr>
-<tr class="separator:a0e519d6a7c053c5d86dac33ecd0fa00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afedf1467ef6a61af5a59eafa50a41bf9" id="r_afedf1467ef6a61af5a59eafa50a41bf9"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">MR::Reorder</a> : char { <a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754">MR::None</a>
-, <a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954">MR::Lexicographically</a>
-, <a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8">MR::AABBTree</a>
- }</td></tr>
-<tr class="memdesc:afedf1467ef6a61af5a59eafa50a41bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how points to be ordered  <a href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">More...</a><br /></td></tr>
-<tr class="separator:afedf1467ef6a61af5a59eafa50a41bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>

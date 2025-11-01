@@ -609,7 +609,7 @@ var annotated_dup =
       [ "ObjectMeshHolder", "classmrmeshpy_1_1ObjectMeshHolder.html", "classmrmeshpy_1_1ObjectMeshHolder" ],
       [ "ObjectPoints", "classmrmeshpy_1_1ObjectPoints.html", "classmrmeshpy_1_1ObjectPoints" ],
       [ "ObjectPointsHolder", "classmrmeshpy_1_1ObjectPointsHolder.html", "classmrmeshpy_1_1ObjectPointsHolder" ],
-      [ "ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
+      [ "ObjectSave", "classmrmeshpy_1_1ObjectSave.html", "classmrmeshpy_1_1ObjectSave" ],
       [ "ObjectSelectivityType", "classmrmeshpy_1_1ObjectSelectivityType.html", "classmrmeshpy_1_1ObjectSelectivityType" ],
       [ "ObjectTagEventDispatcher", "classmrmeshpy_1_1ObjectTagEventDispatcher.html", "classmrmeshpy_1_1ObjectTagEventDispatcher" ],
       [ "ObjectVoxels", "classmrmeshpy_1_1ObjectVoxels.html", "classmrmeshpy_1_1ObjectVoxels" ],

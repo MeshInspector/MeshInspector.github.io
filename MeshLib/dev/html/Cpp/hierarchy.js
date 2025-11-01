@@ -1195,6 +1195,7 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],
+    [ "MR::ObjectSave::Settings", "structMR_1_1ObjectSave_1_1Settings.html", null ],
     [ "MR::SceneLoad::Settings", "structMR_1_1SceneLoad_1_1Settings.html", null ],
     [ "MR::SelfIntersections::Settings", "structMR_1_1SelfIntersections_1_1Settings.html", null ],
     [ "MR::SurfaceManipulationWidget::Settings", "structMR_1_1SurfaceManipulationWidget_1_1Settings.html", null ],

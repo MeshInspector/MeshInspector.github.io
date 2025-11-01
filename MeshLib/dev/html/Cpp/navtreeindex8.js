@@ -1,5 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshC_2MRVector3_8h.html#a249854d0f317c4bfbb5b3976bcd8d0b7":[6,0,3,0,0,1,5,73,5],
+"MRMeshC_2MRVector3_8h.html#a3cf5577489291901c3a7d24108dfbfc3":[6,0,3,0,0,1,5,73,17],
+"MRMeshC_2MRVector3_8h.html#a439a3eecd4c074ac5dc6ce82d4453fd8":[6,0,3,0,0,1,5,73,13],
+"MRMeshC_2MRVector3_8h.html#a5df99a2abe5f7650f1557c2f07bbb79f":[6,0,3,0,0,1,5,73,8],
+"MRMeshC_2MRVector3_8h.html#a736de1cb45838c50f6aace44a231c88d":[6,0,3,0,0,1,5,73,7],
+"MRMeshC_2MRVector3_8h.html#a7b48c0138214953e3422885c1c8afb90":[6,0,3,0,0,1,5,73,12],
+"MRMeshC_2MRVector3_8h.html#a7d63e588765e2f6f0dbb0875f7dde7f7":[6,0,3,0,0,1,5,73,10],
+"MRMeshC_2MRVector3_8h.html#a8bd1a32aaf612dc67e5b5fdd1f899683":[6,0,3,0,0,1,5,73,15],
+"MRMeshC_2MRVector3_8h.html#aa53d4077981fe6fc0d68ba59a927e076":[6,0,3,0,0,1,5,73,14],
+"MRMeshC_2MRVector3_8h.html#aaafd4b7ca13bba9c5e7dd3486ea059e6":[6,0,3,0,0,1,5,73,11],
+"MRMeshC_2MRVector3_8h.html#abba9fcee4e7b1202eb35fc2e2fb2144f":[6,0,3,0,0,1,5,73,9],
 "MRMeshC_2MRVector3_8h.html#ac68580b5805320c5e5bcb4f5df38aad1":[6,0,3,0,0,1,5,73,2],
 "MRMeshC_2MRVector3_8h.html#ad180dcf04db8bfb6d619ea0293e6c4ee":[6,0,3,0,0,1,5,73,3],
 "MRMeshC_2MRVector3_8h.html#aeea66131b97fcad9feb47493bc8a80a5":[6,0,3,0,0,1,5,73,16],
@@ -238,16 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRExpandShrink_8h.html":[6,0,3,0,0,1,4,101],
 "MRMesh_2MRExpandShrink_8h.html#a2193258ddab048b2b194a3ccb5a9f450":[6,0,3,0,0,1,4,101,6],
 "MRMesh_2MRExpandShrink_8h.html#a2d87795b56c83f35a83349cc59d42982":[6,0,3,0,0,1,4,101,1],
-"MRMesh_2MRExpandShrink_8h.html#a89f76419473d96d06c32d80ddb69147c":[6,0,3,0,0,1,4,101,4],
-"MRMesh_2MRExpandShrink_8h.html#a9e6ed568f45f7d64f6bda4895ecc3fad":[6,0,3,0,0,1,4,101,3],
-"MRMesh_2MRExpandShrink_8h.html#aa946ebaaa62a242f328d53fab37011d0":[6,0,3,0,0,1,4,101,7],
-"MRMesh_2MRExpandShrink_8h.html#ab4490c42061cf2506fdb325f9d281f68":[6,0,3,0,0,1,4,101,0],
-"MRMesh_2MRExpandShrink_8h.html#ad2e283ffde3e68d5a41e0a832bb41060":[6,0,3,0,0,1,4,101,2],
-"MRMesh_2MRExpandShrink_8h.html#ae10a86deae3557a2d54360cfdb691313":[6,0,3,0,0,1,4,101,5],
-"MRMesh_2MRExpandShrink_8h.html#ae45bc0307c08b61de1db862894b9affd":[6,0,3,0,0,1,4,101,8],
-"MRMesh_2MRExpandShrink_8h_source.html":[6,0,3,0,0,1,4,101],
-"MRMesh_2MRFillHoleNicely_8h.html":[6,0,3,0,0,1,4,118],
-"MRMesh_2MRFillHoleNicely_8h.html#a336e1461bdc97f5a14465c6571e7f492":[6,0,3,0,0,1,4,118,1],
-"MRMesh_2MRFillHoleNicely_8h_source.html":[6,0,3,0,0,1,4,118],
-"MRMesh_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,1,4,121]
+"MRMesh_2MRExpandShrink_8h.html#a89f76419473d96d06c32d80ddb69147c":[6,0,3,0,0,1,4,101,4]
 };

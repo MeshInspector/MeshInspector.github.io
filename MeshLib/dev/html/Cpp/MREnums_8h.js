@@ -11,6 +11,10 @@ var MREnums_8h =
       [ "Unit", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "Cotan", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ]
     ] ],
+    [ "FilterType", "MREnums_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925a", [
+      [ "Linear", "MREnums_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b", null ],
+      [ "Discrete", "MREnums_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553", null ]
+    ] ],
     [ "GeodesicPathApprox", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2", [
       [ "DijkstraBiDir", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
       [ "DijkstraAStar", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
@@ -30,6 +34,11 @@ var MREnums_8h =
       [ "Continue", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe", null ],
       [ "Stop", "MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481", null ]
     ] ],
+    [ "Reorder", "MREnums_8h.html#afedf1467ef6a61af5a59eafa50a41bf9", [
+      [ "None", "MREnums_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Lexicographically", "MREnums_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954", null ],
+      [ "AABBTree", "MREnums_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
+    ] ],
     [ "UseAABBTree", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeff", [
       [ "No", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
       [ "Yes", "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
@@ -38,6 +47,11 @@ var MREnums_8h =
     [ "VertexMass", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cd", [
       [ "Unit", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
       [ "NeiArea", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
+    ] ],
+    [ "WrapType", "MREnums_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00c", [
+      [ "Repeat", "MREnums_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
+      [ "Mirror", "MREnums_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
+      [ "Clamp", "MREnums_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c", null ]
     ] ],
     [ "asString", "MREnums_8h.html#aacea1a148219f6a3a63f157178a7ee08", null ]
 ];

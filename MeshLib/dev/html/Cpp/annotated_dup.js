@@ -129,6 +129,9 @@ var annotated_dup =
       [ "Meta", "namespaceMR_1_1Meta.html", [
         [ "SharedPtrTraits", "structMR_1_1Meta_1_1SharedPtrTraits.html", "structMR_1_1Meta_1_1SharedPtrTraits" ]
       ] ],
+      [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
+        [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", "structMR_1_1ObjectSave_1_1Settings" ]
+      ] ],
       [ "Parallel", "namespaceMR_1_1Parallel.html", [
         [ "CallSimply", "structMR_1_1Parallel_1_1CallSimply.html", "structMR_1_1Parallel_1_1CallSimply" ],
         [ "CallSimplyMaker", "structMR_1_1Parallel_1_1CallSimplyMaker.html", "structMR_1_1Parallel_1_1CallSimplyMaker" ],

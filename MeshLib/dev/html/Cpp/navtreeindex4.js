@@ -1,5 +1,16 @@
 var NAVTREEINDEX4 =
 {
+"MRIOFormatsRegistry_8h.html#aac3ec0a66d16804831c833fdf201400b":[6,0,3,0,0,1,4,153,12],
+"MRIOFormatsRegistry_8h.html#aac7825149eb9a0b19702af74fa42f45e":[6,0,3,0,0,1,4,153,35],
+"MRIOFormatsRegistry_8h.html#ac0f6e00f19d26a3fb4eef786c3e46599":[6,0,3,0,0,1,4,153,31],
+"MRIOFormatsRegistry_8h.html#ac3df046ec9a6d60de507313aa455fb84":[6,0,3,0,0,1,4,153,26],
+"MRIOFormatsRegistry_8h.html#acaeabf1d4cced15a0961b626a6e9b868":[6,0,3,0,0,1,4,153,49],
+"MRIOFormatsRegistry_8h.html#adff7af79e8e1629fe97e7437d47aa578":[6,0,3,0,0,1,4,153,25],
+"MRIOFormatsRegistry_8h.html#ae5c25199e6378ab457f1cf1185081963":[6,0,3,0,0,1,4,153,15],
+"MRIOFormatsRegistry_8h.html#af1f62813f68011847bea88c8d3bfe7bb":[6,0,3,0,0,1,4,153,34],
+"MRIOFormatsRegistry_8h.html#af2a0353ca00ec7f57d15523d3da45558":[6,0,3,0,0,1,4,153,16],
+"MRIOFormatsRegistry_8h.html#af60c53a3373b70b68b166f03994a8894":[6,0,3,0,0,1,4,153,39],
+"MRIOFormatsRegistry_8h.html#af787ba09d658e9fdb5560be6d9d7f2eb":[6,0,3,0,0,1,4,153,37],
 "MRIOFormatsRegistry_8h_source.html":[6,0,3,0,0,1,4,153],
 "MRIOParsing_8h.html":[6,0,3,0,0,1,4,154],
 "MRIOParsing_8h.html#a2360c210c6fa64143e978b1f2a1b6bff":[6,0,3,0,0,1,4,154,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX4 =
 "MRMapEdge_8h.html#a0718e473bb43501639504b5b1fef2daa":[6,0,3,0,0,1,4,176,5],
 "MRMapEdge_8h.html#a1c9ee18db6997f756ef3a076307fd9ee":[6,0,3,0,0,1,4,176,4],
 "MRMapEdge_8h.html#a32139a9d419606425485a064d381a8ce":[6,0,3,0,0,1,4,176,8],
-"MRMapEdge_8h.html#a41ced3058fe68e59ccd27b7b81bf5e3c":[6,0,3,0,0,1,4,176,1],
-"MRMapEdge_8h.html#a8bc2c26fd2fc5169edc6c5b75559005d":[6,0,3,0,0,1,4,176,0],
-"MRMapEdge_8h.html#aada1ce79ef0fe414ee9299507e1b4e0b":[6,0,3,0,0,1,4,176,6],
-"MRMapEdge_8h.html#ab1d2f80b1c61df595390f0a811296879":[6,0,3,0,0,1,4,176,9],
-"MRMapEdge_8h.html#adf5f3f9dc915185233a22089c90665eb":[6,0,3,0,0,1,4,176,7],
-"MRMapEdge_8h.html#ae2a855803572cddf17e5a0e284463b7a":[6,0,3,0,0,1,4,176,2],
-"MRMapEdge_8h.html#afea1c6e74e1a6a4ed14dc7fcf09b24df":[6,0,3,0,0,1,4,176,3],
-"MRMapEdge_8h_source.html":[6,0,3,0,0,1,4,176],
-"MRMapOrHashMap_8h.html":[6,0,3,0,0,1,4,177],
-"MRMapOrHashMap_8h.html#adb46200d5ca10864658a0b4036a25bd4":[6,0,3,0,0,1,4,177,1],
-"MRMapOrHashMap_8h.html#aec45b6c8bbf6fced181772da31bc24ec":[6,0,3,0,0,1,4,177,2],
-"MRMapOrHashMap_8h_source.html":[6,0,3,0,0,1,4,177]
+"MRMapEdge_8h.html#a41ced3058fe68e59ccd27b7b81bf5e3c":[6,0,3,0,0,1,4,176,1]
 };

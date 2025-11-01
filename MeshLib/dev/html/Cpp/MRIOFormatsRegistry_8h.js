@@ -48,13 +48,13 @@ var MRIOFormatsRegistry_8h =
     [ "MeshStreamSaver", "MRIOFormatsRegistry_8h.html#a7e16b086c414a0768e241ea5f21ca9b6", null ],
     [ "ObjectLoader", "MRIOFormatsRegistry_8h.html#a5be8803f8be8c57d2ec98589759c0507", null ],
     [ "ObjectLoader", "MRIOFormatsRegistry_8h.html#a19c3bb2545005ca4c70a6243f3fd7a21", null ],
-    [ "ObjectSaver", "MRIOFormatsRegistry_8h.html#a101d2a9f563eb1680e3beb04c22908c6", null ],
+    [ "ObjectSaver", "MRIOFormatsRegistry_8h.html#a04cd611d4176bd7db5a7ca47e17c8f91", null ],
     [ "PointsFileLoader", "MRIOFormatsRegistry_8h.html#acaeabf1d4cced15a0961b626a6e9b868", null ],
     [ "PointsFileSaver", "MRIOFormatsRegistry_8h.html#a356417aed0685b9e9741744f7b357eba", null ],
     [ "PointsStreamLoader", "MRIOFormatsRegistry_8h.html#a0f81139db68679c906d09ff033071478", null ],
     [ "PointsStreamSaver", "MRIOFormatsRegistry_8h.html#a1c0d45a07ed1828ee0d1190c6ca69cab", null ],
     [ "PostLoadCallback", "MRIOFormatsRegistry_8h.html#a00566fda9bf4c9254ac5d2d9ffe7208d", null ],
     [ "SceneLoader", "MRIOFormatsRegistry_8h.html#a0b87b3918d63624f559f15d25ecb9c3a", null ],
-    [ "SceneSaver", "MRIOFormatsRegistry_8h.html#abae0b302d53c60953ecab7559619c2ea", null ],
+    [ "SceneSaver", "MRIOFormatsRegistry_8h.html#a608a6e40cd6fd4e4c380794e4f48e3cd", null ],
     [ "AllFilter", "MRIOFormatsRegistry_8h.html#aa6434e5b84b58ad6cdbaef2ab570f520", null ]
 ];

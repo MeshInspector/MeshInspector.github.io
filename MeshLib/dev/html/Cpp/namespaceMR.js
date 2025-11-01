@@ -85,11 +85,7 @@ var namespaceMR =
     [ "ObjectLoad", "namespaceMR_1_1ObjectLoad.html", [
       [ "ObjectLoader", "namespaceMR_1_1ObjectLoad.html#a19c3bb2545005ca4c70a6243f3fd7a21", null ]
     ] ],
-    [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
-      [ "ObjectSaver", "namespaceMR_1_1ObjectSave.html#a101d2a9f563eb1680e3beb04c22908c6", null ],
-      [ "toAnySupportedFormat", "namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08", null ],
-      [ "toAnySupportedSceneFormat", "namespaceMR_1_1ObjectSave.html#aacb67adec04e843d7b476835acc3b2b2", null ]
-    ] ],
+    [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", "namespaceMR_1_1ObjectSave" ],
     [ "Parallel", "namespaceMR_1_1Parallel.html", "namespaceMR_1_1Parallel" ],
     [ "PlanarTriangulation", "namespaceMR_1_1PlanarTriangulation.html", "namespaceMR_1_1PlanarTriangulation" ],
     [ "PointCloudComponents", "namespaceMR_1_1PointCloudComponents.html", [
@@ -141,7 +137,7 @@ var namespaceMR =
     [ "RenderWrapObject", "namespaceMR_1_1RenderWrapObject.html", "namespaceMR_1_1RenderWrapObject" ],
     [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", "namespaceMR_1_1SceneLoad" ],
     [ "SceneSave", "namespaceMR_1_1SceneSave.html", [
-      [ "SceneSaver", "namespaceMR_1_1SceneSave.html#abae0b302d53c60953ecab7559619c2ea", null ]
+      [ "SceneSaver", "namespaceMR_1_1SceneSave.html#a608a6e40cd6fd4e4c380794e4f48e3cd", null ]
     ] ],
     [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", "namespaceMR_1_1SelfIntersections" ],
     [ "StyleConsts", "namespaceMR_1_1StyleConsts.html", "namespaceMR_1_1StyleConsts" ],
@@ -3049,7 +3045,7 @@ var namespaceMR =
     [ "saveFileDialog", "namespaceMR.html#a5840a11e5e60139f9bbbf678072379e2", null ],
     [ "saveFileDialogAsync", "namespaceMR.html#aa9296b50297d1b2d93a8f2f08c495eef", null ],
     [ "saveObjectToFile", "namespaceMR.html#aa8660a1f4655b61b91a481a072409fa5", null ],
-    [ "saveObjectVoxelsToFile", "namespaceMR.html#abab286ce43034d0b20bdc4c0e5e210ab", null ],
+    [ "saveObjectVoxelsToFile", "namespaceMR.html#a869ae2ba71cd79af9776b539540c21d7", null ],
     [ "sceneReorderWithUndo", "namespaceMR.html#ad357cc82d6a1f5bd8ebee5194931261c", null ],
     [ "sceneSelectedAtLeast", "namespaceMR.html#ac7eb465c1b7cbbcb8daa25703edc931d", null ],
     [ "sceneSelectedExactly", "namespaceMR.html#ac60866be39596654019ff3af45b501c5", null ],
@@ -3067,9 +3063,9 @@ var namespaceMR =
     [ "serializeJsonValue", "group__SerializerGroup.html#ga01b3a61fecaa74928fd26611f6a44cd7", null ],
     [ "serializeJsonValue", "group__SerializerGroup.html#ga19fbe08d1728b0525ece1dd237171b25", null ],
     [ "serializeMesh", "group__SerializerGroup.html#gab5e07b1a572a894ec06e8bb8113827e6", null ],
-    [ "serializeObjectTree", "namespaceMR.html#aa5186cb23f32bc2d4c503ccec9da5319", null ],
-    [ "serializeObjectTree", "namespaceMR.html#ae1e8b4194bf387abeb01e1aab7ca1cdb", null ],
-    [ "serializeObjectTreeToGltf", "namespaceMR.html#aef06e3fecff51a8e9e63ec35086822ee", null ],
+    [ "serializeObjectTree", "namespaceMR.html#a8e2307a8f198f020fdeaf54194c5b3c1", null ],
+    [ "serializeObjectTree", "namespaceMR.html#a96300fe7beb9ae21cb2eba4e6e58f0cb", null ],
+    [ "serializeObjectTreeToGltf", "namespaceMR.html#a9ffd211eed6d45ccbe16c7556c53fe5a", null ],
     [ "serializeToJson", "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],

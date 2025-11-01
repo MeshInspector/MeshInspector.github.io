@@ -985,6 +985,7 @@ var hierarchy =
     [ "mrmeshpy.SelfIntersections", "classmrmeshpy_1_1SelfIntersections.html", null ],
     [ "mrmeshpy.SeparationPointStorage", "classmrmeshpy_1_1SeparationPointStorage.html", null ],
     [ "mrmeshpy.SetNew", "classmrmeshpy_1_1SetNew.html", null ],
+    [ "mrmeshpy.ObjectSave.Settings", "classmrmeshpy_1_1ObjectSave_1_1Settings.html", null ],
     [ "mrmeshpy.SceneLoad.Settings", "classmrmeshpy_1_1SceneLoad_1_1Settings.html", null ],
     [ "mrmeshpy.SelfIntersections.Settings", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html", null ],
     [ "mrmeshpy.TriangulationHelpers.Settings", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html", null ],
