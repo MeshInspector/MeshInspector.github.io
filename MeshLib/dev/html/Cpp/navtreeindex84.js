@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1ModelPointsData.html#aac320ceb1458d74eac62997c8d5d85d2":[6,0,2,0,1,398,3],
+"structMR_1_1ModelPointsData.html#ab1ca6825ddb7fe9e1937c74d1bed6625":[6,0,1,0,1,416,0],
+"structMR_1_1ModelPointsData.html#ab1ca6825ddb7fe9e1937c74d1bed6625":[6,0,2,0,1,398,0],
+"structMR_1_1ModelRenderParams.html":[6,0,1,0,1,417],
 "structMR_1_1ModelRenderParams.html":[6,0,2,0,1,399],
 "structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,1,0,1,417,1],
 "structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,2,0,1,399,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[6,0,2,0,1,456],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[6,0,1,0,1,474,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[6,0,2,0,1,456,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,1,0,1,475],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,2,0,1,457],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,1,0,1,475,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,2,0,1,457,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,1,0,1,476]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,1,0,1,475]
 };

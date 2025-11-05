@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,1,0,1,6,1,0],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,2,0,1,2,1,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,1],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html#add83e086e536d8cc99b74f9f37fb2672":[6,0,1,0,1,6,1,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html#add83e086e536d8cc99b74f9f37fb2672":[6,0,2,0,1,2,1,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,1,0,1,259,1],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,2,0,1,241,1],
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,1,0,1,259,0],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,2,0,1,241,0],
-"structMR_1_1FitDataParams.html":[6,0,1,0,1,261],
-"structMR_1_1FitDataParams.html":[6,0,2,0,1,243],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,1,0,1,261,1],
-"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[6,0,2,0,1,243,1]
+"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[6,0,2,0,1,241,0]
 };

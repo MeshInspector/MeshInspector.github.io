@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRFreeFormDeformer_8h.html#ac00d79feb1adf7e3cfd862f68e8525fb":[6,0,3,0,0,1,5,16,2],
+"MRMeshC_2MRFreeFormDeformer_8h.html#ac5c1b9510e5bc45a879abf0ffce51cd7":[6,0,3,0,0,1,5,16,5],
 "MRMeshC_2MRFreeFormDeformer_8h.html#af0a2677a46bb2b2f4b1b00caa0ff6b8b":[6,0,3,0,0,1,5,16,6],
 "MRMeshC_2MRFreeFormDeformer_8h_source.html":[6,0,3,0,0,1,5,16],
 "MRMeshC_2MRGridSampling_8h.html":[6,0,3,0,0,1,5,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRMeshMetrics_8h_source.html":[6,0,3,0,0,1,5,40],
 "MRMeshC_2MRMeshNormals_8h.html":[6,0,3,0,0,1,5,41],
 "MRMeshC_2MRMeshNormals_8h.html#a0778202f88ff4a64dddc0a2e52d18a55":[6,0,3,0,0,1,5,41,6],
-"MRMeshC_2MRMeshNormals_8h.html#a0d71f56139abedd89472abdc9104e910":[6,0,3,0,0,1,5,41,2],
-"MRMeshC_2MRMeshNormals_8h.html#a7b462445701a01890a195dbf70dab7ef":[6,0,3,0,0,1,5,41,4],
-"MRMeshC_2MRMeshNormals_8h.html#a7c27ff1198d625f5436871f23842ddf6":[6,0,3,0,0,1,5,41,1]
+"MRMeshC_2MRMeshNormals_8h.html#a0d71f56139abedd89472abdc9104e910":[6,0,3,0,0,1,5,41,2]
 };

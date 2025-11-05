@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75":[6,0,3,0,0,1,11,49,1],
+"MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75a25b5eb3bbef15385b5f5ff3abe46f342":[6,0,3,0,0,1,11,49,1,3],
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754":[6,0,3,0,0,1,11,49,1,0],
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c":[6,0,3,0,0,1,11,49,1,2],
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,11,49,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "MRParallelMinMax_8h.html#a2abd5d87d7473042366051414d91e416":[6,0,3,0,0,1,4,273,4],
 "MRParallelMinMax_8h.html#a37052239684b8d892b2c4bdfcff0c7f8":[6,0,3,0,0,1,4,273,0],
 "MRParallelMinMax_8h.html#a5de91105f52c153a74baec119d5e3d89":[6,0,3,0,0,1,4,273,1],
-"MRParallelMinMax_8h.html#a76ba72400c108fa8da0ade91509a4215":[6,0,3,0,0,1,4,273,3],
-"MRParallelMinMax_8h.html#a7cb753b06674c4abe1896e2c91e743dd":[6,0,3,0,0,1,4,273,2],
-"MRParallelMinMax_8h_source.html":[6,0,3,0,0,1,4,273]
+"MRParallelMinMax_8h.html#a76ba72400c108fa8da0ade91509a4215":[6,0,3,0,0,1,4,273,3]
 };

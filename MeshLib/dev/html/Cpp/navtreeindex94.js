@@ -1,5 +1,9 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037":[6,0,1,0,1,759,0,0],
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037":[6,0,2,0,1,741,0,0],
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935":[6,0,1,0,1,759,0,0,0],
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935":[6,0,2,0,1,741,0,0,0],
 "structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1":[6,0,1,0,1,759,0,0,1],
 "structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1":[6,0,2,0,1,741,0,0,1],
 "structMR_1_1TransformControls_1_1VisualParams.html#acd8740b7982dd1a382270b6374aee8b8":[6,0,1,0,1,759,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,1,0,1,42,12,1],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,2,0,1,26,10,1],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,1,0,1,42,12,0],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,2,0,1,26,10,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,1,0,1,42,13,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,2,0,1,26,11,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,1,0,1,42,13,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,2,0,1,26,11,0,0]
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,2,0,1,26,10,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,1,0,1,499,0,0],
+"structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,2,0,1,481,0,0],
+"structMR_1_1Palette_1_1Label.html":[6,0,1,0,1,499,1],
+"structMR_1_1Palette_1_1Label.html":[6,0,2,0,1,481,1],
 "structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f":[6,0,1,0,1,499,1,4],
 "structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f":[6,0,2,0,1,481,1,4],
 "structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,1,0,1,499,1,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,1,0,1,27,0],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,2,0,1,17,0],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,1,0,1,27,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,2,0,1,17,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a96cc494dbae32854400a1fc481ea09b4":[6,0,1,0,1,27,0,1],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a96cc494dbae32854400a1fc481ea09b4":[6,0,2,0,1,17,0,1],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,0,1,0,1,27,1],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,0,2,0,1,17,1]
+"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,2,0,1,17,0,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRParallelMinMax_8h.html#a7cb753b06674c4abe1896e2c91e743dd":[6,0,3,0,0,1,4,273,2],
+"MRParallelMinMax_8h_source.html":[6,0,3,0,0,1,4,273],
 "MRParallelProgressReporter_8h.html":[6,0,3,0,0,1,4,274],
 "MRParallelProgressReporter_8h_source.html":[6,0,3,0,0,1,4,274],
 "MRParallel_8h.html":[6,0,3,0,0,1,4,271],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "MRProgressReadWrite_8h.html":[6,0,3,0,0,1,4,326],
 "MRProgressReadWrite_8h.html#a43da20cc5f0077147d57b1af6226aa53":[6,0,3,0,0,1,4,326,0],
 "MRProgressReadWrite_8h.html#a60a133e9f349b9183017b2b4abaf1b9b":[6,0,3,0,0,1,4,326,1],
-"MRProgressReadWrite_8h_source.html":[6,0,3,0,0,1,4,326],
-"MRProjectionMeshAttribute_8h.html":[6,0,3,0,0,1,4,327],
-"MRProjectionMeshAttribute_8h.html#acaa5c4c3fe921e2f2b78146aae104a33":[6,0,3,0,0,1,4,327,2]
+"MRProgressReadWrite_8h_source.html":[6,0,3,0,0,1,4,326]
 };
