@@ -17,7 +17,6 @@ var classMR_1_1ImGuiMenu =
       [ "Quad", "classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26", null ]
     ] ],
     [ "add_modifier", "classMR_1_1ImGuiMenu.html#a623682b4c72a120b6972a719f75d4282", null ],
-    [ "addMenuFontRanges_", "classMR_1_1ImGuiMenu.html#a70f2fa3ee77474175c40b532311996cd", null ],
     [ "allowObjectsRemoval", "classMR_1_1ImGuiMenu.html#a79fec46acf5000a119ac7c3ce90a3da5", null ],
     [ "allowSceneReorder", "classMR_1_1ImGuiMenu.html#a42d36b1b6c1d3d5f973f5bb0b994ba44", null ],
     [ "anyImGuiWindowIsHovered", "classMR_1_1ImGuiMenu.html#ab5abbf10004a75a69b1704b7af20e5b3", null ],

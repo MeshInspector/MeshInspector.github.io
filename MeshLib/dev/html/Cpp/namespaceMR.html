@@ -1563,6 +1563,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonConfig.html">RibbonConfig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonFontHolder.html">RibbonFontHolder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonIcons.html">RibbonIcons</a></td></tr>
@@ -2522,6 +2524,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a823106cad6887745b09385757b15b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55cd176bca8ea774ad922ad2876e0f0d" id="r_a55cd176bca8ea774ad922ad2876e0f0d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55cd176bca8ea774ad922ad2876e0f0d">RequirementsFunction</a> = std::function&lt;std::string( const std::shared_ptr&lt;<a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a>&gt;&amp; )&gt;</td></tr>
 <tr class="separator:a55cd176bca8ea774ad922ad2876e0f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a70f8b86cebf1f5e5b5f65c4baa936" id="r_a21a70f8b86cebf1f5e5b5f65c4baa936"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a> = std::pair&lt;ImFont*, float&gt;</td></tr>
+<tr class="separator:a21a70f8b86cebf1f5e5b5f65c4baa936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81b46bc5e733f50fb93fe00f095b2f8" id="r_aa81b46bc5e733f50fb93fe00f095b2f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa81b46bc5e733f50fb93fe00f095b2f8">WebResponseCallback</a> = std::function&lt;void( const Json::Value&amp; response )&gt;</td></tr>
 <tr class="separator:aa81b46bc5e733f50fb93fe00f095b2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af79e59969dc38af8f99d87b8d80385f2" id="r_af79e59969dc38af8f99d87b8d80385f2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af79e59969dc38af8f99d87b8d80385f2">VoxelPointPositioner</a> = std::function&lt;Vector3f( const Vector3f&amp;, const Vector3f&amp;, float, float, float )&gt;</td></tr>
@@ -8301,6 +8305,20 @@ template&lt;class T , class E  = std::string&gt; </div>
 </div><div class="memdoc">
 
 <p>this callback will be called before compression on serialization and after decompression on deserialization </p>
+
+</div>
+</div>
+<a id="a21a70f8b86cebf1f5e5b5f65c4baa936" name="a21a70f8b86cebf1f5e5b5f65c4baa936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a70f8b86cebf1f5e5b5f65c4baa936">&#9670;&#160;</a></span>FontAndSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a21a70f8b86cebf1f5e5b5f65c4baa936">MR::FontAndSize</a> = std::pair&lt;ImFont*, float&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -818,6 +818,7 @@ var annotated_dup =
       [ "RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", "classMR_1_1RestoringStreamsSink" ],
       [ "RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", "classMR_1_1RibbonButtonDrawer" ],
       [ "RibbonConfig", "structMR_1_1RibbonConfig.html", "structMR_1_1RibbonConfig" ],
+      [ "RibbonFontHolder", "classMR_1_1RibbonFontHolder.html", "classMR_1_1RibbonFontHolder" ],
       [ "RibbonFontManager", "classMR_1_1RibbonFontManager.html", "classMR_1_1RibbonFontManager" ],
       [ "RibbonIcons", "classMR_1_1RibbonIcons.html", "classMR_1_1RibbonIcons" ],
       [ "RibbonMenu", "classMR_1_1RibbonMenu.html", "classMR_1_1RibbonMenu" ],

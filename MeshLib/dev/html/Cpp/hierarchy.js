@@ -1144,6 +1144,7 @@ var hierarchy =
     [ "MR::SceneLoad::Result", "structMR_1_1SceneLoad_1_1Result.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
     [ "MR::RibbonConfig", "structMR_1_1RibbonConfig.html", null ],
+    [ "MR::RibbonFontHolder", "classMR_1_1RibbonFontHolder.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
     [ "MR::RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html", [

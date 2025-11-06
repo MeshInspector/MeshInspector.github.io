@@ -87,6 +87,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRRenderWrapObject.h", "MRRenderWrapObject_8h.html", "MRRenderWrapObject_8h" ],
     [ "MRRibbonButtonDrawer.h", "MRRibbonButtonDrawer_8h.html", "MRRibbonButtonDrawer_8h" ],
     [ "MRRibbonConstants.h", "MRRibbonConstants_8h.html", "MRRibbonConstants_8h" ],
+    [ "MRRibbonFontHolder.h", "MRRibbonFontHolder_8h.html", "MRRibbonFontHolder_8h" ],
     [ "MRRibbonFontManager.h", "MRRibbonFontManager_8h.html", "MRRibbonFontManager_8h" ],
     [ "MRRibbonIcons.h", "MRRibbonIcons_8h.html", "MRRibbonIcons_8h" ],
     [ "MRRibbonLayoutConfig.h", "MRRibbonLayoutConfig_8h.html", "MRRibbonLayoutConfig_8h" ],

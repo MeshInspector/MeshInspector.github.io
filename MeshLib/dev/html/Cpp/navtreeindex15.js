@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"MRStreamOperators_8h.html#ae2c8727771324b76b5d4a25e02044a8f":[6,0,3,0,0,1,4,364,11],
+"MRStreamOperators_8h.html#ae85b0e8a0118ada182da4988b1c3fd03":[6,0,3,0,0,1,4,364,18],
 "MRStreamOperators_8h.html#af6a847a4f04242c0d7469f73addb43a6":[6,0,3,0,0,1,4,364,10],
 "MRStreamOperators_8h_source.html":[6,0,3,0,0,1,4,364],
 "MRStringConvert_8h.html":[6,0,3,0,0,1,4,366],
@@ -26,16 +28,16 @@ var NAVTREEINDEX15 =
 "MRSurfaceLineOffset_8h.html#a5c90e7ed0a38e9f1cd9a61f2742f12cc":[6,0,3,0,0,1,4,370,0],
 "MRSurfaceLineOffset_8h.html#a8964f9c61140cf585633903f71ced4eb":[6,0,3,0,0,1,4,370,1],
 "MRSurfaceLineOffset_8h_source.html":[6,0,3,0,0,1,4,370],
-"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,11,123],
-"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,11,123],
+"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,11,124],
+"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,11,124],
 "MRSurfacePath_8h.html":[6,0,3,0,0,1,4,371],
 "MRSurfacePath_8h_source.html":[6,0,3,0,0,1,4,371],
-"MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,11,124],
-"MRSurfacePointPicker_8h_source.html":[6,0,3,0,0,1,11,124],
+"MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,11,125],
+"MRSurfacePointPicker_8h_source.html":[6,0,3,0,0,1,11,125],
 "MRSurroundingContour_8h.html":[6,0,3,0,0,1,4,372],
 "MRSurroundingContour_8h_source.html":[6,0,3,0,0,1,4,372],
-"MRSwapRootAction_8h.html":[6,0,3,0,0,1,11,125],
-"MRSwapRootAction_8h_source.html":[6,0,3,0,0,1,11,125],
+"MRSwapRootAction_8h.html":[6,0,3,0,0,1,11,126],
+"MRSwapRootAction_8h_source.html":[6,0,3,0,0,1,11,126],
 "MRSweptVolume_8h.html":[6,0,3,0,0,1,12,26],
 "MRSweptVolume_8h.html#a7f080f919e3c7334a412f19631c396fe":[6,0,3,0,0,1,12,26,6],
 "MRSweptVolume_8h.html#aa91ec60e342e62e88f740e7fab22eaf0":[6,0,3,0,0,1,12,26,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "MRTestC2_2TestFunctions_8h.html":[6,0,3,0,0,1,10,27],
 "MRTestC2_2TestFunctions_8h.html#a00a4968c820b571d6217f785eae6825d":[6,0,3,0,0,1,10,27,3],
 "MRTestC2_2TestFunctions_8h.html#a563740375fcea1c8066b805da88103f9":[6,0,3,0,0,1,10,27,1],
-"MRTestC2_2TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf":[6,0,3,0,0,1,10,27,2],
-"MRTestC2_2TestFunctions_8h.html#ad736cb95e0f5d73a1df6473cdd6baf38":[6,0,3,0,0,1,10,27,0],
-"MRTestC2_2TestFunctions_8h_source.html":[6,0,3,0,0,1,10,27]
+"MRTestC2_2TestFunctions_8h.html#a6f2e436cbfc9ef149a7aa74b35932fcf":[6,0,3,0,0,1,10,27,2]
 };
