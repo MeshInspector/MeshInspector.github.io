@@ -19,6 +19,7 @@ var hierarchy =
     [ "MR::AncillaryLabel", "structMR_1_1AncillaryLabel.html", null ],
     [ "MR::AncillaryLines", "structMR_1_1AncillaryLines.html", null ],
     [ "MR::AncillaryMesh", "structMR_1_1AncillaryMesh.html", null ],
+    [ "MR::AncillaryPlane", "structMR_1_1AncillaryPlane.html", null ],
     [ "MR::AncillaryPoints", "structMR_1_1AncillaryPoints.html", null ],
     [ "MR::RenderDimensions::AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", null ],
     [ "MR::AnyVisualizeMaskEnum", "classMR_1_1AnyVisualizeMaskEnum.html", null ],

@@ -265,6 +265,7 @@ var annotated_dup =
       [ "AncillaryLabel", "structMR_1_1AncillaryLabel.html", "structMR_1_1AncillaryLabel" ],
       [ "AncillaryLines", "structMR_1_1AncillaryLines.html", "structMR_1_1AncillaryLines" ],
       [ "AncillaryMesh", "structMR_1_1AncillaryMesh.html", "structMR_1_1AncillaryMesh" ],
+      [ "AncillaryPlane", "structMR_1_1AncillaryPlane.html", "structMR_1_1AncillaryPlane" ],
       [ "AncillaryPoints", "structMR_1_1AncillaryPoints.html", "structMR_1_1AncillaryPoints" ],
       [ "AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", "classMR_1_1AngleMeasurementObject" ],
       [ "AnyVisualizeMaskEnum", "classMR_1_1AnyVisualizeMaskEnum.html", "classMR_1_1AnyVisualizeMaskEnum" ],
