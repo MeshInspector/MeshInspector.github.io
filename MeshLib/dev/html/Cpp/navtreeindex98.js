@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,0,2,0,1,27,2],
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293":[6,0,1,0,1,45,2,2],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293":[6,0,2,0,1,27,2,2],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de":[6,0,1,0,1,45,2,3],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de":[6,0,2,0,1,27,2,3],

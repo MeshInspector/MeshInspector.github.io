@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,432,0],
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f":[6,0,1,0,1,450,0,3],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f":[6,0,2,0,1,432,0,3],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,1,0,1,450,0,1],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,2,0,1,432,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1OutlierParams.html":[6,0,1,0,1,495],
 "structMR_1_1OutlierParams.html":[6,0,2,0,1,477],
 "structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,1,0,1,495,3],
-"structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,2,0,1,477,3],
-"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,1,0,1,495,2],
-"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,2,0,1,477,2]
+"structMR_1_1OutlierParams.html#a2e3bfef94b01f500d4471c14cd7e2660":[6,0,2,0,1,477,3]
 };

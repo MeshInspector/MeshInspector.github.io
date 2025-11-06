@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"std__vector__MR__SkyPatch_8h.html#a9921c5a5443e2ee9f6121e37157d56b2":[6,2,1,0,0,0,2,361,46],
+"std__vector__MR__SkyPatch_8h.html#a9d9d270480ec500b9774d56a585ec35d":[6,2,1,0,0,0,2,361,42],
 "std__vector__MR__SkyPatch_8h.html#a9e029957d228571e89eb6c44b4f8a1c5":[6,2,1,0,0,0,2,361,24],
 "std__vector__MR__SkyPatch_8h.html#aa688c30096662935f9084a198885678b":[6,2,1,0,0,0,2,361,69],
 "std__vector__MR__SkyPatch_8h.html#aa7085546f2c400409e3ad05ada16de37":[6,2,1,0,0,0,2,361,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "std__vector__MR__TextureId_8h.html#aef98b26300f3da1fbd7403a5f26cb414":[6,2,1,0,0,0,2,364,37],
 "std__vector__MR__TextureId_8h.html#af372f6cd9732a4aabb735751e5615f60":[6,2,1,0,0,0,2,364,52],
 "std__vector__MR__TextureId_8h.html#af93772034c999c17624b6dc50610691d":[6,2,1,0,0,0,2,364,68],
-"std__vector__MR__TextureId_8h_source.html":[6,2,1,0,0,0,2,364],
-"std__vector__MR__TriPointf_8h.html":[6,2,1,0,0,0,2,365],
-"std__vector__MR__TriPointf_8h.html#a030afdf2ec2fc8b0648652cde8257283":[6,2,1,0,0,0,2,365,23]
+"std__vector__MR__TextureId_8h_source.html":[6,2,1,0,0,0,2,364]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"std__optional__MR__AllLocalTriangulations_8h.html#a07206f863a7930f17413a0d2e2ad518a":[6,2,1,0,0,0,2,184,1],
+"std__optional__MR__AllLocalTriangulations_8h.html#a22c9b08fff7330d0e732983bcbac6fa9":[6,2,1,0,0,0,2,184,13],
 "std__optional__MR__AllLocalTriangulations_8h.html#a238f32953c4d691e5ac6b311e95d50ee":[6,2,1,0,0,0,2,184,5],
 "std__optional__MR__AllLocalTriangulations_8h.html#a4122cc7a4fefb0782738431f1a0baadf":[6,2,1,0,0,0,2,184,6],
 "std__optional__MR__AllLocalTriangulations_8h.html#a41d4f7f98192a9d26fbd6187652a7fa8":[6,2,1,0,0,0,2,184,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "std__optional__MR__PointCloud_8h.html#a1cf179f228f21f0039b9b236f0f8c9e8":[6,2,1,0,0,0,2,200,10],
 "std__optional__MR__PointCloud_8h.html#a24c7e6e9957de67ef8603e3468e87f19":[6,2,1,0,0,0,2,200,13],
 "std__optional__MR__PointCloud_8h.html#a385d02a6c3f7666086fa46bc7c9ff69a":[6,2,1,0,0,0,2,200,2],
-"std__optional__MR__PointCloud_8h.html#a3e725b51083478235ab0273672844a7c":[6,2,1,0,0,0,2,200,11],
-"std__optional__MR__PointCloud_8h.html#a501836f7ed0e7e4f5158f7dcc76b7b0e":[6,2,1,0,0,0,2,200,7],
-"std__optional__MR__PointCloud_8h.html#a7c971a495fbab9fac7166eb63bc33066":[6,2,1,0,0,0,2,200,9]
+"std__optional__MR__PointCloud_8h.html#a3e725b51083478235ab0273672844a7c":[6,2,1,0,0,0,2,200,11]
 };

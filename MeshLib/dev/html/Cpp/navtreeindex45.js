@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1RingIterator.html#add7fd5a21509ef4dc57c7943b3da9920":[6,0,1,0,1,647,4],
 "classMR_1_1RingIterator.html#add7fd5a21509ef4dc57c7943b3da9920":[6,0,2,0,1,629,4],
 "classMR_1_1RingIterator.html#afd5883037f52daf8dec8e4a1dcfd6c41":[6,0,1,0,1,647,3],
 "classMR_1_1RingIterator.html#afd5883037f52daf8dec8e4a1dcfd6c41":[6,0,2,0,1,629,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,678,0],
 "classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,2,0,1,660,0],
 "classMR_1_1SeparationPointStorage.html":[6,0,1,0,1,679],
-"classMR_1_1SeparationPointStorage.html":[6,0,2,0,1,661],
-"classMR_1_1SeparationPointStorage.html#a3ad8f87539f118ca7419849b7029208b":[6,0,1,0,1,679,4]
+"classMR_1_1SeparationPointStorage.html":[6,0,2,0,1,661]
 };

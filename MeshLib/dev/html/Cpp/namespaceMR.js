@@ -2060,6 +2060,7 @@ var namespaceMR =
     [ "edgePoint", "namespaceMR.html#a537cde697d7f35e3370cd46156a03646", null ],
     [ "edgePoint", "namespaceMR.html#a7d641e99aa4679047a71ff850e614f60", null ],
     [ "edgePointsFromContours", "group__DistanceMapGroup.html#ga00ea89be5cae9953d5df7ef382259b58", null ],
+    [ "edgesBetweenDifferentColors", "namespaceMR.html#a673650f651c7934a570071f72d73ad09", null ],
     [ "edgeSegment", "namespaceMR.html#af65aebb8f1629e7c2f7a969e296efa92", null ],
     [ "edgeTableMetric", "group__SurfacePathGroup.html#ga2182b04a7c6e0750621fd0d7de0685f2", null ],
     [ "edgeTableSymMetric", "group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68", null ],

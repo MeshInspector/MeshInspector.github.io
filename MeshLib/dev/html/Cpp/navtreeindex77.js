@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1FindOutliersParams.html#aa39f977c4a7b6d7b43bbe8dd59cf8b87":[6,0,2,0,1,238,2],
+"structMR_1_1FindOverhangsSettings.html":[6,0,1,0,1,257],
 "structMR_1_1FindOverhangsSettings.html":[6,0,2,0,1,239],
 "structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,1,0,1,257,0],
 "structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[6,0,2,0,1,239,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1ICPGroupPair.html":[6,0,2,0,1,282],
 "structMR_1_1ICPGroupPair.html#a41888e51bf21ff362fa10a0d125eb3a6":[6,0,1,0,1,300,1],
 "structMR_1_1ICPGroupPair.html#a41888e51bf21ff362fa10a0d125eb3a6":[6,0,2,0,1,282,1],
-"structMR_1_1ICPGroupPair.html#a5babba9b5c191b1a0347070d83e2f6a3":[6,0,1,0,1,300,0],
-"structMR_1_1ICPGroupPair.html#a5babba9b5c191b1a0347070d83e2f6a3":[6,0,2,0,1,282,0],
-"structMR_1_1ICPGroupPairs.html":[6,0,1,0,1,301]
+"structMR_1_1ICPGroupPair.html#a5babba9b5c191b1a0347070d83e2f6a3":[6,0,1,0,1,300,0]
 };

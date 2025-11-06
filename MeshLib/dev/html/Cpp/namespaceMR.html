@@ -5080,6 +5080,9 @@ Functions</h2></td></tr>
 <tr class="separator:af864b9246bf8c972ba65a4ef698384f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaefec968ac6fb5cfee5c25c9a8e9b2c0" id="r_aaefec968ac6fb5cfee5c25c9a8e9b2c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaefec968ac6fb5cfee5c25c9a8e9b2c0">cloneRegion</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objMesh, const FaceBitSet &amp;region, bool copyTexture=true)</td></tr>
 <tr class="separator:aaefec968ac6fb5cfee5c25c9a8e9b2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673650f651c7934a570071f72d73ad09" id="r_a673650f651c7934a570071f72d73ad09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a673650f651c7934a570071f72d73ad09">edgesBetweenDifferentColors</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceColors &amp;colors)</td></tr>
+<tr class="memdesc:a673650f651c7934a570071f72d73ad09"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different colors  <br /></td></tr>
+<tr class="separator:a673650f651c7934a570071f72d73ad09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc3d6d2929b0eeecb90e9cfd2a9d0b3" id="r_a9fc3d6d2929b0eeecb90e9cfd2a9d0b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fc3d6d2929b0eeecb90e9cfd2a9d0b3">defaultSerializeMeshFormat</a> ()</td></tr>
 <tr class="separator:a9fc3d6d2929b0eeecb90e9cfd2a9d0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7422162bc2563c6305895035880605d5" id="r_a7422162bc2563c6305895035880605d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7422162bc2563c6305895035880605d5">setDefaultSerializeMeshFormat</a> (std::string newFormat)</td></tr>
@@ -17391,6 +17394,37 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>returns a point on the edge: origin point for f=0 and destination point for f=1 </p>
+
+</div>
+</div>
+<a id="a673650f651c7934a570071f72d73ad09" name="a673650f651c7934a570071f72d73ad09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a673650f651c7934a570071f72d73ad09">&#9670;&#160;</a></span>edgesBetweenDifferentColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet MR::edgesBetweenDifferentColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceColors &amp;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return all edges separating faces with different colors </p>
 
 </div>
 </div>

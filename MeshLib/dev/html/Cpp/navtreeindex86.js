@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,1,0,1,495,2],
+"structMR_1_1OutlierParams.html#a77f329cbd855532e38b3482d07260251":[6,0,2,0,1,477,2],
 "structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,1,0,1,495,1],
 "structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,2,0,1,477,1],
 "structMR_1_1OutlierParams.html#ae7fcf0f64db2a7e109689f6722285abd":[6,0,1,0,1,495,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1PickPointManager_1_1Params.html#a102e46b3888698c0b6f7dd2903516f25":[6,0,1,0,1,511,1,12],
 "structMR_1_1PickPointManager_1_1Params.html#a102e46b3888698c0b6f7dd2903516f25":[6,0,2,0,1,493,1,12],
 "structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,1,0,1,511,1,2],
-"structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,2,0,1,493,1,2],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[6,0,1,0,1,511,1,8],
-"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926":[6,0,2,0,1,493,1,8]
+"structMR_1_1PickPointManager_1_1Params.html#a1b9a3031b99f0632ee1bf07f5fcb4de6":[6,0,2,0,1,493,1,2]
 };
