@@ -237,13 +237,13 @@ var NAVTREEINDEX =
 "structMR_1_1PreSetupViewListener.html",
 "structMR_1_1RenderDimensions_1_1LengthParams.html",
 "structMR_1_1SaveSettings.html",
-"structMR_1_1SliceInfoBase.html#a1c860dd386f07581661cc74f394a1470",
-"structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf",
-"structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6",
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8",
-"structMR_1_1UnorientedTriangle.html#a1559dd0f63575b110b6d67c47cd8ca61",
-"structMR_1_1ViewerSignals.html#a6898cbf470bc706c1d83ad845f588934",
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html"
+"structMR_1_1SliceInfoBase.html#a0f4b29a9c38aac83de066f74ddc95c4d",
+"structMR_1_1SymbolMeshParams.html#a862ff23debfa432cd8025d0d39a00868",
+"structMR_1_1TouchpadZoomGestureEndListener.html",
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html",
+"structMR_1_1UnorientedTriangle.html",
+"structMR_1_1ViewerSignals.html#a647abf20003f8be5338c1a190a49e445",
+"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a9d975baef9f26c3a77c6769d4b760ac7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

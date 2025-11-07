@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,1,0,1,758],
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,2,0,1,740],
 "structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[6,0,1,0,1,758,1],
 "structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[6,0,2,0,1,740,1],
 "structMR_1_1TouchpadZoomGestureEndListener.html#ad1668e1d1874a834c7c6875f53d9f728":[6,0,1,0,1,758,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac6eb89011818ae44b18a521011c7ba02":[6,0,1,0,1,42,7,5],
 "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac6eb89011818ae44b18a521011c7ba02":[6,0,2,0,1,26,5,5],
 "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac8f21dd8acbc5b82e94cd24be7d5f52b":[6,0,1,0,1,42,7,4],
-"structMR_1_1UI_1_1CustomConfigModalSettings.html#ac8f21dd8acbc5b82e94cd24be7d5f52b":[6,0,2,0,1,26,5,4],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,42,10,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,1,26,8,0]
+"structMR_1_1UI_1_1CustomConfigModalSettings.html#ac8f21dd8acbc5b82e94cd24be7d5f52b":[6,0,2,0,1,26,5,4]
 };

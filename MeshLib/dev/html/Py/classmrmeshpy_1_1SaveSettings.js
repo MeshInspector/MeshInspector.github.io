@@ -2,7 +2,7 @@ var classmrmeshpy_1_1SaveSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093", null ],
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b", null ],
-    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a810008bf06510579f25014f82016bb6e", null ],
+    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a0d9eaa612e1328fefa36099c6e684bf6", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a5ec9ce1fa6f90eb7f892b31b2b3ef370", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd", null ],
     [ "lengthUnit", "classmrmeshpy_1_1SaveSettings.html#abeb98dbc79164c4ca44a5572bf87ae7c", null ],
@@ -15,6 +15,8 @@ var classmrmeshpy_1_1SaveSettings =
     [ "packPrimitives", "classmrmeshpy_1_1SaveSettings.html#a5440f2cb435a919c342ecba70d7bcc84", null ],
     [ "progress", "classmrmeshpy_1_1SaveSettings.html#ad2aa92a9933e1da8144093512a63814f", null ],
     [ "progress", "classmrmeshpy_1_1SaveSettings.html#a1814186f22bbc6e369572926674e3f80", null ],
+    [ "solidColor", "classmrmeshpy_1_1SaveSettings.html#a1c4405d19328e0f1b917e56fac7f7c8f", null ],
+    [ "solidColor", "classmrmeshpy_1_1SaveSettings.html#a6562a7051c49a9ce7d811f217eeeb77e", null ],
     [ "texture", "classmrmeshpy_1_1SaveSettings.html#a60eff520b1c3959b2b96552b61ed69db", null ],
     [ "texture", "classmrmeshpy_1_1SaveSettings.html#aebb954e2bd869408a83b791b34b2196c", null ],
     [ "uvMap", "classmrmeshpy_1_1SaveSettings.html#a33660f56044f095ceee7e8f4d5aa2f3b", null ],
