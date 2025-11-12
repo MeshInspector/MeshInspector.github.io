@@ -3308,6 +3308,7 @@ var namespaceMR =
     [ "cInputPadding", "namespaceMR.html#aa6af57435d9acbae46e95d40e73edc24", null ],
     [ "cItemInfoIndent", "namespaceMR.html#a70bcc4098e7e70c56a659aa92a28fa66", null ],
     [ "CloudPartMapping", "namespaceMR.html#a32d2679c43468dd98bb8cf90ddd25b77", null ],
+    [ "cMiddleFontSize", "namespaceMR.html#af967dac752a05397da587b76ec72feb5", null ],
     [ "cMiddleIconSize", "namespaceMR.html#a8a7826f17744adf420a5075847c99e9e", null ],
     [ "cModalButtonWidth", "namespaceMR.html#a31f77e731e7a4fa3bb8606a8a801848d", null ],
     [ "cModalWindowPaddingX", "namespaceMR.html#a01fdaef48cbd3fbf6ece5c4e0b288dbe", null ],

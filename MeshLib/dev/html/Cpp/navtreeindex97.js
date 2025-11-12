@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1ViewerSignals.html#a57fe4d6b8a69e76ac4e8628d3be288d9":[6,0,2,0,1,791,24],
+"structMR_1_1ViewerSignals.html#a5af2323fdea7a481a60381fa74026462":[6,0,1,0,1,809,45],
+"structMR_1_1ViewerSignals.html#a5af2323fdea7a481a60381fa74026462":[6,0,2,0,1,791,45],
+"structMR_1_1ViewerSignals.html#a635ab18f390475cfdf278794eae44fb6":[6,0,1,0,1,809,1],
 "structMR_1_1ViewerSignals.html#a635ab18f390475cfdf278794eae44fb6":[6,0,2,0,1,791,1],
 "structMR_1_1ViewerSignals.html#a647abf20003f8be5338c1a190a49e445":[6,0,1,0,1,809,48],
 "structMR_1_1ViewerSignals.html#a647abf20003f8be5338c1a190a49e445":[6,0,2,0,1,791,48],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html#a8152065aa9150e9c3a5dd1e0ce064abb":[6,0,2,0,1,27,0,1],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html#a9d58008a01c9a02bc872fb06b4dfe30f":[6,0,1,0,1,45,0,2],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html#a9d58008a01c9a02bc872fb06b4dfe30f":[6,0,2,0,1,27,0,2],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,1,0,1,45,1],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,2,0,1,27,1],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a41a585b4f3781b67e22daa8ff5b9479d":[6,0,1,0,1,45,1,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a41a585b4f3781b67e22daa8ff5b9479d":[6,0,2,0,1,27,1,0],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a5159934791ea7584f07b333cd28777b3":[6,0,1,0,1,45,1,2]
+"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,1,0,1,45,1]
 };

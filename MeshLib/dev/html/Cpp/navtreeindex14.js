@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRRingIterator_8h.html":[6,0,3,0,0,1,4,344],
 "MRRingIterator_8h.html#a1ba9e876bd033bc6803332bb875ee138":[6,0,3,0,0,1,4,344,4],
 "MRRingIterator_8h.html#a649c474104e7af19340b277ad9328dfb":[6,0,3,0,0,1,4,344,7],
 "MRRingIterator_8h.html#a9490457d4ac8cdb219f99745b7f0c7c3":[6,0,3,0,0,1,4,344,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRStreamOperators_8h.html#aa1a7ff4f86d2841df275769894050a2c":[6,0,3,0,0,1,4,364,12],
 "MRStreamOperators_8h.html#aa6c4fc5ecafa6360793420eff8ab251e":[6,0,3,0,0,1,4,364,3],
 "MRStreamOperators_8h.html#ab1af4061d52e47a22c37d0743de043d0":[6,0,3,0,0,1,4,364,13],
-"MRStreamOperators_8h.html#abeae10f00619d98a6b9bb7bf7a06b322":[6,0,3,0,0,1,4,364,9],
-"MRStreamOperators_8h.html#ac3d2f2d86659c075b46b5e16dd7a1788":[6,0,3,0,0,1,4,364,23]
+"MRStreamOperators_8h.html#abeae10f00619d98a6b9bb7bf7a06b322":[6,0,3,0,0,1,4,364,9]
 };

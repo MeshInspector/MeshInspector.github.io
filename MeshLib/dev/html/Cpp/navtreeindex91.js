@@ -1,5 +1,9 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[6,0,2,0,1,631,1],
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[6,0,1,0,1,649,0],
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[6,0,2,0,1,631,0],
+"structMR_1_1SaveSettings.html":[6,0,1,0,1,654],
 "structMR_1_1SaveSettings.html":[6,0,2,0,1,636],
 "structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[6,0,1,0,1,654,8],
 "structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[6,0,2,0,1,636,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX91 =
 "structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,2,0,1,679,1],
 "structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[6,0,1,0,1,697,0],
 "structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[6,0,2,0,1,679,0],
-"structMR_1_1SliceInfo.html":[6,0,1,0,1,698],
-"structMR_1_1SliceInfo.html":[6,0,2,0,1,680],
-"structMR_1_1SliceInfo.html#a44785160df691c40ebdf392f66282315":[6,0,1,0,1,698,0],
-"structMR_1_1SliceInfo.html#a44785160df691c40ebdf392f66282315":[6,0,2,0,1,680,0],
-"structMR_1_1SliceInfoBase.html":[6,0,1,0,1,699]
+"structMR_1_1SliceInfo.html":[6,0,1,0,1,698]
 };

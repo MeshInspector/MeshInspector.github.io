@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1RingIterator.html#a6a1ef2de2a1f13787a3b231f9ce3b4a4":[6,0,2,0,1,629,0],
+"classMR_1_1RingIterator.html#aaccd4999a06a4556d2a8728ed4ae5b15":[6,0,1,0,1,647,2],
+"classMR_1_1RingIterator.html#aaccd4999a06a4556d2a8728ed4ae5b15":[6,0,2,0,1,629,2],
 "classMR_1_1RingIterator.html#add7fd5a21509ef4dc57c7943b3da9920":[6,0,1,0,1,647,4],
 "classMR_1_1RingIterator.html#add7fd5a21509ef4dc57c7943b3da9920":[6,0,2,0,1,629,4],
 "classMR_1_1RingIterator.html#afd5883037f52daf8dec8e4a1dcfd6c41":[6,0,1,0,1,647,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,2,0,1,660,2],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,1,0,1,678,1],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,2,0,1,660,1],
-"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,678,0],
-"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,2,0,1,660,0],
-"classMR_1_1SeparationPointStorage.html":[6,0,1,0,1,679],
-"classMR_1_1SeparationPointStorage.html":[6,0,2,0,1,661]
+"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,678,0]
 };

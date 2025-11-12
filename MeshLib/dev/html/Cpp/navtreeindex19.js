@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"MRVoxels_2MRVoxelsSave_8h.html#a5289196c605171ac3410bbe845a26176":[6,0,3,0,0,1,12,41,0],
 "MRVoxels_2MRVoxelsSave_8h.html#a869ae2ba71cd79af9776b539540c21d7":[6,0,3,0,0,1,12,41,7],
 "MRVoxels_2MRVoxelsSave_8h_source.html":[6,0,3,0,0,1,12,41],
 "MRVoxels_2config_8h.html":[6,0,3,0,0,1,12,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,48,22],
 "classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7":[6,0,1,0,1,66,5],
 "classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7":[6,0,2,0,1,48,5],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,66,11],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,2,0,1,48,11]
+"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,66,11]
 };

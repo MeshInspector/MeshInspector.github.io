@@ -413,7 +413,7 @@ var searchData=
   ['microns2_16',['microns2',['../namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4ac2ab9fc119a167292a594d648471255d',1,'MR']]],
   ['microns3_17',['microns3',['../namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa2721926f0c08bc977b75d30560305bdf',1,'MR']]],
   ['micronspersecond_18',['micronsPerSecond',['../namespaceMR.html#ab6428d5776a040cbc748843edbedfa60a37bef313095e6464a4e99e4a38f4cc8e',1,'MR']]],
-  ['middle_19',['Middle',['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05',1,'MR']]],
+  ['middle_19',['Middle',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ab1ca34f82e83c52b010f86955f264e05',1,'MR::RibbonFontManager::Middle'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05',1,'MR::Middle']]],
   ['millimeters_20',['millimeters',['../namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba882f184dd8a217016e9d9074fe1eddee',1,'MR']]],
   ['millimeters2_21',['millimeters2',['../namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4a1162e59f8ccc04d063172245c4fbb816',1,'MR']]],
   ['millimeters3_22',['millimeters3',['../namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29aa3a7f8edab106073f428064294552e862',1,'MR']]],

@@ -19,6 +19,7 @@ var MRRibbonConstants_8h =
     [ "cHistoryButtonSizeY", "MRRibbonConstants_8h.html#a52e5057bbe55444050f29109e7fe6369", null ],
     [ "cInputPadding", "MRRibbonConstants_8h.html#aa6af57435d9acbae46e95d40e73edc24", null ],
     [ "cItemInfoIndent", "MRRibbonConstants_8h.html#a70bcc4098e7e70c56a659aa92a28fa66", null ],
+    [ "cMiddleFontSize", "MRRibbonConstants_8h.html#af967dac752a05397da587b76ec72feb5", null ],
     [ "cMiddleIconSize", "MRRibbonConstants_8h.html#a8a7826f17744adf420a5075847c99e9e", null ],
     [ "cModalButtonWidth", "MRRibbonConstants_8h.html#a31f77e731e7a4fa3bb8606a8a801848d", null ],
     [ "cModalWindowPaddingX", "MRRibbonConstants_8h.html#a01fdaef48cbd3fbf6ece5c4e0b288dbe", null ],

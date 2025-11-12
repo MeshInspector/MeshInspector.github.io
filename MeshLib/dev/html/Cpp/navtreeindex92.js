@@ -1,5 +1,9 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1SliceInfo.html":[6,0,2,0,1,680],
+"structMR_1_1SliceInfo.html#a44785160df691c40ebdf392f66282315":[6,0,1,0,1,698,0],
+"structMR_1_1SliceInfo.html#a44785160df691c40ebdf392f66282315":[6,0,2,0,1,680,0],
+"structMR_1_1SliceInfoBase.html":[6,0,1,0,1,699],
 "structMR_1_1SliceInfoBase.html":[6,0,2,0,1,681],
 "structMR_1_1SliceInfoBase.html#a0f4b29a9c38aac83de066f74ddc95c4d":[6,0,1,0,1,699,1],
 "structMR_1_1SliceInfoBase.html#a0f4b29a9c38aac83de066f74ddc95c4d":[6,0,2,0,1,681,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1SymMatrix4.html#ae0f862cb58c64e35b3da4f2f0698f466":[6,0,0,0,7,6,7],
 "structMR_1_1SymMatrix4.html#afb5ebef84a840cfde0e7c3faa69da4ab":[6,0,0,0,7,6,18],
 "structMR_1_1SymMatrix4.html#afc0a6af3d8944b99ae426026e296ef03":[6,0,0,0,7,6,10],
-"structMR_1_1SymbolMeshParams.html":[6,0,1,0,1,726],
-"structMR_1_1SymbolMeshParams.html":[6,0,2,0,1,708],
-"structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a":[6,0,1,0,1,726,3],
-"structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a":[6,0,2,0,1,708,3],
-"structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307":[6,0,1,0,1,726,4]
+"structMR_1_1SymbolMeshParams.html":[6,0,1,0,1,726]
 };
