@@ -1,5 +1,9 @@
 var NAVTREEINDEX134 =
 {
+"std__variant__float__MR__Vector3f_8h.html#aab7c37c435fabc560d32877b6cc1c4a4":[6,2,1,0,0,0,2,271,9],
+"std__variant__float__MR__Vector3f_8h.html#ad13fa2d5e6890d48ae0bf3475d5abe63":[6,2,1,0,0,0,2,271,10],
+"std__variant__float__MR__Vector3f_8h.html#adc2174bbb04e001e7899078c1bd5c946":[6,2,1,0,0,0,2,271,8],
+"std__variant__float__MR__Vector3f_8h.html#ae2f880d918f463a5147f73b7e4ce2d60":[6,2,1,0,0,0,2,271,17],
 "std__variant__float__MR__Vector3f_8h.html#af3d91d0213ab95de48f9478fac0d21e0":[6,2,1,0,0,0,2,271,0],
 "std__variant__float__MR__Vector3f_8h_source.html":[6,2,1,0,0,0,2,271],
 "std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h.html":[6,2,1,0,0,0,2,272],
@@ -245,9 +249,5 @@ var NAVTREEINDEX134 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a61a890c1c59a68d662eefcdd05e4632f":[6,2,1,0,0,0,2,293,1],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a63f718b5a7e992106376e4a390ef53dd":[6,2,1,0,0,0,2,293,37],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a647bb82755ffdd768efac84acb613096":[6,2,1,0,0,0,2,293,24],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a685851b97361c300547bdd52dcd20fc3":[6,2,1,0,0,0,2,293,26],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a6a92d5ef9278effd839904d9ec211fa8":[6,2,1,0,0,0,2,293,38],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a6bf3d02172510430aa858841168bbac5":[6,2,1,0,0,0,2,293,17],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a7076b77d1fc4464c160c0ccadfdcd505":[6,2,1,0,0,0,2,293,14],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a7bb72bf53fa8fc5cac41bc9eca411927":[6,2,1,0,0,0,2,293,6]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a685851b97361c300547bdd52dcd20fc3":[6,2,1,0,0,0,2,293,26]
 };

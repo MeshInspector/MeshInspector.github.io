@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html":[6,1,1,0,1,782,0,0],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[6,1,0,0,2,782,0,0,11],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[6,1,1,0,1,782,0,0,11],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[6,1,0,0,2,782,0,0,6],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[6,1,1,0,1,782,0,0,6],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a456e16c544dfc022de1ef0106c877b0a":[6,1,0,0,2,782,0,0,2],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a456e16c544dfc022de1ef0106c877b0a":[6,1,1,0,1,782,0,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a4151543d3a7e3ad6a2199f7f2f41a559":[6,1,1,0,1,792,1],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a451f2efc7beac3c88721d39bfda0badf":[6,1,0,0,2,792,6],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a451f2efc7beac3c88721d39bfda0badf":[6,1,1,0,1,792,6],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#a7e42a3ed9cdaf451b18c9f81a931a8fe":[6,1,0,0,2,792,0],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#a7e42a3ed9cdaf451b18c9f81a931a8fe":[6,1,1,0,1,792,0],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#aa06488ebc404dfdfaf815acf5a5a238e":[6,1,0,0,2,792,4],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#aa06488ebc404dfdfaf815acf5a5a238e":[6,1,1,0,1,792,4],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#ad72f610ee751928beb96bd52ab77df93":[6,1,0,0,2,792,7]
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html#a7e42a3ed9cdaf451b18c9f81a931a8fe":[6,1,0,0,2,792,0]
 };

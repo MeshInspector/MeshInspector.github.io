@@ -2,7 +2,7 @@ var classmrmeshpy_1_1SaveSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093", null ],
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b", null ],
-    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a0d9eaa612e1328fefa36099c6e684bf6", null ],
+    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#abe6ce06025dc82c2f25913e57decc5d6", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a5ec9ce1fa6f90eb7f892b31b2b3ef370", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd", null ],
     [ "lengthUnit", "classmrmeshpy_1_1SaveSettings.html#abeb98dbc79164c4ca44a5572bf87ae7c", null ],
@@ -13,6 +13,8 @@ var classmrmeshpy_1_1SaveSettings =
     [ "onlyValidPoints", "classmrmeshpy_1_1SaveSettings.html#aa55f96bf1a4f0fbdf29abebca792cf0e", null ],
     [ "packPrimitives", "classmrmeshpy_1_1SaveSettings.html#a2757d2692d68494072f1f487909ffe3b", null ],
     [ "packPrimitives", "classmrmeshpy_1_1SaveSettings.html#a5440f2cb435a919c342ecba70d7bcc84", null ],
+    [ "primitiveColors", "classmrmeshpy_1_1SaveSettings.html#a491d341e64709efc64bfb7b06c61cb94", null ],
+    [ "primitiveColors", "classmrmeshpy_1_1SaveSettings.html#ab923837c094808909182c58c0a176578", null ],
     [ "progress", "classmrmeshpy_1_1SaveSettings.html#ad2aa92a9933e1da8144093512a63814f", null ],
     [ "progress", "classmrmeshpy_1_1SaveSettings.html#a1814186f22bbc6e369572926674e3f80", null ],
     [ "solidColor", "classmrmeshpy_1_1SaveSettings.html#a1c4405d19328e0f1b917e56fac7f7c8f", null ],

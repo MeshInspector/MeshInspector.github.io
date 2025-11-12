@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1UI_1_1CustomConfigModalSettings.html#ac8f21dd8acbc5b82e94cd24be7d5f52b":[6,0,1,0,1,42,7,4],
+"structMR_1_1UI_1_1CustomConfigModalSettings.html#ac8f21dd8acbc5b82e94cd24be7d5f52b":[6,0,2,0,1,26,5,4],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,42,10,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,1,26,8,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,1,0,1,42,10,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1UniteManyMeshesParams.html#ac647b8fce386278e1b3407f1b5f314e5":[6,0,1,0,1,784,1],
 "structMR_1_1UniteManyMeshesParams.html#ac647b8fce386278e1b3407f1b5f314e5":[6,0,2,0,1,766,1],
 "structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab":[6,0,1,0,1,784,8],
-"structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab":[6,0,2,0,1,766,8],
-"structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4":[6,0,1,0,1,784,5],
-"structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4":[6,0,2,0,1,766,5]
+"structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab":[6,0,2,0,1,766,8]
 };

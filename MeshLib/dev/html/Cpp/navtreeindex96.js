@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4":[6,0,1,0,1,784,5],
+"structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4":[6,0,2,0,1,766,5],
 "structMR_1_1UnorientedTriangle.html":[6,0,1,0,1,787],
 "structMR_1_1UnorientedTriangle.html":[6,0,2,0,1,769],
 "structMR_1_1UnorientedTriangle.html#a1559dd0f63575b110b6d67c47cd8ca61":[6,0,1,0,1,787,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "structMR_1_1ViewerSignals.html#a57fe4d6b8a69e76ac4e8628d3be288d9":[6,0,2,0,1,791,24],
 "structMR_1_1ViewerSignals.html#a5af2323fdea7a481a60381fa74026462":[6,0,1,0,1,809,45],
 "structMR_1_1ViewerSignals.html#a5af2323fdea7a481a60381fa74026462":[6,0,2,0,1,791,45],
-"structMR_1_1ViewerSignals.html#a635ab18f390475cfdf278794eae44fb6":[6,0,1,0,1,809,1],
-"structMR_1_1ViewerSignals.html#a635ab18f390475cfdf278794eae44fb6":[6,0,2,0,1,791,1],
-"structMR_1_1ViewerSignals.html#a647abf20003f8be5338c1a190a49e445":[6,0,1,0,1,809,48]
+"structMR_1_1ViewerSignals.html#a635ab18f390475cfdf278794eae44fb6":[6,0,1,0,1,809,1]
 };

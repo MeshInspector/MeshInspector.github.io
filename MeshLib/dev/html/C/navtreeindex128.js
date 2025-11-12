@@ -1,5 +1,9 @@
 var NAVTREEINDEX128 =
 {
+"std__optional__MR__ObjectMeshData_8h.html#aefc611477ff730a1625610cef2b66e89":[6,2,1,0,0,0,2,199,4],
+"std__optional__MR__ObjectMeshData_8h_source.html":[6,2,1,0,0,0,2,199],
+"std__optional__MR__PointCloud_8h.html":[6,2,1,0,0,0,2,200],
+"std__optional__MR__PointCloud_8h.html#a1b66f38f8e2420db0c0a2962e06a083e":[6,2,1,0,0,0,2,200,12],
 "std__optional__MR__PointCloud_8h.html#a1cf179f228f21f0039b9b236f0f8c9e8":[6,2,1,0,0,0,2,200,10],
 "std__optional__MR__PointCloud_8h.html#a24c7e6e9957de67ef8603e3468e87f19":[6,2,1,0,0,0,2,200,13],
 "std__optional__MR__PointCloud_8h.html#a385d02a6c3f7666086fa46bc7c9ff69a":[6,2,1,0,0,0,2,200,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d":[6,2,1,0,0,0,2,213,1],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a9e20d4f9191bb1c4294a8f12d85773f2":[6,2,1,0,0,0,2,213,5],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#ae22374a3635a47196dd9106b08e2addd":[6,2,1,0,0,0,2,213,10],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#afe140b8447a22545bdf343afb76b7aa9":[6,2,1,0,0,0,2,213,13],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h_source.html":[6,2,1,0,0,0,2,213],
-"std__optional__std__vector__MR__ObjVertId_8h.html":[6,2,1,0,0,0,2,214],
-"std__optional__std__vector__MR__ObjVertId_8h.html#a024cff20a4cfa52e6fb5226a9e565302":[6,2,1,0,0,0,2,214,6],
-"std__optional__std__vector__MR__ObjVertId_8h.html#a12878bbd21463118d0985703b38b256f":[6,2,1,0,0,0,2,214,2]
+"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#afe140b8447a22545bdf343afb76b7aa9":[6,2,1,0,0,0,2,213,13]
 };
