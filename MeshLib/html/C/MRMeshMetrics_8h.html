@@ -236,6 +236,8 @@ Functions</h2></td></tr>
 <tr class="separator:af591af0c2046f584d4c811ef697e02ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a979abf093be13d558b0b52a9da4782" id="r_a3a979abf093be13d558b0b52a9da4782"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a979abf093be13d558b0b52a9da4782">MR_getVerticalStitchMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *upDir)</td></tr>
 <tr class="separator:a3a979abf093be13d558b0b52a9da4782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b966e94e50d0ba90f5dafcf8257bc7" id="r_a03b966e94e50d0ba90f5dafcf8257bc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b966e94e50d0ba90f5dafcf8257bc7">MR_getVerticalStitchMetricEdgeBased</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *upDir)</td></tr>
+<tr class="separator:a03b966e94e50d0ba90f5dafcf8257bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" id="r_aa2bd61ec3e5e7cbbb3eb21e2d9261f1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2bd61ec3e5e7cbbb3eb21e2d9261f1c">MR_getComplexFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e)</td></tr>
 <tr class="separator:aa2bd61ec3e5e7cbbb3eb21e2d9261f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01dafe635ce14b8635a07ee9bb631039" id="r_a01dafe635ce14b8635a07ee9bb631039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01dafe635ce14b8635a07ee9bb631039">MR_getParallelPlaneFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane)</td></tr>
@@ -1055,7 +1057,32 @@ Simple metric minimizing edge length Generated from function <code><a class="elR
       </table>
 </div><div class="memdoc">
 <p>Forbids connecting vertices from the same hole <br  />
+penalize for large area and face normal deviation from upDir <br  />
 All new faces should be parallel to given direction Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaf5fc59fe1db6fed34f037ff6dad6bc44">MR::getVerticalStitchMetric</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>upDir</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a03b966e94e50d0ba90f5dafcf8257bc7" name="a03b966e94e50d0ba90f5dafcf8257bc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b966e94e50d0ba90f5dafcf8257bc7">&#9670;&#160;</a></span>MR_getVerticalStitchMetricEdgeBased()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getVerticalStitchMetricEdgeBased </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>upDir</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Forbids connecting vertices from the same hole <br  />
+penalize for long edges and its deviation from upDir <br  />
+All new faces should be parallel to given direction Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gafdcdacfd248aae959e082574edb6dcb3">MR::getVerticalStitchMetricEdgeBased</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>upDir</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

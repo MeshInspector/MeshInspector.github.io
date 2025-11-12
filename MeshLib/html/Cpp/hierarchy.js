@@ -19,6 +19,7 @@ var hierarchy =
     [ "MR::AncillaryLabel", "structMR_1_1AncillaryLabel.html", null ],
     [ "MR::AncillaryLines", "structMR_1_1AncillaryLines.html", null ],
     [ "MR::AncillaryMesh", "structMR_1_1AncillaryMesh.html", null ],
+    [ "MR::AncillaryPlane", "structMR_1_1AncillaryPlane.html", null ],
     [ "MR::AncillaryPoints", "structMR_1_1AncillaryPoints.html", null ],
     [ "MR::RenderDimensions::AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", null ],
     [ "MR::AnyVisualizeMaskEnum", "classMR_1_1AnyVisualizeMaskEnum.html", null ],
@@ -157,6 +158,9 @@ var hierarchy =
     [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::Features::Traits::Binary< Primitives::Sphere, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
+    [ "MR::BitSet", "classMR_1_1BitSet.html", [
+      [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
+    ] ],
     [ "MR::SeparationPointStorage::Block", "structMR_1_1SeparationPointStorage_1_1Block.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< FaceId, size_t >", "structMR_1_1BMap.html", null ],
@@ -237,7 +241,6 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ImGuiMenu", "classMR_1_1ImGuiMenu.html", [
-          [ "MR::Menu", "classMR_1_1Menu.html", null ],
           [ "MR::RibbonMenu", "classMR_1_1RibbonMenu.html", null ]
         ] ]
       ] ],
@@ -300,6 +303,7 @@ var hierarchy =
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
     [ "MR::ImGuiMeasurementIndicators::CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
+    [ "MR::UI::CustomConfigModalSettings", "structMR_1_1UI_1_1CustomConfigModalSettings.html", null ],
     [ "ImGui::CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", null ],
     [ "MR::CutByProjectionSettings", "structMR_1_1CutByProjectionSettings.html", null ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", null ],
@@ -345,11 +349,6 @@ var hierarchy =
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text::DrawResult", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html", null ],
-    [ "boost::dynamic_bitset", null, [
-      [ "MR::BitSet", "classMR_1_1BitSet.html", [
-        [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
-      ] ]
-    ] ],
     [ "MR::PointsLoad::E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", null ],
     [ "MR::EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
@@ -399,6 +398,7 @@ var hierarchy =
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
+    [ "MR::FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", null ],
     [ "MR::FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", null ],
     [ "MR::UI::RectAllocator::FindFreeRectResult", "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html", null ],
     [ "MR::FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", null ],
@@ -498,6 +498,7 @@ var hierarchy =
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
       [ "MR::PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", null ],
+      [ "MR::PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html", null ],
       [ "MR::PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html", null ],
       [ "MR::PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html", null ],
       [ "MR::PickPointManager::WidgetHistoryAction", "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html", null ],
@@ -780,7 +781,6 @@ var hierarchy =
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
-    [ "MR::MeshAttributes", "structMR_1_1MeshAttributes.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", null ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
@@ -1027,6 +1027,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
     [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
+    [ "MR::FillingSurface::ParamsFacade< T >", "structMR_1_1FillingSurface_1_1ParamsFacade.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
@@ -1039,7 +1040,6 @@ var hierarchy =
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", null ],
     [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", null ],
     [ "MR::UI::PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", null ],
-    [ "MR::ImGuiMenu::PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", null ],
     [ "MR::PlyLoadParams", "structMR_1_1PlyLoadParams.html", null ],
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],
@@ -1142,8 +1142,10 @@ var hierarchy =
       [ "MR::RenderWrapObject::Wrapper< ObjectType, RenderObjectType >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
     ] ],
     [ "MR::ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", null ],
+    [ "MR::SceneLoad::Result", "structMR_1_1SceneLoad_1_1Result.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
     [ "MR::RibbonConfig", "structMR_1_1RibbonConfig.html", null ],
+    [ "MR::RibbonFontHolder", "classMR_1_1RibbonFontHolder.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
     [ "MR::RibbonMenuItemAdder", "classMR_1_1RibbonMenuItemAdder.html", [
@@ -1172,7 +1174,6 @@ var hierarchy =
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
     [ "MR::SceneCache", "classMR_1_1SceneCache.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
-    [ "MR::SceneLoad::SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", null ],
     [ "MR::SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", [
       [ "MR::RibbonSceneObjectsListDrawer", "classMR_1_1RibbonSceneObjectsListDrawer.html", null ]
     ] ],
@@ -1196,6 +1197,8 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],
+    [ "MR::ObjectSave::Settings", "structMR_1_1ObjectSave_1_1Settings.html", null ],
+    [ "MR::SceneLoad::Settings", "structMR_1_1SceneLoad_1_1Settings.html", null ],
     [ "MR::SelfIntersections::Settings", "structMR_1_1SelfIntersections_1_1Settings.html", null ],
     [ "MR::SurfaceManipulationWidget::Settings", "structMR_1_1SurfaceManipulationWidget_1_1Settings.html", null ],
     [ "MR::TriangulationHelpers::Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", null ],
@@ -1428,6 +1431,7 @@ var hierarchy =
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
     ] ],
     [ "MR::ViewerSetup", "classMR_1_1ViewerSetup.html", null ],
+    [ "MR::ViewerSignals", "structMR_1_1ViewerSignals.html", null ],
     [ "MR::ViewerTitle", "classMR_1_1ViewerTitle.html", null ],
     [ "MR::Viewport", "classMR_1_1Viewport.html", null ],
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", null ],
@@ -1481,6 +1485,7 @@ var hierarchy =
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
     [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
+    [ "MR::WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::XfBasedCache< Box3f >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::ZCompensateParams", "structMR_1_1ZCompensateParams.html", null ],

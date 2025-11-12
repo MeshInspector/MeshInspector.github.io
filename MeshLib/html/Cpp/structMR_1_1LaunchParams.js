@@ -21,6 +21,7 @@ var structMR_1_1LaunchParams =
     [ "name", "structMR_1_1LaunchParams.html#ae1dc0fc994254f323bd28cbf180dffdf", null ],
     [ "preferOpenGL3", "structMR_1_1LaunchParams.html#acf3d8ea466f9852feb32b9bbf903c0d0", null ],
     [ "render3dSceneInTexture", "structMR_1_1LaunchParams.html#a05b72c90683749a3c0a7b1c0994af432", null ],
+    [ "resetConfig", "structMR_1_1LaunchParams.html#aacf5adff18ac37c5815a2a4d5a6bd3ec", null ],
     [ "showMRVersionInTitle", "structMR_1_1LaunchParams.html#a8a3dd1d7fa354ff72a92220cc87229a5", null ],
     [ "splashWindow", "structMR_1_1LaunchParams.html#a401802bd4a4ed3a745fe35920b213cb5", null ],
     [ "startEventLoop", "structMR_1_1LaunchParams.html#a165772971fdd10bdb851e8f7acde05eb", null ],

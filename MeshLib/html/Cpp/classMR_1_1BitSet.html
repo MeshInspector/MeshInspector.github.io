@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1BitSet.html',''); initResizable(true); });
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classMR_1_1BitSet-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::BitSet Class Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
@@ -163,52 +164,80 @@ $(function(){initNavTree('classMR_1_1BitSet.html',''); initResizable(true); });
  <div class="center">
   <img src="classMR_1_1BitSet.png" usemap="#MR::BitSet_map" alt=""/>
   <map id="MR::BitSet_map" name="MR::BitSet_map">
-<area href="classMR_1_1TypedBitSet.html" alt="MR::TypedBitSet&lt; I &gt;" shape="rect" coords="0,112,221,136"/>
+<area href="classMR_1_1TypedBitSet.html" alt="MR::TypedBitSet&lt; I &gt;" shape="rect" coords="0,56,131,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a21c4aa1d25292ca929dc095286685853" id="r_a21c4aa1d25292ca929dc095286685853"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c4aa1d25292ca929dc095286685853">base</a> = boost::dynamic_bitset&lt;std::uint64_t&gt;</td></tr>
-<tr class="separator:a21c4aa1d25292ca929dc095286685853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e90d15a57f34b4cdbf8341a85e52575" id="r_a2e90d15a57f34b4cdbf8341a85e52575"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> = <a class="el" href="namespaceMR.html#a4d53a06ada7172e8664379b0839b9f98">Uint64</a></td></tr>
+<tr class="separator:a2e90d15a57f34b4cdbf8341a85e52575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a029565ede6f02c029a79d6821794eca3" id="r_a029565ede6f02c029a79d6821794eca3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> = size_t</td></tr>
+<tr class="separator:a029565ede6f02c029a79d6821794eca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0427884dece1dde1fa25caaa7b2aaba9" id="r_a0427884dece1dde1fa25caaa7b2aaba9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> = size_t</td></tr>
 <tr class="separator:a0427884dece1dde1fa25caaa7b2aaba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae581135b70066374b248a52f167c4d4c" id="r_ae581135b70066374b248a52f167c4d4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae581135b70066374b248a52f167c4d4c">BitSet</a> (size_t numBits, bool fillValue)</td></tr>
-<tr class="memdesc:ae581135b70066374b248a52f167c4d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset of given size filled with given value  <br /></td></tr>
-<tr class="separator:ae581135b70066374b248a52f167c4d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48f325ee7390807d44715db5a07cf666" id="r_a48f325ee7390807d44715db5a07cf666"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f325ee7390807d44715db5a07cf666">BitSet</a> (size_t, unsigned long)=delete</td></tr>
-<tr class="memdesc:a48f325ee7390807d44715db5a07cf666"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit these constructors inherited from boost::dynamic_bitset, which can initialize only few initial bits  <br /></td></tr>
-<tr class="separator:a48f325ee7390807d44715db5a07cf666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae117cb7aa7c8793bcc7580ad8de60fee" id="r_ae117cb7aa7c8793bcc7580ad8de60fee"><td class="memTemplParams" colspan="2">template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:ae117cb7aa7c8793bcc7580ad8de60fee"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae117cb7aa7c8793bcc7580ad8de60fee">BitSet</a> (T, T)=delete</td></tr>
-<tr class="separator:ae117cb7aa7c8793bcc7580ad8de60fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a466f41a196180947a6b55ce01eb5f761" id="r_a466f41a196180947a6b55ce01eb5f761"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a466f41a196180947a6b55ce01eb5f761">BitSet</a> () noexcept=default</td></tr>
+<tr class="memdesc:a466f41a196180947a6b55ce01eb5f761"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty bitset  <br /></td></tr>
+<tr class="separator:a466f41a196180947a6b55ce01eb5f761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab07406cee38429e04894dd1de6f202" id="r_afab07406cee38429e04894dd1de6f202"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab07406cee38429e04894dd1de6f202">BitSet</a> (size_t numBits, bool fillValue=false)</td></tr>
+<tr class="memdesc:afab07406cee38429e04894dd1de6f202"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset of given size filled with given value  <br /></td></tr>
+<tr class="separator:afab07406cee38429e04894dd1de6f202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40738ebf472136cc76b60d1563edb0de" id="r_a40738ebf472136cc76b60d1563edb0de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40738ebf472136cc76b60d1563edb0de">reserve</a> (<a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> numBits)</td></tr>
+<tr class="separator:a40738ebf472136cc76b60d1563edb0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4421c6a1ac2ff5a1a246553f6b4b7d68" id="r_a4421c6a1ac2ff5a1a246553f6b4b7d68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4421c6a1ac2ff5a1a246553f6b4b7d68">resize</a> (<a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> numBits, bool fillValue=false)</td></tr>
+<tr class="separator:a4421c6a1ac2ff5a1a246553f6b4b7d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911e2daac2bf0277dfa9759afa552795" id="r_a911e2daac2bf0277dfa9759afa552795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a911e2daac2bf0277dfa9759afa552795">clear</a> ()</td></tr>
+<tr class="separator:a911e2daac2bf0277dfa9759afa552795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af71838c1900e9dd77091a6e2204b2a69" id="r_af71838c1900e9dd77091a6e2204b2a69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af71838c1900e9dd77091a6e2204b2a69">shrink_to_fit</a> ()</td></tr>
+<tr class="separator:af71838c1900e9dd77091a6e2204b2a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68591813e27420d51ac2dbe237e85d36" id="r_a68591813e27420d51ac2dbe237e85d36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68591813e27420d51ac2dbe237e85d36">empty</a> () const noexcept</td></tr>
+<tr class="separator:a68591813e27420d51ac2dbe237e85d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf0ff93a8acb7497c308b9406d035d3" id="r_a9bf0ff93a8acb7497c308b9406d035d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bf0ff93a8acb7497c308b9406d035d3">size</a> () const noexcept</td></tr>
+<tr class="separator:a9bf0ff93a8acb7497c308b9406d035d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc2f39f61e481d944fd1fe7966932025" id="r_abc2f39f61e481d944fd1fe7966932025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc2f39f61e481d944fd1fe7966932025">num_blocks</a> () const noexcept</td></tr>
+<tr class="separator:abc2f39f61e481d944fd1fe7966932025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5356319788e20bd77294c90f6b72ea1" id="r_ad5356319788e20bd77294c90f6b72ea1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5356319788e20bd77294c90f6b72ea1">capacity</a> () const noexcept</td></tr>
+<tr class="separator:ad5356319788e20bd77294c90f6b72ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d7cb003f37bb4ff177bf6082074305" id="r_a88d7cb003f37bb4ff177bf6082074305"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88d7cb003f37bb4ff177bf6082074305">uncheckedTest</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
+<tr class="separator:a88d7cb003f37bb4ff177bf6082074305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f040574bd60bfde685c9747f1e689c" id="r_aa1f040574bd60bfde685c9747f1e689c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1f040574bd60bfde685c9747f1e689c">uncheckedTestSet</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, bool val=true)</td></tr>
+<tr class="separator:aa1f040574bd60bfde685c9747f1e689c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6d4690169ae21969bc5f538fc8fbff" id="r_aab6d4690169ae21969bc5f538fc8fbff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab6d4690169ae21969bc5f538fc8fbff">test</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
 <tr class="separator:aab6d4690169ae21969bc5f538fc8fbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85be34ba3bb731ce828ca21c67b1413c" id="r_a85be34ba3bb731ce828ca21c67b1413c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85be34ba3bb731ce828ca21c67b1413c">test_set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, bool val=true)</td></tr>
 <tr class="separator:a85be34ba3bb731ce828ca21c67b1413c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a597ed58dd86315f71c893994b7bb46c4" id="r_a597ed58dd86315f71c893994b7bb46c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597ed58dd86315f71c893994b7bb46c4">set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, size_type len, bool val)</td></tr>
-<tr class="separator:a597ed58dd86315f71c893994b7bb46c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac775819451398d31705a74cf1741c2ba" id="r_ac775819451398d31705a74cf1741c2ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac775819451398d31705a74cf1741c2ba">set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> len, bool val)</td></tr>
+<tr class="separator:ac775819451398d31705a74cf1741c2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc51849e29c44edfdbf413c84b74f4c6" id="r_abc51849e29c44edfdbf413c84b74f4c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc51849e29c44edfdbf413c84b74f4c6">set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, bool val)</td></tr>
 <tr class="separator:abc51849e29c44edfdbf413c84b74f4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f625bd1a775ce33f59b769411f2d7e7" id="r_a6f625bd1a775ce33f59b769411f2d7e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f625bd1a775ce33f59b769411f2d7e7">set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n)</td></tr>
 <tr class="separator:a6f625bd1a775ce33f59b769411f2d7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6847dbe94d82cde085f4440c58980759" id="r_a6847dbe94d82cde085f4440c58980759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6847dbe94d82cde085f4440c58980759">set</a> ()</td></tr>
-<tr class="separator:a6847dbe94d82cde085f4440c58980759"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a784dcb0f29bf20a645a4267b68d0d6ae" id="r_a784dcb0f29bf20a645a4267b68d0d6ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784dcb0f29bf20a645a4267b68d0d6ae">reset</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, size_type len)</td></tr>
-<tr class="separator:a784dcb0f29bf20a645a4267b68d0d6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bd23f1f5881d4a90bb163298618ecb3" id="r_a8bd23f1f5881d4a90bb163298618ecb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bd23f1f5881d4a90bb163298618ecb3">set</a> ()</td></tr>
+<tr class="separator:a8bd23f1f5881d4a90bb163298618ecb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add75ee784a906060d8f27b2e89a0196d" id="r_add75ee784a906060d8f27b2e89a0196d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add75ee784a906060d8f27b2e89a0196d">reset</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> len)</td></tr>
+<tr class="separator:add75ee784a906060d8f27b2e89a0196d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2267b11bc02d8a216df148fdccc02a3" id="r_aa2267b11bc02d8a216df148fdccc02a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2267b11bc02d8a216df148fdccc02a3">reset</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n)</td></tr>
 <tr class="separator:aa2267b11bc02d8a216df148fdccc02a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a247ac2e0767fad340477836233e87cb8" id="r_a247ac2e0767fad340477836233e87cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247ac2e0767fad340477836233e87cb8">reset</a> ()</td></tr>
-<tr class="separator:a247ac2e0767fad340477836233e87cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93e21fb90c6e66305939698ba328dfb4" id="r_a93e21fb90c6e66305939698ba328dfb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e21fb90c6e66305939698ba328dfb4">flip</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, size_type len)</td></tr>
-<tr class="separator:a93e21fb90c6e66305939698ba328dfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a9101a86efa0cfba6cd21a7c170e2f4" id="r_a7a9101a86efa0cfba6cd21a7c170e2f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a9101a86efa0cfba6cd21a7c170e2f4">reset</a> ()</td></tr>
+<tr class="separator:a7a9101a86efa0cfba6cd21a7c170e2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09e4cde68a5174ca2f71c1699df3ab61" id="r_a09e4cde68a5174ca2f71c1699df3ab61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09e4cde68a5174ca2f71c1699df3ab61">flip</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> len)</td></tr>
+<tr class="separator:a09e4cde68a5174ca2f71c1699df3ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5fff3291406197a18b73907ba6d0ad0" id="r_af5fff3291406197a18b73907ba6d0ad0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5fff3291406197a18b73907ba6d0ad0">flip</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n)</td></tr>
 <tr class="separator:af5fff3291406197a18b73907ba6d0ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac44f8d71b297c1ae62c6d8966ac986c" id="r_aac44f8d71b297c1ae62c6d8966ac986c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac44f8d71b297c1ae62c6d8966ac986c">flip</a> ()</td></tr>
-<tr class="separator:aac44f8d71b297c1ae62c6d8966ac986c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b018ef3dd10acb90d5c3db4391737c5" id="r_a7b018ef3dd10acb90d5c3db4391737c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b018ef3dd10acb90d5c3db4391737c5">flip</a> ()</td></tr>
+<tr class="separator:a7b018ef3dd10acb90d5c3db4391737c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa173f3c44069e9e9b2e958f8c14c63c" id="r_aaa173f3c44069e9e9b2e958f8c14c63c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa173f3c44069e9e9b2e958f8c14c63c">reverse</a> ()</td></tr>
+<tr class="memdesc:aaa173f3c44069e9e9b2e958f8c14c63c"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes the order of bits on the opposite  <br /></td></tr>
+<tr class="separator:aaa173f3c44069e9e9b2e958f8c14c63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfad508aa764e014db0ace9f3fc05f93" id="r_acfad508aa764e014db0ace9f3fc05f93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfad508aa764e014db0ace9f3fc05f93">push_back</a> (bool val)</td></tr>
+<tr class="memdesc:acfad508aa764e014db0ace9f3fc05f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one more bit with the given value in the container, increasing its size on 1  <br /></td></tr>
+<tr class="separator:acfad508aa764e014db0ace9f3fc05f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4799e91aeb36deab4540ac14bf16e98" id="r_af4799e91aeb36deab4540ac14bf16e98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4799e91aeb36deab4540ac14bf16e98">pop_back</a> ()</td></tr>
+<tr class="memdesc:af4799e91aeb36deab4540ac14bf16e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes last bit from the container, decreasing its size on 1  <br /></td></tr>
+<tr class="separator:af4799e91aeb36deab4540ac14bf16e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae109ea3b45a9d42a26687dadfc85f936" id="r_ae109ea3b45a9d42a26687dadfc85f936"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae109ea3b45a9d42a26687dadfc85f936">bits</a> () const</td></tr>
 <tr class="memdesc:ae109ea3b45a9d42a26687dadfc85f936"><td class="mdescLeft">&#160;</td><td class="mdescRight">read-only access to all bits stored as a vector of uint64 blocks  <br /></td></tr>
 <tr class="separator:ae109ea3b45a9d42a26687dadfc85f936"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,8 +252,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a50b06c0c6ba58204d191f3b900439c" id="r_a2a50b06c0c6ba58204d191f3b900439c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a50b06c0c6ba58204d191f3b900439c">subtract</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b, int bShiftInBlocks)</td></tr>
 <tr class="memdesc:a2a50b06c0c6ba58204d191f3b900439c"><td class="mdescLeft">&#160;</td><td class="mdescRight">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block  <br /></td></tr>
 <tr class="separator:a2a50b06c0c6ba58204d191f3b900439c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9c2df8cc058b06f1078c21a438d2660" id="r_aa9c2df8cc058b06f1078c21a438d2660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9c2df8cc058b06f1078c21a438d2660">all</a> () const</td></tr>
+<tr class="memdesc:aa9c2df8cc058b06f1078c21a438d2660"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all bits in this container are set  <br /></td></tr>
+<tr class="separator:aa9c2df8cc058b06f1078c21a438d2660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c22c00f0d1b9104c798b6d0c91d791" id="r_af0c22c00f0d1b9104c798b6d0c91d791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0c22c00f0d1b9104c798b6d0c91d791">any</a> () const</td></tr>
+<tr class="memdesc:af0c22c00f0d1b9104c798b6d0c91d791"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if at least one bits in this container is set  <br /></td></tr>
+<tr class="separator:af0c22c00f0d1b9104c798b6d0c91d791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae93bbbefc2bee256a329ec3ac480f963" id="r_ae93bbbefc2bee256a329ec3ac480f963"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93bbbefc2bee256a329ec3ac480f963">none</a> () const</td></tr>
+<tr class="memdesc:ae93bbbefc2bee256a329ec3ac480f963"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all bits in this container are reset  <br /></td></tr>
+<tr class="separator:ae93bbbefc2bee256a329ec3ac480f963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b5ac75b778ec242623bfc126e69476d" id="r_a0b5ac75b778ec242623bfc126e69476d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b5ac75b778ec242623bfc126e69476d">count</a> () const noexcept</td></tr>
+<tr class="memdesc:a0b5ac75b778ec242623bfc126e69476d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of set bits in the whole set  <br /></td></tr>
+<tr class="separator:a0b5ac75b778ec242623bfc126e69476d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e1e2ea2d5a77114c44b2d32f3e9e8b" id="r_ac8e1e2ea2d5a77114c44b2d32f3e9e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e1e2ea2d5a77114c44b2d32f3e9e8b">find_first</a> () const</td></tr>
+<tr class="memdesc:ac8e1e2ea2d5a77114c44b2d32f3e9e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
+<tr class="separator:ac8e1e2ea2d5a77114c44b2d32f3e9e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c6d3157f3b02affcf7def04eb60c31" id="r_ab3c6d3157f3b02affcf7def04eb60c31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3c6d3157f3b02affcf7def04eb60c31">find_next</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
+<tr class="memdesc:ab3c6d3157f3b02affcf7def04eb60c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
+<tr class="separator:ab3c6d3157f3b02affcf7def04eb60c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21e124c25421599977ed1fc9874016e3" id="r_a21e124c25421599977ed1fc9874016e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e124c25421599977ed1fc9874016e3">find_last</a> () const</td></tr>
-<tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such as bit i is set, or npos if *this has no on bits.  <br /></td></tr>
+<tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a274cea4a76458910a418ec9e8e3e3edf" id="r_a274cea4a76458910a418ec9e8e3e3edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274cea4a76458910a418ec9e8e3e3edf">nthSetBit</a> (size_t n) const</td></tr>
 <tr class="memdesc:a274cea4a76458910a418ec9e8e3e3edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set  <br /></td></tr>
@@ -232,13 +279,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad205d27f45977c18c7f10c77650523aa" id="r_ad205d27f45977c18c7f10c77650523aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad205d27f45977c18c7f10c77650523aa">is_subset_of</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a) const</td></tr>
 <tr class="memdesc:ad205d27f45977c18c7f10c77650523aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.  <br /></td></tr>
 <tr class="separator:ad205d27f45977c18c7f10c77650523aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46e381a4bfd0105477e1e7bf9355253d" id="r_a46e381a4bfd0105477e1e7bf9355253d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e381a4bfd0105477e1e7bf9355253d">is_proper_subset_of</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a) const =delete</td></tr>
-<tr class="memdesc:a46e381a4bfd0105477e1e7bf9355253d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.  <br /></td></tr>
-<tr class="separator:a46e381a4bfd0105477e1e7bf9355253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac537a58da8e04ed776a89cd4463876ec" id="r_ac537a58da8e04ed776a89cd4463876ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac537a58da8e04ed776a89cd4463876ec">intersects</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a) const</td></tr>
+<tr class="memdesc:ac537a58da8e04ed776a89cd4463876ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.  <br /></td></tr>
+<tr class="separator:ac537a58da8e04ed776a89cd4463876ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7929d81a23ad4ff51c472f0d1c992d5" id="r_ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7929d81a23ad4ff51c472f0d1c992d5">resizeWithReserve</a> (size_t newSize)</td></tr>
 <tr class="memdesc:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
 <tr class="separator:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab61cde9e7da6d5d6c75fefd11e2e6a24" id="r_ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> (size_t pos, size_type len, bool val=true)</td></tr>
+<tr class="memitem:ab61cde9e7da6d5d6c75fefd11e2e6a24" id="r_ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> (size_t pos, <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> len, bool val=true)</td></tr>
 <tr class="memdesc:ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements  <br /></td></tr>
 <tr class="separator:ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a737f8cc71944c7c750f8eeba4028ac17" id="r_a737f8cc71944c7c750f8eeba4028ac17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> (size_t pos, bool val=true)</td></tr>
@@ -257,21 +304,31 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8bb32afb9d02a11bf7c980344babc472" id="r_a8bb32afb9d02a11bf7c980344babc472"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bb32afb9d02a11bf7c980344babc472">fromBlocks</a> (std::vector&lt; <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> &gt; &amp;&amp;blocks)</td></tr>
+<tr class="memdesc:a8bb32afb9d02a11bf7c980344babc472"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset from the given blocks of bits  <br /></td></tr>
+<tr class="separator:a8bb32afb9d02a11bf7c980344babc472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d6c2e6655c7c3a36f9ba013553d488" id="r_a21d6c2e6655c7c3a36f9ba013553d488"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488">beginId</a> ()</td></tr>
 <tr class="memdesc:a21d6c2e6655c7c3a36f9ba013553d488"><td class="mdescLeft">&#160;</td><td class="mdescRight">[<a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488" title="[beginId(), endId()) is the range of all bits in the set">beginId()</a>, <a class="el" href="#a1f947bfd0ac71d4db95bbf1402d27ddf">endId()</a>) is the range of all bits in the set  <br /></td></tr>
 <tr class="separator:a21d6c2e6655c7c3a36f9ba013553d488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a1f620464c1c261bfb83432e57b5312a5" id="r_a1f620464c1c261bfb83432e57b5312a5"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f620464c1c261bfb83432e57b5312a5">bits_per_block</a> = sizeof( <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> ) * 8</td></tr>
+<tr class="separator:a1f620464c1c261bfb83432e57b5312a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09b9c83f7a055fa6ea95e83b7fee246" id="r_af09b9c83f7a055fa6ea95e83b7fee246"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af09b9c83f7a055fa6ea95e83b7fee246">npos</a> = (size_t)-1</td></tr>
+<tr class="separator:af09b9c83f7a055fa6ea95e83b7fee246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size()</a> considered off during testing </p>
+<div class="textblock"><p>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <a class="el" href="#a9bf0ff93a8acb7497c308b9406d035d3">size()</a> considered off during testing </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a21c4aa1d25292ca929dc095286685853" name="a21c4aa1d25292ca929dc095286685853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21c4aa1d25292ca929dc095286685853">&#9670;&#160;</a></span>base</h2>
+<a id="a2e90d15a57f34b4cdbf8341a85e52575" name="a2e90d15a57f34b4cdbf8341a85e52575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e90d15a57f34b4cdbf8341a85e52575">&#9670;&#160;</a></span>block_type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a21c4aa1d25292ca929dc095286685853">MR::BitSet::base</a> = boost::dynamic_bitset&lt;std::uint64_t&gt;</td>
+          <td class="memname">using <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">MR::BitSet::block_type</a> = <a class="el" href="namespaceMR.html#a4d53a06ada7172e8664379b0839b9f98">Uint64</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -292,9 +349,50 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a029565ede6f02c029a79d6821794eca3" name="a029565ede6f02c029a79d6821794eca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029565ede6f02c029a79d6821794eca3">&#9670;&#160;</a></span>size_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a029565ede6f02c029a79d6821794eca3">MR::BitSet::size_type</a> = size_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae581135b70066374b248a52f167c4d4c" name="ae581135b70066374b248a52f167c4d4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae581135b70066374b248a52f167c4d4c">&#9670;&#160;</a></span>BitSet() <span class="overload">[1/3]</span></h2>
+<a id="a466f41a196180947a6b55ce01eb5f761" name="a466f41a196180947a6b55ce01eb5f761"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a466f41a196180947a6b55ce01eb5f761">&#9670;&#160;</a></span>BitSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::BitSet::BitSet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates empty bitset </p>
+
+</div>
+</div>
+<a id="afab07406cee38429e04894dd1de6f202" name="afab07406cee38429e04894dd1de6f202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab07406cee38429e04894dd1de6f202">&#9670;&#160;</a></span>BitSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,7 +408,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fillValue</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fillValue</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -324,69 +422,61 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a48f325ee7390807d44715db5a07cf666" name="a48f325ee7390807d44715db5a07cf666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48f325ee7390807d44715db5a07cf666">&#9670;&#160;</a></span>BitSet() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::BitSet::BitSet </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>prohibit these constructors inherited from boost::dynamic_bitset, which can initialize only few initial bits </p>
-
-</div>
-</div>
-<a id="ae117cb7aa7c8793bcc7580ad8de60fee" name="ae117cb7aa7c8793bcc7580ad8de60fee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae117cb7aa7c8793bcc7580ad8de60fee">&#9670;&#160;</a></span>BitSet() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::BitSet::BitSet </td>
-          <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa9c2df8cc058b06f1078c21a438d2660" name="aa9c2df8cc058b06f1078c21a438d2660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9c2df8cc058b06f1078c21a438d2660">&#9670;&#160;</a></span>all()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::BitSet::all </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if all bits in this container are set </p>
+
+</div>
+</div>
+<a id="af0c22c00f0d1b9104c798b6d0c91d791" name="af0c22c00f0d1b9104c798b6d0c91d791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c22c00f0d1b9104c798b6d0c91d791">&#9670;&#160;</a></span>any()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::BitSet::any </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if at least one bits in this container is set </p>
+
+</div>
+</div>
 <a id="a737f8cc71944c7c750f8eeba4028ac17" name="a737f8cc71944c7c750f8eeba4028ac17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a737f8cc71944c7c750f8eeba4028ac17">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
@@ -433,7 +523,7 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_type</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -555,12 +645,114 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>read-only access to all bits stored as a vector of uint64 blocks </p>
+
+</div>
+</div>
+<a id="ad5356319788e20bd77294c90f6b72ea1" name="ad5356319788e20bd77294c90f6b72ea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5356319788e20bd77294c90f6b72ea1">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> MR::BitSet::capacity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a911e2daac2bf0277dfa9759afa552795" name="a911e2daac2bf0277dfa9759afa552795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911e2daac2bf0277dfa9759afa552795">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSet::clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b5ac75b778ec242623bfc126e69476d" name="a0b5ac75b778ec242623bfc126e69476d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b5ac75b778ec242623bfc126e69476d">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> MR::BitSet::count </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the number of set bits in the whole set </p>
+
+</div>
+</div>
+<a id="a68591813e27420d51ac2dbe237e85d36" name="a68591813e27420d51ac2dbe237e85d36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68591813e27420d51ac2dbe237e85d36">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BitSet::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -589,6 +781,33 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
+<a id="ac8e1e2ea2d5a77114c44b2d32f3e9e8b" name="ac8e1e2ea2d5a77114c44b2d32f3e9e8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8e1e2ea2d5a77114c44b2d32f3e9e8b">&#9670;&#160;</a></span>find_first()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::find_first </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the smallest index i such that bit i is set, or npos if *this has no on bits. </p>
+
+</div>
+</div>
 <a id="a21e124c25421599977ed1fc9874016e3" name="a21e124c25421599977ed1fc9874016e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21e124c25421599977ed1fc9874016e3">&#9670;&#160;</a></span>find_last()</h2>
 
@@ -612,12 +831,12 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 </table>
 </div><div class="memdoc">
 
-<p>return the highest index i such as bit i is set, or npos if *this has no on bits. </p>
+<p>return the highest index i such that bit i is set, or npos if *this has no on bits. </p>
 
 </div>
 </div>
-<a id="aac44f8d71b297c1ae62c6d8966ac986c" name="aac44f8d71b297c1ae62c6d8966ac986c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac44f8d71b297c1ae62c6d8966ac986c">&#9670;&#160;</a></span>flip() <span class="overload">[1/3]</span></h2>
+<a id="ab3c6d3157f3b02affcf7def04eb60c31" name="ab3c6d3157f3b02affcf7def04eb60c31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3c6d3157f3b02affcf7def04eb60c31">&#9670;&#160;</a></span>find_next()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -626,17 +845,36 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::flip </td>
+          <td class="memname"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::find_next </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits. </p>
+
+</div>
+</div>
+<a id="a7b018ef3dd10acb90d5c3db4391737c5" name="a7b018ef3dd10acb90d5c3db4391737c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b018ef3dd10acb90d5c3db4391737c5">&#9670;&#160;</a></span>flip() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::flip </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -666,8 +904,29 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
-<a id="a93e21fb90c6e66305939698ba328dfb4" name="a93e21fb90c6e66305939698ba328dfb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93e21fb90c6e66305939698ba328dfb4">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+<a id="a09e4cde68a5174ca2f71c1699df3ab61" name="a09e4cde68a5174ca2f71c1699df3ab61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09e4cde68a5174ca2f71c1699df3ab61">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::flip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bb32afb9d02a11bf7c980344babc472" name="a8bb32afb9d02a11bf7c980344babc472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb32afb9d02a11bf7c980344babc472">&#9670;&#160;</a></span>fromBlocks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -676,22 +935,20 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::flip </td>
+          <td class="memname">static <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::BitSet::fromBlocks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_type</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>creates bitset from the given blocks of bits </p>
 
 </div>
 </div>
@@ -722,8 +979,8 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
-<a id="a46e381a4bfd0105477e1e7bf9355253d" name="a46e381a4bfd0105477e1e7bf9355253d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46e381a4bfd0105477e1e7bf9355253d">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
+<a id="ac537a58da8e04ed776a89cd4463876ec" name="ac537a58da8e04ed776a89cd4463876ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac537a58da8e04ed776a89cd4463876ec">&#9670;&#160;</a></span>intersects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -732,7 +989,7 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::BitSet::is_proper_subset_of </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::BitSet::intersects </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td> const</td>
@@ -740,12 +997,12 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false. </p>
+<p>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false. </p>
 
 </div>
 </div>
@@ -776,6 +1033,33 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
+<a id="ae93bbbefc2bee256a329ec3ac480f963" name="ae93bbbefc2bee256a329ec3ac480f963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93bbbefc2bee256a329ec3ac480f963">&#9670;&#160;</a></span>none()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BitSet::none </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if all bits in this container are reset </p>
+
+</div>
+</div>
 <a id="a274cea4a76458910a418ec9e8e3e3edf" name="a274cea4a76458910a418ec9e8e3e3edf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a274cea4a76458910a418ec9e8e3e3edf">&#9670;&#160;</a></span>nthSetBit()</h2>
 
@@ -800,6 +1084,31 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 </div><div class="memdoc">
 
 <p>returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set </p>
+
+</div>
+</div>
+<a id="abc2f39f61e481d944fd1fe7966932025" name="abc2f39f61e481d944fd1fe7966932025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc2f39f61e481d944fd1fe7966932025">&#9670;&#160;</a></span>num_blocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> MR::BitSet::num_blocks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -871,8 +1180,8 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
-<a id="a247ac2e0767fad340477836233e87cb8" name="a247ac2e0767fad340477836233e87cb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a247ac2e0767fad340477836233e87cb8">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
+<a id="af4799e91aeb36deab4540ac14bf16e98" name="af4799e91aeb36deab4540ac14bf16e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4799e91aeb36deab4540ac14bf16e98">&#9670;&#160;</a></span>pop_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -881,7 +1190,7 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::reset </td>
+          <td class="memname">void MR::BitSet::pop_back </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -892,6 +1201,77 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+<p>removes last bit from the container, decreasing its size on 1 </p>
+
+</div>
+</div>
+<a id="acfad508aa764e014db0ace9f3fc05f93" name="acfad508aa764e014db0ace9f3fc05f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfad508aa764e014db0ace9f3fc05f93">&#9670;&#160;</a></span>push_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSet::push_back </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds one more bit with the given value in the container, increasing its size on 1 </p>
+
+</div>
+</div>
+<a id="a40738ebf472136cc76b60d1563edb0de" name="a40738ebf472136cc76b60d1563edb0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40738ebf472136cc76b60d1563edb0de">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSet::reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>numBits</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a9101a86efa0cfba6cd21a7c170e2f4" name="a7a9101a86efa0cfba6cd21a7c170e2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a9101a86efa0cfba6cd21a7c170e2f4">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -921,31 +1301,44 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
-<a id="a784dcb0f29bf20a645a4267b68d0d6ae" name="a784dcb0f29bf20a645a4267b68d0d6ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a784dcb0f29bf20a645a4267b68d0d6ae">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+<a id="add75ee784a906060d8f27b2e89a0196d" name="add75ee784a906060d8f27b2e89a0196d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add75ee784a906060d8f27b2e89a0196d">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::reset </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::reset </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_type</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4421c6a1ac2ff5a1a246553f6b4b7d68" name="a4421c6a1ac2ff5a1a246553f6b4b7d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4421c6a1ac2ff5a1a246553f6b4b7d68">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::BitSet::resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>numBits</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fillValue</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -977,27 +1370,38 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
-<a id="a6847dbe94d82cde085f4440c58980759" name="a6847dbe94d82cde085f4440c58980759"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6847dbe94d82cde085f4440c58980759">&#9670;&#160;</a></span>set() <span class="overload">[1/4]</span></h2>
+<a id="aaa173f3c44069e9e9b2e958f8c14c63c" name="aaa173f3c44069e9e9b2e958f8c14c63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa173f3c44069e9e9b2e958f8c14c63c">&#9670;&#160;</a></span>reverse()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::set </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::BitSet::reverse </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+<p>changes the order of bits on the opposite </p>
+
+</div>
+</div>
+<a id="a8bd23f1f5881d4a90bb163298618ecb3" name="a8bd23f1f5881d4a90bb163298618ecb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bd23f1f5881d4a90bb163298618ecb3">&#9670;&#160;</a></span>set() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::set </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -1056,8 +1460,34 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
 
 </div>
 </div>
-<a id="a597ed58dd86315f71c893994b7bb46c4" name="a597ed58dd86315f71c893994b7bb46c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a597ed58dd86315f71c893994b7bb46c4">&#9670;&#160;</a></span>set() <span class="overload">[4/4]</span></h2>
+<a id="ac775819451398d31705a74cf1741c2ba" name="ac775819451398d31705a74cf1741c2ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac775819451398d31705a74cf1741c2ba">&#9670;&#160;</a></span>set() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af71838c1900e9dd77091a6e2204b2a69" name="af71838c1900e9dd77091a6e2204b2a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71838c1900e9dd77091a6e2204b2a69">&#9670;&#160;</a></span>shrink_to_fit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1066,24 +1496,40 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::set </td>
+          <td class="memname">void MR::BitSet::shrink_to_fit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_type</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bf0ff93a8acb7497c308b9406d035d3" name="a9bf0ff93a8acb7497c308b9406d035d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf0ff93a8acb7497c308b9406d035d3">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> MR::BitSet::size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1161,6 +1607,105 @@ template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value,
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88d7cb003f37bb4ff177bf6082074305" name="a88d7cb003f37bb4ff177bf6082074305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d7cb003f37bb4ff177bf6082074305">&#9670;&#160;</a></span>uncheckedTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BitSet::uncheckedTest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1f040574bd60bfde685c9747f1e689c" name="aa1f040574bd60bfde685c9747f1e689c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f040574bd60bfde685c9747f1e689c">&#9670;&#160;</a></span>uncheckedTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BitSet::uncheckedTestSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1f620464c1c261bfb83432e57b5312a5" name="a1f620464c1c261bfb83432e57b5312a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f620464c1c261bfb83432e57b5312a5">&#9670;&#160;</a></span>bits_per_block</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::BitSet::bits_per_block = sizeof( <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> ) * 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af09b9c83f7a055fa6ea95e83b7fee246" name="af09b9c83f7a055fa6ea95e83b7fee246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af09b9c83f7a055fa6ea95e83b7fee246">&#9670;&#160;</a></span>npos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::BitSet::npos = (size_t)-1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

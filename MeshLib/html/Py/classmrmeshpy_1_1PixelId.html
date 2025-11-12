@@ -214,7 +214,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::PixelId
-Aliases:  TypedBitSet_PixelId_IndexType, Vector_PixelId_PixelId.const_reference, Vector_PixelId_PixelId.reference, Vector_PixelId_PixelId.value_type
+Aliases:  Vector_PixelId_PixelId.const_reference, Vector_PixelId_PixelId.reference, TypedBitSet_PixelId_IndexType, Vector_PixelId_PixelId.value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -323,6 +323,7 @@ This constructor is written like this instead of a plain `Id(int)`, because we a
 We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
   for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
   but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__PixelId.html#a28ef1b936801eee7180699f220170f00">mrmeshpy.NoDefInit_PixelId</a>, <a class="el" href="classmrmeshpy_1_1NoDefInit__PixelId.html#a302e52c0f243230c24f9cf23924081fc">mrmeshpy.NoDefInit_PixelId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__PixelId.html#a25e94af49d2f4083dc19213d59443c97">mrmeshpy.NoDefInit_PixelId</a>.</p>
 

@@ -170,16 +170,13 @@ $(function(){initNavTree('classMR_1_1ImGuiMenu.html',''); initResizable(true); }
   <map id="MR::ImGuiMenu_map" name="MR::ImGuiMenu_map">
 <area href="classMR_1_1ViewerPlugin.html" alt="MR::ViewerPlugin" shape="rect" coords="0,56,3716,80"/>
 <area href="structMR_1_1MultiListener.html" alt="MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener &gt;" shape="rect" coords="3726,56,7442,80"/>
-<area href="classMR_1_1Menu.html" alt="MR::Menu" shape="rect" coords="0,168,3716,192"/>
-<area href="classMR_1_1RibbonMenu.html" alt="MR::RibbonMenu" shape="rect" coords="3726,168,7442,192"/>
+<area href="classMR_1_1RibbonMenu.html" alt="MR::RibbonMenu" shape="rect" coords="1863,168,5579,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1LabelParams.html">LabelParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1PluginsCache.html">PluginsCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">style constants used for the information panel  <a href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#details">More...</a><br /></td></tr>
@@ -222,8 +219,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a06b63d6e0f840a978d53ab48129df966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa605ceb7d771db8326713487bc76779" id="r_afa605ceb7d771db8326713487bc76779"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa605ceb7d771db8326713487bc76779">draw_viewer_window</a> ()</td></tr>
 <tr class="separator:afa605ceb7d771db8326713487bc76779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58029e27fbcf48315dd01f559d2c7d73" id="r_a58029e27fbcf48315dd01f559d2c7d73"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58029e27fbcf48315dd01f559d2c7d73">draw_mr_menu</a> ()</td></tr>
-<tr class="separator:a58029e27fbcf48315dd01f559d2c7d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d7ed7302aaadf4457e4e0e381bfaedf" id="r_a0d7ed7302aaadf4457e4e0e381bfaedf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d7ed7302aaadf4457e4e0e381bfaedf">draw_custom_window</a> ()</td></tr>
 <tr class="separator:a0d7ed7302aaadf4457e4e0e381bfaedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e5fbe43cf10672413ba99ee734efbf6" id="r_a0e5fbe43cf10672413ba99ee734efbf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5fbe43cf10672413ba99ee734efbf6">draw_labels_window</a> ()</td></tr>
@@ -277,8 +272,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0b9508550f2dc503c7e8bfe4d20c6756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a344b3a7a1c2340b70efb4c3d5ffa920f" id="r_a344b3a7a1c2340b70efb4c3d5ffa920f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a344b3a7a1c2340b70efb4c3d5ffa920f">make_points_discretization</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; int(const <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> *)&gt; getter, std::function&lt; void(<a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> *, const int &amp;)&gt; setter)</td></tr>
 <tr class="separator:a344b3a7a1c2340b70efb4c3d5ffa920f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6c3c15f5ebe6f882b372a6aec97f3af" id="r_ae6c3c15f5ebe6f882b372a6aec97f3af"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6c3c15f5ebe6f882b372a6aec97f3af">draw_custom_plugins</a> ()</td></tr>
-<tr class="separator:ae6c3c15f5ebe6f882b372a6aec97f3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6313d10e2b78aadec08af6df6ce0df6b" id="r_a6313d10e2b78aadec08af6df6ce0df6b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ShortcutManager.html">ShortcutManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6313d10e2b78aadec08af6df6ce0df6b">getShortcutManager</a> ()</td></tr>
 <tr class="separator:a6313d10e2b78aadec08af6df6ce0df6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a623682b4c72a120b6972a719f75d4282" id="r_a623682b4c72a120b6972a719f75d4282"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623682b4c72a120b6972a719f75d4282">add_modifier</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1MeshModifier.html">MR::MeshModifier</a> &gt; modifier)</td></tr>
@@ -417,8 +410,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a772230273af61c56a22656823bc62403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76cda98d1dc4caae438ec0501f7bde8f" id="r_a76cda98d1dc4caae438ec0501f7bde8f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76cda98d1dc4caae438ec0501f7bde8f">rescaleStyle_</a> ()</td></tr>
 <tr class="separator:a76cda98d1dc4caae438ec0501f7bde8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f2fa3ee77474175c40b532311996cd" id="r_a70f2fa3ee77474175c40b532311996cd"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f2fa3ee77474175c40b532311996cd">addMenuFontRanges_</a> (ImFontGlyphRangesBuilder &amp;builder) const</td></tr>
-<tr class="separator:a70f2fa3ee77474175c40b532311996cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99d49a0c86f16f2e917e71c81efe4187" id="r_a99d49a0c86f16f2e917e71c81efe4187"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99d49a0c86f16f2e917e71c81efe4187">drawSelectionInformation_</a> ()</td></tr>
 <tr class="separator:a99d49a0c86f16f2e917e71c81efe4187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6454c87e178e7cc91a395fb2ce4b3c10" id="r_a6454c87e178e7cc91a395fb2ce4b3c10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6454c87e178e7cc91a395fb2ce4b3c10">drawFeaturePropertiesEditor_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;object)</td></tr>
@@ -436,10 +427,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a318c4a57bcb4a30a7620d3c954668c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40c4ccc20532c621364545dc961f65a" id="r_ac40c4ccc20532c621364545dc961f65a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40c4ccc20532c621364545dc961f65a">drawTransformContextMenu_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;)</td></tr>
 <tr class="separator:ac40c4ccc20532c621364545dc961f65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a994e1597495c02cbf901fa1581710a62" id="r_a994e1597495c02cbf901fa1581710a62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a994e1597495c02cbf901fa1581710a62">draw_history_block_</a> ()</td></tr>
-<tr class="separator:a994e1597495c02cbf901fa1581710a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9dbd4509af1e9cd8c46f316a63d5a2a" id="r_ab9dbd4509af1e9cd8c46f316a63d5a2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9dbd4509af1e9cd8c46f316a63d5a2a">draw_open_recent_button_</a> ()</td></tr>
-<tr class="separator:ab9dbd4509af1e9cd8c46f316a63d5a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a2ff7496cd88b62087cf3adef33dee1" id="r_a1a2ff7496cd88b62087cf3adef33dee1"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a2ff7496cd88b62087cf3adef33dee1">drawShortcutsWindow_</a> ()</td></tr>
 <tr class="separator:a1a2ff7496cd88b62087cf3adef33dee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6991399e6f33fd30c2ddf2482fa849c0" id="r_a6991399e6f33fd30c2ddf2482fa849c0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6991399e6f33fd30c2ddf2482fa849c0">getSceneInfoItemWidth_</a> (int itemCount=1)</td></tr>
@@ -509,8 +496,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a44726097595253c81b8abae8fe5fe91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42944b2f8a7080c6a06c93633f97cb4c" id="r_a42944b2f8a7080c6a06c93633f97cb4c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::pair&lt; std::string, Vector4f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42944b2f8a7080c6a06c93633f97cb4c">storedColor_</a></td></tr>
 <tr class="separator:a42944b2f8a7080c6a06c93633f97cb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1692b4dceebf6d4a68e5bdfe0d553573" id="r_a1692b4dceebf6d4a68e5bdfe0d553573"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structMR_1_1ImGuiMenu_1_1PluginsCache.html">MR::ImGuiMenu::PluginsCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1692b4dceebf6d4a68e5bdfe0d553573">pluginsCache_</a></td></tr>
-<tr class="separator:a1692b4dceebf6d4a68e5bdfe0d553573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a493d46d4f1ecabb263dc5528086e2660" id="r_a493d46d4f1ecabb263dc5528086e2660"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a493d46d4f1ecabb263dc5528086e2660">searchPluginsString_</a></td></tr>
 <tr class="separator:a493d46d4f1ecabb263dc5528086e2660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a870366d79164cd2f0909a5d12d551eea" id="r_a870366d79164cd2f0909a5d12d551eea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1MeshModifier.html">MR::MeshModifier</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870366d79164cd2f0909a5d12d551eea">modifiers_</a></td></tr>
@@ -639,31 +624,6 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a70f2fa3ee77474175c40b532311996cd" name="a70f2fa3ee77474175c40b532311996cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f2fa3ee77474175c40b532311996cd">&#9670;&#160;</a></span>addMenuFontRanges_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRVIEWER_API void MR::ImGuiMenu::addMenuFontRanges_ </td>
-          <td>(</td>
-          <td class="paramtype">ImFontGlyphRangesBuilder &amp;</td>          <td class="paramname"><span class="paramname"><em>builder</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -803,23 +763,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae6c3c15f5ebe6f882b372a6aec97f3af" name="ae6c3c15f5ebe6f882b372a6aec97f3af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6c3c15f5ebe6f882b372a6aec97f3af">&#9670;&#160;</a></span>draw_custom_plugins()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::ImGuiMenu::draw_custom_plugins </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7d69c77712f963358e34a99c4eb27b8a" name="a7d69c77712f963358e34a99c4eb27b8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d69c77712f963358e34a99c4eb27b8a">&#9670;&#160;</a></span>draw_custom_selection_properties()</h2>
 
@@ -887,31 +830,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a994e1597495c02cbf901fa1581710a62" name="a994e1597495c02cbf901fa1581710a62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a994e1597495c02cbf901fa1581710a62">&#9670;&#160;</a></span>draw_history_block_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::ImGuiMenu::draw_history_block_ </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0e5fbe43cf10672413ba99ee734efbf6" name="a0e5fbe43cf10672413ba99ee734efbf6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e5fbe43cf10672413ba99ee734efbf6">&#9670;&#160;</a></span>draw_labels_window()</h2>
 
@@ -948,48 +866,6 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a58029e27fbcf48315dd01f559d2c7d73" name="a58029e27fbcf48315dd01f559d2c7d73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58029e27fbcf48315dd01f559d2c7d73">&#9670;&#160;</a></span>draw_mr_menu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::ImGuiMenu::draw_mr_menu </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab9dbd4509af1e9cd8c46f316a63d5a2a" name="ab9dbd4509af1e9cd8c46f316a63d5a2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9dbd4509af1e9cd8c46f316a63d5a2a">&#9670;&#160;</a></span>draw_open_recent_button_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::ImGuiMenu::draw_open_recent_button_ </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1868,7 +1744,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">MR::ViewerPlugin</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1Menu.html#a9294389b0cf7ab9d43fe4bd9eefcac19">MR::Menu</a>, and <a class="el" href="classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57">MR::RibbonMenu</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57">MR::RibbonMenu</a>.</p>
 
 </div>
 </div>
@@ -3496,28 +3372,6 @@ template&lt;typename ObjType , typename ValueT &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">float MR::ImGuiMenu::pixel_ratio_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1692b4dceebf6d4a68e5bdfe0d553573" name="a1692b4dceebf6d4a68e5bdfe0d553573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1692b4dceebf6d4a68e5bdfe0d553573">&#9670;&#160;</a></span>pluginsCache_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="structMR_1_1ImGuiMenu_1_1PluginsCache.html">MR::ImGuiMenu::PluginsCache</a> MR::ImGuiMenu::pluginsCache_</td>
         </tr>
       </table>
   </td>

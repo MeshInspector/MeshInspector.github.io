@@ -2,12 +2,15 @@ var MREnums_8h =
 [
     [ "MR_ColoringType", "MREnums_8h.html#aa3e17d7f4bb150c98eb10595d2f34b4e", null ],
     [ "MR_EdgeWeights", "MREnums_8h.html#a7beea1a411c7b0c6342e68d2ad76f98d", null ],
+    [ "MR_FilterType", "MREnums_8h.html#ad40ec431ff5ffd94858933622543ddd9", null ],
     [ "MR_GeodesicPathApprox", "MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5", null ],
     [ "MR_OffsetMode", "MREnums_8h.html#adec1219ece1c9c68f233e4ab1056cd02", null ],
     [ "MR_OrientNormals", "MREnums_8h.html#ae07e1336427a647b041b525ba1b2e725", null ],
     [ "MR_Processing", "MREnums_8h.html#ae27ea8c7570f040835b33a0df5f6be04", null ],
+    [ "MR_Reorder", "MREnums_8h.html#a7869edbba7e774adc1c184741e30f492", null ],
     [ "MR_UseAABBTree", "MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5", null ],
     [ "MR_VertexMass", "MREnums_8h.html#a647d855259963a8a9399e34b49c5c6de", null ],
+    [ "MR_WrapType", "MREnums_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01", null ],
     [ "MR_ColoringType", "MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d", [
       [ "MR_ColoringType_SolidColor", "MREnums_8h.html#a8a407448d970199f75e1b40627cfe95da088bc3a3f5ea020d55b3201dbee5b4a0", null ],
       [ "MR_ColoringType_PrimitivesColorMap", "MREnums_8h.html#a8a407448d970199f75e1b40627cfe95da3e986970bb7f704d3a13cca2797fe0b3", null ],

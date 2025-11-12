@@ -156,11 +156,11 @@ $(function(){initNavTree('MRStreamOperators_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRMatrix4_8h.html">MRMatrix4.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRPlane3_8h.html">MRPlane3.h</a>&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRTriPoint_8h.html">MRTriPoint.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="MRAffineXf3_8h.html">MRAffineXf3.h</a>&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRPointOnFace_8h.html">MRPointOnFace.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRTriPoint_8h.html">MRTriPoint.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="MRAffineXf3_8h.html">MRAffineXf3.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRPointOnFace_8h.html">MRPointOnFace.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;istream&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;ostream&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
@@ -356,19 +356,25 @@ $(function(){initNavTree('MRStreamOperators_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <span class="keywordflow">return</span> s &gt;&gt; box.<a class="code hl_variable" href="structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda">min</a> &gt;&gt; box.<a class="code hl_variable" href="structMR_1_1Box.html#a493e21ced874aa010247428e109d524d">max</a>;</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    }</div>
 </div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>}</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="comment">// =====================================================================</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="comment">// BitSet, format compatible with boost::dynamic_bitset</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="namespaceMR.html#a11db6bd14a41fc72308d28a499089605">  177</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::ostream&amp; <a class="code hl_function" href="namespaceMR.html#abeae10f00619d98a6b9bb7bf7a06b322">operator &lt;&lt; </a>( std::ostream&amp; s, <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1BitSet.html">BitSet</a> &amp; bs );</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="namespaceMR.html#ab1af4061d52e47a22c37d0743de043d0">  178</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::istream&amp; <a class="code hl_function" href="namespaceMR.html#a23e4037f9ce6128e9d0b1a407ae9cfcd">operator &gt;&gt; </a>( std::istream&amp; s, <a class="code hl_class" href="classMR_1_1BitSet.html">BitSet</a> &amp; bs );</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>}</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
 <div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
 <div class="ttc" id="aMRMatrix4_8h_html"><div class="ttname"><a href="MRMatrix4_8h.html">MRMatrix4.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMatrix3_8h_html"><div class="ttname"><a href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRMesh_2MRPointOnFace_8h_html"><div class="ttname"><a href="MRMesh_2MRPointOnFace_8h.html">MRPointOnFace.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRTriPoint_8h_html"><div class="ttname"><a href="MRMesh_2MRTriPoint_8h.html">MRTriPoint.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRPlane3_8h_html"><div class="ttname"><a href="MRPlane3_8h.html">MRPlane3.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aMRVector4_8h_html"><div class="ttname"><a href="MRVector4_8h.html">MRVector4.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1BitSet_html"><div class="ttname"><a href="classMR_1_1BitSet.html">MR::BitSet</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:23</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a23e4037f9ce6128e9d0b1a407ae9cfcd"><div class="ttname"><a href="namespaceMR.html#a23e4037f9ce6128e9d0b1a407ae9cfcd">MR::operator&gt;&gt;</a></div><div class="ttdeci">std::istream &amp; operator&gt;&gt;(std::istream &amp;s, Vector2&lt; T &gt; &amp;vec)</div><div class="ttdef"><b>Definition</b> MRStreamOperators.h:45</div></div>
 <div class="ttc" id="anamespaceMR_html_abeae10f00619d98a6b9bb7bf7a06b322"><div class="ttname"><a href="namespaceMR.html#abeae10f00619d98a6b9bb7bf7a06b322">MR::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;s, const Vector2&lt; T &gt; &amp;vec)</div><div class="ttdef"><b>Definition</b> MRStreamOperators.h:29</div></div>

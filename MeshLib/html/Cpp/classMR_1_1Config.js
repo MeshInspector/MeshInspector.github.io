@@ -2,6 +2,7 @@ var classMR_1_1Config =
 [
     [ "Enum", "classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f", null ],
     [ "Config", "classMR_1_1Config.html#af88a45374cdd7fba22942c053afb27e5", null ],
+    [ "fromJson", "classMR_1_1Config.html#a534db3261935504b918838858cff437a", null ],
     [ "getAppName", "classMR_1_1Config.html#a764b20b21302265b3e6dd60b2efdf035", null ],
     [ "getBool", "classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4", null ],
     [ "getColor", "classMR_1_1Config.html#a264c1a7b8aa598635f2500ae12c29606", null ],
@@ -26,5 +27,6 @@ var classMR_1_1Config =
     [ "setJsonValue", "classMR_1_1Config.html#a79498a0537aaf0b56bfbc5c67772eb0f", null ],
     [ "setVector2i", "classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155", null ],
     [ "setViewportMask", "classMR_1_1Config.html#aca8ad2571fde2ff0a492612ede6afb4c", null ],
+    [ "toJson", "classMR_1_1Config.html#a511ac76ed53aafae5ab8d337aeaa6795", null ],
     [ "writeToFile", "classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca", null ]
 ];

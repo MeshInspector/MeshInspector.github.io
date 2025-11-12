@@ -54,7 +54,8 @@ var annotated_dup =
         [ "TPMS", "namespaceMR_1_1FillingSurface_1_1TPMS.html", [
           [ "MeshParams", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
           [ "VolumeParams", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ]
-        ] ]
+        ] ],
+        [ "ParamsFacade", "structMR_1_1FillingSurface_1_1ParamsFacade.html", "structMR_1_1FillingSurface_1_1ParamsFacade" ]
       ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
@@ -128,6 +129,9 @@ var annotated_dup =
       [ "Meta", "namespaceMR_1_1Meta.html", [
         [ "SharedPtrTraits", "structMR_1_1Meta_1_1SharedPtrTraits.html", "structMR_1_1Meta_1_1SharedPtrTraits" ]
       ] ],
+      [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
+        [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", "structMR_1_1ObjectSave_1_1Settings" ]
+      ] ],
       [ "Parallel", "namespaceMR_1_1Parallel.html", [
         [ "CallSimply", "structMR_1_1Parallel_1_1CallSimply.html", "structMR_1_1Parallel_1_1CallSimply" ],
         [ "CallSimplyMaker", "structMR_1_1Parallel_1_1CallSimplyMaker.html", "structMR_1_1Parallel_1_1CallSimplyMaker" ],
@@ -193,7 +197,8 @@ var annotated_dup =
         [ "Wrapper", "classMR_1_1RenderWrapObject_1_1Wrapper.html", "classMR_1_1RenderWrapObject_1_1Wrapper" ]
       ] ],
       [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", [
-        [ "SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", "structMR_1_1SceneLoad_1_1SceneLoadResult" ]
+        [ "Result", "structMR_1_1SceneLoad_1_1Result.html", "structMR_1_1SceneLoad_1_1Result" ],
+        [ "Settings", "structMR_1_1SceneLoad_1_1Settings.html", "structMR_1_1SceneLoad_1_1Settings" ]
       ] ],
       [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", [
         [ "Settings", "structMR_1_1SelfIntersections_1_1Settings.html", "structMR_1_1SelfIntersections_1_1Settings" ]
@@ -218,6 +223,7 @@ var annotated_dup =
         [ "ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", "structMR_1_1UI_1_1ButtonIconCustomizationParams" ],
         [ "CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
         [ "CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", "structMR_1_1UI_1_1CheckboxOrModifierState" ],
+        [ "CustomConfigModalSettings", "structMR_1_1UI_1_1CustomConfigModalSettings.html", "structMR_1_1UI_1_1CustomConfigModalSettings" ],
         [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
         [ "LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", "classMR_1_1UI_1_1LineAntialiasingDisabler" ],
         [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
@@ -259,6 +265,7 @@ var annotated_dup =
       [ "AncillaryLabel", "structMR_1_1AncillaryLabel.html", "structMR_1_1AncillaryLabel" ],
       [ "AncillaryLines", "structMR_1_1AncillaryLines.html", "structMR_1_1AncillaryLines" ],
       [ "AncillaryMesh", "structMR_1_1AncillaryMesh.html", "structMR_1_1AncillaryMesh" ],
+      [ "AncillaryPlane", "structMR_1_1AncillaryPlane.html", "structMR_1_1AncillaryPlane" ],
       [ "AncillaryPoints", "structMR_1_1AncillaryPoints.html", "structMR_1_1AncillaryPoints" ],
       [ "AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", "classMR_1_1AngleMeasurementObject" ],
       [ "AnyVisualizeMaskEnum", "classMR_1_1AnyVisualizeMaskEnum.html", "classMR_1_1AnyVisualizeMaskEnum" ],
@@ -447,6 +454,7 @@ var annotated_dup =
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", "structMR_1_1FillHoleNicelySettings" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
+      [ "FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", "structMR_1_1FillHolesWithExtraPointsParams" ],
       [ "FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", "structMR_1_1FindDisorientationParams" ],
       [ "FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", "structMR_1_1FindInnerShellSettings" ],
       [ "FindOutliersParams", "structMR_1_1FindOutliersParams.html", "structMR_1_1FindOutliersParams" ],
@@ -569,13 +577,11 @@ var annotated_dup =
       [ "Matrix4", "structMR_1_1Matrix4.html", "structMR_1_1Matrix4" ],
       [ "MaxArg", "structMR_1_1MaxArg.html", "structMR_1_1MaxArg" ],
       [ "MeasurementObject", "classMR_1_1MeasurementObject.html", "classMR_1_1MeasurementObject" ],
-      [ "Menu", "classMR_1_1Menu.html", "classMR_1_1Menu" ],
       [ "MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", "structMR_1_1MenuItemCaptionSize" ],
       [ "MenuItemInfo", "structMR_1_1MenuItemInfo.html", "structMR_1_1MenuItemInfo" ],
       [ "MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", "structMR_1_1MergeVolumePartSettings" ],
       [ "Mesh", "structMR_1_1Mesh.html", "structMR_1_1Mesh" ],
       [ "MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", "structMR_1_1MeshApproxRelaxParams" ],
-      [ "MeshAttributes", "structMR_1_1MeshAttributes.html", "structMR_1_1MeshAttributes" ],
       [ "MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", "structMR_1_1MeshAttributesToUpdate" ],
       [ "MeshDiff", "classMR_1_1MeshDiff.html", "classMR_1_1MeshDiff" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],
@@ -700,6 +706,7 @@ var annotated_dup =
       [ "Parabola", "structMR_1_1Parabola.html", "structMR_1_1Parabola" ],
       [ "ParallelProgressReporter", "classMR_1_1ParallelProgressReporter.html", "classMR_1_1ParallelProgressReporter" ],
       [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", "classMR_1_1PartialChangeMeshAction" ],
+      [ "PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html", "classMR_1_1PartialChangeMeshDataAction" ],
       [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html", "classMR_1_1PartialChangeMeshPointsAction" ],
       [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html", "classMR_1_1PartialChangeMeshTopologyAction" ],
       [ "PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ],
@@ -812,6 +819,7 @@ var annotated_dup =
       [ "RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", "classMR_1_1RestoringStreamsSink" ],
       [ "RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", "classMR_1_1RibbonButtonDrawer" ],
       [ "RibbonConfig", "structMR_1_1RibbonConfig.html", "structMR_1_1RibbonConfig" ],
+      [ "RibbonFontHolder", "classMR_1_1RibbonFontHolder.html", "classMR_1_1RibbonFontHolder" ],
       [ "RibbonFontManager", "classMR_1_1RibbonFontManager.html", "classMR_1_1RibbonFontManager" ],
       [ "RibbonIcons", "classMR_1_1RibbonIcons.html", "classMR_1_1RibbonIcons" ],
       [ "RibbonMenu", "classMR_1_1RibbonMenu.html", "classMR_1_1RibbonMenu" ],
@@ -1002,6 +1010,7 @@ var annotated_dup =
       [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", "classMR_1_1ViewerSettingsManager" ],
       [ "ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", "classMR_1_1ViewerSettingsPlugin" ],
       [ "ViewerSetup", "classMR_1_1ViewerSetup.html", "classMR_1_1ViewerSetup" ],
+      [ "ViewerSignals", "structMR_1_1ViewerSignals.html", "structMR_1_1ViewerSignals" ],
       [ "ViewerTitle", "classMR_1_1ViewerTitle.html", "classMR_1_1ViewerTitle" ],
       [ "Viewport", "classMR_1_1Viewport.html", "classMR_1_1Viewport" ],
       [ "ViewportGL", "classMR_1_1ViewportGL.html", "classMR_1_1ViewportGL" ],
@@ -1039,6 +1048,7 @@ var annotated_dup =
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],
       [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
+      [ "WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", "structMR_1_1WriteRawTiffParams" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
       [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]

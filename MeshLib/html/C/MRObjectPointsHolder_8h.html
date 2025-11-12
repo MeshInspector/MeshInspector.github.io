@@ -299,6 +299,8 @@ Functions</h2></td></tr>
 <tr class="separator:a997d324e5918c81e3950f5aecbb428ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc0931525164e478c2e9d881fff5a424" id="r_afc0931525164e478c2e9d881fff5a424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc0931525164e478c2e9d881fff5a424">MR_ObjectPointsHolder_setSelectedVerticesColorsForAllViewports</a> (<a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> val_pass_by, <a class="el" href="MRFeatureObject_8h.html#aacabcfa2021a7c9f2d2f8862cd9c75c6">MR_ViewportProperty_MR_Color</a> *val)</td></tr>
 <tr class="separator:afc0931525164e478c2e9d881fff5a424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fff66ad73b2d8addab4cce81a5377fe" id="r_a8fff66ad73b2d8addab4cce81a5377fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fff66ad73b2d8addab4cce81a5377fe">MR_ObjectPointsHolder_copyAllSolidColors</a> (<a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *_this, const <a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *other)</td></tr>
+<tr class="separator:a8fff66ad73b2d8addab4cce81a5377fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89fc56aa14818d84ed0d65f6fafebc7d" id="r_a89fc56aa14818d84ed0d65f6fafebc7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89fc56aa14818d84ed0d65f6fafebc7d">MR_ObjectPointsHolder_supportsVisualizeProperty</a> (const <a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *_this, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a47309f5020d832f0d5effdd481071a1e">MR_AnyVisualizeMaskEnum</a> *type)</td></tr>
 <tr class="separator:a89fc56aa14818d84ed0d65f6fafebc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b48ffcbbdb6046c8b17df85eee2d0ad" id="r_a1b48ffcbbdb6046c8b17df85eee2d0ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b48ffcbbdb6046c8b17df85eee2d0ad">MR_ObjectPointsHolder_getVertsColorMap</a> (const <a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *_this)</td></tr>
@@ -738,6 +740,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectPointsHolder.html">MR::ObjectPointsHolder</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a93e448f6ed7f8b2cec5344ab96f7b406" title="Destroys a heap-allocated instance of MR_ObjectPointsHolder. Does nothing if the pointer is null.">MR_ObjectPointsHolder_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8fff66ad73b2d8addab4cce81a5377fe" name="a8fff66ad73b2d8addab4cce81a5377fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fff66ad73b2d8addab4cce81a5377fe">&#9670;&#160;</a></span>MR_ObjectPointsHolder_copyAllSolidColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectPointsHolder_copyAllSolidColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set all object solid colors (front/back/etc.) from other object for all viewports Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectPointsHolder.html">MR::ObjectPointsHolder</a></code> named <code>copyAllSolidColors</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>other</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -7,6 +7,7 @@ var MRUniqueTemporaryFolder_8h =
     [ "MR_UniqueTemporaryFolder_Construct", "MRUniqueTemporaryFolder_8h.html#a123861522b1765d714dae66dc577220b", null ],
     [ "MR_UniqueTemporaryFolder_ConvertTo_bool", "MRUniqueTemporaryFolder_8h.html#ae07d9765911139a58e467866d63d8443", null ],
     [ "MR_UniqueTemporaryFolder_ConvertTo_const_std_filesystem_path_ref", "MRUniqueTemporaryFolder_8h.html#ab1fc91f6dff118ab8624a15c4933c5d4", null ],
+    [ "MR_UniqueTemporaryFolder_DefaultConstructArray", "MRUniqueTemporaryFolder_8h.html#a4e9fd4beb6ecd9c01b16c9d254429afa", null ],
     [ "MR_UniqueTemporaryFolder_Destroy", "MRUniqueTemporaryFolder_8h.html#aef21aab154469658a6c29e9d69d2987d", null ],
     [ "MR_UniqueTemporaryFolder_DestroyArray", "MRUniqueTemporaryFolder_8h.html#a9d0c41537dbe9ba3f5f6f6fe5e5535aa", null ],
     [ "MR_UniqueTemporaryFolder_OffsetMutablePtr", "MRUniqueTemporaryFolder_8h.html#a8c12bdfb7b3fcd35883962cde02cb469", null ],

@@ -4,6 +4,7 @@ var classmrmeshpy_1_1VisualObject =
     [ "className", "classmrmeshpy_1_1VisualObject.html#a6c501c1b9481a182be58e284667177d2", null ],
     [ "classNameInPlural", "classmrmeshpy_1_1VisualObject.html#a79a6c850c880283962836f4f7c7775ca", null ],
     [ "clone", "classmrmeshpy_1_1VisualObject.html#a1aeb8f658d1ec828372eb5f234f696fd", null ],
+    [ "copyAllSolidColors", "classmrmeshpy_1_1VisualObject.html#ae752ebe42b1366e48661b9f506530f7e", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1VisualObject.html#a99a68c12bda4b4c07f5ba725b2b2af59", null ],
     [ "getAmbientStrength", "classmrmeshpy_1_1VisualObject.html#a82c638c112056461424bfc09c23925b7", null ],
     [ "getBackColor", "classmrmeshpy_1_1VisualObject.html#ae52231ec5177a10f568e957c8ad4d671", null ],

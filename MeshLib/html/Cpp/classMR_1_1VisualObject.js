@@ -10,6 +10,7 @@ var classMR_1_1VisualObject =
     [ "classNameInPlural", "classMR_1_1VisualObject.html#a470477a43cc2e761f791623ee732e4b7", null ],
     [ "clone", "classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca", null ],
     [ "computeBoundingBox_", "classMR_1_1VisualObject.html#a4e27182996ebf22fc42c7d1ebf6cf02b", null ],
+    [ "copyAllSolidColors", "classMR_1_1VisualObject.html#a7857f20b8f16704a46297b95e12524f7", null ],
     [ "deserializeFields_", "classMR_1_1VisualObject.html#a671160c49edeed239f1361b59bd68810", null ],
     [ "getAllVisualizeProperties", "classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d", null ],
     [ "getAllVisualizePropertiesForEnum", "classMR_1_1VisualObject.html#a44359499c4ee0b22074b8f3999d53a6e", null ],

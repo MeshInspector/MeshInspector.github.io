@@ -26,6 +26,7 @@ var classmrmeshpy_1_1PointCloud =
     [ "pack", "classmrmeshpy_1_1PointCloud.html#abad135ceb97f77b6fa9716df1f56b33f", null ],
     [ "points", "classmrmeshpy_1_1PointCloud.html#acdb67f6989ea8100aac560a5bcc83e04", null ],
     [ "points", "classmrmeshpy_1_1PointCloud.html#a2dc299344e09bed9a7da1f5b9b7767b2", null ],
+    [ "transform", "classmrmeshpy_1_1PointCloud.html#aaf28b2aad97713fad7d07fe07fb4f69c", null ],
     [ "validPoints", "classmrmeshpy_1_1PointCloud.html#a2f4c4855c5051fd1fc2918cfad3d7a2f", null ],
     [ "validPoints", "classmrmeshpy_1_1PointCloud.html#a813b622257c03e198e33d69198f69d34", null ]
 ];

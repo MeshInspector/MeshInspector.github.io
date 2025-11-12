@@ -28,8 +28,6 @@ var classMR_1_1TypedBitSet =
     [ "nthSetBit", "classMR_1_1TypedBitSet.html#af128e7c662fdfb16768d3f19de265794", null ],
     [ "operator&=", "classMR_1_1TypedBitSet.html#ab43aca8f2218844ae11fb2395bdabc9d", null ],
     [ "operator-=", "classMR_1_1TypedBitSet.html#a34826be992210dd6713098da542d64b3", null ],
-    [ "operator[]", "classMR_1_1TypedBitSet.html#a206e4d9defb2821fb33670c90a946523", null ],
-    [ "operator[]", "classMR_1_1TypedBitSet.html#a6ca3dc121a4a78e85c99cd7e536dbf3c", null ],
     [ "operator^=", "classMR_1_1TypedBitSet.html#a5c4d68692d26dadcd38ce27e9dc7c6e8", null ],
     [ "operator|=", "classMR_1_1TypedBitSet.html#a0355d383fd5f5e1ce7d769ea4a29a1a0", null ],
     [ "reset", "classMR_1_1TypedBitSet.html#ac518899e0d130c7defa17020e6531157", null ],

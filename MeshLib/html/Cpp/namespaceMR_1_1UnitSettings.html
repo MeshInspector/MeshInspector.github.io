@@ -154,8 +154,10 @@ $(function(){initNavTree('namespaceMR_1_1UnitSettings.html',''); initResizable(t
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae406c519ab41f7cbc08d65a9c83d2bcf" id="r_ae406c519ab41f7cbc08d65a9c83d2bcf"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae406c519ab41f7cbc08d65a9c83d2bcf">resetToDefaults</a> ()</td></tr>
+<tr class="memdesc:ae406c519ab41f7cbc08d65a9c83d2bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset to some sane default.  <br /></td></tr>
 <tr class="separator:ae406c519ab41f7cbc08d65a9c83d2bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa107ba449e9a30d426079db1abc6f9e8" id="r_aa107ba449e9a30d426079db1abc6f9e8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa107ba449e9a30d426079db1abc6f9e8">getShowLeadingZero</a> ()</td></tr>
+<tr class="memdesc:aa107ba449e9a30d426079db1abc6f9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">True: <code>0.1</code>, false: <code>.1</code>.  <br /></td></tr>
 <tr class="separator:aa107ba449e9a30d426079db1abc6f9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b2fc6815346b05ae633d230e475a414" id="r_a2b2fc6815346b05ae633d230e475a414"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b2fc6815346b05ae633d230e475a414">setShowLeadingZero</a> (bool show)</td></tr>
 <tr class="separator:a2b2fc6815346b05ae633d230e475a414"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,6 +173,8 @@ Functions</h2></td></tr>
 <tr class="separator:aec4e088dc329cbd35e4ad8d65ff24d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb863d88d6e4822b694a244f85d09b2e" id="r_acb863d88d6e4822b694a244f85d09b2e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb863d88d6e4822b694a244f85d09b2e">setModelLengthUnit</a> (std::optional&lt; <a class="el" href="namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab">LengthUnit</a> &gt; unit)</td></tr>
 <tr class="separator:acb863d88d6e4822b694a244f85d09b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69150415ea6b6c4a566729d65841d8d3" id="r_a69150415ea6b6c4a566729d65841d8d3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab">LengthUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69150415ea6b6c4a566729d65841d8d3">getActualModelLengthUnit</a> ()</td></tr>
+<tr class="separator:a69150415ea6b6c4a566729d65841d8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f2b660ede4fa66b9a12f1b358ae3b5" id="r_a18f2b660ede4fa66b9a12f1b358ae3b5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424">DegreesMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f2b660ede4fa66b9a12f1b358ae3b5">getDegreesMode</a> ()</td></tr>
 <tr class="separator:a18f2b660ede4fa66b9a12f1b358ae3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095d298e864fff2df5d9ec05315d6d8b" id="r_a095d298e864fff2df5d9ec05315d6d8b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a095d298e864fff2df5d9ec05315d6d8b">setDegreesMode</a> (<a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424">DegreesMode</a> mode, bool setPreferredPrecision)</td></tr>
@@ -189,6 +193,32 @@ Functions</h2></td></tr>
 <tr class="separator:a2fa49ac2e3a36c4f6472b6b5ea7793cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a69150415ea6b6c4a566729d65841d8d3" name="a69150415ea6b6c4a566729d65841d8d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69150415ea6b6c4a566729d65841d8d3">&#9670;&#160;</a></span>getActualModelLengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::optional&lt; <a class="el" href="namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab">LengthUnit</a> &gt; MR::UnitSettings::getActualModelLengthUnit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the units in which the coordinates are stored in the memory of MeshLib-based application; it is computes as <a class="el" href="#aec4e088dc329cbd35e4ad8d65ff24d64">getModelLengthUnit()</a>.or_else( getUiLengthUnit() ); this function is important for serialization in the formats with known length units </p>
+
+</div>
+</div>
 <a id="a18f2b660ede4fa66b9a12f1b358ae3b5" name="a18f2b660ede4fa66b9a12f1b358ae3b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a18f2b660ede4fa66b9a12f1b358ae3b5">&#9670;&#160;</a></span>getDegreesMode()</h2>
 
@@ -236,6 +266,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set "sourceUnit" for Length based dimensions, which reflects on scaling input data to match "targetUnit" Length based dimensions: length, speed, area, volume, etc This can be null to indicate "no unit". </p>
 
 </div>
 </div>
@@ -262,6 +293,8 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>True: <code>0.1</code>, false: <code>.1</code>. </p>
+
 </div>
 </div>
 <a id="a0325434bfffb878393212fbdbca5aa8e" name="a0325434bfffb878393212fbdbca5aa8e"></a>
@@ -286,6 +319,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Can be '\0' to indicate no separator. <code>fractional == true</code> means to the right of the fractional point, if any. </p>
 
 </div>
 </div>
@@ -336,6 +370,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Whether this means total number of digits or the number of digits after the decimal point depends on another setting (<code><a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams()</a>.style</code>) that's currently not exposed in this file. </p>
 
 </div>
 </div>
@@ -361,6 +396,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set "targetUnit" for Length based dimensions, which reflects on <a class="el" href="namespaceMR_1_1UI.html">UI</a> suffix Length based dimensions: length, speed, area, volume, etc This can be null to indicate "no unit". If <code>setPreferredLeadingZero == true</code>, will call <code><a class="el" href="#a2b2fc6815346b05ae633d230e475a414">setShowLeadingZero()</a></code> to match this unit (currently inches = false, everything else = true). </p>
 
 </div>
 </div>
@@ -403,6 +439,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reset to some sane default. </p>
 
 </div>
 </div>

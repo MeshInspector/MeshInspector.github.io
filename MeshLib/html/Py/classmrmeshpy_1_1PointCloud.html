@@ -200,6 +200,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abad135ceb97f77b6fa9716df1f56b33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b6ffbd591fab78a902f2d8daa21a62e" id="r_a0b6ffbd591fab78a902f2d8daa21a62e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBMap.html">VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b6ffbd591fab78a902f2d8daa21a62e">pack</a> (self, <a class="el" href="classmrmeshpy_1_1Reorder.html">Reorder</a> reoder)</td></tr>
 <tr class="separator:a0b6ffbd591fab78a902f2d8daa21a62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf28b2aad97713fad7d07fe07fb4f69c" id="r_aaf28b2aad97713fad7d07fe07fb4f69c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf28b2aad97713fad7d07fe07fb4f69c">transform</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
+<tr class="separator:aaf28b2aad97713fad7d07fe07fb4f69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23972a978f8a795836fd5e38807a05ff" id="r_a23972a978f8a795836fd5e38807a05ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23972a978f8a795836fd5e38807a05ff">normals</a> (self)</td></tr>
 <tr class="separator:a23972a978f8a795836fd5e38807a05ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0591486b7bf01ea95aea10217793ac6f" id="r_a0591486b7bf01ea95aea10217793ac6f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0591486b7bf01ea95aea10217793ac6f">normals</a> (self, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> arg1)</td></tr>
@@ -870,6 +872,34 @@ if pack is done optionally returns mappings: new.id -&gt; old.id
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="aaf28b2aad97713fad7d07fe07fb4f69c" name="aaf28b2aad97713fad7d07fe07fb4f69c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf28b2aad97713fad7d07fe07fb4f69c">&#9670;&#160;</a></span>transform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PointCloud.transform </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">applies given transformation to specified points and corresponding transformation to their normals if present;
+if region is nullptr, all valid points are modified
+</pre> 
 </div>
 </div>
 <a id="a2f4c4855c5051fd1fc2918cfad3d7a2f" name="a2f4c4855c5051fd1fc2918cfad3d7a2f"></a>

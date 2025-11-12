@@ -33,7 +33,8 @@ var menudata={children:[
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"Tutorials",url:"../Tutorials.html",children:[
-{text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"}]},
+{text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"},
+{text:"Support Generator Tool using C++",url:"../SupportGeneratorTutorial.html"}]},
 {text:"Examples",url:"../Examples.html",children:[
 {text:"C++ Application Based on MeshLib",url:"../Examples.html#CppApplication",children:[
 {text:"Application Based on MeshLib",url:"../BasedApplication.html"}]},
@@ -404,6 +405,7 @@ var menudata={children:[
 {text:"r",url:"globals_r.html#index_r"},
 {text:"s",url:"globals_s.html#index_s"},
 {text:"t",url:"globals_t.html#index_t"},
+{text:"u",url:"globals_u.html#index_u"},
 {text:"v",url:"globals_v.html#index_v"}]},
 {text:"Functions",url:"globals_func.html",children:[
 {text:"a",url:"globals_func.html#index_a"},
@@ -434,8 +436,10 @@ var menudata={children:[
 {text:"t",url:"globals_vars.html#index_t"},
 {text:"v",url:"globals_vars.html#index_v"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
+{text:"i",url:"globals_type.html#index_i"},
 {text:"m",url:"globals_type.html#index_m"},
-{text:"s",url:"globals_type.html#index_s"}]},
+{text:"s",url:"globals_type.html#index_s"},
+{text:"u",url:"globals_type.html#index_u"}]},
 {text:"Enumerations",url:"globals_enum.html"},
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"m",url:"globals_eval.html#index_m"},
@@ -443,7 +447,6 @@ var menudata={children:[
 {text:"Macros",url:"globals_defs.html",children:[
 {text:"_",url:"globals_defs.html#index__5F"},
 {text:"a",url:"globals_defs.html#index_a"},
-{text:"b",url:"globals_defs.html#index_b"},
 {text:"d",url:"globals_defs.html#index_d"},
 {text:"e",url:"globals_defs.html#index_e"},
 {text:"g",url:"globals_defs.html#index_g"},

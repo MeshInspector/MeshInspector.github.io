@@ -172,8 +172,33 @@ Functions</h2></td></tr>
 <tr class="memitem:a5ed2d537fb1f07972b6ab6d769996ce2" id="r_a5ed2d537fb1f07972b6ab6d769996ce2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ed2d537fb1f07972b6ab6d769996ce2">runCocoaFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a5ed2d537fb1f07972b6ab6d769996ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open Cocoa file dialog.  <br /></td></tr>
 <tr class="separator:a5ed2d537fb1f07972b6ab6d769996ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08361a71057d58d2e2b41f69d156ae65" id="r_a08361a71057d58d2e2b41f69d156ae65"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08361a71057d58d2e2b41f69d156ae65">isPortalFileDialogSupported</a> ()</td></tr>
+<tr class="memdesc:a08361a71057d58d2e2b41f69d156ae65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if XDG Desktop Portal file dialogs are supported.  <br /></td></tr>
+<tr class="separator:a08361a71057d58d2e2b41f69d156ae65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb9ed3fb091119b33a12f1cda1f5fbb" id="r_affb9ed3fb091119b33a12f1cda1f5fbb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb9ed3fb091119b33a12f1cda1f5fbb">runPortalFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
+<tr class="memdesc:affb9ed3fb091119b33a12f1cda1f5fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open XDG Desktop Portal file dialog.  <br /></td></tr>
+<tr class="separator:affb9ed3fb091119b33a12f1cda1f5fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a08361a71057d58d2e2b41f69d156ae65" name="a08361a71057d58d2e2b41f69d156ae65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08361a71057d58d2e2b41f69d156ae65">&#9670;&#160;</a></span>isPortalFileDialogSupported()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::detail::isPortalFileDialogSupported </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if XDG Desktop Portal file dialogs are supported. </p>
+
+</div>
+</div>
 <a id="a5ed2d537fb1f07972b6ab6d769996ce2" name="a5ed2d537fb1f07972b6ab6d769996ce2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ed2d537fb1f07972b6ab6d769996ce2">&#9670;&#160;</a></span>runCocoaFileDialog()</h2>
 
@@ -190,6 +215,25 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Open Cocoa file dialog. </p>
+
+</div>
+</div>
+<a id="affb9ed3fb091119b33a12f1cda1f5fbb" name="affb9ed3fb091119b33a12f1cda1f5fbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb9ed3fb091119b33a12f1cda1f5fbb">&#9670;&#160;</a></span>runPortalFileDialog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::vector&lt; std::filesystem::path &gt; MR::detail::runPortalFileDialog </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Open XDG Desktop Portal file dialog. </p>
 
 </div>
 </div>

@@ -84,20 +84,6 @@ var MRMesh_2MRMeshFwd_8h =
     [ "VertPair", "MRMesh_2MRMeshFwd_8h.html#ad75ce80ca78d38bd524b9c4ccd7a520d", null ],
     [ "WholeEdgeHashMap", "MRMesh_2MRMeshFwd_8h.html#a7a097c2851c9c54eef96a938f84750a4", null ],
     [ "WholeEdgeMapOrHashMap", "MRMesh_2MRMeshFwd_8h.html#a97913e3bb3380204133f3b371cc4b6de", null ],
-    [ "FilterType", "MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925a", [
-      [ "Linear", "MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b", null ],
-      [ "Discrete", "MRMesh_2MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553", null ]
-    ] ],
-    [ "Reorder", "MRMesh_2MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9", [
-      [ "None", "MRMesh_2MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "Lexicographically", "MRMesh_2MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954", null ],
-      [ "AABBTree", "MRMesh_2MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
-    ] ],
-    [ "WrapType", "MRMesh_2MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00c", [
-      [ "Repeat", "MRMesh_2MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
-      [ "Mirror", "MRMesh_2MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
-      [ "Clamp", "MRMesh_2MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c", null ]
-    ] ],
     [ "AABBTreePolyline< Vector2f >", "MRMesh_2MRMeshFwd_8h.html#a14ff904b44efe8d73deea9652e3f2713", null ],
     [ "BestFitParabola< float >", "MRMesh_2MRMeshFwd_8h.html#aa0b5dacd1b34eb5d43cc023053febe9c", null ],
     [ "Box< float >", "MRMesh_2MRMeshFwd_8h.html#a52d4c73dd39cffe01830b2bb1f53a190", null ],

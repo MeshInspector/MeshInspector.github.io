@@ -149,18 +149,14 @@ $(function(){initNavTree('MRViewer_8h.html',''); initResizable(true); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRViewer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRViewerInstance_8h_source.html">MRViewerInstance.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMouse_8h_source.html">MRMouse.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSignalCombiners_8h_source.html">MRSignalCombiners.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMakeSlot_8h_source.html">MRMakeSlot.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRViewportId_8h_source.html">MRMesh/MRViewportId.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="MRSignal_8h_source.html">MRMesh/MRSignal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRRenderModelParameters_8h_source.html">MRMesh/MRRenderModelParameters.h</a>&quot;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
@@ -170,8 +166,6 @@ $(function(){initNavTree('MRViewer_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FileLoadOptions.html">MR::FileLoadOptions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,11 +184,6 @@ Macros</h2></td></tr>
 <tr class="separator:a1a1151cfe48505fed9bdf9d94af7cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47bc3da84c367214966eb167e5d2a70d" id="r_a47bc3da84c367214966eb167e5d2a70d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47bc3da84c367214966eb167e5d2a70d">ENQUEUE_VIEWER_METHOD_ARGS_SKIPABLE</a>(NAME,  METHOD, ...)</td></tr>
 <tr class="separator:a47bc3da84c367214966eb167e5d2a70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a17ccacdfeadccb79721c62567730f6cc" id="r_a17ccacdfeadccb79721c62567730f6cc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a17ccacdfeadccb79721c62567730f6cc">MR::FilesLoadedCallback</a> = std::function&lt;void(const std::vector&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;&gt;&amp; objs,const std::string&amp; errors, const std::string&amp; warnings)&gt;</td></tr>
-<tr class="separator:a17ccacdfeadccb79721c62567730f6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>

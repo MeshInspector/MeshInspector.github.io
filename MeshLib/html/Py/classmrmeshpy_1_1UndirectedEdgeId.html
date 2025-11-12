@@ -218,7 +218,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::UndirectedEdgeId
-Aliases:  UndirectedEdgeIterator.value_type, TypedBitSet_UndirectedEdgeId_IndexType, AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_value_type, PolylineUndirectedEdgeIterator.value_type, Vector_UndirectedEdgeId_UndirectedEdgeId_const_reference, AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_reference, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId
+Aliases:  UndirectedEdgeIterator.value_type, AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_const_reference, PolylineUndirectedEdgeIterator.value_type, TypedBitSet_UndirectedEdgeId_IndexType, AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_value_type, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -350,6 +350,7 @@ This constructor is written like this instead of a plain `Id(int)`, because we a
 We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
   for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
   but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#a5aec43e8db676c0127ac3f35eb86b416">mrmeshpy.NoDefInit_UndirectedEdgeId</a>, <a class="el" href="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#ad425cde442cc64bd9bb2de05083103eb">mrmeshpy.NoDefInit_UndirectedEdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#a9f3a9a8020bb40d0e3f5205206420332">mrmeshpy.NoDefInit_UndirectedEdgeId</a>.</p>
 
@@ -379,6 +380,7 @@ This constructor is written like this instead of a plain `Id(int)`, because we a
 We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
   for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
   but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#a5aec43e8db676c0127ac3f35eb86b416">mrmeshpy.NoDefInit_UndirectedEdgeId</a>, <a class="el" href="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#ad425cde442cc64bd9bb2de05083103eb">mrmeshpy.NoDefInit_UndirectedEdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#a9f3a9a8020bb40d0e3f5205206420332">mrmeshpy.NoDefInit_UndirectedEdgeId</a>.</p>
 

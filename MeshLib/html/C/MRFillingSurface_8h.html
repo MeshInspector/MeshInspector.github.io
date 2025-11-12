@@ -181,6 +181,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0b9839dfde3aa393d5c20e25f9d6b30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5722023b66951c9f1f6164dca48cecf" id="r_ac5722023b66951c9f1f6164dca48cecf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a></td></tr>
 <tr class="separator:ac5722023b66951c9f1f6164dca48cecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d4d86110316dd07568ca2600cd5966" id="r_a42d4d86110316dd07568ca2600cd5966"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d4d86110316dd07568ca2600cd5966">MR_FillingSurface_CellularSurface_Type</a></td></tr>
+<tr class="memdesc:a42d4d86110316dd07568ca2600cd5966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of cellular surface base element.  <br /></td></tr>
+<tr class="separator:a42d4d86110316dd07568ca2600cd5966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4efb998aa5d6c2ddd6698e7648180d6" id="r_ae4efb998aa5d6c2ddd6698e7648180d6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a></td></tr>
 <tr class="memdesc:ae4efb998aa5d6c2ddd6698e7648180d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code>.  <br /></td></tr>
 <tr class="separator:ae4efb998aa5d6c2ddd6698e7648180d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +203,11 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ae86ae655ee24778c5d70b3d523794514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported types of TPMS (Triply Periodic Minimal Surfaces)  <a href="#ae86ae655ee24778c5d70b3d523794514">More...</a><br /></td></tr>
 <tr class="separator:ae86ae655ee24778c5d70b3d523794514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41072412d2c5ced81a92bfed16d194c" id="r_ac41072412d2c5ced81a92bfed16d194c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> { <a class="el" href="#ac41072412d2c5ced81a92bfed16d194ca5780569f10739a58453ae8ac62e372d8">MR_FillingSurface_CellularSurface_Type_Cylinder</a> = 0
+, <a class="el" href="#ac41072412d2c5ced81a92bfed16d194ca557b1bde672d7f79c00501311964f637">MR_FillingSurface_CellularSurface_Type_Rect</a> = 1
+ }</td></tr>
+<tr class="memdesc:ac41072412d2c5ced81a92bfed16d194c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of cellular surface base element.  <a href="#ac41072412d2c5ced81a92bfed16d194c">More...</a><br /></td></tr>
+<tr class="separator:ac41072412d2c5ced81a92bfed16d194c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d3adbc3b56cda211a5275e3b2dd996" id="r_a21d3adbc3b56cda211a5275e3b2dd996"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d3adbc3b56cda211a5275e3b2dd996">MR_FillingSurface_Kind</a> { <a class="el" href="#a21d3adbc3b56cda211a5275e3b2dd996a5959d380d1988a9ffee91685fa868b59">MR_FillingSurface_Kind_TPMS</a> = 0
 , <a class="el" href="#a21d3adbc3b56cda211a5275e3b2dd996a6c6a40cd78d13da61e209512370b2fc3">MR_FillingSurface_Kind_Cellular</a> = 1
  }</td></tr>
@@ -310,6 +318,12 @@ Functions</h2></td></tr>
 <tr class="separator:a7ff10477bfbeae78e77e7e1d2769b4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6a36e2b15fb4499c01beacadc9671cd" id="r_ad6a36e2b15fb4499c01beacadc9671cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a36e2b15fb4499c01beacadc9671cd">MR_FillingSurface_TPMS_getMinimalResolution</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float iso)</td></tr>
 <tr class="separator:ad6a36e2b15fb4499c01beacadc9671cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a1540c9e0dddc2a603a0914854bc4f" id="r_ad8a1540c9e0dddc2a603a0914854bc4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a1540c9e0dddc2a603a0914854bc4f">MR_FillingSurface_CellularSurface_Params_Get_type</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="separator:ad8a1540c9e0dddc2a603a0914854bc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f792a026a57a9f5db9e8d88691f48bc" id="r_a7f792a026a57a9f5db9e8d88691f48bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f792a026a57a9f5db9e8d88691f48bc">MR_FillingSurface_CellularSurface_Params_Set_type</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> value)</td></tr>
+<tr class="separator:a7f792a026a57a9f5db9e8d88691f48bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ea67a23028050539ec4db1a77d81e5" id="r_a83ea67a23028050539ec4db1a77d81e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ea67a23028050539ec4db1a77d81e5">MR_FillingSurface_CellularSurface_Params_GetMutable_type</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="separator:a83ea67a23028050539ec4db1a77d81e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7b2ffe0cd2025b2ebfcdb41f39e1f52" id="r_ab7b2ffe0cd2025b2ebfcdb41f39e1f52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b2ffe0cd2025b2ebfcdb41f39e1f52">MR_FillingSurface_CellularSurface_Params_Get_period</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
 <tr class="separator:ab7b2ffe0cd2025b2ebfcdb41f39e1f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06bd6b3534033b0b34d630006c6e0e5d" id="r_a06bd6b3534033b0b34d630006c6e0e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06bd6b3534033b0b34d630006c6e0e5d">MR_FillingSurface_CellularSurface_Params_Set_period</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
@@ -334,12 +348,18 @@ Functions</h2></td></tr>
 <tr class="separator:a84f72e3ac4f622b7138a49c816025eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50f216c4aa37f5e6bf73d75754c06d61" id="r_a50f216c4aa37f5e6bf73d75754c06d61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f216c4aa37f5e6bf73d75754c06d61">MR_FillingSurface_CellularSurface_Params_GetMutable_highRes</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
 <tr class="separator:a50f216c4aa37f5e6bf73d75754c06d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509e02891f539ddf09cd6248e94959f0" id="r_a509e02891f539ddf09cd6248e94959f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509e02891f539ddf09cd6248e94959f0">MR_FillingSurface_CellularSurface_Params_Get_preserveTips</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="separator:a509e02891f539ddf09cd6248e94959f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e63ac3f7d8caabe6a23c885ef8271ed" id="r_a1e63ac3f7d8caabe6a23c885ef8271ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e63ac3f7d8caabe6a23c885ef8271ed">MR_FillingSurface_CellularSurface_Params_Set_preserveTips</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, bool value)</td></tr>
+<tr class="separator:a1e63ac3f7d8caabe6a23c885ef8271ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62eaef0d668ec5ed35ca4d0862a0acee" id="r_a62eaef0d668ec5ed35ca4d0862a0acee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62eaef0d668ec5ed35ca4d0862a0acee">MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="separator:a62eaef0d668ec5ed35ca4d0862a0acee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00fcff38e70b54a9bded4d26a755443a" id="r_a00fcff38e70b54a9bded4d26a755443a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00fcff38e70b54a9bded4d26a755443a">MR_FillingSurface_CellularSurface_Params_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a00fcff38e70b54a9bded4d26a755443a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d2a0629cfcd8058585979290c2dc8ba" id="r_a0d2a0629cfcd8058585979290c2dc8ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d2a0629cfcd8058585979290c2dc8ba">MR_FillingSurface_CellularSurface_Params_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a0d2a0629cfcd8058585979290c2dc8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d95bd00929852ec1e076ffc0fc088a" id="r_a04d95bd00929852ec1e076ffc0fc088a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d95bd00929852ec1e076ffc0fc088a">MR_FillingSurface_CellularSurface_Params_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> period, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> width, float r, bool highRes)</td></tr>
-<tr class="separator:a04d95bd00929852ec1e076ffc0fc088a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac55f93e8457b9fdeaf1b9462ad3865" id="r_a0ac55f93e8457b9fdeaf1b9462ad3865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac55f93e8457b9fdeaf1b9462ad3865">MR_FillingSurface_CellularSurface_Params_ConstructFrom</a> (<a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> type, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> period, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> width, float r, bool highRes, bool preserveTips)</td></tr>
+<tr class="separator:a0ac55f93e8457b9fdeaf1b9462ad3865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade071df38a00c5e497e0829a01ad33f0" id="r_ade071df38a00c5e497e0829a01ad33f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade071df38a00c5e497e0829a01ad33f0">MR_FillingSurface_CellularSurface_Params_OffsetPtr</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ade071df38a00c5e497e0829a01ad33f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ade071df38a00c5e497e0829a01ad33f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,6 +376,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2ce1b0b2beb6a513a032bad25d6fc3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72e4a1338c27c7e0b96fb4c6eeaa3fbd" id="r_a72e4a1338c27c7e0b96fb4c6eeaa3fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e4a1338c27c7e0b96fb4c6eeaa3fbd">MR_FillingSurface_CellularSurface_Params_AssignFromAnother</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_other)</td></tr>
 <tr class="separator:a72e4a1338c27c7e0b96fb4c6eeaa3fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b54db3935ac145cafa0bba535cda5b" id="r_a56b54db3935ac145cafa0bba535cda5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b54db3935ac145cafa0bba535cda5b">MR_FillingSurface_CellularSurface_getTypeNames</a> (void)</td></tr>
+<tr class="separator:a56b54db3935ac145cafa0bba535cda5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74cbe9dee59edafa78c82b85d7d686e0" id="r_a74cbe9dee59edafa78c82b85d7d686e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cbe9dee59edafa78c82b85d7d686e0">MR_FillingSurface_CellularSurface_build</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a74cbe9dee59edafa78c82b85d7d686e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2ece742bacdcd504602b12c03b079da" id="r_aa2ece742bacdcd504602b12c03b079da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2ece742bacdcd504602b12c03b079da">MR_FillingSurface_CellularSurface_fill</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
@@ -395,6 +417,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code>. </p>
+
+</div>
+</div>
+<a id="a42d4d86110316dd07568ca2600cd5966" name="a42d4d86110316dd07568ca2600cd5966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d4d86110316dd07568ca2600cd5966">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of cellular surface base element. </p>
 
 </div>
 </div>
@@ -529,6 +567,26 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac41072412d2c5ced81a92bfed16d194c" name="ac41072412d2c5ced81a92bfed16d194c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41072412d2c5ced81a92bfed16d194c">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of cellular surface base element. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac41072412d2c5ced81a92bfed16d194ca5780569f10739a58453ae8ac62e372d8" name="ac41072412d2c5ced81a92bfed16d194ca5780569f10739a58453ae8ac62e372d8"></a>MR_FillingSurface_CellularSurface_Type_Cylinder&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac41072412d2c5ced81a92bfed16d194ca557b1bde672d7f79c00501311964f637" name="ac41072412d2c5ced81a92bfed16d194ca557b1bde672d7f79c00501311964f637"></a>MR_FillingSurface_CellularSurface_Type_Rect&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a21d3adbc3b56cda211a5275e3b2dd996" name="a21d3adbc3b56cda211a5275e3b2dd996"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21d3adbc3b56cda211a5275e3b2dd996">&#9670;&#160;</a></span>MR_FillingSurface_Kind</h2>
 
@@ -679,6 +737,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a56b54db3935ac145cafa0bba535cda5b" name="a56b54db3935ac145cafa0bba535cda5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b54db3935ac145cafa0bba535cda5b">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_getTypeNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_CellularSurface_getTypeNames </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the names for each type of filling Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FillingSurface_1_1CellularSurface.html#a7b1f32e2858a7557f0903a6528ee9915">MR::FillingSurface::CellularSurface::getTypeNames</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a72e4a1338c27c7e0b96fb4c6eeaa3fbd" name="a72e4a1338c27c7e0b96fb4c6eeaa3fbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72e4a1338c27c7e0b96fb4c6eeaa3fbd">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_AssignFromAnother()</h2>
 
@@ -701,8 +777,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04d95bd00929852ec1e076ffc0fc088a" name="a04d95bd00929852ec1e076ffc0fc088a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04d95bd00929852ec1e076ffc0fc088a">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_ConstructFrom()</h2>
+<a id="a0ac55f93e8457b9fdeaf1b9462ad3865" name="a0ac55f93e8457b9fdeaf1b9462ad3865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ac55f93e8457b9fdeaf1b9462ad3865">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -710,6 +786,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_ConstructFrom </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>period</em></span>, </td>
         </tr>
         <tr>
@@ -725,7 +806,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>highRes</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>highRes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preserveTips</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -861,6 +947,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a509e02891f539ddf09cd6248e94959f0" name="a509e02891f539ddf09cd6248e94959f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509e02891f539ddf09cd6248e94959f0">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_Get_preserveTips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_FillingSurface_CellularSurface_Params_Get_preserveTips </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>preserveTips</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="ad58a041ac6e471824069bf1e76ae724e" name="ad58a041ac6e471824069bf1e76ae724e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad58a041ac6e471824069bf1e76ae724e">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_Get_r()</h2>
 
@@ -876,6 +980,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the radius of uniting spheres Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>r</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ad8a1540c9e0dddc2a603a0914854bc4f" name="ad8a1540c9e0dddc2a603a0914854bc4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8a1540c9e0dddc2a603a0914854bc4f">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_Get_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> * MR_FillingSurface_CellularSurface_Params_Get_type </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the type of the base element Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -933,6 +1055,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a62eaef0d668ec5ed35ca4d0862a0acee" name="a62eaef0d668ec5ed35ca4d0862a0acee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62eaef0d668ec5ed35ca4d0862a0acee">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>preserveTips</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a88cca5c3d0c5528d2c391ad814ffe4d0" name="a88cca5c3d0c5528d2c391ad814ffe4d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88cca5c3d0c5528d2c391ad814ffe4d0">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_GetMutable_r()</h2>
 
@@ -947,6 +1087,24 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83ea67a23028050539ec4db1a77d81e5" name="a83ea67a23028050539ec4db1a77d81e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ea67a23028050539ec4db1a77d81e5">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_GetMutable_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the distance between consecutive cylinders in each direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>period</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1058,6 +1216,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1e63ac3f7d8caabe6a23c885ef8271ed" name="a1e63ac3f7d8caabe6a23c885ef8271ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e63ac3f7d8caabe6a23c885ef8271ed">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_Set_preserveTips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_preserveTips </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>preserveTips</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a7ed50d7d475ac960816a398a7b662c8c" name="a7ed50d7d475ac960816a398a7b662c8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ed50d7d475ac960816a398a7b662c8c">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_Set_r()</h2>
 
@@ -1077,6 +1257,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the radius of uniting spheres Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>r</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7f792a026a57a9f5db9e8d88691f48bc" name="a7f792a026a57a9f5db9e8d88691f48bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f792a026a57a9f5db9e8d88691f48bc">&#9670;&#160;</a></span>MR_FillingSurface_CellularSurface_Params_Set_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the type of the base element Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1286,7 +1488,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns minimal reasonable resolution for given parameters Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FillingSurface_1_1TPMS.html#ab0d1aebd6cc73b3069dce7896b8a8ce4">MR::FillingSurface::TPMS::getMinimalResolution</a></code>. the distance between consecutive cylinders in each direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>period</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns minimal reasonable resolution for given parameters Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FillingSurface_1_1TPMS.html#ab0d1aebd6cc73b3069dce7896b8a8ce4">MR::FillingSurface::TPMS::getMinimalResolution</a></code>. the type of the base element Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR::FillingSurface::CellularSurface::Params</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>

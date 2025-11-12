@@ -19,8 +19,8 @@ var MRSystemPath_8h =
       [ "MR_SystemPath_SystemFontType_BoldItalic", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67a901831291904b0b2c756285b51d43b3c", null ],
       [ "MR_SystemPath_SystemFontType_Count", "MRSystemPath_8h.html#ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8", null ]
     ] ],
-    [ "MR_SystemPath_AssignFromAnother", "MRSystemPath_8h.html#a75604acbd9a81e192361377186095f7e", null ],
-    [ "MR_SystemPath_ConstructFromAnother", "MRSystemPath_8h.html#a08acfa548ee0c70010bc82d758993faf", null ],
+    [ "MR_SystemPath_AssignFromAnother", "MRSystemPath_8h.html#abb1a96581c1a9d62f7a1b728d96a5819", null ],
+    [ "MR_SystemPath_ConstructFromAnother", "MRSystemPath_8h.html#ae764450390af92c1f7d50fb25dd096f1", null ],
     [ "MR_SystemPath_DefaultConstruct", "MRSystemPath_8h.html#ad19f1ec2d46eab7b759aa82b74b33957", null ],
     [ "MR_SystemPath_DefaultConstructArray", "MRSystemPath_8h.html#a91bb14ed8d251065d44d0caa0f722517", null ],
     [ "MR_SystemPath_Destroy", "MRSystemPath_8h.html#ab568941a25fc88dc3fcdefc131e7878d", null ],

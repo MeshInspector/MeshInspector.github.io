@@ -7,7 +7,7 @@ var MRVoxels_2MRVoxelsSave_8h =
     [ "gridToVdb", "MRVoxels_2MRVoxelsSave_8h.html#gae95da72600888100f789f35d3c34dcfb", null ],
     [ "gridToVdb", "MRVoxels_2MRVoxelsSave_8h.html#ga8e29fc2e07717e64d35c1baafabcb446", null ],
     [ "saveAllSlicesToImage", "MRVoxels_2MRVoxelsSave_8h.html#ga369d03f6b945767a7f3fff153969a695", null ],
-    [ "saveObjectVoxelsToFile", "MRVoxels_2MRVoxelsSave_8h.html#abab286ce43034d0b20bdc4c0e5e210ab", null ],
+    [ "saveObjectVoxelsToFile", "MRVoxels_2MRVoxelsSave_8h.html#a869ae2ba71cd79af9776b539540c21d7", null ],
     [ "saveSliceToImage", "MRVoxels_2MRVoxelsSave_8h.html#ga71f97bec2215ef7c561b5de6d82dfe53", null ],
     [ "toAnySupportedFormat", "MRVoxels_2MRVoxelsSave_8h.html#ga479f7166483b9a6ae878a9eaaaf3b2c2", null ],
     [ "toGav", "MRVoxels_2MRVoxelsSave_8h.html#gad119eb5a04825967c784f81d0add0afe", null ],

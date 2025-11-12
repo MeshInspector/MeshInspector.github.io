@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ObjectPointsHolder =
     [ "__init__", "classmrmeshpy_1_1ObjectPointsHolder.html#a9eed396027becfde7d2590df55a49171", null ],
     [ "applyScale", "classmrmeshpy_1_1ObjectPointsHolder.html#a05046fce43a77b6afcc1baaff512a3df", null ],
     [ "clone", "classmrmeshpy_1_1ObjectPointsHolder.html#a3f4e885d3a38cf6190fb47d9eb70c28a", null ],
+    [ "copyAllSolidColors", "classmrmeshpy_1_1ObjectPointsHolder.html#aca983616fd85b658d04365afee535e57", null ],
     [ "copyColors", "classmrmeshpy_1_1ObjectPointsHolder.html#ab5dbdadb435c5a3ca5b61335106e2cb9", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1ObjectPointsHolder.html#aa5327811ea066d5d98c044e893255b1e", null ],
     [ "getMaxRenderingPoints", "classmrmeshpy_1_1ObjectPointsHolder.html#a17428e81a86fd45e86177ad2e4159016", null ],
