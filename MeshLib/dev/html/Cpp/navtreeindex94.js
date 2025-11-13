@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,1,0,1,757],
+"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,2,0,1,739],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,1,0,1,757,0],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,2,0,1,739,0],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[6,0,1,0,1,757,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1UI_1_1CustomConfigModalSettings.html#a4b91e9beaa4407b11b1f892f9e6f596b":[6,0,1,0,1,42,7,3],
 "structMR_1_1UI_1_1CustomConfigModalSettings.html#a4b91e9beaa4407b11b1f892f9e6f596b":[6,0,2,0,1,26,5,3],
 "structMR_1_1UI_1_1CustomConfigModalSettings.html#a53d5fbf42a4e448c9913451533392082":[6,0,1,0,1,42,7,0],
-"structMR_1_1UI_1_1CustomConfigModalSettings.html#a53d5fbf42a4e448c9913451533392082":[6,0,2,0,1,26,5,0],
-"structMR_1_1UI_1_1CustomConfigModalSettings.html#a70a9bbad22124d697e18eee72f3f9c6c":[6,0,1,0,1,42,7,1],
-"structMR_1_1UI_1_1CustomConfigModalSettings.html#a70a9bbad22124d697e18eee72f3f9c6c":[6,0,2,0,1,26,5,1]
+"structMR_1_1UI_1_1CustomConfigModalSettings.html#a53d5fbf42a4e448c9913451533392082":[6,0,2,0,1,26,5,0]
 };

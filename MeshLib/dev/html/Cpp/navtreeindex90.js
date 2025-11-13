@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1RenderDimensions_1_1AngleParams.html#ae12fd753d7b41f3585a8be7f6267b05c":[6,0,2,0,1,20,0,1],
+"structMR_1_1RenderDimensions_1_1CommonParams.html":[6,0,1,0,1,34,2],
 "structMR_1_1RenderDimensions_1_1CommonParams.html":[6,0,2,0,1,20,2],
 "structMR_1_1RenderDimensions_1_1CommonParams.html#a24e53f6e56b159ccb14495ab5e06145f":[6,0,1,0,1,34,2,1],
 "structMR_1_1RenderDimensions_1_1CommonParams.html#a24e53f6e56b159ccb14495ab5e06145f":[6,0,2,0,1,20,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1RigidXf3.html#ad344bdee6f6f01c79ad1f21d6ee2e283":[6,0,2,0,1,628,6],
 "structMR_1_1RigidXf3.html#ad36335768adf3c0ffb40b10e3fc37d39":[6,0,1,0,1,646,4],
 "structMR_1_1RigidXf3.html#ad36335768adf3c0ffb40b10e3fc37d39":[6,0,2,0,1,628,4],
-"structMR_1_1RigidXf3.html#afeb57cb12b3d557aeb536b1f9f858550":[6,0,1,0,1,646,5],
-"structMR_1_1RigidXf3.html#afeb57cb12b3d557aeb536b1f9f858550":[6,0,2,0,1,628,5],
-"structMR_1_1SaveObjectSettings.html":[6,0,1,0,1,649]
+"structMR_1_1RigidXf3.html#afeb57cb12b3d557aeb536b1f9f858550":[6,0,1,0,1,646,5]
 };

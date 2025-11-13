@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1ProvidesViewportWidget.html#a109c919bd164ef9b221f3f71e6db2c41":[6,0,2,0,1,557,2],
+"classMR_1_1ProvidesViewportWidget.html#a3bf7f1350760c817d94d1173339aba56":[6,0,1,0,1,575,3],
 "classMR_1_1ProvidesViewportWidget.html#a3bf7f1350760c817d94d1173339aba56":[6,0,2,0,1,557,3],
 "classMR_1_1ProvidesViewportWidget.html#a7f6c27b4d8d26bfca58a49fc3a614732":[6,0,1,0,1,575,4],
 "classMR_1_1ProvidesViewportWidget.html#a7f6c27b4d8d26bfca58a49fc3a614732":[6,0,2,0,1,557,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739":[6,0,0,12,3,2],
 "classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785":[6,0,0,12,3,4],
 "classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499":[6,0,0,12,3,0],
-"classMR_1_1RenderAngleObject.html":[6,0,1,0,1,598],
-"classMR_1_1RenderAngleObject.html":[6,0,2,0,1,580],
-"classMR_1_1RenderAngleObject.html#a27735a1d0225c060e7c06bbb288c0225":[6,0,1,0,1,598,1]
+"classMR_1_1RenderAngleObject.html":[6,0,1,0,1,598]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1RigidXf3.html#afeb57cb12b3d557aeb536b1f9f858550":[6,0,2,0,1,628,5],
+"structMR_1_1SaveObjectSettings.html":[6,0,1,0,1,649],
 "structMR_1_1SaveObjectSettings.html":[6,0,2,0,1,631],
 "structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[6,0,1,0,1,649,1],
 "structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[6,0,2,0,1,631,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[6,0,0,3,12,2],
 "structMR_1_1SkyPatch.html":[6,0,1,0,1,697],
 "structMR_1_1SkyPatch.html":[6,0,2,0,1,679],
-"structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,1,0,1,697,1],
-"structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,2,0,1,679,1],
-"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[6,0,1,0,1,697,0]
+"structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[6,0,1,0,1,697,1]
 };

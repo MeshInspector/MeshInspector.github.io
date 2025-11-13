@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[6,0,2,0,1,302,3],
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[6,0,1,0,1,320,2],
 "structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[6,0,2,0,1,302,2],
 "structMR_1_1IntersectionPrecomputes.html":[6,0,0,1,15],
 "structMR_1_1IntersectionPrecomputes2.html":[6,0,0,1,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1MapOrHashMap.html#a6d4eb8a403de0495a024d7afa51cbd6c":[6,0,2,0,1,347,8],
 "structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a":[6,0,1,0,1,365,11],
 "structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a":[6,0,2,0,1,347,11],
-"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,1,0,1,365,9],
-"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,2,0,1,347,9],
-"structMR_1_1MapOrHashMap.html#a9027fa8effc674e94506993cc5c1ee2e":[6,0,1,0,1,365,7]
+"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,1,0,1,365,9]
 };

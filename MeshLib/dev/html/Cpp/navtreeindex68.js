@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333":[6,0,1,0,1,42,95],
+"namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222":[6,0,1,0,1,42,37],
 "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110":[6,0,1,0,1,42,62],
 "namespaceMR_1_1UI.html#a9b2e8bbfe90af034977fca967163a4d4":[6,0,1,0,1,42,40],
 "namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a":[6,0,1,0,1,42,83],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,2,0,0,3,2],
 "structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,1,0,0,3,0],
 "structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,2,0,0,3,0],
-"structMRAffineXf3f.html":[6,0,2,0,3],
-"structMRAffineXf3f.html#aa9d39618e3ef0259f88806b24efd6974":[6,0,2,0,3,1],
-"structMRAffineXf3f.html#ae6766689e5c077f26fcc13d6653842a7":[6,0,2,0,3,0]
+"structMRAffineXf3f.html":[6,0,2,0,3]
 };
