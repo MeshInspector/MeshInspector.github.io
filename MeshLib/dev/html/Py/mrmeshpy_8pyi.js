@@ -2092,6 +2092,7 @@ var mrmeshpy_8pyi =
     [ "isNonIntersectingInside", "mrmeshpy_8pyi.html#ae3bc3eb220bb8dc7ca78f1fa0070e75c", null ],
     [ "isNonIntersectingInside", "mrmeshpy_8pyi.html#ace3b339d638fbe8402705307c5d1f8c9", null ],
     [ "isPointInsidePolyline", "mrmeshpy_8pyi.html#a3b7177c4e97fa34ac1468ee1335e59ef", null ],
+    [ "isProhibitedChar", "mrmeshpy_8pyi.html#a51d81a52c99fca944708141ae070d512", null ],
     [ "isSupportedFileInSubfolders", "mrmeshpy_8pyi.html#a80519fb588eef9c713d33b4c309bc0c4", null ],
     [ "isTIFFFile", "mrmeshpy_8pyi.html#a4edce7b223c7d46c540f4dddc258f8dc", null ],
     [ "isVertexRepeatedOnHoleBd", "mrmeshpy_8pyi.html#a9caaef02be430b61fe8077208e8a888c", null ],

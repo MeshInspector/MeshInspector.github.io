@@ -176,6 +176,8 @@ Functions</h2></td></tr>
 <tr class="separator:a502366fa7a09ea97bf3887611a2431fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c2bf57225428d63eefbf15ce09b020" id="r_ad8c2bf57225428d63eefbf15ce09b020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2bf57225428d63eefbf15ce09b020">MR_bytesString</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
 <tr class="separator:ad8c2bf57225428d63eefbf15ce09b020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d3203a7276b7af11a4fae6efed7d50" id="r_ae1d3203a7276b7af11a4fae6efed7d50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1d3203a7276b7af11a4fae6efed7d50">MR_isProhibitedChar</a> (char c)</td></tr>
+<tr class="separator:ae1d3203a7276b7af11a4fae6efed7d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4237f74e0dd8658a7eb52c43a1f0d0d" id="r_ae4237f74e0dd8658a7eb52c43a1f0d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4237f74e0dd8658a7eb52c43a1f0d0d">MR_hasProhibitedChars</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *line)</td></tr>
 <tr class="separator:ae4237f74e0dd8658a7eb52c43a1f0d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa582e6208cb9fc38ab6d9cd3cd9a1cc2" id="r_aa582e6208cb9fc38ab6d9cd3cd9a1cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa582e6208cb9fc38ab6d9cd3cd9a1cc2">MR_replaceProhibitedChars</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *line, const char *replacement)</td></tr>
@@ -293,7 +295,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if line contains any of OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf">MR::hasProhibitedChars</a></code>. Parameter <code>line</code> can not be null. It is a single object. </p>
+<p>returns true if line contains at least one character (c) for which isProhibitedChar(c)==true Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf">MR::hasProhibitedChars</a></code>. Parameter <code>line</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae1d3203a7276b7af11a4fae6efed7d50" name="ae1d3203a7276b7af11a4fae6efed7d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d3203a7276b7af11a4fae6efed7d50">&#9670;&#160;</a></span>MR_isProhibitedChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isProhibitedChar </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the character is any of OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;', ':') Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaf7db2c19eab5cb5d5a7d91d8ae03dc9">MR::isProhibitedChar</a></code>. </p>
 
 </div>
 </div>
@@ -315,7 +335,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replace OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') with <code>replacement</code> char Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a893bffc80e40fe77684c61377cd58705">MR::replaceProhibitedChars</a></code>. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>replacement</code> has a default argument: &lsquo;&rsquo;_'<code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call</code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a>` to free it when you're done using it. </p>
+<p>replace all characters (c), where isProhibitedChar(c)==true, with <code>replacement</code> char Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a893bffc80e40fe77684c61377cd58705">MR::replaceProhibitedChars</a></code>. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>replacement</code> has a default argument: &lsquo;&rsquo;_'<code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call</code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a>` to free it when you're done using it. </p>
 
 </div>
 </div>

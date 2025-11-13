@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1IComputeToolDistance.html#a8ea4d968e93876e24b36709e9324f596":[6,0,2,0,1,279,2],
 "classMR_1_1IComputeToolDistance.html#af4e1c6d89878989a6012b5d845adcd1a":[6,0,1,0,1,297,3],
 "classMR_1_1IComputeToolDistance.html#af4e1c6d89878989a6012b5d845adcd1a":[6,0,2,0,1,279,3],
 "classMR_1_1IDragDropHandler.html":[6,0,1,0,1,307],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1Id_3_01EdgeTag_01_4.html#a840cf2a8cf28a0165be6397be158f260":[6,0,1,0,1,305,3],
 "classMR_1_1Id_3_01EdgeTag_01_4.html#a840cf2a8cf28a0165be6397be158f260":[6,0,2,0,1,287,3],
 "classMR_1_1Id_3_01EdgeTag_01_4.html#a89bead284bc8be429fec5a0a89956ffd":[6,0,1,0,1,305,15],
-"classMR_1_1Id_3_01EdgeTag_01_4.html#a89bead284bc8be429fec5a0a89956ffd":[6,0,2,0,1,287,15],
-"classMR_1_1Id_3_01EdgeTag_01_4.html#a8cc7f74c2b79e63aa44cdb7db510ae42":[6,0,1,0,1,305,12]
+"classMR_1_1Id_3_01EdgeTag_01_4.html#a89bead284bc8be429fec5a0a89956ffd":[6,0,2,0,1,287,15]
 };

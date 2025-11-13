@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1GlBuffer.html#a7ae1352fab61b091036e19f28f540e1c":[6,0,2,0,1,263,7],
 "classMR_1_1GlBuffer.html#a7f87da97ec22496a5829c5c04c423c1d":[6,0,1,0,1,281,0],
 "classMR_1_1GlBuffer.html#a7f87da97ec22496a5829c5c04c423c1d":[6,0,2,0,1,263,0],
 "classMR_1_1GlBuffer.html#a805d12e83311707f290106a64f5679f9":[6,0,1,0,1,281,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1IComputeToolDistance.html#a0053dac6d78b84037562e955eb49f7bd":[6,0,2,0,1,279,1],
 "classMR_1_1IComputeToolDistance.html#a2bb611f9d72c80f0aa38d68e6a008ad0":[6,0,1,0,1,297,0],
 "classMR_1_1IComputeToolDistance.html#a2bb611f9d72c80f0aa38d68e6a008ad0":[6,0,2,0,1,279,0],
-"classMR_1_1IComputeToolDistance.html#a8ea4d968e93876e24b36709e9324f596":[6,0,1,0,1,297,2],
-"classMR_1_1IComputeToolDistance.html#a8ea4d968e93876e24b36709e9324f596":[6,0,2,0,1,279,2]
+"classMR_1_1IComputeToolDistance.html#a8ea4d968e93876e24b36709e9324f596":[6,0,1,0,1,297,2]
 };

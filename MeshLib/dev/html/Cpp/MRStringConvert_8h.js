@@ -10,6 +10,7 @@ var MRStringConvert_8h =
     [ "formatNoTrailingZeros", "MRStringConvert_8h.html#a092a56befdbd9c3b35b34086376a4a0d", null ],
     [ "getCancelMessage", "MRStringConvert_8h.html#a0f9f82f9571d4a67b586f1e38d93afe9", null ],
     [ "hasProhibitedChars", "MRStringConvert_8h.html#a58401eef2addb5c0fef7e5dd90a17ddf", null ],
+    [ "isProhibitedChar", "MRStringConvert_8h.html#aaf7db2c19eab5cb5d5a7d91d8ae03dc9", null ],
     [ "pathFromUtf8", "MRStringConvert_8h.html#ga274eb4278759027605fb20465ec0a769", null ],
     [ "pathFromUtf8", "MRStringConvert_8h.html#gafb82b59416abea95f150286ba0695dd8", null ],
     [ "replaceProhibitedChars", "MRStringConvert_8h.html#a893bffc80e40fe77684c61377cd58705", null ],

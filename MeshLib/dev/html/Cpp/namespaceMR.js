@@ -2554,6 +2554,7 @@ var namespaceMR =
     [ "isPointInPlane", "group__TriangleIntersectionGroup.html#ga12874ed96dd226c86c9f430e0845eae8", null ],
     [ "isPointInsidePolyline", "group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
     [ "isPointInTriangle", "group__TriangleIntersectionGroup.html#ga746d797c724c3644c060dec600b7a05a", null ],
+    [ "isProhibitedChar", "namespaceMR.html#aaf7db2c19eab5cb5d5a7d91d8ae03dc9", null ],
     [ "isRigid", "namespaceMR.html#abfe7262e1e5d80122b05aa8e68fc0545", null ],
     [ "isSupportedFileInSubfolders", "group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441", null ],
     [ "isTIFFFile", "namespaceMR.html#a30561e9335c9081843e4c982a0553366", null ],

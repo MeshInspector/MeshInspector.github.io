@@ -6,6 +6,7 @@ var MRStringConvert_8h =
     [ "MR_commonFilesName", "MRStringConvert_8h.html#a8a71cc1e444dbd286b2b92bb685b771a", null ],
     [ "MR_getCancelMessage", "MRStringConvert_8h.html#ad7ae26dc73115bc6f2571acf8f260784", null ],
     [ "MR_hasProhibitedChars", "MRStringConvert_8h.html#ae4237f74e0dd8658a7eb52c43a1f0d0d", null ],
+    [ "MR_isProhibitedChar", "MRStringConvert_8h.html#ae1d3203a7276b7af11a4fae6efed7d50", null ],
     [ "MR_replaceProhibitedChars", "MRStringConvert_8h.html#aa582e6208cb9fc38ab6d9cd3cd9a1cc2", null ],
     [ "MR_roundToPrecision_double", "MRStringConvert_8h.html#a696800d0398977ffc2be48c17e2148b6", null ],
     [ "MR_roundToPrecision_float", "MRStringConvert_8h.html#aa061d0b228b9c1f9996d2c30c48c250b", null ],

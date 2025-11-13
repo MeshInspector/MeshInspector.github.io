@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"std__vector__MR__EdgePointPair_8h.html#a904f0bb54ba9638d3a3b8b50f55a32f3":[6,2,1,0,0,0,2,304,36],
 "std__vector__MR__EdgePointPair_8h.html#a935b77678e23f2161de2517d4e7431f7":[6,2,1,0,0,0,2,304,53],
 "std__vector__MR__EdgePointPair_8h.html#a941f2d453470a1a53ad6766fefe28439":[6,2,1,0,0,0,2,304,32],
 "std__vector__MR__EdgePointPair_8h.html#a95f25457a80c900eb0c3b16f687153b2":[6,2,1,0,0,0,2,304,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "std__vector__MR__EdgeTri_8h.html#af6ebb7eb16f256273fb22d60515ed048":[6,2,1,0,0,0,2,306,69],
 "std__vector__MR__EdgeTri_8h.html#af77432bc3019959c0e3ff3d310df48b6":[6,2,1,0,0,0,2,306,14],
 "std__vector__MR__EdgeTri_8h.html#afda8e96bb48d9d241a75b3e0f98aa733":[6,2,1,0,0,0,2,306,53],
-"std__vector__MR__EdgeTri_8h_source.html":[6,2,1,0,0,0,2,306],
-"std__vector__MR__FaceBitSet_8h.html":[6,2,1,0,0,0,2,307]
+"std__vector__MR__EdgeTri_8h_source.html":[6,2,1,0,0,0,2,306]
 };

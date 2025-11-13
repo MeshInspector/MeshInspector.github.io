@@ -1938,6 +1938,7 @@ var namespacemrmeshpy =
     [ "isNonIntersectingInside", "namespacemrmeshpy.html#ae3bc3eb220bb8dc7ca78f1fa0070e75c", null ],
     [ "isNonIntersectingInside", "namespacemrmeshpy.html#ace3b339d638fbe8402705307c5d1f8c9", null ],
     [ "isPointInsidePolyline", "namespacemrmeshpy.html#a3b7177c4e97fa34ac1468ee1335e59ef", null ],
+    [ "isProhibitedChar", "namespacemrmeshpy.html#a51d81a52c99fca944708141ae070d512", null ],
     [ "isSupportedFileInSubfolders", "namespacemrmeshpy.html#a80519fb588eef9c713d33b4c309bc0c4", null ],
     [ "isTIFFFile", "namespacemrmeshpy.html#a4edce7b223c7d46c540f4dddc258f8dc", null ],
     [ "isVertexRepeatedOnHoleBd", "namespacemrmeshpy.html#a9caaef02be430b61fe8077208e8a888c", null ],
