@@ -15,7 +15,7 @@ var MRObjectPoints_8h =
     [ "MR_VertBitSet", "MRObjectPoints_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_VisualObject", "MRObjectPoints_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
     [ "MR_cloneRegion_2_std_shared_ptr_MR_ObjectPoints", "MRObjectPoints_8h.html#aed714eeb8975f630f4e2ba7ae5e3cdd6", null ],
-    [ "MR_merge_std_vector_std_shared_ptr_MR_ObjectPoints", "MRObjectPoints_8h.html#aca4f7329cc55cc053355fd925379d2c9", null ],
+    [ "MR_merge_1_std_vector_std_shared_ptr_MR_ObjectPoints", "MRObjectPoints_8h.html#ad2de42035b64baf9852bf28287d94c8d", null ],
     [ "MR_ObjectPoints_AssignFromAnother", "MRObjectPoints_8h.html#a67d842caa5a000120ad3b7c4a35f0d33", null ],
     [ "MR_ObjectPoints_ClassName", "MRObjectPoints_8h.html#ad663f03666720839b166c4b93774b231", null ],
     [ "MR_ObjectPoints_className", "MRObjectPoints_8h.html#a756f84c44a62a1d7ff51f928d6d045f0", null ],

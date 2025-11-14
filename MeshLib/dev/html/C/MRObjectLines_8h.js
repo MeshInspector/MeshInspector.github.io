@@ -13,7 +13,7 @@ var MRObjectLines_8h =
     [ "MR_UndirectedEdgeBitSet", "MRObjectLines_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
     [ "MR_VisualObject", "MRObjectLines_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
     [ "MR_cloneRegion_2_std_shared_ptr_MR_ObjectLines", "MRObjectLines_8h.html#aa2b5e61311c259e4e4f174dfca3505ad", null ],
-    [ "MR_merge_std_vector_std_shared_ptr_MR_ObjectLines", "MRObjectLines_8h.html#a121855d894c624572a49e68d212a9d2d", null ],
+    [ "MR_merge_1_std_vector_std_shared_ptr_MR_ObjectLines", "MRObjectLines_8h.html#a7934b6f5707b33254570cbafc0b21a90", null ],
     [ "MR_ObjectLines_AssignFromAnother", "MRObjectLines_8h.html#a421199713a72a387c509f8790a18fd9e", null ],
     [ "MR_ObjectLines_ClassName", "MRObjectLines_8h.html#a993f4b0c7be280032f6dbe6451eaac6a", null ],
     [ "MR_ObjectLines_className", "MRObjectLines_8h.html#ab156232e7a033c2b92ba9cf5c1ce8222", null ],

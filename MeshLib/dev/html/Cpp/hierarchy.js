@@ -982,6 +982,7 @@ var hierarchy =
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
     [ "MR::ObjectMeshData", "structMR_1_1ObjectMeshData.html", null ],
+    [ "MR::ObjectMeshMergeOptions", "structMR_1_1ObjectMeshMergeOptions.html", null ],
     [ "MR::PickPointManager::ObjectState", "structMR_1_1PickPointManager_1_1ObjectState.html", null ],
     [ "MR::ObjectTagEventDispatcher", "classMR_1_1ObjectTagEventDispatcher.html", null ],
     [ "MR::ObjKindTraits< X >", "structMR_1_1ObjKindTraits.html", null ],
