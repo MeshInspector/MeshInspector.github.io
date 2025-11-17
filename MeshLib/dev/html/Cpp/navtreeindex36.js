@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1ObjectMeshHolder.html#ae973674ab47a1d078458067b5ee20e94":[6,0,2,0,1,448,55],
+"classMR_1_1ObjectMeshHolder.html#aeaa501dd61dadd0298de0f97c2b4c45d":[6,0,1,0,1,466,10],
 "classMR_1_1ObjectMeshHolder.html#aeaa501dd61dadd0298de0f97c2b4c45d":[6,0,2,0,1,448,10],
 "classMR_1_1ObjectMeshHolder.html#aed6ee2653cd047b6aa6715f675e0e440":[6,0,1,0,1,466,101],
 "classMR_1_1ObjectMeshHolder.html#aed6ee2653cd047b6aa6715f675e0e440":[6,0,2,0,1,448,101],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,1,0,1,471,2],
 "classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,2,0,1,453,2],
 "classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,1,0,1,471,19],
-"classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,2,0,1,453,19],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,1,0,1,471,0],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,2,0,1,453,0]
+"classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,2,0,1,453,19]
 };

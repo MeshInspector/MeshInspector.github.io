@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ac3054d46cfaedba6b0a499eb9384d17a":[6,0,1,0,1,16,7,17],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ac3054d46cfaedba6b0a499eb9384d17a":[6,0,2,0,1,7,7,17],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ad04c636cdbdb7063ebc7ef960c282848":[6,0,1,0,1,16,7,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ad04c636cdbdb7063ebc7ef960c282848":[6,0,2,0,1,7,7,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af0499c1167b1f999c50abcda597a5133":[6,0,1,0,1,16,7,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1InterruptCloseListener.html":[6,0,2,0,1,302],
 "structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,1,0,1,320,1],
 "structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,2,0,1,302,1],
-"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,1,0,1,320,0],
-"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,2,0,1,302,0],
-"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[6,0,1,0,1,320,3]
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,1,0,1,320,0]
 };

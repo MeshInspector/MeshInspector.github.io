@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,1,0,1,679,2],
+"classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,2,0,1,661,2],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,1,0,1,679,1],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,2,0,1,661,1],
 "classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,679,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1SphereObject.html#ad99bcf65ca008b2ce0ff6c2df4adf74f":[6,0,0,11,0,6,0],
 "classMR_1_1SphereObject.html#ae8924769b4847b515a97481b5ac24215":[6,0,0,11,0,6,19],
 "classMR_1_1SphereObject.html#af04d3d5d57a38da6df94e3c775c5ecec":[6,0,0,11,0,6,11],
-"classMR_1_1SphereObject.html#afc914c440e4c94f219e3d213905b1edb":[6,0,0,11,0,6,12],
-"classMR_1_1SplashWindow.html":[6,0,1,0,1,715],
-"classMR_1_1SplashWindow.html":[6,0,2,0,1,697]
+"classMR_1_1SphereObject.html#afc914c440e4c94f219e3d213905b1edb":[6,0,0,11,0,6,12]
 };

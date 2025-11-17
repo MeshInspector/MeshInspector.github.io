@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21":[6,0,2,0,1,504,3],
+"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0],
 "classMR_1_1PointAccumulator.html#a13bcaab870ceaab70ec6b3b7d4470185":[6,0,0,0,1,0,1],
 "classMR_1_1PointAccumulator.html#a15a8cf1a4ee07c5e665631a49d310b88":[6,0,0,0,1,0,8],
 "classMR_1_1PointAccumulator.html#a2101603a476d7949c907898b3513fc27":[6,0,0,0,1,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,2,0,1,555,4],
 "classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,1,0,1,573,12],
 "classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,2,0,1,555,12],
-"classMR_1_1ProvidesViewportWidget.html":[6,0,1,0,1,576],
-"classMR_1_1ProvidesViewportWidget.html":[6,0,2,0,1,558],
-"classMR_1_1ProvidesViewportWidget.html#a109c919bd164ef9b221f3f71e6db2c41":[6,0,1,0,1,576,2]
+"classMR_1_1ProvidesViewportWidget.html":[6,0,1,0,1,576]
 };

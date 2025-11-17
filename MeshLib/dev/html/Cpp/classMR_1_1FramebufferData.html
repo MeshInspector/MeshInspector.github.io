@@ -156,8 +156,8 @@ $(function(){initNavTree('classMR_1_1FramebufferData.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a32347402456cb0f76070a32c159d4e8e" id="r_a32347402456cb0f76070a32c159d4e8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32347402456cb0f76070a32c159d4e8e">gen</a> (const Vector2i &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, int msaaPow)</td></tr>
-<tr class="separator:a32347402456cb0f76070a32c159d4e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5e0157ae3644f6dfad61f4ede345e0" id="r_aef5e0157ae3644f6dfad61f4ede345e0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5e0157ae3644f6dfad61f4ede345e0">gen</a> (const Vector2i &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool copyDepth, int msaaPow)</td></tr>
+<tr class="separator:aef5e0157ae3644f6dfad61f4ede345e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7ddd7db6e430959db457666b4d98201" id="r_ab7ddd7db6e430959db457666b4d98201"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ddd7db6e430959db457666b4d98201">bind</a> (bool clear=true)</td></tr>
 <tr class="separator:ab7ddd7db6e430959db457666b4d98201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c09cab97e4bdd21875667bbbb9338ce" id="r_a3c09cab97e4bdd21875667bbbb9338ce"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c09cab97e4bdd21875667bbbb9338ce">bindDefault</a> ()</td></tr>
@@ -168,8 +168,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5e89aff5db92583727297ab9f6f71124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd64093c7c72fb36807eaf3b9baa59e2" id="r_afd64093c7c72fb36807eaf3b9baa59e2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd64093c7c72fb36807eaf3b9baa59e2">del</a> ()</td></tr>
 <tr class="separator:afd64093c7c72fb36807eaf3b9baa59e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada1a819817c1dfa7f0a2793abb3b1ecc" id="r_ada1a819817c1dfa7f0a2793abb3b1ecc"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada1a819817c1dfa7f0a2793abb3b1ecc">getTexture</a> () const</td></tr>
-<tr class="separator:ada1a819817c1dfa7f0a2793abb3b1ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f554722ab0b107b3ec2afa38e43460d" id="r_a4f554722ab0b107b3ec2afa38e43460d"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f554722ab0b107b3ec2afa38e43460d">getColorTexture</a> () const</td></tr>
+<tr class="separator:a4f554722ab0b107b3ec2afa38e43460d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8079592aa54b067ee0a8c529a5bb8ef3" id="r_a8079592aa54b067ee0a8c529a5bb8ef3"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8079592aa54b067ee0a8c529a5bb8ef3">getDepthTexture</a> () const</td></tr>
+<tr class="separator:a8079592aa54b067ee0a8c529a5bb8ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89877d47c22c4dda2ae1bcd9ec9923c5" id="r_a89877d47c22c4dda2ae1bcd9ec9923c5"><td class="memItemLeft" align="right" valign="top">const Vector2i &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89877d47c22c4dda2ae1bcd9ec9923c5">getSize</a> () const</td></tr>
 <tr class="separator:a89877d47c22c4dda2ae1bcd9ec9923c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69af9841e2e06066fbdea51d15b5d1e6" id="r_a69af9841e2e06066fbdea51d15b5d1e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69af9841e2e06066fbdea51d15b5d1e6">isBound</a> () const</td></tr>
@@ -261,8 +263,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a32347402456cb0f76070a32c159d4e8e" name="a32347402456cb0f76070a32c159d4e8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32347402456cb0f76070a32c159d4e8e">&#9670;&#160;</a></span>gen()</h2>
+<a id="aef5e0157ae3644f6dfad61f4ede345e0" name="aef5e0157ae3644f6dfad61f4ede345e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5e0157ae3644f6dfad61f4ede345e0">&#9670;&#160;</a></span>gen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,9 +277,64 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>copyDepth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>msaaPow</em></span>&#160;)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f554722ab0b107b3ec2afa38e43460d" name="a4f554722ab0b107b3ec2afa38e43460d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f554722ab0b107b3ec2afa38e43460d">&#9670;&#160;</a></span>getColorTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned MR::FramebufferData::getColorTexture </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8079592aa54b067ee0a8c529a5bb8ef3" name="a8079592aa54b067ee0a8c529a5bb8ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8079592aa54b067ee0a8c529a5bb8ef3">&#9670;&#160;</a></span>getDepthTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned MR::FramebufferData::getDepthTexture </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -293,31 +350,6 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const Vector2i &amp; MR::FramebufferData::getSize </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada1a819817c1dfa7f0a2793abb3b1ecc" name="ada1a819817c1dfa7f0a2793abb3b1ecc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada1a819817c1dfa7f0a2793abb3b1ecc">&#9670;&#160;</a></span>getTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned MR::FramebufferData::getTexture </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

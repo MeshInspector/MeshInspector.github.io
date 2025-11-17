@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Box.html#a5221795da9f2f569a0ac9fd9a1a5cba4":[6,0,0,0,2,0,21],
+"structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9":[6,0,0,0,2,0,12],
 "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e":[6,0,0,0,2,0,9],
 "structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8":[6,0,0,0,2,0,17],
 "structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c":[6,0,0,0,2,0,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ContoursMeshAlignParams.html#abb4c90b83a016a27219b89f5e2fbeb70":[6,0,1,0,1,167,4],
 "structMR_1_1ContoursMeshAlignParams.html#abb4c90b83a016a27219b89f5e2fbeb70":[6,0,2,0,1,149,4],
 "structMR_1_1ContoursMeshAlignParams.html#ad9dad0b7c156df05b761c0ed08386885":[6,0,1,0,1,167,1],
-"structMR_1_1ContoursMeshAlignParams.html#ad9dad0b7c156df05b761c0ed08386885":[6,0,2,0,1,149,1],
-"structMR_1_1ContoursMeshAlignParams.html#ade3d72e16e489a276f9609dfb721672f":[6,0,1,0,1,167,3],
-"structMR_1_1ContoursMeshAlignParams.html#ade3d72e16e489a276f9609dfb721672f":[6,0,2,0,1,149,3]
+"structMR_1_1ContoursMeshAlignParams.html#ad9dad0b7c156df05b761c0ed08386885":[6,0,2,0,1,149,1]
 };

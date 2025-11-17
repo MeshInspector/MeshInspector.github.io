@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,1,0,1,471,0],
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,2,0,1,453,0],
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a0afac4f4b06cfb2f11fe773ecb84a131":[6,0,1,0,1,471,0,3],
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a0afac4f4b06cfb2f11fe773ecb84a131":[6,0,2,0,1,453,0,3],
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a4db820bb720239af368c1f2e8afca2a3":[6,0,1,0,1,471,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1PartialChangeMeshTopologyAction.html#a401938742b88492ed12d3e7509eed8bc":[6,0,0,4,42,0],
 "classMR_1_1PartialChangeMeshTopologyAction.html#a61706f60c84d69b27d3acf9fdc0673ef":[6,0,0,4,42,3],
 "classMR_1_1PartialChangeMeshTopologyAction.html#abcd08e02fc94e72034e4e2bc1371262b":[6,0,0,4,42,2],
-"classMR_1_1PartialChangeMeshTopologyAction.html#af60c80f62ba5789c89fc2657ce402ef0":[6,0,0,4,42,4],
-"classMR_1_1Pdf.html":[6,0,1,0,1,510],
-"classMR_1_1Pdf.html":[6,0,2,0,1,492]
+"classMR_1_1PartialChangeMeshTopologyAction.html#af60c80f62ba5789c89fc2657ce402ef0":[6,0,0,4,42,4]
 };

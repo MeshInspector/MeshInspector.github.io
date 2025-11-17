@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1MeshOrPointsXf.html":[6,0,2,0,1,376],
+"structMR_1_1MeshOrPointsXf.html#a2932a85f5de8279bac268cd46556006e":[6,0,1,0,1,394,1],
 "structMR_1_1MeshOrPointsXf.html#a2932a85f5de8279bac268cd46556006e":[6,0,2,0,1,376,1],
 "structMR_1_1MeshOrPointsXf.html#a64a929bd548c696b451590ec6b2465bb":[6,0,1,0,1,394,2],
 "structMR_1_1MeshOrPointsXf.html#a64a929bd548c696b451590ec6b2465bb":[6,0,2,0,1,376,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,2,0,1,394,4],
 "structMR_1_1MinArg.html#ab87329f332e5428c0f493fbd21be1622":[6,0,1,0,1,412,3],
 "structMR_1_1MinArg.html#ab87329f332e5428c0f493fbd21be1622":[6,0,2,0,1,394,3],
-"structMR_1_1MinMaxArg.html":[6,0,1,0,1,413],
-"structMR_1_1MinMaxArg.html":[6,0,2,0,1,395],
-"structMR_1_1MinMaxArg.html#a047c4d9c19b1241c1b35ae8a93c724bc":[6,0,1,0,1,413,3]
+"structMR_1_1MinMaxArg.html":[6,0,1,0,1,413]
 };

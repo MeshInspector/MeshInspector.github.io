@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1MinMaxArg.html":[6,0,2,0,1,395],
+"structMR_1_1MinMaxArg.html#a047c4d9c19b1241c1b35ae8a93c724bc":[6,0,1,0,1,413,3],
 "structMR_1_1MinMaxArg.html#a047c4d9c19b1241c1b35ae8a93c724bc":[6,0,2,0,1,395,3],
 "structMR_1_1MinMaxArg.html#a26258462e8f6cb5ad553b6060188c941":[6,0,1,0,1,413,7],
 "structMR_1_1MinMaxArg.html#a26258462e8f6cb5ad553b6060188c941":[6,0,2,0,1,395,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1NodeNode.html":[6,0,0,1,5],
 "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[6,0,0,1,5,1],
 "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[6,0,0,1,5,0],
-"structMR_1_1NoiseSettings.html":[6,0,1,0,1,447],
-"structMR_1_1NoiseSettings.html":[6,0,2,0,1,429],
-"structMR_1_1NoiseSettings.html#a414f4d6065c24f7db4605e0dac3362b8":[6,0,1,0,1,447,0]
+"structMR_1_1NoiseSettings.html":[6,0,1,0,1,447]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585":[6,0,1,0,1,648,1],
+"classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585":[6,0,2,0,1,630,1],
 "classMR_1_1RingIterator.html#a63558101e2ac4ecae79ac6fc9cca48bb":[6,0,1,0,1,648,5],
 "classMR_1_1RingIterator.html#a63558101e2ac4ecae79ac6fc9cca48bb":[6,0,2,0,1,630,5],
 "classMR_1_1RingIterator.html#a6a1ef2de2a1f13787a3b231f9ce3b4a4":[6,0,1,0,1,648,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1ScopeHistory.html#ab4c17b1dd2ac2de71650b8211d421d1b":[6,0,1,0,1,674,2],
 "classMR_1_1ScopeHistory.html#ab4c17b1dd2ac2de71650b8211d421d1b":[6,0,2,0,1,656,2],
 "classMR_1_1SelectObjectByClick.html":[6,0,1,0,1,679],
-"classMR_1_1SelectObjectByClick.html":[6,0,2,0,1,661],
-"classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,1,0,1,679,2],
-"classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,2,0,1,661,2]
+"classMR_1_1SelectObjectByClick.html":[6,0,2,0,1,661]
 };
