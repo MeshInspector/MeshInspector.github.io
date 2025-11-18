@@ -348,6 +348,7 @@ var hierarchy =
     [ "MR::DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", null ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
+    [ "MR::FramebufferData::DrawParams", "structMR_1_1FramebufferData_1_1DrawParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text::DrawResult", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html", null ],
     [ "MR::PointsLoad::E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", null ],
     [ "MR::EdgeLengthMesh", "structMR_1_1EdgeLengthMesh.html", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI.html#a878027b7be9898c79a8e079b56ccc99c":[6,0,1,0,1,42,87],
+"namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[6,0,1,0,1,42,56],
+"namespaceMR_1_1UI.html#a88497709249abe39b1a8945f1da37c1d":[6,0,1,0,1,42,22],
+"namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[6,0,1,0,1,42,52],
 "namespaceMR_1_1UI.html#a8e2e5a94838570d15a333a1f11ebea6d":[6,0,1,0,1,42,29],
 "namespaceMR_1_1UI.html#a8e4c6b5d376e0b7733631a2901b86d4b":[6,0,1,0,1,42,68],
 "namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333":[6,0,1,0,1,42,95],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[6,0,2,0,0,2,2],
 "structImGui_1_1SavedWindowPosParams.html":[6,0,1,0,0,3],
 "structImGui_1_1SavedWindowPosParams.html":[6,0,2,0,0,3],
-"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,1,0,0,3,1],
-"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,2,0,0,3,1],
-"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,1,0,0,3,2],
-"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,2,0,0,3,2],
-"structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,1,0,0,3,0]
+"structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,1,0,0,3,1]
 };
