@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1FewSmallest.html#af536aae957f76a53b47070d11d2a4181":[6,0,1,0,1,245,2],
+"classMR_1_1FewSmallest.html#af536aae957f76a53b47070d11d2a4181":[6,0,2,0,1,227,2],
 "classMR_1_1FewSmallest.html#afe398061489451b6194321a60829929f":[6,0,1,0,1,245,0],
 "classMR_1_1FewSmallest.html#afe398061489451b6194321a60829929f":[6,0,2,0,1,227,0],
 "classMR_1_1File.html":[6,0,1,0,1,246],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1GcodeProcessor.html#aab85326426858f8da3d65ca24a5e1a6e":[6,0,1,0,1,278,8],
 "classMR_1_1GcodeProcessor.html#aab85326426858f8da3d65ca24a5e1a6e":[6,0,2,0,1,260,8],
 "classMR_1_1GcodeProcessor.html#ac70b156fa41443a361dc92797369d6dd":[6,0,1,0,1,278,7],
-"classMR_1_1GcodeProcessor.html#ac70b156fa41443a361dc92797369d6dd":[6,0,2,0,1,260,7],
-"classMR_1_1GcodeProcessor.html#ace829c3782f4685968c82c32de66a4d0":[6,0,1,0,1,278,10],
-"classMR_1_1GcodeProcessor.html#ace829c3782f4685968c82c32de66a4d0":[6,0,2,0,1,260,10]
+"classMR_1_1GcodeProcessor.html#ac70b156fa41443a361dc92797369d6dd":[6,0,2,0,1,260,7]
 };

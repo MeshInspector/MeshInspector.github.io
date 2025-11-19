@@ -6523,6 +6523,10 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a6931409b16a2665d35204990c62611b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adafa0e11e73b6f545a604653e8596e39" id="r_adafa0e11e73b6f545a604653e8596e39"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adafa0e11e73b6f545a604653e8596e39">bindDepthPeelingTextures</a> (GLuint shaderId, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, GLenum startGLTextureIndex)</td></tr>
 <tr class="separator:adafa0e11e73b6f545a604653e8596e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e4c49cbaee4c09e454456226d235eb" id="r_a65e4c49cbaee4c09e454456226d235eb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e4c49cbaee4c09e454456226d235eb">objectPreRenderSetup</a> (const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, <a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> desiredPass, bool deptTesting)</td></tr>
+<tr class="separator:a65e4c49cbaee4c09e454456226d235eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340ef00828cc9761a27857d5d7c8bfb6" id="r_a340ef00828cc9761a27857d5d7c8bfb6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a340ef00828cc9761a27857d5d7c8bfb6">objectPostRenderSetup</a> (const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, <a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> desiredPass, bool deptTesting)</td></tr>
+<tr class="separator:a340ef00828cc9761a27857d5d7c8bfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fee31db406cce1480e3c5c7a9ff7d0f" id="r_a8fee31db406cce1480e3c5c7a9ff7d0f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fee31db406cce1480e3c5c7a9ff7d0f">calcTextureRes</a> (int bufferSize, int maxTextWidth)</td></tr>
 <tr class="separator:a8fee31db406cce1480e3c5c7a9ff7d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2283db1433881edc5977ffc68b00350" id="r_ae2283db1433881edc5977ffc68b00350"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2283db1433881edc5977ffc68b00350">renderImGui</a> (const Vector2i &amp;resolution, const std::function&lt; void()&gt; &amp;configureFunc, const std::function&lt; void()&gt; &amp;drawFunc)</td></tr>
@@ -31481,6 +31485,58 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a340ef00828cc9761a27857d5d7c8bfb6" name="a340ef00828cc9761a27857d5d7c8bfb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a340ef00828cc9761a27857d5d7c8bfb6">&#9670;&#160;</a></span>objectPostRenderSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::objectPostRenderSetup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>desiredPass</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>deptTesting</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65e4c49cbaee4c09e454456226d235eb" name="a65e4c49cbaee4c09e454456226d235eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e4c49cbaee4c09e454456226d235eb">&#9670;&#160;</a></span>objectPreRenderSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::objectPreRenderSetup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>desiredPass</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>deptTesting</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

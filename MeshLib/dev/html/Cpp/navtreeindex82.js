@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1Matrix4.html#ae14dd0c11d00774b57b26477176eaf75":[6,0,0,0,7,3,9],
+"structMR_1_1Matrix4.html#af7bfff1fe6a58060ba43dda0028e7131":[6,0,0,0,7,3,37],
+"structMR_1_1Matrix4.html#afdaea6c4914f797f5028508fc4660a71":[6,0,0,0,7,3,12],
+"structMR_1_1Matrix4.html#afefd6af8bdb869e88d5062c6aa38c746":[6,0,0,0,7,3,41],
 "structMR_1_1Matrix4.html#aff9e2bc787d384454aed9377473bfdc3":[6,0,0,0,7,3,39],
 "structMR_1_1MaxArg.html":[6,0,1,0,1,375],
 "structMR_1_1MaxArg.html":[6,0,2,0,1,357],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,19,1,0],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,1,10,1,0],
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
-"structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
-"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0]
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1]
 };

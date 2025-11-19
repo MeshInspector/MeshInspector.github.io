@@ -2790,6 +2790,8 @@ var namespaceMR =
     [ "normal", "namespaceMR.html#a668bccb3edee9cdfebdbdc80a502dde5", null ],
     [ "normal", "namespaceMR.html#aca6757bf3fe6058264ac14a06fbb616e", null ],
     [ "objectHasSelectableChildren", "namespaceMR.html#a7974cb0413a1baab9b74f14a1d14f410", null ],
+    [ "objectPostRenderSetup", "namespaceMR.html#a340ef00828cc9761a27857d5d7c8bfb6", null ],
+    [ "objectPreRenderSetup", "namespaceMR.html#a65e4c49cbaee4c09e454456226d235eb", null ],
     [ "offsetContours", "namespaceMR.html#a27899d08f51f8b1106ec145d7a116f9f", null ],
     [ "offsetContours", "namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd", null ],
     [ "offsetContours", "namespaceMR.html#aade58963fb6a70bd69db550185bd5af7", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[6,0,2,0,1,48,0],
+"classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[6,0,1,0,1,66,7],
 "classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[6,0,2,0,1,48,7],
 "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,1,0,1,66,26],
 "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,2,0,1,48,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d":[6,0,2,0,1,130,0],
 "classMR_1_1CNCMachineSettings.html#acc7183caf6c3269e59180f362ef83258":[6,0,1,0,1,148,15],
 "classMR_1_1CNCMachineSettings.html#acc7183caf6c3269e59180f362ef83258":[6,0,2,0,1,130,15],
-"classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[6,0,1,0,1,148,12],
-"classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[6,0,2,0,1,130,12],
-"classMR_1_1CNCMachineSettings.html#ae955523fc216f1375b25477a94ebc629":[6,0,1,0,1,148,6]
+"classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[6,0,1,0,1,148,12]
 };

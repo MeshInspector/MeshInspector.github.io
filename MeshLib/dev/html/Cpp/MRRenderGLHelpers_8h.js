@@ -13,5 +13,7 @@ var MRRenderGLHelpers_8h =
     [ "bindVertexAttribArray", "MRRenderGLHelpers_8h.html#a96c0afdf384671d181d6111113d5bf35", null ],
     [ "bindVertexAttribArray", "MRRenderGLHelpers_8h.html#a44858c7093ecce05e414dad5e83ea270", null ],
     [ "getDepthFunctionLEqual", "MRRenderGLHelpers_8h.html#a6931409b16a2665d35204990c62611b3", null ],
-    [ "getDepthFunctionLess", "MRRenderGLHelpers_8h.html#ac18f4f5a762acd94219012ec5d66db13", null ]
+    [ "getDepthFunctionLess", "MRRenderGLHelpers_8h.html#ac18f4f5a762acd94219012ec5d66db13", null ],
+    [ "objectPostRenderSetup", "MRRenderGLHelpers_8h.html#a340ef00828cc9761a27857d5d7c8bfb6", null ],
+    [ "objectPreRenderSetup", "MRRenderGLHelpers_8h.html#a65e4c49cbaee4c09e454456226d235eb", null ]
 ];

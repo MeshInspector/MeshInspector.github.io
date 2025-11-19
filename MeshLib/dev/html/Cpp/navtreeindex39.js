@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,1,0,1,521],
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,2,0,1,503],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,1,0,1,521,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,2,0,1,503,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,1,0,1,521,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,1,0,1,568,2],
 "classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,2,0,1,550,2],
 "classMR_1_1PriorityQueue.html":[6,0,1,0,1,574],
-"classMR_1_1PriorityQueue.html":[6,0,2,0,1,556],
-"classMR_1_1PriorityQueue.html#a0a493610b54c4c312a6522dfd1a22b8d":[6,0,1,0,1,574,9],
-"classMR_1_1PriorityQueue.html#a0a493610b54c4c312a6522dfd1a22b8d":[6,0,2,0,1,556,9]
+"classMR_1_1PriorityQueue.html":[6,0,2,0,1,556]
 };
