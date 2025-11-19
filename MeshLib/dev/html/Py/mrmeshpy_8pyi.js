@@ -880,6 +880,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", "classmrmeshpy_1_1ToolPathResult" ],
     [ "mrmeshpy.TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", "classmrmeshpy_1_1TransformVdbVolumeResult" ],
     [ "mrmeshpy.TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", "classmrmeshpy_1_1TransformedMesh" ],
+    [ "mrmeshpy.TransparencyMode", "classmrmeshpy_1_1TransparencyMode.html", "classmrmeshpy_1_1TransparencyMode" ],
     [ "mrmeshpy.TriIntersectResult", "classmrmeshpy_1_1TriIntersectResult.html", "classmrmeshpy_1_1TriIntersectResult" ],
     [ "mrmeshpy.TriMesh", "classmrmeshpy_1_1TriMesh.html", "classmrmeshpy_1_1TriMesh" ],
     [ "mrmeshpy.TriPointd", "classmrmeshpy_1_1TriPointd.html", "classmrmeshpy_1_1TriPointd" ],

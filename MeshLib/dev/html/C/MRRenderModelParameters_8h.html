@@ -154,11 +154,14 @@ $(function(){initNavTree('MRRenderModelParameters_8h.html',''); initResizable(tr
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRRenderModelParameters_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a58188cd06696742ff73ee9822c6c2e26" id="r_a58188cd06696742ff73ee9822c6c2e26"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a></td></tr>
+<tr class="separator:a58188cd06696742ff73ee9822c6c2e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa877928cec2ad4499904dfd36eae46e7" id="r_aa877928cec2ad4499904dfd36eae46e7"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa877928cec2ad4499904dfd36eae46e7">MR_RenderModelPassMask</a></td></tr>
 <tr class="memdesc:aa877928cec2ad4499904dfd36eae46e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <br /></td></tr>
 <tr class="separator:aa877928cec2ad4499904dfd36eae46e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,6 +182,40 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a4eae83a79c5706a739cc867733206e79" id="r_a4eae83a79c5706a739cc867733206e79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eae83a79c5706a739cc867733206e79">MR_TransparencyMode_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a4eae83a79c5706a739cc867733206e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69bde95d329455af0cbd99c63ace8fff" id="r_a69bde95d329455af0cbd99c63ace8fff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bde95d329455af0cbd99c63ace8fff">MR_TransparencyMode_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a69bde95d329455af0cbd99c63ace8fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333a3ca544672097a982788906cea11d" id="r_a333a3ca544672097a982788906cea11d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a333a3ca544672097a982788906cea11d">MR_TransparencyMode_OffsetPtr</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a333a3ca544672097a982788906cea11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a333a3ca544672097a982788906cea11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af767cba5cb6c4f300b26369c54906aea" id="r_af767cba5cb6c4f300b26369c54906aea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af767cba5cb6c4f300b26369c54906aea">MR_TransparencyMode_OffsetMutablePtr</a> (<a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af767cba5cb6c4f300b26369c54906aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af767cba5cb6c4f300b26369c54906aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b207235c4a4ec1125709d65d361053f" id="r_a2b207235c4a4ec1125709d65d361053f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b207235c4a4ec1125709d65d361053f">MR_TransparencyMode_ConstructFromAnother</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_other)</td></tr>
+<tr class="separator:a2b207235c4a4ec1125709d65d361053f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559fb6d8a249ce4eb4b0f1db80305640" id="r_a559fb6d8a249ce4eb4b0f1db80305640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559fb6d8a249ce4eb4b0f1db80305640">MR_TransparencyMode_Construct_1</a> (bool alphaSort)</td></tr>
+<tr class="separator:a559fb6d8a249ce4eb4b0f1db80305640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24bfcae157c2e9d00efd11504885fda" id="r_ae24bfcae157c2e9d00efd11504885fda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae24bfcae157c2e9d00efd11504885fda">MR_TransparencyMode_Construct_3</a> (unsigned int bgDepthTexId, unsigned int fgColorTexId, unsigned int fgDepthTexId)</td></tr>
+<tr class="separator:ae24bfcae157c2e9d00efd11504885fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf5ca1d3493cb3980fd2823ca1686a5" id="r_a2cf5ca1d3493cb3980fd2823ca1686a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf5ca1d3493cb3980fd2823ca1686a5">MR_TransparencyMode_Destroy</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="memdesc:a2cf5ca1d3493cb3980fd2823ca1686a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_TransparencyMode</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2cf5ca1d3493cb3980fd2823ca1686a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34a5af9a53d4d46d9576739298587cb" id="r_ad34a5af9a53d4d46d9576739298587cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad34a5af9a53d4d46d9576739298587cb">MR_TransparencyMode_DestroyArray</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="memdesc:ad34a5af9a53d4d46d9576739298587cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_TransparencyMode</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad34a5af9a53d4d46d9576739298587cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b09e5096e0193aef4c568f71b4ff70" id="r_a33b09e5096e0193aef4c568f71b4ff70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33b09e5096e0193aef4c568f71b4ff70">MR_TransparencyMode_AssignFromAnother</a> (<a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this, const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_other)</td></tr>
+<tr class="separator:a33b09e5096e0193aef4c568f71b4ff70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05a618dd50aa189d960b4667278b5f0" id="r_ad05a618dd50aa189d960b4667278b5f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05a618dd50aa189d960b4667278b5f0">MR_TransparencyMode_isAlphaSortEnabled</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="separator:ad05a618dd50aa189d960b4667278b5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9399251d94fea904d6bad27d611790b" id="r_ae9399251d94fea904d6bad27d611790b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9399251d94fea904d6bad27d611790b">MR_TransparencyMode_isDepthPeelingEnabled</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="separator:ae9399251d94fea904d6bad27d611790b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172d7d2b1660c847ae4e42ecf8e83961" id="r_a172d7d2b1660c847ae4e42ecf8e83961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a172d7d2b1660c847ae4e42ecf8e83961">MR_TransparencyMode_getBGDepthPeelingDepthTextureId</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="separator:a172d7d2b1660c847ae4e42ecf8e83961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d85e23013be4aaec60c39e5842ce4f5" id="r_a8d85e23013be4aaec60c39e5842ce4f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d85e23013be4aaec60c39e5842ce4f5">MR_TransparencyMode_getFGDepthPeelingColorTextureId</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="separator:a8d85e23013be4aaec60c39e5842ce4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cedb3b368ad3c3c506038fe7a65927c" id="r_a7cedb3b368ad3c3c506038fe7a65927c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cedb3b368ad3c3c506038fe7a65927c">MR_TransparencyMode_getFGDepthPeelingDepthTextureId</a> (const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *_this)</td></tr>
+<tr class="separator:a7cedb3b368ad3c3c506038fe7a65927c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadccf70f451917d5d9e3d6e3de9176b4" id="r_aadccf70f451917d5d9e3d6e3de9176b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadccf70f451917d5d9e3d6e3de9176b4">MR_bitand_MR_RenderModelPassMask</a> (<a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> a, <a class="el" href="#aa2b7e22402322d93271548d06907cc62">MR_RenderModelPassMask</a> b)</td></tr>
 <tr class="memdesc:aadccf70f451917d5d9e3d6e3de9176b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR::operator&amp;</code>.  <br /></td></tr>
 <tr class="separator:aadccf70f451917d5d9e3d6e3de9176b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +252,21 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Various passes of the 3D rendering. </p>
+
+</div>
+</div>
+<a id="a58188cd06696742ff73ee9822c6c2e26" name="a58188cd06696742ff73ee9822c6c2e26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58188cd06696742ff73ee9822c6c2e26">&#9670;&#160;</a></span>MR_TransparencyMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>struct to determine transparent rendering mode Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code>. </p>
 
 </div>
 </div>
@@ -417,6 +469,301 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a74faa3fac803f77476aefb0300f66b51">MR::operator*</a></code>. </p>
+
+</div>
+</div>
+<a id="a33b09e5096e0193aef4c568f71b4ff70" name="a33b09e5096e0193aef4c568f71b4ff70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b09e5096e0193aef4c568f71b4ff70">&#9670;&#160;</a></span>MR_TransparencyMode_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a559fb6d8a249ce4eb4b0f1db80305640" name="a559fb6d8a249ce4eb4b0f1db80305640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559fb6d8a249ce4eb4b0f1db80305640">&#9670;&#160;</a></span>MR_TransparencyMode_Construct_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_Construct_1 </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2cf5ca1d3493cb3980fd2823ca1686a5" title="Destroys a heap-allocated instance of MR_TransparencyMode. Does nothing if the pointer is null.">MR_TransparencyMode_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae24bfcae157c2e9d00efd11504885fda" name="ae24bfcae157c2e9d00efd11504885fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24bfcae157c2e9d00efd11504885fda">&#9670;&#160;</a></span>MR_TransparencyMode_Construct_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_Construct_3 </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>bgDepthTexId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>fgColorTexId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>fgDepthTexId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2cf5ca1d3493cb3980fd2823ca1686a5" title="Destroys a heap-allocated instance of MR_TransparencyMode. Does nothing if the pointer is null.">MR_TransparencyMode_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2b207235c4a4ec1125709d65d361053f" name="a2b207235c4a4ec1125709d65d361053f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b207235c4a4ec1125709d65d361053f">&#9670;&#160;</a></span>MR_TransparencyMode_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2cf5ca1d3493cb3980fd2823ca1686a5" title="Destroys a heap-allocated instance of MR_TransparencyMode. Does nothing if the pointer is null.">MR_TransparencyMode_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4eae83a79c5706a739cc867733206e79" name="a4eae83a79c5706a739cc867733206e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eae83a79c5706a739cc867733206e79">&#9670;&#160;</a></span>MR_TransparencyMode_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2cf5ca1d3493cb3980fd2823ca1686a5" title="Destroys a heap-allocated instance of MR_TransparencyMode. Does nothing if the pointer is null.">MR_TransparencyMode_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a69bde95d329455af0cbd99c63ace8fff" name="a69bde95d329455af0cbd99c63ace8fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bde95d329455af0cbd99c63ace8fff">&#9670;&#160;</a></span>MR_TransparencyMode_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ad34a5af9a53d4d46d9576739298587cb" title="Destroys a heap-allocated array of MR_TransparencyMode. Does nothing if the pointer is null.">MR_TransparencyMode_DestroyArray()</a></code>. Use <code><a class="el" href="#af767cba5cb6c4f300b26369c54906aea" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_TransparencyMode_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a333a3ca544672097a982788906cea11d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_TransparencyMode_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a2cf5ca1d3493cb3980fd2823ca1686a5" name="a2cf5ca1d3493cb3980fd2823ca1686a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf5ca1d3493cb3980fd2823ca1686a5">&#9670;&#160;</a></span>MR_TransparencyMode_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TransparencyMode_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_TransparencyMode</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad34a5af9a53d4d46d9576739298587cb" name="ad34a5af9a53d4d46d9576739298587cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34a5af9a53d4d46d9576739298587cb">&#9670;&#160;</a></span>MR_TransparencyMode_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TransparencyMode_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_TransparencyMode</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a172d7d2b1660c847ae4e42ecf8e83961" name="a172d7d2b1660c847ae4e42ecf8e83961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172d7d2b1660c847ae4e42ecf8e83961">&#9670;&#160;</a></span>MR_TransparencyMode_getBGDepthPeelingDepthTextureId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int MR_TransparencyMode_getBGDepthPeelingDepthTextureId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code> named <code>getBGDepthPeelingDepthTextureId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a8d85e23013be4aaec60c39e5842ce4f5" name="a8d85e23013be4aaec60c39e5842ce4f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d85e23013be4aaec60c39e5842ce4f5">&#9670;&#160;</a></span>MR_TransparencyMode_getFGDepthPeelingColorTextureId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int MR_TransparencyMode_getFGDepthPeelingColorTextureId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code> named <code>getFGDepthPeelingColorTextureId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7cedb3b368ad3c3c506038fe7a65927c" name="a7cedb3b368ad3c3c506038fe7a65927c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cedb3b368ad3c3c506038fe7a65927c">&#9670;&#160;</a></span>MR_TransparencyMode_getFGDepthPeelingDepthTextureId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int MR_TransparencyMode_getFGDepthPeelingDepthTextureId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code> named <code>getFGDepthPeelingDepthTextureId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ad05a618dd50aa189d960b4667278b5f0" name="ad05a618dd50aa189d960b4667278b5f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05a618dd50aa189d960b4667278b5f0">&#9670;&#160;</a></span>MR_TransparencyMode_isAlphaSortEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_TransparencyMode_isAlphaSortEnabled </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code> named <code>isAlphaSortEnabled</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae9399251d94fea904d6bad27d611790b" name="ae9399251d94fea904d6bad27d611790b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9399251d94fea904d6bad27d611790b">&#9670;&#160;</a></span>MR_TransparencyMode_isDepthPeelingEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_TransparencyMode_isDepthPeelingEnabled </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TransparencyMode.html">MR::TransparencyMode</a></code> named <code>isDepthPeelingEnabled</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af767cba5cb6c4f300b26369c54906aea" name="af767cba5cb6c4f300b26369c54906aea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af767cba5cb6c4f300b26369c54906aea">&#9670;&#160;</a></span>MR_TransparencyMode_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a333a3ca544672097a982788906cea11d" name="a333a3ca544672097a982788906cea11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a333a3ca544672097a982788906cea11d">&#9670;&#160;</a></span>MR_TransparencyMode_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> * MR_TransparencyMode_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26">MR_TransparencyMode</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
 
 </div>
 </div>

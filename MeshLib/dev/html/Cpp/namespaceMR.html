@@ -607,6 +607,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DentalId.html">DentalId</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class represents tooth id.  <a href="classMR_1_1DentalId.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DepthPeelingGL.html">DepthPeelingGL</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to encapsulate depth peeling rendering passes as fall back if alpha sort is not available  <a href="classMR_1_1DepthPeelingGL.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Dipole.html">Dipole</a></td></tr>
@@ -1898,6 +1901,9 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TransformVdbVolumeResult.html">TransformVdbVolumeResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">struct to determine transparent rendering mode  <a href="structMR_1_1TransparencyMode.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangulationParameters.html">TriangulationParameters</a></td></tr>
@@ -3050,6 +3056,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192">Concave</a>
  }</td></tr>
 <tr class="separator:ad7e1f7039c3adef672abd4150bc4786c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e449af7b615d9ec3575a5298ac7083" id="r_a26e449af7b615d9ec3575a5298ac7083"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a> : char { <a class="el" href="#a26e449af7b615d9ec3575a5298ac7083a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="#a26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c">AlphaSort</a>
+, <a class="el" href="#a26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6">DepthPeel</a>
+ }</td></tr>
+<tr class="separator:a26e449af7b615d9ec3575a5298ac7083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeff4ec21e8ee2ea544cdb4ce4d55d6b" id="r_abeff4ec21e8ee2ea544cdb4ce4d55d6b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeff4ec21e8ee2ea544cdb4ce4d55d6b">ShortcutCategory</a> : char { <br />
 &#160;&#160;<a class="el" href="#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875">Info</a>
 , <a class="el" href="#abeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35">Edit</a>
@@ -6436,8 +6447,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:ab51fca826c7b90369fdc1dc86a01fbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7af2d44ec301ec74812ff72f004c3e0" id="r_ac7af2d44ec301ec74812ff72f004c3e0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7af2d44ec301ec74812ff72f004c3e0">getLinesVertexShader</a> ()</td></tr>
 <tr class="separator:ac7af2d44ec301ec74812ff72f004c3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1366c3d232b7db35c095152745b227c8" id="r_a1366c3d232b7db35c095152745b227c8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1366c3d232b7db35c095152745b227c8">getLinesFragmentShader</a> (bool alphaSort)</td></tr>
-<tr class="separator:a1366c3d232b7db35c095152745b227c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6d9bd27efccb810b4f0cb86051c972" id="r_aab6d9bd27efccb810b4f0cb86051c972"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab6d9bd27efccb810b4f0cb86051c972">getLinesFragmentShader</a> (<a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a> mode)</td></tr>
+<tr class="separator:aab6d9bd27efccb810b4f0cb86051c972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a18c80a62a4c8e474c1616dfe05ea5" id="r_ae8a18c80a62a4c8e474c1616dfe05ea5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8a18c80a62a4c8e474c1616dfe05ea5">getLinesJointVertexShader</a> ()</td></tr>
 <tr class="separator:ae8a18c80a62a4c8e474c1616dfe05ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca4f34c4f899d8f2dc5fc0544af86988" id="r_aca4f34c4f899d8f2dc5fc0544af86988"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4f34c4f899d8f2dc5fc0544af86988">getLinesJointFragmentShader</a> ()</td></tr>
@@ -6448,8 +6459,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a24b7ac695d3053bcef08895e25b552fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef70778faa5587efd51d899e5e425e1" id="r_a1ef70778faa5587efd51d899e5e425e1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef70778faa5587efd51d899e5e425e1">getMeshVerticesShader</a> ()</td></tr>
 <tr class="separator:a1ef70778faa5587efd51d899e5e425e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39b7369e50f9ced96eeab9d590413970" id="r_a39b7369e50f9ced96eeab9d590413970"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39b7369e50f9ced96eeab9d590413970">getMeshFragmentShader</a> (bool gl4, bool alphaSort, bool msaaEnabled)</td></tr>
-<tr class="separator:a39b7369e50f9ced96eeab9d590413970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b81893b02fa429ab4e07214a0f2f056" id="r_a2b81893b02fa429ab4e07214a0f2f056"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b81893b02fa429ab4e07214a0f2f056">getMeshFragmentShader</a> (bool gl4, <a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a> mode, bool msaaEnabled)</td></tr>
+<tr class="separator:a2b81893b02fa429ab4e07214a0f2f056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf0c9f368d580d753d6be5949cb9aeb5" id="r_adf0c9f368d580d753d6be5949cb9aeb5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf0c9f368d580d753d6be5949cb9aeb5">getMeshFragmentShaderArgumetsBlock</a> ()</td></tr>
 <tr class="separator:adf0c9f368d580d753d6be5949cb9aeb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a983223b5a1d14a48822c74d9b77cbd96" id="r_a983223b5a1d14a48822c74d9b77cbd96"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983223b5a1d14a48822c74d9b77cbd96">getMeshFragmentShaderColoringBlock</a> ()</td></tr>
@@ -6484,8 +6495,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a64a2323a46764e5af170dfd59a2d14a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5863e06aeda8dbdaac30e5098692f741" id="r_a5863e06aeda8dbdaac30e5098692f741"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5863e06aeda8dbdaac30e5098692f741">getPointsVertexShader</a> ()</td></tr>
 <tr class="separator:a5863e06aeda8dbdaac30e5098692f741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad955b6a2b26f772c9baa0e45f672f3b4" id="r_ad955b6a2b26f772c9baa0e45f672f3b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad955b6a2b26f772c9baa0e45f672f3b4">getPointsFragmentShader</a> (bool alphaSort)</td></tr>
-<tr class="separator:ad955b6a2b26f772c9baa0e45f672f3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a318ae2d72e1ea676f9d669fafdfb0e9f" id="r_a318ae2d72e1ea676f9d669fafdfb0e9f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318ae2d72e1ea676f9d669fafdfb0e9f">getPointsFragmentShader</a> (<a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a> mode)</td></tr>
+<tr class="separator:a318ae2d72e1ea676f9d669fafdfb0e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af07768b4409c36a0b8cc9b9849f82691" id="r_af07768b4409c36a0b8cc9b9849f82691"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args&gt; </td></tr>
 <tr class="memitem:af07768b4409c36a0b8cc9b9849f82691"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af07768b4409c36a0b8cc9b9849f82691">pythonAppendOrRun</a> (F func, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:af07768b4409c36a0b8cc9b9849f82691"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6510,14 +6521,16 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:ac18f4f5a762acd94219012ec5d66db13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6931409b16a2665d35204990c62611b3" id="r_a6931409b16a2665d35204990c62611b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6931409b16a2665d35204990c62611b3">getDepthFunctionLEqual</a> (<a class="el" href="#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> funcType)</td></tr>
 <tr class="separator:a6931409b16a2665d35204990c62611b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafa0e11e73b6f545a604653e8596e39" id="r_adafa0e11e73b6f545a604653e8596e39"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adafa0e11e73b6f545a604653e8596e39">bindDepthPeelingTextures</a> (GLuint shaderId, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, GLenum startGLTextureIndex)</td></tr>
+<tr class="separator:adafa0e11e73b6f545a604653e8596e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fee31db406cce1480e3c5c7a9ff7d0f" id="r_a8fee31db406cce1480e3c5c7a9ff7d0f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fee31db406cce1480e3c5c7a9ff7d0f">calcTextureRes</a> (int bufferSize, int maxTextWidth)</td></tr>
 <tr class="separator:a8fee31db406cce1480e3c5c7a9ff7d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2283db1433881edc5977ffc68b00350" id="r_ae2283db1433881edc5977ffc68b00350"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2283db1433881edc5977ffc68b00350">renderImGui</a> (const Vector2i &amp;resolution, const std::function&lt; void()&gt; &amp;configureFunc, const std::function&lt; void()&gt; &amp;drawFunc)</td></tr>
 <tr class="separator:ae2283db1433881edc5977ffc68b00350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf818ad78dcf1287b09182b71c21927c" id="r_aaf818ad78dcf1287b09182b71c21927c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const Vector2f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf818ad78dcf1287b09182b71c21927c">GetAvailableLineWidthRange</a> ()</td></tr>
 <tr class="separator:aaf818ad78dcf1287b09182b71c21927c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa596e8841735879b219d5a5cd082244e" id="r_aa596e8841735879b219d5a5cd082244e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa596e8841735879b219d5a5cd082244e">renderToImage</a> (const Vector2i &amp;resolution, const std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;backgroundColor, const std::function&lt; void()&gt; &amp;drawFunc)</td></tr>
-<tr class="separator:aa596e8841735879b219d5a5cd082244e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229141a2cae5cae49e7e7ed1a6dc453a" id="r_a229141a2cae5cae49e7e7ed1a6dc453a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a229141a2cae5cae49e7e7ed1a6dc453a">renderToImage</a> (const Vector2i &amp;resolution, const std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;backgroundColor, const std::function&lt; void(<a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *framebuffer)&gt; &amp;drawFunc)</td></tr>
+<tr class="separator:a229141a2cae5cae49e7e7ed1a6dc453a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38761a3c9798cc64354bfb245cce186" id="r_ad38761a3c9798cc64354bfb245cce186"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1RibbonConfig.html">RibbonConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38761a3c9798cc64354bfb245cce186">createRibbonConfigFromJson</a> (const Json::Value &amp;root)</td></tr>
 <tr class="separator:ad38761a3c9798cc64354bfb245cce186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57613237dbb6d143b056f9f888c9ee0d" id="r_a57613237dbb6d143b056f9f888c9ee0d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57613237dbb6d143b056f9f888c9ee0d">applyRibbonConfig</a> (const <a class="el" href="structMR_1_1RibbonConfig.html">RibbonConfig</a> &amp;config)</td></tr>
@@ -6569,10 +6582,10 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a5404571bb440331ecfd841ff6e8741cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5ff563a655d703fa5d39aa65e1c0f3" id="r_aee5ff563a655d703fa5d39aa65e1c0f3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee5ff563a655d703fa5d39aa65e1c0f3">getFragmentShaderHeaderBlock</a> (bool gl4, bool alphaSort)</td></tr>
 <tr class="separator:aee5ff563a655d703fa5d39aa65e1c0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87950d99c275ac1ef9cddc0e9d5f25e" id="r_aa87950d99c275ac1ef9cddc0e9d5f25e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa87950d99c275ac1ef9cddc0e9d5f25e">getFragmentShaderEndBlock</a> (bool alphaSort)</td></tr>
-<tr class="separator:aa87950d99c275ac1ef9cddc0e9d5f25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b2bfcc4be2f05b79166ea0772ffb262" id="r_a3b2bfcc4be2f05b79166ea0772ffb262"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b2bfcc4be2f05b79166ea0772ffb262">getShaderMainBeginBlock</a> ()</td></tr>
-<tr class="separator:a3b2bfcc4be2f05b79166ea0772ffb262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad89fc9e615cf97d28183d6a676fdd4d1" id="r_ad89fc9e615cf97d28183d6a676fdd4d1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad89fc9e615cf97d28183d6a676fdd4d1">getFragmentShaderEndBlock</a> (<a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a> transparencyMode)</td></tr>
+<tr class="separator:ad89fc9e615cf97d28183d6a676fdd4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb88682a9d85529f849b971ada153795" id="r_afb88682a9d85529f849b971ada153795"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb88682a9d85529f849b971ada153795">getShaderMainBeginBlock</a> (bool addDepthPeelSamplers)</td></tr>
+<tr class="separator:afb88682a9d85529f849b971ada153795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a042f3414ad34f25080f423078a3ad327" id="r_a042f3414ad34f25080f423078a3ad327"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a042f3414ad34f25080f423078a3ad327">showModal</a> (const std::string &amp;error, <a class="el" href="#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type)</td></tr>
 <tr class="memdesc:a042f3414ad34f25080f423078a3ad327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if menu is available and if it is, shows modal window.  <br /></td></tr>
 <tr class="separator:a042f3414ad34f25080f423078a3ad327"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11423,6 +11436,33 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a26e449af7b615d9ec3575a5298ac7083" name="a26e449af7b615d9ec3575a5298ac7083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e449af7b615d9ec3575a5298ac7083">&#9670;&#160;</a></span>ShaderTransparencyMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">MR::ShaderTransparencyMode</a> : char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a26e449af7b615d9ec3575a5298ac7083a6adf97f83acf6453d4a6a4b1070f3754" name="a26e449af7b615d9ec3575a5298ac7083a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c" name="a26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c"></a>AlphaSort&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6" name="a26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6"></a>DepthPeel&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="abeff4ec21e8ee2ea544cdb4ce4d55d6b" name="abeff4ec21e8ee2ea544cdb4ce4d55d6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abeff4ec21e8ee2ea544cdb4ce4d55d6b">&#9670;&#160;</a></span>ShortcutCategory</h2>
 
@@ -12789,6 +12829,32 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMR_1_1BestFitParabola.html">BestFitParabola</a>&lt; double &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adafa0e11e73b6f545a604653e8596e39" name="adafa0e11e73b6f545a604653e8596e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adafa0e11e73b6f545a604653e8596e39">&#9670;&#160;</a></span>bindDepthPeelingTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::bindDepthPeelingTextures </td>
+          <td>(</td>
+          <td class="paramtype">GLuint</td>          <td class="paramname"><span class="paramname"><em>shaderId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>startGLTextureIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -23110,8 +23176,8 @@ template&lt;typename ObjectT  = Object&gt; </div>
 
 </div>
 </div>
-<a id="aa87950d99c275ac1ef9cddc0e9d5f25e" name="aa87950d99c275ac1ef9cddc0e9d5f25e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa87950d99c275ac1ef9cddc0e9d5f25e">&#9670;&#160;</a></span>getFragmentShaderEndBlock()</h2>
+<a id="ad89fc9e615cf97d28183d6a676fdd4d1" name="ad89fc9e615cf97d28183d6a676fdd4d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad89fc9e615cf97d28183d6a676fdd4d1">&#9670;&#160;</a></span>getFragmentShaderEndBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -23119,7 +23185,7 @@ template&lt;typename ObjectT  = Object&gt; </div>
         <tr>
           <td class="memname">MRVIEWER_API std::string MR::getFragmentShaderEndBlock </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>transparencyMode</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -23878,8 +23944,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a1366c3d232b7db35c095152745b227c8" name="a1366c3d232b7db35c095152745b227c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1366c3d232b7db35c095152745b227c8">&#9670;&#160;</a></span>getLinesFragmentShader()</h2>
+<a id="aab6d9bd27efccb810b4f0cb86051c972" name="aab6d9bd27efccb810b4f0cb86051c972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab6d9bd27efccb810b4f0cb86051c972">&#9670;&#160;</a></span>getLinesFragmentShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -23887,7 +23953,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">MRVIEWER_API std::string MR::getLinesFragmentShader </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -24034,8 +24100,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a39b7369e50f9ced96eeab9d590413970" name="a39b7369e50f9ced96eeab9d590413970"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39b7369e50f9ced96eeab9d590413970">&#9670;&#160;</a></span>getMeshFragmentShader()</h2>
+<a id="a2b81893b02fa429ab4e07214a0f2f056" name="a2b81893b02fa429ab4e07214a0f2f056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b81893b02fa429ab4e07214a0f2f056">&#9670;&#160;</a></span>getMeshFragmentShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24048,7 +24114,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -24636,8 +24702,8 @@ template&lt;typename ObjectT &gt; </div>
 
 </div>
 </div>
-<a id="ad955b6a2b26f772c9baa0e45f672f3b4" name="ad955b6a2b26f772c9baa0e45f672f3b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad955b6a2b26f772c9baa0e45f672f3b4">&#9670;&#160;</a></span>getPointsFragmentShader()</h2>
+<a id="a318ae2d72e1ea676f9d669fafdfb0e9f" name="a318ae2d72e1ea676f9d669fafdfb0e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a318ae2d72e1ea676f9d669fafdfb0e9f">&#9670;&#160;</a></span>getPointsFragmentShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24645,7 +24711,7 @@ template&lt;typename ObjectT &gt; </div>
         <tr>
           <td class="memname">MRVIEWER_API std::string MR::getPointsFragmentShader </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -24756,8 +24822,8 @@ template&lt;typename ObjectT &gt; </div>
 
 </div>
 </div>
-<a id="a3b2bfcc4be2f05b79166ea0772ffb262" name="a3b2bfcc4be2f05b79166ea0772ffb262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b2bfcc4be2f05b79166ea0772ffb262">&#9670;&#160;</a></span>getShaderMainBeginBlock()</h2>
+<a id="afb88682a9d85529f849b971ada153795" name="afb88682a9d85529f849b971ada153795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb88682a9d85529f849b971ada153795">&#9670;&#160;</a></span>getShaderMainBeginBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -24765,7 +24831,7 @@ template&lt;typename ObjectT &gt; </div>
         <tr>
           <td class="memname">MRVIEWER_API std::string MR::getShaderMainBeginBlock </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>addDepthPeelSamplers</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -36649,8 +36715,8 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
 
 </div>
 </div>
-<a id="aa596e8841735879b219d5a5cd082244e" name="aa596e8841735879b219d5a5cd082244e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa596e8841735879b219d5a5cd082244e">&#9670;&#160;</a></span>renderToImage()</h2>
+<a id="a229141a2cae5cae49e7e7ed1a6dc453a" name="a229141a2cae5cae49e7e7ed1a6dc453a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229141a2cae5cae49e7e7ed1a6dc453a">&#9670;&#160;</a></span>renderToImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -36668,7 +36734,7 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>drawFunc</em></span>&#160;)</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *framebuffer)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>drawFunc</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -36676,12 +36742,12 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
   <table class="params">
     <tr><td class="paramname">resolution</td><td>- image resolution </td></tr>
     <tr><td class="paramname">backgroundColor</td><td>- image background color, can be omitted if your draw function fills the background by itself </td></tr>
-    <tr><td class="paramname">drawFunc</td><td>- callback for OpenGL drawing functions <div class="fragment"><div class="line"><span class="keyword">auto</span> image = <a class="code hl_function" href="#aa596e8841735879b219d5a5cd082244e">renderToImage</a>( imageSize, {}, []</div>
+    <tr><td class="paramname">drawFunc</td><td>- callback for OpenGL drawing functions <div class="fragment"><div class="line"><span class="keyword">auto</span> image = <a class="code hl_function" href="#a229141a2cae5cae49e7e7ed1a6dc453a">renderToImage</a>( imageSize, {}, []</div>
 <div class="line">{</div>
 <div class="line">    drawScene();</div>
 <div class="line">    drawUI();</div>
 <div class="line">} );</div>
-<div class="ttc" id="anamespaceMR_html_aa596e8841735879b219d5a5cd082244e"><div class="ttname"><a href="#aa596e8841735879b219d5a5cd082244e">MR::renderToImage</a></div><div class="ttdeci">MRVIEWER_API Image renderToImage(const Vector2i &amp;resolution, const std::optional&lt; Color &gt; &amp;backgroundColor, const std::function&lt; void()&gt; &amp;drawFunc)</div></div>
+<div class="ttc" id="anamespaceMR_html_a229141a2cae5cae49e7e7ed1a6dc453a"><div class="ttname"><a href="#a229141a2cae5cae49e7e7ed1a6dc453a">MR::renderToImage</a></div><div class="ttdeci">MRVIEWER_API Image renderToImage(const Vector2i &amp;resolution, const std::optional&lt; Color &gt; &amp;backgroundColor, const std::function&lt; void(FramebufferData *framebuffer)&gt; &amp;drawFunc)</div></div>
 </div><!-- fragment --> </td></tr>
   </table>
   </dd>

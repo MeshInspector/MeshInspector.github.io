@@ -1,6 +1,7 @@
 var MRRenderModelParameters_8h =
 [
     [ "MR_RenderModelPassMask", "MRRenderModelParameters_8h.html#aa877928cec2ad4499904dfd36eae46e7", null ],
+    [ "MR_TransparencyMode", "MRRenderModelParameters_8h.html#a58188cd06696742ff73ee9822c6c2e26", null ],
     [ "MR_RenderModelPassMask", "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62", [
       [ "MR_RenderModelPassMask_Opaque", "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3", null ],
       [ "MR_RenderModelPassMask_Transparent", "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461", null ],
@@ -15,5 +16,20 @@ var MRRenderModelParameters_8h =
     [ "MR_compl_MR_RenderModelPassMask", "MRRenderModelParameters_8h.html#aa24e7bda435683f6f2ecfad194178239", null ],
     [ "MR_mul_assign_MR_RenderModelPassMask_bool", "MRRenderModelParameters_8h.html#a076ffc6ddebcb71b8d93f04c98be0acf", null ],
     [ "MR_mul_bool_MR_RenderModelPassMask", "MRRenderModelParameters_8h.html#ab4d6effeaa31169d100c2b036e4ef4ef", null ],
-    [ "MR_mul_MR_RenderModelPassMask_bool", "MRRenderModelParameters_8h.html#ac84d349e415e6f520640dc234f0eb01f", null ]
+    [ "MR_mul_MR_RenderModelPassMask_bool", "MRRenderModelParameters_8h.html#ac84d349e415e6f520640dc234f0eb01f", null ],
+    [ "MR_TransparencyMode_AssignFromAnother", "MRRenderModelParameters_8h.html#a33b09e5096e0193aef4c568f71b4ff70", null ],
+    [ "MR_TransparencyMode_Construct_1", "MRRenderModelParameters_8h.html#a559fb6d8a249ce4eb4b0f1db80305640", null ],
+    [ "MR_TransparencyMode_Construct_3", "MRRenderModelParameters_8h.html#ae24bfcae157c2e9d00efd11504885fda", null ],
+    [ "MR_TransparencyMode_ConstructFromAnother", "MRRenderModelParameters_8h.html#a2b207235c4a4ec1125709d65d361053f", null ],
+    [ "MR_TransparencyMode_DefaultConstruct", "MRRenderModelParameters_8h.html#a4eae83a79c5706a739cc867733206e79", null ],
+    [ "MR_TransparencyMode_DefaultConstructArray", "MRRenderModelParameters_8h.html#a69bde95d329455af0cbd99c63ace8fff", null ],
+    [ "MR_TransparencyMode_Destroy", "MRRenderModelParameters_8h.html#a2cf5ca1d3493cb3980fd2823ca1686a5", null ],
+    [ "MR_TransparencyMode_DestroyArray", "MRRenderModelParameters_8h.html#ad34a5af9a53d4d46d9576739298587cb", null ],
+    [ "MR_TransparencyMode_getBGDepthPeelingDepthTextureId", "MRRenderModelParameters_8h.html#a172d7d2b1660c847ae4e42ecf8e83961", null ],
+    [ "MR_TransparencyMode_getFGDepthPeelingColorTextureId", "MRRenderModelParameters_8h.html#a8d85e23013be4aaec60c39e5842ce4f5", null ],
+    [ "MR_TransparencyMode_getFGDepthPeelingDepthTextureId", "MRRenderModelParameters_8h.html#a7cedb3b368ad3c3c506038fe7a65927c", null ],
+    [ "MR_TransparencyMode_isAlphaSortEnabled", "MRRenderModelParameters_8h.html#ad05a618dd50aa189d960b4667278b5f0", null ],
+    [ "MR_TransparencyMode_isDepthPeelingEnabled", "MRRenderModelParameters_8h.html#ae9399251d94fea904d6bad27d611790b", null ],
+    [ "MR_TransparencyMode_OffsetMutablePtr", "MRRenderModelParameters_8h.html#af767cba5cb6c4f300b26369c54906aea", null ],
+    [ "MR_TransparencyMode_OffsetPtr", "MRRenderModelParameters_8h.html#a333a3ca544672097a982788906cea11d", null ]
 ];

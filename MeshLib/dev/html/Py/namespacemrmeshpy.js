@@ -1054,6 +1054,7 @@ var namespacemrmeshpy =
     [ "ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", "classmrmeshpy_1_1ToolPathResult" ],
     [ "TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", "classmrmeshpy_1_1TransformedMesh" ],
     [ "TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", "classmrmeshpy_1_1TransformVdbVolumeResult" ],
+    [ "TransparencyMode", "classmrmeshpy_1_1TransparencyMode.html", "classmrmeshpy_1_1TransparencyMode" ],
     [ "TriangleSegmentIntersectResult", "classmrmeshpy_1_1TriangleSegmentIntersectResult.html", "classmrmeshpy_1_1TriangleSegmentIntersectResult" ],
     [ "Triangulation", "classmrmeshpy_1_1Triangulation.html", "classmrmeshpy_1_1Triangulation" ],
     [ "TriangulationHelpers", "classmrmeshpy_1_1TriangulationHelpers.html", "classmrmeshpy_1_1TriangulationHelpers" ],

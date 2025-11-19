@@ -147,6 +147,7 @@ $(function(){initNavTree('MRShaderBlocks_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRShaderBlocks.h File Reference</div></div>
 </div><!--header-->
@@ -161,6 +162,14 @@ Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a26e449af7b615d9ec3575a5298ac7083" id="r_a26e449af7b615d9ec3575a5298ac7083"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a26e449af7b615d9ec3575a5298ac7083">MR::ShaderTransparencyMode</a> : char { <a class="el" href="namespaceMR.html#a26e449af7b615d9ec3575a5298ac7083a6adf97f83acf6453d4a6a4b1070f3754">MR::None</a>
+, <a class="el" href="namespaceMR.html#a26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c">MR::AlphaSort</a>
+, <a class="el" href="namespaceMR.html#a26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6">MR::DepthPeel</a>
+ }</td></tr>
+<tr class="separator:a26e449af7b615d9ec3575a5298ac7083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af91e57bae7626f4e18c5bc1726ab2581" id="r_af91e57bae7626f4e18c5bc1726ab2581"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af91e57bae7626f4e18c5bc1726ab2581">MR::getPickerFragmentShader</a> (bool points, bool cornerMode=true)</td></tr>
@@ -173,10 +182,10 @@ Functions</h2></td></tr>
 <tr class="separator:a5404571bb440331ecfd841ff6e8741cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5ff563a655d703fa5d39aa65e1c0f3" id="r_aee5ff563a655d703fa5d39aa65e1c0f3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aee5ff563a655d703fa5d39aa65e1c0f3">MR::getFragmentShaderHeaderBlock</a> (bool gl4, bool alphaSort)</td></tr>
 <tr class="separator:aee5ff563a655d703fa5d39aa65e1c0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87950d99c275ac1ef9cddc0e9d5f25e" id="r_aa87950d99c275ac1ef9cddc0e9d5f25e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa87950d99c275ac1ef9cddc0e9d5f25e">MR::getFragmentShaderEndBlock</a> (bool alphaSort)</td></tr>
-<tr class="separator:aa87950d99c275ac1ef9cddc0e9d5f25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b2bfcc4be2f05b79166ea0772ffb262" id="r_a3b2bfcc4be2f05b79166ea0772ffb262"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3b2bfcc4be2f05b79166ea0772ffb262">MR::getShaderMainBeginBlock</a> ()</td></tr>
-<tr class="separator:a3b2bfcc4be2f05b79166ea0772ffb262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad89fc9e615cf97d28183d6a676fdd4d1" id="r_ad89fc9e615cf97d28183d6a676fdd4d1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad89fc9e615cf97d28183d6a676fdd4d1">MR::getFragmentShaderEndBlock</a> (<a class="el" href="namespaceMR.html#a26e449af7b615d9ec3575a5298ac7083">ShaderTransparencyMode</a> transparencyMode)</td></tr>
+<tr class="separator:ad89fc9e615cf97d28183d6a676fdd4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb88682a9d85529f849b971ada153795" id="r_afb88682a9d85529f849b971ada153795"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afb88682a9d85529f849b971ada153795">MR::getShaderMainBeginBlock</a> (bool addDepthPeelSamplers)</td></tr>
+<tr class="separator:afb88682a9d85529f849b971ada153795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

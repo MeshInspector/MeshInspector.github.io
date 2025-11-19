@@ -1,5 +1,12 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[6,0,2,0,1,48,7],
+"classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,1,0,1,66,26],
+"classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[6,0,2,0,1,48,26],
+"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,1,0,1,66,22],
+"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,1,48,22],
+"classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7":[6,0,1,0,1,66,5],
+"classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7":[6,0,2,0,1,48,5],
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,66,11],
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,2,0,1,48,11],
 "classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,1,0,1,66,20],
@@ -242,12 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1CNCMachineSettings.html#acc7183caf6c3269e59180f362ef83258":[6,0,2,0,1,130,15],
 "classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[6,0,1,0,1,148,12],
 "classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[6,0,2,0,1,130,12],
-"classMR_1_1CNCMachineSettings.html#ae955523fc216f1375b25477a94ebc629":[6,0,1,0,1,148,6],
-"classMR_1_1CNCMachineSettings.html#ae955523fc216f1375b25477a94ebc629":[6,0,2,0,1,130,6],
-"classMR_1_1CNCMachineSettings.html#aea3e8581cae26f91618ddedf27079e5b":[6,0,1,0,1,148,8],
-"classMR_1_1CNCMachineSettings.html#aea3e8581cae26f91618ddedf27079e5b":[6,0,2,0,1,130,8],
-"classMR_1_1CNCMachineSettings.html#aeec12ba988b385f03ee2ab59df0bdd18":[6,0,1,0,1,148,13],
-"classMR_1_1CNCMachineSettings.html#aeec12ba988b385f03ee2ab59df0bdd18":[6,0,2,0,1,130,13],
-"classMR_1_1CNCMachineSettings.html#aefee9fbee599870c51626aa983b8a978":[6,0,1,0,1,148,11],
-"classMR_1_1CNCMachineSettings.html#aefee9fbee599870c51626aa983b8a978":[6,0,2,0,1,130,11]
+"classMR_1_1CNCMachineSettings.html#ae955523fc216f1375b25477a94ebc629":[6,0,1,0,1,148,6]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"MRMakeSlot_8h_source.html":[6,0,3,0,0,1,11,45],
+"MRMapEdge_8h.html":[6,0,3,0,0,1,4,176],
 "MRMapEdge_8h.html#a0718e473bb43501639504b5b1fef2daa":[6,0,3,0,0,1,4,176,5],
 "MRMapEdge_8h.html#a1c9ee18db6997f756ef3a076307fd9ee":[6,0,3,0,0,1,4,176,4],
 "MRMapEdge_8h.html#a32139a9d419606425485a064d381a8ce":[6,0,3,0,0,1,4,176,8],
@@ -41,8 +43,8 @@ var NAVTREEINDEX5 =
 "MRMarkedContour_8h.html#abbeba581eae8db84f0123a17c064c055":[6,0,3,0,0,1,4,179,8],
 "MRMarkedContour_8h.html#acd259cc34db34b6aee3060c1baf8822d":[6,0,3,0,0,1,4,179,2],
 "MRMarkedContour_8h_source.html":[6,0,3,0,0,1,4,179],
-"MRMarkedVoxelSlice_8h.html":[6,0,3,0,0,1,11,45],
-"MRMarkedVoxelSlice_8h_source.html":[6,0,3,0,0,1,11,45],
+"MRMarkedVoxelSlice_8h.html":[6,0,3,0,0,1,11,46],
+"MRMarkedVoxelSlice_8h_source.html":[6,0,3,0,0,1,11,46],
 "MRMatrix2_8h.html":[6,0,3,0,0,1,4,181],
 "MRMatrix2_8h_source.html":[6,0,3,0,0,1,4,181],
 "MRMatrix3Decompose_8h.html":[6,0,3,0,0,1,4,183],
@@ -62,8 +64,8 @@ var NAVTREEINDEX5 =
 "MRMeshBooleanFacade_8h.html#a816a1c0aec6d5b2d8994b750a9ecfb9f":[6,0,3,0,0,1,4,189,4],
 "MRMeshBooleanFacade_8h.html#ab3166f1ae304a5ff0106e7c88b67960e":[6,0,3,0,0,1,4,189,2],
 "MRMeshBooleanFacade_8h_source.html":[6,0,3,0,0,1,4,189],
-"MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,0,1,11,46],
-"MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,0,1,11,46],
+"MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,0,1,11,47],
+"MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,0,1,11,47],
 "MRMeshBoundary_8h.html":[6,0,3,0,0,1,4,190],
 "MRMeshBoundary_8h_source.html":[6,0,3,0,0,1,4,190],
 "MRMeshBuilderTypes_8h.html":[6,0,3,0,0,1,4,192],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRFloatGrid_8h.html#acb9107790eceedf79f9ff552273ce5dd":[6,0,3,0,0,1,5,15,5],
 "MRMeshC_2MRFloatGrid_8h.html#ad1b8d23f4cba0861f868fc13a6745629":[6,0,3,0,0,1,5,15,2],
 "MRMeshC_2MRFloatGrid_8h_source.html":[6,0,3,0,0,1,5,15],
-"MRMeshC_2MRFreeFormDeformer_8h.html":[6,0,3,0,0,1,5,16],
-"MRMeshC_2MRFreeFormDeformer_8h.html#a15ec7cae92228bda23fd4b22e37afe29":[6,0,3,0,0,1,5,16,0],
-"MRMeshC_2MRFreeFormDeformer_8h.html#a25baf8673a85b4de69cd1e5599c64c19":[6,0,3,0,0,1,5,16,1]
+"MRMeshC_2MRFreeFormDeformer_8h.html":[6,0,3,0,0,1,5,16]
 };

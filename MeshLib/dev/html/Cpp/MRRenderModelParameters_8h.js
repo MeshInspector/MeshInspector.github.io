@@ -1,5 +1,6 @@
 var MRRenderModelParameters_8h =
 [
+    [ "MR::TransparencyMode", "structMR_1_1TransparencyMode.html", "structMR_1_1TransparencyMode" ],
     [ "RenderModelPassMask", "MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6ce", [
       [ "Opaque", "MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5", null ],
       [ "Transparent", "MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7", null ],
