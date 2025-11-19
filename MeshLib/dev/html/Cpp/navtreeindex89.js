@@ -1,5 +1,13 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,561,3],
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,1,543,3],
+"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,1,0,1,563],
+"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,2,0,1,545],
+"structMR_1_1PositionVertsSmoothlyParams.html#a35aa8fa1280f405afeb9f43189843024":[6,0,1,0,1,563,1],
+"structMR_1_1PositionVertsSmoothlyParams.html#a35aa8fa1280f405afeb9f43189843024":[6,0,2,0,1,545,1],
+"structMR_1_1PositionVertsSmoothlyParams.html#a5563df5f8c2ef1af7864e5be4bfc7a42":[6,0,1,0,1,563,2],
+"structMR_1_1PositionVertsSmoothlyParams.html#a5563df5f8c2ef1af7864e5be4bfc7a42":[6,0,2,0,1,545,2],
 "structMR_1_1PositionVertsSmoothlyParams.html#a69d2ed7107a7dd975887edd0da2c8847":[6,0,1,0,1,563,4],
 "structMR_1_1PositionVertsSmoothlyParams.html#a69d2ed7107a7dd975887edd0da2c8847":[6,0,2,0,1,545,4],
 "structMR_1_1PositionVertsSmoothlyParams.html#a7a683cc3d1052af67b00984f50fa920d":[6,0,1,0,1,563,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[6,0,2,0,1,577,4],
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,1,0,1,595,0],
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,2,0,1,577,0],
-"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,1,0,1,595,1],
-"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,2,0,1,577,1],
-"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,1,0,1,595,5],
-"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,2,0,1,577,5],
-"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,1,0,1,595,3],
-"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,2,0,1,577,3],
-"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,1,0,1,595,2],
-"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,2,0,1,577,2],
-"structMR_1_1RelaxParams.html":[6,0,1,0,1,598]
+"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,1,0,1,595,1]
 };

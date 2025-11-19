@@ -161,25 +161,30 @@ $(function(){initNavTree('classMR_1_1DepthPeelingGL.html',''); initResizable(tru
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae232501168d80d208a5e9cd05a4688db" id="r_ae232501168d80d208a5e9cd05a4688db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae232501168d80d208a5e9cd05a4688db">MR_ADD_CTOR_DELETE_MOVE</a> (<a class="el" href="classMR_1_1DepthPeelingGL.html">DepthPeelingGL</a>)</td></tr>
 <tr class="separator:ae232501168d80d208a5e9cd05a4688db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4550839dc9988e12df6606b43a80c09" id="r_ab4550839dc9988e12df6606b43a80c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4550839dc9988e12df6606b43a80c09">reset</a> (const Vector2i &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
-<tr class="separator:ab4550839dc9988e12df6606b43a80c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4718d7754750a1817de744bca8ec07c" id="r_ad4718d7754750a1817de744bca8ec07c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4718d7754750a1817de744bca8ec07c">doPasses</a> (<a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *bgFramebuffer)</td></tr>
-<tr class="separator:ad4718d7754750a1817de744bca8ec07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a312024aba83e195aa300d1201d001049" id="r_a312024aba83e195aa300d1201d001049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312024aba83e195aa300d1201d001049">draw</a> ()</td></tr>
-<tr class="memdesc:a312024aba83e195aa300d1201d001049"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this result texture onto  <br /></td></tr>
-<tr class="separator:a312024aba83e195aa300d1201d001049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a678781677148f396acfd6a6ab6177531" id="r_a678781677148f396acfd6a6ab6177531"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a678781677148f396acfd6a6ab6177531">reset</a> (const Vector2i &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="separator:a678781677148f396acfd6a6ab6177531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64929ed19462372685e969e3880d8be0" id="r_a64929ed19462372685e969e3880d8be0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64929ed19462372685e969e3880d8be0">doPasses</a> (<a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *bgFramebuffer)</td></tr>
+<tr class="separator:a64929ed19462372685e969e3880d8be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad573cb439efa1597f60b55986ad3abb1" id="r_ad573cb439efa1597f60b55986ad3abb1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad573cb439efa1597f60b55986ad3abb1">draw</a> ()</td></tr>
+<tr class="memdesc:ad573cb439efa1597f60b55986ad3abb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this result texture onto  <br /></td></tr>
+<tr class="separator:ad573cb439efa1597f60b55986ad3abb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e8269d1a8931fc40c6a25a35823691" id="r_a50e8269d1a8931fc40c6a25a35823691"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50e8269d1a8931fc40c6a25a35823691">getNumPasses</a> () const</td></tr>
+<tr class="memdesc:a50e8269d1a8931fc40c6a25a35823691"><td class="mdescLeft">&#160;</td><td class="mdescRight">functions to control number of passes  <br /></td></tr>
+<tr class="separator:a50e8269d1a8931fc40c6a25a35823691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b77eb66b1d35669f3dbea3ccc65cb23" id="r_a7b77eb66b1d35669f3dbea3ccc65cb23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b77eb66b1d35669f3dbea3ccc65cb23">setNumPasses</a> (int passes)</td></tr>
+<tr class="separator:a7b77eb66b1d35669f3dbea3ccc65cb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class to encapsulate depth peeling rendering passes as fall back if alpha sort is not available </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad4718d7754750a1817de744bca8ec07c" name="ad4718d7754750a1817de744bca8ec07c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4718d7754750a1817de744bca8ec07c">&#9670;&#160;</a></span>doPasses()</h2>
+<a id="a64929ed19462372685e969e3880d8be0" name="a64929ed19462372685e969e3880d8be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64929ed19462372685e969e3880d8be0">&#9670;&#160;</a></span>doPasses()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::DepthPeelingGL::doPasses </td>
+          <td class="memname">MRVIEWER_API bool MR::DepthPeelingGL::doPasses </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *</td>          <td class="paramname"><span class="paramname"><em>bgFramebuffer</em></span></td><td>)</td>
           <td></td>
@@ -190,14 +195,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a312024aba83e195aa300d1201d001049" name="a312024aba83e195aa300d1201d001049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a312024aba83e195aa300d1201d001049">&#9670;&#160;</a></span>draw()</h2>
+<a id="ad573cb439efa1597f60b55986ad3abb1" name="ad573cb439efa1597f60b55986ad3abb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad573cb439efa1597f60b55986ad3abb1">&#9670;&#160;</a></span>draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::DepthPeelingGL::draw </td>
+          <td class="memname">MRVIEWER_API void MR::DepthPeelingGL::draw </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -206,6 +211,33 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>draws this result texture onto </p>
+
+</div>
+</div>
+<a id="a50e8269d1a8931fc40c6a25a35823691" name="a50e8269d1a8931fc40c6a25a35823691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e8269d1a8931fc40c6a25a35823691">&#9670;&#160;</a></span>getNumPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::DepthPeelingGL::getNumPasses </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>functions to control number of passes </p>
 
 </div>
 </div>
@@ -226,14 +258,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab4550839dc9988e12df6606b43a80c09" name="ab4550839dc9988e12df6606b43a80c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4550839dc9988e12df6606b43a80c09">&#9670;&#160;</a></span>reset()</h2>
+<a id="a678781677148f396acfd6a6ab6177531" name="a678781677148f396acfd6a6ab6177531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a678781677148f396acfd6a6ab6177531">&#9670;&#160;</a></span>reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::DepthPeelingGL::reset </td>
+          <td class="memname">MRVIEWER_API void MR::DepthPeelingGL::reset </td>
           <td>(</td>
           <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
           <td></td>
@@ -241,6 +273,31 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if present-&gt; del();gen(); otherwise just gen() </p>
+
+</div>
+</div>
+<a id="a7b77eb66b1d35669f3dbea3ccc65cb23" name="a7b77eb66b1d35669f3dbea3ccc65cb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b77eb66b1d35669f3dbea3ccc65cb23">&#9670;&#160;</a></span>setNumPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::DepthPeelingGL::setNumPasses </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>passes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

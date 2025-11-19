@@ -1,5 +1,13 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1VectorTraits.html":[6,0,1,0,1,796],
+"structMR_1_1VectorTraits.html":[6,0,2,0,1,778],
+"structMR_1_1VectorTraits.html#a42bb0645b55adab533c9287aeff02ad0":[6,0,1,0,1,796,1],
+"structMR_1_1VectorTraits.html#a42bb0645b55adab533c9287aeff02ad0":[6,0,2,0,1,778,1],
+"structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93":[6,0,1,0,1,796,0],
+"structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93":[6,0,2,0,1,778,0],
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,1,0,1,797],
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,2,0,1,779],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,1,0,1,797,1],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,2,0,1,779,1],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#aa6933497906e7baf8dd6f57ebded16c4":[6,0,1,0,1,797,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX97 =
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,2,0,1,796,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,1,0,1,814,1,3],
 "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,2,0,1,796,1,3],
-"structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2":[6,0,1,0,1,814,1,20],
-"structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2":[6,0,2,0,1,796,1,20],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f":[6,0,1,0,1,814,1,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f":[6,0,2,0,1,796,1,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb":[6,0,1,0,1,814,1,0,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb":[6,0,2,0,1,796,1,0,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61":[6,0,1,0,1,814,1,0,1],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61":[6,0,2,0,1,796,1,0,1],
-"structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d":[6,0,1,0,1,814,1,15]
+"structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2":[6,0,1,0,1,814,1,20]
 };

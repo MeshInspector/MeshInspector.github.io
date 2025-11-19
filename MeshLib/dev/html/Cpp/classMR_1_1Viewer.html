@@ -373,8 +373,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8487684b5cd02ab06da1de9e06c8744f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734edab571108af641cc046a7fae2b88" id="r_a734edab571108af641cc046a7fae2b88"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a734edab571108af641cc046a7fae2b88">isAlphaSortEnabled</a> () const</td></tr>
 <tr class="separator:a734edab571108af641cc046a7fae2b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ede5f409263bd385e345cbadbdcd541" id="r_a2ede5f409263bd385e345cbadbdcd541"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ede5f409263bd385e345cbadbdcd541">isDepthPeelingEnabled</a> () const</td></tr>
-<tr class="separator:a2ede5f409263bd385e345cbadbdcd541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9101e95512bcb82d2136d5b68150cd5" id="r_ae9101e95512bcb82d2136d5b68150cd5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9101e95512bcb82d2136d5b68150cd5">getDepthPeelNumPasses</a> () const</td></tr>
+<tr class="separator:ae9101e95512bcb82d2136d5b68150cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74c4a902b2a1a4431fd3372bd8577a6" id="r_af74c4a902b2a1a4431fd3372bd8577a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af74c4a902b2a1a4431fd3372bd8577a6">setDepthPeelNumPasses</a> (int numPasses)</td></tr>
+<tr class="separator:af74c4a902b2a1a4431fd3372bd8577a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019a888de748ce305dc8e4fbf58edaff" id="r_a019a888de748ce305dc8e4fbf58edaff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a019a888de748ce305dc8e4fbf58edaff">isDepthPeelingEnabled</a> () const</td></tr>
+<tr class="separator:a019a888de748ce305dc8e4fbf58edaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb78cc316a414e397c55a35a9e0fa39d" id="r_aeb78cc316a414e397c55a35a9e0fa39d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb78cc316a414e397c55a35a9e0fa39d">isSceneTextureBound</a> () const</td></tr>
 <tr class="separator:aeb78cc316a414e397c55a35a9e0fa39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad7ae2b261b453a9a3f957579f27c381" id="r_aad7ae2b261b453a9a3f957579f27c381"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7ae2b261b453a9a3f957579f27c381">bindSceneTexture</a> (bool bind)</td></tr>
@@ -1167,6 +1171,23 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>snapView</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9101e95512bcb82d2136d5b68150cd5" name="ae9101e95512bcb82d2136d5b68150cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9101e95512bcb82d2136d5b68150cd5">&#9670;&#160;</a></span>getDepthPeelNumPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API int MR::Viewer::getDepthPeelNumPasses </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1993,27 +2014,19 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="a2ede5f409263bd385e345cbadbdcd541" name="a2ede5f409263bd385e345cbadbdcd541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ede5f409263bd385e345cbadbdcd541">&#9670;&#160;</a></span>isDepthPeelingEnabled()</h2>
+<a id="a019a888de748ce305dc8e4fbf58edaff" name="a019a888de748ce305dc8e4fbf58edaff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019a888de748ce305dc8e4fbf58edaff">&#9670;&#160;</a></span>isDepthPeelingEnabled()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::Viewer::isDepthPeelingEnabled </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::isDepthPeelingEnabled </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -2904,6 +2917,23 @@ template&lt;typename PluginType &gt; </div>
           <td class="memname">MRVIEWER_API void MR::Viewer::set_root </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>newRoot</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af74c4a902b2a1a4431fd3372bd8577a6" name="af74c4a902b2a1a4431fd3372bd8577a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af74c4a902b2a1a4431fd3372bd8577a6">&#9670;&#160;</a></span>setDepthPeelNumPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::setDepthPeelNumPasses </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numPasses</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

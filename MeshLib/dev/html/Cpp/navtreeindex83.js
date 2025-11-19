@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,1,0,1,19,7,0],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,2,0,1,10,7,0],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,19,1],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,1,10,1],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,19,1,0],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,1,10,1,0],
+"structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
 "structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1MeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31":[6,0,0,7,3,18],
 "structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c":[6,0,0,7,3,13],
 "structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867":[6,0,0,7,3,16],
-"structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53":[6,0,0,7,3,1],
-"structMR_1_1MeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2":[6,0,0,7,3,17],
-"structMR_1_1MeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9":[6,0,0,7,3,19],
-"structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478":[6,0,0,7,3,14],
-"structMR_1_1MeshTriPoint.html#a6796e7f3ca4cdbeb66145767bbf12dc7":[6,0,0,7,3,9],
-"structMR_1_1MeshTriPoint.html#a6c6fbefac0cf996b3da9fa89a3146eac":[6,0,0,7,3,7],
-"structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677":[6,0,0,7,3,2],
-"structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92":[6,0,0,7,3,21],
-"structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71":[6,0,0,7,3,11]
+"structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53":[6,0,0,7,3,1]
 };

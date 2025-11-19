@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,2,0,1,577,1],
+"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,1,0,1,595,5],
+"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,2,0,1,577,5],
+"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,1,0,1,595,3],
+"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,2,0,1,577,3],
+"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,1,0,1,595,2],
+"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,2,0,1,577,2],
+"structMR_1_1RelaxParams.html":[6,0,1,0,1,598],
 "structMR_1_1RelaxParams.html":[6,0,2,0,1,580],
 "structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,1,0,1,598,0],
 "structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,2,0,1,580,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,2,0,1,624,5],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,1,0,1,643,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,2,0,1,625,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#a6b6c1c5a1a26b8a37295e7e5a2e1d97c":[6,0,1,0,1,643,0,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#a6b6c1c5a1a26b8a37295e7e5a2e1d97c":[6,0,2,0,1,625,0,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#aa7e03f93869b8695b61ce8aaf08406f8":[6,0,1,0,1,643,0,2],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#aa7e03f93869b8695b61ce8aaf08406f8":[6,0,2,0,1,625,0,2],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#ae22ea02d78262a852d3144e7294fe604":[6,0,1,0,1,643,0,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#ae22ea02d78262a852d3144e7294fe604":[6,0,2,0,1,625,0,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,1,0,1,643,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,2,0,1,625,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[6,0,1,0,1,643,1,1]
+"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#a6b6c1c5a1a26b8a37295e7e5a2e1d97c":[6,0,1,0,1,643,0,1]
 };

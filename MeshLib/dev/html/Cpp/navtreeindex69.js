@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[6,0,1,0,2,1],
+"namespacespdlog_1_1sinks.html":[6,0,1,0,2,0],
+"pages.html":[],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,0,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,0,0,10],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,0,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,0,0,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[6,0,2,0,38,0],
 "structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[6,0,2,0,38,1],
 "structMRMeshProjectionParameters.html":[6,0,2,0,39],
-"structMRMeshProjectionParameters.html#a0a158e77e3a849648a235759c9b259e0":[6,0,2,0,39,3],
-"structMRMeshProjectionParameters.html#a270829fa33709bd4f085156a61cdbf97":[6,0,2,0,39,2],
-"structMRMeshProjectionParameters.html#a2d3f1755a4d2e747543c3dd2c324fce9":[6,0,2,0,39,1],
-"structMRMeshProjectionParameters.html#af6ee54563d414ba683339a18fc288d8f":[6,0,2,0,39,0],
-"structMRMeshProjectionResult.html":[6,0,2,0,40],
-"structMRMeshProjectionResult.html#ab689baa522fea7ce8e541444c1a4d1f7":[6,0,2,0,40,2],
-"structMRMeshProjectionResult.html#af8a095ae9a4ca92d739e8ab15ac46100":[6,0,2,0,40,1],
-"structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a":[6,0,2,0,40,0],
-"structMRMeshRegions.html":[6,0,2,0,41]
+"structMRMeshProjectionParameters.html#a0a158e77e3a849648a235759c9b259e0":[6,0,2,0,39,3]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[6,0,0,13,1,2],
+"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[6,0,0,13,1,4],
+"structMR_1_1TrimOptionalOutput.html":[6,0,1,0,1,771],
+"structMR_1_1TrimOptionalOutput.html":[6,0,2,0,1,753],
+"structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[6,0,1,0,1,771,3],
+"structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[6,0,2,0,1,753,3],
+"structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[6,0,1,0,1,771,0],
+"structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[6,0,2,0,1,753,0],
 "structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[6,0,1,0,1,771,2],
 "structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[6,0,2,0,1,753,2],
 "structMR_1_1TrimOptionalOutput.html#ab2764c07e0136d9d3309b44b8bf8eca7":[6,0,1,0,1,771,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1UiRenderManager.html#af9cfebf3c57b3c9b6283d7de32fc4adc":[6,0,1,0,1,777,3],
 "structMR_1_1UiRenderManager.html#af9cfebf3c57b3c9b6283d7de32fc4adc":[6,0,2,0,1,759,3],
 "structMR_1_1UiRenderParams.html":[6,0,1,0,1,778],
-"structMR_1_1UiRenderParams.html":[6,0,2,0,1,760],
-"structMR_1_1UiRenderParams.html#a5f69c0eb3c0590c0bd49dbcdddbc0eca":[6,0,1,0,1,778,1],
-"structMR_1_1UiRenderParams.html#a5f69c0eb3c0590c0bd49dbcdddbc0eca":[6,0,2,0,1,760,1],
-"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,1,0,1,778,0],
-"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,2,0,1,760,0],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html":[6,0,0,1,13],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[6,0,0,1,13,4],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[6,0,0,1,13,0],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1":[6,0,0,1,13,2]
+"structMR_1_1UiRenderParams.html":[6,0,2,0,1,760]
 };
