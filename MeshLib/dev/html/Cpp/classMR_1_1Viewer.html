@@ -479,7 +479,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw 2d (<a class="el" href="namespaceMR_1_1UI.html">UI</a>) part of objects in scene  <br /></td></tr>
 <tr class="separator:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f4b5aa531fc207e9d0d3235114bba4" id="r_a72f4b5aa531fc207e9d0d3235114bba4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72f4b5aa531fc207e9d0d3235114bba4">isMultiViewport</a> ()</td></tr>
-<tr class="memdesc:a72f4b5aa531fc207e9d0d3235114bba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if imgui multi viewport enabled  <br /></td></tr>
 <tr class="separator:a72f4b5aa531fc207e9d0d3235114bba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -2114,9 +2113,6 @@ template&lt;typename PluginType &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MR::Viewer::isMultiViewport </td>
@@ -2125,14 +2121,8 @@ template&lt;typename PluginType &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>return true if imgui multi viewport enabled </p>
+<p>return true if imgui multi viewport enabled (disabled for Apple, Wayland and Emscripten) </p>
 
 </div>
 </div>
