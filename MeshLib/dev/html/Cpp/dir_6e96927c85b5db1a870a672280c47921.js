@@ -39,6 +39,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRImGuiImage.h", "MRImGuiImage_8h.html", "MRImGuiImage_8h" ],
     [ "MRImGuiMeasurementIndicators.h", "MRImGuiMeasurementIndicators_8h.html", "MRImGuiMeasurementIndicators_8h" ],
     [ "MRImGuiMenuListeners.h", "MRImGuiMenuListeners_8h.html", "MRImGuiMenuListeners_8h" ],
+    [ "MRImGuiMultiViewport.h", "MRImGuiMultiViewport_8h.html", "MRImGuiMultiViewport_8h" ],
     [ "MRImGuiVectorOperators.h", "MRImGuiVectorOperators_8h.html", "MRImGuiVectorOperators_8h" ],
     [ "MRISceneStateCheck.h", "MRISceneStateCheck_8h.html", "MRISceneStateCheck_8h" ],
     [ "MRItemEnabledPerViewport.h", "MRItemEnabledPerViewport_8h.html", "MRItemEnabledPerViewport_8h" ],
