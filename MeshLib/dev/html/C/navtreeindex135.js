@@ -1,5 +1,9 @@
 var NAVTREEINDEX135 =
 {
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h_source.html":[6,2,1,0,0,0,2,292],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html":[6,2,1,0,0,0,2,293],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a0228c19195fba6207a719ec74e75ce18":[6,2,1,0,0,0,2,293,70],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a03b9e81906ffe63cd2a8a7bfe5bf1d1f":[6,2,1,0,0,0,2,293,54],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a0576f44e0f15847b59cf088470708bf6":[6,2,1,0,0,0,2,293,64],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a06ccc20185521ea041b72f86d06af735":[6,2,1,0,0,0,2,293,21],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a12a631e0734ca284d452087fe4247e7f":[6,2,1,0,0,0,2,293,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX135 =
 "std__vector__MR__AABBTreePoints__Point_8h.html#a53869f99583b5147f49de78db9b07077":[6,2,1,0,0,0,2,296,68],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a6414753cd52901c31596d017107084cc":[6,2,1,0,0,0,2,296,19],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a65ecc7329c4aa86014c5689c4dd9b7b7":[6,2,1,0,0,0,2,296,57],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a67e260092916ab8b418a665189f09c3e":[6,2,1,0,0,0,2,296,48],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a69c0e92edb2b20ebeea494f9cc6c3ac2":[6,2,1,0,0,0,2,296,8],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a6c03d5a3ad4316508123424748188767":[6,2,1,0,0,0,2,296,59],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a6c84fca22c13ed021b97b58ee52d9be1":[6,2,1,0,0,0,2,296,10],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a6d26d3bd4b6f822abdd72f325f6a685c":[6,2,1,0,0,0,2,296,14]
+"std__vector__MR__AABBTreePoints__Point_8h.html#a67e260092916ab8b418a665189f09c3e":[6,2,1,0,0,0,2,296,48]
 };

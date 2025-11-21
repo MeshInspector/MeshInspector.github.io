@@ -1,5 +1,9 @@
 var NAVTREEINDEX134 =
 {
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html":[6,2,1,0,0,0,2,282],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a05c8a0b2a783d50abb1f88499090a1c5":[6,2,1,0,0,0,2,282,0],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a0dd2bc2584a9192ed84fa101eb726e59":[6,2,1,0,0,0,2,282,3],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a1502ac248a823c6c8368c1d276142b83":[6,2,1,0,0,0,2,282,9],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a2495dadc561861056c8310724b064166":[6,2,1,0,0,0,2,282,17],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a2ba41c717b9d9ff204b5ebb2a6b18b82":[6,2,1,0,0,0,2,282,1],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html#a2f9817f06dc4f6bcf04d5e7c929e3374":[6,2,1,0,0,0,2,282,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX134 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#af6ad96f26eb65037dff6424b9b7591b3":[6,2,1,0,0,0,2,292,41],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#af74422a0e6c85d86c1c5a4195cd61fc8":[6,2,1,0,0,0,2,292,18],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#af8f057d73a7796350a7068389e9d9c51":[6,2,1,0,0,0,2,292,32],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#af97f68b166579b53f0a8fb2e83cc9d1c":[6,2,1,0,0,0,2,292,19],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h_source.html":[6,2,1,0,0,0,2,292],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html":[6,2,1,0,0,0,2,293],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a0228c19195fba6207a719ec74e75ce18":[6,2,1,0,0,0,2,293,70],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#a03b9e81906ffe63cd2a8a7bfe5bf1d1f":[6,2,1,0,0,0,2,293,54]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#af97f68b166579b53f0a8fb2e83cc9d1c":[6,2,1,0,0,0,2,292,19]
 };

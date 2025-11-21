@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1SharpOffsetParameters.html":[6,0,1,0,2,690],
+"structMR_1_1SharpOffsetParameters.html":[6,0,2,0,1,672],
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,1,0,2,690,0],
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,2,0,1,672,0],
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,1,0,2,690,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,1,0,2,725,0,5],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,2,0,1,707,0,5],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,1,0,2,726,0],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,2,0,1,708,0],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[6,0,1,0,2,726,0,5],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[6,0,2,0,1,708,0,5]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,2,0,1,708,0]
 };

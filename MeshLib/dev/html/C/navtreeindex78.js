@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"MRQuaternion_8h_source.html":[6,2,1,0,0,0,1,285],
+"MRRadiusCompensation_8h.html":[6,2,1,0,0,0,1,286],
+"MRRadiusCompensation_8h.html#a01b282b79321ea4f2dea31a8e2ad5f17":[6,2,1,0,0,0,1,286,35],
+"MRRadiusCompensation_8h.html#a04c7db6ddea378b5b02550641843a286":[6,2,1,0,0,0,1,286,18],
 "MRRadiusCompensation_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,1,286,1],
 "MRRadiusCompensation_8h.html#a0f975ead5394e91a6c0ec941f31b5ebc":[6,2,1,0,0,0,1,286,14],
 "MRRadiusCompensation_8h.html#a15683c92307658932d10bbb21930c6a1":[6,2,1,0,0,0,1,286,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX78 =
 "MRRegularMapMesher_8h.html":[6,2,1,0,0,0,1,293],
 "MRRegularMapMesher_8h.html#a027b83c0bcd3b752bc88089a0f4ce663":[6,2,1,0,0,0,1,293,13],
 "MRRegularMapMesher_8h.html#a02a41c2b65bd16796d5a1aa5ac2a751f":[6,2,1,0,0,0,1,293,11],
-"MRRegularMapMesher_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,1,293,1],
-"MRRegularMapMesher_8h.html#a0d97154d4aed695055160a4688c04a3d":[6,2,1,0,0,0,1,293,0],
-"MRRegularMapMesher_8h.html#a233e01b9bde5fee44d66b7700f286444":[6,2,1,0,0,0,1,293,10],
-"MRRegularMapMesher_8h.html#a237ec1c65b105489ad075dfecff282f7":[6,2,1,0,0,0,1,293,2],
-"MRRegularMapMesher_8h.html#a2eb8ca0cb4d181761479e444557a16a4":[6,2,1,0,0,0,1,293,5]
+"MRRegularMapMesher_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,1,293,1]
 };
