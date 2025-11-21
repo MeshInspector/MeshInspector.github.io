@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[6,0,1,0,2,814,1,14],
+"structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[6,0,2,0,1,796,1,14],
 "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94":[6,0,1,0,2,814,1,12],
 "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94":[6,0,2,0,1,796,1,12],
 "structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9":[6,0,1,0,2,814,1,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "structMR_1_1WriteRawTiffParams.html#aaed0d8c11f3aa7212b03821592cd28f0":[6,0,1,0,2,850,2],
 "structMR_1_1WriteRawTiffParams.html#aaed0d8c11f3aa7212b03821592cd28f0":[6,0,2,0,1,832,2],
 "structMR_1_1WriteRawTiffParams.html#ae3407cfb581b97a1d15af1dcda46f310":[6,0,1,0,2,850,0],
-"structMR_1_1WriteRawTiffParams.html#ae3407cfb581b97a1d15af1dcda46f310":[6,0,2,0,1,832,0],
-"structMR_1_1Writer.html":[6,0,1,0,2,849],
-"structMR_1_1Writer.html":[6,0,2,0,1,831]
+"structMR_1_1WriteRawTiffParams.html#ae3407cfb581b97a1d15af1dcda46f310":[6,0,2,0,1,832,0]
 };

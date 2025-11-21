@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1SparsePolynomial.html#a3dc64df27400abce4c5aa702e5829ac3":[6,0,1,0,2,712,0],
 "classMR_1_1SparsePolynomial.html#a3dc64df27400abce4c5aa702e5829ac3":[6,0,2,0,1,694,0],
 "classMR_1_1SparsePolynomial.html#a555f6678115944f56cb6b347fcbc297a":[6,0,1,0,2,712,6],
 "classMR_1_1SparsePolynomial.html#a555f6678115944f56cb6b347fcbc297a":[6,0,2,0,1,694,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1SurfaceManipulationWidget.html#a93cf79c946234166435c0c26b7334a74":[6,0,1,0,2,725,74],
 "classMR_1_1SurfaceManipulationWidget.html#a93cf79c946234166435c0c26b7334a74":[6,0,2,0,1,707,74],
 "classMR_1_1SurfaceManipulationWidget.html#a959fcbd7bbe023bb87adc1de1a8dda45":[6,0,1,0,2,725,19],
-"classMR_1_1SurfaceManipulationWidget.html#a959fcbd7bbe023bb87adc1de1a8dda45":[6,0,2,0,1,707,19],
-"classMR_1_1SurfaceManipulationWidget.html#a96de0be0839e0a27813a5cf42983d280":[6,0,1,0,2,725,27]
+"classMR_1_1SurfaceManipulationWidget.html#a959fcbd7bbe023bb87adc1de1a8dda45":[6,0,2,0,1,707,19]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRMinMaxArg_8h_source.html":[6,0,3,0,0,1,4,236],
 "MRMisonLoad_8h.html":[6,0,3,0,0,1,4,237],
 "MRMisonLoad_8h.html#a05a90545ccede866eeb9cab0f38faf1b":[6,0,3,0,0,1,4,237,0],
 "MRMisonLoad_8h.html#a0f19520a72fc0cffa2ca3fa219ecb489":[6,0,3,0,0,1,4,237,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MROverlappingTris_8h.html#a6f854d1ee48b4520a2bc23d7c73c648f":[6,0,3,0,0,1,4,269,1],
 "MROverlappingTris_8h_source.html":[6,0,3,0,0,1,4,269],
 "MRPalette_8h.html":[6,0,3,0,0,1,11,62],
-"MRPalette_8h_source.html":[6,0,3,0,0,1,11,62],
-"MRParabola_8h.html":[6,0,3,0,0,1,4,270]
+"MRPalette_8h_source.html":[6,0,3,0,0,1,11,62]
 };

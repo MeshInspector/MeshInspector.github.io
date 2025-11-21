@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
 "group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
 "group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
 "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b":[6,0,1,0,0,4,2],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,1,0,0,4,4],
 "namespaceImGui.html#a28e1c155304849c7d19acd541112fd83":[6,0,1,0,0,14],
-"namespaceImGui.html#a29d932a1f5e6a9e91213d1a209b09e1a":[6,0,1,0,0,37],
-"namespaceImGui.html#a2e673d54604370c06cb076d0449831a3":[6,0,1,0,0,18]
+"namespaceImGui.html#a29d932a1f5e6a9e91213d1a209b09e1a":[6,0,1,0,0,37]
 };

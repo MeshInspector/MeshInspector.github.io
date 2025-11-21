@@ -2348,6 +2348,7 @@ var namespaceMR =
     [ "getAltModName", "namespaceMR.html#a59e287d59d32965c7f9173c11cb820ee", null ],
     [ "getAt", "namespaceMR.html#a43427e0d96ff10e6af29370a3b0d7c17", null ],
     [ "getAt", "namespaceMR.html#adb46200d5ca10864658a0b4036a25bd4", null ],
+    [ "getAt", "namespaceMR.html#a6e1f5a59f99a789757cac0330d67bf79", null ],
     [ "getAt", "namespaceMR.html#acc5ecd2826659aa256d0bb1b168cc3bc", null ],
     [ "GetAvailableLineWidthRange", "namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c", null ],
     [ "getBooleanPoints", "group__BooleanGroup.html#gabcddc5448fa2c146bca47925a093d3c2", null ],

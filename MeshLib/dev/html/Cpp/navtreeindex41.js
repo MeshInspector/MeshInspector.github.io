@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RangeProgress.html#aa3ba5b5d4dddbf923bc92f56310c747b":[6,0,1,0,2,588,1],
 "classMR_1_1RangeProgress.html#aa3ba5b5d4dddbf923bc92f56310c747b":[6,0,2,0,1,570,1],
 "classMR_1_1RecentFilesStore.html":[6,0,1,0,2,593],
 "classMR_1_1RecentFilesStore.html":[6,0,2,0,1,575],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1RenderLinesObject.html#a72fd92c9c31f2a2920ea89af4c0e4885":[6,0,1,0,2,605,1],
 "classMR_1_1RenderLinesObject.html#a72fd92c9c31f2a2920ea89af4c0e4885":[6,0,2,0,1,587,1],
 "classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf":[6,0,1,0,2,605,5],
-"classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf":[6,0,2,0,1,587,5],
-"classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0":[6,0,1,0,2,605,2]
+"classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf":[6,0,2,0,1,587,5]
 };

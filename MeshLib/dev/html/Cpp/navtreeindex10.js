@@ -240,14 +240,14 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRVector_8h.html":[6,0,3,0,0,1,4,406],
 "MRMesh_2MRVector_8h.html#a5cffe69ffefbd14e44b874dc53b6209e":[6,0,3,0,0,1,4,406,3],
 "MRMesh_2MRVector_8h.html#a6194557288baf07b8b61b635d0a8c19e":[6,0,3,0,0,1,4,406,0],
+"MRMesh_2MRVector_8h.html#a6e1f5a59f99a789757cac0330d67bf79":[6,0,3,0,0,1,4,406,4],
 "MRMesh_2MRVector_8h.html#abd2f8594a00a74f8538cd4eb84cd118a":[6,0,3,0,0,1,4,406,2],
 "MRMesh_2MRVector_8h.html#ac81dd79e1b5425be47b98c1bf3e8ba5f":[6,0,3,0,0,1,4,406,1],
-"MRMesh_2MRVector_8h.html#acc5ecd2826659aa256d0bb1b168cc3bc":[6,0,3,0,0,1,4,406,4],
+"MRMesh_2MRVector_8h.html#acc5ecd2826659aa256d0bb1b168cc3bc":[6,0,3,0,0,1,4,406,5],
 "MRMesh_2MRVector_8h_source.html":[6,0,3,0,0,1,4,406],
 "MRMesh_2config_8h.html":[6,0,3,0,0,1,4,0],
 "MRMesh_2config_8h_source.html":[6,0,3,0,0,1,4,0],
 "MRMeta_8h.html":[6,0,3,0,0,1,4,235],
 "MRMeta_8h_source.html":[6,0,3,0,0,1,4,235],
-"MRMinMaxArg_8h.html":[6,0,3,0,0,1,4,236],
-"MRMinMaxArg_8h_source.html":[6,0,3,0,0,1,4,236]
+"MRMinMaxArg_8h.html":[6,0,3,0,0,1,4,236]
 };

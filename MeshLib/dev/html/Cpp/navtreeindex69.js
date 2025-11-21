@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"namespacemembers_type_t.html":[6,0,1,1,3,17],
+"namespacemembers_type_u.html":[6,0,1,1,3,18],
 "namespacemembers_type_v.html":[6,0,1,1,3,19],
 "namespacemembers_type_w.html":[6,0,1,1,3,20],
 "namespacemembers_u.html":[6,0,1,1,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMRMeshLoadNamedMesh.html#af1a8eb6fcd957a8ce89d1909485f27ee":[6,0,2,0,34,3],
 "structMRMeshLoadObjLoadSettings.html":[6,0,2,0,35],
 "structMRMeshLoadObjLoadSettings.html#a5d70d7a10b411473bd24ea2dd4e725fb":[6,0,2,0,35,1],
-"structMRMeshLoadObjLoadSettings.html#a9ceea9e8fa9427e7abef4a490a9aa7ee":[6,0,2,0,35,2],
-"structMRMeshLoadObjLoadSettings.html#aa2d150d8bbb8bdf034c0b63da32133de":[6,0,2,0,35,0],
-"structMRMeshMeshDistanceResult.html":[6,0,2,0,36]
+"structMRMeshLoadObjLoadSettings.html#a9ceea9e8fa9427e7abef4a490a9aa7ee":[6,0,2,0,35,2]
 };
