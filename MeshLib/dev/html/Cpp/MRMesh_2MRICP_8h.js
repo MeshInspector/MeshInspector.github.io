@@ -8,7 +8,7 @@ var MRMesh_2MRICP_8h =
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
     [ "MR::ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
     [ "deactivateFarPairs", "MRMesh_2MRICP_8h.html#aecd7603141fb9c3b9658281cdd4e2ca9", null ],
-    [ "getAligningXf", "MRMesh_2MRICP_8h.html#acc8a29ff73cc1508e2e73782b91d0650", null ],
+    [ "getAligningXf", "MRMesh_2MRICP_8h.html#a3c1276014561af6523a99bd293dd9940", null ],
     [ "getICPStatusInfo", "MRMesh_2MRICP_8h.html#a6fa1b58fb6b78b02b4707c3338def0c1", null ],
     [ "getMeanSqDistToPlane", "MRMesh_2MRICP_8h.html#a2f004671404b2a06e56c484d5e5a3e40", null ],
     [ "getMeanSqDistToPoint", "MRMesh_2MRICP_8h.html#a8fac39607138c4e9d594cffbdf5f28d7", null ],

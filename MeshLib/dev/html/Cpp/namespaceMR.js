@@ -2341,7 +2341,7 @@ var namespaceMR =
     [ "get", "namespaceMR.html#adb3a21b01f96eab713fd525c22ba5569", null ],
     [ "get", "namespaceMR.html#a28e92a7fd124a5ea679bd55bac165135", null ],
     [ "get", "namespaceMR.html#a4f46e33f779ccbcf3bbee75323347837", null ],
-    [ "getAligningXf", "namespaceMR.html#acc8a29ff73cc1508e2e73782b91d0650", null ],
+    [ "getAligningXf", "namespaceMR.html#a3c1276014561af6523a99bd293dd9940", null ],
     [ "getAllFilters", "group__DataModelGroup.html#gac7615c6e4894a59a84ec57986cbfc9c7", null ],
     [ "getAllObjectsInTree", "namespaceMR.html#a079f85cf6e53fc4d193a549f04a7b8c2", null ],
     [ "getAllObjectsInTree", "namespaceMR.html#a60db6fdac099905987b703a7fffe4746", null ],

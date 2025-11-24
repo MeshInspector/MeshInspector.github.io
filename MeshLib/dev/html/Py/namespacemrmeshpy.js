@@ -1748,7 +1748,7 @@ var namespacemrmeshpy =
     [ "gaussianFilter", "namespacemrmeshpy.html#abb1ee2ae09f950f0f9d6978b933e4f31", null ],
     [ "gaussianFiltered", "namespacemrmeshpy.html#ad70b122164d7907326f555b0b25be576", null ],
     [ "generalOffsetMesh", "namespacemrmeshpy.html#a5018de809f7208f9211ef8ad4fa47c78", null ],
-    [ "getAligningXf", "namespacemrmeshpy.html#ae70533ee49e5cd25f914037df37ca6bd", null ],
+    [ "getAligningXf", "namespacemrmeshpy.html#afe4a5c0aae772b7bd43d069b0c7d95df", null ],
     [ "getAllComponents", "namespacemrmeshpy.html#a74aab12149a008d6ddf0c5e8667f3a3f", null ],
     [ "getAllComponents", "namespacemrmeshpy.html#a28a3714fdbd93d31c6dca244871d0e5a", null ],
     [ "getAllComponents", "namespacemrmeshpy.html#a9098dde987b9e9c1977245e14e862ba0", null ],

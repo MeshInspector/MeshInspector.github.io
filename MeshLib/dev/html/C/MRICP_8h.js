@@ -20,7 +20,7 @@ var MRICP_8h =
     [ "MR_deactivateFarPairs", "MRICP_8h.html#a41e8ec0a973648e196bdddbcbe029a97", null ],
     [ "MR_equal_MR_ICPPairData", "MRICP_8h.html#af9d5e4e084dcd735a009acaeb3b4edd5", null ],
     [ "MR_equal_MR_PointPair", "MRICP_8h.html#ae894e836475245a49aec00d21b6157dd", null ],
-    [ "MR_getAligningXf", "MRICP_8h.html#a102f20c5209a255cfbacea33e1094c4f", null ],
+    [ "MR_getAligningXf", "MRICP_8h.html#afad89ec09aa46748652095d51ffd338f", null ],
     [ "MR_getICPStatusInfo", "MRICP_8h.html#a6852e2f5e7bd60234d5086b2c8d3cc3b", null ],
     [ "MR_getMeanSqDistToPlane", "MRICP_8h.html#af5825e03393418557bbca000980dff6a", null ],
     [ "MR_getMeanSqDistToPoint", "MRICP_8h.html#a10c51735a15508103e9e9dff0ff013e0", null ],
