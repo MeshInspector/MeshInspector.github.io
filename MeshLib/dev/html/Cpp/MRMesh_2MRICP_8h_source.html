@@ -364,10 +364,15 @@ $(function(){initNavTree('MRMesh_2MRICP_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="keywordtype">int</span> iter_ = 0;</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <span class="keywordtype">bool</span> p2ptIter_();</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <span class="keywordtype">bool</span> p2plIter_();</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>};</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <span class="keywordtype">void</span> calcGen_( <span class="keywordtype">float</span> (<a class="code hl_class" href="classMR_1_1ICP.html">ICP</a>::*dist)() const, bool (<a class="code hl_class" href="classMR_1_1ICP.html">ICP</a>::*iter)() );</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="keywordtype">void</span> calcP2Pt_();</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <span class="keywordtype">void</span> calcP2Pl_();</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="keywordtype">void</span> calcCombined_();</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>};</div>
 </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRICPEnums_8h_html"><div class="ttname"><a href="MRICPEnums_8h.html">MRICPEnums.h</a></div></div>
 <div class="ttc" id="aMRImGuiVectorOperators_8h_html_a57c6b7abb0d440f81d2e0e563f66c947"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a57c6b7abb0d440f81d2e0e563f66c947">operator+</a></div><div class="ttdeci">constexpr A operator+(A a)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:97</div></div>
