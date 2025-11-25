@@ -2,7 +2,7 @@ var classmrmeshpy_1_1MeshLoadSettings =
 [
     [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#ac423e6a6aa1e5c0ab3c453ed696e708b", null ],
     [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a9ace2c350cc3429a31ce24bd6ead1631", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a68cf29aa9720438761bea7341a8ec31f", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a4e55d71cda35b4a3750b0ff5845def5c", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoadSettings.html#a486ceb75675eddd9ba8f7ff6f262fb39", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoadSettings.html#acfe4df3f83d36f072aa5ab2539b05131", null ],
     [ "colors", "classmrmeshpy_1_1MeshLoadSettings.html#a6688b3085e29dbc5f4e195c3c2fc58d5", null ],
@@ -11,6 +11,8 @@ var classmrmeshpy_1_1MeshLoadSettings =
     [ "duplicatedVertexCount", "classmrmeshpy_1_1MeshLoadSettings.html#a211dc049cfe1736f6820da5e4a51ea03", null ],
     [ "edges", "classmrmeshpy_1_1MeshLoadSettings.html#a74a93fb287f1838ace055ea64e205b3d", null ],
     [ "edges", "classmrmeshpy_1_1MeshLoadSettings.html#aeb32fb47b42c9961edabb158c2af7bf3", null ],
+    [ "faceColors", "classmrmeshpy_1_1MeshLoadSettings.html#a97124cd5b9bdf08a25969dd0b1d77934", null ],
+    [ "faceColors", "classmrmeshpy_1_1MeshLoadSettings.html#aba4a73b392ba698af37f2df6df200a64", null ],
     [ "normals", "classmrmeshpy_1_1MeshLoadSettings.html#a271248fadb84f31db4373a5b45026562", null ],
     [ "normals", "classmrmeshpy_1_1MeshLoadSettings.html#ad7654dc03fb000f4042568eec0a29200", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoadSettings.html#ae82f0a790d861cc200889dbddb54352a", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"MRPrecisePredicates3_8h.html#ab69a4fd6987391224ac29d5017ffc79b":[6,2,1,0,0,0,1,278,28],
+"MRPrecisePredicates3_8h.html#ac30c46f1bfc7f7ad7d7b85780b9f4529":[6,2,1,0,0,0,1,278,64],
+"MRPrecisePredicates3_8h.html#acbc695b6ee47122ee99f4184b1029a20":[6,2,1,0,0,0,1,278,45],
+"MRPrecisePredicates3_8h.html#acf8295b8fee8090e376d3d1c18eb3356":[6,2,1,0,0,0,1,278,2],
+"MRPrecisePredicates3_8h.html#ad238a8e577d389308a61b80df10992f0":[6,2,1,0,0,0,1,278,55],
+"MRPrecisePredicates3_8h.html#ad40401050c4a8fd9a5e1f507cd34ed98":[6,2,1,0,0,0,1,278,41],
+"MRPrecisePredicates3_8h.html#ad6eb1f83e8b70836b109e623d9108d6d":[6,2,1,0,0,0,1,278,13],
+"MRPrecisePredicates3_8h.html#adf120d4fcf2427a08644d6406e8f6cae":[6,2,1,0,0,0,1,278,62],
 "MRPrecisePredicates3_8h.html#adfbb5c0292477a85caf61dfe53e56f2c":[6,2,1,0,0,0,1,278,19],
 "MRPrecisePredicates3_8h.html#ae56f61af88f1587c4f99480d54e8cb64":[6,2,1,0,0,0,1,278,37],
 "MRPrecisePredicates3_8h.html#aeb07e9abf8e75c68027922e3bd08e7aa":[6,2,1,0,0,0,1,278,47],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "MRQuaternion_8h.html#ae6ea2ddad56192ce5c7ec8cb31287055":[6,2,1,0,0,0,1,285,63],
 "MRQuaternion_8h.html#ae707639f1e47ff33d219660368613bda":[6,2,1,0,0,0,1,285,83],
 "MRQuaternion_8h.html#ae761fb9d659114f517e6b37fcfe080ac":[6,2,1,0,0,0,1,285,42],
-"MRQuaternion_8h.html#ae787543e643f4c1c1c16adcf09c8a53f":[6,2,1,0,0,0,1,285,38],
-"MRQuaternion_8h.html#ae7d5506bb80cef3ebeb5d42ecf555685":[6,2,1,0,0,0,1,285,32],
-"MRQuaternion_8h.html#ae81a325c3fbf783faf827ee86ac50cb1":[6,2,1,0,0,0,1,285,6],
-"MRQuaternion_8h.html#aea068ef9ce3e9ffa6ffff1cc5ce15873":[6,2,1,0,0,0,1,285,26],
-"MRQuaternion_8h.html#aeea6259ff5da7c11dce158239539d041":[6,2,1,0,0,0,1,285,84],
-"MRQuaternion_8h.html#af1ddb8dde01acff8e85821338ec174cb":[6,2,1,0,0,0,1,285,64],
-"MRQuaternion_8h.html#af291756056bab17b12c44aaa8639b422":[6,2,1,0,0,0,1,285,62],
-"MRQuaternion_8h.html#af5f1f340b4eafbc03c720ea9960df771":[6,2,1,0,0,0,1,285,13],
-"MRQuaternion_8h.html#afffe3aa22a01cb1867aff44909dd0f57":[6,2,1,0,0,0,1,285,66]
+"MRQuaternion_8h.html#ae787543e643f4c1c1c16adcf09c8a53f":[6,2,1,0,0,0,1,285,38]
 };

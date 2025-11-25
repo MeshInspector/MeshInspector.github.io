@@ -1,5 +1,9 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,1,542,5],
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,2,560,2],
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,1,542,2],
+"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,2,560,3],
 "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,1,542,3],
 "structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,1,0,2,560,0],
 "structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,2,0,1,542,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1RebuildMeshSettings.html#a0fd939665ae442e058cb11d7cc52ac20":[6,0,1,0,2,592,12],
 "structMR_1_1RebuildMeshSettings.html#a0fd939665ae442e058cb11d7cc52ac20":[6,0,2,0,1,574,12],
 "structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418":[6,0,1,0,2,592,10],
-"structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418":[6,0,2,0,1,574,10],
-"structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453":[6,0,1,0,2,592,1],
-"structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453":[6,0,2,0,1,574,1],
-"structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a":[6,0,1,0,2,592,0],
-"structMR_1_1RebuildMeshSettings.html#a7e182394b11ff51cd7695df3a953505a":[6,0,2,0,1,574,0]
+"structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418":[6,0,2,0,1,574,10]
 };

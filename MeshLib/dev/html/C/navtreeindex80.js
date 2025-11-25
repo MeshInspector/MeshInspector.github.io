@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"MRSaveSettings_8h.html#a0e7dac6d892d92f5949a43caa41a4010":[6,2,1,0,0,0,1,299,34],
+"MRSaveSettings_8h.html#a172c15f7e9162aa5654ed92dc0d381b5":[6,2,1,0,0,0,1,299,31],
+"MRSaveSettings_8h.html#a1ca4ec820833ff7c6e9d63d7a8484733":[6,2,1,0,0,0,1,299,50],
+"MRSaveSettings_8h.html#a20dc7d636220f61a60c7ae92b8caa768":[6,2,1,0,0,0,1,299,12],
+"MRSaveSettings_8h.html#a249fd9254c0c3395567807936ad32641":[6,2,1,0,0,0,1,299,13],
+"MRSaveSettings_8h.html#a2506c6331f76226e7615a45a8972e3a8":[6,2,1,0,0,0,1,299,47],
+"MRSaveSettings_8h.html#a2b7da79a3a1ab32533b10c82bac0c357":[6,2,1,0,0,0,1,299,58],
+"MRSaveSettings_8h.html#a2f680a44634abc170025a6ec7d890402":[6,2,1,0,0,0,1,299,75],
 "MRSaveSettings_8h.html#a3075b8cfc45d80bcf0b149e675c4289a":[6,2,1,0,0,0,1,299,37],
 "MRSaveSettings_8h.html#a3114fb4f01578d91b995c9fddc89e9ae":[6,2,1,0,0,0,1,299,21],
 "MRSaveSettings_8h.html#a319dc4fbf88c20fb1e2a2d7c202483ad":[6,2,1,0,0,0,1,299,53],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "MRSceneRoot_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,1,302,8],
 "MRSceneRoot_8h.html#a6b7400a2250767b1e0babb900ae97080":[6,2,1,0,0,0,1,302,35],
 "MRSceneRoot_8h.html#a6c51be6c38804779ff77bca30c3316c4":[6,2,1,0,0,0,1,302,17],
-"MRSceneRoot_8h.html#a6c98cbc77e98e5ff580c58a3247a092b":[6,2,1,0,0,0,1,302,18],
-"MRSceneRoot_8h.html#a74b89e4f3d6105d41d525186f083dc12":[6,2,1,0,0,0,1,302,11],
-"MRSceneRoot_8h.html#a771df96f595492ec18d214432350247e":[6,2,1,0,0,0,1,302,28],
-"MRSceneRoot_8h.html#a7a8d4a2bd70193946b0c24b5fbdac14a":[6,2,1,0,0,0,1,302,15],
-"MRSceneRoot_8h.html#a84f886c3fe962d4ca204cfd28caf29e3":[6,2,1,0,0,0,1,302,39],
-"MRSceneRoot_8h.html#a8512223b8f0a43024a92d2cb1ac9488d":[6,2,1,0,0,0,1,302,24],
-"MRSceneRoot_8h.html#a881f702590d2b633de1ede775e216346":[6,2,1,0,0,0,1,302,30],
-"MRSceneRoot_8h.html#a885f919fff839030c6725c849e0db23a":[6,2,1,0,0,0,1,302,3],
-"MRSceneRoot_8h.html#a927580cff8bf45f62d15a9ddf599a406":[6,2,1,0,0,0,1,302,34]
+"MRSceneRoot_8h.html#a6c98cbc77e98e5ff580c58a3247a092b":[6,2,1,0,0,0,1,302,18]
 };

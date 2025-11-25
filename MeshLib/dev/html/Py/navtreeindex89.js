@@ -1,5 +1,13 @@
 var NAVTREEINDEX89 =
 {
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#aa9fa94a138700cc9006c0d43d7ec5525":[6,1,1,0,1,1055,7],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[6,1,0,0,2,1055,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[6,1,1,0,1,1055,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae544cf0203408859e5f1e623474af7f4":[6,1,0,0,2,1055,6],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae544cf0203408859e5f1e623474af7f4":[6,1,1,0,1,1055,6],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[6,1,0,0,2,1055,3],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[6,1,1,0,1,1055,3],
+"classmrmeshpy_1_1Triangulation.html":[6,1,0,0,2,1056],
 "classmrmeshpy_1_1Triangulation.html":[6,1,1,0,1,1056],
 "classmrmeshpy_1_1Triangulation.html#a0103cfaafefedcf26d000883f1b55179":[6,1,0,0,2,1056,29],
 "classmrmeshpy_1_1Triangulation.html#a0103cfaafefedcf26d000883f1b55179":[6,1,0,0,2,1056,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX89 =
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2b68c93b2ddfdce77b75bf71d3d563d5":[6,1,1,0,1,1061,13],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[6,1,0,0,2,1061,3],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[6,1,1,0,1,1061,3],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[6,1,0,0,2,1061,9],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[6,1,1,0,1,1061,9],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a5032ea393d340c8d7b3b2d1510ac2bcb":[6,1,0,0,2,1061,4],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a5032ea393d340c8d7b3b2d1510ac2bcb":[6,1,1,0,1,1061,4],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a60c277f9ec8a303b6488c25c65ca73ae":[6,1,0,0,2,1061,1],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a60c277f9ec8a303b6488c25c65ca73ae":[6,1,1,0,1,1061,1],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,0,0,2,1061,14],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a92af6f8bf78bbfbeeb6b4378081e9604":[6,1,1,0,1,1061,14],
-"classmrmeshpy_1_1TrimOptionalOutput.html#abe46a974ef4aa512b0bbc14166f58e32":[6,1,0,0,2,1061,2]
+"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[6,1,0,0,2,1061,9]
 };

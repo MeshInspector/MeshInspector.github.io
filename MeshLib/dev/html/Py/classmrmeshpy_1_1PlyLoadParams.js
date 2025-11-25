@@ -2,7 +2,7 @@ var classmrmeshpy_1_1PlyLoadParams =
 [
     [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#ae4bea723a4b5e45c7bb94386ef62dfc0", null ],
     [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#ad0700c4d3326977ab71157020d4ba946", null ],
-    [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#a89a91f6734a0a2ea3b381e32cc607be6", null ],
+    [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#a6b394fd5bdd9535515867563fd7a862e", null ],
     [ "callback", "classmrmeshpy_1_1PlyLoadParams.html#a740dcc8e3346dfd9d024cdfcdc7b9eee", null ],
     [ "callback", "classmrmeshpy_1_1PlyLoadParams.html#a6fe759868e05ff762e78bbaa43ad950a", null ],
     [ "colors", "classmrmeshpy_1_1PlyLoadParams.html#aa3fb981e83fb3212bd36f85f67abd85a", null ],
@@ -11,6 +11,8 @@ var classmrmeshpy_1_1PlyLoadParams =
     [ "dir", "classmrmeshpy_1_1PlyLoadParams.html#a2c074f0398d6caa898df9c4a3a5ffbbf", null ],
     [ "edges", "classmrmeshpy_1_1PlyLoadParams.html#adb3f852bef5545dc78513940272868e2", null ],
     [ "edges", "classmrmeshpy_1_1PlyLoadParams.html#a4f8ece9467e818f441e79eb5fadc39c2", null ],
+    [ "faceColors", "classmrmeshpy_1_1PlyLoadParams.html#a6bfbea4ed98400b83e054370c52a6043", null ],
+    [ "faceColors", "classmrmeshpy_1_1PlyLoadParams.html#a42716c1fb4c77db9ef49fd19000b1b88", null ],
     [ "normals", "classmrmeshpy_1_1PlyLoadParams.html#a0d735734a3ac9240bca3ebe65ed58980", null ],
     [ "normals", "classmrmeshpy_1_1PlyLoadParams.html#ac5af01422f9aa45c198c1df9420bf3a5", null ],
     [ "texture", "classmrmeshpy_1_1PlyLoadParams.html#abedca63e352b4ea63c0327fc4f34f726", null ],
