@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,520],
 "classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,2,0,1,501],
 "classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,1,0,1,520,1],
 "classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,2,0,1,501,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1PolylineUndirectedEdgeIterator.html#aceb9e42371e4e109bae6cfd91baa5ec1":[6,0,0,14,1,3],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#ae13501f43ea74a3e5ac234f3811e9241":[6,0,0,14,1,1],
 "classMR_1_1PrecipitationSimulator.html":[6,0,1,0,1,569],
-"classMR_1_1PrecipitationSimulator.html":[6,0,2,0,1,550],
-"classMR_1_1PrecipitationSimulator.html#a0ae04f850be8f1baf7203566c8071eee":[6,0,1,0,1,569,3]
+"classMR_1_1PrecipitationSimulator.html":[6,0,2,0,1,550]
 };

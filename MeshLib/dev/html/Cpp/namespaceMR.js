@@ -81,7 +81,8 @@ var namespaceMR =
       [ "Screen2WindowSpaceContour2f", "namespaceMR_1_1ImGuiMV.html#ab8622fb9dd653781e10cf6afd6642aec", null ],
       [ "Screen2WindowSpaceImVec2", "namespaceMR_1_1ImGuiMV.html#ac1ea446578b10ff52597a11b5c1d6c74", null ],
       [ "SetNextWindowPosMainViewport", "namespaceMR_1_1ImGuiMV.html#a401a3af08bc863852e960b53d86d7d16", null ],
-      [ "Window2ScreenSpaceImVec2", "namespaceMR_1_1ImGuiMV.html#a6644c5f0be375e56445b0670ad398f19", null ]
+      [ "Window2ScreenSpaceImVec2", "namespaceMR_1_1ImGuiMV.html#a6644c5f0be375e56445b0670ad398f19", null ],
+      [ "Window2ScreenSpaceVector2f", "namespaceMR_1_1ImGuiMV.html#ac3d745327d6cc0c9764180940364a5e8", null ]
     ] ],
     [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", "namespaceMR_1_1LinesLoad" ],
     [ "LinesSave", "namespaceMR_1_1LinesSave.html", "namespaceMR_1_1LinesSave" ],

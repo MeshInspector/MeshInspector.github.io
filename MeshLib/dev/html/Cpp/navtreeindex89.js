@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1PolylineTraits.html":[6,0,0,1,8],
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c":[6,0,1,0,1,593,11],
 "structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c":[6,0,2,0,1,574,11],
 "structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e":[6,0,1,0,1,593,7],
-"structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e":[6,0,2,0,1,574,7],
-"structMR_1_1RebuildMeshSettings.html#a0a73a19f4845bdec3e2e59c9d1dfd4b8":[6,0,1,0,1,593,8],
-"structMR_1_1RebuildMeshSettings.html#a0a73a19f4845bdec3e2e59c9d1dfd4b8":[6,0,2,0,1,574,8]
+"structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e":[6,0,2,0,1,574,7]
 };

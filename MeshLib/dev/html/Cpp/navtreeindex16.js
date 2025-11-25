@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"MRTestC2_2MRVector3_8h.html#a212c95bf19da69f90e8c540d9ebda31d":[6,0,3,0,0,1,10,25,7],
 "MRTestC2_2MRVector3_8h.html#a303bdb273fe2c8b13688f1da5ee25025":[6,0,3,0,0,1,10,25,1],
 "MRTestC2_2MRVector3_8h.html#a807dde1d38c93a2e2e9eaf4df33fa94e":[6,0,3,0,0,1,10,25,11],
 "MRTestC2_2MRVector3_8h.html#aa5eb25864c0007e22e8ea57a5269141c":[6,0,3,0,0,1,10,25,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "MRTouchpadParameters_8h_source.html":[6,0,3,0,0,1,11,135],
 "MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,1,11,136],
 "MRTouchpadWin32Handler_8h_source.html":[6,0,3,0,0,1,11,136],
-"MRTriDist_8h.html":[6,0,3,0,0,1,4,388],
-"MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[6,0,3,0,0,1,4,388,1]
+"MRTriDist_8h.html":[6,0,3,0,0,1,4,388]
 };

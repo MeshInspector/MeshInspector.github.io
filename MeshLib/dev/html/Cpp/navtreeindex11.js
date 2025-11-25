@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRMesh_2config_8h_source.html":[6,0,3,0,0,1,4,0],
 "MRMeta_8h.html":[6,0,3,0,0,1,4,235],
 "MRMeta_8h_source.html":[6,0,3,0,0,1,4,235],
 "MRMinMaxArg_8h.html":[6,0,3,0,0,1,4,236],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40":[6,0,3,0,0,1,4,268,3,2],
 "MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,3,0,0,1,4,268,3,4],
 "MROutlierPoints_8h_source.html":[6,0,3,0,0,1,4,268],
-"MROverlappingTris_8h.html":[6,0,3,0,0,1,4,269],
-"MROverlappingTris_8h.html#a6f854d1ee48b4520a2bc23d7c73c648f":[6,0,3,0,0,1,4,269,1]
+"MROverlappingTris_8h.html":[6,0,3,0,0,1,4,269]
 };

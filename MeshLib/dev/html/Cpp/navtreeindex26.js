@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1FewSmallest.html#a137b1fa934a6f5746491768b2b3aab36":[6,0,1,0,1,246,8],
 "classMR_1_1FewSmallest.html#a137b1fa934a6f5746491768b2b3aab36":[6,0,2,0,1,227,8],
 "classMR_1_1FewSmallest.html#a18d6d371df964d476e3dc691241375a6":[6,0,1,0,1,246,11],
 "classMR_1_1FewSmallest.html#a18d6d371df964d476e3dc691241375a6":[6,0,2,0,1,227,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1GLStaticHolder.html#a51ef10d476eb1492c1b758ef79a42482":[6,0,1,0,1,284,0],
 "classMR_1_1GLStaticHolder.html#a51ef10d476eb1492c1b758ef79a42482":[6,0,2,0,1,265,0],
 "classMR_1_1GcodeProcessor.html":[6,0,1,0,1,279],
-"classMR_1_1GcodeProcessor.html":[6,0,2,0,1,260],
-"classMR_1_1GcodeProcessor.html#a02000ae4305a16e7aca1e6e09bb7e25a":[6,0,1,0,1,279,3]
+"classMR_1_1GcodeProcessor.html":[6,0,2,0,1,260]
 };

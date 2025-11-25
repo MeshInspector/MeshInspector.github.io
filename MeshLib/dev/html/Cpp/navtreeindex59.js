@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__SerializerGroup.html#gae2d000bf1be360d4156e421121308d90":[6,0,0,2,15,50],
 "group__SerializerGroup.html#gaeb2e68137af1a456b80b6a8574c03e6e":[6,0,0,2,15,8],
 "group__SerializerGroup.html#gafab977958cb409b72f7584d9f6602a3e":[6,0,0,2,15,14],
 "group__StreamOperatorsGroup.html":[6,0,0,2,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682":[6,0,1,0,0,4],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d":[6,0,1,0,0,4,1],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,0,4,0],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258":[6,0,1,0,0,4,3],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b":[6,0,1,0,0,4,2]
+"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258":[6,0,1,0,0,4,3]
 };

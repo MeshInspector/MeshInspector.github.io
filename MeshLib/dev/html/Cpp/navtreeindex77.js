@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1FillHoleParams.html":[6,0,0,9,3,0],
+"structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4":[6,0,0,9,3,0,4],
 "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a":[6,0,0,9,3,0,5],
 "structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9":[6,0,0,9,3,0,2],
 "structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a":[6,0,0,9,3,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,1,0,1,279,2,1],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,2,0,1,260,2,1],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,279,2,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,260,2,2],
-"structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,282],
-"structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,263]
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,260,2,2]
 };
