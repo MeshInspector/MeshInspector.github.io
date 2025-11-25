@@ -1,5 +1,8 @@
 var NAVTREEINDEX12 =
 {
+"MROverlappingTris_8h_source.html":[6,0,3,0,0,1,4,269],
+"MRPalette_8h.html":[6,0,3,0,0,1,11,62],
+"MRPalette_8h_source.html":[6,0,3,0,0,1,11,62],
 "MRParabola_8h.html":[6,0,3,0,0,1,4,270],
 "MRParabola_8h_source.html":[6,0,3,0,0,1,4,270],
 "MRParallelFor_8h.html":[6,0,3,0,0,1,4,272],
@@ -246,8 +249,5 @@ var NAVTREEINDEX12 =
 "MRProgressBar_8h.html#ad694eb3ebaed27434a4adc6f85c929e6":[6,0,3,0,0,1,11,68,13],
 "MRProgressBar_8h.html#ae692760ee83b399be6653c81468172ea":[6,0,3,0,0,1,11,68,19],
 "MRProgressBar_8h.html#ae694b1e02bb163d667aaca266f472606":[6,0,3,0,0,1,11,68,16],
-"MRProgressBar_8h.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,3,0,0,1,11,68,2],
-"MRProgressBar_8h_source.html":[6,0,3,0,0,1,11,68],
-"MRProgressCallback_8h.html":[6,0,3,0,0,1,4,325],
-"MRProgressCallback_8h.html#a135674a0320e958c28f73bb6c608cd54":[6,0,3,0,0,1,4,325,4]
+"MRProgressBar_8h.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,3,0,0,1,11,68,2]
 };

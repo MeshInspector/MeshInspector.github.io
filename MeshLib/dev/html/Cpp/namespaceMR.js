@@ -75,6 +75,14 @@ var namespaceMR =
     ] ],
     [ "ImGuiMath", "namespaceMR_1_1ImGuiMath.html", "namespaceMR_1_1ImGuiMath" ],
     [ "ImGuiMeasurementIndicators", "namespaceMR_1_1ImGuiMeasurementIndicators.html", "namespaceMR_1_1ImGuiMeasurementIndicators" ],
+    [ "ImGuiMV", "namespaceMR_1_1ImGuiMV.html", [
+      [ "GetLocalMousePos", "namespaceMR_1_1ImGuiMV.html#a04c62fed31317527b9224987a8db8a50", null ],
+      [ "GetMainViewportShift", "namespaceMR_1_1ImGuiMV.html#ad31ae44c5b30fd718d2ad406d1bd4413", null ],
+      [ "Screen2WindowSpaceContour2f", "namespaceMR_1_1ImGuiMV.html#ab8622fb9dd653781e10cf6afd6642aec", null ],
+      [ "Screen2WindowSpaceImVec2", "namespaceMR_1_1ImGuiMV.html#ac1ea446578b10ff52597a11b5c1d6c74", null ],
+      [ "SetNextWindowPosMainViewport", "namespaceMR_1_1ImGuiMV.html#a401a3af08bc863852e960b53d86d7d16", null ],
+      [ "Window2ScreenSpaceImVec2", "namespaceMR_1_1ImGuiMV.html#a6644c5f0be375e56445b0670ad398f19", null ]
+    ] ],
     [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", "namespaceMR_1_1LinesLoad" ],
     [ "LinesSave", "namespaceMR_1_1LinesSave.html", "namespaceMR_1_1LinesSave" ],
     [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", "namespaceMR_1_1MeshBuilder" ],
