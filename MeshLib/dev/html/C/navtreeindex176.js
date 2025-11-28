@@ -1,5 +1,16 @@
 var NAVTREEINDEX176 =
 {
+"std__vector__unsigned__char_8h.html#ae8fcdad1e6b0c61fde4237b8bd76cd05":[6,2,1,0,0,0,2,424,38],
+"std__vector__unsigned__char_8h.html#aeb60d5ef503e248243d98a40b8ba3e43":[6,2,1,0,0,0,2,424,23],
+"std__vector__unsigned__char_8h.html#af36e62686b73189304c613c36f5b933b":[6,2,1,0,0,0,2,424,31],
+"std__vector__unsigned__char_8h.html#af771c4ae8902821c0fe27676964eec58":[6,2,1,0,0,0,2,424,68],
+"std__vector__unsigned__char_8h.html#afb06f6bce785962ac07c15b6fe89e631":[6,2,1,0,0,0,2,424,57],
+"std__vector__unsigned__char_8h.html#afb1db76676dc70be09e78dd88b4b3fab":[6,2,1,0,0,0,2,424,8],
+"std__vector__unsigned__char_8h.html#aff3993ff132bdecf2767979743d73d6f":[6,2,1,0,0,0,2,424,70],
+"std__vector__unsigned__char_8h_source.html":[6,2,1,0,0,0,2,424],
+"std__vector__unsigned__short_8h.html":[6,2,1,0,0,0,2,425],
+"std__vector__unsigned__short_8h.html#a06dcf7ea14e594726e9608280439dd75":[6,2,1,0,0,0,2,425,20],
+"std__vector__unsigned__short_8h.html#a0beb92072c2fe810fa3b91537dac3673":[6,2,1,0,0,0,2,425,26],
 "std__vector__unsigned__short_8h.html#a0eaef8bf9e212092ad5e48e4e85b4f5b":[6,2,1,0,0,0,2,425,51],
 "std__vector__unsigned__short_8h.html#a0fc2ee84b848b377c7a526bc0062760c":[6,2,1,0,0,0,2,425,68],
 "std__vector__unsigned__short_8h.html#a16d253e164ef5da46529e421484c63f7":[6,2,1,0,0,0,2,425,42],
@@ -238,16 +249,5 @@ var NAVTREEINDEX176 =
 "structMR__Vector3f.html#af231b1ad1b20023178270820302149f8":[6,2,0,0,58,0],
 "structMR__Vector3i.html":[6,2,0,0,59],
 "structMR__Vector3i.html#a7aef790883b4f51b0418ea96979f7054":[6,2,0,0,59,0],
-"structMR__Vector3i.html#a7ced15e6b88f42e49930db4fb28ef34c":[6,2,0,0,59,2],
-"structMR__Vector3i.html#a869abe23626ddb85ec4cdbb6e36dcad6":[6,2,0,0,59,1],
-"structMR__Vector3i64.html":[6,2,0,0,60],
-"structMR__Vector3i64.html#a2a21348d9f523bcf60da0d62bd22f004":[6,2,0,0,60,1],
-"structMR__Vector3i64.html#abaeac2f834c2e396c93ff632425f1793":[6,2,0,0,60,2],
-"structMR__Vector3i64.html#ad1b8b44ca450efc63fda75d49900e4dd":[6,2,0,0,60,0],
-"structMR__Vector4b.html":[6,2,0,0,61],
-"structMR__Vector4b.html#a8daf4e8b03549e8e3a8c44c45993cb10":[6,2,0,0,61,2],
-"structMR__Vector4b.html#aa9b46dc5ae881a36ef121538b058ebc2":[6,2,0,0,61,3],
-"structMR__Vector4b.html#aad79dd83ea202ee78d95064303aa1d5b":[6,2,0,0,61,0],
-"structMR__Vector4b.html#ae31f3b34b3e1418996cbcd2de07609aa":[6,2,0,0,61,1],
-"structMR__Vector4d.html":[6,2,0,0,62]
+"structMR__Vector3i.html#a7ced15e6b88f42e49930db4fb28ef34c":[6,2,0,0,59,2]
 };

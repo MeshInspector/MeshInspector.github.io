@@ -153,6 +153,7 @@ $(function(){initNavTree('MRRayBoxIntersection_8h.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRRayBoxIntersection_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -160,13 +161,40 @@ $(function(){initNavTree('MRRayBoxIntersection_8h.html',''); initResizable(true)
 Typedefs</h2></td></tr>
 <tr class="memitem:a387c2b6c194640a4dfac77733cbe3880" id="r_a387c2b6c194640a4dfac77733cbe3880"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a387c2b6c194640a4dfac77733cbe3880">MR_Box3f</a></td></tr>
 <tr class="separator:a387c2b6c194640a4dfac77733cbe3880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d83329d62d5328563c6e5b3bac7144" id="r_a87d83329d62d5328563c6e5b3bac7144"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a></td></tr>
+<tr class="separator:a87d83329d62d5328563c6e5b3bac7144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1d803422d4caa25c56d04a67efbc52" id="r_aca1d803422d4caa25c56d04a67efbc52"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a></td></tr>
 <tr class="separator:aca1d803422d4caa25c56d04a67efbc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea809d1ec90ea1c9da1c0e1fb31a43a" id="r_aeea809d1ec90ea1c9da1c0e1fb31a43a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a></td></tr>
+<tr class="memdesc:aeea809d1ec90ea1c9da1c0e1fb31a43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1RayOrigin.html">MR::RayOrigin</a>&lt;float&gt;</code>.  <br /></td></tr>
+<tr class="separator:aeea809d1ec90ea1c9da1c0e1fb31a43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7bdf436c5c43791e339d974025888b03" id="r_a7bdf436c5c43791e339d974025888b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bdf436c5c43791e339d974025888b03">MR_rayBoxIntersect_MR_Box3f</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *line, float t0, float t1)</td></tr>
-<tr class="separator:a7bdf436c5c43791e339d974025888b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3f44107e27b816da5045f84e53dc00" id="r_a3f3f44107e27b816da5045f84e53dc00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f3f44107e27b816da5045f84e53dc00">MR_RayOrigin_float_ConstructFromAnother</a> (const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *_other)</td></tr>
+<tr class="separator:a3f3f44107e27b816da5045f84e53dc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d906c1ea38942bc0a9d39e83e8b3e6" id="r_a35d906c1ea38942bc0a9d39e83e8b3e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35d906c1ea38942bc0a9d39e83e8b3e6">MR_RayOrigin_float_OffsetPtr</a> (const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a35d906c1ea38942bc0a9d39e83e8b3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a35d906c1ea38942bc0a9d39e83e8b3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3cf5e70c534d374d2b007060b32caf0" id="r_ac3cf5e70c534d374d2b007060b32caf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3cf5e70c534d374d2b007060b32caf0">MR_RayOrigin_float_OffsetMutablePtr</a> (<a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac3cf5e70c534d374d2b007060b32caf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac3cf5e70c534d374d2b007060b32caf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909f43a15ab8b102a8afcd783a3dc202" id="r_a909f43a15ab8b102a8afcd783a3dc202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a909f43a15ab8b102a8afcd783a3dc202">MR_RayOrigin_float_Construct</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *ro)</td></tr>
+<tr class="separator:a909f43a15ab8b102a8afcd783a3dc202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae070bbfaf2ace77f1441b835bf4e2cc5" id="r_ae070bbfaf2ace77f1441b835bf4e2cc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae070bbfaf2ace77f1441b835bf4e2cc5">MR_RayOrigin_float_Destroy</a> (const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *_this)</td></tr>
+<tr class="memdesc:ae070bbfaf2ace77f1441b835bf4e2cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_RayOrigin_float</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae070bbfaf2ace77f1441b835bf4e2cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a81c0e9722295e3f115b52270b5c98f" id="r_a3a81c0e9722295e3f115b52270b5c98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a81c0e9722295e3f115b52270b5c98f">MR_RayOrigin_float_DestroyArray</a> (const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *_this)</td></tr>
+<tr class="memdesc:a3a81c0e9722295e3f115b52270b5c98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_RayOrigin_float</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a3a81c0e9722295e3f115b52270b5c98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab974954149dbc55cf98ae7a07ec00e43" id="r_ab974954149dbc55cf98ae7a07ec00e43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab974954149dbc55cf98ae7a07ec00e43">MR_RayOrigin_float_AssignFromAnother</a> (<a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *_this, const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *_other)</td></tr>
+<tr class="separator:ab974954149dbc55cf98ae7a07ec00e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4c89fdc6d8651ba11ccf6ef59ab9fa" id="r_ace4c89fdc6d8651ba11ccf6ef59ab9fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace4c89fdc6d8651ba11ccf6ef59ab9fa">MR_rayBoxIntersect_5</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *rayOrigin, float *t0, float *t1, const <a class="el" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a> *prec)</td></tr>
+<tr class="separator:ace4c89fdc6d8651ba11ccf6ef59ab9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0ab36ee9b679ed253f027f1735609c" id="r_a1e0ab36ee9b679ed253f027f1735609c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0ab36ee9b679ed253f027f1735609c">MR_rayBoxIntersect_4_MR_Box3f</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *line, float t0, float t1)</td></tr>
+<tr class="separator:a1e0ab36ee9b679ed253f027f1735609c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a387c2b6c194640a4dfac77733cbe3880" name="a387c2b6c194640a4dfac77733cbe3880"></a>
@@ -177,6 +205,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct MR_Box3f MR_Box3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87d83329d62d5328563c6e5b3bac7144" name="a87d83329d62d5328563c6e5b3bac7144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d83329d62d5328563c6e5b3bac7144">&#9670;&#160;</a></span>MR_IntersectionPrecomputes_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a> <a class="el" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -197,15 +239,45 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a7bdf436c5c43791e339d974025888b03" name="a7bdf436c5c43791e339d974025888b03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bdf436c5c43791e339d974025888b03">&#9670;&#160;</a></span>MR_rayBoxIntersect_MR_Box3f()</h2>
+<a id="aeea809d1ec90ea1c9da1c0e1fb31a43a" name="aeea809d1ec90ea1c9da1c0e1fb31a43a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">&#9670;&#160;</a></span>MR_RayOrigin_float</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_rayBoxIntersect_MR_Box3f </td>
+          <td class="memname">typedef struct <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1RayOrigin.html">MR::RayOrigin</a>&lt;float&gt;</code>. </p>
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1e0ab36ee9b679ed253f027f1735609c" name="a1e0ab36ee9b679ed253f027f1735609c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e0ab36ee9b679ed253f027f1735609c">&#9670;&#160;</a></span>MR_rayBoxIntersect_4_MR_Box3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_rayBoxIntersect_4_MR_Box3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
         </tr>
@@ -227,6 +299,185 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <code><a class="elRef" href="../Cpp/group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9">MR::rayBoxIntersect</a>&lt;float&gt;</code>. Parameter <code>box</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ace4c89fdc6d8651ba11ccf6ef59ab9fa" name="ace4c89fdc6d8651ba11ccf6ef59ab9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace4c89fdc6d8651ba11ccf6ef59ab9fa">&#9670;&#160;</a></span>MR_rayBoxIntersect_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_rayBoxIntersect_5 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>rayOrigin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>t0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>t1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a> *</td>          <td class="paramname"><span class="paramname"><em>prec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9">MR::rayBoxIntersect</a>&lt;float&gt;</code>. Parameter <code>box</code> can not be null. It is a single object. Parameter <code>rayOrigin</code> can not be null. It is a single object. Parameter <code>t0</code> can not be null. It is a single object. Parameter <code>t1</code> can not be null. It is a single object. Parameter <code>prec</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ab974954149dbc55cf98ae7a07ec00e43" name="ab974954149dbc55cf98ae7a07ec00e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab974954149dbc55cf98ae7a07ec00e43">&#9670;&#160;</a></span>MR_RayOrigin_float_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> * MR_RayOrigin_float_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1RayOrigin.html">MR::RayOrigin</a>&lt;float&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a909f43a15ab8b102a8afcd783a3dc202" name="a909f43a15ab8b102a8afcd783a3dc202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a909f43a15ab8b102a8afcd783a3dc202">&#9670;&#160;</a></span>MR_RayOrigin_float_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> * MR_RayOrigin_float_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ro</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1RayOrigin.html">MR::RayOrigin</a>&lt;float&gt;</code>. Parameter <code>ro</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae070bbfaf2ace77f1441b835bf4e2cc5" title="Destroys a heap-allocated instance of MR_RayOrigin_float. Does nothing if the pointer is null.">MR_RayOrigin_float_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3f3f44107e27b816da5045f84e53dc00" name="a3f3f44107e27b816da5045f84e53dc00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f3f44107e27b816da5045f84e53dc00">&#9670;&#160;</a></span>MR_RayOrigin_float_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> * MR_RayOrigin_float_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1RayOrigin.html">MR::RayOrigin</a>&lt;float&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae070bbfaf2ace77f1441b835bf4e2cc5" title="Destroys a heap-allocated instance of MR_RayOrigin_float. Does nothing if the pointer is null.">MR_RayOrigin_float_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae070bbfaf2ace77f1441b835bf4e2cc5" name="ae070bbfaf2ace77f1441b835bf4e2cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae070bbfaf2ace77f1441b835bf4e2cc5">&#9670;&#160;</a></span>MR_RayOrigin_float_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_RayOrigin_float_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_RayOrigin_float</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3a81c0e9722295e3f115b52270b5c98f" name="a3a81c0e9722295e3f115b52270b5c98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a81c0e9722295e3f115b52270b5c98f">&#9670;&#160;</a></span>MR_RayOrigin_float_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_RayOrigin_float_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_RayOrigin_float</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac3cf5e70c534d374d2b007060b32caf0" name="ac3cf5e70c534d374d2b007060b32caf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3cf5e70c534d374d2b007060b32caf0">&#9670;&#160;</a></span>MR_RayOrigin_float_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> * MR_RayOrigin_float_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a35d906c1ea38942bc0a9d39e83e8b3e6" name="a35d906c1ea38942bc0a9d39e83e8b3e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d906c1ea38942bc0a9d39e83e8b3e6">&#9670;&#160;</a></span>MR_RayOrigin_float_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> * MR_RayOrigin_float_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aeea809d1ec90ea1c9da1c0e1fb31a43a">MR_RayOrigin_float</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
 
 </div>
 </div>

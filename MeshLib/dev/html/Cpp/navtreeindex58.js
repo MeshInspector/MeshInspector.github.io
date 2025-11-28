@@ -195,8 +195,9 @@ var NAVTREEINDEX58 =
 "group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58":[6,0,0,15,1],
 "group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9":[6,0,0,15,2],
 "group__RayBoxIntersectionGroup.html":[6,0,0,0,9],
-"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1],
-"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2],
+"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,2],
+"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,3],
+"group__RayBoxIntersectionGroup.html#gad8340f244984ea6a767ec9539b93f800":[6,0,0,0,9,1],
 "group__SerializerGroup.html":[6,0,0,2,15],
 "group__SerializerGroup.html#ga008566c571e968e28ac38c4317a9fbbe":[6,0,0,2,15,17],
 "group__SerializerGroup.html#ga01084ea4b91576f192aeb68017e8e45e":[6,0,0,2,15,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "group__SerializerGroup.html#gacd39b6a2edca023ff58233e8a5938a10":[6,0,0,2,15,41],
 "group__SerializerGroup.html#gacfc4f79eba7c0c8751bd4206a1604603":[6,0,0,2,15,35],
 "group__SerializerGroup.html#gacfed47f3a67cfbbaaab3df0125cc6c52":[6,0,0,2,15,9],
-"group__SerializerGroup.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21":[6,0,0,2,15,39],
-"group__SerializerGroup.html#gae2b8279a340f17425a3c6d8e8feb98ec":[6,0,0,2,15,45]
+"group__SerializerGroup.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21":[6,0,0,2,15,39]
 };

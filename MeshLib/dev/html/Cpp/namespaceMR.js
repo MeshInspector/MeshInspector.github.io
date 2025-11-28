@@ -2758,6 +2758,7 @@ var namespaceMR =
     [ "moveMeshToVoxelMaxDeriv< SimpleVolumeMinMax >", "namespaceMR.html#a1cfc0e26980a5b09a90df0942acbda68", null ],
     [ "moveMeshToVoxelMaxDeriv< VdbVolume >", "namespaceMR.html#a9afd00cdbde3e93a03746e44dbd978ed", null ],
     [ "MR_BIND_PREFERRED_NAME", "namespaceMR.html#a205de3d663a2e93f91a0e5cedc789180", null ],
+    [ "MR_BIND_TEMPLATE", "group__RayBoxIntersectionGroup.html#gad8340f244984ea6a767ec9539b93f800", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a019b60315485de7cfcd1a8e889fbcb0e", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#ab1cc47e387bfef1c7ef47c0f83f40890", null ],
     [ "MR_CANONICAL_TYPEDEFS", "namespaceMR.html#a8e24bd54d5503fea63c5441db3237ad2", null ],
