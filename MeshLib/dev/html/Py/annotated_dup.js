@@ -762,7 +762,6 @@ var annotated_dup =
       [ "RadiusMeasurementObject", "classmrmeshpy_1_1RadiusMeasurementObject.html", "classmrmeshpy_1_1RadiusMeasurementObject" ],
       [ "RatioUnit", "classmrmeshpy_1_1RatioUnit.html", "classmrmeshpy_1_1RatioUnit" ],
       [ "RawTiffOutput", "classmrmeshpy_1_1RawTiffOutput.html", "classmrmeshpy_1_1RawTiffOutput" ],
-      [ "RayOrigin_float", "classmrmeshpy_1_1RayOrigin__float.html", "classmrmeshpy_1_1RayOrigin__float" ],
       [ "RebuildMeshSettings", "classmrmeshpy_1_1RebuildMeshSettings.html", "classmrmeshpy_1_1RebuildMeshSettings" ],
       [ "RectIndexer", "classmrmeshpy_1_1RectIndexer.html", "classmrmeshpy_1_1RectIndexer" ],
       [ "RefineParameters", "classmrmeshpy_1_1RefineParameters.html", "classmrmeshpy_1_1RefineParameters" ],

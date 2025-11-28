@@ -5,6 +5,8 @@ var structMR_1_1UI_1_1CustomConfigModalSettings =
     [ "configName", "structMR_1_1UI_1_1CustomConfigModalSettings.html#a80732e1bb274d668762100222e9fcdb3", null ],
     [ "imGuiIdKey", "structMR_1_1UI_1_1CustomConfigModalSettings.html#a4b91e9beaa4407b11b1f892f9e6f596b", null ],
     [ "inputName", "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac8f21dd8acbc5b82e94cd24be7d5f52b", null ],
+    [ "inputNameDialog", "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac23225fd924b723514e8bc5ff54d228e", null ],
     [ "onSave", "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac6eb89011818ae44b18a521011c7ba02", null ],
+    [ "triggerSave", "structMR_1_1UI_1_1CustomConfigModalSettings.html#a9ac324551327f5c00a9ba0ac4df87360", null ],
     [ "warnExisting", "structMR_1_1UI_1_1CustomConfigModalSettings.html#ac55baa3802814b3443d7f4fc22349bd6", null ]
 ];

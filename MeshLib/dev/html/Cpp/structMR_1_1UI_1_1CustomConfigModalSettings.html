@@ -178,6 +178,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac8f21dd8acbc5b82e94cd24be7d5f52b" id="r_ac8f21dd8acbc5b82e94cd24be7d5f52b"><td class="memItemLeft" align="right" valign="top">std::string *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8f21dd8acbc5b82e94cd24be7d5f52b">inputName</a> { nullptr }</td></tr>
 <tr class="memdesc:ac8f21dd8acbc5b82e94cd24be7d5f52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">String used by input.  <br /></td></tr>
 <tr class="separator:ac8f21dd8acbc5b82e94cd24be7d5f52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23225fd924b723514e8bc5ff54d228e" id="r_ac23225fd924b723514e8bc5ff54d228e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23225fd924b723514e8bc5ff54d228e">inputNameDialog</a> = true</td></tr>
+<tr class="memdesc:ac23225fd924b723514e8bc5ff54d228e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false, inputName is used (if inputName is nullptr this option is not used)  <br /></td></tr>
+<tr class="separator:ac23225fd924b723514e8bc5ff54d228e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac324551327f5c00a9ba0ac4df87360" id="r_a9ac324551327f5c00a9ba0ac4df87360"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ac324551327f5c00a9ba0ac4df87360">triggerSave</a> = false</td></tr>
+<tr class="memdesc:a9ac324551327f5c00a9ba0ac4df87360"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true - opens modal in this frame, or saves if (<code>!inputNameDialog</code> &amp;&amp; inputName)  <br /></td></tr>
+<tr class="separator:a9ac324551327f5c00a9ba0ac4df87360"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac55baa3802814b3443d7f4fc22349bd6" id="r_ac55baa3802814b3443d7f4fc22349bd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55baa3802814b3443d7f4fc22349bd6">warnExisting</a> = true</td></tr>
 <tr class="memdesc:ac55baa3802814b3443d7f4fc22349bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true - warns user before overriding existing file, otherwise override without warning.  <br /></td></tr>
 <tr class="separator:ac55baa3802814b3443d7f4fc22349bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +278,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac23225fd924b723514e8bc5ff54d228e" name="ac23225fd924b723514e8bc5ff54d228e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23225fd924b723514e8bc5ff54d228e">&#9670;&#160;</a></span>inputNameDialog</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::CustomConfigModalSettings::inputNameDialog = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If false, inputName is used (if inputName is nullptr this option is not used) </p>
+
+</div>
+</div>
 <a id="ac6eb89011818ae44b18a521011c7ba02" name="ac6eb89011818ae44b18a521011c7ba02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6eb89011818ae44b18a521011c7ba02">&#9670;&#160;</a></span>onSave</h2>
 
@@ -285,6 +307,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Callback that is called when save is requested-&gt;returns true if file saved successfully (to close modal) </p>
+
+</div>
+</div>
+<a id="a9ac324551327f5c00a9ba0ac4df87360" name="a9ac324551327f5c00a9ba0ac4df87360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac324551327f5c00a9ba0ac4df87360">&#9670;&#160;</a></span>triggerSave</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::CustomConfigModalSettings::triggerSave = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true - opens modal in this frame, or saves if (<code>!inputNameDialog</code> &amp;&amp; inputName) </p>
 
 </div>
 </div>
