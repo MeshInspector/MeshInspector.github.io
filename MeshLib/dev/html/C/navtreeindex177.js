@@ -1,5 +1,16 @@
 var NAVTREEINDEX177 =
 {
+"structMR__Vector3i.html#a869abe23626ddb85ec4cdbb6e36dcad6":[6,2,0,0,59,1],
+"structMR__Vector3i64.html":[6,2,0,0,60],
+"structMR__Vector3i64.html#a2a21348d9f523bcf60da0d62bd22f004":[6,2,0,0,60,1],
+"structMR__Vector3i64.html#abaeac2f834c2e396c93ff632425f1793":[6,2,0,0,60,2],
+"structMR__Vector3i64.html#ad1b8b44ca450efc63fda75d49900e4dd":[6,2,0,0,60,0],
+"structMR__Vector4b.html":[6,2,0,0,61],
+"structMR__Vector4b.html#a8daf4e8b03549e8e3a8c44c45993cb10":[6,2,0,0,61,2],
+"structMR__Vector4b.html#aa9b46dc5ae881a36ef121538b058ebc2":[6,2,0,0,61,3],
+"structMR__Vector4b.html#aad79dd83ea202ee78d95064303aa1d5b":[6,2,0,0,61,0],
+"structMR__Vector4b.html#ae31f3b34b3e1418996cbcd2de07609aa":[6,2,0,0,61,1],
+"structMR__Vector4d.html":[6,2,0,0,62],
 "structMR__Vector4d.html#a345cd398420f0ee5decaaf48a4504e96":[6,2,0,0,62,1],
 "structMR__Vector4d.html#a407ed198701596094a984d27457f2635":[6,2,0,0,62,3],
 "structMR__Vector4d.html#a779f0839be7daf9cc1769449648b1bdb":[6,2,0,0,62,2],
