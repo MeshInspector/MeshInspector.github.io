@@ -933,7 +933,6 @@ var hierarchy =
     [ "mrmeshpy.VoxelsLoad.RawParameters", "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html", null ],
     [ "mrmeshpy.RawTiffOutput", "classmrmeshpy_1_1RawTiffOutput.html", null ],
     [ "mrmeshpy.FindDisorientationParams.RayMode", "classmrmeshpy_1_1FindDisorientationParams_1_1RayMode.html", null ],
-    [ "mrmeshpy.RayOrigin_float", "classmrmeshpy_1_1RayOrigin__float.html", null ],
     [ "mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty.ReachedVert", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html", null ],
     [ "mrmeshpy.EdgePathsBuilderT_TrivialMetricToPenalty.ReachedVert", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html", null ],
     [ "mrmeshpy.RebuildMeshSettings", "classmrmeshpy_1_1RebuildMeshSettings.html", null ],
