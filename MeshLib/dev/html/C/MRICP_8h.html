@@ -194,7 +194,6 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:ace5b832d6f3a8b5a7c89e1f9a0775595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1NumSum.html">MR::NumSum</a></code>.  <br /></td></tr>
 <tr class="separator:ace5b832d6f3a8b5a7c89e1f9a0775595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4db36c3c358c10eb3421215dfaf0cab" id="r_af4db36c3c358c10eb3421215dfaf0cab"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a></td></tr>
-<tr class="memdesc:af4db36c3c358c10eb3421215dfaf0cab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code>.  <br /></td></tr>
 <tr class="separator:af4db36c3c358c10eb3421215dfaf0cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68b13ed89b0d944050c3eac8f0caea9b" id="r_a68b13ed89b0d944050c3eac8f0caea9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a></td></tr>
 <tr class="separator:a68b13ed89b0d944050c3eac8f0caea9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -712,8 +711,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code>. </p>
+<p>parameters of ICP algorithm Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code>. </p>
 
 </div>
 </div>
@@ -2705,7 +2703,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iterations without improvements Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>badIterStopCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>badIterStopCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2795,7 +2793,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this vector is not zero then rotation is allowed relative to this axis only Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>fixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>fixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2813,7 +2811,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds only translation. Rotation part is identity matrix Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>icpMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>icpMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2831,7 +2829,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>iterLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>iterLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2849,7 +2847,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The method how to update transformation from point pairs Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The method how to update transformation from point pairs, see description of each option in ICPMethod Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2867,7 +2865,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>a pair of points is formed only if both points in the pair are mutually closest (reciprocity test passed) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>mutualClosest</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>mutualClosest</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2903,7 +2901,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Scaling during one iteration of PointToPlane will be limited by this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>p2plScaleLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>p2plScaleLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2921,7 +2919,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iterations without improvements Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>badIterStopCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>badIterStopCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3011,7 +3009,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this vector is not zero then rotation is allowed relative to this axis only Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>fixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>fixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3029,7 +3027,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds only translation. Rotation part is identity matrix Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>icpMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>icpMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3047,7 +3045,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>iterLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>iterLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3065,7 +3063,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The method how to update transformation from point pairs Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The method how to update transformation from point pairs, see description of each option in ICPMethod Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3083,7 +3081,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>a pair of points is formed only if both points in the pair are mutually closest (reciprocity test passed) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>mutualClosest</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>mutualClosest</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3119,7 +3117,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Scaling during one iteration of PointToPlane will be limited by this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>p2plScaleLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>p2plScaleLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3187,7 +3185,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iterations without improvements Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>badIterStopCount</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>badIterStopCount</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3297,7 +3295,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this vector is not zero then rotation is allowed relative to this axis only Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>fixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>fixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3319,7 +3317,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds only translation. Rotation part is identity matrix Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>icpMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>icpMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3341,7 +3339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>iterLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>iterLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3363,7 +3361,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The method how to update transformation from point pairs Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>The method how to update transformation from point pairs, see description of each option in ICPMethod Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3385,7 +3383,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>a pair of points is formed only if both points in the pair are mutually closest (reciprocity test passed) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>mutualClosest</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>mutualClosest</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3429,7 +3427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Scaling during one iteration of PointToPlane will be limited by this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>p2plScaleLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></code> named <code>p2plScaleLimit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
