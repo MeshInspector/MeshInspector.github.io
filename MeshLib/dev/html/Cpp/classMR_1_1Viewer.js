@@ -46,6 +46,7 @@ var classMR_1_1Viewer =
     [ "erase_viewport", "classMR_1_1Viewer.html#a32e4d503565b27c8a552abf2e49aed15", null ],
     [ "fitBoxViewport", "classMR_1_1Viewer.html#a359408b2941b393d87a609d610347c78", null ],
     [ "fitDataViewport", "classMR_1_1Viewer.html#a0abf7c7fdb0f51651be12f67f1aea11c", null ],
+    [ "forceSwapOnFrame", "classMR_1_1Viewer.html#a14e72114dc36666570c97b24914df52e", null ],
     [ "getDepthPeelNumPasses", "classMR_1_1Viewer.html#ae9101e95512bcb82d2136d5b68150cd5", null ],
     [ "getEventsCount", "classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc", null ],
     [ "getFPS", "classMR_1_1Viewer.html#a903a5dd99309117aa93d95c04b20d5bf", null ],

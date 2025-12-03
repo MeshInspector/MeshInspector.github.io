@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,279,2,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,260,2,2],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,282],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,263],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,282,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,1,7,1,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,1,7,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,1,0,1,16,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,2,0,1,7,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[6,0,1,0,1,16,2,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,1,0,1,16,2,1]
 };
