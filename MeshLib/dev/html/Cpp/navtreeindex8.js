@@ -200,10 +200,11 @@ var NAVTREEINDEX8 =
 "MRMeshThickness_8h.html#afd74f9f75fe9d97b4aa208e3fa498301":[6,0,3,0,0,1,4,229,7],
 "MRMeshThickness_8h_source.html":[6,0,3,0,0,1,4,229],
 "MRMeshToDistanceVolume_8h.html":[6,0,3,0,0,1,12,13],
-"MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[6,0,3,0,0,1,12,13,2],
-"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[6,0,3,0,0,1,12,13,4],
-"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,1,12,13,3],
-"MRMeshToDistanceVolume_8h.html#a8588d03e436a418a22bb66f0f389f1ad":[6,0,3,0,0,1,12,13,5],
+"MRMeshToDistanceVolume_8h.html#a0b9ea4d2768e4899763f4545ebdd2bcb":[6,0,3,0,0,1,12,13,6],
+"MRMeshToDistanceVolume_8h.html#a150c8492a3dc820bde5db5249c54ba5d":[6,0,3,0,0,1,12,13,4],
+"MRMeshToDistanceVolume_8h.html#a55971324aa47ba1d36d8e64dbd6b8ebc":[6,0,3,0,0,1,12,13,3],
+"MRMeshToDistanceVolume_8h.html#a7cfd6d2c7fdde75ec5577e2e10511787":[6,0,3,0,0,1,12,13,5],
+"MRMeshToDistanceVolume_8h.html#aae0bf6d4703f88d08bb65aa94ccc1934":[6,0,3,0,0,1,12,13,7],
 "MRMeshToDistanceVolume_8h_source.html":[6,0,3,0,0,1,12,13],
 "MRMeshTopologyDiff_8h.html":[6,0,3,0,0,1,4,232],
 "MRMeshTopologyDiff_8h_source.html":[6,0,3,0,0,1,4,232],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRConvexHull_8h_source.html":[6,0,3,0,0,1,4,73],
 "MRMesh_2MRCube_8h.html":[6,0,3,0,0,1,4,74],
 "MRMesh_2MRCube_8h.html#a1571f99defeafc3a60cd29ea066e44f6":[6,0,3,0,0,1,4,74,3],
-"MRMesh_2MRCube_8h.html#a34cf31e5bb655c7594410751730ae87e":[6,0,3,0,0,1,4,74,0],
-"MRMesh_2MRCube_8h.html#a7aafa7e9ee96cb3f5465ee3765aa9165":[6,0,3,0,0,1,4,74,2]
+"MRMesh_2MRCube_8h.html#a34cf31e5bb655c7594410751730ae87e":[6,0,3,0,0,1,4,74,0]
 };

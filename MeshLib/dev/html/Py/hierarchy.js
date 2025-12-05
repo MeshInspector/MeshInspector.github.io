@@ -164,6 +164,7 @@ var hierarchy =
     [ "mrmeshpy.char_output", "classmrmeshpy_1_1char__output.html", null ],
     [ "mrmeshpy.Chunk", "classmrmeshpy_1_1Chunk.html", null ],
     [ "mrmeshpy.ChunkIterator", "classmrmeshpy_1_1ChunkIterator.html", null ],
+    [ "mrmeshpy.CloseToMeshVolumeParams", "classmrmeshpy_1_1CloseToMeshVolumeParams.html", null ],
     [ "mrmeshpy.CloudPartMapping", "classmrmeshpy_1_1CloudPartMapping.html", null ],
     [ "mrmeshpy.CmpOld", "classmrmeshpy_1_1CmpOld.html", null ],
     [ "mrmeshpy.CNCMachineSettings", "classmrmeshpy_1_1CNCMachineSettings.html", null ],

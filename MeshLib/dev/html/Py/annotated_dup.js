@@ -151,6 +151,7 @@ var annotated_dup =
       [ "Chunk", "classmrmeshpy_1_1Chunk.html", "classmrmeshpy_1_1Chunk" ],
       [ "ChunkIterator", "classmrmeshpy_1_1ChunkIterator.html", "classmrmeshpy_1_1ChunkIterator" ],
       [ "CircleObject", "classmrmeshpy_1_1CircleObject.html", "classmrmeshpy_1_1CircleObject" ],
+      [ "CloseToMeshVolumeParams", "classmrmeshpy_1_1CloseToMeshVolumeParams.html", "classmrmeshpy_1_1CloseToMeshVolumeParams" ],
       [ "CloudPartMapping", "classmrmeshpy_1_1CloudPartMapping.html", "classmrmeshpy_1_1CloudPartMapping" ],
       [ "CmpOld", "classmrmeshpy_1_1CmpOld.html", "classmrmeshpy_1_1CmpOld" ],
       [ "CNCMachineSettings", "classmrmeshpy_1_1CNCMachineSettings.html", "classmrmeshpy_1_1CNCMachineSettings" ],

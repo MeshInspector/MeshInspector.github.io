@@ -1,8 +1,9 @@
 var NAVTREEINDEX55 =
 {
+"conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,1,0,1,43,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,1,0,1,43,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,43,0,1],
-"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,858],
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,859],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,1,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,1,12],
 "dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[6,0,0,1,46],
 "group__AABBTreeGroup.html#ga88ebd671d617fbbd4f4e5dd2688c50a8":[6,0,0,1,83],
 "group__AABBTreeGroup.html#ga8b2db465de4ef2df4f0f85fa142a612f":[6,0,0,1,126],
-"group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283":[6,0,0,1,44],
-"group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45":[6,0,0,1,58]
+"group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283":[6,0,0,1,44]
 };

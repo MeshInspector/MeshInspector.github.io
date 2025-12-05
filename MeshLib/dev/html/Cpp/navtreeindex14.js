@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRRibbonRegisterItem_8h_source.html":[6,0,3,0,0,1,11,99],
 "MRRibbonSceneButtons_8h.html":[6,0,3,0,0,1,0,2,2],
 "MRRibbonSceneButtons_8h_source.html":[6,0,3,0,0,1,0,2,2],
 "MRRibbonSceneObjectsListDrawer_8h.html":[6,0,3,0,0,1,11,100],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRStep_8h.html":[6,0,3,0,0,1,3,10],
 "MRStep_8h.html#a18cc94bfc1baa02c861e6023774fcd8b":[6,0,3,0,0,1,3,10,3],
 "MRStep_8h.html#abbf7faeb36062c71f04bafb9137d97bf":[6,0,3,0,0,1,3,10,2],
-"MRStep_8h.html#abe5065ffde4d1425331b865265807b7e":[6,0,3,0,0,1,3,10,0],
-"MRStep_8h.html#adad8cf91a6a24357a4abdeffc053e6cf":[6,0,3,0,0,1,3,10,1]
+"MRStep_8h.html#abe5065ffde4d1425331b865265807b7e":[6,0,3,0,0,1,3,10,0]
 };

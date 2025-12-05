@@ -347,6 +347,7 @@ var annotated_dup =
       [ "Chunk", "structMR_1_1Chunk.html", "structMR_1_1Chunk" ],
       [ "ChunkIterator", "structMR_1_1ChunkIterator.html", "structMR_1_1ChunkIterator" ],
       [ "CircleObject", "classMR_1_1CircleObject.html", "classMR_1_1CircleObject" ],
+      [ "CloseToMeshVolumeParams", "structMR_1_1CloseToMeshVolumeParams.html", "structMR_1_1CloseToMeshVolumeParams" ],
       [ "CloudPartMapping", "structMR_1_1CloudPartMapping.html", "structMR_1_1CloudPartMapping" ],
       [ "CmpOld", "structMR_1_1CmpOld.html", null ],
       [ "CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", "classMR_1_1CNCMachineSettings" ],

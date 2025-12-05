@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"MRUnitInfo_8h.html#af380c745631672883c31b1875697b2e5":[6,0,3,0,0,1,4,402,16],
 "MRUnitInfo_8h.html#af380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f":[6,0,3,0,0,1,4,402,16,0],
 "MRUnitInfo_8h.html#af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9":[6,0,3,0,0,1,4,402,16,1],
 "MRUnitInfo_8h.html#af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,1,4,402,16,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "MRVoxels_2MRVDBConversions_8h.html#a8c3054d7ec46286f79367b0f93ffddb0":[6,0,3,0,0,1,12,29,16],
 "MRVoxels_2MRVDBConversions_8h.html#a928996b8ccf0ededf4666de67cedde79":[6,0,3,0,0,1,12,29,4],
 "MRVoxels_2MRVDBConversions_8h.html#aa2303df423aaea1a91ce570293117d37":[6,0,3,0,0,1,12,29,15],
-"MRVoxels_2MRVDBConversions_8h.html#ac79aa48c96d4b6c3a46dde9e1234e3db":[6,0,3,0,0,1,12,29,7],
-"MRVoxels_2MRVDBConversions_8h.html#ad8e49582fe849014967a8baf003fd27b":[6,0,3,0,0,1,12,29,8]
+"MRVoxels_2MRVDBConversions_8h.html#ac79aa48c96d4b6c3a46dde9e1234e3db":[6,0,3,0,0,1,12,29,7]
 };
