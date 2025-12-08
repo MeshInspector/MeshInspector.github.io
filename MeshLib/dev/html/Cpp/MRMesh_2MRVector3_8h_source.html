@@ -399,8 +399,8 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>{</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    std::pair&lt;Vector3&lt;T&gt;, Vector3&lt;T&gt;&gt; res;</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    <span class="keyword">auto</span> c1 = furthestBasisVector();</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    res.first  = cross( *<span class="keyword">this</span>, c1 ).normalized();</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    res.second = cross( *<span class="keyword">this</span>, res.first ).normalized();</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    res.first  = cross( *<span class="keyword">this</span>, c1 ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3d.html#a001fcfe2a6fe8b48376f856aef5bf50f">normalized</a>();</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    res.second = cross( *<span class="keyword">this</span>, res.first ).<a class="code hl_functionRef" href="../Py/classmrmeshpy_1_1Vector3d.html#a001fcfe2a6fe8b48376f856aef5bf50f">normalized</a>();</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keywordflow">return</span> res;</div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>}</div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
@@ -460,6 +460,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRObjectDimensionsEnum_8h_html_af9d495c1655d813d553030485d00fea7"><div class="ttname"><a href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a></div><div class="ttdeci">length</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:14</div></div>
 <div class="ttc" id="aMRUnsigned_8h_html"><div class="ttname"><a href="MRUnsigned_8h.html">MRUnsigned.h</a></div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1Vector3d_html_a001fcfe2a6fe8b48376f856aef5bf50f"><div class="ttname"><a href="../Py/classmrmeshpy_1_1Vector3d.html#a001fcfe2a6fe8b48376f856aef5bf50f">mrmeshpy::Vector3d::normalized</a></div><div class="ttdeci">Vector3d normalized(self)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga130a7b2de56f57ba4b13111c6e3a31ef"><div class="ttname"><a href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">MR::begin</a></div><div class="ttdeci">MR_BIND_IGNORE auto begin(const BitSet &amp;a)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:376</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gab900ba901f90bfe11c4580814af4fbf6"><div class="ttname"><a href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">MR::end</a></div><div class="ttdeci">MR_BIND_IGNORE auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:378</div></div>
 <div class="ttc" id="anamespaceMR_1_1Unsigned_html_a297e05c1691001d7ce0261fa2e9c3dc4"><div class="ttname"><a href="namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4">MR::Unsigned::abs</a></div><div class="ttdeci">constexpr T abs(T value)</div><div class="ttdef"><b>Definition</b> MRUnsigned.h:18</div></div>

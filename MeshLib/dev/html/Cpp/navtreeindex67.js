@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624":[6,0,1,0,1,6,0,3],
+"namespaceMR_1_1Features_1_1Traits.html":[6,0,1,0,1,6,1],
 "namespaceMR_1_1FileDialog.html":[6,0,1,0,1,7],
 "namespaceMR_1_1FileDialog.html#a248125cac77c6f77434ba3bb583e81e6":[6,0,1,0,1,7,1],
 "namespaceMR_1_1FileDialog.html#a6df5d2ea1db6a7b00a9ed783f8ff4627":[6,0,1,0,1,7,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[6,0,1,0,1,40,1],
 "namespaceMR_1_1StyleConsts.html":[6,0,1,0,1,41],
 "namespaceMR_1_1StyleConsts.html#a4d6326d10565774441d1db3512941c0d":[6,0,1,0,1,41,4],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,41,0],
-"namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,1,41,0,0],
-"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,41,1]
+"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,1,0,1,41,0]
 };

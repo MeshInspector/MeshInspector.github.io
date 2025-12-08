@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRProgressBar_8h.html#ae692760ee83b399be6653c81468172ea":[6,0,3,0,0,1,11,68,19],
 "MRProgressBar_8h.html#ae694b1e02bb163d667aaca266f472606":[6,0,3,0,0,1,11,68,16],
 "MRProgressBar_8h.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,3,0,0,1,11,68,2],
 "MRProgressBar_8h_source.html":[6,0,3,0,0,1,11,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRRibbonNotification_8h.html#ad2f3bc10761d952926925127eb80d902a5ef0d4d135d5f2814b07feaf13fda653":[6,0,3,0,0,1,11,98,4,1],
 "MRRibbonNotification_8h.html#ad2f3bc10761d952926925127eb80d902aa8594fd8be60c94e1a2607fa0fa50fae":[6,0,3,0,0,1,11,98,4,0],
 "MRRibbonNotification_8h_source.html":[6,0,3,0,0,1,11,98],
-"MRRibbonRegisterItem_8h.html":[6,0,3,0,0,1,11,99],
-"MRRibbonRegisterItem_8h.html#ad1709955819b9d2eb38aa06ebd34272c":[6,0,3,0,0,1,11,99,2]
+"MRRibbonRegisterItem_8h.html":[6,0,3,0,0,1,11,99]
 };

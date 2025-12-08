@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,2,0,1,298,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,1,0,1,317,0,2],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,2,0,1,298,0,2],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,1,317,0,0],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,1,298,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1LineInterpolationParams.html":[6,0,2,0,1,338],
 "structMR_1_1LineInterpolationParams.html#a00b2d591ecca68af7d6e8cbd8d119b05":[6,0,1,0,1,357,1],
 "structMR_1_1LineInterpolationParams.html#a00b2d591ecca68af7d6e8cbd8d119b05":[6,0,2,0,1,338,1],
-"structMR_1_1LineInterpolationParams.html#a56f66f6964e1a35b9ad98d4ea792c248":[6,0,1,0,1,357,0],
-"structMR_1_1LineInterpolationParams.html#a56f66f6964e1a35b9ad98d4ea792c248":[6,0,2,0,1,338,0],
-"structMR_1_1LineInterpolationParams.html#a588b14865af06878e86ac78f0f16a5e2":[6,0,1,0,1,357,2]
+"structMR_1_1LineInterpolationParams.html#a56f66f6964e1a35b9ad98d4ea792c248":[6,0,1,0,1,357,0]
 };

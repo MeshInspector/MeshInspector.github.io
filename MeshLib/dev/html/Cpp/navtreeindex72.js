@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,2,0,1,68,7],
+"structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[6,0,1,0,1,87,2],
 "structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[6,0,2,0,1,68,2],
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,1,0,1,87,5],
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,2,0,1,68,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ComputeSweptVolumeParameters.html#a4cbfdf9b6dd57369b2f808629eb3a4a4":[6,0,2,0,1,139,1],
 "structMR_1_1ComputeSweptVolumeParameters.html#a710c3b728313851d1a392af1f9514232":[6,0,1,0,1,158,0],
 "structMR_1_1ComputeSweptVolumeParameters.html#a710c3b728313851d1a392af1f9514232":[6,0,2,0,1,139,0],
-"structMR_1_1ComputeSweptVolumeParameters.html#aa31ab5fc3b9d49a142a4879771d70f71":[6,0,1,0,1,158,3],
-"structMR_1_1ComputeSweptVolumeParameters.html#aa31ab5fc3b9d49a142a4879771d70f71":[6,0,2,0,1,139,3],
-"structMR_1_1Cone3ApproximationParams.html":[6,0,1,0,1,161]
+"structMR_1_1ComputeSweptVolumeParameters.html#aa31ab5fc3b9d49a142a4879771d70f71":[6,0,1,0,1,158,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1SceneStateExactCheck.html#a1e1b5cbd3ebad0cb3495f2ebb2100b84":[6,0,2,0,1,653,0],
 "classMR_1_1SceneStateExactCheck.html#abcdaa2e32bc223876a3043e83eb591e8":[6,0,1,0,1,672,1],
 "classMR_1_1SceneStateExactCheck.html#abcdaa2e32bc223876a3043e83eb591e8":[6,0,2,0,1,653,1],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html":[6,0,1,0,1,673],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,1,0,1,709,1],
 "classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,2,0,1,690,1],
 "classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,1,0,1,709,4],
-"classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,2,0,1,690,4],
-"classMR_1_1SparsePolynomial.html":[6,0,1,0,1,714]
+"classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,2,0,1,690,4]
 };

@@ -7,6 +7,7 @@ var structMR_1_1PlyLoadParams =
     [ "faceColors", "structMR_1_1PlyLoadParams.html#adfaa1da3233f2b31bd69d1841e863162", null ],
     [ "normals", "structMR_1_1PlyLoadParams.html#a128f81d674912484655b1bf2a62ae58f", null ],
     [ "texture", "structMR_1_1PlyLoadParams.html#a0da01188c983c86875fdd5d0b6471fa5", null ],
+    [ "triCornerUvCoords", "structMR_1_1PlyLoadParams.html#a2e08ddf614c8b881ce551b6810228501", null ],
     [ "tris", "structMR_1_1PlyLoadParams.html#ab60b055cffae98b1ce1a1a4466cfe633", null ],
     [ "uvCoords", "structMR_1_1PlyLoadParams.html#ad25eed18572d645b917be81829d73a71", null ]
 ];

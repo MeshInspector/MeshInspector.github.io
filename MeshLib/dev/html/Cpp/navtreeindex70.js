@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMRMeshAddMeshPartParameters.html#add36fe79b1de2d96387c287c602d09bf":[6,0,2,0,32,0],
+"structMRMeshAddMeshPartParameters.html#ade4034c914ba418f873d0415d9c5f618":[6,0,2,0,32,2],
 "structMRMeshComponentsMap.html":[6,0,2,0,33],
 "structMRMeshComponentsMap.html#a0c429d62c5f1e1b3d2b3a7c7e5bc4bb6":[6,0,2,0,33,1],
 "structMRMeshComponentsMap.html#a3467e2d4e586656d221e09cd01416c20":[6,0,2,0,33,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1AncillaryLabel.html#aa817fb0fcef0118aa48198fc9fdff44a":[6,0,2,0,1,43,9],
 "structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,1,0,1,62,10],
 "structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,2,0,1,43,10],
-"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,1,0,1,62,3],
-"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,2,0,1,43,3],
-"structMR_1_1AncillaryLabel.html#adc7088401a069525f6737c1000f4dbfa":[6,0,1,0,1,62,7]
+"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,1,0,1,62,3]
 };
