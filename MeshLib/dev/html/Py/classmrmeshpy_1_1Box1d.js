@@ -8,6 +8,8 @@ var classmrmeshpy_1_1Box1d =
     [ "__getitem__", "classmrmeshpy_1_1Box1d.html#a0855ad67c0830a87622dc799a0afdbe8", null ],
     [ "__ne__", "classmrmeshpy_1_1Box1d.html#a10d7a507c924e8c3547b20273934e492", null ],
     [ "__repr__", "classmrmeshpy_1_1Box1d.html#a3b465378e85d3a64d90624b320ec0e2e", null ],
+    [ "__rlshift__", "classmrmeshpy_1_1Box1d.html#a38b48f5e5eef4be9786156e1a56fb6d6", null ],
+    [ "__rrshift__", "classmrmeshpy_1_1Box1d.html#a4a8cc248448b0c1cb7c7abf0e1dbf8d4", null ],
     [ "__setitem__", "classmrmeshpy_1_1Box1d.html#a7cc5d8f01280c4785205d2baad46dee4", null ],
     [ "center", "classmrmeshpy_1_1Box1d.html#a7753fa96d0b890e895c48890983465ea", null ],
     [ "contains", "classmrmeshpy_1_1Box1d.html#a447a444884714109d329393082cd3cf0", null ],

@@ -7,6 +7,8 @@ var classmrmeshpy_1_1TriPointd =
     [ "__init__", "classmrmeshpy_1_1TriPointd.html#ae1fb0b7489205576ab93eb3a68d427ae", null ],
     [ "__eq__", "classmrmeshpy_1_1TriPointd.html#a39013dbdb3e4e0304e1315f5e19a273e", null ],
     [ "__repr__", "classmrmeshpy_1_1TriPointd.html#ae863aea813a66f9d1b76c3a58fdc4618", null ],
+    [ "__rlshift__", "classmrmeshpy_1_1TriPointd.html#a0b6c5bfc6409d4305172bab0e696e3c9", null ],
+    [ "__rrshift__", "classmrmeshpy_1_1TriPointd.html#a29a28587075ef44911761f4e676ccbcf", null ],
     [ "a", "classmrmeshpy_1_1TriPointd.html#a430ddea41d455e7e3c07ffa07ce5f789", null ],
     [ "a", "classmrmeshpy_1_1TriPointd.html#a52d3737b7cf4a8295032f653c0e1871b", null ],
     [ "b", "classmrmeshpy_1_1TriPointd.html#aebe8d67c0c23d5a67acfa5f0523ee6f0", null ],

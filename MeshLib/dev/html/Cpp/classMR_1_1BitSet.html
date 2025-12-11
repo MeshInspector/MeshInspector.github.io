@@ -150,6 +150,7 @@ $(function(){initNavTree('classMR_1_1BitSet.html',''); initResizable(true); });
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1BitSet-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::BitSet Class Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
@@ -317,6 +318,13 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a1f620464c1c261bfb83432e57b5312a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af09b9c83f7a055fa6ea95e83b7fee246" id="r_af09b9c83f7a055fa6ea95e83b7fee246"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af09b9c83f7a055fa6ea95e83b7fee246">npos</a> = (size_t)-1</td></tr>
 <tr class="separator:af09b9c83f7a055fa6ea95e83b7fee246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a9bb3254a2ecfac1b55c9a26b28043e98" id="r_a9bb3254a2ecfac1b55c9a26b28043e98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> friend std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bb3254a2ecfac1b55c9a26b28043e98">operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
+<tr class="separator:a9bb3254a2ecfac1b55c9a26b28043e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a41de2cd0ce5e0213dfff7731981323" id="r_a8a41de2cd0ce5e0213dfff7731981323"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> friend std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a41de2cd0ce5e0213dfff7731981323">operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
+<tr class="separator:a8a41de2cd0ce5e0213dfff7731981323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <a class="el" href="#a9bf0ff93a8acb7497c308b9406d035d3">size()</a> considered off during testing </p>
@@ -1661,6 +1669,65 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="a9bb3254a2ecfac1b55c9a26b28043e98" name="a9bb3254a2ecfac1b55c9a26b28043e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb3254a2ecfac1b55c9a26b28043e98">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> friend std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a41de2cd0ce5e0213dfff7731981323" name="a8a41de2cd0ce5e0213dfff7731981323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a41de2cd0ce5e0213dfff7731981323">&#9670;&#160;</a></span>operator&gt;&gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> friend std::istream &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

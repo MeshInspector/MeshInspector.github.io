@@ -364,7 +364,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRSphere.h", "MRSphere_8h.html", null ],
     [ "MRSphereObject.h", "MRSphereObject_8h.html", null ],
     [ "MRStacktrace.h", "MRStacktrace_8h.html", "MRStacktrace_8h" ],
-    [ "MRStreamOperators.h", "MRStreamOperators_8h.html", "MRStreamOperators_8h" ],
     [ "MRString.h", "MRMesh_2MRString_8h.html", "MRMesh_2MRString_8h" ],
     [ "MRStringConvert.h", "MRStringConvert_8h.html", "MRStringConvert_8h" ],
     [ "MRSubfeatures.h", "MRSubfeatures_8h.html", "MRSubfeatures_8h" ],

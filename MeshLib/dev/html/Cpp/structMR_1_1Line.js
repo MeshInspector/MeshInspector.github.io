@@ -10,6 +10,8 @@ var structMR_1_1Line =
     [ "operator+", "structMR_1_1Line.html#a2f882c3172da6745aba3d98e89629ae9", null ],
     [ "operator-", "structMR_1_1Line.html#a3f4a448699ee8bd5922285794b4d64df", null ],
     [ "project", "structMR_1_1Line.html#ad80390a7c278a694e5d5be75f7679025", null ],
+    [ "operator<<", "structMR_1_1Line.html#a5dc2100d7d78aa2c5c2326d5f29e3e07", null ],
+    [ "operator>>", "structMR_1_1Line.html#a09331d1e71d783057a83633c1da58c96", null ],
     [ "transformed", "structMR_1_1Line.html#ac37f58d4c89d15f57d79214d25d5bf27", null ],
     [ "d", "structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b", null ],
     [ "p", "structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a", null ]

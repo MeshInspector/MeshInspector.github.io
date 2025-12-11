@@ -23,7 +23,9 @@ var group__MathGroup =
       [ "operator()", "structMR_1_1AffineXf.html#a5be41c92ebfbb340e9651f0efd210fcb", null ],
       [ "operator!=", "structMR_1_1AffineXf.html#a186afe85bf17b3cb6a52b55f5af080bc", null ],
       [ "operator*", "structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595", null ],
+      [ "operator<<", "structMR_1_1AffineXf.html#afe3a9bf9c2593c948de620a660aa6ccd", null ],
       [ "operator==", "structMR_1_1AffineXf.html#a55d01857e172a9cbf746957013009926", null ],
+      [ "operator>>", "structMR_1_1AffineXf.html#a7220240eb64c738d214bd96bbe993b7d", null ],
       [ "A", "structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca", null ],
       [ "b", "structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c", null ]
     ] ],
@@ -68,6 +70,8 @@ var group__MathGroup =
       [ "operator+", "structMR_1_1Line.html#a2f882c3172da6745aba3d98e89629ae9", null ],
       [ "operator-", "structMR_1_1Line.html#a3f4a448699ee8bd5922285794b4d64df", null ],
       [ "project", "structMR_1_1Line.html#ad80390a7c278a694e5d5be75f7679025", null ],
+      [ "operator<<", "structMR_1_1Line.html#a5dc2100d7d78aa2c5c2326d5f29e3e07", null ],
+      [ "operator>>", "structMR_1_1Line.html#a09331d1e71d783057a83633c1da58c96", null ],
       [ "transformed", "structMR_1_1Line.html#ac37f58d4c89d15f57d79214d25d5bf27", null ],
       [ "d", "structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b", null ],
       [ "p", "structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a", null ]
@@ -82,6 +86,8 @@ var group__MathGroup =
       [ "operator-", "structMR_1_1Plane3.html#ad931841bd9391994b3b9a9669c546b86", null ],
       [ "project", "structMR_1_1Plane3.html#a3c50c85a67a6ef9fa20e8e11efbd2ac2", null ],
       [ "invTransformed", "structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177", null ],
+      [ "operator<<", "structMR_1_1Plane3.html#a660d42a0a09a1477d3fbb1ac428188e0", null ],
+      [ "operator>>", "structMR_1_1Plane3.html#a84c56d25f3536d14b427958fe273b1d9", null ],
       [ "transformed", "structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5", null ],
       [ "d", "structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04", null ],
       [ "n", "structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63", null ]
@@ -173,6 +179,8 @@ var group__MathGroup =
       [ "lnext", "structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da", null ],
       [ "onEdge", "structMR_1_1TriPoint.html#a8cc175bbb2037eebe6e8f2ced01a4b10", null ],
       [ "operator==", "structMR_1_1TriPoint.html#aaebb5e3d0837bb5c59e39b23498ccaa2", null ],
+      [ "operator<<", "structMR_1_1TriPoint.html#a49b96d931ecbe6f88e3b838a6347d14e", null ],
+      [ "operator>>", "structMR_1_1TriPoint.html#aae0ca13e381c0da0a32ffd38d5f8c346", null ],
       [ "a", "structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69", null ],
       [ "b", "structMR_1_1TriPoint.html#a7ad9a3fd75d2c4414e75599a4eb0d497", null ]
     ] ],

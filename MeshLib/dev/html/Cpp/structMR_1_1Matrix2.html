@@ -260,6 +260,10 @@ Friends</h2></td></tr>
 <tr class="memitem:aa1d028c161bda0af27b269e858c73c62" id="r_aa1d028c161bda0af27b269e858c73c62"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d028c161bda0af27b269e858c73c62">operator*</a> (const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; decltype(<a class="el" href="#a3a21629633bf0e4bedadc69121c907ed">dot</a>(std::declval&lt; <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &gt;(), std::declval&lt; <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &gt;()))&gt;</td></tr>
 <tr class="memdesc:aa1d028c161bda0af27b269e858c73c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">product of two matrices  <br /></td></tr>
 <tr class="separator:aa1d028c161bda0af27b269e858c73c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa9f660c4939983d3efa165e87b844a" id="r_a3aa9f660c4939983d3efa165e87b844a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aa9f660c4939983d3efa165e87b844a">operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a> &amp;mat)</td></tr>
+<tr class="separator:a3aa9f660c4939983d3efa165e87b844a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6667bd48f67add4dbc41823562e9517" id="r_aa6667bd48f67add4dbc41823562e9517"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6667bd48f67add4dbc41823562e9517">operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a> &amp;mat)</td></tr>
+<tr class="separator:aa6667bd48f67add4dbc41823562e9517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="related" name="related"></a>
 Related Symbols</h2></td></tr>
@@ -1220,6 +1224,37 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a3aa9f660c4939983d3efa165e87b844a" name="a3aa9f660c4939983d3efa165e87b844a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aa9f660c4939983d3efa165e87b844a">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>mat</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a98cf431db6020f6d2758f7af02d503d5" name="a98cf431db6020f6d2758f7af02d503d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98cf431db6020f6d2758f7af02d503d5">&#9670;&#160;</a></span>operator==</h2>
 
@@ -1240,6 +1275,37 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6667bd48f67add4dbc41823562e9517" name="aa6667bd48f67add4dbc41823562e9517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6667bd48f67add4dbc41823562e9517">&#9670;&#160;</a></span>operator&gt;&gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>mat</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

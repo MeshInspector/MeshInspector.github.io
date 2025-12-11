@@ -149,6 +149,7 @@ $(function(){initNavTree('structMR_1_1TriPoint.html',''); initResizable(true); }
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="structMR_1_1TriPoint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::TriPoint&lt; T &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
 </div><!--header-->
@@ -205,6 +206,13 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a6ade05d6ba59ed946b54c792822949e4" id="r_a6ade05d6ba59ed946b54c792822949e4"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ade05d6ba59ed946b54c792822949e4">eps</a> = <a class="el" href="structMR_1_1SegmPoint.html">SegmPoint</a>&lt;T&gt;::eps</td></tr>
 <tr class="separator:a6ade05d6ba59ed946b54c792822949e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a49b96d931ecbe6f88e3b838a6347d14e" id="r_a49b96d931ecbe6f88e3b838a6347d14e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b96d931ecbe6f88e3b838a6347d14e">operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
+<tr class="separator:a49b96d931ecbe6f88e3b838a6347d14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0ca13e381c0da0a32ffd38d5f8c346" id="r_aae0ca13e381c0da0a32ffd38d5f8c346"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0ca13e381c0da0a32ffd38d5f8c346">operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
+<tr class="separator:aae0ca13e381c0da0a32ffd38d5f8c346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -551,6 +559,69 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if two points have equal (a,b) representation </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="a49b96d931ecbe6f88e3b838a6347d14e" name="a49b96d931ecbe6f88e3b838a6347d14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b96d931ecbe6f88e3b838a6347d14e">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tp</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae0ca13e381c0da0a32ffd38d5f8c346" name="aae0ca13e381c0da0a32ffd38d5f8c346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0ca13e381c0da0a32ffd38d5f8c346">&#9670;&#160;</a></span>operator&gt;&gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tp</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

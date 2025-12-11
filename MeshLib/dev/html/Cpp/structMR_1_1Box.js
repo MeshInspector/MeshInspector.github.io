@@ -32,6 +32,8 @@ var structMR_1_1Box =
     [ "size", "structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c", null ],
     [ "valid", "structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3", null ],
     [ "volume", "structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23", null ],
+    [ "operator<<", "structMR_1_1Box.html#a047eb0e28cab517e74255789df872504", null ],
+    [ "operator>>", "structMR_1_1Box.html#ad11edd7dcd9aece9bebc0a2c388015b5", null ],
     [ "max", "structMR_1_1Box.html#a493e21ced874aa010247428e109d524d", null ],
     [ "min", "structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda", null ]
 ];

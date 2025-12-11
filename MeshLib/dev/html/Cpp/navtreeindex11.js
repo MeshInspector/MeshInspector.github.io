@@ -1,6 +1,6 @@
 var NAVTREEINDEX11 =
 {
-"MRMesh_2MRVector_8h_source.html":[6,0,3,0,0,1,4,406],
+"MRMesh_2MRVector_8h_source.html":[6,0,3,0,0,1,4,405],
 "MRMesh_2config_8h.html":[6,0,3,0,0,1,4,0],
 "MRMesh_2config_8h_source.html":[6,0,3,0,0,1,4,0],
 "MRMeta_8h.html":[6,0,3,0,0,1,4,235],

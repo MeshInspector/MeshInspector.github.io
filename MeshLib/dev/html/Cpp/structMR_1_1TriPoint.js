@@ -11,6 +11,8 @@ var structMR_1_1TriPoint =
     [ "lnext", "structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da", null ],
     [ "onEdge", "structMR_1_1TriPoint.html#a8cc175bbb2037eebe6e8f2ced01a4b10", null ],
     [ "operator==", "structMR_1_1TriPoint.html#aaebb5e3d0837bb5c59e39b23498ccaa2", null ],
+    [ "operator<<", "structMR_1_1TriPoint.html#a49b96d931ecbe6f88e3b838a6347d14e", null ],
+    [ "operator>>", "structMR_1_1TriPoint.html#aae0ca13e381c0da0a32ffd38d5f8c346", null ],
     [ "a", "structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69", null ],
     [ "b", "structMR_1_1TriPoint.html#a7ad9a3fd75d2c4414e75599a4eb0d497", null ]
 ];

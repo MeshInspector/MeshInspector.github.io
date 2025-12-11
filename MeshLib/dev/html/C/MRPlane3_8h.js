@@ -2,6 +2,8 @@ var MRPlane3_8h =
 [
     [ "MR_Plane3d", "MRPlane3_8h.html#a47c990e52774bc8bd9e02d71ca3a353b", null ],
     [ "MR_Plane3f", "MRPlane3_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
+    [ "MR_std_istream", "MRPlane3_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
+    [ "MR_std_ostream", "MRPlane3_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_neg_MR_Plane3d", "MRPlane3_8h.html#a23a39c97fb89286ee4e334b32a2b166f", null ],
     [ "MR_neg_MR_Plane3f", "MRPlane3_8h.html#af20a73df7c02ef3c38aebd6d345b4c39", null ],
     [ "MR_Plane3d_AssignFromAnother", "MRPlane3_8h.html#a817a8e3ab69835026b97a7241170903f", null ],
@@ -46,5 +48,9 @@ var MRPlane3_8h =
     [ "MR_Plane3f_Set_d", "MRPlane3_8h.html#aebf371e9cf3ac5d10432968c68318502", null ],
     [ "MR_Plane3f_Set_n", "MRPlane3_8h.html#aca3dd1d71a77b47af1b41fb051154d9e", null ],
     [ "MR_pos_MR_Plane3d", "MRPlane3_8h.html#a03772356aa3a28c173be49ed2509fb5a", null ],
-    [ "MR_pos_MR_Plane3f", "MRPlane3_8h.html#a118c8760034ea30bebb058b1d1e94ee9", null ]
+    [ "MR_pos_MR_Plane3f", "MRPlane3_8h.html#a118c8760034ea30bebb058b1d1e94ee9", null ],
+    [ "MR_print_MR_Plane3d", "MRPlane3_8h.html#abfb9600c3a6c6aa2dc5d3047b5748dd3", null ],
+    [ "MR_print_MR_Plane3f", "MRPlane3_8h.html#ade87140c2d16a13db328a6cf4b2d4bdb", null ],
+    [ "MR_rshift_std_istream_MR_Plane3d", "MRPlane3_8h.html#a90197d672ee276d17bda2f729135ba1d", null ],
+    [ "MR_rshift_std_istream_MR_Plane3f", "MRPlane3_8h.html#a3f841c4f986b00ec83ca1e33289cf367", null ]
 ];

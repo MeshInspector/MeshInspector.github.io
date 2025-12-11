@@ -9,6 +9,8 @@ var classmrmeshpy_1_1Box3d =
     [ "__getitem__", "classmrmeshpy_1_1Box3d.html#a1eca384c25d6a8519d99e9d9fed7e212", null ],
     [ "__ne__", "classmrmeshpy_1_1Box3d.html#a1c1cb5a1261e01b13bb0e15c6fc9913a", null ],
     [ "__repr__", "classmrmeshpy_1_1Box3d.html#a726b4d5ff811d35aedb6d05456cb025a", null ],
+    [ "__rlshift__", "classmrmeshpy_1_1Box3d.html#a8651081a148c4d279eb89f11fbafe6ab", null ],
+    [ "__rrshift__", "classmrmeshpy_1_1Box3d.html#abc4a36bbd99b5ed45fbab267c78d4353", null ],
     [ "__setitem__", "classmrmeshpy_1_1Box3d.html#a14bcbfd2910d846aabeb893d73d8305a", null ],
     [ "center", "classmrmeshpy_1_1Box3d.html#adaab6084748bd617f206d7f65dd63301", null ],
     [ "contains", "classmrmeshpy_1_1Box3d.html#ac5d822dd9c4573c2c042f8e3d7abeb5e", null ],

@@ -34,7 +34,9 @@ var structMR_1_1Vector2 =
     [ "operator-=", "structMR_1_1Vector2.html#a2e63fb0714c8171732a8fa4493e0c5e1", null ],
     [ "operator/", "structMR_1_1Vector2.html#a7538b7a66163ad22feec74b78c40f5b5", null ],
     [ "operator/=", "structMR_1_1Vector2.html#a4f4e721384be597d0f5a0ff303e07c48", null ],
+    [ "operator<<", "structMR_1_1Vector2.html#af814c81714572ce6bb89483f32d274f1", null ],
     [ "operator==", "structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b", null ],
+    [ "operator>>", "structMR_1_1Vector2.html#a5dfc5e9acce45ac36a78ba8a1115af3a", null ],
     [ "sqr", "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517", null ],
     [ "x", "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c", null ],
     [ "y", "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8", null ]

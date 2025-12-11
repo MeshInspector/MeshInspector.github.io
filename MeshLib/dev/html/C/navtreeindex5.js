@@ -1,5 +1,15 @@
 var NAVTREEINDEX5 =
 {
+"MRBestFitPolynomial_8h.html#a6930c08fb38235d9ddaa92b0b26f8eb0":[6,2,1,0,0,0,1,21,11],
+"MRBestFitPolynomial_8h.html#a6980ea6afc4cec7c5cad37a1ad13f92c":[6,2,1,0,0,0,1,21,56],
+"MRBestFitPolynomial_8h.html#a6a60cec0042589b6c8029f172a6c18d7":[6,2,1,0,0,0,1,21,97],
+"MRBestFitPolynomial_8h.html#a6bc55a1bfe1dce464eebd2256af81c01":[6,2,1,0,0,0,1,21,180],
+"MRBestFitPolynomial_8h.html#a6c60066a2cdf02bf1d28bb62410d81fd":[6,2,1,0,0,0,1,21,38],
+"MRBestFitPolynomial_8h.html#a6e74912a927cc09feb8f7ee1a6c38c96":[6,2,1,0,0,0,1,21,137],
+"MRBestFitPolynomial_8h.html#a700ffb983c757aa198a33945a145f827":[6,2,1,0,0,0,1,21,87],
+"MRBestFitPolynomial_8h.html#a71e19634364521509760e0701f2011ec":[6,2,1,0,0,0,1,21,181],
+"MRBestFitPolynomial_8h.html#a750efd928903d3d96d4f55473e28a6f2":[6,2,1,0,0,0,1,21,85],
+"MRBestFitPolynomial_8h.html#a75a0f5f019467606df5641efb4266d3b":[6,2,1,0,0,0,1,21,90],
 "MRBestFitPolynomial_8h.html#a78f388730241d60b6c2a9bf1e502bcde":[6,2,1,0,0,0,1,21,153],
 "MRBestFitPolynomial_8h.html#a7943a1f8078ea81ac7cee00e79ed47f5":[6,2,1,0,0,0,1,21,42],
 "MRBestFitPolynomial_8h.html#a7ba531b5b22488e1cae04abbcee84194":[6,2,1,0,0,0,1,21,24],
@@ -239,15 +249,5 @@ var NAVTREEINDEX5 =
 "MRBezier_8h.html#ac4a10e82e1e3e9681490f58a219dc602":[6,2,1,0,0,0,1,23,14],
 "MRBezier_8h.html#ac97c493a60a27830e006c7a0d2416061":[6,2,1,0,0,0,1,23,6],
 "MRBezier_8h.html#ad4c0eac06bda36fdeb903bd9f2ed6d6c":[6,2,1,0,0,0,1,23,25],
-"MRBezier_8h.html#ad897c35896d0a703fc99a68dca4c855b":[6,2,1,0,0,0,1,23,46],
-"MRBezier_8h.html#ae85765834bc0044c009998ea5b013501":[6,2,1,0,0,0,1,23,17],
-"MRBezier_8h.html#ae89a25b1d7ad2456ec0e8960473e6945":[6,2,1,0,0,0,1,23,52],
-"MRBezier_8h.html#af66b0981288b67784c9ea4a77c83bdb2":[6,2,1,0,0,0,1,23,27],
-"MRBezier_8h.html#af97f6e0ac61c9d8865ae9ded2429e0e3":[6,2,1,0,0,0,1,23,37],
-"MRBezier_8h.html#afa931bde18e42e3fb7d34b4c491a3b09":[6,2,1,0,0,0,1,23,7],
-"MRBezier_8h.html#afce96f6938c846585f0c7df0c795bd79":[6,2,1,0,0,0,1,23,47],
-"MRBezier_8h.html#afe3286f3893adc7d6179b6a001e8dd58":[6,2,1,0,0,0,1,23,31],
-"MRBezier_8h.html#aff7835188e7ba3c96a545e08e794ee07":[6,2,1,0,0,0,1,23,16],
-"MRBezier_8h_source.html":[6,2,1,0,0,0,1,23],
-"MRBitSet_8h.html":[6,2,1,0,0,0,1,24]
+"MRBezier_8h.html#ad897c35896d0a703fc99a68dca4c855b":[6,2,1,0,0,0,1,23,46]
 };

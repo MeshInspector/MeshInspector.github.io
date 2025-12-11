@@ -8,6 +8,8 @@ var classmrmeshpy_1_1Plane3f =
     [ "__neg__", "classmrmeshpy_1_1Plane3f.html#ae8092e17748fd708e740282c54f2ca25", null ],
     [ "__pos__", "classmrmeshpy_1_1Plane3f.html#aa256114c5a513811c8569697bf2c23fd", null ],
     [ "__repr__", "classmrmeshpy_1_1Plane3f.html#a16d198463b6e0944a69f484be819152a", null ],
+    [ "__rlshift__", "classmrmeshpy_1_1Plane3f.html#a2c14fc491b9f1b713896666171e2b4bd", null ],
+    [ "__rrshift__", "classmrmeshpy_1_1Plane3f.html#a57cc77b48ebb7b8c908dbcd8609b7177", null ],
     [ "distance", "classmrmeshpy_1_1Plane3f.html#ae55b4f5adead4d5452f1edf94073036e", null ],
     [ "normalized", "classmrmeshpy_1_1Plane3f.html#a0e54b3230f2e6e30db5e69de1b534bb6", null ],
     [ "project", "classmrmeshpy_1_1Plane3f.html#af57439d0bf62a0729c6ca9ecd90e0767", null ]

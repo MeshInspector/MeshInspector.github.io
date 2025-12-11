@@ -8,6 +8,8 @@ var MRAffineXf_8h =
     [ "MR_AffineXf2f", "MRAffineXf_8h.html#a0a0645e84146720d27b2088d9d3dc1b8", null ],
     [ "MR_AffineXf3d", "MRAffineXf_8h.html#af1806312cd8f8c6825c10fcb27b69305", null ],
     [ "MR_AffineXf3f", "MRAffineXf_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
+    [ "MR_std_istream", "MRAffineXf_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
+    [ "MR_std_ostream", "MRAffineXf_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_AffineXf2d_call", "MRAffineXf_8h.html#a1ba81515e6649a673069a40940334b92", null ],
     [ "MR_AffineXf2d_Construct", "MRAffineXf_8h.html#adbbb07609802905ffec0fe92224176ab", null ],
     [ "MR_AffineXf2d_DefaultConstruct", "MRAffineXf_8h.html#af5e532959ced5b00311cd48ad0b12e7b", null ],
@@ -57,5 +59,13 @@ var MRAffineXf_8h =
     [ "MR_not_equal_MR_AffineXf2d", "MRAffineXf_8h.html#af5b45ee75150d788e09c47fe0fdb9a74", null ],
     [ "MR_not_equal_MR_AffineXf2f", "MRAffineXf_8h.html#ab3182358f80678aff03314f8e873e0c0", null ],
     [ "MR_not_equal_MR_AffineXf3d", "MRAffineXf_8h.html#aa34d48f03f22275ab24eb573777e74fd", null ],
-    [ "MR_not_equal_MR_AffineXf3f", "MRAffineXf_8h.html#afa3cff10ab5cdd6aa325171e25a5f918", null ]
+    [ "MR_not_equal_MR_AffineXf3f", "MRAffineXf_8h.html#afa3cff10ab5cdd6aa325171e25a5f918", null ],
+    [ "MR_print_MR_AffineXf2d", "MRAffineXf_8h.html#a382e94e60e17adc8f360c2acbe579bdd", null ],
+    [ "MR_print_MR_AffineXf2f", "MRAffineXf_8h.html#a747ac50c2cc14a7890f0ea8ad58c871a", null ],
+    [ "MR_print_MR_AffineXf3d", "MRAffineXf_8h.html#adbc66ceaef2adf7a2e1e388637cc9346", null ],
+    [ "MR_print_MR_AffineXf3f", "MRAffineXf_8h.html#a493f45fa6a8d49d2284a8f6e9e4c32b9", null ],
+    [ "MR_rshift_std_istream_MR_AffineXf2d", "MRAffineXf_8h.html#aded67264873842afb6874011ff5a2c2b", null ],
+    [ "MR_rshift_std_istream_MR_AffineXf2f", "MRAffineXf_8h.html#aebceb9e9fdf13fbf43a4060a9e0c84ae", null ],
+    [ "MR_rshift_std_istream_MR_AffineXf3d", "MRAffineXf_8h.html#ab358a7dc7f0bcb7d4ed3d40b07362d65", null ],
+    [ "MR_rshift_std_istream_MR_AffineXf3f", "MRAffineXf_8h.html#aca366172924fb502970ea67a03189dae", null ]
 ];

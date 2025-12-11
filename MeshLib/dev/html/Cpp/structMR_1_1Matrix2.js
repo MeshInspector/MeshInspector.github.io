@@ -26,7 +26,9 @@ var structMR_1_1Matrix2 =
     [ "operator-=", "structMR_1_1Matrix2.html#a4b1031a11bde07e8ff7a36048f5b0826", null ],
     [ "operator/", "structMR_1_1Matrix2.html#a3e8e10ee1aaf493f9333599ca515788e", null ],
     [ "operator/=", "structMR_1_1Matrix2.html#ad755fc7fc625e7af42901f40e1131237", null ],
+    [ "operator<<", "structMR_1_1Matrix2.html#a3aa9f660c4939983d3efa165e87b844a", null ],
     [ "operator==", "structMR_1_1Matrix2.html#a98cf431db6020f6d2758f7af02d503d5", null ],
+    [ "operator>>", "structMR_1_1Matrix2.html#aa6667bd48f67add4dbc41823562e9517", null ],
     [ "outer", "structMR_1_1Matrix2.html#a2c4549e9880ef73fc3bed4a4aaeb3cba", null ],
     [ "x", "structMR_1_1Matrix2.html#a07a97bdc2d9081ca6bb3f61742dd1074", null ],
     [ "y", "structMR_1_1Matrix2.html#a71548cad8d3164c3d8d15d3e5bbd0b01", null ]
