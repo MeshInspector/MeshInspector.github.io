@@ -1,5 +1,11 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1OffsetContoursOrigins.html#ad2a2ed17dca73e3016e3cd9df4d02b02":[6,0,2,0,1,468,0],
+"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[6,0,1,0,1,487,3],
+"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[6,0,2,0,1,468,3],
+"structMR_1_1OffsetContoursParams.html":[6,0,1,0,1,488],
+"structMR_1_1OffsetContoursParams.html":[6,0,2,0,1,469],
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,1,0,1,488,8],
 "structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,2,0,1,469,8],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,1,0,1,488,1],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,2,0,1,469,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1Pdf_1_1Cell.html#adf83c6877ea9956dff59089e40cb956d":[6,0,2,0,1,494,0,4],
 "structMR_1_1Pdf_1_1CellCustomParams.html":[6,0,1,0,1,513,1],
 "structMR_1_1Pdf_1_1CellCustomParams.html":[6,0,2,0,1,494,1],
-"structMR_1_1Pdf_1_1CellCustomParams.html#a70b9acf2ccdbf5641f8e6d5d9c66c37e":[6,0,1,0,1,513,1,0],
-"structMR_1_1Pdf_1_1CellCustomParams.html#a70b9acf2ccdbf5641f8e6d5d9c66c37e":[6,0,2,0,1,494,1,0],
-"structMR_1_1Pdf_1_1CellCustomParams.html#a8da0806f9e4216beecedc92f0af5e48c":[6,0,1,0,1,513,1,2],
-"structMR_1_1Pdf_1_1CellCustomParams.html#a8da0806f9e4216beecedc92f0af5e48c":[6,0,2,0,1,494,1,2],
-"structMR_1_1Pdf_1_1CellCustomParams.html#aa0d955c51ec17d9ae66d62a4c5ae2c7b":[6,0,1,0,1,513,1,1],
-"structMR_1_1Pdf_1_1CellCustomParams.html#aa0d955c51ec17d9ae66d62a4c5ae2c7b":[6,0,2,0,1,494,1,1],
-"structMR_1_1Pdf_1_1CellCustomParams.html#abcaff0b1310eb5d3c3918f573a4623a2":[6,0,1,0,1,513,1,3]
+"structMR_1_1Pdf_1_1CellCustomParams.html#a70b9acf2ccdbf5641f8e6d5d9c66c37e":[6,0,1,0,1,513,1,0]
 };

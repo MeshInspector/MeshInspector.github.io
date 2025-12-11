@@ -1,5 +1,11 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,2,0,1,514,6],
+"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,1,0,1,533,5],
+"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,2,0,1,514,5],
+"structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[6,0,1,0,1,533,2],
+"structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[6,0,2,0,1,514,2],
+"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[6,0,1,0,1,533,1],
 "structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[6,0,2,0,1,514,1],
 "structMR_1_1PointInAllSpaces.html#ad49d9386ce331c43283a72c316c3b457":[6,0,1,0,1,533,3],
 "structMR_1_1PointInAllSpaces.html#ad49d9386ce331c43283a72c316c3b457":[6,0,2,0,1,514,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1Polynomial.html":[6,0,2,0,1,543],
 "structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,1,0,1,562,5],
 "structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,1,543,5],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,562,2],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,1,543,2],
-"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,1,562,3],
-"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,1,543,3],
-"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,1,0,1,562,0],
-"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,2,0,1,543,0],
-"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,1,0,1,562,1]
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,562,2]
 };

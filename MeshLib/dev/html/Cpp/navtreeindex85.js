@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[6,0,0,1,20,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[6,0,0,0,8,0,0],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0],
+"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,1,0,1,438],
+"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,2,0,1,419],
 "structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58":[6,0,1,0,1,438,0],
 "structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58":[6,0,2,0,1,419,0],
 "structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58a2f3d2e7b83aab89388906ca92d0ca505":[6,0,1,0,1,438,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1OffsetContoursOrigins.html#ab76af177457e5c7d897c84971b38bc83":[6,0,2,0,1,468,2],
 "structMR_1_1OffsetContoursOrigins.html#abafa00798fb1314aef0b80b10f1db15e":[6,0,1,0,1,487,7],
 "structMR_1_1OffsetContoursOrigins.html#abafa00798fb1314aef0b80b10f1db15e":[6,0,2,0,1,468,7],
-"structMR_1_1OffsetContoursOrigins.html#ad2a2ed17dca73e3016e3cd9df4d02b02":[6,0,1,0,1,487,0],
-"structMR_1_1OffsetContoursOrigins.html#ad2a2ed17dca73e3016e3cd9df4d02b02":[6,0,2,0,1,468,0],
-"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[6,0,1,0,1,487,3],
-"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[6,0,2,0,1,468,3],
-"structMR_1_1OffsetContoursParams.html":[6,0,1,0,1,488],
-"structMR_1_1OffsetContoursParams.html":[6,0,2,0,1,469],
-"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,1,0,1,488,8]
+"structMR_1_1OffsetContoursOrigins.html#ad2a2ed17dca73e3016e3cd9df4d02b02":[6,0,1,0,1,487,0]
 };

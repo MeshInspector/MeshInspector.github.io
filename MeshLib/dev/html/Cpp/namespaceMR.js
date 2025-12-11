@@ -3047,6 +3047,8 @@ var namespaceMR =
     [ "roundToPrecision", "namespaceMR.html#a13a3902f4af22aaa5fcd0817f8d925fd", null ],
     [ "same", "namespaceMR.html#a1c0d3c449b52a98c85522a1aa06c1e88", null ],
     [ "sampleHalfSphere", "namespaceMR.html#a9ce9a564212b2e113997ca6007a5fdfb", null ],
+    [ "sampleVertexColor", "namespaceMR.html#aec77a6bfc580adda65939479fe650ed3", null ],
+    [ "sampleVertexColors", "namespaceMR.html#abcc85ae5479c89af9d661cb1b69408b2", null ],
     [ "saveFileDialog", "namespaceMR.html#a5840a11e5e60139f9bbbf678072379e2", null ],
     [ "saveFileDialogAsync", "namespaceMR.html#aa9296b50297d1b2d93a8f2f08c495eef", null ],
     [ "saveObjectToFile", "namespaceMR.html#aa8660a1f4655b61b91a481a072409fa5", null ],

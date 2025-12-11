@@ -2257,6 +2257,8 @@ var namespacemrmeshpy =
     [ "same", "namespacemrmeshpy.html#a7a1c0c36824c19e4914c47b0a03078c3", null ],
     [ "same", "namespacemrmeshpy.html#a9e6b415187384bdfe264db8bd1aa69f7", null ],
     [ "sampleHalfSphere", "namespacemrmeshpy.html#a59b37b772661d1867a2d9e29d3ec2fad", null ],
+    [ "sampleVertexColor", "namespacemrmeshpy.html#ae5682ba8039807c70ee79ce6ec6fe9e0", null ],
+    [ "sampleVertexColors", "namespacemrmeshpy.html#a2e3bad6fd8c8320abe6628fb9d60c2f6", null ],
     [ "saveAllSlicesToImage", "namespacemrmeshpy.html#a585250bfed67bff2b9adbea215735427", null ],
     [ "saveDistanceMapToImage", "namespacemrmeshpy.html#a631ddf3b4248f1a8f6350c2f948d7d4a", null ],
     [ "saveLines", "namespacemrmeshpy.html#a1f406e2fcfdd98a5d3717e63fda1c18b", null ],

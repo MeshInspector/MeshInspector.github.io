@@ -5976,6 +5976,10 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a6804a7415d5f018fa64bf1b533af3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abebe86de5d47fc21de1ad73e06bdbc3d" id="r_abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebe86de5d47fc21de1ad73e06bdbc3d">terrainTriangulation</a> (std::vector&lt; Vector3f &gt; points, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec77a6bfc580adda65939479fe650ed3" id="r_aec77a6bfc580adda65939479fe650ed3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec77a6bfc580adda65939479fe650ed3">sampleVertexColor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId v, const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;tex, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
+<tr class="separator:aec77a6bfc580adda65939479fe650ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc85ae5479c89af9d661cb1b69408b2" id="r_abcc85ae5479c89af9d661cb1b69408b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcc85ae5479c89af9d661cb1b69408b2">sampleVertexColors</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;tex, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
+<tr class="separator:abcc85ae5479c89af9d661cb1b69408b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30561e9335c9081843e4c982a0553366" id="r_a30561e9335c9081843e4c982a0553366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30561e9335c9081843e4c982a0553366">isTIFFFile</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="separator:a30561e9335c9081843e4c982a0553366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c49de97d655fd498b5741311c3c1bcf" id="r_a7c49de97d655fd498b5741311c3c1bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TiffParameters.html">TiffParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c49de97d655fd498b5741311c3c1bcf">readTiffParameters</a> (const std::filesystem::path &amp;path)</td></tr>
@@ -36673,6 +36677,81 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns quasi-uniform 145 samples on unit half-sphere z&gt;0 </p>
+
+</div>
+</div>
+<a id="aec77a6bfc580adda65939479fe650ed3" name="aec77a6bfc580adda65939479fe650ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec77a6bfc580adda65939479fe650ed3">&#9670;&#160;</a></span>sampleVertexColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Color.html">Color</a> MR::sampleVertexColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TriCornerUVCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes the color in the given vertex of mesh textured per-triangle's-corner; if the vertex has different colors in different triangles, then angle-weight average is computed </p>
+
+</div>
+</div>
+<a id="abcc85ae5479c89af9d661cb1b69408b2" name="abcc85ae5479c89af9d661cb1b69408b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc85ae5479c89af9d661cb1b69408b2">&#9670;&#160;</a></span>sampleVertexColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertColors MR::sampleVertexColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TriCornerUVCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes the colors in the vertices of mesh textured per-triangle's-corner; if one vertex has different colors in different triangles, then angle-weight average is computed </p>
 
 </div>
 </div>

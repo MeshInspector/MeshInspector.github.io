@@ -2411,6 +2411,8 @@ var mrmeshpy_8pyi =
     [ "same", "mrmeshpy_8pyi.html#a7a1c0c36824c19e4914c47b0a03078c3", null ],
     [ "same", "mrmeshpy_8pyi.html#a9e6b415187384bdfe264db8bd1aa69f7", null ],
     [ "sampleHalfSphere", "mrmeshpy_8pyi.html#a59b37b772661d1867a2d9e29d3ec2fad", null ],
+    [ "sampleVertexColor", "mrmeshpy_8pyi.html#ae5682ba8039807c70ee79ce6ec6fe9e0", null ],
+    [ "sampleVertexColors", "mrmeshpy_8pyi.html#a2e3bad6fd8c8320abe6628fb9d60c2f6", null ],
     [ "saveAllSlicesToImage", "mrmeshpy_8pyi.html#a585250bfed67bff2b9adbea215735427", null ],
     [ "saveDistanceMapToImage", "mrmeshpy_8pyi.html#a631ddf3b4248f1a8f6350c2f948d7d4a", null ],
     [ "saveLines", "mrmeshpy_8pyi.html#a1f406e2fcfdd98a5d3717e63fda1c18b", null ],

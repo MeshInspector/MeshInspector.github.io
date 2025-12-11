@@ -328,6 +328,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRSystem.h", "MRSystem_8h.html", "MRSystem_8h" ],
     [ "MRSystemPath.h", "MRSystemPath_8h.html", "MRSystemPath_8h" ],
     [ "MRTerrainTriangulation.h", "MRTerrainTriangulation_8h.html", "MRTerrainTriangulation_8h" ],
+    [ "MRTextureColors.h", "MRTextureColors_8h.html", "MRTextureColors_8h" ],
     [ "MRTiffIO.h", "MRTiffIO_8h.html", "MRTiffIO_8h" ],
     [ "MRTimer.h", "MRTimer_8h.html", "MRTimer_8h" ],
     [ "MRTorus.h", "MRTorus_8h.html", "MRTorus_8h" ],

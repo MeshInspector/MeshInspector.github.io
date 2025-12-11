@@ -1,5 +1,13 @@
 var NAVTREEINDEX127 =
 {
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#a0428cbe3003f7790498bc1e3ae7ace94":[6,2,1,0,0,0,2,169,6],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#a2495584dc4fd0a97897655055823d28d":[6,2,1,0,0,0,2,169,8],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#a3d90d8f3e04d31386ac55f3485eb0454":[6,2,1,0,0,0,2,169,5],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#a617f57058bc560d18faf7e059ea0f4e3":[6,2,1,0,0,0,2,169,1],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#a75e7c5081ab43334912853df8bd23c45":[6,2,1,0,0,0,2,169,3],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#ac9bd7b6351f295645864d3f51d906b6c":[6,2,1,0,0,0,2,169,11],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#acb494860ade8b8caf672bdc30425b30a":[6,2,1,0,0,0,2,169,7],
+"std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#addef8b0d919a3fc1e04099b4a54453ff":[6,2,1,0,0,0,2,169,10],
 "std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#aea8a7b842a96525738c0cb0c5a7d82ee":[6,2,1,0,0,0,2,169,4],
 "std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h.html#afd0201e1c072ac1cc7168c11c3bd3a49":[6,2,1,0,0,0,2,169,0],
 "std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h_source.html":[6,2,1,0,0,0,2,169],
@@ -241,13 +249,5 @@ var NAVTREEINDEX127 =
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a351f8854178c3173f293279ccad45997":[6,2,1,0,0,0,2,162,13],
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a566c54175c4a10d45ffe029c8b69a45a":[6,2,1,0,0,0,2,162,6],
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a650ff42d3d17af783d4c376c90be2c15":[6,2,1,0,0,0,2,162,12],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,2,162,3],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a849a9e48afd5f62bad9dffd67bb789f0":[6,2,1,0,0,0,2,162,11],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a8aa582d3a4df83646cf58a7f744a549b":[6,2,1,0,0,0,2,162,4],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#ac33af16d4eb8ef9a34f71784f466cf8a":[6,2,1,0,0,0,2,162,9],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#accde56c4c89abec0bc7e2bf709761ac2":[6,2,1,0,0,0,2,162,1],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#aed048f56f8feb86878d26d0129248b19":[6,2,1,0,0,0,2,162,8],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#af34e902c79e5e3662b6066a428220257":[6,2,1,0,0,0,2,162,2],
-"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h_source.html":[6,2,1,0,0,0,2,162],
-"std__function__void__from__const__std__filesystem__path__ref_8h.html":[6,2,1,0,0,0,2,163]
+"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,2,162,3]
 };

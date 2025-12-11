@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,91],
+"structMR_1_1BooleanResultPoints.html":[6,0,2,0,1,72],
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,91,2],
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,1,72,2],
+"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,91,1],
+"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,1,72,1],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,91,0],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,2,0,1,72,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,92,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,1,146,2],
 "structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,165,0],
 "structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,2,0,1,146,0],
-"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,1,0,1,165,1],
-"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,2,0,1,146,1],
-"structMR_1_1ConstantCuspParams.html":[6,0,1,0,1,166],
-"structMR_1_1ConstantCuspParams.html":[6,0,2,0,1,147],
-"structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,1,0,1,166,0],
-"structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,2,0,1,147,0],
-"structMR_1_1ContourToDistanceMapParams.html":[6,0,0,5,4]
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,1,0,1,165,1]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1Graph_1_1EndVertices.html#a57f201c07d8a9aee027911668d5c9f8b":[6,0,1,0,1,290,0,1],
+"structMR_1_1Graph_1_1EndVertices.html#a57f201c07d8a9aee027911668d5c9f8b":[6,0,2,0,1,271,0,1],
+"structMR_1_1Graph_1_1EndVertices.html#a7b9ed22e987be98753ff8c314a3c7bd4":[6,0,1,0,1,290,0,3],
+"structMR_1_1Graph_1_1EndVertices.html#a7b9ed22e987be98753ff8c314a3c7bd4":[6,0,2,0,1,271,0,3],
+"structMR_1_1Graph_1_1EndVertices.html#acdf8c4e8411247e361733ddd467cd8bb":[6,0,1,0,1,290,0,2],
+"structMR_1_1Graph_1_1EndVertices.html#acdf8c4e8411247e361733ddd467cd8bb":[6,0,2,0,1,271,0,2],
 "structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,1,0,1,290,0,0],
 "structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,2,0,1,271,0,0],
 "structMR_1_1GridSettings.html":[6,0,1,0,1,291],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[6,0,2,0,1,7,5,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[6,0,1,0,1,16,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[6,0,2,0,1,7,5,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[6,0,1,0,1,16,5,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[6,0,2,0,1,7,5,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html":[6,0,1,0,1,16,6],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html":[6,0,2,0,1,7,6],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a400a2b9d56be1cc23d10368dd6ef6e36":[6,0,1,0,1,16,6,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a400a2b9d56be1cc23d10368dd6ef6e36":[6,0,2,0,1,7,6,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64":[6,0,1,0,1,16,6,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[6,0,1,0,1,16,5,2]
 };
