@@ -2306,6 +2306,8 @@ var namespaceMR =
     [ "findTwinUndirectedEdges", "namespaceMR.html#a21baf87f437b852b1e607b1dfa6319f2", null ],
     [ "findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "findTwoSegmentsIntersection", "namespaceMR.html#ab44344e6fdff4411490db5446baa0245", null ],
+    [ "findVertexUV", "namespaceMR.html#a228fd3f15dfd62cae2cd96578e019c9d", null ],
+    [ "findVertexUVs", "namespaceMR.html#a66d4d2959eb1a39fea41beb266bc070f", null ],
     [ "findVertsInViewportArea", "namespaceMR.html#a5296205b5f80eb5b87c334ab98121aff", null ],
     [ "findZcompensatedPositions", "namespaceMR.html#a20373caf5716c8954478743f6d0d7238", null ],
     [ "findZcompensationShifts", "namespaceMR.html#acbe3ddcb19f5fe435a1a58b74c833314", null ],

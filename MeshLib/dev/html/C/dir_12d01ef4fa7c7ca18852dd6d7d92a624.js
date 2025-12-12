@@ -212,6 +212,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_optional_MR_Vector3i.h", "std__optional__MR__Vector3i_8h.html", "std__optional__MR__Vector3i_8h" ],
     [ "std_optional_MR_VertBitSet.h", "std__optional__MR__VertBitSet_8h.html", "std__optional__MR__VertBitSet_8h" ],
     [ "std_optional_MR_VertCoords.h", "std__optional__MR__VertCoords_8h.html", "std__optional__MR__VertCoords_8h" ],
+    [ "std_optional_MR_VertCoords2.h", "std__optional__MR__VertCoords2_8h.html", "std__optional__MR__VertCoords2_8h" ],
     [ "std_optional_MR_VertMap.h", "std__optional__MR__VertMap_8h.html", "std__optional__MR__VertMap_8h" ],
     [ "std_optional_MR_VertScalars.h", "std__optional__MR__VertScalars_8h.html", "std__optional__MR__VertScalars_8h" ],
     [ "std_optional_std_string.h", "std__optional__std__string_8h.html", "std__optional__std__string_8h" ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1ParallelProgressReporter.html#a2c6d0ee3e32d318d2f21e81a65c786fb":[6,0,1,0,1,507,2],
+"classMR_1_1ParallelProgressReporter.html#a2c6d0ee3e32d318d2f21e81a65c786fb":[6,0,2,0,1,488,2],
 "classMR_1_1ParallelProgressReporter.html#afb8acccd63d1068e162e165f290b3227":[6,0,1,0,1,507,3],
 "classMR_1_1ParallelProgressReporter.html#afb8acccd63d1068e162e165f290b3227":[6,0,2,0,1,488,3],
 "classMR_1_1PartialChangeMeshAction.html":[6,0,0,4,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[6,0,1,0,1,522,0],
 "classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[6,0,2,0,1,503,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,1,0,1,523],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,2,0,1,504],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,1,0,1,523,2],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,2,0,1,504,2]
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,2,0,1,504]
 };

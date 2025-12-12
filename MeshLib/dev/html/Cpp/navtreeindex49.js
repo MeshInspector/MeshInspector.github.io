@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Toolbar.html#aa2cd5db65529f0df909e6fbaed4df94d":[6,0,2,0,1,728,2],
+"classMR_1_1Toolbar.html#ae935dc9511065eddce3faff0eb3fb93a":[6,0,1,0,1,747,8],
 "classMR_1_1Toolbar.html#ae935dc9511065eddce3faff0eb3fb93a":[6,0,2,0,1,728,8],
 "classMR_1_1TouchesController.html":[6,0,1,0,1,751],
 "classMR_1_1TouchesController.html":[6,0,2,0,1,732],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Vector.html#aa4bcfcbca3642d15aa0cdec1055c4472":[6,0,0,3,16,14],
 "classMR_1_1Vector.html#aaa0ee5d98cd26c7e6232195bcda2b459":[6,0,0,3,16,1],
 "classMR_1_1Vector.html#ab7e19dc6b4addbb584ffa28779aa7c9c":[6,0,0,3,16,21],
-"classMR_1_1Vector.html#abd41445fa91a71145e3d65599d21e191":[6,0,0,3,16,4],
-"classMR_1_1Vector.html#ac23bc97fbd4484f943e6ff60af745e75":[6,0,0,3,16,29],
-"classMR_1_1Vector.html#ac42f813829d695e418e088932eacfd6c":[6,0,0,3,16,12]
+"classMR_1_1Vector.html#abd41445fa91a71145e3d65599d21e191":[6,0,0,3,16,4]
 };

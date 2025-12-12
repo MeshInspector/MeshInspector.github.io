@@ -1890,6 +1890,8 @@ var mrmeshpy_8pyi =
     [ "findTwinUndirectedEdges", "mrmeshpy_8pyi.html#a111ba6a04063d8ba863b98498822de31", null ],
     [ "findTwoClosestPoints", "mrmeshpy_8pyi.html#ae948a67a8d962bb321869687a9331f5e", null ],
     [ "findTwoSegmentsIntersection", "mrmeshpy_8pyi.html#a15eaedc3c17f48007deeb027c17c68f9", null ],
+    [ "findVertexUV", "mrmeshpy_8pyi.html#a6778d1f39c89679aa7092a0f89301b52", null ],
+    [ "findVertexUVs", "mrmeshpy_8pyi.html#a2757896bebd0484e9c2496abd27978d4", null ],
     [ "findZcompensatedPositions", "mrmeshpy_8pyi.html#a84a493a78f08b56e753e73680a2f2607", null ],
     [ "findZcompensationShifts", "mrmeshpy_8pyi.html#a16bc228b32ab30cd65a55940eda4e5b6", null ],
     [ "fixMeshCreases", "mrmeshpy_8pyi.html#a52d004a7e1d1e94f976d00c26bda36c0", null ],

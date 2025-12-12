@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1VisualObjectTagManager.html#aab3891f875cc95a74b2741c4c49da1b4":[6,0,2,0,1,808,0],
+"classMR_1_1VolumeIndexer.html":[6,0,0,17,0,1],
 "classMR_1_1VolumeSegmenter.html":[6,0,0,17,2,1],
 "classMR_1_1VolumeSegmenter.html#a0cc8f6e40de564a414a9929ff63d5f9a":[6,0,0,17,2,1,8],
 "classMR_1_1VolumeSegmenter.html#a1afe2c227ee25b71b24c84a7697afdf6":[6,0,0,17,2,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "dir_6e96927c85b5db1a870a672280c47921.html":[6,0,3,0,0,1,11],
 "dir_765869fc176298f15433e5412f6f8b10.html":[6,0,3,0,0,1,6],
 "dir_8dc71c282c726d7c0c07d59dea5ec67b.html":[6,0,3,0,0,1,0,2],
-"dir_962aa80361c9e62a441b8bc61ef6a9df.html":[6,0,3,0,0,0],
-"dir_9ba5c3856ca6cf238d781183c6087ce8.html":[6,0,3,0,0,1,0,0],
-"dir_9de905cc127d1bc2fe28de0c234022ea.html":[6,0,3,0,0,1,5]
+"dir_962aa80361c9e62a441b8bc61ef6a9df.html":[6,0,3,0,0,0]
 };

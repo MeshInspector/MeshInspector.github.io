@@ -184,6 +184,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a71c2ed63cb6a101dbd9b47f8ca9898fd" id="r_a71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="memItemLeft" align="right" valign="top">const VertUVCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c2ed63cb6a101dbd9b47f8ca9898fd">uvMap</a> = nullptr</td></tr>
 <tr class="memdesc:a71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex uv coordinate to save with the geometry  <br /></td></tr>
 <tr class="separator:a71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0798760baa0755ad37dde251b754b9d" id="r_ac0798760baa0755ad37dde251b754b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0798760baa0755ad37dde251b754b9d">saveTriCornerUVCoords</a> = true</td></tr>
+<tr class="separator:ac0798760baa0755ad37dde251b754b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cd4cf82acb2f094f43f785282fcb76a" id="r_a0cd4cf82acb2f094f43f785282fcb76a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cd4cf82acb2f094f43f785282fcb76a">texture</a> = nullptr</td></tr>
 <tr class="memdesc:a0cd4cf82acb2f094f43f785282fcb76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional texture to save with the geometry  <br /></td></tr>
 <tr class="separator:a0cd4cf82acb2f094f43f785282fcb76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,6 +315,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>to report save progress and cancel saving if user desires </p>
+
+</div>
+</div>
+<a id="ac0798760baa0755ad37dde251b754b9d" name="ac0798760baa0755ad37dde251b754b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0798760baa0755ad37dde251b754b9d">&#9670;&#160;</a></span>saveTriCornerUVCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SaveSettings::saveTriCornerUVCoords = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </p>
 
 </div>
 </div>

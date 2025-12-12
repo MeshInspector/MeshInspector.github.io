@@ -167,8 +167,10 @@ var NAVTREEINDEX16 =
 "MRTestC_2TestMacros_8h.html#aee91513a9e54e8b43271e82f16185468":[6,0,3,0,0,1,9,28,2],
 "MRTestC_2TestMacros_8h_source.html":[6,0,3,0,0,1,9,28],
 "MRTextureColors_8h.html":[6,0,3,0,0,1,4,381],
-"MRTextureColors_8h.html#abcc85ae5479c89af9d661cb1b69408b2":[6,0,3,0,0,1,4,381,1],
-"MRTextureColors_8h.html#aec77a6bfc580adda65939479fe650ed3":[6,0,3,0,0,1,4,381,0],
+"MRTextureColors_8h.html#a228fd3f15dfd62cae2cd96578e019c9d":[6,0,3,0,0,1,4,381,0],
+"MRTextureColors_8h.html#a66d4d2959eb1a39fea41beb266bc070f":[6,0,3,0,0,1,4,381,1],
+"MRTextureColors_8h.html#abcc85ae5479c89af9d661cb1b69408b2":[6,0,3,0,0,1,4,381,3],
+"MRTextureColors_8h.html#aec77a6bfc580adda65939479fe650ed3":[6,0,3,0,0,1,4,381,2],
 "MRTextureColors_8h_source.html":[6,0,3,0,0,1,4,381],
 "MRTiffIO_8h.html":[6,0,3,0,0,1,4,382],
 "MRTiffIO_8h.html#a16911b1d8c2b28200b6a2cb7d97f4bf8":[6,0,3,0,0,1,4,382,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "MRTriMath_8h.html#a66e1bd83c47751c3265e376c45b67b29":[6,0,3,0,0,1,4,389,8],
 "MRTriMath_8h.html#a85339d82a7293f1fa56e51dd84cff4ee":[6,0,3,0,0,1,4,389,18],
 "MRTriMath_8h.html#a8cf43b097e552b51cea5e2fa012eb286":[6,0,3,0,0,1,4,389,11],
-"MRTriMath_8h.html#a90bd3627b4b9ad81f7519392eb4fdc56":[6,0,3,0,0,1,4,389,21],
-"MRTriMath_8h.html#a9d52e943714d673d29e28fcb67d1e72d":[6,0,3,0,0,1,4,389,30],
-"MRTriMath_8h.html#ab848f1f42c702c20acbcac33a7e53649":[6,0,3,0,0,1,4,389,2]
+"MRTriMath_8h.html#a90bd3627b4b9ad81f7519392eb4fdc56":[6,0,3,0,0,1,4,389,21]
 };

@@ -1736,6 +1736,8 @@ var namespacemrmeshpy =
     [ "findTwinUndirectedEdges", "namespacemrmeshpy.html#a111ba6a04063d8ba863b98498822de31", null ],
     [ "findTwoClosestPoints", "namespacemrmeshpy.html#ae948a67a8d962bb321869687a9331f5e", null ],
     [ "findTwoSegmentsIntersection", "namespacemrmeshpy.html#a15eaedc3c17f48007deeb027c17c68f9", null ],
+    [ "findVertexUV", "namespacemrmeshpy.html#a6778d1f39c89679aa7092a0f89301b52", null ],
+    [ "findVertexUVs", "namespacemrmeshpy.html#a2757896bebd0484e9c2496abd27978d4", null ],
     [ "findZcompensatedPositions", "namespacemrmeshpy.html#a84a493a78f08b56e753e73680a2f2607", null ],
     [ "findZcompensationShifts", "namespacemrmeshpy.html#a16bc228b32ab30cd65a55940eda4e5b6", null ],
     [ "fixMeshCreases", "namespacemrmeshpy.html#a52d004a7e1d1e94f976d00c26bda36c0", null ],

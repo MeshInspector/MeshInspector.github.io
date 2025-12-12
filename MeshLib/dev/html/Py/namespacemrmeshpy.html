@@ -3650,6 +3650,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae948a67a8d962bb321869687a9331f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15eaedc3c17f48007deeb027c17c68f9" id="r_a15eaedc3c17f48007deeb027c17c68f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15eaedc3c17f48007deeb027c17c68f9">findTwoSegmentsIntersection</a> (<a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> ai, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> bi, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> ci, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> di)</td></tr>
 <tr class="separator:a15eaedc3c17f48007deeb027c17c68f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6778d1f39c89679aa7092a0f89301b52" id="r_a6778d1f39c89679aa7092a0f89301b52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2f.html">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6778d1f39c89679aa7092a0f89301b52">findVertexUV</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, <a class="el" href="classmrmeshpy_1_1TriCornerUVCoords.html">TriCornerUVCoords</a> triCornerUvCoords)</td></tr>
+<tr class="separator:a6778d1f39c89679aa7092a0f89301b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2757896bebd0484e9c2496abd27978d4" id="r_a2757896bebd0484e9c2496abd27978d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2757896bebd0484e9c2496abd27978d4">findVertexUVs</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1TriCornerUVCoords.html">TriCornerUVCoords</a> triCornerUvCoords)</td></tr>
+<tr class="separator:a2757896bebd0484e9c2496abd27978d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a493a78f08b56e753e73680a2f2607" id="r_a84a493a78f08b56e753e73680a2f2607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84a493a78f08b56e753e73680a2f2607">findZcompensatedPositions</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1ZCompensateParams.html">ZCompensateParams</a> params)</td></tr>
 <tr class="separator:a84a493a78f08b56e753e73680a2f2607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16bc228b32ab30cd65a55940eda4e5b6" id="r_a16bc228b32ab30cd65a55940eda4e5b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16bc228b32ab30cd65a55940eda4e5b6">findZcompensationShifts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1ZCompensateParams.html">ZCompensateParams</a> params)</td></tr>
@@ -20189,6 +20193,57 @@ the ball during enumeration can shrink (new ball is always within the previous o
 </div><div class="memdoc">
 <pre class="fragment">given two line segments AB and CD located in one plane,
 finds whether they intersect and if yes, computes their common point using integer-only arithmetic
+</pre> 
+</div>
+</div>
+<a id="a6778d1f39c89679aa7092a0f89301b52" name="a6778d1f39c89679aa7092a0f89301b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6778d1f39c89679aa7092a0f89301b52">&#9670;&#160;</a></span>findVertexUV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector2f.html">Vector2f</a> mrmeshpy.findVertexUV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TriCornerUVCoords.html">TriCornerUVCoords</a></td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns UV-coordinates at the given vertex if they are the same in all surrounding triangles;
+otherwise returns std::nullopt
+</pre> 
+</div>
+</div>
+<a id="a2757896bebd0484e9c2496abd27978d4" name="a2757896bebd0484e9c2496abd27978d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2757896bebd0484e9c2496abd27978d4">&#9670;&#160;</a></span>findVertexUVs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> mrmeshpy.findVertexUVs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TriCornerUVCoords.html">TriCornerUVCoords</a></td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if all mesh vertices have unique UV-coordinates in all triangles, then returns them;
+otherwise returns std::nullopt
 </pre> 
 </div>
 </div>

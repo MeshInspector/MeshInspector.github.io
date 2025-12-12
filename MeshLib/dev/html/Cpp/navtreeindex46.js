@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1SceneStateOrCheck.html#a57e94f064ff40fa6070445911ca81421":[6,0,2,0,1,656,1],
+"classMR_1_1SceneStateOrCheck.html#ae67477acae1bc80561b69cecd0b6cbdf":[6,0,1,0,1,675,0],
 "classMR_1_1SceneStateOrCheck.html#ae67477acae1bc80561b69cecd0b6cbdf":[6,0,2,0,1,656,0],
 "classMR_1_1SceneTextureGL.html":[6,0,1,0,1,676],
 "classMR_1_1SceneTextureGL.html":[6,0,2,0,1,657],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247":[6,0,1,0,1,714,7],
 "classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247":[6,0,2,0,1,695,7],
 "classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,1,0,1,714,5],
-"classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,2,0,1,695,5],
-"classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,1,0,1,714,3],
-"classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,2,0,1,695,3]
+"classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,2,0,1,695,5]
 };
