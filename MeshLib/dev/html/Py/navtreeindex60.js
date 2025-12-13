@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[6,1,1,0,1,614,1],
+"classmrmeshpy_1_1ObjMap.html":[6,1,0,0,2,615],
+"classmrmeshpy_1_1ObjMap.html":[6,1,1,0,1,615],
+"classmrmeshpy_1_1ObjMap.html#a02a19e87624178c3ea21e30a7387c5a5":[6,1,0,0,2,615,5],
+"classmrmeshpy_1_1ObjMap.html#a02a19e87624178c3ea21e30a7387c5a5":[6,1,1,0,1,615,5],
+"classmrmeshpy_1_1ObjMap.html#a093caa945d25fc70b3078740e6a914ba":[6,1,0,0,2,615,37],
+"classmrmeshpy_1_1ObjMap.html#a093caa945d25fc70b3078740e6a914ba":[6,1,1,0,1,615,37],
+"classmrmeshpy_1_1ObjMap.html#a0a72374193456d0f946719f7ce6c5e7d":[6,1,0,0,2,615,32],
 "classmrmeshpy_1_1ObjMap.html#a0a72374193456d0f946719f7ce6c5e7d":[6,1,1,0,1,615,32],
 "classmrmeshpy_1_1ObjMap.html#a14d9ab3fb78e920d4224339ffa2b5e24":[6,1,0,0,2,615,40],
 "classmrmeshpy_1_1ObjMap.html#a14d9ab3fb78e920d4224339ffa2b5e24":[6,1,1,0,1,615,40],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e":[6,1,1,0,1,590,4],
 "classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,0,0,2,590,12],
 "classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,1,0,1,590,12],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d":[6,1,0,0,2,590,7],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d":[6,1,1,0,1,590,7],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a6d0dd1c5733292e7a823b22d5caaf9a3":[6,1,0,0,2,590,8],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a6d0dd1c5733292e7a823b22d5caaf9a3":[6,1,1,0,1,590,8],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a91bbbf28972f451f9a6453e53662dc50":[6,1,0,0,2,590,9],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a91bbbf28972f451f9a6453e53662dc50":[6,1,1,0,1,590,9],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a94fe811c22ab8aa980dbebd48b4de4e0":[6,1,0,0,2,590,5],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a94fe811c22ab8aa980dbebd48b4de4e0":[6,1,1,0,1,590,5],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a9a693f13fd7c752a7daed86225899a5f":[6,1,0,0,2,590,3]
+"classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d":[6,1,0,0,2,590,7]
 };

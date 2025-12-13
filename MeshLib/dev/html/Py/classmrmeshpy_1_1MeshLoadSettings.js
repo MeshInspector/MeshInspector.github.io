@@ -2,7 +2,7 @@ var classmrmeshpy_1_1MeshLoadSettings =
 [
     [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#ac423e6a6aa1e5c0ab3c453ed696e708b", null ],
     [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a9ace2c350cc3429a31ce24bd6ead1631", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a4e55d71cda35b4a3750b0ff5845def5c", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a50dae1a5e8ea83d002c24ef4bb78e1c4", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoadSettings.html#a486ceb75675eddd9ba8f7ff6f262fb39", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoadSettings.html#acfe4df3f83d36f072aa5ab2539b05131", null ],
     [ "colors", "classmrmeshpy_1_1MeshLoadSettings.html#a6688b3085e29dbc5f4e195c3c2fc58d5", null ],
@@ -17,6 +17,8 @@ var classmrmeshpy_1_1MeshLoadSettings =
     [ "normals", "classmrmeshpy_1_1MeshLoadSettings.html#ad7654dc03fb000f4042568eec0a29200", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoadSettings.html#ae82f0a790d861cc200889dbddb54352a", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoadSettings.html#a4ae0f358369f10cd1a1b80853a70834b", null ],
+    [ "telemetrySignal", "classmrmeshpy_1_1MeshLoadSettings.html#a4c9041df6f4751b427b5537d971e2a9d", null ],
+    [ "telemetrySignal", "classmrmeshpy_1_1MeshLoadSettings.html#a6b6c1110c734f92b2f44c184a2f47d5f", null ],
     [ "texture", "classmrmeshpy_1_1MeshLoadSettings.html#a9b4de9cac1f8a87ac96f3ea66cfd8df2", null ],
     [ "texture", "classmrmeshpy_1_1MeshLoadSettings.html#ae0204aba93b97868a5a000cec2d505db", null ],
     [ "uvCoords", "classmrmeshpy_1_1MeshLoadSettings.html#ab3261da989b685a73a2bc4956632ddd2", null ],

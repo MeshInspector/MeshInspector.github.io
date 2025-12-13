@@ -1,5 +1,11 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
+"structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,533],
+"structMR_1_1PointInAllSpaces.html":[6,0,2,0,1,514],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,1,0,1,533,4],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,2,0,1,514,4],
+"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,1,0,1,533,7],
 "structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,2,0,1,514,7],
 "structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,1,0,1,533,0],
 "structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,2,0,1,514,0],
@@ -69,6 +75,8 @@ var NAVTREEINDEX88 =
 "structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,520,1],
 "structMR_1_1PointsLoadSettings.html":[6,0,1,0,1,540],
 "structMR_1_1PointsLoadSettings.html":[6,0,2,0,1,521],
+"structMR_1_1PointsLoadSettings.html#a1dce73fcc836e6bf67b9078a0dbc0e50":[6,0,1,0,1,540,3],
+"structMR_1_1PointsLoadSettings.html#a1dce73fcc836e6bf67b9078a0dbc0e50":[6,0,2,0,1,521,3],
 "structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,1,0,1,540,1],
 "structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[6,0,2,0,1,521,1],
 "structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[6,0,1,0,1,540,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1PolylineToVolumeParams.html":[6,0,1,0,1,557],
 "structMR_1_1PolylineToVolumeParams.html":[6,0,2,0,1,538],
 "structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,1,0,1,557,0],
-"structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,2,0,1,538,0],
-"structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,1,0,1,557,1],
-"structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,2,0,1,538,1],
-"structMR_1_1PolylineTraits.html":[6,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[6,0,1,0,1,562]
+"structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,2,0,1,538,0]
 };

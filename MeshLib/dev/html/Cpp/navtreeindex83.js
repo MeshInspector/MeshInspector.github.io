@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a7a875c31321cd79bd5c7d57c5b9a6f4e":[6,0,2,0,1,10,4,0],
+"structMR_1_1MeshBuilder_1_1VertDuplication.html":[6,0,1,0,1,20,5],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html":[6,0,2,0,1,10,5],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,1,0,1,20,5,0],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,2,0,1,10,5,0],
@@ -28,8 +30,8 @@ var NAVTREEINDEX83 =
 "structMR_1_1MeshLoadSettings.html":[6,0,2,0,1,369],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,1,0,1,388,2],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,2,0,1,369,2],
-"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,1,0,1,388,8],
-"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,2,0,1,369,8],
+"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,1,0,1,388,9],
+"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,2,0,1,369,9],
 "structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,1,0,1,388,1],
 "structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,2,0,1,369,1],
 "structMR_1_1MeshLoadSettings.html#a49a42dcc4e94c7c1824987b168d150b9":[6,0,1,0,1,388,3],
@@ -40,10 +42,12 @@ var NAVTREEINDEX83 =
 "structMR_1_1MeshLoadSettings.html#a6fdcf8fdd76f70d7403ea886ed944019":[6,0,2,0,1,369,6],
 "structMR_1_1MeshLoadSettings.html#a7dbfff2eb5c5cb545df805be2ba90d72":[6,0,1,0,1,388,4],
 "structMR_1_1MeshLoadSettings.html#a7dbfff2eb5c5cb545df805be2ba90d72":[6,0,2,0,1,369,4],
-"structMR_1_1MeshLoadSettings.html#ae3778a9ff6574570228d2a4ae6b546c0":[6,0,1,0,1,388,9],
-"structMR_1_1MeshLoadSettings.html#ae3778a9ff6574570228d2a4ae6b546c0":[6,0,2,0,1,369,9],
-"structMR_1_1MeshLoadSettings.html#aea5bd8460c5fbf0c62840a46e0eb2011":[6,0,1,0,1,388,7],
-"structMR_1_1MeshLoadSettings.html#aea5bd8460c5fbf0c62840a46e0eb2011":[6,0,2,0,1,369,7],
+"structMR_1_1MeshLoadSettings.html#adf9210a3db4a2bdb4ccfb7e14f428246":[6,0,1,0,1,388,7],
+"structMR_1_1MeshLoadSettings.html#adf9210a3db4a2bdb4ccfb7e14f428246":[6,0,2,0,1,369,7],
+"structMR_1_1MeshLoadSettings.html#ae3778a9ff6574570228d2a4ae6b546c0":[6,0,1,0,1,388,10],
+"structMR_1_1MeshLoadSettings.html#ae3778a9ff6574570228d2a4ae6b546c0":[6,0,2,0,1,369,10],
+"structMR_1_1MeshLoadSettings.html#aea5bd8460c5fbf0c62840a46e0eb2011":[6,0,1,0,1,388,8],
+"structMR_1_1MeshLoadSettings.html#aea5bd8460c5fbf0c62840a46e0eb2011":[6,0,2,0,1,369,8],
 "structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94":[6,0,1,0,1,388,5],
 "structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94":[6,0,2,0,1,369,5],
 "structMR_1_1MeshLoad_1_1MeshLoader.html":[6,0,0,2,7,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379":[6,0,1,0,1,411,0,0],
 "structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379":[6,0,2,0,1,392,0,0],
 "structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a":[6,0,1,0,1,411,0,1],
-"structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a":[6,0,2,0,1,392,0,1],
-"structMR_1_1MeshToVolumeParams.html#a51905e2ab88ac1c4d53c11ed65896ce9":[6,0,1,0,1,411,5],
-"structMR_1_1MeshToVolumeParams.html#a51905e2ab88ac1c4d53c11ed65896ce9":[6,0,2,0,1,392,5],
-"structMR_1_1MeshToVolumeParams.html#a7eb94a27012d5cf106c21b228b6c8c2a":[6,0,1,0,1,411,4],
-"structMR_1_1MeshToVolumeParams.html#a7eb94a27012d5cf106c21b228b6c8c2a":[6,0,2,0,1,392,4]
+"structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a":[6,0,2,0,1,392,0,1]
 };

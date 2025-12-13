@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[6,0,2,0,1,731,0],
+"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[6,0,1,0,1,750,1],
+"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[6,0,2,0,1,731,1],
+"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[6,0,1,0,1,750,2],
+"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[6,0,2,0,1,731,2],
+"structMR_1_1TouchMoveListener.html":[6,0,1,0,1,752],
+"structMR_1_1TouchMoveListener.html":[6,0,2,0,1,733],
+"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,1,0,1,752,3],
 "structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,2,0,1,733,3],
 "structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[6,0,1,0,1,752,2],
 "structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[6,0,2,0,1,733,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,2,0,1,25,0,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,1,0,1,42,0,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,2,0,1,25,0,0],
-"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,1,0,1,42,1],
-"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,1,25,1],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,1,0,1,42,1,5],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,2,0,1,25,1,5],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,1,0,1,42,1,3],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,2,0,1,25,1,3],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[6,0,1,0,1,42,1,6],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[6,0,2,0,1,25,1,6],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[6,0,1,0,1,42,1,2]
+"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,1,0,1,42,1]
 };

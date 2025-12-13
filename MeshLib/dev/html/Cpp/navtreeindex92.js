@@ -1,5 +1,13 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,2,0,1,664,0,0],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[6,0,1,0,1,683,0,2],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[6,0,2,0,1,664,0,2],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[6,0,1,0,1,683,0,1],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[6,0,2,0,1,664,0,1],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,1,0,1,683,0,5],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,2,0,1,664,0,5],
+"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,1,0,1,683,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,2,0,1,664,0,3],
 "structMR_1_1SetNew.html":[6,0,0,4,39],
 "structMR_1_1ShaderWarning.html":[6,0,1,0,1,688],
@@ -241,13 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,12],
 "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,6],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,1,0,1,727,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,2,0,1,708,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,1,0,1,727,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,2,0,1,708,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[6,0,1,0,1,727,0,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[6,0,2,0,1,708,0,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14":[6,0,1,0,1,727,0,3],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14":[6,0,2,0,1,708,0,3],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[6,0,1,0,1,727,0,2],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[6,0,2,0,1,708,0,2]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,2,0,1,708,0]
 };
