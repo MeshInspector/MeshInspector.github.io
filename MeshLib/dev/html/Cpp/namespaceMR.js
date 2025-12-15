@@ -3112,7 +3112,7 @@ var namespaceMR =
     [ "setNewHandlerIfNeeded", "namespaceMR.html#a76050fa0c0831ae2d21d1a20914f530d", null ],
     [ "setTextureFilterType", "namespaceMR.html#ab51fca826c7b90369fdc1dc86a01fbad", null ],
     [ "setTextureWrapType", "namespaceMR.html#a36f6d95d5a8018c4dd23ab51ba99ab31", null ],
-    [ "setupLoggerByDefault", "namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f", null ],
+    [ "setupLoggerByDefault", "namespaceMR.html#a1e251c5988273136d8a8cf12655f3f0d", null ],
     [ "setValue", "group__BasicStructuresGroup.html#ga28830151316f69a9dfd4e1fa94ccf465", null ],
     [ "setValue", "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862", null ],
     [ "sgn", "namespaceMR.html#a86bf24d57f63afab9354505400a0e82c", null ],

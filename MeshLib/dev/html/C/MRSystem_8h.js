@@ -1,6 +1,7 @@
 var MRSystem_8h =
 [
     [ "MR_std_filesystem_path", "MRSystem_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
+    [ "MR_std_function_void", "MRSystem_8h.html#a6271d7bfd9eac1863a0a9da93022599c", null ],
     [ "MR_std_string", "MRSystem_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_SystemMemory", "MRSystem_8h.html#a0abf5a90af969389df783f83762346c2", null ],
     [ "MR_GetCpuId", "MRSystem_8h.html#a1586290577baacf2cfea38be130eb60e", null ],
@@ -17,7 +18,7 @@ var MRSystem_8h =
     [ "MR_OpenLink", "MRSystem_8h.html#aa0e8ab4164a02e00b1893c2896f2b32d", null ],
     [ "MR_SetCurrentThreadName", "MRSystem_8h.html#a194122b50524a35b6173d07b76c6bee2", null ],
     [ "MR_setNewHandlerIfNeeded", "MRSystem_8h.html#a3d8c37d97792056381beaf3626103760", null ],
-    [ "MR_setupLoggerByDefault", "MRSystem_8h.html#a9793277773c2a913813dea3a59ebbe3d", null ],
+    [ "MR_setupLoggerByDefault", "MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1", null ],
     [ "MR_SystemMemory_AssignFromAnother", "MRSystem_8h.html#ab046039cc735f33626f910489400f17a", null ],
     [ "MR_SystemMemory_ConstructFrom", "MRSystem_8h.html#a3760303843a9a0a9045c15262c0228c3", null ],
     [ "MR_SystemMemory_ConstructFromAnother", "MRSystem_8h.html#a34ff570c4c9bc0b771a6cf8f75002347", null ],

@@ -5972,8 +5972,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:a3ba2aca05f28a3dd3c05cb49fbf09b66" id="r_a3ba2aca05f28a3dd3c05cb49fbf09b66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1SystemMemory.html">SystemMemory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ba2aca05f28a3dd3c05cb49fbf09b66">getSystemMemory</a> ()</td></tr>
 <tr class="memdesc:a3ba2aca05f28a3dd3c05cb49fbf09b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">return information about memory available in the system  <br /></td></tr>
 <tr class="separator:a3ba2aca05f28a3dd3c05cb49fbf09b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6804a7415d5f018fa64bf1b533af3d4f" id="r_a6804a7415d5f018fa64bf1b533af3d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a> ()</td></tr>
-<tr class="separator:a6804a7415d5f018fa64bf1b533af3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e251c5988273136d8a8cf12655f3f0d" id="r_a1e251c5988273136d8a8cf12655f3f0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e251c5988273136d8a8cf12655f3f0d">setupLoggerByDefault</a> (const std::function&lt; void()&gt; &amp;customLogSinkAdder={})</td></tr>
+<tr class="separator:a1e251c5988273136d8a8cf12655f3f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abebe86de5d47fc21de1ad73e06bdbc3d" id="r_abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebe86de5d47fc21de1ad73e06bdbc3d">terrainTriangulation</a> (std::vector&lt; Vector3f &gt; points, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a228fd3f15dfd62cae2cd96578e019c9d" id="r_a228fd3f15dfd62cae2cd96578e019c9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="#a6f8b9797e8968735a685a81d8a6064d6">UVCoord</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a228fd3f15dfd62cae2cd96578e019c9d">findVertexUV</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertId v, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
@@ -37501,8 +37501,8 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
-<a id="a6804a7415d5f018fa64bf1b533af3d4f" name="a6804a7415d5f018fa64bf1b533af3d4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6804a7415d5f018fa64bf1b533af3d4f">&#9670;&#160;</a></span>setupLoggerByDefault()</h2>
+<a id="a1e251c5988273136d8a8cf12655f3f0d" name="a1e251c5988273136d8a8cf12655f3f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e251c5988273136d8a8cf12655f3f0d">&#9670;&#160;</a></span>setupLoggerByDefault()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -37510,12 +37510,12 @@ template&lt;UnitEnum E&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::setupLoggerByDefault </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>customLogSinkAdder</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) print stacktrace on crash (not in wasm) log level - trace </p>
+<p>Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) add custom sink if provided 5) print stacktrace on crash (not in wasm) log level - trace </p>
 
 </div>
 </div>

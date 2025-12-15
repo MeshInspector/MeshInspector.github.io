@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ab0621da00a8cb089044d8211050b6a45":[6,2,1,0,0,0,2,356,69],
 "std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ab4933f607e1b874f76858eac5f46edf3":[6,2,1,0,0,0,2,356,68],
 "std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ab8e6b162eaa699d65740d9b92a3f6369":[6,2,1,0,0,0,2,356,30],
 "std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ab9b86ff06fa375ead266fff3e717e810":[6,2,1,0,0,0,2,356,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "std__vector__MR__PointsProjectionResult_8h.html#affd0ec755a6a9c4eb5a31e2a03ec6011":[6,2,1,0,0,0,2,359,19],
 "std__vector__MR__PointsProjectionResult_8h_source.html":[6,2,1,0,0,0,2,359],
 "std__vector__MR__QuadraticForm2f_8h.html":[6,2,1,0,0,0,2,360],
-"std__vector__MR__QuadraticForm2f_8h.html#a0c132d05a7f7d5d5558fe01c032566a7":[6,2,1,0,0,0,2,360,40],
-"std__vector__MR__QuadraticForm2f_8h.html#a0fcd48be6b031a95b22759bd82aeb257":[6,2,1,0,0,0,2,360,2]
+"std__vector__MR__QuadraticForm2f_8h.html#a0c132d05a7f7d5d5558fe01c032566a7":[6,2,1,0,0,0,2,360,40]
 };

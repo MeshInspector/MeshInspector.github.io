@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,2,0,1,2,2,0,8],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a188d4fb553903ae07ec08a2ea1e1746d":[6,0,1,0,1,6,2,0,1],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a188d4fb553903ae07ec08a2ea1e1746d":[6,0,2,0,1,2,2,0,1],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a3fe4c9665a94e2143038345808dc1586":[6,0,1,0,1,6,2,0,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a3fe4c9665a94e2143038345808dc1586":[6,0,2,0,1,2,2,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd":[6,0,1,0,1,256,1],
 "structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd":[6,0,2,0,1,237,1],
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html":[6,0,1,0,1,8,0,0],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html":[6,0,2,0,1,4,0,0],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a127a01464c363716de91ba32c72d7f54":[6,0,1,0,1,8,0,0,2],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a127a01464c363716de91ba32c72d7f54":[6,0,2,0,1,4,0,0,2]
+"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html":[6,0,2,0,1,4,0,0]
 };

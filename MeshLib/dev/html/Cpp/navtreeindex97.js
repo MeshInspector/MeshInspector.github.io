@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455":[6,0,0,0,12,1,43],
+"structMR_1_1Vector3.html#aeb0fb4fa5959f1241cc261574f4bd9d6":[6,0,0,0,12,1,33],
 "structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c":[6,0,0,0,12,1,8],
 "structMR_1_1Vector3.html#af10fc7b8e96744a5bf22924d7bb263ad":[6,0,0,0,12,1,6],
 "structMR_1_1Vector3.html#af9065ae414e0307701366e479519540d":[6,0,0,0,12,1,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[6,0,1,0,1,817,3,1],
 "structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[6,0,2,0,1,798,3,1],
 "structMR_1_1ViewportPointsWithColors.html":[6,0,1,0,1,823],
-"structMR_1_1ViewportPointsWithColors.html":[6,0,2,0,1,804],
-"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,1,0,1,823,1],
-"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,2,0,1,804,1]
+"structMR_1_1ViewportPointsWithColors.html":[6,0,2,0,1,804]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html#afb6faf8bc0849a0b80ae509cdf5c4b25":[6,0,2,0,1,298,2,1],
+"structMR_1_1Image.html":[6,0,0,18,0],
 "structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8":[6,0,0,18,0,4],
 "structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151":[6,0,0,18,0,7],
 "structMR_1_1Image.html#a3b6b9b5bd10ab0b951b4049866cb22fb":[6,0,0,18,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1LinesLoadSettings.html#a371abd05d6978245a5059c507e1b237e":[6,0,2,0,1,341,0],
 "structMR_1_1LinesLoadSettings.html#a4fb70d302e63d42b78b3ae9b090f1118":[6,0,1,0,1,360,1],
 "structMR_1_1LinesLoadSettings.html#a4fb70d302e63d42b78b3ae9b090f1118":[6,0,2,0,1,341,1],
-"structMR_1_1LinesLoadSettings.html#a67164bb7398f34f276583f2711748077":[6,0,1,0,1,360,2],
-"structMR_1_1LinesLoadSettings.html#a67164bb7398f34f276583f2711748077":[6,0,2,0,1,341,2],
-"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,1,0,1,18,0]
+"structMR_1_1LinesLoadSettings.html#a67164bb7398f34f276583f2711748077":[6,0,1,0,1,360,2]
 };

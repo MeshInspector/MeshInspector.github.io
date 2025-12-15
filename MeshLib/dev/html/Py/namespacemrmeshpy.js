@@ -2299,7 +2299,7 @@ var namespacemrmeshpy =
     [ "setDefaultSerializeVoxelsFormat", "namespacemrmeshpy.html#a9eea13b8a1df4b3f884cd79df0bbb641", null ],
     [ "setLevelSetType", "namespacemrmeshpy.html#a6a71342aaeab9b63031d8b72b705609b", null ],
     [ "setNewHandlerIfNeeded", "namespacemrmeshpy.html#a8e3d5ccb11c7f8700aeed263da382b44", null ],
-    [ "setupLoggerByDefault", "namespacemrmeshpy.html#ab93b023ebf93ae3283e34c8a42bb5c9c", null ],
+    [ "setupLoggerByDefault", "namespacemrmeshpy.html#a219358576535e65a79a0d52ff68f7443", null ],
     [ "setValue", "namespacemrmeshpy.html#a2b0bffe41e46d874029583ccdb688383", null ],
     [ "setValue", "namespacemrmeshpy.html#a58f5adff49001d075aa109eea7515228", null ],
     [ "sharpenMarchingCubesMesh", "namespacemrmeshpy.html#ae6df06423723465790bb775474524eb4", null ],

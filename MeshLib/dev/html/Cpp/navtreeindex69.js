@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[6,0,1,0,0,0,4],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[6,0,2,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,0,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,0,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMRMeshRegions.html":[6,0,2,0,41],
 "structMRMeshRegions.html#ae634ea8ef970367d02f610541c6556ad":[6,0,2,0,41,1],
 "structMRMeshRegions.html#af6ead375ddc758b82a44ab6866dddb3b":[6,0,2,0,41,0],
-"structMRMeshSaveNamedXfMesh.html":[6,0,2,0,42],
-"structMRMeshSaveNamedXfMesh.html#a133ba28085351ed1b5bbd00fc9bef476":[6,0,2,0,42,2],
-"structMRMeshSaveNamedXfMesh.html#af076e7b4269e9b10f6396117b41bd43b":[6,0,2,0,42,0]
+"structMRMeshSaveNamedXfMesh.html":[6,0,2,0,42]
 };
