@@ -492,132 +492,136 @@ $(function(){initNavTree('MRMesh_2MRMeshTopology_8h_source.html',''); initResiza
 <div class="line"><a id="l00541" name="l00541"></a><span class="lineno">  541</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>    <span class="keywordtype">void</span> setOrg_( EdgeId a, VertId v );</div>
 <div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span> </div>
-<div class="line"><a id="l00546" name="l00546"></a><span class="lineno">  546</span>    <span class="keywordtype">void</span> setLeft_( EdgeId a, FaceId f );</div>
+<div class="line"><a id="l00546" name="l00546"></a><span class="lineno">  546</span>    <span class="keywordtype">void</span> fillOrg_();</div>
 <div class="line"><a id="l00547" name="l00547"></a><span class="lineno">  547</span> </div>
-<div class="line"><a id="l00549" name="l00549"></a><span class="lineno">  549</span>    <span class="keyword">struct </span><span class="keyword">alignas</span>( 16 ) HalfEdgeRecord</div>
-<div class="line"><a id="l00550" name="l00550"></a><span class="lineno">  550</span>    {</div>
-<div class="line"><a id="l00551" name="l00551"></a><span class="lineno">  551</span>        EdgeId next; </div>
-<div class="line"><a id="l00552" name="l00552"></a><span class="lineno">  552</span>        EdgeId prev; </div>
-<div class="line"><a id="l00553" name="l00553"></a><span class="lineno">  553</span>        VertId org;  </div>
-<div class="line"><a id="l00554" name="l00554"></a><span class="lineno">  554</span>        FaceId left; </div>
-<div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span> </div>
-<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>        <span class="keywordtype">bool</span> operator ==( <span class="keyword">const</span> HalfEdgeRecord&amp; b )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span><span class="keyword">        </span>{</div>
-<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>            <span class="keywordflow">return</span> next == b.next &amp;&amp; prev == b.prev &amp;&amp; org == b.org &amp;&amp; left == b.left;</div>
-<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span>        }</div>
-<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>        HalfEdgeRecord() noexcept = default;</div>
-<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>        explicit HalfEdgeRecord( <a class="code hl_struct" href="structMR_1_1NoInit.html">NoInit</a> ) noexcept : next( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ), prev( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ), org( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ), left( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ) {}</div>
-<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>    };</div>
-<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>    <span class="keyword">static_assert</span>( <span class="keyword">sizeof</span>( HalfEdgeRecord ) == 16 );</div>
-<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span> </div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> FM, <span class="keyword">typename</span> VM, <span class="keyword">typename</span> WEM&gt;</div>
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>    <span class="keywordtype">void</span> translateNoFlip_( HalfEdgeRecord &amp; r, <span class="keyword">const</span> FM &amp; fmap, <span class="keyword">const</span> VM &amp; vmap, <span class="keyword">const</span> WEM &amp; emap ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> FM, <span class="keyword">typename</span> VM, <span class="keyword">typename</span> WEM&gt;</div>
-<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>    <span class="keywordtype">void</span> translate_( HalfEdgeRecord &amp; r, HalfEdgeRecord &amp; rsym,</div>
-<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>        <span class="keyword">const</span> FM &amp; fmap, <span class="keyword">const</span> VM &amp; vmap, <span class="keyword">const</span> WEM &amp; emap, <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a> ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span> </div>
-<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>    Vector&lt;HalfEdgeRecord, EdgeId&gt; edges_;</div>
-<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span> </div>
-<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>    Vector&lt;EdgeId, VertId&gt; edgePerVertex_;</div>
-<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>    VertBitSet validVerts_; </div>
-<div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span> </div>
-<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>    Vector&lt;EdgeId, FaceId&gt; edgePerFace_;</div>
-<div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>    FaceBitSet validFaces_; </div>
-<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span> </div>
-<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    <span class="keywordtype">int</span> numValidVerts_ = 0; </div>
-<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>    <span class="keywordtype">int</span> numValidFaces_ = 0; </div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span> </div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>    <span class="keywordtype">bool</span> updateValids_ = <span class="keyword">true</span>; </div>
-<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>};</div>
-</div>
+<div class="line"><a id="l00549" name="l00549"></a><span class="lineno">  549</span>    <span class="keywordtype">void</span> setLeft_( EdgeId a, FaceId f );</div>
+<div class="line"><a id="l00550" name="l00550"></a><span class="lineno">  550</span> </div>
+<div class="line"><a id="l00552" name="l00552"></a><span class="lineno">  552</span>    <span class="keywordtype">void</span> fillLeft_();</div>
+<div class="line"><a id="l00553" name="l00553"></a><span class="lineno">  553</span> </div>
+<div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span>    <span class="keyword">struct </span><span class="keyword">alignas</span>( 16 ) HalfEdgeRecord</div>
+<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>    {</div>
+<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>        EdgeId next; </div>
+<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>        EdgeId prev; </div>
+<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span>        VertId org;  </div>
+<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>        FaceId left; </div>
+<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span> </div>
+<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>        <span class="keywordtype">bool</span> operator ==( <span class="keyword">const</span> HalfEdgeRecord&amp; b )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span><span class="keyword">        </span>{</div>
+<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>            <span class="keywordflow">return</span> next == b.next &amp;&amp; prev == b.prev &amp;&amp; org == b.org &amp;&amp; left == b.left;</div>
+<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>        }</div>
+<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>        HalfEdgeRecord() noexcept = default;</div>
+<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>        explicit HalfEdgeRecord( <a class="code hl_struct" href="structMR_1_1NoInit.html">NoInit</a> ) noexcept : next( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ), prev( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ), org( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ), left( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> ) {}</div>
+<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>    };</div>
+<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>    <span class="keyword">static_assert</span>( <span class="keyword">sizeof</span>( HalfEdgeRecord ) == 16 );</div>
+<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span> </div>
+<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> FM, <span class="keyword">typename</span> VM, <span class="keyword">typename</span> WEM&gt;</div>
+<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>    <span class="keywordtype">void</span> translateNoFlip_( HalfEdgeRecord &amp; r, <span class="keyword">const</span> FM &amp; fmap, <span class="keyword">const</span> VM &amp; vmap, <span class="keyword">const</span> WEM &amp; emap ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> FM, <span class="keyword">typename</span> VM, <span class="keyword">typename</span> WEM&gt;</div>
+<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>    <span class="keywordtype">void</span> translate_( HalfEdgeRecord &amp; r, HalfEdgeRecord &amp; rsym,</div>
+<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>        <span class="keyword">const</span> FM &amp; fmap, <span class="keyword">const</span> VM &amp; vmap, <span class="keyword">const</span> WEM &amp; emap, <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a> ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span> </div>
+<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>    Vector&lt;HalfEdgeRecord, EdgeId&gt; edges_;</div>
+<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span> </div>
+<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    Vector&lt;EdgeId, VertId&gt; edgePerVertex_;</div>
+<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    VertBitSet validVerts_; </div>
+<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span> </div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>    Vector&lt;EdgeId, FaceId&gt; edgePerFace_;</div>
+<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>    FaceBitSet validFaces_; </div>
 <div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span> </div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00590" data-start="{" data-end="}">
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno"><a class="line" href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">  590</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">MeshTopology::forEachVertex</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp; p, T &amp;&amp; callback )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> v = p.<a class="code hl_function" href="structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a">inVertex</a>( *<span class="keyword">this</span> ) )</div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    {</div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>        callback( v );</div>
-<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    }</div>
-<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> e = p.<a class="code hl_function" href="structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c">onEdge</a>( *<span class="keyword">this</span> ) )</div>
-<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>    {</div>
-<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>        callback( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a730ccabca6bf4811fd6b7a2a87bdce13">org</a>( e.e ) );</div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>        callback( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a4249f7a97c745af922214ed2ca58f20d">dest</a>( e.e ) );</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    <span class="keywordtype">int</span> numValidVerts_ = 0; </div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>    <span class="keywordtype">int</span> numValidFaces_ = 0; </div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span> </div>
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    <span class="keywordtype">bool</span> updateValids_ = <span class="keyword">true</span>; </div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>};</div>
+</div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span> </div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00596" data-start="{" data-end="}">
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno"><a class="line" href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">  596</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">MeshTopology::forEachVertex</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp; p, T &amp;&amp; callback )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> v = p.<a class="code hl_function" href="structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a">inVertex</a>( *<span class="keyword">this</span> ) )</div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>    {</div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>        callback( v );</div>
 <div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>        <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>    }</div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span> </div>
-<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>    VertId v[3];</div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>    <a class="code hl_function" href="classMR_1_1MeshTopology.html#a17820a4dfe0d723e13b05547d2c01104">getLeftTriVerts</a>( p.<a class="code hl_variable" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">e</a>, v );</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 3; ++i )</div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>        callback( v[i] );</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>}</div>
-</div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> e = p.<a class="code hl_function" href="structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c">onEdge</a>( *<span class="keyword">this</span> ) )</div>
+<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>    {</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>        callback( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a730ccabca6bf4811fd6b7a2a87bdce13">org</a>( e.e ) );</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>        callback( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a4249f7a97c745af922214ed2ca58f20d">dest</a>( e.e ) );</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    }</div>
 <div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span> </div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00611" data-start="{" data-end="}">
-<div class="line"><a id="l00611" name="l00611"></a><span class="lineno"><a class="line" href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">  611</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">MeshTopology::flipEdgesIn</a>( <span class="keyword">const</span> EdgeId e0, T &amp;&amp; flipNeeded )</div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>{</div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    EdgeId e = e0;</div>
-<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>    <span class="keywordflow">for</span> (;;)</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>    {</div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>        <span class="keyword">auto</span> testEdge = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a7b32ade5428d261aa511099eff6788c0">prev</a>( e.sym() );</div>
-<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>        <span class="keywordflow">if</span> ( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a32ef296197eb1631ca3af65f4614024a">left</a>( testEdge ) &amp;&amp; <a class="code hl_function" href="classMR_1_1MeshTopology.html#ad584643e2e3233eea5dbb51eab4b1ba0">right</a>( testEdge ) &amp;&amp; flipNeeded( testEdge ) )</div>
-<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>            <a class="code hl_function" href="classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4">flipEdge</a>( testEdge );</div>
-<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>        {</div>
-<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>            e = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a>( e );</div>
-<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>            <span class="keywordflow">if</span> ( e == e0 )</div>
-<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>                <span class="keywordflow">break</span>; <span class="comment">// full ring has been inspected</span></div>
-<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>        }</div>
-<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>    }</div>
-<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>}</div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    VertId v[3];</div>
+<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>    <a class="code hl_function" href="classMR_1_1MeshTopology.html#a17820a4dfe0d723e13b05547d2c01104">getLeftTriVerts</a>( p.<a class="code hl_variable" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">e</a>, v );</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 3; ++i )</div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>        callback( v[i] );</div>
+<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>}</div>
 </div>
-<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span> </div>
-<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00629" data-start="{" data-end="}">
-<div class="line"><a id="l00629" name="l00629"></a><span class="lineno"><a class="line" href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">  629</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">MeshTopology::flipEdgesOut</a>( EdgeId e0, T &amp;&amp; flipNeeded )</div>
-<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>{</div>
-<div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span>    EdgeId e = e0;</div>
-<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>    <span class="keywordflow">for</span> (;;)</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>    {</div>
-<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>        <span class="keywordflow">if</span> ( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a32ef296197eb1631ca3af65f4614024a">left</a>( e ) &amp;&amp; <a class="code hl_function" href="classMR_1_1MeshTopology.html#ad584643e2e3233eea5dbb51eab4b1ba0">right</a>( e ) &amp;&amp; flipNeeded( e ) )</div>
-<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>        {</div>
-<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>            e0 = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a>( e );</div>
-<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>            <a class="code hl_function" href="classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4">flipEdge</a>( e );</div>
-<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>            e = e0;</div>
-<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>        }</div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span> </div>
+<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00617" data-start="{" data-end="}">
+<div class="line"><a id="l00617" name="l00617"></a><span class="lineno"><a class="line" href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">  617</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">MeshTopology::flipEdgesIn</a>( <span class="keyword">const</span> EdgeId e0, T &amp;&amp; flipNeeded )</div>
+<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>{</div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>    EdgeId e = e0;</div>
+<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>    <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>    {</div>
+<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>        <span class="keyword">auto</span> testEdge = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a7b32ade5428d261aa511099eff6788c0">prev</a>( e.sym() );</div>
+<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>        <span class="keywordflow">if</span> ( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a32ef296197eb1631ca3af65f4614024a">left</a>( testEdge ) &amp;&amp; <a class="code hl_function" href="classMR_1_1MeshTopology.html#ad584643e2e3233eea5dbb51eab4b1ba0">right</a>( testEdge ) &amp;&amp; flipNeeded( testEdge ) )</div>
+<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>            <a class="code hl_function" href="classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4">flipEdge</a>( testEdge );</div>
+<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>        {</div>
+<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>            e = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a>( e );</div>
+<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>            <span class="keywordflow">if</span> ( e == e0 )</div>
+<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>                <span class="keywordflow">break</span>; <span class="comment">// full ring has been inspected</span></div>
+<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>        }</div>
+<div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span>    }</div>
+<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>}</div>
+</div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span> </div>
+<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00635" data-start="{" data-end="}">
+<div class="line"><a id="l00635" name="l00635"></a><span class="lineno"><a class="line" href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">  635</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">MeshTopology::flipEdgesOut</a>( EdgeId e0, T &amp;&amp; flipNeeded )</div>
+<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>{</div>
+<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>    EdgeId e = e0;</div>
+<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    {</div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>        <span class="keywordflow">if</span> ( <a class="code hl_function" href="classMR_1_1MeshTopology.html#a32ef296197eb1631ca3af65f4614024a">left</a>( e ) &amp;&amp; <a class="code hl_function" href="classMR_1_1MeshTopology.html#ad584643e2e3233eea5dbb51eab4b1ba0">right</a>( e ) &amp;&amp; flipNeeded( e ) )</div>
 <div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>        {</div>
-<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>            e = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a>( e );</div>
-<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>            <span class="keywordflow">if</span> ( e == e0 )</div>
-<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>                <span class="keywordflow">break</span>; <span class="comment">// full ring has been inspected</span></div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>            e0 = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a>( e );</div>
+<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>            <a class="code hl_function" href="classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4">flipEdge</a>( e );</div>
+<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>            e = e0;</div>
 <div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>        }</div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>    }</div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>}</div>
+<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>        {</div>
+<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>            e = <a class="code hl_function" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a>( e );</div>
+<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>            <span class="keywordflow">if</span> ( e == e0 )</div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>                <span class="keywordflow">break</span>; <span class="comment">// full ring has been inspected</span></div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>        }</div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    }</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>}</div>
 </div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span> </div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span><span class="comment">// rearrange vector values by map (old.id -&gt; new.id)</span></div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
-<div class="foldopen" id="foldopen00651" data-start="{" data-end="}">
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d">  651</a></span>[[nodiscard]] <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, I&gt;</a> <a class="code hl_function" href="namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d">rearrangeVectorByMap</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, I&gt;</a>&amp; oldVector, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;I, I&gt;</a>&amp; map )</div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>{</div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, I&gt;</a> newVector;</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    newVector.<a class="code hl_function" href="classMR_1_1Vector.html#a2c8202f5b1a09ebf0bd5a5a3dc2936fd">resize</a>( map.<a class="code hl_variable" href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">tsize</a> );</div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span> </div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    <span class="keyword">const</span> <span class="keyword">auto</span>&amp; mData = map.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a">data</a>();</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    <span class="keyword">const</span> <span class="keyword">auto</span> sz = std::min( oldVector.<a class="code hl_function" href="classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>(), map.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a>() );</div>
-<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    <span class="keywordflow">for</span> ( <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i = <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>(0); i &lt; sz; ++i)</div>
-<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    {</div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>        <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> newV = mData[i];</div>
-<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>        <span class="keywordflow">if</span> ( newV.valid() )</div>
-<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>            newVector[newV] = oldVector[i];</div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    }</div>
-<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>    <span class="keywordflow">return</span> newVector;</div>
-<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>}</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span> </div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span><span class="comment">// rearrange vector values by map (old.id -&gt; new.id)</span></div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
+<div class="foldopen" id="foldopen00657" data-start="{" data-end="}">
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d">  657</a></span>[[nodiscard]] <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, I&gt;</a> <a class="code hl_function" href="namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d">rearrangeVectorByMap</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, I&gt;</a>&amp; oldVector, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;I, I&gt;</a>&amp; map )</div>
+<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>{</div>
+<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, I&gt;</a> newVector;</div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    newVector.<a class="code hl_function" href="classMR_1_1Vector.html#a2c8202f5b1a09ebf0bd5a5a3dc2936fd">resize</a>( map.<a class="code hl_variable" href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">tsize</a> );</div>
+<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span> </div>
+<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>    <span class="keyword">const</span> <span class="keyword">auto</span>&amp; mData = map.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a">data</a>();</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    <span class="keyword">const</span> <span class="keyword">auto</span> sz = std::min( oldVector.<a class="code hl_function" href="classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>(), map.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a>() );</div>
+<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>    <span class="keywordflow">for</span> ( <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i = <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>(0); i &lt; sz; ++i)</div>
+<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    {</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>        <a class="code hl_variable" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> newV = mData[i];</div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>        <span class="keywordflow">if</span> ( newV.valid() )</div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>            newVector[newV] = oldVector[i];</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    }</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    <span class="keywordflow">return</span> newVector;</div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>}</div>
 </div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span> </div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span> </div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRId_8h_html"><div class="ttname"><a href="MRMesh_2MRId_8h.html">MRId.h</a></div></div>
@@ -631,7 +635,7 @@ $(function(){initNavTree('MRMesh_2MRMeshTopology_8h_source.html',''); initResiza
 <div class="ttc" id="aclassMR_1_1MeshTopologyDiff_html"><div class="ttname"><a href="classMR_1_1MeshTopologyDiff.html">MR::MeshTopologyDiff</a></div><div class="ttdef"><b>Definition</b> MRMeshTopologyDiff.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a003b769e8bf22c99726d375fc83867bc"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a003b769e8bf22c99726d375fc83867bc">MR::MeshTopology::getLeftRing</a></div><div class="ttdeci">MRMESH_API EdgeLoop getLeftRing(EdgeId e) const</div><div class="ttdoc">returns full edge-loop of left face from (e) starting from (e) itself</div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html_a0204101063d00f8b0784f8488ba43a0e"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">MR::MeshTopology::flipEdgesIn</a></div><div class="ttdeci">void flipEdgesIn(EdgeId e0, T &amp;&amp;flipNeeded)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:611</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html_a0204101063d00f8b0784f8488ba43a0e"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">MR::MeshTopology::flipEdgesIn</a></div><div class="ttdeci">void flipEdgesIn(EdgeId e0, T &amp;&amp;flipNeeded)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:617</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a02c64dbc25f16f26a759e6e3f1662a2f"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a02c64dbc25f16f26a759e6e3f1662a2f">MR::MeshTopology::findBoundaryFaces</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE FaceBitSet findBoundaryFaces(const FaceBitSet *region=nullptr) const</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a033cca6b8c6dc4e8ebac02a2a9b02268"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a033cca6b8c6dc4e8ebac02a2a9b02268">MR::MeshTopology::getTriVerts</a></div><div class="ttdeci">MR_BIND_IGNORE void getTriVerts(FaceId f, VertId(&amp;v)[3]) const</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:136</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a061c9ff212341377b260f4fc4881f378"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a061c9ff212341377b260f4fc4881f378">MR::MeshTopology::faceCapacity</a></div><div class="ttdeci">size_t faceCapacity() const</div><div class="ttdoc">returns the number of allocated face records</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:274</div></div>
@@ -649,7 +653,7 @@ $(function(){initNavTree('MRMesh_2MRMeshTopology_8h_source.html',''); initResiza
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a1ea6cf9a730f10c9a99cb768c9be48f7"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a1ea6cf9a730f10c9a99cb768c9be48f7">MR::MeshTopology::faceResizeWithReserve</a></div><div class="ttdeci">MRMESH_API void faceResizeWithReserve(size_t newSize)</div><div class="ttdoc">explicitly increases the size of faces vector, doubling the current capacity if it was not enough</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a1f05838eef4373b90f1a9f2c1dda088b"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a1f05838eef4373b90f1a9f2c1dda088b">MR::MeshTopology::fromSameOriginRing</a></div><div class="ttdeci">MRMESH_API bool fromSameOriginRing(EdgeId a, EdgeId b) const</div><div class="ttdoc">returns true if a and b are both from the same origin ring</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a205a1c451bc142cebb49cc249e48e9e8"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a205a1c451bc142cebb49cc249e48e9e8">MR::MeshTopology::prevLeftBd</a></div><div class="ttdeci">MRMESH_API EdgeId prevLeftBd(EdgeId e, const FaceBitSet *region=nullptr) const</div><div class="ttdoc">given a (region) boundary edge with no right face in given region, returns previous boundary edge for...</div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html_a212723bf6e50621443bb5b341cc2ff98"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">MR::MeshTopology::flipEdgesOut</a></div><div class="ttdeci">void flipEdgesOut(EdgeId e0, T &amp;&amp;flipNeeded)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:629</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html_a212723bf6e50621443bb5b341cc2ff98"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">MR::MeshTopology::flipEdgesOut</a></div><div class="ttdeci">void flipEdgesOut(EdgeId e0, T &amp;&amp;flipNeeded)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:635</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a2513f0e86125d09a7b6d86f1dfa10dad"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a2513f0e86125d09a7b6d86f1dfa10dad">MR::MeshTopology::findBdVerts</a></div><div class="ttdeci">MRMESH_API VertBitSet findBdVerts(const FaceBitSet *region=nullptr, const VertBitSet *test=nullptr) const</div><div class="ttdoc">returns all (test) vertices for which isBdVertex(v, region) is true</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a26bf81ee58d7f26387953a726a08f0a7"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a26bf81ee58d7f26387953a726a08f0a7">MR::MeshTopology::faceReserve</a></div><div class="ttdeci">void faceReserve(size_t newCapacity)</div><div class="ttdoc">sets the capacity of faces vector</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:268</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a26fb1755e53d61c7a438428f27b95f78"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a26fb1755e53d61c7a438428f27b95f78">MR::MeshTopology::isLeftInRegion</a></div><div class="ttdeci">bool isLeftInRegion(EdgeId e, const FaceBitSet *region=nullptr) const</div><div class="ttdoc">return true if left face of given edge belongs to region (or just have valid id if region is nullptr)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:310</div></div>
@@ -733,7 +737,7 @@ $(function(){initNavTree('MRMesh_2MRMeshTopology_8h_source.html',''); initResiza
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_aa6c22dff08760121aab8fa1985789ad3"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aa6c22dff08760121aab8fa1985789ad3">MR::MeshTopology::getPathRightFaces</a></div><div class="ttdeci">MRMESH_API FaceBitSet getPathRightFaces(const EdgePath &amp;path) const</div><div class="ttdoc">returns all valid right faces of path edges</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_aacf6c1f096fab25e975527557e03119d"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aacf6c1f096fab25e975527557e03119d">MR::MeshTopology::getPathVertices</a></div><div class="ttdeci">MRMESH_API VertBitSet getPathVertices(const EdgePath &amp;path) const</div><div class="ttdoc">returns all vertices incident to path edges</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_aad1332dd8dcb5313669c153e84c812be"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aad1332dd8dcb5313669c153e84c812be">MR::MeshTopology::getTriangulation</a></div><div class="ttdeci">MRMESH_API Triangulation getTriangulation() const</div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html_aad405e625450208e48d0237b9b5f53e8"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">MR::MeshTopology::forEachVertex</a></div><div class="ttdeci">void forEachVertex(const MeshTriPoint &amp;p, T &amp;&amp;callback) const</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:590</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html_aad405e625450208e48d0237b9b5f53e8"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">MR::MeshTopology::forEachVertex</a></div><div class="ttdeci">void forEachVertex(const MeshTriPoint &amp;p, T &amp;&amp;callback) const</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:596</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_aaf36cd88b1e30e757dddaea4c644ee0e"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aaf36cd88b1e30e757dddaea4c644ee0e">MR::MeshTopology::getLeftTriEdges</a></div><div class="ttdeci">MRMESH_API void getLeftTriEdges(EdgeId e0, EdgeId &amp;e1, EdgeId &amp;e2) const</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_ab2810fe9c6b38f4a0926069ab58120ea"><div class="ttname"><a href="classMR_1_1MeshTopology.html#ab2810fe9c6b38f4a0926069ab58120ea">MR::MeshTopology::addFaceId</a></div><div class="ttdeci">FaceId addFaceId()</div><div class="ttdoc">creates new face-id not associated with any edge yet</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:253</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_ab32e7a532e75f1ace4b5098a79764cab"><div class="ttname"><a href="classMR_1_1MeshTopology.html#ab32e7a532e75f1ace4b5098a79764cab">MR::MeshTopology::flipEdgesOut</a></div><div class="ttdeci">void flipEdgesOut(VertId v, T &amp;&amp;flipNeeded)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:423</div></div>
@@ -789,7 +793,7 @@ $(function(){initNavTree('MRMesh_2MRMeshTopology_8h_source.html',''); initResiza
 <div class="ttc" id="anamespaceMR_html_a9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle with the corners in vertices given by their ids</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:515</div></div>
 <div class="ttc" id="anamespaceMR_html_aaa8f63a4fb4dcabf0f8f1dc79cdeee90"><div class="ttname"><a href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">MR::noInit</a></div><div class="ttdeci">constexpr NoInit noInit</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:95</div></div>
 <div class="ttc" id="anamespaceMR_html_aae89e209e34f26d7ae6dcc7b5e7d2851"><div class="ttname"><a href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">MR::I</a></div><div class="ttdeci">I</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:134</div></div>
-<div class="ttc" id="anamespaceMR_html_aaf3190c056e93a1b63f3643cef77443d"><div class="ttname"><a href="namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d">MR::rearrangeVectorByMap</a></div><div class="ttdeci">Vector&lt; T, I &gt; rearrangeVectorByMap(const Vector&lt; T, I &gt; &amp;oldVector, const BMap&lt; I, I &gt; &amp;map)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:651</div></div>
+<div class="ttc" id="anamespaceMR_html_aaf3190c056e93a1b63f3643cef77443d"><div class="ttname"><a href="namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d">MR::rearrangeVectorByMap</a></div><div class="ttdeci">Vector&lt; T, I &gt; rearrangeVectorByMap(const Vector&lt; T, I &gt; &amp;oldVector, const BMap&lt; I, I &gt; &amp;map)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:657</div></div>
 <div class="ttc" id="anamespaceMR_html_ac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:10</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html"><div class="ttname"><a href="structMR_1_1BMap.html">MR::BMap</a></div><div class="ttdoc">flat map: I -&gt; T</div><div class="ttdef"><b>Definition</b> MRBuffer.h:143</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html_a092cf8a0fd74634e6e4d50b8cfc9956d"><div class="ttname"><a href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">MR::BMap::b</a></div><div class="ttdeci">Buffer&lt; T, I &gt; b</div><div class="ttdef"><b>Definition</b> MRBuffer.h:144</div></div>
