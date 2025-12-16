@@ -224,6 +224,7 @@ var annotated_dup =
         [ "CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
         [ "CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", "structMR_1_1UI_1_1CheckboxOrModifierState" ],
         [ "CustomConfigModalSettings", "structMR_1_1UI_1_1CustomConfigModalSettings.html", "structMR_1_1UI_1_1CustomConfigModalSettings" ],
+        [ "Disabler", "classMR_1_1UI_1_1Disabler.html", "classMR_1_1UI_1_1Disabler" ],
         [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
         [ "LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", "classMR_1_1UI_1_1LineAntialiasingDisabler" ],
         [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],

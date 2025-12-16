@@ -8,6 +8,7 @@ var MRUIStyle_8h =
     [ "MR::UI::CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
     [ "MR::UI::SeparatorParams", "structMR_1_1UI_1_1SeparatorParams.html", "structMR_1_1UI_1_1SeparatorParams" ],
     [ "MR::UI::CustomConfigModalSettings", "structMR_1_1UI_1_1CustomConfigModalSettings.html", "structMR_1_1UI_1_1CustomConfigModalSettings" ],
+    [ "MR::UI::Disabler", "classMR_1_1UI_1_1Disabler.html", "classMR_1_1UI_1_1Disabler" ],
     [ "MR::UI::LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", "classMR_1_1UI_1_1LineAntialiasingDisabler" ],
     [ "MR::UI::detail::Scalar", "conceptMR_1_1UI_1_1detail_1_1Scalar.html", null ],
     [ "MR::UI::detail::VectorOrScalar", "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html", null ],

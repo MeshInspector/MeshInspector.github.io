@@ -636,27 +636,27 @@ $(function(){initNavTree('MRUIStyle_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span> </div>
 <div class="line"><a id="l00564" name="l00564"></a><span class="lineno"><a class="line" href="namespaceMR_1_1UI.html#ac87e004a565fe8b0a9d822499a594fb7">  564</a></span>MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR_1_1UI.html#ac87e004a565fe8b0a9d822499a594fb7">saveCustomConfigModal</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UI_1_1CustomConfigModalSettings.html">CustomConfigModalSettings</a>&amp; settings );</div>
 <div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span> </div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span><span class="comment">// While this exists, it temporarily disables antialiasing for the lines drawn to this list.</span></div>
+<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span><span class="comment">// While this exists, it temporarily disables in the given list the flags with 0 bits in the given mask</span></div>
 <div class="foldopen" id="foldopen00567" data-start="{" data-end="};">
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">  567</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">LineAntialiasingDisabler</a></div>
+<div class="line"><a id="l00567" name="l00567"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1Disabler.html">  567</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1UI_1_1Disabler.html">Disabler</a></div>
 <div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>{</div>
 <div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>    ImDrawList&amp; list;</div>
 <div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>    ImDrawFlags oldFlags{};</div>
 <div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span> </div>
 <div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00573" data-start="{" data-end="}">
-<div class="line"><a id="l00573" name="l00573"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7">  573</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7">LineAntialiasingDisabler</a>( ImDrawList&amp; list )</div>
+<div class="line"><a id="l00573" name="l00573"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1Disabler.html#a3bf945275917a83dc236e989d7496f33">  573</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1Disabler.html#a3bf945275917a83dc236e989d7496f33">Disabler</a>( ImDrawList&amp; list, ImDrawFlags mask )</div>
 <div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>        : list( list ), oldFlags( list.Flags )</div>
 <div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>    {</div>
-<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>        list.Flags &amp;= ~ImDrawListFlags_AntiAliasedLines;</div>
+<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>        list.Flags &amp;= mask;</div>
 <div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>    }</div>
 </div>
 <div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span> </div>
-<div class="line"><a id="l00579" name="l00579"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a4c1bcced668486eea2307f7544fc7f6c">  579</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a4c1bcced668486eea2307f7544fc7f6c">LineAntialiasingDisabler</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">LineAntialiasingDisabler</a>&amp; ) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00580" name="l00580"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2">  580</a></span>    <a class="code hl_class" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">LineAntialiasingDisabler</a>&amp; <a class="code hl_function" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2">operator=</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">LineAntialiasingDisabler</a>&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00579" name="l00579"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1Disabler.html#a0cc0c3a1ab599cbdc2aecd9e4b1c3b17">  579</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1Disabler.html#a0cc0c3a1ab599cbdc2aecd9e4b1c3b17">Disabler</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1UI_1_1Disabler.html">Disabler</a>&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00580" name="l00580"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1Disabler.html#a686800cf738a0eed6cba651c112745b3">  580</a></span>    <a class="code hl_class" href="classMR_1_1UI_1_1Disabler.html">Disabler</a>&amp; <a class="code hl_function" href="classMR_1_1UI_1_1Disabler.html#a686800cf738a0eed6cba651c112745b3">operator=</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1UI_1_1Disabler.html">Disabler</a>&amp; ) = <span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span> </div>
 <div class="foldopen" id="foldopen00582" data-start="{" data-end="}">
-<div class="line"><a id="l00582" name="l00582"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a69fc4df33a2c9a777ba5a28e3a7245ae">  582</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a69fc4df33a2c9a777ba5a28e3a7245ae">~LineAntialiasingDisabler</a>()</div>
+<div class="line"><a id="l00582" name="l00582"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1Disabler.html#affd2aaf477dac1d4a2d4050e7dbf0ee4">  582</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1Disabler.html#affd2aaf477dac1d4a2d4050e7dbf0ee4">~Disabler</a>()</div>
 <div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    {</div>
 <div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>        list.Flags = oldFlags;</div>
 <div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    }</div>
@@ -664,22 +664,37 @@ $(function(){initNavTree('MRUIStyle_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>};</div>
 </div>
 <div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span> </div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>} <span class="comment">// namespace UI</span></div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span> </div>
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>}</div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span> </div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span><span class="preprocessor">#include &quot;MRUIStyle.ipp&quot;</span></div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span><span class="comment">// While this exists, it temporarily disables antialiasing for the lines drawn to this list.</span></div>
+<div class="foldopen" id="foldopen00589" data-start="{" data-end="};">
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">  589</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">LineAntialiasingDisabler</a> : <a class="code hl_class" href="classMR_1_1UI_1_1Disabler.html">Disabler</a></div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>{</div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00592" data-start="{" data-end="}">
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno"><a class="line" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7">  592</a></span>    <a class="code hl_function" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7">LineAntialiasingDisabler</a>( ImDrawList&amp; list ) : <a class="code hl_class" href="classMR_1_1UI_1_1Disabler.html">Disabler</a>( list, ~ImDrawListFlags_AntiAliasedLines )</div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    {</div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>    }</div>
+</div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>};</div>
+</div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span> </div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>} <span class="comment">// namespace UI</span></div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span> </div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>}</div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span> </div>
+<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span><span class="preprocessor">#include &quot;MRUIStyle.ipp&quot;</span></div>
 <div class="ttc" id="aMRFinally_8h_html"><div class="ttname"><a href="MRFinally_8h.html">MRFinally.h</a></div></div>
 <div class="ttc" id="aMRImGui_8h_html"><div class="ttname"><a href="MRImGui_8h.html">MRImGui.h</a></div></div>
 <div class="ttc" id="aMRNotificationType_8h_html"><div class="ttname"><a href="MRNotificationType_8h.html">MRNotificationType.h</a></div></div>
 <div class="ttc" id="aMRUnits_8h_html"><div class="ttname"><a href="MRUnits_8h.html">MRUnits.h</a></div></div>
 <div class="ttc" id="aMRViewer_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRViewer_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ImGuiImage_html"><div class="ttname"><a href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a></div><div class="ttdef"><b>Definition</b> MRImGuiImage.h:15</div></div>
-<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">MR::UI::LineAntialiasingDisabler</a></div><div class="ttdef"><b>Definition</b> MRUIStyle.h:568</div></div>
-<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html_a2afdce202165a67c850a8ee3a43d33e2"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2">MR::UI::LineAntialiasingDisabler::operator=</a></div><div class="ttdeci">LineAntialiasingDisabler &amp; operator=(const LineAntialiasingDisabler &amp;)=delete</div></div>
-<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html_a3e96e121ccb7297da23e022c771758d7"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7">MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</a></div><div class="ttdeci">LineAntialiasingDisabler(ImDrawList &amp;list)</div><div class="ttdef"><b>Definition</b> MRUIStyle.h:573</div></div>
-<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html_a4c1bcced668486eea2307f7544fc7f6c"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a4c1bcced668486eea2307f7544fc7f6c">MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</a></div><div class="ttdeci">LineAntialiasingDisabler(const LineAntialiasingDisabler &amp;)=delete</div></div>
-<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html_a69fc4df33a2c9a777ba5a28e3a7245ae"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a69fc4df33a2c9a777ba5a28e3a7245ae">MR::UI::LineAntialiasingDisabler::~LineAntialiasingDisabler</a></div><div class="ttdeci">~LineAntialiasingDisabler()</div><div class="ttdef"><b>Definition</b> MRUIStyle.h:582</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1Disabler_html"><div class="ttname"><a href="classMR_1_1UI_1_1Disabler.html">MR::UI::Disabler</a></div><div class="ttdef"><b>Definition</b> MRUIStyle.h:568</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1Disabler_html_a0cc0c3a1ab599cbdc2aecd9e4b1c3b17"><div class="ttname"><a href="classMR_1_1UI_1_1Disabler.html#a0cc0c3a1ab599cbdc2aecd9e4b1c3b17">MR::UI::Disabler::Disabler</a></div><div class="ttdeci">Disabler(const Disabler &amp;)=delete</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1Disabler_html_a3bf945275917a83dc236e989d7496f33"><div class="ttname"><a href="classMR_1_1UI_1_1Disabler.html#a3bf945275917a83dc236e989d7496f33">MR::UI::Disabler::Disabler</a></div><div class="ttdeci">Disabler(ImDrawList &amp;list, ImDrawFlags mask)</div><div class="ttdef"><b>Definition</b> MRUIStyle.h:573</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1Disabler_html_a686800cf738a0eed6cba651c112745b3"><div class="ttname"><a href="classMR_1_1UI_1_1Disabler.html#a686800cf738a0eed6cba651c112745b3">MR::UI::Disabler::operator=</a></div><div class="ttdeci">Disabler &amp; operator=(const Disabler &amp;)=delete</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1Disabler_html_affd2aaf477dac1d4a2d4050e7dbf0ee4"><div class="ttname"><a href="classMR_1_1UI_1_1Disabler.html#affd2aaf477dac1d4a2d4050e7dbf0ee4">MR::UI::Disabler::~Disabler</a></div><div class="ttdeci">~Disabler()</div><div class="ttdef"><b>Definition</b> MRUIStyle.h:582</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">MR::UI::LineAntialiasingDisabler</a></div><div class="ttdef"><b>Definition</b> MRUIStyle.h:590</div></div>
+<div class="ttc" id="aclassMR_1_1UI_1_1LineAntialiasingDisabler_html_a3e96e121ccb7297da23e022c771758d7"><div class="ttname"><a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7">MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</a></div><div class="ttdeci">LineAntialiasingDisabler(ImDrawList &amp;list)</div><div class="ttdef"><b>Definition</b> MRUIStyle.h:592</div></div>
 <div class="ttc" id="aconceptMR_1_1UI_1_1detail_1_1Scalar_html"><div class="ttname"><a href="conceptMR_1_1UI_1_1detail_1_1Scalar.html">MR::UI::detail::Scalar</a></div><div class="ttdef"><b>Definition</b> MRUIStyle.h:347</div></div>
 <div class="ttc" id="aconceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType_html"><div class="ttname"><a href="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html">MR::UI::detail::ValidBoundForTargetType</a></div><div class="ttdef"><b>Definition</b> MRUIStyle.h:356</div></div>
 <div class="ttc" id="aconceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType_html"><div class="ttname"><a href="conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html">MR::UI::detail::ValidDragSpeedForTargetType</a></div><div class="ttdef"><b>Definition</b> MRUIStyle.h:363</div></div>

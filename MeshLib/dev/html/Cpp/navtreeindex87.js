@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1PdfParameters.html#a82fb3310291f6dec673c248905b9f0dc":[6,0,2,0,1,495,1],
+"structMR_1_1PdfParameters.html#aafdf0267b27a923d80ab96f114d2fcfe":[6,0,1,0,1,514,2],
+"structMR_1_1PdfParameters.html#aafdf0267b27a923d80ab96f114d2fcfe":[6,0,2,0,1,495,2],
+"structMR_1_1PdfParameters.html#abd6876673f453aef907357a9eceb4996":[6,0,1,0,1,514,3],
 "structMR_1_1PdfParameters.html#abd6876673f453aef907357a9eceb4996":[6,0,2,0,1,495,3],
 "structMR_1_1Pdf_1_1Cell.html":[6,0,1,0,1,513,0],
 "structMR_1_1Pdf_1_1Cell.html":[6,0,2,0,1,494,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0":[6,0,0,12,0,6],
 "structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
 "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
-"structMR_1_1PointCloudPart.html":[6,0,1,0,1,531],
-"structMR_1_1PointCloudPart.html":[6,0,2,0,1,512],
-"structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,1,0,1,531,2],
-"structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,2,0,1,512,2],
-"structMR_1_1PointCloudPart.html#a85d4aad70140445a8b9ebadbc4382363":[6,0,1,0,1,531,3]
+"structMR_1_1PointCloudPart.html":[6,0,1,0,1,531]
 };
