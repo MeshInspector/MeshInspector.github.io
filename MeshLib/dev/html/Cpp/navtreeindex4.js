@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRIOFormatsRegistry_8h.html#a8ae6f7708b824cc0f04cc50452e56429":[6,0,3,0,0,1,4,153,13],
 "MRIOFormatsRegistry_8h.html#a8ba03f82b986b90262ac83290496a441":[6,0,3,0,0,1,4,153,40],
 "MRIOFormatsRegistry_8h.html#a90da90447771026ea69eb4b7e8a2c5af":[6,0,3,0,0,1,4,153,38],
 "MRIOFormatsRegistry_8h.html#a91fa82c0ce46221f41621f5c4457b5ce":[6,0,3,0,0,1,4,153,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRMacros_8h.html#acaebd39479bb9677a7e966765a052de4":[6,0,3,0,0,1,4,172,1],
 "MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb":[6,0,3,0,0,1,4,172,12],
 "MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a":[6,0,3,0,0,1,4,172,11],
-"MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949":[6,0,3,0,0,1,4,172,8],
-"MRMacros_8h_source.html":[6,0,3,0,0,1,4,172]
+"MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949":[6,0,3,0,0,1,4,172,8]
 };

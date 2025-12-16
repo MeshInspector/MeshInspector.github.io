@@ -90,7 +90,7 @@ var classMR_1_1Viewer =
     [ "isGLInitialized", "classMR_1_1Viewer.html#a44dcab99aafe4a71d2890df4698179a1", null ],
     [ "isGlobalHistoryEnabled", "classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4", null ],
     [ "isLaunched", "classMR_1_1Viewer.html#a881f953c9d192cce78219319c2cdf0bb", null ],
-    [ "isMultiViewport", "classMR_1_1Viewer.html#a72f4b5aa531fc207e9d0d3235114bba4", null ],
+    [ "isMultiViewportAvailable", "classMR_1_1Viewer.html#ab3e4db0391fda67c96207402df70ef8d", null ],
     [ "isSceneTextureBound", "classMR_1_1Viewer.html#aeb78cc316a414e397c55a35a9e0fa39d", null ],
     [ "isSceneTextureEnabled", "classMR_1_1Viewer.html#af9288bd86d5b22fdacb06b171e7b440c", null ],
     [ "isSupportedFormat", "classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853", null ],

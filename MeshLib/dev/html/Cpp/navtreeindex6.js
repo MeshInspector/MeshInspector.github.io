@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,1,5,14],
 "MRMeshC_2MRFloatGrid_8h.html":[6,0,3,0,0,1,5,15],
 "MRMeshC_2MRFloatGrid_8h.html#a489ccd1b1c2611dbc75756815af8569a":[6,0,3,0,0,1,5,15,3],
 "MRMeshC_2MRFloatGrid_8h.html#a5d5e5669c333acf93208bdc16ccb0a94":[6,0,3,0,0,1,5,15,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRMeshMetrics_8h.html":[6,0,3,0,0,1,5,40],
 "MRMeshC_2MRMeshMetrics_8h.html#a039ab12cbc75ca2813c259f9724b5136":[6,0,3,0,0,1,5,40,11],
 "MRMeshC_2MRMeshMetrics_8h.html#a1264c3916b7890813b180b08138fec0c":[6,0,3,0,0,1,5,40,9],
-"MRMeshC_2MRMeshMetrics_8h.html#a255c2b2dd7374cc784f3f1a11d3dfcd6":[6,0,3,0,0,1,5,40,7],
-"MRMeshC_2MRMeshMetrics_8h.html#a2b6934ebbcbfea0b07d52d6e62bdd6c8":[6,0,3,0,0,1,5,40,3]
+"MRMeshC_2MRMeshMetrics_8h.html#a255c2b2dd7374cc784f3f1a11d3dfcd6":[6,0,3,0,0,1,5,40,7]
 };

@@ -480,8 +480,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4982baeba6e7a4cf6b8dcfc47b80e5f7" id="r_a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4982baeba6e7a4cf6b8dcfc47b80e5f7">drawUiRenderObjects</a> ()</td></tr>
 <tr class="memdesc:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw 2d (<a class="el" href="namespaceMR_1_1UI.html">UI</a>) part of objects in scene  <br /></td></tr>
 <tr class="separator:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72f4b5aa531fc207e9d0d3235114bba4" id="r_a72f4b5aa531fc207e9d0d3235114bba4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72f4b5aa531fc207e9d0d3235114bba4">isMultiViewport</a> ()</td></tr>
-<tr class="separator:a72f4b5aa531fc207e9d0d3235114bba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e4db0391fda67c96207402df70ef8d" id="r_ab3e4db0391fda67c96207402df70ef8d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e4db0391fda67c96207402df70ef8d">isMultiViewportAvailable</a> ()</td></tr>
+<tr class="separator:ab3e4db0391fda67c96207402df70ef8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -2127,21 +2127,21 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="a72f4b5aa531fc207e9d0d3235114bba4" name="a72f4b5aa531fc207e9d0d3235114bba4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72f4b5aa531fc207e9d0d3235114bba4">&#9670;&#160;</a></span>isMultiViewport()</h2>
+<a id="ab3e4db0391fda67c96207402df70ef8d" name="ab3e4db0391fda67c96207402df70ef8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e4db0391fda67c96207402df70ef8d">&#9670;&#160;</a></span>isMultiViewportAvailable()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::Viewer::isMultiViewport </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::isMultiViewportAvailable </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return true if imgui multi viewport enabled (disabled for Apple, Wayland and Emscripten) </p>
+<p>return true if <a class="el" href="namespaceImGui.html">ImGui</a> Multi <a class="el" href="classMR_1_1Viewport.html">Viewport</a> is available (it is unavailalbe for Apple, Wayland and Emscripten) </p>
 
 </div>
 </div>

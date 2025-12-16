@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRDemoPlugin_8h_source.html":[6,0,3,0,0,1,11,17],
 "MRDenseBox_8h.html":[6,0,3,0,0,1,4,79],
 "MRDenseBox_8h_source.html":[6,0,3,0,0,1,4,79],
 "MRDepthPeelingGL_8h.html":[6,0,3,0,0,1,11,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRFeatures_8h.html#a2d7396ae23e2d25cae0b7fc52fd0700e":[6,0,3,0,0,1,4,112,29],
 "MRFeatures_8h.html#a37df2f34cbcd3fec213859b3ca57d3b6":[6,0,3,0,0,1,4,112,19],
 "MRFeatures_8h.html#a39b347d1c16a0e596d16c09cc7839ded":[6,0,3,0,0,1,4,112,21],
-"MRFeatures_8h.html#a4701a0fae7580c7711140ac3823a2ad1":[6,0,3,0,0,1,4,112,35],
-"MRFeatures_8h.html#a49fd9207c07aaf09dab5aa90ea742cbb":[6,0,3,0,0,1,4,112,32]
+"MRFeatures_8h.html#a4701a0fae7580c7711140ac3823a2ad1":[6,0,3,0,0,1,4,112,35]
 };

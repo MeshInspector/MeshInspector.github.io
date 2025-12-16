@@ -147,6 +147,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRUnitSettings.h", "MRUnitSettings_8h.html", "MRUnitSettings_8h" ],
     [ "MRVectorTraits.h", "MRViewer_2MRVectorTraits_8h.html", "MRViewer_2MRVectorTraits_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
+    [ "MRViewerConfigConstants.h", "MRViewerConfigConstants_8h.html", "MRViewerConfigConstants_8h" ],
     [ "MRViewerEventQueue.h", "MRViewerEventQueue_8h.html", "MRViewerEventQueue_8h" ],
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],
     [ "MRViewerFwd.h", "MRViewerFwd_8h.html", "MRViewerFwd_8h" ],

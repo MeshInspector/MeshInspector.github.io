@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[6,0,2,0,1,7,4,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,1,0,1,16,4,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,2,0,1,7,4,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,1,0,1,16,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,2,0,1,7,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,1,0,1,16,5,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,2,0,1,7,5,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[6,0,1,0,1,16,5,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[6,0,2,0,1,7,5,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#a5b721362d61f02d9a0561a2dc185b2be":[6,0,2,0,1,298,2,4],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#abaec0c0a0a46426ec7ec96e959e4f421":[6,0,1,0,1,317,2,2],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#abaec0c0a0a46426ec7ec96e959e4f421":[6,0,2,0,1,298,2,2],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,1,0,1,317,2,3],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,2,0,1,298,2,3],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#aea360d36502bf0c3741c65d73b499f83":[6,0,1,0,1,317,2,0],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#aea360d36502bf0c3741c65d73b499f83":[6,0,2,0,1,298,2,0],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#af8e9809b70542f1e9563256ecc1ce30a":[6,0,1,0,1,317,2,5],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#af8e9809b70542f1e9563256ecc1ce30a":[6,0,2,0,1,298,2,5],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#afb6faf8bc0849a0b80ae509cdf5c4b25":[6,0,1,0,1,317,2,1]
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,1,0,1,317,2,3]
 };

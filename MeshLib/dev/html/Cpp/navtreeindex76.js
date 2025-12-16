@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[6,0,2,0,1,2,2,3,4],
+"structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,1,0,1,6,2,8],
+"structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,2,0,1,2,2,8],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,1,0,1,6,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,2,0,1,2,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,1,0,1,6,2,0,8],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,2,0,1,2,2,0,8],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a188d4fb553903ae07ec08a2ea1e1746d":[6,0,1,0,1,6,2,0,1],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a188d4fb553903ae07ec08a2ea1e1746d":[6,0,2,0,1,2,2,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,9,3,0,0,0],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2],
 "structMR_1_1FillHolesWithExtraPointsParams.html":[6,0,1,0,1,256],
-"structMR_1_1FillHolesWithExtraPointsParams.html":[6,0,2,0,1,237],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5":[6,0,1,0,1,256,0],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5":[6,0,2,0,1,237,0],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd":[6,0,1,0,1,256,1],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd":[6,0,2,0,1,237,1],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html":[6,0,1,0,1,8,0,0],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html":[6,0,2,0,1,4,0,0]
+"structMR_1_1FillHolesWithExtraPointsParams.html":[6,0,2,0,1,237]
 };

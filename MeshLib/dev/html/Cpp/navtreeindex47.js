@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247":[6,0,1,0,1,714,7],
+"classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247":[6,0,2,0,1,695,7],
+"classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,1,0,1,714,5],
+"classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,2,0,1,695,5],
 "classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,1,0,1,714,3],
 "classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,2,0,1,695,3],
 "classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,1,0,1,714,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1SurfaceManipulationWidget.html#aa0fd16498ab8c5a8415556c1e670724b":[6,0,1,0,1,727,81],
 "classMR_1_1SurfaceManipulationWidget.html#aa0fd16498ab8c5a8415556c1e670724b":[6,0,2,0,1,708,81],
 "classMR_1_1SurfaceManipulationWidget.html#aa487fd48c518601775f073d134a6c8dc":[6,0,1,0,1,727,12],
-"classMR_1_1SurfaceManipulationWidget.html#aa487fd48c518601775f073d134a6c8dc":[6,0,2,0,1,708,12],
-"classMR_1_1SurfaceManipulationWidget.html#aa4fd8214477b4cb504db49be1146ed47":[6,0,1,0,1,727,63],
-"classMR_1_1SurfaceManipulationWidget.html#aa4fd8214477b4cb504db49be1146ed47":[6,0,2,0,1,708,63],
-"classMR_1_1SurfaceManipulationWidget.html#aa523360f594c4085afd84c62654681d4":[6,0,1,0,1,727,45],
-"classMR_1_1SurfaceManipulationWidget.html#aa523360f594c4085afd84c62654681d4":[6,0,2,0,1,708,45]
+"classMR_1_1SurfaceManipulationWidget.html#aa487fd48c518601775f073d134a6c8dc":[6,0,2,0,1,708,12]
 };

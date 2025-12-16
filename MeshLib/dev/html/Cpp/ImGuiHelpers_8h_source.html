@@ -432,18 +432,20 @@ $(function(){initNavTree('ImGuiHelpers_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>}</div>
 </div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="preprocessor">#ifdef IMGUI_DISABLE_OBSOLETE_FUNCTIONS</span></div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>MRVIEWER_API ImVec2 GetWindowContentRegionMax();</div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span><span class="keyword">inline</span> ImVec2 GetContentRegionMax()</div>
-<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>{</div>
-<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>    <span class="keywordflow">return</span> GetContentRegionAvail() + GetCursorScreenPos() - GetWindowPos();</div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>}</div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span> </div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>} <span class="comment">// namespace ImGui</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno"><a class="line" href="namespaceImGui.html#a57f161b33d858badb4201fbedd7b3163">  355</a></span>MRVIEWER_API <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceImGui.html#a57f161b33d858badb4201fbedd7b3163">isMultiViewportEnabled</a>();</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="preprocessor">#ifdef IMGUI_DISABLE_OBSOLETE_FUNCTIONS</span></div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>MRVIEWER_API ImVec2 GetWindowContentRegionMax();</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span> </div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span><span class="keyword">inline</span> ImVec2 GetContentRegionMax()</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>{</div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>    <span class="keywordflow">return</span> GetContentRegionAvail() + GetCursorScreenPos() - GetWindowPos();</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>}</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span> </div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>} <span class="comment">// namespace ImGui</span></div>
 </div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span> </div>
 <div class="ttc" id="aMRFlagOperators_8h_html"><div class="ttname"><a href="MRFlagOperators_8h.html">MRFlagOperators.h</a></div></div>
 <div class="ttc" id="aMRFlagOperators_8h_html_afbd9348d27fb58bbb0befb3db34fab6a"><div class="ttname"><a href="MRFlagOperators_8h.html#afbd9348d27fb58bbb0befb3db34fab6a">MR_MAKE_FLAG_OPERATORS</a></div><div class="ttdeci">#define MR_MAKE_FLAG_OPERATORS(T)</div><div class="ttdef"><b>Definition</b> MRFlagOperators.h:6</div></div>
 <div class="ttc" id="aMRImGuiVectorOperators_8h_html"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html">MRImGuiVectorOperators.h</a></div></div>
@@ -478,6 +480,7 @@ $(function(){initNavTree('ImGuiHelpers_8h_source.html',''); initResizable(true);
 <div class="ttc" id="anamespaceImGui_html_a378834d8803566841b144ddf878ef623"><div class="ttname"><a href="namespaceImGui.html#a378834d8803566841b144ddf878ef623">ImGui::ListBox</a></div><div class="ttdeci">bool ListBox(const char *label, int *idx, const std::vector&lt; std::string &gt; &amp;values)</div><div class="ttdef"><b>Definition</b> ImGuiHelpers.h:70</div></div>
 <div class="ttc" id="anamespaceImGui_html_a392168d28bc4973532ead37f8061121e"><div class="ttname"><a href="namespaceImGui.html#a392168d28bc4973532ead37f8061121e">ImGui::InputText</a></div><div class="ttdeci">bool InputText(const char *label, std::string &amp;str, ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=NULL, void *user_data=NULL)</div><div class="ttdef"><b>Definition</b> ImGuiHelpers.h:77</div></div>
 <div class="ttc" id="anamespaceImGui_html_a4e3833bf7761da4ac20ca9397fbdbc16"><div class="ttname"><a href="namespaceImGui.html#a4e3833bf7761da4ac20ca9397fbdbc16">ImGui::InputIntValid</a></div><div class="ttdeci">MRVIEWER_API bool InputIntValid(const char *label, int *value, int min, int max, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</div></div>
+<div class="ttc" id="anamespaceImGui_html_a57f161b33d858badb4201fbedd7b3163"><div class="ttname"><a href="namespaceImGui.html#a57f161b33d858badb4201fbedd7b3163">ImGui::isMultiViewportEnabled</a></div><div class="ttdeci">MRVIEWER_API bool isMultiViewportEnabled()</div><div class="ttdoc">return true if ImGui Multi Viewport enabled</div></div>
 <div class="ttc" id="anamespaceImGui_html_a65c23b1e96e6b6498e84ce4cc36c8b0a"><div class="ttname"><a href="namespaceImGui.html#a65c23b1e96e6b6498e84ce4cc36c8b0a">ImGui::DragFloatValidLineWidth</a></div><div class="ttdeci">MRVIEWER_API bool DragFloatValidLineWidth(const char *label, float *value)</div><div class="ttdoc">similar to ImGui::DragFloatValid but use available line width range</div></div>
 <div class="ttc" id="anamespaceImGui_html_a6dfe914b3199c96486e9fc7b82138777"><div class="ttname"><a href="namespaceImGui.html#a6dfe914b3199c96486e9fc7b82138777">ImGui::GetDownPosition</a></div><div class="ttdeci">MRVIEWER_API ImVec2 GetDownPosition(const float width)</div></div>
 <div class="ttc" id="anamespaceImGui_html_a7e59143b9ee934b74838c5c3b80c6559"><div class="ttname"><a href="namespaceImGui.html#a7e59143b9ee934b74838c5c3b80c6559">ImGui::EndCustomStatePlugin</a></div><div class="ttdeci">MRVIEWER_API void EndCustomStatePlugin()</div><div class="ttdoc">end state plugin window with custom style</div></div>

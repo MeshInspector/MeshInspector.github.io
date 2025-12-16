@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MROutlierPoints_8h.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,3,0,0,1,4,268,3,4],
 "MROutlierPoints_8h_source.html":[6,0,3,0,0,1,4,268],
 "MROverlappingTris_8h.html":[6,0,3,0,0,1,4,269],
 "MROverlappingTris_8h.html#a6f854d1ee48b4520a2bc23d7c73c648f":[6,0,3,0,0,1,4,269,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRProgressBar_8h.html#aa2b9b5f5b7a526d0721702a144530d7f":[6,0,3,0,0,1,11,68,17],
 "MRProgressBar_8h.html#aa2bbcde88ff779122f16150fa6de08eb":[6,0,3,0,0,1,11,68,10],
 "MRProgressBar_8h.html#ab66618d001f8cbce3e0a07b2b4dde0af":[6,0,3,0,0,1,11,68,5],
-"MRProgressBar_8h.html#abd6ace0900add6a59ee1539dffc5d961":[6,0,3,0,0,1,11,68,8],
-"MRProgressBar_8h.html#ad694eb3ebaed27434a4adc6f85c929e6":[6,0,3,0,0,1,11,68,13]
+"MRProgressBar_8h.html#abd6ace0900add6a59ee1539dffc5d961":[6,0,3,0,0,1,11,68,8]
 };

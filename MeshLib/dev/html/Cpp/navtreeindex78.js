@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65":[6,0,1,0,1,286,0,6],
+"structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65":[6,0,2,0,1,267,0,6],
+"structMR_1_1GlTexture_1_1Settings.html#a877a27fbb560e4c2b894f410f8d07eaf":[6,0,1,0,1,286,0,1],
+"structMR_1_1GlTexture_1_1Settings.html#a877a27fbb560e4c2b894f410f8d07eaf":[6,0,2,0,1,267,0,1],
+"structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[6,0,1,0,1,286,0,5],
+"structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[6,0,2,0,1,267,0,5],
 "structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[6,0,1,0,1,286,0,4],
 "structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[6,0,2,0,1,267,0,4],
 "structMR_1_1Graph_1_1EndVertices.html":[6,0,1,0,1,290,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,2,0,1,7,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[6,0,1,0,1,16,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[6,0,2,0,1,7,4,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[6,0,1,0,1,16,4,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[6,0,2,0,1,7,4,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,1,0,1,16,4,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,2,0,1,7,4,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,1,0,1,16,5],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,2,0,1,7,5],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,1,0,1,16,5,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[6,0,1,0,1,16,4,0]
 };

@@ -3301,6 +3301,7 @@ var namespaceMR =
     [ "cDefaultFontSize", "namespaceMR.html#a9c921093c85c2da2608e2dfbac0456d1", null ],
     [ "cDefaultInnerSpacing", "namespaceMR.html#a830a2da862354c816887a7862a190ce1", null ],
     [ "cDefaultItemSpacing", "namespaceMR.html#ae0f25876ce272b7da3ae953cd1469376", null ],
+    [ "cDefaultMultiViewportKey", "namespaceMR.html#ae11fb18e48834d5bb7d3bca60862f695", null ],
     [ "cDefaultWindowPaddingX", "namespaceMR.html#a862b30077baf437e28b842a18c3997e4", null ],
     [ "cDefaultWindowPaddingY", "namespaceMR.html#a1bee00a475fada33c76a0bb71f8cbadd", null ],
     [ "cGradientButtonFramePadding", "namespaceMR.html#a3980e45b7cc71e35412820615644bca6", null ],

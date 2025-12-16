@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1Viewer.html#aa8daa2433ac6552c7964714e4fb54d75":[6,0,1,0,1,808,125],
+"classMR_1_1Viewer.html#aa8daa2433ac6552c7964714e4fb54d75":[6,0,2,0,1,789,125],
 "classMR_1_1Viewer.html#aa9e4f61cb952eb939ba8a95d97b5d961":[6,0,1,0,1,808,62],
 "classMR_1_1Viewer.html#aa9e4f61cb952eb939ba8a95d97b5d961":[6,0,2,0,1,789,62],
 "classMR_1_1Viewer.html#aaa2239ab3f99213fac753a63afe80d0d":[6,0,1,0,1,808,98],
@@ -20,6 +22,8 @@ var NAVTREEINDEX51 =
 "classMR_1_1Viewer.html#ab149079b6cfab119f1d82274c7e54ac6":[6,0,2,0,1,789,81],
 "classMR_1_1Viewer.html#ab2c95f8168c31e559662b97c55dad30f":[6,0,1,0,1,808,19],
 "classMR_1_1Viewer.html#ab2c95f8168c31e559662b97c55dad30f":[6,0,2,0,1,789,19],
+"classMR_1_1Viewer.html#ab3e4db0391fda67c96207402df70ef8d":[6,0,1,0,1,808,72],
+"classMR_1_1Viewer.html#ab3e4db0391fda67c96207402df70ef8d":[6,0,2,0,1,789,72],
 "classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85":[6,0,1,0,1,808,10],
 "classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85":[6,0,2,0,1,789,10],
 "classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544":[6,0,1,0,1,808,82],
@@ -245,9 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1":[6,0,1,0,1,812,1,2],
 "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1":[6,0,2,0,1,793,1,2],
 "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988":[6,0,1,0,1,812,1,1],
-"classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988":[6,0,2,0,1,793,1,1],
-"classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,812,1,6],
-"classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,793,1,6],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html":[6,0,1,0,1,812,0],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html":[6,0,2,0,1,793,0]
+"classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988":[6,0,2,0,1,793,1,1]
 };

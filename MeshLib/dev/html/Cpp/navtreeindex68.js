@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953":[6,0,1,0,1,43,17,2],
+"namespaceMR_1_1UI.html#a0c37be14d527eafdf4f327608985ab9e":[6,0,1,0,1,43,41],
+"namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886":[6,0,1,0,1,43,60],
+"namespaceMR_1_1UI.html#a0e4fcd89c72f4be1967ab7ba90d92c1b":[6,0,1,0,1,43,72],
+"namespaceMR_1_1UI.html#a106b8bc31fb0bf822e4d25da72a41ead":[6,0,1,0,1,43,82],
+"namespaceMR_1_1UI.html#a1b2f7496c5cc2c04acdc85d6ad564a63":[6,0,1,0,1,43,53],
 "namespaceMR_1_1UI.html#a1e1ec7c96ccb4a9963415c5d53b50081":[6,0,1,0,1,43,73],
 "namespaceMR_1_1UI.html#a2d696a4ba7ed6899c61e4f297218a530":[6,0,1,0,1,43,64],
 "namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,1,0,1,43,96],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "namespacespdlog_1_1sinks.html":[6,0,1,0,2,0],
 "pages.html":[],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,1,0,0,0,7],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,7],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,0,0,10],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,0,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,0,0,6]
+"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0]
 };

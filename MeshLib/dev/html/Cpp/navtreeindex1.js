@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRBezier_8h_source.html":[6,0,3,0,0,1,4,28],
 "MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
 "MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
 "MRBitSetParallelFor_8h.html":[6,0,3,0,0,1,4,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRCylinderObject_8h.html":[6,0,3,0,0,1,4,78],
 "MRCylinderObject_8h_source.html":[6,0,3,0,0,1,4,78],
 "MRDemoPlugin_8h.html":[6,0,3,0,0,1,11,17],
-"MRDemoPlugin_8h.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a":[6,0,3,0,0,1,11,17,1],
-"MRDemoPlugin_8h_source.html":[6,0,3,0,0,1,11,17]
+"MRDemoPlugin_8h.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a":[6,0,3,0,0,1,11,17,1]
 };
