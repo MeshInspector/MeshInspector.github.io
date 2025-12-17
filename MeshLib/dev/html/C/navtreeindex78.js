@@ -1,5 +1,8 @@
 var NAVTREEINDEX78 =
 {
+"MRQuadraticForm_8h.html#a51e504515ef04a6d0c42f890f9b9fc63":[6,2,1,0,0,0,1,284,65],
+"MRQuadraticForm_8h.html#a5b120d16168818c8c364c4818a6d2c56":[6,2,1,0,0,0,1,284,3],
+"MRQuadraticForm_8h.html#a5c500dce343ecf3f60749659e2a9a7d3":[6,2,1,0,0,0,1,284,74],
 "MRQuadraticForm_8h.html#a5e59d48d47430f3a0a43f0c389f31566":[6,2,1,0,0,0,1,284,69],
 "MRQuadraticForm_8h.html#a6053c68e8cd952e03596619f154346cc":[6,2,1,0,0,0,1,284,42],
 "MRQuadraticForm_8h.html#a62b27ed4544a8c74d01fc16b658b0b91":[6,2,1,0,0,0,1,284,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX78 =
 "MRRadiusMeasurementObject_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc":[6,2,1,0,0,0,1,287,2],
 "MRRadiusMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1":[6,2,1,0,0,0,1,287,0],
 "MRRadiusMeasurementObject_8h.html#af546c4fead78a56975d59330cd1f7aeb":[6,2,1,0,0,0,1,287,18],
-"MRRadiusMeasurementObject_8h_source.html":[6,2,1,0,0,0,1,287],
-"MRRayBoxIntersection2_8h.html":[6,2,1,0,0,0,1,289],
-"MRRayBoxIntersection2_8h.html#a05745414240b5f207ca38fdc6d06f099":[6,2,1,0,0,0,1,289,0],
-"MRRayBoxIntersection2_8h.html#a42f4324f3958a2b1ca19cd1728c5db67":[6,2,1,0,0,0,1,289,1]
+"MRRadiusMeasurementObject_8h_source.html":[6,2,1,0,0,0,1,287]
 };

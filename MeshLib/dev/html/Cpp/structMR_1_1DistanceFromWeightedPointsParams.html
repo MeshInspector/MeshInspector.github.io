@@ -170,6 +170,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1eaf010a7c663adafe798fdd9007fe6c" id="r_a1eaf010a7c663adafe798fdd9007fe6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a036c60a88f141a437ffed0bc572fce6d">VertMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eaf010a7c663adafe798fdd9007fe6c">pointWeight</a></td></tr>
 <tr class="memdesc:a1eaf010a7c663adafe798fdd9007fe6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">function returning the weight of each point, must be set by the user  <br /></td></tr>
 <tr class="separator:a1eaf010a7c663adafe798fdd9007fe6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18407dd8e4524c66ba05a120168bbf92" id="r_a18407dd8e4524c66ba05a120168bbf92"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18407dd8e4524c66ba05a120168bbf92">minWeight</a> = 0</td></tr>
+<tr class="separator:a18407dd8e4524c66ba05a120168bbf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2167c5cb63bc5340893e5ba8381e5de4" id="r_a2167c5cb63bc5340893e5ba8381e5de4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2167c5cb63bc5340893e5ba8381e5de4">maxWeight</a> = 0</td></tr>
 <tr class="separator:a2167c5cb63bc5340893e5ba8381e5de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad08ccac9ccc26dcee3fa49c052003500" id="r_ad08ccac9ccc26dcee3fa49c052003500"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad08ccac9ccc26dcee3fa49c052003500">maxWeightGrad</a> = FLT_MAX</td></tr>
@@ -220,6 +222,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>maximal magnitude of gradient of points' weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done </p>
+
+</div>
+</div>
+<a id="a18407dd8e4524c66ba05a120168bbf92" name="a18407dd8e4524c66ba05a120168bbf92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18407dd8e4524c66ba05a120168bbf92">&#9670;&#160;</a></span>minWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DistanceFromWeightedPointsParams::minWeight = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </p>
 
 </div>
 </div>

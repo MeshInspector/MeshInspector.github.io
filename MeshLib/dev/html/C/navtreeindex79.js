@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"MRRayBoxIntersection2_8h.html":[6,2,1,0,0,0,1,289],
+"MRRayBoxIntersection2_8h.html#a05745414240b5f207ca38fdc6d06f099":[6,2,1,0,0,0,1,289,0],
+"MRRayBoxIntersection2_8h.html#a42f4324f3958a2b1ca19cd1728c5db67":[6,2,1,0,0,0,1,289,1],
 "MRRayBoxIntersection2_8h.html#ae9f97cb91b3c48ca4b8ebcb3303300db":[6,2,1,0,0,0,1,289,2],
 "MRRayBoxIntersection2_8h_source.html":[6,2,1,0,0,0,1,289],
 "MRRayBoxIntersection_8h.html":[6,2,1,0,0,0,1,288],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62":[6,2,1,0,0,0,1,295,2],
 "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a17dbd1321090d68aac76a3ae1e7cd77e":[6,2,1,0,0,0,1,295,2,2],
 "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a2bbf91f624974a12f24b71af4406bd9a":[6,2,1,0,0,0,1,295,2,3],
-"MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461":[6,2,1,0,0,0,1,295,2,1],
-"MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3":[6,2,1,0,0,0,1,295,2,0],
-"MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a506abec0ac0ce35a4415d0143d4bc79a":[6,2,1,0,0,0,1,295,2,4],
-"MRRenderModelParameters_8h.html#aa877928cec2ad4499904dfd36eae46e7":[6,2,1,0,0,0,1,295,0]
+"MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461":[6,2,1,0,0,0,1,295,2,1]
 };

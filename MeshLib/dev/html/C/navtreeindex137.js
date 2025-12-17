@@ -1,5 +1,8 @@
 var NAVTREEINDEX137 =
 {
+"std__vector__MR__AABBTreePoints__Node_8h.html#aae0a1882dc94495a6cf669240515114b":[6,2,1,0,0,0,2,298,43],
+"std__vector__MR__AABBTreePoints__Node_8h.html#ab00d4105de78d9377025a3d9b4f27496":[6,2,1,0,0,0,2,298,11],
+"std__vector__MR__AABBTreePoints__Node_8h.html#abc3cbcf5c8b780fbdbec47064cd075ae":[6,2,1,0,0,0,2,298,23],
 "std__vector__MR__AABBTreePoints__Node_8h.html#abf83ceffba8fbe46dd995f56bf85b1cc":[6,2,1,0,0,0,2,298,70],
 "std__vector__MR__AABBTreePoints__Node_8h.html#ac42675f79da4d1fc6dac81ccb179adf9":[6,2,1,0,0,0,2,298,14],
 "std__vector__MR__AABBTreePoints__Node_8h.html#ac898fe6c917be3c8965ef8f7705a58e6":[6,2,1,0,0,0,2,298,35],
@@ -246,8 +249,5 @@ var NAVTREEINDEX137 =
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#aff3cf689744bff6980f5ef9a7040bd30":[6,2,1,0,0,0,2,301,50],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h_source.html":[6,2,1,0,0,0,2,301],
 "std__vector__MR__Color_8h.html":[6,2,1,0,0,0,2,302],
-"std__vector__MR__Color_8h.html#a0d70794a4d49ae790cc666edebf163e9":[6,2,1,0,0,0,2,302,13],
-"std__vector__MR__Color_8h.html#a140f59dac7626b7317f3d6db82e33a4d":[6,2,1,0,0,0,2,302,40],
-"std__vector__MR__Color_8h.html#a15c255b39b10b0484a60f24062cc2a95":[6,2,1,0,0,0,2,302,1],
-"std__vector__MR__Color_8h.html#a1aca1b91ce032705f1b44c3bd2e5c987":[6,2,1,0,0,0,2,302,4]
+"std__vector__MR__Color_8h.html#a0d70794a4d49ae790cc666edebf163e9":[6,2,1,0,0,0,2,302,13]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX130 =
 {
+"std__optional__MR__VertMap_8h.html#a1cf73d441b7f7375d1908c6bfd8daa49":[6,2,1,0,0,0,2,213,13],
+"std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca":[6,2,1,0,0,0,2,213,8],
+"std__optional__MR__VertMap_8h.html#a4fe4162776a25b5fe8e4a23a58c75dd1":[6,2,1,0,0,0,2,213,4],
 "std__optional__MR__VertMap_8h.html#a59f0af15fc9eb705909823952f892fb8":[6,2,1,0,0,0,2,213,9],
 "std__optional__MR__VertMap_8h.html#a7a7f6d5f60edbc665cc25d46c28208ed":[6,2,1,0,0,0,2,213,6],
 "std__optional__MR__VertMap_8h.html#a93f8077cde7d642468b94bff99cb89b1":[6,2,1,0,0,0,2,213,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX130 =
 "std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a751d842f11ffa47c1d9bda2c3ffcc39b":[6,2,1,0,0,0,2,231,9],
 "std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a7acfd05925a80f288b334dde32a7134b":[6,2,1,0,0,0,2,231,13],
 "std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a81679c29ac22cc13cd2fa2bed9a20029":[6,2,1,0,0,0,2,231,10],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a8450310b581b2679aad2eca4f3836862":[6,2,1,0,0,0,2,231,6],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#ab514c0a0fee47274af5aaa9219beb3f8":[6,2,1,0,0,0,2,231,4],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#abaa8a60703e94d598440ae1ac6327a48":[6,2,1,0,0,0,2,231,11],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#ac19d267fe4a2399b21a578c74213dfd2":[6,2,1,0,0,0,2,231,0]
+"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a8450310b581b2679aad2eca4f3836862":[6,2,1,0,0,0,2,231,6]
 };

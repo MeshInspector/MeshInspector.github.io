@@ -1,5 +1,9 @@
 var NAVTREEINDEX91 =
 {
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#ad96748c403158a391a59613c3e7ad070":[6,1,1,0,1,1061,1,3],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#adcf3973c4ab910a680efd6e64c92f148":[6,1,0,0,2,1061,1,21],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#adcf3973c4ab910a680efd6e64c92f148":[6,1,1,0,1,1061,1,21],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#ae1087e3665fd33efe46b92ea615311af":[6,1,0,0,2,1061,1,12],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#ae1087e3665fd33efe46b92ea615311af":[6,1,1,0,1,1061,1,12],
 "classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[6,1,0,0,2,1061,2],
 "classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[6,1,1,0,1,1061,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX91 =
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a3d64125ff2732a5da0eb7ddbb4fb32fa":[6,1,1,0,1,1083,8],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a48842fd53348173cc287f1d8eae69dfd":[6,1,0,0,2,1083,11],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a48842fd53348173cc287f1d8eae69dfd":[6,1,1,0,1,1083,11],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a726625875f9ea5e27e9a24f90fb51652":[6,1,0,0,2,1083,1],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a726625875f9ea5e27e9a24f90fb51652":[6,1,1,0,1,1083,1],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a859f87926a88fa5b55e63172cb27e304":[6,1,0,0,2,1083,0],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a859f87926a88fa5b55e63172cb27e304":[6,1,1,0,1,1083,0],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#aaa579910ece03b1337d6e6880c61b94b":[6,1,0,0,2,1083,10]
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a726625875f9ea5e27e9a24f90fb51652":[6,1,0,0,2,1083,1]
 };

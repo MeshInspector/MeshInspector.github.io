@@ -56,8 +56,10 @@ var NAVTREEINDEX74 =
 "structMR_1_1DistanceFromWeightedPointsComputeParams.html#adddd26b61e807f48c6420f32cb322d21":[6,0,2,0,1,184,1],
 "structMR_1_1DistanceFromWeightedPointsParams.html":[6,0,1,0,1,204],
 "structMR_1_1DistanceFromWeightedPointsParams.html":[6,0,2,0,1,185],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,1,0,1,204,3],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,2,0,1,185,3],
+"structMR_1_1DistanceFromWeightedPointsParams.html#a18407dd8e4524c66ba05a120168bbf92":[6,0,1,0,1,204,3],
+"structMR_1_1DistanceFromWeightedPointsParams.html#a18407dd8e4524c66ba05a120168bbf92":[6,0,2,0,1,185,3],
+"structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,1,0,1,204,4],
+"structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,2,0,1,185,4],
 "structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4":[6,0,1,0,1,204,1],
 "structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4":[6,0,2,0,1,185,1],
 "structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2":[6,0,1,0,1,204,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,1,0,1,222,3],
 "structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,2,0,1,203,3],
 "structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,1,0,1,222,0],
-"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,2,0,1,203,0],
-"structMR_1_1DrawSceneUiListener.html":[6,0,1,0,1,223],
-"structMR_1_1DrawSceneUiListener.html":[6,0,2,0,1,204]
+"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,2,0,1,203,0]
 };
