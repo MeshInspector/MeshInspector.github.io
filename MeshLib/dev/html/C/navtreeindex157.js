@@ -1,5 +1,11 @@
 var NAVTREEINDEX157 =
 {
+"std__vector__MR__SomeLocalTriangulations_8h.html#ac4f59b422e034f6ca70f1d49e71a9103":[6,2,1,0,0,0,2,366,23],
+"std__vector__MR__SomeLocalTriangulations_8h.html#ac797f19628fc3ee1fb66a26c534e0278":[6,2,1,0,0,0,2,366,20],
+"std__vector__MR__SomeLocalTriangulations_8h.html#ac86faf7ed578385356eae4b14201a7eb":[6,2,1,0,0,0,2,366,53],
+"std__vector__MR__SomeLocalTriangulations_8h.html#acdfa055abf0e2839155cfe9fa471006e":[6,2,1,0,0,0,2,366,52],
+"std__vector__MR__SomeLocalTriangulations_8h.html#ace92ac6220039302bd30ec0e74a94aeb":[6,2,1,0,0,0,2,366,64],
+"std__vector__MR__SomeLocalTriangulations_8h.html#ad440f5cda30fb629ac90000bdfe7eafb":[6,2,1,0,0,0,2,366,44],
 "std__vector__MR__SomeLocalTriangulations_8h.html#ad44448dabb40e3f3f7d153fe4819cc1d":[6,2,1,0,0,0,2,366,16],
 "std__vector__MR__SomeLocalTriangulations_8h.html#ad8ebca47fd26557ac8682b752dc1535c":[6,2,1,0,0,0,2,366,26],
 "std__vector__MR__SomeLocalTriangulations_8h.html#adc4bcd83e518227b201dd3740ee80eda":[6,2,1,0,0,0,2,366,48],
@@ -243,11 +249,5 @@ var NAVTREEINDEX157 =
 "std__vector__MR__UndirectedEdgeId_8h.html#a0e7c0e76225089557b0ff3d10ac166a5":[6,2,1,0,0,0,2,370,61],
 "std__vector__MR__UndirectedEdgeId_8h.html#a11525ce12dec5be1f9b750a85d80c673":[6,2,1,0,0,0,2,370,20],
 "std__vector__MR__UndirectedEdgeId_8h.html#a126d4486f2069f6e998d5b1dee98204d":[6,2,1,0,0,0,2,370,48],
-"std__vector__MR__UndirectedEdgeId_8h.html#a127c3c36596923241b7c44ffb39693e3":[6,2,1,0,0,0,2,370,27],
-"std__vector__MR__UndirectedEdgeId_8h.html#a1315d35584ae74773ab717cbe6e7a418":[6,2,1,0,0,0,2,370,37],
-"std__vector__MR__UndirectedEdgeId_8h.html#a1679728a7ca21f9d18617da29546494e":[6,2,1,0,0,0,2,370,57],
-"std__vector__MR__UndirectedEdgeId_8h.html#a1827eb5f011f4b68668b35e2bf54dce8":[6,2,1,0,0,0,2,370,13],
-"std__vector__MR__UndirectedEdgeId_8h.html#a19de3b6ac06651f513d4270af76c63fb":[6,2,1,0,0,0,2,370,5],
-"std__vector__MR__UndirectedEdgeId_8h.html#a1d312c563bf85e3ff2c62bafeaffb2bb":[6,2,1,0,0,0,2,370,31],
-"std__vector__MR__UndirectedEdgeId_8h.html#a1de8b898998c68ccaaf7fe135503eaf2":[6,2,1,0,0,0,2,370,2]
+"std__vector__MR__UndirectedEdgeId_8h.html#a127c3c36596923241b7c44ffb39693e3":[6,2,1,0,0,0,2,370,27]
 };

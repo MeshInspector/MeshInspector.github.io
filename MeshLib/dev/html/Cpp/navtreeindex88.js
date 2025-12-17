@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0":[6,0,0,12,0,6],
+"structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
+"structMR_1_1PointCloudPart.html":[6,0,1,0,1,531],
 "structMR_1_1PointCloudPart.html":[6,0,2,0,1,512],
 "structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,1,0,1,531,2],
 "structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,2,0,1,512,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[6,0,0,15,0,4],
 "structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[6,0,0,15,0,7],
 "structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[6,0,0,15,0,5],
-"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[6,0,0,15,0,1],
-"structMR_1_1PolylineToDistanceVolumeParams.html":[6,0,1,0,1,555],
-"structMR_1_1PolylineToDistanceVolumeParams.html":[6,0,2,0,1,536],
-"structMR_1_1PolylineToDistanceVolumeParams.html#a6960b88843f2b683f6dbca4f21e82e86":[6,0,1,0,1,555,3],
-"structMR_1_1PolylineToDistanceVolumeParams.html#a6960b88843f2b683f6dbca4f21e82e86":[6,0,2,0,1,536,3]
+"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[6,0,0,15,0,1]
 };

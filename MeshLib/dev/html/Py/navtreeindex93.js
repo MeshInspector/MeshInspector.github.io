@@ -1,5 +1,13 @@
 var NAVTREEINDEX93 =
 {
+"classmrmeshpy_1_1UndirectedEdgeColors.html#acd310a0f92296c57ca8d16457571762c":[6,1,1,0,1,1077,0],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad0025492952af72b330262418fea6904":[6,1,0,0,2,1077,33],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad0025492952af72b330262418fea6904":[6,1,1,0,1,1077,33],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[6,1,0,0,2,1077,20],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[6,1,0,0,2,1077,21],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[6,1,1,0,1,1077,20],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[6,1,1,0,1,1077,21],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad19562897f81e1e3a5d83708843a72a6":[6,1,0,0,2,1077,27],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#ad19562897f81e1e3a5d83708843a72a6":[6,1,1,0,1,1077,27],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#ad4cbc2fcbf7e302f2b97bdeef876b16e":[6,1,0,0,2,1077,3],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#ad4cbc2fcbf7e302f2b97bdeef876b16e":[6,1,1,0,1,1077,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX93 =
 "classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html":[6,1,1,0,1,1082],
 "classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a542c18d0d3ff7b9665b0d2e901134d30":[6,1,0,0,2,1082,0],
 "classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a542c18d0d3ff7b9665b0d2e901134d30":[6,1,1,0,1,1082,0],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a69b9933ea0933d9312f8b4e31fa9f29c":[6,1,0,0,2,1082,1],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a69b9933ea0933d9312f8b4e31fa9f29c":[6,1,1,0,1,1082,1],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a884466267fd8d401407dddf04782edd6":[6,1,0,0,2,1082,2],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a884466267fd8d401407dddf04782edd6":[6,1,1,0,1,1082,2],
-"classmrmeshpy_1_1UniformSamplingSettings.html":[6,1,0,0,2,1084],
-"classmrmeshpy_1_1UniformSamplingSettings.html":[6,1,1,0,1,1084],
-"classmrmeshpy_1_1UniformSamplingSettings.html#a014cacc388325791df951302ce8747e2":[6,1,0,0,2,1084,2],
-"classmrmeshpy_1_1UniformSamplingSettings.html#a014cacc388325791df951302ce8747e2":[6,1,1,0,1,1084,2],
-"classmrmeshpy_1_1UniformSamplingSettings.html#a02e85f45fb9266f95bc01968a878abda":[6,1,0,0,2,1084,10]
+"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a69b9933ea0933d9312f8b4e31fa9f29c":[6,1,0,0,2,1082,1]
 };

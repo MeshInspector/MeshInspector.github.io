@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[6,1,1,0,1,613,2],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[6,1,0,0,2,614],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[6,1,1,0,1,614],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,0,0,2,614,0],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,0,0,2,614,2],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,1,0,1,614,0],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,1,0,1,614,2],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[6,1,0,0,2,614,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[6,1,1,0,1,614,1],
 "classmrmeshpy_1_1ObjMap.html":[6,1,0,0,2,615],
 "classmrmeshpy_1_1ObjMap.html":[6,1,1,0,1,615],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[6,1,1,0,1,589,1],
 "classmrmeshpy_1_1ObjectComparableWithReference.html":[6,1,0,0,2,590],
 "classmrmeshpy_1_1ObjectComparableWithReference.html":[6,1,1,0,1,590],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1":[6,1,0,0,2,590,10],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1":[6,1,1,0,1,590,10],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a1ec3f866f2d40e2210b362875b63f0af":[6,1,0,0,2,590,6],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a1ec3f866f2d40e2210b362875b63f0af":[6,1,1,0,1,590,6],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e":[6,1,0,0,2,590,4],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e":[6,1,1,0,1,590,4],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,0,0,2,590,12],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,1,0,1,590,12],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d":[6,1,0,0,2,590,7]
+"classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1":[6,1,0,0,2,590,10]
 };

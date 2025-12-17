@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"classmrmeshpy_1_1QuadraticForm3f.html#aa4094f26450a9cbe5e16817fd1b1c984":[6,1,1,0,1,747,4],
+"classmrmeshpy_1_1QuadraticForm3f.html#aab8df15b4bf6d8874e41f7233d73bfbe":[6,1,0,0,2,747,6],
+"classmrmeshpy_1_1QuadraticForm3f.html#aab8df15b4bf6d8874e41f7233d73bfbe":[6,1,1,0,1,747,6],
+"classmrmeshpy_1_1QuadraticForm3f.html#aacab84d06a0fb99034d81ce6d2ef7e37":[6,1,0,0,2,747,8],
+"classmrmeshpy_1_1QuadraticForm3f.html#aacab84d06a0fb99034d81ce6d2ef7e37":[6,1,1,0,1,747,8],
+"classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[6,1,0,0,2,747,5],
+"classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[6,1,1,0,1,747,5],
+"classmrmeshpy_1_1QuadricApprox.html":[6,1,0,0,2,748],
 "classmrmeshpy_1_1QuadricApprox.html":[6,1,1,0,1,748],
 "classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[6,1,0,0,2,748,0],
 "classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[6,1,1,0,1,748,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "classmrmeshpy_1_1RatioUnit.html#adf36b4415a2f449729c9b6fd254fd1d3":[6,1,1,0,1,753,3],
 "classmrmeshpy_1_1RawTiffOutput.html":[6,1,0,0,2,754],
 "classmrmeshpy_1_1RawTiffOutput.html":[6,1,1,0,1,754],
-"classmrmeshpy_1_1RawTiffOutput.html#a035535a0531c070932a374e75137851e":[6,1,0,0,2,754,12],
-"classmrmeshpy_1_1RawTiffOutput.html#a035535a0531c070932a374e75137851e":[6,1,1,0,1,754,12],
-"classmrmeshpy_1_1RawTiffOutput.html#a124be64367636d889d8293bd9533ad77":[6,1,0,0,2,754,6],
-"classmrmeshpy_1_1RawTiffOutput.html#a124be64367636d889d8293bd9533ad77":[6,1,1,0,1,754,6],
-"classmrmeshpy_1_1RawTiffOutput.html#a28c5c17f085ba153cd78b26e3dea8fd1":[6,1,0,0,2,754,2],
-"classmrmeshpy_1_1RawTiffOutput.html#a28c5c17f085ba153cd78b26e3dea8fd1":[6,1,1,0,1,754,2],
-"classmrmeshpy_1_1RawTiffOutput.html#a4a5290c42e567d81fb7e585cc0c01595":[6,1,0,0,2,754,11],
-"classmrmeshpy_1_1RawTiffOutput.html#a4a5290c42e567d81fb7e585cc0c01595":[6,1,1,0,1,754,11],
-"classmrmeshpy_1_1RawTiffOutput.html#a6060cc90a995ddd5c74fb4916139fec0":[6,1,0,0,2,754,0]
+"classmrmeshpy_1_1RawTiffOutput.html#a035535a0531c070932a374e75137851e":[6,1,0,0,2,754,12]
 };

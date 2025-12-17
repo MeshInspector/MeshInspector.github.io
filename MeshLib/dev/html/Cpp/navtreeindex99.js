@@ -1,5 +1,9 @@
 var NAVTREEINDEX99 =
 {
+"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[6,0,1,0,1,48,0,1],
+"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[6,0,2,0,1,29,0,1],
+"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a767746c507a11feeea1dcaf6e35cb2e3":[6,0,1,0,1,48,0,0],
+"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a767746c507a11feeea1dcaf6e35cb2e3":[6,0,2,0,1,29,0,0],
 "structMR_1_1WeightedShell_1_1ParametersBase.html":[6,0,1,0,1,48,1],
 "structMR_1_1WeightedShell_1_1ParametersBase.html":[6,0,2,0,1,29,1],
 "structMR_1_1WeightedShell_1_1ParametersBase.html#a349cbda27e2015a526f1b28c6b47d81d":[6,0,1,0,1,48,1,0],

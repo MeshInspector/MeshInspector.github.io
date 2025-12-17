@@ -1,5 +1,13 @@
 var NAVTREEINDEX137 =
 {
+"classmrmeshpy_1_1std__vector__Dipole.html#aee4f8408b2f6739bea04c066c9488af6":[6,1,1,0,1,880,8],
+"classmrmeshpy_1_1std__vector__DistanceMap.html":[6,1,0,0,2,881],
+"classmrmeshpy_1_1std__vector__DistanceMap.html":[6,1,1,0,1,881],
+"classmrmeshpy_1_1std__vector__DistanceMap.html#a047c7707c632368512ee7222394b6553":[6,1,0,0,2,881,12],
+"classmrmeshpy_1_1std__vector__DistanceMap.html#a047c7707c632368512ee7222394b6553":[6,1,1,0,1,881,12],
+"classmrmeshpy_1_1std__vector__DistanceMap.html#a205099779c4e84fe56dcd8ddbabcc02b":[6,1,0,0,2,881,20],
+"classmrmeshpy_1_1std__vector__DistanceMap.html#a205099779c4e84fe56dcd8ddbabcc02b":[6,1,1,0,1,881,20],
+"classmrmeshpy_1_1std__vector__DistanceMap.html#a20fb46095de64f94edb4bed6d44c3985":[6,1,0,0,2,881,18],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a20fb46095de64f94edb4bed6d44c3985":[6,1,1,0,1,881,18],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a22827435519e9caa2ebcc17a5c4cffc4":[6,1,0,0,2,881,14],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a22827435519e9caa2ebcc17a5c4cffc4":[6,1,1,0,1,881,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX137 =
 "classmrmeshpy_1_1std__vector__EdgeTri.html#a269b9275c8d4131d0550d855502dea3b":[6,1,1,0,1,886,9],
 "classmrmeshpy_1_1std__vector__EdgeTri.html#a2ecf7ea6eb2a2f6d0800a81a5d3c5518":[6,1,0,0,2,886,27],
 "classmrmeshpy_1_1std__vector__EdgeTri.html#a2ecf7ea6eb2a2f6d0800a81a5d3c5518":[6,1,1,0,1,886,27],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a34d5455ec067f9cfffdcd32976dd1efe":[6,1,0,0,2,886,24],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a34d5455ec067f9cfffdcd32976dd1efe":[6,1,1,0,1,886,24],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a358c6aa22de67c0dfa5dd9ae9d62fa12":[6,1,0,0,2,886,13],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a358c6aa22de67c0dfa5dd9ae9d62fa12":[6,1,1,0,1,886,13],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a3c87a06a87fc41fb5edc736e6dd8b11b":[6,1,0,0,2,886,3],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a3c87a06a87fc41fb5edc736e6dd8b11b":[6,1,1,0,1,886,3],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a4f9c8848f429295e35c7f911de3a1264":[6,1,0,0,2,886,15],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a4f9c8848f429295e35c7f911de3a1264":[6,1,1,0,1,886,15],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a58a5306c8f0455f77080cba5cc79a2d3":[6,1,0,0,2,886,2]
+"classmrmeshpy_1_1std__vector__EdgeTri.html#a34d5455ec067f9cfffdcd32976dd1efe":[6,1,0,0,2,886,24]
 };

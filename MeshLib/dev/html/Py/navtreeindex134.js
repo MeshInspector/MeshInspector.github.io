@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a4806beb5b78b640f13e8fe9d18cdcf77":[6,1,1,0,1,860,4],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a6fdfee4ba4ec65ea98f60c7a99488a80":[6,1,0,0,2,860,0],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a6fdfee4ba4ec65ea98f60c7a99488a80":[6,1,1,0,1,860,0],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a71a29412870dcd810e2b3ce874644d5c":[6,1,0,0,2,860,10],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a71a29412870dcd810e2b3ce874644d5c":[6,1,1,0,1,860,10],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a7c9702401a71d8a4a00194e886858501":[6,1,0,0,2,860,5],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a7c9702401a71d8a4a00194e886858501":[6,1,1,0,1,860,5],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a7d1f0914d67ceac16d13ed0ba25dc8ff":[6,1,0,0,2,860,15],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a7d1f0914d67ceac16d13ed0ba25dc8ff":[6,1,1,0,1,860,15],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a82e18bf90720e85d217e14aa733cf402":[6,1,0,0,2,860,6],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a82e18bf90720e85d217e14aa733cf402":[6,1,1,0,1,860,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a79649be919e8b62c279b5c16999229aa":[6,1,1,0,1,870,2],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a7e8ba3e5e9c3801397e731b096340dc7":[6,1,0,0,2,870,10],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a7e8ba3e5e9c3801397e731b096340dc7":[6,1,1,0,1,870,10],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8250000710b11f280851698d2927fc75":[6,1,0,0,2,870,7],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8250000710b11f280851698d2927fc75":[6,1,1,0,1,870,7],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8d1489bca9cf19e30d2a0d3145a57504":[6,1,0,0,2,870,6],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8d1489bca9cf19e30d2a0d3145a57504":[6,1,1,0,1,870,6],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a92445896218e8c1296167bc4e2a2e48c":[6,1,0,0,2,870,16],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a92445896218e8c1296167bc4e2a2e48c":[6,1,1,0,1,870,16],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa3d03685e02d1c64f586e7f9746a3fa6":[6,1,0,0,2,870,5],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa3d03685e02d1c64f586e7f9746a3fa6":[6,1,1,0,1,870,5],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aa81eeee5673601b93dc35d3a7debe25b":[6,1,0,0,2,870,9]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a8250000710b11f280851698d2927fc75":[6,1,0,0,2,870,7]
 };

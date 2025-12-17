@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"MRRayBoxIntersection2_8h.html#ae9f97cb91b3c48ca4b8ebcb3303300db":[6,2,1,0,0,0,1,289,2],
+"MRRayBoxIntersection2_8h_source.html":[6,2,1,0,0,0,1,289],
+"MRRayBoxIntersection_8h.html":[6,2,1,0,0,0,1,288],
+"MRRayBoxIntersection_8h.html#a1e0ab36ee9b679ed253f027f1735609c":[6,2,1,0,0,0,1,288,5],
+"MRRayBoxIntersection_8h.html#a35d906c1ea38942bc0a9d39e83e8b3e6":[6,2,1,0,0,0,1,288,13],
+"MRRayBoxIntersection_8h.html#a387c2b6c194640a4dfac77733cbe3880":[6,2,1,0,0,0,1,288,0],
 "MRRayBoxIntersection_8h.html#a3a81c0e9722295e3f115b52270b5c98f":[6,2,1,0,0,0,1,288,11],
 "MRRayBoxIntersection_8h.html#a3f3f44107e27b816da5045f84e53dc00":[6,2,1,0,0,0,1,288,9],
 "MRRayBoxIntersection_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,1,288,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461":[6,2,1,0,0,0,1,295,2,1],
 "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3":[6,2,1,0,0,0,1,295,2,0],
 "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a506abec0ac0ce35a4415d0143d4bc79a":[6,2,1,0,0,0,1,295,2,4],
-"MRRenderModelParameters_8h.html#aa877928cec2ad4499904dfd36eae46e7":[6,2,1,0,0,0,1,295,0],
-"MRRenderModelParameters_8h.html#aadccf70f451917d5d9e3d6e3de9176b4":[6,2,1,0,0,0,1,295,4],
-"MRRenderModelParameters_8h.html#ab4d6effeaa31169d100c2b036e4ef4ef":[6,2,1,0,0,0,1,295,9],
-"MRRenderModelParameters_8h.html#ac84d349e415e6f520640dc234f0eb01f":[6,2,1,0,0,0,1,295,10],
-"MRRenderModelParameters_8h.html#ad05a618dd50aa189d960b4667278b5f0":[6,2,1,0,0,0,1,295,22],
-"MRRenderModelParameters_8h.html#ad34a5af9a53d4d46d9576739298587cb":[6,2,1,0,0,0,1,295,18],
-"MRRenderModelParameters_8h.html#ae21128369328074801f7c886f954a880":[6,2,1,0,0,0,1,295,6]
+"MRRenderModelParameters_8h.html#aa877928cec2ad4499904dfd36eae46e7":[6,2,1,0,0,0,1,295,0]
 };

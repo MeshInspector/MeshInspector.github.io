@@ -1,5 +1,13 @@
 var NAVTREEINDEX119 =
 {
+"classmrmeshpy_1_1VolumeIndexer.html#afabf9705c1b6d7911634a5bc1d536485":[6,1,1,0,1,1188,4],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html":[6,1,0,0,2,1189],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html":[6,1,1,0,1,1189],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a420c9a6957a6a148ec365679b7d3a4c6":[6,1,0,0,2,1189,5],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a420c9a6957a6a148ec365679b7d3a4c6":[6,1,1,0,1,1189,5],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a45ec05bfa000e66500a2eaa18daaf652":[6,1,0,0,2,1189,2],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a45ec05bfa000e66500a2eaa18daaf652":[6,1,1,0,1,1189,2],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a8f7ef7e53f964695c5890f631252e418":[6,1,0,0,2,1189,1],
 "classmrmeshpy_1_1VolumeSegmentationParameters.html#a8f7ef7e53f964695c5890f631252e418":[6,1,1,0,1,1189,1],
 "classmrmeshpy_1_1VolumeSegmentationParameters.html#aa565c473529b6e377bacbd541f9503ea":[6,1,0,0,2,1189,4],
 "classmrmeshpy_1_1VolumeSegmentationParameters.html#aa565c473529b6e377bacbd541f9503ea":[6,1,1,0,1,1189,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1VoxelId.html#a4590550d1edc5e0bcb92c088b6a49035":[6,1,1,0,1,1195,5],
 "classmrmeshpy_1_1VoxelId.html#a46668b8c73bdfbab9cd23d0f8a22e201":[6,1,0,0,2,1195,11],
 "classmrmeshpy_1_1VoxelId.html#a46668b8c73bdfbab9cd23d0f8a22e201":[6,1,1,0,1,1195,11],
-"classmrmeshpy_1_1VoxelId.html#a5307698710ad20d4f7def99c19380a8a":[6,1,0,0,2,1195,8],
-"classmrmeshpy_1_1VoxelId.html#a5307698710ad20d4f7def99c19380a8a":[6,1,1,0,1,1195,8],
-"classmrmeshpy_1_1VoxelId.html#a5be24c614c152a8775b76c15d81fded0":[6,1,0,0,2,1195,20],
-"classmrmeshpy_1_1VoxelId.html#a5be24c614c152a8775b76c15d81fded0":[6,1,1,0,1,1195,20],
-"classmrmeshpy_1_1VoxelId.html#a5cea782f6c36bb723b0fe7c059e22a9f":[6,1,0,0,2,1195,7],
-"classmrmeshpy_1_1VoxelId.html#a5cea782f6c36bb723b0fe7c059e22a9f":[6,1,1,0,1,1195,7],
-"classmrmeshpy_1_1VoxelId.html#a74abe791ee9b4a7f172b8c1c83ef0701":[6,1,0,0,2,1195,0],
-"classmrmeshpy_1_1VoxelId.html#a74abe791ee9b4a7f172b8c1c83ef0701":[6,1,1,0,1,1195,0],
-"classmrmeshpy_1_1VoxelId.html#a7917484700f1c9f8625b8b70414834cb":[6,1,0,0,2,1195,1]
+"classmrmeshpy_1_1VoxelId.html#a5307698710ad20d4f7def99c19380a8a":[6,1,0,0,2,1195,8]
 };

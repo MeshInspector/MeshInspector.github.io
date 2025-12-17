@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1MruFormatParameters.html#aaa2c2e3e1b4ca72decab6d2e7a7b76c8a4fd071f92b9b26a8e6b37f8618176fdd":[6,0,2,0,1,413,2,0],
+"structMR_1_1MruFormatParameters.html#aaa2c2e3e1b4ca72decab6d2e7a7b76c8a65e65c8ab0d8609ce12fc68a03cb8e00":[6,0,1,0,1,432,2,1],
+"structMR_1_1MruFormatParameters.html#aaa2c2e3e1b4ca72decab6d2e7a7b76c8a65e65c8ab0d8609ce12fc68a03cb8e00":[6,0,2,0,1,413,2,1],
+"structMR_1_1MruFormatParameters.html#ab14f18f4a69f41e12e03f1f7f15685f8":[6,0,1,0,1,432,1],
 "structMR_1_1MruFormatParameters.html#ab14f18f4a69f41e12e03f1f7f15685f8":[6,0,2,0,1,413,1],
 "structMR_1_1MruFormatParameters.html#ab14f18f4a69f41e12e03f1f7f15685f8a31f480a71fd01b933a2d0e1e7482581f":[6,0,1,0,1,432,1,0],
 "structMR_1_1MruFormatParameters.html#ab14f18f4a69f41e12e03f1f7f15685f8a31f480a71fd01b933a2d0e1e7482581f":[6,0,2,0,1,413,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd":[6,0,0,11,14,0,0,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255":[6,0,0,11,14,0,0,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae":[6,0,0,11,14,0,0,2],
-"structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
-"structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[6,0,0,11,4,0,0],
-"structMR_1_1OffsetContourIndex.html":[6,0,1,0,1,486],
-"structMR_1_1OffsetContourIndex.html":[6,0,2,0,1,467],
-"structMR_1_1OffsetContourIndex.html#a54bdd66c3fff31476178a447886820e7":[6,0,1,0,1,486,2]
+"structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0]
 };
