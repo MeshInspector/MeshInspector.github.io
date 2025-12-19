@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classmrmeshpy_1_1AngleMeasurementObject.html#a7be3ff13d6bc1215d034d2310dbdb534":[6,1,1,0,1,25,13],
-"classmrmeshpy_1_1AngleMeasurementObject.html#a8086a439134eefb16e126f9b945cecb3":[6,1,0,0,2,25,6],
-"classmrmeshpy_1_1AngleMeasurementObject.html#a8086a439134eefb16e126f9b945cecb3":[6,1,1,0,1,25,6],
-"classmrmeshpy_1_1AngleMeasurementObject.html#a880d2862b045f9d6bbcf6ba21311b584":[6,1,0,0,2,25,17],
 "classmrmeshpy_1_1AngleMeasurementObject.html#a880d2862b045f9d6bbcf6ba21311b584":[6,1,1,0,1,25,17],
 "classmrmeshpy_1_1AngleMeasurementObject.html#a98de414aae00a3243da639cc137b828a":[6,1,0,0,2,25,5],
 "classmrmeshpy_1_1AngleMeasurementObject.html#a98de414aae00a3243da639cc137b828a":[6,1,1,0,1,25,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX3 =
 "classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html":[6,1,1,0,1,55],
 "classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a234403cd8d3d706311bca7c4a7e688eb":[6,1,0,0,2,55,0],
 "classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a234403cd8d3d706311bca7c4a7e688eb":[6,1,1,0,1,55,0],
-"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a90a292ae31d72cbfdd63d26be8e86008":[6,1,0,0,2,55,2]
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a90a292ae31d72cbfdd63d26be8e86008":[6,1,0,0,2,55,2],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a90a292ae31d72cbfdd63d26be8e86008":[6,1,1,0,1,55,2],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#abb2e03c36639cf116933795a88523d59":[6,1,0,0,2,55,3],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#abb2e03c36639cf116933795a88523d59":[6,1,1,0,1,55,3],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#ad757d86ccb74a29b756b075741423b37":[6,1,0,0,2,55,1]
 };

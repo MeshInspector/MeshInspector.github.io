@@ -246,7 +246,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Class for making mesh from regular distance map. </p>
-<p>distance for each lattice of map is defined as point on ray from surface point cloud to direction point cloud, with length equal to 1/distance from distances file (if distance in file == 0 ray had no point) Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code>. </p>
+<p>distance for each lattice of map is defined as point on ray from surface point cloud to direction point cloud, with length equal to 1/distance from distances file (if distance in file == 0 ray had no point) Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -302,7 +302,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::RegularMapMesher::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -324,7 +324,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a233e01b9bde5fee44d66b7700f286444" title="Destroys a heap-allocated instance of MR_RegularMapMesher. Does nothing if the pointer is null.">MR_RegularMapMesher_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::RegularMapMesher::RegularMapMesher</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a233e01b9bde5fee44d66b7700f286444" title="Destroys a heap-allocated instance of MR_RegularMapMesher. Does nothing if the pointer is null.">MR_RegularMapMesher_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -342,7 +342,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Creates mesh if all components were successfully loaded Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code> named <code>createMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Creates mesh if all components were successfully loaded Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499">MR::RegularMapMesher::createMesh</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -453,7 +453,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Loads distances form distances file (1/distance) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code> named <code>loadDistances</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Loads distances form distances file (1/distance) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa">MR::RegularMapMesher::loadDistances</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -521,7 +521,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets directions Point Cloud Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code> named <code>setDirectionsPC</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>directionsPC</code> can not be null. It is a single object. </p>
+<p>Sets directions Point Cloud Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739">MR::RegularMapMesher::setDirectionsPC</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>directionsPC</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -553,7 +553,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets distances Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code> named <code>setDistances</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>distances</code> can not be null. It is a single object. </p>
+<p>Sets distances Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14">MR::RegularMapMesher::setDistances</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>distances</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -575,7 +575,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets surface Point Cloud Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html">MR::RegularMapMesher</a></code> named <code>setSurfacePC</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>surfacePC</code> can not be null. It is a single object. </p>
+<p>Sets surface Point Cloud Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785">MR::RegularMapMesher::setSurfacePC</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>surfacePC</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

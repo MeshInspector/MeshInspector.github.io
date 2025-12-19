@@ -193,6 +193,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc192403311c5dbba7c8d47f5f070259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4547e044933fcba7f42179b0d72505e5" id="r_a4547e044933fcba7f42179b0d72505e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4547e044933fcba7f42179b0d72505e5">heapBytes</a> (self)</td></tr>
 <tr class="separator:a4547e044933fcba7f42179b0d72505e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e76507a680cbb5fae987188a2ad43b4" id="r_a4e76507a680cbb5fae987188a2ad43b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e76507a680cbb5fae987188a2ad43b4">resetFrontColor</a> (self)</td></tr>
+<tr class="separator:a4e76507a680cbb5fae987188a2ad43b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78bc3f595345d38d39c99d3ea968cd4" id="r_aa78bc3f595345d38d39c99d3ea968cd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78bc3f595345d38d39c99d3ea968cd4">setDistanceMap</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> dmap, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> dmap2local, bool needUpdateMesh=True, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="separator:aa78bc3f595345d38d39c99d3ea968cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a270bf3bb4e1d5ebe595bc72c4b192aa3" id="r_a270bf3bb4e1d5ebe595bc72c4b192aa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270bf3bb4e1d5ebe595bc72c4b192aa3">shallowClone</a> (self)</td></tr>
@@ -302,8 +304,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace0eebcd3a4c4a44bfb6342004b1641e inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9ee0a98ce259adcc5162d34d6f9808d inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder" id="r_af9ee0a98ce259adcc5162d34d6f9808d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#af9ee0a98ce259adcc5162d34d6f9808d">resetColors</a> (self)</td></tr>
 <tr class="separator:af9ee0a98ce259adcc5162d34d6f9808d inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0423908e093c4eca009ce81efa161eae inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder" id="r_a0423908e093c4eca009ce81efa161eae"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a0423908e093c4eca009ce81efa161eae">resetFrontColor</a> (self)</td></tr>
-<tr class="separator:a0423908e093c4eca009ce81efa161eae inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39cb6c9d3969a7e57e2b736596ef336d inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder" id="r_a39cb6c9d3969a7e57e2b736596ef336d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a39cb6c9d3969a7e57e2b736596ef336d">sameModels</a> (self, <a class="el" href="classmrmeshpy_1_1Object.html">Object</a> other)</td></tr>
 <tr class="separator:a39cb6c9d3969a7e57e2b736596ef336d inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47fa588b7d374f9bbbabae7ddab092ce inherit pub_methods_classmrmeshpy_1_1ObjectMeshHolder" id="r_a47fa588b7d374f9bbbabae7ddab092ce"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a47fa588b7d374f9bbbabae7ddab092ce">selectEdges</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> newSelection)</td></tr>
@@ -568,12 +568,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aeaee4a1e97a5387cf6dd27de342e42ee" id="r_aeaee4a1e97a5387cf6dd27de342e42ee"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaee4a1e97a5387cf6dd27de342e42ee">ClassName</a> ()</td></tr>
-<tr class="separator:aeaee4a1e97a5387cf6dd27de342e42ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63b288f80856619d95191aaa0820d536" id="r_a63b288f80856619d95191aaa0820d536"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63b288f80856619d95191aaa0820d536">ClassNameInPlural</a> ()</td></tr>
-<tr class="separator:a63b288f80856619d95191aaa0820d536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a778aa34fdfbbd8933cbc05aba58262e8" id="r_a778aa34fdfbbd8933cbc05aba58262e8"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a778aa34fdfbbd8933cbc05aba58262e8">TypeName</a> ()</td></tr>
-<tr class="separator:a778aa34fdfbbd8933cbc05aba58262e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb9657fa3a50c124c95f2cd27fead99" id="r_a7eb9657fa3a50c124c95f2cd27fead99"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7eb9657fa3a50c124c95f2cd27fead99">StaticClassName</a> ()</td></tr>
+<tr class="separator:a7eb9657fa3a50c124c95f2cd27fead99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847569f216190c0c99a695f4736afbf8" id="r_a847569f216190c0c99a695f4736afbf8"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a847569f216190c0c99a695f4736afbf8">StaticClassNameInPlural</a> ()</td></tr>
+<tr class="separator:a847569f216190c0c99a695f4736afbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2e75a4101f6351238ae41469ad13b7" id="r_aac2e75a4101f6351238ae41469ad13b7"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac2e75a4101f6351238ae41469ad13b7">StaticTypeName</a> ()</td></tr>
+<tr class="separator:aac2e75a4101f6351238ae41469ad13b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classmrmeshpy_1_1ObjectMeshHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1ObjectMeshHolder')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html">mrmeshpy.ObjectMeshHolder</a></td></tr>
 <tr class="memitem:a3ffd95e9ae64f3fa3e3f1b78ba9d2657 inherit pub_static_methods_classmrmeshpy_1_1ObjectMeshHolder" id="r_a3ffd95e9ae64f3fa3e3f1b78ba9d2657"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a3ffd95e9ae64f3fa3e3f1b78ba9d2657">getWorldBox</a> (*args, **kwargs)</td></tr>
 <tr class="separator:a3ffd95e9ae64f3fa3e3f1b78ba9d2657 inherit pub_static_methods_classmrmeshpy_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -662,34 +662,6 @@ This class stores information about distance map object
 </pre> 
 </div>
 </div>
-<a id="aeaee4a1e97a5387cf6dd27de342e42ee" name="aeaee4a1e97a5387cf6dd27de342e42ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaee4a1e97a5387cf6dd27de342e42ee">&#9670;&#160;</a></span>ClassName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str mrmeshpy.ObjectDistanceMap.ClassName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">return human readable name of subclass
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1VisualObject.html#aff22038870cede72a452e26be6d4494f">mrmeshpy.VisualObject</a>.</p>
-
-</div>
-</div>
 <a id="a881200f79aca79b5fc872c334cdd718a" name="a881200f79aca79b5fc872c334cdd718a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a881200f79aca79b5fc872c334cdd718a">&#9670;&#160;</a></span>className()</h2>
 
@@ -706,34 +678,6 @@ This class stores information about distance map object
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1VisualObject.html#a6c501c1b9481a182be58e284667177d2">mrmeshpy.VisualObject</a>.</p>
-
-</div>
-</div>
-<a id="a63b288f80856619d95191aaa0820d536" name="a63b288f80856619d95191aaa0820d536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63b288f80856619d95191aaa0820d536">&#9670;&#160;</a></span>ClassNameInPlural()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str mrmeshpy.ObjectDistanceMap.ClassNameInPlural </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">return human readable name of subclass in plural form
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1VisualObject.html#ad6ec0316e52fe959484209a1e28a50be">mrmeshpy.VisualObject</a>.</p>
 
 </div>
 </div>
@@ -890,6 +834,26 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
 
 </div>
 </div>
+<a id="a4e76507a680cbb5fae987188a2ad43b4" name="a4e76507a680cbb5fae987188a2ad43b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e76507a680cbb5fae987188a2ad43b4">&#9670;&#160;</a></span>resetFrontColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ObjectDistanceMap.resetFrontColor </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">reset basic object colors to their default values from the current theme
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a0423908e093c4eca009ce81efa161eae">mrmeshpy.ObjectMeshHolder</a>.</p>
+
+</div>
+</div>
 <a id="aa78bc3f595345d38d39c99d3ea968cd4" name="aa78bc3f595345d38d39c99d3ea968cd4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa78bc3f595345d38d39c99d3ea968cd4">&#9670;&#160;</a></span>setDistanceMap()</h2>
 
@@ -951,8 +915,8 @@ making new object to share resources with this object
 
 </div>
 </div>
-<a id="a778aa34fdfbbd8933cbc05aba58262e8" name="a778aa34fdfbbd8933cbc05aba58262e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a778aa34fdfbbd8933cbc05aba58262e8">&#9670;&#160;</a></span>TypeName()</h2>
+<a id="a7eb9657fa3a50c124c95f2cd27fead99" name="a7eb9657fa3a50c124c95f2cd27fead99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eb9657fa3a50c124c95f2cd27fead99">&#9670;&#160;</a></span>StaticClassName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +925,63 @@ making new object to share resources with this object
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> str mrmeshpy.ObjectDistanceMap.TypeName </td>
+          <td class="memname"> str mrmeshpy.ObjectDistanceMap.StaticClassName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">return human readable name of subclass
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1VisualObject.html#ad8847c97a27fc747c8904b3b513cb8ce">mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a847569f216190c0c99a695f4736afbf8" name="a847569f216190c0c99a695f4736afbf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a847569f216190c0c99a695f4736afbf8">&#9670;&#160;</a></span>StaticClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.ObjectDistanceMap.StaticClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">return human readable name of subclass in plural form
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1VisualObject.html#aceba12f1730883436a963d1206c2fde7">mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="aac2e75a4101f6351238ae41469ad13b7" name="aac2e75a4101f6351238ae41469ad13b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2e75a4101f6351238ae41469ad13b7">&#9670;&#160;</a></span>StaticTypeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.ObjectDistanceMap.StaticTypeName </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -975,7 +995,7 @@ making new object to share resources with this object
 </div><div class="memdoc">
 <pre class="fragment">return name of subtype for serialization purposes
 </pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a9384a3cfab0c85ddf63f0e619e9fb97b">mrmeshpy.ObjectMeshHolder</a>.</p>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#ab22531e04f74da2bec22df2bffe492cf">mrmeshpy.ObjectMeshHolder</a>.</p>
 
 </div>
 </div>

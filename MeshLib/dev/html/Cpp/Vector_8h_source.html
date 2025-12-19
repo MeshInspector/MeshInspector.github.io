@@ -245,19 +245,19 @@ $(function(){initNavTree('Vector_8h_source.html',''); initResizable(true); });
 </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="foldopen" id="foldopen00079" data-start="" data-end="">
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="Vector_8h.html#a2c7db5e4afa2de1873706c81b18d27f6">   79</a></span><span class="preprocessor">#define MR_VECTOR_LIKE_IMPL( ClassName, Type )                                               \</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">static_assert( sizeof( MR_CONCAT( MR, ClassName ) ) == sizeof( vector_ref_wrapper&lt;Type&gt; ) ); \</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">void MR_CONCAT( MR_CONCAT( mr, ClassName ), Invalidate )( MR_CONCAT( MR, ClassName )* vec )  \</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="Vector_8h.html#acadd440e35876be2e98cc538910340b1">   79</a></span><span class="preprocessor">#define MR_VECTOR_LIKE_IMPL( StaticClassName, Type )                                               \</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">static_assert( sizeof( MR_CONCAT( MR, StaticClassName ) ) == sizeof( vector_ref_wrapper&lt;Type&gt; ) ); \</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">void MR_CONCAT( MR_CONCAT( mr, StaticClassName ), Invalidate )( MR_CONCAT( MR, StaticClassName )* vec )  \</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">{                                                                                            \</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">    reinterpret_cast&lt;vector_ref_wrapper&lt;Type&gt;*&gt;( vec )-&gt;invalidate();                        \</span></div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">}                                                                                            \</span></div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">void MR_CONCAT( MR_CONCAT( mr, ClassName ), Free )( MR_CONCAT( MR, ClassName )* vec )        \</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">void MR_CONCAT( MR_CONCAT( mr, StaticClassName ), Free )( MR_CONCAT( MR, StaticClassName )* vec )        \</span></div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">{                                                                                            \</span></div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">    delete reinterpret_cast&lt;vector_wrapper&lt;Type&gt;*&gt;( vec );                                   \</span></div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">}                                                                                            \</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">MR_CONCAT( MR, ClassName )* MR_CONCAT( MR_CONCAT( mr, ClassName ), New )(void)               \</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">MR_CONCAT( MR, StaticClassName )* MR_CONCAT( MR_CONCAT( mr, StaticClassName ), New )(void)               \</span></div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">{                                                                                            \</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">    return reinterpret_cast&lt;MR_CONCAT( MR, ClassName )*&gt;( new vector_wrapper&lt;Type&gt;( std::vector&lt;Type&gt;() ) ); \</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">    return reinterpret_cast&lt;MR_CONCAT( MR, StaticClassName )*&gt;( new vector_wrapper&lt;Type&gt;( std::vector&lt;Type&gt;() ) ); \</span></div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">}</span></div>
 </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
@@ -267,10 +267,10 @@ $(function(){initNavTree('Vector_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="Vector_8h.html#ac5fbc7efcd685dc5be8bff213e0a2fa5">   97</a></span><span class="preprocessor">#define VECTOR_REF_WRAPPER( Type ) vector_ref_wrapper&lt;typename Type::value_type&gt;</span></div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="foldopen" id="foldopen00099" data-start="" data-end="">
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="Vector_8h.html#ab59298f40eeee2a0cec06bca4fa7ee2d">   99</a></span><span class="preprocessor">#define REGISTER_VECTOR_LIKE( ClassName, Type )       \</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">ADD_AUTO_CAST( ClassName, vector_ref_wrapper&lt;Type&gt; ); \</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">ADD_AUTO_CAST( vector_ref_wrapper&lt;Type&gt;, ClassName ); \</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">ADD_AUTO_CAST( vector_wrapper&lt;Type&gt;, ClassName );</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="Vector_8h.html#ae47534bb740f9e7593eaaf1744c97f31">   99</a></span><span class="preprocessor">#define REGISTER_VECTOR_LIKE( StaticClassName, Type )       \</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">ADD_AUTO_CAST( StaticClassName, vector_ref_wrapper&lt;Type&gt; ); \</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">ADD_AUTO_CAST( vector_ref_wrapper&lt;Type&gt;, StaticClassName ); \</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">ADD_AUTO_CAST( vector_wrapper&lt;Type&gt;, StaticClassName );</span></div>
 </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="foldopen" id="foldopen00104" data-start="" data-end="">

@@ -151,7 +151,8 @@ $(function(){initNavTree('MRPartMappingAdapters_8h.html',''); initResizable(true
   <div class="headertitle"><div class="title">MRPartMappingAdapters.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPartMappingAdapters_8h_source.html">Go to the source code of this file.</a></p>
@@ -173,14 +174,16 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab136ca2c4c46a4bdd62a325b786e461b" id="r_ab136ca2c4c46a4bdd62a325b786e461b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab136ca2c4c46a4bdd62a325b786e461b">MR_Src2TgtMaps_Construct</a> (<a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *outFmap, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="el" href="MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outEmap)</td></tr>
-<tr class="separator:ab136ca2c4c46a4bdd62a325b786e461b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482bf902237f94f0fd28d49408abda6b" id="r_a482bf902237f94f0fd28d49408abda6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a482bf902237f94f0fd28d49408abda6b">MR_Src2TgtMaps_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *_other)</td></tr>
+<tr class="separator:a482bf902237f94f0fd28d49408abda6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c28014fe6106cd04c7ad69b1c52f4e" id="r_ac2c28014fe6106cd04c7ad69b1c52f4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c28014fe6106cd04c7ad69b1c52f4e">MR_Src2TgtMaps_OffsetPtr</a> (const <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ac2c28014fe6106cd04c7ad69b1c52f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ac2c28014fe6106cd04c7ad69b1c52f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80f44735946750b2c149d6460a06e618" id="r_a80f44735946750b2c149d6460a06e618"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f44735946750b2c149d6460a06e618">MR_Src2TgtMaps_OffsetMutablePtr</a> (<a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a80f44735946750b2c149d6460a06e618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a80f44735946750b2c149d6460a06e618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab136ca2c4c46a4bdd62a325b786e461b" id="r_ab136ca2c4c46a4bdd62a325b786e461b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab136ca2c4c46a4bdd62a325b786e461b">MR_Src2TgtMaps_Construct</a> (<a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *outFmap, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="el" href="MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outEmap)</td></tr>
+<tr class="separator:ab136ca2c4c46a4bdd62a325b786e461b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad59d9bad1603e9ecb6fa224379019b4c" id="r_ad59d9bad1603e9ecb6fa224379019b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad59d9bad1603e9ecb6fa224379019b4c">MR_Src2TgtMaps_Destroy</a> (const <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *_this)</td></tr>
 <tr class="memdesc:ad59d9bad1603e9ecb6fa224379019b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Src2TgtMaps</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ad59d9bad1603e9ecb6fa224379019b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,16 +192,20 @@ Functions</h2></td></tr>
 <tr class="separator:af8c18d5a6dde763eb59605b1407bb1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac667998cc4737593a276531f1ed494a5" id="r_ac667998cc4737593a276531f1ed494a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac667998cc4737593a276531f1ed494a5">MR_Src2TgtMaps_ConvertTo_const_MR_PartMapping_ref</a> (const <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *_this)</td></tr>
 <tr class="separator:ac667998cc4737593a276531f1ed494a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1efd1d264aefbd059abef314b467d0" id="r_aab1efd1d264aefbd059abef314b467d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab1efd1d264aefbd059abef314b467d0">MR_Src2TgtMaps_AssignFromAnother</a> (<a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *_other)</td></tr>
+<tr class="separator:aab1efd1d264aefbd059abef314b467d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bdb6c944170040645dd133c81b3b713" id="r_a3bdb6c944170040645dd133c81b3b713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdb6c944170040645dd133c81b3b713">MR_Src2TgtMaps_getPartMapping</a> (const <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *_this)</td></tr>
 <tr class="separator:a3bdb6c944170040645dd133c81b3b713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679b324d2483611e2dac42f106aeb89b" id="r_a679b324d2483611e2dac42f106aeb89b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679b324d2483611e2dac42f106aeb89b">MR_Tgt2SrcMaps_Construct</a> (<a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *outFmap, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="el" href="MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outEmap)</td></tr>
-<tr class="separator:a679b324d2483611e2dac42f106aeb89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a0d36df1f177454f22e85431655b6f" id="r_ab3a0d36df1f177454f22e85431655b6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a0d36df1f177454f22e85431655b6f">MR_Tgt2SrcMaps_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *_other)</td></tr>
+<tr class="separator:ab3a0d36df1f177454f22e85431655b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53fc7df70bb6c3cdce527608931dc34" id="r_ab53fc7df70bb6c3cdce527608931dc34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53fc7df70bb6c3cdce527608931dc34">MR_Tgt2SrcMaps_OffsetPtr</a> (const <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ab53fc7df70bb6c3cdce527608931dc34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ab53fc7df70bb6c3cdce527608931dc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ba7fdaab8d11658d8c8ef9fecd3b9c" id="r_a32ba7fdaab8d11658d8c8ef9fecd3b9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ba7fdaab8d11658d8c8ef9fecd3b9c">MR_Tgt2SrcMaps_OffsetMutablePtr</a> (<a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a32ba7fdaab8d11658d8c8ef9fecd3b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a32ba7fdaab8d11658d8c8ef9fecd3b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679b324d2483611e2dac42f106aeb89b" id="r_a679b324d2483611e2dac42f106aeb89b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679b324d2483611e2dac42f106aeb89b">MR_Tgt2SrcMaps_Construct</a> (<a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *outFmap, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="el" href="MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outEmap)</td></tr>
+<tr class="separator:a679b324d2483611e2dac42f106aeb89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a915cfb92dc5ffcc9c8c6b57ccaa2b802" id="r_a915cfb92dc5ffcc9c8c6b57ccaa2b802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915cfb92dc5ffcc9c8c6b57ccaa2b802">MR_Tgt2SrcMaps_Destroy</a> (const <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *_this)</td></tr>
 <tr class="memdesc:a915cfb92dc5ffcc9c8c6b57ccaa2b802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Tgt2SrcMaps</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a915cfb92dc5ffcc9c8c6b57ccaa2b802"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +214,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa88c634d62cc69ded0b39da814e33bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52cf0d90090a0781f4fe5241b491ad00" id="r_a52cf0d90090a0781f4fe5241b491ad00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52cf0d90090a0781f4fe5241b491ad00">MR_Tgt2SrcMaps_ConvertTo_const_MR_PartMapping_ref</a> (const <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *_this)</td></tr>
 <tr class="separator:a52cf0d90090a0781f4fe5241b491ad00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b10adb029167aa0264e46fe9a16b55" id="r_ac9b10adb029167aa0264e46fe9a16b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9b10adb029167aa0264e46fe9a16b55">MR_Tgt2SrcMaps_AssignFromAnother</a> (<a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *_other)</td></tr>
+<tr class="separator:ac9b10adb029167aa0264e46fe9a16b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c59e10689b9fda9fbb0403b8de4272f" id="r_a6c59e10689b9fda9fbb0403b8de4272f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c59e10689b9fda9fbb0403b8de4272f">MR_Tgt2SrcMaps_getPartMapping</a> (const <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *_this)</td></tr>
 <tr class="separator:a6c59e10689b9fda9fbb0403b8de4272f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -250,7 +259,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use this adapter to call functions expecting PartMapping parameter to receive src2tgt dense maps Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html">MR::Src2TgtMaps</a></code>. </p>
+<p>use this adapter to call functions expecting PartMapping parameter to receive src2tgt dense maps Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html">MR::Src2TgtMaps</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -265,7 +274,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use this adapter to call functions expecting PartMapping parameter to receive tgt2src dense maps Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html">MR::Tgt2SrcMaps</a></code>. </p>
+<p>use this adapter to call functions expecting PartMapping parameter to receive tgt2src dense maps Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html">MR::Tgt2SrcMaps</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -298,6 +307,33 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aab1efd1d264aefbd059abef314b467d0" name="aab1efd1d264aefbd059abef314b467d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab1efd1d264aefbd059abef314b467d0">&#9670;&#160;</a></span>MR_Src2TgtMaps_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> * MR_Src2TgtMaps_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::Src2TgtMaps::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="ab136ca2c4c46a4bdd62a325b786e461b" name="ab136ca2c4c46a4bdd62a325b786e461b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab136ca2c4c46a4bdd62a325b786e461b">&#9670;&#160;</a></span>MR_Src2TgtMaps_Construct()</h2>
 
@@ -321,7 +357,29 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html">MR::Src2TgtMaps</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad59d9bad1603e9ecb6fa224379019b4c" title="Destroys a heap-allocated instance of MR_Src2TgtMaps. Does nothing if the pointer is null.">MR_Src2TgtMaps_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html#a8c21977780c1e2b5edad83656984e28e">MR::Src2TgtMaps::Src2TgtMaps</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad59d9bad1603e9ecb6fa224379019b4c" title="Destroys a heap-allocated instance of MR_Src2TgtMaps. Does nothing if the pointer is null.">MR_Src2TgtMaps_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a482bf902237f94f0fd28d49408abda6b" name="a482bf902237f94f0fd28d49408abda6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482bf902237f94f0fd28d49408abda6b">&#9670;&#160;</a></span>MR_Src2TgtMaps_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> * MR_Src2TgtMaps_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#add4f0a47fb9bf74fe147f20415780b8a">MR_Src2TgtMaps</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html#a8c21977780c1e2b5edad83656984e28e">MR::Src2TgtMaps::Src2TgtMaps</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad59d9bad1603e9ecb6fa224379019b4c" title="Destroys a heap-allocated instance of MR_Src2TgtMaps. Does nothing if the pointer is null.">MR_Src2TgtMaps_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -339,7 +397,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html">MR::Src2TgtMaps</a></code> to type <code>const <a class="elRef" href="../Cpp/structMR_1_1PartMapping.html">MR::PartMapping</a> &amp;</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from conversion operator <code>MR::Src2TgtMaps::operator const <a class="elRef" href="../Cpp/structMR_1_1PartMapping.html">MR::PartMapping</a> &amp;</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -395,7 +453,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html">MR::Src2TgtMaps</a></code> named <code>getPartMapping</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Src2TgtMaps.html#a1408fe5390b44910ee7b305971ff1943">MR::Src2TgtMaps::getPartMapping</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -445,6 +503,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9b10adb029167aa0264e46fe9a16b55" name="ac9b10adb029167aa0264e46fe9a16b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b10adb029167aa0264e46fe9a16b55">&#9670;&#160;</a></span>MR_Tgt2SrcMaps_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> * MR_Tgt2SrcMaps_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::Tgt2SrcMaps::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a679b324d2483611e2dac42f106aeb89b" name="a679b324d2483611e2dac42f106aeb89b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a679b324d2483611e2dac42f106aeb89b">&#9670;&#160;</a></span>MR_Tgt2SrcMaps_Construct()</h2>
 
@@ -468,7 +553,29 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html">MR::Tgt2SrcMaps</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a915cfb92dc5ffcc9c8c6b57ccaa2b802" title="Destroys a heap-allocated instance of MR_Tgt2SrcMaps. Does nothing if the pointer is null.">MR_Tgt2SrcMaps_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html#aa3682117ec9b9d0ef8ecb9b276b92eb9">MR::Tgt2SrcMaps::Tgt2SrcMaps</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a915cfb92dc5ffcc9c8c6b57ccaa2b802" title="Destroys a heap-allocated instance of MR_Tgt2SrcMaps. Does nothing if the pointer is null.">MR_Tgt2SrcMaps_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab3a0d36df1f177454f22e85431655b6f" name="ab3a0d36df1f177454f22e85431655b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a0d36df1f177454f22e85431655b6f">&#9670;&#160;</a></span>MR_Tgt2SrcMaps_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> * MR_Tgt2SrcMaps_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a690f55ab8a605fe16184798dd8eb848b">MR_Tgt2SrcMaps</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html#aa3682117ec9b9d0ef8ecb9b276b92eb9">MR::Tgt2SrcMaps::Tgt2SrcMaps</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a915cfb92dc5ffcc9c8c6b57ccaa2b802" title="Destroys a heap-allocated instance of MR_Tgt2SrcMaps. Does nothing if the pointer is null.">MR_Tgt2SrcMaps_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -486,7 +593,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html">MR::Tgt2SrcMaps</a></code> to type <code>const <a class="elRef" href="../Cpp/structMR_1_1PartMapping.html">MR::PartMapping</a> &amp;</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from conversion operator <code>MR::Tgt2SrcMaps::operator const <a class="elRef" href="../Cpp/structMR_1_1PartMapping.html">MR::PartMapping</a> &amp;</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -542,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html">MR::Tgt2SrcMaps</a></code> named <code>getPartMapping</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Tgt2SrcMaps.html#a8266fef859ccf3d06f819a2681185063">MR::Tgt2SrcMaps::getPartMapping</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>

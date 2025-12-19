@@ -153,6 +153,7 @@ $(function(){initNavTree('expected__MR__UnionFind__MR__VertId__std__string_8h.ht
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="expected__MR__UnionFind__MR__VertId__std__string_8h_source.html">Go to the source code of this file.</a></p>
@@ -161,7 +162,7 @@ $(function(){initNavTree('expected__MR__UnionFind__MR__VertId__std__string_8h.ht
 Typedefs</h2></td></tr>
 <tr class="memitem:aae1af1886c1d727925eb39e88e0dfdf9" id="r_aae1af1886c1d727925eb39e88e0dfdf9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshComponents_8h.html#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a></td></tr>
 <tr class="separator:aae1af1886c1d727925eb39e88e0dfdf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82dfc901421e2146a37c83edcd359b2c" id="r_a82dfc901421e2146a37c83edcd359b2c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a></td></tr>
 <tr class="separator:a82dfc901421e2146a37c83edcd359b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,12 +175,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5d1bf5a92728af9ae71a86ba18cbb9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc5dda686a3e1380cdca1095083b107f" id="r_abc5dda686a3e1380cdca1095083b107f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc5dda686a3e1380cdca1095083b107f">MR_expected_MR_UnionFind_MR_VertId_std_string_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *other)</td></tr>
 <tr class="separator:abc5dda686a3e1380cdca1095083b107f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadc66ac72a05cf44c0a66c310727fba8" id="r_aadc66ac72a05cf44c0a66c310727fba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadc66ac72a05cf44c0a66c310727fba8">MR_expected_MR_UnionFind_MR_VertId_std_string_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *other)</td></tr>
-<tr class="separator:aadc66ac72a05cf44c0a66c310727fba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac814789fc659d1e08b1622decafe6b0a" id="r_ac814789fc659d1e08b1622decafe6b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac814789fc659d1e08b1622decafe6b0a">MR_expected_MR_UnionFind_MR_VertId_std_string_AssignFromAnother</a> (<a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *other)</td></tr>
 <tr class="separator:ac814789fc659d1e08b1622decafe6b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1567a01ef1983714e88e53ba085e7011" id="r_a1567a01ef1983714e88e53ba085e7011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1567a01ef1983714e88e53ba085e7011">MR_expected_MR_UnionFind_MR_VertId_std_string_AssignFrom</a> (<a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *other)</td></tr>
-<tr class="separator:a1567a01ef1983714e88e53ba085e7011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7433e54e8d6fef1cfcc72333b3982c77" id="r_a7433e54e8d6fef1cfcc72333b3982c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7433e54e8d6fef1cfcc72333b3982c77">MR_expected_MR_UnionFind_MR_VertId_std_string_Destroy</a> (const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
 <tr class="memdesc:a7433e54e8d6fef1cfcc72333b3982c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_expected_MR_UnionFind_MR_VertId_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7433e54e8d6fef1cfcc72333b3982c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,13 +189,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a489fc3b75a18b0edd3896160e8138bed" id="r_a489fc3b75a18b0edd3896160e8138bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489fc3b75a18b0edd3896160e8138bed">MR_expected_MR_UnionFind_MR_VertId_std_string_OffsetMutablePtr</a> (<a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a489fc3b75a18b0edd3896160e8138bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a489fc3b75a18b0edd3896160e8138bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad43f500fda1e1822e8a8fe4f5552f93" id="r_aad43f500fda1e1822e8a8fe4f5552f93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad43f500fda1e1822e8a8fe4f5552f93">MR_expected_MR_UnionFind_MR_VertId_std_string_Success</a> (const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
+<tr class="separator:aad43f500fda1e1822e8a8fe4f5552f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbceb81f19af60117c2e36b28d83e173" id="r_acbceb81f19af60117c2e36b28d83e173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshComponents_8h.html#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbceb81f19af60117c2e36b28d83e173">MR_expected_MR_UnionFind_MR_VertId_std_string_GetValue</a> (const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
 <tr class="separator:acbceb81f19af60117c2e36b28d83e173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeacd4fb7886d262cb1a9ca0203fb5e2d" id="r_aeacd4fb7886d262cb1a9ca0203fb5e2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeacd4fb7886d262cb1a9ca0203fb5e2d">MR_expected_MR_UnionFind_MR_VertId_std_string_GetError</a> (const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
+<tr class="memitem:aeacd4fb7886d262cb1a9ca0203fb5e2d" id="r_aeacd4fb7886d262cb1a9ca0203fb5e2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeacd4fb7886d262cb1a9ca0203fb5e2d">MR_expected_MR_UnionFind_MR_VertId_std_string_GetError</a> (const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
 <tr class="separator:aeacd4fb7886d262cb1a9ca0203fb5e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b7158b3807f0719ede7f72204a68eaf" id="r_a7b7158b3807f0719ede7f72204a68eaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b7158b3807f0719ede7f72204a68eaf">MR_expected_MR_UnionFind_MR_VertId_std_string_GetMutableValue</a> (<a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
 <tr class="separator:a7b7158b3807f0719ede7f72204a68eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a7b3f920b9c79a2910a3e29e3bb2ed5" id="r_a9a7b3f920b9c79a2910a3e29e3bb2ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7b3f920b9c79a2910a3e29e3bb2ed5">MR_expected_MR_UnionFind_MR_VertId_std_string_GetMutableError</a> (<a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
+<tr class="memitem:a9a7b3f920b9c79a2910a3e29e3bb2ed5" id="r_a9a7b3f920b9c79a2910a3e29e3bb2ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7b3f920b9c79a2910a3e29e3bb2ed5">MR_expected_MR_UnionFind_MR_VertId_std_string_GetMutableError</a> (<a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *_this)</td></tr>
 <tr class="separator:a9a7b3f920b9c79a2910a3e29e3bb2ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -213,7 +212,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores either a <code><a class="elRef" href="../Cpp/classMR_1_1UnionFind.html">MR::UnionFind</a>&lt;MR::VertId&gt;</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Stores either a <code><a class="elRef" href="../Cpp/classMR_1_1UnionFind.html">MR::UnionFind</a>&lt;MR::VertId&gt;</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -224,7 +223,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,33 +245,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a1567a01ef1983714e88e53ba085e7011" name="a1567a01ef1983714e88e53ba085e7011"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1567a01ef1983714e88e53ba085e7011">&#9670;&#160;</a></span>MR_expected_MR_UnionFind_MR_VertId_std_string_AssignFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_expected_MR_UnionFind_MR_VertId_std_string_AssignFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Assigns the contents. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
 <a id="ac814789fc659d1e08b1622decafe6b0a" name="ac814789fc659d1e08b1622decafe6b0a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac814789fc659d1e08b1622decafe6b0a">&#9670;&#160;</a></span>MR_expected_MR_UnionFind_MR_VertId_std_string_AssignFromAnother()</h2>
 
@@ -297,28 +269,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="aadc66ac72a05cf44c0a66c310727fba8" name="aadc66ac72a05cf44c0a66c310727fba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadc66ac72a05cf44c0a66c310727fba8">&#9670;&#160;</a></span>MR_expected_MR_UnionFind_MR_VertId_std_string_ConstructFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> * MR_expected_MR_UnionFind_MR_VertId_std_string_ConstructFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Constructs a new instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7433e54e8d6fef1cfcc72333b3982c77" title="Destroys a heap-allocated instance of MR_expected_MR_UnionFind_MR_VertId_std_string....">MR_expected_MR_UnionFind_MR_VertId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -425,7 +375,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_UnionFind_MR_VertId_std_string_GetError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_UnionFind_MR_VertId_std_string_GetError </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -443,7 +393,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_UnionFind_MR_VertId_std_string_GetMutableError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_UnionFind_MR_VertId_std_string_GetMutableError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -533,6 +483,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aad43f500fda1e1822e8a8fe4f5552f93" name="aad43f500fda1e1822e8a8fe4f5552f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad43f500fda1e1822e8a8fe4f5552f93">&#9670;&#160;</a></span>MR_expected_MR_UnionFind_MR_VertId_std_string_Success()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_expected_MR_UnionFind_MR_VertId_std_string_Success </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPointsComponents_8h.html#a82dfc901421e2146a37c83edcd359b2c">MR_expected_MR_UnionFind_MR_VertId_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if this instance represents success, or false if it represents an error. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

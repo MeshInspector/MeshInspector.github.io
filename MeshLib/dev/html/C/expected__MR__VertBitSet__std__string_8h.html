@@ -153,6 +153,7 @@ $(function(){initNavTree('expected__MR__VertBitSet__std__string_8h.html',''); in
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="expected__MR__VertBitSet__std__string_8h_source.html">Go to the source code of this file.</a></p>
@@ -161,7 +162,7 @@ $(function(){initNavTree('expected__MR__VertBitSet__std__string_8h.html',''); in
 Typedefs</h2></td></tr>
 <tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
 <tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad28f0eefdef309c3ac3580e15985c342" id="r_ad28f0eefdef309c3ac3580e15985c342"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a></td></tr>
 <tr class="separator:ad28f0eefdef309c3ac3580e15985c342"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,12 +175,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab72b6e588cf2b0711d640ec34a732e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeae86554cb5a14c652867d5e2a6e6e6a" id="r_aeae86554cb5a14c652867d5e2a6e6e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeae86554cb5a14c652867d5e2a6e6e6a">MR_expected_MR_VertBitSet_std_string_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *other)</td></tr>
 <tr class="separator:aeae86554cb5a14c652867d5e2a6e6e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d59d83fa9ebcad6db219232ca5ae7cd" id="r_a0d59d83fa9ebcad6db219232ca5ae7cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d59d83fa9ebcad6db219232ca5ae7cd">MR_expected_MR_VertBitSet_std_string_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *other)</td></tr>
-<tr class="separator:a0d59d83fa9ebcad6db219232ca5ae7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac55cbbd7e2e53c85dd1b1d259194f690" id="r_ac55cbbd7e2e53c85dd1b1d259194f690"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55cbbd7e2e53c85dd1b1d259194f690">MR_expected_MR_VertBitSet_std_string_AssignFromAnother</a> (<a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *other)</td></tr>
 <tr class="separator:ac55cbbd7e2e53c85dd1b1d259194f690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab20694fc2dc72a8d724e95741fa6f750" id="r_ab20694fc2dc72a8d724e95741fa6f750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab20694fc2dc72a8d724e95741fa6f750">MR_expected_MR_VertBitSet_std_string_AssignFrom</a> (<a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *other)</td></tr>
-<tr class="separator:ab20694fc2dc72a8d724e95741fa6f750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a84f59db0dc8928f0e7d694f796d982" id="r_a4a84f59db0dc8928f0e7d694f796d982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a84f59db0dc8928f0e7d694f796d982">MR_expected_MR_VertBitSet_std_string_Destroy</a> (const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
 <tr class="memdesc:a4a84f59db0dc8928f0e7d694f796d982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_expected_MR_VertBitSet_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a4a84f59db0dc8928f0e7d694f796d982"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,13 +189,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a7251c84694e4b4c06933a98cc8a4a406" id="r_a7251c84694e4b4c06933a98cc8a4a406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7251c84694e4b4c06933a98cc8a4a406">MR_expected_MR_VertBitSet_std_string_OffsetMutablePtr</a> (<a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a7251c84694e4b4c06933a98cc8a4a406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a7251c84694e4b4c06933a98cc8a4a406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef2f85c3ed5b1e60adf0b7d8f38f5e09" id="r_aef2f85c3ed5b1e60adf0b7d8f38f5e09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef2f85c3ed5b1e60adf0b7d8f38f5e09">MR_expected_MR_VertBitSet_std_string_Success</a> (const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
+<tr class="separator:aef2f85c3ed5b1e60adf0b7d8f38f5e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f681cafe2e0f6b45eb906683ad8c09c" id="r_a3f681cafe2e0f6b45eb906683ad8c09c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f681cafe2e0f6b45eb906683ad8c09c">MR_expected_MR_VertBitSet_std_string_GetValue</a> (const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
 <tr class="separator:a3f681cafe2e0f6b45eb906683ad8c09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8b23cbe24769f753e7e3cf331ecd933" id="r_ac8b23cbe24769f753e7e3cf331ecd933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8b23cbe24769f753e7e3cf331ecd933">MR_expected_MR_VertBitSet_std_string_GetError</a> (const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
+<tr class="memitem:ac8b23cbe24769f753e7e3cf331ecd933" id="r_ac8b23cbe24769f753e7e3cf331ecd933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8b23cbe24769f753e7e3cf331ecd933">MR_expected_MR_VertBitSet_std_string_GetError</a> (const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
 <tr class="separator:ac8b23cbe24769f753e7e3cf331ecd933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada1857ec4ecda8fe0b40aaa96b36ee69" id="r_ada1857ec4ecda8fe0b40aaa96b36ee69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada1857ec4ecda8fe0b40aaa96b36ee69">MR_expected_MR_VertBitSet_std_string_GetMutableValue</a> (<a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
 <tr class="separator:ada1857ec4ecda8fe0b40aaa96b36ee69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae282ac817b09d4e633f3e1ef1435e53f" id="r_ae282ac817b09d4e633f3e1ef1435e53f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae282ac817b09d4e633f3e1ef1435e53f">MR_expected_MR_VertBitSet_std_string_GetMutableError</a> (<a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
+<tr class="memitem:ae282ac817b09d4e633f3e1ef1435e53f" id="r_ae282ac817b09d4e633f3e1ef1435e53f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae282ac817b09d4e633f3e1ef1435e53f">MR_expected_MR_VertBitSet_std_string_GetMutableError</a> (<a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *_this)</td></tr>
 <tr class="separator:ae282ac817b09d4e633f3e1ef1435e53f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -213,7 +212,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores either a <code>MR::VertBitSet</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Stores either a <code>MR::VertBitSet</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -224,7 +223,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,33 +245,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ab20694fc2dc72a8d724e95741fa6f750" name="ab20694fc2dc72a8d724e95741fa6f750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab20694fc2dc72a8d724e95741fa6f750">&#9670;&#160;</a></span>MR_expected_MR_VertBitSet_std_string_AssignFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_expected_MR_VertBitSet_std_string_AssignFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Assigns the contents. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
 <a id="ac55cbbd7e2e53c85dd1b1d259194f690" name="ac55cbbd7e2e53c85dd1b1d259194f690"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac55cbbd7e2e53c85dd1b1d259194f690">&#9670;&#160;</a></span>MR_expected_MR_VertBitSet_std_string_AssignFromAnother()</h2>
 
@@ -297,28 +269,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="a0d59d83fa9ebcad6db219232ca5ae7cd" name="a0d59d83fa9ebcad6db219232ca5ae7cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d59d83fa9ebcad6db219232ca5ae7cd">&#9670;&#160;</a></span>MR_expected_MR_VertBitSet_std_string_ConstructFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> * MR_expected_MR_VertBitSet_std_string_ConstructFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Constructs a new instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4a84f59db0dc8928f0e7d694f796d982" title="Destroys a heap-allocated instance of MR_expected_MR_VertBitSet_std_string. Does nothing if the point...">MR_expected_MR_VertBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -425,7 +375,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_VertBitSet_std_string_GetError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_VertBitSet_std_string_GetError </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -443,7 +393,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_VertBitSet_std_string_GetMutableError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_VertBitSet_std_string_GetMutableError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -533,6 +483,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aef2f85c3ed5b1e60adf0b7d8f38f5e09" name="aef2f85c3ed5b1e60adf0b7d8f38f5e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2f85c3ed5b1e60adf0b7d8f38f5e09">&#9670;&#160;</a></span>MR_expected_MR_VertBitSet_std_string_Success()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_expected_MR_VertBitSet_std_string_Success </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if this instance represents success, or false if it represents an error. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -173,13 +173,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a8c5a467b31e338f553885db4082fb2eb" id="r_a8c5a467b31e338f553885db4082fb2eb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a></td></tr>
 <tr class="separator:a8c5a467b31e338f553885db4082fb2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96f222289284f81c9dc9a06a0fede308" id="r_a96f222289284f81c9dc9a06a0fede308"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a96f222289284f81c9dc9a06a0fede308">MR_PreciseVertCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96f222289284f81c9dc9a06a0fede308">MR_PreciseVertCoord</a></td></tr>
-<tr class="memdesc:a96f222289284f81c9dc9a06a0fede308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code>.  <br /></td></tr>
 <tr class="separator:a96f222289284f81c9dc9a06a0fede308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f08740567645d626828a48dafb9f103" id="r_a7f08740567645d626828a48dafb9f103"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7f08740567645d626828a48dafb9f103">MR_PreciseVertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f08740567645d626828a48dafb9f103">MR_PreciseVertCoords2</a></td></tr>
-<tr class="memdesc:a7f08740567645d626828a48dafb9f103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoords2.html">MR::PreciseVertCoords2</a></code>.  <br /></td></tr>
 <tr class="separator:a7f08740567645d626828a48dafb9f103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa14a93fd28ed5a76cd067e26194b2c5e" id="r_aa14a93fd28ed5a76cd067e26194b2c5e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa14a93fd28ed5a76cd067e26194b2c5e">MR_SegmentSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa14a93fd28ed5a76cd067e26194b2c5e">MR_SegmentSegmentIntersectResult</a></td></tr>
-<tr class="memdesc:aa14a93fd28ed5a76cd067e26194b2c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code>.  <br /></td></tr>
 <tr class="separator:aa14a93fd28ed5a76cd067e26194b2c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba207e8e2df9b894c2e8e525351c3e57" id="r_aba207e8e2df9b894c2e8e525351c3e57"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a></td></tr>
 <tr class="separator:aba207e8e2df9b894c2e8e525351c3e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,7 +364,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this struct contains coordinate converters float-int-float Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CoordinateConverters2.html">MR::CoordinateConverters2</a></code>. unique id of the vertex (in both contours) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this struct contains coordinate converters float-int-float Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CoordinateConverters2.html">MR::CoordinateConverters2</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). unique id of the vertex (in both contours) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -382,8 +379,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -398,8 +394,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoords2.html">MR::PreciseVertCoords2</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoords2.html">MR::PreciseVertCoords2</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -414,8 +409,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -599,7 +593,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1CoordinateConverters2.html">MR::CoordinateConverters2</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::CoordinateConverters2::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -653,7 +647,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1CoordinateConverters2.html">MR::CoordinateConverters2</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a305bbbb97671321a8409ff7624896144" title="Destroys a heap-allocated instance of MR_CoordinateConverters2. Does nothing if the pointer is null.">MR_CoordinateConverters2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::CoordinateConverters2::CoordinateConverters2</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a305bbbb97671321a8409ff7624896144" title="Destroys a heap-allocated instance of MR_CoordinateConverters2. Does nothing if the pointer is null.">MR_CoordinateConverters2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1110,7 +1104,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PreciseVertCoord::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1150,7 +1144,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoord.html">MR::PreciseVertCoord</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a43cc9a35d407c509a4e338d22bff19be" title="Destroys a heap-allocated instance of MR_PreciseVertCoord. Does nothing if the pointer is null.">MR_PreciseVertCoord_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PreciseVertCoord::PreciseVertCoord</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a43cc9a35d407c509a4e338d22bff19be" title="Destroys a heap-allocated instance of MR_PreciseVertCoord. Does nothing if the pointer is null.">MR_PreciseVertCoord_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1407,7 +1401,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoords2.html">MR::PreciseVertCoords2</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PreciseVertCoords2::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1447,7 +1441,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoords2.html">MR::PreciseVertCoords2</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae1f96de2aeec4f7f78759cce0f0e1ed4" title="Destroys a heap-allocated instance of MR_PreciseVertCoords2. Does nothing if the pointer is null.">MR_PreciseVertCoords2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PreciseVertCoords2::PreciseVertCoords2</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae1f96de2aeec4f7f78759cce0f0e1ed4" title="Destroys a heap-allocated instance of MR_PreciseVertCoords2. Does nothing if the pointer is null.">MR_PreciseVertCoords2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1722,7 +1716,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::SegmentSegmentIntersectResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1762,7 +1756,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac4879318f91545796af20560d91d923e" title="Destroys a heap-allocated instance of MR_SegmentSegmentIntersectResult. Does nothing if the pointer i...">MR_SegmentSegmentIntersectResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SegmentSegmentIntersectResult::SegmentSegmentIntersectResult</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac4879318f91545796af20560d91d923e" title="Destroys a heap-allocated instance of MR_SegmentSegmentIntersectResult. Does nothing if the pointer i...">MR_SegmentSegmentIntersectResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1780,7 +1774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code> to type <code>bool</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from conversion operator <code>MR::SegmentSegmentIntersectResult::operator bool</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

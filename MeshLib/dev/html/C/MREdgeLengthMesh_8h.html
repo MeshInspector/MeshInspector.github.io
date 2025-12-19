@@ -233,7 +233,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code>. </p>
+<p>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -317,7 +317,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::EdgeLengthMesh::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -371,7 +371,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2d77a05c2e04c162845f721c5baed5eb" title="Destroys a heap-allocated instance of MR_EdgeLengthMesh. Does nothing if the pointer is null.">MR_EdgeLengthMesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::EdgeLengthMesh::EdgeLengthMesh</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2d77a05c2e04c162845f721c5baed5eb" title="Destroys a heap-allocated instance of MR_EdgeLengthMesh. Does nothing if the pointer is null.">MR_EdgeLengthMesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -393,7 +393,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>cotan</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html#a3b8d293f6ee11394128c078fc11bead8">MR::EdgeLengthMesh::cotan</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -489,7 +489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given the edge with left and right triangular faces, which form together a quadrangle, returns the length of geodesic line on original mesh between the vertices of the quadrangle opposite to given edge; returns std::nullopt if the geodesic line does not go fully inside the quadrangle Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>edgeLengthAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given the edge with left and right triangular faces, which form together a quadrangle, returns the length of geodesic line on original mesh between the vertices of the quadrangle opposite to given edge; returns std::nullopt if the geodesic line does not go fully inside the quadrangle Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html#a167ce08d19e1c861f1c9a08360456195">MR::EdgeLengthMesh::edgeLengthAfterFlip</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -511,7 +511,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle; the length of e becomes equal to the length of geodesic line between its new ends on original mesh; does not flip and returns false if the geodesic line does not go fully inside the quadrangle Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>flipEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle; the length of e becomes equal to the length of geodesic line between its new ends on original mesh; does not flip and returns false if the geodesic line does not go fully inside the quadrangle Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html#a1b96a29808fed26956890232f3996c95">MR::EdgeLengthMesh::flipEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -529,7 +529,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>construct EdgeLengthMesh from an ordinary mesh Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>fromMesh</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2d77a05c2e04c162845f721c5baed5eb" title="Destroys a heap-allocated instance of MR_EdgeLengthMesh. Does nothing if the pointer is null.">MR_EdgeLengthMesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>construct EdgeLengthMesh from an ordinary mesh Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html#abf01cf2eeeb414bf371f5d2ba5d8d880">MR::EdgeLengthMesh::fromMesh</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2d77a05c2e04c162845f721c5baed5eb" title="Destroys a heap-allocated instance of MR_EdgeLengthMesh. Does nothing if the pointer is null.">MR_EdgeLengthMesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -628,7 +628,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given edge satisfies Delaunay conditions, returns false if the edge needs to be flipped to satisfy Delaunay conditions, passing negative threshold makes more edges satisfy Delaunay conditions Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>isDelone</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>threshold</code> has a default argument: <code>0</code>, pass a null pointer to use it. </p>
+<p>returns true if given edge satisfies Delaunay conditions, returns false if the edge needs to be flipped to satisfy Delaunay conditions, passing negative threshold makes more edges satisfy Delaunay conditions Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html#a73fbab03758bfea01536569e133dd307">MR::EdgeLengthMesh::isDelone</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>threshold</code> has a default argument: <code>0</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html">MR::EdgeLengthMesh</a></code> named <code>leftCotan</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EdgeLengthMesh.html#abdc61c2dae8f243c3682e0dfc637f536">MR::EdgeLengthMesh::leftCotan</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -165,10 +165,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90e81181c24311564e915e4fadc9b8a" id="r_aa90e81181c24311564e915e4fadc9b8a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a></td></tr>
 <tr class="separator:aa90e81181c24311564e915e4fadc9b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4788ca705054c89fcae182f4556c0ed" id="r_ae4788ca705054c89fcae182f4556c0ed"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a></td></tr>
-<tr class="separator:ae4788ca705054c89fcae182f4556c0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b07f164f45d823b1fdf19542501783e" id="r_a0b07f164f45d823b1fdf19542501783e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a></td></tr>
 <tr class="separator:a0b07f164f45d823b1fdf19542501783e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4788ca705054c89fcae182f4556c0ed" id="r_ae4788ca705054c89fcae182f4556c0ed"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a></td></tr>
+<tr class="separator:ae4788ca705054c89fcae182f4556c0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -257,7 +257,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class can be used to solve the problem of multiple 3D objects alignment, by first collecting weighted links between pairs of points from different objects, and then solving for transformations minimizing weighted average of link penalties Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code>. </p>
+<p>This class can be used to solve the problem of multiple 3D objects alignment, by first collecting weighted links between pairs of points from different objects, and then solving for transformations minimizing weighted average of link penalties Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -272,7 +272,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object); large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions) Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html">MR::MultiwayAligningTransform::Stabilizer</a></code>. </p>
+<p>small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object); large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions) Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html">MR::MultiwayAligningTransform::Stabilizer</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends links accumulated in (r) into this Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>r</code> can not be null. It is a single object. </p>
+<p>appends links accumulated in (r) into this Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">MR::MultiwayAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>r</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends a 3D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between two points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>appends a 3D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between two points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">MR::MultiwayAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -421,7 +421,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends a 3D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between two points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>appends a 3D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between two points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">MR::MultiwayAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -468,7 +468,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends a 1D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between their projections on given direction (n); for a point on last fixed object, it is equivalent to point-to-plane link with the plane through that fixed point with normal (n) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>n</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>appends a 1D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between their projections on given direction (n); for a point on last fixed object, it is equivalent to point-to-plane link with the plane through that fixed point with normal (n) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">MR::MultiwayAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>n</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -515,7 +515,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends a 1D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between their projections on given direction (n); for a point on last fixed object, it is equivalent to point-to-plane link with the plane through that fixed point with normal (n) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>n</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>appends a 1D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB) with link penalty equal to weight (w) times squared distance between their projections on given direction (n); for a point on last fixed object, it is equivalent to point-to-plane link with the plane through that fixed point with normal (n) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e">MR::MultiwayAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pA</code> can not be null. It is a single object. Parameter <code>pB</code> can not be null. It is a single object. Parameter <code>n</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MultiwayAligningTransform::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -560,7 +560,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>initializes internal data to start registering given number of objects Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3a8593bbf4f4e553427048cbc8dfd934" title="Destroys a heap-allocated instance of MR_MultiwayAligningTransform. Does nothing if the pointer is nu...">MR_MultiwayAligningTransform_Destroy()</a></code> to free it when you're done using it. </p>
+<p>initializes internal data to start registering given number of objects Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#a41247022db4941f568025a641398d0b8">MR::MultiwayAligningTransform::MultiwayAligningTransform</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3a8593bbf4f4e553427048cbc8dfd934" title="Destroys a heap-allocated instance of MR_MultiwayAligningTransform. Does nothing if the pointer is nu...">MR_MultiwayAligningTransform_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -582,7 +582,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3a8593bbf4f4e553427048cbc8dfd934" title="Destroys a heap-allocated instance of MR_MultiwayAligningTransform. Does nothing if the pointer is nu...">MR_MultiwayAligningTransform_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#a41247022db4941f568025a641398d0b8">MR::MultiwayAligningTransform::MultiwayAligningTransform</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3a8593bbf4f4e553427048cbc8dfd934" title="Destroys a heap-allocated instance of MR_MultiwayAligningTransform. Does nothing if the pointer is nu...">MR_MultiwayAligningTransform_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -724,7 +724,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>reinitializes internal data to start registering given number of objects Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>reset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>reinitializes internal data to start registering given number of objects Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#aa867c2ead76afd490b8d287b98ac0ca4">MR::MultiwayAligningTransform::reset</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -742,7 +742,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>solve</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__RigidXf3d_8h.html#a467285b994abb2754c0a2a79cd65a963" title="Destroys a heap-allocated instance of MR_std_vector_MR_RigidXf3d. Does nothing if the pointer is null...">MR_std_vector_MR_RigidXf3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2">MR::MultiwayAligningTransform::solve</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__RigidXf3d_8h.html#a467285b994abb2754c0a2a79cd65a963" title="Destroys a heap-allocated instance of MR_std_vector_MR_RigidXf3d. Does nothing if the pointer is null...">MR_std_vector_MR_RigidXf3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the solution consisting of all objects transformations (numObj), that minimizes the summed weighted squared distance among accumulated links; the transform of the last object is always identity (it is fixed) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></code> named <code>solve</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>stab</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__RigidXf3d_8h.html#a467285b994abb2754c0a2a79cd65a963" title="Destroys a heap-allocated instance of MR_std_vector_MR_RigidXf3d. Does nothing if the pointer is null...">MR_std_vector_MR_RigidXf3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the solution consisting of all objects transformations (numObj), that minimizes the summed weighted squared distance among accumulated links; the transform of the last object is always identity (it is fixed) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2">MR::MultiwayAligningTransform::solve</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>stab</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__RigidXf3d_8h.html#a467285b994abb2754c0a2a79cd65a963" title="Destroys a heap-allocated instance of MR_std_vector_MR_RigidXf3d. Does nothing if the pointer is null...">MR_std_vector_MR_RigidXf3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -786,7 +786,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html">MR::MultiwayAligningTransform::Stabilizer</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MultiwayAligningTransform::Stabilizer::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -826,7 +826,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html">MR::MultiwayAligningTransform::Stabilizer</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab9ebf3e9474f72d5aeab9be097c45fdb" title="Destroys a heap-allocated instance of MR_MultiwayAligningTransform_Stabilizer. Does nothing if the po...">MR_MultiwayAligningTransform_Stabilizer_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MultiwayAligningTransform::Stabilizer::Stabilizer</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab9ebf3e9474f72d5aeab9be097c45fdb" title="Destroys a heap-allocated instance of MR_MultiwayAligningTransform_Stabilizer. Does nothing if the po...">MR_MultiwayAligningTransform_Stabilizer_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

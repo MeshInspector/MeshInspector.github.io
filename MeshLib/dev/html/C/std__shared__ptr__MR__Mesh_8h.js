@@ -1,11 +1,17 @@
 var std__shared__ptr__MR__Mesh_8h =
 [
     [ "MR_Mesh", "std__shared__ptr__MR__Mesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__MR__Mesh_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
     [ "MR_std_shared_ptr_MR_Mesh", "std__shared__ptr__MR__Mesh_8h.html#a078d52fb855baae04a6dcdd71e46fbed", null ],
+    [ "MR_std_shared_ptr_void", "std__shared__ptr__MR__Mesh_8h.html#a72ecd40cc21861923965148fd782317e", null ],
     [ "MR_std_shared_ptr_MR_Mesh_Assign", "std__shared__ptr__MR__Mesh_8h.html#aa466b3cc65a6c30c215bff43dc585eb8", null ],
+    [ "MR_std_shared_ptr_MR_Mesh_AssignAliasing", "std__shared__ptr__MR__Mesh_8h.html#a96135eb18abbac81ff4d4b784c8958b4", null ],
     [ "MR_std_shared_ptr_MR_Mesh_AssignFromAnother", "std__shared__ptr__MR__Mesh_8h.html#ae664c7ec16dbed710d1799659fe3384d", null ],
-    [ "MR_std_shared_ptr_MR_Mesh_Construct", "std__shared__ptr__MR__Mesh_8h.html#a8f20cfd3e697cb36041ecae5ac96e931", null ],
+    [ "MR_std_shared_ptr_MR_Mesh_AssignNonOwning", "std__shared__ptr__MR__Mesh_8h.html#a7f886f44d7cef7363a4b942b465847c9", null ],
+    [ "MR_std_shared_ptr_MR_Mesh_Construct", "std__shared__ptr__MR__Mesh_8h.html#ab6829bf53fa26dc04f80e06fc4a9c294", null ],
+    [ "MR_std_shared_ptr_MR_Mesh_ConstructAliasing", "std__shared__ptr__MR__Mesh_8h.html#a24e276be889b1ec3106bad48797acb08", null ],
     [ "MR_std_shared_ptr_MR_Mesh_ConstructFromAnother", "std__shared__ptr__MR__Mesh_8h.html#ab80e25b1510dbf70643fd1a00e662fb1", null ],
+    [ "MR_std_shared_ptr_MR_Mesh_ConstructNonOwning", "std__shared__ptr__MR__Mesh_8h.html#a8ff7849e393bba713285a0ecf4497e70", null ],
     [ "MR_std_shared_ptr_MR_Mesh_DefaultConstruct", "std__shared__ptr__MR__Mesh_8h.html#ad6ddb05e124c5cbad391de262cb0e746", null ],
     [ "MR_std_shared_ptr_MR_Mesh_DefaultConstructArray", "std__shared__ptr__MR__Mesh_8h.html#a3d73b8747667a869c56ccebfed82648d", null ],
     [ "MR_std_shared_ptr_MR_Mesh_Destroy", "std__shared__ptr__MR__Mesh_8h.html#a424d2d23f70a0b28ebc8a9cbbb46afe8", null ],
@@ -13,5 +19,7 @@ var std__shared__ptr__MR__Mesh_8h =
     [ "MR_std_shared_ptr_MR_Mesh_Get", "std__shared__ptr__MR__Mesh_8h.html#aef6c366361347ced5ded913c50a19d0b", null ],
     [ "MR_std_shared_ptr_MR_Mesh_OffsetMutablePtr", "std__shared__ptr__MR__Mesh_8h.html#aff8243cad5ec9e225086cd8017962a1a", null ],
     [ "MR_std_shared_ptr_MR_Mesh_OffsetPtr", "std__shared__ptr__MR__Mesh_8h.html#a7f0ad1ba7f4e279274e3b76c87ee67ef", null ],
-    [ "MR_std_shared_ptr_MR_Mesh_UseCount", "std__shared__ptr__MR__Mesh_8h.html#ad20f93860dee45a42ee6d194e9faae98", null ]
+    [ "MR_std_shared_ptr_MR_Mesh_UseCount", "std__shared__ptr__MR__Mesh_8h.html#ad20f93860dee45a42ee6d194e9faae98", null ],
+    [ "MR_std_shared_ptr_void_AssignFrom_MR_std_shared_ptr_MR_Mesh", "std__shared__ptr__MR__Mesh_8h.html#a789780affbf548b305b06dda0793b176", null ],
+    [ "MR_std_shared_ptr_void_ConstructFrom_MR_std_shared_ptr_MR_Mesh", "std__shared__ptr__MR__Mesh_8h.html#a6a7d489a93e12e917c105484179e70e0", null ]
 ];

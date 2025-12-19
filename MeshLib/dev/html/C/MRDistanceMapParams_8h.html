@@ -174,7 +174,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a603c36c96311a8cb693f3e5500963e17" id="r_a603c36c96311a8cb693f3e5500963e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a></td></tr>
 <tr class="separator:a603c36c96311a8cb693f3e5500963e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23925ade3ecef5dcb8ca148e5af923f1" id="r_a23925ade3ecef5dcb8ca148e5af923f1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a></td></tr>
-<tr class="memdesc:a23925ade3ecef5dcb8ca148e5af923f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>.  <br /></td></tr>
 <tr class="separator:a23925ade3ecef5dcb8ca148e5af923f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad61286dbd4af331e293fe93f97dbf8c4" id="r_ad61286dbd4af331e293fe93f97dbf8c4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a></td></tr>
 <tr class="separator:ad61286dbd4af331e293fe93f97dbf8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -492,7 +491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Structure with parameters to generate DistanceMap by Contours Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. </p>
+<p>Structure with parameters to generate DistanceMap by Contours Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -507,7 +506,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>settings for loading distance maps from external formats Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapLoadSettings.html">MR::DistanceMapLoadSettings</a></code>. </p>
+<p>settings for loading distance maps from external formats Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapLoadSettings.html">MR::DistanceMapLoadSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -522,7 +521,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>determines how to save distance maps Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></code>. Cartesian range vector between distance map borders in X direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code> named <code>xRange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>determines how to save distance maps Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). Cartesian range vector between distance map borders in X direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code> named <code>xRange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -537,7 +536,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This structure store data to transform distance map to world coordinates Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code>. </p>
+<p>This structure store data to transform distance map to world coordinates Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -580,8 +579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -632,7 +630,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::ContourToDistanceMapParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -650,7 +648,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Parameter <code>toWorld</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7">MR::ContourToDistanceMapParams::ContourToDistanceMapParams</a></code>. Parameter <code>toWorld</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -677,7 +675,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Ctor, calculating pixelSize &amp; oriPoint by box parameters Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>box</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Ctor, calculating pixelSize &amp; oriPoint by box parameters Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7">MR::ContourToDistanceMapParams::ContourToDistanceMapParams</a></code>. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>box</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -709,7 +707,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Ctor, calculating pixelSize by areaSize &amp; dmapSize Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>oriPoint</code> can not be null. It is a single object. Parameter <code>areaSize</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Ctor, calculating pixelSize by areaSize &amp; dmapSize Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7">MR::ContourToDistanceMapParams::ContourToDistanceMapParams</a></code>. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>oriPoint</code> can not be null. It is a single object. Parameter <code>areaSize</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -741,7 +739,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Ctor, calculating pixelSize &amp; oriPoint by contours box + offset Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Ctor, calculating pixelSize &amp; oriPoint by contours box + offset Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7">MR::ContourToDistanceMapParams::ContourToDistanceMapParams</a></code>. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -773,7 +771,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Ctor, calculating resolution &amp; oriPoint by contours box + offset Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Ctor, calculating resolution &amp; oriPoint by contours box + offset Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7">MR::ContourToDistanceMapParams::ContourToDistanceMapParams</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>withSign</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -791,7 +789,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7">MR::ContourToDistanceMapParams::ContourToDistanceMapParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6bf929097fb0e06c5f2d176cb6678527" title="Destroys a heap-allocated instance of MR_ContourToDistanceMapParams. Does nothing if the pointer is n...">MR_ContourToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -809,7 +807,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts in transformation Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code> to type <code>MR::AffineXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>converts in transformation Generated from conversion operator <code>MR::ContourToDistanceMapParams::operator MR::AffineXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1182,7 +1180,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get world 2d coordinate (respects origin point and pixel size) point - coordinate on distance map Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>get world 2d coordinate (respects origin point and pixel size) point - coordinate on distance map Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d">MR::ContourToDistanceMapParams::toWorld</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1200,7 +1198,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html#a3f4630f18505db408fdc2d6b9417d9e6">MR::ContourToDistanceMapParams::xf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1227,7 +1225,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapLoadSettings.html">MR::DistanceMapLoadSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::DistanceMapLoadSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1276,7 +1274,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapLoadSettings.html">MR::DistanceMapLoadSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae456ec158b0241bbfb94c5c554d91f7b" title="Destroys a heap-allocated instance of MR_DistanceMapLoadSettings. Does nothing if the pointer is null...">MR_DistanceMapLoadSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::DistanceMapLoadSettings::DistanceMapLoadSettings</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae456ec158b0241bbfb94c5c554d91f7b" title="Destroys a heap-allocated instance of MR_DistanceMapLoadSettings. Does nothing if the pointer is null...">MR_DistanceMapLoadSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1544,7 +1542,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::DistanceMapSaveSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1593,7 +1591,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0631830385d59dbe3e289cf854eb811d" title="Destroys a heap-allocated instance of MR_DistanceMapSaveSettings. Does nothing if the pointer is null...">MR_DistanceMapSaveSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::DistanceMapSaveSettings::DistanceMapSaveSettings</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0631830385d59dbe3e289cf854eb811d" title="Destroys a heap-allocated instance of MR_DistanceMapSaveSettings. Does nothing if the pointer is null...">MR_DistanceMapSaveSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1856,7 +1854,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::DistanceMapToWorld::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1874,7 +1872,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts from AffineXf3f Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code>. Parameter <code>xf</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Converts from AffineXf3f Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591">MR::DistanceMapToWorld::DistanceMapToWorld</a></code>. Parameter <code>xf</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1892,7 +1890,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Init fields by <code>ContourToDistanceMapParams</code> struct Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code>. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Init fields by <code>ContourToDistanceMapParams</code> struct Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591">MR::DistanceMapToWorld::DistanceMapToWorld</a></code>. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1910,7 +1908,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Init fields by <code>MeshToDistanceMapParams</code> struct Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code>. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Init fields by <code>MeshToDistanceMapParams</code> struct Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591">MR::DistanceMapToWorld::DistanceMapToWorld</a></code>. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1928,7 +1926,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591">MR::DistanceMapToWorld::DistanceMapToWorld</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa43ae276b71e442c2aa93c281b5a034d" title="Destroys a heap-allocated instance of MR_DistanceMapToWorld. Does nothing if the pointer is null.">MR_DistanceMapToWorld_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1946,7 +1944,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts in transformation X: X(p) == toWorld( p.x, p.y, p.z ) Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code> to type <code>MR::AffineXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>converts in transformation X: X(p) == toWorld( p.x, p.y, p.z ) Generated from conversion operator <code>MR::DistanceMapToWorld::operator MR::AffineXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2330,7 +2328,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get world coordinate by depth map info x - float X coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1) y - float Y coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1) float depth value (value in distance map, represent depth in world) Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>get world coordinate by depth map info x - float X coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1) y - float Y coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1) float depth value (value in distance map, represent depth in world) Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742">MR::DistanceMapToWorld::toWorld</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2348,7 +2346,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e">MR::DistanceMapToWorld::xf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2370,7 +2368,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MeshToDistanceMapParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2397,7 +2395,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>xf</code> can not be null. It is a single object. Parameter <code>pixelSize</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>xf</code> can not be null. It is a single object. Parameter <code>pixelSize</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2424,7 +2422,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The most general constructor. Use it if you have to find special view, resolution, distance map with visual the part of the model etc. All params match is in the user responsibility xf.b - origin point: pixel(0,0) with value 0. xf.A.z - direction xf.A.x - xRange xf.A.y - yRange All Output Distance map values could be positive and negative by default. Set allowNegativeValues to false if negative values are not required Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>xf</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>size</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>The most general constructor. Use it if you have to find special view, resolution, distance map with visual the part of the model etc. All params match is in the user responsibility xf.b - origin point: pixel(0,0) with value 0. xf.A.z - direction xf.A.x - xRange xf.A.y - yRange All Output Distance map values could be positive and negative by default. Set allowNegativeValues to false if negative values are not required Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>xf</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>size</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2456,7 +2454,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>rotation</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>usePreciseBoundingBox</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>rotation</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>usePreciseBoundingBox</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2488,7 +2486,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>rotation</code> can not be null. It is a single object. Parameter <code>origin</code> can not be null. It is a single object. Parameter <code>pixelSize</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>rotation</code> can not be null. It is a single object. Parameter <code>origin</code> can not be null. It is a single object. Parameter <code>pixelSize</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2520,7 +2518,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>rotation</code> can not be null. It is a single object. Parameter <code>origin</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>size</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>rotation</code> can not be null. It is a single object. Parameter <code>origin</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>size</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2552,7 +2550,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>direction</code> can not be null. It is a single object. Parameter <code>pixelSize</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>usePreciseBoundingBox</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>direction</code> can not be null. It is a single object. Parameter <code>pixelSize</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>usePreciseBoundingBox</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2584,7 +2582,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>direction</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>usePreciseBoundingBox</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>direction</code> can not be null. It is a single object. Parameter <code>resolution</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>usePreciseBoundingBox</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2602,7 +2600,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de">MR::MeshToDistanceMapParams::MeshToDistanceMapParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae2c721b741b53ece9ad3f658dea97d51" title="Destroys a heap-allocated instance of MR_MeshToDistanceMapParams. Does nothing if the pointer is null...">MR_MeshToDistanceMapParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2620,7 +2618,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts in transformation Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code> to type <code>MR::AffineXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>converts in transformation Generated from conversion operator <code>MR::MeshToDistanceMapParams::operator MR::AffineXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3288,7 +3286,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if distance is not in set range, pixel became invalid default value: false. Any distance will be applied (include negative) Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code> named <code>setDistanceLimits</code>. Parameter <code>_this</code> can not be null. It is a single object. pixel size Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code> named <code>pixelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if distance is not in set range, pixel became invalid default value: false. Any distance will be applied (include negative) Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#a75bd2c39b7abd536c01547fccc4a18b1">MR::MeshToDistanceMapParams::setDistanceLimits</a></code>. Parameter <code>_this</code> can not be null. It is a single object. pixel size Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></code> named <code>pixelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3306,7 +3304,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceMapParams.html#ad5c988e350636c3a7804f51132290869">MR::MeshToDistanceMapParams::xf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

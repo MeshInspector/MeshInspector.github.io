@@ -385,7 +385,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>simplifies construction of connected polyline in the topology Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code>. </p>
+<p>simplifies construction of connected polyline in the topology Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code>. </p>
+<p>topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -563,7 +563,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>comparison via edges (all other members are considered as not important caches) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>operator==</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. </p>
+<p>comparison via edges (all other members are considered as not important caches) Generated from method <code>MR::PolylineTopology::operator==</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -585,7 +585,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>operator!=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::PolylineTopology::operator!=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>closes the polyline Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code> named <code>close</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>closes the polyline Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f">MR::PolylineMaker::close</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -621,7 +621,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code>. Parameter <code>t</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8f261edcc6f99f42e1320839c6af9677" title="Destroys a heap-allocated instance of MR_PolylineMaker. Does nothing if the pointer is null.">MR_PolylineMaker_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0">MR::PolylineMaker::PolylineMaker</a></code>. Parameter <code>t</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8f261edcc6f99f42e1320839c6af9677" title="Destroys a heap-allocated instance of MR_PolylineMaker. Does nothing if the pointer is null.">MR_PolylineMaker_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -639,7 +639,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8f261edcc6f99f42e1320839c6af9677" title="Destroys a heap-allocated instance of MR_PolylineMaker. Does nothing if the pointer is null.">MR_PolylineMaker_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0">MR::PolylineMaker::PolylineMaker</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8f261edcc6f99f42e1320839c6af9677" title="Destroys a heap-allocated instance of MR_PolylineMaker. Does nothing if the pointer is null.">MR_PolylineMaker_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -699,7 +699,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finishes the polyline adding final vertex in it Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code> named <code>finishOpen</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>finishes the polyline adding final vertex in it Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f">MR::PolylineMaker::finishOpen</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -787,7 +787,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>makes next edge of polyline </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">v</td><td>next vertex of the polyline Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code> named <code>proceed</code>. Parameter <code>_this</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">v</td><td>next vertex of the polyline Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html#abaa25d6997f93c9797a20cf3975b2eef">MR::PolylineMaker::proceed</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -814,7 +814,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>creates first edge of polyline </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">v</td><td>first vertex of the polyline Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html">MR::PolylineMaker</a></code> named <code>start</code>. Parameter <code>_this</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">v</td><td>first vertex of the polyline Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840">MR::PolylineMaker::start</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -851,7 +851,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>appends polyline topology (from) in addition to the current topology: creates new edges, verts; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&gt; this.id Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>addPart</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&gt; this.id Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a05eeb54bc7a9843ce0cd5a63aff0cbca">MR::PolylineTopology::addPart</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -891,7 +891,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends polyline topology (from) in addition to the current topology: creates new edges, verts; Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>mask</code> can not be null. It is a single object. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. </p>
+<p>appends polyline topology (from) in addition to the current topology: creates new edges, verts; Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d">MR::PolylineTopology::addPartByMask</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>mask</code> can not be null. It is a single object. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -909,7 +909,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates new vert-id not associated with any edge yet Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>addVertId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>creates new vert-id not associated with any edge yet Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#abfb6e0044fbe8c29dd9114c691a687a7">MR::PolylineTopology::addVertId</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -936,7 +936,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PolylineTopology::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -960,7 +960,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>build topology of comp2firstVert.size()-1 not-closed polylines each pair (a,b) of indices in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">comp2firstVert</td><td>defines vertex range of a polyline [a,b) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>buildOpenLines</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>comp2firstVert</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">comp2firstVert</td><td>defines vertex range of a polyline [a,b) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a79f6690f59e171ae1b4173dad9c57c5e">MR::PolylineTopology::buildOpenLines</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>comp2firstVert</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -981,7 +981,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>verifies that all internal data structures are valid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>checkValidity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>verifies that all internal data structures are valid Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a84bb5e00b49548f555d22c95a849a62a">MR::PolylineTopology::checkValidity</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -999,7 +999,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the number of not-lone (valid) undirected edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>computeNotLoneUndirectedEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>computes the number of not-lone (valid) undirected edges Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a300d2568ddd2b3174c3fb76468f8b508">MR::PolylineTopology::computeNotLoneUndirectedEdges</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1017,7 +1017,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes numValidVerts_ and validVerts_ from edgePerVertex_ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>computeValidsFromEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>computes numValidVerts_ and validVerts_ from edgePerVertex_ Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a32341828b752c082736b7e19c7f80ce5">MR::PolylineTopology::computeValidsFromEdges</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1039,7 +1039,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9bf14be258da8baa17181990523b98f7" title="Destroys a heap-allocated instance of MR_PolylineTopology. Does nothing if the pointer is null.">MR_PolylineTopology_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PolylineTopology::PolylineTopology</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9bf14be258da8baa17181990523b98f7" title="Destroys a heap-allocated instance of MR_PolylineTopology. Does nothing if the pointer is null.">MR_PolylineTopology_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1097,7 +1097,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given edge becomes lone after the call, so it is un-spliced from connected edges, and if it was not connected at origin or destination, then that vertex is deleted as well Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>deleteEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>given edge becomes lone after the call, so it is un-spliced from connected edges, and if it was not connected at origin or destination, then that vertex is deleted as well Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#accfc9bf6f65ba9970b56e62b12d0a137">MR::PolylineTopology::deleteEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1119,7 +1119,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calls deleteEdge for every set bit Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>deleteEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>es</code> can not be null. It is a single object. </p>
+<p>calls deleteEdge for every set bit Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a05522cda7542b9f691746c69df58166d">MR::PolylineTopology::deleteEdges</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>es</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1141,7 +1141,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns destination vertex of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>dest</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns destination vertex of half-edge Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#abd4c389cdede17b6366df788ab591739">MR::PolylineTopology::dest</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1197,7 +1197,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated edge records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>edgeCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of allocated edge records Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#ac0ebbe561720059f815c339a5a2d7607">MR::PolylineTopology::edgeCapacity</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1215,7 +1215,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for all valid vertices this vector contains an edge with the origin there Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>edgePerVertex</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for all valid vertices this vector contains an edge with the origin there Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a838e6a01b85575bf999c154f00ba9a90">MR::PolylineTopology::edgePerVertex</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1237,7 +1237,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the capacity of half-edges vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>edgeReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>sets the capacity of half-edges vector Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#aa5cb50f06372f350dcdd3dbc747a0615">MR::PolylineTopology::edgeReserve</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1255,7 +1255,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of half-edge records including lone ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>edgeSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of half-edge records including lone ones Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a7308421016a4a943460946176b524bc8">MR::PolylineTopology::edgeSize</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1277,7 +1277,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns valid edge if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>edgeWithOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns valid edge if given vertex is present in the mesh Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a2ebdc3893e2fbb0963c302c1361dfe3b">MR::PolylineTopology::edgeWithOrg</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1304,7 +1304,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds and returns edge from o to d in the mesh; returns invalid edge otherwise Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>findEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>finds and returns edge from o to d in the mesh; returns invalid edge otherwise Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a545252ec8468378f5bc6f71e18ccaad9">MR::PolylineTopology::findEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1322,7 +1322,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>changes the orientation of all edges: every edge e is replaced with e.sym() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>flip</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>changes the orientation of all edges: every edge e is replaced with e.sym() Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a712f0d64d5d5c5700ab29936be4bf517">MR::PolylineTopology::flip</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1340,7 +1340,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for all edges this vector contains its origin Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>getOrgs</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a7bd0e26d1e70c2cb84dd4f5a398756fe" title="Destroys a heap-allocated instance of MR_Vector_MR_VertId_MR_EdgeId. Does nothing if the pointer is n...">MR_Vector_MR_VertId_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>for all edges this vector contains its origin Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#aac8bb7a1725feb34f6a12bf8e0cb0acb">MR::PolylineTopology::getOrgs</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a7bd0e26d1e70c2cb84dd4f5a398756fe" title="Destroys a heap-allocated instance of MR_Vector_MR_VertId_MR_EdgeId. Does nothing if the pointer is n...">MR_Vector_MR_VertId_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1362,7 +1362,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all vertices incident to path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>getPathVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all vertices incident to path edges Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#ab361c486e12e092c48559ed3d5a079db">MR::PolylineTopology::getPathVertices</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1380,7 +1380,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns cached set of all valid vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>getValidVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns cached set of all valid vertices Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a3ec7d95cc6120617767536b8705d3ee6">MR::PolylineTopology::getValidVerts</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1402,7 +1402,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns 0 if given vertex does not exist, 1 if it has one incident edge, and 2 if it has two incident edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>getVertDegree</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns 0 if given vertex does not exist, 1 if it has one incident edge, and 2 if it has two incident edges Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a00b86f230a493bc0dcb16c0ce361c5d0">MR::PolylineTopology::getVertDegree</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1424,7 +1424,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>getVertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a935054375c8e68e3e708b38a91b1260a">MR::PolylineTopology::getVertIds</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1446,7 +1446,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given edge is within valid range and not-lone Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>hasEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if given edge is within valid range and not-lone Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#ae20a806936450b9f38d28938a2721f47">MR::PolylineTopology::hasEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1468,7 +1468,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>hasVert</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if given vertex is present in the mesh Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a2b966e998f03cd7ed4d30898f4542284">MR::PolylineTopology::hasVert</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1486,7 +1486,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a6963aa721648b337a9389e17079da6fb">MR::PolylineTopology::heapBytes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1504,7 +1504,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the polyline does not have any holes Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>isClosed</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if the polyline does not have any holes Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8">MR::PolylineTopology::isClosed</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1522,7 +1522,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if for each edge e: e == e.next() || e.odd() == next( e ).sym().odd() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>isConsistentlyOriented</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if for each edge e: e == e.next() || e.odd() == next( e ).sym().odd() Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a3a8e8e933ae69de8cd01c7f60a1e6e87">MR::PolylineTopology::isConsistentlyOriented</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1544,7 +1544,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>isLoneEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a0a9412a90e63fc7a356cd7098e1f8ad6">MR::PolylineTopology::isLoneEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1562,7 +1562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last not lone edge id, or invalid id if no such edge exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>lastNotLoneEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns last not lone edge id, or invalid id if no such edge exists Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a33c3aacafb6ce19a620996cd32878639">MR::PolylineTopology::lastNotLoneEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1580,7 +1580,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last not lone undirected edge id, or invalid id if no such edge exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>lastNotLoneUndirectedEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns last not lone undirected edge id, or invalid id if no such edge exists Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a8438991d4426ef42af59252baf922b54">MR::PolylineTopology::lastNotLoneUndirectedEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1598,7 +1598,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last valid vertex id, or invalid id if no single valid vertex exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>lastValidVert</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns last valid vertex id, or invalid id if no single valid vertex exists Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a0bf12143aa54becf163e3597b2516010">MR::PolylineTopology::lastValidVert</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1616,7 +1616,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates an edge not associated with any vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>makeEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>creates an edge not associated with any vertex Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a45f9c4c6c22c11a8dc7eae9eefc3e265">MR::PolylineTopology::makeEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1654,7 +1654,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>if 1) any of the vertices is invalid or not within the vertSize(), 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the edgeSize() then makeEdge(a,b) does nothing and returns invalid edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>makeEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>e</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>if 1) any of the vertices is invalid or not within the vertSize(), 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the edgeSize() then makeEdge(a,b) does nothing and returns invalid edge Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a45f9c4c6c22c11a8dc7eae9eefc3e265">MR::PolylineTopology::makeEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>e</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1676,7 +1676,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end </p><dl class="section return"><dt>Returns</dt><dd>the total number of edges created Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>makeEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </dd></dl>
+<p>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end </p><dl class="section return"><dt>Returns</dt><dd>the total number of edges created Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a1373fb92a0666b9654be8a4930bf66c3">MR::PolylineTopology::makeEdges</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -1703,7 +1703,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds polyline in this topology passing progressively via vertices *[vs, vs+num); if vs[0] == vs[num-1] then a closed polyline is created; return the edge from first to second vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>makePolyline</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>adds polyline in this topology passing progressively via vertices *[vs, vs+num); if vs[0] == vs[num-1] then a closed polyline is created; return the edge from first to second vertex Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a22e5f6c91eac5ca4d57589194a860d10">MR::PolylineTopology::makePolyline</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1725,7 +1725,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>next (counter clock wise) half-edge in the origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>next</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>next (counter clock wise) half-edge in the origin ring Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a2f084506ce79585cbe3b2ae0a1339181">MR::PolylineTopology::next</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1743,7 +1743,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of valid vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>numValidVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of valid vertices Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#aaee85cff1aa5cf38699daeb3669b0cf7">MR::PolylineTopology::numValidVerts</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1811,7 +1811,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns origin vertex of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>org</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns origin vertex of half-edge Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a83ae0dea7e79cff8a04e1b543091b1a2">MR::PolylineTopology::org</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1840,7 +1840,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>tightly packs all arrays eliminating lone edges and invalid vertices </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outVmap,outEmap</td><td>if given returns mappings: old.id -&gt; new.id; Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>pack</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">outVmap,outEmap</td><td>if given returns mappings: old.id -&gt; new.id; Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d">MR::PolylineTopology::pack</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1865,7 +1865,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads this from binary stream Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>read</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>s</code> can not be null. It is a single object. </p>
+<p>loads this from binary stream Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a642a8c374781bd45adb78ea77dc31bf0">MR::PolylineTopology::read</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>s</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1893,7 +1893,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>sets new origin to the full origin ring including this edge</p>
-<p>edgePerVertex_ table is updated accordingly Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>setOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>edgePerVertex_ table is updated accordingly Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a3ea5840c83dc66df34991a904b767843">MR::PolylineTopology::setOrg</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1923,7 +1923,7 @@ Functions</h2></td></tr>
 <p>given two half edges do either of two: <br  />
 1) if a and b were from distinct rings, puts them in one ring; <br  />
 2) if a and b were from the same ring, puts them in separate rings;</p>
-<p>the cut in rings in both cases is made after a and b Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>splice</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>the cut in rings in both cases is made after a and b Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a8f29ab7ae897a36090147354d08f7838">MR::PolylineTopology::splice</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1945,7 +1945,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>splitEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a30f450b48cac26ab210e6fadc7f413f1">MR::PolylineTopology::splitEdge</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1963,7 +1963,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated undirected edges (pairs of half-edges) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>undirectedEdgeCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of allocated undirected edges (pairs of half-edges) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#af60df47c2413fe61618210b292dde6c0">MR::PolylineTopology::undirectedEdgeCapacity</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1981,7 +1981,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of undirected edges (pairs of half-edges) including lone ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>undirectedEdgeSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of undirected edges (pairs of half-edges) including lone ones Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a061dd907ada10af2d8ed533c49f4b0ab">MR::PolylineTopology::undirectedEdgeSize</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1999,7 +1999,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated vert records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>vertCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of allocated vert records Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a726c75e6aeb80d5a75500cc50275a477">MR::PolylineTopology::vertCapacity</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2021,7 +2021,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the capacity of vertices vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>vertReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>sets the capacity of vertices vector Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a269967fe44b9296f578fb65a74733bc4">MR::PolylineTopology::vertReserve</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2043,7 +2043,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly increases the size of vertices vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>vertResize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>explicitly increases the size of vertices vector Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a447fd988db6a06ad5dc3f52599bf4924">MR::PolylineTopology::vertResize</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2065,7 +2065,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>vertResizeWithReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#af5cc7998d7a0f82562b74552b26163f4">MR::PolylineTopology::vertResizeWithReserve</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2083,7 +2083,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of vertex records including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>vertSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the number of vertex records including invalid ones Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#a9574f81615523ac5fe203e1648765942">MR::PolylineTopology::vertSize</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2105,7 +2105,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves this in binary stream Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></code> named <code>write</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>s</code> can not be null. It is a single object. </p>
+<p>saves this in binary stream Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b">MR::PolylineTopology::write</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>s</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

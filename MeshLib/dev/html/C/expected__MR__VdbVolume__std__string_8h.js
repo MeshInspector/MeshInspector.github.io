@@ -3,9 +3,7 @@ var expected__MR__VdbVolume__std__string_8h =
     [ "MR_expected_MR_VdbVolume_std_string", "expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1", null ],
     [ "MR_std_string", "expected__MR__VdbVolume__std__string_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_VdbVolume", "expected__MR__VdbVolume__std__string_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
-    [ "MR_expected_MR_VdbVolume_std_string_AssignFrom", "expected__MR__VdbVolume__std__string_8h.html#a1b48d6eb3da01c4d6658600c217118fb", null ],
     [ "MR_expected_MR_VdbVolume_std_string_AssignFromAnother", "expected__MR__VdbVolume__std__string_8h.html#a7d00685472f766cf2766cdaa91b27e8c", null ],
-    [ "MR_expected_MR_VdbVolume_std_string_ConstructFrom", "expected__MR__VdbVolume__std__string_8h.html#ab75e1960feb63917d623a9ad34be91f4", null ],
     [ "MR_expected_MR_VdbVolume_std_string_ConstructFromAnother", "expected__MR__VdbVolume__std__string_8h.html#a3b6906d32a68b455bab3ce6e823dd0d3", null ],
     [ "MR_expected_MR_VdbVolume_std_string_DefaultConstruct", "expected__MR__VdbVolume__std__string_8h.html#a207dfa39c4850f9c06f39d9785bf8e31", null ],
     [ "MR_expected_MR_VdbVolume_std_string_DefaultConstructArray", "expected__MR__VdbVolume__std__string_8h.html#a921d9ea379ee0356bb1473e6028a2c0d", null ],
@@ -16,5 +14,6 @@ var expected__MR__VdbVolume__std__string_8h =
     [ "MR_expected_MR_VdbVolume_std_string_GetMutableValue", "expected__MR__VdbVolume__std__string_8h.html#a1a894f64ecd821b649d4ab83d11e6812", null ],
     [ "MR_expected_MR_VdbVolume_std_string_GetValue", "expected__MR__VdbVolume__std__string_8h.html#a609c0dfc558b293c61187023cd797f87", null ],
     [ "MR_expected_MR_VdbVolume_std_string_OffsetMutablePtr", "expected__MR__VdbVolume__std__string_8h.html#a83738142957f4e6d0499c4038698a0cc", null ],
-    [ "MR_expected_MR_VdbVolume_std_string_OffsetPtr", "expected__MR__VdbVolume__std__string_8h.html#a984aebab74daef858b2297ca147a7d5f", null ]
+    [ "MR_expected_MR_VdbVolume_std_string_OffsetPtr", "expected__MR__VdbVolume__std__string_8h.html#a984aebab74daef858b2297ca147a7d5f", null ],
+    [ "MR_expected_MR_VdbVolume_std_string_Success", "expected__MR__VdbVolume__std__string_8h.html#aed2b87349f3a857e0da6891a81e9a831", null ]
 ];

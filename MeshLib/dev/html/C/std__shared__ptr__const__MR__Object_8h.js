@@ -2,10 +2,18 @@ var std__shared__ptr__const__MR__Object_8h =
 [
     [ "MR_Object", "std__shared__ptr__const__MR__Object_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_std_shared_ptr_const_MR_Object", "std__shared__ptr__const__MR__Object_8h.html#a430d586657822e294dced54cc7b4f7a6", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__const__MR__Object_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
+    [ "MR_std_shared_ptr_MR_Object", "std__shared__ptr__const__MR__Object_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_shared_ptr_const_MR_Object_Assign", "std__shared__ptr__const__MR__Object_8h.html#a9aa4fbda764a90971a70f6b7e66127c3", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_AssignAliasing", "std__shared__ptr__const__MR__Object_8h.html#ab7187cff48d4429ec28e81bd0bbac0fc", null ],
     [ "MR_std_shared_ptr_const_MR_Object_AssignFromAnother", "std__shared__ptr__const__MR__Object_8h.html#a278cb9d2ecb5c016bc55cf02c3cd6dad", null ],
-    [ "MR_std_shared_ptr_const_MR_Object_Construct", "std__shared__ptr__const__MR__Object_8h.html#a02a233f01ed56aa6d7a756d4d040be88", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_AssignFromMutable", "std__shared__ptr__const__MR__Object_8h.html#a1ee0aeb57591bba25e8222c8a5d64f32", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_AssignNonOwning", "std__shared__ptr__const__MR__Object_8h.html#af05d0e5fa674ced41a21a0b2ff535351", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_Construct", "std__shared__ptr__const__MR__Object_8h.html#a9ffd5f2d5fb4e2e4a9d6b4d8275e9b6f", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_ConstructAliasing", "std__shared__ptr__const__MR__Object_8h.html#ad72436e745c02ef1fcef429723edeff6", null ],
     [ "MR_std_shared_ptr_const_MR_Object_ConstructFromAnother", "std__shared__ptr__const__MR__Object_8h.html#a2636212803c6fc995d490a1668c0da90", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_ConstructFromMutable", "std__shared__ptr__const__MR__Object_8h.html#a357c768b2f1ba3cf199cf7a2971bd74a", null ],
+    [ "MR_std_shared_ptr_const_MR_Object_ConstructNonOwning", "std__shared__ptr__const__MR__Object_8h.html#ad89c1d2496bc90f17902fd2a3dad5385", null ],
     [ "MR_std_shared_ptr_const_MR_Object_DefaultConstruct", "std__shared__ptr__const__MR__Object_8h.html#a823795857aa046ea59c5a8289cc49b08", null ],
     [ "MR_std_shared_ptr_const_MR_Object_DefaultConstructArray", "std__shared__ptr__const__MR__Object_8h.html#a20cdc67bef548deac7e748d4beb3bddf", null ],
     [ "MR_std_shared_ptr_const_MR_Object_Destroy", "std__shared__ptr__const__MR__Object_8h.html#a1e50ed8c80cc6000ea377a90232e08d3", null ],
@@ -13,5 +21,7 @@ var std__shared__ptr__const__MR__Object_8h =
     [ "MR_std_shared_ptr_const_MR_Object_Get", "std__shared__ptr__const__MR__Object_8h.html#a71f4134529556b55ead652a1cbdd62fc", null ],
     [ "MR_std_shared_ptr_const_MR_Object_OffsetMutablePtr", "std__shared__ptr__const__MR__Object_8h.html#a9ba7831cd3880d1eb9ba4b42a536e30b", null ],
     [ "MR_std_shared_ptr_const_MR_Object_OffsetPtr", "std__shared__ptr__const__MR__Object_8h.html#a3ec4b8efee6aca1d723185cb0d199b26", null ],
-    [ "MR_std_shared_ptr_const_MR_Object_UseCount", "std__shared__ptr__const__MR__Object_8h.html#ae96a573e0275ec73f8d745b34ff92874", null ]
+    [ "MR_std_shared_ptr_const_MR_Object_UseCount", "std__shared__ptr__const__MR__Object_8h.html#ae96a573e0275ec73f8d745b34ff92874", null ],
+    [ "MR_std_shared_ptr_const_void_AssignFrom_MR_std_shared_ptr_const_MR_Object", "std__shared__ptr__const__MR__Object_8h.html#a388733b55278c3c4465ed113ce7b636e", null ],
+    [ "MR_std_shared_ptr_const_void_ConstructFrom_MR_std_shared_ptr_const_MR_Object", "std__shared__ptr__const__MR__Object_8h.html#a84b01bfe10e2a61de1d0c58594ddd1a7", null ]
 ];

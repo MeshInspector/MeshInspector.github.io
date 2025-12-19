@@ -3,9 +3,7 @@ var expected__MR__ObjectLines__std__string_8h =
     [ "MR_expected_MR_ObjectLines_std_string", "expected__MR__ObjectLines__std__string_8h.html#a078c09ececcbefd513f43417b21b06c2", null ],
     [ "MR_ObjectLines", "expected__MR__ObjectLines__std__string_8h.html#a6ea30e504a416bf2f8b79c3f9124e265", null ],
     [ "MR_std_string", "expected__MR__ObjectLines__std__string_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_expected_MR_ObjectLines_std_string_AssignFrom", "expected__MR__ObjectLines__std__string_8h.html#ae9cd0995046c1aaa28a4032578fe3451", null ],
     [ "MR_expected_MR_ObjectLines_std_string_AssignFromAnother", "expected__MR__ObjectLines__std__string_8h.html#a6192c5f68476922a70d01ffdb7b6e731", null ],
-    [ "MR_expected_MR_ObjectLines_std_string_ConstructFrom", "expected__MR__ObjectLines__std__string_8h.html#a52fc72e730f32a9d694c91e4c7750926", null ],
     [ "MR_expected_MR_ObjectLines_std_string_ConstructFromAnother", "expected__MR__ObjectLines__std__string_8h.html#a24f065df41b50a60394ed51c74c7a342", null ],
     [ "MR_expected_MR_ObjectLines_std_string_DefaultConstruct", "expected__MR__ObjectLines__std__string_8h.html#a4d4b29ed8646d053f7964d09ed3f593a", null ],
     [ "MR_expected_MR_ObjectLines_std_string_DefaultConstructArray", "expected__MR__ObjectLines__std__string_8h.html#abb554c47cbf5a51975433b05e47b7fae", null ],
@@ -16,5 +14,6 @@ var expected__MR__ObjectLines__std__string_8h =
     [ "MR_expected_MR_ObjectLines_std_string_GetMutableValue", "expected__MR__ObjectLines__std__string_8h.html#a0176b59c3f19d3e56834512aeec30677", null ],
     [ "MR_expected_MR_ObjectLines_std_string_GetValue", "expected__MR__ObjectLines__std__string_8h.html#a00b964bf61de321418394a98a1100c98", null ],
     [ "MR_expected_MR_ObjectLines_std_string_OffsetMutablePtr", "expected__MR__ObjectLines__std__string_8h.html#a715de7e334b8ada1134ad7a868c445b6", null ],
-    [ "MR_expected_MR_ObjectLines_std_string_OffsetPtr", "expected__MR__ObjectLines__std__string_8h.html#a5701d52ec2f4fc38b24ebee2eee234b9", null ]
+    [ "MR_expected_MR_ObjectLines_std_string_OffsetPtr", "expected__MR__ObjectLines__std__string_8h.html#a5701d52ec2f4fc38b24ebee2eee234b9", null ],
+    [ "MR_expected_MR_ObjectLines_std_string_Success", "expected__MR__ObjectLines__std__string_8h.html#a1bed9143615fc532d9411d78f57abc16", null ]
 ];

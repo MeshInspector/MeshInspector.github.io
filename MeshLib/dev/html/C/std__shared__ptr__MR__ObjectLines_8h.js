@@ -1,11 +1,17 @@
 var std__shared__ptr__MR__ObjectLines_8h =
 [
     [ "MR_ObjectLines", "std__shared__ptr__MR__ObjectLines_8h.html#a6ea30e504a416bf2f8b79c3f9124e265", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__MR__ObjectLines_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines", "std__shared__ptr__MR__ObjectLines_8h.html#ae4c0039308e4be0822d33b37cd0b14c2", null ],
+    [ "MR_std_shared_ptr_void", "std__shared__ptr__MR__ObjectLines_8h.html#a72ecd40cc21861923965148fd782317e", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_Assign", "std__shared__ptr__MR__ObjectLines_8h.html#af871e700d9bb4328dd12415de6b28b2b", null ],
+    [ "MR_std_shared_ptr_MR_ObjectLines_AssignAliasing", "std__shared__ptr__MR__ObjectLines_8h.html#ab8819346eeabd111f4bd1a27c3d5da92", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_AssignFromAnother", "std__shared__ptr__MR__ObjectLines_8h.html#af839ccc709e28e857b8b718d968b4fdb", null ],
-    [ "MR_std_shared_ptr_MR_ObjectLines_Construct", "std__shared__ptr__MR__ObjectLines_8h.html#a446a8e7a489e308172adcd556e567ea6", null ],
+    [ "MR_std_shared_ptr_MR_ObjectLines_AssignNonOwning", "std__shared__ptr__MR__ObjectLines_8h.html#a71a93ae9f2b7ee8d7935d451a62ea9c8", null ],
+    [ "MR_std_shared_ptr_MR_ObjectLines_Construct", "std__shared__ptr__MR__ObjectLines_8h.html#acb93d165eaf1db42ba306f2e33278a07", null ],
+    [ "MR_std_shared_ptr_MR_ObjectLines_ConstructAliasing", "std__shared__ptr__MR__ObjectLines_8h.html#ad316b31c2d4fd7be024bf8e91fa1fb00", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_ConstructFromAnother", "std__shared__ptr__MR__ObjectLines_8h.html#a0dabab02615f7740ef71f30196a3c482", null ],
+    [ "MR_std_shared_ptr_MR_ObjectLines_ConstructNonOwning", "std__shared__ptr__MR__ObjectLines_8h.html#a8c7a56308bbfaf60a5f13574acd14cef", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_DefaultConstruct", "std__shared__ptr__MR__ObjectLines_8h.html#a4b4274044a991563ba2bd2774e8e67af", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_DefaultConstructArray", "std__shared__ptr__MR__ObjectLines_8h.html#aa3d65e3b6ec0413ed786bcb617d39a29", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_Destroy", "std__shared__ptr__MR__ObjectLines_8h.html#a5cb4c3c7664c45c8ab3d4f66bdc8f218", null ],
@@ -13,5 +19,7 @@ var std__shared__ptr__MR__ObjectLines_8h =
     [ "MR_std_shared_ptr_MR_ObjectLines_Get", "std__shared__ptr__MR__ObjectLines_8h.html#a28be5d8d06624717e6bca907fac2aa83", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_OffsetMutablePtr", "std__shared__ptr__MR__ObjectLines_8h.html#aaa2aa7542bfc35ec2018303112f681a4", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines_OffsetPtr", "std__shared__ptr__MR__ObjectLines_8h.html#a14d39e3270c20cfc82135951a0a0d80c", null ],
-    [ "MR_std_shared_ptr_MR_ObjectLines_UseCount", "std__shared__ptr__MR__ObjectLines_8h.html#ac80e57292bb51946df16b05c9f9593ac", null ]
+    [ "MR_std_shared_ptr_MR_ObjectLines_UseCount", "std__shared__ptr__MR__ObjectLines_8h.html#ac80e57292bb51946df16b05c9f9593ac", null ],
+    [ "MR_std_shared_ptr_void_AssignFrom_MR_std_shared_ptr_MR_ObjectLines", "std__shared__ptr__MR__ObjectLines_8h.html#a0b85f48be2b7dc59587e7da64ae00346", null ],
+    [ "MR_std_shared_ptr_void_ConstructFrom_MR_std_shared_ptr_MR_ObjectLines", "std__shared__ptr__MR__ObjectLines_8h.html#a41c55101b6521b50b558ea6849efa412", null ]
 ];

@@ -185,8 +185,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a0689ce074b110ec7cb05a7f64b542215" id="r_a0689ce074b110ec7cb05a7f64b542215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0689ce074b110ec7cb05a7f64b542215">MR_std_function_void_from_MR_SignDetectionMode_OffsetMutablePtr</a> (<a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a0689ce074b110ec7cb05a7f64b542215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a0689ce074b110ec7cb05a7f64b542215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613818ed3d81afe4add3fedf72f41d82" id="r_a613818ed3d81afe4add3fedf72f41d82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a613818ed3d81afe4add3fedf72f41d82">MR_std_function_void_from_MR_SignDetectionMode_ConstructStateless</a> (void(*func)(<a class="el" href="MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> *_1))</td></tr>
+<tr class="separator:a613818ed3d81afe4add3fedf72f41d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b34b7f51b970e6483faa5f4545e4ef7" id="r_a8b34b7f51b970e6483faa5f4545e4ef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b34b7f51b970e6483faa5f4545e4ef7">MR_std_function_void_from_MR_SignDetectionMode_Assign</a> (<a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *_this, void(*func)(<a class="el" href="MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> *_1))</td></tr>
 <tr class="separator:a8b34b7f51b970e6483faa5f4545e4ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80825f925afd4fb3341058c91a452ff" id="r_aa80825f925afd4fb3341058c91a452ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa80825f925afd4fb3341058c91a452ff">MR_std_function_void_from_MR_SignDetectionMode_ConstructWithDataPtr</a> (void(*func)(<a class="el" href="MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> *_1, void *_userdata), void *userdata, void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</td></tr>
+<tr class="separator:aa80825f925afd4fb3341058c91a452ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c7899929d421a5fa1b50a7cbdd6d25" id="r_ae4c7899929d421a5fa1b50a7cbdd6d25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c7899929d421a5fa1b50a7cbdd6d25">MR_std_function_void_from_MR_SignDetectionMode_AssignWithDataPtr</a> (<a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *_this, void(*func)(<a class="el" href="MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> *_1, void *_userdata), void *userdata, void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</td></tr>
 <tr class="separator:ae4c7899929d421a5fa1b50a7cbdd6d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -202,7 +206,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores a functor of type: <code>void(MR::SignDetectionMode)</code>. Possibly stateful. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Stores a functor of type: <code>void(MR::SignDetectionMode)</code>. Possibly stateful. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -284,7 +288,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Assign a function with an extra user data pointer. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. Parameter <code>_this</code> can not be null. It is a single object. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
+<p>Assign a function with an extra user data pointer. Parameter <code>_this</code> can not be null. It is a single object. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
 
 </div>
 </div>
@@ -307,6 +311,51 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af13fe03f377cd2566aed674b03b0153f" title="Destroys a heap-allocated instance of MR_std_function_void_from_MR_SignDetectionMode....">MR_std_function_void_from_MR_SignDetectionMode_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a613818ed3d81afe4add3fedf72f41d82" name="a613818ed3d81afe4add3fedf72f41d82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613818ed3d81afe4add3fedf72f41d82">&#9670;&#160;</a></span>MR_std_function_void_from_MR_SignDetectionMode_ConstructStateless()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> * MR_std_function_void_from_MR_SignDetectionMode_ConstructStateless </td>
+          <td>(</td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(<a class="el" href="MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> *_1)</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af13fe03f377cd2566aed674b03b0153f" title="Destroys a heap-allocated instance of MR_std_function_void_from_MR_SignDetectionMode....">MR_std_function_void_from_MR_SignDetectionMode_Destroy()</a></code> to free it when you're done using it. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. </p>
+
+</div>
+</div>
+<a id="aa80825f925afd4fb3341058c91a452ff" name="aa80825f925afd4fb3341058c91a452ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80825f925afd4fb3341058c91a452ff">&#9670;&#160;</a></span>MR_std_function_void_from_MR_SignDetectionMode_ConstructWithDataPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> * MR_std_function_void_from_MR_SignDetectionMode_ConstructWithDataPtr </td>
+          <td>(</td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(<a class="el" href="MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571">MR_SignDetectionMode</a> *_1, void *_userdata), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>userdata</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>userdata_callback&#160;</em></span>)(void **_this_userdata, void *_other_userdata)&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Construct a function with an extra user data pointer. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af13fe03f377cd2566aed674b03b0153f" title="Destroys a heap-allocated instance of MR_std_function_void_from_MR_SignDetectionMode....">MR_std_function_void_from_MR_SignDetectionMode_Destroy()</a></code> to free it when you're done using it. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
 
 </div>
 </div>

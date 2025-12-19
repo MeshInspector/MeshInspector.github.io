@@ -306,12 +306,6 @@ Functions</h2></td></tr>
 <tr class="separator:afe859f2714aa334a24d12a9a34176a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc0bb5e568d440b90346d479b7bada32" id="r_acc0bb5e568d440b90346d479b7bada32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc0bb5e568d440b90346d479b7bada32">MR_IntersectionPrecomputes_double_AssignFromAnother</a> (<a class="el" href="#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a> *_this, const <a class="el" href="#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a> *_other)</td></tr>
 <tr class="separator:acc0bb5e568d440b90346d479b7bada32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eac4e8ecde2f9f8a8a68e50ef360675" id="r_a0eac4e8ecde2f9f8a8a68e50ef360675"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eac4e8ecde2f9f8a8a68e50ef360675">MR_findMaxVectorDim_float</a> (int *dimX, int *dimY, int *dimZ, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir)</td></tr>
-<tr class="memdesc:a0eac4e8ecde2f9f8a8a68e50ef360675"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds index of maximum axis and stores it into dimZ  <br /></td></tr>
-<tr class="separator:a0eac4e8ecde2f9f8a8a68e50ef360675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c0696a12431ba3e7d615d7460194072" id="r_a9c0696a12431ba3e7d615d7460194072"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c0696a12431ba3e7d615d7460194072">MR_findMaxVectorDim_double</a> (int *dimX, int *dimY, int *dimZ, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *dir)</td></tr>
-<tr class="memdesc:a9c0696a12431ba3e7d615d7460194072"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds index of maximum axis and stores it into dimZ  <br /></td></tr>
-<tr class="separator:a9c0696a12431ba3e7d615d7460194072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="aa232376b9781642f1a6041ef413a6347" name="aa232376b9781642f1a6041ef413a6347"></a>
@@ -326,7 +320,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>stores useful precomputed values for presented direction vector</p>
-<p>allows to avoid repeatable computations during intersection finding Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;</code>. </p>
+<p>allows to avoid repeatable computations during intersection finding Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -342,93 +336,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>stores useful precomputed values for presented direction vector</p>
-<p>allows to avoid repeatable computations during intersection finding Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;</code>. </p>
+<p>allows to avoid repeatable computations during intersection finding Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a9c0696a12431ba3e7d615d7460194072" name="a9c0696a12431ba3e7d615d7460194072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c0696a12431ba3e7d615d7460194072">&#9670;&#160;</a></span>MR_findMaxVectorDim_double()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_findMaxVectorDim_double </td>
-          <td>(</td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>dimX</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>dimY</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>dimZ</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>finds index of maximum axis and stores it into dimZ </p>
-<p><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,1,-2). Result: dimZ = 2, dimX = 1, dimY = 0. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>are filled by right-hand rule from dimZ </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>are filled by right-hand rule from dimZ </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">dimZ</td><td>index of maximum axis Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a>&lt;double&gt;</code>. Parameter <code>dimX</code> can not be null. It is a single object. Parameter <code>dimY</code> can not be null. It is a single object. Parameter <code>dimZ</code> can not be null. It is a single object. Parameter <code>dir</code> can not be null. It is a single object. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a0eac4e8ecde2f9f8a8a68e50ef360675" name="a0eac4e8ecde2f9f8a8a68e50ef360675"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eac4e8ecde2f9f8a8a68e50ef360675">&#9670;&#160;</a></span>MR_findMaxVectorDim_float()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_findMaxVectorDim_float </td>
-          <td>(</td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>dimX</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>dimY</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>dimZ</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>finds index of maximum axis and stores it into dimZ </p>
-<p><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,1,-2). Result: dimZ = 2, dimX = 1, dimY = 0. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>are filled by right-hand rule from dimZ </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>are filled by right-hand rule from dimZ </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">dimZ</td><td>index of maximum axis Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a>&lt;float&gt;</code>. Parameter <code>dimX</code> can not be null. It is a single object. Parameter <code>dimY</code> can not be null. It is a single object. Parameter <code>dimZ</code> can not be null. It is a single object. Parameter <code>dir</code> can not be null. It is a single object. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="acc0bb5e568d440b90346d479b7bada32" name="acc0bb5e568d440b90346d479b7bada32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc0bb5e568d440b90346d479b7bada32">&#9670;&#160;</a></span>MR_IntersectionPrecomputes_double_AssignFromAnother()</h2>
 
@@ -447,7 +359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -465,7 +377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;</code>. Parameter <code>dir</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a19055d5ae90b7e07545cd867a04af42b" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_double. Does nothing if the pointer ...">MR_IntersectionPrecomputes_double_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;::IntersectionPrecomputes</code>. Parameter <code>dir</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a19055d5ae90b7e07545cd867a04af42b" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_double. Does nothing if the pointer ...">MR_IntersectionPrecomputes_double_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -483,7 +395,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a19055d5ae90b7e07545cd867a04af42b" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_double. Does nothing if the pointer ...">MR_IntersectionPrecomputes_double_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;double&gt;::IntersectionPrecomputes</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a19055d5ae90b7e07545cd867a04af42b" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_double. Does nothing if the pointer ...">MR_IntersectionPrecomputes_double_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1089,7 +1001,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1107,7 +1019,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;</code>. Parameter <code>dir</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4a33b5b673ee608704daa5cc0625400c" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_float. Does nothing if the pointer i...">MR_IntersectionPrecomputes_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;::IntersectionPrecomputes</code>. Parameter <code>dir</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4a33b5b673ee608704daa5cc0625400c" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_float. Does nothing if the pointer i...">MR_IntersectionPrecomputes_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1125,7 +1037,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4a33b5b673ee608704daa5cc0625400c" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_float. Does nothing if the pointer i...">MR_IntersectionPrecomputes_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt;float&gt;::IntersectionPrecomputes</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4a33b5b673ee608704daa5cc0625400c" title="Destroys a heap-allocated instance of MR_IntersectionPrecomputes_float. Does nothing if the pointer i...">MR_IntersectionPrecomputes_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

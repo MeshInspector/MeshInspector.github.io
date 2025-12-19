@@ -163,13 +163,12 @@ $(function(){initNavTree('MRPrecipitationSimulator_8h.html',''); initResizable(t
 Typedefs</h2></td></tr>
 <tr class="memitem:a0691b4cabfa34960d5cd00f39ec4c7a9" id="r_a0691b4cabfa34960d5cd00f39ec4c7a9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a></td></tr>
 <tr class="separator:a0691b4cabfa34960d5cd00f39ec4c7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b92295242390c95dc53e1966dc86b29" id="r_a1b92295242390c95dc53e1966dc86b29"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a></td></tr>
-<tr class="separator:a1b92295242390c95dc53e1966dc86b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a430e686771186947114c9de31e5ca51b" id="r_a430e686771186947114c9de31e5ca51b"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae6d1330898096b0a1fefe35e2564a7f2">MR_PrecipitationSimulator_Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430e686771186947114c9de31e5ca51b">MR_PrecipitationSimulator_Event</a></td></tr>
 <tr class="separator:a430e686771186947114c9de31e5ca51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3864fee6711538ede04b706cbefc7606" id="r_a3864fee6711538ede04b706cbefc7606"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a></td></tr>
-<tr class="memdesc:a3864fee6711538ede04b706cbefc7606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>.  <br /></td></tr>
 <tr class="separator:a3864fee6711538ede04b706cbefc7606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b92295242390c95dc53e1966dc86b29" id="r_a1b92295242390c95dc53e1966dc86b29"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a></td></tr>
+<tr class="separator:a1b92295242390c95dc53e1966dc86b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -258,7 +257,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the class models water increase in the terrain under the rain with constant precipitation Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. </p>
+<p>the class models water increase in the terrain under the rain with constant precipitation Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -287,8 +286,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -344,7 +342,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>initializes modeling from the initial subdivision of the terrain Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. Parameter <code>wg</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator. Does nothing if the pointer is null.">MR_PrecipitationSimulator_Destroy()</a></code> to free it when you're done using it. </p>
+<p>initializes modeling from the initial subdivision of the terrain Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4">MR::PrecipitationSimulator::PrecipitationSimulator</a></code>. Parameter <code>wg</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator. Does nothing if the pointer is null.">MR_PrecipitationSimulator_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -366,7 +364,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator. Does nothing if the pointer is null.">MR_PrecipitationSimulator_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4">MR::PrecipitationSimulator::PrecipitationSimulator</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator. Does nothing if the pointer is null.">MR_PrecipitationSimulator_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -468,7 +466,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>processes the next event happened with the terrain basins Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code> named <code>simulateOne</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
+<p>processes the next event happened with the terrain basins Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a0ae04f850be8f1baf7203566c8071eee">MR::PrecipitationSimulator::simulateOne</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -490,7 +488,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PrecipitationSimulator::SimulationStep::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -540,7 +538,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PrecipitationSimulator::SimulationStep::SimulationStep</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

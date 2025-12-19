@@ -6,6 +6,8 @@ var std__function__float__from__MR__VertId_8h =
     [ "MR_std_function_float_from_MR_VertId_AssignFromAnother", "std__function__float__from__MR__VertId_8h.html#abea06efae4e382003b0bee84ba03b0ab", null ],
     [ "MR_std_function_float_from_MR_VertId_AssignWithDataPtr", "std__function__float__from__MR__VertId_8h.html#a5661484217a97401471f231d0894932d", null ],
     [ "MR_std_function_float_from_MR_VertId_ConstructFromAnother", "std__function__float__from__MR__VertId_8h.html#aa1c6c5df5ad25c8f9ae5facf930426ff", null ],
+    [ "MR_std_function_float_from_MR_VertId_ConstructStateless", "std__function__float__from__MR__VertId_8h.html#a6c19bc23ceb31f4fa2334f9a86d16052", null ],
+    [ "MR_std_function_float_from_MR_VertId_ConstructWithDataPtr", "std__function__float__from__MR__VertId_8h.html#ad25cd5091ca1ce249ce3d997cec42dbb", null ],
     [ "MR_std_function_float_from_MR_VertId_DefaultConstruct", "std__function__float__from__MR__VertId_8h.html#ac20ada258e98e33962c623b023fa67b0", null ],
     [ "MR_std_function_float_from_MR_VertId_DefaultConstructArray", "std__function__float__from__MR__VertId_8h.html#a6306126f70d38d4df93212671c88e1a0", null ],
     [ "MR_std_function_float_from_MR_VertId_Destroy", "std__function__float__from__MR__VertId_8h.html#aad0dab6e12eecc9febff6554d74f25f6", null ],

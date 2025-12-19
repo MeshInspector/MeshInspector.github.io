@@ -6,6 +6,8 @@ var std__function__void__from__MR__AABBTreePoints__ref_8h =
     [ "MR_std_function_void_from_MR_AABBTreePoints_ref_AssignFromAnother", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#acef7c984e2a620b75fd48e11ff426ac4", null ],
     [ "MR_std_function_void_from_MR_AABBTreePoints_ref_AssignWithDataPtr", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#a644584dbada9f2a872c0a349de152d57", null ],
     [ "MR_std_function_void_from_MR_AABBTreePoints_ref_ConstructFromAnother", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#abbad910981e0d47786ba879991372d68", null ],
+    [ "MR_std_function_void_from_MR_AABBTreePoints_ref_ConstructStateless", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#a504e37debbdbcb32ac9c0b6e8d3061f9", null ],
+    [ "MR_std_function_void_from_MR_AABBTreePoints_ref_ConstructWithDataPtr", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#a87c5c3d8ad6544cf805944606d2f20b3", null ],
     [ "MR_std_function_void_from_MR_AABBTreePoints_ref_DefaultConstruct", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#ab190eff73083a4894df86f75e3eb4a95", null ],
     [ "MR_std_function_void_from_MR_AABBTreePoints_ref_DefaultConstructArray", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#ab2f979add4767e83ff5ec19956e04d6b", null ],
     [ "MR_std_function_void_from_MR_AABBTreePoints_ref_Destroy", "std__function__void__from__MR__AABBTreePoints__ref_8h.html#a028bf7321b37e428f91d327245e7669d", null ],

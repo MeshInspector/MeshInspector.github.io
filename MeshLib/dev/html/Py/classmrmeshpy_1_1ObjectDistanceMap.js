@@ -12,6 +12,7 @@ var classmrmeshpy_1_1ObjectDistanceMap =
     [ "getToWorldParameters", "classmrmeshpy_1_1ObjectDistanceMap.html#a0672d0c1744aaaac7b221309c053fa43", null ],
     [ "hasModel", "classmrmeshpy_1_1ObjectDistanceMap.html#afc192403311c5dbba7c8d47f5f070259", null ],
     [ "heapBytes", "classmrmeshpy_1_1ObjectDistanceMap.html#a4547e044933fcba7f42179b0d72505e5", null ],
+    [ "resetFrontColor", "classmrmeshpy_1_1ObjectDistanceMap.html#a4e76507a680cbb5fae987188a2ad43b4", null ],
     [ "setDistanceMap", "classmrmeshpy_1_1ObjectDistanceMap.html#aa78bc3f595345d38d39c99d3ea968cd4", null ],
     [ "shallowClone", "classmrmeshpy_1_1ObjectDistanceMap.html#a270bf3bb4e1d5ebe595bc72c4b192aa3", null ],
     [ "typeName", "classmrmeshpy_1_1ObjectDistanceMap.html#a728f9c3b70bcc06c8995b5e7208958bb", null ],

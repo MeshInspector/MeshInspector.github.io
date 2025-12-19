@@ -5,6 +5,8 @@ var std__function__bool__from__float_8h =
     [ "MR_std_function_bool_from_float_AssignFromAnother", "std__function__bool__from__float_8h.html#a9af180bc1f20ef9ca704f1aae945adf5", null ],
     [ "MR_std_function_bool_from_float_AssignWithDataPtr", "std__function__bool__from__float_8h.html#a69ec2e89f62513a22cd66849a3eb8f3b", null ],
     [ "MR_std_function_bool_from_float_ConstructFromAnother", "std__function__bool__from__float_8h.html#a90229894aef81bc698fe046a5dcd7e48", null ],
+    [ "MR_std_function_bool_from_float_ConstructStateless", "std__function__bool__from__float_8h.html#a7147329ab9f1fdd1ab526c849df94f06", null ],
+    [ "MR_std_function_bool_from_float_ConstructWithDataPtr", "std__function__bool__from__float_8h.html#ad38a66100a8a78c72db402d1eba380f7", null ],
     [ "MR_std_function_bool_from_float_DefaultConstruct", "std__function__bool__from__float_8h.html#a1527482ccfed970cc7273dbffcb6f966", null ],
     [ "MR_std_function_bool_from_float_DefaultConstructArray", "std__function__bool__from__float_8h.html#a7e6397b44454107fea5e4cdceae78492", null ],
     [ "MR_std_function_bool_from_float_Destroy", "std__function__bool__from__float_8h.html#adbbb9867c4d442448485d80e53b931c8", null ],

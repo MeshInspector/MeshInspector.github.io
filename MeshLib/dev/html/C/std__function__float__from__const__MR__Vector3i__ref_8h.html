@@ -186,8 +186,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a9417041c7bc9f3a55066b353f232377c" id="r_a9417041c7bc9f3a55066b353f232377c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9417041c7bc9f3a55066b353f232377c">MR_std_function_float_from_const_MR_Vector3i_ref_OffsetMutablePtr</a> (<a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9417041c7bc9f3a55066b353f232377c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9417041c7bc9f3a55066b353f232377c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a841983a88a4c36231ebe762b6ca55a93" id="r_a841983a88a4c36231ebe762b6ca55a93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a841983a88a4c36231ebe762b6ca55a93">MR_std_function_float_from_const_MR_Vector3i_ref_ConstructStateless</a> (float(*func)(const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *_1))</td></tr>
+<tr class="separator:a841983a88a4c36231ebe762b6ca55a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4208b5a5d0b5105ff45d23ce73b641c8" id="r_a4208b5a5d0b5105ff45d23ce73b641c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4208b5a5d0b5105ff45d23ce73b641c8">MR_std_function_float_from_const_MR_Vector3i_ref_Assign</a> (<a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> *_this, float(*func)(const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *_1))</td></tr>
 <tr class="separator:a4208b5a5d0b5105ff45d23ce73b641c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d74365f118ed27d530adb61113e223" id="r_ac7d74365f118ed27d530adb61113e223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d74365f118ed27d530adb61113e223">MR_std_function_float_from_const_MR_Vector3i_ref_ConstructWithDataPtr</a> (float(*func)(const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *_1, void *_userdata), void *userdata, void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</td></tr>
+<tr class="separator:ac7d74365f118ed27d530adb61113e223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a925b981e72233b9b20dcc040c5afee7d" id="r_a925b981e72233b9b20dcc040c5afee7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a925b981e72233b9b20dcc040c5afee7d">MR_std_function_float_from_const_MR_Vector3i_ref_AssignWithDataPtr</a> (<a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> *_this, float(*func)(const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *_1, void *_userdata), void *userdata, void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</td></tr>
 <tr class="separator:a925b981e72233b9b20dcc040c5afee7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -203,7 +207,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores a functor of type: <code>float(const MR::Vector3i &amp;)</code>. Possibly stateful. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Stores a functor of type: <code>float(const MR::Vector3i &amp;)</code>. Possibly stateful. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -299,7 +303,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Assign a function with an extra user data pointer. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. Parameter <code>_this</code> can not be null. It is a single object. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
+<p>Assign a function with an extra user data pointer. Parameter <code>_this</code> can not be null. It is a single object. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
 
 </div>
 </div>
@@ -322,6 +326,51 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a88b69c717f826f62398c61ce82f8265a" title="Destroys a heap-allocated instance of MR_std_function_float_from_const_MR_Vector3i_ref....">MR_std_function_float_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a841983a88a4c36231ebe762b6ca55a93" name="a841983a88a4c36231ebe762b6ca55a93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a841983a88a4c36231ebe762b6ca55a93">&#9670;&#160;</a></span>MR_std_function_float_from_const_MR_Vector3i_ref_ConstructStateless()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> * MR_std_function_float_from_const_MR_Vector3i_ref_ConstructStateless </td>
+          <td>(</td>
+          <td class="paramtype">float(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *_1)</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a88b69c717f826f62398c61ce82f8265a" title="Destroys a heap-allocated instance of MR_std_function_float_from_const_MR_Vector3i_ref....">MR_std_function_float_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac7d74365f118ed27d530adb61113e223" name="ac7d74365f118ed27d530adb61113e223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d74365f118ed27d530adb61113e223">&#9670;&#160;</a></span>MR_std_function_float_from_const_MR_Vector3i_ref_ConstructWithDataPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ac6611449c281ea5a1d9bd0ede7b138">MR_std_function_float_from_const_MR_Vector3i_ref</a> * MR_std_function_float_from_const_MR_Vector3i_ref_ConstructWithDataPtr </td>
+          <td>(</td>
+          <td class="paramtype">float(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *_1, void *_userdata), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>userdata</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>userdata_callback&#160;</em></span>)(void **_this_userdata, void *_other_userdata)&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Construct a function with an extra user data pointer. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a88b69c717f826f62398c61ce82f8265a" title="Destroys a heap-allocated instance of MR_std_function_float_from_const_MR_Vector3i_ref....">MR_std_function_float_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
 
 </div>
 </div>

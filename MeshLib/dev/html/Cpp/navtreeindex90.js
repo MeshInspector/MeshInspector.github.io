@@ -1,8 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,2,0,1,573,3],
-"structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350":[6,0,1,0,1,592,5],
-"structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350":[6,0,2,0,1,573,5],
 "structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc":[6,0,1,0,1,592,4],
 "structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc":[6,0,2,0,1,573,4],
 "structMR_1_1RawTiffOutput.html#a678bc6694cc6bc3d60c264d18d97e243":[6,0,1,0,1,592,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX90 =
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,1,0,1,625,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,1,606,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,1,0,1,625,1,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,1,606,1,1]
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,1,606,1,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,625,1,2],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,2,0,1,606,1,2],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,1,0,1,625,1,0]
 };

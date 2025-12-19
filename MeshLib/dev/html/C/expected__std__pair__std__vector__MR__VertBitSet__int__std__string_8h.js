@@ -3,9 +3,7 @@ var expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h =
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a360ac9b60df106ebfee946e32da4eedb", null ],
     [ "MR_std_pair_std_vector_MR_VertBitSet_int", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a177f9902bda230cf2ff8e0a135fb3806", null ],
     [ "MR_std_string", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_AssignFrom", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a904ecd3fa392252cdb6dd6970bb49a90", null ],
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_AssignFromAnother", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a8d9387f63edf12130710830238b37643", null ],
-    [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_ConstructFrom", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a67f5a32782ce498a20bca7f4a2044c25", null ],
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_ConstructFromAnother", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a779d8d3d26afe1ec65f0261288f0a7a5", null ],
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_DefaultConstruct", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a3c10133aea294277e870b7c6d6112dcb", null ],
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_DefaultConstructArray", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#aa7545ceb0393ca31f1aff38e1b313d9d", null ],
@@ -16,5 +14,6 @@ var expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h =
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_GetMutableValue", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a60bb6b35950117ff7daed99326a0db9c", null ],
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_GetValue", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#ace0c9d458e15b5b684d3171f9975f1e6", null ],
     [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_OffsetMutablePtr", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a8d7301176ac5e10d365a6bf52972e2bb", null ],
-    [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_OffsetPtr", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a19787ec8cb50accf202a8dd3afd2a0bd", null ]
+    [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_OffsetPtr", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a19787ec8cb50accf202a8dd3afd2a0bd", null ],
+    [ "MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_Success", "expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h.html#a7335ae0a4199df4bad1d1095b8f0b88d", null ]
 ];

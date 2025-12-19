@@ -1,8 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMRMeshProjectionParameters.html#a2d3f1755a4d2e747543c3dd2c324fce9":[6,0,2,0,39,1],
-"structMRMeshProjectionParameters.html#af6ee54563d414ba683339a18fc288d8f":[6,0,2,0,39,0],
-"structMRMeshProjectionResult.html":[6,0,2,0,40],
 "structMRMeshProjectionResult.html#ab689baa522fea7ce8e541444c1a4d1f7":[6,0,2,0,40,2],
 "structMRMeshProjectionResult.html#af8a095ae9a4ca92d739e8ab15ac46100":[6,0,2,0,40,1],
 "structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a":[6,0,2,0,40,0],
@@ -194,8 +191,8 @@ var NAVTREEINDEX70 =
 "structMR_1_1AffineXf.html#ab3b595e5fd83370d9417a0d1e93cf2c1":[6,0,0,0,13,2],
 "structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c":[6,0,0,0,13,13],
 "structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca":[6,0,0,0,13,12],
-"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,5],
-"structMR_1_1AffineXf.html#afca9328028fe0e2b5c4f3d1181867792":[6,0,0,0,13,4],
+"structMR_1_1AffineXf.html#ae517524526f50cd77be825b78a88708b":[6,0,0,0,13,5],
+"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,4],
 "structMR_1_1AffineXf.html#afe3a9bf9c2593c948de620a660aa6ccd":[6,0,0,0,13,9],
 "structMR_1_1AllLocalTriangulations.html":[6,0,1,0,1,59],
 "structMR_1_1AllLocalTriangulations.html":[6,0,2,0,1,40],
@@ -249,5 +246,8 @@ var NAVTREEINDEX70 =
 "structMR_1_1AncillaryLines.html#a663141ea1eeeab9d4b542f46a84aa82b":[6,0,2,0,1,44,1],
 "structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[6,0,1,0,1,63,13],
 "structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[6,0,2,0,1,44,13],
-"structMR_1_1AncillaryLines.html#a8130f94500e75fddfc646adf79fc1756":[6,0,1,0,1,63,8]
+"structMR_1_1AncillaryLines.html#a8130f94500e75fddfc646adf79fc1756":[6,0,1,0,1,63,8],
+"structMR_1_1AncillaryLines.html#a8130f94500e75fddfc646adf79fc1756":[6,0,2,0,1,44,8],
+"structMR_1_1AncillaryLines.html#a927df020362fa03d9ad1e8a2af3b7b3c":[6,0,1,0,1,63,11],
+"structMR_1_1AncillaryLines.html#a927df020362fa03d9ad1e8a2af3b7b3c":[6,0,2,0,1,44,11]
 };

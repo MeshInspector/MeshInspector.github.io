@@ -168,9 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab5b9f73c3a043a47d8d279a89d744c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3665ef8bed664d4374515106f2128c58" id="r_a3665ef8bed664d4374515106f2128c58"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3665ef8bed664d4374515106f2128c58">TriPoint</a> (T <a class="el" href="#a8b3c5d2f52bedd379a12737883685b69">a</a>, T <a class="el" href="#a7ad9a3fd75d2c4414e75599a4eb0d497">b</a>) noexcept</td></tr>
 <tr class="separator:a3665ef8bed664d4374515106f2128c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d74b356735c69b3830326e6a50b451" id="r_ae8d74b356735c69b3830326e6a50b451"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:ae8d74b356735c69b3830326e6a50b451"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae8d74b356735c69b3830326e6a50b451">TriPoint</a> (const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;s)</td></tr>
-<tr class="separator:ae8d74b356735c69b3830326e6a50b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f222148e7f6b0eb3edf6f62d6a5209e" id="r_a6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a6f222148e7f6b0eb3edf6f62d6a5209e">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>(const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;s)</td></tr>
+<tr class="separator:a6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae145ad02214aefc05be85737aa1d6cca" id="r_ae145ad02214aefc05be85737aa1d6cca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae145ad02214aefc05be85737aa1d6cca">TriPoint</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v0, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v1, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v2)</td></tr>
 <tr class="memdesc:ae145ad02214aefc05be85737aa1d6cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point  <br /></td></tr>
 <tr class="separator:ae145ad02214aefc05be85737aa1d6cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +220,7 @@ struct MR::TriPoint&lt; T &gt;</div><p>encodes a point inside a triangle using b
 <p>Notations used below: v0, v1, v2 - points of the triangle </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a173bd5baa937f72d4e42901d913f3ff3" name="a173bd5baa937f72d4e42901d913f3ff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a173bd5baa937f72d4e42901d913f3ff3">&#9670;&#160;</a></span>TriPoint() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a173bd5baa937f72d4e42901d913f3ff3">&#9670;&#160;</a></span>TriPoint() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +247,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ab5b9f73c3a043a47d8d279a89d744c5d" name="ab5b9f73c3a043a47d8d279a89d744c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5b9f73c3a043a47d8d279a89d744c5d">&#9670;&#160;</a></span>TriPoint() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b9f73c3a043a47d8d279a89d744c5d">&#9670;&#160;</a></span>TriPoint() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +274,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a3665ef8bed664d4374515106f2128c58" name="a3665ef8bed664d4374515106f2128c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3665ef8bed664d4374515106f2128c58">&#9670;&#160;</a></span>TriPoint() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3665ef8bed664d4374515106f2128c58">&#9670;&#160;</a></span>TriPoint() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,37 +304,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ae8d74b356735c69b3830326e6a50b451" name="ae8d74b356735c69b3830326e6a50b451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8d74b356735c69b3830326e6a50b451">&#9670;&#160;</a></span>TriPoint() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1TriPoint.html">MR::TriPoint</a>&lt; T &gt;::TriPoint </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae145ad02214aefc05be85737aa1d6cca" name="ae145ad02214aefc05be85737aa1d6cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae145ad02214aefc05be85737aa1d6cca">&#9670;&#160;</a></span>TriPoint() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae145ad02214aefc05be85737aa1d6cca">&#9670;&#160;</a></span>TriPoint() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +348,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a38305f3769604953fbac39b9fa79f6bc" name="a38305f3769604953fbac39b9fa79f6bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38305f3769604953fbac39b9fa79f6bc">&#9670;&#160;</a></span>TriPoint() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a38305f3769604953fbac39b9fa79f6bc">&#9670;&#160;</a></span>TriPoint() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,6 +473,35 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>represents the same point relative to next edge in the same triangle </p>
+
+</div>
+</div>
+<a id="a6f222148e7f6b0eb3edf6f62d6a5209e" name="a6f222148e7f6b0eb3edf6f62d6a5209e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f222148e7f6b0eb3edf6f62d6a5209e">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriPoint.html">MR::TriPoint</a>&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED </td>
+          <td>(</td>
+          <td class="paramtype">!std::is_same_v&lt; T, U &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

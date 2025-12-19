@@ -252,7 +252,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 <div class="line"> </div>
 <div class="line">    <span class="comment">// find bitset of self-intersecting faces</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a>* selfCollidingBitSetRes = <a class="code hl_functionRef" href="./C/MRMeshCollide_8h.html#a1bd4cde4068f4ce4618340a485a2c489">MR_findSelfCollidingTrianglesBS</a>( mp, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>* selfCollidingBitSet = <a class="code hl_functionRef" href="./C/expected__MR__FaceBitSet__std__string_8h.html#a29dbdaf655e66a2e91c4ba7df050e406">MR_expected_MR_FaceBitSet_std_string_GetMutableValue</a>( selfCollidingBitSetRes );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>* selfCollidingBitSet = <a class="code hl_functionRef" href="./C/expected__MR__FaceBitSet__std__string_8h.html#a29dbdaf655e66a2e91c4ba7df050e406">MR_expected_MR_FaceBitSet_std_string_GetMutableValue</a>( selfCollidingBitSetRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !selfCollidingBitSet )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// check error</span></div>
@@ -285,7 +285,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( mesh );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRAABBTreeBase_8h_html_aba7bc6ac732c34fd4721c543fa3445ea"><div class="ttname"><a href="./C/MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></div><div class="ttdeci">struct MR_FaceBitSet MR_FaceBitSet</div></div>
+<div class="ttc" id="aMRAABBTree_8h_html_aba7bc6ac732c34fd4721c543fa3445ea"><div class="ttname"><a href="./C/MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></div><div class="ttdeci">struct MR_FaceBitSet MR_FaceBitSet</div></div>
 <div class="ttc" id="aMRAABBTree_8h_html_af1ba30a3fa8a895c1f72e182f3e73e17"><div class="ttname"><a href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></div><div class="ttdeci">struct MR_MeshPart MR_MeshPart</div></div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="./C/MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRBitSet_8h_html_a4f22019b23d0187944be5d0719b36d0d"><div class="ttname"><a href="./C/MRBitSet_8h.html#a4f22019b23d0187944be5d0719b36d0d">MR_FaceBitSet_UpcastTo_MR_BitSet</a></div><div class="ttdeci">MRC_API const MR_BitSet * MR_FaceBitSet_UpcastTo_MR_BitSet(const MR_FaceBitSet *object)</div></div>

@@ -6,6 +6,8 @@ var std__function__bool__from__MR__FaceId_8h =
     [ "MR_std_function_bool_from_MR_FaceId_AssignFromAnother", "std__function__bool__from__MR__FaceId_8h.html#a8c2f4681910b3bde7f9c0180adb4d40c", null ],
     [ "MR_std_function_bool_from_MR_FaceId_AssignWithDataPtr", "std__function__bool__from__MR__FaceId_8h.html#aaf90aebc72a466b521bdd548159fa5cf", null ],
     [ "MR_std_function_bool_from_MR_FaceId_ConstructFromAnother", "std__function__bool__from__MR__FaceId_8h.html#a7f4e19c9d50313ee5067762fb7cb9dbc", null ],
+    [ "MR_std_function_bool_from_MR_FaceId_ConstructStateless", "std__function__bool__from__MR__FaceId_8h.html#a45e369e060db143fe24826a37342b6b0", null ],
+    [ "MR_std_function_bool_from_MR_FaceId_ConstructWithDataPtr", "std__function__bool__from__MR__FaceId_8h.html#a5d61d83df70a8f27169ce3c0ecc7f66f", null ],
     [ "MR_std_function_bool_from_MR_FaceId_DefaultConstruct", "std__function__bool__from__MR__FaceId_8h.html#a69977f00953f3489722c90350973e319", null ],
     [ "MR_std_function_bool_from_MR_FaceId_DefaultConstructArray", "std__function__bool__from__MR__FaceId_8h.html#ab99b9a5b07c71da73ea3091d46c6fdef", null ],
     [ "MR_std_function_bool_from_MR_FaceId_Destroy", "std__function__bool__from__MR__FaceId_8h.html#a46da46e51c71683acb6713901c5985ee", null ],

@@ -6,6 +6,8 @@ var std__function__MR__MeshTriPoint__from__uint64__t_8h =
     [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_AssignFromAnother", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#aebe51cbce2e822df79027ccfe42c70e2", null ],
     [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_AssignWithDataPtr", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#acc8a2860502b34891b2721369b0a1b5f", null ],
     [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_ConstructFromAnother", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#a748efd0c18fece0006ca56ccf835bf03", null ],
+    [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_ConstructStateless", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#a2709f069b2616b564387f8609f594a28", null ],
+    [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_ConstructWithDataPtr", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#a7d57de28a1f19820785f6b860154d592", null ],
     [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_DefaultConstruct", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#a8d973450dff1356d0b837adc765d8fc2", null ],
     [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_DefaultConstructArray", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#a623de91a9766f6c03e4a275e6437ac54", null ],
     [ "MR_std_function_MR_MeshTriPoint_from_uint64_t_Destroy", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html#add7c8f50938a5ad7f45c2376f2b94068", null ],

@@ -6,6 +6,8 @@ var std__function__float__from__MR__EdgeId_8h =
     [ "MR_std_function_float_from_MR_EdgeId_AssignFromAnother", "std__function__float__from__MR__EdgeId_8h.html#aef7a5467dce36ca32757033be998f219", null ],
     [ "MR_std_function_float_from_MR_EdgeId_AssignWithDataPtr", "std__function__float__from__MR__EdgeId_8h.html#af1677a09e2dfe40d95e4828677a3352a", null ],
     [ "MR_std_function_float_from_MR_EdgeId_ConstructFromAnother", "std__function__float__from__MR__EdgeId_8h.html#a4649273cc0b59c91cc33af8d8ad2ca10", null ],
+    [ "MR_std_function_float_from_MR_EdgeId_ConstructStateless", "std__function__float__from__MR__EdgeId_8h.html#a3b5d2ecaf6f2f7dc42b79b6b68fe1a69", null ],
+    [ "MR_std_function_float_from_MR_EdgeId_ConstructWithDataPtr", "std__function__float__from__MR__EdgeId_8h.html#a4b8c26d9c3e2b47da4e810b43060ca6b", null ],
     [ "MR_std_function_float_from_MR_EdgeId_DefaultConstruct", "std__function__float__from__MR__EdgeId_8h.html#a39a7c1bbfd8562369fd5310fc7b301e3", null ],
     [ "MR_std_function_float_from_MR_EdgeId_DefaultConstructArray", "std__function__float__from__MR__EdgeId_8h.html#a525ba288ef15c94e3e446d0f5c1193bb", null ],
     [ "MR_std_function_float_from_MR_EdgeId_Destroy", "std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d", null ],

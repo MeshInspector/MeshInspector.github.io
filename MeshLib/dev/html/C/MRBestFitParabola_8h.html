@@ -234,7 +234,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>accumulates a number of (x,y) points to find the best-least-squares parabola approximating them Generated from class <code>MR::BestFitParabolad</code>. </p>
+<p>accumulates a number of (x,y) points to find the best-least-squares parabola approximating them Generated from class <code>MR::BestFitParabolad</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -249,7 +249,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>accumulates a number of (x,y) points to find the best-least-squares parabola approximating them Generated from class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code>. </p>
+<p>accumulates a number of (x,y) points to find the best-least-squares parabola approximating them Generated from class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -305,7 +305,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>accumulates one more point for parabola fitting Generated from a method of class <code>MR::BestFitParabolad</code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>accumulates one more point for parabola fitting Generated from method <code>MR::BestFitParabolad::addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>accumulates one more point with given weight for parabola fitting Generated from a method of class <code>MR::BestFitParabolad</code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>accumulates one more point with given weight for parabola fitting Generated from method <code>MR::BestFitParabolad::addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -359,7 +359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::BestFitParabolad</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::BestFitParabolad::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -377,7 +377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::BestFitParabolad</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a11831269b395f5bcdb2e2f263ebcf3f2" title="Destroys a heap-allocated instance of MR_BestFitParabolad. Does nothing if the pointer is null.">MR_BestFitParabolad_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::BestFitParabolad::BestFitParabolad</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a11831269b395f5bcdb2e2f263ebcf3f2" title="Destroys a heap-allocated instance of MR_BestFitParabolad. Does nothing if the pointer is null.">MR_BestFitParabolad_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -473,7 +473,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the best approximating parabola from the accumulated points; Generated from a method of class <code>MR::BestFitParabolad</code> named <code>getBestParabola</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>tol</code> has a default argument: <code>std::numeric_limits&lt;double&gt;::epsilon()</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRParabola_8h.html#a0aeb67662554529885d6ba8753c74619" title="Destroys a heap-allocated instance of MR_Parabolad. Does nothing if the pointer is null.">MR_Parabolad_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the best approximating parabola from the accumulated points; Generated from method <code>MR::BestFitParabolad::getBestParabola</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>tol</code> has a default argument: <code>std::numeric_limits&lt;double&gt;::epsilon()</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRParabola_8h.html#a0aeb67662554529885d6ba8753c74619" title="Destroys a heap-allocated instance of MR_Parabolad. Does nothing if the pointer is null.">MR_Parabolad_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -546,7 +546,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>accumulates one more point for parabola fitting Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>accumulates one more point for parabola fitting Generated from method <code>MR::BestFitParabolaf::addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -578,7 +578,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>accumulates one more point with given weight for parabola fitting Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>accumulates one more point with given weight for parabola fitting Generated from method <code>MR::BestFitParabolaf::addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -600,7 +600,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::BestFitParabolaf::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -618,7 +618,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a21cb55bde70ace6b94f73a4f73954a18" title="Destroys a heap-allocated instance of MR_BestFitParabolaf. Does nothing if the pointer is null.">MR_BestFitParabolaf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::BestFitParabolaf::BestFitParabolaf</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a21cb55bde70ace6b94f73a4f73954a18" title="Destroys a heap-allocated instance of MR_BestFitParabolaf. Does nothing if the pointer is null.">MR_BestFitParabolaf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -714,7 +714,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the best approximating parabola from the accumulated points; Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#aad07c491df6116046a3e24c47926bc1c">MR::BestFitParabolaf</a></code> named <code>getBestParabola</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>tol</code> has a default argument: <code>std::numeric_limits&lt;float&gt;::epsilon()</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRParabola_8h.html#a1f0c75c94c0e36247195ba01b76780f4" title="Destroys a heap-allocated instance of MR_Parabolaf. Does nothing if the pointer is null.">MR_Parabolaf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the best approximating parabola from the accumulated points; Generated from method <code>MR::BestFitParabolaf::getBestParabola</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>tol</code> has a default argument: <code>std::numeric_limits&lt;float&gt;::epsilon()</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRParabola_8h.html#a1f0c75c94c0e36247195ba01b76780f4" title="Destroys a heap-allocated instance of MR_Parabolaf. Does nothing if the pointer is null.">MR_Parabolaf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

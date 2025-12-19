@@ -1,8 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5f623490490b088611156df973163f7f":[6,0,1,0,1,43,18,5],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30":[6,0,1,0,1,43,18,3],
-"namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae352199311c805c4756751f60bf786e2":[6,0,1,0,1,43,18,4],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,43,18,6],
 "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953":[6,0,1,0,1,43,18,2],
 "namespaceMR_1_1UI.html#a0c37be14d527eafdf4f327608985ab9e":[6,0,1,0,1,43,42],
@@ -249,5 +246,8 @@ var NAVTREEINDEX68 =
 "namespacemembers_z.html":[6,0,1,1,0,24],
 "namespaces.html":[6,0,1,0],
 "namespacespdlog.html":[6,0,1,0,2],
-"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[6,0,1,0,2,1]
+"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[6,0,1,0,2,1],
+"namespacespdlog_1_1sinks.html":[6,0,1,0,2,0],
+"pages.html":[],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0]
 };

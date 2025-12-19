@@ -15,7 +15,7 @@ var MRSystem_8h =
     [ "MR_getUserConfigDir", "MRSystem_8h.html#a2cf96490566ebace32c25bdeaf337d57", null ],
     [ "MR_getUserConfigFilePath", "MRSystem_8h.html#a3c0fa8ad45de39c222ce798912032f71", null ],
     [ "MR_OpenDocument", "MRSystem_8h.html#af029fd236b83fe541a46e91cd19ab95d", null ],
-    [ "MR_OpenLink", "MRSystem_8h.html#aa0e8ab4164a02e00b1893c2896f2b32d", null ],
+    [ "MR_OpenLink", "MRSystem_8h.html#a9a2c431b1f94c26e2b5dbbf80fc20980", null ],
     [ "MR_SetCurrentThreadName", "MRSystem_8h.html#a194122b50524a35b6173d07b76c6bee2", null ],
     [ "MR_setNewHandlerIfNeeded", "MRSystem_8h.html#a3d8c37d97792056381beaf3626103760", null ],
     [ "MR_setupLoggerByDefault", "MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1", null ],

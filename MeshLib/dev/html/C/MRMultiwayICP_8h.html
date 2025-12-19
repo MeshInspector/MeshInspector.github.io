@@ -153,6 +153,7 @@ $(function(){initNavTree('MRMultiwayICP_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRGridSampling_8h_source.html">MRCMesh/MRGridSampling.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
@@ -162,6 +163,8 @@ $(function(){initNavTree('MRMultiwayICP_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a36d7d5a26d258211a2da5d9311a0798c" id="r_a36d7d5a26d258211a2da5d9311a0798c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a></td></tr>
+<tr class="separator:a36d7d5a26d258211a2da5d9311a0798c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2dae85553b6362b2a20a5a8fd296776" id="r_ab2dae85553b6362b2a20a5a8fd296776"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRICP_8h.html#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a></td></tr>
 <tr class="separator:ab2dae85553b6362b2a20a5a8fd296776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4db36c3c358c10eb3421215dfaf0cab" id="r_af4db36c3c358c10eb3421215dfaf0cab"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRICP_8h.html#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a></td></tr>
@@ -186,7 +189,7 @@ Typedefs</h2></td></tr>
 <tr class="separator:af34e902c79e5e3662b6066a428220257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e5ed336e49452ef2b16fa348af64c40" id="r_a2e5ed336e49452ef2b16fa348af64c40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2e5ed336e49452ef2b16fa348af64c40">MR_std_function_void_from_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e5ed336e49452ef2b16fa348af64c40">MR_std_function_void_from_int</a></td></tr>
 <tr class="separator:a2e5ed336e49452ef2b16fa348af64c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd9e77c40d885d981579a58ba30a7903" id="r_afd9e77c40d885d981579a58ba30a7903"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afd9e77c40d885d981579a58ba30a7903">MR_std_vector_MR_ICPGroupPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd9e77c40d885d981579a58ba30a7903">MR_std_vector_MR_ICPGroupPair</a></td></tr>
 <tr class="separator:afd9e77c40d885d981579a58ba30a7903"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,10 +199,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a14018441923c91ddf9083a14ec99ae83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c07ebd0a5cd8b94f1071d7bb91e6aae" id="r_a2c07ebd0a5cd8b94f1071d7bb91e6aae"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2c07ebd0a5cd8b94f1071d7bb91e6aae">MR_IICPTreeIndexer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c07ebd0a5cd8b94f1071d7bb91e6aae">MR_IICPTreeIndexer</a></td></tr>
 <tr class="separator:a2c07ebd0a5cd8b94f1071d7bb91e6aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1edcd46b4c48f95325870e7bae5ae63a" id="r_a1edcd46b4c48f95325870e7bae5ae63a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1edcd46b4c48f95325870e7bae5ae63a">MR_MultiwayICPSamplingParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1edcd46b4c48f95325870e7bae5ae63a">MR_MultiwayICPSamplingParameters</a></td></tr>
-<tr class="separator:a1edcd46b4c48f95325870e7bae5ae63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f96d7127f2223cd639dd230aac34b96" id="r_a8f96d7127f2223cd639dd230aac34b96"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a0d687a157edd1d1ef995c4aa3380d5a4">MR_MultiwayICPSamplingParameters_CascadeMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f96d7127f2223cd639dd230aac34b96">MR_MultiwayICPSamplingParameters_CascadeMode</a></td></tr>
 <tr class="separator:a8f96d7127f2223cd639dd230aac34b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1edcd46b4c48f95325870e7bae5ae63a" id="r_a1edcd46b4c48f95325870e7bae5ae63a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1edcd46b4c48f95325870e7bae5ae63a">MR_MultiwayICPSamplingParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1edcd46b4c48f95325870e7bae5ae63a">MR_MultiwayICPSamplingParameters</a></td></tr>
+<tr class="separator:a1edcd46b4c48f95325870e7bae5ae63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a623caeab9197ef277069b3f9f9a608ee" id="r_a623caeab9197ef277069b3f9f9a608ee"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a></td></tr>
 <tr class="separator:a623caeab9197ef277069b3f9f9a608ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -224,6 +227,42 @@ Functions</h2></td></tr>
 <tr class="separator:adcaabcd69145b476b6ba5462a65d2c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a969067417d763b0dcfcf9d647f4462c1" id="r_a969067417d763b0dcfcf9d647f4462c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a969067417d763b0dcfcf9d647f4462c1">MR_ICPGroupPair_GetMutable_tgtClosestId</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
 <tr class="separator:a969067417d763b0dcfcf9d647f4462c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e66ddc405ad68b72249d2e33eb8aca" id="r_a85e66ddc405ad68b72249d2e33eb8aca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85e66ddc405ad68b72249d2e33eb8aca">MR_ICPGroupPair_Get_srcPoint</a> (const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a85e66ddc405ad68b72249d2e33eb8aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9617d0bd28c02efa593b3efad45159e" id="r_af9617d0bd28c02efa593b3efad45159e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9617d0bd28c02efa593b3efad45159e">MR_ICPGroupPair_Set_srcPoint</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:af9617d0bd28c02efa593b3efad45159e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de6f080b9c4f38f79bfacc981b57c41" id="r_a7de6f080b9c4f38f79bfacc981b57c41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7de6f080b9c4f38f79bfacc981b57c41">MR_ICPGroupPair_GetMutable_srcPoint</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a7de6f080b9c4f38f79bfacc981b57c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e18decaba0bd4becbbeae6c576845b" id="r_af6e18decaba0bd4becbbeae6c576845b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e18decaba0bd4becbbeae6c576845b">MR_ICPGroupPair_Get_srcNorm</a> (const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:af6e18decaba0bd4becbbeae6c576845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a76584b85587d152b922de66510928" id="r_ac8a76584b85587d152b922de66510928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8a76584b85587d152b922de66510928">MR_ICPGroupPair_Set_srcNorm</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ac8a76584b85587d152b922de66510928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a792f75b5f3baefd9d7090a7f719721dc" id="r_a792f75b5f3baefd9d7090a7f719721dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a792f75b5f3baefd9d7090a7f719721dc">MR_ICPGroupPair_GetMutable_srcNorm</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a792f75b5f3baefd9d7090a7f719721dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4646f62c673296d47f69d7b64868ae12" id="r_a4646f62c673296d47f69d7b64868ae12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4646f62c673296d47f69d7b64868ae12">MR_ICPGroupPair_Get_tgtPoint</a> (const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a4646f62c673296d47f69d7b64868ae12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ac5615f2bdb82f773c9c292d2a2329" id="r_a58ac5615f2bdb82f773c9c292d2a2329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ac5615f2bdb82f773c9c292d2a2329">MR_ICPGroupPair_Set_tgtPoint</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:a58ac5615f2bdb82f773c9c292d2a2329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f203622315919041cd14da8bc0bcc43" id="r_a5f203622315919041cd14da8bc0bcc43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f203622315919041cd14da8bc0bcc43">MR_ICPGroupPair_GetMutable_tgtPoint</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a5f203622315919041cd14da8bc0bcc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc7e2bf39b1bd4a2fc0c339c7d03237c" id="r_abc7e2bf39b1bd4a2fc0c339c7d03237c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7e2bf39b1bd4a2fc0c339c7d03237c">MR_ICPGroupPair_Get_tgtNorm</a> (const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:abc7e2bf39b1bd4a2fc0c339c7d03237c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0f5c03fb03a87dd2e4586e601a922b" id="r_abe0f5c03fb03a87dd2e4586e601a922b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe0f5c03fb03a87dd2e4586e601a922b">MR_ICPGroupPair_Set_tgtNorm</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:abe0f5c03fb03a87dd2e4586e601a922b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35a3d7a0e235375957b383c652b0306" id="r_ab35a3d7a0e235375957b383c652b0306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab35a3d7a0e235375957b383c652b0306">MR_ICPGroupPair_GetMutable_tgtNorm</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:ab35a3d7a0e235375957b383c652b0306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e4aafadaaee2b1209ff6f0f6d7133f" id="r_a26e4aafadaaee2b1209ff6f0f6d7133f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e4aafadaaee2b1209ff6f0f6d7133f">MR_ICPGroupPair_Get_distSq</a> (const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a26e4aafadaaee2b1209ff6f0f6d7133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed10755c9221cd3d9ed7e777b69054e" id="r_aeed10755c9221cd3d9ed7e777b69054e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeed10755c9221cd3d9ed7e777b69054e">MR_ICPGroupPair_Set_distSq</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this, float value)</td></tr>
+<tr class="separator:aeed10755c9221cd3d9ed7e777b69054e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50c7ccc1f8633f7ae7bfaa63d633020" id="r_af50c7ccc1f8633f7ae7bfaa63d633020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af50c7ccc1f8633f7ae7bfaa63d633020">MR_ICPGroupPair_GetMutable_distSq</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:af50c7ccc1f8633f7ae7bfaa63d633020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23cc1ef91e345b2ec5124bf352034249" id="r_a23cc1ef91e345b2ec5124bf352034249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23cc1ef91e345b2ec5124bf352034249">MR_ICPGroupPair_Get_weight</a> (const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a23cc1ef91e345b2ec5124bf352034249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a97cca745c2d30071cc2b0998ddd5f4" id="r_a7a97cca745c2d30071cc2b0998ddd5f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a97cca745c2d30071cc2b0998ddd5f4">MR_ICPGroupPair_Set_weight</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this, float value)</td></tr>
+<tr class="separator:a7a97cca745c2d30071cc2b0998ddd5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867a9454adbf33e6aaf04bc0441bf10f" id="r_a867a9454adbf33e6aaf04bc0441bf10f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a867a9454adbf33e6aaf04bc0441bf10f">MR_ICPGroupPair_GetMutable_weight</a> (<a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *_this)</td></tr>
+<tr class="separator:a867a9454adbf33e6aaf04bc0441bf10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac28d1bea4cd1d927ca80facfc1a8a4" id="r_a9ac28d1bea4cd1d927ca80facfc1a8a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ac28d1bea4cd1d927ca80facfc1a8a4">MR_ICPGroupPair_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a9ac28d1bea4cd1d927ca80facfc1a8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a483603a3864125995ad19d2f09df3884" id="r_a483603a3864125995ad19d2f09df3884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a483603a3864125995ad19d2f09df3884">MR_ICPGroupPair_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -255,6 +294,12 @@ Functions</h2></td></tr>
 <tr class="separator:af726e4fc5bb4ab6d139128e97642e66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3cb07a6a8a2be6201067584274befc7" id="r_af3cb07a6a8a2be6201067584274befc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afd9e77c40d885d981579a58ba30a7903">MR_std_vector_MR_ICPGroupPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3cb07a6a8a2be6201067584274befc7">MR_ICPGroupPairs_GetMutable_vec</a> (<a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *_this)</td></tr>
 <tr class="separator:af3cb07a6a8a2be6201067584274befc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a1ca6166077b82adf8758c0af71c81" id="r_a86a1ca6166077b82adf8758c0af71c81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a1ca6166077b82adf8758c0af71c81">MR_ICPGroupPairs_Get_active</a> (const <a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *_this)</td></tr>
+<tr class="separator:a86a1ca6166077b82adf8758c0af71c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa33e83339a26fb192d127f7582636d" id="r_abaa33e83339a26fb192d127f7582636d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaa33e83339a26fb192d127f7582636d">MR_ICPGroupPairs_Set_active</a> (<a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *value)</td></tr>
+<tr class="separator:abaa33e83339a26fb192d127f7582636d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c4bf12801d5cf091dc39d4324819c2" id="r_a64c4bf12801d5cf091dc39d4324819c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64c4bf12801d5cf091dc39d4324819c2">MR_ICPGroupPairs_GetMutable_active</a> (<a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *_this)</td></tr>
+<tr class="separator:a64c4bf12801d5cf091dc39d4324819c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fec99de22627248b84e9dda8bec1da9" id="r_a9fec99de22627248b84e9dda8bec1da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fec99de22627248b84e9dda8bec1da9">MR_ICPGroupPairs_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a9fec99de22627248b84e9dda8bec1da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0923f2a4b9e8c9305397bfab46eaaaa6" id="r_a0923f2a4b9e8c9305397bfab46eaaaa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0923f2a4b9e8c9305397bfab46eaaaa6">MR_ICPGroupPairs_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -400,7 +445,7 @@ Functions</h2></td></tr>
 <tr class="separator:accb51465d3fbc3bea092703d0ca2aa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b44f229f5eb82db5fb6bc87000306fb" id="r_a1b44f229f5eb82db5fb6bc87000306fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b44f229f5eb82db5fb6bc87000306fb">MR_MultiwayICP_devEnableIndependentEquationsMode</a> (<a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a> *_this, bool on)</td></tr>
 <tr class="separator:a1b44f229f5eb82db5fb6bc87000306fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a465aa2259792de036f444f7d48b45493" id="r_a465aa2259792de036f444f7d48b45493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465aa2259792de036f444f7d48b45493">MR_MultiwayICP_getStatusInfo</a> (const <a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a> *_this)</td></tr>
+<tr class="memitem:a465aa2259792de036f444f7d48b45493" id="r_a465aa2259792de036f444f7d48b45493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465aa2259792de036f444f7d48b45493">MR_MultiwayICP_getStatusInfo</a> (const <a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a> *_this)</td></tr>
 <tr class="separator:a465aa2259792de036f444f7d48b45493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a833e1aaf01f43ebb9d1b6a1227af2d19" id="r_a833e1aaf01f43ebb9d1b6a1227af2d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae214badd5776f4cfbbae86f0e5f30b10">MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a833e1aaf01f43ebb9d1b6a1227af2d19">MR_MultiwayICP_getPairsPerLayer</a> (const <a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a> *_this)</td></tr>
 <tr class="separator:a833e1aaf01f43ebb9d1b6a1227af2d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -408,6 +453,20 @@ Functions</h2></td></tr>
 <tr class="separator:a17764d321674d9cf16cd3013e6f17bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a36d7d5a26d258211a2da5d9311a0798c" name="a36d7d5a26d258211a2da5d9311a0798c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d7d5a26d258211a2da5d9311a0798c">&#9670;&#160;</a></span>MR_BitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa86d0a68f94b902662dac996342124c4" name="aa86d0a68f94b902662dac996342124c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa86d0a68f94b902662dac996342124c4">&#9670;&#160;</a></span>MR_ICPGroupPair</h2>
 
@@ -419,7 +478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1ICPPairData.html">MR::ICPPairData</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1ICPPairData.html">MR::ICPPairData</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -434,7 +493,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1IPointPairs.html">MR::IPointPairs</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1IPointPairs.html">MR::IPointPairs</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -520,7 +579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms </p><div class="fragment"></div><!-- fragment --><p> Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code>. </p>
+<p>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms </p><div class="fragment"></div><!-- fragment --><p> Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -535,7 +594,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Parameters that are used for sampling of the MultiwayICP objects Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR::MultiwayICPSamplingParameters</a></code>. </p>
+<p>Parameters that are used for sampling of the MultiwayICP objects Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR::MultiwayICPSamplingParameters</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -616,7 +675,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -732,7 +791,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::ICPGroupPair::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -750,7 +809,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9f7898484c00fad04ef777d59f6453d1" title="Destroys a heap-allocated instance of MR_ICPGroupPair. Does nothing if the pointer is null.">MR_ICPGroupPair_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::ICPGroupPair::ICPGroupPair</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9f7898484c00fad04ef777d59f6453d1" title="Destroys a heap-allocated instance of MR_ICPGroupPair. Does nothing if the pointer is null.">MR_ICPGroupPair_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -828,6 +887,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a26e4aafadaaee2b1209ff6f0f6d7133f" name="a26e4aafadaaee2b1209ff6f0f6d7133f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e4aafadaaee2b1209ff6f0f6d7133f">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_distSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_ICPGroupPair_Get_distSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>squared distance between source and target points Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a473a195327fa77535348cf1ddec4825d" name="a473a195327fa77535348cf1ddec4825d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a473a195327fa77535348cf1ddec4825d">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_srcId()</h2>
 
@@ -843,6 +920,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af6e18decaba0bd4becbbeae6c576845b" name="af6e18decaba0bd4becbbeae6c576845b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e18decaba0bd4becbbeae6c576845b">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_srcNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_Get_srcNorm </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>normal in source point after transforming in world space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcNorm</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a85e66ddc405ad68b72249d2e33eb8aca" name="a85e66ddc405ad68b72249d2e33eb8aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e66ddc405ad68b72249d2e33eb8aca">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_srcPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_Get_srcPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coordinates of the source point after transforming in world space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -864,6 +977,78 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abc7e2bf39b1bd4a2fc0c339c7d03237c" name="abc7e2bf39b1bd4a2fc0c339c7d03237c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7e2bf39b1bd4a2fc0c339c7d03237c">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_tgtNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_Get_tgtNorm </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>normal in the target point after transforming in world space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtNorm</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4646f62c673296d47f69d7b64868ae12" name="a4646f62c673296d47f69d7b64868ae12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4646f62c673296d47f69d7b64868ae12">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_tgtPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_Get_tgtPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coordinates of the closest point on target after transforming in world space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a23cc1ef91e345b2ec5124bf352034249" name="a23cc1ef91e345b2ec5124bf352034249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23cc1ef91e345b2ec5124bf352034249">&#9670;&#160;</a></span>MR_ICPGroupPair_Get_weight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_ICPGroupPair_Get_weight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weight of the pair (to prioritize over other pairs) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af50c7ccc1f8633f7ae7bfaa63d633020" name="af50c7ccc1f8633f7ae7bfaa63d633020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50c7ccc1f8633f7ae7bfaa63d633020">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_distSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_ICPGroupPair_GetMutable_distSq </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>squared distance between source and target points Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a98effa514f7508ab62cceebb8b8e9573" name="a98effa514f7508ab62cceebb8b8e9573"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98effa514f7508ab62cceebb8b8e9573">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_srcId()</h2>
 
@@ -882,6 +1067,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a792f75b5f3baefd9d7090a7f719721dc" name="a792f75b5f3baefd9d7090a7f719721dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a792f75b5f3baefd9d7090a7f719721dc">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_srcNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_GetMutable_srcNorm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>normal in source point after transforming in world space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcNorm</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7de6f080b9c4f38f79bfacc981b57c41" name="a7de6f080b9c4f38f79bfacc981b57c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de6f080b9c4f38f79bfacc981b57c41">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_srcPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_GetMutable_srcPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coordinates of the source point after transforming in world space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a969067417d763b0dcfcf9d647f4462c1" name="a969067417d763b0dcfcf9d647f4462c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a969067417d763b0dcfcf9d647f4462c1">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_tgtClosestId()</h2>
 
@@ -897,6 +1118,60 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtClosestId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab35a3d7a0e235375957b383c652b0306" name="ab35a3d7a0e235375957b383c652b0306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35a3d7a0e235375957b383c652b0306">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_tgtNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_GetMutable_tgtNorm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>normal in the target point after transforming in world space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtNorm</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5f203622315919041cd14da8bc0bcc43" name="a5f203622315919041cd14da8bc0bcc43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f203622315919041cd14da8bc0bcc43">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_tgtPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_ICPGroupPair_GetMutable_tgtPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coordinates of the closest point on target after transforming in world space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a867a9454adbf33e6aaf04bc0441bf10f" name="a867a9454adbf33e6aaf04bc0441bf10f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a867a9454adbf33e6aaf04bc0441bf10f">&#9670;&#160;</a></span>MR_ICPGroupPair_GetMutable_weight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_ICPGroupPair_GetMutable_weight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weight of the pair (to prioritize over other pairs) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -965,6 +1240,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aeed10755c9221cd3d9ed7e777b69054e" name="aeed10755c9221cd3d9ed7e777b69054e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeed10755c9221cd3d9ed7e777b69054e">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_distSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPair_Set_distSq </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>squared distance between source and target points Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ace1e50148478ea5c2435c6eba04e5145" name="ace1e50148478ea5c2435c6eba04e5145"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace1e50148478ea5c2435c6eba04e5145">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_srcId()</h2>
 
@@ -987,6 +1284,50 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac8a76584b85587d152b922de66510928" name="ac8a76584b85587d152b922de66510928"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8a76584b85587d152b922de66510928">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_srcNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPair_Set_srcNorm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>normal in source point after transforming in world space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcNorm</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af9617d0bd28c02efa593b3efad45159e" name="af9617d0bd28c02efa593b3efad45159e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9617d0bd28c02efa593b3efad45159e">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_srcPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPair_Set_srcPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coordinates of the source point after transforming in world space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>srcPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="adcaabcd69145b476b6ba5462a65d2c7c" name="adcaabcd69145b476b6ba5462a65d2c7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcaabcd69145b476b6ba5462a65d2c7c">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_tgtClosestId()</h2>
 
@@ -1006,6 +1347,72 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtClosestId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="abe0f5c03fb03a87dd2e4586e601a922b" name="abe0f5c03fb03a87dd2e4586e601a922b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0f5c03fb03a87dd2e4586e601a922b">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_tgtNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPair_Set_tgtNorm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>normal in the target point after transforming in world space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtNorm</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a58ac5615f2bdb82f773c9c292d2a2329" name="a58ac5615f2bdb82f773c9c292d2a2329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ac5615f2bdb82f773c9c292d2a2329">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_tgtPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPair_Set_tgtPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coordinates of the closest point on target after transforming in world space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>tgtPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7a97cca745c2d30071cc2b0998ddd5f4" name="a7a97cca745c2d30071cc2b0998ddd5f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a97cca745c2d30071cc2b0998ddd5f4">&#9670;&#160;</a></span>MR_ICPGroupPair_Set_weight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPair_Set_weight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weight of the pair (to prioritize over other pairs) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1050,7 +1457,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::ICPGroupPairs::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1072,7 +1479,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acf6f5466b8d8316c18d4f9da2b7420f0" title="Destroys a heap-allocated instance of MR_ICPGroupPairs. Does nothing if the pointer is null.">MR_ICPGroupPairs_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::ICPGroupPairs::ICPGroupPairs</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acf6f5466b8d8316c18d4f9da2b7420f0" title="Destroys a heap-allocated instance of MR_ICPGroupPairs. Does nothing if the pointer is null.">MR_ICPGroupPairs_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1150,6 +1557,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a86a1ca6166077b82adf8758c0af71c81" name="a86a1ca6166077b82adf8758c0af71c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a1ca6166077b82adf8758c0af71c81">&#9670;&#160;</a></span>MR_ICPGroupPairs_Get_active()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> * MR_ICPGroupPairs_Get_active </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether corresponding pair from vec must be considered during minimization Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>active</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ac4a4723bc7999b269db35602a49dd110" name="ac4a4723bc7999b269db35602a49dd110"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4a4723bc7999b269db35602a49dd110">&#9670;&#160;</a></span>MR_ICPGroupPairs_Get_vec()</h2>
 
@@ -1168,6 +1593,23 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a64c4bf12801d5cf091dc39d4324819c2" name="a64c4bf12801d5cf091dc39d4324819c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64c4bf12801d5cf091dc39d4324819c2">&#9670;&#160;</a></span>MR_ICPGroupPairs_GetMutable_active()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> * MR_ICPGroupPairs_GetMutable_active </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af3cb07a6a8a2be6201067584274befc7" name="af3cb07a6a8a2be6201067584274befc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3cb07a6a8a2be6201067584274befc7">&#9670;&#160;</a></span>MR_ICPGroupPairs_GetMutable_vec()</h2>
 
@@ -1182,7 +1624,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>vec</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>vec</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. whether corresponding pair from vec must be considered during minimization Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>active</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1204,7 +1646,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::ICPGroupPairs::operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1226,7 +1668,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::ICPGroupPairs::operator[]</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1295,6 +1737,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abaa33e83339a26fb192d127f7582636d" name="abaa33e83339a26fb192d127f7582636d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa33e83339a26fb192d127f7582636d">&#9670;&#160;</a></span>MR_ICPGroupPairs_Set_active()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPGroupPairs_Set_active </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRICP_8h.html#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether corresponding pair from vec must be considered during minimization Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>active</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="af726e4fc5bb4ab6d139128e97642e66d" name="af726e4fc5bb4ab6d139128e97642e66d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af726e4fc5bb4ab6d139128e97642e66d">&#9670;&#160;</a></span>MR_ICPGroupPairs_Set_vec()</h2>
 
@@ -1336,7 +1805,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1ICPGroupPairs.html#a1e4223327adb1bcde9e327c4234ec950">MR::ICPGroupPairs::size</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1424,7 +1893,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if eI and eJ are from same node Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></code> named <code>fromSameNode</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>eI</code> can not be null. It is a single object. Parameter <code>eJ</code> can not be null. It is a single object. </p>
+<p>returns true if eI and eJ are from same node Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html#a1f778d40d47e51211af6dc767319487a">MR::IICPTreeIndexer::fromSameNode</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>eI</code> can not be null. It is a single object. Parameter <code>eJ</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1451,7 +1920,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns bitset of leaves of given node Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></code> named <code>getElementLeaves</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>eId</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a2fce36dde4e3a432e095ea4b9e9a86e6" title="Destroys a heap-allocated instance of MR_ObjBitSet. Does nothing if the pointer is null.">MR_ObjBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns bitset of leaves of given node Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html#ae9d6c57f127d30e14ec9ce539bb2b0f7">MR::IICPTreeIndexer::getElementLeaves</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>eId</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a2fce36dde4e3a432e095ea4b9e9a86e6" title="Destroys a heap-allocated instance of MR_ObjBitSet. Does nothing if the pointer is null.">MR_ObjBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1478,7 +1947,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>valid for l &gt; 0, returns bitset of subnodes that is associated with eId should be valid for l == <code>getNumLayers</code> Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></code> named <code>getElementNodes</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>eId</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a46e9da40efeac8d1ddbe413baeae78fe" title="Destroys a heap-allocated instance of MR_TypedBitSet_MR_Id_MR_ICPElemtTag. Does nothing if the pointe...">MR_TypedBitSet_MR_Id_MR_ICPElemtTag_Destroy()</a></code> to free it when you're done using it. </p>
+<p>valid for l &gt; 0, returns bitset of subnodes that is associated with eId should be valid for l == <code>getNumLayers</code> Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html#a114f0247a1d8233737cefa12708f75dc">MR::IICPTreeIndexer::getElementNodes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>eId</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a46e9da40efeac8d1ddbe413baeae78fe" title="Destroys a heap-allocated instance of MR_TypedBitSet_MR_Id_MR_ICPElemtTag. Does nothing if the pointe...">MR_TypedBitSet_MR_Id_MR_ICPElemtTag_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1500,7 +1969,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>l == 0 - objs_.size() l == 1 - number of nodes one layer above objects l == 2 - number of nodes one layer above nodes lvl1 ... l == <code>getNumLayers</code> - 1 Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></code> named <code>getNumElements</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>l == 0 - objs_.size() l == 1 - number of nodes one layer above objects l == 2 - number of nodes one layer above nodes lvl1 ... l == <code>getNumLayers</code> - 1 Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html#a1134ae002061a65428a6900901a9df6f">MR::IICPTreeIndexer::getNumElements</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1518,7 +1987,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></code> named <code>getNumLayers</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IICPTreeIndexer.html#a35a9128e72ddf5647128d63b87bcf209">MR::IICPTreeIndexer::getNumLayers</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1591,7 +2060,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MultiwayICP::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1613,7 +2082,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>runs ICP algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>calculateTransformations</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#af8b47a622d5b7c9e4af83457171f3937" title="Destroys a heap-allocated instance of MR_Vector_MR_AffineXf3f_MR_ObjId. Does nothing if the pointer i...">MR_Vector_MR_AffineXf3f_MR_ObjId_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>runs ICP algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a45afa9e21d3905737cd8bafd86926578">MR::MultiwayICP::calculateTransformations</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#af8b47a622d5b7c9e4af83457171f3937" title="Destroys a heap-allocated instance of MR_Vector_MR_AffineXf3f_MR_ObjId. Does nothing if the pointer i...">MR_Vector_MR_AffineXf3f_MR_ObjId_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -1635,7 +2104,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>runs ICP algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state the transformation of the first object is fixed and does not change here Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>calculateTransformationsFixFirst</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#af8b47a622d5b7c9e4af83457171f3937" title="Destroys a heap-allocated instance of MR_Vector_MR_AffineXf3f_MR_ObjId. Does nothing if the pointer i...">MR_Vector_MR_AffineXf3f_MR_ObjId_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>runs ICP algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state the transformation of the first object is fixed and does not change here Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a176d6154b15b1c250f3f5cd3fb1a35cc">MR::MultiwayICP::calculateTransformationsFixFirst</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#af8b47a622d5b7c9e4af83457171f3937" title="Destroys a heap-allocated instance of MR_Vector_MR_AffineXf3f_MR_ObjId. Does nothing if the pointer i...">MR_Vector_MR_AffineXf3f_MR_ObjId_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -1657,7 +2126,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code>. Parameter <code>objects</code> can not be null. It is a single object. Parameter <code>samplingParams</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2210dd92fb063bc95b4c0ecdfe4d0358" title="Destroys a heap-allocated instance of MR_MultiwayICP. Does nothing if the pointer is null.">MR_MultiwayICP_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a4fc483cb7fd8b04e2e37761a891b6a15">MR::MultiwayICP::MultiwayICP</a></code>. Parameter <code>objects</code> can not be null. It is a single object. Parameter <code>samplingParams</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2210dd92fb063bc95b4c0ecdfe4d0358" title="Destroys a heap-allocated instance of MR_MultiwayICP. Does nothing if the pointer is null.">MR_MultiwayICP_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1679,7 +2148,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2210dd92fb063bc95b4c0ecdfe4d0358" title="Destroys a heap-allocated instance of MR_MultiwayICP. Does nothing if the pointer is null.">MR_MultiwayICP_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a4fc483cb7fd8b04e2e37761a891b6a15">MR::MultiwayICP::MultiwayICP</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2210dd92fb063bc95b4c0ecdfe4d0358" title="Destroys a heap-allocated instance of MR_MultiwayICP. Does nothing if the pointer is null.">MR_MultiwayICP_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1739,7 +2208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>devEnableIndependentEquationsMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a44f6380f606dbdbaf88e1bf6357735dc">MR::MultiwayICP::devEnableIndependentEquationsMode</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1757,7 +2226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if in independent equations mode - creates separate equation system for each object otherwise creates single large equation system for all objects Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>devIndependentEquationsModeEnabled</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>if in independent equations mode - creates separate equation system for each object otherwise creates single large equation system for all objects Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#ae4d25815f9e27aeb558a76b1268fb602">MR::MultiwayICP::devIndependentEquationsModeEnabled</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1775,7 +2244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns pointer to class that is used to navigate among layers of cascade registration if nullptr - cascade mode is not used Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getCascadeIndexer</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns pointer to class that is used to navigate among layers of cascade registration if nullptr - cascade mode is not used Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#ae32c804d4589f4cbb0cd5821bace1d83">MR::MultiwayICP::getCascadeIndexer</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1797,7 +2266,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes root-mean-square deviation from points to target planes or the standard deviation from given value if present Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getMeanSqDistToPlane</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. Parameter <code>value</code> defaults to empty in C++. </p>
+<p>computes root-mean-square deviation from points to target planes or the standard deviation from given value if present Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">MR::MultiwayICP::getMeanSqDistToPlane</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. Parameter <code>value</code> defaults to empty in C++. </p>
 
 </div>
 </div>
@@ -1819,7 +2288,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes root-mean-square deviation between points or the standard deviation from given value if present Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getMeanSqDistToPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. Parameter <code>value</code> defaults to empty in C++. </p>
+<p>computes root-mean-square deviation between points or the standard deviation from given value if present Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">MR::MultiwayICP::getMeanSqDistToPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. Parameter <code>value</code> defaults to empty in C++. </p>
 
 </div>
 </div>
@@ -1837,7 +2306,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the number of active point pairs Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getNumActivePairs</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>computes the number of active point pairs Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">MR::MultiwayICP::getNumActivePairs</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1855,7 +2324,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the number of samples able to form pairs Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getNumSamples</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>computes the number of samples able to form pairs Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a7d58f57c70792f0ec9ef82aa6e95407a">MR::MultiwayICP::getNumSamples</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1873,7 +2342,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all pairs of all layers Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getPairsPerLayer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns all pairs of all layers Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a3a6e071719c0f164a01aeca591915112">MR::MultiwayICP::getPairsPerLayer</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1891,7 +2360,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a1df773567dfe9ebaffb468a5e35325fe">MR::MultiwayICP::getParams</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1902,14 +2371,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MultiwayICP_getStatusInfo </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MultiwayICP_getStatusInfo </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a623caeab9197ef277069b3f9f9a608ee">MR_MultiwayICP</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns status info string Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>getStatusInfo</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns status info string Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a088270c2bee7aaaea93a48fc5d48c2fd">MR::MultiwayICP::getStatusInfo</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1977,7 +2446,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>select pairs with origin samples on all objects Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>resamplePoints</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>samplingParams</code> can not be null. It is a single object. </p>
+<p>select pairs with origin samples on all objects Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#afab250201279bb04e86b137138ef54de">MR::MultiwayICP::resamplePoints</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>samplingParams</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1999,7 +2468,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tune algorithm params before run calculateTransformations() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>setParams</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>prop</code> can not be null. It is a single object. </p>
+<p>tune algorithm params before run calculateTransformations() Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741">MR::MultiwayICP::setParams</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>prop</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2026,7 +2495,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets callback that will be called for each iteration Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>setPerIterationCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>sets callback that will be called for each iteration Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#ae36a340dd4d403cc4894bc8a8b87d0d6">MR::MultiwayICP::setPerIterationCallback</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2048,7 +2517,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in each pair updates the target data and performs basic filtering (activation) in cascade mode only useful for stats update Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></code> named <code>updateAllPointPairs</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>in each pair updates the target data and performs basic filtering (activation) in cascade mode only useful for stats update Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MultiwayICP.html#a266ccb33611f47b517672664e5ecca33">MR::MultiwayICP::updateAllPointPairs</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -2075,7 +2544,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR::MultiwayICPSamplingParameters</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MultiwayICPSamplingParameters::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2134,7 +2603,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR::MultiwayICPSamplingParameters</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac96353287ff360e8b489199da770887e" title="Destroys a heap-allocated instance of MR_MultiwayICPSamplingParameters. Does nothing if the pointer i...">MR_MultiwayICPSamplingParameters_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MultiwayICPSamplingParameters::MultiwayICPSamplingParameters</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac96353287ff360e8b489199da770887e" title="Destroys a heap-allocated instance of MR_MultiwayICPSamplingParameters. Does nothing if the pointer i...">MR_MultiwayICPSamplingParameters_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

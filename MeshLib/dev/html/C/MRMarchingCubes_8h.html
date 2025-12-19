@@ -188,11 +188,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6271d7bfd9eac1863a0a9da93022599c" id="r_a6271d7bfd9eac1863a0a9da93022599c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRSystem_8h.html#a6271d7bfd9eac1863a0a9da93022599c">MR_std_function_void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6271d7bfd9eac1863a0a9da93022599c">MR_std_function_void</a></td></tr>
 <tr class="separator:a6271d7bfd9eac1863a0a9da93022599c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1984172f8194867c8a6b616e8e2772dc" id="r_a1984172f8194867c8a6b616e8e2772dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1984172f8194867c8a6b616e8e2772dc">MR_MarchingCubesParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1984172f8194867c8a6b616e8e2772dc">MR_MarchingCubesParams</a></td></tr>
-<tr class="memdesc:a1984172f8194867c8a6b616e8e2772dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MarchingCubesParams.html">MR::MarchingCubesParams</a></code>.  <br /></td></tr>
-<tr class="separator:a1984172f8194867c8a6b616e8e2772dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16eb026a6c0d955824ad60ef5ad641c6" id="r_a16eb026a6c0d955824ad60ef5ad641c6"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad392dc18f426d3ba900d02eb9c576ccd">MR_MarchingCubesParams_CachingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16eb026a6c0d955824ad60ef5ad641c6">MR_MarchingCubesParams_CachingMode</a></td></tr>
 <tr class="separator:a16eb026a6c0d955824ad60ef5ad641c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1984172f8194867c8a6b616e8e2772dc" id="r_a1984172f8194867c8a6b616e8e2772dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1984172f8194867c8a6b616e8e2772dc">MR_MarchingCubesParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1984172f8194867c8a6b616e8e2772dc">MR_MarchingCubesParams</a></td></tr>
+<tr class="separator:a1984172f8194867c8a6b616e8e2772dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b96ebac96e57ea3f9e456f60172924" id="r_a29b96ebac96e57ea3f9e456f60172924"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a29b96ebac96e57ea3f9e456f60172924">MR_MarchingCubesByParts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b96ebac96e57ea3f9e456f60172924">MR_MarchingCubesByParts</a></td></tr>
 <tr class="separator:a29b96ebac96e57ea3f9e456f60172924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -397,7 +396,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: MarchingCubesByParts x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); Mesh mesh = Mesh::fromTriMesh( *x.finalize() ); Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code>. </p>
+<p>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: MarchingCubesByParts x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); Mesh mesh = Mesh::fromTriMesh( *x.finalize() ); Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -412,8 +411,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MarchingCubesParams.html">MR::MarchingCubesParams</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MarchingCubesParams.html">MR::MarchingCubesParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -821,7 +819,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds one more part of volume into consideration, with first z=nextZ() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code> named <code>addPart</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>part</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>adds one more part of volume into consideration, with first z=nextZ() Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html#a331ff50d13580eda9d9a7fcfc2dbd00a">MR::MarchingCubesByParts::addPart</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>part</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -848,7 +846,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MarchingCubesByParts::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -877,7 +875,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>prepares convention for given volume dimensions and given parameters </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">layersPerBlock</td><td>all z-slices of the volume will be partitioned on blocks of given size to process blocks in parallel (0 means auto-select layersPerBlock) Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code>. Parameter <code>dims</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>layersPerBlock</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af1eb19ba057ec200a41ef5be0c91f567" title="Destroys a heap-allocated instance of MR_MarchingCubesByParts. Does nothing if the pointer is null.">MR_MarchingCubesByParts_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">layersPerBlock</td><td>all z-slices of the volume will be partitioned on blocks of given size to process blocks in parallel (0 means auto-select layersPerBlock) Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html#a318ff34fd862aa6e9208738bc0e896e0">MR::MarchingCubesByParts::MarchingCubesByParts</a></code>. Parameter <code>dims</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>layersPerBlock</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af1eb19ba057ec200a41ef5be0c91f567" title="Destroys a heap-allocated instance of MR_MarchingCubesByParts. Does nothing if the pointer is null.">MR_MarchingCubesByParts_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -902,7 +900,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af1eb19ba057ec200a41ef5be0c91f567" title="Destroys a heap-allocated instance of MR_MarchingCubesByParts. Does nothing if the pointer is null.">MR_MarchingCubesByParts_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html#a318ff34fd862aa6e9208738bc0e896e0">MR::MarchingCubesByParts::MarchingCubesByParts</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af1eb19ba057ec200a41ef5be0c91f567" title="Destroys a heap-allocated instance of MR_MarchingCubesByParts. Does nothing if the pointer is null.">MR_MarchingCubesByParts_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -958,7 +956,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finishes processing and outputs produced trimesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code> named <code>finalize</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__TriMesh__std__string_8h.html#a59a45d91229bddb11472d319d4322a1b" title="Destroys a heap-allocated instance of MR_expected_MR_TriMesh_std_string. Does nothing if the pointer ...">MR_expected_MR_TriMesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finishes processing and outputs produced trimesh Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html#a230e32235ef70e220ab12fbd32524395">MR::MarchingCubesByParts::finalize</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__TriMesh__std__string_8h.html#a59a45d91229bddb11472d319d4322a1b" title="Destroys a heap-allocated instance of MR_expected_MR_TriMesh_std_string. Does nothing if the pointer ...">MR_expected_MR_TriMesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -976,7 +974,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of z-slices of the volume in the blocks Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code> named <code>layersPerBlock</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>the number of z-slices of the volume in the blocks Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html#a2e83c9bbbb8db6891ddcfab4639ca690">MR::MarchingCubesByParts::layersPerBlock</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -994,7 +992,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the last z-layer of the previous part and the first z-layer of the next part Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html">MR::MarchingCubesByParts</a></code> named <code>nextZ</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>the last z-layer of the previous part and the first z-layer of the next part Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MarchingCubesByParts.html#ad318fe7929b1263c84bdd7ca0fbc44b0">MR::MarchingCubesByParts::nextZ</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1067,7 +1065,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MarchingCubesParams.html">MR::MarchingCubesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MarchingCubesParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1161,7 +1159,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MarchingCubesParams.html">MR::MarchingCubesParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a73cbed1a906ec2fa1d7cae5da1f0fe63" title="Destroys a heap-allocated instance of MR_MarchingCubesParams. Does nothing if the pointer is null.">MR_MarchingCubesParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MarchingCubesParams::MarchingCubesParams</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a73cbed1a906ec2fa1d7cae5da1f0fe63" title="Destroys a heap-allocated instance of MR_MarchingCubesParams. Does nothing if the pointer is null.">MR_MarchingCubesParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

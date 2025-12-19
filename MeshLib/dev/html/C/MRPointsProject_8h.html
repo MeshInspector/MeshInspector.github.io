@@ -192,7 +192,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
 <tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8be9fb6875dbbb243e21057bb4eff5a7" id="r_a8be9fb6875dbbb243e21057bb4eff5a7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a></td></tr>
-<tr class="memdesc:a8be9fb6875dbbb243e21057bb4eff5a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></code>.  <br /></td></tr>
 <tr class="separator:a8be9fb6875dbbb243e21057bb4eff5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b99767ad50161176d6aeb9c7349616" id="r_a92b99767ad50161176d6aeb9c7349616"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a></td></tr>
 <tr class="separator:a92b99767ad50161176d6aeb9c7349616"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -467,7 +466,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>settings for IPointsProjector::findProjections Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindProjectionOnPointsSettings.html">MR::FindProjectionOnPointsSettings</a></code>. </p>
+<p>settings for IPointsProjector::findProjections Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindProjectionOnPointsSettings.html">MR::FindProjectionOnPointsSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -525,8 +524,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -541,7 +539,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>default implementation of IPointsProjector Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></code> </p>
+<p>default implementation of IPointsProjector Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -689,7 +687,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">res)</td><td>to given point </td></tr>
     <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, points with larger distance than it will not be returned </td></tr>
     <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
-    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, the algorithm can return given number of points within this distance even skipping closer ones Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54">MR::findFewClosestPoints</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>pc</code> can not be null. It is a single object. Parameter <code>res</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, the algorithm can return given number of points within this distance even skipping closer ones Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54">MR::findFewClosestPoints</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>pc</code> can not be null. It is a single object. Parameter <code>res</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -781,7 +779,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </td></tr>
     <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
-    <tr><td class="paramname">skipCb</td><td>callback to discard VertId projection candidate Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga732c66239ed6e0f0d31100e8e3ab29b4">MR::findProjectionOnPoints</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>pcp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>skipCb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">skipCb</td><td>callback to discard VertId projection candidate Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga732c66239ed6e0f0d31100e8e3ab29b4">MR::findProjectionOnPoints</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>pcp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>skipCb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -844,7 +842,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">region</td><td>if not nullptr, all points not from the given region will be ignored </td></tr>
-    <tr><td class="paramname">skipCb</td><td>callback to discard VertId projection candidate Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga732c66239ed6e0f0d31100e8e3ab29b4">MR::findProjectionOnPoints</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>skipCb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">skipCb</td><td>callback to discard VertId projection candidate Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga732c66239ed6e0f0d31100e8e3ab29b4">MR::findProjectionOnPoints</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>skipCb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -874,7 +872,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FindProjectionOnPointsSettings.html">MR::FindProjectionOnPointsSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::FindProjectionOnPointsSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -943,7 +941,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FindProjectionOnPointsSettings.html">MR::FindProjectionOnPointsSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac72c214b018ab5320946450d5aa03797" title="Destroys a heap-allocated instance of MR_FindProjectionOnPointsSettings. Does nothing if the pointer ...">MR_FindProjectionOnPointsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::FindProjectionOnPointsSettings::FindProjectionOnPointsSettings</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac72c214b018ab5320946450d5aa03797" title="Destroys a heap-allocated instance of MR_FindProjectionOnPointsSettings. Does nothing if the pointer ...">MR_FindProjectionOnPointsSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1544,7 +1542,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the closest points on point cloud to given points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></code> named <code>findProjections</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>results</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the closest points on point cloud to given points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31">MR::IPointsProjector::findProjections</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>results</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1666,7 +1664,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns amount of memory needed to compute projections Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></code> named <code>projectionsHeapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Returns amount of memory needed to compute projections Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html#a4125cb715c028facd258f35767e5c66c">MR::IPointsProjector::projectionsHeapBytes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1688,7 +1686,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the reference point cloud Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></code> named <code>setPointCloud</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pointCloud</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>sets the reference point cloud Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html#ae6ae7b291953d433a794999d25ef10df">MR::IPointsProjector::setPointCloud</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pointCloud</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1728,7 +1726,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PointsProjectionResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1768,7 +1766,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointsProjectionResult::PointsProjectionResult</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2031,7 +2029,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PointsProjector::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2053,7 +2051,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a42a8f711fc36005b2a1e9666fee9608a" title="Destroys a heap-allocated instance of MR_PointsProjector. Does nothing if the pointer is null.">MR_PointsProjector_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointsProjector::PointsProjector</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a42a8f711fc36005b2a1e9666fee9608a" title="Destroys a heap-allocated instance of MR_PointsProjector. Does nothing if the pointer is null.">MR_PointsProjector_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2159,7 +2157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the closest points on point cloud to given points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code> named <code>findProjections</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>results</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the closest points on point cloud to given points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html#a7f6e0c85341469a32a8424abb1a7e25f">MR::PointsProjector::findProjections</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>results</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2246,7 +2244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns amount of memory needed to compute projections Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code> named <code>projectionsHeapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Returns amount of memory needed to compute projections Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html#a2ae04a83d426c8411c3e839482a1f96f">MR::PointsProjector::projectionsHeapBytes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2268,7 +2266,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the reference point cloud Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code> named <code>setPointCloud</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pointCloud</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>sets the reference point cloud Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html#abbb8bb3a25f447af9b6abe188662181a">MR::PointsProjector::setPointCloud</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pointCloud</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

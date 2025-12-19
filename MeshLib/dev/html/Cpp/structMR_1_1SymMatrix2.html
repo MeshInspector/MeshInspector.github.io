@@ -166,9 +166,9 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d7b116cb57858e0b068a33b81aed7a7" id="r_a0d7b116cb57858e0b068a33b81aed7a7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d7b116cb57858e0b068a33b81aed7a7">SymMatrix2</a> () noexcept=default</td></tr>
 <tr class="separator:a0d7b116cb57858e0b068a33b81aed7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f1ff6e1f39c591d1ca7dd6c12baa91" id="r_aa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:aa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa8f1ff6e1f39c591d1ca7dd6c12baa91">SymMatrix2</a> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; U &gt; &amp;m)</td></tr>
-<tr class="separator:aa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eca71ad89169309ec28fa552e31cba8" id="r_a1eca71ad89169309ec28fa552e31cba8"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a1eca71ad89169309ec28fa552e31cba8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1eca71ad89169309ec28fa552e31cba8">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>(const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; U &gt; &amp;m)</td></tr>
+<tr class="separator:a1eca71ad89169309ec28fa552e31cba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a261caca745c8a5998fe4599fd9031b43" id="r_a261caca745c8a5998fe4599fd9031b43"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a261caca745c8a5998fe4599fd9031b43">trace</a> () const noexcept</td></tr>
 <tr class="memdesc:a261caca745c8a5998fe4599fd9031b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes trace of the matrix  <br /></td></tr>
 <tr class="separator:a261caca745c8a5998fe4599fd9031b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,7 +250,7 @@ template&lt;typename T &gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d7b116cb57858e0b068a33b81aed7a7" name="a0d7b116cb57858e0b068a33b81aed7a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d7b116cb57858e0b068a33b81aed7a7">&#9670;&#160;</a></span>SymMatrix2() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7b116cb57858e0b068a33b81aed7a7">&#9670;&#160;</a></span>SymMatrix2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,35 +270,6 @@ template&lt;typename T &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8f1ff6e1f39c591d1ca7dd6c12baa91" name="aa8f1ff6e1f39c591d1ca7dd6c12baa91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8f1ff6e1f39c591d1ca7dd6c12baa91">&#9670;&#160;</a></span>SymMatrix2() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::SymMatrix2 </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -444,6 +415,35 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>computes inverse matrix given determinant of this </p>
+
+</div>
+</div>
+<a id="a1eca71ad89169309ec28fa552e31cba8" name="a1eca71ad89169309ec28fa552e31cba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eca71ad89169309ec28fa552e31cba8">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED </td>
+          <td>(</td>
+          <td class="paramtype">!std::is_same_v&lt; T, U &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

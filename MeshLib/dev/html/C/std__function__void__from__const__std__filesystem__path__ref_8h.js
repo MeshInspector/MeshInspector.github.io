@@ -6,6 +6,8 @@ var std__function__void__from__const__std__filesystem__path__ref_8h =
     [ "MR_std_function_void_from_const_std_filesystem_path_ref_AssignFromAnother", "std__function__void__from__const__std__filesystem__path__ref_8h.html#a4eab6720e25b83123dad387131a1dc17", null ],
     [ "MR_std_function_void_from_const_std_filesystem_path_ref_AssignWithDataPtr", "std__function__void__from__const__std__filesystem__path__ref_8h.html#aa8f1e31d7499efe9d8168934e09f5ebd", null ],
     [ "MR_std_function_void_from_const_std_filesystem_path_ref_ConstructFromAnother", "std__function__void__from__const__std__filesystem__path__ref_8h.html#a7806491038084ee27b6230b8a077ecb4", null ],
+    [ "MR_std_function_void_from_const_std_filesystem_path_ref_ConstructStateless", "std__function__void__from__const__std__filesystem__path__ref_8h.html#aab7682baeb83da587707a5cbda82c197", null ],
+    [ "MR_std_function_void_from_const_std_filesystem_path_ref_ConstructWithDataPtr", "std__function__void__from__const__std__filesystem__path__ref_8h.html#ab62b5791cb90f159b6bc2fbacbe8bb4c", null ],
     [ "MR_std_function_void_from_const_std_filesystem_path_ref_DefaultConstruct", "std__function__void__from__const__std__filesystem__path__ref_8h.html#a56f7d93729f08758c2d7bebf0ce7a6ed", null ],
     [ "MR_std_function_void_from_const_std_filesystem_path_ref_DefaultConstructArray", "std__function__void__from__const__std__filesystem__path__ref_8h.html#a9294740406df1279ae56277dd39d6ac1", null ],
     [ "MR_std_function_void_from_const_std_filesystem_path_ref_Destroy", "std__function__void__from__const__std__filesystem__path__ref_8h.html#adcbceea0495970b4e709bfc65cabbff3", null ],

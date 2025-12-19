@@ -261,7 +261,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Structure to hold and work with dense box</p>
-<p>Scalar operations that are not provided in this struct can be called via <code>box()</code> For example <code>box().<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size()</a></code>, <code>box().diagonal()</code> or <code>box().volume()</code> Non const operations are not allowed for dense box because it can spoil density Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. </p>
+<p>Scalar operations that are not provided in this struct can be called via <code>box()</code> For example <code>box().<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size()</a></code>, <code>box().diagonal()</code> or <code>box().volume()</code> Non const operations are not allowed for dense box because it can spoil density Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -368,7 +368,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::DenseBox::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -386,7 +386,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>transform box space to world space Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>basisXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>transform box space to world space Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9">MR::DenseBox::basisXf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -404,7 +404,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>transform world space to box space Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>basisXfInv</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>transform world space to box space Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee">MR::DenseBox::basisXfInv</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -422,7 +422,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return box in its space Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>box</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>return box in its space Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a0ea02f370dc76e349984c62b5a3f6557">MR::DenseBox::box</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -440,7 +440,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns center of dense box Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns center of dense box Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f">MR::DenseBox::center</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -462,7 +462,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Include mesh part into this dense box Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Parameter <code>meshPart</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Include mesh part into this dense box Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582">MR::DenseBox::DenseBox</a></code>. Parameter <code>meshPart</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -484,7 +484,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Include point into this dense box Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Include point into this dense box Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582">MR::DenseBox::DenseBox</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -506,7 +506,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Include line into this dense box Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Include line into this dense box Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582">MR::DenseBox::DenseBox</a></code>. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -528,7 +528,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Include given points into this dense box Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Include given points into this dense box Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582">MR::DenseBox::DenseBox</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -555,7 +555,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Include given weighed points into this dense box Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>weights</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Include given weighed points into this dense box Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582">MR::DenseBox::DenseBox</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>weights</code> can not be null. It is a single object. Parameter <code>xf</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -573,7 +573,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582">MR::DenseBox::DenseBox</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adbc1846ea7a4ae82cd6e6609137b5205" title="Destroys a heap-allocated instance of MR_DenseBox. Does nothing if the pointer is null.">MR_DenseBox_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if dense box contains given point Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>contains</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
+<p>returns true if dense box contains given point Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d">MR::DenseBox::contains</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -617,7 +617,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns corner of dense box, each index value means: false - min, true - max example: {false, false, flase} - min point, {true, true, true} - max point Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html">MR::DenseBox</a></code> named <code>corner</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>index</code> can not be null. It is a single object. </p>
+<p>returns corner of dense box, each index value means: false - min, true - max example: {false, false, flase} - min point, {true, true, true} - max point Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802">MR::DenseBox::corner</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>index</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

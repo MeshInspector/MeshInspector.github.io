@@ -264,7 +264,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshFillHole_8h.html#a2dd5e3e39e5466f0a1e47e0be6c49ba5">MR_FillHoleParams_Set_metric</a>( params, MR_PassBy_Move, metric );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshMetrics_8h.html#ade64d89e14732245a119db72f913913d">MR_FillHoleMetric_Destroy</a>( metric ); <span class="comment">// `MR_PassBy_Move` is not destructive, the object still needs to be destroyed manually.</span></div>
 <div class="line">    <span class="comment">// Optionally, receive the bitset of the created faces.</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>* newFaces = <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#ac034295e5f914a3567419f294e6f70ff">MR_FaceBitSet_DefaultConstruct</a>();</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>* newFaces = <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#ac034295e5f914a3567419f294e6f70ff">MR_FaceBitSet_DefaultConstruct</a>();</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshFillHole_8h.html#ac3f24493604d13d8622310220f71d7f4">MR_FillHoleParams_Set_outNewFaces</a>( params, newFaces );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// You can either fill all holes at once, or one by one.</span></div>
@@ -307,7 +307,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRAABBTreeBase_8h_html_aba7bc6ac732c34fd4721c543fa3445ea"><div class="ttname"><a href="./C/MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></div><div class="ttdeci">struct MR_FaceBitSet MR_FaceBitSet</div></div>
+<div class="ttc" id="aMRAABBTree_8h_html_aba7bc6ac732c34fd4721c543fa3445ea"><div class="ttname"><a href="./C/MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></div><div class="ttdeci">struct MR_FaceBitSet MR_FaceBitSet</div></div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="./C/MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRBitSet_8h_html_a4ebdc52390d331e5313d029ce55682ab"><div class="ttname"><a href="./C/MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab">MR_FaceBitSet_Destroy</a></div><div class="ttdeci">MRC_API void MR_FaceBitSet_Destroy(const MR_FaceBitSet *_this)</div></div>
 <div class="ttc" id="aMRBitSet_8h_html_a4f22019b23d0187944be5d0719b36d0d"><div class="ttname"><a href="./C/MRBitSet_8h.html#a4f22019b23d0187944be5d0719b36d0d">MR_FaceBitSet_UpcastTo_MR_BitSet</a></div><div class="ttdeci">MRC_API const MR_BitSet * MR_FaceBitSet_UpcastTo_MR_BitSet(const MR_FaceBitSet *object)</div></div>

@@ -196,9 +196,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a976151993a24b9b4ac94b8aff478f69e" id="r_a976151993a24b9b4ac94b8aff478f69e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976151993a24b9b4ac94b8aff478f69e">AABBTreePoints</a> (const VertCoords &amp;points, const VertBitSet *validPoints=nullptr)</td></tr>
 <tr class="memdesc:a976151993a24b9b4ac94b8aff478f69e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree from given valid points  <br /></td></tr>
 <tr class="separator:a976151993a24b9b4ac94b8aff478f69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd18b1fda8da3797dbcaa84425ab594" id="r_affd18b1fda8da3797dbcaa84425ab594"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affd18b1fda8da3797dbcaa84425ab594">AABBTreePoints</a> (const VertCoords &amp;points, const VertBitSet &amp;validPoints)</td></tr>
-<tr class="memdesc:affd18b1fda8da3797dbcaa84425ab594"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree from given valid points  <br /></td></tr>
-<tr class="separator:affd18b1fda8da3797dbcaa84425ab594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8154a2813c0a69767e82f1f67be5161c" id="r_a8154a2813c0a69767e82f1f67be5161c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8154a2813c0a69767e82f1f67be5161c">AABBTreePoints</a> (const VertCoords &amp;points, const VertBitSet &amp;validPoints)</td></tr>
+<tr class="separator:a8154a2813c0a69767e82f1f67be5161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f478734833e01a7796565862c32038" id="r_a65f478734833e01a7796565862c32038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f478734833e01a7796565862c32038">AABBTreePoints</a> (<a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a65f478734833e01a7796565862c32038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f0edac8d95fa30b01aeb66950911da9" id="r_a0f0edac8d95fa30b01aeb66950911da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f0edac8d95fa30b01aeb66950911da9">operator=</a> (<a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&amp;) noexcept=default</td></tr>
@@ -324,8 +323,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="affd18b1fda8da3797dbcaa84425ab594" name="affd18b1fda8da3797dbcaa84425ab594"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd18b1fda8da3797dbcaa84425ab594">&#9670;&#160;</a></span>AABBTreePoints() <span class="overload">[4/5]</span></h2>
+<a id="a8154a2813c0a69767e82f1f67be5161c" name="a8154a2813c0a69767e82f1f67be5161c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8154a2813c0a69767e82f1f67be5161c">&#9670;&#160;</a></span>AABBTreePoints() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +333,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR::AABBTreePoints::AABBTreePoints </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> MR::AABBTreePoints::AABBTreePoints </td>
           <td>(</td>
           <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -350,8 +349,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>creates tree from given valid points </p>
+<p>creates tree from given valid points This is skipped in the bindings because it conflicts with the overload taking a pointer in C#. Since that overload is strictly more useful, we're keeping that one. </p>
 
 </div>
 </div>

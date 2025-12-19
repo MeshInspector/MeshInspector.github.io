@@ -153,6 +153,7 @@ $(function(){initNavTree('expected__MR__Polyline3__std__string_8h.html',''); ini
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="expected__MR__Polyline3__std__string_8h_source.html">Go to the source code of this file.</a></p>
@@ -161,7 +162,7 @@ $(function(){initNavTree('expected__MR__Polyline3__std__string_8h.html',''); ini
 Typedefs</h2></td></tr>
 <tr class="memitem:a6075b2f3b7dec92f779f4f58c28f7e1b" id="r_a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td></tr>
 <tr class="separator:a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af91e6181653b78efd8dfe626e27a9575" id="r_af91e6181653b78efd8dfe626e27a9575"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a></td></tr>
 <tr class="separator:af91e6181653b78efd8dfe626e27a9575"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,12 +175,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa1f22590dccf0755f22de42237df04e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76057be137073d4f014c94430e45cc64" id="r_a76057be137073d4f014c94430e45cc64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76057be137073d4f014c94430e45cc64">MR_expected_MR_Polyline3_std_string_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *other)</td></tr>
 <tr class="separator:a76057be137073d4f014c94430e45cc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe655f28a8d95284ad9bcedfebef182" id="r_a3fe655f28a8d95284ad9bcedfebef182"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe655f28a8d95284ad9bcedfebef182">MR_expected_MR_Polyline3_std_string_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *other)</td></tr>
-<tr class="separator:a3fe655f28a8d95284ad9bcedfebef182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a789a2fb97199ff8e6b21e6c0526e3477" id="r_a789a2fb97199ff8e6b21e6c0526e3477"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a789a2fb97199ff8e6b21e6c0526e3477">MR_expected_MR_Polyline3_std_string_AssignFromAnother</a> (<a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *other)</td></tr>
 <tr class="separator:a789a2fb97199ff8e6b21e6c0526e3477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ef29249a5f9356de4c45667e8fb5d7d" id="r_a6ef29249a5f9356de4c45667e8fb5d7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ef29249a5f9356de4c45667e8fb5d7d">MR_expected_MR_Polyline3_std_string_AssignFrom</a> (<a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *other)</td></tr>
-<tr class="separator:a6ef29249a5f9356de4c45667e8fb5d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abba35365cb666886d3cf1914c73b2568" id="r_abba35365cb666886d3cf1914c73b2568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abba35365cb666886d3cf1914c73b2568">MR_expected_MR_Polyline3_std_string_Destroy</a> (const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
 <tr class="memdesc:abba35365cb666886d3cf1914c73b2568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_expected_MR_Polyline3_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:abba35365cb666886d3cf1914c73b2568"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,13 +189,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a04522506ea9e30dd8742a11372d81cc6" id="r_a04522506ea9e30dd8742a11372d81cc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04522506ea9e30dd8742a11372d81cc6">MR_expected_MR_Polyline3_std_string_OffsetMutablePtr</a> (<a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a04522506ea9e30dd8742a11372d81cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a04522506ea9e30dd8742a11372d81cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f335594420e958344bb4f7a090350a9" id="r_a7f335594420e958344bb4f7a090350a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f335594420e958344bb4f7a090350a9">MR_expected_MR_Polyline3_std_string_Success</a> (const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
+<tr class="separator:a7f335594420e958344bb4f7a090350a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4bf59c4a9b48c9d94f8982e5b8065f0" id="r_af4bf59c4a9b48c9d94f8982e5b8065f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4bf59c4a9b48c9d94f8982e5b8065f0">MR_expected_MR_Polyline3_std_string_GetValue</a> (const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
 <tr class="separator:af4bf59c4a9b48c9d94f8982e5b8065f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a337716971f3d1eaf7c0b1937c2e1e106" id="r_a337716971f3d1eaf7c0b1937c2e1e106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337716971f3d1eaf7c0b1937c2e1e106">MR_expected_MR_Polyline3_std_string_GetError</a> (const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
+<tr class="memitem:a337716971f3d1eaf7c0b1937c2e1e106" id="r_a337716971f3d1eaf7c0b1937c2e1e106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337716971f3d1eaf7c0b1937c2e1e106">MR_expected_MR_Polyline3_std_string_GetError</a> (const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
 <tr class="separator:a337716971f3d1eaf7c0b1937c2e1e106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb16598adb4efec1cfe8cc7309825216" id="r_afb16598adb4efec1cfe8cc7309825216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb16598adb4efec1cfe8cc7309825216">MR_expected_MR_Polyline3_std_string_GetMutableValue</a> (<a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
 <tr class="separator:afb16598adb4efec1cfe8cc7309825216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e2687d2c72410fc7260cf1306875813" id="r_a7e2687d2c72410fc7260cf1306875813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2687d2c72410fc7260cf1306875813">MR_expected_MR_Polyline3_std_string_GetMutableError</a> (<a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
+<tr class="memitem:a7e2687d2c72410fc7260cf1306875813" id="r_a7e2687d2c72410fc7260cf1306875813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2687d2c72410fc7260cf1306875813">MR_expected_MR_Polyline3_std_string_GetMutableError</a> (<a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *_this)</td></tr>
 <tr class="separator:a7e2687d2c72410fc7260cf1306875813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -213,7 +212,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores either a <code>MR::Polyline3</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Stores either a <code>MR::Polyline3</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -238,7 +237,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,33 +245,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6ef29249a5f9356de4c45667e8fb5d7d" name="a6ef29249a5f9356de4c45667e8fb5d7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ef29249a5f9356de4c45667e8fb5d7d">&#9670;&#160;</a></span>MR_expected_MR_Polyline3_std_string_AssignFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_expected_MR_Polyline3_std_string_AssignFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Assigns the contents. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
 <a id="a789a2fb97199ff8e6b21e6c0526e3477" name="a789a2fb97199ff8e6b21e6c0526e3477"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a789a2fb97199ff8e6b21e6c0526e3477">&#9670;&#160;</a></span>MR_expected_MR_Polyline3_std_string_AssignFromAnother()</h2>
 
@@ -297,28 +269,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="a3fe655f28a8d95284ad9bcedfebef182" name="a3fe655f28a8d95284ad9bcedfebef182"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe655f28a8d95284ad9bcedfebef182">&#9670;&#160;</a></span>MR_expected_MR_Polyline3_std_string_ConstructFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> * MR_expected_MR_Polyline3_std_string_ConstructFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Constructs a new instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abba35365cb666886d3cf1914c73b2568" title="Destroys a heap-allocated instance of MR_expected_MR_Polyline3_std_string. Does nothing if the pointe...">MR_expected_MR_Polyline3_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -425,7 +375,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_Polyline3_std_string_GetError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_Polyline3_std_string_GetError </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -443,7 +393,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_Polyline3_std_string_GetMutableError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_MR_Polyline3_std_string_GetMutableError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -533,6 +483,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7f335594420e958344bb4f7a090350a9" name="a7f335594420e958344bb4f7a090350a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f335594420e958344bb4f7a090350a9">&#9670;&#160;</a></span>MR_expected_MR_Polyline3_std_string_Success()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_expected_MR_Polyline3_std_string_Success </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575">MR_expected_MR_Polyline3_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if this instance represents success, or false if it represents an error. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -155,6 +155,7 @@ $(function(){initNavTree('MRAlignTextToMesh_8h.html',''); initResizable(true); }
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRSymbolMesh_8h_source.html">MRCSymbolMesh/MRSymbolMesh.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -170,6 +171,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:adc08a6832856be67ef1c2acff16c9f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d97154d4aed695055160a4688c04a3d" id="r_a0d97154d4aed695055160a4688c04a3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td></tr>
 <tr class="separator:a0d97154d4aed695055160a4688c04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006d61fd2048bba5b5622d42cbe72526" id="r_a006d61fd2048bba5b5622d42cbe72526"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></td></tr>
+<tr class="separator:a006d61fd2048bba5b5622d42cbe72526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a248de3625afa5f345225a9c64501932b" id="r_a248de3625afa5f345225a9c64501932b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a></td></tr>
 <tr class="separator:a248de3625afa5f345225a9c64501932b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -223,6 +228,44 @@ Functions</h2></td></tr>
 <tr class="separator:a470e2900accc86712d31ad41734f48ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae04792f54b4bb5dadee82bb059f6870c" id="r_ae04792f54b4bb5dadee82bb059f6870c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae04792f54b4bb5dadee82bb059f6870c">MR_TextMeshAlignParams_GetMutable_fontBasedSizeCalc</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
 <tr class="separator:ae04792f54b4bb5dadee82bb059f6870c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39877309ab49941be1495eeef22dafad" id="r_a39877309ab49941be1495eeef22dafad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39877309ab49941be1495eeef22dafad">MR_TextMeshAlignParams_Get_MaxGeneratedFontHeight</a> (void)</td></tr>
+<tr class="separator:a39877309ab49941be1495eeef22dafad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42825d853fa1714587cddb7046c73b68" id="r_a42825d853fa1714587cddb7046c73b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42825d853fa1714587cddb7046c73b68">MR_TextMeshAlignParams_Get_text</a> (const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:a42825d853fa1714587cddb7046c73b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d68bcec093134f07e4f8e04c479448" id="r_aa8d68bcec093134f07e4f8e04c479448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8d68bcec093134f07e4f8e04c479448">MR_TextMeshAlignParams_Set_text</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:aa8d68bcec093134f07e4f8e04c479448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6586f0cb2065d443dd3e298409d34a" id="r_afc6586f0cb2065d443dd3e298409d34a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc6586f0cb2065d443dd3e298409d34a">MR_TextMeshAlignParams_GetMutable_text</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:afc6586f0cb2065d443dd3e298409d34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca772b02fa6f05aa69af2ba9a254a80" id="r_afca772b02fa6f05aa69af2ba9a254a80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afca772b02fa6f05aa69af2ba9a254a80">MR_TextMeshAlignParams_Get_fontDetalization</a> (const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:afca772b02fa6f05aa69af2ba9a254a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a61b63d1cec4ad79d1bfa38523a879e" id="r_a0a61b63d1cec4ad79d1bfa38523a879e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a61b63d1cec4ad79d1bfa38523a879e">MR_TextMeshAlignParams_Set_fontDetalization</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this, int value)</td></tr>
+<tr class="separator:a0a61b63d1cec4ad79d1bfa38523a879e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a47d04f677ee87d4e62abcff0de2f5" id="r_ae8a47d04f677ee87d4e62abcff0de2f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8a47d04f677ee87d4e62abcff0de2f5">MR_TextMeshAlignParams_GetMutable_fontDetalization</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:ae8a47d04f677ee87d4e62abcff0de2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3ef489b89cad2ac3ff4886762f116d" id="r_aef3ef489b89cad2ac3ff4886762f116d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef3ef489b89cad2ac3ff4886762f116d">MR_TextMeshAlignParams_Get_symbolsDistanceAdditionalOffset</a> (const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:aef3ef489b89cad2ac3ff4886762f116d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a30334a44e80c2399ffff0b9563111e" id="r_a0a30334a44e80c2399ffff0b9563111e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a30334a44e80c2399ffff0b9563111e">MR_TextMeshAlignParams_Set_symbolsDistanceAdditionalOffset</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this, <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> value)</td></tr>
+<tr class="separator:a0a30334a44e80c2399ffff0b9563111e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a577c8d2a9c696a2c3cec7b3020e88a4d" id="r_a577c8d2a9c696a2c3cec7b3020e88a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a577c8d2a9c696a2c3cec7b3020e88a4d">MR_TextMeshAlignParams_GetMutable_symbolsDistanceAdditionalOffset</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:a577c8d2a9c696a2c3cec7b3020e88a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b7c1ff90b8d599f5b41d1f342e994a" id="r_ac0b7c1ff90b8d599f5b41d1f342e994a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0b7c1ff90b8d599f5b41d1f342e994a">MR_TextMeshAlignParams_Get_symbolsThicknessOffsetModifier</a> (const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:ac0b7c1ff90b8d599f5b41d1f342e994a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af39ab7782e6f8bc2c9bf2fc11f0cf38e" id="r_af39ab7782e6f8bc2c9bf2fc11f0cf38e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39ab7782e6f8bc2c9bf2fc11f0cf38e">MR_TextMeshAlignParams_Set_symbolsThicknessOffsetModifier</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this, float value)</td></tr>
+<tr class="separator:af39ab7782e6f8bc2c9bf2fc11f0cf38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9538e4a634707027c627b6dc6f0e563c" id="r_a9538e4a634707027c627b6dc6f0e563c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9538e4a634707027c627b6dc6f0e563c">MR_TextMeshAlignParams_GetMutable_symbolsThicknessOffsetModifier</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:a9538e4a634707027c627b6dc6f0e563c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2aaea7593428d187e7ad93e01ee32d" id="r_aee2aaea7593428d187e7ad93e01ee32d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee2aaea7593428d187e7ad93e01ee32d">MR_TextMeshAlignParams_Get_align</a> (const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:aee2aaea7593428d187e7ad93e01ee32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7244c329c838edce6af5ffc7febf0fe" id="r_ac7244c329c838edce6af5ffc7febf0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7244c329c838edce6af5ffc7febf0fe">MR_TextMeshAlignParams_Set_align</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this, <a class="el" href="MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a> value)</td></tr>
+<tr class="separator:ac7244c329c838edce6af5ffc7febf0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99a1f7cde9ffcd8d206a69e7e6f07538" id="r_a99a1f7cde9ffcd8d206a69e7e6f07538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99a1f7cde9ffcd8d206a69e7e6f07538">MR_TextMeshAlignParams_GetMutable_align</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:a99a1f7cde9ffcd8d206a69e7e6f07538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc06b4621fd738a9fe1b17b553aabfe" id="r_a1dc06b4621fd738a9fe1b17b553aabfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc06b4621fd738a9fe1b17b553aabfe">MR_TextMeshAlignParams_Get_pathToFontFile</a> (const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:a1dc06b4621fd738a9fe1b17b553aabfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6626f3f93aa2d8a9494177eb8c89b74f" id="r_a6626f3f93aa2d8a9494177eb8c89b74f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6626f3f93aa2d8a9494177eb8c89b74f">MR_TextMeshAlignParams_Set_pathToFontFile</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a6626f3f93aa2d8a9494177eb8c89b74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bb5baf28448da84fa1abf9489d8226" id="r_af3bb5baf28448da84fa1abf9489d8226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3bb5baf28448da84fa1abf9489d8226">MR_TextMeshAlignParams_GetMutable_pathToFontFile</a> (<a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *_this)</td></tr>
+<tr class="separator:af3bb5baf28448da84fa1abf9489d8226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f772bb344e913cdb39561d119db16a" id="r_ae5f772bb344e913cdb39561d119db16a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f772bb344e913cdb39561d119db16a">MR_TextMeshAlignParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ae5f772bb344e913cdb39561d119db16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add3a5bfe8a4e8afbf1b474e3540beb53" id="r_add3a5bfe8a4e8afbf1b474e3540beb53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add3a5bfe8a4e8afbf1b474e3540beb53">MR_TextMeshAlignParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -294,6 +337,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a006d61fd2048bba5b5622d42cbe72526" name="a006d61fd2048bba5b5622d42cbe72526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a006d61fd2048bba5b5622d42cbe72526">&#9670;&#160;</a></span>MR_std_filesystem_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adc08a6832856be67ef1c2acff16c9f59" name="adc08a6832856be67ef1c2acff16c9f59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc08a6832856be67ef1c2acff16c9f59">&#9670;&#160;</a></span>MR_SymbolMeshParams</h2>
 
@@ -319,7 +390,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -369,7 +440,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::TextMeshAlignParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -391,7 +462,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2442eb646728fb7f5005e9b202ffb516" title="Destroys a heap-allocated instance of MR_TextMeshAlignParams. Does nothing if the pointer is null.">MR_TextMeshAlignParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::TextMeshAlignParams::TextMeshAlignParams</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2442eb646728fb7f5005e9b202ffb516" title="Destroys a heap-allocated instance of MR_TextMeshAlignParams. Does nothing if the pointer is null.">MR_TextMeshAlignParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -469,6 +540,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aee2aaea7593428d187e7ad93e01ee32d" name="aee2aaea7593428d187e7ad93e01ee32d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2aaea7593428d187e7ad93e01ee32d">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a> * MR_TextMeshAlignParams_Get_align </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>align</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="acf431e4be8c6c0ca4183683082aaf405" name="acf431e4be8c6c0ca4183683082aaf405"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf431e4be8c6c0ca4183683082aaf405">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_direction()</h2>
 
@@ -505,6 +594,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afca772b02fa6f05aa69af2ba9a254a80" name="afca772b02fa6f05aa69af2ba9a254a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca772b02fa6f05aa69af2ba9a254a80">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_fontDetalization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_TextMeshAlignParams_Get_fontDetalization </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>fontDetalization</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a7b4437c9e24e258a6323ce5d95523269" name="a7b4437c9e24e258a6323ce5d95523269"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b4437c9e24e258a6323ce5d95523269">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_fontHeight()</h2>
 
@@ -520,6 +627,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>fontHeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a39877309ab49941be1495eeef22dafad" name="a39877309ab49941be1495eeef22dafad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39877309ab49941be1495eeef22dafad">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_MaxGeneratedFontHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_TextMeshAlignParams_Get_MaxGeneratedFontHeight </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>MaxGeneratedFontHeight</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1dc06b4621fd738a9fe1b17b553aabfe" name="a1dc06b4621fd738a9fe1b17b553aabfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc06b4621fd738a9fe1b17b553aabfe">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_pathToFontFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_TextMeshAlignParams_Get_pathToFontFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>pathToFontFile</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -577,6 +720,60 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aef3ef489b89cad2ac3ff4886762f116d" name="aef3ef489b89cad2ac3ff4886762f116d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3ef489b89cad2ac3ff4886762f116d">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_symbolsDistanceAdditionalOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> * MR_TextMeshAlignParams_Get_symbolsDistanceAdditionalOffset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>symbolsDistanceAdditionalOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac0b7c1ff90b8d599f5b41d1f342e994a" name="ac0b7c1ff90b8d599f5b41d1f342e994a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b7c1ff90b8d599f5b41d1f342e994a">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_symbolsThicknessOffsetModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_TextMeshAlignParams_Get_symbolsThicknessOffsetModifier </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>symbolsThicknessOffsetModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a42825d853fa1714587cddb7046c73b68" name="a42825d853fa1714587cddb7046c73b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42825d853fa1714587cddb7046c73b68">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_text()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_TextMeshAlignParams_Get_text </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>text</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="aedf92bd294996403c4d448331fb0e0b4" name="aedf92bd294996403c4d448331fb0e0b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aedf92bd294996403c4d448331fb0e0b4">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Get_textMaximumMovement()</h2>
 
@@ -610,6 +807,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>textNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a99a1f7cde9ffcd8d206a69e7e6f07538" name="a99a1f7cde9ffcd8d206a69e7e6f07538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99a1f7cde9ffcd8d206a69e7e6f07538">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a> * MR_TextMeshAlignParams_GetMutable_align </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>align</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -649,6 +864,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae8a47d04f677ee87d4e62abcff0de2f5" name="ae8a47d04f677ee87d4e62abcff0de2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8a47d04f677ee87d4e62abcff0de2f5">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_fontDetalization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_TextMeshAlignParams_GetMutable_fontDetalization </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>fontDetalization</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="acc27af1b6bf890abd540649010120be0" name="acc27af1b6bf890abd540649010120be0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc27af1b6bf890abd540649010120be0">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_fontHeight()</h2>
 
@@ -664,6 +897,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>fontHeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af3bb5baf28448da84fa1abf9489d8226" name="af3bb5baf28448da84fa1abf9489d8226"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3bb5baf28448da84fa1abf9489d8226">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_pathToFontFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_TextMeshAlignParams_GetMutable_pathToFontFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>pathToFontFile</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -718,6 +969,60 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>surfaceOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a577c8d2a9c696a2c3cec7b3020e88a4d" name="a577c8d2a9c696a2c3cec7b3020e88a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a577c8d2a9c696a2c3cec7b3020e88a4d">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_symbolsDistanceAdditionalOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> * MR_TextMeshAlignParams_GetMutable_symbolsDistanceAdditionalOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>symbolsDistanceAdditionalOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9538e4a634707027c627b6dc6f0e563c" name="a9538e4a634707027c627b6dc6f0e563c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9538e4a634707027c627b6dc6f0e563c">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_symbolsThicknessOffsetModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_TextMeshAlignParams_GetMutable_symbolsThicknessOffsetModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>symbolsThicknessOffsetModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afc6586f0cb2065d443dd3e298409d34a" name="afc6586f0cb2065d443dd3e298409d34a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6586f0cb2065d443dd3e298409d34a">&#9670;&#160;</a></span>MR_TextMeshAlignParams_GetMutable_text()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_TextMeshAlignParams_GetMutable_text </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>text</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -822,6 +1127,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7244c329c838edce6af5ffc7febf0fe" name="ac7244c329c838edce6af5ffc7febf0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7244c329c838edce6af5ffc7febf0fe">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TextMeshAlignParams_Set_align </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>align</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a27f6869421b717625cca19f039cd4eef" name="a27f6869421b717625cca19f039cd4eef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27f6869421b717625cca19f039cd4eef">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_direction()</h2>
 
@@ -866,6 +1193,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0a61b63d1cec4ad79d1bfa38523a879e" name="a0a61b63d1cec4ad79d1bfa38523a879e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a61b63d1cec4ad79d1bfa38523a879e">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_fontDetalization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TextMeshAlignParams_Set_fontDetalization </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>fontDetalization</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a66aad46dd877e804b5dcdea6fe93dc6f" name="a66aad46dd877e804b5dcdea6fe93dc6f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66aad46dd877e804b5dcdea6fe93dc6f">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_fontHeight()</h2>
 
@@ -885,6 +1234,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>fontHeight</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6626f3f93aa2d8a9494177eb8c89b74f" name="a6626f3f93aa2d8a9494177eb8c89b74f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6626f3f93aa2d8a9494177eb8c89b74f">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_pathToFontFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TextMeshAlignParams_Set_pathToFontFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>pathToFontFile</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is a UTF-8 encoded filesystem path. </p>
 
 </div>
 </div>
@@ -951,6 +1327,77 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>surfaceOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a0a30334a44e80c2399ffff0b9563111e" name="a0a30334a44e80c2399ffff0b9563111e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a30334a44e80c2399ffff0b9563111e">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_symbolsDistanceAdditionalOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TextMeshAlignParams_Set_symbolsDistanceAdditionalOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector2f.html">MR_Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>symbolsDistanceAdditionalOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af39ab7782e6f8bc2c9bf2fc11f0cf38e" name="af39ab7782e6f8bc2c9bf2fc11f0cf38e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af39ab7782e6f8bc2c9bf2fc11f0cf38e">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_symbolsThicknessOffsetModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TextMeshAlignParams_Set_symbolsThicknessOffsetModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>symbolsThicknessOffsetModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa8d68bcec093134f07e4f8e04c479448" name="aa8d68bcec093134f07e4f8e04c479448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d68bcec093134f07e4f8e04c479448">&#9670;&#160;</a></span>MR_TextMeshAlignParams_Set_text()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TextMeshAlignParams_Set_text </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></code> named <code>text</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>

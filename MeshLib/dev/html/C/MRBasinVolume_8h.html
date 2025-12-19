@@ -160,7 +160,7 @@ $(function(){initNavTree('MRBasinVolume_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
 <tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
 <tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,7 +193,7 @@ Functions</h2></td></tr>
 <tr class="separator:a3ebd6eaf592de7750deda774202b8ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6e926efbcb408086b38a7f70716be14" id="r_af6e926efbcb408086b38a7f70716be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e926efbcb408086b38a7f70716be14">MR_BasinVolumeCalculator_getVolume</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
 <tr class="separator:af6e926efbcb408086b38a7f70716be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4235ab9f22905b8a47532b7527b2f12" id="r_ae4235ab9f22905b8a47532b7527b2f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4235ab9f22905b8a47532b7527b2f12">MR_computeBasinVolume</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces, float level)</td></tr>
+<tr class="memitem:ae4235ab9f22905b8a47532b7527b2f12" id="r_ae4235ab9f22905b8a47532b7527b2f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4235ab9f22905b8a47532b7527b2f12">MR_computeBasinVolume</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces, float level)</td></tr>
 <tr class="separator:ae4235ab9f22905b8a47532b7527b2f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -208,7 +208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the class to compute the volume of water some basin can accumulate, considering that water upper surface has constant z-level Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html">MR::BasinVolumeCalculator</a></code>. </p>
+<p>the class to compute the volume of water some basin can accumulate, considering that water upper surface has constant z-level Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html">MR::BasinVolumeCalculator</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -219,7 +219,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,7 +264,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>pass every triangle of the basin here, and the water level; </p><dl class="section return"><dt>Returns</dt><dd>true if the triangle is at least partially below the water level and influences on the volume Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html">MR::BasinVolumeCalculator</a></code> named <code>addTerrainTri</code>. Parameter <code>_this</code> can not be null. It is a single object. </dd></dl>
+<p>pass every triangle of the basin here, and the water level; </p><dl class="section return"><dt>Returns</dt><dd>true if the triangle is at least partially below the water level and influences on the volume Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html#a9b99b97f9c008057ea3281d4f9461d89">MR::BasinVolumeCalculator::addTerrainTri</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -286,7 +286,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html">MR::BasinVolumeCalculator</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::BasinVolumeCalculator::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -304,7 +304,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html">MR::BasinVolumeCalculator</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae7296967f1794b3dce942bc506bc5a67" title="Destroys a heap-allocated instance of MR_BasinVolumeCalculator. Does nothing if the pointer is null.">MR_BasinVolumeCalculator_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::BasinVolumeCalculator::BasinVolumeCalculator</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae7296967f1794b3dce942bc506bc5a67" title="Destroys a heap-allocated instance of MR_BasinVolumeCalculator. Does nothing if the pointer is null.">MR_BasinVolumeCalculator_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -396,7 +396,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>call it after all addTerrainTri to get the volume Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html">MR::BasinVolumeCalculator</a></code> named <code>getVolume</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>call it after all addTerrainTri to get the volume Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c">MR::BasinVolumeCalculator::getVolume</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -460,7 +460,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -163,11 +163,11 @@ Macros</h2></td></tr>
 <tr class="separator:a598e5f23bf24e83e3c7287e85cfec739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74170e86e3faa2d28c5da15e7d127997" id="r_a74170e86e3faa2d28c5da15e7d127997"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74170e86e3faa2d28c5da15e7d127997">MR_VECTOR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a ## b</td></tr>
 <tr class="separator:a74170e86e3faa2d28c5da15e7d127997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c16d4fb0512e879d774d579b1a79f59" id="r_a0c16d4fb0512e879d774d579b1a79f59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c16d4fb0512e879d774d579b1a79f59">MR_VECTOR_LIKE_DECL_NONS</a>(ClassName,  Type)</td></tr>
-<tr class="separator:a0c16d4fb0512e879d774d579b1a79f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af14f0ba8d8f1501f0349bd464c23225c" id="r_af14f0ba8d8f1501f0349bd464c23225c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af14f0ba8d8f1501f0349bd464c23225c">MR_VECTOR_LIKE_DECL</a>(ClassName,  Type)&#160;&#160;&#160;<a class="el" href="#a0c16d4fb0512e879d774d579b1a79f59">MR_VECTOR_LIKE_DECL_NONS</a>( ClassName, <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td></tr>
-<tr class="separator:af14f0ba8d8f1501f0349bd464c23225c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bffcd943d26953930bf9399b7da112d" id="r_a3bffcd943d26953930bf9399b7da112d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>(Type)&#160;&#160;&#160;<a class="el" href="#a0c16d4fb0512e879d774d579b1a79f59">MR_VECTOR_LIKE_DECL_NONS</a>( <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( Vector, Type ), <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td></tr>
+<tr class="memitem:a542083a3a300cef5974dc55cbcdafbbd" id="r_a542083a3a300cef5974dc55cbcdafbbd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a542083a3a300cef5974dc55cbcdafbbd">MR_VECTOR_LIKE_DECL_NONS</a>(StaticClassName,  Type)</td></tr>
+<tr class="separator:a542083a3a300cef5974dc55cbcdafbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9702e4b2baa479036fe009655b6bb37" id="r_af9702e4b2baa479036fe009655b6bb37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9702e4b2baa479036fe009655b6bb37">MR_VECTOR_LIKE_DECL</a>(StaticClassName,  Type)&#160;&#160;&#160;<a class="el" href="#a542083a3a300cef5974dc55cbcdafbbd">MR_VECTOR_LIKE_DECL_NONS</a>( StaticClassName, <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td></tr>
+<tr class="separator:af9702e4b2baa479036fe009655b6bb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bffcd943d26953930bf9399b7da112d" id="r_a3bffcd943d26953930bf9399b7da112d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bffcd943d26953930bf9399b7da112d">MR_VECTOR_DECL</a>(Type)&#160;&#160;&#160;<a class="el" href="#a542083a3a300cef5974dc55cbcdafbbd">MR_VECTOR_LIKE_DECL_NONS</a>( <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( Vector, Type ), <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td></tr>
 <tr class="separator:a3bffcd943d26953930bf9399b7da112d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -225,15 +225,15 @@ Macros</h2></td></tr>
           <td class="memname">#define MR_VECTOR_DECL</td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Type</em></span></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="#a0c16d4fb0512e879d774d579b1a79f59">MR_VECTOR_LIKE_DECL_NONS</a>( <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( Vector, Type ), <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#a542083a3a300cef5974dc55cbcdafbbd">MR_VECTOR_LIKE_DECL_NONS</a>( <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( Vector, Type ), <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af14f0ba8d8f1501f0349bd464c23225c" name="af14f0ba8d8f1501f0349bd464c23225c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af14f0ba8d8f1501f0349bd464c23225c">&#9670;&#160;</a></span>MR_VECTOR_LIKE_DECL</h2>
+<a id="af9702e4b2baa479036fe009655b6bb37" name="af9702e4b2baa479036fe009655b6bb37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9702e4b2baa479036fe009655b6bb37">&#9670;&#160;</a></span>MR_VECTOR_LIKE_DECL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,20 +241,20 @@ Macros</h2></td></tr>
         <tr>
           <td class="memname">#define MR_VECTOR_LIKE_DECL</td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ClassName</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>StaticClassName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Type</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="#a0c16d4fb0512e879d774d579b1a79f59">MR_VECTOR_LIKE_DECL_NONS</a>( ClassName, <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Type</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="#a542083a3a300cef5974dc55cbcdafbbd">MR_VECTOR_LIKE_DECL_NONS</a>( StaticClassName, <a class="el" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( MR, Type ) )</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a0c16d4fb0512e879d774d579b1a79f59" name="a0c16d4fb0512e879d774d579b1a79f59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c16d4fb0512e879d774d579b1a79f59">&#9670;&#160;</a></span>MR_VECTOR_LIKE_DECL_NONS</h2>
+<a id="a542083a3a300cef5974dc55cbcdafbbd" name="a542083a3a300cef5974dc55cbcdafbbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542083a3a300cef5974dc55cbcdafbbd">&#9670;&#160;</a></span>MR_VECTOR_LIKE_DECL_NONS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,7 +262,7 @@ Macros</h2></td></tr>
         <tr>
           <td class="memname">#define MR_VECTOR_LIKE_DECL_NONS</td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ClassName</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>StaticClassName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -271,15 +271,15 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, ClassName ) \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, StaticClassName ) \</div>
 <div class="line">{                                                \</div>
 <div class="line">    Type* data;                                  \</div>
 <div class="line">    <span class="keywordtype">size_t</span> size;                                 \</div>
 <div class="line">    <span class="keywordtype">void</span>* reserved1;                             \</div>
-<div class="line">} <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, ClassName );             \</div>
-<div class="line"><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <span class="keywordtype">void</span> <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( mr, ClassName ), Invalidate )( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, ClassName )* ); \</div>
-<div class="line"><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <span class="keywordtype">void</span> <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( mr, ClassName ), Free )( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, ClassName )* ); \</div>
-<div class="line"><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, ClassName )* <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( mr, ClassName ), New )(void);</div>
+<div class="line">} <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, StaticClassName );             \</div>
+<div class="line"><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <span class="keywordtype">void</span> <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( mr, StaticClassName ), Invalidate )( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, StaticClassName )* ); \</div>
+<div class="line"><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <span class="keywordtype">void</span> <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( mr, StaticClassName ), Free )( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, StaticClassName )* ); \</div>
+<div class="line"><a class="code hl_define" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_namespace" href="namespaceMR.html">MR</a>, StaticClassName )* <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( <a class="code hl_define" href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a>( mr, StaticClassName ), New )(void);</div>
 <div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_ab8a099cc7166020a82c2f96fa5043ae6"><div class="ttname"><a href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a></div><div class="ttdeci">#define MRMESHC_API</div><div class="ttdef"><b>Definition</b> MRMeshC/MRMeshFwd.h:14</div></div>
 <div class="ttc" id="aMRMeshC_2MRVector_8h_html_a598e5f23bf24e83e3c7287e85cfec739"><div class="ttname"><a href="#a598e5f23bf24e83e3c7287e85cfec739">MR_VECTOR_CONCAT</a></div><div class="ttdeci">#define MR_VECTOR_CONCAT(a, b)</div><div class="ttdoc">concat tokens</div><div class="ttdef"><b>Definition</b> MRMeshC/MRVector.h:10</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>

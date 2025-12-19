@@ -203,9 +203,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8" id="r_af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplParams" colspan="2">template&lt;typename VV  = V, typename std::enable_if_t&lt;!<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt; VV &gt;::supportNoInit, int &gt;  = 0&gt; </td></tr>
 <tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af6d43e68039fbfc977b3d70beb1f30c8">Box</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>)</td></tr>
 <tr class="separator:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add72022e19ae28da8dec0a61eae00e35" id="r_add72022e19ae28da8dec0a61eae00e35"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:add72022e19ae28da8dec0a61eae00e35"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#add72022e19ae28da8dec0a61eae00e35">Box</a> (const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;a)</td></tr>
-<tr class="separator:add72022e19ae28da8dec0a61eae00e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa0e8fa0a608290aa2ac4bee9a34a4e" id="r_abaa0e8fa0a608290aa2ac4bee9a34a4e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:abaa0e8fa0a608290aa2ac4bee9a34a4e"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abaa0e8fa0a608290aa2ac4bee9a34a4e">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; V, U &gt;) explicit <a class="el" href="structMR_1_1Box.html">Box</a>(const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;a)</td></tr>
+<tr class="separator:abaa0e8fa0a608290aa2ac4bee9a34a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8181cac57d5ff92d32bfa86bdc5caf3" id="r_ae8181cac57d5ff92d32bfa86bdc5caf3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8181cac57d5ff92d32bfa86bdc5caf3">valid</a> () const</td></tr>
 <tr class="memdesc:ae8181cac57d5ff92d32bfa86bdc5caf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the box contains at least one point  <br /></td></tr>
 <tr class="separator:ae8181cac57d5ff92d32bfa86bdc5caf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,7 +361,7 @@ template&lt;typename V &gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab72759c3d199697fa09474bba5c5284c" name="ab72759c3d199697fa09474bba5c5284c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab72759c3d199697fa09474bba5c5284c">&#9670;&#160;</a></span>Box() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab72759c3d199697fa09474bba5c5284c">&#9670;&#160;</a></span>Box() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,7 +390,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <a id="a0b1e0b6b95e8b735eda8de2bb06fd987" name="a0b1e0b6b95e8b735eda8de2bb06fd987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b1e0b6b95e8b735eda8de2bb06fd987">&#9670;&#160;</a></span>Box() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b1e0b6b95e8b735eda8de2bb06fd987">&#9670;&#160;</a></span>Box() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +421,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <a id="af6d43e68039fbfc977b3d70beb1f30c8" name="af6d43e68039fbfc977b3d70beb1f30c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -452,7 +452,7 @@ template&lt;typename VV  = V, typename std::enable_if_t&lt; <a class="el" href="
 </div>
 </div>
 <a id="af6d43e68039fbfc977b3d70beb1f30c8" name="af6d43e68039fbfc977b3d70beb1f30c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,35 +468,6 @@ template&lt;typename VV  = V, typename std::enable_if_t&lt;!<a class="el" href="
           <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::Box </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="add72022e19ae28da8dec0a61eae00e35" name="add72022e19ae28da8dec0a61eae00e35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add72022e19ae28da8dec0a61eae00e35">&#9670;&#160;</a></span>Box() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::Box </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1052,6 +1023,35 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>checks whether this box intersects or touches given box </p>
+
+</div>
+</div>
+<a id="abaa0e8fa0a608290aa2ac4bee9a34a4e" name="abaa0e8fa0a608290aa2ac4bee9a34a4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa0e8fa0a608290aa2ac4bee9a34a4e">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::MR_REQUIRES_IF_SUPPORTED </td>
+          <td>(</td>
+          <td class="paramtype">!std::is_same_v&lt; V, U &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

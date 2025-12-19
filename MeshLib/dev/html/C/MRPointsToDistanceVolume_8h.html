@@ -151,7 +151,8 @@ $(function(){initNavTree('MRPointsToDistanceVolume_8h.html',''); initResizable(t
   <div class="headertitle"><div class="title">MRPointsToDistanceVolume.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -167,7 +168,7 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
 <tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
+<tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
 <tr class="separator:a20dc7d636220f61a60c7ae92b8caa768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
 <tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +201,30 @@ Functions</h2></td></tr>
 <tr class="separator:ae6616320b7c9b95e7c461e528b4d57ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4f3b7313b366099c22eee54743fcc87" id="r_ae4f3b7313b366099c22eee54743fcc87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4f3b7313b366099c22eee54743fcc87">MR_PointsToDistanceVolumeParams_GetMutable_ptNormals</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
 <tr class="separator:ae4f3b7313b366099c22eee54743fcc87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65cd9fa1b27349cb1286dcaa2f52fac4" id="r_a65cd9fa1b27349cb1286dcaa2f52fac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65cd9fa1b27349cb1286dcaa2f52fac4">MR_PointsToDistanceVolumeParams_Get_origin</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a65cd9fa1b27349cb1286dcaa2f52fac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1ab7f5bfb586c0446c09b1f7d87acd" id="r_a7d1ab7f5bfb586c0446c09b1f7d87acd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d1ab7f5bfb586c0446c09b1f7d87acd">MR_PointsToDistanceVolumeParams_Set_origin</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:a7d1ab7f5bfb586c0446c09b1f7d87acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028a81e3f8d42340e6c8b3d5fcdcae32" id="r_a028a81e3f8d42340e6c8b3d5fcdcae32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a028a81e3f8d42340e6c8b3d5fcdcae32">MR_PointsToDistanceVolumeParams_GetMutable_origin</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a028a81e3f8d42340e6c8b3d5fcdcae32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb7edc00d142fdfc6f83dbd3b049ace" id="r_a0bb7edc00d142fdfc6f83dbd3b049ace"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb7edc00d142fdfc6f83dbd3b049ace">MR_PointsToDistanceVolumeParams_Get_cb</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a0bb7edc00d142fdfc6f83dbd3b049ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb56938f5ffe38c92658e79dc53fb2d" id="r_a5eb56938f5ffe38c92658e79dc53fb2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eb56938f5ffe38c92658e79dc53fb2d">MR_PointsToDistanceVolumeParams_Set_cb</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:a5eb56938f5ffe38c92658e79dc53fb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2ea87602ab13202bf366fa28881a40c" id="r_ac2ea87602ab13202bf366fa28881a40c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ea87602ab13202bf366fa28881a40c">MR_PointsToDistanceVolumeParams_GetMutable_cb</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:ac2ea87602ab13202bf366fa28881a40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac314545b1246858981e88f6f079feb64" id="r_ac314545b1246858981e88f6f079feb64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac314545b1246858981e88f6f079feb64">MR_PointsToDistanceVolumeParams_Get_voxelSize</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:ac314545b1246858981e88f6f079feb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba22fbd6b4583dd97dc00dd2eb79849" id="r_aaba22fbd6b4583dd97dc00dd2eb79849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba22fbd6b4583dd97dc00dd2eb79849">MR_PointsToDistanceVolumeParams_Set_voxelSize</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:aaba22fbd6b4583dd97dc00dd2eb79849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed23560f9dda18660625e52a0ab9931" id="r_a8ed23560f9dda18660625e52a0ab9931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed23560f9dda18660625e52a0ab9931">MR_PointsToDistanceVolumeParams_GetMutable_voxelSize</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a8ed23560f9dda18660625e52a0ab9931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacfe75e9a73596187f44d4bda4cf0955" id="r_aacfe75e9a73596187f44d4bda4cf0955"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacfe75e9a73596187f44d4bda4cf0955">MR_PointsToDistanceVolumeParams_Get_dimensions</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:aacfe75e9a73596187f44d4bda4cf0955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9748d27bf4eab67a0c6cd365cc26b90f" id="r_a9748d27bf4eab67a0c6cd365cc26b90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9748d27bf4eab67a0c6cd365cc26b90f">MR_PointsToDistanceVolumeParams_Set_dimensions</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> value)</td></tr>
+<tr class="separator:a9748d27bf4eab67a0c6cd365cc26b90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d9dd2b5e45df1f5b1928da0fec55aa" id="r_a61d9dd2b5e45df1f5b1928da0fec55aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61d9dd2b5e45df1f5b1928da0fec55aa">MR_PointsToDistanceVolumeParams_GetMutable_dimensions</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a61d9dd2b5e45df1f5b1928da0fec55aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a477b3e43003087c7541df2dfb59e653d" id="r_a477b3e43003087c7541df2dfb59e653d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477b3e43003087c7541df2dfb59e653d">MR_PointsToDistanceVolumeParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a477b3e43003087c7541df2dfb59e653d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a30257616fe3930705ecb0b64042a2" id="r_a84a30257616fe3930705ecb0b64042a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84a30257616fe3930705ecb0b64042a2">MR_PointsToDistanceVolumeParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -229,7 +254,7 @@ Functions</h2></td></tr>
 <tr class="separator:a0362d48493d5a4f5eeb5cfe725f9a090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a756f633a49755a8bd4b1a79f7a80b896" id="r_a756f633a49755a8bd4b1a79f7a80b896"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__FunctionVolume__std__string_8h.html#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756f633a49755a8bd4b1a79f7a80b896">MR_pointsToDistanceFunctionVolume</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params)</td></tr>
 <tr class="separator:a756f633a49755a8bd4b1a79f7a80b896"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88ee201c428c624e871945c67afb2f43" id="r_a88ee201c428c624e871945c67afb2f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VertColors__std__string_8h.html#a401c27a5a8649aadc2ab876a153c54d6">MR_expected_MR_VertColors_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ee201c428c624e871945c67afb2f43">MR_calcAvgColors</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *tgtPoints, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *tgtVerts, float sigma, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a88ee201c428c624e871945c67afb2f43" id="r_a88ee201c428c624e871945c67afb2f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VertColors__std__string_8h.html#a401c27a5a8649aadc2ab876a153c54d6">MR_expected_MR_VertColors_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ee201c428c624e871945c67afb2f43">MR_calcAvgColors</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *tgtPoints, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *tgtVerts, float sigma, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a88ee201c428c624e871945c67afb2f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -314,7 +339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -353,7 +378,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -389,7 +414,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -494,7 +519,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PointsToDistanceVolumeParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -516,7 +541,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6dbe98ad8547f97d4f71099cb47ddfd4" title="Destroys a heap-allocated instance of MR_PointsToDistanceVolumeParams. Does nothing if the pointer is...">MR_PointsToDistanceVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointsToDistanceVolumeParams::PointsToDistanceVolumeParams</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6dbe98ad8547f97d4f71099cb47ddfd4" title="Destroys a heap-allocated instance of MR_PointsToDistanceVolumeParams. Does nothing if the pointer is...">MR_PointsToDistanceVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -594,6 +619,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0bb7edc00d142fdfc6f83dbd3b049ace" name="a0bb7edc00d142fdfc6f83dbd3b049ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb7edc00d142fdfc6f83dbd3b049ace">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsToDistanceVolumeParams_Get_cb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>progress callback Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aacfe75e9a73596187f44d4bda4cf0955" name="aacfe75e9a73596187f44d4bda4cf0955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacfe75e9a73596187f44d4bda4cf0955">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_dimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_PointsToDistanceVolumeParams_Get_dimensions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>num voxels along each axis Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="ae716ab1ae7db859dc03d3ad565ce6a3a" name="ae716ab1ae7db859dc03d3ad565ce6a3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae716ab1ae7db859dc03d3ad565ce6a3a">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_minWeight()</h2>
 
@@ -609,6 +670,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a65cd9fa1b27349cb1286dcaa2f52fac4" name="a65cd9fa1b27349cb1286dcaa2f52fac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65cd9fa1b27349cb1286dcaa2f52fac4">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_origin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_PointsToDistanceVolumeParams_Get_origin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>origin point of voxels box Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -648,6 +727,60 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac314545b1246858981e88f6f079feb64" name="ac314545b1246858981e88f6f079feb64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac314545b1246858981e88f6f079feb64">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_PointsToDistanceVolumeParams_Get_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>size of voxel on each axis Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac2ea87602ab13202bf366fa28881a40c" name="ac2ea87602ab13202bf366fa28881a40c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2ea87602ab13202bf366fa28881a40c">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsToDistanceVolumeParams_GetMutable_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>progress callback Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a61d9dd2b5e45df1f5b1928da0fec55aa" name="a61d9dd2b5e45df1f5b1928da0fec55aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d9dd2b5e45df1f5b1928da0fec55aa">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_dimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_PointsToDistanceVolumeParams_GetMutable_dimensions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>num voxels along each axis Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a6e724f5a82032e2aeb1d0df71c949779" name="a6e724f5a82032e2aeb1d0df71c949779"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e724f5a82032e2aeb1d0df71c949779">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_minWeight()</h2>
 
@@ -663,6 +796,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a028a81e3f8d42340e6c8b3d5fcdcae32" name="a028a81e3f8d42340e6c8b3d5fcdcae32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a028a81e3f8d42340e6c8b3d5fcdcae32">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_origin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_PointsToDistanceVolumeParams_GetMutable_origin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>origin point of voxels box Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -699,6 +850,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8ed23560f9dda18660625e52a0ab9931" name="a8ed23560f9dda18660625e52a0ab9931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed23560f9dda18660625e52a0ab9931">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_PointsToDistanceVolumeParams_GetMutable_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>size of voxel on each axis Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -767,6 +936,55 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5eb56938f5ffe38c92658e79dc53fb2d" name="a5eb56938f5ffe38c92658e79dc53fb2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb56938f5ffe38c92658e79dc53fb2d">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToDistanceVolumeParams_Set_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>progress callback Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a9748d27bf4eab67a0c6cd365cc26b90f" name="a9748d27bf4eab67a0c6cd365cc26b90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9748d27bf4eab67a0c6cd365cc26b90f">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_dimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToDistanceVolumeParams_Set_dimensions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3i.html">MR_Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>num voxels along each axis Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="abddfefcba6877b819e4db2c1db2f901f" name="abddfefcba6877b819e4db2c1db2f901f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abddfefcba6877b819e4db2c1db2f901f">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_minWeight()</h2>
 
@@ -786,6 +1004,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7d1ab7f5bfb586c0446c09b1f7d87acd" name="a7d1ab7f5bfb586c0446c09b1f7d87acd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1ab7f5bfb586c0446c09b1f7d87acd">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_origin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToDistanceVolumeParams_Set_origin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>origin point of voxels box Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -830,6 +1070,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aaba22fbd6b4583dd97dc00dd2eb79849" name="aaba22fbd6b4583dd97dc00dd2eb79849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba22fbd6b4583dd97dc00dd2eb79849">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToDistanceVolumeParams_Set_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>size of voxel on each axis Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -165,11 +165,11 @@ Typedefs</h2></td></tr>
 <tr class="separator:ad396cf7d4433c5ba7924776f5b379c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
 <tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53869102683f44bd04b4e40a3b2533d8" id="r_a53869102683f44bd04b4e40a3b2533d8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a53869102683f44bd04b4e40a3b2533d8">MR_NormalsToPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53869102683f44bd04b4e40a3b2533d8">MR_NormalsToPoints</a></td></tr>
-<tr class="separator:a53869102683f44bd04b4e40a3b2533d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae838106f22f6770b9c57252f4fc629d3" id="r_ae838106f22f6770b9c57252f4fc629d3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae838106f22f6770b9c57252f4fc629d3">MR_NormalsToPoints_ISolver</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae838106f22f6770b9c57252f4fc629d3">MR_NormalsToPoints_ISolver</a></td></tr>
 <tr class="memdesc:ae838106f22f6770b9c57252f4fc629d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></code>.  <br /></td></tr>
 <tr class="separator:ae838106f22f6770b9c57252f4fc629d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53869102683f44bd04b4e40a3b2533d8" id="r_a53869102683f44bd04b4e40a3b2533d8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a53869102683f44bd04b4e40a3b2533d8">MR_NormalsToPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53869102683f44bd04b4e40a3b2533d8">MR_NormalsToPoints</a></td></tr>
+<tr class="separator:a53869102683f44bd04b4e40a3b2533d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -256,7 +256,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The purpose of this class is to update vertex positions given target triangle normals; see the article "Static/Dynamic Filtering for Mesh Geometry" Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code>. </p>
+<p>The purpose of this class is to update vertex positions given target triangle normals; see the article "Static/Dynamic Filtering for Mesh Geometry" Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -314,7 +314,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::NormalsToPoints::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -336,7 +336,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af7202c9192b69b5d5eeb65650b7b68bf" title="Destroys a heap-allocated instance of MR_NormalsToPoints. Does nothing if the pointer is null.">MR_NormalsToPoints_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::NormalsToPoints::NormalsToPoints</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af7202c9192b69b5d5eeb65650b7b68bf" title="Destroys a heap-allocated instance of MR_NormalsToPoints. Does nothing if the pointer is null.">MR_NormalsToPoints_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -521,7 +521,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></code> named <code>prepare</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>topology</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints_1_1ISolver.html#ac59de77fbc45059cde04afe08a262666">MR::NormalsToPoints::ISolver::prepare</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>topology</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -558,7 +558,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></code> named <code>run</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>guide</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints_1_1ISolver.html#ae336851ab46c31fc8f961484c2b45b5a">MR::NormalsToPoints::ISolver::run</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>guide</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>builds linear system and prepares a solver for it; please call it only once for mesh, and then run as many times as you like </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">guideWeight</td><td>how much resulting points must be attracted to initial points, must be &gt; 0 Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code> named <code>prepare</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>guideWeight</code> has a default argument: <code>1</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">guideWeight</td><td>how much resulting points must be attracted to initial points, must be &gt; 0 Generated from method <code>MR::NormalsToPoints::prepare</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>guideWeight</code> has a default argument: <code>1</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -673,7 +673,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">guide</td><td>target vertex positions to avoid under-determined system </td></tr>
     <tr><td class="paramname">normals</td><td>target face normals </td></tr>
     <tr><td class="paramname">points</td><td>initial approximation on input, updated approximation on output </td></tr>
-    <tr><td class="paramname">maxInitialDistSq</td><td>the maximum squared distance between a point and its position in (guide) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code> named <code>run</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>guide</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">maxInitialDistSq</td><td>the maximum squared distance between a point and its position in (guide) Generated from method <code>MR::NormalsToPoints::run</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>guide</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -713,7 +713,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></code> named <code>run</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>guide</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::NormalsToPoints::run</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>guide</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

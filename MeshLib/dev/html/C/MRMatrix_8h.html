@@ -151,7 +151,8 @@ $(function(){initNavTree('MRMatrix_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRMatrix.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -161,6 +162,8 @@ $(function(){initNavTree('MRMatrix_8h.html',''); initResizable(true); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a1a5efdccd2df88c9e6fd685e2f82f57b" id="r_a1a5efdccd2df88c9e6fd685e2f82f57b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a></td></tr>
 <tr class="separator:a1a5efdccd2df88c9e6fd685e2f82f57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9edad53c37cc631c9de4431e0ca2907" id="r_ac9edad53c37cc631c9de4431e0ca2907"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9edad53c37cc631c9de4431e0ca2907">MR_Vector2i</a></td></tr>
+<tr class="separator:ac9edad53c37cc631c9de4431e0ca2907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba323e6d596956f5a589a525c6f6adbc" id="r_aba323e6d596956f5a589a525c6f6adbc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a></td></tr>
 <tr class="separator:aba323e6d596956f5a589a525c6f6adbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cdde60e20392324b624c6508b359f95" id="r_a7cdde60e20392324b624c6508b359f95"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a></td></tr>
@@ -217,6 +220,16 @@ Functions</h2></td></tr>
 <tr class="separator:a19e3df0937d990599501401069720a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af588219103d3c5213254edfa4d1dca33" id="r_af588219103d3c5213254edfa4d1dca33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af588219103d3c5213254edfa4d1dca33">MR_Matrix_float_data</a> (const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *_this)</td></tr>
 <tr class="separator:af588219103d3c5213254edfa4d1dca33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563662c80b153e57a9892c87ec7d160c" id="r_a563662c80b153e57a9892c87ec7d160c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563662c80b153e57a9892c87ec7d160c">MR_Matrix_float_resize</a> (<a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>)</td></tr>
+<tr class="separator:a563662c80b153e57a9892c87ec7d160c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537b01eb141221558a33bffa516e7baa" id="r_a537b01eb141221558a33bffa516e7baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a537b01eb141221558a33bffa516e7baa">MR_Matrix_float_dims</a> (const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *_this)</td></tr>
+<tr class="separator:a537b01eb141221558a33bffa516e7baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a4269017620e37d9c1b3d2014d225b" id="r_a27a4269017620e37d9c1b3d2014d225b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27a4269017620e37d9c1b3d2014d225b">MR_Matrix_float_size</a> (const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *_this)</td></tr>
+<tr class="separator:a27a4269017620e37d9c1b3d2014d225b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c935b1e86fb57f894b5d82576012033" id="r_a4c935b1e86fb57f894b5d82576012033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__PixelId.html">MR_PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c935b1e86fb57f894b5d82576012033">MR_Matrix_float_toPixelId</a> (const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *pos)</td></tr>
+<tr class="separator:a4c935b1e86fb57f894b5d82576012033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba007eb272d7693b3d0a0c2f9ba79b4" id="r_a5ba007eb272d7693b3d0a0c2f9ba79b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ba007eb272d7693b3d0a0c2f9ba79b4">MR_Matrix_float_toIndex</a> (const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *pos)</td></tr>
+<tr class="separator:a5ba007eb272d7693b3d0a0c2f9ba79b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a7cdde60e20392324b624c6508b359f95" name="a7cdde60e20392324b624c6508b359f95"></a>
@@ -230,7 +243,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Row-major matrix with T values Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1RectIndexer.html">MR::RectIndexer</a></code> </p>
+<p>Row-major matrix with T values Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1RectIndexer.html">MR::RectIndexer</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -262,6 +275,20 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9edad53c37cc631c9de4431e0ca2907" name="ac9edad53c37cc631c9de4431e0ca2907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9edad53c37cc631c9de4431e0ca2907">&#9670;&#160;</a></span>MR_Vector2i</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector2i MR_Vector2i</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a184d491ab3628c761c50f49ce9205588" name="a184d491ab3628c761c50f49ce9205588"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a184d491ab3628c761c50f49ce9205588">&#9670;&#160;</a></span>MR_Matrix_float_AssignFromAnother()</h2>
@@ -286,7 +313,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -308,7 +335,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -335,7 +362,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>main access method Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>main access method Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -357,7 +384,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -384,7 +411,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -402,7 +429,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>clear</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::clear</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -424,7 +451,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::Matrix</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -446,7 +473,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::Matrix</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -464,7 +491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -542,6 +569,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a537b01eb141221558a33bffa516e7baa" name="a537b01eb141221558a33bffa516e7baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537b01eb141221558a33bffa516e7baa">&#9670;&#160;</a></span>MR_Matrix_float_dims()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> * MR_Matrix_float_dims </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a1a6a534b9cf666d2fc5b65deb887a3d8" name="a1a6a534b9cf666d2fc5b65deb887a3d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a6a534b9cf666d2fc5b65deb887a3d8">&#9670;&#160;</a></span>MR_Matrix_float_fill()</h2>
 
@@ -560,7 +605,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>fill</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::fill</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -578,7 +623,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>getColsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::getColsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -596,7 +641,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>getRowsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::getRowsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -633,7 +678,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>getSubMatrix</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::getSubMatrix</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -702,6 +747,90 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a563662c80b153e57a9892c87ec7d160c" name="a563662c80b153e57a9892c87ec7d160c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563662c80b153e57a9892c87ec7d160c">&#9670;&#160;</a></span>MR_Matrix_float_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Matrix_float_resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::resize</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>dims</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a27a4269017620e37d9c1b3d2014d225b" name="a27a4269017620e37d9c1b3d2014d225b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27a4269017620e37d9c1b3d2014d225b">&#9670;&#160;</a></span>MR_Matrix_float_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Matrix_float_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::size</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a5ba007eb272d7693b3d0a0c2f9ba79b4" name="a5ba007eb272d7693b3d0a0c2f9ba79b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ba007eb272d7693b3d0a0c2f9ba79b4">&#9670;&#160;</a></span>MR_Matrix_float_toIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Matrix_float_toIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::toIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4c935b1e86fb57f894b5d82576012033" name="a4c935b1e86fb57f894b5d82576012033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c935b1e86fb57f894b5d82576012033">&#9670;&#160;</a></span>MR_Matrix_float_toPixelId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__PixelId.html">MR_PixelId</a> MR_Matrix_float_toPixelId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::toPixelId</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a4c2ba8ef0e3a678815b68d0579500caa" name="a4c2ba8ef0e3a678815b68d0579500caa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c2ba8ef0e3a678815b68d0579500caa">&#9670;&#160;</a></span>MR_Matrix_float_transposed()</h2>
 
@@ -716,7 +845,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes transposed matrix Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;</code> named <code>transposed</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes transposed matrix Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Matrix.html">MR::Matrix</a>&lt;float&gt;::transposed</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a327c1222d222d67120957412d07d74d8" title="Destroys a heap-allocated instance of MR_Matrix_float. Does nothing if the pointer is null.">MR_Matrix_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

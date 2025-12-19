@@ -153,6 +153,7 @@ $(function(){initNavTree('expected__std__shared__ptr__MR__ObjectVoxels__std__str
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="expected__std__shared__ptr__MR__ObjectVoxels__std__string_8h_source.html">Go to the source code of this file.</a></p>
@@ -161,7 +162,7 @@ $(function(){initNavTree('expected__std__shared__ptr__MR__ObjectVoxels__std__str
 Typedefs</h2></td></tr>
 <tr class="memitem:acb93de9bf6b355b8a53086a4e6dbaa7a" id="r_acb93de9bf6b355b8a53086a4e6dbaa7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLoadedObjects_8h.html#acb93de9bf6b355b8a53086a4e6dbaa7a">MR_std_shared_ptr_MR_ObjectVoxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb93de9bf6b355b8a53086a4e6dbaa7a">MR_std_shared_ptr_MR_ObjectVoxels</a></td></tr>
 <tr class="separator:acb93de9bf6b355b8a53086a4e6dbaa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d2ddbaa47d1e11bd7f07cd6cbe28cb9" id="r_a3d2ddbaa47d1e11bd7f07cd6cbe28cb9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a></td></tr>
 <tr class="separator:a3d2ddbaa47d1e11bd7f07cd6cbe28cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,12 +175,8 @@ Functions</h2></td></tr>
 <tr class="separator:a53e24936fb38af49000dc3078744ee7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a6a0d5ea7ae09c6347d60bca2a26c99" id="r_a1a6a0d5ea7ae09c6347d60bca2a26c99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a6a0d5ea7ae09c6347d60bca2a26c99">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *other)</td></tr>
 <tr class="separator:a1a6a0d5ea7ae09c6347d60bca2a26c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a087e47f259550eba4aa031aa58a5d963" id="r_a087e47f259550eba4aa031aa58a5d963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087e47f259550eba4aa031aa58a5d963">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *other)</td></tr>
-<tr class="separator:a087e47f259550eba4aa031aa58a5d963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dc022cd53f3b4f307b5064e6ffd297c" id="r_a0dc022cd53f3b4f307b5064e6ffd297c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc022cd53f3b4f307b5064e6ffd297c">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_AssignFromAnother</a> (<a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *other)</td></tr>
 <tr class="separator:a0dc022cd53f3b4f307b5064e6ffd297c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7ca7d0ad61fe714601a4c0a20c26cf3" id="r_ad7ca7d0ad61fe714601a4c0a20c26cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7ca7d0ad61fe714601a4c0a20c26cf3">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_AssignFrom</a> (<a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *other)</td></tr>
-<tr class="separator:ad7ca7d0ad61fe714601a4c0a20c26cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c99a3eb1664a9874539fc9a6d056ad8" id="r_a3c99a3eb1664a9874539fc9a6d056ad8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c99a3eb1664a9874539fc9a6d056ad8">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_Destroy</a> (const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
 <tr class="memdesc:a3c99a3eb1664a9874539fc9a6d056ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a3c99a3eb1664a9874539fc9a6d056ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,13 +189,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a1774f45fceb0bb9f2ebe86599b7348e9" id="r_a1774f45fceb0bb9f2ebe86599b7348e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1774f45fceb0bb9f2ebe86599b7348e9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_OffsetMutablePtr</a> (<a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a1774f45fceb0bb9f2ebe86599b7348e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a1774f45fceb0bb9f2ebe86599b7348e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe6c241dd41375a0a919a27f4a4dec6" id="r_affe6c241dd41375a0a919a27f4a4dec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe6c241dd41375a0a919a27f4a4dec6">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_Success</a> (const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
+<tr class="separator:affe6c241dd41375a0a919a27f4a4dec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab783c3b1a684299a2cee584ce54e4289" id="r_ab783c3b1a684299a2cee584ce54e4289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRLoadedObjects_8h.html#acb93de9bf6b355b8a53086a4e6dbaa7a">MR_std_shared_ptr_MR_ObjectVoxels</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab783c3b1a684299a2cee584ce54e4289">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetValue</a> (const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
 <tr class="separator:ab783c3b1a684299a2cee584ce54e4289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ded82a966beff4b69f4ca73b8a2d3dd" id="r_a5ded82a966beff4b69f4ca73b8a2d3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ded82a966beff4b69f4ca73b8a2d3dd">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetError</a> (const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
+<tr class="memitem:a5ded82a966beff4b69f4ca73b8a2d3dd" id="r_a5ded82a966beff4b69f4ca73b8a2d3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ded82a966beff4b69f4ca73b8a2d3dd">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetError</a> (const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
 <tr class="separator:a5ded82a966beff4b69f4ca73b8a2d3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d83514156cee7f1c63f7cc6a4bb8f22" id="r_a9d83514156cee7f1c63f7cc6a4bb8f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRLoadedObjects_8h.html#acb93de9bf6b355b8a53086a4e6dbaa7a">MR_std_shared_ptr_MR_ObjectVoxels</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d83514156cee7f1c63f7cc6a4bb8f22">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetMutableValue</a> (<a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
 <tr class="separator:a9d83514156cee7f1c63f7cc6a4bb8f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac741e5c4a666c835e0d449fe078e1fab" id="r_ac741e5c4a666c835e0d449fe078e1fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac741e5c4a666c835e0d449fe078e1fab">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetMutableError</a> (<a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
+<tr class="memitem:ac741e5c4a666c835e0d449fe078e1fab" id="r_ac741e5c4a666c835e0d449fe078e1fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac741e5c4a666c835e0d449fe078e1fab">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetMutableError</a> (<a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *_this)</td></tr>
 <tr class="separator:ac741e5c4a666c835e0d449fe078e1fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -213,7 +212,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores either a <code>std::shared_ptr&lt;<a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a>&gt;</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Stores either a <code>std::shared_ptr&lt;<a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a>&gt;</code> that represents success or a <code>std::string</code> that represents an error. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -238,7 +237,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,33 +245,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ad7ca7d0ad61fe714601a4c0a20c26cf3" name="ad7ca7d0ad61fe714601a4c0a20c26cf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7ca7d0ad61fe714601a4c0a20c26cf3">&#9670;&#160;</a></span>MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_AssignFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_AssignFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Assigns the contents. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
 <a id="a0dc022cd53f3b4f307b5064e6ffd297c" name="a0dc022cd53f3b4f307b5064e6ffd297c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dc022cd53f3b4f307b5064e6ffd297c">&#9670;&#160;</a></span>MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_AssignFromAnother()</h2>
 
@@ -297,28 +269,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="a087e47f259550eba4aa031aa58a5d963" name="a087e47f259550eba4aa031aa58a5d963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a087e47f259550eba4aa031aa58a5d963">&#9670;&#160;</a></span>MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_ConstructFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> * MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_ConstructFrom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Constructs a new instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3c99a3eb1664a9874539fc9a6d056ad8" title="Destroys a heap-allocated instance of MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string....">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -425,7 +375,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetError </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -443,7 +393,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetMutableError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_GetMutableError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -533,6 +483,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="affe6c241dd41375a0a919a27f4a4dec6" name="affe6c241dd41375a0a919a27f4a4dec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe6c241dd41375a0a919a27f4a4dec6">&#9670;&#160;</a></span>MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_Success()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string_Success </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3d2ddbaa47d1e11bd7f07cd6cbe28cb9">MR_expected_std_shared_ptr_MR_ObjectVoxels_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if this instance represents success, or false if it represents an error. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
