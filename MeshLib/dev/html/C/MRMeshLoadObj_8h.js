@@ -57,7 +57,7 @@ var MRMeshLoadObj_8h =
     [ "MR_MeshLoad_NamedMesh_Set_uvCoords", "MRMeshLoadObj_8h.html#a977469297556af67cd6211c90273f083", null ],
     [ "MR_MeshLoad_NamedMesh_Set_xf", "MRMeshLoadObj_8h.html#a4a618cc857120d9c8c518261b9683076", null ],
     [ "MR_MeshLoad_ObjLoadSettings_AssignFromAnother", "MRMeshLoadObj_8h.html#a441d82930ac203df83f87f66c56916a3", null ],
-    [ "MR_MeshLoad_ObjLoadSettings_ConstructFrom", "MRMeshLoadObj_8h.html#a119deddf037cf5b481851455dd76ab9f", null ],
+    [ "MR_MeshLoad_ObjLoadSettings_ConstructFrom", "MRMeshLoadObj_8h.html#a99a2ed7ed580fe4d3509b1371764cc59", null ],
     [ "MR_MeshLoad_ObjLoadSettings_ConstructFromAnother", "MRMeshLoadObj_8h.html#ad2f834221feb96ef7ffbe91adf9935a8", null ],
     [ "MR_MeshLoad_ObjLoadSettings_DefaultConstruct", "MRMeshLoadObj_8h.html#a382c49c4f163150aa642dc8ae8adc68e", null ],
     [ "MR_MeshLoad_ObjLoadSettings_DefaultConstructArray", "MRMeshLoadObj_8h.html#a808980271f1aee4fa2bb9903f5c6e895", null ],
@@ -66,15 +66,12 @@ var MRMeshLoadObj_8h =
     [ "MR_MeshLoad_ObjLoadSettings_Get_callback", "MRMeshLoadObj_8h.html#a5411d5a1ad3ffc67bad55f453f9d3d55", null ],
     [ "MR_MeshLoad_ObjLoadSettings_Get_countSkippedFaces", "MRMeshLoadObj_8h.html#abcbe943655c40454f73ef2a61c44a287", null ],
     [ "MR_MeshLoad_ObjLoadSettings_Get_customXf", "MRMeshLoadObj_8h.html#a7d6f6e89e192bf5c53edb02973350f48", null ],
-    [ "MR_MeshLoad_ObjLoadSettings_Get_telemetrySignal", "MRMeshLoadObj_8h.html#a56ec179b932db38e622c560eae3ba3c4", null ],
     [ "MR_MeshLoad_ObjLoadSettings_GetMutable_callback", "MRMeshLoadObj_8h.html#aac7000a0dc9e580c3989cd4270766c41", null ],
     [ "MR_MeshLoad_ObjLoadSettings_GetMutable_countSkippedFaces", "MRMeshLoadObj_8h.html#a890a9bcdc4029071dc4f65c5bf6abae1", null ],
     [ "MR_MeshLoad_ObjLoadSettings_GetMutable_customXf", "MRMeshLoadObj_8h.html#ad028ab5ca82b2e196f3462c55f60d272", null ],
-    [ "MR_MeshLoad_ObjLoadSettings_GetMutable_telemetrySignal", "MRMeshLoadObj_8h.html#a5331fd5a5749029418d41d1bcdf3bed0", null ],
     [ "MR_MeshLoad_ObjLoadSettings_OffsetMutablePtr", "MRMeshLoadObj_8h.html#a65ef621c416fddfcd6765a20d6ce7828", null ],
     [ "MR_MeshLoad_ObjLoadSettings_OffsetPtr", "MRMeshLoadObj_8h.html#ae3bed515da8b80fe853b818ac96b067d", null ],
     [ "MR_MeshLoad_ObjLoadSettings_Set_callback", "MRMeshLoadObj_8h.html#a671c77eb695ab5d96f22ffdc874284f8", null ],
     [ "MR_MeshLoad_ObjLoadSettings_Set_countSkippedFaces", "MRMeshLoadObj_8h.html#ad10cfa80305a5ad39f38a9765440724f", null ],
-    [ "MR_MeshLoad_ObjLoadSettings_Set_customXf", "MRMeshLoadObj_8h.html#aca6d0e0784c943d6199c351a0fd04c1a", null ],
-    [ "MR_MeshLoad_ObjLoadSettings_Set_telemetrySignal", "MRMeshLoadObj_8h.html#a45a333e728b801eef0ceda86fbb765f8", null ]
+    [ "MR_MeshLoad_ObjLoadSettings_Set_customXf", "MRMeshLoadObj_8h.html#aca6d0e0784c943d6199c351a0fd04c1a", null ]
 ];

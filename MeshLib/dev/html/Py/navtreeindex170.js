@@ -1,9 +1,5 @@
 var NAVTREEINDEX170 =
 {
-"classmrviewerpy_1_1ViewerLaunchParamsMode.html#ab1f48e8d92327e437ed27425dc38782a":[6,1,1,0,2,10,4],
-"classmrviewerpy_1_1ViewerLaunchParamsMode.html#ad3a41f35329efc57865b82fc5edff5f1":[6,1,0,0,3,10,9],
-"classmrviewerpy_1_1ViewerLaunchParamsMode.html#ad3a41f35329efc57865b82fc5edff5f1":[6,1,1,0,2,10,9],
-"classmrviewerpy_1_1ViewerSetup.html":[6,1,0,0,3,11],
 "classmrviewerpy_1_1ViewerSetup.html":[6,1,1,0,2,11],
 "classmrviewerpy_1_1ViewerSetup.html#a3c8f3c359be1f83010a91b7f9c5e6a34":[6,1,0,0,3,11,0],
 "classmrviewerpy_1_1ViewerSetup.html#a3c8f3c359be1f83010a91b7f9c5e6a34":[6,1,1,0,2,11,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX170 =
 "mrmeshpy_8pyi.html#a0933abe4f9a3f57b611129e59b09b346":[6,1,2,0,0,1,0,0,0,2,1639],
 "mrmeshpy_8pyi.html#a09529a8e0a2cd81b08db100120d8710b":[6,1,2,0,0,1,0,0,0,2,1414],
 "mrmeshpy_8pyi.html#a095dcff3fccd201453e1d4b3d5b0d201":[6,1,2,0,0,1,0,0,0,2,2864],
-"mrmeshpy_8pyi.html#a099f2a105d6c41875bf119aab042b4f3":[6,1,2,0,0,1,0,0,0,2,1830]
+"mrmeshpy_8pyi.html#a099f2a105d6c41875bf119aab042b4f3":[6,1,2,0,0,1,0,0,0,2,1830],
+"mrmeshpy_8pyi.html#a09a8f1468493a514e5189a74388d2cc7":[6,1,2,0,0,1,0,0,0,2,1421],
+"mrmeshpy_8pyi.html#a09ee1dc1d49115a6de0a1ca36cc6e25a":[6,1,2,0,0,1,0,0,0,2,1551],
+"mrmeshpy_8pyi.html#a09f923dc85720fac4b46f1f3addefc7c":[6,1,2,0,0,1,0,0,0,2,2128],
+"mrmeshpy_8pyi.html#a0a064d282de3b3d9bd81417f8315a2a7":[6,1,2,0,0,1,0,0,0,2,2879]
 };

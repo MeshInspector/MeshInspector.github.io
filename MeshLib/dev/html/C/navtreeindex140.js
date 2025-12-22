@@ -1,8 +1,5 @@
 var NAVTREEINDEX140 =
 {
-"phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h.html#a1cfc5463830730d3a082d35f9f3d0f9f":[6,2,1,0,0,0,2,67,41],
-"phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h.html#a215a147ca15a6c6577a30721bd719c7f":[6,2,1,0,0,0,2,67,35],
-"phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h.html#a2e7605a9f19d3263683e971ee7f4a1f5":[6,2,1,0,0,0,2,67,37],
 "phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h.html#a33988a989d3b65759e4a5cb585c2ed21":[6,2,1,0,0,0,2,67,6],
 "phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h.html#a3439e8df9af5694fa3e4df12f7d59d33":[6,2,1,0,0,0,2,67,20],
 "phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h.html#a3bcfdbb6180311105d05ef57e8130d60":[6,2,1,0,0,0,2,67,43],
@@ -249,5 +246,8 @@ var NAVTREEINDEX140 =
 "std__array__MR__WeightedVertex__3_8h.html#a0fe90e3c873a4d38252c8d9da882ef5e":[6,2,1,0,0,0,2,104,8],
 "std__array__MR__WeightedVertex__3_8h.html#a38b8a4ddcc8df0d34e27f6c9b38a61c2":[6,2,1,0,0,0,2,104,4],
 "std__array__MR__WeightedVertex__3_8h.html#a656a82a190cef3d3241d10290fd6fdb6":[6,2,1,0,0,0,2,104,11],
-"std__array__MR__WeightedVertex__3_8h.html#a735d933c0f9fba98daa84873370d16c9":[6,2,1,0,0,0,2,104,13]
+"std__array__MR__WeightedVertex__3_8h.html#a735d933c0f9fba98daa84873370d16c9":[6,2,1,0,0,0,2,104,13],
+"std__array__MR__WeightedVertex__3_8h.html#a78e7c4420a5d650d61c80ac9f28f7a12":[6,2,1,0,0,0,2,104,10],
+"std__array__MR__WeightedVertex__3_8h.html#a8427f4ddc3f025f1706628a7f712cfb1":[6,2,1,0,0,0,2,104,3],
+"std__array__MR__WeightedVertex__3_8h.html#a9106b5c59c8a98eec5f959f50da3fef2":[6,2,1,0,0,0,2,104,6]
 };

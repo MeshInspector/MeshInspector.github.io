@@ -1,8 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"MRPointObject_8h.html#a58992251eb43564b68977c8708b9576b":[6,2,1,0,0,0,1,251,107],
-"MRPointObject_8h.html#a59f7590d97f8e144337e1dbc43ed4953":[6,2,1,0,0,0,1,251,149],
-"MRPointObject_8h.html#a5add1100e08281568a43e59e5707fa42":[6,2,1,0,0,0,1,251,55],
 "MRPointObject_8h.html#a5c56d9f5568f895624b5fb8c88c700a6":[6,2,1,0,0,0,1,251,73],
 "MRPointObject_8h.html#a5c7e91d11b038315c0503df15b512997":[6,2,1,0,0,0,1,251,9],
 "MRPointObject_8h.html#a5ca0b85d1d6dcfd2b8741701a9664b27":[6,2,1,0,0,0,1,251,46],
@@ -249,5 +246,8 @@ var NAVTREEINDEX87 =
 "MRPointsInBox_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,256,3],
 "MRPointsInBox_8h.html#a387c2b6c194640a4dfac77733cbe3880":[6,2,1,0,0,0,1,256,2],
 "MRPointsInBox_8h.html#a6e354828b74608bc9b21888425adb6d8":[6,2,1,0,0,0,1,256,8],
-"MRPointsInBox_8h.html#a76aca53de49f961c61d53d74dbed7bae":[6,2,1,0,0,0,1,256,6]
+"MRPointsInBox_8h.html#a76aca53de49f961c61d53d74dbed7bae":[6,2,1,0,0,0,1,256,6],
+"MRPointsInBox_8h.html#a76baf845d277fd04ba96d0e6c50a2a5b":[6,2,1,0,0,0,1,256,5],
+"MRPointsInBox_8h.html#a88a1df6fb138786a55241b1d77a4b0cc":[6,2,1,0,0,0,1,256,1],
+"MRPointsInBox_8h.html#aa319738c95f0bbde075b7ef777cf2665":[6,2,1,0,0,0,1,256,4]
 };

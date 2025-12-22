@@ -1,8 +1,5 @@
 var NAVTREEINDEX152 =
 {
-"std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8h.html#a255c893f5bf99e698f620e8be7ed976b":[6,2,1,0,0,0,2,269,19],
-"std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8h.html#a2f9cf3d56b1cb324253a5b6ad1e5832a":[6,2,1,0,0,0,2,269,0],
-"std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8h.html#a311897e7153bf20c00d512115ffba9ae":[6,2,1,0,0,0,2,269,17],
 "std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8h.html#a4012b2574a357385b78b4f5e61b63118":[6,2,1,0,0,0,2,269,9],
 "std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8h.html#a5d8e57a51abfe75997ff52102a20bb9e":[6,2,1,0,0,0,2,269,1],
 "std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8h.html#a66bdf0f4437407800b424410180f481a":[6,2,1,0,0,0,2,269,10],
@@ -249,5 +246,8 @@ var NAVTREEINDEX152 =
 "std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a5d8e57a51abfe75997ff52102a20bb9e":[6,2,1,0,0,0,2,279,1],
 "std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a663e310e5df1c17f58a9e8ebe8bfe0cb":[6,2,1,0,0,0,2,279,7],
 "std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a664884034306fe7904b7e8c28ea6ff0d":[6,2,1,0,0,0,2,279,21],
-"std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a6d94f3491e5e6b53b55e9ff039fa446d":[6,2,1,0,0,0,2,279,2]
+"std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a6d94f3491e5e6b53b55e9ff039fa446d":[6,2,1,0,0,0,2,279,2],
+"std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a72ecd40cc21861923965148fd782317e":[6,2,1,0,0,0,2,279,3],
+"std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a77f18fe0966ae8e7debd6061cc41149b":[6,2,1,0,0,0,2,279,17],
+"std__shared__ptr__MR__ChangeOnePointInPolylineAction_8h.html#a87f5d4bb50bb3f8084fe033f95660676":[6,2,1,0,0,0,2,279,16]
 };

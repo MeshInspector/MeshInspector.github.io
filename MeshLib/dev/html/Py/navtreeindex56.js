@@ -1,9 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html":[6,1,1,0,1,537],
-"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a0fc5ca2a30aea1f3b5999316e44d11dc":[6,1,0,0,2,537,9],
-"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a0fc5ca2a30aea1f3b5999316e44d11dc":[6,1,1,0,1,537,9],
-"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a240a00c6f915bf7812443f9831a81ff1":[6,1,0,0,2,537,8],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a240a00c6f915bf7812443f9831a81ff1":[6,1,1,0,1,537,8],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a2dee1d33324c14b72acff4a8e13707a4":[6,1,0,0,2,537,0],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a2dee1d33324c14b72acff4a8e13707a4":[6,1,1,0,1,537,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX56 =
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#aacd30c99164f8435264b593528a2e426":[6,1,1,0,1,543,5],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ac885a075c469d50768c6725682527fdf":[6,1,0,0,2,543,9],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ac885a075c469d50768c6725682527fdf":[6,1,1,0,1,543,9],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,0,0,2,543,7]
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,0,0,2,543,7],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,1,0,1,543,7],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html":[6,1,0,0,2,543,0],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html":[6,1,1,0,1,543,0],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a020fa2b3bbab07ac7e4b2777d52b6bdb":[6,1,0,0,2,543,0,6]
 };
