@@ -591,13 +591,12 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="ttc" id="astructMR__VertId_html"><div class="ttname"><a href="./C/structMR__VertId.html">MR_VertId</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
-<div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>GlobalRegistrationExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats(MultiwayICP icp)</div>
+<div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MultiwayICP</a> icp)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordtype">int</span> numActivePairs = icp.GetNumActivePairs();</div>
+<div class="line">        ulong numActivePairs = icp.GetNumActivePairs();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.GetNumSamples()}&quot;</span>);</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
 <div class="line"> </div>
@@ -623,38 +622,41 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 2;</div>
-<div class="line">            List&lt;MeshOrPointsXf&gt; inputs = <span class="keyword">new</span> List&lt;MeshOrPointsXf&gt;(inputNum);</div>
-<div class="line">            Box3f maxBBox = <span class="keyword">new</span> Box3f();</div>
+<div class="line">            MR.Vector_MRMeshOrPointsXf_MRObjId inputs = <span class="keyword">new</span>();</div>
+<div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
-<div class="line">                MeshOrPointsXf obj = <span class="keyword">new</span> MeshOrPointsXf(PointsLoad.FromAnySupportedFormat(args[i + 1]), <span class="keyword">new</span> AffineXf3f());</div>
-<div class="line">                inputs.Add(obj);</div>
-<div class="line">                Box3f bbox = obj.obj.BoundingBox;</div>
-<div class="line">                <span class="keywordflow">if</span> (!maxBBox.Valid() || bbox.Volume() &gt; maxBBox.Volume())</div>
-<div class="line">                    maxBBox = bbox;</div>
+<div class="line">                MR.Expected_MRPointCloud_StdString file_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsLoad.html">PointsLoad</a>.FromAnySupportedFormat(args[i + 1]);</div>
+<div class="line">                <span class="keywordflow">if</span> (file_ex.GetError() is var error and not <span class="keyword">null</span>)</div>
+<div class="line">                    <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(error);</div>
+<div class="line"> </div>
+<div class="line">                <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> obj = <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>(file_ex.GetValue()!, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
+<div class="line">                inputs.PushBack(obj);</div>
+<div class="line">                maxBBox.Include(obj.Obj.ComputeBoundingBox());</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            MultiwayICPSamplingParameters samplingParams = <span class="keyword">new</span> MultiwayICPSamplingParameters();</div>
-<div class="line">            samplingParams.samplingVoxelSize = maxBBox.Diagonal() * 0.03f;</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR.MultiwayICPSamplingParameters</a> samplingParams = <span class="keyword">new</span>();</div>
+<div class="line">            samplingParams.SamplingVoxelSize = maxBBox.Diagonal() * 0.03f;</div>
 <div class="line"> </div>
-<div class="line">            MultiwayICP icp = <span class="keyword">new</span> MultiwayICP(inputs, samplingParams);</div>
-<div class="line">            ICPProperties iCPProperties = <span class="keyword">new</span> ICPProperties();</div>
+<div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MR.MultiwayICP</a> icp = <span class="keyword">new</span>(inputs, samplingParams);</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> iCPProperties = <span class="keyword">new</span>();</div>
 <div class="line">            icp.SetParams(iCPProperties);</div>
 <div class="line">            icp.UpdateAllPointPairs();</div>
 <div class="line">            PrintStats(icp);</div>
 <div class="line"> </div>
 <div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Calculating transformations...&quot;</span>);</div>
-<div class="line">            var xfs = icp.CalculateTransformations();</div>
+<div class="line">            MR.Vector_MRAffineXf3f_MRObjId xfs = icp.CalculateTransformations();</div>
 <div class="line">            PrintStats(icp);</div>
-<div class="line">            <a class="code hl_variableRef" href="./Cpp/namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a> output = <span class="keyword">new</span> <a class="code hl_variableRef" href="./Cpp/namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">PointCloud</a>();</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> output = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var xf = xfs[i];</div>
-<div class="line">                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; inputs[i].obj.Points.Count; j++)</div>
-<div class="line">                    output.AddPoint(xf.Apply(inputs[i].obj.Points[j]));</div>
+<div class="line">                MR.ObjId <span class="keywordtype">id</span> = <span class="keyword">new</span>(i);</div>
+<div class="line">                var xf = xfs.Index(<span class="keywordtype">id</span>);</div>
+<div class="line">                <span class="keywordflow">for</span> (ulong j = 0; j &lt; inputs.Index(<span class="keywordtype">id</span>).Obj.Points().Size(); j++)</div>
+<div class="line">                    output.AddPoint(xf.Call(inputs.Index(<span class="keywordtype">id</span>).Obj.Points().Index(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(j))));</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            PointsSave.ToAnySupportedFormat(output, args[args.Length - 1]);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsSave.html">PointsSave</a>.ToAnySupportedFormat(output, args[args.Length - 1]);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -662,8 +664,12 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1PointsLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1PointsLoad.html">MR::PointsLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1PointsSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1PointsSave.html">MR::PointsSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
-<div class="ttc" id="anamespaceMR_html_a1bfc73c4801d5127d8be21699dc9f590"><div class="ttname"><a href="./Cpp/namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590">MR::PointCloud</a></div><div class="ttdeci">struct MRMESH_CLASS PointCloud</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="./Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></div></div>
+<div class="ttc" id="astructMR_1_1MeshOrPointsXf_html"><div class="ttname"><a href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR::MeshOrPointsXf</a></div></div>
+<div class="ttc" id="astructMR_1_1MultiwayICPSamplingParameters_html"><div class="ttname"><a href="./Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR::MultiwayICPSamplingParameters</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
