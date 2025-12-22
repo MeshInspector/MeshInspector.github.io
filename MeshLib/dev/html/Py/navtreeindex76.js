@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"classmrmeshpy_1_1QuarterBit.html#a140c6a2e23ef7816bc2f2b8cea6acbe8":[6,1,1,0,1,749,14],
+"classmrmeshpy_1_1QuarterBit.html#a34f99b36fd737c3ec3ff05163d66b424":[6,1,0,0,2,749,7],
+"classmrmeshpy_1_1QuarterBit.html#a34f99b36fd737c3ec3ff05163d66b424":[6,1,1,0,1,749,7],
+"classmrmeshpy_1_1QuarterBit.html#a3d3fb4fd240f91b33fc8b73e71ac761e":[6,1,0,0,2,749,6],
 "classmrmeshpy_1_1QuarterBit.html#a3d3fb4fd240f91b33fc8b73e71ac761e":[6,1,1,0,1,749,6],
 "classmrmeshpy_1_1QuarterBit.html#a529bcc572ae157410dc4649354eacba0":[6,1,0,0,2,749,19],
 "classmrmeshpy_1_1QuarterBit.html#a529bcc572ae157410dc4649354eacba0":[6,1,1,0,1,749,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX76 =
 "classmrmeshpy_1_1RawTiffOutput.html#a94aaf34cb637c9ed5ff6485be2809cba":[6,1,1,0,1,754,1],
 "classmrmeshpy_1_1RawTiffOutput.html#aa58a47a09fac3778002e214486b4fb08":[6,1,0,0,2,754,3],
 "classmrmeshpy_1_1RawTiffOutput.html#aa58a47a09fac3778002e214486b4fb08":[6,1,1,0,1,754,3],
-"classmrmeshpy_1_1RawTiffOutput.html#ab189ebeaabc479ee7e5fd52c938ccc1d":[6,1,0,0,2,754,4],
-"classmrmeshpy_1_1RawTiffOutput.html#ab189ebeaabc479ee7e5fd52c938ccc1d":[6,1,1,0,1,754,4],
-"classmrmeshpy_1_1RawTiffOutput.html#ad238d1b7d9b281ce71c462dd9e78e435":[6,1,0,0,2,754,16],
-"classmrmeshpy_1_1RawTiffOutput.html#ad238d1b7d9b281ce71c462dd9e78e435":[6,1,1,0,1,754,16],
-"classmrmeshpy_1_1RawTiffOutput.html#ae86e3eb2511b54d82dc08f70e354b2c1":[6,1,0,0,2,754,13]
+"classmrmeshpy_1_1RawTiffOutput.html#ab189ebeaabc479ee7e5fd52c938ccc1d":[6,1,0,0,2,754,4]
 };
