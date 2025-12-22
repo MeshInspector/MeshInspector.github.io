@@ -148,7 +148,7 @@ $(function(){initNavTree('ThirdParty.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Third-Party Dependencies</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md121"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md124"></a>
 List of dependencies</h1>
 <p>MeshLib is modular by design. Our goal is to provide only what you need, so you can avoid what you do not and keep your project lightweight. The only mandatory module is MRMesh. All others are optional.</p>
 <p>Below is a summary of all modules and their dependencies, so you can see what each requires before including it in your build</p>
@@ -170,7 +170,7 @@ List of dependencies</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">MRViewer   </td><td class="markdownTableBodyNone">Rendering and user interface   </td><td class="markdownTableBodyNone">MRMesh, MRVoxels, MRSymbolMesh and MRIOExtras   </td><td class="markdownTableBodyNone">Yes   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md122"></a>
+<h3><a class="anchor" id="autotoc_md125"></a>
 MRMesh</h3>
 <p><b>MRMesh</b> is our core module, handling geometry operations. Since it is mandatory, its dependencies are required for every build.</p>
 <table class="markdownTable">
@@ -205,7 +205,7 @@ MRMesh</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://github.com/Mbed-TLS/mbedtls" rel="nofollow">Mbed TLS</a>   </td><td class="markdownTableBodyNone">a C library that implements cryptographic primitives   </td><td class="markdownTableBodyNone">Apache-2.0 or GPL-2.0-or-later   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md123"></a>
+<h3><a class="anchor" id="autotoc_md126"></a>
 MRIOExtras</h3>
 <p><b>MRIOExtras</b> adds support for the input and output of additional file formats (e.g., glTF, STEP, PDF). It requires MRMesh and includes:</p>
 <table class="markdownTable">
@@ -230,7 +230,7 @@ MRIOExtras</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://leethomason.github.io/tinyxml2/" rel="nofollow">tinyxml2</a>   </td><td class="markdownTableBodyNone">an efficient, C++ XML parser   </td><td class="markdownTableBodyNone">zlib   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md124"></a>
+<h3><a class="anchor" id="autotoc_md127"></a>
 MRSymbolMesh</h3>
 <p><b>MRSymbolMesh</b> is our module responsible for text-to-mesh conversion operations. As such, it requires MRMesh plus:</p>
 <table class="markdownTable">
@@ -239,7 +239,7 @@ MRSymbolMesh</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://freetype.org" rel="nofollow">FreeType</a>   </td><td class="markdownTableBodyNone">a freely available software library to render fonts   </td><td class="markdownTableBodyNone">GPL-2.0, FTL(BSD like)   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md125"></a>
+<h3><a class="anchor" id="autotoc_md128"></a>
 MRPython</h3>
 <p><b>MRPython enables</b> Python bindings and embedded Python scripting for MeshLib. It depends on MRMesh and:</p>
 <table class="markdownTable">
@@ -250,7 +250,7 @@ MRPython</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://github.com/pybind/pybind11" rel="nofollow">pybind11</a>   </td><td class="markdownTableBodyNone">a library that exposes C++ types in Python and vice versa   </td><td class="markdownTableBodyNone">BSD-3-Clause   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md126"></a>
+<h3><a class="anchor" id="autotoc_md129"></a>
 MRVoxels</h3>
 <p><b>MRVoxels provides</b> functionality for volumetric operations. It depends on MRMesh plus:</p>
 <table class="markdownTable">
@@ -261,7 +261,7 @@ MRVoxels</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://sourceforge.net/projects/gdcm/" rel="nofollow">gdcm</a>   </td><td class="markdownTableBodyNone">C++ library dedicated to reading/parsing and writing DICOM medical files   </td><td class="markdownTableBodyNone">BSD   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md127"></a>
+<h3><a class="anchor" id="autotoc_md130"></a>
 MRCuda</h3>
 <p><b>MRCuda enables</b> GPU-accelerated algorithms using NVIDIA CUDA. Here, you need MRMesh, MRVoxels, and:</p>
 <table class="markdownTable">
@@ -270,7 +270,7 @@ MRCuda</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://developer.nvidia.com/cuda-toolkit" rel="nofollow">CUDA</a>   </td><td class="markdownTableBodyNone">GPU-accelerated libraries, debugging and optimization tools, a C/C++ compiler, and a runtime library   </td><td class="markdownTableBodyNone"><a href="https://docs.nvidia.com/cuda/eula/index.html#license" rel="nofollow">CUDA License</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md128"></a>
+<h3><a class="anchor" id="autotoc_md131"></a>
 MRViewer</h3>
 <p><b>MRViewer is</b> MeshLib’s module for rendering and <a class="elRef" href="./Cpp/namespaceMR_1_1UI.html">UI</a>. It handles window creation, input, and GUI elements. It needs MRMesh, MRVoxels, MRSymbolMesh, MRIOExtras, and:</p>
 <table class="markdownTable">
