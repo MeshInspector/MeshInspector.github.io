@@ -1,5 +1,8 @@
 var NAVTREEINDEX131 =
 {
+"MRWeightedPointsShell_8h.html#a6fb59922141bd25b1c72633c29a17d1a":[6,2,1,0,0,0,4,39,99],
+"MRWeightedPointsShell_8h.html#a71beb2b6696f0402ac0c9f1bbf95a461":[6,2,1,0,0,0,4,39,14],
+"MRWeightedPointsShell_8h.html#a74089d4e3ba55644311e3ffe5166c4ee":[6,2,1,0,0,0,4,39,21],
 "MRWeightedPointsShell_8h.html#a75990dec726887c2973a58ba112e53d1":[6,2,1,0,0,0,4,39,66],
 "MRWeightedPointsShell_8h.html#a7802192003aefbdb76224b28b1ca726c":[6,2,1,0,0,0,4,39,119],
 "MRWeightedPointsShell_8h.html#a791370f9c8e43a49fe798e77f88ea581":[6,2,1,0,0,0,4,39,47],
@@ -246,8 +249,5 @@ var NAVTREEINDEX131 =
 "expected__MR__Image__std__string_8h.html#a546f00d8e86a2a77282047264d88e6a2":[6,2,1,0,0,0,2,8,7],
 "expected__MR__Image__std__string_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0":[6,2,1,0,0,0,2,8,1],
 "expected__MR__Image__std__string_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,2,8,2],
-"expected__MR__Image__std__string_8h.html#a7ca1ce54743572b6a731cc93d5f66c91":[6,2,1,0,0,0,2,8,9],
-"expected__MR__Image__std__string_8h.html#a853202d9afd616c9479102102f213786":[6,2,1,0,0,0,2,8,12],
-"expected__MR__Image__std__string_8h.html#a855397a79e966d305a64d07d34a4f0d0":[6,2,1,0,0,0,2,8,10],
-"expected__MR__Image__std__string_8h.html#a93ab8a37ba1eebbc6fba96b9f1606203":[6,2,1,0,0,0,2,8,5]
+"expected__MR__Image__std__string_8h.html#a7ca1ce54743572b6a731cc93d5f66c91":[6,2,1,0,0,0,2,8,9]
 };

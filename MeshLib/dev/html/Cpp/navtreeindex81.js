@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,1,0,1,359,2],
+"structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,2,0,1,340,2],
 "structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,1,0,1,359,9],
 "structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,2,0,1,340,9],
 "structMR_1_1LinesLoadSettings.html":[6,0,1,0,1,360],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1Matrix4.html#a2968fcaeb275c69d69adefdaec46f32c":[6,0,0,0,7,3,7],
 "structMR_1_1Matrix4.html#a2fd123c699aacfa8e543247f070ae7d8":[6,0,0,0,7,3,27],
 "structMR_1_1Matrix4.html#a34fb31ad2f7afa3c87d7658070e08a5e":[6,0,0,0,7,3,28],
-"structMR_1_1Matrix4.html#a37b7b5c48f473091b3f1489d1651c4f7":[6,0,0,0,7,3,0],
-"structMR_1_1Matrix4.html#a40a1bbeba85718db9ed906be11c92308":[6,0,0,0,7,3,1],
-"structMR_1_1Matrix4.html#a4107d00647824c81b8988f9c40f24a9d":[6,0,0,0,7,3,23]
+"structMR_1_1Matrix4.html#a37b7b5c48f473091b3f1489d1651c4f7":[6,0,0,0,7,3,0]
 };
