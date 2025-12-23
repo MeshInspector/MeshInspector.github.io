@@ -1767,7 +1767,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keepFaces</td><td>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Mesh.html#a21bb3faf52ec585da5606ce879ab3c4b">MR::Mesh::deleteFaces</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>fs</code> can not be null. It is a single object. Parameter <code>keepEdges</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">keepEdges</td><td>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Mesh.html#a21bb3faf52ec585da5606ce879ab3c4b">MR::Mesh::deleteFaces</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>fs</code> can not be null. It is a single object. Parameter <code>keepEdges</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2468,8 +2468,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>construct mesh from point triples; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= false, all coinciding points are given the same VertId in the result; </td></tr>
-    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Mesh.html#a5500ddb4660086a3703345d50241d0ad">MR::Mesh::fromPointTriples</a></code>. Parameter <code>posTriples</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= false, all coinciding points are given the same VertId in the result; duplicateNonManifoldVertices = true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1Mesh.html#a5500ddb4660086a3703345d50241d0ad">MR::Mesh::fromPointTriples</a></code>. Parameter <code>posTriples</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>

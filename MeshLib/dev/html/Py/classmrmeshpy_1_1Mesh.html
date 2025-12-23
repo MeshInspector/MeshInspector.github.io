@@ -1072,7 +1072,7 @@ consider cotangents zero for not existing triangles
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in \\param keepFaces
+<pre class="fragment">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in \\param keepEdges
 </pre> 
 </div>
 </div>
@@ -1752,7 +1752,7 @@ all non-triangular faces will be automatically subdivided on triangles
 </div><div class="memdoc">
 <pre class="fragment">construct mesh from point triples;
 \\param duplicateNonManifoldVertices = false, all coinciding points are given the same VertId in the result;
-\\param duplicateNonManifoldVertices = true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates
+       duplicateNonManifoldVertices = true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates
 </pre> 
 </div>
 </div>

@@ -1223,7 +1223,7 @@ Public Attributes</h2></td></tr>
 <p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keepFaces</td><td></td></tr>
+    <tr><td class="paramname">keepEdges</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2044,8 +2044,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>construct mesh from point triples; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= false, all coinciding points are given the same VertId in the result; </td></tr>
-    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates </td></tr>
+    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= false, all coinciding points are given the same VertId in the result; duplicateNonManifoldVertices = true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates </td></tr>
   </table>
   </dd>
 </dl>
