@@ -8,7 +8,7 @@ FILE_PATTERNS          = *.h \
                          *.dox
 EXCLUDE                = ../MeshLib/source/OpenCTM \
                          ../MeshLib/source/MRMesh/miniply.h \
-                         ../MeshLib/source/MRMesh/MRphmap.h
+                         ../MeshLib/source/MRMesh/MRphmap.h \
                          ../MeshLib/source/MRDotNet* \
                          ../MeshLib/source/MRMeshC \
                          ../MeshLib/source/MRTest*
