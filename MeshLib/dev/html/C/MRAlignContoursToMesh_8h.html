@@ -153,6 +153,7 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h.html',''); initResizable(true
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -166,10 +167,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:a741f5bb0872ea5dd2506146d0fd1afdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d97154d4aed695055160a4688c04a3d" id="r_a0d97154d4aed695055160a4688c04a3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td></tr>
 <tr class="separator:a0d97154d4aed695055160a4688c04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2bc6a2fcc62602733c1124e62bcd2f" id="r_afe2bc6a2fcc62602733c1124e62bcd2f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a></td></tr>
+<tr class="separator:afe2bc6a2fcc62602733c1124e62bcd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603c36c96311a8cb693f3e5500963e17" id="r_a603c36c96311a8cb693f3e5500963e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a></td></tr>
 <tr class="separator:a603c36c96311a8cb693f3e5500963e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae773ef6bccd560807d6985a655e53abf" id="r_ae773ef6bccd560807d6985a655e53abf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae773ef6bccd560807d6985a655e53abf">MR_ContoursMeshAlignParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae773ef6bccd560807d6985a655e53abf">MR_ContoursMeshAlignParams</a></td></tr>
 <tr class="separator:ae773ef6bccd560807d6985a655e53abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec2269b4533eccc9fd7b50be0cc06c5" id="r_a7ec2269b4533eccc9fd7b50be0cc06c5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a></td></tr>
+<tr class="separator:a7ec2269b4533eccc9fd7b50be0cc06c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -233,10 +238,67 @@ Functions</h2></td></tr>
 <tr class="separator:aae1dcf0b88479671fa7bef445b98b3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2193cec3d4dac526943be2b1b67d5150" id="r_a2193cec3d4dac526943be2b1b67d5150"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2193cec3d4dac526943be2b1b67d5150">MR_alignContoursToMesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#ae773ef6bccd560807d6985a655e53abf">MR_ContoursMeshAlignParams</a> *params)</td></tr>
 <tr class="separator:a2193cec3d4dac526943be2b1b67d5150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf35f9e6d5147dda597d94bb651e3e5" id="r_a9bf35f9e6d5147dda597d94bb651e3e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bf35f9e6d5147dda597d94bb651e3e5">MR_BendContoursAlongCurveParams_Get_pivotY</a> (const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="separator:a9bf35f9e6d5147dda597d94bb651e3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8681f6d124f890494517ac88a5fdf5ed" id="r_a8681f6d124f890494517ac88a5fdf5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8681f6d124f890494517ac88a5fdf5ed">MR_BendContoursAlongCurveParams_Set_pivotY</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this, float value)</td></tr>
+<tr class="separator:a8681f6d124f890494517ac88a5fdf5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4795d41d2314b090c4dcba955c24135" id="r_aa4795d41d2314b090c4dcba955c24135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4795d41d2314b090c4dcba955c24135">MR_BendContoursAlongCurveParams_GetMutable_pivotY</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="separator:aa4795d41d2314b090c4dcba955c24135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0526131120afaf6f119a1f0d007aacff" id="r_a0526131120afaf6f119a1f0d007aacff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0526131120afaf6f119a1f0d007aacff">MR_BendContoursAlongCurveParams_Get_curve</a> (const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="separator:a0526131120afaf6f119a1f0d007aacff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a260a6c980db0354129e6af003c2b17df" id="r_a260a6c980db0354129e6af003c2b17df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a260a6c980db0354129e6af003c2b17df">MR_BendContoursAlongCurveParams_Set_curve</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> *value)</td></tr>
+<tr class="separator:a260a6c980db0354129e6af003c2b17df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a319b857c350a025637e62e0ab56a4bbf" id="r_a319b857c350a025637e62e0ab56a4bbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a319b857c350a025637e62e0ab56a4bbf">MR_BendContoursAlongCurveParams_GetMutable_curve</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="separator:a319b857c350a025637e62e0ab56a4bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10febbe5c78bd35d5543194b90f8f225" id="r_a10febbe5c78bd35d5543194b90f8f225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10febbe5c78bd35d5543194b90f8f225">MR_BendContoursAlongCurveParams_Get_extrusion</a> (const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="separator:a10febbe5c78bd35d5543194b90f8f225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33811d38dc942d98dbe2cf91dc03fe3f" id="r_a33811d38dc942d98dbe2cf91dc03fe3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33811d38dc942d98dbe2cf91dc03fe3f">MR_BendContoursAlongCurveParams_Set_extrusion</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this, float value)</td></tr>
+<tr class="separator:a33811d38dc942d98dbe2cf91dc03fe3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63277278ae4c536b735aab3e7d502e27" id="r_a63277278ae4c536b735aab3e7d502e27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63277278ae4c536b735aab3e7d502e27">MR_BendContoursAlongCurveParams_GetMutable_extrusion</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="separator:a63277278ae4c536b735aab3e7d502e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeafd7b3306565b5699201b140f81eaac" id="r_aeafd7b3306565b5699201b140f81eaac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeafd7b3306565b5699201b140f81eaac">MR_BendContoursAlongCurveParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aeafd7b3306565b5699201b140f81eaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd7d1882e24f28b4ca52396af8653c8" id="r_affd7d1882e24f28b4ca52396af8653c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affd7d1882e24f28b4ca52396af8653c8">MR_BendContoursAlongCurveParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:affd7d1882e24f28b4ca52396af8653c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a783b8fe2a2b60a2da0a08036b9402411" id="r_a783b8fe2a2b60a2da0a08036b9402411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a783b8fe2a2b60a2da0a08036b9402411">MR_BendContoursAlongCurveParams_ConstructFrom</a> (float pivotY, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> curve_pass_by, <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> *curve, float extrusion)</td></tr>
+<tr class="separator:a783b8fe2a2b60a2da0a08036b9402411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a0704679dbe997ffaeca42ffa6c95b" id="r_a53a0704679dbe997ffaeca42ffa6c95b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a0704679dbe997ffaeca42ffa6c95b">MR_BendContoursAlongCurveParams_OffsetPtr</a> (const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a53a0704679dbe997ffaeca42ffa6c95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a53a0704679dbe997ffaeca42ffa6c95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2add1dd09f76c9ac560b73332dc18327" id="r_a2add1dd09f76c9ac560b73332dc18327"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2add1dd09f76c9ac560b73332dc18327">MR_BendContoursAlongCurveParams_OffsetMutablePtr</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2add1dd09f76c9ac560b73332dc18327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2add1dd09f76c9ac560b73332dc18327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19835904c690671338ac0391c84b267" id="r_ac19835904c690671338ac0391c84b267"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19835904c690671338ac0391c84b267">MR_BendContoursAlongCurveParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_other)</td></tr>
+<tr class="separator:ac19835904c690671338ac0391c84b267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab454044e79f66dc81c5cc547dbf10567" id="r_ab454044e79f66dc81c5cc547dbf10567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567">MR_BendContoursAlongCurveParams_Destroy</a> (const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="memdesc:ab454044e79f66dc81c5cc547dbf10567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_BendContoursAlongCurveParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab454044e79f66dc81c5cc547dbf10567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72488f5c2698e04a2faa833121851b68" id="r_a72488f5c2698e04a2faa833121851b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72488f5c2698e04a2faa833121851b68">MR_BendContoursAlongCurveParams_DestroyArray</a> (const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this)</td></tr>
+<tr class="memdesc:a72488f5c2698e04a2faa833121851b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_BendContoursAlongCurveParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a72488f5c2698e04a2faa833121851b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f62648a39e666e94d93f9d7d77fa19a" id="r_a1f62648a39e666e94d93f9d7d77fa19a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f62648a39e666e94d93f9d7d77fa19a">MR_BendContoursAlongCurveParams_AssignFromAnother</a> (<a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *_other)</td></tr>
+<tr class="separator:a1f62648a39e666e94d93f9d7d77fa19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163982b6200a4a5ca2c9f2528f83ac7c" id="r_a163982b6200a4a5ca2c9f2528f83ac7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a163982b6200a4a5ca2c9f2528f83ac7c">MR_bendContoursAlongCurve</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *params)</td></tr>
+<tr class="separator:a163982b6200a4a5ca2c9f2528f83ac7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4271c63f3f59740a5f323801f6a4d39" id="r_ab4271c63f3f59740a5f323801f6a4d39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4271c63f3f59740a5f323801f6a4d39">MR_addBaseToPlanarMesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float zOffset)</td></tr>
 <tr class="separator:ab4271c63f3f59740a5f323801f6a4d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7ec2269b4533eccc9fd7b50be0cc06c5" name="a7ec2269b4533eccc9fd7b50be0cc06c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec2269b4533eccc9fd7b50be0cc06c5">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parameters for aligning 2d contours along given curve Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="ae773ef6bccd560807d6985a655e53abf" name="ae773ef6bccd560807d6985a655e53abf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae773ef6bccd560807d6985a655e53abf">&#9670;&#160;</a></span>MR_ContoursMeshAlignParams</h2>
 
@@ -248,7 +310,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Parameters for aligning 2d contour onto mesh surface Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Parameters for aligning 2d contours onto mesh surface Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -288,6 +350,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe2bc6a2fcc62602733c1124e62bcd2f" name="afe2bc6a2fcc62602733c1124e62bcd2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe2bc6a2fcc62602733c1124e62bcd2f">&#9670;&#160;</a></span>MR_std_function_MR_CurvePoint_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,6 +431,408 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Creates planar mesh out of given contour and aligns it to given surface Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5d85bb6696e4f27accbd2e795fadb536">MR::alignContoursToMesh</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a163982b6200a4a5ca2c9f2528f83ac7c" name="a163982b6200a4a5ca2c9f2528f83ac7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a163982b6200a4a5ca2c9f2528f83ac7c">&#9670;&#160;</a></span>MR_bendContoursAlongCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_bendContoursAlongCurve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts contours in thick mesh, and deforms it along given path Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a62494da3f5dfe7a2f5689981a06ceb2b">MR::bendContoursAlongCurve</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1f62648a39e666e94d93f9d7d77fa19a" name="a1f62648a39e666e94d93f9d7d77fa19a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f62648a39e666e94d93f9d7d77fa19a">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::BendContoursAlongCurveParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a783b8fe2a2b60a2da0a08036b9402411" name="a783b8fe2a2b60a2da0a08036b9402411"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a783b8fe2a2b60a2da0a08036b9402411">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pivotY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>curve_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>extrusion</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac19835904c690671338ac0391c84b267" name="ac19835904c690671338ac0391c84b267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac19835904c690671338ac0391c84b267">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <code>MR::BendContoursAlongCurveParams::BendContoursAlongCurveParams</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aeafd7b3306565b5699201b140f81eaac" name="aeafd7b3306565b5699201b140f81eaac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeafd7b3306565b5699201b140f81eaac">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="affd7d1882e24f28b4ca52396af8653c8" name="affd7d1882e24f28b4ca52396af8653c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affd7d1882e24f28b4ca52396af8653c8">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a72488f5c2698e04a2faa833121851b68" title="Destroys a heap-allocated array of MR_BendContoursAlongCurveParams. Does nothing if the pointer is nu...">MR_BendContoursAlongCurveParams_DestroyArray()</a></code>. Use <code><a class="el" href="#a2add1dd09f76c9ac560b73332dc18327" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_BendContoursAlongCurveParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a53a0704679dbe997ffaeca42ffa6c95b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_BendContoursAlongCurveParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab454044e79f66dc81c5cc547dbf10567" name="ab454044e79f66dc81c5cc547dbf10567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab454044e79f66dc81c5cc547dbf10567">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BendContoursAlongCurveParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_BendContoursAlongCurveParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a72488f5c2698e04a2faa833121851b68" name="a72488f5c2698e04a2faa833121851b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72488f5c2698e04a2faa833121851b68">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BendContoursAlongCurveParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_BendContoursAlongCurveParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0526131120afaf6f119a1f0d007aacff" name="a0526131120afaf6f119a1f0d007aacff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0526131120afaf6f119a1f0d007aacff">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Get_curve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> * MR_BendContoursAlongCurveParams_Get_curve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts (x in [0,1], pivotY) into position on curve Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>curve</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a10febbe5c78bd35d5543194b90f8f225" name="a10febbe5c78bd35d5543194b90f8f225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10febbe5c78bd35d5543194b90f8f225">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Get_extrusion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_BendContoursAlongCurveParams_Get_extrusion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Contours extrusion outside of curve level Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9bf35f9e6d5147dda597d94bb651e3e5" name="a9bf35f9e6d5147dda597d94bb651e3e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf35f9e6d5147dda597d94bb651e3e5">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Get_pivotY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_BendContoursAlongCurveParams_Get_pivotY </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative position of curve line (y=pivotY) in contours bounding box: 0 - bottom, 0.5 - center, 1 - top Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotY</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a319b857c350a025637e62e0ab56a4bbf" name="a319b857c350a025637e62e0ab56a4bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319b857c350a025637e62e0ab56a4bbf">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_GetMutable_curve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> * MR_BendContoursAlongCurveParams_GetMutable_curve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts (x in [0,1], pivotY) into position on curve Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>curve</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a63277278ae4c536b735aab3e7d502e27" name="a63277278ae4c536b735aab3e7d502e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63277278ae4c536b735aab3e7d502e27">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_GetMutable_extrusion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_BendContoursAlongCurveParams_GetMutable_extrusion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Contours extrusion outside of curve level Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa4795d41d2314b090c4dcba955c24135" name="aa4795d41d2314b090c4dcba955c24135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4795d41d2314b090c4dcba955c24135">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_GetMutable_pivotY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_BendContoursAlongCurveParams_GetMutable_pivotY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative position of curve line (y=pivotY) in contours bounding box: 0 - bottom, 0.5 - center, 1 - top Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotY</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2add1dd09f76c9ac560b73332dc18327" name="a2add1dd09f76c9ac560b73332dc18327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2add1dd09f76c9ac560b73332dc18327">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a53a0704679dbe997ffaeca42ffa6c95b" name="a53a0704679dbe997ffaeca42ffa6c95b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a0704679dbe997ffaeca42ffa6c95b">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> * MR_BendContoursAlongCurveParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a260a6c980db0354129e6af003c2b17df" name="a260a6c980db0354129e6af003c2b17df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a260a6c980db0354129e6af003c2b17df">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Set_curve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BendContoursAlongCurveParams_Set_curve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#afe2bc6a2fcc62602733c1124e62bcd2f">MR_std_function_MR_CurvePoint_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts (x in [0,1], pivotY) into position on curve Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>curve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a33811d38dc942d98dbe2cf91dc03fe3f" name="a33811d38dc942d98dbe2cf91dc03fe3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33811d38dc942d98dbe2cf91dc03fe3f">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Set_extrusion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BendContoursAlongCurveParams_Set_extrusion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Contours extrusion outside of curve level Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a8681f6d124f890494517ac88a5fdf5ed" name="a8681f6d124f890494517ac88a5fdf5ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8681f6d124f890494517ac88a5fdf5ed">&#9670;&#160;</a></span>MR_BendContoursAlongCurveParams_Set_pivotY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BendContoursAlongCurveParams_Set_pivotY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative position of curve line (y=pivotY) in contours bounding box: 0 - bottom, 0.5 - center, 1 - top Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotY</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -61,6 +61,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRContoursStitch.h", "MRContoursStitch_8h.html", "MRContoursStitch_8h" ],
     [ "MRConvexHull.h", "MRConvexHull_8h.html", "MRConvexHull_8h" ],
     [ "MRCube.h", "MRCube_8h.html", "MRCube_8h" ],
+    [ "MRCurve.h", "MRCurve_8h.html", "MRCurve_8h" ],
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRCylinder3.h", "MRCylinder3_8h.html", "MRCylinder3_8h" ],
     [ "MRCylinderObject.h", "MRCylinderObject_8h.html", "MRCylinderObject_8h" ],

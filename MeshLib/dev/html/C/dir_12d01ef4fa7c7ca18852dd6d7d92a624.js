@@ -138,6 +138,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_function_float_from_uint64_t_uint64_t.h", "std__function__float__from__uint64__t__uint64__t_8h.html", "std__function__float__from__uint64__t__uint64__t_8h" ],
     [ "std_function_MR_AABBTree.h", "std__function__MR__AABBTree_8h.html", "std__function__MR__AABBTree_8h" ],
     [ "std_function_MR_AABBTreePoints.h", "std__function__MR__AABBTreePoints_8h.html", "std__function__MR__AABBTreePoints_8h" ],
+    [ "std_function_MR_CurvePoint_from_float.h", "std__function__MR__CurvePoint__from__float_8h.html", "std__function__MR__CurvePoint__from__float_8h" ],
     [ "std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h", "std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html", "std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h" ],
     [ "std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref.h", "std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html", "std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h" ],
     [ "std_function_MR_MeshTriPoint_from_uint64_t.h", "std__function__MR__MeshTriPoint__from__uint64__t_8h.html", "std__function__MR__MeshTriPoint__from__uint64__t_8h" ],

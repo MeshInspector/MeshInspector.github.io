@@ -179,11 +179,13 @@ var NAVTREEINDEX0 =
 "MRAggregateFlow_8h.html":[6,0,3,0,0,1,4,15],
 "MRAggregateFlow_8h_source.html":[6,0,3,0,0,1,4,15],
 "MRAlignContoursToMesh_8h.html":[6,0,3,0,0,1,4,16],
-"MRAlignContoursToMesh_8h.html#a3289f6374ed80e5ac6467f5029cbc89d":[6,0,3,0,0,1,4,16,1],
-"MRAlignContoursToMesh_8h.html#a5d85bb6696e4f27accbd2e795fadb536":[6,0,3,0,0,1,4,16,2],
+"MRAlignContoursToMesh_8h.html#a3289f6374ed80e5ac6467f5029cbc89d":[6,0,3,0,0,1,4,16,2],
+"MRAlignContoursToMesh_8h.html#a5d85bb6696e4f27accbd2e795fadb536":[6,0,3,0,0,1,4,16,3],
+"MRAlignContoursToMesh_8h.html#a62494da3f5dfe7a2f5689981a06ceb2b":[6,0,3,0,0,1,4,16,4],
 "MRAlignContoursToMesh_8h_source.html":[6,0,3,0,0,1,4,16],
 "MRAlignTextToMesh_8h.html":[6,0,3,0,0,1,7,0],
-"MRAlignTextToMesh_8h.html#afe3d8a0d392d8c39709a37e08a665777":[6,0,3,0,0,1,7,0,1],
+"MRAlignTextToMesh_8h.html#a9bafe960b9b55410a1b62cb009a3636c":[6,0,3,0,0,1,7,0,3],
+"MRAlignTextToMesh_8h.html#afe3d8a0d392d8c39709a37e08a665777":[6,0,3,0,0,1,7,0,2],
 "MRAlignTextToMesh_8h_source.html":[6,0,3,0,0,1,7,0],
 "MRAligningTransform_8h.html":[6,0,3,0,0,1,4,17],
 "MRAligningTransform_8h_source.html":[6,0,3,0,0,1,4,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRBestFit_8h_source.html":[6,0,3,0,0,1,4,24],
 "MRBezier_8h.html":[6,0,3,0,0,1,4,28],
 "MRBezier_8h_source.html":[6,0,3,0,0,1,4,28],
-"MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
-"MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
-"MRBitSetParallelFor_8h.html":[6,0,3,0,0,1,4,30]
+"MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0]
 };

@@ -1,6 +1,7 @@
 var MRSymbolMesh_8h =
 [
     [ "MR_AlignType", "MRSymbolMesh_8h.html#a1e277c214b29d3ad0568598d3bfee8af", null ],
+    [ "MR_BendTextAlongCurveParams", "MRSymbolMesh_8h.html#a62175768dc7465c4a8a71dfd89aa229c", null ],
     [ "MR_expected_MR_Mesh_std_string", "MRSymbolMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
     [ "MR_expected_std_vector_std_vector_MR_Vector2f_std_string", "MRSymbolMesh_8h.html#afdcb1f8d5602f1f7db00a97d0b5dd528", null ],
     [ "MR_std_filesystem_path", "MRSymbolMesh_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
@@ -34,6 +35,7 @@ var MRSymbolMesh_8h =
     [ "MR_SymbolMeshParams_GetMutable_symbolsDistanceAdditionalOffset", "MRSymbolMesh_8h.html#a9e56beace1cdecabcfaf86e62bb4bf85", null ],
     [ "MR_SymbolMeshParams_GetMutable_symbolsThicknessOffsetModifier", "MRSymbolMesh_8h.html#a48617ce07f1377e74acf5eb29877271d", null ],
     [ "MR_SymbolMeshParams_GetMutable_text", "MRSymbolMesh_8h.html#a98a5719f6bc745e38e7f44db0d76e704", null ],
+    [ "MR_SymbolMeshParams_MutableStaticDowncastTo_MR_BendTextAlongCurveParams", "MRSymbolMesh_8h.html#aa9146d3a39ee19964db961f7ac50ad52", null ],
     [ "MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams", "MRSymbolMesh_8h.html#a373db4a1f3a1b4c561886ab1a0bcb0fa", null ],
     [ "MR_SymbolMeshParams_OffsetMutablePtr", "MRSymbolMesh_8h.html#a0cbab972a133d438058e74eddad6dcdd", null ],
     [ "MR_SymbolMeshParams_OffsetPtr", "MRSymbolMesh_8h.html#a1293bbcd04ee143f9359628f2fd9b1db", null ],
@@ -43,5 +45,6 @@ var MRSymbolMesh_8h =
     [ "MR_SymbolMeshParams_Set_symbolsDistanceAdditionalOffset", "MRSymbolMesh_8h.html#a45390f0c2d2dbcb8ec15753a0d5943bd", null ],
     [ "MR_SymbolMeshParams_Set_symbolsThicknessOffsetModifier", "MRSymbolMesh_8h.html#a182ddc89d20eb4debc91c00e0405b839", null ],
     [ "MR_SymbolMeshParams_Set_text", "MRSymbolMesh_8h.html#a7e6ce16a1d8f7a024dbc61b3b547b8bf", null ],
+    [ "MR_SymbolMeshParams_StaticDowncastTo_MR_BendTextAlongCurveParams", "MRSymbolMesh_8h.html#a0024f68b62e3b023a5df8bb766d12352", null ],
     [ "MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams", "MRSymbolMesh_8h.html#a966dda210fe301f835a50c2bdde128e2", null ]
 ];

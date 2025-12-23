@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032":[6,0,1,0,1,43,59],
+"namespaceMR_1_1UI.html#a5d2fd1d58ef16bcced4cfefc67d2c023":[6,0,1,0,1,43,87],
+"namespaceMR_1_1UI.html#a5e2ab9c1b7ae397ac4ef58403551d17c":[6,0,1,0,1,43,68],
+"namespaceMR_1_1UI.html#a5e2b43c7fc21e6665c27724211ffb039":[6,0,1,0,1,43,71],
+"namespaceMR_1_1UI.html#a66d0089d8a8616f6c454c5bce46731a0":[6,0,1,0,1,43,89],
+"namespaceMR_1_1UI.html#a66dc61c68cc74e41c52ec9552380924e":[6,0,1,0,1,43,21],
+"namespaceMR_1_1UI.html#a6d5300d4685c08883eebec83b277c71a":[6,0,1,0,1,43,45],
+"namespaceMR_1_1UI.html#a7164936f126dc1678e8ee461b926adec":[6,0,1,0,1,43,49],
 "namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[6,0,1,0,1,43,24],
 "namespaceMR_1_1UI.html#a73b24c79591c799e7d48900fbeb29f28":[6,0,1,0,1,43,56],
 "namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[6,0,1,0,1,43,98],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
-"structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
-"structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,2,0,0,1,1],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,1,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
-"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2]
+"structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1]
 };

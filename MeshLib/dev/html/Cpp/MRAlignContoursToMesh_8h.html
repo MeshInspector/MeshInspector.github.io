@@ -158,13 +158,17 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h.html',''); initResizable(true
 <code>#include &quot;<a class="el" href="MRVector2_8h_source.html">MRVector2.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_2MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshTriPoint_8h_source.html">MRMeshTriPoint.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRCurve_8h_source.html">MRCurve.h</a>&quot;</code><br />
 </div>
 <p><a href="MRAlignContoursToMesh_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contour onto mesh surface.  <a href="structMR_1_1ContoursMeshAlignParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours onto mesh surface.  <a href="structMR_1_1ContoursMeshAlignParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours along given curve.  <a href="structMR_1_1BendContoursAlongCurveParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -177,6 +181,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5d85bb6696e4f27accbd2e795fadb536" id="r_a5d85bb6696e4f27accbd2e795fadb536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5d85bb6696e4f27accbd2e795fadb536">MR::alignContoursToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1ContoursMeshAlignParams.html">ContoursMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a5d85bb6696e4f27accbd2e795fadb536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates planar mesh out of given contour and aligns it to given surface.  <br /></td></tr>
 <tr class="separator:a5d85bb6696e4f27accbd2e795fadb536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62494da3f5dfe7a2f5689981a06ceb2b" id="r_a62494da3f5dfe7a2f5689981a06ceb2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a62494da3f5dfe7a2f5689981a06ceb2b">MR::bendContoursAlongCurve</a> (const <a class="el" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a62494da3f5dfe7a2f5689981a06ceb2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts contours in thick mesh, and deforms it along given path.  <br /></td></tr>
+<tr class="separator:a62494da3f5dfe7a2f5689981a06ceb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3289f6374ed80e5ac6467f5029cbc89d" id="r_a3289f6374ed80e5ac6467f5029cbc89d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3289f6374ed80e5ac6467f5029cbc89d">MR::addBaseToPlanarMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float zOffset)</td></tr>
 <tr class="separator:a3289f6374ed80e5ac6467f5029cbc89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

@@ -75,6 +75,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRContoursStitch.h", "MRContoursStitch_8h.html", "MRContoursStitch_8h" ],
     [ "MRConvexHull.h", "MRConvexHull_8h.html", "MRConvexHull_8h" ],
     [ "MRCube.h", "MRCube_8h.html", "MRCube_8h" ],
+    [ "MRCurve.h", "MRCurve_8h.html", "MRCurve_8h" ],
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRCylinder3.h", "MRCylinder3_8h.html", "MRCylinder3_8h" ],
     [ "MRCylinderApproximator.h", "MRCylinderApproximator_8h.html", "MRCylinderApproximator_8h" ],

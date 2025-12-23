@@ -69,6 +69,7 @@ var hierarchy =
     [ "mrmeshpy.WatershedGraph.BasinInfo", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html", null ],
     [ "mrmeshpy.BasinVolumeCalculator", "classmrmeshpy_1_1BasinVolumeCalculator.html", null ],
     [ "mrmeshpy.WatershedGraph.BdInfo", "classmrmeshpy_1_1WatershedGraph_1_1BdInfo.html", null ],
+    [ "mrmeshpy.BendContoursAlongCurveParams", "classmrmeshpy_1_1BendContoursAlongCurveParams.html", null ],
     [ "mrmeshpy.BestFitParabolad", "classmrmeshpy_1_1BestFitParabolad.html", null ],
     [ "mrmeshpy.BestFitParabolaf", "classmrmeshpy_1_1BestFitParabolaf.html", null ],
     [ "mrmeshpy.Features.Traits.Binary_Features_Primitives_ConeSegment_Features_Primitives_ConeSegment", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html", null ],
@@ -199,6 +200,7 @@ var hierarchy =
     [ "mrmeshpy.CubicBezierCurve2f", "classmrmeshpy_1_1CubicBezierCurve2f.html", null ],
     [ "mrmeshpy.CubicBezierCurve3d", "classmrmeshpy_1_1CubicBezierCurve3d.html", null ],
     [ "mrmeshpy.CubicBezierCurve3f", "classmrmeshpy_1_1CubicBezierCurve3f.html", null ],
+    [ "mrmeshpy.CurvePoint", "classmrmeshpy_1_1CurvePoint.html", null ],
     [ "mrmeshpy.CutByProjectionSettings", "classmrmeshpy_1_1CutByProjectionSettings.html", null ],
     [ "mrmeshpy.CutMeshParameters", "classmrmeshpy_1_1CutMeshParameters.html", null ],
     [ "mrmeshpy.CutMeshResult", "classmrmeshpy_1_1CutMeshResult.html", null ],
@@ -351,6 +353,7 @@ var hierarchy =
     [ "mrmeshpy.func_bool_from_unsigned_long_unsigned_long", "classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long.html", null ],
     [ "mrmeshpy.func_bool_from_unsigned_long_unsigned_long_unsigned_long_unsigned_long_unsigned_long_unsigned_long", "classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long__unsigned__long__unsigned__lon5cd9c59b205bf475b27cff8147219239.html", null ],
     [ "mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult", "classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult.html", null ],
+    [ "mrmeshpy.func_CurvePoint_from_float", "classmrmeshpy_1_1func__CurvePoint__from__float.html", null ],
     [ "mrmeshpy.func_double_from_double_double", "classmrmeshpy_1_1func__double__from__double__double.html", null ],
     [ "mrmeshpy.func_double_from_Id_VertTag_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag.html", null ],
     [ "mrmeshpy.func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html", null ],
@@ -1236,6 +1239,7 @@ var hierarchy =
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],
     [ "mrmeshpy.SurfaceDistanceBuilder", "classmrmeshpy_1_1SurfaceDistanceBuilder.html", null ],
     [ "mrmeshpy.SymbolMeshParams", "classmrmeshpy_1_1SymbolMeshParams.html", [
+      [ "mrmeshpy.BendTextAlongCurveParams", "classmrmeshpy_1_1BendTextAlongCurveParams.html", null ],
       [ "mrmeshpy.TextMeshAlignParams", "classmrmeshpy_1_1TextMeshAlignParams.html", null ]
     ] ],
     [ "mrmeshpy.SymMatrix2b", "classmrmeshpy_1_1SymMatrix2b.html", null ],
