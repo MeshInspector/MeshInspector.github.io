@@ -151,7 +151,7 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <a href="MRBuffer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRNoDefInit_8h.html">MRNoDefInit.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRId_8h.html">MRId.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;concepts&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
@@ -332,7 +332,7 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 </div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRMesh_2MRId_8h_html"><div class="ttname"><a href="MRMesh_2MRId_8h.html">MRId.h</a></div></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRNoDefInit_8h_html"><div class="ttname"><a href="MRNoDefInit_8h.html">MRNoDefInit.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Buffer_html"><div class="ttname"><a href="classMR_1_1Buffer.html">MR::Buffer</a></div><div class="ttdoc">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:54</div></div>
 <div class="ttc" id="aclassMR_1_1Buffer_html_a0aae7e1ae916ef6da5cd9f342f93207c"><div class="ttname"><a href="classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c">MR::Buffer::backId</a></div><div class="ttdeci">I backId() const</div><div class="ttdoc">returns the identifier of the back() element</div><div class="ttdef"><b>Definition</b> MRBuffer.h:104</div></div>
@@ -360,7 +360,7 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="agroup__BasicGroup_html_gab900ba901f90bfe11c4580814af4fbf6"><div class="ttname"><a href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">MR::end</a></div><div class="ttdeci">MR_BIND_IGNORE auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:382</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a43427e0d96ff10e6af29370a3b0d7c17"><div class="ttname"><a href="namespaceMR.html#a43427e0d96ff10e6af29370a3b0d7c17">MR::getAt</a></div><div class="ttdeci">T getAt(const Buffer&lt; T, I &gt; &amp;bmap, I key, T def={})</div><div class="ttdoc">given some buffer map and a key, returns the value associated with the key, or default value if key i...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:119</div></div>
-<div class="ttc" id="anamespaceMR_html_aae89e209e34f26d7ae6dcc7b5e7d2851"><div class="ttname"><a href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">MR::I</a></div><div class="ttdeci">I</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:134</div></div>
+<div class="ttc" id="anamespaceMR_html_aae89e209e34f26d7ae6dcc7b5e7d2851"><div class="ttname"><a href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">MR::I</a></div><div class="ttdeci">I</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:134</div></div>
 <div class="ttc" id="anamespaceMR_html_ab5fd6e1a390fa8c05a8ad7006709dbf2"><div class="ttname"><a href="namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2">MR::compose</a></div><div class="ttdeci">BMap&lt; T, T &gt; compose(const BMap&lt; T, T &gt; &amp;a, const BMap&lt; T, T &gt; &amp;b)</div><div class="ttdoc">computes the composition of two mappings x -&gt; a(b(x))</div><div class="ttdef"><b>Definition</b> MRBuffer.h:159</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html"><div class="ttname"><a href="structMR_1_1BMap.html">MR::BMap</a></div><div class="ttdoc">flat map: I -&gt; T</div><div class="ttdef"><b>Definition</b> MRBuffer.h:143</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html_a092cf8a0fd74634e6e4d50b8cfc9956d"><div class="ttname"><a href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">MR::BMap::b</a></div><div class="ttdeci">Buffer&lt; T, I &gt; b</div><div class="ttdef"><b>Definition</b> MRBuffer.h:144</div></div>

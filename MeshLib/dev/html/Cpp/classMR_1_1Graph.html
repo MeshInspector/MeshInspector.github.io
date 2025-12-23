@@ -183,7 +183,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a01fe9290eb0140ff0193c6ce4a3ea5b8" id="r_a01fe9290eb0140ff0193c6ce4a3ea5b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01fe9290eb0140ff0193c6ce4a3ea5b8">construct</a> (<a class="el" href="#a0f0a516aa03bd6f100040d2696d0c808">NeighboursPerVertex</a> neighboursPerVertex, <a class="el" href="#a429f57208104bd4a3efcceeaa5ba4dce">EndsPerEdge</a> endsPerEdge)</td></tr>
+<tr class="memitem:a01fe9290eb0140ff0193c6ce4a3ea5b8" id="r_a01fe9290eb0140ff0193c6ce4a3ea5b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01fe9290eb0140ff0193c6ce4a3ea5b8">construct</a> (<a class="el" href="#a0f0a516aa03bd6f100040d2696d0c808">NeighboursPerVertex</a> neighboursPerVertex, <a class="el" href="#a429f57208104bd4a3efcceeaa5ba4dce">EndsPerEdge</a> endsPerEdge)</td></tr>
 <tr class="memdesc:a01fe9290eb0140ff0193c6ce4a3ea5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs the graph from all valid vertices and edges  <br /></td></tr>
 <tr class="separator:a01fe9290eb0140ff0193c6ce4a3ea5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac31feb99fa40a7a7fee0c9806f676b11" id="r_ac31feb99fa40a7a7fee0c9806f676b11"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac31feb99fa40a7a7fee0c9806f676b11">vertSize</a> () const</td></tr>
@@ -210,15 +210,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c37e0844926fa87642bc735718dd643" id="r_a0c37e0844926fa87642bc735718dd643"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Graph_1_1EndVertices.html">EndVertices</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c37e0844926fa87642bc735718dd643">ends</a> (<a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:a0c37e0844926fa87642bc735718dd643"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the ends of given edge  <br /></td></tr>
 <tr class="separator:a0c37e0844926fa87642bc735718dd643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5de54676ec0131e5355d47e44f31019d" id="r_a5de54676ec0131e5355d47e44f31019d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de54676ec0131e5355d47e44f31019d">findEdge</a> (<a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> a, <a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> b) const</td></tr>
+<tr class="memitem:a5de54676ec0131e5355d47e44f31019d" id="r_a5de54676ec0131e5355d47e44f31019d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de54676ec0131e5355d47e44f31019d">findEdge</a> (<a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> a, <a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> b) const</td></tr>
 <tr class="memdesc:a5de54676ec0131e5355d47e44f31019d"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and returns edge between vertices a and b; returns invalid edge otherwise  <br /></td></tr>
 <tr class="separator:a5de54676ec0131e5355d47e44f31019d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3097672a81dda206c80984a7fdb0806" id="r_ac3097672a81dda206c80984a7fdb0806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3097672a81dda206c80984a7fdb0806">areNeighbors</a> (<a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> a, <a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> b) const</td></tr>
 <tr class="memdesc:ac3097672a81dda206c80984a7fdb0806"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the vertices a and b are neighbors  <br /></td></tr>
 <tr class="separator:ac3097672a81dda206c80984a7fdb0806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dab2ce76e4259ff2c5d66ec4c68c98a" id="r_a2dab2ce76e4259ff2c5d66ec4c68c98a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dab2ce76e4259ff2c5d66ec4c68c98a">merge</a> (<a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> remnant, <a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> dead, std::function&lt; void(<a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> remnant, <a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> dead)&gt; onMergeEdges)</td></tr>
+<tr class="memitem:a2dab2ce76e4259ff2c5d66ec4c68c98a" id="r_a2dab2ce76e4259ff2c5d66ec4c68c98a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dab2ce76e4259ff2c5d66ec4c68c98a">merge</a> (<a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> remnant, <a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a> dead, std::function&lt; void(<a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> remnant, <a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> dead)&gt; onMergeEdges)</td></tr>
 <tr class="separator:a2dab2ce76e4259ff2c5d66ec4c68c98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c46ebc56429665872ef490d8d8674ce" id="r_a6c46ebc56429665872ef490d8d8674ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c46ebc56429665872ef490d8d8674ce">checkValidity</a> () const</td></tr>
+<tr class="memitem:a6c46ebc56429665872ef490d8d8674ce" id="r_a6c46ebc56429665872ef490d8d8674ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c46ebc56429665872ef490d8d8674ce">checkValidity</a> () const</td></tr>
 <tr class="memdesc:a6c46ebc56429665872ef490d8d8674ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">verifies that all internal data structures are valid  <br /></td></tr>
 <tr class="separator:a6c46ebc56429665872ef490d8d8674ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -362,7 +362,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::Graph::checkValidity </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::Graph::checkValidity </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -381,7 +381,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Graph::construct </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Graph::construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0f0a516aa03bd6f100040d2696d0c808">NeighboursPerVertex</a></td>          <td class="paramname"><span class="paramname"><em>neighboursPerVertex</em></span>, </td>
         </tr>
@@ -461,7 +461,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> MR::Graph::findEdge </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ab7466409c32ef6a047fedfe19ed28c1b">EdgeId</a> MR::Graph::findEdge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -489,7 +489,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Graph::merge </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Graph::merge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aeeffe9dd1229206b5db549f61cbad105">VertId</a></td>          <td class="paramname"><span class="paramname"><em>remnant</em></span>, </td>
         </tr>

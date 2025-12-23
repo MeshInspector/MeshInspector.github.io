@@ -152,10 +152,10 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRCube.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRRegionBoundary.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRVoxels/MROffset.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRCube_8h.html">MRMesh/MRCube.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MROffset_8h.html">MRVoxels/MROffset.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -190,6 +190,10 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRCube_8h_html"><div class="ttname"><a href="./Cpp/MRCube_8h.html">MRCube.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMROffset_8h_html"><div class="ttname"><a href="./Cpp/MROffset_8h.html">MROffset.h</a></div></div>
+<div class="ttc" id="aMRRegionBoundary_8h_html"><div class="ttname"><a href="./Cpp/MRRegionBoundary_8h.html">MRRegionBoundary.h</a></div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a25514d4f7efbcece3bf2daa5fa1bff62"><div class="ttname"><a href="./Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a></div><div class="ttdeci">MRMESH_API std::vector&lt; EdgeLoop &gt; findRightBoundary(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html_a5edbfcffae3bcdb000d83b7c6cf9e050"><div class="ttname"><a href="./Cpp/namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; generalOffsetMesh(const MeshPart &amp;mp, float offset, const GeneralOffsetParameters &amp;params)</div></div>
@@ -313,17 +317,14 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRCube_8h_html"><div class="ttname"><a href="./C/MRCube_8h.html">MRCube.h</a></div></div>
 <div class="ttc" id="aMRCube_8h_html_afa15c5fbdece3d94ef2fe26f2d5112af"><div class="ttname"><a href="./C/MRCube_8h.html#afa15c5fbdece3d94ef2fe26f2d5112af">MR_makeCube</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeCube(const MR_Vector3f *size, const MR_Vector3f *base)</div></div>
 <div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="./C/MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
 <div class="ttc" id="aMRMeshPart_8h_html_aa166b642217494c14ed7f285e1b0fe56"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshPart_Destroy(const MR_MeshPart *_this)</div></div>
 <div class="ttc" id="aMRMeshPart_8h_html_aeeedbba2bfc476ada96fa53559390476"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a></div><div class="ttdeci">MRC_API MR_MeshPart * MR_MeshPart_Construct(const MR_Mesh *m, const MR_FaceBitSet *bs)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
 <div class="ttc" id="aMRMesh_8h_html_a1f50aada1135245acc33337c846e3b12"><div class="ttname"><a href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_Mesh_computeBoundingBox_1(const MR_Mesh *_this, const MR_AffineXf3f *toWorld)</div></div>
-<div class="ttc" id="aMROffset_8h_html"><div class="ttname"><a href="./C/MROffset_8h.html">MROffset.h</a></div></div>
 <div class="ttc" id="aMROffset_8h_html_a037673a64d6abf5896369f3c0074e8dd"><div class="ttname"><a href="./C/MROffset_8h.html#a037673a64d6abf5896369f3c0074e8dd">MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters</a></div><div class="ttdeci">MRC_API MR_BaseShellParameters * MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters(MR_OffsetParameters *object)</div></div>
 <div class="ttc" id="aMROffset_8h_html_a0b86ed39c1cc6ce37262f6b92117eb5b"><div class="ttname"><a href="./C/MROffset_8h.html#a0b86ed39c1cc6ce37262f6b92117eb5b">MR_offsetMesh</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_offsetMesh(const MR_MeshPart *mp, float offset, const MR_OffsetParameters *params)</div></div>
 <div class="ttc" id="aMROffset_8h_html_a6a5ed9741476c84474d56bf269f7e0ac"><div class="ttname"><a href="./C/MROffset_8h.html#a6a5ed9741476c84474d56bf269f7e0ac">MR_BaseShellParameters_Set_voxelSize</a></div><div class="ttdeci">MRC_API void MR_BaseShellParameters_Set_voxelSize(MR_BaseShellParameters *_this, float value)</div></div>

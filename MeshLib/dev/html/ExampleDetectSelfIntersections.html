@@ -150,7 +150,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 <div class="contents">
 <div class="textblock"><p>Following code presents example of finding self-intersecting triangles of single mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRTorus.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRTorus_8h.html">MRMesh/MRTorus.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMatrix3.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRAffineXf.h&quot;</span></div>
@@ -191,6 +191,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRTorus_8h_html"><div class="ttname"><a href="./Cpp/MRTorus_8h.html">MRTorus.h</a></div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga69b56b2d80a7923ebfeed5757d334e4f"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga69b56b2d80a7923ebfeed5757d334e4f">MR::findSelfCollidingTriangles</a></div><div class="ttdeci">MRMESH_API Expected&lt; bool &gt; findSelfCollidingTriangles(const MeshPart &amp;mp, std::vector&lt; FaceFace &gt; *outCollidingPairs, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gac946d92c431583fc7c4d656445ba1c07"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gac946d92c431583fc7c4d656445ba1c07">MR::findSelfCollidingTrianglesBS</a></div><div class="ttdeci">MRMESH_API Expected&lt; FaceBitSet &gt; findSelfCollidingTrianglesBS(const MeshPart &amp;mp, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</div></div>
 <div class="ttc" id="anamespaceMR_html_a169156ebca843c757c06f9fe8cedae47"><div class="ttname"><a href="./Cpp/namespaceMR.html#a169156ebca843c757c06f9fe8cedae47">MR::makeTorusWithSelfIntersections</a></div><div class="ttdeci">MRMESH_API Mesh makeTorusWithSelfIntersections(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
@@ -308,7 +309,6 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 <div class="ttc" id="aMRMeshPart_8h_html_aeeedbba2bfc476ada96fa53559390476"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a></div><div class="ttdeci">MRC_API MR_MeshPart * MR_MeshPart_Construct(const MR_Mesh *m, const MR_FaceBitSet *bs)</div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
-<div class="ttc" id="aMRTorus_8h_html"><div class="ttname"><a href="./C/MRTorus_8h.html">MRTorus.h</a></div></div>
 <div class="ttc" id="aMRTorus_8h_html_a092c27385de77ac4ed467f3b117450d2"><div class="ttname"><a href="./C/MRTorus_8h.html#a092c27385de77ac4ed467f3b117450d2">MR_makeTorusWithSelfIntersections</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeTorusWithSelfIntersections(const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, MR_std_vector_MR_Vector3f *points)</div></div>
 <div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div></div>
 <div class="ttc" id="aexpected__MR__FaceBitSet__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__FaceBitSet__std__string_8h.html">expected_MR_FaceBitSet_std_string.h</a></div></div>

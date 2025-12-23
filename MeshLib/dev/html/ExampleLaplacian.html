@@ -152,10 +152,10 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRExpandShrink.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRLaplacian.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRLaplacian_8h.html">MRMesh/MRLaplacian.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -206,6 +206,9 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRLaplacian_8h_html"><div class="ttname"><a href="./Cpp/MRLaplacian_8h.html">MRLaplacian.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html"><div class="ttname"><a href="./Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
@@ -343,16 +346,13 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="ttc" id="aMREnums_8h_html_ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2"><div class="ttname"><a href="./C/MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2">MR_VertexMass_NeiArea</a></div><div class="ttdeci">MR_VertexMass_NeiArea</div></div>
 <div class="ttc" id="aMRExpandShrink_8h_html"><div class="ttname"><a href="./C/MRExpandShrink_8h.html">MRExpandShrink.h</a></div></div>
 <div class="ttc" id="aMRExpandShrink_8h_html_aaa90fe9a5c2e826fa78f413db206bfc1"><div class="ttname"><a href="./C/MRExpandShrink_8h.html#aaa90fe9a5c2e826fa78f413db206bfc1">MR_expand_MR_VertBitSet</a></div><div class="ttdeci">MRC_API void MR_expand_MR_VertBitSet(const MR_MeshTopology *topology, MR_VertBitSet *region, const int *hops)</div></div>
-<div class="ttc" id="aMRLaplacian_8h_html"><div class="ttname"><a href="./C/MRLaplacian_8h.html">MRLaplacian.h</a></div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_a120c044537eb88af38dc10d43924a0b1"><div class="ttname"><a href="./C/MRLaplacian_8h.html#a120c044537eb88af38dc10d43924a0b1">MR_Laplacian_init</a></div><div class="ttdeci">MRC_API void MR_Laplacian_init(MR_Laplacian *_this, const MR_VertBitSet *freeVerts, MR_EdgeWeights weights, const MR_VertexMass *vmass, const MR_Laplacian_RememberShape *rem)</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_a5a83991ce0ccd72650f7dedbedd89cae"><div class="ttname"><a href="./C/MRLaplacian_8h.html#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a></div><div class="ttdeci">struct MR_Laplacian MR_Laplacian</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_a84e5d167782ec53349b7040fb657587f"><div class="ttname"><a href="./C/MRLaplacian_8h.html#a84e5d167782ec53349b7040fb657587f">MR_Laplacian_Construct_1</a></div><div class="ttdeci">MRC_API MR_Laplacian * MR_Laplacian_Construct_1(MR_Mesh *mesh)</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_ac6df2d6a7e2a2ea7f31402a4e2bedb59"><div class="ttname"><a href="./C/MRLaplacian_8h.html#ac6df2d6a7e2a2ea7f31402a4e2bedb59">MR_Laplacian_Destroy</a></div><div class="ttdeci">MRC_API void MR_Laplacian_Destroy(const MR_Laplacian *_this)</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_acb412025a702424fa10de3113dfdcfbb"><div class="ttname"><a href="./C/MRLaplacian_8h.html#acb412025a702424fa10de3113dfdcfbb">MR_Laplacian_apply</a></div><div class="ttdeci">MRC_API void MR_Laplacian_apply(MR_Laplacian *_this)</div></div>
 <div class="ttc" id="aMRLaplacian_8h_html_ae214e23246bc313c35a071d88706ee7f"><div class="ttname"><a href="./C/MRLaplacian_8h.html#ae214e23246bc313c35a071d88706ee7f">MR_Laplacian_fixVertex_3</a></div><div class="ttdeci">MRC_API void MR_Laplacian_fixVertex_3(MR_Laplacian *_this, MR_VertId v, const MR_Vector3f *fixedPos, const bool *smooth)</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html"><div class="ttname"><a href="./C/MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html_a78cb14e4de4c37e7f688e383d5b2c4ee"><div class="ttname"><a href="./C/MRMeshTopology_8h.html#a78cb14e4de4c37e7f688e383d5b2c4ee">MR_MeshTopology_getValidVerts</a></div><div class="ttdeci">MRC_API const MR_VertBitSet * MR_MeshTopology_getValidVerts(const MR_MeshTopology *_this)</div></div>

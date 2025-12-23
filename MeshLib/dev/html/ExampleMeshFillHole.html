@@ -152,8 +152,8 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFillHole.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
@@ -176,6 +176,8 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span> );</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_ga16a9d70b647d9b9f745ab650b21a975e"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a></div><div class="ttdeci">MRMESH_API FillHoleMetric getUniversalMetric(const Mesh &amp;mesh)</div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_gac972786878ec37756f5a95814b657a05"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a></div><div class="ttdeci">MRMESH_API void fillHole(Mesh &amp;mesh, EdgeId a, const FillHoleParams &amp;params={})</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
@@ -325,12 +327,10 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="ttc" id="aMRMeshFillHole_8h_html_a9820db042acc17e658076db7225cd2f1"><div class="ttname"><a href="./C/MRMeshFillHole_8h.html#a9820db042acc17e658076db7225cd2f1">MR_FillHoleParams_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_FillHoleParams * MR_FillHoleParams_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRMeshFillHole_8h_html_aacb6e8956c70256df406685442c141ab"><div class="ttname"><a href="./C/MRMeshFillHole_8h.html#aacb6e8956c70256df406685442c141ab">MR_fillHole</a></div><div class="ttdeci">MRC_API void MR_fillHole(MR_Mesh *mesh, MR_EdgeId a, const MR_FillHoleParams *params)</div></div>
 <div class="ttc" id="aMRMeshFillHole_8h_html_ac3f24493604d13d8622310220f71d7f4"><div class="ttname"><a href="./C/MRMeshFillHole_8h.html#ac3f24493604d13d8622310220f71d7f4">MR_FillHoleParams_Set_outNewFaces</a></div><div class="ttdeci">MRC_API void MR_FillHoleParams_Set_outNewFaces(MR_FillHoleParams *_this, MR_FaceBitSet *value)</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshMetrics_8h_html"><div class="ttname"><a href="./C/MRMeshMetrics_8h.html">MRMeshMetrics.h</a></div></div>
 <div class="ttc" id="aMRMeshMetrics_8h_html_a34e8e448e50bdff6125aafa6259af546"><div class="ttname"><a href="./C/MRMeshMetrics_8h.html#a34e8e448e50bdff6125aafa6259af546">MR_getUniversalMetric</a></div><div class="ttdeci">MRC_API MR_FillHoleMetric * MR_getUniversalMetric(const MR_Mesh *mesh)</div></div>
 <div class="ttc" id="aMRMeshMetrics_8h_html_ade64d89e14732245a119db72f913913d"><div class="ttname"><a href="./C/MRMeshMetrics_8h.html#ade64d89e14732245a119db72f913913d">MR_FillHoleMetric_Destroy</a></div><div class="ttdeci">MRC_API void MR_FillHoleMetric_Destroy(const MR_FillHoleMetric *_this)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html"><div class="ttname"><a href="./C/MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html_a51f7e44ab25e1b16a1bccd709c62d76d"><div class="ttname"><a href="./C/MRMeshTopology_8h.html#a51f7e44ab25e1b16a1bccd709c62d76d">MR_MeshTopology_findHoleRepresentiveEdges</a></div><div class="ttdeci">MRC_API MR_std_vector_MR_EdgeId * MR_MeshTopology_findHoleRepresentiveEdges(const MR_MeshTopology *_this, const MR_FaceBitSet *region)</div></div>

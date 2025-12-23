@@ -150,10 +150,10 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="contents">
 <div class="textblock"><p>Example of generating a triangulation from a terrain scan (specific pointcloud).</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRTerrainTriangulation_8h.html">MRMesh/MRTerrainTriangulation.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRColor.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -188,6 +188,8 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRTerrainTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MRTerrainTriangulation_8h.html">MRTerrainTriangulation.h</a></div></div>
 <div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
@@ -293,7 +295,6 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="ttc" id="aMRCtm_8h_html_a67029d3455a5c9aa45725d3c35e1e4df"><div class="ttname"><a href="./C/MRCtm_8h.html#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a></div><div class="ttdeci">struct MR_PointsLoadSettings MR_PointsLoadSettings</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a9dbbf904c32d71d8c8ec8da2165b4a12"><div class="ttname"><a href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></div><div class="ttdeci">struct MR_expected_MR_PointCloud_std_string MR_expected_MR_PointCloud_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./C/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
 <div class="ttc" id="aMRPointCloud_8h_html_a99e5242c49867b367f981b73578c61b1"><div class="ttname"><a href="./C/MRPointCloud_8h.html#a99e5242c49867b367f981b73578c61b1">MR_PointCloud_Get_points</a></div><div class="ttdeci">MRC_API const MR_VertCoords * MR_PointCloud_Get_points(const MR_PointCloud *_this)</div></div>
@@ -302,7 +303,6 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="ttc" id="aMRPointsLoadSettings_8h_html_a214631ef4cbdd805bf6b37eac808cac6"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html#a214631ef4cbdd805bf6b37eac808cac6">MR_PointsLoadSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_PointsLoadSettings * MR_PointsLoadSettings_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRPointsLoadSettings_8h_html_a4279c9d688ea885b2cedb30e37e268ab"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html#a4279c9d688ea885b2cedb30e37e268ab">MR_PointsLoadSettings_Set_colors</a></div><div class="ttdeci">MRC_API void MR_PointsLoadSettings_Set_colors(MR_PointsLoadSettings *_this, MR_VertColors *value)</div></div>
 <div class="ttc" id="aMRPointsLoadSettings_8h_html_a7af9da38900409c034491eb30227eca2"><div class="ttname"><a href="./C/MRPointsLoadSettings_8h.html#a7af9da38900409c034491eb30227eca2">MR_PointsLoadSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_PointsLoadSettings_Destroy(const MR_PointsLoadSettings *_this)</div></div>
-<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./C/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRPointsLoad_8h_html_aef738c6568d3615b58a044596a5f47df"><div class="ttname"><a href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</div></div>
 <div class="ttc" id="aMRSaveSettings_8h_html"><div class="ttname"><a href="./C/MRSaveSettings_8h.html">MRSaveSettings.h</a></div></div>
 <div class="ttc" id="aMRSaveSettings_8h_html_a319dc4fbf88c20fb1e2a2d7c202483ad"><div class="ttname"><a href="./C/MRSaveSettings_8h.html#a319dc4fbf88c20fb1e2a2d7c202483ad">MR_SaveSettings_Set_colors</a></div><div class="ttdeci">MRC_API void MR_SaveSettings_Set_colors(MR_SaveSettings *_this, const MR_VertColors *value)</div></div>

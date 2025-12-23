@@ -5,7 +5,6 @@ var dir_4c7ccc9b91e63e9e00b4c1745f04306a =
     [ "MREmbeddedPython", "dir_dd84364f67fdf7083e42255e7947820b.html", "dir_dd84364f67fdf7083e42255e7947820b" ],
     [ "MRIOExtras", "dir_39c5de6d7d47f9beb73c4f3d8933caac.html", "dir_39c5de6d7d47f9beb73c4f3d8933caac" ],
     [ "MRMesh", "dir_3b80d7f2783cad7ee402cf6b731f4ae2.html", "dir_3b80d7f2783cad7ee402cf6b731f4ae2" ],
-    [ "MRMeshC", "dir_9de905cc127d1bc2fe28de0c234022ea.html", "dir_9de905cc127d1bc2fe28de0c234022ea" ],
     [ "mrmeshnumpy", "dir_765869fc176298f15433e5412f6f8b10.html", "dir_765869fc176298f15433e5412f6f8b10" ],
     [ "MRPython", "dir_c97642f483605d674dddd451db5b5449.html", "dir_c97642f483605d674dddd451db5b5449" ],
     [ "MRSymbolMesh", "dir_ef0277a89d5fb9bebf121b9e6c2cecc9.html", "dir_ef0277a89d5fb9bebf121b9e6c2cecc9" ],

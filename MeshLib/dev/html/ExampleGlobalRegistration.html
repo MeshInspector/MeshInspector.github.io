@@ -151,10 +151,10 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="textblock"><p>Example of Global Registration</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMultiwayICP.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMultiwayICP_8h.html">MRMesh/MRMultiwayICP.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsSave_8h.html">MRMesh/MRPointsSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -240,6 +240,9 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMultiwayICP_8h_html"><div class="ttname"><a href="./Cpp/MRMultiwayICP_8h.html">MRMultiwayICP.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
+<div class="ttc" id="aMRPointsSave_8h_html"><div class="ttname"><a href="./Cpp/MRPointsSave_8h.html">MRPointsSave.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayICP_html"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="./Cpp/classMR_1_1Vector.html">MR::Vector</a></div></div>
 <div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
@@ -531,7 +534,6 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="ttc" id="aMRMeshOrPoints_8h_html_ac7317dc1ee8bd3e1ac10556e67b912b9"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#ac7317dc1ee8bd3e1ac10556e67b912b9">MR_MeshOrPointsXf_Get_obj</a></div><div class="ttdeci">MRC_API const MR_MeshOrPoints * MR_MeshOrPointsXf_Get_obj(const MR_MeshOrPointsXf *_this)</div></div>
 <div class="ttc" id="aMRMeshOrPoints_8h_html_ad242b292382e7e6964724e5539b5d77f"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#ad242b292382e7e6964724e5539b5d77f">MR_MeshOrPoints_Construct_MR_PointCloud</a></div><div class="ttdeci">MRC_API MR_MeshOrPoints * MR_MeshOrPoints_Construct_MR_PointCloud(const MR_PointCloud *pc)</div></div>
 <div class="ttc" id="aMRMeshOrPoints_8h_html_af49a1e3d76cdf0a15c4be70c3ac954b7"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#af49a1e3d76cdf0a15c4be70c3ac954b7">MR_MeshOrPointsXf_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshOrPointsXf_Destroy(const MR_MeshOrPointsXf *_this)</div></div>
-<div class="ttc" id="aMRMultiwayICP_8h_html"><div class="ttname"><a href="./C/MRMultiwayICP_8h.html">MRMultiwayICP.h</a></div></div>
 <div class="ttc" id="aMRMultiwayICP_8h_html_a00fe5c988068584ac540c6e4137366a6"><div class="ttname"><a href="./C/MRMultiwayICP_8h.html#a00fe5c988068584ac540c6e4137366a6">MR_MultiwayICP_calculateTransformations</a></div><div class="ttdeci">MRC_API MR_Vector_MR_AffineXf3f_MR_ObjId * MR_MultiwayICP_calculateTransformations(MR_MultiwayICP *_this, const MR_std_function_bool_from_float *cb)</div></div>
 <div class="ttc" id="aMRMultiwayICP_8h_html_a1edcd46b4c48f95325870e7bae5ae63a"><div class="ttname"><a href="./C/MRMultiwayICP_8h.html#a1edcd46b4c48f95325870e7bae5ae63a">MR_MultiwayICPSamplingParameters</a></div><div class="ttdeci">struct MR_MultiwayICPSamplingParameters MR_MultiwayICPSamplingParameters</div></div>
 <div class="ttc" id="aMRMultiwayICP_8h_html_a2210dd92fb063bc95b4c0ecdfe4d0358"><div class="ttname"><a href="./C/MRMultiwayICP_8h.html#a2210dd92fb063bc95b4c0ecdfe4d0358">MR_MultiwayICP_Destroy</a></div><div class="ttdeci">MRC_API void MR_MultiwayICP_Destroy(const MR_MultiwayICP *_this)</div></div>
@@ -555,9 +557,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="ttc" id="aMRPointCloud_8h_html_a2d04585a52a8fe0a2d41ec2b1ed09237"><div class="ttname"><a href="./C/MRPointCloud_8h.html#a2d04585a52a8fe0a2d41ec2b1ed09237">MR_PointCloud_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_PointCloud * MR_PointCloud_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRPointCloud_8h_html_a99e5242c49867b367f981b73578c61b1"><div class="ttname"><a href="./C/MRPointCloud_8h.html#a99e5242c49867b367f981b73578c61b1">MR_PointCloud_Get_points</a></div><div class="ttdeci">MRC_API const MR_VertCoords * MR_PointCloud_Get_points(const MR_PointCloud *_this)</div></div>
 <div class="ttc" id="aMRPointCloud_8h_html_ab779f06f061af58a1905e4d5b5e23e20"><div class="ttname"><a href="./C/MRPointCloud_8h.html#ab779f06f061af58a1905e4d5b5e23e20">MR_PointCloud_Destroy</a></div><div class="ttdeci">MRC_API void MR_PointCloud_Destroy(const MR_PointCloud *_this)</div></div>
-<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./C/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRPointsLoad_8h_html_aef738c6568d3615b58a044596a5f47df"><div class="ttname"><a href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</div></div>
-<div class="ttc" id="aMRPointsSave_8h_html"><div class="ttname"><a href="./C/MRPointsSave_8h.html">MRPointsSave.h</a></div></div>
 <div class="ttc" id="aMRPointsSave_8h_html_ad02ea69d62be4612110cdc9191874717"><div class="ttname"><a href="./C/MRPointsSave_8h.html#ad02ea69d62be4612110cdc9191874717">MR_PointsSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_PointsSave_toAnySupportedFormat_3(const MR_PointCloud *points, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRString_8h_html"><div class="ttname"><a href="./C/MRString_8h.html">MRString.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>

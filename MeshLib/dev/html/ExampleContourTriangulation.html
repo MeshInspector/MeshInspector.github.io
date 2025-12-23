@@ -155,7 +155,7 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPolyline_8h.html">MRMesh/MRPolyline.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
@@ -189,6 +189,7 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="ttc" id="aMR2DContoursTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MR2DContoursTriangulation_8h.html">MR2DContoursTriangulation.h</a></div></div>
 <div class="ttc" id="aMRDistanceMap_8h_html"><div class="ttname"><a href="./Cpp/MRDistanceMap_8h.html">MRDistanceMap.h</a></div></div>
 <div class="ttc" id="aMRImageLoad_8h_html"><div class="ttname"><a href="./Cpp/MRImageLoad_8h.html">MRImageLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRPolyline_8h_html"><div class="ttname"><a href="./Cpp/MRPolyline_8h.html">MRPolyline.h</a></div></div>
 <div class="ttc" id="agroup__DistanceMapGroup_html_ga91dadb5d280efea2e31e4620ed69cf56"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></div><div class="ttdeci">MRMESH_API Polyline2 distanceMapTo2DIsoPolyline(const DistanceMap &amp;distMap, float isoValue)</div></div>
 <div class="ttc" id="agroup__DistanceMapGroup_html_gabfddf0510446a24e68326d0574949301"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a></div><div class="ttdeci">MRMESH_API Expected&lt; DistanceMap &gt; convertImageToDistanceMap(const Image &amp;image, float threshold=1.f/255, bool invert=true)</div></div>
@@ -278,7 +279,6 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="ttc" id="aMRImageLoad_8h_html_af48f8daf11d1aac28ea705de5cfeee88"><div class="ttname"><a href="./C/MRImageLoad_8h.html#af48f8daf11d1aac28ea705de5cfeee88">MR_ImageLoad_fromAnySupportedFormat</a></div><div class="ttdeci">MRC_API MR_expected_MR_Image_std_string * MR_ImageLoad_fromAnySupportedFormat(const char *path, const char *path_end)</div></div>
 <div class="ttc" id="aMRJpeg_8h_html_a4b3fdef77440565efc1c3cf3be1904f6"><div class="ttname"><a href="./C/MRJpeg_8h.html#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Image_std_string MR_expected_MR_Image_std_string</div></div>
 <div class="ttc" id="aMRJpeg_8h_html_a5e2943bfe5a7ecddf6b533bccae5f9c0"><div class="ttname"><a href="./C/MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></div><div class="ttdeci">struct MR_Image MR_Image</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>

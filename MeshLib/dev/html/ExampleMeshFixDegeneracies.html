@@ -151,11 +151,11 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html',''); initResizable(tr
 <div class="textblock"><p>Example of fixing degenerated faces</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFixer.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
@@ -175,6 +175,8 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html',''); initResizable(tr
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshFixer_8h_html"><div class="ttname"><a href="./Cpp/MRMeshFixer_8h.html">MRMeshFixer.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="agroup__MeshFixerGroup_html_gad11bed424b514b2e835eb9ba644dd4eb"><div class="ttname"><a href="./Cpp/group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb">MR::fixMeshDegeneracies</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; fixMeshDegeneracies(Mesh &amp;mesh, const FixMeshDegeneraciesParams &amp;params)</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
@@ -271,14 +273,12 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html',''); initResizable(tr
 <div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRMeshFixer_8h_html"><div class="ttname"><a href="./C/MRMeshFixer_8h.html">MRMeshFixer.h</a></div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html_a0db332c93f0c7b31840f4c61f2f59b3d"><div class="ttname"><a href="./C/MRMeshFixer_8h.html#a0db332c93f0c7b31840f4c61f2f59b3d">MR_FixMeshDegeneraciesParams_Destroy</a></div><div class="ttdeci">MRC_API void MR_FixMeshDegeneraciesParams_Destroy(const MR_FixMeshDegeneraciesParams *_this)</div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html_a29613379c8b4b8d35b8d9000951b64b9"><div class="ttname"><a href="./C/MRMeshFixer_8h.html#a29613379c8b4b8d35b8d9000951b64b9">MR_FixMeshDegeneraciesParams_Set_maxDeviation</a></div><div class="ttdeci">MRC_API void MR_FixMeshDegeneraciesParams_Set_maxDeviation(MR_FixMeshDegeneraciesParams *_this, float value)</div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html_a47e489904520d211193647c552f184e7"><div class="ttname"><a href="./C/MRMeshFixer_8h.html#a47e489904520d211193647c552f184e7">MR_fixMeshDegeneracies</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_fixMeshDegeneracies(MR_Mesh *mesh, const MR_FixMeshDegeneraciesParams *params)</div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html_aa82e31ecefb88180af57e86dc24fa6bd"><div class="ttname"><a href="./C/MRMeshFixer_8h.html#aa82e31ecefb88180af57e86dc24fa6bd">MR_FixMeshDegeneraciesParams_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_FixMeshDegeneraciesParams * MR_FixMeshDegeneraciesParams_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html_ae23e484f755fe5b9b13b0ebb4972d6b9"><div class="ttname"><a href="./C/MRMeshFixer_8h.html#ae23e484f755fe5b9b13b0ebb4972d6b9">MR_FixMeshDegeneraciesParams_Set_tinyEdgeLength</a></div><div class="ttdeci">MRC_API void MR_FixMeshDegeneraciesParams_Set_tinyEdgeLength(MR_FixMeshDegeneraciesParams *_this, float value)</div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html_afe9246c90eb396b143e97e632c16430f"><div class="ttname"><a href="./C/MRMeshFixer_8h.html#afe9246c90eb396b143e97e632c16430f">MR_FixMeshDegeneraciesParams</a></div><div class="ttdeci">struct MR_FixMeshDegeneraciesParams MR_FixMeshDegeneraciesParams</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>

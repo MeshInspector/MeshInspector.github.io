@@ -150,10 +150,10 @@ $(function(){initNavTree('ExamplePointsToMesh.html',''); initResizable(true); })
 <div class="contents">
 <div class="textblock"><p>Example of generating a triangulation from a pointcloud.</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloudTriangulation.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloudTriangulation_8h.html">MRMesh/MRPointCloudTriangulation.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
@@ -177,6 +177,9 @@ $(function(){initNavTree('ExamplePointsToMesh.html',''); initResizable(true); })
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRPointCloudTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudTriangulation_8h.html">MRPointCloudTriangulation.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__PointCloudTriangulationGroup_html_ga9a35a19f982f5409d7939ad87946a479"><div class="ttname"><a href="./Cpp/group__PointCloudTriangulationGroup.html#ga9a35a19f982f5409d7939ad87946a479">MR::triangulatePointCloud</a></div><div class="ttdeci">MRMESH_API std::optional&lt; Mesh &gt; triangulatePointCloud(const PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={}, const ProgressCallback &amp;progressCb={})</div></div>
@@ -242,12 +245,9 @@ $(function(){initNavTree('ExamplePointsToMesh.html',''); initResizable(true); })
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a9dbbf904c32d71d8c8ec8da2165b4a12"><div class="ttname"><a href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></div><div class="ttdeci">struct MR_expected_MR_PointCloud_std_string MR_expected_MR_PointCloud_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
-<div class="ttc" id="aMRPointCloudTriangulation_8h_html"><div class="ttname"><a href="./C/MRPointCloudTriangulation_8h.html">MRPointCloudTriangulation.h</a></div></div>
 <div class="ttc" id="aMRPointCloudTriangulation_8h_html_a553db14204b082fcea32628c3b3df80f"><div class="ttname"><a href="./C/MRPointCloudTriangulation_8h.html#a553db14204b082fcea32628c3b3df80f">MR_triangulatePointCloud</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_Mesh * MR_triangulatePointCloud(const MR_PointCloud *pointCloud, const MR_TriangulationParameters *params, const MR_std_function_bool_from_float *progressCb)</div></div>
 <div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./C/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
-<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./C/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRPointsLoad_8h_html_aef738c6568d3615b58a044596a5f47df"><div class="ttname"><a href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</div></div>
 <div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
 <div class="ttc" id="aexpected__MR__PointCloud__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__PointCloud__std__string_8h.html">expected_MR_PointCloud_std_string.h</a></div></div>

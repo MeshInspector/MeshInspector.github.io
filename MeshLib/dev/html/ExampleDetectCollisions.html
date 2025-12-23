@@ -150,7 +150,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><p>Following code presents example of finding collision triangles of two meshes</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMakeSphereMesh.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMakeSphereMesh_8h.html">MRMesh/MRMakeSphereMesh.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMatrix3.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRAffineXf.h&quot;</span></div>
@@ -177,6 +177,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMakeSphereMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMakeSphereMesh_8h.html">MRMakeSphereMesh.h</a></div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga47e983a2ba53dbe6d49313488f3cae23"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23">MR::findCollidingTriangleBitsets</a></div><div class="ttdeci">MRMESH_API std::pair&lt; FaceBitSet, FaceBitSet &gt; findCollidingTriangleBitsets(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gaaeb209f0c917451a03debbf058fc39e6"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6">MR::findCollidingTriangles</a></div><div class="ttdeci">MRMESH_API std::vector&lt; FaceFace &gt; findCollidingTriangles(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</div></div>
 <div class="ttc" id="anamespaceMR_html_a669b6772939a2427c2564e7a4a66b25e"><div class="ttname"><a href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></div><div class="ttdeci">MRMESH_API Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
@@ -282,7 +283,6 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="ttc" id="aMRFaceFace_8h_html_a783f59febd8b2a48e01179e3a4228715"><div class="ttname"><a href="./C/MRFaceFace_8h.html#a783f59febd8b2a48e01179e3a4228715">MR_FaceFace_Get_bFace</a></div><div class="ttdeci">MRC_API const MR_FaceId * MR_FaceFace_Get_bFace(const MR_FaceFace *_this)</div></div>
 <div class="ttc" id="aMRFaceFace_8h_html_a974f01b9647664814573a9c0f47443e6"><div class="ttname"><a href="./C/MRFaceFace_8h.html#a974f01b9647664814573a9c0f47443e6">MR_FaceFace_Get_aFace</a></div><div class="ttdeci">MRC_API const MR_FaceId * MR_FaceFace_Get_aFace(const MR_FaceFace *_this)</div></div>
 <div class="ttc" id="aMRId_8h_html_a42a6f5b90c643e1e1e727f7aa39c37fd"><div class="ttname"><a href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a></div><div class="ttdeci">MRC_API int * MR_FaceId_get(MR_FaceId *_this)</div></div>
-<div class="ttc" id="aMRMakeSphereMesh_8h_html"><div class="ttname"><a href="./C/MRMakeSphereMesh_8h.html">MRMakeSphereMesh.h</a></div></div>
 <div class="ttc" id="aMRMakeSphereMesh_8h_html_a13d746bd629f411a1b204ed144e88ea6"><div class="ttname"><a href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeUVSphere(const float *radius, const int *horisontalResolution, const int *verticalResolution)</div></div>
 <div class="ttc" id="aMRMeshCollide_8h_html"><div class="ttname"><a href="./C/MRMeshCollide_8h.html">MRMeshCollide.h</a></div></div>
 <div class="ttc" id="aMRMeshCollide_8h_html_a43987a7ef95446878c91e59b0ef55b11"><div class="ttname"><a href="./C/MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a></div><div class="ttdeci">struct MR_std_vector_MR_FaceFace MR_std_vector_MR_FaceFace</div></div>

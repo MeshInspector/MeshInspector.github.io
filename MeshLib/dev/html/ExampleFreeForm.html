@@ -150,10 +150,10 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><p>Example of using Free Form deformation of the mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRFreeFormDeformer.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRFreeFormDeformer_8h.html">MRMesh/MRFreeFormDeformer.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -198,6 +198,9 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRFreeFormDeformer_8h_html"><div class="ttname"><a href="./Cpp/MRFreeFormDeformer_8h.html">MRFreeFormDeformer.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FreeFormDeformer_html"><div class="ttname"><a href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
@@ -297,16 +300,13 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="ttc" id="aMRBox_8h_html_a6be85af9b72ade6b1db4c71b8a4575ed"><div class="ttname"><a href="./C/MRBox_8h.html#a6be85af9b72ade6b1db4c71b8a4575ed">MR_Box3f_center</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Box3f_center(const MR_Box3f *_this)</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html">MRFreeFormDeformer.h</a></div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html_a1273be31bdf185e5805957f56e83c49c"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a></div><div class="ttdeci">struct MR_FreeFormDeformer MR_FreeFormDeformer</div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html_a2a20dce6e022b0dcc92b4dafa3c9f64a"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a2a20dce6e022b0dcc92b4dafa3c9f64a">MR_FreeFormDeformer_init</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_init(MR_FreeFormDeformer *_this, const MR_Vector3i *resolution, const MR_Box3f *initialBox)</div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html_a386588c351fc75656e7bd387a9071239"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a386588c351fc75656e7bd387a9071239">MR_FreeFormDeformer_setRefGridPointPosition</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_setRefGridPointPosition(MR_FreeFormDeformer *_this, const MR_Vector3i *coordOfPointInGrid, const MR_Vector3f *newPos)</div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html_a4a1fc3d64255a69db4474c9a6e50db30"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a4a1fc3d64255a69db4474c9a6e50db30">MR_FreeFormDeformer_apply</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_apply(const MR_FreeFormDeformer *_this)</div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html_a96b615d161c3cf4c9b107da5e8db679e"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a96b615d161c3cf4c9b107da5e8db679e">MR_FreeFormDeformer_Destroy</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_Destroy(const MR_FreeFormDeformer *_this)</div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html_aedfbefb4e5950d753a636a728c4149ab"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#aedfbefb4e5950d753a636a728c4149ab">MR_FreeFormDeformer_Construct_MR_Mesh</a></div><div class="ttdeci">MRC_API MR_FreeFormDeformer * MR_FreeFormDeformer_Construct_MR_Mesh(MR_Mesh *mesh, const MR_VertBitSet *region)</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html_a1f50aada1135245acc33337c846e3b12"><div class="ttname"><a href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_Mesh_computeBoundingBox_1(const MR_Mesh *_this, const MR_AffineXf3f *toWorld)</div></div>
