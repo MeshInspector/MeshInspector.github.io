@@ -329,11 +329,7 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">Mesh</a>? mesh = mesh_ex.GetValue();</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh is <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(mesh_ex.GetError()!);</div>
-<div class="line"> </div>
+<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
 <div class="line">            MR.Box3f box = mesh.GetBoundingBox();</div>
@@ -359,9 +355,7 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">            mesh.InvalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save deformed mesh</span></div>
-<div class="line">            MR.Expected_Void_StdString save_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (save_ex.GetError() is var error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(error);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -372,7 +366,6 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

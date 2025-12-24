@@ -402,15 +402,8 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load meshes</span></div>
 <div class="line"> </div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_floating_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh_floating_ex.GetError() is var mesh_floating_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(mesh_floating_error);</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh_floating = mesh_floating_ex.GetValue()!;</div>
-<div class="line"> </div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_fixed_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh_fixed_ex.GetError() is var mesh_fixed_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(mesh_fixed_error);</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh_fixed = mesh_fixed_ex.GetValue()!;</div>
+<div class="line">            var mesh_floating = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
+<div class="line">            var mesh_fixed = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
@@ -434,9 +427,7 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">            Console.WriteLine(<span class="stringliteral">&quot;info {0}&quot;</span>, icp.GetStatusInfo());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            MR.Expected_Void_StdString save_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh_floating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (save_ex.GetError() is var save_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(save_error);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh_floating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>

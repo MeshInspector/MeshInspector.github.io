@@ -350,11 +350,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh_ex.GetError() is var mesh_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(mesh_error);</div>
-<div class="line"> </div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh = mesh_ex.GetValue()!;</div>
+<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR.DecimateSettings</a> ds = <span class="keyword">new</span>();</div>
@@ -367,9 +363,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateResult.html">MR.DecimateResult</a> result = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DecimateMesh(mesh, ds);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            MR.Expected_Void_StdString save_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (save_ex.GetError() is var save_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(save_error);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>

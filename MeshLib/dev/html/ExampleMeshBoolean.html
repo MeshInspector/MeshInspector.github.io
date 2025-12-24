@@ -329,15 +329,11 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// load mesh</span></div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_a_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(args[1]);</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh_a_ex.GetError() is var error_a and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(error_a);</div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_b_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(args[2]);</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh_b_ex.GetError() is var error_b and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(error_b);</div>
+<div class="line">            var mesh_a = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(args[1]);</div>
+<div class="line">            var mesh_b = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(args[2]);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// perform boolean operation</span></div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR.BooleanResult</a> res = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Boolean(mesh_a_ex.GetValue()!, mesh_b_ex.GetValue()!, <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.BooleanOperation.Intersection);</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR.BooleanResult</a> res = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Boolean(mesh_a, mesh_b, <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.BooleanOperation.Intersection);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// save result to STL file</span></div>
 <div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(res.Mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>);</div>

@@ -373,10 +373,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">            <span class="keywordtype">string</span> inputFile = args[1];</div>
 <div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 3 ? args[2] : inputFile;</div>
 <div class="line"> </div>
-<div class="line">            MR.Expected_MRMesh_StdString mesh_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(inputFile);</div>
-<div class="line">            <span class="keywordflow">if</span> (mesh_ex.GetError() is var mesh_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(mesh_error);</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh = mesh_ex.GetValue()!;</div>
+<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(inputFile);</div>
 <div class="line"> </div>
 <div class="line">            MR.Std.Vector_MREdgeId holes = mesh.Topology.FindHoleRepresentiveEdges();</div>
 <div class="line"> </div>
@@ -390,9 +387,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">            <span class="comment">// TODO</span></div>
 <div class="line">            <span class="comment">// Console.WriteLine(&quot;Number of new faces: {0}&quot;, fillHoleParams.OutNewFaces.Count());</span></div>
 <div class="line"> </div>
-<div class="line">            MR.Expected_Void_StdString save_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, outputFile);</div>
-<div class="line">            <span class="keywordflow">if</span> (save_ex.GetError() is var save_error and not <span class="keyword">null</span>)</div>
-<div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(save_error);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, outputFile);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>

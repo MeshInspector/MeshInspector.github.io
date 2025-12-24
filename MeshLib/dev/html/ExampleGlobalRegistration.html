@@ -622,15 +622,14 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 2;</div>
+<div class="line">            List&lt;<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">PointCloud</a>&gt; input_pointclouds = <span class="keyword">new</span>();</div>
 <div class="line">            MR.Vector_MRMeshOrPointsXf_MRObjId inputs = <span class="keyword">new</span>();</div>
 <div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
-<div class="line">                MR.Expected_MRPointCloud_StdString file_ex = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsLoad.html">PointsLoad</a>.FromAnySupportedFormat(args[i + 1]);</div>
-<div class="line">                <span class="keywordflow">if</span> (file_ex.GetError() is var error and not <span class="keyword">null</span>)</div>
-<div class="line">                    <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(error);</div>
-<div class="line"> </div>
-<div class="line">                <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> obj = <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>(file_ex.GetValue()!, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
+<div class="line">                var pc = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsLoad.html">PointsLoad</a>.FromAnySupportedFormat(args[i + 1]);</div>
+<div class="line">                input_pointclouds.Add(pc); <span class="comment">// Need this to prevent the point-cloud object from dying too early.</span></div>
+<div class="line">                <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> obj = <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>(pc, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
 <div class="line">                inputs.PushBack(obj);</div>
 <div class="line">                maxBBox.Include(obj.Obj.ComputeBoundingBox());</div>
 <div class="line">            }</div>
