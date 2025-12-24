@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"structMR_1_1VertPathInfo.html#a7a3153da84d3b829b564f595cd7d7a7e":[6,0,0,16,5,1],
+"structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940":[6,0,0,16,5,0],
 "structMR_1_1ViewerSignals.html":[6,0,1,0,1,817],
 "structMR_1_1ViewerSignals.html":[6,0,2,0,1,798],
 "structMR_1_1ViewerSignals.html#a01a10614f8eeeaabcc8e586facc221c5":[6,0,1,0,1,817,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "structMR_1_1VisualObjectTag.html":[6,0,1,0,1,829],
 "structMR_1_1VisualObjectTag.html":[6,0,2,0,1,810],
 "structMR_1_1VisualObjectTag.html#a040722e4a5ea73462bb03e8dc331a267":[6,0,1,0,1,829,0],
-"structMR_1_1VisualObjectTag.html#a040722e4a5ea73462bb03e8dc331a267":[6,0,2,0,1,810,0],
-"structMR_1_1VisualObjectTag.html#aea8f1b7edc9df06d7955309b333fb83c":[6,0,1,0,1,829,1],
-"structMR_1_1VisualObjectTag.html#aea8f1b7edc9df06d7955309b333fb83c":[6,0,2,0,1,810,1]
+"structMR_1_1VisualObjectTag.html#a040722e4a5ea73462bb03e8dc331a267":[6,0,2,0,1,810,0]
 };

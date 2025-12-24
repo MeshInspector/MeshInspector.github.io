@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html":[6,0,1,0,1,345],
+"structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html":[6,0,2,0,1,326],
 "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html":[6,0,1,0,1,346],
 "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html":[6,0,2,0,1,327],
 "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html":[6,0,0,11,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1MarchingCubesParams.html#a5475f37dd7043df6b20d4e93fd65792a":[6,0,1,0,1,373,6],
 "structMR_1_1MarchingCubesParams.html#a5475f37dd7043df6b20d4e93fd65792a":[6,0,2,0,1,354,6],
 "structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,1,0,1,373,1],
-"structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,2,0,1,354,1],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770d":[6,0,1,0,1,373,0],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770d":[6,0,2,0,1,354,0]
+"structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,2,0,1,354,1]
 };

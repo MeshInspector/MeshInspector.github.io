@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1PostResizeListener.html":[6,0,2,0,1,553],
+"structMR_1_1PostResizeListener.html#a2eea5fda2f64fd6b6ac4affb6a8c3028":[6,0,1,0,1,572,1],
 "structMR_1_1PostResizeListener.html#a2eea5fda2f64fd6b6ac4affb6a8c3028":[6,0,2,0,1,553,1],
 "structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[6,0,1,0,1,572,2],
 "structMR_1_1PostResizeListener.html#a45e82319810a797b3b8b082236849a32":[6,0,2,0,1,553,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,1,0,1,604,7],
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,2,0,1,585,7],
 "structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,1,0,1,604,6],
-"structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,2,0,1,585,6],
-"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,35,0],
-"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,2,0,1,20,0]
+"structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,2,0,1,585,6]
 };

@@ -11,5 +11,6 @@ var classMR_1_1ViewerSetup =
     [ "setupExtendedLibraries", "classMR_1_1ViewerSetup.html#a189d84a7bbccaaa4f0936339d4e30b5e", null ],
     [ "setupSettingsManager", "classMR_1_1ViewerSetup.html#a0d93aa8d3e8ee23b874c8c2f6e4a0eca", null ],
     [ "unloadExtendedLibraries", "classMR_1_1ViewerSetup.html#ac2596418ab8194fb9b1818ef2f1f5b31", null ],
-    [ "setupCustomLogSink", "classMR_1_1ViewerSetup.html#a01b6a5ca99cb834e86dbb5494153de45", null ]
+    [ "setupCustomLogSink", "classMR_1_1ViewerSetup.html#a01b6a5ca99cb834e86dbb5494153de45", null ],
+    [ "shutdownCustomLogSink", "classMR_1_1ViewerSetup.html#a7895602798d8ec93e4374882cc9c89c4", null ]
 ];

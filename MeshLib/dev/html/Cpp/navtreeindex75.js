@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[6,0,2,0,1,7,9,0,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html":[6,0,1,0,1,16,10],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html":[6,0,2,0,1,7,10],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a16a77f943f36900d87a81cd083b8b160":[6,0,1,0,1,16,10,12],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a16a77f943f36900d87a81cd083b8b160":[6,0,2,0,1,7,10,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html":[6,0,1,0,1,343],
 "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html":[6,0,2,0,1,324],
 "structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html":[6,0,1,0,1,344],
-"structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html":[6,0,2,0,1,325],
-"structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html":[6,0,1,0,1,345],
-"structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html":[6,0,2,0,1,326]
+"structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html":[6,0,2,0,1,325]
 };
