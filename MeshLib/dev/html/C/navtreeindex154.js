@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a72ecd40cc21861923965148fd782317e":[6,2,1,0,0,0,2,286,3],
 "std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a901dadb3be62f6636d085c6b3433d3f1":[6,2,1,0,0,0,2,286,20],
 "std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a92549f6c5ed60163dd442bf88ce085fc":[6,2,1,0,0,0,2,286,4],
 "std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a96d2422c5df54d698aa5c20cd830c045":[6,2,1,0,0,0,2,286,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "std__shared__ptr__MR__CombinedHistoryAction_8h.html#aa5a7d6b800fd17b1b0a8715561371555":[6,2,1,0,0,0,2,297,4],
 "std__shared__ptr__MR__CombinedHistoryAction_8h.html#aafff09ec9585c2729079a11fe76988e5":[6,2,1,0,0,0,2,297,19],
 "std__shared__ptr__MR__CombinedHistoryAction_8h.html#acc235a5ff64fb8c5ad600b5569568909":[6,2,1,0,0,0,2,297,0],
-"std__shared__ptr__MR__CombinedHistoryAction_8h.html#ad1f5c129d614e7b61cd47ccdb42f8013":[6,2,1,0,0,0,2,297,14],
-"std__shared__ptr__MR__CombinedHistoryAction_8h.html#ad3324709926a09ff0d61b8d2dc7ce9cc":[6,2,1,0,0,0,2,297,13]
+"std__shared__ptr__MR__CombinedHistoryAction_8h.html#ad1f5c129d614e7b61cd47ccdb42f8013":[6,2,1,0,0,0,2,297,14]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX108 =
 {
+"MRUnitInfo_8h.html#ae97dd5994fd2209865ef10d990c10cbd":[6,2,1,0,0,0,1,344,6],
 "MRUnitInfo_8h.html#af4227a14dd3b3a9505f669efbd39b782":[6,2,1,0,0,0,1,344,26],
 "MRUnitInfo_8h.html#af88f9579711ed613f04fac0731b1cbce":[6,2,1,0,0,0,1,344,15],
 "MRUnitInfo_8h.html#af88f9579711ed613f04fac0731b1cbcea7ab4dad658e26569616f2e64c8383567":[6,2,1,0,0,0,1,344,15,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX108 =
 "MRVDBFloatGrid_8h_source.html":[6,2,1,0,0,0,4,27],
 "MRVector2_8h.html":[6,2,1,0,0,0,1,347],
 "MRVector2_8h.html#a00f683372c81f641fc79a98fa9bbba41":[6,2,1,0,0,0,1,347,71],
-"MRVector2_8h.html#a011379ed52b6445de6a84635cbe2b91f":[6,2,1,0,0,0,1,347,158],
-"MRVector2_8h.html#a02253913ea23da3ae6fd76468a07cf59":[6,2,1,0,0,0,1,347,50]
+"MRVector2_8h.html#a011379ed52b6445de6a84635cbe2b91f":[6,2,1,0,0,0,1,347,158]
 };

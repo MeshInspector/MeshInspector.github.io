@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,2,0,1,2,0,1,4],
+"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
+"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,1,0,1,6,3,0],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,2,0,1,2,3,0],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,29],
 "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,29,1],
 "structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,29,4],
-"structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,29,2],
-"structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,29,3],
-"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
-"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5],
-"structMR_1_1FitBoxParams.html":[6,0,1,0,1,266]
+"structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,29,2]
 };

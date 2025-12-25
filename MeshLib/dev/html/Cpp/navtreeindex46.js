@@ -1,5 +1,8 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1TouchesController.html#aefb417e9acab3735ac002007e8954373":[6,0,2,0,1,735,1],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884":[6,0,1,0,1,754,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884":[6,0,2,0,1,735,0],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2":[6,0,1,0,1,754,0,2],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2":[6,0,2,0,1,735,0,2],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d":[6,0,1,0,1,754,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1Vector.html#ad2ec2e50ffddfcbf6168c243fa2da868":[6,0,0,3,16,0],
 "classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f":[6,0,0,3,16,43],
 "classMR_1_1Vector.html#ae03333f72ab69a79829ae5f0d6d426ef":[6,0,0,3,16,42],
-"classMR_1_1Vector.html#ae081234bbf4fef169d61159d617cf5c6":[6,0,0,3,16,37],
-"classMR_1_1Vector.html#af0951dea97b2041bcf0b554bf3f92408":[6,0,0,3,16,13],
-"classMR_1_1Vector.html#af6959f781909eba002ffffbc6fe37c1f":[6,0,0,3,16,25],
-"classMR_1_1Vector.html#af899ea32ccf8bf49bb09d834c9d178dd":[6,0,0,3,16,6]
+"classMR_1_1Vector.html#ae081234bbf4fef169d61159d617cf5c6":[6,0,0,3,16,37]
 };

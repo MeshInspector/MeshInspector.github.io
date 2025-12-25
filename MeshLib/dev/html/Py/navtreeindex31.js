@@ -1,9 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#a9eb980d6799f18bdda34efd179c720ce":[6,1,1,0,1,259,3,1,1],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#aaa9cb6bc63c550dce2def13fb79e0227":[6,1,0,0,2,259,3,1,3],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#aaa9cb6bc63c550dce2def13fb79e0227":[6,1,1,0,1,259,3,1,3],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#ac8065a4e3da0ead7db176148880ba3b4":[6,1,0,0,2,259,3,1,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#ac8065a4e3da0ead7db176148880ba3b4":[6,1,0,0,2,259,3,1,2],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#ac8065a4e3da0ead7db176148880ba3b4":[6,1,1,0,1,259,3,1,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#ac8065a4e3da0ead7db176148880ba3b4":[6,1,1,0,1,259,3,1,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX31 =
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a257abed4098dfafbe461661ab0b522a8":[6,1,1,0,1,266,0,4],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a2d509f1dc27925e2defc4136b3fd9b16":[6,1,0,0,2,266,0,1],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a2d509f1dc27925e2defc4136b3fd9b16":[6,1,1,0,1,266,0,1],
-"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[6,1,0,0,2,266,0,2]
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[6,1,0,0,2,266,0,2],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[6,1,1,0,1,266,0,2],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a4e138b27cd2858793201c7c5b09e8d6a":[6,1,0,0,2,266,0,7],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a4e138b27cd2858793201c7c5b09e8d6a":[6,1,1,0,1,266,0,7],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a5b8c088f39ed0d21457a8ce430cff005":[6,1,0,0,2,266,0,9]
 };

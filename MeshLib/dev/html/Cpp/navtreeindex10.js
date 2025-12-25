@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"MRQuadraticForm_8h_source.html":[6,0,3,0,0,1,4,329],
+"MRQuaternion_8h.html":[6,0,3,0,0,1,4,330],
+"MRQuaternion_8h_source.html":[6,0,3,0,0,1,4,330],
 "MRRadiusCompensation_8h.html":[6,0,3,0,0,1,4,331],
 "MRRadiusCompensation_8h.html#a8544e1baad1fd29e080b74865bb8c0a0":[6,0,3,0,0,1,4,331,1],
 "MRRadiusCompensation_8h_source.html":[6,0,3,0,0,1,4,331],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "MRRigidXf3_8h_source.html":[6,0,3,0,0,1,4,344],
 "MRRingIterator_8h.html":[6,0,3,0,0,1,4,345],
 "MRRingIterator_8h.html#a1ba9e876bd033bc6803332bb875ee138":[6,0,3,0,0,1,4,345,4],
-"MRRingIterator_8h.html#a649c474104e7af19340b277ad9328dfb":[6,0,3,0,0,1,4,345,7],
-"MRRingIterator_8h.html#a9490457d4ac8cdb219f99745b7f0c7c3":[6,0,3,0,0,1,4,345,9],
-"MRRingIterator_8h.html#aa10e8c70214e043065a204ed41c35dd3":[6,0,3,0,0,1,4,345,6],
-"MRRingIterator_8h.html#aa6d03a2d0be4704d9f9287c613a63811":[6,0,3,0,0,1,4,345,8]
+"MRRingIterator_8h.html#a649c474104e7af19340b277ad9328dfb":[6,0,3,0,0,1,4,345,7]
 };

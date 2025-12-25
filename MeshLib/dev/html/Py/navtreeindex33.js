@@ -1,9 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"classmrmeshpy_1_1FindInnerShellSettings.html#a72c8ca5465f281067c2fb58a67ce01a1":[6,1,1,0,1,271,12],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a8cf171a643236e2da54dc36ec3462579":[6,1,0,0,2,271,8],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a8cf171a643236e2da54dc36ec3462579":[6,1,1,0,1,271,8],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a9797aae211bcf405a90c31ae47458b1e":[6,1,0,0,2,271,3],
 "classmrmeshpy_1_1FindInnerShellSettings.html#a9797aae211bcf405a90c31ae47458b1e":[6,1,1,0,1,271,3],
 "classmrmeshpy_1_1FindInnerShellSettings.html#ac866c181d88898ec572b13bb20c1b474":[6,1,0,0,2,271,9],
 "classmrmeshpy_1_1FindInnerShellSettings.html#ac866c181d88898ec572b13bb20c1b474":[6,1,1,0,1,271,9],
@@ -249,5 +245,9 @@ var NAVTREEINDEX33 =
 "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af18fdc54ca3955cdaf64837d7a10f2fe":[6,1,1,0,1,278,2,8],
 "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af1ef57e8bd8ce10b2215b023a604a262":[6,1,0,0,2,278,2,2],
 "classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af1ef57e8bd8ce10b2215b023a604a262":[6,1,1,0,1,278,2,2],
-"classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af6e416d20a2a1f944d2421c842dd21c8":[6,1,0,0,2,278,2,6]
+"classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af6e416d20a2a1f944d2421c842dd21c8":[6,1,0,0,2,278,2,6],
+"classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#af6e416d20a2a1f944d2421c842dd21c8":[6,1,1,0,1,278,2,6],
+"classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#afa8c43fd75e40718742d713e51b6542f":[6,1,0,0,2,278,2,7],
+"classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#afa8c43fd75e40718742d713e51b6542f":[6,1,1,0,1,278,2,7],
+"classmrmeshpy_1_1FixUndercuts_1_1FixParams.html#afea4240bfe67c58ab6db1362a2781955":[6,1,0,0,2,278,2,3]
 };

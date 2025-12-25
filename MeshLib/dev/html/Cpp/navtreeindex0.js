@@ -184,7 +184,9 @@ var NAVTREEINDEX0 =
 "MRAlignContoursToMesh_8h.html#a62494da3f5dfe7a2f5689981a06ceb2b":[6,0,3,0,0,1,4,16,4],
 "MRAlignContoursToMesh_8h_source.html":[6,0,3,0,0,1,4,16],
 "MRAlignTextToMesh_8h.html":[6,0,3,0,0,1,7,0],
-"MRAlignTextToMesh_8h.html#a9bafe960b9b55410a1b62cb009a3636c":[6,0,3,0,0,1,7,0,3],
+"MRAlignTextToMesh_8h.html#a05f47e9b6592b774b9f2ee9b85d4b0b9":[6,0,3,0,0,1,7,0,3],
+"MRAlignTextToMesh_8h.html#acdd1351ccd6463288f05f93dace174d3":[6,0,3,0,0,1,7,0,5],
+"MRAlignTextToMesh_8h.html#afd1074ada517f361b43662a047bf7c6e":[6,0,3,0,0,1,7,0,4],
 "MRAlignTextToMesh_8h.html#afe3d8a0d392d8c39709a37e08a665777":[6,0,3,0,0,1,7,0,2],
 "MRAlignTextToMesh_8h_source.html":[6,0,3,0,0,1,7,0],
 "MRAligningTransform_8h.html":[6,0,3,0,0,1,4,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRBestFitQuadric_8h_source.html":[6,0,3,0,0,1,4,27],
 "MRBestFit_8h.html":[6,0,3,0,0,1,4,24],
 "MRBestFit_8h_source.html":[6,0,3,0,0,1,4,24],
-"MRBezier_8h.html":[6,0,3,0,0,1,4,28],
-"MRBezier_8h_source.html":[6,0,3,0,0,1,4,28],
-"MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0]
+"MRBezier_8h.html":[6,0,3,0,0,1,4,28]
 };
