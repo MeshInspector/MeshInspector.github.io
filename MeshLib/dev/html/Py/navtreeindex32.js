@@ -1,5 +1,13 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a257abed4098dfafbe461661ab0b522a8":[6,1,1,0,1,266,0,4],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a2d509f1dc27925e2defc4136b3fd9b16":[6,1,0,0,2,266,0,1],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a2d509f1dc27925e2defc4136b3fd9b16":[6,1,1,0,1,266,0,1],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[6,1,0,0,2,266,0,2],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[6,1,1,0,1,266,0,2],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a4e138b27cd2858793201c7c5b09e8d6a":[6,1,0,0,2,266,0,7],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a4e138b27cd2858793201c7c5b09e8d6a":[6,1,1,0,1,266,0,7],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a5b8c088f39ed0d21457a8ce430cff005":[6,1,0,0,2,266,0,9],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a5b8c088f39ed0d21457a8ce430cff005":[6,1,1,0,1,266,0,9],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a9f5437b4d40ad0688330090fbb3282ed":[6,1,0,0,2,266,0,11],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a9f5437b4d40ad0688330090fbb3282ed":[6,1,1,0,1,266,0,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1FindInnerShellSettings.html#a217e318d9eb36e7215573be005983570":[6,1,1,0,1,271,1],
 "classmrmeshpy_1_1FindInnerShellSettings.html#a3985c09224132f727847bef390d92318":[6,1,0,0,2,271,2],
 "classmrmeshpy_1_1FindInnerShellSettings.html#a3985c09224132f727847bef390d92318":[6,1,1,0,1,271,2],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a4a4832a0e271b3ffbf4d99b6ac722ec0":[6,1,0,0,2,271,5],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a4a4832a0e271b3ffbf4d99b6ac722ec0":[6,1,1,0,1,271,5],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a4a874ed2051cb41ed9dbe909eab69630":[6,1,0,0,2,271,4],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a4a874ed2051cb41ed9dbe909eab69630":[6,1,1,0,1,271,4],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a72c8ca5465f281067c2fb58a67ce01a1":[6,1,0,0,2,271,12],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a72c8ca5465f281067c2fb58a67ce01a1":[6,1,1,0,1,271,12],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a8cf171a643236e2da54dc36ec3462579":[6,1,0,0,2,271,8],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a8cf171a643236e2da54dc36ec3462579":[6,1,1,0,1,271,8],
-"classmrmeshpy_1_1FindInnerShellSettings.html#a9797aae211bcf405a90c31ae47458b1e":[6,1,0,0,2,271,3]
+"classmrmeshpy_1_1FindInnerShellSettings.html#a4a4832a0e271b3ffbf4d99b6ac722ec0":[6,1,0,0,2,271,5]
 };

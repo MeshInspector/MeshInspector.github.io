@@ -1,5 +1,11 @@
 var NAVTREEINDEX153 =
 {
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#ac5655fa994c66e1064866af75a1c3f2b":[6,2,1,0,0,0,2,275,0],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#ad331aca0cf1061b077a2c100de9f65f0":[6,2,1,0,0,0,2,275,7],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#ada5e9e1a218899a8b8d12e4d989e0b7f":[6,2,1,0,0,0,2,275,21],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#adac692fd3e3e2d9166226955525bc172":[6,2,1,0,0,0,2,275,17],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#ae5cd26a3ff4ac9c17baf34abe5a16131":[6,2,1,0,0,0,2,275,10],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#aef61610ce7f790d460e67a04939234b1":[6,2,1,0,0,0,2,275,19],
 "std__shared__ptr__MR__ChangeObjectColorAction_8h_source.html":[6,2,1,0,0,0,2,275],
 "std__shared__ptr__MR__ChangeObjectSelectedAction_8h.html":[6,2,1,0,0,0,2,276],
 "std__shared__ptr__MR__ChangeObjectSelectedAction_8h.html#a172d0e269e33372da92a9f22a4fb3846":[6,2,1,0,0,0,2,276,16],
@@ -243,11 +249,5 @@ var NAVTREEINDEX153 =
 "std__shared__ptr__MR__ChangePolylineAction_8h_source.html":[6,2,1,0,0,0,2,285],
 "std__shared__ptr__MR__ChangePolylinePointsAction_8h.html":[6,2,1,0,0,0,2,286],
 "std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a0ec3fc7045c8f47e50655c748047c5d6":[6,2,1,0,0,0,2,286,18],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a3871249fcb7372c5f375876763244f0d":[6,2,1,0,0,0,2,286,14],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a3d3ef03c1b7b2893801f8480776f3b4f":[6,2,1,0,0,0,2,286,15],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a3fcb93051b9bc0404a2513022abb6350":[6,2,1,0,0,0,2,286,7],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a5bad9cc0e11716f3325a2fecfc45c33f":[6,2,1,0,0,0,2,286,5],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a5d8e57a51abfe75997ff52102a20bb9e":[6,2,1,0,0,0,2,286,1],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a64b57795611d059d852fca216c84bab6":[6,2,1,0,0,0,2,286,17],
-"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a70bd88126beece181ea755ada9c68f46":[6,2,1,0,0,0,2,286,11]
+"std__shared__ptr__MR__ChangePolylinePointsAction_8h.html#a3871249fcb7372c5f375876763244f0d":[6,2,1,0,0,0,2,286,14]
 };

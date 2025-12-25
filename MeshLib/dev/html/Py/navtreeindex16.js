@@ -1,5 +1,13 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#acb4e625488f5df46e9f42d443476495b":[6,1,1,0,1,151,8],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#af97aad350ca4f6c576530e630b5f720f":[6,1,0,0,2,151,11],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#af97aad350ca4f6c576530e630b5f720f":[6,1,1,0,1,151,11],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#afad3379cf7366c9a90082af17095fb79":[6,1,0,0,2,151,0],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#afad3379cf7366c9a90082af17095fb79":[6,1,1,0,1,151,0],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap.html":[6,1,0,0,2,152],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap.html":[6,1,1,0,1,152],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap.html#a09a4869f75f3797a749e07e2932ef8f0":[6,1,0,0,2,152,4],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap.html#a09a4869f75f3797a749e07e2932ef8f0":[6,1,1,0,1,152,4],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap.html#a27af8b75da3b8c4ac78e92426003f0cc":[6,1,0,0,2,152,2],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap.html#a27af8b75da3b8c4ac78e92426003f0cc":[6,1,1,0,1,152,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1Cone3d.html#a27e604698fbf00547e30f42e430a51be":[6,1,1,0,1,162,3],
 "classmrmeshpy_1_1Cone3d.html#a8f26a4299f998a936a2ac2f0e3fcd1eb":[6,1,0,0,2,162,8],
 "classmrmeshpy_1_1Cone3d.html#a8f26a4299f998a936a2ac2f0e3fcd1eb":[6,1,1,0,1,162,8],
-"classmrmeshpy_1_1Cone3d.html#a925ecc0dd6eee4eef19cbcb6b4866baf":[6,1,0,0,2,162,0],
-"classmrmeshpy_1_1Cone3d.html#a925ecc0dd6eee4eef19cbcb6b4866baf":[6,1,1,0,1,162,0],
-"classmrmeshpy_1_1Cone3d.html#aa22c3908bc6c2697db5574a8164aff87":[6,1,0,0,2,162,2],
-"classmrmeshpy_1_1Cone3d.html#aa22c3908bc6c2697db5574a8164aff87":[6,1,1,0,1,162,2],
-"classmrmeshpy_1_1Cone3d.html#aa9683d6946ac57948d0d4a647e86c483":[6,1,0,0,2,162,13],
-"classmrmeshpy_1_1Cone3d.html#aa9683d6946ac57948d0d4a647e86c483":[6,1,1,0,1,162,13],
-"classmrmeshpy_1_1Cone3d.html#ac8717376eb61ff4701f2420727e13e70":[6,1,0,0,2,162,14],
-"classmrmeshpy_1_1Cone3d.html#ac8717376eb61ff4701f2420727e13e70":[6,1,1,0,1,162,14],
-"classmrmeshpy_1_1Cone3d.html#ac8cf01cef907ad05da8a7a5ec6070faa":[6,1,0,0,2,162,7]
+"classmrmeshpy_1_1Cone3d.html#a925ecc0dd6eee4eef19cbcb6b4866baf":[6,1,0,0,2,162,0]
 };

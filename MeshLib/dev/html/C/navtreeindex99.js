@@ -1,5 +1,11 @@
 var NAVTREEINDEX99 =
 {
+"MRSharpenMarchingCubesMesh_8h.html#af9ff70d6f8b36eaad7b1b407e5b8956e":[6,2,1,0,0,0,1,308,23],
+"MRSharpenMarchingCubesMesh_8h_source.html":[6,2,1,0,0,0,1,308],
+"MRSignDetectionMode_8h.html":[6,2,1,0,0,0,1,309],
+"MRSignDetectionMode_8h.html#a58cc14f1136bfffa8f15fdbb95d48406":[6,2,1,0,0,0,1,309,1],
+"MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2":[6,2,1,0,0,0,1,309,4],
+"MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6":[6,2,1,0,0,0,1,309,3],
 "MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259":[6,2,1,0,0,0,1,309,3,0],
 "MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8":[6,2,1,0,0,0,1,309,3,1],
 "MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6ade831408e3d4d44037958e2995f5c8be":[6,2,1,0,0,0,1,309,3,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX99 =
 "MRSphere_8h.html#a38bc61a659b0f2c53820bcc358b40df6":[6,2,1,0,0,0,1,312,22],
 "MRSphere_8h.html#a3a0b8bade9ae149fe79c7f99ef6d9bd1":[6,2,1,0,0,0,1,312,62],
 "MRSphere_8h.html#a3c15adaa8119896a1104ef6e9115600f":[6,2,1,0,0,0,1,312,78],
-"MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d":[6,2,1,0,0,0,1,312,46],
-"MRSphere_8h.html#a3e4a181e14857d73d2d27b7ead90a0d2":[6,2,1,0,0,0,1,312,14],
-"MRSphere_8h.html#a3f5d21a14e90d4edc865ae8b74c5083e":[6,2,1,0,0,0,1,312,29],
-"MRSphere_8h.html#a4522a111f303d1de1c59596f4a09ba1f":[6,2,1,0,0,0,1,312,33],
-"MRSphere_8h.html#a4924c32d0e44122616d4fbea614b1644":[6,2,1,0,0,0,1,312,50],
-"MRSphere_8h.html#a4c211d622de915c4f151a5704d3d0eda":[6,2,1,0,0,0,1,312,44],
-"MRSphere_8h.html#a4d2ee62af82a947dbd9e3bbbbf3abed8":[6,2,1,0,0,0,1,312,7]
+"MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d":[6,2,1,0,0,0,1,312,46]
 };

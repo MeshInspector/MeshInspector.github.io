@@ -1,5 +1,9 @@
 var NAVTREEINDEX93 =
 {
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,2,0,1,787,1],
+"structMR_1_1VertDistance.html":[6,0,0,16,2,0],
+"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
+"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1],
 "structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[6,0,0,16,2,0,3],
 "structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
 "structMR_1_1VertPathInfo.html":[6,0,0,16,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX93 =
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#ae36ec72eafffc8aa02f03a6a2cae2877":[6,0,1,0,1,819,2,0],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#ae36ec72eafffc8aa02f03a6a2cae2877":[6,0,2,0,1,800,2,0],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[6,0,1,0,1,819,2,3],
-"structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[6,0,2,0,1,800,2,3],
-"structMR_1_1Viewport_1_1TriCornerColors.html":[6,0,1,0,1,819,3],
-"structMR_1_1Viewport_1_1TriCornerColors.html":[6,0,2,0,1,800,3],
-"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542":[6,0,1,0,1,819,3,2],
-"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542":[6,0,2,0,1,800,3,2]
+"structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[6,0,2,0,1,800,2,3]
 };

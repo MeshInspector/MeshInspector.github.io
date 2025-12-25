@@ -1,5 +1,13 @@
 var NAVTREEINDEX120 =
 {
+"classmrmeshpy_1_1VoxelFilterType.html#a5dd38766f7f788dd343a8ee7f3eda40c":[6,1,1,0,1,1199,4],
+"classmrmeshpy_1_1VoxelFilterType.html#a76aa3f478f09e8d87cc517c58bc189e9":[6,1,0,0,2,1199,3],
+"classmrmeshpy_1_1VoxelFilterType.html#a76aa3f478f09e8d87cc517c58bc189e9":[6,1,1,0,1,1199,3],
+"classmrmeshpy_1_1VoxelFilterType.html#a807a0c28f36d685323771f5f24ef1d00":[6,1,0,0,2,1199,2],
+"classmrmeshpy_1_1VoxelFilterType.html#a807a0c28f36d685323771f5f24ef1d00":[6,1,1,0,1,1199,2],
+"classmrmeshpy_1_1VoxelFilterType.html#aa6cdb100254a9ccfd1b3d3b8ba19d00f":[6,1,0,0,2,1199,6],
+"classmrmeshpy_1_1VoxelFilterType.html#aa6cdb100254a9ccfd1b3d3b8ba19d00f":[6,1,1,0,1,1199,6],
+"classmrmeshpy_1_1VoxelFilterType.html#ab2958e1ccea46c13ed30f5fbc3c9d0ab":[6,1,0,0,2,1199,5],
 "classmrmeshpy_1_1VoxelFilterType.html#ab2958e1ccea46c13ed30f5fbc3c9d0ab":[6,1,1,0,1,1199,5],
 "classmrmeshpy_1_1VoxelFilterType.html#ab35c3c8601c2b8f6989972a4a56dd696":[6,1,0,0,2,1199,0],
 "classmrmeshpy_1_1VoxelFilterType.html#ab35c3c8601c2b8f6989972a4a56dd696":[6,1,1,0,1,1199,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX120 =
 "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a5e6f1e066aef10e5279b2fe45096b569":[6,1,1,0,1,1203,6,4],
 "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a655a99cf95e1c1f2f3711747e0fd2226":[6,1,0,0,2,1203,6,1],
 "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#a655a99cf95e1c1f2f3711747e0fd2226":[6,1,1,0,1,1203,6,1],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#aef19154693429e646b23a1e6b00937a7":[6,1,0,0,2,1203,6,0],
-"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#aef19154693429e646b23a1e6b00937a7":[6,1,1,0,1,1203,6,0],
-"classmrmeshpy_1_1VoxelsSave.html":[6,1,0,0,2,1204],
-"classmrmeshpy_1_1VoxelsSave.html":[6,1,1,0,1,1204],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[6,1,0,0,2,1204,0],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[6,1,1,0,1,1204,0],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[6,1,0,0,2,1204,0,3],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[6,1,1,0,1,1204,0,3],
-"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[6,1,0,0,2,1204,0,9]
+"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#aef19154693429e646b23a1e6b00937a7":[6,1,0,0,2,1203,6,0]
 };

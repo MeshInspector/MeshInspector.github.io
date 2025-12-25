@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,1,0,1,453,2],
+"structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,2,0,1,434,2],
+"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,1,0,1,453,1],
+"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,2,0,1,434,1],
 "structMR_1_1NotificationTags.html":[6,0,1,0,1,456],
 "structMR_1_1NotificationTags.html":[6,0,2,0,1,437],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,1,456,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,2,0,1,476,0],
 "structMR_1_1OpenVdbFloatGrid.html":[6,0,0,18,5],
 "structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c":[6,0,0,18,5,1],
-"structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687":[6,0,0,18,5,0],
-"structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,5,2],
-"structMR_1_1OriginAndDimensions.html":[6,0,1,0,1,501],
-"structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,482],
-"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,1,0,1,501,1]
+"structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687":[6,0,0,18,5,0]
 };

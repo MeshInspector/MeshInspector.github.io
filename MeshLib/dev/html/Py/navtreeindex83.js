@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"classmrmeshpy_1_1Sphere2d.html#ad6d31bb0fd2a32e50a18eb1972c77516":[6,1,1,0,1,812,6],
+"classmrmeshpy_1_1Sphere2d.html#af73a6015134904bc7dfb52682bb2330e":[6,1,0,0,2,812,2],
+"classmrmeshpy_1_1Sphere2d.html#af73a6015134904bc7dfb52682bb2330e":[6,1,1,0,1,812,2],
+"classmrmeshpy_1_1Sphere2f.html":[6,1,0,0,2,813],
+"classmrmeshpy_1_1Sphere2f.html":[6,1,1,0,1,813],
+"classmrmeshpy_1_1Sphere2f.html#a212d095db990241509a41901a531668c":[6,1,0,0,2,813,6],
+"classmrmeshpy_1_1Sphere2f.html#a212d095db990241509a41901a531668c":[6,1,1,0,1,813,6],
+"classmrmeshpy_1_1Sphere2f.html#a58209bad0c43a66a2b4a70ddfb18259f":[6,1,0,0,2,813,0],
 "classmrmeshpy_1_1Sphere2f.html#a58209bad0c43a66a2b4a70ddfb18259f":[6,1,1,0,1,813,0],
 "classmrmeshpy_1_1Sphere2f.html#a97c9f49fb4ad77ed80d0b7ae00f43f91":[6,1,0,0,2,813,4],
 "classmrmeshpy_1_1Sphere2f.html#a97c9f49fb4ad77ed80d0b7ae00f43f91":[6,1,1,0,1,813,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#ac77e229ecf2592b3bd0bdc0a30cd91dc":[6,1,1,0,1,1028,1],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a":[6,1,0,0,2,1028,0],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a":[6,1,1,0,1,1028,0],
-"classmrmeshpy_1_1SymMatrix2b.html":[6,1,0,0,2,1030],
-"classmrmeshpy_1_1SymMatrix2b.html":[6,1,1,0,1,1030],
-"classmrmeshpy_1_1SymMatrix2b.html#a0fe4ad0481b538e0c78ecf7e8d7debfe":[6,1,0,0,2,1030,4],
-"classmrmeshpy_1_1SymMatrix2b.html#a0fe4ad0481b538e0c78ecf7e8d7debfe":[6,1,1,0,1,1030,4],
-"classmrmeshpy_1_1SymMatrix2b.html#a1b220523ff7a62fc3ae94712e7e87d3b":[6,1,0,0,2,1030,12],
-"classmrmeshpy_1_1SymMatrix2b.html#a1b220523ff7a62fc3ae94712e7e87d3b":[6,1,1,0,1,1030,12],
-"classmrmeshpy_1_1SymMatrix2b.html#a2687975262a1553bb77417dd6f9b618f":[6,1,0,0,2,1030,8],
-"classmrmeshpy_1_1SymMatrix2b.html#a2687975262a1553bb77417dd6f9b618f":[6,1,1,0,1,1030,8],
-"classmrmeshpy_1_1SymMatrix2b.html#a30b763f0fd874f3f48660fc64f2fce97":[6,1,0,0,2,1030,16]
+"classmrmeshpy_1_1SymMatrix2b.html":[6,1,0,0,2,1030]
 };

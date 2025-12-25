@@ -1,5 +1,11 @@
 var NAVTREEINDEX134 =
 {
+"expected__MR__UndirectedEdgeBitSet__std__string_8h.html#ac7f59a6736b29701d7e619412b6e2890":[6,2,1,0,0,0,2,30,2],
+"expected__MR__UndirectedEdgeBitSet__std__string_8h.html#ae92eba666aab1842ca6782fdd44b93c9":[6,2,1,0,0,0,2,30,14],
+"expected__MR__UndirectedEdgeBitSet__std__string_8h_source.html":[6,2,1,0,0,0,2,30],
+"expected__MR__UnionFind__MR__VertId__std__string_8h.html":[6,2,1,0,0,0,2,31],
+"expected__MR__UnionFind__MR__VertId__std__string_8h.html#a2e9dc2aeef504e0461294374b6f742fc":[6,2,1,0,0,0,2,31,5],
+"expected__MR__UnionFind__MR__VertId__std__string_8h.html#a4734f6c1a67cae2e101e4b362c2587ac":[6,2,1,0,0,0,2,31,14],
 "expected__MR__UnionFind__MR__VertId__std__string_8h.html#a489fc3b75a18b0edd3896160e8138bed":[6,2,1,0,0,0,2,31,13],
 "expected__MR__UnionFind__MR__VertId__std__string_8h.html#a4aa35afb5858abb6d51262070a675f09":[6,2,1,0,0,0,2,31,8],
 "expected__MR__UnionFind__MR__VertId__std__string_8h.html#a5d1bf5a92728af9ae71a86ba18cbb9ec":[6,2,1,0,0,0,2,31,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX134 =
 "expected__std__shared__ptr__MR__Mesh__std__string_8h.html#a99253b80246596b4740e07923ba8a6d5":[6,2,1,0,0,0,2,43,8],
 "expected__std__shared__ptr__MR__Mesh__std__string_8h.html#aa626aa3128b7940966abb0068b8e2bed":[6,2,1,0,0,0,2,43,9],
 "expected__std__shared__ptr__MR__Mesh__std__string_8h.html#ab9a4f07317663a435e9dd2f3bca1c3f8":[6,2,1,0,0,0,2,43,0],
-"expected__std__shared__ptr__MR__Mesh__std__string_8h.html#ac686f26ae69e53cece9885fb0cb38b42":[6,2,1,0,0,0,2,43,4],
-"expected__std__shared__ptr__MR__Mesh__std__string_8h.html#ad241e1d7ac889d646c0f52d5b2666d9e":[6,2,1,0,0,0,2,43,13],
-"expected__std__shared__ptr__MR__Mesh__std__string_8h.html#ae3b43e2a2a818fc92ac0daeb4fcde548":[6,2,1,0,0,0,2,43,14],
-"expected__std__shared__ptr__MR__Mesh__std__string_8h.html#afb50d1b894eea1d9ef8e2477aab8c8b9":[6,2,1,0,0,0,2,43,12],
-"expected__std__shared__ptr__MR__Mesh__std__string_8h_source.html":[6,2,1,0,0,0,2,43],
-"expected__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html":[6,2,1,0,0,0,2,45],
-"expected__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a0dc022cd53f3b4f307b5064e6ffd297c":[6,2,1,0,0,0,2,45,3]
+"expected__std__shared__ptr__MR__Mesh__std__string_8h.html#ac686f26ae69e53cece9885fb0cb38b42":[6,2,1,0,0,0,2,43,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1PointAccumulator.html#ab79e2d41ec92b236234c190ebe54b57c":[6,1,1,0,1,681,4],
+"classmrmeshpy_1_1PointAccumulator.html#ab852f3d3eb749db28056dee77c3c12b6":[6,1,0,0,2,681,2],
+"classmrmeshpy_1_1PointAccumulator.html#ab852f3d3eb749db28056dee77c3c12b6":[6,1,1,0,1,681,2],
+"classmrmeshpy_1_1PointAccumulator.html#addaac270335bd1cf623051eefa4cd65a":[6,1,0,0,2,681,12],
+"classmrmeshpy_1_1PointAccumulator.html#addaac270335bd1cf623051eefa4cd65a":[6,1,1,0,1,681,12],
+"classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2":[6,1,0,0,2,681,6],
+"classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2":[6,1,1,0,1,681,6],
+"classmrmeshpy_1_1PointAccumulator.html#ae713174cc89069e8a74eabbc5dc696d9":[6,1,0,0,2,681,1],
 "classmrmeshpy_1_1PointAccumulator.html#ae713174cc89069e8a74eabbc5dc696d9":[6,1,1,0,1,681,1],
 "classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec":[6,1,0,0,2,681,8],
 "classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec":[6,1,1,0,1,681,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1PointOnFace.html#acc7983ccee71142670e8ff738c172539":[6,1,1,0,1,691,8],
 "classmrmeshpy_1_1PointOnFace.html#aff09ad37c6a4ee1d48ee44507e5afaf3":[6,1,0,0,2,691,6],
 "classmrmeshpy_1_1PointOnFace.html#aff09ad37c6a4ee1d48ee44507e5afaf3":[6,1,1,0,1,691,6],
-"classmrmeshpy_1_1PointOnObject.html":[6,1,0,0,2,692],
-"classmrmeshpy_1_1PointOnObject.html":[6,1,1,0,1,692],
-"classmrmeshpy_1_1PointOnObject.html#a0fbb804a2968caaef871439392ceec66":[6,1,0,0,2,692,4],
-"classmrmeshpy_1_1PointOnObject.html#a0fbb804a2968caaef871439392ceec66":[6,1,1,0,1,692,4],
-"classmrmeshpy_1_1PointOnObject.html#a116a233210e1ac990ca517de2a2419d0":[6,1,0,0,2,692,0],
-"classmrmeshpy_1_1PointOnObject.html#a116a233210e1ac990ca517de2a2419d0":[6,1,1,0,1,692,0],
-"classmrmeshpy_1_1PointOnObject.html#a2744f03fccfb9f71362cb41c2ab20f12":[6,1,0,0,2,692,2],
-"classmrmeshpy_1_1PointOnObject.html#a2744f03fccfb9f71362cb41c2ab20f12":[6,1,1,0,1,692,2],
-"classmrmeshpy_1_1PointOnObject.html#a9cc5c4c87acfd364aa44ff4bec857c75":[6,1,0,0,2,692,5]
+"classmrmeshpy_1_1PointOnObject.html":[6,1,0,0,2,692]
 };

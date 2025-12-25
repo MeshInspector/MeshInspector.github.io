@@ -1,5 +1,13 @@
 var NAVTREEINDEX99 =
 {
+"classmrmeshpy_1_1Vector4i.html#af1de8ea250321794bb2c7f9bd756ff6d":[6,1,1,0,1,1118,21],
+"classmrmeshpy_1_1Vector4i.html#afb281bc5b5232f31bd004ec9d22f8a00":[6,1,0,0,2,1118,3],
+"classmrmeshpy_1_1Vector4i.html#afb281bc5b5232f31bd004ec9d22f8a00":[6,1,1,0,1,1118,3],
+"classmrmeshpy_1_1Vector4i.html#afc75d4b026fa64af3f9765657498fe6c":[6,1,0,0,2,1118,2],
+"classmrmeshpy_1_1Vector4i.html#afc75d4b026fa64af3f9765657498fe6c":[6,1,1,0,1,1118,2],
+"classmrmeshpy_1_1Vector4i64.html":[6,1,0,0,2,1119],
+"classmrmeshpy_1_1Vector4i64.html":[6,1,1,0,1,1119],
+"classmrmeshpy_1_1Vector4i64.html#a1446d8c4428cb4bb1b6d79e9e779ebfb":[6,1,0,0,2,1119,18],
 "classmrmeshpy_1_1Vector4i64.html#a1446d8c4428cb4bb1b6d79e9e779ebfb":[6,1,1,0,1,1119,18],
 "classmrmeshpy_1_1Vector4i64.html#a15dad0b21ad8a362eb772f48693fc8e9":[6,1,0,0,2,1119,17],
 "classmrmeshpy_1_1Vector4i64.html#a15dad0b21ad8a362eb772f48693fc8e9":[6,1,1,0,1,1119,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX99 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[6,1,1,0,1,1122,19],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5b2c0d6392f4496be75fe7eb8eaa606b":[6,1,0,0,2,1122,35],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5b2c0d6392f4496be75fe7eb8eaa606b":[6,1,1,0,1,1122,35],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6b26557d19ac12527d346775c2e68565":[6,1,0,0,2,1122,17],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6b26557d19ac12527d346775c2e68565":[6,1,1,0,1,1122,17],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6ee24d6738c633fdba12b751ca389fc9":[6,1,0,0,2,1122,21],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6ee24d6738c633fdba12b751ca389fc9":[6,1,1,0,1,1122,21],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6f1045ca5f00826b0b498ddcbb5eba34":[6,1,0,0,2,1122,4],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6f1045ca5f00826b0b498ddcbb5eba34":[6,1,1,0,1,1122,4],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a7914adf69db817f0a5bc738918d9effc":[6,1,0,0,2,1122,25],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a7914adf69db817f0a5bc738918d9effc":[6,1,1,0,1,1122,25],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a89983026d092c14326b2e03e95d7329c":[6,1,0,0,2,1122,22]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6b26557d19ac12527d346775c2e68565":[6,1,0,0,2,1122,17]
 };

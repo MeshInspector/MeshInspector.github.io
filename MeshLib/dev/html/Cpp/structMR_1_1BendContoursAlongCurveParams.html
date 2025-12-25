@@ -164,6 +164,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a35b146e279f46114708f3c40a0a92f7b" id="r_a35b146e279f46114708f3c40a0a92f7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b146e279f46114708f3c40a0a92f7b">curve</a></td></tr>
 <tr class="memdesc:a35b146e279f46114708f3c40a0a92f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts (x in [0,1], pivotY) into position on curve  <br /></td></tr>
 <tr class="separator:a35b146e279f46114708f3c40a0a92f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63ad4da9aad75fc779edeb4baab169c" id="r_aa63ad4da9aad75fc779edeb4baab169c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa63ad4da9aad75fc779edeb4baab169c">stretch</a> = true</td></tr>
+<tr class="memdesc:aa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours on curve's [0,1] even if they are shorter or longer  <br /></td></tr>
+<tr class="separator:aa63ad4da9aad75fc779edeb4baab169c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e554b5ceea4b8d6d43ce5c58e506315" id="r_a2e554b5ceea4b8d6d43ce5c58e506315"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e554b5ceea4b8d6d43ce5c58e506315">extrusion</a> { 1.0f }</td></tr>
 <tr class="memdesc:a2e554b5ceea4b8d6d43ce5c58e506315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contours extrusion outside of curve level.  <br /></td></tr>
 <tr class="separator:a2e554b5ceea4b8d6d43ce5c58e506315"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +218,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Relative position of curve line (y=pivotY) in contours bounding box: 0 - bottom, 0.5 - center, 1 - top </p>
+
+</div>
+</div>
+<a id="aa63ad4da9aad75fc779edeb4baab169c" name="aa63ad4da9aad75fc779edeb4baab169c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa63ad4da9aad75fc779edeb4baab169c">&#9670;&#160;</a></span>stretch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BendContoursAlongCurveParams::stretch = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stretch all contours on curve's [0,1] even if they are shorter or longer </p>
 
 </div>
 </div>

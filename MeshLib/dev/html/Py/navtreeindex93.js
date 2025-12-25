@@ -1,5 +1,13 @@
 var NAVTREEINDEX93 =
 {
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a66b4e195d1f69c1cfb05473b8c473a2b":[6,1,0,0,2,1082,7],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a66b4e195d1f69c1cfb05473b8c473a2b":[6,1,1,0,1,1082,6],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a66b4e195d1f69c1cfb05473b8c473a2b":[6,1,1,0,1,1082,7],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a673d8adb42a4f29e7316b80f55a964ea":[6,1,0,0,2,1082,2],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a673d8adb42a4f29e7316b80f55a964ea":[6,1,1,0,1,1082,2],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a6a28641a5d27baecacb61e3abe852029":[6,1,0,0,2,1082,4],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a6a28641a5d27baecacb61e3abe852029":[6,1,1,0,1,1082,4],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#a6f7f1d1a9dc04e80b133128a86a0b101":[6,1,0,0,2,1082,11],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#a6f7f1d1a9dc04e80b133128a86a0b101":[6,1,1,0,1,1082,11],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#a71a96ab19e73d3702a65e7f6f8298b55":[6,1,0,0,2,1082,35],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#a71a96ab19e73d3702a65e7f6f8298b55":[6,1,1,0,1,1082,35],
@@ -241,13 +249,5 @@ var NAVTREEINDEX93 =
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a8f31b33ceb4bbd11e4fe0148ce428f96":[6,1,1,0,1,1086,38],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a91312e2d7aa6085258980c8f566d5512":[6,1,0,0,2,1086,35],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a91312e2d7aa6085258980c8f566d5512":[6,1,1,0,1,1086,35],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9560ffb3a8d22922c5391d2b9abd7895":[6,1,0,0,2,1086,25],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9560ffb3a8d22922c5391d2b9abd7895":[6,1,0,0,2,1086,26],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9560ffb3a8d22922c5391d2b9abd7895":[6,1,1,0,1,1086,25],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9560ffb3a8d22922c5391d2b9abd7895":[6,1,1,0,1,1086,26],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9ded916ff99b59c60d01f934c322196c":[6,1,0,0,2,1086,5],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9ded916ff99b59c60d01f934c322196c":[6,1,1,0,1,1086,5],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#aa2f57157d4ad1da5ae398f4326268271":[6,1,0,0,2,1086,16],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#aa2f57157d4ad1da5ae398f4326268271":[6,1,1,0,1,1086,16],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#aa666507804b28811c3de9e2af40e4439":[6,1,0,0,2,1086,13]
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a9560ffb3a8d22922c5391d2b9abd7895":[6,1,0,0,2,1086,25]
 };

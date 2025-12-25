@@ -8,6 +8,8 @@ var classmrmeshpy_1_1BendTextAlongCurveParams =
     [ "fontHeight", "classmrmeshpy_1_1BendTextAlongCurveParams.html#ad010e430eeb58700109a443c223fede0", null ],
     [ "pivotY", "classmrmeshpy_1_1BendTextAlongCurveParams.html#acbfb900884059c2c99b00edfd0a52972", null ],
     [ "pivotY", "classmrmeshpy_1_1BendTextAlongCurveParams.html#ae5ca162b1fe89dc52b4e6bf5064dc294", null ],
+    [ "stretchText", "classmrmeshpy_1_1BendTextAlongCurveParams.html#acd1873a5bc258f3e70f78525b5787f4f", null ],
+    [ "stretchText", "classmrmeshpy_1_1BendTextAlongCurveParams.html#af51e9bb5c14b091c066455911ed58f60", null ],
     [ "surfaceOffset", "classmrmeshpy_1_1BendTextAlongCurveParams.html#af39b8b6ff296f4f25826639a0e41a186", null ],
     [ "surfaceOffset", "classmrmeshpy_1_1BendTextAlongCurveParams.html#ad17d7a6e994d3168f1515d154bc1a92d", null ]
 ];

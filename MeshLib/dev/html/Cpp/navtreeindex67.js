@@ -67,6 +67,8 @@ var NAVTREEINDEX67 =
 "structMR_1_1BendContoursAlongCurveParams.html#a35b146e279f46114708f3c40a0a92f7b":[6,0,2,0,1,61,0],
 "structMR_1_1BendContoursAlongCurveParams.html#a98249836588293370c5317d797b5ab8f":[6,0,1,0,1,80,2],
 "structMR_1_1BendContoursAlongCurveParams.html#a98249836588293370c5317d797b5ab8f":[6,0,2,0,1,61,2],
+"structMR_1_1BendContoursAlongCurveParams.html#aa63ad4da9aad75fc779edeb4baab169c":[6,0,1,0,1,80,3],
+"structMR_1_1BendContoursAlongCurveParams.html#aa63ad4da9aad75fc779edeb4baab169c":[6,0,2,0,1,61,3],
 "structMR_1_1BendTextAlongCurveParams.html":[6,0,1,0,1,81],
 "structMR_1_1BendTextAlongCurveParams.html":[6,0,2,0,1,62],
 "structMR_1_1BendTextAlongCurveParams.html#a150d2432577e3c10550d8ac37280d360":[6,0,1,0,1,81,0],
@@ -75,8 +77,10 @@ var NAVTREEINDEX67 =
 "structMR_1_1BendTextAlongCurveParams.html#a3135673f3d0bb52424d5280c4c8c4389":[6,0,2,0,1,62,2],
 "structMR_1_1BendTextAlongCurveParams.html#a467c8429ca87dff767c0ef4ca53a56b9":[6,0,1,0,1,81,1],
 "structMR_1_1BendTextAlongCurveParams.html#a467c8429ca87dff767c0ef4ca53a56b9":[6,0,2,0,1,62,1],
-"structMR_1_1BendTextAlongCurveParams.html#aa25769e7e2993d6ab9f2a0d7d974c78e":[6,0,1,0,1,81,3],
-"structMR_1_1BendTextAlongCurveParams.html#aa25769e7e2993d6ab9f2a0d7d974c78e":[6,0,2,0,1,62,3],
+"structMR_1_1BendTextAlongCurveParams.html#aa25769e7e2993d6ab9f2a0d7d974c78e":[6,0,1,0,1,81,4],
+"structMR_1_1BendTextAlongCurveParams.html#aa25769e7e2993d6ab9f2a0d7d974c78e":[6,0,2,0,1,62,4],
+"structMR_1_1BendTextAlongCurveParams.html#aaf90788da993d83864d198961ea12a02":[6,0,1,0,1,81,3],
+"structMR_1_1BendTextAlongCurveParams.html#aaf90788da993d83864d198961ea12a02":[6,0,2,0,1,62,3],
 "structMR_1_1BindVertexAttribArraySettings.html":[6,0,1,0,1,85],
 "structMR_1_1BindVertexAttribArraySettings.html":[6,0,2,0,1,66],
 "structMR_1_1BindVertexAttribArraySettings.html#a1e06765a94d24f632c968c4d04f8280a":[6,0,1,0,1,85,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1ChunkIterator.html#a90190d9b325f64a0253ca83d44cb6361":[6,0,1,0,1,147,6],
 "structMR_1_1ChunkIterator.html#a90190d9b325f64a0253ca83d44cb6361":[6,0,2,0,1,128,6],
 "structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,1,0,1,147,1],
-"structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,2,0,1,128,1],
-"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,1,0,1,147,11],
-"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,2,0,1,128,11],
-"structMR_1_1ChunkIterator.html#ac0f52b399269d4be6c5c051272d0db86":[6,0,1,0,1,147,9],
-"structMR_1_1ChunkIterator.html#ac0f52b399269d4be6c5c051272d0db86":[6,0,2,0,1,128,9]
+"structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,2,0,1,128,1]
 };

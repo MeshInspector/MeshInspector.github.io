@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1CurvePoint.html":[6,0,2,0,1,160],
+"structMR_1_1CurvePoint.html#aa66dd8795ad06b100b6b27009f406df5":[6,0,1,0,1,179,1],
+"structMR_1_1CurvePoint.html#aa66dd8795ad06b100b6b27009f406df5":[6,0,2,0,1,160,1],
+"structMR_1_1CurvePoint.html#aa9ddd8b08fe744f50edac9292ae66920":[6,0,1,0,1,179,2],
 "structMR_1_1CurvePoint.html#aa9ddd8b08fe744f50edac9292ae66920":[6,0,2,0,1,160,2],
 "structMR_1_1CurvePoint.html#ab890d6dbf3c55646c877002d9cdcef86":[6,0,1,0,1,179,0],
 "structMR_1_1CurvePoint.html#ab890d6dbf3c55646c877002d9cdcef86":[6,0,2,0,1,160,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,1,0,1,213,0],
 "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,2,0,1,194,0],
 "structMR_1_1DistanceVolumeParams.html":[6,0,1,0,1,214],
-"structMR_1_1DistanceVolumeParams.html":[6,0,2,0,1,195],
-"structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,1,0,1,214,3],
-"structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,2,0,1,195,3],
-"structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,1,0,1,214,2],
-"structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,2,0,1,195,2]
+"structMR_1_1DistanceVolumeParams.html":[6,0,2,0,1,195]
 };

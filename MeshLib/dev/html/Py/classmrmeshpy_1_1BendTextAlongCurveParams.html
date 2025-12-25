@@ -183,6 +183,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acbfb900884059c2c99b00edfd0a52972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ca162b1fe89dc52b4e6bf5064dc294" id="r_ae5ca162b1fe89dc52b4e6bf5064dc294"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5ca162b1fe89dc52b4e6bf5064dc294">pivotY</a> (self, float arg1)</td></tr>
 <tr class="separator:ae5ca162b1fe89dc52b4e6bf5064dc294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd1873a5bc258f3e70f78525b5787f4f" id="r_acd1873a5bc258f3e70f78525b5787f4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd1873a5bc258f3e70f78525b5787f4f">stretchText</a> (self)</td></tr>
+<tr class="separator:acd1873a5bc258f3e70f78525b5787f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51e9bb5c14b091c066455911ed58f60" id="r_af51e9bb5c14b091c066455911ed58f60"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51e9bb5c14b091c066455911ed58f60">stretchText</a> (self, bool arg1)</td></tr>
+<tr class="separator:af51e9bb5c14b091c066455911ed58f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af39b8b6ff296f4f25826639a0e41a186" id="r_af39b8b6ff296f4f25826639a0e41a186"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39b8b6ff296f4f25826639a0e41a186">surfaceOffset</a> (self)</td></tr>
 <tr class="separator:af39b8b6ff296f4f25826639a0e41a186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad17d7a6e994d3168f1515d154bc1a92d" id="r_ad17d7a6e994d3168f1515d154bc1a92d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad17d7a6e994d3168f1515d154bc1a92d">surfaceOffset</a> (self, float arg1)</td></tr>
@@ -230,6 +234,8 @@ Static Protected Attributes</h2></td></tr>
 <tr class="separator:a02410d1b9aee4db9d5d42ec0dd37b2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a8d5660cf5deb1298f1ea56dfef10a1" id="r_a8a8d5660cf5deb1298f1ea56dfef10a1"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a8d5660cf5deb1298f1ea56dfef10a1">_offsetof_pivotY</a> = 96</td></tr>
 <tr class="separator:a8a8d5660cf5deb1298f1ea56dfef10a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14884bf6056d21711c55839ebbe3f9d9" id="r_a14884bf6056d21711c55839ebbe3f9d9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14884bf6056d21711c55839ebbe3f9d9">_offsetof_stretchText</a> = 109</td></tr>
+<tr class="separator:a14884bf6056d21711c55839ebbe3f9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d315fd33f7dd88ec4d545d30c8f071" id="r_a64d315fd33f7dd88ec4d545d30c8f071"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d315fd33f7dd88ec4d545d30c8f071">_offsetof_surfaceOffset</a> = 104</td></tr>
 <tr class="separator:a64d315fd33f7dd88ec4d545d30c8f071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1SymbolMeshParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1SymbolMeshParams')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1SymbolMeshParams.html">mrmeshpy.SymbolMeshParams</a></td></tr>
@@ -510,6 +516,45 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="acd1873a5bc258f3e70f78525b5787f4f" name="acd1873a5bc258f3e70f78525b5787f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd1873a5bc258f3e70f78525b5787f4f">&#9670;&#160;</a></span>stretchText() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.BendTextAlongCurveParams.stretchText </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">stretch whole text on curve's [0,1] even if it is shorter or longer
+</pre> 
+</div>
+</div>
+<a id="af51e9bb5c14b091c066455911ed58f60" name="af51e9bb5c14b091c066455911ed58f60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51e9bb5c14b091c066455911ed58f60">&#9670;&#160;</a></span>stretchText() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.BendTextAlongCurveParams.stretchText </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af39b8b6ff296f4f25826639a0e41a186" name="af39b8b6ff296f4f25826639a0e41a186"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af39b8b6ff296f4f25826639a0e41a186">&#9670;&#160;</a></span>surfaceOffset() <span class="overload">[1/2]</span></h2>
 
@@ -605,6 +650,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typing mrmeshpy.BendTextAlongCurveParams._offsetof_pivotY = 96</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14884bf6056d21711c55839ebbe3f9d9" name="a14884bf6056d21711c55839ebbe3f9d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14884bf6056d21711c55839ebbe3f9d9">&#9670;&#160;</a></span>_offsetof_stretchText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.BendTextAlongCurveParams._offsetof_stretchText = 109</td>
         </tr>
       </table>
   </td>
