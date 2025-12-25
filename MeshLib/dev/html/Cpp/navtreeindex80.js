@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MinMaxArg.html#a640df22a3e7023f9954a28a221dc244b":[6,0,1,0,1,419,5],
+"structMR_1_1MinMaxArg.html#a640df22a3e7023f9954a28a221dc244b":[6,0,2,0,1,400,5],
+"structMR_1_1MinMaxArg.html#a75db557e8a12f05d71ffa11c5ea9919e":[6,0,1,0,1,419,6],
+"structMR_1_1MinMaxArg.html#a75db557e8a12f05d71ffa11c5ea9919e":[6,0,2,0,1,400,6],
 "structMR_1_1MinMaxArg.html#acac909c03fcaa40453454fb6397ebc68":[6,0,1,0,1,419,8],
 "structMR_1_1MinMaxArg.html#acac909c03fcaa40453454fb6397ebc68":[6,0,2,0,1,400,8],
 "structMR_1_1MinMaxArg.html#aecc5a502b2649c84a49a95f5429ba1cd":[6,0,1,0,1,419,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,1,0,1,453,2],
 "structMR_1_1NoiseSettings.html#a737d9ffe78cecf476dbba17c7a68e40d":[6,0,2,0,1,434,2],
 "structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,1,0,1,453,1],
-"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,2,0,1,434,1],
-"structMR_1_1NotificationTags.html":[6,0,1,0,1,456],
-"structMR_1_1NotificationTags.html":[6,0,2,0,1,437],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,1,456,0],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,437,0]
+"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,2,0,1,434,1]
 };

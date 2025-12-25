@@ -2173,7 +2173,11 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a2403984460c26289689a1eddd1fb4270" id="r_a2403984460c26289689a1eddd1fb4270"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2403984460c26289689a1eddd1fb4270">PathMeshEdgePointCallback</a> = std::function&lt;void( const <a class="el" href="#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&amp; mep )&gt;</td></tr>
 <tr class="separator:a2403984460c26289689a1eddd1fb4270"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dffd3366aa2bf51396d6beaf3e47199" id="r_a8dffd3366aa2bf51396d6beaf3e47199"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> = std::function&lt;<a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>(float)&gt;</td></tr>
+<tr class="memdesc:a8dffd3366aa2bf51396d6beaf3e47199"><td class="mdescLeft">&#160;</td><td class="mdescRight">curve given as a function: time -&gt; point  <br /></td></tr>
 <tr class="separator:a8dffd3366aa2bf51396d6beaf3e47199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9373564bf8d768311a39df2f41d3d8e4" id="r_a9373564bf8d768311a39df2f41d3d8e4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> = std::vector&lt;<a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>&gt;</td></tr>
+<tr class="memdesc:a9373564bf8d768311a39df2f41d3d8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">curve given as a number of points on it samples at arbitrary steps  <br /></td></tr>
+<tr class="separator:a9373564bf8d768311a39df2f41d3d8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d7483b6adbc485e9c9b52eb09cb7735" id="r_a6d7483b6adbc485e9c9b52eb09cb7735"><td class="memTemplParams" colspan="2">template&lt;class T , class E  = std::string&gt; </td></tr>
 <tr class="memitem:a6d7483b6adbc485e9c9b52eb09cb7735"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a> = tl::expected&lt;T, E&gt;</td></tr>
 <tr class="separator:a6d7483b6adbc485e9c9b52eb09cb7735"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6345,9 +6349,14 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:afe3d8a0d392d8c39709a37e08a665777" id="r_afe3d8a0d392d8c39709a37e08a665777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3d8a0d392d8c39709a37e08a665777">alignTextToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="memdesc:afe3d8a0d392d8c39709a37e08a665777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and aligns it to given surface.  <br /></td></tr>
 <tr class="separator:afe3d8a0d392d8c39709a37e08a665777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bafe960b9b55410a1b62cb009a3636c" id="r_a9bafe960b9b55410a1b62cb009a3636c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bafe960b9b55410a1b62cb009a3636c">bendTextAlongCurve</a> (const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
-<tr class="memdesc:a9bafe960b9b55410a1b62cb009a3636c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given curve.  <br /></td></tr>
-<tr class="separator:a9bafe960b9b55410a1b62cb009a3636c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f47e9b6592b774b9f2ee9b85d4b0b9" id="r_a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05f47e9b6592b774b9f2ee9b85d4b0b9">bendTextAlongCurve</a> (const <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="separator:a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1074ada517f361b43662a047bf7c6e" id="r_afd1074ada517f361b43662a047bf7c6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1074ada517f361b43662a047bf7c6e">bendTextAlongCurve</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memdesc:afd1074ada517f361b43662a047bf7c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given curve.  <br /></td></tr>
+<tr class="separator:afd1074ada517f361b43662a047bf7c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd1351ccd6463288f05f93dace174d3" id="r_acdd1351ccd6463288f05f93dace174d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd1351ccd6463288f05f93dace174d3">bendTextAlongSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memdesc:acdd1351ccd6463288f05f93dace174d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given surface path.  <br /></td></tr>
+<tr class="separator:acdd1351ccd6463288f05f93dace174d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3864227e969c9b436c4ee8357ec33d20" id="r_a3864227e969c9b436c4ee8357ec33d20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3864227e969c9b436c4ee8357ec33d20">createSymbolContours</a> (const <a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> &amp;params)</td></tr>
 <tr class="separator:a3864227e969c9b436c4ee8357ec33d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32402204da19d3e70a57443f237fb242" id="r_a32402204da19d3e70a57443f237fb242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32402204da19d3e70a57443f237fb242">createSymbolsMesh</a> (const <a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> &amp;params)</td></tr>
@@ -7947,6 +7956,24 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>curve given as a function: time -&gt; point </p>
+
+</div>
+</div>
+<a id="a9373564bf8d768311a39df2f41d3d8e4" name="a9373564bf8d768311a39df2f41d3d8e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9373564bf8d768311a39df2f41d3d8e4">&#9670;&#160;</a></span>CurvePoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">MR::CurvePoints</a> = std::vector&lt;<a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>curve given as a number of points on it samples at arbitrary steps </p>
 
 </div>
 </div>
@@ -12839,8 +12866,8 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
 
 </div>
 </div>
-<a id="a9bafe960b9b55410a1b62cb009a3636c" name="a9bafe960b9b55410a1b62cb009a3636c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bafe960b9b55410a1b62cb009a3636c">&#9670;&#160;</a></span>bendTextAlongCurve()</h2>
+<a id="a05f47e9b6592b774b9f2ee9b85d4b0b9" name="a05f47e9b6592b774b9f2ee9b85d4b0b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05f47e9b6592b774b9f2ee9b85d4b0b9">&#9670;&#160;</a></span>bendTextAlongCurve() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12848,13 +12875,82 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
         <tr>
           <td class="memname"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::bendTextAlongCurve </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates symbol mesh and deforms it along given curve </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">curve</td><td>converts (x in [0,1], pivotY) into position on curve </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afd1074ada517f361b43662a047bf7c6e" name="afd1074ada517f361b43662a047bf7c6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd1074ada517f361b43662a047bf7c6e">&#9670;&#160;</a></span>bendTextAlongCurve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::bendTextAlongCurve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Creates symbol mesh and deforms it along given curve. </p>
+
+</div>
+</div>
+<a id="acdd1351ccd6463288f05f93dace174d3" name="acdd1351ccd6463288f05f93dace174d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd1351ccd6463288f05f93dace174d3">&#9670;&#160;</a></span>bendTextAlongSurfacePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::bendTextAlongSurfacePath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates symbol mesh and deforms it along given surface path. </p>
 
 </div>
 </div>

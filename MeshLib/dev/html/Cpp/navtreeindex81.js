@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1NotificationTags.html":[6,0,1,0,1,456],
+"structMR_1_1NotificationTags.html":[6,0,2,0,1,437],
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,1,456,0],
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,437,0],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f":[6,0,1,0,1,456,0,3],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f":[6,0,2,0,1,437,0,3],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,1,0,1,456,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,5,2],
 "structMR_1_1OriginAndDimensions.html":[6,0,1,0,1,501],
 "structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,482],
-"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,1,0,1,501,1],
-"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,2,0,1,482,1],
-"structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,1,0,1,501,0],
-"structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,2,0,1,482,0],
-"structMR_1_1OutlierParams.html":[6,0,1,0,1,502]
+"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,1,0,1,501,1]
 };

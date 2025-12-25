@@ -374,6 +374,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_vector_MR_AffineXf3f.h", "std__vector__MR__AffineXf3f_8h.html", "std__vector__MR__AffineXf3f_8h" ],
     [ "std_vector_MR_CNCMachineSettings_RotationAxisName.h", "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html", "std__vector__MR__CNCMachineSettings__RotationAxisName_8h" ],
     [ "std_vector_MR_Color.h", "std__vector__MR__Color_8h.html", "std__vector__MR__Color_8h" ],
+    [ "std_vector_MR_CurvePoint.h", "std__vector__MR__CurvePoint_8h.html", "std__vector__MR__CurvePoint_8h" ],
     [ "std_vector_MR_Dipole.h", "std__vector__MR__Dipole_8h.html", "std__vector__MR__Dipole_8h" ],
     [ "std_vector_MR_EdgeBitSet.h", "std__vector__MR__EdgeBitSet_8h.html", "std__vector__MR__EdgeBitSet_8h" ],
     [ "std_vector_MR_EdgeId.h", "std__vector__MR__EdgeId_8h.html", "std__vector__MR__EdgeId_8h" ],

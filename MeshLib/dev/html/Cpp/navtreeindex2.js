@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"MRCudaSolarRadiation_8h.html#ab5f9490f820c7e7eb708e516e58d6e5a":[6,0,3,0,0,1,1,12,0],
+"MRCudaSolarRadiation_8h.html#af763aea7896baa102ab7715278d93231":[6,0,3,0,0,1,1,12,1],
 "MRCudaSolarRadiation_8h_source.html":[6,0,3,0,0,1,1,12],
 "MRCudaSweptVolume_8h.html":[6,0,3,0,0,1,1,13],
 "MRCudaSweptVolume_8h_source.html":[6,0,3,0,0,1,1,13],
@@ -11,6 +13,7 @@ var NAVTREEINDEX2 =
 "MRCuda_2config_8h_source.html":[6,0,3,0,0,1,1,0],
 "MRCurve_8h.html":[6,0,3,0,0,1,4,75],
 "MRCurve_8h.html#a8dffd3366aa2bf51396d6beaf3e47199":[6,0,3,0,0,1,4,75,1],
+"MRCurve_8h.html#a9373564bf8d768311a39df2f41d3d8e4":[6,0,3,0,0,1,4,75,2],
 "MRCurve_8h_source.html":[6,0,3,0,0,1,4,75],
 "MRCylinder3_8h.html":[6,0,3,0,0,1,4,77],
 "MRCylinder3_8h_source.html":[6,0,3,0,0,1,4,77],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3":[6,0,3,0,0,1,4,109,10,3],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4":[6,0,3,0,0,1,4,109,10,1],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0dab7095f057db3fefa7325ad93a04e14fd":[6,0,3,0,0,1,4,109,10,4],
-"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104":[6,0,3,0,0,1,4,109,10,6],
-"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,1,4,109,10,7],
-"MRFeatureHelpers_8h.html#a161bbd3a2147b79505e87110d929c90f":[6,0,3,0,0,1,4,109,13],
-"MRFeatureHelpers_8h.html#a1cea967678dc1380181a3337893ebf96":[6,0,3,0,0,1,4,109,14]
+"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104":[6,0,3,0,0,1,4,109,10,6]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,1,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BaseTiffParameters.html":[6,0,2,0,1,57],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,76,1],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,2,0,1,57,1],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,76,1,0],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,57,1,0],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,1,0,1,76,1,2],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,2,0,1,57,1,2],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,1,0,1,76,1,3],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,2,0,1,57,1,3],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,1,0,1,76,1,1]
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,76,1,0]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"classmrmeshpy_1_1SegmPointf.html#ace29625096ef3d7732da391f7720fab5":[6,1,1,0,1,788,5],
-"classmrmeshpy_1_1SegmPointf.html#aea4371387b3c492d1bd7953727b20f1b":[6,1,0,0,2,788,11],
-"classmrmeshpy_1_1SegmPointf.html#aea4371387b3c492d1bd7953727b20f1b":[6,1,1,0,1,788,11],
-"classmrmeshpy_1_1SegmPointf.html#af13aa978a081962e63380b699e289d9f":[6,1,0,0,2,788,0],
 "classmrmeshpy_1_1SegmPointf.html#af13aa978a081962e63380b699e289d9f":[6,1,1,0,1,788,0],
 "classmrmeshpy_1_1SegmentSegmentIntersectResult.html":[6,1,0,0,2,786],
 "classmrmeshpy_1_1SegmentSegmentIntersectResult.html":[6,1,1,0,1,786],
@@ -249,5 +245,9 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1SignDetectionMode.html#a9940adfea0e47fbadd1b09e8a5f6a5f9":[6,1,1,0,1,796,6],
 "classmrmeshpy_1_1SignDetectionMode.html#aa87f56ce6facb703e190f71c8adda329":[6,1,0,0,2,796,0],
 "classmrmeshpy_1_1SignDetectionMode.html#aa87f56ce6facb703e190f71c8adda329":[6,1,1,0,1,796,0],
-"classmrmeshpy_1_1SignDetectionMode.html#abe57f8407e218615c5df16a5bee17af7":[6,1,0,0,2,796,3]
+"classmrmeshpy_1_1SignDetectionMode.html#abe57f8407e218615c5df16a5bee17af7":[6,1,0,0,2,796,3],
+"classmrmeshpy_1_1SignDetectionMode.html#abe57f8407e218615c5df16a5bee17af7":[6,1,1,0,1,796,3],
+"classmrmeshpy_1_1SignDetectionMode.html#aed5fd40f8dba7007d3e187bc12753d44":[6,1,0,0,2,796,10],
+"classmrmeshpy_1_1SignDetectionMode.html#aed5fd40f8dba7007d3e187bc12753d44":[6,1,1,0,1,796,10],
+"classmrmeshpy_1_1SignDetectionMode.html#aee995f4042b63f3e5941a614b57c744b":[6,1,0,0,2,796,1]
 };

@@ -1093,6 +1093,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_char", "classmrmeshpy_1_1std__vector__char.html", null ],
     [ "mrmeshpy.std_vector_CNCMachineSettings_RotationAxisName", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html", null ],
     [ "mrmeshpy.std_vector_Color", "classmrmeshpy_1_1std__vector__Color.html", null ],
+    [ "mrmeshpy.std_vector_CurvePoint", "classmrmeshpy_1_1std__vector__CurvePoint.html", null ],
     [ "mrmeshpy.std_vector_Dipole", "classmrmeshpy_1_1std__vector__Dipole.html", null ],
     [ "mrmeshpy.std_vector_DistanceMap", "classmrmeshpy_1_1std__vector__DistanceMap.html", null ],
     [ "mrmeshpy.std_vector_double", "classmrmeshpy_1_1std__vector__double.html", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRBezier_8h_source.html":[6,0,3,0,0,1,4,28],
+"MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
 "MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
 "MRBitSetParallelFor_8h.html":[6,0,3,0,0,1,4,30],
 "MRBitSetParallelFor_8h.html#a003ae747d026a9348bbd8cf8eb29b30f":[6,0,3,0,0,1,4,30,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRCudaPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,1,10],
 "MRCudaPolyline_8h.html":[6,0,3,0,0,1,1,11],
 "MRCudaPolyline_8h_source.html":[6,0,3,0,0,1,1,11],
-"MRCudaSolarRadiation_8h.html":[6,0,3,0,0,1,1,12],
-"MRCudaSolarRadiation_8h.html#ab5f9490f820c7e7eb708e516e58d6e5a":[6,0,3,0,0,1,1,12,0],
-"MRCudaSolarRadiation_8h.html#af763aea7896baa102ab7715278d93231":[6,0,3,0,0,1,1,12,1]
+"MRCudaSolarRadiation_8h.html":[6,0,3,0,0,1,1,12]
 };

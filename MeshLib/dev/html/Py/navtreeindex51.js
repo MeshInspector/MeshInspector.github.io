@@ -1,9 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#a9adb0d3a0077aa2e7e8144890529c327":[6,1,1,0,1,498,2],
-"classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#acc711fca02b9ab75b26f6b792a5729ce":[6,1,0,0,2,498,0],
-"classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#acc711fca02b9ab75b26f6b792a5729ce":[6,1,1,0,1,498,0],
-"classmrmeshpy_1_1MeshIntersectionResult.html":[6,1,0,0,2,499],
 "classmrmeshpy_1_1MeshIntersectionResult.html":[6,1,1,0,1,499],
 "classmrmeshpy_1_1MeshIntersectionResult.html#a281993a00b5015b37e278be1bf196339":[6,1,0,0,2,499,1],
 "classmrmeshpy_1_1MeshIntersectionResult.html#a281993a00b5015b37e278be1bf196339":[6,1,1,0,1,499,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX51 =
 "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ac92882451fa636bf0caf841a56532f18":[6,1,1,0,1,510,7],
 "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ad0b1dd40d49992e9e13e5e253abfdb18":[6,1,0,0,2,510,14],
 "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ad0b1dd40d49992e9e13e5e253abfdb18":[6,1,1,0,1,510,14],
-"classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ad25f2c9646826d2534ddba71cd5da907":[6,1,0,0,2,510,6]
+"classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ad25f2c9646826d2534ddba71cd5da907":[6,1,0,0,2,510,6],
+"classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ad25f2c9646826d2534ddba71cd5da907":[6,1,1,0,1,510,6],
+"classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ae577c40d3269eadc2150834dd87641b2":[6,1,0,0,2,510,9],
+"classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ae577c40d3269eadc2150834dd87641b2":[6,1,1,0,1,510,9],
+"classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#aef0be3993012a3da9f25e1247bfcfe12":[6,1,0,0,2,510,4]
 };

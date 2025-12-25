@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"MRTunnelDetector_8h.html#ab62cdad3a328c86de5d1d89d17dfdd9a":[6,2,1,0,0,0,1,338,9],
 "MRTunnelDetector_8h.html#ab76d99b83415cd6aaed9961ea2eb9448":[6,2,1,0,0,0,1,338,10],
 "MRTunnelDetector_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687":[6,2,1,0,0,0,1,338,5],
 "MRTunnelDetector_8h.html#ac913b928f55547394d82cc3dfb02b594":[6,2,1,0,0,0,1,338,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "MRUnitInfo_8h.html#ac4a5a9bc387fbc0cc0962f4002c9b058":[6,2,1,0,0,0,1,344,28],
 "MRUnitInfo_8h.html#ac7cf53f4557ea0b9cd073c65b2da4477":[6,2,1,0,0,0,1,344,11],
 "MRUnitInfo_8h.html#ae233d23e9c0d193187dcb9a1aebbffc5":[6,2,1,0,0,0,1,344,34],
-"MRUnitInfo_8h.html#ae715a61c35c0025c0507da6cc5b3ff1f":[6,2,1,0,0,0,1,344,23],
-"MRUnitInfo_8h.html#ae97dd5994fd2209865ef10d990c10cbd":[6,2,1,0,0,0,1,344,6]
+"MRUnitInfo_8h.html#ae715a61c35c0025c0507da6cc5b3ff1f":[6,2,1,0,0,0,1,344,23]
 };
