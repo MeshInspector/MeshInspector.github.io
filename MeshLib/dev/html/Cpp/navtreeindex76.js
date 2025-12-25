@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1IntrinsicDeloneSettings.html":[6,0,0,9,1,0],
+"structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[6,0,0,9,1,0,2],
 "structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1],
 "structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[6,0,0,9,1,0,0],
 "structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79":[6,0,0,9,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191":[6,0,1,0,1,371,3],
 "structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191":[6,0,2,0,1,352,3],
 "structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0":[6,0,1,0,1,371,1],
-"structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0":[6,0,2,0,1,352,1],
-"structMR_1_1MapOrHashMap.html#ab6a52148cc818bc6c42e287a95ef61b8":[6,0,1,0,1,371,2],
-"structMR_1_1MapOrHashMap.html#ab6a52148cc818bc6c42e287a95ef61b8":[6,0,2,0,1,352,2]
+"structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0":[6,0,2,0,1,352,1]
 };

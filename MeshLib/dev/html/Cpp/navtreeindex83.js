@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1Pdf_1_1TextParams.html#a4af1de87818d3fbdfa3bbc486b6291ec":[6,0,2,0,1,497,5,1],
+"structMR_1_1Pdf_1_1TextParams.html#a7d18ee945388f340f174e73ce3ff798a":[6,0,1,0,1,516,5,4],
 "structMR_1_1Pdf_1_1TextParams.html#a7d18ee945388f340f174e73ce3ff798a":[6,0,2,0,1,497,5,4],
 "structMR_1_1Pdf_1_1TextParams.html#adfd5808f6da074893b078d1ad9e386e5":[6,0,1,0,1,516,5,0],
 "structMR_1_1Pdf_1_1TextParams.html#adfd5808f6da074893b078d1ad9e386e5":[6,0,2,0,1,497,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1PointPairs.html#aa5242248a93789d989a923092a5d7592":[6,0,2,0,1,523,3],
 "structMR_1_1PointPairs.html#ab99f3e132fe375fd87cd27dafb991537":[6,0,1,0,1,542,0],
 "structMR_1_1PointPairs.html#ab99f3e132fe375fd87cd27dafb991537":[6,0,2,0,1,523,0],
-"structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,1,0,1,542,1],
-"structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,2,0,1,523,1],
-"structMR_1_1PointsLoadSettings.html":[6,0,1,0,1,543]
+"structMR_1_1PointPairs.html#af0bfe85ad789f3bba2ddfb104733e314":[6,0,1,0,1,542,1]
 };

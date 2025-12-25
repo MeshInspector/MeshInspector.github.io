@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1Mesh.html#a097d63092885e790e360319635cf3b86":[6,0,0,7,1,17],
+"structMR_1_1Mesh.html#a0ddf4af17627f59df39990e32ea87c04":[6,0,0,7,1,15],
 "structMR_1_1Mesh.html#a0e4c897582e70d319407854dae664a39":[6,0,0,7,1,27],
 "structMR_1_1Mesh.html#a0fdc9e5969b065b761018ff5cb0a43a5":[6,0,0,7,1,75],
 "structMR_1_1Mesh.html#a12917935a6261c2bbffbcc979a91abde":[6,0,0,7,1,100],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410":[6,0,0,1,24,2],
 "structMR_1_1MeshNormals.html":[6,0,0,9,5,0],
 "structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5":[6,0,0,9,5,0,0],
-"structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1],
-"structMR_1_1MeshOrPointsXf.html":[6,0,1,0,1,400],
-"structMR_1_1MeshOrPointsXf.html":[6,0,2,0,1,381]
+"structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1]
 };

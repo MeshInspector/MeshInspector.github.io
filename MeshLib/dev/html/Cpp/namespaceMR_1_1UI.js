@@ -72,6 +72,7 @@ var namespaceMR_1_1UI =
     [ "getDefaultStep", "namespaceMR_1_1UI.html#a34c3f1871780efe66e47bcc052cefd3d", null ],
     [ "getDefaultWindowRectAllocator", "namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032", null ],
     [ "getImGuiModPrimaryCtrl", "namespaceMR_1_1UI.html#ad5f5d8b8b0e1a7192c658352c6b0a4a2", null ],
+    [ "getImGuiPrimaryCtrlName", "namespaceMR_1_1UI.html#aef6aee6b25d8ef46fa79ca793724ce57", null ],
     [ "getTexture", "namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886", null ],
     [ "highlightWindowArea", "namespaceMR_1_1UI.html#a5abc6e37a08e8c040cded2ae7ccd147b", null ],
     [ "init", "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110", null ],

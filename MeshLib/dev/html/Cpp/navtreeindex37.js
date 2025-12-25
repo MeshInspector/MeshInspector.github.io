@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1PriorityQueue.html#a5f49205aba3f95b0774623effbc87e49":[6,0,2,0,1,560,13],
 "classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,1,0,1,579,1],
 "classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,2,0,1,560,1],
 "classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,1,0,1,579,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68":[6,0,2,0,1,579,0],
 "classMR_1_1RectIndexer.html":[6,0,0,5,8],
 "classMR_1_1RectIndexer.html#a3405e1ad7d3f9cb6d72845e41f3232bc":[6,0,0,5,8,6],
-"classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb":[6,0,0,5,8,4],
-"classMR_1_1RectIndexer.html#a581238851bf8cb545d729d3957100372":[6,0,0,5,8,3]
+"classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb":[6,0,0,5,8,4]
 };

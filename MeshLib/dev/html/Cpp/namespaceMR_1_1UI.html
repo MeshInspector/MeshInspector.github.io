@@ -237,6 +237,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad5f5d8b8b0e1a7192c658352c6b0a4a2" id="r_ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API ImGuiKey&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5f5d8b8b0e1a7192c658352c6b0a4a2">getImGuiModPrimaryCtrl</a> ()</td></tr>
 <tr class="memdesc:ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns imgui modifier <a class="el" href="classMR_1_1Id.html">Id</a> based on current environment  <br /></td></tr>
 <tr class="separator:ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6aee6b25d8ef46fa79ca793724ce57" id="r_aef6aee6b25d8ef46fa79ca793724ce57"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef6aee6b25d8ef46fa79ca793724ce57">getImGuiPrimaryCtrlName</a> ()</td></tr>
+<tr class="memdesc:aef6aee6b25d8ef46fa79ca793724ce57"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns "Ctrl" by default or "Command" if <a class="el" href="namespaceImGui.html">ImGui</a> has changed it internally for macos  <br /></td></tr>
+<tr class="separator:aef6aee6b25d8ef46fa79ca793724ce57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d5300d4685c08883eebec83b277c71a" id="r_a6d5300d4685c08883eebec83b277c71a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d5300d4685c08883eebec83b277c71a">checkKey</a> (ImGuiKey passedKey)</td></tr>
 <tr class="memdesc:a6d5300d4685c08883eebec83b277c71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if button is pressed in this frame, preserve its further processing in viewer keyboard events system if taken here  <br /></td></tr>
 <tr class="separator:a6d5300d4685c08883eebec83b277c71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1680,6 +1683,25 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetT
 </div><div class="memdoc">
 
 <p>returns imgui modifier <a class="el" href="classMR_1_1Id.html">Id</a> based on current environment </p>
+
+</div>
+</div>
+<a id="aef6aee6b25d8ef46fa79ca793724ce57" name="aef6aee6b25d8ef46fa79ca793724ce57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6aee6b25d8ef46fa79ca793724ce57">&#9670;&#160;</a></span>getImGuiPrimaryCtrlName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const char * MR::UI::getImGuiPrimaryCtrlName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns "Ctrl" by default or "Command" if <a class="el" href="namespaceImGui.html">ImGui</a> has changed it internally for macos </p>
 
 </div>
 </div>

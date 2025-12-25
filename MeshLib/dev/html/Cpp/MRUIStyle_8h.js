@@ -64,6 +64,7 @@ var MRUIStyle_8h =
     [ "getDefaultDragSpeed", "MRUIStyle_8h.html#a73b24c79591c799e7d48900fbeb29f28", null ],
     [ "getDefaultStep", "MRUIStyle_8h.html#a34c3f1871780efe66e47bcc052cefd3d", null ],
     [ "getImGuiModPrimaryCtrl", "MRUIStyle_8h.html#ad5f5d8b8b0e1a7192c658352c6b0a4a2", null ],
+    [ "getImGuiPrimaryCtrlName", "MRUIStyle_8h.html#aef6aee6b25d8ef46fa79ca793724ce57", null ],
     [ "getTexture", "MRUIStyle_8h.html#a0d337a1adf7e16aaa08b683a6b65e886", null ],
     [ "highlightWindowArea", "MRUIStyle_8h.html#a5abc6e37a08e8c040cded2ae7ccd147b", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],

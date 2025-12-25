@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[6,0,2,0,1,2,0,0,7],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html":[6,0,1,0,1,6,0,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html":[6,0,2,0,1,2,0,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a17291dba0d3768973959e35d4105ceea":[6,0,1,0,1,6,0,1,3],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a17291dba0d3768973959e35d4105ceea":[6,0,2,0,1,2,0,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b":[6,0,1,0,1,263,1],
 "structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b":[6,0,2,0,1,244,1],
 "structMR_1_1FindOverlappingSettings.html":[6,0,1,0,1,264],
-"structMR_1_1FindOverlappingSettings.html":[6,0,2,0,1,245],
-"structMR_1_1FindOverlappingSettings.html#a2fb083294a0bd854f423edd314775ad7":[6,0,1,0,1,264,3],
-"structMR_1_1FindOverlappingSettings.html#a2fb083294a0bd854f423edd314775ad7":[6,0,2,0,1,245,3]
+"structMR_1_1FindOverlappingSettings.html":[6,0,2,0,1,245]
 };

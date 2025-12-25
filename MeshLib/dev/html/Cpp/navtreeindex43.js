@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1SceneTextureGL.html#a7c04619df20d551fd4e79257bcf83a31":[6,0,1,0,1,679,5],
 "classMR_1_1SceneTextureGL.html#a7c04619df20d551fd4e79257bcf83a31":[6,0,2,0,1,660,5],
 "classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78":[6,0,1,0,1,679,1],
 "classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78":[6,0,2,0,1,660,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,2,0,1,698,3],
 "classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,1,0,1,717,10],
 "classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,2,0,1,698,10],
-"classMR_1_1SparsePolynomial.html#af742f5b139ea26142c4b53b07b105655":[6,0,1,0,1,717,2],
-"classMR_1_1SparsePolynomial.html#af742f5b139ea26142c4b53b07b105655":[6,0,2,0,1,698,2]
+"classMR_1_1SparsePolynomial.html#af742f5b139ea26142c4b53b07b105655":[6,0,1,0,1,717,2]
 };

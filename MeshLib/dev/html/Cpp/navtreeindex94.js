@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1Viewport_1_1PickRenderObjectParams.html":[6,0,1,0,1,819,2],
+"structMR_1_1Viewport_1_1PickRenderObjectParams.html":[6,0,2,0,1,800,2],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0268e6c311706ff818e5710062d504fb":[6,0,1,0,1,819,2,2],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0268e6c311706ff818e5710062d504fb":[6,0,2,0,1,800,2,2],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0522dd8b3c54c93dfc03d9c91c9901ac":[6,0,1,0,1,819,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[6,0,1,0,1,858,0],
 "structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[6,0,2,0,1,839,0],
 "structMR_1_1detail_1_1MakeScopeGuard.html":[6,0,1,0,1,3,2],
-"structMR_1_1detail_1_1MakeScopeGuard.html":[6,0,2,0,1,1,2],
-"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[6,0,1,0,1,3,2,0],
-"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[6,0,2,0,1,1,2,0]
+"structMR_1_1detail_1_1MakeScopeGuard.html":[6,0,2,0,1,1,2]
 };

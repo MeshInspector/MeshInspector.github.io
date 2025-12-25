@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1SparsePolynomial.html#af742f5b139ea26142c4b53b07b105655":[6,0,2,0,1,698,2],
 "classMR_1_1SphereObject.html":[6,0,0,11,0,6],
 "classMR_1_1SphereObject.html#a0756a482bc3f5e18d1e16940c05b1545":[6,0,0,11,0,6,4],
 "classMR_1_1SphereObject.html#a097e487aba59a6996fc2b21658af0fd2":[6,0,0,11,0,6,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93c":[6,0,2,0,1,711,2],
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717":[6,0,1,0,1,730,2,1],
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717":[6,0,2,0,1,711,2,1],
-"classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f":[6,0,1,0,1,730,2,4],
-"classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f":[6,0,2,0,1,711,2,4]
+"classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f":[6,0,1,0,1,730,2,4]
 };
