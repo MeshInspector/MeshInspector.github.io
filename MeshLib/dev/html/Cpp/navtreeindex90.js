@@ -1,5 +1,9 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,2,0,1,742,0],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,1,761,2],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,2,0,1,742,2],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464":[6,0,1,0,1,761,1],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464":[6,0,2,0,1,742,1],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#acf7c6b3a2731668f250b72f7c7b3e25c":[6,0,1,0,1,761,3],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#acf7c6b3a2731668f250b72f7c7b3e25c":[6,0,2,0,1,742,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,2,0,1,762,0],
 "structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,1,0,1,781,3],
 "structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,2,0,1,762,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,1,0,1,43,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,2,0,1,26,1],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[6,0,1,0,1,43,3,6],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[6,0,2,0,1,26,1,6],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc":[6,0,1,0,1,43,3,1]
+"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,1,0,1,43,3]
 };

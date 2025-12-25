@@ -233,13 +233,14 @@ var NAVTREEINDEX =
 "structMR_1_1PostRescaleListener.html",
 "structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678",
 "structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76",
-"structMR_1_1Signal.html#a69ea1c4cfb77f79ea8c163ceb39ef970",
-"structMR_1_1SymMatrix3.html#afb6ed3ffe4bdda5d6267cc44ef816e9c",
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464",
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc",
-"structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f",
-"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be",
-"structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911"
+"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4",
+"structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba",
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3",
+"structMR_1_1UI_1_1ButtonCustomizationParams.html",
+"structMR_1_1UniquePtr.html#aaf1504c1a8adb3c65e6501508c18f9ad",
+"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html#a5fd55f8cb6c26f1a29d3ba4b2c809a3b",
+"structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96",
+"topics.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

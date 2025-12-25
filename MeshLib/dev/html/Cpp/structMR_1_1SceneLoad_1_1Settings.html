@@ -146,6 +146,7 @@ $(function(){initNavTree('structMR_1_1SceneLoad_1_1Settings.html',''); initResiz
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1SceneLoad_1_1Settings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::SceneLoad::Settings Struct Reference</div></div>
@@ -154,6 +155,11 @@ $(function(){initNavTree('structMR_1_1SceneLoad_1_1Settings.html',''); initResiz
 
 <p><code>#include &lt;<a class="el" href="MRSceneLoad_8h_source.html">MRSceneLoad.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a01397df55967ecaab97eaba28056aaf9" id="r_a01397df55967ecaab97eaba28056aaf9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01397df55967ecaab97eaba28056aaf9">OpenFolder</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a>&gt;( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )&gt;</td></tr>
+<tr class="separator:a01397df55967ecaab97eaba28056aaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af5b8ca73e0491595900574e2c8ab17d8" id="r_af5b8ca73e0491595900574e2c8ab17d8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab">LengthUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5b8ca73e0491595900574e2c8ab17d8">targetUnit</a></td></tr>
@@ -161,8 +167,40 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac5c932854de305eb8458df1d84eee28a" id="r_ac5c932854de305eb8458df1d84eee28a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c932854de305eb8458df1d84eee28a">progress</a></td></tr>
 <tr class="memdesc:ac5c932854de305eb8458df1d84eee28a"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report loading progress and allow the user to cancel it  <br /></td></tr>
 <tr class="separator:ac5c932854de305eb8458df1d84eee28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeefaeaf2dac0299fbdece77fe19bd751" id="r_aeefaeaf2dac0299fbdece77fe19bd751"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a01397df55967ecaab97eaba28056aaf9">OpenFolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeefaeaf2dac0299fbdece77fe19bd751">openFolder</a></td></tr>
+<tr class="separator:aeefaeaf2dac0299fbdece77fe19bd751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a01397df55967ecaab97eaba28056aaf9" name="a01397df55967ecaab97eaba28056aaf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01397df55967ecaab97eaba28056aaf9">&#9670;&#160;</a></span>OpenFolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a01397df55967ecaab97eaba28056aaf9">MR::SceneLoad::Settings::OpenFolder</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a>&gt;( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if provided then folders will be open using this functions and added to scene, otherwise folders will be skipped </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aeefaeaf2dac0299fbdece77fe19bd751" name="aeefaeaf2dac0299fbdece77fe19bd751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeefaeaf2dac0299fbdece77fe19bd751">&#9670;&#160;</a></span>openFolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a01397df55967ecaab97eaba28056aaf9">OpenFolder</a> MR::SceneLoad::Settings::openFolder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac5c932854de305eb8458df1d84eee28a" name="ac5c932854de305eb8458df1d84eee28a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5c932854de305eb8458df1d84eee28a">&#9670;&#160;</a></span>progress</h2>
 
