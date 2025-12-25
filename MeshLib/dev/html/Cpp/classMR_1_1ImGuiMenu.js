@@ -52,6 +52,7 @@ var classMR_1_1ImGuiMenu =
     [ "drawTransform_", "classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a", null ],
     [ "drawTransformContextMenu_", "classMR_1_1ImGuiMenu.html#ac40c4ccc20532c621364545dc961f65a", null ],
     [ "enableSavedDialogPositions", "classMR_1_1ImGuiMenu.html#aa2d17638d5eae8d84052a441927c8e2e", null ],
+    [ "expandObjectTreeAndScroll", "classMR_1_1ImGuiMenu.html#a8f01e9d7c731a69186508c03397c09f1", null ],
     [ "finishFrame", "classMR_1_1ImGuiMenu.html#aca84b210ea3b4853487a073ab51ee99e", null ],
     [ "getCurrentContext", "classMR_1_1ImGuiMenu.html#ae5d94dd8a1dc073888a8e0424f6bdfa5", null ],
     [ "getLastFocusedPlugin", "classMR_1_1ImGuiMenu.html#aa42442fae2b45f724400fbfa87716738", null ],
