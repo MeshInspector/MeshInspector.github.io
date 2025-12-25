@@ -1,5 +1,9 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DecimateSettings.html#ad23e1338af289f8942bea68e493a1c69":[6,1,1,0,1,188,3],
+"classmrmeshpy_1_1DecimateSettings.html#adad31f6a7b6728b22b02a25f9b905e20":[6,1,0,0,2,188,36],
+"classmrmeshpy_1_1DecimateSettings.html#adad31f6a7b6728b22b02a25f9b905e20":[6,1,1,0,1,188,36],
+"classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8":[6,1,0,0,2,188,0],
 "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8":[6,1,1,0,1,188,0],
 "classmrmeshpy_1_1DecimateSettings.html#adedd7b2c4a722f70c406137a76d6e076":[6,1,0,0,2,188,23],
 "classmrmeshpy_1_1DecimateSettings.html#adedd7b2c4a722f70c406137a76d6e076":[6,1,1,0,1,188,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html#a8548c818a40310b11f37ecb998143c5a":[6,1,1,0,1,196,8],
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html#a8bf9eadd499cb352630aa51816d09d93":[6,1,0,0,2,196,0],
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html#a8bf9eadd499cb352630aa51816d09d93":[6,1,1,0,1,196,0],
-"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#a8e8e516e67914819ed56d374e9467b54":[6,1,0,0,2,196,5],
-"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#a8e8e516e67914819ed56d374e9467b54":[6,1,1,0,1,196,5],
-"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#ab6c6b2617b43b637f3628e68594e41cf":[6,1,0,0,2,196,3],
-"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#ab6c6b2617b43b637f3628e68594e41cf":[6,1,1,0,1,196,3],
-"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#af582013ddb07df440b7e2b694bc9c040":[6,1,0,0,2,196,7]
+"classmrmeshpy_1_1DimensionsVisualizePropertyType.html#a8e8e516e67914819ed56d374e9467b54":[6,1,0,0,2,196,5]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"MRPointCloudPart_8h.html":[6,0,3,0,0,1,4,286],
-"MRPointCloudPart_8h_source.html":[6,0,3,0,0,1,4,286],
-"MRPointCloudRadius_8h.html":[6,0,3,0,0,1,4,287],
 "MRPointCloudRadius_8h.html#a1366441a63d8da63b7db115a4fe66c31":[6,0,3,0,0,1,4,287,0],
 "MRPointCloudRadius_8h.html#a3531ebf5781cbdc7f3a5bc36fd936d5e":[6,0,3,0,0,1,4,287,1],
 "MRPointCloudRadius_8h_source.html":[6,0,3,0,0,1,4,287],
@@ -249,5 +246,8 @@ var NAVTREEINDEX9 =
 "MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429":[6,0,3,0,0,1,6,1,14],
 "MRPython_8h.html#ae6956a35fce75d18a07941e975ae07cc":[6,0,3,0,0,1,6,1,16],
 "MRPython_8h_source.html":[6,0,3,0,0,1,6,1],
-"MRQuadraticForm_8h.html":[6,0,3,0,0,1,4,329]
+"MRQuadraticForm_8h.html":[6,0,3,0,0,1,4,329],
+"MRQuadraticForm_8h_source.html":[6,0,3,0,0,1,4,329],
+"MRQuaternion_8h.html":[6,0,3,0,0,1,4,330],
+"MRQuaternion_8h_source.html":[6,0,3,0,0,1,4,330]
 };

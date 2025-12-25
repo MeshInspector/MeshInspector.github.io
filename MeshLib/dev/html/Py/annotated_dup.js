@@ -892,7 +892,6 @@ var annotated_dup =
       [ "std_vector_char", "classmrmeshpy_1_1std__vector__char.html", "classmrmeshpy_1_1std__vector__char" ],
       [ "std_vector_CNCMachineSettings_RotationAxisName", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName" ],
       [ "std_vector_Color", "classmrmeshpy_1_1std__vector__Color.html", "classmrmeshpy_1_1std__vector__Color" ],
-      [ "std_vector_CurvePoint", "classmrmeshpy_1_1std__vector__CurvePoint.html", "classmrmeshpy_1_1std__vector__CurvePoint" ],
       [ "std_vector_Dipole", "classmrmeshpy_1_1std__vector__Dipole.html", "classmrmeshpy_1_1std__vector__Dipole" ],
       [ "std_vector_DistanceMap", "classmrmeshpy_1_1std__vector__DistanceMap.html", "classmrmeshpy_1_1std__vector__DistanceMap" ],
       [ "std_vector_double", "classmrmeshpy_1_1std__vector__double.html", "classmrmeshpy_1_1std__vector__double" ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[6,0,1,0,1,527,2],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[6,0,2,0,1,508,2],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b":[6,0,1,0,1,527,3],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b":[6,0,2,0,1,508,3],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#af80c0adcc1ca6dfd7b24e4d98aed5dcc":[6,0,1,0,1,527,4],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#af80c0adcc1ca6dfd7b24e4d98aed5dcc":[6,0,2,0,1,508,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX36 =
 "classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,1,0,1,579,1],
 "classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,2,0,1,560,1],
 "classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,1,0,1,579,5],
-"classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,2,0,1,560,5]
+"classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,2,0,1,560,5],
+"classMR_1_1PriorityQueue.html#aae44e735cc86835adbb6d48ff4a446ab":[6,0,1,0,1,579,3],
+"classMR_1_1PriorityQueue.html#aae44e735cc86835adbb6d48ff4a446ab":[6,0,2,0,1,560,3],
+"classMR_1_1PriorityQueue.html#ab6d4bc3f087a1d5b9e3acf5c3334f1af":[6,0,1,0,1,579,11]
 };

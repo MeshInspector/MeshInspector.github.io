@@ -243,7 +243,6 @@ var searchData=
   ['cudapointstodistancevolumecallback_42',['CudaPointsToDistanceVolumeCallback',['.././Cpp/classMR_1_1CudaAccessor.html#a7acccf65074e9ea99f88143c0ba0816a',1,'MR::CudaAccessor']]],
   ['cursorentrancesignal_43',['CursorEntranceSignal',['.././Cpp/structMR_1_1ViewerSignals.html#a635ab18f390475cfdf278794eae44fb6',1,'MR::ViewerSignals']]],
   ['curvefunc_44',['CurveFunc',['.././Cpp/namespaceMR.html#a8dffd3366aa2bf51396d6beaf3e47199',1,'MR']]],
-  ['curvepoints_45',['CurvePoints',['.././Cpp/namespaceMR.html#a9373564bf8d768311a39df2f41d3d8e4',1,'MR']]],
   ['nametagclicksignal_0',['NameTagClickSignal',['.././Cpp/classMR_1_1ImGuiMenu.html#a108b6e7b1762c1e145d04713a3badf63',1,'MR::ImGuiMenu']]],
   ['neighbours_1',['Neighbours',['.././Cpp/classMR_1_1Graph.html#a77cba04748e7954c18b2aebc282f0d74',1,'MR::Graph']]],
   ['neighbourspervertex_2',['NeighboursPerVertex',['.././Cpp/classMR_1_1Graph.html#a0f0a516aa03bd6f100040d2696d0c808',1,'MR::Graph']]],

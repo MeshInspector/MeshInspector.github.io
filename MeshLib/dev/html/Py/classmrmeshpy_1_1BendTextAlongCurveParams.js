@@ -2,6 +2,8 @@ var classmrmeshpy_1_1BendTextAlongCurveParams =
 [
     [ "__init__", "classmrmeshpy_1_1BendTextAlongCurveParams.html#a0485a070f510a3220a507eb1138deb23", null ],
     [ "__init__", "classmrmeshpy_1_1BendTextAlongCurveParams.html#a3b6cbb91582e5ea3c1387c7c3b7011da", null ],
+    [ "curve", "classmrmeshpy_1_1BendTextAlongCurveParams.html#ace4a5cffae5029a6fa685ed3705ec7a0", null ],
+    [ "curve", "classmrmeshpy_1_1BendTextAlongCurveParams.html#a332d879bf53bc32312e8a12ea86bb1b5", null ],
     [ "fontBasedSizeCalc", "classmrmeshpy_1_1BendTextAlongCurveParams.html#a84519ec24abfcc5cd7001e72d9a00e28", null ],
     [ "fontBasedSizeCalc", "classmrmeshpy_1_1BendTextAlongCurveParams.html#a26c9a290d5ec9788f337f68a4c8f87f8", null ],
     [ "fontHeight", "classmrmeshpy_1_1BendTextAlongCurveParams.html#a1d9f501fe66600459b871b6f6e4b6c54", null ],

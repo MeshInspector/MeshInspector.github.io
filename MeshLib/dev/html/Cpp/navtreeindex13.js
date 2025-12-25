@@ -1,8 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"MRTestC2_2SimpleObjects_8h.html#a4a45d0cd2f5dfaab001425a6375c1e89":[6,0,3,0,0,1,9,26,4],
-"MRTestC2_2SimpleObjects_8h.html#a5cad262e3840b500677ba7e900a80f86":[6,0,3,0,0,1,9,26,5],
-"MRTestC2_2SimpleObjects_8h.html#a9d3d02b6536ab96c1757034159e6ef89":[6,0,3,0,0,1,9,26,1],
 "MRTestC2_2SimpleObjects_8h.html#abc1e85968164c84332e4e87f5bac06c8":[6,0,3,0,0,1,9,26,3],
 "MRTestC2_2SimpleObjects_8h.html#af131467d7d1a6a312cf35bd8eebccc2a":[6,0,3,0,0,1,9,26,2],
 "MRTestC2_2SimpleObjects_8h_source.html":[6,0,3,0,0,1,9,26],
@@ -249,5 +246,8 @@ var NAVTREEINDEX13 =
 "MRTouchpadParameters_8h_source.html":[6,0,3,0,0,1,10,135],
 "MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,1,10,136],
 "MRTouchpadWin32Handler_8h_source.html":[6,0,3,0,0,1,10,136],
-"MRTriDist_8h.html":[6,0,3,0,0,1,4,389]
+"MRTriDist_8h.html":[6,0,3,0,0,1,4,389],
+"MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[6,0,3,0,0,1,4,389,1],
+"MRTriDist_8h.html#aaf4d239a6cdece7da03913ad2b3a6efe":[6,0,3,0,0,1,4,389,0],
+"MRTriDist_8h_source.html":[6,0,3,0,0,1,4,389]
 };

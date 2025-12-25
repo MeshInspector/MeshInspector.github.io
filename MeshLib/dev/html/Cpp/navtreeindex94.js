@@ -1,9 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"structMR_1_1VisualObjectTag.html":[6,0,1,0,1,829],
-"structMR_1_1VisualObjectTag.html":[6,0,2,0,1,810],
-"structMR_1_1VisualObjectTag.html#a040722e4a5ea73462bb03e8dc331a267":[6,0,1,0,1,829,0],
-"structMR_1_1VisualObjectTag.html#a040722e4a5ea73462bb03e8dc331a267":[6,0,2,0,1,810,0],
 "structMR_1_1VisualObjectTag.html#aea8f1b7edc9df06d7955309b333fb83c":[6,0,1,0,1,829,1],
 "structMR_1_1VisualObjectTag.html#aea8f1b7edc9df06d7955309b333fb83c":[6,0,2,0,1,810,1],
 "structMR_1_1VolumeSegmentationParameters.html":[6,0,0,17,2,0],

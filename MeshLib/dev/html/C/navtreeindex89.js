@@ -1,6 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"MRPointsToDistanceVolume_8h.html":[6,2,1,0,0,0,4,17],
 "MRPointsToDistanceVolume_8h.html#a028a81e3f8d42340e6c8b3d5fcdcae32":[6,2,1,0,0,0,4,17,29],
 "MRPointsToDistanceVolume_8h.html#a0362d48493d5a4f5eeb5cfe725f9a090":[6,2,1,0,0,0,4,17,12],
 "MRPointsToDistanceVolume_8h.html#a0bb7edc00d142fdfc6f83dbd3b049ace":[6,2,1,0,0,0,4,17,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX89 =
 "MRPolylineDecimate_8h.html#a69650dca0646199f62e9302b379ae819":[6,2,1,0,0,0,1,269,64],
 "MRPolylineDecimate_8h.html#a6b739cc79929da30037624dddb1a8f45":[6,2,1,0,0,0,1,269,70],
 "MRPolylineDecimate_8h.html#a6c3068dbe7a3e3d53364e93ff52f01a2":[6,2,1,0,0,0,1,269,78],
-"MRPolylineDecimate_8h.html#a6c6200738795bebd9ac9a4ae2ff25dca":[6,2,1,0,0,0,1,269,57]
+"MRPolylineDecimate_8h.html#a6c6200738795bebd9ac9a4ae2ff25dca":[6,2,1,0,0,0,1,269,57],
+"MRPolylineDecimate_8h.html#a6e7a7f6dfa8ff26d07afe71822f19726":[6,2,1,0,0,0,1,269,26]
 };
