@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,2,0,1,159,2],
+"structMR_1_1CurvePoint.html":[6,0,1,0,1,179],
 "structMR_1_1CurvePoint.html":[6,0,2,0,1,160],
 "structMR_1_1CurvePoint.html#aa66dd8795ad06b100b6b27009f406df5":[6,0,1,0,1,179,1],
 "structMR_1_1CurvePoint.html#aa66dd8795ad06b100b6b27009f406df5":[6,0,2,0,1,160,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,1,0,1,213,1],
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,2,0,1,194,1],
 "structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,1,0,1,213,0],
-"structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,2,0,1,194,0],
-"structMR_1_1DistanceVolumeParams.html":[6,0,1,0,1,214],
-"structMR_1_1DistanceVolumeParams.html":[6,0,2,0,1,195]
+"structMR_1_1DistanceToMeshOptions.html#af424f0c5bd2d65e33086d7e590836580":[6,0,2,0,1,194,0]
 };

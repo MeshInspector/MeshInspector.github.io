@@ -240,7 +240,7 @@ var hierarchy =
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener >", "structMR_1_1MultiListener.html", [
         [ "MR::DirectionWidget", "classMR_1_1DirectionWidget.html", null ]
       ] ],
-      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener >", "structMR_1_1MultiListener.html", [
+      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ImGuiMenu", "classMR_1_1ImGuiMenu.html", [
           [ "MR::RibbonMenu", "classMR_1_1RibbonMenu.html", null ]
         ] ]

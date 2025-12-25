@@ -84,6 +84,7 @@ var classMR_1_1ImGuiMenu =
     [ "onMouseScroll_", "classMR_1_1ImGuiMenu.html#a294419b7fa4605c3e9d701e12368445e", null ],
     [ "onMouseUp_", "classMR_1_1ImGuiMenu.html#a4698fb9422936fc36f43f4dcb02fb3d2", null ],
     [ "pixel_ratio", "classMR_1_1ImGuiMenu.html#a68decea45636d9cf3ddd402a7ed91222", null ],
+    [ "postFocus_", "classMR_1_1ImGuiMenu.html#a551ad5455fbfb7e59f498036018a9b1b", null ],
     [ "postRescale_", "classMR_1_1ImGuiMenu.html#aff46cdf1806900d19d9806e28d325659", null ],
     [ "postResize_", "classMR_1_1ImGuiMenu.html#a16a6844acf0cd5b7f1b4dfe41979e796", null ],
     [ "reload_font", "classMR_1_1ImGuiMenu.html#a9859a64886007cc8433d38e0ab48ed66", null ],

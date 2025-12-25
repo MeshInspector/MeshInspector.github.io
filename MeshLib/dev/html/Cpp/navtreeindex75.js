@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#a275878227f6987b781fd73d3741d8a6d":[6,0,2,0,1,7,9,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#ae57c16098d513998573613bc01be95d3":[6,0,1,0,1,16,9,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#ae57c16098d513998573613bc01be95d3":[6,0,2,0,1,7,9,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[6,0,1,0,1,16,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[6,0,2,0,1,7,9,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1],
 "structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[6,0,0,9,1,0,0],
 "structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79":[6,0,0,9,1,0,3],
-"structMR_1_1IsVisualizeMaskEnum.html":[6,0,0,11,2,1],
-"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,1,0,1,340],
-"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,2,0,1,321]
+"structMR_1_1IsVisualizeMaskEnum.html":[6,0,0,11,2,1]
 };

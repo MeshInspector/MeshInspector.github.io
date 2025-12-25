@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be":[6,0,2,0,1,787,0],
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,1,0,1,806,1],
 "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,2,0,1,787,1],
 "structMR_1_1VertDistance.html":[6,0,0,16,2,0],
 "structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96":[6,0,1,0,1,819,2,1],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96":[6,0,2,0,1,800,2,1],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html#ae36ec72eafffc8aa02f03a6a2cae2877":[6,0,1,0,1,819,2,0],
-"structMR_1_1Viewport_1_1PickRenderObjectParams.html#ae36ec72eafffc8aa02f03a6a2cae2877":[6,0,2,0,1,800,2,0],
-"structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[6,0,1,0,1,819,2,3],
-"structMR_1_1Viewport_1_1PickRenderObjectParams.html#af55c401102e507d9640c49fce0276911":[6,0,2,0,1,800,2,3]
+"structMR_1_1Viewport_1_1PickRenderObjectParams.html#ae36ec72eafffc8aa02f03a6a2cae2877":[6,0,2,0,1,800,2,0]
 };

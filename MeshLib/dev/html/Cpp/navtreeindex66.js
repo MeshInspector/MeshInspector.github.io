@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,2,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,1,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[6,0,2,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,1,0,0,0,1],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,2,0,1,56,0],
 "structMR_1_1BaseTiffParameters.html":[6,0,1,0,1,76],
 "structMR_1_1BaseTiffParameters.html":[6,0,2,0,1,57],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,76,1],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,2,0,1,57,1],
-"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,76,1,0]
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,76,1]
 };
