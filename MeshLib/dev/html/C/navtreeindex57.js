@@ -1,16 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"MRMeshDecimate_8h.html#a6e51a5dce09fcd7dd4e2719da3db3ba8":[6,2,1,0,0,0,1,164,37],
-"MRMeshDecimate_8h.html#a6e9d60081fbdaa3806d65489d8b9e4ba":[6,2,1,0,0,0,1,164,73],
-"MRMeshDecimate_8h.html#a6eb386180454c343c170676c9fe5b415":[6,2,1,0,0,0,1,164,132],
-"MRMeshDecimate_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e":[6,2,1,0,0,0,1,164,7],
-"MRMeshDecimate_8h.html#a6f291ce1fcb2de182c10f61447b23165":[6,2,1,0,0,0,1,164,202],
-"MRMeshDecimate_8h.html#a702f52ed4736e1b5c2d1d2c32ae6c252":[6,2,1,0,0,0,1,164,25],
-"MRMeshDecimate_8h.html#a71192febccae648d80fefdfdf94dadbc":[6,2,1,0,0,0,1,164,51],
-"MRMeshDecimate_8h.html#a72aefbee78f8e02f56527fd6eb8a307b":[6,2,1,0,0,0,1,164,160],
-"MRMeshDecimate_8h.html#a72ca06ab1ae9c36738df48f91521a681":[6,2,1,0,0,0,1,164,89],
-"MRMeshDecimate_8h.html#a73dc7fdf06a9fd264cd08b27cc6b39db":[6,2,1,0,0,0,1,164,40],
-"MRMeshDecimate_8h.html#a7478cad1175834e641730b3728782822":[6,2,1,0,0,0,1,164,178],
 "MRMeshDecimate_8h.html#a74f4e54a9db2504622b2c82b6d1a600f":[6,2,1,0,0,0,1,164,95],
 "MRMeshDecimate_8h.html#a77006b62e6443a88254081ce824df5b4":[6,2,1,0,0,0,1,164,196],
 "MRMeshDecimate_8h.html#a7754c9a654aeccf153c5cf4cc0d61d44":[6,2,1,0,0,0,1,164,92],
@@ -249,5 +238,16 @@ var NAVTREEINDEX57 =
 "MRMeshDistance_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17":[6,2,1,0,0,0,1,169,0],
 "MRMeshDistance_8h_source.html":[6,2,1,0,0,0,1,169],
 "MRMeshDoubleLayer_8h.html":[6,2,1,0,0,0,1,170],
-"MRMeshDoubleLayer_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,170,1]
+"MRMeshDoubleLayer_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,170,1],
+"MRMeshDoubleLayer_8h.html#a89b5ca067b07d8f111303397d0f78048":[6,2,1,0,0,0,1,170,2],
+"MRMeshDoubleLayer_8h.html#aba7bc6ac732c34fd4721c543fa3445ea":[6,2,1,0,0,0,1,170,0],
+"MRMeshDoubleLayer_8h_source.html":[6,2,1,0,0,0,1,170],
+"MRMeshExtrude_8h.html":[6,2,1,0,0,0,1,171],
+"MRMeshExtrude_8h.html#a12cf272a3ed69ce82f3d023786909240":[6,2,1,0,0,0,1,171,18],
+"MRMeshExtrude_8h.html#a1cd283dbf673d2f082dbd23ac062bdca":[6,2,1,0,0,0,1,171,19],
+"MRMeshExtrude_8h.html#a1d242455e8d600989702e71b152f5538":[6,2,1,0,0,0,1,171,17],
+"MRMeshExtrude_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,171,2],
+"MRMeshExtrude_8h.html#a3455364bc18401d2978549c09277bb17":[6,2,1,0,0,0,1,171,10],
+"MRMeshExtrude_8h.html#a39d2b29b3ecfd98e0dbc9567bb79d00d":[6,2,1,0,0,0,1,171,5],
+"MRMeshExtrude_8h.html#a4b90f49d08ad220afcccf3e064a60cdd":[6,2,1,0,0,0,1,171,3]
 };

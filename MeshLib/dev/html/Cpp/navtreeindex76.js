@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b":[6,0,0,1,16,1],
+"structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[6,0,0,1,16,6],
+"structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[6,0,0,1,16,5],
+"structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b":[6,0,0,1,16,0],
+"structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[6,0,0,1,16,4],
+"structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[6,0,0,1,16,3],
 "structMR_1_1IntrinsicDeloneSettings.html":[6,0,0,9,1,0],
 "structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[6,0,0,9,1,0,2],
 "structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a":[6,0,1,0,1,371,11],
 "structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a":[6,0,2,0,1,352,11],
 "structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,1,0,1,371,9],
-"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,2,0,1,352,9],
-"structMR_1_1MapOrHashMap.html#a9027fa8effc674e94506993cc5c1ee2e":[6,0,1,0,1,371,7],
-"structMR_1_1MapOrHashMap.html#a9027fa8effc674e94506993cc5c1ee2e":[6,0,2,0,1,352,7],
-"structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191":[6,0,1,0,1,371,3],
-"structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191":[6,0,2,0,1,352,3],
-"structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0":[6,0,1,0,1,371,1],
-"structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0":[6,0,2,0,1,352,1]
+"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,2,0,1,352,9]
 };

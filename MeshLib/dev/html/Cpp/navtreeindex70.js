@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DistanceToMeshOptions.html":[6,0,1,0,1,213],
+"structMR_1_1DistanceToMeshOptions.html":[6,0,2,0,1,194],
+"structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,1,0,1,213,4],
+"structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,2,0,1,194,4],
+"structMR_1_1DistanceToMeshOptions.html#a73856ad91f795ce44772d1494538b46d":[6,0,1,0,1,213,2],
+"structMR_1_1DistanceToMeshOptions.html#a73856ad91f795ce44772d1494538b46d":[6,0,2,0,1,194,2],
 "structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5":[6,0,1,0,1,213,3],
 "structMR_1_1DistanceToMeshOptions.html#a760f0917e02d32cbd6a708966ef922a5":[6,0,2,0,1,194,3],
 "structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f":[6,0,1,0,1,213,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1EdgeSegment.html":[6,0,1,0,1,233],
 "structMR_1_1EdgeSegment.html":[6,0,2,0,1,214],
 "structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[6,0,1,0,1,233,2],
-"structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[6,0,2,0,1,214,2],
-"structMR_1_1EdgeSegment.html#a2cd476f962cb44bbb72355daf9bd9735":[6,0,1,0,1,233,1],
-"structMR_1_1EdgeSegment.html#a2cd476f962cb44bbb72355daf9bd9735":[6,0,2,0,1,214,1],
-"structMR_1_1EdgeSegment.html#a58bb10eea905d9ba81c91be627dfad8d":[6,0,1,0,1,233,5],
-"structMR_1_1EdgeSegment.html#a58bb10eea905d9ba81c91be627dfad8d":[6,0,2,0,1,214,5],
-"structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,1,0,1,233,8],
-"structMR_1_1EdgeSegment.html#a74fca78a4ea23f1e08811bcd012a03e1":[6,0,2,0,1,214,8]
+"structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[6,0,2,0,1,214,2]
 };

@@ -70,6 +70,7 @@ var hierarchy =
     [ "mrmeshpy.BasinVolumeCalculator", "classmrmeshpy_1_1BasinVolumeCalculator.html", null ],
     [ "mrmeshpy.WatershedGraph.BdInfo", "classmrmeshpy_1_1WatershedGraph_1_1BdInfo.html", null ],
     [ "mrmeshpy.BendContoursAlongCurveParams", "classmrmeshpy_1_1BendContoursAlongCurveParams.html", null ],
+    [ "mrmeshpy.BendTextAlongCurveParams", "classmrmeshpy_1_1BendTextAlongCurveParams.html", null ],
     [ "mrmeshpy.BestFitParabolad", "classmrmeshpy_1_1BestFitParabolad.html", null ],
     [ "mrmeshpy.BestFitParabolaf", "classmrmeshpy_1_1BestFitParabolaf.html", null ],
     [ "mrmeshpy.Features.Traits.Binary_Features_Primitives_ConeSegment_Features_Primitives_ConeSegment", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html", null ],
@@ -1241,7 +1242,6 @@ var hierarchy =
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],
     [ "mrmeshpy.SurfaceDistanceBuilder", "classmrmeshpy_1_1SurfaceDistanceBuilder.html", null ],
     [ "mrmeshpy.SymbolMeshParams", "classmrmeshpy_1_1SymbolMeshParams.html", [
-      [ "mrmeshpy.BendTextAlongCurveParams", "classmrmeshpy_1_1BendTextAlongCurveParams.html", null ],
       [ "mrmeshpy.TextMeshAlignParams", "classmrmeshpy_1_1TextMeshAlignParams.html", null ]
     ] ],
     [ "mrmeshpy.SymMatrix2b", "classmrmeshpy_1_1SymMatrix2b.html", null ],

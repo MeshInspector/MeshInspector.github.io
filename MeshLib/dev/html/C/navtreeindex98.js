@@ -1,16 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"MRSceneRoot_8h.html#a362baf216e6bb8f9e698bc2c4ed75a98":[6,2,1,0,0,0,1,303,81],
-"MRSceneRoot_8h.html#a3b27334e1d41788ddb6727a06ce741e5":[6,2,1,0,0,0,1,303,88],
-"MRSceneRoot_8h.html#a3f44140deb110e9a44224bcf59272375":[6,2,1,0,0,0,1,303,27],
-"MRSceneRoot_8h.html#a405120c708e04776d8845a83586a07a7":[6,2,1,0,0,0,1,303,51],
-"MRSceneRoot_8h.html#a43b66714d6d479294962dd8df1cebba2":[6,2,1,0,0,0,1,303,76],
-"MRSceneRoot_8h.html#a44acbac8f933f31754b086f84033c65b":[6,2,1,0,0,0,1,303,77],
-"MRSceneRoot_8h.html#a455fb1e45d1e455a5436d36279622bb2":[6,2,1,0,0,0,1,303,8],
-"MRSceneRoot_8h.html#a4a84b9ba0ca881c454964086228081e4":[6,2,1,0,0,0,1,303,74],
-"MRSceneRoot_8h.html#a4c254533192ea6f5b693488309e19995":[6,2,1,0,0,0,1,303,42],
-"MRSceneRoot_8h.html#a4d27f848c8f2ccfec346bcac63fbaf97":[6,2,1,0,0,0,1,303,65],
-"MRSceneRoot_8h.html#a5859e84688bdf60c5bed52fd4f63c32f":[6,2,1,0,0,0,1,303,38],
 "MRSceneRoot_8h.html#a5d5e358ae51f7c5e677c4b02b9b77d4b":[6,2,1,0,0,0,1,303,46],
 "MRSceneRoot_8h.html#a5fa0ff63164a8f0d93029b0a100461a2":[6,2,1,0,0,0,1,303,17],
 "MRSceneRoot_8h.html#a6125b6c302efd67ce2ea6a5792a673b0":[6,2,1,0,0,0,1,303,66],
@@ -249,5 +238,16 @@ var NAVTREEINDEX98 =
 "MRSharpenMarchingCubesMesh_8h.html#aba860393166e80cba10b8786a88bc89f":[6,2,1,0,0,0,1,308,12],
 "MRSharpenMarchingCubesMesh_8h.html#abcb083740befce324bfa579df104c1b8":[6,2,1,0,0,0,1,308,27],
 "MRSharpenMarchingCubesMesh_8h.html#ac7f59a6736b29701d7e619412b6e2890":[6,2,1,0,0,0,1,308,3],
-"MRSharpenMarchingCubesMesh_8h.html#adb94264878375f03f015a833d940a723":[6,2,1,0,0,0,1,308,14]
+"MRSharpenMarchingCubesMesh_8h.html#adb94264878375f03f015a833d940a723":[6,2,1,0,0,0,1,308,14],
+"MRSharpenMarchingCubesMesh_8h.html#ae8f2a7393dd98862c1a8bc490c926bcd":[6,2,1,0,0,0,1,308,24],
+"MRSharpenMarchingCubesMesh_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17":[6,2,1,0,0,0,1,308,1],
+"MRSharpenMarchingCubesMesh_8h.html#af40b3c33ac54262801bbd882e686bcba":[6,2,1,0,0,0,1,308,21],
+"MRSharpenMarchingCubesMesh_8h.html#af816b1f84f9f326a46515876615f7ca0":[6,2,1,0,0,0,1,308,18],
+"MRSharpenMarchingCubesMesh_8h.html#af9ff70d6f8b36eaad7b1b407e5b8956e":[6,2,1,0,0,0,1,308,23],
+"MRSharpenMarchingCubesMesh_8h_source.html":[6,2,1,0,0,0,1,308],
+"MRSignDetectionMode_8h.html":[6,2,1,0,0,0,1,309],
+"MRSignDetectionMode_8h.html#a58cc14f1136bfffa8f15fdbb95d48406":[6,2,1,0,0,0,1,309,1],
+"MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2":[6,2,1,0,0,0,1,309,4],
+"MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6":[6,2,1,0,0,0,1,309,3],
+"MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259":[6,2,1,0,0,0,1,309,3,0]
 };

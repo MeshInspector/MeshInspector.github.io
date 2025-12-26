@@ -159,13 +159,16 @@ $(function(){initNavTree('structMR_1_1BendContoursAlongCurveParams.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a98249836588293370c5317d797b5ab8f" id="r_a98249836588293370c5317d797b5ab8f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98249836588293370c5317d797b5ab8f">pivotY</a> = 0</td></tr>
-<tr class="separator:a98249836588293370c5317d797b5ab8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94f08b9029b46debd6c05b78ee3d395" id="r_af94f08b9029b46debd6c05b78ee3d395"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af94f08b9029b46debd6c05b78ee3d395">pivotCurveTime</a> = 0</td></tr>
+<tr class="memdesc:af94f08b9029b46debd6c05b78ee3d395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position on the curve, where bounding box's pivot point is mapped.  <br /></td></tr>
+<tr class="separator:af94f08b9029b46debd6c05b78ee3d395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f38f9d108b091730c6510d7dfdd082" id="r_aa2f38f9d108b091730c6510d7dfdd082"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f38f9d108b091730c6510d7dfdd082">pivotBoxPoint</a> {0.0f, 0.0f}</td></tr>
+<tr class="separator:aa2f38f9d108b091730c6510d7dfdd082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35b146e279f46114708f3c40a0a92f7b" id="r_a35b146e279f46114708f3c40a0a92f7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b146e279f46114708f3c40a0a92f7b">curve</a></td></tr>
 <tr class="memdesc:a35b146e279f46114708f3c40a0a92f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts (x in [0,1], pivotY) into position on curve  <br /></td></tr>
 <tr class="separator:a35b146e279f46114708f3c40a0a92f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa63ad4da9aad75fc779edeb4baab169c" id="r_aa63ad4da9aad75fc779edeb4baab169c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa63ad4da9aad75fc779edeb4baab169c">stretch</a> = true</td></tr>
-<tr class="memdesc:aa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours on curve's [0,1] even if they are shorter or longer  <br /></td></tr>
+<tr class="memdesc:aa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours along curve to fit in unit curve range  <br /></td></tr>
 <tr class="separator:aa63ad4da9aad75fc779edeb4baab169c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e554b5ceea4b8d6d43ce5c58e506315" id="r_a2e554b5ceea4b8d6d43ce5c58e506315"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e554b5ceea4b8d6d43ce5c58e506315">extrusion</a> { 1.0f }</td></tr>
 <tr class="memdesc:a2e554b5ceea4b8d6d43ce5c58e506315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contours extrusion outside of curve level.  <br /></td></tr>
@@ -206,18 +209,34 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a98249836588293370c5317d797b5ab8f" name="a98249836588293370c5317d797b5ab8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98249836588293370c5317d797b5ab8f">&#9670;&#160;</a></span>pivotY</h2>
+<a id="aa2f38f9d108b091730c6510d7dfdd082" name="aa2f38f9d108b091730c6510d7dfdd082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f38f9d108b091730c6510d7dfdd082">&#9670;&#160;</a></span>pivotBoxPoint</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::BendContoursAlongCurveParams::pivotY = 0</td>
+          <td class="memname">Vector2f MR::BendContoursAlongCurveParams::pivotBoxPoint {0.0f, 0.0f}</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Relative position of curve line (y=pivotY) in contours bounding box: 0 - bottom, 0.5 - center, 1 - top </p>
+<p>Position of the <a class="el" href="#a35b146e279f46114708f3c40a0a92f7b" title="converts (x in [0,1], pivotY) into position on curve">curve(pivotCurveTime)</a> in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </p>
+
+</div>
+</div>
+<a id="af94f08b9029b46debd6c05b78ee3d395" name="af94f08b9029b46debd6c05b78ee3d395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af94f08b9029b46debd6c05b78ee3d395">&#9670;&#160;</a></span>pivotCurveTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::BendContoursAlongCurveParams::pivotCurveTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Position on the curve, where bounding box's pivot point is mapped. </p>
 
 </div>
 </div>
@@ -233,7 +252,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>stretch all contours on curve's [0,1] even if they are shorter or longer </p>
+<p>stretch all contours along curve to fit in unit curve range </p>
 
 </div>
 </div>

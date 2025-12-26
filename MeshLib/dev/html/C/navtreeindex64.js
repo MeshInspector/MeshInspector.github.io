@@ -1,16 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"MRMeshToDistanceVolume_8h.html#a264b5271a8409b6f782f8649cf34c164":[6,2,1,0,0,0,4,12,14],
-"MRMeshToDistanceVolume_8h.html#a2bcc9e0185b1b69327e04236cb873141":[6,2,1,0,0,0,4,12,26],
-"MRMeshToDistanceVolume_8h.html#a2bfc8579640df1f555313b79185fc857":[6,2,1,0,0,0,4,12,69],
-"MRMeshToDistanceVolume_8h.html#a2c0daedaad68fa916f688afa292c9638":[6,2,1,0,0,0,4,12,40],
-"MRMeshToDistanceVolume_8h.html#a301ccfeea24ef6e02b15dfd5247465ad":[6,2,1,0,0,0,4,12,49],
-"MRMeshToDistanceVolume_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,4,12,9],
-"MRMeshToDistanceVolume_8h.html#a33ccc9213632115baaa3eadf663f2fa1":[6,2,1,0,0,0,4,12,1],
-"MRMeshToDistanceVolume_8h.html#a3554f92b96c0a2d817a822991c8b2bfc":[6,2,1,0,0,0,4,12,6],
-"MRMeshToDistanceVolume_8h.html#a3b92e280b5d9bc41c8371a546f3bc4a4":[6,2,1,0,0,0,4,12,72],
-"MRMeshToDistanceVolume_8h.html#a406c37eea8129fbc9a937069d66c1e97":[6,2,1,0,0,0,4,12,43],
-"MRMeshToDistanceVolume_8h.html#a438dfbfb7b84c46b0b756881efeab583":[6,2,1,0,0,0,4,12,47],
 "MRMeshToDistanceVolume_8h.html#a469dbe9d62f56a23b9651e563a4b5c18":[6,2,1,0,0,0,4,12,23],
 "MRMeshToDistanceVolume_8h.html#a4aee63fb42199e03bf6a0d641e7c77aa":[6,2,1,0,0,0,4,12,41],
 "MRMeshToDistanceVolume_8h.html#a4c83040bde4861749bbff2ac2983091a":[6,2,1,0,0,0,4,12,68],
@@ -249,5 +238,16 @@ var NAVTREEINDEX64 =
 "MRMeshTopology_8h.html#afc3ca8f1ce1fb0dcb102e580f85be674":[6,2,1,0,0,0,1,197,68],
 "MRMeshTopology_8h.html#afccc79f8333fdea46e2d126f2a96186f":[6,2,1,0,0,0,1,197,80],
 "MRMeshTopology_8h.html#afdf6093dfb74c31c4943c71a1c491115":[6,2,1,0,0,0,1,197,73],
-"MRMeshTopology_8h.html#aff238b96282bea00a687ce310151b30d":[6,2,1,0,0,0,1,197,6]
+"MRMeshTopology_8h.html#aff238b96282bea00a687ce310151b30d":[6,2,1,0,0,0,1,197,6],
+"MRMeshTopology_8h.html#aff4e2eb451fb94a8c817d52a369d6275":[6,2,1,0,0,0,1,197,130],
+"MRMeshTopology_8h_source.html":[6,2,1,0,0,0,1,197],
+"MRMeshTriPoint_8h.html":[6,2,1,0,0,0,1,200],
+"MRMeshTriPoint_8h.html#a03121144e10a7224b395344ceee1b2f6":[6,2,1,0,0,0,1,200,51],
+"MRMeshTriPoint_8h.html#a03cc4bc4e9a81898b5367ea685880fd4":[6,2,1,0,0,0,1,200,19],
+"MRMeshTriPoint_8h.html#a0ace8a573947bacbc22be17fb2c77a2c":[6,2,1,0,0,0,1,200,17],
+"MRMeshTriPoint_8h.html#a14f0f26a43ddb92c3fa3c2192008224c":[6,2,1,0,0,0,1,200,4],
+"MRMeshTriPoint_8h.html#a169855c36247e8ece026fe5e0b1b8585":[6,2,1,0,0,0,1,200,22],
+"MRMeshTriPoint_8h.html#a16b76dd59298f8223ced597df94d0264":[6,2,1,0,0,0,1,200,52],
+"MRMeshTriPoint_8h.html#a18c0df2f227b6ead51a97d6728a93b32":[6,2,1,0,0,0,1,200,48],
+"MRMeshTriPoint_8h.html#a256831db7eb9a7491ecc65cffe042ae7":[6,2,1,0,0,0,1,200,54]
 };

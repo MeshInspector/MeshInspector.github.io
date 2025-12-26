@@ -244,7 +244,7 @@ var searchData=
   ['mr_5fbasicuirendertask_5finteractionmask_79',['MR_BasicUiRenderTask_InteractionMask',['../MRIRenderObject_8h.html#a0b9747e7cd1fd309ad73a2a184550477',1,'MRIRenderObject.h']]],
   ['mr_5fbasinvolumecalculator_80',['MR_BasinVolumeCalculator',['../MRBasinVolume_8h.html#a92e9bfe09cc0215931c58d6c081a656e',1,'MRBasinVolume.h']]],
   ['mr_5fbendcontoursalongcurveparams_81',['MR_BendContoursAlongCurveParams',['../MRAlignContoursToMesh_8h.html#a7ec2269b4533eccc9fd7b50be0cc06c5',1,'MRAlignContoursToMesh.h']]],
-  ['mr_5fbendtextalongcurveparams_82',['MR_BendTextAlongCurveParams',['../MRAlignTextToMesh_8h.html#a62175768dc7465c4a8a71dfd89aa229c',1,'MR_BendTextAlongCurveParams:&#160;MRAlignTextToMesh.h'],['../MRSymbolMesh_8h.html#a62175768dc7465c4a8a71dfd89aa229c',1,'MR_BendTextAlongCurveParams:&#160;MRSymbolMesh.h']]],
+  ['mr_5fbendtextalongcurveparams_82',['MR_BendTextAlongCurveParams',['../MRAlignTextToMesh_8h.html#a62175768dc7465c4a8a71dfd89aa229c',1,'MRAlignTextToMesh.h']]],
   ['mr_5fbestfitparabolad_83',['MR_BestFitParabolad',['../MRBestFitParabola_8h.html#a24bfb5a732bbe38d042560e2bbf1c4c2',1,'MRBestFitParabola.h']]],
   ['mr_5fbestfitparabolaf_84',['MR_BestFitParabolaf',['../MRBestFitParabola_8h.html#a6d813c362855312a7c644f3a1a62f4f1',1,'MRBestFitParabola.h']]],
   ['mr_5fbind_5fignore_85',['MR_BIND_IGNORE',['../../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348',1,'MR']]],

@@ -148,6 +148,7 @@ var hierarchy =
     [ "MR::BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", null ],
     [ "MR::WatershedGraph::BdInfo", "structMR_1_1WatershedGraph_1_1BdInfo.html", null ],
     [ "MR::BendContoursAlongCurveParams", "structMR_1_1BendContoursAlongCurveParams.html", null ],
+    [ "MR::BendTextAlongCurveParams", "structMR_1_1BendTextAlongCurveParams.html", null ],
     [ "MR::BestFitParabola< T >", "classMR_1_1BestFitParabola.html", null ],
     [ "MR::BestFitPolynomial< T, degree >", "classMR_1_1BestFitPolynomial.html", null ],
     [ "MR::Features::Traits::Binary< A, B >", "structMR_1_1Features_1_1Traits_1_1Binary.html", null ],
@@ -1208,7 +1209,6 @@ var hierarchy =
     ] ],
     [ "MR::SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", null ],
     [ "MR::SymbolMeshParams", "structMR_1_1SymbolMeshParams.html", [
-      [ "MR::BendTextAlongCurveParams", "structMR_1_1BendTextAlongCurveParams.html", null ],
       [ "MR::TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", null ]
     ] ],
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
