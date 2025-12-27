@@ -200,13 +200,26 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aec292ddb5c9a8585fba9bf8b4d89cca9" id="r_aec292ddb5c9a8585fba9bf8b4d89cca9"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#a51ef10d476eb1492c1b758ef79a42482">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec292ddb5c9a8585fba9bf8b4d89cca9">getShaderId</a> (<a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> type)</td></tr>
+<tr class="memdesc:aec292ddb5c9a8585fba9bf8b4d89cca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates shader if it is not and return valid id.  <br /></td></tr>
 <tr class="separator:aec292ddb5c9a8585fba9bf8b4d89cca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22ecad2e2dfaf820899303c6ce330839" id="r_a22ecad2e2dfaf820899303c6ce330839"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22ecad2e2dfaf820899303c6ce330839">freeShader</a> (<a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> type)</td></tr>
+<tr class="memdesc:a22ecad2e2dfaf820899303c6ce330839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free shader from GL.  <br /></td></tr>
 <tr class="separator:a22ecad2e2dfaf820899303c6ce330839"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada665fd573c08a25baa0a66d6e69a9f8" id="r_ada665fd573c08a25baa0a66d6e69a9f8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada665fd573c08a25baa0a66d6e69a9f8">freeAllShaders</a> ()</td></tr>
+<tr class="memdesc:ada665fd573c08a25baa0a66d6e69a9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all shaders from GL.  <br /></td></tr>
 <tr class="separator:ada665fd573c08a25baa0a66d6e69a9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b1c1199ef9d8f3647524ab6b8099e6" id="r_a26b1c1199ef9d8f3647524ab6b8099e6"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1RenderObjectBuffer.html">RenderObjectBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26b1c1199ef9d8f3647524ab6b8099e6">getStaticGLBuffer</a> ()</td></tr>
+<tr class="memdesc:a26b1c1199ef9d8f3647524ab6b8099e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory buffer for objects that about to be loaded to GPU, shared among different data types.  <br /></td></tr>
 <tr class="separator:a26b1c1199ef9d8f3647524ab6b8099e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8e7478e107aae5a007b483056dfc9e" id="r_a4e8e7478e107aae5a007b483056dfc9e"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8e7478e107aae5a007b483056dfc9e">getTransparentPointsShader</a> (<a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> m)</td></tr>
+<tr class="memdesc:a4e8e7478e107aae5a007b483056dfc9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shader to render transparent points in the given mode.  <br /></td></tr>
+<tr class="separator:a4e8e7478e107aae5a007b483056dfc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5f78ee78fae0710ed36199e5cc5d387" id="r_ad5f78ee78fae0710ed36199e5cc5d387"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5f78ee78fae0710ed36199e5cc5d387">getTransparentLinesShader</a> (<a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> m)</td></tr>
+<tr class="memdesc:ad5f78ee78fae0710ed36199e5cc5d387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shader to render transparent lines in the given mode.  <br /></td></tr>
+<tr class="separator:ad5f78ee78fae0710ed36199e5cc5d387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a384521c17e759cfdf6662d29194aa9" id="r_a1a384521c17e759cfdf6662d29194aa9"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a384521c17e759cfdf6662d29194aa9">getTransparentMeshShader</a> (<a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> m)</td></tr>
+<tr class="memdesc:a1a384521c17e759cfdf6662d29194aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shader to render transparent mesh in the given mode.  <br /></td></tr>
+<tr class="separator:a1a384521c17e759cfdf6662d29194aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a51ef10d476eb1492c1b758ef79a42482" name="a51ef10d476eb1492c1b758ef79a42482"></a>
@@ -291,6 +304,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Free all shaders from GL. </p>
+
 </div>
 </div>
 <a id="a22ecad2e2dfaf820899303c6ce330839" name="a22ecad2e2dfaf820899303c6ce330839"></a>
@@ -315,6 +330,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Free shader from GL. </p>
 
 </div>
 </div>
@@ -341,6 +358,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Creates shader if it is not and return valid id. </p>
+
 </div>
 </div>
 <a id="a26b1c1199ef9d8f3647524ab6b8099e6" name="a26b1c1199ef9d8f3647524ab6b8099e6"></a>
@@ -365,6 +384,89 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Memory buffer for objects that about to be loaded to GPU, shared among different data types. </p>
+
+</div>
+</div>
+<a id="ad5f78ee78fae0710ed36199e5cc5d387" name="ad5f78ee78fae0710ed36199e5cc5d387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5f78ee78fae0710ed36199e5cc5d387">&#9670;&#160;</a></span>getTransparentLinesShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> MR::GLStaticHolder::getTransparentLinesShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the shader to render transparent lines in the given mode. </p>
+
+</div>
+</div>
+<a id="a1a384521c17e759cfdf6662d29194aa9" name="a1a384521c17e759cfdf6662d29194aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a384521c17e759cfdf6662d29194aa9">&#9670;&#160;</a></span>getTransparentMeshShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> MR::GLStaticHolder::getTransparentMeshShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the shader to render transparent mesh in the given mode. </p>
+
+</div>
+</div>
+<a id="a4e8e7478e107aae5a007b483056dfc9e" name="a4e8e7478e107aae5a007b483056dfc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8e7478e107aae5a007b483056dfc9e">&#9670;&#160;</a></span>getTransparentPointsShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="#a00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> MR::GLStaticHolder::getTransparentPointsShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the shader to render transparent points in the given mode. </p>
 
 </div>
 </div>
