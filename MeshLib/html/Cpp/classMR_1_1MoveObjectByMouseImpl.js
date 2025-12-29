@@ -9,6 +9,7 @@ var classMR_1_1MoveObjectByMouseImpl =
     ] ],
     [ "MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html#a38667d92b4c0a5c674ae3984e4887601", null ],
     [ "~MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html#a1efc181844c96d8927ff6e49ea0139bf", null ],
+    [ "calcControlPlane_", "classMR_1_1MoveObjectByMouseImpl.html#a66259d6115ca5e276ea745447817f0ce", null ],
     [ "cancel", "classMR_1_1MoveObjectByMouseImpl.html#aad8cb7773d35560f8b4469f293cbd169", null ],
     [ "enableHistory", "classMR_1_1MoveObjectByMouseImpl.html#a7de4136fb42f0c74d8c8f56b3e7e7254", null ],
     [ "getBbox_", "classMR_1_1MoveObjectByMouseImpl.html#a32b8f295b15b40dffc3f103110e9d1b6", null ],

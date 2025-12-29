@@ -2,10 +2,10 @@ var structMR_1_1SymMatrix2 =
 [
     [ "ValueType", "structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d", null ],
     [ "SymMatrix2", "structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7", null ],
-    [ "SymMatrix2", "structMR_1_1SymMatrix2.html#aa8f1ff6e1f39c591d1ca7dd6c12baa91", null ],
     [ "det", "structMR_1_1SymMatrix2.html#a9c194918f3cde06811faecbb15daad9c", null ],
     [ "inverse", "structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232", null ],
     [ "inverse", "structMR_1_1SymMatrix2.html#a4ec338b96049194a96390245466b6a46", null ],
+    [ "MR_REQUIRES_IF_SUPPORTED", "structMR_1_1SymMatrix2.html#a1eca71ad89169309ec28fa552e31cba8", null ],
     [ "normSq", "structMR_1_1SymMatrix2.html#ac088520c9f121e179524c9eb9b86ff3b", null ],
     [ "operator*=", "structMR_1_1SymMatrix2.html#a55a77d7f0bbf6b2221a68f1b76439079", null ],
     [ "operator+=", "structMR_1_1SymMatrix2.html#aadb5fa684446a94e5c5b1148543e7761", null ],

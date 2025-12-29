@@ -169,16 +169,16 @@ $(function(){initNavTree('MRSceneStateCheck_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordflow">switch</span> ( n )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;one &quot;</span> ) + ObjectT::ClassName();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;one &quot;</span> ) + ObjectT::StaticClassName();</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;two &quot;</span> ) + ObjectT::ClassNameInPlural();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;two &quot;</span> ) + ObjectT::StaticClassNameInPlural();</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;three &quot;</span> ) + ObjectT::ClassNameInPlural();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;three &quot;</span> ) + ObjectT::StaticClassNameInPlural();</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordflow">case</span> 4:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;four &quot;</span> ) + ObjectT::ClassNameInPlural();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;four &quot;</span> ) + ObjectT::StaticClassNameInPlural();</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> std::to_string( n ) + <span class="stringliteral">&quot; &quot;</span> + ObjectT::ClassNameInPlural();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }    </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> std::to_string( n ) + <span class="stringliteral">&quot; &quot;</span> + ObjectT::StaticClassNameInPlural();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
@@ -194,7 +194,7 @@ $(function(){initNavTree('MRSceneStateCheck_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">auto</span> tObj = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span>ObjectT*<span class="keyword">&gt;</span>( obj.get() );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">if</span> ( !tObj )</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;Selected object(s) must be &quot;</span> ) + ObjectT::ClassName();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordflow">return</span> std::string( <span class="stringliteral">&quot;Selected object(s) must be &quot;</span> ) + ObjectT::StaticClassName();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( modelCheck )</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            <span class="keywordflow">if</span> ( !tObj-&gt;hasModel() )</div>
@@ -232,8 +232,8 @@ $(function(){initNavTree('MRSceneStateCheck_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        ++i;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    }</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">return</span> ( i &gt;= n ) ? </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="stringliteral">&quot;&quot;</span> : </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">return</span> ( i &gt;= n ) ?</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="stringliteral">&quot;&quot;</span> :</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        ( <span class="stringliteral">&quot;Select at least &quot;</span> + <a class="code hl_function" href="namespaceMR.html#a1aa52aa577955c12272d65be2a25bf5e">getNObjectsLine&lt;ObjectT&gt;</a>( n ) + <span class="stringliteral">&quot; with valid model&quot;</span> );</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
 </div>

@@ -152,13 +152,14 @@ $(function(){initNavTree('MRMesh_2MRBitSet_8h.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">MRBitSet.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;MRphmap.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;iosfwd&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
 </div>
 <p><a href="MRMesh_2MRBitSet_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -182,7 +183,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gacfd51356fbcb71948b1ef3f058ac75c7" id="r_gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
 <tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html">BitSet</a> occupies on heap  <br /></td></tr>
 <tr class="separator:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <br /></td></tr>
 <tr class="separator:ga300a438da6440ee7d2e92933bcfa6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b" id="r_ga6eb99174c3e76c7cef9281244bb0352b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </td></tr>

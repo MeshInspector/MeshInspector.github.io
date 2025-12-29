@@ -155,15 +155,18 @@ $(function(){initNavTree('MRAlignTextToMesh_8h.html',''); initResizable(true); }
 <div class="textblock"><code>#include &quot;<a class="el" href="MRSymbolMeshFwd_8h_source.html">MRSymbolMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSymbolMesh_8h_source.html">MRSymbolMesh.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRId_8h_source.html">MRMesh/MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRMesh/MRId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_2MRVector3_8h_source.html">MRMesh/MRVector3.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRMeshTriPoint_8h_source.html">MRMesh/MRMeshTriPoint.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshTriPoint_8h_source.html">MRMesh/MRMeshTriPoint.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRCurve_8h_source.html">MRMesh/MRCurve.h</a>&quot;</code><br />
 </div>
 <p><a href="MRAlignTextToMesh_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TextMeshAlignParams.html">MR::TextMeshAlignParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BendTextAlongCurveParams.html">MR::BendTextAlongCurveParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -174,7 +177,16 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:afe3d8a0d392d8c39709a37e08a665777" id="r_afe3d8a0d392d8c39709a37e08a665777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afe3d8a0d392d8c39709a37e08a665777">MR::alignTextToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a> &amp;params)</td></tr>
+<tr class="memdesc:afe3d8a0d392d8c39709a37e08a665777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and aligns it to given surface.  <br /></td></tr>
 <tr class="separator:afe3d8a0d392d8c39709a37e08a665777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f47e9b6592b774b9f2ee9b85d4b0b9" id="r_a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a05f47e9b6592b774b9f2ee9b85d4b0b9">MR::bendTextAlongCurve</a> (const <a class="el" href="namespaceMR.html#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="separator:a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1074ada517f361b43662a047bf7c6e" id="r_afd1074ada517f361b43662a047bf7c6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afd1074ada517f361b43662a047bf7c6e">MR::bendTextAlongCurve</a> (const <a class="el" href="namespaceMR.html#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memdesc:afd1074ada517f361b43662a047bf7c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given curve.  <br /></td></tr>
+<tr class="separator:afd1074ada517f361b43662a047bf7c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd1351ccd6463288f05f93dace174d3" id="r_acdd1351ccd6463288f05f93dace174d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acdd1351ccd6463288f05f93dace174d3">MR::bendTextAlongSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memdesc:acdd1351ccd6463288f05f93dace174d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given surface path.  <br /></td></tr>
+<tr class="separator:acdd1351ccd6463288f05f93dace174d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

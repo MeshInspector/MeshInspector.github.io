@@ -151,7 +151,7 @@ $(function(){initNavTree('ExampleMeshFromText.html',''); initResizable(true); })
 <div class="textblock"><p>Following code presents example of converting text to mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRSymbolMesh_8h.html">MRSymbolMesh/MRSymbolMesh.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -190,6 +190,7 @@ $(function(){initNavTree('ExampleMeshFromText.html',''); initResizable(true); })
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRSymbolMesh_8h_html"><div class="ttname"><a href="./Cpp/MRSymbolMesh_8h.html">MRSymbolMesh.h</a></div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a32402204da19d3e70a57443f237fb242"><div class="ttname"><a href="./Cpp/namespaceMR.html#a32402204da19d3e70a57443f237fb242">MR::createSymbolsMesh</a></div><div class="ttdeci">MRSYMBOLMESH_API Expected&lt; Mesh &gt; createSymbolsMesh(const SymbolMeshParams &amp;params)</div></div>
@@ -273,7 +274,6 @@ $(function(){initNavTree('ExampleMeshFromText.html',''); initResizable(true); })
 <div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRSymbolMesh_8h_html_a2c18e7cfd3a2f9d2fb37722323598b9c"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#a2c18e7cfd3a2f9d2fb37722323598b9c">MR_SymbolMeshParams_Set_pathToFontFile</a></div><div class="ttdeci">MRC_API void MR_SymbolMeshParams_Set_pathToFontFile(MR_SymbolMeshParams *_this, const char *value, const char *value_end)</div></div>
 <div class="ttc" id="aMRSymbolMesh_8h_html_a53d18c24cd19cdf4ad49fc2203653160"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#a53d18c24cd19cdf4ad49fc2203653160">MR_SymbolMeshParams_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SymbolMeshParams * MR_SymbolMeshParams_DefaultConstruct(void)</div></div>

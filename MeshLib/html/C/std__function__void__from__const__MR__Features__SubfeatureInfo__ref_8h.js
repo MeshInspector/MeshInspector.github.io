@@ -6,6 +6,8 @@ var std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h =
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_AssignFromAnother", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a20754dede7579d5e399ca096ed2119f0", null ],
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_AssignWithDataPtr", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a7326daf172c450c101cdca87a37d2772", null ],
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_ConstructFromAnother", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a576053e376656c1fe688de4df9a3e2b5", null ],
+    [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_ConstructStateless", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a1d7f9768aca99854c4cea243fef53a01", null ],
+    [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_ConstructWithDataPtr", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a9f0df0fdc8f87dd339a56e02602ab6e7", null ],
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_DefaultConstruct", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a7a495715a42e051b6c56172fe0d4f365", null ],
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_DefaultConstructArray", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a89af31784c72fc81981754474b826944", null ],
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref_Destroy", "std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h.html#a6d52bb07ea169d26b005fdfa6ed886b1", null ],

@@ -5,6 +5,8 @@ var std__function__void__from__MR__SignDetectionMode_8h =
     [ "MR_std_function_void_from_MR_SignDetectionMode_AssignFromAnother", "std__function__void__from__MR__SignDetectionMode_8h.html#ab7c2a6dcbafeccccde06bcd0fa78c29a", null ],
     [ "MR_std_function_void_from_MR_SignDetectionMode_AssignWithDataPtr", "std__function__void__from__MR__SignDetectionMode_8h.html#ae4c7899929d421a5fa1b50a7cbdd6d25", null ],
     [ "MR_std_function_void_from_MR_SignDetectionMode_ConstructFromAnother", "std__function__void__from__MR__SignDetectionMode_8h.html#a87dc8c7e1ce7eac738967d93d00c758a", null ],
+    [ "MR_std_function_void_from_MR_SignDetectionMode_ConstructStateless", "std__function__void__from__MR__SignDetectionMode_8h.html#a613818ed3d81afe4add3fedf72f41d82", null ],
+    [ "MR_std_function_void_from_MR_SignDetectionMode_ConstructWithDataPtr", "std__function__void__from__MR__SignDetectionMode_8h.html#aa80825f925afd4fb3341058c91a452ff", null ],
     [ "MR_std_function_void_from_MR_SignDetectionMode_DefaultConstruct", "std__function__void__from__MR__SignDetectionMode_8h.html#a4459ae03ef305f0ac65192c30f8f4196", null ],
     [ "MR_std_function_void_from_MR_SignDetectionMode_DefaultConstructArray", "std__function__void__from__MR__SignDetectionMode_8h.html#a35bbd85ed6ebda2aa604094ee80d4bc1", null ],
     [ "MR_std_function_void_from_MR_SignDetectionMode_Destroy", "std__function__void__from__MR__SignDetectionMode_8h.html#af13fe03f377cd2566aed674b03b0153f", null ],

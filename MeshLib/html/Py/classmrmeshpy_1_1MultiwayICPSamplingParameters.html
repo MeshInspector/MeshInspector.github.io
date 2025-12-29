@@ -369,8 +369,10 @@ Parameters that are used for sampling of the MultiwayICP objects
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">size of maximum icp group to work with
-if number of objects exceeds this value, icp is applied in cascade mode
+<pre class="fragment">size of maximum icp group to work with;
+if the number of objects exceeds this value, icp is applied in cascade mode;
+maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects;
+maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading)
 </pre> 
 </div>
 </div>
@@ -467,7 +469,7 @@ if number of objects exceeds this value, icp is applied in cascade mode
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sampling size of each object
+<pre class="fragment">sampling size of each object, 0 has special meaning "take all valid points"
 </pre> 
 </div>
 </div>

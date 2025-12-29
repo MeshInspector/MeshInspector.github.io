@@ -2,8 +2,6 @@ var MRIntersectionPrecomputes_8h =
 [
     [ "MR_IntersectionPrecomputes_double", "MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347", null ],
     [ "MR_IntersectionPrecomputes_float", "MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144", null ],
-    [ "MR_findMaxVectorDim_double", "MRIntersectionPrecomputes_8h.html#a9c0696a12431ba3e7d615d7460194072", null ],
-    [ "MR_findMaxVectorDim_float", "MRIntersectionPrecomputes_8h.html#a0eac4e8ecde2f9f8a8a68e50ef360675", null ],
     [ "MR_IntersectionPrecomputes_double_AssignFromAnother", "MRIntersectionPrecomputes_8h.html#acc0bb5e568d440b90346d479b7bada32", null ],
     [ "MR_IntersectionPrecomputes_double_Construct", "MRIntersectionPrecomputes_8h.html#aac48bb6912f8e6c85abd2d9b46e5f36f", null ],
     [ "MR_IntersectionPrecomputes_double_ConstructFromAnother", "MRIntersectionPrecomputes_8h.html#af0b9dcd02ad5dfa4e3b6ad7ee6c15df2", null ],

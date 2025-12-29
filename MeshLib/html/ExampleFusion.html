@@ -150,12 +150,12 @@ $(function(){initNavTree('ExampleFusion.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><p>Example of Fusion.</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRBox.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRPointCloudRadius_8h.html">MRMesh/MRPointCloudRadius.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRPointsToMeshFusion_8h.html">MRVoxels/MRPointsToMeshFusion.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -190,7 +190,9 @@ $(function(){initNavTree('ExampleFusion.html',''); initResizable(true); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRPointCloudRadius_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudRadius_8h.html">MRPointCloudRadius.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRPointsToMeshFusion_8h_html"><div class="ttname"><a href="./Cpp/MRPointsToMeshFusion_8h.html">MRPointsToMeshFusion.h</a></div></div>
 <div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
@@ -285,12 +287,10 @@ $(function(){initNavTree('ExampleFusion.html',''); initResizable(true); });
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a9dbbf904c32d71d8c8ec8da2165b4a12"><div class="ttname"><a href="./C/MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></div><div class="ttdeci">struct MR_expected_MR_PointCloud_std_string MR_expected_MR_PointCloud_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="./C/MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRPointCloudRadius_8h_html_a495edccb87a545b43f80226ca3eada97"><div class="ttname"><a href="./C/MRPointCloudRadius_8h.html#a495edccb87a545b43f80226ca3eada97">MR_findAvgPointsRadius</a></div><div class="ttdeci">MRC_API float MR_findAvgPointsRadius(const MR_PointCloud *pointCloud, int avgPoints, const int *samples)</div></div>
 <div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./C/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
 <div class="ttc" id="aMRPointCloud_8h_html_a06cd202fbe59c6268bdc6de59001b676"><div class="ttname"><a href="./C/MRPointCloud_8h.html#a06cd202fbe59c6268bdc6de59001b676">MR_PointCloud_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_PointCloud_computeBoundingBox_1(const MR_PointCloud *_this, const MR_AffineXf3f *toWorld)</div></div>
-<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./C/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
 <div class="ttc" id="aMRPointsLoad_8h_html_aef738c6568d3615b58a044596a5f47df"><div class="ttname"><a href="./C/MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df">MR_PointsLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</div></div>
 <div class="ttc" id="aMRPointsToMeshFusion_8h_html_a16253cd2747a4a603593707250c885b2"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#a16253cd2747a4a603593707250c885b2">MR_PointsToMeshParameters_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRPointsToMeshFusion_8h_html_a305e42a2ed9f26297d04b65f1f5cd948"><div class="ttname"><a href="./C/MRPointsToMeshFusion_8h.html#a305e42a2ed9f26297d04b65f1f5cd948">MR_PointsToMeshParameters_Set_sigma</a></div><div class="ttdeci">MRC_API void MR_PointsToMeshParameters_Set_sigma(MR_PointsToMeshParameters *_this, float value)</div></div>

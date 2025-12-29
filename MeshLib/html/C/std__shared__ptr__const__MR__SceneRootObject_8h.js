@@ -2,10 +2,18 @@ var std__shared__ptr__const__MR__SceneRootObject_8h =
 [
     [ "MR_SceneRootObject", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a885f919fff839030c6725c849e0db23a", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a331e2aeba64435c9d33bfce1ba5741de", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
+    [ "MR_std_shared_ptr_MR_SceneRootObject", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a455fb1e45d1e455a5436d36279622bb2", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_Assign", "std__shared__ptr__const__MR__SceneRootObject_8h.html#aae264e3041434caef02e397345d9d397", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_AssignAliasing", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a94867fb963c5a3b69eb7b684fa655827", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_AssignFromAnother", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a0ab592d30e47971eb072afbe94361c8a", null ],
-    [ "MR_std_shared_ptr_const_MR_SceneRootObject_Construct", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a05e4664418660383e2801581ac17bd40", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_AssignFromMutable", "std__shared__ptr__const__MR__SceneRootObject_8h.html#adce0964f3ecc13bc56a1ae1a8dff9565", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_AssignNonOwning", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a60741b0bde5f39f0ac7848d7fe734e54", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_Construct", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a84154827b76a9357dc9471fd04837d50", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_ConstructAliasing", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a79af1c00c0dd47145ae28e2463fb2deb", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_ConstructFromAnother", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a77fd41698654d2f8d8e85425b1058095", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_ConstructFromMutable", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a779a9ac1950d9342ecd659c1f52cfba3", null ],
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_ConstructNonOwning", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a07625858975427cb0fbea3559b286797", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_DefaultConstruct", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a44274947763b41ccd2e7de47a7f8640b", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_DefaultConstructArray", "std__shared__ptr__const__MR__SceneRootObject_8h.html#accdd35e6f3c946430975772c89de2b7d", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_Destroy", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a5145688ae9514fd187541a9f447d9516", null ],
@@ -13,5 +21,7 @@ var std__shared__ptr__const__MR__SceneRootObject_8h =
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_Get", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a41df047c6dcc841769171cb7412aee3c", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_OffsetMutablePtr", "std__shared__ptr__const__MR__SceneRootObject_8h.html#ad92dcffba9dc77a73cc869d78f4719a6", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject_OffsetPtr", "std__shared__ptr__const__MR__SceneRootObject_8h.html#ae816e19197546774ca790424ff799411", null ],
-    [ "MR_std_shared_ptr_const_MR_SceneRootObject_UseCount", "std__shared__ptr__const__MR__SceneRootObject_8h.html#ab066cfc6412cb5127d25468729420a9c", null ]
+    [ "MR_std_shared_ptr_const_MR_SceneRootObject_UseCount", "std__shared__ptr__const__MR__SceneRootObject_8h.html#ab066cfc6412cb5127d25468729420a9c", null ],
+    [ "MR_std_shared_ptr_const_void_AssignFrom_MR_std_shared_ptr_const_MR_SceneRootObject", "std__shared__ptr__const__MR__SceneRootObject_8h.html#ab59c47f256af69e6bf89ef5db1d8fc8f", null ],
+    [ "MR_std_shared_ptr_const_void_ConstructFrom_MR_std_shared_ptr_const_MR_SceneRootObject", "std__shared__ptr__const__MR__SceneRootObject_8h.html#a9899bd6681b7597eb050c5a6e2d3f747", null ]
 ];

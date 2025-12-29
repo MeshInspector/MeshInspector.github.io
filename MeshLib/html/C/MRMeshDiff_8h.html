@@ -223,7 +223,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>this object stores a difference between two meshes: both in coordinates and in topology</p>
-<p>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be even larger than one mesh itself Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code>. </p>
+<p>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be even larger than one mesh itself Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -242,7 +242,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if this object does contain some difference in point coordinates or in topology; if (from) mesh has just more points or more topology elements than (to) and the common elements are the same, then the method will return false since nothing is stored here Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code> named <code>any</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if this object does contain some difference in point coordinates or in topology; if (from) mesh has just more points or more topology elements than (to) and the common elements are the same, then the method will return false since nothing is stored here Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html#a75b8d7d561c4183ee307a3c1f1d85ba1">MR::MeshDiff::any</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given mesh-from on input converts it in mesh-to, this object is updated to become the reverse difference from original mesh-to to original mesh-from Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code> named <code>applyAndSwap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. </p>
+<p>given mesh-from on input converts it in mesh-to, this object is updated to become the reverse difference from original mesh-to to original mesh-from Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145">MR::MeshDiff::applyAndSwap</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -291,7 +291,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MeshDiff::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the difference, that can be applied to mesh-from in order to get mesh-to Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aab9961692fb33bb6186f156c456ebda3" title="Destroys a heap-allocated instance of MR_MeshDiff. Does nothing if the pointer is null.">MR_MeshDiff_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the difference, that can be applied to mesh-from in order to get mesh-to Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html#a5864778df831e322d932e266452fe232">MR::MeshDiff::MeshDiff</a></code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aab9961692fb33bb6186f156c456ebda3" title="Destroys a heap-allocated instance of MR_MeshDiff. Does nothing if the pointer is null.">MR_MeshDiff_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aab9961692fb33bb6186f156c456ebda3" title="Destroys a heap-allocated instance of MR_MeshDiff. Does nothing if the pointer is null.">MR_MeshDiff_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html#a5864778df831e322d932e266452fe232">MR::MeshDiff::MeshDiff</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aab9961692fb33bb6186f156c456ebda3" title="Destroys a heap-allocated instance of MR_MeshDiff. Does nothing if the pointer is null.">MR_MeshDiff_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -427,7 +427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html">MR::MeshDiff</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1MeshDiff.html#afc1a1ad047dc4eb7b120e4cc9ab2c915">MR::MeshDiff::heapBytes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

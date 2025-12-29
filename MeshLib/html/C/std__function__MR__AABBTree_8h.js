@@ -6,6 +6,8 @@ var std__function__MR__AABBTree_8h =
     [ "MR_std_function_MR_AABBTree_AssignFromAnother", "std__function__MR__AABBTree_8h.html#aa37c12faaf44c061bab47e91c2b40a37", null ],
     [ "MR_std_function_MR_AABBTree_AssignWithDataPtr", "std__function__MR__AABBTree_8h.html#a2846d55a7c794e08c1a397297a906ac9", null ],
     [ "MR_std_function_MR_AABBTree_ConstructFromAnother", "std__function__MR__AABBTree_8h.html#ab59f67e627217c3ea618016452dbbd45", null ],
+    [ "MR_std_function_MR_AABBTree_ConstructStateless", "std__function__MR__AABBTree_8h.html#a3230c28fa5b941298e60134dc65c157a", null ],
+    [ "MR_std_function_MR_AABBTree_ConstructWithDataPtr", "std__function__MR__AABBTree_8h.html#a751be41b438ffebab07a0b67232a7cca", null ],
     [ "MR_std_function_MR_AABBTree_DefaultConstruct", "std__function__MR__AABBTree_8h.html#aa683f2d0f2f2f398136e2f0bd0398cb4", null ],
     [ "MR_std_function_MR_AABBTree_DefaultConstructArray", "std__function__MR__AABBTree_8h.html#a9e0ba5386b3824e9eb4d72c400366f0b", null ],
     [ "MR_std_function_MR_AABBTree_Destroy", "std__function__MR__AABBTree_8h.html#ad0fd3107bd196504a44a28b265c70d0d", null ],

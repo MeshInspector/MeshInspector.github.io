@@ -6,6 +6,8 @@ var std__function__void__from__MR__SceneLoad__Result_8h =
     [ "MR_std_function_void_from_MR_SceneLoad_Result_AssignFromAnother", "std__function__void__from__MR__SceneLoad__Result_8h.html#a66958b3227fa7194932c0320ac8dea3a", null ],
     [ "MR_std_function_void_from_MR_SceneLoad_Result_AssignWithDataPtr", "std__function__void__from__MR__SceneLoad__Result_8h.html#a7acb81bbffd7ff63436d5db3111c2317", null ],
     [ "MR_std_function_void_from_MR_SceneLoad_Result_ConstructFromAnother", "std__function__void__from__MR__SceneLoad__Result_8h.html#aacfc1ea9382a5042d385ffb010d2cf12", null ],
+    [ "MR_std_function_void_from_MR_SceneLoad_Result_ConstructStateless", "std__function__void__from__MR__SceneLoad__Result_8h.html#a630b3bfa5e769c66cb614e00523dba0c", null ],
+    [ "MR_std_function_void_from_MR_SceneLoad_Result_ConstructWithDataPtr", "std__function__void__from__MR__SceneLoad__Result_8h.html#ad520d1a3bee4290c49cbf7b686930bee", null ],
     [ "MR_std_function_void_from_MR_SceneLoad_Result_DefaultConstruct", "std__function__void__from__MR__SceneLoad__Result_8h.html#aa4db3db0692f5a0516af95ee1745cbf7", null ],
     [ "MR_std_function_void_from_MR_SceneLoad_Result_DefaultConstructArray", "std__function__void__from__MR__SceneLoad__Result_8h.html#a72582dcb63dcc7484305d8ed301532f6", null ],
     [ "MR_std_function_void_from_MR_SceneLoad_Result_Destroy", "std__function__void__from__MR__SceneLoad__Result_8h.html#ab3e3311b3765b48781c92b96fb70d16f", null ],

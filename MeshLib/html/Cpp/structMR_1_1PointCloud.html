@@ -166,52 +166,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5da247e2172bb10e5ba6ed1105d5c167" id="r_a5da247e2172bb10e5ba6ed1105d5c167"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da247e2172bb10e5ba6ed1105d5c167">getVertIds</a> (const VertBitSet *region) const</td></tr>
 <tr class="memdesc:a5da247e2172bb10e5ba6ed1105d5c167"><td class="mdescLeft">&#160;</td><td class="mdescRight">if region pointer is not null then converts it in reference, otherwise returns all valid points in the cloud  <br /></td></tr>
 <tr class="separator:a5da247e2172bb10e5ba6ed1105d5c167"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a683c82721c7a330fcc77903d1f3bb7d9" id="r_a683c82721c7a330fcc77903d1f3bb7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a683c82721c7a330fcc77903d1f3bb7d9">getAABBTree</a> () const</td></tr>
+<tr class="memitem:a683c82721c7a330fcc77903d1f3bb7d9" id="r_a683c82721c7a330fcc77903d1f3bb7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a683c82721c7a330fcc77903d1f3bb7d9">getAABBTree</a> () const</td></tr>
 <tr class="memdesc:a683c82721c7a330fcc77903d1f3bb7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this point cloud, creating it if it did not exist in a thread-safe manner  <br /></td></tr>
 <tr class="separator:a683c82721c7a330fcc77903d1f3bb7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac58b0b5f3bf2f48f46f9fe30e054b7cb" id="r_ac58b0b5f3bf2f48f46f9fe30e054b7cb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac58b0b5f3bf2f48f46f9fe30e054b7cb">getAABBTreeNotCreate</a> () const</td></tr>
 <tr class="memdesc:ac58b0b5f3bf2f48f46f9fe30e054b7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this point cloud, but does not create it if it did not exist  <br /></td></tr>
 <tr class="separator:ac58b0b5f3bf2f48f46f9fe30e054b7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28846bc1f86b18053ff605bd9cdffc26" id="r_a28846bc1f86b18053ff605bd9cdffc26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28846bc1f86b18053ff605bd9cdffc26">getBoundingBox</a> () const</td></tr>
+<tr class="memitem:a28846bc1f86b18053ff605bd9cdffc26" id="r_a28846bc1f86b18053ff605bd9cdffc26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28846bc1f86b18053ff605bd9cdffc26">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:a28846bc1f86b18053ff605bd9cdffc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimal bounding box containing all valid vertices (implemented via <a class="el" href="#a683c82721c7a330fcc77903d1f3bb7d9" title="returns cached aabb-tree for this point cloud, creating it if it did not exist in a thread-safe manne...">getAABBTree()</a>)  <br /></td></tr>
 <tr class="separator:a28846bc1f86b18053ff605bd9cdffc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3b1015ea089d93658ff4783c2282c8e" id="r_ac3b1015ea089d93658ff4783c2282c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b1015ea089d93658ff4783c2282c8e">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
+<tr class="memitem:ac3b1015ea089d93658ff4783c2282c8e" id="r_ac3b1015ea089d93658ff4783c2282c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b1015ea089d93658ff4783c2282c8e">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
 <tr class="separator:ac3b1015ea089d93658ff4783c2282c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0daa10e890c517ea30f6ad9fc8cf4bd" id="r_aa0daa10e890c517ea30f6ad9fc8cf4bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0daa10e890c517ea30f6ad9fc8cf4bd">computeBoundingBox</a> (const VertBitSet *region, const AffineXf3f *toWorld=nullptr) const</td></tr>
+<tr class="memitem:aa0daa10e890c517ea30f6ad9fc8cf4bd" id="r_aa0daa10e890c517ea30f6ad9fc8cf4bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0daa10e890c517ea30f6ad9fc8cf4bd">computeBoundingBox</a> (const VertBitSet *region, const AffineXf3f *toWorld=nullptr) const</td></tr>
 <tr class="separator:aa0daa10e890c517ea30f6ad9fc8cf4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2811d551e2205169b30d34edd323c26" id="r_af2811d551e2205169b30d34edd323c26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2811d551e2205169b30d34edd323c26">findCenterFromPoints</a> () const</td></tr>
+<tr class="memitem:af2811d551e2205169b30d34edd323c26" id="r_af2811d551e2205169b30d34edd323c26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2811d551e2205169b30d34edd323c26">findCenterFromPoints</a> () const</td></tr>
 <tr class="memdesc:af2811d551e2205169b30d34edd323c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid points  <br /></td></tr>
 <tr class="separator:af2811d551e2205169b30d34edd323c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4769b0bcb9a9bd664aa03c8e23c0ca0" id="r_af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4769b0bcb9a9bd664aa03c8e23c0ca0">findCenterFromBBox</a> () const</td></tr>
+<tr class="memitem:af4769b0bcb9a9bd664aa03c8e23c0ca0" id="r_af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4769b0bcb9a9bd664aa03c8e23c0ca0">findCenterFromBBox</a> () const</td></tr>
 <tr class="memdesc:af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes bounding box and returns its center  <br /></td></tr>
 <tr class="separator:af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03a45682f57cbf2e74847106e858f712" id="r_a03a45682f57cbf2e74847106e858f712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03a45682f57cbf2e74847106e858f712">transform</a> (const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:a03a45682f57cbf2e74847106e858f712" id="r_a03a45682f57cbf2e74847106e858f712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03a45682f57cbf2e74847106e858f712">transform</a> (const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</td></tr>
 <tr class="separator:a03a45682f57cbf2e74847106e858f712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8907016552924260082e3eaa3f163359" id="r_a8907016552924260082e3eaa3f163359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8907016552924260082e3eaa3f163359">getLexicographicalOrder</a> () const</td></tr>
+<tr class="memitem:a8907016552924260082e3eaa3f163359" id="r_a8907016552924260082e3eaa3f163359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8907016552924260082e3eaa3f163359">getLexicographicalOrder</a> () const</td></tr>
 <tr class="memdesc:a8907016552924260082e3eaa3f163359"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling)  <br /></td></tr>
 <tr class="separator:a8907016552924260082e3eaa3f163359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a319f02ae48a72ea0f874efa137764365" id="r_a319f02ae48a72ea0f874efa137764365"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a319f02ae48a72ea0f874efa137764365">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const VertBitSet &amp;fromVerts, const <a class="el" href="structMR_1_1CloudPartMapping.html">CloudPartMapping</a> &amp;outMap={}, const VertNormals *extNormals=nullptr)</td></tr>
+<tr class="memitem:a319f02ae48a72ea0f874efa137764365" id="r_a319f02ae48a72ea0f874efa137764365"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a319f02ae48a72ea0f874efa137764365">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const VertBitSet &amp;fromVerts, const <a class="el" href="structMR_1_1CloudPartMapping.html">CloudPartMapping</a> &amp;outMap={}, const VertNormals *extNormals=nullptr)</td></tr>
 <tr class="separator:a319f02ae48a72ea0f874efa137764365"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78808a7ef1e8232c61b442f9ea9bc9c8" id="r_a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78808a7ef1e8232c61b442f9ea9bc9c8">addPoint</a> (const Vector3f &amp;point)</td></tr>
+<tr class="memitem:a78808a7ef1e8232c61b442f9ea9bc9c8" id="r_a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78808a7ef1e8232c61b442f9ea9bc9c8">addPoint</a> (const Vector3f &amp;point)</td></tr>
 <tr class="memdesc:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <br /></td></tr>
 <tr class="separator:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada79e353b7a72ed40a42bc08b60cc225" id="r_ada79e353b7a72ed40a42bc08b60cc225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada79e353b7a72ed40a42bc08b60cc225">addPoint</a> (const Vector3f &amp;point, const Vector3f &amp;<a class="el" href="namespaceMR.html#aeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
+<tr class="memitem:ada79e353b7a72ed40a42bc08b60cc225" id="r_ada79e353b7a72ed40a42bc08b60cc225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada79e353b7a72ed40a42bc08b60cc225">addPoint</a> (const Vector3f &amp;point, const Vector3f &amp;<a class="el" href="namespaceMR.html#aeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
 <tr class="memdesc:ada79e353b7a72ed40a42bc08b60cc225"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point with normal and returns its VertId  <br /></td></tr>
 <tr class="separator:ada79e353b7a72ed40a42bc08b60cc225"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74fb469992209dc4114c864cd3cb38a5" id="r_a74fb469992209dc4114c864cd3cb38a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74fb469992209dc4114c864cd3cb38a5">mirror</a> (const Plane3f &amp;plane)</td></tr>
+<tr class="memitem:a74fb469992209dc4114c864cd3cb38a5" id="r_a74fb469992209dc4114c864cd3cb38a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74fb469992209dc4114c864cd3cb38a5">mirror</a> (const Plane3f &amp;plane)</td></tr>
 <tr class="memdesc:a74fb469992209dc4114c864cd3cb38a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the points from a given plane  <br /></td></tr>
 <tr class="separator:a74fb469992209dc4114c864cd3cb38a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d87e2ca54a218f3beda5e403db122be" id="r_a2d87e2ca54a218f3beda5e403db122be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d87e2ca54a218f3beda5e403db122be">flipOrientation</a> (const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:a2d87e2ca54a218f3beda5e403db122be" id="r_a2d87e2ca54a218f3beda5e403db122be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d87e2ca54a218f3beda5e403db122be">flipOrientation</a> (const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:a2d87e2ca54a218f3beda5e403db122be"><td class="mdescLeft">&#160;</td><td class="mdescRight">flip orientation (normals) of given points (or all valid points is nullptr)  <br /></td></tr>
 <tr class="separator:a2d87e2ca54a218f3beda5e403db122be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0910605ccb60ed6a5dbc543e9e98fe2" id="r_ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0910605ccb60ed6a5dbc543e9e98fe2">pack</a> (VertMap *outNew2Old=nullptr)</td></tr>
+<tr class="memitem:ac0910605ccb60ed6a5dbc543e9e98fe2" id="r_ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0910605ccb60ed6a5dbc543e9e98fe2">pack</a> (VertMap *outNew2Old=nullptr)</td></tr>
 <tr class="separator:ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd6df26682cdaa7a360a4fdacf869bf" id="r_aafd6df26682cdaa7a360a4fdacf869bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafd6df26682cdaa7a360a4fdacf869bf">pack</a> (<a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
+<tr class="memitem:aafd6df26682cdaa7a360a4fdacf869bf" id="r_aafd6df26682cdaa7a360a4fdacf869bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafd6df26682cdaa7a360a4fdacf869bf">pack</a> (<a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
 <tr class="separator:aafd6df26682cdaa7a360a4fdacf869bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c257206a284f22b8e2484b87436069" id="r_ab7c257206a284f22b8e2484b87436069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:ab7c257206a284f22b8e2484b87436069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud.  <br /></td></tr>
 <tr class="separator:ab7c257206a284f22b8e2484b87436069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25842b53d739f9841d97e66dd8221d59" id="r_a25842b53d739f9841d97e66dd8221d59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25842b53d739f9841d97e66dd8221d59">heapBytes</a> () const</td></tr>
+<tr class="memitem:a25842b53d739f9841d97e66dd8221d59" id="r_a25842b53d739f9841d97e66dd8221d59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25842b53d739f9841d97e66dd8221d59">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a25842b53d739f9841d97e66dd8221d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a25842b53d739f9841d97e66dd8221d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -235,7 +235,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::addPartByMask </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::addPartByMask </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
@@ -272,7 +272,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::PointCloud::addPoint </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::PointCloud::addPoint </td>
           <td>(</td>
           <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span></td><td>)</td>
           <td></td>
@@ -291,7 +291,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::PointCloud::addPoint </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId MR::PointCloud::addPoint </td>
           <td>(</td>
           <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
         </tr>
@@ -344,7 +344,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::PointCloud::computeBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::PointCloud::computeBoundingBox </td>
           <td>(</td>
           <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
@@ -370,7 +370,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::PointCloud::computeBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::PointCloud::computeBoundingBox </td>
           <td>(</td>
           <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
@@ -400,7 +400,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::PointCloud::findCenterFromBBox </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::PointCloud::findCenterFromBBox </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -427,7 +427,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::PointCloud::findCenterFromPoints </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f MR::PointCloud::findCenterFromPoints </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -451,7 +451,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::flipOrientation </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::flipOrientation </td>
           <td>(</td>
           <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td></td>
@@ -470,7 +470,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp; MR::PointCloud::getAABBTree </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp; MR::PointCloud::getAABBTree </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -519,7 +519,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::PointCloud::getBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f MR::PointCloud::getBoundingBox </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -546,7 +546,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; VertId &gt; MR::PointCloud::getLexicographicalOrder </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; VertId &gt; MR::PointCloud::getLexicographicalOrder </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -627,7 +627,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::PointCloud::heapBytes </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::PointCloud::heapBytes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -678,7 +678,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::mirror </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::mirror </td>
           <td>(</td>
           <td class="paramtype">const Plane3f &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span></td><td>)</td>
           <td></td>
@@ -697,7 +697,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBMap MR::PointCloud::pack </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBMap MR::PointCloud::pack </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a></td>          <td class="paramname"><span class="paramname"><em>reoder</em></span></td><td>)</td>
           <td></td>
@@ -715,7 +715,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::PointCloud::pack </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::PointCloud::pack </td>
           <td>(</td>
           <td class="paramtype">VertMap *</td>          <td class="paramname"><span class="paramname"><em>outNew2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td></td>
@@ -733,7 +733,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::transform </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::transform </td>
           <td>(</td>
           <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
         </tr>

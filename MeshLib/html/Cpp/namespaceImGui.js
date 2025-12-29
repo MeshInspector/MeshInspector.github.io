@@ -41,6 +41,7 @@ var namespaceImGui =
     [ "InputIntBitSet", "namespaceImGui.html#acd8cc938250148aa8872b289ee37a885", null ],
     [ "InputIntValid", "namespaceImGui.html#a4e3833bf7761da4ac20ca9397fbdbc16", null ],
     [ "InputText", "namespaceImGui.html#a392168d28bc4973532ead37f8061121e", null ],
+    [ "isMultiViewportEnabled", "namespaceImGui.html#a57f161b33d858badb4201fbedd7b3163", null ],
     [ "Link", "namespaceImGui.html#aabb908deed7006b50c7ad6ec124126a7", null ],
     [ "ListBox", "namespaceImGui.html#a378834d8803566841b144ddf878ef623", null ],
     [ "LoadSavedWindowPos", "namespaceImGui.html#a6066bf27894061659a1b44c4daf5ca1d", null ],

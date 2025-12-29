@@ -6,6 +6,8 @@ var std__function__unsigned__char__from__const__MR__Vector3i__ref_8h =
     [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_AssignFromAnother", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a535217674399a5dfe55a05072258e816", null ],
     [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_AssignWithDataPtr", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#ae29997316ef2bb8143156f98b5460dd3", null ],
     [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_ConstructFromAnother", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#aacaf5a24567141e949377b6cd23ec89e", null ],
+    [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_ConstructStateless", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a6bbf90275effc57dbc0d9b96ca126c6f", null ],
+    [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_ConstructWithDataPtr", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#aa053d86bed5bff1d4e7d00809961cad2", null ],
     [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_DefaultConstruct", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a6a6d38a0595d26f73e65ae1bf41281d9", null ],
     [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_DefaultConstructArray", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#acd49fb7127060523fe59bb77a0b8d016", null ],
     [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref_Destroy", "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a26d78f1c1709f7ccebc0b11659cf5f38", null ],

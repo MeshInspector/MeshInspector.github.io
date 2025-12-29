@@ -156,7 +156,7 @@ $(function(){initNavTree('structMR_1_1MultiwayICPSamplingParameters.html',''); i
 <p>Parameters that are used for sampling of the <a class="el" href="classMR_1_1MultiwayICP.html">MultiwayICP</a> objects.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRMesh_2MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -167,8 +167,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab9d86e834ec046c7b72c094142d046c6" id="r_ab9d86e834ec046c7b72c094142d046c6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d86e834ec046c7b72c094142d046c6">samplingVoxelSize</a> = 0.0f</td></tr>
-<tr class="memdesc:ab9d86e834ec046c7b72c094142d046c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sampling size of each object  <br /></td></tr>
+<tr class="memitem:ab9d86e834ec046c7b72c094142d046c6" id="r_ab9d86e834ec046c7b72c094142d046c6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d86e834ec046c7b72c094142d046c6">samplingVoxelSize</a> = 0</td></tr>
+<tr class="memdesc:ab9d86e834ec046c7b72c094142d046c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sampling size of each object, 0 has special meaning "take all valid points"  <br /></td></tr>
 <tr class="separator:ab9d86e834ec046c7b72c094142d046c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c84a0ef595c5238df9112eb6c6f3e86" id="r_a8c84a0ef595c5238df9112eb6c6f3e86"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c84a0ef595c5238df9112eb6c6f3e86">maxGroupSize</a> = 64</td></tr>
 <tr class="separator:a8c84a0ef595c5238df9112eb6c6f3e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,7 +251,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>size of maximum icp group to work with if number of objects exceeds this value, icp is applied in cascade mode </p>
+<p>size of maximum icp group to work with; if the number of objects exceeds this value, icp is applied in cascade mode; maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects; maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading) </p>
 
 </div>
 </div>
@@ -262,17 +262,17 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::MultiwayICPSamplingParameters::samplingVoxelSize = 0.0f</td>
+          <td class="memname">float MR::MultiwayICPSamplingParameters::samplingVoxelSize = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>sampling size of each object </p>
+<p>sampling size of each object, 0 has special meaning "take all valid points" </p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMesh_2MRMultiwayICP_8h_source.html">MRMesh/MRMultiwayICP.h</a></li>
+<li><a class="el" href="MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

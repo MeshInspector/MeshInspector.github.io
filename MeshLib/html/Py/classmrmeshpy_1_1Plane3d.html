@@ -170,6 +170,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad4c52f864107ea736949498305c18b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2012644425cecdf88da76cde809b9e0f" id="r_a2012644425cecdf88da76cde809b9e0f"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2012644425cecdf88da76cde809b9e0f">__repr__</a> (self)</td></tr>
 <tr class="separator:a2012644425cecdf88da76cde809b9e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1afd3be37f3d287e5eda4ea62598f24c" id="r_a1afd3be37f3d287e5eda4ea62598f24c"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1afd3be37f3d287e5eda4ea62598f24c">__rlshift__</a> (self, typing.Any pl)</td></tr>
+<tr class="separator:a1afd3be37f3d287e5eda4ea62598f24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a316e8647db15da17b4c40f36e0573f9f" id="r_a316e8647db15da17b4c40f36e0573f9f"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a316e8647db15da17b4c40f36e0573f9f">__rrshift__</a> (self, typing.Any pl)</td></tr>
+<tr class="separator:a316e8647db15da17b4c40f36e0573f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b56cf9734a49537fa5bd347181cace" id="r_a46b56cf9734a49537fa5bd347181cace"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b56cf9734a49537fa5bd347181cace">distance</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a> x)</td></tr>
 <tr class="separator:a46b56cf9734a49537fa5bd347181cace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7be54f300aa350bfc0db5249ce73d39" id="r_ae7be54f300aa350bfc0db5249ce73d39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Plane3d.html">Plane3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7be54f300aa350bfc0db5249ce73d39">normalized</a> (self)</td></tr>
@@ -290,7 +294,9 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">Here `T == U` doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted
+  when generating the bindings, and results in duplicate functions in C#.
+</pre> 
 </div>
 </div>
 <a id="ab29f950ae96bc327ed53ef41c6032072" name="ab29f950ae96bc327ed53ef41c6032072"></a>
@@ -363,6 +369,48 @@ Static Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1afd3be37f3d287e5eda4ea62598f24c" name="a1afd3be37f3d287e5eda4ea62598f24c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1afd3be37f3d287e5eda4ea62598f24c">&#9670;&#160;</a></span>__rlshift__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Any mrmeshpy.Plane3d.__rlshift__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>pl</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a316e8647db15da17b4c40f36e0573f9f" name="a316e8647db15da17b4c40f36e0573f9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a316e8647db15da17b4c40f36e0573f9f">&#9670;&#160;</a></span>__rrshift__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Any mrmeshpy.Plane3d.__rrshift__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>pl</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -229,7 +229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it's need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code>. </p>
+<p>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it's need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -295,7 +295,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Add a pair of corresponding points and the normal of the tangent plane at the second point Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p1</code> can not be null. It is a single object. Parameter <code>p2</code> can not be null. It is a single object. Parameter <code>normal2</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>Add a pair of corresponding points and the normal of the tangent plane at the second point Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e">MR::PointToPlaneAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p1</code> can not be null. It is a single object. Parameter <code>p2</code> can not be null. It is a single object. Parameter <code>normal2</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -332,7 +332,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Add a pair of corresponding points and the normal of the tangent plane at the second point Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>add</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p1</code> can not be null. It is a single object. Parameter <code>p2</code> can not be null. It is a single object. Parameter <code>normal2</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>Add a pair of corresponding points and the normal of the tangent plane at the second point Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e">MR::PointToPlaneAligningTransform::add</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p1</code> can not be null. It is a single object. Parameter <code>p2</code> can not be null. It is a single object. Parameter <code>normal2</code> can not be null. It is a single object. Parameter <code>w</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -359,7 +359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PointToPlaneAligningTransform::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -377,7 +377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute transformation relative to given approximation and return it as angles and shift (scale = 1) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>calculateAmendment</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Compute transformation relative to given approximation and return it as angles and shift (scale = 1) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a8555475cfcfcf18d967f750232989d78">MR::PointToPlaneAligningTransform::calculateAmendment</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -395,7 +395,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute transformation relative to given approximation and return it as scale, angles and shift Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>calculateAmendmentWithScale</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Compute transformation relative to given approximation and return it as scale, angles and shift Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#ad5685f4e41d5b6e952889366f8b118f8">MR::PointToPlaneAligningTransform::calculateAmendmentWithScale</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -417,7 +417,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>calculateFixedAxisAmendment</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>axis</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#ac7f842e0e3e90350579783534790080e">MR::PointToPlaneAligningTransform::calculateFixedAxisAmendment</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>axis</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -439,7 +439,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>calculateOrthogonalAxisAmendment</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>ort</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a4d07c954a8bbd8984f99644bc4ee2764">MR::PointToPlaneAligningTransform::calculateOrthogonalAxisAmendment</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>ort</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRRigidScaleXf3_8h.html#a45b72f61257d6ea8db0aa6740c47ee67" title="Destroys a heap-allocated instance of MR_RigidScaleXf3d. Does nothing if the pointer is null.">MR_RigidScaleXf3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -457,7 +457,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Clear points and normals data Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>clear</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Clear points and normals data Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347">MR::PointToPlaneAligningTransform::clear</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -479,7 +479,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab3ba3d37cd50a132d8a7a6d6646b76a0" title="Destroys a heap-allocated instance of MR_PointToPlaneAligningTransform. Does nothing if the pointer i...">MR_PointToPlaneAligningTransform_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointToPlaneAligningTransform::PointToPlaneAligningTransform</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab3ba3d37cd50a132d8a7a6d6646b76a0" title="Destroys a heap-allocated instance of MR_PointToPlaneAligningTransform. Does nothing if the pointer i...">MR_PointToPlaneAligningTransform_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -571,7 +571,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version searches for best rigid body transformation with uniform scaling Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>findBestRigidScaleXf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>this version searches for best rigid body transformation with uniform scaling Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#af8656bfbca5608611a5f78b10ce037b2">MR::PointToPlaneAligningTransform::findBestRigidScaleXf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -589,7 +589,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute transformation as the solution to a least squares optimization problem: xf( p1_i ) = p2_i this version searches for best rigid body transformation Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>findBestRigidXf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Compute transformation as the solution to a least squares optimization problem: xf( p1_i ) = p2_i this version searches for best rigid body transformation Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a28c394327019054e87403e25b8cda62b">MR::PointToPlaneAligningTransform::findBestRigidXf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -611,7 +611,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>findBestRigidXfFixedRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>axis</code> can not be null. It is a single object. </p>
+<p>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58">MR::PointToPlaneAligningTransform::findBestRigidXfFixedRotationAxis</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>axis</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>findBestRigidXfOrthogonalRotationAxis</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>ort</code> can not be null. It is a single object. </p>
+<p>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#af0c4b1002192d03fcf79ae0df032d66e">MR::PointToPlaneAligningTransform::findBestRigidXfOrthogonalRotationAxis</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>ort</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version searches for best translational part of affine transformation with given linear part Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>findBestTranslation</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rotAngles</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>scale</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>this version searches for best translational part of affine transformation with given linear part Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c">MR::PointToPlaneAligningTransform::findBestTranslation</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rotAngles</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>scale</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -724,7 +724,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this method must be called after add() and before constant find...()/calculate...() to make the matrix symmetric Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></code> named <code>prepare</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>this method must be called after add() and before constant find...()/calculate...() to make the matrix symmetric Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointToPlaneAligningTransform.html#ad0ef5fe0bddd87ee28ec85ec049e779f">MR::PointToPlaneAligningTransform::prepare</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

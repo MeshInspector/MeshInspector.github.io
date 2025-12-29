@@ -152,38 +152,59 @@ $(function(){initNavTree('MRCtm_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRCtm.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MRColor_8h_source.html">MRCMesh/MRColor.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRUnitInfo_8h_source.html">MRCMesh/MRUnitInfo.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRCtm_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:af1806312cd8f8c6825c10fcb27b69305" id="r_af1806312cd8f8c6825c10fcb27b69305"><td class="memItemLeft" align="right" valign="top">typedef struct MR_AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1806312cd8f8c6825c10fcb27b69305">MR_AffineXf3d</a></td></tr>
+<tr class="separator:af1806312cd8f8c6825c10fcb27b69305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
 <tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a616a0b042e712074c2ed4013f47fa0af" id="r_a616a0b042e712074c2ed4013f47fa0af"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a></td></tr>
 <tr class="separator:a616a0b042e712074c2ed4013f47fa0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c5abdc9ba8adb6f8e522246978c790" id="r_ac5c5abdc9ba8adb6f8e522246978c790"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a></td></tr>
+<tr class="separator:ac5c5abdc9ba8adb6f8e522246978c790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
 <tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67029d3455a5c9aa45725d3c35e1e4df" id="r_a67029d3455a5c9aa45725d3c35e1e4df"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a></td></tr>
 <tr class="separator:a67029d3455a5c9aa45725d3c35e1e4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66434f88501a5c24a45cf39f9dbcadbb" id="r_a66434f88501a5c24a45cf39f9dbcadbb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a></td></tr>
 <tr class="separator:a66434f88501a5c24a45cf39f9dbcadbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
+<tr class="separator:a20dc7d636220f61a60c7ae92b8caa768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae385080e7b7a68ff32f8d03ae2d70a7a" id="r_ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td></tr>
+<tr class="separator:ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d97154d4aed695055160a4688c04a3d" id="r_a0d97154d4aed695055160a4688c04a3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td></tr>
 <tr class="separator:a0d97154d4aed695055160a4688c04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dbbf904c32d71d8c8ec8da2165b4a12" id="r_a9dbbf904c32d71d8c8ec8da2165b4a12"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></td></tr>
 <tr class="separator:a9dbbf904c32d71d8c8ec8da2165b4a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
 <tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef22a11476e76208a3f9a5cf2eba4c98" id="r_aef22a11476e76208a3f9a5cf2eba4c98"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></td></tr>
 <tr class="separator:aef22a11476e76208a3f9a5cf2eba4c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8e34c593afc89cf4494928ca552201f" id="r_af8e34c593afc89cf4494928ca552201f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a></td></tr>
+<tr class="separator:af8e34c593afc89cf4494928ca552201f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa36f7cf27ce4b9864dde0b998a0c96" id="r_abfa36f7cf27ce4b9864dde0b998a0c96"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a></td></tr>
+<tr class="separator:abfa36f7cf27ce4b9864dde0b998a0c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933fad1748853c0c595a157b9f6527c6" id="r_a933fad1748853c0c595a157b9f6527c6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a></td></tr>
 <tr class="separator:a933fad1748853c0c595a157b9f6527c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea4e2600dc2dc28784083571fad7d964" id="r_aea4e2600dc2dc28784083571fad7d964"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a></td></tr>
-<tr class="separator:aea4e2600dc2dc28784083571fad7d964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7608dfb93ec2fd0c55d4213b65d70f51" id="r_a7608dfb93ec2fd0c55d4213b65d70f51"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a></td></tr>
+<tr class="separator:a7608dfb93ec2fd0c55d4213b65d70f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab27e9d6f79b55f595a0d675dff77c8b4" id="r_ab27e9d6f79b55f595a0d675dff77c8b4"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#acd349d2bb7870691397b608abbcd7ab1">MR_MeshSave_CtmSaveOptions_MeshCompression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab27e9d6f79b55f595a0d675dff77c8b4">MR_MeshSave_CtmSaveOptions_MeshCompression</a></td></tr>
 <tr class="separator:ab27e9d6f79b55f595a0d675dff77c8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4e2600dc2dc28784083571fad7d964" id="r_aea4e2600dc2dc28784083571fad7d964"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a></td></tr>
+<tr class="separator:aea4e2600dc2dc28784083571fad7d964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae978f40ff51260a61a48889fa82116d9" id="r_ae978f40ff51260a61a48889fa82116d9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a></td></tr>
 <tr class="separator:ae978f40ff51260a61a48889fa82116d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -225,6 +246,78 @@ Functions</h2></td></tr>
 <tr class="separator:a328de40ade9c51b5463834ff610ec5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db8a36cd772739d7bd79da698e3ea0a" id="r_a5db8a36cd772739d7bd79da698e3ea0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db8a36cd772739d7bd79da698e3ea0a">MR_MeshSave_CtmSaveOptions_GetMutable_comment</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
 <tr class="separator:a5db8a36cd772739d7bd79da698e3ea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f137df985a93c172e1fa5393f540bba" id="r_a2f137df985a93c172e1fa5393f540bba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f137df985a93c172e1fa5393f540bba">MR_MeshSave_CtmSaveOptions_Get_onlyValidPoints</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a2f137df985a93c172e1fa5393f540bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af425bf3ca262895de6232846ac7dac57" id="r_af425bf3ca262895de6232846ac7dac57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af425bf3ca262895de6232846ac7dac57">MR_MeshSave_CtmSaveOptions_Set_onlyValidPoints</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, bool value)</td></tr>
+<tr class="separator:af425bf3ca262895de6232846ac7dac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465bd3ba6728890bbfa464bf26027168" id="r_a465bd3ba6728890bbfa464bf26027168"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465bd3ba6728890bbfa464bf26027168">MR_MeshSave_CtmSaveOptions_GetMutable_onlyValidPoints</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a465bd3ba6728890bbfa464bf26027168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa5a37fc79349c7d5b93279f1156a5d" id="r_a5aa5a37fc79349c7d5b93279f1156a5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aa5a37fc79349c7d5b93279f1156a5d">MR_MeshSave_CtmSaveOptions_Get_packPrimitives</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a5aa5a37fc79349c7d5b93279f1156a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7104883b09042c8c33333dcca7acc9" id="r_aaf7104883b09042c8c33333dcca7acc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf7104883b09042c8c33333dcca7acc9">MR_MeshSave_CtmSaveOptions_Set_packPrimitives</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, bool value)</td></tr>
+<tr class="separator:aaf7104883b09042c8c33333dcca7acc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47106dffff8252f894f1bcdb981e6e76" id="r_a47106dffff8252f894f1bcdb981e6e76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47106dffff8252f894f1bcdb981e6e76">MR_MeshSave_CtmSaveOptions_GetMutable_packPrimitives</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a47106dffff8252f894f1bcdb981e6e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dc58079f4946eb13d4e392cdd119f2" id="r_a36dc58079f4946eb13d4e392cdd119f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36dc58079f4946eb13d4e392cdd119f2">MR_MeshSave_CtmSaveOptions_Get_colors</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a36dc58079f4946eb13d4e392cdd119f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8498be3484cbb5e6078cec745208a1ab" id="r_a8498be3484cbb5e6078cec745208a1ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8498be3484cbb5e6078cec745208a1ab">MR_MeshSave_CtmSaveOptions_Set_colors</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
+<tr class="separator:a8498be3484cbb5e6078cec745208a1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc5ce3ec4531ccd689f436d5ced1707" id="r_a1bc5ce3ec4531ccd689f436d5ced1707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bc5ce3ec4531ccd689f436d5ced1707">MR_MeshSave_CtmSaveOptions_GetMutable_colors</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a1bc5ce3ec4531ccd689f436d5ced1707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2fbdadff1a14ab19db7eadfd61b254a" id="r_ad2fbdadff1a14ab19db7eadfd61b254a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2fbdadff1a14ab19db7eadfd61b254a">MR_MeshSave_CtmSaveOptions_Get_primitiveColors</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:ad2fbdadff1a14ab19db7eadfd61b254a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceb7d72ede8dfe12593949b81e7d22ea" id="r_aceb7d72ede8dfe12593949b81e7d22ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceb7d72ede8dfe12593949b81e7d22ea">MR_MeshSave_CtmSaveOptions_Set_primitiveColors</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *value)</td></tr>
+<tr class="separator:aceb7d72ede8dfe12593949b81e7d22ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a7d861212aefe20fc65aa39c08702b" id="r_a76a7d861212aefe20fc65aa39c08702b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76a7d861212aefe20fc65aa39c08702b">MR_MeshSave_CtmSaveOptions_GetMutable_primitiveColors</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a76a7d861212aefe20fc65aa39c08702b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d171376e740cf6e1799442beab901c3" id="r_a2d171376e740cf6e1799442beab901c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d171376e740cf6e1799442beab901c3">MR_MeshSave_CtmSaveOptions_Get_uvMap</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a2d171376e740cf6e1799442beab901c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40ab727f3586cc78052ed10c355cc8a9" id="r_a40ab727f3586cc78052ed10c355cc8a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40ab727f3586cc78052ed10c355cc8a9">MR_MeshSave_CtmSaveOptions_Set_uvMap</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *value)</td></tr>
+<tr class="separator:a40ab727f3586cc78052ed10c355cc8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d5ab76823d914f3d63a9d2bd390a48" id="r_ac3d5ab76823d914f3d63a9d2bd390a48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d5ab76823d914f3d63a9d2bd390a48">MR_MeshSave_CtmSaveOptions_GetMutable_uvMap</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:ac3d5ab76823d914f3d63a9d2bd390a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300f9c779e815b773e812add097f19c5" id="r_a300f9c779e815b773e812add097f19c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a300f9c779e815b773e812add097f19c5">MR_MeshSave_CtmSaveOptions_Get_saveTriCornerUVCoords</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a300f9c779e815b773e812add097f19c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045e9d4680310d077788d0ca7c33734c" id="r_a045e9d4680310d077788d0ca7c33734c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a045e9d4680310d077788d0ca7c33734c">MR_MeshSave_CtmSaveOptions_Set_saveTriCornerUVCoords</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, bool value)</td></tr>
+<tr class="separator:a045e9d4680310d077788d0ca7c33734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136b4f9904f59df427bb1f2d602b268c" id="r_a136b4f9904f59df427bb1f2d602b268c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136b4f9904f59df427bb1f2d602b268c">MR_MeshSave_CtmSaveOptions_GetMutable_saveTriCornerUVCoords</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a136b4f9904f59df427bb1f2d602b268c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc3868ec17010f80df03c26901929e9" id="r_a6fc3868ec17010f80df03c26901929e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc3868ec17010f80df03c26901929e9">MR_MeshSave_CtmSaveOptions_Get_texture</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a6fc3868ec17010f80df03c26901929e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c2bda220ccfea107d76a1f65c48441" id="r_a47c2bda220ccfea107d76a1f65c48441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c2bda220ccfea107d76a1f65c48441">MR_MeshSave_CtmSaveOptions_Set_texture</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *value)</td></tr>
+<tr class="separator:a47c2bda220ccfea107d76a1f65c48441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d0c0f48a2641a5b597aa587238330b" id="r_ac3d0c0f48a2641a5b597aa587238330b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d0c0f48a2641a5b597aa587238330b">MR_MeshSave_CtmSaveOptions_GetMutable_texture</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:ac3d0c0f48a2641a5b597aa587238330b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6185c564f72fcf9071e4daa874959056" id="r_a6185c564f72fcf9071e4daa874959056"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6185c564f72fcf9071e4daa874959056">MR_MeshSave_CtmSaveOptions_Get_materialName</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a6185c564f72fcf9071e4daa874959056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b00291849eafc39b28817b0878a01ba" id="r_a5b00291849eafc39b28817b0878a01ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b00291849eafc39b28817b0878a01ba">MR_MeshSave_CtmSaveOptions_Set_materialName</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a5b00291849eafc39b28817b0878a01ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ed26297f56c10d03bbc0603aa88d02" id="r_a84ed26297f56c10d03bbc0603aa88d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84ed26297f56c10d03bbc0603aa88d02">MR_MeshSave_CtmSaveOptions_GetMutable_materialName</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a84ed26297f56c10d03bbc0603aa88d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42b7847d73e40091c1e8ecf84e67720" id="r_ae42b7847d73e40091c1e8ecf84e67720"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42b7847d73e40091c1e8ecf84e67720">MR_MeshSave_CtmSaveOptions_Get_xf</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:ae42b7847d73e40091c1e8ecf84e67720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a361c3e4b70d74f3331a9659914607d98" id="r_a361c3e4b70d74f3331a9659914607d98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a361c3e4b70d74f3331a9659914607d98">MR_MeshSave_CtmSaveOptions_Set_xf</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *value)</td></tr>
+<tr class="separator:a361c3e4b70d74f3331a9659914607d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70c67d69ba66c27323147999345811f" id="r_aa70c67d69ba66c27323147999345811f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa70c67d69ba66c27323147999345811f">MR_MeshSave_CtmSaveOptions_GetMutable_xf</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:aa70c67d69ba66c27323147999345811f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4139a0dac2ae900d1741bc63f2b9630" id="r_ac4139a0dac2ae900d1741bc63f2b9630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4139a0dac2ae900d1741bc63f2b9630">MR_MeshSave_CtmSaveOptions_Get_lengthUnit</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:ac4139a0dac2ae900d1741bc63f2b9630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e95e318ce74cbc98a9d1d878ab74938" id="r_a5e95e318ce74cbc98a9d1d878ab74938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e95e318ce74cbc98a9d1d878ab74938">MR_MeshSave_CtmSaveOptions_Set_lengthUnit</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="MRUnitInfo_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *value)</td></tr>
+<tr class="separator:a5e95e318ce74cbc98a9d1d878ab74938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b9ef6d89576aee56dc5bbcb7346f85" id="r_ab8b9ef6d89576aee56dc5bbcb7346f85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b9ef6d89576aee56dc5bbcb7346f85">MR_MeshSave_CtmSaveOptions_GetMutable_lengthUnit</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:ab8b9ef6d89576aee56dc5bbcb7346f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8373abce6b78c7f2ef324d620582a60a" id="r_a8373abce6b78c7f2ef324d620582a60a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8373abce6b78c7f2ef324d620582a60a">MR_MeshSave_CtmSaveOptions_Get_solidColor</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a8373abce6b78c7f2ef324d620582a60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e0bbd9be53dad1667407983d928c06" id="r_a05e0bbd9be53dad1667407983d928c06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05e0bbd9be53dad1667407983d928c06">MR_MeshSave_CtmSaveOptions_Set_solidColor</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *value)</td></tr>
+<tr class="separator:a05e0bbd9be53dad1667407983d928c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eeac9f2bde83adf988c351535e11fd7" id="r_a2eeac9f2bde83adf988c351535e11fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eeac9f2bde83adf988c351535e11fd7">MR_MeshSave_CtmSaveOptions_GetMutable_solidColor</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a2eeac9f2bde83adf988c351535e11fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308462da117a0cfa405e745629415ca0" id="r_a308462da117a0cfa405e745629415ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a308462da117a0cfa405e745629415ca0">MR_MeshSave_CtmSaveOptions_Get_progress</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a308462da117a0cfa405e745629415ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52d8f4b7f5b7955ab44f609eed4d7c2" id="r_ab52d8f4b7f5b7955ab44f609eed4d7c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab52d8f4b7f5b7955ab44f609eed4d7c2">MR_MeshSave_CtmSaveOptions_Set_progress</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ab52d8f4b7f5b7955ab44f609eed4d7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe6fc0abe9e99333c9a786409c7612c" id="r_a0fe6fc0abe9e99333c9a786409c7612c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe6fc0abe9e99333c9a786409c7612c">MR_MeshSave_CtmSaveOptions_GetMutable_progress</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a0fe6fc0abe9e99333c9a786409c7612c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bde6322690624b5ef273701a59c66c6" id="r_a5bde6322690624b5ef273701a59c66c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bde6322690624b5ef273701a59c66c6">MR_MeshSave_CtmSaveOptions_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a5bde6322690624b5ef273701a59c66c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d5633d56231b26f58e8909f0cdf3091" id="r_a5d5633d56231b26f58e8909f0cdf3091"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d5633d56231b26f58e8909f0cdf3091">MR_MeshSave_CtmSaveOptions_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -274,6 +367,78 @@ Functions</h2></td></tr>
 <tr class="separator:a958dbb23137a73b8073f9c1b21c181d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1459374918a00ebe31ee0304bb5128" id="r_a6a1459374918a00ebe31ee0304bb5128"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a1459374918a00ebe31ee0304bb5128">MR_PointsSave_CtmSavePointsOptions_GetMutable_comment</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
 <tr class="separator:a6a1459374918a00ebe31ee0304bb5128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c0493426fef6796b869e3bc1e0392c" id="r_a32c0493426fef6796b869e3bc1e0392c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32c0493426fef6796b869e3bc1e0392c">MR_PointsSave_CtmSavePointsOptions_Get_onlyValidPoints</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a32c0493426fef6796b869e3bc1e0392c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4545977dbd7ef07f95ce78628b76b514" id="r_a4545977dbd7ef07f95ce78628b76b514"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4545977dbd7ef07f95ce78628b76b514">MR_PointsSave_CtmSavePointsOptions_Set_onlyValidPoints</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, bool value)</td></tr>
+<tr class="separator:a4545977dbd7ef07f95ce78628b76b514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90dbd739137c16d015796fc404040a8b" id="r_a90dbd739137c16d015796fc404040a8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90dbd739137c16d015796fc404040a8b">MR_PointsSave_CtmSavePointsOptions_GetMutable_onlyValidPoints</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a90dbd739137c16d015796fc404040a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f78361d9e638e9a396941602cf0b83" id="r_ac3f78361d9e638e9a396941602cf0b83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3f78361d9e638e9a396941602cf0b83">MR_PointsSave_CtmSavePointsOptions_Get_packPrimitives</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:ac3f78361d9e638e9a396941602cf0b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2195058fc6fc94e49b444aa00b5aa1" id="r_a0b2195058fc6fc94e49b444aa00b5aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b2195058fc6fc94e49b444aa00b5aa1">MR_PointsSave_CtmSavePointsOptions_Set_packPrimitives</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, bool value)</td></tr>
+<tr class="separator:a0b2195058fc6fc94e49b444aa00b5aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a89c0ff46cecb73b6d656ee958ed5a" id="r_a92a89c0ff46cecb73b6d656ee958ed5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a89c0ff46cecb73b6d656ee958ed5a">MR_PointsSave_CtmSavePointsOptions_GetMutable_packPrimitives</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a92a89c0ff46cecb73b6d656ee958ed5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b103b074a35936dc98d3929aac93162" id="r_a4b103b074a35936dc98d3929aac93162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b103b074a35936dc98d3929aac93162">MR_PointsSave_CtmSavePointsOptions_Get_colors</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a4b103b074a35936dc98d3929aac93162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f450dfb15a8e63d459bf034aca72b49" id="r_a6f450dfb15a8e63d459bf034aca72b49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f450dfb15a8e63d459bf034aca72b49">MR_PointsSave_CtmSavePointsOptions_Set_colors</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
+<tr class="separator:a6f450dfb15a8e63d459bf034aca72b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405e066be7adadd3107979c3dade201b" id="r_a405e066be7adadd3107979c3dade201b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a405e066be7adadd3107979c3dade201b">MR_PointsSave_CtmSavePointsOptions_GetMutable_colors</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a405e066be7adadd3107979c3dade201b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1191ea38261c53994251fcba1002b5e0" id="r_a1191ea38261c53994251fcba1002b5e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1191ea38261c53994251fcba1002b5e0">MR_PointsSave_CtmSavePointsOptions_Get_primitiveColors</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a1191ea38261c53994251fcba1002b5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d07400968a623e736765736c6fb78be" id="r_a4d07400968a623e736765736c6fb78be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d07400968a623e736765736c6fb78be">MR_PointsSave_CtmSavePointsOptions_Set_primitiveColors</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *value)</td></tr>
+<tr class="separator:a4d07400968a623e736765736c6fb78be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0f2b9f2640ac4573afc4e6abb4f7bb" id="r_aaa0f2b9f2640ac4573afc4e6abb4f7bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa0f2b9f2640ac4573afc4e6abb4f7bb">MR_PointsSave_CtmSavePointsOptions_GetMutable_primitiveColors</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:aaa0f2b9f2640ac4573afc4e6abb4f7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb581160676d2fb60b3f9b2b04f843d5" id="r_adb581160676d2fb60b3f9b2b04f843d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb581160676d2fb60b3f9b2b04f843d5">MR_PointsSave_CtmSavePointsOptions_Get_uvMap</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:adb581160676d2fb60b3f9b2b04f843d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c61120c2a8668a6f5e8c5120c396547" id="r_a1c61120c2a8668a6f5e8c5120c396547"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c61120c2a8668a6f5e8c5120c396547">MR_PointsSave_CtmSavePointsOptions_Set_uvMap</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *value)</td></tr>
+<tr class="separator:a1c61120c2a8668a6f5e8c5120c396547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e9e59e225dd1e029348c2e19dcddbe" id="r_a16e9e59e225dd1e029348c2e19dcddbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e9e59e225dd1e029348c2e19dcddbe">MR_PointsSave_CtmSavePointsOptions_GetMutable_uvMap</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a16e9e59e225dd1e029348c2e19dcddbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe823951b407f3a7500aa8e8c485c91" id="r_aefe823951b407f3a7500aa8e8c485c91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefe823951b407f3a7500aa8e8c485c91">MR_PointsSave_CtmSavePointsOptions_Get_saveTriCornerUVCoords</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:aefe823951b407f3a7500aa8e8c485c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b237c7dbb539fb78cc0f604921f7774" id="r_a9b237c7dbb539fb78cc0f604921f7774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b237c7dbb539fb78cc0f604921f7774">MR_PointsSave_CtmSavePointsOptions_Set_saveTriCornerUVCoords</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, bool value)</td></tr>
+<tr class="separator:a9b237c7dbb539fb78cc0f604921f7774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d911d34167da15ad1094575438bc1d6" id="r_a6d911d34167da15ad1094575438bc1d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d911d34167da15ad1094575438bc1d6">MR_PointsSave_CtmSavePointsOptions_GetMutable_saveTriCornerUVCoords</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a6d911d34167da15ad1094575438bc1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e7d1c8d0beae60f1c13f3fbe18185e" id="r_af7e7d1c8d0beae60f1c13f3fbe18185e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7e7d1c8d0beae60f1c13f3fbe18185e">MR_PointsSave_CtmSavePointsOptions_Get_texture</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:af7e7d1c8d0beae60f1c13f3fbe18185e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f12ecc2b70be59ef2d1d3ecf2e100c4" id="r_a1f12ecc2b70be59ef2d1d3ecf2e100c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f12ecc2b70be59ef2d1d3ecf2e100c4">MR_PointsSave_CtmSavePointsOptions_Set_texture</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *value)</td></tr>
+<tr class="separator:a1f12ecc2b70be59ef2d1d3ecf2e100c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abadf62cd8ec8037cfcdf64947919a2f4" id="r_abadf62cd8ec8037cfcdf64947919a2f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abadf62cd8ec8037cfcdf64947919a2f4">MR_PointsSave_CtmSavePointsOptions_GetMutable_texture</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:abadf62cd8ec8037cfcdf64947919a2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a366ae869fb61ea19af76b4bba69295f3" id="r_a366ae869fb61ea19af76b4bba69295f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a366ae869fb61ea19af76b4bba69295f3">MR_PointsSave_CtmSavePointsOptions_Get_materialName</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a366ae869fb61ea19af76b4bba69295f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6775fe65a44248a45322978018e06b" id="r_a1c6775fe65a44248a45322978018e06b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6775fe65a44248a45322978018e06b">MR_PointsSave_CtmSavePointsOptions_Set_materialName</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a1c6775fe65a44248a45322978018e06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831e6c3bcd21ed5799a729ed2d6ed7e9" id="r_a831e6c3bcd21ed5799a729ed2d6ed7e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831e6c3bcd21ed5799a729ed2d6ed7e9">MR_PointsSave_CtmSavePointsOptions_GetMutable_materialName</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a831e6c3bcd21ed5799a729ed2d6ed7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6465463b79c0d1b6053f1daa5699d2cd" id="r_a6465463b79c0d1b6053f1daa5699d2cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6465463b79c0d1b6053f1daa5699d2cd">MR_PointsSave_CtmSavePointsOptions_Get_xf</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a6465463b79c0d1b6053f1daa5699d2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c147c18137fa64cfe9e681b1fdd7a46" id="r_a8c147c18137fa64cfe9e681b1fdd7a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c147c18137fa64cfe9e681b1fdd7a46">MR_PointsSave_CtmSavePointsOptions_Set_xf</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *value)</td></tr>
+<tr class="separator:a8c147c18137fa64cfe9e681b1fdd7a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e21b49d20c08e6114b7dd35eb08604e" id="r_a1e21b49d20c08e6114b7dd35eb08604e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e21b49d20c08e6114b7dd35eb08604e">MR_PointsSave_CtmSavePointsOptions_GetMutable_xf</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a1e21b49d20c08e6114b7dd35eb08604e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a841f37fa79498a558b96674d9269d2eb" id="r_a841f37fa79498a558b96674d9269d2eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a841f37fa79498a558b96674d9269d2eb">MR_PointsSave_CtmSavePointsOptions_Get_lengthUnit</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a841f37fa79498a558b96674d9269d2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458c17a2de17a024c9e0a87de91834d8" id="r_a458c17a2de17a024c9e0a87de91834d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a458c17a2de17a024c9e0a87de91834d8">MR_PointsSave_CtmSavePointsOptions_Set_lengthUnit</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="MRUnitInfo_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *value)</td></tr>
+<tr class="separator:a458c17a2de17a024c9e0a87de91834d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c397f96fc249801b1d0910628940c4" id="r_ad8c397f96fc249801b1d0910628940c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c397f96fc249801b1d0910628940c4">MR_PointsSave_CtmSavePointsOptions_GetMutable_lengthUnit</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:ad8c397f96fc249801b1d0910628940c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf21845bd779a06b52c290a94152cb8" id="r_aeaf21845bd779a06b52c290a94152cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf21845bd779a06b52c290a94152cb8">MR_PointsSave_CtmSavePointsOptions_Get_solidColor</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:aeaf21845bd779a06b52c290a94152cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8940e8549d17b32a49176510055a04d" id="r_ae8940e8549d17b32a49176510055a04d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8940e8549d17b32a49176510055a04d">MR_PointsSave_CtmSavePointsOptions_Set_solidColor</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *value)</td></tr>
+<tr class="separator:ae8940e8549d17b32a49176510055a04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757aa15565da5a6e3b219fc355aeed38" id="r_a757aa15565da5a6e3b219fc355aeed38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757aa15565da5a6e3b219fc355aeed38">MR_PointsSave_CtmSavePointsOptions_GetMutable_solidColor</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a757aa15565da5a6e3b219fc355aeed38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a427b98dcaa1daa1c6670dc3aa74a4642" id="r_a427b98dcaa1daa1c6670dc3aa74a4642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427b98dcaa1daa1c6670dc3aa74a4642">MR_PointsSave_CtmSavePointsOptions_Get_progress</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a427b98dcaa1daa1c6670dc3aa74a4642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d6247cbbd807c11acf7583c39433f7" id="r_a55d6247cbbd807c11acf7583c39433f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55d6247cbbd807c11acf7583c39433f7">MR_PointsSave_CtmSavePointsOptions_Set_progress</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:a55d6247cbbd807c11acf7583c39433f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acad61c6a13c5c2ae5a802100593cb74a" id="r_acad61c6a13c5c2ae5a802100593cb74a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acad61c6a13c5c2ae5a802100593cb74a">MR_PointsSave_CtmSavePointsOptions_GetMutable_progress</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:acad61c6a13c5c2ae5a802100593cb74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf89514f8b0a0ee45ff47a4153a75e05" id="r_acf89514f8b0a0ee45ff47a4153a75e05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf89514f8b0a0ee45ff47a4153a75e05">MR_PointsSave_CtmSavePointsOptions_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:acf89514f8b0a0ee45ff47a4153a75e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff203eb8ac6ba249233fd506119237f" id="r_a6ff203eb8ac6ba249233fd506119237f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ff203eb8ac6ba249233fd506119237f">MR_PointsSave_CtmSavePointsOptions_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -309,6 +474,20 @@ Functions</h2></td></tr>
 <tr class="separator:aad6e794d22dda575e41e83f552bc50ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="af1806312cd8f8c6825c10fcb27b69305" name="af1806312cd8f8c6825c10fcb27b69305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1806312cd8f8c6825c10fcb27b69305">&#9670;&#160;</a></span>MR_AffineXf3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_AffineXf3d MR_AffineXf3d</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0d97154d4aed695055160a4688c04a3d" name="a0d97154d4aed695055160a4688c04a3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d97154d4aed695055160a4688c04a3d">&#9670;&#160;</a></span>MR_expected_MR_Mesh_std_string</h2>
 
@@ -390,7 +569,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -402,6 +581,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef enum <a class="el" href="#acd349d2bb7870691397b608abbcd7ab1">MR_MeshSave_CtmSaveOptions_MeshCompression</a> <a class="el" href="#acd349d2bb7870691397b608abbcd7ab1">MR_MeshSave_CtmSaveOptions_MeshCompression</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5c5abdc9ba8adb6f8e522246978c790" name="ac5c5abdc9ba8adb6f8e522246978c790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c5abdc9ba8adb6f8e522246978c790">&#9670;&#160;</a></span>MR_MeshTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -447,7 +640,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -459,6 +652,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -479,6 +686,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af8e34c593afc89cf4494928ca552201f" name="af8e34c593afc89cf4494928ca552201f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e34c593afc89cf4494928ca552201f">&#9670;&#160;</a></span>MR_std_optional_MR_Color</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfa36f7cf27ce4b9864dde0b998a0c96" name="abfa36f7cf27ce4b9864dde0b998a0c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa36f7cf27ce4b9864dde0b998a0c96">&#9670;&#160;</a></span>MR_std_optional_MR_LengthUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a933fad1748853c0c595a157b9f6527c6" name="a933fad1748853c0c595a157b9f6527c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a933fad1748853c0c595a157b9f6527c6">&#9670;&#160;</a></span>MR_std_ostream</h2>
 
@@ -487,6 +722,62 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7608dfb93ec2fd0c55d4213b65d70f51" name="a7608dfb93ec2fd0c55d4213b65d70f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7608dfb93ec2fd0c55d4213b65d70f51">&#9670;&#160;</a></span>MR_std_vector_MR_Color</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20dc7d636220f61a60c7ae92b8caa768" name="a20dc7d636220f61a60c7ae92b8caa768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20dc7d636220f61a60c7ae92b8caa768">&#9670;&#160;</a></span>MR_VertColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae385080e7b7a68ff32f8d03ae2d70a7a" name="ae385080e7b7a68ff32f8d03ae2d70a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae385080e7b7a68ff32f8d03ae2d70a7a">&#9670;&#160;</a></span>MR_VertCoords2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -589,7 +880,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MeshSave::CtmSaveOptions::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -611,7 +902,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a01e02a3fe06e017c92cb3f62490c65b4" title="Destroys a heap-allocated instance of MR_MeshSave_CtmSaveOptions. Does nothing if the pointer is null...">MR_MeshSave_CtmSaveOptions_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshSave::CtmSaveOptions::CtmSaveOptions</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a01e02a3fe06e017c92cb3f62490c65b4" title="Destroys a heap-allocated instance of MR_MeshSave_CtmSaveOptions. Does nothing if the pointer is null...">MR_MeshSave_CtmSaveOptions_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -689,6 +980,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a36dc58079f4946eb13d4e392cdd119f2" name="a36dc58079f4946eb13d4e392cdd119f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36dc58079f4946eb13d4e392cdd119f2">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_colors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_MeshSave_CtmSaveOptions_Get_colors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex color to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a51d1d903cd76c13e01515b47d7cc4d42" name="a51d1d903cd76c13e01515b47d7cc4d42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51d1d903cd76c13e01515b47d7cc4d42">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_comment()</h2>
 
@@ -725,6 +1034,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac4139a0dac2ae900d1741bc63f2b9630" name="ac4139a0dac2ae900d1741bc63f2b9630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4139a0dac2ae900d1741bc63f2b9630">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> * MR_MeshSave_CtmSaveOptions_Get_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6185c564f72fcf9071e4daa874959056" name="a6185c564f72fcf9071e4daa874959056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6185c564f72fcf9071e4daa874959056">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_materialName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_CtmSaveOptions_Get_materialName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="aa99c48a63ffa56da3d4e568eae796870" name="aa99c48a63ffa56da3d4e568eae796870"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa99c48a63ffa56da3d4e568eae796870">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_meshCompression()</h2>
 
@@ -743,6 +1088,150 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2f137df985a93c172e1fa5393f540bba" name="a2f137df985a93c172e1fa5393f540bba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f137df985a93c172e1fa5393f540bba">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_onlyValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_MeshSave_CtmSaveOptions_Get_onlyValidPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5aa5a37fc79349c7d5b93279f1156a5d" name="a5aa5a37fc79349c7d5b93279f1156a5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa5a37fc79349c7d5b93279f1156a5d">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_packPrimitives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_MeshSave_CtmSaveOptions_Get_packPrimitives </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad2fbdadff1a14ab19db7eadfd61b254a" name="ad2fbdadff1a14ab19db7eadfd61b254a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2fbdadff1a14ab19db7eadfd61b254a">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_primitiveColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *const  * MR_MeshSave_CtmSaveOptions_Get_primitiveColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a308462da117a0cfa405e745629415ca0" name="a308462da117a0cfa405e745629415ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308462da117a0cfa405e745629415ca0">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_MeshSave_CtmSaveOptions_Get_progress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a300f9c779e815b773e812add097f19c5" name="a300f9c779e815b773e812add097f19c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a300f9c779e815b773e812add097f19c5">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_saveTriCornerUVCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_MeshSave_CtmSaveOptions_Get_saveTriCornerUVCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8373abce6b78c7f2ef324d620582a60a" name="a8373abce6b78c7f2ef324d620582a60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8373abce6b78c7f2ef324d620582a60a">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_solidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> * MR_MeshSave_CtmSaveOptions_Get_solidColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the color of whole object Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6fc3868ec17010f80df03c26901929e9" name="a6fc3868ec17010f80df03c26901929e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc3868ec17010f80df03c26901929e9">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *const  * MR_MeshSave_CtmSaveOptions_Get_texture </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional texture to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2d171376e740cf6e1799442beab901c3" name="a2d171376e740cf6e1799442beab901c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d171376e740cf6e1799442beab901c3">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_uvMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *const  * MR_MeshSave_CtmSaveOptions_Get_uvMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex uv coordinate to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a40fcc5aba2897f1f48e75f548218cb9f" name="a40fcc5aba2897f1f48e75f548218cb9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40fcc5aba2897f1f48e75f548218cb9f">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_vertexPrecision()</h2>
 
@@ -758,6 +1247,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>vertexPrecision</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae42b7847d73e40091c1e8ecf84e67720" name="ae42b7847d73e40091c1e8ecf84e67720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42b7847d73e40091c1e8ecf84e67720">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *const  * MR_MeshSave_CtmSaveOptions_Get_xf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1bc5ce3ec4531ccd689f436d5ced1707" name="a1bc5ce3ec4531ccd689f436d5ced1707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc5ce3ec4531ccd689f436d5ced1707">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_colors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_MeshSave_CtmSaveOptions_GetMutable_colors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex color to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -797,6 +1322,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab8b9ef6d89576aee56dc5bbcb7346f85" name="ab8b9ef6d89576aee56dc5bbcb7346f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8b9ef6d89576aee56dc5bbcb7346f85">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> * MR_MeshSave_CtmSaveOptions_GetMutable_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a84ed26297f56c10d03bbc0603aa88d02" name="a84ed26297f56c10d03bbc0603aa88d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84ed26297f56c10d03bbc0603aa88d02">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_materialName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_CtmSaveOptions_GetMutable_materialName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a135291565896938bb52dd4c60b7e4f1d" name="a135291565896938bb52dd4c60b7e4f1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a135291565896938bb52dd4c60b7e4f1d">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_meshCompression()</h2>
 
@@ -815,6 +1376,150 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a465bd3ba6728890bbfa464bf26027168" name="a465bd3ba6728890bbfa464bf26027168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a465bd3ba6728890bbfa464bf26027168">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_onlyValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_MeshSave_CtmSaveOptions_GetMutable_onlyValidPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a47106dffff8252f894f1bcdb981e6e76" name="a47106dffff8252f894f1bcdb981e6e76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47106dffff8252f894f1bcdb981e6e76">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_packPrimitives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_MeshSave_CtmSaveOptions_GetMutable_packPrimitives </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a76a7d861212aefe20fc65aa39c08702b" name="a76a7d861212aefe20fc65aa39c08702b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a7d861212aefe20fc65aa39c08702b">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_primitiveColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> ** MR_MeshSave_CtmSaveOptions_GetMutable_primitiveColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0fe6fc0abe9e99333c9a786409c7612c" name="a0fe6fc0abe9e99333c9a786409c7612c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe6fc0abe9e99333c9a786409c7612c">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_MeshSave_CtmSaveOptions_GetMutable_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a136b4f9904f59df427bb1f2d602b268c" name="a136b4f9904f59df427bb1f2d602b268c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136b4f9904f59df427bb1f2d602b268c">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_saveTriCornerUVCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_MeshSave_CtmSaveOptions_GetMutable_saveTriCornerUVCoords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2eeac9f2bde83adf988c351535e11fd7" name="a2eeac9f2bde83adf988c351535e11fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eeac9f2bde83adf988c351535e11fd7">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_solidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> * MR_MeshSave_CtmSaveOptions_GetMutable_solidColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the color of whole object Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac3d0c0f48a2641a5b597aa587238330b" name="ac3d0c0f48a2641a5b597aa587238330b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d0c0f48a2641a5b597aa587238330b">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> ** MR_MeshSave_CtmSaveOptions_GetMutable_texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional texture to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac3d5ab76823d914f3d63a9d2bd390a48" name="ac3d5ab76823d914f3d63a9d2bd390a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d5ab76823d914f3d63a9d2bd390a48">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_uvMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> ** MR_MeshSave_CtmSaveOptions_GetMutable_uvMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex uv coordinate to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a575ee5105e9163764de2f7c15f82b1cd" name="a575ee5105e9163764de2f7c15f82b1cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a575ee5105e9163764de2f7c15f82b1cd">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_vertexPrecision()</h2>
 
@@ -830,6 +1535,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>vertexPrecision</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa70c67d69ba66c27323147999345811f" name="aa70c67d69ba66c27323147999345811f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70c67d69ba66c27323147999345811f">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> ** MR_MeshSave_CtmSaveOptions_GetMutable_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -898,6 +1621,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8498be3484cbb5e6078cec745208a1ab" name="a8498be3484cbb5e6078cec745208a1ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8498be3484cbb5e6078cec745208a1ab">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_colors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_colors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex color to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a328de40ade9c51b5463834ff610ec5cb" name="a328de40ade9c51b5463834ff610ec5cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a328de40ade9c51b5463834ff610ec5cb">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_comment()</h2>
 
@@ -942,6 +1687,55 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e95e318ce74cbc98a9d1d878ab74938" name="a5e95e318ce74cbc98a9d1d878ab74938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e95e318ce74cbc98a9d1d878ab74938">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnitInfo_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="a5b00291849eafc39b28817b0878a01ba" name="a5b00291849eafc39b28817b0878a01ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b00291849eafc39b28817b0878a01ba">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_materialName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_materialName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
 <a id="adc9cba613695e824d2d52bce900bc248" name="adc9cba613695e824d2d52bce900bc248"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc9cba613695e824d2d52bce900bc248">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_meshCompression()</h2>
 
@@ -964,6 +1758,187 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af425bf3ca262895de6232846ac7dac57" name="af425bf3ca262895de6232846ac7dac57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af425bf3ca262895de6232846ac7dac57">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_onlyValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_onlyValidPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aaf7104883b09042c8c33333dcca7acc9" name="aaf7104883b09042c8c33333dcca7acc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7104883b09042c8c33333dcca7acc9">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_packPrimitives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_packPrimitives </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aceb7d72ede8dfe12593949b81e7d22ea" name="aceb7d72ede8dfe12593949b81e7d22ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb7d72ede8dfe12593949b81e7d22ea">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_primitiveColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_primitiveColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ab52d8f4b7f5b7955ab44f609eed4d7c2" name="ab52d8f4b7f5b7955ab44f609eed4d7c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52d8f4b7f5b7955ab44f609eed4d7c2">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a045e9d4680310d077788d0ca7c33734c" name="a045e9d4680310d077788d0ca7c33734c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045e9d4680310d077788d0ca7c33734c">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_saveTriCornerUVCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_saveTriCornerUVCoords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a05e0bbd9be53dad1667407983d928c06" name="a05e0bbd9be53dad1667407983d928c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e0bbd9be53dad1667407983d928c06">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_solidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_solidColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the color of whole object Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="a47c2bda220ccfea107d76a1f65c48441" name="a47c2bda220ccfea107d76a1f65c48441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c2bda220ccfea107d76a1f65c48441">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional texture to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a40ab727f3586cc78052ed10c355cc8a9" name="a40ab727f3586cc78052ed10c355cc8a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ab727f3586cc78052ed10c355cc8a9">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_uvMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_uvMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a96b486bac1e9f1ca0f74b6bc48b58deb" name="a96b486bac1e9f1ca0f74b6bc48b58deb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96b486bac1e9f1ca0f74b6bc48b58deb">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_vertexPrecision()</h2>
 
@@ -983,6 +1958,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>vertexPrecision</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a361c3e4b70d74f3331a9659914607d98" name="a361c3e4b70d74f3331a9659914607d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a361c3e4b70d74f3331a9659914607d98">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_CtmSaveOptions_Set_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1194,7 +2191,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PointsSave::CtmSavePointsOptions::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1216,7 +2213,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a76919b968ef58ebff44e142820b39216" title="Destroys a heap-allocated instance of MR_PointsSave_CtmSavePointsOptions. Does nothing if the pointer...">MR_PointsSave_CtmSavePointsOptions_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointsSave::CtmSavePointsOptions::CtmSavePointsOptions</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a76919b968ef58ebff44e142820b39216" title="Destroys a heap-allocated instance of MR_PointsSave_CtmSavePointsOptions. Does nothing if the pointer...">MR_PointsSave_CtmSavePointsOptions_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1294,6 +2291,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4b103b074a35936dc98d3929aac93162" name="a4b103b074a35936dc98d3929aac93162"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b103b074a35936dc98d3929aac93162">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_colors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_PointsSave_CtmSavePointsOptions_Get_colors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex color to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a3c64fb47876e8536c66ffdd9ea99feeb" name="a3c64fb47876e8536c66ffdd9ea99feeb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c64fb47876e8536c66ffdd9ea99feeb">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_comment()</h2>
 
@@ -1330,6 +2345,222 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a841f37fa79498a558b96674d9269d2eb" name="a841f37fa79498a558b96674d9269d2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a841f37fa79498a558b96674d9269d2eb">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> * MR_PointsSave_CtmSavePointsOptions_Get_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a366ae869fb61ea19af76b4bba69295f3" name="a366ae869fb61ea19af76b4bba69295f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a366ae869fb61ea19af76b4bba69295f3">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_materialName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PointsSave_CtmSavePointsOptions_Get_materialName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a32c0493426fef6796b869e3bc1e0392c" name="a32c0493426fef6796b869e3bc1e0392c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32c0493426fef6796b869e3bc1e0392c">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_onlyValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_PointsSave_CtmSavePointsOptions_Get_onlyValidPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac3f78361d9e638e9a396941602cf0b83" name="ac3f78361d9e638e9a396941602cf0b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f78361d9e638e9a396941602cf0b83">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_packPrimitives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_PointsSave_CtmSavePointsOptions_Get_packPrimitives </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1191ea38261c53994251fcba1002b5e0" name="a1191ea38261c53994251fcba1002b5e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1191ea38261c53994251fcba1002b5e0">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_primitiveColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *const  * MR_PointsSave_CtmSavePointsOptions_Get_primitiveColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a427b98dcaa1daa1c6670dc3aa74a4642" name="a427b98dcaa1daa1c6670dc3aa74a4642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a427b98dcaa1daa1c6670dc3aa74a4642">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsSave_CtmSavePointsOptions_Get_progress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aefe823951b407f3a7500aa8e8c485c91" name="aefe823951b407f3a7500aa8e8c485c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefe823951b407f3a7500aa8e8c485c91">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_saveTriCornerUVCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_PointsSave_CtmSavePointsOptions_Get_saveTriCornerUVCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeaf21845bd779a06b52c290a94152cb8" name="aeaf21845bd779a06b52c290a94152cb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf21845bd779a06b52c290a94152cb8">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_solidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> * MR_PointsSave_CtmSavePointsOptions_Get_solidColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the color of whole object Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af7e7d1c8d0beae60f1c13f3fbe18185e" name="af7e7d1c8d0beae60f1c13f3fbe18185e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e7d1c8d0beae60f1c13f3fbe18185e">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *const  * MR_PointsSave_CtmSavePointsOptions_Get_texture </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional texture to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adb581160676d2fb60b3f9b2b04f843d5" name="adb581160676d2fb60b3f9b2b04f843d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb581160676d2fb60b3f9b2b04f843d5">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_uvMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *const  * MR_PointsSave_CtmSavePointsOptions_Get_uvMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex uv coordinate to save with the geometry Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6465463b79c0d1b6053f1daa5699d2cd" name="a6465463b79c0d1b6053f1daa5699d2cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6465463b79c0d1b6053f1daa5699d2cd">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *const  * MR_PointsSave_CtmSavePointsOptions_Get_xf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a405e066be7adadd3107979c3dade201b" name="a405e066be7adadd3107979c3dade201b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a405e066be7adadd3107979c3dade201b">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_colors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_PointsSave_CtmSavePointsOptions_GetMutable_colors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex color to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a6a1459374918a00ebe31ee0304bb5128" name="a6a1459374918a00ebe31ee0304bb5128"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a1459374918a00ebe31ee0304bb5128">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_comment()</h2>
 
@@ -1363,6 +2594,204 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>0 - minimal compression, but fast; 9 - maximal compression, but slow Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad8c397f96fc249801b1d0910628940c4" name="ad8c397f96fc249801b1d0910628940c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c397f96fc249801b1d0910628940c4">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abfa36f7cf27ce4b9864dde0b998a0c96">MR_std_optional_MR_LengthUnit</a> * MR_PointsSave_CtmSavePointsOptions_GetMutable_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a831e6c3bcd21ed5799a729ed2d6ed7e9" name="a831e6c3bcd21ed5799a729ed2d6ed7e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831e6c3bcd21ed5799a729ed2d6ed7e9">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_materialName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PointsSave_CtmSavePointsOptions_GetMutable_materialName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a90dbd739137c16d015796fc404040a8b" name="a90dbd739137c16d015796fc404040a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90dbd739137c16d015796fc404040a8b">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_onlyValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_PointsSave_CtmSavePointsOptions_GetMutable_onlyValidPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a92a89c0ff46cecb73b6d656ee958ed5a" name="a92a89c0ff46cecb73b6d656ee958ed5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92a89c0ff46cecb73b6d656ee958ed5a">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_packPrimitives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_PointsSave_CtmSavePointsOptions_GetMutable_packPrimitives </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aaa0f2b9f2640ac4573afc4e6abb4f7bb" name="aaa0f2b9f2640ac4573afc4e6abb4f7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa0f2b9f2640ac4573afc4e6abb4f7bb">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_primitiveColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> ** MR_PointsSave_CtmSavePointsOptions_GetMutable_primitiveColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acad61c6a13c5c2ae5a802100593cb74a" name="acad61c6a13c5c2ae5a802100593cb74a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acad61c6a13c5c2ae5a802100593cb74a">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsSave_CtmSavePointsOptions_GetMutable_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6d911d34167da15ad1094575438bc1d6" name="a6d911d34167da15ad1094575438bc1d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d911d34167da15ad1094575438bc1d6">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_saveTriCornerUVCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_PointsSave_CtmSavePointsOptions_GetMutable_saveTriCornerUVCoords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a757aa15565da5a6e3b219fc355aeed38" name="a757aa15565da5a6e3b219fc355aeed38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757aa15565da5a6e3b219fc355aeed38">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_solidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af8e34c593afc89cf4494928ca552201f">MR_std_optional_MR_Color</a> * MR_PointsSave_CtmSavePointsOptions_GetMutable_solidColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the color of whole object Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abadf62cd8ec8037cfcdf64947919a2f4" name="abadf62cd8ec8037cfcdf64947919a2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abadf62cd8ec8037cfcdf64947919a2f4">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> ** MR_PointsSave_CtmSavePointsOptions_GetMutable_texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional texture to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a16e9e59e225dd1e029348c2e19dcddbe" name="a16e9e59e225dd1e029348c2e19dcddbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e9e59e225dd1e029348c2e19dcddbe">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_uvMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> ** MR_PointsSave_CtmSavePointsOptions_GetMutable_uvMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex uv coordinate to save with the geometry Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1e21b49d20c08e6114b7dd35eb08604e" name="a1e21b49d20c08e6114b7dd35eb08604e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e21b49d20c08e6114b7dd35eb08604e">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> ** MR_PointsSave_CtmSavePointsOptions_GetMutable_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1431,6 +2860,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f450dfb15a8e63d459bf034aca72b49" name="a6f450dfb15a8e63d459bf034aca72b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f450dfb15a8e63d459bf034aca72b49">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_colors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_colors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex color to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a958dbb23137a73b8073f9c1b21c181d9" name="a958dbb23137a73b8073f9c1b21c181d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a958dbb23137a73b8073f9c1b21c181d9">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_comment()</h2>
 
@@ -1472,6 +2923,258 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a458c17a2de17a024c9e0a87de91834d8" name="a458c17a2de17a024c9e0a87de91834d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458c17a2de17a024c9e0a87de91834d8">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_lengthUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_lengthUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnitInfo_8h.html#af88f9579711ed613f04fac0731b1cbce">MR_LengthUnit</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="a1c6775fe65a44248a45322978018e06b" name="a1c6775fe65a44248a45322978018e06b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c6775fe65a44248a45322978018e06b">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_materialName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_materialName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a4545977dbd7ef07f95ce78628b76b514" name="a4545977dbd7ef07f95ce78628b76b514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4545977dbd7ef07f95ce78628b76b514">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_onlyValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_onlyValidPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a0b2195058fc6fc94e49b444aa00b5aa1" name="a0b2195058fc6fc94e49b444aa00b5aa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2195058fc6fc94e49b444aa00b5aa1">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_packPrimitives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_packPrimitives </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4d07400968a623e736765736c6fb78be" name="a4d07400968a623e736765736c6fb78be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d07400968a623e736765736c6fb78be">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_primitiveColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_primitiveColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a55d6247cbbd807c11acf7583c39433f7" name="a55d6247cbbd807c11acf7583c39433f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d6247cbbd807c11acf7583c39433f7">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a9b237c7dbb539fb78cc0f604921f7774" name="a9b237c7dbb539fb78cc0f604921f7774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b237c7dbb539fb78cc0f604921f7774">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_saveTriCornerUVCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_saveTriCornerUVCoords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae8940e8549d17b32a49176510055a04d" name="ae8940e8549d17b32a49176510055a04d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8940e8549d17b32a49176510055a04d">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_solidColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_solidColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the color of whole object Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="a1f12ecc2b70be59ef2d1d3ecf2e100c4" name="a1f12ecc2b70be59ef2d1d3ecf2e100c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f12ecc2b70be59ef2d1d3ecf2e100c4">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional texture to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a1c61120c2a8668a6f5e8c5120c396547" name="a1c61120c2a8668a6f5e8c5120c396547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c61120c2a8668a6f5e8c5120c396547">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_uvMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_uvMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a8c147c18137fa64cfe9e681b1fdd7a46" name="a8c147c18137fa64cfe9e681b1fdd7a46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c147c18137fa64cfe9e681b1fdd7a46">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsSave_CtmSavePointsOptions_Set_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3d.html">MR_AffineXf3d</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -6,6 +6,8 @@ var std__function__void__from__MR__AABBTree__ref_8h =
     [ "MR_std_function_void_from_MR_AABBTree_ref_AssignFromAnother", "std__function__void__from__MR__AABBTree__ref_8h.html#a657ee7cb05c02dedaa82c35cdc47fb05", null ],
     [ "MR_std_function_void_from_MR_AABBTree_ref_AssignWithDataPtr", "std__function__void__from__MR__AABBTree__ref_8h.html#af9650c8ea10c4c24579f456910ed2da3", null ],
     [ "MR_std_function_void_from_MR_AABBTree_ref_ConstructFromAnother", "std__function__void__from__MR__AABBTree__ref_8h.html#aae38e4a5dfb149cb6dd7860b4fc961c5", null ],
+    [ "MR_std_function_void_from_MR_AABBTree_ref_ConstructStateless", "std__function__void__from__MR__AABBTree__ref_8h.html#a5b792dea028bba8a97feed1d94ebd985", null ],
+    [ "MR_std_function_void_from_MR_AABBTree_ref_ConstructWithDataPtr", "std__function__void__from__MR__AABBTree__ref_8h.html#a62511d456723f263a5d5d515b5011010", null ],
     [ "MR_std_function_void_from_MR_AABBTree_ref_DefaultConstruct", "std__function__void__from__MR__AABBTree__ref_8h.html#a4046795133be369487970acfafe32c62", null ],
     [ "MR_std_function_void_from_MR_AABBTree_ref_DefaultConstructArray", "std__function__void__from__MR__AABBTree__ref_8h.html#a5670c325b838e10add32cabb4bc9860d", null ],
     [ "MR_std_function_void_from_MR_AABBTree_ref_Destroy", "std__function__void__from__MR__AABBTree__ref_8h.html#a8a12400097d3d91f025c34b6507f01e7", null ],

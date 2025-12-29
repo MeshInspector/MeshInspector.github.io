@@ -5,6 +5,8 @@ var std__function__float__from__uint64__t__uint64__t_8h =
     [ "MR_std_function_float_from_uint64_t_uint64_t_AssignFromAnother", "std__function__float__from__uint64__t__uint64__t_8h.html#a83b2c8a817890c84746fdbbb24d2e32f", null ],
     [ "MR_std_function_float_from_uint64_t_uint64_t_AssignWithDataPtr", "std__function__float__from__uint64__t__uint64__t_8h.html#ae51f42180410749e053929b04f59c337", null ],
     [ "MR_std_function_float_from_uint64_t_uint64_t_ConstructFromAnother", "std__function__float__from__uint64__t__uint64__t_8h.html#a036dbd47dbee4d6823a1840d36eb6554", null ],
+    [ "MR_std_function_float_from_uint64_t_uint64_t_ConstructStateless", "std__function__float__from__uint64__t__uint64__t_8h.html#a9abb028d1db154a38fc70795a9e159fe", null ],
+    [ "MR_std_function_float_from_uint64_t_uint64_t_ConstructWithDataPtr", "std__function__float__from__uint64__t__uint64__t_8h.html#a0859c7f370fd102b9f5295612ad23993", null ],
     [ "MR_std_function_float_from_uint64_t_uint64_t_DefaultConstruct", "std__function__float__from__uint64__t__uint64__t_8h.html#a4da2e6eca7f9056768672f8a4dc5defe", null ],
     [ "MR_std_function_float_from_uint64_t_uint64_t_DefaultConstructArray", "std__function__float__from__uint64__t__uint64__t_8h.html#aada89ae71e9aef3b96bc7d671c6ce693", null ],
     [ "MR_std_function_float_from_uint64_t_uint64_t_Destroy", "std__function__float__from__uint64__t__uint64__t_8h.html#af2f1fb03e08b695f94fddb46986212d9", null ],

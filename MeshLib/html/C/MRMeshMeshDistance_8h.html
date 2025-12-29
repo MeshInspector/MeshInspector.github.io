@@ -165,10 +165,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a8329bba5dc9407bd75ca1a4909c9fe9a" id="r_a8329bba5dc9407bd75ca1a4909c9fe9a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a></td></tr>
 <tr class="separator:a8329bba5dc9407bd75ca1a4909c9fe9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaef17266d43a3f23b258d9769d940f7" id="r_aaaef17266d43a3f23b258d9769d940f7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a></td></tr>
-<tr class="memdesc:aaaef17266d43a3f23b258d9769d940f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></code>.  <br /></td></tr>
 <tr class="separator:aaaef17266d43a3f23b258d9769d940f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04beb5153370f051a06c0671724b799f" id="r_a04beb5153370f051a06c0671724b799f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a></td></tr>
-<tr class="memdesc:a04beb5153370f051a06c0671724b799f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></code>.  <br /></td></tr>
 <tr class="separator:a04beb5153370f051a06c0671724b799f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -292,8 +290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -308,8 +305,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -375,7 +371,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga307aef2fadf0a7f062b4fab1daabe6e0">MR::findDistance</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga307aef2fadf0a7f062b4fab1daabe6e0">MR::findDistance</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -415,7 +411,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02">MR::findMaxDistanceSq</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>maxDistanceSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02">MR::findMaxDistanceSq</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>maxDistanceSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -455,7 +451,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba">MR::findMaxDistanceSqOneWay</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>maxDistanceSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba">MR::findMaxDistanceSqOneWay</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>maxDistanceSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -495,7 +491,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -520,7 +516,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MeshMeshDistanceResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -565,7 +561,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshMeshDistanceResult::MeshMeshDistanceResult</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -881,7 +877,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::MeshMeshSignedDistanceResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -926,7 +922,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshMeshSignedDistanceResult::MeshMeshSignedDistanceResult</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

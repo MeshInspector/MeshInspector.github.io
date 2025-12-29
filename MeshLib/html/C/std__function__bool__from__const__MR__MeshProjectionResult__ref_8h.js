@@ -6,6 +6,8 @@ var std__function__bool__from__const__MR__MeshProjectionResult__ref_8h =
     [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_AssignFromAnother", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#a9116e466b7fa2a44a2d9b934445b498e", null ],
     [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_AssignWithDataPtr", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#af29508e17bd2643571ba7126ad372986", null ],
     [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_ConstructFromAnother", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#a6f26e879b4cf834cd39c7ef37571b6f0", null ],
+    [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_ConstructStateless", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#aae0d5c5f3198f5c8dc75cf741c76fafa", null ],
+    [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_ConstructWithDataPtr", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#aab06cee0474c3f5403cdcbe2eeebdc51", null ],
     [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_DefaultConstruct", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#a1faffd20f0deb74b3e8066e54c6ed086", null ],
     [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_DefaultConstructArray", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#a36631b1ecba585b302b6f87ffb955d5e", null ],
     [ "MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_Destroy", "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#a88d8ff09617d4b3ad71620617e6f0695", null ],

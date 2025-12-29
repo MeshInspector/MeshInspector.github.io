@@ -2,10 +2,18 @@ var std__shared__ptr__const__MR__Polyline3_8h =
 [
     [ "MR_Polyline3", "std__shared__ptr__const__MR__Polyline3_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3", "std__shared__ptr__const__MR__Polyline3_8h.html#a9c9d72500dab905e67edc2678680a9ea", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__const__MR__Polyline3_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
+    [ "MR_std_shared_ptr_MR_Polyline3", "std__shared__ptr__const__MR__Polyline3_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_Assign", "std__shared__ptr__const__MR__Polyline3_8h.html#aac58757056998defafa81b8f6a1543cc", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_AssignAliasing", "std__shared__ptr__const__MR__Polyline3_8h.html#ace01b8acb53b6a3298e9200f820af1c7", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_AssignFromAnother", "std__shared__ptr__const__MR__Polyline3_8h.html#ad2c8cac6a51b9367787e5e8a4edce6f2", null ],
-    [ "MR_std_shared_ptr_const_MR_Polyline3_Construct", "std__shared__ptr__const__MR__Polyline3_8h.html#a31d9e747d9db4f5ed99b3e412684d8ec", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_AssignFromMutable", "std__shared__ptr__const__MR__Polyline3_8h.html#a63b09d9569f207b44ef62f48534be08c", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_AssignNonOwning", "std__shared__ptr__const__MR__Polyline3_8h.html#acf145916d1eb99b0ab8832c270a93256", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_Construct", "std__shared__ptr__const__MR__Polyline3_8h.html#a7aa506e0c2a69592a758013f4bc02729", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_ConstructAliasing", "std__shared__ptr__const__MR__Polyline3_8h.html#a9985c04896fec34dd6dd3e2f719a5eba", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_ConstructFromAnother", "std__shared__ptr__const__MR__Polyline3_8h.html#a5916693fe80e5311719d532edb8e3c4c", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_ConstructFromMutable", "std__shared__ptr__const__MR__Polyline3_8h.html#a532a58efbaffac388e90a93a17386ab0", null ],
+    [ "MR_std_shared_ptr_const_MR_Polyline3_ConstructNonOwning", "std__shared__ptr__const__MR__Polyline3_8h.html#aa02dced2725a322dbd5136fe5e4fae70", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_DefaultConstruct", "std__shared__ptr__const__MR__Polyline3_8h.html#a11a5b6d3db7de81e6aabb6091e943947", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_DefaultConstructArray", "std__shared__ptr__const__MR__Polyline3_8h.html#a3a7dc5de0dd4f2e8f312d4083931b7c6", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_Destroy", "std__shared__ptr__const__MR__Polyline3_8h.html#a190855cafc8ef48b7af8760d1fc482a1", null ],
@@ -13,5 +21,7 @@ var std__shared__ptr__const__MR__Polyline3_8h =
     [ "MR_std_shared_ptr_const_MR_Polyline3_Get", "std__shared__ptr__const__MR__Polyline3_8h.html#a557e443f036de1c649c81a2d3abcef8f", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_OffsetMutablePtr", "std__shared__ptr__const__MR__Polyline3_8h.html#a1ae94453933b773226672af6d228c627", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3_OffsetPtr", "std__shared__ptr__const__MR__Polyline3_8h.html#ac5a47273fa332bd9e3cebb9b0ad8a8f5", null ],
-    [ "MR_std_shared_ptr_const_MR_Polyline3_UseCount", "std__shared__ptr__const__MR__Polyline3_8h.html#ab747c368f566962fd3ae9a58035e517b", null ]
+    [ "MR_std_shared_ptr_const_MR_Polyline3_UseCount", "std__shared__ptr__const__MR__Polyline3_8h.html#ab747c368f566962fd3ae9a58035e517b", null ],
+    [ "MR_std_shared_ptr_const_void_AssignFrom_MR_std_shared_ptr_const_MR_Polyline3", "std__shared__ptr__const__MR__Polyline3_8h.html#afcf4b0b71cc366d9b24b6bbec8799a97", null ],
+    [ "MR_std_shared_ptr_const_void_ConstructFrom_MR_std_shared_ptr_const_MR_Polyline3", "std__shared__ptr__const__MR__Polyline3_8h.html#a672451aa5dff2cc8a65ac33bf39551c4", null ]
 ];

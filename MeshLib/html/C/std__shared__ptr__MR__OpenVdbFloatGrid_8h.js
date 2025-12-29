@@ -1,11 +1,17 @@
 var std__shared__ptr__MR__OpenVdbFloatGrid_8h =
 [
     [ "MR_OpenVdbFloatGrid", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#aac20c639173df481ee73c6586269c72f", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a5c8ff4291115b7eb85975766541c1c5c", null ],
+    [ "MR_std_shared_ptr_void", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a72ecd40cc21861923965148fd782317e", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_Assign", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a3ebf095cbb2685a55c641457cfa1681b", null ],
+    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignAliasing", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#aeccc3a7b271f710faf7a407910d44045", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignFromAnother", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a901697f57242d96d4e2785161342ff8e", null ],
-    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_Construct", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a76fee2ac401437e2ec3cea933fbc253f", null ],
+    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignNonOwning", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a4a8893677a46f5743710f02ec98f5f75", null ],
+    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_Construct", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a7d5a403a26285212c9e184820d37c833", null ],
+    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructAliasing", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#ab7448ad8c4049f70d5619392b3d80ab6", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromAnother", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a852b195194fa910e1d4f98e5cb992fa0", null ],
+    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructNonOwning", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#af361fc63db5e846c34d9bc08ed353738", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstruct", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a9346bd5c2c02bb5923bec82b6db3c796", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstructArray", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a5d41e41888156f323fe682c41692cd40", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#abebace453dc0de2b5c15ef8805100049", null ],
@@ -13,5 +19,7 @@ var std__shared__ptr__MR__OpenVdbFloatGrid_8h =
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_Get", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#ac98044cb537908f34219ba81affd43cd", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetMutablePtr", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#ab24fceab8a650f30e0bfc29c666d062a", null ],
     [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetPtr", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a3da803d9c02929d5ecf9404dcc0d74f1", null ],
-    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_UseCount", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a99e53e82963b9a5b8ab59a52d45556e1", null ]
+    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid_UseCount", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a99e53e82963b9a5b8ab59a52d45556e1", null ],
+    [ "MR_std_shared_ptr_void_AssignFrom_MR_std_shared_ptr_MR_OpenVdbFloatGrid", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a8471f00dd5e1fd29724c93bf68606160", null ],
+    [ "MR_std_shared_ptr_void_ConstructFrom_MR_std_shared_ptr_MR_OpenVdbFloatGrid", "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a06d50f9622b1bb1eb02f101e274e3733", null ]
 ];

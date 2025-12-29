@@ -283,8 +283,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8671eecc60d8e0d8585683df92ea007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad21c4f4dd1ab1c0615689d4abaec15da" id="r_ad21c4f4dd1ab1c0615689d4abaec15da"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21c4f4dd1ab1c0615689d4abaec15da">drawFull</a> (bool dirtyScene)</td></tr>
 <tr class="separator:ad21c4f4dd1ab1c0615689d4abaec15da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad939ce39d52c9c10c967429100c9fffd" id="r_ad939ce39d52c9c10c967429100c9fffd"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad939ce39d52c9c10c967429100c9fffd">drawScene</a> ()</td></tr>
-<tr class="separator:ad939ce39d52c9c10c967429100c9fffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c95f8168c31e559662b97c55dad30f" id="r_ab2c95f8168c31e559662b97c55dad30f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2c95f8168c31e559662b97c55dad30f">drawScene</a> (<a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *framebuffer)</td></tr>
+<tr class="separator:ab2c95f8168c31e559662b97c55dad30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae50905f091961545124fb5e4be824fec" id="r_ae50905f091961545124fb5e4be824fec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50905f091961545124fb5e4be824fec">setSceneDirty</a> ()</td></tr>
 <tr class="separator:ae50905f091961545124fb5e4be824fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1cc3b34bbd80fe2ee173602adb51cad" id="r_ac1cc3b34bbd80fe2ee173602adb51cad"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1cc3b34bbd80fe2ee173602adb51cad">setupScene</a> ()</td></tr>
@@ -351,6 +351,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aca894260269798e399369b529d7ba3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a790440df3478329e0d2f47f2a8f6462d" id="r_a790440df3478329e0d2f47f2a8f6462d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a790440df3478329e0d2f47f2a8f6462d">incrementForceRedrawFrames</a> (int i=1, bool swapOnLastOnly=false)</td></tr>
 <tr class="separator:a790440df3478329e0d2f47f2a8f6462d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e72114dc36666570c97b24914df52e" id="r_a14e72114dc36666570c97b24914df52e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14e72114dc36666570c97b24914df52e">forceSwapOnFrame</a> (int i=0)</td></tr>
+<tr class="separator:a14e72114dc36666570c97b24914df52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5979dba1caca6f934f1e351d649e4e" id="r_a5a5979dba1caca6f934f1e351d649e4e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a5979dba1caca6f934f1e351d649e4e">isCurrentFrameSwapping</a> () const</td></tr>
 <tr class="separator:a5a5979dba1caca6f934f1e351d649e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a012b7e7bb46bac6add3bd52b415ddc" id="r_a3a012b7e7bb46bac6add3bd52b415ddc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a012b7e7bb46bac6add3bd52b415ddc">getEventsCount</a> (<a class="el" href="#a2f8bda46d1cd218cc450c9b0f076f2b0">EventType</a> type) const</td></tr>
@@ -373,6 +375,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8487684b5cd02ab06da1de9e06c8744f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734edab571108af641cc046a7fae2b88" id="r_a734edab571108af641cc046a7fae2b88"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a734edab571108af641cc046a7fae2b88">isAlphaSortEnabled</a> () const</td></tr>
 <tr class="separator:a734edab571108af641cc046a7fae2b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9101e95512bcb82d2136d5b68150cd5" id="r_ae9101e95512bcb82d2136d5b68150cd5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9101e95512bcb82d2136d5b68150cd5">getDepthPeelNumPasses</a> () const</td></tr>
+<tr class="separator:ae9101e95512bcb82d2136d5b68150cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74c4a902b2a1a4431fd3372bd8577a6" id="r_af74c4a902b2a1a4431fd3372bd8577a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af74c4a902b2a1a4431fd3372bd8577a6">setDepthPeelNumPasses</a> (int numPasses)</td></tr>
+<tr class="separator:af74c4a902b2a1a4431fd3372bd8577a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019a888de748ce305dc8e4fbf58edaff" id="r_a019a888de748ce305dc8e4fbf58edaff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a019a888de748ce305dc8e4fbf58edaff">isDepthPeelingEnabled</a> () const</td></tr>
+<tr class="separator:a019a888de748ce305dc8e4fbf58edaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb78cc316a414e397c55a35a9e0fa39d" id="r_aeb78cc316a414e397c55a35a9e0fa39d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb78cc316a414e397c55a35a9e0fa39d">isSceneTextureBound</a> () const</td></tr>
 <tr class="separator:aeb78cc316a414e397c55a35a9e0fa39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad7ae2b261b453a9a3f957579f27c381" id="r_aad7ae2b261b453a9a3f957579f27c381"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7ae2b261b453a9a3f957579f27c381">bindSceneTexture</a> (bool bind)</td></tr>
@@ -472,6 +480,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4982baeba6e7a4cf6b8dcfc47b80e5f7" id="r_a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4982baeba6e7a4cf6b8dcfc47b80e5f7">drawUiRenderObjects</a> ()</td></tr>
 <tr class="memdesc:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw 2d (<a class="el" href="namespaceMR_1_1UI.html">UI</a>) part of objects in scene  <br /></td></tr>
 <tr class="separator:a4982baeba6e7a4cf6b8dcfc47b80e5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e4db0391fda67c96207402df70ef8d" id="r_ab3e4db0391fda67c96207402df70ef8d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e4db0391fda67c96207402df70ef8d">isMultiViewportAvailable</a> ()</td></tr>
+<tr class="separator:ab3e4db0391fda67c96207402df70ef8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -983,8 +993,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad939ce39d52c9c10c967429100c9fffd" name="ad939ce39d52c9c10c967429100c9fffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad939ce39d52c9c10c967429100c9fffd">&#9670;&#160;</a></span>drawScene()</h2>
+<a id="ab2c95f8168c31e559662b97c55dad30f" name="ab2c95f8168c31e559662b97c55dad30f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2c95f8168c31e559662b97c55dad30f">&#9670;&#160;</a></span>drawScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -992,7 +1002,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::Viewer::drawScene </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> *</td>          <td class="paramname"><span class="paramname"><em>framebuffer</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1165,6 +1175,40 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>snapView</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14e72114dc36666570c97b24914df52e" name="a14e72114dc36666570c97b24914df52e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14e72114dc36666570c97b24914df52e">&#9670;&#160;</a></span>forceSwapOnFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::forceSwapOnFrame </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9101e95512bcb82d2136d5b68150cd5" name="ae9101e95512bcb82d2136d5b68150cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9101e95512bcb82d2136d5b68150cd5">&#9670;&#160;</a></span>getDepthPeelNumPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API int MR::Viewer::getDepthPeelNumPasses </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1991,6 +2035,23 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a019a888de748ce305dc8e4fbf58edaff" name="a019a888de748ce305dc8e4fbf58edaff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019a888de748ce305dc8e4fbf58edaff">&#9670;&#160;</a></span>isDepthPeelingEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::isDepthPeelingEnabled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a44dcab99aafe4a71d2890df4698179a1" name="a44dcab99aafe4a71d2890df4698179a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44dcab99aafe4a71d2890df4698179a1">&#9670;&#160;</a></span>isGLInitialized()</h2>
 
@@ -2063,6 +2124,24 @@ template&lt;typename PluginType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3e4db0391fda67c96207402df70ef8d" name="ab3e4db0391fda67c96207402df70ef8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e4db0391fda67c96207402df70ef8d">&#9670;&#160;</a></span>isMultiViewportAvailable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::isMultiViewportAvailable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return true if <a class="el" href="namespaceImGui.html">ImGui</a> Multi <a class="el" href="classMR_1_1Viewport.html">Viewport</a> is available (it is unavailable for macOS, Linux, and Emscripten) </p>
 
 </div>
 </div>
@@ -2877,6 +2956,23 @@ template&lt;typename PluginType &gt; </div>
           <td class="memname">MRVIEWER_API void MR::Viewer::set_root </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1SceneRootObject.html">SceneRootObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>newRoot</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af74c4a902b2a1a4431fd3372bd8577a6" name="af74c4a902b2a1a4431fd3372bd8577a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af74c4a902b2a1a4431fd3372bd8577a6">&#9670;&#160;</a></span>setDepthPeelNumPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::setDepthPeelNumPasses </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numPasses</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

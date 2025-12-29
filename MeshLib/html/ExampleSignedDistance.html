@@ -151,7 +151,7 @@ $(function(){initNavTree('ExampleSignedDistance.html',''); initResizable(true); 
 <div class="textblock"><p>Example of usage to get signed distance from mesh to mesh</p>
 <dl class="section note"><dt>Note</dt><dd>Please note that unlike findSignedDistances, this function return minimal distance between two meshes</dd></dl>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshLoad.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshMeshDistance.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -176,6 +176,7 @@ $(function(){initNavTree('ExampleSignedDistance.html',''); initResizable(true); 
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga23c1ed1442e2de62ef49a64b7179d809"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a></div><div class="ttdeci">MRMESH_API MeshMeshSignedDistanceResult findSignedDistance(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
@@ -244,7 +245,6 @@ $(function(){initNavTree('ExampleSignedDistance.html',''); initResizable(true); 
 <div class="ttc" id="aMRAABBTree_8h_html_af1ba30a3fa8a895c1f72e182f3e73e17"><div class="ttname"><a href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></div><div class="ttdeci">struct MR_MeshPart MR_MeshPart</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshMeshDistance_8h_html"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html">MRMeshMeshDistance.h</a></div></div>
 <div class="ttc" id="aMRMeshMeshDistance_8h_html_a04beb5153370f051a06c0671724b799f"><div class="ttname"><a href="./C/MRMeshMeshDistance_8h.html#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a></div><div class="ttdeci">struct MR_MeshMeshSignedDistanceResult MR_MeshMeshSignedDistanceResult</div></div>

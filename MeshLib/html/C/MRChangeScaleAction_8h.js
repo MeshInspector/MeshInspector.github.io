@@ -6,7 +6,7 @@ var MRChangeScaleAction_8h =
     [ "MR_std_string", "MRChangeScaleAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeScaleAction_action", "MRChangeScaleAction_8h.html#ae7ac882e3fc34c3d7e064c6e81bac9b9", null ],
     [ "MR_ChangeScaleAction_AssignFromAnother", "MRChangeScaleAction_8h.html#a94e6e8639ac1ae59d404d6f6262f0214", null ],
-    [ "MR_ChangeScaleAction_Construct", "MRChangeScaleAction_8h.html#a51c7ea14133224b544337037dbf47aaf", null ],
+    [ "MR_ChangeScaleAction_Construct", "MRChangeScaleAction_8h.html#adaddca3f5ce461f58ba9f7ef0123ebc5", null ],
     [ "MR_ChangeScaleAction_ConstructFromAnother", "MRChangeScaleAction_8h.html#ac458d12afe264d5320722656131b29fb", null ],
     [ "MR_ChangeScaleAction_Destroy", "MRChangeScaleAction_8h.html#a2959bd95ba65cbd02c83eee4d061b8e9", null ],
     [ "MR_ChangeScaleAction_DestroyArray", "MRChangeScaleAction_8h.html#a4d712ba032ed650ab80fcb263615aab3", null ],

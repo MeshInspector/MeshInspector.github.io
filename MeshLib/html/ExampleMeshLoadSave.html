@@ -151,8 +151,8 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="textblock"><p>Following code presents example of loading and saving mesh file</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRCtm_8h.html">MRIOExtras/MRCtm.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -190,6 +190,8 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aMRCtm_8h_html"><div class="ttname"><a href="./Cpp/MRCtm_8h.html">MRCtm.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html_a22395c6fe76cfa33bd45c5498865c20e"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR::MeshSave::toCtm</a></div><div class="ttdeci">MRIOEXTRAS_API Expected&lt; void &gt; toCtm(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const CtmSaveOptions &amp;options)</div></div>
@@ -262,9 +264,7 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html"><div class="ttname"><a href="./C/MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
@@ -279,16 +279,14 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
 <div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshLoadSaveExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshLoadSaveExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            var mesh = MeshLoad.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
-<div class="line">            MeshSave.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
+<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -296,7 +294,8 @@ $(function(){initNavTree('ExampleMeshLoadSave.html',''); initResizable(true); })
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="line"> </div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 </ul>

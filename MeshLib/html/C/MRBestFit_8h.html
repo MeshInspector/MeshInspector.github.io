@@ -391,7 +391,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Class to accumulate planes to find then their crossing point Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code>. </p>
+<p>Class to accumulate planes to find then their crossing point Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -406,7 +406,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Class to accumulate points and make best line / plane approximation Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code>. </p>
+<p>Class to accumulate points and make best line / plane approximation Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -625,7 +625,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code> named <code>addPlane</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pl</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124">MR::PlaneAccumulator::addPlane</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pl</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -647,7 +647,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code> named <code>addPlane</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pl</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124">MR::PlaneAccumulator::addPlane</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pl</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PlaneAccumulator::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -687,7 +687,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afdd89d1b94cd326d5b6ed219b7892399" title="Destroys a heap-allocated instance of MR_PlaneAccumulator. Does nothing if the pointer is null.">MR_PlaneAccumulator_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PlaneAccumulator::PlaneAccumulator</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afdd89d1b94cd326d5b6ed219b7892399" title="Destroys a heap-allocated instance of MR_PlaneAccumulator. Does nothing if the pointer is null.">MR_PlaneAccumulator_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
     <tr><td class="paramname">rank</td><td>optional output for solution matrix rank according to given tolerance </td></tr>
-    <tr><td class="paramname">space</td><td>rank=1: unit normal to solution plane, rank=2: unit direction of solution line, rank=3: zero vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code> named <code>findBestCrossPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p0</code> can not be null. It is a single object. Parameter <code>rank</code> defaults to a null pointer in C++. Parameter <code>space</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">space</td><td>rank=1: unit normal to solution plane, rank=2: unit direction of solution line, rank=3: zero vector Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3">MR::PlaneAccumulator::findBestCrossPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p0</code> can not be null. It is a single object. Parameter <code>rank</code> defaults to a null pointer in C++. Parameter <code>space</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -842,7 +842,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html">MR::PlaneAccumulator</a></code> named <code>findBestCrossPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p0</code> can not be null. It is a single object. Parameter <code>rank</code> defaults to a null pointer in C++. Parameter <code>space</code> defaults to a null pointer in C++. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3">MR::PlaneAccumulator::findBestCrossPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p0</code> can not be null. It is a single object. Parameter <code>rank</code> defaults to a null pointer in C++. Parameter <code>space</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -910,7 +910,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb">MR::PointAccumulator::addPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -932,7 +932,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb">MR::PointAccumulator::addPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -959,7 +959,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb">MR::PointAccumulator::addPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -986,7 +986,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>addPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb">MR::PointAccumulator::addPoint</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pt</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1008,7 +1008,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PointAccumulator::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1026,7 +1026,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adc259a20252e10b403a02fe64b27ad1a" title="Destroys a heap-allocated instance of MR_PointAccumulator. Does nothing if the pointer is null.">MR_PointAccumulator_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointAccumulator::PointAccumulator</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adc259a20252e10b403a02fe64b27ad1a" title="Destroys a heap-allocated instance of MR_PointAccumulator. Does nothing if the pointer is null.">MR_PointAccumulator_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1118,7 +1118,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns 4 transformations, each maps (0,0,0) into point centroid, and maps vectors (1,0,0), (0,1,0), (0,0,1) into +/- first, +/- second, +/- third eigenvectors (forming positive reference frame) corresponding to ascending eigenvalues Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>get4BasicXfs</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns 4 transformations, each maps (0,0,0) into point centroid, and maps vectors (1,0,0), (0,1,0), (0,0,1) into +/- first, +/- second, +/- third eigenvectors (forming positive reference frame) corresponding to ascending eigenvalues Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a76177fec5a1a4e3d0af890a84f1df551">MR::PointAccumulator::get4BasicXfs</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1136,7 +1136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>get4BasicXfs3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#aed6620e82b0ba20e993f8230d9f2e383">MR::PointAccumulator::get4BasicXfs3f</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1154,7 +1154,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the transformation that maps (0,0,0) into point centroid, and maps vectors (1,0,0), (0,1,0), (0,0,1) into first, second, third eigenvectors corresponding to ascending eigenvalues Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getBasicXf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the transformation that maps (0,0,0) into point centroid, and maps vectors (1,0,0), (0,1,0), (0,0,1) into first, second, third eigenvectors corresponding to ascending eigenvalues Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#aac25c8343c28176214d2be06601fe2fd">MR::PointAccumulator::getBasicXf</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1172,7 +1172,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getBasicXf3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a3bbfe3a2dafb965a1e58b1ebede9744f">MR::PointAccumulator::getBasicXf3f</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1190,7 +1190,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the best approximating line from the accumulated points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getBestLine</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRLine_8h.html#a60ac208fd30fc32aadd4816a25136415" title="Destroys a heap-allocated instance of MR_Line3d. Does nothing if the pointer is null.">MR_Line3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the best approximating line from the accumulated points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a15a8cf1a4ee07c5e665631a49d310b88">MR::PointAccumulator::getBestLine</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRLine_8h.html#a60ac208fd30fc32aadd4816a25136415" title="Destroys a heap-allocated instance of MR_Line3d. Does nothing if the pointer is null.">MR_Line3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1208,7 +1208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getBestLinef</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRLine_8h.html#ae5a77e4191f839bd1e67e4d5fff8409c" title="Destroys a heap-allocated instance of MR_Line3f. Does nothing if the pointer is null.">MR_Line3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#aedf74106b093871a3f5f643ddebeee7f">MR::PointAccumulator::getBestLinef</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRLine_8h.html#ae5a77e4191f839bd1e67e4d5fff8409c" title="Destroys a heap-allocated instance of MR_Line3f. Does nothing if the pointer is null.">MR_Line3f_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1226,7 +1226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the best approximating plane from the accumulated points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getBestPlane</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPlane3_8h.html#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the best approximating plane from the accumulated points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a2101603a476d7949c907898b3513fc27">MR::PointAccumulator::getBestPlane</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPlane3_8h.html#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1244,7 +1244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getBestPlanef</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPlane3_8h.html#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#abee9287110bb3322c9323fa6a5898906">MR::PointAccumulator::getBestPlanef</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPlane3_8h.html#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1276,7 +1276,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes centroid and eigenvectors/eigenvalues of the covariance matrix of the accumulated points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getCenteredCovarianceEigen</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>centroid</code> can not be null. It is a single object. Parameter <code>eigenvectors</code> can not be null. It is a single object. Parameter <code>eigenvalues</code> can not be null. It is a single object. </p>
+<p>computes centroid and eigenvectors/eigenvalues of the covariance matrix of the accumulated points Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f">MR::PointAccumulator::getCenteredCovarianceEigen</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>centroid</code> can not be null. It is a single object. Parameter <code>eigenvectors</code> can not be null. It is a single object. Parameter <code>eigenvalues</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1308,7 +1308,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>getCenteredCovarianceEigen</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>centroid</code> can not be null. It is a single object. Parameter <code>eigenvectors</code> can not be null. It is a single object. Parameter <code>eigenvalues</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f">MR::PointAccumulator::getCenteredCovarianceEigen</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>centroid</code> can not be null. It is a single object. Parameter <code>eigenvectors</code> can not be null. It is a single object. Parameter <code>eigenvalues</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1372,7 +1372,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html">MR::PointAccumulator</a></code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d">MR::PointAccumulator::valid</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

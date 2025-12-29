@@ -1,11 +1,10 @@
 var classmrmeshpy_1_1Matrix3f =
 [
-    [ "__init__", "classmrmeshpy_1_1Matrix3f.html#af65ff0b88a2e187cbcaa71caf9fde98d", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#a77536b4ba609bc1a53b65f8948d3c44d", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#a51390098ddff9a58ac9678ad8fa46f31", null ],
-    [ "__init__", "classmrmeshpy_1_1Matrix3f.html#abea15f364ed4736793313625edcbcc26", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#aed36a4d0393b6d14bc4fc9db592d0d09", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix3f.html#a2dbe697ae2f788c22a0803316cd1ec4a", null ],
+    [ "__init__", "classmrmeshpy_1_1Matrix3f.html#af65ff0b88a2e187cbcaa71caf9fde98d", null ],
     [ "__add__", "classmrmeshpy_1_1Matrix3f.html#ada3fa80b87f667720a4cd213a4fcc805", null ],
     [ "__eq__", "classmrmeshpy_1_1Matrix3f.html#a610dedbd70aa984d52c2c0c069a0edb6", null ],
     [ "__getitem__", "classmrmeshpy_1_1Matrix3f.html#a54052da7e8cefc3bc52ccc5f19c7ae1e", null ],
@@ -19,7 +18,9 @@ var classmrmeshpy_1_1Matrix3f =
     [ "__mul__", "classmrmeshpy_1_1Matrix3f.html#a81576e3425b220154ce9450d185e8892", null ],
     [ "__ne__", "classmrmeshpy_1_1Matrix3f.html#a116b8a240552f73828a49bab02038721", null ],
     [ "__repr__", "classmrmeshpy_1_1Matrix3f.html#a7925a098a204308a1bb0df3ac7e6bc34", null ],
+    [ "__rlshift__", "classmrmeshpy_1_1Matrix3f.html#a1ad978baeebd33eb887b3db9391d042f", null ],
     [ "__rmul__", "classmrmeshpy_1_1Matrix3f.html#a21fce18f6129d903147ab44397d0fd4f", null ],
+    [ "__rrshift__", "classmrmeshpy_1_1Matrix3f.html#a89be3067dbbce0c222e827fb86c01fc6", null ],
     [ "__setitem__", "classmrmeshpy_1_1Matrix3f.html#a8b6b25a96ab8e10c281ca6b2188d0088", null ],
     [ "__sub__", "classmrmeshpy_1_1Matrix3f.html#a3b55bbe3374f0fc2badb713553558792", null ],
     [ "__truediv__", "classmrmeshpy_1_1Matrix3f.html#a5c24b9ef0e747553770d42e91f41d17a", null ],

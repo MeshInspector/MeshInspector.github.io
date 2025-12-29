@@ -6,6 +6,8 @@ var std__function__void__from__MR__Mesh__ref__float__float_8h =
     [ "MR_std_function_void_from_MR_Mesh_ref_float_float_AssignFromAnother", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#acc1fba83e5bfdb56e2840138473f4f1c", null ],
     [ "MR_std_function_void_from_MR_Mesh_ref_float_float_AssignWithDataPtr", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#aebd06dc0ed8444220ab95886e1e8b4f0", null ],
     [ "MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructFromAnother", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a56eec1fe386322780e69254c9f201e4b", null ],
+    [ "MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructStateless", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a1b219df6e8f50e041b04abde8c58da31", null ],
+    [ "MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructWithDataPtr", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#ac5fd003d4aafd645ac2df78acb4f52ce", null ],
     [ "MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstruct", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a4fc7e9174085ceeb94b93e618a1a9349", null ],
     [ "MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstructArray", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#adef30b873dd5ed2dd793aa08a0cdb4da", null ],
     [ "MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy", "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a08765b5a38ee6c4f952cbee4b41ce308", null ],

@@ -161,7 +161,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
 <tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c4ab8fff3436ec2c767b42bce11ef8" id="r_ae4c4ab8fff3436ec2c767b42bce11ef8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae4c4ab8fff3436ec2c767b42bce11ef8">MR_SphereParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c4ab8fff3436ec2c767b42bce11ef8">MR_SphereParams</a></td></tr>
-<tr class="memdesc:ae4c4ab8fff3436ec2c767b42bce11ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SphereParams.html">MR::SphereParams</a></code>.  <br /></td></tr>
 <tr class="separator:ae4c4ab8fff3436ec2c767b42bce11ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -231,8 +230,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SphereParams.html">MR::SphereParams</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SphereParams.html">MR::SphereParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -278,7 +276,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a mesh of sphere with regular triangulation (parallels and meridians) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></code>. Parameter <code>radius</code> has a default argument: <code>1.</code>, pass a null pointer to use it. Parameter <code>horisontalResolution</code> has a default argument: <code>16</code>, pass a null pointer to use it. Parameter <code>verticalResolution</code> has a default argument: <code>16</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates a mesh of sphere with regular triangulation (parallels and meridians) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></code>. Parameter <code>radius</code> has a default argument: <code>1.0</code>, pass a null pointer to use it. Parameter <code>horisontalResolution</code> has a default argument: <code>16</code>, pass a null pointer to use it. Parameter <code>verticalResolution</code> has a default argument: <code>16</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -300,7 +298,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SphereParams.html">MR::SphereParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::SphereParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -340,7 +338,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SphereParams.html">MR::SphereParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af17cf4f13792bfaaeed687a9e3ad09db" title="Destroys a heap-allocated instance of MR_SphereParams. Does nothing if the pointer is null.">MR_SphereParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SphereParams::SphereParams</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af17cf4f13792bfaaeed687a9e3ad09db" title="Destroys a heap-allocated instance of MR_SphereParams. Does nothing if the pointer is null.">MR_SphereParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

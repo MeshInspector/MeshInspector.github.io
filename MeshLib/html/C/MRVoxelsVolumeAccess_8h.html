@@ -205,6 +205,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a256484e0e6ede36925576ae0122249ae" id="r_a256484e0e6ede36925576ae0122249ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a256484e0e6ede36925576ae0122249ae">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_DestroyArray</a> (const <a class="el" href="MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</a> *_this)</td></tr>
 <tr class="memdesc:a256484e0e6ede36925576ae0122249ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a256484e0e6ede36925576ae0122249ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af552210ad77a4c4365fe4f0e2f61f8c3" id="r_af552210ad77a4c4365fe4f0e2f61f8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af552210ad77a4c4365fe4f0e2f61f8c3">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_shift</a> (const <a class="el" href="MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</a> *_this)</td></tr>
+<tr class="separator:af552210ad77a4c4365fe4f0e2f61f8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac60382e8e2e6eae9bc95e5cdecff2742" id="r_ac60382e8e2e6eae9bc95e5cdecff2742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac60382e8e2e6eae9bc95e5cdecff2742">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Get_cacheEffective</a> (void)</td></tr>
 <tr class="separator:ac60382e8e2e6eae9bc95e5cdecff2742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a490faf18510052cb54f9ed3804d19d4c" id="r_a490faf18510052cb54f9ed3804d19d4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a14daefefb71601bafdc8f2606ebd04ff">MR_VoxelsVolumeAccessor_MR_SimpleVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a490faf18510052cb54f9ed3804d19d4c">MR_VoxelsVolumeAccessor_MR_SimpleVolume_ConstructFromAnother</a> (const <a class="el" href="#a14daefefb71601bafdc8f2606ebd04ff">MR_VoxelsVolumeAccessor_MR_SimpleVolume</a> *_other)</td></tr>
@@ -368,7 +370,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>VoxelsVolumeAccessor specialization for value getters Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code>. </p>
+<p>VoxelsVolumeAccessor specialization for value getters Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -383,7 +385,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>VoxelsVolumeAccessor specialization for simple volumes Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code>. Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code> </p>
+<p>VoxelsVolumeAccessor specialization for simple volumes Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code>. Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -398,7 +400,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> </p>
+<p>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -413,7 +415,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>VoxelsVolumeAccessor specialization for VDB volume Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code>. caching results of this accessor does not make any sense since it returns values from a simple container Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>VoxelsVolumeAccessor specialization for VDB volume Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). caching results of this accessor does not make any sense since it returns values from a simple container Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -432,7 +434,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a42200ebf38ce9cf057be80127b16a6bd" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_FunctionVolume. Does nothing if the ...">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;::VoxelsVolumeAccessor</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a42200ebf38ce9cf057be80127b16a6bd" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_FunctionVolume. Does nothing if the ...">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -450,7 +452,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a42200ebf38ce9cf057be80127b16a6bd" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_FunctionVolume. Does nothing if the ...">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;::VoxelsVolumeAccessor</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a42200ebf38ce9cf057be80127b16a6bd" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_FunctionVolume. Does nothing if the ...">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -527,7 +529,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -549,7 +551,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>loc</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>loc</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -613,7 +615,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code> named <code>shift</code>. Parameter <code>_this</code> can not be null. It is a single object. caching results of this accessor can improve performance Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;::shift</code>. Parameter <code>_this</code> can not be null. It is a single object. caching results of this accessor can improve performance Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -631,7 +633,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad188f61907e6ca4ae697d9098b3e406b" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolume. Does nothing if the po...">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;::VoxelsVolumeAccessor</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad188f61907e6ca4ae697d9098b3e406b" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolume. Does nothing if the po...">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -649,7 +651,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad188f61907e6ca4ae697d9098b3e406b" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolume. Does nothing if the po...">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;::VoxelsVolumeAccessor</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad188f61907e6ca4ae697d9098b3e406b" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolume. Does nothing if the po...">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -726,7 +728,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -748,7 +750,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>loc</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>loc</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -830,7 +832,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> named <code>shift</code>. Parameter <code>_this</code> can not be null. It is a single object. caching results of this accessor can improve performance Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;::shift</code>. Parameter <code>_this</code> can not be null. It is a single object. caching results of this accessor can improve performance Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::FunctionVolume&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -866,7 +868,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5995645ae7a2740e7c2b22ad13959f9e" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax....">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;::VoxelsVolumeAccessor</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5995645ae7a2740e7c2b22ad13959f9e" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax....">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -884,7 +886,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5995645ae7a2740e7c2b22ad13959f9e" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax....">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;::VoxelsVolumeAccessor</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5995645ae7a2740e7c2b22ad13959f9e" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax....">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -923,7 +925,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys a heap-allocated array of <code>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</code>. Does nothing if the pointer is null. </p>
-<p>caching results of this accessor does not make any sense since it returns values from a simple container Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1009,6 +1010,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af552210ad77a4c4365fe4f0e2f61f8c3" name="af552210ad77a4c4365fe4f0e2f61f8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af552210ad77a4c4365fe4f0e2f61f8c3">&#9670;&#160;</a></span>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_shift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_shift </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolumeMinMax&gt;::shift</code>. Parameter <code>_this</code> can not be null. It is a single object. caching results of this accessor does not make any sense since it returns values from a simple container Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::SimpleVolume&gt;</code> named <code>cacheEffective</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="afc784d7f6c5a5d002e039e14d1135e67" name="afc784d7f6c5a5d002e039e14d1135e67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc784d7f6c5a5d002e039e14d1135e67">&#9670;&#160;</a></span>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_UpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume()</h2>
 
@@ -1050,7 +1069,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1068,7 +1087,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a49d86ac4bb317e4c5c4af1951ad179e4" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_VdbVolume. Does nothing if the point...">MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::VoxelsVolumeAccessor</code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a49d86ac4bb317e4c5c4af1951ad179e4" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_VdbVolume. Does nothing if the point...">MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1090,7 +1109,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a49d86ac4bb317e4c5c4af1951ad179e4" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_VdbVolume. Does nothing if the point...">MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::VoxelsVolumeAccessor</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a49d86ac4bb317e4c5c4af1951ad179e4" title="Destroys a heap-allocated instance of MR_VoxelsVolumeAccessor_MR_VdbVolume. Does nothing if the point...">MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1167,7 +1186,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>pos</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1189,7 +1208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>loc</code> can not be null. It is a single object. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>loc</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1207,7 +1226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>minCoord</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::minCoord</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1271,7 +1290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;</code> named <code>shift</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt;MR::VdbVolume&gt;::shift</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

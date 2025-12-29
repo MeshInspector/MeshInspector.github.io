@@ -7,6 +7,8 @@ var std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h =
     [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_AssignFromAnother", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a55e21f16de5e41643a888faa75e9b1f2", null ],
     [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_AssignWithDataPtr", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a4f9b9864d8da8cb0ed9436f8bb0b3e2b", null ],
     [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_ConstructFromAnother", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a81b6ca58cb6a9df2de91ed1611108dda", null ],
+    [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_ConstructStateless", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a56a36729cc7de88c4da46babb3561490", null ],
+    [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_ConstructWithDataPtr", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#ad0adde460d9f151f98f9cbe0028a94f2", null ],
     [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_DefaultConstruct", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a9e99278caf4062818178215b6d21d1be", null ],
     [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_DefaultConstructArray", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a08d884a996c16b942a084056c38dc490", null ],
     [ "MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_Destroy", "std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h.html#a6116c6a8dd5302fe103f81bfbfa75aea", null ],

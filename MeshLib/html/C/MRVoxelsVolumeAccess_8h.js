@@ -39,6 +39,7 @@ var MRVoxelsVolumeAccess_8h =
     [ "MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_MutableUpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume", "MRVoxelsVolumeAccess_8h.html#ad37a2d7c5ba1bd2c7c8994f195134a66", null ],
     [ "MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_OffsetMutablePtr", "MRVoxelsVolumeAccess_8h.html#aa0d015f91d47cb3defeb124cfac5a8b3", null ],
     [ "MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_OffsetPtr", "MRVoxelsVolumeAccess_8h.html#a7e09d3bc2b85a5df5d47186820ccaa3d", null ],
+    [ "MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_shift", "MRVoxelsVolumeAccess_8h.html#af552210ad77a4c4365fe4f0e2f61f8c3", null ],
     [ "MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_UpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume", "MRVoxelsVolumeAccess_8h.html#afc784d7f6c5a5d002e039e14d1135e67", null ],
     [ "MR_VoxelsVolumeAccessor_MR_VdbVolume_AssignFromAnother", "MRVoxelsVolumeAccess_8h.html#ad8c7b55da79cc7aa3205883e6a21724f", null ],
     [ "MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct", "MRVoxelsVolumeAccess_8h.html#af5eecb1eaee06eef45d179009bfc0341", null ],

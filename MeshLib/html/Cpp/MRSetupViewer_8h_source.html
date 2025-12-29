@@ -183,25 +183,32 @@ $(function(){initNavTree('MRSetupViewer_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerSetup.html#ac2596418ab8194fb9b1818ef2f1f5b31">   44</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ViewerSetup.html#ac2596418ab8194fb9b1818ef2f1f5b31">unloadExtendedLibraries</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">struct </span>LoadedModule</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        std::filesystem::path filename;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#if _WIN32</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        HMODULE module = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">void</span> * module = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    };</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">mutable</span> std::vector&lt;LoadedModule&gt; loadedModules_;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif </span><span class="comment">// ifndef __EMSCRIPTEN__</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// functor to setup custom log sink, i.e. sending logs to web</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerSetup.html#a01b6a5ca99cb834e86dbb5494153de45">   47</a></span>    std::function&lt;void()&gt; <a class="code hl_variable" href="classMR_1_1ViewerSetup.html#a01b6a5ca99cb834e86dbb5494153de45">setupCustomLogSink</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// functor to shutdown custom log sink, i.e. send all remaining logs to web before exit</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1ViewerSetup.html#a7895602798d8ec93e4374882cc9c89c4">   50</a></span>    std::function&lt;void()&gt; <a class="code hl_variable" href="classMR_1_1ViewerSetup.html#a7895602798d8ec93e4374882cc9c89c4">shutdownCustomLogSink</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">struct </span>LoadedModule</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        std::filesystem::path filename;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#if _WIN32</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        HMODULE module = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordtype">void</span> * module = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    };</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">mutable</span> std::vector&lt;LoadedModule&gt; loadedModules_;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif </span><span class="comment">// ifndef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
 </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html"><div class="ttname"><a href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:13</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a01b6a5ca99cb834e86dbb5494153de45"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a01b6a5ca99cb834e86dbb5494153de45">MR::ViewerSetup::setupCustomLogSink</a></div><div class="ttdeci">std::function&lt; void()&gt; setupCustomLogSink</div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:47</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a04abb25fb543f1b7f29d33eed34bdb81"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81">MR::ViewerSetup::setupCommonPlugins</a></div><div class="ttdeci">virtual void setupCommonPlugins(Viewer *) const</div><div class="ttdoc">Setups custom plugins to viewer.</div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:29</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a0d93aa8d3e8ee23b874c8c2f6e4a0eca"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a0d93aa8d3e8ee23b874c8c2f6e4a0eca">MR::ViewerSetup::setupSettingsManager</a></div><div class="ttdeci">virtual MRVIEWER_API void setupSettingsManager(Viewer *viewer, const std::string &amp;appName, bool reset=false) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a189d84a7bbccaaa4f0936339d4e30b5e"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a189d84a7bbccaaa4f0936339d4e30b5e">MR::ViewerSetup::setupExtendedLibraries</a></div><div class="ttdeci">virtual MRVIEWER_API void setupExtendedLibraries() const</div></div>
@@ -209,11 +216,12 @@ $(function(){initNavTree('MRSetupViewer_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a5de2e94012eb083d14c9b918420a2c9e"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a5de2e94012eb083d14c9b918420a2c9e">MR::ViewerSetup::ViewerSetup</a></div><div class="ttdeci">ViewerSetup(ViewerSetup &amp;&amp;)=default</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a66bb762d87286ae7b094f6a59bb96aec"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a66bb762d87286ae7b094f6a59bb96aec">MR::ViewerSetup::setupCommonModifiers</a></div><div class="ttdeci">virtual void setupCommonModifiers(Viewer *) const</div><div class="ttdoc">Setups modifiers to Menu plugin if it is present in viewer.</div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:26</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a68075c17440a99ede74249da2ff6ecd9"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup::setupBasePlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupBasePlugins(Viewer *) const</div><div class="ttdoc">Setups Menu Save and Open plugins.</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a7895602798d8ec93e4374882cc9c89c4"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a7895602798d8ec93e4374882cc9c89c4">MR::ViewerSetup::shutdownCustomLogSink</a></div><div class="ttdeci">std::function&lt; void()&gt; shutdownCustomLogSink</div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:50</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a918f69117bd46f408fda277cad5fde2d"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">MR::ViewerSetup::setupConfiguration</a></div><div class="ttdeci">virtual MRVIEWER_API void setupConfiguration(Viewer *viewer) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a91f189592dac535dae6d91f80c911e1f"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a91f189592dac535dae6d91f80c911e1f">MR::ViewerSetup::~ViewerSetup</a></div><div class="ttdeci">virtual ~ViewerSetup()=default</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a9616d5542d1b0f230b9138f4da8a88cb"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a9616d5542d1b0f230b9138f4da8a88cb">MR::ViewerSetup::ViewerSetup</a></div><div class="ttdeci">ViewerSetup()=default</div><div class="ttdoc">explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated...</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_ac2596418ab8194fb9b1818ef2f1f5b31"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#ac2596418ab8194fb9b1818ef2f1f5b31">MR::ViewerSetup::unloadExtendedLibraries</a></div><div class="ttdeci">virtual MRVIEWER_API void unloadExtendedLibraries() const</div><div class="ttdoc">free all libraries loaded in setupExtendedLibraries()</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:63</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:66</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

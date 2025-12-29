@@ -52,5 +52,7 @@ var classMR_1_1BitSet =
     [ "test", "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff", null ],
     [ "test_set", "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c", null ],
     [ "uncheckedTest", "classMR_1_1BitSet.html#a88d7cb003f37bb4ff177bf6082074305", null ],
-    [ "uncheckedTestSet", "classMR_1_1BitSet.html#aa1f040574bd60bfde685c9747f1e689c", null ]
+    [ "uncheckedTestSet", "classMR_1_1BitSet.html#aa1f040574bd60bfde685c9747f1e689c", null ],
+    [ "operator<<", "classMR_1_1BitSet.html#a9bb3254a2ecfac1b55c9a26b28043e98", null ],
+    [ "operator>>", "classMR_1_1BitSet.html#a8a41de2cd0ce5e0213dfff7731981323", null ]
 ];

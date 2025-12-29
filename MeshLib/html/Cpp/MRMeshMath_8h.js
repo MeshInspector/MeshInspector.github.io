@@ -1,6 +1,6 @@
 var MRMeshMath_8h =
 [
-    [ "area", "MRMeshMath_8h.html#a0558eb3364f004c3a1898af28571b3af", null ],
+    [ "area", "MRMeshMath_8h.html#a3291e18b60eb2af4b4188c0b5ad698a9", null ],
     [ "area", "MRMeshMath_8h.html#a8bb0dbb5b5768b6c4630c3ceec9b1426", null ],
     [ "area", "MRMeshMath_8h.html#a19abe27ef41cab9ed70e6a0b5d60026e", null ],
     [ "averageEdgeLength", "MRMeshMath_8h.html#a5c72ade2831c2a328e3486b5aa8045bb", null ],
@@ -14,7 +14,7 @@ var MRMeshMath_8h =
     [ "dihedralAngle", "MRMeshMath_8h.html#a34e4cff045080ddf46cb771f7f2fdb8e", null ],
     [ "dihedralAngleCos", "MRMeshMath_8h.html#a4456950753150d985e999f060edb469c", null ],
     [ "dihedralAngleSin", "MRMeshMath_8h.html#afb5e341e476649b321cdb9f27e72c6d1", null ],
-    [ "dirArea", "MRMeshMath_8h.html#a6cb7501549ed859f41648effc8d74063", null ],
+    [ "dirArea", "MRMeshMath_8h.html#ac9b5c089cbb1ac05e6fe7ff3c6ec1f29", null ],
     [ "dirArea", "MRMeshMath_8h.html#aa066b3823c0d189be92f99b46d6d1bb1", null ],
     [ "dirDblArea", "MRMeshMath_8h.html#a60596c8cd5eca043531d0f0c4ece20c0", null ],
     [ "dirDblArea", "MRMeshMath_8h.html#a48b8d23ea7f7dd04366bf343830af62e", null ],
@@ -57,7 +57,7 @@ var MRMeshMath_8h =
     [ "normal", "MRMeshMath_8h.html#aeaaa231de17fd92490d5ffbdac7d7c16", null ],
     [ "normal", "MRMeshMath_8h.html#a3fb32b3b62d46ab4122204d35787fa88", null ],
     [ "orgPnt", "MRMeshMath_8h.html#aa2a7fba3a600699de880615c69671718", null ],
-    [ "projArea", "MRMeshMath_8h.html#ae404353d24dee8a7548853d3711fecaf", null ],
+    [ "projArea", "MRMeshMath_8h.html#ae86416dcba970f5b5526d38da36a3336", null ],
     [ "projArea", "MRMeshMath_8h.html#a65325d5765de14230b066e2706dbba82", null ],
     [ "pseudonormal", "MRMeshMath_8h.html#a5389586ec02a9b3a7ef5294b75a3c440", null ],
     [ "pseudonormal", "MRMeshMath_8h.html#a3530eb53e71557cf4aed764076418744", null ],

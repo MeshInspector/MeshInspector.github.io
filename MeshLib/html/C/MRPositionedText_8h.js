@@ -4,7 +4,7 @@ var MRPositionedText_8h =
     [ "MR_std_string", "MRPositionedText_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_equal_MR_PositionedText", "MRPositionedText_8h.html#a939adfc1ba3016a1d611d69b6bfe31b1", null ],
     [ "MR_PositionedText_AssignFromAnother", "MRPositionedText_8h.html#a08c45ff754383f634f66f92b5497f5b1", null ],
-    [ "MR_PositionedText_Construct", "MRPositionedText_8h.html#a8b1c28ce682fd16aa5b1fa02d99d5927", null ],
+    [ "MR_PositionedText_Construct", "MRPositionedText_8h.html#ae3a8db83d9521c98a76e0d51605cd73d", null ],
     [ "MR_PositionedText_ConstructFromAnother", "MRPositionedText_8h.html#a4dc4a5c2b4c38df7ed2dfd431436b7d0", null ],
     [ "MR_PositionedText_DefaultConstruct", "MRPositionedText_8h.html#a41b330e5de25aa0ff8e399244eb9767d", null ],
     [ "MR_PositionedText_DefaultConstructArray", "MRPositionedText_8h.html#a12d5e8863b0d1274c5ab608ed244fd68", null ],

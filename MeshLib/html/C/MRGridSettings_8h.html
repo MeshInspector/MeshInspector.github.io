@@ -167,12 +167,12 @@ Typedefs</h2></td></tr>
 <tr class="separator:a8a7105d6f2c0d694d7dff11a45e316f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5f03336386d65f3e0804994394713e" id="r_a7f5f03336386d65f3e0804994394713e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBuffer_8h.html#a7f5f03336386d65f3e0804994394713e">MR_BMap_MR_VertId_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5f03336386d65f3e0804994394713e">MR_BMap_MR_VertId_uint64_t</a></td></tr>
 <tr class="separator:a7f5f03336386d65f3e0804994394713e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fed3ff99b050e83b401a1b490fe0e58" id="r_a1fed3ff99b050e83b401a1b490fe0e58"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1fed3ff99b050e83b401a1b490fe0e58">MR_GridSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fed3ff99b050e83b401a1b490fe0e58">MR_GridSettings</a></td></tr>
-<tr class="separator:a1fed3ff99b050e83b401a1b490fe0e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c511aee8952cf05f248dd162b3ddb2" id="r_ae3c511aee8952cf05f248dd162b3ddb2"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aaa9624438105f4572d37fa0b0be8840e">MR_GridSettings_EdgeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3c511aee8952cf05f248dd162b3ddb2">MR_GridSettings_EdgeType</a></td></tr>
 <tr class="separator:ae3c511aee8952cf05f248dd162b3ddb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a393df8efcc2bc97f02f376b197a66b" id="r_a7a393df8efcc2bc97f02f376b197a66b"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a67dfa26a9268fcb75419dba0e0247ece">MR_GridSettings_TriType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a393df8efcc2bc97f02f376b197a66b">MR_GridSettings_TriType</a></td></tr>
 <tr class="separator:a7a393df8efcc2bc97f02f376b197a66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fed3ff99b050e83b401a1b490fe0e58" id="r_a1fed3ff99b050e83b401a1b490fe0e58"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1fed3ff99b050e83b401a1b490fe0e58">MR_GridSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fed3ff99b050e83b401a1b490fe0e58">MR_GridSettings</a></td></tr>
+<tr class="separator:a1fed3ff99b050e83b401a1b490fe0e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -290,7 +290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GridSettings.html">MR::GridSettings</a></code>. </p>
+<p>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GridSettings.html">MR::GridSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -385,7 +385,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1GridSettings.html">MR::GridSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::GridSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -454,7 +454,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1GridSettings.html">MR::GridSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a301db484650714a6cbafba01c6620f97" title="Destroys a heap-allocated instance of MR_GridSettings. Does nothing if the pointer is null.">MR_GridSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::GridSettings::GridSettings</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a301db484650714a6cbafba01c6620f97" title="Destroys a heap-allocated instance of MR_GridSettings. Does nothing if the pointer is null.">MR_GridSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

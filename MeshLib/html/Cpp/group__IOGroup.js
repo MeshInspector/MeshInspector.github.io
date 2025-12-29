@@ -16,7 +16,6 @@ var group__IOGroup =
     [ "Mesh Save Obj", "group__MeshSaveObjGroup.html", "group__MeshSaveObjGroup" ],
     [ "Points Save", "group__PointsSaveGroup.html", "group__PointsSaveGroup" ],
     [ "Serializer", "group__SerializerGroup.html", "group__SerializerGroup" ],
-    [ "Stream Operators", "group__StreamOperatorsGroup.html", "group__StreamOperatorsGroup" ],
     [ "Voxels Load", "group__VoxelsLoadGroup.html", "group__VoxelsLoadGroup" ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", [
       [ "cb", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323", null ],

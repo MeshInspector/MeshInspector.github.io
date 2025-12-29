@@ -180,7 +180,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ab703fb0e787f91fc7194e3fe95e9c09a" id="r_ab703fb0e787f91fc7194e3fe95e9c09a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab703fb0e787f91fc7194e3fe95e9c09a">MR_std_optional_MR_PolylineIntersectionResult2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab703fb0e787f91fc7194e3fe95e9c09a">MR_std_optional_MR_PolylineIntersectionResult2</a></td></tr>
 <tr class="separator:ab703fb0e787f91fc7194e3fe95e9c09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3db0409fc80b9fae469a9fbca2407a83" id="r_a3db0409fc80b9fae469a9fbca2407a83"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3db0409fc80b9fae469a9fbca2407a83">MR_PolylineIntersectionResult2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3db0409fc80b9fae469a9fbca2407a83">MR_PolylineIntersectionResult2</a></td></tr>
-<tr class="memdesc:a3db0409fc80b9fae469a9fbca2407a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineIntersectionResult2.html">MR::PolylineIntersectionResult2</a></code>.  <br /></td></tr>
 <tr class="separator:a3db0409fc80b9fae469a9fbca2407a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -327,8 +326,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineIntersectionResult2.html">MR::PolylineIntersectionResult2</a></code>. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineIntersectionResult2.html">MR::PolylineIntersectionResult2</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -437,7 +435,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineIntersectionResult2.html">MR::PolylineIntersectionResult2</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::PolylineIntersectionResult2::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -477,7 +475,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PolylineIntersectionResult2.html">MR::PolylineIntersectionResult2</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af9929c9298916f994f3ddbcbf3058b2f" title="Destroys a heap-allocated instance of MR_PolylineIntersectionResult2. Does nothing if the pointer is ...">MR_PolylineIntersectionResult2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PolylineIntersectionResult2::PolylineIntersectionResult2</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af9929c9298916f994f3ddbcbf3058b2f" title="Destroys a heap-allocated instance of MR_PolylineIntersectionResult2. Does nothing if the pointer is ...">MR_PolylineIntersectionResult2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -755,7 +753,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds ray and polyline intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aced4d907b5fe7e8492db1e0168969ef0">MR::rayPolylineIntersect</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>1.7976931348623157E+308</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. Parameter <code>closestIntersect</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5" title="Destroys a heap-allocated instance of MR_std_optional_MR_PolylineIntersectionResult2....">MR_std_optional_MR_PolylineIntersectionResult2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Finds ray and polyline intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aced4d907b5fe7e8492db1e0168969ef0">MR::rayPolylineIntersect</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>1.7976931348623157e308</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. Parameter <code>closestIntersect</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5" title="Destroys a heap-allocated instance of MR_std_optional_MR_PolylineIntersectionResult2....">MR_std_optional_MR_PolylineIntersectionResult2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -797,7 +795,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds ray and polyline intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aced4d907b5fe7e8492db1e0168969ef0">MR::rayPolylineIntersect</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. Parameter <code>closestIntersect</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5" title="Destroys a heap-allocated instance of MR_std_optional_MR_PolylineIntersectionResult2....">MR_std_optional_MR_PolylineIntersectionResult2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Finds ray and polyline intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aced4d907b5fe7e8492db1e0168969ef0">MR::rayPolylineIntersect</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. Parameter <code>closestIntersect</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5" title="Destroys a heap-allocated instance of MR_std_optional_MR_PolylineIntersectionResult2....">MR_std_optional_MR_PolylineIntersectionResult2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -839,7 +837,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Intersects 2D ray and polyline in double-precision. Reports all intersections via given callback with the tendency to do it from ray start to ray end, but without guarantee of exact order. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc2868e5402457432689a152d4f07aab">MR::rayPolylineIntersectAll</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>callback</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0.</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>1.7976931348623157E+308</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. </p>
+<p>Intersects 2D ray and polyline in double-precision. Reports all intersections via given callback with the tendency to do it from ray start to ray end, but without guarantee of exact order. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc2868e5402457432689a152d4f07aab">MR::rayPolylineIntersectAll</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>callback</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0.0</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>1.7976931348623157e308</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -881,7 +879,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Intersects 2D ray and polyline in single-precision. Reports all intersections via given callback with the tendency to do it from ray start to ray end, but without guarantee of exact order. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc2868e5402457432689a152d4f07aab">MR::rayPolylineIntersectAll</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>callback</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. </p>
+<p>Intersects 2D ray and polyline in single-precision. Reports all intersections via given callback with the tendency to do it from ray start to ray end, but without guarantee of exact order. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc2868e5402457432689a152d4f07aab">MR::rayPolylineIntersectAll</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>callback</code> can not be null. It is a single object. Parameter <code>rayStart</code> has a default argument: <code>0.0f</code>, pass a null pointer to use it. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>prec</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>

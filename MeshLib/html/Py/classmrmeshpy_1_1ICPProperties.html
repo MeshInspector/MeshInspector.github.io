@@ -249,6 +249,8 @@ Static Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::ICPProperties
+
+parameters of ICP algorithm
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa89de4a44e0d4e9b6527d2fdd6535db6" name="aa89de4a44e0d4e9b6527d2fdd6535db6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa89de4a44e0d4e9b6527d2fdd6535db6">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
@@ -410,7 +412,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">maximum iterations without improvements
+<pre class="fragment">The algorithm will stop before making all (iterLimit) iterations, if there were
+consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish.
 </pre> 
 </div>
 </div>
@@ -605,7 +608,7 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">If this vector is not zero then rotation is allowed relative to this axis only
+<pre class="fragment">Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups.
 </pre> 
 </div>
 </div>
@@ -644,7 +647,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Finds only translation. Rotation part is identity matrix
+<pre class="fragment">Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...).
+See the description of each option in ICPMode.
 </pre> 
 </div>
 </div>
@@ -683,7 +687,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">maximum iterations
+<pre class="fragment">The maximum number of iterations that the algorithm can perform.
+Increase this parameter if you need a higher precision or if initial approximation is not very precise.
 </pre> 
 </div>
 </div>
@@ -722,7 +727,7 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">The method how to update transformation from point pairs
+<pre class="fragment">The method how to update transformation from point pairs, see description of each option in ICPMethod
 </pre> 
 </div>
 </div>
@@ -761,7 +766,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">a pair of points is formed only if both points in the pair are mutually closest (reciprocity test passed)
+<pre class="fragment">A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed),
+some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs.
 </pre> 
 </div>
 </div>
@@ -897,7 +903,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Scaling during one iteration of PointToPlane will be limited by this value
+<pre class="fragment">Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value.
+This is to reduce possible instability.
 </pre> 
 </div>
 </div>

@@ -150,15 +150,19 @@ $(function(){initNavTree('ExamplePluginOverview.html',''); initResizable(true); 
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#autotoc_md57">C++ Distribution Example Plugin</a><ul><li class="level2"><a href="#autotoc_md58">Introduction</a></li>
-<li class="level2"><a href="#autotoc_md59">Content</a><ul><li class="level3"><a href="#autotoc_md60">Solution File</a></li>
-<li class="level3"><a href="#autotoc_md61">Project File</a></li>
+<li class="level2"><a href="#autotoc_md59">Content</a><ul><li class="level3"><a href="#autotoc_md60">Visual Studio Solution File</a></li>
+<li class="level3"><a href="#autotoc_md61">Visual Studio Project File</a></li>
 <li class="level3"><a href="#autotoc_md62">Tools Configuration File</a></li>
 <li class="level3"><a href="#autotoc_md63">Tools Visualization Order File</a></li>
 <li class="level3"><a href="#autotoc_md64">Resoure Directory</a></li>
 <li class="level3"><a href="#autotoc_md65">Source Code File</a></li>
+<li class="level3"><a href="#autotoc_md66">Sample Viewer App</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md66">Usage</a></li>
+<li class="level2"><a href="#autotoc_md67">Usage</a><ul><li class="level3"><a href="#autotoc_md68">Windows</a></li>
+<li class="level3"><a href="#autotoc_md69">WebAssembly</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -167,7 +171,7 @@ $(function(){initNavTree('ExamplePluginOverview.html',''); initResizable(true); 
 C++ Distribution Example Plugin</h1>
 <h2><a class="anchor" id="autotoc_md58"></a>
 Introduction</h2>
-<p>This page describes what is present in <code>example_plugin</code> directory of the Windows distribution archive and how to use it. </p><dl class="section note"><dt>Note</dt><dd>Please have a look at <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">MeshLib С++ setup guide</a> first.</dd></dl>
+<p>This page describes what is present in <code>example_plugin</code> directory of the Windows and WebAssembly distribution archive and how to use it. </p><dl class="section note"><dt>Note</dt><dd>Please have a look at <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">MeshLib С++ setup guide</a> first.</dd></dl>
 <h2><a class="anchor" id="autotoc_md59"></a>
 Content</h2>
 <p>This example contains several files:</p><ol type="1">
@@ -177,13 +181,16 @@ Content</h2>
 <li><code>MyPlugin.ui.json</code> - tools visualization in MeshLib/MeshInspector viewer</li>
 <li><code>resource</code> - directory with icons in four different sizes for menu in viewer</li>
 <li><code>MyPlugin.cpp</code> - source code with actual (demo) tools</li>
+<li><code>CMakeLists.txt</code> - CMake project file</li>
+<li><code>ViewerApp.cpp</code> - sample viewer app that has enough functionality to load and test the tools</li>
+<li><code>wasm/index.html</code> - (WebAssembly only) sample HTML page for loading the sample viewer app</li>
 </ol>
 <p>Lets have a closer look at each of these points:</p>
 <h3><a class="anchor" id="autotoc_md60"></a>
-Solution File</h3>
+Visual Studio Solution File</h3>
 <p><code>example_plugin.sln</code> - This can be used to build an example with Visual Studio, it only includes <code>example_plugin.vcxproj</code> in it.</p>
 <h3><a class="anchor" id="autotoc_md61"></a>
-Project File</h3>
+Visual Studio Project File</h3>
 <p><code>example_plugin.vcxproj</code> - This file is configured so project can work with MeshLib distribuiton    <br  />
 </p><ul>
 <li>Debug only:<ul>
@@ -305,16 +312,32 @@ Source Code File</h3>
 <li><code>MyStateTool() : StatePlugin( "My State Tool" )</code> - shows "Hello World" <b>dialog</b> window</li>
 </ol>
 <p>For more information have a look at <a class="el" href="StatePluginsHelp.html">State Plugin Page</a></p>
-<h2><a class="anchor" id="autotoc_md66"></a>
+<h3><a class="anchor" id="autotoc_md66"></a>
+Sample Viewer App</h3>
+<p><code>ViewerApp.cpp</code> - source file for running the viewer instance. You can set your own viewer launch parameters and alterate viewer setup process.</p>
+<h2><a class="anchor" id="autotoc_md67"></a>
 Usage</h2>
+<h3><a class="anchor" id="autotoc_md68"></a>
+Windows</h3>
 <ol type="1">
 <li>Open solution file with Visual Studio</li>
 <li>Compile it</li>
 <li>Copy content of just appeared <code>x64\Release\</code> folder to MeshLib or MeshInspector app folder<ul>
 <li>MeshLib: <code>install\app\Release</code></li>
-<li>MeshInspector: <code>C:\Program Files\MeshInspector\MeshInspector</code>, please note that you should use same version of MeshLib that is used in MeshInspector to avoid unexpected errors <dl class="section note"><dt>Note</dt><dd>take <code>x64\Debug\</code> if you want to test it in MeshLib debug app folder: <code>install\app\Debug</code> </dd></dl>
+<li>MeshInspector: <code>C:\Program Files\MeshInspector\MeshInspector</code>, please note that you should use same version of MeshLib that is used in MeshInspector to avoid unexpected errors <dl class="section note"><dt>Note</dt><dd>take <code>x64\Debug\</code> if you want to test it in MeshLib debug app folder: <code>install\app\Debug</code></dd></dl>
 </li>
 </ul>
+</li>
+</ol>
+<h3><a class="anchor" id="autotoc_md69"></a>
+WebAssembly</h3>
+<ol type="1">
+<li><a href="https://emscripten.org/docs/tools_reference/emsdk.html#emsdk-howto">Install and activate Emscripten SDK</a></li>
+<li><a href="https://github.com/MeshInspector/MeshLib/releases">Download and unpack MeshLib SDK</a></li>
+<li>Configure and build the project using CMake and emcmake: <div class="fragment"><div class="line">emcmake cmake -S example_plugin -B example_plugin_build -D CMAKE_FIND_ROOT_PATH=/path/to/meshlib/sdk/</div>
+<div class="line">cmake --build example_plugin_build --config Release</div>
+</div><!-- fragment --></li>
+<li>Copy the result files from the <code>example_plugin_build/html</code> directory to your web server location. <dl class="section note"><dt>Note</dt><dd>Make sure your web server enables <a href="https://web.dev/articles/coop-coep">cross-origin isolation</a> for these files. </dd></dl>
 </li>
 </ol>
 </div></div><!-- contents -->

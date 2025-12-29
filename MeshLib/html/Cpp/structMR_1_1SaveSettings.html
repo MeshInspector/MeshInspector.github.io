@@ -155,7 +155,7 @@ $(function(){initNavTree('structMR_1_1SaveSettings.html',''); initResizable(true
 <p>determines how to save points/lines/mesh  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRMesh_2MRSaveSettings_8h_source.html">MRSaveSettings.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRSaveSettings_8h_source.html">MRSaveSettings.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::SaveSettings:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -184,11 +184,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a71c2ed63cb6a101dbd9b47f8ca9898fd" id="r_a71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="memItemLeft" align="right" valign="top">const VertUVCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c2ed63cb6a101dbd9b47f8ca9898fd">uvMap</a> = nullptr</td></tr>
 <tr class="memdesc:a71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex uv coordinate to save with the geometry  <br /></td></tr>
 <tr class="separator:a71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0798760baa0755ad37dde251b754b9d" id="r_ac0798760baa0755ad37dde251b754b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0798760baa0755ad37dde251b754b9d">saveTriCornerUVCoords</a> = true</td></tr>
+<tr class="separator:ac0798760baa0755ad37dde251b754b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cd4cf82acb2f094f43f785282fcb76a" id="r_a0cd4cf82acb2f094f43f785282fcb76a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cd4cf82acb2f094f43f785282fcb76a">texture</a> = nullptr</td></tr>
 <tr class="memdesc:a0cd4cf82acb2f094f43f785282fcb76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional texture to save with the geometry  <br /></td></tr>
 <tr class="separator:a0cd4cf82acb2f094f43f785282fcb76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3614a6ca71783b2dd64369d4f122ee69" id="r_a3614a6ca71783b2dd64369d4f122ee69"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3614a6ca71783b2dd64369d4f122ee69">materialName</a> = &quot;Default&quot;</td></tr>
-<tr class="memdesc:a3614a6ca71783b2dd64369d4f122ee69"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to save texture and material in some formats (obj)  <br /></td></tr>
+<tr class="memdesc:a3614a6ca71783b2dd64369d4f122ee69"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY)  <br /></td></tr>
 <tr class="separator:a3614a6ca71783b2dd64369d4f122ee69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a972e4972bf3626cb56f22c55b69cccc0" id="r_a972e4972bf3626cb56f22c55b69cccc0"><td class="memItemLeft" align="right" valign="top">const AffineXf3d *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a972e4972bf3626cb56f22c55b69cccc0">xf</a> = nullptr</td></tr>
 <tr class="memdesc:a972e4972bf3626cb56f22c55b69cccc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this transformation can optionally be applied to all vertices (points) of saved object  <br /></td></tr>
@@ -250,7 +252,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>used to save texture and material in some formats (obj) </p>
+<p>the name of file without extension to save texture in some formats (e.g. .OBJ, .PLY) </p>
 
 </div>
 </div>
@@ -313,6 +315,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>to report save progress and cancel saving if user desires </p>
+
+</div>
+</div>
+<a id="ac0798760baa0755ad37dde251b754b9d" name="ac0798760baa0755ad37dde251b754b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0798760baa0755ad37dde251b754b9d">&#9670;&#160;</a></span>saveTriCornerUVCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SaveSettings::saveTriCornerUVCoords = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </p>
 
 </div>
 </div>
@@ -381,7 +398,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMesh_2MRSaveSettings_8h_source.html">MRMesh/MRSaveSettings.h</a></li>
+<li><a class="el" href="MRSaveSettings_8h_source.html">MRSaveSettings.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

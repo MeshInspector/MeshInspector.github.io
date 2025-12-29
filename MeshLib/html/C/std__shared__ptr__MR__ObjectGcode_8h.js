@@ -1,11 +1,17 @@
 var std__shared__ptr__MR__ObjectGcode_8h =
 [
     [ "MR_ObjectGcode", "std__shared__ptr__MR__ObjectGcode_8h.html#af23a4f0a386adc3ab051268483b937da", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__MR__ObjectGcode_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode", "std__shared__ptr__MR__ObjectGcode_8h.html#a1f869d74315185b1af007bfe2e6bee69", null ],
+    [ "MR_std_shared_ptr_void", "std__shared__ptr__MR__ObjectGcode_8h.html#a72ecd40cc21861923965148fd782317e", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_Assign", "std__shared__ptr__MR__ObjectGcode_8h.html#a5155b49373cc0629e73bb356d036dde0", null ],
+    [ "MR_std_shared_ptr_MR_ObjectGcode_AssignAliasing", "std__shared__ptr__MR__ObjectGcode_8h.html#a13c9556ddc4762d052effc6d3892b19e", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_AssignFromAnother", "std__shared__ptr__MR__ObjectGcode_8h.html#afce05035a7fd442dffbb6912dfd6c30f", null ],
-    [ "MR_std_shared_ptr_MR_ObjectGcode_Construct", "std__shared__ptr__MR__ObjectGcode_8h.html#a69a4155f07b3e168309878f0e0fba67a", null ],
+    [ "MR_std_shared_ptr_MR_ObjectGcode_AssignNonOwning", "std__shared__ptr__MR__ObjectGcode_8h.html#a207e2721d3b5fb42d3aac0c8876b5f97", null ],
+    [ "MR_std_shared_ptr_MR_ObjectGcode_Construct", "std__shared__ptr__MR__ObjectGcode_8h.html#ad81f8c1afbec31657ec4984c104b14bc", null ],
+    [ "MR_std_shared_ptr_MR_ObjectGcode_ConstructAliasing", "std__shared__ptr__MR__ObjectGcode_8h.html#a74413ac640c0602c8b94c917094bffa8", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_ConstructFromAnother", "std__shared__ptr__MR__ObjectGcode_8h.html#a666687addd09e0e73b2e393c94afb266", null ],
+    [ "MR_std_shared_ptr_MR_ObjectGcode_ConstructNonOwning", "std__shared__ptr__MR__ObjectGcode_8h.html#adbdbad98a17f05b9a12e9ad4e00be843", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_DefaultConstruct", "std__shared__ptr__MR__ObjectGcode_8h.html#aa1fd25189c946c66119e789a10a3105e", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_DefaultConstructArray", "std__shared__ptr__MR__ObjectGcode_8h.html#ac4b2a1422744cea71ba3cb14cbe25986", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_Destroy", "std__shared__ptr__MR__ObjectGcode_8h.html#a0572d972b71c58be4323ba617717fe8b", null ],
@@ -13,5 +19,7 @@ var std__shared__ptr__MR__ObjectGcode_8h =
     [ "MR_std_shared_ptr_MR_ObjectGcode_Get", "std__shared__ptr__MR__ObjectGcode_8h.html#af195a41921f36bd19ade7e07e3c856a2", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_OffsetMutablePtr", "std__shared__ptr__MR__ObjectGcode_8h.html#a1450a33cd63fff5e2005c449d56ca91e", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode_OffsetPtr", "std__shared__ptr__MR__ObjectGcode_8h.html#ad40581e2efe135097794b0d212ae037e", null ],
-    [ "MR_std_shared_ptr_MR_ObjectGcode_UseCount", "std__shared__ptr__MR__ObjectGcode_8h.html#aa667d9bf3e9af207c516c3f6d471c779", null ]
+    [ "MR_std_shared_ptr_MR_ObjectGcode_UseCount", "std__shared__ptr__MR__ObjectGcode_8h.html#aa667d9bf3e9af207c516c3f6d471c779", null ],
+    [ "MR_std_shared_ptr_void_AssignFrom_MR_std_shared_ptr_MR_ObjectGcode", "std__shared__ptr__MR__ObjectGcode_8h.html#a2546ee70187b3b1dd4330f064d993be3", null ],
+    [ "MR_std_shared_ptr_void_ConstructFrom_MR_std_shared_ptr_MR_ObjectGcode", "std__shared__ptr__MR__ObjectGcode_8h.html#a6e365494db6a47b0e14748e3a5b66ff2", null ]
 ];

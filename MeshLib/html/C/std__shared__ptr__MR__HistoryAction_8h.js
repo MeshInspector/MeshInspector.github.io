@@ -1,11 +1,17 @@
 var std__shared__ptr__MR__HistoryAction_8h =
 [
     [ "MR_HistoryAction", "std__shared__ptr__MR__HistoryAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
+    [ "MR_std_shared_ptr_const_void", "std__shared__ptr__MR__HistoryAction_8h.html#a5d8e57a51abfe75997ff52102a20bb9e", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction", "std__shared__ptr__MR__HistoryAction_8h.html#aea6f4c1b17ee8ba078b28e0b4cefcd32", null ],
+    [ "MR_std_shared_ptr_void", "std__shared__ptr__MR__HistoryAction_8h.html#a72ecd40cc21861923965148fd782317e", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_Assign", "std__shared__ptr__MR__HistoryAction_8h.html#a5093562c64043eb6bba90a985dd5f622", null ],
+    [ "MR_std_shared_ptr_MR_HistoryAction_AssignAliasing", "std__shared__ptr__MR__HistoryAction_8h.html#a4796ff2d3649e9cba7df2b36143a0ce5", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_AssignFromAnother", "std__shared__ptr__MR__HistoryAction_8h.html#afeef1aa7bdc83c4cd5e239134fb2fc94", null ],
-    [ "MR_std_shared_ptr_MR_HistoryAction_Construct", "std__shared__ptr__MR__HistoryAction_8h.html#ab71765fd16afc9b4cfea41d28395dcf4", null ],
+    [ "MR_std_shared_ptr_MR_HistoryAction_AssignNonOwning", "std__shared__ptr__MR__HistoryAction_8h.html#a44fda60d0b56fb747c08bb346179902c", null ],
+    [ "MR_std_shared_ptr_MR_HistoryAction_Construct", "std__shared__ptr__MR__HistoryAction_8h.html#aa87f55be1d8f3fddfb36e4a8156db63a", null ],
+    [ "MR_std_shared_ptr_MR_HistoryAction_ConstructAliasing", "std__shared__ptr__MR__HistoryAction_8h.html#a2e9808154fb60bd47c298899aaec5b25", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_ConstructFromAnother", "std__shared__ptr__MR__HistoryAction_8h.html#a8f5829c77c95e85392424ca5ecd6c884", null ],
+    [ "MR_std_shared_ptr_MR_HistoryAction_ConstructNonOwning", "std__shared__ptr__MR__HistoryAction_8h.html#accf5ea7448bb76b4144d37af46e95f00", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_DefaultConstruct", "std__shared__ptr__MR__HistoryAction_8h.html#acdd672e8115c66f62c864d60781b6ba8", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_DefaultConstructArray", "std__shared__ptr__MR__HistoryAction_8h.html#a2f1380b3c1078392b25b0029e01f0d66", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_Destroy", "std__shared__ptr__MR__HistoryAction_8h.html#aa4431150b57e96b74670d4e4334299e5", null ],
@@ -13,5 +19,7 @@ var std__shared__ptr__MR__HistoryAction_8h =
     [ "MR_std_shared_ptr_MR_HistoryAction_Get", "std__shared__ptr__MR__HistoryAction_8h.html#a177ba812f1b2c56f109691ea7a5b7a74", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_OffsetMutablePtr", "std__shared__ptr__MR__HistoryAction_8h.html#ae511cda0ccfaa605d2d68c553f72a963", null ],
     [ "MR_std_shared_ptr_MR_HistoryAction_OffsetPtr", "std__shared__ptr__MR__HistoryAction_8h.html#a4a7817a2d245727c4b507ce4c38e11f0", null ],
-    [ "MR_std_shared_ptr_MR_HistoryAction_UseCount", "std__shared__ptr__MR__HistoryAction_8h.html#ac2acf60d6f3e3bd7f03a5894cff36f92", null ]
+    [ "MR_std_shared_ptr_MR_HistoryAction_UseCount", "std__shared__ptr__MR__HistoryAction_8h.html#ac2acf60d6f3e3bd7f03a5894cff36f92", null ],
+    [ "MR_std_shared_ptr_void_AssignFrom_MR_std_shared_ptr_MR_HistoryAction", "std__shared__ptr__MR__HistoryAction_8h.html#ac93bddb391bc21a56054cc23144e7095", null ],
+    [ "MR_std_shared_ptr_void_ConstructFrom_MR_std_shared_ptr_MR_HistoryAction", "std__shared__ptr__MR__HistoryAction_8h.html#a8090d34a7a693409fa20c89360ed0e3b", null ]
 ];

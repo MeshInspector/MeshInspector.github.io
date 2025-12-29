@@ -9,9 +9,6 @@ var MRTriangleIntersection_8h =
     [ "findTriangleTriangleIntersection", "MRTriangleIntersection_8h.html#ga07dcacdb0aa89291cef5c6fa101029a0", null ],
     [ "isPointInPlane", "MRTriangleIntersection_8h.html#ga12874ed96dd226c86c9f430e0845eae8", null ],
     [ "isPointInTriangle", "MRTriangleIntersection_8h.html#ga746d797c724c3644c060dec600b7a05a", null ],
-    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#ga00441b942b256034993915378272cc37", null ],
-    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#gaed73232a6d870938e7b209dc68abfe14", null ],
-    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#ga6d0fb992f1b478ab6245e6d6a5b47e9f", null ],
-    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#gaff70eb7ab1db8fd3d414cc2e6e9d4d67", null ],
-    [ "rayTriangleIntersect_", "MRTriangleIntersection_8h.html#ga8cb5d6b26c335c32fdc14df9907b6367", null ]
+    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#ga3835ac264c4e97d644c22d7412117309", null ],
+    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#gaf5c17228b0533759ec08bc5a2c3e45ae", null ]
 ];

@@ -69,7 +69,6 @@ var MRSymMatrix2_8h =
     [ "MR_SymMatrix2d_trace", "MRSymMatrix2_8h.html#ac8060e563d5e46911490b6e0f8152614", null ],
     [ "MR_SymMatrix2f_add_assign", "MRSymMatrix2_8h.html#a48bdcbd144320f8b28764e327ca34324", null ],
     [ "MR_SymMatrix2f_AssignFromAnother", "MRSymMatrix2_8h.html#aa67b173bb92503f05490ad8e28a8a34e", null ],
-    [ "MR_SymMatrix2f_Construct", "MRSymMatrix2_8h.html#ab8324269e73f931a31490853ffbd44ea", null ],
     [ "MR_SymMatrix2f_ConstructFromAnother", "MRSymMatrix2_8h.html#a3a93b35d460cc3bb54f77924205de5d1", null ],
     [ "MR_SymMatrix2f_DefaultConstruct", "MRSymMatrix2_8h.html#a2d8bfbd14192d993960479fe6880148c", null ],
     [ "MR_SymMatrix2f_DefaultConstructArray", "MRSymMatrix2_8h.html#aa9394697d0ea0f410bb2ca284c910559", null ],

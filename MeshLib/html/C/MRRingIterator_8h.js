@@ -46,6 +46,7 @@ var MRRingIterator_8h =
     [ "MR_RingIterator_MR_NextEdgeSameLeft_DestroyArray", "MRRingIterator_8h.html#ac00639ed5bce4c0e4ea121e3486adf15", null ],
     [ "MR_RingIterator_MR_NextEdgeSameLeft_first", "MRRingIterator_8h.html#abd38f19d5aae5a5f4645aca336b795de", null ],
     [ "MR_RingIterator_MR_NextEdgeSameLeft_MutableUpcastTo_MR_NextEdgeSameLeft", "MRRingIterator_8h.html#a1b215546f6e9bd3e6b44d909afc9e09b", null ],
+    [ "MR_RingIterator_MR_NextEdgeSameLeft_next", "MRRingIterator_8h.html#ab58aba823538bf0c4c204cff7b24fac7", null ],
     [ "MR_RingIterator_MR_NextEdgeSameLeft_OffsetMutablePtr", "MRRingIterator_8h.html#a1cc7b8c2627e013a168ab4d4783b2206", null ],
     [ "MR_RingIterator_MR_NextEdgeSameLeft_OffsetPtr", "MRRingIterator_8h.html#a8494d1bd53b05be571e61630eb573a2c", null ],
     [ "MR_RingIterator_MR_NextEdgeSameLeft_UpcastTo_MR_NextEdgeSameLeft", "MRRingIterator_8h.html#a591b1c3308642097bc6ffe9807c1a46a", null ],
@@ -56,6 +57,7 @@ var MRRingIterator_8h =
     [ "MR_RingIterator_MR_NextEdgeSameOrigin_DestroyArray", "MRRingIterator_8h.html#ad0e19890ac11a401131c1d7ee671a947", null ],
     [ "MR_RingIterator_MR_NextEdgeSameOrigin_first", "MRRingIterator_8h.html#aaaf57ffcadeb4608cc653852281b8508", null ],
     [ "MR_RingIterator_MR_NextEdgeSameOrigin_MutableUpcastTo_MR_NextEdgeSameOrigin", "MRRingIterator_8h.html#a21b7c1ff1d2249ccf755550f827d4e95", null ],
+    [ "MR_RingIterator_MR_NextEdgeSameOrigin_next", "MRRingIterator_8h.html#a64d6909573dd142c4061987f23a8bed9", null ],
     [ "MR_RingIterator_MR_NextEdgeSameOrigin_OffsetMutablePtr", "MRRingIterator_8h.html#a5517392b4c92bdac0b76d68e7f2e8729", null ],
     [ "MR_RingIterator_MR_NextEdgeSameOrigin_OffsetPtr", "MRRingIterator_8h.html#a9458f63bd395c3e7213a330c7fa96716", null ],
     [ "MR_RingIterator_MR_NextEdgeSameOrigin_UpcastTo_MR_NextEdgeSameOrigin", "MRRingIterator_8h.html#a3891370bc596c54bfd95d8e285b94e18", null ]

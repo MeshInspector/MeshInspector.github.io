@@ -6,6 +6,8 @@ var std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h =
     [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_AssignFromAnother", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#acfd03440a9fe967986cbf4833fee668e", null ],
     [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_AssignWithDataPtr", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#a9a82de051bab35c69e5556e9d4571d8a", null ],
     [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_ConstructFromAnother", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#a8c2fa53ad83f323c9861955e03be7316", null ],
+    [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_ConstructStateless", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#a96e4610d372a36006366ea589ace65e3", null ],
+    [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_ConstructWithDataPtr", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#a9933c79b055605089c00eb307b4a3793", null ],
     [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstruct", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#a983abbe985e9489b3e12a1ace050f3a4", null ],
     [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstructArray", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#a70a7d73128ebb7d9fd343a6267be5ba2", null ],
     [ "MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId_Destroy", "std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h.html#adc1147f87f82a10bb24172050eb9fb4d", null ],

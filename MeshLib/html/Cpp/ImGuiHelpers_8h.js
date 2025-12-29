@@ -41,6 +41,7 @@ var ImGuiHelpers_8h =
     [ "InputIntBitSet", "ImGuiHelpers_8h.html#acd8cc938250148aa8872b289ee37a885", null ],
     [ "InputIntValid", "ImGuiHelpers_8h.html#a4e3833bf7761da4ac20ca9397fbdbc16", null ],
     [ "InputText", "ImGuiHelpers_8h.html#a392168d28bc4973532ead37f8061121e", null ],
+    [ "isMultiViewportEnabled", "ImGuiHelpers_8h.html#a57f161b33d858badb4201fbedd7b3163", null ],
     [ "Link", "ImGuiHelpers_8h.html#aabb908deed7006b50c7ad6ec124126a7", null ],
     [ "ListBox", "ImGuiHelpers_8h.html#a378834d8803566841b144ddf878ef623", null ],
     [ "LoadSavedWindowPos", "ImGuiHelpers_8h.html#a6066bf27894061659a1b44c4daf5ca1d", null ],

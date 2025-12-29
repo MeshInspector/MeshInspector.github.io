@@ -8,8 +8,6 @@ var classmrmeshpy_1_1MeshTopology =
     [ "addPart", "classmrmeshpy_1_1MeshTopology.html#aea0d7d0627507e3e24803a48101a0aa7", null ],
     [ "addPart", "classmrmeshpy_1_1MeshTopology.html#a6f34c76ee040434f4dac53976cfc5d66", null ],
     [ "addPartByMask", "classmrmeshpy_1_1MeshTopology.html#ae8bfca91029d5359c5aac674a62691af", null ],
-    [ "addPartByMask", "classmrmeshpy_1_1MeshTopology.html#ae8bfca91029d5359c5aac674a62691af", null ],
-    [ "addPartByMask", "classmrmeshpy_1_1MeshTopology.html#ab77d96c7e53a0eecaa1e72850d559887", null ],
     [ "addPartByMask", "classmrmeshpy_1_1MeshTopology.html#ab77d96c7e53a0eecaa1e72850d559887", null ],
     [ "addVertId", "classmrmeshpy_1_1MeshTopology.html#abd2287ab64744a124b0dfd20912293d7", null ],
     [ "bdEdgeSameLeft", "classmrmeshpy_1_1MeshTopology.html#adf6f1f6b82d2e845d22523be287ea301", null ],

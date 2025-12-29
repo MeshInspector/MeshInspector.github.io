@@ -7,7 +7,7 @@ var MRChangeVoxelSelectionAction_8h =
     [ "MR_VoxelBitSet", "MRChangeVoxelSelectionAction_8h.html#a94b5f700f4835481dce132716ff73b05", null ],
     [ "MR_ChangVoxelSelectionAction_action", "MRChangeVoxelSelectionAction_8h.html#afa59fd467f0a0784d18891b8ae81d02c", null ],
     [ "MR_ChangVoxelSelectionAction_AssignFromAnother", "MRChangeVoxelSelectionAction_8h.html#aa89a1b3942ddc10a173ef48354a577cf", null ],
-    [ "MR_ChangVoxelSelectionAction_Construct", "MRChangeVoxelSelectionAction_8h.html#af5e740ae62a9b61f9a02d04ccb7275f5", null ],
+    [ "MR_ChangVoxelSelectionAction_Construct", "MRChangeVoxelSelectionAction_8h.html#a3687138e880e2d986efbb61efac7b39d", null ],
     [ "MR_ChangVoxelSelectionAction_ConstructFromAnother", "MRChangeVoxelSelectionAction_8h.html#ade372943131b7538c3b78c52b1276c09", null ],
     [ "MR_ChangVoxelSelectionAction_Destroy", "MRChangeVoxelSelectionAction_8h.html#a2bd64b90b39096768337d6d6f9173226", null ],
     [ "MR_ChangVoxelSelectionAction_DestroyArray", "MRChangeVoxelSelectionAction_8h.html#a3a71bccf4b26045d8b0865eeb13a0c64", null ],

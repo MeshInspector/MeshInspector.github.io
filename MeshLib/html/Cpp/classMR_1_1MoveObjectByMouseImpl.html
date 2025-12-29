@@ -216,6 +216,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0e1c8964e80c006d7432d351d7f71e4d" id="r_a0e1c8964e80c006d7432d351d7f71e4d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e1c8964e80c006d7432d351d7f71e4d">setCenterPoint_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, Vector3f &amp;centerPoint) const</td></tr>
 <tr class="memdesc:a0e1c8964e80c006d7432d351d7f71e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>centerPoint</code> - a point that will be used as center of rotation/scaling in world space  <br /></td></tr>
 <tr class="separator:a0e1c8964e80c006d7432d351d7f71e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66259d6115ca5e276ea745447817f0ce" id="r_a66259d6115ca5e276ea745447817f0ce"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API Plane3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66259d6115ca5e276ea745447817f0ce">calcControlPlane_</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;vp, const Vector3f &amp;viewportCenterPoint, const Vector3f &amp;xfCenterPoint) const</td></tr>
+<tr class="separator:a66259d6115ca5e276ea745447817f0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32b8f295b15b40dffc3f103110e9d1b6" id="r_a32b8f295b15b40dffc3f103110e9d1b6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32b8f295b15b40dffc3f103110e9d1b6">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects) const</td></tr>
 <tr class="separator:a32b8f295b15b40dffc3f103110e9d1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -312,6 +314,41 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a66259d6115ca5e276ea745447817f0ce" name="a66259d6115ca5e276ea745447817f0ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66259d6115ca5e276ea745447817f0ce">&#9670;&#160;</a></span>calcControlPlane_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API Plane3f MR::MoveObjectByMouseImpl::calcControlPlane_ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>viewportCenterPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xfCenterPoint</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>override this function to customize plane in which all movement will happen default: screen plane moved to <code>xfCenterPoint</code> </p>
+
+</div>
+</div>
 <a id="aad8cb7773d35560f8b4469f293cbd169" name="aad8cb7773d35560f8b4469f293cbd169"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad8cb7773d35560f8b4469f293cbd169">&#9670;&#160;</a></span>cancel()</h2>
 

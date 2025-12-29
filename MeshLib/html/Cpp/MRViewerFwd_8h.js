@@ -1,7 +1,7 @@
 var MRViewerFwd_8h =
 [
-    [ "MR_ADD_CTOR_DELETE_MOVE", "MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32", null ],
-    [ "MR_DELETE_MOVE", "MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed", null ],
+    [ "MR_ADD_CTOR_DELETE_MOVE", "MRViewerFwd_8h.html#aab87250b45207cc9942d0f5a85d6cf58", null ],
+    [ "MR_DELETE_MOVE", "MRViewerFwd_8h.html#a86f52f96ec63151904d02607a5519085", null ],
     [ "ConstObjAndPick", "MRViewerFwd_8h.html#a823106cad6887745b09385757b15b82e", null ],
     [ "FontAndSize", "MRViewerFwd_8h.html#a21a70f8b86cebf1f5e5b5f65c4baa936", null ],
     [ "ObjAndPick", "MRViewerFwd_8h.html#a7080d56b73b285dc9afd120e1bc1ff71", null ],

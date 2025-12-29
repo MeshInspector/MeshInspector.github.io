@@ -18,6 +18,7 @@ var structMR_1_1LaunchParams =
     [ "height", "structMR_1_1LaunchParams.html#aa761ccae3c2bc953581b4731e0ed39e4", null ],
     [ "HideInit", "structMR_1_1LaunchParams.html#adf7ca51c8109714e1b6bbe600ab207fe", null ],
     [ "isAnimating", "structMR_1_1LaunchParams.html#afc8b03eeee8947080b371a8c17c18c1f", null ],
+    [ "multiViewport", "structMR_1_1LaunchParams.html#a7ac116acae77e3053b6c660885a6c4ed", null ],
     [ "name", "structMR_1_1LaunchParams.html#ae1dc0fc994254f323bd28cbf180dffdf", null ],
     [ "preferOpenGL3", "structMR_1_1LaunchParams.html#acf3d8ea466f9852feb32b9bbf903c0d0", null ],
     [ "render3dSceneInTexture", "structMR_1_1LaunchParams.html#a05b72c90683749a3c0a7b1c0994af432", null ],

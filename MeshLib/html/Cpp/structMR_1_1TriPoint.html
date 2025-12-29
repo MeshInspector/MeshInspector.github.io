@@ -149,6 +149,7 @@ $(function(){initNavTree('structMR_1_1TriPoint.html',''); initResizable(true); }
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="structMR_1_1TriPoint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::TriPoint&lt; T &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
 </div><!--header-->
@@ -157,7 +158,7 @@ $(function(){initNavTree('structMR_1_1TriPoint.html',''); initResizable(true); }
 <p>encodes a point inside a triangle using barycentric coordinates  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRMesh_2MRTriPoint_8h_source.html">MRTriPoint.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRTriPoint_8h_source.html">MRTriPoint.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -167,9 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab5b9f73c3a043a47d8d279a89d744c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3665ef8bed664d4374515106f2128c58" id="r_a3665ef8bed664d4374515106f2128c58"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3665ef8bed664d4374515106f2128c58">TriPoint</a> (T <a class="el" href="#a8b3c5d2f52bedd379a12737883685b69">a</a>, T <a class="el" href="#a7ad9a3fd75d2c4414e75599a4eb0d497">b</a>) noexcept</td></tr>
 <tr class="separator:a3665ef8bed664d4374515106f2128c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d74b356735c69b3830326e6a50b451" id="r_ae8d74b356735c69b3830326e6a50b451"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:ae8d74b356735c69b3830326e6a50b451"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae8d74b356735c69b3830326e6a50b451">TriPoint</a> (const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;s)</td></tr>
-<tr class="separator:ae8d74b356735c69b3830326e6a50b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f222148e7f6b0eb3edf6f62d6a5209e" id="r_a6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a6f222148e7f6b0eb3edf6f62d6a5209e">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>(const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;s)</td></tr>
+<tr class="separator:a6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae145ad02214aefc05be85737aa1d6cca" id="r_ae145ad02214aefc05be85737aa1d6cca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae145ad02214aefc05be85737aa1d6cca">TriPoint</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v0, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v1, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v2)</td></tr>
 <tr class="memdesc:ae145ad02214aefc05be85737aa1d6cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point  <br /></td></tr>
 <tr class="separator:ae145ad02214aefc05be85737aa1d6cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +206,13 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a6ade05d6ba59ed946b54c792822949e4" id="r_a6ade05d6ba59ed946b54c792822949e4"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ade05d6ba59ed946b54c792822949e4">eps</a> = <a class="el" href="structMR_1_1SegmPoint.html">SegmPoint</a>&lt;T&gt;::eps</td></tr>
 <tr class="separator:a6ade05d6ba59ed946b54c792822949e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a49b96d931ecbe6f88e3b838a6347d14e" id="r_a49b96d931ecbe6f88e3b838a6347d14e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b96d931ecbe6f88e3b838a6347d14e">operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
+<tr class="separator:a49b96d931ecbe6f88e3b838a6347d14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0ca13e381c0da0a32ffd38d5f8c346" id="r_aae0ca13e381c0da0a32ffd38d5f8c346"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0ca13e381c0da0a32ffd38d5f8c346">operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
+<tr class="separator:aae0ca13e381c0da0a32ffd38d5f8c346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -212,7 +220,7 @@ struct MR::TriPoint&lt; T &gt;</div><p>encodes a point inside a triangle using b
 <p>Notations used below: v0, v1, v2 - points of the triangle </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a173bd5baa937f72d4e42901d913f3ff3" name="a173bd5baa937f72d4e42901d913f3ff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a173bd5baa937f72d4e42901d913f3ff3">&#9670;&#160;</a></span>TriPoint() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a173bd5baa937f72d4e42901d913f3ff3">&#9670;&#160;</a></span>TriPoint() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +247,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ab5b9f73c3a043a47d8d279a89d744c5d" name="ab5b9f73c3a043a47d8d279a89d744c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5b9f73c3a043a47d8d279a89d744c5d">&#9670;&#160;</a></span>TriPoint() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b9f73c3a043a47d8d279a89d744c5d">&#9670;&#160;</a></span>TriPoint() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +274,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a3665ef8bed664d4374515106f2128c58" name="a3665ef8bed664d4374515106f2128c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3665ef8bed664d4374515106f2128c58">&#9670;&#160;</a></span>TriPoint() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3665ef8bed664d4374515106f2128c58">&#9670;&#160;</a></span>TriPoint() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,37 +304,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ae8d74b356735c69b3830326e6a50b451" name="ae8d74b356735c69b3830326e6a50b451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8d74b356735c69b3830326e6a50b451">&#9670;&#160;</a></span>TriPoint() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1TriPoint.html">MR::TriPoint</a>&lt; T &gt;::TriPoint </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae145ad02214aefc05be85737aa1d6cca" name="ae145ad02214aefc05be85737aa1d6cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae145ad02214aefc05be85737aa1d6cca">&#9670;&#160;</a></span>TriPoint() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae145ad02214aefc05be85737aa1d6cca">&#9670;&#160;</a></span>TriPoint() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,7 +348,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a38305f3769604953fbac39b9fa79f6bc" name="a38305f3769604953fbac39b9fa79f6bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38305f3769604953fbac39b9fa79f6bc">&#9670;&#160;</a></span>TriPoint() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a38305f3769604953fbac39b9fa79f6bc">&#9670;&#160;</a></span>TriPoint() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,6 +476,35 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a6f222148e7f6b0eb3edf6f62d6a5209e" name="a6f222148e7f6b0eb3edf6f62d6a5209e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f222148e7f6b0eb3edf6f62d6a5209e">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriPoint.html">MR::TriPoint</a>&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED </td>
+          <td>(</td>
+          <td class="paramtype">!std::is_same_v&lt; T, U &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8cc175bbb2037eebe6e8f2ced01a4b10" name="a8cc175bbb2037eebe6e8f2ced01a4b10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cc175bbb2037eebe6e8f2ced01a4b10">&#9670;&#160;</a></span>onEdge()</h2>
 
@@ -551,6 +559,69 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if two points have equal (a,b) representation </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="a49b96d931ecbe6f88e3b838a6347d14e" name="a49b96d931ecbe6f88e3b838a6347d14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b96d931ecbe6f88e3b838a6347d14e">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tp</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae0ca13e381c0da0a32ffd38d5f8c346" name="aae0ca13e381c0da0a32ffd38d5f8c346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0ca13e381c0da0a32ffd38d5f8c346">&#9670;&#160;</a></span>operator&gt;&gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tp</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -617,7 +688,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMesh_2MRTriPoint_8h_source.html">MRMesh/MRTriPoint.h</a></li>
+<li><a class="el" href="MRTriPoint_8h_source.html">MRTriPoint.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

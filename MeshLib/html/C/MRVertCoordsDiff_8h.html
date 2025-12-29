@@ -223,7 +223,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>this object stores a difference between two vectors with 3D coordinates</p>
-<p>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code>. </p>
+<p>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -242,7 +242,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if this object does contain some difference in point coordinates; if (from) vector has just more points and the common elements are the same, then the method will return false since nothing is stored here Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code> named <code>any</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if this object does contain some difference in point coordinates; if (from) vector has just more points and the common elements are the same, then the method will return false since nothing is stored here Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html#a5f175f350625d742580210d6aeda32e8">MR::VertCoordsDiff::any</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given vector-from on input converts it in vector-to, this object is updated to become the reverse difference from original vector-to to original vector-from Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code> named <code>applyAndSwap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. </p>
+<p>given vector-from on input converts it in vector-to, this object is updated to become the reverse difference from original vector-to to original vector-from Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html#acd8d214b41c3bbf6d29b72f1a3d03e2b">MR::VertCoordsDiff::applyAndSwap</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -291,7 +291,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::VertCoordsDiff::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the difference, that can be applied to vector-from in order to get vector-to Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae616a7794b9be1b838291447889c3d00" title="Destroys a heap-allocated instance of MR_VertCoordsDiff. Does nothing if the pointer is null.">MR_VertCoordsDiff_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the difference, that can be applied to vector-from in order to get vector-to Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html#afa80c539d783f275a194ae8f5202647e">MR::VertCoordsDiff::VertCoordsDiff</a></code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae616a7794b9be1b838291447889c3d00" title="Destroys a heap-allocated instance of MR_VertCoordsDiff. Does nothing if the pointer is null.">MR_VertCoordsDiff_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae616a7794b9be1b838291447889c3d00" title="Destroys a heap-allocated instance of MR_VertCoordsDiff. Does nothing if the pointer is null.">MR_VertCoordsDiff_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html#afa80c539d783f275a194ae8f5202647e">MR::VertCoordsDiff::VertCoordsDiff</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae616a7794b9be1b838291447889c3d00" title="Destroys a heap-allocated instance of MR_VertCoordsDiff. Does nothing if the pointer is null.">MR_VertCoordsDiff_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -427,7 +427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html">MR::VertCoordsDiff</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VertCoordsDiff.html#a91f5877a46b424d1a68ecb23025a2a27">MR::VertCoordsDiff::heapBytes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

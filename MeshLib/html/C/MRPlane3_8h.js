@@ -2,6 +2,10 @@ var MRPlane3_8h =
 [
     [ "MR_Plane3d", "MRPlane3_8h.html#a47c990e52774bc8bd9e02d71ca3a353b", null ],
     [ "MR_Plane3f", "MRPlane3_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
+    [ "MR_std_istream", "MRPlane3_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
+    [ "MR_std_ostream", "MRPlane3_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
+    [ "MR_input_MR_Plane3d", "MRPlane3_8h.html#aa6e0ea07c380ae48b0d3d655a5ba31ea", null ],
+    [ "MR_input_MR_Plane3f", "MRPlane3_8h.html#a6c6ce1c312c8370942ebc59f8a0f7ec4", null ],
     [ "MR_neg_MR_Plane3d", "MRPlane3_8h.html#a23a39c97fb89286ee4e334b32a2b166f", null ],
     [ "MR_neg_MR_Plane3f", "MRPlane3_8h.html#af20a73df7c02ef3c38aebd6d345b4c39", null ],
     [ "MR_Plane3d_AssignFromAnother", "MRPlane3_8h.html#a817a8e3ab69835026b97a7241170903f", null ],
@@ -27,7 +31,6 @@ var MRPlane3_8h =
     [ "MR_Plane3f_AssignFromAnother", "MRPlane3_8h.html#accb58b54961ab128f9a11249dfd7fe66", null ],
     [ "MR_Plane3f_Construct", "MRPlane3_8h.html#aad5763d77bd350ba7555d9c63f15845c", null ],
     [ "MR_Plane3f_Construct_double", "MRPlane3_8h.html#ab6d4bcca5ba5787986cd6d976807eb2e", null ],
-    [ "MR_Plane3f_Construct_float", "MRPlane3_8h.html#af735f78e6c600417b336ea83e3494bd5", null ],
     [ "MR_Plane3f_ConstructFromAnother", "MRPlane3_8h.html#a31af7e2904042e205333fdd23e9c91f4", null ],
     [ "MR_Plane3f_DefaultConstruct", "MRPlane3_8h.html#a8efb53a603d6e77e6fe7ed7b564f828b", null ],
     [ "MR_Plane3f_DefaultConstructArray", "MRPlane3_8h.html#a13963b7bfc0e9c2e81e6acdd4f02e934", null ],
@@ -46,5 +49,7 @@ var MRPlane3_8h =
     [ "MR_Plane3f_Set_d", "MRPlane3_8h.html#aebf371e9cf3ac5d10432968c68318502", null ],
     [ "MR_Plane3f_Set_n", "MRPlane3_8h.html#aca3dd1d71a77b47af1b41fb051154d9e", null ],
     [ "MR_pos_MR_Plane3d", "MRPlane3_8h.html#a03772356aa3a28c173be49ed2509fb5a", null ],
-    [ "MR_pos_MR_Plane3f", "MRPlane3_8h.html#a118c8760034ea30bebb058b1d1e94ee9", null ]
+    [ "MR_pos_MR_Plane3f", "MRPlane3_8h.html#a118c8760034ea30bebb058b1d1e94ee9", null ],
+    [ "MR_print_MR_Plane3d", "MRPlane3_8h.html#abfb9600c3a6c6aa2dc5d3047b5748dd3", null ],
+    [ "MR_print_MR_Plane3f", "MRPlane3_8h.html#ade87140c2d16a13db328a6cf4b2d4bdb", null ]
 ];

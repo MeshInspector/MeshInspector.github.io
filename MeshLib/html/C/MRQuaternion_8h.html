@@ -357,7 +357,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents a quaternion following the notations from <a href="https://en.wikipedia.org/wiki/Quaternion">https://en.wikipedia.org/wiki/Quaternion</a> Generated from class <code>MR::Quaterniond</code>. real part of the quaternion Returns a pointer to a member variable of class <code>MR::Quaternionf</code> named <code>a</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Represents a quaternion following the notations from <a href="https://en.wikipedia.org/wiki/Quaternion">https://en.wikipedia.org/wiki/Quaternion</a> Generated from class <code>MR::Quaterniond</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). real part of the quaternion Returns a pointer to a member variable of class <code>MR::Quaternionf</code> named <code>a</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -372,7 +372,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents a quaternion following the notations from <a href="https://en.wikipedia.org/wiki/Quaternion">https://en.wikipedia.org/wiki/Quaternion</a> Generated from class <code>MR::Quaternionf</code>. </p>
+<p>Represents a quaternion following the notations from <a href="https://en.wikipedia.org/wiki/Quaternion">https://en.wikipedia.org/wiki/Quaternion</a> Generated from class <code>MR::Quaternionf</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -391,7 +391,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle Generated from a method of class <code>MR::Quaterniond</code> named <code>operator-</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle Generated from method <code>MR::Quaterniond::operator-</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -409,7 +409,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle Generated from a method of class <code>MR::Quaternionf</code> named <code>operator-</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle Generated from method <code>MR::Quaternionf::operator-</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -427,7 +427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns angle of rotation encoded in this quaternion Generated from a method of class <code>MR::Quaterniond</code> named <code>angle</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns angle of rotation encoded in this quaternion Generated from method <code>MR::Quaterniond::angle</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -449,7 +449,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaterniond</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::Quaterniond::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns axis of rotation encoded in this quaternion Generated from a method of class <code>MR::Quaterniond</code> named <code>axis</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns axis of rotation encoded in this quaternion Generated from method <code>MR::Quaterniond::axis</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -489,7 +489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for unit quaternion returns the rotation of point p, which is faster to compute for single point; for multiple points it is faster to create matrix representation and apply it to the points Generated from a method of class <code>MR::Quaterniond</code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p</code> can not be null. It is a single object. </p>
+<p>for unit quaternion returns the rotation of point p, which is faster to compute for single point; for multiple points it is faster to create matrix representation and apply it to the points Generated from method <code>MR::Quaterniond::operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -507,7 +507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes conjugate quaternion, which for unit quaternions encodes the opposite rotation Generated from a method of class <code>MR::Quaterniond</code> named <code>conjugate</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes conjugate quaternion, which for unit quaternions encodes the opposite rotation Generated from method <code>MR::Quaterniond::conjugate</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -525,7 +525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaterniond</code>. Parameter <code>m</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaterniond::Quaterniond</code>. Parameter <code>m</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -547,7 +547,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds shorter arc rotation quaternion from one vector to another Generated from a constructor of class <code>MR::Quaterniond</code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds shorter arc rotation quaternion from one vector to another Generated from constructor <code>MR::Quaterniond::Quaterniond</code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -569,7 +569,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaterniond</code>. Parameter <code>im</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaterniond::Quaterniond</code>. Parameter <code>im</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -601,7 +601,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaterniond</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaterniond::Quaterniond</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -619,7 +619,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaterniond</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaterniond::Quaterniond</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -637,7 +637,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts this into 3x3 rotation matrix Generated from a conversion operator of class <code>MR::Quaterniond</code> to type <code>MR::Matrix3d</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>converts this into 3x3 rotation matrix Generated from conversion operator <code>MR::Quaterniond::operator MR::Matrix3d</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -733,7 +733,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaterniond</code> named <code>operator/=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::Quaterniond::operator/=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -894,7 +894,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns imaginary part of the quaternion as a vector Generated from a method of class <code>MR::Quaterniond</code> named <code>im</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns imaginary part of the quaternion as a vector Generated from method <code>MR::Quaterniond::im</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -912,7 +912,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes reciprocal quaternion Generated from a method of class <code>MR::Quaterniond</code> named <code>inverse</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes reciprocal quaternion Generated from method <code>MR::Quaterniond::inverse</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -939,7 +939,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion Generated from a method of class <code>MR::Quaterniond</code> named <code>lerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion Generated from method <code>MR::Quaterniond::lerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -961,7 +961,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaterniond</code> named <code>operator*=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::Quaterniond::operator*=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -979,7 +979,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaterniond</code> named <code>norm</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::Quaterniond::norm</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -997,7 +997,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>scales this quaternion to make its norm unit Generated from a method of class <code>MR::Quaterniond</code> named <code>normalize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>scales this quaternion to make its norm unit Generated from method <code>MR::Quaterniond::normalize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1015,7 +1015,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaterniond</code> named <code>normalized</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from method <code>MR::Quaterniond::normalized</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1033,7 +1033,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaterniond</code> named <code>normSq</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::Quaterniond::normSq</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1194,7 +1194,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix Generated from a method of class <code>MR::Quaterniond</code> named <code>slerp</code>. Parameter <code>m0</code> can not be null. It is a single object. Parameter <code>m1</code> can not be null. It is a single object. </p>
+<p>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix Generated from method <code>MR::Quaterniond::slerp</code>. Parameter <code>m0</code> can not be null. It is a single object. Parameter <code>m1</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1221,7 +1221,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion Generated from a method of class <code>MR::Quaterniond</code> named <code>slerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion Generated from method <code>MR::Quaterniond::slerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2dd656cee5acb961b954d1ca272b9fb1" title="Destroys a heap-allocated instance of MR_Quaterniond. Does nothing if the pointer is null.">MR_Quaterniond_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1253,7 +1253,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation; p is the only point that will have straight line movement during interpolation Generated from a method of class <code>MR::Quaterniond</code> named <code>slerp</code>. Parameter <code>xf0</code> can not be null. It is a single object. Parameter <code>xf1</code> can not be null. It is a single object. Parameter <code>p</code> is a single object. Parameter <code>p</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation; p is the only point that will have straight line movement during interpolation Generated from method <code>MR::Quaterniond::slerp</code>. Parameter <code>xf0</code> can not be null. It is a single object. Parameter <code>xf1</code> can not be null. It is a single object. Parameter <code>p</code> is a single object. Parameter <code>p</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1271,7 +1271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns angle of rotation encoded in this quaternion Generated from a method of class <code>MR::Quaternionf</code> named <code>angle</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns angle of rotation encoded in this quaternion Generated from method <code>MR::Quaternionf::angle</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1293,7 +1293,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaternionf</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::Quaternionf::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1311,7 +1311,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns axis of rotation encoded in this quaternion Generated from a method of class <code>MR::Quaternionf</code> named <code>axis</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns axis of rotation encoded in this quaternion Generated from method <code>MR::Quaternionf::axis</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1333,7 +1333,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for unit quaternion returns the rotation of point p, which is faster to compute for single point; for multiple points it is faster to create matrix representation and apply it to the points Generated from a method of class <code>MR::Quaternionf</code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p</code> can not be null. It is a single object. </p>
+<p>for unit quaternion returns the rotation of point p, which is faster to compute for single point; for multiple points it is faster to create matrix representation and apply it to the points Generated from method <code>MR::Quaternionf::operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>p</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1351,7 +1351,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes conjugate quaternion, which for unit quaternions encodes the opposite rotation Generated from a method of class <code>MR::Quaternionf</code> named <code>conjugate</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes conjugate quaternion, which for unit quaternions encodes the opposite rotation Generated from method <code>MR::Quaternionf::conjugate</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1369,7 +1369,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaternionf</code>. Parameter <code>m</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaternionf::Quaternionf</code>. Parameter <code>m</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1391,7 +1391,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds shorter arc rotation quaternion from one vector to another Generated from a constructor of class <code>MR::Quaternionf</code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds shorter arc rotation quaternion from one vector to another Generated from constructor <code>MR::Quaternionf::Quaternionf</code>. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>to</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1413,7 +1413,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaternionf</code>. Parameter <code>im</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaternionf::Quaternionf</code>. Parameter <code>im</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1445,7 +1445,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaternionf</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaternionf::Quaternionf</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1463,7 +1463,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code>MR::Quaternionf</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Quaternionf::Quaternionf</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1481,7 +1481,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts this into 3x3 rotation matrix Generated from a conversion operator of class <code>MR::Quaternionf</code> to type <code>MR::Matrix3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>converts this into 3x3 rotation matrix Generated from conversion operator <code>MR::Quaternionf::operator MR::Matrix3f</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1577,7 +1577,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaternionf</code> named <code>operator/=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. real part of the quaternion Returns a pointer to a member variable of class <code>MR::Quaterniond</code> named <code>a</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::Quaternionf::operator/=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. real part of the quaternion Returns a pointer to a member variable of class <code>MR::Quaterniond</code> named <code>a</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1738,7 +1738,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns imaginary part of the quaternion as a vector Generated from a method of class <code>MR::Quaternionf</code> named <code>im</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns imaginary part of the quaternion as a vector Generated from method <code>MR::Quaternionf::im</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1756,7 +1756,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes reciprocal quaternion Generated from a method of class <code>MR::Quaternionf</code> named <code>inverse</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes reciprocal quaternion Generated from method <code>MR::Quaternionf::inverse</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1783,7 +1783,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion Generated from a method of class <code>MR::Quaternionf</code> named <code>lerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion Generated from method <code>MR::Quaternionf::lerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1805,7 +1805,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaternionf</code> named <code>operator*=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::Quaternionf::operator*=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1823,7 +1823,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaternionf</code> named <code>norm</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::Quaternionf::norm</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1841,7 +1841,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>scales this quaternion to make its norm unit Generated from a method of class <code>MR::Quaternionf</code> named <code>normalize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>scales this quaternion to make its norm unit Generated from method <code>MR::Quaternionf::normalize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1859,7 +1859,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaternionf</code> named <code>normalized</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from method <code>MR::Quaternionf::normalized</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1877,7 +1877,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::Quaternionf</code> named <code>normSq</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::Quaternionf::normSq</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2038,7 +2038,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix Generated from a method of class <code>MR::Quaternionf</code> named <code>slerp</code>. Parameter <code>m0</code> can not be null. It is a single object. Parameter <code>m1</code> can not be null. It is a single object. </p>
+<p>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix Generated from method <code>MR::Quaternionf::slerp</code>. Parameter <code>m0</code> can not be null. It is a single object. Parameter <code>m1</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2065,7 +2065,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion Generated from a method of class <code>MR::Quaternionf</code> named <code>slerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion Generated from method <code>MR::Quaternionf::slerp</code>. Parameter <code>q0</code> can not be null. It is a single object. Parameter <code>q1</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9107731f0a47f2ce4941bf72eb277396" title="Destroys a heap-allocated instance of MR_Quaternionf. Does nothing if the pointer is null.">MR_Quaternionf_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2097,7 +2097,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation; p is the only point that will have straight line movement during interpolation Generated from a method of class <code>MR::Quaternionf</code> named <code>slerp</code>. Parameter <code>xf0</code> can not be null. It is a single object. Parameter <code>xf1</code> can not be null. It is a single object. Parameter <code>p</code> is a single object. Parameter <code>p</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation; p is the only point that will have straight line movement during interpolation Generated from method <code>MR::Quaternionf::slerp</code>. Parameter <code>xf0</code> can not be null. It is a single object. Parameter <code>xf1</code> can not be null. It is a single object. Parameter <code>p</code> is a single object. Parameter <code>p</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>

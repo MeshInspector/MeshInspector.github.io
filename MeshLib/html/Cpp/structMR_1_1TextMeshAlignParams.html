@@ -168,20 +168,27 @@ $(function(){initNavTree('structMR_1_1TextMeshAlignParams.html',''); initResizab
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2b0fa04ea63d4e6994fb1b7e4ae55ee5" id="r_a2b0fa04ea63d4e6994fb1b7e4ae55ee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b0fa04ea63d4e6994fb1b7e4ae55ee5">startPoint</a></td></tr>
+<tr class="memdesc:a2b0fa04ea63d4e6994fb1b7e4ae55ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position on mesh, where text's pivot point is mapped.  <br /></td></tr>
 <tr class="separator:a2b0fa04ea63d4e6994fb1b7e4ae55ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af917f5ff67df027c6d4b028e6a1de41f" id="r_af917f5ff67df027c6d4b028e6a1de41f"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af917f5ff67df027c6d4b028e6a1de41f">pivotPoint</a> {0.0f, 0.0f}</td></tr>
 <tr class="separator:af917f5ff67df027c6d4b028e6a1de41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414e391a4aef8d9ffc82bdd050a469aa" id="r_a414e391a4aef8d9ffc82bdd050a469aa"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a414e391a4aef8d9ffc82bdd050a469aa">direction</a></td></tr>
+<tr class="memdesc:a414e391a4aef8d9ffc82bdd050a469aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction of text, must be not zero.  <br /></td></tr>
 <tr class="separator:a414e391a4aef8d9ffc82bdd050a469aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e66f8a73876d514551ec9d621f7f82c" id="r_a1e66f8a73876d514551ec9d621f7f82c"><td class="memItemLeft" align="right" valign="top">const Vector3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e66f8a73876d514551ec9d621f7f82c">textNormal</a> {nullptr}</td></tr>
+<tr class="memdesc:a1e66f8a73876d514551ec9d621f7f82c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text normal to surface, if nullptr - use mesh normal at <code>startPoint</code>  <br /></td></tr>
 <tr class="separator:a1e66f8a73876d514551ec9d621f7f82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad27e2080a08870070e02bdcfa3d2c736" id="r_ad27e2080a08870070e02bdcfa3d2c736"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad27e2080a08870070e02bdcfa3d2c736">fontHeight</a> {1.0f}</td></tr>
+<tr class="memdesc:ad27e2080a08870070e02bdcfa3d2c736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font height, meters.  <br /></td></tr>
 <tr class="separator:ad27e2080a08870070e02bdcfa3d2c736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad309350466777ef5beda3e012bc43222" id="r_ad309350466777ef5beda3e012bc43222"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad309350466777ef5beda3e012bc43222">surfaceOffset</a> {1.0f}</td></tr>
+<tr class="memdesc:ad309350466777ef5beda3e012bc43222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text mesh inside and outside offset of input mesh.  <br /></td></tr>
 <tr class="separator:ad309350466777ef5beda3e012bc43222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba750f8cdad04940e2d9871e488b5463" id="r_aba750f8cdad04940e2d9871e488b5463"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba750f8cdad04940e2d9871e488b5463">textMaximumMovement</a> {2.5f}</td></tr>
+<tr class="memdesc:aba750f8cdad04940e2d9871e488b5463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum possible movement of text mesh alignment, meters.  <br /></td></tr>
 <tr class="separator:aba750f8cdad04940e2d9871e488b5463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f2ea74bc141db0ff0a27c42f9115461" id="r_a2f2ea74bc141db0ff0a27c42f9115461"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2ea74bc141db0ff0a27c42f9115461">fontBasedSizeCalc</a> { false }</td></tr>
+<tr class="memdesc:a2f2ea74bc141db0ff0a27c42f9115461"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text.  <br /></td></tr>
 <tr class="separator:a2f2ea74bc141db0ff0a27c42f9115461"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1SymbolMeshParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1SymbolMeshParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></td></tr>
 <tr class="memitem:acb1fbf339bac28e29347e8a59589b28b inherit pub_attribs_structMR_1_1SymbolMeshParams" id="r_acb1fbf339bac28e29347e8a59589b28b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b">text</a></td></tr>
@@ -216,6 +223,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Direction of text, must be not zero. </p>
+
 </div>
 </div>
 <a id="a2f2ea74bc141db0ff0a27c42f9115461" name="a2f2ea74bc141db0ff0a27c42f9115461"></a>
@@ -229,6 +238,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text. </p>
 
 </div>
 </div>
@@ -244,6 +255,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Font height, meters. </p>
+
 </div>
 </div>
 <a id="af917f5ff67df027c6d4b028e6a1de41f" name="af917f5ff67df027c6d4b028e6a1de41f"></a>
@@ -257,6 +270,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Position of the startPoint in a text bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </p>
 
 </div>
 </div>
@@ -272,6 +286,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Position on mesh, where text's pivot point is mapped. </p>
+
 </div>
 </div>
 <a id="ad309350466777ef5beda3e012bc43222" name="ad309350466777ef5beda3e012bc43222"></a>
@@ -285,6 +301,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Text mesh inside and outside offset of input mesh. </p>
 
 </div>
 </div>
@@ -300,6 +318,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Maximum possible movement of text mesh alignment, meters. </p>
+
 </div>
 </div>
 <a id="a1e66f8a73876d514551ec9d621f7f82c" name="a1e66f8a73876d514551ec9d621f7f82c"></a>
@@ -313,6 +333,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Text normal to surface, if nullptr - use mesh normal at <code>startPoint</code> </p>
 
 </div>
 </div>

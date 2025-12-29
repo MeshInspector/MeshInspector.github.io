@@ -6,7 +6,6 @@ var classmrmeshpy_1_1AABBTreePoints =
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints.html#a131df0118cd0d47f2b31354d503ea817", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints.html#a03fe770eeedb6815aaca23d624c14f13", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints.html#ad842e72d968d3a94db1de758c5e17d52", null ],
-    [ "__init__", "classmrmeshpy_1_1AABBTreePoints.html#adc5ca3efaa6a67bb64cafc1c2b12fc99", null ],
     [ "__getitem__", "classmrmeshpy_1_1AABBTreePoints.html#ad56e7c7e033786ddc912991e5ee78d9f", null ],
     [ "getBoundingBox", "classmrmeshpy_1_1AABBTreePoints.html#a06666448e4d7f01c93f62e331cfbb945", null ],
     [ "getLeafOrder", "classmrmeshpy_1_1AABBTreePoints.html#afd55e1f9a326c38c8b61cecd6b9bfc39", null ],

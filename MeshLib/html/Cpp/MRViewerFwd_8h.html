@@ -155,7 +155,7 @@ $(function(){initNavTree('MRViewerFwd_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRViewer_2config_8h_source.html">config.h</a>&quot;</code><br />
 <code>#include &quot;exports.h&quot;</code><br />
-<code>#include &lt;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRViewerFwd_8h_source.html">Go to the source code of this file.</a></p>
@@ -167,10 +167,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a13de6dbfcc4586d8d224d8ff0dd2deed" id="r_a13de6dbfcc4586d8d224d8ff0dd2deed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13de6dbfcc4586d8d224d8ff0dd2deed">MR_DELETE_MOVE</a>(ClassName)</td></tr>
-<tr class="separator:a13de6dbfcc4586d8d224d8ff0dd2deed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad67c8b227ede6f3cf9dda3c8b2232c32" id="r_ad67c8b227ede6f3cf9dda3c8b2232c32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad67c8b227ede6f3cf9dda3c8b2232c32">MR_ADD_CTOR_DELETE_MOVE</a>(ClassName)</td></tr>
-<tr class="separator:ad67c8b227ede6f3cf9dda3c8b2232c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f52f96ec63151904d02607a5519085" id="r_a86f52f96ec63151904d02607a5519085"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86f52f96ec63151904d02607a5519085">MR_DELETE_MOVE</a>(StaticClassName)</td></tr>
+<tr class="separator:a86f52f96ec63151904d02607a5519085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab87250b45207cc9942d0f5a85d6cf58" id="r_aab87250b45207cc9942d0f5a85d6cf58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab87250b45207cc9942d0f5a85d6cf58">MR_ADD_CTOR_DELETE_MOVE</a>(StaticClassName)</td></tr>
+<tr class="separator:aab87250b45207cc9942d0f5a85d6cf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -196,8 +196,8 @@ Variables</h2></td></tr>
 <tr class="separator:ad94e4d4dcae262fbf618c54cbdbdf4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad67c8b227ede6f3cf9dda3c8b2232c32" name="ad67c8b227ede6f3cf9dda3c8b2232c32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad67c8b227ede6f3cf9dda3c8b2232c32">&#9670;&#160;</a></span>MR_ADD_CTOR_DELETE_MOVE</h2>
+<a id="aab87250b45207cc9942d0f5a85d6cf58" name="aab87250b45207cc9942d0f5a85d6cf58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab87250b45207cc9942d0f5a85d6cf58">&#9670;&#160;</a></span>MR_ADD_CTOR_DELETE_MOVE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,19 +205,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">#define MR_ADD_CTOR_DELETE_MOVE</td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ClassName</em></span></td><td>)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>StaticClassName</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">ClassName()=<span class="keywordflow">default</span>;\</div>
-<div class="line">ClassName(ClassName&amp;&amp;)noexcept = delete;\</div>
-<div class="line">ClassName&amp; operator=(ClassName&amp;&amp;)noexcept = delete</div>
+<b>Value:</b><div class="fragment"><div class="line">StaticClassName()=<span class="keywordflow">default</span>;\</div>
+<div class="line">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</div>
+<div class="line">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a13de6dbfcc4586d8d224d8ff0dd2deed" name="a13de6dbfcc4586d8d224d8ff0dd2deed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13de6dbfcc4586d8d224d8ff0dd2deed">&#9670;&#160;</a></span>MR_DELETE_MOVE</h2>
+<a id="a86f52f96ec63151904d02607a5519085" name="a86f52f96ec63151904d02607a5519085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86f52f96ec63151904d02607a5519085">&#9670;&#160;</a></span>MR_DELETE_MOVE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,13 +225,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">#define MR_DELETE_MOVE</td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ClassName</em></span></td><td>)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>StaticClassName</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">ClassName(ClassName&amp;&amp;)noexcept = delete;\</div>
-<div class="line">ClassName&amp; operator=(ClassName&amp;&amp;)noexcept = delete</div>
+<b>Value:</b><div class="fragment"><div class="line">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</div>
+<div class="line">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</div>
 </div><!-- fragment -->
 </div>
 </div>

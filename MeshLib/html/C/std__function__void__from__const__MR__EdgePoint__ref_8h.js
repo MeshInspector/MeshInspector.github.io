@@ -6,6 +6,8 @@ var std__function__void__from__const__MR__EdgePoint__ref_8h =
     [ "MR_std_function_void_from_const_MR_EdgePoint_ref_AssignFromAnother", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#aed378b13d52717bab8ef847c24aee64e", null ],
     [ "MR_std_function_void_from_const_MR_EdgePoint_ref_AssignWithDataPtr", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#a99a65a02ae90a5bc961dc0b2dc85a85c", null ],
     [ "MR_std_function_void_from_const_MR_EdgePoint_ref_ConstructFromAnother", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#a1689c0b0560724e043de0a0a96bd4b17", null ],
+    [ "MR_std_function_void_from_const_MR_EdgePoint_ref_ConstructStateless", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#a7e2ec2c8abd1a2310ddc81d987a8651d", null ],
+    [ "MR_std_function_void_from_const_MR_EdgePoint_ref_ConstructWithDataPtr", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#a15c468e122df664dc139dc34e69e0420", null ],
     [ "MR_std_function_void_from_const_MR_EdgePoint_ref_DefaultConstruct", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#a482aee3a951ec48ff2f10f5470931c43", null ],
     [ "MR_std_function_void_from_const_MR_EdgePoint_ref_DefaultConstructArray", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#a992f3724f2b4331e4452c78bfb41c47f", null ],
     [ "MR_std_function_void_from_const_MR_EdgePoint_ref_Destroy", "std__function__void__from__const__MR__EdgePoint__ref_8h.html#ac09f0ab44fb0af759d01a759185bc387", null ],

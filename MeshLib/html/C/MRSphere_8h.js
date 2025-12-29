@@ -64,7 +64,6 @@ var MRSphere_8h =
     [ "MR_Sphere3d_Set_radius", "MRSphere_8h.html#afcfd538ce35ca9571d98b1a5ab9245ff", null ],
     [ "MR_Sphere3f_AssignFromAnother", "MRSphere_8h.html#a3a0b8bade9ae149fe79c7f99ef6d9bd1", null ],
     [ "MR_Sphere3f_Construct", "MRSphere_8h.html#a707d6f5e09e8af6ead7349e882cfd80d", null ],
-    [ "MR_Sphere3f_Construct_MR_Vector3f", "MRSphere_8h.html#a6c17ab624b17c546c31506baf85e415b", null ],
     [ "MR_Sphere3f_ConstructFromAnother", "MRSphere_8h.html#a78a55afed48f7780f0fc6994e0fe2da6", null ],
     [ "MR_Sphere3f_DefaultConstruct", "MRSphere_8h.html#ae929f1478cc6061d85615ce788720463", null ],
     [ "MR_Sphere3f_DefaultConstructArray", "MRSphere_8h.html#a92a664ce02cf7b3a3ad563fae0b46536", null ],
