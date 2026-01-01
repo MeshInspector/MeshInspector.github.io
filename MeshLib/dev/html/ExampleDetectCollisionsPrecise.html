@@ -290,6 +290,47 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="ttc" id="astructMR__FaceId_html"><div class="ttname"><a href="./C/structMR__FaceId.html">MR_FaceId</a></div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionPrecise {</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args) {</div>
+<div class="line">        var meshA = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.MakeUVSphere();</div>
+<div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.MakeUVSphere();</div>
+<div class="line"> </div>
+<div class="line">        meshB.Transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f.Translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f(0.1f, 0.1f, 0.1f)));</div>
+<div class="line"> </div>
+<div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
+<div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
+<div class="line"> </div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot; --- Beginning Colliding Precise Test! --- &quot;</span>);</div>
+<div class="line">        var converters = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.GetVectorConverters(meshPartA, meshPartB).ToInt;</div>
+<div class="line">        var collidingFaceEdges = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FindCollidingEdgeTrisPrecise(meshPartA, meshPartB, converters);</div>
+<div class="line"> </div>
+<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFaceEdges.Size(); i++) {</div>
+<div class="line">            var vet = collidingFaceEdges.At(i);</div>
+<div class="line">            var text = vet.IsEdgeATriB()</div>
+<div class="line">                ? $<span class="stringliteral">&quot;edgeA: {vet.Edge.Id}, triB: {vet.Tri().Id}&quot;</span></div>
+<div class="line">                : $<span class="stringliteral">&quot;triA: {vet.Tri().Id}, edgeB: {vet.Edge.Id}&quot;</span>;</div>
+<div class="line"> </div>
+<div class="line">            Console.WriteLine(text);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        var collidingFaceBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FindCollidingTriangleBitsets(meshPartA, meshPartB);</div>
+<div class="line">        var bitSet = collidingFaceBitSet.First();</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshA: {bitSet.Count()}&quot;</span>);</div>
+<div class="line">        bitSet = collidingFaceBitSet.Second();</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.Count()}&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FindCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).IsEmpty();</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Is Colliding: {isColliding}\n&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

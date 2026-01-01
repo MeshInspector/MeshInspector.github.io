@@ -329,6 +329,42 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 <div class="ttc" id="astd__vector__MR__FaceFace_8h_html_a0b7d3e3840c9833ffc1df676d2303b06"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html#a0b7d3e3840c9833ffc1df676d2303b06">MR_std_vector_MR_FaceFace_Size</a></div><div class="ttdeci">MRC_API size_t MR_std_vector_MR_FaceFace_Size(const MR_std_vector_MR_FaceFace *_this)</div></div>
 <div class="ttc" id="astd__vector__MR__FaceFace_8h_html_a305386d22acc3d2b36b99262edff3ac6"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html#a305386d22acc3d2b36b99262edff3ac6">MR_std_vector_MR_FaceFace_At</a></div><div class="ttdeci">MRC_API const MR_FaceFace * MR_std_vector_MR_FaceFace_At(const MR_std_vector_MR_FaceFace *_this, size_t i)</div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionSelf {</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args) {</div>
+<div class="line">        var mesh = <span class="keyword">new</span> MeshPart(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.MakeTorusWithSelfIntersections());</div>
+<div class="line"> </div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot; --- Beginning Colliding Self Test! --- &quot;</span>);</div>
+<div class="line">        var selfCollidingPairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FindSelfCollidingTriangles(mesh);</div>
+<div class="line">        <span class="keywordflow">if</span> (selfCollidingPairs.IsEmpty()) {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error with MR.FindSelfCollidingTriangles&quot;</span>);</div>
+<div class="line">            <span class="keywordflow">return</span>;</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        FaceFace pair; <span class="comment">// more efficient to declare outside loop</span></div>
+<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; selfCollidingPairs.Size(); i++) {</div>
+<div class="line">            pair = selfCollidingPairs.At(i);</div>
+<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;FaceA: {pair.AFace.Id} FaceB: {pair.BFace.Id}&quot;</span>); <span class="comment">// print each pair</span></div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        var selfCollidingBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FindSelfCollidingTrianglesBS(mesh);</div>
+<div class="line">        <span class="keywordflow">if</span> (!selfCollidingBitSet.Any()) {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error with MR.FindSelfCollidingTrianglesBS&quot;</span>);</div>
+<div class="line">            <span class="keywordflow">return</span>;</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;{selfCollidingBitSet.Count()} faces self-intersecting&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        var isSelfColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FindSelfCollidingTriangles(mesh).IsEmpty();</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Is self colliding: {isSelfColliding}&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
