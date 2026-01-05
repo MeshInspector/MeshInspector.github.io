@@ -128,6 +128,8 @@ var NAVTREEINDEX1 =
 "MRCombinedHistoryAction_8h_source.html":[6,0,3,0,0,1,4,62],
 "MRCommandLoop_8h.html":[6,0,3,0,0,1,10,13],
 "MRCommandLoop_8h_source.html":[6,0,3,0,0,1,10,13],
+"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h.html":[6,0,3,0,0,1,0,2,3],
+"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h_source.html":[6,0,3,0,0,1,0,2,3],
 "MRComputeBoundingBox_8h.html":[6,0,3,0,0,1,4,63],
 "MRComputeBoundingBox_8h_source.html":[6,0,3,0,0,1,4,63],
 "MRComputeVolume_8h.html":[6,0,3,0,0,1,11,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRCudaPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,1,1,9],
 "MRCudaPointsToMeshProjector_8h.html":[6,0,3,0,0,1,1,10],
 "MRCudaPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,1,10],
-"MRCudaPolyline_8h.html":[6,0,3,0,0,1,1,11],
-"MRCudaPolyline_8h_source.html":[6,0,3,0,0,1,1,11],
-"MRCudaSolarRadiation_8h.html":[6,0,3,0,0,1,1,12]
+"MRCudaPolyline_8h.html":[6,0,3,0,0,1,1,11]
 };

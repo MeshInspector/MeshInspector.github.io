@@ -706,6 +706,7 @@ var hierarchy =
         [ "MR::OpenDICOMsMenuItem", "classMR_1_1OpenDICOMsMenuItem.html", null ],
         [ "MR::OpenDirectoryMenuItem", "classMR_1_1OpenDirectoryMenuItem.html", null ],
         [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ],
+        [ "MR::RedoMenuItem", "classMR_1_1RedoMenuItem.html", null ],
         [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ],
         [ "MR::RibbonSceneHideAll", "classMR_1_1RibbonSceneHideAll.html", null ],
         [ "MR::RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", null ],
@@ -723,7 +724,8 @@ var hierarchy =
         [ "MR::SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", null ],
         [ "MR::SetViewPresetMenuItem", "classMR_1_1SetViewPresetMenuItem.html", null ],
         [ "MR::SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html", null ],
-        [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
+        [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ],
+        [ "MR::UndoMenuItem", "classMR_1_1UndoMenuItem.html", null ]
       ] ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, typename >", "classMR_1_1SceneStateAtLeastCheck.html", null ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", null ],

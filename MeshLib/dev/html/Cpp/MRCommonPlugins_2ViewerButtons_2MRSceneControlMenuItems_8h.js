@@ -1,4 +1,4 @@
-var MRSceneControlMenuItems_8h =
+var MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h =
 [
     [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", "classMR_1_1ResetSceneMenuItem" ],
     [ "MR::FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
