@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1SaveSettings.html#ab959ed916525652d563be86d30f819c9":[6,1,1,0,1,779,2],
+"classmrmeshpy_1_1SaveSettings.html#abeb98dbc79164c4ca44a5572bf87ae7c":[6,1,0,0,2,779,5],
+"classmrmeshpy_1_1SaveSettings.html#abeb98dbc79164c4ca44a5572bf87ae7c":[6,1,1,0,1,779,5],
+"classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093":[6,1,0,0,2,779,0],
+"classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093":[6,1,1,0,1,779,0],
+"classmrmeshpy_1_1SaveSettings.html#ad2aa92a9933e1da8144093512a63814f":[6,1,0,0,2,779,15],
+"classmrmeshpy_1_1SaveSettings.html#ad2aa92a9933e1da8144093512a63814f":[6,1,1,0,1,779,15],
+"classmrmeshpy_1_1SaveSettings.html#ae1c9049be74df3d1d5033225df842d1f":[6,1,0,0,2,779,6],
 "classmrmeshpy_1_1SaveSettings.html#ae1c9049be74df3d1d5033225df842d1f":[6,1,1,0,1,779,6],
 "classmrmeshpy_1_1SaveSettings.html#aebb954e2bd869408a83b791b34b2196c":[6,1,0,0,2,779,22],
 "classmrmeshpy_1_1SaveSettings.html#aebb954e2bd869408a83b791b34b2196c":[6,1,1,0,1,779,22],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1SegmPointd.html#a98584b0584a0012fc0d3441c0e6f3a5c":[6,1,1,0,1,788,2],
 "classmrmeshpy_1_1SegmPointd.html#a9f5a3cbb980fa38ea3fc8c77255ce515":[6,1,0,0,2,788,7],
 "classmrmeshpy_1_1SegmPointd.html#a9f5a3cbb980fa38ea3fc8c77255ce515":[6,1,1,0,1,788,7],
-"classmrmeshpy_1_1SegmPointd.html#ac922cf449b7eedee1fd3306c70ca6d19":[6,1,0,0,2,788,10],
-"classmrmeshpy_1_1SegmPointd.html#ac922cf449b7eedee1fd3306c70ca6d19":[6,1,1,0,1,788,10],
-"classmrmeshpy_1_1SegmPointd.html#acd851c0a20f00c39e15fa6f85fb85b08":[6,1,0,0,2,788,5],
-"classmrmeshpy_1_1SegmPointd.html#acd851c0a20f00c39e15fa6f85fb85b08":[6,1,1,0,1,788,5],
-"classmrmeshpy_1_1SegmPointd.html#aef2647c3cf6607eded322d0b62572091":[6,1,0,0,2,788,8],
-"classmrmeshpy_1_1SegmPointd.html#aef2647c3cf6607eded322d0b62572091":[6,1,1,0,1,788,8],
-"classmrmeshpy_1_1SegmPointf.html":[6,1,0,0,2,789],
-"classmrmeshpy_1_1SegmPointf.html":[6,1,1,0,1,789],
-"classmrmeshpy_1_1SegmPointf.html#a16ddb3820b9e561857044ead68fb2337":[6,1,0,0,2,789,10]
+"classmrmeshpy_1_1SegmPointd.html#ac922cf449b7eedee1fd3306c70ca6d19":[6,1,0,0,2,788,10]
 };

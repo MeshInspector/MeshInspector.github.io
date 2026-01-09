@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"classmrmeshpy_1_1SpacingSettings.html#aa1e4cca25dde113c2c71c3f2748f8f9a":[6,1,1,0,1,812,10],
+"classmrmeshpy_1_1SpacingSettings.html#ab2ca7af5b9bb132d82d1edbf0c0bdb66":[6,1,0,0,2,812,6],
+"classmrmeshpy_1_1SpacingSettings.html#ab2ca7af5b9bb132d82d1edbf0c0bdb66":[6,1,1,0,1,812,6],
+"classmrmeshpy_1_1SpacingSettings.html#ac71c1719158dae48fe912320375a9912":[6,1,0,0,2,812,8],
+"classmrmeshpy_1_1SpacingSettings.html#ac71c1719158dae48fe912320375a9912":[6,1,1,0,1,812,8],
+"classmrmeshpy_1_1SpacingSettings.html#ae48d07d36cc14b660574ae93b083dd8b":[6,1,0,0,2,812,5],
+"classmrmeshpy_1_1SpacingSettings.html#ae48d07d36cc14b660574ae93b083dd8b":[6,1,1,0,1,812,5],
+"classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[6,1,0,0,2,812,0],
 "classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[6,1,1,0,1,812,0],
 "classmrmeshpy_1_1Sphere2d.html":[6,1,0,0,2,813],
 "classmrmeshpy_1_1Sphere2d.html":[6,1,1,0,1,813],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,1,0,1,1028,25],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,0,0,2,1029],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,1,0,1,1029],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,0,0,2,1029,7],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,1,0,1,1029,7],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[6,1,0,0,2,1029,8],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[6,1,1,0,1,1029,8],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a4be43df4f4a1263b879a7093232ef735":[6,1,0,0,2,1029,6],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a4be43df4f4a1263b879a7093232ef735":[6,1,1,0,1,1029,6],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[6,1,0,0,2,1029,10],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[6,1,1,0,1,1029,10],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a706065fc4de0683ac42ed595eca30cd0":[6,1,0,0,2,1029,4]
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,0,0,2,1029,7]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX45 =
 {
+"MRImproveSampling_8h.html#a092acfae526e5e02b7aaf2e2da4552d8":[6,2,1,0,0,0,1,120,21],
+"MRImproveSampling_8h.html#a0c1baad62a31685b2dfb5955f3fb8230":[6,2,1,0,0,0,1,120,6],
+"MRImproveSampling_8h.html#a106b8e3df0f486f557e7f58f9d656715":[6,2,1,0,0,0,1,120,8],
+"MRImproveSampling_8h.html#a13a3ea6db0fb55262058e4c8284e20bb":[6,2,1,0,0,0,1,120,24],
+"MRImproveSampling_8h.html#a169c1bd3748d6c8701454e5f12d528b1":[6,2,1,0,0,0,1,120,38],
+"MRImproveSampling_8h.html#a1858356f3ef4d8fc94de81cf6b361a0d":[6,2,1,0,0,0,1,120,13],
 "MRImproveSampling_8h.html#a1b3612fe164aa3b4af2821f319d7d168":[6,2,1,0,0,0,1,120,32],
 "MRImproveSampling_8h.html#a1b7c59ddecf85d8f2e587cfc5b7f2874":[6,2,1,0,0,0,1,120,17],
 "MRImproveSampling_8h.html#a1f1cccf05759fdb003cdcdd0399da8c5":[6,2,1,0,0,0,1,120,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX45 =
 "MRIntersectionPrecomputes_8h.html#ad74bfd312a5db6523bff826343a5cf21":[6,2,1,0,0,0,1,124,28],
 "MRIntersectionPrecomputes_8h.html#ae45b46722d856c36e96b80581d1441d1":[6,2,1,0,0,0,1,124,29],
 "MRIntersectionPrecomputes_8h.html#af0b9dcd02ad5dfa4e3b6ad7ee6c15df2":[6,2,1,0,0,0,1,124,4],
-"MRIntersectionPrecomputes_8h.html#af547cd6c08d464a45996af024fcca972":[6,2,1,0,0,0,1,124,36],
-"MRIntersectionPrecomputes_8h.html#afc2bdd53475b94770b7fe61469680e0f":[6,2,1,0,0,0,1,124,59],
-"MRIntersectionPrecomputes_8h.html#afe859f2714aa334a24d12a9a34176a3f":[6,2,1,0,0,0,1,124,8],
-"MRIntersectionPrecomputes_8h_source.html":[6,2,1,0,0,0,1,124],
-"MRIntersection_8h.html":[6,2,1,0,0,0,1,122],
-"MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309":[6,2,1,0,0,0,1,122,0],
-"MRIntersection_8h.html#a9a690189883feb4eb4d2e7c1e145ef0e":[6,2,1,0,0,0,1,122,2]
+"MRIntersectionPrecomputes_8h.html#af547cd6c08d464a45996af024fcca972":[6,2,1,0,0,0,1,124,36]
 };

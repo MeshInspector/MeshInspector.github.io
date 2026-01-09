@@ -1,5 +1,11 @@
 var NAVTREEINDEX153 =
 {
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a1b9db4111e7771376c3bbd51e0b238ae":[6,2,1,0,0,0,2,276,18],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a210c581de206b58f827a2e7e949887b9":[6,2,1,0,0,0,2,276,8],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a2e3e500846c337f28db9c2a3d9245437":[6,2,1,0,0,0,2,276,15],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a53a1319abd2735107d64e79b00272ea1":[6,2,1,0,0,0,2,276,9],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a59c62359828652ca41fe847c56d10913":[6,2,1,0,0,0,2,276,13],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a5d8e57a51abfe75997ff52102a20bb9e":[6,2,1,0,0,0,2,276,1],
 "std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a6e01a7f9f600cdfd5578592dd5c26d11":[6,2,1,0,0,0,2,276,4],
 "std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a6f23af054a502d61cc064225d29b7e16":[6,2,1,0,0,0,2,276,14],
 "std__shared__ptr__MR__ChangeObjectColorAction_8h.html#a72ecd40cc21861923965148fd782317e":[6,2,1,0,0,0,2,276,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX153 =
 "std__shared__ptr__MR__ChangePolylineAction_8h.html#a6d994a09b1de861a40216b52abea27f4":[6,2,1,0,0,0,2,286,0],
 "std__shared__ptr__MR__ChangePolylineAction_8h.html#a72ecd40cc21861923965148fd782317e":[6,2,1,0,0,0,2,286,3],
 "std__shared__ptr__MR__ChangePolylineAction_8h.html#a75c42f042fd4bea41898dc027b3fea94":[6,2,1,0,0,0,2,286,9],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#a7de20845ce956fecaa3587255fcff80f":[6,2,1,0,0,0,2,286,21],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#a87bf4bd1df97203bf289fe7417b218b2":[6,2,1,0,0,0,2,286,11],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#a9ab20cb975a9bc9594d46c1a9746f28d":[6,2,1,0,0,0,2,286,14],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#aa0d971260687a8b6b247ac434744f5ba":[6,2,1,0,0,0,2,286,12],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#ab2c686c93f5a6b45ed6e63f6a163f866":[6,2,1,0,0,0,2,286,17],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#ab5303b251963944113c78ce1385044b7":[6,2,1,0,0,0,2,286,20],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#ac4f91fb540b81354cd4667b2627f6d3b":[6,2,1,0,0,0,2,286,6]
+"std__shared__ptr__MR__ChangePolylineAction_8h.html#a7de20845ce956fecaa3587255fcff80f":[6,2,1,0,0,0,2,286,21]
 };

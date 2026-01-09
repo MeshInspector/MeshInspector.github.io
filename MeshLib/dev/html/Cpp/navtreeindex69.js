@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1CoordinateConverters.html":[6,0,2,0,1,154],
+"structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,1,0,1,173,0],
+"structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[6,0,2,0,1,154,0],
+"structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,1,0,1,173,1],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[6,0,2,0,1,154,1],
 "structMR_1_1CoordinateConverters2.html":[6,0,1,0,1,174],
 "structMR_1_1CoordinateConverters2.html":[6,0,2,0,1,155],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DistanceFromWeightedPointsParams.html":[6,0,1,0,1,207],
 "structMR_1_1DistanceFromWeightedPointsParams.html":[6,0,2,0,1,188],
 "structMR_1_1DistanceFromWeightedPointsParams.html#a18407dd8e4524c66ba05a120168bbf92":[6,0,1,0,1,207,3],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a18407dd8e4524c66ba05a120168bbf92":[6,0,2,0,1,188,3],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,1,0,1,207,4],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,2,0,1,188,4],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4":[6,0,1,0,1,207,1],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4":[6,0,2,0,1,188,1]
+"structMR_1_1DistanceFromWeightedPointsParams.html#a18407dd8e4524c66ba05a120168bbf92":[6,0,2,0,1,188,3]
 };

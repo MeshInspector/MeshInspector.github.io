@@ -1,5 +1,13 @@
 var NAVTREEINDEX137 =
 {
+"classmrmeshpy_1_1std__vector__Color.html#a3de2b7546010604b8ef0412b24e56bd3":[6,1,1,0,1,884,27],
+"classmrmeshpy_1_1std__vector__Color.html#a50f7657ee8696b9dd8d5b92f110b2c2a":[6,1,0,0,2,884,26],
+"classmrmeshpy_1_1std__vector__Color.html#a50f7657ee8696b9dd8d5b92f110b2c2a":[6,1,1,0,1,884,26],
+"classmrmeshpy_1_1std__vector__Color.html#a5498799a4a974905114a663c0694f4ce":[6,1,0,0,2,884,25],
+"classmrmeshpy_1_1std__vector__Color.html#a5498799a4a974905114a663c0694f4ce":[6,1,1,0,1,884,25],
+"classmrmeshpy_1_1std__vector__Color.html#a6238261070221c80606b0d21ad5b60ea":[6,1,0,0,2,884,16],
+"classmrmeshpy_1_1std__vector__Color.html#a6238261070221c80606b0d21ad5b60ea":[6,1,1,0,1,884,16],
+"classmrmeshpy_1_1std__vector__Color.html#a7809371cd8627bca4ce9b89ada913a77":[6,1,0,0,2,884,0],
 "classmrmeshpy_1_1std__vector__Color.html#a7809371cd8627bca4ce9b89ada913a77":[6,1,1,0,1,884,0],
 "classmrmeshpy_1_1std__vector__Color.html#a7a5d6ff313d10021f97333d9a674c094":[6,1,0,0,2,884,24],
 "classmrmeshpy_1_1std__vector__Color.html#a7a5d6ff313d10021f97333d9a674c094":[6,1,1,0,1,884,24],
@@ -241,13 +249,5 @@ var NAVTREEINDEX137 =
 "classmrmeshpy_1_1std__vector__EdgePoint.html#af29b979a144555c38adc9a17d0d45699":[6,1,1,0,1,889,28],
 "classmrmeshpy_1_1std__vector__EdgePoint.html#af9c126100233029bc882113ea7d03af8":[6,1,0,0,2,889,4],
 "classmrmeshpy_1_1std__vector__EdgePoint.html#af9c126100233029bc882113ea7d03af8":[6,1,1,0,1,889,4],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#afa464b2174d3661dd08f29ac5b22f5bb":[6,1,0,0,2,889,15],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#afa464b2174d3661dd08f29ac5b22f5bb":[6,1,1,0,1,889,15],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#afbd83392e44f3c1b969931b9275deec4":[6,1,0,0,2,889,7],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#afbd83392e44f3c1b969931b9275deec4":[6,1,1,0,1,889,7],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html":[6,1,0,0,2,890],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html":[6,1,1,0,1,890],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a0a8304eb5a6e3235166aeca66dae5b47":[6,1,0,0,2,890,10],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a0a8304eb5a6e3235166aeca66dae5b47":[6,1,1,0,1,890,10],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a121d4bc04b88873df676fa2ba6d89748":[6,1,0,0,2,890,4]
+"classmrmeshpy_1_1std__vector__EdgePoint.html#afa464b2174d3661dd08f29ac5b22f5bb":[6,1,0,0,2,889,15]
 };

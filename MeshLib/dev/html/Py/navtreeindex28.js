@@ -1,5 +1,13 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1FaceDistancesSettings.html#a10418cb6bcd50034861b767d49601826":[6,1,1,0,1,245,3],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a63609a4acd5a9a7d00f6409ec3077903":[6,1,0,0,2,245,4],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a63609a4acd5a9a7d00f6409ec3077903":[6,1,1,0,1,245,4],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a69bed9eec308150946f93af042efc73e":[6,1,0,0,2,245,6],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a69bed9eec308150946f93af042efc73e":[6,1,1,0,1,245,6],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a6ae7509df1a389e09f1a923571970478":[6,1,0,0,2,245,7],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a6ae7509df1a389e09f1a923571970478":[6,1,1,0,1,245,7],
+"classmrmeshpy_1_1FaceDistancesSettings.html#a7dc9c7f95577801957ec009003818ead":[6,1,0,0,2,245,1],
 "classmrmeshpy_1_1FaceDistancesSettings.html#a7dc9c7f95577801957ec009003818ead":[6,1,1,0,1,245,1],
 "classmrmeshpy_1_1FaceDistancesSettings.html#a914b265b1c03113e2ed16f524988f1fb":[6,1,0,0,2,245,2],
 "classmrmeshpy_1_1FaceDistancesSettings.html#a914b265b1c03113e2ed16f524988f1fb":[6,1,1,0,1,245,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1FaceNormals.html#ab247cc6226f2b83d1b5f2bd5ff38d7d8":[6,1,1,0,1,250,12],
 "classmrmeshpy_1_1FaceNormals.html#ab9fb88a58d860c042bab611447a4d419":[6,1,0,0,2,250,8],
 "classmrmeshpy_1_1FaceNormals.html#ab9fb88a58d860c042bab611447a4d419":[6,1,1,0,1,250,8],
-"classmrmeshpy_1_1FaceNormals.html#abbf5898985d07890576b69d7a39f9067":[6,1,0,0,2,250,35],
-"classmrmeshpy_1_1FaceNormals.html#abbf5898985d07890576b69d7a39f9067":[6,1,1,0,1,250,35],
-"classmrmeshpy_1_1FaceNormals.html#abcf5fc7bc64e72582d82ecce01fe3ab8":[6,1,0,0,2,250,16],
-"classmrmeshpy_1_1FaceNormals.html#abcf5fc7bc64e72582d82ecce01fe3ab8":[6,1,1,0,1,250,16],
-"classmrmeshpy_1_1FaceNormals.html#ac5aa8e147ef14bba573f05a79218009b":[6,1,0,0,2,250,39],
-"classmrmeshpy_1_1FaceNormals.html#ac5aa8e147ef14bba573f05a79218009b":[6,1,1,0,1,250,39],
-"classmrmeshpy_1_1FaceNormals.html#ac5f3eb9616539c7b8a50343b382d5f5d":[6,1,0,0,2,250,5],
-"classmrmeshpy_1_1FaceNormals.html#ac5f3eb9616539c7b8a50343b382d5f5d":[6,1,1,0,1,250,5],
-"classmrmeshpy_1_1FaceNormals.html#add8af2783aa290a0d3b05cef37958d22":[6,1,0,0,2,250,34]
+"classmrmeshpy_1_1FaceNormals.html#abbf5898985d07890576b69d7a39f9067":[6,1,0,0,2,250,35]
 };

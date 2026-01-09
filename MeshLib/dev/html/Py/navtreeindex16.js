@@ -1,5 +1,13 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1Color.html#af6df1600be5ca9d1dd195c2c70aa6054":[6,1,1,0,1,149,18],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[6,1,0,0,2,151],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[6,1,1,0,1,151],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[6,1,0,0,2,151,6],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[6,1,1,0,1,151,6],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a12aff3a68e7c390b284765c989c5f167":[6,1,0,0,2,151,3],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a12aff3a68e7c390b284765c989c5f167":[6,1,1,0,1,151,3],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a13e54558eea68e57e3acc113cc1d06d5":[6,1,0,0,2,151,10],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a13e54558eea68e57e3acc113cc1d06d5":[6,1,1,0,1,151,10],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a25e119da377b7197134b3772b2168fc8":[6,1,0,0,2,151,4],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a25e119da377b7197134b3772b2168fc8":[6,1,1,0,1,151,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1ComputeSweptVolumeParameters.html#aab2bdaa7f6a2a843a4a9f938e30c6e05":[6,1,1,0,1,160,4],
 "classmrmeshpy_1_1ComputeSweptVolumeParameters.html#acc33fb2729640b672274243aacdb98c3":[6,1,0,0,2,160,2],
 "classmrmeshpy_1_1ComputeSweptVolumeParameters.html#acc33fb2729640b672274243aacdb98c3":[6,1,1,0,1,160,2],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#ad394ad2428def7c0e1a9b4103ef12d5e":[6,1,0,0,2,160,8],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#ad394ad2428def7c0e1a9b4103ef12d5e":[6,1,1,0,1,160,8],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#adc9a1eb13014619e83db3f1d8a12dc65":[6,1,0,0,2,160,11],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#adc9a1eb13014619e83db3f1d8a12dc65":[6,1,1,0,1,160,11],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#adf6cb6cd911bc61e8a5a828eadf34a37":[6,1,0,0,2,160,10],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#adf6cb6cd911bc61e8a5a828eadf34a37":[6,1,1,0,1,160,10],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#ae5bff24dd2abd5fe4607e76e947950e7":[6,1,0,0,2,160,12],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#ae5bff24dd2abd5fe4607e76e947950e7":[6,1,1,0,1,160,12],
-"classmrmeshpy_1_1Cone3ApproximationParams.html":[6,1,0,0,2,161]
+"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#ad394ad2428def7c0e1a9b4103ef12d5e":[6,1,0,0,2,160,8]
 };

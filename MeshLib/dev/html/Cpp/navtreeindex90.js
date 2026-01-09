@@ -1,5 +1,9 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,739,0,2],
+"structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[6,0,1,0,1,758,2],
+"structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[6,0,2,0,1,739,2],
+"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[6,0,1,0,1,758,1],
 "structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[6,0,2,0,1,739,1],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,1,0,1,759],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,2,0,1,740],
@@ -245,9 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1TriangulationParameters.html#a2266345249c3a1483c179688e4dad925":[6,0,0,13,1,1],
 "structMR_1_1TriangulationParameters.html#a474b58f25243d6fbbaee08808d91e4cd":[6,0,0,13,1,5],
 "structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a":[6,0,0,13,1,0],
-"structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[6,0,0,13,1,2],
-"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[6,0,0,13,1,4],
-"structMR_1_1TrimOptionalOutput.html":[6,0,1,0,1,777],
-"structMR_1_1TrimOptionalOutput.html":[6,0,2,0,1,758],
-"structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[6,0,1,0,1,777,3]
+"structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[6,0,0,13,1,2]
 };
