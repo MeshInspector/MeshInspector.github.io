@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html":[6,0,1,0,1,2,4],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html":[6,0,2,0,1,0,4],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html#a1729fda1729e6bd5a1671328387fe837":[6,0,1,0,1,2,4,0],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html#a1729fda1729e6bd5a1671328387fe837":[6,0,2,0,1,0,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1DistanceMeasurementObject.html#a5fa3455ad516872987f4c9195c8cb8be":[6,0,2,0,1,193,1],
 "classMR_1_1DistanceMeasurementObject.html#a63e77b6ec68d18707193f0f0d9c61c33":[6,0,1,0,1,212,17],
 "classMR_1_1DistanceMeasurementObject.html#a63e77b6ec68d18707193f0f0d9c61c33":[6,0,2,0,1,193,17],
-"classMR_1_1DistanceMeasurementObject.html#a6a06fba3c75ed5593bee4cedd4c9d41c":[6,0,1,0,1,212,25],
-"classMR_1_1DistanceMeasurementObject.html#a6a06fba3c75ed5593bee4cedd4c9d41c":[6,0,2,0,1,193,25]
+"classMR_1_1DistanceMeasurementObject.html#a6a06fba3c75ed5593bee4cedd4c9d41c":[6,0,1,0,1,212,25]
 };

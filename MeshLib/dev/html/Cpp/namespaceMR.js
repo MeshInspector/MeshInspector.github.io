@@ -1769,6 +1769,7 @@ var namespaceMR =
     [ "bendTextAlongCurve", "namespaceMR.html#a05f47e9b6592b774b9f2ee9b85d4b0b9", null ],
     [ "bendTextAlongCurve", "namespaceMR.html#afd1074ada517f361b43662a047bf7c6e", null ],
     [ "bendTextAlongSurfacePath", "namespaceMR.html#acdd1351ccd6463288f05f93dace174d3", null ],
+    [ "bendTextAlongSurfacePath", "namespaceMR.html#af3d41126348a1c261c5975d7471b0fbf", null ],
     [ "BestFitParabola< float >", "namespaceMR.html#aa0b5dacd1b34eb5d43cc023053febe9c", null ],
     [ "bestQuadrangleDiagonal", "group__MeshDeloneGroup.html#ga752afc6c65fff0dbc954d78ec58e4f2f", null ],
     [ "bindDepthPeelingTextures", "namespaceMR.html#adafa0e11e73b6f545a604653e8596e39", null ],

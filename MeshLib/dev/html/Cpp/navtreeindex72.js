@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb":[6,0,2,0,1,2,0,0,9],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a31365626f0397b521d1712b59fb2a466":[6,0,1,0,1,6,0,0,3],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a31365626f0397b521d1712b59fb2a466":[6,0,2,0,1,2,0,0,3],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[6,0,1,0,1,6,0,0,5],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[6,0,2,0,1,2,0,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,261],
 "structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,242],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,261,1],
-"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,242,1],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,261,2],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,242,2]
+"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,242,1]
 };

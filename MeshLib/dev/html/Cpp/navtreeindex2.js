@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRCudaPolyline_8h.html":[6,0,3,0,0,1,1,11],
 "MRCudaPolyline_8h_source.html":[6,0,3,0,0,1,1,11],
 "MRCudaSolarRadiation_8h.html":[6,0,3,0,0,1,1,12],
 "MRCudaSolarRadiation_8h.html#ab5f9490f820c7e7eb708e516e58d6e5a":[6,0,3,0,0,1,1,12,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b":[6,0,3,0,0,1,4,109,10,2],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c":[6,0,3,0,0,1,4,109,10,0],
 "MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563":[6,0,3,0,0,1,4,109,10,5],
-"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3":[6,0,3,0,0,1,4,109,10,3],
-"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4":[6,0,3,0,0,1,4,109,10,1]
+"MRFeatureHelpers_8h.html#a0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3":[6,0,3,0,0,1,4,109,10,3]
 };

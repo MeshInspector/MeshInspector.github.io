@@ -6359,8 +6359,11 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memdesc:afd1074ada517f361b43662a047bf7c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given curve.  <br /></td></tr>
 <tr class="separator:afd1074ada517f361b43662a047bf7c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd1351ccd6463288f05f93dace174d3" id="r_acdd1351ccd6463288f05f93dace174d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd1351ccd6463288f05f93dace174d3">bendTextAlongSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
-<tr class="memdesc:acdd1351ccd6463288f05f93dace174d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given surface path.  <br /></td></tr>
+<tr class="memdesc:acdd1351ccd6463288f05f93dace174d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given surface path: start-&gt;path-&gt;end.  <br /></td></tr>
 <tr class="separator:acdd1351ccd6463288f05f93dace174d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d41126348a1c261c5975d7471b0fbf" id="r_af3d41126348a1c261c5975d7471b0fbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d41126348a1c261c5975d7471b0fbf">bendTextAlongSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memdesc:af3d41126348a1c261c5975d7471b0fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given surface path, this function is designed for closed paths (periodicCurve=true option)  <br /></td></tr>
+<tr class="separator:af3d41126348a1c261c5975d7471b0fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3864227e969c9b436c4ee8357ec33d20" id="r_a3864227e969c9b436c4ee8357ec33d20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3864227e969c9b436c4ee8357ec33d20">createSymbolContours</a> (const <a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> &amp;params)</td></tr>
 <tr class="separator:a3864227e969c9b436c4ee8357ec33d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32402204da19d3e70a57443f237fb242" id="r_a32402204da19d3e70a57443f237fb242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32402204da19d3e70a57443f237fb242">createSymbolsMesh</a> (const <a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> &amp;params)</td></tr>
@@ -12921,7 +12924,7 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
 </div>
 </div>
 <a id="acdd1351ccd6463288f05f93dace174d3" name="acdd1351ccd6463288f05f93dace174d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdd1351ccd6463288f05f93dace174d3">&#9670;&#160;</a></span>bendTextAlongSurfacePath()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd1351ccd6463288f05f93dace174d3">&#9670;&#160;</a></span>bendTextAlongSurfacePath() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12954,7 +12957,35 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
       </table>
 </div><div class="memdoc">
 
-<p>Creates symbol mesh and deforms it along given surface path. </p>
+<p>Creates symbol mesh and deforms it along given surface path: start-&gt;path-&gt;end. </p>
+
+</div>
+</div>
+<a id="af3d41126348a1c261c5975d7471b0fbf" name="af3d41126348a1c261c5975d7471b0fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d41126348a1c261c5975d7471b0fbf">&#9670;&#160;</a></span>bendTextAlongSurfacePath() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::bendTextAlongSurfacePath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates symbol mesh and deforms it along given surface path, this function is designed for closed paths (periodicCurve=true option) </p>
 
 </div>
 </div>

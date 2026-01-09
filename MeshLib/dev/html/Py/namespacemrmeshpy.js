@@ -1287,6 +1287,7 @@ var namespacemrmeshpy =
     [ "bendTextAlongCurve", "namespacemrmeshpy.html#a59fa1a18126f46de81cf0b994ba9b6bd", null ],
     [ "bendTextAlongCurve", "namespacemrmeshpy.html#ae9b1718afbb3c2083c43cbc1577f3e8b", null ],
     [ "bendTextAlongSurfacePath", "namespacemrmeshpy.html#a6f0483fd4edbb1559ecbf6b824437890", null ],
+    [ "bendTextAlongSurfacePath", "namespacemrmeshpy.html#ac832c2bad16ef2a17a163c2afbef85ed", null ],
     [ "bestQuadrangleDiagonal", "namespacemrmeshpy.html#a782eed22c267c3ee40ecc5302f835431", null ],
     [ "blend", "namespacemrmeshpy.html#a8727e878a89927df7086690df1cd07f9", null ],
     [ "boolean", "namespacemrmeshpy.html#ac7023054263eabf61d3061f4929c4d87", null ],

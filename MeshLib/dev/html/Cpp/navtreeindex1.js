@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRBezier_8h.html":[6,0,3,0,0,1,4,28],
 "MRBezier_8h_source.html":[6,0,3,0,0,1,4,28],
 "MRBinaryOperationsPlugin_8h.html":[6,0,3,0,0,1,0,3,0],
 "MRBinaryOperationsPlugin_8h_source.html":[6,0,3,0,0,1,0,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRCudaPointsToDistanceVolume_8h.html#a76d46e2388018a2bca5a72dfaefd30e9":[6,0,3,0,0,1,1,9,0],
 "MRCudaPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,1,1,9],
 "MRCudaPointsToMeshProjector_8h.html":[6,0,3,0,0,1,1,10],
-"MRCudaPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,1,10],
-"MRCudaPolyline_8h.html":[6,0,3,0,0,1,1,11]
+"MRCudaPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,1,10]
 };

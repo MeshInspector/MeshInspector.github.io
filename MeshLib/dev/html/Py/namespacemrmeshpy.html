@@ -2752,6 +2752,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae9b1718afbb3c2083c43cbc1577f3e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f0483fd4edbb1559ecbf6b824437890" id="r_a6f0483fd4edbb1559ecbf6b824437890"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f0483fd4edbb1559ecbf6b824437890">bendTextAlongSurfacePath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> start, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a> path, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> <a class="el" href="#aa9ae34aafa0293dd0b3cec63fac3ddcc">end</a>, <a class="el" href="classmrmeshpy_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> params)</td></tr>
 <tr class="separator:a6f0483fd4edbb1559ecbf6b824437890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac832c2bad16ef2a17a163c2afbef85ed" id="r_ac832c2bad16ef2a17a163c2afbef85ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac832c2bad16ef2a17a163c2afbef85ed">bendTextAlongSurfacePath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a> path, <a class="el" href="classmrmeshpy_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> params)</td></tr>
+<tr class="separator:ac832c2bad16ef2a17a163c2afbef85ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a782eed22c267c3ee40ecc5302f835431" id="r_a782eed22c267c3ee40ecc5302f835431"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782eed22c267c3ee40ecc5302f835431">bestQuadrangleDiagonal</a> (<a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> a, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> b, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> c, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> d)</td></tr>
 <tr class="separator:a782eed22c267c3ee40ecc5302f835431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8727e878a89927df7086690df1cd07f9" id="r_a8727e878a89927df7086690df1cd07f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8727e878a89927df7086690df1cd07f9">blend</a> (<a class="el" href="classmrmeshpy_1_1Color.html">Color</a> front, <a class="el" href="classmrmeshpy_1_1Color.html">Color</a> back)</td></tr>
@@ -7456,7 +7458,7 @@ the function is symmetric: angle( a, b ) == angle( b, a )
 </div>
 </div>
 <a id="a6f0483fd4edbb1559ecbf6b824437890" name="a6f0483fd4edbb1559ecbf6b824437890"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f0483fd4edbb1559ecbf6b824437890">&#9670;&#160;</a></span>bendTextAlongSurfacePath()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f0483fd4edbb1559ecbf6b824437890">&#9670;&#160;</a></span>bendTextAlongSurfacePath() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7488,7 +7490,34 @@ the function is symmetric: angle( a, b ) == angle( b, a )
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Creates symbol mesh and deforms it along given surface path
+<pre class="fragment">Creates symbol mesh and deforms it along given surface path: start-&gt;path-&gt;end
+</pre> 
+</div>
+</div>
+<a id="ac832c2bad16ef2a17a163c2afbef85ed" name="ac832c2bad16ef2a17a163c2afbef85ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac832c2bad16ef2a17a163c2afbef85ed">&#9670;&#160;</a></span>bendTextAlongSurfacePath() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.bendTextAlongSurfacePath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Creates symbol mesh and deforms it along given surface path, this function is designed for closed paths (periodicCurve=true option)
 </pre> 
 </div>
 </div>

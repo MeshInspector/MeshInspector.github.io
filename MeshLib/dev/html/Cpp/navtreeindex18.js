@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1CameraOrientation.html":[6,0,2,0,1,79],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,1,0,1,98,0],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,2,0,1,79,0],
 "classMR_1_1CameraOrientation.html#a84a6d26e91901eef8efc27aa3a167aef":[6,0,1,0,1,98,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[6,0,0,4,32,3],
 "classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999":[6,0,0,4,32,0],
 "classMR_1_1ChangePolylineAction.html":[6,0,0,4,22],
-"classMR_1_1ChangePolylineAction.html#a0e79a47922ed59fc36b1a8e44df24fa4":[6,0,0,4,22,1],
-"classMR_1_1ChangePolylineAction.html#a3d8479b53f1823d464d18ee027faec56":[6,0,0,4,22,5]
+"classMR_1_1ChangePolylineAction.html#a0e79a47922ed59fc36b1a8e44df24fa4":[6,0,0,4,22,1]
 };

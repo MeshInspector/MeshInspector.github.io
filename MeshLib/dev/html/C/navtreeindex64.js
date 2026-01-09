@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"MRMeshToDistanceVolume_8h.html#a301ccfeea24ef6e02b15dfd5247465ad":[6,2,1,0,0,0,4,12,49],
 "MRMeshToDistanceVolume_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,4,12,9],
 "MRMeshToDistanceVolume_8h.html#a33ccc9213632115baaa3eadf663f2fa1":[6,2,1,0,0,0,4,12,1],
 "MRMeshToDistanceVolume_8h.html#a3554f92b96c0a2d817a822991c8b2bfc":[6,2,1,0,0,0,4,12,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "MRMeshTopology_8h.html#aff4e2eb451fb94a8c817d52a369d6275":[6,2,1,0,0,0,1,197,130],
 "MRMeshTopology_8h_source.html":[6,2,1,0,0,0,1,197],
 "MRMeshTriPoint_8h.html":[6,2,1,0,0,0,1,200],
-"MRMeshTriPoint_8h.html#a03121144e10a7224b395344ceee1b2f6":[6,2,1,0,0,0,1,200,51],
-"MRMeshTriPoint_8h.html#a03cc4bc4e9a81898b5367ea685880fd4":[6,2,1,0,0,0,1,200,19]
+"MRMeshTriPoint_8h.html#a03121144e10a7224b395344ceee1b2f6":[6,2,1,0,0,0,1,200,51]
 };

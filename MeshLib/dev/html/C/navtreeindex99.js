@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"MRSharpenMarchingCubesMesh_8h.html#af9ff70d6f8b36eaad7b1b407e5b8956e":[6,2,1,0,0,0,1,308,23],
 "MRSharpenMarchingCubesMesh_8h_source.html":[6,2,1,0,0,0,1,308],
 "MRSignDetectionMode_8h.html":[6,2,1,0,0,0,1,309],
 "MRSignDetectionMode_8h.html#a58cc14f1136bfffa8f15fdbb95d48406":[6,2,1,0,0,0,1,309,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "MRSphere_8h.html#a38bc61a659b0f2c53820bcc358b40df6":[6,2,1,0,0,0,1,312,22],
 "MRSphere_8h.html#a3a0b8bade9ae149fe79c7f99ef6d9bd1":[6,2,1,0,0,0,1,312,62],
 "MRSphere_8h.html#a3c15adaa8119896a1104ef6e9115600f":[6,2,1,0,0,0,1,312,78],
-"MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d":[6,2,1,0,0,0,1,312,46],
-"MRSphere_8h.html#a3e4a181e14857d73d2d27b7ead90a0d2":[6,2,1,0,0,0,1,312,14]
+"MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d":[6,2,1,0,0,0,1,312,46]
 };

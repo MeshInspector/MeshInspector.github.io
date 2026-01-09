@@ -1441,6 +1441,7 @@ var mrmeshpy_8pyi =
     [ "bendTextAlongCurve", "mrmeshpy_8pyi.html#a59fa1a18126f46de81cf0b994ba9b6bd", null ],
     [ "bendTextAlongCurve", "mrmeshpy_8pyi.html#ae9b1718afbb3c2083c43cbc1577f3e8b", null ],
     [ "bendTextAlongSurfacePath", "mrmeshpy_8pyi.html#a6f0483fd4edbb1559ecbf6b824437890", null ],
+    [ "bendTextAlongSurfacePath", "mrmeshpy_8pyi.html#ac832c2bad16ef2a17a163c2afbef85ed", null ],
     [ "bestQuadrangleDiagonal", "mrmeshpy_8pyi.html#a782eed22c267c3ee40ecc5302f835431", null ],
     [ "blend", "mrmeshpy_8pyi.html#a8727e878a89927df7086690df1cd07f9", null ],
     [ "boolean", "mrmeshpy_8pyi.html#ac7023054263eabf61d3061f4929c4d87", null ],

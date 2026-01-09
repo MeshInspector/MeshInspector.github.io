@@ -1,5 +1,6 @@
 var NAVTREEINDEX162 =
 {
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a6c617d927077a9d28c138099e2f00589":[6,2,1,0,0,0,2,367,53],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a732a0dde009c5c57ef21f400ab3a33cc":[6,2,1,0,0,0,2,367,57],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a7cc00fbccae4bb0a2606b231b64dcf5f":[6,2,1,0,0,0,2,367,65],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a7cd3fc8d361780b86c60472e52774378":[6,2,1,0,0,0,2,367,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX162 =
 "std__vector__MR__AABBTreePoints__Node_8h.html#abc3cbcf5c8b780fbdbec47064cd075ae":[6,2,1,0,0,0,2,370,23],
 "std__vector__MR__AABBTreePoints__Node_8h.html#abf83ceffba8fbe46dd995f56bf85b1cc":[6,2,1,0,0,0,2,370,70],
 "std__vector__MR__AABBTreePoints__Node_8h.html#ac42675f79da4d1fc6dac81ccb179adf9":[6,2,1,0,0,0,2,370,14],
-"std__vector__MR__AABBTreePoints__Node_8h.html#ac898fe6c917be3c8965ef8f7705a58e6":[6,2,1,0,0,0,2,370,35],
-"std__vector__MR__AABBTreePoints__Node_8h.html#ad30331cc5cf8e4b84958e992bf40916c":[6,2,1,0,0,0,2,370,18]
+"std__vector__MR__AABBTreePoints__Node_8h.html#ac898fe6c917be3c8965ef8f7705a58e6":[6,2,1,0,0,0,2,370,35]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1VisualObject.html#aa7e5231f013c0e9e1b528c69759cc60d":[6,0,0,11,2,5,44],
 "classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7":[6,0,0,11,2,5,81],
 "classMR_1_1VisualObject.html#ab494630abaaab85d3b4c16929c7e6e83":[6,0,0,11,2,5,85],
 "classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d":[6,0,0,11,2,5,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,1,0,1,6,4],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
-"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,863],
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,862]
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,863]
 };

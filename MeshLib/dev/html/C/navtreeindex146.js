@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a313ab35b2781c6c3b27b4dea4736b1f0":[6,2,1,0,0,0,2,181,6],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a52b800bca14f1f0ba1878e3850fe15cd":[6,2,1,0,0,0,2,181,14],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,2,181,2],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a77e3b789d0aea48b0d485db459161fde":[6,2,1,0,0,0,2,181,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "std__optional__MR__DentalId_8h.html#ab6f851679734ec8da383d00d028966a6":[6,2,1,0,0,0,2,192,7],
 "std__optional__MR__DentalId_8h.html#ad2e6f43d814a2679db17e024383630dd":[6,2,1,0,0,0,2,192,2],
 "std__optional__MR__DentalId_8h.html#ad5c5c2c5a22068c84c782abeb6fc0181":[6,2,1,0,0,0,2,192,3],
-"std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b":[6,2,1,0,0,0,2,192,0],
-"std__optional__MR__DentalId_8h.html#adeae68d5d8e122f12c59249bba50217a":[6,2,1,0,0,0,2,192,10]
+"std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b":[6,2,1,0,0,0,2,192,0]
 };

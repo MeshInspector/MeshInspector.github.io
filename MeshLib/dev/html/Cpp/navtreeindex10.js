@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRPython_8h.html#ae6956a35fce75d18a07941e975ae07cc":[6,0,3,0,0,1,6,1,16],
 "MRPython_8h_source.html":[6,0,3,0,0,1,6,1],
 "MRQuadraticForm_8h.html":[6,0,3,0,0,1,4,329],
 "MRQuadraticForm_8h_source.html":[6,0,3,0,0,1,4,329],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRRigidScaleXf3_8h.html":[6,0,3,0,0,1,4,343],
 "MRRigidScaleXf3_8h_source.html":[6,0,3,0,0,1,4,343],
 "MRRigidXf3_8h.html":[6,0,3,0,0,1,4,344],
-"MRRigidXf3_8h_source.html":[6,0,3,0,0,1,4,344],
-"MRRingIterator_8h.html":[6,0,3,0,0,1,4,345]
+"MRRigidXf3_8h_source.html":[6,0,3,0,0,1,4,344]
 };
