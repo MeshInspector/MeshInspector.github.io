@@ -428,6 +428,18 @@ var hierarchy =
     [ "MR::FlowOrigin", "structMR_1_1FlowOrigin.html", null ],
     [ "MR::FlowAggregator::Flows", "structMR_1_1FlowAggregator_1_1Flows.html", null ],
     [ "MR::FormatRegistry< Processor >", "classMR_1_1FormatRegistry.html", null ],
+    [ "fmt::formatter", null, [
+      [ "fmt::formatter< MR::BitSet >", "structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html", null ],
+      [ "fmt::formatter< MR::Box< V > >", "structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html", null ],
+      [ "fmt::formatter< MR::Vector2< T > >", "structfmt_1_1formatter_3_01MR_1_1Vector2_3_01T_01_4_01_4.html", null ],
+      [ "fmt::formatter< MR::Vector3< T > >", "structfmt_1_1formatter_3_01MR_1_1Vector3_3_01T_01_4_01_4.html", [
+        [ "fmt::formatter< MR::AffineXf3< T > >", "structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4.html", null ],
+        [ "fmt::formatter< MR::Matrix3< T > >", "structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4.html", null ]
+      ] ],
+      [ "fmt::formatter< MR::Vector4< T > >", "structfmt_1_1formatter_3_01MR_1_1Vector4_3_01T_01_4_01_4.html", [
+        [ "fmt::formatter< MR::Matrix4< T > >", "structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4.html", null ]
+      ] ]
+    ] ],
     [ "MR::WebRequest::FormData", "structMR_1_1WebRequest_1_1FormData.html", null ],
     [ "MR::FramebufferData", "classMR_1_1FramebufferData.html", null ],
     [ "MR::FrameCounter", "classMR_1_1FrameCounter.html", null ],

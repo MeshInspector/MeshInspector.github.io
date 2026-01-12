@@ -124,6 +124,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRFinally.h", "MRFinally_8h.html", "MRFinally_8h" ],
     [ "MRFixSelfIntersections.h", "MRMesh_2MRFixSelfIntersections_8h.html", "MRMesh_2MRFixSelfIntersections_8h" ],
     [ "MRFlagOperators.h", "MRFlagOperators_8h.html", "MRFlagOperators_8h" ],
+    [ "MRFormat.h", "MRFormat_8h.html", "MRFormat_8h" ],
     [ "MRFreeFormDeformer.h", "MRFreeFormDeformer_8h.html", "MRFreeFormDeformer_8h" ],
     [ "MRGcodeLoad.h", "MRGcodeLoad_8h.html", "MRGcodeLoad_8h" ],
     [ "MRGcodeProcessor.h", "MRGcodeProcessor_8h.html", "MRGcodeProcessor_8h" ],
