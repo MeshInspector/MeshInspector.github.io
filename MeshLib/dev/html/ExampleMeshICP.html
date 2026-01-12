@@ -409,11 +409,11 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">            <span class="keywordtype">float</span> diagonal = mesh_xf_fixed.Obj.ComputeBoundingBox().Diagonal();</div>
+<div class="line">            <span class="keywordtype">float</span> diagonal = mesh_xf_fixed.obj.ComputeBoundingBox().Diagonal();</div>
 <div class="line">            <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> icpParams = <span class="keyword">new</span>();</div>
-<div class="line">            icpParams.DistThresholdSq = diagonal * diagonal * 0.01f; <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">            icpParams.ExitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
+<div class="line">            icpParams.distThresholdSq = diagonal * diagonal * 0.01f; <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">            icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Calculate transformation</span></div>
 <div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR.ICP</a> icp = <span class="keyword">new</span>(mesh_xf_floating, mesh_xf_fixed, icpSamplingVoxelSize);</div>

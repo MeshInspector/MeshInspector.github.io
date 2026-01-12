@@ -354,10 +354,10 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR.DecimateSettings</a> ds = <span class="keyword">new</span>();</div>
-<div class="line">            ds.Strategy = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DecimateStrategy.MinimizeError;</div>
-<div class="line">            ds.MaxError = 1e-5f * mesh.ComputeBoundingBox().Diagonal();</div>
-<div class="line">            ds.TinyEdgeLength = 1e-3f;</div>
-<div class="line">            ds.PackMesh = <span class="keyword">true</span>;</div>
+<div class="line">            ds.strategy = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DecimateStrategy.MinimizeError;</div>
+<div class="line">            ds.maxError = 1e-5f * mesh.ComputeBoundingBox().Diagonal();</div>
+<div class="line">            ds.tinyEdgeLength = 1e-3f;</div>
+<div class="line">            ds.packMesh = <span class="keyword">true</span>;</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Decimate mesh</span></div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateResult.html">MR.DecimateResult</a> result = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DecimateMesh(mesh, ds);</div>

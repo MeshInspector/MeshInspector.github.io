@@ -375,10 +375,10 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line"> </div>
 <div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(inputFile);</div>
 <div class="line"> </div>
-<div class="line">            MR.Std.Vector_MREdgeId holes = mesh.Topology.FindHoleRepresentiveEdges();</div>
+<div class="line">            MR.Std.Vector_MREdgeId holes = mesh.topology.FindHoleRepresentiveEdges();</div>
 <div class="line"> </div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1FillHoleParams.html">MR.FillHoleParams</a> fillHoleParams = <span class="keyword">new</span>();</div>
-<div class="line">            fillHoleParams.Metric.Assign(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.GetUniversalMetric(mesh));</div>
+<div class="line">            fillHoleParams.metric.Assign(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.GetUniversalMetric(mesh));</div>
 <div class="line">            MR.FaceBitSet outfaces = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="comment">// TODO</span></div>
 <div class="line">            <span class="comment">// fillHoleParams.OutNewFaces = ...</span></div>
