@@ -417,8 +417,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8b98e5129d643d9a893c28e17ebe388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae36f89734b1c96d9a03e4957f38f7b6a" id="r_ae36f89734b1c96d9a03e4957f38f7b6a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36f89734b1c96d9a03e4957f38f7b6a">globalHistoryRedo</a> ()</td></tr>
 <tr class="separator:ae36f89734b1c96d9a03e4957f38f7b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a447c125eeac88a0873b6416d0c4d5772" id="r_a447c125eeac88a0873b6416d0c4d5772"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a447c125eeac88a0873b6416d0c4d5772">getGlobalHistoryStore</a> () const</td></tr>
-<tr class="separator:a447c125eeac88a0873b6416d0c4d5772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e2211394af3408951eb8661035c58d" id="r_a20e2211394af3408951eb8661035c58d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20e2211394af3408951eb8661035c58d">getGlobalHistoryStore</a> () const</td></tr>
+<tr class="separator:a20e2211394af3408951eb8661035c58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fa9e45768d4ede2c36f43231fcd9bb4" id="r_a7fa9e45768d4ede2c36f43231fcd9bb4"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1SpaceMouseHandler.html">SpaceMouseHandler</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fa9e45768d4ede2c36f43231fcd9bb4">getSpaceMouseHandler</a> () const</td></tr>
 <tr class="separator:a7fa9e45768d4ede2c36f43231fcd9bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e00f21d3408c12427477ab6d312382" id="r_a45e00f21d3408c12427477ab6d312382"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e00f21d3408c12427477ab6d312382">onSceneSaved</a> (const std::filesystem::path &amp;savePath, bool storeInRecent=true)</td></tr>
@@ -1249,8 +1249,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a447c125eeac88a0873b6416d0c4d5772" name="a447c125eeac88a0873b6416d0c4d5772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a447c125eeac88a0873b6416d0c4d5772">&#9670;&#160;</a></span>getGlobalHistoryStore()</h2>
+<a id="a20e2211394af3408951eb8661035c58d" name="a20e2211394af3408951eb8661035c58d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e2211394af3408951eb8661035c58d">&#9670;&#160;</a></span>getGlobalHistoryStore()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1259,7 +1259,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp; MR::Viewer::getGlobalHistoryStore </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> * MR::Viewer::getGlobalHistoryStore </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1271,6 +1271,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns global history store returns nullptr if history store is not available </p>
 
 </div>
 </div>

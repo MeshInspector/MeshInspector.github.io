@@ -50,7 +50,7 @@ var classMR_1_1Viewer =
     [ "getDepthPeelNumPasses", "classMR_1_1Viewer.html#ae9101e95512bcb82d2136d5b68150cd5", null ],
     [ "getEventsCount", "classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc", null ],
     [ "getFPS", "classMR_1_1Viewer.html#a903a5dd99309117aa93d95c04b20d5bf", null ],
-    [ "getGlobalHistoryStore", "classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772", null ],
+    [ "getGlobalHistoryStore", "classMR_1_1Viewer.html#a20e2211394af3408951eb8661035c58d", null ],
     [ "getHoveredViewportId", "classMR_1_1Viewer.html#a0e5111171595097dcb08f6e009450d7f", null ],
     [ "getHoveredViewportIdOrInvalid", "classMR_1_1Viewer.html#ad15c52527b406547153c2ee9ab5b9854", null ],
     [ "getLastFrameGLPrimitivesCount", "classMR_1_1Viewer.html#ace616c44d943ccb4671a9c5180090bbf", null ],

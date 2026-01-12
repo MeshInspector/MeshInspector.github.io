@@ -237,9 +237,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a90827f674d87c2ab52f3be56086ace77" id="r_a90827f674d87c2ab52f3be56086ace77"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90827f674d87c2ab52f3be56086ace77">getViewerInstance</a> ()</td></tr>
-<tr class="memdesc:a90827f674d87c2ab52f3be56086ace77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the instance (if any) of <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a> from the viewer  <br /></td></tr>
-<tr class="separator:a90827f674d87c2ab52f3be56086ace77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d9326f089992c7b1a6a573a2d367ae" id="r_a79d9326f089992c7b1a6a573a2d367ae"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79d9326f089992c7b1a6a573a2d367ae">getViewerInstance</a> ()</td></tr>
+<tr class="separator:a79d9326f089992c7b1a6a573a2d367ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -615,8 +614,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a90827f674d87c2ab52f3be56086ace77" name="a90827f674d87c2ab52f3be56086ace77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90827f674d87c2ab52f3be56086ace77">&#9670;&#160;</a></span>getViewerInstance()</h2>
+<a id="a79d9326f089992c7b1a6a573a2d367ae" name="a79d9326f089992c7b1a6a573a2d367ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d9326f089992c7b1a6a573a2d367ae">&#9670;&#160;</a></span>getViewerInstance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,7 +624,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MRVIEWER_API const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp; MR::HistoryStore::getViewerInstance </td>
+          <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> * MR::HistoryStore::getViewerInstance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -637,8 +636,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns the instance (if any) of <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a> from the viewer </p>
+<p>returns the instance (if any) of <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a> from the viewer returns nullptr if history store is not available </p>
 
 </div>
 </div>
