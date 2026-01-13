@@ -268,7 +268,7 @@ var hierarchy =
       [ "MR::MultiListener< DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ]
       ] ],
-      [ "MR::MultiListener< DragStartListener, DragListener, DragEndListener >", "structMR_1_1MultiListener.html", [
+      [ "MR::MultiListener< DragStartListener, DragListener, DragEndListener, NameTagClickListener >", "structMR_1_1MultiListener.html", [
         [ "MR::PlaneWidget", "classMR_1_1PlaneWidget.html", null ]
       ] ],
       [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [

@@ -1443,7 +1443,7 @@ var searchData=
   ['multilistener_203',['MultiListener',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20connectables_2e_2e_2e_20_3e_204',['MultiListener&lt; Connectables... &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20dragentrancelistener_2c_20dragoverlistener_2c_20dragdroplistener_2c_20predrawlistener_20_3e_205',['MultiListener&lt; DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
-  ['multilistener_3c_20dragstartlistener_2c_20draglistener_2c_20dragendlistener_20_3e_206',['MultiListener&lt; DragStartListener, DragListener, DragEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
+  ['multilistener_3c_20dragstartlistener_2c_20draglistener_2c_20dragendlistener_2c_20nametagclicklistener_20_3e_206',['MultiListener&lt; DragStartListener, DragListener, DragEndListener, NameTagClickListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20keydownlistener_2c_20keyrepeatlistener_20_3e_207',['MultiListener&lt; KeyDownListener, KeyRepeatListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20mousedownlistener_2c_20mousemovelistener_20_3e_208',['MultiListener&lt; MouseDownListener, MouseMoveListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20mousedownlistener_2c_20mousemovelistener_2c_20mouseuplistener_20_3e_209',['MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
