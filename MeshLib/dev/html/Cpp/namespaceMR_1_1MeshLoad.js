@@ -32,5 +32,6 @@ var namespaceMR_1_1MeshLoad =
     [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#adad8cf91a6a24357a4abdeffc053e6cf", null ],
     [ "fromStep", "namespaceMR_1_1MeshLoad.html#abbf7faeb36062c71f04bafb9137d97bf", null ],
     [ "fromStep", "namespaceMR_1_1MeshLoad.html#a18cc94bfc1baa02c861e6023774fcd8b", null ],
-    [ "loadObjectFromObj", "group__MeshLoadObjGroup.html#gae5d6ebb9bff1143f8f529031d34001f2", null ]
+    [ "loadObjectFromObj", "group__MeshLoadObjGroup.html#gae5d6ebb9bff1143f8f529031d34001f2", null ],
+    [ "telemetryLogSize", "group__MeshLoadGroup.html#ga1609740c1af4ee05a62c65f39f25323a", null ]
 ];

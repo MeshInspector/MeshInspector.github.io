@@ -35,5 +35,6 @@ var MRMeshLoad_8h =
     [ "loadPly", "MRMeshLoad_8h.html#a09b7d6190d7b1f760a8974de6ad4b5ee", null ],
     [ "loadPly", "MRMeshLoad_8h.html#a610eed1a8340bc4c451947f0896d89ff", null ],
     [ "loadStl", "MRMeshLoad_8h.html#ac6564112e23d53f7ffca39d6df6d10b0", null ],
-    [ "loadStl", "MRMeshLoad_8h.html#a6ad5ce754cee93f2e689cc16272b7043", null ]
+    [ "loadStl", "MRMeshLoad_8h.html#a6ad5ce754cee93f2e689cc16272b7043", null ],
+    [ "telemetryLogSize", "MRMeshLoad_8h.html#ga1609740c1af4ee05a62c65f39f25323a", null ]
 ];

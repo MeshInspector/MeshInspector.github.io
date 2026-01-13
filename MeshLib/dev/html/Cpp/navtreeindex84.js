@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[6,0,1,0,1,540,2],
 "structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[6,0,2,0,2,521,2],
 "structMR_1_1PointOnObject.html#a24573ab8d99e131aad6fa4b5b12e034f":[6,0,1,0,1,540,4],
 "structMR_1_1PointOnObject.html#a24573ab8d99e131aad6fa4b5b12e034f":[6,0,2,0,2,521,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,566,3],
 "structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,2,547,3],
 "structMR_1_1PositionVertsSmoothlyParams.html":[6,0,1,0,1,568],
-"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,2,0,2,549],
-"structMR_1_1PositionVertsSmoothlyParams.html#a35aa8fa1280f405afeb9f43189843024":[6,0,1,0,1,568,1]
+"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,2,0,2,549]
 };
