@@ -1,5 +1,11 @@
 var NAVTREEINDEX93 =
 {
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af156f0c076934ebcff78a9ba1b652c70":[6,1,1,0,1,1081,24],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af5947648693def648233dba6c9c80f5c":[6,1,0,0,2,1081,7],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af5947648693def648233dba6c9c80f5c":[6,1,1,0,1,1081,7],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af74b2b3e5086b04104e9d0d2371a6624":[6,1,0,0,2,1081,37],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#af74b2b3e5086b04104e9d0d2371a6624":[6,1,1,0,1,1081,37],
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#afc967e6b5dd8ce2daccfe8b3906ef231":[6,1,0,0,2,1081,12],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#afc967e6b5dd8ce2daccfe8b3906ef231":[6,1,1,0,1,1081,12],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,0,0,2,1081,18],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#affdca8d8a34705b33de3e93f24504807":[6,1,1,0,1,1081,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX93 =
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a3cb01aa90a405d04fced83a42845a236":[6,1,1,0,1,1087,11],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a454c0b8d1084603df4e9553a1f2c1164":[6,1,0,0,2,1087,32],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#a454c0b8d1084603df4e9553a1f2c1164":[6,1,1,0,1,1087,32],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a54c869826a6b2ff65a0bf6873c1965f6":[6,1,0,0,2,1087,17],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a54c869826a6b2ff65a0bf6873c1965f6":[6,1,1,0,1,1087,17],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e":[6,1,0,0,2,1087,2],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e":[6,1,1,0,1,1087,2],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a65eaebf3d8b982a5c62f37a51b1f2d27":[6,1,0,0,2,1087,36],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a65eaebf3d8b982a5c62f37a51b1f2d27":[6,1,1,0,1,1087,36],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3":[6,1,0,0,2,1087,3]
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#a54c869826a6b2ff65a0bf6873c1965f6":[6,1,0,0,2,1087,17]
 };

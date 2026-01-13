@@ -1,5 +1,8 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[6,0,2,0,2,739,3],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[6,0,1,0,1,758,0],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[6,0,2,0,2,739,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[6,0,1,0,1,758,0,1],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[6,0,2,0,2,739,0,1],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[6,0,1,0,1,758,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[6,0,0,13,0,0,2],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19":[6,0,0,13,0,0,0],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a80c3874decf9d019fab965c28d7a767b":[6,0,0,13,0,0,1],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95":[6,0,0,13,0,0,4],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a":[6,0,0,13,0,0,3],
-"structMR_1_1TriangulationParameters.html":[6,0,0,13,1],
-"structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046":[6,0,0,13,1,6]
+"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95":[6,0,0,13,0,0,4]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX43 =
 {
+"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,1,0,1,458,4],
+"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html":[6,1,0,0,2,459],
+"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html":[6,1,1,0,1,459],
+"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a01f2f981932f2c886eca6a6faec52b7a":[6,1,0,0,2,459,12],
+"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a01f2f981932f2c886eca6a6faec52b7a":[6,1,1,0,1,459,12],
+"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a5b047b73d409b1c81efb7f6b1e8e99f0":[6,1,0,0,2,459,2],
 "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a5b047b73d409b1c81efb7f6b1e8e99f0":[6,1,1,0,1,459,2],
 "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a75ce39f3ca5b2f41c8089840739a1a9c":[6,1,0,0,2,459,10],
 "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a75ce39f3ca5b2f41c8089840739a1a9c":[6,1,1,0,1,459,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX43 =
 "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#a91ce8e992993b98aa45fffde09653a3e":[6,1,1,0,1,466,0,7],
 "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#a9b9a9637d3ada628fd37db7a9229e153":[6,1,0,0,2,466,0,2],
 "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#a9b9a9637d3ada628fd37db7a9229e153":[6,1,1,0,1,466,0,2],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#aa297609ad2a8b7c120d086c36d80d423":[6,1,0,0,2,466,0,3],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#aa297609ad2a8b7c120d086c36d80d423":[6,1,1,0,1,466,0,3],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#aa3b349036a074746a7de840b054f7f7c":[6,1,0,0,2,466,0,0],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#aa3b349036a074746a7de840b054f7f7c":[6,1,1,0,1,466,0,0],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#ac9fa9d2f63a1685dd8ea1d6e6f210194":[6,1,0,0,2,466,0,5],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#ac9fa9d2f63a1685dd8ea1d6e6f210194":[6,1,1,0,1,466,0,5],
-"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#af1d287640a027f0608348ed9e6d1023b":[6,1,0,0,2,466,0,10]
+"classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html#aa297609ad2a8b7c120d086c36d80d423":[6,1,0,0,2,466,0,3]
 };

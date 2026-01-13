@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,2,547,3],
+"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,1,0,1,568],
+"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,2,0,2,549],
 "structMR_1_1PositionVertsSmoothlyParams.html#a35aa8fa1280f405afeb9f43189843024":[6,0,1,0,1,568,1],
 "structMR_1_1PositionVertsSmoothlyParams.html#a35aa8fa1280f405afeb9f43189843024":[6,0,2,0,2,549,1],
 "structMR_1_1PositionVertsSmoothlyParams.html#a5563df5f8c2ef1af7864e5be4bfc7a42":[6,0,1,0,1,568,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,1,0,1,601,0],
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,2,0,2,582,0],
 "structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,1,0,1,601,1],
-"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,2,0,2,582,1],
-"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,1,0,1,601,5],
-"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,2,0,2,582,5],
-"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,1,0,1,601,3]
+"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,2,0,2,582,1]
 };

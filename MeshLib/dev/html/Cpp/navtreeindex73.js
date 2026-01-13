@@ -1,5 +1,8 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[6,0,0,9,4,2,2],
+"structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3],
+"structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,261],
 "structMR_1_1FindInnerShellSettings.html":[6,0,2,0,2,242],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,261,1],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,2,242,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685":[6,0,1,0,1,294,1],
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685":[6,0,2,0,2,275,1],
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec":[6,0,1,0,1,294,1,1],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec":[6,0,2,0,2,275,1,1],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[6,0,1,0,1,294,1,0],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[6,0,2,0,2,275,1,0],
-"structMR_1_1GridToMeshSettings.html":[6,0,1,0,1,295]
+"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec":[6,0,2,0,2,275,1,1]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1PointOnFace.html#acabf2c49796ac6c253d2d2031fb688c7":[6,0,2,0,2,520,0],
+"structMR_1_1PointOnObject.html":[6,0,1,0,1,540],
+"structMR_1_1PointOnObject.html":[6,0,2,0,2,521],
 "structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[6,0,1,0,1,540,2],
 "structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[6,0,2,0,2,521,2],
 "structMR_1_1PointOnObject.html#a24573ab8d99e131aad6fa4b5b12e034f":[6,0,1,0,1,540,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,2,0,2,547,4],
 "structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,566,2],
 "structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,2,547,2],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,566,3],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,2,547,3],
-"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,1,0,1,568],
-"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,2,0,2,549]
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,566,3]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX84 =
 {
+"classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,1,0,1,1028,21],
+"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,0,0,2,1028,25],
+"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,1,0,1,1028,25],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,0,0,2,1029],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,1,0,1,1029],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,0,0,2,1029,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[6,1,1,0,1,1029,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[6,1,0,0,2,1029,8],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[6,1,1,0,1,1029,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a69861aa3f9cd594fb626499b3c0b74ad":[6,1,1,0,1,1036,14],
 "classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a69c6c75ca75b93eb352705bbe2df317c":[6,1,0,0,2,1036,4],
 "classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a69c6c75ca75b93eb352705bbe2df317c":[6,1,1,0,1,1036,4],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a6e55d91d92f89967561fa387df455be3":[6,1,0,0,2,1036,22],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a6e55d91d92f89967561fa387df455be3":[6,1,1,0,1,1036,22],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a71406ff60478f09c733ee70cf5245746":[6,1,0,0,2,1036,1],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a71406ff60478f09c733ee70cf5245746":[6,1,1,0,1,1036,1],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a77b4ab4496d39854268978c07e5e25f6":[6,1,0,0,2,1036,7],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a77b4ab4496d39854268978c07e5e25f6":[6,1,1,0,1,1036,7],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a77dfa2a934f1980eb7ce3c24c989f2ed":[6,1,0,0,2,1036,12]
+"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a6e55d91d92f89967561fa387df455be3":[6,1,0,0,2,1036,22]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,1,0,1,325,0],
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,2,0,2,306,0],
+"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,1,0,1,325,1],
 "structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,2,0,2,306,1],
 "structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[6,0,1,0,1,325,4],
 "structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[6,0,2,0,2,306,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,1,369],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,2,0,2,350],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#a7d6c4b4b9c582144c01aad1b8bf29605":[6,0,1,0,1,369,3],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a7d6c4b4b9c582144c01aad1b8bf29605":[6,0,2,0,2,350,3],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a89ef3c78f83d43c17a9dc7939b7d90e7":[6,0,1,0,1,369,1],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a89ef3c78f83d43c17a9dc7939b7d90e7":[6,0,2,0,2,350,1],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a9a43bd53420bdfcd8981d9dc16830775":[6,0,1,0,1,369,2]
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a7d6c4b4b9c582144c01aad1b8bf29605":[6,0,2,0,2,350,3]
 };

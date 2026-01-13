@@ -1,5 +1,11 @@
 var NAVTREEINDEX42 =
 {
+"classmrmeshpy_1_1LineSegm2d.html#a6c8b76b5dab7721742266a6e94a74dcb":[6,1,1,0,1,443,6],
+"classmrmeshpy_1_1LineSegm2d.html#a7eee28eee778138ce3337432807ce524":[6,1,0,0,2,443,5],
+"classmrmeshpy_1_1LineSegm2d.html#a7eee28eee778138ce3337432807ce524":[6,1,1,0,1,443,5],
+"classmrmeshpy_1_1LineSegm2d.html#a924536c7af611ba9a2513d54c42fbec5":[6,1,0,0,2,443,1],
+"classmrmeshpy_1_1LineSegm2d.html#a924536c7af611ba9a2513d54c42fbec5":[6,1,1,0,1,443,1],
+"classmrmeshpy_1_1LineSegm2d.html#aa7b7349b47b4c8fa8c57cd43b28b7546":[6,1,0,0,2,443,3],
 "classmrmeshpy_1_1LineSegm2d.html#aa7b7349b47b4c8fa8c57cd43b28b7546":[6,1,1,0,1,443,3],
 "classmrmeshpy_1_1LineSegm2d.html#adb5512a59a0e3bd30ecbff3e37eefd5c":[6,1,0,0,2,443,4],
 "classmrmeshpy_1_1LineSegm2d.html#adb5512a59a0e3bd30ecbff3e37eefd5c":[6,1,1,0,1,443,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX42 =
 "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#ae49a6062e2a6d241c2c034b10666edc7":[6,1,1,0,1,458,3],
 "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#ae730127e04c2f9b5bd87f7d26fc49e6b":[6,1,0,0,2,458,1],
 "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#ae730127e04c2f9b5bd87f7d26fc49e6b":[6,1,1,0,1,458,1],
-"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,0,0,2,458,4],
-"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,1,0,1,458,4],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html":[6,1,0,0,2,459],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html":[6,1,1,0,1,459],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a01f2f981932f2c886eca6a6faec52b7a":[6,1,0,0,2,459,12],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a01f2f981932f2c886eca6a6faec52b7a":[6,1,1,0,1,459,12],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a5b047b73d409b1c81efb7f6b1e8e99f0":[6,1,0,0,2,459,2]
+"classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html#afc4ba455679448436a4ef84ef10ddb6d":[6,1,0,0,2,458,4]
 };
