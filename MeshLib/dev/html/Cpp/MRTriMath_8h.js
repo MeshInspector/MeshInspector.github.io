@@ -25,6 +25,7 @@ var MRTriMath_8h =
     [ "makeDegenerate", "MRTriMath_8h.html#a57ff21b97318676241102c87bc9fe9b3", null ],
     [ "minTriangleAngle", "MRTriMath_8h.html#ac317aae7fbe013869599d57c76389e8b", null ],
     [ "minTriangleAngleSin", "MRTriMath_8h.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
+    [ "normal", "MRTriMath_8h.html#ab8a336bd7f4d118f0875b242298c3f68", null ],
     [ "normal", "MRTriMath_8h.html#a668bccb3edee9cdfebdbdc80a502dde5", null ],
     [ "normal", "MRTriMath_8h.html#aca6757bf3fe6058264ac14a06fbb616e", null ],
     [ "posFromTriEdgeLengths", "MRTriMath_8h.html#adb201ccd9ee730c7d901673288740ce6", null ],

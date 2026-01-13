@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1WriteRawTiffParams.html":[6,0,1,0,1,857],
+"structMR_1_1WriteRawTiffParams.html":[6,0,2,0,2,838],
 "structMR_1_1WriteRawTiffParams.html#a1317e078308acc1053202597ce0c7fc5":[6,0,1,0,1,857,1],
 "structMR_1_1WriteRawTiffParams.html#a1317e078308acc1053202597ce0c7fc5":[6,0,2,0,2,838,1],
 "structMR_1_1WriteRawTiffParams.html#aaed0d8c11f3aa7212b03821592cd28f0":[6,0,1,0,1,857,2],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7":[6,0,1,0,1,416,4],
+"structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7":[6,0,2,0,2,397,4],
 "structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,1,0,1,416,1],
 "structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1":[6,0,2,0,2,397,1],
 "structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596":[6,0,1,0,1,416,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,1,0,1,441,1],
 "structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,2,0,2,422,1],
 "structMR_1_1MutexOwner.html":[6,0,1,0,1,442],
-"structMR_1_1MutexOwner.html":[6,0,2,0,2,423],
-"structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[6,0,1,0,1,442,0],
-"structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[6,0,2,0,2,423,0]
+"structMR_1_1MutexOwner.html":[6,0,2,0,2,423]
 };
