@@ -159,33 +159,33 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a248125cac77c6f77434ba3bb583e81e6" id="r_a248125cac77c6f77434ba3bb583e81e6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a248125cac77c6f77434ba3bb583e81e6">getLastUsedDir</a> ()</td></tr>
-<tr class="separator:a248125cac77c6f77434ba3bb583e81e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df5d2ea1db6a7b00a9ed783f8ff4627" id="r_a6df5d2ea1db6a7b00a9ed783f8ff4627"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df5d2ea1db6a7b00a9ed783f8ff4627">setLastUsedDir</a> (const std::string &amp;folder)</td></tr>
-<tr class="memdesc:a6df5d2ea1db6a7b00a9ed783f8ff4627"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in the configuration the path (UTF8 encoded) to last used folder (where the files were last saved or open)  <br /></td></tr>
-<tr class="separator:a6df5d2ea1db6a7b00a9ed783f8ff4627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6236a401964ba52cc8c681800b9016b6" id="r_a6236a401964ba52cc8c681800b9016b6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6236a401964ba52cc8c681800b9016b6">getLastUsedDir</a> ()</td></tr>
+<tr class="separator:a6236a401964ba52cc8c681800b9016b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1ca147e48327b0475511d0b7b84957" id="r_aff1ca147e48327b0475511d0b7b84957"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff1ca147e48327b0475511d0b7b84957">setLastUsedDir</a> (const std::filesystem::path &amp;folder)</td></tr>
+<tr class="memdesc:aff1ca147e48327b0475511d0b7b84957"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in the configuration the path to last used folder (where the files were last saved or open)  <br /></td></tr>
+<tr class="separator:aff1ca147e48327b0475511d0b7b84957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a248125cac77c6f77434ba3bb583e81e6" name="a248125cac77c6f77434ba3bb583e81e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a248125cac77c6f77434ba3bb583e81e6">&#9670;&#160;</a></span>getLastUsedDir()</h2>
+<a id="a6236a401964ba52cc8c681800b9016b6" name="a6236a401964ba52cc8c681800b9016b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6236a401964ba52cc8c681800b9016b6">&#9670;&#160;</a></span>getLastUsedDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API std::string MR::FileDialog::getLastUsedDir </td>
+          <td class="memname">MRVIEWER_API std::filesystem::path MR::FileDialog::getLastUsedDir </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads from the configuration the path (UTF8 encoded) to last used folder (where the files were last saved or open); returns empty path if no last used folder is set </p>
+<p>loads from the configuration the path to last used folder (where the files were last saved or open); returns empty path if no last used folder is set </p>
 
 </div>
 </div>
-<a id="a6df5d2ea1db6a7b00a9ed783f8ff4627" name="a6df5d2ea1db6a7b00a9ed783f8ff4627"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6df5d2ea1db6a7b00a9ed783f8ff4627">&#9670;&#160;</a></span>setLastUsedDir()</h2>
+<a id="aff1ca147e48327b0475511d0b7b84957" name="aff1ca147e48327b0475511d0b7b84957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff1ca147e48327b0475511d0b7b84957">&#9670;&#160;</a></span>setLastUsedDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,13 +193,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::FileDialog::setLastUsedDir </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span></td><td>)</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>saves in the configuration the path (UTF8 encoded) to last used folder (where the files were last saved or open) </p>
+<p>saves in the configuration the path to last used folder (where the files were last saved or open) </p>
 
 </div>
 </div>
