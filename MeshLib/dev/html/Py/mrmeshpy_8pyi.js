@@ -2085,7 +2085,7 @@ var mrmeshpy_8pyi =
     [ "heapBytes", "mrmeshpy_8pyi.html#aaef3a62e9f7a479414debefb8b167b66", null ],
     [ "heapBytes", "mrmeshpy_8pyi.html#a28753e5f536226dc75c6b53300c02a8a", null ],
     [ "holeDirArea", "mrmeshpy_8pyi.html#ae53e446ff455ecd603569115d2e51d44", null ],
-    [ "holePerimiter", "mrmeshpy_8pyi.html#a7d10f4d3e234a2e00cefc71dc336c650", null ],
+    [ "holePerimeter", "mrmeshpy_8pyi.html#a0213d9e3c40a01066287a35a975c4934", null ],
     [ "identityMetric", "mrmeshpy_8pyi.html#a4504758a8fae339f5bceca8f4facef6f", null ],
     [ "improveSampling", "mrmeshpy_8pyi.html#a0b88094cbafff6749ee7647a1450b840", null ],
     [ "inCircle", "mrmeshpy_8pyi.html#ae93c8f47fc15469ce5f2e0d82c34fb48", null ],

@@ -2556,7 +2556,7 @@ var namespaceMR =
     [ "heapBytes", "group__BasicGroup.html#ga92b723fb37bb2e5133cba528ecd679e6", null ],
     [ "height", "group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae", null ],
     [ "holeDirArea", "namespaceMR.html#a4f73b1cca987a9e5c8069e711d63330e", null ],
-    [ "holePerimiter", "namespaceMR.html#acb19030d836bd45767a57eaa6360fa60", null ],
+    [ "holePerimeter", "namespaceMR.html#a2e932706d4cc0b5f0881c969c89d2cd1", null ],
     [ "identityMetric", "group__SurfacePathGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3", null ],
     [ "improveSampling", "group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08", null ],
     [ "inCircle", "namespaceMR.html#ae880209b92fb93b18e8e7c41b3ba6aea", null ],

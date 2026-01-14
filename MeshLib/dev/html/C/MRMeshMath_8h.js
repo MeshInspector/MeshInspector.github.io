@@ -60,7 +60,7 @@ var MRMeshMath_8h =
     [ "MR_getTriPoints_3", "MRMeshMath_8h.html#a7cbe3ce38e4382ae327365412c8af557", null ],
     [ "MR_getTriPoints_6", "MRMeshMath_8h.html#a840a6b5307471b2dc8b558d73528531c", null ],
     [ "MR_holeDirArea", "MRMeshMath_8h.html#a6e896cf48f7d56abb2d28cafca7bdd8c", null ],
-    [ "MR_holePerimiter", "MRMeshMath_8h.html#ac9c6154774cef12b35d87fc08ecaab88", null ],
+    [ "MR_holePerimeter", "MRMeshMath_8h.html#a0756a0527c6402a6d5fe2808f562f374", null ],
     [ "MR_leftCotan", "MRMeshMath_8h.html#a65be60be14d47aec757966aa6eae0d4a", null ],
     [ "MR_leftDirDblArea", "MRMeshMath_8h.html#a363ca6ad340b8c265a0a83f30c38113b", null ],
     [ "MR_leftNormal", "MRMeshMath_8h.html#a658376336ec91411dc7f0858ce6b171b", null ],

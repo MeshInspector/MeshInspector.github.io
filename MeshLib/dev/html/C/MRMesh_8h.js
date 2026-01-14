@@ -122,7 +122,7 @@ var MRMesh_8h =
     [ "MR_Mesh_getTriPoints_4", "MRMesh_8h.html#a138eed423f9e3d121c9cd2c00781021d", null ],
     [ "MR_Mesh_heapBytes", "MRMesh_8h.html#adf1abb29d8230c96ce811d437f57f338", null ],
     [ "MR_Mesh_holeDirArea", "MRMesh_8h.html#a60550e8658c519978af36a5818d9fba4", null ],
-    [ "MR_Mesh_holePerimiter", "MRMesh_8h.html#a8223a37ae23d0b98b0ee12572d690530", null ],
+    [ "MR_Mesh_holePerimeter", "MRMesh_8h.html#a8ec97d6f10295c71bba675f6c51ab96c", null ],
     [ "MR_Mesh_invalidateCaches", "MRMesh_8h.html#abbcff8f64e166a1e41cf870176a76330", null ],
     [ "MR_Mesh_isOutside", "MRMesh_8h.html#af251443cb28544a8c153d5c2f9206abf", null ],
     [ "MR_Mesh_isOutsideByProjNorm", "MRMesh_8h.html#aec5ef5dcaf43b33bbf07949ca12a03c9", null ],

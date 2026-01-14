@@ -68,7 +68,7 @@ var classmrmeshpy_1_1Mesh =
     [ "getTriPoints", "classmrmeshpy_1_1Mesh.html#abff68d27969c3be8fd356e9a39861947", null ],
     [ "heapBytes", "classmrmeshpy_1_1Mesh.html#aa18602ecf6746363a491831c7a0a7990", null ],
     [ "holeDirArea", "classmrmeshpy_1_1Mesh.html#ae228ba091cc209ebe0052f5f529a9268", null ],
-    [ "holePerimiter", "classmrmeshpy_1_1Mesh.html#aa8fa8ad5ea99b0613affc0ea801db30d", null ],
+    [ "holePerimeter", "classmrmeshpy_1_1Mesh.html#aff1cae867627fc2498349db8f6a8b8d2", null ],
     [ "invalidateCaches", "classmrmeshpy_1_1Mesh.html#a824f8b9c99223a6980bff0825f726e59", null ],
     [ "isOutside", "classmrmeshpy_1_1Mesh.html#a8ffe61ad225c59abf6c5013d2ae63df5", null ],
     [ "isOutsideByProjNorm", "classmrmeshpy_1_1Mesh.html#ab73213f5b75da08157311c67cafa7ab4", null ],

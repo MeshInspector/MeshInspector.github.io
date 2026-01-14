@@ -82,7 +82,7 @@ var group__MeshGroup =
       [ "getTriPoints", "structMR_1_1Mesh.html#a08c67e01e6197aebd5f2407cc1571c89", null ],
       [ "heapBytes", "structMR_1_1Mesh.html#ac1942a02f00e2404cfbf897d88f3f732", null ],
       [ "holeDirArea", "structMR_1_1Mesh.html#a5987866b04f9e182594595fadb7cc6e5", null ],
-      [ "holePerimiter", "structMR_1_1Mesh.html#ad4ae74b982e66d8f996ba56b49cbd39d", null ],
+      [ "holePerimeter", "structMR_1_1Mesh.html#a1d9c349940bd023baeffad5dd6e503f5", null ],
       [ "invalidateCaches", "structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505", null ],
       [ "isOutside", "structMR_1_1Mesh.html#a8121a87b4511118c273836888eb18ab8", null ],
       [ "isOutsideByProjNorm", "structMR_1_1Mesh.html#a0fdc9e5969b065b761018ff5cb0a43a5", null ],
