@@ -255,7 +255,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Vertices coordinates:&quot;</span>);</div>
 <div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; mesh.points.Size(); ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var p = mesh.points.Index(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(i));</div>
+<div class="line">                var p = mesh.points[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(i)];</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Vertex {0} coordinates: {1}; {2}; {3}&quot;</span>, i, p.x, p.y, p.z);</div>
 <div class="line">            }</div>
 <div class="line"> </div>
@@ -263,7 +263,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; tri.Size(); ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var t = tri.Index(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FaceId(i));</div>
+<div class="line">                var t = tri[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FaceId(i)];</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, t.elems._0.id, t.elems._1.id, t.elems._2.id);</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
