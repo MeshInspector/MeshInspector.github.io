@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MaxArg.html#aa21a71bf7a4170f22b846dfd6f688a3b":[6,0,2,0,2,361,2],
 "structMR_1_1MaxArg.html#ad30afe2538c6149652bcfaf60a97544a":[6,0,1,0,1,380,1],
 "structMR_1_1MaxArg.html#ad30afe2538c6149652bcfaf60a97544a":[6,0,2,0,2,361,1],
 "structMR_1_1MaxArg.html#ad539b3994d5669f58854f0a4cebe4616":[6,0,1,0,1,380,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshLoadSettings.html":[6,0,2,0,2,372],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,1,0,1,391,2],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,2,0,2,372,2],
-"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,1,0,1,391,9],
-"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,2,0,2,372,9]
+"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,1,0,1,391,9]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1PointOnFace.html#a8637dcfb147334b89a036bd81aa65d29":[6,0,1,0,1,539,2],
 "structMR_1_1PointOnFace.html#a8637dcfb147334b89a036bd81aa65d29":[6,0,2,0,2,520,2],
 "structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[6,0,1,0,1,539,5],
 "structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[6,0,2,0,2,520,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,566,0],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,2,0,2,547,0],
 "structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,1,0,1,566,1],
-"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,2,0,2,547,1],
-"structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,1,0,1,566,4]
+"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,2,0,2,547,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[6,0,2,0,2,582,4],
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,1,0,1,601,0],
 "structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,2,0,2,582,0],
 "structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,1,0,1,601,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,2,0,2,629,1],
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,1,0,1,648,6],
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,2,0,2,629,6],
-"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,1,0,1,648,5],
-"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,2,0,2,629,5]
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,1,0,1,648,5]
 };

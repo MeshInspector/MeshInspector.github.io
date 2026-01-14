@@ -40,6 +40,7 @@ var group__MeshFixerGroup =
     [ "MR::findDisorientedFaces", "group__MeshFixerGroup.html#ga538e3992fb17dac0a5e4f140d86defef", null ],
     [ "MR::findHoleComplicatingFaces", "group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf", null ],
     [ "MR::findMultipleEdges", "group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043", null ],
+    [ "MR::findNotSmoothFaces", "group__MeshFixerGroup.html#ga866d4ce98ccfb2b97c17b372f139b31e", null ],
     [ "MR::findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
     [ "MR::findRepeatedVertsOnHoleBd", "group__MeshFixerGroup.html#ga8e2b8d3db10183b66f463f70a7eac5b4", null ],
     [ "MR::findShortEdges", "group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea", null ],

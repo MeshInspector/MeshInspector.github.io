@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[6,0,0,9,4,2,1],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[6,0,0,9,4,2,0],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[6,0,0,9,4,2,0,2],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147":[6,0,0,9,4,2,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1GridSettings.html#a790adf53fc23a7b8fe0be9674ebb70af":[6,0,2,0,2,275,3],
 "structMR_1_1GridSettings.html#ab5b3ed30ff4dde0622d5d2fb4c2213d8":[6,0,1,0,1,294,5],
 "structMR_1_1GridSettings.html#ab5b3ed30ff4dde0622d5d2fb4c2213d8":[6,0,2,0,2,275,5],
-"structMR_1_1GridSettings.html#aeb3dd9e9c7f4ea93ddd4aea1b4afc61c":[6,0,1,0,1,294,4],
-"structMR_1_1GridSettings.html#aeb3dd9e9c7f4ea93ddd4aea1b4afc61c":[6,0,2,0,2,275,4]
+"structMR_1_1GridSettings.html#aeb3dd9e9c7f4ea93ddd4aea1b4afc61c":[6,0,1,0,1,294,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,2,0,2,629,5],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,1,0,1,649,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,2,0,2,630,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#a6b6c1c5a1a26b8a37295e7e5a2e1d97c":[6,0,1,0,1,649,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,2,0,2,677,0],
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,1,0,1,696,1],
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,2,0,2,677,1],
-"structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,1,0,1,696,4],
-"structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,2,0,2,677,4]
+"structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357":[6,0,1,0,1,696,4]
 };

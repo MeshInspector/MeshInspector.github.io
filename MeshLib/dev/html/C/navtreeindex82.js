@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"MROverlappingTris_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17":[6,2,1,0,0,0,1,233,2],
 "MROverlappingTris_8h.html#af64e7f9122dcc4276d00933352bd7198":[6,2,1,0,0,0,1,233,12],
 "MROverlappingTris_8h_source.html":[6,2,1,0,0,0,1,233],
 "MRParabola_8h.html":[6,2,1,0,0,0,1,234],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "MRPdf_8h.html#a269be60cb45e4a8756307f3120d9ed7d":[6,2,1,0,0,0,0,7,152],
 "MRPdf_8h.html#a27ed207a01a68cf7ada1419483b1d07b":[6,2,1,0,0,0,0,7,174],
 "MRPdf_8h.html#a28b0a6bd683ebd2f5b7e236a5a584b72":[6,2,1,0,0,0,0,7,217],
-"MRPdf_8h.html#a29ee6a78e22d55cb3266162c602cf044":[6,2,1,0,0,0,0,7,177],
-"MRPdf_8h.html#a2c1bff4c08e4ebac976c775245015b55":[6,2,1,0,0,0,0,7,105]
+"MRPdf_8h.html#a29ee6a78e22d55cb3266162c602cf044":[6,2,1,0,0,0,0,7,177]
 };

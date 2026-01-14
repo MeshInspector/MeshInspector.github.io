@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1MultiwayICPSamplingParameters.html#ae06a2f568227da83fff1138c53d0fc30":[6,0,2,0,2,422,1],
 "structMR_1_1MutexOwner.html":[6,0,1,0,1,442],
 "structMR_1_1MutexOwner.html":[6,0,2,0,2,423],
 "structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[6,0,1,0,1,442,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1OffsetContoursParams.html#a54d1e9aa48ca8acba1b89d63455ab630":[6,0,1,0,1,491,4],
 "structMR_1_1OffsetContoursParams.html#a54d1e9aa48ca8acba1b89d63455ab630":[6,0,2,0,2,472,4],
 "structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4":[6,0,1,0,1,491,0],
-"structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4":[6,0,2,0,2,472,0],
-"structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444":[6,0,1,0,1,491,0,1]
+"structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4":[6,0,2,0,2,472,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX191 =
 {
+"std__vector__char_8h.html#ac5fefb1d154bae1ce16cc21d32ec2d56":[6,2,1,0,0,0,2,359,65],
 "std__vector__char_8h.html#ac666c2c118266a637e85778d7bfe8779":[6,2,1,0,0,0,2,359,43],
 "std__vector__char_8h.html#ac6a069599da3c43be00136daff7004e4":[6,2,1,0,0,0,2,359,33],
 "std__vector__char_8h.html#ac7c2e877421acf5f09c3c9a362cb1b33":[6,2,1,0,0,0,2,359,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX191 =
 "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a085c92ec85dbf4215ed393c33ddaf449":[6,2,1,0,0,0,2,362,40],
 "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a133f68158126f44bf52a0910b64645b3":[6,2,1,0,0,0,2,362,54],
 "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a16c4670cf4df1f9d32753b2063ed0036":[6,2,1,0,0,0,2,362,48],
-"std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a1ad7d7de28cc05eb263e44a37bd616c5":[6,2,1,0,0,0,2,362,4],
-"std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a1b3b69bd9cb6377502d7a35edb2acef5":[6,2,1,0,0,0,2,362,45]
+"std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a1ad7d7de28cc05eb263e44a37bd616c5":[6,2,1,0,0,0,2,362,4]
 };

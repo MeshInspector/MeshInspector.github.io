@@ -224,6 +224,8 @@ Functions</h2></td></tr>
 <tr class="separator:a113a4bf7447ac9a412d78b1bdb2372cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4166cb427726661e4c4b9874a8879db" id="r_ad4166cb427726661e4c4b9874a8879db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4166cb427726661e4c4b9874a8879db">MR_findDegenerateFaces</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const float *criticalAspectRatio, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:ad4166cb427726661e4c4b9874a8879db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b6b6782255c894c31af72ca4b7f47f" id="r_ad4b6b6782255c894c31af72ca4b7f47f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b6b6782255c894c31af72ca4b7f47f">MR_findNotSmoothFaces</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const float *minAngle, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ad4b6b6782255c894c31af72ca4b7f47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17bd525f3bb0fdfbba5fb58f3e30759c" id="r_a17bd525f3bb0fdfbba5fb58f3e30759c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a944af0e4dff57f7dcf5aa04b59a15478">MR_expected_MR_UndirectedEdgeBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17bd525f3bb0fdfbba5fb58f3e30759c">MR_findShortEdges</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float criticalLength, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a17bd525f3bb0fdfbba5fb58f3e30759c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12e0cafcff9650e26785f7a41e6d9572" id="r_a12e0cafcff9650e26785f7a41e6d9572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12e0cafcff9650e26785f7a41e6d9572">MR_FixMeshDegeneraciesParams_Get_maxDeviation</a> (const <a class="el" href="#afe9246c90eb396b143e97e632c16430f">MR_FixMeshDegeneraciesParams</a> *_this)</td></tr>
@@ -1289,6 +1291,43 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043">MR::findMultipleEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__pair__MR__VertId__MR__VertId__std__string_8h.html#a44ea546713fa232011ddddc9d405d671" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string....">MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad4b6b6782255c894c31af72ca4b7f47f" name="ad4b6b6782255c894c31af72ca4b7f47f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b6b6782255c894c31af72ca4b7f47f">&#9670;&#160;</a></span>MR_findNotSmoothFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_findNotSmoothFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>minAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>find inner faces of the given mesh part, which has large angles with its 3 neighbours </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">minAngle</td><td>threshold in radians, which is used in comparison of angles of face's planes, the large minAngle the less number of faces will be found Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga866d4ce98ccfb2b97c17b372f139b31e">MR::findNotSmoothFaces</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>minAngle</code> has a default argument: <code>0.300000012f</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"MRMeshToDistanceVolume_8h.html#a1e18ef9311b53c98140e7dc383f7afc9":[6,2,1,0,0,0,4,12,39],
 "MRMeshToDistanceVolume_8h.html#a264b5271a8409b6f782f8649cf34c164":[6,2,1,0,0,0,4,12,14],
 "MRMeshToDistanceVolume_8h.html#a2bcc9e0185b1b69327e04236cb873141":[6,2,1,0,0,0,4,12,26],
 "MRMeshToDistanceVolume_8h.html#a2bfc8579640df1f555313b79185fc857":[6,2,1,0,0,0,4,12,69],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "MRMeshTopology_8h.html#af8ed05482b183991100ab1b8c0b807ca":[6,2,1,0,0,0,1,197,72],
 "MRMeshTopology_8h.html#afc3ca8f1ce1fb0dcb102e580f85be674":[6,2,1,0,0,0,1,197,68],
 "MRMeshTopology_8h.html#afccc79f8333fdea46e2d126f2a96186f":[6,2,1,0,0,0,1,197,80],
-"MRMeshTopology_8h.html#afdf6093dfb74c31c4943c71a1c491115":[6,2,1,0,0,0,1,197,73],
-"MRMeshTopology_8h.html#aff238b96282bea00a687ce310151b30d":[6,2,1,0,0,0,1,197,6]
+"MRMeshTopology_8h.html#afdf6093dfb74c31c4943c71a1c491115":[6,2,1,0,0,0,1,197,73]
 };
