@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1MoveObjectByMouseImpl.html#af6ca6c34829bccce1c38a2f30f793b99":[6,0,1,0,1,434,7],
 "classMR_1_1MoveObjectByMouseImpl.html#af6ca6c34829bccce1c38a2f30f793b99":[6,0,2,0,2,415,7],
 "classMR_1_1MultiwayAligningTransform.html":[6,0,0,0,8,0],
 "classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4":[6,0,0,0,8,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1ObjectDistanceMap.html#a8ad6dff58820964d2e9399707ebe2f91":[6,0,0,11,5,15],
 "classMR_1_1ObjectDistanceMap.html#a8e077ec531dfa8174d27d9e5a31fa47f":[6,0,0,11,5,22],
 "classMR_1_1ObjectDistanceMap.html#a909bc94c17de8482114192a257f196a6":[6,0,0,11,5,23],
-"classMR_1_1ObjectDistanceMap.html#a926ef79a1ea86d98b42dafc6eb5b112b":[6,0,0,11,5,3],
-"classMR_1_1ObjectDistanceMap.html#a9788925d8f072383a35145d4b13cbb92":[6,0,0,11,5,16]
+"classMR_1_1ObjectDistanceMap.html#a926ef79a1ea86d98b42dafc6eb5b112b":[6,0,0,11,5,3]
 };

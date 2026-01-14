@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"std__pair__float__MR__VertId_8h.html#addc0b82d5c820136fc0f1451434afdcc":[6,2,1,0,0,0,2,224,1],
 "std__pair__float__MR__VertId_8h.html#afe43210eba7abb35cee48ce5b34c695b":[6,2,1,0,0,0,2,224,2],
 "std__pair__float__MR__VertId_8h_source.html":[6,2,1,0,0,0,2,224],
 "std__pair__float__float_8h.html":[6,2,1,0,0,0,2,223],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#ad6deb08c545a4e92b224dfad062207ab":[6,2,1,0,0,0,2,255,14],
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#ae4d96f8327940be53676104d4ba317e7":[6,2,1,0,0,0,2,255,5],
 "std__shared__ptr__MR__AngleMeasurementObject_8h_source.html":[6,2,1,0,0,0,2,255],
-"std__shared__ptr__MR__BasicUiRenderTask_8h.html":[6,2,1,0,0,0,2,256],
-"std__shared__ptr__MR__BasicUiRenderTask_8h.html#a261519c905dfcd3fc2315b04d4d65082":[6,2,1,0,0,0,2,256,4]
+"std__shared__ptr__MR__BasicUiRenderTask_8h.html":[6,2,1,0,0,0,2,256]
 };

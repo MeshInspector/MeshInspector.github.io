@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,1,0,1,324,0],
+"structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,2,0,2,305,0],
 "structMR_1_1InSphereSearchSettings.html":[6,0,1,0,1,325],
 "structMR_1_1InSphereSearchSettings.html":[6,0,2,0,2,306],
 "structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,1,0,1,325,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119":[6,0,0,9,3,4,0],
 "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[6,0,0,9,3,4,3],
 "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[6,0,0,9,3,4,1],
-"structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495":[6,0,0,9,3,4,2],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,1,369],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,2,0,2,350]
+"structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495":[6,0,0,9,3,4,2]
 };

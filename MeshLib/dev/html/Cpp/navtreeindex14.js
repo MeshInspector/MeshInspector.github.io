@@ -3,8 +3,9 @@ var NAVTREEINDEX14 =
 "MRTouchpadWin32Handler_8h.html":[6,0,3,0,0,1,10,137],
 "MRTouchpadWin32Handler_8h_source.html":[6,0,3,0,0,1,10,137],
 "MRTriDist_8h.html":[6,0,3,0,0,1,4,390],
-"MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[6,0,3,0,0,1,4,390,1],
-"MRTriDist_8h.html#aaf4d239a6cdece7da03913ad2b3a6efe":[6,0,3,0,0,1,4,390,0],
+"MRTriDist_8h.html#a33ec3255300c2f2575cf39c46bd8f578":[6,0,3,0,0,1,4,390,2],
+"MRTriDist_8h.html#a5a67f76a82c38c8966aceae2506683e7":[6,0,3,0,0,1,4,390,0],
+"MRTriDist_8h.html#ac1bad3906fe116bb8f0ecdd2cb9063bf":[6,0,3,0,0,1,4,390,1],
 "MRTriDist_8h_source.html":[6,0,3,0,0,1,4,390],
 "MRTriMath_8h.html":[6,0,3,0,0,1,4,391],
 "MRTriMath_8h.html#a2609ca5846a4d9851c66bd4df5e7a4f8":[6,0,3,0,0,1,4,391,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRUnitInfo_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aa65f0b3020d7466b9998591f1c71fa770":[6,0,3,0,0,1,4,404,17,5],
 "MRUnitInfo_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aacd964191c4ad82fa4ea14da25913b2dd":[6,0,3,0,0,1,4,404,17,2],
 "MRUnitInfo_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aad69186af02738a9b3ced1bc5b652ba55":[6,0,3,0,0,1,4,404,17,6],
-"MRUnitInfo_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69":[6,0,3,0,0,1,4,404,17,4],
-"MRUnitInfo_8h.html#ade788894f8f8c19c83a75d44908bc4e4":[6,0,3,0,0,1,4,404,9]
+"MRUnitInfo_8h.html#ad9e7a49998c5eecad26ffc58feb2a29aaedb9d531e5469d6c8316b2e3ff592c69":[6,0,3,0,0,1,4,404,17,4]
 };

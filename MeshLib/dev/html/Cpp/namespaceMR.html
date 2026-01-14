@@ -6077,12 +6077,14 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:gaf5c17228b0533759ec08bc5a2c3e45ae" id="r_gaf5c17228b0533759ec08bc5a2c3e45ae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf5c17228b0533759ec08bc5a2c3e45ae"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1TriIntersectResult.html">TriIntersectResult</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#gaf5c17228b0533759ec08bc5a2c3e45ae">rayTriangleIntersect</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;oriA, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;oriB, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;oriC, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
 <tr class="separator:gaf5c17228b0533759ec08bc5a2c3e45ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a068b87fd749129c9bc76263ce77fe9af" id="r_a068b87fd749129c9bc76263ce77fe9af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068b87fd749129c9bc76263ce77fe9af">TriDist</a> (Vector3f &amp;p, Vector3f &amp;q, const Vector3f s[3], const Vector3f t[3])</td></tr>
-<tr class="memdesc:a068b87fd749129c9bc76263ce77fe9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on two triangles, and returns the squared distance between them.  <br /></td></tr>
-<tr class="separator:a068b87fd749129c9bc76263ce77fe9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4d239a6cdece7da03913ad2b3a6efe" id="r_aaf4d239a6cdece7da03913ad2b3a6efe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf4d239a6cdece7da03913ad2b3a6efe">SegPoints</a> (Vector3f &amp;VEC, Vector3f &amp;<a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a>, Vector3f &amp;<a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0">Y</a>, const Vector3f &amp;P, const Vector3f &amp;A, const Vector3f &amp;Q, const Vector3f &amp;B)</td></tr>
-<tr class="memdesc:aaf4d239a6cdece7da03913ad2b3a6efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns closest points between an segment pair.  <br /></td></tr>
-<tr class="separator:aaf4d239a6cdece7da03913ad2b3a6efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ec3255300c2f2575cf39c46bd8f578" id="r_a33ec3255300c2f2575cf39c46bd8f578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ec3255300c2f2575cf39c46bd8f578">triDist</a> (Vector3f &amp;p, Vector3f &amp;q, const Vector3f s[3], const Vector3f t[3])</td></tr>
+<tr class="separator:a33ec3255300c2f2575cf39c46bd8f578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1bad3906fe116bb8f0ecdd2cb9063bf" id="r_ac1bad3906fe116bb8f0ecdd2cb9063bf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1bad3906fe116bb8f0ecdd2cb9063bf">triDist</a> (Vector3f &amp;p, Vector3f &amp;q, const std::array&lt; Vector3f, 3 &gt; &amp;s, const std::array&lt; Vector3f, 3 &gt; &amp;t)</td></tr>
+<tr class="memdesc:ac1bad3906fe116bb8f0ecdd2cb9063bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on two triangles, and returns the squared distance between them.  <br /></td></tr>
+<tr class="separator:ac1bad3906fe116bb8f0ecdd2cb9063bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a67f76a82c38c8966aceae2506683e7" id="r_a5a67f76a82c38c8966aceae2506683e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a67f76a82c38c8966aceae2506683e7">segPoints</a> (Vector3f &amp;VEC, Vector3f &amp;<a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a>, Vector3f &amp;<a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0">Y</a>, const Vector3f &amp;P, const Vector3f &amp;A, const Vector3f &amp;Q, const Vector3f &amp;B)</td></tr>
+<tr class="memdesc:a5a67f76a82c38c8966aceae2506683e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns closest points between an segment pair.  <br /></td></tr>
+<tr class="separator:a5a67f76a82c38c8966aceae2506683e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed" id="r_ga97b0c226492f4561c1a2c13831433bed"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga97b0c226492f4561c1a2c13831433bed">circumcircleDiameterSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="separator:ga97b0c226492f4561c1a2c13831433bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -37275,14 +37277,14 @@ template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&g
 
 </div>
 </div>
-<a id="aaf4d239a6cdece7da03913ad2b3a6efe" name="aaf4d239a6cdece7da03913ad2b3a6efe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf4d239a6cdece7da03913ad2b3a6efe">&#9670;&#160;</a></span>SegPoints()</h2>
+<a id="a5a67f76a82c38c8966aceae2506683e7" name="a5a67f76a82c38c8966aceae2506683e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a67f76a82c38c8966aceae2506683e7">&#9670;&#160;</a></span>segPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SegPoints </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::segPoints </td>
           <td>(</td>
           <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>VEC</em></span>, </td>
         </tr>
@@ -39686,14 +39688,62 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a068b87fd749129c9bc76263ce77fe9af" name="a068b87fd749129c9bc76263ce77fe9af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a068b87fd749129c9bc76263ce77fe9af">&#9670;&#160;</a></span>TriDist()</h2>
+<a id="ac1bad3906fe116bb8f0ecdd2cb9063bf" name="ac1bad3906fe116bb8f0ecdd2cb9063bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1bad3906fe116bb8f0ecdd2cb9063bf">&#9670;&#160;</a></span>triDist() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::triDist </td>
+          <td>(</td>
+          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>q</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; Vector3f, 3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; Vector3f, 3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the closest points on two triangles, and returns the squared distance between them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s,t</td><td>are the triangles, stored tri[point][dimension].</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>If the triangles are disjoint, p and q give the closest points of s and t respectively. However, if the triangles overlap, p and q are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. </p>
+
+</div>
+</div>
+<a id="a33ec3255300c2f2575cf39c46bd8f578" name="a33ec3255300c2f2575cf39c46bd8f578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ec3255300c2f2575cf39c46bd8f578">&#9670;&#160;</a></span>triDist() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::TriDist </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> float MR::triDist </td>
           <td>(</td>
           <td class="paramtype">Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
         </tr>
@@ -39714,15 +39764,6 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>computes the closest points on two triangles, and returns the squared distance between them. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s,t</td><td>are the triangles, stored tri[point][dimension].</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>If the triangles are disjoint, p and q give the closest points of s and t respectively. However, if the triangles overlap, p and q are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. </p>
 
 </div>
 </div>

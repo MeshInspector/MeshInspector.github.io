@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"namespacemembers_type_i.html":[6,0,1,1,3,8],
+"namespacemembers_type_l.html":[6,0,1,1,3,9],
 "namespacemembers_type_m.html":[6,0,1,1,3,10],
 "namespacemembers_type_n.html":[6,0,1,1,3,11],
 "namespacemembers_type_o.html":[6,0,1,1,3,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BMap.html":[6,0,2,0,2,68],
 "structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,1,0,1,87,0],
 "structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,2,0,2,68,0],
-"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,1,0,1,87,1],
-"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,2,0,2,68,1],
-"structMR_1_1Ball.html":[6,0,1,0,1,72]
+"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,1,0,1,87,1]
 };
