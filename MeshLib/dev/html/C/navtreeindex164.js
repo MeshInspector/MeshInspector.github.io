@@ -1,5 +1,15 @@
 var NAVTREEINDEX164 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#aef1eb0bc79cf940999bb6b96427a5008":[6,2,1,0,0,0,2,373,27],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#aef97d4b9b8e9babf245bbeda8cd88892":[6,2,1,0,0,0,2,373,46],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#af165e7db6f78a21e283799f3b7093ae9":[6,2,1,0,0,0,2,373,13],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#afbc7ac60346087cc2d3ab5fa5318339f":[6,2,1,0,0,0,2,373,38],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#afc7be64fe5f3219c37d234abec4eb30d":[6,2,1,0,0,0,2,373,71],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#afdfdc53b13b6bfbfbad0e4ee32a4ce41":[6,2,1,0,0,0,2,373,58],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#aff3cf689744bff6980f5ef9a7040bd30":[6,2,1,0,0,0,2,373,50],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h_source.html":[6,2,1,0,0,0,2,373],
+"std__vector__MR__Color_8h.html":[6,2,1,0,0,0,2,374],
+"std__vector__MR__Color_8h.html#a0d70794a4d49ae790cc666edebf163e9":[6,2,1,0,0,0,2,374,13],
 "std__vector__MR__Color_8h.html#a140f59dac7626b7317f3d6db82e33a4d":[6,2,1,0,0,0,2,374,40],
 "std__vector__MR__Color_8h.html#a15c255b39b10b0484a60f24062cc2a95":[6,2,1,0,0,0,2,374,1],
 "std__vector__MR__Color_8h.html#a1aca1b91ce032705f1b44c3bd2e5c987":[6,2,1,0,0,0,2,374,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX164 =
 "std__vector__MR__EdgeBitSet_8h.html#a3df23138796c759f601cc0687258dbcd":[6,2,1,0,0,0,2,377,32],
 "std__vector__MR__EdgeBitSet_8h.html#a3f7f1d230d4c0462ab61be4fd625226c":[6,2,1,0,0,0,2,377,47],
 "std__vector__MR__EdgeBitSet_8h.html#a3fc3f8b1541e24bae6450e4632401a1b":[6,2,1,0,0,0,2,377,61],
-"std__vector__MR__EdgeBitSet_8h.html#a4044586ba1d49360b4fa88c73e73c8ee":[6,2,1,0,0,0,2,377,65],
-"std__vector__MR__EdgeBitSet_8h.html#a4055f222ed920b44cdae38a1c85bf38d":[6,2,1,0,0,0,2,377,20],
-"std__vector__MR__EdgeBitSet_8h.html#a432780a42715db4c592ca98d2ffdc94a":[6,2,1,0,0,0,2,377,19],
-"std__vector__MR__EdgeBitSet_8h.html#a4ad3bd57a1040645305749c0b9764537":[6,2,1,0,0,0,2,377,18],
-"std__vector__MR__EdgeBitSet_8h.html#a4e51e7f8a627308160cf225577ebec0c":[6,2,1,0,0,0,2,377,28],
-"std__vector__MR__EdgeBitSet_8h.html#a4f113b4d3fda1635d0cb36f07f5535bf":[6,2,1,0,0,0,2,377,43],
-"std__vector__MR__EdgeBitSet_8h.html#a4f31a4a073644c7420880eebe24e56a8":[6,2,1,0,0,0,2,377,45],
-"std__vector__MR__EdgeBitSet_8h.html#a59753fcc15ff6d2eedaffd04e5c17bae":[6,2,1,0,0,0,2,377,2],
-"std__vector__MR__EdgeBitSet_8h.html#a5b262f1ae027bceb9a019c7408422556":[6,2,1,0,0,0,2,377,50],
-"std__vector__MR__EdgeBitSet_8h.html#a5b427828cd5b456a606626136dff3e3d":[6,2,1,0,0,0,2,377,40],
-"std__vector__MR__EdgeBitSet_8h.html#a5ba7a4d21e0d5d616b543f1ac9a4496f":[6,2,1,0,0,0,2,377,57]
+"std__vector__MR__EdgeBitSet_8h.html#a4044586ba1d49360b4fa88c73e73c8ee":[6,2,1,0,0,0,2,377,65]
 };

@@ -84,7 +84,7 @@ var searchData=
   ['mrmeshpy_3a_3amarchingcubesparams_81',['MarchingCubesParams',['../../Py/classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3ameshbuilder_82',['MeshBuilder',['../../Py/classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3ameshcomponents_83',['MeshComponents',['../../Py/classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3ameshsave_84',['MeshSave',['../../Py/classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3ameshsave_84',['MeshSave',['../../Py/classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3amultiwayicpsamplingparameters_85',['MultiwayICPSamplingParameters',['../../Py/classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3anormalstopoints_86',['NormalsToPoints',['../../Py/classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3aobjectcomparablewithreference_87',['ObjectComparableWithReference',['../../Py/classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html',1,'mrmeshpy']]],

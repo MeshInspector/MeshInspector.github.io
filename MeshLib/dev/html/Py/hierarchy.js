@@ -79,6 +79,7 @@ var hierarchy =
     [ "mrmeshpy.Features.Traits.Binary_Features_Primitives_Plane_Features_Primitives_Plane", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html", null ],
     [ "mrmeshpy.Features.Traits.Binary_Features_Primitives_Plane_Sphere3f", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Sphere3f.html", null ],
     [ "mrmeshpy.Features.Traits.Binary_Sphere3f_Sphere3f", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html", null ],
+    [ "mrmeshpy.MeshSave.BinaryStlSaver", "classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver.html", null ],
     [ "mrmeshpy.BitSet", "classmrmeshpy_1_1BitSet.html", [
       [ "mrmeshpy.AABBTreePoints.NodeBitSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html", null ],
       [ "mrmeshpy.EdgeBitSet", "classmrmeshpy_1_1EdgeBitSet.html", null ],

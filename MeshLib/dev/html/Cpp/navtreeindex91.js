@@ -1,5 +1,10 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[6,0,2,0,2,25,1,4],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#adfa09c4f869d92627a0ca88966af3bef":[6,0,1,0,1,42,1,7],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#adfa09c4f869d92627a0ca88966af3bef":[6,0,2,0,2,25,1,7],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,1,0,1,42,1,8],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,2,0,2,25,1,8],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[6,0,0,13,0,0],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[6,0,0,13,0,0,2],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19":[6,0,0,13,0,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX91 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#ae87e1750cabd4b10198e82ed353eb4f1":[6,0,2,0,2,26,0,4,1,1],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html":[6,0,1,0,1,43,2,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html":[6,0,2,0,2,26,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a2b990620883498579ca16a0128629999":[6,0,1,0,1,43,2,0,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a2b990620883498579ca16a0128629999":[6,0,2,0,2,26,0,0,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714":[6,0,1,0,1,43,2,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714":[6,0,2,0,2,26,0,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[6,0,1,0,1,43,2,0,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[6,0,2,0,2,26,0,0,0,2]
+"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a2b990620883498579ca16a0128629999":[6,0,1,0,1,43,2,0,0,1]
 };

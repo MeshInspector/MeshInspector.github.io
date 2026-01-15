@@ -1,5 +1,10 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1LoadedObjects.html#aad900de70ed9e1d66bf895d703b0eb6d":[6,0,2,0,2,345,1],
+"structMR_1_1MakeBridgeResult.html":[6,0,0,9,3,4],
+"structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119":[6,0,0,9,3,4,0],
+"structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[6,0,0,9,3,4,3],
+"structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[6,0,0,9,3,4,1],
 "structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495":[6,0,0,9,3,4,2],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,1,369],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,2,0,2,350],
@@ -244,10 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1Matrix4.html#afefd6af8bdb869e88d5062c6aa38c746":[6,0,0,0,7,3,43],
 "structMR_1_1Matrix4.html#aff9e2bc787d384454aed9377473bfdc3":[6,0,0,0,7,3,41],
 "structMR_1_1MaxArg.html":[6,0,1,0,1,380],
-"structMR_1_1MaxArg.html":[6,0,2,0,2,361],
-"structMR_1_1MaxArg.html#a6e631e817fa5321af17499e6d85dd493":[6,0,1,0,1,380,3],
-"structMR_1_1MaxArg.html#a6e631e817fa5321af17499e6d85dd493":[6,0,2,0,2,361,3],
-"structMR_1_1MaxArg.html#a92801c4c188336ee3d3fb4032cfa7f03":[6,0,1,0,1,380,0],
-"structMR_1_1MaxArg.html#a92801c4c188336ee3d3fb4032cfa7f03":[6,0,2,0,2,361,0],
-"structMR_1_1MaxArg.html#aa21a71bf7a4170f22b846dfd6f688a3b":[6,0,1,0,1,380,2]
+"structMR_1_1MaxArg.html":[6,0,2,0,2,361]
 };

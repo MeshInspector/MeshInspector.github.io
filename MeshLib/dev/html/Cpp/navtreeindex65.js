@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8":[6,0,1,0,1,41,0,0],
+"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,1,0,1,41,1],
+"namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,1,0,1,41,1,0],
+"namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe":[6,0,1,0,1,41,1,1],
+"namespaceMR_1_1StyleConsts_1_1Notification.html":[6,0,1,0,1,41,2],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a40b832fe75f008db0d06d0ce99d54600":[6,0,1,0,1,41,2,9],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a483f138c30daa1fe0e5686bf554e2915":[6,0,1,0,1,41,2,4],
 "namespaceMR_1_1StyleConsts_1_1Notification.html#a4c0e53ab35221788afdf9df8298f8e3b":[6,0,1,0,1,41,2,8],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "namespacemembers_t.html":[6,0,1,1,0,18],
 "namespacemembers_type.html":[6,0,1,1,3],
 "namespacemembers_type.html":[6,0,1,1,3,0],
-"namespacemembers_type_b.html":[6,0,1,1,3,1],
-"namespacemembers_type_c.html":[6,0,1,1,3,2],
-"namespacemembers_type_d.html":[6,0,1,1,3,3],
-"namespacemembers_type_e.html":[6,0,1,1,3,4],
-"namespacemembers_type_f.html":[6,0,1,1,3,5],
-"namespacemembers_type_g.html":[6,0,1,1,3,6]
+"namespacemembers_type_b.html":[6,0,1,1,3,1]
 };

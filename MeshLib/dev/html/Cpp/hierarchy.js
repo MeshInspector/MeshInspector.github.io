@@ -158,6 +158,7 @@ var hierarchy =
     [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html", null ],
     [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::Features::Traits::Binary< Primitives::Sphere, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html", null ],
+    [ "MR::MeshSave::BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
       [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]

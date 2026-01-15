@@ -519,6 +519,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshProjectionTransforms", "classmrmeshpy_1_1MeshProjectionTransforms.html", "classmrmeshpy_1_1MeshProjectionTransforms" ],
     [ "mrmeshpy.MeshRelaxParams", "classmrmeshpy_1_1MeshRelaxParams.html", "classmrmeshpy_1_1MeshRelaxParams" ],
     [ "mrmeshpy.MeshSave", "classmrmeshpy_1_1MeshSave.html", "classmrmeshpy_1_1MeshSave" ],
+    [ "mrmeshpy.MeshSave.BinaryStlSaver", "classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver.html", "classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver" ],
     [ "mrmeshpy.MeshSave.CtmSaveOptions", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" ],
     [ "mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" ],
     [ "mrmeshpy.MeshSave.NamedXfMesh", "classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html", "classmrmeshpy_1_1MeshSave_1_1NamedXfMesh" ],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX146 =
 {
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a6125b2888bd87f33373340655199018c":[6,2,1,0,0,0,2,180,10],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a62d75fa374024ada65bed326c673cb43":[6,2,1,0,0,0,2,180,5],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a658bdd437578b6e54915afcd8101fb73":[6,2,1,0,0,0,2,180,9],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a67127e42fc7184aa454aa59ac9e74776":[6,2,1,0,0,0,2,180,13],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a6b874e347b3275e1ac4b694dee8dd8fa":[6,2,1,0,0,0,2,180,11],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a72ab0be0b71b29e9f310e7526a8cc57b":[6,2,1,0,0,0,2,180,2],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a7b1b59758be41d64a7d00836d5bb281c":[6,2,1,0,0,0,2,180,12],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#af0143085136f3ff15c5a5150047793cb":[6,2,1,0,0,0,2,180,1],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#af8bc02638a613cd6a6c51c2c32c5087e":[6,2,1,0,0,0,2,180,3],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#afe47727eda21ca9fda12dfb0153d782d":[6,2,1,0,0,0,2,180,6],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h_source.html":[6,2,1,0,0,0,2,180],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html":[6,2,1,0,0,0,2,181],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a0c71a779d7152951bb9d97a934bc74b8":[6,2,1,0,0,0,2,181,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX146 =
 "std__optional__MR__Color_8h.html#a55e0a3cbc1a3c2e04a5e9184aa02628c":[6,2,1,0,0,0,2,191,11],
 "std__optional__MR__Color_8h.html#a5f39dd053694c739bdc863f1a74b0f43":[6,2,1,0,0,0,2,191,3],
 "std__optional__MR__Color_8h.html#a7fd33ed2781ec9356ad8d00abe63f843":[6,2,1,0,0,0,2,191,9],
-"std__optional__MR__Color_8h.html#a94beee91b9ba87a78c3df957afa90173":[6,2,1,0,0,0,2,191,4],
-"std__optional__MR__Color_8h.html#aca1579870247203f1e7c260b5916c975":[6,2,1,0,0,0,2,191,12],
-"std__optional__MR__Color_8h.html#adf3b0e282d95d0ac0ee88c6a53937da8":[6,2,1,0,0,0,2,191,1],
-"std__optional__MR__Color_8h.html#af8e34c593afc89cf4494928ca552201f":[6,2,1,0,0,0,2,191,0],
-"std__optional__MR__Color_8h.html#afa5f94d36e9ec4a86aeabcc6e7542a3b":[6,2,1,0,0,0,2,191,7],
-"std__optional__MR__Color_8h_source.html":[6,2,1,0,0,0,2,191],
-"std__optional__MR__DentalId_8h.html":[6,2,1,0,0,0,2,192],
-"std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[6,2,1,0,0,0,2,192,6],
-"std__optional__MR__DentalId_8h.html#a2ef1f290c904a8e51dafa9b52c43bcf2":[6,2,1,0,0,0,2,192,9],
-"std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[6,2,1,0,0,0,2,192,1],
-"std__optional__MR__DentalId_8h.html#a75b8c1825104bd14290eadfc0c9195df":[6,2,1,0,0,0,2,192,8]
+"std__optional__MR__Color_8h.html#a94beee91b9ba87a78c3df957afa90173":[6,2,1,0,0,0,2,191,4]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1SaveSettings.html#a68ee31992d19548930e73b7a6d4a1aaa":[6,1,1,0,1,779,26],
+"classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54":[6,1,0,0,2,779,9],
+"classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54":[6,1,1,0,1,779,9],
+"classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b":[6,1,0,0,2,779,1],
+"classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b":[6,1,1,0,1,779,1],
+"classmrmeshpy_1_1SaveSettings.html#a81771cf4e4023c678647efcd50223e01":[6,1,0,0,2,779,24],
+"classmrmeshpy_1_1SaveSettings.html#a81771cf4e4023c678647efcd50223e01":[6,1,1,0,1,779,24],
+"classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd":[6,1,0,0,2,779,4],
+"classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd":[6,1,1,0,1,779,4],
+"classmrmeshpy_1_1SaveSettings.html#aa55f96bf1a4f0fbdf29abebca792cf0e":[6,1,0,0,2,779,10],
 "classmrmeshpy_1_1SaveSettings.html#aa55f96bf1a4f0fbdf29abebca792cf0e":[6,1,1,0,1,779,10],
 "classmrmeshpy_1_1SaveSettings.html#ab0308bab262ffed82505833c80b2e3c0":[6,1,0,0,2,779,7],
 "classmrmeshpy_1_1SaveSettings.html#ab0308bab262ffed82505833c80b2e3c0":[6,1,1,0,1,779,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1SegmPointd.html":[6,1,1,0,1,788],
 "classmrmeshpy_1_1SegmPointd.html#a3318efed86387d4503a846a235a5e9cf":[6,1,0,0,2,788,11],
 "classmrmeshpy_1_1SegmPointd.html#a3318efed86387d4503a846a235a5e9cf":[6,1,1,0,1,788,11],
-"classmrmeshpy_1_1SegmPointd.html#a367168893bab885f794c627589193a4f":[6,1,0,0,2,788,9],
-"classmrmeshpy_1_1SegmPointd.html#a367168893bab885f794c627589193a4f":[6,1,1,0,1,788,9],
-"classmrmeshpy_1_1SegmPointd.html#a4fa87077c486b4dd2b99c98e08c87f7c":[6,1,0,0,2,788,3],
-"classmrmeshpy_1_1SegmPointd.html#a4fa87077c486b4dd2b99c98e08c87f7c":[6,1,1,0,1,788,3],
-"classmrmeshpy_1_1SegmPointd.html#a60cd70f79e6791c6c6b4469a54cd8e57":[6,1,0,0,2,788,4],
-"classmrmeshpy_1_1SegmPointd.html#a60cd70f79e6791c6c6b4469a54cd8e57":[6,1,1,0,1,788,4],
-"classmrmeshpy_1_1SegmPointd.html#a64905e3ddf22dd6078e12341a2cf3dff":[6,1,0,0,2,788,6],
-"classmrmeshpy_1_1SegmPointd.html#a64905e3ddf22dd6078e12341a2cf3dff":[6,1,1,0,1,788,6],
-"classmrmeshpy_1_1SegmPointd.html#a6bc4cafb536627e886fad1e2178083c9":[6,1,0,0,2,788,1],
-"classmrmeshpy_1_1SegmPointd.html#a6bc4cafb536627e886fad1e2178083c9":[6,1,1,0,1,788,1],
-"classmrmeshpy_1_1SegmPointd.html#a78480523f3d1b08735831eaf0e198208":[6,1,0,0,2,788,0]
+"classmrmeshpy_1_1SegmPointd.html#a367168893bab885f794c627589193a4f":[6,1,0,0,2,788,9]
 };

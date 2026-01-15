@@ -1,5 +1,15 @@
 var NAVTREEINDEX147 =
 {
+"std__optional__MR__Color_8h.html#aca1579870247203f1e7c260b5916c975":[6,2,1,0,0,0,2,191,12],
+"std__optional__MR__Color_8h.html#adf3b0e282d95d0ac0ee88c6a53937da8":[6,2,1,0,0,0,2,191,1],
+"std__optional__MR__Color_8h.html#af8e34c593afc89cf4494928ca552201f":[6,2,1,0,0,0,2,191,0],
+"std__optional__MR__Color_8h.html#afa5f94d36e9ec4a86aeabcc6e7542a3b":[6,2,1,0,0,0,2,191,7],
+"std__optional__MR__Color_8h_source.html":[6,2,1,0,0,0,2,191],
+"std__optional__MR__DentalId_8h.html":[6,2,1,0,0,0,2,192],
+"std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[6,2,1,0,0,0,2,192,6],
+"std__optional__MR__DentalId_8h.html#a2ef1f290c904a8e51dafa9b52c43bcf2":[6,2,1,0,0,0,2,192,9],
+"std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[6,2,1,0,0,0,2,192,1],
+"std__optional__MR__DentalId_8h.html#a75b8c1825104bd14290eadfc0c9195df":[6,2,1,0,0,0,2,192,8],
 "std__optional__MR__DentalId_8h.html#a7d4a8b5b0b534e30d35f223682683dbe":[6,2,1,0,0,0,2,192,5],
 "std__optional__MR__DentalId_8h.html#a89493065b4df62da86b6e3b257ee44f0":[6,2,1,0,0,0,2,192,4],
 "std__optional__MR__DentalId_8h.html#ab6f851679734ec8da383d00d028966a6":[6,2,1,0,0,0,2,192,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX147 =
 "std__optional__MR__TriIntersectResult_8h.html#ac46da6b5cc88e299bf4fa7861346cd31":[6,2,1,0,0,0,2,208,6],
 "std__optional__MR__TriIntersectResult_8h.html#ae203751c90708c191b4f8b214e024ff6":[6,2,1,0,0,0,2,208,8],
 "std__optional__MR__TriIntersectResult_8h.html#af2c42765293e4a332f3489bc688b7cea":[6,2,1,0,0,0,2,208,7],
-"std__optional__MR__TriIntersectResult_8h.html#af70d49abc8671c6aaf7604be1a319563":[6,2,1,0,0,0,2,208,10],
-"std__optional__MR__TriIntersectResult_8h_source.html":[6,2,1,0,0,0,2,208],
-"std__optional__MR__Triangulation_8h.html":[6,2,1,0,0,0,2,207],
-"std__optional__MR__Triangulation_8h.html#a0d34b05b5087633fccd0bd910a2b5118":[6,2,1,0,0,0,2,207,6],
-"std__optional__MR__Triangulation_8h.html#a1313d62bdb31a82b425e4279e2fd4b4e":[6,2,1,0,0,0,2,207,2],
-"std__optional__MR__Triangulation_8h.html#a157344ea67f7bf89d1072211e18791fe":[6,2,1,0,0,0,2,207,12],
-"std__optional__MR__Triangulation_8h.html#a2bac0d5ba2d3a9f02c305f5ce9203c42":[6,2,1,0,0,0,2,207,11],
-"std__optional__MR__Triangulation_8h.html#a33f2cead15f3bf37534d3678feb4af22":[6,2,1,0,0,0,2,207,1],
-"std__optional__MR__Triangulation_8h.html#a44a42ee694514a0ab1eda113aa0a8ac4":[6,2,1,0,0,0,2,207,8],
-"std__optional__MR__Triangulation_8h.html#a61e6961e8669f804982e9aabb797c2ee":[6,2,1,0,0,0,2,207,3],
-"std__optional__MR__Triangulation_8h.html#a7ea68eb1db497a75ed3b14f3f48fcad4":[6,2,1,0,0,0,2,207,7]
+"std__optional__MR__TriIntersectResult_8h.html#af70d49abc8671c6aaf7604be1a319563":[6,2,1,0,0,0,2,208,10]
 };
