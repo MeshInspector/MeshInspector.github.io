@@ -329,33 +329,33 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
-<div class="line">            MR.Box3f box = mesh.getBoundingBox();</div>
+<div class="line">            MR.Box3f box = mesh.GetBoundingBox();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Construct deformer on mesh vertices</span></div>
 <div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR.FreeFormDeformer</a> ffDeformer = <span class="keyword">new</span>(mesh);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
-<div class="line">            ffDeformer.init(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i.diagonal(3), box);</div>
+<div class="line">            ffDeformer.Init(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i.Diagonal(3), box);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Move some control points of the grid to the center</span></div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 0), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 2), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(0, 1, 1), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(2, 1, 1), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 0, 1), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 2, 1), box.center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 0), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 2), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(0, 1, 1), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(2, 1, 1), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 0, 1), box.Center());</div>
+<div class="line">            ffDeformer.SetRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 2, 1), box.Center());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Apply the deformation to the mesh vertices</span></div>
-<div class="line">            ffDeformer.apply();</div>
+<div class="line">            ffDeformer.Apply();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
-<div class="line">            mesh.invalidateCaches();</div>
+<div class="line">            mesh.InvalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save deformed mesh</span></div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>

@@ -1,17 +1,5 @@
 var NAVTREEINDEX165 =
 {
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#ae76271e582706b0c1b0bfde6239b76c2":[6,1,1,0,1,983,8],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#ae990fe5eb13922d3eda31afcda604ffc":[6,1,0,0,2,983,11],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#ae990fe5eb13922d3eda31afcda604ffc":[6,1,1,0,1,983,11],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#af6391be4e1318e0e3b533ff3f326ad31":[6,1,0,0,2,983,6],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#af6391be4e1318e0e3b533ff3f326ad31":[6,1,1,0,1,983,6],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html":[6,1,0,0,2,975],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html":[6,1,1,0,1,975],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04f8d49f30dd8a1d7748955095c55a48":[6,1,0,0,2,975,18],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04f8d49f30dd8a1d7748955095c55a48":[6,1,1,0,1,975,18],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04fb05fa0f96ca9b2e4a6482f341f3ae":[6,1,0,0,2,975,5],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04fb05fa0f96ca9b2e4a6482f341f3ae":[6,1,1,0,1,975,5],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a172332d9db2db4fe768f2192a950faa2":[6,1,0,0,2,975,11],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a172332d9db2db4fe768f2192a950faa2":[6,1,1,0,1,975,11],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a2a3cce851ff67faefe081a4acd634001":[6,1,0,0,2,975,4],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a2a3cce851ff67faefe081a4acd634001":[6,1,1,0,1,975,4],
@@ -249,5 +237,17 @@ var NAVTREEINDEX165 =
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#ae770841e46679ef4f20d1471774dba89":[6,1,1,0,1,986,22],
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aec04fa11d6f1b3838d9b310e827a4cfd":[6,1,0,0,2,986,1],
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aec04fa11d6f1b3838d9b310e827a4cfd":[6,1,1,0,1,986,1],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[6,1,0,0,2,986,17]
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[6,1,0,0,2,986,17],
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[6,1,1,0,1,986,17],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[6,1,0,0,2,987],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[6,1,1,0,1,987],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a00325fc4c43eae3b66dd80b40bf5cf95":[6,1,0,0,2,987,1],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a00325fc4c43eae3b66dd80b40bf5cf95":[6,1,1,0,1,987,1],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a162ef2c5e71412d1f42f6613057317cc":[6,1,0,0,2,987,23],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a162ef2c5e71412d1f42f6613057317cc":[6,1,1,0,1,987,23],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a21c8104e791a94ff6b99509eed1cda4e":[6,1,0,0,2,987,0],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a21c8104e791a94ff6b99509eed1cda4e":[6,1,1,0,1,987,0],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a2283013167b769207c6c81c6a32cf2c7":[6,1,0,0,2,987,16],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a2283013167b769207c6c81c6a32cf2c7":[6,1,1,0,1,987,16],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a288d6c2b27e9bd879bac1572c29da5ae":[6,1,0,0,2,987,14]
 };

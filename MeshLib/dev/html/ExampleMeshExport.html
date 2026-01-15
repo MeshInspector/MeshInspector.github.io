@@ -251,17 +251,17 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeCube(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f.diagonal(1), <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f.diagonal(-0.5f));</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.MakeCube(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f.Diagonal(1), <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f.Diagonal(-0.5f));</div>
 <div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Vertices coordinates:&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; mesh.points.size(); ++i)</div>
+<div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; mesh.points.Size(); ++i)</div>
 <div class="line">            {</div>
 <div class="line">                var p = mesh.points[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(i)];</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Vertex {0} coordinates: {1}; {2}; {3}&quot;</span>, i, p.x, p.y, p.z);</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            MR.Triangulation tri = mesh.topology.getTriangulation();</div>
+<div class="line">            MR.Triangulation tri = mesh.topology.GetTriangulation();</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; tri.size(); ++i)</div>
+<div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; tri.Size(); ++i)</div>
 <div class="line">            {</div>
 <div class="line">                var t = tri[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FaceId(i)];</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, t.elems._0.id, t.elems._1.id, t.elems._2.id);</div>
