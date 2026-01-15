@@ -151,7 +151,8 @@ $(function(){initNavTree('MRMeshSave_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRMeshSave.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -194,8 +195,8 @@ Functions</h2></td></tr>
 <tr class="separator:a31cf43b1ce0d14abe9491be225feb51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3935fe4bd91d44056020f7445e8164f" id="r_ab3935fe4bd91d44056020f7445e8164f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3935fe4bd91d44056020f7445e8164f">MR_MeshSave_toBinaryStl_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:ab3935fe4bd91d44056020f7445e8164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f4aeb13a52ac36bc0dc51afb74d214" id="r_a67f4aeb13a52ac36bc0dc51afb74d214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f4aeb13a52ac36bc0dc51afb74d214">MR_MeshSave_BinaryStlSaver_ConstructFromAnother</a> (const <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *_other)</td></tr>
-<tr class="separator:a67f4aeb13a52ac36bc0dc51afb74d214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbebbb700722002f08383ef5d9502b30" id="r_adbebbb700722002f08383ef5d9502b30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbebbb700722002f08383ef5d9502b30">MR_MeshSave_BinaryStlSaver_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *_other)</td></tr>
+<tr class="separator:adbebbb700722002f08383ef5d9502b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa60c622e161492fab65d2682ba3a3c" id="r_a0aa60c622e161492fab65d2682ba3a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aa60c622e161492fab65d2682ba3a3c">MR_MeshSave_BinaryStlSaver_OffsetPtr</a> (const <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a0aa60c622e161492fab65d2682ba3a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a0aa60c622e161492fab65d2682ba3a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,8 +348,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a67f4aeb13a52ac36bc0dc51afb74d214" name="a67f4aeb13a52ac36bc0dc51afb74d214"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67f4aeb13a52ac36bc0dc51afb74d214">&#9670;&#160;</a></span>MR_MeshSave_BinaryStlSaver_ConstructFromAnother()</h2>
+<a id="adbebbb700722002f08383ef5d9502b30" name="adbebbb700722002f08383ef5d9502b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbebbb700722002f08383ef5d9502b30">&#9670;&#160;</a></span>MR_MeshSave_BinaryStlSaver_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,12 +357,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> * MR_MeshSave_BinaryStlSaver_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#a15841922e4341270dd5c39f1d222792c">MR_MeshSave_BinaryStlSaver</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MeshSave_1_1BinaryStlSaver.html#a8b13be4885e5257ed1d9da8dd8f89ade">MR::MeshSave::BinaryStlSaver::BinaryStlSaver</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac10d9861eec17ae2dbf6392debb8dde9" title="Destroys a heap-allocated instance of MR_MeshSave_BinaryStlSaver. Does nothing if the pointer is null...">MR_MeshSave_BinaryStlSaver_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1MeshSave_1_1BinaryStlSaver.html#a8b13be4885e5257ed1d9da8dd8f89ade">MR::MeshSave::BinaryStlSaver::BinaryStlSaver</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac10d9861eec17ae2dbf6392debb8dde9" title="Destroys a heap-allocated instance of MR_MeshSave_BinaryStlSaver. Does nothing if the pointer is null...">MR_MeshSave_BinaryStlSaver_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
