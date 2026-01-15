@@ -596,18 +596,18 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">{</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MultiwayICP</a> icp)</div>
 <div class="line">    {</div>
-<div class="line">        ulong numActivePairs = icp.GetNumActivePairs();</div>
-<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.GetNumSamples()}&quot;</span>);</div>
+<div class="line">        ulong numActivePairs = icp.getNumActivePairs();</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.getNumSamples()}&quot;</span>);</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">if</span> (numActivePairs &gt; 0)</div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">double</span> p2ptMetric = icp.GetMeanSqDistToPoint();</div>
-<div class="line">            <span class="keywordtype">double</span> p2ptInaccuracy = icp.GetMeanSqDistToPoint(p2ptMetric);</div>
+<div class="line">            <span class="keywordtype">double</span> p2ptMetric = icp.getMeanSqDistToPoint();</div>
+<div class="line">            <span class="keywordtype">double</span> p2ptInaccuracy = icp.getMeanSqDistToPoint(p2ptMetric);</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-point distance: {p2ptMetric} ± {p2ptInaccuracy}&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordtype">double</span> p2plMetric = icp.GetMeanSqDistToPlane();</div>
-<div class="line">            <span class="keywordtype">double</span> p2plInaccuracy = icp.GetMeanSqDistToPlane(p2ptMetric);</div>
+<div class="line">            <span class="keywordtype">double</span> p2plMetric = icp.getMeanSqDistToPlane();</div>
+<div class="line">            <span class="keywordtype">double</span> p2plInaccuracy = icp.getMeanSqDistToPlane(p2ptMetric);</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
@@ -627,35 +627,35 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var pc = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsLoad.html">PointsLoad</a>.FromAnySupportedFormat(args[i + 1]);</div>
+<div class="line">                var pc = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsLoad.html">PointsLoad</a>.fromAnySupportedFormat(args[i + 1]);</div>
 <div class="line">                input_pointclouds.Add(pc); <span class="comment">// Need this to prevent the point-cloud object from dying too early.</span></div>
 <div class="line">                <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> obj = <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>(pc, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
-<div class="line">                inputs.PushBack(obj);</div>
-<div class="line">                maxBBox.Include(obj.obj.ComputeBoundingBox());</div>
+<div class="line">                inputs.pushBack(obj);</div>
+<div class="line">                maxBBox.include(obj.obj.computeBoundingBox());</div>
 <div class="line">            }</div>
 <div class="line"> </div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MultiwayICPSamplingParameters.html">MR.MultiwayICPSamplingParameters</a> samplingParams = <span class="keyword">new</span>();</div>
-<div class="line">            samplingParams.samplingVoxelSize = maxBBox.Diagonal() * 0.03f;</div>
+<div class="line">            samplingParams.samplingVoxelSize = maxBBox.diagonal() * 0.03f;</div>
 <div class="line"> </div>
 <div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MR.MultiwayICP</a> icp = <span class="keyword">new</span>(inputs, samplingParams);</div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> iCPProperties = <span class="keyword">new</span>();</div>
-<div class="line">            icp.SetParams(iCPProperties);</div>
-<div class="line">            icp.UpdateAllPointPairs();</div>
+<div class="line">            icp.setParams(iCPProperties);</div>
+<div class="line">            icp.updateAllPointPairs();</div>
 <div class="line">            PrintStats(icp);</div>
 <div class="line"> </div>
 <div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Calculating transformations...&quot;</span>);</div>
-<div class="line">            MR.Vector_MRAffineXf3f_MRObjId xfs = icp.CalculateTransformations();</div>
+<div class="line">            MR.Vector_MRAffineXf3f_MRObjId xfs = icp.calculateTransformations();</div>
 <div class="line">            PrintStats(icp);</div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> output = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
 <div class="line">                MR.ObjId <span class="keywordtype">id</span> = <span class="keyword">new</span>(i);</div>
 <div class="line">                var xf = xfs[id];</div>
-<div class="line">                <span class="keywordflow">for</span> (ulong j = 0; j &lt; inputs[id].obj.Points().Size(); j++)</div>
-<div class="line">                    output.AddPoint(xf.Call(inputs[<span class="keywordtype">id</span>].obj.Points()[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(j)]));</div>
+<div class="line">                <span class="keywordflow">for</span> (ulong j = 0; j &lt; inputs[id].obj.points().size(); j++)</div>
+<div class="line">                    output.addPoint(xf.call(inputs[<span class="keywordtype">id</span>].obj.points()[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(j)]));</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsSave.html">PointsSave</a>.ToAnySupportedFormat(output, args[args.Length - 1]);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsSave.html">PointsSave</a>.toAnySupportedFormat(output, args[args.Length - 1]);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>

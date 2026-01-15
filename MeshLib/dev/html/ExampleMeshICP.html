@@ -402,14 +402,14 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load meshes</span></div>
 <div class="line"> </div>
-<div class="line">            var mesh_floating = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
-<div class="line">            var mesh_fixed = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.FromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
+<div class="line">            var mesh_floating = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
+<div class="line">            var mesh_fixed = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">            <span class="keywordtype">float</span> diagonal = mesh_xf_fixed.obj.ComputeBoundingBox().Diagonal();</div>
+<div class="line">            <span class="keywordtype">float</span> diagonal = mesh_xf_fixed.obj.computeBoundingBox().diagonal();</div>
 <div class="line">            <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> icpParams = <span class="keyword">new</span>();</div>
 <div class="line">            icpParams.distThresholdSq = diagonal * diagonal * 0.01f; <span class="comment">// Use points pairs with maximum distance specified</span></div>
@@ -417,17 +417,17 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Calculate transformation</span></div>
 <div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR.ICP</a> icp = <span class="keyword">new</span>(mesh_xf_floating, mesh_xf_fixed, icpSamplingVoxelSize);</div>
-<div class="line">            icp.SetParams(icpParams);</div>
-<div class="line">            MR.AffineXf3f xf = icp.CalculateTransformation();</div>
+<div class="line">            icp.setParams(icpParams);</div>
+<div class="line">            MR.AffineXf3f xf = icp.calculateTransformation();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Transform floating mesh</span></div>
-<div class="line">            mesh_floating.Transform(xf);</div>
+<div class="line">            mesh_floating.transform(xf);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Output information string</span></div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;info {0}&quot;</span>, icp.GetStatusInfo());</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;info {0}&quot;</span>, icp.getStatusInfo());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.ToAnySupportedFormat(mesh_floating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(mesh_floating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
