@@ -328,7 +328,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="line">        var collidingFacePairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB);</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFacePairs.size(); i++) {</div>
-<div class="line">            var pair = collidingFacePairs.at(i);</div>
+<div class="line">            var pair = collidingFacePairs[i];</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;FaceA: {pair.aFace.id} FaceB: {pair.bFace.id}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line"> </div>

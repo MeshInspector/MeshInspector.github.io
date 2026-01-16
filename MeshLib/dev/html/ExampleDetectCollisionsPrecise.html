@@ -308,7 +308,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">        var collidingFaceEdges = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingEdgeTrisPrecise(meshPartA, meshPartB, converters);</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFaceEdges.size(); i++) {</div>
-<div class="line">            var vet = collidingFaceEdges.at(i);</div>
+<div class="line">            var vet = collidingFaceEdges[i];</div>
 <div class="line">            var text = vet.isEdgeATriB()</div>
 <div class="line">                ? $<span class="stringliteral">&quot;edgeA: {vet.edge.id}, triB: {vet.tri().id}&quot;</span></div>
 <div class="line">                : $<span class="stringliteral">&quot;triA: {vet.tri().id}, edgeB: {vet.edge.id}&quot;</span>;</div>
