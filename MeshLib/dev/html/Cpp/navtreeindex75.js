@@ -1,5 +1,11 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[6,0,2,0,2,7,7,20],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[6,0,1,0,1,16,7,26],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[6,0,2,0,2,7,7,26],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1c17acc07cc2fb3c28fb03c5dc38a9fc":[6,0,1,0,1,16,7,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1c17acc07cc2fb3c28fb03c5dc38a9fc":[6,0,2,0,2,7,7,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1cf0d10de380a1426ddb2c0887c09fa8":[6,0,1,0,1,16,7,12],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1cf0d10de380a1426ddb2c0887c09fa8":[6,0,2,0,2,7,7,12],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1de83d675e9cc8f326bca68a76eb52c3":[6,0,1,0,1,16,7,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1de83d675e9cc8f326bca68a76eb52c3":[6,0,2,0,2,7,7,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24":[6,0,1,0,1,321,6],
 "structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24":[6,0,2,0,2,302,6],
 "structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,1,0,1,321,1],
-"structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,2,0,2,302,1],
-"structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296":[6,0,1,0,1,321,0],
-"structMR_1_1ImproveSamplingSettings.html#a59eb791fd7a6937434c6378dbf627296":[6,0,2,0,2,302,0],
-"structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,1,0,1,321,7],
-"structMR_1_1ImproveSamplingSettings.html#a687aebaf900e5c3365e9672943863437":[6,0,2,0,2,302,7],
-"structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5":[6,0,1,0,1,321,5],
-"structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5":[6,0,2,0,2,302,5]
+"structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,2,0,2,302,1]
 };

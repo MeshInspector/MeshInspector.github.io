@@ -154,12 +154,17 @@ $(function(){initNavTree('MRLineSegm_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRLineSegm_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a6992d64f6703ac6d7687c699042105a2" id="r_a6992d64f6703ac6d7687c699042105a2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2">MR_Line2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6992d64f6703ac6d7687c699042105a2">MR_Line2d</a></td></tr>
+<tr class="separator:a6992d64f6703ac6d7687c699042105a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f4324f3958a2b1ca19cd1728c5db67" id="r_a42f4324f3958a2b1ca19cd1728c5db67"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67">MR_Line2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42f4324f3958a2b1ca19cd1728c5db67">MR_Line2f</a></td></tr>
+<tr class="separator:a42f4324f3958a2b1ca19cd1728c5db67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40ebbdb98ca17b35cd8f2efa0697e309" id="r_a40ebbdb98ca17b35cd8f2efa0697e309"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a></td></tr>
 <tr class="separator:a40ebbdb98ca17b35cd8f2efa0697e309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae64025fe6a8da3033f534a4728469bcb" id="r_ae64025fe6a8da3033f534a4728469bcb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a></td></tr>
@@ -339,8 +344,44 @@ Functions</h2></td></tr>
 <tr class="separator:ab2282d4818b9126bc7c9b1728fc29c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34202d30a839ffb42f04e40732dc244a" id="r_a34202d30a839ffb42f04e40732dc244a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34202d30a839ffb42f04e40732dc244a">MR_LineSegm3d_call</a> (const <a class="el" href="#a438f2f50208ff37150a7ac5a2725ac05">MR_LineSegm3d</a> *_this, double param)</td></tr>
 <tr class="separator:a34202d30a839ffb42f04e40732dc244a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acddc390665da482b99470d9853a26e93" id="r_acddc390665da482b99470d9853a26e93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acddc390665da482b99470d9853a26e93">MR_doSegmentsIntersect_MR_Vector2f</a> (const <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a> *x, const <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a> *y, float *xPos, float *yPos)</td></tr>
+<tr class="separator:acddc390665da482b99470d9853a26e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501bcebc30a7a96b3a8075c30dbc864f" id="r_a501bcebc30a7a96b3a8075c30dbc864f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a501bcebc30a7a96b3a8075c30dbc864f">MR_doSegmentsIntersect_MR_Vector2d</a> (const <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a> *x, const <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a> *y, double *xPos, double *yPos)</td></tr>
+<tr class="separator:a501bcebc30a7a96b3a8075c30dbc864f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7657c64289bd289e1da76d7e1e0ec461" id="r_a7657c64289bd289e1da76d7e1e0ec461"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7657c64289bd289e1da76d7e1e0ec461">MR_doSegmentLineIntersect_MR_Vector2f</a> (const <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a> *x, const <a class="el" href="MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67">MR_Line2f</a> *y, float *xPos, float *yPos)</td></tr>
+<tr class="separator:a7657c64289bd289e1da76d7e1e0ec461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab89adaeaba1d28515011b377cde14c2" id="r_aab89adaeaba1d28515011b377cde14c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab89adaeaba1d28515011b377cde14c2">MR_doSegmentLineIntersect_MR_Vector2d</a> (const <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a> *x, const <a class="el" href="MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2">MR_Line2d</a> *y, double *xPos, double *yPos)</td></tr>
+<tr class="separator:aab89adaeaba1d28515011b377cde14c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a6992d64f6703ac6d7687c699042105a2" name="a6992d64f6703ac6d7687c699042105a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6992d64f6703ac6d7687c699042105a2">&#9670;&#160;</a></span>MR_Line2d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2">MR_Line2d</a> <a class="el" href="MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2">MR_Line2d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42f4324f3958a2b1ca19cd1728c5db67" name="a42f4324f3958a2b1ca19cd1728c5db67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42f4324f3958a2b1ca19cd1728c5db67">&#9670;&#160;</a></span>MR_Line2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67">MR_Line2f</a> <a class="el" href="MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67">MR_Line2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae64025fe6a8da3033f534a4728469bcb" name="ae64025fe6a8da3033f534a4728469bcb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae64025fe6a8da3033f534a4728469bcb">&#9670;&#160;</a></span>MR_LineSegm2d</h2>
 
@@ -402,6 +443,134 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aab89adaeaba1d28515011b377cde14c2" name="aab89adaeaba1d28515011b377cde14c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab89adaeaba1d28515011b377cde14c2">&#9670;&#160;</a></span>MR_doSegmentLineIntersect_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_doSegmentLineIntersect_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2">MR_Line2d</a> *</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>xPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>yPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if 2D line segment and 2D line intersect, optionally outputs intersection point as a parameter on both Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb2813949ff03c0e0f004661d0a7ac69">MR::doSegmentLineIntersect</a>&lt;MR::Vector2d&gt;</code>. Parameter <code>x</code> can not be null. It is a single object. Parameter <code>y</code> can not be null. It is a single object. Parameter <code>xPos</code> defaults to a null pointer in C++. Parameter <code>yPos</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a7657c64289bd289e1da76d7e1e0ec461" name="a7657c64289bd289e1da76d7e1e0ec461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7657c64289bd289e1da76d7e1e0ec461">&#9670;&#160;</a></span>MR_doSegmentLineIntersect_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_doSegmentLineIntersect_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67">MR_Line2f</a> *</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>xPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>yPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if 2D line segment and 2D line intersect, optionally outputs intersection point as a parameter on both Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb2813949ff03c0e0f004661d0a7ac69">MR::doSegmentLineIntersect</a>&lt;MR::Vector2f&gt;</code>. Parameter <code>x</code> can not be null. It is a single object. Parameter <code>y</code> can not be null. It is a single object. Parameter <code>xPos</code> defaults to a null pointer in C++. Parameter <code>yPos</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a501bcebc30a7a96b3a8075c30dbc864f" name="a501bcebc30a7a96b3a8075c30dbc864f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501bcebc30a7a96b3a8075c30dbc864f">&#9670;&#160;</a></span>MR_doSegmentsIntersect_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_doSegmentsIntersect_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae64025fe6a8da3033f534a4728469bcb">MR_LineSegm2d</a> *</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>xPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>yPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if two 2D segments intersect, optionally outputs intersection point as a parameter on both segments Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac28064dedc9f53356925ce7ed86a54d0">MR::doSegmentsIntersect</a>&lt;MR::Vector2d&gt;</code>. Parameter <code>x</code> can not be null. It is a single object. Parameter <code>y</code> can not be null. It is a single object. Parameter <code>xPos</code> defaults to a null pointer in C++. Parameter <code>yPos</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="acddc390665da482b99470d9853a26e93" name="acddc390665da482b99470d9853a26e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acddc390665da482b99470d9853a26e93">&#9670;&#160;</a></span>MR_doSegmentsIntersect_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_doSegmentsIntersect_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRIntersection_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309">MR_LineSegm2f</a> *</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>xPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>yPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if two 2D segments intersect, optionally outputs intersection point as a parameter on both segments Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac28064dedc9f53356925ce7ed86a54d0">MR::doSegmentsIntersect</a>&lt;MR::Vector2f&gt;</code>. Parameter <code>x</code> can not be null. It is a single object. Parameter <code>y</code> can not be null. It is a single object. Parameter <code>xPos</code> defaults to a null pointer in C++. Parameter <code>yPos</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
 <a id="a09f1349941472a94981a8933d9c067a5" name="a09f1349941472a94981a8933d9c067a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09f1349941472a94981a8933d9c067a5">&#9670;&#160;</a></span>MR_LineSegm2d_AssignFromAnother()</h2>
 

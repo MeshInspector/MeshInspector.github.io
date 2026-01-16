@@ -1,9 +1,15 @@
 var MRLineSegm_8h =
 [
+    [ "MR_Line2d", "MRLineSegm_8h.html#a6992d64f6703ac6d7687c699042105a2", null ],
+    [ "MR_Line2f", "MRLineSegm_8h.html#a42f4324f3958a2b1ca19cd1728c5db67", null ],
     [ "MR_LineSegm2d", "MRLineSegm_8h.html#ae64025fe6a8da3033f534a4728469bcb", null ],
     [ "MR_LineSegm2f", "MRLineSegm_8h.html#a40ebbdb98ca17b35cd8f2efa0697e309", null ],
     [ "MR_LineSegm3d", "MRLineSegm_8h.html#a438f2f50208ff37150a7ac5a2725ac05", null ],
     [ "MR_LineSegm3f", "MRLineSegm_8h.html#a39540ed403db4865d7d6ce134f7654c1", null ],
+    [ "MR_doSegmentLineIntersect_MR_Vector2d", "MRLineSegm_8h.html#aab89adaeaba1d28515011b377cde14c2", null ],
+    [ "MR_doSegmentLineIntersect_MR_Vector2f", "MRLineSegm_8h.html#a7657c64289bd289e1da76d7e1e0ec461", null ],
+    [ "MR_doSegmentsIntersect_MR_Vector2d", "MRLineSegm_8h.html#a501bcebc30a7a96b3a8075c30dbc864f", null ],
+    [ "MR_doSegmentsIntersect_MR_Vector2f", "MRLineSegm_8h.html#acddc390665da482b99470d9853a26e93", null ],
     [ "MR_LineSegm2d_AssignFromAnother", "MRLineSegm_8h.html#a09f1349941472a94981a8933d9c067a5", null ],
     [ "MR_LineSegm2d_call", "MRLineSegm_8h.html#a6ff94eab5d3a7c65812fe047a4b78545", null ],
     [ "MR_LineSegm2d_Construct", "MRLineSegm_8h.html#aeabb595f40c93921a5b3e0b8f2a5a8ae", null ],
