@@ -30,7 +30,7 @@ var namespaceMR_1_1VoxelsLoad =
     [ "gridsFromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga9c5c70dae47d427c0b4441b8b1df6b17", null ],
     [ "gridsFromVdb", "group__VoxelsLoadGroup.html#ga292cb0932a07bdafb7ba56453be65262", null ],
     [ "gridsFromVdb", "group__VoxelsLoadGroup.html#ga17380baf5a009298d3c817ed07b4b43f", null ],
-    [ "isDicomFile", "namespaceMR_1_1VoxelsLoad.html#acba52d9e4446ab4729498866d500d5c9", null ],
+    [ "isDicomFile", "namespaceMR_1_1VoxelsLoad.html#ad6fd3c989bc83e4e99389def8fa8931b", null ],
     [ "isDicomFolder", "namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e", null ],
     [ "loadDicomFile", "namespaceMR_1_1VoxelsLoad.html#a97daff0d663d2d21303f92b32c475f1d", null ],
     [ "loadDicomFileAsVdb", "namespaceMR_1_1VoxelsLoad.html#a9edb1f3f1374143d0d7b53bc7afefeb6", null ],

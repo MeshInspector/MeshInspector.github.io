@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"MRPolylineDecimate_8h.html#a38861ea8e0412e1e74522b32d514d1ae":[6,2,1,0,0,0,1,269,90],
 "MRPolylineDecimate_8h.html#a3df50e76b078a1626dd994e1df803764":[6,2,1,0,0,0,1,269,13],
 "MRPolylineDecimate_8h.html#a3f84d9b223bfa7019f38421aa4ca3efb":[6,2,1,0,0,0,1,269,92],
 "MRPolylineDecimate_8h.html#a460a1d9f4500222015069e8943ff0e4e":[6,2,1,0,0,0,1,269,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "MRPolylineSubdivide_8h.html#a2aaa3fff21de2c1ac8e2c8ab44bff6fd":[6,2,1,0,0,0,1,272,36],
 "MRPolylineSubdivide_8h.html#a2cf84abc7844c1d8e7108d0f25608885":[6,2,1,0,0,0,1,272,15],
 "MRPolylineSubdivide_8h.html#a3b9d9333a7758f663c781dda939ea407":[6,2,1,0,0,0,1,272,24],
-"MRPolylineSubdivide_8h.html#a3bcdd9d9d27ca2f5eaee6e322392b117":[6,2,1,0,0,0,1,272,34],
-"MRPolylineSubdivide_8h.html#a3df50e76b078a1626dd994e1df803764":[6,2,1,0,0,0,1,272,6]
+"MRPolylineSubdivide_8h.html#a3bcdd9d9d27ca2f5eaee6e322392b117":[6,2,1,0,0,0,1,272,34]
 };

@@ -184,8 +184,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acba52d9e4446ab4729498866d500d5c9" id="r_acba52d9e4446ab4729498866d500d5c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba52d9e4446ab4729498866d500d5c9">isDicomFile</a> (const std::filesystem::path &amp;path, std::string *seriesUid=nullptr)</td></tr>
-<tr class="separator:acba52d9e4446ab4729498866d500d5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6fd3c989bc83e4e99389def8fa8931b" id="r_ad6fd3c989bc83e4e99389def8fa8931b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="structMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6fd3c989bc83e4e99389def8fa8931b">isDicomFile</a> (const std::filesystem::path &amp;path, std::string *seriesUid=nullptr, Vector3i *dims=nullptr)</td></tr>
+<tr class="separator:ad6fd3c989bc83e4e99389def8fa8931b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbcdf154c89bce3f54684092bcc3f76e" id="r_adbcdf154c89bce3f54684092bcc3f76e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbcdf154c89bce3f54684092bcc3f76e">isDicomFolder</a> (const std::filesystem::path &amp;dirPath)</td></tr>
 <tr class="memdesc:adbcdf154c89bce3f54684092bcc3f76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if given folder contains at least one DICOM file  <br /></td></tr>
 <tr class="separator:adbcdf154c89bce3f54684092bcc3f76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -372,8 +372,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acba52d9e4446ab4729498866d500d5c9" name="acba52d9e4446ab4729498866d500d5c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acba52d9e4446ab4729498866d500d5c9">&#9670;&#160;</a></span>isDicomFile()</h2>
+<a id="ad6fd3c989bc83e4e99389def8fa8931b" name="ad6fd3c989bc83e4e99389def8fa8931b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6fd3c989bc83e4e99389def8fa8931b">&#9670;&#160;</a></span>isDicomFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,13 +386,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string *</td>          <td class="paramname"><span class="paramname"><em>seriesUid</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">std::string *</td>          <td class="paramname"><span class="paramname"><em>seriesUid</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3i *</td>          <td class="paramname"><span class="paramname"><em>dims</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>check if file is a valid DICOM dataset file </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">seriesUid</td><td>- if set, the extracted series instance UID is copied to the variable </td></tr>
+    <tr><td class="paramname">dims</td><td>- optional output of the file volume's dimensions </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"MRMeshBoolean_8h.html#ab267228c25621f6d9b5ff22c51e07feb":[6,2,1,0,0,0,1,156,43],
 "MRMeshBoolean_8h.html#ab2bc37de207155ded24a4513b70ff289":[6,2,1,0,0,0,1,156,103],
 "MRMeshBoolean_8h.html#ab5de264b6065dbf84f6b3fa0f6530592":[6,2,1,0,0,0,1,156,15],
 "MRMeshBoolean_8h.html#ab8b2f9a803670c813cdc0cf693346754":[6,2,1,0,0,0,1,156,60],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "MRMeshCollidePrecise_8h.html#abc1dbcb7af9aaf350fbf569f7a8a48ec":[6,2,1,0,0,0,1,162,59],
 "MRMeshCollidePrecise_8h.html#abf6a829f32de2170f9352ebcb68bf275":[6,2,1,0,0,0,1,162,11],
 "MRMeshCollidePrecise_8h.html#abf70969295656c08894a213e025587bf":[6,2,1,0,0,0,1,162,29],
-"MRMeshCollidePrecise_8h.html#ad4eafbf6cb111047a9635290f5d7ff20":[6,2,1,0,0,0,1,162,12],
-"MRMeshCollidePrecise_8h.html#adc691046793991d86f270e530ab85ad6":[6,2,1,0,0,0,1,162,57]
+"MRMeshCollidePrecise_8h.html#ad4eafbf6cb111047a9635290f5d7ff20":[6,2,1,0,0,0,1,162,12]
 };

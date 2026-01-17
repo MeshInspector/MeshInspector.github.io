@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"MRMeshDistance_8h.html#a9a9e76348b3ba37e03d825a75c07e976":[6,2,1,0,0,0,1,169,1],
 "MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e":[6,2,1,0,0,0,1,169,3],
 "MRMeshDistance_8h.html#ae018aa48e65a7c4079ea1bacf856d7c2":[6,2,1,0,0,0,1,169,8],
 "MRMeshDistance_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17":[6,2,1,0,0,0,1,169,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "MRMeshFixer_8h.html#abaac765394edece086502a2d9836aceaa428a146780cba869a937b8ec517aac7b":[6,2,1,0,0,0,1,173,17,2],
 "MRMeshFixer_8h.html#abaac765394edece086502a2d9836aceaadbb57c85b42a1ba3f54f8b62a08319a2":[6,2,1,0,0,0,1,173,17,1],
 "MRMeshFixer_8h.html#abaac765394edece086502a2d9836aceaaffb3f120bdf6402733f39eb4b52ade11":[6,2,1,0,0,0,1,173,17,0],
-"MRMeshFixer_8h.html#abb51c21d0f453086c63defb940f10c59":[6,2,1,0,0,0,1,173,67],
-"MRMeshFixer_8h.html#abba9cdab3f8d6bf64551b1a5fa4acae0":[6,2,1,0,0,0,1,173,87]
+"MRMeshFixer_8h.html#abb51c21d0f453086c63defb940f10c59":[6,2,1,0,0,0,1,173,67]
 };

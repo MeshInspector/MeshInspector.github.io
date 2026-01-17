@@ -168,6 +168,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab3acb7daabb12306bdf8ddb571926e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d8aa59058b2516d2c9b34241f2c0441" id="r_a3d8aa59058b2516d2c9b34241f2c0441"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a></td></tr>
 <tr class="separator:a3d8aa59058b2516d2c9b34241f2c0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad55ca9af0874ffb89877bad65ae2859d" id="r_ad55ca9af0874ffb89877bad65ae2859d"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55ca9af0874ffb89877bad65ae2859d">MR_Vector3i</a></td></tr>
+<tr class="separator:ad55ca9af0874ffb89877bad65ae2859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afddfdf9f07abac630b268df02dbaed95" id="r_afddfdf9f07abac630b268df02dbaed95"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a></td></tr>
 <tr class="separator:afddfdf9f07abac630b268df02dbaed95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9417e4ef9013bb36974268b4abf7d54a" id="r_a9417e4ef9013bb36974268b4abf7d54a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a></td></tr>
@@ -323,8 +325,8 @@ Functions</h2></td></tr>
 <tr class="separator:abb4d5b6245f00b852a26c4b681d36ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37808afe2627de3d31e5b6c2458492af" id="r_a37808afe2627de3d31e5b6c2458492af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37808afe2627de3d31e5b6c2458492af">MR_equal_MR_VoxelsLoad_DicomStatus_MR_VoxelsLoad_DicomStatusEnum</a> (const <a class="el" href="#a9fd4af972412813296b282fd7042d277">MR_VoxelsLoad_DicomStatus</a> *_this, <a class="el" href="#a6ea51423c33aa81cd0783c4382038594">MR_VoxelsLoad_DicomStatusEnum</a> s)</td></tr>
 <tr class="separator:a37808afe2627de3d31e5b6c2458492af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a0606a8fb8b55b4789d16d5655a785f" id="r_a8a0606a8fb8b55b4789d16d5655a785f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9fd4af972412813296b282fd7042d277">MR_VoxelsLoad_DicomStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a0606a8fb8b55b4789d16d5655a785f">MR_VoxelsLoad_isDicomFile</a> (const char *path, const char *path_end, <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *seriesUid)</td></tr>
-<tr class="separator:a8a0606a8fb8b55b4789d16d5655a785f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af85a80036b05039c5e40f18736ceac74" id="r_af85a80036b05039c5e40f18736ceac74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9fd4af972412813296b282fd7042d277">MR_VoxelsLoad_DicomStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af85a80036b05039c5e40f18736ceac74">MR_VoxelsLoad_isDicomFile</a> (const char *path, const char *path_end, <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *seriesUid, <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>)</td></tr>
+<tr class="separator:af85a80036b05039c5e40f18736ceac74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e05e836c12cce5e79279941f72789e6" id="r_a6e05e836c12cce5e79279941f72789e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e05e836c12cce5e79279941f72789e6">MR_VoxelsLoad_isDicomFolder</a> (const char *dirPath, const char *dirPath_end)</td></tr>
 <tr class="separator:a6e05e836c12cce5e79279941f72789e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a66301733ab7739ff63cf5f544db197" id="r_a5a66301733ab7739ff63cf5f544db197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a66301733ab7739ff63cf5f544db197">MR_VoxelsLoad_findDicomFoldersRecursively</a> (const char *path, const char *path_end)</td></tr>
@@ -543,6 +545,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad55ca9af0874ffb89877bad65ae2859d" name="ad55ca9af0874ffb89877bad65ae2859d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55ca9af0874ffb89877bad65ae2859d">&#9670;&#160;</a></span>MR_Vector3i</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3i MR_Vector3i</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1774,8 +1790,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a0606a8fb8b55b4789d16d5655a785f" name="a8a0606a8fb8b55b4789d16d5655a785f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a0606a8fb8b55b4789d16d5655a785f">&#9670;&#160;</a></span>MR_VoxelsLoad_isDicomFile()</h2>
+<a id="af85a80036b05039c5e40f18736ceac74" name="af85a80036b05039c5e40f18736ceac74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af85a80036b05039c5e40f18736ceac74">&#9670;&#160;</a></span>MR_VoxelsLoad_isDicomFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1793,13 +1809,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>seriesUid</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>seriesUid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>check if file is a valid DICOM dataset file </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">seriesUid</td><td>- if set, the extracted series instance UID is copied to the variable Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1VoxelsLoad.html#acba52d9e4446ab4729498866d500d5c9">MR::VoxelsLoad::isDicomFile</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>seriesUid</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3b10e480f6cac2b26829388898f9a4bc" title="Destroys a heap-allocated instance of MR_VoxelsLoad_DicomStatus. Does nothing if the pointer is null.">MR_VoxelsLoad_DicomStatus_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">seriesUid</td><td>- if set, the extracted series instance UID is copied to the variable </td></tr>
+    <tr><td class="paramname">dims</td><td>- optional output of the file volume's dimensions Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1VoxelsLoad.html#ad6fd3c989bc83e4e99389def8fa8931b">MR::VoxelsLoad::isDicomFile</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>seriesUid</code> defaults to a null pointer in C++. Parameter <code>dims</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3b10e480f6cac2b26829388898f9a4bc" title="Destroys a heap-allocated instance of MR_VoxelsLoad_DicomStatus. Does nothing if the pointer is null.">MR_VoxelsLoad_DicomStatus_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
