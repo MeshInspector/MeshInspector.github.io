@@ -21,5 +21,5 @@ update_logo_link() {
 
 # Find all .html files and update logo link
 find "$HTML_DIR" -type f -name "*.html" | while read -r file; do
-  update_logo_link "$file"
+  update_logo_link "$file" 1>> log_update_logo.txt
 done
