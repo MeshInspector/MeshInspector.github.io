@@ -1,0 +1,11 @@
+@INCLUDE = DoxyfileBase
+
+PROJECT_NAME           = "MeshLib C# Docs"
+LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutCsharp.xml
+INPUT                  = ../MeshLib/CsharpBindings/ \
+                         ../MeshLib/doxygen/APICsharpPage.dox
+FILE_PATTERNS          = *.cs \
+                         *.dox
+HTML_OUTPUT            = html/Csharp
+EXTENSION_MAPPING      = cs=C#
+TYPEDEF_HIDES_STRUCT   = YES

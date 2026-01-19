@@ -27,6 +27,7 @@ SUB_DIR_LIST=(
     "html/Cpp"
     "html/Py"
     "html/C"
+    "html/Csharp"
 )
 
 function combine_js {

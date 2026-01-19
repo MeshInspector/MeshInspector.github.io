@@ -22,14 +22,14 @@ rm -rf ${TARGET_DIR}/html/*
 # clear old logs
 rm log*
 
-MODULES=(Main Cpp Py C)
+MODULES=(Main Cpp Py C Csharp)
 # generate tag files
 for MODULE in ${MODULES[*]}
 do
     cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
     echo "GENERATE_TAGFILE = MeshLib/MeshLib${MODULE}.tag" >> Doxyfile${MODULE}Tag
-    echo "" >> log_tag.txt
-    echo "" >> log_tag_error.txt 
+    echo "========== ${MODULE}" >> log_tag.txt
+    echo "========== ${MODULE}" >> log_tag_error.txt
     doxygen ./Doxyfile${MODULE}Tag 1>> log_tag.txt 2>> log_tag_error.txt
     rm Doxyfile${MODULE}Tag
 done
@@ -59,8 +59,8 @@ do
             echo "TAGFILES += MeshLib/MeshLib${MODULE_2}.tag=${DIR}/${MODULE_2}/" >> Doxyfile${MODULE}Tag
         fi
     done
-    echo "" >> log.txt
-    echo "" >> log_error.txt 
+    echo "========== ${MODULE}" >> log.txt
+    echo "========== ${MODULE}" >> log_error.txt
     doxygen ./Doxyfile${MODULE}Tag 1>> log.txt 2>> log_error.txt
     rm Doxyfile${MODULE}Tag
 done
@@ -76,9 +76,6 @@ for MODULE in ${MODULES[*]}
 do
     rm -f MeshLib/MeshLib${MODULE}.tag
 done
-
-# remove logs (comment this to debug)
-rm log*
 
 ./scripts/update_search.sh "$TARGET_DIR"
 ./scripts/restore_files.sh

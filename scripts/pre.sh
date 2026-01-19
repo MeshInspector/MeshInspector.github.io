@@ -29,7 +29,7 @@ fi
 # force Doxygen to use the custom output directory
 sed -e "s|OUTPUT_DIRECTORY\s*=.*|OUTPUT_DIRECTORY = ${TARGET_DIR}|" -i.bak DoxyfileBase
 
-MODULES=(Main Cpp Py C)
+MODULES=(Main Cpp Py C Csharp)
 for MODULE in ${MODULES[*]}
 do
     ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE
