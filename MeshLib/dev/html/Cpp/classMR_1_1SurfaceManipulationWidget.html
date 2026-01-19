@@ -280,8 +280,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a96de0be0839e0a27813a5cf42983d280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e1f9dd3fd90ff7bee82f9a283a538a9" id="r_a6e1f9dd3fd90ff7bee82f9a283a538a9"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e1f9dd3fd90ff7bee82f9a283a538a9">checkModifiers_</a> (int modifiers) const</td></tr>
 <tr class="separator:a6e1f9dd3fd90ff7bee82f9a283a538a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01b688fc30d608be61aa23e4cba46c6a" id="r_a01b688fc30d608be61aa23e4cba46c6a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b688fc30d608be61aa23e4cba46c6a">appendMeshChangeHistory_</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; newMesh, const FaceBitSet &amp;newFaces)</td></tr>
-<tr class="separator:a01b688fc30d608be61aa23e4cba46c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf0223f8672aa29b9aef4a60cc78fe13" id="r_acf0223f8672aa29b9aef4a60cc78fe13"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf0223f8672aa29b9aef4a60cc78fe13">appendMeshDataChangeHistory_</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;&amp;newMeshData, const FaceBitSet &amp;newFaces)</td></tr>
+<tr class="separator:acf0223f8672aa29b9aef4a60cc78fe13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bf4b908832273c2d2b0dff19ba3eddc" id="r_a6bf4b908832273c2d2b0dff19ba3eddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf4b908832273c2d2b0dff19ba3eddc">reallocData_</a> (size_t <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="separator:a6bf4b908832273c2d2b0dff19ba3eddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f27b490ad008b35fb24b4fb9d4ae8da" id="r_a2f27b490ad008b35fb24b4fb9d4ae8da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f27b490ad008b35fb24b4fb9d4ae8da">clearData_</a> ()</td></tr>
@@ -550,8 +550,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a01b688fc30d608be61aa23e4cba46c6a" name="a01b688fc30d608be61aa23e4cba46c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01b688fc30d608be61aa23e4cba46c6a">&#9670;&#160;</a></span>appendMeshChangeHistory_()</h2>
+<a id="acf0223f8672aa29b9aef4a60cc78fe13" name="acf0223f8672aa29b9aef4a60cc78fe13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf0223f8672aa29b9aef4a60cc78fe13">&#9670;&#160;</a></span>appendMeshDataChangeHistory_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -560,9 +560,9 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRVIEWER_API void MR::SurfaceManipulationWidget::appendMeshChangeHistory_ </td>
+          <td class="memname">virtual MRVIEWER_API void MR::SurfaceManipulationWidget::appendMeshDataChangeHistory_ </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>newMesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newMeshData</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -576,7 +576,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>called to change mesh with history record newFaces seems to be useful </p>
+<p>called to change mesh data with history record newFaces seems to be useful </p>
 
 </div>
 </div>

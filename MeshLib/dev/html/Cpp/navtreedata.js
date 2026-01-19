@@ -190,7 +190,7 @@ var NAVTREEINDEX =
 "classMR_1_1RibbonSceneSortByName.html#abe980ef002e4cc4677b3b8687eb1574f",
 "classMR_1_1SceneStateExactCheck.html#abcdaa2e32bc223876a3043e83eb591e8",
 "classMR_1_1SparsePolynomial.html",
-"classMR_1_1SurfaceManipulationWidget.html#a93366e4a5e29c99eca29d636b62f11f8",
+"classMR_1_1SurfaceManipulationWidget.html#a93cf79c946234166435c0c26b7334a74",
 "classMR_1_1Toolbar.html#a113ff053c064e03de02b489c9b4a6f51",
 "classMR_1_1Vector.html",
 "classMR_1_1Viewer.html#a8fda1ccb2d6d517de3047c2fd65203ea",

@@ -218,7 +218,7 @@ $(function(){initNavTree('MRSpaceMouseHandlerHidapi_8h_source.html',''); initRes
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::function&lt;void(<span class="keyword">const</span> std::string&amp;)&gt; deviceSignal_;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    hid_device* device_ = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">bool</span> anyAction_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">size_t</span> numMsg_ = 0;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">const</span> std::vector&lt;std::vector&lt;SpaceMouseButtons&gt;&gt;* buttonsMapPtr_ = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::bitset&lt;SMB_BUTTON_COUNT&gt; buttonsState_;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::thread listenerThread_;</div>
