@@ -22,7 +22,7 @@ rm -rf ${TARGET_DIR}/html/*
 # clear old logs
 rm log*
 
-MODULES=(Main Cpp Py C Csharp)
+MODULES=(Main Cpp Py C)
 # generate tag files
 for MODULE in ${MODULES[*]}
 do
