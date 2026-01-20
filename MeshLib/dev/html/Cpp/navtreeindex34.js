@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1ObjectTransformWidget.html#aaaadf59451391760eaa2882c90d79f5b":[6,0,1,0,1,477,8],
+"classMR_1_1ObjectTransformWidget.html#aaaadf59451391760eaa2882c90d79f5b":[6,0,2,0,2,458,8],
 "classMR_1_1ObjectTransformWidget.html#ab0823ffe9059c2fb1d57757cb82579a6":[6,0,1,0,1,477,9],
 "classMR_1_1ObjectTransformWidget.html#ab0823ffe9059c2fb1d57757cb82579a6":[6,0,2,0,2,458,9],
 "classMR_1_1ObjectTransformWidget.html#ab22daeb26cd1e936593d97d63cc407b5":[6,0,1,0,1,477,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1Palette.html#ae63655ed30c3149a56edf240748a9f4e":[6,0,2,0,2,488,26],
 "classMR_1_1Palette.html#aeb6af41eb56a4e97b810798d655510dc":[6,0,1,0,1,507,21],
 "classMR_1_1Palette.html#aeb6af41eb56a4e97b810798d655510dc":[6,0,2,0,2,488,21],
-"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,1,0,1,507,32],
-"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,2,0,2,488,32],
-"classMR_1_1PalettePresets.html":[6,0,1,0,1,508]
+"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,1,0,1,507,32]
 };

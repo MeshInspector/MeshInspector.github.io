@@ -56,6 +56,8 @@ var NAVTREEINDEX16 =
 "MRWeightedPointsShell_8h.html#a90e26c11723ff31873a2d5046d4edc5a":[6,0,3,0,0,1,11,45,9],
 "MRWeightedPointsShell_8h.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,3,0,0,1,11,45,5],
 "MRWeightedPointsShell_8h_source.html":[6,0,3,0,0,1,11,45],
+"MRWin32MessageHandler_8h.html":[6,0,3,0,0,1,10,168],
+"MRWin32MessageHandler_8h_source.html":[6,0,3,0,0,1,10,168],
 "MRWriter_8h.html":[6,0,3,0,0,1,4,419],
 "MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060":[6,0,3,0,0,1,4,419,1],
 "MRWriter_8h_source.html":[6,0,3,0,0,1,4,419],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[6,0,2,0,2,48,22],
 "classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7":[6,0,1,0,1,67,5],
 "classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7":[6,0,2,0,2,48,5],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,67,11],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,2,0,2,48,11],
-"classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[6,0,1,0,1,67,20]
+"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[6,0,1,0,1,67,11]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[6,0,0,0,2,0,5],
+"structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[6,0,0,0,2,0,0],
 "structMR_1_1Box.html#a14ec2de1def8e99ce267fe830e9caa51":[6,0,0,0,2,0,19],
 "structMR_1_1Box.html#a15892e58be32abb87c83d3929500dcfd":[6,0,0,0,2,0,1],
 "structMR_1_1Box.html#a1af67d1761b8fd15fa204b39d5f9bd46":[6,0,0,0,2,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[6,0,0,5,1,2],
 "structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
-"structMR_1_1ContoursDistanceMapOptions.html":[6,0,0,5,2]
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0]
 };

@@ -167,5 +167,6 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],
     [ "MRVolumeShader.h", "MRVolumeShader_8h.html", "MRVolumeShader_8h" ],
     [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ],
-    [ "MRWebResponseCallback.h", "MRWebResponseCallback_8h.html", "MRWebResponseCallback_8h" ]
+    [ "MRWebResponseCallback.h", "MRWebResponseCallback_8h.html", "MRWebResponseCallback_8h" ],
+    [ "MRWin32MessageHandler.h", "MRWin32MessageHandler_8h.html", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f":[6,0,0,1,72],
+"group__AABBTreeGroup.html#ga7f7211a85409018fd8ee71495646faa3":[6,0,0,1,97],
 "group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3":[6,0,0,1,78],
 "group__AABBTreeGroup.html#ga834d7e50b54b1b8c511990fc9d14c09c":[6,0,0,1,99],
 "group__AABBTreeGroup.html#ga835e26690b8579246b5fe66eecd773ac":[6,0,0,1,87],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "group__DistanceMapGroup.html#ga91a308e751ba7d6ace30ea1a895eb3fb":[6,0,0,5,27],
 "group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56":[6,0,0,5,22],
 "group__DistanceMapGroup.html#ga920d5e2ba75ebd9fe641aae7d50cce9f":[6,0,0,5,33],
-"group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33":[6,0,0,5,14],
-"group__DistanceMapGroup.html#gaa50c3ffe7a7a332ff5cc4ca19890c47f":[6,0,0,5,19],
-"group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6":[6,0,0,5,9]
+"group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33":[6,0,0,5,14]
 };

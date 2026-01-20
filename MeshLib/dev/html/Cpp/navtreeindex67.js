@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15":[6,0,2,0,2,47,0],
+"structMR_1_1ArcInterpolationParams.html":[6,0,1,0,1,69],
 "structMR_1_1ArcInterpolationParams.html":[6,0,2,0,2,50],
 "structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,1,0,1,69,2],
 "structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,2,0,2,50,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,1,0,1,94,0,1],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,2,0,2,75,0,1],
 "structMR_1_1Box.html":[6,0,0,0,2,0],
-"structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[6,0,0,0,2,0,32],
-"structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[6,0,0,0,2,0,5],
-"structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[6,0,0,0,2,0,0]
+"structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[6,0,0,0,2,0,32]
 };

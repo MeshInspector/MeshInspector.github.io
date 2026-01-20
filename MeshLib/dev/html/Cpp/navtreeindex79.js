@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
+"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
 "structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
 "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53":[6,0,0,7,3,1],
 "structMR_1_1MeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2":[6,0,0,7,3,17],
 "structMR_1_1MeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9":[6,0,0,7,3,19],
-"structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478":[6,0,0,7,3,14],
-"structMR_1_1MeshTriPoint.html#a6796e7f3ca4cdbeb66145767bbf12dc7":[6,0,0,7,3,9],
-"structMR_1_1MeshTriPoint.html#a6c6fbefac0cf996b3da9fa89a3146eac":[6,0,0,7,3,7]
+"structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478":[6,0,0,7,3,14]
 };

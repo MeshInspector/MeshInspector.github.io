@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MeshTriPoint.html#a6796e7f3ca4cdbeb66145767bbf12dc7":[6,0,0,7,3,9],
+"structMR_1_1MeshTriPoint.html#a6c6fbefac0cf996b3da9fa89a3146eac":[6,0,0,7,3,7],
 "structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677":[6,0,0,7,3,2],
 "structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92":[6,0,0,7,3,21],
 "structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71":[6,0,0,7,3,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0],
 "structMR_1_1MultiwayICPSamplingParameters.html":[6,0,1,0,1,441],
-"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,2,0,2,422],
-"structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58":[6,0,1,0,1,441,0],
-"structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58":[6,0,2,0,2,422,0]
+"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,2,0,2,422]
 };

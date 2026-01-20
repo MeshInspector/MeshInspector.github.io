@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1Matrix4.html#ae2781b7e0b9f531f6814989f678d83f1":[6,0,0,0,7,3,38],
+"structMR_1_1Matrix4.html#af0e937b6beb9a2fe2e623155800c119e":[6,0,0,0,7,3,40],
 "structMR_1_1Matrix4.html#af7bfff1fe6a58060ba43dda0028e7131":[6,0,0,0,7,3,37],
 "structMR_1_1Matrix4.html#afdaea6c4914f797f5028508fc4660a71":[6,0,0,0,7,3,11],
 "structMR_1_1Matrix4.html#afefd6af8bdb869e88d5062c6aa38c746":[6,0,0,0,7,3,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,2,10,1],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,20,1,0],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,2,10,1,0],
-"structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1]
+"structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a":[6,0,1,0,1,231,6],
+"structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a":[6,0,2,0,2,212,6],
 "structMR_1_1EdgePoint.html#a28488f2c0e7f4adcdc3726f65d573682":[6,0,1,0,1,231,4],
 "structMR_1_1EdgePoint.html#a28488f2c0e7f4adcdc3726f65d573682":[6,0,2,0,2,212,4],
 "structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f":[6,0,1,0,1,231,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,2,0,2,2,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,1,0,1,6,2,0,7],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,2,0,2,2,2,0,7],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[6,0,1,0,1,6,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[6,0,2,0,2,2,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[6,0,1,0,1,6,2,1,0]
+"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[6,0,1,0,1,6,2,1]
 };
