@@ -183,6 +183,11 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a8bee648da3c920541672f288460c659c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58748ee3e1ceb34e2ff8b8d2ab58d6b" id="r_aa58748ee3e1ceb34e2ff8b8d2ab58d6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58748ee3e1ceb34e2ff8b8d2ab58d6b">EdgePathsBuilderT</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
 <tr class="separator:aa58748ee3e1ceb34e2ff8b8d2ab58d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9175cad8bf58c494f9f65aafff8cde" id="r_a5d9175cad8bf58c494f9f65aafff8cde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9175cad8bf58c494f9f65aafff8cde">EdgePathsBuilderT</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
+<tr class="separator:a5d9175cad8bf58c494f9f65aafff8cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b233d3b70904335296fbd82fcbc693f" id="r_a8b233d3b70904335296fbd82fcbc693f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b233d3b70904335296fbd82fcbc693f">reset</a> (const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
+<tr class="memdesc:a8b233d3b70904335296fbd82fcbc693f"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears everything without freeing memory, and sets new metric  <br /></td></tr>
+<tr class="separator:a8b233d3b70904335296fbd82fcbc693f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a424ce31cf3ac73240ffd491872efa6fb" id="r_a424ce31cf3ac73240ffd491872efa6fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424ce31cf3ac73240ffd491872efa6fb">addStart</a> (VertId startVert, float startMetric)</td></tr>
 <tr class="separator:a424ce31cf3ac73240ffd491872efa6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42cf862c1663fc45765278e3617948ab" id="r_a42cf862c1663fc45765278e3617948ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42cf862c1663fc45765278e3617948ab">reachNext</a> ()</td></tr>
@@ -198,13 +203,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aa5a3f3206ed7ec78c89eef5860137181" id="r_aa5a3f3206ed7ec78c89eef5860137181"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5a3f3206ed7ec78c89eef5860137181">getPathBack</a> (VertId backpathStart) const</td></tr>
 <tr class="memdesc:aa5a3f3206ed7ec78c89eef5860137181"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the path in the forest from given vertex to one of start vertices  <br /></td></tr>
 <tr class="separator:aa5a3f3206ed7ec78c89eef5860137181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91060ff48000e2ddc2037bedefc72197" id="r_a91060ff48000e2ddc2037bedefc72197"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91060ff48000e2ddc2037bedefc72197">trackPathBack</a> (VertId backpathStart, <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> *res=nullptr) const</td></tr>
+<tr class="separator:a91060ff48000e2ddc2037bedefc72197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class MetricToPenalty&gt;<br />
 class MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</div><p>the class is responsible for finding smallest metric edge paths on a mesh </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa58748ee3e1ceb34e2ff8b8d2ab58d6b" name="aa58748ee3e1ceb34e2ff8b8d2ab58d6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa58748ee3e1ceb34e2ff8b8d2ab58d6b">&#9670;&#160;</a></span>EdgePathsBuilderT()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa58748ee3e1ceb34e2ff8b8d2ab58d6b">&#9670;&#160;</a></span>EdgePathsBuilderT() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,6 +229,33 @@ template&lt;class MetricToPenalty &gt; </div>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d9175cad8bf58c494f9f65aafff8cde" name="a5d9175cad8bf58c494f9f65aafff8cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9175cad8bf58c494f9f65aafff8cde">&#9670;&#160;</a></span>EdgePathsBuilderT() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MetricToPenalty &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::EdgePathsBuilderT </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -409,6 +443,51 @@ template&lt;class MetricToPenalty &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left </p>
+
+</div>
+</div>
+<a id="a8b233d3b70904335296fbd82fcbc693f" name="a8b233d3b70904335296fbd82fcbc693f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b233d3b70904335296fbd82fcbc693f">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MetricToPenalty &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::reset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clears everything without freeing memory, and sets new metric </p>
+
+</div>
+</div>
+<a id="a91060ff48000e2ddc2037bedefc72197" name="a91060ff48000e2ddc2037bedefc72197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91060ff48000e2ddc2037bedefc72197">&#9670;&#160;</a></span>trackPathBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MetricToPenalty &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::trackPathBack </td>
+          <td>(</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>backpathStart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> *</td>          <td class="paramname"><span class="paramname"><em>res</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>tracks back path in the forest from the given vertex to one of start vertices, which is returned; optionally appends tracked path (res) </p>
 
 </div>
 </div>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1":[6,0,2,0,2,10,7,1],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,1,0,1,20,7,0],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,2,0,2,10,7,0],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,20,1],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,2,10,1],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,20,1,0],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,2,10,1,0],
+"structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0],
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1MeshToVolumeParams.html#ad2911735fdf5e6da1f6bfb93f285f6a8":[6,0,1,0,1,414,1],
 "structMR_1_1MeshToVolumeParams.html#ad2911735fdf5e6da1f6bfb93f285f6a8":[6,0,2,0,2,395,1],
 "structMR_1_1MeshTriPoint.html":[6,0,0,7,3],
-"structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a":[6,0,0,7,3,0],
-"structMR_1_1MeshTriPoint.html#a1709949fd7429ecfaa96a98d1876f5b2":[6,0,0,7,3,12],
-"structMR_1_1MeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31":[6,0,0,7,3,18],
-"structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c":[6,0,0,7,3,13],
-"structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867":[6,0,0,7,3,16],
-"structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53":[6,0,0,7,3,1],
-"structMR_1_1MeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2":[6,0,0,7,3,17],
-"structMR_1_1MeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9":[6,0,0,7,3,19],
-"structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478":[6,0,0,7,3,14]
+"structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a":[6,0,0,7,3,0]
 };

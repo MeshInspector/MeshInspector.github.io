@@ -1,5 +1,11 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,2,0,2,505,1],
+"classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[6,0,1,0,1,524,2],
+"classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[6,0,2,0,2,505,2],
+"classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[6,0,1,0,1,524,3],
+"classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[6,0,2,0,2,505,3],
+"classMR_1_1PluginCloseOnChangePointCloud.html#ae215a7b0b1f5259e0bc87855f0b2e740":[6,0,1,0,1,524,0],
 "classMR_1_1PluginCloseOnChangePointCloud.html#ae215a7b0b1f5259e0bc87855f0b2e740":[6,0,2,0,2,505,0],
 "classMR_1_1PluginCloseOnEscPressed.html":[6,0,1,0,1,525],
 "classMR_1_1PluginCloseOnEscPressed.html":[6,0,2,0,2,506],
@@ -243,11 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1PrecipitationSimulator.html":[6,0,2,0,2,554],
 "classMR_1_1PrecipitationSimulator.html#a0ae04f850be8f1baf7203566c8071eee":[6,0,1,0,1,573,3],
 "classMR_1_1PrecipitationSimulator.html#a0ae04f850be8f1baf7203566c8071eee":[6,0,2,0,2,554,3],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f":[6,0,1,0,1,573,1],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f":[6,0,2,0,2,554,1],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00":[6,0,1,0,1,573,1,2],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00":[6,0,2,0,2,554,1,2],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b":[6,0,1,0,1,573,1,1],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b":[6,0,2,0,2,554,1,1],
-"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061":[6,0,1,0,1,573,1,0]
+"classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f":[6,0,1,0,1,573,1]
 };

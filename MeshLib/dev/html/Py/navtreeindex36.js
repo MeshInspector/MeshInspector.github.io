@@ -1,5 +1,17 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1GraphEdgeBitSet.html#ae55bce77c01ab51ff370e4a51bb42efb":[6,1,1,0,1,374,27],
+"classmrmeshpy_1_1GraphEdgeBitSet.html#af40a7ffbd973eebaa9993ebbdb2fd078":[6,1,0,0,2,374,37],
+"classmrmeshpy_1_1GraphEdgeBitSet.html#af40a7ffbd973eebaa9993ebbdb2fd078":[6,1,1,0,1,374,37],
+"classmrmeshpy_1_1GraphEdgeId.html":[6,1,0,0,2,375],
+"classmrmeshpy_1_1GraphEdgeId.html":[6,1,1,0,1,375],
+"classmrmeshpy_1_1GraphEdgeId.html#a02754b8e435c8c115b9435348721459a":[6,1,0,0,2,375,1],
+"classmrmeshpy_1_1GraphEdgeId.html#a02754b8e435c8c115b9435348721459a":[6,1,1,0,1,375,1],
+"classmrmeshpy_1_1GraphEdgeId.html#a068bf212c0dcc064406cc895e8e6b6b2":[6,1,0,0,2,375,7],
+"classmrmeshpy_1_1GraphEdgeId.html#a068bf212c0dcc064406cc895e8e6b6b2":[6,1,1,0,1,375,7],
+"classmrmeshpy_1_1GraphEdgeId.html#a07eceb729052ec3d7c508a5f7774334e":[6,1,0,0,2,375,9],
+"classmrmeshpy_1_1GraphEdgeId.html#a07eceb729052ec3d7c508a5f7774334e":[6,1,1,0,1,375,9],
+"classmrmeshpy_1_1GraphEdgeId.html#a12990607c9fe6d44b9388c03019910c8":[6,1,0,0,2,375,10],
 "classmrmeshpy_1_1GraphEdgeId.html#a12990607c9fe6d44b9388c03019910c8":[6,1,1,0,1,375,10],
 "classmrmeshpy_1_1GraphEdgeId.html#a2e54beb78822cd04dfb2c0dc0952538a":[6,1,0,0,2,375,11],
 "classmrmeshpy_1_1GraphEdgeId.html#a2e54beb78822cd04dfb2c0dc0952538a":[6,1,1,0,1,375,11],
@@ -237,17 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1GridToMeshSettings.html#a122fa0eccbb01097c71d40b5d07ca869":[6,1,1,0,1,379,11],
 "classmrmeshpy_1_1GridToMeshSettings.html#a1ec815949c9b4bb602ba53682e2a3cc9":[6,1,0,0,2,379,4],
 "classmrmeshpy_1_1GridToMeshSettings.html#a1ec815949c9b4bb602ba53682e2a3cc9":[6,1,1,0,1,379,4],
-"classmrmeshpy_1_1GridToMeshSettings.html#a28bc50f0d081b5c066e9343b0bb6b3a1":[6,1,0,0,2,379,1],
-"classmrmeshpy_1_1GridToMeshSettings.html#a28bc50f0d081b5c066e9343b0bb6b3a1":[6,1,1,0,1,379,1],
-"classmrmeshpy_1_1GridToMeshSettings.html#a43842d38f571c901db2dc7f9688163f3":[6,1,0,0,2,379,12],
-"classmrmeshpy_1_1GridToMeshSettings.html#a43842d38f571c901db2dc7f9688163f3":[6,1,1,0,1,379,12],
-"classmrmeshpy_1_1GridToMeshSettings.html#a5e0c70169d762bed91060bc3c8abea42":[6,1,0,0,2,379,14],
-"classmrmeshpy_1_1GridToMeshSettings.html#a5e0c70169d762bed91060bc3c8abea42":[6,1,1,0,1,379,14],
-"classmrmeshpy_1_1GridToMeshSettings.html#a78671d4ca42fa198f68daec743891ab0":[6,1,0,0,2,379,6],
-"classmrmeshpy_1_1GridToMeshSettings.html#a78671d4ca42fa198f68daec743891ab0":[6,1,1,0,1,379,6],
-"classmrmeshpy_1_1GridToMeshSettings.html#a7b949e1f0eceac05229fdda69c7bdb06":[6,1,0,0,2,379,10],
-"classmrmeshpy_1_1GridToMeshSettings.html#a7b949e1f0eceac05229fdda69c7bdb06":[6,1,1,0,1,379,10],
-"classmrmeshpy_1_1GridToMeshSettings.html#a82f55d43ee3ebcc074c4769bb4fad0de":[6,1,0,0,2,379,0],
-"classmrmeshpy_1_1GridToMeshSettings.html#a82f55d43ee3ebcc074c4769bb4fad0de":[6,1,1,0,1,379,0],
-"classmrmeshpy_1_1GridToMeshSettings.html#a987331deb90884a867427a56ac716b78":[6,1,0,0,2,379,9]
+"classmrmeshpy_1_1GridToMeshSettings.html#a28bc50f0d081b5c066e9343b0bb6b3a1":[6,1,0,0,2,379,1]
 };

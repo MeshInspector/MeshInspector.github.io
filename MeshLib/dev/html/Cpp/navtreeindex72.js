@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[6,0,2,0,2,2,2,0,3],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,1,0,1,6,2,0,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,2,0,2,2,2,0,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,1,0,1,6,2,0,5],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,2,0,2,2,2,0,5],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,1,0,1,6,2,0,7],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,2,0,2,2,2,0,7],
+"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[6,0,1,0,1,6,2,1],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[6,0,2,0,2,2,2,1],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[6,0,1,0,1,6,2,1,0],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[6,0,2,0,2,2,2,1,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#acd5082006dfa5e0b7e6e227b7080c69f":[6,0,1,0,1,8,0,0,5],
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#acd5082006dfa5e0b7e6e227b7080c69f":[6,0,2,0,2,4,0,0,5],
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#ade37230975e903a0e87eb93638890fba":[6,0,1,0,1,8,0,0,0],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#ade37230975e903a0e87eb93638890fba":[6,0,2,0,2,4,0,0,0],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html":[6,0,1,0,1,8,2],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html":[6,0,2,0,2,4,2],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html#a3f8437e613d46cad940b821aa4eedfa4":[6,0,1,0,1,8,2,0],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html#a3f8437e613d46cad940b821aa4eedfa4":[6,0,2,0,2,4,2,0],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html#a8325b4ad0b790943397e73efcd5bf41d":[6,0,1,0,1,8,2,1],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html#a8325b4ad0b790943397e73efcd5bf41d":[6,0,2,0,2,4,2,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html":[6,0,1,0,1,8,1,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html":[6,0,2,0,2,4,1,0]
+"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#ade37230975e903a0e87eb93638890fba":[6,0,2,0,2,4,0,0,0]
 };

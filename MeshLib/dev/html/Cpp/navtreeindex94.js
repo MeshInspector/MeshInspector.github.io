@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,1,0,1,828,1],
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[6,0,2,0,2,809,1],
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,1,0,1,828,0],
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[6,0,2,0,2,809,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,1,0,1,821,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,2,0,2,802,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,1,0,1,821,0,0],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#a66920eee269c99c0e8fc16530ac5399d":[6,0,2,0,2,802,0,0],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,1,0,1,821,0,1],
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html#aed132f8f5de9c205e387a103f2378f07":[6,0,2,0,2,802,0,1],
 "structMR_1_1Viewport_1_1Parameters.html":[6,0,1,0,1,821,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1WeightedShell_1_1ParametersBase.html#ae7fb4b6344a163878220ad932dc4dec8":[6,0,1,0,1,48,1,1],
 "structMR_1_1WeightedShell_1_1ParametersBase.html#ae7fb4b6344a163878220ad932dc4dec8":[6,0,2,0,2,29,1,1],
 "structMR_1_1WeightedShell_1_1ParametersBase.html#af8d85417b99b631e7f2c01ba2d039443":[6,0,1,0,1,48,1,3],
-"structMR_1_1WeightedShell_1_1ParametersBase.html#af8d85417b99b631e7f2c01ba2d039443":[6,0,2,0,2,29,1,3],
-"structMR_1_1WeightedShell_1_1ParametersMetric.html":[6,0,1,0,1,48,2],
-"structMR_1_1WeightedShell_1_1ParametersMetric.html":[6,0,2,0,2,29,2],
-"structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,1,0,1,48,2,0],
-"structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,2,0,2,29,2,0],
-"structMR_1_1WeightedShell_1_1ParametersRegions.html":[6,0,1,0,1,48,3],
-"structMR_1_1WeightedShell_1_1ParametersRegions.html":[6,0,2,0,2,29,3],
-"structMR_1_1WeightedShell_1_1ParametersRegions.html#a0ccbe22729b0decc1c75be935bdffa2b":[6,0,1,0,1,48,3,2],
-"structMR_1_1WeightedShell_1_1ParametersRegions.html#a0ccbe22729b0decc1c75be935bdffa2b":[6,0,2,0,2,29,3,2]
+"structMR_1_1WeightedShell_1_1ParametersBase.html#af8d85417b99b631e7f2c01ba2d039443":[6,0,2,0,2,29,1,3]
 };

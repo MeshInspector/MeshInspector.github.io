@@ -2,6 +2,7 @@ var classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty =
 [
     [ "ReachedVert", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert" ],
     [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#ab8cdd0a1c20cb7c9187c1c39da310a49", null ],
+    [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a06803e372cd69911665787f48bc15940", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a74e5a445b77884ae813fd319bf9dea68", null ],
     [ "addOrgRingSteps", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#adbabf07f473d945ab10e69f1c10e0769", null ],
     [ "addStart", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#aa0cf6fedf311764be141be0b7b69e9c3", null ],
@@ -11,5 +12,7 @@ var classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty =
     [ "getVertInfo", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a476bbb4ec6b298d434f7af0ad50ec583", null ],
     [ "growOneEdge", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#abed6904ca5288887ae179610944a100d", null ],
     [ "reachNext", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a773bd57d763d0fa5dca8b1c8f54b3c62", null ],
+    [ "reset", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a3b670650a5cf7b6f27a81b0482f47e6b", null ],
+    [ "trackPathBack", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a3f91f8742501b045c0b06e8c80a4142c", null ],
     [ "vertPathInfoMap", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a1a8dda29273c4a6a22c9d454a6783247", null ]
 ];

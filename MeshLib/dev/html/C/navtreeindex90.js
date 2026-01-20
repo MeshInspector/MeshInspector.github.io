@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"MRPolylineDecimate_8h.html#a2264b386cf189c903cacd9468966bd1a":[6,2,1,0,0,0,1,269,23],
+"MRPolylineDecimate_8h.html#a226b8d2043cf665ade1f6999f9b23de2":[6,2,1,0,0,0,1,269,61],
+"MRPolylineDecimate_8h.html#a24f4f0fc535b8877d044dd0a3f0a95af":[6,2,1,0,0,0,1,269,80],
+"MRPolylineDecimate_8h.html#a25dde4488561984da39e296deb944307":[6,2,1,0,0,0,1,269,0],
+"MRPolylineDecimate_8h.html#a2b4c2c028d357d83a729aa18baf5426c":[6,2,1,0,0,0,1,269,75],
+"MRPolylineDecimate_8h.html#a2c04c2a721dc366dc31da32141a3e301":[6,2,1,0,0,0,1,269,95],
+"MRPolylineDecimate_8h.html#a301913036b2d28baa379674528546b56":[6,2,1,0,0,0,1,269,110],
+"MRPolylineDecimate_8h.html#a30337893b26cc069f02882049656273f":[6,2,1,0,0,0,1,269,65],
 "MRPolylineDecimate_8h.html#a38861ea8e0412e1e74522b32d514d1ae":[6,2,1,0,0,0,1,269,90],
 "MRPolylineDecimate_8h.html#a3df50e76b078a1626dd994e1df803764":[6,2,1,0,0,0,1,269,13],
 "MRPolylineDecimate_8h.html#a3f84d9b223bfa7019f38421aa4ca3efb":[6,2,1,0,0,0,1,269,92],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "MRPolylineSubdivide_8h.html":[6,2,1,0,0,0,1,272],
 "MRPolylineSubdivide_8h.html#a04ad5855bd243f361f13f1dd56b6ca26":[6,2,1,0,0,0,1,272,41],
 "MRPolylineSubdivide_8h.html#a0f690e250101e1cc9299e6e703430fe8":[6,2,1,0,0,0,1,272,28],
-"MRPolylineSubdivide_8h.html#a0f92c16f2508691acbdfccf601e75d97":[6,2,1,0,0,0,1,272,20],
-"MRPolylineSubdivide_8h.html#a12362af57857a87ac560cb7bcc0a931c":[6,2,1,0,0,0,1,272,30],
-"MRPolylineSubdivide_8h.html#a16a31bfa1a60ff178fcd75bc70cd5f1f":[6,2,1,0,0,0,1,272,7],
-"MRPolylineSubdivide_8h.html#a1dc1338787ae37d5af5272effcc87e43":[6,2,1,0,0,0,1,272,29],
-"MRPolylineSubdivide_8h.html#a27cdfe2e12a517ece3fba33a3ce66e8c":[6,2,1,0,0,0,1,272,13],
-"MRPolylineSubdivide_8h.html#a2aaa3fff21de2c1ac8e2c8ab44bff6fd":[6,2,1,0,0,0,1,272,36],
-"MRPolylineSubdivide_8h.html#a2cf84abc7844c1d8e7108d0f25608885":[6,2,1,0,0,0,1,272,15],
-"MRPolylineSubdivide_8h.html#a3b9d9333a7758f663c781dda939ea407":[6,2,1,0,0,0,1,272,24],
-"MRPolylineSubdivide_8h.html#a3bcdd9d9d27ca2f5eaee6e322392b117":[6,2,1,0,0,0,1,272,34]
+"MRPolylineSubdivide_8h.html#a0f92c16f2508691acbdfccf601e75d97":[6,2,1,0,0,0,1,272,20]
 };

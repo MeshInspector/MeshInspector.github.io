@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"MRQuadraticForm_8h.html#a6ac971a371c6b3bf25445ffc21cc305a":[6,2,1,0,0,0,1,285,36],
+"MRQuadraticForm_8h.html#a6ba9ba30b79a5442914a51c333a1efcc":[6,2,1,0,0,0,1,285,63],
+"MRQuadraticForm_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,1,285,11],
+"MRQuadraticForm_8h.html#a6d2410958b7795db3d6f327879cd6401":[6,2,1,0,0,0,1,285,78],
+"MRQuadraticForm_8h.html#a6fe0b975fc209b5e93e2ad81d51f1084":[6,2,1,0,0,0,1,285,18],
+"MRQuadraticForm_8h.html#a6ff8b8b413b699cdb48da8ed571583d8":[6,2,1,0,0,0,1,285,86],
+"MRQuadraticForm_8h.html#a72690eb7576f6b85794d17fcca63ec20":[6,2,1,0,0,0,1,285,88],
+"MRQuadraticForm_8h.html#a72ab0be0b71b29e9f310e7526a8cc57b":[6,2,1,0,0,0,1,285,9],
 "MRQuadraticForm_8h.html#a734d33cba1274110686bbae11f43ab3c":[6,2,1,0,0,0,1,285,51],
 "MRQuadraticForm_8h.html#a75cf031780478837c1eaf3668e621f32":[6,2,1,0,0,0,1,285,16],
 "MRQuadraticForm_8h.html#a77c99bf5ae271adba036a0890c98eccd":[6,2,1,0,0,0,1,285,95],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "MRRadiusMeasurementObject_8h.html#a5b7a243921bde8e3183debfa55b48add":[6,2,1,0,0,0,1,288,94],
 "MRRadiusMeasurementObject_8h.html#a5ba716617d858bbd36e53f75f29f998b":[6,2,1,0,0,0,1,288,103],
 "MRRadiusMeasurementObject_8h.html#a5cd45b103cd05b079a560e580e32bac6":[6,2,1,0,0,0,1,288,143],
-"MRRadiusMeasurementObject_8h.html#a5e651d8bace180a67f54c4cb8ad46da8":[6,2,1,0,0,0,1,288,31],
-"MRRadiusMeasurementObject_8h.html#a5f068f77e9acd365f7e1ee71f8681c1a":[6,2,1,0,0,0,1,288,146],
-"MRRadiusMeasurementObject_8h.html#a63575ee023487ee68b49e527f15c9253":[6,2,1,0,0,0,1,288,134],
-"MRRadiusMeasurementObject_8h.html#a63df8a799ed46b2bbce9b210923856ae":[6,2,1,0,0,0,1,288,44],
-"MRRadiusMeasurementObject_8h.html#a645be311b096bef3aa30bc974af2f4e6":[6,2,1,0,0,0,1,288,43],
-"MRRadiusMeasurementObject_8h.html#a66444e10d4a9308ee300afee330ac8c2":[6,2,1,0,0,0,1,288,137],
-"MRRadiusMeasurementObject_8h.html#a6850cda33f3e566be9b658baa95a01ee":[6,2,1,0,0,0,1,288,126],
-"MRRadiusMeasurementObject_8h.html#a68a5b67e20e3709500b4c4085cfd05fe":[6,2,1,0,0,0,1,288,75],
-"MRRadiusMeasurementObject_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,1,288,10]
+"MRRadiusMeasurementObject_8h.html#a5e651d8bace180a67f54c4cb8ad46da8":[6,2,1,0,0,0,1,288,31]
 };

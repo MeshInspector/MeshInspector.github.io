@@ -1,5 +1,17 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649":[6,1,1,0,1,795,2],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a":[6,1,0,0,2,795,0],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a":[6,1,1,0,1,795,0],
+"classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[6,1,0,0,2,795,5],
+"classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[6,1,1,0,1,795,5],
+"classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[6,1,0,0,2,795,4],
+"classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[6,1,1,0,1,795,4],
+"classmrmeshpy_1_1Side.html":[6,1,0,0,2,796],
+"classmrmeshpy_1_1Side.html":[6,1,1,0,1,796],
+"classmrmeshpy_1_1Side.html#a015df08455b7c213838491f671f687ea":[6,1,0,0,2,796,2],
+"classmrmeshpy_1_1Side.html#a015df08455b7c213838491f671f687ea":[6,1,1,0,1,796,2],
+"classmrmeshpy_1_1Side.html#a25077d3be91bb803ab9a781c77f52162":[6,1,0,0,2,796,11],
 "classmrmeshpy_1_1Side.html#a25077d3be91bb803ab9a781c77f52162":[6,1,1,0,1,796,11],
 "classmrmeshpy_1_1Side.html#a2a8a07c1c5c8abf52eae8161eabbd202":[6,1,0,0,2,796,6],
 "classmrmeshpy_1_1Side.html#a2a8a07c1c5c8abf52eae8161eabbd202":[6,1,1,0,1,796,6],
@@ -237,17 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1SortIntersectionsData.html":[6,1,1,0,1,811],
 "classmrmeshpy_1_1SortIntersectionsData.html#a01148e9d45e304e96079b598d0b97959":[6,1,0,0,2,811,2],
 "classmrmeshpy_1_1SortIntersectionsData.html#a01148e9d45e304e96079b598d0b97959":[6,1,1,0,1,811,2],
-"classmrmeshpy_1_1SortIntersectionsData.html#a18437a5ecdc30c01f0f1d4321c57805a":[6,1,0,0,2,811,0],
-"classmrmeshpy_1_1SortIntersectionsData.html#a18437a5ecdc30c01f0f1d4321c57805a":[6,1,1,0,1,811,0],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,0,0,2,811,1],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,1,0,1,811,1],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,0,0,2,811,3],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,1,0,1,811,3],
-"classmrmeshpy_1_1SpacingSettings.html":[6,1,0,0,2,812],
-"classmrmeshpy_1_1SpacingSettings.html":[6,1,1,0,1,812],
-"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,0,0,2,812,9],
-"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,1,0,1,812,9],
-"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,0,0,2,812,2],
-"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,1,0,1,812,2],
-"classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,0,0,2,812,4]
+"classmrmeshpy_1_1SortIntersectionsData.html#a18437a5ecdc30c01f0f1d4321c57805a":[6,1,0,0,2,811,0]
 };

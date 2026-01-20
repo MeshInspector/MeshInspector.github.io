@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#aa0387cf419695716cd93f6a75a946dcc":[6,0,1,0,1,94,0,4],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#aa0387cf419695716cd93f6a75a946dcc":[6,0,2,0,2,75,0,4],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,1,0,1,94,0,5],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,2,0,2,75,0,5],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,1,0,1,94,0,1],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,2,0,2,75,0,1],
+"structMR_1_1Box.html":[6,0,0,0,2,0],
+"structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[6,0,0,0,2,0,32],
 "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[6,0,0,0,2,0,5],
 "structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[6,0,0,0,2,0,0],
 "structMR_1_1Box.html#a14ec2de1def8e99ce267fe830e9caa51":[6,0,0,0,2,0,19],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ContourToDistanceMapParams.html#a9e22bbb95e700464aef4f9d5a8809a59":[6,0,0,5,4,2],
 "structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d":[6,0,0,5,4,7],
 "structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[6,0,0,5,4,6],
-"structMR_1_1ContourToDistanceMapParams.html#abbd8dedf69e38f74671e46abe6e1ad92":[6,0,0,5,4,5],
-"structMR_1_1ContourToDistanceMapParams.html#acb66f00d43a900ccc08dffcb01c8a275":[6,0,0,5,4,3],
-"structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f":[6,0,0,5,4,10],
-"structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce":[6,0,0,5,4,12],
-"structMR_1_1ContoursDistanceMapOffset.html":[6,0,0,5,1],
-"structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[6,0,0,5,1,2],
-"structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0]
+"structMR_1_1ContourToDistanceMapParams.html#abbd8dedf69e38f74671e46abe6e1ad92":[6,0,0,5,4,5]
 };

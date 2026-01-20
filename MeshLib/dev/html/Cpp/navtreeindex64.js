@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1Features.html#a6ef217cccdf314a4441a435f229650af":[6,0,1,0,1,6,26],
+"namespaceMR_1_1Features.html#a786882f4d1d08a909e121d587762bc7d":[6,0,1,0,1,6,29],
+"namespaceMR_1_1Features.html#a8181371796e19bd3d28cc3300b6aa1bb":[6,0,1,0,1,6,21],
+"namespaceMR_1_1Features.html#a8ae032d9a48f5e4e7669748c12b6f05c":[6,0,1,0,1,6,9],
+"namespaceMR_1_1Features.html#a8d70d3465b40dfe88c3a3fb7210afee0":[6,0,1,0,1,6,15],
+"namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc":[6,0,1,0,1,6,6],
+"namespaceMR_1_1Features.html#aa06970e4aa6f9508425ab48758238239":[6,0,1,0,1,6,20],
+"namespaceMR_1_1Features.html#ab8f22bea18d05dc887187f02a89188a6":[6,0,1,0,1,6,18],
 "namespaceMR_1_1Features.html#acba878d0a966299305f4db971b3896b7":[6,0,1,0,1,6,11],
 "namespaceMR_1_1Features.html#acbd075b92fa1a44ed1751506cecb9b3a":[6,0,1,0,1,6,25],
 "namespaceMR_1_1Features.html#ada065f0f7c5b74946d5ae2826df2bf0d":[6,0,1,0,1,6,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "namespaceMR_1_1QualityControl.html":[6,0,1,0,1,34],
 "namespaceMR_1_1QualityControl.html#ae3ef1665822bfc51bccf4cb39ea88a55":[6,0,1,0,1,34,0],
 "namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,35],
-"namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,36],
-"namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,1,36,0],
-"namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,1,37],
-"namespaceMR_1_1RenderWrapObject_1_1detail.html":[6,0,1,0,1,37,0],
-"namespaceMR_1_1SceneLoad.html":[6,0,1,0,1,38],
-"namespaceMR_1_1SceneLoad.html#a0b87b3918d63624f559f15d25ecb9c3a":[6,0,1,0,1,38,3],
-"namespaceMR_1_1SceneLoad.html#ac487a300831be5cc92806c51ce12f922":[6,0,1,0,1,38,5],
-"namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9":[6,0,1,0,1,38,2],
-"namespaceMR_1_1SceneLoad.html#adf9736b6c4eba76b43a108d16f183036":[6,0,1,0,1,38,4]
+"namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,36]
 };
