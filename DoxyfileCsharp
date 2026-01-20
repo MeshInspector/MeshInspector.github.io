@@ -7,5 +7,9 @@ INPUT                  = ../MeshLib/CsharpBindings/ \
 FILE_PATTERNS          = *.cs \
                          *.dox
 HTML_OUTPUT            = html/Csharp
-EXTENSION_MAPPING      = cs=C#
-TYPEDEF_HIDES_STRUCT   = YES
+
+# For C# projects
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+
+EXCLUDE_SYMBOLS        = Json std 

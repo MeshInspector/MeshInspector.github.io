@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CHECK_WARNINGS=true
+
 if [ $# -lt 1 ]; then
     echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
 fi
@@ -22,7 +24,7 @@ rm -rf ${TARGET_DIR}/html/*
 # clear old logs
 rm log*
 
-MODULES=(Main Cpp Py C)
+MODULES=(Main Cpp Py C Csharp)
 # generate tag files
 for MODULE in ${MODULES[*]}
 do
@@ -35,9 +37,10 @@ do
 done
 rm -rf ${TARGET_DIR}/html/*
 
-# check doxygen error (bad doxyfile, missing sources)
-if grep -q "^warning: " log_tag_error.txt; then
+# check doxygen error (bad doxyfile, missing sources) 
+if [ "$CHECK_WARNINGS" = true ] && grep -q "^warning: " log_tag_error.txt; then
     echo "ERROR: documentation generation error"
+    cat log_tag_error.txt
     exit 1
 fi
 
@@ -66,8 +69,9 @@ do
 done
 
 # check doxygen error (bad doxyfile, missing sources)
-if grep -q "^warning: " log_error.txt; then
+if [ "$CHECK_WARNINGS" = true ] && grep -q "^warning: " log_error.txt; then
     echo "ERROR: documentation generation error"
+    cat log_error.txt
     exit 1
 fi
 
