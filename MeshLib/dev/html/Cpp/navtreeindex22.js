@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01":[6,0,2,0,2,19,0,0],
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,2,0,2,19,0,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,2,19,1],
 "structMR_1_1PointsToDistanceVolumeParams.html":[6,0,2,0,2,527],
 "structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,2,0,2,527,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[6,0,2,0,2,638,0],
 "structMR_1_1SaveSettings.html":[6,0,2,0,2,643],
 "structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[6,0,2,0,2,643,9],
-"structMR_1_1SaveSettings.html#a0f2bb31407f2693aa939c47e0052b527":[6,0,2,0,2,643,6],
-"structMR_1_1SaveSettings.html#a127d98f930cd561a8633297e3422f649":[6,0,2,0,2,643,8],
-"structMR_1_1SaveSettings.html#a1b152fd38e636ee6803cabaac71794cc":[6,0,2,0,2,643,1]
+"structMR_1_1SaveSettings.html#a0f2bb31407f2693aa939c47e0052b527":[6,0,2,0,2,643,6]
 };

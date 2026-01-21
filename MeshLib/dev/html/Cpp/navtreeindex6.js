@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"classMR_1_1IComputeToolDistance.html#a8ea4d968e93876e24b36709e9324f596":[6,0,2,0,2,284,1],
 "classMR_1_1IComputeToolDistance.html#af4e1c6d89878989a6012b5d845adcd1a":[6,0,2,0,2,284,2],
 "classMR_1_1IDragDropHandler.html":[6,0,2,0,2,294],
 "classMR_1_1IFastWindingNumber.html":[6,0,2,0,2,296],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "classMR_1_1MeshTopology.html#ac9a39211dd0a82528351dee2fe575817":[6,0,0,7,2,129],
 "classMR_1_1MeshTopology.html#acb037b0d20b8897728886d4405e62252":[6,0,0,7,2,44],
 "classMR_1_1MeshTopology.html#accfc957245f9a8df756ad1a869c8df3d":[6,0,0,7,2,84],
-"classMR_1_1MeshTopology.html#ad0f6ba780fa3c60cb5bd64644b96d331":[6,0,0,7,2,110]
+"classMR_1_1MeshTopology.html#ad0f6ba780fa3c60cb5bd64644b96d331":[6,0,0,7,2,110],
+"classMR_1_1MeshTopology.html#ad39b72c5c1c1394f957eafdbf92abfe3":[6,0,0,7,2,14]
 };

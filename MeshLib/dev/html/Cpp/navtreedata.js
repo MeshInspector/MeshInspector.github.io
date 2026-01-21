@@ -124,8 +124,7 @@ var NAVTREE =
         ] ]
       ] ],
       [ "Python", "../Py/APIPyPage.html", null ],
-      [ "C", "../C/APICPage.html", null ],
-      [ "C#", "../Csharp/APICsharpPage.html", null ]
+      [ "C", "../C/APICPage.html", null ]
     ] ],
     [ "Third-Party Dependencies", "../ThirdParty.html", null ]
   ] ]
@@ -134,30 +133,30 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"MRFreeFormDeformer_8h_source.html",
-"MRPointsToMeshFusion_8h_source.html",
-"MRUnitSettings_8h_source.html",
-"classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953",
-"classMR_1_1CylinderObject.html#acb85565bb46e9e81bb1363072188a46c",
-"classMR_1_1IComputeToolDistance.html#a8ea4d968e93876e24b36709e9324f596",
-"classMR_1_1MeshTopology.html#ad39b72c5c1c1394f957eafdbf92abfe3",
-"classMR_1_1ObjectLinesHolder.html#a8485f04d2b33612fd7c5f7cbfe96fb91",
-"classMR_1_1PartialChangeMeshAction.html",
-"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a",
-"classMR_1_1SparsePolynomial.html",
-"classMR_1_1Viewport.html#a357b7f0de8d573b2e8bc9b04ed3adc56",
-"functions_v.html",
-"group__DataModelGroup.html#ga6db28aaf4d28c32688ee3fbe07c2cd69",
-"group__MeshFixerGroup.html#gaf38de39619c863041d1acc307a36642a",
-"group__VoxelPathGroup.html#ga149abd6a892e1284e051e285396c94c6",
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30",
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html",
-"structMR_1_1Mesh.html#a797623a41864029eb93103c262fa70d4",
-"structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29",
-"structMR_1_1PointsSave_1_1PointsSaver.html",
-"structMR_1_1SaveSettings.html#a2adbb4514d02bbf6b87e95a090e1a2d9",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2"
+"MRGLMacro_8h_source.html",
+"MRPolyline2Collide_8h_source.html",
+"MRUniteManyMeshes_8h_source.html",
+"classMR_1_1ChangeNameAction.html#a78f9dfad757f976bb7af6f93bbfd2e74",
+"classMR_1_1CylinderObject.html#ad6493f67be6aa4a9a004c90d06a31d09",
+"classMR_1_1IComputeToolDistance.html#af4e1c6d89878989a6012b5d845adcd1a",
+"classMR_1_1MeshTopology.html#ad584643e2e3233eea5dbb51eab4b1ba0",
+"classMR_1_1ObjectLinesHolder.html#a866b821cbf1353875759fa45e614249f",
+"classMR_1_1PartialChangeMeshAction.html#a677e3ef484c3decb94df9b1ce351cfdf",
+"classMR_1_1RedoMenuItem.html",
+"classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba",
+"classMR_1_1Viewport.html#a386544dc0c5351067325cad9bf32dc93",
+"functions_vars.html",
+"group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d",
+"group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea",
+"group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4",
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178",
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c",
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html",
+"structMR_1_1Mesh.html#a7444cb052e8855eb1ea69b34d2796f3a",
+"structMR_1_1MovementBuildBodyParams.html#adcac10de1f9f5decb27a76bc24ea210d",
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01",
+"structMR_1_1SaveSettings.html#a127d98f930cd561a8633297e3422f649",
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

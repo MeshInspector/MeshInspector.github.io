@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classMR_1_1SparsePolynomial.html":[6,0,2,0,2,699],
 "classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba":[6,0,2,0,2,699,4],
 "classMR_1_1SparsePolynomial.html#a3dc64df27400abce4c5aa702e5829ac3":[6,0,2,0,2,699,0],
 "classMR_1_1SparsePolynomial.html#a555f6678115944f56cb6b347fcbc297a":[6,0,2,0,2,699,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "classMR_1_1Viewport.html":[6,0,2,0,2,802],
 "classMR_1_1Viewport.html#a020bc7c22b9f6b3084db655ddb8d1b10":[6,0,2,0,2,802,4],
 "classMR_1_1Viewport.html#a199947ead6c82f9250dd00975bc55ff9":[6,0,2,0,2,802,21],
-"classMR_1_1Viewport.html#a206a9695d926451f9f28ba92220e74a4":[6,0,2,0,2,802,8]
+"classMR_1_1Viewport.html#a206a9695d926451f9f28ba92220e74a4":[6,0,2,0,2,802,8],
+"classMR_1_1Viewport.html#a357b7f0de8d573b2e8bc9b04ed3adc56":[6,0,2,0,2,802,22]
 };

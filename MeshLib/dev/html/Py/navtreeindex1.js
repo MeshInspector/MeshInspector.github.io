@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classmrmeshpy_1_1AffineXf2f.html#a5610fd3bca92d27fcea0436681664544":[6,1,0,0,1,20,4],
 "classmrmeshpy_1_1AffineXf2f.html#a9ef9296c534e479ea6492696bde764c1":[6,1,0,0,1,20,1],
 "classmrmeshpy_1_1AffineXf2f.html#ab998cab0b49bf2205042f770703b1b11":[6,1,0,0,1,20,3],
 "classmrmeshpy_1_1AffineXf2f.html#afc765ffbb58d2f92be36ba9a1806d08a":[6,1,0,0,1,20,0],
@@ -12,15 +11,15 @@ var NAVTREEINDEX1 =
 "classmrmeshpy_1_1AffineXf3d.html#a5f41b7726a364dfd9e655a5e3154202a":[6,1,0,0,1,21,4],
 "classmrmeshpy_1_1AffineXf3d.html#afe61bc9fbce982c31d1b643581647c8b":[6,1,0,0,1,21,0],
 "classmrmeshpy_1_1AffineXf3f.html":[6,1,0,0,1,22],
-"classmrmeshpy_1_1AffineXf3f.html#a04bcc691845a748a224a5c728c6af8e6":[6,1,0,0,1,22,2],
+"classmrmeshpy_1_1AffineXf3f.html#a04bcc691845a748a224a5c728c6af8e6":[6,1,0,0,1,22,4],
 "classmrmeshpy_1_1AffineXf3f.html#a32d5bed839dd288e02fa92abcf7af844":[6,1,0,0,1,22,8],
 "classmrmeshpy_1_1AffineXf3f.html#a42a0e2f2cba755672b8f0272bfeb156a":[6,1,0,0,1,22,6],
 "classmrmeshpy_1_1AffineXf3f.html#a4855fc72373674b31e6dbef6fd5f3e19":[6,1,0,0,1,22,7],
-"classmrmeshpy_1_1AffineXf3f.html#a585f0e7ad5d9ebd3d5f05720771f9265":[6,1,0,0,1,22,4],
-"classmrmeshpy_1_1AffineXf3f.html#a6f0d881d560ded18c49e81bd249f08d9":[6,1,0,0,1,22,3],
-"classmrmeshpy_1_1AffineXf3f.html#aae8e2b2931f32ea71508eb317cfc472f":[6,1,0,0,1,22,0],
+"classmrmeshpy_1_1AffineXf3f.html#a585f0e7ad5d9ebd3d5f05720771f9265":[6,1,0,0,1,22,1],
+"classmrmeshpy_1_1AffineXf3f.html#a6f0d881d560ded18c49e81bd249f08d9":[6,1,0,0,1,22,0],
+"classmrmeshpy_1_1AffineXf3f.html#aae8e2b2931f32ea71508eb317cfc472f":[6,1,0,0,1,22,2],
 "classmrmeshpy_1_1AffineXf3f.html#ab7756c1e6881162a357a5022e5a8a391":[6,1,0,0,1,22,5],
-"classmrmeshpy_1_1AffineXf3f.html#ad3dcae92c23f98a11d43b22318d6a910":[6,1,0,0,1,22,1],
+"classmrmeshpy_1_1AffineXf3f.html#ad3dcae92c23f98a11d43b22318d6a910":[6,1,0,0,1,22,3],
 "classmrmeshpy_1_1AlignType.html":[6,1,0,0,1,23],
 "classmrmeshpy_1_1AllLocalTriangulations.html":[6,1,0,0,1,24],
 "classmrmeshpy_1_1AngleMeasurementObject.html":[6,1,0,0,1,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#af785e798c45895cede42752f15f5d04c":[6,1,0,0,1,66,1,0],
 "classmrmeshpy_1_1BooleanResultPoints.html":[6,1,0,0,1,67],
 "classmrmeshpy_1_1BooleanResultPoints.html#a751bf14877277bcf97bdad6a03a776e3":[6,1,0,0,1,67,0],
-"classmrmeshpy_1_1BooleanResultPoints.html#ad09aa14f2768c0d4f4d957a63b91316c":[6,1,0,0,1,67,1]
+"classmrmeshpy_1_1BooleanResultPoints.html#ad09aa14f2768c0d4f4d957a63b91316c":[6,1,0,0,1,67,1],
+"classmrmeshpy_1_1Box1d.html":[6,1,0,0,1,68]
 };

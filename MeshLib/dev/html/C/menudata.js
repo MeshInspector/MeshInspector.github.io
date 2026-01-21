@@ -97,6 +97,5 @@ var menudata={children:[
 {text:"All",url:"functions.html"},
 {text:"Variables",url:"functions_vars.html"}]}]},
 {text:"File List",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]},
-{text:"C#",url:"../Csharp/APICsharpPage.html"}]},
+{text:"File List",url:"files.html"}]}]}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

@@ -197,6 +197,18 @@ MRVOXELS_API <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;<
 MRVOXELS_API <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MR::cropped</b> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const Box3i &amp;box, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cropped grid <br /></td></tr>
 <tr class="separator:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga770032fe42da0bb15fcc90bf40d219a1" id="r_ga770032fe42da0bb15fcc90bf40d219a1"><td class="memItemLeft" align="right" valign="top"><a id="ga770032fe42da0bb15fcc90bf40d219a1" name="ga770032fe42da0bb15fcc90bf40d219a1"></a>
+MRVOXELS_API size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MR::countVoxelsWithValuePred</b> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const std::function&lt; bool(float)&gt; &amp;pred)</td></tr>
+<tr class="memdesc:ga770032fe42da0bb15fcc90bf40d219a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of velxes in the grid with pred(value) == true <br /></td></tr>
+<tr class="separator:ga770032fe42da0bb15fcc90bf40d219a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac9943628cd64b8a75e368ce9d38efd82" id="r_gac9943628cd64b8a75e368ce9d38efd82"><td class="memItemLeft" align="right" valign="top"><a id="gac9943628cd64b8a75e368ce9d38efd82" name="gac9943628cd64b8a75e368ce9d38efd82"></a>
+MRVOXELS_API size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MR::countVoxelsWithValueLess</b> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, float value)</td></tr>
+<tr class="memdesc:gac9943628cd64b8a75e368ce9d38efd82"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of voxels in the grid with value less than given <br /></td></tr>
+<tr class="separator:gac9943628cd64b8a75e368ce9d38efd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5712e78d9d4422fcdcd7dfed32c2c17e" id="r_ga5712e78d9d4422fcdcd7dfed32c2c17e"><td class="memItemLeft" align="right" valign="top"><a id="ga5712e78d9d4422fcdcd7dfed32c2c17e" name="ga5712e78d9d4422fcdcd7dfed32c2c17e"></a>
+MRVOXELS_API size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MR::countVoxelsWithValueGreater</b> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, float value)</td></tr>
+<tr class="memdesc:ga5712e78d9d4422fcdcd7dfed32c2c17e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of voxels in the grid with value greater than given <br /></td></tr>
+<tr class="separator:ga5712e78d9d4422fcdcd7dfed32c2c17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5124238a8f9f74cadab3bc8dcc4438e6" id="r_ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memItemLeft" align="right" valign="top"><a id="ga5124238a8f9f74cadab3bc8dcc4438e6" name="ga5124238a8f9f74cadab3bc8dcc4438e6"></a>
 MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><b>MR::gaussianFilter</b> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns grid with gaussian filter applied <br /></td></tr>

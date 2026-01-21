@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"structMR__AffineXf2f.html":[6,2,0,0,1],
 "structMR__AffineXf3d.html":[6,2,0,0,2],
 "structMR__AffineXf3f.html":[6,2,0,0,3],
 "structMR__Box1d.html":[6,2,0,0,4],

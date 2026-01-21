@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"MRFreeFormDeformer_8h_source.html":[6,0,3,0,0,0,4,125],
 "MRGLMacro_8h_source.html":[6,0,3,0,0,0,10,31],
 "MRGLStaticHolder_8h_source.html":[6,0,3,0,0,0,10,32],
 "MRGLTexture_8h_source.html":[6,0,3,0,0,0,10,33],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "MRPointsProject_8h_source.html":[6,0,3,0,0,0,4,301],
 "MRPointsSave_8h_source.html":[6,0,3,0,0,0,4,302],
 "MRPointsShader_8h_source.html":[6,0,3,0,0,0,10,67],
-"MRPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,0,11,20]
+"MRPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,0,11,20],
+"MRPointsToMeshFusion_8h_source.html":[6,0,3,0,0,0,11,21]
 };

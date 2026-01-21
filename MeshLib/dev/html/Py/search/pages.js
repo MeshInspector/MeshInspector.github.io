@@ -3,7 +3,7 @@ var searchData=
   ['noise_20example_0',['Adding and removing noise Example',['../../ExampleNoiseDenoise.html',1,'']]],
   ['numpy_20grid_1',['Triangulation of a regular Numpy grid',['../../ExampleNumpyTriangulation.html',1,'']]],
   ['numpy_20support_2',['Numpy support',['../../ExampleNumpy.html',1,'']]],
-  ['c_0',['C',['../../C/APICPage.html',1,'C'],['../../APICsharpPage.html',1,'C#'],['../../Cpp/APICppPage.html',1,'C++'],['../../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
+  ['c_0',['C',['../../C/APICPage.html',1,'C'],['../../Cpp/APICppPage.html',1,'C++'],['../../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
   ['c_20example_20plugin_20overview_1',['C++ Example Plugin Overview',['../../ExamplePluginOverview.html',1,'']]],
   ['c_20on_20windows_2',['C on Windows',['../../SupportGeneratorTutorial.html',1,'Building a Support Generator Plugin Using MeshLib C++ on Windows'],['../../FirstPluginTutorial.html',1,'How to create a first plugin using MeshLib C++ on Windows']]],
   ['c_20setup_20guide_3',['C Setup Guide',['../../MeshLibCSetupGuide.html',1,'MeshLib C Setup Guide'],['../../MeshLibCppSetupGuide.html',1,'MeshLib C++ Setup Guide']]],

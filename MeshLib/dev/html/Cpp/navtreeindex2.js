@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"MRPointsToMeshFusion_8h_source.html":[6,0,3,0,0,0,11,21],
 "MRPolyline2Collide_8h_source.html":[6,0,3,0,0,0,4,307],
 "MRPolyline2Intersect_8h_source.html":[6,0,3,0,0,0,4,308],
 "MRPolyline2Project_8h_source.html":[6,0,3,0,0,0,4,309],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "MRUniquePtr_8h_source.html":[6,0,3,0,0,0,4,400],
 "MRUniqueTemporaryFolder_8h_source.html":[6,0,3,0,0,0,4,401],
 "MRUniqueThreadSafeOwner_8h_source.html":[6,0,3,0,0,0,4,402],
-"MRUnitInfo_8h_source.html":[6,0,3,0,0,0,4,404]
+"MRUnitInfo_8h_source.html":[6,0,3,0,0,0,4,404],
+"MRUnitSettings_8h_source.html":[6,0,3,0,0,0,10,145]
 };

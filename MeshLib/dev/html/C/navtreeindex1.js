@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"MRMeshCollide_8h_source.html":[6,2,1,0,0,0,1,161],
 "MRMeshComponents_8h_source.html":[6,2,1,0,0,0,1,163],
 "MRMeshDecimateCallbacks_8h_source.html":[6,2,1,0,0,0,1,165],
 "MRMeshDecimate_8h_source.html":[6,2,1,0,0,0,1,164],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "expected__MR__FloatGrid__std__string_8h_source.html":[6,2,1,0,0,0,2,6],
 "expected__MR__FunctionVolume__std__string_8h_source.html":[6,2,1,0,0,0,2,7],
 "expected__MR__Image__std__string_8h_source.html":[6,2,1,0,0,0,2,8],
-"expected__MR__LoadedObjectT__MR__ObjectMesh__std__string_8h_source.html":[6,2,1,0,0,0,2,10]
+"expected__MR__LoadedObjectT__MR__ObjectMesh__std__string_8h_source.html":[6,2,1,0,0,0,2,10],
+"expected__MR__LoadedObjectT__std__string_8h_source.html":[6,2,1,0,0,0,2,11]
 };
