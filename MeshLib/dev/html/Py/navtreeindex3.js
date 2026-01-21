@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"classmrmeshpy_1_1Box3i64.html#a2dd03b10d6a791252ab168794e24ecb2":[6,1,0,0,1,79,13],
 "classmrmeshpy_1_1Box3i64.html#a38c8883a261eac6c000c1ade0038a380":[6,1,0,0,1,79,15],
 "classmrmeshpy_1_1Box3i64.html#a419dc28da025f95a2bc1a65fe08d1436":[6,1,0,0,1,79,11],
 "classmrmeshpy_1_1Box3i64.html#a4bb061094bed46a5322ef2e5339659a3":[6,1,0,0,1,79,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "classmrmeshpy_1_1ChangeObjectVisibilityAction.html#ac899ffb9c9da36c1b9556e73bc406e4e":[6,1,0,0,1,122,3],
 "classmrmeshpy_1_1ChangeOneNormalInCloudAction.html":[6,1,0,0,1,123],
 "classmrmeshpy_1_1ChangeOneNormalInCloudAction.html#a23db3b69f88a93bf3112431023a1d4d6":[6,1,0,0,1,123,0],
-"classmrmeshpy_1_1ChangeOneNormalInCloudAction.html#a4c5a55fcf748185b9bd74433a1aee3eb":[6,1,0,0,1,123,2],
-"classmrmeshpy_1_1ChangeOneNormalInCloudAction.html#ad8cd635921b56d29fd27c4c4ffbd0721":[6,1,0,0,1,123,1]
+"classmrmeshpy_1_1ChangeOneNormalInCloudAction.html#a4c5a55fcf748185b9bd74433a1aee3eb":[6,1,0,0,1,123,2]
 };

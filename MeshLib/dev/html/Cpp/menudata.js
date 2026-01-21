@@ -184,5 +184,6 @@ var menudata={children:[
 {text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"}]}]},
 {text:"Python",url:"../Py/APIPyPage.html"},
-{text:"C",url:"../C/APICPage.html"}]},
+{text:"C",url:"../C/APICPage.html"},
+{text:"C#",url:"../Csharp/APICsharpPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

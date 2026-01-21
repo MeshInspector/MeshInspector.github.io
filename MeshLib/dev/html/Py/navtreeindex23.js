@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classmrmeshpy_1_1TerminalVertex.html#a1b5f966de1af73ac62702b2d04a1c48c":[6,1,0,0,1,1051,0],
 "classmrmeshpy_1_1TerminalVertex.html#ab251b11bc4284b59fb774d19211ac579":[6,1,0,0,1,1051,1],
 "classmrmeshpy_1_1TextMeshAlignParams.html":[6,1,0,0,1,1052],
 "classmrmeshpy_1_1TextMeshAlignParams.html#a0143426333f9af60f5d1a57c6a9f0379":[6,1,0,0,1,1052,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,0,0,1,1089],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,0,0,1,1089,1],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,0,0,1,1089,4],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,0,0,1,1089,2],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a3d64125ff2732a5da0eb7ddbb4fb32fa":[6,1,0,0,1,1089,7]
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,0,0,1,1089,2]
 };

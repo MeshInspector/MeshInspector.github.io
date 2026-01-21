@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"structMR_1_1SaveSettings.html#a2adbb4514d02bbf6b87e95a090e1a2d9":[6,0,2,0,2,643,5],
 "structMR_1_1SaveSettings.html#a3614a6ca71783b2dd64369d4f122ee69":[6,0,2,0,2,643,2],
 "structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,2,0,2,643,0],
 "structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,2,0,2,643,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[6,0,2,0,2,25,1,6],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[6,0,2,0,2,25,1,2],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458":[6,0,2,0,2,25,1,1],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,2,0,2,25,1,9],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,2,0,2,25,1,0]
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,2,0,2,25,1,9]
 };

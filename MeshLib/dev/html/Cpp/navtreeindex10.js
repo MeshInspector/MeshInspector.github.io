@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,2],
 "classMR_1_1RedoMenuItem.html":[6,0,2,0,2,581],
 "classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,2,583],
 "classMR_1_1RegularMapMesher.html":[6,0,0,12,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1SpaceMouseHandler.html#aa16a3f50c595a2adfa16a0062dbea2a5":[6,0,2,0,2,693,1],
 "classMR_1_1SpaceMouseHandlerHidapi.html":[6,0,2,0,2,694],
 "classMR_1_1SpaceMouseHandlerHidapi.html#ae76882db7c2042147f95e35d15b93371":[6,0,2,0,2,694,0],
-"classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,2,0,2,694,1],
-"classMR_1_1SparsePolynomial.html":[6,0,2,0,2,699]
+"classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,2,0,2,694,1]
 };

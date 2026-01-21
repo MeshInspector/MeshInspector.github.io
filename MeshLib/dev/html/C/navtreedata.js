@@ -110,7 +110,8 @@ var NAVTREE =
         [ "File List", "files.html", [
           [ "File List", "files.html", "files_dup" ]
         ] ]
-      ] ]
+      ] ],
+      [ "C#", "../Csharp/APICsharpPage.html", null ]
     ] ],
     [ "Third-Party Dependencies", "../ThirdParty.html", null ]
   ] ]
@@ -119,10 +120,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"MRMeshComponents_8h_source.html",
-"expected__MR__LoadedObjects__std__string_8h_source.html",
-"std__shared__ptr__MR__ChangeFacesColorMapAction_8h_source.html",
-"structMR__AffineXf3d.html"
+"MRMeshCollide_8h_source.html",
+"expected__MR__LoadedObjectT__std__string_8h_source.html",
+"std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_source.html",
+"structMR__AffineXf2f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

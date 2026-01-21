@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_source.html":[6,2,1,0,0,0,2,259],
 "std__shared__ptr__MR__ChangeFacesColorMapAction_8h_source.html":[6,2,1,0,0,0,2,260],
 "std__shared__ptr__MR__ChangeGridAction_8h_source.html":[6,2,1,0,0,0,2,261],
 "std__shared__ptr__MR__ChangeIsoAction_8h_source.html":[6,2,1,0,0,0,2,262],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "std__vector__uint64__t_8h_source.html":[6,2,1,0,0,0,2,500],
 "std__vector__unsigned__char_8h_source.html":[6,2,1,0,0,0,2,501],
 "std__vector__unsigned__short_8h_source.html":[6,2,1,0,0,0,2,502],
-"structMR__AffineXf2d.html":[6,2,0,0,0],
-"structMR__AffineXf2f.html":[6,2,0,0,1]
+"structMR__AffineXf2d.html":[6,2,0,0,0]
 };

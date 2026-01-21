@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"MRUnitSettings_8h_source.html":[6,0,3,0,0,0,10,145],
 "MRUniteManyMeshes_8h_source.html":[6,0,3,0,0,0,4,403],
 "MRUnits_8h_source.html":[6,0,3,0,0,0,10,144],
 "MRUnorientedTriangle_8h_source.html":[6,0,3,0,0,0,4,405],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "classMR_1_1ChangeMeshUVCoordsAction.html#a8251a4c060d3538d58564c3429c9afda":[6,0,0,4,5,2],
 "classMR_1_1ChangeMeshUVCoordsAction.html#a8ada93551abd3f590f7e4a2d9c093351":[6,0,0,4,5,3],
 "classMR_1_1ChangeMeshUVCoordsAction.html#aff9496937d0c0fddbd3ed701edb82ab5":[6,0,0,4,5,0],
-"classMR_1_1ChangeNameAction.html":[6,0,0,4,12],
-"classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953":[6,0,0,4,12,1]
+"classMR_1_1ChangeNameAction.html":[6,0,0,4,12]
 };

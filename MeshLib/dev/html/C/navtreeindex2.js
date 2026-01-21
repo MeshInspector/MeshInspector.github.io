@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"expected__MR__LoadedObjectT__std__string_8h_source.html":[6,2,1,0,0,0,2,11],
 "expected__MR__LoadedObjects__std__string_8h_source.html":[6,2,1,0,0,0,2,9],
 "expected__MR__Mesh__std__string_8h_source.html":[6,2,1,0,0,0,2,12],
 "expected__MR__ObjectDistanceMap__std__string_8h_source.html":[6,2,1,0,0,0,2,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "std__shared__ptr__MR__BasicUiRenderTask_8h_source.html":[6,2,1,0,0,0,2,256],
 "std__shared__ptr__MR__ChangVoxelSelectionAction_8h_source.html":[6,2,1,0,0,0,2,296],
 "std__shared__ptr__MR__ChangeActiveBoxAction_8h_source.html":[6,2,1,0,0,0,2,257],
-"std__shared__ptr__MR__ChangeColoringType_8h_source.html":[6,2,1,0,0,0,2,258],
-"std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_source.html":[6,2,1,0,0,0,2,259]
+"std__shared__ptr__MR__ChangeColoringType_8h_source.html":[6,2,1,0,0,0,2,258]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
 "structMR_1_1ContoursDistanceMapOptions.html":[6,0,0,5,2],
 "structMR_1_1ContoursDistanceMapOptions.html#a37e6ab24d4bd5bee82c4ff4cfded2aec":[6,0,0,5,2,1],
 "structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054":[6,0,0,5,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518":[6,0,2,0,2,218,0],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601":[6,0,2,0,2,218,0,1],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,2,0,2,218,0,2],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,2,0,2,218,0,0],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29":[6,0,2,0,2,218,0,3]
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,2,0,2,218,0,0]
 };

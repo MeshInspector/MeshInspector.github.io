@@ -148,5 +148,6 @@ var menudata={children:[
 {text:"x",url:"functions_func_x.html#index_x"},
 {text:"y",url:"functions_func_y.html#index_y"},
 {text:"z",url:"functions_func_z.html#index_z"}]}]}]}]},
-{text:"C",url:"../C/APICPage.html"}]},
+{text:"C",url:"../C/APICPage.html"},
+{text:"C#",url:"../Csharp/APICsharpPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

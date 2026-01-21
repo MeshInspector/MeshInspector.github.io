@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classmrmeshpy_1_1ObjectSave_1_1Settings.html#aa1e4d992214ce3d7da33c093f96f9874":[6,1,0,0,1,608,0,0],
 "classmrmeshpy_1_1ObjectSelectivityType.html":[6,1,0,0,1,609],
 "classmrmeshpy_1_1ObjectTagEventDispatcher.html":[6,1,0,0,1,610],
 "classmrmeshpy_1_1ObjectTagEventDispatcher.html#a54ee5facca676a66c7f62acde9ea20cc":[6,1,0,0,1,610,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#aa96255d015bcc00aa1e71791390a3483":[6,1,0,0,1,676,0,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#aeba2dacadd4858126ef73305e61b2bc4":[6,1,0,0,1,676,0,2],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,1,0,0,1,676,1],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1633cec7f02b79a5a4b841c02b4e33ac":[6,1,0,0,1,676,1,6],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a31aaa468e715afb3057f443455f67953":[6,1,0,0,1,676,1,5]
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1633cec7f02b79a5a4b841c02b4e33ac":[6,1,0,0,1,676,1,6]
 };

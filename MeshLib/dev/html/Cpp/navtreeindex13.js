@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"functions_v.html":[6,0,2,3,0,20],
 "functions_vars.html":[6,0,2,3,2],
 "functions_vars.html":[6,0,2,3,2,0],
 "functions_vars_b.html":[6,0,2,3,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "group__DataModelGroup.html#ga1d6fce928c9225edf56e248b7428e65d":[6,0,0,11,23],
 "group__DataModelGroup.html#ga49f50b3f8a8b62d1de7af24264eac759":[6,0,0,11,25],
 "group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d":[6,0,0,11,16],
-"group__DataModelGroup.html#ga595c5f842600963ee11cd5e9a3a0a7f8":[6,0,0,11,19],
-"group__DataModelGroup.html#ga6db28aaf4d28c32688ee3fbe07c2cd69":[6,0,0,11,22]
+"group__DataModelGroup.html#ga595c5f842600963ee11cd5e9a3a0a7f8":[6,0,0,11,19]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classmrviewerpy_1_1ViewerLaunchParams.html#aeaa2c927b045fab47219bc2a2286f688":[6,1,0,0,2,9,3],
 "classmrviewerpy_1_1ViewerLaunchParamsMode.html":[6,1,0,0,2,10],
 "classmrviewerpy_1_1ViewerSetup.html":[6,1,0,0,2,11],
 "classmrviewerpy_1_1Viewport.html":[6,1,0,0,2,12],
