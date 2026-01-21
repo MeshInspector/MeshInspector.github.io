@@ -146,6 +146,7 @@ var NAVTREEINDEX18 =
 "structMR_1_1FindOverlappingSettings.html#a2fb083294a0bd854f423edd314775ad7":[6,0,2,0,2,245,3],
 "structMR_1_1FindOverlappingSettings.html#aabcdb20bd37c7191483848d201e24d53":[6,0,2,0,2,245,2],
 "structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[6,0,2,0,2,245,0],
+"structMR_1_1FindOverlappingSettings.html#acb6eb2b7cfbeacc7bb24b58262dcba34":[6,0,2,0,2,245,4],
 "structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[6,0,2,0,2,245,1],
 "structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,29],
 "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,29,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[6,0,2,0,2,6,0,4],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,2,0,2,6,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,2,0,2,6,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,2,6,0,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,2,7,0]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,2,6,0,7]
 };

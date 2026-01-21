@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,2,7,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,2,7,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,2,7,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[6,0,2,0,2,7,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "structMR_1_1Mesh.html#a5fab8c28312fa8c3ac69c2f63d345f20":[6,0,0,7,1,77],
 "structMR_1_1Mesh.html#a5fc4588bd1f8e778c3934885c793ffbb":[6,0,0,7,1,34],
 "structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a":[6,0,0,7,1,21],
-"structMR_1_1Mesh.html#a63bb9b6214248707f092cca1db05afb2":[6,0,0,7,1,104],
-"structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a":[6,0,0,7,1,49]
+"structMR_1_1Mesh.html#a63bb9b6214248707f092cca1db05afb2":[6,0,0,7,1,104]
 };

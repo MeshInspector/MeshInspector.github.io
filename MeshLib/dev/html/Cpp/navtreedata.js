@@ -151,12 +151,12 @@ var NAVTREEINDEX =
 "group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b",
 "structMR_1_1ContoursDistanceMapOffset.html",
 "structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8",
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html",
-"structMR_1_1Mesh.html#a6b2c210b6e877bde4c37fab15c077a91",
-"structMR_1_1MovementBuildBodyParams.html#a29e6060a3bbb7c06686d9b3b174d9dfe",
-"structMR_1_1PointsProjectionResult.html",
-"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648"
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html",
+"structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a",
+"structMR_1_1MovementBuildBodyParams.html#a18a7d723d41c930c5c27dcde10449346",
+"structMR_1_1PointsLoad_1_1PointsLoader.html",
+"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb",
+"structMR_1_1TriangulationHelpers_1_1Settings.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

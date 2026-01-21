@@ -302,6 +302,7 @@ var annotated_dup =
       [ "func_bool_from_Id_EdgeTag_Vector2_float", "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html", "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float" ],
       [ "func_bool_from_Id_EdgeTag_Vector3_float", "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html", "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" ],
       [ "func_bool_from_Id_FaceTag", "classmrmeshpy_1_1func__bool__from__Id__FaceTag.html", "classmrmeshpy_1_1func__bool__from__Id__FaceTag" ],
+      [ "func_bool_from_Id_FaceTag_Id_FaceTag", "classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag.html", "classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag" ],
       [ "func_bool_from_Id_VertTag", "classmrmeshpy_1_1func__bool__from__Id__VertTag.html", "classmrmeshpy_1_1func__bool__from__Id__VertTag" ],
       [ "func_bool_from_MeshIntersectionResult", "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html", "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult" ],
       [ "func_bool_from_MeshProjectionResult", "classmrmeshpy_1_1func__bool__from__MeshProjectionResult.html", "classmrmeshpy_1_1func__bool__from__MeshProjectionResult" ],

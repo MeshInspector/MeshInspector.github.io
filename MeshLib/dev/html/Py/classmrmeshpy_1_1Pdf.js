@@ -14,6 +14,7 @@ var classmrmeshpy_1_1Pdf =
     [ "addTable", "classmrmeshpy_1_1Pdf.html#ae991a90a1adc58ad36df8c9d51d6d469", null ],
     [ "addTableTitles", "classmrmeshpy_1_1Pdf.html#aefa32a7d51604f5033595dc7666e96c7", null ],
     [ "addText", "classmrmeshpy_1_1Pdf.html#a305ba9004bc385fc5d8e5c9cd8761773", null ],
+    [ "drawRect", "classmrmeshpy_1_1Pdf.html#ade8afd6693e798c992540eb11b7a2d17", null ],
     [ "drawTextInRect", "classmrmeshpy_1_1Pdf.html#a17ae498c696d5de6c007b2daf8446ee9", null ],
     [ "getTableTextWidth", "classmrmeshpy_1_1Pdf.html#a32193b69a57d65e2b49c6dca29031215", null ],
     [ "getTextWidth", "classmrmeshpy_1_1Pdf.html#ad9c66480b7e5ae029ec1599b3d595b20", null ],
