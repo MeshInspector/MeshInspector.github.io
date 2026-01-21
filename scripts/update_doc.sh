@@ -6,6 +6,11 @@ if [ $# -lt 1 ]; then
     echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
 fi
 
+MODULES=(Main Cpp Py C)
+if [ $# -eq 2 ]; then
+    MODULES=($(<$2))
+fi
+
 # Use "MeshLib/local" as default if $1 is not provided
 TARGET_DIR="${1:-MeshLib/local}"
 
@@ -21,7 +26,6 @@ mkdir -p ${TARGET_DIR}/html
 # clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
-MODULES=(Main Cpp Py C)
 # generate tag files
 for MODULE in ${MODULES[*]}
 do
