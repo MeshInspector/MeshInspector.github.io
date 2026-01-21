@@ -27,6 +27,7 @@ var group__BasicStructuresGroup =
     [ "MR::countVoxelsWithValueLess", "group__BasicStructuresGroup.html#gac9943628cd64b8a75e368ce9d38efd82", null ],
     [ "MR::countVoxelsWithValuePred", "group__BasicStructuresGroup.html#ga770032fe42da0bb15fcc90bf40d219a1", null ],
     [ "MR::cropped", "group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915", null ],
+    [ "MR::findActiveBounds", "group__BasicStructuresGroup.html#ga4396f48fae80f4ac64117dec83d0de9b", null ],
     [ "MR::gaussianFilter", "group__BasicStructuresGroup.html#ga5124238a8f9f74cadab3bc8dcc4438e6", null ],
     [ "MR::getValue", "group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861", null ],
     [ "MR::heapBytes", "group__BasicStructuresGroup.html#ga0f1e6296451691269fc538aad8088557", null ],
@@ -42,5 +43,6 @@ var group__BasicStructuresGroup =
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53", null ],
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#ga87e6e60c5605c5450f4bd815128674c9", null ],
     [ "MR::setValue", "group__BasicStructuresGroup.html#ga28830151316f69a9dfd4e1fa94ccf465", null ],
-    [ "MR::setValue", "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862", null ]
+    [ "MR::setValue", "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862", null ],
+    [ "MR::setValues", "group__BasicStructuresGroup.html#ga81533ed0f1aef464f77c39b18acf4956", null ]
 ];

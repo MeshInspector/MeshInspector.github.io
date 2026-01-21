@@ -224,6 +224,10 @@ MRVOXELS_API float&#160;</td><td class="memItemRight" valign="bottom"><b>MR::get
 <tr class="separator:ga28830151316f69a9dfd4e1fa94ccf465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac5781724903abd08d021ac04b898a862" id="r_gac5781724903abd08d021ac04b898a862"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac5781724903abd08d021ac04b898a862">MR::setValue</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const VoxelBitSet &amp;region, float value)</td></tr>
 <tr class="separator:gac5781724903abd08d021ac04b898a862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4396f48fae80f4ac64117dec83d0de9b" id="r_ga4396f48fae80f4ac64117dec83d0de9b"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API Box3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4396f48fae80f4ac64117dec83d0de9b">MR::findActiveBounds</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid)</td></tr>
+<tr class="separator:ga4396f48fae80f4ac64117dec83d0de9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81533ed0f1aef464f77c39b18acf4956" id="r_ga81533ed0f1aef464f77c39b18acf4956"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81533ed0f1aef464f77c39b18acf4956">MR::setValues</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const VoxelBitSet &amp;region, const std::vector&lt; float &gt; &amp;values)</td></tr>
+<tr class="separator:ga81533ed0f1aef464f77c39b18acf4956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga87e6e60c5605c5450f4bd815128674c9" id="r_ga87e6e60c5605c5450f4bd815128674c9"><td class="memItemLeft" align="right" valign="top"><a id="ga87e6e60c5605c5450f4bd815128674c9" name="ga87e6e60c5605c5450f4bd815128674c9"></a>
 MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><b>MR::setLevelSetType</b> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid)</td></tr>
 <tr class="memdesc:ga87e6e60c5605c5450f4bd815128674c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets type of this grid as LEVEL SET (for normal flipping) <br /></td></tr>
@@ -260,6 +264,9 @@ MR_BIND_IGNORE Vector3i&#160;</td><td class="memItemRight" valign="bottom"><b>MR
 <tr class="memitem:gab75a6a1d7c95c635ac4101c7a3d25eab" id="r_gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memItemLeft" align="right" valign="top"><a id="gab75a6a1d7c95c635ac4101c7a3d25eab" name="gab75a6a1d7c95c635ac4101c7a3d25eab"></a>
 MR_BIND_IGNORE openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><b>MR::toVdb</b> (const Vector3i &amp;v)</td></tr>
 <tr class="separator:gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99ce50f6a936498fa39156fff3bd3397" id="r_ga99ce50f6a936498fa39156fff3bd3397"><td class="memItemLeft" align="right" valign="top"><a id="ga99ce50f6a936498fa39156fff3bd3397" name="ga99ce50f6a936498fa39156fff3bd3397"></a>
+MR_BIND_IGNORE Box3i&#160;</td><td class="memItemRight" valign="bottom"><b>MR::fromVdbBox</b> (const openvdb::CoordBBox &amp;box)</td></tr>
+<tr class="separator:ga99ce50f6a936498fa39156fff3bd3397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafaceca609bb25c112d03e61621d7df0c" id="r_gafaceca609bb25c112d03e61621d7df0c"><td class="memItemLeft" align="right" valign="top"><a id="gafaceca609bb25c112d03e61621d7df0c" name="gafaceca609bb25c112d03e61621d7df0c"></a>
 MR_BIND_IGNORE openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><b>MR::toVdbBox</b> (const Box3i &amp;box)</td></tr>
 <tr class="separator:gafaceca609bb25c112d03e61621d7df0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,6 +299,32 @@ struct MRVOXELS_CLASS&#160;</td><td class="memItemRight" valign="bottom"><b>MR::
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga4396f48fae80f4ac64117dec83d0de9b" name="ga4396f48fae80f4ac64117dec83d0de9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4396f48fae80f4ac64117dec83d0de9b">&#9670;&#160;</a></span>findActiveBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVOXELS_API Box3i MR::findActiveBounds </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns bounding box of active voxels in grid min: including max: excluding </p>
+
+</div>
+</div>
 <a id="gad706177987608a6f19bc71c513db2ff8" name="gad706177987608a6f19bc71c513db2ff8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad706177987608a6f19bc71c513db2ff8">&#9670;&#160;</a></span>operator*()</h2>
 
@@ -475,6 +508,33 @@ struct MRVOXELS_CLASS&#160;</td><td class="memItemRight" valign="bottom"><b>MR::
       </table>
 </div><div class="memdoc">
 <p>sets given region voxels value </p><dl class="section note"><dt>Note</dt><dd>region is in grid space (0 voxel id is minimum active voxel in grid) </dd></dl>
+
+</div>
+</div>
+<a id="ga81533ed0f1aef464f77c39b18acf4956" name="ga81533ed0f1aef464f77c39b18acf4956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81533ed0f1aef464f77c39b18acf4956">&#9670;&#160;</a></span>setValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVOXELS_API void MR::setValues </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VoxelBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>sets given region voxels value one by one </p><dl class="section note"><dt>Note</dt><dd>region is in grid space (0 voxel id is minimum active voxel in grid) </dd></dl>
 
 </div>
 </div>

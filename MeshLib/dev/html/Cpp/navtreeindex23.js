@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[6,0,2,0,2,638,0],
+"structMR_1_1SaveSettings.html":[6,0,2,0,2,643],
 "structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a":[6,0,2,0,2,643,9],
 "structMR_1_1SaveSettings.html#a0f2bb31407f2693aa939c47e0052b527":[6,0,2,0,2,643,6],
 "structMR_1_1SaveSettings.html#a127d98f930cd561a8633297e3422f649":[6,0,2,0,2,643,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8":[6,0,2,0,2,754,1],
 "structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[6,0,2,0,2,754,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,0,2,0,2,25,0],
-"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,2,25,1],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,2,0,2,25,1,5],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,2,0,2,25,1,3]
+"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,2,25,1]
 };

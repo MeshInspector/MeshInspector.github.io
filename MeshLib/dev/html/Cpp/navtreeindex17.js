@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"structMR_1_1ContoursDistanceMapOffset.html":[6,0,0,5,1],
+"structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "structMR_1_1EdgeTri.html":[6,0,0,1,17],
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,2,216,0],
 "structMR_1_1EmbeddedStructureParameters.html":[6,0,2,0,2,217],
-"structMR_1_1EndMillCutter.html":[6,0,2,0,2,218],
-"structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8":[6,0,2,0,2,218,1],
-"structMR_1_1EndMillCutter.html#a81eafe021d71d7fb7b20c845dc847c94":[6,0,2,0,2,218,2]
+"structMR_1_1EndMillCutter.html":[6,0,2,0,2,218]
 };

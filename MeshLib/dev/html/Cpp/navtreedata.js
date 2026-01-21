@@ -146,17 +146,17 @@ var NAVTREEINDEX =
 "classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba",
 "classMR_1_1Viewport.html#a386544dc0c5351067325cad9bf32dc93",
 "functions_vars.html",
-"group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d",
-"group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea",
-"group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4",
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178",
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518",
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html",
-"structMR_1_1Mesh.html#a72472fa8eac4aba3ae82bb68995534c7",
-"structMR_1_1MovementBuildBodyParams.html#a89e79aa429b49bcb7680054b007b6245",
-"structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7",
-"structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7"
+"group__DataModelGroup.html#ga1d6fce928c9225edf56e248b7428e65d",
+"group__MeshFixerGroup.html#gace895a89502cb6fbf11e26b8c3e9773e",
+"group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b",
+"structMR_1_1ContoursDistanceMapOffset.html",
+"structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8",
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html",
+"structMR_1_1Mesh.html#a6b2c210b6e877bde4c37fab15c077a91",
+"structMR_1_1MovementBuildBodyParams.html#a29e6060a3bbb7c06686d9b3b174d9dfe",
+"structMR_1_1PointsProjectionResult.html",
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545",
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
