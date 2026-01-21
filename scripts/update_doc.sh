@@ -21,7 +21,7 @@ mkdir -p ${TARGET_DIR}/html
 # clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
-MODULES=(Main Cpp Py C Csharp)
+MODULES=(Main Cpp Py C)
 # generate tag files
 for MODULE in ${MODULES[*]}
 do
