@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"classmrmeshpy_1_1DistanceMap.html#af82e99083918b62aa7c98c1019aa7467":[6,1,0,0,1,203,35],
+"classmrmeshpy_1_1DistanceMap.html#afbc7c0381be6fd416dabf79de9b1cc76":[6,1,0,0,1,203,28],
 "classmrmeshpy_1_1DistanceMapLoad.html":[6,1,0,0,1,204],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html":[6,1,0,0,1,205],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html#a1d20d6b52874cb2dd780c5f7dfa381cb":[6,1,0,0,1,205,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classmrmeshpy_1_1Edges.html#a667d8171a4f0979cb4e02d5dfacd76b7":[6,1,0,0,1,227,10],
 "classmrmeshpy_1_1Edges.html#a67107e6b37b2e0ad4cec386124670df9":[6,1,0,0,1,227,6],
 "classmrmeshpy_1_1Edges.html#a6a5e7fd2d6b57290bb2f35191b2fff3b":[6,1,0,0,1,227,3],
-"classmrmeshpy_1_1Edges.html#a6b1c16cd7d1be937690ce07180db7538":[6,1,0,0,1,227,12],
-"classmrmeshpy_1_1Edges.html#a6cf3401b5257d04ba275a0d01e02e231":[6,1,0,0,1,227,8],
-"classmrmeshpy_1_1Edges.html#a6fc6fdadced5d2dfd984f95bde8dad63":[6,1,0,0,1,227,1]
+"classmrmeshpy_1_1Edges.html#a6b1c16cd7d1be937690ce07180db7538":[6,1,0,0,1,227,12]
 };

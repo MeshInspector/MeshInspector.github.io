@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518":[6,0,2,0,2,218,0],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601":[6,0,2,0,2,218,0,1],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,2,0,2,218,0,2],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,2,0,2,218,0,0],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29":[6,0,2,0,2,218,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,2,6,0,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,2,7,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,2,7,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,2,7,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[6,0,2,0,2,7,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,2,0,2,7,4]
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,2,7,2]
 };

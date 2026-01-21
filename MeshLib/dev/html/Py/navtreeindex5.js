@@ -170,11 +170,13 @@ var NAVTREEINDEX5 =
 "classmrmeshpy_1_1DepthFunction.html":[6,1,0,0,1,194],
 "classmrmeshpy_1_1DetectTunnelSettings.html":[6,1,0,0,1,195],
 "classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286":[6,1,0,0,1,195,0],
-"classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d":[6,1,0,0,1,195,3],
-"classmrmeshpy_1_1DetectTunnelSettings.html#a766da3ca2829e9b5b8ff6af989f1849e":[6,1,0,0,1,195,2],
-"classmrmeshpy_1_1DetectTunnelSettings.html#a9a55ae7d0f099f84375091a8c9ccebb3":[6,1,0,0,1,195,1],
-"classmrmeshpy_1_1DetectTunnelSettings.html#abae1388d40047094fc6f5ebf31ffa28c":[6,1,0,0,1,195,5],
-"classmrmeshpy_1_1DetectTunnelSettings.html#af4c7b8303b5a65af64911206cbce8c5b":[6,1,0,0,1,195,4],
+"classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d":[6,1,0,0,1,195,5],
+"classmrmeshpy_1_1DetectTunnelSettings.html#a4cc87e8cc6903205f7e0419e8f0ada2e":[6,1,0,0,1,195,2],
+"classmrmeshpy_1_1DetectTunnelSettings.html#a766da3ca2829e9b5b8ff6af989f1849e":[6,1,0,0,1,195,4],
+"classmrmeshpy_1_1DetectTunnelSettings.html#ab2b764fcd6384fe60130983cf88c129c":[6,1,0,0,1,195,3],
+"classmrmeshpy_1_1DetectTunnelSettings.html#abae1388d40047094fc6f5ebf31ffa28c":[6,1,0,0,1,195,7],
+"classmrmeshpy_1_1DetectTunnelSettings.html#ae0c7d277647ebbd3ff9741d887d444e0":[6,1,0,0,1,195,1],
+"classmrmeshpy_1_1DetectTunnelSettings.html#af4c7b8303b5a65af64911206cbce8c5b":[6,1,0,0,1,195,6],
 "classmrmeshpy_1_1DimensionsVisualizePropertyType.html":[6,1,0,0,1,196],
 "classmrmeshpy_1_1Dipole.html":[6,1,0,0,1,197],
 "classmrmeshpy_1_1Dipole.html#a5f5bb17e0639f087aaa079327c8805ad":[6,1,0,0,1,197,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "classmrmeshpy_1_1DistanceMap.html#ad38a0abf119f8ad2f14ffda136ceed4c":[6,1,0,0,1,203,2],
 "classmrmeshpy_1_1DistanceMap.html#ad39837ff357a34562a6030f04d370d25":[6,1,0,0,1,203,29],
 "classmrmeshpy_1_1DistanceMap.html#adb4ebdb589d86793bac94b9ee60d40b3":[6,1,0,0,1,203,3],
-"classmrmeshpy_1_1DistanceMap.html#adcfb77ff925b064cc4062d108947c93f":[6,1,0,0,1,203,25],
-"classmrmeshpy_1_1DistanceMap.html#af82e99083918b62aa7c98c1019aa7467":[6,1,0,0,1,203,35],
-"classmrmeshpy_1_1DistanceMap.html#afbc7c0381be6fd416dabf79de9b1cc76":[6,1,0,0,1,203,28]
+"classmrmeshpy_1_1DistanceMap.html#adcfb77ff925b064cc4062d108947c93f":[6,1,0,0,1,203,25]
 };

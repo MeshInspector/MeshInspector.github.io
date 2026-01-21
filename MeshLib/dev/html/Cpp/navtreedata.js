@@ -150,13 +150,13 @@ var NAVTREEINDEX =
 "group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea",
 "group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4",
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178",
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c",
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html",
-"structMR_1_1Mesh.html#a7444cb052e8855eb1ea69b34d2796f3a",
-"structMR_1_1MovementBuildBodyParams.html#adcac10de1f9f5decb27a76bc24ea210d",
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01",
-"structMR_1_1SaveSettings.html#a127d98f930cd561a8633297e3422f649",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458"
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518",
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html",
+"structMR_1_1Mesh.html#a72472fa8eac4aba3ae82bb68995534c7",
+"structMR_1_1MovementBuildBodyParams.html#a89e79aa429b49bcb7680054b007b6245",
+"structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7",
+"structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a",
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -126,10 +126,12 @@ var NAVTREEINDEX17 =
 "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802":[6,0,0,0,15,10],
 "structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[6,0,0,0,15,3],
 "structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
+"structMR_1_1DetectTunnelSettings.html#a1179dac4ffbe7c13245c98e8833a6178":[6,0,0,16,4,0,0],
+"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,4],
+"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,2],
+"structMR_1_1DetectTunnelSettings.html#a4cf5671891104927d0393e7dd378f34b":[6,0,0,16,4,0,1],
+"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,3],
+"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,5],
 "structMR_1_1Dipole.html":[6,0,2,0,2,180],
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,2,180,0],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,2,181,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "structMR_1_1EmbeddedStructureParameters.html":[6,0,2,0,2,217],
 "structMR_1_1EndMillCutter.html":[6,0,2,0,2,218],
 "structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8":[6,0,2,0,2,218,1],
-"structMR_1_1EndMillCutter.html#a81eafe021d71d7fb7b20c845dc847c94":[6,0,2,0,2,218,2],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518":[6,0,2,0,2,218,0],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601":[6,0,2,0,2,218,0,1]
+"structMR_1_1EndMillCutter.html#a81eafe021d71d7fb7b20c845dc847c94":[6,0,2,0,2,218,2]
 };

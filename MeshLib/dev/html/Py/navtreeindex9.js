@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"classmrmeshpy_1_1FunctionVolumeU8.html":[6,1,0,0,1,367],
+"classmrmeshpy_1_1FunctionVolumeU8.html#a4b4306274b1611d117c34524db177843":[6,1,0,0,1,367,0],
 "classmrmeshpy_1_1FunctionVolumeU8.html#af3f0e47e648731c15d80b4175b5ece10":[6,1,0,0,1,367,1],
 "classmrmeshpy_1_1GCommand.html":[6,1,0,0,1,370],
 "classmrmeshpy_1_1GCommand.html#a0051af513eeedbf466b8a26082298fe5":[6,1,0,0,1,370,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classmrmeshpy_1_1Image.html#af340d1edffec4ddd5f128ba4449f5644":[6,1,0,0,1,397,2],
 "classmrmeshpy_1_1ImageLoad.html":[6,1,0,0,1,398],
 "classmrmeshpy_1_1ImageSave.html":[6,1,0,0,1,399],
-"classmrmeshpy_1_1ImageTransform.html":[6,1,0,0,1,400],
-"classmrmeshpy_1_1ImproveSamplingSettings.html":[6,1,0,0,1,401],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#a16372c40b83d68ad56f0edb580ff7103":[6,1,0,0,1,401,4]
+"classmrmeshpy_1_1ImageTransform.html":[6,1,0,0,1,400]
 };

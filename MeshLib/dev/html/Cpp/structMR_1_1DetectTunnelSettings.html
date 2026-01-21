@@ -160,16 +160,48 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>maxTunnelLength</b> 
 <tr class="separator:abce133e9001f28cbce044fc8c1206ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a0181891bd9064803eb7608e3f0e10" id="r_a27a0181891bd9064803eb7608e3f0e10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27a0181891bd9064803eb7608e3f0e10">maxIters</a> = 1</td></tr>
 <tr class="separator:a27a0181891bd9064803eb7608e3f0e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2529d1b4547bb2eed9bb781f0c131829" id="r_a2529d1b4547bb2eed9bb781f0c131829"><td class="memItemLeft" align="right" valign="top"><a id="a2529d1b4547bb2eed9bb781f0c131829" name="a2529d1b4547bb2eed9bb781f0c131829"></a>
-EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><b>metric</b></td></tr>
-<tr class="memdesc:a2529d1b4547bb2eed9bb781f0c131829"><td class="mdescLeft">&#160;</td><td class="mdescRight">if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used <br /></td></tr>
+<tr class="memitem:a2529d1b4547bb2eed9bb781f0c131829" id="r_a2529d1b4547bb2eed9bb781f0c131829"><td class="memItemLeft" align="right" valign="top">EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2529d1b4547bb2eed9bb781f0c131829">metric</a></td></tr>
 <tr class="separator:a2529d1b4547bb2eed9bb781f0c131829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1179dac4ffbe7c13245c98e8833a6178" id="r_a1179dac4ffbe7c13245c98e8833a6178"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1179dac4ffbe7c13245c98e8833a6178">buildCoLoops</a> = true</td></tr>
+<tr class="separator:a1179dac4ffbe7c13245c98e8833a6178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf5671891104927d0393e7dd378f34b" id="r_a4cf5671891104927d0393e7dd378f34b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf5671891104927d0393e7dd378f34b">filterEquivalentCoLoops</a> = false</td></tr>
+<tr class="separator:a4cf5671891104927d0393e7dd378f34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae823ab96c2d11f1cccba5d61003a1202" id="r_ae823ab96c2d11f1cccba5d61003a1202"><td class="memItemLeft" align="right" valign="top"><a id="ae823ab96c2d11f1cccba5d61003a1202" name="ae823ab96c2d11f1cccba5d61003a1202"></a>
 <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b></td></tr>
 <tr class="memdesc:ae823ab96c2d11f1cccba5d61003a1202"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report algorithm progress and cancel from outside <br /></td></tr>
 <tr class="separator:ae823ab96c2d11f1cccba5d61003a1202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1179dac4ffbe7c13245c98e8833a6178" name="a1179dac4ffbe7c13245c98e8833a6178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1179dac4ffbe7c13245c98e8833a6178">&#9670;&#160;</a></span>buildCoLoops</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DetectTunnelSettings::buildCoLoops = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels </p>
+
+</div>
+</div>
+<a id="a4cf5671891104927d0393e7dd378f34b" name="a4cf5671891104927d0393e7dd378f34b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cf5671891104927d0393e7dd378f34b">&#9670;&#160;</a></span>filterEquivalentCoLoops</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DetectTunnelSettings::filterEquivalentCoLoops = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow </p>
+
+</div>
+</div>
 <a id="a27a0181891bd9064803eb7608e3f0e10" name="a27a0181891bd9064803eb7608e3f0e10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27a0181891bd9064803eb7608e3f0e10">&#9670;&#160;</a></span>maxIters</h2>
 
@@ -182,6 +214,21 @@ EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><b>metric</b></td>
       </table>
 </div><div class="memdoc">
 <p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while </p>
+
+</div>
+</div>
+<a id="a2529d1b4547bb2eed9bb781f0c131829" name="a2529d1b4547bb2eed9bb781f0c131829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2529d1b4547bb2eed9bb781f0c131829">&#9670;&#160;</a></span>metric</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EdgeMetric MR::DetectTunnelSettings::metric</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used </p>
 
 </div>
 </div>
