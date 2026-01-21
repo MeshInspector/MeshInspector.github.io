@@ -9,7 +9,7 @@ FILE_PATTERNS          = *.cs \
 HTML_OUTPUT            = html/Csharp
 
 # For C# projects
-EXTRACT_ALL            = YES
+EXTRACT_ALL            = NO
 EXTRACT_STATIC         = YES
 
 EXCLUDE_SYMBOLS        = Json std 
