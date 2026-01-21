@@ -21,12 +21,6 @@ mkdir -p ${TARGET_DIR}/html
 # clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
-# clear old logs
-files=(log*)
-if [[ -f "${files[0]}" ]]; then
-    rm log*
-fi
-
 MODULES=(Main Cpp Py C Csharp)
 # generate tag files
 for MODULE in ${MODULES[*]}
