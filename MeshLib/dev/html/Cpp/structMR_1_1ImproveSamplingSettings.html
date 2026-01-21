@@ -151,52 +151,41 @@ $(function(){initNavTree('structMR_1_1ImproveSamplingSettings.html',''); initRes
   <div class="headertitle"><div class="title">MR::ImproveSamplingSettings Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRImproveSampling_8h_source.html">MRImproveSampling.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a23d034e4e8ff34a828259420ecd4a8d5" id="r_a23d034e4e8ff34a828259420ecd4a8d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23d034e4e8ff34a828259420ecd4a8d5">numIters</a> = 1</td></tr>
-<tr class="memdesc:a23d034e4e8ff34a828259420ecd4a8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of algorithm iterations to perform  <br /></td></tr>
+<tr class="memitem:a23d034e4e8ff34a828259420ecd4a8d5" id="r_a23d034e4e8ff34a828259420ecd4a8d5"><td class="memItemLeft" align="right" valign="top"><a id="a23d034e4e8ff34a828259420ecd4a8d5" name="a23d034e4e8ff34a828259420ecd4a8d5"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>numIters</b> = 1</td></tr>
+<tr class="memdesc:a23d034e4e8ff34a828259420ecd4a8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of algorithm iterations to perform <br /></td></tr>
 <tr class="separator:a23d034e4e8ff34a828259420ecd4a8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aa26d04f708ecea38d954ac1c1d50c6" id="r_a4aa26d04f708ecea38d954ac1c1d50c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aa26d04f708ecea38d954ac1c1d50c6">minPointsInSample</a> = 1</td></tr>
 <tr class="separator:a4aa26d04f708ecea38d954ac1c1d50c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360e357b9f7ac2e2bd821f4ed477a6ba" id="r_a360e357b9f7ac2e2bd821f4ed477a6ba"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a360e357b9f7ac2e2bd821f4ed477a6ba">pt2sm</a> = nullptr</td></tr>
-<tr class="memdesc:a360e357b9f7ac2e2bd821f4ed477a6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: mapping from input point id to sample id  <br /></td></tr>
+<tr class="memitem:a360e357b9f7ac2e2bd821f4ed477a6ba" id="r_a360e357b9f7ac2e2bd821f4ed477a6ba"><td class="memItemLeft" align="right" valign="top"><a id="a360e357b9f7ac2e2bd821f4ed477a6ba" name="a360e357b9f7ac2e2bd821f4ed477a6ba"></a>
+VertMap *&#160;</td><td class="memItemRight" valign="bottom"><b>pt2sm</b> = nullptr</td></tr>
+<tr class="memdesc:a360e357b9f7ac2e2bd821f4ed477a6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: mapping from input point id to sample id <br /></td></tr>
 <tr class="separator:a360e357b9f7ac2e2bd821f4ed477a6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59eb791fd7a6937434c6378dbf627296" id="r_a59eb791fd7a6937434c6378dbf627296"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59eb791fd7a6937434c6378dbf627296">cloudOfSamples</a> = nullptr</td></tr>
-<tr class="memdesc:a59eb791fd7a6937434c6378dbf627296"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: new cloud containing averaged points and normals for each sample  <br /></td></tr>
+<tr class="memitem:a59eb791fd7a6937434c6378dbf627296" id="r_a59eb791fd7a6937434c6378dbf627296"><td class="memItemLeft" align="right" valign="top"><a id="a59eb791fd7a6937434c6378dbf627296" name="a59eb791fd7a6937434c6378dbf627296"></a>
+<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>cloudOfSamples</b> = nullptr</td></tr>
+<tr class="memdesc:a59eb791fd7a6937434c6378dbf627296"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: new cloud containing averaged points and normals for each sample <br /></td></tr>
 <tr class="separator:a59eb791fd7a6937434c6378dbf627296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a402a2839352286a79e22d7c24a11be24" id="r_a402a2839352286a79e22d7c24a11be24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a402a2839352286a79e22d7c24a11be24">ptsInSm</a> = nullptr</td></tr>
-<tr class="memdesc:a402a2839352286a79e22d7c24a11be24"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: the number of points in each sample  <br /></td></tr>
+<tr class="memitem:a402a2839352286a79e22d7c24a11be24" id="r_a402a2839352286a79e22d7c24a11be24"><td class="memItemLeft" align="right" valign="top"><a id="a402a2839352286a79e22d7c24a11be24" name="a402a2839352286a79e22d7c24a11be24"></a>
+<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>ptsInSm</b> = nullptr</td></tr>
+<tr class="memdesc:a402a2839352286a79e22d7c24a11be24"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: the number of points in each sample <br /></td></tr>
 <tr class="separator:a402a2839352286a79e22d7c24a11be24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed21697c5aa69b1ad84771a17fb97ea5" id="r_aed21697c5aa69b1ad84771a17fb97ea5"><td class="memItemLeft" align="right" valign="top">const VertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed21697c5aa69b1ad84771a17fb97ea5">ptColors</a> = nullptr</td></tr>
-<tr class="memdesc:aed21697c5aa69b1ad84771a17fb97ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input: colors of input points  <br /></td></tr>
+<tr class="memitem:aed21697c5aa69b1ad84771a17fb97ea5" id="r_aed21697c5aa69b1ad84771a17fb97ea5"><td class="memItemLeft" align="right" valign="top"><a id="aed21697c5aa69b1ad84771a17fb97ea5" name="aed21697c5aa69b1ad84771a17fb97ea5"></a>
+const VertColors *&#160;</td><td class="memItemRight" valign="bottom"><b>ptColors</b> = nullptr</td></tr>
+<tr class="memdesc:aed21697c5aa69b1ad84771a17fb97ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input: colors of input points <br /></td></tr>
 <tr class="separator:aed21697c5aa69b1ad84771a17fb97ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687aebaf900e5c3365e9672943863437" id="r_a687aebaf900e5c3365e9672943863437"><td class="memItemLeft" align="right" valign="top">VertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687aebaf900e5c3365e9672943863437">smColors</a> = nullptr</td></tr>
-<tr class="memdesc:a687aebaf900e5c3365e9672943863437"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: averaged colors of samples  <br /></td></tr>
+<tr class="memitem:a687aebaf900e5c3365e9672943863437" id="r_a687aebaf900e5c3365e9672943863437"><td class="memItemLeft" align="right" valign="top"><a id="a687aebaf900e5c3365e9672943863437" name="a687aebaf900e5c3365e9672943863437"></a>
+VertColors *&#160;</td><td class="memItemRight" valign="bottom"><b>smColors</b> = nullptr</td></tr>
+<tr class="memdesc:a687aebaf900e5c3365e9672943863437"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: averaged colors of samples <br /></td></tr>
 <tr class="separator:a687aebaf900e5c3365e9672943863437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16a300ede2680b4bc68e81aeb8130903" id="r_a16a300ede2680b4bc68e81aeb8130903"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16a300ede2680b4bc68e81aeb8130903">progress</a></td></tr>
-<tr class="memdesc:a16a300ede2680b4bc68e81aeb8130903"><td class="mdescLeft">&#160;</td><td class="mdescRight">output progress status and receive cancel signal  <br /></td></tr>
+<tr class="memitem:a16a300ede2680b4bc68e81aeb8130903" id="r_a16a300ede2680b4bc68e81aeb8130903"><td class="memItemLeft" align="right" valign="top"><a id="a16a300ede2680b4bc68e81aeb8130903" name="a16a300ede2680b4bc68e81aeb8130903"></a>
+<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b></td></tr>
+<tr class="memdesc:a16a300ede2680b4bc68e81aeb8130903"><td class="mdescLeft">&#160;</td><td class="mdescRight">output progress status and receive cancel signal <br /></td></tr>
 <tr class="separator:a16a300ede2680b4bc68e81aeb8130903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a59eb791fd7a6937434c6378dbf627296" name="a59eb791fd7a6937434c6378dbf627296"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59eb791fd7a6937434c6378dbf627296">&#9670;&#160;</a></span>cloudOfSamples</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>* MR::ImproveSamplingSettings::cloudOfSamples = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional output: new cloud containing averaged points and normals for each sample </p>
-
-</div>
-</div>
 <a id="a4aa26d04f708ecea38d954ac1c1d50c6" name="a4aa26d04f708ecea38d954ac1c1d50c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4aa26d04f708ecea38d954ac1c1d50c6">&#9670;&#160;</a></span>minPointsInSample</h2>
 
@@ -212,102 +201,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a23d034e4e8ff34a828259420ecd4a8d5" name="a23d034e4e8ff34a828259420ecd4a8d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23d034e4e8ff34a828259420ecd4a8d5">&#9670;&#160;</a></span>numIters</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::ImproveSamplingSettings::numIters = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>the number of algorithm iterations to perform </p>
-
-</div>
-</div>
-<a id="a16a300ede2680b4bc68e81aeb8130903" name="a16a300ede2680b4bc68e81aeb8130903"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16a300ede2680b4bc68e81aeb8130903">&#9670;&#160;</a></span>progress</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::ImproveSamplingSettings::progress</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>output progress status and receive cancel signal </p>
-
-</div>
-</div>
-<a id="a360e357b9f7ac2e2bd821f4ed477a6ba" name="a360e357b9f7ac2e2bd821f4ed477a6ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a360e357b9f7ac2e2bd821f4ed477a6ba">&#9670;&#160;</a></span>pt2sm</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertMap* MR::ImproveSamplingSettings::pt2sm = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional output: mapping from input point id to sample id </p>
-
-</div>
-</div>
-<a id="aed21697c5aa69b1ad84771a17fb97ea5" name="aed21697c5aa69b1ad84771a17fb97ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed21697c5aa69b1ad84771a17fb97ea5">&#9670;&#160;</a></span>ptColors</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const VertColors* MR::ImproveSamplingSettings::ptColors = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional input: colors of input points </p>
-
-</div>
-</div>
-<a id="a402a2839352286a79e22d7c24a11be24" name="a402a2839352286a79e22d7c24a11be24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a402a2839352286a79e22d7c24a11be24">&#9670;&#160;</a></span>ptsInSm</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;int, VertId&gt;* MR::ImproveSamplingSettings::ptsInSm = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional output: the number of points in each sample </p>
-
-</div>
-</div>
-<a id="a687aebaf900e5c3365e9672943863437" name="a687aebaf900e5c3365e9672943863437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a687aebaf900e5c3365e9672943863437">&#9670;&#160;</a></span>smColors</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertColors* MR::ImproveSamplingSettings::smColors = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional output: averaged colors of samples </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRImproveSampling_8h_source.html">MRImproveSampling.h</a></li>
 </ul>
@@ -317,7 +210,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1ImproveSamplingSettings.html">ImproveSamplingSettings</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1ImproveSamplingSettings.html">ImproveSamplingSettings</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

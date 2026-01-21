@@ -148,13 +148,13 @@ $(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.html',''); initRes
   <div class="headertitle"><div class="title">MRChangeSceneObjectsOrder.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRChangeSceneObjectsOrder_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRObject_8h.html">MRObject.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRHeapBytes_8h.html">MRHeapBytes.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRHistoryAction.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRObject.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRHeapBytes.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
@@ -162,19 +162,19 @@ $(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.html',''); initRes
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542">   16</a></span>    <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542">ChangeSceneObjectsOrder</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; obj ) :</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542">   16</a></span>    <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542">ChangeSceneObjectsOrder</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        obj_( obj ),</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        name_( <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">name</a> )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        name_( name )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">if</span> ( obj_ )</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            childrenOrder_ = obj_-&gt;children();</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
 </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">   24</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">name</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> name_; }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> name_; }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11">   26</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11">   26</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11">action</a>( HistoryAction::Type )<span class="keyword"> override</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">if</span> ( !obj_ )</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keywordflow">return</span>;</div>
@@ -210,25 +210,19 @@ $(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.html',''); initRes
 </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
-<div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
-<div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
-<div class="ttc" id="aMRObject_8h_html"><div class="ttname"><a href="MRObject_8h.html">MRObject.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html">MR::ChangeSceneObjectsOrder</a></div><div class="ttdef"><b>Definition</b> MRChangeSceneObjectsOrder.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_a48cb146f899e3b77bed59f4bd1073e11"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11">MR::ChangeSceneObjectsOrder::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeSceneObjectsOrder.h:26</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ac98e7e6f6de1cbc791db5f23b6409542"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542">MR::ChangeSceneObjectsOrder::ChangeSceneObjectsOrder</a></div><div class="ttdeci">ChangeSceneObjectsOrder(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</div><div class="ttdoc">Constructed before change order.</div><div class="ttdef"><b>Definition</b> MRChangeSceneObjectsOrder.h:16</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ad692afbfc325fae56914094bc8b1f71d"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">MR::ChangeSceneObjectsOrder::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeSceneObjectsOrder.h:24</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ae5412f501f79caacfb257cd392119c50"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">MR::ChangeSceneObjectsOrder::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeSceneObjectsOrder.h:45</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:298</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRChangeSceneObjectsOrder_8h.html">MRChangeSceneObjectsOrder.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRChangeSceneObjectsOrder.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

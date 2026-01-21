@@ -39,7 +39,6 @@ var classMR_1_1PolylineTopology =
     [ "makePolyline", "classMR_1_1PolylineTopology.html#a22e5f6c91eac5ca4d57589194a860d10", null ],
     [ "next", "classMR_1_1PolylineTopology.html#a2f084506ce79585cbe3b2ae0a1339181", null ],
     [ "numValidVerts", "classMR_1_1PolylineTopology.html#aaee85cff1aa5cf38699daeb3669b0cf7", null ],
-    [ "operator!=", "classMR_1_1PolylineTopology.html#aee474c1238238690bc19c125fa62b857", null ],
     [ "operator==", "classMR_1_1PolylineTopology.html#af1878c347e52b88e1e86d50a9f38264b", null ],
     [ "org", "classMR_1_1PolylineTopology.html#a83ae0dea7e79cff8a04e1b543091b1a2", null ],
     [ "pack", "classMR_1_1PolylineTopology.html#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d", null ],

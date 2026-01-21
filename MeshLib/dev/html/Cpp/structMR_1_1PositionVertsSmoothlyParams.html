@@ -151,43 +151,29 @@ $(function(){initNavTree('structMR_1_1PositionVertsSmoothlyParams.html',''); ini
   <div class="headertitle"><div class="title">MR::PositionVertsSmoothlyParams Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRPositionVertsSmoothly_8h_source.html">MRPositionVertsSmoothly.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a35aa8fa1280f405afeb9f43189843024" id="r_a35aa8fa1280f405afeb9f43189843024"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35aa8fa1280f405afeb9f43189843024">region</a> = nullptr</td></tr>
 <tr class="separator:a35aa8fa1280f405afeb9f43189843024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e96983524e4526167e2bf795ac13686" id="r_a8e96983524e4526167e2bf795ac13686"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e96983524e4526167e2bf795ac13686">vertShifts</a> = nullptr</td></tr>
-<tr class="memdesc:a8e96983524e4526167e2bf795ac13686"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional additional shifts of each vertex relative to smooth position  <br /></td></tr>
+<tr class="memitem:a8e96983524e4526167e2bf795ac13686" id="r_a8e96983524e4526167e2bf795ac13686"><td class="memItemLeft" align="right" valign="top"><a id="a8e96983524e4526167e2bf795ac13686" name="a8e96983524e4526167e2bf795ac13686"></a>
+const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3f, VertId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>vertShifts</b> = nullptr</td></tr>
+<tr class="memdesc:a8e96983524e4526167e2bf795ac13686"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional additional shifts of each vertex relative to smooth position <br /></td></tr>
 <tr class="separator:a8e96983524e4526167e2bf795ac13686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5563df5f8c2ef1af7864e5be4bfc7a42" id="r_a5563df5f8c2ef1af7864e5be4bfc7a42"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5563df5f8c2ef1af7864e5be4bfc7a42">stabilizer</a> = 0</td></tr>
-<tr class="memdesc:a5563df5f8c2ef1af7864e5be4bfc7a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">the more the value, the bigger attraction of each vertex to its original position  <br /></td></tr>
+<tr class="memitem:a5563df5f8c2ef1af7864e5be4bfc7a42" id="r_a5563df5f8c2ef1af7864e5be4bfc7a42"><td class="memItemLeft" align="right" valign="top"><a id="a5563df5f8c2ef1af7864e5be4bfc7a42" name="a5563df5f8c2ef1af7864e5be4bfc7a42"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>stabilizer</b> = 0</td></tr>
+<tr class="memdesc:a5563df5f8c2ef1af7864e5be4bfc7a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">the more the value, the bigger attraction of each vertex to its original position <br /></td></tr>
 <tr class="separator:a5563df5f8c2ef1af7864e5be4bfc7a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69d2ed7107a7dd975887edd0da2c8847" id="r_a69d2ed7107a7dd975887edd0da2c8847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a036c60a88f141a437ffed0bc572fce6d">VertMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d2ed7107a7dd975887edd0da2c8847">vertStabilizers</a></td></tr>
-<tr class="memdesc:a69d2ed7107a7dd975887edd0da2c8847"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used instead of <code>stabilizer</code>  <br /></td></tr>
+<tr class="memitem:a69d2ed7107a7dd975887edd0da2c8847" id="r_a69d2ed7107a7dd975887edd0da2c8847"><td class="memItemLeft" align="right" valign="top"><a id="a69d2ed7107a7dd975887edd0da2c8847" name="a69d2ed7107a7dd975887edd0da2c8847"></a>
+VertMetric&#160;</td><td class="memItemRight" valign="bottom"><b>vertStabilizers</b></td></tr>
+<tr class="memdesc:a69d2ed7107a7dd975887edd0da2c8847"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used instead of <code>stabilizer</code> <br /></td></tr>
 <tr class="separator:a69d2ed7107a7dd975887edd0da2c8847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a683cc3d1052af67b00984f50fa920d" id="r_a7a683cc3d1052af67b00984f50fa920d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab7a3fa3c0bf9137f59a3a494350314d1">UndirectedEdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a683cc3d1052af67b00984f50fa920d">edgeWeights</a></td></tr>
-<tr class="memdesc:a7a683cc3d1052af67b00984f50fa920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used for edge weights instead of default 1  <br /></td></tr>
+<tr class="memitem:a7a683cc3d1052af67b00984f50fa920d" id="r_a7a683cc3d1052af67b00984f50fa920d"><td class="memItemLeft" align="right" valign="top"><a id="a7a683cc3d1052af67b00984f50fa920d" name="a7a683cc3d1052af67b00984f50fa920d"></a>
+UndirectedEdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><b>edgeWeights</b></td></tr>
+<tr class="memdesc:a7a683cc3d1052af67b00984f50fa920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used for edge weights instead of default 1 <br /></td></tr>
 <tr class="separator:a7a683cc3d1052af67b00984f50fa920d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7a683cc3d1052af67b00984f50fa920d" name="a7a683cc3d1052af67b00984f50fa920d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a683cc3d1052af67b00984f50fa920d">&#9670;&#160;</a></span>edgeWeights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ab7a3fa3c0bf9137f59a3a494350314d1">UndirectedEdgeMetric</a> MR::PositionVertsSmoothlyParams::edgeWeights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>if specified then it is used for edge weights instead of default 1 </p>
-
-</div>
-</div>
 <a id="a35aa8fa1280f405afeb9f43189843024" name="a35aa8fa1280f405afeb9f43189843024"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region</h2>
 
@@ -203,54 +189,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5563df5f8c2ef1af7864e5be4bfc7a42" name="a5563df5f8c2ef1af7864e5be4bfc7a42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5563df5f8c2ef1af7864e5be4bfc7a42">&#9670;&#160;</a></span>stabilizer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::PositionVertsSmoothlyParams::stabilizer = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>the more the value, the bigger attraction of each vertex to its original position </p>
-
-</div>
-</div>
-<a id="a8e96983524e4526167e2bf795ac13686" name="a8e96983524e4526167e2bf795ac13686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e96983524e4526167e2bf795ac13686">&#9670;&#160;</a></span>vertShifts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;Vector3f, VertId&gt;* MR::PositionVertsSmoothlyParams::vertShifts = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional additional shifts of each vertex relative to smooth position </p>
-
-</div>
-</div>
-<a id="a69d2ed7107a7dd975887edd0da2c8847" name="a69d2ed7107a7dd975887edd0da2c8847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69d2ed7107a7dd975887edd0da2c8847">&#9670;&#160;</a></span>vertStabilizers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a036c60a88f141a437ffed0bc572fce6d">VertMetric</a> MR::PositionVertsSmoothlyParams::vertStabilizers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>if specified then it is used instead of <code>stabilizer</code> </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRPositionVertsSmoothly_8h_source.html">MRPositionVertsSmoothly.h</a></li>
 </ul>
@@ -260,7 +198,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">PositionVertsSmoothlyParams</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">PositionVertsSmoothlyParams</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

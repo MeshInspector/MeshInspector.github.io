@@ -1,9 +1,6 @@
 var group__MeshNormalsGroup =
 [
-    [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", [
-      [ "faceNormals", "structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5", null ],
-      [ "vertNormals", "structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27", null ]
-    ] ],
+    [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::TriangleCornerNormals", "group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f", null ],
     [ "MR::computeMeshNormals", "group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529", null ],
     [ "MR::computePerCornerNormals", "group__MeshNormalsGroup.html#gaadd26fa2561ab2ec3b62b2dea079161c", null ],

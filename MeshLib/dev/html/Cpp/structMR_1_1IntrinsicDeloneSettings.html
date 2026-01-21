@@ -151,56 +151,25 @@ $(function(){initNavTree('structMR_1_1IntrinsicDeloneSettings.html',''); initRes
   <div class="headertitle"><div class="title">MR::IntrinsicDeloneSettings Struct Reference<div class="ingroups"><a class="el" href="group__MeshAlgorithmGroup.html">Mesh Algorithm</a> &raquo; <a class="el" href="group__MeshDeloneGroup.html">Mesh Delone</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRMeshDelone_8h_source.html">MRMeshDelone.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5985046a04f74cccc9f62e82968a5671" id="r_a5985046a04f74cccc9f62e82968a5671"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5985046a04f74cccc9f62e82968a5671">threshold</a> = 0</td></tr>
 <tr class="separator:a5985046a04f74cccc9f62e82968a5671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fe9566d6f97f752f0d434d75a04ea53" id="r_a5fe9566d6f97f752f0d434d75a04ea53"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe9566d6f97f752f0d434d75a04ea53">region</a> = nullptr</td></tr>
-<tr class="memdesc:a5fe9566d6f97f752f0d434d75a04ea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with left and right faces in this set can be flipped.  <br /></td></tr>
+<tr class="memitem:a5fe9566d6f97f752f0d434d75a04ea53" id="r_a5fe9566d6f97f752f0d434d75a04ea53"><td class="memItemLeft" align="right" valign="top"><a id="a5fe9566d6f97f752f0d434d75a04ea53" name="a5fe9566d6f97f752f0d434d75a04ea53"></a>
+const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><b>region</b> = nullptr</td></tr>
+<tr class="memdesc:a5fe9566d6f97f752f0d434d75a04ea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with left and right faces in this set can be flipped. <br /></td></tr>
 <tr class="separator:a5fe9566d6f97f752f0d434d75a04ea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a826d54dbfadee964e4e8d815e3aeda22" id="r_a826d54dbfadee964e4e8d815e3aeda22"><td class="memItemLeft" align="right" valign="top">const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a826d54dbfadee964e4e8d815e3aeda22">notFlippable</a> = nullptr</td></tr>
-<tr class="memdesc:a826d54dbfadee964e4e8d815e3aeda22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <br /></td></tr>
+<tr class="memitem:a826d54dbfadee964e4e8d815e3aeda22" id="r_a826d54dbfadee964e4e8d815e3aeda22"><td class="memItemLeft" align="right" valign="top"><a id="a826d54dbfadee964e4e8d815e3aeda22" name="a826d54dbfadee964e4e8d815e3aeda22"></a>
+const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><b>notFlippable</b> = nullptr</td></tr>
+<tr class="memdesc:a826d54dbfadee964e4e8d815e3aeda22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped. <br /></td></tr>
 <tr class="separator:a826d54dbfadee964e4e8d815e3aeda22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fed3ef49b5eeb2b4c7df0c84bbfad79" id="r_a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fed3ef49b5eeb2b4c7df0c84bbfad79">vertRegion</a> = nullptr</td></tr>
-<tr class="memdesc:a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with origin or destination in this set before or after flip can be flipped.  <br /></td></tr>
+<tr class="memitem:a8fed3ef49b5eeb2b4c7df0c84bbfad79" id="r_a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="memItemLeft" align="right" valign="top"><a id="a8fed3ef49b5eeb2b4c7df0c84bbfad79" name="a8fed3ef49b5eeb2b4c7df0c84bbfad79"></a>
+const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><b>vertRegion</b> = nullptr</td></tr>
+<tr class="memdesc:a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with origin or destination in this set before or after flip can be flipped. <br /></td></tr>
 <tr class="separator:a8fed3ef49b5eeb2b4c7df0c84bbfad79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a826d54dbfadee964e4e8d815e3aeda22" name="a826d54dbfadee964e4e8d815e3aeda22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a826d54dbfadee964e4e8d815e3aeda22">&#9670;&#160;</a></span>notFlippable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const UndirectedEdgeBitSet* MR::IntrinsicDeloneSettings::notFlippable = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Edges specified by this bit-set will never be flipped. </p>
-
-</div>
-</div>
-<a id="a5fe9566d6f97f752f0d434d75a04ea53" name="a5fe9566d6f97f752f0d434d75a04ea53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fe9566d6f97f752f0d434d75a04ea53">&#9670;&#160;</a></span>region</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const FaceBitSet* MR::IntrinsicDeloneSettings::region = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Only edges with left and right faces in this set can be flipped. </p>
-
-</div>
-</div>
 <a id="a5985046a04f74cccc9f62e82968a5671" name="a5985046a04f74cccc9f62e82968a5671"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5985046a04f74cccc9f62e82968a5671">&#9670;&#160;</a></span>threshold</h2>
 
@@ -216,22 +185,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fed3ef49b5eeb2b4c7df0c84bbfad79" name="a8fed3ef49b5eeb2b4c7df0c84bbfad79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fed3ef49b5eeb2b4c7df0c84bbfad79">&#9670;&#160;</a></span>vertRegion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const VertBitSet* MR::IntrinsicDeloneSettings::vertRegion = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Only edges with origin or destination in this set before or after flip can be flipped. </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRMeshDelone_8h_source.html">MRMeshDelone.h</a></li>
 </ul>
@@ -241,7 +194,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1IntrinsicDeloneSettings.html">IntrinsicDeloneSettings</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

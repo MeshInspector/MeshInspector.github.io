@@ -6,7 +6,6 @@ var structMR_1_1UniteManyMeshesParams =
     [ "mergeOnFail", "structMR_1_1UniteManyMeshesParams.html#a37fc9fd84323ac5579854222ba3453c8", null ],
     [ "nestedComponentsMode", "structMR_1_1UniteManyMeshesParams.html#a28a4b396128672937ced813919301558", null ],
     [ "newFaces", "structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4", null ],
-    [ "progressCb", "structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1", null ],
     [ "randomShiftsSeed", "structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc", null ],
     [ "useRandomShifts", "structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab", null ]
 ];

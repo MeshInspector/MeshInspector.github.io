@@ -152,8 +152,6 @@ $(function(){initNavTree('structMR_1_1FixMeshDegeneraciesParams.html',''); initR
   <div class="headertitle"><div class="title">MR::FixMeshDegeneraciesParams Struct Reference<div class="ingroups"><a class="el" href="group__MeshAlgorithmGroup.html">Mesh Algorithm</a> &raquo; <a class="el" href="group__MeshFixerGroup.html">Mesh Fixer</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRMeshFixer_8h_source.html">MRMeshFixer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -165,25 +163,31 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1288492f43aeb3ebd3709f7eaed006ec" id="r_a1288492f43aeb3ebd3709f7eaed006ec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1288492f43aeb3ebd3709f7eaed006ec">maxDeviation</a> { 0.0f }</td></tr>
-<tr class="memdesc:a1288492f43aeb3ebd3709f7eaed006ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum permitted deviation from the original surface  <br /></td></tr>
+<tr class="memitem:a1288492f43aeb3ebd3709f7eaed006ec" id="r_a1288492f43aeb3ebd3709f7eaed006ec"><td class="memItemLeft" align="right" valign="top"><a id="a1288492f43aeb3ebd3709f7eaed006ec" name="a1288492f43aeb3ebd3709f7eaed006ec"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxDeviation</b> { 0.0f }</td></tr>
+<tr class="memdesc:a1288492f43aeb3ebd3709f7eaed006ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum permitted deviation from the original surface <br /></td></tr>
 <tr class="separator:a1288492f43aeb3ebd3709f7eaed006ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb7943cde7ab98ddfd5ffe1d1f4170e" id="r_a7fb7943cde7ab98ddfd5ffe1d1f4170e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fb7943cde7ab98ddfd5ffe1d1f4170e">tinyEdgeLength</a> { 0.0f }</td></tr>
-<tr class="memdesc:a7fb7943cde7ab98ddfd5ffe1d1f4170e"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges not longer than this value will be collapsed ignoring normals and aspect ratio checks  <br /></td></tr>
+<tr class="memitem:a7fb7943cde7ab98ddfd5ffe1d1f4170e" id="r_a7fb7943cde7ab98ddfd5ffe1d1f4170e"><td class="memItemLeft" align="right" valign="top"><a id="a7fb7943cde7ab98ddfd5ffe1d1f4170e" name="a7fb7943cde7ab98ddfd5ffe1d1f4170e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>tinyEdgeLength</b> { 0.0f }</td></tr>
+<tr class="memdesc:a7fb7943cde7ab98ddfd5ffe1d1f4170e"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges not longer than this value will be collapsed ignoring normals and aspect ratio checks <br /></td></tr>
 <tr class="separator:a7fb7943cde7ab98ddfd5ffe1d1f4170e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78bb997d121e9c191fabce84d8f05980" id="r_a78bb997d121e9c191fabce84d8f05980"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78bb997d121e9c191fabce84d8f05980">criticalTriAspectRatio</a> { 1e4f }</td></tr>
 <tr class="separator:a78bb997d121e9c191fabce84d8f05980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27e58d6d674f40a1d627ba6f034ef140" id="r_a27e58d6d674f40a1d627ba6f034ef140"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e58d6d674f40a1d627ba6f034ef140">maxAngleChange</a> { PI_F / 3 }</td></tr>
-<tr class="memdesc:a27e58d6d674f40a1d627ba6f034ef140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permit edge flips if it does not change dihedral angle more than on this value.  <br /></td></tr>
+<tr class="memitem:a27e58d6d674f40a1d627ba6f034ef140" id="r_a27e58d6d674f40a1d627ba6f034ef140"><td class="memItemLeft" align="right" valign="top"><a id="a27e58d6d674f40a1d627ba6f034ef140" name="a27e58d6d674f40a1d627ba6f034ef140"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxAngleChange</b> { PI_F / 3 }</td></tr>
+<tr class="memdesc:a27e58d6d674f40a1d627ba6f034ef140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permit edge flips if it does not change dihedral angle more than on this value. <br /></td></tr>
 <tr class="separator:a27e58d6d674f40a1d627ba6f034ef140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbf34724488c4de119231db46448de01" id="r_adbf34724488c4de119231db46448de01"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf34724488c4de119231db46448de01">stabilizer</a> = 1e-6f</td></tr>
 <tr class="separator:adbf34724488c4de119231db46448de01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03fabfe38c70165440f7eaf7677e07ce" id="r_a03fabfe38c70165440f7eaf7677e07ce"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03fabfe38c70165440f7eaf7677e07ce">region</a> = nullptr</td></tr>
-<tr class="memdesc:a03fabfe38c70165440f7eaf7677e07ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">degenerations will be fixed only in given region, it is updated during the operation  <br /></td></tr>
+<tr class="memitem:a03fabfe38c70165440f7eaf7677e07ce" id="r_a03fabfe38c70165440f7eaf7677e07ce"><td class="memItemLeft" align="right" valign="top"><a id="a03fabfe38c70165440f7eaf7677e07ce" name="a03fabfe38c70165440f7eaf7677e07ce"></a>
+FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><b>region</b> = nullptr</td></tr>
+<tr class="memdesc:a03fabfe38c70165440f7eaf7677e07ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">degenerations will be fixed only in given region, it is updated during the operation <br /></td></tr>
 <tr class="separator:a03fabfe38c70165440f7eaf7677e07ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53fef689c0014c588a5990ec1626c5a7" id="r_a53fef689c0014c588a5990ec1626c5a7"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a5c91e8c36061ca0e6a68afef44486f42">MR::FixMeshDegeneraciesParams::Mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53fef689c0014c588a5990ec1626c5a7">Remesh</a></td></tr>
+<tr class="memitem:a53fef689c0014c588a5990ec1626c5a7" id="r_a53fef689c0014c588a5990ec1626c5a7"><td class="memItemLeft" align="right" valign="top"><a id="a53fef689c0014c588a5990ec1626c5a7" name="a53fef689c0014c588a5990ec1626c5a7"></a>
+enum <a class="el" href="#a5c91e8c36061ca0e6a68afef44486f42">MR::FixMeshDegeneraciesParams::Mode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Remesh</b></td></tr>
 <tr class="separator:a53fef689c0014c588a5990ec1626c5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eff7987d6820ff165e578fac210c66e" id="r_a0eff7987d6820ff165e578fac210c66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eff7987d6820ff165e578fac210c66e">cb</a></td></tr>
+<tr class="memitem:a0eff7987d6820ff165e578fac210c66e" id="r_a0eff7987d6820ff165e578fac210c66e"><td class="memItemLeft" align="right" valign="top"><a id="a0eff7987d6820ff165e578fac210c66e" name="a0eff7987d6820ff165e578fac210c66e"></a>
+<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cb</b></td></tr>
 <tr class="separator:a0eff7987d6820ff165e578fac210c66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -218,20 +222,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0eff7987d6820ff165e578fac210c66e" name="a0eff7987d6820ff165e578fac210c66e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eff7987d6820ff165e578fac210c66e">&#9670;&#160;</a></span>cb</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::FixMeshDegeneraciesParams::cb</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a78bb997d121e9c191fabce84d8f05980" name="a78bb997d121e9c191fabce84d8f05980"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78bb997d121e9c191fabce84d8f05980">&#9670;&#160;</a></span>criticalTriAspectRatio</h2>
 
@@ -244,68 +234,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </p>
-
-</div>
-</div>
-<a id="a27e58d6d674f40a1d627ba6f034ef140" name="a27e58d6d674f40a1d627ba6f034ef140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27e58d6d674f40a1d627ba6f034ef140">&#9670;&#160;</a></span>maxAngleChange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::FixMeshDegeneraciesParams::maxAngleChange { PI_F / 3 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Permit edge flips if it does not change dihedral angle more than on this value. </p>
-
-</div>
-</div>
-<a id="a1288492f43aeb3ebd3709f7eaed006ec" name="a1288492f43aeb3ebd3709f7eaed006ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1288492f43aeb3ebd3709f7eaed006ec">&#9670;&#160;</a></span>maxDeviation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::FixMeshDegeneraciesParams::maxDeviation { 0.0f }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>maximum permitted deviation from the original surface </p>
-
-</div>
-</div>
-<a id="a03fabfe38c70165440f7eaf7677e07ce" name="a03fabfe38c70165440f7eaf7677e07ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03fabfe38c70165440f7eaf7677e07ce">&#9670;&#160;</a></span>region</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">FaceBitSet* MR::FixMeshDegeneraciesParams::region = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>degenerations will be fixed only in given region, it is updated during the operation </p>
-
-</div>
-</div>
-<a id="a53fef689c0014c588a5990ec1626c5a7" name="a53fef689c0014c588a5990ec1626c5a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53fef689c0014c588a5990ec1626c5a7">&#9670;&#160;</a></span>Remesh</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a5c91e8c36061ca0e6a68afef44486f42">MR::FixMeshDegeneraciesParams::Mode</a> MR::FixMeshDegeneraciesParams::Remesh</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -324,22 +252,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7fb7943cde7ab98ddfd5ffe1d1f4170e" name="a7fb7943cde7ab98ddfd5ffe1d1f4170e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fb7943cde7ab98ddfd5ffe1d1f4170e">&#9670;&#160;</a></span>tinyEdgeLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::FixMeshDegeneraciesParams::tinyEdgeLength { 0.0f }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRMeshFixer_8h_source.html">MRMeshFixer.h</a></li>
 </ul>
@@ -349,7 +261,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1Polyline2 =
 [
-    [ "__init__", "classmrmeshpy_1_1Polyline2.html#ae64d607f4c7ced29cebbe131fca04c7c", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a5e2dd68024b3232f7f3e753fdd3b1ca8", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a73c8b8c8310e124dbb61ae9b8a52e373", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#afb37419efc075cb740e77dcda5b55022", null ],

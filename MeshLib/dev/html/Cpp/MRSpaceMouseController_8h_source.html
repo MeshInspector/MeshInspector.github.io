@@ -148,12 +148,12 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">MRSpaceMouseController.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRSpaceMouseController_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRSpaceMouseParameters_8h.html">MRSpaceMouseParameters.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRSpaceMouseParameters.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// this class stores maps spacemouse event - program action</span></div>
@@ -161,11 +161,11 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouseController.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1SpaceMouseController.html">SpaceMouseController</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouseController.html#ae0a59b5372dca473cd6f7c21eb280c69">   13</a></span>    <a class="code hl_function" href="classMR_1_1SpaceMouseController.html#ae0a59b5372dca473cd6f7c21eb280c69">MR_ADD_CTOR_DELETE_MOVE</a>( <a class="code hl_class" href="classMR_1_1SpaceMouseController.html">SpaceMouseController</a> );</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0">   14</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0">connect</a>();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    MR_ADD_CTOR_DELETE_MOVE( <a class="code hl_class" href="classMR_1_1SpaceMouseController.html">SpaceMouseController</a> );</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> connect();</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9">   16</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9">setParameters</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouseParameters.html">SpaceMouseParameters</a>&amp; newParams );</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouseController.html#ae6ef32600ff176a278cfdda7acd6d46d">   17</a></span>    MRVIEWER_API <a class="code hl_struct" href="structMR_1_1SpaceMouseParameters.html">SpaceMouseParameters</a> <a class="code hl_function" href="classMR_1_1SpaceMouseController.html#ae6ef32600ff176a278cfdda7acd6d46d">getParameters</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    MRVIEWER_API <span class="keywordtype">void</span> setParameters( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouseParameters.html">SpaceMouseParameters</a>&amp; newParams );</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    MRVIEWER_API <a class="code hl_struct" href="structMR_1_1SpaceMouseParameters.html">SpaceMouseParameters</a> getParameters() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> spaceMouseMove_( <span class="keyword">const</span> Vector3f&amp; translate, <span class="keyword">const</span> Vector3f&amp; rotate );</div>
@@ -174,19 +174,12 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> lockRotate_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">bool</span> showKeyDebug_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    SpaceMouseParameters params;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_struct" href="structMR_1_1SpaceMouseParameters.html">SpaceMouseParameters</a> params;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
 </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRSpaceMouseParameters_8h_html"><div class="ttname"><a href="MRSpaceMouseParameters_8h.html">MRSpaceMouseParameters.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouseController_html"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html">MR::SpaceMouseController</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseController.h:11</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouseController_html_a7accd6b62f47b5cf5f772deed66e77f9"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9">MR::SpaceMouseController::setParameters</a></div><div class="ttdeci">MRVIEWER_API void setParameters(const SpaceMouseParameters &amp;newParams)</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouseController_html_abeb719b76a7f6eab11a03225b18aebd0"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0">MR::SpaceMouseController::connect</a></div><div class="ttdeci">void connect()</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouseController_html_ae0a59b5372dca473cd6f7c21eb280c69"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#ae0a59b5372dca473cd6f7c21eb280c69">MR::SpaceMouseController::MR_ADD_CTOR_DELETE_MOVE</a></div><div class="ttdeci">MR_ADD_CTOR_DELETE_MOVE(SpaceMouseController)</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouseController_html_ae6ef32600ff176a278cfdda7acd6d46d"><div class="ttname"><a href="classMR_1_1SpaceMouseController.html#ae6ef32600ff176a278cfdda7acd6d46d">MR::SpaceMouseController::getParameters</a></div><div class="ttdeci">MRVIEWER_API SpaceMouseParameters getParameters() const</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1SpaceMouseParameters_html"><div class="ttname"><a href="structMR_1_1SpaceMouseParameters.html">MR::SpaceMouseParameters</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseParameters.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -194,7 +187,7 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRSpaceMouseController_8h.html">MRSpaceMouseController.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><b>MRSpaceMouseController.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

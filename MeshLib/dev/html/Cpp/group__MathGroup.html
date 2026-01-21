@@ -214,7 +214,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da" id="r_ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ae923a2855ed035b5d5f74b3162c0da">MR::lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
+<tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AffineXf.html">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ae923a2855ed035b5d5f74b3162c0da">MR::lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
 <tr class="memdesc:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes rigid transformation xf  <br /></td></tr>
 <tr class="separator:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b002e846a245cb69384c1d444ea65a0" id="r_ga3b002e846a245cb69384c1d444ea65a0"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gac591d793fa5ee868f8255a94350e1aef" id="r_gac591d793fa5ee868f8255a94350e1aef"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:gac591d793fa5ee868f8255a94350e1aef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac591d793fa5ee868f8255a94350e1aef">MR::computeBoundingBox</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; V, VertId &gt; &amp;points, const VertBitSet &amp;region, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr)</td></tr>
 <tr class="separator:gac591d793fa5ee868f8255a94350e1aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf420bd1285dda4239d2ac0fac2eff1f9" id="r_gaf420bd1285dda4239d2ac0fac2eff1f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf420bd1285dda4239d2ac0fac2eff1f9">MR::makeRigidXf</a> (const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)</td></tr>
+<tr class="memitem:gaf420bd1285dda4239d2ac0fac2eff1f9" id="r_gaf420bd1285dda4239d2ac0fac2eff1f9"><td class="memItemLeft" align="right" valign="top">MRMESH_API AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf420bd1285dda4239d2ac0fac2eff1f9">MR::makeRigidXf</a> (const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)</td></tr>
 <tr class="separator:gaf420bd1285dda4239d2ac0fac2eff1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed" id="r_ga97b0c226492f4561c1a2c13831433bed"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga97b0c226492f4561c1a2c13831433bed">MR::circumcircleDiameterSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
@@ -249,61 +249,79 @@ Functions</h2></td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04" id="r_ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga84b1b2dc1c73856fecb9b8617c174b04">MR::dihedralAngle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;leftNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;rightNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;edgeVec)</td></tr>
 <tr class="separator:ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf33aff000dfb310f8d4e2b79698c3373" id="r_gaf33aff000dfb310f8d4e2b79698c3373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf33aff000dfb310f8d4e2b79698c3373">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
+<tr class="memitem:gaf33aff000dfb310f8d4e2b79698c3373" id="r_gaf33aff000dfb310f8d4e2b79698c3373"><td class="memItemLeft" align="right" valign="top">MRMESH_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf33aff000dfb310f8d4e2b79698c3373">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
 <tr class="separator:gaf33aff000dfb310f8d4e2b79698c3373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68" id="r_ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3f97fcf1b362e9c60d8a596aa8d1de68">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;ev)</td></tr>
+<tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68" id="r_ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplParams" colspan="2"><a id="ga3f97fcf1b362e9c60d8a596aa8d1de68" name="ga3f97fcf1b362e9c60d8a596aa8d1de68"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;ev)</td></tr>
 <tr class="separator:ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1420892e3e154a187396a8dd5e65291" id="r_gac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gac1420892e3e154a187396a8dd5e65291"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac1420892e3e154a187396a8dd5e65291">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;v)</td></tr>
+<tr class="memitem:gac1420892e3e154a187396a8dd5e65291" id="r_gac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2"><a id="gac1420892e3e154a187396a8dd5e65291" name="gac1420892e3e154a187396a8dd5e65291"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gac1420892e3e154a187396a8dd5e65291"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="separator:gac1420892e3e154a187396a8dd5e65291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e" id="r_ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga57c0e085976ff3667bcc12e402216d6e">MR::toEigen</a> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e" id="r_ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplParams" colspan="2"><a id="ga57c0e085976ff3667bcc12e402216d6e" name="ga57c0e085976ff3667bcc12e402216d6e"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:ga57c0e085976ff3667bcc12e402216d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8888d3eb79b0414fbc4855426d85cf9c" id="r_ga8888d3eb79b0414fbc4855426d85cf9c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga8888d3eb79b0414fbc4855426d85cf9c"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga8888d3eb79b0414fbc4855426d85cf9c">MR::toEigen</a> (const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="memitem:ga8888d3eb79b0414fbc4855426d85cf9c" id="r_ga8888d3eb79b0414fbc4855426d85cf9c"><td class="memTemplParams" colspan="2"><a id="ga8888d3eb79b0414fbc4855426d85cf9c" name="ga8888d3eb79b0414fbc4855426d85cf9c"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga8888d3eb79b0414fbc4855426d85cf9c"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:ga8888d3eb79b0414fbc4855426d85cf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49129aa06221938faa98e6295f0d790b" id="r_ga49129aa06221938faa98e6295f0d790b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga49129aa06221938faa98e6295f0d790b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga49129aa06221938faa98e6295f0d790b">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 2, 2 &gt; &amp;m)</td></tr>
+<tr class="memitem:ga49129aa06221938faa98e6295f0d790b" id="r_ga49129aa06221938faa98e6295f0d790b"><td class="memTemplParams" colspan="2"><a id="ga49129aa06221938faa98e6295f0d790b" name="ga49129aa06221938faa98e6295f0d790b"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga49129aa06221938faa98e6295f0d790b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Matrix&lt; T, 2, 2 &gt; &amp;m)</td></tr>
 <tr class="separator:ga49129aa06221938faa98e6295f0d790b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2723ebec7d989320e407d70f0e8c00d4" id="r_ga2723ebec7d989320e407d70f0e8c00d4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga2723ebec7d989320e407d70f0e8c00d4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga2723ebec7d989320e407d70f0e8c00d4">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;ev)</td></tr>
+<tr class="memitem:ga2723ebec7d989320e407d70f0e8c00d4" id="r_ga2723ebec7d989320e407d70f0e8c00d4"><td class="memTemplParams" colspan="2"><a id="ga2723ebec7d989320e407d70f0e8c00d4" name="ga2723ebec7d989320e407d70f0e8c00d4"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga2723ebec7d989320e407d70f0e8c00d4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;ev)</td></tr>
 <tr class="separator:ga2723ebec7d989320e407d70f0e8c00d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73ee1ad324c6bb082a748395b3802916" id="r_ga73ee1ad324c6bb082a748395b3802916"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga73ee1ad324c6bb082a748395b3802916"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga73ee1ad324c6bb082a748395b3802916">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v)</td></tr>
+<tr class="memitem:ga73ee1ad324c6bb082a748395b3802916" id="r_ga73ee1ad324c6bb082a748395b3802916"><td class="memTemplParams" colspan="2"><a id="ga73ee1ad324c6bb082a748395b3802916" name="ga73ee1ad324c6bb082a748395b3802916"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga73ee1ad324c6bb082a748395b3802916"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="separator:ga73ee1ad324c6bb082a748395b3802916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga20b5ff1415d774bc26055b5734f9b306" id="r_ga20b5ff1415d774bc26055b5734f9b306"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga20b5ff1415d774bc26055b5734f9b306"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga20b5ff1415d774bc26055b5734f9b306">MR::toEigen</a> (const <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="memitem:ga20b5ff1415d774bc26055b5734f9b306" id="r_ga20b5ff1415d774bc26055b5734f9b306"><td class="memTemplParams" colspan="2"><a id="ga20b5ff1415d774bc26055b5734f9b306" name="ga20b5ff1415d774bc26055b5734f9b306"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga20b5ff1415d774bc26055b5734f9b306"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:ga20b5ff1415d774bc26055b5734f9b306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd50a577d1934b0c0a0aca008de7d541" id="r_gabd50a577d1934b0c0a0aca008de7d541"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gabd50a577d1934b0c0a0aca008de7d541"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gabd50a577d1934b0c0a0aca008de7d541">MR::toEigen</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="memitem:gabd50a577d1934b0c0a0aca008de7d541" id="r_gabd50a577d1934b0c0a0aca008de7d541"><td class="memTemplParams" colspan="2"><a id="gabd50a577d1934b0c0a0aca008de7d541" name="gabd50a577d1934b0c0a0aca008de7d541"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gabd50a577d1934b0c0a0aca008de7d541"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:gabd50a577d1934b0c0a0aca008de7d541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4374661114398aca454e07dc09a7036c" id="r_ga4374661114398aca454e07dc09a7036c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga4374661114398aca454e07dc09a7036c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga4374661114398aca454e07dc09a7036c">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 3, 3 &gt; &amp;m)</td></tr>
+<tr class="memitem:ga4374661114398aca454e07dc09a7036c" id="r_ga4374661114398aca454e07dc09a7036c"><td class="memTemplParams" colspan="2"><a id="ga4374661114398aca454e07dc09a7036c" name="ga4374661114398aca454e07dc09a7036c"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4374661114398aca454e07dc09a7036c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Matrix&lt; T, 3, 3 &gt; &amp;m)</td></tr>
 <tr class="separator:ga4374661114398aca454e07dc09a7036c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad38e7e445e2b0faa925e3df9c0ee75a6" id="r_gad38e7e445e2b0faa925e3df9c0ee75a6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gad38e7e445e2b0faa925e3df9c0ee75a6"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 4 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gad38e7e445e2b0faa925e3df9c0ee75a6">MR::toEigen</a> (const <a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="memitem:gad38e7e445e2b0faa925e3df9c0ee75a6" id="r_gad38e7e445e2b0faa925e3df9c0ee75a6"><td class="memTemplParams" colspan="2"><a id="gad38e7e445e2b0faa925e3df9c0ee75a6" name="gad38e7e445e2b0faa925e3df9c0ee75a6"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad38e7e445e2b0faa925e3df9c0ee75a6"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 4 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:gad38e7e445e2b0faa925e3df9c0ee75a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4d999217b3e42b5726808b25c5c988cc" id="r_ga4d999217b3e42b5726808b25c5c988cc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga4d999217b3e42b5726808b25c5c988cc"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 4 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga4d999217b3e42b5726808b25c5c988cc">MR::toEigen</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="memitem:ga4d999217b3e42b5726808b25c5c988cc" id="r_ga4d999217b3e42b5726808b25c5c988cc"><td class="memTemplParams" colspan="2"><a id="ga4d999217b3e42b5726808b25c5c988cc" name="ga4d999217b3e42b5726808b25c5c988cc"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4d999217b3e42b5726808b25c5c988cc"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 4 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:ga4d999217b3e42b5726808b25c5c988cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a19f42616def07ddf8bbf9e7dfff991" id="r_ga3a19f42616def07ddf8bbf9e7dfff991"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga3a19f42616def07ddf8bbf9e7dfff991"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3a19f42616def07ddf8bbf9e7dfff991">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 4, 4 &gt; &amp;m)</td></tr>
+<tr class="memitem:ga3a19f42616def07ddf8bbf9e7dfff991" id="r_ga3a19f42616def07ddf8bbf9e7dfff991"><td class="memTemplParams" colspan="2"><a id="ga3a19f42616def07ddf8bbf9e7dfff991" name="ga3a19f42616def07ddf8bbf9e7dfff991"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3a19f42616def07ddf8bbf9e7dfff991"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Matrix&lt; T, 4, 4 &gt; &amp;m)</td></tr>
 <tr class="separator:ga3a19f42616def07ddf8bbf9e7dfff991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad9b8ea723d950187f862ce89900a7534" id="r_gad9b8ea723d950187f862ce89900a7534"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gad9b8ea723d950187f862ce89900a7534"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gad9b8ea723d950187f862ce89900a7534">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 4, 1 &gt; &amp;ev)</td></tr>
+<tr class="memitem:gad9b8ea723d950187f862ce89900a7534" id="r_gad9b8ea723d950187f862ce89900a7534"><td class="memTemplParams" colspan="2"><a id="gad9b8ea723d950187f862ce89900a7534" name="gad9b8ea723d950187f862ce89900a7534"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad9b8ea723d950187f862ce89900a7534"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Matrix&lt; T, 4, 1 &gt; &amp;ev)</td></tr>
 <tr class="separator:gad9b8ea723d950187f862ce89900a7534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab555a6f9afad6842444fcec85d56aded" id="r_gab555a6f9afad6842444fcec85d56aded"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gab555a6f9afad6842444fcec85d56aded"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gab555a6f9afad6842444fcec85d56aded">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;v)</td></tr>
+<tr class="memitem:gab555a6f9afad6842444fcec85d56aded" id="r_gab555a6f9afad6842444fcec85d56aded"><td class="memTemplParams" colspan="2"><a id="gab555a6f9afad6842444fcec85d56aded" name="gab555a6f9afad6842444fcec85d56aded"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab555a6f9afad6842444fcec85d56aded"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="separator:gab555a6f9afad6842444fcec85d56aded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaacaca15888bdddf50a5db746c7955ca7" id="r_gaacaca15888bdddf50a5db746c7955ca7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaacaca15888bdddf50a5db746c7955ca7"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaacaca15888bdddf50a5db746c7955ca7">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, T w)</td></tr>
+<tr class="memitem:gaacaca15888bdddf50a5db746c7955ca7" id="r_gaacaca15888bdddf50a5db746c7955ca7"><td class="memTemplParams" colspan="2"><a id="gaacaca15888bdddf50a5db746c7955ca7" name="gaacaca15888bdddf50a5db746c7955ca7"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaacaca15888bdddf50a5db746c7955ca7"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, T w)</td></tr>
 <tr class="separator:gaacaca15888bdddf50a5db746c7955ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga628c148ec917a4f0bf1398a814476dde" id="r_ga628c148ec917a4f0bf1398a814476dde"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga628c148ec917a4f0bf1398a814476dde"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga628c148ec917a4f0bf1398a814476dde">MR::fromEigen</a> (const Eigen::Quaternion&lt; T &gt; &amp;eq)</td></tr>
+<tr class="memitem:ga628c148ec917a4f0bf1398a814476dde" id="r_ga628c148ec917a4f0bf1398a814476dde"><td class="memTemplParams" colspan="2"><a id="ga628c148ec917a4f0bf1398a814476dde" name="ga628c148ec917a4f0bf1398a814476dde"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga628c148ec917a4f0bf1398a814476dde"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::fromEigen</b> (const Eigen::Quaternion&lt; T &gt; &amp;eq)</td></tr>
 <tr class="separator:ga628c148ec917a4f0bf1398a814476dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad703c1d9a93f5cf4e177808cbfef4deb" id="r_gad703c1d9a93f5cf4e177808cbfef4deb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gad703c1d9a93f5cf4e177808cbfef4deb"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Quaternion&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gad703c1d9a93f5cf4e177808cbfef4deb">MR::toEigen</a> (const <a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt; &amp;q)</td></tr>
+<tr class="memitem:gad703c1d9a93f5cf4e177808cbfef4deb" id="r_gad703c1d9a93f5cf4e177808cbfef4deb"><td class="memTemplParams" colspan="2"><a id="gad703c1d9a93f5cf4e177808cbfef4deb" name="gad703c1d9a93f5cf4e177808cbfef4deb"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad703c1d9a93f5cf4e177808cbfef4deb"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Quaternion&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MR::toEigen</b> (const <a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt; &amp;q)</td></tr>
 <tr class="separator:gad703c1d9a93f5cf4e177808cbfef4deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -601,195 +619,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga3f97fcf1b362e9c60d8a596aa8d1de68" name="ga3f97fcf1b362e9c60d8a596aa8d1de68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3f97fcf1b362e9c60d8a596aa8d1de68">&#9670;&#160;</a></span>fromEigen() <span class="overload">[1/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ev</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga49129aa06221938faa98e6295f0d790b" name="ga49129aa06221938faa98e6295f0d790b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga49129aa06221938faa98e6295f0d790b">&#9670;&#160;</a></span>fromEigen() <span class="overload">[2/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; T, 2, 2 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga2723ebec7d989320e407d70f0e8c00d4" name="ga2723ebec7d989320e407d70f0e8c00d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2723ebec7d989320e407d70f0e8c00d4">&#9670;&#160;</a></span>fromEigen() <span class="overload">[3/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ev</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga4374661114398aca454e07dc09a7036c" name="ga4374661114398aca454e07dc09a7036c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4374661114398aca454e07dc09a7036c">&#9670;&#160;</a></span>fromEigen() <span class="overload">[4/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; T, 3, 3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gad9b8ea723d950187f862ce89900a7534" name="gad9b8ea723d950187f862ce89900a7534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad9b8ea723d950187f862ce89900a7534">&#9670;&#160;</a></span>fromEigen() <span class="overload">[5/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; T, 4, 1 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ev</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga3a19f42616def07ddf8bbf9e7dfff991" name="ga3a19f42616def07ddf8bbf9e7dfff991"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3a19f42616def07ddf8bbf9e7dfff991">&#9670;&#160;</a></span>fromEigen() <span class="overload">[6/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; T, 4, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga628c148ec917a4f0bf1398a814476dde" name="ga628c148ec917a4f0bf1398a814476dde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga628c148ec917a4f0bf1398a814476dde">&#9670;&#160;</a></span>fromEigen() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt; MR::fromEigen </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Quaternion&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>eq</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga9ae923a2855ed035b5d5f74b3162c0da" name="ga9ae923a2855ed035b5d5f74b3162c0da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9ae923a2855ed035b5d5f74b3162c0da">&#9670;&#160;</a></span>lookAt()</h2>
 
@@ -799,7 +628,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt; MR::lookAt </td>
+          <td class="memname"><a class="el" href="structMR_1_1AffineXf.html">AffineXf3</a>&lt; T &gt; MR::lookAt </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
         </tr>
@@ -834,7 +663,7 @@ xf(eye) = 0 </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> AffineXf3d MR::makeRigidXf </td>
+          <td class="memname">MRMESH_API AffineXf3d MR::makeRigidXf </td>
           <td>(</td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -898,7 +727,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orient3d </td>
+          <td class="memname">MRMESH_API bool MR::orient3d </td>
           <td>(</td>
           <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -915,307 +744,6 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" </p>
-
-</div>
-</div>
-<a id="ga8888d3eb79b0414fbc4855426d85cf9c" name="ga8888d3eb79b0414fbc4855426d85cf9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8888d3eb79b0414fbc4855426d85cf9c">&#9670;&#160;</a></span>toEigen() <span class="overload">[1/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 2, 2 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gabd50a577d1934b0c0a0aca008de7d541" name="gabd50a577d1934b0c0a0aca008de7d541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd50a577d1934b0c0a0aca008de7d541">&#9670;&#160;</a></span>toEigen() <span class="overload">[2/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 3, 3 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga4d999217b3e42b5726808b25c5c988cc" name="ga4d999217b3e42b5726808b25c5c988cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4d999217b3e42b5726808b25c5c988cc">&#9670;&#160;</a></span>toEigen() <span class="overload">[3/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 4, 4 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gad703c1d9a93f5cf4e177808cbfef4deb" name="gad703c1d9a93f5cf4e177808cbfef4deb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad703c1d9a93f5cf4e177808cbfef4deb">&#9670;&#160;</a></span>toEigen() <span class="overload">[4/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Quaternion&lt; T &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>q</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga57c0e085976ff3667bcc12e402216d6e" name="ga57c0e085976ff3667bcc12e402216d6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga57c0e085976ff3667bcc12e402216d6e">&#9670;&#160;</a></span>toEigen() <span class="overload">[5/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 2, 2 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga20b5ff1415d774bc26055b5734f9b306" name="ga20b5ff1415d774bc26055b5734f9b306"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga20b5ff1415d774bc26055b5734f9b306">&#9670;&#160;</a></span>toEigen() <span class="overload">[6/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 3, 3 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gad38e7e445e2b0faa925e3df9c0ee75a6" name="gad38e7e445e2b0faa925e3df9c0ee75a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad38e7e445e2b0faa925e3df9c0ee75a6">&#9670;&#160;</a></span>toEigen() <span class="overload">[7/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 4, 4 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gac1420892e3e154a187396a8dd5e65291" name="gac1420892e3e154a187396a8dd5e65291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac1420892e3e154a187396a8dd5e65291">&#9670;&#160;</a></span>toEigen() <span class="overload">[8/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 2, 1 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga73ee1ad324c6bb082a748395b3802916" name="ga73ee1ad324c6bb082a748395b3802916"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga73ee1ad324c6bb082a748395b3802916">&#9670;&#160;</a></span>toEigen() <span class="overload">[9/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 3, 1 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gaacaca15888bdddf50a5db746c7955ca7" name="gaacaca15888bdddf50a5db746c7955ca7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaacaca15888bdddf50a5db746c7955ca7">&#9670;&#160;</a></span>toEigen() <span class="overload">[10/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 4, 1 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>w</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gab555a6f9afad6842444fcec85d56aded" name="gab555a6f9afad6842444fcec85d56aded"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab555a6f9afad6842444fcec85d56aded">&#9670;&#160;</a></span>toEigen() <span class="overload">[11/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt; T, 4, 1 &gt; MR::toEigen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

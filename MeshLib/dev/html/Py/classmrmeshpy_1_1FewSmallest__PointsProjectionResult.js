@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1FewSmallest__PointsProjectionResult =
 [
-    [ "__init__", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html#a7904b35a9f66127a0a6642ea4c558e3b", null ],
     [ "__init__", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html#a6b5a4f5a52509803cf68d8c693e9ddd4", null ],
     [ "__init__", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html#a7800cb2764fc5c2a0f604d53d0f93047", null ],
     [ "clear", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html#aea64f3324bdc3859727580c669ac6c39", null ],

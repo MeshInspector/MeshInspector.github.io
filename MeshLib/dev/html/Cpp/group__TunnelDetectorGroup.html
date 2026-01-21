@@ -159,14 +159,15 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7dd035558540c3818d6d69afc731f953" id="r_ga7dd035558540c3818d6d69afc731f953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7dd035558540c3818d6d69afc731f953">MR::detectBasisTunnels</a> (const MeshPart &amp;mp, <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> metric={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
+<tr class="memitem:ga7dd035558540c3818d6d69afc731f953" id="r_ga7dd035558540c3818d6d69afc731f953"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; std::vector&lt; EdgeLoop &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7dd035558540c3818d6d69afc731f953">MR::detectBasisTunnels</a> (const MeshPart &amp;mp, EdgeMetric metric={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
 <tr class="separator:ga7dd035558540c3818d6d69afc731f953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga237ac3c26c32232e94cd5431869ccadc" id="r_ga237ac3c26c32232e94cd5431869ccadc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga237ac3c26c32232e94cd5431869ccadc">MR::findSmallestMetricCoLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric, const FaceBitSet *region=nullptr)</td></tr>
+<tr class="memitem:ga237ac3c26c32232e94cd5431869ccadc" id="r_ga237ac3c26c32232e94cd5431869ccadc"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; EdgeLoop &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga237ac3c26c32232e94cd5431869ccadc">MR::findSmallestMetricCoLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const EdgeLoop &amp;loop, const EdgeMetric &amp;metric, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="separator:ga237ac3c26c32232e94cd5431869ccadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2b33a572c4859f4df4922d782d63598" id="r_gad2b33a572c4859f4df4922d782d63598"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2b33a572c4859f4df4922d782d63598">MR::findShortestCoLoop</a> (const MeshPart &amp;mp, const <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop)</td></tr>
-<tr class="memdesc:gad2b33a572c4859f4df4922d782d63598"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as findMinimalCoLoop with euclidean edge length metric  <br /></td></tr>
+<tr class="memitem:gad2b33a572c4859f4df4922d782d63598" id="r_gad2b33a572c4859f4df4922d782d63598"><td class="memItemLeft" align="right" valign="top"><a id="gad2b33a572c4859f4df4922d782d63598" name="gad2b33a572c4859f4df4922d782d63598"></a>
+MRMESH_API Expected&lt; EdgeLoop &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>MR::findShortestCoLoop</b> (const MeshPart &amp;mp, const EdgeLoop &amp;loop)</td></tr>
+<tr class="memdesc:gad2b33a572c4859f4df4922d782d63598"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as findMinimalCoLoop with euclidean edge length metric <br /></td></tr>
 <tr class="separator:gad2b33a572c4859f4df4922d782d63598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaecd871a653e3af47a39e7017288eb69c" id="r_gaecd871a653e3af47a39e7017288eb69c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecd871a653e3af47a39e7017288eb69c">MR::detectTunnelFaces</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gaecd871a653e3af47a39e7017288eb69c" id="r_gaecd871a653e3af47a39e7017288eb69c"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecd871a653e3af47a39e7017288eb69c">MR::detectTunnelFaces</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:gaecd871a653e3af47a39e7017288eb69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -178,14 +179,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; &gt; MR::detectBasisTunnels </td>
+          <td class="memname">MRMESH_API Expected&lt; std::vector&lt; EdgeLoop &gt; &gt; MR::detectBasisTunnels </td>
           <td>(</td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a></td>          <td class="paramname"><span class="paramname"><em>metric</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">EdgeMetric</td>          <td class="paramname"><span class="paramname"><em>metric</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -205,7 +206,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt; MR::detectTunnelFaces </td>
+          <td class="memname">MRMESH_API Expected&lt; FaceBitSet &gt; MR::detectTunnelFaces </td>
           <td>(</td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -220,29 +221,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gad2b33a572c4859f4df4922d782d63598" name="gad2b33a572c4859f4df4922d782d63598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad2b33a572c4859f4df4922d782d63598">&#9670;&#160;</a></span>findShortestCoLoop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; MR::findShortestCoLoop </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>same as findMinimalCoLoop with euclidean edge length metric </p>
-
-</div>
-</div>
 <a id="ga237ac3c26c32232e94cd5431869ccadc" name="ga237ac3c26c32232e94cd5431869ccadc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga237ac3c26c32232e94cd5431869ccadc">&#9670;&#160;</a></span>findSmallestMetricCoLoop()</h2>
 
@@ -250,19 +228,19 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; MR::findSmallestMetricCoLoop </td>
+          <td class="memname">MRMESH_API Expected&lt; EdgeLoop &gt; MR::findSmallestMetricCoLoop </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>, </td>
+          <td class="paramtype">const EdgeLoop &amp;</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
+          <td class="paramtype">const EdgeMetric &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

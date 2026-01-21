@@ -10,6 +10,5 @@ var group__PolylineSubdivideGroup =
       [ "region", "structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23", null ],
       [ "useCurvature", "structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3", null ]
     ] ],
-    [ "MR::subdividePolyline", "group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58", null ],
-    [ "MR::subdividePolyline", "group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9", null ]
+    [ "MR::subdividePolyline", "group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58", null ]
 ];

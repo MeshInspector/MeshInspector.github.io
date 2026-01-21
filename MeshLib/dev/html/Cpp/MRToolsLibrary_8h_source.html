@@ -148,14 +148,14 @@ $(function(){initNavTree('MRToolsLibrary_8h_source.html',''); initResizable(true
   <div class="headertitle"><div class="title">MRToolsLibrary.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRToolsLibrary_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>EndMillTool;</div>
@@ -165,23 +165,23 @@ $(function(){initNavTree('MRToolsLibrary_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html">   14</a></span><span class="keyword">class </span>MRVIEWER_CLASS <a class="code hl_class" href="classMR_1_1GcodeToolsLibrary.html">GcodeToolsLibrary</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html#a602053a5eb257238e0adc6f7c4a7c8da">   17</a></span>    MRVIEWER_API <a class="code hl_function" href="classMR_1_1GcodeToolsLibrary.html#a602053a5eb257238e0adc6f7c4a7c8da">GcodeToolsLibrary</a>( <span class="keyword">const</span> std::string&amp; libraryName );</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    MRVIEWER_API <a class="code hl_class" href="classMR_1_1GcodeToolsLibrary.html">GcodeToolsLibrary</a>( <span class="keyword">const</span> std::string&amp; libraryName );</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// draw interface for interacting with storage (based on UI::combo)</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html#a5474fc576f9fa84ee1d57d476553bcbd">   20</a></span>    MRVIEWER_API <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1GcodeToolsLibrary.html#a5474fc576f9fa84ee1d57d476553bcbd">drawInterface</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    MRVIEWER_API <span class="keywordtype">bool</span> drawInterface();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">// draw dialog for creating end mill tools</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// must be called outside any BeginCustomStatePlugin/EndCustomStatePlugin blocks</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html#a8c33b66d774fd733e5666c6fa0db1cda">   24</a></span>    MRVIEWER_API <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1GcodeToolsLibrary.html#a8c33b66d774fd733e5666c6fa0db1cda">drawCreateToolDialog</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    MRVIEWER_API <span class="keywordtype">bool</span> drawCreateToolDialog();</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">// get selected tool as ObjectMesh</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79">   27</a></span>    [[nodiscard]] MRVIEWER_API <span class="keyword">const</span> std::shared_ptr&lt;ObjectMesh&gt;&amp; <a class="code hl_function" href="classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79">getToolObject</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    [[nodiscard]] MRVIEWER_API <span class="keyword">const</span> std::shared_ptr&lt;ObjectMesh&gt;&amp; getToolObject();</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">// get selected tool as EndMillTool (if available)</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html#ae33089c9019e6ce8f918a7291f9e4d89">   30</a></span>    [[nodiscard]] <span class="keyword">const</span> std::shared_ptr&lt;EndMillTool&gt;&amp; <a class="code hl_function" href="classMR_1_1GcodeToolsLibrary.html#ae33089c9019e6ce8f918a7291f9e4d89">getEndMillTool</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> endMillTool_; }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    [[nodiscard]] <span class="keyword">const</span> std::shared_ptr&lt;EndMillTool&gt;&amp; getEndMillTool()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> endMillTool_; }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">// set object specific size for automatic resize default object</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1GcodeToolsLibrary.html#a545ff3b6a5d9cdf2987f1dbd3ece6769">   33</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1GcodeToolsLibrary.html#a545ff3b6a5d9cdf2987f1dbd3ece6769">setAutoSize</a>( <span class="keywordtype">float</span> size );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    MRVIEWER_API <span class="keywordtype">void</span> setAutoSize( <span class="keywordtype">float</span> size );</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">// storage folder</span></div>
@@ -222,15 +222,7 @@ $(function(){initNavTree('MRToolsLibrary_8h_source.html',''); initResizable(true
 </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html">MR::GcodeToolsLibrary</a></div><div class="ttdef"><b>Definition</b> MRToolsLibrary.h:15</div></div>
-<div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_a491da975eada25f78297b3c3befecf79"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79">MR::GcodeToolsLibrary::getToolObject</a></div><div class="ttdeci">MRVIEWER_API const std::shared_ptr&lt; ObjectMesh &gt; &amp; getToolObject()</div></div>
-<div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_a545ff3b6a5d9cdf2987f1dbd3ece6769"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#a545ff3b6a5d9cdf2987f1dbd3ece6769">MR::GcodeToolsLibrary::setAutoSize</a></div><div class="ttdeci">MRVIEWER_API void setAutoSize(float size)</div></div>
-<div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_a5474fc576f9fa84ee1d57d476553bcbd"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#a5474fc576f9fa84ee1d57d476553bcbd">MR::GcodeToolsLibrary::drawInterface</a></div><div class="ttdeci">MRVIEWER_API bool drawInterface()</div></div>
-<div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_a602053a5eb257238e0adc6f7c4a7c8da"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#a602053a5eb257238e0adc6f7c4a7c8da">MR::GcodeToolsLibrary::GcodeToolsLibrary</a></div><div class="ttdeci">MRVIEWER_API GcodeToolsLibrary(const std::string &amp;libraryName)</div></div>
-<div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_a8c33b66d774fd733e5666c6fa0db1cda"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#a8c33b66d774fd733e5666c6fa0db1cda">MR::GcodeToolsLibrary::drawCreateToolDialog</a></div><div class="ttdeci">MRVIEWER_API bool drawCreateToolDialog()</div></div>
-<div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_ae33089c9019e6ce8f918a7291f9e4d89"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#ae33089c9019e6ce8f918a7291f9e4d89">MR::GcodeToolsLibrary::getEndMillTool</a></div><div class="ttdeci">const std::shared_ptr&lt; EndMillTool &gt; &amp; getEndMillTool() const</div><div class="ttdef"><b>Definition</b> MRToolsLibrary.h:30</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1EndMillTool_html"><div class="ttname"><a href="structMR_1_1EndMillTool.html">MR::EndMillTool</a></div><div class="ttdoc">end mill tool specifications</div><div class="ttdef"><b>Definition</b> MREndMill.h:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -238,7 +230,7 @@ $(function(){initNavTree('MRToolsLibrary_8h_source.html',''); initResizable(true
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRToolsLibrary_8h.html">MRToolsLibrary.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><b>MRToolsLibrary.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

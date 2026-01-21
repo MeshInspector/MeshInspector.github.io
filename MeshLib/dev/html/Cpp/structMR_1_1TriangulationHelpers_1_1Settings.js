@@ -9,6 +9,5 @@ var structMR_1_1TriangulationHelpers_1_1Settings =
     [ "numNeis", "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7", null ],
     [ "orientedNormals", "structMR_1_1TriangulationHelpers_1_1Settings.html#adfa09c4f869d92627a0ca88966af3bef", null ],
     [ "radius", "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2", null ],
-    [ "searchNeighbors", "structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6", null ],
-    [ "untrustedNormals", "structMR_1_1TriangulationHelpers_1_1Settings.html#a86643849d573e87b6dd3e459323b97a3", null ]
+    [ "searchNeighbors", "structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6", null ]
 ];

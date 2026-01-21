@@ -151,77 +151,31 @@ $(function(){initNavTree('structMR_1_1MoveMeshToVoxelMaxDerivSettings.html','');
   <div class="headertitle"><div class="title">MR::MoveMeshToVoxelMaxDerivSettings Struct Reference<div class="ingroups"><a class="el" href="group__VoxelGroup.html">Voxel</a> &raquo; <a class="el" href="group__SubvoxelMeshCorrection.html">Subvoxel Mesh Correction</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRMoveMeshToVoxelMaxDeriv_8h_source.html">MRMoveMeshToVoxelMaxDeriv.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9b0d4d2ec2b2868f18da16624979032f" id="r_a9b0d4d2ec2b2868f18da16624979032f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0d4d2ec2b2868f18da16624979032f">iters</a> = 30</td></tr>
-<tr class="memdesc:a9b0d4d2ec2b2868f18da16624979032f"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts.  <br /></td></tr>
+<tr class="memitem:a9b0d4d2ec2b2868f18da16624979032f" id="r_a9b0d4d2ec2b2868f18da16624979032f"><td class="memItemLeft" align="right" valign="top"><a id="a9b0d4d2ec2b2868f18da16624979032f" name="a9b0d4d2ec2b2868f18da16624979032f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>iters</b> = 30</td></tr>
+<tr class="memdesc:a9b0d4d2ec2b2868f18da16624979032f"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts. <br /></td></tr>
 <tr class="separator:a9b0d4d2ec2b2868f18da16624979032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3c5026793485f6071bb44a681e1461" id="r_a9b3c5026793485f6071bb44a681e1461"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3c5026793485f6071bb44a681e1461">samplePoints</a> = 6</td></tr>
 <tr class="separator:a9b3c5026793485f6071bb44a681e1461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4bdf9eb1e55187c89fd477134219680" id="r_ad4bdf9eb1e55187c89fd477134219680"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4bdf9eb1e55187c89fd477134219680">degree</a> = 3</td></tr>
-<tr class="memdesc:ad4bdf9eb1e55187c89fd477134219680"><td class="mdescLeft">&#160;</td><td class="mdescRight">degree of the polynomial used to fit sampled points. Must be in range [3; 6]  <br /></td></tr>
+<tr class="memitem:ad4bdf9eb1e55187c89fd477134219680" id="r_ad4bdf9eb1e55187c89fd477134219680"><td class="memItemLeft" align="right" valign="top"><a id="ad4bdf9eb1e55187c89fd477134219680" name="ad4bdf9eb1e55187c89fd477134219680"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>degree</b> = 3</td></tr>
+<tr class="memdesc:ad4bdf9eb1e55187c89fd477134219680"><td class="mdescLeft">&#160;</td><td class="mdescRight">degree of the polynomial used to fit sampled points. Must be in range [3; 6] <br /></td></tr>
 <tr class="separator:ad4bdf9eb1e55187c89fd477134219680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e7aa7e5a8d5ad0d936565bfac19539e" id="r_a8e7aa7e5a8d5ad0d936565bfac19539e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e7aa7e5a8d5ad0d936565bfac19539e">outlierThreshold</a> = 1.f</td></tr>
 <tr class="separator:a8e7aa7e5a8d5ad0d936565bfac19539e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13090f3a2bfe03345bd7100d2c634d7f" id="r_a13090f3a2bfe03345bd7100d2c634d7f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13090f3a2bfe03345bd7100d2c634d7f">intermediateSmoothForce</a> = 0.3f</td></tr>
-<tr class="memdesc:a13090f3a2bfe03345bd7100d2c634d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of the smoothing (relaxation) of vector field of shifts on each iteration  <br /></td></tr>
+<tr class="memitem:a13090f3a2bfe03345bd7100d2c634d7f" id="r_a13090f3a2bfe03345bd7100d2c634d7f"><td class="memItemLeft" align="right" valign="top"><a id="a13090f3a2bfe03345bd7100d2c634d7f" name="a13090f3a2bfe03345bd7100d2c634d7f"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>intermediateSmoothForce</b> = 0.3f</td></tr>
+<tr class="memdesc:a13090f3a2bfe03345bd7100d2c634d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of the smoothing (relaxation) of vector field of shifts on each iteration <br /></td></tr>
 <tr class="separator:a13090f3a2bfe03345bd7100d2c634d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ab7a3bb2d0ed46b1856e4ba276357c" id="r_a33ab7a3bb2d0ed46b1856e4ba276357c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ab7a3bb2d0ed46b1856e4ba276357c">preparationSmoothForce</a> = 0.1f</td></tr>
-<tr class="memdesc:a33ab7a3bb2d0ed46b1856e4ba276357c"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of initial smoothing of vertices, before applying the algorithm  <br /></td></tr>
+<tr class="memitem:a33ab7a3bb2d0ed46b1856e4ba276357c" id="r_a33ab7a3bb2d0ed46b1856e4ba276357c"><td class="memItemLeft" align="right" valign="top"><a id="a33ab7a3bb2d0ed46b1856e4ba276357c" name="a33ab7a3bb2d0ed46b1856e4ba276357c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>preparationSmoothForce</b> = 0.1f</td></tr>
+<tr class="memdesc:a33ab7a3bb2d0ed46b1856e4ba276357c"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of initial smoothing of vertices, before applying the algorithm <br /></td></tr>
 <tr class="separator:a33ab7a3bb2d0ed46b1856e4ba276357c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad4bdf9eb1e55187c89fd477134219680" name="ad4bdf9eb1e55187c89fd477134219680"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4bdf9eb1e55187c89fd477134219680">&#9670;&#160;</a></span>degree</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::MoveMeshToVoxelMaxDerivSettings::degree = 3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>degree of the polynomial used to fit sampled points. Must be in range [3; 6] </p>
-
-</div>
-</div>
-<a id="a13090f3a2bfe03345bd7100d2c634d7f" name="a13090f3a2bfe03345bd7100d2c634d7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13090f3a2bfe03345bd7100d2c634d7f">&#9670;&#160;</a></span>intermediateSmoothForce</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::MoveMeshToVoxelMaxDerivSettings::intermediateSmoothForce = 0.3f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>force of the smoothing (relaxation) of vector field of shifts on each iteration </p>
-
-</div>
-</div>
-<a id="a9b0d4d2ec2b2868f18da16624979032f" name="a9b0d4d2ec2b2868f18da16624979032f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b0d4d2ec2b2868f18da16624979032f">&#9670;&#160;</a></span>iters</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::MoveMeshToVoxelMaxDerivSettings::iters = 30</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts. </p>
-
-</div>
-</div>
 <a id="a8e7aa7e5a8d5ad0d936565bfac19539e" name="a8e7aa7e5a8d5ad0d936565bfac19539e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e7aa7e5a8d5ad0d936565bfac19539e">&#9670;&#160;</a></span>outlierThreshold</h2>
 
@@ -234,22 +188,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. </p>
-
-</div>
-</div>
-<a id="a33ab7a3bb2d0ed46b1856e4ba276357c" name="a33ab7a3bb2d0ed46b1856e4ba276357c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ab7a3bb2d0ed46b1856e4ba276357c">&#9670;&#160;</a></span>preparationSmoothForce</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce = 0.1f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>force of initial smoothing of vertices, before applying the algorithm </p>
 
 </div>
 </div>
@@ -277,7 +215,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

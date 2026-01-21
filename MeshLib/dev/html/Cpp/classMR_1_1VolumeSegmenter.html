@@ -160,39 +160,48 @@ $(function(){initNavTree('classMR_1_1VolumeSegmenter.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a892a75dc2e76c1953d6968a1cdefe8b5" id="r_a892a75dc2e76c1953d6968a1cdefe8b5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> { <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be">Inside</a>
-, <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f">Outside</a>
-, <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750">Count</a>
+<tr class="memitem:a892a75dc2e76c1953d6968a1cdefe8b5" id="r_a892a75dc2e76c1953d6968a1cdefe8b5"><td class="memItemLeft" align="right" valign="top"><a id="a892a75dc2e76c1953d6968a1cdefe8b5" name="a892a75dc2e76c1953d6968a1cdefe8b5"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SeedType</b> { <b>Inside</b>
+, <b>Outside</b>
+, <b>Count</b>
  }</td></tr>
 <tr class="separator:a892a75dc2e76c1953d6968a1cdefe8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab7609ff9b44fa7139370e8384ef35ced" id="r_ab7609ff9b44fa7139370e8384ef35ced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7609ff9b44fa7139370e8384ef35ced">VolumeSegmenter</a> (const VdbVolume &amp;<a class="el" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>)</td></tr>
+<tr class="memitem:ab7609ff9b44fa7139370e8384ef35ced" id="r_ab7609ff9b44fa7139370e8384ef35ced"><td class="memItemLeft" align="right" valign="top"><a id="ab7609ff9b44fa7139370e8384ef35ced" name="ab7609ff9b44fa7139370e8384ef35ced"></a>
+MRVOXELS_API&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeSegmenter</b> (const VdbVolume &amp;volume)</td></tr>
 <tr class="separator:ab7609ff9b44fa7139370e8384ef35ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeee33a2e1bd2471294daeaa604369631" id="r_aeee33a2e1bd2471294daeaa604369631"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeee33a2e1bd2471294daeaa604369631">addPathSeeds</a> (const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;metricParameters, <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType, float exponentModifier=-1.0f)</td></tr>
-<tr class="memdesc:aeee33a2e1bd2471294daeaa604369631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds path with given parameters, marks result as seedType seeds.  <br /></td></tr>
+<tr class="memitem:aeee33a2e1bd2471294daeaa604369631" id="r_aeee33a2e1bd2471294daeaa604369631"><td class="memItemLeft" align="right" valign="top"><a id="aeee33a2e1bd2471294daeaa604369631" name="aeee33a2e1bd2471294daeaa604369631"></a>
+MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><b>addPathSeeds</b> (const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;metricParameters, SeedType seedType, float exponentModifier=-1.0f)</td></tr>
+<tr class="memdesc:aeee33a2e1bd2471294daeaa604369631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds path with given parameters, marks result as seedType seeds. <br /></td></tr>
 <tr class="separator:aeee33a2e1bd2471294daeaa604369631"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8accea0d8e4c056fb387513d10d41640" id="r_a8accea0d8e4c056fb387513d10d41640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8accea0d8e4c056fb387513d10d41640">setSeeds</a> (const std::vector&lt; Vector3i &gt; &amp;seeds, <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType)</td></tr>
-<tr class="memdesc:a8accea0d8e4c056fb387513d10d41640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset seeds with given ones.  <br /></td></tr>
+<tr class="memitem:a8accea0d8e4c056fb387513d10d41640" id="r_a8accea0d8e4c056fb387513d10d41640"><td class="memItemLeft" align="right" valign="top"><a id="a8accea0d8e4c056fb387513d10d41640" name="a8accea0d8e4c056fb387513d10d41640"></a>
+MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setSeeds</b> (const std::vector&lt; Vector3i &gt; &amp;seeds, SeedType seedType)</td></tr>
+<tr class="memdesc:a8accea0d8e4c056fb387513d10d41640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset seeds with given ones. <br /></td></tr>
 <tr class="separator:a8accea0d8e4c056fb387513d10d41640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b0600fe25a2fbc95527fe3b999ef9d0" id="r_a6b0600fe25a2fbc95527fe3b999ef9d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b0600fe25a2fbc95527fe3b999ef9d0">addSeeds</a> (const std::vector&lt; Vector3i &gt; &amp;seeds, <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType)</td></tr>
-<tr class="memdesc:a6b0600fe25a2fbc95527fe3b999ef9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds new seeds to stored.  <br /></td></tr>
+<tr class="memitem:a6b0600fe25a2fbc95527fe3b999ef9d0" id="r_a6b0600fe25a2fbc95527fe3b999ef9d0"><td class="memItemLeft" align="right" valign="top"><a id="a6b0600fe25a2fbc95527fe3b999ef9d0" name="a6b0600fe25a2fbc95527fe3b999ef9d0"></a>
+MRVOXELS_API void&#160;</td><td class="memItemRight" valign="bottom"><b>addSeeds</b> (const std::vector&lt; Vector3i &gt; &amp;seeds, SeedType seedType)</td></tr>
+<tr class="memdesc:a6b0600fe25a2fbc95527fe3b999ef9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds new seeds to stored. <br /></td></tr>
 <tr class="separator:a6b0600fe25a2fbc95527fe3b999ef9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6047f29bf52a2e1859c00880382c6f0" id="r_ad6047f29bf52a2e1859c00880382c6f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> const std::vector&lt; Vector3i &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6047f29bf52a2e1859c00880382c6f0">getSeeds</a> (<a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType) const</td></tr>
-<tr class="memdesc:ad6047f29bf52a2e1859c00880382c6f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return currently stored seeds.  <br /></td></tr>
+<tr class="memitem:ad6047f29bf52a2e1859c00880382c6f0" id="r_ad6047f29bf52a2e1859c00880382c6f0"><td class="memItemLeft" align="right" valign="top"><a id="ad6047f29bf52a2e1859c00880382c6f0" name="ad6047f29bf52a2e1859c00880382c6f0"></a>
+MRVOXELS_API const std::vector&lt; Vector3i &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getSeeds</b> (SeedType seedType) const</td></tr>
+<tr class="memdesc:ad6047f29bf52a2e1859c00880382c6f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return currently stored seeds. <br /></td></tr>
 <tr class="separator:ad6047f29bf52a2e1859c00880382c6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cc8f6e40de564a414a9929ff63d5f9a" id="r_a0cc8f6e40de564a414a9929ff63d5f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VoxelBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cc8f6e40de564a414a9929ff63d5f9a">segmentVolume</a> (float segmentationExponentModifier=3000.0f, int voxelsExpansion=25, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:a0cc8f6e40de564a414a9929ff63d5f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart)  <br /></td></tr>
+<tr class="memitem:a0cc8f6e40de564a414a9929ff63d5f9a" id="r_a0cc8f6e40de564a414a9929ff63d5f9a"><td class="memItemLeft" align="right" valign="top"><a id="a0cc8f6e40de564a414a9929ff63d5f9a" name="a0cc8f6e40de564a414a9929ff63d5f9a"></a>
+MRVOXELS_API Expected&lt; VoxelBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>segmentVolume</b> (float segmentationExponentModifier=3000.0f, int voxelsExpansion=25, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:a0cc8f6e40de564a414a9929ff63d5f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) <br /></td></tr>
 <tr class="separator:a0cc8f6e40de564a414a9929ff63d5f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1afe2c227ee25b71b24c84a7697afdf6" id="r_a1afe2c227ee25b71b24c84a7697afdf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1afe2c227ee25b71b24c84a7697afdf6">createMeshFromSegmentation</a> (const VoxelBitSet &amp;segmentation) const</td></tr>
-<tr class="memdesc:a1afe2c227ee25b71b24c84a7697afdf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mesh of given segment.  <br /></td></tr>
+<tr class="memitem:a1afe2c227ee25b71b24c84a7697afdf6" id="r_a1afe2c227ee25b71b24c84a7697afdf6"><td class="memItemLeft" align="right" valign="top"><a id="a1afe2c227ee25b71b24c84a7697afdf6" name="a1afe2c227ee25b71b24c84a7697afdf6"></a>
+MRVOXELS_API Expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createMeshFromSegmentation</b> (const VoxelBitSet &amp;segmentation) const</td></tr>
+<tr class="memdesc:a1afe2c227ee25b71b24c84a7697afdf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mesh of given segment. <br /></td></tr>
 <tr class="separator:a1afe2c227ee25b71b24c84a7697afdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48cec84248c8d9ec9a256f05a574add6" id="r_a48cec84248c8d9ec9a256f05a574add6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> const Vector3i &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48cec84248c8d9ec9a256f05a574add6">getVolumePartDimensions</a> () const</td></tr>
-<tr class="memdesc:a48cec84248c8d9ec9a256f05a574add6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions of volume part, filled after segmentation.  <br /></td></tr>
+<tr class="memitem:a48cec84248c8d9ec9a256f05a574add6" id="r_a48cec84248c8d9ec9a256f05a574add6"><td class="memItemLeft" align="right" valign="top"><a id="a48cec84248c8d9ec9a256f05a574add6" name="a48cec84248c8d9ec9a256f05a574add6"></a>
+MRVOXELS_API const Vector3i &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getVolumePartDimensions</b> () const</td></tr>
+<tr class="memdesc:a48cec84248c8d9ec9a256f05a574add6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions of volume part, filled after segmentation. <br /></td></tr>
 <tr class="separator:a48cec84248c8d9ec9a256f05a574add6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e6d2f06d40f3437e049a6e4b9846a61" id="r_a2e6d2f06d40f3437e049a6e4b9846a61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> const Vector3i &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e6d2f06d40f3437e049a6e4b9846a61">getMinVoxel</a> () const</td></tr>
-<tr class="memdesc:a2e6d2f06d40f3437e049a6e4b9846a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min voxel of volume part box in whole volume space, filled after segmentation.  <br /></td></tr>
+<tr class="memitem:a2e6d2f06d40f3437e049a6e4b9846a61" id="r_a2e6d2f06d40f3437e049a6e4b9846a61"><td class="memItemLeft" align="right" valign="top"><a id="a2e6d2f06d40f3437e049a6e4b9846a61" name="a2e6d2f06d40f3437e049a6e4b9846a61"></a>
+MRVOXELS_API const Vector3i &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getMinVoxel</b> () const</td></tr>
+<tr class="memdesc:a2e6d2f06d40f3437e049a6e4b9846a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min voxel of volume part box in whole volume space, filled after segmentation. <br /></td></tr>
 <tr class="separator:a2e6d2f06d40f3437e049a6e4b9846a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -215,224 +224,7 @@ Before (b)</div></div>
 After</div></div>
   </td></tr>
 </table>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a892a75dc2e76c1953d6968a1cdefe8b5" name="a892a75dc2e76c1953d6968a1cdefe8b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a892a75dc2e76c1953d6968a1cdefe8b5">&#9670;&#160;</a></span>SeedType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">MR::VolumeSegmenter::SeedType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be" name="a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be"></a>Inside&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f" name="a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f"></a>Outside&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" name="a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750"></a>Count&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab7609ff9b44fa7139370e8384ef35ced" name="ab7609ff9b44fa7139370e8384ef35ced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7609ff9b44fa7139370e8384ef35ced">&#9670;&#160;</a></span>VolumeSegmenter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> MR::VolumeSegmenter::VolumeSegmenter </td>
-          <td>(</td>
-          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aeee33a2e1bd2471294daeaa604369631" name="aeee33a2e1bd2471294daeaa604369631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeee33a2e1bd2471294daeaa604369631">&#9670;&#160;</a></span>addPathSeeds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::VolumeSegmenter::addPathSeeds </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metricParameters</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a></td>          <td class="paramname"><span class="paramname"><em>seedType</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>exponentModifier</em></span><span class="paramdefsep"> = </span><span class="paramdefval">-1.0f</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Builds path with given parameters, marks result as seedType seeds. </p>
-
-</div>
-</div>
-<a id="a6b0600fe25a2fbc95527fe3b999ef9d0" name="a6b0600fe25a2fbc95527fe3b999ef9d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b0600fe25a2fbc95527fe3b999ef9d0">&#9670;&#160;</a></span>addSeeds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::VolumeSegmenter::addSeeds </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3i &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>seeds</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a></td>          <td class="paramname"><span class="paramname"><em>seedType</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Adds new seeds to stored. </p>
-
-</div>
-</div>
-<a id="a1afe2c227ee25b71b24c84a7697afdf6" name="a1afe2c227ee25b71b24c84a7697afdf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1afe2c227ee25b71b24c84a7697afdf6">&#9670;&#160;</a></span>createMeshFromSegmentation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &gt; MR::VolumeSegmenter::createMeshFromSegmentation </td>
-          <td>(</td>
-          <td class="paramtype">const VoxelBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>segmentation</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns mesh of given segment. </p>
-
-</div>
-</div>
-<a id="a2e6d2f06d40f3437e049a6e4b9846a61" name="a2e6d2f06d40f3437e049a6e4b9846a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e6d2f06d40f3437e049a6e4b9846a61">&#9670;&#160;</a></span>getMinVoxel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> const Vector3i &amp; MR::VolumeSegmenter::getMinVoxel </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Min voxel of volume part box in whole volume space, filled after segmentation. </p>
-
-</div>
-</div>
-<a id="ad6047f29bf52a2e1859c00880382c6f0" name="ad6047f29bf52a2e1859c00880382c6f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6047f29bf52a2e1859c00880382c6f0">&#9670;&#160;</a></span>getSeeds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> const std::vector&lt; Vector3i &gt; &amp; MR::VolumeSegmenter::getSeeds </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a></td>          <td class="paramname"><span class="paramname"><em>seedType</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return currently stored seeds. </p>
-
-</div>
-</div>
-<a id="a48cec84248c8d9ec9a256f05a574add6" name="a48cec84248c8d9ec9a256f05a574add6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48cec84248c8d9ec9a256f05a574add6">&#9670;&#160;</a></span>getVolumePartDimensions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> const Vector3i &amp; MR::VolumeSegmenter::getVolumePartDimensions </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Dimensions of volume part, filled after segmentation. </p>
-
-</div>
-</div>
-<a id="a0cc8f6e40de564a414a9929ff63d5f9a" name="a0cc8f6e40de564a414a9929ff63d5f9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cc8f6e40de564a414a9929ff63d5f9a">&#9670;&#160;</a></span>segmentVolume()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VoxelBitSet &gt; MR::VolumeSegmenter::segmentVolume </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>segmentationExponentModifier</em></span><span class="paramdefsep"> = </span><span class="paramdefval">3000.0f</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>voxelsExpansion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">25</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) </p>
-
-</div>
-</div>
-<a id="a8accea0d8e4c056fb387513d10d41640" name="a8accea0d8e4c056fb387513d10d41640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8accea0d8e4c056fb387513d10d41640">&#9670;&#160;</a></span>setSeeds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::VolumeSegmenter::setSeeds </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3i &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>seeds</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a></td>          <td class="paramname"><span class="paramname"><em>seedType</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reset seeds with given ones. </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRVolumeSegment_8h_source.html">MRVolumeSegment.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -441,7 +233,7 @@ After</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1VolumeSegmenter.html">VolumeSegmenter</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1VolumeSegmenter.html">VolumeSegmenter</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

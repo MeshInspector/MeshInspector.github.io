@@ -29,9 +29,7 @@ var group__PointCloudGroup =
     [ "MR::PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", [
       [ "neighborhoodRadius", "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf", null ]
     ] ],
-    [ "MR::PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", [
-      [ "type", "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d", null ]
-    ] ],
+    [ "MR::PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", null ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", [
       [ "createMesh", "classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499", null ],
       [ "loadDistances", "classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa", null ],

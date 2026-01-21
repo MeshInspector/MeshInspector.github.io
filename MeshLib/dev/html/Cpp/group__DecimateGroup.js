@@ -25,7 +25,6 @@ var group__DecimateGroup =
       [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
       [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
       [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],
-      [ "strategy", "structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6", null ],
       [ "subdivideParts", "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4", null ],
       [ "tinyEdgeLength", "structMR_1_1DecimateSettings.html#ac0e97c22838e162343661fd588f7a326", null ],
       [ "touchBdVerts", "structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e", null ],

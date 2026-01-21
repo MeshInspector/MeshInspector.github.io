@@ -151,113 +151,16 @@ $(function(){initNavTree('classMR_1_1NormalsToPoints_1_1ISolver.html',''); initR
   <div class="headertitle"><div class="title">MR::NormalsToPoints::ISolver Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRNormalsToPoints_8h_source.html">MRNormalsToPoints.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a97ac4ee2142618c5639b5a67cccef1c2" id="r_a97ac4ee2142618c5639b5a67cccef1c2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97ac4ee2142618c5639b5a67cccef1c2">~ISolver</a> ()=default</td></tr>
-<tr class="separator:a97ac4ee2142618c5639b5a67cccef1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac59de77fbc45059cde04afe08a262666" id="r_ac59de77fbc45059cde04afe08a262666"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59de77fbc45059cde04afe08a262666">prepare</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, float guideWeight)=0</td></tr>
+<tr class="memitem:ac59de77fbc45059cde04afe08a262666" id="r_ac59de77fbc45059cde04afe08a262666"><td class="memItemLeft" align="right" valign="top"><a id="ac59de77fbc45059cde04afe08a262666" name="ac59de77fbc45059cde04afe08a262666"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>prepare</b> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, float guideWeight)=0</td></tr>
 <tr class="separator:ac59de77fbc45059cde04afe08a262666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae336851ab46c31fc8f961484c2b45b5a" id="r_ae336851ab46c31fc8f961484c2b45b5a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae336851ab46c31fc8f961484c2b45b5a">run</a> (const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points, float maxInitialDistSq)=0</td></tr>
+<tr class="memitem:ae336851ab46c31fc8f961484c2b45b5a" id="r_ae336851ab46c31fc8f961484c2b45b5a"><td class="memItemLeft" align="right" valign="top"><a id="ae336851ab46c31fc8f961484c2b45b5a" name="ae336851ab46c31fc8f961484c2b45b5a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points, float maxInitialDistSq)=0</td></tr>
 <tr class="separator:ae336851ab46c31fc8f961484c2b45b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a97ac4ee2142618c5639b5a67cccef1c2" name="a97ac4ee2142618c5639b5a67cccef1c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97ac4ee2142618c5639b5a67cccef1c2">&#9670;&#160;</a></span>~ISolver()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::NormalsToPoints::ISolver::~ISolver </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac59de77fbc45059cde04afe08a262666" name="ac59de77fbc45059cde04afe08a262666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac59de77fbc45059cde04afe08a262666">&#9670;&#160;</a></span>prepare()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::NormalsToPoints::ISolver::prepare </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>guideWeight</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae336851ab46c31fc8f961484c2b45b5a" name="ae336851ab46c31fc8f961484c2b45b5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae336851ab46c31fc8f961484c2b45b5a">&#9670;&#160;</a></span>run()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::NormalsToPoints::ISolver::run </td>
-          <td>(</td>
-          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>guide</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const FaceNormals &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxInitialDistSq</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRNormalsToPoints_8h_source.html">MRNormalsToPoints.h</a></li>
 </ul>
@@ -267,7 +170,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1NormalsToPoints.html">NormalsToPoints</a></li><li class="navelem"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">ISolver</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1NormalsToPoints.html">NormalsToPoints</a></li><li class="navelem"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">ISolver</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

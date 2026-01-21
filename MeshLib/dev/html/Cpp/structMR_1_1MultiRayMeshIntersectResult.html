@@ -151,108 +151,30 @@ $(function(){initNavTree('structMR_1_1MultiRayMeshIntersectResult.html',''); ini
   <div class="headertitle"><div class="title">MR::MultiRayMeshIntersectResult Struct Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRMeshIntersect_8h_source.html">MRMeshIntersect.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a71a0fa75e778ec8d7c6e2a3f6b0a8090" id="r_a71a0fa75e778ec8d7c6e2a3f6b0a8090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a0fa75e778ec8d7c6e2a3f6b0a8090">intersectingRays</a> = nullptr</td></tr>
-<tr class="memdesc:a71a0fa75e778ec8d7c6e2a3f6b0a8090"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the ray has intersection with mesh part, false otherwise  <br /></td></tr>
+<tr class="memitem:a71a0fa75e778ec8d7c6e2a3f6b0a8090" id="r_a71a0fa75e778ec8d7c6e2a3f6b0a8090"><td class="memItemLeft" align="right" valign="top"><a id="a71a0fa75e778ec8d7c6e2a3f6b0a8090" name="a71a0fa75e778ec8d7c6e2a3f6b0a8090"></a>
+<a class="el" href="classMR_1_1BitSet.html">BitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>intersectingRays</b> = nullptr</td></tr>
+<tr class="memdesc:a71a0fa75e778ec8d7c6e2a3f6b0a8090"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the ray has intersection with mesh part, false otherwise <br /></td></tr>
 <tr class="separator:a71a0fa75e778ec8d7c6e2a3f6b0a8090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a3654ac0ded1bdf4d07ac43e5c5e085" id="r_a9a3654ac0ded1bdf4d07ac43e5c5e085"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a3654ac0ded1bdf4d07ac43e5c5e085">rayDistances</a> = nullptr</td></tr>
-<tr class="memdesc:a9a3654ac0ded1bdf4d07ac43e5c5e085"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance along each ray till the intersection point or NaN if no intersection  <br /></td></tr>
+<tr class="memitem:a9a3654ac0ded1bdf4d07ac43e5c5e085" id="r_a9a3654ac0ded1bdf4d07ac43e5c5e085"><td class="memItemLeft" align="right" valign="top"><a id="a9a3654ac0ded1bdf4d07ac43e5c5e085" name="a9a3654ac0ded1bdf4d07ac43e5c5e085"></a>
+std::vector&lt; float &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>rayDistances</b> = nullptr</td></tr>
+<tr class="memdesc:a9a3654ac0ded1bdf4d07ac43e5c5e085"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance along each ray till the intersection point or NaN if no intersection <br /></td></tr>
 <tr class="separator:a9a3654ac0ded1bdf4d07ac43e5c5e085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab49b37818f779af102184978ebe758fc" id="r_ab49b37818f779af102184978ebe758fc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab49b37818f779af102184978ebe758fc">isectFaces</a> = nullptr</td></tr>
-<tr class="memdesc:ab49b37818f779af102184978ebe758fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersected triangles from mesh  <br /></td></tr>
+<tr class="memitem:ab49b37818f779af102184978ebe758fc" id="r_ab49b37818f779af102184978ebe758fc"><td class="memItemLeft" align="right" valign="top"><a id="ab49b37818f779af102184978ebe758fc" name="ab49b37818f779af102184978ebe758fc"></a>
+std::vector&lt; FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>isectFaces</b> = nullptr</td></tr>
+<tr class="memdesc:ab49b37818f779af102184978ebe758fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersected triangles from mesh <br /></td></tr>
 <tr class="separator:ab49b37818f779af102184978ebe758fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe24325f915016d19bbaa021b7acdf15" id="r_abe24325f915016d19bbaa021b7acdf15"><td class="memItemLeft" align="right" valign="top">std::vector&lt; TriPointf &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe24325f915016d19bbaa021b7acdf15">isectBary</a> = nullptr</td></tr>
-<tr class="memdesc:abe24325f915016d19bbaa021b7acdf15"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection  <br /></td></tr>
+<tr class="memitem:abe24325f915016d19bbaa021b7acdf15" id="r_abe24325f915016d19bbaa021b7acdf15"><td class="memItemLeft" align="right" valign="top"><a id="abe24325f915016d19bbaa021b7acdf15" name="abe24325f915016d19bbaa021b7acdf15"></a>
+std::vector&lt; TriPointf &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>isectBary</b> = nullptr</td></tr>
+<tr class="memdesc:abe24325f915016d19bbaa021b7acdf15"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection <br /></td></tr>
 <tr class="separator:abe24325f915016d19bbaa021b7acdf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7455a93722a7e3da39f0baacdfb67c00" id="r_a7455a93722a7e3da39f0baacdfb67c00"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3f &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7455a93722a7e3da39f0baacdfb67c00">isectPts</a> = nullptr</td></tr>
-<tr class="memdesc:a7455a93722a7e3da39f0baacdfb67c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection points or NaNs if no intersection  <br /></td></tr>
+<tr class="memitem:a7455a93722a7e3da39f0baacdfb67c00" id="r_a7455a93722a7e3da39f0baacdfb67c00"><td class="memItemLeft" align="right" valign="top"><a id="a7455a93722a7e3da39f0baacdfb67c00" name="a7455a93722a7e3da39f0baacdfb67c00"></a>
+std::vector&lt; Vector3f &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>isectPts</b> = nullptr</td></tr>
+<tr class="memdesc:a7455a93722a7e3da39f0baacdfb67c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection points or NaNs if no intersection <br /></td></tr>
 <tr class="separator:a7455a93722a7e3da39f0baacdfb67c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a71a0fa75e778ec8d7c6e2a3f6b0a8090" name="a71a0fa75e778ec8d7c6e2a3f6b0a8090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a0fa75e778ec8d7c6e2a3f6b0a8090">&#9670;&#160;</a></span>intersectingRays</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>* MR::MultiRayMeshIntersectResult::intersectingRays = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>true if the ray has intersection with mesh part, false otherwise </p>
-
-</div>
-</div>
-<a id="abe24325f915016d19bbaa021b7acdf15" name="abe24325f915016d19bbaa021b7acdf15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe24325f915016d19bbaa021b7acdf15">&#9670;&#160;</a></span>isectBary</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;TriPointf&gt;* MR::MultiRayMeshIntersectResult::isectBary = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection </p>
-
-</div>
-</div>
-<a id="ab49b37818f779af102184978ebe758fc" name="ab49b37818f779af102184978ebe758fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab49b37818f779af102184978ebe758fc">&#9670;&#160;</a></span>isectFaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;FaceId&gt;* MR::MultiRayMeshIntersectResult::isectFaces = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>intersected triangles from mesh </p>
-
-</div>
-</div>
-<a id="a7455a93722a7e3da39f0baacdfb67c00" name="a7455a93722a7e3da39f0baacdfb67c00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7455a93722a7e3da39f0baacdfb67c00">&#9670;&#160;</a></span>isectPts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;Vector3f&gt;* MR::MultiRayMeshIntersectResult::isectPts = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>intersection points or NaNs if no intersection </p>
-
-</div>
-</div>
-<a id="a9a3654ac0ded1bdf4d07ac43e5c5e085" name="a9a3654ac0ded1bdf4d07ac43e5c5e085"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3654ac0ded1bdf4d07ac43e5c5e085">&#9670;&#160;</a></span>rayDistances</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt;* MR::MultiRayMeshIntersectResult::rayDistances = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>distance along each ray till the intersection point or NaN if no intersection </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRMeshIntersect_8h_source.html">MRMeshIntersect.h</a></li>
 </ul>
@@ -262,7 +184,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

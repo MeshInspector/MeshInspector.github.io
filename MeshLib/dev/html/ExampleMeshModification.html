@@ -150,15 +150,15 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><p>Some examples of mesh modification are presented here</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRAffineXf3_8h.html">MRMesh/MRAffineXf3.h</a>&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRAffineXf3.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshRelax_8h.html">MRMesh/MRMeshRelax.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshRelax.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSubdivide.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRTorus_8h.html">MRMesh/MRTorus.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRTorus.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a>();</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = MR::makeTorus();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a>( mesh, {{ .iterations = 5 }} );</div>
@@ -174,13 +174,8 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-<div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="./Cpp/MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html"><div class="ttname"><a href="./Cpp/MRMeshRelax_8h.html">MRMeshRelax.h</a></div></div>
-<div class="ttc" id="aMRTorus_8h_html"><div class="ttname"><a href="./Cpp/MRTorus_8h.html">MRTorus.h</a></div></div>
 <div class="ttc" id="agroup__MeshRelaxGroup_html_gaf1790e242d0c45c246335b07bfb7c5af"><div class="ttname"><a href="./Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></div><div class="ttdeci">MRMESH_API bool relax(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</div></div>
 <div class="ttc" id="agroup__MeshSubdivideGroup_html_ga8e8a41112544b99ef8f20e3e6b61fab7"><div class="ttname"><a href="./Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></div><div class="ttdeci">MRMESH_API int subdivideMesh(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_html_a9c4abf9ec20745c55a6825637894668c"><div class="ttname"><a href="./Cpp/namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a></div><div class="ttdeci">MRMESH_API Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 <div class="ttc" id="astructMR_1_1SubdivideSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></div></div>
 </div><!-- fragment --></li>
@@ -188,15 +183,15 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="line"> </div>
 <div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line">relax_params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1MeshRelaxParams.html">mrmeshpy.MeshRelaxParams</a>()</div>
 <div class="line">relax_params.iterations = 5</div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a3dbac5583bfa3df244b8f50f6bc2d3d0">mrmeshpy.relax</a>(mesh, relax_params)</div>
+<div class="line">mrmeshpy.relax(mesh, relax_params)</div>
 <div class="line"> </div>
 <div class="line">props = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1SubdivideSettings.html">mrmeshpy.SubdivideSettings</a>()</div>
 <div class="line">props.maxDeviationAfterFlip = 0.5</div>
-<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ae08b066a233065aae2853a17fbdd5ada">mrmeshpy.subdivideMesh</a>(mesh, props)</div>
+<div class="line">mrmeshpy.subdivideMesh(mesh, props)</div>
 <div class="line"> </div>
 <div class="line">plus_z = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy.Vector3f</a>()</div>
 <div class="line">plus_z.z = 1.0</div>
@@ -207,69 +202,43 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="ttc" id="aclassmrmeshpy_1_1MeshRelaxParams_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1MeshRelaxParams.html">mrmeshpy::MeshRelaxParams</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1SubdivideSettings_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1SubdivideSettings.html">mrmeshpy::SubdivideSettings</a></div></div>
 <div class="ttc" id="aclassmrmeshpy_1_1Vector3f_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1Vector3f.html">mrmeshpy::Vector3f</a></div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a3dbac5583bfa3df244b8f50f6bc2d3d0"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a3dbac5583bfa3df244b8f50f6bc2d3d0">mrmeshpy::relax</a></div><div class="ttdeci">bool relax(PointCloud pointCloud, PointCloudRelaxParams params='{}', func_bool_from_float cb='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ae08b066a233065aae2853a17fbdd5ada"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ae08b066a233065aae2853a17fbdd5ada">mrmeshpy::subdivideMesh</a></div><div class="ttdeci">int subdivideMesh(Mesh mesh, SubdivideSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRAffineXf_8h.html">MRCMesh/MRAffineXf.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMatrix3_8h.html">MRCMesh/MRMatrix3.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshRelax_8h.html">MRCMesh/MRMeshRelax.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSubdivide_8h.html">MRCMesh/MRMeshSubdivide.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRTorus_8h.html">MRCMesh/MRTorus.h</a>&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRAffineXf.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMatrix3.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshRelax.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSubdivide.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRTorus.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/MRTorus_8h.html#ad75f7fc4482dfb1265495d664597e838">MR_makeTorus</a>( NULL, NULL, NULL, NULL, NULL );</div>
+<div class="line">    MR_Mesh* mesh = MR_makeTorus( NULL, NULL, NULL, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshRelax_8h.html#adc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a>* meshRelaxParams = <a class="code hl_functionRef" href="./C/MRMeshRelax_8h.html#a252f16473bc0df2b01c61c71f66ae242">MR_MeshRelaxParams_DefaultConstruct</a>();</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a>* relaxParams = <a class="code hl_functionRef" href="./C/MRMeshRelax_8h.html#afc0cb42f8cfd69bdc2bd704d2ff56449">MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams</a>( meshRelaxParams );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRRelaxParams_8h.html#a96e091f32783bbdc4bb48ba31ebab119">MR_RelaxParams_Set_iterations</a>( relaxParams, 5 );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshRelax_8h.html#aba0482369c7294d5b6ef4b17880d9829">MR_relax_3_MR_Mesh</a>( mesh, meshRelaxParams, NULL );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshRelax_8h.html#a881bf3c84f8d5d6f01dec1bd031e7193">MR_MeshRelaxParams_Destroy</a>( meshRelaxParams );</div>
+<div class="line">    MR_MeshRelaxParams* meshRelaxParams = MR_MeshRelaxParams_DefaultConstruct();</div>
+<div class="line">    MR_RelaxParams* relaxParams = MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams( meshRelaxParams );</div>
+<div class="line">    MR_RelaxParams_Set_iterations( relaxParams, 5 );</div>
+<div class="line">    MR_relax_3_MR_Mesh( mesh, meshRelaxParams, NULL );</div>
+<div class="line">    MR_MeshRelaxParams_Destroy( meshRelaxParams );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Subdivide mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshSubdivide_8h.html#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a>* subdivideSettings = <a class="code hl_functionRef" href="./C/MRMeshSubdivide_8h.html#a268b38eeac9b3f07910d2f93b995e963">MR_SubdivideSettings_DefaultConstruct</a>();</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshSubdivide_8h.html#a05ecd6ab3b6b1378987afc4176c169fd">MR_SubdivideSettings_Set_maxDeviationAfterFlip</a>( subdivideSettings, 0.5f );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshSubdivide_8h.html#a9848b1959d8c3696ed7f4e4daff50c69">MR_subdivideMesh_MR_Mesh</a>( mesh, subdivideSettings );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshSubdivide_8h.html#ab08b059d0114547dd8304e23fc1f2913">MR_SubdivideSettings_Destroy</a>( subdivideSettings );</div>
+<div class="line">    MR_SubdivideSettings* subdivideSettings = MR_SubdivideSettings_DefaultConstruct();</div>
+<div class="line">    MR_SubdivideSettings_Set_maxDeviationAfterFlip( subdivideSettings, 0.5f );</div>
+<div class="line">    MR_subdivideMesh_MR_Mesh( mesh, subdivideSettings );</div>
+<div class="line">    MR_SubdivideSettings_Destroy( subdivideSettings );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Rotate mesh</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> plusZ = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#a216312ee3a37041f9f87a69464eb2f39">MR_Vector3f_plusZ</a>();</div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Matrix3f.html">MR_Matrix3f</a> rotMat = <a class="code hl_functionRef" href="./C/MRMatrix3_8h.html#a6e485ee7638a06babcda3ad593d28212">MR_Matrix3f_rotation_float</a>( &amp;plusZ, 1.57079632679489661923 ); <span class="comment">// pi/2</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> rotXf = <a class="code hl_functionRef" href="./C/MRAffineXf_8h.html#a74176bff94a7949ecc052495849b83f5">MR_AffineXf3f_linear</a>( &amp;rotMat );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a>( mesh, &amp;rotXf, NULL );</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> plusZ = MR_Vector3f_plusZ();</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Matrix3f.html">MR_Matrix3f</a> rotMat = MR_Matrix3f_rotation_float( &amp;plusZ, 1.57079632679489661923 ); <span class="comment">// pi/2</span></div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> rotXf = MR_AffineXf3f_linear( &amp;rotMat );</div>
+<div class="line">    MR_Mesh_transform( mesh, &amp;rotXf, NULL );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( mesh );</div>
+<div class="line">    MR_Mesh_Destroy( mesh );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="./C/MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
-<div class="ttc" id="aMRAffineXf_8h_html_a74176bff94a7949ecc052495849b83f5"><div class="ttname"><a href="./C/MRAffineXf_8h.html#a74176bff94a7949ecc052495849b83f5">MR_AffineXf3f_linear</a></div><div class="ttdeci">MRC_API MR_AffineXf3f MR_AffineXf3f_linear(const MR_Matrix3f *A)</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRMatrix3_8h_html"><div class="ttname"><a href="./C/MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
-<div class="ttc" id="aMRMatrix3_8h_html_a6e485ee7638a06babcda3ad593d28212"><div class="ttname"><a href="./C/MRMatrix3_8h.html#a6e485ee7638a06babcda3ad593d28212">MR_Matrix3f_rotation_float</a></div><div class="ttdeci">MRC_API MR_Matrix3f MR_Matrix3f_rotation_float(const MR_Vector3f *axis, float angle)</div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html_a252f16473bc0df2b01c61c71f66ae242"><div class="ttname"><a href="./C/MRMeshRelax_8h.html#a252f16473bc0df2b01c61c71f66ae242">MR_MeshRelaxParams_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_MeshRelaxParams * MR_MeshRelaxParams_DefaultConstruct(void)</div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html_a881bf3c84f8d5d6f01dec1bd031e7193"><div class="ttname"><a href="./C/MRMeshRelax_8h.html#a881bf3c84f8d5d6f01dec1bd031e7193">MR_MeshRelaxParams_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshRelaxParams_Destroy(const MR_MeshRelaxParams *_this)</div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html_aba0482369c7294d5b6ef4b17880d9829"><div class="ttname"><a href="./C/MRMeshRelax_8h.html#aba0482369c7294d5b6ef4b17880d9829">MR_relax_3_MR_Mesh</a></div><div class="ttdeci">MRC_API bool MR_relax_3_MR_Mesh(MR_Mesh *mesh, const MR_MeshRelaxParams *params, const MR_std_function_bool_from_float *cb)</div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html_acbad516b8cbb2b5069857163ee94db3f"><div class="ttname"><a href="./C/MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a></div><div class="ttdeci">struct MR_RelaxParams MR_RelaxParams</div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html_adc5d88756b2c801276a68f81a54a22dc"><div class="ttname"><a href="./C/MRMeshRelax_8h.html#adc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a></div><div class="ttdeci">struct MR_MeshRelaxParams MR_MeshRelaxParams</div></div>
-<div class="ttc" id="aMRMeshRelax_8h_html_afc0cb42f8cfd69bdc2bd704d2ff56449"><div class="ttname"><a href="./C/MRMeshRelax_8h.html#afc0cb42f8cfd69bdc2bd704d2ff56449">MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams</a></div><div class="ttdeci">MRC_API MR_RelaxParams * MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams(MR_MeshRelaxParams *object)</div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html"><div class="ttname"><a href="./C/MRMeshSubdivide_8h.html">MRMeshSubdivide.h</a></div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html_a05ecd6ab3b6b1378987afc4176c169fd"><div class="ttname"><a href="./C/MRMeshSubdivide_8h.html#a05ecd6ab3b6b1378987afc4176c169fd">MR_SubdivideSettings_Set_maxDeviationAfterFlip</a></div><div class="ttdeci">MRC_API void MR_SubdivideSettings_Set_maxDeviationAfterFlip(MR_SubdivideSettings *_this, float value)</div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html_a268b38eeac9b3f07910d2f93b995e963"><div class="ttname"><a href="./C/MRMeshSubdivide_8h.html#a268b38eeac9b3f07910d2f93b995e963">MR_SubdivideSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SubdivideSettings * MR_SubdivideSettings_DefaultConstruct(void)</div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html_a9848b1959d8c3696ed7f4e4daff50c69"><div class="ttname"><a href="./C/MRMeshSubdivide_8h.html#a9848b1959d8c3696ed7f4e4daff50c69">MR_subdivideMesh_MR_Mesh</a></div><div class="ttdeci">MRC_API int MR_subdivideMesh_MR_Mesh(MR_Mesh *mesh, const MR_SubdivideSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html_ab08b059d0114547dd8304e23fc1f2913"><div class="ttname"><a href="./C/MRMeshSubdivide_8h.html#ab08b059d0114547dd8304e23fc1f2913">MR_SubdivideSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_SubdivideSettings_Destroy(const MR_SubdivideSettings *_this)</div></div>
-<div class="ttc" id="aMRMeshSubdivide_8h_html_af97cd28a6761a7b1feeb63a7f167f8fa"><div class="ttname"><a href="./C/MRMeshSubdivide_8h.html#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a></div><div class="ttdeci">struct MR_SubdivideSettings MR_SubdivideSettings</div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
-<div class="ttc" id="aMRMesh_8h_html_a0946724aa4818c028be83125b2858446"><div class="ttname"><a href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a></div><div class="ttdeci">MRC_API void MR_Mesh_transform(MR_Mesh *_this, const MR_AffineXf3f *xf, const MR_VertBitSet *region)</div></div>
-<div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
-<div class="ttc" id="aMRRelaxParams_8h_html_a96e091f32783bbdc4bb48ba31ebab119"><div class="ttname"><a href="./C/MRRelaxParams_8h.html#a96e091f32783bbdc4bb48ba31ebab119">MR_RelaxParams_Set_iterations</a></div><div class="ttdeci">MRC_API void MR_RelaxParams_Set_iterations(MR_RelaxParams *_this, int value)</div></div>
-<div class="ttc" id="aMRTorus_8h_html_ad75f7fc4482dfb1265495d664597e838"><div class="ttname"><a href="./C/MRTorus_8h.html#ad75f7fc4482dfb1265495d664597e838">MR_makeTorus</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeTorus(const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, MR_std_vector_MR_Vector3f *points)</div></div>
-<div class="ttc" id="aMRVector3_8h_html_a216312ee3a37041f9f87a69464eb2f39"><div class="ttname"><a href="./C/MRVector3_8h.html#a216312ee3a37041f9f87a69464eb2f39">MR_Vector3f_plusZ</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Vector3f_plusZ(void)</div></div>
 <div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a></div></div>
 <div class="ttc" id="astructMR__Matrix3f_html"><div class="ttname"><a href="./C/structMR__Matrix3f.html">MR_Matrix3f</a></div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>

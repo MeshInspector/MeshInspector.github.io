@@ -1,6 +1,5 @@
 var classMR_1_1Histogram =
 [
-    [ "Histogram", "classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819", null ],
     [ "Histogram", "classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7", null ],
     [ "addHistogram", "classMR_1_1Histogram.html#ac1ebc3ae44e75437744d7f0b35a0dad5", null ],
     [ "addSample", "classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc", null ],

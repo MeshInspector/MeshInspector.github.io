@@ -2,11 +2,9 @@ var classMR_1_1WatershedGraph =
 [
     [ "BasinInfo", "structMR_1_1WatershedGraph_1_1BasinInfo.html", "structMR_1_1WatershedGraph_1_1BasinInfo" ],
     [ "BdInfo", "structMR_1_1WatershedGraph_1_1BdInfo.html", "structMR_1_1WatershedGraph_1_1BdInfo" ],
-    [ "OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", "structMR_1_1WatershedGraph_1_1OverflowPoint" ],
+    [ "OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", null ],
     [ "WatershedGraph", "classMR_1_1WatershedGraph.html#acbb29b2acc410b0a58645c023d793842", null ],
-    [ "basinInfo", "classMR_1_1WatershedGraph.html#a9af63cdf457000d537668057705b684c", null ],
     [ "basinInfo", "classMR_1_1WatershedGraph.html#aaded095af3e5c37cf3299086f255480d", null ],
-    [ "bdInfo", "classMR_1_1WatershedGraph.html#ae5da135593dd2516248f691c21c4afe2", null ],
     [ "bdInfo", "classMR_1_1WatershedGraph.html#ac60717bcac94de1bf3eaf1f3eba5753f", null ],
     [ "computeBasinVolume", "classMR_1_1WatershedGraph.html#a154c7de06138c1644c08aacc3176192b", null ],
     [ "findLowestBd", "classMR_1_1WatershedGraph.html#a36e73384698fb59ae775796b859ad1b5", null ],

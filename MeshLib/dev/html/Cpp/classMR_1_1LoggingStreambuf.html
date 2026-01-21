@@ -168,100 +168,22 @@ $(function(){initNavTree('classMR_1_1LoggingStreambuf.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af253d14866ae6530d01634b16042d387" id="r_af253d14866ae6530d01634b16042d387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af253d14866ae6530d01634b16042d387">LoggingStreambuf</a> (spdlog::level::level_enum level)</td></tr>
+<tr class="memitem:af253d14866ae6530d01634b16042d387" id="r_af253d14866ae6530d01634b16042d387"><td class="memItemLeft" align="right" valign="top"><a id="af253d14866ae6530d01634b16042d387" name="af253d14866ae6530d01634b16042d387"></a>
+MRMESH_API&#160;</td><td class="memItemRight" valign="bottom"><b>LoggingStreambuf</b> (spdlog::level::level_enum level)</td></tr>
 <tr class="separator:af253d14866ae6530d01634b16042d387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad3da2990b79129af6e4cb2426b138860" id="r_ad3da2990b79129af6e4cb2426b138860"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::streamsize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3da2990b79129af6e4cb2426b138860">xsputn</a> (const char_type *s, std::streamsize count) override</td></tr>
+<tr class="memitem:ad3da2990b79129af6e4cb2426b138860" id="r_ad3da2990b79129af6e4cb2426b138860"><td class="memItemLeft" align="right" valign="top"><a id="ad3da2990b79129af6e4cb2426b138860" name="ad3da2990b79129af6e4cb2426b138860"></a>
+MRMESH_API std::streamsize&#160;</td><td class="memItemRight" valign="bottom"><b>xsputn</b> (const char_type *s, std::streamsize count) override</td></tr>
 <tr class="separator:ad3da2990b79129af6e4cb2426b138860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6dff8009973c32d9738ccde8cb43602" id="r_ad6dff8009973c32d9738ccde8cb43602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6dff8009973c32d9738ccde8cb43602">overflow</a> (int_type ch=traits_type::eof()) override</td></tr>
+<tr class="memitem:ad6dff8009973c32d9738ccde8cb43602" id="r_ad6dff8009973c32d9738ccde8cb43602"><td class="memItemLeft" align="right" valign="top"><a id="ad6dff8009973c32d9738ccde8cb43602" name="ad6dff8009973c32d9738ccde8cb43602"></a>
+MRMESH_API int_type&#160;</td><td class="memItemRight" valign="bottom"><b>overflow</b> (int_type ch=traits_type::eof()) override</td></tr>
 <tr class="separator:ad6dff8009973c32d9738ccde8cb43602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A custom streambuf that outputs things directly to the default <code>spdlog</code> logger. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af253d14866ae6530d01634b16042d387" name="af253d14866ae6530d01634b16042d387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af253d14866ae6530d01634b16042d387">&#9670;&#160;</a></span>LoggingStreambuf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::LoggingStreambuf::LoggingStreambuf </td>
-          <td>(</td>
-          <td class="paramtype">spdlog::level::level_enum</td>          <td class="paramname"><span class="paramname"><em>level</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad6dff8009973c32d9738ccde8cb43602" name="ad6dff8009973c32d9738ccde8cb43602"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6dff8009973c32d9738ccde8cb43602">&#9670;&#160;</a></span>overflow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int_type MR::LoggingStreambuf::overflow </td>
-          <td>(</td>
-          <td class="paramtype">int_type</td>          <td class="paramname"><span class="paramname"><em>ch</em></span><span class="paramdefsep"> = </span><span class="paramdefval">traits_type::eof()</span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad3da2990b79129af6e4cb2426b138860" name="ad3da2990b79129af6e4cb2426b138860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3da2990b79129af6e4cb2426b138860">&#9670;&#160;</a></span>xsputn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::streamsize MR::LoggingStreambuf::xsputn </td>
-          <td>(</td>
-          <td class="paramtype">const char_type *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::streamsize</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRRestoringStreamsSink_8h_source.html">MRRestoringStreamsSink.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -270,7 +192,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1LoggingStreambuf.html">LoggingStreambuf</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1LoggingStreambuf.html">LoggingStreambuf</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

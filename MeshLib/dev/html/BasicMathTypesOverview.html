@@ -204,7 +204,7 @@ Matrices</h3>
 <p><code>MR::Matrix3f::rotation(dir1, dir2)</code> — shortest rotation from one direction to another (neither needs to be normalized).</p>
 <p>Interpolation:</p>
 <p><code>MR::slerp(m1, m2, t)</code> — quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two matrices. (<code>t == 0</code> produces <code>m1</code>, <code>t == 1</code> produces <code>m2</code>.)<br  />
- This function is defined in <code>&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</code>.</p>
+ This function is defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Affine transformations</h2>
 <p>Most transformations in MeshLib are represented using a matrix-vector pair — <code>MR::AffineXf3f</code>, defined in <code>&lt;MRMesh/MRAffineXf.h&gt;</code>.</p>
@@ -229,7 +229,7 @@ Affine transformations</h2>
 <p>Some common operations:</p>
 <p><code>xf1.inverse()</code> inverts the transformation, like inverting a matrix.</p>
 <p><code>MR::slerp(xf1, xf2, t)</code> is a quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two transformations. (<code>t == 0</code> produces <code>xf1</code>, <code>t == 1</code> produces <code>xf2</code>.)<br  />
- This function is defined in <code>&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</code>.</p>
+ This function is defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
 <p>Conversion to and from matrices:</p>
 <p><code>MR::AffineXf3f</code> can be converted to and from <code>MR::Matrix4f</code> (directly, without calling any functions).</p>
 <p>When converting to a matrix, the last row is set to <code>(0,0,0,1)</code> and the rest is copied as is. The opposite conversion checks that the last row is <code>(0,0,0,1)</code> before discarding it.</p>
@@ -243,7 +243,7 @@ Object transformations</h3>
 <h2><a class="anchor" id="autotoc_md14"></a>
 Other types</h2>
 <p>MeshLib supports some other types not documented here:</p>
-<p>Quaternions — <code>MR::Quaternionf</code> defined in <code>&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</code>.</p>
+<p>Quaternions — <code>MR::Quaternionf</code> defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
 <p>Symmetric matrices — <code>MR::SymMatrix[2,3,4]f</code> defined in <code>&lt;MRMesh/MRSymMatrix[2,3,4].h&gt;</code>.</p>
 <p>Consult the respective headers for details. </p>
 </div></div><!-- contents -->

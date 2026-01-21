@@ -151,8 +151,6 @@ $(function(){initNavTree('structMR_1_1MeshProjectionParameters.html',''); initRe
   <div class="headertitle"><div class="title">MR::MeshProjectionParameters Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRMesh_2MRPointsToMeshProjector_8h_source.html">MRPointsToMeshProjector.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -160,11 +158,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a1c122d1dc6393cbf06a33b2b7d33ef8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93e080458c496f555a43b92f40f7e547" id="r_a93e080458c496f555a43b92f40f7e547"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e080458c496f555a43b92f40f7e547">upDistLimitSq</a> = FLT_MAX</td></tr>
 <tr class="separator:a93e080458c496f555a43b92f40f7e547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a758389fe44297258e47fdd1ef104916b" id="r_a758389fe44297258e47fdd1ef104916b"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a758389fe44297258e47fdd1ef104916b">refXf</a> = nullptr</td></tr>
-<tr class="memdesc:a758389fe44297258e47fdd1ef104916b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional reference mesh to world transformation  <br /></td></tr>
+<tr class="memitem:a758389fe44297258e47fdd1ef104916b" id="r_a758389fe44297258e47fdd1ef104916b"><td class="memItemLeft" align="right" valign="top"><a id="a758389fe44297258e47fdd1ef104916b" name="a758389fe44297258e47fdd1ef104916b"></a>
+const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><b>refXf</b> = nullptr</td></tr>
+<tr class="memdesc:a758389fe44297258e47fdd1ef104916b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional reference mesh to world transformation <br /></td></tr>
 <tr class="separator:a758389fe44297258e47fdd1ef104916b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ce5f16c30935b50d1c953fc917000dc" id="r_a7ce5f16c30935b50d1c953fc917000dc"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ce5f16c30935b50d1c953fc917000dc">xf</a> = nullptr</td></tr>
-<tr class="memdesc:a7ce5f16c30935b50d1c953fc917000dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional test points to world transformation  <br /></td></tr>
+<tr class="memitem:a7ce5f16c30935b50d1c953fc917000dc" id="r_a7ce5f16c30935b50d1c953fc917000dc"><td class="memItemLeft" align="right" valign="top"><a id="a7ce5f16c30935b50d1c953fc917000dc" name="a7ce5f16c30935b50d1c953fc917000dc"></a>
+const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><b>xf</b> = nullptr</td></tr>
+<tr class="memdesc:a7ce5f16c30935b50d1c953fc917000dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional test points to world transformation <br /></td></tr>
 <tr class="separator:a7ce5f16c30935b50d1c953fc917000dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -183,22 +183,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a758389fe44297258e47fdd1ef104916b" name="a758389fe44297258e47fdd1ef104916b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a758389fe44297258e47fdd1ef104916b">&#9670;&#160;</a></span>refXf</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const AffineXf3f* MR::MeshProjectionParameters::refXf = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional reference mesh to world transformation </p>
-
-</div>
-</div>
 <a id="a93e080458c496f555a43b92f40f7e547" name="a93e080458c496f555a43b92f40f7e547"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93e080458c496f555a43b92f40f7e547">&#9670;&#160;</a></span>upDistLimitSq</h2>
 
@@ -214,22 +198,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ce5f16c30935b50d1c953fc917000dc" name="a7ce5f16c30935b50d1c953fc917000dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ce5f16c30935b50d1c953fc917000dc">&#9670;&#160;</a></span>xf</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const AffineXf3f* MR::MeshProjectionParameters::xf = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>optional test points to world transformation </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRMesh_2MRPointsToMeshProjector_8h_source.html">MRMesh/MRPointsToMeshProjector.h</a></li>
 </ul>
@@ -239,7 +207,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

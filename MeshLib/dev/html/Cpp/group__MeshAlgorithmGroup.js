@@ -15,13 +15,7 @@ var group__MeshAlgorithmGroup =
       [ "applyAndSwap", "classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145", null ],
       [ "heapBytes", "classMR_1_1MeshDiff.html#afc1a1ad047dc4eb7b120e4cc9ab2c915", null ]
     ] ],
-    [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", [
-      [ "MeshRegion", "structMR_1_1MeshRegion.html#a35b39c1790f734aa2ed34e68281a8a04", null ],
-      [ "MeshRegion", "structMR_1_1MeshRegion.html#ae376220ccfe757dc78e7edd18501521e", null ],
-      [ "operator=", "structMR_1_1MeshRegion.html#a8fbe26bcbe7891c7be47fb330920e3b4", null ],
-      [ "mesh", "structMR_1_1MeshRegion.html#ad1bf8f740e649b73d3a93bd0eba5e609", null ],
-      [ "region", "structMR_1_1MeshRegion.html#a020e8c1bd5c2c3c5186ff4680d8004b0", null ]
-    ] ],
+    [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", null ],
     [ "MR::MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html", [
       [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#af1195b4bb18db9e8ca21e92db9139406", null ],
       [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#a124d70218b979697c0fa67ce32b07c56", null ],

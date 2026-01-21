@@ -1,11 +1,8 @@
 var classMR_1_1DistanceMap =
 [
-    [ "DistanceMap", "classMR_1_1DistanceMap.html#a4488979d529038d712bb847568b214d1", null ],
     [ "DistanceMap", "classMR_1_1DistanceMap.html#a5ca222a772dcddb16e0ca704fdb91f4f", null ],
     [ "DistanceMap", "classMR_1_1DistanceMap.html#aa0529b95564bf62adb72c9ecda53188f", null ],
     [ "clear", "classMR_1_1DistanceMap.html#af17d14221a21a70499a859487ec1c66f", null ],
-    [ "data", "classMR_1_1DistanceMap.html#a38e9ddb4a58e01a2fee45968358c5098", null ],
-    [ "data", "classMR_1_1DistanceMap.html#a40ae747ad28a6f966d16e3359c140eb3", null ],
     [ "get", "classMR_1_1DistanceMap.html#a8a2738cef5f113ff90fa89f1743a0e5c", null ],
     [ "get", "classMR_1_1DistanceMap.html#a101a1b0a998a4c98f3c5fcbae8d9c593", null ],
     [ "getDerivativeMap", "classMR_1_1DistanceMap.html#a5fb9437de36ca41f9202cdbb15d3db9a", null ],
@@ -14,10 +11,7 @@ var classMR_1_1DistanceMap =
     [ "getMaxIndex", "classMR_1_1DistanceMap.html#a491d7051e8163ff54790e25895c36105", null ],
     [ "getMinIndex", "classMR_1_1DistanceMap.html#ab2d9f40322b479e2ab1ff5a49627027b", null ],
     [ "getMinMaxValues", "classMR_1_1DistanceMap.html#a7f84b034f7b522fa041c24de79c0fec3", null ],
-    [ "getValue", "classMR_1_1DistanceMap.html#a315bf78bf746909a99ff29e08319abec", null ],
-    [ "getValue", "classMR_1_1DistanceMap.html#a23c283386e8a0156cdf0fbb808e18dcf", null ],
     [ "getValue", "classMR_1_1DistanceMap.html#aa7d63616e89a2dff0379ef4fe48b2c08", null ],
-    [ "getValue", "classMR_1_1DistanceMap.html#a44e3e39d8848d52746a65a044453a974", null ],
     [ "getXYDerivativeMaps", "classMR_1_1DistanceMap.html#aaaf57f68fae4b550eaab60acb61871b3", null ],
     [ "heapBytes", "classMR_1_1DistanceMap.html#a9a2b0e5b026e2046b9d68412671d9f8a", null ],
     [ "invalidateAll", "classMR_1_1DistanceMap.html#ad5b12268ebb7ac7c56982566845c0e08", null ],

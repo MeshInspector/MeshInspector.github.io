@@ -1,6 +1,5 @@
 var classMR_1_1HistoryStore =
 [
-    [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410", null ],
     [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
       [ "AppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727", null ],
       [ "PreUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2", null ],
@@ -11,7 +10,6 @@ var classMR_1_1HistoryStore =
       [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
       [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]
     ] ],
-    [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],
     [ "appendAction", "classMR_1_1HistoryStore.html#aa0c8ea0276f02eca0f11f888ecfc39f4", null ],
     [ "calcUsedMemory", "classMR_1_1HistoryStore.html#ae5153ad77359e03f6105aa8db1293b14", null ],
     [ "clear", "classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25", null ],
@@ -29,6 +27,5 @@ var classMR_1_1HistoryStore =
     [ "setSavedState", "classMR_1_1HistoryStore.html#ae49bd57fda5c9d3b6005f942e9ee7f45", null ],
     [ "setScopeBlockPtr", "classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad", null ],
     [ "undo", "classMR_1_1HistoryStore.html#a0bce5005471a434712469838de3edcd7", null ],
-    [ "undoRedoInProgress", "classMR_1_1HistoryStore.html#a759c9c7fe846fe0738cf8846bfb0cbad", null ],
-    [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
+    [ "undoRedoInProgress", "classMR_1_1HistoryStore.html#a759c9c7fe846fe0738cf8846bfb0cbad", null ]
 ];

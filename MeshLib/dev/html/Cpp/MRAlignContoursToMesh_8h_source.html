@@ -148,16 +148,16 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h_source.html',''); initResizab
   <div class="headertitle"><div class="title">MRAlignContoursToMesh.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRAlignContoursToMesh_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRVector2.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a>&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRCurve_8h.html">MRCurve.h</a>&quot;</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRExpected.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRId.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRVector2.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRMeshTriPoint.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRCurve.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
@@ -177,7 +177,7 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h_source.html',''); initResizab
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
 </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5d85bb6696e4f27accbd2e795fadb536">   38</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Mesh&gt;</a> <a class="code hl_function" href="namespaceMR.html#a5d85bb6696e4f27accbd2e795fadb536">alignContoursToMesh</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ContoursMeshAlignParams.html">ContoursMeshAlignParams</a>&amp; params );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>MRMESH_API Expected&lt;Mesh&gt; alignContoursToMesh( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> Contours2f&amp; contours, <span class="keyword">const</span> ContoursMeshAlignParams&amp; params );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structMR_1_1BendContoursAlongCurveParams.html">   41</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a></div>
@@ -186,7 +186,7 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h_source.html',''); initResizab
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="structMR_1_1BendContoursAlongCurveParams.html#aa2f38f9d108b091730c6510d7dfdd082">   48</a></span>    Vector2f <a class="code hl_variable" href="structMR_1_1BendContoursAlongCurveParams.html#aa2f38f9d108b091730c6510d7dfdd082">pivotBoxPoint</a>{0.0f, 0.0f};</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structMR_1_1BendContoursAlongCurveParams.html#a35b146e279f46114708f3c40a0a92f7b">   51</a></span>    <a class="code hl_typedef" href="namespaceMR.html#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> <a class="code hl_variable" href="structMR_1_1BendContoursAlongCurveParams.html#a35b146e279f46114708f3c40a0a92f7b">curve</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structMR_1_1BendContoursAlongCurveParams.html#a35b146e279f46114708f3c40a0a92f7b">   51</a></span>    CurveFunc <a class="code hl_variable" href="structMR_1_1BendContoursAlongCurveParams.html#a35b146e279f46114708f3c40a0a92f7b">curve</a>;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structMR_1_1BendContoursAlongCurveParams.html#ab8b07248a367fe492510d68b8052190c">   54</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structMR_1_1BendContoursAlongCurveParams.html#ab8b07248a367fe492510d68b8052190c">periodicCurve</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
@@ -196,26 +196,11 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h_source.html',''); initResizab
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespaceMR.html#a62494da3f5dfe7a2f5689981a06ceb2b">   64</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Mesh&gt;</a> <a class="code hl_function" href="namespaceMR.html#a62494da3f5dfe7a2f5689981a06ceb2b">bendContoursAlongCurve</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; contours, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a>&amp; params );</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>MRMESH_API Expected&lt;Mesh&gt; bendContoursAlongCurve( <span class="keyword">const</span> Contours2f&amp; contours, <span class="keyword">const</span> BendContoursAlongCurveParams&amp; params );</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3289f6374ed80e5ac6467f5029cbc89d">   68</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a3289f6374ed80e5ac6467f5029cbc89d">addBaseToPlanarMesh</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keywordtype">float</span> zOffset );</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>MRMESH_API <span class="keywordtype">void</span> addBaseToPlanarMesh( Mesh&amp; mesh, <span class="keywordtype">float</span> zOffset );</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>}</div>
-<div class="ttc" id="aMRCurve_8h_html"><div class="ttname"><a href="MRCurve_8h.html">MRCurve.h</a></div></div>
-<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
-<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aMRMeshTriPoint_8h_html"><div class="ttname"><a href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a3289f6374ed80e5ac6467f5029cbc89d"><div class="ttname"><a href="namespaceMR.html#a3289f6374ed80e5ac6467f5029cbc89d">MR::addBaseToPlanarMesh</a></div><div class="ttdeci">MRMESH_API void addBaseToPlanarMesh(Mesh &amp;mesh, float zOffset)</div></div>
-<div class="ttc" id="anamespaceMR_html_a5d85bb6696e4f27accbd2e795fadb536"><div class="ttname"><a href="namespaceMR.html#a5d85bb6696e4f27accbd2e795fadb536">MR::alignContoursToMesh</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; alignContoursToMesh(const Mesh &amp;mesh, const Contours2f &amp;contours, const ContoursMeshAlignParams &amp;params)</div><div class="ttdoc">Creates planar mesh out of given contour and aligns it to given surface.</div></div>
-<div class="ttc" id="anamespaceMR_html_a62494da3f5dfe7a2f5689981a06ceb2b"><div class="ttname"><a href="namespaceMR.html#a62494da3f5dfe7a2f5689981a06ceb2b">MR::bendContoursAlongCurve</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; bendContoursAlongCurve(const Contours2f &amp;contours, const BendContoursAlongCurveParams &amp;params)</div><div class="ttdoc">Converts contours in thick mesh, and deforms it along given path.</div></div>
-<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:28</div></div>
-<div class="ttc" id="anamespaceMR_html_a8746fbb8e09652c686ff0dcf8c01804c"><div class="ttname"><a href="namespaceMR.html#a8746fbb8e09652c686ff0dcf8c01804c">MR::Contours2f</a></div><div class="ttdeci">Contours2&lt; float &gt; Contours2f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:385</div></div>
-<div class="ttc" id="anamespaceMR_html_a8dffd3366aa2bf51396d6beaf3e47199"><div class="ttname"><a href="namespaceMR.html#a8dffd3366aa2bf51396d6beaf3e47199">MR::CurveFunc</a></div><div class="ttdeci">std::function&lt; CurvePoint(float)&gt; CurveFunc</div><div class="ttdoc">curve given as a function: time -&gt; point</div><div class="ttdef"><b>Definition</b> MRCurve.h:17</div></div>
 <div class="ttc" id="astructMR_1_1BendContoursAlongCurveParams_html"><div class="ttname"><a href="structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></div><div class="ttdoc">Parameters for aligning 2d contours along given curve.</div><div class="ttdef"><b>Definition</b> MRAlignContoursToMesh.h:42</div></div>
 <div class="ttc" id="astructMR_1_1BendContoursAlongCurveParams_html_a2e554b5ceea4b8d6d43ce5c58e506315"><div class="ttname"><a href="structMR_1_1BendContoursAlongCurveParams.html#a2e554b5ceea4b8d6d43ce5c58e506315">MR::BendContoursAlongCurveParams::extrusion</a></div><div class="ttdeci">float extrusion</div><div class="ttdoc">Contours extrusion outside of curve level.</div><div class="ttdef"><b>Definition</b> MRAlignContoursToMesh.h:60</div></div>
 <div class="ttc" id="astructMR_1_1BendContoursAlongCurveParams_html_a35b146e279f46114708f3c40a0a92f7b"><div class="ttname"><a href="structMR_1_1BendContoursAlongCurveParams.html#a35b146e279f46114708f3c40a0a92f7b">MR::BendContoursAlongCurveParams::curve</a></div><div class="ttdeci">CurveFunc curve</div><div class="ttdoc">converts (x in [0,1], pivotY) into position on curve</div><div class="ttdef"><b>Definition</b> MRAlignContoursToMesh.h:51</div></div>
@@ -231,14 +216,13 @@ $(function(){initNavTree('MRAlignContoursToMesh_8h_source.html',''); initResizab
 <div class="ttc" id="astructMR_1_1ContoursMeshAlignParams_html_ade3d72e16e489a276f9609dfb721672f"><div class="ttname"><a href="structMR_1_1ContoursMeshAlignParams.html#ade3d72e16e489a276f9609dfb721672f">MR::ContoursMeshAlignParams::pivotPoint</a></div><div class="ttdeci">Vector2f pivotPoint</div><div class="ttdef"><b>Definition</b> MRAlignContoursToMesh.h:21</div></div>
 <div class="ttc" id="astructMR_1_1ContoursMeshAlignParams_html_ae97d50b08fe054c5ef97702df2abed70"><div class="ttname"><a href="structMR_1_1ContoursMeshAlignParams.html#ae97d50b08fe054c5ef97702df2abed70">MR::ContoursMeshAlignParams::meshPoint</a></div><div class="ttdeci">MeshTriPoint meshPoint</div><div class="ttdoc">Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh.</div><div class="ttdef"><b>Definition</b> MRAlignContoursToMesh.h:17</div></div>
 <div class="ttc" id="astructMR_1_1MeshTriPoint_html"><div class="ttname"><a href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a></div><div class="ttdef"><b>Definition</b> MRMeshTriPoint.h:23</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRAlignContoursToMesh_8h.html">MRAlignContoursToMesh.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRAlignContoursToMesh.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

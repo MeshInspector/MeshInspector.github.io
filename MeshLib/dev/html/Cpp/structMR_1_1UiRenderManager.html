@@ -151,8 +151,6 @@ $(function(){initNavTree('structMR_1_1UiRenderManager.html',''); initResizable(t
   <div class="headertitle"><div class="title">MR::UiRenderManager Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRIRenderObject_8h_source.html">MRIRenderObject.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::UiRenderManager:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -167,160 +165,19 @@ $(function(){initNavTree('structMR_1_1UiRenderManager.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a068f0178b855d81e92b613b5872c99ee" id="r_a068f0178b855d81e92b613b5872c99ee"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068f0178b855d81e92b613b5872c99ee">~UiRenderManager</a> ()=default</td></tr>
-<tr class="separator:a068f0178b855d81e92b613b5872c99ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae586ca77f767a1b38c45269b184c7118" id="r_ae586ca77f767a1b38c45269b184c7118"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae586ca77f767a1b38c45269b184c7118">preRenderViewport</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport)</td></tr>
+<tr class="memitem:ae586ca77f767a1b38c45269b184c7118" id="r_ae586ca77f767a1b38c45269b184c7118"><td class="memItemLeft" align="right" valign="top"><a id="ae586ca77f767a1b38c45269b184c7118" name="ae586ca77f767a1b38c45269b184c7118"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>preRenderViewport</b> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport)</td></tr>
 <tr class="separator:ae586ca77f767a1b38c45269b184c7118"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9cfebf3c57b3c9b6283d7de32fc4adc" id="r_af9cfebf3c57b3c9b6283d7de32fc4adc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cfebf3c57b3c9b6283d7de32fc4adc">postRenderViewport</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport)</td></tr>
+<tr class="memitem:af9cfebf3c57b3c9b6283d7de32fc4adc" id="r_af9cfebf3c57b3c9b6283d7de32fc4adc"><td class="memItemLeft" align="right" valign="top"><a id="af9cfebf3c57b3c9b6283d7de32fc4adc" name="af9cfebf3c57b3c9b6283d7de32fc4adc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postRenderViewport</b> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport)</td></tr>
 <tr class="separator:af9cfebf3c57b3c9b6283d7de32fc4adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9601bd6d868289506f00155eb4711f5e" id="r_a9601bd6d868289506f00155eb4711f5e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9601bd6d868289506f00155eb4711f5e">beginBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, <a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a> &amp;tasks)</td></tr>
+<tr class="memitem:a9601bd6d868289506f00155eb4711f5e" id="r_a9601bd6d868289506f00155eb4711f5e"><td class="memItemLeft" align="right" valign="top"><a id="a9601bd6d868289506f00155eb4711f5e" name="a9601bd6d868289506f00155eb4711f5e"></a>
+virtual <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>beginBackwardPass</b> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, UiRenderParams::UiTaskList &amp;tasks)</td></tr>
 <tr class="separator:a9601bd6d868289506f00155eb4711f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba65991bd7f7faf987ac0662a31a5875" id="r_aba65991bd7f7faf987ac0662a31a5875"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba65991bd7f7faf987ac0662a31a5875">finishBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params)</td></tr>
+<tr class="memitem:aba65991bd7f7faf987ac0662a31a5875" id="r_aba65991bd7f7faf987ac0662a31a5875"><td class="memItemLeft" align="right" valign="top"><a id="aba65991bd7f7faf987ac0662a31a5875" name="aba65991bd7f7faf987ac0662a31a5875"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>finishBackwardPass</b> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params)</td></tr>
 <tr class="separator:aba65991bd7f7faf987ac0662a31a5875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a068f0178b855d81e92b613b5872c99ee" name="a068f0178b855d81e92b613b5872c99ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a068f0178b855d81e92b613b5872c99ee">&#9670;&#160;</a></span>~UiRenderManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::UiRenderManager::~UiRenderManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9601bd6d868289506f00155eb4711f5e" name="a9601bd6d868289506f00155eb4711f5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9601bd6d868289506f00155eb4711f5e">&#9670;&#160;</a></span>beginBackwardPass()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> MR::UiRenderManager::beginBackwardPass </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tasks</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a1aa058b02893d9bc3fd3589e0dc7bf21">MR::ImGuiMenu::UiRenderManagerImpl</a>.</p>
-
-</div>
-</div>
-<a id="aba65991bd7f7faf987ac0662a31a5875" name="aba65991bd7f7faf987ac0662a31a5875"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba65991bd7f7faf987ac0662a31a5875">&#9670;&#160;</a></span>finishBackwardPass()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::UiRenderManager::finishBackwardPass </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a6eae746d6778e271123fb43ad2f8f4e2">MR::ImGuiMenu::UiRenderManagerImpl</a>.</p>
-
-</div>
-</div>
-<a id="af9cfebf3c57b3c9b6283d7de32fc4adc" name="af9cfebf3c57b3c9b6283d7de32fc4adc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9cfebf3c57b3c9b6283d7de32fc4adc">&#9670;&#160;</a></span>postRenderViewport()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::UiRenderManager::postRenderViewport </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a40f36215f485498d7757d2473e6d2d64">MR::ImGuiMenu::UiRenderManagerImpl</a>.</p>
-
-</div>
-</div>
-<a id="ae586ca77f767a1b38c45269b184c7118" name="ae586ca77f767a1b38c45269b184c7118"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae586ca77f767a1b38c45269b184c7118">&#9670;&#160;</a></span>preRenderViewport()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::UiRenderManager::preRenderViewport </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a7347c1740073a409a4350f361af9b816">MR::ImGuiMenu::UiRenderManagerImpl</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRIRenderObject_8h_source.html">MRIRenderObject.h</a></li>
 </ul>
@@ -330,7 +187,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1UiRenderManager.html">UiRenderManager</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1UiRenderManager.html">UiRenderManager</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

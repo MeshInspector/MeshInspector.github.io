@@ -7,8 +7,6 @@ var classMR_1_1RibbonSceneObjectsListDrawer =
     [ "drawSceneContextMenu_", "classMR_1_1RibbonSceneObjectsListDrawer.html#a1032f9f59d910e1113385182e182986b", null ],
     [ "drawSkippedObject_", "classMR_1_1RibbonSceneObjectsListDrawer.html#a93c05ad6cbe137ae91506d25d990e5f6", null ],
     [ "getCloseContextOnChange", "classMR_1_1RibbonSceneObjectsListDrawer.html#a76b557373659019c5f9ce857d437e84a", null ],
-    [ "initRibbonMenu", "classMR_1_1RibbonSceneObjectsListDrawer.html#a6fccd91d7785e8df8425ed250c606137", null ],
-    [ "objectLineStrId_", "classMR_1_1RibbonSceneObjectsListDrawer.html#ace8f2d89b5482ae8137036f4d38ed4fa", null ],
     [ "setCloseContextOnChange", "classMR_1_1RibbonSceneObjectsListDrawer.html#a7b203ae37c12d09d2d98e86766a46fe5", null ],
     [ "onDrawContextSignal", "classMR_1_1RibbonSceneObjectsListDrawer.html#aa3fac069d87e7b77317f8987e5a591f0", null ]
 ];

@@ -221,18 +221,17 @@ $(function(){initNavTree('classMR_1_1HistoryAction.html',''); initResizable(true
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac16eb31dd26d35cfc18bac8a05983aa7" id="r_ac16eb31dd26d35cfc18bac8a05983aa7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a> { <a class="el" href="#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119">Undo</a>
-, <a class="el" href="#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">Redo</a>
+<tr class="memitem:ac16eb31dd26d35cfc18bac8a05983aa7" id="r_ac16eb31dd26d35cfc18bac8a05983aa7"><td class="memItemLeft" align="right" valign="top"><a id="ac16eb31dd26d35cfc18bac8a05983aa7" name="ac16eb31dd26d35cfc18bac8a05983aa7"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>Type</b> { <b>Undo</b>
+, <b>Redo</b>
  }</td></tr>
 <tr class="separator:ac16eb31dd26d35cfc18bac8a05983aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a97370459d3645a1169ed426ef4896e5c" id="r_a97370459d3645a1169ed426ef4896e5c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97370459d3645a1169ed426ef4896e5c">~HistoryAction</a> ()=default</td></tr>
-<tr class="separator:a97370459d3645a1169ed426ef4896e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9daa0b79de161f676f6283e3804dc8ce" id="r_a9daa0b79de161f676f6283e3804dc8ce"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9daa0b79de161f676f6283e3804dc8ce">name</a> () const =0</td></tr>
+<tr class="memitem:a9daa0b79de161f676f6283e3804dc8ce" id="r_a9daa0b79de161f676f6283e3804dc8ce"><td class="memItemLeft" align="right" valign="top"><a id="a9daa0b79de161f676f6283e3804dc8ce" name="a9daa0b79de161f676f6283e3804dc8ce"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const =0</td></tr>
 <tr class="separator:a9daa0b79de161f676f6283e3804dc8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecfce349736beaf17a23a6817c86f3bb" id="r_aecfce349736beaf17a23a6817c86f3bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecfce349736beaf17a23a6817c86f3bb">action</a> (<a class="el" href="#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a> actionType)=0</td></tr>
+<tr class="memitem:aecfce349736beaf17a23a6817c86f3bb" id="r_aecfce349736beaf17a23a6817c86f3bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecfce349736beaf17a23a6817c86f3bb">action</a> (Type actionType)=0</td></tr>
 <tr class="memdesc:aecfce349736beaf17a23a6817c86f3bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
 <tr class="separator:aecfce349736beaf17a23a6817c86f3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6df54da6a63ed83f15053507e8569de" id="r_ad6df54da6a63ed83f15053507e8569de"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6df54da6a63ed83f15053507e8569de">heapBytes</a> () const =0</td></tr>
@@ -241,60 +240,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for history actions </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ac16eb31dd26d35cfc18bac8a05983aa7" name="ac16eb31dd26d35cfc18bac8a05983aa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac16eb31dd26d35cfc18bac8a05983aa7">&#9670;&#160;</a></span>Type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119" name="ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119"></a>Undo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6" name="ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6"></a>Redo&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a97370459d3645a1169ed426ef4896e5c" name="a97370459d3645a1169ed426ef4896e5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97370459d3645a1169ed426ef4896e5c">&#9670;&#160;</a></span>~HistoryAction()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::HistoryAction::~HistoryAction </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aecfce349736beaf17a23a6817c86f3bb" name="aecfce349736beaf17a23a6817c86f3bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aecfce349736beaf17a23a6817c86f3bb">&#9670;&#160;</a></span>action()</h2>
 
@@ -307,7 +253,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void MR::HistoryAction::action </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a></td>          <td class="paramname"><span class="paramname"><em>actionType</em></span></td><td>)</td>
+          <td class="paramtype">Type</td>          <td class="paramname"><span class="paramname"><em>actionType</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -353,33 +299,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9daa0b79de161f676f6283e3804dc8ce" name="a9daa0b79de161f676f6283e3804dc8ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9daa0b79de161f676f6283e3804dc8ce">&#9670;&#160;</a></span>name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string MR::HistoryAction::name </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34">MR::ChangeActiveBoxAction</a>, <a class="el" href="classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303">MR::ChangeBoundarySelectionHistoryAction</a>, <a class="el" href="classMR_1_1ChangeColoringType.html#a531d559082c32567d685d888d4602ddf">MR::ChangeColoringType</a>, <a class="el" href="classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31">MR::ChangeDualMarchingCubesAction</a>, <a class="el" href="classMR_1_1ChangeFacesColorMapAction.html#a78e08b193afdbeaeb8e52e7a520a28d6">MR::ChangeFacesColorMapAction</a>, <a class="el" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">MR::ChangeGridAction</a>, <a class="el" href="classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f">MR::ChangeIsoAction</a>, <a class="el" href="classMR_1_1ChangeLabelAction.html#a49b7949dc2497e15510dbf8c51c83e61">MR::ChangeLabelAction</a>, <a class="el" href="classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741">MR::ChangeLinesColorMapAction</a>, <a class="el" href="classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab">MR::ChangeMeshAction</a>, <a class="el" href="classMR_1_1ChangeMeshCreasesAction.html#abaa4073cae3371c003ef86720b945c86">MR::ChangeMeshCreasesAction</a>, <a class="el" href="classMR_1_1ChangeMeshDataAction.html#a17a6297c30967ea93e6bfc131ae8911c">MR::ChangeMeshDataAction</a>, <a class="el" href="classMR_1_1ChangeMeshEdgeSelectionAction.html#a59d389a6910ddd51ea9d3a05db2dfcee">MR::ChangeMeshEdgeSelectionAction</a>, <a class="el" href="classMR_1_1ChangeMeshFaceSelectionAction.html#a628000e800befb0ec5c91ee98032c3d1">MR::ChangeMeshFaceSelectionAction</a>, <a class="el" href="classMR_1_1ChangeMeshPointsAction.html#a5094eae088c0883a835d21da8c59f78c">MR::ChangeMeshPointsAction</a>, <a class="el" href="classMR_1_1ChangeMeshTexturePerFaceAction.html#a4b2e329d2919c7bf660598c1f458ac86">MR::ChangeMeshTexturePerFaceAction</a>, <a class="el" href="classMR_1_1ChangeMeshTopologyAction.html#a94b059bce32bf0568d4e0b3fa861479c">MR::ChangeMeshTopologyAction</a>, <a class="el" href="classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8">MR::ChangeMeshUVCoordsAction</a>, <a class="el" href="classMR_1_1ChangeNameAction.html#af3abbe2d5970984c94bc836781925582">MR::ChangeNameAction</a>, <a class="el" href="classMR_1_1ChangeObjectAction.html#a657dce770efd0cbe3235515223438b7f">MR::ChangeObjectAction</a>, <a class="el" href="classMR_1_1ChangeObjectColorAction.html#ada33e7dca54e7e04d9815765bed5fdfe">MR::ChangeObjectColorAction</a>, <a class="el" href="classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30">MR::ChangeObjectSelectedAction</a>, <a class="el" href="classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d">MR::ChangeObjectVisibilityAction</a>, <a class="el" href="classMR_1_1ChangeOneNormalInCloudAction.html#aa922f462c2baab3f1699371f60ca1059">MR::ChangeOneNormalInCloudAction</a>, <a class="el" href="classMR_1_1ChangeOnePointInCloudAction.html#a12d6cf9879dfc2c296fa9440b96442e3">MR::ChangeOnePointInCloudAction</a>, <a class="el" href="classMR_1_1ChangeOnePointInPolylineAction.html#a60545394635e0a3adb2be644e7bdafee">MR::ChangeOnePointInPolylineAction</a>, <a class="el" href="classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6">MR::ChangePointCloudAction</a>, <a class="el" href="classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8">MR::ChangePointCloudNormalsAction</a>, <a class="el" href="classMR_1_1ChangePointCloudPointsAction.html#ab798c8b335a0610698bfa5fdc04b7ac9">MR::ChangePointCloudPointsAction</a>, <a class="el" href="classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8">MR::ChangePointPointSelectionAction</a>, <a class="el" href="classMR_1_1ChangePolylineAction.html#a3d8479b53f1823d464d18ee027faec56">MR::ChangePolylineAction</a>, <a class="el" href="classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2">MR::ChangePolylinePointsAction</a>, <a class="el" href="classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b">MR::ChangePolylineTopologyAction</a>, <a class="el" href="classMR_1_1ChangeScaleAction.html#a4ef261e118c5b35c7f334c4c5dc65f5c">MR::ChangeScaleAction</a>, <a class="el" href="classMR_1_1ChangeSceneAction.html#ad1dec660d1132592b4ea2eb4ad53dda0">MR::ChangeSceneAction</a>, <a class="el" href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">MR::ChangeSceneObjectsOrder</a>, <a class="el" href="classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54">MR::ChangeSurfaceAction</a>, <a class="el" href="classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874">MR::ChangeTextureAction</a>, <a class="el" href="classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52">MR::ChangeValue&lt; T &gt;</a>, <a class="el" href="classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2">MR::ChangeVertsColorMapAction&lt; T &gt;</a>, <a class="el" href="classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d">MR::ChangeVisualizePropertyAction</a>, <a class="el" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">MR::ChangeXfAction</a>, <a class="el" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">MR::ChangVoxelSelectionAction</a>, <a class="el" href="classMR_1_1CombinedHistoryAction.html#a59961c77016991a1c41b6f0c34545ee6">MR::CombinedHistoryAction</a>, <a class="el" href="classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd">MR::DirectionWidget::ChangeVisibleAction</a>, <a class="el" href="classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a9f633c38c10b5c7437a1f2479e01acdf">MR::ITransformControls::ChangeCenterAction</a>, <a class="el" href="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a0afac4f4b06cfb2f11fe773ecb84a131">MR::ObjectTransformWidget::ChangeXfAction</a>, <a class="el" href="classMR_1_1PartialChangeMeshAction.html#ade6dceb9fa790192de46869cae89ab8f">MR::PartialChangeMeshAction</a>, <a class="el" href="classMR_1_1PartialChangeMeshDataAction.html#a86738a241e4ba1a61752fd26623c61e3">MR::PartialChangeMeshDataAction</a>, <a class="el" href="classMR_1_1PartialChangeMeshPointsAction.html#a084adee7a06ac5a670f2847f4a0c9d04">MR::PartialChangeMeshPointsAction</a>, <a class="el" href="classMR_1_1PartialChangeMeshTopologyAction.html#af60c80f62ba5789c89fc2657ce402ef0">MR::PartialChangeMeshTopologyAction</a>, <a class="el" href="classMR_1_1SwapRootAction.html#a1ea4ac4e26ce6a38aae5ecd3ffd4c428">MR::SwapRootAction</a>, and <a class="el" href="group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">MR::ViewportParametersAction</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRHistoryAction_8h_source.html">MRHistoryAction.h</a></li>
 </ul>
@@ -389,7 +308,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

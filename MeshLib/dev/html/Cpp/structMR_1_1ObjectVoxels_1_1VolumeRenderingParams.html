@@ -153,288 +153,61 @@ $(function(){initNavTree('structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html
   <div class="headertitle"><div class="title">MR::ObjectVoxels::VolumeRenderingParams Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h_source.html">MRObjectVoxels.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0b40e31d1a019aab3cc599a4440216cf" id="r_a0b40e31d1a019aab3cc599a4440216cf"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b40e31d1a019aab3cc599a4440216cf">ShadingType</a> { <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754">None</a>
-, <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300">ValueGradient</a>
-, <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87">AlphaGradient</a>
+<tr class="memitem:a0b40e31d1a019aab3cc599a4440216cf" id="r_a0b40e31d1a019aab3cc599a4440216cf"><td class="memItemLeft" align="right" valign="top"><a id="a0b40e31d1a019aab3cc599a4440216cf" name="a0b40e31d1a019aab3cc599a4440216cf"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>ShadingType</b> { <b>None</b>
+, <b>ValueGradient</b>
+, <b>AlphaGradient</b>
  }</td></tr>
 <tr class="separator:a0b40e31d1a019aab3cc599a4440216cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2eccd63ca988ff87e0d09c1729effd5" id="r_ac2eccd63ca988ff87e0d09c1729effd5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5">LutType</a> { <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa">GrayShades</a>
-, <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c">Rainbow</a>
-, <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109">OneColor</a>
+<tr class="memitem:ac2eccd63ca988ff87e0d09c1729effd5" id="r_ac2eccd63ca988ff87e0d09c1729effd5"><td class="memItemLeft" align="right" valign="top"><a id="ac2eccd63ca988ff87e0d09c1729effd5" name="ac2eccd63ca988ff87e0d09c1729effd5"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>LutType</b> { <b>GrayShades</b>
+, <b>Rainbow</b>
+, <b>OneColor</b>
  }</td></tr>
 <tr class="separator:ac2eccd63ca988ff87e0d09c1729effd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb3f512bbe9f60f21c71753b179adc2" id="r_afeb3f512bbe9f60f21c71753b179adc2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2">AlphaType</a> { <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255">Constant</a>
-, <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd">LinearIncreasing</a>
-, <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae">LinearDecreasing</a>
+<tr class="memitem:afeb3f512bbe9f60f21c71753b179adc2" id="r_afeb3f512bbe9f60f21c71753b179adc2"><td class="memItemLeft" align="right" valign="top"><a id="afeb3f512bbe9f60f21c71753b179adc2" name="afeb3f512bbe9f60f21c71753b179adc2"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>AlphaType</b> { <b>Constant</b>
+, <b>LinearIncreasing</b>
+, <b>LinearDecreasing</b>
  }</td></tr>
 <tr class="separator:afeb3f512bbe9f60f21c71753b179adc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab5aeef5b1c53656f8816af392af3ec46" id="r_ab5aeef5b1c53656f8816af392af3ec46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5aeef5b1c53656f8816af392af3ec46">operator==</a> (const <a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a> &amp;) const =default</td></tr>
+<tr class="memitem:ab5aeef5b1c53656f8816af392af3ec46" id="r_ab5aeef5b1c53656f8816af392af3ec46"><td class="memItemLeft" align="right" valign="top"><a id="ab5aeef5b1c53656f8816af392af3ec46" name="ab5aeef5b1c53656f8816af392af3ec46"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a> &amp;) const =default</td></tr>
 <tr class="separator:ab5aeef5b1c53656f8816af392af3ec46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa2018932b0f46e90f13ac5b75b7eaed9" id="r_aa2018932b0f46e90f13ac5b75b7eaed9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">FilterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2018932b0f46e90f13ac5b75b7eaed9">volumeFilterType</a> { <a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b">FilterType::Linear</a> }</td></tr>
+<tr class="memitem:aa2018932b0f46e90f13ac5b75b7eaed9" id="r_aa2018932b0f46e90f13ac5b75b7eaed9"><td class="memItemLeft" align="right" valign="top"><a id="aa2018932b0f46e90f13ac5b75b7eaed9" name="aa2018932b0f46e90f13ac5b75b7eaed9"></a>
+FilterType&#160;</td><td class="memItemRight" valign="bottom"><b>volumeFilterType</b> { FilterType::Linear }</td></tr>
 <tr class="separator:aa2018932b0f46e90f13ac5b75b7eaed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d3b64c3be4b9df2a9728e5a097c8ad9" id="r_a4d3b64c3be4b9df2a9728e5a097c8ad9"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cf">MR::ObjectVoxels::VolumeRenderingParams::ShadingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d3b64c3be4b9df2a9728e5a097c8ad9">None</a></td></tr>
+<tr class="memitem:a4d3b64c3be4b9df2a9728e5a097c8ad9" id="r_a4d3b64c3be4b9df2a9728e5a097c8ad9"><td class="memItemLeft" align="right" valign="top"><a id="a4d3b64c3be4b9df2a9728e5a097c8ad9" name="a4d3b64c3be4b9df2a9728e5a097c8ad9"></a>
+enum MR::ObjectVoxels::VolumeRenderingParams::ShadingType&#160;</td><td class="memItemRight" valign="bottom"><b>None</b></td></tr>
 <tr class="separator:a4d3b64c3be4b9df2a9728e5a097c8ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e9afd17c798286cf4e6db027d0ecf9" id="r_a13e9afd17c798286cf4e6db027d0ecf9"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5">MR::ObjectVoxels::VolumeRenderingParams::LutType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13e9afd17c798286cf4e6db027d0ecf9">Rainbow</a></td></tr>
+<tr class="memitem:a13e9afd17c798286cf4e6db027d0ecf9" id="r_a13e9afd17c798286cf4e6db027d0ecf9"><td class="memItemLeft" align="right" valign="top"><a id="a13e9afd17c798286cf4e6db027d0ecf9" name="a13e9afd17c798286cf4e6db027d0ecf9"></a>
+enum MR::ObjectVoxels::VolumeRenderingParams::LutType&#160;</td><td class="memItemRight" valign="bottom"><b>Rainbow</b></td></tr>
 <tr class="separator:a13e9afd17c798286cf4e6db027d0ecf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae94f3eb91aef633aa6d0552e48b597a9" id="r_ae94f3eb91aef633aa6d0552e48b597a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94f3eb91aef633aa6d0552e48b597a9">oneColor</a> { <a class="el" href="structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75">Color::white</a>() }</td></tr>
+<tr class="memitem:ae94f3eb91aef633aa6d0552e48b597a9" id="r_ae94f3eb91aef633aa6d0552e48b597a9"><td class="memItemLeft" align="right" valign="top"><a id="ae94f3eb91aef633aa6d0552e48b597a9" name="ae94f3eb91aef633aa6d0552e48b597a9"></a>
+<a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><b>oneColor</b> { Color::white() }</td></tr>
 <tr class="separator:ae94f3eb91aef633aa6d0552e48b597a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa82f2dbcab6b825daff1c52d575ca2fa" id="r_aa82f2dbcab6b825daff1c52d575ca2fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82f2dbcab6b825daff1c52d575ca2fa">min</a> { 0.0f }</td></tr>
+<tr class="memitem:aa82f2dbcab6b825daff1c52d575ca2fa" id="r_aa82f2dbcab6b825daff1c52d575ca2fa"><td class="memItemLeft" align="right" valign="top"><a id="aa82f2dbcab6b825daff1c52d575ca2fa" name="aa82f2dbcab6b825daff1c52d575ca2fa"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>min</b> { 0.0f }</td></tr>
 <tr class="separator:aa82f2dbcab6b825daff1c52d575ca2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2551180d44dd12a9dd8b6f79cbd010" id="r_a0b2551180d44dd12a9dd8b6f79cbd010"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b2551180d44dd12a9dd8b6f79cbd010">max</a> { 0.0f }</td></tr>
+<tr class="memitem:a0b2551180d44dd12a9dd8b6f79cbd010" id="r_a0b2551180d44dd12a9dd8b6f79cbd010"><td class="memItemLeft" align="right" valign="top"><a id="a0b2551180d44dd12a9dd8b6f79cbd010" name="a0b2551180d44dd12a9dd8b6f79cbd010"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>max</b> { 0.0f }</td></tr>
 <tr class="separator:a0b2551180d44dd12a9dd8b6f79cbd010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b689ae32e79618fd422fa0fa7a80e9" id="r_ad2b689ae32e79618fd422fa0fa7a80e9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2b689ae32e79618fd422fa0fa7a80e9">samplingStep</a> { -1.0f }</td></tr>
+<tr class="memitem:ad2b689ae32e79618fd422fa0fa7a80e9" id="r_ad2b689ae32e79618fd422fa0fa7a80e9"><td class="memItemLeft" align="right" valign="top"><a id="ad2b689ae32e79618fd422fa0fa7a80e9" name="ad2b689ae32e79618fd422fa0fa7a80e9"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>samplingStep</b> { -1.0f }</td></tr>
 <tr class="separator:ad2b689ae32e79618fd422fa0fa7a80e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8187266986121c9568f668fe785fbc5" id="r_ad8187266986121c9568f668fe785fbc5"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2">MR::ObjectVoxels::VolumeRenderingParams::AlphaType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8187266986121c9568f668fe785fbc5">Constant</a></td></tr>
+<tr class="memitem:ad8187266986121c9568f668fe785fbc5" id="r_ad8187266986121c9568f668fe785fbc5"><td class="memItemLeft" align="right" valign="top"><a id="ad8187266986121c9568f668fe785fbc5" name="ad8187266986121c9568f668fe785fbc5"></a>
+enum MR::ObjectVoxels::VolumeRenderingParams::AlphaType&#160;</td><td class="memItemRight" valign="bottom"><b>Constant</b></td></tr>
 <tr class="separator:ad8187266986121c9568f668fe785fbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3020a0b0e97313d239308d5d16c7f9f3" id="r_a3020a0b0e97313d239308d5d16c7f9f3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3020a0b0e97313d239308d5d16c7f9f3">alphaLimit</a> { 10 }</td></tr>
+<tr class="memitem:a3020a0b0e97313d239308d5d16c7f9f3" id="r_a3020a0b0e97313d239308d5d16c7f9f3"><td class="memItemLeft" align="right" valign="top"><a id="a3020a0b0e97313d239308d5d16c7f9f3" name="a3020a0b0e97313d239308d5d16c7f9f3"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>alphaLimit</b> { 10 }</td></tr>
 <tr class="separator:a3020a0b0e97313d239308d5d16c7f9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="afeb3f512bbe9f60f21c71753b179adc2" name="afeb3f512bbe9f60f21c71753b179adc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeb3f512bbe9f60f21c71753b179adc2">&#9670;&#160;</a></span>AlphaType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2">MR::ObjectVoxels::VolumeRenderingParams::AlphaType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255" name="afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255"></a>Constant&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd" name="afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd"></a>LinearIncreasing&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae" name="afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae"></a>LinearDecreasing&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ac2eccd63ca988ff87e0d09c1729effd5" name="ac2eccd63ca988ff87e0d09c1729effd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2eccd63ca988ff87e0d09c1729effd5">&#9670;&#160;</a></span>LutType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5">MR::ObjectVoxels::VolumeRenderingParams::LutType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa" name="ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa"></a>GrayShades&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c" name="ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c"></a>Rainbow&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109" name="ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109"></a>OneColor&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a0b40e31d1a019aab3cc599a4440216cf" name="a0b40e31d1a019aab3cc599a4440216cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b40e31d1a019aab3cc599a4440216cf">&#9670;&#160;</a></span>ShadingType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cf">MR::ObjectVoxels::VolumeRenderingParams::ShadingType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754" name="a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300" name="a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300"></a>ValueGradient&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87" name="a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87"></a>AlphaGradient&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab5aeef5b1c53656f8816af392af3ec46" name="ab5aeef5b1c53656f8816af392af3ec46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5aeef5b1c53656f8816af392af3ec46">&#9670;&#160;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::ObjectVoxels::VolumeRenderingParams::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3020a0b0e97313d239308d5d16c7f9f3" name="a3020a0b0e97313d239308d5d16c7f9f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3020a0b0e97313d239308d5d16c7f9f3">&#9670;&#160;</a></span>alphaLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t MR::ObjectVoxels::VolumeRenderingParams::alphaLimit { 10 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad8187266986121c9568f668fe785fbc5" name="ad8187266986121c9568f668fe785fbc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8187266986121c9568f668fe785fbc5">&#9670;&#160;</a></span>Constant</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2">MR::ObjectVoxels::VolumeRenderingParams::AlphaType</a> MR::ObjectVoxels::VolumeRenderingParams::Constant</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0b2551180d44dd12a9dd8b6f79cbd010" name="a0b2551180d44dd12a9dd8b6f79cbd010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2551180d44dd12a9dd8b6f79cbd010">&#9670;&#160;</a></span>max</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::ObjectVoxels::VolumeRenderingParams::max { 0.0f }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa82f2dbcab6b825daff1c52d575ca2fa" name="aa82f2dbcab6b825daff1c52d575ca2fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82f2dbcab6b825daff1c52d575ca2fa">&#9670;&#160;</a></span>min</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::ObjectVoxels::VolumeRenderingParams::min { 0.0f }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4d3b64c3be4b9df2a9728e5a097c8ad9" name="a4d3b64c3be4b9df2a9728e5a097c8ad9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d3b64c3be4b9df2a9728e5a097c8ad9">&#9670;&#160;</a></span>None</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cf">MR::ObjectVoxels::VolumeRenderingParams::ShadingType</a> MR::ObjectVoxels::VolumeRenderingParams::None</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae94f3eb91aef633aa6d0552e48b597a9" name="ae94f3eb91aef633aa6d0552e48b597a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae94f3eb91aef633aa6d0552e48b597a9">&#9670;&#160;</a></span>oneColor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Color.html">Color</a> MR::ObjectVoxels::VolumeRenderingParams::oneColor { <a class="el" href="structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75">Color::white</a>() }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a13e9afd17c798286cf4e6db027d0ecf9" name="a13e9afd17c798286cf4e6db027d0ecf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13e9afd17c798286cf4e6db027d0ecf9">&#9670;&#160;</a></span>Rainbow</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5">MR::ObjectVoxels::VolumeRenderingParams::LutType</a> MR::ObjectVoxels::VolumeRenderingParams::Rainbow</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad2b689ae32e79618fd422fa0fa7a80e9" name="ad2b689ae32e79618fd422fa0fa7a80e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2b689ae32e79618fd422fa0fa7a80e9">&#9670;&#160;</a></span>samplingStep</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::ObjectVoxels::VolumeRenderingParams::samplingStep { -1.0f }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa2018932b0f46e90f13ac5b75b7eaed9" name="aa2018932b0f46e90f13ac5b75b7eaed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2018932b0f46e90f13ac5b75b7eaed9">&#9670;&#160;</a></span>volumeFilterType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">FilterType</a> MR::ObjectVoxels::VolumeRenderingParams::volumeFilterType { <a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b">FilterType::Linear</a> }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRObjectVoxels_8h_source.html">MRObjectVoxels.h</a></li>
 </ul>
@@ -444,7 +217,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a></li><li class="navelem"><a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a></li><li class="navelem"><a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -150,17 +150,17 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="contents">
 <div class="textblock"><p>Following code presents example of finding preceise collision triangles and edges of two meshes</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMakeSphereMesh_8h.html">MRMesh/MRMakeSphereMesh.h</a>&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMakeSphereMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMatrix3.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRAffineXf.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshCollidePrecise.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">auto</span> meshA = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a>(); <span class="comment">// make mesh A</span></div>
-<div class="line">    <span class="keyword">auto</span> meshB = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a>(); <span class="comment">// make mesh B</span></div>
+<div class="line">    <span class="keyword">auto</span> meshA = MR::makeUVSphere(); <span class="comment">// make mesh A</span></div>
+<div class="line">    <span class="keyword">auto</span> meshB = MR::makeUVSphere(); <span class="comment">// make mesh B</span></div>
 <div class="line">    meshB.transform( MR::AffineXf3f::translation( MR::Vector3f( 0.1f, 0.1f, 0.1f ) ) ); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> converters = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124">MR::getVectorConverters</a>( meshA, meshB ); <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
@@ -175,11 +175,8 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">    }</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-<div class="ttc" id="aMRMakeSphereMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMakeSphereMesh_8h.html">MRMakeSphereMesh.h</a></div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga11d4ca955f1a62e15ebea578ffa83454"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454">MR::findCollidingEdgeTrisPrecise</a></div><div class="ttdeci">MRMESH_API PreciseCollisionResult findCollidingEdgeTrisPrecise(const MeshPart &amp;a, const MeshPart &amp;b, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gada6fc8da7b44241f0c208c2f2b085124"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124">MR::getVectorConverters</a></div><div class="ttdeci">MRMESH_API CoordinateConverters getVectorConverters(const MeshPart &amp;a)</div></div>
-<div class="ttc" id="anamespaceMR_html_a669b6772939a2427c2564e7a4a66b25e"><div class="ttname"><a href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></div><div class="ttdeci">MRMESH_API Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>
@@ -196,116 +193,83 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">    <span class="keywordflow">else</span>:</div>
 <div class="line">        print(<span class="stringliteral">&quot;triA:&quot;</span>,vet.tri().get(),<span class="stringliteral">&quot;edgeB:&quot;</span>,vet.edge.get())</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMakeSphereMesh_8h.html">MRCMesh/MRMakeSphereMesh.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRAffineXf_8h.html">MRCMesh/MRAffineXf.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMeshPart_8h.html">MRCMesh/MRMeshPart.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMeshCollidePrecise_8h.html">MRCMesh/MRMeshCollidePrecise.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRPrecisePredicates3_8h.html">MRCMesh/MRPrecisePredicates3.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRBitSet_8h.html">MRCMesh/MRBitSet.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__vector__MR__VarEdgeTri_8h.html">MRCMisc/std_vector_MR_VarEdgeTri.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMakeSphereMesh.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRAffineXf.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMesh.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMeshPart.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMeshCollidePrecise.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRPrecisePredicates3.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRBitSet.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_vector_MR_VarEdgeTri.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* meshA = <a class="code hl_functionRef" href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a>( NULL, NULL, NULL ); <span class="comment">// make mesh A</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* meshB = <a class="code hl_functionRef" href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a>( NULL, NULL, NULL ); <span class="comment">// make mesh B</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> shift = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#af2e653638a00b182a7c92d75e6380c93">MR_Vector3f_Construct_3</a>( 0.1f, 0.1f, 0.1f );</div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> xf = <a class="code hl_functionRef" href="./C/MRAffineXf_8h.html#a681c9904308f101a25d3cea705ed2bf6">MR_AffineXf3f_translation</a>( &amp;shift );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a>( meshB, &amp;xf, NULL ); <span class="comment">// shift mesh B for better demonstration</span></div>
+<div class="line">    MR_Mesh* meshA = MR_makeUVSphere( NULL, NULL, NULL ); <span class="comment">// make mesh A</span></div>
+<div class="line">    MR_Mesh* meshB = MR_makeUVSphere( NULL, NULL, NULL ); <span class="comment">// make mesh B</span></div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> shift = MR_Vector3f_Construct_3( 0.1f, 0.1f, 0.1f );</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> xf = MR_AffineXf3f_translation( &amp;shift );</div>
+<div class="line">    MR_Mesh_transform( meshB, &amp;xf, NULL ); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mpA = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( meshA, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mpB = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( meshB, NULL );</div>
+<div class="line">    MR_MeshPart* mpA = MR_MeshPart_Construct( meshA, NULL );</div>
+<div class="line">    MR_MeshPart* mpB = MR_MeshPart_Construct( meshB, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshBoolean_8h.html#a1d5f64a5e4478ee2148c84427aaaf552">MR_CoordinateConverters</a>* converters = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a189e3dabfd0a7a1ec3447323aaee4138">MR_getVectorConverters_3</a>( mpA, mpB, NULL );</div>
+<div class="line">    MR_CoordinateConverters* converters = MR_getVectorConverters_3( mpA, mpB, NULL );</div>
 <div class="line">    <span class="comment">// find each intersecting edge/triangle pair </span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3">MR_std_vector_MR_VarEdgeTri</a>* collidingFaceEdges = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a07231b1a365cde840b5f025fa69f8c10">MR_findCollidingEdgeTrisPrecise_5</a>(</div>
-<div class="line">        mpA, mpB, MR_PassBy_Copy, <a class="code hl_functionRef" href="./C/MRPrecisePredicates3_8h.html#af87bbfa78b23651f1c40980661bacc36">MR_CoordinateConverters_GetMutable_toInt</a>( converters ), NULL, NULL );</div>
+<div class="line">    MR_std_vector_MR_VarEdgeTri* collidingFaceEdges = MR_findCollidingEdgeTrisPrecise_5(</div>
+<div class="line">        mpA, mpB, MR_PassBy_Copy, MR_CoordinateConverters_GetMutable_toInt( converters ), NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// print pairs of edges triangles</span></div>
-<div class="line">    <span class="keywordflow">for</span> ( <a class="code hl_typedefRef" href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i = 0; i &lt; <a class="code hl_functionRef" href="./C/std__vector__MR__VarEdgeTri_8h.html#a64521c45e47fd335860a8a4d096952f4">MR_std_vector_MR_VarEdgeTri_Size</a>( collidingFaceEdges ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_VarEdgeTri_Size( collidingFaceEdges ); ++i )</div>
 <div class="line">    {</div>
-<div class="line">        <a class="code hl_typedefRef" href="./C/MRMeshCollidePrecise_8h.html#a926b482f5586e0d892907eb47615352d">MR_VarEdgeTri</a>* edgeTri = <a class="code hl_functionRef" href="./C/std__vector__MR__VarEdgeTri_8h.html#ae65cd5c9eab648f36d64fd2f4d04c616">MR_std_vector_MR_VarEdgeTri_MutableAt</a>( collidingFaceEdges, i );</div>
-<div class="line">        <span class="keywordtype">bool</span> edgeATriB = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a7bf4169a79f4c1f25a0e598248a12a6c">MR_VarEdgeTri_isEdgeATriB</a>( edgeTri );</div>
-<div class="line">        <a class="code hl_structRef" href="./C/structMR__FaceId.html">MR_FaceId</a> tri = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a83b28778fddb6ca528c8d8ca866097a3">MR_VarEdgeTri_tri</a>( edgeTri );</div>
+<div class="line">        MR_VarEdgeTri* edgeTri = MR_std_vector_MR_VarEdgeTri_MutableAt( collidingFaceEdges, i );</div>
+<div class="line">        <span class="keywordtype">bool</span> edgeATriB = MR_VarEdgeTri_isEdgeATriB( edgeTri );</div>
+<div class="line">        <a class="code hl_structRef" href="./C/structMR__FaceId.html">MR_FaceId</a> tri = MR_VarEdgeTri_tri( edgeTri );</div>
 <div class="line">        <span class="keywordflow">if</span> ( edgeATriB )</div>
-<div class="line">            fprintf( stdout, <span class="stringliteral">&quot;edgeA: %d, triB: %d\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRId_8h.html#a7117a281fc3ea43a90eb8c964d9ef660">MR_EdgeId_get</a>( <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a875f87e26ccd523d78c02e37555e2639">MR_VarEdgeTri_GetMutable_edge</a>( edgeTri ) ), *<a class="code hl_functionRef" href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a>( &amp;tri ) );</div>
+<div class="line">            fprintf( stdout, <span class="stringliteral">&quot;edgeA: %d, triB: %d\n&quot;</span>, *MR_EdgeId_get( MR_VarEdgeTri_GetMutable_edge( edgeTri ) ), *MR_FaceId_get( &amp;tri ) );</div>
 <div class="line">        <span class="keywordflow">else</span></div>
-<div class="line">            fprintf( stdout, <span class="stringliteral">&quot;triA: %d, edgeB: %d\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a>( &amp;tri ), *<a class="code hl_functionRef" href="./C/MRId_8h.html#a7117a281fc3ea43a90eb8c964d9ef660">MR_EdgeId_get</a>( <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a875f87e26ccd523d78c02e37555e2639">MR_VarEdgeTri_GetMutable_edge</a>( edgeTri ) ) );</div>
+<div class="line">            fprintf( stdout, <span class="stringliteral">&quot;triA: %d, edgeB: %d\n&quot;</span>, *MR_FaceId_get( &amp;tri ), *MR_EdgeId_get( MR_VarEdgeTri_GetMutable_edge( edgeTri ) ) );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/std__vector__MR__VarEdgeTri_8h.html#af2e719f55ef7307f5b3f72c3c3f7f09f">MR_std_vector_MR_VarEdgeTri_Destroy</a>( collidingFaceEdges );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRPrecisePredicates3_8h.html#a5d32c606d9b1291955941491aafd3e5c">MR_CoordinateConverters_Destroy</a>( converters );</div>
+<div class="line">    MR_std_vector_MR_VarEdgeTri_Destroy( collidingFaceEdges );</div>
+<div class="line">    MR_CoordinateConverters_Destroy( converters );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( mpB );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( mpA );</div>
+<div class="line">    MR_MeshPart_Destroy( mpB );</div>
+<div class="line">    MR_MeshPart_Destroy( mpA );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( meshB );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( meshA );</div>
+<div class="line">    MR_Mesh_Destroy( meshB );</div>
+<div class="line">    MR_Mesh_Destroy( meshA );</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRAABBTree_8h_html_af1ba30a3fa8a895c1f72e182f3e73e17"><div class="ttname"><a href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></div><div class="ttdeci">struct MR_MeshPart MR_MeshPart</div></div>
-<div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="./C/MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
-<div class="ttc" id="aMRAffineXf_8h_html_a681c9904308f101a25d3cea705ed2bf6"><div class="ttname"><a href="./C/MRAffineXf_8h.html#a681c9904308f101a25d3cea705ed2bf6">MR_AffineXf3f_translation</a></div><div class="ttdeci">MRC_API MR_AffineXf3f MR_AffineXf3f_translation(const MR_Vector3f *b)</div></div>
-<div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="./C/MRBitSet_8h.html">MRBitSet.h</a></div></div>
-<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRId_8h_html_a42a6f5b90c643e1e1e727f7aa39c37fd"><div class="ttname"><a href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a></div><div class="ttdeci">MRC_API int * MR_FaceId_get(MR_FaceId *_this)</div></div>
-<div class="ttc" id="aMRId_8h_html_a7117a281fc3ea43a90eb8c964d9ef660"><div class="ttname"><a href="./C/MRId_8h.html#a7117a281fc3ea43a90eb8c964d9ef660">MR_EdgeId_get</a></div><div class="ttdeci">MRC_API int * MR_EdgeId_get(MR_EdgeId *_this)</div></div>
-<div class="ttc" id="aMRIntersectionContour_8h_html_a1b4353d07e0d9c78080a20bc84d0ebf3"><div class="ttname"><a href="./C/MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3">MR_std_vector_MR_VarEdgeTri</a></div><div class="ttdeci">struct MR_std_vector_MR_VarEdgeTri MR_std_vector_MR_VarEdgeTri</div></div>
-<div class="ttc" id="aMRMakeSphereMesh_8h_html_a13d746bd629f411a1b204ed144e88ea6"><div class="ttname"><a href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeUVSphere(const float *radius, const int *horisontalResolution, const int *verticalResolution)</div></div>
-<div class="ttc" id="aMRMeshBoolean_8h_html_a1d5f64a5e4478ee2148c84427aaaf552"><div class="ttname"><a href="./C/MRMeshBoolean_8h.html#a1d5f64a5e4478ee2148c84427aaaf552">MR_CoordinateConverters</a></div><div class="ttdeci">struct MR_CoordinateConverters MR_CoordinateConverters</div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html">MRMeshCollidePrecise.h</a></div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html_a07231b1a365cde840b5f025fa69f8c10"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html#a07231b1a365cde840b5f025fa69f8c10">MR_findCollidingEdgeTrisPrecise_5</a></div><div class="ttdeci">MRC_API MR_std_vector_MR_VarEdgeTri * MR_findCollidingEdgeTrisPrecise_5(const MR_MeshPart *a, const MR_MeshPart *b, MR_PassBy conv_pass_by, MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref *conv, const MR_AffineXf3f *rigidB2A, const bool *anyIntersection)</div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html_a189e3dabfd0a7a1ec3447323aaee4138"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html#a189e3dabfd0a7a1ec3447323aaee4138">MR_getVectorConverters_3</a></div><div class="ttdeci">MRC_API MR_CoordinateConverters * MR_getVectorConverters_3(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A)</div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html_a7bf4169a79f4c1f25a0e598248a12a6c"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html#a7bf4169a79f4c1f25a0e598248a12a6c">MR_VarEdgeTri_isEdgeATriB</a></div><div class="ttdeci">MRC_API bool MR_VarEdgeTri_isEdgeATriB(const MR_VarEdgeTri *_this)</div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html_a83b28778fddb6ca528c8d8ca866097a3"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html#a83b28778fddb6ca528c8d8ca866097a3">MR_VarEdgeTri_tri</a></div><div class="ttdeci">MRC_API MR_FaceId MR_VarEdgeTri_tri(const MR_VarEdgeTri *_this)</div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html_a875f87e26ccd523d78c02e37555e2639"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html#a875f87e26ccd523d78c02e37555e2639">MR_VarEdgeTri_GetMutable_edge</a></div><div class="ttdeci">MRC_API MR_EdgeId * MR_VarEdgeTri_GetMutable_edge(MR_VarEdgeTri *_this)</div></div>
-<div class="ttc" id="aMRMeshCollidePrecise_8h_html_a926b482f5586e0d892907eb47615352d"><div class="ttname"><a href="./C/MRMeshCollidePrecise_8h.html#a926b482f5586e0d892907eb47615352d">MR_VarEdgeTri</a></div><div class="ttdeci">struct MR_VarEdgeTri MR_VarEdgeTri</div></div>
-<div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="./C/MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
-<div class="ttc" id="aMRMeshPart_8h_html_aa166b642217494c14ed7f285e1b0fe56"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshPart_Destroy(const MR_MeshPart *_this)</div></div>
-<div class="ttc" id="aMRMeshPart_8h_html_aeeedbba2bfc476ada96fa53559390476"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a></div><div class="ttdeci">MRC_API MR_MeshPart * MR_MeshPart_Construct(const MR_Mesh *m, const MR_FaceBitSet *bs)</div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
-<div class="ttc" id="aMRMesh_8h_html_a0946724aa4818c028be83125b2858446"><div class="ttname"><a href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a></div><div class="ttdeci">MRC_API void MR_Mesh_transform(MR_Mesh *_this, const MR_AffineXf3f *xf, const MR_VertBitSet *region)</div></div>
-<div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
-<div class="ttc" id="aMRPrecisePredicates3_8h_html"><div class="ttname"><a href="./C/MRPrecisePredicates3_8h.html">MRPrecisePredicates3.h</a></div></div>
-<div class="ttc" id="aMRPrecisePredicates3_8h_html_a5d32c606d9b1291955941491aafd3e5c"><div class="ttname"><a href="./C/MRPrecisePredicates3_8h.html#a5d32c606d9b1291955941491aafd3e5c">MR_CoordinateConverters_Destroy</a></div><div class="ttdeci">MRC_API void MR_CoordinateConverters_Destroy(const MR_CoordinateConverters *_this)</div></div>
-<div class="ttc" id="aMRPrecisePredicates3_8h_html_af87bbfa78b23651f1c40980661bacc36"><div class="ttname"><a href="./C/MRPrecisePredicates3_8h.html#af87bbfa78b23651f1c40980661bacc36">MR_CoordinateConverters_GetMutable_toInt</a></div><div class="ttdeci">MRC_API MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref * MR_CoordinateConverters_GetMutable_toInt(MR_CoordinateConverters *_this)</div></div>
-<div class="ttc" id="aMRVector3_8h_html_af2e653638a00b182a7c92d75e6380c93"><div class="ttname"><a href="./C/MRVector3_8h.html#af2e653638a00b182a7c92d75e6380c93">MR_Vector3f_Construct_3</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Vector3f_Construct_3(float x, float y, float z)</div></div>
-<div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div></div>
-<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
-<div class="ttc" id="astd__vector__MR__VarEdgeTri_8h_html"><div class="ttname"><a href="./C/std__vector__MR__VarEdgeTri_8h.html">std_vector_MR_VarEdgeTri.h</a></div></div>
-<div class="ttc" id="astd__vector__MR__VarEdgeTri_8h_html_a64521c45e47fd335860a8a4d096952f4"><div class="ttname"><a href="./C/std__vector__MR__VarEdgeTri_8h.html#a64521c45e47fd335860a8a4d096952f4">MR_std_vector_MR_VarEdgeTri_Size</a></div><div class="ttdeci">MRC_API size_t MR_std_vector_MR_VarEdgeTri_Size(const MR_std_vector_MR_VarEdgeTri *_this)</div></div>
-<div class="ttc" id="astd__vector__MR__VarEdgeTri_8h_html_ae65cd5c9eab648f36d64fd2f4d04c616"><div class="ttname"><a href="./C/std__vector__MR__VarEdgeTri_8h.html#ae65cd5c9eab648f36d64fd2f4d04c616">MR_std_vector_MR_VarEdgeTri_MutableAt</a></div><div class="ttdeci">MRC_API MR_VarEdgeTri * MR_std_vector_MR_VarEdgeTri_MutableAt(MR_std_vector_MR_VarEdgeTri *_this, size_t i)</div></div>
-<div class="ttc" id="astd__vector__MR__VarEdgeTri_8h_html_af2e719f55ef7307f5b3f72c3c3f7f09f"><div class="ttname"><a href="./C/std__vector__MR__VarEdgeTri_8h.html#af2e719f55ef7307f5b3f72c3c3f7f09f">MR_std_vector_MR_VarEdgeTri_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_vector_MR_VarEdgeTri_Destroy(const MR_std_vector_MR_VarEdgeTri *_this)</div></div>
 <div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a></div></div>
 <div class="ttc" id="astructMR__FaceId_html"><div class="ttname"><a href="./C/structMR__FaceId.html">MR_FaceId</a></div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>;</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>;</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionPrecise {</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args) {</div>
-<div class="line">        var meshA = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere();</div>
-<div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere();</div>
+<div class="line">        var meshA = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeUVSphere();</div>
+<div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeUVSphere();</div>
 <div class="line"> </div>
-<div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f(0.1f, 0.1f, 0.1f)));</div>
+<div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.AffineXf3f.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3f(0.1f, 0.1f, 0.1f)));</div>
 <div class="line"> </div>
 <div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
 <div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
 <div class="line"> </div>
 <div class="line">        Console.WriteLine(<span class="stringliteral">&quot; --- Beginning Colliding Precise Test! --- &quot;</span>);</div>
-<div class="line">        var converters = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.getVectorConverters(meshPartA, meshPartB).toInt;</div>
-<div class="line">        var collidingFaceEdges = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingEdgeTrisPrecise(meshPartA, meshPartB, converters);</div>
+<div class="line">        var converters = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.getVectorConverters(meshPartA, meshPartB).toInt;</div>
+<div class="line">        var collidingFaceEdges = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.findCollidingEdgeTrisPrecise(meshPartA, meshPartB, converters);</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFaceEdges.size(); i++) {</div>
 <div class="line">            var vet = collidingFaceEdges[i];</div>
@@ -316,19 +280,19 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">            Console.WriteLine(text);</div>
 <div class="line">        }</div>
 <div class="line"> </div>
-<div class="line">        var collidingFaceBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangleBitsets(meshPartA, meshPartB);</div>
+<div class="line">        var collidingFaceBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.findCollidingTriangleBitsets(meshPartA, meshPartB);</div>
 <div class="line">        var bitSet = collidingFaceBitSet.first();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshA: {bitSet.count()}&quot;</span>);</div>
 <div class="line">        bitSet = collidingFaceBitSet.second();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.count()}&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).isEmpty();</div>
+<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).isEmpty();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Is Colliding: {isColliding}\n&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">}</div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

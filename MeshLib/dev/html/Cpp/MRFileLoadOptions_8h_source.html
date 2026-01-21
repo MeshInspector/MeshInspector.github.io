@@ -148,14 +148,14 @@ $(function(){initNavTree('MRFileLoadOptions_8h_source.html',''); initResizable(t
   <div class="headertitle"><div class="title">MRFileLoadOptions.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRFileLoadOptions_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewerFwd_8h.html">MRViewerFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRViewerFwd.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span>MR</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="namespaceMR.html#a23cad89260f563924fc2715e193959c5">    8</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a23cad89260f563924fc2715e193959c5">FilesLoadedCallback</a> = std::function&lt;void( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objs, <span class="keyword">const</span> std::string&amp; errors, <span class="keyword">const</span> std::string&amp; warnings )&gt;;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using </span>FilesLoadedCallback = std::function&lt;void( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objs, <span class="keyword">const</span> std::string&amp; errors, <span class="keyword">const</span> std::string&amp; warnings )&gt;;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1FileLoadOptions.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FileLoadOptions.html">FileLoadOptions</a></div>
@@ -166,27 +166,22 @@ $(function(){initNavTree('MRFileLoadOptions_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4">   15</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4">ReplaceMode</a></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <a class="code hl_enumvalue" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820">ContructionBased</a>, </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <a class="code hl_enumvalue" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450">ForceReplace</a>,</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <a class="code hl_enumvalue" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27">ForceAdd</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        ForceReplace,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        ForceAdd</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    };</div>
 </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1FileLoadOptions.html#a5cd3108431699d08603db992a2a923fc">   23</a></span>    <a class="code hl_enumeration" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4">ReplaceMode</a> <a class="code hl_variable" href="structMR_1_1FileLoadOptions.html#a5cd3108431699d08603db992a2a923fc">replaceMode</a> = <a class="code hl_enumvalue" href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820">ReplaceMode::ContructionBased</a>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4">   27</a></span>    <a class="code hl_typedef" href="namespaceMR.html#a23cad89260f563924fc2715e193959c5">FilesLoadedCallback</a> <a class="code hl_variable" href="structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4">loadedCallback</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4">   27</a></span>    FilesLoadedCallback <a class="code hl_variable" href="structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4">loadedCallback</a>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a23cad89260f563924fc2715e193959c5"><div class="ttname"><a href="namespaceMR.html#a23cad89260f563924fc2715e193959c5">MR::FilesLoadedCallback</a></div><div class="ttdeci">std::function&lt; void(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objs, const std::string &amp;errors, const std::string &amp;warnings)&gt; FilesLoadedCallback</div><div class="ttdef"><b>Definition</b> MRFileLoadOptions.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FileLoadOptions_html"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html">MR::FileLoadOptions</a></div><div class="ttdef"><b>Definition</b> MRFileLoadOptions.h:11</div></div>
 <div class="ttc" id="astructMR_1_1FileLoadOptions_html_a4f4d8061842e6e46c5aab4e281bf1ad4"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4">MR::FileLoadOptions::loadedCallback</a></div><div class="ttdeci">FilesLoadedCallback loadedCallback</div><div class="ttdef"><b>Definition</b> MRFileLoadOptions.h:27</div></div>
 <div class="ttc" id="astructMR_1_1FileLoadOptions_html_a4febf8fb2b21426b895c77148a5ed6f4"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4">MR::FileLoadOptions::ReplaceMode</a></div><div class="ttdeci">ReplaceMode</div><div class="ttdef"><b>Definition</b> MRFileLoadOptions.h:16</div></div>
 <div class="ttc" id="astructMR_1_1FileLoadOptions_html_a4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820">MR::FileLoadOptions::ReplaceMode::ContructionBased</a></div><div class="ttdeci">@ ContructionBased</div><div class="ttdoc">replace current scene if new one was loaded from single scene file</div></div>
-<div class="ttc" id="astructMR_1_1FileLoadOptions_html_a4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450">MR::FileLoadOptions::ReplaceMode::ForceReplace</a></div><div class="ttdeci">@ ForceReplace</div></div>
-<div class="ttc" id="astructMR_1_1FileLoadOptions_html_a4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#a4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27">MR::FileLoadOptions::ReplaceMode::ForceAdd</a></div><div class="ttdeci">@ ForceAdd</div></div>
 <div class="ttc" id="astructMR_1_1FileLoadOptions_html_a5cd3108431699d08603db992a2a923fc"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#a5cd3108431699d08603db992a2a923fc">MR::FileLoadOptions::replaceMode</a></div><div class="ttdeci">ReplaceMode replaceMode</div><div class="ttdoc">Determines how to deal with current scene after loading new one.</div><div class="ttdef"><b>Definition</b> MRFileLoadOptions.h:23</div></div>
 <div class="ttc" id="astructMR_1_1FileLoadOptions_html_ac870f86b867d1f462ca29dfd23d4e761"><div class="ttname"><a href="structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761">MR::FileLoadOptions::undoPrefix</a></div><div class="ttdeci">const char * undoPrefix</div><div class="ttdoc">first part of undo name</div><div class="ttdef"><b>Definition</b> MRFileLoadOptions.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -195,7 +190,7 @@ $(function(){initNavTree('MRFileLoadOptions_8h_source.html',''); initResizable(t
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRFileLoadOptions_8h.html">MRFileLoadOptions.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><b>MRFileLoadOptions.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

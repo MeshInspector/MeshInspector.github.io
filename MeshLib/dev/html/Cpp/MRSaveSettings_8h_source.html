@@ -148,18 +148,18 @@ $(function(){initNavTree('MRSaveSettings_8h_source.html',''); initResizable(true
   <div class="headertitle"><div class="title">MRSaveSettings.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRSaveSettings_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRProgressCallback.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRAffineXf3_8h.html">MRAffineXf3.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector_8h.html">MRVector.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRUnitInfo_8h.html">MRUnitInfo.h</a>&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRColor_8h.html">MRColor.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRProgressCallback.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRAffineXf3.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRId.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRVector.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRUnitInfo.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRColor.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span>MR</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
@@ -191,43 +191,35 @@ $(function(){initNavTree('MRSaveSettings_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
 </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="namespaceMR.html#a423dfbb3e8fe2d355d3569c58f27881f">   62</a></span><span class="keyword">inline</span> Vector3f <a class="code hl_function" href="namespaceMR.html#a423dfbb3e8fe2d355d3569c58f27881f">applyFloat</a>( <span class="keyword">const</span> AffineXf3d * xf, <span class="keyword">const</span> Vector3f &amp; p )</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">inline</span> Vector3f applyFloat( <span class="keyword">const</span> AffineXf3d * xf, <span class="keyword">const</span> Vector3f &amp; p )</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">return</span> xf ? Vector3f( (*xf)( Vector3d( p ) ) ) : p;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
-</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="namespaceMR.html#acc1d104ed2e275977cf878d68073c9b2">   68</a></span><span class="keyword">inline</span> Vector3f <a class="code hl_function" href="namespaceMR.html#a423dfbb3e8fe2d355d3569c58f27881f">applyFloat</a>( <span class="keyword">const</span> Matrix3d * m, <span class="keyword">const</span> Vector3f &amp; n )</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">inline</span> Vector3f applyFloat( <span class="keyword">const</span> Matrix3d * m, <span class="keyword">const</span> Vector3f &amp; n )</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>{</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">return</span> m ? Vector3f( *m * Vector3d( n ) ) : n;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
-</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="foldopen" id="foldopen00074" data-start="{" data-end="}">
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7aba106487b0adfd357e9232e18a922f">   74</a></span><span class="keyword">inline</span> Vector3d <a class="code hl_function" href="namespaceMR.html#a7aba106487b0adfd357e9232e18a922f">applyDouble</a>( <span class="keyword">const</span> AffineXf3d * xf, <span class="keyword">const</span> Vector3f &amp; p )</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">inline</span> Vector3d applyDouble( <span class="keyword">const</span> AffineXf3d * xf, <span class="keyword">const</span> Vector3f &amp; p )</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>{</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    Vector3d pd( p );</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> xf ? (*xf)( pd ) : pd;</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
-</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="foldopen" id="foldopen00081" data-start="{" data-end="}">
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7b5f265567104240be13bb0adc6d84f7">   81</a></span><span class="keyword">inline</span> Vector3d <a class="code hl_function" href="namespaceMR.html#a7aba106487b0adfd357e9232e18a922f">applyDouble</a>( <span class="keyword">const</span> Matrix3d * m, <span class="keyword">const</span> Vector3f &amp; n )</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">inline</span> Vector3d applyDouble( <span class="keyword">const</span> Matrix3d * m, <span class="keyword">const</span> Vector3f &amp; n )</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>{</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    Vector3d nd( n );</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordflow">return</span> m ? *m * nd : nd;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
-</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
 <div class="foldopen" id="foldopen00088" data-start="{" data-end="};">
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classMR_1_1VertRenumber.html">   88</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1VertRenumber.html">VertRenumber</a></div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>{</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classMR_1_1VertRenumber.html#a081d0a8f3933dd73ee062863c3644aa1">   92</a></span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_function" href="classMR_1_1VertRenumber.html#a081d0a8f3933dd73ee062863c3644aa1">VertRenumber</a>( <span class="keyword">const</span> VertBitSet &amp; validVerts, <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644">saveValidOnly</a> );</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classMR_1_1VertRenumber.html#a081d0a8f3933dd73ee062863c3644aa1">   92</a></span>    MRMESH_API <a class="code hl_function" href="classMR_1_1VertRenumber.html#a081d0a8f3933dd73ee062863c3644aa1">VertRenumber</a>( <span class="keyword">const</span> VertBitSet &amp; validVerts, <span class="keywordtype">bool</span> saveValidOnly );</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644">   94</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644">saveValidOnly</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> !vert2packed_.<a class="code hl_function" href="classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b">empty</a>(); }</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">bool</span> saveValidOnly()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> !vert2packed_.empty(); }</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="classMR_1_1VertRenumber.html#a1804a1dca0466765918892c65d9436f0">   97</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classMR_1_1VertRenumber.html#a1804a1dca0466765918892c65d9436f0">sizeVerts</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> sizeVerts_; }</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
@@ -235,7 +227,7 @@ $(function(){initNavTree('MRSaveSettings_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classMR_1_1VertRenumber.html#a4180132d13f552ef422f73a2ad0c6bdc">  100</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classMR_1_1VertRenumber.html#a4180132d13f552ef422f73a2ad0c6bdc">operator()</a>( VertId v )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        assert( v );</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordflow">return</span> vert2packed_.<a class="code hl_function" href="classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b">empty</a>() ? (int)v : vert2packed_[v];</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordflow">return</span> vert2packed_.empty() ? (int)v : vert2packed_[v];</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
 </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
@@ -245,32 +237,18 @@ $(function(){initNavTree('MRSaveSettings_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
 </div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="namespaceMR.html#abd32e37d07e3aaa58297c5f0168825a4">  113</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> VertCoords &amp; <a class="code hl_function" href="namespaceMR.html#abd32e37d07e3aaa58297c5f0168825a4">transformPoints</a>( <span class="keyword">const</span> VertCoords &amp; verts, <span class="keyword">const</span> VertBitSet &amp; validVerts, <span class="keyword">const</span> AffineXf3d * xf, VertCoords &amp; buf,</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1VertRenumber.html">VertRenumber</a> * vertRenumber = <span class="keyword">nullptr</span> );</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>MRMESH_API <span class="keyword">const</span> VertCoords &amp; transformPoints( <span class="keyword">const</span> VertCoords &amp; verts, <span class="keyword">const</span> VertBitSet &amp; validVerts, <span class="keyword">const</span> AffineXf3d * xf, VertCoords &amp; buf,</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keyword">const</span> VertRenumber * vertRenumber = <span class="keyword">nullptr</span> );</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaaf0654d94eb8f4d35be77facbbf5acc">  118</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> VertNormals &amp; <a class="code hl_function" href="namespaceMR.html#aaaf0654d94eb8f4d35be77facbbf5acc">transformNormals</a>( <span class="keyword">const</span> VertNormals &amp; normals, <span class="keyword">const</span> VertBitSet &amp; validVerts, <span class="keyword">const</span> Matrix3d * m, VertNormals &amp; buf );</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>MRMESH_API <span class="keyword">const</span> VertNormals &amp; transformNormals( <span class="keyword">const</span> VertNormals &amp; normals, <span class="keyword">const</span> VertBitSet &amp; validVerts, <span class="keyword">const</span> Matrix3d * m, VertNormals &amp; buf );</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
-<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aMRMesh_2MRColor_8h_html"><div class="ttname"><a href="MRMesh_2MRColor_8h.html">MRColor.h</a></div></div>
-<div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
-<div class="ttc" id="aMRUnitInfo_8h_html"><div class="ttname"><a href="MRUnitInfo_8h.html">MRUnitInfo.h</a></div></div>
-<div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_ac4b153c69fb7b5e1466b10723dd2f35b"><div class="ttname"><a href="classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b">MR::Vector::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition</b> MRVector.h:49</div></div>
 <div class="ttc" id="aclassMR_1_1VertRenumber_html"><div class="ttname"><a href="classMR_1_1VertRenumber.html">MR::VertRenumber</a></div><div class="ttdoc">maps valid points to packed sequential indices</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:89</div></div>
 <div class="ttc" id="aclassMR_1_1VertRenumber_html_a081d0a8f3933dd73ee062863c3644aa1"><div class="ttname"><a href="classMR_1_1VertRenumber.html#a081d0a8f3933dd73ee062863c3644aa1">MR::VertRenumber::VertRenumber</a></div><div class="ttdeci">MRMESH_API VertRenumber(const VertBitSet &amp;validVerts, bool saveValidOnly)</div><div class="ttdoc">prepares the mapping</div></div>
 <div class="ttc" id="aclassMR_1_1VertRenumber_html_a1804a1dca0466765918892c65d9436f0"><div class="ttname"><a href="classMR_1_1VertRenumber.html#a1804a1dca0466765918892c65d9436f0">MR::VertRenumber::sizeVerts</a></div><div class="ttdeci">int sizeVerts() const</div><div class="ttdoc">return the total number of vertices to be saved</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:97</div></div>
 <div class="ttc" id="aclassMR_1_1VertRenumber_html_a4180132d13f552ef422f73a2ad0c6bdc"><div class="ttname"><a href="classMR_1_1VertRenumber.html#a4180132d13f552ef422f73a2ad0c6bdc">MR::VertRenumber::operator()</a></div><div class="ttdeci">int operator()(VertId v) const</div><div class="ttdoc">return packed index (if saveValidOnly = true) or same index (if saveValidOnly = false)</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:100</div></div>
-<div class="ttc" id="aclassMR_1_1VertRenumber_html_a5ee74de7f5fdfc7a5230e3326b122644"><div class="ttname"><a href="classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644">MR::VertRenumber::saveValidOnly</a></div><div class="ttdeci">bool saveValidOnly() const</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:94</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:742</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a423dfbb3e8fe2d355d3569c58f27881f"><div class="ttname"><a href="namespaceMR.html#a423dfbb3e8fe2d355d3569c58f27881f">MR::applyFloat</a></div><div class="ttdeci">Vector3f applyFloat(const AffineXf3d *xf, const Vector3f &amp;p)</div><div class="ttdoc">returns the point as is or after application of given transform to it in double precision</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:62</div></div>
-<div class="ttc" id="anamespaceMR_html_a7aba106487b0adfd357e9232e18a922f"><div class="ttname"><a href="namespaceMR.html#a7aba106487b0adfd357e9232e18a922f">MR::applyDouble</a></div><div class="ttdeci">Vector3d applyDouble(const AffineXf3d *xf, const Vector3f &amp;p)</div><div class="ttdoc">converts given point in double precision and applies given transformation to it</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:74</div></div>
-<div class="ttc" id="anamespaceMR_html_aaaf0654d94eb8f4d35be77facbbf5acc"><div class="ttname"><a href="namespaceMR.html#aaaf0654d94eb8f4d35be77facbbf5acc">MR::transformNormals</a></div><div class="ttdeci">MRMESH_API const VertNormals &amp; transformNormals(const VertNormals &amp;normals, const VertBitSet &amp;validVerts, const Matrix3d *m, VertNormals &amp;buf)</div></div>
-<div class="ttc" id="anamespaceMR_html_abd32e37d07e3aaa58297c5f0168825a4"><div class="ttname"><a href="namespaceMR.html#abd32e37d07e3aaa58297c5f0168825a4">MR::transformPoints</a></div><div class="ttdeci">MRMESH_API const VertCoords &amp; transformPoints(const VertCoords &amp;verts, const VertBitSet &amp;validVerts, const AffineXf3d *xf, VertCoords &amp;buf, const VertRenumber *vertRenumber=nullptr)</div></div>
 <div class="ttc" id="astructMR_1_1MeshTexture_html"><div class="ttname"><a href="structMR_1_1MeshTexture.html">MR::MeshTexture</a></div><div class="ttdef"><b>Definition</b> MRMeshTexture.h:13</div></div>
 <div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:17</div></div>
 <div class="ttc" id="astructMR_1_1SaveSettings_html_a0cd4cf82acb2f094f43f785282fcb76a"><div class="ttname"><a href="structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a">MR::SaveSettings::texture</a></div><div class="ttdeci">const MeshTexture * texture</div><div class="ttdoc">optional texture to save with the geometry</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:43</div></div>
@@ -291,7 +269,7 @@ $(function(){initNavTree('MRSaveSettings_8h_source.html',''); initResizable(true
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRSaveSettings_8h.html">MRSaveSettings.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRSaveSettings.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
