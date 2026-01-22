@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1Const__EdgeColors.html#afb0e3b11e77b9acd91fd052b88c224a6":[6,3,0,0,0,2713,16],
+"classMR_1_1Const__EdgeId.html":[6,3,0,0,0,2714],
 "classMR_1_1Const__EdgeId.html#a14b55a02574270723054eb4dfe638d34":[6,3,0,0,0,2714,21],
 "classMR_1_1Const__EdgeId.html#a166c27cab1b31a569e0455cad69b2659":[6,3,0,0,0,2714,9],
 "classMR_1_1Const__EdgeId.html#a24b4392835bd3ea67b9da8ec9ab52b1c":[6,3,0,0,0,2714,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1Const__Expected__MRAffineXf3f__StdString.html#a5453bbee0e2319673f00bfe4f595eb58":[6,3,0,0,0,2732,4],
 "classMR_1_1Const__Expected__MRAffineXf3f__StdString.html#afbcbe7ed082fce2b9f7742d5b9bc58cc":[6,3,0,0,0,2732,3],
 "classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html":[6,3,0,0,0,2733],
-"classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#a23650a809b9801023dad475fadcdb27c":[6,3,0,0,0,2733,1],
-"classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#aa941dd1c1553b35f88aea207c56912e8":[6,3,0,0,0,2733,0],
-"classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#ac86fb4722be98d634d4cac6f8773312b":[6,3,0,0,0,2733,3]
+"classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#a23650a809b9801023dad475fadcdb27c":[6,3,0,0,0,2733,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX148 =
 {
+"classMR_1_1__InOptConst__MapOrHashMap__MREdgeId__MREdgeId.html":[6,3,0,0,0,1065],
+"classMR_1_1__InOptConst__MapOrHashMap__MRFaceId__MRFaceId.html":[6,3,0,0,0,1066],
 "classMR_1_1__InOptConst__MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html":[6,3,0,0,0,1067],
 "classMR_1_1__InOptConst__MapOrHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId.html":[6,3,0,0,0,1068],
 "classMR_1_1__InOptConst__MapOrHashMap__MRVertId__MRVertId.html":[6,3,0,0,0,1069],
@@ -247,7 +249,5 @@ var NAVTREEINDEX148 =
 "classMR_1_1__InOptConst__Polynomial__Float__2.html":[6,3,0,0,0,1285],
 "classMR_1_1__InOptConst__Polynomial__Float__3.html":[6,3,0,0,0,1286],
 "classMR_1_1__InOptConst__Polynomial__Float__4.html":[6,3,0,0,0,1287],
-"classMR_1_1__InOptConst__Polynomial__Float__5.html":[6,3,0,0,0,1288],
-"classMR_1_1__InOptConst__Polynomial__Float__6.html":[6,3,0,0,0,1289],
-"classMR_1_1__InOptConst__PositionVertsSmoothlyParams.html":[6,3,0,0,0,1293]
+"classMR_1_1__InOptConst__Polynomial__Float__5.html":[6,3,0,0,0,1288]
 };

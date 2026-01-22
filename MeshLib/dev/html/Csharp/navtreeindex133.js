@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1Std_1_1__InOptMut__Vector__StdArrayStdFilesystemPath4.html":[6,3,0,0,0,3804,893],
+"classMR_1_1Std_1_1__InOptMut__Vector__StdFilesystemPath.html":[6,3,0,0,0,3804,894],
 "classMR_1_1Std_1_1__InOptMut__Vector__StdPairDoubleInt.html":[6,3,0,0,0,3804,895],
 "classMR_1_1Std_1_1__InOptMut__Vector__StdPairMREdgeIdMREdgeId.html":[6,3,0,0,0,3804,896],
 "classMR_1_1Std_1_1__InOptMut__Vector__StdPairMRUint64TMRUint64T.html":[6,3,0,0,0,3804,897],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1SymMatrix4i.html#a25ac63fe35f34f85395348a0f1dd71d7":[6,3,0,0,0,3820,8],
 "classMR_1_1SymMatrix4i.html#a2a103d5721aea9182964546c4eb863f8":[6,3,0,0,0,3820,14],
 "classMR_1_1SymMatrix4i.html#a3d2d5e31ca94ab0b29dc0f6d66f5faca":[6,3,0,0,0,3820,13],
-"classMR_1_1SymMatrix4i.html#a4ef2acaf8925f92aad602d904e67ff0e":[6,3,0,0,0,3820,7],
-"classMR_1_1SymMatrix4i.html#a56254041328f44044d86e559911da60e":[6,3,0,0,0,3820,0],
-"classMR_1_1SymMatrix4i.html#a6e6cdc26aed2f532148566c59e18b56d":[6,3,0,0,0,3820,16]
+"classMR_1_1SymMatrix4i.html#a4ef2acaf8925f92aad602d904e67ff0e":[6,3,0,0,0,3820,7]
 };

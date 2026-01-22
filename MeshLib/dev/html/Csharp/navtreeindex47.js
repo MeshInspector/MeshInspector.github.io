@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1Const__TextureBitSet.html#a90dd968d1d5226e9af58828722c7414a":[6,3,0,0,0,3233,7],
+"classMR_1_1Const__TextureBitSet.html#a91a7d27546b7bfa3519d8992152c472c":[6,3,0,0,0,3233,9],
 "classMR_1_1Const__TextureBitSet.html#a9425bd38b71a9178ab426928303018b7":[6,3,0,0,0,3233,32],
 "classMR_1_1Const__TextureBitSet.html#a9ffd91d216a157358d9e03a34c3defaf":[6,3,0,0,0,3233,24],
 "classMR_1_1Const__TextureBitSet.html#aac627af4a5fe86280397a11e65981240":[6,3,0,0,0,3233,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__UiRenderParams.html#ae91c3b9c2bf31610726774cde70c03ab":[6,3,0,0,0,3257,1],
 "classMR_1_1Const__UiRenderParams.html#afeed344b045b2afe7accd804f5aa9bb6":[6,3,0,0,0,3257,0],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html":[6,3,0,0,0,3267],
-"classMR_1_1Const__UndirEdgeColorMapAggregator.html#a443958c4c21c753228e1993a11878b81":[6,3,0,0,0,3267,1],
-"classMR_1_1Const__UndirEdgeColorMapAggregator.html#ab03ae85f24926c0748a88c384bd89c2a":[6,3,0,0,0,3267,0],
-"classMR_1_1Const__UndirectedEdge2RegionMap.html":[6,3,0,0,0,3258]
+"classMR_1_1Const__UndirEdgeColorMapAggregator.html#a443958c4c21c753228e1993a11878b81":[6,3,0,0,0,3267,1]
 };

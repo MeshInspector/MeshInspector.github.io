@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"classMR_1_1__ByValue__LoadedObjectT__MRObjectVoxels.html":[6,3,0,0,0,267],
+"classMR_1_1__ByValue__LoadedObjects.html":[6,3,0,0,0,262],
 "classMR_1_1__ByValue__MakeSignedByWindingNumberSettings.html":[6,3,0,0,0,268],
 "classMR_1_1__ByValue__MapOrHashMap__MREdgeId__MREdgeId.html":[6,3,0,0,0,269],
 "classMR_1_1__ByValue__MapOrHashMap__MRFaceId__MRFaceId.html":[6,3,0,0,0,270],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "classMR_1_1__ByValue__Vector__MRRegionId__MRRegionId.html":[6,3,0,0,0,462],
 "classMR_1_1__ByValue__Vector__MRRegionId__MRRegionId.html#ae4001413243998a940c5a06f81e43b88":[6,3,0,0,0,462,0],
 "classMR_1_1__ByValue__Vector__MRTextureId__MRTextureId.html":[6,3,0,0,0,463],
-"classMR_1_1__ByValue__Vector__MRTextureId__MRTextureId.html#a0bd9bba04b559876dfe45372c5710129":[6,3,0,0,0,463,0],
-"classMR_1_1__ByValue__Vector__MRUint64T__MRGraphVertId.html":[6,3,0,0,0,464],
-"classMR_1_1__ByValue__Vector__MRUint64T__MRGraphVertId.html#a3964e30f1aba4952f28673007fef4906":[6,3,0,0,0,464,0]
+"classMR_1_1__ByValue__Vector__MRTextureId__MRTextureId.html#a0bd9bba04b559876dfe45372c5710129":[6,3,0,0,0,463,0]
 };

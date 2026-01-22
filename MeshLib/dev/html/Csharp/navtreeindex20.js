@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#aa941dd1c1553b35f88aea207c56912e8":[6,3,0,0,0,2733,0],
+"classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#ac86fb4722be98d634d4cac6f8773312b":[6,3,0,0,0,2733,3],
 "classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#ad974187b0fdce62799799870f20ac8e0":[6,3,0,0,0,2733,2],
 "classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html#ae05017c1df773fbb97286297011c252a":[6,3,0,0,0,2733,4],
 "classMR_1_1Const__Expected__MRDistanceMap__StdString.html":[6,3,0,0,0,2734],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1Const__Expected__StdSharedPtrMRMesh__StdString.html#a5fb981e00e1600cb6e51eda5a3c2ae1f":[6,3,0,0,0,2774,1],
 "classMR_1_1Const__Expected__StdSharedPtrMRMesh__StdString.html#ac592a350750108f093e6497c5ad3b87a":[6,3,0,0,0,2774,3],
 "classMR_1_1Const__Expected__StdSharedPtrMRMesh__StdString.html#ae119f59954cab6eb91d151ff3efc6560":[6,3,0,0,0,2774,2],
-"classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html":[6,3,0,0,0,2776],
-"classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html#a5bf9915c30849957d0b331b4baf0e1d0":[6,3,0,0,0,2776,3],
-"classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html#a7d6bdea1b46a2fc68d6200816cb9e177":[6,3,0,0,0,2776,0]
+"classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html":[6,3,0,0,0,2776]
 };

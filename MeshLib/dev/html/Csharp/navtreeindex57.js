@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1Const__ZeroOnMove__MRUint64T.html#aae81e2d17703e9a006b0018a8f713145":[6,3,0,0,0,3397,1],
+"classMR_1_1Const__ZeroOnMove__MRUint64T.html#ac037e154f2c045e7e741379b82638a1a":[6,3,0,0,0,3397,0],
 "classMR_1_1CubicBezierCurve2d.html":[6,3,0,0,0,3423],
 "classMR_1_1CubicBezierCurve2d.html#a15d34f1bcdbfc42a874ab9f9f5608a2e":[6,3,0,0,0,3423,1],
 "classMR_1_1CubicBezierCurve2d.html#a52dba41424ff687aaf3cb8b6903b7338":[6,3,0,0,0,3423,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1EdgeScalars.html#afbc3597bb5f9333cc7899771ea71e0cb":[6,3,0,0,0,3442,8],
 "classMR_1_1Edges.html":[6,3,0,0,0,3441],
 "classMR_1_1Edges.html#a024c09e0c8bc2af935cb542d0b39660f":[6,3,0,0,0,3441,8],
-"classMR_1_1Edges.html#a16fa410e1092eb194e3a51a6112a7f7c":[6,3,0,0,0,3441,0],
-"classMR_1_1Edges.html#a2e08c2f3b804e57d1db86f9025be8069":[6,3,0,0,0,3441,24],
-"classMR_1_1Edges.html#a45e4b4978525f06830af983faa849155":[6,3,0,0,0,3441,23]
+"classMR_1_1Edges.html#a16fa410e1092eb194e3a51a6112a7f7c":[6,3,0,0,0,3441,0]
 };

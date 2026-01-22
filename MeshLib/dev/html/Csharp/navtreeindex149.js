@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"classMR_1_1__InOptConst__Polynomial__Float__6.html":[6,3,0,0,0,1289],
+"classMR_1_1__InOptConst__PositionVertsSmoothlyParams.html":[6,3,0,0,0,1293],
 "classMR_1_1__InOptConst__PositionedText.html":[6,3,0,0,0,1292],
 "classMR_1_1__InOptConst__PrecipitationSimulator.html":[6,3,0,0,0,1294],
 "classMR_1_1__InOptConst__PrecipitationSimulator.html#ac68e98042b433dca50b5541a61703b0c":[6,3,0,0,0,1294,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX149 =
 "classMR_1_1__InOptConst__Vector__MRVertBitSet__MRObjId.html":[6,3,0,0,0,1484],
 "classMR_1_1__InOptConst__Vector__MRVertBitSet__MRObjId.html#ad66455f7a89eb82331989e80f0037c37":[6,3,0,0,0,1484,0],
 "classMR_1_1__InOptConst__Vector__MRVertId__MREdgeId.html":[6,3,0,0,0,1485],
-"classMR_1_1__InOptConst__Vector__MRVertId__MREdgeId.html#a1b60f71176905eced7ad741a281f0bf0":[6,3,0,0,0,1485,0],
-"classMR_1_1__InOptConst__Vector__MRVoxelId__MRFaceId.html":[6,3,0,0,0,1486],
-"classMR_1_1__InOptConst__Vector__MRVoxelId__MRFaceId.html#ac3eaf608cef438799de90ecc2558e131":[6,3,0,0,0,1486,0]
+"classMR_1_1__InOptConst__Vector__MRVertId__MREdgeId.html#a1b60f71176905eced7ad741a281f0bf0":[6,3,0,0,0,1485,0]
 };

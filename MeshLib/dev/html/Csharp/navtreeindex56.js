@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1Const__VoxelBitSet.html":[6,3,0,0,0,3372],
+"classMR_1_1Const__VoxelBitSet.html#a015a6b64da14354a0ffc844481984ecb":[6,3,0,0,0,3372,32],
 "classMR_1_1Const__VoxelBitSet.html#a05d704c14a1756d589b2df693ee97b17":[6,3,0,0,0,3372,9],
 "classMR_1_1Const__VoxelBitSet.html#a0b3522f54cdd74a72044a0b79c6e4241":[6,3,0,0,0,3372,24],
 "classMR_1_1Const__VoxelBitSet.html#a0f2c57e5e83fd8b56746fa86ff3451fc":[6,3,0,0,0,3372,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1Const__ZCompensateParams.html#ac65351c4041f02d81d9849146338ff77":[6,3,0,0,0,3396,0],
 "classMR_1_1Const__ZCompensateParams.html#af1414784cc68b06ec073ed8bc2d7eec5":[6,3,0,0,0,3396,6],
 "classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[6,3,0,0,0,3396,3],
-"classMR_1_1Const__ZeroOnMove__MRUint64T.html":[6,3,0,0,0,3397],
-"classMR_1_1Const__ZeroOnMove__MRUint64T.html#aae81e2d17703e9a006b0018a8f713145":[6,3,0,0,0,3397,1],
-"classMR_1_1Const__ZeroOnMove__MRUint64T.html#ac037e154f2c045e7e741379b82638a1a":[6,3,0,0,0,3397,0]
+"classMR_1_1Const__ZeroOnMove__MRUint64T.html":[6,3,0,0,0,3397]
 };

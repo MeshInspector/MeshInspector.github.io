@@ -1,5 +1,7 @@
 var NAVTREEINDEX151 =
 {
+"classMR_1_1__InOptMut__CubicBezierCurve3f.html":[6,3,0,0,0,1709],
+"classMR_1_1__InOptMut__CurvePoint.html":[6,3,0,0,0,1710],
 "classMR_1_1__InOptMut__CutByProjectionSettings.html":[6,3,0,0,0,1711],
 "classMR_1_1__InOptMut__CutMeshParameters.html":[6,3,0,0,0,1712],
 "classMR_1_1__InOptMut__CutMeshResult.html":[6,3,0,0,0,1713],
@@ -247,7 +249,5 @@ var NAVTREEINDEX151 =
 "classMR_1_1__InOptMut__Matrix2i.html":[6,3,0,0,0,1955],
 "classMR_1_1__InOptMut__Matrix2i64.html":[6,3,0,0,0,1956],
 "classMR_1_1__InOptMut__Matrix3__UnsignedChar.html":[6,3,0,0,0,1957],
-"classMR_1_1__InOptMut__Matrix3b.html":[6,3,0,0,0,1958],
-"classMR_1_1__InOptMut__Matrix3d.html":[6,3,0,0,0,1959],
-"classMR_1_1__InOptMut__Matrix3f.html":[6,3,0,0,0,1960]
+"classMR_1_1__InOptMut__Matrix3b.html":[6,3,0,0,0,1958]
 };

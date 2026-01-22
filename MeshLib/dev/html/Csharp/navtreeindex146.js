@@ -1,5 +1,7 @@
 var NAVTREEINDEX146 =
 {
+"classMR_1_1__ByValue__Vector__MRUint64T__MRGraphVertId.html":[6,3,0,0,0,464],
+"classMR_1_1__ByValue__Vector__MRUint64T__MRGraphVertId.html#a3964e30f1aba4952f28673007fef4906":[6,3,0,0,0,464,0],
 "classMR_1_1__ByValue__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html":[6,3,0,0,0,465],
 "classMR_1_1__ByValue__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a81df3bbf7a8414d3c4eb2f834dfa8d53":[6,3,0,0,0,465,0],
 "classMR_1_1__ByValue__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html":[6,3,0,0,0,466],
@@ -247,7 +249,5 @@ var NAVTREEINDEX146 =
 "classMR_1_1__InOptConst__Cylinder3f.html":[6,3,0,0,0,836],
 "classMR_1_1__InOptConst__CylinderObject.html":[6,3,0,0,0,837],
 "classMR_1_1__InOptConst__CylinderObject.html#aa3778ca582bc25a445279d0b9aa02e29":[6,3,0,0,0,837,0],
-"classMR_1_1__InOptConst__DecimatePolylineResult.html":[6,3,0,0,0,838],
-"classMR_1_1__InOptConst__DecimatePolylineSettings__MRVector2f.html":[6,3,0,0,0,839],
-"classMR_1_1__InOptConst__DecimatePolylineSettings__MRVector3f.html":[6,3,0,0,0,840]
+"classMR_1_1__InOptConst__DecimatePolylineResult.html":[6,3,0,0,0,838]
 };

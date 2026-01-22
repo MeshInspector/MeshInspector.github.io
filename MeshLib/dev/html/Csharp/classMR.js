@@ -1069,6 +1069,8 @@ var classMR =
     [ "meshOnEdgeSplitAttribute", "classMR.html#a0c0cf1e748f9d896a16d8a9985b2c672", null ],
     [ "meshOnEdgeSplitFaceAttribute", "classMR.html#a24e05fc5c124d28ea8d705468d5c3ccb", null ],
     [ "meshOnEdgeSplitVertAttribute", "classMR.html#a71ace410b9e60d534402df34e4961d9f", null ],
+    [ "meshPathCurvePoints", "classMR.html#a36a865ad21e19474e51f2cf4448bb1cc", null ],
+    [ "meshPathCurvePoints", "classMR.html#a3be76cfbfc9b9d79395c268568c458e2", null ],
     [ "meshPreCollapseVertAttribute", "classMR.html#a5b38f4e9059210e80baa93b47cef4c6f", null ],
     [ "meshRegionToIndicatorVolume", "classMR.html#a45fe869275cd0aad1052b853ac65ea10", null ],
     [ "meshToDirectionVolume", "classMR.html#a643e3be78f578a2f6adacd0d29612444", null ],

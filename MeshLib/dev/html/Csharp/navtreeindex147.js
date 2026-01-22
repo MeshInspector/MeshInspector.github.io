@@ -1,5 +1,7 @@
 var NAVTREEINDEX147 =
 {
+"classMR_1_1__InOptConst__DecimatePolylineSettings__MRVector2f.html":[6,3,0,0,0,839],
+"classMR_1_1__InOptConst__DecimatePolylineSettings__MRVector3f.html":[6,3,0,0,0,840],
 "classMR_1_1__InOptConst__DecimateResult.html":[6,3,0,0,0,841],
 "classMR_1_1__InOptConst__DecimateSettings.html":[6,3,0,0,0,842],
 "classMR_1_1__InOptConst__DeloneSettings.html":[6,3,0,0,0,843],
@@ -247,7 +249,5 @@ var NAVTREEINDEX147 =
 "classMR_1_1__InOptConst__LoadedObjects.html":[6,3,0,0,0,1056],
 "classMR_1_1__InOptConst__MakeBridgeResult.html":[6,3,0,0,0,1062],
 "classMR_1_1__InOptConst__MakeDegenerateBandAroundRegionParams.html":[6,3,0,0,0,1063],
-"classMR_1_1__InOptConst__MakeSignedByWindingNumberSettings.html":[6,3,0,0,0,1064],
-"classMR_1_1__InOptConst__MapOrHashMap__MREdgeId__MREdgeId.html":[6,3,0,0,0,1065],
-"classMR_1_1__InOptConst__MapOrHashMap__MRFaceId__MRFaceId.html":[6,3,0,0,0,1066]
+"classMR_1_1__InOptConst__MakeSignedByWindingNumberSettings.html":[6,3,0,0,0,1064]
 };

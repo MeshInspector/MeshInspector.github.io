@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"classMR_1_1Const__FindInnerShellSettings.html#af86cea8cc626d299769203dd0dc7533b":[6,3,0,0,0,2822,7],
+"classMR_1_1Const__FindInnerShellSettings.html#affc2cb68c9ae49a087a858733ee6424d":[6,3,0,0,0,2822,0],
 "classMR_1_1Const__FindOutliersParams.html":[6,3,0,0,0,2823],
 "classMR_1_1Const__FindOutliersParams.html#a38ef6df7a2d5c3cdaf19ef423f0221f5":[6,3,0,0,0,2823,2],
 "classMR_1_1Const__FindOutliersParams.html#a3ab1b562522ba70ad198ccaaed220d9c":[6,3,0,0,0,2823,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "classMR_1_1Const__GraphEdgeBitSet.html#acb2504524c4c205e1dba22213dbd226d":[6,3,0,0,0,2840,5],
 "classMR_1_1Const__GraphEdgeBitSet.html#ad5bbc494baa45ee6a04e40b367dfb629":[6,3,0,0,0,2840,25],
 "classMR_1_1Const__GraphEdgeBitSet.html#adf8dcbb4720832f082709594fb7d9841":[6,3,0,0,0,2840,2],
-"classMR_1_1Const__GraphEdgeBitSet.html#ae44ee11430eb99fb6f114c6a430fb143":[6,3,0,0,0,2840,8],
-"classMR_1_1Const__GraphEdgeBitSet.html#af90809d5aadc089d53bb9a5c87d31347":[6,3,0,0,0,2840,0],
-"classMR_1_1Const__GraphEdgeBitSet.html#afa5e54b5379106ca627ffd7366af23c9":[6,3,0,0,0,2840,31]
+"classMR_1_1Const__GraphEdgeBitSet.html#ae44ee11430eb99fb6f114c6a430fb143":[6,3,0,0,0,2840,8]
 };
