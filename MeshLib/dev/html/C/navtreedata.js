@@ -122,8 +122,8 @@ var NAVTREEINDEX =
 "../APIPage.html",
 "MRMeshCollide_8h_source.html",
 "expected__MR__LoadedObjectT__std__string_8h_source.html",
-"std__shared__ptr__MR__ChangeColoringType_8h_source.html",
-"structMR__AffineXf2d.html"
+"std__shared__ptr__MR__ChangVoxelSelectionAction_8h_source.html",
+"std__vector__unsigned__char_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -189,10 +189,12 @@ var hierarchy =
     [ "MR._ByValue_Expected_MRVoxelsLoadDicomVolumeAsVdb_StdString", "classMR_1_1__ByValue__Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html", null ],
     [ "MR._ByValue_Expected_MRVoxelsLoadRawParameters_StdString", "classMR_1_1__ByValue__Expected__MRVoxelsLoadRawParameters__StdString.html", null ],
     [ "MR._ByValue_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1__ByValue__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ],
+    [ "MR._ByValue_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1__ByValue__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ],
     [ "MR._ByValue_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1__ByValue__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ],
     [ "MR._ByValue_Expected_StdSharedPtrMRMesh_StdString", "classMR_1_1__ByValue__Expected__StdSharedPtrMRMesh__StdString.html", null ],
     [ "MR._ByValue_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1__ByValue__Expected__StdSharedPtrMRObject__StdString.html", null ],
     [ "MR._ByValue_Expected_StdSharedPtrMRObjectVoxels_StdString", "classMR_1_1__ByValue__Expected__StdSharedPtrMRObjectVoxels__StdString.html", null ],
+    [ "MR._ByValue_Expected_StdVectorFloat_StdString", "classMR_1_1__ByValue__Expected__StdVectorFloat__StdString.html", null ],
     [ "MR._ByValue_Expected_StdVectorMREdgeId_StdString", "classMR_1_1__ByValue__Expected__StdVectorMREdgeId__StdString.html", null ],
     [ "MR._ByValue_Expected_StdVectorMREdgePoint_MRPathError", "classMR_1_1__ByValue__Expected__StdVectorMREdgePoint__MRPathError.html", null ],
     [ "MR._ByValue_Expected_StdVectorMREdgePoint_StdString", "classMR_1_1__ByValue__Expected__StdVectorMREdgePoint__StdString.html", null ],
@@ -1477,10 +1479,12 @@ var hierarchy =
     [ "MR._InOptConst_Expected_MRVoxelsLoadDicomVolumeAsVdb_StdString", "classMR_1_1__InOptConst__Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html", null ],
     [ "MR._InOptConst_Expected_MRVoxelsLoadRawParameters_StdString", "classMR_1_1__InOptConst__Expected__MRVoxelsLoadRawParameters__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1__InOptConst__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ],
+    [ "MR._InOptConst_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1__InOptConst__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1__InOptConst__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdSharedPtrMRMesh_StdString", "classMR_1_1__InOptConst__Expected__StdSharedPtrMRMesh__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1__InOptConst__Expected__StdSharedPtrMRObject__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdSharedPtrMRObjectVoxels_StdString", "classMR_1_1__InOptConst__Expected__StdSharedPtrMRObjectVoxels__StdString.html", null ],
+    [ "MR._InOptConst_Expected_StdVectorFloat_StdString", "classMR_1_1__InOptConst__Expected__StdVectorFloat__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdVectorMREdgeId_StdString", "classMR_1_1__InOptConst__Expected__StdVectorMREdgeId__StdString.html", null ],
     [ "MR._InOptConst_Expected_StdVectorMREdgePoint_MRPathError", "classMR_1_1__InOptConst__Expected__StdVectorMREdgePoint__MRPathError.html", null ],
     [ "MR._InOptConst_Expected_StdVectorMREdgePoint_StdString", "classMR_1_1__InOptConst__Expected__StdVectorMREdgePoint__StdString.html", null ],
@@ -3136,10 +3140,12 @@ var hierarchy =
     [ "MR._InOptMut_Expected_MRVoxelsLoadDicomVolumeAsVdb_StdString", "classMR_1_1__InOptMut__Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html", null ],
     [ "MR._InOptMut_Expected_MRVoxelsLoadRawParameters_StdString", "classMR_1_1__InOptMut__Expected__MRVoxelsLoadRawParameters__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1__InOptMut__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ],
+    [ "MR._InOptMut_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1__InOptMut__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1__InOptMut__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdSharedPtrMRMesh_StdString", "classMR_1_1__InOptMut__Expected__StdSharedPtrMRMesh__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1__InOptMut__Expected__StdSharedPtrMRObject__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdSharedPtrMRObjectVoxels_StdString", "classMR_1_1__InOptMut__Expected__StdSharedPtrMRObjectVoxels__StdString.html", null ],
+    [ "MR._InOptMut_Expected_StdVectorFloat_StdString", "classMR_1_1__InOptMut__Expected__StdVectorFloat__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdVectorMREdgeId_StdString", "classMR_1_1__InOptMut__Expected__StdVectorMREdgeId__StdString.html", null ],
     [ "MR._InOptMut_Expected_StdVectorMREdgePoint_MRPathError", "classMR_1_1__InOptMut__Expected__StdVectorMREdgePoint__MRPathError.html", null ],
     [ "MR._InOptMut_Expected_StdVectorMREdgePoint_StdString", "classMR_1_1__InOptMut__Expected__StdVectorMREdgePoint__StdString.html", null ],
@@ -4937,6 +4943,9 @@ var hierarchy =
       [ "MR.Const_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1Const__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", [
         [ "MR.Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ]
       ] ],
+      [ "MR.Const_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1Const__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", [
+        [ "MR.Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ]
+      ] ],
       [ "MR.Const_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1Const__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", [
         [ "MR.Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ]
       ] ],
@@ -4948,6 +4957,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObject__StdString.html", [
         [ "MR.Expected_StdSharedPtrMRObject_StdString", "classMR_1_1Expected__StdSharedPtrMRObject__StdString.html", null ]
+      ] ],
+      [ "MR.Const_Expected_StdVectorFloat_StdString", "classMR_1_1Const__Expected__StdVectorFloat__StdString.html", [
+        [ "MR.Expected_StdVectorFloat_StdString", "classMR_1_1Expected__StdVectorFloat__StdString.html", null ]
       ] ],
       [ "MR.Const_Expected_StdVectorMREdgeId_StdString", "classMR_1_1Const__Expected__StdVectorMREdgeId__StdString.html", [
         [ "MR.Expected_StdVectorMREdgeId_StdString", "classMR_1_1Expected__StdVectorMREdgeId__StdString.html", null ]
@@ -8941,10 +8953,12 @@ var hierarchy =
       [ "MR.Const_Expected_MRVoxelsLoadDicomVolume_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadDicomVolume__StdString.html", null ],
       [ "MR.Const_Expected_MRVoxelsLoadRawParameters_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadRawParameters__StdString.html", null ],
       [ "MR.Const_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1Const__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ],
+      [ "MR.Const_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1Const__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ],
       [ "MR.Const_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1Const__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ],
       [ "MR.Const_Expected_StdSharedPtrMRMesh_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRMesh__StdString.html", null ],
       [ "MR.Const_Expected_StdSharedPtrMRObjectVoxels_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html", null ],
       [ "MR.Const_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObject__StdString.html", null ],
+      [ "MR.Const_Expected_StdVectorFloat_StdString", "classMR_1_1Const__Expected__StdVectorFloat__StdString.html", null ],
       [ "MR.Const_Expected_StdVectorMREdgeId_StdString", "classMR_1_1Const__Expected__StdVectorMREdgeId__StdString.html", null ],
       [ "MR.Const_Expected_StdVectorMREdgePoint_MRPathError", "classMR_1_1Const__Expected__StdVectorMREdgePoint__MRPathError.html", null ],
       [ "MR.Const_Expected_StdVectorMREdgePoint_StdString", "classMR_1_1Const__Expected__StdVectorMREdgePoint__StdString.html", null ],

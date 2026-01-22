@@ -805,6 +805,20 @@ static unsafe <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">MR.Mesh</a>&#
 static unsafe <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bendContoursAlongCurve</b> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f.html">MR.Std.Const_Vector_StdVectorMRVector2f</a> contours, <a class="el" href="classMR_1_1Const__BendContoursAlongCurveParams.html">MR.Const_BendContoursAlongCurveParams</a> params_)</td></tr>
 <tr class="memdesc:a905165012e7a7a5405d6a8a35b704ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts contours in thick mesh, and deforms it along given path Generated from function <code>MR.bendContoursAlongCurve</code>. <br /></td></tr>
 <tr class="separator:a905165012e7a7a5405d6a8a35b704ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46169bbcdf64a300eb99358b69ecd684" id="r_a46169bbcdf64a300eb99358b69ecd684"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__Float.html">MR.Std.Vector_Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46169bbcdf64a300eb99358b69ecd684">findPartialLens</a> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html">MR.Std.Const_Vector_MRCurvePoint</a> cp, bool? unitLength=null, <a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; float &gt;? outCurveLen=null)</td></tr>
+<tr class="memdesc:a46169bbcdf64a300eb99358b69ecd684"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a polyline by its vertices, computes partial lengths along the polyline from the initial point; return an error if the polyline is less than 2 points or all points have exactly the same location  <br /></td></tr>
+<tr class="separator:a46169bbcdf64a300eb99358b69ecd684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a17bb8724b71fd9a8a8a94a6f429d0" id="r_a33a17bb8724b71fd9a8a8a94a6f429d0"><td class="memItemLeft" align="right" valign="top"><a id="a33a17bb8724b71fd9a8a8a94a6f429d0" name="a33a17bb8724b71fd9a8a8a94a6f429d0"></a>
+static unsafe <a class="elRef" href="../Cpp/structMR_1_1CurvePoint.html">MR.CurvePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getCurvePoint</b> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html">MR.Std.Const_Vector_MRCurvePoint</a> cp, <a class="el" href="classMR_1_1Std_1_1Const__Vector__Float.html">MR.Std.Const_Vector_Float</a> lens, float p)</td></tr>
+<tr class="memdesc:a33a17bb8724b71fd9a8a8a94a6f429d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a polyline by its vertices, and partial lengths as computed by findPartialLens, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points Generated from function <code>MR.getCurvePoint</code>. <br /></td></tr>
+<tr class="separator:a33a17bb8724b71fd9a8a8a94a6f429d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c17857da8c15c21f598b946ee980c8f" id="r_a2c17857da8c15c21f598b946ee980c8f"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Std_1_1Function__MRCurvePointFuncFromFloat.html">MR.Std.Function_MRCurvePointFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c17857da8c15c21f598b946ee980c8f">curveFromPoints</a> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html">MR.Std.Const_Vector_MRCurvePoint</a> cp, bool? unitLength=null, <a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; float &gt;? outCurveLen=null)</td></tr>
+<tr class="memdesc:a2c17857da8c15c21f598b946ee980c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a polyline by its vertices, returns curve function representing it; return an error if the polyline is less than 2 points or all points have exactly the same location  <br /></td></tr>
+<tr class="separator:a2c17857da8c15c21f598b946ee980c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a216dad08cdb4fd9babe7dac69ec37f07" id="r_a216dad08cdb4fd9babe7dac69ec37f07"><td class="memItemLeft" align="right" valign="top"><a id="a216dad08cdb4fd9babe7dac69ec37f07" name="a216dad08cdb4fd9babe7dac69ec37f07"></a>
+static unsafe <a class="el" href="classMR_1_1Std_1_1Function__MRCurvePointFuncFromFloat.html">MR.Std.Function_MRCurvePointFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>curveFromPoints</b> (<a class="el" href="structMR_1_1Misc_1_1__Moved.html">MR.Misc._Moved</a>&lt; <a class="el" href="classMR_1_1Std_1_1Vector__MRCurvePoint.html">MR.Std.Vector_MRCurvePoint</a> &gt; cp, bool? unitLength=null, <a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; float &gt;? outCurveLen=null)</td></tr>
+<tr class="memdesc:a216dad08cdb4fd9babe7dac69ec37f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.curveFromPoints</code>. Parameter <code>unitLength</code> defaults to <code>true</code>. <br /></td></tr>
+<tr class="separator:a216dad08cdb4fd9babe7dac69ec37f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a859d57307d0a091d15939f83fb773396" id="r_a859d57307d0a091d15939f83fb773396"><td class="memItemLeft" align="right" valign="top"><a id="a859d57307d0a091d15939f83fb773396" name="a859d57307d0a091d15939f83fb773396"></a>
 static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>addBaseToPlanarMesh</b> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh, float zOffset)</td></tr>
 <tr class="memdesc:a859d57307d0a091d15939f83fb773396"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a planar mesh with boundary on input located in plane XY, packs and extends it along Z on zOffset (along -Z if zOffset is negative) to make a volumetric closed mesh note that this function also packs the mesh Generated from function <code>MR.addBaseToPlanarMesh</code>. <br /></td></tr>
@@ -7294,6 +7308,49 @@ Stitch with smooth</div></div>
 
 </div>
 </div>
+<a id="a2c17857da8c15c21f598b946ee980c8f" name="a2c17857da8c15c21f598b946ee980c8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c17857da8c15c21f598b946ee980c8f">&#9670;&#160;</a></span>curveFromPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Std_1_1Function__MRCurvePointFuncFromFloat.html">MR.Std.Function_MRCurvePointFuncFromFloat</a> MR.curveFromPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html">MR.Std.Const_Vector_MRCurvePoint</a></td>          <td class="paramname"><span class="paramname"><em>cp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>unitLength</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; float &gt;?</td>          <td class="paramname"><span class="paramname"><em>outCurveLen</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given a polyline by its vertices, returns curve function representing it; return an error if the polyline is less than 2 points or all points have exactly the same location </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitLength</td><td>if true, then the lengths are normalized for the last point to have unit length </td></tr>
+    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) Generated from function <code>MR.curveFromPoints</code>. Parameter <code>unitLength</code> defaults to <code>true</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a69c80bb31266546933db0c88875afc59" name="a69c80bb31266546933db0c88875afc59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69c80bb31266546933db0c88875afc59">&#9670;&#160;</a></span>cutMesh()</h2>
 
@@ -9665,6 +9722,49 @@ Trivial fill with smooth</div></div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>face regions Generated from function <code>MR.findOverhangs</code>. </dd></dl>
+
+</div>
+</div>
+<a id="a46169bbcdf64a300eb99358b69ecd684" name="a46169bbcdf64a300eb99358b69ecd684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46169bbcdf64a300eb99358b69ecd684">&#9670;&#160;</a></span>findPartialLens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__Float.html">MR.Std.Vector_Float</a> MR.findPartialLens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html">MR.Std.Const_Vector_MRCurvePoint</a></td>          <td class="paramname"><span class="paramname"><em>cp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>unitLength</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; float &gt;?</td>          <td class="paramname"><span class="paramname"><em>outCurveLen</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given a polyline by its vertices, computes partial lengths along the polyline from the initial point; return an error if the polyline is less than 2 points or all points have exactly the same location </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitLength</td><td>if true, then the lengths are normalized for the last point to have unit length </td></tr>
+    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) Generated from function <code>MR.findPartialLens</code>. Parameter <code>unitLength</code> defaults to <code>true</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
