@@ -1,6 +1,11 @@
 var group__MeshNormalsGroup =
 [
-    [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
+    [ "MR::MeshNormals", "../Csharp/classMR_1_1MeshNormals.html", [
+      [ "MeshNormals", "../Csharp/classMR_1_1MeshNormals.html#a4f5a15fdc6f691d429242f20395e9bc5", null ],
+      [ "MeshNormals", "../Csharp/classMR_1_1MeshNormals.html#afcb68eb452371dec9aadddbc84df6be7", null ],
+      [ "MeshNormals", "../Csharp/classMR_1_1MeshNormals.html#a288d449a0a155b8d7c6276173e18e72e", null ],
+      [ "assign", "../Csharp/classMR_1_1MeshNormals.html#a632b69dea06c3caf604864bf8c2b9700", null ]
+    ] ],
     [ "MR::TriangleCornerNormals", "group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f", null ],
     [ "MR::computeMeshNormals", "group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529", null ],
     [ "MR::computePerCornerNormals", "group__MeshNormalsGroup.html#gaadd26fa2561ab2ec3b62b2dea079161c", null ],

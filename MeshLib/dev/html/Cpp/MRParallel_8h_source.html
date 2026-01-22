@@ -152,26 +152,22 @@ $(function(){initNavTree('MRParallel_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRPch/MRTBB.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>Parallel</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structMR_1_1Parallel_1_1CallSimply.html">   11</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1Parallel_1_1CallSimply.html">CallSimply</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>CallSimply</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">auto</span> operator() ( <span class="keyword">auto</span> &amp;&amp; f, <span class="keyword">auto</span> <span class="keywordtype">id</span> )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> f( <span class="keywordtype">id</span> ); }</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">auto</span> operator() ( <span class="keyword">auto</span> &amp;&amp; f, <span class="keyword">auto</span> <span class="keywordtype">id</span>, <span class="keyword">auto</span> &amp;&amp; subrange )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> f( <span class="keywordtype">id</span>, subrange ); }</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
-</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1Parallel_1_1CallSimplyMaker.html">   17</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1Parallel_1_1CallSimplyMaker.html">CallSimplyMaker</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">struct </span>CallSimplyMaker</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">auto</span> operator() ()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_struct" href="structMR_1_1Parallel_1_1CallSimply.html">CallSimply</a>{}; }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">auto</span> operator() ()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CallSimply{}; }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
-</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
@@ -195,8 +191,7 @@ $(function(){initNavTree('MRParallel_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>} <span class="comment">//namespace Parallel</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="astructMR_1_1Parallel_1_1CallSimplyMaker_html"><div class="ttname"><a href="structMR_1_1Parallel_1_1CallSimplyMaker.html">MR::Parallel::CallSimplyMaker</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:18</div></div>
-<div class="ttc" id="astructMR_1_1Parallel_1_1CallSimply_html"><div class="ttname"><a href="structMR_1_1Parallel_1_1CallSimply.html">MR::Parallel::CallSimply</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:12</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1Parallel_1_1CallWithTLSMaker_html"><div class="ttname"><a href="structMR_1_1Parallel_1_1CallWithTLSMaker.html">MR::Parallel::CallWithTLSMaker</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:32</div></div>
 <div class="ttc" id="astructMR_1_1Parallel_1_1CallWithTLS_html"><div class="ttname"><a href="structMR_1_1Parallel_1_1CallWithTLS.html">MR::Parallel::CallWithTLS</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->

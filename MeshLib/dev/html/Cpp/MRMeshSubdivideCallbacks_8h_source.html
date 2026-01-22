@@ -153,7 +153,7 @@ $(function(){initNavTree('MRMeshSubdivideCallbacks_8h_source.html',''); initResi
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMesh.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMeshAttributesToUpdate.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// callback that is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// (i.e. in subdivideMesh) and changes moved vertex attribute to correct value.</span></div>
@@ -167,11 +167,11 @@ $(function(){initNavTree('MRMeshSubdivideCallbacks_8h_source.html',''); initResi
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">auto</span> onEdgeSplitFaceAttribute( <span class="keyword">const</span> Mesh&amp; mesh, Vector&lt;T, FaceId&gt;&amp; data );</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>MRMESH_API OnEdgeSplit meshOnEdgeSplitAttribute( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> MeshAttributesToUpdate&amp; params );</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>MRMESH_API OnEdgeSplit <a class="code hl_functionRef" href="../Csharp/classMR.html#a0c0cf1e748f9d896a16d8a9985b2c672">meshOnEdgeSplitAttribute</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> MeshAttributesToUpdate&amp; params );</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>MRMESH_API OnEdgeSplit meshOnEdgeSplitVertAttribute( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> MeshAttributesToUpdate&amp; params );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>MRMESH_API OnEdgeSplit <a class="code hl_functionRef" href="../Csharp/classMR.html#a71ace410b9e60d534402df34e4961d9f">meshOnEdgeSplitVertAttribute</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> MeshAttributesToUpdate&amp; params );</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>MRMESH_API OnEdgeSplit meshOnEdgeSplitFaceAttribute( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> MeshAttributesToUpdate&amp; params );</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>MRMESH_API OnEdgeSplit <a class="code hl_functionRef" href="../Csharp/classMR.html#a24e05fc5c124d28ea8d705468d5c3ccb">meshOnEdgeSplitFaceAttribute</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> MeshAttributesToUpdate&amp; params );</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">auto</span> onEdgeSplitVertAttribute( <span class="keyword">const</span> Mesh&amp; mesh, Vector&lt;T, VertId&gt;&amp; data )</div>
@@ -213,6 +213,10 @@ $(function(){initNavTree('MRMeshSubdivideCallbacks_8h_source.html',''); initResi
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>}</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>}</div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a0c0cf1e748f9d896a16d8a9985b2c672"><div class="ttname"><a href="../Csharp/classMR.html#a0c0cf1e748f9d896a16d8a9985b2c672">MR::meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId meshOnEdgeSplitAttribute(MR.Const_Mesh mesh, MR.Const_MeshAttributesToUpdate params_)</div></div>
+<div class="ttc" id="aclassMR_html_a24e05fc5c124d28ea8d705468d5c3ccb"><div class="ttname"><a href="../Csharp/classMR.html#a24e05fc5c124d28ea8d705468d5c3ccb">MR::meshOnEdgeSplitFaceAttribute</a></div><div class="ttdeci">static unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId meshOnEdgeSplitFaceAttribute(MR.Const_Mesh mesh, MR.Const_MeshAttributesToUpdate params_)</div></div>
+<div class="ttc" id="aclassMR_html_a71ace410b9e60d534402df34e4961d9f"><div class="ttname"><a href="../Csharp/classMR.html#a71ace410b9e60d534402df34e4961d9f">MR::meshOnEdgeSplitVertAttribute</a></div><div class="ttdeci">static unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId meshOnEdgeSplitVertAttribute(MR.Const_Mesh mesh, MR.Const_MeshAttributesToUpdate params_)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -153,23 +153,20 @@ $(function(){initNavTree('MRSceneSettings_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRCNCMachineSettings.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1SceneSettings.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1SceneSettings.html">SceneSettings</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>SceneSettings</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="comment">// Reset all scene settings to default values</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> reset();</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8">   17</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8">BoolType</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">enum class</span> BoolType</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <a class="code hl_enumvalue" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a">UseDefaultScenePropertiesOnDeserialization</a>,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <a class="code hl_enumvalue" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        UseDefaultScenePropertiesOnDeserialization,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        Count</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    };</div>
-</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">enum class</span> FloatType</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
@@ -190,52 +187,43 @@ $(function(){initNavTree('MRSceneSettings_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="comment">// Ambient multiplication coefficient for ambientStrength for selected objects</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        AmbientCoefSelectedObj,</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_enumvalue" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        Count,</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    };</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">bool</span> get( <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8">BoolType</a> type );</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">bool</span> get( BoolType type );</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">float</span> get( FloatType type );</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> set( <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8">BoolType</a> type, <span class="keywordtype">bool</span> value );</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> set( BoolType type, <span class="keywordtype">bool</span> value );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> set( FloatType type, <span class="keywordtype">float</span> value );</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="foldopen" id="foldopen00053" data-start="{" data-end="};">
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c">   53</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">enum class</span> ShadingMode</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    {</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        AutoDetect,</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        Smooth,</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        Flat</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    };</div>
-</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classMR_1_1SceneSettings.html#ad795c96b5d06b21a8f5f3510c945b568">   63</a></span>    MRMESH_API <span class="keyword">static</span> <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> <a class="code hl_function" href="classMR_1_1SceneSettings.html#ad795c96b5d06b21a8f5f3510c945b568">getDefaultShadingMode</a>();</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> setDefaultShadingMode( <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> mode );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    MRMESH_API <span class="keyword">static</span> ShadingMode getDefaultShadingMode();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> setDefaultShadingMode( ShadingMode mode );</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a>&amp; getCNCMachineSettings();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> setCNCMachineSettings( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a>&amp; settings );</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> CNCMachineSettings&amp; getCNCMachineSettings();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> setCNCMachineSettings( <span class="keyword">const</span> CNCMachineSettings&amp; settings );</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    MRMESH_API <a class="code hl_class" href="classMR_1_1SceneSettings.html">SceneSettings</a>();</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_class" href="classMR_1_1SceneSettings.html">~SceneSettings</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_class" href="classMR_1_1SceneSettings.html">SceneSettings</a>&amp; operator=( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1SceneSettings.html">SceneSettings</a>&amp; other ) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    MRMESH_API SceneSettings();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    ~SceneSettings() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    SceneSettings&amp; operator=( <span class="keyword">const</span> SceneSettings&amp; other ) = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">static</span> <a class="code hl_class" href="classMR_1_1SceneSettings.html">SceneSettings</a>&amp; instance_();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">static</span> SceneSettings&amp; instance_();</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    std::array&lt;bool, size_t( <a class="code hl_enumvalue" href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9">BoolType::Count</a> ) &gt; boolSettings_;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    std::array&lt;bool, size_t( BoolType::Count ) &gt; boolSettings_;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    std::array&lt;float, size_t( FloatType::Count ) &gt; floatSettings_;</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_enumeration" href="classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> defaultShadingMode_ = ShadingMode::AutoDetect;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <a class="code hl_class" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> cncMachineSettings_;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    ShadingMode defaultShadingMode_ = ShadingMode::AutoDetect;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    CNCMachineSettings cncMachineSettings_;</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
-</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
-<div class="ttc" id="aclassMR_1_1CNCMachineSettings_html"><div class="ttname"><a href="classMR_1_1CNCMachineSettings.html">MR::CNCMachineSettings</a></div><div class="ttdoc">class with CNC machine emulation settings</div><div class="ttdef"><b>Definition</b> MRCNCMachineSettings.h:16</div></div>
-<div class="ttc" id="aclassMR_1_1SceneSettings_html"><div class="ttname"><a href="classMR_1_1SceneSettings.html">MR::SceneSettings</a></div><div class="ttdef"><b>Definition</b> MRSceneSettings.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1SceneSettings_html_a01216132f55f2f10947b9f6143f1b9b8"><div class="ttname"><a href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8">MR::SceneSettings::BoolType</a></div><div class="ttdeci">BoolType</div><div class="ttdef"><b>Definition</b> MRSceneSettings.h:18</div></div>
-<div class="ttc" id="aclassMR_1_1SceneSettings_html_a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a"><div class="ttname"><a href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a">MR::SceneSettings::BoolType::UseDefaultScenePropertiesOnDeserialization</a></div><div class="ttdeci">@ UseDefaultScenePropertiesOnDeserialization</div><div class="ttdoc">on deserialization replace object properties with default values from SceneSettings and SceneColors</div></div>
-<div class="ttc" id="aclassMR_1_1SceneSettings_html_a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9">MR::SceneSettings::BoolType::Count</a></div><div class="ttdeci">@ Count</div><div class="ttdoc">total count</div></div>
-<div class="ttc" id="aclassMR_1_1SceneSettings_html_a308e72dcfc90ae1a9370ca7c7bc3290c"><div class="ttname"><a href="classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c">MR::SceneSettings::ShadingMode</a></div><div class="ttdeci">ShadingMode</div><div class="ttdoc">Mesh faces shading mode.</div><div class="ttdef"><b>Definition</b> MRSceneSettings.h:54</div></div>
-<div class="ttc" id="aclassMR_1_1SceneSettings_html_ad795c96b5d06b21a8f5f3510c945b568"><div class="ttname"><a href="classMR_1_1SceneSettings.html#ad795c96b5d06b21a8f5f3510c945b568">MR::SceneSettings::getDefaultShadingMode</a></div><div class="ttdeci">static MRMESH_API ShadingMode getDefaultShadingMode()</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

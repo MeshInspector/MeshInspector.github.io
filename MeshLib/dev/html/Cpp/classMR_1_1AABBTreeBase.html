@@ -155,7 +155,7 @@ $(function(){initNavTree('classMR_1_1AABBTreeBase.html',''); initResizable(true)
 </div><!--header-->
 <div class="contents">
 
-<p>base class for most AABB-trees (except for <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a>)  
+<p>base class for most AABB-trees (except for <a class="elRef" href="../Csharp/classMR_1_1AABBTreePoints.html">AABBTreePoints</a>)  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRAABBTreeBase_8h_source.html">MRAABBTreeBase.h</a>&gt;</code></p>
@@ -169,7 +169,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Traits</b> = T</td><
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Node</b> = <a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;Traits&gt;</td></tr>
 <tr class="separator:a4a87e995071aa1a99752d3f3f32a72b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a0335fa16114969e7f5e031192bf45b" id="r_a7a0335fa16114969e7f5e031192bf45b"><td class="memItemLeft" align="right" valign="top"><a id="a7a0335fa16114969e7f5e031192bf45b" name="a7a0335fa16114969e7f5e031192bf45b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>NodeVec</b> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">Node</a>, NodeId&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>NodeVec</b> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">Node</a>, <a class="elRef" href="../Csharp/structMR_1_1NodeId.html">NodeId</a>&gt;</td></tr>
 <tr class="separator:a7a0335fa16114969e7f5e031192bf45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8174ff3f06b05cb213378de264fdcb57" id="r_a8174ff3f06b05cb213378de264fdcb57"><td class="memItemLeft" align="right" valign="top"><a id="a8174ff3f06b05cb213378de264fdcb57" name="a8174ff3f06b05cb213378de264fdcb57"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>LeafTag</b> = typename T::LeafTag</td></tr>
@@ -194,7 +194,7 @@ const <a class="el" href="classMR_1_1Vector.html">NodeVec</a> &amp;&#160;</td><t
 <tr class="memdesc:a58f8dd538965bde14c46c2ed60aac1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes <br /></td></tr>
 <tr class="separator:a58f8dd538965bde14c46c2ed60aac1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac94f623e90a49fd07aeb61722ab8e7f1" id="r_ac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top"><a id="ac94f623e90a49fd07aeb61722ab8e7f1" name="ac94f623e90a49fd07aeb61722ab8e7f1"></a>
-const <a class="el" href="structMR_1_1AABBTreeNode.html">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (NodeId nid) const</td></tr>
+const <a class="el" href="structMR_1_1AABBTreeNode.html">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (<a class="elRef" href="../Csharp/structMR_1_1NodeId.html">NodeId</a> nid) const</td></tr>
 <tr class="memdesc:ac94f623e90a49fd07aeb61722ab8e7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any node <br /></td></tr>
 <tr class="separator:ac94f623e90a49fd07aeb61722ab8e7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac02049340231922a6b175c0900d88c9" id="r_aac02049340231922a6b175c0900d88c9"><td class="memItemLeft" align="right" valign="top"><a id="aac02049340231922a6b175c0900d88c9" name="aac02049340231922a6b175c0900d88c9"></a>
@@ -210,15 +210,15 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>numLeaves</b> () co
 <tr class="memdesc:a444c40a8f2e0206606d5abe15c0f506f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of leaves in whole tree <br /></td></tr>
 <tr class="separator:a444c40a8f2e0206606d5abe15c0f506f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa00490fa2cf5eac02779a7f87baa86a" id="r_aaa00490fa2cf5eac02779a7f87baa86a"><td class="memItemLeft" align="right" valign="top"><a id="aaa00490fa2cf5eac02779a7f87baa86a" name="aaa00490fa2cf5eac02779a7f87baa86a"></a>
-MRMESH_API std::vector&lt; NodeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSubtrees</b> (int minNum) const</td></tr>
+MRMESH_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1NodeId.html">NodeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSubtrees</b> (int minNum) const</td></tr>
 <tr class="memdesc:aaa00490fa2cf5eac02779a7f87baa86a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves <br /></td></tr>
 <tr class="separator:aaa00490fa2cf5eac02779a7f87baa86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab33ab0e0416c62327e0334ee7e149f61" id="r_ab33ab0e0416c62327e0334ee7e149f61"><td class="memItemLeft" align="right" valign="top"><a id="ab33ab0e0416c62327e0334ee7e149f61" name="ab33ab0e0416c62327e0334ee7e149f61"></a>
-MRMESH_API LeafBitSet&#160;</td><td class="memItemRight" valign="bottom"><b>getSubtreeLeaves</b> (NodeId subtreeRoot) const</td></tr>
+MRMESH_API LeafBitSet&#160;</td><td class="memItemRight" valign="bottom"><b>getSubtreeLeaves</b> (<a class="elRef" href="../Csharp/structMR_1_1NodeId.html">NodeId</a> subtreeRoot) const</td></tr>
 <tr class="memdesc:ab33ab0e0416c62327e0334ee7e149f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all leaves in the subtree with given root <br /></td></tr>
 <tr class="separator:ab33ab0e0416c62327e0334ee7e149f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae91f1e83ca6d14ef5cc8555ad401b88c" id="r_ae91f1e83ca6d14ef5cc8555ad401b88c"><td class="memItemLeft" align="right" valign="top"><a id="ae91f1e83ca6d14ef5cc8555ad401b88c" name="ae91f1e83ca6d14ef5cc8555ad401b88c"></a>
-MRMESH_API NodeBitSet&#160;</td><td class="memItemRight" valign="bottom"><b>getNodesFromLeaves</b> (const LeafBitSet &amp;leaves) const</td></tr>
+MRMESH_API <a class="elRef" href="../Csharp/classMR_1_1NodeBitSet.html">NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getNodesFromLeaves</b> (const LeafBitSet &amp;leaves) const</td></tr>
 <tr class="memdesc:ae91f1e83ca6d14ef5cc8555ad401b88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of nodes containing among direct or indirect children given leaves <br /></td></tr>
 <tr class="separator:ae91f1e83ca6d14ef5cc8555ad401b88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0b2c5625ad2b069c42780d685db9281" id="r_aa0b2c5625ad2b069c42780d685db9281"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0b2c5625ad2b069c42780d685db9281">getLeafOrder</a> (<a class="el" href="structMR_1_1BMap.html">LeafBMap</a> &amp;leafMap) const</td></tr>
@@ -229,7 +229,7 @@ MRMESH_API NodeBitSet&#160;</td><td class="memItemRight" valign="bottom"><b>getN
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab08f029b6e9e13cf15d36bb11eddc952" id="r_ab08f029b6e9e13cf15d36bb11eddc952"><td class="memItemLeft" align="right" valign="top"><a id="ab08f029b6e9e13cf15d36bb11eddc952" name="ab08f029b6e9e13cf15d36bb11eddc952"></a>
-static NodeId&#160;</td><td class="memItemRight" valign="bottom"><b>rootNodeId</b> ()</td></tr>
+static <a class="elRef" href="../Csharp/structMR_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>rootNodeId</b> ()</td></tr>
 <tr class="memdesc:ab08f029b6e9e13cf15d36bb11eddc952"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns root node id <br /></td></tr>
 <tr class="separator:ab08f029b6e9e13cf15d36bb11eddc952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -241,7 +241,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-class MR::AABBTreeBase&lt; T &gt;</div><p>base class for most AABB-trees (except for <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a>) </p>
+class MR::AABBTreeBase&lt; T &gt;</div><p>base class for most AABB-trees (except for <a class="elRef" href="../Csharp/classMR_1_1AABBTreePoints.html">AABBTreePoints</a>) </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa0b2c5625ad2b069c42780d685db9281" name="aa0b2c5625ad2b069c42780d685db9281"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0b2c5625ad2b069c42780d685db9281">&#9670;&#160;</a></span>getLeafOrder()</h2>

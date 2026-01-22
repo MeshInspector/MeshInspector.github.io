@@ -155,7 +155,7 @@ $(function(){initNavTree('MRMatrix2_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;iosfwd&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
@@ -298,12 +298,12 @@ $(function(){initNavTree('MRMatrix2_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="keyword">constexpr</span> Matrix2&lt;T&gt; Matrix2&lt;T&gt;::rotation( <span class="keyword">const</span> Vector2&lt;T&gt; &amp; from, <span class="keyword">const</span> Vector2&lt;T&gt; &amp; to ) <span class="keyword">noexcept</span> MR_REQUIRES_IF_SUPPORTED( std::is_floating_point_v&lt;T&gt; )</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>{</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keyword">const</span> <span class="keyword">auto</span> x = cross( from, to );</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keyword">const</span> <span class="keyword">auto</span> x = <a class="code hl_functionRef" href="../Csharp/classMR.html#a8262ed4b2e9da97ef796325d81795956">cross</a>( from, to );</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    <span class="keywordflow">if</span> ( x &gt; 0 )</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="keywordflow">return</span> rotation( angle( from, to ) );</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keywordflow">if</span> ( x &lt; 0 )</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        <span class="keywordflow">return</span> rotation( -angle( from, to ) );</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordflow">if</span> ( dot( from, to ) &gt;= 0 )</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">dot</a>( from, to ) &gt;= 0 )</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <span class="keywordflow">return</span> {}; <span class="comment">// identity matrix</span></div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordflow">return</span> rotation( T( PI ) );</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>}</div>
@@ -343,6 +343,9 @@ $(function(){initNavTree('MRMatrix2_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a3f50b1abf767a317c694879ffd14f875"><div class="ttname"><a href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">MR::dot</a></div><div class="ttdeci">static unsafe int dot(in MR.Vector2b a, in MR.Vector2b b)</div></div>
+<div class="ttc" id="aclassMR_html_a8262ed4b2e9da97ef796325d81795956"><div class="ttname"><a href="../Csharp/classMR.html#a8262ed4b2e9da97ef796325d81795956">MR::cross</a></div><div class="ttdeci">static unsafe float cross(in MR.Vector2f a, in MR.Vector2f b)</div></div>
 <div class="ttc" id="astructMR_1_1Matrix2_html"><div class="ttname"><a href="structMR_1_1Matrix2.html">MR::Matrix2</a></div><div class="ttdef"><b>Definition</b> MRMatrix2.h:21</div></div>
 <div class="ttc" id="astructMR_1_1Matrix2_html_a07a97bdc2d9081ca6bb3f61742dd1074"><div class="ttname"><a href="structMR_1_1Matrix2.html#a07a97bdc2d9081ca6bb3f61742dd1074">MR::Matrix2::x</a></div><div class="ttdeci">Vector2&lt; T &gt; x</div><div class="ttdoc">rows, identity matrix by default</div><div class="ttdef"><b>Definition</b> MRMatrix2.h:26</div></div>
 <div class="ttc" id="astructMR_1_1Matrix2_html_a20740a418f3d5d57096bf783f555663f"><div class="ttname"><a href="structMR_1_1Matrix2.html#a20740a418f3d5d57096bf783f555663f">MR::Matrix2::scale</a></div><div class="ttdeci">static constexpr Matrix2 scale(T s) noexcept</div><div class="ttdoc">returns a matrix that scales uniformly</div><div class="ttdef"><b>Definition</b> MRMatrix2.h:40</div></div>

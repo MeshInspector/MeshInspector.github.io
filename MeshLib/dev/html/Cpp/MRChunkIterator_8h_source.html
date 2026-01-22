@@ -155,51 +155,48 @@ $(function(){initNavTree('MRChunkIterator_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;iterator&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1Chunk.html">   12</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1Chunk.html">Chunk</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>Chunk</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1Chunk.html#a67302698c90451ac1dbc264851582a22">   15</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structMR_1_1Chunk.html#a67302698c90451ac1dbc264851582a22">offset</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7">   17</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7">size</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">size_t</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1Chunk.html#a1a73cf60e35d957c7671524228bfec2d">offset</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">size_t</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1Chunk.html#a2ef2694f3e24e2e3e6eabc6fae97668c">size</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
-</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structMR_1_1ChunkIterator.html">   21</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ChunkIterator.html">ChunkIterator</a></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">struct </span>ChunkIterator</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">size_t</span> totalSize{ 0 };</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">size_t</span> chunkSize{ 0 };</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">size_t</span> overlap{ 0 };</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">size_t</span> index{ 0 };</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    MRMESH_API <span class="keywordtype">bool</span> operator ==( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ChunkIterator.html">ChunkIterator</a>&amp; other ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    MRMESH_API <span class="keywordtype">bool</span> operator ==( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChunkIterator.html#ae7fa96872f7fa07d76b702d8932a51ce">ChunkIterator</a>&amp; other ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">using </span>iterator_category = std::input_iterator_tag;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1Chunk.html">value_type</a> = <a class="code hl_struct" href="structMR_1_1Chunk.html">Chunk</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">using </span>value_type = Chunk;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">using </span>difference_type = std::ptrdiff_t;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1Chunk.html">pointer</a> = <a class="code hl_struct" href="structMR_1_1Chunk.html">Chunk</a>*;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1Chunk.html">reference</a> = <a class="code hl_struct" href="structMR_1_1Chunk.html">Chunk</a>&amp;;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">using </span>pointer = Chunk*;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">using </span>reference = Chunk&amp;;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    MRMESH_API <a class="code hl_struct" href="structMR_1_1ChunkIterator.html">ChunkIterator</a>&amp; operator ++();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MRMESH_API <a class="code hl_struct" href="structMR_1_1ChunkIterator.html">ChunkIterator</a> operator ++( <span class="keywordtype">int</span> );</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    MRMESH_API <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChunkIterator.html#ae7fa96872f7fa07d76b702d8932a51ce">ChunkIterator</a>&amp; operator ++();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MRMESH_API <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChunkIterator.html#ae7fa96872f7fa07d76b702d8932a51ce">ChunkIterator</a> operator ++( <span class="keywordtype">int</span> );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    MRMESH_API <a class="code hl_struct" href="structMR_1_1Chunk.html">Chunk</a> operator *() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_struct" href="structMR_1_1Chunk.html">Chunk</a> operator -&gt;()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> operator*(); }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    MRMESH_API Chunk operator *() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    Chunk operator -&gt;()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> operator*(); }</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
-</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>MRMESH_API <span class="keywordtype">size_t</span> chunkCount( <span class="keywordtype">size_t</span> totalSize, <span class="keywordtype">size_t</span> chunkSize, <span class="keywordtype">size_t</span> overlap = 0 );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>MRMESH_API <span class="keywordtype">size_t</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a1975667872ef3ab1a7caefbae7ea5585">chunkCount</a>( <span class="keywordtype">size_t</span> totalSize, <span class="keywordtype">size_t</span> chunkSize, <span class="keywordtype">size_t</span> overlap = 0 );</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>MRMESH_API <a class="code hl_struct" href="structMR_1_1IteratorRange.html">IteratorRange&lt;ChunkIterator&gt;</a> splitByChunks( <span class="keywordtype">size_t</span> totalSize, <span class="keywordtype">size_t</span> chunkSize, <span class="keywordtype">size_t</span> overlap = 0 );</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>MRMESH_API IteratorRange&lt;ChunkIterator&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a26450a29708c986dbb534fcb24e051f4">splitByChunks</a>( <span class="keywordtype">size_t</span> totalSize, <span class="keywordtype">size_t</span> chunkSize, <span class="keywordtype">size_t</span> overlap = 0 );</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="astructMR_1_1ChunkIterator_html"><div class="ttname"><a href="structMR_1_1ChunkIterator.html">MR::ChunkIterator</a></div><div class="ttdoc">iterator class for array chunks</div><div class="ttdef"><b>Definition</b> MRChunkIterator.h:22</div></div>
-<div class="ttc" id="astructMR_1_1Chunk_html"><div class="ttname"><a href="structMR_1_1Chunk.html">MR::Chunk</a></div><div class="ttdoc">array chunk representation</div><div class="ttdef"><b>Definition</b> MRChunkIterator.h:13</div></div>
-<div class="ttc" id="astructMR_1_1Chunk_html_a67302698c90451ac1dbc264851582a22"><div class="ttname"><a href="structMR_1_1Chunk.html#a67302698c90451ac1dbc264851582a22">MR::Chunk::offset</a></div><div class="ttdeci">size_t offset</div><div class="ttdoc">chunk offset</div><div class="ttdef"><b>Definition</b> MRChunkIterator.h:15</div></div>
-<div class="ttc" id="astructMR_1_1Chunk_html_adb4508fa30f32657421915e81df16da7"><div class="ttname"><a href="structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7">MR::Chunk::size</a></div><div class="ttdeci">size_t size</div><div class="ttdoc">chunk size; the last chunk's size may be smaller than other chunk's ones</div><div class="ttdef"><b>Definition</b> MRChunkIterator.h:17</div></div>
-<div class="ttc" id="astructMR_1_1IteratorRange_html"><div class="ttname"><a href="structMR_1_1IteratorRange.html">MR::IteratorRange</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:505</div></div>
+<div class="ttc" id="aclassMR_1_1ChunkIterator_html_ae7fa96872f7fa07d76b702d8932a51ce"><div class="ttname"><a href="../Csharp/classMR_1_1ChunkIterator.html#ae7fa96872f7fa07d76b702d8932a51ce">MR::ChunkIterator::ChunkIterator</a></div><div class="ttdeci">unsafe ChunkIterator()</div></div>
+<div class="ttc" id="aclassMR_1_1Chunk_html_a1a73cf60e35d957c7671524228bfec2d"><div class="ttname"><a href="../Csharp/classMR_1_1Chunk.html#a1a73cf60e35d957c7671524228bfec2d">MR::Chunk::offset</a></div><div class="ttdeci">new unsafe ref ulong offset</div></div>
+<div class="ttc" id="aclassMR_1_1Chunk_html_a2ef2694f3e24e2e3e6eabc6fae97668c"><div class="ttname"><a href="../Csharp/classMR_1_1Chunk.html#a2ef2694f3e24e2e3e6eabc6fae97668c">MR::Chunk::size</a></div><div class="ttdeci">new unsafe ref ulong size</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a1975667872ef3ab1a7caefbae7ea5585"><div class="ttname"><a href="../Csharp/classMR.html#a1975667872ef3ab1a7caefbae7ea5585">MR::chunkCount</a></div><div class="ttdeci">static unsafe ulong chunkCount(ulong totalSize, ulong chunkSize, ulong? overlap=null)</div></div>
+<div class="ttc" id="aclassMR_html_a26450a29708c986dbb534fcb24e051f4"><div class="ttname"><a href="../Csharp/classMR.html#a26450a29708c986dbb534fcb24e051f4">MR::splitByChunks</a></div><div class="ttdeci">static unsafe MR.IteratorRange_MRChunkIterator splitByChunks(ulong totalSize, ulong chunkSize, ulong? overlap=null)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

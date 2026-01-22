@@ -1,0 +1,25 @@
+var structMR_1_1Vector4i64 =
+[
+    [ "Vector4i64", "structMR_1_1Vector4i64.html#ae8086166b5f0d355da659ff2547c476c", null ],
+    [ "Vector4i64", "structMR_1_1Vector4i64.html#a5cb788cc327fac143d26b6ba56ff2497", null ],
+    [ "Vector4i64", "structMR_1_1Vector4i64.html#ad60789f0eb0d90f66491070449fa9b38", null ],
+    [ "Vector4i64", "structMR_1_1Vector4i64.html#a63f66bf6fa21cebb2718b3cf0b99be32", null ],
+    [ "addAssign", "structMR_1_1Vector4i64.html#a019cca245c4774e380ad702d967a9b5c", null ],
+    [ "diagonal", "structMR_1_1Vector4i64.html#ae81ad27617533ba31c544d17bca4673d", null ],
+    [ "divAssign", "structMR_1_1Vector4i64.html#ae7fc48775b6bb59884478a9e43974d84", null ],
+    [ "index", "structMR_1_1Vector4i64.html#a3885cc7423834f6dcc74eb194245bdc1", null ],
+    [ "length", "structMR_1_1Vector4i64.html#a774c7a321f9ad2a43551600aa1a8dc12", null ],
+    [ "lengthSq", "structMR_1_1Vector4i64.html#a7a08ad3ecd8a8553fd1f980a4ca9e409", null ],
+    [ "mulAssign", "structMR_1_1Vector4i64.html#a81565491057d02b9f181e9f2bce4d899", null ],
+    [ "operator Vector4i64", "structMR_1_1Vector4i64.html#a69c3dc7044b84c6c743fd159799eeb48", null ],
+    [ "operator*", "structMR_1_1Vector4i64.html#af8666c8c8558b0f8cb497cea532b7005", null ],
+    [ "operator*", "structMR_1_1Vector4i64.html#a94c0da7257e650ea7bfa96046048943c", null ],
+    [ "operator+", "structMR_1_1Vector4i64.html#a86dc76b500b3c4a718d9757d32ddba54", null ],
+    [ "operator+", "structMR_1_1Vector4i64.html#a038c466f77b6bde05b98dc31390677f1", null ],
+    [ "operator-", "structMR_1_1Vector4i64.html#aa0236cd19889d402a2d90ec914a62f8a", null ],
+    [ "operator-", "structMR_1_1Vector4i64.html#affd97f2244d1a35f265f435fef84f117", null ],
+    [ "operator/", "structMR_1_1Vector4i64.html#a10605b940b785fcc22a623b21ffb2fbe", null ],
+    [ "operator==", "structMR_1_1Vector4i64.html#a450881bd72730b85f667e7003b9cd431", null ],
+    [ "subAssign", "structMR_1_1Vector4i64.html#a0c1f4c5c4c10ffe5bec03a0fd29e44c0", null ],
+    [ "this[int e]", "structMR_1_1Vector4i64.html#ac94daa51cf2d7cf19764c90d3dc65a93", null ]
+];

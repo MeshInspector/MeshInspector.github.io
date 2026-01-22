@@ -153,7 +153,7 @@ $(function(){initNavTree('MRString_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;typeinfo&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">   14</a></span>[[nodiscard]] MRMESH_API <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">findSubstringCaseInsensitive</a>( <span class="keyword">const</span> std::string&amp; <span class="keywordtype">string</span>, <span class="keyword">const</span> std::string&amp; substring );</div>
@@ -182,20 +182,27 @@ $(function(){initNavTree('MRString_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>[[nodiscard]] MRMESH_API std::string replace( std::string target, std::string_view from, std::string_view to );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>[[nodiscard]] MRMESH_API std::string <a class="code hl_functionRef" href="../Csharp/classMR.html#a1c5e5084a11b990185977325e486fdfb">replace</a>( std::string target, std::string_view from, std::string_view to );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>MRMESH_API <span class="keywordtype">void</span> replaceInplace( std::string&amp; target, std::string_view from, std::string_view to );</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a74ea0efcbd460adf05bac238fafdfa09">replaceInplace</a>( std::string&amp; target, std::string_view from, std::string_view to );</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>[[nodiscard]] MRMESH_API std::string_view trim( std::string_view str );</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>[[nodiscard]] MRMESH_API std::string_view <a class="code hl_functionRef" href="../Csharp/classMR.html#a3d40dce31bb9a0a27c715c1615d97a0d">trim</a>( std::string_view str );</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>[[nodiscard]] MRMESH_API std::string_view trimLeft( std::string_view str );</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>[[nodiscard]] MRMESH_API std::string_view <a class="code hl_functionRef" href="../Csharp/classMR.html#a762ec94f552b8fbcac2b658bfdcdf93e">trimLeft</a>( std::string_view str );</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>[[nodiscard]] MRMESH_API std::string_view trimRight( std::string_view str );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>[[nodiscard]] MRMESH_API std::string_view <a class="code hl_functionRef" href="../Csharp/classMR.html#a73669f7618c9dfa0cd133f096bd62075">trimRight</a>( std::string_view str );</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>[[nodiscard]] MRMESH_API <span class="keywordtype">bool</span> hasFormatPlaceholders( std::string_view str );</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>[[nodiscard]] MRMESH_API <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a6bf9eb6de99550a7c83fa428a8cf50b9">hasFormatPlaceholders</a>( std::string_view str );</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a1c5e5084a11b990185977325e486fdfb"><div class="ttname"><a href="../Csharp/classMR.html#a1c5e5084a11b990185977325e486fdfb">MR::replace</a></div><div class="ttdeci">static unsafe MR.Std.String replace(string target, string from, string to)</div></div>
+<div class="ttc" id="aclassMR_html_a3d40dce31bb9a0a27c715c1615d97a0d"><div class="ttname"><a href="../Csharp/classMR.html#a3d40dce31bb9a0a27c715c1615d97a0d">MR::trim</a></div><div class="ttdeci">static unsafe MR.Std.StringView trim(string str)</div></div>
+<div class="ttc" id="aclassMR_html_a6bf9eb6de99550a7c83fa428a8cf50b9"><div class="ttname"><a href="../Csharp/classMR.html#a6bf9eb6de99550a7c83fa428a8cf50b9">MR::hasFormatPlaceholders</a></div><div class="ttdeci">static unsafe bool hasFormatPlaceholders(string str)</div></div>
+<div class="ttc" id="aclassMR_html_a73669f7618c9dfa0cd133f096bd62075"><div class="ttname"><a href="../Csharp/classMR.html#a73669f7618c9dfa0cd133f096bd62075">MR::trimRight</a></div><div class="ttdeci">static unsafe MR.Std.StringView trimRight(string str)</div></div>
+<div class="ttc" id="aclassMR_html_a74ea0efcbd460adf05bac238fafdfa09"><div class="ttname"><a href="../Csharp/classMR.html#a74ea0efcbd460adf05bac238fafdfa09">MR::replaceInplace</a></div><div class="ttdeci">static unsafe void replaceInplace(MR.Std.String target, string from, string to)</div></div>
+<div class="ttc" id="aclassMR_html_a762ec94f552b8fbcac2b658bfdcdf93e"><div class="ttname"><a href="../Csharp/classMR.html#a762ec94f552b8fbcac2b658bfdcdf93e">MR::trimLeft</a></div><div class="ttdeci">static unsafe MR.Std.StringView trimLeft(string str)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga245584b85505ab9157d346bb3d8caf53"><div class="ttname"><a href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a></div><div class="ttdeci">MRMESH_API size_t findSubstringCaseInsensitive(const std::string &amp;string, const std::string &amp;substring)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga4a32fd3117efa96b71c220bfc13c359b"><div class="ttname"><a href="group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b">MR::split</a></div><div class="ttdeci">MRMESH_API std::vector&lt; std::string &gt; split(const std::string &amp;string, const std::string &amp;delimiter)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gadb9d497f4e19d60a460324a964581ebb"><div class="ttname"><a href="group__BasicGroup.html#gadb9d497f4e19d60a460324a964581ebb">MR::calcDamerauLevenshteinDistance</a></div><div class="ttdeci">MRMESH_API int calcDamerauLevenshteinDistance(const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</div></div>

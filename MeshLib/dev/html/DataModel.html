@@ -176,8 +176,7 @@ Serialization</h2>
 <div class="line"><span class="comment">//  </span></div>
 <div class="line"><span class="comment">// saving is controlled with Object::serializeModel_ and Object::serializeFields_</span></div>
 <div class="line">MRMESH_API tl::expected&lt;void, std::string&gt; serializeObjectTree( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, </div>
-<div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_typedefRef" href="./Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress = {} );</div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="./Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div></div>
+<div class="line">    <span class="keyword">const</span> std::filesystem::path&amp; path, ProgressCallback progress = {} );</div>
 </div><!-- fragment --><p>And to deserialize object tree: </p><div class="fragment"><div class="line"><span class="comment">// loads objects tree from given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
 <div class="line"><span class="comment">//  children are saved under folder with name of their parent object</span></div>

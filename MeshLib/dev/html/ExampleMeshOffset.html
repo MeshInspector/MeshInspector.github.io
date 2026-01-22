@@ -162,10 +162,10 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Create mesh</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = MR::makeCube();</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = MR::makeCube();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup parameters</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a> params;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a> params;</div>
 <div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
 <div class="line">    params.voxelSize = suggestVoxelSize( mesh, 10000000.f );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !MR::findRightBoundary( mesh.topology ).empty() )</div>
@@ -330,10 +330,10 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">            <span class="comment">// Load mesh</span></div>
 <div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            MR.MeshPart mp = <span class="keyword">new</span>(mesh);</div>
+<div class="line">            <a class="code hl_classRef" href="./Csharp/classMR_1_1MeshPart.html">MR.MeshPart</a> mp = <span class="keyword">new</span>(mesh);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup parameters</span></div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1OffsetParameters.html">MR.OffsetParameters</a> op = <span class="keyword">new</span>();</div>
+<div class="line">            <a class="code hl_classRef" href="./Cpp/structMR_1_1OffsetParameters.html">MR.OffsetParameters</a> op = <span class="keyword">new</span>();</div>
 <div class="line">            op.voxelSize = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.suggestVoxelSize(mp, 1e6f);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Make offset mesh</span></div>
@@ -348,6 +348,7 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassMR_1_1MeshPart_html"><div class="ttname"><a href="./Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshSave_1_1BinaryStlSaver_html"><div class="ttname"><a href="./Cpp/classMR_1_1MeshSave_1_1BinaryStlSaver.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1MeshLoad_1_1MeshLoader_html"><div class="ttname"><a href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MR::MeshLoad</a></div></div>

@@ -154,31 +154,32 @@ $(function(){initNavTree('MRCalcDims_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRMesh/MRVector3.h&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structMR_1_1OriginAndDimensions.html">   11</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1OriginAndDimensions.html">OriginAndDimensions</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>OriginAndDimensions</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Vector3f origin;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Vector3i dimensions;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
-</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1OriginAndDimensions.html">OriginAndDimensions</a> calcOriginAndDimensions( <span class="keyword">const</span> Box3f &amp; box, <span class="keywordtype">float</span> voxelSize )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">inline</span> OriginAndDimensions <a class="code hl_functionRef" href="../Csharp/classMR.html#a9e4116d83cfe6c688eae14a26a3d8c74">calcOriginAndDimensions</a>( <span class="keyword">const</span> Box3f &amp; box, <span class="keywordtype">float</span> voxelSize )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <span class="keyword">auto</span> expansion = Vector3f::diagonal( 2 * voxelSize );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <span class="keyword">auto</span> expansion = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">Vector3f::diagonal</a>( 2 * voxelSize );</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">const</span> <span class="keyword">auto</span> origin = box.min - expansion;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">return</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        .origin = origin,</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        .dimensions = Vector3i( ( box.max + expansion - origin ) / voxelSize ) + Vector3i::diagonal( 1 )</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        .dimensions = Vector3i( ( box.max + expansion - origin ) / voxelSize ) + <a class="code hl_functionRef" href="../Csharp/structMR_1_1Vector3i.html#a3cbd914c674cc15b8e2370c86bfd344c">Vector3i::diagonal</a>( 1 )</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    };</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">//namespace MR</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="ttc" id="astructMR_1_1OriginAndDimensions_html"><div class="ttname"><a href="structMR_1_1OriginAndDimensions.html">MR::OriginAndDimensions</a></div><div class="ttdoc">shift of zero voxel in 3D space and dimensions of voxel-grid</div><div class="ttdef"><b>Definition</b> MRCalcDims.h:12</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a9e4116d83cfe6c688eae14a26a3d8c74"><div class="ttname"><a href="../Csharp/classMR.html#a9e4116d83cfe6c688eae14a26a3d8c74">MR::calcOriginAndDimensions</a></div><div class="ttdeci">static unsafe MR.OriginAndDimensions calcOriginAndDimensions(in MR.Box3f box, float voxelSize)</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html_a2fdceeff57d05e3bfae1b9c00a08144e"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">MR::Vector3f::diagonal</a></div><div class="ttdeci">static MR.Vector3f diagonal(float a)</div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html_a3cbd914c674cc15b8e2370c86bfd344c"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html#a3cbd914c674cc15b8e2370c86bfd344c">MR::Vector3i::diagonal</a></div><div class="ttdeci">static MR.Vector3i diagonal(int a)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

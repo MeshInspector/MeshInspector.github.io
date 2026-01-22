@@ -157,7 +157,7 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
@@ -265,19 +265,19 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>}</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> begin( <span class="keyword">const</span> Buffer&lt;T, I&gt; &amp; a )</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a422cb5ddc1e9d6762387165607b9871e">begin</a>( <span class="keyword">const</span> Buffer&lt;T, I&gt; &amp; a )</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    { <span class="keywordflow">return</span> a.data(); }</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> begin( Buffer&lt;T, I&gt; &amp; a )</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a422cb5ddc1e9d6762387165607b9871e">begin</a>( Buffer&lt;T, I&gt; &amp; a )</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    { <span class="keywordflow">return</span> a.data(); }</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> end( <span class="keyword">const</span> Buffer&lt;T, I&gt; &amp; a )</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">end</a>( <span class="keyword">const</span> Buffer&lt;T, I&gt; &amp; a )</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    { <span class="keywordflow">return</span> a.data() + a.size(); }</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> end( Buffer&lt;T, I&gt; &amp; a )</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">end</a>( Buffer&lt;T, I&gt; &amp; a )</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    { <span class="keywordflow">return</span> a.data() + a.size(); }</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> I&gt;</div>
@@ -289,21 +289,19 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>};</div>
 </div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="foldopen" id="foldopen00150" data-start="{" data-end="};">
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="structMR_1_1PackMapping.html">  150</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PackMapping.html">PackMapping</a></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1PackMapping.html">PackMapping</a></div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>{</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    UndirectedEdgeBMap e;</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    FaceBMap f;</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    VertBMap v;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeBMap.html">UndirectedEdgeBMap</a> e;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <a class="code hl_classRef" href="../Csharp/classMR_1_1FaceBMap.html">FaceBMap</a> f;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <a class="code hl_classRef" href="../Csharp/classMR_1_1VertBMap.html">VertBMap</a> v;</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>};</div>
-</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> compose( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> &amp; b )</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>BMap&lt;T, T&gt; compose( <span class="keyword">const</span> BMap&lt;T, T&gt; &amp; a, <span class="keyword">const</span> BMap&lt;T, T&gt; &amp; b )</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>{</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> res;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    BMap&lt;T, T&gt; res;</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    res.b.resize( b.b.size() );</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    res.<a class="code hl_variable" href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">tsize</a> = a.<a class="code hl_variable" href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">tsize</a>;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    res.tsize = a.tsize;</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="keywordflow">for</span> ( T x( 0 ); x &lt; b.b.size(); ++x )</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    {</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        <span class="keyword">auto</span> bx = b.b[x];</div>
@@ -319,12 +317,18 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1Buffer_html_a6fa2be8099e8b9ba78c8a4ca991103be"><div class="ttname"><a href="classMR_1_1Buffer.html#a6fa2be8099e8b9ba78c8a4ca991103be">MR::Buffer::beginId</a></div><div class="ttdeci">I beginId() const</div><div class="ttdoc">returns the identifier of the first element</div><div class="ttdef"><b>Definition</b> MRBuffer.h:101</div></div>
 <div class="ttc" id="aclassMR_1_1Buffer_html_a7351432c6f65b963c17560ef8054076c"><div class="ttname"><a href="classMR_1_1Buffer.html#a7351432c6f65b963c17560ef8054076c">MR::Buffer::heapBytes</a></div><div class="ttdeci">size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRBuffer.h:110</div></div>
 <div class="ttc" id="aclassMR_1_1Buffer_html_abfa0b936734c36dff600039214adb66f"><div class="ttname"><a href="classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f">MR::Buffer::endId</a></div><div class="ttdeci">I endId() const</div><div class="ttdoc">returns backId() + 1</div><div class="ttdef"><b>Definition</b> MRBuffer.h:107</div></div>
+<div class="ttc" id="aclassMR_1_1FaceBMap_html"><div class="ttname"><a href="../Csharp/classMR_1_1FaceBMap.html">MR::FaceBMap</a></div></div>
+<div class="ttc" id="aclassMR_1_1PackMapping_html"><div class="ttname"><a href="../Csharp/classMR_1_1PackMapping.html">MR::PackMapping</a></div><div class="ttdef"><b>Definition</b> MRBuffer.h:151</div></div>
+<div class="ttc" id="aclassMR_1_1UndirectedEdgeBMap_html"><div class="ttname"><a href="../Csharp/classMR_1_1UndirectedEdgeBMap.html">MR::UndirectedEdgeBMap</a></div></div>
+<div class="ttc" id="aclassMR_1_1VertBMap_html"><div class="ttname"><a href="../Csharp/classMR_1_1VertBMap.html">MR::VertBMap</a></div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a422cb5ddc1e9d6762387165607b9871e"><div class="ttname"><a href="../Csharp/classMR.html#a422cb5ddc1e9d6762387165607b9871e">MR::begin</a></div><div class="ttdeci">static unsafe MR.ChunkIterator begin(MR.Const_IteratorRange_MRChunkIterator range)</div></div>
+<div class="ttc" id="aclassMR_html_aa35da2120f781fbf0244a477c9c37a01"><div class="ttname"><a href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">MR::end</a></div><div class="ttdeci">static unsafe MR.ChunkIterator end(MR.Const_IteratorRange_MRChunkIterator range)</div></div>
 <div class="ttc" id="aconceptMR_1_1Trivial_html"><div class="ttname"><a href="conceptMR_1_1Trivial.html">MR::Trivial</a></div><div class="ttdef"><b>Definition</b> MRBuffer.h:28</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html"><div class="ttname"><a href="structMR_1_1BMap.html">MR::BMap</a></div><div class="ttdoc">flat map: I -&gt; T</div><div class="ttdef"><b>Definition</b> MRBuffer.h:143</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html_a82445cec627eb947404a79b0b670c515"><div class="ttname"><a href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">MR::BMap::tsize</a></div><div class="ttdeci">size_t tsize</div><div class="ttdoc">target size, all values inside b must be less than this value</div><div class="ttdef"><b>Definition</b> MRBuffer.h:145</div></div>
 <div class="ttc" id="astructMR_1_1NoCtor_html"><div class="ttname"><a href="structMR_1_1NoCtor.html">MR::NoCtor</a></div><div class="ttdef"><b>Definition</b> MRBuffer.h:25</div></div>
 <div class="ttc" id="astructMR_1_1NoDefInit_html"><div class="ttname"><a href="structMR_1_1NoDefInit.html">MR::NoDefInit</a></div><div class="ttdef"><b>Definition</b> MRNoDefInit.h:11</div></div>
-<div class="ttc" id="astructMR_1_1PackMapping_html"><div class="ttname"><a href="structMR_1_1PackMapping.html">MR::PackMapping</a></div><div class="ttdef"><b>Definition</b> MRBuffer.h:151</div></div>
 <div class="ttc" id="astructMR_1_1ZeroOnMove_html"><div class="ttname"><a href="structMR_1_1ZeroOnMove.html">MR::ZeroOnMove</a></div><div class="ttdef"><b>Definition</b> MRBuffer.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -161,7 +161,7 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// load image as distance map</span></div>
-<div class="line">    <span class="keyword">auto</span> imageLoadRes = <a class="code hl_functionRef" href="./Cpp/group__ImageLoadGroup.html#gad0427ed61cb0d0f0200d126cac01cc2b">MR::ImageLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;logo.jpg&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> imageLoadRes = <a class="code hl_functionRef" href="./Csharp/classMR_1_1ImageLoad.html#ad1494ca8b7d8a6d0c11896779b7b6bfa">MR::ImageLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;logo.jpg&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !imageLoadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; imageLoadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -185,9 +185,9 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">    }</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassMR_1_1ImageLoad_html_ad1494ca8b7d8a6d0c11896779b7b6bfa"><div class="ttname"><a href="./Csharp/classMR_1_1ImageLoad.html#ad1494ca8b7d8a6d0c11896779b7b6bfa">MR::ImageLoad::fromAnySupportedFormat</a></div><div class="ttdeci">static unsafe MR.Image fromAnySupportedFormat(string path)</div></div>
 <div class="ttc" id="agroup__DistanceMapGroup_html_ga91dadb5d280efea2e31e4620ed69cf56"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></div><div class="ttdeci">MRMESH_API Polyline2 distanceMapTo2DIsoPolyline(const DistanceMap &amp;distMap, float isoValue)</div></div>
 <div class="ttc" id="agroup__DistanceMapGroup_html_gabfddf0510446a24e68326d0574949301"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a></div><div class="ttdeci">MRMESH_API Expected&lt; DistanceMap &gt; convertImageToDistanceMap(const Image &amp;image, float threshold=1.f/255, bool invert=true)</div></div>
-<div class="ttc" id="agroup__ImageLoadGroup_html_gad0427ed61cb0d0f0200d126cac01cc2b"><div class="ttname"><a href="./Cpp/group__ImageLoadGroup.html#gad0427ed61cb0d0f0200d126cac01cc2b">MR::ImageLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Image &gt; fromAnySupportedFormat(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>

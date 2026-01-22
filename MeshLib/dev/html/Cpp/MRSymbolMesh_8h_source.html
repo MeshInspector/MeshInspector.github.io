@@ -159,7 +159,7 @@ $(function(){initNavTree('MRSymbolMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">enum</span> AlignType {</div>
@@ -168,8 +168,7 @@ $(function(){initNavTree('MRSymbolMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Right,</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structMR_1_1SymbolMeshParams.html">   21</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">struct </span>SymbolMeshParams</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// Text that will be made mesh</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    std::string text;</div>
@@ -195,16 +194,17 @@ $(function(){initNavTree('MRSymbolMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// max font size with 128 &lt;&lt; 6 FT_F26Dot6 font size</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keywordtype">float</span> MaxGeneratedFontHeight = 5826.0f * 1e-3f;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
-</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">// converts text string into set of contours</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>MRSYMBOLMESH_API Expected&lt;Contours2f&gt; createSymbolContours( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a>&amp; params );</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>MRSYMBOLMESH_API Expected&lt;Contours2f&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a77388815eb6b0f73c67ea019495175f5">createSymbolContours</a>( <span class="keyword">const</span> SymbolMeshParams&amp; params );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">// converts text string into Z-facing symbol mesh</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>MRSYMBOLMESH_API Expected&lt;Mesh&gt; createSymbolsMesh( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a>&amp; params );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>MRSYMBOLMESH_API Expected&lt;Mesh&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a7cd9518fe915f16d0d54b8aca551f8dc">createSymbolsMesh</a>( <span class="keyword">const</span> SymbolMeshParams&amp; params );</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
-<div class="ttc" id="astructMR_1_1SymbolMeshParams_html"><div class="ttname"><a href="structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></div><div class="ttdef"><b>Definition</b> MRSymbolMesh.h:22</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a77388815eb6b0f73c67ea019495175f5"><div class="ttname"><a href="../Csharp/classMR.html#a77388815eb6b0f73c67ea019495175f5">MR::createSymbolContours</a></div><div class="ttdeci">static unsafe MR.Std.Vector_StdVectorMRVector2f createSymbolContours(MR.Const_SymbolMeshParams params_)</div></div>
+<div class="ttc" id="aclassMR_html_a7cd9518fe915f16d0d54b8aca551f8dc"><div class="ttname"><a href="../Csharp/classMR.html#a7cd9518fe915f16d0d54b8aca551f8dc">MR::createSymbolsMesh</a></div><div class="ttdeci">static unsafe MR.Mesh createSymbolsMesh(MR.Const_SymbolMeshParams params_)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -152,7 +152,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVoxelsVolumeAccess.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Accessor&gt;</div>
@@ -177,7 +177,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">   37</a></span>    ValueType <a class="code hl_function" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">get</a>( <span class="keyword">const</span> Vector3f&amp; pos )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">   37</a></span>    ValueType <a class="code hl_function" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">get</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; pos )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        IndexAndPos index = getIndexAndPos( pos - mult( accessor_.shift(), volume_.voxelSize ) );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        ValueType value{};</div>
@@ -186,7 +186,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordtype">float</span> cz[2] = { 1.0f - index.pos.z, index.pos.z };</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 8; i++ )</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            Vector3i d{ i &amp; 1, ( i &gt;&gt; 1 ) &amp; 1, i &gt;&gt; 2 };</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> d{ i &amp; 1, ( i &gt;&gt; 1 ) &amp; 1, i &gt;&gt; 2 };</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            <span class="keyword">const</span> <span class="keyword">auto</span> voxPos = index.index + d;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">if</span> ( voxPos.x &gt;= 0 &amp;&amp; voxPos.x &lt; volume_.dims.x &amp;&amp;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                 voxPos.y &gt;= 0 &amp;&amp; voxPos.y &lt; volume_.dims.y &amp;&amp;</div>
@@ -205,8 +205,8 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">struct </span>IndexAndPos</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        Vector3i index; <span class="comment">// Zero-based voxel index in the volume</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        Vector3f pos;   <span class="comment">// [0;1) position of a point in the voxel: 0 corresponds to index and 1 to next voxel</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> index; <span class="comment">// Zero-based voxel index in the volume</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> pos;   <span class="comment">// [0;1) position of a point in the voxel: 0 corresponds to index and 1 to next voxel</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    };</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    IndexAndPos getIndexAndPos( Vector3f pos )<span class="keyword"> const</span></div>
@@ -261,6 +261,9 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="ttc" id="aclassMR_1_1VoxelsVolumeInterpolatedAccessor_html_a831f5621f04fe15b891a1d7a2dc755d6"><div class="ttname"><a href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a831f5621f04fe15b891a1d7a2dc755d6">MR::VoxelsVolumeInterpolatedAccessor::get</a></div><div class="ttdeci">ValueType get(const Vector3f &amp;pos) const</div><div class="ttdoc">get value at specified coordinates</div><div class="ttdef"><b>Definition</b> MRVolumeInterpolation.h:37</div></div>
 <div class="ttc" id="aclassMR_1_1VoxelsVolumeInterpolatedAccessor_html_a965961c945f7d3afefa9fb6cddbb33bf"><div class="ttname"><a href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#a965961c945f7d3afefa9fb6cddbb33bf">MR::VoxelsVolumeInterpolatedAccessor::VoxelsVolumeInterpolatedAccessor</a></div><div class="ttdeci">VoxelsVolumeInterpolatedAccessor(const VolumeType &amp;volume, const Accessor &amp;accessor)</div><div class="ttdef"><b>Definition</b> MRVolumeInterpolation.h:25</div></div>
 <div class="ttc" id="aclassMR_1_1VoxelsVolumeInterpolatedAccessor_html_adb692ad74a5bd93073dd795e695edf60"><div class="ttname"><a href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#adb692ad74a5bd93073dd795e695edf60">MR::VoxelsVolumeInterpolatedAccessor::VoxelsVolumeInterpolatedAccessor</a></div><div class="ttdeci">VoxelsVolumeInterpolatedAccessor(const VoxelsVolumeInterpolatedAccessor &amp;other, const Accessor &amp;accessor)</div><div class="ttdoc">a copying-like constructor with explicitly provided accessor</div><div class="ttdef"><b>Definition</b> MRVolumeInterpolation.h:32</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

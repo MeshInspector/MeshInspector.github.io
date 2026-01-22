@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classmrmeshpy_1_1ChangeOneNormalInCloudAction.html#ad8cd635921b56d29fd27c4c4ffbd0721":[6,1,0,0,1,123,1],
 "classmrmeshpy_1_1ChangeOneNormalInCloudAction.html#ae22bea2716cf1f779cf69aaa705cbdea":[6,1,0,0,1,123,3],
 "classmrmeshpy_1_1ChangeOnePointInCloudAction.html":[6,1,0,0,1,124],
 "classmrmeshpy_1_1ChangeOnePointInCloudAction.html#a35099a6d2c0a15fb1f77ebf7a09f0f8e":[6,1,0,0,1,124,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1ContoursMeshAlignParams.html#af0b5652dd30ac63f47e75f3a04212b9d":[6,1,0,0,1,169,3],
 "classmrmeshpy_1_1CoordinateConverters.html":[6,1,0,0,1,171],
 "classmrmeshpy_1_1CoordinateConverters.html#a3437a9f48b856839f209bdfbb7e91d93":[6,1,0,0,1,171,1],
-"classmrmeshpy_1_1CoordinateConverters.html#a4ea6d6bad0f167b1fa7aef35ed654b64":[6,1,0,0,1,171,0],
-"classmrmeshpy_1_1CoordinateConverters2.html":[6,1,0,0,1,172]
+"classmrmeshpy_1_1CoordinateConverters.html#a4ea6d6bad0f167b1fa7aef35ed654b64":[6,1,0,0,1,171,0]
 };

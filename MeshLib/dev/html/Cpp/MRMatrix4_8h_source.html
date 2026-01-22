@@ -156,7 +156,7 @@ $(function(){initNavTree('MRMatrix4_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;iosfwd&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
@@ -196,7 +196,7 @@ $(function(){initNavTree('MRMatrix4_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// Currently `AffineXf3&lt;long long&gt;` doesn&#39;t seem to compile, so we disable this constructor for `Matrix4&lt;long long&gt;`, because otherwise</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// mrbind instantiates the entire `AffineXf3&lt;long long&gt;` and chokes on it.</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">template</span> &lt;MR_SAME_TYPE_TEMPLATE_PARAM(T, TT)&gt;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">constexpr</span> <a class="code hl_struct" href="structMR_1_1Matrix4.html">Matrix4</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3&lt;TT&gt;</a>&amp; xf ) MR_REQUIRES_IF_SUPPORTED( std::floating_point&lt;T&gt; ) : <a class="code hl_struct" href="structMR_1_1Matrix4.html">Matrix4</a>( xf.A, xf.b ) {}</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">constexpr</span> <a class="code hl_struct" href="structMR_1_1Matrix4.html">Matrix4</a>( <span class="keyword">const</span> AffineXf3&lt;TT&gt;&amp; xf ) MR_REQUIRES_IF_SUPPORTED( std::floating_point&lt;T&gt; ) : <a class="code hl_struct" href="structMR_1_1Matrix4.html">Matrix4</a>( xf.A, xf.b ) {}</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">// Here `T == U` doesn&#39;t seem to cause any issues in the C++ code, but we&#39;re still disabling it because it somehow gets emitted</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">//   when generating the bindings, and results in duplicate functions in C#.</span></div>
@@ -549,7 +549,7 @@ $(function(){initNavTree('MRMatrix4_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span> </div>
 <div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:23</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:21</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html_a34220148555a9b57f32f7edb08289ea4"><div class="ttname"><a href="structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4">MR::Matrix3::x</a></div><div class="ttdeci">Vector3&lt; T &gt; x</div><div class="ttdoc">rows, identity matrix by default</div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:26</div></div>
 <div class="ttc" id="astructMR_1_1Matrix4_html"><div class="ttname"><a href="structMR_1_1Matrix4.html">MR::Matrix4</a></div><div class="ttdef"><b>Definition</b> MRMatrix4.h:22</div></div>

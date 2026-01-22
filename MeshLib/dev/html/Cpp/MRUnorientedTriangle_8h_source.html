@@ -154,16 +154,14 @@ $(function(){initNavTree('MRUnorientedTriangle_8h_source.html',''); initResizabl
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangle.html">   12</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>UnorientedTriangle</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    ThreeVertIds verts{};</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49">   16</a></span>    <a class="code hl_function" href="structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49">UnorientedTriangle</a>( <span class="keyword">const</span> ThreeVertIds &amp; inVs,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1UnorientedTriangle.html#a176fa8ba1591d178ae6b5ab3c495cd31">UnorientedTriangle</a>( <span class="keyword">const</span> ThreeVertIds &amp; inVs,</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keywordtype">bool</span> * outFlipped = <span class="keyword">nullptr</span> ) </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        : verts( inVs )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
@@ -184,9 +182,8 @@ $(function(){initNavTree('MRUnorientedTriangle_8h_source.html',''); initResizabl
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">if</span> ( outFlipped )</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            *outFlipped = flipped;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
-</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e">   39</a></span>    ThreeVertIds <a class="code hl_function" href="structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e">getFlipped</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> { verts[0], verts[2], verts[1] }; } <span class="comment">// id #0 remains the lowest</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    ThreeVertIds getFlipped()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> { verts[0], verts[2], verts[1] }; } <span class="comment">// id #0 remains the lowest</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">operator</span>       ThreeVertIds &amp;()       { <span class="keywordflow">return</span> verts; }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">operator</span> <span class="keyword">const</span> ThreeVertIds &amp;() <span class="keyword">const</span> { <span class="keywordflow">return</span> verts; }</div>
@@ -194,9 +191,8 @@ $(function(){initNavTree('MRUnorientedTriangle_8h_source.html',''); initResizabl
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>          VertId &amp;operator[]( std::size_t i )       { <span class="keywordflow">return</span> verts[i]; }</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">const</span> VertId &amp;operator[]( std::size_t i )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> verts[i]; }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">friend</span> <span class="keywordtype">bool</span> operator==( <span class="keyword">const</span> <a class="code hl_function" href="structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49">UnorientedTriangle</a>&amp; a, <span class="keyword">const</span> <a class="code hl_function" href="structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49">UnorientedTriangle</a>&amp; b ) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">friend</span> <span class="keywordtype">bool</span> operator==( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1UnorientedTriangle.html#a176fa8ba1591d178ae6b5ab3c495cd31">UnorientedTriangle</a>&amp; a, <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1UnorientedTriangle.html#a176fa8ba1591d178ae6b5ab3c495cd31">UnorientedTriangle</a>&amp; b ) = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
-</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>} <span class="comment">//namespace MR</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
@@ -204,9 +200,9 @@ $(function(){initNavTree('MRUnorientedTriangle_8h_source.html',''); initResizabl
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">template</span> &lt;&gt;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">struct </span>hash&lt;MR::UnorientedTriangle&gt;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">struct </span>hash&lt;<a class="code hl_classRef" href="../Csharp/classMR.html">MR</a>::UnorientedTriangle&gt;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>{</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">size_t</span> operator() ( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a>&amp; triplet ) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">size_t</span> operator() ( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a>&amp; triplet ) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    {</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">return</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            2 * size_t( triplet.verts[0] ) +</div>
@@ -216,9 +212,9 @@ $(function(){initNavTree('MRUnorientedTriangle_8h_source.html',''); initResizabl
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">//namespace std</span></div>
-<div class="ttc" id="astructMR_1_1UnorientedTriangle_html"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a></div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:13</div></div>
-<div class="ttc" id="astructMR_1_1UnorientedTriangle_html_a74d6d544ece458f69514e02465ea0a1e"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e">MR::UnorientedTriangle::getFlipped</a></div><div class="ttdeci">ThreeVertIds getFlipped() const</div><div class="ttdoc">returns this triangle with the opposite orientation</div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:39</div></div>
-<div class="ttc" id="astructMR_1_1UnorientedTriangle_html_aa917f541ba687e11cb12638018c11f49"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49">MR::UnorientedTriangle::UnorientedTriangle</a></div><div class="ttdeci">UnorientedTriangle(const ThreeVertIds &amp;inVs, bool *outFlipped=nullptr)</div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1UnorientedTriangle_html"><div class="ttname"><a href="../Csharp/classMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a></div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:13</div></div>
+<div class="ttc" id="aclassMR_1_1UnorientedTriangle_html_a176fa8ba1591d178ae6b5ab3c495cd31"><div class="ttname"><a href="../Csharp/classMR_1_1UnorientedTriangle.html#a176fa8ba1591d178ae6b5ab3c495cd31">MR::UnorientedTriangle::UnorientedTriangle</a></div><div class="ttdeci">unsafe UnorientedTriangle(MR.Const_UnorientedTriangle _other)</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

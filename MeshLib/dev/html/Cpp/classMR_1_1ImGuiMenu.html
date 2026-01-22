@@ -191,10 +191,10 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:acf12d9bbd08c5c2a1b528461e7294587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108b6e7b1762c1e145d04713a3badf63" id="r_a108b6e7b1762c1e145d04713a3badf63"><td class="memItemLeft" align="right" valign="top"><a id="a108b6e7b1762c1e145d04713a3badf63" name="a108b6e7b1762c1e145d04713a3badf63"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>NameTagClickSignal</b> = boost::signals2::signal&lt;bool( <a class="el" href="classMR_1_1Object.html">Object</a>&amp; object, NameTagSelectionMode mode ), <a class="el" href="structMR_1_1StopOnTrueCombiner.html">StopOnTrueCombiner</a>&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>NameTagClickSignal</b> = boost::signals2::signal&lt;bool( <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a>&amp; object, NameTagSelectionMode mode ), <a class="el" href="structMR_1_1StopOnTrueCombiner.html">StopOnTrueCombiner</a>&gt;</td></tr>
 <tr class="separator:a108b6e7b1762c1e145d04713a3badf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a942483ecfa0154d8246586de1560c3eb" id="r_a942483ecfa0154d8246586de1560c3eb"><td class="memItemLeft" align="right" valign="top"><a id="a942483ecfa0154d8246586de1560c3eb" name="a942483ecfa0154d8246586de1560c3eb"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>DrawSceneUiSignal</b> = boost::signals2::signal&lt;void( <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId, UiRenderParams::UiTaskList&amp; tasks )&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>DrawSceneUiSignal</b> = boost::signals2::signal&lt;void( <a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewportId, UiRenderParams::UiTaskList&amp; tasks )&gt;</td></tr>
 <tr class="separator:a942483ecfa0154d8246586de1560c3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -234,7 +234,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_custom_w
 void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_labels_window</b> ()</td></tr>
 <tr class="separator:a0e5fbe43cf10672413ba99ee734efbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8816c5eec0cd0dbf6a48ffb892cacb8e" id="r_a8816c5eec0cd0dbf6a48ffb892cacb8e"><td class="memItemLeft" align="right" valign="top"><a id="a8816c5eec0cd0dbf6a48ffb892cacb8e" name="a8816c5eec0cd0dbf6a48ffb892cacb8e"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_text</b> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;viewport, const Vector3f &amp;pos, const Vector3f &amp;normal, const std::string &amp;text, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, bool clipByViewport)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_text</b> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;viewport, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;pos, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;normal, const std::string &amp;text, const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;color, bool clipByViewport)</td></tr>
 <tr class="separator:a8816c5eec0cd0dbf6a48ffb892cacb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68decea45636d9cf3ddd402a7ed91222" id="r_a68decea45636d9cf3ddd402a7ed91222"><td class="memItemLeft" align="right" valign="top"><a id="a68decea45636d9cf3ddd402a7ed91222" name="a68decea45636d9cf3ddd402a7ed91222"></a>
 MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>pixel_ratio</b> ()</td></tr>
@@ -270,13 +270,13 @@ MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setDrawT
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_scene_list</b> ()</td></tr>
 <tr class="separator:a52c9719c16910b21da7ba53e511aa7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19f8c069859057e2b94e0581392811fd" id="r_a19f8c069859057e2b94e0581392811fd"><td class="memItemLeft" align="right" valign="top"><a id="a19f8c069859057e2b94e0581392811fd" name="a19f8c069859057e2b94e0581392811fd"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_scene_list_content</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;all)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_scene_list_content</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;all)</td></tr>
 <tr class="separator:a19f8c069859057e2b94e0581392811fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8af0b75810e306754f798aa50faec9b" id="r_ad8af0b75810e306754f798aa50faec9b"><td class="memItemLeft" align="right" valign="top"><a id="ad8af0b75810e306754f798aa50faec9b" name="ad8af0b75810e306754f798aa50faec9b"></a>
-virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_selection_properties</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
+virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_selection_properties</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:ad8af0b75810e306754f798aa50faec9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67d48be36abd965d153cd88aa0f3638" id="r_af67d48be36abd965d153cd88aa0f3638"><td class="memItemLeft" align="right" valign="top"><a id="af67d48be36abd965d153cd88aa0f3638" name="af67d48be36abd965d153cd88aa0f3638"></a>
-virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_selection_properties_content</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
+virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_selection_properties_content</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:af67d48be36abd965d153cd88aa0f3638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7c9e77d4351091f9ed719f00a3d294b" id="r_ad7c9e77d4351091f9ed719f00a3d294b"><td class="memItemLeft" align="right" valign="top"><a id="ad7c9e77d4351091f9ed719f00a3d294b" name="ad7c9e77d4351091f9ed719f00a3d294b"></a>
 virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawCollapsingHeader_</b> (const char *label, ImGuiTreeNodeFlags flags=0)</td></tr>
@@ -285,25 +285,25 @@ virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>
 virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawCollapsingHeaderTransform_</b> ()</td></tr>
 <tr class="separator:a4d7a22f188b50d351cefdec8196a9dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cde4a8f3fa825bbab90240c16545c1a" id="r_a2cde4a8f3fa825bbab90240c16545c1a"><td class="memItemLeft" align="right" valign="top"><a id="a2cde4a8f3fa825bbab90240c16545c1a" name="a2cde4a8f3fa825bbab90240c16545c1a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>make_visualize_checkbox</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, <a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> viewportid, bool invert=false)</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>make_visualize_checkbox</b> (std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, <a class="elRef" href="../Csharp/classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">MR::ViewportMask</a> viewportid, bool invert=false)</td></tr>
 <tr class="separator:a2cde4a8f3fa825bbab90240c16545c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520" id="r_a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplParams" colspan="2"><a id="a0e7dfc4d1ce4492b22b5430476500520" name="a0e7dfc4d1ce4492b22b5430476500520"></a>
 template&lt;typename ObjectT &gt; </td></tr>
-<tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_color_selector</b> (std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; Vector4f(const ObjectT *)&gt; getter, std::function&lt; void(ObjectT *, const Vector4f &amp;)&gt; setter)</td></tr>
+<tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_color_selector</b> (std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector4f.html">Vector4f</a>(const ObjectT *)&gt; getter, std::function&lt; void(ObjectT *, const <a class="elRef" href="../Csharp/structMR_1_1Vector4f.html">Vector4f</a> &amp;)&gt; setter)</td></tr>
 <tr class="separator:a0e7dfc4d1ce4492b22b5430476500520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a967e9c0fa0dcd8845ce52d4b5bb065" id="r_a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memTemplParams" colspan="2"><a id="a2a967e9c0fa0dcd8845ce52d4b5bb065" name="a2a967e9c0fa0dcd8845ce52d4b5bb065"></a>
 template&lt;typename ObjType , typename ValueT &gt; </td></tr>
-<tr class="memitem:a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_width</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; ValueT(const ObjType *)&gt; getter, std::function&lt; void(ObjType *, const ValueT &amp;)&gt; setter)</td></tr>
+<tr class="memitem:a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_width</b> (std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; ValueT(const ObjType *)&gt; getter, std::function&lt; void(ObjType *, const ValueT &amp;)&gt; setter)</td></tr>
 <tr class="separator:a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47c3996c85c24d180bec9f89358e666e" id="r_a47c3996c85c24d180bec9f89358e666e"><td class="memItemLeft" align="right" valign="top"><a id="a47c3996c85c24d180bec9f89358e666e" name="a47c3996c85c24d180bec9f89358e666e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>make_light_strength</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *)&gt; getter, std::function&lt; void(<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *, const float &amp;)&gt; setter)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>make_light_strength</b> (std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> *)&gt; getter, std::function&lt; void(<a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> *, const float &amp;)&gt; setter)</td></tr>
 <tr class="separator:a47c3996c85c24d180bec9f89358e666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9508550f2dc503c7e8bfe4d20c6756" id="r_a0b9508550f2dc503c7e8bfe4d20c6756"><td class="memTemplParams" colspan="2"><a id="a0b9508550f2dc503c7e8bfe4d20c6756" name="a0b9508550f2dc503c7e8bfe4d20c6756"></a>
 template&lt;typename T , typename ObjectType &gt; </td></tr>
 <tr class="memitem:a0b9508550f2dc503c7e8bfe4d20c6756"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_slider</b> (std::vector&lt; std::shared_ptr&lt; ObjectType &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; T(const ObjectType *)&gt; getter, std::function&lt; void(ObjectType *, T)&gt; setter, T min, T max)</td></tr>
 <tr class="separator:a0b9508550f2dc503c7e8bfe4d20c6756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a344b3a7a1c2340b70efb4c3d5ffa920f" id="r_a344b3a7a1c2340b70efb4c3d5ffa920f"><td class="memItemLeft" align="right" valign="top"><a id="a344b3a7a1c2340b70efb4c3d5ffa920f" name="a344b3a7a1c2340b70efb4c3d5ffa920f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>make_points_discretization</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; int(const <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> *)&gt; getter, std::function&lt; void(<a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> *, const int &amp;)&gt; setter)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>make_points_discretization</b> (std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; int(const <a class="elRef" href="../Csharp/classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> *)&gt; getter, std::function&lt; void(<a class="elRef" href="../Csharp/classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> *, const int &amp;)&gt; setter)</td></tr>
 <tr class="separator:a344b3a7a1c2340b70efb4c3d5ffa920f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6313d10e2b78aadec08af6df6ce0df6b" id="r_a6313d10e2b78aadec08af6df6ce0df6b"><td class="memItemLeft" align="right" valign="top"><a id="a6313d10e2b78aadec08af6df6ce0df6b" name="a6313d10e2b78aadec08af6df6ce0df6b"></a>
 std::shared_ptr&lt; <a class="el" href="classMR_1_1ShortcutManager.html">ShortcutManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getShortcutManager</b> ()</td></tr>
@@ -324,10 +324,10 @@ MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>allowObj
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>tryRenameSelectedObject</b> ()</td></tr>
 <tr class="separator:a6695a9712b5cfa0478fc548bb675085a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a760f379753472105d9f5cbefaeecc741" id="r_a760f379753472105d9f5cbefaeecc741"><td class="memItemLeft" align="right" valign="top"><a id="a760f379753472105d9f5cbefaeecc741" name="a760f379753472105d9f5cbefaeecc741"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setObjectTreeState</b> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj, bool open)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setObjectTreeState</b> (const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> *obj, bool open)</td></tr>
 <tr class="separator:a760f379753472105d9f5cbefaeecc741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f01e9d7c731a69186508c03397c09f1" id="r_a8f01e9d7c731a69186508c03397c09f1"><td class="memItemLeft" align="right" valign="top"><a id="a8f01e9d7c731a69186508c03397c09f1" name="a8f01e9d7c731a69186508c03397c09f1"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>expandObjectTreeAndScroll</b> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>expandObjectTreeAndScroll</b> (const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> *obj)</td></tr>
 <tr class="memdesc:a8f01e9d7c731a69186508c03397c09f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands all <code>obj</code>s parents in tree and scroll scene tree window so selection becomes visible <br /></td></tr>
 <tr class="separator:a8f01e9d7c731a69186508c03397c09f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86b80144e3a19e663a44c52daa73f55d" id="r_a86b80144e3a19e663a44c52daa73f55d"><td class="memItemLeft" align="right" valign="top"><a id="a86b80144e3a19e663a44c52daa73f55d" name="a86b80144e3a19e663a44c52daa73f55d"></a>
@@ -343,16 +343,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>enableSavedDialogPosi
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSavedDialogPositionsEnabled</b> () const</td></tr>
 <tr class="separator:a3af61c19b91ea2126bb2ffdea304cba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12da43f010acf739a8eccfc33ecdeb04" id="r_a12da43f010acf739a8eccfc33ecdeb04"><td class="memItemLeft" align="right" valign="top"><a id="a12da43f010acf739a8eccfc33ecdeb04" name="a12da43f010acf739a8eccfc33ecdeb04"></a>
-virtual MRVIEWER_API <a class="el" href="structMR_1_1UiRenderManager.html">UiRenderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getUiRenderManager</b> ()</td></tr>
+virtual MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1UiRenderManager.html">UiRenderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getUiRenderManager</b> ()</td></tr>
 <tr class="separator:a12da43f010acf739a8eccfc33ecdeb04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d3348b637e1e6672669ff2da445a8e8" id="r_a0d3348b637e1e6672669ff2da445a8e8"><td class="memItemLeft" align="right" valign="top"><a id="a0d3348b637e1e6672669ff2da445a8e8" name="a0d3348b637e1e6672669ff2da445a8e8"></a>
 MRVIEWER_API const std::shared_ptr&lt; <a class="el" href="classMR_1_1SceneObjectsListDrawer.html">SceneObjectsListDrawer</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getSceneObjectsList</b> ()</td></tr>
 <tr class="separator:a0d3348b637e1e6672669ff2da445a8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c82c0734872d0f3d937e4653c60574" id="r_a95c82c0734872d0f3d937e4653c60574"><td class="memItemLeft" align="right" valign="top"><a id="a95c82c0734872d0f3d937e4653c60574" name="a95c82c0734872d0f3d937e4653c60574"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>simulateNameTagClick</b> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, NameTagSelectionMode mode)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>simulateNameTagClick</b> (<a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &amp;object, NameTagSelectionMode mode)</td></tr>
 <tr class="separator:a95c82c0734872d0f3d937e4653c60574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3b2a929f13cffa8c834e72a56c9dc94" id="r_aa3b2a929f13cffa8c834e72a56c9dc94"><td class="memItemLeft" align="right" valign="top"><a id="aa3b2a929f13cffa8c834e72a56c9dc94" name="aa3b2a929f13cffa8c834e72a56c9dc94"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>simulateNameTagClickWithKeyboardModifiers</b> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>simulateNameTagClickWithKeyboardModifiers</b> (<a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &amp;object)</td></tr>
 <tr class="separator:aa3b2a929f13cffa8c834e72a56c9dc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5abbf10004a75a69b1704b7af20e5b3" id="r_ab5abbf10004a75a69b1704b7af20e5b3"><td class="memItemLeft" align="right" valign="top"><a id="ab5abbf10004a75a69b1704b7af20e5b3" name="ab5abbf10004a75a69b1704b7af20e5b3"></a>
 MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>anyImGuiWindowIsHovered</b> () const</td></tr>
@@ -361,22 +361,22 @@ MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>anyImGui
 MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>anyUiObjectIsHovered</b> () const</td></tr>
 <tr class="separator:ad3c1c5744647a6fd39a4296770a420f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e71b44d5c09846170d097db09e2750a" id="r_a9e71b44d5c09846170d097db09e2750a"><td class="memItemLeft" align="right" valign="top"><a id="a9e71b44d5c09846170d097db09e2750a" name="a9e71b44d5c09846170d097db09e2750a"></a>
-MRVIEWER_API SelectedTypesMask&#160;</td><td class="memItemRight" valign="bottom"><b>calcSelectedTypesMask</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selectedObjs)</td></tr>
+MRVIEWER_API SelectedTypesMask&#160;</td><td class="memItemRight" valign="bottom"><b>calcSelectedTypesMask</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selectedObjs)</td></tr>
 <tr class="separator:a9e71b44d5c09846170d097db09e2750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53d8e6df5755a98f1e793f6bc4bf0f89" id="r_a53d8e6df5755a98f1e793f6bc4bf0f89"><td class="memItemLeft" align="right" valign="top"><a id="a53d8e6df5755a98f1e793f6bc4bf0f89" name="a53d8e6df5755a98f1e793f6bc4bf0f89"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawGeneralOptions</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selectedObjs)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawGeneralOptions</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selectedObjs)</td></tr>
 <tr class="separator:a53d8e6df5755a98f1e793f6bc4bf0f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a223a369cd0143ab0fd5e6d5577641ab4" id="r_a223a369cd0143ab0fd5e6d5577641ab4"><td class="memItemLeft" align="right" valign="top"><a id="a223a369cd0143ab0fd5e6d5577641ab4" name="a223a369cd0143ab0fd5e6d5577641ab4"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawAdvancedOptions</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;selectedObjs, SelectedTypesMask selectedMask)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawAdvancedOptions</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;selectedObjs, SelectedTypesMask selectedMask)</td></tr>
 <tr class="separator:a223a369cd0143ab0fd5e6d5577641ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84850cbba56bfddc430ce99e51b91b71" id="r_a84850cbba56bfddc430ce99e51b91b71"><td class="memItemLeft" align="right" valign="top"><a id="a84850cbba56bfddc430ce99e51b91b71" name="a84850cbba56bfddc430ce99e51b91b71"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawRemoveButton</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selectedObjs)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawRemoveButton</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selectedObjs)</td></tr>
 <tr class="separator:a84850cbba56bfddc430ce99e51b91b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9af6848400197f4024584b77d9a9dc55" id="r_a9af6848400197f4024584b77d9a9dc55"><td class="memItemLeft" align="right" valign="top"><a id="a9af6848400197f4024584b77d9a9dc55" name="a9af6848400197f4024584b77d9a9dc55"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawDrawOptionsCheckboxes</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;selectedObjs, SelectedTypesMask selectedMask)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawDrawOptionsCheckboxes</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;selectedObjs, SelectedTypesMask selectedMask)</td></tr>
 <tr class="separator:a9af6848400197f4024584b77d9a9dc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae222c9e1c96773c161341f616707e6ce" id="r_ae222c9e1c96773c161341f616707e6ce"><td class="memItemLeft" align="right" valign="top"><a id="ae222c9e1c96773c161341f616707e6ce" name="ae222c9e1c96773c161341f616707e6ce"></a>
-MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawDrawOptionsColors</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;selectedObjs)</td></tr>
+MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawDrawOptionsColors</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;selectedObjs)</td></tr>
 <tr class="separator:ae222c9e1c96773c161341f616707e6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structMR_1_1MultiListener"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_structMR_1_1MultiListener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1MultiListener.html">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener &gt;</a></td></tr>
 <tr class="memitem:af3312c12e653a48eaee4680364e72f27 inherit pub_methods_structMR_1_1MultiListener" id="r_af3312c12e653a48eaee4680364e72f27"><td class="memItemLeft" align="right" valign="top">
@@ -425,7 +425,7 @@ Protected Member Functions</h2></td></tr>
 virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setupShortcuts_</b> ()</td></tr>
 <tr class="separator:a133e9d1bc1eaddc62bc3607ef1c16dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d45ffa94d1720d85a4120b6e769b55" id="r_a94d45ffa94d1720d85a4120b6e769b55"><td class="memItemLeft" align="right" valign="top"><a id="a94d45ffa94d1720d85a4120b6e769b55" name="a94d45ffa94d1720d85a4120b6e769b55"></a>
-Vector4f&#160;</td><td class="memItemRight" valign="bottom"><b>getStoredColor_</b> (const std::string &amp;str, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;defaultColor) const</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Vector4f.html">Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getStoredColor_</b> (const std::string &amp;str, const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;defaultColor) const</td></tr>
 <tr class="separator:a94d45ffa94d1720d85a4120b6e769b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a60ab6a3f2d56c380d10b0911d6c7b1" id="r_a6a60ab6a3f2d56c380d10b0911d6c7b1"><td class="memItemLeft" align="right" valign="top"><a id="a6a60ab6a3f2d56c380d10b0911d6c7b1" name="a6a60ab6a3f2d56c380d10b0911d6c7b1"></a>
 virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawModalMessage_</b> ()</td></tr>
@@ -464,7 +464,7 @@ virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>
 virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>postRescale_</b> (float x, float y) override</td></tr>
 <tr class="separator:aff46cdf1806900d19d9806e28d325659"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad16e3a9ef41b44123e96565a98582cda" id="r_ad16e3a9ef41b44123e96565a98582cda"><td class="memItemLeft" align="right" valign="top"><a id="ad16e3a9ef41b44123e96565a98582cda" name="ad16e3a9ef41b44123e96565a98582cda"></a>
-virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>spaceMouseMove_</b> (const Vector3f &amp;translate, const Vector3f &amp;rotate) override</td></tr>
+virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>spaceMouseMove_</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;translate, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;rotate) override</td></tr>
 <tr class="separator:ad16e3a9ef41b44123e96565a98582cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4060b3a583e77e5b681d7fb9ecc49846" id="r_a4060b3a583e77e5b681d7fb9ecc49846"><td class="memItemLeft" align="right" valign="top"><a id="a4060b3a583e77e5b681d7fb9ecc49846" name="a4060b3a583e77e5b681d7fb9ecc49846"></a>
 virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>spaceMouseDown_</b> (int key) override</td></tr>
@@ -506,26 +506,26 @@ virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>
 MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>drawSelectionInformation_</b> ()</td></tr>
 <tr class="separator:a99d49a0c86f16f2e917e71c81efe4187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6454c87e178e7cc91a395fb2ce4b3c10" id="r_a6454c87e178e7cc91a395fb2ce4b3c10"><td class="memItemLeft" align="right" valign="top"><a id="a6454c87e178e7cc91a395fb2ce4b3c10" name="a6454c87e178e7cc91a395fb2ce4b3c10"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawFeaturePropertiesEditor_</b> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;object)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawFeaturePropertiesEditor_</b> (const std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &amp;object)</td></tr>
 <tr class="separator:a6454c87e178e7cc91a395fb2ce4b3c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af76f6326506b7340794051ec1fa60782" id="r_af76f6326506b7340794051ec1fa60782"><td class="memItemLeft" align="right" valign="top"><a id="af76f6326506b7340794051ec1fa60782" name="af76f6326506b7340794051ec1fa60782"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawComparablePropertiesEditor_</b> (<a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;object)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawComparablePropertiesEditor_</b> (<a class="elRef" href="../Csharp/classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;object)</td></tr>
 <tr class="separator:af76f6326506b7340794051ec1fa60782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60feeb812f9b38fdb42b0e3aa55b44f3" id="r_a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="memItemLeft" align="right" valign="top"><a id="a60feeb812f9b38fdb42b0e3aa55b44f3" name="a60feeb812f9b38fdb42b0e3aa55b44f3"></a>
-virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCustomSelectionInformation_</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, const <a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a> &amp;style)</td></tr>
+virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCustomSelectionInformation_</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, const <a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a> &amp;style)</td></tr>
 <tr class="memdesc:a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw additional selection information (e.g. for custom objects) <br /></td></tr>
 <tr class="separator:a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d69c77712f963358e34a99c4eb27b8a" id="r_a7d69c77712f963358e34a99c4eb27b8a"><td class="memItemLeft" align="right" valign="top"><a id="a7d69c77712f963358e34a99c4eb27b8a" name="a7d69c77712f963358e34a99c4eb27b8a"></a>
-virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_custom_selection_properties</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
+virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>draw_custom_selection_properties</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:a7d69c77712f963358e34a99c4eb27b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df92b241b5b7ddcc8f855ed329f2eeb" id="r_a0df92b241b5b7ddcc8f855ed329f2eeb"><td class="memItemLeft" align="right" valign="top"><a id="a0df92b241b5b7ddcc8f855ed329f2eeb" name="a0df92b241b5b7ddcc8f855ed329f2eeb"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTagInformation_</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTagInformation_</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:a0df92b241b5b7ddcc8f855ed329f2eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a318c4a57bcb4a30a7620d3c954668c5a" id="r_a318c4a57bcb4a30a7620d3c954668c5a"><td class="memItemLeft" align="right" valign="top"><a id="a318c4a57bcb4a30a7620d3c954668c5a" name="a318c4a57bcb4a30a7620d3c954668c5a"></a>
 MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>drawTransform_</b> ()</td></tr>
 <tr class="separator:a318c4a57bcb4a30a7620d3c954668c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40c4ccc20532c621364545dc961f65a" id="r_ac40c4ccc20532c621364545dc961f65a"><td class="memItemLeft" align="right" valign="top"><a id="ac40c4ccc20532c621364545dc961f65a" name="ac40c4ccc20532c621364545dc961f65a"></a>
-virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawTransformContextMenu_</b> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;)</td></tr>
+virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>drawTransformContextMenu_</b> (const std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &amp;)</td></tr>
 <tr class="separator:ac40c4ccc20532c621364545dc961f65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a2ff7496cd88b62087cf3adef33dee1" id="r_a1a2ff7496cd88b62087cf3adef33dee1"><td class="memItemLeft" align="right" valign="top"><a id="a1a2ff7496cd88b62087cf3adef33dee1" name="a1a2ff7496cd88b62087cf3adef33dee1"></a>
 virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawShortcutsWindow_</b> ()</td></tr>
@@ -603,13 +603,13 @@ ImVec2&#160;</td><td class="memItemRight" valign="bottom"><b>mainWindowSize_</b>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>savedDialogPositionEnabled_</b> { false }</td></tr>
 <tr class="separator:a69ba22274265966f6ddc7eabf3eb78a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae809764ef8ca8203ef9f26e34abb2c2f" id="r_ae809764ef8ca8203ef9f26e34abb2c2f"><td class="memItemLeft" align="right" valign="top"><a id="ae809764ef8ca8203ef9f26e34abb2c2f" name="ae809764ef8ca8203ef9f26e34abb2c2f"></a>
-std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lastRenameObj_</b></td></tr>
+std::weak_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lastRenameObj_</b></td></tr>
 <tr class="separator:ae809764ef8ca8203ef9f26e34abb2c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5bbfd506bfd0a58e4e0a08765d5129" id="r_adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memItemLeft" align="right" valign="top"><a id="adc5bbfd506bfd0a58e4e0a08765d5129" name="adc5bbfd506bfd0a58e4e0a08765d5129"></a>
-Box3f&#160;</td><td class="memItemRight" valign="bottom"><b>selectionBbox_</b></td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>selectionBbox_</b></td></tr>
 <tr class="separator:adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8a4b5b373c2e5ab3e633a34fd148f12" id="r_ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memItemLeft" align="right" valign="top"><a id="ac8a4b5b373c2e5ab3e633a34fd148f12" name="ac8a4b5b373c2e5ab3e633a34fd148f12"></a>
-Box3f&#160;</td><td class="memItemRight" valign="bottom"><b>selectionWorldBox_</b></td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>selectionWorldBox_</b></td></tr>
 <tr class="separator:ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabb7d476614f65f1d63a7135ffb63a18" id="r_aabb7d476614f65f1d63a7135ffb63a18"><td class="memItemLeft" align="right" valign="top"><a id="aabb7d476614f65f1d63a7135ffb63a18" name="aabb7d476614f65f1d63a7135ffb63a18"></a>
 struct <a class="el" href="structMR_1_1ImGuiMenu_1_1LabelParams.html">MR::ImGuiMenu::LabelParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>oldLabelParams_</b></td></tr>
@@ -627,7 +627,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>xfHistUpdated_</b> { 
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>invertedRotation_</b> { false }</td></tr>
 <tr class="separator:a44726097595253c81b8abae8fe5fe91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42944b2f8a7080c6a06c93633f97cb4c" id="r_a42944b2f8a7080c6a06c93633f97cb4c"><td class="memItemLeft" align="right" valign="top"><a id="a42944b2f8a7080c6a06c93633f97cb4c" name="a42944b2f8a7080c6a06c93633f97cb4c"></a>
-std::optional&lt; std::pair&lt; std::string, Vector4f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>storedColor_</b></td></tr>
+std::optional&lt; std::pair&lt; std::string, <a class="elRef" href="../Csharp/structMR_1_1Vector4f.html">Vector4f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>storedColor_</b></td></tr>
 <tr class="separator:a42944b2f8a7080c6a06c93633f97cb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a493d46d4f1ecabb263dc5528086e2660" id="r_a493d46d4f1ecabb263dc5528086e2660"><td class="memItemLeft" align="right" valign="top"><a id="a493d46d4f1ecabb263dc5528086e2660" name="a493d46d4f1ecabb263dc5528086e2660"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>searchPluginsString_</b></td></tr>
@@ -642,13 +642,13 @@ enum MR::ImGuiMenu::ViewportConfigurations&#160;</td><td class="memItemRight" va
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>selectionChangedToSingleObj_</b> { false }</td></tr>
 <tr class="separator:aca4f11387f1bcb127e2e9dfd5eef27fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d70db427b76e61497c7fe1c62ac778" id="r_a25d70db427b76e61497c7fe1c62ac778"><td class="memItemLeft" align="right" valign="top"><a id="a25d70db427b76e61497c7fe1c62ac778" name="a25d70db427b76e61497c7fe1c62ac778"></a>
-<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>selectedViewport_</b> = {}</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>selectedViewport_</b> = {}</td></tr>
 <tr class="separator:a25d70db427b76e61497c7fe1c62ac778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9603f5d80ca9f918df4d86d0a40a94ab" id="r_a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memItemLeft" align="right" valign="top"><a id="a9603f5d80ca9f918df4d86d0a40a94ab" name="a9603f5d80ca9f918df4d86d0a40a94ab"></a>
-std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>editedFeatureObject_</b></td></tr>
+std::weak_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>editedFeatureObject_</b></td></tr>
 <tr class="separator:a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6afa105ae1f7116d82db1d5068aef0ef" id="r_a6afa105ae1f7116d82db1d5068aef0ef"><td class="memItemLeft" align="right" valign="top"><a id="a6afa105ae1f7116d82db1d5068aef0ef" name="a6afa105ae1f7116d82db1d5068aef0ef"></a>
-AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>editedFeatureObjectOldXf_</b></td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>editedFeatureObjectOldXf_</b></td></tr>
 <tr class="separator:a6afa105ae1f7116d82db1d5068aef0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4ddd1abc45868c85e00d51ff1bee16" id="r_afa4ddd1abc45868c85e00d51ff1bee16"><td class="memItemLeft" align="right" valign="top"><a id="afa4ddd1abc45868c85e00d51ff1bee16" name="afa4ddd1abc45868c85e00d51ff1bee16"></a>
 <a class="el" href="structMR_1_1ImGuiMenu_1_1TagEditorState.html">TagEditorState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tagEditorState_</b></td></tr>

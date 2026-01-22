@@ -158,7 +158,7 @@ $(function(){initNavTree('MRWebRequest_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// returns json value of text or error if response failed</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>MRVIEWER_API Expected&lt;Json::Value&gt; parseResponse( <span class="keyword">const</span> Json::Value&amp; response );</div>
@@ -200,7 +200,7 @@ $(function(){initNavTree('MRWebRequest_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">// set progress callback for upload</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// NOTE: due to limitations, the upload callback won&#39;t work on web platforms when `setOutputPath` method is called</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    MRVIEWER_API <span class="keywordtype">void</span> setUploadProgressCallback( <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    MRVIEWER_API <span class="keywordtype">void</span> setUploadProgressCallback( ProgressCallback callback );</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">// set payload in multipart/form-data format</span></div>
 <div class="foldopen" id="foldopen00055" data-start="{" data-end="};">
@@ -221,7 +221,7 @@ $(function(){initNavTree('MRWebRequest_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    MRVIEWER_API <span class="keywordtype">void</span> setOutputPath( std::filesystem::path outputPath );</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">// set progress callback for download</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    MRVIEWER_API <span class="keywordtype">void</span> setDownloadProgressCallback( <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback );</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    MRVIEWER_API <span class="keywordtype">void</span> setDownloadProgressCallback( ProgressCallback callback );</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="comment">// set async mode (return immediately after sending request)</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    MRVIEWER_API <span class="keywordtype">void</span> setAsync( <span class="keywordtype">bool</span> async );</div>
@@ -248,8 +248,8 @@ $(function(){initNavTree('MRWebRequest_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    std::vector&lt;FormData&gt; formData_;</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    std::string body_;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    std::filesystem::path outputPath_;</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> uploadCallback_;</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> downloadCallback_;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    ProgressCallback uploadCallback_;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    ProgressCallback downloadCallback_;</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>};</div>
 </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
@@ -258,7 +258,7 @@ $(function(){initNavTree('MRWebRequest_8h_source.html',''); initResizable(true);
 <div class="ttc" id="aclassMR_1_1WebRequest_html"><div class="ttname"><a href="classMR_1_1WebRequest.html">MR::WebRequest</a></div><div class="ttdef"><b>Definition</b> MRWebRequest.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_aca7588f1b4f75f253182607482270e49"><div class="ttname"><a href="classMR_1_1WebRequest.html#aca7588f1b4f75f253182607482270e49">MR::WebRequest::send</a></div><div class="ttdeci">MRVIEWER_API void send(std::string url, std::string logName, ResponseCallback callback, bool async=true)</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_adcc966402e0ae0928e781cf39e467037"><div class="ttname"><a href="classMR_1_1WebRequest.html#adcc966402e0ae0928e781cf39e467037">MR::WebRequest::waitRemainingAsync</a></div><div class="ttdeci">static MRVIEWER_API void waitRemainingAsync()</div><div class="ttdoc">if any async request is still in progress, wait for it</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:742</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1WebRequest_1_1FormData_html"><div class="ttname"><a href="structMR_1_1WebRequest_1_1FormData.html">MR::WebRequest::FormData</a></div><div class="ttdef"><b>Definition</b> MRWebRequest.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

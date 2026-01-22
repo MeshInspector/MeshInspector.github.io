@@ -154,14 +154,13 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRHistoryAction.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRObjectVoxels.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1ChangVoxelSelectionAction.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1ChangVoxelSelectionAction.html">ChangVoxelSelectionAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>ChangVoxelSelectionAction : <span class="keyword">public</span> HistoryAction</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">using </span><a class="code hl_class" href="classMR_1_1ObjectVoxels.html">Obj</a> = <a class="code hl_class" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">using </span>Obj = ObjectVoxels;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">   19</a></span>    <a class="code hl_function" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">ChangVoxelSelectionAction</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::shared_ptr&lt;Obj&gt;&amp; objVoxels ) :</div>
@@ -190,7 +189,7 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
 </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">const</span> VoxelBitSet&amp; selection()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VoxelBitSet.html">VoxelBitSet</a>&amp; selection()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> selection_;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
@@ -210,14 +209,12 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::string name_;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::shared_ptr&lt;Obj&gt; objVoxels_;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    VoxelBitSet selection_;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_classRef" href="../Csharp/classMR_1_1VoxelBitSet.html">VoxelBitSet</a> selection_;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
-</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
-<div class="ttc" id="aclassMR_1_1ChangVoxelSelectionAction_html"><div class="ttname"><a href="classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></div><div class="ttdoc">Undo action for ObjectVoxels face selection.</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:14</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1ObjectVoxels_html"><div class="ttname"><a href="classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></div><div class="ttdef"><b>Definition</b> MRObjectVoxels.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1VoxelBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1VoxelBitSet.html">MR::VoxelBitSet</a></div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_ga54f4bbe409819b2a781e9d559f22298e"><div class="ttname"><a href="group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e">MR::ChangVoxelSelectionAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;)</div><div class="ttdoc">empty because set dirty is inside selectFaces</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:48</div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_ga970e3207174343bffc6f631586e4f59d"><div class="ttname"><a href="group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d">MR::ChangVoxelSelectionAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:51</div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_gacd0912663f58360180bc863ab572daf4"><div class="ttname"><a href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction</a></div><div class="ttdeci">ChangVoxelSelectionAction(const std::string &amp;name, const std::shared_ptr&lt; Obj &gt; &amp;objVoxels)</div><div class="ttdoc">use this constructor to remember object's face selection before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:19</div></div>

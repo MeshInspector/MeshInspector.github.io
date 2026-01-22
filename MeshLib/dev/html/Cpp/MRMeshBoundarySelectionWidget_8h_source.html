@@ -161,7 +161,7 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;MRMesh/MRRingIterator.h&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// A widget that allows you to find, highlight and select boundaries (holes) in the mesh.</span></div>
@@ -176,13 +176,13 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 <div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html">   25</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html">BoundarySelectionWidgetParams</a> {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_struct" href="structMR_1_1Color.html">MR::Color</a> ordinaryColor = MR::Color::gray();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a> ordinaryColor = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Color.html#ace33de3a282119e9a1550979c3b0a5ee">MR::Color::gray</a>();</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordtype">float</span> ordinaryLineWidth = 3;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_struct" href="structMR_1_1Color.html">MR::Color</a> hoveredColor = MR::Color::green();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a> hoveredColor = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Color.html#a8aee14350e47868f19c7afc2286bfd0c">MR::Color::green</a>();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordtype">float</span> hoveredLineWidth = 4;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_struct" href="structMR_1_1Color.html">MR::Color</a> selectedColor = MR::Color::purple();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a> selectedColor = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Color.html#a98e83f9063316ae3a383de4d51e48633">MR::Color::purple</a>();</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordtype">float</span> selectedLineWidth = 3;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    };</div>
@@ -223,7 +223,7 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    MRVIEWER_API <span class="keywordtype">void</span> clear();</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="comment">// returns pair of selected hole ( in Edge representations) and objects on which particular hole is present</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    MRVIEWER_API std::pair&lt; std::shared_ptr&lt;MR::ObjectMeshHolder&gt;, EdgeId &gt; getSelectHole() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    MRVIEWER_API std::pair&lt; std::shared_ptr&lt;MR::ObjectMeshHolder&gt;, <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> &gt; getSelectHole() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">// collect and return vector of points ( verts coord ) for all edges in selected mesh boundary</span></div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    MRVIEWER_API std::vector&lt;MR::Vector3f&gt; getPointsForSelectedHole() <span class="keyword">const</span>;</div>
@@ -244,10 +244,10 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    MRVIEWER_API <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="comment">// create an ancillaryLines object (polyline) for given mesh hole, for visually preview it </span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_struct" href="structMR_1_1AncillaryLines.html">AncillaryLines</a> createAncillaryLines_( std::shared_ptr&lt;ObjectMeshHolder&gt;&amp; obj, MR::EdgeId hole );</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_struct" href="structMR_1_1AncillaryLines.html">AncillaryLines</a> createAncillaryLines_( std::shared_ptr&lt;ObjectMeshHolder&gt;&amp; obj, <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">MR::EdgeId</a> hole );</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="comment">// For given object and hole ( edge representation ), return a polyline around the hole boundary. </span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    std::shared_ptr&lt;MR::Polyline3&gt; getHoleBorder_( <span class="keyword">const</span> std::shared_ptr&lt;ObjectMeshHolder&gt; obj, EdgeId initEdge );</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    std::shared_ptr&lt;MR::Polyline3&gt; getHoleBorder_( <span class="keyword">const</span> std::shared_ptr&lt;ObjectMeshHolder&gt; obj, <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> initEdge );</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="comment">// Currently it returns the first hole it comes across.</span></div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="comment">// Those. if the condition is met for several holes( including holes on different objects ), then the first one available will be selected.</span></div>
@@ -257,7 +257,7 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">bool</span> selectHole_( std::shared_ptr&lt;ObjectMeshHolder&gt; <span class="keywordtype">object</span>, <span class="keywordtype">int</span> index, <span class="keywordtype">bool</span> writeHistory = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="comment">// update color for one of the polylines</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">bool</span> updateHole_( std::shared_ptr&lt;MR::ObjectMeshHolder&gt; <span class="keywordtype">object</span>, <span class="keywordtype">int</span> index, <a class="code hl_struct" href="structMR_1_1Color.html">MR::Color</a> color, <span class="keywordtype">float</span> lineWidth );</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">bool</span> updateHole_( std::shared_ptr&lt;MR::ObjectMeshHolder&gt; <span class="keywordtype">object</span>, <span class="keywordtype">int</span> index, <a class="code hl_structRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a> color, <span class="keywordtype">float</span> lineWidth );</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keyword">enum class</span> ActionType {</div>
@@ -294,7 +294,7 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 </div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
 <div class="foldopen" id="foldopen00142" data-start="{" data-end="};">
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeBoundarySelectionHistoryAction.html">  142</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1ChangeBoundarySelectionHistoryAction.html">ChangeBoundarySelectionHistoryAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeBoundarySelectionHistoryAction.html">  142</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1ChangeBoundarySelectionHistoryAction.html">ChangeBoundarySelectionHistoryAction</a> : <span class="keyword">public</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1HistoryAction.html">HistoryAction</a></div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>{</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <a class="code hl_class" href="classMR_1_1ChangeBoundarySelectionHistoryAction.html">ChangeBoundarySelectionHistoryAction</a>( std::string name, <a class="code hl_class" href="classMR_1_1BoundarySelectionWidget.html">BoundarySelectionWidget</a>&amp; widget, std::shared_ptr&lt;ObjectMeshHolder&gt; <span class="keywordtype">object</span>, <span class="keywordtype">int</span> index );</div>
@@ -322,10 +322,15 @@ $(function(){initNavTree('MRMeshBoundarySelectionWidget_8h_source.html',''); ini
 <div class="ttc" id="aclassMR_1_1ChangeBoundarySelectionHistoryAction_html"><div class="ttname"><a href="classMR_1_1ChangeBoundarySelectionHistoryAction.html">MR::ChangeBoundarySelectionHistoryAction</a></div><div class="ttdef"><b>Definition</b> MRMeshBoundarySelectionWidget.h:143</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeBoundarySelectionHistoryAction_html_a7d6c878105bdd69d6bbb3524c5fc8243"><div class="ttname"><a href="classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243">MR::ChangeBoundarySelectionHistoryAction::action</a></div><div class="ttdeci">void action(Type type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeBoundarySelectionHistoryAction_html_afaf2a1dbc8066a04913ea855a9488ca1"><div class="ttname"><a href="classMR_1_1ChangeBoundarySelectionHistoryAction.html#afaf2a1dbc8066a04913ea855a9488ca1">MR::ChangeBoundarySelectionHistoryAction::heapBytes</a></div><div class="ttdeci">size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
+<div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="../Csharp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1AncillaryLines_html"><div class="ttname"><a href="structMR_1_1AncillaryLines.html">MR::AncillaryLines</a></div><div class="ttdoc">Helper class to manage ancillary visual lines used by plugins.</div><div class="ttdef"><b>Definition</b> MRAncillaryLines.h:13</div></div>
 <div class="ttc" id="astructMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_html"><div class="ttname"><a href="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html">MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</a></div><div class="ttdef"><b>Definition</b> MRMeshBoundarySelectionWidget.h:25</div></div>
-<div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:9</div></div>
+<div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:9</div></div>
+<div class="ttc" id="astructMR_1_1Color_html_a8aee14350e47868f19c7afc2286bfd0c"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html#a8aee14350e47868f19c7afc2286bfd0c">MR::Color::green</a></div><div class="ttdeci">static MR.Color green()</div></div>
+<div class="ttc" id="astructMR_1_1Color_html_a98e83f9063316ae3a383de4d51e48633"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html#a98e83f9063316ae3a383de4d51e48633">MR::Color::purple</a></div><div class="ttdeci">static MR.Color purple()</div></div>
+<div class="ttc" id="astructMR_1_1Color_html_ace33de3a282119e9a1550979c3b0a5ee"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html#ace33de3a282119e9a1550979c3b0a5ee">MR::Color::gray</a></div><div class="ttdeci">static MR.Color gray()</div></div>
+<div class="ttc" id="astructMR_1_1EdgeId_html"><div class="ttname"><a href="../Csharp/structMR_1_1EdgeId.html">MR::EdgeId</a></div></div>
 <div class="ttc" id="astructMR_1_1HoleEdgePoint_html"><div class="ttname"><a href="structMR_1_1HoleEdgePoint.html">MR::HoleEdgePoint</a></div><div class="ttdef"><b>Definition</b> MRPickHoleBorderElement.h:11</div></div>
 <div class="ttc" id="astructMR_1_1MultiListener_html"><div class="ttname"><a href="structMR_1_1MultiListener.html">MR::MultiListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->

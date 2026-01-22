@@ -160,32 +160,36 @@ $(function(){initNavTree('MRTiff_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>ImageLoad</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>MRIOEXTRAS_API Expected&lt;Image&gt; fromTiff( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>MRIOEXTRAS_API Expected&lt;Image&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1ImageLoad.html#a74c98160927bc8cc7f5d5b065db7b147">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>} <span class="comment">// namespace ImageLoad</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span>ImageSave</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>MRIOEXTRAS_API Expected&lt;void&gt; toTiff( <span class="keyword">const</span> Image&amp; image, <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>MRIOEXTRAS_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1ImageSave.html#a03f29fc4294e5803f82d34f63d09d677">toTiff</a>( <span class="keyword">const</span> Image&amp; image, <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace ImageSave</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">namespace </span>DistanceMapSave</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>MRIOEXTRAS_API Expected&lt;void&gt; toTiff( <span class="keyword">const</span> DistanceMap&amp; dmap, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> DistanceMapSaveSettings&amp; settings = {} );</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>MRIOEXTRAS_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1DistanceMapSave.html#a6287d978737eddc435dc514259ab1ab0">toTiff</a>( <span class="keyword">const</span> DistanceMap&amp; dmap, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> DistanceMapSaveSettings&amp; settings = {} );</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace ImageSave</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>} <span class="comment">// namespace MR</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassMR_1_1DistanceMapSave_html_a6287d978737eddc435dc514259ab1ab0"><div class="ttname"><a href="../Csharp/classMR_1_1DistanceMapSave.html#a6287d978737eddc435dc514259ab1ab0">MR::DistanceMapSave::toTiff</a></div><div class="ttdeci">static unsafe void toTiff(MR.Const_DistanceMap dmap, string path, MR.Const_DistanceMapSaveSettings? settings=null)</div></div>
+<div class="ttc" id="aclassMR_1_1ImageLoad_html_a74c98160927bc8cc7f5d5b065db7b147"><div class="ttname"><a href="../Csharp/classMR_1_1ImageLoad.html#a74c98160927bc8cc7f5d5b065db7b147">MR::ImageLoad::fromTiff</a></div><div class="ttdeci">static unsafe MR.Image fromTiff(string path)</div></div>
+<div class="ttc" id="aclassMR_1_1ImageSave_html_a03f29fc4294e5803f82d34f63d09d677"><div class="ttname"><a href="../Csharp/classMR_1_1ImageSave.html#a03f29fc4294e5803f82d34f63d09d677">MR::ImageSave::toTiff</a></div><div class="ttdeci">static unsafe void toTiff(MR.Const_Image image, string path)</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

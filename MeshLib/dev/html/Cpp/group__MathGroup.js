@@ -18,33 +18,28 @@ var group__MathGroup =
       [ "operator()", "structMR_1_1AffineXf.html#a5be41c92ebfbb340e9651f0efd210fcb", null ],
       [ "operator*", "structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595", null ]
     ] ],
-    [ "MR::QuadricApprox", "classMR_1_1QuadricApprox.html", [
-      [ "addPoint", "classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186", null ],
-      [ "calcBestCoefficients", "classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3", null ]
+    [ "MR::QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html", [
+      [ "QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html#aa07acaf6a7203a853fb3621c82b3126f", null ],
+      [ "QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html#a34ee226b675faccfae73d4db1eec4762", null ],
+      [ "addPoint", "../Csharp/classMR_1_1QuadricApprox.html#a0069aeb6381b69537a768f43eddf44a0", null ],
+      [ "assign", "../Csharp/classMR_1_1QuadricApprox.html#a5ea57604d1b7bac5738d513da0b4b676", null ]
     ] ],
-    [ "MR::DenseBox", "structMR_1_1DenseBox.html", [
-      [ "DenseBox", "structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582", null ],
-      [ "DenseBox", "structMR_1_1DenseBox.html#ad18654ddb91781bc8e4d1417ce19a08e", null ],
-      [ "DenseBox", "structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55", null ],
-      [ "DenseBox", "structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7", null ],
-      [ "DenseBox", "structMR_1_1DenseBox.html#aac374ad90e2a96d261ba863c1d6f46e2", null ],
-      [ "basisXf", "structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9", null ],
-      [ "basisXfInv", "structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee", null ],
-      [ "box", "structMR_1_1DenseBox.html#a0ea02f370dc76e349984c62b5a3f6557", null ],
-      [ "center", "structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f", null ],
-      [ "contains", "structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d", null ],
-      [ "corner", "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802", null ]
+    [ "MR::DenseBox", "../Csharp/classMR_1_1DenseBox.html", [
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a2f01b359ffb4eaec35d03e60d106656f", null ],
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a799cd412c65c1dfd178508920477a66e", null ],
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a66edb7a6cf725308e50f62bd87c2dd95", null ],
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#ae4834da68888983de08fc5219d8c4ea1", null ],
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a4c41dbcbc959e9183bf99e56297282e2", null ],
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a58f638ce8334613fecd2a436e09c227f", null ],
+      [ "assign", "../Csharp/classMR_1_1DenseBox.html#a5c9358fa86ec7146f3394ac6fbcc35f3", null ]
     ] ],
-    [ "MR::Histogram", "classMR_1_1Histogram.html", [
-      [ "Histogram", "classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7", null ],
-      [ "addHistogram", "classMR_1_1Histogram.html#ac1ebc3ae44e75437744d7f0b35a0dad5", null ],
-      [ "addSample", "classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc", null ],
-      [ "getBinId", "classMR_1_1Histogram.html#aa191601972d6382ef20f1b6fa9ad85a0", null ],
-      [ "getBinMinMax", "classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c", null ],
-      [ "getBins", "classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3", null ],
-      [ "getMax", "classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8", null ],
-      [ "getMin", "classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3", null ],
-      [ "heapBytes", "classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca", null ]
+    [ "MR::Histogram", "../Csharp/classMR_1_1Histogram.html", [
+      [ "Histogram", "../Csharp/classMR_1_1Histogram.html#ab0bbd3d8742e66c6ff69d2e691a4f7ad", null ],
+      [ "Histogram", "../Csharp/classMR_1_1Histogram.html#abca61af5d0c72a9284ec588336d45e0d", null ],
+      [ "Histogram", "../Csharp/classMR_1_1Histogram.html#a3e83c795c07c0445d6267063b066c59b", null ],
+      [ "addHistogram", "../Csharp/classMR_1_1Histogram.html#a8890dd48c1247230c8452d0a556fa6c5", null ],
+      [ "addSample", "../Csharp/classMR_1_1Histogram.html#a729336228fb61efb8e91b847bac318f8", null ],
+      [ "assign", "../Csharp/classMR_1_1Histogram.html#ab3d9c69327e5a321eefd6c70cb0a5593", null ]
     ] ],
     [ "MR::Line< V >", "structMR_1_1Line.html", [
       [ "distanceSq", "structMR_1_1Line.html#a33b2b7a0c2b8520be3e29171461a15d4", null ],
@@ -64,9 +59,12 @@ var group__MathGroup =
       [ "invTransformed", "structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177", null ],
       [ "transformed", "structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5", null ]
     ] ],
-    [ "MR::PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", [
-      [ "id", "structMR_1_1PreciseVertCoord.html#a06f1bfc70a05a9294afb6050626e61dd", null ],
-      [ "pt", "structMR_1_1PreciseVertCoord.html#a547304af4a3486eb429f7737c6f9fc3e", null ]
+    [ "MR::PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html", [
+      [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#ab8992d425f595fb5f3f48173474495cb", null ],
+      [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#abef2e017225d941402175a7fb3bb79aa", null ],
+      [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#a0d93de7ebe7568167fc1f2037b47a3d6", null ],
+      [ "assign", "../Csharp/classMR_1_1PreciseVertCoord.html#ab87d65139c10431f17b0e2890537c0ca", null ],
+      [ "id", "../Csharp/classMR_1_1PreciseVertCoord.html#a756c8bd884da3b2f4c83dd94bb70c8a7", null ]
     ] ],
     [ "MR::QuadraticForm< V >", "structMR_1_1QuadraticForm.html", [
       [ "addDistToLine", "structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c", null ],
@@ -92,8 +90,6 @@ var group__MathGroup =
       [ "operator*", "structMR_1_1Quaternion.html#a0267d5aee3f765c24fb3f40ad811f9b4", null ],
       [ "orthonormalized", "structMR_1_1Quaternion.html#a425f39c2e989a446889597e5692a0416", null ],
       [ "orthonormalized", "structMR_1_1Quaternion.html#a30209c5b86e5874a13aef73306c7c037", null ],
-      [ "slerp", "structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e", null ],
-      [ "slerp", "structMR_1_1Quaternion.html#a5b71c529c0724694aa58ca8f01246b4d", null ],
       [ "a", "structMR_1_1Quaternion.html#a99d6bff08a40df6a9873566e597b029e", null ],
       [ "d", "structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303", null ]
     ] ],
@@ -128,9 +124,17 @@ var group__MathGroup =
     [ "MR::dihedralAngle", "group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04", null ],
     [ "MR::dihedralAngleCos", "group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1", null ],
     [ "MR::dihedralAngleSin", "group__MathGroup.html#ga92b796fca017138671758654b2838d56", null ],
+    [ "MR::doTriangleSegmentIntersect", "group__MathGroup.html#ga1786b102734c05b43aec639689904eba", null ],
+    [ "MR::findTriangleSegmentIntersectionPrecise", "group__MathGroup.html#ga6f4d593d1b9ff1f262a583bf72f384f8", null ],
+    [ "MR::findTwoSegmentsIntersection", "group__MathGroup.html#gab44344e6fdff4411490db5446baa0245", null ],
+    [ "MR::getToFloatConverter", "group__MathGroup.html#ga2096ace9292b40c55421517434fd8bd8", null ],
+    [ "MR::getToIntConverter", "group__MathGroup.html#ga9736a434a7f001c05b9a7d23675ca257", null ],
     [ "MR::lookAt", "group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da", null ],
     [ "MR::makeRigidXf", "group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9", null ],
     [ "MR::minTriangleAngleSin", "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
+    [ "MR::orient3d", "group__MathGroup.html#ga5bd54d5a4565669fb45c78db08bc403e", null ],
     [ "MR::orient3d", "group__MathGroup.html#gaf33aff000dfb310f8d4e2b79698c3373", null ],
+    [ "MR::orient3d", "group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e", null ],
+    [ "MR::segmentIntersectionOrder", "group__MathGroup.html#ga38bf09e48cc1f340d50f86e96d6cc15c", null ],
     [ "MR::triangleAspectRatio", "group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9", null ]
 ];

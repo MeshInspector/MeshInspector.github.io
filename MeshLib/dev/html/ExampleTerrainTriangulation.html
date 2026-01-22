@@ -160,8 +160,8 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// load points</span></div>
-<div class="line">    MR::VertColors colors;</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a> pls;</div>
+<div class="line">    <a class="code hl_classRef" href="./Csharp/classMR_1_1VertColors.html">MR::VertColors</a> colors;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a> pls;</div>
 <div class="line">    pls.colors = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, pls );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
@@ -176,7 +176,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while triangulating</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a> ss;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a> ss;</div>
 <div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.vec_.size() == colors.size() )</div>
 <div class="line">    ss.colors = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
@@ -187,6 +187,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line">    }</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassMR_1_1VertColors_html"><div class="ttname"><a href="./Csharp/classMR_1_1VertColors.html">MR::VertColors</a></div></div>
 <div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="astructMR_1_1PointsLoadSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a></div></div>

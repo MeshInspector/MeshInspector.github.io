@@ -17,12 +17,26 @@ var group__FillHoleGroup =
       [ "metric", "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020", null ],
       [ "outNewFaces", "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66", null ]
     ] ],
-    [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
-    [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", null ],
-    [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", [
-      [ "operator bool", "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119", null ],
-      [ "na", "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f", null ],
-      [ "newFaces", "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a", null ]
+    [ "MR::FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html", [
+      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#a60ba7e6d45c9326c46eb178a8eb172da", null ],
+      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#a20adabbdbfa027f7e5684556b7221c50", null ],
+      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#ad76b82bdb5b6b344e7e815572fbd83fc", null ],
+      [ "assign", "../Csharp/classMR_1_1FillHoleItem.html#a525c31821bdc6f5145a8ab7f14d3ba72", null ]
+    ] ],
+    [ "MR::HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html", [
+      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#a29d8e66ba2fe6237505716aa89048294", null ],
+      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#af23ed8e6d4f9447fefddfd0b5f69e90a", null ],
+      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#ac80deb9d88cce363defdb3837c5414d5", null ],
+      [ "assign", "../Csharp/classMR_1_1HoleFillPlan.html#a635d6b9767b9151f3b8fb7ad79d1c7b6", null ]
+    ] ],
+    [ "MR::MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html", [
+      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#ad12fab67f8b0eee7cd08814876cee084", null ],
+      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#a5f594da16b372034261faae119b7d983", null ],
+      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#a05566b5bd04d96d0c5d68d5e172cea5c", null ],
+      [ "assign", "../Csharp/classMR_1_1MakeBridgeResult.html#a9861549bf0510775a5face7c13e05893", null ],
+      [ "na", "../Csharp/classMR_1_1MakeBridgeResult.html#a7ca2fa06da18ab30a58b7d33f19bcc33", null ],
+      [ "nb", "../Csharp/classMR_1_1MakeBridgeResult.html#a590ce224edcb5c603b2ecb89602da461", null ],
+      [ "newFaces", "../Csharp/classMR_1_1MakeBridgeResult.html#abc534380bccfe8c92250391a9680fdbf", null ]
     ] ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
       [ "combineMetric", "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c", null ],

@@ -161,7 +161,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">{</div>
 <div class="line">    <span class="keyword">auto</span> meshA = MR::makeUVSphere(); <span class="comment">// make mesh A</span></div>
 <div class="line">    <span class="keyword">auto</span> meshB = MR::makeUVSphere(); <span class="comment">// make mesh B</span></div>
-<div class="line">    meshB.transform( MR::AffineXf3f::translation( MR::Vector3f( 0.1f, 0.1f, 0.1f ) ) ); <span class="comment">// shift mesh B for better demonstration</span></div>
+<div class="line">    meshB.transform( <a class="code hl_functionRef" href="./Csharp/structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883">MR::AffineXf3f::translation</a>( <a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a>( 0.1f, 0.1f, 0.1f ) ) ); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> converters = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124">MR::getVectorConverters</a>( meshA, meshB ); <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
 <div class="line">    <span class="keyword">auto</span> collidingFaceEdges = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454">MR::findCollidingEdgeTrisPrecise</a>( meshA, meshB, converters.toInt ); <span class="comment">// find each intersecting edge/triangle pair </span></div>
@@ -177,6 +177,8 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">}</div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga11d4ca955f1a62e15ebea578ffa83454"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454">MR::findCollidingEdgeTrisPrecise</a></div><div class="ttdeci">MRMESH_API PreciseCollisionResult findCollidingEdgeTrisPrecise(const MeshPart &amp;a, const MeshPart &amp;b, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gada6fc8da7b44241f0c208c2f2b085124"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124">MR::getVectorConverters</a></div><div class="ttdeci">MRMESH_API CoordinateConverters getVectorConverters(const MeshPart &amp;a)</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf3f_html_a6f7864db8ce7c5de0f3bd4cff16cb883"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883">MR::AffineXf3f::translation</a></div><div class="ttdeci">static unsafe MR.AffineXf3f translation(in MR.Vector3f b)</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>
@@ -262,7 +264,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">        var meshA = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeUVSphere();</div>
 <div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeUVSphere();</div>
 <div class="line"> </div>
-<div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.AffineXf3f.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3f(0.1f, 0.1f, 0.1f)));</div>
+<div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">Vector3f</a>(0.1f, 0.1f, 0.1f)));</div>
 <div class="line"> </div>
 <div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
 <div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
@@ -293,6 +295,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line"> </div>
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
+<div class="ttc" id="astructMR_1_1AffineXf3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

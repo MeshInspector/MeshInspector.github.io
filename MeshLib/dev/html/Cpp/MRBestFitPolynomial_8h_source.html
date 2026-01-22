@@ -160,16 +160,16 @@ $(function(){initNavTree('MRBestFitPolynomial_8h_source.html',''); initResizable
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span> canSolvePolynomial( <span class="keyword">auto</span> degree )</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a4cf8a5ecd6c1b6eb7de50c27f570cc49">canSolvePolynomial</a>( <span class="keyword">auto</span> degree )</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">return</span> 1 &lt;= degree &amp;&amp; degree &lt;= 4;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span> canMinimizePolynomial( <span class="keyword">auto</span> degree )</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a5748c268c3936e77f7b029368a2a419f">canMinimizePolynomial</a>( <span class="keyword">auto</span> degree )</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">return</span> degree &lt;= 5;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
@@ -203,10 +203,10 @@ $(function(){initNavTree('MRBestFitPolynomial_8h_source.html',''); initResizable
 </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> degree&gt;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1Polynomial.html">Polynomialf</a> = <a class="code hl_struct" href="structMR_1_1Polynomial.html">Polynomial&lt;float, degree&gt;</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">using </span>Polynomialf = <a class="code hl_struct" href="structMR_1_1Polynomial.html">Polynomial&lt;float, degree&gt;</a>;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> degree&gt;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1Polynomial.html">Polynomiald</a> = <a class="code hl_struct" href="structMR_1_1Polynomial.html">Polynomial&lt;double, degree&gt;</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">using </span>Polynomiald = <a class="code hl_struct" href="structMR_1_1Polynomial.html">Polynomial&lt;double, degree&gt;</a>;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
@@ -239,8 +239,8 @@ $(function(){initNavTree('MRBestFitPolynomial_8h_source.html',''); initResizable
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
 </div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1PolynomialWrapper.html">PolynomialWrapperf</a> = <a class="code hl_struct" href="structMR_1_1PolynomialWrapper.html">PolynomialWrapper&lt;float&gt;</a>;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">using </span><a class="code hl_struct" href="structMR_1_1PolynomialWrapper.html">PolynomialWrapperd</a> = <a class="code hl_struct" href="structMR_1_1PolynomialWrapper.html">PolynomialWrapper&lt;double&gt;</a>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">using </span>PolynomialWrapperf = <a class="code hl_struct" href="structMR_1_1PolynomialWrapper.html">PolynomialWrapper&lt;float&gt;</a>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">using </span>PolynomialWrapperd = <a class="code hl_struct" href="structMR_1_1PolynomialWrapper.html">PolynomialWrapper&lt;double&gt;</a>;</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keywordtype">size_t</span> degree&gt;</div>
@@ -277,6 +277,9 @@ $(function(){initNavTree('MRBestFitPolynomial_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1BestFitPolynomial_html"><div class="ttname"><a href="classMR_1_1BestFitPolynomial.html">MR::BestFitPolynomial</a></div><div class="ttdef"><b>Definition</b> MRBestFitPolynomial.h:95</div></div>
 <div class="ttc" id="aclassMR_1_1BestFitPolynomial_html_a6e839e3a51321f2d22350459fa2c280d"><div class="ttname"><a href="classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d">MR::BestFitPolynomial::BestFitPolynomial</a></div><div class="ttdeci">MRMESH_API BestFitPolynomial(T reg)</div></div>
 <div class="ttc" id="aclassMR_1_1BestFitPolynomial_html_a94178932bf3011077ad8a874c0e442ab"><div class="ttname"><a href="classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab">MR::BestFitPolynomial::getBestPolynomial</a></div><div class="ttdeci">MRMESH_API Polynomial&lt; T, degree &gt; getBestPolynomial() const</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a4cf8a5ecd6c1b6eb7de50c27f570cc49"><div class="ttname"><a href="../Csharp/classMR.html#a4cf8a5ecd6c1b6eb7de50c27f570cc49">MR::canSolvePolynomial</a></div><div class="ttdeci">static bool canSolvePolynomial(ulong degree)</div></div>
+<div class="ttc" id="aclassMR_html_a5748c268c3936e77f7b029368a2a419f"><div class="ttname"><a href="../Csharp/classMR.html#a5748c268c3936e77f7b029368a2a419f">MR::canMinimizePolynomial</a></div><div class="ttdeci">static bool canMinimizePolynomial(ulong degree)</div></div>
 <div class="ttc" id="astructMR_1_1PolynomialWrapper_html"><div class="ttname"><a href="structMR_1_1PolynomialWrapper.html">MR::PolynomialWrapper</a></div><div class="ttdoc">This is a unifying interface for a polynomial of some degree, known only in runtime.</div><div class="ttdef"><b>Definition</b> MRBestFitPolynomial.h:74</div></div>
 <div class="ttc" id="astructMR_1_1Polynomial_html"><div class="ttname"><a href="structMR_1_1Polynomial.html">MR::Polynomial</a></div><div class="ttdef"><b>Definition</b> MRBestFitPolynomial.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->

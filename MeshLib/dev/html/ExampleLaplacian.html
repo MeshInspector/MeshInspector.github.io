@@ -168,7 +168,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; mesh = *loadRes;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; mesh = *loadRes;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Construct deformer on the mesh vertices</span></div>
 <div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a> lDeformer( mesh );</div>
@@ -177,7 +177,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> ancV0 = mesh.topology.getValidVerts().find_first();</div>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> ancV1 = mesh.topology.getValidVerts().find_last();</div>
 <div class="line">    <span class="comment">// Mark the anchor points in the free area</span></div>
-<div class="line">    MR::VertBitSet freeVerts;</div>
+<div class="line">    <a class="code hl_classRef" href="./Csharp/classMR_1_1VertBitSet.html">MR::VertBitSet</a> freeVerts;</div>
 <div class="line">    freeVerts.resize( mesh.topology.getValidVerts().size() );</div>
 <div class="line">    freeVerts.set( ancV0, <span class="keyword">true</span> );</div>
 <div class="line">    freeVerts.set( ancV1, <span class="keyword">true</span> );</div>
@@ -206,6 +206,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html"><div class="ttname"><a href="./Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></div></div>
+<div class="ttc" id="aclassMR_1_1VertBitSet_html"><div class="ttname"><a href="./Csharp/classMR_1_1VertBitSet.html">MR::VertBitSet</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>

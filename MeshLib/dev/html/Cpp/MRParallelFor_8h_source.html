@@ -157,7 +157,7 @@ $(function(){initNavTree('MRParallelFor_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;atomic&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span>Parallel</div>
@@ -176,7 +176,7 @@ $(function(){initNavTree('MRParallelFor_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> I, <span class="keyword">typename</span> CM, <span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">bool</span> For( I begin, I end, <span class="keyword">const</span> CM &amp; callMaker, F &amp;&amp; f, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, <span class="keywordtype">size_t</span> reportProgressEvery = 1024 )</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">bool</span> For( I begin, I end, <span class="keyword">const</span> CM &amp; callMaker, F &amp;&amp; f, ProgressCallback cb, <span class="keywordtype">size_t</span> reportProgressEvery = 1024 )</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordflow">if</span> ( !cb )</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    {</div>
@@ -240,7 +240,7 @@ $(function(){initNavTree('MRParallelFor_8h_source.html',''); initResizable(true)
 <div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">   95</a></span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">ParallelFor</a>( I begin, I end, F &amp;&amp;... f )</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">return</span> Parallel::For( begin, end, <a class="code hl_struct" href="structMR_1_1Parallel_1_1CallSimplyMaker.html">Parallel::CallSimplyMaker</a>{}, std::forward&lt;F&gt;( f )... );</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">return</span> Parallel::For( begin, end, <a class="code hl_classRef" href="../Csharp/classMR_1_1Parallel_1_1CallSimplyMaker.html">Parallel::CallSimplyMaker</a>{}, std::forward&lt;F&gt;( f )... );</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>}</div>
 </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
@@ -270,12 +270,12 @@ $(function(){initNavTree('MRParallelFor_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aclassMR_1_1Parallel_1_1CallSimplyMaker_html"><div class="ttname"><a href="../Csharp/classMR_1_1Parallel_1_1CallSimplyMaker.html">MR::Parallel::CallSimplyMaker</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html_a77de89f2d4e174400377d487cb85aa88"><div class="ttname"><a href="classMR_1_1Vector.html#a77de89f2d4e174400377d487cb85aa88">MR::Vector::beginId</a></div><div class="ttdeci">I beginId() const</div><div class="ttdoc">returns the identifier of the first element</div><div class="ttdef"><b>Definition</b> MRVector.h:141</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html_affe4aad8fd23742b0de456abb1921fc0"><div class="ttname"><a href="classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0">MR::Vector::endId</a></div><div class="ttdeci">I endId() const</div><div class="ttdoc">returns backId() + 1</div><div class="ttdef"><b>Definition</b> MRVector.h:147</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gacebe01b37f86a061aec73665e5458155"><div class="ttname"><a href="group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a></div><div class="ttdeci">auto ParallelFor(I begin, I end, F &amp;&amp;... f)</div><div class="ttdef"><b>Definition</b> MRParallelFor.h:95</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:742</div></div>
-<div class="ttc" id="astructMR_1_1Parallel_1_1CallSimplyMaker_html"><div class="ttname"><a href="structMR_1_1Parallel_1_1CallSimplyMaker.html">MR::Parallel::CallSimplyMaker</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:18</div></div>
 <div class="ttc" id="astructMR_1_1Parallel_1_1CallWithTLSMaker_html"><div class="ttname"><a href="structMR_1_1Parallel_1_1CallWithTLSMaker.html">MR::Parallel::CallWithTLSMaker</a></div><div class="ttdef"><b>Definition</b> MRParallel.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

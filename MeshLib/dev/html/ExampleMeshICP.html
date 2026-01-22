@@ -167,7 +167,7 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">        std::cerr &lt;&lt; meshFloatingRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; meshFloating = *meshFloatingRes;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; meshFloating = *meshFloatingRes;</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> meshFixedRes = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshFixedRes.has_value() )</div>
@@ -175,23 +175,23 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">        std::cerr &lt;&lt; meshFixedRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; meshFixed = *meshFixedRes;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; meshFixed = *meshFixedRes;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
 <div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.getBoundingBox().diagonal();</div>
 <div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
 <div class="line">    icpParams.distThresholdSq = MR::sqr( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
 <div class="line">    icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
 <div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR::ICP</a> icp(</div>
-<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFloating } },</div>
-<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFixed } },</div>
-<div class="line">        MR::AffineXf3f(), MR::AffineXf3f(),</div>
+<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ <a class="code hl_classRef" href="./Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a>{ meshFloating } },</div>
+<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ <a class="code hl_classRef" href="./Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a>{ meshFixed } },</div>
+<div class="line">        <a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a>(), <a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a>(),</div>
 <div class="line">        icpSamplingVoxelSize );</div>
 <div class="line">    icp.setParams( icpParams );</div>
-<div class="line">    MR::AffineXf3f xf = icp.calculateTransformation();</div>
+<div class="line">    <a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a> xf = icp.calculateTransformation();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Transform floating mesh</span></div>
 <div class="line">    meshFloating.transform( xf );</div>
@@ -209,8 +209,10 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">}</div>
 <div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="./Cpp/classMR_1_1ICP.html">MR::ICP</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div></div>
+<div class="ttc" id="aclassMR_1_1MeshPart_html"><div class="ttname"><a href="./Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></div></div>
 <div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="./Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --></li>
@@ -350,20 +352,20 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">            var mesh_floating = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
 <div class="line">            var mesh_fixed = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.AffineXf3f());</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.AffineXf3f());</div>
+<div class="line">            <a class="code hl_classRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>());</div>
+<div class="line">            <a class="code hl_classRef" href="./Cpp/structMR_1_1MeshOrPointsXf.html">MR.MeshOrPointsXf</a> mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Prepare ICP parameters</span></div>
 <div class="line">            <span class="keywordtype">float</span> diagonal = mesh_xf_fixed.obj.computeBoundingBox().diagonal();</div>
 <div class="line">            <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> icpParams = <span class="keyword">new</span>();</div>
+<div class="line">            <a class="code hl_classRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> icpParams = <span class="keyword">new</span>();</div>
 <div class="line">            icpParams.distThresholdSq = diagonal * diagonal * 0.01f; <span class="comment">// Use points pairs with maximum distance specified</span></div>
 <div class="line">            icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Calculate transformation</span></div>
 <div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR.ICP</a> icp = <span class="keyword">new</span>(mesh_xf_floating, mesh_xf_fixed, icpSamplingVoxelSize);</div>
 <div class="line">            icp.setParams(icpParams);</div>
-<div class="line">            MR.AffineXf3f xf = icp.calculateTransformation();</div>
+<div class="line">            <a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> xf = icp.calculateTransformation();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Transform floating mesh</span></div>
 <div class="line">            mesh_floating.transform(xf);</div>

@@ -1,9 +1,13 @@
 var group__SurfacePathSubgroup =
 [
-    [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", [
-      [ "end", "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c", null ],
-      [ "outBdReached", "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0", null ],
-      [ "outVertexReached", "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f", null ]
+    [ "MR::ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html", [
+      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a5d5816d5186fe8a08a9af93f7abbbba0", null ],
+      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a4a1de14562cfe2b35b795a50494c9085", null ],
+      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a039f7bda688ad753304a770f3fb7cd19", null ],
+      [ "assign", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9", null ],
+      [ "end", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#ae1872ce5a1f0dd2786cbfcc07e5e198f", null ],
+      [ "outBdReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a9beb76581163776c677e35398b266735", null ],
+      [ "outVertexReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a96fe401940d7726e0b15daf7b01c8efa", null ]
     ] ],
     [ "MR::PathError", "group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
       [ "MR::PathError::StartEndNotConnected", "group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],

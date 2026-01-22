@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classmrmeshpy_1_1ObjectSave_1_1Settings.html#a07b187cce08043b1cf55244708629e61":[6,1,0,0,1,609,0,3],
 "classmrmeshpy_1_1ObjectSave_1_1Settings.html#a242fa94d9c7f0d3dc51b76c0ffa9f421":[6,1,0,0,1,609,0,1],
 "classmrmeshpy_1_1ObjectSave_1_1Settings.html#a3c1584d3bbf5794ce7b1d2e9d90df867":[6,1,0,0,1,609,0,2],
 "classmrmeshpy_1_1ObjectSave_1_1Settings.html#aa1e4d992214ce3d7da33c093f96f9874":[6,1,0,0,1,609,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classmrmeshpy_1_1PlanarTriangulation.html":[6,1,0,0,1,677],
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,1,0,0,1,677,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a47c0ec8c6d77bd08259367ad8b11307c":[6,1,0,0,1,677,0,1],
-"classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a9f4951005c94f78db09a116cfeb053f8":[6,1,0,0,1,677,0,3],
-"classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#aa96255d015bcc00aa1e71791390a3483":[6,1,0,0,1,677,0,0]
+"classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a9f4951005c94f78db09a116cfeb053f8":[6,1,0,0,1,677,0,3]
 };

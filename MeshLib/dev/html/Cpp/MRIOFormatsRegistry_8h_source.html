@@ -191,7 +191,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">    return FormatRegistry&lt;ProcName&gt;::getFilters();                                                  \</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">}</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>MRMESH_API <span class="keyword">extern</span> <span class="keyword">const</span> IOFilters AllFilter;</div>
@@ -208,7 +208,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">// get a registered loader for the filter</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">static</span> Processor getProcessor( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; filter )</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">static</span> Processor getProcessor( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1IOFilter.html">IOFilter</a>&amp; filter )</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    {</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; processors = get_().processors_;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">auto</span> it = processors.find( filter );</div>
@@ -235,7 +235,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    }</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="comment">// register or update a loader for the filter</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> setProcessor( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; filter, Processor processor, int8_t priorityScore = 0 )</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> setProcessor( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1IOFilter.html">IOFilter</a>&amp; filter, Processor processor, int8_t priorityScore = 0 )</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    {</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="keyword">auto</span>&amp; processors = get_().processors_;</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keyword">auto</span> it = processors.find( filter );</div>
@@ -277,12 +277,12 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>};</div>
 </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="keyword">namespace </span>MeshLoad</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1MeshLoad.html">MeshLoad</a></div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>{</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keyword">using </span>MeshFileLoader = Expected&lt;MR::Mesh&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; );</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="keyword">using </span>MeshStreamLoader = Expected&lt;MR::Mesh&gt;( * )( std::istream&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; );</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keyword">using </span>MeshFileLoader = Expected&lt;MR::Mesh&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; );</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="keyword">using </span>MeshStreamLoader = Expected&lt;MR::Mesh&gt;( * )( std::istream&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; );</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
 <div class="foldopen" id="foldopen00141" data-start="{" data-end="};">
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="structMR_1_1MeshLoad_1_1MeshLoader.html">  141</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoader</a></div>
@@ -364,11 +364,11 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>} <span class="comment">// namespace LinesLoad</span></div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="keyword">namespace </span>LinesSave</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1LinesSave.html">LinesSave</a></div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>{</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="keyword">using </span>LinesFileSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> Polyline3&amp;, <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="keyword">using </span>LinesStreamSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> Polyline3&amp;, std::ostream&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="keyword">using </span>LinesFileSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Polyline3.html">Polyline3</a>&amp;, <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="keyword">using </span>LinesStreamSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Polyline3.html">Polyline3</a>&amp;, std::ostream&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
 <div class="foldopen" id="foldopen00227" data-start="{" data-end="};">
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="structMR_1_1LinesSave_1_1LinesSaver.html">  227</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1LinesSave_1_1LinesSaver.html">LinesSaver</a></div>
@@ -388,11 +388,11 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>} <span class="comment">// namespace LinesSave</span></div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="keyword">namespace </span>PointsLoad</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1PointsLoad.html">PointsLoad</a></div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>{</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="keyword">using </span>PointsFileLoader = Expected&lt;PointCloud&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; );</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="keyword">using </span>PointsStreamLoader = Expected&lt;PointCloud&gt;( * )( std::istream&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; );</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="keyword">using </span>PointsFileLoader = Expected&lt;PointCloud&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; );</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="keyword">using </span>PointsStreamLoader = Expected&lt;PointCloud&gt;( * )( std::istream&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointsLoadSettings.html">PointsLoadSettings</a>&amp; );</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
 <div class="foldopen" id="foldopen00249" data-start="{" data-end="};">
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="structMR_1_1PointsLoad_1_1PointsLoader.html">  249</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PointsLoad_1_1PointsLoader.html">PointsLoader</a></div>
@@ -409,11 +409,11 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>} <span class="comment">// namespace PointsLoad</span></div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">namespace </span>PointsSave</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1PointsSave.html">PointsSave</a></div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>{</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span><span class="keyword">using </span>PointsFileSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp;, <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="keyword">using </span>PointsStreamSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp;, std::ostream&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span><span class="keyword">using </span>PointsFileSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointCloud.html">PointCloud</a>&amp;, <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="keyword">using </span>PointsStreamSaver = Expected&lt;void&gt;( * )( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointCloud.html">PointCloud</a>&amp;, std::ostream&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SaveSettings.html">SaveSettings</a>&amp; );</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
 <div class="foldopen" id="foldopen00268" data-start="{" data-end="};">
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="structMR_1_1PointsSave_1_1PointsSaver.html">  268</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PointsSave_1_1PointsSaver.html">PointsSaver</a></div>
@@ -430,7 +430,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>} <span class="comment">// namespace PointsSave</span></div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="keyword">namespace </span>ImageLoad</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1ImageLoad.html">ImageLoad</a></div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>{</div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
 <div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span><span class="keyword">using </span>ImageLoader = Expected&lt;Image&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp; );</div>
@@ -463,7 +463,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="keyword">namespace </span>ObjectLoad</div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>{</div>
 <div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="keyword">using </span>ObjectLoader = Expected&lt;LoadedObjects&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; );</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="keyword">using </span>ObjectLoader = Expected&lt;LoadedObjects&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> ProgressCallback&amp; );</div>
 <div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>MR_FORMAT_REGISTRY_DECL( ObjectLoader )</div>
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
@@ -488,7 +488,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>{</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="keyword">using </span>PostLoadCallback = std::function&lt;void ( Expected&lt;LoadedObjects&gt; )&gt;;</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="keyword">using </span>ObjectLoader = void( * )( <span class="keyword">const</span> std::filesystem::path&amp;, PostLoadCallback, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; );</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="keyword">using </span>ObjectLoader = void( * )( <span class="keyword">const</span> std::filesystem::path&amp;, PostLoadCallback, <span class="keyword">const</span> ProgressCallback&amp; );</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>MR_FORMAT_REGISTRY_DECL( ObjectLoader )</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span> </div>
@@ -497,7 +497,7 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="keyword">namespace </span>SceneLoad</div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>{</div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">using </span>SceneLoader = Expected&lt;LoadedObject&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; );</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">using </span>SceneLoader = Expected&lt;LoadedObject&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> ProgressCallback&amp; );</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>MR_FORMAT_REGISTRY_DECL( SceneLoader )</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
@@ -557,22 +557,28 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>} <span class="comment">// namespace MR</span></div>
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassMR_1_1FormatRegistry_html"><div class="ttname"><a href="classMR_1_1FormatRegistry.html">MR::FormatRegistry</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:54</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:742</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html"><div class="ttname"><a href="structMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition</b> MRIOFilters.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1IOFilter_html"><div class="ttname"><a href="../Csharp/classMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition</b> MRIOFilters.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1ImageLoad_html"><div class="ttname"><a href="../Csharp/classMR_1_1ImageLoad.html">MR::ImageLoad</a></div></div>
+<div class="ttc" id="aclassMR_1_1LinesSave_html"><div class="ttname"><a href="../Csharp/classMR_1_1LinesSave.html">MR::LinesSave</a></div></div>
+<div class="ttc" id="aclassMR_1_1MeshLoadSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a></div><div class="ttdef"><b>Definition</b> MRMeshLoadSettings.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1MeshLoad_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="aclassMR_1_1PointCloud_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1PointsLoadSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a></div><div class="ttdef"><b>Definition</b> MRPointsLoadSettings.h:10</div></div>
+<div class="ttc" id="aclassMR_1_1PointsLoad_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointsLoad.html">MR::PointsLoad</a></div></div>
+<div class="ttc" id="aclassMR_1_1PointsSave_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointsSave.html">MR::PointsSave</a></div></div>
+<div class="ttc" id="aclassMR_1_1Polyline3_html"><div class="ttname"><a href="../Csharp/classMR_1_1Polyline3.html">MR::Polyline3</a></div></div>
+<div class="ttc" id="aclassMR_1_1SaveSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:17</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1LinesLoad_1_1LinesLoader_html"><div class="ttname"><a href="structMR_1_1LinesLoad_1_1LinesLoader.html">MR::LinesLoad::LinesLoader</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:206</div></div>
 <div class="ttc" id="astructMR_1_1LinesSave_1_1LinesSaver_html"><div class="ttname"><a href="structMR_1_1LinesSave_1_1LinesSaver.html">MR::LinesSave::LinesSaver</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:228</div></div>
-<div class="ttc" id="astructMR_1_1MeshLoadSettings_html"><div class="ttname"><a href="structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a></div><div class="ttdoc">setting for mesh loading from external format, and locations of optional output data</div><div class="ttdef"><b>Definition</b> MRMeshLoadSettings.h:11</div></div>
 <div class="ttc" id="astructMR_1_1MeshLoad_1_1MeshLoader_html"><div class="ttname"><a href="structMR_1_1MeshLoad_1_1MeshLoader.html">MR::MeshLoad::MeshLoader</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:142</div></div>
 <div class="ttc" id="astructMR_1_1MeshSave_1_1MeshSaverCapabilities_html"><div class="ttname"><a href="structMR_1_1MeshSave_1_1MeshSaverCapabilities.html">MR::MeshSave::MeshSaverCapabilities</a></div><div class="ttdoc">describes optional abilities of a MeshSaver</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:173</div></div>
 <div class="ttc" id="astructMR_1_1MeshSave_1_1MeshSaverCapabilities_html_aa4b2b579cd71f458759433d38a543ad4"><div class="ttname"><a href="structMR_1_1MeshSave_1_1MeshSaverCapabilities.html#aa4b2b579cd71f458759433d38a543ad4">MR::MeshSave::MeshSaverCapabilities::storesVertexColors</a></div><div class="ttdeci">bool storesVertexColors</div><div class="ttdoc">true if the saver serializes per-vertex mesh colors, false if per-vertex colors are not saved</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:175</div></div>
 <div class="ttc" id="astructMR_1_1MeshSave_1_1MeshSaver_html"><div class="ttname"><a href="structMR_1_1MeshSave_1_1MeshSaver.html">MR::MeshSave::MeshSaver</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:179</div></div>
 <div class="ttc" id="astructMR_1_1MeshSave_1_1MeshSaver_html_a42c3b3942648bbdf04a63ea09d084621"><div class="ttname"><a href="structMR_1_1MeshSave_1_1MeshSaver.html#a42c3b3942648bbdf04a63ea09d084621">MR::MeshSave::MeshSaver::streamSave</a></div><div class="ttdeci">MeshStreamSaver streamSave</div><div class="ttdoc">saver in a std::ostream</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:184</div></div>
 <div class="ttc" id="astructMR_1_1MeshSave_1_1MeshSaver_html_a4951d53470a1d6ced4ee918e8836c3fc"><div class="ttname"><a href="structMR_1_1MeshSave_1_1MeshSaver.html#a4951d53470a1d6ced4ee918e8836c3fc">MR::MeshSave::MeshSaver::fileSave</a></div><div class="ttdeci">MeshFileSaver fileSave</div><div class="ttdoc">saver in a file given by its path</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:181</div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
-<div class="ttc" id="astructMR_1_1PointsLoadSettings_html"><div class="ttname"><a href="structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a></div><div class="ttdef"><b>Definition</b> MRPointsLoadSettings.h:10</div></div>
 <div class="ttc" id="astructMR_1_1PointsLoad_1_1PointsLoader_html"><div class="ttname"><a href="structMR_1_1PointsLoad_1_1PointsLoader.html">MR::PointsLoad::PointsLoader</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:250</div></div>
 <div class="ttc" id="astructMR_1_1PointsSave_1_1PointsSaver_html"><div class="ttname"><a href="structMR_1_1PointsSave_1_1PointsSaver.html">MR::PointsSave::PointsSaver</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:269</div></div>
-<div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

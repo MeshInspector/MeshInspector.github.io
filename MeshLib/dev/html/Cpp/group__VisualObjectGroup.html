@@ -165,76 +165,26 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html">MR::IsVisualizeMaskEnum&lt; VisualizeMaskType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">MR::AnyVisualizeMaskEnum</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1AnyVisualizeMaskEnum.html">MR::AnyVisualizeMaskEnum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Dirty.html">MR::Dirty</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1Dirty.html">MR::Dirty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visual <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a>.  <a href="classMR_1_1VisualObject.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visual <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ga1f6aeed936aa967b17cba0997d30ff7f" id="r_ga1f6aeed936aa967b17cba0997d30ff7f"><td class="memItemLeft" align="right" valign="top"><a id="ga1f6aeed936aa967b17cba0997d30ff7f" name="ga1f6aeed936aa967b17cba0997d30ff7f"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::AllVisualizeProperties</b> = std::vector&lt;<a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::AllVisualizeProperties</b> = std::vector&lt;<a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">ViewportMask</a>&gt;</td></tr>
 <tr class="separator:ga1f6aeed936aa967b17cba0997d30ff7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga03255e831f4895337e7cf27d64e51269" id="r_ga03255e831f4895337e7cf27d64e51269"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03255e831f4895337e7cf27d64e51269">MR::DirtyFlags</a> { <br />
-&#160;&#160;<b>DIRTY_NONE</b> = 0x0000
-, <b>DIRTY_POSITION</b> = 0x0001
-, <b>DIRTY_UV</b> = 0x0002
-, <b>DIRTY_VERTS_RENDER_NORMAL</b> = 0x0004
-, <br />
-&#160;&#160;<a class="el" href="#gga03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3">MR::DIRTY_FACES_RENDER_NORMAL</a> = 0x0008
-, <a class="el" href="#gga03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611">MR::DIRTY_CORNERS_RENDER_NORMAL</a> = 0x0010
-, <b>DIRTY_RENDER_NORMALS</b> = DIRTY_VERTS_RENDER_NORMAL | DIRTY_FACES_RENDER_NORMAL | DIRTY_CORNERS_RENDER_NORMAL
-, <b>DIRTY_SELECTION</b> = 0x0020
-, <br />
-&#160;&#160;<b>DIRTY_TEXTURE</b> = 0x0040
-, <b>DIRTY_PRIMITIVES</b> = 0x0080
-, <b>DIRTY_FACE</b> = DIRTY_PRIMITIVES
-, <b>DIRTY_VERTS_COLORMAP</b> = 0x0100
-, <br />
-&#160;&#160;<b>DIRTY_PRIMITIVE_COLORMAP</b> = 0x0200
-, <b>DIRTY_FACES_COLORMAP</b> = DIRTY_PRIMITIVE_COLORMAP
-, <b>DIRTY_TEXTURE_PER_FACE</b> = 0x0400
-, <b>DIRTY_MESH</b> = 0x07FF
-, <br />
-&#160;&#160;<b>DIRTY_BOUNDING_BOX</b> = 0x0800
-, <b>DIRTY_BORDER_LINES</b> = 0x1000
-, <b>DIRTY_EDGES_SELECTION</b> = 0x2000
-, <b>DIRTY_CACHES</b> = DIRTY_BOUNDING_BOX
-, <br />
-&#160;&#160;<b>DIRTY_VOLUME</b> = 0x4000
-, <b>DIRTY_ALL</b> = 0x7FFF
-<br />
- }</td></tr>
+<tr class="memitem:ga03255e831f4895337e7cf27d64e51269" id="r_ga03255e831f4895337e7cf27d64e51269"><td class="memItemLeft" align="right" valign="top"><a id="ga03255e831f4895337e7cf27d64e51269" name="ga03255e831f4895337e7cf27d64e51269"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DirtyFlags</b> </td></tr>
 <tr class="separator:ga03255e831f4895337e7cf27d64e51269"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ga03255e831f4895337e7cf27d64e51269" name="ga03255e831f4895337e7cf27d64e51269"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03255e831f4895337e7cf27d64e51269">&#9670;&#160;</a></span>DirtyFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#ga03255e831f4895337e7cf27d64e51269">MR::DirtyFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3" name="gga03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3"></a>DIRTY_FACES_RENDER_NORMAL&#160;</td><td class="fielddoc"><p>gl normals </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611" name="gga03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611"></a>DIRTY_CORNERS_RENDER_NORMAL&#160;</td><td class="fielddoc"><p>gl normals </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

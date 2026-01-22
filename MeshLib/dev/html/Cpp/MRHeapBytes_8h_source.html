@@ -155,7 +155,7 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -163,7 +163,7 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">   16</a></span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>( <span class="keyword">const</span> std::vector&lt;T&gt; &amp; vec )</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> hasHeapBytes = <span class="keyword">requires</span>( <span class="keyword">const</span> T&amp; t ) { t.heapBytes(); };</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> hasHeapBytes = <span class="keyword">requires</span>( <span class="keyword">const</span> T&amp; t ) { t.<a class="code hl_functionRef" href="../Csharp/classMR.html#a13350f0fbcfbe4074e5157c1808ba7db">heapBytes</a>(); };</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( hasHeapBytes )</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordtype">size_t</span> res = vec.capacity() * <span class="keyword">sizeof</span>( T );</div>
@@ -240,6 +240,8 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a13350f0fbcfbe4074e5157c1808ba7db"><div class="ttname"><a href="../Csharp/classMR.html#a13350f0fbcfbe4074e5157c1808ba7db">MR::heapBytes</a></div><div class="ttdeci">static unsafe ulong heapBytes(MR.Const_BitSet bs)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:298</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

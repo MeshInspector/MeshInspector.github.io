@@ -157,11 +157,11 @@ $(function(){initNavTree('MRBinaryOperationsPlugin_8h_source.html',''); initResi
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRViewer/MRStatePluginUpdate.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRVoxels/MRObjectVoxels.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1BinaryOperations.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1BinaryOperations.html">BinaryOperations</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StatePlugin</a>, <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;2, ObjectVoxels&gt;,</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1BinaryOperations.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1BinaryOperations.html">BinaryOperations</a> : <span class="keyword">public</span> StatePlugin, <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;2, ObjectVoxels&gt;,</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1PluginCloseOnSelectedObjectRemove.html">PluginCloseOnSelectedObjectRemove</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
@@ -176,8 +176,8 @@ $(function(){initNavTree('MRBinaryOperationsPlugin_8h_source.html',''); initResi
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">enum class</span> Operation : <span class="keywordtype">int</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_enumvalue" href="group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c">Union</a>,</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <a class="code hl_enumvalue" href="group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">Intersection</a>,</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        Union,</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        Intersection,</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        Difference,</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        Max,</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        Min,</div>
@@ -209,9 +209,7 @@ $(function(){initNavTree('MRBinaryOperationsPlugin_8h_source.html',''); initResi
 <div class="ttc" id="aclassMR_1_1BinaryOperations_html"><div class="ttname"><a href="classMR_1_1BinaryOperations.html">MR::BinaryOperations</a></div><div class="ttdef"><b>Definition</b> MRBinaryOperationsPlugin.h:15</div></div>
 <div class="ttc" id="aclassMR_1_1PluginCloseOnSelectedObjectRemove_html"><div class="ttname"><a href="classMR_1_1PluginCloseOnSelectedObjectRemove.html">MR::PluginCloseOnSelectedObjectRemove</a></div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:29</div></div>
 <div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition</b> MRSceneStateCheck.h:88</div></div>
-<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:75</div></div>
-<div class="ttc" id="agroup__BooleanGroup_html_gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24"><div class="ttname"><a href="group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a></div><div class="ttdeci">@ Intersection</div></div>
-<div class="ttc" id="agroup__BooleanGroup_html_gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c"><div class="ttname"><a href="group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c">MR::BooleanOperation::Union</a></div><div class="ttdeci">@ Union</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

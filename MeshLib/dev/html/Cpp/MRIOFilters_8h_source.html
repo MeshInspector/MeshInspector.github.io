@@ -156,15 +156,14 @@ $(function(){initNavTree('MRIOFilters_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html">   16</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">struct </span>IOFilter</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>( std::string _name, std::string _ext )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1IOFilter.html#aa9bab4124376f635f5e78a9784e8bf9b">IOFilter</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1IOFilter.html#aa9bab4124376f635f5e78a9784e8bf9b">IOFilter</a>( std::string _name, std::string _ext )</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        : name{ std::move( _name ) }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        , extensions{ std::move( _ext ) }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {}</div>
@@ -172,11 +171,10 @@ $(function(){initNavTree('MRIOFilters_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    std::string name;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    std::string extensions; <span class="comment">// &quot;*.ext&quot; or &quot;*.ext1;*.ext2;*.ext3&quot;</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    std::partial_ordering operator &lt;=&gt;( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; ) <span class="keyword">const</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    std::partial_ordering operator &lt;=&gt;( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1IOFilter.html#aa9bab4124376f635f5e78a9784e8bf9b">IOFilter</a>&amp; ) <span class="keyword">const</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    [[nodiscard]] MRMESH_API <span class="keywordtype">bool</span> isSupportedExtension( <span class="keyword">const</span> std::string&amp; ext ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
-</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">using </span>IOFilters = std::vector&lt;IOFilter&gt;;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
@@ -186,8 +184,9 @@ $(function(){initNavTree('MRIOFilters_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aclassMR_1_1IOFilter_html_aa9bab4124376f635f5e78a9784e8bf9b"><div class="ttname"><a href="../Csharp/classMR_1_1IOFilter.html#aa9bab4124376f635f5e78a9784e8bf9b">MR::IOFilter::IOFilter</a></div><div class="ttdeci">unsafe IOFilter()</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__IOFiltersGroup_html_gadd9420cabaaa71b707111e6213f0fdc6"><div class="ttname"><a href="group__IOFiltersGroup.html#gadd9420cabaaa71b707111e6213f0fdc6">MR::findFilter</a></div><div class="ttdeci">MRMESH_API std::optional&lt; IOFilter &gt; findFilter(const IOFilters &amp;filters, const std::string &amp;extension)</div><div class="ttdoc">find a corresponding filter for a given extension</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html"><div class="ttname"><a href="structMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition</b> MRIOFilters.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

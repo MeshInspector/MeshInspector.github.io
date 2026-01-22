@@ -162,7 +162,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line">    <span class="keyword">auto</span> meshBRes = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshBwithHole.stl&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Unite meshes</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = std::move( meshARes.value() );</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = std::move( meshARes.value() );</div>
 <div class="line">    mesh.addMesh( meshBRes.value() );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>

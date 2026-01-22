@@ -1,12 +1,16 @@
 var group__TunnelDetectorGroup =
 [
-    [ "MR::DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", [
-      [ "buildCoLoops", "structMR_1_1DetectTunnelSettings.html#a1179dac4ffbe7c13245c98e8833a6178", null ],
-      [ "filterEquivalentCoLoops", "structMR_1_1DetectTunnelSettings.html#a4cf5671891104927d0393e7dd378f34b", null ],
-      [ "maxIters", "structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10", null ],
-      [ "maxTunnelLength", "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace", null ],
-      [ "metric", "structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829", null ],
-      [ "progress", "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202", null ]
+    [ "MR::DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html", [
+      [ "DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html#a4eb9d16445155cd8a7d77dd01d2d1655", null ],
+      [ "DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html#a6a6a66a8b10c0a546b005e3d79ef3b8d", null ],
+      [ "DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html#a467dc1cbc289ea1265d84dffbf2c55df", null ],
+      [ "assign", "../Csharp/classMR_1_1DetectTunnelSettings.html#a24c5dc43275e330226c7422927cd463f", null ],
+      [ "buildCoLoops", "../Csharp/classMR_1_1DetectTunnelSettings.html#ab53170b70a40416d5373a5b135d2febe", null ],
+      [ "filterEquivalentCoLoops", "../Csharp/classMR_1_1DetectTunnelSettings.html#a68b007c4eb80865d90ec5a5cdc284098", null ],
+      [ "maxIters", "../Csharp/classMR_1_1DetectTunnelSettings.html#adc555b54ed2e8763296a62b1572e7a81", null ],
+      [ "maxTunnelLength", "../Csharp/classMR_1_1DetectTunnelSettings.html#a98dbdacb703cc7a992cbe17953669c9e", null ],
+      [ "metric", "../Csharp/classMR_1_1DetectTunnelSettings.html#a0b8b5c85abf9db87e7e2ad0e89b21e9f", null ],
+      [ "progress", "../Csharp/classMR_1_1DetectTunnelSettings.html#a894196449b15605733a65f2f2ca90eec", null ]
     ] ],
     [ "MR::detectBasisTunnels", "group__TunnelDetectorGroup.html#ga7dd035558540c3818d6d69afc731f953", null ],
     [ "MR::detectTunnelFaces", "group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c", null ],

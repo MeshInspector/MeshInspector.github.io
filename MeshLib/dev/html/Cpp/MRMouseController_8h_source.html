@@ -159,7 +159,7 @@ $(function(){initNavTree('MRMouseController_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;MRMesh/MRVector3.h&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// this class stores two maps:</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// 1) mouse control to mouse mode</span></div>
@@ -189,9 +189,9 @@ $(function(){initNavTree('MRMouseController_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    MRVIEWER_API <span class="keywordtype">void</span> setMouseControl( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MouseController_1_1MouseControlKey.html">MouseControlKey</a>&amp; key, MouseMode mode );</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// returns previous mouse down (if several mouse buttons are down returns position of first one)</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> Vector2i&amp; getDownMousePos()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> downMousePos_; }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; getDownMousePos()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> downMousePos_; }</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// returns current mouse position</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> Vector2i&amp; getMousePos()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> currentMousePos_; }</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; getMousePos()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> currentMousePos_; }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="comment">// returns state of mouse button</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    MRVIEWER_API <span class="keywordtype">bool</span> isPressed( MouseButton button ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// returns true if any mouse btn is down</span></div>
@@ -272,7 +272,9 @@ $(function(){initNavTree('MRMouseController_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>}</div>
 <div class="ttc" id="aclassMR_1_1MouseController_html"><div class="ttname"><a href="classMR_1_1MouseController.html">MR::MouseController</a></div><div class="ttdef"><b>Definition</b> MRMouseController.h:21</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1MouseController_1_1MouseControlKey_html"><div class="ttname"><a href="structMR_1_1MouseController_1_1MouseControlKey.html">MR::MouseController::MouseControlKey</a></div><div class="ttdef"><b>Definition</b> MRMouseController.h:25</div></div>
+<div class="ttc" id="astructMR_1_1Vector2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

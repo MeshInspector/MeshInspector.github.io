@@ -158,7 +158,7 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRGLMacro.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// represents OpenGL buffer owner, and allows uploading data in it remembering buffer size</span></div>
@@ -218,9 +218,9 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_class" href="classMR_1_1GlTexture2.html">GlTexture2</a>() : <a class="code hl_class" href="classMR_1_1GlTexture.html">GlTexture</a>( GL_TEXTURE_2D ){}</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">static</span> Vector3i ToResolution( <span class="keyword">const</span> Vector2i&amp; value )</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">static</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> ToResolution( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; value )</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> Vector3i( value.x, value.y, 1 );</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a>( value.x, value.y, 1 );</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> texImage_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a>&amp; settings, <span class="keyword">const</span> <span class="keywordtype">char</span>* arr ) <span class="keyword">override</span>;</div>
@@ -378,7 +378,7 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    <span class="comment">// generates framebuffer and associated data</span></div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    <span class="comment">// msaaPow - 2^msaaPow samples, msaaPow &lt; 0 - use same default amount of samples</span></div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="comment">// to resize: del(); gen( newSize, msaaPow );</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    MRVIEWER_API <span class="keywordtype">void</span> gen( <span class="keyword">const</span> Vector2i&amp; size, <span class="keywordtype">bool</span> copyDepth, <span class="keywordtype">int</span> msaaPow, <span class="keywordtype">bool</span> highPrecisionDepth = <span class="keyword">false</span> );</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    MRVIEWER_API <span class="keywordtype">void</span> gen( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; size, <span class="keywordtype">bool</span> copyDepth, <span class="keywordtype">int</span> msaaPow, <span class="keywordtype">bool</span> highPrecisionDepth = <span class="keyword">false</span> );</div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="comment">// binds this framebuffer as main rendering target</span></div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="comment">// clears it if `clear` flag is set</span></div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    MRVIEWER_API <span class="keywordtype">void</span> bind( <span class="keywordtype">bool</span> clear = <span class="keyword">true</span>, <span class="keywordtype">float</span> clearDepth = 1.0f );</div>
@@ -397,14 +397,14 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="keywordtype">unsigned</span> getColorTexture()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> resColorTexture_.getId(); }</div>
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    <span class="keywordtype">unsigned</span> getDepthTexture()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> resDepthTexture_.getId(); }</div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    <span class="keyword">const</span> Vector2i&amp; getSize()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> size_; }</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; getSize()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> size_; }</div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <span class="comment">// return true if texture is bound</span></div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keywordtype">bool</span> isBound()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> isBound_; }</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
 <div class="foldopen" id="foldopen00242" data-start="{" data-end="};">
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="structMR_1_1FramebufferData_1_1DrawParams.html">  242</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FramebufferData_1_1DrawParams.html">DrawParams</a></div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    {</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        Vector2i size; <span class="comment">// size of the viewport that is used in `draw` function</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> size; <span class="comment">// size of the viewport that is used in `draw` function</span></div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        WrapType wrap{ WrapType::Clamp }; <span class="comment">// wrap type of underlaying textures</span></div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        FilterType filter{ FilterType::Linear }; <span class="comment">// filter type of underlaying textures</span></div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        <span class="keywordtype">bool</span> forceSimpleDepthDraw = <span class="keyword">false</span>; <span class="comment">// force using `simpleDepth` for all fragments even if depth texture is present</span></div>
@@ -414,7 +414,7 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="comment">// draws this framebuffer using `quadObject`</span></div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    MRVIEWER_API <span class="keywordtype">void</span> draw( <a class="code hl_class" href="classMR_1_1QuadTextureVertexObject.html">QuadTextureVertexObject</a>&amp; quadObject, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1FramebufferData_1_1DrawParams.html">DrawParams</a>&amp; params ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keywordtype">void</span> resize_( <span class="keyword">const</span> Vector2i&amp; size, <span class="keywordtype">int</span> msaaPow );</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keywordtype">void</span> resize_( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; size, <span class="keywordtype">int</span> msaaPow );</div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    <span class="keywordtype">bool</span> isBound_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    <span class="keywordtype">bool</span> highPrecisionDepth_{ <span class="keyword">false</span> };</div>
@@ -444,10 +444,13 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="ttc" id="aclassMR_1_1GlTexture3_html"><div class="ttname"><a href="classMR_1_1GlTexture3.html">MR::GlTexture3</a></div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:79</div></div>
 <div class="ttc" id="aclassMR_1_1GlTexture_html"><div class="ttname"><a href="classMR_1_1GlTexture.html">MR::GlTexture</a></div><div class="ttdef"><b>Definition</b> MRGLTexture.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1QuadTextureVertexObject_html"><div class="ttname"><a href="classMR_1_1QuadTextureVertexObject.html">MR::QuadTextureVertexObject</a></div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:199</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__BoxGroup_html_ga7f9739369c171b50d576ee7cc726996f"><div class="ttname"><a href="group__BoxGroup.html#ga7f9739369c171b50d576ee7cc726996f">MR::depth</a></div><div class="ttdeci">auto depth(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along z axis</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:368</div></div>
 <div class="ttc" id="astructMR_1_1BindVertexAttribArraySettings_html"><div class="ttname"><a href="structMR_1_1BindVertexAttribArraySettings.html">MR::BindVertexAttribArraySettings</a></div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:96</div></div>
 <div class="ttc" id="astructMR_1_1FramebufferData_1_1DrawParams_html"><div class="ttname"><a href="structMR_1_1FramebufferData_1_1DrawParams.html">MR::FramebufferData::DrawParams</a></div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:243</div></div>
 <div class="ttc" id="astructMR_1_1GlTexture_1_1Settings_html"><div class="ttname"><a href="structMR_1_1GlTexture_1_1Settings.html">MR::GlTexture::Settings</a></div><div class="ttdef"><b>Definition</b> MRGLTexture.h:48</div></div>
+<div class="ttc" id="astructMR_1_1Vector2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

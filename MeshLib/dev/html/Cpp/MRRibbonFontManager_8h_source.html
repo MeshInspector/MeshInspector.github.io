@@ -155,7 +155,7 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
@@ -216,7 +216,7 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">struct </span>FontData</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    {</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        FontFile fontFile{ FontFile::RegularSC }; <span class="comment">// what file type to use for this font</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        Vector2f scaledOffset; <span class="comment">// offset that is used for each glyph while creating atlas (updates in `updateFontsScaledOffset_`), should respect font size with scaling</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> scaledOffset; <span class="comment">// offset that is used for each glyph while creating atlas (updates in `updateFontsScaledOffset_`), should respect font size with scaling</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        ImFont* fontPtr{ <span class="keyword">nullptr</span> }; <span class="comment">// pointer to loaded font, nullptr means that font was not loaded</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    };</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    std::array&lt;FontData, size_t( FontType::Count )&gt; fonts_;</div>
@@ -240,6 +240,8 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ad3f9e2f7788079bfaece40298c022f53"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">MR::RibbonFontManager::getFontByType</a></div><div class="ttdeci">MRVIEWER_API ImFont * getFontByType(FontType type) const</div><div class="ttdoc">get font by font type</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_aef885272e89706ec05cb6ab51b2eb47b"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#aef885272e89706ec05cb6ab51b2eb47b">MR::RibbonFontManager::loadAllFonts</a></div><div class="ttdeci">MRVIEWER_API void loadAllFonts(ImWchar *charRanges)</div><div class="ttdoc">load all fonts using in ribbon menu</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_af67d4ecfff6fa832444a2a214a3f471a"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">MR::RibbonFontManager::getMenuFontPath</a></div><div class="ttdeci">MRVIEWER_API std::filesystem::path getMenuFontPath() const</div><div class="ttdoc">get ribbon menu font path</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector2f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2f.html">MR::Vector2f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

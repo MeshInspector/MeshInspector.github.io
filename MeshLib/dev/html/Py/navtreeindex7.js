@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"classmrmeshpy_1_1Edges.html#a6b1c16cd7d1be937690ce07180db7538":[6,1,0,0,1,227,12],
 "classmrmeshpy_1_1Edges.html#a6cf3401b5257d04ba275a0d01e02e231":[6,1,0,0,1,227,8],
 "classmrmeshpy_1_1Edges.html#a6fc6fdadced5d2dfd984f95bde8dad63":[6,1,0,0,1,227,1],
 "classmrmeshpy_1_1Edges.html#a823882570f074b17bcc5684b62c572a1":[6,1,0,0,1,227,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#acd2792021adf28784b1d2e5fedd87ee1":[6,1,0,0,1,259,1,0,15],
 "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#ad221350b2021977bd1bff83be9e997fd":[6,1,0,0,1,259,1,0,0],
 "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#ad6c6a03f11c8944c3f0645356264ef3d":[6,1,0,0,1,259,1,0,17],
-"classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html":[6,1,0,0,1,259,1,1],
-"classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html#a088c8703ef7b2906ed608b5867425e6b":[6,1,0,0,1,259,1,1,3]
+"classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html":[6,1,0,0,1,259,1,1]
 };

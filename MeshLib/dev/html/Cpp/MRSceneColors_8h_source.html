@@ -154,11 +154,10 @@ $(function(){initNavTree('MRSceneColors_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1SceneColors.html">   12</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>SceneColors</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">enum</span> Type</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
@@ -196,26 +195,24 @@ $(function(){initNavTree('MRSceneColors_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        Count [[maybe_unused]],</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    };</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Color.html">Color</a>&amp; get( Type type );</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> set( Type type, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Color.html">Color</a>&amp; color );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> Color&amp; get( Type type );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> set( Type type, <span class="keyword">const</span> Color&amp; color );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* getName( Type type );</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a>();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a>&amp; ) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a>( <a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a>&amp;&amp; ) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_struct" href="structMR_1_1SceneColors.html">~SceneColors</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    SceneColors();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    SceneColors( <span class="keyword">const</span> SceneColors&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    SceneColors( SceneColors&amp;&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    ~SceneColors() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1SceneColors.html">SceneColors</a>&amp; instance_();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">static</span> SceneColors&amp; instance_();</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    std::array&lt;<a class="code hl_struct" href="structMR_1_1Color.html">Color</a>, size_t( Count )&gt; colors_;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    std::array&lt;Color, size_t( Count )&gt; colors_;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
-</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
-<div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:9</div></div>
-<div class="ttc" id="astructMR_1_1SceneColors_html"><div class="ttname"><a href="structMR_1_1SceneColors.html">MR::SceneColors</a></div><div class="ttdef"><b>Definition</b> MRSceneColors.h:13</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

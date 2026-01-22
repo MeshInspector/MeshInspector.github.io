@@ -1,191 +1,224 @@
 var group__HistoryGroup =
 [
-    [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", [
-      [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30", null ],
-      [ "action", "classMR_1_1ChangeObjectColorAction.html#afe3b10ca2078780fe08c4e06a3cb8eb3", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectColorAction.html#a8b2119cba575337b8ff6ef6ed838ddad", null ]
+    [ "MR::ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html", [
+      [ "ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a52b89c279f623118bf4fc13e4f082af2", null ],
+      [ "ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a4b06705d9701327dfc2a508e5fdd6991", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a1205b93a463ecbdf48d3b77e2b4e9ddd", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a38d2b0b98291fe3fc681f50ca5b214ac", null ]
     ] ],
-    [ "MR::ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html", [
-      [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#aec7da8b61591c85b8e910d1411bdaa56", null ],
-      [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#aff390880192bf2fb3e98fc5ad7f1243d", null ],
-      [ "action", "classMR_1_1ChangeFacesColorMapAction.html#a77ea732b203bb29d780236576dec2923", null ],
-      [ "heapBytes", "classMR_1_1ChangeFacesColorMapAction.html#aeee3e56ac0c488d99b1fb638817c0a8f", null ]
+    [ "MR::ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html", [
+      [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#ac587b55f7a2b46cc8831cb47d404dde9", null ],
+      [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a24f43266b629792387b69ce1ec72be4b", null ],
+      [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a7f32af5dab37f6bd9e3118e80f64ff07", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a78c7c14458a74d3df69b6f5f15c149c8", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a69e31acc2d062db16a163aa2c9ac2cee", null ]
     ] ],
-    [ "MR::ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html", [
-      [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92", null ],
-      [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#aa8ddee0413ffd1f5443c24e425457f07", null ],
-      [ "action", "classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2", null ],
-      [ "heapBytes", "classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327", null ]
+    [ "MR::ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html", [
+      [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#ac47e3ea8a49270750ce237aab9b48a77", null ],
+      [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a3fd652887080b57b506147124b6e1976", null ],
+      [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#aec33ae745ec339cd519461dca0ed427e", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a23aa373dabe7a51b693db16e5c98fd27", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a9a09e75736baa78344ae40822541c80e", null ]
     ] ],
-    [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", [
-      [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2", null ],
-      [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a5926f12f23460add64c9ab4b0859f90b", null ],
-      [ "action", "classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4", null ],
-      [ "heapBytes", "classMR_1_1ChangeColoringType.html#a4c9d248392f35a9e929ab4dd107ff7d2", null ]
+    [ "MR::ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html", [
+      [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#a981d74a6efd4a31b38bacbf13612a218", null ],
+      [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#a5cc1fdcc39882fa6a5ced4e1d0c20c16", null ],
+      [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#aa72dc4a8619ca9ea158b1c835f875312", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeColoringType.html#affc2b2dced5724b57e47a053bcdb4051", null ]
     ] ],
-    [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", [
-      [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61", null ],
-      [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#a95aa4293570939f1ab9d6f90ac117dad", null ],
-      [ "action", "classMR_1_1ChangeMeshAction.html#ac10a0aa665f6874a187cfb802dcb7dc8", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshAction.html#ad0dbdadda7bb2d160c77aa14e2eea201", null ]
+    [ "MR::ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html", [
+      [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#aa60d87ffe54b088043be20c82631f10f", null ],
+      [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#abd0aa7fda7a5f6d3b9e5e34787efd4a3", null ],
+      [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#a34a30b62b864cf70e976c746887c0a13", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshAction.html#acb5cf3017e018215d15c849e7e62df01", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshAction.html#a3a0c140ac0008e670385caa55b722468", null ]
     ] ],
-    [ "MR::ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html", [
-      [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html#aff9496937d0c0fddbd3ed701edb82ab5", null ],
-      [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html#a798958009119de0cd81f8b3136c963fe", null ],
-      [ "action", "classMR_1_1ChangeMeshUVCoordsAction.html#a8251a4c060d3538d58564c3429c9afda", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshUVCoordsAction.html#a8ada93551abd3f590f7e4a2d9c093351", null ]
+    [ "MR::ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html", [
+      [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a778f40b72009d52faf061f0edb5e2d85", null ],
+      [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a82f0d8024e59e071029998e351aeb58d", null ],
+      [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a5221d19d7afae29376f23e783522938f", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a034c3649d41d6209ba2996eda8ab09fe", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#ab2624ffac8c077cea030cd105e7f9129", null ]
     ] ],
-    [ "MR::ChangeTextureAction", "classMR_1_1ChangeTextureAction.html", [
-      [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152", null ],
-      [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e", null ],
-      [ "action", "classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6", null ],
-      [ "heapBytes", "classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d", null ]
+    [ "MR::ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html", [
+      [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#a599fadaa33df41a2ee6b0f9e6b1155ba", null ],
+      [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#ab76415f665557ec89016f2a9e4529892", null ],
+      [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#a7ccb8400afe8d62f0d0c956b10b2d172", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeTextureAction.html#affdfa1421d10ad05ced49aef622e82dd", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeTextureAction.html#a9e3b1448167963f74ef5d13c2a8c06a0", null ]
     ] ],
-    [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", [
-      [ "ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html#a085ebc78393d430d040423cca12c98f7", null ],
-      [ "ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html#a4d01985472f7bf85151b606e14c271db", null ],
-      [ "action", "classMR_1_1ChangeMeshPointsAction.html#a6e16c0785949b651b455323c1eb41b87", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshPointsAction.html#ad7423777ecd9e793cc148677e49e5e4d", null ]
+    [ "MR::ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html", [
+      [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#af0e7b70fa483ffb738e67e34aa62e610", null ],
+      [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#ad786f2b6d886d0dacbca31f9480a0096", null ],
+      [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#a679a02eb61549ca482715fb3f03cc3d4", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#ad2f4f73282e8362dbf69bd605947f295", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#a18d7f347674c524a5bc68f90cd26a21b", null ]
     ] ],
-    [ "MR::ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html", [
-      [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#aa8d94a8b87ac3a73dc720cb294e1553e", null ],
-      [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#a9e95b80c6d433e60bc2565a05cffddff", null ],
-      [ "action", "classMR_1_1ChangeMeshTopologyAction.html#a390c7099109f9817a3502210630fa228", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshTopologyAction.html#ac1782bd01a600b949c2bd731b603918b", null ]
+    [ "MR::ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html", [
+      [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#ac697e0d5a66bd5665adc0faab144b146", null ],
+      [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#ad92592e3a5520ae212a1257326e12d7b", null ],
+      [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#a76a5e9c7958b6ba6960d3ffdfcb4adb5", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#ac0bae2d5d877dccdb4b9b46fbc740664", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#aaacdc03b4949ebce08a8bf901f20172a", null ]
     ] ],
-    [ "MR::ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html", [
-      [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab088029d6c5d868e8a5de7216aafe8ab", null ],
-      [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab6aa5335ed7975682a4f23ccfbd8d5f2", null ],
-      [ "action", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a74f10a919c46c00ffa6dc5bbfe354000", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a26005c217798c440b5d38b82e747c9df", null ]
+    [ "MR::ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html", [
+      [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#aa6df06c2a0f2a8ba93ac54d75af5c8e5", null ],
+      [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#abe9c4d69d232902b97d48107c592560c", null ],
+      [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a1e103384cee2a029f63c2e47fe473054", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a1377c4ec5de1b799f9db318967286e30", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a0e80c8ee5a26457aec9fc4094f35eeb0", null ]
     ] ],
-    [ "MR::ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html", [
-      [ "ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html#a802c34ae621a5ebc85ae77caef5d7112", null ],
-      [ "ChangeMeshDataAction", "classMR_1_1ChangeMeshDataAction.html#adde79f1c602a61f0a33b7b9a02c6200f", null ],
-      [ "action", "classMR_1_1ChangeMeshDataAction.html#a13d40bda09d4c09c6c66cccc88b61361", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshDataAction.html#a6fa4f260bd2f49a20d68064d7238e9d9", null ]
+    [ "MR::ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html", [
+      [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a8e81a27b0800e1b61e45e48a861ba9ba", null ],
+      [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a5cad6fc3e613cdfd19d3712b94ea8bfa", null ],
+      [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a2c65232d6d1dde587b54dab497c59b59", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a660f93b323bf38d2a50096ddef2602c5", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a4f73a8d6f982852ced02566dbfe24f1c", null ]
     ] ],
-    [ "MR::PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html", [
-      [ "PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html#a599df9d6ebfab0e276d415c75438e2de", null ],
-      [ "action", "classMR_1_1PartialChangeMeshDataAction.html#a846fb0d5a0466f922b3fd7fca3c1b516", null ],
-      [ "heapBytes", "classMR_1_1PartialChangeMeshDataAction.html#a0506227ed109f9b28b74220235172ddc", null ]
+    [ "MR::PartialChangeMeshDataAction", "../Csharp/classMR_1_1PartialChangeMeshDataAction.html", [
+      [ "PartialChangeMeshDataAction", "../Csharp/classMR_1_1PartialChangeMeshDataAction.html#ae2cdd7997f342d4d349a4e36d92936c1", null ],
+      [ "PartialChangeMeshDataAction", "../Csharp/classMR_1_1PartialChangeMeshDataAction.html#a6fb0b3199a9db815b42304cd9696f11f", null ],
+      [ "action", "../Csharp/classMR_1_1PartialChangeMeshDataAction.html#a8255765ae83c4e2520dff85d5a0b4a4c", null ],
+      [ "assign", "../Csharp/classMR_1_1PartialChangeMeshDataAction.html#a8994ed8d60ac529bd9bf0411b2c65570", null ]
     ] ],
-    [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", [
-      [ "ChangeNameAction", "classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3", null ],
-      [ "action", "classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953", null ],
-      [ "heapBytes", "classMR_1_1ChangeNameAction.html#a78f9dfad757f976bb7af6f93bbfd2e74", null ]
+    [ "MR::ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html", [
+      [ "ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html#a1d82b6634a26cd7a288d82796dfc865a", null ],
+      [ "ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html#a3f5ab9285c0c311f54bee7b3843e0d30", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeNameAction.html#a31fe7a1e823a6eafac64e1f938d127e4", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeNameAction.html#af1cfde16ecefcfcd786763a416f04d16", null ]
     ] ],
-    [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", [
-      [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html#a1fb57757d3858115a5eb58acce570d82", null ],
-      [ "action", "classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectAction.html#a74d98addc33191161e4cf6b9adaa55f2", null ]
+    [ "MR::ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html", [
+      [ "ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html#a17ada46c73a48bca8f75c4863f38bfc8", null ],
+      [ "ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html#a7ebf8b2defd258d5327a416bd9ccfbe1", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeObjectAction.html#a7ee70cf340528a31e91524ecc01bcfae", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeObjectAction.html#a1eba7efd2915fa0eddd1f7740e5e676a", null ]
     ] ],
-    [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", [
-      [ "ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html#a577d817010b8c025c743ede618924232", null ],
-      [ "ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html#a43ca44d5dd8461cb0a3a7bafb512a682", null ],
-      [ "action", "classMR_1_1ChangeVisualizePropertyAction.html#a6aed09dd3eb8747f16d7d1b3f4c016ec", null ],
-      [ "heapBytes", "classMR_1_1ChangeVisualizePropertyAction.html#a82fbcde1a6b6a67ddd9f760b0c43cf87", null ]
+    [ "MR::ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html", [
+      [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#aeec67bea2df66aad38b17fddfa9aa493", null ],
+      [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a0010ef336bfd42ab265bbc00a3a384c4", null ],
+      [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a7adf727aef3b095f954f99a91f8013db", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a8411c0914e34a91b13f191bbdc38de4d", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a8346a7f2f8b3ec5f8aaeaed7b91a48a9", null ]
     ] ],
-    [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", [
-      [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9", null ],
-      [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#a1f6eeb88304ee19cffcc8662646ee76f", null ],
-      [ "action", "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectSelectedAction.html#a3755cc9192950a33d25ab548bc24ccc9", null ]
+    [ "MR::ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html", [
+      [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#aec1c6d3f25a8b166e8992589eac677d2", null ],
+      [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#a0336eb6acca1c5e62112603edabeb90b", null ],
+      [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#afac2f44e994fd9c1cd1db4ffcb12be3e", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#a962cf2821b88d1c79c2616731f4195be", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#ac4363eedf45529fd9830da7e8f540600", null ]
     ] ],
-    [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", [
-      [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7", null ],
-      [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65", null ],
-      [ "action", "classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01", null ]
+    [ "MR::ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html", [
+      [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a2ffe2df2e28d2e2e55fd0d3d067769e2", null ],
+      [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#ad8a9cf06aad75415112039e29e264912", null ],
+      [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a299edb2b589199a0d3d17a40c77b90cd", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a02a09f38fdad838c77e7c9d17f02fe70", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a1695eadabc069e29eeee2652701f0da5", null ]
     ] ],
-    [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", [
-      [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a36b0016bc6e04bb6c94996e9c8adbea2", null ],
-      [ "action", "classMR_1_1ChangePointCloudAction.html#a618406d420de41e825205cae3f53c9c6", null ],
-      [ "heapBytes", "classMR_1_1ChangePointCloudAction.html#aea2ce2e41b3850a18e72e5766ccb86f5", null ]
+    [ "MR::ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html", [
+      [ "ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html#adfc174c2d35dbf7c48817ce9a5b90a3d", null ],
+      [ "ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html#a62c92b41514e59277dcd4322971107b3", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePointCloudAction.html#a1ad60546bf27a07549a8f5d999929ea4", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePointCloudAction.html#ad071d98392da491a0045ab32b34226ce", null ]
     ] ],
-    [ "MR::ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html", [
-      [ "ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html#a7e99acd63b670299af8dc73a771d1ac3", null ],
-      [ "ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html#a9e9d9d96a33fdd65bdd65f038977fb3a", null ],
-      [ "action", "classMR_1_1ChangePointCloudPointsAction.html#ad8d1da6c3caadd31cd4053fa2924e372", null ],
-      [ "heapBytes", "classMR_1_1ChangePointCloudPointsAction.html#ac066d3dab32b1ce9ab3d604be8a48afb", null ]
+    [ "MR::ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html", [
+      [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a5e008b332b248ee55fa6843e93bb8771", null ],
+      [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#aa54e142d96b5b7bce3dd92518cf77337", null ],
+      [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#aa09c3f9bc042c67e0bb7d0ec3eb50dee", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a99c78e51614ea1ec44c4c7748752ec57", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#afe271937177e2a9aa52f513b8975a09f", null ]
     ] ],
-    [ "MR::ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html", [
-      [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a2a95838eed1970b6d1b9fe6009128d7f", null ],
-      [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a6dae80316417b70ee98f67ecf0477677", null ],
-      [ "action", "classMR_1_1ChangeOnePointInCloudAction.html#adbe79dc8bbe3a4158e22e912c78dfcd8", null ],
-      [ "heapBytes", "classMR_1_1ChangeOnePointInCloudAction.html#a90c1e3a545b13734142bde8638b3ee63", null ]
+    [ "MR::ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html", [
+      [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a976ad1472a2448a00ef650ced1670db2", null ],
+      [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a887eab98f7a0ea7a969ce5b92c05b580", null ],
+      [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#afad5554e1b5248db94bdd9eacd633892", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#ac4b36c3c75fbbd438563cfd9c459c9fb", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a706d61f6a90f16f47cf8599453bfec3c", null ]
     ] ],
-    [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", [
-      [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e", null ],
-      [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#a763106472cb85bcb84e8b3a97ad638d6", null ],
-      [ "action", "classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d", null ],
-      [ "heapBytes", "classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e", null ]
+    [ "MR::ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html", [
+      [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#aa7a2aeacaca06768fcba73c554ba8531", null ],
+      [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#abb91888c6ea678d0d22fc80c533440b7", null ],
+      [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#afbef521bc410d949f068fbcbe62ae144", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#aa2251976886e04940bc79fbf6860e9e4", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#acc9e94c29fc415268a4680ee53dd7101", null ]
     ] ],
-    [ "MR::ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html", [
-      [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#a56b040ed71f05bfbf64a540bf3b4bf3d", null ],
-      [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#aa2642a2de919be105852f8ea69084eac", null ],
-      [ "action", "classMR_1_1ChangeOneNormalInCloudAction.html#aafd6fc62e7b35ee903d98899500b8dc9", null ],
-      [ "heapBytes", "classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9", null ]
+    [ "MR::ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html", [
+      [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a522a6b51a7d4f4191ee5b520f47cb490", null ],
+      [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a1dd8fdfbf00d37baae4964a45107d571", null ],
+      [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#afbb99fe525e8bcf3dfab0cf7fc81cccd", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a871b173d5d105fe3e78e112abb1297a6", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#acd2e0f73ed9347e1630fec4039be5085", null ]
     ] ],
-    [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", [
-      [ "ChangePolylineAction", "classMR_1_1ChangePolylineAction.html#a0e79a47922ed59fc36b1a8e44df24fa4", null ],
-      [ "ChangePolylineAction", "classMR_1_1ChangePolylineAction.html#adafafb09d06cb25a970476fdb3169be0", null ],
-      [ "action", "classMR_1_1ChangePolylineAction.html#aa4ff323c3b6e6f7a7fdeeefbc5142f98", null ],
-      [ "heapBytes", "classMR_1_1ChangePolylineAction.html#a6535b7267f88efaea117f9461932612e", null ]
+    [ "MR::ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html", [
+      [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a2398f8f48ebed86b0c6341028a016a10", null ],
+      [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a89798a5121b511a164308c1ca01a6a0b", null ],
+      [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a8ae4983678d403b2c1f44926343102b2", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePolylineAction.html#ad88603be79555a236a5cc94deacf77ae", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePolylineAction.html#ad90fcb71e497b1ad48f936335b21834c", null ]
     ] ],
-    [ "MR::ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", [
-      [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html#a506a1c3421dec57c85ee978ba69a0591", null ],
-      [ "action", "classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1", null ],
-      [ "heapBytes", "classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24", null ]
+    [ "MR::ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html", [
+      [ "ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#a5962de762f36f785b428e2ff48a8c4b7", null ],
+      [ "ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#aee038ce52a0d541c465d01e50ddb899b", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#a4f7d7e5b62810fd511e9e1d32ceb1200", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#aa45539cbca541218cebbf29d9b7a1a63", null ]
     ] ],
-    [ "MR::ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html", [
-      [ "ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html#aab07f50bc5fb59a1da47d13e888a1256", null ],
-      [ "action", "classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad", null ],
-      [ "heapBytes", "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef", null ]
+    [ "MR::ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html", [
+      [ "ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#ab076f06e93a6de6f584bb00b28669614", null ],
+      [ "ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a33b56b2e0051b9e874ddb934311a1958", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a076864d17c825043e1db7aba87d5fd52", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a51101fe0b0556bf3af85821667bd02af", null ]
     ] ],
-    [ "MR::ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html", [
-      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#ad3c95f6ed93a9497f7a959a770ecc788", null ],
-      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a85c6de61b6597e042e5aef9c02ecf52b", null ],
-      [ "action", "classMR_1_1ChangeOnePointInPolylineAction.html#a38ca71433b431c0f9253e2140cea35ef", null ],
-      [ "heapBytes", "classMR_1_1ChangeOnePointInPolylineAction.html#a6fa396d1c46311032a718c9eaf3f34bc", null ]
+    [ "MR::ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html", [
+      [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#a5be505a4256e3d3d31985508f47ecb42", null ],
+      [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#a51d591fa750cb9b5938fa03a65788f69", null ],
+      [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#aecf2ccea7941f87c6ef6bf42377850a9", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#aaddf77920eb8860879f0702f7ea1fb57", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#a43f59d7b7d001428dda48d1100edff17", null ]
     ] ],
-    [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", [
-      [ "ChangeScaleAction", "classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075", null ],
-      [ "action", "classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca", null ],
-      [ "heapBytes", "classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1", null ]
+    [ "MR::ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html", [
+      [ "ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html#a2764e98ddb249e87b5c613fd806460af", null ],
+      [ "ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html#adaef4c9c3e6472638171e008a86ecb4b", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeScaleAction.html#ab1674053823891c4410791c50ec58af2", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeScaleAction.html#a37cd5443fb3803538d7818697e7106f7", null ]
     ] ],
-    [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", [
-      [ "ChangeSceneAction", "classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280", null ],
-      [ "action", "classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0", null ],
-      [ "heapBytes", "classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2", null ]
+    [ "MR::ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html", [
+      [ "ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html#aef840704022a06a4c9f2382bb031e63b", null ],
+      [ "ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html#a44ec1ce57a0843499c0a84bcbb2019f1", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeSceneAction.html#ac3b337d9f5baaf934dcb400d0462ee4a", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeSceneAction.html#aaf0e75e81f7c9c9f719bb26ecfb94968", null ]
     ] ],
-    [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", [
-      [ "ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542", null ],
-      [ "action", "classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11", null ],
-      [ "heapBytes", "classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50", null ]
+    [ "MR::ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html", [
+      [ "ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#ae081a547586e38a6c26918ef7db27619", null ],
+      [ "ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#a479d8992d02eafb170dfdf5bac65ae50", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#a08b18f713923fd48160d16a8fac99781", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#adbd933f8454892ca124ce251e0078f24", null ]
     ] ],
-    [ "MR::ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html", [
-      [ "ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html#a8f903abfb85e2e7bad897c77d021e648", null ],
-      [ "ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html#ae58170f16a80a2b128e01cf679d019ee", null ],
-      [ "action", "classMR_1_1ChangeMeshFaceSelectionAction.html#a5bbadadc5288e79bcd993ee992afaf84", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshFaceSelectionAction.html#a064f2f6dcad2b8ed0b16957b9bbb248f", null ]
+    [ "MR::ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html", [
+      [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#af930a33e9a72e8059440b7e0221df99e", null ],
+      [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a114c230cdf95ada244d25b7f899bc188", null ],
+      [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a978a54519360173be212027550750c0a", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a1b29a5d063cd9bd2eca85cb1a201e4a0", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#aae2a73a023b238172e6048c07b7250da", null ]
     ] ],
-    [ "MR::ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html", [
-      [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a", null ],
-      [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a9cce7322e651ade9e044f62b3de92ff6", null ],
-      [ "action", "classMR_1_1ChangeMeshEdgeSelectionAction.html#ac9c2e37493f65f8185015b96da5497a2", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979", null ]
+    [ "MR::ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html", [
+      [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a31d359806339041f958510a09537a8da", null ],
+      [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#afbb758792dcd12d2715df0a588c5b796", null ],
+      [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#ae258d1de6d81ace5845d1bf0a61920f5", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a4acf78b9d6737bbf5676ab67f78217b7", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#abc5e84daad27257241215a9389594b4e", null ]
     ] ],
-    [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", [
-      [ "ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html#a35abf0006f1f9dde31def6af394af1ae", null ],
-      [ "ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html#ac0652611ceda3ea880e9a537d6d5760c", null ],
-      [ "action", "classMR_1_1ChangeMeshCreasesAction.html#a1dcddeee79326fa1a00c79904fb4a1b7", null ],
-      [ "heapBytes", "classMR_1_1ChangeMeshCreasesAction.html#a850dbf46650c86a5fe37b4b876fe5e43", null ]
+    [ "MR::ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html", [
+      [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#a5fa018f1f7a0f760f13db53a286a78b5", null ],
+      [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#ac90858a746722f9a3f5843d76095bcfc", null ],
+      [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#ad494599517270335eba39479dc8f7c87", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#a1854c6f67cc7b0aed4a1c140864824ec", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#a5f3bdd88cc6cfaacc3f617952f66c0ed", null ]
     ] ],
-    [ "MR::ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", [
-      [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9", null ],
-      [ "action", "classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c", null ],
-      [ "heapBytes", "classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b", null ]
+    [ "MR::ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html", [
+      [ "ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#abae9fe805d3d68140d0d9ebafaf49573", null ],
+      [ "ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#af012712edbf7e66018ef32c511a51cae", null ],
+      [ "action", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#a84d4c8a2f8d3878fcd88ce280badc358", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#af6b4fe68af3c08fe32f3236fc14b92eb", null ]
     ] ],
     [ "MR::ChangeValue< T >", "classMR_1_1ChangeValue.html", [
       [ "ChangeValue", "classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1", null ],
@@ -198,41 +231,54 @@ var group__HistoryGroup =
       [ "action", "classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43", null ],
       [ "heapBytes", "classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303", null ]
     ] ],
-    [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
-      [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b", null ],
-      [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#ac6aa69f1f7afe95ad6453c38ba4fb80e", null ],
-      [ "action", "classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2", null ],
-      [ "heapBytes", "classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24", null ]
+    [ "MR::ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html", [
+      [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892", null ],
+      [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#a4e7b80b28ca3f0265550998e7d40d52f", null ],
+      [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#a79b7a6f9fab81ff6c4c7694b332ebd7f", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeXfAction.html#a41ccc6603a8b6a7d46cedf10de7f570b", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeXfAction.html#ae815e9391aa0939f6e52ef2fa566b74e", null ]
     ] ],
-    [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", [
-      [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4", null ],
-      [ "action", "classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07", null ],
-      [ "filter", "classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850", null ],
-      [ "heapBytes", "classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1", null ]
+    [ "MR::CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html", [
+      [ "CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html#a700a0fa9718ca688df2b3ab52dae6824", null ],
+      [ "CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html#aee0c2b74bb5b1590616ea67a38a34884", null ],
+      [ "action", "../Csharp/classMR_1_1CombinedHistoryAction.html#ace723fe0552e381f472a4cafa459a886", null ],
+      [ "assign", "../Csharp/classMR_1_1CombinedHistoryAction.html#a2f2013983c21cff27e1c97f5bc39374c", null ],
+      [ "filter", "../Csharp/classMR_1_1CombinedHistoryAction.html#a7198d283a3b62d0fbafe42a05443108f", null ],
+      [ "getStack", "../Csharp/classMR_1_1CombinedHistoryAction.html#a85b30407745962bc5a2675fb77325ef9", null ]
     ] ],
-    [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
-      [ "action", "classMR_1_1HistoryAction.html#aecfce349736beaf17a23a6817c86f3bb", null ],
-      [ "heapBytes", "classMR_1_1HistoryAction.html#ad6df54da6a63ed83f15053507e8569de", null ]
+    [ "MR::HistoryAction", "../Csharp/classMR_1_1HistoryAction.html", [
+      [ "action", "../Csharp/classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc", null ]
     ] ],
-    [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
-    [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
-    [ "MR::PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", [
-      [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#ad914ee31862cd630b0890770d0191df2", null ],
-      [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#aed7f35076e8508987ce40affd1d98e1c", null ],
-      [ "action", "classMR_1_1PartialChangeMeshAction.html#ac0f4b54184a26f86a0cc6d39d093506e", null ],
-      [ "heapBytes", "classMR_1_1PartialChangeMeshAction.html#a677e3ef484c3decb94df9b1ce351cfdf", null ]
+    [ "MR::CmpOld", "../Csharp/classMR_1_1CmpOld.html", [
+      [ "CmpOld", "../Csharp/classMR_1_1CmpOld.html#a4d6411890e1690d764794e3c796a3319", null ],
+      [ "CmpOld", "../Csharp/classMR_1_1CmpOld.html#a6630134d4e8b0999e1ece83d49333cd1", null ],
+      [ "assign", "../Csharp/classMR_1_1CmpOld.html#a73142ce0b18c4dc2aaa63eb9006e2a03", null ]
     ] ],
-    [ "MR::PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html", [
-      [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#a0bc8a65756e998c00f846e7117d27884", null ],
-      [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#abc03fa024908d0b25fe39b99a886a7ee", null ],
-      [ "action", "classMR_1_1PartialChangeMeshPointsAction.html#aa9ae6ebb348f154542056d5d1aa82fdd", null ],
-      [ "heapBytes", "classMR_1_1PartialChangeMeshPointsAction.html#a04b08cc0eb6bacb70a04801d0a27111f", null ]
+    [ "MR::SetNew", "../Csharp/classMR_1_1SetNew.html", [
+      [ "SetNew", "../Csharp/classMR_1_1SetNew.html#ae08f8d7caec2c64f01c1ea85707c06df", null ],
+      [ "SetNew", "../Csharp/classMR_1_1SetNew.html#afce5f6bb6bbbd0222b6aea6e7714a5d8", null ],
+      [ "assign", "../Csharp/classMR_1_1SetNew.html#a84cd19e7b2373576caf4ae7c62514947", null ]
     ] ],
-    [ "MR::PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html", [
-      [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a401938742b88492ed12d3e7509eed8bc", null ],
-      [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a106d313b24a6ed0b2cc1f7f65bdf2674", null ],
-      [ "action", "classMR_1_1PartialChangeMeshTopologyAction.html#abcd08e02fc94e72034e4e2bc1371262b", null ],
-      [ "heapBytes", "classMR_1_1PartialChangeMeshTopologyAction.html#a61706f60c84d69b27d3acf9fdc0673ef", null ]
+    [ "MR::PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html", [
+      [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#a30de1b78ff666a725347b449e06607f1", null ],
+      [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#ae9b50fc2bece8a066334d3e5b4d0ea7a", null ],
+      [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#ad2d0abad0e0e239ed0ec0133326d4c22", null ],
+      [ "action", "../Csharp/classMR_1_1PartialChangeMeshAction.html#a82e55fc67bd55776b69670dda6e70a59", null ],
+      [ "assign", "../Csharp/classMR_1_1PartialChangeMeshAction.html#acca7c2d4769eeb4a275351002f2e58c3", null ]
+    ] ],
+    [ "MR::PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html", [
+      [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a73ca11aa96a7964948d458cc576ab80b", null ],
+      [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a91cd182ed287806ec995bb8eefe39d25", null ],
+      [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a846ef4575fe0b0c0caa9c7ac8cd8132f", null ],
+      [ "action", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a972de5014bbf59a4e6f50ae0bb2a0be7", null ],
+      [ "assign", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a00bc088134919ea3d5c4718c68457efd", null ]
+    ] ],
+    [ "MR::PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html", [
+      [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a998cb12314dc78b7e25aeffb28fc3580", null ],
+      [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a242c0344fc8754938a3720673b96b3d7", null ],
+      [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#ab29fe92190d1c5cf8d63be290af6b44e", null ],
+      [ "action", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a52f036c5e111b16431f57f68a69fe733", null ],
+      [ "assign", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a20fa5594fb46e2591d7f7747efa526a3", null ]
     ] ],
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", [
       [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
@@ -269,35 +315,44 @@ var group__HistoryGroup =
       [ "action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
       [ "heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ]
     ] ],
-    [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", [
-      [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e", null ],
-      [ "action", "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0", null ],
-      [ "heapBytes", "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018", null ]
+    [ "MR::ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html", [
+      [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#a0a8d020b6c8c67de77b8ae5b40a95902", null ],
+      [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#ac3a9b65274e4da8253ace748a75e970d", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeIsoAction.html#a96c5e06b6962b3b23cce2734cec81a14", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeIsoAction.html#a0156ca16e9dbe05a2bbcb02db951205e", null ]
     ] ],
-    [ "MR::ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html", [
-      [ "ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409", null ],
-      [ "ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8", null ],
-      [ "action", "classMR_1_1ChangeDualMarchingCubesAction.html#a8b78a3f2b080f0a1e799df8e307e2970", null ],
-      [ "heapBytes", "classMR_1_1ChangeDualMarchingCubesAction.html#a216a084fc5c2ab35560b626aec0715f5", null ]
+    [ "MR::ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html", [
+      [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#aba246c956e4a86c2125b1617ba03ca39", null ],
+      [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#a91f16ec799ecbf072ede681a7f7a9122", null ],
+      [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#a538fdd76c6ac25ab39a76a2e3ad015d8", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#ac75375da5fbd1e7c9fcfbc6190db272d", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#af8df905fde72b278b3c4ab314696c6fc", null ]
     ] ],
-    [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", [
-      [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4", null ],
-      [ "action", "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90", null ],
-      [ "heapBytes", "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3", null ]
+    [ "MR::ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html", [
+      [ "ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19", null ],
+      [ "ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#a2e8f107ef50ad7ba5b4355c5f4d4a49d", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#a745e66b7df041caacaee35851d7e17a9", null ]
     ] ],
-    [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", [
-      [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249", null ],
-      [ "action", "classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5", null ],
-      [ "heapBytes", "classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d", null ]
+    [ "MR::ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html", [
+      [ "ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a5f41e4016c83cca53e4504d00fb27225", null ],
+      [ "ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html#af452f51e142c048f5d58098116b72a88", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a6e5d54a9584c4d617a5f8904636403af", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a75e0f98ddf289380fbf27895d6edd196", null ]
     ] ],
-    [ "MR::ChangeGridAction", "classMR_1_1ChangeGridAction.html", [
-      [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba", null ],
-      [ "action", "classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62", null ],
-      [ "heapBytes", "classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328", null ]
+    [ "MR::ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html", [
+      [ "ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html#a04d96001c2ddfed783078a533276f3df", null ],
+      [ "ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html#afc8f136abd2318ff4919399cd6e07e40", null ],
+      [ "action", "../Csharp/classMR_1_1ChangeGridAction.html#ad3847e7fef1aa9074696750b82fb8041", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangeGridAction.html#a18af0eb3d350566f157779cefc3dde76", null ]
     ] ],
-    [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", [
+    [ "MR::ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html", [
+      [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a7c97719d888ca0660e62cd6b8d7bddb3", null ],
+      [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a4415dbb47a28341c589cec0b8e663598", null ],
       [ "ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
+      [ "action", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a6057cf602ef3a35238b374a070de3fde", null ],
       [ "action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
+      [ "assign", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a4512ecdae4e84b9075a24176a4a76a9c", null ],
       [ "heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ]
     ] ],
     [ "MR::ChangVoxelSelectionAction::action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],

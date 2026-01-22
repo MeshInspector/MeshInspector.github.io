@@ -174,7 +174,7 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> box = mesh-&gt;computeBoundingBox();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
-<div class="line">    ffDeformer.init( MR::Vector3i::diagonal( 3 ), box );</div>
+<div class="line">    ffDeformer.init( <a class="code hl_functionRef" href="./Csharp/structMR_1_1Vector3i.html#a3cbd914c674cc15b8e2370c86bfd344c">MR::Vector3i::diagonal</a>( 3 ), box );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Move some control points of the grid to the center</span></div>
 <div class="line">    ffDeformer.setRefGridPointPosition( { 1, 1, 0 }, box.center() );</div>
@@ -200,6 +200,7 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1FreeFormDeformer_html"><div class="ttname"><a href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html_a3cbd914c674cc15b8e2370c86bfd344c"><div class="ttname"><a href="./Csharp/structMR_1_1Vector3i.html#a3cbd914c674cc15b8e2370c86bfd344c">MR::Vector3i::diagonal</a></div><div class="ttdeci">static MR.Vector3i diagonal(int a)</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
@@ -307,21 +308,21 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
-<div class="line">            MR.Box3f box = mesh.getBoundingBox();</div>
+<div class="line">            <a class="code hl_structRef" href="./Csharp/structMR_1_1Box3f.html">MR.Box3f</a> box = mesh.getBoundingBox();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Construct deformer on mesh vertices</span></div>
 <div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR.FreeFormDeformer</a> ffDeformer = <span class="keyword">new</span>(mesh);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
-<div class="line">            ffDeformer.init(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i.diagonal(3), box);</div>
+<div class="line">            ffDeformer.init(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>.diagonal(3), box);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Move some control points of the grid to the center</span></div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i(1, 1, 0), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i(1, 1, 2), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i(0, 1, 1), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i(2, 1, 1), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i(1, 0, 1), box.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3i(1, 2, 1), box.center());</div>
+<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>(1, 1, 0), box.center());</div>
+<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>(1, 1, 2), box.center());</div>
+<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>(0, 1, 1), box.center());</div>
+<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>(2, 1, 1), box.center());</div>
+<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>(1, 0, 1), box.center());</div>
+<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3i.html">Vector3i</a>(1, 2, 1), box.center());</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Apply the deformation to the mesh vertices</span></div>
 <div class="line">            ffDeformer.apply();</div>
@@ -340,7 +341,9 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">}</div>
 <div class="ttc" id="aclassMR_1_1MeshSave_1_1BinaryStlSaver_html"><div class="ttname"><a href="./Cpp/classMR_1_1MeshSave_1_1BinaryStlSaver.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
+<div class="ttc" id="astructMR_1_1Box3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1Box3f.html">MR::Box3f</a></div></div>
 <div class="ttc" id="astructMR_1_1MeshLoad_1_1MeshLoader_html"><div class="ttname"><a href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="./Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

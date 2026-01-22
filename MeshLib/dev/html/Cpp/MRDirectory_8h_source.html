@@ -153,7 +153,7 @@ $(function(){initNavTree('MRDirectory_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
@@ -199,7 +199,7 @@ $(function(){initNavTree('MRDirectory_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordflow">return</span> <a class="code hl_struct" href="structMR_1_1DirectoryIterator.html">DirectoryIterator</a>{ std::filesystem::directory_iterator( sd.dir, sd.ec ), sd.ec };</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>[[nodiscard]] <span class="keyword">inline</span> std::filesystem::directory_iterator end( <span class="keyword">const</span> Directory &amp; )</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>[[nodiscard]] <span class="keyword">inline</span> std::filesystem::directory_iterator <a class="code hl_functionRef" href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">end</a>( <span class="keyword">const</span> Directory &amp; )</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
@@ -209,12 +209,12 @@ $(function(){initNavTree('MRDirectory_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordflow">return</span> !a.ec &amp;&amp; a.it != b;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>[[nodiscard]] <span class="keyword">inline</span> DirectoryRecursiveIterator begin( <span class="keyword">const</span> DirectoryRecursive &amp; sd )</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>[[nodiscard]] <span class="keyword">inline</span> DirectoryRecursiveIterator <a class="code hl_functionRef" href="../Csharp/classMR.html#a422cb5ddc1e9d6762387165607b9871e">begin</a>( <span class="keyword">const</span> DirectoryRecursive &amp; sd )</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>{</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordflow">return</span> DirectoryRecursiveIterator{ std::filesystem::recursive_directory_iterator( sd.dir, sd.ec ), sd.ec };</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>[[nodiscard]] <span class="keyword">inline</span> std::filesystem::recursive_directory_iterator end( <span class="keyword">const</span> DirectoryRecursive &amp; )</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>[[nodiscard]] <span class="keyword">inline</span> std::filesystem::recursive_directory_iterator <a class="code hl_functionRef" href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">end</a>( <span class="keyword">const</span> DirectoryRecursive &amp; )</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>{</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
@@ -225,6 +225,9 @@ $(function(){initNavTree('MRDirectory_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>}</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a422cb5ddc1e9d6762387165607b9871e"><div class="ttname"><a href="../Csharp/classMR.html#a422cb5ddc1e9d6762387165607b9871e">MR::begin</a></div><div class="ttdeci">static unsafe MR.ChunkIterator begin(MR.Const_IteratorRange_MRChunkIterator range)</div></div>
+<div class="ttc" id="aclassMR_html_aa35da2120f781fbf0244a477c9c37a01"><div class="ttname"><a href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">MR::end</a></div><div class="ttdeci">static unsafe MR.ChunkIterator end(MR.Const_IteratorRange_MRChunkIterator range)</div></div>
 <div class="ttc" id="astructMR_1_1DirectoryIterator_html"><div class="ttname"><a href="structMR_1_1DirectoryIterator.html">MR::DirectoryIterator</a></div><div class="ttdoc">iterator of directory items that will save any errors in (ec) instead of throwing exceptions</div><div class="ttdef"><b>Definition</b> MRDirectory.h:35</div></div>
 <div class="ttc" id="astructMR_1_1DirectoryRecursiveIterator_html"><div class="ttname"><a href="structMR_1_1DirectoryRecursiveIterator.html">MR::DirectoryRecursiveIterator</a></div><div class="ttdoc">recursive iterator of directory items that will save any errors in (ec) instead of throwing exception...</div><div class="ttdef"><b>Definition</b> MRDirectory.h:47</div></div>
 <div class="ttc" id="astructMR_1_1DirectoryRecursive_html"><div class="ttname"><a href="structMR_1_1DirectoryRecursive.html">MR::DirectoryRecursive</a></div><div class="ttdef"><b>Definition</b> MRDirectory.h:28</div></div>

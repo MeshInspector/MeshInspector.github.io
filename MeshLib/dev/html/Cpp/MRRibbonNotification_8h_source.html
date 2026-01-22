@@ -157,7 +157,7 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
@@ -222,7 +222,7 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">// main draw function. draw actual notification or history, and history button</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">// limitFramebuffer - available framebuffer space (usually same as `Viewer::getViewportsBounds()`)</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    MRVIEWER_API <span class="keywordtype">void</span> draw( <span class="keyword">const</span> Box2i&amp; limitFramebuffer );</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    MRVIEWER_API <span class="keywordtype">void</span> draw( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a>&amp; limitFramebuffer );</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="comment">// set maximum time while history button will be present on screen</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="comment">// negative value means that history button will never be hidden</span></div>
@@ -256,11 +256,11 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="comment">// draw button to show last notifications</span></div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">void</span> drawHistoryButton_( <span class="keyword">const</span> Box2i&amp; limitFramebuffer );</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">void</span> drawHistoryButton_( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a>&amp; limitFramebuffer );</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="comment">// draw notification history</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> drawHistory_( <span class="keyword">const</span> Box2i&amp; limitFramebuffer );</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> drawHistory_( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a>&amp; limitFramebuffer );</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="comment">// draw floating notifications</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> drawFloating_( <span class="keyword">const</span> Box2i&amp; limitFramebuffer );</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> drawFloating_( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a>&amp; limitFramebuffer );</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="comment">// set this true on open history and on new notification added</span></div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">bool</span> scrollDownNeeded_ = <span class="keyword">false</span>;</div>
@@ -270,7 +270,7 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordtype">int</span> index{ 0 };</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keywordtype">float</span> <a class="code hl_function" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>{ 0.0f };</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keywordtype">bool</span> historyMode{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        Vector2f* currentPos{ <span class="keyword">nullptr</span> };</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a>* currentPos{ <span class="keyword">nullptr</span> };</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    };</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="comment">// draws one notification</span></div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// returns false if need to close</span></div>
@@ -284,9 +284,12 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>}</div>
 <div class="ttc" id="aclassMR_1_1AsyncRequest_html"><div class="ttname"><a href="classMR_1_1AsyncRequest.html">MR::AsyncRequest</a></div><div class="ttdef"><b>Definition</b> MRAsyncTimer.h:53</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonNotifier_html"><div class="ttname"><a href="classMR_1_1RibbonNotifier.html">MR::RibbonNotifier</a></div><div class="ttdef"><b>Definition</b> MRRibbonNotification.h:64</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__BoxGroup_html_ga03ccb991cf0d9c433fd5a054a5d026af"><div class="ttname"><a href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">MR::width</a></div><div class="ttdeci">auto width(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along x axis</div><div class="ttdef"><b>Definition</b> MRMesh/MRBox.h:354</div></div>
+<div class="ttc" id="astructMR_1_1Box2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Box2i.html">MR::Box2i</a></div></div>
 <div class="ttc" id="astructMR_1_1NotificationTags_html"><div class="ttname"><a href="structMR_1_1NotificationTags.html">MR::NotificationTags</a></div><div class="ttdef"><b>Definition</b> MRRibbonNotification.h:14</div></div>
 <div class="ttc" id="astructMR_1_1RibbonNotification_html"><div class="ttname"><a href="structMR_1_1RibbonNotification.html">MR::RibbonNotification</a></div><div class="ttdef"><b>Definition</b> MRRibbonNotification.h:38</div></div>
+<div class="ttc" id="astructMR_1_1Vector2f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2f.html">MR::Vector2f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

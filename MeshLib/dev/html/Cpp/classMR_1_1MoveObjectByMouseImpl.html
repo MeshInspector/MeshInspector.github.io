@@ -203,7 +203,7 @@ Protected Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4634374908c348c3436bbbbc7a8571f0" id="r_a4634374908c348c3436bbbbc7a8571f0"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4634374908c348c3436bbbbc7a8571f0">pickObjects_</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, int modifiers) const</td></tr>
+<tr class="memitem:a4634374908c348c3436bbbbc7a8571f0" id="r_a4634374908c348c3436bbbbc7a8571f0"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4634374908c348c3436bbbbc7a8571f0">pickObjects_</a> (std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, int modifiers) const</td></tr>
 <tr class="separator:a4634374908c348c3436bbbbc7a8571f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c00c84e0c80219e1fa10b926a82cf91" id="r_a1c00c84e0c80219e1fa10b926a82cf91"><td class="memItemLeft" align="right" valign="top"><a id="a1c00c84e0c80219e1fa10b926a82cf91" name="a1c00c84e0c80219e1fa10b926a82cf91"></a>
 virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>modeFromPickModifiers_</b> (int modifiers) const</td></tr>
@@ -214,16 +214,16 @@ virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">Tra
 <tr class="memdesc:a8d4fb97994485132ccb6214d20ec2041"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called from <code>onMouseDown</code> to verify if pick should proceed, if None is returned - <code>onMouseDown</code> is canceled <br /></td></tr>
 <tr class="separator:a8d4fb97994485132ccb6214d20ec2041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb585eb1c444459ffe5c95d7b0db381e" id="r_acb585eb1c444459ffe5c95d7b0db381e"><td class="memItemLeft" align="right" valign="top"><a id="acb585eb1c444459ffe5c95d7b0db381e" name="acb585eb1c444459ffe5c95d7b0db381e"></a>
-virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setStartPoint_</b> (const ObjAndPick &amp;pick, Vector3f &amp;startPoint) const</td></tr>
+virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setStartPoint_</b> (const ObjAndPick &amp;pick, <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;startPoint) const</td></tr>
 <tr class="memdesc:acb585eb1c444459ffe5c95d7b0db381e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>startPoint</code> - a point under cursor for transform calculation, can be the picked point or else (world coordinates) <br /></td></tr>
 <tr class="separator:acb585eb1c444459ffe5c95d7b0db381e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1c8964e80c006d7432d351d7f71e4d" id="r_a0e1c8964e80c006d7432d351d7f71e4d"><td class="memItemLeft" align="right" valign="top"><a id="a0e1c8964e80c006d7432d351d7f71e4d" name="a0e1c8964e80c006d7432d351d7f71e4d"></a>
-virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCenterPoint_</b> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, Vector3f &amp;centerPoint) const</td></tr>
+virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCenterPoint_</b> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;centerPoint) const</td></tr>
 <tr class="memdesc:a0e1c8964e80c006d7432d351d7f71e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>centerPoint</code> - a point that will be used as center of rotation/scaling in world space <br /></td></tr>
 <tr class="separator:a0e1c8964e80c006d7432d351d7f71e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66259d6115ca5e276ea745447817f0ce" id="r_a66259d6115ca5e276ea745447817f0ce"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API Plane3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66259d6115ca5e276ea745447817f0ce">calcControlPlane_</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;vp, const Vector3f &amp;viewportCenterPoint, const Vector3f &amp;xfCenterPoint) const</td></tr>
+<tr class="memitem:a66259d6115ca5e276ea745447817f0ce" id="r_a66259d6115ca5e276ea745447817f0ce"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1Plane3f.html">Plane3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66259d6115ca5e276ea745447817f0ce">calcControlPlane_</a> (const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;vp, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;viewportCenterPoint, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;xfCenterPoint) const</td></tr>
 <tr class="separator:a66259d6115ca5e276ea745447817f0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32b8f295b15b40dffc3f103110e9d1b6" id="r_a32b8f295b15b40dffc3f103110e9d1b6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32b8f295b15b40dffc3f103110e9d1b6">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects) const</td></tr>
+<tr class="memitem:a32b8f295b15b40dffc3f103110e9d1b6" id="r_a32b8f295b15b40dffc3f103110e9d1b6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32b8f295b15b40dffc3f103110e9d1b6">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects) const</td></tr>
 <tr class="separator:a32b8f295b15b40dffc3f103110e9d1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -231,7 +231,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ada61b8ab8617465251bf6b1f36c1d782" id="r_ada61b8ab8617465251bf6b1f36c1d782"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada61b8ab8617465251bf6b1f36c1d782">deadZonePixelRadius_</a> { 20.0f }</td></tr>
 <tr class="separator:ada61b8ab8617465251bf6b1f36c1d782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb167ed72d4e0abf3fd5ebc2bf23acc6" id="r_adb167ed72d4e0abf3fd5ebc2bf23acc6"><td class="memItemLeft" align="right" valign="top"><a id="adb167ed72d4e0abf3fd5ebc2bf23acc6" name="adb167ed72d4e0abf3fd5ebc2bf23acc6"></a>
-AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>currentXf_</b></td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>currentXf_</b></td></tr>
 <tr class="separator:adb167ed72d4e0abf3fd5ebc2bf23acc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -247,19 +247,19 @@ AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>currentXf_</b><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRVIEWER_API Plane3f MR::MoveObjectByMouseImpl::calcControlPlane_ </td>
+          <td class="memname">virtual MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1Plane3f.html">Plane3f</a> MR::MoveObjectByMouseImpl::calcControlPlane_ </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>viewportCenterPoint</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>viewportCenterPoint</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xfCenterPoint</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xfCenterPoint</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -300,9 +300,9 @@ AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>currentXf_</b><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API Box3f MR::MoveObjectByMouseImpl::getBbox_ </td>
+          <td class="memname">MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a> MR::MoveObjectByMouseImpl::getBbox_ </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -412,7 +412,7 @@ AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>currentXf_</b><
         <tr>
           <td class="memname">virtual MRVIEWER_API ObjAndPick MR::MoveObjectByMouseImpl::pickObjects_ </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

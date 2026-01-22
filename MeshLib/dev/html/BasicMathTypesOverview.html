@@ -166,9 +166,9 @@ Vectors, matrices, and transformations</h1>
 <h2><a class="anchor" id="autotoc_md9"></a>
 Vectors and matrices</h2>
 <p>MeshLib has its own types for representing small vectors and matrices (of dimensions 2, 3, 4):</p>
-<p>The vector types are: <code>MR::Vector2f</code>, <code>MR::Vector3f</code>, <code>MR::Vector4f</code>, defined in <code>&lt;MRMesh/MRVector[2|3|4].h&gt;</code> respectively.</p>
+<p>The vector types are: <code><a class="elRef" href="./Csharp/structMR_1_1Vector2f.html">MR::Vector2f</a></code>, <code><a class="elRef" href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></code>, <code><a class="elRef" href="./Csharp/structMR_1_1Vector4f.html">MR::Vector4f</a></code>, defined in <code>&lt;MRMesh/MRVector[2|3|4].h&gt;</code> respectively.</p>
 <p><code>f</code> in <code><a class="elRef" href="./Cpp/classMR_1_1Vector.html">MR::Vector</a>[2|3|4]<b>f</b></code> stands for <code><b>f</b>loat</code>. Use <code>…d</code> for <code>double</code>, <code>…i</code> for <code>int</code>, or pass an arbitrary type to the <code><a class="elRef" href="./Cpp/classMR_1_1Vector.html">MR::Vector</a>[2|3|4]&lt;T&gt;</code> templates.</p>
-<p>Similarly, the matrices are: <code>MR::Matrix2f</code>, <code>MR::Matrix3f</code>, <code>MR::Matrix4f</code>, defined in <code>&lt;MRMesh/MRMatrix[2|3|4].h&gt;</code> respectively.</p>
+<p>Similarly, the matrices are: <code><a class="elRef" href="./Csharp/structMR_1_1Matrix2f.html">MR::Matrix2f</a></code>, <code><a class="elRef" href="./Csharp/structMR_1_1Matrix3f.html">MR::Matrix3f</a></code>, <code><a class="elRef" href="./Csharp/structMR_1_1Matrix4f.html">MR::Matrix4f</a></code>, defined in <code>&lt;MRMesh/MRMatrix[2|3|4].h&gt;</code> respectively.</p>
 <p>They support the same type suffixes, and are similarly templated.</p>
 <p>The matrices are <b>row-major</b>, meaning each row is contiguous, and <code>matrix[i]</code> refers to the <code>i</code>th row.</p>
 <p>Vectors and matrices overload the common operators, including <code>+</code> for vectors, and <code>*</code> for matrix-matrix and matrix-vector multiplication.</p>
@@ -176,7 +176,7 @@ Vectors and matrices</h2>
 <h3><a class="anchor" id="autotoc_md10"></a>
 Vectors</h3>
 <p>Construction:</p>
-<p><code>MR::Vector3f()</code> zeroes the vector. <code>MR::Vector3f(x, y, z)</code> — elementwise.</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f()</a></code> zeroes the vector. <code><a class="elRef" href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f(x, y, z)</a></code> — elementwise.</p>
 <p>Element access is <code>vec[i]</code> or <code>vec.x</code>, <code>vec.y</code>, <code>vec.z</code>, <code>vec.w</code>.</p>
 <p>Overloaded operators:</p>
 <p><code>+</code>, <code>-</code> add and subtract two vectors elementwise. Unary versions are also provided.</p>
@@ -188,8 +188,8 @@ Vectors</h3>
 <h3><a class="anchor" id="autotoc_md11"></a>
 Matrices</h3>
 <p>Construction:</p>
-<p><code>MR::Matrix3f()</code> constructs an identity matrix by default, or you can be explicit with <code>MR::Matrix3f::identity()</code>.</p>
-<p><code>MR::Matrix3f(v1, v2, v3)</code> constructs the matrix from <b>row</b> vectors, same as <code>MR::Matrix3f::fromRows(v1, v2, v3)</code>. Use <code>MR::Matrix3f::fromColumns(v1, v2, v3)</code> to construct from columns.</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1Matrix3f.html">MR::Matrix3f()</a></code> constructs an identity matrix by default, or you can be explicit with <code><a class="elRef" href="./Csharp/structMR_1_1Matrix3f.html#ae424fa93f8005a661fa7c12b48c2ae06">MR::Matrix3f::identity()</a></code>.</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1Matrix3f.html">MR::Matrix3f(v1, v2, v3)</a></code> constructs the matrix from <b>row</b> vectors, same as <code>MR::Matrix3f::fromRows(v1, v2, v3)</code>. Use <code>MR::Matrix3f::fromColumns(v1, v2, v3)</code> to construct from columns.</p>
 <p>Element access:</p>
 <p><code>mat[i]</code> and <code>mat.x</code>, <code>mat.y</code>, <code>mat.z</code>, <code>mat.w</code> return the row vectors.</p>
 <p><code>mat.col(i)</code> returns column vectors (read-only).</p>
@@ -200,17 +200,17 @@ Matrices</h3>
 <p>Some basic operations:</p>
 <p><code>m1.inverse()</code> — returns an inverted copy, doesn't modify the source matrix. <code>m1.transposed()</code> — similarly returns a transposed copy, doesn't modify the source matrix. <code>m1.det()</code> — determinant. <code>m1.trace()</code> <code>m1.norm()</code>, <code>m1.normSq()</code> — the norm, regular and squared.</p>
 <p>Predefined matrices:</p>
-<p><code>MR::Matrix3f::identity()</code> <code>MR::Matrix3f::scale(s)</code> — scale, either uniform or not (if <code>s</code> is scalar and vector respectively). <code>MR::Matrix3f::rotation(axis, angle)</code> — rotation around an axis (the axis doesn't need to be normalized, the angle is in radians).</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1Matrix3f.html#ae424fa93f8005a661fa7c12b48c2ae06">MR::Matrix3f::identity()</a></code> <code>MR::Matrix3f::scale(s)</code> — scale, either uniform or not (if <code>s</code> is scalar and vector respectively). <code>MR::Matrix3f::rotation(axis, angle)</code> — rotation around an axis (the axis doesn't need to be normalized, the angle is in radians).</p>
 <p><code>MR::Matrix3f::rotation(dir1, dir2)</code> — shortest rotation from one direction to another (neither needs to be normalized).</p>
 <p>Interpolation:</p>
 <p><code>MR::slerp(m1, m2, t)</code> — quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two matrices. (<code>t == 0</code> produces <code>m1</code>, <code>t == 1</code> produces <code>m2</code>.)<br  />
  This function is defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Affine transformations</h2>
-<p>Most transformations in MeshLib are represented using a matrix-vector pair — <code>MR::AffineXf3f</code>, defined in <code>&lt;MRMesh/MRAffineXf.h&gt;</code>.</p>
+<p>Most transformations in MeshLib are represented using a matrix-vector pair — <code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code>, defined in <code>&lt;MRMesh/MRAffineXf.h&gt;</code>.</p>
 <p>This this pair, the vector holds the translation (offset) and the matrix holds rotation (and also scale and shear).</p>
 <p>Those work in 2 and 3 dimensions, and like everythine else above are templated.</p>
-<p><code>MR::AffineXf3f</code> are very similar to 4x4 matrices widely used in computer graphics, but without the last row, which is assumed to be <code>(0,0,0,1)</code> (since it's not useful if you're not computing perspective projection matrices). It can be converted to and from <code>MR::Matrix4f</code>, more on that below.</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code> are very similar to 4x4 matrices widely used in computer graphics, but without the last row, which is assumed to be <code>(0,0,0,1)</code> (since it's not useful if you're not computing perspective projection matrices). It can be converted to and from <code><a class="elRef" href="./Csharp/structMR_1_1Matrix4f.html">MR::Matrix4f</a></code>, more on that below.</p>
 <p>Etymology:</p>
 <blockquote class="doxtable">
 <p>&zwj;"XF" is an abbreviation of "transform".<br  />
@@ -218,7 +218,7 @@ Affine transformations</h2>
  "F" in this case is short for "-form". </p>
 </blockquote>
 <p>Construction:</p>
-<p><code>MR::AffineXf3f()</code> is identity transformation (an identity matrix and a zero vector).</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f()</a></code> is identity transformation (an identity matrix and a zero vector).</p>
 <p><code>MR::AffineXf3f::linear(mat)</code> constructs from a matrix only and zeroes the vector. <code>MR::AffineXf3f::translation(vec)</code> constructs from a vector only and uses an identity matrix. <code>MR::AffineXf3f::xfAround(mat, point)</code> sets the matrix as is, and sets the vector so that the <code>point</code> doesn't change when transformed by the resulting XF.</p>
 <p>Element access:</p>
 <p><code>xf.A</code> is the matrix (rotation, scale and shear). <code>xf.b</code> is the vector (translation).</p>
@@ -231,11 +231,11 @@ Affine transformations</h2>
 <p><code>MR::slerp(xf1, xf2, t)</code> is a quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two transformations. (<code>t == 0</code> produces <code>xf1</code>, <code>t == 1</code> produces <code>xf2</code>.)<br  />
  This function is defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
 <p>Conversion to and from matrices:</p>
-<p><code>MR::AffineXf3f</code> can be converted to and from <code>MR::Matrix4f</code> (directly, without calling any functions).</p>
+<p><code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code> can be converted to and from <code><a class="elRef" href="./Csharp/structMR_1_1Matrix4f.html">MR::Matrix4f</a></code> (directly, without calling any functions).</p>
 <p>When converting to a matrix, the last row is set to <code>(0,0,0,1)</code> and the rest is copied as is. The opposite conversion checks that the last row is <code>(0,0,0,1)</code> before discarding it.</p>
 <h3><a class="anchor" id="autotoc_md13"></a>
 Object transformations</h3>
-<p>If you're using <code><a class="elRef" href="./Cpp/classMR_1_1Object.html">MR::Object</a></code> to hold data (and the classes derived from it, such as <code><a class="elRef" href="./Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code>), each <code><a class="elRef" href="./Cpp/classMR_1_1Object.html">MR::Object</a></code> holds its own <code>MR::AffineXf3f</code>.</p>
+<p>If you're using <code><a class="elRef" href="./Cpp/classMR_1_1Object.html">MR::Object</a></code> to hold data (and the classes derived from it, such as <code><a class="elRef" href="./Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code>), each <code><a class="elRef" href="./Cpp/classMR_1_1Object.html">MR::Object</a></code> holds its own <code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code>.</p>
 <p><code>obj.xf()</code> returns the current XF, and <code>obj.setXf(...)</code> sets a new one.</p>
 <p>If you have an object hierarchy, the XF of each object is relative to its <code>parent()</code> object. An object's XF maps points from the coordinate system of that object to the coordinate system of its parent.</p>
 <p><code>obj.worldXf()</code> returns the combined XF of this object and all parents, as if by <code>... * obj.parent()-&gt;parent()-&gt;xf() * obj.parent()-&gt;xf() * obj.xf()</code>.</p>
@@ -243,7 +243,7 @@ Object transformations</h3>
 <h2><a class="anchor" id="autotoc_md14"></a>
 Other types</h2>
 <p>MeshLib supports some other types not documented here:</p>
-<p>Quaternions — <code>MR::Quaternionf</code> defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
+<p>Quaternions — <code><a class="elRef" href="./Csharp/classMR_1_1Quaternionf.html">MR::Quaternionf</a></code> defined in <code>&lt;MRMesh/MRQuaternion.h&gt;</code>.</p>
 <p>Symmetric matrices — <code>MR::SymMatrix[2,3,4]f</code> defined in <code>&lt;MRMesh/MRSymMatrix[2,3,4].h&gt;</code>.</p>
 <p>Consult the respective headers for details. </p>
 </div></div><!-- contents -->

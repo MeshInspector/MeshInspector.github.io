@@ -153,44 +153,38 @@ $(function(){initNavTree('MRCombinedHistoryAction_8h_source.html',''); initResiz
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRHistoryAction.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1CombinedHistoryAction.html">   11</a></span><span class="keyword">class </span>MRMESH_CLASS <a class="code hl_class" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>MRMESH_CLASS CombinedHistoryAction : <span class="keyword">public</span> HistoryAction</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4">   15</a></span>    MRMESH_API <a class="code hl_function" href="classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4">CombinedHistoryAction</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;&amp; actions );</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    MRMESH_API CombinedHistoryAction( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;&amp; actions );</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07">   22</a></span>    MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07">action</a>( HistoryAction::Type type ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> action( HistoryAction::Type type ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>          HistoryActionsVector&amp; getStack()       { <span class="keywordflow">return</span> actions_; }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">const</span> HistoryActionsVector&amp; getStack()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> actions_; }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850">   29</a></span>    MRMESH_API <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850">filter</a>( HistoryStackFilter filteringCondition );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    MRMESH_API <span class="keywordtype">bool</span> filter( HistoryStackFilter filteringCondition );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">bool</span> empty()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> actions_.empty(); };</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1">   33</a></span>    [[nodiscard]] MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1">heapBytes</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    [[nodiscard]] MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    HistoryActionsVector actions_;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    std::string name_;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
-</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
-<div class="ttc" id="aclassMR_1_1CombinedHistoryAction_html"><div class="ttname"><a href="classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></div><div class="ttdef"><b>Definition</b> MRCombinedHistoryAction.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1CombinedHistoryAction_html_a25f7969b5daf7f81d5dc52abce1f5850"><div class="ttname"><a href="classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850">MR::CombinedHistoryAction::filter</a></div><div class="ttdeci">MRMESH_API bool filter(HistoryStackFilter filteringCondition)</div></div>
-<div class="ttc" id="aclassMR_1_1CombinedHistoryAction_html_a8f6b646cd5256ca2f6cfdafba7db5d07"><div class="ttname"><a href="classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07">MR::CombinedHistoryAction::action</a></div><div class="ttdeci">virtual MRMESH_API void action(HistoryAction::Type type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div></div>
-<div class="ttc" id="aclassMR_1_1CombinedHistoryAction_html_adba474c4514ebf52c64eb24ed5b104a1"><div class="ttname"><a href="classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1">MR::CombinedHistoryAction::heapBytes</a></div><div class="ttdeci">virtual MRMESH_API size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
-<div class="ttc" id="aclassMR_1_1CombinedHistoryAction_html_afca8a41417b4242303d650c7996ef7f4"><div class="ttname"><a href="classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4">MR::CombinedHistoryAction::CombinedHistoryAction</a></div><div class="ttdeci">MRMESH_API CombinedHistoryAction(const std::string &amp;name, const std::vector&lt; std::shared_ptr&lt; HistoryAction &gt; &gt; &amp;actions)</div><div class="ttdoc">Will call action() for each actions in given order (undo in reverse, redo in forward)</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:298</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

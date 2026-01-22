@@ -1,27 +1,34 @@
 var group__BasicStructuresGroup =
 [
-    [ "MR::Image", "structMR_1_1Image.html", [
-      [ "heapBytes", "structMR_1_1Image.html#aed3087256e14a389e2e32449eb1233d1", null ],
-      [ "operator[]", "structMR_1_1Image.html#a3b6b9b5bd10ab0b951b4049866cb22fb", null ],
-      [ "sample", "structMR_1_1Image.html#af6176f7d0a558084bda1ff8e2f3f6237", null ],
-      [ "sampleBilinear", "structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8", null ],
-      [ "sampleDiscrete", "structMR_1_1Image.html#a872aae100ad383474afd5c9c8468b3d5", null ]
+    [ "MR::Image", "../Csharp/classMR_1_1Image.html", [
+      [ "Image", "../Csharp/classMR_1_1Image.html#a1f036f874c471aa6766cdf669331e4f9", null ],
+      [ "Image", "../Csharp/classMR_1_1Image.html#a601f4b5c1a8b6cb4097f98bb8f91b0af", null ],
+      [ "Image", "../Csharp/classMR_1_1Image.html#a883df314f57ad180b5cb8bb1180f9b63", null ],
+      [ "assign", "../Csharp/classMR_1_1Image.html#afeeedc7d3b5c7cfe108b11c461eef319", null ],
+      [ "this[in MR.Vector2i p]", "../Csharp/classMR_1_1Image.html#a6fde70b541bd3844938e4009eb0f2a73", null ]
     ] ],
-    [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ],
-    [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
-    [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", [
-      [ "BoolType", "classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8", [
-        [ "UseDefaultScenePropertiesOnDeserialization", "classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a", null ],
-        [ "Count", "classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-      ] ],
-      [ "ShadingMode", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c", [
-        [ "AutoDetect", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf", null ],
-        [ "Smooth", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4", null ],
-        [ "Flat", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
-      ] ]
+    [ "MR::MeshTexture", "../Csharp/classMR_1_1MeshTexture.html", [
+      [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#ab15c60a201193db4373f406496231a31", null ],
+      [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#af1b87156b4b14e515348c6436dd02adf", null ],
+      [ "assign", "../Csharp/classMR_1_1MeshTexture.html#a354f98bc40300b98fd45b1a6b7cd2708", null ]
     ] ],
-    [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", null ],
-    [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ],
+    [ "MR::SceneColors", "../Csharp/classMR_1_1SceneColors.html", null ],
+    [ "MR::SceneSettings", "../Csharp/classMR_1_1SceneSettings.html", null ],
+    [ "MR::FloatGrid", "../Csharp/classMR_1_1FloatGrid.html", [
+      [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a8d1144e6b355f47cb4adce0afb660bc0", null ],
+      [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a77dfab6de00024daaba84e96ef355982", null ],
+      [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a63ba7d46dbcf004a899dc1d2d300ecf1", null ],
+      [ "addAssign", "../Csharp/classMR_1_1FloatGrid.html#adbc01aabddb98307299dd068bbcda504", null ],
+      [ "assign", "../Csharp/classMR_1_1FloatGrid.html#a4bc4e2189f0f6cfaf69b60a4bfc178f1", null ],
+      [ "mulAssign", "../Csharp/classMR_1_1FloatGrid.html#ad2bbb1dd9b3c6ac190abbe0b96a04c6f", null ],
+      [ "reset", "../Csharp/classMR_1_1FloatGrid.html#a7792860df16a379bf4400549bafa32f0", null ],
+      [ "subAssign", "../Csharp/classMR_1_1FloatGrid.html#ab48ead6333a12571fa0431bf2de462d9", null ],
+      [ "swap", "../Csharp/classMR_1_1FloatGrid.html#a257924363d792111ac7310ae12feced0", null ]
+    ] ],
+    [ "MR::OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html", [
+      [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#ae73a1bc0af44c763b4dbf8a0fe5101d0", null ],
+      [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#a985904eca89f87d0e9d106b5ecdf7212", null ]
+    ] ],
     [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "MR::countVoxelsWithValueGreater", "group__BasicStructuresGroup.html#ga5712e78d9d4422fcdcd7dfed32c2c17e", null ],
     [ "MR::countVoxelsWithValueLess", "group__BasicStructuresGroup.html#gac9943628cd64b8a75e368ce9d38efd82", null ],

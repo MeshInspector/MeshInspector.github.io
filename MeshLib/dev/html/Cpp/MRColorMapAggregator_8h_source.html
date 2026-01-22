@@ -156,7 +156,7 @@ $(function(){initNavTree('MRColorMapAggregator_8h_source.html',''); initResizabl
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRBitSet.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> Tag&gt;</div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
@@ -168,7 +168,7 @@ $(function(){initNavTree('MRColorMapAggregator_8h_source.html',''); initResizabl
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="classMR_1_1ColorMapAggregator.html">ColorMapAggregator</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1ColorMapAggregator.html#a27373b3b50c97ce0d7c2737e61012ffa">   25</a></span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ColorMapAggregator.html#a27373b3b50c97ce0d7c2737e61012ffa">setDefaultColor</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Color.html">Color</a>&amp; color );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1ColorMapAggregator.html#a27373b3b50c97ce0d7c2737e61012ffa">   25</a></span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ColorMapAggregator.html#a27373b3b50c97ce0d7c2737e61012ffa">setDefaultColor</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Color.html">Color</a>&amp; color );</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structMR_1_1ColorMapAggregator_1_1PartialColorMap.html">   28</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ColorMapAggregator_1_1PartialColorMap.html">PartialColorMap</a></div>
@@ -204,7 +204,7 @@ $(function(){initNavTree('MRColorMapAggregator_8h_source.html',''); initResizabl
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34">   66</a></span>    MRMESH_API <a class="code hl_class" href="classMR_1_1Vector.html">ColorMap</a> <a class="code hl_function" href="classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34">aggregate</a>( <span class="keyword">const</span> ElementBitSet&amp; elementBitSet );</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_struct" href="structMR_1_1Color.html">Color</a> defaultColor_;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1Color.html">Color</a> defaultColor_;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::vector&lt;PartialColorMap&gt; dataSet_;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
@@ -232,8 +232,9 @@ $(function(){initNavTree('MRColorMapAggregator_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1ColorMapAggregator_html_ac67f25c8d9133cd6915063fa8e301fd6"><div class="ttname"><a href="classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6">MR::ColorMapAggregator::replace</a></div><div class="ttdeci">MRMESH_API void replace(int i, const PartialColorMap &amp;partitialColorMap)</div><div class="ttdoc">replace color map in #i position</div></div>
 <div class="ttc" id="aclassMR_1_1ColorMapAggregator_html_af72490cd5097c80ebcf4fe9e28821f15"><div class="ttname"><a href="classMR_1_1ColorMapAggregator.html#af72490cd5097c80ebcf4fe9e28821f15">MR::ColorMapAggregator::reset</a></div><div class="ttdeci">MRMESH_API void reset()</div><div class="ttdoc">reset all accumulated color map</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector&lt; Color, Id&lt; Tag &gt; &gt;</a></div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1ColorMapAggregator_1_1PartialColorMap_html"><div class="ttname"><a href="structMR_1_1ColorMapAggregator_1_1PartialColorMap.html">MR::ColorMapAggregator::PartialColorMap</a></div><div class="ttdoc">partial color map</div><div class="ttdef"><b>Definition</b> MRColorMapAggregator.h:29</div></div>
-<div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:9</div></div>
+<div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

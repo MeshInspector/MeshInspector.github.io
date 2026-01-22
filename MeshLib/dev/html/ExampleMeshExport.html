@@ -156,7 +156,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// create some mesh</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = MR::makeCube();</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = MR::makeCube();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// all vertices of valid triangles</span></div>
 <div class="line">    <span class="keyword">const</span> std::vector&lt;std::array&lt;MR::VertId, 3&gt;&gt; triangles = mesh.topology.getAllTriVerts();</div>
@@ -230,19 +230,19 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeCube(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3f.diagonal(1), <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.Vector3f.diagonal(-0.5f));</div>
+<div class="line">            <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeCube(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">Vector3f</a>.diagonal(1), <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">Vector3f</a>.diagonal(-0.5f));</div>
 <div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Vertices coordinates:&quot;</span>);</div>
 <div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; mesh.points.size(); ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var p = mesh.points[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.VertId(i)];</div>
+<div class="line">                var p = mesh.points[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1VertId.html">VertId</a>(i)];</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Vertex {0} coordinates: {1}; {2}; {3}&quot;</span>, i, p.x, p.y, p.z);</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            MR.Triangulation tri = mesh.topology.getTriangulation();</div>
+<div class="line">            <a class="code hl_classRef" href="./Csharp/classMR_1_1Triangulation.html">MR.Triangulation</a> tri = mesh.topology.getTriangulation();</div>
 <div class="line"> </div>
 <div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; tri.size(); ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var t = tri[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.FaceId(i)];</div>
+<div class="line">                var t = tri[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1FaceId.html">FaceId</a>(i)];</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, t.elems._0.id, t.elems._1.id, t.elems._2.id);</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
@@ -252,7 +252,11 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassMR_1_1Triangulation_html"><div class="ttname"><a href="./Csharp/classMR_1_1Triangulation.html">MR::Triangulation</a></div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
+<div class="ttc" id="astructMR_1_1FaceId_html"><div class="ttname"><a href="./Csharp/structMR_1_1FaceId.html">MR::FaceId</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
+<div class="ttc" id="astructMR_1_1VertId_html"><div class="ttname"><a href="./Csharp/structMR_1_1VertId.html">MR::VertId</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

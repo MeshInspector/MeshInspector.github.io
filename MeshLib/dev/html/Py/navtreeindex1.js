@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classmrmeshpy_1_1AffineXf2f.html#a5610fd3bca92d27fcea0436681664544":[6,1,0,0,1,20,4],
 "classmrmeshpy_1_1AffineXf2f.html#a9ef9296c534e479ea6492696bde764c1":[6,1,0,0,1,20,1],
 "classmrmeshpy_1_1AffineXf2f.html#ab998cab0b49bf2205042f770703b1b11":[6,1,0,0,1,20,3],
 "classmrmeshpy_1_1AffineXf2f.html#afc765ffbb58d2f92be36ba9a1806d08a":[6,1,0,0,1,20,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#af785e798c45895cede42752f15f5d04c":[6,1,0,0,1,66,1,0],
 "classmrmeshpy_1_1BooleanResultPoints.html":[6,1,0,0,1,67],
 "classmrmeshpy_1_1BooleanResultPoints.html#a751bf14877277bcf97bdad6a03a776e3":[6,1,0,0,1,67,0],
-"classmrmeshpy_1_1BooleanResultPoints.html#ad09aa14f2768c0d4f4d957a63b91316c":[6,1,0,0,1,67,1],
-"classmrmeshpy_1_1Box1d.html":[6,1,0,0,1,68]
+"classmrmeshpy_1_1BooleanResultPoints.html#ad09aa14f2768c0d4f4d957a63b91316c":[6,1,0,0,1,67,1]
 };

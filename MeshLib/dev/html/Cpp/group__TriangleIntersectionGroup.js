@@ -1,6 +1,10 @@
 var group__TriangleIntersectionGroup =
 [
-    [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
+    [ "MR::TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html", [
+      [ "TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html#a85cf83c7e28f559b5b4642be1b6c767e", null ],
+      [ "TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html#a29594d31a57c2c211075a6b3fbb7ffbf", null ],
+      [ "assign", "../Csharp/classMR_1_1TriIntersectResult.html#ab9405d73aa12df2aaa88a3f4354fca55", null ]
+    ] ],
     [ "MR::doesEdgeXySeparate", "group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305", null ],
     [ "MR::doTriangleLineIntersect", "group__TriangleIntersectionGroup.html#gab7bfc61216e86c7e985c25378fcc7bdb", null ],
     [ "MR::doTriangleSegmentIntersect", "group__TriangleIntersectionGroup.html#gacaf1c69550575145e170779a5d620b42", null ],

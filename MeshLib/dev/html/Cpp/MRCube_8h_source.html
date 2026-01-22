@@ -153,18 +153,24 @@ $(function(){initNavTree('MRCube_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>[[nodiscard]] MRMESH_API MeshTopology makeCubeTopology();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>[[nodiscard]] MRMESH_API MeshTopology <a class="code hl_functionRef" href="../Csharp/classMR.html#ade8fc33790f59a4536848e84c71a9446">makeCubeTopology</a>();</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>[[nodiscard]] MRMESH_API Mesh makeCube( <span class="keyword">const</span> Vector3f&amp; size = Vector3f::diagonal(1.0f), <span class="keyword">const</span> Vector3f&amp; base = Vector3f::diagonal(-0.5f) );</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>[[nodiscard]] MRMESH_API Mesh <a class="code hl_functionRef" href="../Csharp/classMR.html#a8fe1281a3c71e131dc209e3c1ef35677">makeCube</a>( <span class="keyword">const</span> Vector3f&amp; size = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">Vector3f::diagonal</a>(1.0f), <span class="keyword">const</span> Vector3f&amp; base = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">Vector3f::diagonal</a>(-0.5f) );</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>[[nodiscard]] MRMESH_API Mesh makeParallelepiped( <span class="keyword">const</span> Vector3f side[3], <span class="keyword">const</span> Vector3f&amp; base );</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>[[nodiscard]] MRMESH_API Mesh <a class="code hl_functionRef" href="../Csharp/classMR.html#af6bc668ec5765b0c9dd0c521877e1119">makeParallelepiped</a>( <span class="keyword">const</span> Vector3f side[3], <span class="keyword">const</span> Vector3f&amp; base );</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>[[nodiscard]] MRMESH_API Mesh makeBoxMesh( <span class="keyword">const</span> Box3f&amp; box );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>[[nodiscard]] MRMESH_API Mesh <a class="code hl_functionRef" href="../Csharp/classMR.html#a34b4c2a422277c1b723a8d77ce26cfde">makeBoxMesh</a>( <span class="keyword">const</span> Box3f&amp; box );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a34b4c2a422277c1b723a8d77ce26cfde"><div class="ttname"><a href="../Csharp/classMR.html#a34b4c2a422277c1b723a8d77ce26cfde">MR::makeBoxMesh</a></div><div class="ttdeci">static unsafe MR.Mesh makeBoxMesh(in MR.Box3f box)</div></div>
+<div class="ttc" id="aclassMR_html_a8fe1281a3c71e131dc209e3c1ef35677"><div class="ttname"><a href="../Csharp/classMR.html#a8fe1281a3c71e131dc209e3c1ef35677">MR::makeCube</a></div><div class="ttdeci">static unsafe MR.Mesh makeCube(MR.Vector3f? size=null, MR.Vector3f? base_=null)</div></div>
+<div class="ttc" id="aclassMR_html_ade8fc33790f59a4536848e84c71a9446"><div class="ttname"><a href="../Csharp/classMR.html#ade8fc33790f59a4536848e84c71a9446">MR::makeCubeTopology</a></div><div class="ttdeci">static unsafe MR.MeshTopology makeCubeTopology()</div></div>
+<div class="ttc" id="aclassMR_html_af6bc668ec5765b0c9dd0c521877e1119"><div class="ttname"><a href="../Csharp/classMR.html#af6bc668ec5765b0c9dd0c521877e1119">MR::makeParallelepiped</a></div><div class="ttdeci">static unsafe MR.Mesh makeParallelepiped(MR.Vector3f? side, in MR.Vector3f base_)</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html_a2fdceeff57d05e3bfae1b9c00a08144e"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">MR::Vector3f::diagonal</a></div><div class="ttdeci">static MR.Vector3f diagonal(float a)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

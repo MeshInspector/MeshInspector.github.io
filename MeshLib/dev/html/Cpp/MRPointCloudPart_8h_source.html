@@ -152,35 +152,33 @@ $(function(){initNavTree('MRPointCloudPart_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="structMR_1_1PointCloudPart.html">    9</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span>PointCloudPart</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">const</span> PointCloud&amp; cloud;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">const</span> VertBitSet* region = <span class="keyword">nullptr</span>; <span class="comment">// nullptr here means all valid points of point cloud</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; c, <span class="keyword">const</span> VertBitSet* bs = <span class="keyword">nullptr</span> ) noexcept : cloud( c ), region( bs )  {}</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>( <span class="keyword">const</span> PointCloud&amp; c, <span class="keyword">const</span> VertBitSet* bs = <span class="keyword">nullptr</span> ) noexcept : cloud( c ), region( bs )  {}</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>&amp; other ) <span class="keyword">noexcept</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>&amp; operator=( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>&amp; other ) <span class="keyword">noexcept</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>&amp; other ) <span class="keyword">noexcept</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>&amp; operator=( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>&amp; other ) <span class="keyword">noexcept</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">if</span> ( <span class="keyword">this</span> != &amp;other )</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="comment">// In modern C++ the result doesn&#39;t need to be `std::launder`ed, right?</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            this-&gt;<a class="code hl_struct" href="structMR_1_1PointCloudPart.html">~PointCloudPart</a>();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            ::new( ( <span class="keywordtype">void</span>* )<span class="keyword">this</span> ) <a class="code hl_struct" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>( other );</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            this-&gt;~PointCloudPart();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            ::new( ( <span class="keywordtype">void</span>* )<span class="keyword">this</span> ) <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>( other );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
-</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="astructMR_1_1PointCloudPart_html"><div class="ttname"><a href="structMR_1_1PointCloudPart.html">MR::PointCloudPart</a></div><div class="ttdoc">represents full point cloud (if region is nullptr) or some portion of point cloud (if region pointer ...</div><div class="ttdef"><b>Definition</b> MRPointCloudPart.h:10</div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1PointCloudPart_html_a186cdd09153352462ff1dbc6184c0932"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">MR::PointCloudPart::PointCloudPart</a></div><div class="ttdeci">unsafe PointCloudPart(MR.Const_PointCloudPart other)</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -98,7 +98,8 @@ var NAVTREE =
     [ "API", "APIPage.html", [
       [ "C++", "Cpp/APICppPage.html", null ],
       [ "Python", "Py/APIPyPage.html", null ],
-      [ "C", "C/APICPage.html", null ]
+      [ "C", "C/APICPage.html", null ],
+      [ "C#", "Csharp/APICsharpPage.html", null ]
     ] ],
     [ "Third-Party Dependencies", "ThirdParty.html", null ]
   ] ]

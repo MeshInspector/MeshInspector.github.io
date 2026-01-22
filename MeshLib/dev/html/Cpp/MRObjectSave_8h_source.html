@@ -156,26 +156,30 @@ $(function(){initNavTree('MRObjectSave_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRUniqueTemporaryFolder.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span>ObjectSave</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>MRMESH_API Expected&lt;void&gt; toAnySupportedSceneFormat( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; file,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1ObjectSave.html#a02ea345222c8335edd77a73314e87e68">toAnySupportedSceneFormat</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; file,</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                                                     <span class="keyword">const</span> Settings&amp; settings = {} );</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>MRMESH_API Expected&lt;void&gt; toAnySupportedFormat( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; file,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1ObjectSave.html#ac2eff38293664a74185b3ba0781db0bb">toAnySupportedFormat</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; file,</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                                                <span class="keyword">const</span> Settings&amp; settings = {} );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <span class="comment">// namespace ObjectSave</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>MRMESH_API Expected&lt;void&gt; serializeObjectTree( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; path,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a61549957b3b3b5ef92608591ea77b74c">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; path,</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                                             FolderCallback preCompress, <span class="keyword">const</span> ObjectSave::Settings&amp; settings = {} );</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>MRMESH_API Expected&lt;void&gt; serializeObjectTree( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; path,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a61549957b3b3b5ef92608591ea77b74c">serializeObjectTree</a>( <span class="keyword">const</span> Object&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::filesystem::path&amp; path,</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                                             <span class="keyword">const</span> ObjectSave::Settings&amp; settings = {} );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aclassMR_1_1ObjectSave_html_a02ea345222c8335edd77a73314e87e68"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectSave.html#a02ea345222c8335edd77a73314e87e68">MR::ObjectSave::toAnySupportedSceneFormat</a></div><div class="ttdeci">static unsafe void toAnySupportedSceneFormat(MR.Const_Object object_, string file, MR.ObjectSave.Const_Settings? settings=null)</div></div>
+<div class="ttc" id="aclassMR_1_1ObjectSave_html_ac2eff38293664a74185b3ba0781db0bb"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectSave.html#ac2eff38293664a74185b3ba0781db0bb">MR::ObjectSave::toAnySupportedFormat</a></div><div class="ttdeci">static unsafe void toAnySupportedFormat(MR.Const_Object object_, string file, MR.ObjectSave.Const_Settings? settings=null)</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a61549957b3b3b5ef92608591ea77b74c"><div class="ttname"><a href="../Csharp/classMR.html#a61549957b3b3b5ef92608591ea77b74c">MR::serializeObjectTree</a></div><div class="ttdeci">static unsafe void serializeObjectTree(MR.Const_Object object_, string path, MR.Std._ByValue_Function_VoidFuncFromConstStdFilesystemPathRef preCompress, MR.ObjectSave.Const_Settings? settings=null)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

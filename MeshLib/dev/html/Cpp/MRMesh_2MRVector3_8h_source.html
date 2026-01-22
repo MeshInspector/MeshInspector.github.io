@@ -164,7 +164,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;concepts&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
@@ -189,7 +189,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keyword">static_assert</span>( <span class="keyword">sizeof</span>( <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;ValueType&gt;</a> ) == elements * <span class="keyword">sizeof</span>( ValueType ), <span class="stringliteral">&quot;Struct size invalid&quot;</span> );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keyword">static_assert</span>( elements == 3, <span class="stringliteral">&quot;Invalid number of elements&quot;</span> );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">explicit</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a>( <a class="code hl_struct" href="structMR_1_1NoInit.html">NoInit</a> ) <span class="keyword">noexcept</span> { }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">explicit</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a>( <a class="code hl_classRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a> ) <span class="keyword">noexcept</span> { }</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">constexpr</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a>( T x, T y, T z ) noexcept : x( x ), y( y ), z( z ) { }</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> U&gt; MR_REQUIRES_IF_SUPPORTED( std::constructible_from&lt;T, U&gt; )</div>
@@ -234,7 +234,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">template</span> &lt;MR_SAME_TYPE_TEMPLATE_PARAM(T, TT)&gt; <span class="comment">// Need this, otherwise the bindings try to instantiate `AffineXf3` with non-FP arguments.</span></div>
 <div class="foldopen" id="foldopen00091" data-start="{" data-end="}">
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="structMR_1_1Vector3.html#a3ff2b05abbbe916d6b2c45fd9be74672">   91</a></span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a> <a class="code hl_function" href="structMR_1_1Vector3.html#a3ff2b05abbbe916d6b2c45fd9be74672">transformed</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3&lt;TT&gt;</a>* xf ) <span class="keyword">const</span> MR_REQUIRES_IF_SUPPORTED( std::floating_point&lt;T&gt; )</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="structMR_1_1Vector3.html#a3ff2b05abbbe916d6b2c45fd9be74672">   91</a></span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3</a> <a class="code hl_function" href="structMR_1_1Vector3.html#a3ff2b05abbbe916d6b2c45fd9be74672">transformed</a>( <span class="keyword">const</span> AffineXf3&lt;TT&gt;* xf ) <span class="keyword">const</span> MR_REQUIRES_IF_SUPPORTED( std::floating_point&lt;T&gt; )</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    {</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordflow">return</span> xf ? ( *xf )( *this ) : *<span class="keyword">this</span>;</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
@@ -422,9 +422,9 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>MR_BIND_IGNORE <span class="keyword">inline</span> <span class="keyword">auto</span> begin( Vector3&lt;T&gt; &amp; v ) { <span class="keywordflow">return</span> &amp;v[0]; }</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>MR_BIND_IGNORE <span class="keyword">inline</span> <span class="keyword">auto</span> end( <span class="keyword">const</span> Vector3&lt;T&gt; &amp; v ) { <span class="keywordflow">return</span> &amp;v[3]; }</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>MR_BIND_IGNORE <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">end</a>( <span class="keyword">const</span> Vector3&lt;T&gt; &amp; v ) { <span class="keywordflow">return</span> &amp;v[3]; }</div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>MR_BIND_IGNORE <span class="keyword">inline</span> <span class="keyword">auto</span> end( Vector3&lt;T&gt; &amp; v ) { <span class="keywordflow">return</span> &amp;v[3]; }</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>MR_BIND_IGNORE <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">end</a>( Vector3&lt;T&gt; &amp; v ) { <span class="keywordflow">return</span> &amp;v[3]; }</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
@@ -434,9 +434,9 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>} <span class="comment">// namespace MR</span></div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="keyword">template</span>&lt;&gt;</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="keyword">struct </span>std::hash&lt;MR::Vector3f&gt;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="keyword">struct </span>std::hash&lt;<a class="code hl_classRef" href="../Csharp/classMR.html">MR</a>::Vector3f&gt;</div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>{</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keywordtype">size_t</span> operator()( MR::Vector3f <span class="keyword">const</span>&amp; p ) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keywordtype">size_t</span> operator()( <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a> <span class="keyword">const</span>&amp; p ) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    {</div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        <span class="comment">// standard implementation is slower:</span></div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        <span class="comment">// phmap::HashState().combine(phmap::Hash&lt;float&gt;()(p.x), p.y, p.z);</span></div>
@@ -448,9 +448,10 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        <span class="keywordflow">return</span> size_t( xy ) ^ ( size_t( z ) &lt;&lt; 16 );</div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    }</div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>};</div>
-<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1NoInit_html"><div class="ttname"><a href="../Csharp/classMR_1_1NoInit.html">MR::NoInit</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:94</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_aa35da2120f781fbf0244a477c9c37a01"><div class="ttname"><a href="../Csharp/classMR.html#aa35da2120f781fbf0244a477c9c37a01">MR::end</a></div><div class="ttdeci">static unsafe MR.ChunkIterator end(MR.Const_IteratorRange_MRChunkIterator range)</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:21</div></div>
-<div class="ttc" id="astructMR_1_1NoInit_html"><div class="ttname"><a href="structMR_1_1NoInit.html">MR::NoInit</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:94</div></div>
 <div class="ttc" id="astructMR_1_1SymMatrix3_html"><div class="ttname"><a href="structMR_1_1SymMatrix3.html">MR::SymMatrix3</a></div><div class="ttdef"><b>Definition</b> MRSymMatrix3.h:15</div></div>
 <div class="ttc" id="astructMR_1_1Vector2_html"><div class="ttname"><a href="structMR_1_1Vector2.html">MR::Vector2</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:29</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:30</div></div>
@@ -466,6 +467,7 @@ $(function(){initNavTree('MRMesh_2MRVector3_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructMR_1_1Vector3_html_ac91a0462b62bab22f973bb517dc805ca"><div class="ttname"><a href="structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca">MR::Vector3::angle</a></div><div class="ttdeci">T angle(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:219</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_ae2acb767e75d8fddbe60a26218e7635a"><div class="ttname"><a href="structMR_1_1Vector3.html#ae2acb767e75d8fddbe60a26218e7635a">MR::Vector3::mult</a></div><div class="ttdeci">Vector3&lt; T &gt; mult(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdoc">per component multiplication</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:203</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html_af9065ae414e0307701366e479519540d"><div class="ttname"><a href="structMR_1_1Vector3.html#af9065ae414e0307701366e479519540d">MR::Vector3::cross</a></div><div class="ttdeci">Vector3&lt; T &gt; cross(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</div><div class="ttdoc">cross product</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:171</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classmrmeshpy_1_1SaveSettings.html":[6,1,0,0,1,780],
 "classmrmeshpy_1_1SaveSettings.html#a1c4405d19328e0f1b917e56fac7f7c8f":[6,1,0,0,1,780,10],
 "classmrmeshpy_1_1SaveSettings.html#a254000896cbd0bbab818dc27474361cb":[6,1,0,0,1,780,13],
 "classmrmeshpy_1_1SaveSettings.html#a2757d2692d68494072f1f487909ffe3b":[6,1,0,0,1,780,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a7908c48c27aaea3d5eacd2f7220a7c87":[6,1,0,0,1,1030,0],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a899ecce4a68cb83a247d44e4a0920bba":[6,1,0,0,1,1030,1],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881":[6,1,0,0,1,1030,3],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,0,0,1,1030,7],
-"classmrmeshpy_1_1SymMatrix2b.html":[6,1,0,0,1,1032]
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,0,0,1,1030,7]
 };

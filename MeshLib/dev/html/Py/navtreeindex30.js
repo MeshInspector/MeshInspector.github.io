@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a4bbab34047ebfa5bc48eebbbf608d8b7":[6,1,0,0,1,1222,1,5],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a9d02e97a48c74697e006ff77deae70cc":[6,1,0,0,1,1222,1,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#aa660ef1107b9f1ae201fe81035c5e5e2":[6,1,0,0,1,1222,1,4],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#abe571c0246244d48c6dd663878b471d4":[6,1,0,0,1,1222,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classmrmeshpy_1_1func__void__from__AABBTreePoints.html#ab3334bd4d208c2c2bca4cb5beda0cfe1":[6,1,0,0,1,343,0],
 "classmrmeshpy_1_1func__void__from__EdgePoint.html":[6,1,0,0,1,344],
 "classmrmeshpy_1_1func__void__from__EdgePoint.html#a5d20ad78feb3d93596b0a696e9991c11":[6,1,0,0,1,344,1],
-"classmrmeshpy_1_1func__void__from__EdgePoint.html#a7e525f9de716f7e74b1bdcd4302d047a":[6,1,0,0,1,344,0],
-"classmrmeshpy_1_1func__void__from__Features__SubfeatureInfo.html":[6,1,0,0,1,345]
+"classmrmeshpy_1_1func__void__from__EdgePoint.html#a7e525f9de716f7e74b1bdcd4302d047a":[6,1,0,0,1,344,0]
 };

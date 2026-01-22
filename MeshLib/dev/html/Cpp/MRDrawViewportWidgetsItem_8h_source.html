@@ -157,7 +157,7 @@ $(function(){initNavTree('MRDrawViewportWidgetsItem_8h_source.html',''); initRes
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;boost/signals2/connection.hpp&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// Inherit your plugin from this to draw viewport widgets from there.</span></div>
@@ -177,7 +177,7 @@ $(function(){initNavTree('MRDrawViewportWidgetsItem_8h_source.html',''); initRes
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keyword">virtual</span> <a class="code hl_struct" href="structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html">~ViewportWidgetInterface</a>() = <span class="keywordflow">default</span>; <span class="comment">// Don&#39;t strictly need this, but MSVC warns otherwise.</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="comment">// Which viewport we&#39;re dealing with.</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        [[nodiscard]] <span class="keyword">virtual</span> <a class="code hl_class" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        [[nodiscard]] <span class="keyword">virtual</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewportId() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="comment">// Register a new button. They will be sorted by `order` (then by name) ascending, left-to-right.</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="comment">// The `onClick` callback will be called late, make sure it doens&#39;t dangle the captures.</span></div>
@@ -218,9 +218,10 @@ $(function(){initNavTree('MRDrawViewportWidgetsItem_8h_source.html',''); initRes
 <div class="ttc" id="aclassMR_1_1DrawViewportWidgetsItem_html"><div class="ttname"><a href="classMR_1_1DrawViewportWidgetsItem.html">MR::DrawViewportWidgetsItem</a></div><div class="ttdef"><b>Definition</b> MRDrawViewportWidgetsItem.h:44</div></div>
 <div class="ttc" id="aclassMR_1_1ProvidesViewportWidget_html"><div class="ttname"><a href="classMR_1_1ProvidesViewportWidget.html">MR::ProvidesViewportWidget</a></div><div class="ttdef"><b>Definition</b> MRDrawViewportWidgetsItem.h:15</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenuItem_html"><div class="ttname"><a href="classMR_1_1RibbonMenuItem.html">MR::RibbonMenuItem</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenuItem.h:20</div></div>
-<div class="ttc" id="aclassMR_1_1ViewportId_html"><div class="ttname"><a href="classMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1Viewport_html"><div class="ttname"><a href="classMR_1_1Viewport.html">MR::Viewport</a></div><div class="ttdef"><b>Definition</b> MRViewport.h:46</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface_html"><div class="ttname"><a href="structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html">MR::ProvidesViewportWidget::ViewportWidgetInterface</a></div><div class="ttdef"><b>Definition</b> MRDrawViewportWidgetsItem.h:24</div></div>
+<div class="ttc" id="astructMR_1_1ViewportId_html"><div class="ttname"><a href="../Csharp/structMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

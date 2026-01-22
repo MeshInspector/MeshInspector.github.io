@@ -160,11 +160,11 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// create first sphere with radius of 1 unit</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> sphere1 = MR::makeUVSphere( 1.0f, 64, 64 );</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> sphere1 = MR::makeUVSphere( 1.0f, 64, 64 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// create second sphere by cloning the first sphere and moving it in X direction</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> sphere2 = sphere1;</div>
-<div class="line">    MR::AffineXf3f xf = MR::AffineXf3f::translation( MR::Vector3f( 0.7f, 0.0f, 0.0f ) );</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> sphere2 = sphere1;</div>
+<div class="line">    <a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a> xf = <a class="code hl_functionRef" href="./Csharp/structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883">MR::AffineXf3f::translation</a>( <a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a>( 0.7f, 0.0f, 0.0f ) );</div>
 <div class="line">    sphere2.transform( xf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// perform boolean operation</span></div>
@@ -172,7 +172,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">    <span class="keywordflow">if</span> ( !result.valid() )</div>
 <div class="line">        std::cerr &lt;&lt; result.errorString &lt;&lt; std::endl;</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// save result to STL file</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( resultMesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span> ); !saveRes )</div>
@@ -185,8 +185,11 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">}</div>
 <div class="ttc" id="agroup__BooleanGroup_html_ga5dc229b89588f1a3416aca4910e460d9"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a></div><div class="ttdeci">MRMESH_API BooleanResult boolean(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></div></div>
+<div class="ttc" id="astructMR_1_1AffineXf3f_html_a6f7864db8ce7c5de0f3bd4cff16cb883"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883">MR::AffineXf3f::translation</a></div><div class="ttdeci">static unsafe MR.AffineXf3f translation(in MR.Vector3f b)</div></div>
 <div class="ttc" id="astructMR_1_1BooleanResult_html"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a></div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>

@@ -153,7 +153,7 @@ $(function(){initNavTree('MRFitData_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRViewerFwd.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// Fit mode ( types of objects for which the fit is applied )</span></div>
@@ -195,9 +195,9 @@ $(function(){initNavTree('MRFitData_8h_source.html',''); initResizable(true); })
 <div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structMR_1_1FitBoxParams.html">   41</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FitBoxParams.html">FitBoxParams</a> : <a class="code hl_struct" href="structMR_1_1BaseFitParams.html">BaseFitParams</a></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    Box3f worldBox; <span class="comment">// box in world space to fit</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a> worldBox; <span class="comment">// box in world space to fit</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_struct" href="structMR_1_1FitBoxParams.html">FitBoxParams</a>( <span class="keyword">const</span> Box3f&amp; worldBox_, <span class="keywordtype">float</span> factor_ = 1.f, <span class="keywordtype">bool</span> snapView_ = <span class="keyword">false</span> ) :</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_struct" href="structMR_1_1FitBoxParams.html">FitBoxParams</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a>&amp; worldBox_, <span class="keywordtype">float</span> factor_ = 1.f, <span class="keywordtype">bool</span> snapView_ = <span class="keyword">false</span> ) :</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_struct" href="structMR_1_1BaseFitParams.html">BaseFitParams</a>{ factor_, snapView_ },</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        worldBox( worldBox_ )</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {};</div>
@@ -205,7 +205,9 @@ $(function(){initNavTree('MRFitData_8h_source.html',''); initResizable(true); })
 </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1BaseFitParams_html"><div class="ttname"><a href="structMR_1_1BaseFitParams.html">MR::BaseFitParams</a></div><div class="ttdef"><b>Definition</b> MRFitData.h:20</div></div>
+<div class="ttc" id="astructMR_1_1Box3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Box3f.html">MR::Box3f</a></div></div>
 <div class="ttc" id="astructMR_1_1FitBoxParams_html"><div class="ttname"><a href="structMR_1_1FitBoxParams.html">MR::FitBoxParams</a></div><div class="ttdef"><b>Definition</b> MRFitData.h:42</div></div>
 <div class="ttc" id="astructMR_1_1FitDataParams_html"><div class="ttname"><a href="structMR_1_1FitDataParams.html">MR::FitDataParams</a></div><div class="ttdef"><b>Definition</b> MRFitData.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->

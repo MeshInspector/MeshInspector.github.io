@@ -1,0 +1,4 @@
+var classMR_1_1Std_1_1__InOptConst__Optional__StdVectorMRSomeLocalTriangulations =
+[
+    [ "operator _InOptConst_Optional_StdVectorMRSomeLocalTriangulations", "classMR_1_1Std_1_1__InOptConst__Optional__StdVectorMRSomeLocalTriangulations.html#ab8c7f90113dc2fcaa7d979021a01dd03", null ]
+];

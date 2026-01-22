@@ -1,4 +1,9 @@
 var group__MeshSaveObjGroup =
 [
-    [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ]
+    [ "MR::MeshSave::NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html", [
+      [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#adf82b8ad5ccfc33432d06ee257111f70", null ],
+      [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a41820994bc08d98059e887656367b4ae", null ],
+      [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a114ac1f959d1d3a0b1b693b75d7fb9eb", null ],
+      [ "assign", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a03cafaa84edcb9f6e25ec2402cebcd2e", null ]
+    ] ]
 ];

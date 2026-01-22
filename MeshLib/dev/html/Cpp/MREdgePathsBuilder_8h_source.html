@@ -158,12 +158,11 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRMacros.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;queue&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structMR_1_1VertPathInfo.html">   18</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1VertPathInfo.html">VertPathInfo</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">struct </span>VertPathInfo</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">// edge from this vertex to its predecessor in the forest</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    EdgeId back;</div>
@@ -172,7 +171,6 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">bool</span> isStart()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> !back.valid(); }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
-</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">// ParallelHashMap here was significantly slower (especially in debug version of tunnel detection),</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// probably because of more allocations</span></div>
@@ -183,22 +181,22 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html">   34</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> EdgeMetric &amp; metric );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> EdgeMetric &amp; metric );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a8b233d3b70904335296fbd82fcbc693f">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a8b233d3b70904335296fbd82fcbc693f">reset</a>( <span class="keyword">const</span> EdgeMetric &amp; metric );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">   46</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">addStart</a>( VertId startVert, <span class="keywordtype">float</span> startMetric );</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">   46</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">addStart</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> startVert, <span class="keywordtype">float</span> startMetric );</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="foldopen" id="foldopen00049" data-start="{" data-end="};">
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">   49</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        VertId v;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">   54</a></span>        EdgeId <a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">   54</a></span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> <a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a>;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec">   58</a></span>        <span class="keywordtype">float</span> <a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec">penalty</a> = FLT_MAX;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
@@ -223,25 +221,25 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3">   83</a></span>    <span class="keyword">const</span> VertPathInfoMap &amp; <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3">vertPathInfoMap</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> vertPathInfoMap_; }</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
 <div class="foldopen" id="foldopen00086" data-start="{" data-end="}">
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">   86</a></span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> * <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">getVertInfo</a>( VertId v ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">   86</a></span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VertPathInfo.html">VertPathInfo</a> * <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">getVertInfo</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
 <div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">   89</a></span>    EdgePath <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">getPathBack</a>( VertId backpathStart ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">   89</a></span>    EdgePath <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">getPathBack</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> backpathStart ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">   93</a></span>    VertId <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">trackPathBack</a>( VertId backpathStart, EdgePath* res = <span class="keyword">nullptr</span> ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">   93</a></span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">trackPathBack</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> backpathStart, EdgePath* res = <span class="keyword">nullptr</span> ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    MR_NO_UNIQUE_ADDRESS MetricToPenalty metricToPenalty_;</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology_;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology_;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    EdgeMetric metric_;</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    VertPathInfoMap vertPathInfoMap_;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keyword">struct </span>CandidateVert</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    {</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        VertId v;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v;</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keywordtype">float</span> penalty = FLT_MAX;</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keyword">friend</span> <span class="keywordtype">bool</span> operator &lt;( <span class="keyword">const</span> CandidateVert &amp; a, <span class="keyword">const</span> CandidateVert &amp; b )</div>
@@ -254,17 +252,15 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">bool</span> addNextStep_( <span class="keyword">const</span> VertPathInfo &amp; c );</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>};</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="foldopen" id="foldopen00124" data-start="{" data-end="};">
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="structMR_1_1TrivialMetricToPenalty.html">  124</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1TrivialMetricToPenalty.html">TrivialMetricToPenalty</a></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">struct </span>TrivialMetricToPenalty</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>{</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">float</span> operator()( <span class="keywordtype">float</span> metric, VertId )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> metric; }</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>};</div>
-</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="keyword">using </span><a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilder</a> = <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT&lt;TrivialMetricToPenalty&gt;</a>;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="keyword">using </span>EdgePathsBuilder = EdgePathsBuilderT&lt;TrivialMetricToPenalty&gt;;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> MetricToPenalty&gt;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT&lt;MetricToPenalty&gt;::EdgePathsBuilderT</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> EdgeMetric &amp; metric )</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>EdgePathsBuilderT&lt;MetricToPenalty&gt;::EdgePathsBuilderT( <span class="keyword">const</span> MeshTopology &amp; topology, <span class="keyword">const</span> EdgeMetric &amp; metric )</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    : topology_( topology )</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    , metric_( metric )</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>{</div>
@@ -289,12 +285,12 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> MetricToPenalty&gt;</div>
 <div class="foldopen" id="foldopen00154" data-start="{" data-end="}">
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">  154</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">EdgePathsBuilderT&lt;MetricToPenalty&gt;::addStart</a>( VertId startVert, <span class="keywordtype">float</span> startMetric )</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">  154</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">EdgePathsBuilderT&lt;MetricToPenalty&gt;::addStart</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> startVert, <span class="keywordtype">float</span> startMetric )</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>{</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="keyword">auto</span> &amp; vi = vertPathInfoMap_[startVert];</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keywordflow">if</span> ( vi.metric &gt; startMetric )</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    {</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        vi = { EdgeId{}, startMetric };</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        vi = { <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a>{}, startMetric };</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        nextSteps_.push( CandidateVert{ startVert, metricToPenalty_( startMetric, startVert ) } );</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    }</div>
@@ -304,7 +300,7 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> MetricToPenalty&gt;</div>
 <div class="foldopen" id="foldopen00167" data-start="{" data-end="}">
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">  167</a></span><span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> * <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">EdgePathsBuilderT&lt;MetricToPenalty&gt;::getVertInfo</a>( VertId v )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">  167</a></span><span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VertPathInfo.html">VertPathInfo</a> * <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">EdgePathsBuilderT&lt;MetricToPenalty&gt;::getVertInfo</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="keyword">auto</span> it = vertPathInfoMap_.find( v );</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordflow">return</span> ( it != vertPathInfoMap_.end() ) ? &amp;it-&gt;second : <span class="keyword">nullptr</span>;</div>
@@ -313,7 +309,7 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> MetricToPenalty&gt;</div>
 <div class="foldopen" id="foldopen00174" data-start="{" data-end="}">
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">  174</a></span>EdgePath <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">EdgePathsBuilderT&lt;MetricToPenalty&gt;::getPathBack</a>( VertId v )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">  174</a></span>EdgePath <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">EdgePathsBuilderT&lt;MetricToPenalty&gt;::getPathBack</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    EdgePath res;</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    trackPathBack( v, &amp;res );</div>
@@ -323,7 +319,7 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> MetricToPenalty&gt;</div>
 <div class="foldopen" id="foldopen00182" data-start="{" data-end="}">
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">  182</a></span>VertId <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">EdgePathsBuilderT&lt;MetricToPenalty&gt;::trackPathBack</a>( VertId v, EdgePath* res )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">  182</a></span><a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a91060ff48000e2ddc2037bedefc72197">EdgePathsBuilderT&lt;MetricToPenalty&gt;::trackPathBack</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v, EdgePath* res )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="keywordflow">for</span> (;;)</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    {</div>
@@ -346,7 +342,7 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 </div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> MetricToPenalty&gt;</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="keywordtype">bool</span> <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT&lt;MetricToPenalty&gt;::addNextStep_</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> &amp; c )</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="keywordtype">bool</span> <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT&lt;MetricToPenalty&gt;::addNextStep_</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VertPathInfo.html">VertPathInfo</a> &amp; c )</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>{</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keywordflow">if</span> ( !( c.metric &lt; FLT_MAX ) )</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">// maximal or infinity metric means that this path shall be skipped</span></div>
@@ -372,10 +368,10 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="keywordflow">return</span> aNextStepAdded;</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    }</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    <span class="keyword">const</span> <span class="keywordtype">float</span> orgMetric = rv.<a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f">metric</a>;</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keyword">const</span> EdgeId back = rv.<a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a> ? rv.<a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a> : topology_.edgeWithOrg( rv.v );</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    <span class="keywordflow">for</span> ( EdgeId e : orgRing( topology_, back ) )</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> back = rv.<a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a> ? rv.<a class="code hl_variable" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">backward</a> : topology_.edgeWithOrg( rv.v );</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    <span class="keywordflow">for</span> ( <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> e : orgRing( topology_, back ) )</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    {</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        <a class="code hl_struct" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> c;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        <a class="code hl_classRef" href="../Csharp/classMR_1_1VertPathInfo.html">VertPathInfo</a> c;</div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        c.back = e.sym();</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        c.metric = orgMetric + metric_( e );</div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        aNextStepAdded = addNextStep_( c ) || aNextStepAdded;</div>
@@ -415,42 +411,38 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>}</div>
 </div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
-<div class="foldopen" id="foldopen00268" data-start="{" data-end="};">
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="structMR_1_1MetricToAStarPenalty.html">  268</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MetricToAStarPenalty.html">MetricToAStarPenalty</a></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1MetricToAStarPenalty.html">MetricToAStarPenalty</a></div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>{</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="keyword">const</span> VertCoords * points = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    Vector3f target;</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <span class="keywordtype">float</span> operator()( <span class="keywordtype">float</span> metric, VertId v )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VertCoords.html">VertCoords</a> * points = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> target;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <span class="keywordtype">float</span> operator()( <span class="keywordtype">float</span> metric, <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        <span class="keywordflow">return</span> metric + ( (*points)[v] - target ).length();</div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    }</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>};</div>
-</div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
-<div class="foldopen" id="foldopen00280" data-start="{" data-end="};">
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="classMR_1_1EdgePathsAStarBuilder.html">  280</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1EdgePathsAStarBuilder.html">EdgePathsAStarBuilder</a>: <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>&lt;MetricToAStarPenalty&gt;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span><span class="keyword">class </span>EdgePathsAStarBuilder: <span class="keyword">public</span> EdgePathsBuilderT&lt;MetricToAStarPenalty&gt;</div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>{</div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <a class="code hl_class" href="classMR_1_1EdgePathsAStarBuilder.html">EdgePathsAStarBuilder</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, VertId target, VertId start ) :</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>( mesh.topology, <a class="code hl_function" href="group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">edgeLengthMetric</a>( mesh ) )</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a70a64104594575ac1321fec8d28bd596">EdgePathsAStarBuilder</a>( <span class="keyword">const</span> Mesh &amp; mesh, VertId target, VertId start ) :</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        EdgePathsBuilderT( mesh.topology, <a class="code hl_function" href="group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">edgeLengthMetric</a>( mesh ) )</div>
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    {</div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        metricToPenalty_.points = &amp;mesh.points;</div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        metricToPenalty_.target = mesh.points[target];</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">addStart</a>( start, 0 );</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        <a class="code hl_functionRef" href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html#aa9649a502978f100a34c2da70a794125">addStart</a>( start, 0 );</div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    }</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <a class="code hl_class" href="classMR_1_1EdgePathsAStarBuilder.html">EdgePathsAStarBuilder</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp; target, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp; start ) :</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        <a class="code hl_class" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>( mesh.topology, <a class="code hl_function" href="group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">edgeLengthMetric</a>( mesh ) )</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a70a64104594575ac1321fec8d28bd596">EdgePathsAStarBuilder</a>( <span class="keyword">const</span> Mesh &amp; mesh, <span class="keyword">const</span> MeshTriPoint &amp; target, <span class="keyword">const</span> MeshTriPoint &amp; start ) :</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        EdgePathsBuilderT( mesh.topology, <a class="code hl_function" href="group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">edgeLengthMetric</a>( mesh ) )</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    {</div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        metricToPenalty_.points = &amp;mesh.points;</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        metricToPenalty_.target = mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a9c3fed969fd69fc13302e22b2d6fd4ad">triPoint</a>( target );</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        <span class="keyword">const</span> <span class="keyword">auto</span> startPt = mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a9c3fed969fd69fc13302e22b2d6fd4ad">triPoint</a>( start );</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        mesh.topology.<a class="code hl_function" href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">forEachVertex</a>( start, [&amp;]( VertId v )</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        metricToPenalty_.target = mesh.triPoint( target );</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        <span class="keyword">const</span> <span class="keyword">auto</span> startPt = mesh.triPoint( start );</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        mesh.topology.forEachVertex( start, [&amp;]( VertId v )</div>
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        {</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>            <a class="code hl_function" href="classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb">addStart</a>( v, ( mesh.points[v] - startPt ).length() );</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>            <a class="code hl_functionRef" href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html#aa9649a502978f100a34c2da70a794125">addStart</a>( v, ( mesh.points[v] - startPt ).length() );</div>
 <div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        } );</div>
 <div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    }</div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>};</div>
-</div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>} <span class="comment">// namespace MR</span></div>
@@ -462,7 +454,8 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 </div>
 </div>
 </div>
-<div class="ttc" id="aclassMR_1_1EdgePathsAStarBuilder_html"><div class="ttname"><a href="classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:281</div></div>
+<div class="ttc" id="aclassMR_1_1EdgePathsAStarBuilder_html_a70a64104594575ac1321fec8d28bd596"><div class="ttname"><a href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a70a64104594575ac1321fec8d28bd596">MR::EdgePathsAStarBuilder::EdgePathsAStarBuilder</a></div><div class="ttdeci">unsafe EdgePathsAStarBuilder(MR._ByValue_EdgePathsAStarBuilder _other)</div></div>
+<div class="ttc" id="aclassMR_1_1EdgePathsAStarBuilder_html_aa9649a502978f100a34c2da70a794125"><div class="ttname"><a href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html#aa9649a502978f100a34c2da70a794125">MR::EdgePathsAStarBuilder::addStart</a></div><div class="ttdeci">unsafe bool addStart(MR.VertId startVert, float startMetric)</div></div>
 <div class="ttc" id="aclassMR_1_1EdgePathsBuilderT_html"><div class="ttname"><a href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a></div><div class="ttdoc">the class is responsible for finding smallest metric edge paths on a mesh</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:35</div></div>
 <div class="ttc" id="aclassMR_1_1EdgePathsBuilderT_html_a245a1aca92a23d5b494706916ea2554e"><div class="ttname"><a href="classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e">MR::EdgePathsBuilderT::growOneEdge</a></div><div class="ttdeci">ReachedVert growOneEdge()</div><div class="ttdoc">the same as reachNext() + addOrgRingSteps()</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:259</div></div>
 <div class="ttc" id="aclassMR_1_1EdgePathsBuilderT_html_a336db542a3c1e1aafb7a7e132ee4a508"><div class="ttname"><a href="classMR_1_1EdgePathsBuilderT.html#a336db542a3c1e1aafb7a7e132ee4a508">MR::EdgePathsBuilderT::done</a></div><div class="ttdeci">bool done() const</div><div class="ttdoc">returns true if further edge forest growth is impossible</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:77</div></div>
@@ -475,19 +468,19 @@ $(function(){initNavTree('MREdgePathsBuilder_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1EdgePathsBuilderT_html_aa5a3f3206ed7ec78c89eef5860137181"><div class="ttname"><a href="classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181">MR::EdgePathsBuilderT::getPathBack</a></div><div class="ttdeci">EdgePath getPathBack(VertId backpathStart) const</div><div class="ttdoc">returns the path in the forest from given vertex to one of start vertices</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:174</div></div>
 <div class="ttc" id="aclassMR_1_1EdgePathsBuilderT_html_ad30700907c0223d6668cc9e5910765c3"><div class="ttname"><a href="classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3">MR::EdgePathsBuilderT::vertPathInfoMap</a></div><div class="ttdeci">const VertPathInfoMap &amp; vertPathInfoMap() const</div><div class="ttdoc">gives read access to the map from vertex to path to it</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:83</div></div>
 <div class="ttc" id="aclassMR_1_1EdgePathsBuilderT_html_ae50a59bc1425eff2906ad0c18accbabc"><div class="ttname"><a href="classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc">MR::EdgePathsBuilderT::getVertInfo</a></div><div class="ttdeci">const VertPathInfo * getVertInfo(VertId v) const</div><div class="ttdoc">returns one element from the map (or nullptr if the element is missing)</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:167</div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:19</div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html_aad405e625450208e48d0237b9b5f53e8"><div class="ttname"><a href="classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8">MR::MeshTopology::forEachVertex</a></div><div class="ttdeci">void forEachVertex(const MeshTriPoint &amp;p, T &amp;&amp;callback) const</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:599</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1MetricToAStarPenalty_html"><div class="ttname"><a href="../Csharp/classMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:269</div></div>
+<div class="ttc" id="aclassMR_1_1VertCoords_html"><div class="ttname"><a href="../Csharp/classMR_1_1VertCoords.html">MR::VertCoords</a></div></div>
+<div class="ttc" id="aclassMR_1_1VertPathInfo_html"><div class="ttname"><a href="../Csharp/classMR_1_1VertPathInfo.html">MR::VertPathInfo</a></div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:19</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__SurfacePathGroup_html_gab0c6bfd4f01e28a6c034a2195143e410"><div class="ttname"><a href="group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">MR::edgeLengthMetric</a></div><div class="ttdeci">MRMESH_API EdgeMetric edgeLengthMetric(const Mesh &amp;mesh)</div></div>
+<div class="ttc" id="astructMR_1_1EdgeId_html"><div class="ttname"><a href="../Csharp/structMR_1_1EdgeId.html">MR::EdgeId</a></div></div>
 <div class="ttc" id="astructMR_1_1EdgePathsBuilderT_1_1ReachedVert_html"><div class="ttname"><a href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">MR::EdgePathsBuilderT::ReachedVert</a></div><div class="ttdoc">information about just reached vertex (with final metric value)</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:50</div></div>
 <div class="ttc" id="astructMR_1_1EdgePathsBuilderT_1_1ReachedVert_html_a0e59111b442fc3dcfc4cfc089a0972ec"><div class="ttname"><a href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec">MR::EdgePathsBuilderT::ReachedVert::penalty</a></div><div class="ttdeci">float penalty</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:58</div></div>
 <div class="ttc" id="astructMR_1_1EdgePathsBuilderT_1_1ReachedVert_html_a4c276cfcbefefc36c49ded5ed151d1f4"><div class="ttname"><a href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4">MR::EdgePathsBuilderT::ReachedVert::backward</a></div><div class="ttdeci">EdgeId backward</div><div class="ttdoc">edge from this vertex to its predecessor in the forest (if this vertex is not start)</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:54</div></div>
 <div class="ttc" id="astructMR_1_1EdgePathsBuilderT_1_1ReachedVert_html_a86bbb1910bc530c8f88287ede3605c5f"><div class="ttname"><a href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f">MR::EdgePathsBuilderT::ReachedVert::metric</a></div><div class="ttdeci">float metric</div><div class="ttdoc">summed metric to reach this vertex</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:61</div></div>
-<div class="ttc" id="astructMR_1_1MeshTriPoint_html"><div class="ttname"><a href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a></div><div class="ttdef"><b>Definition</b> MRMeshTriPoint.h:23</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a9c3fed969fd69fc13302e22b2d6fd4ad"><div class="ttname"><a href="structMR_1_1Mesh.html#a9c3fed969fd69fc13302e22b2d6fd4ad">MR::Mesh::triPoint</a></div><div class="ttdeci">Vector3f triPoint(const MeshTriPoint &amp;p) const</div><div class="ttdoc">computes coordinates of point given as face and barycentric representation</div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:103</div></div>
-<div class="ttc" id="astructMR_1_1MetricToAStarPenalty_html"><div class="ttname"><a href="structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:269</div></div>
-<div class="ttc" id="astructMR_1_1TrivialMetricToPenalty_html"><div class="ttname"><a href="structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></div><div class="ttdoc">the vertices in the queue are ordered by their metric from a start location</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:125</div></div>
-<div class="ttc" id="astructMR_1_1VertPathInfo_html"><div class="ttname"><a href="structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></div><div class="ttdoc">information associated with each vertex by the paths builder</div><div class="ttdef"><b>Definition</b> MREdgePathsBuilder.h:19</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
+<div class="ttc" id="astructMR_1_1VertId_html"><div class="ttname"><a href="../Csharp/structMR_1_1VertId.html">MR::VertId</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

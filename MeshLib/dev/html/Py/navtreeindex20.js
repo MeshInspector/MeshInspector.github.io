@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1PositionVertsSmoothlyParams.html#ab85516693d51e30da33bffe3de6e7c79":[6,1,0,0,1,742,3],
 "classmrmeshpy_1_1PositionVertsSmoothlyParams.html#ad2bb0877451ea53954ba22f4b3925471":[6,1,0,0,1,742,0],
 "classmrmeshpy_1_1PositionedText.html":[6,1,0,0,1,741],
 "classmrmeshpy_1_1PositionedText.html#aee7283a048dca12527a6c59ec82793fc":[6,1,0,0,1,741,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html":[6,1,0,0,1,778],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#ac71797176508f6b96e6454c8aa9d283e":[6,1,0,0,1,778,0],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html":[6,1,0,0,1,779],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a88dfc67c20ff5cdc3067a9497a636794":[6,1,0,0,1,779,0],
-"classmrmeshpy_1_1SaveSettings.html":[6,1,0,0,1,780]
+"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a88dfc67c20ff5cdc3067a9497a636794":[6,1,0,0,1,779,0]
 };

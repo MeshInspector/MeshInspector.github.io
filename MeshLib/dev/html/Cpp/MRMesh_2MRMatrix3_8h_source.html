@@ -155,7 +155,7 @@ $(function(){initNavTree('MRMesh_2MRMatrix3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRConstants.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;iosfwd&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
@@ -318,12 +318,12 @@ $(function(){initNavTree('MRMesh_2MRMatrix3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="keyword">constexpr</span> Matrix3&lt;T&gt; Matrix3&lt;T&gt;::rotation( <span class="keyword">const</span> Vector3&lt;T&gt; &amp; from, <span class="keyword">const</span> Vector3&lt;T&gt; &amp; to ) <span class="keyword">noexcept</span> MR_REQUIRES_IF_SUPPORTED( std::floating_point&lt;T&gt; )</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>{</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keyword">auto</span> axis = cross( from, to );</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keyword">auto</span> axis = <a class="code hl_functionRef" href="../Csharp/classMR.html#a8262ed4b2e9da97ef796325d81795956">cross</a>( from, to );</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordflow">if</span> ( axis.lengthSq() &gt; 0 )</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        <span class="keywordflow">return</span> rotation( axis, angle( from, to ) );</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keywordflow">if</span> ( dot( from, to ) &gt;= 0 )</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">dot</a>( from, to ) &gt;= 0 )</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        <span class="keywordflow">return</span> {}; <span class="comment">// identity matrix</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordflow">return</span> rotation( cross( from, from.furthestBasisVector() ), T( PI ) );</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordflow">return</span> rotation( <a class="code hl_functionRef" href="../Csharp/classMR.html#a8262ed4b2e9da97ef796325d81795956">cross</a>( from, from.furthestBasisVector() ), T( PI ) );</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>}</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
@@ -410,12 +410,12 @@ $(function(){initNavTree('MRMesh_2MRMatrix3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="keyword">auto</span> a2 = col( 2 );</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r00 = a0.length();</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    <span class="keyword">const</span> <span class="keyword">auto</span> e0 = r00 &gt; 0 ? a0 / r00 : Vector3&lt;T&gt;{};</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r01 = dot( e0, a1 );</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r02 = dot( e0, a2 );</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r01 = <a class="code hl_functionRef" href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">dot</a>( e0, a1 );</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r02 = <a class="code hl_functionRef" href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">dot</a>( e0, a2 );</div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    a1 -= r01 * e0;</div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r11 = a1.length();</div>
 <div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keyword">const</span> <span class="keyword">auto</span> e1 = r11 &gt; 0 ? a1 / r11 : Vector3&lt;T&gt;{};</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r12 = dot( e1, a2 );</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r12 = <a class="code hl_functionRef" href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">dot</a>( e1, a2 );</div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    a2 -= r02 * e0 + r12 * e1;</div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r22 = a2.length();</div>
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    <span class="keyword">const</span> <span class="keyword">auto</span> e2 = r22 &gt; 0 ? a2 / r22 : Vector3&lt;T&gt;{};</div>
@@ -432,6 +432,9 @@ $(function(){initNavTree('MRMesh_2MRMatrix3_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span> </div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a3f50b1abf767a317c694879ffd14f875"><div class="ttname"><a href="../Csharp/classMR.html#a3f50b1abf767a317c694879ffd14f875">MR::dot</a></div><div class="ttdeci">static unsafe int dot(in MR.Vector2b a, in MR.Vector2b b)</div></div>
+<div class="ttc" id="aclassMR_html_a8262ed4b2e9da97ef796325d81795956"><div class="ttname"><a href="../Csharp/classMR.html#a8262ed4b2e9da97ef796325d81795956">MR::cross</a></div><div class="ttdeci">static unsafe float cross(in MR.Vector2f a, in MR.Vector2f b)</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_1_1QR_html"><div class="ttname"><a href="structMR_1_1Matrix3_1_1QR.html">MR::Matrix3::QR</a></div><div class="ttdoc">returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x)</div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:92</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:21</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html_a00191595d8bf3137e7641cffc27937de"><div class="ttname"><a href="structMR_1_1Matrix3.html#a00191595d8bf3137e7641cffc27937de">MR::Matrix3::scale</a></div><div class="ttdeci">static constexpr Matrix3 scale(T sx, T sy, T sz) noexcept</div><div class="ttdoc">returns a matrix that has its own scale along each axis</div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:47</div></div>

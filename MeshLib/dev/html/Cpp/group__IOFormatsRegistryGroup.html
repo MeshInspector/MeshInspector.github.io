@@ -160,20 +160,20 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga5ee8e917fb46e839dd5ff1a5cb49fdeb" id="r_ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ee8e917fb46e839dd5ff1a5cb49fdeb">MR_ADD_MESH_LOADER</a>(filter,  loader)&#160;&#160;&#160;MR_ON_INIT { using namespace MR::MeshLoad; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) } ); };</td></tr>
+<tr class="memitem:ga5ee8e917fb46e839dd5ff1a5cb49fdeb" id="r_ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ee8e917fb46e839dd5ff1a5cb49fdeb">MR_ADD_MESH_LOADER</a>(filter,  loader)&#160;&#160;&#160;MR_ON_INIT { using namespace <a class="elRef" href="../Csharp/classMR_1_1MeshLoad.html">MR::MeshLoad</a>; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) } ); };</td></tr>
 <tr class="memdesc:ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register filter with loader function.  <br /></td></tr>
 <tr class="separator:ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaacf2f9b26a2c29111f029dfed6320630" id="r_gaacf2f9b26a2c29111f029dfed6320630"><td class="memItemLeft" align="right" valign="top"><a id="gaacf2f9b26a2c29111f029dfed6320630" name="gaacf2f9b26a2c29111f029dfed6320630"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MR_ADD_MESH_LOADER_WITH_PRIORITY</b>(filter,  loader,  priority)&#160;&#160;&#160;MR_ON_INIT { using namespace MR::MeshLoad; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) }, priority ); };</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MR_ADD_MESH_LOADER_WITH_PRIORITY</b>(filter,  loader,  priority)&#160;&#160;&#160;MR_ON_INIT { using namespace <a class="elRef" href="../Csharp/classMR_1_1MeshLoad.html">MR::MeshLoad</a>; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) }, priority ); };</td></tr>
 <tr class="separator:gaacf2f9b26a2c29111f029dfed6320630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:gaf573976800f135f2ae1cc5430be86fb0" id="r_gaf573976800f135f2ae1cc5430be86fb0"><td class="memItemLeft" align="right" valign="top"><a id="gaf573976800f135f2ae1cc5430be86fb0" name="gaf573976800f135f2ae1cc5430be86fb0"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::MeshLoad::MeshFileLoader</b> = Expected&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; )</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::MeshLoad::MeshFileLoader</b> = Expected&lt;<a class="elRef" href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a>&gt;( * )( const std::filesystem::path&amp;, const <a class="elRef" href="../Csharp/classMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; )</td></tr>
 <tr class="separator:gaf573976800f135f2ae1cc5430be86fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga485ea6956850ab0f801b945739a8a9d3" id="r_ga485ea6956850ab0f801b945739a8a9d3"><td class="memItemLeft" align="right" valign="top"><a id="ga485ea6956850ab0f801b945739a8a9d3" name="ga485ea6956850ab0f801b945739a8a9d3"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::MeshLoad::MeshStreamLoader</b> = Expected&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&gt;( * )( std::istream&amp;, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; )</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::MeshLoad::MeshStreamLoader</b> = Expected&lt;<a class="elRef" href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a>&gt;( * )( std::istream&amp;, const <a class="elRef" href="../Csharp/classMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; )</td></tr>
 <tr class="separator:ga485ea6956850ab0f801b945739a8a9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -192,7 +192,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>MR::MeshLoad::MeshSt
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>&#160;)&#160;&#160;&#160;MR_ON_INIT { using namespace MR::MeshLoad; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) } ); };</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>&#160;)&#160;&#160;&#160;MR_ON_INIT { using namespace <a class="elRef" href="../Csharp/classMR_1_1MeshLoad.html">MR::MeshLoad</a>; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) } ); };</td>
         </tr>
       </table>
 </div><div class="memdoc">

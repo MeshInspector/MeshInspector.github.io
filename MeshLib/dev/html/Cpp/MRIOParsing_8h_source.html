@@ -155,11 +155,11 @@ $(function(){initNavTree('MRIOParsing_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRPch/MRBindingMacros.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;istream&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// returns offsets for each new line in monolith char block</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>MRMESH_API std::vector&lt;size_t&gt; splitByLines( <span class="keyword">const</span> <span class="keywordtype">char</span>* data, <span class="keywordtype">size_t</span> size );</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>MRMESH_API std::vector&lt;size_t&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a1cf34f84dd89be7960487a6eec67a14f">splitByLines</a>( <span class="keyword">const</span> <span class="keywordtype">char</span>* data, <span class="keywordtype">size_t</span> size );</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// get the size of the remaining data in the input stream</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// This has `MR_BIND_IGNORE` for now because it doesn&#39;t look very useful in C, since our `istream` bindings are minimal (the only istream you</span></div>
@@ -184,11 +184,11 @@ $(function(){initNavTree('MRIOParsing_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>Expected&lt;void&gt; parsePtsCoordinate( <span class="keyword">const</span> std::string_view&amp; str, Vector3&lt;T&gt;&amp; v, Color&amp; c );</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// reads the first integer number in the line</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>MRMESH_API Expected&lt;void&gt; parseFirstNum( <span class="keyword">const</span> std::string_view&amp; str, <span class="keywordtype">int</span>&amp; num );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a63bc825e61eba9f0d73095d13e2010fb">parseFirstNum</a>( <span class="keyword">const</span> std::string_view&amp; str, <span class="keywordtype">int</span>&amp; num );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">// reads the polygon points and optional number of polygon points</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">// example</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// N vertex0 vertex1 ... vertexN</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MRMESH_API Expected&lt;void&gt; parsePolygon( <span class="keyword">const</span> std::string_view&amp; str, VertId* vertId, <span class="keywordtype">int</span>* numPoints );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a590687549cc1c103e16b3636be3e510c">parsePolygon</a>( <span class="keyword">const</span> std::string_view&amp; str, VertId* vertId, <span class="keywordtype">int</span>* numPoints );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>[[deprecated( <span class="stringliteral">&quot;use parseTextCoordinate() instead&quot;</span>)]]</div>
@@ -200,6 +200,10 @@ $(function(){initNavTree('MRIOParsing_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>Expected&lt;void&gt; parseSingleNumber( <span class="keyword">const</span> std::string_view&amp; str, T&amp; num );</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a1cf34f84dd89be7960487a6eec67a14f"><div class="ttname"><a href="../Csharp/classMR.html#a1cf34f84dd89be7960487a6eec67a14f">MR::splitByLines</a></div><div class="ttdeci">static unsafe MR.Std.Vector_MRUint64T splitByLines(byte? data, ulong size)</div></div>
+<div class="ttc" id="aclassMR_html_a590687549cc1c103e16b3636be3e510c"><div class="ttname"><a href="../Csharp/classMR.html#a590687549cc1c103e16b3636be3e510c">MR::parsePolygon</a></div><div class="ttdeci">static unsafe void parsePolygon(string str, MR.Misc.InOut&lt; MR.VertId &gt;? vertId, MR.Misc.InOut&lt; int &gt;? numPoints)</div></div>
+<div class="ttc" id="aclassMR_html_a63bc825e61eba9f0d73095d13e2010fb"><div class="ttname"><a href="../Csharp/classMR.html#a63bc825e61eba9f0d73095d13e2010fb">MR::parseFirstNum</a></div><div class="ttdeci">static unsafe void parseFirstNum(string str, ref int num)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

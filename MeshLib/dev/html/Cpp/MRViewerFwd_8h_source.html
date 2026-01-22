@@ -157,7 +157,7 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">struct </span>ImFont;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">using </span>ViewportRectangle = Box2f;</div>
@@ -222,7 +222,7 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ...Connectables&gt;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classMR_1_1StateListenerPlugin.html">   75</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">using </span><a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StatePlugin</a> = <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin&lt;&gt;</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">using </span>StatePlugin = <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin&lt;&gt;</a>;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1HistoryStore.html">HistoryStore</a>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
@@ -230,10 +230,10 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">class </span>MRVIEWER_CLASS <a class="code hl_class" href="classMR_1_1WebRequest.html">WebRequest</a>;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PointOnObject.html">PointOnObject</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">PointOnObject</a>;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">using </span>ObjAndPick = std::pair&lt;std::shared_ptr&lt;MR::VisualObject&gt;, <a class="code hl_struct" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">using </span>ConstObjAndPick = std::pair&lt;std::shared_ptr&lt;const MR::VisualObject&gt;, <a class="code hl_struct" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">using </span>ObjAndPick = std::pair&lt;std::shared_ptr&lt;MR::VisualObject&gt;, <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">using </span>ConstObjAndPick = std::pair&lt;std::shared_ptr&lt;const MR::VisualObject&gt;, <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">using </span>RequirementsFunction = std::function&lt;std::string( <span class="keyword">const</span> std::shared_ptr&lt;RibbonMenuItem&gt;&amp; )&gt;;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
@@ -251,9 +251,10 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html"><div class="ttname"><a href="classMR_1_1HistoryStore.html">MR::HistoryStore</a></div><div class="ttdoc">This class stores history stack for undo/redo.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1PointOnObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a></div><div class="ttdef"><b>Definition</b> MRPointOnObject.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:75</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html"><div class="ttname"><a href="classMR_1_1WebRequest.html">MR::WebRequest</a></div><div class="ttdef"><b>Definition</b> MRWebRequest.h:18</div></div>
-<div class="ttc" id="astructMR_1_1PointOnObject_html"><div class="ttname"><a href="structMR_1_1PointOnObject.html">MR::PointOnObject</a></div><div class="ttdef"><b>Definition</b> MRPointOnObject.h:18</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

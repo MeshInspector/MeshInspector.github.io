@@ -157,7 +157,7 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;xmmintrin.h&gt;</span> <span class="comment">//SSE instructions</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
@@ -263,7 +263,7 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">int</span> idxX = 0;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">int</span> idxY = 1;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d">  127</a></span>    Vector3i <a class="code hl_variable" href="group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d">sign</a>;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d">  127</a></span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> <a class="code hl_variable" href="group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d">sign</a>;</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c">  130</a></span>    T <a class="code hl_variable" href="group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c">Sx</a>, Sy, Sz;</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <a class="code hl_struct" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>() = <span class="keywordflow">default</span>;</div>
@@ -323,11 +323,13 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="preprocessor">    #pragma message(&quot;IntersectionPrecomputes&lt;float&gt;: no hardware optimized instructions&quot;)</span></div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>}</div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga21465bc7d67177777744f39ac171940c"><div class="ttname"><a href="group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c">MR::IntersectionPrecomputes::Sx</a></div><div class="ttdeci">T Sx</div><div class="ttdoc">precomputed factors</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:130</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga28372a635ba67b43220bc9067be6560d"><div class="ttname"><a href="group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d">MR::IntersectionPrecomputes::sign</a></div><div class="ttdeci">Vector3i sign</div><div class="ttdoc">stores signs of direction vector;</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:127</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga7fcb33a674ea8b57ac858e40d42e26e3"><div class="ttname"><a href="group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a></div><div class="ttdeci">void findMaxVectorDim(int &amp;dimX, int &amp;dimY, int &amp;dimZ, const Vector3&lt; T &gt; &amp;dir)</div><div class="ttdoc">finds index of maximum axis and stores it into dimZ</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:25</div></div>
 <div class="ttc" id="astructMR_1_1IntersectionPrecomputes_html"><div class="ttname"><a href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:503</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:30</div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

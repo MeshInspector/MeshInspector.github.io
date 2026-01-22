@@ -154,12 +154,11 @@ $(function(){initNavTree('MREmbedTerrainStructure_8h_source.html',''); initResiz
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRBitSet.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRExpected.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// Parameters of structure embedding in terrain</span></div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structMR_1_1EmbeddedStructureParameters.html">   11</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1EmbeddedStructureParameters.html">EmbeddedStructureParameters</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>EmbeddedStructureParameters</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="comment">// angle of fill cone (mound)</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">float</span> fillAngle = 0.0f;</div>
@@ -176,17 +175,16 @@ $(function(){initNavTree('MREmbedTerrainStructure_8h_source.html',''); initResiz
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// optional out map new terrain faces to old terrain faces</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    FaceMap* new2oldFaces{ <span class="keyword">nullptr</span> };</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
-</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// Returns terrain mesh with structure embedded to it, or error string</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">// terrain - mesh with +Z normal (not-closed mesh is expected)</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// structure - mesh with one open contour and +Z normal, that will be embedded in terrain</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>[[nodiscard]] MRMESH_API Expected&lt;Mesh&gt; embedStructureToTerrain( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; terrain, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; structure,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1EmbeddedStructureParameters.html">EmbeddedStructureParameters</a>&amp; params );</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>[[nodiscard]] MRMESH_API Expected&lt;Mesh&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a3e60756545213ad61b23ebfde6ce0a5c">embedStructureToTerrain</a>( <span class="keyword">const</span> Mesh&amp; terrain, <span class="keyword">const</span> Mesh&amp; structure,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">const</span> EmbeddedStructureParameters&amp; params );</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}</div>
-<div class="ttc" id="astructMR_1_1EmbeddedStructureParameters_html"><div class="ttname"><a href="structMR_1_1EmbeddedStructureParameters.html">MR::EmbeddedStructureParameters</a></div><div class="ttdef"><b>Definition</b> MREmbedTerrainStructure.h:12</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a3e60756545213ad61b23ebfde6ce0a5c"><div class="ttname"><a href="../Csharp/classMR.html#a3e60756545213ad61b23ebfde6ce0a5c">MR::embedStructureToTerrain</a></div><div class="ttdeci">static unsafe MR.Mesh embedStructureToTerrain(MR.Const_Mesh terrain, MR.Const_Mesh structure, MR.Const_EmbeddedStructureParameters params_)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

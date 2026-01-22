@@ -4,6 +4,7 @@ var NAVTREEINDEX0 =
 "../BasedApplication.html":[4,0,0],
 "../BasicMathTypesOverview.html":[5,2],
 "../Cpp/APICppPage.html":[6,0],
+"../Csharp/APICsharpPage.html":[6,3],
 "../DataModel.html":[5,4],
 "../ExampleContourTriangulation.html":[4,1,21],
 "../ExampleCudaOffset.html":[4,3,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRMeshBoundary_8h_source.html":[6,2,1,0,0,0,1,158],
 "MRMeshBuilderTypes_8h_source.html":[6,2,1,0,0,0,1,160],
 "MRMeshBuilder_8h_source.html":[6,2,1,0,0,0,1,159],
-"MRMeshCollidePrecise_8h_source.html":[6,2,1,0,0,0,1,162],
-"MRMeshCollide_8h_source.html":[6,2,1,0,0,0,1,161]
+"MRMeshCollidePrecise_8h_source.html":[6,2,1,0,0,0,1,162]
 };

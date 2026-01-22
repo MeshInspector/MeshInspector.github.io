@@ -174,7 +174,7 @@ Public Types</h2></td></tr>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ViewportRectangle</b> = MR::ViewportRectangle</td></tr>
 <tr class="separator:a4ffdd066d297db0b871f78fa572166a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee75851f20f8798cdefa740b799b467" id="r_a2ee75851f20f8798cdefa740b799b467"><td class="memItemLeft" align="right" valign="top"><a id="a2ee75851f20f8798cdefa740b799b467" name="a2ee75851f20f8798cdefa740b799b467"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>PickRenderObjectPredicate</b> = std::function&lt;bool ( const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a>*, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> )&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>PickRenderObjectPredicate</b> = std::function&lt;bool ( const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a>*, <a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">ViewportMask</a> )&gt;</td></tr>
 <tr class="separator:a2ee75851f20f8798cdefa740b799b467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03ac32b61f9c93a1a780e490c999ad0d" id="r_a03ac32b61f9c93a1a780e490c999ad0d"><td class="memItemLeft" align="right" valign="top"><a id="a03ac32b61f9c93a1a780e490c999ad0d" name="a03ac32b61f9c93a1a780e490c999ad0d"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>FitMode</b> = MR::FitMode</td></tr>
@@ -210,14 +210,14 @@ MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setAxesP
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setAxesSize</b> (const int axisPixSize=80)</td></tr>
 <tr class="separator:a9af25421c857c554aaabfdc28898cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42b2f4de02033c7851a3b5278b630363" id="r_a42b2f4de02033c7851a3b5278b630363"><td class="memItemLeft" align="right" valign="top"><a id="a42b2f4de02033c7851a3b5278b630363" name="a42b2f4de02033c7851a3b5278b630363"></a>
-MRVIEWER_API const Vector2f &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getAxesPosition</b> () const</td></tr>
+MRVIEWER_API const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getAxesPosition</b> () const</td></tr>
 <tr class="memdesc:a42b2f4de02033c7851a3b5278b630363"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns position of basis axes in viewport space <br /></td></tr>
 <tr class="separator:a42b2f4de02033c7851a3b5278b630363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16f5609993c8491d9e241e4147f8d706" id="r_a16f5609993c8491d9e241e4147f8d706"><td class="memItemLeft" align="right" valign="top"><a id="a16f5609993c8491d9e241e4147f8d706" name="a16f5609993c8491d9e241e4147f8d706"></a>
 MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>getAxesSize</b> () const</td></tr>
 <tr class="separator:a16f5609993c8491d9e241e4147f8d706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac39f390490ab32f3e82944c85978c7f6" id="r_ac39f390490ab32f3e82944c85978c7f6"><td class="memItemLeft" align="right" valign="top"><a id="ac39f390490ab32f3e82944c85978c7f6" name="ac39f390490ab32f3e82944c85978c7f6"></a>
-const Matrix4f &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getAxesProjectionMatrix</b> () const</td></tr>
+const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getAxesProjectionMatrix</b> () const</td></tr>
 <tr class="memdesc:ac39f390490ab32f3e82944c85978c7f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns projection matrix that is used for basis axes and view controller rendering <br /></td></tr>
 <tr class="separator:ac39f390490ab32f3e82944c85978c7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fc1e84a964766414f289905f15aa910" id="r_a0fc1e84a964766414f289905f15aa910"><td class="memItemLeft" align="right" valign="top"><a id="a0fc1e84a964766414f289905f15aa910" name="a0fc1e84a964766414f289905f15aa910"></a>
@@ -227,67 +227,67 @@ MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>shut</b>
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>clearFramebuffers</b> ()</td></tr>
 <tr class="separator:aed7cd0744cb8952c62680f7168da3a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbcf7b095b6123ee7916f93d2f3ff01" id="r_a9bbcf7b095b6123ee7916f93d2f3ff01"><td class="memItemLeft" align="right" valign="top"><a id="a9bbcf7b095b6123ee7916f93d2f3ff01" name="a9bbcf7b095b6123ee7916f93d2f3ff01"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>recursiveDraw</b> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj, DepthFunction depthFunc=DepthFunction::Default, const AffineXf3f &amp;rootXf={}, RenderModelPassMask renderType=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}, int *numDraws=nullptr) const</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>recursiveDraw</b> (const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &amp;obj, DepthFunction depthFunc=DepthFunction::Default, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;rootXf={}, RenderModelPassMask renderType=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}, int *numDraws=nullptr) const</td></tr>
 <tr class="memdesc:a9bbcf7b095b6123ee7916f93d2f3ff01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediate draw of given object tree. <br /></td></tr>
 <tr class="separator:a9bbcf7b095b6123ee7916f93d2f3ff01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5db126693ea50ec4094b651633099a21" id="r_a5db126693ea50ec4094b651633099a21"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db126693ea50ec4094b651633099a21">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memitem:a5db126693ea50ec4094b651633099a21" id="r_a5db126693ea50ec4094b651633099a21"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db126693ea50ec4094b651633099a21">draw</a> (const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
 <tr class="separator:a5db126693ea50ec4094b651633099a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8124fe1c8f92cdb4eddab9dde317b96f" id="r_a8124fe1c8f92cdb4eddab9dde317b96f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8124fe1c8f92cdb4eddab9dde317b96f">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const AffineXf3f &amp;xf, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memitem:a8124fe1c8f92cdb4eddab9dde317b96f" id="r_a8124fe1c8f92cdb4eddab9dde317b96f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8124fe1c8f92cdb4eddab9dde317b96f">draw</a> (const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
 <tr class="separator:a8124fe1c8f92cdb4eddab9dde317b96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a020bc7c22b9f6b3084db655ddb8d1b10" id="r_a020bc7c22b9f6b3084db655ddb8d1b10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a020bc7c22b9f6b3084db655ddb8d1b10">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const AffineXf3f &amp;xf, const Matrix4f &amp;projM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memitem:a020bc7c22b9f6b3084db655ddb8d1b10" id="r_a020bc7c22b9f6b3084db655ddb8d1b10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a020bc7c22b9f6b3084db655ddb8d1b10">draw</a> (const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf, const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;projM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
 <tr class="separator:a020bc7c22b9f6b3084db655ddb8d1b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a206a9695d926451f9f28ba92220e74a4" id="r_a206a9695d926451f9f28ba92220e74a4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a206a9695d926451f9f28ba92220e74a4">drawOrthoFixedPos</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const AffineXf3f &amp;xf, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memitem:a206a9695d926451f9f28ba92220e74a4" id="r_a206a9695d926451f9f28ba92220e74a4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a206a9695d926451f9f28ba92220e74a4">drawOrthoFixedPos</a> (const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
 <tr class="separator:a206a9695d926451f9f28ba92220e74a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5878bbade38f79c89bd155f44126fbf" id="r_ad5878bbade38f79c89bd155f44126fbf"><td class="memItemLeft" align="right" valign="top"><a id="ad5878bbade38f79c89bd155f44126fbf" name="ad5878bbade38f79c89bd155f44126fbf"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawLines</b> (const std::vector&lt; LineSegm3f &gt; &amp;lines, const std::vector&lt; <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &gt; &amp;colors, const <a class="el" href="structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html">LinePointImmediateRenderParams</a> &amp;params)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawLines</b> (const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1LineSegm3f.html">LineSegm3f</a> &gt; &amp;lines, const std::vector&lt; <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &gt; &amp;colors, const <a class="el" href="structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html">LinePointImmediateRenderParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ad5878bbade38f79c89bd155f44126fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw lines immediately. <br /></td></tr>
 <tr class="separator:ad5878bbade38f79c89bd155f44126fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45b3b12cb1134a17b3a1b92588aeb7b5" id="r_a45b3b12cb1134a17b3a1b92588aeb7b5"><td class="memItemLeft" align="right" valign="top"><a id="a45b3b12cb1134a17b3a1b92588aeb7b5" name="a45b3b12cb1134a17b3a1b92588aeb7b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawLines</b> (const std::vector&lt; LineSegm3f &gt; &amp;lines, const std::vector&lt; <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &gt; &amp;colors, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=1, bool depthTest=true)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawLines</b> (const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1LineSegm3f.html">LineSegm3f</a> &gt; &amp;lines, const std::vector&lt; <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &gt; &amp;colors, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=1, bool depthTest=true)</td></tr>
 <tr class="separator:a45b3b12cb1134a17b3a1b92588aeb7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bffa9f786d355eee89fc586de637362" id="r_a9bffa9f786d355eee89fc586de637362"><td class="memItemLeft" align="right" valign="top"><a id="a9bffa9f786d355eee89fc586de637362" name="a9bffa9f786d355eee89fc586de637362"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPoints</b> (const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors, const <a class="el" href="structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html">LinePointImmediateRenderParams</a> &amp;params)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPoints</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;points, const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector4f.html">Vector4f</a> &gt; &amp;colors, const <a class="el" href="structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html">LinePointImmediateRenderParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a9bffa9f786d355eee89fc586de637362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw points immediately. <br /></td></tr>
 <tr class="separator:a9bffa9f786d355eee89fc586de637362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9165dc8844420f9c4824b6acc0e4038" id="r_ad9165dc8844420f9c4824b6acc0e4038"><td class="memItemLeft" align="right" valign="top"><a id="ad9165dc8844420f9c4824b6acc0e4038" name="ad9165dc8844420f9c4824b6acc0e4038"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPoints</b> (const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=1, bool depthTest=true)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPoints</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;points, const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector4f.html">Vector4f</a> &gt; &amp;colors, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=1, bool depthTest=true)</td></tr>
 <tr class="separator:ad9165dc8844420f9c4824b6acc0e4038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b7ef9770b635d037f0a8730b3858f3" id="r_a75b7ef9770b635d037f0a8730b3858f3"><td class="memItemLeft" align="right" valign="top"><a id="a75b7ef9770b635d037f0a8730b3858f3" name="a75b7ef9770b635d037f0a8730b3858f3"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTris</b> (const std::vector&lt; Triangle3f &gt; &amp;tris, const std::vector&lt; <a class="el" href="structMR_1_1Viewport_1_1TriCornerColors.html">TriCornerColors</a> &gt; &amp;colors, const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, bool depthTest=true)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTris</b> (const std::vector&lt; Triangle3f &gt; &amp;tris, const std::vector&lt; <a class="el" href="structMR_1_1Viewport_1_1TriCornerColors.html">TriCornerColors</a> &gt; &amp;colors, const <a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, bool depthTest=true)</td></tr>
 <tr class="memdesc:a75b7ef9770b635d037f0a8730b3858f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw triangles immediately (flat shaded) <br /></td></tr>
 <tr class="separator:a75b7ef9770b635d037f0a8730b3858f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7573cf7e3dde8d3414fdc0b1c15f88bf" id="r_a7573cf7e3dde8d3414fdc0b1c15f88bf"><td class="memItemLeft" align="right" valign="top"><a id="a7573cf7e3dde8d3414fdc0b1c15f88bf" name="a7573cf7e3dde8d3414fdc0b1c15f88bf"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTris</b> (const std::vector&lt; Triangle3f &gt; &amp;tris, const std::vector&lt; <a class="el" href="structMR_1_1Viewport_1_1TriCornerColors.html">TriCornerColors</a> &gt; &amp;colors, const Matrix4f &amp;modelM={}, bool depthTest=true)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTris</b> (const std::vector&lt; Triangle3f &gt; &amp;tris, const std::vector&lt; <a class="el" href="structMR_1_1Viewport_1_1TriCornerColors.html">TriCornerColors</a> &gt; &amp;colors, const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;modelM={}, bool depthTest=true)</td></tr>
 <tr class="separator:a7573cf7e3dde8d3414fdc0b1c15f88bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acefecc8d9d03c70e7857a71ca787b627" id="r_acefecc8d9d03c70e7857a71ca787b627"><td class="memItemLeft" align="right" valign="top"><a id="acefecc8d9d03c70e7857a71ca787b627" name="acefecc8d9d03c70e7857a71ca787b627"></a>
-<a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseRenderParams</b> () const</td></tr>
+<a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseRenderParams</b> () const</td></tr>
 <tr class="memdesc:acefecc8d9d03c70e7857a71ca787b627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares base rendering parameters for this viewport. <br /></td></tr>
 <tr class="separator:acefecc8d9d03c70e7857a71ca787b627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a386544dc0c5351067325cad9bf32dc93" id="r_a386544dc0c5351067325cad9bf32dc93"><td class="memItemLeft" align="right" valign="top"><a id="a386544dc0c5351067325cad9bf32dc93" name="a386544dc0c5351067325cad9bf32dc93"></a>
-<a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseRenderParams</b> (const Matrix4f &amp;projM) const</td></tr>
+<a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseRenderParams</b> (const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;projM) const</td></tr>
 <tr class="memdesc:a386544dc0c5351067325cad9bf32dc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares base rendering parameters for this viewport with custom projection matrix. <br /></td></tr>
 <tr class="separator:a386544dc0c5351067325cad9bf32dc93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7026550eeb8349cd37cb7b431b06c491" id="r_a7026550eeb8349cd37cb7b431b06c491"><td class="memItemLeft" align="right" valign="top"><a id="a7026550eeb8349cd37cb7b431b06c491" name="a7026550eeb8349cd37cb7b431b06c491"></a>
-<a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseRenderParamsOrthoFixedPos</b> () const</td></tr>
+<a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseRenderParamsOrthoFixedPos</b> () const</td></tr>
 <tr class="memdesc:a7026550eeb8349cd37cb7b431b06c491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares base rendering parameters for this viewport with orthographic proj matrix and rotation component of view matrix. <br /></td></tr>
 <tr class="separator:a7026550eeb8349cd37cb7b431b06c491"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62815b7bf4fde034d4d73d5a993f7985" id="r_a62815b7bf4fde034d4d73d5a993f7985"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62815b7bf4fde034d4d73d5a993f7985">getModelRenderParams</a> (const Matrix4f &amp;modelM, Matrix4f *normM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memitem:a62815b7bf4fde034d4d73d5a993f7985" id="r_a62815b7bf4fde034d4d73d5a993f7985"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62815b7bf4fde034d4d73d5a993f7985">getModelRenderParams</a> (const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;modelM, <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> *normM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
 <tr class="memdesc:a62815b7bf4fde034d4d73d5a993f7985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport.  <br /></td></tr>
 <tr class="separator:a62815b7bf4fde034d4d73d5a993f7985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614eb5f34d747ddfd754aa6ec488b532" id="r_a614eb5f34d747ddfd754aa6ec488b532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614eb5f34d747ddfd754aa6ec488b532">getModelRenderParamsOrthoFixedPos</a> (const Matrix4f &amp;modelM, Matrix4f *normM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memitem:a614eb5f34d747ddfd754aa6ec488b532" id="r_a614eb5f34d747ddfd754aa6ec488b532"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614eb5f34d747ddfd754aa6ec488b532">getModelRenderParamsOrthoFixedPos</a> (const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;modelM, <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> *normM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
 <tr class="memdesc:a614eb5f34d747ddfd754aa6ec488b532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with orthographic proj matrix and rotation component of view matrix.  <br /></td></tr>
 <tr class="separator:a614eb5f34d747ddfd754aa6ec488b532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50635d7c0599207f2c763752a20836a1" id="r_a50635d7c0599207f2c763752a20836a1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50635d7c0599207f2c763752a20836a1">getModelRenderParams</a> (const Matrix4f &amp;modelM, const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> &amp;baseParams, Matrix4f *normM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
-<tr class="memdesc:a50635d7c0599207f2c763752a20836a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport with custom <a class="el" href="structMR_1_1BaseRenderParams.html" title="Common rendering parameters for meshes and UI.">BaseRenderParams</a>.  <br /></td></tr>
+<tr class="memitem:a50635d7c0599207f2c763752a20836a1" id="r_a50635d7c0599207f2c763752a20836a1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50635d7c0599207f2c763752a20836a1">getModelRenderParams</a> (const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;modelM, const <a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a> &amp;baseParams, <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> *normM, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;transparentMode={}) const</td></tr>
+<tr class="memdesc:a50635d7c0599207f2c763752a20836a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport with custom <a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a>.  <br /></td></tr>
 <tr class="separator:a50635d7c0599207f2c763752a20836a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a369adff2e21395db75c910b75b18f8c7" id="r_a369adff2e21395db75c910b75b18f8c7"><td class="memItemLeft" align="right" valign="top"><a id="a369adff2e21395db75c910b75b18f8c7" name="a369adff2e21395db75c910b75b18f8c7"></a>
 MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pickRenderObject</b> (const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=PickRenderObjectParams::defaults()) const</td></tr>
 <tr class="separator:a369adff2e21395db75c910b75b18f8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf6012ade9216e280391d67facbec2af" id="r_aaf6012ade9216e280391d67facbec2af"><td class="memItemLeft" align="right" valign="top"><a id="aaf6012ade9216e280391d67facbec2af" name="aaf6012ade9216e280391d67facbec2af"></a>
-MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pickRenderObject</b> (std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=PickRenderObjectParams::defaults()) const</td></tr>
+MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pickRenderObject</b> (std::span&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=PickRenderObjectParams::defaults()) const</td></tr>
 <tr class="separator:aaf6012ade9216e280391d67facbec2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a0d67f34ea510525f6e1c930f8abbd5" id="r_a2a0d67f34ea510525f6e1c930f8abbd5"><td class="memItemLeft" align="right" valign="top"><a id="a2a0d67f34ea510525f6e1c930f8abbd5" name="a2a0d67f34ea510525f6e1c930f8abbd5"></a>
-MRVIEWER_API ConstObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pickRenderObjectConst</b> (std::span&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=PickRenderObjectParams::defaults()) const</td></tr>
+MRVIEWER_API ConstObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pickRenderObjectConst</b> (std::span&lt; const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=PickRenderObjectParams::defaults()) const</td></tr>
 <tr class="separator:a2a0d67f34ea510525f6e1c930f8abbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd763b1cfd8fceb2d5a66dee6830e70" id="r_afbd763b1cfd8fceb2d5a66dee6830e70"><td class="memItemLeft" align="right" valign="top"><a id="afbd763b1cfd8fceb2d5a66dee6830e70" name="afbd763b1cfd8fceb2d5a66dee6830e70"></a>
 MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> () const</td></tr>
@@ -296,44 +296,44 @@ MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pi
 MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (uint16_t pickRadius) const</td></tr>
 <tr class="separator:a29b9417149264e16eeb727982e61dc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d514777994544be1badff5b0a39015a" id="r_a7d514777994544be1badff5b0a39015a"><td class="memItemLeft" align="right" valign="top"><a id="a7d514777994544be1badff5b0a39015a" name="a7d514777994544be1badff5b0a39015a"></a>
-MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects) const</td></tr>
+MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects) const</td></tr>
 <tr class="separator:a7d514777994544be1badff5b0a39015a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c83894a98b4264b98b4163211288854" id="r_a0c83894a98b4264b98b4163211288854"><td class="memItemLeft" align="right" valign="top"><a id="a0c83894a98b4264b98b4163211288854" name="a0c83894a98b4264b98b4163211288854"></a>
-MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, uint16_t pickRadius, bool exactPickFirst=true) const</td></tr>
+MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, uint16_t pickRadius, bool exactPickFirst=true) const</td></tr>
 <tr class="separator:a0c83894a98b4264b98b4163211288854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0659d4a5dd0df38ac51ced37ea4b26d" id="r_ac0659d4a5dd0df38ac51ced37ea4b26d"><td class="memItemLeft" align="right" valign="top"><a id="ac0659d4a5dd0df38ac51ced37ea4b26d" name="ac0659d4a5dd0df38ac51ced37ea4b26d"></a>
 MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (bool exactPickFirst) const</td></tr>
 <tr class="separator:ac0659d4a5dd0df38ac51ced37ea4b26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeea675f914f282d4bb811e8e4c771bb9" id="r_aeea675f914f282d4bb811e8e4c771bb9"><td class="memItemLeft" align="right" valign="top"><a id="aeea675f914f282d4bb811e8e4c771bb9" name="aeea675f914f282d4bb811e8e4c771bb9"></a>
-MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const Vector2f &amp;viewportPoint) const</td></tr>
+MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;viewportPoint) const</td></tr>
 <tr class="separator:aeea675f914f282d4bb811e8e4c771bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190a1a73b0c964dd18d83d248e27b26f" id="r_a190a1a73b0c964dd18d83d248e27b26f"><td class="memItemLeft" align="right" valign="top"><a id="a190a1a73b0c964dd18d83d248e27b26f" name="a190a1a73b0c964dd18d83d248e27b26f"></a>
-MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const Vector2f &amp;viewportPoint) const</td></tr>
+MRVIEWER_API ObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>pick_render_object</b> (const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;viewportPoint) const</td></tr>
 <tr class="separator:a190a1a73b0c964dd18d83d248e27b26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab849f5462b1c06bb481e6c4bc9ba751d" id="r_ab849f5462b1c06bb481e6c4bc9ba751d"><td class="memItemLeft" align="right" valign="top"><a id="ab849f5462b1c06bb481e6c4bc9ba751d" name="ab849f5462b1c06bb481e6c4bc9ba751d"></a>
-MRVIEWER_API std::vector&lt; ObjAndPick &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>multiPickObjects</b> (std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const std::vector&lt; Vector2f &gt; &amp;viewportPoints, const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> *overrideRenderParams=nullptr) const</td></tr>
+MRVIEWER_API std::vector&lt; ObjAndPick &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>multiPickObjects</b> (std::span&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &gt; &amp;viewportPoints, const <a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a> *overrideRenderParams=nullptr) const</td></tr>
 <tr class="separator:ab849f5462b1c06bb481e6c4bc9ba751d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d2d1ebf05bdfac6a830fc7ccb9c76c" id="r_ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memItemLeft" align="right" valign="top"><a id="ae8d2d1ebf05bdfac6a830fc7ccb9c76c" name="ae8d2d1ebf05bdfac6a830fc7ccb9c76c"></a>
-MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findObjectsInRect</b> (const Box2i &amp;rect, int maxRenderResolutionSide=512) const</td></tr>
+MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findObjectsInRect</b> (const <a class="elRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a> &amp;rect, int maxRenderResolutionSide=512) const</td></tr>
 <tr class="separator:ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92197d0812be326f98d5480f8235b4de" id="r_a92197d0812be326f98d5480f8235b4de"><td class="memItemLeft" align="right" valign="top"><a id="a92197d0812be326f98d5480f8235b4de" name="a92197d0812be326f98d5480f8235b4de"></a>
-MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findVisibleFaces</b> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;includePixBs, int maxRenderResolutionSide=512) const</td></tr>
+MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findVisibleFaces</b> (const <a class="elRef" href="../Csharp/classMR_1_1BitSet.html">BitSet</a> &amp;includePixBs, int maxRenderResolutionSide=512) const</td></tr>
 <tr class="separator:a92197d0812be326f98d5480f8235b4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97fad8eacc6d5437d8216e90a5dd23b2" id="r_a97fad8eacc6d5437d8216e90a5dd23b2"><td class="memItemLeft" align="right" valign="top"><a id="a97fad8eacc6d5437d8216e90a5dd23b2" name="a97fad8eacc6d5437d8216e90a5dd23b2"></a>
-MRVIEWER_API FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><b>findCameraLookingFaces</b> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshToWorld) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findCameraLookingFaces</b> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;meshToWorld) const</td></tr>
 <tr class="memdesc:a97fad8eacc6d5437d8216e90a5dd23b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of a mesh that having normals oriented toward the camera in this viewport <br /></td></tr>
 <tr class="separator:a97fad8eacc6d5437d8216e90a5dd23b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070e1760f853d8260fec359e0ae560a6" id="r_a070e1760f853d8260fec359e0ae560a6"><td class="memItemLeft" align="right" valign="top"><a id="a070e1760f853d8260fec359e0ae560a6" name="a070e1760f853d8260fec359e0ae560a6"></a>
 MRVIEWER_API ConstObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>const_pick_render_object</b> () const</td></tr>
 <tr class="separator:a070e1760f853d8260fec359e0ae560a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbdff73baac11261d9ca67ff15add59" id="r_a3fbdff73baac11261d9ca67ff15add59"><td class="memItemLeft" align="right" valign="top"><a id="a3fbdff73baac11261d9ca67ff15add59" name="a3fbdff73baac11261d9ca67ff15add59"></a>
-MRVIEWER_API ConstObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>const_pick_render_object</b> (const std::vector&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects) const</td></tr>
+MRVIEWER_API ConstObjAndPick&#160;</td><td class="memItemRight" valign="bottom"><b>const_pick_render_object</b> (const std::vector&lt; const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects) const</td></tr>
 <tr class="separator:a3fbdff73baac11261d9ca67ff15add59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14fb13300d3dcf19a0baf3ae59163c6" id="r_ac14fb13300d3dcf19a0baf3ae59163c6"><td class="memItemLeft" align="right" valign="top"><a id="ac14fb13300d3dcf19a0baf3ae59163c6" name="ac14fb13300d3dcf19a0baf3ae59163c6"></a>
-MRVIEWER_API std::vector&lt; ConstObjAndPick &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>constMultiPickObjects</b> (const std::vector&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const std::vector&lt; Vector2f &gt; &amp;viewportPoints) const</td></tr>
+MRVIEWER_API std::vector&lt; ConstObjAndPick &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>constMultiPickObjects</b> (const std::vector&lt; const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &gt; &amp;viewportPoints) const</td></tr>
 <tr class="separator:ac14fb13300d3dcf19a0baf3ae59163c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab977a36a5474fc72fb2a9370f1a892aa" id="r_ab977a36a5474fc72fb2a9370f1a892aa"><td class="memItemLeft" align="right" valign="top"><a id="ab977a36a5474fc72fb2a9370f1a892aa" name="ab977a36a5474fc72fb2a9370f1a892aa"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>transformView</b> (const AffineXf3f &amp;xf)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>transformView</b> (const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf)</td></tr>
 <tr class="separator:ab977a36a5474fc72fb2a9370f1a892aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37332cce582bf8cc2203f972a6350a3c" id="r_a37332cce582bf8cc2203f972a6350a3c"><td class="memItemLeft" align="right" valign="top"><a id="a37332cce582bf8cc2203f972a6350a3c" name="a37332cce582bf8cc2203f972a6350a3c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>getRedrawFlag</b> () const</td></tr>
@@ -351,75 +351,75 @@ MRVIEWER_API const ViewportRectangle &amp;&#160;</td><td class="memItemRight" va
 MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>getPixelSize</b> () const</td></tr>
 <tr class="separator:a3ca3512f6cd58445197edaec9da81131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484b6380515f929cdcfca16c9a30edee" id="r_a484b6380515f929cdcfca16c9a30edee"><td class="memItemLeft" align="right" valign="top"><a id="a484b6380515f929cdcfca16c9a30edee" name="a484b6380515f929cdcfca16c9a30edee"></a>
-MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>getPixelSizeAtPoint</b> (const Vector3f &amp;worldPoint) const</td></tr>
+MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>getPixelSizeAtPoint</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;worldPoint) const</td></tr>
 <tr class="separator:a484b6380515f929cdcfca16c9a30edee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c0e713c7540bb9c2f53e69607bfed8" id="r_ab2c0e713c7540bb9c2f53e69607bfed8"><td class="memItemLeft" align="right" valign="top"><a id="ab2c0e713c7540bb9c2f53e69607bfed8" name="ab2c0e713c7540bb9c2f53e69607bfed8"></a>
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setViewportRect</b> (const ViewportRectangle &amp;rect)</td></tr>
 <tr class="separator:ab2c0e713c7540bb9c2f53e69607bfed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2aaf8088000285ded9ea6caa36de96c" id="r_ac2aaf8088000285ded9ea6caa36de96c"><td class="memItemLeft" align="right" valign="top"><a id="ac2aaf8088000285ded9ea6caa36de96c" name="ac2aaf8088000285ded9ea6caa36de96c"></a>
-MRVIEWER_API AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>getUnscaledViewXf</b> () const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getUnscaledViewXf</b> () const</td></tr>
 <tr class="memdesc:ac2aaf8088000285ded9ea6caa36de96c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns orthonormal matrix with translation <br /></td></tr>
 <tr class="separator:ac2aaf8088000285ded9ea6caa36de96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62e34967fa338bdaebee75bcc2342a0b" id="r_a62e34967fa338bdaebee75bcc2342a0b"><td class="memItemLeft" align="right" valign="top"><a id="a62e34967fa338bdaebee75bcc2342a0b" name="a62e34967fa338bdaebee75bcc2342a0b"></a>
-AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><b>getViewXf</b> () const</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getViewXf</b> () const</td></tr>
 <tr class="memdesc:a62e34967fa338bdaebee75bcc2342a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts directly from the view matrix <br /></td></tr>
 <tr class="separator:a62e34967fa338bdaebee75bcc2342a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb271f821a9a1ebf2cb4c87afc1f26a5" id="r_afb271f821a9a1ebf2cb4c87afc1f26a5"><td class="memItemLeft" align="right" valign="top"><a id="afb271f821a9a1ebf2cb4c87afc1f26a5" name="afb271f821a9a1ebf2cb4c87afc1f26a5"></a>
-Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>getUpDirection</b> () const</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getUpDirection</b> () const</td></tr>
 <tr class="memdesc:afb271f821a9a1ebf2cb4c87afc1f26a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns unit vector in world space corresponding to up-direction in camera space <br /></td></tr>
 <tr class="separator:afb271f821a9a1ebf2cb4c87afc1f26a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a199947ead6c82f9250dd00975bc55ff9" id="r_a199947ead6c82f9250dd00975bc55ff9"><td class="memItemLeft" align="right" valign="top"><a id="a199947ead6c82f9250dd00975bc55ff9" name="a199947ead6c82f9250dd00975bc55ff9"></a>
-Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>getRightDirection</b> () const</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getRightDirection</b> () const</td></tr>
 <tr class="memdesc:a199947ead6c82f9250dd00975bc55ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns unit vector in world space corresponding to right-direction in camera space <br /></td></tr>
 <tr class="separator:a199947ead6c82f9250dd00975bc55ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8255ed3018ea3bae113c3b6c87ccbc96" id="r_a8255ed3018ea3bae113c3b6c87ccbc96"><td class="memItemLeft" align="right" valign="top"><a id="a8255ed3018ea3bae113c3b6c87ccbc96" name="a8255ed3018ea3bae113c3b6c87ccbc96"></a>
-Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>getBackwardDirection</b> () const</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBackwardDirection</b> () const</td></tr>
 <tr class="memdesc:a8255ed3018ea3bae113c3b6c87ccbc96"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns unit vector in world space corresponding to direction toward camera in camera space <br /></td></tr>
 <tr class="separator:a8255ed3018ea3bae113c3b6c87ccbc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82a8f9d0d4ea9aee8a0cd3a742059cbc" id="r_a82a8f9d0d4ea9aee8a0cd3a742059cbc"><td class="memItemLeft" align="right" valign="top"><a id="a82a8f9d0d4ea9aee8a0cd3a742059cbc" name="a82a8f9d0d4ea9aee8a0cd3a742059cbc"></a>
-MRVIEWER_API Line3f&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectPixelRay</b> (const Vector2f &amp;viewportPoint) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1Line3f.html">Line3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectPixelRay</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;viewportPoint) const</td></tr>
 <tr class="separator:a82a8f9d0d4ea9aee8a0cd3a742059cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9bc36eda02472e52c41323484ca493" id="r_abf9bc36eda02472e52c41323484ca493"><td class="memItemLeft" align="right" valign="top"><a id="abf9bc36eda02472e52c41323484ca493" name="abf9bc36eda02472e52c41323484ca493"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>worldToCameraSpace</b> (const Vector3f &amp;p) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>worldToCameraSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;p) const</td></tr>
 <tr class="separator:abf9bc36eda02472e52c41323484ca493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71dda2baf413b787d9b0fb12035d3827" id="r_a71dda2baf413b787d9b0fb12035d3827"><td class="memItemLeft" align="right" valign="top"><a id="a71dda2baf413b787d9b0fb12035d3827" name="a71dda2baf413b787d9b0fb12035d3827"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>worldToCameraSpace</b> (const std::vector&lt; Vector3f &gt; &amp;p) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>worldToCameraSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;p) const</td></tr>
 <tr class="separator:a71dda2baf413b787d9b0fb12035d3827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00da2d719e774e11cc2c5b367e1caa97" id="r_a00da2d719e774e11cc2c5b367e1caa97"><td class="memItemLeft" align="right" valign="top"><a id="a00da2d719e774e11cc2c5b367e1caa97" name="a00da2d719e774e11cc2c5b367e1caa97"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>projectToClipSpace</b> (const Vector3f &amp;worldPoint) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>projectToClipSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;worldPoint) const</td></tr>
 <tr class="separator:a00da2d719e774e11cc2c5b367e1caa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af84b449c6ac06983b1cc77946aeb75e2" id="r_af84b449c6ac06983b1cc77946aeb75e2"><td class="memItemLeft" align="right" valign="top"><a id="af84b449c6ac06983b1cc77946aeb75e2" name="af84b449c6ac06983b1cc77946aeb75e2"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>projectToClipSpace</b> (const std::vector&lt; Vector3f &gt; &amp;worldPoints) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>projectToClipSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;worldPoints) const</td></tr>
 <tr class="separator:af84b449c6ac06983b1cc77946aeb75e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a280af5b0f24b3003b52b66b9bdf70705" id="r_a280af5b0f24b3003b52b66b9bdf70705"><td class="memItemLeft" align="right" valign="top"><a id="a280af5b0f24b3003b52b66b9bdf70705" name="a280af5b0f24b3003b52b66b9bdf70705"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromClipSpace</b> (const Vector3f &amp;clipPoint) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromClipSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;clipPoint) const</td></tr>
 <tr class="separator:a280af5b0f24b3003b52b66b9bdf70705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a840a18b408675ea0b3d9b662916d8969" id="r_a840a18b408675ea0b3d9b662916d8969"><td class="memItemLeft" align="right" valign="top"><a id="a840a18b408675ea0b3d9b662916d8969" name="a840a18b408675ea0b3d9b662916d8969"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromClipSpace</b> (const std::vector&lt; Vector3f &gt; &amp;clipPoints) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromClipSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;clipPoints) const</td></tr>
 <tr class="separator:a840a18b408675ea0b3d9b662916d8969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0767b6772d648de3599d6d6c1e828076" id="r_a0767b6772d648de3599d6d6c1e828076"><td class="memItemLeft" align="right" valign="top"><a id="a0767b6772d648de3599d6d6c1e828076" name="a0767b6772d648de3599d6d6c1e828076"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>projectToViewportSpace</b> (const Vector3f &amp;worldPoint) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>projectToViewportSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;worldPoint) const</td></tr>
 <tr class="separator:a0767b6772d648de3599d6d6c1e828076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98fa71f145a3139ddd609e7a4b7dd818" id="r_a98fa71f145a3139ddd609e7a4b7dd818"><td class="memItemLeft" align="right" valign="top"><a id="a98fa71f145a3139ddd609e7a4b7dd818" name="a98fa71f145a3139ddd609e7a4b7dd818"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>projectToViewportSpace</b> (const std::vector&lt; Vector3f &gt; &amp;worldPoints) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>projectToViewportSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;worldPoints) const</td></tr>
 <tr class="separator:a98fa71f145a3139ddd609e7a4b7dd818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40d0c918528a3ba76f1df78f0e6008e5" id="r_a40d0c918528a3ba76f1df78f0e6008e5"><td class="memItemLeft" align="right" valign="top"><a id="a40d0c918528a3ba76f1df78f0e6008e5" name="a40d0c918528a3ba76f1df78f0e6008e5"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromViewportSpace</b> (const Vector3f &amp;viewportPoint) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromViewportSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;viewportPoint) const</td></tr>
 <tr class="separator:a40d0c918528a3ba76f1df78f0e6008e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f1335831c811df8d399d4bf4a7dfad2" id="r_a1f1335831c811df8d399d4bf4a7dfad2"><td class="memItemLeft" align="right" valign="top"><a id="a1f1335831c811df8d399d4bf4a7dfad2" name="a1f1335831c811df8d399d4bf4a7dfad2"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromViewportSpace</b> (const std::vector&lt; Vector3f &gt; &amp;viewportPoints) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>unprojectFromViewportSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;viewportPoints) const</td></tr>
 <tr class="separator:a1f1335831c811df8d399d4bf4a7dfad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e7b103d35676eb9d8f9dfb51126f07" id="r_af3e7b103d35676eb9d8f9dfb51126f07"><td class="memItemLeft" align="right" valign="top"><a id="af3e7b103d35676eb9d8f9dfb51126f07" name="af3e7b103d35676eb9d8f9dfb51126f07"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>clipSpaceToViewportSpace</b> (const Vector3f &amp;p) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>clipSpaceToViewportSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;p) const</td></tr>
 <tr class="separator:af3e7b103d35676eb9d8f9dfb51126f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a542a6c5150303402abea783a142d1d7a" id="r_a542a6c5150303402abea783a142d1d7a"><td class="memItemLeft" align="right" valign="top"><a id="a542a6c5150303402abea783a142d1d7a" name="a542a6c5150303402abea783a142d1d7a"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>clipSpaceToViewportSpace</b> (const std::vector&lt; Vector3f &gt; &amp;p) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>clipSpaceToViewportSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;p) const</td></tr>
 <tr class="separator:a542a6c5150303402abea783a142d1d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcaf26b57c2f33aa87b085f76d81f7c" id="r_a4fcaf26b57c2f33aa87b085f76d81f7c"><td class="memItemLeft" align="right" valign="top"><a id="a4fcaf26b57c2f33aa87b085f76d81f7c" name="a4fcaf26b57c2f33aa87b085f76d81f7c"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>viewportSpaceToClipSpace</b> (const Vector3f &amp;p) const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>viewportSpaceToClipSpace</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;p) const</td></tr>
 <tr class="separator:a4fcaf26b57c2f33aa87b085f76d81f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97fad091717d46988a64c161dc734e76" id="r_a97fad091717d46988a64c161dc734e76"><td class="memItemLeft" align="right" valign="top"><a id="a97fad091717d46988a64c161dc734e76" name="a97fad091717d46988a64c161dc734e76"></a>
-MRVIEWER_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>viewportSpaceToClipSpace</b> (const std::vector&lt; Vector3f &gt; &amp;p) const</td></tr>
+MRVIEWER_API std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>viewportSpaceToClipSpace</b> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;p) const</td></tr>
 <tr class="separator:a97fad091717d46988a64c161dc734e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab7a9dc1a3bb2ced85d438c2501530a4" id="r_aab7a9dc1a3bb2ced85d438c2501530a4"><td class="memItemLeft" align="right" valign="top"><a id="aab7a9dc1a3bb2ced85d438c2501530a4" name="aab7a9dc1a3bb2ced85d438c2501530a4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setupView</b> ()</td></tr>
@@ -434,7 +434,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>postDraw</b> () const
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>fitData</b> (float fill=1.0f, bool snapView=true)</td></tr>
 <tr class="separator:a9a3a641b649270fae26cb2659d47a756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ac594d0dfd749cdb836fe216d2f63a9" id="r_a6ac594d0dfd749cdb836fe216d2f63a9"><td class="memItemLeft" align="right" valign="top"><a id="a6ac594d0dfd749cdb836fe216d2f63a9" name="a6ac594d0dfd749cdb836fe216d2f63a9"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>fitBox</b> (const Box3f &amp;newSceneBox, float fill=1.0f, bool snapView=true)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>fitBox</b> (const <a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a> &amp;newSceneBox, float fill=1.0f, bool snapView=true)</td></tr>
 <tr class="separator:a6ac594d0dfd749cdb836fe216d2f63a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7e39309c7a603790ebc1bafaa1c1d4b" id="r_ac7e39309c7a603790ebc1bafaa1c1d4b"><td class="memItemLeft" align="right" valign="top"><a id="ac7e39309c7a603790ebc1bafaa1c1d4b" name="ac7e39309c7a603790ebc1bafaa1c1d4b"></a>
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>preciseFitBoxToScreenBorder</b> (const <a class="el" href="structMR_1_1FitBoxParams.html">FitBoxParams</a> &amp;params)</td></tr>
@@ -449,22 +449,22 @@ MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>getRati
 MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><b>allModelsInsideViewportRectangle</b> () const</td></tr>
 <tr class="separator:ace405908e14931de8db932f8a41d3b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0a55f6269ae743f49c2fde95869cab4" id="r_aa0a55f6269ae743f49c2fde95869cab4"><td class="memItemLeft" align="right" valign="top"><a id="aa0a55f6269ae743f49c2fde95869cab4" name="aa0a55f6269ae743f49c2fde95869cab4"></a>
-MRVIEWER_API const Box3f &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getSceneBox</b> () const</td></tr>
+MRVIEWER_API const <a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getSceneBox</b> () const</td></tr>
 <tr class="separator:aa0a55f6269ae743f49c2fde95869cab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a926a8d8f0ce76178064c958cdb012a10" id="r_a926a8d8f0ce76178064c958cdb012a10"><td class="memItemLeft" align="right" valign="top"><a id="a926a8d8f0ce76178064c958cdb012a10" name="a926a8d8f0ce76178064c958cdb012a10"></a>
 const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getParameters</b> () const</td></tr>
 <tr class="separator:a926a8d8f0ce76178064c958cdb012a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7255259d0bcd6a919bc061e1b8328f74" id="r_a7255259d0bcd6a919bc061e1b8328f74"><td class="memItemLeft" align="right" valign="top"><a id="a7255259d0bcd6a919bc061e1b8328f74" name="a7255259d0bcd6a919bc061e1b8328f74"></a>
-MRVIEWER_API Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>getCameraPoint</b> () const</td></tr>
+MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getCameraPoint</b> () const</td></tr>
 <tr class="separator:a7255259d0bcd6a919bc061e1b8328f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2fe6abc9e300a389c2a303f836f20d5" id="r_af2fe6abc9e300a389c2a303f836f20d5"><td class="memItemLeft" align="right" valign="top"><a id="af2fe6abc9e300a389c2a303f836f20d5" name="af2fe6abc9e300a389c2a303f836f20d5"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraPoint</b> (const Vector3f &amp;cameraWorldPos)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraPoint</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;cameraWorldPos)</td></tr>
 <tr class="separator:af2fe6abc9e300a389c2a303f836f20d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7992f00d88f9468b7378bb264a6c7126" id="r_a7992f00d88f9468b7378bb264a6c7126"><td class="memItemLeft" align="right" valign="top"><a id="a7992f00d88f9468b7378bb264a6c7126" name="a7992f00d88f9468b7378bb264a6c7126"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraTrackballAngle</b> (const Quaternionf &amp;rot)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraTrackballAngle</b> (const <a class="elRef" href="../Csharp/classMR_1_1Quaternionf.html">Quaternionf</a> &amp;rot)</td></tr>
 <tr class="separator:a7992f00d88f9468b7378bb264a6c7126"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359181a4adccaea790fc8d2ace945198" id="r_a359181a4adccaea790fc8d2ace945198"><td class="memItemLeft" align="right" valign="top"><a id="a359181a4adccaea790fc8d2ace945198" name="a359181a4adccaea790fc8d2ace945198"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraTranslation</b> (const Vector3f &amp;translation)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraTranslation</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;translation)</td></tr>
 <tr class="separator:a359181a4adccaea790fc8d2ace945198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e78306b6826a1e5a7cb961115406a2" id="r_a08e78306b6826a1e5a7cb961115406a2"><td class="memItemLeft" align="right" valign="top"><a id="a08e78306b6826a1e5a7cb961115406a2" name="a08e78306b6826a1e5a7cb961115406a2"></a>
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCameraViewAngle</b> (float newViewAngle)</td></tr>
@@ -476,10 +476,10 @@ MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setCamer
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setOrthographic</b> (bool orthographic)</td></tr>
 <tr class="separator:a56e8d58b1c72aeec336d74a6da7c2cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add402fe6a91aa235f98db029c80be9b9" id="r_add402fe6a91aa235f98db029c80be9b9"><td class="memItemLeft" align="right" valign="top"><a id="add402fe6a91aa235f98db029c80be9b9" name="add402fe6a91aa235f98db029c80be9b9"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setBackgroundColor</b> (const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setBackgroundColor</b> (const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;color)</td></tr>
 <tr class="separator:add402fe6a91aa235f98db029c80be9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac46fbd652ee514d031889d120da54424" id="r_ac46fbd652ee514d031889d120da54424"><td class="memItemLeft" align="right" valign="top"><a id="ac46fbd652ee514d031889d120da54424" name="ac46fbd652ee514d031889d120da54424"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setClippingPlane</b> (const Plane3f &amp;plane)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setClippingPlane</b> (const <a class="elRef" href="../Csharp/classMR_1_1Plane3f.html">Plane3f</a> &amp;plane)</td></tr>
 <tr class="separator:ac46fbd652ee514d031889d120da54424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c34b39f70fe8da63382acdae5d87498" id="r_a8c34b39f70fe8da63382acdae5d87498"><td class="memItemLeft" align="right" valign="top"><a id="a8c34b39f70fe8da63382acdae5d87498" name="a8c34b39f70fe8da63382acdae5d87498"></a>
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setLabel</b> (std::string s)</td></tr>
@@ -506,27 +506,27 @@ MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>rotation
 MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setParameters</b> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;params)</td></tr>
 <tr class="separator:a538c80bc0a06c494f1865d6ad6f83d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2761afb44a51e6e0ca9e057067ac05c6" id="r_a2761afb44a51e6e0ca9e057067ac05c6"><td class="memItemLeft" align="right" valign="top"><a id="a2761afb44a51e6e0ca9e057067ac05c6" name="a2761afb44a51e6e0ca9e057067ac05c6"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>cameraLookAlong</b> (const Vector3f &amp;dir, const Vector3f &amp;up)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>cameraLookAlong</b> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;dir, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;up)</td></tr>
 <tr class="separator:a2761afb44a51e6e0ca9e057067ac05c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ff8a41f74c4cfd9e8b28c545772b89e" id="r_a2ff8a41f74c4cfd9e8b28c545772b89e"><td class="memItemLeft" align="right" valign="top"><a id="a2ff8a41f74c4cfd9e8b28c545772b89e" name="a2ff8a41f74c4cfd9e8b28c545772b89e"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>cameraRotateAround</b> (const Line3f &amp;axis, float angle)</td></tr>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>cameraRotateAround</b> (const <a class="elRef" href="../Csharp/classMR_1_1Line3f.html">Line3f</a> &amp;axis, float angle)</td></tr>
 <tr class="separator:a2ff8a41f74c4cfd9e8b28c545772b89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357b7f0de8d573b2e8bc9b04ed3adc56" id="r_a357b7f0de8d573b2e8bc9b04ed3adc56"><td class="memItemLeft" align="right" valign="top"><a id="a357b7f0de8d573b2e8bc9b04ed3adc56" name="a357b7f0de8d573b2e8bc9b04ed3adc56"></a>
-Vector3f&#160;</td><td class="memItemRight" valign="bottom"><b>getRotationPivot</b> () const</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getRotationPivot</b> () const</td></tr>
 <tr class="memdesc:a357b7f0de8d573b2e8bc9b04ed3adc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current rotation pivot in world space, which should appear static on a screen during rotation by the user <br /></td></tr>
 <tr class="separator:a357b7f0de8d573b2e8bc9b04ed3adc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a782d90e6f95f86f9b73e603aaca615af" id="r_a782d90e6f95f86f9b73e603aaca615af"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782d90e6f95f86f9b73e603aaca615af">resetStaticRotationPivot</a> (const std::optional&lt; Vector3f &gt; &amp;pivot=std::nullopt)</td></tr>
+<tr class="memitem:a782d90e6f95f86f9b73e603aaca615af" id="r_a782d90e6f95f86f9b73e603aaca615af"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782d90e6f95f86f9b73e603aaca615af">resetStaticRotationPivot</a> (const std::optional&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;pivot=std::nullopt)</td></tr>
 <tr class="separator:a782d90e6f95f86f9b73e603aaca615af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa6240448d9cff317ce58003ce33ff1b6" id="r_aa6240448d9cff317ce58003ce33ff1b6"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6240448d9cff317ce58003ce33ff1b6">get</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId={})</td></tr>
+<tr class="memitem:aa6240448d9cff317ce58003ce33ff1b6" id="r_aa6240448d9cff317ce58003ce33ff1b6"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6240448d9cff317ce58003ce33ff1b6">get</a> (<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewportId={})</td></tr>
 <tr class="separator:aa6240448d9cff317ce58003ce33ff1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af4af07c3784f0a14e16153397b0becde" id="r_af4af07c3784f0a14e16153397b0becde"><td class="memItemLeft" align="right" valign="top"><a id="af4af07c3784f0a14e16153397b0becde" name="af4af07c3784f0a14e16153397b0becde"></a>
-<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> { 1}</td></tr>
+<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> { 1}</td></tr>
 <tr class="separator:af4af07c3784f0a14e16153397b0becde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -539,17 +539,17 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API bool MR::Viewport::draw </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Matrix4f &amp;</td>          <td class="paramname"><span class="paramname"><em>projM</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>projM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -564,7 +564,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -581,12 +581,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API bool MR::Viewport::draw </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -601,7 +601,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -618,7 +618,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API bool MR::Viewport::draw </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -633,7 +633,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -650,12 +650,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API bool MR::Viewport::drawOrthoFixedPos </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -670,7 +670,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -690,7 +690,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &amp; MR::Viewport::get </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewportId</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewportId</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -719,19 +719,19 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> MR::Viewport::getModelRenderParams </td>
+          <td class="memname">MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a> MR::Viewport::getModelRenderParams </td>
           <td>(</td>
-          <td class="paramtype">const Matrix4f &amp;</td>          <td class="paramname"><span class="paramname"><em>modelM</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>modelM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>baseParams</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>baseParams</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Matrix4f *</td>          <td class="paramname"><span class="paramname"><em>normM</em></span>, </td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> *</td>          <td class="paramname"><span class="paramname"><em>normM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -746,7 +746,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -756,7 +756,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Prepares rendering parameters to draw a model with given transformation in this viewport with custom <a class="el" href="structMR_1_1BaseRenderParams.html" title="Common rendering parameters for meshes and UI.">BaseRenderParams</a>. </p>
+<p>Prepares rendering parameters to draw a model with given transformation in this viewport with custom <a class="elRef" href="../Csharp/classMR_1_1BaseRenderParams.html">BaseRenderParams</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">normM</td><td>if not null, this matrix of normals transformation will be computed and referenced in the result  </td></tr>
@@ -777,14 +777,14 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> MR::Viewport::getModelRenderParams </td>
+          <td class="memname"><a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a> MR::Viewport::getModelRenderParams </td>
           <td>(</td>
-          <td class="paramtype">const Matrix4f &amp;</td>          <td class="paramname"><span class="paramname"><em>modelM</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>modelM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Matrix4f *</td>          <td class="paramname"><span class="paramname"><em>normM</em></span>, </td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> *</td>          <td class="paramname"><span class="paramname"><em>normM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -799,7 +799,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -831,14 +831,14 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> MR::Viewport::getModelRenderParamsOrthoFixedPos </td>
+          <td class="memname"><a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a> MR::Viewport::getModelRenderParamsOrthoFixedPos </td>
           <td>(</td>
-          <td class="paramtype">const Matrix4f &amp;</td>          <td class="paramname"><span class="paramname"><em>modelM</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>modelM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Matrix4f *</td>          <td class="paramname"><span class="paramname"><em>normM</em></span>, </td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1Matrix4f.html">Matrix4f</a> *</td>          <td class="paramname"><span class="paramname"><em>normM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -853,7 +853,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transparentMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -884,7 +884,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::Viewport::resetStaticRotationPivot </td>
           <td>(</td>
-          <td class="paramtype">const std::optional&lt; Vector3f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pivot</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span></td><td>)</td>
+          <td class="paramtype">const std::optional&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pivot</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span></td><td>)</td>
           <td></td>
         </tr>
       </table>

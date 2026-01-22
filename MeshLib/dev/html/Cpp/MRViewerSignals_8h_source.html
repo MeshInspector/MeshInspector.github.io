@@ -153,7 +153,7 @@ $(function(){initNavTree('MRViewerSignals_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRSignalCombiners.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRSignal.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>MR</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
@@ -188,7 +188,7 @@ $(function(){initNavTree('MRViewerSignals_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    KeySignal keyDownSignal; <span class="comment">// signal is called on key down</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    KeySignal keyRepeatSignal; <span class="comment">// signal is called when key is pressed for some time</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// SpaceMouseEvents</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">using </span>SpaceMouseMoveSignal = boost::signals2::signal&lt;bool( <span class="keyword">const</span> Vector3f&amp; translate, <span class="keyword">const</span> Vector3f&amp; rotate ), <a class="code hl_struct" href="structMR_1_1StopOnTrueCombiner.html">SignalStopHandler</a>&gt;;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">using </span>SpaceMouseMoveSignal = boost::signals2::signal&lt;bool( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; translate, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; rotate ), <a class="code hl_struct" href="structMR_1_1StopOnTrueCombiner.html">SignalStopHandler</a>&gt;;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">using </span>SpaceMouseKeySignal = boost::signals2::signal&lt;bool( <span class="keywordtype">int</span> ), <a class="code hl_struct" href="structMR_1_1StopOnTrueCombiner.html">SignalStopHandler</a>&gt;;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    SpaceMouseMoveSignal spaceMouseMoveSignal; <span class="comment">// signal is called on spacemouse 3d controller (joystick) move</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    SpaceMouseKeySignal spaceMouseDownSignal; <span class="comment">// signal is called on spacemouse key down</span></div>
@@ -245,7 +245,9 @@ $(function(){initNavTree('MRViewerSignals_8h_source.html',''); initResizable(tru
 </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1StopOnTrueCombiner_html"><div class="ttname"><a href="structMR_1_1StopOnTrueCombiner.html">MR::StopOnTrueCombiner</a></div><div class="ttdef"><b>Definition</b> MRSignalCombiners.h:8</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 <div class="ttc" id="astructMR_1_1ViewerSignals_html"><div class="ttname"><a href="structMR_1_1ViewerSignals.html">MR::ViewerSignals</a></div><div class="ttdef"><b>Definition</b> MRViewerSignals.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
