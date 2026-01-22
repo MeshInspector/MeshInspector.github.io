@@ -121,6 +121,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRShowModal.h", "MRShowModal_8h_source.html", null ],
     [ "MRSignalCombiners.h", "MRSignalCombiners_8h_source.html", null ],
     [ "MRSpaceMouseController.h", "MRSpaceMouseController_8h_source.html", null ],
+    [ "MRSpaceMouseDevice.h", "MRSpaceMouseDevice_8h_source.html", null ],
     [ "MRSpaceMouseHandler.h", "MRSpaceMouseHandler_8h_source.html", null ],
     [ "MRSpaceMouseHandler3dxMacDriver.h", "MRSpaceMouseHandler3dxMacDriver_8h_source.html", null ],
     [ "MRSpaceMouseHandlerHidapi.h", "MRSpaceMouseHandlerHidapi_8h_source.html", null ],

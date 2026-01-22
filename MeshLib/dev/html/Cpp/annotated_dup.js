@@ -158,6 +158,11 @@ var annotated_dup =
         [ "BasicWrapperTarget", "classMR_1_1RenderWrapObject_1_1BasicWrapperTarget.html", null ],
         [ "Wrapper", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
       ] ],
+      [ "SpaceMouse", null, [
+        [ "SpaceMouseAction", "structMR_1_1SpaceMouse_1_1SpaceMouseAction.html", null ],
+        [ "SpaceMouseDevice", "classMR_1_1SpaceMouse_1_1SpaceMouseDevice.html", "classMR_1_1SpaceMouse_1_1SpaceMouseDevice" ],
+        [ "SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi.html", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi" ]
+      ] ],
       [ "UI", null, [
         [ "TestEngine", null, [
           [ "detail", null, [
@@ -516,7 +521,6 @@ var annotated_dup =
       [ "SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
       [ "SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", null ],
       [ "SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", "classMR_1_1SpaceMouseHandler" ],
-      [ "SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", "classMR_1_1SpaceMouseHandlerHidapi" ],
       [ "SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", null ],
       [ "SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
       [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", null ],

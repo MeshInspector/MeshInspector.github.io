@@ -336,7 +336,7 @@ var hierarchy =
         [ "MR::NameTagClickListener", "structMR_1_1NameTagClickListener.html", null ],
         [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", null ],
         [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", [
-          [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
+          [ "MR::SpaceMouse::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi.html", null ]
         ] ],
         [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", null ],
         [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", null ],
@@ -847,9 +847,11 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::PrecipitationSimulator::SimulationStep", "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html", null ],
+    [ "MR::SpaceMouse::SpaceMouseAction", "structMR_1_1SpaceMouse_1_1SpaceMouseAction.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
+    [ "MR::SpaceMouse::SpaceMouseDevice", "classMR_1_1SpaceMouse_1_1SpaceMouseDevice.html", null ],
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
-      [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
+      [ "MR::SpaceMouse::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi.html", null ]
     ] ],
     [ "MR::SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
     [ "MR::SparsePolynomial< C, D, M >", "classMR_1_1SparsePolynomial.html", null ],
