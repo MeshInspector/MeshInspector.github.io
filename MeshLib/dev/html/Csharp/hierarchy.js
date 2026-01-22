@@ -18,7 +18,6 @@ var hierarchy =
     [ "MR.Const_GcodeProcessor._ByValue_BaseAction_MRVector2f", "classMR_1_1Const__GcodeProcessor_1_1__ByValue__BaseAction__MRVector2f.html", null ],
     [ "MR.Const_GcodeProcessor._ByValue_BaseAction_MRVector3f", "classMR_1_1Const__GcodeProcessor_1_1__ByValue__BaseAction__MRVector3f.html", null ],
     [ "MR._ByValue_BaseShellParameters", "classMR_1_1__ByValue__BaseShellParameters.html", null ],
-    [ "MR._ByValue_BendContoursAlongCurveParams", "classMR_1_1__ByValue__BendContoursAlongCurveParams.html", null ],
     [ "MR._ByValue_BendTextAlongCurveParams", "classMR_1_1__ByValue__BendTextAlongCurveParams.html", null ],
     [ "MR.MeshSave._ByValue_BinaryStlSaver", "classMR_1_1MeshSave_1_1__ByValue__BinaryStlSaver.html", null ],
     [ "MR._ByValue_BitSet", "classMR_1_1__ByValue__BitSet.html", null ],

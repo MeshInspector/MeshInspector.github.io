@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html#a914781a1dd42c7de75b808fcd2c82336":[6,1,0,0,1,457,1],
 "classmrmeshpy_1_1LoadedObjects.html":[6,1,0,0,1,452],
 "classmrmeshpy_1_1LoadedObjects.html#a025fb511fef48e74ccf85de645bd9983":[6,1,0,0,1,452,0],
 "classmrmeshpy_1_1LoadedObjects.html#a0b0b0386dba47788bfa412de54f2947e":[6,1,0,0,1,452,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1Matrix3i64.html#a95ef5de6a26a51f200e3ec24cc3cd7b2":[6,1,0,0,1,484,2],
 "classmrmeshpy_1_1Matrix3i64.html#ab953451ed4c016e11fc71e0d72e9c5ea":[6,1,0,0,1,484,1],
 "classmrmeshpy_1_1Matrix3i64.html#ac9c94de51b0ee0bc29276b9f76d700b7":[6,1,0,0,1,484,7],
-"classmrmeshpy_1_1Matrix3i64.html#adb49a1daacab9d74f821f355461b081e":[6,1,0,0,1,484,3]
+"classmrmeshpy_1_1Matrix3i64.html#adb49a1daacab9d74f821f355461b081e":[6,1,0,0,1,484,3],
+"classmrmeshpy_1_1Matrix3i64.html#ae21fbdc6bdb3964ade8afa216ee8ca8b":[6,1,0,0,1,484,11]
 };

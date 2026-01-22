@@ -286,7 +286,6 @@ var annotated_dup =
       [ "_ByValue_AngleMeasurementObject", "classMR_1_1__ByValue__AngleMeasurementObject.html", null ],
       [ "_ByValue_ArcInterpolationParams", "classMR_1_1__ByValue__ArcInterpolationParams.html", null ],
       [ "_ByValue_BaseShellParameters", "classMR_1_1__ByValue__BaseShellParameters.html", null ],
-      [ "_ByValue_BendContoursAlongCurveParams", "classMR_1_1__ByValue__BendContoursAlongCurveParams.html", null ],
       [ "_ByValue_BendTextAlongCurveParams", "classMR_1_1__ByValue__BendTextAlongCurveParams.html", null ],
       [ "_ByValue_BitSet", "classMR_1_1__ByValue__BitSet.html", null ],
       [ "_ByValue_BMap_MRFaceId_MRUint64T", "classMR_1_1__ByValue__BMap__MRFaceId__MRUint64T.html", null ],
