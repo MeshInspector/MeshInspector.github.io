@@ -17,7 +17,7 @@ var structMR_1_1EdgeId =
     [ "less", "structMR_1_1EdgeId.html#ad4850721588c6d647cbb529ba82e988f", null ],
     [ "odd", "structMR_1_1EdgeId.html#ada00ed7281eb0160e01658db78374c87", null ],
     [ "operator bool", "structMR_1_1EdgeId.html#a6f0eb6574c6b37ae5e02ea48c4d18fd1", null ],
-    [ "operator EdgeId", "structMR_1_1EdgeId.html#a2cbf496232ab16cb4403a836a633ace8", null ],
+    [ "operator EdgeId", "structMR_1_1EdgeId.html#aa87bef12df9a914668dbddcd43de9743", null ],
     [ "operator EdgeId", "structMR_1_1EdgeId.html#aa13a776f4ffaf4ce847c8a42cd543973", null ],
     [ "operator int", "structMR_1_1EdgeId.html#a4ef856cc939e8b8f8da014735b618acf", null ],
     [ "operator MR.UndirectedEdgeId", "structMR_1_1EdgeId.html#a629f487c464d1e41a49679ced3bff1f4", null ],

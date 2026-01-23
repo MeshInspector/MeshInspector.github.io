@@ -22,7 +22,7 @@ var structMR_1_1Matrix4f =
     [ "mulAssign", "structMR_1_1Matrix4f.html#a45730648c0ef447b9d2271f436fc3b4d", null ],
     [ "norm", "structMR_1_1Matrix4f.html#a906a457627b10cef328c3105c87c41e2", null ],
     [ "normSq", "structMR_1_1Matrix4f.html#a23aac52fd8664e38501a7622e1d6c7ca", null ],
-    [ "operator Matrix4f", "structMR_1_1Matrix4f.html#a7a2ac46f160d888da48d8938821df36d", null ],
+    [ "operator Matrix4f", "structMR_1_1Matrix4f.html#a5297aae90d2a3475a7737d0f5779ee2a", null ],
     [ "operator Matrix4f", "structMR_1_1Matrix4f.html#a297a10bfbfc0694266d3c681bb539d9e", null ],
     [ "operator MR.AffineXf3f", "structMR_1_1Matrix4f.html#a8b216f2304d6e7f772a3443b458b315c", null ],
     [ "operator*", "structMR_1_1Matrix4f.html#a4a58010c4c82ac3a71f8067c251faf97", null ],

@@ -14,7 +14,7 @@ var structMR_1_1Vector2i64 =
     [ "minusX", "structMR_1_1Vector2i64.html#a045afac4e62f2e5827fdb0c9f08ff53e", null ],
     [ "minusY", "structMR_1_1Vector2i64.html#af42d008ff29a51214f10b6cdf80c3ec2", null ],
     [ "mulAssign", "structMR_1_1Vector2i64.html#a908ddf84e75284797ffb37d2dee60f13", null ],
-    [ "operator Vector2i64", "structMR_1_1Vector2i64.html#aaf9d0fe423bf8a7c7d54e84af68ee01e", null ],
+    [ "operator Vector2i64", "structMR_1_1Vector2i64.html#a5588a3a337cdc6d6c1b3b0463fdaa777", null ],
     [ "operator*", "structMR_1_1Vector2i64.html#a6ab16a401d7362cfaf601abc6837f035", null ],
     [ "operator*", "structMR_1_1Vector2i64.html#aff20cf837e6b6c9a96d7c4ecb6f3ef52", null ],
     [ "operator+", "structMR_1_1Vector2i64.html#a29706265d7ec793b96e54b360537351b", null ],
