@@ -2,6 +2,7 @@ var classMR_1_1Const__GeneralOffsetParameters =
 [
     [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html#ab37b16c23d17c3104d6cf5d43b618a5a", null ],
     [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html#ac62711ebe07268883fa200a47c447d86", null ],
+    [ "_Storage_outSharpEdges", "classMR_1_1Const__GeneralOffsetParameters.html#abfd5e10b0c01898130102d4a7eeae8d4", null ],
     [ "callBack", "classMR_1_1Const__GeneralOffsetParameters.html#aeecc0ca93df32db09d6144cf092cff03", null ],
     [ "closeHolesInHoleWindingNumber", "classMR_1_1Const__GeneralOffsetParameters.html#a54e3e3b20a51882f072ae3dee69cad0b", null ],
     [ "fwn", "classMR_1_1Const__GeneralOffsetParameters.html#a3053ec339baacf7f4e43fe58b835a6d4", null ],

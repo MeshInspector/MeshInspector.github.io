@@ -186,73 +186,77 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">class </span>ScopeHistory;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">class </span>SelectScreenLasso;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">class </span>SceneTextureGL;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">class </span>SpaceMouseHandler;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">class </span>SpaceMouseHandlerHidapi;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">class </span>SplashWindow;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">class </span>StateBasePlugin;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">class </span>Toolbar;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">class </span>ViewerPlugin;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">class </span>ViewerSettingsManager;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">class </span>ViewerSetup;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">class </span>ViewerTitle;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">class </span>Viewer;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">struct </span>ViewerSignals;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">struct </span>LaunchParams;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">class </span>ViewerEventQueue;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span>ViewportGlobalBasis;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">class </span>Viewport;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">class </span>RibbonMenu;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">class </span>RibbonMenuItem;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">class </span>RibbonFontManager;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">class </span>ShortcutManager;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">struct </span>ShortcutKey;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">enum class</span> ShortcutCategory : char;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">class </span>DirectionWidget;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">class </span>PlaneWidget;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">class </span>TouchpadController;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">struct </span>TouchpadParameters;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">class </span>SpaceMouseController;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">struct </span>SpaceMouseParameters;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">class </span>TouchesController;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">class </span>MouseController;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">struct </span>PointInAllSpaces;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">class </span>CornerControllerObject;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">class </span>SplashWindow;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">class </span>StateBasePlugin;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">class </span>Toolbar;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">class </span>ViewerPlugin;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">class </span>ViewerSettingsManager;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">class </span>ViewerSetup;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">class </span>ViewerTitle;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">class </span>Viewer;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">struct </span>ViewerSignals;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">struct </span>LaunchParams;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">class </span>ViewerEventQueue;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">class </span>ViewportGlobalBasis;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">class </span>Viewport;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span>RibbonMenu;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">class </span>RibbonMenuItem;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">class </span>RibbonFontManager;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">class </span>ShortcutManager;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">struct </span>ShortcutKey;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">enum class</span> ShortcutCategory : char;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">class </span>DirectionWidget;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">class </span>PlaneWidget;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">class </span>TouchpadController;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">struct </span>TouchpadParameters;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">class </span>TouchesController;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">class </span>MouseController;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">struct </span>PointInAllSpaces;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">class </span>CornerControllerObject;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ...Connectables&gt;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classMR_1_1StateListenerPlugin.html">   71</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">using </span>StatePlugin = <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin&lt;&gt;</a>;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ...Connectables&gt;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classMR_1_1StateListenerPlugin.html">   75</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">using </span>StatePlugin = <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin&lt;&gt;</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1HistoryStore.html">HistoryStore</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">using </span>ViewerEventCallback = std::function&lt;void()&gt;;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1HistoryStore.html">HistoryStore</a>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">class </span>MRVIEWER_CLASS <a class="code hl_class" href="classMR_1_1WebRequest.html">WebRequest</a>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">using </span>ViewerEventCallback = std::function&lt;void()&gt;;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">PointOnObject</a>;</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">class </span>MRVIEWER_CLASS <a class="code hl_class" href="classMR_1_1WebRequest.html">WebRequest</a>;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">PointOnObject</a>;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">using </span>ObjAndPick = std::pair&lt;std::shared_ptr&lt;MR::VisualObject&gt;, <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">using </span>ConstObjAndPick = std::pair&lt;std::shared_ptr&lt;const MR::VisualObject&gt;, <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">using </span>ObjAndPick = std::pair&lt;std::shared_ptr&lt;MR::VisualObject&gt;, <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">using </span>ConstObjAndPick = std::pair&lt;std::shared_ptr&lt;const MR::VisualObject&gt;, <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keyword">using </span>RequirementsFunction = std::function&lt;std::string( <span class="keyword">const</span> std::shared_ptr&lt;RibbonMenuItem&gt;&amp; )&gt;;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">using </span>FontAndSize = std::pair&lt;ImFont*, float&gt;;</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">using </span>RequirementsFunction = std::function&lt;std::string( <span class="keyword">const</span> std::shared_ptr&lt;RibbonMenuItem&gt;&amp; )&gt;;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">using </span>FontAndSize = std::pair&lt;ImFont*, float&gt;;</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="comment">// this is needed as far as MAKE_SLOT cannot be used with movable classes</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#define MR_DELETE_MOVE(StaticClassName)\</span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">#define MR_ADD_CTOR_DELETE_MOVE(StaticClassName)\</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">StaticClassName()=default;\</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">namespace </span>SpaceMouse</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>{</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">struct </span>Parameters;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">class </span>Handler;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">class </span>HandlerHidapi;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">class </span>Controller;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>}</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment">// this is needed as far as MAKE_SLOT cannot be used with movable classes</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">#define MR_DELETE_MOVE(StaticClassName)\</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#define MR_ADD_CTOR_DELETE_MOVE(StaticClassName)\</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">StaticClassName()=default;\</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html"><div class="ttname"><a href="classMR_1_1HistoryStore.html">MR::HistoryStore</a></div><div class="ttdoc">This class stores history stack for undo/redo.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1PointOnObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a></div><div class="ttdef"><b>Definition</b> MRPointOnObject.h:18</div></div>
-<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:75</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:71</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html"><div class="ttname"><a href="classMR_1_1WebRequest.html">MR::WebRequest</a></div><div class="ttdef"><b>Definition</b> MRWebRequest.h:18</div></div>
 <div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

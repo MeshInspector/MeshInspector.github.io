@@ -11,7 +11,7 @@ var structMR_1_1Vector3b =
     [ "length", "structMR_1_1Vector3b.html#a2fd48b7dccb844e4ecc1012be55faf33", null ],
     [ "lengthSq", "structMR_1_1Vector3b.html#abd9d6b46f3d8d36b7eeb8044a7e6285f", null ],
     [ "mulAssign", "structMR_1_1Vector3b.html#a6dc189733604c9e08b2dd4cb4b478511", null ],
-    [ "operator Vector3b", "structMR_1_1Vector3b.html#a5371dea21ae48ffb3977eebc0a15afc7", null ],
+    [ "operator Vector3b", "structMR_1_1Vector3b.html#a723a12cf5416190359893e24d79d5cfd", null ],
     [ "operator*", "structMR_1_1Vector3b.html#ac0e37f7a162fcf7e048b65328cd73550", null ],
     [ "operator*", "structMR_1_1Vector3b.html#a29c75b0bec996c5cad3b9f318165ab44", null ],
     [ "operator+", "structMR_1_1Vector3b.html#ae3ed52b3b955c63ea3063fa03485a6e1", null ],

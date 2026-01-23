@@ -14,7 +14,7 @@ var structMR_1_1Matrix2i64 =
     [ "mulAssign", "structMR_1_1Matrix2i64.html#aeaae79566ce8140bb4bb2b40411115eb", null ],
     [ "norm", "structMR_1_1Matrix2i64.html#a731b952bd6be1de5d7fda4d5a8a11284", null ],
     [ "normSq", "structMR_1_1Matrix2i64.html#a391f2f1b195f5709219f75d15daf760f", null ],
-    [ "operator Matrix2i64", "structMR_1_1Matrix2i64.html#aed9d17a6ac33f1c6463b3cb5f80149ee", null ],
+    [ "operator Matrix2i64", "structMR_1_1Matrix2i64.html#afbcf2b14ef41bc56398037528ea13680", null ],
     [ "operator*", "structMR_1_1Matrix2i64.html#a8d45651599a3a6858d3171ae70768afb", null ],
     [ "operator*", "structMR_1_1Matrix2i64.html#a4b51eda080484a83488dfaf568997b40", null ],
     [ "operator*", "structMR_1_1Matrix2i64.html#a5e98eef5c6399f8b6b0f4156c244768e", null ],

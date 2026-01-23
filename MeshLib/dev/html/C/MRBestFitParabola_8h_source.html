@@ -170,49 +170,49 @@ $(function(){initNavTree('MRBestFitParabola_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>MRC_API <span class="keyword">const</span> MR_BestFitParabolaf *MR_BestFitParabolaf_OffsetPtr(<span class="keyword">const</span> MR_BestFitParabolaf *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_OffsetMutablePtr(MR_BestFitParabolaf *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_ConstructFromAnother(<span class="keyword">const</span> MR_BestFitParabolaf *_other);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>MRC_API <span class="keyword">const</span> MR_BestFitParabolaf *MR_BestFitParabolaf_OffsetPtr(<span class="keyword">const</span> MR_BestFitParabolaf *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_OffsetMutablePtr(MR_BestFitParabolaf *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_ConstructFromAnother(<span class="keyword">const</span> MR_BestFitParabolaf *_other);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_Destroy(<span class="keyword">const</span> MR_BestFitParabolaf *_this);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_Destroy(<span class="keyword">const</span> MR_BestFitParabolaf *_this);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_DestroyArray(<span class="keyword">const</span> MR_BestFitParabolaf *_this);</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_DestroyArray(<span class="keyword">const</span> MR_BestFitParabolaf *_this);</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_AssignFromAnother(MR_BestFitParabolaf *_this, <span class="keyword">const</span> MR_BestFitParabolaf *_other);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>MRC_API MR_BestFitParabolaf *MR_BestFitParabolaf_AssignFromAnother(MR_BestFitParabolaf *_this, <span class="keyword">const</span> MR_BestFitParabolaf *_other);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_addPoint_2(MR_BestFitParabolaf *_this, <span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_addPoint_2(MR_BestFitParabolaf *_this, <span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_addPoint_3(MR_BestFitParabolaf *_this, <span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> weight);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolaf_addPoint_3(MR_BestFitParabolaf *_this, <span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> weight);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>MRC_API MR_Parabolaf *MR_BestFitParabolaf_getBestParabola(<span class="keyword">const</span> MR_BestFitParabolaf *_this, <span class="keyword">const</span> <span class="keywordtype">float</span> *tol);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_DefaultConstruct(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>MRC_API MR_Parabolaf *MR_BestFitParabolaf_getBestParabola(<span class="keyword">const</span> MR_BestFitParabolaf *_this, <span class="keyword">const</span> <span class="keywordtype">float</span> *tol);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_DefaultConstruct(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>MRC_API <span class="keyword">const</span> MR_BestFitParabolad *MR_BestFitParabolad_OffsetPtr(<span class="keyword">const</span> MR_BestFitParabolad *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_OffsetMutablePtr(MR_BestFitParabolad *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_ConstructFromAnother(<span class="keyword">const</span> MR_BestFitParabolad *_other);</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_Destroy(<span class="keyword">const</span> MR_BestFitParabolad *_this);</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_DestroyArray(<span class="keyword">const</span> MR_BestFitParabolad *_this);</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_AssignFromAnother(MR_BestFitParabolad *_this, <span class="keyword">const</span> MR_BestFitParabolad *_other);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>MRC_API <span class="keyword">const</span> MR_BestFitParabolad *MR_BestFitParabolad_OffsetPtr(<span class="keyword">const</span> MR_BestFitParabolad *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_OffsetMutablePtr(MR_BestFitParabolad *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_ConstructFromAnother(<span class="keyword">const</span> MR_BestFitParabolad *_other);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_Destroy(<span class="keyword">const</span> MR_BestFitParabolad *_this);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_DestroyArray(<span class="keyword">const</span> MR_BestFitParabolad *_this);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>MRC_API MR_BestFitParabolad *MR_BestFitParabolad_AssignFromAnother(MR_BestFitParabolad *_this, <span class="keyword">const</span> MR_BestFitParabolad *_other);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_addPoint_2(MR_BestFitParabolad *_this, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_addPoint_3(MR_BestFitParabolad *_this, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> weight);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_addPoint_2(MR_BestFitParabolad *_this, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y);</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>MRC_API <span class="keywordtype">void</span> MR_BestFitParabolad_addPoint_3(MR_BestFitParabolad *_this, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> weight);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>MRC_API MR_Parabolad *MR_BestFitParabolad_getBestParabola(<span class="keyword">const</span> MR_BestFitParabolad *_this, <span class="keyword">const</span> <span class="keywordtype">double</span> *tol);</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>MRC_API MR_Parabolad *MR_BestFitParabolad_getBestParabola(<span class="keyword">const</span> MR_BestFitParabolad *_this, <span class="keyword">const</span> <span class="keywordtype">double</span> *tol);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

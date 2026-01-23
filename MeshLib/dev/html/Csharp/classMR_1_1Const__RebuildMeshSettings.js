@@ -3,6 +3,7 @@ var classMR_1_1Const__RebuildMeshSettings =
     [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a92652d7cfce6e203f47b9fe202eb2b1a", null ],
     [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a1665d9e65e0737366fd94c4c2b410680", null ],
     [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a0e589ed785e706cfcb186dd6669f845a", null ],
+    [ "_Storage_outSharpEdges", "classMR_1_1Const__RebuildMeshSettings.html#a95e0b0afbee0346638ae0f42c477efdf", null ],
     [ "closeHolesInHoleWindingNumber", "classMR_1_1Const__RebuildMeshSettings.html#a45fd26ad1cd6148d8f4c258cc96ed378", null ],
     [ "decimate", "classMR_1_1Const__RebuildMeshSettings.html#a1837481a3eea5c1439b0e5fe98b0ffa0", null ],
     [ "fwn", "classMR_1_1Const__RebuildMeshSettings.html#ab1ae24ec96335c89978cc0dc66defdf8", null ],

@@ -8,6 +8,8 @@ var classMR_1_1Const__FillHoleParams =
     [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#aa4aadc8bdf9a4bff488da9d2cfdb698e", null ],
     [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#aeb97acbf79f4b30d512cfb0b3c04967e", null ],
     [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#a207f10f3f2b47c8cf81895a2ff61c253", null ],
+    [ "_Storage_outNewFaces", "classMR_1_1Const__FillHoleParams.html#a309bf3718b3e3fadcbac870415e2de38", null ],
+    [ "_Storage_stopBeforeBadTriangulation", "classMR_1_1Const__FillHoleParams.html#aecbf5584a0c05dcd52b987019347da45", null ],
     [ "makeDegenerateBand", "classMR_1_1Const__FillHoleParams.html#aada343903bd08b6505893709c8d61235", null ],
     [ "maxPolygonSubdivisions", "classMR_1_1Const__FillHoleParams.html#a611f30253045b1863a547e25a9cfe408", null ],
     [ "metric", "classMR_1_1Const__FillHoleParams.html#a064ab5100f3940879772dadc59db183e", null ],

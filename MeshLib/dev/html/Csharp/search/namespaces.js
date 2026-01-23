@@ -61,7 +61,7 @@ var searchData=
   ['mr_3a_3aselfintersections_57',['SelfIntersections',['../../Cpp/structMR_1_1SelfIntersections_1_1Settings.html',1,'MR']]],
   ['mr_3a_3aseparationpointstorage_58',['SeparationPointStorage',['../../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html',1,'MR']]],
   ['mr_3a_3ashortcutmanager_59',['ShortcutManager',['../../Cpp/structMR_1_1ShortcutManager_1_1ShortcutCommand.html',1,'MR']]],
-  ['mr_3a_3aspacemouse_60',['SpaceMouse',['../../Cpp/structMR_1_1SpaceMouse_1_1SpaceMouseAction.html',1,'MR']]],
+  ['mr_3a_3aspacemouse_60',['SpaceMouse',['../../Cpp/structMR_1_1SpaceMouse_1_1Action.html',1,'MR']]],
   ['mr_3a_3asurfacemanipulationwidget_61',['SurfaceManipulationWidget',['../../Cpp/structMR_1_1SurfaceManipulationWidget_1_1Settings.html',1,'MR']]],
   ['mr_3a_3asurfacepointwidget_62',['SurfacePointWidget',['../../Cpp/structMR_1_1SurfacePointWidget_1_1Parameters.html',1,'MR']]],
   ['mr_3a_3atbbthreadmutex_63',['TbbThreadMutex',['../../Cpp/classMR_1_1TbbThreadMutex_1_1LockGuard.html',1,'MR']]],

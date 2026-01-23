@@ -3,6 +3,7 @@ var classMR_1_1Const__UniteManyMeshesParams =
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#aeb04f4a9ec91884a25843d695207f939", null ],
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#acc89d0de3b38948dffbe842d07d7eb5e", null ],
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#a46f685622e92b418a8de1ebc992b2674", null ],
+    [ "_Storage_newFaces", "classMR_1_1Const__UniteManyMeshesParams.html#a72069272386833af708fa411bf9b27ee", null ],
     [ "fixDegenerations", "classMR_1_1Const__UniteManyMeshesParams.html#a73860d8c5a1e8734c2aae4cf4509b328", null ],
     [ "forceCut", "classMR_1_1Const__UniteManyMeshesParams.html#a56d4c03220357c593bd5ff3d5a4bbbf1", null ],
     [ "maxAllowedError", "classMR_1_1Const__UniteManyMeshesParams.html#a3393d58ab8011082aae3f30bc5d45e30", null ],

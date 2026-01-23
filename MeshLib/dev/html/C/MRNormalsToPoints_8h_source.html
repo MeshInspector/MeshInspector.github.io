@@ -173,39 +173,39 @@ $(function(){initNavTree('MRNormalsToPoints_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>MRC_API <span class="keyword">const</span> MR_NormalsToPoints *MR_NormalsToPoints_OffsetPtr(<span class="keyword">const</span> MR_NormalsToPoints *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_OffsetMutablePtr(MR_NormalsToPoints *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_ConstructFromAnother(MR_PassBy _other_pass_by, MR_NormalsToPoints *_other);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>MRC_API <span class="keyword">const</span> MR_NormalsToPoints *MR_NormalsToPoints_OffsetPtr(<span class="keyword">const</span> MR_NormalsToPoints *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_OffsetMutablePtr(MR_NormalsToPoints *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_ConstructFromAnother(MR_PassBy _other_pass_by, MR_NormalsToPoints *_other);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_Destroy(<span class="keyword">const</span> MR_NormalsToPoints *_this);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_Destroy(<span class="keyword">const</span> MR_NormalsToPoints *_this);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_DestroyArray(<span class="keyword">const</span> MR_NormalsToPoints *_this);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_DestroyArray(<span class="keyword">const</span> MR_NormalsToPoints *_this);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_AssignFromAnother(MR_NormalsToPoints *_this, MR_PassBy _other_pass_by, MR_NormalsToPoints *_other);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_prepare(MR_NormalsToPoints *_this, <span class="keyword">const</span> MR_MeshTopology *topology, <span class="keyword">const</span> <span class="keywordtype">float</span> *guideWeight);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_run_3(MR_NormalsToPoints *_this, <span class="keyword">const</span> MR_VertCoords *guide, <span class="keyword">const</span> MR_FaceNormals *normals, MR_VertCoords *points);</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_run_4(MR_NormalsToPoints *_this, <span class="keyword">const</span> MR_VertCoords *guide, <span class="keyword">const</span> MR_FaceNormals *normals, MR_VertCoords *points, <span class="keywordtype">float</span> maxInitialDistSq);</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_Destroy(<span class="keyword">const</span> MR_NormalsToPoints_ISolver *_this);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_DestroyArray(<span class="keyword">const</span> MR_NormalsToPoints_ISolver *_this);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>MRC_API MR_NormalsToPoints *MR_NormalsToPoints_AssignFromAnother(MR_NormalsToPoints *_this, MR_PassBy _other_pass_by, MR_NormalsToPoints *_other);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_prepare(MR_NormalsToPoints *_this, <span class="keyword">const</span> MR_MeshTopology *topology, <span class="keyword">const</span> <span class="keywordtype">float</span> *guideWeight);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_run_3(MR_NormalsToPoints *_this, <span class="keyword">const</span> MR_VertCoords *guide, <span class="keyword">const</span> MR_FaceNormals *normals, MR_VertCoords *points);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_run_4(MR_NormalsToPoints *_this, <span class="keyword">const</span> MR_VertCoords *guide, <span class="keyword">const</span> MR_FaceNormals *normals, MR_VertCoords *points, <span class="keywordtype">float</span> maxInitialDistSq);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_Destroy(<span class="keyword">const</span> MR_NormalsToPoints_ISolver *_this);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_DestroyArray(<span class="keyword">const</span> MR_NormalsToPoints_ISolver *_this);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_prepare(MR_NormalsToPoints_ISolver *_this, <span class="keyword">const</span> MR_MeshTopology *topology, <span class="keywordtype">float</span> guideWeight);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_prepare(MR_NormalsToPoints_ISolver *_this, <span class="keyword">const</span> MR_MeshTopology *topology, <span class="keywordtype">float</span> guideWeight);</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_run(MR_NormalsToPoints_ISolver *_this, <span class="keyword">const</span> MR_VertCoords *guide, <span class="keyword">const</span> MR_FaceNormals *normals, MR_VertCoords *points, <span class="keywordtype">float</span> maxInitialDistSq);</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>MRC_API <span class="keyword">const</span> MR_NormalsToPoints_ISolver *MR_NormalsToPoints_ISolver_OffsetPtr(<span class="keyword">const</span> MR_NormalsToPoints_ISolver *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>MRC_API MR_NormalsToPoints_ISolver *MR_NormalsToPoints_ISolver_OffsetMutablePtr(MR_NormalsToPoints_ISolver *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>MRC_API <span class="keywordtype">void</span> MR_NormalsToPoints_ISolver_run(MR_NormalsToPoints_ISolver *_this, <span class="keyword">const</span> MR_VertCoords *guide, <span class="keyword">const</span> MR_FaceNormals *normals, MR_VertCoords *points, <span class="keywordtype">float</span> maxInitialDistSq);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>MRC_API <span class="keyword">const</span> MR_NormalsToPoints_ISolver *MR_NormalsToPoints_ISolver_OffsetPtr(<span class="keyword">const</span> MR_NormalsToPoints_ISolver *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>MRC_API MR_NormalsToPoints_ISolver *MR_NormalsToPoints_ISolver_OffsetMutablePtr(MR_NormalsToPoints_ISolver *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -3,6 +3,8 @@ var classMR_1_1Const__DecimatePolylineSettings__MRVector3f =
     [ "Const_DecimatePolylineSettings_MRVector3f", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#add0100287221573a0422439887ce779e", null ],
     [ "Const_DecimatePolylineSettings_MRVector3f", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a2e0c36f5a65a94dd9764e24495f02587", null ],
     [ "Const_DecimatePolylineSettings_MRVector3f", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a6d7cc39124fe3c330ec04f17cd9be27f", null ],
+    [ "_Storage_region", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#adee6d6dca887f262b405010159083072", null ],
+    [ "_Storage_vertForms", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a94683ddbb989500eb8e3e244f57486c8", null ],
     [ "adjustCollapse", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a6c24e16bc9cd5a91daedca867f6bdb05", null ],
     [ "maxDeletedVertices", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a2e469705e72925a067a1447121a49175", null ],
     [ "maxEdgeLen", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#aca2e32089d08cdbd477f5053fb1e8b6b", null ],

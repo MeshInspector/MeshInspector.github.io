@@ -167,27 +167,27 @@ $(function(){initNavTree('MRRayBoxIntersection_8h_source.html',''); initResizabl
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_RayOrigin_float MR_RayOrigin_float;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_ConstructFromAnother(<span class="keyword">const</span> MR_RayOrigin_float *_other);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>MRC_API <span class="keyword">const</span> MR_RayOrigin_float *MR_RayOrigin_float_OffsetPtr(<span class="keyword">const</span> MR_RayOrigin_float *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_OffsetMutablePtr(MR_RayOrigin_float *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_Construct(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *ro);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>MRC_API <span class="keywordtype">void</span> MR_RayOrigin_float_Destroy(<span class="keyword">const</span> MR_RayOrigin_float *_this);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>MRC_API <span class="keywordtype">void</span> MR_RayOrigin_float_DestroyArray(<span class="keyword">const</span> MR_RayOrigin_float *_this);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_AssignFromAnother(MR_RayOrigin_float *_this, <span class="keyword">const</span> MR_RayOrigin_float *_other);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>MRC_API <span class="keywordtype">bool</span> MR_rayBoxIntersect_5(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Box3f.html">MR_Box3f</a> *box, <span class="keyword">const</span> MR_RayOrigin_float *rayOrigin, <span class="keywordtype">float</span> *t0, <span class="keywordtype">float</span> *t1, <span class="keyword">const</span> MR_IntersectionPrecomputes_float *prec);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>MRC_API <span class="keywordtype">bool</span> MR_rayBoxIntersect_4_MR_Box3f(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Box3f.html">MR_Box3f</a> *box, <span class="keyword">const</span> MR_Line3f *line, <span class="keywordtype">float</span> t0, <span class="keywordtype">float</span> t1);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_ConstructFromAnother(<span class="keyword">const</span> MR_RayOrigin_float *_other);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>MRC_API <span class="keyword">const</span> MR_RayOrigin_float *MR_RayOrigin_float_OffsetPtr(<span class="keyword">const</span> MR_RayOrigin_float *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_OffsetMutablePtr(MR_RayOrigin_float *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_Construct(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *ro);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>MRC_API <span class="keywordtype">void</span> MR_RayOrigin_float_Destroy(<span class="keyword">const</span> MR_RayOrigin_float *_this);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>MRC_API <span class="keywordtype">void</span> MR_RayOrigin_float_DestroyArray(<span class="keyword">const</span> MR_RayOrigin_float *_this);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>MRC_API MR_RayOrigin_float *MR_RayOrigin_float_AssignFromAnother(MR_RayOrigin_float *_this, <span class="keyword">const</span> MR_RayOrigin_float *_other);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>MRC_API <span class="keywordtype">bool</span> MR_rayBoxIntersect_5(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Box3f.html">MR_Box3f</a> *box, <span class="keyword">const</span> MR_RayOrigin_float *rayOrigin, <span class="keywordtype">float</span> *t0, <span class="keywordtype">float</span> *t1, <span class="keyword">const</span> MR_IntersectionPrecomputes_float *prec);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>MRC_API <span class="keywordtype">bool</span> MR_rayBoxIntersect_4_MR_Box3f(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Box3f.html">MR_Box3f</a> *box, <span class="keyword">const</span> MR_Line3f *line, <span class="keywordtype">float</span> t0, <span class="keywordtype">float</span> t1);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="structMR__Box3f.html">MR_Box3f</a></div><div class="ttdef"><b>Definition</b> MRBox.h:110</div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:52</div></div>
 </div><!-- fragment --></div><!-- contents -->

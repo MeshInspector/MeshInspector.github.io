@@ -114,7 +114,7 @@ var searchData=
   ['mr_3a_3aselfintersections_110',['SelfIntersections',['../../Cpp/structMR_1_1SelfIntersections_1_1Settings.html',1,'MR']]],
   ['mr_3a_3aseparationpointstorage_111',['SeparationPointStorage',['../../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html',1,'MR']]],
   ['mr_3a_3ashortcutmanager_112',['ShortcutManager',['../../Cpp/structMR_1_1ShortcutManager_1_1ShortcutCommand.html',1,'MR']]],
-  ['mr_3a_3aspacemouse_113',['SpaceMouse',['../../Cpp/structMR_1_1SpaceMouse_1_1SpaceMouseAction.html',1,'MR']]],
+  ['mr_3a_3aspacemouse_113',['SpaceMouse',['../../Cpp/structMR_1_1SpaceMouse_1_1Action.html',1,'MR']]],
   ['mr_3a_3astd_114',['Std',['../../Csharp/classMR_1_1Std_1_1__ByValue__Array__MRBooleanResultMapperMaps__2.html',1,'MR']]],
   ['mr_3a_3astd_3a_3aconst_5fset_5fstdstring_115',['Const_Set_StdString',['../../Csharp/classMR_1_1Std_1_1Const__Set__StdString_1_1__InOptConst__ConstIterator.html',1,'MR::Std']]],
   ['mr_3a_3astd_3a_3aconst_5funorderedset_5fstdstring_116',['Const_UnorderedSet_StdString',['../../Csharp/classMR_1_1Std_1_1Const__UnorderedSet__StdString_1_1__InOptConst__ConstIterator.html',1,'MR::Std']]],

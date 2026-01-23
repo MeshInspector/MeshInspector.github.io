@@ -12,7 +12,7 @@ var structMR_1_1GraphEdgeId =
     [ "incr", "structMR_1_1GraphEdgeId.html#aa334e32d3cb6fbc2cdc1a825456cc99b", null ],
     [ "less", "structMR_1_1GraphEdgeId.html#aaf74d58cdd2c33a22fa5adb4e8b0f067", null ],
     [ "operator bool", "structMR_1_1GraphEdgeId.html#ac627df82936be0f8e24af3b33b8b4b6a", null ],
-    [ "operator GraphEdgeId", "structMR_1_1GraphEdgeId.html#aff67872e10afd0e4b8de63a0685e0862", null ],
+    [ "operator GraphEdgeId", "structMR_1_1GraphEdgeId.html#a9bc7d82fabc16114eba0c1b555aa559c", null ],
     [ "operator int", "structMR_1_1GraphEdgeId.html#ac7db20c378d23963412dc363109d32eb", null ],
     [ "operator==", "structMR_1_1GraphEdgeId.html#a1498cf4aeab1e33c2cea18014241db5e", null ],
     [ "subAssign", "structMR_1_1GraphEdgeId.html#a9adb459913692b156c9875a98aa3be31", null ],

@@ -8,6 +8,7 @@ var hierarchy =
     [ "MR::AABBTreeBase< ObjTreeTraits >", "classMR_1_1AABBTreeBase.html", null ],
     [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
+    [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AlphaSortGL", "classMR_1_1AlphaSortGL.html", null ],
     [ "MR::AncillaryLabel", "structMR_1_1AncillaryLabel.html", null ],
@@ -219,6 +220,7 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
+    [ "MR::SpaceMouse::Controller", "classMR_1_1SpaceMouse_1_1Controller.html", null ],
     [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", null ],
     [ "MR::CubicBezierCurve< V >", "structMR_1_1CubicBezierCurve.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
@@ -235,6 +237,7 @@ var hierarchy =
     [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", null ],
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", null ],
     [ "MR::DepthPeelingGL", "classMR_1_1DepthPeelingGL.html", null ],
+    [ "MR::SpaceMouse::Device", "classMR_1_1SpaceMouse_1_1Device.html", null ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", null ],
     [ "MR::Directory", "structMR_1_1Directory.html", null ],
@@ -305,6 +308,9 @@ var hierarchy =
       [ "MR::GlTexture3", "classMR_1_1GlTexture3.html", null ]
     ] ],
     [ "MR::UI::TestEngine::GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", null ],
+    [ "MR::SpaceMouse::Handler", "classMR_1_1SpaceMouse_1_1Handler.html", [
+      [ "MR::SpaceMouse::HandlerHidapi", "classMR_1_1SpaceMouse_1_1HandlerHidapi.html", null ]
+    ] ],
     [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Palette::Histogram", "structMR_1_1Palette_1_1Histogram.html", null ],
@@ -336,7 +342,7 @@ var hierarchy =
         [ "MR::NameTagClickListener", "structMR_1_1NameTagClickListener.html", null ],
         [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", null ],
         [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", [
-          [ "MR::SpaceMouse::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi.html", null ]
+          [ "MR::SpaceMouse::HandlerHidapi", "classMR_1_1SpaceMouse_1_1HandlerHidapi.html", null ]
         ] ],
         [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", null ],
         [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", null ],
@@ -710,6 +716,7 @@ var hierarchy =
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::RibbonMenuSearch::Parameters", "structMR_1_1RibbonMenuSearch_1_1Parameters.html", null ],
+    [ "MR::SpaceMouse::Parameters", "structMR_1_1SpaceMouse_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::VoxelsVolumeCachingAccessor< V >::Parameters", "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html", null ],
@@ -847,13 +854,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::PrecipitationSimulator::SimulationStep", "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html", null ],
-    [ "MR::SpaceMouse::SpaceMouseAction", "structMR_1_1SpaceMouse_1_1SpaceMouseAction.html", null ],
-    [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
-    [ "MR::SpaceMouse::SpaceMouseDevice", "classMR_1_1SpaceMouse_1_1SpaceMouseDevice.html", null ],
-    [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
-      [ "MR::SpaceMouse::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi.html", null ]
-    ] ],
-    [ "MR::SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
     [ "MR::SparsePolynomial< C, D, M >", "classMR_1_1SparsePolynomial.html", null ],
     [ "MR::Sphere< V >", "structMR_1_1Sphere.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [

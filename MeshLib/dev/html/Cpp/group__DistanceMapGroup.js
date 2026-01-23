@@ -97,7 +97,7 @@ var group__DistanceMapGroup =
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a7cd2881005d6a5361cc257aafb7eb152", null ],
       [ "assign", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a7fc380a1bb5b0bb90bcf30e9a81c4dcc", null ],
       [ "progress", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#aac7a79a4c9c7dc392e7a7da80b3f2379", null ],
-      [ "xf", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a66e2579c66d13bbf394a0d66a8cc5ecb", null ]
+      [ "xf", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a3231ca0d20ca30c2707fa236e2d13314", null ]
     ] ],
     [ "MR::RectIndexer", "../Csharp/classMR_1_1RectIndexer.html", [
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#aaade34a3fb7a2c857f510fe790b579ba", null ],

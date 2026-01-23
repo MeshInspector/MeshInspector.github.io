@@ -159,9 +159,12 @@ var annotated_dup =
         [ "Wrapper", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
       ] ],
       [ "SpaceMouse", null, [
-        [ "SpaceMouseAction", "structMR_1_1SpaceMouse_1_1SpaceMouseAction.html", null ],
-        [ "SpaceMouseDevice", "classMR_1_1SpaceMouse_1_1SpaceMouseDevice.html", "classMR_1_1SpaceMouse_1_1SpaceMouseDevice" ],
-        [ "SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi.html", "classMR_1_1SpaceMouse_1_1SpaceMouseHandlerHidapi" ]
+        [ "Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
+        [ "Controller", "classMR_1_1SpaceMouse_1_1Controller.html", null ],
+        [ "Device", "classMR_1_1SpaceMouse_1_1Device.html", "classMR_1_1SpaceMouse_1_1Device" ],
+        [ "Handler", "classMR_1_1SpaceMouse_1_1Handler.html", "classMR_1_1SpaceMouse_1_1Handler" ],
+        [ "HandlerHidapi", "classMR_1_1SpaceMouse_1_1HandlerHidapi.html", "classMR_1_1SpaceMouse_1_1HandlerHidapi" ],
+        [ "Parameters", "structMR_1_1SpaceMouse_1_1Parameters.html", null ]
       ] ],
       [ "UI", null, [
         [ "TestEngine", null, [
@@ -518,11 +521,8 @@ var annotated_dup =
       [ "ShortcutManager", "classMR_1_1ShortcutManager.html", "classMR_1_1ShortcutManager" ],
       [ "Signal", "structMR_1_1Signal.html", null ],
       [ "SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", null ],
-      [ "SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
       [ "SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", null ],
-      [ "SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", "classMR_1_1SpaceMouseHandler" ],
       [ "SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", null ],
-      [ "SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
       [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", null ],
       [ "SparsePolynomial", "classMR_1_1SparsePolynomial.html", "classMR_1_1SparsePolynomial" ],
       [ "Sphere", "structMR_1_1Sphere.html", "structMR_1_1Sphere" ],
