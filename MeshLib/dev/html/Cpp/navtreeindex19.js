@@ -1,9 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555":[6,0,0,17,8],
-"group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef":[6,0,0,17,15],
-"group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b":[6,0,0,17,6],
-"group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf":[6,0,0,17,11],
 "group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4":[6,0,0,17,9],
 "group__VoxelPathGroup.html":[6,0,0,17,3],
 "group__VoxelPathGroup.html#ga149abd6a892e1284e051e285396c94c6":[6,0,0,17,3,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX19 =
 "structMR_1_1DrawButtonParams.html":[6,0,2,0,2,95],
 "structMR_1_1DrawListener.html":[6,0,2,0,2,96],
 "structMR_1_1DrawSceneUiListener.html":[6,0,2,0,2,97],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,2,0,2,99,0]
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,2,0,2,99,0],
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,2,0,2,99,0,2],
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[6,0,2,0,2,99,0,0],
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[6,0,2,0,2,99,0,1],
+"structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,2,100,0]
 };

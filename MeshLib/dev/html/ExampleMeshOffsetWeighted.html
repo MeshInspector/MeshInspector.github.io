@@ -166,7 +166,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
 <div class="line">    <span class="keyword">auto</span> vertSize = mesh.topology.vertSize();</div>
 <div class="line">    <a class="code hl_classRef" href="./Csharp/classMR_1_1VertScalars.html">MR::VertScalars</a> scalars( vertSize );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__BasicGroup.html#gaf184f372f735726148d7a07cbbbb29af">MR::ParallelFor</a>( scalars, [&amp;] ( <a class="code hl_structRef" href="./Csharp/structMR_1_1VertId.html">MR::VertId</a> v )</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a>( scalars, [&amp;] ( <a class="code hl_structRef" href="./Csharp/structMR_1_1VertId.html">MR::VertId</a> v )</div>
 <div class="line">    {</div>
 <div class="line">        scalars[v] = std::abs( mesh.points[v].x / 5.0f ); <span class="comment">// Individual extra offset sizes for points</span></div>
 <div class="line">    } );</div>
@@ -195,7 +195,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aclassMR_1_1VertScalars_html"><div class="ttname"><a href="./Csharp/classMR_1_1VertScalars.html">MR::VertScalars</a></div></div>
-<div class="ttc" id="agroup__BasicGroup_html_gaf184f372f735726148d7a07cbbbb29af"><div class="ttname"><a href="./Cpp/group__BasicGroup.html#gaf184f372f735726148d7a07cbbbb29af">MR::ParallelFor</a></div><div class="ttdeci">auto ParallelFor(I begin, I end, F &amp;&amp;f, Cb &amp;&amp;... cb)</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_gacebe01b37f86a061aec73665e5458155"><div class="ttname"><a href="./Cpp/group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a></div><div class="ttdeci">auto ParallelFor(I begin, I end, F &amp;&amp;... f)</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="astructMR_1_1VertId_html"><div class="ttname"><a href="./Csharp/structMR_1_1VertId.html">MR::VertId</a></div></div>
 <div class="ttc" id="astructMR_1_1WeightedShell_1_1ParametersMetric_html"><div class="ttname"><a href="./Cpp/structMR_1_1WeightedShell_1_1ParametersMetric.html">MR::WeightedShell::ParametersMetric</a></div></div>

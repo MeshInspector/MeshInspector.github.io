@@ -289,8 +289,6 @@ var annotated_dup =
       [ "FramebufferData", "classMR_1_1FramebufferData.html", "classMR_1_1FramebufferData" ],
       [ "FrameCounter", "classMR_1_1FrameCounter.html", null ],
       [ "FrameRedrawRequest", "classMR_1_1FrameRedrawRequest.html", null ],
-      [ "FunctionRef", "classMR_1_1FunctionRef.html", null ],
-      [ "FunctionRef< R(Args...)>", "classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4.html", null ],
       [ "GcodeToolsLibrary", "classMR_1_1GcodeToolsLibrary.html", null ],
       [ "GlBuffer", "classMR_1_1GlBuffer.html", null ],
       [ "GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],

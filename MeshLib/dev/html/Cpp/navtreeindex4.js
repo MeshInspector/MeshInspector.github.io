@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#afbb758792dcd12d2715df0a588c5b796":[6,0,0,4,30,1],
 "classMR_1_1ChangeMeshFaceSelectionAction.html":[6,0,0,4,29],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a114c230cdf95ada244d25b7f899bc188":[6,0,0,4,29,1],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a1b29a5d063cd9bd2eca85cb1a201e4a0":[6,0,0,4,29,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "classMR_1_1CombinedHistoryAction.html#aee0c2b74bb5b1590616ea67a38a34884":[6,0,0,4,36,1],
 "classMR_1_1CommandLoop.html":[6,0,2,0,2,62],
 "classMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0],
-"classMR_1_1ComputeSteepestDescentPathSettings.html#a039f7bda688ad753304a770f3fb7cd19":[6,0,0,16,3,0,2]
+"classMR_1_1ComputeSteepestDescentPathSettings.html#a039f7bda688ad753304a770f3fb7cd19":[6,0,0,16,3,0,2],
+"classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9":[6,0,0,16,3,0,3]
 };
