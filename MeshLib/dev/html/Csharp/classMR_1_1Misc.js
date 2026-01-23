@@ -7,7 +7,6 @@ var classMR_1_1Misc =
     [ "Const_Box", "classMR_1_1Misc_1_1Const__Box.html", "classMR_1_1Misc_1_1Const__Box" ],
     [ "ConstRef", "classMR_1_1Misc_1_1ConstRef.html", null ],
     [ "InOut", "classMR_1_1Misc_1_1InOut.html", null ],
-    [ "KeepAliveHolder", "classMR_1_1Misc_1_1KeepAliveHolder.html", "classMR_1_1Misc_1_1KeepAliveHolder" ],
     [ "NullOptType", "structMR_1_1Misc_1_1NullOptType.html", null ],
     [ "Object", "classMR_1_1Misc_1_1Object.html", "classMR_1_1Misc_1_1Object" ],
     [ "Ref", "classMR_1_1Misc_1_1Ref.html", null ],

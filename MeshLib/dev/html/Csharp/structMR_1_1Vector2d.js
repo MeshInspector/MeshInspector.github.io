@@ -16,7 +16,7 @@ var structMR_1_1Vector2d =
     [ "minusY", "structMR_1_1Vector2d.html#ad4ca4c7419d00af5c283bd3f6c28e381", null ],
     [ "mulAssign", "structMR_1_1Vector2d.html#a01f5214e3714c22506ef411a26b65599", null ],
     [ "normalized", "structMR_1_1Vector2d.html#a232fce6db229c61bbf933021c302a6c0", null ],
-    [ "operator Vector2d", "structMR_1_1Vector2d.html#ac4b54b60119cdd2f8b5b0eb22abe1396", null ],
+    [ "operator Vector2d", "structMR_1_1Vector2d.html#a6eecfa0c8a42ca615c6f6374d0ab7470", null ],
     [ "operator*", "structMR_1_1Vector2d.html#a479ece99040eae643f35cd22f93f7e57", null ],
     [ "operator*", "structMR_1_1Vector2d.html#a005dcb06710a32fb208c8b4d1e795956", null ],
     [ "operator+", "structMR_1_1Vector2d.html#a70e4d42fa98d63cc2ef4c4826c7e581a", null ],

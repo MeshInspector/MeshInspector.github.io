@@ -13,7 +13,7 @@ var structMR_1_1VoxelId =
     [ "less", "structMR_1_1VoxelId.html#adbe93b2b3a08e02d9c420ca54c58c62c", null ],
     [ "operator bool", "structMR_1_1VoxelId.html#ab775e245505df1013ddf24dc418d9c48", null ],
     [ "operator ulong", "structMR_1_1VoxelId.html#a73fc8b568d27df79456bdb5aac5124e8", null ],
-    [ "operator VoxelId", "structMR_1_1VoxelId.html#a159e228f641a305cf60abd6f8c5dfe2e", null ],
+    [ "operator VoxelId", "structMR_1_1VoxelId.html#affc911fa4925da7b13357154b7f10341", null ],
     [ "operator+", "structMR_1_1VoxelId.html#a31ff6169fe5784f576c0bccce613d9c0", null ],
     [ "operator+", "structMR_1_1VoxelId.html#a070c17c80f00e7df7a288704f7d0b263", null ],
     [ "operator+", "structMR_1_1VoxelId.html#a84a015d6f35edfb9c4dddf4276419901", null ],

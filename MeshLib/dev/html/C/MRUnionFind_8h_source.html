@@ -179,125 +179,125 @@ $(function(){initNavTree('MRUnionFind_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>MRC_API <span class="keyword">const</span> MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_OffsetPtr(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_OffsetMutablePtr(MR_UnionFind_MR_FaceId *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_ConstructFromAnother(MR_PassBy _other_pass_by, MR_UnionFind_MR_FaceId *_other);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_Construct(MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_FaceId_Destroy(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_FaceId_DestroyArray(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_AssignFromAnother(MR_UnionFind_MR_FaceId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_FaceId *_other);</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>MRC_API MR_uint64_t MR_UnionFind_MR_FaceId_size(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_FaceId_reset(MR_UnionFind_MR_FaceId *_this, MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>MRC_API MR_std_pair_MR_FaceId_bool *MR_UnionFind_MR_FaceId_unite(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> first, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> second);</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_FaceId_united(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> first, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> second);</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_FaceId_isRoot(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>MRC_API <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> MR_UnionFind_MR_FaceId_parent(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>MRC_API <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> MR_UnionFind_MR_FaceId_find(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>MRC_API <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> MR_UnionFind_MR_FaceId_findUpdateRange(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> begin, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> end);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>MRC_API <span class="keyword">const</span> MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_OffsetPtr(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_OffsetMutablePtr(MR_UnionFind_MR_FaceId *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_ConstructFromAnother(MR_PassBy _other_pass_by, MR_UnionFind_MR_FaceId *_other);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_Construct(MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_FaceId_Destroy(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_FaceId_DestroyArray(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>MRC_API MR_UnionFind_MR_FaceId *MR_UnionFind_MR_FaceId_AssignFromAnother(MR_UnionFind_MR_FaceId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_FaceId *_other);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>MRC_API MR_uint64_t MR_UnionFind_MR_FaceId_size(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_FaceId_reset(MR_UnionFind_MR_FaceId *_this, MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>MRC_API MR_std_pair_MR_FaceId_bool *MR_UnionFind_MR_FaceId_unite(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> first, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> second);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_FaceId_united(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> first, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> second);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_FaceId_isRoot(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>MRC_API <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> MR_UnionFind_MR_FaceId_parent(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>MRC_API <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> MR_UnionFind_MR_FaceId_find(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>MRC_API <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> MR_UnionFind_MR_FaceId_findUpdateRange(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> begin, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> end);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>MRC_API <span class="keyword">const</span> MR_FaceMap *MR_UnionFind_MR_FaceId_roots(MR_UnionFind_MR_FaceId *_this);</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>MRC_API <span class="keyword">const</span> MR_FaceMap *MR_UnionFind_MR_FaceId_roots(MR_UnionFind_MR_FaceId *_this);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>MRC_API <span class="keyword">const</span> MR_FaceMap *MR_UnionFind_MR_FaceId_parents(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>MRC_API <span class="keyword">const</span> MR_FaceMap *MR_UnionFind_MR_FaceId_parents(<span class="keyword">const</span> MR_UnionFind_MR_FaceId *_this);</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>MRC_API <span class="keywordtype">int</span> MR_UnionFind_MR_FaceId_sizeOfComp(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_DefaultConstruct(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>MRC_API <span class="keywordtype">int</span> MR_UnionFind_MR_FaceId_sizeOfComp(MR_UnionFind_MR_FaceId *_this, <a class="code hl_struct" href="structMR__FaceId.html">MR_FaceId</a> a);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_DefaultConstruct(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>MRC_API <span class="keyword">const</span> MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_OffsetPtr(<span class="keyword">const</span> MR_UnionFind_MR_VertId *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_OffsetMutablePtr(MR_UnionFind_MR_VertId *ptr, ptrdiff_t i);</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>MRC_API <span class="keyword">const</span> MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_OffsetPtr(<span class="keyword">const</span> MR_UnionFind_MR_VertId *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_ConstructFromAnother(MR_PassBy _other_pass_by, MR_UnionFind_MR_VertId *_other);</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_OffsetMutablePtr(MR_UnionFind_MR_VertId *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_ConstructFromAnother(MR_PassBy _other_pass_by, MR_UnionFind_MR_VertId *_other);</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_Construct(MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_VertId_Destroy(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_VertId_DestroyArray(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_Construct(MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_VertId_Destroy(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_VertId_DestroyArray(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_AssignFromAnother(MR_UnionFind_MR_VertId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_VertId *_other);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>MRC_API MR_uint64_t MR_UnionFind_MR_VertId_size(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>MRC_API MR_UnionFind_MR_VertId *MR_UnionFind_MR_VertId_AssignFromAnother(MR_UnionFind_MR_VertId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_VertId *_other);</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>MRC_API MR_uint64_t MR_UnionFind_MR_VertId_size(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_VertId_reset(MR_UnionFind_MR_VertId *_this, MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>MRC_API MR_std_pair_MR_VertId_bool *MR_UnionFind_MR_VertId_unite(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> first, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> second);</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_VertId_reset(MR_UnionFind_MR_VertId *_this, MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_VertId_united(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> first, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> second);</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>MRC_API MR_std_pair_MR_VertId_bool *MR_UnionFind_MR_VertId_unite(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> first, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> second);</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_VertId_united(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> first, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> second);</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_VertId_isRoot(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>MRC_API <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> MR_UnionFind_MR_VertId_parent(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>MRC_API <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> MR_UnionFind_MR_VertId_find(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>MRC_API <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> MR_UnionFind_MR_VertId_findUpdateRange(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> begin, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> end);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_VertId_isRoot(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>MRC_API <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> MR_UnionFind_MR_VertId_parent(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>MRC_API <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> MR_UnionFind_MR_VertId_find(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>MRC_API <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> MR_UnionFind_MR_VertId_findUpdateRange(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> begin, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> end);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>MRC_API <span class="keyword">const</span> MR_VertMap *MR_UnionFind_MR_VertId_roots(MR_UnionFind_MR_VertId *_this);</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>MRC_API <span class="keyword">const</span> MR_VertMap *MR_UnionFind_MR_VertId_parents(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>MRC_API <span class="keyword">const</span> MR_VertMap *MR_UnionFind_MR_VertId_roots(MR_UnionFind_MR_VertId *_this);</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>MRC_API <span class="keyword">const</span> MR_VertMap *MR_UnionFind_MR_VertId_parents(<span class="keyword">const</span> MR_UnionFind_MR_VertId *_this);</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>MRC_API <span class="keywordtype">int</span> MR_UnionFind_MR_VertId_sizeOfComp(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>MRC_API <span class="keywordtype">int</span> MR_UnionFind_MR_VertId_sizeOfComp(MR_UnionFind_MR_VertId *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> a);</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_DefaultConstruct(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>MRC_API <span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_OffsetPtr(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *ptr, ptrdiff_t i);</div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span> </div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_DefaultConstruct(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_DefaultConstructArray(<span class="keywordtype">size_t</span> num_elems);</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>MRC_API <span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_OffsetPtr(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_OffsetMutablePtr(MR_UnionFind_MR_UndirectedEdgeId *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_ConstructFromAnother(MR_PassBy _other_pass_by, MR_UnionFind_MR_UndirectedEdgeId *_other);</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_Construct(MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_OffsetMutablePtr(MR_UnionFind_MR_UndirectedEdgeId *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_ConstructFromAnother(MR_PassBy _other_pass_by, MR_UnionFind_MR_UndirectedEdgeId *_other);</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_Construct(MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_UndirectedEdgeId_Destroy(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_UndirectedEdgeId_DestroyArray(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_AssignFromAnother(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_UndirectedEdgeId *_other);</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>MRC_API MR_uint64_t MR_UnionFind_MR_UndirectedEdgeId_size(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_UndirectedEdgeId_Destroy(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_UndirectedEdgeId_DestroyArray(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>MRC_API MR_UnionFind_MR_UndirectedEdgeId *MR_UnionFind_MR_UndirectedEdgeId_AssignFromAnother(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_UndirectedEdgeId *_other);</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>MRC_API MR_uint64_t MR_UnionFind_MR_UndirectedEdgeId_size(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_UndirectedEdgeId_reset(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>MRC_API MR_std_pair_MR_UndirectedEdgeId_bool *MR_UnionFind_MR_UndirectedEdgeId_unite(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> first, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> second);</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_UndirectedEdgeId_united(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> first, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> second);</div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span> </div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_UndirectedEdgeId_isRoot(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>MRC_API <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_UnionFind_MR_UndirectedEdgeId_parent(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>MRC_API <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_UnionFind_MR_UndirectedEdgeId_find(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>MRC_API <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_UnionFind_MR_UndirectedEdgeId_findUpdateRange(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> begin, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> end);</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>MRC_API <span class="keyword">const</span> MR_UndirectedEdgeMap *MR_UnionFind_MR_UndirectedEdgeId_roots(MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>MRC_API <span class="keyword">const</span> MR_UndirectedEdgeMap *MR_UnionFind_MR_UndirectedEdgeId_parents(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
-<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>MRC_API <span class="keywordtype">int</span> MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>MRC_API <span class="keywordtype">void</span> MR_UnionFind_MR_UndirectedEdgeId_reset(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_uint64_t <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>MRC_API MR_std_pair_MR_UndirectedEdgeId_bool *MR_UnionFind_MR_UndirectedEdgeId_unite(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> first, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> second);</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_UndirectedEdgeId_united(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> first, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> second);</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>MRC_API <span class="keywordtype">bool</span> MR_UnionFind_MR_UndirectedEdgeId_isRoot(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>MRC_API <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_UnionFind_MR_UndirectedEdgeId_parent(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span> </div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>MRC_API <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_UnionFind_MR_UndirectedEdgeId_find(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>MRC_API <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_UnionFind_MR_UndirectedEdgeId_findUpdateRange(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> begin, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> end);</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span> </div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>MRC_API <span class="keyword">const</span> MR_UndirectedEdgeMap *MR_UnionFind_MR_UndirectedEdgeId_roots(MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>MRC_API <span class="keyword">const</span> MR_UndirectedEdgeMap *MR_UnionFind_MR_UndirectedEdgeId_parents(<span class="keyword">const</span> MR_UnionFind_MR_UndirectedEdgeId *_this);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>MRC_API <span class="keywordtype">int</span> MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp(MR_UnionFind_MR_UndirectedEdgeId *_this, <a class="code hl_struct" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> a);</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 <div class="ttc" id="astructMR__FaceId_html"><div class="ttname"><a href="structMR__FaceId.html">MR_FaceId</a></div><div class="ttdef"><b>Definition</b> MRId.h:45</div></div>
 <div class="ttc" id="astructMR__UndirectedEdgeId_html"><div class="ttname"><a href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a></div><div class="ttdef"><b>Definition</b> MRId.h:35</div></div>

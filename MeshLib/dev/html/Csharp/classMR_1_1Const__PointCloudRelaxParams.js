@@ -2,6 +2,7 @@ var classMR_1_1Const__PointCloudRelaxParams =
 [
     [ "Const_PointCloudRelaxParams", "classMR_1_1Const__PointCloudRelaxParams.html#a9334c267f49f809a8b7d27cce13fc3f1", null ],
     [ "Const_PointCloudRelaxParams", "classMR_1_1Const__PointCloudRelaxParams.html#a1d8e6afb5224f1bdd54af15d2df6c548", null ],
+    [ "_Storage_region", "classMR_1_1Const__PointCloudRelaxParams.html#a135e0ff0ff93e773441d8e8291e2148c", null ],
     [ "force", "classMR_1_1Const__PointCloudRelaxParams.html#af15fe2a3aadfa9d73481a773a5af29b0", null ],
     [ "iterations", "classMR_1_1Const__PointCloudRelaxParams.html#aa6c62e8078f132bd6284a27028148853", null ],
     [ "limitNearInitial", "classMR_1_1Const__PointCloudRelaxParams.html#a6037d2a9c7dad3c1b9543cf5c66ff3d2", null ],

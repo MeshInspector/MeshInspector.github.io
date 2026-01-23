@@ -2,6 +2,8 @@ var classMR_1_1Const__MeshEqualizeTriAreasParams =
 [
     [ "Const_MeshEqualizeTriAreasParams", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#af1c3c9e7a38a7a59a23cd046319a498f", null ],
     [ "Const_MeshEqualizeTriAreasParams", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#ab3ff5ffa6f4a1684795ae5c86f2b0ec9", null ],
+    [ "_Storage_region", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a8827f93c5c267c2b447430e8d23c8c0c", null ],
+    [ "_Storage_weights", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#acd30af54a8a54d7880740f8d875bec46", null ],
     [ "force", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a9ddd52f06a44adcf75f45b51115435a9", null ],
     [ "hardSmoothTetrahedrons", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a607d976bd50e39b69bfaa91baba3826b", null ],
     [ "iterations", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a81e92d1b3985a606286e3ab1e45e20f2", null ],
