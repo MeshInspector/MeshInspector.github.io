@@ -56,6 +56,7 @@ var annotated_dup =
       [ "BestFitParabolad", "classmrmeshpy_1_1BestFitParabolad.html", "classmrmeshpy_1_1BestFitParabolad" ],
       [ "BestFitParabolaf", "classmrmeshpy_1_1BestFitParabolaf.html", "classmrmeshpy_1_1BestFitParabolaf" ],
       [ "BitSet", "classmrmeshpy_1_1BitSet.html", "classmrmeshpy_1_1BitSet" ],
+      [ "BitSetParallel", "classmrmeshpy_1_1BitSetParallel.html", null ],
       [ "BMap_FaceId_unsigned_long", "classmrmeshpy_1_1BMap__FaceId__unsigned__long.html", "classmrmeshpy_1_1BMap__FaceId__unsigned__long" ],
       [ "BMap_GraphEdgeId_GraphEdgeId", "classmrmeshpy_1_1BMap__GraphEdgeId__GraphEdgeId.html", "classmrmeshpy_1_1BMap__GraphEdgeId__GraphEdgeId" ],
       [ "BMap_GraphVertId_GraphVertId", "classmrmeshpy_1_1BMap__GraphVertId__GraphVertId.html", "classmrmeshpy_1_1BMap__GraphVertId__GraphVertId" ],

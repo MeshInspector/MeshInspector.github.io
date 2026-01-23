@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9":[6,0,0,16,3,0,3],
 "classMR_1_1ComputeSteepestDescentPathSettings.html#a4a1de14562cfe2b35b795a50494c9085":[6,0,0,16,3,0,1],
 "classMR_1_1ComputeSteepestDescentPathSettings.html#a5d5816d5186fe8a08a9af93f7abbbba0":[6,0,0,16,3,0,0],
 "classMR_1_1ComputeSteepestDescentPathSettings.html#a96fe401940d7726e0b15daf7b01c8efa":[6,0,0,16,3,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "classMR_1_1DetectTunnelSettings.html#adc555b54ed2e8763296a62b1572e7a81":[6,0,0,16,4,0,6],
 "classMR_1_1DirectionWidget.html":[6,0,2,0,2,84],
 "classMR_1_1DirectionWidget.html#a0128153cf5d0c06d9fdfd105c8255ba5":[6,0,2,0,2,84,10],
-"classMR_1_1DirectionWidget.html#a0b215c94ee35a19ee1fc4beb14824c54":[6,0,2,0,2,84,23],
-"classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028":[6,0,2,0,2,84,16]
+"classMR_1_1DirectionWidget.html#a0b215c94ee35a19ee1fc4beb14824c54":[6,0,2,0,2,84,23]
 };
