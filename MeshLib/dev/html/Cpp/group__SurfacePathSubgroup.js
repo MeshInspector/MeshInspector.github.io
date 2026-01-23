@@ -7,7 +7,7 @@ var group__SurfacePathSubgroup =
       [ "assign", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9", null ],
       [ "end", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#ae1872ce5a1f0dd2786cbfcc07e5e198f", null ],
       [ "outBdReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a9beb76581163776c677e35398b266735", null ],
-      [ "outVertexReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a96fe401940d7726e0b15daf7b01c8efa", null ]
+      [ "outVertexReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a26028f8f71feb1405babba377b2ce09b", null ]
     ] ],
     [ "MR::PathError", "group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
       [ "MR::PathError::StartEndNotConnected", "group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],

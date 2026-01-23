@@ -4403,6 +4403,189 @@ var hierarchy =
       [ "MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html", [
         [ "MR.ColorMapAggregator_MRVertTag.PartialColorMap", "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html", null ]
       ] ],
+      [ "MR.ConstBox_AffineXf2d", "classMR_1_1ConstBox__AffineXf2d.html", [
+        [ "MR.Box_AffineXf2d", "classMR_1_1Box__AffineXf2d.html", null ]
+      ] ],
+      [ "MR.ConstBox_AffineXf2f", "classMR_1_1ConstBox__AffineXf2f.html", [
+        [ "MR.Box_AffineXf2f", "classMR_1_1Box__AffineXf2f.html", null ]
+      ] ],
+      [ "MR.ConstBox_AffineXf3d", "classMR_1_1ConstBox__AffineXf3d.html", [
+        [ "MR.Box_AffineXf3d", "classMR_1_1Box__AffineXf3d.html", null ]
+      ] ],
+      [ "MR.ConstBox_AffineXf3f", "classMR_1_1ConstBox__AffineXf3f.html", [
+        [ "MR.Box_AffineXf3f", "classMR_1_1Box__AffineXf3f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box1d", "classMR_1_1ConstBox__Box1d.html", [
+        [ "MR.Box_Box1d", "classMR_1_1Box__Box1d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box1f", "classMR_1_1ConstBox__Box1f.html", [
+        [ "MR.Box_Box1f", "classMR_1_1Box__Box1f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box1i", "classMR_1_1ConstBox__Box1i.html", [
+        [ "MR.Box_Box1i", "classMR_1_1Box__Box1i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box1i64", "classMR_1_1ConstBox__Box1i64.html", [
+        [ "MR.Box_Box1i64", "classMR_1_1Box__Box1i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box2d", "classMR_1_1ConstBox__Box2d.html", [
+        [ "MR.Box_Box2d", "classMR_1_1Box__Box2d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box2f", "classMR_1_1ConstBox__Box2f.html", [
+        [ "MR.Box_Box2f", "classMR_1_1Box__Box2f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box2i", "classMR_1_1ConstBox__Box2i.html", [
+        [ "MR.Box_Box2i", "classMR_1_1Box__Box2i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box2i64", "classMR_1_1ConstBox__Box2i64.html", [
+        [ "MR.Box_Box2i64", "classMR_1_1Box__Box2i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box3d", "classMR_1_1ConstBox__Box3d.html", [
+        [ "MR.Box_Box3d", "classMR_1_1Box__Box3d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box3f", "classMR_1_1ConstBox__Box3f.html", [
+        [ "MR.Box_Box3f", "classMR_1_1Box__Box3f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box3i", "classMR_1_1ConstBox__Box3i.html", [
+        [ "MR.Box_Box3i", "classMR_1_1Box__Box3i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Box3i64", "classMR_1_1ConstBox__Box3i64.html", [
+        [ "MR.Box_Box3i64", "classMR_1_1Box__Box3i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Color", "classMR_1_1ConstBox__Color.html", [
+        [ "MR.Box_Color", "classMR_1_1Box__Color.html", null ]
+      ] ],
+      [ "MR.ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html", [
+        [ "MR.Box_EdgeId", "classMR_1_1Box__EdgeId.html", null ]
+      ] ],
+      [ "MR.ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html", [
+        [ "MR.Box_FaceId", "classMR_1_1Box__FaceId.html", null ]
+      ] ],
+      [ "MR.ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html", [
+        [ "MR.Box_GraphEdgeId", "classMR_1_1Box__GraphEdgeId.html", null ]
+      ] ],
+      [ "MR.ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html", [
+        [ "MR.Box_GraphVertId", "classMR_1_1Box__GraphVertId.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix2b", "classMR_1_1ConstBox__Matrix2b.html", [
+        [ "MR.Box_Matrix2b", "classMR_1_1Box__Matrix2b.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix2d", "classMR_1_1ConstBox__Matrix2d.html", [
+        [ "MR.Box_Matrix2d", "classMR_1_1Box__Matrix2d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix2f", "classMR_1_1ConstBox__Matrix2f.html", [
+        [ "MR.Box_Matrix2f", "classMR_1_1Box__Matrix2f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix2i", "classMR_1_1ConstBox__Matrix2i.html", [
+        [ "MR.Box_Matrix2i", "classMR_1_1Box__Matrix2i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix2i64", "classMR_1_1ConstBox__Matrix2i64.html", [
+        [ "MR.Box_Matrix2i64", "classMR_1_1Box__Matrix2i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix3b", "classMR_1_1ConstBox__Matrix3b.html", [
+        [ "MR.Box_Matrix3b", "classMR_1_1Box__Matrix3b.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix3d", "classMR_1_1ConstBox__Matrix3d.html", [
+        [ "MR.Box_Matrix3d", "classMR_1_1Box__Matrix3d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix3f", "classMR_1_1ConstBox__Matrix3f.html", [
+        [ "MR.Box_Matrix3f", "classMR_1_1Box__Matrix3f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix3i", "classMR_1_1ConstBox__Matrix3i.html", [
+        [ "MR.Box_Matrix3i", "classMR_1_1Box__Matrix3i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix3i64", "classMR_1_1ConstBox__Matrix3i64.html", [
+        [ "MR.Box_Matrix3i64", "classMR_1_1Box__Matrix3i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix4b", "classMR_1_1ConstBox__Matrix4b.html", [
+        [ "MR.Box_Matrix4b", "classMR_1_1Box__Matrix4b.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix4d", "classMR_1_1ConstBox__Matrix4d.html", [
+        [ "MR.Box_Matrix4d", "classMR_1_1Box__Matrix4d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix4f", "classMR_1_1ConstBox__Matrix4f.html", [
+        [ "MR.Box_Matrix4f", "classMR_1_1Box__Matrix4f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", [
+        [ "MR.Box_Matrix4i", "classMR_1_1Box__Matrix4i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", [
+        [ "MR.Box_Matrix4i64", "classMR_1_1Box__Matrix4i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", [
+        [ "MR.Box_NodeId", "classMR_1_1Box__NodeId.html", null ]
+      ] ],
+      [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", [
+        [ "MR.Box_ObjId", "classMR_1_1Box__ObjId.html", null ]
+      ] ],
+      [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", [
+        [ "MR.Box_ObjVertId", "classMR_1_1Box__ObjVertId.html", null ]
+      ] ],
+      [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", [
+        [ "MR.Box_PixelId", "classMR_1_1Box__PixelId.html", null ]
+      ] ],
+      [ "MR.ConstBox_RegionId", "classMR_1_1ConstBox__RegionId.html", [
+        [ "MR.Box_RegionId", "classMR_1_1Box__RegionId.html", null ]
+      ] ],
+      [ "MR.ConstBox_TextureId", "classMR_1_1ConstBox__TextureId.html", [
+        [ "MR.Box_TextureId", "classMR_1_1Box__TextureId.html", null ]
+      ] ],
+      [ "MR.ConstBox_UndirectedEdgeId", "classMR_1_1ConstBox__UndirectedEdgeId.html", [
+        [ "MR.Box_UndirectedEdgeId", "classMR_1_1Box__UndirectedEdgeId.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html", [
+        [ "MR.Box_Vector2b", "classMR_1_1Box__Vector2b.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector2d", "classMR_1_1ConstBox__Vector2d.html", [
+        [ "MR.Box_Vector2d", "classMR_1_1Box__Vector2d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector2f", "classMR_1_1ConstBox__Vector2f.html", [
+        [ "MR.Box_Vector2f", "classMR_1_1Box__Vector2f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector2i", "classMR_1_1ConstBox__Vector2i.html", [
+        [ "MR.Box_Vector2i", "classMR_1_1Box__Vector2i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector2i64", "classMR_1_1ConstBox__Vector2i64.html", [
+        [ "MR.Box_Vector2i64", "classMR_1_1Box__Vector2i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector3b", "classMR_1_1ConstBox__Vector3b.html", [
+        [ "MR.Box_Vector3b", "classMR_1_1Box__Vector3b.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html", [
+        [ "MR.Box_Vector3d", "classMR_1_1Box__Vector3d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector3f", "classMR_1_1ConstBox__Vector3f.html", [
+        [ "MR.Box_Vector3f", "classMR_1_1Box__Vector3f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector3i", "classMR_1_1ConstBox__Vector3i.html", [
+        [ "MR.Box_Vector3i", "classMR_1_1Box__Vector3i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html", [
+        [ "MR.Box_Vector3i64", "classMR_1_1Box__Vector3i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector4b", "classMR_1_1ConstBox__Vector4b.html", [
+        [ "MR.Box_Vector4b", "classMR_1_1Box__Vector4b.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector4d", "classMR_1_1ConstBox__Vector4d.html", [
+        [ "MR.Box_Vector4d", "classMR_1_1Box__Vector4d.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector4f", "classMR_1_1ConstBox__Vector4f.html", [
+        [ "MR.Box_Vector4f", "classMR_1_1Box__Vector4f.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector4i", "classMR_1_1ConstBox__Vector4i.html", [
+        [ "MR.Box_Vector4i", "classMR_1_1Box__Vector4i.html", null ]
+      ] ],
+      [ "MR.ConstBox_Vector4i64", "classMR_1_1ConstBox__Vector4i64.html", [
+        [ "MR.Box_Vector4i64", "classMR_1_1Box__Vector4i64.html", null ]
+      ] ],
+      [ "MR.ConstBox_VertId", "classMR_1_1ConstBox__VertId.html", [
+        [ "MR.Box_VertId", "classMR_1_1Box__VertId.html", null ]
+      ] ],
+      [ "MR.ConstBox_ViewportId", "classMR_1_1ConstBox__ViewportId.html", [
+        [ "MR.Box_ViewportId", "classMR_1_1Box__ViewportId.html", null ]
+      ] ],
+      [ "MR.ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html", [
+        [ "MR.Box_VoxelId", "classMR_1_1Box__VoxelId.html", null ]
+      ] ],
       [ "MR.Const_AABBTree", "classMR_1_1Const__AABBTree.html", null ],
       [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", [
         [ "MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ]
@@ -4459,18 +4642,6 @@ var hierarchy =
       ] ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html", [
         [ "MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html", null ]
-      ] ],
-      [ "MR.Const_AffineXf2d", "classMR_1_1Const__AffineXf2d.html", [
-        [ "MR.Mut_AffineXf2d", "classMR_1_1Mut__AffineXf2d.html", null ]
-      ] ],
-      [ "MR.Const_AffineXf2f", "classMR_1_1Const__AffineXf2f.html", [
-        [ "MR.Mut_AffineXf2f", "classMR_1_1Mut__AffineXf2f.html", null ]
-      ] ],
-      [ "MR.Const_AffineXf3d", "classMR_1_1Const__AffineXf3d.html", [
-        [ "MR.Mut_AffineXf3d", "classMR_1_1Mut__AffineXf3d.html", null ]
-      ] ],
-      [ "MR.Const_AffineXf3f", "classMR_1_1Const__AffineXf3f.html", [
-        [ "MR.Mut_AffineXf3f", "classMR_1_1Mut__AffineXf3f.html", null ]
       ] ],
       [ "MR.Const_AllLocalTriangulations", "classMR_1_1Const__AllLocalTriangulations.html", null ],
       [ "MR.Const_AngleMeasurementObject", "classMR_1_1Const__AngleMeasurementObject.html", null ],
@@ -4556,42 +4727,6 @@ var hierarchy =
         [ "MR.Const_BooleanResultMapper.Maps", "classMR_1_1Const__BooleanResultMapper_1_1Maps.html", null ]
       ] ],
       [ "MR.Const_BooleanResultPoints", "classMR_1_1Const__BooleanResultPoints.html", null ],
-      [ "MR.Const_Box1d", "classMR_1_1Const__Box1d.html", [
-        [ "MR.Mut_Box1d", "classMR_1_1Mut__Box1d.html", null ]
-      ] ],
-      [ "MR.Const_Box1f", "classMR_1_1Const__Box1f.html", [
-        [ "MR.Mut_Box1f", "classMR_1_1Mut__Box1f.html", null ]
-      ] ],
-      [ "MR.Const_Box1i", "classMR_1_1Const__Box1i.html", [
-        [ "MR.Mut_Box1i", "classMR_1_1Mut__Box1i.html", null ]
-      ] ],
-      [ "MR.Const_Box1i64", "classMR_1_1Const__Box1i64.html", [
-        [ "MR.Mut_Box1i64", "classMR_1_1Mut__Box1i64.html", null ]
-      ] ],
-      [ "MR.Const_Box2d", "classMR_1_1Const__Box2d.html", [
-        [ "MR.Mut_Box2d", "classMR_1_1Mut__Box2d.html", null ]
-      ] ],
-      [ "MR.Const_Box2f", "classMR_1_1Const__Box2f.html", [
-        [ "MR.Mut_Box2f", "classMR_1_1Mut__Box2f.html", null ]
-      ] ],
-      [ "MR.Const_Box2i", "classMR_1_1Const__Box2i.html", [
-        [ "MR.Mut_Box2i", "classMR_1_1Mut__Box2i.html", null ]
-      ] ],
-      [ "MR.Const_Box2i64", "classMR_1_1Const__Box2i64.html", [
-        [ "MR.Mut_Box2i64", "classMR_1_1Mut__Box2i64.html", null ]
-      ] ],
-      [ "MR.Const_Box3d", "classMR_1_1Const__Box3d.html", [
-        [ "MR.Mut_Box3d", "classMR_1_1Mut__Box3d.html", null ]
-      ] ],
-      [ "MR.Const_Box3f", "classMR_1_1Const__Box3f.html", [
-        [ "MR.Mut_Box3f", "classMR_1_1Mut__Box3f.html", null ]
-      ] ],
-      [ "MR.Const_Box3i", "classMR_1_1Const__Box3i.html", [
-        [ "MR.Mut_Box3i", "classMR_1_1Mut__Box3i.html", null ]
-      ] ],
-      [ "MR.Const_Box3i64", "classMR_1_1Const__Box3i64.html", [
-        [ "MR.Mut_Box3i64", "classMR_1_1Mut__Box3i64.html", null ]
-      ] ],
       [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", [
         [ "MR.Box_UnsignedShort", "classMR_1_1Box__UnsignedShort.html", null ]
       ] ],
@@ -4699,9 +4834,6 @@ var hierarchy =
       [ "MR.Const_CloseToMeshVolumeParams", "classMR_1_1Const__CloseToMeshVolumeParams.html", null ],
       [ "MR.Const_CloudPartMapping", "classMR_1_1Const__CloudPartMapping.html", null ],
       [ "MR.Const_CmpOld", "classMR_1_1Const__CmpOld.html", null ],
-      [ "MR.Const_Color", "classMR_1_1Const__Color.html", [
-        [ "MR.Mut_Color", "classMR_1_1Mut__Color.html", null ]
-      ] ],
       [ "MR.Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html", null ],
       [ "MR.Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html", null ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", null ],
@@ -4783,9 +4915,6 @@ var hierarchy =
       ] ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", [
         [ "MR.EdgeColors", "classMR_1_1EdgeColors.html", null ]
-      ] ],
-      [ "MR.Const_EdgeId", "classMR_1_1Const__EdgeId.html", [
-        [ "MR.Mut_EdgeId", "classMR_1_1Mut__EdgeId.html", null ]
       ] ],
       [ "MR.Const_EdgeLengthMesh", "classMR_1_1Const__EdgeLengthMesh.html", null ],
       [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", [
@@ -5035,9 +5164,6 @@ var hierarchy =
       [ "MR.Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html", null ],
       [ "MR.Const_FaceFace", "classMR_1_1Const__FaceFace.html", null ],
       [ "MR.Const_FaceFaceFace", "classMR_1_1Const__FaceFaceFace.html", null ],
-      [ "MR.Const_FaceId", "classMR_1_1Const__FaceId.html", [
-        [ "MR.Mut_FaceId", "classMR_1_1Mut__FaceId.html", null ]
-      ] ],
       [ "MR.Const_FaceMap", "classMR_1_1Const__FaceMap.html", [
         [ "MR.FaceMap", "classMR_1_1FaceMap.html", null ]
       ] ],
@@ -5105,14 +5231,8 @@ var hierarchy =
       [ "MR.Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html", [
         [ "MR.GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html", null ]
       ] ],
-      [ "MR.Const_GraphEdgeId", "classMR_1_1Const__GraphEdgeId.html", [
-        [ "MR.Mut_GraphEdgeId", "classMR_1_1Mut__GraphEdgeId.html", null ]
-      ] ],
       [ "MR.Const_GraphVertBitSet", "classMR_1_1Const__GraphVertBitSet.html", [
         [ "MR.GraphVertBitSet", "classMR_1_1GraphVertBitSet.html", null ]
-      ] ],
-      [ "MR.Const_GraphVertId", "classMR_1_1Const__GraphVertId.html", [
-        [ "MR.Mut_GraphVertId", "classMR_1_1Mut__GraphVertId.html", null ]
       ] ],
       [ "MR.Const_GridSettings", "classMR_1_1Const__GridSettings.html", null ],
       [ "MR.Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html", null ],
@@ -5272,59 +5392,14 @@ var hierarchy =
       [ "MR.Const_MarchingCubesByParts", "classMR_1_1Const__MarchingCubesByParts.html", null ],
       [ "MR.Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html", null ],
       [ "MR.Const_MarkedContour3f", "classMR_1_1Const__MarkedContour3f.html", null ],
-      [ "MR.Const_Matrix2b", "classMR_1_1Const__Matrix2b.html", [
-        [ "MR.Mut_Matrix2b", "classMR_1_1Mut__Matrix2b.html", null ]
-      ] ],
-      [ "MR.Const_Matrix2d", "classMR_1_1Const__Matrix2d.html", [
-        [ "MR.Mut_Matrix2d", "classMR_1_1Mut__Matrix2d.html", null ]
-      ] ],
-      [ "MR.Const_Matrix2f", "classMR_1_1Const__Matrix2f.html", [
-        [ "MR.Mut_Matrix2f", "classMR_1_1Mut__Matrix2f.html", null ]
-      ] ],
-      [ "MR.Const_Matrix2i", "classMR_1_1Const__Matrix2i.html", [
-        [ "MR.Mut_Matrix2i", "classMR_1_1Mut__Matrix2i.html", null ]
-      ] ],
-      [ "MR.Const_Matrix2i64", "classMR_1_1Const__Matrix2i64.html", [
-        [ "MR.Mut_Matrix2i64", "classMR_1_1Mut__Matrix2i64.html", null ]
-      ] ],
       [ "MR.Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html", [
         [ "MR.Matrix3_UnsignedChar", "classMR_1_1Matrix3__UnsignedChar.html", null ]
       ] ],
       [ "MR.Const_Matrix3_UnsignedChar.Const_QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR.html", [
         [ "MR.Const_Matrix3_UnsignedChar.QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1QR.html", null ]
       ] ],
-      [ "MR.Const_Matrix3b", "classMR_1_1Const__Matrix3b.html", [
-        [ "MR.Mut_Matrix3b", "classMR_1_1Mut__Matrix3b.html", null ]
-      ] ],
-      [ "MR.Const_Matrix3d", "classMR_1_1Const__Matrix3d.html", [
-        [ "MR.Mut_Matrix3d", "classMR_1_1Mut__Matrix3d.html", null ]
-      ] ],
-      [ "MR.Const_Matrix3f", "classMR_1_1Const__Matrix3f.html", [
-        [ "MR.Mut_Matrix3f", "classMR_1_1Mut__Matrix3f.html", null ]
-      ] ],
-      [ "MR.Const_Matrix3i", "classMR_1_1Const__Matrix3i.html", [
-        [ "MR.Mut_Matrix3i", "classMR_1_1Mut__Matrix3i.html", null ]
-      ] ],
-      [ "MR.Const_Matrix3i64", "classMR_1_1Const__Matrix3i64.html", [
-        [ "MR.Mut_Matrix3i64", "classMR_1_1Mut__Matrix3i64.html", null ]
-      ] ],
       [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", [
         [ "MR.Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html", null ]
-      ] ],
-      [ "MR.Const_Matrix4b", "classMR_1_1Const__Matrix4b.html", [
-        [ "MR.Mut_Matrix4b", "classMR_1_1Mut__Matrix4b.html", null ]
-      ] ],
-      [ "MR.Const_Matrix4d", "classMR_1_1Const__Matrix4d.html", [
-        [ "MR.Mut_Matrix4d", "classMR_1_1Mut__Matrix4d.html", null ]
-      ] ],
-      [ "MR.Const_Matrix4f", "classMR_1_1Const__Matrix4f.html", [
-        [ "MR.Mut_Matrix4f", "classMR_1_1Mut__Matrix4f.html", null ]
-      ] ],
-      [ "MR.Const_Matrix4i", "classMR_1_1Const__Matrix4i.html", [
-        [ "MR.Mut_Matrix4i", "classMR_1_1Mut__Matrix4i.html", null ]
-      ] ],
-      [ "MR.Const_Matrix4i64", "classMR_1_1Const__Matrix4i64.html", [
-        [ "MR.Mut_Matrix4i64", "classMR_1_1Mut__Matrix4i64.html", null ]
       ] ],
       [ "MR.Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html", [
         [ "MR.Matrix_Float", "classMR_1_1Matrix__Float.html", null ]
@@ -5499,9 +5574,6 @@ var hierarchy =
       [ "MR.Const_NodeBitSet", "classMR_1_1Const__NodeBitSet.html", [
         [ "MR.NodeBitSet", "classMR_1_1NodeBitSet.html", null ]
       ] ],
-      [ "MR.Const_NodeId", "classMR_1_1Const__NodeId.html", [
-        [ "MR.Mut_NodeId", "classMR_1_1Mut__NodeId.html", null ]
-      ] ],
       [ "MR.Const_NodeNode", "classMR_1_1Const__NodeNode.html", null ],
       [ "MR.Const_NoiseSettings", "classMR_1_1Const__NoiseSettings.html", null ],
       [ "MR.Const_NormalsToPoints", "classMR_1_1Const__NormalsToPoints.html", null ],
@@ -5511,9 +5583,6 @@ var hierarchy =
       [ "MR.Const_NumSum", "classMR_1_1Const__NumSum.html", null ],
       [ "MR.Const_ObjBitSet", "classMR_1_1Const__ObjBitSet.html", [
         [ "MR.ObjBitSet", "classMR_1_1ObjBitSet.html", null ]
-      ] ],
-      [ "MR.Const_ObjId", "classMR_1_1Const__ObjId.html", [
-        [ "MR.Mut_ObjId", "classMR_1_1Mut__ObjId.html", null ]
       ] ],
       [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html", [
         [ "MR.ObjKindTraits_MRFeaturesObjectKindCircle", "classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle.html", null ]
@@ -5540,9 +5609,6 @@ var hierarchy =
         [ "MR.ObjMap", "classMR_1_1ObjMap.html", null ]
       ] ],
       [ "MR.Const_ObjTreeTraits", "classMR_1_1Const__ObjTreeTraits.html", null ],
-      [ "MR.Const_ObjVertId", "classMR_1_1Const__ObjVertId.html", [
-        [ "MR.Mut_ObjVertId", "classMR_1_1Mut__ObjVertId.html", null ]
-      ] ],
       [ "MR.Const_Object", "classMR_1_1Const__Object.html", null ],
       [ "MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectChildrenHolder.html", null ],
       [ "MR.Const_ObjectComparableWithReference", "classMR_1_1Const__ObjectComparableWithReference.html", null ],
@@ -5621,9 +5687,6 @@ var hierarchy =
       [ "MR.Const_PdfParameters", "classMR_1_1Const__PdfParameters.html", null ],
       [ "MR.Const_PixelBitSet", "classMR_1_1Const__PixelBitSet.html", [
         [ "MR.PixelBitSet", "classMR_1_1PixelBitSet.html", null ]
-      ] ],
-      [ "MR.Const_PixelId", "classMR_1_1Const__PixelId.html", [
-        [ "MR.Mut_PixelId", "classMR_1_1Mut__PixelId.html", null ]
       ] ],
       [ "MR.Const_Plane3d", "classMR_1_1Const__Plane3d.html", [
         [ "MR.Plane3d", "classMR_1_1Plane3d.html", null ]
@@ -5774,9 +5837,6 @@ var hierarchy =
       [ "MR.Const_RegionBitSet", "classMR_1_1Const__RegionBitSet.html", [
         [ "MR.RegionBitSet", "classMR_1_1RegionBitSet.html", null ]
       ] ],
-      [ "MR.Const_RegionId", "classMR_1_1Const__RegionId.html", [
-        [ "MR.Mut_RegionId", "classMR_1_1Mut__RegionId.html", null ]
-      ] ],
       [ "MR.Const_RegularMapMesher", "classMR_1_1Const__RegularMapMesher.html", null ],
       [ "MR.Const_RelaxParams", "classMR_1_1Const__RelaxParams.html", null ],
       [ "MR.Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html", null ],
@@ -5923,9 +5983,6 @@ var hierarchy =
       [ "MR.Const_TextureBitSet", "classMR_1_1Const__TextureBitSet.html", [
         [ "MR.TextureBitSet", "classMR_1_1TextureBitSet.html", null ]
       ] ],
-      [ "MR.Const_TextureId", "classMR_1_1Const__TextureId.html", [
-        [ "MR.Mut_TextureId", "classMR_1_1Mut__TextureId.html", null ]
-      ] ],
       [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", [
         [ "MR.TexturePerFace", "classMR_1_1TexturePerFace.html", null ]
       ] ],
@@ -5976,9 +6033,6 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html", [
         [ "MR.UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html", null ]
       ] ],
-      [ "MR.Const_UndirectedEdgeId", "classMR_1_1Const__UndirectedEdgeId.html", [
-        [ "MR.Mut_UndirectedEdgeId", "classMR_1_1Mut__UndirectedEdgeId.html", null ]
-      ] ],
       [ "MR.Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html", null ],
       [ "MR.Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html", [
         [ "MR.UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html", null ]
@@ -6014,56 +6068,11 @@ var hierarchy =
       [ "MR.Const_VdbVolume", "classMR_1_1Const__VdbVolume.html", [
         [ "MR.VdbVolume", "classMR_1_1VdbVolume.html", null ]
       ] ],
-      [ "MR.Const_Vector2b", "classMR_1_1Const__Vector2b.html", [
-        [ "MR.Mut_Vector2b", "classMR_1_1Mut__Vector2b.html", null ]
-      ] ],
-      [ "MR.Const_Vector2d", "classMR_1_1Const__Vector2d.html", [
-        [ "MR.Mut_Vector2d", "classMR_1_1Mut__Vector2d.html", null ]
-      ] ],
-      [ "MR.Const_Vector2f", "classMR_1_1Const__Vector2f.html", [
-        [ "MR.Mut_Vector2f", "classMR_1_1Mut__Vector2f.html", null ]
-      ] ],
-      [ "MR.Const_Vector2i", "classMR_1_1Const__Vector2i.html", [
-        [ "MR.Mut_Vector2i", "classMR_1_1Mut__Vector2i.html", null ]
-      ] ],
-      [ "MR.Const_Vector2i64", "classMR_1_1Const__Vector2i64.html", [
-        [ "MR.Mut_Vector2i64", "classMR_1_1Mut__Vector2i64.html", null ]
-      ] ],
       [ "MR.Const_Vector3_UnsignedChar", "classMR_1_1Const__Vector3__UnsignedChar.html", [
         [ "MR.Vector3_UnsignedChar", "classMR_1_1Vector3__UnsignedChar.html", null ]
       ] ],
-      [ "MR.Const_Vector3b", "classMR_1_1Const__Vector3b.html", [
-        [ "MR.Mut_Vector3b", "classMR_1_1Mut__Vector3b.html", null ]
-      ] ],
-      [ "MR.Const_Vector3d", "classMR_1_1Const__Vector3d.html", [
-        [ "MR.Mut_Vector3d", "classMR_1_1Mut__Vector3d.html", null ]
-      ] ],
-      [ "MR.Const_Vector3f", "classMR_1_1Const__Vector3f.html", [
-        [ "MR.Mut_Vector3f", "classMR_1_1Mut__Vector3f.html", null ]
-      ] ],
-      [ "MR.Const_Vector3i", "classMR_1_1Const__Vector3i.html", [
-        [ "MR.Mut_Vector3i", "classMR_1_1Mut__Vector3i.html", null ]
-      ] ],
-      [ "MR.Const_Vector3i64", "classMR_1_1Const__Vector3i64.html", [
-        [ "MR.Mut_Vector3i64", "classMR_1_1Mut__Vector3i64.html", null ]
-      ] ],
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", [
         [ "MR.Vector4_UnsignedChar", "classMR_1_1Vector4__UnsignedChar.html", null ]
-      ] ],
-      [ "MR.Const_Vector4b", "classMR_1_1Const__Vector4b.html", [
-        [ "MR.Mut_Vector4b", "classMR_1_1Mut__Vector4b.html", null ]
-      ] ],
-      [ "MR.Const_Vector4d", "classMR_1_1Const__Vector4d.html", [
-        [ "MR.Mut_Vector4d", "classMR_1_1Mut__Vector4d.html", null ]
-      ] ],
-      [ "MR.Const_Vector4f", "classMR_1_1Const__Vector4f.html", [
-        [ "MR.Mut_Vector4f", "classMR_1_1Mut__Vector4f.html", null ]
-      ] ],
-      [ "MR.Const_Vector4i", "classMR_1_1Const__Vector4i.html", [
-        [ "MR.Mut_Vector4i", "classMR_1_1Mut__Vector4i.html", null ]
-      ] ],
-      [ "MR.Const_Vector4i64", "classMR_1_1Const__Vector4i64.html", [
-        [ "MR.Mut_Vector4i64", "classMR_1_1Mut__Vector4i64.html", null ]
       ] ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", [
         [ "MR.Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html", null ]
@@ -6229,9 +6238,6 @@ var hierarchy =
       ] ],
       [ "MR.Const_VertCoordsDiff", "classMR_1_1Const__VertCoordsDiff.html", null ],
       [ "MR.Const_VertDistance", "classMR_1_1Const__VertDistance.html", null ],
-      [ "MR.Const_VertId", "classMR_1_1Const__VertId.html", [
-        [ "MR.Mut_VertId", "classMR_1_1Mut__VertId.html", null ]
-      ] ],
       [ "MR.Const_VertMap", "classMR_1_1Const__VertMap.html", [
         [ "MR.VertMap", "classMR_1_1VertMap.html", null ]
       ] ],
@@ -6239,9 +6245,6 @@ var hierarchy =
       [ "MR.Const_VertRenumber", "classMR_1_1Const__VertRenumber.html", null ],
       [ "MR.Const_VertScalars", "classMR_1_1Const__VertScalars.html", [
         [ "MR.VertScalars", "classMR_1_1VertScalars.html", null ]
-      ] ],
-      [ "MR.Const_ViewportId", "classMR_1_1Const__ViewportId.html", [
-        [ "MR.Mut_ViewportId", "classMR_1_1Mut__ViewportId.html", null ]
       ] ],
       [ "MR.Const_ViewportIterator", "classMR_1_1Const__ViewportIterator.html", null ],
       [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ],
@@ -6270,9 +6273,6 @@ var hierarchy =
       [ "MR.Const_VolumeToMeshByPartsSettings", "classMR_1_1Const__VolumeToMeshByPartsSettings.html", null ],
       [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", [
         [ "MR.VoxelBitSet", "classMR_1_1VoxelBitSet.html", null ]
-      ] ],
-      [ "MR.Const_VoxelId", "classMR_1_1Const__VoxelId.html", [
-        [ "MR.Mut_VoxelId", "classMR_1_1Mut__VoxelId.html", null ]
       ] ],
       [ "MR.Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html", null ],
       [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", null ],
@@ -6618,20 +6618,32 @@ var hierarchy =
       [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", null ],
       [ "MR.SceneLoad.Const_Settings", "classMR_1_1SceneLoad_1_1Const__Settings.html", null ],
       [ "MR.SelfIntersections.Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html", null ],
-      [ "MR.Std.Const_Array_Double_4", "classMR_1_1Std_1_1Const__Array__Double__4.html", [
-        [ "MR.Std.Mut_Array_Double_4", "classMR_1_1Std_1_1Mut__Array__Double__4.html", null ]
+      [ "MR.Std.ConstBox_Array_Double_4", "classMR_1_1Std_1_1ConstBox__Array__Double__4.html", [
+        [ "MR.Std.Box_Array_Double_4", "classMR_1_1Std_1_1Box__Array__Double__4.html", null ]
       ] ],
-      [ "MR.Std.Const_Array_Float_4", "classMR_1_1Std_1_1Const__Array__Float__4.html", [
-        [ "MR.Std.Mut_Array_Float_4", "classMR_1_1Std_1_1Mut__Array__Float__4.html", null ]
+      [ "MR.Std.ConstBox_Array_Float_4", "classMR_1_1Std_1_1ConstBox__Array__Float__4.html", [
+        [ "MR.Std.Box_Array_Float_4", "classMR_1_1Std_1_1Box__Array__Float__4.html", null ]
       ] ],
-      [ "MR.Std.Const_Array_Int_4", "classMR_1_1Std_1_1Const__Array__Int__4.html", [
-        [ "MR.Std.Mut_Array_Int_4", "classMR_1_1Std_1_1Mut__Array__Int__4.html", null ]
+      [ "MR.Std.ConstBox_Array_Int_4", "classMR_1_1Std_1_1ConstBox__Array__Int__4.html", [
+        [ "MR.Std.Box_Array_Int_4", "classMR_1_1Std_1_1Box__Array__Int__4.html", null ]
       ] ],
-      [ "MR.Std.Const_Array_MRAffineXf3d_4", "classMR_1_1Std_1_1Const__Array__MRAffineXf3d__4.html", [
-        [ "MR.Std.Mut_Array_MRAffineXf3d_4", "classMR_1_1Std_1_1Mut__Array__MRAffineXf3d__4.html", null ]
+      [ "MR.Std.ConstBox_Array_MRAffineXf3d_4", "classMR_1_1Std_1_1ConstBox__Array__MRAffineXf3d__4.html", [
+        [ "MR.Std.Box_Array_MRAffineXf3d_4", "classMR_1_1Std_1_1Box__Array__MRAffineXf3d__4.html", null ]
       ] ],
-      [ "MR.Std.Const_Array_MRAffineXf3f_4", "classMR_1_1Std_1_1Const__Array__MRAffineXf3f__4.html", [
-        [ "MR.Std.Mut_Array_MRAffineXf3f_4", "classMR_1_1Std_1_1Mut__Array__MRAffineXf3f__4.html", null ]
+      [ "MR.Std.ConstBox_Array_MRAffineXf3f_4", "classMR_1_1Std_1_1ConstBox__Array__MRAffineXf3f__4.html", [
+        [ "MR.Std.Box_Array_MRAffineXf3f_4", "classMR_1_1Std_1_1Box__Array__MRAffineXf3f__4.html", null ]
+      ] ],
+      [ "MR.Std.ConstBox_Array_MRVector2f_3", "classMR_1_1Std_1_1ConstBox__Array__MRVector2f__3.html", [
+        [ "MR.Std.Box_Array_MRVector2f_3", "classMR_1_1Std_1_1Box__Array__MRVector2f__3.html", null ]
+      ] ],
+      [ "MR.Std.ConstBox_Array_MRVector3f_3", "classMR_1_1Std_1_1ConstBox__Array__MRVector3f__3.html", [
+        [ "MR.Std.Box_Array_MRVector3f_3", "classMR_1_1Std_1_1Box__Array__MRVector3f__3.html", null ]
+      ] ],
+      [ "MR.Std.ConstBox_Array_MRVertId_2", "classMR_1_1Std_1_1ConstBox__Array__MRVertId__2.html", [
+        [ "MR.Std.Box_Array_MRVertId_2", "classMR_1_1Std_1_1Box__Array__MRVertId__2.html", null ]
+      ] ],
+      [ "MR.Std.ConstBox_Array_MRVertId_3", "classMR_1_1Std_1_1ConstBox__Array__MRVertId__3.html", [
+        [ "MR.Std.Box_Array_MRVertId_3", "classMR_1_1Std_1_1Box__Array__MRVertId__3.html", null ]
       ] ],
       [ "MR.Std.Const_Array_MRBooleanResultMapperMaps_2", "classMR_1_1Std_1_1Const__Array__MRBooleanResultMapperMaps__2.html", [
         [ "MR.Std.Array_MRBooleanResultMapperMaps_2", "classMR_1_1Std_1_1Array__MRBooleanResultMapperMaps__2.html", null ]
@@ -6656,18 +6668,6 @@ var hierarchy =
       ] ],
       [ "MR.Std.Const_Array_MRSimpleVolumeMinMax_3", "classMR_1_1Std_1_1Const__Array__MRSimpleVolumeMinMax__3.html", [
         [ "MR.Std.Array_MRSimpleVolumeMinMax_3", "classMR_1_1Std_1_1Array__MRSimpleVolumeMinMax__3.html", null ]
-      ] ],
-      [ "MR.Std.Const_Array_MRVector2f_3", "classMR_1_1Std_1_1Const__Array__MRVector2f__3.html", [
-        [ "MR.Std.Mut_Array_MRVector2f_3", "classMR_1_1Std_1_1Mut__Array__MRVector2f__3.html", null ]
-      ] ],
-      [ "MR.Std.Const_Array_MRVector3f_3", "classMR_1_1Std_1_1Const__Array__MRVector3f__3.html", [
-        [ "MR.Std.Mut_Array_MRVector3f_3", "classMR_1_1Std_1_1Mut__Array__MRVector3f__3.html", null ]
-      ] ],
-      [ "MR.Std.Const_Array_MRVertId_2", "classMR_1_1Std_1_1Const__Array__MRVertId__2.html", [
-        [ "MR.Std.Mut_Array_MRVertId_2", "classMR_1_1Std_1_1Mut__Array__MRVertId__2.html", null ]
-      ] ],
-      [ "MR.Std.Const_Array_MRVertId_3", "classMR_1_1Std_1_1Const__Array__MRVertId__3.html", [
-        [ "MR.Std.Mut_Array_MRVertId_3", "classMR_1_1Std_1_1Mut__Array__MRVertId__3.html", null ]
       ] ],
       [ "MR.Std.Const_Array_MRWeightedVertex_3", "classMR_1_1Std_1_1Const__Array__MRWeightedVertex__3.html", [
         [ "MR.Std.Array_MRWeightedVertex_3", "classMR_1_1Std_1_1Array__MRWeightedVertex__3.html", null ]
@@ -8492,29 +8492,72 @@ var hierarchy =
       [ "MR.Box3f", "structMR_1_1Box3f.html", null ],
       [ "MR.Box3i", "structMR_1_1Box3i.html", null ],
       [ "MR.Box3i64", "structMR_1_1Box3i64.html", null ],
-      [ "MR.Const_AffineXf2d", "classMR_1_1Const__AffineXf2d.html", null ],
-      [ "MR.Const_AffineXf2f", "classMR_1_1Const__AffineXf2f.html", null ],
-      [ "MR.Const_AffineXf3d", "classMR_1_1Const__AffineXf3d.html", null ],
-      [ "MR.Const_AffineXf3f", "classMR_1_1Const__AffineXf3f.html", null ],
+      [ "MR.ConstBox_AffineXf2d", "classMR_1_1ConstBox__AffineXf2d.html", null ],
+      [ "MR.ConstBox_AffineXf2f", "classMR_1_1ConstBox__AffineXf2f.html", null ],
+      [ "MR.ConstBox_AffineXf3d", "classMR_1_1ConstBox__AffineXf3d.html", null ],
+      [ "MR.ConstBox_AffineXf3f", "classMR_1_1ConstBox__AffineXf3f.html", null ],
+      [ "MR.ConstBox_Box1d", "classMR_1_1ConstBox__Box1d.html", null ],
+      [ "MR.ConstBox_Box1f", "classMR_1_1ConstBox__Box1f.html", null ],
+      [ "MR.ConstBox_Box1i", "classMR_1_1ConstBox__Box1i.html", null ],
+      [ "MR.ConstBox_Box1i64", "classMR_1_1ConstBox__Box1i64.html", null ],
+      [ "MR.ConstBox_Box2d", "classMR_1_1ConstBox__Box2d.html", null ],
+      [ "MR.ConstBox_Box2f", "classMR_1_1ConstBox__Box2f.html", null ],
+      [ "MR.ConstBox_Box2i", "classMR_1_1ConstBox__Box2i.html", null ],
+      [ "MR.ConstBox_Box2i64", "classMR_1_1ConstBox__Box2i64.html", null ],
+      [ "MR.ConstBox_Box3d", "classMR_1_1ConstBox__Box3d.html", null ],
+      [ "MR.ConstBox_Box3f", "classMR_1_1ConstBox__Box3f.html", null ],
+      [ "MR.ConstBox_Box3i", "classMR_1_1ConstBox__Box3i.html", null ],
+      [ "MR.ConstBox_Box3i64", "classMR_1_1ConstBox__Box3i64.html", null ],
+      [ "MR.ConstBox_Color", "classMR_1_1ConstBox__Color.html", null ],
+      [ "MR.ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html", null ],
+      [ "MR.ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html", null ],
+      [ "MR.ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html", null ],
+      [ "MR.ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html", null ],
+      [ "MR.ConstBox_Matrix2b", "classMR_1_1ConstBox__Matrix2b.html", null ],
+      [ "MR.ConstBox_Matrix2d", "classMR_1_1ConstBox__Matrix2d.html", null ],
+      [ "MR.ConstBox_Matrix2f", "classMR_1_1ConstBox__Matrix2f.html", null ],
+      [ "MR.ConstBox_Matrix2i", "classMR_1_1ConstBox__Matrix2i.html", null ],
+      [ "MR.ConstBox_Matrix2i64", "classMR_1_1ConstBox__Matrix2i64.html", null ],
+      [ "MR.ConstBox_Matrix3b", "classMR_1_1ConstBox__Matrix3b.html", null ],
+      [ "MR.ConstBox_Matrix3d", "classMR_1_1ConstBox__Matrix3d.html", null ],
+      [ "MR.ConstBox_Matrix3f", "classMR_1_1ConstBox__Matrix3f.html", null ],
+      [ "MR.ConstBox_Matrix3i", "classMR_1_1ConstBox__Matrix3i.html", null ],
+      [ "MR.ConstBox_Matrix3i64", "classMR_1_1ConstBox__Matrix3i64.html", null ],
+      [ "MR.ConstBox_Matrix4b", "classMR_1_1ConstBox__Matrix4b.html", null ],
+      [ "MR.ConstBox_Matrix4d", "classMR_1_1ConstBox__Matrix4d.html", null ],
+      [ "MR.ConstBox_Matrix4f", "classMR_1_1ConstBox__Matrix4f.html", null ],
+      [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", null ],
+      [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", null ],
+      [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", null ],
+      [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", null ],
+      [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", null ],
+      [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", null ],
+      [ "MR.ConstBox_RegionId", "classMR_1_1ConstBox__RegionId.html", null ],
+      [ "MR.ConstBox_TextureId", "classMR_1_1ConstBox__TextureId.html", null ],
+      [ "MR.ConstBox_UndirectedEdgeId", "classMR_1_1ConstBox__UndirectedEdgeId.html", null ],
+      [ "MR.ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html", null ],
+      [ "MR.ConstBox_Vector2d", "classMR_1_1ConstBox__Vector2d.html", null ],
+      [ "MR.ConstBox_Vector2f", "classMR_1_1ConstBox__Vector2f.html", null ],
+      [ "MR.ConstBox_Vector2i", "classMR_1_1ConstBox__Vector2i.html", null ],
+      [ "MR.ConstBox_Vector2i64", "classMR_1_1ConstBox__Vector2i64.html", null ],
+      [ "MR.ConstBox_Vector3b", "classMR_1_1ConstBox__Vector3b.html", null ],
+      [ "MR.ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html", null ],
+      [ "MR.ConstBox_Vector3f", "classMR_1_1ConstBox__Vector3f.html", null ],
+      [ "MR.ConstBox_Vector3i", "classMR_1_1ConstBox__Vector3i.html", null ],
+      [ "MR.ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html", null ],
+      [ "MR.ConstBox_Vector4b", "classMR_1_1ConstBox__Vector4b.html", null ],
+      [ "MR.ConstBox_Vector4d", "classMR_1_1ConstBox__Vector4d.html", null ],
+      [ "MR.ConstBox_Vector4f", "classMR_1_1ConstBox__Vector4f.html", null ],
+      [ "MR.ConstBox_Vector4i", "classMR_1_1ConstBox__Vector4i.html", null ],
+      [ "MR.ConstBox_Vector4i64", "classMR_1_1ConstBox__Vector4i64.html", null ],
+      [ "MR.ConstBox_VertId", "classMR_1_1ConstBox__VertId.html", null ],
+      [ "MR.ConstBox_ViewportId", "classMR_1_1ConstBox__ViewportId.html", null ],
+      [ "MR.ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html", null ],
       [ "MR.Const_BaseTiffParameters", "classMR_1_1Const__BaseTiffParameters.html", null ],
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ],
-      [ "MR.Const_Box1d", "classMR_1_1Const__Box1d.html", null ],
-      [ "MR.Const_Box1f", "classMR_1_1Const__Box1f.html", null ],
-      [ "MR.Const_Box1i", "classMR_1_1Const__Box1i.html", null ],
-      [ "MR.Const_Box1i64", "classMR_1_1Const__Box1i64.html", null ],
-      [ "MR.Const_Box2d", "classMR_1_1Const__Box2d.html", null ],
-      [ "MR.Const_Box2f", "classMR_1_1Const__Box2f.html", null ],
-      [ "MR.Const_Box2i", "classMR_1_1Const__Box2i.html", null ],
-      [ "MR.Const_Box2i64", "classMR_1_1Const__Box2i64.html", null ],
-      [ "MR.Const_Box3d", "classMR_1_1Const__Box3d.html", null ],
-      [ "MR.Const_Box3f", "classMR_1_1Const__Box3f.html", null ],
-      [ "MR.Const_Box3i", "classMR_1_1Const__Box3i.html", null ],
-      [ "MR.Const_Box3i64", "classMR_1_1Const__Box3i64.html", null ],
       [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", null ],
       [ "MR.Const_ChunkIterator", "classMR_1_1Const__ChunkIterator.html", null ],
-      [ "MR.Const_Color", "classMR_1_1Const__Color.html", null ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
-      [ "MR.Const_EdgeId", "classMR_1_1Const__EdgeId.html", null ],
       [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ],
       [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ],
@@ -8525,31 +8568,13 @@ var hierarchy =
       [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ],
       [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ],
       [ "MR.Const_FaceColors", "classMR_1_1Const__FaceColors.html", null ],
-      [ "MR.Const_FaceId", "classMR_1_1Const__FaceId.html", null ],
       [ "MR.Const_FaceMap", "classMR_1_1Const__FaceMap.html", null ],
       [ "MR.Const_FaceNormals", "classMR_1_1Const__FaceNormals.html", null ],
       [ "MR.Const_FaceScalars", "classMR_1_1Const__FaceScalars.html", null ],
-      [ "MR.Const_GraphEdgeId", "classMR_1_1Const__GraphEdgeId.html", null ],
-      [ "MR.Const_GraphVertId", "classMR_1_1Const__GraphVertId.html", null ],
       [ "MR.Const_ICPPairData", "classMR_1_1Const__ICPPairData.html", null ],
       [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", null ],
-      [ "MR.Const_Matrix2b", "classMR_1_1Const__Matrix2b.html", null ],
-      [ "MR.Const_Matrix2d", "classMR_1_1Const__Matrix2d.html", null ],
-      [ "MR.Const_Matrix2f", "classMR_1_1Const__Matrix2f.html", null ],
-      [ "MR.Const_Matrix2i", "classMR_1_1Const__Matrix2i.html", null ],
-      [ "MR.Const_Matrix2i64", "classMR_1_1Const__Matrix2i64.html", null ],
       [ "MR.Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html", null ],
-      [ "MR.Const_Matrix3b", "classMR_1_1Const__Matrix3b.html", null ],
-      [ "MR.Const_Matrix3d", "classMR_1_1Const__Matrix3d.html", null ],
-      [ "MR.Const_Matrix3f", "classMR_1_1Const__Matrix3f.html", null ],
-      [ "MR.Const_Matrix3i", "classMR_1_1Const__Matrix3i.html", null ],
-      [ "MR.Const_Matrix3i64", "classMR_1_1Const__Matrix3i64.html", null ],
       [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", null ],
-      [ "MR.Const_Matrix4b", "classMR_1_1Const__Matrix4b.html", null ],
-      [ "MR.Const_Matrix4d", "classMR_1_1Const__Matrix4d.html", null ],
-      [ "MR.Const_Matrix4f", "classMR_1_1Const__Matrix4f.html", null ],
-      [ "MR.Const_Matrix4i", "classMR_1_1Const__Matrix4i.html", null ],
-      [ "MR.Const_Matrix4i64", "classMR_1_1Const__Matrix4i64.html", null ],
       [ "MR.Const_Mesh", "classMR_1_1Const__Mesh.html", null ],
       [ "MR.Const_MeshOrPointsObject", "classMR_1_1Const__MeshOrPointsObject.html", null ],
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
@@ -8568,17 +8593,12 @@ var hierarchy =
       [ "MR.Const_NoDefInit_MRVertId", "classMR_1_1Const__NoDefInit__MRVertId.html", null ],
       [ "MR.Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html", null ],
       [ "MR.Const_NoInitNodeId", "classMR_1_1Const__NoInitNodeId.html", null ],
-      [ "MR.Const_NodeId", "classMR_1_1Const__NodeId.html", null ],
-      [ "MR.Const_ObjId", "classMR_1_1Const__ObjId.html", null ],
       [ "MR.Const_ObjMap", "classMR_1_1Const__ObjMap.html", null ],
-      [ "MR.Const_ObjVertId", "classMR_1_1Const__ObjVertId.html", null ],
       [ "MR.Const_ObjectVoxels.Const_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html", null ],
-      [ "MR.Const_PixelId", "classMR_1_1Const__PixelId.html", null ],
       [ "MR.Const_PointPair", "classMR_1_1Const__PointPair.html", null ],
       [ "MR.Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html", null ],
       [ "MR.Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html", null ],
       [ "MR.Const_PositionedText", "classMR_1_1Const__PositionedText.html", null ],
-      [ "MR.Const_RegionId", "classMR_1_1Const__RegionId.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
       [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],
       [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],
@@ -8596,7 +8616,6 @@ var hierarchy =
       [ "MR.Const_SymMatrix4f", "classMR_1_1Const__SymMatrix4f.html", null ],
       [ "MR.Const_SymMatrix4i", "classMR_1_1Const__SymMatrix4i.html", null ],
       [ "MR.Const_SymMatrix4i64", "classMR_1_1Const__SymMatrix4i64.html", null ],
-      [ "MR.Const_TextureId", "classMR_1_1Const__TextureId.html", null ],
       [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ],
       [ "MR.Const_TiffParameters", "classMR_1_1Const__TiffParameters.html", null ],
       [ "MR.Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html", null ],
@@ -8605,7 +8624,6 @@ var hierarchy =
       [ "MR.Const_Triangulation", "classMR_1_1Const__Triangulation.html", null ],
       [ "MR.Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html", null ],
       [ "MR.Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html", null ],
-      [ "MR.Const_UndirectedEdgeId", "classMR_1_1Const__UndirectedEdgeId.html", null ],
       [ "MR.Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html", null ],
       [ "MR.Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html", null ],
       [ "MR.Const_UndirectedEdgeScalars", "classMR_1_1Const__UndirectedEdgeScalars.html", null ],
@@ -8613,23 +8631,8 @@ var hierarchy =
       [ "MR.Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html", null ],
       [ "MR.Const_VarEdgeTri.Const_FlaggedTri", "classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri.html", null ],
       [ "MR.Const_VdbVolume", "classMR_1_1Const__VdbVolume.html", null ],
-      [ "MR.Const_Vector2b", "classMR_1_1Const__Vector2b.html", null ],
-      [ "MR.Const_Vector2d", "classMR_1_1Const__Vector2d.html", null ],
-      [ "MR.Const_Vector2f", "classMR_1_1Const__Vector2f.html", null ],
-      [ "MR.Const_Vector2i", "classMR_1_1Const__Vector2i.html", null ],
-      [ "MR.Const_Vector2i64", "classMR_1_1Const__Vector2i64.html", null ],
       [ "MR.Const_Vector3_UnsignedChar", "classMR_1_1Const__Vector3__UnsignedChar.html", null ],
-      [ "MR.Const_Vector3b", "classMR_1_1Const__Vector3b.html", null ],
-      [ "MR.Const_Vector3d", "classMR_1_1Const__Vector3d.html", null ],
-      [ "MR.Const_Vector3f", "classMR_1_1Const__Vector3f.html", null ],
-      [ "MR.Const_Vector3i", "classMR_1_1Const__Vector3i.html", null ],
-      [ "MR.Const_Vector3i64", "classMR_1_1Const__Vector3i64.html", null ],
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
-      [ "MR.Const_Vector4b", "classMR_1_1Const__Vector4b.html", null ],
-      [ "MR.Const_Vector4d", "classMR_1_1Const__Vector4d.html", null ],
-      [ "MR.Const_Vector4f", "classMR_1_1Const__Vector4f.html", null ],
-      [ "MR.Const_Vector4i", "classMR_1_1Const__Vector4i.html", null ],
-      [ "MR.Const_Vector4i64", "classMR_1_1Const__Vector4i64.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
       [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
@@ -8665,13 +8668,10 @@ var hierarchy =
       [ "MR.Const_VertColors", "classMR_1_1Const__VertColors.html", null ],
       [ "MR.Const_VertCoords", "classMR_1_1Const__VertCoords.html", null ],
       [ "MR.Const_VertCoords2", "classMR_1_1Const__VertCoords2.html", null ],
-      [ "MR.Const_VertId", "classMR_1_1Const__VertId.html", null ],
       [ "MR.Const_VertMap", "classMR_1_1Const__VertMap.html", null ],
       [ "MR.Const_VertScalars", "classMR_1_1Const__VertScalars.html", null ],
-      [ "MR.Const_ViewportId", "classMR_1_1Const__ViewportId.html", null ],
       [ "MR.Const_ViewportIterator", "classMR_1_1Const__ViewportIterator.html", null ],
       [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ],
-      [ "MR.Const_VoxelId", "classMR_1_1Const__VoxelId.html", null ],
       [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
       [ "MR.EdgeId", "structMR_1_1EdgeId.html", null ],
       [ "MR.FaceId", "structMR_1_1FaceId.html", null ],
@@ -8725,6 +8725,14 @@ var hierarchy =
     [ "MR.ImageSave", "classMR_1_1ImageSave.html", null ],
     [ "MR.ImageTransform", "classMR_1_1ImageTransform.html", null ],
     [ "MR.Misc.InOut< T >", "classMR_1_1Misc_1_1InOut.html", null ],
+    [ "MR.Misc.KeepAliveHolder< T >", "classMR_1_1Misc_1_1KeepAliveHolder.html", [
+      [ "MR.Misc.Object< T >", "classMR_1_1Misc_1_1Object.html", [
+        [ "MR.Misc.SharedObject< T >", "classMR_1_1Misc_1_1SharedObject.html", null ]
+      ] ]
+    ] ],
+    [ "MR.Misc.KeepAliveHolder< Const_Box< T > >", "classMR_1_1Misc_1_1KeepAliveHolder.html", [
+      [ "MR.Misc.Const_Box< T >", "classMR_1_1Misc_1_1Const__Box.html", null ]
+    ] ],
     [ "MR.LinesLoad", "classMR_1_1LinesLoad.html", null ],
     [ "MR.LinesSave", "classMR_1_1LinesSave.html", null ],
     [ "MR.Matrix3_Bool", "classMR_1_1Matrix3__Bool.html", null ],
@@ -8740,1674 +8748,4044 @@ var hierarchy =
     [ "MR.Std.Monostate", "structMR_1_1Std_1_1Monostate.html", null ],
     [ "MR", "classMR.html", null ],
     [ "MR.Misc.NullOptType", "structMR_1_1Misc_1_1NullOptType.html", null ],
-    [ "MR.Misc.Object", "classMR_1_1Misc_1_1Object.html", [
+    [ "MR.Misc.Object< Const_AABBTree >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTree", "classMR_1_1Const__AABBTree.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeBase_MRObjTreeTraits >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeBase_MRObjTreeTraits", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeNode_MRObjTreeTraits >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeNode_MRObjTreeTraits", "classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeObjects >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeObjects", "classMR_1_1Const__AABBTreeObjects.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreePoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreePolyline2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreePolyline2", "classMR_1_1Const__AABBTreePolyline2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreePolyline3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreePolyline3", "classMR_1_1Const__AABBTreePolyline3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeTraits_MRFaceTag_MRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AllLocalTriangulations >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AllLocalTriangulations", "classMR_1_1Const__AllLocalTriangulations.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Angle >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Const_MeasureResult.Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_AnyVisualizeMaskEnum >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AnyVisualizeMaskEnum", "classMR_1_1Const__AnyVisualizeMaskEnum.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ArcInterpolationParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRBooleanResultMapperMaps_2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRBooleanResultMapperMaps_2", "classMR_1_1Std_1_1Const__Array__MRBooleanResultMapperMaps__2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRPreciseVertCoords2_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRPreciseVertCoords2_3", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords2__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRPreciseVertCoords2_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRPreciseVertCoords2_4", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords2__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRPreciseVertCoords2_6 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRPreciseVertCoords2_6", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords2__6.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRPreciseVertCoords_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRPreciseVertCoords_4", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRPreciseVertCoords_5 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRPreciseVertCoords_5", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords__5.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRPreciseVertCoords_8 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRPreciseVertCoords_8", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords__8.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRSimpleVolumeMinMax_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRSimpleVolumeMinMax_3", "classMR_1_1Std_1_1Const__Array__MRSimpleVolumeMinMax__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_MRWeightedVertex_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_MRWeightedVertex_3", "classMR_1_1Std_1_1Const__Array__MRWeightedVertex__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Array_StdFilesystemPath_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Array_StdFilesystemPath_4", "classMR_1_1Std_1_1Const__Array__StdFilesystemPath__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BackwardPassParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BasicUiRenderTask.Const_BackwardPassParams", "classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ball1d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Ball1d", "classMR_1_1Const__Ball1d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ball1f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Ball1f", "classMR_1_1Const__Ball1f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ball2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Ball2d", "classMR_1_1Const__Ball2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ball2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Ball2f", "classMR_1_1Const__Ball2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ball3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Ball3d", "classMR_1_1Const__Ball3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ball3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Ball3f", "classMR_1_1Const__Ball3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BaseAction_MRVector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GcodeProcessor.Const_BaseAction_MRVector2f", "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BaseAction_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GcodeProcessor.Const_BaseAction_MRVector3f", "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BaseOutlineParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PlanarTriangulation.Const_BaseOutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BaseRenderParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BaseShellParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BaseShellParameters", "classMR_1_1Const__BaseShellParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BaseTiffParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BaseTiffParameters", "classMR_1_1Const__BaseTiffParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BasicPart >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Const_MeasureResult.Const_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BasinInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WatershedGraph.Const_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BasinVolumeCalculator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BasinVolumeCalculator", "classMR_1_1Const__BasinVolumeCalculator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BdInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WatershedGraph.Const_BdInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BdInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BendContoursAlongCurveParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BendContoursAlongCurveParams", "classMR_1_1Const__BendContoursAlongCurveParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BendTextAlongCurveParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BestFitParabolad >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BestFitParabolad", "classMR_1_1Const__BestFitParabolad.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BestFitParabolaf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BestFitParabolaf", "classMR_1_1Const__BestFitParabolaf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Binary_MRFeaturesPrimitivesPlane_MRSphere3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Binary_MRSphere3f_MRSphere3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BinaryStlSaver >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshSave.Const_BinaryStlSaver", "classMR_1_1MeshSave_1_1Const__BinaryStlSaver.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Block >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SeparationPointStorage.Const_Block", "classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRFaceId_MRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRFaceId_MRUint64T", "classMR_1_1Const__BMap__MRFaceId__MRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRGraphEdgeId_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRGraphVertId_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRNodeId_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRNodeId_MRNodeId", "classMR_1_1Const__BMap__MRNodeId__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRObjId_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRObjId_MRObjId", "classMR_1_1Const__BMap__MRObjId__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRPixelId_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRPixelId_MRPixelId", "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRRegionId_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRRegionId_MRRegionId", "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRTextureId_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRTextureId_MRTextureId", "classMR_1_1Const__BMap__MRTextureId__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRUndirectedEdgeId_MRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRUndirectedEdgeId_MRUint64T", "classMR_1_1Const__BMap__MRUndirectedEdgeId__MRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRVertId_MRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRVertId_MRUint64T", "classMR_1_1Const__BMap__MRVertId__MRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BMap_MRVoxelId_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BMap_MRVoxelId_MRVoxelId", "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BooleanInternalParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanInternalParameters", "classMR_1_1Const__BooleanInternalParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BooleanParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BooleanPreCutResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BooleanResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanResult", "classMR_1_1Const__BooleanResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BooleanResultMapper >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BooleanResultPoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanResultPoints", "classMR_1_1Const__BooleanResultPoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Box_UnsignedShort >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_Char >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_Char", "classMR_1_1Const__Buffer__Char.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MREdgeId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MREdgeId_MREdgeId", "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MREdgeId_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MREdgeId_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MREdgeId__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRFaceId", "classMR_1_1Const__Buffer__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRFaceId_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRFaceId_MRFaceId", "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRGraphEdgeId_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRGraphVertId_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRNodeId_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRNodeId_MRNodeId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRObjId_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRObjId_MRObjId", "classMR_1_1Const__Buffer__MRObjId__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRPixelId_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRPixelId_MRPixelId", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRRegionId_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRRegionId_MRRegionId", "classMR_1_1Const__Buffer__MRRegionId__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRTextureId_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRTextureId_MRTextureId", "classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRVertId", "classMR_1_1Const__Buffer__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRVertId_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRVertId_MRVertId", "classMR_1_1Const__Buffer__MRVertId__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_MRVoxelId_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Buffer_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_BuildSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_BuildSettings", "classMR_1_1MeshBuilder_1_1Const__BuildSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CallSimply >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Parallel.Const_CallSimply", "classMR_1_1Parallel_1_1Const__CallSimply.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CallSimplyMaker >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Parallel.Const_CallSimplyMaker", "classMR_1_1Parallel_1_1Const__CallSimplyMaker.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Cell >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_Cell", "classMR_1_1Const__Pdf_1_1Const__Cell.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CellCustomParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_CellCustomParams", "classMR_1_1Const__Pdf_1_1Const__CellCustomParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Chunk >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Chunk", "classMR_1_1Const__Chunk.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ChunkIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ChunkIterator", "classMR_1_1Const__ChunkIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CloseToMeshVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CloseToMeshVolumeParams", "classMR_1_1Const__CloseToMeshVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CloudPartMapping >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CloudPartMapping", "classMR_1_1Const__CloudPartMapping.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CmpOld >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CmpOld", "classMR_1_1Const__CmpOld.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CNCMachineSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Command >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GcodeProcessor.Const_Command", "classMR_1_1Const__GcodeProcessor_1_1Const__Command.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ComparableProperty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectComparableWithReference.Const_ComparableProperty", "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ComparisonReferenceValue >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectComparableWithReference.Const_ComparisonReferenceValue", "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ComparisonTolerance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectComparableWithReference.Const_ComparisonTolerance", "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CompensateRadiusParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ComputeSteepestDescentPathSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ComputeSweptVolumeParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ComputeSweptVolumeParameters", "classMR_1_1Const__ComputeSweptVolumeParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Cone3ApproximationParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Cone3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Cone3d", "classMR_1_1Const__Cone3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Cone3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Cone3f", "classMR_1_1Const__Cone3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ConeSegment >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Primitives.Const_ConeSegment", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ConstantCuspParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ConstIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__Int__MRBox3i__PhmapHashInt32T_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MREdgeId__MREdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRFaceId__MRFaceId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphEdgeId__MRGraphEdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphVertId__MRGraphVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRNodeId_MRNodeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRNodeId__MRNodeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRObjId__MRObjId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRPixelId__MRPixelId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRRegionId__MRRegionId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRTextureId_MRTextureId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRTextureId__MRTextureId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUint64T__StdArrayMRVertId3__PhmapHashMRUint64T_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_Int.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__Int_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MREdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_Float.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__Float_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRFlowAggregatorFlows_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertPathInfo_1_1Const__ConstIterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVoxelId__MRVoxelId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Set_StdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Set__StdString_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_UnorderedSet_StdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__UnorderedSet__StdString_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_Char.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Char_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_ConstMRMeshPtr.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__ConstMRMeshPtr_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_Double.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Double_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeStdString_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_Float.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Float_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_Int.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Int_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreePointsNode.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsNode_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreePointsPoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsPoint_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAffineXf3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAffineXf3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRCNCMachineSettingsRotationAxisName_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRColor.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRColor_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRCurvePoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRCurvePoint_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRDipole.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRDipole_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeBitSet_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgePoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgePoint_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgePointPair.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgePointPair_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeSegment.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeSegment_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeTri.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeTri_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceBitSet_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceFace.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFace_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceFaceFace.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFaceFace_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFanRecord.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecord_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFanRecordWithCenter.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecordWithCenter_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFeatureObjectSharedProperty.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFeatureObjectSharedProperty_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFillHoleItem.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFillHoleItem_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFloatGrid.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFloatGrid_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFlowOrigin.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFlowOrigin_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGCommand.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGCommand_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGcodeProcessorCommand.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorCommand_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGcodeProcessorMoveAction.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorMoveAction_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGraphEdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGraphEndVertices.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEndVertices_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGraphVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGraphVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRHeapFloatMRGraphVertIdStdGreaterFloatElement_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRHoleFillPlan.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRHoleFillPlan_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRICPGroupPair.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPair_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRICPGroupPairs.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPairs_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRIOFilter.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRIOFilter_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRLine3MeshDouble.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshDouble_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRLine3MeshFloat.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshFloat_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRLineSegm3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRLineSegm3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMesh_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshBuilderMeshPiece.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderMeshPiece_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshBuilderVertDuplication.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertDuplication_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshBuilderVertSpan.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertSpan_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshIntersectionResult.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshIntersectionResult_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshLoadNamedMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshLoadNamedMesh_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshOrPointsXf.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshOrPointsXf_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshProjectionResult.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshProjectionResult_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshSaveNamedXfMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshTexture.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTexture_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshTriPoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTriPoint_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRModelPointsData.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRModelPointsData_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRNodeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRNodeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRObjId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRObjId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRObjVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRObjVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MROffsetContoursOrigins.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MROneMeshContour.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshContour_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MROneMeshIntersection.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPdfCell.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPdfCell_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPdfPaletteRowStats.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPdfPaletteRowStats_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPixelId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPixelId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPointPair.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPointPair_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPointsLoadNamedCloud.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPointsLoadNamedCloud_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPointsProjectionResult.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPointsProjectionResult_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRQuadraticForm2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm2f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRQuadraticForm3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRRegionId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRRegionId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRRigidXf3d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRRigidXf3d_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRSkyPatch.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSkyPatch_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRSliceInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSliceInfo_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRSomeLocalTriangulations.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRTextureId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRTextureId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRTriPointf.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRTriPointf_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUint64T.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUint64T_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeBitSet_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeUndirectedEdge.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeUndirectedEdge_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUnorientedTriangle.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUnorientedTriangle_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVarEdgeTri.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVarEdgeTri_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVdbVolume.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVdbVolume_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector2d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector2d_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector2f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector3d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector3d_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector3i.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector3i_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVertBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVertBitSet_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRViewportMask.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRViewportMask_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVoxelBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelBitSet_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVoxelId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWatershedGraphBasinInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWatershedGraphBdInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBdInfo_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWatershedGraphOverflowPoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphOverflowPoint_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWeightedShellParametersRegionsRegion_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVector2f3.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector2f3_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVector3f3.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector3f3_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVertId2.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId2_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVertId3.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId3_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayStdFilesystemPath4.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayStdFilesystemPath4_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdFilesystemPath.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdFilesystemPath_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairDoubleInt.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairDoubleInt_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMREdgeIdMREdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMREdgeIdMREdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMRUint64TMRUint64T.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRUint64TMRUint64T_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMRVector3fMRVector3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVector3fMRVector3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMRVertIdMRVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVertIdMRVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairStdStringFloat.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairStdStringFloat_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrConstMRObject.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrConstMRObject_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRBasicUiRenderTask.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRBasicUiRenderTask_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRHistoryAction.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRHistoryAction_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRMesh_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObject.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObject_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectLines.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectLines_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectMesh_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectPoints.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectPoints_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectVoxels.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectVoxels_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdString_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr3c29cbb0049f24d1ae382abff8cb8b1a.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMREdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMREdgePoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgePoint_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRGraphEdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRGraphEdgeId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRObjVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRObjVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMROffsetContoursOrigins.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRPlanarTriangulationIntersectionInfo_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVarEdgeTri.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVarEdgeTri_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector2d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2d_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector3d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3d_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3f_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVertId_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_UnsignedChar.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__UnsignedChar_1_1Const__ConstIterator.html", null ],
+      [ "MR.Std.Const_Vector_UnsignedShort.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__UnsignedShort_1_1Const__ConstIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ContoursDistanceMapOffset >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ContoursDistanceMapOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ContoursDistanceMapOptions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ContoursDistanceMapOptions", "classMR_1_1Const__ContoursDistanceMapOptions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ContoursMeshAlignParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ContoursMeshAlignParams", "classMR_1_1Const__ContoursMeshAlignParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ContourToDistanceMapParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ContourToDistanceMapParams", "classMR_1_1Const__ContourToDistanceMapParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CoordinateConverters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CoordinateConverters", "classMR_1_1Const__CoordinateConverters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CoordinateConverters2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CoordinateConverters2", "classMR_1_1Const__CoordinateConverters2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CtmSaveOptions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshSave.Const_CtmSaveOptions", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CtmSavePointsOptions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PointsSave.Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CubicBezierCurve2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CubicBezierCurve2d", "classMR_1_1Const__CubicBezierCurve2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CubicBezierCurve2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CubicBezierCurve2f", "classMR_1_1Const__CubicBezierCurve2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CubicBezierCurve3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CubicBezierCurve3d", "classMR_1_1Const__CubicBezierCurve3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CubicBezierCurve3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CubicBezierCurve3f", "classMR_1_1Const__CubicBezierCurve3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CurvePoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CurvePoint", "classMR_1_1Const__CurvePoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CutByProjectionSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CutByProjectionSettings", "classMR_1_1Const__CutByProjectionSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CutMeshParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_CutMeshResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_CutMeshResult", "classMR_1_1Const__CutMeshResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Cylinder3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Cylinder3d", "classMR_1_1Const__Cylinder3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Cylinder3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Cylinder3f", "classMR_1_1Const__Cylinder3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DecimatePolylineResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DecimatePolylineResult", "classMR_1_1Const__DecimatePolylineResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DecimatePolylineSettings_MRVector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DecimatePolylineSettings_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DecimatePolylineSettings_MRVector3f", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DecimateResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DecimateResult", "classMR_1_1Const__DecimateResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DecimateSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DeloneSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DenoiseViaNormalsSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DenseBox >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DentalId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DentalId", "classMR_1_1Const__DentalId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DetectTunnelSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DicomStatus >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.VoxelsLoad.Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DicomVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.VoxelsLoad.Const_DicomVolume", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DicomVolumeAsVdb >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Dipole >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Dipole", "classMR_1_1Const__Dipole.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Dipoles >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Dipoles", "classMR_1_1Const__Dipoles.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Dirty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Dirty", "classMR_1_1Const__Dirty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Distance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Const_MeasureResult.Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceFromWeightedPointsComputeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceFromWeightedPointsComputeParams", "classMR_1_1Const__DistanceFromWeightedPointsComputeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceFromWeightedPointsParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceMapLoadSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceMapLoadSettings", "classMR_1_1Const__DistanceMapLoadSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceMapSaveSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceMapSaveSettings", "classMR_1_1Const__DistanceMapSaveSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceMapToWorld >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceToMeshOptions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceToMeshOptions", "classMR_1_1Const__DistanceToMeshOptions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceVolumeCreationParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.WeightedShell.Const_DistanceVolumeCreationParams", "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistanceVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DistanceVolumeParams", "classMR_1_1Const__DistanceVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DistMapImproveDirectionParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FixUndercuts.Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DividePointCloudOptionalOutput >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DividePointCloudOptionalOutput", "classMR_1_1Const__DividePointCloudOptionalOutput.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DividePolylineParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DividePolylineParameters", "classMR_1_1Const__DividePolylineParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_DoubleOffsetSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_E57LoadSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PointsLoad.Const_E57LoadSettings", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeBMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeBMap", "classMR_1_1Const__EdgeBMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeColors >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeLengthMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeLengthMesh", "classMR_1_1Const__EdgeLengthMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgePathsAStarBuilder >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgePathsBuilderT_MRMetricToAStarPenalty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgePathsBuilderT_MRTrivialMetricToPenalty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgePoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgePointPair >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Edges >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeScalars >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeSegment >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EdgeTri >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgeTri", "classMR_1_1Const__EdgeTri.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Element >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat.Const_Element", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1_1Const__Element.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EmbeddedStructureParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EmbeddedStructureParameters", "classMR_1_1Const__EmbeddedStructureParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Empty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_Cell.Const_Empty", "classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EndMillCutter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EndMillCutter", "classMR_1_1Const__EndMillCutter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EndMillTool >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EndMillTool", "classMR_1_1Const__EndMillTool.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EndVertices >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Graph.Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EnumNeihbourFaces >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EnumNeihbourFaces", "classMR_1_1Const__EnumNeihbourFaces.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EnumNeihbourVertices >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EnumNeihbourVertices", "classMR_1_1Const__EnumNeihbourVertices.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_EqualVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_EqualVector3f", "classMR_1_1MeshBuilder_1_1Const__EqualVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ExpandToComponentsParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_Bool_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_Bool_StdString", "classMR_1_1Const__Expected__Bool__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRAffineXf3f_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRAffineXf3f_StdString", "classMR_1_1Const__Expected__MRAffineXf3f__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRBooleanResultPoints_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRBooleanResultPoints_StdString", "classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRDistanceMap_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRDistanceMap_StdString", "classMR_1_1Const__Expected__MRDistanceMap__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRFaceBitSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRFaceBitSet_StdString", "classMR_1_1Const__Expected__MRFaceBitSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRFloatGrid_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRFloatGrid_StdString", "classMR_1_1Const__Expected__MRFloatGrid__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRFunctionVolume_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRFunctionVolume_StdString", "classMR_1_1Const__Expected__MRFunctionVolume__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRImage_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRImage_StdString", "classMR_1_1Const__Expected__MRImage__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRLoadedObjects_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRLoadedObjects_StdString", "classMR_1_1Const__Expected__MRLoadedObjects__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRLoadedObjectT_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRLoadedObjectT_StdString", "classMR_1_1Const__Expected__MRLoadedObjectT__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRLoadedObjectTMRObjectMesh_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRLoadedObjectTMRObjectMesh_StdString", "classMR_1_1Const__Expected__MRLoadedObjectTMRObjectMesh__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRMesh_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRMesh_StdString", "classMR_1_1Const__Expected__MRMesh__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRObjectDistanceMap_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRObjectDistanceMap_StdString", "classMR_1_1Const__Expected__MRObjectDistanceMap__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRObjectGcode_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRObjectGcode_StdString", "classMR_1_1Const__Expected__MRObjectGcode__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRObjectLines_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRObjectLines_StdString", "classMR_1_1Const__Expected__MRObjectLines__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRObjectPoints_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRObjectPoints_StdString", "classMR_1_1Const__Expected__MRObjectPoints__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MROneMeshContour_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MROneMeshContour_StdString", "classMR_1_1Const__Expected__MROneMeshContour__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRPackMapping_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRPackMapping_StdString", "classMR_1_1Const__Expected__MRPackMapping__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRPointCloud_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRPointCloud_StdString", "classMR_1_1Const__Expected__MRPointCloud__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRPolyline3_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRPolyline3_StdString", "classMR_1_1Const__Expected__MRPolyline3__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRSimpleBinaryVolume_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRSimpleBinaryVolume_StdString", "classMR_1_1Const__Expected__MRSimpleBinaryVolume__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRSimpleVolume_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRSimpleVolume_StdString", "classMR_1_1Const__Expected__MRSimpleVolume__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRSimpleVolumeMinMax_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRSimpleVolumeMinMax_StdString", "classMR_1_1Const__Expected__MRSimpleVolumeMinMax__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRSimpleVolumeMinMaxU16_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRSimpleVolumeMinMaxU16_StdString", "classMR_1_1Const__Expected__MRSimpleVolumeMinMaxU16__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRTeethMaskToDirectionVolumeConvertor_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRTeethMaskToDirectionVolumeConvertor_StdString", "classMR_1_1Const__Expected__MRTeethMaskToDirectionVolumeConvertor__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRTeethMaskToDirectionVolumeConvertorProcessResult_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRTeethMaskToDirectionVolumeConvertorProcessResult_StdString", "classMR_1_1Const__Expected__MRTeethMaskToDirectionVolumeConvertorProcessResult__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRTiffParameters_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRTiffParameters_StdString", "classMR_1_1Const__Expected__MRTiffParameters__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRToolPathResult_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRToolPathResult_StdString", "classMR_1_1Const__Expected__MRToolPathResult__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRTriMesh_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRTriMesh_StdString", "classMR_1_1Const__Expected__MRTriMesh__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRUndirectedEdgeBitSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRUndirectedEdgeBitSet_StdString", "classMR_1_1Const__Expected__MRUndirectedEdgeBitSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRUnionFindMRVertId_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRUnionFindMRVertId_StdString", "classMR_1_1Const__Expected__MRUnionFindMRVertId__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVdbVolume_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVdbVolume_StdString", "classMR_1_1Const__Expected__MRVdbVolume__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVector3i_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVector3i_StdString", "classMR_1_1Const__Expected__MRVector3i__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVertBitSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVertBitSet_StdString", "classMR_1_1Const__Expected__MRVertBitSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVertColors_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVertColors_StdString", "classMR_1_1Const__Expected__MRVertColors__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVertCoords_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVertCoords_StdString", "classMR_1_1Const__Expected__MRVertCoords__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVoxelBitSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVoxelBitSet_StdString", "classMR_1_1Const__Expected__MRVoxelBitSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVoxelsLoadDicomVolume_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVoxelsLoadDicomVolume_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadDicomVolume__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVoxelsLoadDicomVolumeAsVdb_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVoxelsLoadDicomVolumeAsVdb_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_MRVoxelsLoadRawParameters_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_MRVoxelsLoadRawParameters_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadRawParameters__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdArrayMRSimpleVolumeMinMax3_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1Const__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1Const__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdPairStdVectorMRVertBitSetInt_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1Const__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdSharedPtrMRMesh_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdSharedPtrMRMesh_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRMesh__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdSharedPtrMRObject_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObject__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdSharedPtrMRObjectVoxels_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdSharedPtrMRObjectVoxels_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorFloat_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorFloat_StdString", "classMR_1_1Const__Expected__StdVectorFloat__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMREdgeId_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMREdgeId_StdString", "classMR_1_1Const__Expected__StdVectorMREdgeId__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMREdgePoint_MRPathError >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMREdgePoint_MRPathError", "classMR_1_1Const__Expected__StdVectorMREdgePoint__MRPathError.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMREdgePoint_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMREdgePoint_StdString", "classMR_1_1Const__Expected__StdVectorMREdgePoint__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRFaceBitSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRFaceBitSet_StdString", "classMR_1_1Const__Expected__StdVectorMRFaceBitSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRFaceFace_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRFaceFace_StdString", "classMR_1_1Const__Expected__StdVectorMRFaceFace__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRFloatGrid_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRFloatGrid_StdString", "classMR_1_1Const__Expected__StdVectorMRFloatGrid__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRMesh_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRMesh_StdString", "classMR_1_1Const__Expected__StdVectorMRMesh__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRMeshLoadNamedMesh_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRMeshLoadNamedMesh_StdString", "classMR_1_1Const__Expected__StdVectorMRMeshLoadNamedMesh__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMROneMeshContour_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMROneMeshContour_StdString", "classMR_1_1Const__Expected__StdVectorMROneMeshContour__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRPointsLoadNamedCloud_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRPointsLoadNamedCloud_StdString", "classMR_1_1Const__Expected__StdVectorMRPointsLoadNamedCloud__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRVdbVolume_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRVdbVolume_StdString", "classMR_1_1Const__Expected__StdVectorMRVdbVolume__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorMRVertBitSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorMRVertBitSet_StdString", "classMR_1_1Const__Expected__StdVectorMRVertBitSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorStdPairMRVertIdMRVertId_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorStdPairMRVertIdMRVertId_StdString", "classMR_1_1Const__Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorStdSharedPtrMRObjectVoxels_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorStdSharedPtrMRObjectVoxels_StdString", "classMR_1_1Const__Expected__StdVectorStdSharedPtrMRObjectVoxels__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorStdString_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorStdString_StdString", "classMR_1_1Const__Expected__StdVectorStdString__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorStdVectorMREdgeId_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorStdVectorMREdgeId_StdString", "classMR_1_1Const__Expected__StdVectorStdVectorMREdgeId__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorStdVectorMRVector2f_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorStdVectorMRVector2f_StdString", "classMR_1_1Const__Expected__StdVectorStdVectorMRVector2f__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_StdVectorStdVectorMRVector3f_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_StdVectorStdVectorMRVector3f_StdString", "classMR_1_1Const__Expected__StdVectorStdVectorMRVector3f__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Expected_Void_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Expected_Void_StdString", "classMR_1_1Const__Expected__Void__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Face2RegionMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceBMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceBMap", "classMR_1_1Const__FaceBMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceColorMapAggregator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceColorMapAggregator", "classMR_1_1Const__FaceColorMapAggregator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceColors >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceColors", "classMR_1_1Const__FaceColors.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceDistancesSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceFace >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceFace", "classMR_1_1Const__FaceFace.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceFaceFace >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceFaceFace", "classMR_1_1Const__FaceFaceFace.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceMap", "classMR_1_1Const__FaceMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceNormals >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceNormals", "classMR_1_1Const__FaceNormals.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FaceScalars >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FaceScalars", "classMR_1_1Const__FaceScalars.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FanOptimizerQueueElement >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.TriangulationHelpers.Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FanRecord >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FanRecord", "classMR_1_1Const__FanRecord.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FanRecordWithCenter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FeatureObjectProjectPointResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FeatureObjectProjectPointResult", "classMR_1_1Const__FeatureObjectProjectPointResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FeatureObjectSharedProperty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FeatureObjectSharedProperty", "classMR_1_1Const__FeatureObjectSharedProperty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FewSmallest_MRPointsProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FillHoleItem >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FillHoleItem", "classMR_1_1Const__FillHoleItem.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FillHoleMetric >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FillHoleMetric", "classMR_1_1Const__FillHoleMetric.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FillHoleNicelySettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FillHoleParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FillHolesWithExtraPointsParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FillHolesWithExtraPointsParams", "classMR_1_1Const__FillHolesWithExtraPointsParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindDisorientationParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindInnerShellSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindOutliersParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FindOutliersParams", "classMR_1_1Const__FindOutliersParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindOverhangsSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindOverlappingSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FixUndercuts.Const_FindParams", "classMR_1_1FixUndercuts_1_1Const__FindParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FindProjectionOnPointsSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FixCreasesParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FixCreasesParams", "classMR_1_1Const__FixCreasesParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FixMeshDegeneraciesParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FixParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FixUndercuts.Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlaggedTri >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VarEdgeTri.Const_FlaggedTri", "classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T", "classMR_1_1Phmap_1_1Const__FlatHashMap__Int__MRBox3i__PhmapHashInt32T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MREdgeId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MREdgeId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRFaceId_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRFaceId__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphEdgeId__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRGraphVertId_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphVertId__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRNodeId_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRNodeId_MRNodeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRNodeId__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRObjId_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRObjId__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRPixelId_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRPixelId__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRRegionId_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRRegionId__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRTextureId_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRTextureId_MRTextureId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRTextureId__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUint64T__StdArrayMRVertId3__PhmapHashMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRUndirectedEdgeId_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_Int", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRVertId_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_Float", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRFlowAggregatorFlows.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRVertId_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRVertId_MRVertPathInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertPathInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlatHashMap_MRVoxelId_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVoxelId__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FloatGrid >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FloatGrid", "classMR_1_1Const__FloatGrid.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlowAggregator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FlowAggregator", "classMR_1_1Const__FlowAggregator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FlowOrigin >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FlowOrigin", "classMR_1_1Const__FlowOrigin.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Flows >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FlowAggregator.Const_Flows", "classMR_1_1Const__FlowAggregator_1_1Const__Flows.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FreeFormBestFit >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FreeFormBestFit", "classMR_1_1Const__FreeFormBestFit.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FreeFormDeformer >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FreeFormDeformer", "classMR_1_1Const__FreeFormDeformer.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromConstMRMeshIntersectionResultRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromConstMRMeshIntersectionResultRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRMeshIntersectionResultRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromConstMRMeshProjectionResultRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromConstMRMeshProjectionResultRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRMeshProjectionResultRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromConstMRObjectRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromConstMRObjectRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRObjectRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromConstStdSharedPtrMRHistoryActionRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromConstStdSharedPtrMRHistoryActionRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstStdSharedPtrMRHistoryActionRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromFloat", "classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMREdgeId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMREdgeIdConstMRVector2fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMREdgeIdConstMRVector2fRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMREdgeIdConstMRVector2fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMREdgeIdConstMRVector3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMREdgeIdConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMREdgeIdConstMRVector3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMRFaceId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMRFaceIdMRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMRFaceIdMRFaceId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceIdMRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMRUint64TMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRUint64TMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMRUint64TMRUint64TMRUint64TMRUint64TMRUint64TMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMRUint64TMRUint64TMRUint64TMRUint64TMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRUint64TMRUint64TMRUint64TMRUint64TMRUint64TMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_BoolFuncFromMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_BoolFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_ConstMRFaceBitSetPtrFuncFromMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_ConstMRFaceBitSetPtrFuncFromMRUint64T", "classMR_1_1Std_1_1Const__Function__ConstMRFaceBitSetPtrFuncFromMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_DoubleFuncFromDoubleDouble >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_DoubleFuncFromDoubleDouble", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromDoubleDouble.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_DoubleFuncFromMRVertIdMRVertIdMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_DoubleFuncFromMRVertIdMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromMRVertIdMRVertIdMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef", "classMR_1_1Std_1_1Const__Function__ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPat6e7a8bb19efe8dbdc41bbb23a2c1b018.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt", "classMR_1_1Std_1_1Const__Function__ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromConstCharPtr >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromConstCharPtr", "classMR_1_1Std_1_1Const__Function__FloatFuncFromConstCharPtr.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromConstMRVector3iRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromConstMRVector3iRef", "classMR_1_1Std_1_1Const__Function__FloatFuncFromConstMRVector3iRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef", "classMR_1_1Std_1_1Const__Function__FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffse65c270c58951f444dc6b77b59bca00b8.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromInt >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromInt", "classMR_1_1Std_1_1Const__Function__FloatFuncFromInt.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromIntInt >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromIntInt", "classMR_1_1Std_1_1Const__Function__FloatFuncFromIntInt.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromMREdgeId", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromMRUint64T", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromMRUint64TMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUint64TMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromMRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromMRUndirectedEdgeId", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_FloatFuncFromMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_FloatFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRAABBTreeFunc >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRAABBTreeFunc", "classMR_1_1Std_1_1Const__Function__MRAABBTreeFunc.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRAABBTreePointsFunc >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRAABBTreePointsFunc", "classMR_1_1Std_1_1Const__Function__MRAABBTreePointsFunc.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRCurvePointFuncFromFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRCurvePointFuncFromFloat", "classMR_1_1Std_1_1Const__Function__MRCurvePointFuncFromFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef", "classMR_1_1Std_1_1Const__Function__MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRMeshOrPointsProjectionResultFuncFromConstMRVector3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRMeshOrPointsProjectionResultFuncFromConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__MRMeshOrPointsProjectionResultFuncFromConstMRVector3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRMeshTriPointFuncFromMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRMeshTriPointFuncFromMRUint64T", "classMR_1_1Std_1_1Const__Function__MRMeshTriPointFuncFromMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef", "classMR_1_1Std_1_1Const__Function__MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRProcessingFuncFromConstMRPointsProjectionResultRefConstMRVector3fRefMRBall3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMRPointsProjectionResultRefConstMRVector3fRefMRBall3fRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMRPointsProjectionResultRefConstMRVector3fRefMRBall3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRProcessingFuncFromMRFaceIdMRBall3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRProcessingFuncFromMRFaceIdMRBall3fRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromMRFaceIdMRBall3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRProcessOneResultFuncFromConstMRVector3fRefMRFaceIdConstMRVector3fRefFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRProcessOneResultFuncFromConstMRVector3fRefMRFaceIdConstMRVector3fRefFloat", "classMR_1_1Std_1_1Const__Function__MRProcessOneResultFuncFromConstMRVector3fRefMRFaceIdConstMRVector3fRefFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector2fFuncFromConstMRVector2iRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector2fFuncFromConstMRVector2iRef", "classMR_1_1Std_1_1Const__Function__MRVector2fFuncFromConstMRVector2iRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector2iFuncFromConstMRVector2fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector2iFuncFromConstMRVector2fRef", "classMR_1_1Std_1_1Const__Function__MRVector2iFuncFromConstMRVector2fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector3fFuncFromConstMRVector3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector3fFuncFromConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromConstMRVector3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector3fFuncFromConstMRVector3iRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector3fFuncFromConstMRVector3iRef", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromConstMRVector3iRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector3fFuncFromMRUint64TMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector3fFuncFromMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromMRUint64TMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector3fFuncFromMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector3fFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_MRVector3iFuncFromConstMRVector3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_MRVector3iFuncFromConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__MRVector3iFuncFromConstMRVector3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId", "classMR_1_1Std_1_1Const__Function__StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef", "classMR_1_1Std_1_1Const__Function__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturese13519b84c8aa4dac754d2a930d9881b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_UnsignedCharFuncFromConstMRVector3iRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_UnsignedCharFuncFromConstMRVector3iRef", "classMR_1_1Std_1_1Const__Function__UnsignedCharFuncFromConstMRVector3iRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFunc >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFunc", "classMR_1_1Std_1_1Const__Function__VoidFunc.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromConstMREdgePointRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromConstMREdgePointRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMREdgePointRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRFeaturesSubfeatureInfoRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRefMRObjIdRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRefMRObjIdRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRefMRObjIdRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromConstStdFilesystemPathRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromConstStdFilesystemPathRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstStdFilesystemPathRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromConstStdVariantFloatMRVector3fRefMRFeatureObjectPtrMRViewportId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromConstStdVariantFloatMRVector3fRefMRFeatureObjectPtrMRViewportId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstStdVariantFloatMRVector3fRefMRFeatureObjectPtrMRViewportId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromInt >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromInt", "classMR_1_1Std_1_1Const__Function__VoidFuncFromInt.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRAABBTreePointsRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRAABBTreePointsRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRAABBTreePointsRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRAABBTreeRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRAABBTreeRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRAABBTreeRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMREdgeIdMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMREdgeIdMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMREdgeIdMREdgeIdFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeIdFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMREdgeIdMREdgeIdFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRGraphEdgeIdMRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRGraphEdgeIdMRGraphEdgeId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRGraphEdgeIdMRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRMeshRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRMeshRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRMeshRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRMeshRefConstMRPartMappingRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRMeshRefConstMRPartMappingRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRMeshRefConstMRPartMappingRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRMeshRefFloatFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRMeshRefFloatFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRMeshRefFloatFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRObjIdMRMeshOrPointsProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRObjIdMRMeshOrPointsProjectionResult", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRObjIdMRMeshOrPointsProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRPdfRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRPdfRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRPdfRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRSceneLoadResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRSceneLoadResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRSignDetectionMode >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRSignDetectionMode", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRSignDetectionMode.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRUndirectedEdgeIdConstMRVector2fRefFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdConstMRVector2fRefFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdConstMRVector2fRefFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRUndirectedEdgeIdConstMRVector3fRefFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdConstMRVector3fRefFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdConstMRVector3fRefFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Function_VoidFuncFromMRVertIdConstMRVector3fRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Function_VoidFuncFromMRVertIdConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRVertIdConstMRVector3fRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FunctionVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FunctionVolume", "classMR_1_1Const__FunctionVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_FunctionVolumeU8 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_FunctionVolumeU8", "classMR_1_1Const__FunctionVolumeU8.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GcodeProcessor >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GcodeProcessor", "classMR_1_1Const__GcodeProcessor.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GCommand >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GCommand", "classMR_1_1Const__GCommand.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GeneralOffsetParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Graph >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Graph", "classMR_1_1Const__Graph.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GraphEdgeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GraphVertBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GraphVertBitSet", "classMR_1_1Const__GraphVertBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GridSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GridSettings", "classMR_1_1Const__GridSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_GridToMeshSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Heap_Float_MRGraphVertId_StdGreaterFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Histogram >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Histogram", "classMR_1_1Const__Histogram.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_HoleFillPlan >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_HoleFillPlan", "classMR_1_1Const__HoleFillPlan.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IComputeToolDistance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ICP >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ICP", "classMR_1_1Const__ICP.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ICPGroupPair >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ICPGroupPair", "classMR_1_1Const__ICPGroupPair.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ICPGroupPairs >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ICPGroupPairs", "classMR_1_1Const__ICPGroupPairs.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ICPPairData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ICPPairData", "classMR_1_1Const__ICPPairData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ICPProperties >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ICPProperties", "classMR_1_1Const__ICPProperties.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Id_MRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IFastWindingNumberByParts >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IFastWindingNumberByParts", "classMR_1_1Const__IFastWindingNumberByParts.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IICPTreeIndexer >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IICPTreeIndexer", "classMR_1_1Const__IICPTreeIndexer.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Image >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Image", "classMR_1_1Const__Image.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ImageParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_ImageParams", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ImproveDirectionParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FixUndercuts.Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ImproveSamplingSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_InflateSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_InflateSettings", "classMR_1_1Const__InflateSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_InSphere >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_InSphere", "classMR_1_1Const__InSphere.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_InSphereSearchSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_InSphereSearchSettings", "classMR_1_1Const__InSphereSearchSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntersectionInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PlanarTriangulation.Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntersectionPrecomputes2_Double >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IntersectionPrecomputes2_Double", "classMR_1_1Const__IntersectionPrecomputes2__Double.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntersectionPrecomputes2_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IntersectionPrecomputes2_Float", "classMR_1_1Const__IntersectionPrecomputes2__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntersectionPrecomputes_Double >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IntersectionPrecomputes_Double", "classMR_1_1Const__IntersectionPrecomputes__Double.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntersectionPrecomputes_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IntersectionPrecomputes_Float", "classMR_1_1Const__IntersectionPrecomputes__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntersectionsMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PlanarTriangulation.Const_IntersectionsMap", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_InTreePathBuilder >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_InTreePathBuilder", "classMR_1_1Const__InTreePathBuilder.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IntrinsicDeloneSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IntrinsicDeloneSettings", "classMR_1_1Const__IntrinsicDeloneSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IOFilter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IOFilter", "classMR_1_1Const__IOFilter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IPointPairs >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IPointPairs", "classMR_1_1Const__IPointPairs.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IPointsProjector >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IPointsProjector", "classMR_1_1Const__IPointsProjector.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IRenderObject >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IRenderObject", "classMR_1_1Const__IRenderObject.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ISolver >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NormalsToPoints.Const_ISolver", "classMR_1_1Const__NormalsToPoints_1_1Const__ISolver.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Istream >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Istream", "classMR_1_1Std_1_1Const__Istream.html", [
+        [ "MR.Std.Istream", "classMR_1_1Std_1_1Istream.html", null ]
+      ] ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum", "classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRDimensionsVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRDimensionsVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRDimensionsVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRFeatureVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRFeatureVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRFeatureVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRMeshVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRMeshVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRPointMeasurementVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRPointMeasurementVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRPointsVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRPointsVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRPointsVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IsVisualizeMaskEnum_MRVisualizeMaskType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IsVisualizeMaskEnum_MRVisualizeMaskType", "classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Iterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__Int__MRBox3i__PhmapHashInt32T_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MREdgeId__MREdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRFaceId__MRFaceId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphEdgeId__MRGraphEdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphVertId__MRGraphVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRNodeId_MRNodeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRNodeId__MRNodeId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRObjId__MRObjId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRPixelId__MRPixelId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRRegionId__MRRegionId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRTextureId_MRTextureId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRTextureId__MRTextureId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUint64T__StdArrayMRVertId3__PhmapHashMRUint64T_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_Int.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__Int_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MREdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_Float.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__Float_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRFlowAggregatorFlows_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertPathInfo_1_1Const__Iterator.html", null ],
+      [ "MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVoxelId__MRVoxelId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_Char.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Char_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_ConstMRMeshPtr.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__ConstMRMeshPtr_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_Double.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Double_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeStdString_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_Float.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Float_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_Int.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Int_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreePointsNode.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsNode_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAABBTreePointsPoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsPoint_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRAffineXf3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAffineXf3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRCNCMachineSettingsRotationAxisName_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRColor.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRColor_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRCurvePoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRCurvePoint_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRDipole.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRDipole_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeBitSet_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgePoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgePoint_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgePointPair.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgePointPair_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeSegment.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeSegment_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MREdgeTri.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeTri_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceBitSet_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceFace.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFace_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceFaceFace.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFaceFace_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFaceId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFanRecord.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecord_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFanRecordWithCenter.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecordWithCenter_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFeatureObjectSharedProperty.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFeatureObjectSharedProperty_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFillHoleItem.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFillHoleItem_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFloatGrid.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFloatGrid_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRFlowOrigin.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFlowOrigin_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGCommand.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGCommand_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGcodeProcessorCommand.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorCommand_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGcodeProcessorMoveAction.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorMoveAction_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGraphEdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGraphEndVertices.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEndVertices_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRGraphVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGraphVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRHeapFloatMRGraphVertIdStdGreaterFloatElement_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRHoleFillPlan.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRHoleFillPlan_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRICPGroupPair.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPair_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRICPGroupPairs.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPairs_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRIOFilter.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRIOFilter_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRLine3MeshDouble.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshDouble_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRLine3MeshFloat.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshFloat_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRLineSegm3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRLineSegm3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMesh_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshBuilderMeshPiece.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderMeshPiece_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshBuilderVertDuplication.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertDuplication_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshBuilderVertSpan.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertSpan_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshIntersectionResult.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshIntersectionResult_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshLoadNamedMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshLoadNamedMesh_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshOrPointsXf.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshOrPointsXf_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshProjectionResult.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshProjectionResult_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshSaveNamedXfMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshTexture.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTexture_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRMeshTriPoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTriPoint_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRModelPointsData.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRModelPointsData_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRNodeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRNodeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRObjId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRObjId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRObjVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRObjVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MROffsetContoursOrigins.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MROneMeshContour.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshContour_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MROneMeshIntersection.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPdfCell.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPdfCell_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPdfPaletteRowStats.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPdfPaletteRowStats_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPixelId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPixelId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPointPair.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPointPair_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPointsLoadNamedCloud.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPointsLoadNamedCloud_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRPointsProjectionResult.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPointsProjectionResult_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRQuadraticForm2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm2f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRQuadraticForm3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRRegionId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRRegionId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRRigidXf3d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRRigidXf3d_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRSkyPatch.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRSkyPatch_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRSliceInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRSliceInfo_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRSomeLocalTriangulations.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRTextureId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRTextureId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRTriPointf.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRTriPointf_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUint64T.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUint64T_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeBitSet_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeUndirectedEdge.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeUndirectedEdge_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRUnorientedTriangle.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUnorientedTriangle_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVarEdgeTri.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVarEdgeTri_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVdbVolume.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVdbVolume_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector2d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector2d_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector2f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector3d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector3d_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVector3i.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector3i_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVertBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVertBitSet_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRViewportMask.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRViewportMask_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVoxelBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelBitSet_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRVoxelId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWatershedGraphBasinInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWatershedGraphBdInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBdInfo_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWatershedGraphOverflowPoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphOverflowPoint_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWeightedShellParametersRegionsRegion_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVector2f3.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector2f3_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVector3f3.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector3f3_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVertId2.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId2_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayMRVertId3.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId3_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdArrayStdFilesystemPath4.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayStdFilesystemPath4_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdFilesystemPath.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdFilesystemPath_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairDoubleInt.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairDoubleInt_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMREdgeIdMREdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMREdgeIdMREdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMRUint64TMRUint64T.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRUint64TMRUint64T_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMRVector3fMRVector3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVector3fMRVector3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairMRVertIdMRVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVertIdMRVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdPairStdStringFloat.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairStdStringFloat_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrConstMRObject.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrConstMRObject_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRBasicUiRenderTask.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRBasicUiRenderTask_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRHistoryAction.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRHistoryAction_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRMesh_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObject.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObject_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectLines.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectLines_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectMesh_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectPoints.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectPoints_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectVoxels.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectVoxels_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdString.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdString_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMREdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMREdgePoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgePoint_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRGraphEdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRGraphEdgeId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRObjVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRObjVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMROffsetContoursOrigins.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRPlanarTriangulationIntersectionInfo_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVarEdgeTri.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVarEdgeTri_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector2d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2d_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector3d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3d_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVector3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3f_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_StdVectorMRVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVertId_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_UnsignedChar.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__UnsignedChar_1_1Const__Iterator.html", null ],
+      [ "MR.Std.Const_Vector_UnsignedShort.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__UnsignedShort_1_1Const__Iterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IteratorRange_MRChunkIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IteratorRange_MRChunkIterator", "classMR_1_1Const__IteratorRange__MRChunkIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IteratorRange_MRPolylineUndirectedEdgeIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft", "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin", "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_IteratorRange_MRUndirectedEdgeIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_IteratorRange_MRUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Laplacian >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Laplacian", "classMR_1_1Const__Laplacian.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LargeByAreaComponentsSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshComponents.Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Line2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Line2d", "classMR_1_1Const__Line2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Line2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Line2f", "classMR_1_1Const__Line2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Line3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Line3d", "classMR_1_1Const__Line3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Line3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Line3f", "classMR_1_1Const__Line3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Line3Mesh_Double >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Line3Mesh_Double", "classMR_1_1Const__Line3Mesh__Double.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Line3Mesh_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Line3Mesh_Float", "classMR_1_1Const__Line3Mesh__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LineInterpolationParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LineInterpolationParams", "classMR_1_1Const__LineInterpolationParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LineSegm2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LineSegm2d", "classMR_1_1Const__LineSegm2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LineSegm2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LineSegm2f", "classMR_1_1Const__LineSegm2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LineSegm3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LineSegm3d", "classMR_1_1Const__LineSegm3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LineSegm3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LineSegm3f", "classMR_1_1Const__LineSegm3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LinesLoadSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LinesLoadSettings", "classMR_1_1Const__LinesLoadSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadedObjects >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LoadedObjects", "classMR_1_1Const__LoadedObjects.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadedObjectT >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LoadedObjectT", "classMR_1_1Const__LoadedObjectT.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadedObjectT_MRObjectLines >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LoadedObjectT_MRObjectLines", "classMR_1_1Const__LoadedObjectT__MRObjectLines.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadedObjectT_MRObjectMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LoadedObjectT_MRObjectMesh", "classMR_1_1Const__LoadedObjectT__MRObjectMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadedObjectT_MRObjectPoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LoadedObjectT_MRObjectPoints", "classMR_1_1Const__LoadedObjectT__MRObjectPoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadedObjectT_MRObjectVoxels >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_LoadedObjectT_MRObjectVoxels", "classMR_1_1Const__LoadedObjectT__MRObjectVoxels.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_LoadingTiffSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.VoxelsLoad.Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MakeBridgeResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MakeBridgeResult", "classMR_1_1Const__MakeBridgeResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MakeDegenerateBandAroundRegionParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MakeDegenerateBandAroundRegionParams", "classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MakeSignedByWindingNumberSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MapOrHashMap_MREdgeId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MapOrHashMap_MRFaceId_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MapOrHashMap_MRFaceId_MRFaceId", "classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MapOrHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MapOrHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId", "classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MapOrHashMap_MRVertId_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MapOrHashMap_MRVertId_MRVertId", "classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Maps >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_BooleanResultMapper.Const_Maps", "classMR_1_1Const__BooleanResultMapper_1_1Const__Maps.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MarchingCubesByParts >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MarchingCubesByParts", "classMR_1_1Const__MarchingCubesByParts.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MarchingCubesParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MarkedContour3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MarkedContour3f", "classMR_1_1Const__MarkedContour3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Matrix3_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Matrix4_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeasureResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MergeVolumePartSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshApproxRelaxParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshAttributesToUpdate >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshAttributesToUpdate", "classMR_1_1Const__MeshAttributesToUpdate.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshDiff >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshDiff", "classMR_1_1Const__MeshDiff.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshEqualizeTriAreasParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshEqualizeTriAreasParams", "classMR_1_1Const__MeshEqualizeTriAreasParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshIntersectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshIntersectionResult", "classMR_1_1Const__MeshIntersectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshLoadSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshMeshConverter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshMeshConverter", "classMR_1_1Const__MeshMeshConverter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshMeshDistanceResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshMeshDistanceResult", "classMR_1_1Const__MeshMeshDistanceResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshMeshSignedDistanceResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshMeshSignedDistanceResult", "classMR_1_1Const__MeshMeshSignedDistanceResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshNormals >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshNormals", "classMR_1_1Const__MeshNormals.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOnVoxelsT_ConstMRMesh_MRFunctionVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOnVoxelsT_ConstMRMesh_MRVdbVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRVdbVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOnVoxelsT_MRMesh_MRVdbVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOnVoxelsT_MRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOrPoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOrPoints", "classMR_1_1Const__MeshOrPoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOrPointsObject >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOrPointsObject", "classMR_1_1Const__MeshOrPointsObject.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshOrPointsXf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOrPointsXf", "classMR_1_1Const__MeshOrPointsXf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FillingSurface.TPMS.Const_MeshParams", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshPart >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshPart", "classMR_1_1Const__MeshPart.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshPiece >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_MeshPiece", "classMR_1_1MeshBuilder_1_1Const__MeshPiece.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshPoint", "classMR_1_1Const__MeshPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshPointAndDistance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshProjectionParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshProjectionParameters", "classMR_1_1Const__MeshProjectionParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshProjectionResult", "classMR_1_1Const__MeshProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshProjectionTransforms >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshProjectionTransforms", "classMR_1_1Const__MeshProjectionTransforms.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshRelaxParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshRelaxParams", "classMR_1_1Const__MeshRelaxParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshTexture >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshTexture", "classMR_1_1Const__MeshTexture.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshToDirectionVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshToDirectionVolumeParams", "classMR_1_1Const__MeshToDirectionVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshToDistanceMapParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshToDistanceMapParams", "classMR_1_1Const__MeshToDistanceMapParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshToDistanceVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshToDistanceVolumeParams", "classMR_1_1Const__MeshToDistanceVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshTopology >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshTopologyDiff >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshTopologyDiff", "classMR_1_1Const__MeshTopologyDiff.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshToVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshToVolumeParams", "classMR_1_1Const__MeshToVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshTriPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshVertPart >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MeshVoxelsConverter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshVoxelsConverter", "classMR_1_1Const__MeshVoxelsConverter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MetricToAStarPenalty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MetricToAStarPenalty", "classMR_1_1Const__MetricToAStarPenalty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MinMaxArg_Float_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MinMaxArg_Float_MRVertId", "classMR_1_1Const__MinMaxArg__Float__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ModelBaseRenderParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ModelBaseRenderParams", "classMR_1_1Const__ModelBaseRenderParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ModelPointsData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ModelPointsData", "classMR_1_1Const__ModelPointsData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ModelRenderParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ModelRenderParams", "classMR_1_1Const__ModelRenderParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MoveAction >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_GcodeProcessor.Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MovementBuildBodyParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MovementBuildBodyParams", "classMR_1_1Const__MovementBuildBodyParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MoveMeshToVoxelMaxDerivSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MoveMeshToVoxelMaxDerivSettings", "classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MultiMeshIntersectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MultiMeshIntersectionResult", "classMR_1_1Const__MultiMeshIntersectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MultiRayMeshIntersectResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MultiRayMeshIntersectResult", "classMR_1_1Const__MultiRayMeshIntersectResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MultiwayAligningTransform >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MultiwayAligningTransform", "classMR_1_1Const__MultiwayAligningTransform.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MultiwayICP >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MultiwayICP", "classMR_1_1Const__MultiwayICP.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MultiwayICPSamplingParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_MutexOwner >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MutexOwner", "classMR_1_1Const__MutexOwner.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NamedCloud >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PointsLoad.Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NamedMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshLoad.Const_NamedMesh", "classMR_1_1MeshLoad_1_1Const__NamedMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NamedXfMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshSave.Const_NamedXfMesh", "classMR_1_1MeshSave_1_1Const__NamedXfMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NewEdgesMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NewEdgesMap", "classMR_1_1Const__NewEdgesMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NextEdgeSameLeft >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NextEdgeSameLeft", "classMR_1_1Const__NextEdgeSameLeft.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NextEdgeSameOrigin >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NextEdgeSameOrigin", "classMR_1_1Const__NextEdgeSameOrigin.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_Char >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_Char", "classMR_1_1Const__NoCtor__Char.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MREdgeId", "classMR_1_1Const__NoCtor__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRFaceId", "classMR_1_1Const__NoCtor__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRGraphEdgeId", "classMR_1_1Const__NoCtor__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRGraphVertId", "classMR_1_1Const__NoCtor__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRIdMRICPElemtTag", "classMR_1_1Const__NoCtor__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRNodeId", "classMR_1_1Const__NoCtor__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRObjId", "classMR_1_1Const__NoCtor__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRPixelId", "classMR_1_1Const__NoCtor__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRRegionId", "classMR_1_1Const__NoCtor__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRTextureId", "classMR_1_1Const__NoCtor__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRUndirectedEdgeId", "classMR_1_1Const__NoCtor__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRVertId", "classMR_1_1Const__NoCtor__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoCtor_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoCtor_UnsignedChar", "classMR_1_1Const__NoCtor__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Node >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreePoints.Const_Node", "classMR_1_1Const__AABBTreePoints_1_1Const__Node.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NodeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NodeBitSet", "classMR_1_1Const__NodeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MREdgeId", "classMR_1_1Const__NoDefInit__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRFaceId", "classMR_1_1Const__NoDefInit__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRGraphEdgeId", "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRGraphVertId", "classMR_1_1Const__NoDefInit__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRIdMRICPElemtTag", "classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRNodeId", "classMR_1_1Const__NoDefInit__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRObjId", "classMR_1_1Const__NoDefInit__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRPixelId", "classMR_1_1Const__NoDefInit__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRRegionId", "classMR_1_1Const__NoDefInit__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRTextureId", "classMR_1_1Const__NoDefInit__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRUndirectedEdgeId", "classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRVertId", "classMR_1_1Const__NoDefInit__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoDefInit_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NodeNode >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NodeNode", "classMR_1_1Const__NodeNode.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoInit >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoInit", "classMR_1_1Const__NoInit.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoInitNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoInitNodeId", "classMR_1_1Const__NoInitNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NoiseSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NoiseSettings", "classMR_1_1Const__NoiseSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NormalsToPoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NormalsToPoints", "classMR_1_1Const__NormalsToPoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_NumSum >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_NumSum", "classMR_1_1Const__NumSum.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjBitSet", "classMR_1_1Const__ObjBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjectFactoryBase >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectFactoryBase", "classMR_1_1Const__ObjectFactoryBase.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjectMeshData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectMeshData", "classMR_1_1Const__ObjectMeshData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjectMeshMergeOptions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectMeshMergeOptions", "classMR_1_1Const__ObjectMeshMergeOptions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjectTagEventDispatcher >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectTagEventDispatcher", "classMR_1_1Const__ObjectTagEventDispatcher.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindCircle >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindCone >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCone", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindCylinder >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindLine >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindLine", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindLine.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindPlane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjKindTraits_MRFeaturesObjectKindSphere >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjLoadSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshLoad.Const_ObjLoadSettings", "classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjMap", "classMR_1_1Const__ObjMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ObjTreeTraits >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjTreeTraits", "classMR_1_1Const__ObjTreeTraits.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OffsetContourIndex >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OffsetContourIndex", "classMR_1_1Const__OffsetContourIndex.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OffsetContoursOrigins >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OffsetContoursOrigins", "classMR_1_1Const__OffsetContoursOrigins.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OffsetContoursParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OffsetContoursParams", "classMR_1_1Const__OffsetContoursParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OffsetContoursRestoreZParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OffsetContoursRestoreZParams", "classMR_1_1Const__OffsetContoursRestoreZParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OffsetParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OffsetParameters", "classMR_1_1Const__OffsetParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OneMeshContour >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OneMeshIntersection >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OneMeshIntersection", "classMR_1_1Const__OneMeshIntersection.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_Double >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_Double", "classMR_1_1Std_1_1Const__Optional__Double.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_Float", "classMR_1_1Std_1_1Const__Optional__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRAllLocalTriangulations >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRAllLocalTriangulations", "classMR_1_1Std_1_1Const__Optional__MRAllLocalTriangulations.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRBox1f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRBox1f", "classMR_1_1Std_1_1Const__Optional__MRBox1f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRBox3f", "classMR_1_1Std_1_1Const__Optional__MRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRColor >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRColor", "classMR_1_1Std_1_1Const__Optional__MRColor.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRDentalId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRDentalId", "classMR_1_1Std_1_1Const__Optional__MRDentalId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRDimensionsVisualizePropertyType >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRDimensionsVisualizePropertyType", "classMR_1_1Std_1_1Const__Optional__MRDimensionsVisualizePropertyType.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MREdges >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MREdges", "classMR_1_1Std_1_1Const__Optional__MREdges.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRFaceScalars >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRFaceScalars", "classMR_1_1Std_1_1Const__Optional__MRFaceScalars.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRIOFilter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRIOFilter", "classMR_1_1Std_1_1Const__Optional__MRIOFilter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRLengthUnit >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRLengthUnit", "classMR_1_1Std_1_1Const__Optional__MRLengthUnit.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRMesh", "classMR_1_1Std_1_1Const__Optional__MRMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRMeshOrPoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRMeshOrPoints", "classMR_1_1Std_1_1Const__Optional__MRMeshOrPoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRMeshOrPointsXf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRMeshOrPointsXf", "classMR_1_1Std_1_1Const__Optional__MRMeshOrPointsXf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRObjectComparableWithReferenceComparableProperty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRObjectComparableWithReferenceComparableProperty", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparableProperty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRObjectComparableWithReferenceComparisonTolerance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRObjectComparableWithReferenceComparisonTolerance", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRObjectMeshData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRObjectMeshData", "classMR_1_1Std_1_1Const__Optional__MRObjectMeshData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRPointCloud >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRPointCloud", "classMR_1_1Std_1_1Const__Optional__MRPointCloud.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRPolylineIntersectionResult2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRPolylineIntersectionResult2", "classMR_1_1Std_1_1Const__Optional__MRPolylineIntersectionResult2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRSignedDistanceToMeshResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRSignedDistanceToMeshResult", "classMR_1_1Std_1_1Const__Optional__MRSignedDistanceToMeshResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRTriangulation >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRTriangulation", "classMR_1_1Std_1_1Const__Optional__MRTriangulation.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRTriIntersectResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRTriIntersectResult", "classMR_1_1Std_1_1Const__Optional__MRTriIntersectResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVector2f", "classMR_1_1Std_1_1Const__Optional__MRVector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVector3f", "classMR_1_1Std_1_1Const__Optional__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVector3i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVector3i", "classMR_1_1Std_1_1Const__Optional__MRVector3i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVertBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVertBitSet", "classMR_1_1Std_1_1Const__Optional__MRVertBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVertCoords >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVertCoords", "classMR_1_1Std_1_1Const__Optional__MRVertCoords.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVertCoords2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVertCoords2", "classMR_1_1Std_1_1Const__Optional__MRVertCoords2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVertMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVertMap", "classMR_1_1Std_1_1Const__Optional__MRVertMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_MRVertScalars >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_MRVertScalars", "classMR_1_1Std_1_1Const__Optional__MRVertScalars.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_StdString", "classMR_1_1Std_1_1Const__Optional__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Optional__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_StdVectorMRObjVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_StdVectorMRObjVertId", "classMR_1_1Std_1_1Const__Optional__StdVectorMRObjVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Optional_StdVectorMRSomeLocalTriangulations >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Optional_StdVectorMRSomeLocalTriangulations", "classMR_1_1Std_1_1Const__Optional__StdVectorMRSomeLocalTriangulations.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OriginAndDimensions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OriginAndDimensions", "classMR_1_1Const__OriginAndDimensions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Ostream >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Ostream", "classMR_1_1Std_1_1Const__Ostream.html", [
+        [ "MR.Std.Ostream", "classMR_1_1Std_1_1Ostream.html", null ]
+      ] ]
+    ] ],
+    [ "MR.Misc.Object< Const_OutlierParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OutlierParams", "classMR_1_1Const__OutlierParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OutliersDetector >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OutliersDetector", "classMR_1_1Const__OutliersDetector.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OutlineParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.PlanarTriangulation.Const_OutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OutputFlows >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_OutputFlows", "classMR_1_1Const__OutputFlows.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_OverflowPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WatershedGraph.Const_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PackMapping >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PackMapping", "classMR_1_1Const__PackMapping.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_Bool_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_Bool_Int", "classMR_1_1Std_1_1Const__Pair__Bool__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_Double_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_Double_Int", "classMR_1_1Std_1_1Const__Pair__Double__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_Float_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_Float_Float", "classMR_1_1Std_1_1Const__Pair__Float__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_Float_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_Float_MRVertId", "classMR_1_1Std_1_1Const__Pair__Float__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_Int_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_Int_Int", "classMR_1_1Std_1_1Const__Pair__Int__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRDistanceMap_MRDistanceMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRDistanceMap_MRDistanceMap", "classMR_1_1Std_1_1Const__Pair__MRDistanceMap__MRDistanceMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MREdgeId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MREdgeId_MREdgeId", "classMR_1_1Std_1_1Const__Pair__MREdgeId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRFace2RegionMap_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRFace2RegionMap_Int", "classMR_1_1Std_1_1Const__Pair__MRFace2RegionMap__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRFaceBitSet_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRFaceBitSet_Int", "classMR_1_1Std_1_1Const__Pair__MRFaceBitSet__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRFaceBitSet_MRFaceBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRFaceBitSet_MRFaceBitSet", "classMR_1_1Std_1_1Const__Pair__MRFaceBitSet__MRFaceBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRFaceId_Bool >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRFaceId_Bool", "classMR_1_1Std_1_1Const__Pair__MRFaceId__Bool.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRGraphEdgeId_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRGraphEdgeId_Float", "classMR_1_1Std_1_1Const__Pair__MRGraphEdgeId__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRPolyline2_MRAffineXf3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRPolyline2_MRAffineXf3f", "classMR_1_1Std_1_1Const__Pair__MRPolyline2__MRAffineXf3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRUint64T_MRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRUint64T_MRUint64T", "classMR_1_1Std_1_1Const__Pair__MRUint64T__MRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRUndirectedEdgeBitSet_MRUndirectedEdgeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRUndirectedEdgeBitSet_MRUndirectedEdgeBitSet", "classMR_1_1Std_1_1Const__Pair__MRUndirectedEdgeBitSet__MRUndirectedEdgeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRUndirectedEdgeId_Bool >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRUndirectedEdgeId_Bool", "classMR_1_1Std_1_1Const__Pair__MRUndirectedEdgeId__Bool.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRVector3d_MRVector3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRVector3d_MRVector3d", "classMR_1_1Std_1_1Const__Pair__MRVector3d__MRVector3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRVector3f_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRVector3f_MRVector3f", "classMR_1_1Std_1_1Const__Pair__MRVector3f__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRVertId_Bool >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRVertId_Bool", "classMR_1_1Std_1_1Const__Pair__MRVertId__Bool.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_MRVertId_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_MRVertId_MRVertId", "classMR_1_1Std_1_1Const__Pair__MRVertId__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_StdString_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_StdString_Float", "classMR_1_1Std_1_1Const__Pair__StdString__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_StdVectorMRFaceBitSet_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_StdVectorMRFaceBitSet_Int", "classMR_1_1Std_1_1Const__Pair__StdVectorMRFaceBitSet__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_StdVectorMRUndirectedEdgeBitSet_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_StdVectorMRUndirectedEdgeBitSet_Int", "classMR_1_1Std_1_1Const__Pair__StdVectorMRUndirectedEdgeBitSet__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pair_StdVectorMRVertBitSet_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Pair_StdVectorMRVertBitSet_Int", "classMR_1_1Std_1_1Const__Pair__StdVectorMRVertBitSet__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PaletteRowStats >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_PaletteRowStats", "classMR_1_1Const__Pdf_1_1Const__PaletteRowStats.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Parabolad >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Parabolad", "classMR_1_1Const__Parabolad.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Parabolaf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Parabolaf", "classMR_1_1Const__Parabolaf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ParametersBase >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.WeightedShell.Const_ParametersBase", "classMR_1_1WeightedShell_1_1Const__ParametersBase.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ParametersMetric >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.WeightedShell.Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ParametersRegions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.WeightedShell.Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Params >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FillingSurface.CellularSurface.Const_Params", "classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PartialColorMap >", "classMR_1_1Misc_1_1Object.html", [
       [ "MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap.html", null ],
       [ "MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap.html", null ],
-      [ "MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html", null ],
-      [ "MR.Const_AABBTree", "classMR_1_1Const__AABBTree.html", null ],
-      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ],
-      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
-      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
-      [ "MR.Const_AABBTreeBase_MRObjTreeTraits", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html", null ],
-      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ],
-      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
-      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
-      [ "MR.Const_AABBTreeNode_MRObjTreeTraits", "classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html", null ],
-      [ "MR.Const_AABBTreeObjects", "classMR_1_1Const__AABBTreeObjects.html", null ],
-      [ "MR.Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html", null ],
-      [ "MR.Const_AABBTreePoints.Const_Node", "classMR_1_1Const__AABBTreePoints_1_1Const__Node.html", null ],
-      [ "MR.Const_AABBTreePoints.Const_Point", "classMR_1_1Const__AABBTreePoints_1_1Const__Point.html", null ],
-      [ "MR.Const_AABBTreePolyline2", "classMR_1_1Const__AABBTreePolyline2.html", null ],
-      [ "MR.Const_AABBTreePolyline3", "classMR_1_1Const__AABBTreePolyline3.html", null ],
-      [ "MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f.html", null ],
-      [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html", null ],
-      [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f.html", null ],
-      [ "MR.Const_AffineXf2d", "classMR_1_1Const__AffineXf2d.html", null ],
-      [ "MR.Const_AffineXf2f", "classMR_1_1Const__AffineXf2f.html", null ],
-      [ "MR.Const_AffineXf3d", "classMR_1_1Const__AffineXf3d.html", null ],
-      [ "MR.Const_AffineXf3f", "classMR_1_1Const__AffineXf3f.html", null ],
-      [ "MR.Const_AllLocalTriangulations", "classMR_1_1Const__AllLocalTriangulations.html", null ],
-      [ "MR.Const_AnyVisualizeMaskEnum", "classMR_1_1Const__AnyVisualizeMaskEnum.html", null ],
-      [ "MR.Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html", null ],
-      [ "MR.Const_BMap_MRFaceId_MRUint64T", "classMR_1_1Const__BMap__MRFaceId__MRUint64T.html", null ],
-      [ "MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId.html", null ],
-      [ "MR.Const_BMap_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html", null ],
-      [ "MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_BMap_MRNodeId_MRNodeId", "classMR_1_1Const__BMap__MRNodeId__MRNodeId.html", null ],
-      [ "MR.Const_BMap_MRObjId_MRObjId", "classMR_1_1Const__BMap__MRObjId__MRObjId.html", null ],
-      [ "MR.Const_BMap_MRPixelId_MRPixelId", "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html", null ],
-      [ "MR.Const_BMap_MRRegionId_MRRegionId", "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html", null ],
-      [ "MR.Const_BMap_MRTextureId_MRTextureId", "classMR_1_1Const__BMap__MRTextureId__MRTextureId.html", null ],
-      [ "MR.Const_BMap_MRUndirectedEdgeId_MRUint64T", "classMR_1_1Const__BMap__MRUndirectedEdgeId__MRUint64T.html", null ],
-      [ "MR.Const_BMap_MRVertId_MRUint64T", "classMR_1_1Const__BMap__MRVertId__MRUint64T.html", null ],
-      [ "MR.Const_BMap_MRVoxelId_MRVoxelId", "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Const_Ball1d", "classMR_1_1Const__Ball1d.html", null ],
-      [ "MR.Const_Ball1f", "classMR_1_1Const__Ball1f.html", null ],
-      [ "MR.Const_Ball2d", "classMR_1_1Const__Ball2d.html", null ],
-      [ "MR.Const_Ball2f", "classMR_1_1Const__Ball2f.html", null ],
-      [ "MR.Const_Ball3d", "classMR_1_1Const__Ball3d.html", null ],
-      [ "MR.Const_Ball3f", "classMR_1_1Const__Ball3f.html", null ],
-      [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", null ],
-      [ "MR.Const_BaseShellParameters", "classMR_1_1Const__BaseShellParameters.html", null ],
-      [ "MR.Const_BaseTiffParameters", "classMR_1_1Const__BaseTiffParameters.html", null ],
-      [ "MR.Const_BasicUiRenderTask.Const_BackwardPassParams", "classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html", null ],
-      [ "MR.Const_BasinVolumeCalculator", "classMR_1_1Const__BasinVolumeCalculator.html", null ],
-      [ "MR.Const_BendContoursAlongCurveParams", "classMR_1_1Const__BendContoursAlongCurveParams.html", null ],
-      [ "MR.Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html", null ],
-      [ "MR.Const_BestFitParabolad", "classMR_1_1Const__BestFitParabolad.html", null ],
-      [ "MR.Const_BestFitParabolaf", "classMR_1_1Const__BestFitParabolaf.html", null ],
-      [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ],
-      [ "MR.Const_BooleanInternalParameters", "classMR_1_1Const__BooleanInternalParameters.html", null ],
-      [ "MR.Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html", null ],
-      [ "MR.Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html", null ],
-      [ "MR.Const_BooleanResult", "classMR_1_1Const__BooleanResult.html", null ],
-      [ "MR.Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html", null ],
-      [ "MR.Const_BooleanResultMapper.Const_Maps", "classMR_1_1Const__BooleanResultMapper_1_1Const__Maps.html", null ],
-      [ "MR.Const_BooleanResultPoints", "classMR_1_1Const__BooleanResultPoints.html", null ],
-      [ "MR.Const_Box1d", "classMR_1_1Const__Box1d.html", null ],
-      [ "MR.Const_Box1f", "classMR_1_1Const__Box1f.html", null ],
-      [ "MR.Const_Box1i", "classMR_1_1Const__Box1i.html", null ],
-      [ "MR.Const_Box1i64", "classMR_1_1Const__Box1i64.html", null ],
-      [ "MR.Const_Box2d", "classMR_1_1Const__Box2d.html", null ],
-      [ "MR.Const_Box2f", "classMR_1_1Const__Box2f.html", null ],
-      [ "MR.Const_Box2i", "classMR_1_1Const__Box2i.html", null ],
-      [ "MR.Const_Box2i64", "classMR_1_1Const__Box2i64.html", null ],
-      [ "MR.Const_Box3d", "classMR_1_1Const__Box3d.html", null ],
-      [ "MR.Const_Box3f", "classMR_1_1Const__Box3f.html", null ],
-      [ "MR.Const_Box3i", "classMR_1_1Const__Box3i.html", null ],
-      [ "MR.Const_Box3i64", "classMR_1_1Const__Box3i64.html", null ],
-      [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", null ],
-      [ "MR.Const_Buffer_Char", "classMR_1_1Const__Buffer__Char.html", null ],
-      [ "MR.Const_Buffer_MREdgeId_MREdgeId", "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html", null ],
-      [ "MR.Const_Buffer_MREdgeId_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MREdgeId__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_Buffer_MRFaceId", "classMR_1_1Const__Buffer__MRFaceId.html", null ],
-      [ "MR.Const_Buffer_MRFaceId_MRFaceId", "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html", null ],
-      [ "MR.Const_Buffer_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Buffer_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html", null ],
-      [ "MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Buffer_MRNodeId_MRNodeId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html", null ],
-      [ "MR.Const_Buffer_MRObjId_MRObjId", "classMR_1_1Const__Buffer__MRObjId__MRObjId.html", null ],
-      [ "MR.Const_Buffer_MRPixelId_MRPixelId", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html", null ],
-      [ "MR.Const_Buffer_MRRegionId_MRRegionId", "classMR_1_1Const__Buffer__MRRegionId__MRRegionId.html", null ],
-      [ "MR.Const_Buffer_MRTextureId_MRTextureId", "classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html", null ],
-      [ "MR.Const_Buffer_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_Buffer_MRVertId", "classMR_1_1Const__Buffer__MRVertId.html", null ],
-      [ "MR.Const_Buffer_MRVertId_MRVertId", "classMR_1_1Const__Buffer__MRVertId__MRVertId.html", null ],
-      [ "MR.Const_Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ],
-      [ "MR.Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html", null ],
-      [ "MR.Const_Chunk", "classMR_1_1Const__Chunk.html", null ],
-      [ "MR.Const_ChunkIterator", "classMR_1_1Const__ChunkIterator.html", null ],
-      [ "MR.Const_CloseToMeshVolumeParams", "classMR_1_1Const__CloseToMeshVolumeParams.html", null ],
-      [ "MR.Const_CloudPartMapping", "classMR_1_1Const__CloudPartMapping.html", null ],
-      [ "MR.Const_CmpOld", "classMR_1_1Const__CmpOld.html", null ],
-      [ "MR.Const_Color", "classMR_1_1Const__Color.html", null ],
-      [ "MR.Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html", null ],
-      [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", null ],
-      [ "MR.Const_ComputeSweptVolumeParameters", "classMR_1_1Const__ComputeSweptVolumeParameters.html", null ],
-      [ "MR.Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html", null ],
-      [ "MR.Const_Cone3d", "classMR_1_1Const__Cone3d.html", null ],
-      [ "MR.Const_Cone3f", "classMR_1_1Const__Cone3f.html", null ],
-      [ "MR.Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html", null ],
-      [ "MR.Const_ContourToDistanceMapParams", "classMR_1_1Const__ContourToDistanceMapParams.html", null ],
-      [ "MR.Const_ContoursDistanceMapOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html", null ],
-      [ "MR.Const_ContoursDistanceMapOptions", "classMR_1_1Const__ContoursDistanceMapOptions.html", null ],
-      [ "MR.Const_ContoursMeshAlignParams", "classMR_1_1Const__ContoursMeshAlignParams.html", null ],
-      [ "MR.Const_CoordinateConverters", "classMR_1_1Const__CoordinateConverters.html", null ],
-      [ "MR.Const_CoordinateConverters2", "classMR_1_1Const__CoordinateConverters2.html", null ],
-      [ "MR.Const_CubicBezierCurve2d", "classMR_1_1Const__CubicBezierCurve2d.html", null ],
-      [ "MR.Const_CubicBezierCurve2f", "classMR_1_1Const__CubicBezierCurve2f.html", null ],
-      [ "MR.Const_CubicBezierCurve3d", "classMR_1_1Const__CubicBezierCurve3d.html", null ],
-      [ "MR.Const_CubicBezierCurve3f", "classMR_1_1Const__CubicBezierCurve3f.html", null ],
-      [ "MR.Const_CurvePoint", "classMR_1_1Const__CurvePoint.html", null ],
-      [ "MR.Const_CutByProjectionSettings", "classMR_1_1Const__CutByProjectionSettings.html", null ],
-      [ "MR.Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html", null ],
-      [ "MR.Const_CutMeshResult", "classMR_1_1Const__CutMeshResult.html", null ],
-      [ "MR.Const_Cylinder3d", "classMR_1_1Const__Cylinder3d.html", null ],
-      [ "MR.Const_Cylinder3f", "classMR_1_1Const__Cylinder3f.html", null ],
-      [ "MR.Const_DecimatePolylineResult", "classMR_1_1Const__DecimatePolylineResult.html", null ],
-      [ "MR.Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html", null ],
-      [ "MR.Const_DecimatePolylineSettings_MRVector3f", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html", null ],
-      [ "MR.Const_DecimateResult", "classMR_1_1Const__DecimateResult.html", null ],
-      [ "MR.Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html", null ],
-      [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", null ],
-      [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", null ],
-      [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", null ],
-      [ "MR.Const_DentalId", "classMR_1_1Const__DentalId.html", null ],
-      [ "MR.Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html", null ],
-      [ "MR.Const_Dipole", "classMR_1_1Const__Dipole.html", null ],
-      [ "MR.Const_Dipoles", "classMR_1_1Const__Dipoles.html", null ],
-      [ "MR.Const_Dirty", "classMR_1_1Const__Dirty.html", null ],
-      [ "MR.Const_DistanceFromWeightedPointsComputeParams", "classMR_1_1Const__DistanceFromWeightedPointsComputeParams.html", null ],
-      [ "MR.Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html", null ],
-      [ "MR.Const_DistanceMapLoadSettings", "classMR_1_1Const__DistanceMapLoadSettings.html", null ],
-      [ "MR.Const_DistanceMapSaveSettings", "classMR_1_1Const__DistanceMapSaveSettings.html", null ],
-      [ "MR.Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html", null ],
-      [ "MR.Const_DistanceToMeshOptions", "classMR_1_1Const__DistanceToMeshOptions.html", null ],
-      [ "MR.Const_DistanceVolumeParams", "classMR_1_1Const__DistanceVolumeParams.html", null ],
-      [ "MR.Const_DividePointCloudOptionalOutput", "classMR_1_1Const__DividePointCloudOptionalOutput.html", null ],
-      [ "MR.Const_DividePolylineParameters", "classMR_1_1Const__DividePolylineParameters.html", null ],
-      [ "MR.Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html", null ],
-      [ "MR.Const_EdgeBMap", "classMR_1_1Const__EdgeBMap.html", null ],
-      [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ],
-      [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
-      [ "MR.Const_EdgeId", "classMR_1_1Const__EdgeId.html", null ],
-      [ "MR.Const_EdgeLengthMesh", "classMR_1_1Const__EdgeLengthMesh.html", null ],
-      [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ],
-      [ "MR.Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html", null ],
-      [ "MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html", null ],
-      [ "MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty.Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1Const__ReachedVert.html", null ],
-      [ "MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html", null ],
-      [ "MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty.Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1Const__ReachedVert.html", null ],
-      [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
-      [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ],
-      [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ],
-      [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", null ],
-      [ "MR.Const_EdgeTri", "classMR_1_1Const__EdgeTri.html", null ],
-      [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ],
-      [ "MR.Const_EmbeddedStructureParameters", "classMR_1_1Const__EmbeddedStructureParameters.html", null ],
-      [ "MR.Const_EndMillCutter", "classMR_1_1Const__EndMillCutter.html", null ],
-      [ "MR.Const_EndMillTool", "classMR_1_1Const__EndMillTool.html", null ],
-      [ "MR.Const_EnumNeihbourFaces", "classMR_1_1Const__EnumNeihbourFaces.html", null ],
-      [ "MR.Const_EnumNeihbourVertices", "classMR_1_1Const__EnumNeihbourVertices.html", null ],
-      [ "MR.Const_Expected_Bool_StdString", "classMR_1_1Const__Expected__Bool__StdString.html", null ],
-      [ "MR.Const_Expected_MRAffineXf3f_StdString", "classMR_1_1Const__Expected__MRAffineXf3f__StdString.html", null ],
-      [ "MR.Const_Expected_MRBooleanResultPoints_StdString", "classMR_1_1Const__Expected__MRBooleanResultPoints__StdString.html", null ],
-      [ "MR.Const_Expected_MRDistanceMap_StdString", "classMR_1_1Const__Expected__MRDistanceMap__StdString.html", null ],
-      [ "MR.Const_Expected_MRFaceBitSet_StdString", "classMR_1_1Const__Expected__MRFaceBitSet__StdString.html", null ],
-      [ "MR.Const_Expected_MRFloatGrid_StdString", "classMR_1_1Const__Expected__MRFloatGrid__StdString.html", null ],
-      [ "MR.Const_Expected_MRFunctionVolume_StdString", "classMR_1_1Const__Expected__MRFunctionVolume__StdString.html", null ],
-      [ "MR.Const_Expected_MRImage_StdString", "classMR_1_1Const__Expected__MRImage__StdString.html", null ],
-      [ "MR.Const_Expected_MRLoadedObjectTMRObjectMesh_StdString", "classMR_1_1Const__Expected__MRLoadedObjectTMRObjectMesh__StdString.html", null ],
-      [ "MR.Const_Expected_MRLoadedObjectT_StdString", "classMR_1_1Const__Expected__MRLoadedObjectT__StdString.html", null ],
-      [ "MR.Const_Expected_MRLoadedObjects_StdString", "classMR_1_1Const__Expected__MRLoadedObjects__StdString.html", null ],
-      [ "MR.Const_Expected_MRMesh_StdString", "classMR_1_1Const__Expected__MRMesh__StdString.html", null ],
-      [ "MR.Const_Expected_MRObjectDistanceMap_StdString", "classMR_1_1Const__Expected__MRObjectDistanceMap__StdString.html", null ],
-      [ "MR.Const_Expected_MRObjectGcode_StdString", "classMR_1_1Const__Expected__MRObjectGcode__StdString.html", null ],
-      [ "MR.Const_Expected_MRObjectLines_StdString", "classMR_1_1Const__Expected__MRObjectLines__StdString.html", null ],
-      [ "MR.Const_Expected_MRObjectPoints_StdString", "classMR_1_1Const__Expected__MRObjectPoints__StdString.html", null ],
-      [ "MR.Const_Expected_MROneMeshContour_StdString", "classMR_1_1Const__Expected__MROneMeshContour__StdString.html", null ],
-      [ "MR.Const_Expected_MRPackMapping_StdString", "classMR_1_1Const__Expected__MRPackMapping__StdString.html", null ],
-      [ "MR.Const_Expected_MRPointCloud_StdString", "classMR_1_1Const__Expected__MRPointCloud__StdString.html", null ],
-      [ "MR.Const_Expected_MRPolyline3_StdString", "classMR_1_1Const__Expected__MRPolyline3__StdString.html", null ],
-      [ "MR.Const_Expected_MRSimpleBinaryVolume_StdString", "classMR_1_1Const__Expected__MRSimpleBinaryVolume__StdString.html", null ],
-      [ "MR.Const_Expected_MRSimpleVolumeMinMaxU16_StdString", "classMR_1_1Const__Expected__MRSimpleVolumeMinMaxU16__StdString.html", null ],
-      [ "MR.Const_Expected_MRSimpleVolumeMinMax_StdString", "classMR_1_1Const__Expected__MRSimpleVolumeMinMax__StdString.html", null ],
-      [ "MR.Const_Expected_MRSimpleVolume_StdString", "classMR_1_1Const__Expected__MRSimpleVolume__StdString.html", null ],
-      [ "MR.Const_Expected_MRTeethMaskToDirectionVolumeConvertorProcessResult_StdString", "classMR_1_1Const__Expected__MRTeethMaskToDirectionVolumeConvertorProcessResult__StdString.html", null ],
-      [ "MR.Const_Expected_MRTeethMaskToDirectionVolumeConvertor_StdString", "classMR_1_1Const__Expected__MRTeethMaskToDirectionVolumeConvertor__StdString.html", null ],
-      [ "MR.Const_Expected_MRTiffParameters_StdString", "classMR_1_1Const__Expected__MRTiffParameters__StdString.html", null ],
-      [ "MR.Const_Expected_MRToolPathResult_StdString", "classMR_1_1Const__Expected__MRToolPathResult__StdString.html", null ],
-      [ "MR.Const_Expected_MRTriMesh_StdString", "classMR_1_1Const__Expected__MRTriMesh__StdString.html", null ],
-      [ "MR.Const_Expected_MRUndirectedEdgeBitSet_StdString", "classMR_1_1Const__Expected__MRUndirectedEdgeBitSet__StdString.html", null ],
-      [ "MR.Const_Expected_MRUnionFindMRVertId_StdString", "classMR_1_1Const__Expected__MRUnionFindMRVertId__StdString.html", null ],
-      [ "MR.Const_Expected_MRVdbVolume_StdString", "classMR_1_1Const__Expected__MRVdbVolume__StdString.html", null ],
-      [ "MR.Const_Expected_MRVector3i_StdString", "classMR_1_1Const__Expected__MRVector3i__StdString.html", null ],
-      [ "MR.Const_Expected_MRVertBitSet_StdString", "classMR_1_1Const__Expected__MRVertBitSet__StdString.html", null ],
-      [ "MR.Const_Expected_MRVertColors_StdString", "classMR_1_1Const__Expected__MRVertColors__StdString.html", null ],
-      [ "MR.Const_Expected_MRVertCoords_StdString", "classMR_1_1Const__Expected__MRVertCoords__StdString.html", null ],
-      [ "MR.Const_Expected_MRVoxelBitSet_StdString", "classMR_1_1Const__Expected__MRVoxelBitSet__StdString.html", null ],
-      [ "MR.Const_Expected_MRVoxelsLoadDicomVolumeAsVdb_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html", null ],
-      [ "MR.Const_Expected_MRVoxelsLoadDicomVolume_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadDicomVolume__StdString.html", null ],
-      [ "MR.Const_Expected_MRVoxelsLoadRawParameters_StdString", "classMR_1_1Const__Expected__MRVoxelsLoadRawParameters__StdString.html", null ],
-      [ "MR.Const_Expected_StdArrayMRSimpleVolumeMinMax3_StdString", "classMR_1_1Const__Expected__StdArrayMRSimpleVolumeMinMax3__StdString.html", null ],
-      [ "MR.Const_Expected_StdFunctionMRCurvePointFuncFromFloat_StdString", "classMR_1_1Const__Expected__StdFunctionMRCurvePointFuncFromFloat__StdString.html", null ],
-      [ "MR.Const_Expected_StdPairStdVectorMRVertBitSetInt_StdString", "classMR_1_1Const__Expected__StdPairStdVectorMRVertBitSetInt__StdString.html", null ],
-      [ "MR.Const_Expected_StdSharedPtrMRMesh_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRMesh__StdString.html", null ],
-      [ "MR.Const_Expected_StdSharedPtrMRObjectVoxels_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObjectVoxels__StdString.html", null ],
-      [ "MR.Const_Expected_StdSharedPtrMRObject_StdString", "classMR_1_1Const__Expected__StdSharedPtrMRObject__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorFloat_StdString", "classMR_1_1Const__Expected__StdVectorFloat__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMREdgeId_StdString", "classMR_1_1Const__Expected__StdVectorMREdgeId__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMREdgePoint_MRPathError", "classMR_1_1Const__Expected__StdVectorMREdgePoint__MRPathError.html", null ],
-      [ "MR.Const_Expected_StdVectorMREdgePoint_StdString", "classMR_1_1Const__Expected__StdVectorMREdgePoint__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRFaceBitSet_StdString", "classMR_1_1Const__Expected__StdVectorMRFaceBitSet__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRFaceFace_StdString", "classMR_1_1Const__Expected__StdVectorMRFaceFace__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRFloatGrid_StdString", "classMR_1_1Const__Expected__StdVectorMRFloatGrid__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRMeshLoadNamedMesh_StdString", "classMR_1_1Const__Expected__StdVectorMRMeshLoadNamedMesh__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRMesh_StdString", "classMR_1_1Const__Expected__StdVectorMRMesh__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMROneMeshContour_StdString", "classMR_1_1Const__Expected__StdVectorMROneMeshContour__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRPointsLoadNamedCloud_StdString", "classMR_1_1Const__Expected__StdVectorMRPointsLoadNamedCloud__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRVdbVolume_StdString", "classMR_1_1Const__Expected__StdVectorMRVdbVolume__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorMRVertBitSet_StdString", "classMR_1_1Const__Expected__StdVectorMRVertBitSet__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorStdPairMRVertIdMRVertId_StdString", "classMR_1_1Const__Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorStdSharedPtrMRObjectVoxels_StdString", "classMR_1_1Const__Expected__StdVectorStdSharedPtrMRObjectVoxels__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorStdString_StdString", "classMR_1_1Const__Expected__StdVectorStdString__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorStdVectorMREdgeId_StdString", "classMR_1_1Const__Expected__StdVectorStdVectorMREdgeId__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorStdVectorMRVector2f_StdString", "classMR_1_1Const__Expected__StdVectorStdVectorMRVector2f__StdString.html", null ],
-      [ "MR.Const_Expected_StdVectorStdVectorMRVector3f_StdString", "classMR_1_1Const__Expected__StdVectorStdVectorMRVector3f__StdString.html", null ],
-      [ "MR.Const_Expected_Void_StdString", "classMR_1_1Const__Expected__Void__StdString.html", null ],
-      [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ],
-      [ "MR.Const_FaceBMap", "classMR_1_1Const__FaceBMap.html", null ],
-      [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ],
-      [ "MR.Const_FaceColorMapAggregator", "classMR_1_1Const__FaceColorMapAggregator.html", null ],
-      [ "MR.Const_FaceColors", "classMR_1_1Const__FaceColors.html", null ],
-      [ "MR.Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html", null ],
-      [ "MR.Const_FaceFace", "classMR_1_1Const__FaceFace.html", null ],
-      [ "MR.Const_FaceFaceFace", "classMR_1_1Const__FaceFaceFace.html", null ],
-      [ "MR.Const_FaceId", "classMR_1_1Const__FaceId.html", null ],
-      [ "MR.Const_FaceMap", "classMR_1_1Const__FaceMap.html", null ],
-      [ "MR.Const_FaceNormals", "classMR_1_1Const__FaceNormals.html", null ],
-      [ "MR.Const_FaceScalars", "classMR_1_1Const__FaceScalars.html", null ],
-      [ "MR.Const_FanRecord", "classMR_1_1Const__FanRecord.html", null ],
-      [ "MR.Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html", null ],
-      [ "MR.Const_FeatureObjectProjectPointResult", "classMR_1_1Const__FeatureObjectProjectPointResult.html", null ],
-      [ "MR.Const_FeatureObjectSharedProperty", "classMR_1_1Const__FeatureObjectSharedProperty.html", null ],
-      [ "MR.Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html", null ],
-      [ "MR.Const_FillHoleItem", "classMR_1_1Const__FillHoleItem.html", null ],
-      [ "MR.Const_FillHoleMetric", "classMR_1_1Const__FillHoleMetric.html", null ],
-      [ "MR.Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html", null ],
-      [ "MR.Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html", null ],
-      [ "MR.Const_FillHolesWithExtraPointsParams", "classMR_1_1Const__FillHolesWithExtraPointsParams.html", null ],
-      [ "MR.Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html", null ],
-      [ "MR.Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html", null ],
-      [ "MR.Const_FindOutliersParams", "classMR_1_1Const__FindOutliersParams.html", null ],
-      [ "MR.Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html", null ],
-      [ "MR.Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html", null ],
-      [ "MR.Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html", null ],
-      [ "MR.Const_FixCreasesParams", "classMR_1_1Const__FixCreasesParams.html", null ],
-      [ "MR.Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html", null ],
-      [ "MR.Const_FloatGrid", "classMR_1_1Const__FloatGrid.html", null ],
-      [ "MR.Const_FlowAggregator", "classMR_1_1Const__FlowAggregator.html", null ],
-      [ "MR.Const_FlowAggregator.Const_Flows", "classMR_1_1Const__FlowAggregator_1_1Const__Flows.html", null ],
-      [ "MR.Const_FlowOrigin", "classMR_1_1Const__FlowOrigin.html", null ],
-      [ "MR.Const_FreeFormBestFit", "classMR_1_1Const__FreeFormBestFit.html", null ],
-      [ "MR.Const_FreeFormDeformer", "classMR_1_1Const__FreeFormDeformer.html", null ],
-      [ "MR.Const_FunctionVolume", "classMR_1_1Const__FunctionVolume.html", null ],
-      [ "MR.Const_FunctionVolumeU8", "classMR_1_1Const__FunctionVolumeU8.html", null ],
-      [ "MR.Const_GCommand", "classMR_1_1Const__GCommand.html", null ],
-      [ "MR.Const_GcodeProcessor", "classMR_1_1Const__GcodeProcessor.html", null ],
-      [ "MR.Const_GcodeProcessor.Const_BaseAction_MRVector2f", "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html", null ],
-      [ "MR.Const_GcodeProcessor.Const_BaseAction_MRVector3f", "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html", null ],
-      [ "MR.Const_GcodeProcessor.Const_Command", "classMR_1_1Const__GcodeProcessor_1_1Const__Command.html", null ],
-      [ "MR.Const_GcodeProcessor.Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html", null ],
-      [ "MR.Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html", null ],
-      [ "MR.Const_Graph", "classMR_1_1Const__Graph.html", null ],
-      [ "MR.Const_Graph.Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html", null ],
-      [ "MR.Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html", null ],
-      [ "MR.Const_GraphEdgeId", "classMR_1_1Const__GraphEdgeId.html", null ],
-      [ "MR.Const_GraphVertBitSet", "classMR_1_1Const__GraphVertBitSet.html", null ],
-      [ "MR.Const_GraphVertId", "classMR_1_1Const__GraphVertId.html", null ],
-      [ "MR.Const_GridSettings", "classMR_1_1Const__GridSettings.html", null ],
-      [ "MR.Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html", null ],
-      [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat.html", null ],
-      [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat.Const_Element", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1_1Const__Element.html", null ],
-      [ "MR.Const_Histogram", "classMR_1_1Const__Histogram.html", null ],
-      [ "MR.Const_HoleFillPlan", "classMR_1_1Const__HoleFillPlan.html", null ],
-      [ "MR.Const_ICP", "classMR_1_1Const__ICP.html", null ],
-      [ "MR.Const_ICPGroupPair", "classMR_1_1Const__ICPGroupPair.html", null ],
-      [ "MR.Const_ICPGroupPairs", "classMR_1_1Const__ICPGroupPairs.html", null ],
-      [ "MR.Const_ICPPairData", "classMR_1_1Const__ICPPairData.html", null ],
-      [ "MR.Const_ICPProperties", "classMR_1_1Const__ICPProperties.html", null ],
-      [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", null ],
-      [ "MR.Const_IFastWindingNumberByParts", "classMR_1_1Const__IFastWindingNumberByParts.html", null ],
-      [ "MR.Const_IICPTreeIndexer", "classMR_1_1Const__IICPTreeIndexer.html", null ],
-      [ "MR.Const_IOFilter", "classMR_1_1Const__IOFilter.html", null ],
-      [ "MR.Const_IPointPairs", "classMR_1_1Const__IPointPairs.html", null ],
-      [ "MR.Const_IPointsProjector", "classMR_1_1Const__IPointsProjector.html", null ],
-      [ "MR.Const_IRenderObject", "classMR_1_1Const__IRenderObject.html", null ],
-      [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", null ],
-      [ "MR.Const_Image", "classMR_1_1Const__Image.html", null ],
-      [ "MR.Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html", null ],
-      [ "MR.Const_InSphere", "classMR_1_1Const__InSphere.html", null ],
-      [ "MR.Const_InSphereSearchSettings", "classMR_1_1Const__InSphereSearchSettings.html", null ],
-      [ "MR.Const_InTreePathBuilder", "classMR_1_1Const__InTreePathBuilder.html", null ],
-      [ "MR.Const_InflateSettings", "classMR_1_1Const__InflateSettings.html", null ],
-      [ "MR.Const_IntersectionPrecomputes2_Double", "classMR_1_1Const__IntersectionPrecomputes2__Double.html", null ],
-      [ "MR.Const_IntersectionPrecomputes2_Float", "classMR_1_1Const__IntersectionPrecomputes2__Float.html", null ],
-      [ "MR.Const_IntersectionPrecomputes_Double", "classMR_1_1Const__IntersectionPrecomputes__Double.html", null ],
-      [ "MR.Const_IntersectionPrecomputes_Float", "classMR_1_1Const__IntersectionPrecomputes__Float.html", null ],
-      [ "MR.Const_IntrinsicDeloneSettings", "classMR_1_1Const__IntrinsicDeloneSettings.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum", "classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRDimensionsVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRDimensionsVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRFeatureVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRFeatureVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRMeshVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRPointMeasurementVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRPointsVisualizePropertyType", "classMR_1_1Const__IsVisualizeMaskEnum__MRPointsVisualizePropertyType.html", null ],
-      [ "MR.Const_IsVisualizeMaskEnum_MRVisualizeMaskType", "classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType.html", null ],
-      [ "MR.Const_IteratorRange_MRChunkIterator", "classMR_1_1Const__IteratorRange__MRChunkIterator.html", null ],
-      [ "MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html", null ],
-      [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft", "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html", null ],
-      [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin", "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html", null ],
-      [ "MR.Const_IteratorRange_MRUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator.html", null ],
-      [ "MR.Const_Laplacian", "classMR_1_1Const__Laplacian.html", null ],
-      [ "MR.Const_Line2d", "classMR_1_1Const__Line2d.html", null ],
-      [ "MR.Const_Line2f", "classMR_1_1Const__Line2f.html", null ],
-      [ "MR.Const_Line3Mesh_Double", "classMR_1_1Const__Line3Mesh__Double.html", null ],
-      [ "MR.Const_Line3Mesh_Float", "classMR_1_1Const__Line3Mesh__Float.html", null ],
-      [ "MR.Const_Line3d", "classMR_1_1Const__Line3d.html", null ],
-      [ "MR.Const_Line3f", "classMR_1_1Const__Line3f.html", null ],
-      [ "MR.Const_LineInterpolationParams", "classMR_1_1Const__LineInterpolationParams.html", null ],
-      [ "MR.Const_LineSegm2d", "classMR_1_1Const__LineSegm2d.html", null ],
-      [ "MR.Const_LineSegm2f", "classMR_1_1Const__LineSegm2f.html", null ],
-      [ "MR.Const_LineSegm3d", "classMR_1_1Const__LineSegm3d.html", null ],
-      [ "MR.Const_LineSegm3f", "classMR_1_1Const__LineSegm3f.html", null ],
-      [ "MR.Const_LinesLoadSettings", "classMR_1_1Const__LinesLoadSettings.html", null ],
-      [ "MR.Const_LoadedObjectT", "classMR_1_1Const__LoadedObjectT.html", null ],
-      [ "MR.Const_LoadedObjectT_MRObjectLines", "classMR_1_1Const__LoadedObjectT__MRObjectLines.html", null ],
-      [ "MR.Const_LoadedObjectT_MRObjectMesh", "classMR_1_1Const__LoadedObjectT__MRObjectMesh.html", null ],
-      [ "MR.Const_LoadedObjectT_MRObjectPoints", "classMR_1_1Const__LoadedObjectT__MRObjectPoints.html", null ],
-      [ "MR.Const_LoadedObjectT_MRObjectVoxels", "classMR_1_1Const__LoadedObjectT__MRObjectVoxels.html", null ],
-      [ "MR.Const_LoadedObjects", "classMR_1_1Const__LoadedObjects.html", null ],
-      [ "MR.Const_MakeBridgeResult", "classMR_1_1Const__MakeBridgeResult.html", null ],
-      [ "MR.Const_MakeDegenerateBandAroundRegionParams", "classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html", null ],
-      [ "MR.Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html", null ],
-      [ "MR.Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html", null ],
-      [ "MR.Const_MapOrHashMap_MRFaceId_MRFaceId", "classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId.html", null ],
-      [ "MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html", null ],
-      [ "MR.Const_MapOrHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId", "classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_MapOrHashMap_MRVertId_MRVertId", "classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId.html", null ],
-      [ "MR.Const_MarchingCubesByParts", "classMR_1_1Const__MarchingCubesByParts.html", null ],
-      [ "MR.Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html", null ],
-      [ "MR.Const_MarkedContour3f", "classMR_1_1Const__MarkedContour3f.html", null ],
-      [ "MR.Const_Matrix2b", "classMR_1_1Const__Matrix2b.html", null ],
-      [ "MR.Const_Matrix2d", "classMR_1_1Const__Matrix2d.html", null ],
-      [ "MR.Const_Matrix2f", "classMR_1_1Const__Matrix2f.html", null ],
-      [ "MR.Const_Matrix2i", "classMR_1_1Const__Matrix2i.html", null ],
-      [ "MR.Const_Matrix2i64", "classMR_1_1Const__Matrix2i64.html", null ],
-      [ "MR.Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html", null ],
+      [ "MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PartMapping >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PartMapping", "classMR_1_1Const__PartMapping.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Path >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Filesystem.Const_Path", "classMR_1_1Std_1_1Filesystem_1_1Const__Path.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Pdf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf", "classMR_1_1Const__Pdf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PdfParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PdfParameters", "classMR_1_1Const__PdfParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PixelBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PixelBitSet", "classMR_1_1Const__PixelBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Plane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Primitives.Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Plane3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Plane3d", "classMR_1_1Const__Plane3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Plane3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Plane3f", "classMR_1_1Const__Plane3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PlaneAccumulator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PlaneAccumulator", "classMR_1_1Const__PlaneAccumulator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PlyLoadParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PlyLoadParams", "classMR_1_1Const__PlyLoadParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Point >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_AABBTreePoints.Const_Point", "classMR_1_1Const__AABBTreePoints_1_1Const__Point.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointAccumulator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointAccumulator", "classMR_1_1Const__PointAccumulator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointAndDistance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointAndDistance", "classMR_1_1Const__PointAndDistance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointCloudApproxRelaxParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointCloudApproxRelaxParams", "classMR_1_1Const__PointCloudApproxRelaxParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointCloudPart >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointCloudPart", "classMR_1_1Const__PointCloudPart.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointCloudRelaxParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointCloudRelaxParams", "classMR_1_1Const__PointCloudRelaxParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointOnFace >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointOnFace", "classMR_1_1Const__PointOnFace.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointOnObject >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointOnObject", "classMR_1_1Const__PointOnObject.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointPair >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointPair", "classMR_1_1Const__PointPair.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointPairs >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointPairs", "classMR_1_1Const__PointPairs.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointsLoadSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointsProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointsProjectionResult", "classMR_1_1Const__PointsProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointsProjector >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointsProjector", "classMR_1_1Const__PointsProjector.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointsToDistanceVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointsToDistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointsToMeshParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointToPlaneAligningTransform >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointToPlaneAligningTransform", "classMR_1_1Const__PointToPlaneAligningTransform.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PointToPointAligningTransform >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PointToPointAligningTransform", "classMR_1_1Const__PointToPointAligningTransform.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polyline2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polyline2", "classMR_1_1Const__Polyline2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polyline2ProjectionWithOffsetResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polyline2ProjectionWithOffsetResult", "classMR_1_1Const__Polyline2ProjectionWithOffsetResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineIntersectionResult2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineIntersectionResult2", "classMR_1_1Const__PolylineIntersectionResult2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineMaker >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineMaker", "classMR_1_1Const__PolylineMaker.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineProjectionResult2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineProjectionResult2", "classMR_1_1Const__PolylineProjectionResult2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineProjectionResult3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineProjectionResult3", "classMR_1_1Const__PolylineProjectionResult3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineProjectionResult3Arg >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineProjectionResult3Arg", "classMR_1_1Const__PolylineProjectionResult3Arg.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineProjectionWithOffsetResult3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineProjectionWithOffsetResult3", "classMR_1_1Const__PolylineProjectionWithOffsetResult3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineSubdivideSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineSubdivideSettings", "classMR_1_1Const__PolylineSubdivideSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineToDistanceVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineTopology >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineToVolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineToVolumeParams", "classMR_1_1Const__PolylineToVolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineTraits_MRVector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineTraits_MRVector2f", "classMR_1_1Const__PolylineTraits__MRVector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineTraits_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineTraits_MRVector3f", "classMR_1_1Const__PolylineTraits__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolylineUndirectedEdgeIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_0 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_0", "classMR_1_1Const__Polynomial__Double__0.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_1 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_2", "classMR_1_1Const__Polynomial__Double__2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_3", "classMR_1_1Const__Polynomial__Double__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_4", "classMR_1_1Const__Polynomial__Double__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_5 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_5", "classMR_1_1Const__Polynomial__Double__5.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Double_6 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Double_6", "classMR_1_1Const__Polynomial__Double__6.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_0 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_0", "classMR_1_1Const__Polynomial__Float__0.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_1 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_1", "classMR_1_1Const__Polynomial__Float__1.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_2", "classMR_1_1Const__Polynomial__Float__2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_3", "classMR_1_1Const__Polynomial__Float__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_4", "classMR_1_1Const__Polynomial__Float__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_5 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_5", "classMR_1_1Const__Polynomial__Float__5.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Polynomial_Float_6 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Polynomial_Float_6", "classMR_1_1Const__Polynomial__Float__6.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolynomialWrapper_Double >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PolynomialWrapper_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PolynomialWrapper_Float", "classMR_1_1Const__PolynomialWrapper__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PositionedText >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PositionedText", "classMR_1_1Const__PositionedText.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PositionVertsSmoothlyParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PrecipitationSimulator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PrecipitationSimulator", "classMR_1_1Const__PrecipitationSimulator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PreciseVertCoord >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PreciseVertCoord", "classMR_1_1Const__PreciseVertCoord.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PreciseVertCoords >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PreciseVertCoords", "classMR_1_1Const__PreciseVertCoords.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_PreciseVertCoords2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PreciseVertCoords2", "classMR_1_1Const__PreciseVertCoords2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ProcessResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TeethMaskToDirectionVolumeConvertor.Const_ProcessResult", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ProjectAttributeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ProjectAttributeParams", "classMR_1_1Const__ProjectAttributeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MeshOrPoints.Const_ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_QR >", "classMR_1_1Misc_1_1Object.html", [
       [ "MR.Const_Matrix3_UnsignedChar.Const_QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR.html", null ],
-      [ "MR.Const_Matrix3b", "classMR_1_1Const__Matrix3b.html", null ],
-      [ "MR.Const_Matrix3d", "classMR_1_1Const__Matrix3d.html", null ],
-      [ "MR.Const_Matrix3f", "classMR_1_1Const__Matrix3f.html", null ],
-      [ "MR.Const_Matrix3i", "classMR_1_1Const__Matrix3i.html", null ],
-      [ "MR.Const_Matrix3i64", "classMR_1_1Const__Matrix3i64.html", null ],
-      [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", null ],
-      [ "MR.Const_Matrix4b", "classMR_1_1Const__Matrix4b.html", null ],
-      [ "MR.Const_Matrix4d", "classMR_1_1Const__Matrix4d.html", null ],
-      [ "MR.Const_Matrix4f", "classMR_1_1Const__Matrix4f.html", null ],
-      [ "MR.Const_Matrix4i", "classMR_1_1Const__Matrix4i.html", null ],
-      [ "MR.Const_Matrix4i64", "classMR_1_1Const__Matrix4i64.html", null ],
-      [ "MR.Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html", null ],
-      [ "MR.Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html", null ],
-      [ "MR.Const_MeshAttributesToUpdate", "classMR_1_1Const__MeshAttributesToUpdate.html", null ],
-      [ "MR.Const_MeshDiff", "classMR_1_1Const__MeshDiff.html", null ],
-      [ "MR.Const_MeshEqualizeTriAreasParams", "classMR_1_1Const__MeshEqualizeTriAreasParams.html", null ],
-      [ "MR.Const_MeshIntersectionResult", "classMR_1_1Const__MeshIntersectionResult.html", null ],
-      [ "MR.Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html", null ],
-      [ "MR.Const_MeshMeshConverter", "classMR_1_1Const__MeshMeshConverter.html", null ],
-      [ "MR.Const_MeshMeshDistanceResult", "classMR_1_1Const__MeshMeshDistanceResult.html", null ],
-      [ "MR.Const_MeshMeshSignedDistanceResult", "classMR_1_1Const__MeshMeshSignedDistanceResult.html", null ],
-      [ "MR.Const_MeshNormals", "classMR_1_1Const__MeshNormals.html", null ],
-      [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html", null ],
-      [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html", null ],
-      [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRVdbVolume.html", null ],
-      [ "MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html", null ],
-      [ "MR.Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html", null ],
-      [ "MR.Const_MeshOnVoxelsT_MRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html", null ],
-      [ "MR.Const_MeshOrPoints", "classMR_1_1Const__MeshOrPoints.html", null ],
-      [ "MR.Const_MeshOrPoints.Const_ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult.html", null ],
-      [ "MR.Const_MeshOrPointsObject", "classMR_1_1Const__MeshOrPointsObject.html", null ],
-      [ "MR.Const_MeshOrPointsXf", "classMR_1_1Const__MeshOrPointsXf.html", null ],
-      [ "MR.Const_MeshPart", "classMR_1_1Const__MeshPart.html", null ],
-      [ "MR.Const_MeshPoint", "classMR_1_1Const__MeshPoint.html", null ],
-      [ "MR.Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html", null ],
-      [ "MR.Const_MeshProjectionParameters", "classMR_1_1Const__MeshProjectionParameters.html", null ],
-      [ "MR.Const_MeshProjectionResult", "classMR_1_1Const__MeshProjectionResult.html", null ],
-      [ "MR.Const_MeshProjectionTransforms", "classMR_1_1Const__MeshProjectionTransforms.html", null ],
-      [ "MR.Const_MeshRelaxParams", "classMR_1_1Const__MeshRelaxParams.html", null ],
-      [ "MR.Const_MeshTexture", "classMR_1_1Const__MeshTexture.html", null ],
-      [ "MR.Const_MeshToDirectionVolumeParams", "classMR_1_1Const__MeshToDirectionVolumeParams.html", null ],
-      [ "MR.Const_MeshToDistanceMapParams", "classMR_1_1Const__MeshToDistanceMapParams.html", null ],
-      [ "MR.Const_MeshToDistanceVolumeParams", "classMR_1_1Const__MeshToDistanceVolumeParams.html", null ],
-      [ "MR.Const_MeshToVolumeParams", "classMR_1_1Const__MeshToVolumeParams.html", null ],
-      [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
-      [ "MR.Const_MeshTopologyDiff", "classMR_1_1Const__MeshTopologyDiff.html", null ],
-      [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ],
-      [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", null ],
-      [ "MR.Const_MeshVoxelsConverter", "classMR_1_1Const__MeshVoxelsConverter.html", null ],
-      [ "MR.Const_MetricToAStarPenalty", "classMR_1_1Const__MetricToAStarPenalty.html", null ],
-      [ "MR.Const_MinMaxArg_Float_MRVertId", "classMR_1_1Const__MinMaxArg__Float__MRVertId.html", null ],
-      [ "MR.Const_ModelBaseRenderParams", "classMR_1_1Const__ModelBaseRenderParams.html", null ],
-      [ "MR.Const_ModelPointsData", "classMR_1_1Const__ModelPointsData.html", null ],
-      [ "MR.Const_ModelRenderParams", "classMR_1_1Const__ModelRenderParams.html", null ],
-      [ "MR.Const_MoveMeshToVoxelMaxDerivSettings", "classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings.html", null ],
-      [ "MR.Const_MovementBuildBodyParams", "classMR_1_1Const__MovementBuildBodyParams.html", null ],
-      [ "MR.Const_MultiMeshIntersectionResult", "classMR_1_1Const__MultiMeshIntersectionResult.html", null ],
-      [ "MR.Const_MultiRayMeshIntersectResult", "classMR_1_1Const__MultiRayMeshIntersectResult.html", null ],
-      [ "MR.Const_MultiwayAligningTransform", "classMR_1_1Const__MultiwayAligningTransform.html", null ],
-      [ "MR.Const_MultiwayAligningTransform.Const_Stabilizer", "classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer.html", null ],
-      [ "MR.Const_MultiwayICP", "classMR_1_1Const__MultiwayICP.html", null ],
-      [ "MR.Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html", null ],
-      [ "MR.Const_MutexOwner", "classMR_1_1Const__MutexOwner.html", null ],
-      [ "MR.Const_NewEdgesMap", "classMR_1_1Const__NewEdgesMap.html", null ],
-      [ "MR.Const_NextEdgeSameLeft", "classMR_1_1Const__NextEdgeSameLeft.html", null ],
-      [ "MR.Const_NextEdgeSameOrigin", "classMR_1_1Const__NextEdgeSameOrigin.html", null ],
-      [ "MR.Const_NoCtor_Char", "classMR_1_1Const__NoCtor__Char.html", null ],
-      [ "MR.Const_NoCtor_MREdgeId", "classMR_1_1Const__NoCtor__MREdgeId.html", null ],
-      [ "MR.Const_NoCtor_MRFaceId", "classMR_1_1Const__NoCtor__MRFaceId.html", null ],
-      [ "MR.Const_NoCtor_MRGraphEdgeId", "classMR_1_1Const__NoCtor__MRGraphEdgeId.html", null ],
-      [ "MR.Const_NoCtor_MRGraphVertId", "classMR_1_1Const__NoCtor__MRGraphVertId.html", null ],
-      [ "MR.Const_NoCtor_MRIdMRICPElemtTag", "classMR_1_1Const__NoCtor__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_NoCtor_MRNodeId", "classMR_1_1Const__NoCtor__MRNodeId.html", null ],
-      [ "MR.Const_NoCtor_MRObjId", "classMR_1_1Const__NoCtor__MRObjId.html", null ],
-      [ "MR.Const_NoCtor_MRPixelId", "classMR_1_1Const__NoCtor__MRPixelId.html", null ],
-      [ "MR.Const_NoCtor_MRRegionId", "classMR_1_1Const__NoCtor__MRRegionId.html", null ],
-      [ "MR.Const_NoCtor_MRTextureId", "classMR_1_1Const__NoCtor__MRTextureId.html", null ],
-      [ "MR.Const_NoCtor_MRUndirectedEdgeId", "classMR_1_1Const__NoCtor__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_NoCtor_MRVertId", "classMR_1_1Const__NoCtor__MRVertId.html", null ],
-      [ "MR.Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html", null ],
-      [ "MR.Const_NoCtor_UnsignedChar", "classMR_1_1Const__NoCtor__UnsignedChar.html", null ],
-      [ "MR.Const_NoDefInit_MREdgeId", "classMR_1_1Const__NoDefInit__MREdgeId.html", null ],
-      [ "MR.Const_NoDefInit_MRFaceId", "classMR_1_1Const__NoDefInit__MRFaceId.html", null ],
-      [ "MR.Const_NoDefInit_MRGraphEdgeId", "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html", null ],
-      [ "MR.Const_NoDefInit_MRGraphVertId", "classMR_1_1Const__NoDefInit__MRGraphVertId.html", null ],
-      [ "MR.Const_NoDefInit_MRIdMRICPElemtTag", "classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_NoDefInit_MRNodeId", "classMR_1_1Const__NoDefInit__MRNodeId.html", null ],
-      [ "MR.Const_NoDefInit_MRObjId", "classMR_1_1Const__NoDefInit__MRObjId.html", null ],
-      [ "MR.Const_NoDefInit_MRPixelId", "classMR_1_1Const__NoDefInit__MRPixelId.html", null ],
-      [ "MR.Const_NoDefInit_MRRegionId", "classMR_1_1Const__NoDefInit__MRRegionId.html", null ],
-      [ "MR.Const_NoDefInit_MRTextureId", "classMR_1_1Const__NoDefInit__MRTextureId.html", null ],
-      [ "MR.Const_NoDefInit_MRUndirectedEdgeId", "classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_NoDefInit_MRVertId", "classMR_1_1Const__NoDefInit__MRVertId.html", null ],
-      [ "MR.Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html", null ],
-      [ "MR.Const_NoInit", "classMR_1_1Const__NoInit.html", null ],
-      [ "MR.Const_NoInitNodeId", "classMR_1_1Const__NoInitNodeId.html", null ],
-      [ "MR.Const_NodeBitSet", "classMR_1_1Const__NodeBitSet.html", null ],
-      [ "MR.Const_NodeId", "classMR_1_1Const__NodeId.html", null ],
-      [ "MR.Const_NodeNode", "classMR_1_1Const__NodeNode.html", null ],
-      [ "MR.Const_NoiseSettings", "classMR_1_1Const__NoiseSettings.html", null ],
-      [ "MR.Const_NormalsToPoints", "classMR_1_1Const__NormalsToPoints.html", null ],
-      [ "MR.Const_NormalsToPoints.Const_ISolver", "classMR_1_1Const__NormalsToPoints_1_1Const__ISolver.html", null ],
-      [ "MR.Const_NumSum", "classMR_1_1Const__NumSum.html", null ],
-      [ "MR.Const_ObjBitSet", "classMR_1_1Const__ObjBitSet.html", null ],
-      [ "MR.Const_ObjId", "classMR_1_1Const__ObjId.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCone", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindLine", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindLine.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html", null ],
-      [ "MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere", "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html", null ],
-      [ "MR.Const_ObjMap", "classMR_1_1Const__ObjMap.html", null ],
-      [ "MR.Const_ObjTreeTraits", "classMR_1_1Const__ObjTreeTraits.html", null ],
-      [ "MR.Const_ObjVertId", "classMR_1_1Const__ObjVertId.html", null ],
-      [ "MR.Const_ObjectComparableWithReference.Const_ComparableProperty", "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty.html", null ],
-      [ "MR.Const_ObjectComparableWithReference.Const_ComparisonReferenceValue", "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html", null ],
-      [ "MR.Const_ObjectComparableWithReference.Const_ComparisonTolerance", "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance.html", null ],
-      [ "MR.Const_ObjectFactoryBase", "classMR_1_1Const__ObjectFactoryBase.html", null ],
-      [ "MR.Const_ObjectMeshData", "classMR_1_1Const__ObjectMeshData.html", null ],
-      [ "MR.Const_ObjectMeshMergeOptions", "classMR_1_1Const__ObjectMeshMergeOptions.html", null ],
-      [ "MR.Const_ObjectTagEventDispatcher", "classMR_1_1Const__ObjectTagEventDispatcher.html", null ],
-      [ "MR.Const_ObjectVoxels.Const_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html", null ],
-      [ "MR.Const_OffsetContourIndex", "classMR_1_1Const__OffsetContourIndex.html", null ],
-      [ "MR.Const_OffsetContoursOrigins", "classMR_1_1Const__OffsetContoursOrigins.html", null ],
-      [ "MR.Const_OffsetContoursParams", "classMR_1_1Const__OffsetContoursParams.html", null ],
-      [ "MR.Const_OffsetContoursRestoreZParams", "classMR_1_1Const__OffsetContoursRestoreZParams.html", null ],
-      [ "MR.Const_OffsetParameters", "classMR_1_1Const__OffsetParameters.html", null ],
-      [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", null ],
-      [ "MR.Const_OneMeshIntersection", "classMR_1_1Const__OneMeshIntersection.html", null ],
-      [ "MR.Const_OriginAndDimensions", "classMR_1_1Const__OriginAndDimensions.html", null ],
-      [ "MR.Const_OutlierParams", "classMR_1_1Const__OutlierParams.html", null ],
-      [ "MR.Const_OutliersDetector", "classMR_1_1Const__OutliersDetector.html", null ],
-      [ "MR.Const_OutputFlows", "classMR_1_1Const__OutputFlows.html", null ],
-      [ "MR.Const_PackMapping", "classMR_1_1Const__PackMapping.html", null ],
-      [ "MR.Const_Parabolad", "classMR_1_1Const__Parabolad.html", null ],
-      [ "MR.Const_Parabolaf", "classMR_1_1Const__Parabolaf.html", null ],
-      [ "MR.Const_PartMapping", "classMR_1_1Const__PartMapping.html", null ],
-      [ "MR.Const_Pdf", "classMR_1_1Const__Pdf.html", null ],
-      [ "MR.Const_Pdf.Const_Cell", "classMR_1_1Const__Pdf_1_1Const__Cell.html", null ],
-      [ "MR.Const_Pdf.Const_Cell.Const_Empty", "classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty.html", null ],
-      [ "MR.Const_Pdf.Const_CellCustomParams", "classMR_1_1Const__Pdf_1_1Const__CellCustomParams.html", null ],
-      [ "MR.Const_Pdf.Const_ImageParams", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html", null ],
-      [ "MR.Const_Pdf.Const_PaletteRowStats", "classMR_1_1Const__Pdf_1_1Const__PaletteRowStats.html", null ],
-      [ "MR.Const_Pdf.Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html", null ],
-      [ "MR.Const_Pdf.Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html", null ],
-      [ "MR.Const_PdfParameters", "classMR_1_1Const__PdfParameters.html", null ],
-      [ "MR.Const_PixelBitSet", "classMR_1_1Const__PixelBitSet.html", null ],
-      [ "MR.Const_PixelId", "classMR_1_1Const__PixelId.html", null ],
-      [ "MR.Const_Plane3d", "classMR_1_1Const__Plane3d.html", null ],
-      [ "MR.Const_Plane3f", "classMR_1_1Const__Plane3f.html", null ],
-      [ "MR.Const_PlaneAccumulator", "classMR_1_1Const__PlaneAccumulator.html", null ],
-      [ "MR.Const_PlyLoadParams", "classMR_1_1Const__PlyLoadParams.html", null ],
-      [ "MR.Const_PointAccumulator", "classMR_1_1Const__PointAccumulator.html", null ],
-      [ "MR.Const_PointAndDistance", "classMR_1_1Const__PointAndDistance.html", null ],
-      [ "MR.Const_PointCloudApproxRelaxParams", "classMR_1_1Const__PointCloudApproxRelaxParams.html", null ],
-      [ "MR.Const_PointCloudPart", "classMR_1_1Const__PointCloudPart.html", null ],
-      [ "MR.Const_PointCloudRelaxParams", "classMR_1_1Const__PointCloudRelaxParams.html", null ],
-      [ "MR.Const_PointOnFace", "classMR_1_1Const__PointOnFace.html", null ],
-      [ "MR.Const_PointOnObject", "classMR_1_1Const__PointOnObject.html", null ],
-      [ "MR.Const_PointPair", "classMR_1_1Const__PointPair.html", null ],
-      [ "MR.Const_PointPairs", "classMR_1_1Const__PointPairs.html", null ],
-      [ "MR.Const_PointToPlaneAligningTransform", "classMR_1_1Const__PointToPlaneAligningTransform.html", null ],
-      [ "MR.Const_PointToPointAligningTransform", "classMR_1_1Const__PointToPointAligningTransform.html", null ],
-      [ "MR.Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html", null ],
-      [ "MR.Const_PointsProjectionResult", "classMR_1_1Const__PointsProjectionResult.html", null ],
-      [ "MR.Const_PointsProjector", "classMR_1_1Const__PointsProjector.html", null ],
-      [ "MR.Const_PointsToDistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html", null ],
-      [ "MR.Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html", null ],
-      [ "MR.Const_Polyline2", "classMR_1_1Const__Polyline2.html", null ],
-      [ "MR.Const_Polyline2ProjectionWithOffsetResult", "classMR_1_1Const__Polyline2ProjectionWithOffsetResult.html", null ],
-      [ "MR.Const_PolylineIntersectionResult2", "classMR_1_1Const__PolylineIntersectionResult2.html", null ],
-      [ "MR.Const_PolylineMaker", "classMR_1_1Const__PolylineMaker.html", null ],
-      [ "MR.Const_PolylineProjectionResult2", "classMR_1_1Const__PolylineProjectionResult2.html", null ],
-      [ "MR.Const_PolylineProjectionResult3", "classMR_1_1Const__PolylineProjectionResult3.html", null ],
-      [ "MR.Const_PolylineProjectionResult3Arg", "classMR_1_1Const__PolylineProjectionResult3Arg.html", null ],
-      [ "MR.Const_PolylineProjectionWithOffsetResult3", "classMR_1_1Const__PolylineProjectionWithOffsetResult3.html", null ],
-      [ "MR.Const_PolylineSubdivideSettings", "classMR_1_1Const__PolylineSubdivideSettings.html", null ],
-      [ "MR.Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html", null ],
-      [ "MR.Const_PolylineToVolumeParams", "classMR_1_1Const__PolylineToVolumeParams.html", null ],
-      [ "MR.Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html", null ],
-      [ "MR.Const_PolylineTraits_MRVector2f", "classMR_1_1Const__PolylineTraits__MRVector2f.html", null ],
-      [ "MR.Const_PolylineTraits_MRVector3f", "classMR_1_1Const__PolylineTraits__MRVector3f.html", null ],
-      [ "MR.Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html", null ],
-      [ "MR.Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html", null ],
-      [ "MR.Const_PolynomialWrapper_Float", "classMR_1_1Const__PolynomialWrapper__Float.html", null ],
-      [ "MR.Const_Polynomial_Double_0", "classMR_1_1Const__Polynomial__Double__0.html", null ],
-      [ "MR.Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html", null ],
-      [ "MR.Const_Polynomial_Double_2", "classMR_1_1Const__Polynomial__Double__2.html", null ],
-      [ "MR.Const_Polynomial_Double_3", "classMR_1_1Const__Polynomial__Double__3.html", null ],
-      [ "MR.Const_Polynomial_Double_4", "classMR_1_1Const__Polynomial__Double__4.html", null ],
-      [ "MR.Const_Polynomial_Double_5", "classMR_1_1Const__Polynomial__Double__5.html", null ],
-      [ "MR.Const_Polynomial_Double_6", "classMR_1_1Const__Polynomial__Double__6.html", null ],
-      [ "MR.Const_Polynomial_Float_0", "classMR_1_1Const__Polynomial__Float__0.html", null ],
-      [ "MR.Const_Polynomial_Float_1", "classMR_1_1Const__Polynomial__Float__1.html", null ],
-      [ "MR.Const_Polynomial_Float_2", "classMR_1_1Const__Polynomial__Float__2.html", null ],
-      [ "MR.Const_Polynomial_Float_3", "classMR_1_1Const__Polynomial__Float__3.html", null ],
-      [ "MR.Const_Polynomial_Float_4", "classMR_1_1Const__Polynomial__Float__4.html", null ],
-      [ "MR.Const_Polynomial_Float_5", "classMR_1_1Const__Polynomial__Float__5.html", null ],
-      [ "MR.Const_Polynomial_Float_6", "classMR_1_1Const__Polynomial__Float__6.html", null ],
-      [ "MR.Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html", null ],
-      [ "MR.Const_PositionedText", "classMR_1_1Const__PositionedText.html", null ],
-      [ "MR.Const_PrecipitationSimulator", "classMR_1_1Const__PrecipitationSimulator.html", null ],
-      [ "MR.Const_PrecipitationSimulator.Const_SimulationStep", "classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep.html", null ],
-      [ "MR.Const_PreciseVertCoord", "classMR_1_1Const__PreciseVertCoord.html", null ],
-      [ "MR.Const_PreciseVertCoords", "classMR_1_1Const__PreciseVertCoords.html", null ],
-      [ "MR.Const_PreciseVertCoords2", "classMR_1_1Const__PreciseVertCoords2.html", null ],
-      [ "MR.Const_ProjectAttributeParams", "classMR_1_1Const__ProjectAttributeParams.html", null ],
-      [ "MR.Const_QuadraticForm2d", "classMR_1_1Const__QuadraticForm2d.html", null ],
-      [ "MR.Const_QuadraticForm2f", "classMR_1_1Const__QuadraticForm2f.html", null ],
-      [ "MR.Const_QuadraticForm3d", "classMR_1_1Const__QuadraticForm3d.html", null ],
-      [ "MR.Const_QuadraticForm3f", "classMR_1_1Const__QuadraticForm3f.html", null ],
-      [ "MR.Const_QuadricApprox", "classMR_1_1Const__QuadricApprox.html", null ],
-      [ "MR.Const_Quaterniond", "classMR_1_1Const__Quaterniond.html", null ],
-      [ "MR.Const_Quaternionf", "classMR_1_1Const__Quaternionf.html", null ],
-      [ "MR.Const_RawTiffOutput", "classMR_1_1Const__RawTiffOutput.html", null ],
-      [ "MR.Const_RayOrigin_Float", "classMR_1_1Const__RayOrigin__Float.html", null ],
-      [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", null ],
-      [ "MR.Const_RefineParameters", "classMR_1_1Const__RefineParameters.html", null ],
-      [ "MR.Const_RegionBitSet", "classMR_1_1Const__RegionBitSet.html", null ],
-      [ "MR.Const_RegionId", "classMR_1_1Const__RegionId.html", null ],
-      [ "MR.Const_RegularMapMesher", "classMR_1_1Const__RegularMapMesher.html", null ],
-      [ "MR.Const_RelaxParams", "classMR_1_1Const__RelaxParams.html", null ],
-      [ "MR.Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html", null ],
-      [ "MR.Const_ResolveMeshDegenSettings", "classMR_1_1Const__ResolveMeshDegenSettings.html", null ],
-      [ "MR.Const_RigidScaleXf3d", "classMR_1_1Const__RigidScaleXf3d.html", null ],
-      [ "MR.Const_RigidScaleXf3f", "classMR_1_1Const__RigidScaleXf3f.html", null ],
-      [ "MR.Const_RigidXf3d", "classMR_1_1Const__RigidXf3d.html", null ],
-      [ "MR.Const_RigidXf3f", "classMR_1_1Const__RigidXf3f.html", null ],
-      [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ],
-      [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
-      [ "MR.Const_SaveSettings", "classMR_1_1Const__SaveSettings.html", null ],
-      [ "MR.Const_SceneColors", "classMR_1_1Const__SceneColors.html", null ],
-      [ "MR.Const_SceneRoot", "classMR_1_1Const__SceneRoot.html", null ],
-      [ "MR.Const_SceneSettings", "classMR_1_1Const__SceneSettings.html", null ],
-      [ "MR.Const_SearchPathSettings", "classMR_1_1Const__SearchPathSettings.html", null ],
-      [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],
-      [ "MR.Const_SegmPointf", "classMR_1_1Const__SegmPointf.html", null ],
-      [ "MR.Const_SegmentSegmentIntersectResult", "classMR_1_1Const__SegmentSegmentIntersectResult.html", null ],
-      [ "MR.Const_SeparationPointStorage", "classMR_1_1Const__SeparationPointStorage.html", null ],
-      [ "MR.Const_SeparationPointStorage.Const_Block", "classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html", null ],
-      [ "MR.Const_SetNew", "classMR_1_1Const__SetNew.html", null ],
-      [ "MR.Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html", null ],
-      [ "MR.Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html", null ],
-      [ "MR.Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html", null ],
-      [ "MR.Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html", null ],
-      [ "MR.Const_SignedDistanceToMeshResult", "classMR_1_1Const__SignedDistanceToMeshResult.html", null ],
-      [ "MR.Const_SimpleBinaryVolume", "classMR_1_1Const__SimpleBinaryVolume.html", null ],
-      [ "MR.Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html", null ],
-      [ "MR.Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html", null ],
-      [ "MR.Const_SimpleVolumeMinMaxU16", "classMR_1_1Const__SimpleVolumeMinMaxU16.html", null ],
-      [ "MR.Const_SimpleVolumeU16", "classMR_1_1Const__SimpleVolumeU16.html", null ],
-      [ "MR.Const_SkyPatch", "classMR_1_1Const__SkyPatch.html", null ],
-      [ "MR.Const_SliceInfo", "classMR_1_1Const__SliceInfo.html", null ],
-      [ "MR.Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html", null ],
-      [ "MR.Const_SomeLocalTriangulations", "classMR_1_1Const__SomeLocalTriangulations.html", null ],
-      [ "MR.Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html", null ],
-      [ "MR.Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html", null ],
-      [ "MR.Const_Sphere2d", "classMR_1_1Const__Sphere2d.html", null ],
-      [ "MR.Const_Sphere2f", "classMR_1_1Const__Sphere2f.html", null ],
-      [ "MR.Const_Sphere3d", "classMR_1_1Const__Sphere3d.html", null ],
-      [ "MR.Const_Sphere3f", "classMR_1_1Const__Sphere3f.html", null ],
-      [ "MR.Const_SphereParams", "classMR_1_1Const__SphereParams.html", null ],
-      [ "MR.Const_SplineSettings", "classMR_1_1Const__SplineSettings.html", null ],
-      [ "MR.Const_Src2TgtMaps", "classMR_1_1Const__Src2TgtMaps.html", null ],
-      [ "MR.Const_StitchHolesParams", "classMR_1_1Const__StitchHolesParams.html", null ],
-      [ "MR.Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html", null ],
-      [ "MR.Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html", null ],
-      [ "MR.Const_SymMatrix2b", "classMR_1_1Const__SymMatrix2b.html", null ],
-      [ "MR.Const_SymMatrix2d", "classMR_1_1Const__SymMatrix2d.html", null ],
-      [ "MR.Const_SymMatrix2f", "classMR_1_1Const__SymMatrix2f.html", null ],
-      [ "MR.Const_SymMatrix2i", "classMR_1_1Const__SymMatrix2i.html", null ],
-      [ "MR.Const_SymMatrix2i64", "classMR_1_1Const__SymMatrix2i64.html", null ],
-      [ "MR.Const_SymMatrix3_UnsignedChar", "classMR_1_1Const__SymMatrix3__UnsignedChar.html", null ],
-      [ "MR.Const_SymMatrix3b", "classMR_1_1Const__SymMatrix3b.html", null ],
-      [ "MR.Const_SymMatrix3d", "classMR_1_1Const__SymMatrix3d.html", null ],
-      [ "MR.Const_SymMatrix3f", "classMR_1_1Const__SymMatrix3f.html", null ],
-      [ "MR.Const_SymMatrix3i", "classMR_1_1Const__SymMatrix3i.html", null ],
-      [ "MR.Const_SymMatrix3i64", "classMR_1_1Const__SymMatrix3i64.html", null ],
-      [ "MR.Const_SymMatrix4_UnsignedChar", "classMR_1_1Const__SymMatrix4__UnsignedChar.html", null ],
-      [ "MR.Const_SymMatrix4b", "classMR_1_1Const__SymMatrix4b.html", null ],
-      [ "MR.Const_SymMatrix4d", "classMR_1_1Const__SymMatrix4d.html", null ],
-      [ "MR.Const_SymMatrix4f", "classMR_1_1Const__SymMatrix4f.html", null ],
-      [ "MR.Const_SymMatrix4i", "classMR_1_1Const__SymMatrix4i.html", null ],
-      [ "MR.Const_SymMatrix4i64", "classMR_1_1Const__SymMatrix4i64.html", null ],
-      [ "MR.Const_SymbolMeshParams", "classMR_1_1Const__SymbolMeshParams.html", null ],
-      [ "MR.Const_SystemMemory", "classMR_1_1Const__SystemMemory.html", null ],
-      [ "MR.Const_SystemPath", "classMR_1_1Const__SystemPath.html", null ],
-      [ "MR.Const_TeethMaskToDirectionVolumeConvertor", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html", null ],
-      [ "MR.Const_TeethMaskToDirectionVolumeConvertor.Const_ProcessResult", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult.html", null ],
-      [ "MR.Const_TerminalVertex", "classMR_1_1Const__TerminalVertex.html", null ],
-      [ "MR.Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html", null ],
-      [ "MR.Const_TextureBitSet", "classMR_1_1Const__TextureBitSet.html", null ],
-      [ "MR.Const_TextureId", "classMR_1_1Const__TextureId.html", null ],
-      [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ],
-      [ "MR.Const_Tgt2SrcMaps", "classMR_1_1Const__Tgt2SrcMaps.html", null ],
-      [ "MR.Const_ThickenParams", "classMR_1_1Const__ThickenParams.html", null ],
-      [ "MR.Const_TiffParameters", "classMR_1_1Const__TiffParameters.html", null ],
-      [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", null ],
-      [ "MR.Const_ToolPathResult", "classMR_1_1Const__ToolPathResult.html", null ],
-      [ "MR.Const_TransformVdbVolumeResult", "classMR_1_1Const__TransformVdbVolumeResult.html", null ],
-      [ "MR.Const_TransformedMesh", "classMR_1_1Const__TransformedMesh.html", null ],
-      [ "MR.Const_TransparencyMode", "classMR_1_1Const__TransparencyMode.html", null ],
-      [ "MR.Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html", null ],
-      [ "MR.Const_TriIntersectResult", "classMR_1_1Const__TriIntersectResult.html", null ],
-      [ "MR.Const_TriMesh", "classMR_1_1Const__TriMesh.html", null ],
-      [ "MR.Const_TriPointd", "classMR_1_1Const__TriPointd.html", null ],
-      [ "MR.Const_TriPointf", "classMR_1_1Const__TriPointf.html", null ],
-      [ "MR.Const_TriangleSegmentIntersectResult", "classMR_1_1Const__TriangleSegmentIntersectResult.html", null ],
-      [ "MR.Const_Triangulation", "classMR_1_1Const__Triangulation.html", null ],
-      [ "MR.Const_TriangulationParameters", "classMR_1_1Const__TriangulationParameters.html", null ],
-      [ "MR.Const_TrimOptionalOutput", "classMR_1_1Const__TrimOptionalOutput.html", null ],
-      [ "MR.Const_TrimWithPlaneParams", "classMR_1_1Const__TrimWithPlaneParams.html", null ],
-      [ "MR.Const_TrivialMetricToPenalty", "classMR_1_1Const__TrivialMetricToPenalty.html", null ],
-      [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_UiRenderManager", "classMR_1_1Const__UiRenderManager.html", null ],
-      [ "MR.Const_UiRenderParams", "classMR_1_1Const__UiRenderParams.html", null ],
-      [ "MR.Const_UndirEdgeColorMapAggregator", "classMR_1_1Const__UndirEdgeColorMapAggregator.html", null ],
-      [ "MR.Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html", null ],
-      [ "MR.Const_UndirectedEdgeBMap", "classMR_1_1Const__UndirectedEdgeBMap.html", null ],
-      [ "MR.Const_UndirectedEdgeBitSet", "classMR_1_1Const__UndirectedEdgeBitSet.html", null ],
-      [ "MR.Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html", null ],
-      [ "MR.Const_UndirectedEdgeId", "classMR_1_1Const__UndirectedEdgeId.html", null ],
-      [ "MR.Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html", null ],
-      [ "MR.Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html", null ],
-      [ "MR.Const_UndirectedEdgeScalars", "classMR_1_1Const__UndirectedEdgeScalars.html", null ],
-      [ "MR.Const_UndirectedEdgeUndirectedEdge", "classMR_1_1Const__UndirectedEdgeUndirectedEdge.html", null ],
-      [ "MR.Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html", null ],
-      [ "MR.Const_UnionFind_MRFaceId", "classMR_1_1Const__UnionFind__MRFaceId.html", null ],
-      [ "MR.Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_UnionFind_MRVertId", "classMR_1_1Const__UnionFind__MRVertId.html", null ],
-      [ "MR.Const_UniqueTemporaryFolder", "classMR_1_1Const__UniqueTemporaryFolder.html", null ],
-      [ "MR.Const_UniqueThreadSafeOwner_MRAABBTree", "classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTree.html", null ],
-      [ "MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints", "classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints.html", null ],
-      [ "MR.Const_UnitInfo", "classMR_1_1Const__UnitInfo.html", null ],
-      [ "MR.Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html", null ],
-      [ "MR.Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html", null ],
-      [ "MR.Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html", null ],
-      [ "MR.Const_VarEdgeTri.Const_FlaggedTri", "classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri.html", null ],
-      [ "MR.Const_VdbVolume", "classMR_1_1Const__VdbVolume.html", null ],
-      [ "MR.Const_Vector2b", "classMR_1_1Const__Vector2b.html", null ],
-      [ "MR.Const_Vector2d", "classMR_1_1Const__Vector2d.html", null ],
-      [ "MR.Const_Vector2f", "classMR_1_1Const__Vector2f.html", null ],
-      [ "MR.Const_Vector2i", "classMR_1_1Const__Vector2i.html", null ],
-      [ "MR.Const_Vector2i64", "classMR_1_1Const__Vector2i64.html", null ],
-      [ "MR.Const_Vector3_UnsignedChar", "classMR_1_1Const__Vector3__UnsignedChar.html", null ],
-      [ "MR.Const_Vector3b", "classMR_1_1Const__Vector3b.html", null ],
-      [ "MR.Const_Vector3d", "classMR_1_1Const__Vector3d.html", null ],
-      [ "MR.Const_Vector3f", "classMR_1_1Const__Vector3f.html", null ],
-      [ "MR.Const_Vector3i", "classMR_1_1Const__Vector3i.html", null ],
-      [ "MR.Const_Vector3i64", "classMR_1_1Const__Vector3i64.html", null ],
-      [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
-      [ "MR.Const_Vector4b", "classMR_1_1Const__Vector4b.html", null ],
-      [ "MR.Const_Vector4d", "classMR_1_1Const__Vector4d.html", null ],
-      [ "MR.Const_Vector4f", "classMR_1_1Const__Vector4f.html", null ],
-      [ "MR.Const_Vector4i", "classMR_1_1Const__Vector4i.html", null ],
-      [ "MR.Const_Vector4i64", "classMR_1_1Const__Vector4i64.html", null ],
-      [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
-      [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
-      [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
-      [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
-      [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", null ],
-      [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRFanRecord_MRVertId", "classMR_1_1Const__Vector__MRFanRecord__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEndVertices__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html", null ],
-      [ "MR.Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRMeshTexture_MRTextureId", "classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html", null ],
-      [ "MR.Const_Vector_MRModelPointsData_MRObjId", "classMR_1_1Const__Vector__MRModelPointsData__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ],
-      [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
-      [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
-      [ "MR.Const_Vector_MRUint64T_MRGraphVertId", "classMR_1_1Const__Vector__MRUint64T__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
-      [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
-      [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
-      [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ],
-      [ "MR.Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
-      [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ],
-      [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ],
-      [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_UnsignedShort_MRVoxelId", "classMR_1_1Const__Vector__UnsignedShort__MRVoxelId.html", null ],
-      [ "MR.Const_Vert2RegionMap", "classMR_1_1Const__Vert2RegionMap.html", null ],
-      [ "MR.Const_VertBMap", "classMR_1_1Const__VertBMap.html", null ],
-      [ "MR.Const_VertBitSet", "classMR_1_1Const__VertBitSet.html", null ],
-      [ "MR.Const_VertColorMapAggregator", "classMR_1_1Const__VertColorMapAggregator.html", null ],
-      [ "MR.Const_VertColors", "classMR_1_1Const__VertColors.html", null ],
-      [ "MR.Const_VertCoords", "classMR_1_1Const__VertCoords.html", null ],
-      [ "MR.Const_VertCoords2", "classMR_1_1Const__VertCoords2.html", null ],
-      [ "MR.Const_VertCoordsDiff", "classMR_1_1Const__VertCoordsDiff.html", null ],
-      [ "MR.Const_VertDistance", "classMR_1_1Const__VertDistance.html", null ],
-      [ "MR.Const_VertId", "classMR_1_1Const__VertId.html", null ],
-      [ "MR.Const_VertMap", "classMR_1_1Const__VertMap.html", null ],
-      [ "MR.Const_VertPathInfo", "classMR_1_1Const__VertPathInfo.html", null ],
-      [ "MR.Const_VertRenumber", "classMR_1_1Const__VertRenumber.html", null ],
-      [ "MR.Const_VertScalars", "classMR_1_1Const__VertScalars.html", null ],
-      [ "MR.Const_ViewportId", "classMR_1_1Const__ViewportId.html", null ],
-      [ "MR.Const_ViewportIterator", "classMR_1_1Const__ViewportIterator.html", null ],
-      [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ],
-      [ "MR.Const_ViewportProperty_MRAffineXf3f", "classMR_1_1Const__ViewportProperty__MRAffineXf3f.html", null ],
-      [ "MR.Const_ViewportProperty_MRColor", "classMR_1_1Const__ViewportProperty__MRColor.html", null ],
-      [ "MR.Const_ViewportProperty_MRMatrix3f", "classMR_1_1Const__ViewportProperty__MRMatrix3f.html", null ],
-      [ "MR.Const_ViewportProperty_MRVector4UnsignedChar", "classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar.html", null ],
-      [ "MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f", "classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f.html", null ],
-      [ "MR.Const_ViewportProperty_UnsignedChar", "classMR_1_1Const__ViewportProperty__UnsignedChar.html", null ],
-      [ "MR.Const_VolumeIndexer", "classMR_1_1Const__VolumeIndexer.html", null ],
-      [ "MR.Const_VolumeSegmentationParameters", "classMR_1_1Const__VolumeSegmentationParameters.html", null ],
-      [ "MR.Const_VolumeSegmenter", "classMR_1_1Const__VolumeSegmenter.html", null ],
-      [ "MR.Const_VolumeToMeshByPartsSettings", "classMR_1_1Const__VolumeToMeshByPartsSettings.html", null ],
-      [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ],
-      [ "MR.Const_VoxelId", "classMR_1_1Const__VoxelId.html", null ],
-      [ "MR.Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html", null ],
-      [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", null ],
-      [ "MR.Const_VoxelTraits_MRFloatGrid", "classMR_1_1Const__VoxelTraits__MRFloatGrid.html", null ],
-      [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId.html", null ],
-      [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", null ],
-      [ "MR.Const_VoxelTraits_MRVoxelBitSet", "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html", null ],
-      [ "MR.Const_VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionFloatFuncFromConstMRVector3iRef.html", null ],
-      [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef.html", null ],
-      [ "MR.Const_VoxelsVolumeAccessor_MRFunctionVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html", null ],
-      [ "MR.Const_VoxelsVolumeAccessor_MRSimpleVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html", null ],
-      [ "MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax.html", null ],
-      [ "MR.Const_VoxelsVolumeAccessor_MRVdbVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRVdbVolume.html", null ],
-      [ "MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume", "classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume.html", null ],
-      [ "MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax", "classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax.html", null ],
-      [ "MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume", "classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume.html", null ],
-      [ "MR.Const_VoxelsVolume_MRFloatGrid", "classMR_1_1Const__VoxelsVolume__MRFloatGrid.html", null ],
-      [ "MR.Const_WatershedGraph", "classMR_1_1Const__WatershedGraph.html", null ],
-      [ "MR.Const_WatershedGraph.Const_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html", null ],
-      [ "MR.Const_WatershedGraph.Const_BdInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BdInfo.html", null ],
-      [ "MR.Const_WatershedGraph.Const_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint.html", null ],
-      [ "MR.Const_WeightedVertex", "classMR_1_1Const__WeightedVertex.html", null ],
-      [ "MR.Const_WholeEdgeBMap", "classMR_1_1Const__WholeEdgeBMap.html", null ],
-      [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
-      [ "MR.Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html", null ],
-      [ "MR.Const_XfBasedCache_MRBox3f", "classMR_1_1Const__XfBasedCache__MRBox3f.html", null ],
-      [ "MR.Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html", null ],
-      [ "MR.Const_ZeroOnMove_MRUint64T", "classMR_1_1Const__ZeroOnMove__MRUint64T.html", null ],
-      [ "MR.Features.Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html", null ],
-      [ "MR.Features.Const_MeasureResult.Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html", null ],
-      [ "MR.Features.Const_MeasureResult.Const_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart.html", null ],
-      [ "MR.Features.Const_MeasureResult.Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html", null ],
-      [ "MR.Features.Const_SubfeatureInfo", "classMR_1_1Features_1_1Const__SubfeatureInfo.html", null ],
-      [ "MR.Features.Primitives.Const_ConeSegment", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html", null ],
-      [ "MR.Features.Primitives.Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html", null ],
-      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html", null ],
-      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html", null ],
-      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html", null ],
-      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html", null ],
-      [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html", null ],
-      [ "MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html", null ],
-      [ "MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesConeSegment.html", null ],
-      [ "MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html", null ],
-      [ "MR.Features.Traits.Const_Unary_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html", null ],
-      [ "MR.FillingSurface.CellularSurface.Const_Params", "classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params.html", null ],
-      [ "MR.FillingSurface.TPMS.Const_MeshParams", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams.html", null ],
-      [ "MR.FillingSurface.TPMS.Const_VolumeParams", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams.html", null ],
-      [ "MR.FixUndercuts.Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html", null ],
-      [ "MR.FixUndercuts.Const_FindParams", "classMR_1_1FixUndercuts_1_1Const__FindParams.html", null ],
-      [ "MR.FixUndercuts.Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html", null ],
-      [ "MR.FixUndercuts.Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html", null ],
       [ "MR.Matrix3_Bool.Const_QR", "classMR_1_1Matrix3__Bool_1_1Const__QR.html", null ],
       [ "MR.Matrix3_Double.Const_QR", "classMR_1_1Matrix3__Double_1_1Const__QR.html", null ],
       [ "MR.Matrix3_Float.Const_QR", "classMR_1_1Matrix3__Float_1_1Const__QR.html", null ],
       [ "MR.Matrix3_Int.Const_QR", "classMR_1_1Matrix3__Int_1_1Const__QR.html", null ],
-      [ "MR.Matrix3_MRInt64T.Const_QR", "classMR_1_1Matrix3__MRInt64T_1_1Const__QR.html", null ],
-      [ "MR.MeshBuilder.Const_BuildSettings", "classMR_1_1MeshBuilder_1_1Const__BuildSettings.html", null ],
-      [ "MR.MeshBuilder.Const_EqualVector3f", "classMR_1_1MeshBuilder_1_1Const__EqualVector3f.html", null ],
-      [ "MR.MeshBuilder.Const_MeshPiece", "classMR_1_1MeshBuilder_1_1Const__MeshPiece.html", null ],
-      [ "MR.MeshBuilder.Const_Triangle", "classMR_1_1MeshBuilder_1_1Const__Triangle.html", null ],
-      [ "MR.MeshBuilder.Const_UniteCloseParams", "classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html", null ],
-      [ "MR.MeshBuilder.Const_VertDuplication", "classMR_1_1MeshBuilder_1_1Const__VertDuplication.html", null ],
-      [ "MR.MeshBuilder.Const_VertSpan", "classMR_1_1MeshBuilder_1_1Const__VertSpan.html", null ],
-      [ "MR.MeshBuilder.Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", null ],
-      [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", null ],
-      [ "MR.MeshComponents.Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", null ],
-      [ "MR.MeshLoad.Const_NamedMesh", "classMR_1_1MeshLoad_1_1Const__NamedMesh.html", null ],
-      [ "MR.MeshLoad.Const_ObjLoadSettings", "classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html", null ],
-      [ "MR.MeshSave.Const_BinaryStlSaver", "classMR_1_1MeshSave_1_1Const__BinaryStlSaver.html", null ],
-      [ "MR.MeshSave.Const_CtmSaveOptions", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html", null ],
-      [ "MR.MeshSave.Const_NamedXfMesh", "classMR_1_1MeshSave_1_1Const__NamedXfMesh.html", null ],
-      [ "MR.Misc.SharedObject", "classMR_1_1Misc_1_1SharedObject.html", [
-        [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", null ],
-        [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html", null ],
-        [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html", null ],
-        [ "MR.Const_AngleMeasurementObject", "classMR_1_1Const__AngleMeasurementObject.html", null ],
-        [ "MR.Const_BasicUiRenderTask", "classMR_1_1Const__BasicUiRenderTask.html", null ],
-        [ "MR.Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html", null ],
-        [ "MR.Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html", null ],
-        [ "MR.Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html", null ],
-        [ "MR.Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html", null ],
-        [ "MR.Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html", null ],
-        [ "MR.Const_ChangeGridAction", "classMR_1_1Const__ChangeGridAction.html", null ],
-        [ "MR.Const_ChangeIsoAction", "classMR_1_1Const__ChangeIsoAction.html", null ],
-        [ "MR.Const_ChangeLabelAction", "classMR_1_1Const__ChangeLabelAction.html", null ],
-        [ "MR.Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html", null ],
-        [ "MR.Const_ChangeMeshAction", "classMR_1_1Const__ChangeMeshAction.html", null ],
-        [ "MR.Const_ChangeMeshCreasesAction", "classMR_1_1Const__ChangeMeshCreasesAction.html", null ],
-        [ "MR.Const_ChangeMeshDataAction", "classMR_1_1Const__ChangeMeshDataAction.html", null ],
-        [ "MR.Const_ChangeMeshEdgeSelectionAction", "classMR_1_1Const__ChangeMeshEdgeSelectionAction.html", null ],
-        [ "MR.Const_ChangeMeshFaceSelectionAction", "classMR_1_1Const__ChangeMeshFaceSelectionAction.html", null ],
-        [ "MR.Const_ChangeMeshPointsAction", "classMR_1_1Const__ChangeMeshPointsAction.html", null ],
-        [ "MR.Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html", null ],
-        [ "MR.Const_ChangeMeshTopologyAction", "classMR_1_1Const__ChangeMeshTopologyAction.html", null ],
-        [ "MR.Const_ChangeMeshUVCoordsAction", "classMR_1_1Const__ChangeMeshUVCoordsAction.html", null ],
-        [ "MR.Const_ChangeNameAction", "classMR_1_1Const__ChangeNameAction.html", null ],
-        [ "MR.Const_ChangeObjectAction", "classMR_1_1Const__ChangeObjectAction.html", null ],
-        [ "MR.Const_ChangeObjectColorAction", "classMR_1_1Const__ChangeObjectColorAction.html", null ],
-        [ "MR.Const_ChangeObjectSelectedAction", "classMR_1_1Const__ChangeObjectSelectedAction.html", null ],
-        [ "MR.Const_ChangeObjectVisibilityAction", "classMR_1_1Const__ChangeObjectVisibilityAction.html", null ],
-        [ "MR.Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html", null ],
-        [ "MR.Const_ChangeOnePointInCloudAction", "classMR_1_1Const__ChangeOnePointInCloudAction.html", null ],
-        [ "MR.Const_ChangeOnePointInPolylineAction", "classMR_1_1Const__ChangeOnePointInPolylineAction.html", null ],
-        [ "MR.Const_ChangePointCloudAction", "classMR_1_1Const__ChangePointCloudAction.html", null ],
-        [ "MR.Const_ChangePointCloudNormalsAction", "classMR_1_1Const__ChangePointCloudNormalsAction.html", null ],
-        [ "MR.Const_ChangePointCloudPointsAction", "classMR_1_1Const__ChangePointCloudPointsAction.html", null ],
-        [ "MR.Const_ChangePointPointSelectionAction", "classMR_1_1Const__ChangePointPointSelectionAction.html", null ],
-        [ "MR.Const_ChangePolylineAction", "classMR_1_1Const__ChangePolylineAction.html", null ],
-        [ "MR.Const_ChangePolylinePointsAction", "classMR_1_1Const__ChangePolylinePointsAction.html", null ],
-        [ "MR.Const_ChangePolylineTopologyAction", "classMR_1_1Const__ChangePolylineTopologyAction.html", null ],
-        [ "MR.Const_ChangeScaleAction", "classMR_1_1Const__ChangeScaleAction.html", null ],
-        [ "MR.Const_ChangeSceneAction", "classMR_1_1Const__ChangeSceneAction.html", null ],
-        [ "MR.Const_ChangeSceneObjectsOrder", "classMR_1_1Const__ChangeSceneObjectsOrder.html", null ],
-        [ "MR.Const_ChangeSurfaceAction", "classMR_1_1Const__ChangeSurfaceAction.html", null ],
-        [ "MR.Const_ChangeTextureAction", "classMR_1_1Const__ChangeTextureAction.html", null ],
-        [ "MR.Const_ChangeVisualizePropertyAction", "classMR_1_1Const__ChangeVisualizePropertyAction.html", null ],
-        [ "MR.Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html", null ],
-        [ "MR.Const_CircleObject", "classMR_1_1Const__CircleObject.html", null ],
-        [ "MR.Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html", null ],
-        [ "MR.Const_ConeObject", "classMR_1_1Const__ConeObject.html", null ],
-        [ "MR.Const_CylinderObject", "classMR_1_1Const__CylinderObject.html", null ],
-        [ "MR.Const_DistanceMap", "classMR_1_1Const__DistanceMap.html", null ],
-        [ "MR.Const_DistanceMeasurementObject", "classMR_1_1Const__DistanceMeasurementObject.html", null ],
-        [ "MR.Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html", null ],
-        [ "MR.Const_FeatureObject", "classMR_1_1Const__FeatureObject.html", null ],
-        [ "MR.Const_HistoryAction", "classMR_1_1Const__HistoryAction.html", null ],
-        [ "MR.Const_IFastWindingNumber", "classMR_1_1Const__IFastWindingNumber.html", null ],
-        [ "MR.Const_IPointsToMeshProjector", "classMR_1_1Const__IPointsToMeshProjector.html", null ],
-        [ "MR.Const_LineObject", "classMR_1_1Const__LineObject.html", null ],
-        [ "MR.Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html", null ],
-        [ "MR.Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html", null ],
-        [ "MR.Const_Mesh", "classMR_1_1Const__Mesh.html", null ],
-        [ "MR.Const_Object", "classMR_1_1Const__Object.html", null ],
-        [ "MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectChildrenHolder.html", null ],
-        [ "MR.Const_ObjectComparableWithReference", "classMR_1_1Const__ObjectComparableWithReference.html", null ],
-        [ "MR.Const_ObjectDistanceMap", "classMR_1_1Const__ObjectDistanceMap.html", null ],
-        [ "MR.Const_ObjectGcode", "classMR_1_1Const__ObjectGcode.html", null ],
-        [ "MR.Const_ObjectLabel", "classMR_1_1Const__ObjectLabel.html", null ],
-        [ "MR.Const_ObjectLines", "classMR_1_1Const__ObjectLines.html", null ],
-        [ "MR.Const_ObjectLinesHolder", "classMR_1_1Const__ObjectLinesHolder.html", null ],
-        [ "MR.Const_ObjectMesh", "classMR_1_1Const__ObjectMesh.html", null ],
-        [ "MR.Const_ObjectMeshHolder", "classMR_1_1Const__ObjectMeshHolder.html", null ],
-        [ "MR.Const_ObjectPoints", "classMR_1_1Const__ObjectPoints.html", null ],
-        [ "MR.Const_ObjectPointsHolder", "classMR_1_1Const__ObjectPointsHolder.html", null ],
-        [ "MR.Const_ObjectVoxels", "classMR_1_1Const__ObjectVoxels.html", null ],
-        [ "MR.Const_OpenVdbFloatGrid", "classMR_1_1Const__OpenVdbFloatGrid.html", null ],
-        [ "MR.Const_PartialChangeMeshAction", "classMR_1_1Const__PartialChangeMeshAction.html", null ],
-        [ "MR.Const_PartialChangeMeshDataAction", "classMR_1_1Const__PartialChangeMeshDataAction.html", null ],
-        [ "MR.Const_PartialChangeMeshPointsAction", "classMR_1_1Const__PartialChangeMeshPointsAction.html", null ],
-        [ "MR.Const_PartialChangeMeshTopologyAction", "classMR_1_1Const__PartialChangeMeshTopologyAction.html", null ],
-        [ "MR.Const_PlaneObject", "classMR_1_1Const__PlaneObject.html", null ],
-        [ "MR.Const_PointCloud", "classMR_1_1Const__PointCloud.html", null ],
-        [ "MR.Const_PointMeasurementObject", "classMR_1_1Const__PointMeasurementObject.html", null ],
-        [ "MR.Const_PointObject", "classMR_1_1Const__PointObject.html", null ],
-        [ "MR.Const_PointsToMeshProjector", "classMR_1_1Const__PointsToMeshProjector.html", null ],
-        [ "MR.Const_Polyline3", "classMR_1_1Const__Polyline3.html", null ],
-        [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", null ],
-        [ "MR.Const_RectIndexer", "classMR_1_1Const__RectIndexer.html", null ],
-        [ "MR.Const_SceneRootObject", "classMR_1_1Const__SceneRootObject.html", null ],
-        [ "MR.Const_SphereObject", "classMR_1_1Const__SphereObject.html", null ],
-        [ "MR.Const_VisualObject", "classMR_1_1Const__VisualObject.html", null ],
-        [ "MR.Std.Const_Vector_StdString", "classMR_1_1Std_1_1Const__Vector__StdString.html", null ]
-      ] ],
+      [ "MR.Matrix3_MRInt64T.Const_QR", "classMR_1_1Matrix3__MRInt64T_1_1Const__QR.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_QuadraticForm2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_QuadraticForm2d", "classMR_1_1Const__QuadraticForm2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_QuadraticForm2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_QuadraticForm2f", "classMR_1_1Const__QuadraticForm2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_QuadraticForm3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_QuadraticForm3d", "classMR_1_1Const__QuadraticForm3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_QuadraticForm3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_QuadraticForm3f", "classMR_1_1Const__QuadraticForm3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_QuadricApprox >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_QuadricApprox", "classMR_1_1Const__QuadricApprox.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Quaterniond >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Quaterniond", "classMR_1_1Const__Quaterniond.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Quaternionf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Quaternionf", "classMR_1_1Const__Quaternionf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RawParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.VoxelsLoad.Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RawTiffOutput >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RawTiffOutput", "classMR_1_1Const__RawTiffOutput.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RayOrigin_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RayOrigin_Float", "classMR_1_1Const__RayOrigin__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ReachedVert >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty.Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1Const__ReachedVert.html", null ],
+      [ "MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty.Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1Const__ReachedVert.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RebuildMeshSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RefineParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RefineParameters", "classMR_1_1Const__RefineParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Region >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.WeightedShell.Const_ParametersRegions.Const_Region", "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RegionBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RegionBitSet", "classMR_1_1Const__RegionBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RegularMapMesher >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RegularMapMesher", "classMR_1_1Const__RegularMapMesher.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RelaxParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RelaxParams", "classMR_1_1Const__RelaxParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RemeshSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ResolveMeshDegenSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ResolveMeshDegenSettings", "classMR_1_1Const__ResolveMeshDegenSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Result >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RigidScaleXf3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RigidScaleXf3d", "classMR_1_1Const__RigidScaleXf3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RigidScaleXf3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RigidScaleXf3f", "classMR_1_1Const__RigidScaleXf3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RigidXf3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RigidXf3d", "classMR_1_1Const__RigidXf3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RigidXf3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RigidXf3f", "classMR_1_1Const__RigidXf3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RingIterator_MRNextEdgeSameLeft >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_RingIterator_MRNextEdgeSameOrigin >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SaveSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SaveSettings", "classMR_1_1Const__SaveSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SavingSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.VoxelsSave.Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SceneColors >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SceneColors", "classMR_1_1Const__SceneColors.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SceneRoot >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SceneRoot", "classMR_1_1Const__SceneRoot.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SceneSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SceneSettings", "classMR_1_1Const__SceneSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SearchPathSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SearchPathSettings", "classMR_1_1Const__SearchPathSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SegmentSegmentIntersectResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SegmentSegmentIntersectResult", "classMR_1_1Const__SegmentSegmentIntersectResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SegmPointd >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SegmPointf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SegmPointf", "classMR_1_1Const__SegmPointf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SeparationPointStorage >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SeparationPointStorage", "classMR_1_1Const__SeparationPointStorage.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Set_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Set_StdString", "classMR_1_1Std_1_1Const__Set__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SetNew >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SetNew", "classMR_1_1Const__SetNew.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Settings >", "classMR_1_1Misc_1_1Object.html", [
       [ "MR.ObjectSave.Const_Settings", "classMR_1_1ObjectSave_1_1Const__Settings.html", null ],
-      [ "MR.Parallel.Const_CallSimply", "classMR_1_1Parallel_1_1Const__CallSimply.html", null ],
-      [ "MR.Parallel.Const_CallSimplyMaker", "classMR_1_1Parallel_1_1Const__CallSimplyMaker.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T", "classMR_1_1Phmap_1_1Const__FlatHashMap__Int__MRBox3i__PhmapHashInt32T.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__Int__MRBox3i__PhmapHashInt32T_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__Int__MRBox3i__PhmapHashInt32T_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MREdgeId__MREdgeId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MREdgeId__MREdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MREdgeId__MREdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRFaceId__MRFaceId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRFaceId__MRFaceId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRFaceId__MRFaceId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphEdgeId__MRGraphEdgeId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphEdgeId__MRGraphEdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphEdgeId__MRGraphEdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphVertId__MRGraphVertId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphVertId__MRGraphVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRGraphVertId__MRGraphVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRNodeId_MRNodeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRNodeId__MRNodeId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRNodeId_MRNodeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRNodeId__MRNodeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRNodeId_MRNodeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRNodeId__MRNodeId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRObjId__MRObjId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRObjId__MRObjId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRObjId__MRObjId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRPixelId__MRPixelId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRPixelId__MRPixelId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRPixelId__MRPixelId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRRegionId__MRRegionId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRRegionId__MRRegionId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRRegionId__MRRegionId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRTextureId_MRTextureId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRTextureId__MRTextureId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRTextureId_MRTextureId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRTextureId__MRTextureId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRTextureId_MRTextureId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRTextureId__MRTextureId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUint64T__StdArrayMRVertId3__PhmapHashMRUint64T.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUint64T__StdArrayMRVertId3__PhmapHashMRUint64T_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUint64T_StdArrayMRVertId3_PhmapHashMRUint64T.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUint64T__StdArrayMRVertId3__PhmapHashMRUint64T_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_Int", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__Int.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_Int.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__Int_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_Int.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__Int_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MREdgeId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MREdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MREdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MREdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRUndirectedEdgeId__MRUndirectedEdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_Float", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__Float.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_Float.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__Float_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_Float.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__Float_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRFlowAggregatorFlows.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRFlowAggregatorFlows_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRFlowAggregatorFlows.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRFlowAggregatorFlows_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertPathInfo.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertPathInfo_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVertId__MRVertPathInfo_1_1Const__Iterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId.Const_ConstIterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVoxelId__MRVoxelId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId.Const_Iterator", "classMR_1_1Phmap_1_1Const__FlatHashMap__MRVoxelId__MRVoxelId_1_1Const__Iterator.html", null ],
-      [ "MR.PlanarTriangulation.Const_BaseOutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html", null ],
-      [ "MR.PlanarTriangulation.Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html", null ],
-      [ "MR.PlanarTriangulation.Const_IntersectionsMap", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html", null ],
-      [ "MR.PlanarTriangulation.Const_OutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html", null ],
-      [ "MR.PointsLoad.Const_E57LoadSettings", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html", null ],
-      [ "MR.PointsLoad.Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", null ],
-      [ "MR.PointsSave.Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html", null ],
-      [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", null ],
       [ "MR.SceneLoad.Const_Settings", "classMR_1_1SceneLoad_1_1Const__Settings.html", null ],
       [ "MR.SelfIntersections.Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html", null ],
-      [ "MR.Std.Const_Array_Double_4", "classMR_1_1Std_1_1Const__Array__Double__4.html", null ],
-      [ "MR.Std.Const_Array_Float_4", "classMR_1_1Std_1_1Const__Array__Float__4.html", null ],
-      [ "MR.Std.Const_Array_Int_4", "classMR_1_1Std_1_1Const__Array__Int__4.html", null ],
-      [ "MR.Std.Const_Array_MRAffineXf3d_4", "classMR_1_1Std_1_1Const__Array__MRAffineXf3d__4.html", null ],
-      [ "MR.Std.Const_Array_MRAffineXf3f_4", "classMR_1_1Std_1_1Const__Array__MRAffineXf3f__4.html", null ],
-      [ "MR.Std.Const_Array_MRBooleanResultMapperMaps_2", "classMR_1_1Std_1_1Const__Array__MRBooleanResultMapperMaps__2.html", null ],
-      [ "MR.Std.Const_Array_MRPreciseVertCoords2_3", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords2__3.html", null ],
-      [ "MR.Std.Const_Array_MRPreciseVertCoords2_4", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords2__4.html", null ],
-      [ "MR.Std.Const_Array_MRPreciseVertCoords2_6", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords2__6.html", null ],
-      [ "MR.Std.Const_Array_MRPreciseVertCoords_4", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords__4.html", null ],
-      [ "MR.Std.Const_Array_MRPreciseVertCoords_5", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords__5.html", null ],
-      [ "MR.Std.Const_Array_MRPreciseVertCoords_8", "classMR_1_1Std_1_1Const__Array__MRPreciseVertCoords__8.html", null ],
-      [ "MR.Std.Const_Array_MRSimpleVolumeMinMax_3", "classMR_1_1Std_1_1Const__Array__MRSimpleVolumeMinMax__3.html", null ],
-      [ "MR.Std.Const_Array_MRVector2f_3", "classMR_1_1Std_1_1Const__Array__MRVector2f__3.html", null ],
-      [ "MR.Std.Const_Array_MRVector3f_3", "classMR_1_1Std_1_1Const__Array__MRVector3f__3.html", null ],
-      [ "MR.Std.Const_Array_MRVertId_2", "classMR_1_1Std_1_1Const__Array__MRVertId__2.html", null ],
-      [ "MR.Std.Const_Array_MRVertId_3", "classMR_1_1Std_1_1Const__Array__MRVertId__3.html", null ],
-      [ "MR.Std.Const_Array_MRWeightedVertex_3", "classMR_1_1Std_1_1Const__Array__MRWeightedVertex__3.html", null ],
-      [ "MR.Std.Const_Array_StdFilesystemPath_4", "classMR_1_1Std_1_1Const__Array__StdFilesystemPath__4.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromConstMRMeshIntersectionResultRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRMeshIntersectionResultRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromConstMRMeshProjectionResultRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRMeshProjectionResultRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromConstMRObjectRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRObjectRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromConstStdSharedPtrMRHistoryActionRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromConstStdSharedPtrMRHistoryActionRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromFloat", "classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMREdgeId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMREdgeId.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMREdgeIdConstMRVector2fRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMREdgeIdConstMRVector2fRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMREdgeIdConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMREdgeIdConstMRVector3fRef.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMRFaceId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceId.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMRFaceIdMRFaceId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceIdMRFaceId.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRUint64TMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMRUint64TMRUint64TMRUint64TMRUint64TMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRUint64TMRUint64TMRUint64TMRUint64TMRUint64TMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_BoolFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__BoolFuncFromMRVertId.html", null ],
-      [ "MR.Std.Const_Function_ConstMRFaceBitSetPtrFuncFromMRUint64T", "classMR_1_1Std_1_1Const__Function__ConstMRFaceBitSetPtrFuncFromMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html", null ],
-      [ "MR.Std.Const_Function_DoubleFuncFromDoubleDouble", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromDoubleDouble.html", null ],
-      [ "MR.Std.Const_Function_DoubleFuncFromMRVertIdMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromMRVertIdMRVertIdMRVertId.html", null ],
-      [ "MR.Std.Const_Function_DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId.html", null ],
-      [ "MR.Std.Const_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef", "classMR_1_1Std_1_1Const__Function__ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPat6e7a8bb19efe8dbdc41bbb23a2c1b018.html", null ],
-      [ "MR.Std.Const_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt", "classMR_1_1Std_1_1Const__Function__ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromConstCharPtr", "classMR_1_1Std_1_1Const__Function__FloatFuncFromConstCharPtr.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromConstMRVector3iRef", "classMR_1_1Std_1_1Const__Function__FloatFuncFromConstMRVector3iRef.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef", "classMR_1_1Std_1_1Const__Function__FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffse65c270c58951f444dc6b77b59bca00b8.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromInt", "classMR_1_1Std_1_1Const__Function__FloatFuncFromInt.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromIntInt", "classMR_1_1Std_1_1Const__Function__FloatFuncFromIntInt.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromMREdgeId", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMREdgeId.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromMRUint64T", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUint64TMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromMRUndirectedEdgeId", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUndirectedEdgeId.html", null ],
-      [ "MR.Std.Const_Function_FloatFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__FloatFuncFromMRVertId.html", null ],
-      [ "MR.Std.Const_Function_MRAABBTreeFunc", "classMR_1_1Std_1_1Const__Function__MRAABBTreeFunc.html", null ],
-      [ "MR.Std.Const_Function_MRAABBTreePointsFunc", "classMR_1_1Std_1_1Const__Function__MRAABBTreePointsFunc.html", null ],
-      [ "MR.Std.Const_Function_MRCurvePointFuncFromFloat", "classMR_1_1Std_1_1Const__Function__MRCurvePointFuncFromFloat.html", null ],
-      [ "MR.Std.Const_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef", "classMR_1_1Std_1_1Const__Function__MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef.html", null ],
-      [ "MR.Std.Const_Function_MRMeshOrPointsProjectionResultFuncFromConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__MRMeshOrPointsProjectionResultFuncFromConstMRVector3fRef.html", null ],
-      [ "MR.Std.Const_Function_MRMeshTriPointFuncFromMRUint64T", "classMR_1_1Std_1_1Const__Function__MRMeshTriPointFuncFromMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef", "classMR_1_1Std_1_1Const__Function__MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef.html", null ],
-      [ "MR.Std.Const_Function_MRProcessOneResultFuncFromConstMRVector3fRefMRFaceIdConstMRVector3fRefFloat", "classMR_1_1Std_1_1Const__Function__MRProcessOneResultFuncFromConstMRVector3fRefMRFaceIdConstMRVector3fRefFloat.html", null ],
-      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html", null ],
-      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef.html", null ],
-      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef.html", null ],
-      [ "MR.Std.Const_Function_MRProcessingFuncFromConstMRPointsProjectionResultRefConstMRVector3fRefMRBall3fRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMRPointsProjectionResultRefConstMRVector3fRefMRBall3fRef.html", null ],
-      [ "MR.Std.Const_Function_MRProcessingFuncFromMRFaceIdMRBall3fRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromMRFaceIdMRBall3fRef.html", null ],
-      [ "MR.Std.Const_Function_MRVector2fFuncFromConstMRVector2iRef", "classMR_1_1Std_1_1Const__Function__MRVector2fFuncFromConstMRVector2iRef.html", null ],
-      [ "MR.Std.Const_Function_MRVector2iFuncFromConstMRVector2fRef", "classMR_1_1Std_1_1Const__Function__MRVector2iFuncFromConstMRVector2fRef.html", null ],
-      [ "MR.Std.Const_Function_MRVector3fFuncFromConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromConstMRVector3fRef.html", null ],
-      [ "MR.Std.Const_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat.html", null ],
-      [ "MR.Std.Const_Function_MRVector3fFuncFromConstMRVector3iRef", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromConstMRVector3iRef.html", null ],
-      [ "MR.Std.Const_Function_MRVector3fFuncFromMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromMRUint64TMRUint64T.html", null ],
-      [ "MR.Std.Const_Function_MRVector3fFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__MRVector3fFuncFromMRVertId.html", null ],
-      [ "MR.Std.Const_Function_MRVector3iFuncFromConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__MRVector3iFuncFromConstMRVector3fRef.html", null ],
-      [ "MR.Std.Const_Function_StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId", "classMR_1_1Std_1_1Const__Function__StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId.html", null ],
-      [ "MR.Std.Const_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef", "classMR_1_1Std_1_1Const__Function__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturese13519b84c8aa4dac754d2a930d9881b.html", null ],
-      [ "MR.Std.Const_Function_UnsignedCharFuncFromConstMRVector3iRef", "classMR_1_1Std_1_1Const__Function__UnsignedCharFuncFromConstMRVector3iRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFunc", "classMR_1_1Std_1_1Const__Function__VoidFunc.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromConstMREdgePointRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMREdgePointRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRFeaturesSubfeatureInfoRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRefMRObjIdRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRVector3fRefMRMeshOrPointsProjectionResultRefMRObjIdRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromConstStdFilesystemPathRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstStdFilesystemPathRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromConstStdVariantFloatMRVector3fRefMRFeatureObjectPtrMRViewportId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstStdVariantFloatMRVector3fRefMRFeatureObjectPtrMRViewportId.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromInt", "classMR_1_1Std_1_1Const__Function__VoidFuncFromInt.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRAABBTreePointsRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRAABBTreePointsRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRAABBTreeRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRAABBTreeRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMREdgeIdMREdgeId.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeIdFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMREdgeIdMREdgeIdFloat.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRGraphEdgeIdMRGraphEdgeId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRGraphEdgeIdMRGraphEdgeId.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRMeshRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRMeshRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRMeshRefConstMRPartMappingRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRMeshRefConstMRPartMappingRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRMeshRefFloatFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRMeshRefFloatFloat.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRObjIdMRMeshOrPointsProjectionResult", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRObjIdMRMeshOrPointsProjectionResult.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRPdfRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRPdfRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRSceneLoadResult.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRSignDetectionMode", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRSignDetectionMode.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdConstMRVector2fRefFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdConstMRVector2fRefFloat.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdConstMRVector3fRefFloat", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdConstMRVector3fRefFloat.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRVertId", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRVertId.html", null ],
-      [ "MR.Std.Const_Function_VoidFuncFromMRVertIdConstMRVector3fRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromMRVertIdConstMRVector3fRef.html", null ],
-      [ "MR.Std.Const_Istream", "classMR_1_1Std_1_1Const__Istream.html", [
-        [ "MR.Std.Istream", "classMR_1_1Std_1_1Istream.html", null ]
-      ] ],
-      [ "MR.Std.Const_Optional_Double", "classMR_1_1Std_1_1Const__Optional__Double.html", null ],
-      [ "MR.Std.Const_Optional_Float", "classMR_1_1Std_1_1Const__Optional__Float.html", null ],
-      [ "MR.Std.Const_Optional_MRAllLocalTriangulations", "classMR_1_1Std_1_1Const__Optional__MRAllLocalTriangulations.html", null ],
-      [ "MR.Std.Const_Optional_MRBox1f", "classMR_1_1Std_1_1Const__Optional__MRBox1f.html", null ],
-      [ "MR.Std.Const_Optional_MRBox3f", "classMR_1_1Std_1_1Const__Optional__MRBox3f.html", null ],
-      [ "MR.Std.Const_Optional_MRColor", "classMR_1_1Std_1_1Const__Optional__MRColor.html", null ],
-      [ "MR.Std.Const_Optional_MRDentalId", "classMR_1_1Std_1_1Const__Optional__MRDentalId.html", null ],
-      [ "MR.Std.Const_Optional_MRDimensionsVisualizePropertyType", "classMR_1_1Std_1_1Const__Optional__MRDimensionsVisualizePropertyType.html", null ],
-      [ "MR.Std.Const_Optional_MREdges", "classMR_1_1Std_1_1Const__Optional__MREdges.html", null ],
-      [ "MR.Std.Const_Optional_MRFaceScalars", "classMR_1_1Std_1_1Const__Optional__MRFaceScalars.html", null ],
-      [ "MR.Std.Const_Optional_MRIOFilter", "classMR_1_1Std_1_1Const__Optional__MRIOFilter.html", null ],
-      [ "MR.Std.Const_Optional_MRLengthUnit", "classMR_1_1Std_1_1Const__Optional__MRLengthUnit.html", null ],
-      [ "MR.Std.Const_Optional_MRMesh", "classMR_1_1Std_1_1Const__Optional__MRMesh.html", null ],
-      [ "MR.Std.Const_Optional_MRMeshOrPoints", "classMR_1_1Std_1_1Const__Optional__MRMeshOrPoints.html", null ],
-      [ "MR.Std.Const_Optional_MRMeshOrPointsXf", "classMR_1_1Std_1_1Const__Optional__MRMeshOrPointsXf.html", null ],
-      [ "MR.Std.Const_Optional_MRObjectComparableWithReferenceComparableProperty", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparableProperty.html", null ],
-      [ "MR.Std.Const_Optional_MRObjectComparableWithReferenceComparisonTolerance", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html", null ],
-      [ "MR.Std.Const_Optional_MRObjectMeshData", "classMR_1_1Std_1_1Const__Optional__MRObjectMeshData.html", null ],
-      [ "MR.Std.Const_Optional_MRPointCloud", "classMR_1_1Std_1_1Const__Optional__MRPointCloud.html", null ],
-      [ "MR.Std.Const_Optional_MRPolylineIntersectionResult2", "classMR_1_1Std_1_1Const__Optional__MRPolylineIntersectionResult2.html", null ],
-      [ "MR.Std.Const_Optional_MRSignedDistanceToMeshResult", "classMR_1_1Std_1_1Const__Optional__MRSignedDistanceToMeshResult.html", null ],
-      [ "MR.Std.Const_Optional_MRTriIntersectResult", "classMR_1_1Std_1_1Const__Optional__MRTriIntersectResult.html", null ],
-      [ "MR.Std.Const_Optional_MRTriangulation", "classMR_1_1Std_1_1Const__Optional__MRTriangulation.html", null ],
-      [ "MR.Std.Const_Optional_MRVector2f", "classMR_1_1Std_1_1Const__Optional__MRVector2f.html", null ],
-      [ "MR.Std.Const_Optional_MRVector3f", "classMR_1_1Std_1_1Const__Optional__MRVector3f.html", null ],
-      [ "MR.Std.Const_Optional_MRVector3i", "classMR_1_1Std_1_1Const__Optional__MRVector3i.html", null ],
-      [ "MR.Std.Const_Optional_MRVertBitSet", "classMR_1_1Std_1_1Const__Optional__MRVertBitSet.html", null ],
-      [ "MR.Std.Const_Optional_MRVertCoords", "classMR_1_1Std_1_1Const__Optional__MRVertCoords.html", null ],
-      [ "MR.Std.Const_Optional_MRVertCoords2", "classMR_1_1Std_1_1Const__Optional__MRVertCoords2.html", null ],
-      [ "MR.Std.Const_Optional_MRVertMap", "classMR_1_1Std_1_1Const__Optional__MRVertMap.html", null ],
-      [ "MR.Std.Const_Optional_MRVertScalars", "classMR_1_1Std_1_1Const__Optional__MRVertScalars.html", null ],
-      [ "MR.Std.Const_Optional_StdString", "classMR_1_1Std_1_1Const__Optional__StdString.html", null ],
-      [ "MR.Std.Const_Optional_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Optional__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html", null ],
-      [ "MR.Std.Const_Optional_StdVectorMRObjVertId", "classMR_1_1Std_1_1Const__Optional__StdVectorMRObjVertId.html", null ],
-      [ "MR.Std.Const_Optional_StdVectorMRSomeLocalTriangulations", "classMR_1_1Std_1_1Const__Optional__StdVectorMRSomeLocalTriangulations.html", null ],
-      [ "MR.Std.Const_Ostream", "classMR_1_1Std_1_1Const__Ostream.html", [
-        [ "MR.Std.Ostream", "classMR_1_1Std_1_1Ostream.html", null ]
-      ] ],
-      [ "MR.Std.Const_Pair_Bool_Int", "classMR_1_1Std_1_1Const__Pair__Bool__Int.html", null ],
-      [ "MR.Std.Const_Pair_Double_Int", "classMR_1_1Std_1_1Const__Pair__Double__Int.html", null ],
-      [ "MR.Std.Const_Pair_Float_Float", "classMR_1_1Std_1_1Const__Pair__Float__Float.html", null ],
-      [ "MR.Std.Const_Pair_Float_MRVertId", "classMR_1_1Std_1_1Const__Pair__Float__MRVertId.html", null ],
-      [ "MR.Std.Const_Pair_Int_Int", "classMR_1_1Std_1_1Const__Pair__Int__Int.html", null ],
-      [ "MR.Std.Const_Pair_MRDistanceMap_MRDistanceMap", "classMR_1_1Std_1_1Const__Pair__MRDistanceMap__MRDistanceMap.html", null ],
-      [ "MR.Std.Const_Pair_MREdgeId_MREdgeId", "classMR_1_1Std_1_1Const__Pair__MREdgeId__MREdgeId.html", null ],
-      [ "MR.Std.Const_Pair_MRFace2RegionMap_Int", "classMR_1_1Std_1_1Const__Pair__MRFace2RegionMap__Int.html", null ],
-      [ "MR.Std.Const_Pair_MRFaceBitSet_Int", "classMR_1_1Std_1_1Const__Pair__MRFaceBitSet__Int.html", null ],
-      [ "MR.Std.Const_Pair_MRFaceBitSet_MRFaceBitSet", "classMR_1_1Std_1_1Const__Pair__MRFaceBitSet__MRFaceBitSet.html", null ],
-      [ "MR.Std.Const_Pair_MRFaceId_Bool", "classMR_1_1Std_1_1Const__Pair__MRFaceId__Bool.html", null ],
-      [ "MR.Std.Const_Pair_MRGraphEdgeId_Float", "classMR_1_1Std_1_1Const__Pair__MRGraphEdgeId__Float.html", null ],
-      [ "MR.Std.Const_Pair_MRPolyline2_MRAffineXf3f", "classMR_1_1Std_1_1Const__Pair__MRPolyline2__MRAffineXf3f.html", null ],
-      [ "MR.Std.Const_Pair_MRUint64T_MRUint64T", "classMR_1_1Std_1_1Const__Pair__MRUint64T__MRUint64T.html", null ],
-      [ "MR.Std.Const_Pair_MRUndirectedEdgeBitSet_MRUndirectedEdgeBitSet", "classMR_1_1Std_1_1Const__Pair__MRUndirectedEdgeBitSet__MRUndirectedEdgeBitSet.html", null ],
-      [ "MR.Std.Const_Pair_MRUndirectedEdgeId_Bool", "classMR_1_1Std_1_1Const__Pair__MRUndirectedEdgeId__Bool.html", null ],
-      [ "MR.Std.Const_Pair_MRVector3d_MRVector3d", "classMR_1_1Std_1_1Const__Pair__MRVector3d__MRVector3d.html", null ],
-      [ "MR.Std.Const_Pair_MRVector3f_MRVector3f", "classMR_1_1Std_1_1Const__Pair__MRVector3f__MRVector3f.html", null ],
-      [ "MR.Std.Const_Pair_MRVertId_Bool", "classMR_1_1Std_1_1Const__Pair__MRVertId__Bool.html", null ],
-      [ "MR.Std.Const_Pair_MRVertId_MRVertId", "classMR_1_1Std_1_1Const__Pair__MRVertId__MRVertId.html", null ],
-      [ "MR.Std.Const_Pair_StdString_Float", "classMR_1_1Std_1_1Const__Pair__StdString__Float.html", null ],
-      [ "MR.Std.Const_Pair_StdVectorMRFaceBitSet_Int", "classMR_1_1Std_1_1Const__Pair__StdVectorMRFaceBitSet__Int.html", null ],
-      [ "MR.Std.Const_Pair_StdVectorMRUndirectedEdgeBitSet_Int", "classMR_1_1Std_1_1Const__Pair__StdVectorMRUndirectedEdgeBitSet__Int.html", null ],
-      [ "MR.Std.Const_Pair_StdVectorMRVertBitSet_Int", "classMR_1_1Std_1_1Const__Pair__StdVectorMRVertBitSet__Int.html", null ],
-      [ "MR.Std.Const_Set_StdString", "classMR_1_1Std_1_1Const__Set__StdString.html", null ],
-      [ "MR.Std.Const_Set_StdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Set__StdString_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_SharedPtr_ConstVoid", "classMR_1_1Std_1_1Const__SharedPtr__ConstVoid.html", null ],
-      [ "MR.Std.Const_SharedPtr_Void", "classMR_1_1Std_1_1Const__SharedPtr__Void.html", null ],
-      [ "MR.Std.Const_String", "classMR_1_1Std_1_1Const__String.html", null ],
-      [ "MR.Std.Const_StringView", "classMR_1_1Std_1_1Const__StringView.html", null ],
-      [ "MR.Std.Const_UnorderedSet_StdString", "classMR_1_1Std_1_1Const__UnorderedSet__StdString.html", null ],
-      [ "MR.Std.Const_UnorderedSet_StdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__UnorderedSet__StdString_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Variant_Float_MRVector3f", "classMR_1_1Std_1_1Const__Variant__Float__MRVector3f.html", null ],
-      [ "MR.Std.Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html", null ],
-      [ "MR.Std.Const_Variant_MREdgeMap_PhmapFlatHashMapMREdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Variant__MREdgeMap__PhmapFlatHashMapMREdgeIdMREdgeId.html", null ],
-      [ "MR.Std.Const_Variant_MRFaceId_MREdgeId_MRVertId", "classMR_1_1Std_1_1Const__Variant__MRFaceId__MREdgeId__MRVertId.html", null ],
-      [ "MR.Std.Const_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Const__Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html", null ],
-      [ "MR.Std.Const_Variant_MRPdfBuildinFont_StdFilesystemPath", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html", null ],
-      [ "MR.Std.Const_Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6", "classMR_1_1Std_1_1Const__Variant__MRPolynomialDouble0__MRPolynomialDouble1__MRPolynomialDouble2_fdb3a73944b3c2b11f7ddbf0513468bb.html", null ],
-      [ "MR.Std.Const_Variant_MRPolynomialFloat0_MRPolynomialFloat1_MRPolynomialFloat2_MRPolynomialFloat3_MRPolynomialFloat4_MRPolynomialFloat5_MRPolynomialFloat6", "classMR_1_1Std_1_1Const__Variant__MRPolynomialFloat0__MRPolynomialFloat1__MRPolynomialFloat2__MR6d82d80c34302196b02cf9f9351fb472.html", null ],
-      [ "MR.Std.Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html", null ],
-      [ "MR.Std.Const_Variant_MRUndirectedEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMRUndirectedEdgeId", "classMR_1_1Std_1_1Const__Variant__MRUndirectedEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMRUndirectedEdgeId.html", null ],
-      [ "MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html", null ],
-      [ "MR.Std.Const_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html", null ],
-      [ "MR.Std.Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html", null ],
-      [ "MR.Std.Const_Vector_Char", "classMR_1_1Std_1_1Const__Vector__Char.html", null ],
-      [ "MR.Std.Const_Vector_Char.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Char_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_Char.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Char_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_ConstMRMeshPtr", "classMR_1_1Std_1_1Const__Vector__ConstMRMeshPtr.html", null ],
-      [ "MR.Std.Const_Vector_ConstMRMeshPtr.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__ConstMRMeshPtr_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_ConstMRMeshPtr.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__ConstMRMeshPtr_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_Double", "classMR_1_1Std_1_1Const__Vector__Double.html", null ],
-      [ "MR.Std.Const_Vector_Double.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Double_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_Double.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Double_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString.html", null ],
-      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeStdString.html", null ],
-      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeStdString_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeStdString_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_Float", "classMR_1_1Std_1_1Const__Vector__Float.html", null ],
-      [ "MR.Std.Const_Vector_Float.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Float_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_Float.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Float_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_Int", "classMR_1_1Std_1_1Const__Vector__Int.html", null ],
-      [ "MR.Std.Const_Vector_Int.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__Int_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_Int.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__Int_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreePointsNode", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsNode.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreePointsNode.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsNode_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreePointsNode.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsNode_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreePointsPoint", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsPoint.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreePointsPoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsPoint_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAABBTreePointsPoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsPoint_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAffineXf3f", "classMR_1_1Std_1_1Const__Vector__MRAffineXf3f.html", null ],
-      [ "MR.Std.Const_Vector_MRAffineXf3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAffineXf3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRAffineXf3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRAffineXf3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName", "classMR_1_1Std_1_1Const__Vector__MRCNCMachineSettingsRotationAxisName.html", null ],
-      [ "MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRCNCMachineSettingsRotationAxisName_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRCNCMachineSettingsRotationAxisName_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRColor", "classMR_1_1Std_1_1Const__Vector__MRColor.html", null ],
-      [ "MR.Std.Const_Vector_MRColor.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRColor_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRColor.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRColor_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRCurvePoint", "classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html", null ],
-      [ "MR.Std.Const_Vector_MRCurvePoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRCurvePoint_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRCurvePoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRCurvePoint_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRDipole", "classMR_1_1Std_1_1Const__Vector__MRDipole.html", null ],
-      [ "MR.Std.Const_Vector_MRDipole.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRDipole_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRDipole.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRDipole_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeBitSet", "classMR_1_1Std_1_1Const__Vector__MREdgeBitSet.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeBitSet_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeBitSet_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeId", "classMR_1_1Std_1_1Const__Vector__MREdgeId.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgePoint", "classMR_1_1Std_1_1Const__Vector__MREdgePoint.html", null ],
-      [ "MR.Std.Const_Vector_MREdgePoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgePoint_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgePoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgePoint_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgePointPair", "classMR_1_1Std_1_1Const__Vector__MREdgePointPair.html", null ],
-      [ "MR.Std.Const_Vector_MREdgePointPair.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgePointPair_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgePointPair.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgePointPair_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeSegment", "classMR_1_1Std_1_1Const__Vector__MREdgeSegment.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeSegment.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeSegment_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeSegment.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeSegment_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeTri", "classMR_1_1Std_1_1Const__Vector__MREdgeTri.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeTri.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MREdgeTri_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MREdgeTri.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MREdgeTri_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceBitSet", "classMR_1_1Std_1_1Const__Vector__MRFaceBitSet.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceBitSet_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceBitSet_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceFace", "classMR_1_1Std_1_1Const__Vector__MRFaceFace.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceFace.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFace_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceFace.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFace_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceFaceFace", "classMR_1_1Std_1_1Const__Vector__MRFaceFaceFace.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceFaceFace.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFaceFace_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceFaceFace.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceFaceFace_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceId", "classMR_1_1Std_1_1Const__Vector__MRFaceId.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFaceId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFaceId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFaceId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFanRecord", "classMR_1_1Std_1_1Const__Vector__MRFanRecord.html", null ],
-      [ "MR.Std.Const_Vector_MRFanRecord.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecord_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFanRecord.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecord_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFanRecordWithCenter", "classMR_1_1Std_1_1Const__Vector__MRFanRecordWithCenter.html", null ],
-      [ "MR.Std.Const_Vector_MRFanRecordWithCenter.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecordWithCenter_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFanRecordWithCenter.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFanRecordWithCenter_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFeatureObjectSharedProperty", "classMR_1_1Std_1_1Const__Vector__MRFeatureObjectSharedProperty.html", null ],
-      [ "MR.Std.Const_Vector_MRFeatureObjectSharedProperty.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFeatureObjectSharedProperty_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFeatureObjectSharedProperty.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFeatureObjectSharedProperty_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFillHoleItem", "classMR_1_1Std_1_1Const__Vector__MRFillHoleItem.html", null ],
-      [ "MR.Std.Const_Vector_MRFillHoleItem.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFillHoleItem_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFillHoleItem.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFillHoleItem_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFloatGrid", "classMR_1_1Std_1_1Const__Vector__MRFloatGrid.html", null ],
-      [ "MR.Std.Const_Vector_MRFloatGrid.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFloatGrid_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFloatGrid.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFloatGrid_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFlowOrigin", "classMR_1_1Std_1_1Const__Vector__MRFlowOrigin.html", null ],
-      [ "MR.Std.Const_Vector_MRFlowOrigin.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRFlowOrigin_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRFlowOrigin.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRFlowOrigin_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGCommand", "classMR_1_1Std_1_1Const__Vector__MRGCommand.html", null ],
-      [ "MR.Std.Const_Vector_MRGCommand.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGCommand_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGCommand.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGCommand_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGcodeProcessorCommand", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorCommand.html", null ],
-      [ "MR.Std.Const_Vector_MRGcodeProcessorCommand.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorCommand_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGcodeProcessorCommand.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorCommand_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGcodeProcessorMoveAction", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorMoveAction.html", null ],
-      [ "MR.Std.Const_Vector_MRGcodeProcessorMoveAction.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorMoveAction_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGcodeProcessorMoveAction.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorMoveAction_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphEdgeId", "classMR_1_1Std_1_1Const__Vector__MRGraphEdgeId.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphEdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphEdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphEndVertices", "classMR_1_1Std_1_1Const__Vector__MRGraphEndVertices.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphEndVertices.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEndVertices_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphEndVertices.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGraphEndVertices_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphVertId", "classMR_1_1Std_1_1Const__Vector__MRGraphVertId.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRGraphVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRGraphVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRGraphVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement", "classMR_1_1Std_1_1Const__Vector__MRHeapFloatMRGraphVertIdStdGreaterFloatElement.html", null ],
-      [ "MR.Std.Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRHeapFloatMRGraphVertIdStdGreaterFloatElement_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRHeapFloatMRGraphVertIdStdGreaterFloatElement_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRHoleFillPlan", "classMR_1_1Std_1_1Const__Vector__MRHoleFillPlan.html", null ],
-      [ "MR.Std.Const_Vector_MRHoleFillPlan.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRHoleFillPlan_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRHoleFillPlan.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRHoleFillPlan_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRICPGroupPair", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPair.html", null ],
-      [ "MR.Std.Const_Vector_MRICPGroupPair.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPair_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRICPGroupPair.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPair_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRICPGroupPairs", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPairs.html", null ],
-      [ "MR.Std.Const_Vector_MRICPGroupPairs.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPairs_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRICPGroupPairs.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPairs_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRIOFilter", "classMR_1_1Std_1_1Const__Vector__MRIOFilter.html", null ],
-      [ "MR.Std.Const_Vector_MRIOFilter.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRIOFilter_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRIOFilter.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRIOFilter_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Std.Const_Vector_MRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRLine3MeshDouble", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshDouble.html", null ],
-      [ "MR.Std.Const_Vector_MRLine3MeshDouble.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshDouble_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRLine3MeshDouble.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshDouble_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRLine3MeshFloat", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshFloat.html", null ],
-      [ "MR.Std.Const_Vector_MRLine3MeshFloat.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshFloat_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRLine3MeshFloat.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshFloat_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRLineSegm3f", "classMR_1_1Std_1_1Const__Vector__MRLineSegm3f.html", null ],
-      [ "MR.Std.Const_Vector_MRLineSegm3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRLineSegm3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRLineSegm3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRLineSegm3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMesh", "classMR_1_1Std_1_1Const__Vector__MRMesh.html", null ],
-      [ "MR.Std.Const_Vector_MRMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMesh_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMesh_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderMeshPiece", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderMeshPiece.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderMeshPiece.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderMeshPiece_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderMeshPiece.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderMeshPiece_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderVertDuplication", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertDuplication.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderVertDuplication.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertDuplication_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderVertDuplication.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertDuplication_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderVertSpan", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertSpan.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderVertSpan.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertSpan_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshBuilderVertSpan.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertSpan_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshIntersectionResult", "classMR_1_1Std_1_1Const__Vector__MRMeshIntersectionResult.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshIntersectionResult.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshIntersectionResult_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshIntersectionResult.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshIntersectionResult_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshLoadNamedMesh", "classMR_1_1Std_1_1Const__Vector__MRMeshLoadNamedMesh.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshLoadNamedMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshLoadNamedMesh_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshLoadNamedMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshLoadNamedMesh_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshOrPointsXf", "classMR_1_1Std_1_1Const__Vector__MRMeshOrPointsXf.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshOrPointsXf.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshOrPointsXf_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshOrPointsXf.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshOrPointsXf_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshProjectionResult", "classMR_1_1Std_1_1Const__Vector__MRMeshProjectionResult.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshProjectionResult.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshProjectionResult_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshProjectionResult.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshProjectionResult_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshSaveNamedXfMesh", "classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshSaveNamedXfMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshSaveNamedXfMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshTexture", "classMR_1_1Std_1_1Const__Vector__MRMeshTexture.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshTexture.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTexture_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshTexture.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTexture_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshTriPoint", "classMR_1_1Std_1_1Const__Vector__MRMeshTriPoint.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshTriPoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTriPoint_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRMeshTriPoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRMeshTriPoint_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRModelPointsData", "classMR_1_1Std_1_1Const__Vector__MRModelPointsData.html", null ],
-      [ "MR.Std.Const_Vector_MRModelPointsData.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRModelPointsData_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRModelPointsData.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRModelPointsData_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRNodeId", "classMR_1_1Std_1_1Const__Vector__MRNodeId.html", null ],
-      [ "MR.Std.Const_Vector_MRNodeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRNodeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRNodeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRNodeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRObjId", "classMR_1_1Std_1_1Const__Vector__MRObjId.html", null ],
-      [ "MR.Std.Const_Vector_MRObjId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRObjId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRObjId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRObjId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRObjVertId", "classMR_1_1Std_1_1Const__Vector__MRObjVertId.html", null ],
-      [ "MR.Std.Const_Vector_MRObjVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRObjVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRObjVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRObjVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MROffsetContoursOrigins", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins.html", null ],
-      [ "MR.Std.Const_Vector_MROffsetContoursOrigins.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MROffsetContoursOrigins.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MROneMeshContour", "classMR_1_1Std_1_1Const__Vector__MROneMeshContour.html", null ],
-      [ "MR.Std.Const_Vector_MROneMeshContour.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshContour_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MROneMeshContour.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshContour_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MROneMeshIntersection", "classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection.html", null ],
-      [ "MR.Std.Const_Vector_MROneMeshIntersection.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MROneMeshIntersection.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPdfCell", "classMR_1_1Std_1_1Const__Vector__MRPdfCell.html", null ],
-      [ "MR.Std.Const_Vector_MRPdfCell.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPdfCell_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPdfCell.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPdfCell_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPdfPaletteRowStats", "classMR_1_1Std_1_1Const__Vector__MRPdfPaletteRowStats.html", null ],
-      [ "MR.Std.Const_Vector_MRPdfPaletteRowStats.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPdfPaletteRowStats_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPdfPaletteRowStats.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPdfPaletteRowStats_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPixelId", "classMR_1_1Std_1_1Const__Vector__MRPixelId.html", null ],
-      [ "MR.Std.Const_Vector_MRPixelId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPixelId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPixelId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPixelId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo", "classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo.html", null ],
-      [ "MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPointPair", "classMR_1_1Std_1_1Const__Vector__MRPointPair.html", null ],
-      [ "MR.Std.Const_Vector_MRPointPair.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPointPair_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPointPair.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPointPair_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPointsLoadNamedCloud", "classMR_1_1Std_1_1Const__Vector__MRPointsLoadNamedCloud.html", null ],
-      [ "MR.Std.Const_Vector_MRPointsLoadNamedCloud.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPointsLoadNamedCloud_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPointsLoadNamedCloud.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPointsLoadNamedCloud_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPointsProjectionResult", "classMR_1_1Std_1_1Const__Vector__MRPointsProjectionResult.html", null ],
-      [ "MR.Std.Const_Vector_MRPointsProjectionResult.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRPointsProjectionResult_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRPointsProjectionResult.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRPointsProjectionResult_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRQuadraticForm2f", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm2f.html", null ],
-      [ "MR.Std.Const_Vector_MRQuadraticForm2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm2f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRQuadraticForm2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm2f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRQuadraticForm3f", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm3f.html", null ],
-      [ "MR.Std.Const_Vector_MRQuadraticForm3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRQuadraticForm3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRRegionId", "classMR_1_1Std_1_1Const__Vector__MRRegionId.html", null ],
-      [ "MR.Std.Const_Vector_MRRegionId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRRegionId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRRegionId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRRegionId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRRigidXf3d", "classMR_1_1Std_1_1Const__Vector__MRRigidXf3d.html", null ],
-      [ "MR.Std.Const_Vector_MRRigidXf3d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRRigidXf3d_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRRigidXf3d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRRigidXf3d_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRSkyPatch", "classMR_1_1Std_1_1Const__Vector__MRSkyPatch.html", null ],
-      [ "MR.Std.Const_Vector_MRSkyPatch.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSkyPatch_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRSkyPatch.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRSkyPatch_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRSliceInfo", "classMR_1_1Std_1_1Const__Vector__MRSliceInfo.html", null ],
-      [ "MR.Std.Const_Vector_MRSliceInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSliceInfo_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRSliceInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRSliceInfo_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRSomeLocalTriangulations", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations.html", null ],
-      [ "MR.Std.Const_Vector_MRSomeLocalTriangulations.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRSomeLocalTriangulations.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRTextureId", "classMR_1_1Std_1_1Const__Vector__MRTextureId.html", null ],
-      [ "MR.Std.Const_Vector_MRTextureId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRTextureId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRTextureId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRTextureId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRTriPointf", "classMR_1_1Std_1_1Const__Vector__MRTriPointf.html", null ],
-      [ "MR.Std.Const_Vector_MRTriPointf.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRTriPointf_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRTriPointf.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRTriPointf_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUint64T", "classMR_1_1Std_1_1Const__Vector__MRUint64T.html", null ],
-      [ "MR.Std.Const_Vector_MRUint64T.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUint64T_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUint64T.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUint64T_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeBitSet", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeBitSet.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeBitSet_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeBitSet_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeId", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeId.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeUndirectedEdge", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeUndirectedEdge.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeUndirectedEdge.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeUndirectedEdge_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUndirectedEdgeUndirectedEdge.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeUndirectedEdge_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUnorientedTriangle", "classMR_1_1Std_1_1Const__Vector__MRUnorientedTriangle.html", null ],
-      [ "MR.Std.Const_Vector_MRUnorientedTriangle.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRUnorientedTriangle_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRUnorientedTriangle.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRUnorientedTriangle_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVarEdgeTri", "classMR_1_1Std_1_1Const__Vector__MRVarEdgeTri.html", null ],
-      [ "MR.Std.Const_Vector_MRVarEdgeTri.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVarEdgeTri_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVarEdgeTri.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVarEdgeTri_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVdbVolume", "classMR_1_1Std_1_1Const__Vector__MRVdbVolume.html", null ],
-      [ "MR.Std.Const_Vector_MRVdbVolume.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVdbVolume_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVdbVolume.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVdbVolume_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector2d", "classMR_1_1Std_1_1Const__Vector__MRVector2d.html", null ],
-      [ "MR.Std.Const_Vector_MRVector2d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector2d_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector2d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector2d_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector2f", "classMR_1_1Std_1_1Const__Vector__MRVector2f.html", null ],
-      [ "MR.Std.Const_Vector_MRVector2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector2f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector2f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3d", "classMR_1_1Std_1_1Const__Vector__MRVector3d.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector3d_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector3d_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3f", "classMR_1_1Std_1_1Const__Vector__MRVector3f.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3i", "classMR_1_1Std_1_1Const__Vector__MRVector3i.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3i.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVector3i_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVector3i.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVector3i_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVertBitSet", "classMR_1_1Std_1_1Const__Vector__MRVertBitSet.html", null ],
-      [ "MR.Std.Const_Vector_MRVertBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVertBitSet_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVertBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVertBitSet_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVertId", "classMR_1_1Std_1_1Const__Vector__MRVertId.html", null ],
-      [ "MR.Std.Const_Vector_MRVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRViewportMask", "classMR_1_1Std_1_1Const__Vector__MRViewportMask.html", null ],
-      [ "MR.Std.Const_Vector_MRViewportMask.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRViewportMask_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRViewportMask.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRViewportMask_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVoxelBitSet", "classMR_1_1Std_1_1Const__Vector__MRVoxelBitSet.html", null ],
-      [ "MR.Std.Const_Vector_MRVoxelBitSet.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelBitSet_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVoxelBitSet.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelBitSet_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVoxelId", "classMR_1_1Std_1_1Const__Vector__MRVoxelId.html", null ],
-      [ "MR.Std.Const_Vector_MRVoxelId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRVoxelId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRVoxelId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphBasinInfo", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphBasinInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphBasinInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphBdInfo", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBdInfo.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphBdInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBdInfo_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphBdInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBdInfo_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphOverflowPoint", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphOverflowPoint.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphOverflowPoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphOverflowPoint_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWatershedGraphOverflowPoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphOverflowPoint_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion", "classMR_1_1Std_1_1Const__Vector__MRWeightedShellParametersRegionsRegion.html", null ],
-      [ "MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWeightedShellParametersRegionsRegion_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__MRWeightedShellParametersRegionsRegion_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVector2f3", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector2f3.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVector2f3.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector2f3_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVector2f3.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector2f3_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVector3f3", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector3f3.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVector3f3.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector3f3_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVector3f3.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector3f3_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVertId2", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId2.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVertId2.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId2_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVertId2.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId2_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVertId3", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId3.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVertId3.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId3_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayMRVertId3.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId3_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayStdFilesystemPath4", "classMR_1_1Std_1_1Const__Vector__StdArrayStdFilesystemPath4.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayStdFilesystemPath4.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdArrayStdFilesystemPath4_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdArrayStdFilesystemPath4.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdArrayStdFilesystemPath4_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdFilesystemPath", "classMR_1_1Std_1_1Const__Vector__StdFilesystemPath.html", null ],
-      [ "MR.Std.Const_Vector_StdFilesystemPath.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdFilesystemPath_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdFilesystemPath.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdFilesystemPath_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairDoubleInt", "classMR_1_1Std_1_1Const__Vector__StdPairDoubleInt.html", null ],
-      [ "MR.Std.Const_Vector_StdPairDoubleInt.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairDoubleInt_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairDoubleInt.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairDoubleInt_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMREdgeIdMREdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMREdgeIdMREdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMREdgeIdMREdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMREdgeIdMREdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Vector__StdPairMRUint64TMRUint64T.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRUint64TMRUint64T.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRUint64TMRUint64T_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRUint64TMRUint64T.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRUint64TMRUint64T_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRVector3fMRVector3f", "classMR_1_1Std_1_1Const__Vector__StdPairMRVector3fMRVector3f.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRVector3fMRVector3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVector3fMRVector3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRVector3fMRVector3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVector3fMRVector3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Vector__StdPairMRVertIdMRVertId.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRVertIdMRVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVertIdMRVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairMRVertIdMRVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairMRVertIdMRVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairStdStringFloat", "classMR_1_1Std_1_1Const__Vector__StdPairStdStringFloat.html", null ],
-      [ "MR.Std.Const_Vector_StdPairStdStringFloat.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdPairStdStringFloat_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdPairStdStringFloat.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdPairStdStringFloat_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrConstMRObject", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrConstMRObject.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrConstMRObject.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrConstMRObject_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrConstMRObject.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrConstMRObject_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRBasicUiRenderTask", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRBasicUiRenderTask.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRBasicUiRenderTask.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRBasicUiRenderTask_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRBasicUiRenderTask.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRBasicUiRenderTask_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRHistoryAction", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRHistoryAction.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRHistoryAction.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRHistoryAction_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRHistoryAction.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRHistoryAction_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRMesh", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRMesh.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRMesh_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRMesh_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObject", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObject.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObject.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObject_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObject.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObject_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectLines", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectLines.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectLines.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectLines_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectLines.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectLines_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectMesh", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectMesh.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectMesh.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectMesh_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectMesh.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectMesh_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectPoints", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectPoints.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectPoints.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectPoints_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectPoints.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectPoints_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectVoxels", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectVoxels.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectVoxels.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectVoxels_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectVoxels.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectVoxels_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdString.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdString_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdString.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdString_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html", null ],
-      [ "MR.Std.Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr3c29cbb0049f24d1ae382abff8cb8b1a.html", null ],
-      [ "MR.Std.Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMREdgeId", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgeId.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMREdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMREdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMREdgePoint", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgePoint.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMREdgePoint.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgePoint_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMREdgePoint.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgePoint_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRGraphEdgeId", "classMR_1_1Std_1_1Const__Vector__StdVectorMRGraphEdgeId.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRGraphEdgeId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRGraphEdgeId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRGraphEdgeId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRGraphEdgeId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRObjVertId", "classMR_1_1Std_1_1Const__Vector__StdVectorMRObjVertId.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRObjVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRObjVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRObjVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRObjVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMROffsetContoursOrigins", "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMROffsetContoursOrigins.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMROffsetContoursOrigins.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo", "classMR_1_1Std_1_1Const__Vector__StdVectorMRPlanarTriangulationIntersectionInfo.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRPlanarTriangulationIntersectionInfo_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRPlanarTriangulationIntersectionInfo_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVarEdgeTri", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVarEdgeTri.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVarEdgeTri.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVarEdgeTri_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVarEdgeTri.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVarEdgeTri_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector2d", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2d.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector2d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2d_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector2d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2d_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector2f", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector2f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector2f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector3d", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3d.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector3d.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3d_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector3d.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3d_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector3f", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3f.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector3f.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3f_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVector3f.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3f_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVertId", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVertId.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVertId.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVertId_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_StdVectorMRVertId.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVertId_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_UnsignedChar", "classMR_1_1Std_1_1Const__Vector__UnsignedChar.html", null ],
-      [ "MR.Std.Const_Vector_UnsignedChar.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__UnsignedChar_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_UnsignedChar.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__UnsignedChar_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Const_Vector_UnsignedShort", "classMR_1_1Std_1_1Const__Vector__UnsignedShort.html", null ],
-      [ "MR.Std.Const_Vector_UnsignedShort.Const_ConstIterator", "classMR_1_1Std_1_1Const__Vector__UnsignedShort_1_1Const__ConstIterator.html", null ],
-      [ "MR.Std.Const_Vector_UnsignedShort.Const_Iterator", "classMR_1_1Std_1_1Const__Vector__UnsignedShort_1_1Const__Iterator.html", null ],
-      [ "MR.Std.Filesystem.Const_Path", "classMR_1_1Std_1_1Filesystem_1_1Const__Path.html", null ],
-      [ "MR.TriangulationHelpers.Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html", null ],
-      [ "MR.TriangulationHelpers.Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html", null ],
-      [ "MR.TriangulationHelpers.Const_TriangulatedFanData", "classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData.html", null ],
-      [ "MR.VoxelsLoad.Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", null ],
-      [ "MR.VoxelsLoad.Const_DicomVolume", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume.html", null ],
-      [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", null ],
-      [ "MR.VoxelsLoad.Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", null ],
-      [ "MR.VoxelsLoad.Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", null ],
-      [ "MR.VoxelsSave.Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html", null ],
-      [ "MR.WeightedShell.Const_DistanceVolumeCreationParams", "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html", null ],
-      [ "MR.WeightedShell.Const_ParametersBase", "classMR_1_1WeightedShell_1_1Const__ParametersBase.html", null ],
-      [ "MR.WeightedShell.Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html", null ],
-      [ "MR.WeightedShell.Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html", null ],
-      [ "MR.WeightedShell.Const_ParametersRegions.Const_Region", "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html", null ]
+      [ "MR.TriangulationHelpers.Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SharedPtr_ConstVoid >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_SharedPtr_ConstVoid", "classMR_1_1Std_1_1Const__SharedPtr__ConstVoid.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SharedPtr_Void >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_SharedPtr_Void", "classMR_1_1Std_1_1Const__SharedPtr__Void.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SharpenMarchingCubesMeshSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SharpOffsetParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ShellVertexInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SignedDistanceToMeshOptions >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SignedDistanceToMeshResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SignedDistanceToMeshResult", "classMR_1_1Const__SignedDistanceToMeshResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SimpleBinaryVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SimpleBinaryVolume", "classMR_1_1Const__SimpleBinaryVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SimpleVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SimpleVolumeMinMax >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SimpleVolumeMinMaxU16 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SimpleVolumeMinMaxU16", "classMR_1_1Const__SimpleVolumeMinMaxU16.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SimpleVolumeU16 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SimpleVolumeU16", "classMR_1_1Const__SimpleVolumeU16.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SimulationStep >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_PrecipitationSimulator.Const_SimulationStep", "classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SkyPatch >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SkyPatch", "classMR_1_1Const__SkyPatch.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SliceInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SliceInfo", "classMR_1_1Const__SliceInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SliceInfoBase >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SomeLocalTriangulations >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SomeLocalTriangulations", "classMR_1_1Const__SomeLocalTriangulations.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SortIntersectionsData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SpacingSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Sphere2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Sphere2d", "classMR_1_1Const__Sphere2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Sphere2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Sphere2f", "classMR_1_1Const__Sphere2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Sphere3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Sphere3d", "classMR_1_1Const__Sphere3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Sphere3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Sphere3f", "classMR_1_1Const__Sphere3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SphereParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SphereParams", "classMR_1_1Const__SphereParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SplineSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SplineSettings", "classMR_1_1Const__SplineSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Src2TgtMaps >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Src2TgtMaps", "classMR_1_1Const__Src2TgtMaps.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Stabilizer >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_MultiwayAligningTransform.Const_Stabilizer", "classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_StitchHolesParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_StitchHolesParams", "classMR_1_1Const__StitchHolesParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_String >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_String", "classMR_1_1Std_1_1Const__String.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_StringView >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_StringView", "classMR_1_1Std_1_1Const__StringView.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SubdivideSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SubfeatureInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Const_SubfeatureInfo", "classMR_1_1Features_1_1Const__SubfeatureInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SurfaceDistanceBuilder >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymbolMeshParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymbolMeshParams", "classMR_1_1Const__SymbolMeshParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix2b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix2b", "classMR_1_1Const__SymMatrix2b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix2d", "classMR_1_1Const__SymMatrix2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix2f", "classMR_1_1Const__SymMatrix2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix2i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix2i", "classMR_1_1Const__SymMatrix2i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix2i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix2i64", "classMR_1_1Const__SymMatrix2i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix3_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix3_UnsignedChar", "classMR_1_1Const__SymMatrix3__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix3b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix3b", "classMR_1_1Const__SymMatrix3b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix3d", "classMR_1_1Const__SymMatrix3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix3f", "classMR_1_1Const__SymMatrix3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix3i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix3i", "classMR_1_1Const__SymMatrix3i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix3i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix3i64", "classMR_1_1Const__SymMatrix3i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix4_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix4_UnsignedChar", "classMR_1_1Const__SymMatrix4__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix4b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix4b", "classMR_1_1Const__SymMatrix4b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix4d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix4d", "classMR_1_1Const__SymMatrix4d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix4f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix4f", "classMR_1_1Const__SymMatrix4f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix4i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix4i", "classMR_1_1Const__SymMatrix4i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SymMatrix4i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SymMatrix4i64", "classMR_1_1Const__SymMatrix4i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SystemMemory >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SystemMemory", "classMR_1_1Const__SystemMemory.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_SystemPath >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_SystemPath", "classMR_1_1Const__SystemPath.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TeethMaskToDirectionVolumeConvertor >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TeethMaskToDirectionVolumeConvertor", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TerminalVertex >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TerminalVertex", "classMR_1_1Const__TerminalVertex.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TextCellParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TextMeshAlignParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TextParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Pdf.Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TextureBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TextureBitSet", "classMR_1_1Const__TextureBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TexturePerFace >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Tgt2SrcMaps >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Tgt2SrcMaps", "classMR_1_1Const__Tgt2SrcMaps.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ThickenParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ThickenParams", "classMR_1_1Const__ThickenParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TiffParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TiffParameters", "classMR_1_1Const__TiffParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ToolPathParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ToolPathResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ToolPathResult", "classMR_1_1Const__ToolPathResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TransformedMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TransformedMesh", "classMR_1_1Const__TransformedMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TransformVdbVolumeResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TransformVdbVolumeResult", "classMR_1_1Const__TransformVdbVolumeResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TransparencyMode >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TransparencyMode", "classMR_1_1Const__TransparencyMode.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Triangle >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_Triangle", "classMR_1_1MeshBuilder_1_1Const__Triangle.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriangleSegmentIntersectResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriangleSegmentIntersectResult", "classMR_1_1Const__TriangleSegmentIntersectResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriangulatedFanData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.TriangulationHelpers.Const_TriangulatedFanData", "classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Triangulation >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Triangulation", "classMR_1_1Const__Triangulation.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriangulationParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriangulationParameters", "classMR_1_1Const__TriangulationParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriCornerUVCoords >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriIntersectResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriIntersectResult", "classMR_1_1Const__TriIntersectResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriMesh", "classMR_1_1Const__TriMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TrimOptionalOutput >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TrimOptionalOutput", "classMR_1_1Const__TrimOptionalOutput.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TrimWithPlaneParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TrimWithPlaneParams", "classMR_1_1Const__TrimWithPlaneParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriPointd >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriPointd", "classMR_1_1Const__TriPointd.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TriPointf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TriPointf", "classMR_1_1Const__TriPointf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TrivialMetricToPenalty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TrivialMetricToPenalty", "classMR_1_1Const__TrivialMetricToPenalty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_TypedBitSet_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UiRenderManager >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UiRenderManager", "classMR_1_1Const__UiRenderManager.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UiRenderParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UiRenderParams", "classMR_1_1Const__UiRenderParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Unary_MRFeaturesPrimitivesConeSegment >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesConeSegment.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Unary_MRFeaturesPrimitivesPlane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Unary_MRSphere3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Features.Traits.Const_Unary_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdge2RegionMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeBitSet", "classMR_1_1Const__UndirectedEdgeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeBMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeBMap", "classMR_1_1Const__UndirectedEdgeBMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeColors >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeScalars >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeScalars", "classMR_1_1Const__UndirectedEdgeScalars.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirectedEdgeUndirectedEdge >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirectedEdgeUndirectedEdge", "classMR_1_1Const__UndirectedEdgeUndirectedEdge.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UndirEdgeColorMapAggregator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UndirEdgeColorMapAggregator", "classMR_1_1Const__UndirEdgeColorMapAggregator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UniformSamplingSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UnionFind_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UnionFind_MRFaceId", "classMR_1_1Const__UnionFind__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UnionFind_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UnionFind_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UnionFind_MRVertId", "classMR_1_1Const__UnionFind__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UniqueTemporaryFolder >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UniqueTemporaryFolder", "classMR_1_1Const__UniqueTemporaryFolder.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UniqueThreadSafeOwner_MRAABBTree >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UniqueThreadSafeOwner_MRAABBTree", "classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTree.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UniqueThreadSafeOwner_MRAABBTreePoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints", "classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UniteCloseParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_UniteCloseParams", "classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UniteManyMeshesParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UnitInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UnitInfo", "classMR_1_1Const__UnitInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UnorderedSet_StdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_UnorderedSet_StdString", "classMR_1_1Std_1_1Const__UnorderedSet__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_UnorientedTriangle >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VarEdgeTri >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_Float_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_Float_MRVector3f", "classMR_1_1Std_1_1Const__Variant__Float__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MREdgeMap_PhmapFlatHashMapMREdgeIdMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MREdgeMap_PhmapFlatHashMapMREdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Variant__MREdgeMap__PhmapFlatHashMapMREdgeIdMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRFaceId_MREdgeId_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRFaceId_MREdgeId_MRVertId", "classMR_1_1Std_1_1Const__Variant__MRFaceId__MREdgeId__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Const__Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRPdfBuildinFont_StdFilesystemPath >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRPdfBuildinFont_StdFilesystemPath", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6", "classMR_1_1Std_1_1Const__Variant__MRPolynomialDouble0__MRPolynomialDouble1__MRPolynomialDouble2_fdb3a73944b3c2b11f7ddbf0513468bb.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRPolynomialFloat0_MRPolynomialFloat1_MRPolynomialFloat2_MRPolynomialFloat3_MRPolynomialFloat4_MRPolynomialFloat5_MRPolynomialFloat6 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRPolynomialFloat0_MRPolynomialFloat1_MRPolynomialFloat2_MRPolynomialFloat3_MRPolynomialFloat4_MRPolynomialFloat5_MRPolynomialFloat6", "classMR_1_1Std_1_1Const__Variant__MRPolynomialFloat0__MRPolynomialFloat1__MRPolynomialFloat2__MR6d82d80c34302196b02cf9f9351fb472.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRUndirectedEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRUndirectedEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMRUndirectedEdgeId", "classMR_1_1Std_1_1Const__Variant__MRUndirectedEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VdbVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VdbVolume", "classMR_1_1Const__VdbVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector3_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector3_UnsignedChar", "classMR_1_1Const__Vector3__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector4_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Char >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_Char", "classMR_1_1Std_1_1Const__Vector__Char.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Char_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_ConstMRMeshPtr >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_ConstMRMeshPtr", "classMR_1_1Std_1_1Const__Vector__ConstMRMeshPtr.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Double >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_Double", "classMR_1_1Std_1_1Const__Vector__Double.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Double_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_ExpectedMRVoxelsLoadDicomVolumeStdString", "classMR_1_1Std_1_1Const__Vector__ExpectedMRVoxelsLoadDicomVolumeStdString.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Float >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_Float", "classMR_1_1Std_1_1Const__Vector__Float.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Float_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_Int", "classMR_1_1Std_1_1Const__Vector__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Int_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Int_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_Int_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRObjTreeTraits >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreePointsNode >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAABBTreePointsNode", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsNode.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreePointsNode_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAABBTreePointsPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAABBTreePointsPoint", "classMR_1_1Std_1_1Const__Vector__MRAABBTreePointsPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAffineXf3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRAffineXf3f", "classMR_1_1Std_1_1Const__Vector__MRAffineXf3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRAffineXf3f_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRCNCMachineSettingsRotationAxisName >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName", "classMR_1_1Std_1_1Const__Vector__MRCNCMachineSettingsRotationAxisName.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRColor >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRColor", "classMR_1_1Std_1_1Const__Vector__MRColor.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRCurvePoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRCurvePoint", "classMR_1_1Std_1_1Const__Vector__MRCurvePoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRDipole >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRDipole", "classMR_1_1Std_1_1Const__Vector__MRDipole.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MREdgeBitSet", "classMR_1_1Std_1_1Const__Vector__MREdgeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MREdgeId", "classMR_1_1Std_1_1Const__Vector__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgeId_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgeId_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgePoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MREdgePoint", "classMR_1_1Std_1_1Const__Vector__MREdgePoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgePointPair >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MREdgePointPair", "classMR_1_1Std_1_1Const__Vector__MREdgePointPair.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgeSegment >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MREdgeSegment", "classMR_1_1Std_1_1Const__Vector__MREdgeSegment.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MREdgeTri >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MREdgeTri", "classMR_1_1Std_1_1Const__Vector__MREdgeTri.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFaceBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFaceBitSet", "classMR_1_1Std_1_1Const__Vector__MRFaceBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFaceBitSet_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFaceFace >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFaceFace", "classMR_1_1Std_1_1Const__Vector__MRFaceFace.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFaceFaceFace >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFaceFaceFace", "classMR_1_1Std_1_1Const__Vector__MRFaceFaceFace.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFaceId", "classMR_1_1Std_1_1Const__Vector__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFanRecord >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFanRecord", "classMR_1_1Std_1_1Const__Vector__MRFanRecord.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFanRecord_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRFanRecord_MRVertId", "classMR_1_1Const__Vector__MRFanRecord__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFanRecordWithCenter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFanRecordWithCenter", "classMR_1_1Std_1_1Const__Vector__MRFanRecordWithCenter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFeatureObjectSharedProperty >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFeatureObjectSharedProperty", "classMR_1_1Std_1_1Const__Vector__MRFeatureObjectSharedProperty.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFillHoleItem >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFillHoleItem", "classMR_1_1Std_1_1Const__Vector__MRFillHoleItem.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFloatGrid >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFloatGrid", "classMR_1_1Std_1_1Const__Vector__MRFloatGrid.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRFlowOrigin >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRFlowOrigin", "classMR_1_1Std_1_1Const__Vector__MRFlowOrigin.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGcodeProcessorCommand >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRGcodeProcessorCommand", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorCommand.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGcodeProcessorMoveAction >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRGcodeProcessorMoveAction", "classMR_1_1Std_1_1Const__Vector__MRGcodeProcessorMoveAction.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGCommand >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRGCommand", "classMR_1_1Std_1_1Const__Vector__MRGCommand.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRGraphEdgeId", "classMR_1_1Std_1_1Const__Vector__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGraphEdgeId_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGraphEndVertices >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRGraphEndVertices", "classMR_1_1Std_1_1Const__Vector__MRGraphEndVertices.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGraphEndVertices_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEndVertices__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRGraphVertId", "classMR_1_1Std_1_1Const__Vector__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRGraphVertId_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement", "classMR_1_1Std_1_1Const__Vector__MRHeapFloatMRGraphVertIdStdGreaterFloatElement.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRHoleFillPlan >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRHoleFillPlan", "classMR_1_1Std_1_1Const__Vector__MRHoleFillPlan.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRICPGroupPair >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRICPGroupPair", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPair.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRICPGroupPairs >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRICPGroupPairs", "classMR_1_1Std_1_1Const__Vector__MRICPGroupPairs.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRIOFilter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRIOFilter", "classMR_1_1Std_1_1Const__Vector__MRIOFilter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRLine3MeshDouble >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRLine3MeshDouble", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshDouble.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRLine3MeshFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRLine3MeshFloat", "classMR_1_1Std_1_1Const__Vector__MRLine3MeshFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRLineSegm3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRLineSegm3f", "classMR_1_1Std_1_1Const__Vector__MRLineSegm3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMesh", "classMR_1_1Std_1_1Const__Vector__MRMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshBuilderMeshPiece >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshBuilderMeshPiece", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderMeshPiece.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshBuilderVertDuplication >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshBuilderVertDuplication", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertDuplication.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshBuilderVertSpan >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshBuilderVertSpan", "classMR_1_1Std_1_1Const__Vector__MRMeshBuilderVertSpan.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshBuilderVertSpan_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshIntersectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshIntersectionResult", "classMR_1_1Std_1_1Const__Vector__MRMeshIntersectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshLoadNamedMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshLoadNamedMesh", "classMR_1_1Std_1_1Const__Vector__MRMeshLoadNamedMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshOrPointsXf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshOrPointsXf", "classMR_1_1Std_1_1Const__Vector__MRMeshOrPointsXf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshOrPointsXf_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshProjectionResult", "classMR_1_1Std_1_1Const__Vector__MRMeshProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshSaveNamedXfMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshSaveNamedXfMesh", "classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshTexture >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshTexture", "classMR_1_1Std_1_1Const__Vector__MRMeshTexture.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshTexture_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRMeshTexture_MRTextureId", "classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRMeshTriPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRMeshTriPoint", "classMR_1_1Std_1_1Const__Vector__MRMeshTriPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRModelPointsData >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRModelPointsData", "classMR_1_1Std_1_1Const__Vector__MRModelPointsData.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRModelPointsData_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRModelPointsData_MRObjId", "classMR_1_1Const__Vector__MRModelPointsData__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRNodeId", "classMR_1_1Std_1_1Const__Vector__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRNodeId_MRNodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRObjId", "classMR_1_1Std_1_1Const__Vector__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRObjVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRObjVertId", "classMR_1_1Std_1_1Const__Vector__MRObjVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MROffsetContoursOrigins >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MROffsetContoursOrigins", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MROneMeshContour >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MROneMeshContour", "classMR_1_1Std_1_1Const__Vector__MROneMeshContour.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MROneMeshIntersection >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MROneMeshIntersection", "classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPdfCell >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPdfCell", "classMR_1_1Std_1_1Const__Vector__MRPdfCell.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPdfPaletteRowStats >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPdfPaletteRowStats", "classMR_1_1Std_1_1Const__Vector__MRPdfPaletteRowStats.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPixelId", "classMR_1_1Std_1_1Const__Vector__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPixelId_MRPixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPlanarTriangulationIntersectionInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo", "classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPointPair >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPointPair", "classMR_1_1Std_1_1Const__Vector__MRPointPair.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPointsLoadNamedCloud >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPointsLoadNamedCloud", "classMR_1_1Std_1_1Const__Vector__MRPointsLoadNamedCloud.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRPointsProjectionResult >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRPointsProjectionResult", "classMR_1_1Std_1_1Const__Vector__MRPointsProjectionResult.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRQuadraticForm2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRQuadraticForm2f", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRQuadraticForm2f_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRQuadraticForm3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRQuadraticForm3f", "classMR_1_1Std_1_1Const__Vector__MRQuadraticForm3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRQuadraticForm3f_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRRegionId", "classMR_1_1Std_1_1Const__Vector__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRRegionId_MRRegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRRigidXf3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRRigidXf3d", "classMR_1_1Std_1_1Const__Vector__MRRigidXf3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRSkyPatch >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRSkyPatch", "classMR_1_1Std_1_1Const__Vector__MRSkyPatch.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRSliceInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRSliceInfo", "classMR_1_1Std_1_1Const__Vector__MRSliceInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRSomeLocalTriangulations >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRSomeLocalTriangulations", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRTextureId", "classMR_1_1Std_1_1Const__Vector__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRTextureId_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRTriPointf >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRTriPointf", "classMR_1_1Std_1_1Const__Vector__MRTriPointf.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRUint64T", "classMR_1_1Std_1_1Const__Vector__MRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRUint64T_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRUint64T_MRGraphVertId", "classMR_1_1Const__Vector__MRUint64T__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRUndirectedEdgeBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeBitSet", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRUndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeId", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRUndirectedEdgeUndirectedEdge >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRUndirectedEdgeUndirectedEdge", "classMR_1_1Std_1_1Const__Vector__MRUndirectedEdgeUndirectedEdge.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRUnorientedTriangle >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRUnorientedTriangle", "classMR_1_1Std_1_1Const__Vector__MRUnorientedTriangle.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVarEdgeTri >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVarEdgeTri", "classMR_1_1Std_1_1Const__Vector__MRVarEdgeTri.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVdbVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVdbVolume", "classMR_1_1Std_1_1Const__Vector__MRVdbVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVector2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVector2d", "classMR_1_1Std_1_1Const__Vector__MRVector2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVector2f", "classMR_1_1Std_1_1Const__Vector__MRVector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVector3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVector3d", "classMR_1_1Std_1_1Const__Vector__MRVector3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVector3f", "classMR_1_1Std_1_1Const__Vector__MRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVector3i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVector3i", "classMR_1_1Std_1_1Const__Vector__MRVector3i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag", "classMR_1_1Std_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVertBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVertBitSet", "classMR_1_1Std_1_1Const__Vector__MRVertBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVertBitSet_MRObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVertId", "classMR_1_1Std_1_1Const__Vector__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVertId_MREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRViewportMask >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRViewportMask", "classMR_1_1Std_1_1Const__Vector__MRViewportMask.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVoxelBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVoxelBitSet", "classMR_1_1Std_1_1Const__Vector__MRVoxelBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRVoxelId", "classMR_1_1Std_1_1Const__Vector__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVoxelId_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRVoxelId_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRWatershedGraphBasinInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRWatershedGraphBasinInfo", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRWatershedGraphBdInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRWatershedGraphBdInfo", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBdInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRWatershedGraphOverflowPoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRWatershedGraphOverflowPoint", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphOverflowPoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_MRWeightedShellParametersRegionsRegion >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion", "classMR_1_1Std_1_1Const__Vector__MRWeightedShellParametersRegionsRegion.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdArrayMRVector2f3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdArrayMRVector2f3", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector2f3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdArrayMRVector3f3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdArrayMRVector3f3", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVector3f3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdArrayMRVector3f3_MRFaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdArrayMRVertId2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdArrayMRVertId2", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdArrayMRVertId3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdArrayMRVertId3", "classMR_1_1Std_1_1Const__Vector__StdArrayMRVertId3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdArrayStdFilesystemPath4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdArrayStdFilesystemPath4", "classMR_1_1Std_1_1Const__Vector__StdArrayStdFilesystemPath4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdFilesystemPath >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdFilesystemPath", "classMR_1_1Std_1_1Const__Vector__StdFilesystemPath.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdFilesystemPath_MRTextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdPairDoubleInt >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdPairDoubleInt", "classMR_1_1Std_1_1Const__Vector__StdPairDoubleInt.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdPairMREdgeIdMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Std_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdPairMRUint64TMRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdPairMRUint64TMRUint64T", "classMR_1_1Std_1_1Const__Vector__StdPairMRUint64TMRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdPairMRVector3fMRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdPairMRVector3fMRVector3f", "classMR_1_1Std_1_1Const__Vector__StdPairMRVector3fMRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdPairMRVertIdMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdPairMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Vector__StdPairMRVertIdMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdPairStdStringFloat >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdPairStdStringFloat", "classMR_1_1Std_1_1Const__Vector__StdPairStdStringFloat.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrConstMRObject >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrConstMRObject", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrConstMRObject.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRBasicUiRenderTask >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRBasicUiRenderTask", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRBasicUiRenderTask.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRHistoryAction >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRHistoryAction", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRHistoryAction.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRMesh", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRObject >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObject", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObject.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRObjectLines >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectLines", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectLines.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRObjectMesh >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectMesh", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectMesh.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRObjectPoints >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectPoints", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectPoints.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdSharedPtrMRObjectVoxels >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdSharedPtrMRObjectVoxels", "classMR_1_1Std_1_1Const__Vector__StdSharedPtrMRObjectVoxels.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMREdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMREdgeId", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMREdgePoint >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMREdgePoint", "classMR_1_1Std_1_1Const__Vector__StdVectorMREdgePoint.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMREdgePoint_MRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRGraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRGraphEdgeId", "classMR_1_1Std_1_1Const__Vector__StdVectorMRGraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRObjVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRObjVertId", "classMR_1_1Std_1_1Const__Vector__StdVectorMRObjVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMROffsetContoursOrigins >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMROffsetContoursOrigins", "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRPlanarTriangulationIntersectionInfo", "classMR_1_1Std_1_1Const__Vector__StdVectorMRPlanarTriangulationIntersectionInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRVarEdgeTri >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRVarEdgeTri", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVarEdgeTri.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRVector2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRVector2d", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRVector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRVector2f", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRVector3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRVector3d", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRVector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRVector3f", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_StdVectorMRVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_StdVectorMRVertId", "classMR_1_1Std_1_1Const__Vector__StdVectorMRVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_UnsignedChar", "classMR_1_1Std_1_1Const__Vector__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_UnsignedShort >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.Const_Vector_UnsignedShort", "classMR_1_1Std_1_1Const__Vector__UnsignedShort.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vector_UnsignedShort_MRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vector_UnsignedShort_MRVoxelId", "classMR_1_1Const__Vector__UnsignedShort__MRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_Vert2RegionMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_Vert2RegionMap", "classMR_1_1Const__Vert2RegionMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertBitSet", "classMR_1_1Const__VertBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertBMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertBMap", "classMR_1_1Const__VertBMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertColorMapAggregator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertColorMapAggregator", "classMR_1_1Const__VertColorMapAggregator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertColors >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertColors", "classMR_1_1Const__VertColors.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertCoords >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertCoords", "classMR_1_1Const__VertCoords.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertCoords2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertCoords2", "classMR_1_1Const__VertCoords2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertCoordsDiff >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertCoordsDiff", "classMR_1_1Const__VertCoordsDiff.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertDistance >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertDistance", "classMR_1_1Const__VertDistance.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertDuplication >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_VertDuplication", "classMR_1_1MeshBuilder_1_1Const__VertDuplication.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertexIdentifier >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertMap", "classMR_1_1Const__VertMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertPathInfo >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertPathInfo", "classMR_1_1Const__VertPathInfo.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertRenumber >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertRenumber", "classMR_1_1Const__VertRenumber.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertScalars >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VertScalars", "classMR_1_1Const__VertScalars.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VertSpan >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.MeshBuilder.Const_VertSpan", "classMR_1_1MeshBuilder_1_1Const__VertSpan.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportIterator >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportIterator", "classMR_1_1Const__ViewportIterator.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportMask >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportProperty_MRAffineXf3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportProperty_MRAffineXf3f", "classMR_1_1Const__ViewportProperty__MRAffineXf3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportProperty_MRColor >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportProperty_MRColor", "classMR_1_1Const__ViewportProperty__MRColor.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportProperty_MRMatrix3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportProperty_MRMatrix3f", "classMR_1_1Const__ViewportProperty__MRMatrix3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportProperty_MRVector4UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportProperty_MRVector4UnsignedChar", "classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportProperty_MRXfBasedCacheMRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f", "classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ViewportProperty_UnsignedChar >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ViewportProperty_UnsignedChar", "classMR_1_1Const__ViewportProperty__UnsignedChar.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VolumeIndexer >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VolumeIndexer", "classMR_1_1Const__VolumeIndexer.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VolumeParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.FillingSurface.TPMS.Const_VolumeParams", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VolumeRenderingParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ObjectVoxels.Const_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VolumeSegmentationParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VolumeSegmentationParameters", "classMR_1_1Const__VolumeSegmentationParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VolumeSegmenter >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VolumeSegmenter", "classMR_1_1Const__VolumeSegmenter.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VolumeToMeshByPartsSettings >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VolumeToMeshByPartsSettings", "classMR_1_1Const__VolumeToMeshByPartsSettings.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelLocation >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelMetricParameters >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolume_MRFloatGrid >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolume_MRFloatGrid", "classMR_1_1Const__VoxelsVolume__MRFloatGrid.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeAccessor_MRFunctionVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeAccessor_MRFunctionVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeAccessor_MRSimpleVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeAccessor_MRSimpleVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeAccessor_MRVdbVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeAccessor_MRVdbVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRVdbVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume", "classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax", "classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume", "classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelTraits_MRFloatGrid >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelTraits_MRFloatGrid", "classMR_1_1Const__VoxelTraits__MRFloatGrid.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelTraits_MRVectorFloatMRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelTraits_MRVoxelBitSet >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelTraits_MRVoxelBitSet", "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionFloatFuncFromConstMRVector3iRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_WatershedGraph >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WatershedGraph", "classMR_1_1Const__WatershedGraph.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_WeightedVertex >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WeightedVertex", "classMR_1_1Const__WeightedVertex.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_WholeEdgeBMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WholeEdgeBMap", "classMR_1_1Const__WholeEdgeBMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_WholeEdgeMap >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_WriteRawTiffParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_XfBasedCache_MRBox3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_XfBasedCache_MRBox3f", "classMR_1_1Const__XfBasedCache__MRBox3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ZCompensateParams >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html", null ]
+    ] ],
+    [ "MR.Misc.Object< Const_ZeroOnMove_MRUint64T >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Const_ZeroOnMove_MRUint64T", "classMR_1_1Const__ZeroOnMove__MRUint64T.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_AffineXf2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_AffineXf2d", "classMR_1_1ConstBox__AffineXf2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_AffineXf2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_AffineXf2f", "classMR_1_1ConstBox__AffineXf2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_AffineXf3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_AffineXf3d", "classMR_1_1ConstBox__AffineXf3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_AffineXf3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_AffineXf3f", "classMR_1_1ConstBox__AffineXf3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_Double_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_Double_4", "classMR_1_1Std_1_1ConstBox__Array__Double__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_Float_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_Float_4", "classMR_1_1Std_1_1ConstBox__Array__Float__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_Int_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_Int_4", "classMR_1_1Std_1_1ConstBox__Array__Int__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_MRAffineXf3d_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_MRAffineXf3d_4", "classMR_1_1Std_1_1ConstBox__Array__MRAffineXf3d__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_MRAffineXf3f_4 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_MRAffineXf3f_4", "classMR_1_1Std_1_1ConstBox__Array__MRAffineXf3f__4.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_MRVector2f_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_MRVector2f_3", "classMR_1_1Std_1_1ConstBox__Array__MRVector2f__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_MRVector3f_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_MRVector3f_3", "classMR_1_1Std_1_1ConstBox__Array__MRVector3f__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_MRVertId_2 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_MRVertId_2", "classMR_1_1Std_1_1ConstBox__Array__MRVertId__2.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Array_MRVertId_3 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.Std.ConstBox_Array_MRVertId_3", "classMR_1_1Std_1_1ConstBox__Array__MRVertId__3.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box1d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box1d", "classMR_1_1ConstBox__Box1d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box1f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box1f", "classMR_1_1ConstBox__Box1f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box1i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box1i", "classMR_1_1ConstBox__Box1i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box1i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box1i64", "classMR_1_1ConstBox__Box1i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box2d", "classMR_1_1ConstBox__Box2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box2f", "classMR_1_1ConstBox__Box2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box2i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box2i", "classMR_1_1ConstBox__Box2i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box2i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box2i64", "classMR_1_1ConstBox__Box2i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box3d", "classMR_1_1ConstBox__Box3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box3f", "classMR_1_1ConstBox__Box3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box3i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box3i", "classMR_1_1ConstBox__Box3i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Box3i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Box3i64", "classMR_1_1ConstBox__Box3i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Color >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Color", "classMR_1_1ConstBox__Color.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_EdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_FaceId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_GraphEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_GraphVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix2b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix2b", "classMR_1_1ConstBox__Matrix2b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix2d", "classMR_1_1ConstBox__Matrix2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix2f", "classMR_1_1ConstBox__Matrix2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix2i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix2i", "classMR_1_1ConstBox__Matrix2i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix2i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix2i64", "classMR_1_1ConstBox__Matrix2i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix3b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix3b", "classMR_1_1ConstBox__Matrix3b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix3d", "classMR_1_1ConstBox__Matrix3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix3f", "classMR_1_1ConstBox__Matrix3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix3i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix3i", "classMR_1_1ConstBox__Matrix3i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix3i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix3i64", "classMR_1_1ConstBox__Matrix3i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix4b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix4b", "classMR_1_1ConstBox__Matrix4b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix4d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix4d", "classMR_1_1ConstBox__Matrix4d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix4f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix4f", "classMR_1_1ConstBox__Matrix4f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix4i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Matrix4i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_NodeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_ObjId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_ObjVertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_PixelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_RegionId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_RegionId", "classMR_1_1ConstBox__RegionId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_TextureId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_TextureId", "classMR_1_1ConstBox__TextureId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_UndirectedEdgeId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_UndirectedEdgeId", "classMR_1_1ConstBox__UndirectedEdgeId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector2b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector2d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector2d", "classMR_1_1ConstBox__Vector2d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector2f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector2f", "classMR_1_1ConstBox__Vector2f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector2i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector2i", "classMR_1_1ConstBox__Vector2i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector2i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector2i64", "classMR_1_1ConstBox__Vector2i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector3b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector3b", "classMR_1_1ConstBox__Vector3b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector3d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector3f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector3f", "classMR_1_1ConstBox__Vector3f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector3i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector3i", "classMR_1_1ConstBox__Vector3i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector3i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector4b >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector4b", "classMR_1_1ConstBox__Vector4b.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector4d >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector4d", "classMR_1_1ConstBox__Vector4d.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector4f >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector4f", "classMR_1_1ConstBox__Vector4f.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector4i >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector4i", "classMR_1_1ConstBox__Vector4i.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_Vector4i64 >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_Vector4i64", "classMR_1_1ConstBox__Vector4i64.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_VertId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_VertId", "classMR_1_1ConstBox__VertId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_ViewportId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_ViewportId", "classMR_1_1ConstBox__ViewportId.html", null ]
+    ] ],
+    [ "MR.Misc.Object< ConstBox_VoxelId >", "classMR_1_1Misc_1_1Object.html", [
+      [ "MR.ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html", null ]
     ] ],
     [ "MR.ObjectSave", "classMR_1_1ObjectSave.html", null ],
     [ "MR.Parallel", "classMR_1_1Parallel.html", null ],
@@ -10451,6 +12829,276 @@ var hierarchy =
     [ "MR.Misc.Ref< T >", "classMR_1_1Misc_1_1Ref.html", null ],
     [ "MR.SceneLoad", "classMR_1_1SceneLoad.html", null ],
     [ "MR.SelfIntersections", "classMR_1_1SelfIntersections.html", null ],
+    [ "MR.Misc.SharedObject< Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_AngleMeasurementObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_AngleMeasurementObject", "classMR_1_1Const__AngleMeasurementObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_BasicUiRenderTask >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_BasicUiRenderTask", "classMR_1_1Const__BasicUiRenderTask.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeActiveBoxAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeColoringType >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeDualMarchingCubesAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeFacesColorMapAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeGridAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeGridAction", "classMR_1_1Const__ChangeGridAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeIsoAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeIsoAction", "classMR_1_1Const__ChangeIsoAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeLabelAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeLabelAction", "classMR_1_1Const__ChangeLabelAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeLinesColorMapAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshAction", "classMR_1_1Const__ChangeMeshAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshCreasesAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshCreasesAction", "classMR_1_1Const__ChangeMeshCreasesAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshDataAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshDataAction", "classMR_1_1Const__ChangeMeshDataAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshEdgeSelectionAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshEdgeSelectionAction", "classMR_1_1Const__ChangeMeshEdgeSelectionAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshFaceSelectionAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshFaceSelectionAction", "classMR_1_1Const__ChangeMeshFaceSelectionAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshPointsAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshPointsAction", "classMR_1_1Const__ChangeMeshPointsAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshTexturePerFaceAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshTopologyAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshTopologyAction", "classMR_1_1Const__ChangeMeshTopologyAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeMeshUVCoordsAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeMeshUVCoordsAction", "classMR_1_1Const__ChangeMeshUVCoordsAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeNameAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeNameAction", "classMR_1_1Const__ChangeNameAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeObjectAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeObjectAction", "classMR_1_1Const__ChangeObjectAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeObjectColorAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeObjectColorAction", "classMR_1_1Const__ChangeObjectColorAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeObjectSelectedAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeObjectSelectedAction", "classMR_1_1Const__ChangeObjectSelectedAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeObjectVisibilityAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeObjectVisibilityAction", "classMR_1_1Const__ChangeObjectVisibilityAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeOneNormalInCloudAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeOnePointInCloudAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeOnePointInCloudAction", "classMR_1_1Const__ChangeOnePointInCloudAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeOnePointInPolylineAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeOnePointInPolylineAction", "classMR_1_1Const__ChangeOnePointInPolylineAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePointCloudAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePointCloudAction", "classMR_1_1Const__ChangePointCloudAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePointCloudNormalsAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePointCloudNormalsAction", "classMR_1_1Const__ChangePointCloudNormalsAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePointCloudPointsAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePointCloudPointsAction", "classMR_1_1Const__ChangePointCloudPointsAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePointPointSelectionAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePointPointSelectionAction", "classMR_1_1Const__ChangePointPointSelectionAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePolylineAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePolylineAction", "classMR_1_1Const__ChangePolylineAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePolylinePointsAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePolylinePointsAction", "classMR_1_1Const__ChangePolylinePointsAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangePolylineTopologyAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangePolylineTopologyAction", "classMR_1_1Const__ChangePolylineTopologyAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeScaleAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeScaleAction", "classMR_1_1Const__ChangeScaleAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeSceneAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeSceneAction", "classMR_1_1Const__ChangeSceneAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeSceneObjectsOrder >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeSceneObjectsOrder", "classMR_1_1Const__ChangeSceneObjectsOrder.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeSurfaceAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeSurfaceAction", "classMR_1_1Const__ChangeSurfaceAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeTextureAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeTextureAction", "classMR_1_1Const__ChangeTextureAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeVisualizePropertyAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeVisualizePropertyAction", "classMR_1_1Const__ChangeVisualizePropertyAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangeXfAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ChangVoxelSelectionAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_CircleObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_CircleObject", "classMR_1_1Const__CircleObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_CombinedHistoryAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ConeObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ConeObject", "classMR_1_1Const__ConeObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_CylinderObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_CylinderObject", "classMR_1_1Const__CylinderObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_DistanceMap >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_DistanceMap", "classMR_1_1Const__DistanceMap.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_DistanceMeasurementObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_DistanceMeasurementObject", "classMR_1_1Const__DistanceMeasurementObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_FastWindingNumber >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_FeatureObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_FeatureObject", "classMR_1_1Const__FeatureObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_HistoryAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_HistoryAction", "classMR_1_1Const__HistoryAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_IFastWindingNumber >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_IFastWindingNumber", "classMR_1_1Const__IFastWindingNumber.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_IPointsToMeshProjector >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_IPointsToMeshProjector", "classMR_1_1Const__IPointsToMeshProjector.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_LineObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_LineObject", "classMR_1_1Const__LineObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_Matrix_Float >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_MeasurementObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_Mesh >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_Mesh", "classMR_1_1Const__Mesh.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_Object >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_Object", "classMR_1_1Const__Object.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectChildrenHolder >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectChildrenHolder.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectComparableWithReference >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectComparableWithReference", "classMR_1_1Const__ObjectComparableWithReference.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectDistanceMap >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectDistanceMap", "classMR_1_1Const__ObjectDistanceMap.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectGcode >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectGcode", "classMR_1_1Const__ObjectGcode.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectLabel >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectLabel", "classMR_1_1Const__ObjectLabel.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectLines >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectLines", "classMR_1_1Const__ObjectLines.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectLinesHolder >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectLinesHolder", "classMR_1_1Const__ObjectLinesHolder.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectMesh >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectMesh", "classMR_1_1Const__ObjectMesh.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectMeshHolder >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectMeshHolder", "classMR_1_1Const__ObjectMeshHolder.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectPoints >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectPoints", "classMR_1_1Const__ObjectPoints.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectPointsHolder >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectPointsHolder", "classMR_1_1Const__ObjectPointsHolder.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_ObjectVoxels >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_ObjectVoxels", "classMR_1_1Const__ObjectVoxels.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_OpenVdbFloatGrid >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_OpenVdbFloatGrid", "classMR_1_1Const__OpenVdbFloatGrid.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PartialChangeMeshAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PartialChangeMeshAction", "classMR_1_1Const__PartialChangeMeshAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PartialChangeMeshDataAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PartialChangeMeshDataAction", "classMR_1_1Const__PartialChangeMeshDataAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PartialChangeMeshPointsAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PartialChangeMeshPointsAction", "classMR_1_1Const__PartialChangeMeshPointsAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PartialChangeMeshTopologyAction >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PartialChangeMeshTopologyAction", "classMR_1_1Const__PartialChangeMeshTopologyAction.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PlaneObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PlaneObject", "classMR_1_1Const__PlaneObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PointCloud >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PointCloud", "classMR_1_1Const__PointCloud.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PointMeasurementObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PointMeasurementObject", "classMR_1_1Const__PointMeasurementObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PointObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PointObject", "classMR_1_1Const__PointObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_PointsToMeshProjector >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_PointsToMeshProjector", "classMR_1_1Const__PointsToMeshProjector.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_Polyline3 >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_Polyline3", "classMR_1_1Const__Polyline3.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_RadiusMeasurementObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_RectIndexer >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_RectIndexer", "classMR_1_1Const__RectIndexer.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_SceneRootObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_SceneRootObject", "classMR_1_1Const__SceneRootObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_SphereObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_SphereObject", "classMR_1_1Const__SphereObject.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_Vector_StdString >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Std.Const_Vector_StdString", "classMR_1_1Std_1_1Const__Vector__StdString.html", null ]
+    ] ],
+    [ "MR.Misc.SharedObject< Const_VisualObject >", "classMR_1_1Misc_1_1SharedObject.html", [
+      [ "MR.Const_VisualObject", "classMR_1_1Const__VisualObject.html", null ]
+    ] ],
     [ "MR.Std", "classMR_1_1Std.html", null ],
     [ "MR.FillingSurface.TPMS", "classMR_1_1FillingSurface_1_1TPMS.html", null ],
     [ "MR.Features.Traits", "classMR_1_1Features_1_1Traits.html", null ],

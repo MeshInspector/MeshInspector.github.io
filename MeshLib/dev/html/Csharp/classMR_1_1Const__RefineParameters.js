@@ -3,8 +3,6 @@ var classMR_1_1Const__RefineParameters =
     [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a75ad4c0a71e76262a6f66ccfd25a7ce9", null ],
     [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a534770645ecbca042135e9bef9a6de33", null ],
     [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a93e6073e43c014f9f26265384f5bd3f2", null ],
-    [ "_Storage_faceRegion", "classMR_1_1Const__RefineParameters.html#a8ada813c0d6de978ab17280690203ca6", null ],
-    [ "_Storage_vertRegion", "classMR_1_1Const__RefineParameters.html#a8bf5f3430b04c3fc49c1004fe53d6ff0", null ],
     [ "callback", "classMR_1_1Const__RefineParameters.html#a5858d2731daa8e2b89452fa1d56a3c5d", null ],
     [ "distanceLimit", "classMR_1_1Const__RefineParameters.html#ae13dc58e7e63ed318b993f6e899fe9d1", null ],
     [ "faceRegion", "classMR_1_1Const__RefineParameters.html#a7413703b903437cb5336da5cf0dc34c5", null ],

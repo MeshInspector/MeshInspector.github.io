@@ -14,7 +14,7 @@ var structMR_1_1VertId =
     [ "less", "structMR_1_1VertId.html#a7f1e59f12124b80f5496c669b63e2cb6", null ],
     [ "operator bool", "structMR_1_1VertId.html#a4a5c550a59e713d2cebaf0d14bb5ce4e", null ],
     [ "operator int", "structMR_1_1VertId.html#a65df98da24261fec9b740bf151bae60c", null ],
-    [ "operator VertId", "structMR_1_1VertId.html#afc10a94a2c67bb218d2539e2503dff3c", null ],
+    [ "operator VertId", "structMR_1_1VertId.html#a1babcc060ceddcec82ce428ae64707d5", null ],
     [ "operator==", "structMR_1_1VertId.html#a310771da8158c6475ecaca2c03358803", null ],
     [ "subAssign", "structMR_1_1VertId.html#a0b0262d65db60868d47266a16d3997da", null ],
     [ "valid", "structMR_1_1VertId.html#af948330aff72b967b5cd10bba0edaf5b", null ]

@@ -19,7 +19,7 @@ var structMR_1_1Matrix4b =
     [ "mulAssign", "structMR_1_1Matrix4b.html#ab330023efe3bd425b69471c6ee51d81c", null ],
     [ "norm", "structMR_1_1Matrix4b.html#aee5cd2b2003296dced67717bfe92365e", null ],
     [ "normSq", "structMR_1_1Matrix4b.html#a195463d052d36abcd12641e8b92d5d48", null ],
-    [ "operator Matrix4b", "structMR_1_1Matrix4b.html#a16df7660db45351722f70a25bf50f5bc", null ],
+    [ "operator Matrix4b", "structMR_1_1Matrix4b.html#ac3b4bbd1b73440185709d43acb5d3527", null ],
     [ "operator*", "structMR_1_1Matrix4b.html#a5448c57e18673dfbb245abf1fe2904a9", null ],
     [ "operator*", "structMR_1_1Matrix4b.html#a1a3994b10c332e4e317d7c527d8019c2", null ],
     [ "operator*", "structMR_1_1Matrix4b.html#ad4e866aa161f21e4f4fac20f98719276", null ],

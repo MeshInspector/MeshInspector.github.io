@@ -8,9 +8,6 @@ var classMR_1_1Const__CutMeshParameters =
     [ "Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html#afa1c16e2179836fab89630ce8667f34b", null ],
     [ "Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html#a2c2882ba553a076a7fe5fb178754d3f2", null ],
     [ "Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html#add3a559be37a3728483149816fdbb224", null ],
-    [ "_Storage_new2oldEdgesMap", "classMR_1_1Const__CutMeshParameters.html#aa5b29791bbf69f46fd2bfff3a9db3a51", null ],
-    [ "_Storage_new2OldMap", "classMR_1_1Const__CutMeshParameters.html#a3a70b9ed26378b3fc5753466eb01c420", null ],
-    [ "_Storage_sortData", "classMR_1_1Const__CutMeshParameters.html#aed82bfb9a14ae032d0cc85739b545b4c", null ],
     [ "new2oldEdgesMap", "classMR_1_1Const__CutMeshParameters.html#a1183e67222bbf3541d9989bb2a39c371", null ],
     [ "new2OldMap", "classMR_1_1Const__CutMeshParameters.html#ae1cc089e4efe11b7dc01dbaab539716b", null ],
     [ "sortData", "classMR_1_1Const__CutMeshParameters.html#aa0956feb7aeecdbbb968d42aced0294c", null ]

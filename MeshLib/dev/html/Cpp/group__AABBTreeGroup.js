@@ -173,7 +173,7 @@ var group__AABBTreeGroup =
       [ "MeshProjectionTransforms", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a3c9a86fd036f439ff8f39543d517dc0f", null ],
       [ "MeshProjectionTransforms", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a2e18186d90a07ce796be6800c10b77b8", null ],
       [ "assign", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a64aa7f05b3996015abedc6dca49c2b2e", null ],
-      [ "rigidXfPoint", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a6c694f7118f5817e84baf39a25980e9c", null ]
+      [ "rigidXfPoint", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a0bb6e8cf8f8c3f7eeb72aa019f5ecfc3", null ]
     ] ],
     [ "MR::SignedDistanceToMeshResult", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html", [
       [ "SignedDistanceToMeshResult", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#aacf2869100ab7d211214e6934e6c48fc", null ],
@@ -202,7 +202,7 @@ var group__AABBTreeGroup =
       [ "skipSameIndex", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a3b4b688a4c5f65212c06abb32d98df6e", null ],
       [ "upDistLimitSq", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac", null ],
       [ "valid", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3", null ],
-      [ "xf", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a3f6804b4129c344151681b0c4fca4619", null ]
+      [ "xf", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3", null ]
     ] ],
     [ "MR::IPointsProjector", "../Csharp/classMR_1_1IPointsProjector.html", [
       [ "setPointCloud", "../Csharp/classMR_1_1IPointsProjector.html#ab4cea324b92dc9e302d471437c3630f6", null ]

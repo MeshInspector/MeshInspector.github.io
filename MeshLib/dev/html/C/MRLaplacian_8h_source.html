@@ -180,41 +180,41 @@ $(function(){initNavTree('MRLaplacian_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_Laplacian MR_Laplacian;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>MRC_API MR_Laplacian *MR_Laplacian_ConstructFromAnother(MR_PassBy _other_pass_by, MR_Laplacian *_other);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>MRC_API <span class="keyword">const</span> MR_Laplacian *MR_Laplacian_OffsetPtr(<span class="keyword">const</span> MR_Laplacian *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>MRC_API MR_Laplacian *MR_Laplacian_OffsetMutablePtr(MR_Laplacian *ptr, ptrdiff_t i);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>MRC_API MR_Laplacian *MR_Laplacian_Construct_1(MR_Mesh *mesh);</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>MRC_API MR_Laplacian *MR_Laplacian_Construct_2(<span class="keyword">const</span> MR_MeshTopology *topology, MR_VertCoords *points);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_Destroy(<span class="keyword">const</span> MR_Laplacian *_this);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_DestroyArray(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>MRC_API MR_Laplacian *MR_Laplacian_ConstructFromAnother(MR_PassBy _other_pass_by, MR_Laplacian *_other);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>MRC_API <span class="keyword">const</span> MR_Laplacian *MR_Laplacian_OffsetPtr(<span class="keyword">const</span> MR_Laplacian *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>MRC_API MR_Laplacian *MR_Laplacian_OffsetMutablePtr(MR_Laplacian *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>MRC_API MR_Laplacian *MR_Laplacian_Construct_1(MR_Mesh *mesh);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>MRC_API MR_Laplacian *MR_Laplacian_Construct_2(<span class="keyword">const</span> MR_MeshTopology *topology, MR_VertCoords *points);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_init(MR_Laplacian *_this, <span class="keyword">const</span> MR_VertBitSet *freeVerts, MR_EdgeWeights weights, <span class="keyword">const</span> MR_VertexMass *vmass, <span class="keyword">const</span> MR_Laplacian_RememberShape *rem);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_fixVertex_2(MR_Laplacian *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> v, <span class="keyword">const</span> <span class="keywordtype">bool</span> *smooth);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_fixVertex_3(MR_Laplacian *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> v, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *fixedPos, <span class="keyword">const</span> <span class="keywordtype">bool</span> *smooth);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_updateSolver(MR_Laplacian *_this);</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_apply(MR_Laplacian *_this);</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_applyToScalar(MR_Laplacian *_this, MR_VertScalars *scalarField);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_Destroy(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_DestroyArray(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_init(MR_Laplacian *_this, <span class="keyword">const</span> MR_VertBitSet *freeVerts, MR_EdgeWeights weights, <span class="keyword">const</span> MR_VertexMass *vmass, <span class="keyword">const</span> MR_Laplacian_RememberShape *rem);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_fixVertex_2(MR_Laplacian *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> v, <span class="keyword">const</span> <span class="keywordtype">bool</span> *smooth);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_fixVertex_3(MR_Laplacian *_this, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> v, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *fixedPos, <span class="keyword">const</span> <span class="keywordtype">bool</span> *smooth);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_updateSolver(MR_Laplacian *_this);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_apply(MR_Laplacian *_this);</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>MRC_API <span class="keyword">const</span> MR_VertBitSet *MR_Laplacian_region(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>MRC_API <span class="keywordtype">void</span> MR_Laplacian_applyToScalar(MR_Laplacian *_this, MR_VertScalars *scalarField);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>MRC_API <span class="keyword">const</span> MR_VertBitSet *MR_Laplacian_freeVerts(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>MRC_API <span class="keyword">const</span> MR_VertBitSet *MR_Laplacian_region(<span class="keyword">const</span> MR_Laplacian *_this);</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>MRC_API <span class="keyword">const</span> MR_VertBitSet *MR_Laplacian_firstLayerFixedVerts(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>MRC_API <span class="keyword">const</span> MR_VertBitSet *MR_Laplacian_freeVerts(<span class="keyword">const</span> MR_Laplacian *_this);</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>MRC_API <span class="keyword">const</span> MR_VertBitSet *MR_Laplacian_firstLayerFixedVerts(<span class="keyword">const</span> MR_Laplacian *_this);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:52</div></div>
 <div class="ttc" id="astructMR__VertId_html"><div class="ttname"><a href="structMR__VertId.html">MR_VertId</a></div><div class="ttdef"><b>Definition</b> MRId.h:55</div></div>
 </div><!-- fragment --></div><!-- contents -->

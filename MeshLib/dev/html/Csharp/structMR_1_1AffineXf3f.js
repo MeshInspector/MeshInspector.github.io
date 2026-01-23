@@ -8,7 +8,7 @@ var structMR_1_1AffineXf3f =
     [ "inverse", "structMR_1_1AffineXf3f.html#a2e7eb558f038dabdaecb2f82f88e94f3", null ],
     [ "linear", "structMR_1_1AffineXf3f.html#ad5d81f75cc7ba91abe4191973e13fb59", null ],
     [ "linearOnly", "structMR_1_1AffineXf3f.html#ace552e2052940a0b76c1fb431c9f1442", null ],
-    [ "operator AffineXf3f", "structMR_1_1AffineXf3f.html#ab57e0134df63b2edefd8d65bc958ef00", null ],
+    [ "operator AffineXf3f", "structMR_1_1AffineXf3f.html#aee641a8bd989ed95b57132ec2e45082e", null ],
     [ "operator*", "structMR_1_1AffineXf3f.html#aab66e8f2229fd495b8904743046584c9", null ],
     [ "operator==", "structMR_1_1AffineXf3f.html#acc74c054ce8d312d140af2200270c069", null ],
     [ "translation", "structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883", null ],

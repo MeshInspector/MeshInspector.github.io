@@ -137,7 +137,7 @@ var NAVTREEINDEX =
 "MRPointsToMeshFusion_8h_source.html",
 "MRUnitInfo_8h_source.html",
 "classMR_1_1ChangeMeshFaceSelectionAction.html",
-"classMR_1_1ComputeSteepestDescentPathSettings.html#a4a1de14562cfe2b35b795a50494c9085",
+"classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9",
 "classMR_1_1DirectionWidget.html#a167c6b1a7f459b928ff38d1a1136b2cb",
 "classMR_1_1IOFilter.html#aa9bab4124376f635f5e78a9784e8bf9b",
 "classMR_1_1MeshRelaxParams.html",

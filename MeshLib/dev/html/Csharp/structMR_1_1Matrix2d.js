@@ -15,7 +15,7 @@ var structMR_1_1Matrix2d =
     [ "mulAssign", "structMR_1_1Matrix2d.html#a374be6a183e0d8a78315b14f1f4e1b52", null ],
     [ "norm", "structMR_1_1Matrix2d.html#a346fe2af1012a9a5b482ccdf1393afdb", null ],
     [ "normSq", "structMR_1_1Matrix2d.html#a54fab16cc6536b0d781fbe3a08eda74a", null ],
-    [ "operator Matrix2d", "structMR_1_1Matrix2d.html#a48f6c9a01b3e454b311862a60271e3c0", null ],
+    [ "operator Matrix2d", "structMR_1_1Matrix2d.html#aff59247a43808899df4eeb497f3bad15", null ],
     [ "operator*", "structMR_1_1Matrix2d.html#afc13792ecee9fbb824f178559d1c89c0", null ],
     [ "operator*", "structMR_1_1Matrix2d.html#ac31860e5345cf7bb0fd2ea27150f83c1", null ],
     [ "operator*", "structMR_1_1Matrix2d.html#a8f68af6d43540d0ab59943346f6f85e6", null ],
