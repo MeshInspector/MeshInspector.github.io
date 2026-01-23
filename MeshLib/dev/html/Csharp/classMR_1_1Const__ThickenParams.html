@@ -183,10 +183,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (
 unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_ThickenParams</b> ()</td></tr>
 <tr class="memdesc:afe54598202a9d798f9903db99c5bf5d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:afe54598202a9d798f9903db99c5bf5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa93215f7e5e82ecbd1e4ea82b0542c2" id="r_afa93215f7e5e82ecbd1e4ea82b0542c2"><td class="memItemLeft" align="right" valign="top"><a id="afa93215f7e5e82ecbd1e4ea82b0542c2" name="afa93215f7e5e82ecbd1e4ea82b0542c2"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_ThickenParams</b> (float <a class="el" href="#a308afaa814e81d10f16b8b78d3d8b6db">outsideOffset</a>, float <a class="el" href="#ac5c290093762ae445139c0d59eca6762">insideOffset</a>)</td></tr>
-<tr class="memdesc:afa93215f7e5e82ecbd1e4ea82b0542c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ThickenParams.html">MR.ThickenParams</a></code> elementwise. <br /></td></tr>
-<tr class="separator:afa93215f7e5e82ecbd1e4ea82b0542c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa294f6ec435f59413cbab5fb6edcedde" id="r_aa294f6ec435f59413cbab5fb6edcedde"><td class="memItemLeft" align="right" valign="top"><a id="aa294f6ec435f59413cbab5fb6edcedde" name="aa294f6ec435f59413cbab5fb6edcedde"></a>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_ThickenParams</b> (float <a class="el" href="#a308afaa814e81d10f16b8b78d3d8b6db">outsideOffset</a>, float <a class="el" href="#ac5c290093762ae445139c0d59eca6762">insideOffset</a>, float <a class="el" href="#aa1b7317efa876502ec764866b2b7d834">normalsTrustFactor</a>)</td></tr>
+<tr class="memdesc:aa294f6ec435f59413cbab5fb6edcedde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ThickenParams.html">MR.ThickenParams</a></code> elementwise. <br /></td></tr>
+<tr class="separator:aa294f6ec435f59413cbab5fb6edcedde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c1d5c141277798e0f38a061838190f" id="r_a03c1d5c141277798e0f38a061838190f"><td class="memItemLeft" align="right" valign="top"><a id="a03c1d5c141277798e0f38a061838190f" name="a03c1d5c141277798e0f38a061838190f"></a>
 unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_ThickenParams</b> (<a class="el" href="classMR_1_1Const__ThickenParams.html">MR.Const_ThickenParams</a> _other)</td></tr>
 <tr class="memdesc:a03c1d5c141277798e0f38a061838190f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <code>MR.ThickenParams.ThickenParams</code>. <br /></td></tr>
@@ -212,6 +212,8 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>outsideOffset
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>insideOffset</b><code> [get]</code></td></tr>
 <tr class="memdesc:ac5c290093762ae445139c0d59eca6762"><td class="mdescLeft">&#160;</td><td class="mdescRight">the amount of offset for cloned mirrored mesh vertices in the opposite direction <br /></td></tr>
 <tr class="separator:ac5c290093762ae445139c0d59eca6762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b7317efa876502ec764866b2b7d834" id="r_aa1b7317efa876502ec764866b2b7d834"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1b7317efa876502ec764866b2b7d834">normalsTrustFactor</a><code> [get]</code></td></tr>
+<tr class="separator:aa1b7317efa876502ec764866b2b7d834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object</a></td></tr>
 <tr class="memitem:af58f11cf51901adc2182f0cc9006053c inherit properties_classMR_1_1Misc_1_1Object" id="r_af58f11cf51901adc2182f0cc9006053c"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
@@ -232,7 +234,31 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ThickenParams.html">MR.ThickenParams</a></code>. This is the const half of the class. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Property Documentation</h2>
+<a id="aa1b7317efa876502ec764866b2b7d834" name="aa1b7317efa876502ec764866b2b7d834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b7317efa876502ec764866b2b7d834">&#9670;&#160;</a></span>normalsTrustFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe float MR.Const_ThickenParams.normalsTrustFactor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><b>MROffsetVerts.cs</b></li>
 </ul>
 </div><!-- contents -->

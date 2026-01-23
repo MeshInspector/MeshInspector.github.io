@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"structMR_1_1Box2d.html#a15991518dc5439abf2f72a4f778e8829":[6,3,0,0,0,2485,25],
 "structMR_1_1Box2d.html#a22371d1b9cf26819c1a735fd8552300f":[6,3,0,0,0,2485,22],
 "structMR_1_1Box2d.html#a450881120e46d4e785d55953fb5e5db9":[6,3,0,0,0,2485,28],
 "structMR_1_1Box2d.html#a45b4bb5192cf607283289885a2b04d6e":[6,3,0,0,0,2485,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "structMR_1_1ConstPtrBooleanResultMapperMaps.html":[6,3,0,0,0,3398],
 "structMR_1_1ConstPtrColor.html":[6,3,0,0,0,3399],
 "structMR_1_1ConstPtrEdgeId.html":[6,3,0,0,0,3400],
-"structMR_1_1ConstPtrFaceId.html":[6,3,0,0,0,3401],
-"structMR_1_1ConstPtrGraphEdgeId.html":[6,3,0,0,0,3402]
+"structMR_1_1ConstPtrFaceId.html":[6,3,0,0,0,3401]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#a84f322ac265d665db2123d611b8a9abd":[6,3,0,0,0,3480,3],
 "classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#a92f88643a24f4ec2fd15a42c93a6f818":[6,3,0,0,0,3480,1],
 "classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#ac4c124b8be5369a777df968a86a7ccaf":[6,3,0,0,0,3480,2],
 "classMR_1_1Expected__MRVoxelsLoadDicomVolume__StdString.html":[6,3,0,0,0,3479],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "classMR_1_1FaceColorMapAggregator.html#ac8d91f6586834d5ae84f0237b196d92e":[6,3,0,0,0,3511,5],
 "classMR_1_1FaceColorMapAggregator.html#ad9d48ed850ecdf5d6982e3b1ec028576":[6,3,0,0,0,3511,4],
 "classMR_1_1FaceColorMapAggregator.html#adebc2e37fb41f2787c5151d50f211d26":[6,3,0,0,0,3511,6],
-"classMR_1_1FaceColorMapAggregator.html#ae5a70face927614777bdbfc61ea5e0b7":[6,3,0,0,0,3511,12],
-"classMR_1_1FaceColorMapAggregator.html#aec65785cee7b227816e82b3b34f08d87":[6,3,0,0,0,3511,10]
+"classMR_1_1FaceColorMapAggregator.html#ae5a70face927614777bdbfc61ea5e0b7":[6,3,0,0,0,3511,12]
 };

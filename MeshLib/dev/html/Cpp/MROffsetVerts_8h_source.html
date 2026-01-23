@@ -165,30 +165,33 @@ $(function(){initNavTree('MROffsetVerts_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ThickenParams.html#a95976c238258afde6ed014e8b5bc837c">outsideOffset</a> = 0;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ThickenParams.html#a9324bffe3efdc231434137d2d7cfca06">insideOffset</a> = 0;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>MRMESH_API Mesh <a class="code hl_functionRef" href="../Csharp/classMR.html#ae3405f3ef708f2bf57e66017b1896cf6">makeThickMesh</a>( <span class="keyword">const</span> Mesh &amp; m, <span class="keyword">const</span> ThickenParams &amp; params );</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ThickenParams.html#af99112def54ce72e1356e021a898ad01">normalsTrustFactor</a> = 1;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">struct </span>ZCompensateParams</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#add0c6a404bef78e4b7e20ec0f9ec688e">maxShift</a> = 0;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#a7151ed5110bf1981af95debb4d3f9c04">reduceSelfIntersections</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#a6b19a4dde59c64bcbc07bc3f44e6e5ea">minThickness</a> = 0;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#a3f1b0148393f8db7af5d7c985cdc7477">progress</a>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>MRMESH_API <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#aa6028afa6429245715170f4866837425">zCompensate</a>( Mesh&amp; mesh, <span class="keyword">const</span> ZCompensateParams&amp; params );</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>MRMESH_API Mesh <a class="code hl_functionRef" href="../Csharp/classMR.html#ae3405f3ef708f2bf57e66017b1896cf6">makeThickMesh</a>( <span class="keyword">const</span> Mesh &amp; m, <span class="keyword">const</span> ThickenParams &amp; params );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">struct </span>ZCompensateParams</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#add0c6a404bef78e4b7e20ec0f9ec688e">maxShift</a> = 0;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#a7151ed5110bf1981af95debb4d3f9c04">reduceSelfIntersections</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#a6b19a4dde59c64bcbc07bc3f44e6e5ea">minThickness</a> = 0;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ZCompensateParams.html#a3f1b0148393f8db7af5d7c985cdc7477">progress</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>[[nodiscard]] MRMESH_API std::optional&lt;VertScalars&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a270dbf311736a31764026733111e5796">findZcompensationShifts</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> ZCompensateParams&amp; params );</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>[[nodiscard]] MRMESH_API std::optional&lt;VertCoords&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a59b5946af39a0b8810e3a690020d4e5d">findZcompensatedPositions</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> ZCompensateParams&amp; params );</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>MRMESH_API <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#aa6028afa6429245715170f4866837425">zCompensate</a>( Mesh&amp; mesh, <span class="keyword">const</span> ZCompensateParams&amp; params );</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>[[nodiscard]] MRMESH_API std::optional&lt;VertScalars&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a270dbf311736a31764026733111e5796">findZcompensationShifts</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> ZCompensateParams&amp; params );</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>[[nodiscard]] MRMESH_API std::optional&lt;VertCoords&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a59b5946af39a0b8810e3a690020d4e5d">findZcompensatedPositions</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> ZCompensateParams&amp; params );</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aclassMR_1_1ThickenParams_html_a9324bffe3efdc231434137d2d7cfca06"><div class="ttname"><a href="../Csharp/classMR_1_1ThickenParams.html#a9324bffe3efdc231434137d2d7cfca06">MR::ThickenParams::insideOffset</a></div><div class="ttdeci">new unsafe ref float insideOffset</div></div>
 <div class="ttc" id="aclassMR_1_1ThickenParams_html_a95976c238258afde6ed014e8b5bc837c"><div class="ttname"><a href="../Csharp/classMR_1_1ThickenParams.html#a95976c238258afde6ed014e8b5bc837c">MR::ThickenParams::outsideOffset</a></div><div class="ttdeci">new unsafe ref float outsideOffset</div></div>
+<div class="ttc" id="aclassMR_1_1ThickenParams_html_af99112def54ce72e1356e021a898ad01"><div class="ttname"><a href="../Csharp/classMR_1_1ThickenParams.html#af99112def54ce72e1356e021a898ad01">MR::ThickenParams::normalsTrustFactor</a></div><div class="ttdeci">new unsafe ref float normalsTrustFactor</div></div>
 <div class="ttc" id="aclassMR_1_1ZCompensateParams_html_a3f1b0148393f8db7af5d7c985cdc7477"><div class="ttname"><a href="../Csharp/classMR_1_1ZCompensateParams.html#a3f1b0148393f8db7af5d7c985cdc7477">MR::ZCompensateParams::progress</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat progress</div></div>
 <div class="ttc" id="aclassMR_1_1ZCompensateParams_html_a6b19a4dde59c64bcbc07bc3f44e6e5ea"><div class="ttname"><a href="../Csharp/classMR_1_1ZCompensateParams.html#a6b19a4dde59c64bcbc07bc3f44e6e5ea">MR::ZCompensateParams::minThickness</a></div><div class="ttdeci">new unsafe ref float minThickness</div></div>
 <div class="ttc" id="aclassMR_1_1ZCompensateParams_html_a7151ed5110bf1981af95debb4d3f9c04"><div class="ttname"><a href="../Csharp/classMR_1_1ZCompensateParams.html#a7151ed5110bf1981af95debb4d3f9c04">MR::ZCompensateParams::reduceSelfIntersections</a></div><div class="ttdeci">new unsafe ref bool reduceSelfIntersections</div></div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX148 =
 {
+"classMR_1_1__InOptConst__MakeSignedByWindingNumberSettings.html":[6,3,0,0,0,1063],
 "classMR_1_1__InOptConst__MapOrHashMap__MREdgeId__MREdgeId.html":[6,3,0,0,0,1064],
 "classMR_1_1__InOptConst__MapOrHashMap__MRFaceId__MRFaceId.html":[6,3,0,0,0,1065],
 "classMR_1_1__InOptConst__MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html":[6,3,0,0,0,1066],
@@ -248,6 +249,5 @@ var NAVTREEINDEX148 =
 "classMR_1_1__InOptConst__Polynomial__Float__1.html":[6,3,0,0,0,1283],
 "classMR_1_1__InOptConst__Polynomial__Float__2.html":[6,3,0,0,0,1284],
 "classMR_1_1__InOptConst__Polynomial__Float__3.html":[6,3,0,0,0,1285],
-"classMR_1_1__InOptConst__Polynomial__Float__4.html":[6,3,0,0,0,1286],
-"classMR_1_1__InOptConst__Polynomial__Float__5.html":[6,3,0,0,0,1287]
+"classMR_1_1__InOptConst__Polynomial__Float__4.html":[6,3,0,0,0,1286]
 };

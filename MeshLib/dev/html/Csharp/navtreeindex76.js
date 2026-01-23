@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"classMR_1_1Std_1_1Array__MRPreciseVertCoords__4.html#a935608eeab9855a564f01bdff512dd3f":[6,3,0,0,0,3803,935,4],
 "classMR_1_1Std_1_1Array__MRPreciseVertCoords__4.html#a960b8b0cb87345b279cb1aab7447e630":[6,3,0,0,0,3803,935,2],
 "classMR_1_1Std_1_1Array__MRPreciseVertCoords__5.html":[6,3,0,0,0,3803,936],
 "classMR_1_1Std_1_1Array__MRPreciseVertCoords__5.html#a2adba09f9221ae9f8bc4e96a9b51c5f5":[6,3,0,0,0,3803,936,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "classMR_1_1Std_1_1Const__Function__MRProcessOneResultFuncFromConstMRVector3fRefMRFaceIdConstMRVector3fRefFloat.html#ad2f7f5e4fc86237f9d72ab9000f6b26e":[6,3,0,0,0,3803,1007,0],
 "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html":[6,3,0,0,0,3803,1002],
 "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html#a1bb9decd2630a46d952299884765b400":[6,3,0,0,0,3803,1002,1],
-"classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html#aabdc7a5e93289fb7a2a03ee8711243c2":[6,3,0,0,0,3803,1002,0],
-"classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef.html":[6,3,0,0,0,3803,1003]
+"classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html#aabdc7a5e93289fb7a2a03ee8711243c2":[6,3,0,0,0,3803,1002,0]
 };

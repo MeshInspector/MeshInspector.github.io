@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1Const__VolumeToMeshByPartsSettings.html#ad459aeebf7fff1355d39ea8c73583467":[6,3,0,0,0,3370,0],
 "classMR_1_1Const__VolumeToMeshByPartsSettings.html#ad5785a34355d2ba99044134faa8bc79f":[6,3,0,0,0,3370,1],
 "classMR_1_1Const__VoxelBitSet.html":[6,3,0,0,0,3371],
 "classMR_1_1Const__VoxelBitSet.html#a015a6b64da14354a0ffc844481984ecb":[6,3,0,0,0,3371,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1Const__ZCompensateParams.html#aabbd7f837e4c4725e7f9b11893b69c58":[6,3,0,0,0,3395,1],
 "classMR_1_1Const__ZCompensateParams.html#ab0ea2b58cb673068e52a3a485f972e71":[6,3,0,0,0,3395,5],
 "classMR_1_1Const__ZCompensateParams.html#ac65351c4041f02d81d9849146338ff77":[6,3,0,0,0,3395,0],
-"classMR_1_1Const__ZCompensateParams.html#af1414784cc68b06ec073ed8bc2d7eec5":[6,3,0,0,0,3395,6],
-"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[6,3,0,0,0,3395,3]
+"classMR_1_1Const__ZCompensateParams.html#af1414784cc68b06ec073ed8bc2d7eec5":[6,3,0,0,0,3395,6]
 };

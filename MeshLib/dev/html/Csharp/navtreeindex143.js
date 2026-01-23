@@ -1,5 +1,6 @@
 var NAVTREEINDEX143 =
 {
+"classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume.html":[6,3,0,0,0,3935],
 "classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume.html#abf5f3be5aa8dcc07b4b7a4bb847add10":[6,3,0,0,0,3935,0],
 "classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume.html#ad1de716b693167e5c2f1adbcdf6b6181":[6,3,0,0,0,3935,1],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html":[6,3,0,0,0,3928],
@@ -248,6 +249,5 @@ var NAVTREEINDEX143 =
 "classMR_1_1__ByValue__AllLocalTriangulations.html":[6,3,0,0,0,27],
 "classMR_1_1__ByValue__AngleMeasurementObject.html":[6,3,0,0,0,28],
 "classMR_1_1__ByValue__ArcInterpolationParams.html":[6,3,0,0,0,29],
-"classMR_1_1__ByValue__BMap__MRFaceId__MRUint64T.html":[6,3,0,0,0,33],
-"classMR_1_1__ByValue__BMap__MRGraphEdgeId__MRGraphEdgeId.html":[6,3,0,0,0,34]
+"classMR_1_1__ByValue__BMap__MRFaceId__MRUint64T.html":[6,3,0,0,0,33]
 };

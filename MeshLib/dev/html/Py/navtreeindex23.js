@@ -56,8 +56,9 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1Tgt2SrcMaps.html#a54a22aeedf27ef2c72ab013747b25b6e":[6,1,0,0,1,1057,0],
 "classmrmeshpy_1_1ThickenParams.html":[6,1,0,0,1,1058],
 "classmrmeshpy_1_1ThickenParams.html#a362cbb3b1a58604439dd45fc3ef94185":[6,1,0,0,1,1058,0],
-"classmrmeshpy_1_1ThickenParams.html#a3d53d27d47a4d3cf8a57a59e9eb83052":[6,1,0,0,1,1058,1],
-"classmrmeshpy_1_1ThickenParams.html#a5c8ec76ba9d465be9547bca7c18f2298":[6,1,0,0,1,1058,3],
+"classmrmeshpy_1_1ThickenParams.html#a5c8ec76ba9d465be9547bca7c18f2298":[6,1,0,0,1,1058,4],
+"classmrmeshpy_1_1ThickenParams.html#a7da1e0d88434f2e8a447f3da5408b5a7":[6,1,0,0,1,1058,1],
+"classmrmeshpy_1_1ThickenParams.html#a85cf04d32a67581a54523563fc64da89":[6,1,0,0,1,1058,3],
 "classmrmeshpy_1_1ThickenParams.html#ae51a7b4fabd315aa9506425eea7cefa9":[6,1,0,0,1,1058,2],
 "classmrmeshpy_1_1TiffParameters.html":[6,1,0,0,1,1059],
 "classmrmeshpy_1_1TiffParameters.html#a1f45c922ee0e86478df53b1824c96008":[6,1,0,0,1,1059,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1UiRenderManager.html#afda41d16e224514c07953d1ec83c8617":[6,1,0,0,1,1079,2],
 "classmrmeshpy_1_1UiRenderParams.html":[6,1,0,0,1,1080],
 "classmrmeshpy_1_1UiRenderParams.html#a7a4b085ddcea2ecb7630fc93037e91e6":[6,1,0,0,1,1080,0],
-"classmrmeshpy_1_1UiRenderParams.html#ab3fce8014aa7c024a0b8c85de8b7e430":[6,1,0,0,1,1080,1],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,0,0,1,1090]
+"classmrmeshpy_1_1UiRenderParams.html#ab3fce8014aa7c024a0b8c85de8b7e430":[6,1,0,0,1,1080,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1Edges.html#a024c09e0c8bc2af935cb542d0b39660f":[6,3,0,0,0,3440,8],
 "classMR_1_1Edges.html#a16fa410e1092eb194e3a51a6112a7f7c":[6,3,0,0,0,3440,0],
 "classMR_1_1Edges.html#a2e08c2f3b804e57d1db86f9025be8069":[6,3,0,0,0,3440,24],
 "classMR_1_1Edges.html#a45e4b4978525f06830af983faa849155":[6,3,0,0,0,3440,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1Expected__MRVoxelBitSet__StdString.html#aca04123fe07b5e4f121d793e2aa42b6d":[6,3,0,0,0,3478,0],
 "classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html":[6,3,0,0,0,3480],
 "classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#a1835a9998be8ea41be05cea778cfb43b":[6,3,0,0,0,3480,4],
-"classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#a65f31c04bb9416c487682c63ec257f4d":[6,3,0,0,0,3480,0],
-"classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#a84f322ac265d665db2123d611b8a9abd":[6,3,0,0,0,3480,3]
+"classMR_1_1Expected__MRVoxelsLoadDicomVolumeAsVdb__StdString.html#a65f31c04bb9416c487682c63ec257f4d":[6,3,0,0,0,3480,0]
 };

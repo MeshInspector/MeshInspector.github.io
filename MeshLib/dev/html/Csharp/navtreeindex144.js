@@ -1,5 +1,6 @@
 var NAVTREEINDEX144 =
 {
+"classMR_1_1__ByValue__BMap__MRGraphEdgeId__MRGraphEdgeId.html":[6,3,0,0,0,34],
 "classMR_1_1__ByValue__BMap__MRGraphVertId__MRGraphVertId.html":[6,3,0,0,0,35],
 "classMR_1_1__ByValue__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html":[6,3,0,0,0,36],
 "classMR_1_1__ByValue__BMap__MRNodeId__MRNodeId.html":[6,3,0,0,0,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX144 =
 "classMR_1_1__ByValue__LinesLoadSettings.html":[6,3,0,0,0,260],
 "classMR_1_1__ByValue__LoadedObjectT.html":[6,3,0,0,0,262],
 "classMR_1_1__ByValue__LoadedObjectT__MRObjectLines.html":[6,3,0,0,0,263],
-"classMR_1_1__ByValue__LoadedObjectT__MRObjectMesh.html":[6,3,0,0,0,264],
-"classMR_1_1__ByValue__LoadedObjectT__MRObjectPoints.html":[6,3,0,0,0,265]
+"classMR_1_1__ByValue__LoadedObjectT__MRObjectMesh.html":[6,3,0,0,0,264]
 };

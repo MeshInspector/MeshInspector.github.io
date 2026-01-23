@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1Std_1_1__ByValue__Pair__StdVectorMRVertBitSet__Int.html":[6,3,0,0,0,3803,108],
 "classMR_1_1Std_1_1__ByValue__Set__StdString.html":[6,3,0,0,0,3803,109],
 "classMR_1_1Std_1_1__ByValue__SharedPtr__ConstVoid.html":[6,3,0,0,0,3803,110],
 "classMR_1_1Std_1_1__ByValue__SharedPtr__ConstVoid.html#a8e7f42e9fe7b7d1dc7044be6e12b7ebc":[6,3,0,0,0,3803,110,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1Std_1_1__ByValue__Vector__StdVectorMROffsetContoursOrigins.html":[6,3,0,0,0,3803,257],
 "classMR_1_1Std_1_1__ByValue__Vector__StdVectorMRPlanarTriangulationIntersectionInfo.html":[6,3,0,0,0,3803,258],
 "classMR_1_1Std_1_1__ByValue__Vector__StdVectorMRVarEdgeTri.html":[6,3,0,0,0,3803,259],
-"classMR_1_1Std_1_1__ByValue__Vector__StdVectorMRVector2d.html":[6,3,0,0,0,3803,260],
-"classMR_1_1Std_1_1__ByValue__Vector__StdVectorMRVector2f.html":[6,3,0,0,0,3803,261]
+"classMR_1_1Std_1_1__ByValue__Vector__StdVectorMRVector2d.html":[6,3,0,0,0,3803,260]
 };

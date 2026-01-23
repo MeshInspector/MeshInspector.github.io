@@ -57,9 +57,10 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__Tgt2SrcMaps.html#ac712afbda1cb906da09f21ee74dc517f":[6,3,0,0,0,3235,2],
 "classMR_1_1Const__ThickenParams.html":[6,3,0,0,0,3236],
 "classMR_1_1Const__ThickenParams.html#a03c1d5c141277798e0f38a061838190f":[6,3,0,0,0,3236,2],
-"classMR_1_1Const__ThickenParams.html#a308afaa814e81d10f16b8b78d3d8b6db":[6,3,0,0,0,3236,4],
+"classMR_1_1Const__ThickenParams.html#a308afaa814e81d10f16b8b78d3d8b6db":[6,3,0,0,0,3236,5],
+"classMR_1_1Const__ThickenParams.html#aa1b7317efa876502ec764866b2b7d834":[6,3,0,0,0,3236,4],
+"classMR_1_1Const__ThickenParams.html#aa294f6ec435f59413cbab5fb6edcedde":[6,3,0,0,0,3236,1],
 "classMR_1_1Const__ThickenParams.html#ac5c290093762ae445139c0d59eca6762":[6,3,0,0,0,3236,3],
-"classMR_1_1Const__ThickenParams.html#afa93215f7e5e82ecbd1e4ea82b0542c2":[6,3,0,0,0,3236,1],
 "classMR_1_1Const__ThickenParams.html#afe54598202a9d798f9903db99c5bf5d4":[6,3,0,0,0,3236,0],
 "classMR_1_1Const__TiffParameters.html":[6,3,0,0,0,3237],
 "classMR_1_1Const__TiffParameters.html#a765e48867a2562c67d68104ee6b55d26":[6,3,0,0,0,3237,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__UiRenderManager.html#a977b1da1a53627718fafa8aeca10bbf0":[6,3,0,0,0,3255,0],
 "classMR_1_1Const__UiRenderParams.html":[6,3,0,0,0,3256],
 "classMR_1_1Const__UiRenderParams.html#ae91c3b9c2bf31610726774cde70c03ab":[6,3,0,0,0,3256,1],
-"classMR_1_1Const__UiRenderParams.html#afeed344b045b2afe7accd804f5aa9bb6":[6,3,0,0,0,3256,0],
-"classMR_1_1Const__UndirEdgeColorMapAggregator.html":[6,3,0,0,0,3266]
+"classMR_1_1Const__UiRenderParams.html#afeed344b045b2afe7accd804f5aa9bb6":[6,3,0,0,0,3256,0]
 };

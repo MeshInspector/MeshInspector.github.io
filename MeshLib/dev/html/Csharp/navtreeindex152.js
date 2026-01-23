@@ -1,5 +1,6 @@
 var NAVTREEINDEX152 =
 {
+"classMR_1_1__InOptMut__Matrix3b.html":[6,3,0,0,0,1957],
 "classMR_1_1__InOptMut__Matrix3d.html":[6,3,0,0,0,1958],
 "classMR_1_1__InOptMut__Matrix3f.html":[6,3,0,0,0,1959],
 "classMR_1_1__InOptMut__Matrix3i.html":[6,3,0,0,0,1960],
@@ -248,6 +249,5 @@ var NAVTREEINDEX152 =
 "classMR_1_1__InOptMut__SceneColors.html":[6,3,0,0,0,2203],
 "classMR_1_1__InOptMut__SceneRoot.html":[6,3,0,0,0,2204],
 "classMR_1_1__InOptMut__SceneRootObject.html":[6,3,0,0,0,2205],
-"classMR_1_1__InOptMut__SceneSettings.html":[6,3,0,0,0,2206],
-"classMR_1_1__InOptMut__SearchPathSettings.html":[6,3,0,0,0,2207]
+"classMR_1_1__InOptMut__SceneSettings.html":[6,3,0,0,0,2206]
 };

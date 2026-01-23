@@ -1,5 +1,6 @@
 var NAVTREEINDEX145 =
 {
+"classMR_1_1__ByValue__LoadedObjectT__MRObjectPoints.html":[6,3,0,0,0,265],
 "classMR_1_1__ByValue__LoadedObjectT__MRObjectVoxels.html":[6,3,0,0,0,266],
 "classMR_1_1__ByValue__LoadedObjects.html":[6,3,0,0,0,261],
 "classMR_1_1__ByValue__MakeSignedByWindingNumberSettings.html":[6,3,0,0,0,267],
@@ -248,6 +249,5 @@ var NAVTREEINDEX145 =
 "classMR_1_1__ByValue__Vector__MRQuadraticForm3f__MRVertId.html#aa3d43afbbd179b609c1f777384c516e0":[6,3,0,0,0,460,0],
 "classMR_1_1__ByValue__Vector__MRRegionId__MRRegionId.html":[6,3,0,0,0,461],
 "classMR_1_1__ByValue__Vector__MRRegionId__MRRegionId.html#ae4001413243998a940c5a06f81e43b88":[6,3,0,0,0,461,0],
-"classMR_1_1__ByValue__Vector__MRTextureId__MRTextureId.html":[6,3,0,0,0,462],
-"classMR_1_1__ByValue__Vector__MRTextureId__MRTextureId.html#a0bd9bba04b559876dfe45372c5710129":[6,3,0,0,0,462,0]
+"classMR_1_1__ByValue__Vector__MRTextureId__MRTextureId.html":[6,3,0,0,0,462]
 };

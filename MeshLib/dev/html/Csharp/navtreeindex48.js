@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1Const__UndirEdgeColorMapAggregator.html":[6,3,0,0,0,3266],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html#a443958c4c21c753228e1993a11878b81":[6,3,0,0,0,3266,1],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html#ab03ae85f24926c0748a88c384bd89c2a":[6,3,0,0,0,3266,0],
 "classMR_1_1Const__UndirectedEdge2RegionMap.html":[6,3,0,0,0,3257],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1Const__VarEdgeTri_1_1__InOptMut__FlaggedTri.html":[6,3,0,0,0,3277,1],
 "classMR_1_1Const__VdbVolume.html":[6,3,0,0,0,3278],
 "classMR_1_1Const__VdbVolume.html#a015faede1e25e577ee8d9c2fffab1027":[6,3,0,0,0,3278,2],
-"classMR_1_1Const__VdbVolume.html#a17276dd201df1a737ba6751e30de2911":[6,3,0,0,0,3278,4],
-"classMR_1_1Const__VdbVolume.html#a19f6ba127aace25e008fe8bb6fce7e95":[6,3,0,0,0,3278,8]
+"classMR_1_1Const__VdbVolume.html#a17276dd201df1a737ba6751e30de2911":[6,3,0,0,0,3278,4]
 };

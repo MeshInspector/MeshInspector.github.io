@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[6,3,0,0,0,3395,3],
 "classMR_1_1Const__ZeroOnMove__MRUint64T.html":[6,3,0,0,0,3396],
 "classMR_1_1Const__ZeroOnMove__MRUint64T.html#aae81e2d17703e9a006b0018a8f713145":[6,3,0,0,0,3396,1],
 "classMR_1_1Const__ZeroOnMove__MRUint64T.html#ac037e154f2c045e7e741379b82638a1a":[6,3,0,0,0,3396,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1EdgeScalars.html#ac09e1b97fae02e76bdb04f63810bc637":[6,3,0,0,0,3441,4],
 "classMR_1_1EdgeScalars.html#adc23501012a5fcfa7798903327c0a101":[6,3,0,0,0,3441,6],
 "classMR_1_1EdgeScalars.html#afbc3597bb5f9333cc7899771ea71e0cb":[6,3,0,0,0,3441,8],
-"classMR_1_1Edges.html":[6,3,0,0,0,3440],
-"classMR_1_1Edges.html#a024c09e0c8bc2af935cb542d0b39660f":[6,3,0,0,0,3440,8]
+"classMR_1_1Edges.html":[6,3,0,0,0,3440]
 };
