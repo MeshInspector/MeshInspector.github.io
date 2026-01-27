@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,2,206],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[6,0,2,0,2,207],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[6,0,2,0,2,208],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,2,0,2,209],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,2,0,2,210],
@@ -208,6 +210,7 @@ var NAVTREEINDEX21 =
 "structMR_1_1SpaceMouseUpListener.html":[6,0,2,0,2,349],
 "structMR_1_1SpaceMouse_1_1Action.html":[6,0,2,0,2,19,0],
 "structMR_1_1SpaceMouse_1_1Parameters.html":[6,0,2,0,2,19,5],
+"structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[6,0,2,0,2,19,5,0],
 "structMR_1_1Sphere.html":[6,0,0,0,23],
 "structMR_1_1Sphere.html#a3bcdf3d7bbfda09b3708d12b755ac6f0":[6,0,0,0,23,0],
 "structMR_1_1Sphere.html#a7be349cb025864bef77e267cefdccd28":[6,0,0,0,23,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "structMR_1_1SymMatrix3.html#af018697d9a39a22f02a3c3cbdfe3ba5c":[6,0,0,0,7,5,8],
 "structMR_1_1SymMatrix3.html#afc689ce07450f684b99051e555894ee7":[6,0,0,0,7,5,6],
 "structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html#a27b6e7fc3e23fc7528ad7a37f8629668":[6,0,0,0,7,6,3],
-"structMR_1_1SymMatrix4.html#a3800df67aa75d0782b005ad6334cad45":[6,0,0,0,7,6,0],
-"structMR_1_1SymMatrix4.html#a4fb698a206dc30bd585a5dab6ac9c8d1":[6,0,0,0,7,6,5],
-"structMR_1_1SymMatrix4.html#a66114790de91e3bbd34e6ae1d04a97e5":[6,0,0,0,7,6,4]
+"structMR_1_1SymMatrix4.html#a27b6e7fc3e23fc7528ad7a37f8629668":[6,0,0,0,7,6,3]
 };

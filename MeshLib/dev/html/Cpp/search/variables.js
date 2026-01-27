@@ -269,6 +269,7 @@ var searchData=
   ['subdivideparts_19',['subdivideParts',['../structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4',1,'MR::DecimateSettings']]],
   ['suffix_20',['suffix',['../structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082',1,'MR::UI::SeparatorParams']]],
   ['suffixframecolor_21',['suffixFrameColor',['../structMR_1_1UI_1_1SeparatorParams.html#a4be657806c20486d8379ad50e45e543d',1,'MR::UI::SeparatorParams']]],
-  ['surfacepointparams_22',['surfacePointParams',['../structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7',1,'MR::PickPointManager::Params']]],
-  ['sx_23',['Sx',['../group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c',1,'MR::IntersectionPrecomputes::Sx'],['../structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f',1,'MR::IntersectionPrecomputes2::Sx']]],
+  ['suppressmousescrollzoom_22',['suppressMouseScrollZoom',['../structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f',1,'MR::SpaceMouse::Parameters']]],
+  ['surfacepointparams_23',['surfacePointParams',['../structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7',1,'MR::PickPointManager::Params']]],
+  ['sx_24',['Sx',['../group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c',1,'MR::IntersectionPrecomputes::Sx'],['../structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f',1,'MR::IntersectionPrecomputes2::Sx']]],
 ];
