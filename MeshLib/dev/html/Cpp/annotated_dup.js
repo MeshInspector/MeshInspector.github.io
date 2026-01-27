@@ -160,11 +160,11 @@ var annotated_dup =
       ] ],
       [ "SpaceMouse", null, [
         [ "Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
-        [ "Controller", "classMR_1_1SpaceMouse_1_1Controller.html", null ],
+        [ "Controller", "classMR_1_1SpaceMouse_1_1Controller.html", "classMR_1_1SpaceMouse_1_1Controller" ],
         [ "Device", "classMR_1_1SpaceMouse_1_1Device.html", "classMR_1_1SpaceMouse_1_1Device" ],
         [ "Handler", "classMR_1_1SpaceMouse_1_1Handler.html", "classMR_1_1SpaceMouse_1_1Handler" ],
         [ "HandlerHidapi", "classMR_1_1SpaceMouse_1_1HandlerHidapi.html", "classMR_1_1SpaceMouse_1_1HandlerHidapi" ],
-        [ "Parameters", "structMR_1_1SpaceMouse_1_1Parameters.html", null ]
+        [ "Parameters", "structMR_1_1SpaceMouse_1_1Parameters.html", "structMR_1_1SpaceMouse_1_1Parameters" ]
       ] ],
       [ "UI", null, [
         [ "TestEngine", null, [

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,2,0,2,99,0,2],
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[6,0,2,0,2,99,0,0],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[6,0,2,0,2,99,0,1],
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,2,100,0],
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,2,0,2,2,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "structMR_1_1NoModelCheck.html":[6,0,2,0,2,199],
 "structMR_1_1NoVisualRepresentationCheck.html":[6,0,2,0,2,201],
 "structMR_1_1NotificationTags.html":[6,0,2,0,2,200],
-"structMR_1_1ObjKindTraits.html":[6,0,2,0,2,205],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,2,206],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[6,0,2,0,2,207]
+"structMR_1_1ObjKindTraits.html":[6,0,2,0,2,205]
 };
