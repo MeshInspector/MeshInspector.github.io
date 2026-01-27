@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MultiwayAligningTransform =
 [
     [ "Stabilizer", "classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html", "classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" ],
-    [ "__init__", "classmrmeshpy_1_1MultiwayAligningTransform.html#a2db343f946a5b354781a0f30a6581534", null ],
     [ "__init__", "classmrmeshpy_1_1MultiwayAligningTransform.html#a8c6e4084649c4b0472c23f43666a6c88", null ],
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#ab224475675855739431f7747ca691553", null ],
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#a69a6c2e01e612aac5dde805871616e7d", null ],
@@ -9,6 +8,5 @@ var classmrmeshpy_1_1MultiwayAligningTransform =
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#a4f7172fda936c9789ec7f605a72e39f4", null ],
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#a8c1b01e022ca074cd53ec698621bfbd7", null ],
     [ "reset", "classmrmeshpy_1_1MultiwayAligningTransform.html#a7e84e9c065bdbee8f9a370aeb57547f9", null ],
-    [ "solve", "classmrmeshpy_1_1MultiwayAligningTransform.html#a4a84d364392ffbfc62a812f368fe365b", null ],
     [ "solve", "classmrmeshpy_1_1MultiwayAligningTransform.html#a6b6243aade4dfa986d35b65bc8d92d1c", null ]
 ];

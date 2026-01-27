@@ -155,7 +155,7 @@ $(function(){initNavTree('group__SurfacePathSubgroup.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -164,81 +164,63 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5">MR::PathError::InternalError</a>
  }</td></tr>
 <tr class="separator:gaf2c93aa0da8a9748d23340f32349a8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3887057b7aa95d9993b5ce57130c25a6" id="r_ga3887057b7aa95d9993b5ce57130c25a6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3887057b7aa95d9993b5ce57130c25a6">MR::ExtremeEdgeType</a> { <a class="el" href="#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a">MR::ExtremeEdgeType::Ridge</a>
-, <a class="el" href="#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4">MR::ExtremeEdgeType::Gorge</a>
+<tr class="memitem:ga3887057b7aa95d9993b5ce57130c25a6" id="r_ga3887057b7aa95d9993b5ce57130c25a6"><td class="memItemLeft" align="right" valign="top"><a id="ga3887057b7aa95d9993b5ce57130c25a6" name="ga3887057b7aa95d9993b5ce57130c25a6"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>ExtremeEdgeType</b> { <b>Ridge</b>
+, <b>Gorge</b>
  }</td></tr>
 <tr class="separator:ga3887057b7aa95d9993b5ce57130c25a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac84bc08e1e95706c67d413f315fcf9d7" id="r_gac84bc08e1e95706c67d413f315fcf9d7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac84bc08e1e95706c67d413f315fcf9d7">MR::toString</a> (<a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> error)</td></tr>
+<tr class="memitem:gac84bc08e1e95706c67d413f315fcf9d7" id="r_gac84bc08e1e95706c67d413f315fcf9d7"><td class="memItemLeft" align="right" valign="top"><a id="gac84bc08e1e95706c67d413f315fcf9d7" name="gac84bc08e1e95706c67d413f315fcf9d7"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>MR::toString</b> (PathError error)</td></tr>
 <tr class="separator:gac84bc08e1e95706c67d413f315fcf9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga446cf8a4654ec1a589f1ffd89762aa29" id="r_ga446cf8a4654ec1a589f1ffd89762aa29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga446cf8a4654ec1a589f1ffd89762aa29">MR::computeSurfacePath</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, int maxGeodesicIters=5, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</td></tr>
+<tr class="memitem:ga446cf8a4654ec1a589f1ffd89762aa29" id="r_ga446cf8a4654ec1a589f1ffd89762aa29"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; SurfacePath, PathError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga446cf8a4654ec1a589f1ffd89762aa29">MR::computeSurfacePath</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;end, int maxGeodesicIters=5, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *vertRegion=nullptr, <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *outSurfaceDistances=nullptr)</td></tr>
 <tr class="separator:ga446cf8a4654ec1a589f1ffd89762aa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8359c707ab87c6591777e5c2809c7468" id="r_ga8359c707ab87c6591777e5c2809c7468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8359c707ab87c6591777e5c2809c7468">MR::computeGeodesicPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, <a class="el" href="namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a> atype=<a class="el" href="namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435">GeodesicPathApprox::FastMarching</a>, int maxGeodesicIters=100)</td></tr>
+<tr class="memitem:ga8359c707ab87c6591777e5c2809c7468" id="r_ga8359c707ab87c6591777e5c2809c7468"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; SurfacePath, PathError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8359c707ab87c6591777e5c2809c7468">MR::computeGeodesicPath</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;end, GeodesicPathApprox atype=GeodesicPathApprox::FastMarching, int maxGeodesicIters=100)</td></tr>
 <tr class="memdesc:ga8359c707ab87c6591777e5c2809c7468"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of iterations to reduce approximate path length and convert it in geodesic path  <br /></td></tr>
 <tr class="separator:ga8359c707ab87c6591777e5c2809c7468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d44e12ec3a4b21e1ebb753c0a84b8ca" id="r_ga8d44e12ec3a4b21e1ebb753c0a84b8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d44e12ec3a4b21e1ebb753c0a84b8ca">MR::computeGeodesicPathApprox</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, <a class="el" href="namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a> atype)</td></tr>
+<tr class="memitem:ga8d44e12ec3a4b21e1ebb753c0a84b8ca" id="r_ga8d44e12ec3a4b21e1ebb753c0a84b8ca"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; SurfacePath, PathError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d44e12ec3a4b21e1ebb753c0a84b8ca">MR::computeGeodesicPathApprox</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;end, GeodesicPathApprox atype)</td></tr>
 <tr class="separator:ga8d44e12ec3a4b21e1ebb753c0a84b8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52601966a3d67cfd9b26ad1e586cd6f4" id="r_ga52601966a3d67cfd9b26ad1e586cd6f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52601966a3d67cfd9b26ad1e586cd6f4">MR::computeFastMarchingPath</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</td></tr>
+<tr class="memitem:ga52601966a3d67cfd9b26ad1e586cd6f4" id="r_ga52601966a3d67cfd9b26ad1e586cd6f4"><td class="memItemLeft" align="right" valign="top">MRMESH_API Expected&lt; SurfacePath, PathError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52601966a3d67cfd9b26ad1e586cd6f4">MR::computeFastMarchingPath</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;end, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *vertRegion=nullptr, <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *outSurfaceDistances=nullptr)</td></tr>
 <tr class="separator:ga52601966a3d67cfd9b26ad1e586cd6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga563ea0f701cd05e6995193631495466e" id="r_ga563ea0f701cd05e6995193631495466e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga563ea0f701cd05e6995193631495466e" id="r_ga563ea0f701cd05e6995193631495466e"><td class="memItemLeft" align="right" valign="top">MRMESH_API SurfacePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;field, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:ga563ea0f701cd05e6995193631495466e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga30a8af69c2b3595b324d9f12a008c9cb" id="r_ga30a8af69c2b3595b324d9f12a008c9cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30a8af69c2b3595b324d9f12a008c9cb">MR::computeSteepestDescentPath</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> *outPath, const <a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga30a8af69c2b3595b324d9f12a008c9cb" id="r_ga30a8af69c2b3595b324d9f12a008c9cb"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30a8af69c2b3595b324d9f12a008c9cb">MR::computeSteepestDescentPath</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;field, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, SurfacePath *outPath, const <a class="elRef" href="../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:ga30a8af69c2b3595b324d9f12a008c9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa46e9820d021f3412af4f1c59c14aaa2" id="r_gaa46e9820d021f3412af4f1c59c14aaa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a> (const MeshPart &amp;mp, const VertScalars &amp;field, VertId v)</td></tr>
-<tr class="memdesc:gaa46e9820d021f3412af4f1c59c14aaa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point along minus maximal gradient on the boundary of first ring boundary around given vertex  <br /></td></tr>
+<tr class="memitem:gaa46e9820d021f3412af4f1c59c14aaa2" id="r_gaa46e9820d021f3412af4f1c59c14aaa2"><td class="memItemLeft" align="right" valign="top"><a id="gaa46e9820d021f3412af4f1c59c14aaa2" name="gaa46e9820d021f3412af4f1c59c14aaa2"></a>
+MRMESH_API MeshEdgePoint&#160;</td><td class="memItemRight" valign="bottom"><b>MR::findSteepestDescentPoint</b> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;field, <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="memdesc:gaa46e9820d021f3412af4f1c59c14aaa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point along minus maximal gradient on the boundary of first ring boundary around given vertex <br /></td></tr>
 <tr class="separator:gaa46e9820d021f3412af4f1c59c14aaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga03317f13dce667de5ec4fce7626aa415" id="r_ga03317f13dce667de5ec4fce7626aa415"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03317f13dce667de5ec4fce7626aa415">MR::findSteepestDescentPoint</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> &amp;ep)</td></tr>
-<tr class="memdesc:ga03317f13dce667de5ec4fce7626aa415"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of left and right edge triangles' union in case (ep) is inner edge point)  <br /></td></tr>
+<tr class="memitem:ga03317f13dce667de5ec4fce7626aa415" id="r_ga03317f13dce667de5ec4fce7626aa415"><td class="memItemLeft" align="right" valign="top"><a id="ga03317f13dce667de5ec4fce7626aa415" name="ga03317f13dce667de5ec4fce7626aa415"></a>
+MRMESH_API MeshEdgePoint&#160;</td><td class="memItemRight" valign="bottom"><b>MR::findSteepestDescentPoint</b> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;field, const MeshEdgePoint &amp;ep)</td></tr>
+<tr class="memdesc:ga03317f13dce667de5ec4fce7626aa415"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of left and right edge triangles' union in case (ep) is inner edge point) <br /></td></tr>
 <tr class="separator:ga03317f13dce667de5ec4fce7626aa415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga316d288d92ba2fc460dcc7d29398e084" id="r_ga316d288d92ba2fc460dcc7d29398e084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga316d288d92ba2fc460dcc7d29398e084">MR::findSteepestDescentPoint</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;tp)</td></tr>
-<tr class="memdesc:ga316d288d92ba2fc460dcc7d29398e084"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of the triangle itself in case (tp) is inner triangle point)  <br /></td></tr>
+<tr class="memitem:ga316d288d92ba2fc460dcc7d29398e084" id="r_ga316d288d92ba2fc460dcc7d29398e084"><td class="memItemLeft" align="right" valign="top"><a id="ga316d288d92ba2fc460dcc7d29398e084" name="ga316d288d92ba2fc460dcc7d29398e084"></a>
+MRMESH_API MeshEdgePoint&#160;</td><td class="memItemRight" valign="bottom"><b>MR::findSteepestDescentPoint</b> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;field, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;tp)</td></tr>
+<tr class="memdesc:ga316d288d92ba2fc460dcc7d29398e084"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of the triangle itself in case (tp) is inner triangle point) <br /></td></tr>
 <tr class="separator:ga316d288d92ba2fc460dcc7d29398e084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0bd366cd8b4e0bb2f8754392be22cb12" id="r_ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertScalars &amp;field, <a class="el" href="#ga3887057b7aa95d9993b5ce57130c25a6">ExtremeEdgeType</a> type)</td></tr>
-<tr class="memdesc:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes all edges in the mesh, where the field not-increases both in left and right triangles  <br /></td></tr>
+<tr class="memitem:ga0bd366cd8b4e0bb2f8754392be22cb12" id="r_ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memItemLeft" align="right" valign="top"><a id="ga0bd366cd8b4e0bb2f8754392be22cb12" name="ga0bd366cd8b4e0bb2f8754392be22cb12"></a>
+MRMESH_API <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MR::findExtremeEdges</b> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;field, ExtremeEdgeType type)</td></tr>
+<tr class="memdesc:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes all edges in the mesh, where the field not-increases both in left and right triangles <br /></td></tr>
 <tr class="separator:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5" id="r_ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;starts, const VertBitSet &amp;ends, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</td></tr>
+<tr class="memitem:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5" id="r_ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memItemLeft" align="right" valign="top">MRMESH_API HashMap&lt; <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a>, <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;starts, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;ends, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *vertRegion=nullptr, <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *outSurfaceDistances=nullptr)</td></tr>
 <tr class="separator:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa4dc30756e93cfc4cd2f88758193360" id="r_gaaa4dc30756e93cfc4cd2f88758193360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;vs)</td></tr>
+<tr class="memitem:gaaa4dc30756e93cfc4cd2f88758193360" id="r_gaaa4dc30756e93cfc4cd2f88758193360"><td class="memItemLeft" align="right" valign="top">MRMESH_API SurfacePaths&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;vs)</td></tr>
 <tr class="separator:gaaa4dc30756e93cfc4cd2f88758193360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacebe3b7371a72e49ddfbabc14fd008b4" id="r_gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;surfacePath)</td></tr>
-<tr class="memdesc:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of surface path  <br /></td></tr>
+<tr class="memitem:gacebe3b7371a72e49ddfbabc14fd008b4" id="r_gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memItemLeft" align="right" valign="top"><a id="gacebe3b7371a72e49ddfbabc14fd008b4" name="gacebe3b7371a72e49ddfbabc14fd008b4"></a>
+MRMESH_API float&#160;</td><td class="memItemRight" valign="bottom"><b>MR::surfacePathLength</b> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const SurfacePath &amp;surfacePath)</td></tr>
+<tr class="memdesc:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of surface path <br /></td></tr>
 <tr class="separator:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga874e90d25d0cf437f34834d739fa588c" id="r_ga874e90d25d0cf437f34834d739fa588c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga874e90d25d0cf437f34834d739fa588c">MR::surfacePathToContour3f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;line)</td></tr>
-<tr class="memdesc:ga874e90d25d0cf437f34834d739fa588c"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts lines on mesh in 3D contours by computing coordinate of each point  <br /></td></tr>
+<tr class="memitem:ga874e90d25d0cf437f34834d739fa588c" id="r_ga874e90d25d0cf437f34834d739fa588c"><td class="memItemLeft" align="right" valign="top"><a id="ga874e90d25d0cf437f34834d739fa588c" name="ga874e90d25d0cf437f34834d739fa588c"></a>
+MRMESH_API Contour3f&#160;</td><td class="memItemRight" valign="bottom"><b>MR::surfacePathToContour3f</b> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const SurfacePath &amp;line)</td></tr>
+<tr class="memdesc:ga874e90d25d0cf437f34834d739fa588c"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts lines on mesh in 3D contours by computing coordinate of each point <br /></td></tr>
 <tr class="separator:ga874e90d25d0cf437f34834d739fa588c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8dbc7e2393ed3d315467293b5b2ba1e2" id="r_ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR::surfacePathsToContours3f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> &amp;lines)</td></tr>
+<tr class="memitem:ga8dbc7e2393ed3d315467293b5b2ba1e2" id="r_ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memItemLeft" align="right" valign="top"><a id="ga8dbc7e2393ed3d315467293b5b2ba1e2" name="ga8dbc7e2393ed3d315467293b5b2ba1e2"></a>
+MRMESH_API Contours3f&#160;</td><td class="memItemRight" valign="bottom"><b>MR::surfacePathsToContours3f</b> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const SurfacePaths &amp;lines)</td></tr>
 <tr class="separator:ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ga3887057b7aa95d9993b5ce57130c25a6" name="ga3887057b7aa95d9993b5ce57130c25a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3887057b7aa95d9993b5ce57130c25a6">&#9670;&#160;</a></span>ExtremeEdgeType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#ga3887057b7aa95d9993b5ce57130c25a6">MR::ExtremeEdgeType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a" name="gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a"></a>Ridge&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4" name="gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4"></a>Gorge&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <a id="gaf2c93aa0da8a9748d23340f32349a8b8" name="gaf2c93aa0da8a9748d23340f32349a8b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf2c93aa0da8a9748d23340f32349a8b8">&#9670;&#160;</a></span>PathError</h2>
 
@@ -249,7 +231,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">MR::PathError</a></td>
+          <td class="memname">enum class MR::PathError</td>
         </tr>
       </table>
   </td>
@@ -275,29 +257,29 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, VertId &gt; MR::computeClosestSurfacePathTargets </td>
+          <td class="memname">MRMESH_API HashMap&lt; <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a>, <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> &gt; MR::computeClosestSurfacePathTargets </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>ends</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ends</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VertScalars *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -317,29 +299,29 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeFastMarchingPath </td>
+          <td class="memname">MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeFastMarchingPath </td>
           <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VertScalars *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -354,24 +336,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeGeodesicPath </td>
+          <td class="memname">MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeGeodesicPath </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a></td>          <td class="paramname"><span class="paramname"><em>atype</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435">GeodesicPathApprox::FastMarching</a></span>, </td>
+          <td class="paramtype">GeodesicPathApprox</td>          <td class="paramname"><span class="paramname"><em>atype</em></span><span class="paramdefsep"> = </span><span class="paramdefval">GeodesicPathApprox::FastMarching</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -393,24 +375,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeGeodesicPathApprox </td>
+          <td class="memname">MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeGeodesicPathApprox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a></td>          <td class="paramname"><span class="paramname"><em>atype</em></span>&#160;)</td>
+          <td class="paramtype">GeodesicPathApprox</td>          <td class="paramname"><span class="paramname"><em>atype</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -428,24 +410,24 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> MR::computeSteepestDescentPath </td>
+          <td class="memname">MRMESH_API SurfacePath MR::computeSteepestDescentPath </td>
           <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -465,29 +447,29 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::computeSteepestDescentPath </td>
+          <td class="memname">MRMESH_API void MR::computeSteepestDescentPath </td>
           <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> *</td>          <td class="paramname"><span class="paramname"><em>outPath</em></span>, </td>
+          <td class="paramtype">SurfacePath *</td>          <td class="paramname"><span class="paramname"><em>outPath</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -507,19 +489,19 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeSurfacePath </td>
+          <td class="memname">MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeSurfacePath </td>
           <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -529,12 +511,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VertScalars *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -548,150 +530,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga0bd366cd8b4e0bb2f8754392be22cb12" name="ga0bd366cd8b4e0bb2f8754392be22cb12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0bd366cd8b4e0bb2f8754392be22cb12">&#9670;&#160;</a></span>findExtremeEdges()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet MR::findExtremeEdges </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#ga3887057b7aa95d9993b5ce57130c25a6">ExtremeEdgeType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes all edges in the mesh, where the field not-increases both in left and right triangles </p>
-
-</div>
-</div>
-<a id="ga03317f13dce667de5ec4fce7626aa415" name="ga03317f13dce667de5ec4fce7626aa415"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03317f13dce667de5ec4fce7626aa415">&#9670;&#160;</a></span>findSteepestDescentPoint() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> MR::findSteepestDescentPoint </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ep</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of left and right edge triangles' union in case (ep) is inner edge point) </p>
-
-</div>
-</div>
-<a id="ga316d288d92ba2fc460dcc7d29398e084" name="ga316d288d92ba2fc460dcc7d29398e084"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga316d288d92ba2fc460dcc7d29398e084">&#9670;&#160;</a></span>findSteepestDescentPoint() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> MR::findSteepestDescentPoint </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tp</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of the triangle itself in case (tp) is inner triangle point) </p>
-
-</div>
-</div>
-<a id="gaa46e9820d021f3412af4f1c59c14aaa2" name="gaa46e9820d021f3412af4f1c59c14aaa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa46e9820d021f3412af4f1c59c14aaa2">&#9670;&#160;</a></span>findSteepestDescentPoint() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> MR::findSteepestDescentPoint </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>finds the point along minus maximal gradient on the boundary of first ring boundary around given vertex </p>
-
-</div>
-</div>
 <a id="gaaa4dc30756e93cfc4cd2f88758193360" name="gaaa4dc30756e93cfc4cd2f88758193360"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaaa4dc30756e93cfc4cd2f88758193360">&#9670;&#160;</a></span>getSurfacePathsViaVertices()</h2>
 
@@ -699,110 +537,18 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> MR::getSurfacePathsViaVertices </td>
+          <td class="memname">MRMESH_API SurfacePaths MR::getSurfacePathsViaVertices </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices </p>
-
-</div>
-</div>
-<a id="gacebe3b7371a72e49ddfbabc14fd008b4" name="gacebe3b7371a72e49ddfbabc14fd008b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacebe3b7371a72e49ddfbabc14fd008b4">&#9670;&#160;</a></span>surfacePathLength()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::surfacePathLength </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>computes the length of surface path </p>
-
-</div>
-</div>
-<a id="ga8dbc7e2393ed3d315467293b5b2ba1e2" name="ga8dbc7e2393ed3d315467293b5b2ba1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8dbc7e2393ed3d315467293b5b2ba1e2">&#9670;&#160;</a></span>surfacePathsToContours3f()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> MR::surfacePathsToContours3f </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lines</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga874e90d25d0cf437f34834d739fa588c" name="ga874e90d25d0cf437f34834d739fa588c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga874e90d25d0cf437f34834d739fa588c">&#9670;&#160;</a></span>surfacePathToContour3f()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a> MR::surfacePathToContour3f </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>converts lines on mesh in 3D contours by computing coordinate of each point </p>
-
-</div>
-</div>
-<a id="gac84bc08e1e95706c67d413f315fcf9d7" name="gac84bc08e1e95706c67d413f315fcf9d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac84bc08e1e95706c67d413f315fcf9d7">&#9670;&#160;</a></span>toString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MR::toString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a></td>          <td class="paramname"><span class="paramname"><em>error</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

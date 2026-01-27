@@ -148,14 +148,14 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">MRHeapBytes.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRHeapBytes_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMacros_8h.html">MRMacros.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMacros.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -163,7 +163,7 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">   16</a></span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>( <span class="keyword">const</span> std::vector&lt;T&gt; &amp; vec )</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> hasHeapBytes = <span class="keyword">requires</span>( <span class="keyword">const</span> T&amp; t ) { t.heapBytes(); };</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> hasHeapBytes = <span class="keyword">requires</span>( <span class="keyword">const</span> T&amp; t ) { t.<a class="code hl_functionRef" href="../Csharp/classMR.html#a13350f0fbcfbe4074e5157c1808ba7db">heapBytes</a>(); };</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( hasHeapBytes )</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordtype">size_t</span> res = vec.capacity() * <span class="keyword">sizeof</span>( T );</div>
@@ -179,23 +179,21 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> U&gt;</div>
-<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga92b723fb37bb2e5133cba528ecd679e6">   33</a></span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;T, U&gt;</a>&amp; vec )</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>( <span class="keyword">const</span> Vector&lt;T, U&gt;&amp; vec )</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> hasHeapBytes = <span class="keyword">requires</span>( <span class="keyword">const</span> T &amp; t ) { t.heapBytes(); };</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( hasHeapBytes )</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    {</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordtype">size_t</span> res = vec.<a class="code hl_function" href="classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>() * <span class="keyword">sizeof</span>( T );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordtype">size_t</span> res = vec.size() * <span class="keyword">sizeof</span>( T );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> T &amp; t : vec )</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            res += t.heapBytes();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            res += t.<a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>();</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> res;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> vec.<a class="code hl_function" href="classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>() * <span class="keyword">sizeof</span>( T );</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> vec.size() * <span class="keyword">sizeof</span>( T );</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
-</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
@@ -218,7 +216,7 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">   69</a></span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( std::is_function_v&lt;T&gt; )</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">   69</a></span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; MR_REQUIRES_IF_SUPPORTED( std::is_function_v&lt;T&gt; )</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>( <span class="keyword">const</span> std::function&lt;T&gt; &amp; )</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>{</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">return</span> 0;</div>
@@ -242,20 +240,16 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRMacros_8h_html"><div class="ttname"><a href="MRMacros_8h.html">MRMacros.h</a></div></div>
-<div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:34</div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_a2816ffd002bac70ab04d1bd18e2c5cfd"><div class="ttname"><a href="classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd">MR::Vector::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition</b> MRVector.h:51</div></div>
+<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_html_a13350f0fbcfbe4074e5157c1808ba7db"><div class="ttname"><a href="../Csharp/classMR.html#a13350f0fbcfbe4074e5157c1808ba7db">MR::heapBytes</a></div><div class="ttdeci">static unsafe ulong heapBytes(MR.Const_BitSet bs)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:298</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRHeapBytes_8h.html">MRHeapBytes.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRHeapBytes.h</b></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

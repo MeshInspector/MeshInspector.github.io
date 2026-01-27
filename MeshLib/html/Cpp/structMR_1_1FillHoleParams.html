@@ -161,9 +161,9 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:afe7c6c69a5bf27699758e71d19c43301" id="r_afe7c6c69a5bf27699758e71d19c43301"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe7c6c69a5bf27699758e71d19c43301">MultipleEdgesResolveMode</a> { <a class="el" href="#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754">None</a>
-, <a class="el" href="#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780">Simple</a>
-, <a class="el" href="#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9">Strong</a>
+<tr class="memitem:afe7c6c69a5bf27699758e71d19c43301" id="r_afe7c6c69a5bf27699758e71d19c43301"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe7c6c69a5bf27699758e71d19c43301">MultipleEdgesResolveMode</a> { <b>None</b>
+, <b>Simple</b>
+, <b>Strong</b>
  }</td></tr>
 <tr class="separator:afe7c6c69a5bf27699758e71d19c43301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -173,10 +173,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6ab1c2d2eb0cbb97455c747713f2371d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9a5efac84779d01fd72d9f3d75dbc5" id="r_abf9a5efac84779d01fd72d9f3d75dbc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9a5efac84779d01fd72d9f3d75dbc5">smoothBd</a> { true }</td></tr>
 <tr class="separator:abf9a5efac84779d01fd72d9f3d75dbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1789bd574d007a370fe6164d4f5ca7c4" id="r_a1789bd574d007a370fe6164d4f5ca7c4"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1789bd574d007a370fe6164d4f5ca7c4">outNewFaces</a> { nullptr }</td></tr>
-<tr class="memdesc:a1789bd574d007a370fe6164d4f5ca7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <br /></td></tr>
+<tr class="memitem:a1789bd574d007a370fe6164d4f5ca7c4" id="r_a1789bd574d007a370fe6164d4f5ca7c4"><td class="memItemLeft" align="right" valign="top"><a id="a1789bd574d007a370fe6164d4f5ca7c4" name="a1789bd574d007a370fe6164d4f5ca7c4"></a>
+<a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>outNewFaces</b> { nullptr }</td></tr>
+<tr class="memdesc:a1789bd574d007a370fe6164d4f5ca7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces. <br /></td></tr>
 <tr class="separator:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2908ad53506526829bedf3831a1de80a" id="r_a2908ad53506526829bedf3831a1de80a"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#afe7c6c69a5bf27699758e71d19c43301">MR::FillHoleParams::MultipleEdgesResolveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2908ad53506526829bedf3831a1de80a">Simple</a></td></tr>
+<tr class="memitem:a2908ad53506526829bedf3831a1de80a" id="r_a2908ad53506526829bedf3831a1de80a"><td class="memItemLeft" align="right" valign="top"><a id="a2908ad53506526829bedf3831a1de80a" name="a2908ad53506526829bedf3831a1de80a"></a>
+enum <a class="el" href="#afe7c6c69a5bf27699758e71d19c43301">MR::FillHoleParams::MultipleEdgesResolveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Simple</b></td></tr>
 <tr class="separator:a2908ad53506526829bedf3831a1de80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c94df0c8cc044564e0e69c8f692c5a" id="r_a48c94df0c8cc044564e0e69c8f692c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48c94df0c8cc044564e0e69c8f692c5a">makeDegenerateBand</a> { false }</td></tr>
 <tr class="separator:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,11 +216,6 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <p>If Strong makes additional efforts to avoid creating multiple edges, in some rare cases it is not possible (cases with extremely bad topology), if you faced one try to use <a class="el" href="group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a> before <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a></p>
 <p>If Simple avoid creating edges that already exist in topology (default)</p>
 <p>If None do not avoid multiple edges </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754" name="afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780" name="afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9" name="afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9"></a>Strong&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
 </div>
 </div>
@@ -270,36 +267,6 @@ default for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a
 
 </div>
 </div>
-<a id="a1789bd574d007a370fe6164d4f5ca7c4" name="a1789bd574d007a370fe6164d4f5ca7c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1789bd574d007a370fe6164d4f5ca7c4">&#9670;&#160;</a></span>outNewFaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">FaceBitSet* MR::FillHoleParams::outNewFaces { nullptr }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If not nullptr accumulate new faces. </p>
-
-</div>
-</div>
-<a id="a2908ad53506526829bedf3831a1de80a" name="a2908ad53506526829bedf3831a1de80a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2908ad53506526829bedf3831a1de80a">&#9670;&#160;</a></span>Simple</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#afe7c6c69a5bf27699758e71d19c43301">MR::FillHoleParams::MultipleEdgesResolveMode</a> MR::FillHoleParams::Simple</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abf9a5efac84779d01fd72d9f3d75dbc5" name="abf9a5efac84779d01fd72d9f3d75dbc5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf9a5efac84779d01fd72d9f3d75dbc5">&#9670;&#160;</a></span>smoothBd</h2>
 
@@ -339,7 +306,7 @@ default for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

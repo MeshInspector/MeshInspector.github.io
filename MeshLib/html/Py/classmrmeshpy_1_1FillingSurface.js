@@ -1,6 +1,6 @@
 var classmrmeshpy_1_1FillingSurface =
 [
     [ "CellularSurface", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface.html", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface" ],
-    [ "Kind", "classmrmeshpy_1_1FillingSurface_1_1Kind.html", "classmrmeshpy_1_1FillingSurface_1_1Kind" ],
+    [ "Kind", "classmrmeshpy_1_1FillingSurface_1_1Kind.html", null ],
     [ "TPMS", "classmrmeshpy_1_1FillingSurface_1_1TPMS.html", "classmrmeshpy_1_1FillingSurface_1_1TPMS" ]
 ];

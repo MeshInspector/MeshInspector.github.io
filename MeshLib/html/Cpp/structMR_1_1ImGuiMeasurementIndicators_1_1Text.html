@@ -155,8 +155,6 @@ $(function(){initNavTree('structMR_1_1ImGuiMeasurementIndicators_1_1Text.html','
   <div class="headertitle"><div class="title">MR::ImGuiMeasurementIndicators::Text Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRImGuiMeasurementIndicators_8h_source.html">MRImGuiMeasurementIndicators.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -169,500 +167,76 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae831e755d5fa4e114cf8d2eaef532bdc" id="r_ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae831e755d5fa4e114cf8d2eaef532bdc">ElemVar</a> = std::variant&lt;std::string, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4">TextIcon</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a>&gt;</td></tr>
+<tr class="memitem:ae831e755d5fa4e114cf8d2eaef532bdc" id="r_ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memItemLeft" align="right" valign="top"><a id="ae831e755d5fa4e114cf8d2eaef532bdc" name="ae831e755d5fa4e114cf8d2eaef532bdc"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ElemVar</b> = std::variant&lt;std::string, TextIcon, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a>&gt;</td></tr>
 <tr class="separator:ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65617319e0c1b767525aede65d4607b5" id="r_a65617319e0c1b767525aede65d4607b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a> = std::function&lt;<a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a>()&gt;</td></tr>
+<tr class="memitem:a65617319e0c1b767525aede65d4607b5" id="r_a65617319e0c1b767525aede65d4607b5"><td class="memItemLeft" align="right" valign="top"><a id="a65617319e0c1b767525aede65d4607b5" name="a65617319e0c1b767525aede65d4607b5"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FontFunc</b> = std::function&lt;FontAndSize()&gt;</td></tr>
 <tr class="separator:a65617319e0c1b767525aede65d4607b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a58f5f1024004e4faebc6f17c3c1ef67f" id="r_a58f5f1024004e4faebc6f17c3c1ef67f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f5f1024004e4faebc6f17c3c1ef67f">Text</a> ()</td></tr>
-<tr class="separator:a58f5f1024004e4faebc6f17c3c1ef67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe015e8f2eefbaf7c0afec0d91912ec8" id="r_abe015e8f2eefbaf7c0afec0d91912ec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe015e8f2eefbaf7c0afec0d91912ec8">Text</a> (const std::string &amp;<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b">text</a>)</td></tr>
+<tr class="memitem:abe015e8f2eefbaf7c0afec0d91912ec8" id="r_abe015e8f2eefbaf7c0afec0d91912ec8"><td class="memItemLeft" align="right" valign="top"><a id="abe015e8f2eefbaf7c0afec0d91912ec8" name="abe015e8f2eefbaf7c0afec0d91912ec8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Text</b> (const std::string &amp;text)</td></tr>
 <tr class="separator:abe015e8f2eefbaf7c0afec0d91912ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629379b7e42a90a23d538c774cd11c2b" id="r_a629379b7e42a90a23d538c774cd11c2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629379b7e42a90a23d538c774cd11c2b">Text</a> (std::string_view <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b">text</a>)</td></tr>
+<tr class="memitem:a629379b7e42a90a23d538c774cd11c2b" id="r_a629379b7e42a90a23d538c774cd11c2b"><td class="memItemLeft" align="right" valign="top"><a id="a629379b7e42a90a23d538c774cd11c2b" name="a629379b7e42a90a23d538c774cd11c2b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Text</b> (std::string_view text)</td></tr>
 <tr class="separator:a629379b7e42a90a23d538c774cd11c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1361eb667fc891d6ee87e93a3ff37e9" id="r_ab1361eb667fc891d6ee87e93a3ff37e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1361eb667fc891d6ee87e93a3ff37e9">Text</a> (const char *<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b">text</a>)</td></tr>
+<tr class="memitem:ab1361eb667fc891d6ee87e93a3ff37e9" id="r_ab1361eb667fc891d6ee87e93a3ff37e9"><td class="memItemLeft" align="right" valign="top"><a id="ab1361eb667fc891d6ee87e93a3ff37e9" name="ab1361eb667fc891d6ee87e93a3ff37e9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Text</b> (const char *text)</td></tr>
 <tr class="separator:ab1361eb667fc891d6ee87e93a3ff37e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc827ec3aa0ec6711b73aaca7693bc19" id="r_acc827ec3aa0ec6711b73aaca7693bc19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc827ec3aa0ec6711b73aaca7693bc19">isEmpty</a> () const</td></tr>
+<tr class="memitem:acc827ec3aa0ec6711b73aaca7693bc19" id="r_acc827ec3aa0ec6711b73aaca7693bc19"><td class="memItemLeft" align="right" valign="top"><a id="acc827ec3aa0ec6711b73aaca7693bc19" name="acc827ec3aa0ec6711b73aaca7693bc19"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEmpty</b> () const</td></tr>
 <tr class="separator:acc827ec3aa0ec6711b73aaca7693bc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f1e9dff1758efb4b2feb981f5c49862" id="r_a9f1e9dff1758efb4b2feb981f5c49862"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f1e9dff1758efb4b2feb981f5c49862">addLine</a> ()</td></tr>
+<tr class="memitem:a9f1e9dff1758efb4b2feb981f5c49862" id="r_a9f1e9dff1758efb4b2feb981f5c49862"><td class="memItemLeft" align="right" valign="top"><a id="a9f1e9dff1758efb4b2feb981f5c49862" name="a9f1e9dff1758efb4b2feb981f5c49862"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addLine</b> ()</td></tr>
 <tr class="separator:a9f1e9dff1758efb4b2feb981f5c49862"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16a77f943f36900d87a81cd083b8b160" id="r_a16a77f943f36900d87a81cd083b8b160"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16a77f943f36900d87a81cd083b8b160">addText</a> (std::string_view <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b">text</a>)</td></tr>
+<tr class="memitem:a16a77f943f36900d87a81cd083b8b160" id="r_a16a77f943f36900d87a81cd083b8b160"><td class="memItemLeft" align="right" valign="top"><a id="a16a77f943f36900d87a81cd083b8b160" name="a16a77f943f36900d87a81cd083b8b160"></a>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>addText</b> (std::string_view text)</td></tr>
 <tr class="separator:a16a77f943f36900d87a81cd083b8b160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2336292a36c4f80334c9d987104aa00a" id="r_a2336292a36c4f80334c9d987104aa00a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2336292a36c4f80334c9d987104aa00a">addElem</a> (<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html">Elem</a> elem)</td></tr>
+<tr class="memitem:a2336292a36c4f80334c9d987104aa00a" id="r_a2336292a36c4f80334c9d987104aa00a"><td class="memItemLeft" align="right" valign="top"><a id="a2336292a36c4f80334c9d987104aa00a" name="a2336292a36c4f80334c9d987104aa00a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addElem</b> (<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html">Elem</a> elem)</td></tr>
 <tr class="separator:a2336292a36c4f80334c9d987104aa00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe8531c1f5fdb8d1d8d3a8d69a64d2b5" id="r_abe8531c1f5fdb8d1d8d3a8d69a64d2b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe8531c1f5fdb8d1d8d3a8d69a64d2b5">add</a> (auto &amp;&amp;elem)</td></tr>
+<tr class="memitem:abe8531c1f5fdb8d1d8d3a8d69a64d2b5" id="r_abe8531c1f5fdb8d1d8d3a8d69a64d2b5"><td class="memItemLeft" align="right" valign="top"><a id="abe8531c1f5fdb8d1d8d3a8d69a64d2b5" name="abe8531c1f5fdb8d1d8d3a8d69a64d2b5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (auto &amp;&amp;elem)</td></tr>
 <tr class="separator:abe8531c1f5fdb8d1d8d3a8d69a64d2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aa43d24ada469bdbb77f5444b4e6f64" id="r_a8aa43d24ada469bdbb77f5444b4e6f64"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aa43d24ada469bdbb77f5444b4e6f64">update</a> (bool force=false) const</td></tr>
+<tr class="memitem:a8aa43d24ada469bdbb77f5444b4e6f64" id="r_a8aa43d24ada469bdbb77f5444b4e6f64"><td class="memItemLeft" align="right" valign="top"><a id="a8aa43d24ada469bdbb77f5444b4e6f64" name="a8aa43d24ada469bdbb77f5444b4e6f64"></a>
+MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (bool force=false) const</td></tr>
 <tr class="separator:a8aa43d24ada469bdbb77f5444b4e6f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dedcdba15318604b248ac2919340473" id="r_a6dedcdba15318604b248ac2919340473"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html">DrawResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dedcdba15318604b248ac2919340473">draw</a> (ImDrawList &amp;list, ImVec2 pos, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a> &amp;defaultTextColor={}) const</td></tr>
+<tr class="memitem:a6dedcdba15318604b248ac2919340473" id="r_a6dedcdba15318604b248ac2919340473"><td class="memItemLeft" align="right" valign="top"><a id="a6dedcdba15318604b248ac2919340473" name="a6dedcdba15318604b248ac2919340473"></a>
+MRVIEWER_API <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html">DrawResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (ImDrawList &amp;list, ImVec2 pos, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a> &amp;defaultTextColor={}) const</td></tr>
 <tr class="separator:a6dedcdba15318604b248ac2919340473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae4cadaf3ea1172a0c335e927b4e6951c" id="r_ae4cadaf3ea1172a0c335e927b4e6951c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const <a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a> ()</td></tr>
+<tr class="memitem:ae4cadaf3ea1172a0c335e927b4e6951c" id="r_ae4cadaf3ea1172a0c335e927b4e6951c"><td class="memItemLeft" align="right" valign="top"><a id="ae4cadaf3ea1172a0c335e927b4e6951c" name="ae4cadaf3ea1172a0c335e927b4e6951c"></a>
+static MRVIEWER_API const FontFunc &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getStaticDefaultFontFunc</b> ()</td></tr>
 <tr class="separator:ae4cadaf3ea1172a0c335e927b4e6951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9520cc4aa1cb7fd1b95f885bedd6ce9" id="r_aa9520cc4aa1cb7fd1b95f885bedd6ce9"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9520cc4aa1cb7fd1b95f885bedd6ce9">setStaticDefaultFontFunc</a> (<a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a> func)</td></tr>
+<tr class="memitem:aa9520cc4aa1cb7fd1b95f885bedd6ce9" id="r_aa9520cc4aa1cb7fd1b95f885bedd6ce9"><td class="memItemLeft" align="right" valign="top"><a id="aa9520cc4aa1cb7fd1b95f885bedd6ce9" name="aa9520cc4aa1cb7fd1b95f885bedd6ce9"></a>
+static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>setStaticDefaultFontFunc</b> (FontFunc func)</td></tr>
 <tr class="separator:aa9520cc4aa1cb7fd1b95f885bedd6ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a99ca3155588713524843ad362ebdf8c4" id="r_a99ca3155588713524843ad362ebdf8c4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html">Line</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ca3155588713524843ad362ebdf8c4">lines</a></td></tr>
+<tr class="memitem:a99ca3155588713524843ad362ebdf8c4" id="r_a99ca3155588713524843ad362ebdf8c4"><td class="memItemLeft" align="right" valign="top"><a id="a99ca3155588713524843ad362ebdf8c4" name="a99ca3155588713524843ad362ebdf8c4"></a>
+std::vector&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html">Line</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lines</b></td></tr>
 <tr class="separator:a99ca3155588713524843ad362ebdf8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7fcd623acda48ca1c6a59341f2fdaae" id="r_aa7fcd623acda48ca1c6a59341f2fdaae"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7fcd623acda48ca1c6a59341f2fdaae">size</a></td></tr>
+<tr class="memitem:aa7fcd623acda48ca1c6a59341f2fdaae" id="r_aa7fcd623acda48ca1c6a59341f2fdaae"><td class="memItemLeft" align="right" valign="top"><a id="aa7fcd623acda48ca1c6a59341f2fdaae" name="aa7fcd623acda48ca1c6a59341f2fdaae"></a>
+ImVec2&#160;</td><td class="memItemRight" valign="bottom"><b>size</b></td></tr>
 <tr class="separator:aa7fcd623acda48ca1c6a59341f2fdaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8b5e638410d87130b72445eb3a009cd" id="r_af8b5e638410d87130b72445eb3a009cd"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b5e638410d87130b72445eb3a009cd">align</a></td></tr>
+<tr class="memitem:af8b5e638410d87130b72445eb3a009cd" id="r_af8b5e638410d87130b72445eb3a009cd"><td class="memItemLeft" align="right" valign="top"><a id="af8b5e638410d87130b72445eb3a009cd" name="af8b5e638410d87130b72445eb3a009cd"></a>
+ImVec2&#160;</td><td class="memItemRight" valign="bottom"><b>align</b></td></tr>
 <tr class="separator:af8b5e638410d87130b72445eb3a009cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6147eeaff8e86f187d95660dc8cdc339" id="r_a6147eeaff8e86f187d95660dc8cdc339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6147eeaff8e86f187d95660dc8cdc339">defaultFont</a> = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td></tr>
+<tr class="memitem:a6147eeaff8e86f187d95660dc8cdc339" id="r_a6147eeaff8e86f187d95660dc8cdc339"><td class="memItemLeft" align="right" valign="top"><a id="a6147eeaff8e86f187d95660dc8cdc339" name="a6147eeaff8e86f187d95660dc8cdc339"></a>
+FontAndSize&#160;</td><td class="memItemRight" valign="bottom"><b>defaultFont</b> = getStaticDefaultFontFunc()()</td></tr>
 <tr class="separator:a6147eeaff8e86f187d95660dc8cdc339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada8abd512f2564b6e933ba4332bdce0c" id="r_ada8abd512f2564b6e933ba4332bdce0c"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada8abd512f2564b6e933ba4332bdce0c">computedSize</a></td></tr>
+<tr class="memitem:ada8abd512f2564b6e933ba4332bdce0c" id="r_ada8abd512f2564b6e933ba4332bdce0c"><td class="memItemLeft" align="right" valign="top"><a id="ada8abd512f2564b6e933ba4332bdce0c" name="ada8abd512f2564b6e933ba4332bdce0c"></a>
+ImVec2&#160;</td><td class="memItemRight" valign="bottom"><b>computedSize</b></td></tr>
 <tr class="separator:ada8abd512f2564b6e933ba4332bdce0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad91ba5b259552f2af641bf94826eeea1" id="r_ad91ba5b259552f2af641bf94826eeea1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad91ba5b259552f2af641bf94826eeea1">dirty</a> = false</td></tr>
+<tr class="memitem:ad91ba5b259552f2af641bf94826eeea1" id="r_ad91ba5b259552f2af641bf94826eeea1"><td class="memItemLeft" align="right" valign="top"><a id="ad91ba5b259552f2af641bf94826eeea1" name="ad91ba5b259552f2af641bf94826eeea1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>dirty</b> = false</td></tr>
 <tr class="separator:ad91ba5b259552f2af641bf94826eeea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ae831e755d5fa4e114cf8d2eaef532bdc" name="ae831e755d5fa4e114cf8d2eaef532bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae831e755d5fa4e114cf8d2eaef532bdc">&#9670;&#160;</a></span>ElemVar</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ae831e755d5fa4e114cf8d2eaef532bdc">MR::ImGuiMeasurementIndicators::Text::ElemVar</a> = std::variant&lt;std::string, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4">TextIcon</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a65617319e0c1b767525aede65d4607b5" name="a65617319e0c1b767525aede65d4607b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65617319e0c1b767525aede65d4607b5">&#9670;&#160;</a></span>FontFunc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a65617319e0c1b767525aede65d4607b5">MR::ImGuiMeasurementIndicators::Text::FontFunc</a> = std::function&lt;<a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a>()&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a58f5f1024004e4faebc6f17c3c1ef67f" name="a58f5f1024004e4faebc6f17c3c1ef67f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58f5f1024004e4faebc6f17c3c1ef67f">&#9670;&#160;</a></span>Text() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::ImGuiMeasurementIndicators::Text::Text </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abe015e8f2eefbaf7c0afec0d91912ec8" name="abe015e8f2eefbaf7c0afec0d91912ec8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe015e8f2eefbaf7c0afec0d91912ec8">&#9670;&#160;</a></span>Text() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::ImGuiMeasurementIndicators::Text::Text </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a629379b7e42a90a23d538c774cd11c2b" name="a629379b7e42a90a23d538c774cd11c2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a629379b7e42a90a23d538c774cd11c2b">&#9670;&#160;</a></span>Text() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::ImGuiMeasurementIndicators::Text::Text </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab1361eb667fc891d6ee87e93a3ff37e9" name="ab1361eb667fc891d6ee87e93a3ff37e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1361eb667fc891d6ee87e93a3ff37e9">&#9670;&#160;</a></span>Text() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::ImGuiMeasurementIndicators::Text::Text </td>
-          <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="abe8531c1f5fdb8d1d8d3a8d69a64d2b5" name="abe8531c1f5fdb8d1d8d3a8d69a64d2b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe8531c1f5fdb8d1d8d3a8d69a64d2b5">&#9670;&#160;</a></span>add()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::ImGuiMeasurementIndicators::Text::add </td>
-          <td>(</td>
-          <td class="paramtype">auto &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>elem</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2336292a36c4f80334c9d987104aa00a" name="a2336292a36c4f80334c9d987104aa00a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2336292a36c4f80334c9d987104aa00a">&#9670;&#160;</a></span>addElem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::ImGuiMeasurementIndicators::Text::addElem </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html">Elem</a></td>          <td class="paramname"><span class="paramname"><em>elem</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f1e9dff1758efb4b2feb981f5c49862" name="a9f1e9dff1758efb4b2feb981f5c49862"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f1e9dff1758efb4b2feb981f5c49862">&#9670;&#160;</a></span>addLine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::ImGuiMeasurementIndicators::Text::addLine </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16a77f943f36900d87a81cd083b8b160" name="a16a77f943f36900d87a81cd083b8b160"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16a77f943f36900d87a81cd083b8b160">&#9670;&#160;</a></span>addText()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::addText </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6dedcdba15318604b248ac2919340473" name="a6dedcdba15318604b248ac2919340473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dedcdba15318604b248ac2919340473">&#9670;&#160;</a></span>draw()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html">DrawResult</a> MR::ImGuiMeasurementIndicators::Text::draw </td>
-          <td>(</td>
-          <td class="paramtype">ImDrawList &amp;</td>          <td class="paramname"><span class="paramname"><em>list</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ImVec2</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>defaultTextColor</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4cadaf3ea1172a0c335e927b4e6951c" name="ae4cadaf3ea1172a0c335e927b4e6951c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4cadaf3ea1172a0c335e927b4e6951c">&#9670;&#160;</a></span>getStaticDefaultFontFunc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API const <a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a> &amp; MR::ImGuiMeasurementIndicators::Text::getStaticDefaultFontFunc </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acc827ec3aa0ec6711b73aaca7693bc19" name="acc827ec3aa0ec6711b73aaca7693bc19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc827ec3aa0ec6711b73aaca7693bc19">&#9670;&#160;</a></span>isEmpty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::ImGuiMeasurementIndicators::Text::isEmpty </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa9520cc4aa1cb7fd1b95f885bedd6ce9" name="aa9520cc4aa1cb7fd1b95f885bedd6ce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9520cc4aa1cb7fd1b95f885bedd6ce9">&#9670;&#160;</a></span>setStaticDefaultFontFunc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::setStaticDefaultFontFunc </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8aa43d24ada469bdbb77f5444b4e6f64" name="a8aa43d24ada469bdbb77f5444b4e6f64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8aa43d24ada469bdbb77f5444b4e6f64">&#9670;&#160;</a></span>update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::update </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af8b5e638410d87130b72445eb3a009cd" name="af8b5e638410d87130b72445eb3a009cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8b5e638410d87130b72445eb3a009cd">&#9670;&#160;</a></span>align</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ImVec2 MR::ImGuiMeasurementIndicators::Text::align</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada8abd512f2564b6e933ba4332bdce0c" name="ada8abd512f2564b6e933ba4332bdce0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada8abd512f2564b6e933ba4332bdce0c">&#9670;&#160;</a></span>computedSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ImVec2 MR::ImGuiMeasurementIndicators::Text::computedSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6147eeaff8e86f187d95660dc8cdc339" name="a6147eeaff8e86f187d95660dc8cdc339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6147eeaff8e86f187d95660dc8cdc339">&#9670;&#160;</a></span>defaultFont</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a> MR::ImGuiMeasurementIndicators::Text::defaultFont = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad91ba5b259552f2af641bf94826eeea1" name="ad91ba5b259552f2af641bf94826eeea1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad91ba5b259552f2af641bf94826eeea1">&#9670;&#160;</a></span>dirty</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::ImGuiMeasurementIndicators::Text::dirty = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a99ca3155588713524843ad362ebdf8c4" name="a99ca3155588713524843ad362ebdf8c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99ca3155588713524843ad362ebdf8c4">&#9670;&#160;</a></span>lines</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html">Line</a>&gt; MR::ImGuiMeasurementIndicators::Text::lines</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7fcd623acda48ca1c6a59341f2fdaae" name="aa7fcd623acda48ca1c6a59341f2fdaae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7fcd623acda48ca1c6a59341f2fdaae">&#9670;&#160;</a></span>size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ImVec2 MR::ImGuiMeasurementIndicators::Text::size</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRImGuiMeasurementIndicators_8h_source.html">MRImGuiMeasurementIndicators.h</a></li>
 </ul>
@@ -672,7 +246,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html">ImGuiMeasurementIndicators</a></li><li class="navelem"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><b>ImGuiMeasurementIndicators</b></li><li class="navelem"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

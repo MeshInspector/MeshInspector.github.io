@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1RegularMapMesher =
 [
-    [ "__init__", "classmrmeshpy_1_1RegularMapMesher.html#ad45e11cfa3fc90c97fb8e896856ab84e", null ],
     [ "__init__", "classmrmeshpy_1_1RegularMapMesher.html#a7ad4580e465fd0cc942b92f4f480640c", null ],
     [ "createMesh", "classmrmeshpy_1_1RegularMapMesher.html#ade75d5aca66c6e569f9113e206c9c275", null ],
     [ "loadDistances", "classmrmeshpy_1_1RegularMapMesher.html#a363bf0abb35b1f2ee10675eed0316abe", null ],

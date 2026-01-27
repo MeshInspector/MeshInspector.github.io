@@ -13,24 +13,29 @@ var group__BooleanGroup =
         [ "B", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571", null ],
         [ "Count", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
-      [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9", null ],
       [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd", null ],
-      [ "getMaps", "structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#a98265093e5d605c22ac13fb59ac056b2", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],
-      [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ],
-      [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
+      [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ]
     ] ],
-    [ "MR::BooleanInternalParameters", "structMR_1_1BooleanInternalParameters.html", [
-      [ "optionalOutCut", "structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c", null ],
-      [ "originalMeshA", "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d", null ],
-      [ "originalMeshB", "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5", null ]
+    [ "MR::BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html", [
+      [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#ad2883b0992b59d222f1157ace89dd4ef", null ],
+      [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#a5423bc6d9385efe02231a7b3e89cbd72", null ],
+      [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#a833c0f6ee14231909d415891b69a7851", null ],
+      [ "assign", "../Csharp/classMR_1_1BooleanInternalParameters.html#a40469601d1e1f038cac4f91f99c02d3f", null ],
+      [ "optionalOutCut", "../Csharp/classMR_1_1BooleanInternalParameters.html#a559037667f33f13759dd15407667f9e1", null ],
+      [ "originalMeshA", "../Csharp/classMR_1_1BooleanInternalParameters.html#aa53b1edbd97c6cd9e657eff0c7bf484f", null ],
+      [ "originalMeshB", "../Csharp/classMR_1_1BooleanInternalParameters.html#ad159d3c04fa90a979e44c70f419922d6", null ]
     ] ],
-    [ "MR::NewEdgesMap", "structMR_1_1NewEdgesMap.html", [
-      [ "map", "structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa", null ],
-      [ "splitEdges", "structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa", null ]
+    [ "MR::NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html", [
+      [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#af1c83868539c57eaeeecccf03ff26738", null ],
+      [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#ae54495bbb37a19315a597b57fcf968e7", null ],
+      [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#acb304b62495c8212feca48ee1ba8d101", null ],
+      [ "assign", "../Csharp/classMR_1_1NewEdgesMap.html#acd090fcf0bc89fe7e27bf8330cb0ea35", null ],
+      [ "map", "../Csharp/classMR_1_1NewEdgesMap.html#ab7172e3d43dfedf26185e4da95d335d6", null ],
+      [ "splitEdges", "../Csharp/classMR_1_1NewEdgesMap.html#a0ade3d587a06a3ab61ee67b30cfb2929", null ]
     ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
       [ "ForceFill", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33", [
@@ -40,7 +45,6 @@ var group__BooleanGroup =
       ] ],
       [ "new2oldEdgesMap", "structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
       [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
-      [ "None", "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
       [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
     ] ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", [
@@ -48,18 +52,13 @@ var group__BooleanGroup =
       [ "resultCut", "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400", null ]
     ] ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", [
-      [ "operator bool", "structMR_1_1BooleanResult.html#ab6a130e652e944be8b2d65e3ea1c273a", null ],
-      [ "operator*", "structMR_1_1BooleanResult.html#ac0af7e2df53a77da2787428be4cc77d8", null ],
-      [ "operator*", "structMR_1_1BooleanResult.html#ac98caba27fe5a9fdbaa3e4aafff41f2a", null ],
-      [ "operator->", "structMR_1_1BooleanResult.html#aa632af00548f4dfb2a5e70d9518e874f", null ],
-      [ "operator->", "structMR_1_1BooleanResult.html#ad2591d2b1ef80f9dc169034f419d83e4", null ],
       [ "valid", "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289", null ],
       [ "errorString", "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df", null ],
       [ "mesh", "structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486", null ],
       [ "meshABadContourFaces", "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12", null ],
       [ "meshBBadContourFaces", "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a", null ]
     ] ],
-    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a", null ],
+    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga5413814edc40aaabdd4b0b65e494b349", null ],
     [ "MR::BooleanOperation", "group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd", [
       [ "MR::BooleanOperation::InsideA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29", null ],
       [ "MR::BooleanOperation::InsideB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d", null ],

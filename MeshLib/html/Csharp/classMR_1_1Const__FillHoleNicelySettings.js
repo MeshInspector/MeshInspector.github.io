@@ -1,0 +1,21 @@
+var classMR_1_1Const__FillHoleNicelySettings =
+[
+    [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a2a376b2e57dac74eedf2e97a9e996ac3", null ],
+    [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a6ea442607f38c60a74a3aa44b2e7f5eb", null ],
+    [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#abc45baf156c3c5f8229cb22bf72c0ff2", null ],
+    [ "beforeEdgeSplit", "classMR_1_1Const__FillHoleNicelySettings.html#ae21e3f0a4f6b855fb40e34a719cda38d", null ],
+    [ "colorMap", "classMR_1_1Const__FillHoleNicelySettings.html#a76890b23100aaed673fa3d6cf1ac3e43", null ],
+    [ "edgeWeights", "classMR_1_1Const__FillHoleNicelySettings.html#a46719a9a6ca04de557166f154ec3bfa6", null ],
+    [ "faceColors", "classMR_1_1Const__FillHoleNicelySettings.html#a4040c21c0558299e7cc829e46f1345a5", null ],
+    [ "maxAngleChangeAfterFlip", "classMR_1_1Const__FillHoleNicelySettings.html#a6a295a8095c279b0d7b7ba4e490b2ce4", null ],
+    [ "maxEdgeLen", "classMR_1_1Const__FillHoleNicelySettings.html#a4b748682a9294652b942e0ab54237230", null ],
+    [ "maxEdgeSplits", "classMR_1_1Const__FillHoleNicelySettings.html#ab3be2abc30102eb4132c8a35e2bb6cc9", null ],
+    [ "naturalSmooth", "classMR_1_1Const__FillHoleNicelySettings.html#ad1d86ffb8102fa26b4b193003c5a2ddc", null ],
+    [ "notFlippable", "classMR_1_1Const__FillHoleNicelySettings.html#ad5397e7a3d406f597c61e23613792d5e", null ],
+    [ "onEdgeSplit", "classMR_1_1Const__FillHoleNicelySettings.html#a7ee973126eeca01d8bd8933a7e9b920a", null ],
+    [ "smoothCurvature", "classMR_1_1Const__FillHoleNicelySettings.html#afcc85582fb8ae6a155fe05430cce97ef", null ],
+    [ "triangulateOnly", "classMR_1_1Const__FillHoleNicelySettings.html#a0aef0b82dc44b7aee527a41386ebf193", null ],
+    [ "triangulateParams", "classMR_1_1Const__FillHoleNicelySettings.html#a25827c77c58369a53fed8046bcc4caa9", null ],
+    [ "uvCoords", "classMR_1_1Const__FillHoleNicelySettings.html#a1835d678e630a567691f31d89a8c67c4", null ],
+    [ "vmass", "classMR_1_1Const__FillHoleNicelySettings.html#adb968cc7986c3d1f0e34f9392fae0eea", null ]
+];

@@ -151,64 +151,16 @@ $(function(){initNavTree('structMR_1_1PythonFunctionAdder.html',''); initResizab
   <div class="headertitle"><div class="title">MR::PythonFunctionAdder Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="MRPython_8h_source.html">MRPython.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a47c1ceebbd147609ff7f7ad8add30b29" id="r_a47c1ceebbd147609ff7f7ad8add30b29"><td class="memItemLeft" align="right" valign="top">MRPYTHON_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c1ceebbd147609ff7f7ad8add30b29">PythonFunctionAdder</a> (const std::string &amp;moduleName, std::function&lt; void(pybind11::module_ &amp;m)&gt; func, <a class="el" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bf">PythonExport::Priority</a> priority=<a class="el" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689">PythonExport::Priority::Implementation</a>)</td></tr>
+<tr class="memitem:a47c1ceebbd147609ff7f7ad8add30b29" id="r_a47c1ceebbd147609ff7f7ad8add30b29"><td class="memItemLeft" align="right" valign="top"><a id="a47c1ceebbd147609ff7f7ad8add30b29" name="a47c1ceebbd147609ff7f7ad8add30b29"></a>
+MRPYTHON_API&#160;</td><td class="memItemRight" valign="bottom"><b>PythonFunctionAdder</b> (const std::string &amp;moduleName, std::function&lt; void(pybind11::module_ &amp;m)&gt; func, PythonExport::Priority priority=PythonExport::Priority::Implementation)</td></tr>
 <tr class="separator:a47c1ceebbd147609ff7f7ad8add30b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca843abaee9639fb1bee2abdbba2b2f" id="r_a2ca843abaee9639fb1bee2abdbba2b2f"><td class="memItemLeft" align="right" valign="top">MRPYTHON_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca843abaee9639fb1bee2abdbba2b2f">PythonFunctionAdder</a> (const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))</td></tr>
+<tr class="memitem:a2ca843abaee9639fb1bee2abdbba2b2f" id="r_a2ca843abaee9639fb1bee2abdbba2b2f"><td class="memItemLeft" align="right" valign="top"><a id="a2ca843abaee9639fb1bee2abdbba2b2f" name="a2ca843abaee9639fb1bee2abdbba2b2f"></a>
+MRPYTHON_API&#160;</td><td class="memItemRight" valign="bottom"><b>PythonFunctionAdder</b> (const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))</td></tr>
 <tr class="separator:a2ca843abaee9639fb1bee2abdbba2b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a47c1ceebbd147609ff7f7ad8add30b29" name="a47c1ceebbd147609ff7f7ad8add30b29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c1ceebbd147609ff7f7ad8add30b29">&#9670;&#160;</a></span>PythonFunctionAdder() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRPYTHON_API MR::PythonFunctionAdder::PythonFunctionAdder </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>moduleName</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(pybind11::module_ &amp;m)&gt;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bf">PythonExport::Priority</a></td>          <td class="paramname"><span class="paramname"><em>priority</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689">PythonExport::Priority::Implementation</a></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2ca843abaee9639fb1bee2abdbba2b2f" name="a2ca843abaee9639fb1bee2abdbba2b2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca843abaee9639fb1bee2abdbba2b2f">&#9670;&#160;</a></span>PythonFunctionAdder() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRPYTHON_API MR::PythonFunctionAdder::PythonFunctionAdder </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>moduleName</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PyObject *(*</td>          <td class="paramname"><span class="paramname"><em>initFncPointer&#160;</em></span>)(void)&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRPython_8h_source.html">MRPython.h</a></li>
 </ul>
@@ -218,7 +170,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1PythonFunctionAdder.html">PythonFunctionAdder</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1PythonFunctionAdder.html">PythonFunctionAdder</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

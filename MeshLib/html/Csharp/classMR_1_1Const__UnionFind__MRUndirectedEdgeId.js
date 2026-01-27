@@ -1,0 +1,10 @@
+var classMR_1_1Const__UnionFind__MRUndirectedEdgeId =
+[
+    [ "Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#ac148bf5a92315ea60001ce831e6bb1c7", null ],
+    [ "Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#ae008735feb7bb4cf0c42a49f73cf8f71", null ],
+    [ "Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#afe55f6cc0dfe1f6a1d063ce256864faa", null ],
+    [ "isRoot", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a7b350b619d4d9882face5c51d360f4c8", null ],
+    [ "parent", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a8f8af6a197bee2d079a38dfa1361c583", null ],
+    [ "parents", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a892f127af9eb2c10b0dac340f3973cfd", null ],
+    [ "size", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a760bba15d0284c60754f51e4d6763126", null ]
+];

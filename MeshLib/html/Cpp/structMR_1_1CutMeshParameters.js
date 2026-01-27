@@ -7,6 +7,5 @@ var structMR_1_1CutMeshParameters =
     ] ],
     [ "new2oldEdgesMap", "structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
     [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
-    [ "None", "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
     [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
 ];

@@ -1,34 +1,32 @@
 var group__MeshFixerGroup =
 [
-    [ "MR::FixMeshDegeneraciesParams", "structMR_1_1FixMeshDegeneraciesParams.html", [
-      [ "Mode", "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42", [
-        [ "Decimate", "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554", null ],
-        [ "Remesh", "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10", null ],
-        [ "RemeshPatch", "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7", null ]
-      ] ],
-      [ "cb", "structMR_1_1FixMeshDegeneraciesParams.html#a0eff7987d6820ff165e578fac210c66e", null ],
-      [ "criticalTriAspectRatio", "structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980", null ],
-      [ "maxAngleChange", "structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140", null ],
-      [ "maxDeviation", "structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec", null ],
-      [ "region", "structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce", null ],
-      [ "Remesh", "structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7", null ],
-      [ "stabilizer", "structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01", null ],
-      [ "tinyEdgeLength", "structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e", null ]
+    [ "MR::FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html", [
+      [ "FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a3c9b5a14a7d0e81bed4a289ee27d1b76", null ],
+      [ "FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a706a42905fd83d916dec3dd177680d19", null ],
+      [ "FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a2ad2ea9e85e256bcffb91c9e3bc93519", null ],
+      [ "assign", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#afd7292ca48775e0ab94233157bde5f54", null ],
+      [ "criticalTriAspectRatio", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#ae34824faf9d7160cc8698775f5060672", null ],
+      [ "maxAngleChange", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a99d770ee3259c6f1bc5ba163f3910971", null ],
+      [ "maxDeviation", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a1f1577cb302417791ffc5946db7b6bf6", null ],
+      [ "region", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a90621e659cd5be3a26daa4cfbd577895", null ],
+      [ "stabilizer", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#aa23e1ba06c41baafef0c214a06ca2adc", null ],
+      [ "tinyEdgeLength", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a66475ab23c1441b769d1c6b2f502b4ea", null ]
     ] ],
-    [ "MR::FixCreasesParams", "structMR_1_1FixCreasesParams.html", [
-      [ "creaseAngle", "structMR_1_1FixCreasesParams.html#a6921929310773c0b26398debbe0ee1f7", null ],
-      [ "criticalTriAspectRatio", "structMR_1_1FixCreasesParams.html#a279d3fb54a0fb0946a220b96b62e06cc", null ],
-      [ "maxIters", "structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c", null ]
+    [ "MR::FixCreasesParams", "../Csharp/classMR_1_1FixCreasesParams.html", [
+      [ "FixCreasesParams", "../Csharp/classMR_1_1FixCreasesParams.html#ae111d4a5aaf828db3d105470fa791677", null ],
+      [ "FixCreasesParams", "../Csharp/classMR_1_1FixCreasesParams.html#a24289f1c3d7fdf4d197dce5d5632e2ac", null ],
+      [ "FixCreasesParams", "../Csharp/classMR_1_1FixCreasesParams.html#a99b2d648a4d4474f90a0138f5cc36615", null ],
+      [ "assign", "../Csharp/classMR_1_1FixCreasesParams.html#a3d82efc0ed68089a4153bb9d9660d50a", null ],
+      [ "creaseAngle", "../Csharp/classMR_1_1FixCreasesParams.html#a2f33ec700fda47d26df3427091fa4132", null ],
+      [ "criticalTriAspectRatio", "../Csharp/classMR_1_1FixCreasesParams.html#a85881cb5b64d05fb0bcc267e5c91c403", null ],
+      [ "maxIters", "../Csharp/classMR_1_1FixCreasesParams.html#a6df854ef79af3de4cd41d46009804481", null ]
     ] ],
-    [ "MR::FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", [
-      [ "RayMode", "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d", [
-        [ "Positive", "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147", null ],
-        [ "Shallowest", "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389daa16249848fdc15d3bd637c5a13101cdb", null ],
-        [ "Both", "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e", null ]
-      ] ],
-      [ "cb", "structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e", null ],
-      [ "Shallowest", "structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247", null ],
-      [ "virtualFillHoles", "structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44", null ]
+    [ "MR::FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html", [
+      [ "FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html#a5a8334df1e9ecf84c6bea4f4d2180f2e", null ],
+      [ "FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html#a6ecc07dc16e1798c642a31533aabe1f0", null ],
+      [ "FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html#ad2b59bbf468b95b034491daeed513270", null ],
+      [ "assign", "../Csharp/classMR_1_1FindDisorientationParams.html#a22f525f95365f524c74f821d3f2d946a", null ],
+      [ "virtualFillHoles", "../Csharp/classMR_1_1FindDisorientationParams.html#a7c8b77fe078d4351170c27bde91cf33d", null ]
     ] ],
     [ "MR::MultipleEdge", "group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192", null ],
@@ -39,7 +37,7 @@ var group__MeshFixerGroup =
     [ "MR::findDegenerateFaces", "group__MeshFixerGroup.html#ga2053d608172d2309a6dfc184b3c23b54", null ],
     [ "MR::findDisorientedFaces", "group__MeshFixerGroup.html#ga538e3992fb17dac0a5e4f140d86defef", null ],
     [ "MR::findHoleComplicatingFaces", "group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf", null ],
-    [ "MR::findMultipleEdges", "group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043", null ],
+    [ "MR::findNotSmoothFaces", "group__MeshFixerGroup.html#ga866d4ce98ccfb2b97c17b372f139b31e", null ],
     [ "MR::findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
     [ "MR::findRepeatedVertsOnHoleBd", "group__MeshFixerGroup.html#ga8e2b8d3db10183b66f463f70a7eac5b4", null ],
     [ "MR::findShortEdges", "group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea", null ],
@@ -47,7 +45,6 @@ var group__MeshFixerGroup =
     [ "MR::fixMeshDegeneracies", "group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#ga52390270e3fbf5b7e8766374def17f07", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206", null ],
-    [ "MR::hasMultipleEdges", "group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e", null ],
     [ "MR::isDegree3Dest", "group__MeshFixerGroup.html#ga4864464472d6d92da87a2501cb99db2b", null ],
     [ "MR::isEdgeBetweenDoubleTris", "group__MeshFixerGroup.html#ga68b96907fdec5d90f6c4d1771ae0563e", null ],
     [ "MR::isVertexRepeatedOnHoleBd", "group__MeshFixerGroup.html#ga9bde4ada16adc982fb6789ca9dabbc66", null ]

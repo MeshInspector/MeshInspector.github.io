@@ -17,5 +17,6 @@ var group__MeshLoadGroup =
     [ "MR::MeshLoad::fromOff", "group__MeshLoadGroup.html#ga9dacefdac7728d37b984dcab6ed88bf3", null ],
     [ "MR::MeshLoad::fromOff", "group__MeshLoadGroup.html#gaf2da62e6f9eb917bd0def906f852e597", null ],
     [ "MR::MeshLoad::fromPly", "group__MeshLoadGroup.html#ga1cb0c1de8fa23fcac57b58ccd15c147a", null ],
-    [ "MR::MeshLoad::fromPly", "group__MeshLoadGroup.html#ga288b39c5cb10846a9c11e14ca00ada85", null ]
+    [ "MR::MeshLoad::fromPly", "group__MeshLoadGroup.html#ga288b39c5cb10846a9c11e14ca00ada85", null ],
+    [ "MR::MeshLoad::telemetryLogSize", "group__MeshLoadGroup.html#ga1609740c1af4ee05a62c65f39f25323a", null ]
 ];
