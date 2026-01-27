@@ -146,15 +146,15 @@ var NAVTREEINDEX =
 "classMR_1_1ObjectVoxels.html#a9c873dde4e686986bb9adeda5769a801",
 "classMR_1_1PointObject.html#a9215ed6684e083895532c81850cf1ca9",
 "classMR_1_1RibbonFontManager.html",
-"classMR_1_1SurfaceDistanceBuilder.html",
-"classMR_1_1Viewport.html#a42b2f4de02033c7851a3b5278b630363",
-"functions_v.html",
-"group__DataModelGroup.html#ga595c5f842600963ee11cd5e9a3a0a7f8",
-"group__MeshFixerGroup.html#gab288e6567def34c11ffd9a7a3ce86db3",
-"group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555",
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec",
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html",
-"structMR_1_1SymMatrix4.html#a3800df67aa75d0782b005ad6334cad45"
+"classMR_1_1SurfaceDistanceBuilder.html#a39a246ce6017171a27b69a9766a6968b",
+"classMR_1_1Viewport.html#a5db126693ea50ec4094b651633099a21",
+"functions_vars.html",
+"group__DataModelGroup.html#ga9e5093d4aabe18b3b177676bed2f1832",
+"group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc",
+"group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b",
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f",
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html",
+"structMR_1_1SymMatrix4.html#aa81a146dfe065dc9e492ff69c83dfc33"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

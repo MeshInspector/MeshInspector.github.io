@@ -142,7 +142,6 @@ var NAVTREEINDEX13 =
 "classMR_1_1SignedDistanceToMeshResult.html#ad282fb6dd98fc5a97112c0c8a282069a":[6,0,0,1,27,3],
 "classMR_1_1SignedDistanceToMeshResult.html#ad3ef4b2068272ad11b76f453b09f16cc":[6,0,0,1,27,6],
 "classMR_1_1SpaceMouse_1_1Controller.html":[6,0,2,0,2,19,1],
-"classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1":[6,0,2,0,2,19,1,0],
 "classMR_1_1SpaceMouse_1_1Device.html":[6,0,2,0,2,19,2],
 "classMR_1_1SpaceMouse_1_1Device.html#a1e84419b5a55d15608dce2aa9a257691":[6,0,2,0,2,19,2,0],
 "classMR_1_1SpaceMouse_1_1Device.html#a5ad7cb30ab2894c06a1bceb21811fc99":[6,0,2,0,2,19,2,4],
@@ -154,8 +153,7 @@ var NAVTREEINDEX13 =
 "classMR_1_1SpaceMouse_1_1Handler.html#a424fdba0d108f8b85f4661b88563b34e":[6,0,2,0,2,19,3,1],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html":[6,0,2,0,2,19,4],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[6,0,2,0,2,19,4,0],
-"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a3dc021818a03274186e2b78274e47551":[6,0,2,0,2,19,4,1],
-"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#aae4e353eea81a023dda11f6f3dc99f93":[6,0,2,0,2,19,4,2],
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#aae4e353eea81a023dda11f6f3dc99f93":[6,0,2,0,2,19,4,1],
 "classMR_1_1SparsePolynomial.html":[6,0,2,0,2,350],
 "classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba":[6,0,2,0,2,350,4],
 "classMR_1_1SparsePolynomial.html#a3dc64df27400abce4c5aa702e5829ac3":[6,0,2,0,2,350,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX13 =
 "classMR_1_1SubdivideSettings.html#adb818df8eae4801379117a0477777094":[6,0,0,9,7,0,16],
 "classMR_1_1SubdivideSettings.html#adf1fd23f089137943f51e4a5b6c897da":[6,0,0,9,7,0,20],
 "classMR_1_1SubdivideSettings.html#aef7b0f16597505fa1847a9a38cb3164c":[6,0,0,9,7,0,6],
-"classMR_1_1SubdivideSettings.html#afab9ec8867cf7ea966aca70cd693d026":[6,0,0,9,7,0,0]
+"classMR_1_1SubdivideSettings.html#afab9ec8867cf7ea966aca70cd693d026":[6,0,0,9,7,0,0],
+"classMR_1_1SurfaceDistanceBuilder.html":[6,0,0,16,2,1],
+"classMR_1_1SurfaceDistanceBuilder.html#a0ef5acb22e3b599c8c37f78a8fbb4d47":[6,0,0,16,2,1,0]
 };

@@ -185,51 +185,45 @@ $(function(){initNavTree('MRSpaceMouseHandlerHidapi_8h_source.html',''); initRes
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#aae4e353eea81a023dda11f6f3dc99f93">   34</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#aae4e353eea81a023dda11f6f3dc99f93">initialize</a>( std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> std::string&amp;)&gt; deviceSignal ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073">   35</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073">handle</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a3dc021818a03274186e2b78274e47551">   38</a></span>    MRVIEWER_API <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a3dc021818a03274186e2b78274e47551">hasValidDeviceConnected</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> initListenerThread_();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> postFocus_( <span class="keywordtype">bool</span> focused ) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> processAction_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action );</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">bool</span> findAndAttachDevice_( <span class="keywordtype">bool</span> verbose );</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    std::function&lt;void(<span class="keyword">const</span> std::string&amp;)&gt; deviceSignal_;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    hid_device* device_ = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">class </span>AtomicDevice</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">void</span> resetDevice( VendorId vId = 0, ProductId pId = 0 );</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="comment">// update (rewrite its data) SpaceMouseAction if DataPacketRaw is not empty</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> parseRaw( <span class="keyword">const</span> DataPacketRaw&amp; packet, <span class="keywordtype">int</span> packet_length, <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordtype">void</span> process( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action );</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">bool</span> valid() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keyword">mutable</span> std::mutex mutex_;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        std::unique_ptr&lt;Device&gt; device_;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    } smDevice_;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">size_t</span> numMsg_ = 0;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::thread listenerThread_;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::atomic_bool terminateListenerThread_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::mutex syncThreadMutex_; <span class="comment">// which thread reads and handles SpaceMouse data</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::condition_variable cv_; <span class="comment">// notify on thread change</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    DataPacketRaw dataPacket_;    <span class="comment">// packet from listener thread</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">int</span> packetLength_ = 0;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    std::atomic_bool active_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// set state of zoom by mouse scroll (to fix scroll signal from SpaceMouse driver)</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    MRVIEWER_API <span class="keywordtype">void</span> activateMouseScrollZoom( <span class="keywordtype">bool</span> activeMouseScrollZoom );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// get state of zoom by mouse scroll</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    MRVIEWER_API <span class="keywordtype">bool</span> isMouseScrollZoomActive()</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> activeMouseScrollZoom_;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> initListenerThread_();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> postFocus_( <span class="keywordtype">bool</span> focused ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> processAction_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// update (rewrite its data) SpaceMouseAction if DataPacketRaw is not empty</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> updateActionWithInput_( <span class="keyword">const</span> DataPacketRaw&amp; packet, <span class="keywordtype">int</span> packet_length, <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action );</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">bool</span> findAndAttachDevice_( <span class="keywordtype">bool</span> verbose );</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::function&lt;void(<span class="keyword">const</span> std::string&amp;)&gt; deviceSignal_;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    hid_device* device_ = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    std::unique_ptr&lt;Device&gt; smDevice_;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">size_t</span> numMsg_ = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    std::thread listenerThread_;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::atomic_bool terminateListenerThread_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    std::mutex syncThreadMutex_; <span class="comment">// which thread reads and handles SpaceMouse data</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    std::condition_variable cv_; <span class="comment">// notify on thread change</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    DataPacketRaw dataPacket_;    <span class="comment">// packet from listener thread</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">int</span> packetLength_ = 0;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    std::atomic_bool active_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">bool</span> activeMouseScrollZoom_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
 </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1HandlerHidapi_html"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html">MR::SpaceMouse::HandlerHidapi</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseHandlerHidapi.h:29</div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1HandlerHidapi_html_a20c6b0e22bec8be84b2034de74bf6073"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073">MR::SpaceMouse::HandlerHidapi::handle</a></div><div class="ttdeci">void handle() override</div><div class="ttdoc">handle device state and call Viewer signals</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouse_1_1HandlerHidapi_html_a3dc021818a03274186e2b78274e47551"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a3dc021818a03274186e2b78274e47551">MR::SpaceMouse::HandlerHidapi::hasValidDeviceConnected</a></div><div class="ttdeci">MRVIEWER_API bool hasValidDeviceConnected() const</div><div class="ttdoc">returns true if this handler has connected device</div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1HandlerHidapi_html_aae4e353eea81a023dda11f6f3dc99f93"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1HandlerHidapi.html#aae4e353eea81a023dda11f6f3dc99f93">MR::SpaceMouse::HandlerHidapi::initialize</a></div><div class="ttdeci">bool initialize(std::function&lt; void(const std::string &amp;)&gt; deviceSignal) override</div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Handler_html"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Handler.html">MR::SpaceMouse::Handler</a></div><div class="ttdoc">base class for handler of spacemouse devices</div><div class="ttdef"><b>Definition</b> MRSpaceMouseHandler.h:12</div></div>
 <div class="ttc" id="astructMR_1_1PostFocusListener_html"><div class="ttname"><a href="structMR_1_1PostFocusListener.html">MR::PostFocusListener</a></div><div class="ttdoc">class to subscribe on PostFocusSingal</div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:397</div></div>

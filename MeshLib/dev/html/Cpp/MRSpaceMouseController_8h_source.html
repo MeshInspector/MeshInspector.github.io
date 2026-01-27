@@ -167,21 +167,19 @@ $(function(){initNavTree('MRSpaceMouseController_8h_source.html',''); initResiza
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">void</span> setParameters( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Parameters.html">Parameters</a>&amp; newParams ) { params_ = newParams; }</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Parameters.html">Parameters</a>&amp; getParameters()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_; }</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1">   21</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1">canDriverSendScroll</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> spaceMouseMove_( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; translate, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; rotate );</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">bool</span> spaceMouseDown_( <span class="keywordtype">int</span> key );</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> spaceMouseMove_( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; translate, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; rotate );</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">bool</span> spaceMouseDown_( <span class="keywordtype">int</span> key );</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> lockRotate_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">bool</span> showKeyDebug_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">bool</span> lockRotate_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">bool</span> showKeyDebug_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    Parameters params_;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Parameters.html">Parameters</a> params_;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
 </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Controller_html"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Controller.html">MR::SpaceMouse::Controller</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseController.h:11</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Controller_html_aaa34dd39dfd69309293fc8871f7378b1"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1">MR::SpaceMouse::Controller::canDriverSendScroll</a></div><div class="ttdeci">bool canDriverSendScroll() const</div></div>
 <div class="ttc" id="astructMR_1_1SpaceMouse_1_1Parameters_html"><div class="ttname"><a href="structMR_1_1SpaceMouse_1_1Parameters.html">MR::SpaceMouse::Parameters</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseParameters.h:10</div></div>
 <div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
