@@ -12,7 +12,7 @@ var structMR_1_1GraphVertId =
     [ "incr", "structMR_1_1GraphVertId.html#a09b9ab771723bc266385f5ef5c384a4f", null ],
     [ "less", "structMR_1_1GraphVertId.html#a067ca9640ba383ebfec71740686d1669", null ],
     [ "operator bool", "structMR_1_1GraphVertId.html#a04e27e68dceabef85c477e5035bce1ed", null ],
-    [ "operator GraphVertId", "structMR_1_1GraphVertId.html#addbe2d1f116f5882ddb00eb1667d5a34", null ],
+    [ "operator GraphVertId", "structMR_1_1GraphVertId.html#ad0457358051e61fda9eb9526ae853e86", null ],
     [ "operator int", "structMR_1_1GraphVertId.html#a24fa9f725f9da357b7f6caf5774d0aff", null ],
     [ "operator==", "structMR_1_1GraphVertId.html#a9eb24ba73912efd7e1436316eb5658b2", null ],
     [ "subAssign", "structMR_1_1GraphVertId.html#ad31ffc1f32bcd5afba98fd56338fae39", null ],

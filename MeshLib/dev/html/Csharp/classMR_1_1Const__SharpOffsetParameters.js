@@ -2,7 +2,6 @@ var classMR_1_1Const__SharpOffsetParameters =
 [
     [ "Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html#a2132b1bcfa6dfd467624681f21e87b65", null ],
     [ "Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html#a36fea789e0636b654d58c9de1ecdaeb8", null ],
-    [ "_Storage_outSharpEdges", "classMR_1_1Const__SharpOffsetParameters.html#aa9c9f8dca46957618eadebb873a812b8", null ],
     [ "callBack", "classMR_1_1Const__SharpOffsetParameters.html#a8f7e7821d24d2ab41062cd4304fdc957", null ],
     [ "closeHolesInHoleWindingNumber", "classMR_1_1Const__SharpOffsetParameters.html#a3a560deb91a7d616390ac704cf72810e", null ],
     [ "fwn", "classMR_1_1Const__SharpOffsetParameters.html#a7c4ea69c8c78f97431b9d377ae273cdc", null ],

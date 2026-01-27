@@ -19,7 +19,7 @@ var structMR_1_1Vector3f =
     [ "minusZ", "structMR_1_1Vector3f.html#ad926ac78179a61fb9daa50d24407f425", null ],
     [ "mulAssign", "structMR_1_1Vector3f.html#adb2171449923e01a86cb4b1450836dd4", null ],
     [ "normalized", "structMR_1_1Vector3f.html#a77a2c2ea4655d18cc0ab74132ed93c38", null ],
-    [ "operator Vector3f", "structMR_1_1Vector3f.html#a803d5b1bea1ac565e1f3074e6327e9b5", null ],
+    [ "operator Vector3f", "structMR_1_1Vector3f.html#adaf8081661fa4b31534ade364a2f2e8a", null ],
     [ "operator*", "structMR_1_1Vector3f.html#a79469fe89f2153ca06bda38e699c49af", null ],
     [ "operator*", "structMR_1_1Vector3f.html#af916483eba55d3aedb7ff01faa1496aa", null ],
     [ "operator+", "structMR_1_1Vector3f.html#ab4a119750dfeba7d6fb6b01266e4b73d", null ],

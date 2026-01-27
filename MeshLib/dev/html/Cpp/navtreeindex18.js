@@ -222,7 +222,9 @@ var NAVTREEINDEX18 =
 "group__TriangulationHelpersGroup.html#gae34e6824af064eefccf01c8f241bb11d":[6,0,0,13,0,1],
 "group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758":[6,0,0,13,0,3],
 "group__TunnelDetectorGroup.html":[6,0,0,16,4],
-"group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc":[6,0,0,16,4,4],
+"group__TunnelDetectorGroup.html#ga0496ff6c99ea415eaab1b519264edaf0":[6,0,0,16,4,6],
+"group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc":[6,0,0,16,4,5],
+"group__TunnelDetectorGroup.html#ga58a1b7a9d6de56cf7751d0509ef04452":[6,0,0,16,4,4],
 "group__TunnelDetectorGroup.html#ga7dd035558540c3818d6d69afc731f953":[6,0,0,16,4,1],
 "group__TunnelDetectorGroup.html#gad2b33a572c4859f4df4922d782d63598":[6,0,0,16,4,3],
 "group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c":[6,0,0,16,4,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "group__VoxelGroup.html#ga8e13ff7ca749a229d273701ff2b833c0":[6,0,0,17,17],
 "group__VoxelGroup.html#ga926edbe131f216c52d55d31a98f33aaf":[6,0,0,17,7],
 "group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555":[6,0,0,17,8],
-"group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef":[6,0,0,17,15],
-"group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b":[6,0,0,17,6],
-"group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf":[6,0,0,17,11]
+"group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef":[6,0,0,17,15]
 };

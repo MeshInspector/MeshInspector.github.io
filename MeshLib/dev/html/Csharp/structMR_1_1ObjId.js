@@ -13,7 +13,7 @@ var structMR_1_1ObjId =
     [ "less", "structMR_1_1ObjId.html#a0984396e311df186413a11ad09e0d9cd", null ],
     [ "operator bool", "structMR_1_1ObjId.html#ac941323bb6a55969a01ee2df9893d431", null ],
     [ "operator int", "structMR_1_1ObjId.html#af14416bc4a8fc5c0632fecc26baa6511", null ],
-    [ "operator ObjId", "structMR_1_1ObjId.html#a17132ee861537ba16b5c40eda8e40d0a", null ],
+    [ "operator ObjId", "structMR_1_1ObjId.html#ac59e17374ac5cddef46c6b481dffbce6", null ],
     [ "operator==", "structMR_1_1ObjId.html#a3471ccc3c8ffbde9261f701bb33d579c", null ],
     [ "subAssign", "structMR_1_1ObjId.html#af7ee5faacda1590f6650a3831fed604c", null ],
     [ "valid", "structMR_1_1ObjId.html#a2cab6507d02d3cbd8efc80d2bf6af694", null ]

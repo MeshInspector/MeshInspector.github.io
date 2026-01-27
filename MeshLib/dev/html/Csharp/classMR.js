@@ -216,6 +216,10 @@ var classMR =
       [ "None", "classMR.html#a2f6d997fab8518c579b67d420b8dea94a6adf97f83acf6453d4a6a4b1070f3754", null ]
     ] ],
     [ "SlicePlane", "../Cpp/group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab", null ],
+    [ "Turn", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13ead", [
+      [ "Leftmost", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13eada5313b10fe6ecec66888957ac38ee7f9b", null ],
+      [ "Rightmost", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9", null ]
+    ] ],
     [ "VertexMass", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8", [
       [ "Unit", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "NeiArea", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a1382ee05d86c5b607841935eeb648e06", null ]
@@ -588,12 +592,14 @@ var classMR =
     [ "extendAllHoles", "classMR.html#acdcda4c60190b7bf472939c7df45de41", null ],
     [ "extendHole", "classMR.html#a0281f07abce8bc79dc9b58cbd8ebf256", null ],
     [ "extendHole", "classMR.html#af00e16d1b2b67090c527f62aeeb9fa3a", null ],
+    [ "extractAllLoops", "classMR.html#a451406457011cbd3eade54ec90d15acb", null ],
     [ "extractClosedLoops", "classMR.html#ab7277e70f299c5f0f50e544cafc3ff4c", null ],
     [ "extractClosedLoops", "classMR.html#a5300365ddffa07f8247d8753b47d2dd9", null ],
     [ "extractIsolines", "classMR.html#afec7c6c3443f1bf29044ca6e1a623199", null ],
     [ "extractIsolines", "classMR.html#a90fa2e01505e5982b5c10badeb77961b", null ],
     [ "extractLongestClosedLoop", "classMR.html#af3cba735a49dc70464d88702342d83b3", null ],
     [ "extractMeshContours", "classMR.html#a1d9fdf5da92c823204e0528bba1e98d4", null ],
+    [ "extractPath", "classMR.html#a20bd5b1dda9985eef5f03c31d7000efa", null ],
     [ "extractPlaneSections", "classMR.html#ab0efd041327bc7e9c98bc4db1910e6a6", null ],
     [ "extractSectionsFromPolyline", "classMR.html#a0e458a2f8fa7f03be3fa1dbfbd5392c2", null ],
     [ "extractXYPlaneSections", "classMR.html#a45cc0c61d332d7bc1f1f303b42aa57c0", null ],
@@ -613,6 +619,7 @@ var classMR =
     [ "filterCreaseEdges", "classMR.html#ac43e4992dd2440441e2d829e30fc7d3c", null ],
     [ "filterHistoryActionsVector", "classMR.html#a9c597de04826beda112a6ae75267ff0e", null ],
     [ "findActiveBounds", "classMR.html#a4662a70031ee297dd59ca2248614265f", null ],
+    [ "findAllLeftBdEdges", "classMR.html#ad56fdd3f5cef465728cf70ad07362093", null ],
     [ "findAvgPointsRadius", "classMR.html#ae402988c27d3af9498e31849b6648507", null ],
     [ "findBestFreeformDeformation", "classMR.html#a349c695b6ff571802027d1671ce96c54", null ],
     [ "findBoxedTrisInBall", "classMR.html#a5a0409f056c758f5464aeb4dacfb46f0", null ],
@@ -723,6 +730,7 @@ var classMR =
     [ "findSelfCollidingTrianglesBS", "classMR.html#aa3a699a07056ea6cd777718d097ac4e8", null ],
     [ "findShortEdges", "classMR.html#a5e1e231fab06bee1d11f51ba176bdc1e", null ],
     [ "findShortestCoLoop", "classMR.html#ab18c3d680d5c9c23e988d7dead8b7c8a", null ],
+    [ "findShortestEquivalentLoops", "classMR.html#a495179015bfa8aba5ea3d7f98b4df030", null ],
     [ "findSignedDistance", "classMR.html#ace7b326187b842ec5d4ad4520bf9632d", null ],
     [ "findSignedDistance", "classMR.html#af11021efa4a8fbedde739d07af5b8cc5", null ],
     [ "findSignedDistances", "classMR.html#abd05f9ea2095962bf0ef0e8046474237", null ],
@@ -733,6 +741,7 @@ var classMR =
     [ "findSmallestCloseVertices", "classMR.html#a2716dcb8263cdfc8cd7a70d2df60da58", null ],
     [ "findSmallestCloseVerticesUsingTree", "classMR.html#ae69ddcb0207744af312570bc5cbd393d", null ],
     [ "findSmallestMetricCoLoop", "classMR.html#aaf12b860959be4155aeb8aa7fef6f13e", null ],
+    [ "findSmallestMetricEquivalentLoops", "classMR.html#afaf026178c7ccbe2c7d27a8064daa553", null ],
     [ "findSpikeVertices", "classMR.html#a71401366f9f98c4898ae607ecf10f758", null ],
     [ "findSteepestDescentPoint", "classMR.html#af35cf8c7df6a226a406e034ef395ef34", null ],
     [ "findSteepestDescentPoint", "classMR.html#aa211c453e2547c497ba70c232733fdb9", null ],

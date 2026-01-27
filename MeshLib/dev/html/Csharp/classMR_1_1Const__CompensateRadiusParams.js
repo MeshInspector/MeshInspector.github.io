@@ -3,7 +3,6 @@ var classMR_1_1Const__CompensateRadiusParams =
     [ "Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html#a8e7e94354c3ae7bc832b170825f9c1b5", null ],
     [ "Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html#abb539d0fee362da81cf16bc375891421", null ],
     [ "Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html#ad5dfa84c13c8e6aef1bfa9a3eab8e063", null ],
-    [ "_Storage_region", "classMR_1_1Const__CompensateRadiusParams.html#a314d78ef052f7208559dc7ed7bccaa73", null ],
     [ "direction", "classMR_1_1Const__CompensateRadiusParams.html#a18392c6249e351169b3d9a56428d861d", null ],
     [ "maxIterations", "classMR_1_1Const__CompensateRadiusParams.html#a6464faf35f250c2e7cfc077945ba3f93", null ],
     [ "region", "classMR_1_1Const__CompensateRadiusParams.html#adb4fb2b5e5ec83d6bb13577ffef1d0a8", null ],

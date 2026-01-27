@@ -243,11 +243,18 @@ $(function(){initNavTree('MREnums_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    MR_GeodesicPathApprox_FastMarching = 2,</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>};</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *MR_asString_MR_ColoringType(MR_ColoringType ct);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keyword">typedef</span> <span class="keywordtype">bool</span> MR_Turn;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">enum</span> <span class="comment">// MR_Turn</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>{</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    MR_Turn_Leftmost = 0,</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    MR_Turn_Rightmost = 1,</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>};</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *MR_asString_MR_ColoringType(MR_ColoringType ct);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

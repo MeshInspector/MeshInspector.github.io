@@ -24,7 +24,7 @@ var structMR_1_1Box2d =
     [ "intersect", "structMR_1_1Box2d.html#acd3ccf992f659ce95bcbdf69edfe53df", null ],
     [ "intersection", "structMR_1_1Box2d.html#a22371d1b9cf26819c1a735fd8552300f", null ],
     [ "intersects", "structMR_1_1Box2d.html#a45e9193a74b023c9c2c43a3e3d89c8aa", null ],
-    [ "operator Box2d", "structMR_1_1Box2d.html#a4dcb425b24fa4af3bdb5be0b84f8ce49", null ],
+    [ "operator Box2d", "structMR_1_1Box2d.html#abb7c4549e428d6dc86d2c38fd87248be", null ],
     [ "operator==", "structMR_1_1Box2d.html#a15991518dc5439abf2f72a4f778e8829", null ],
     [ "size", "structMR_1_1Box2d.html#ac59f2a479ca06fe8f0b7918e55223f78", null ],
     [ "valid", "structMR_1_1Box2d.html#a562d0e098c8ff16ccfc0fadec7005234", null ],

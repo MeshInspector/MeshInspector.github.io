@@ -1086,6 +1086,7 @@ var annotated_dup =
       [ "TriPointd", "classmrmeshpy_1_1TriPointd.html", "classmrmeshpy_1_1TriPointd" ],
       [ "TriPointf", "classmrmeshpy_1_1TriPointf.html", "classmrmeshpy_1_1TriPointf" ],
       [ "TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", "classmrmeshpy_1_1TrivialMetricToPenalty" ],
+      [ "Turn", "classmrmeshpy_1_1Turn.html", null ],
       [ "TypedBitSet_Id_ICPElemtTag", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag" ],
       [ "UiRenderManager", "classmrmeshpy_1_1UiRenderManager.html", "classmrmeshpy_1_1UiRenderManager" ],
       [ "UiRenderParams", "classmrmeshpy_1_1UiRenderParams.html", "classmrmeshpy_1_1UiRenderParams" ],

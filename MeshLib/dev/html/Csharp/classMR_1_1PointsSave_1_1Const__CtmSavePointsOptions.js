@@ -2,12 +2,6 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
 [
     [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a2087714eb68ddd99ccf8a221a98427ac", null ],
     [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1235822151a819d05a5720b08866dee6", null ],
-    [ "_Storage_colors", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a84cfc955f9c4aeb36ec8b1c64da1dbfc", null ],
-    [ "_Storage_comment", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a7e20292a9442d7f490dc3597f1f57561", null ],
-    [ "_Storage_primitiveColors", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aa1f88538c0e1a243a68c05fdd8125c26", null ],
-    [ "_Storage_texture", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#abd1eafe6174bdd2c22534b7e15b168b2", null ],
-    [ "_Storage_uvMap", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aba83978fd215713b358eb28ceed9d4ed", null ],
-    [ "_Storage_xf", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a481e01d04b5c5c947ac04a0e455c6c3a", null ],
     [ "colors", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a82a2c56caf3b7db4aec562fe2247bf0e", null ],
     [ "comment", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a23cd7c0114f5f841945a9a0a56f5280d", null ],
     [ "compressionLevel", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aa972689c9367e4d850656f9810c06fbd", null ],
@@ -21,5 +15,5 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
     [ "solidColor", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1637397189664c5feef48669988cf567", null ],
     [ "texture", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab71a9b406d184f31efd20e4be1c154d0", null ],
     [ "uvMap", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a265d6499c8efb36484866e57f81bde58", null ],
-    [ "xf", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a9d2c7c2888158cd53549120c16eeea64", null ]
+    [ "xf", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#abacc88695cc5dd73f34084eca3ed6366", null ]
 ];

@@ -137,7 +137,7 @@ var NAVTREEINDEX =
 "MRPointsToMeshFusion_8h_source.html",
 "MRUnitInfo_8h_source.html",
 "classMR_1_1ChangeMeshFaceSelectionAction.html",
-"classMR_1_1ComputeSteepestDescentPathSettings.html#a4a1de14562cfe2b35b795a50494c9085",
+"classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9",
 "classMR_1_1DirectionWidget.html#a167c6b1a7f459b928ff38d1a1136b2cb",
 "classMR_1_1IOFilter.html#aa9bab4124376f635f5e78a9784e8bf9b",
 "classMR_1_1MeshRelaxParams.html",
@@ -151,10 +151,10 @@ var NAVTREEINDEX =
 "functions_vars.html",
 "group__DataModelGroup.html#ga9e5093d4aabe18b3b177676bed2f1832",
 "group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc",
-"group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4",
-"structMR_1_1Features_1_1Traits_1_1Binary.html",
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html",
-"structMR_1_1TbbTaskArenaAndGroup.html"
+"group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b",
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f",
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html",
+"structMR_1_1SymMatrix4.html#aa81a146dfe065dc9e492ff69c83dfc33"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

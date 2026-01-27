@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1std__vector__ObjVertId.html#acdd1c258c857251b55191d20ee9d05bf":[6,1,0,0,1,942,11],
 "classmrmeshpy_1_1std__vector__ObjVertId.html#acf5f248e910cdd9d3927befce271f6e2":[6,1,0,0,1,942,1],
 "classmrmeshpy_1_1std__vector__ObjVertId.html#ae023fb6537175ef1c8bc7382b6258f98":[6,1,0,0,1,942,3],
 "classmrmeshpy_1_1std__vector__ObjVertId.html#ae437ad5682722b102cdcb40e2c932dc3":[6,1,0,0,1,942,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a78f25826ba07a302960bab0d4c2ec103":[6,1,0,0,1,959,11],
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a82791d25e2e2701757160aa832a1e5fb":[6,1,0,0,1,959,10],
 "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a89b07dc6aa7ed7034fba7c0ffcea9ccd":[6,1,0,0,1,959,0],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#aa9c8cc6b864f94379f6e4f4266ff94d9":[6,1,0,0,1,959,2],
-"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#ab6f6d5997113f3dfc33f3c2d258a2faa":[6,1,0,0,1,959,3]
+"classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#aa9c8cc6b864f94379f6e4f4266ff94d9":[6,1,0,0,1,959,2]
 };

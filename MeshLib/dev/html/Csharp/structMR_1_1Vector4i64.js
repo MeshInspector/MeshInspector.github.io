@@ -11,7 +11,7 @@ var structMR_1_1Vector4i64 =
     [ "length", "structMR_1_1Vector4i64.html#a774c7a321f9ad2a43551600aa1a8dc12", null ],
     [ "lengthSq", "structMR_1_1Vector4i64.html#a7a08ad3ecd8a8553fd1f980a4ca9e409", null ],
     [ "mulAssign", "structMR_1_1Vector4i64.html#a81565491057d02b9f181e9f2bce4d899", null ],
-    [ "operator Vector4i64", "structMR_1_1Vector4i64.html#a69c3dc7044b84c6c743fd159799eeb48", null ],
+    [ "operator Vector4i64", "structMR_1_1Vector4i64.html#ac29331eb6087ebfb77e719c34d7a8dc6", null ],
     [ "operator*", "structMR_1_1Vector4i64.html#af8666c8c8558b0f8cb497cea532b7005", null ],
     [ "operator*", "structMR_1_1Vector4i64.html#a94c0da7257e650ea7bfa96046048943c", null ],
     [ "operator+", "structMR_1_1Vector4i64.html#a86dc76b500b3c4a718d9757d32ddba54", null ],
