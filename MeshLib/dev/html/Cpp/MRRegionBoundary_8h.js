@@ -2,6 +2,9 @@ var MRRegionBoundary_8h =
 [
     [ "delRegionKeepBd", "MRRegionBoundary_8h.html#a9a3ca5fbd5ec0dba1668bc17602b04e1", null ],
     [ "delRegionKeepBd", "MRRegionBoundary_8h.html#adacfce1ed3976c8879c40d3eb35423cf", null ],
+    [ "extractAllLoops", "MRRegionBoundary_8h.html#a6b0c6bd48617b081f8c4e35ca00e873a", null ],
+    [ "extractPath", "MRRegionBoundary_8h.html#a646cb17e45dd4e0d253cd4bb3780c8d1", null ],
+    [ "findAllLeftBdEdges", "MRRegionBoundary_8h.html#a7f3c7f8578e17b8c8dba8eb34d687df9", null ],
     [ "findLeftBoundary", "MRRegionBoundary_8h.html#a13036c327bc09c34552cb343a4d46976", null ],
     [ "findLeftBoundary", "MRRegionBoundary_8h.html#a1fc4b7cc580d42260b45c0af3ff2fd12", null ],
     [ "findLeftBoundaryInsideMesh", "MRRegionBoundary_8h.html#ae00243e83bb9017aa03fcb42bd7f524d", null ],

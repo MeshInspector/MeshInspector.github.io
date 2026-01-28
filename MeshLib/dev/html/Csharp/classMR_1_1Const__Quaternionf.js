@@ -23,7 +23,7 @@ var classMR_1_1Const__Quaternionf =
     [ "slerp", "classMR_1_1Const__Quaternionf.html#a851554426a977f88d60f00fcedd0ef28", null ],
     [ "slerp", "classMR_1_1Const__Quaternionf.html#a6f087c919498b60849a7b474dc3b4548", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a57048a64f93c2ca4e98822bfeab6a40a", null ],
-    [ "a", "classMR_1_1Const__Quaternionf.html#a65d29c13d60e6d90f9daabc17db29c9c", null ],
-    [ "b", "classMR_1_1Const__Quaternionf.html#abf05bc6a3c4eb7eccbf68bb2e04cc731", null ],
-    [ "c", "classMR_1_1Const__Quaternionf.html#ae9072fd8f50ccdd4e076b57c9f29a802", null ]
+    [ "__ref_storage_a", "classMR_1_1Const__Quaternionf.html#a02a7729a186bb819897ed10f504123ac", null ],
+    [ "__ref_storage_b", "classMR_1_1Const__Quaternionf.html#a2b0a193ce05f44a3c56ad6fcf8cc95f1", null ],
+    [ "__ref_storage_c", "classMR_1_1Const__Quaternionf.html#a30d543171609311dbd1c342221dd46be", null ]
 ];

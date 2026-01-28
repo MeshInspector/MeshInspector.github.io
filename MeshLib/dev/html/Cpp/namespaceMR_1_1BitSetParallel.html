@@ -146,11 +146,17 @@ $(function(){initNavTree('namespaceMR_1_1BitSetParallel.html',''); initResizable
 
 <div class="header">
   <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::BitSetParallel Namespace Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a60790ca97df099f162ff79d253be07f1" id="r_a60790ca97df099f162ff79d253be07f1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> = tbb::blocked_range&lt;size_t&gt;</td></tr>
+<tr class="separator:a60790ca97df099f162ff79d253be07f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8d363b4768efba11f60c43928c542bf1" id="r_a8d363b4768efba11f60c43928c542bf1"><td class="memTemplParams" colspan="2">template&lt;typename IndexType &gt; </td></tr>
@@ -165,19 +171,34 @@ Functions</h2></td></tr>
 <tr class="memitem:ac886c0876beae880356ab560e584b63e" id="r_ac886c0876beae880356ab560e584b63e"><td class="memTemplParams" colspan="2">template&lt;typename IndexType &gt; </td></tr>
 <tr class="memitem:ac886c0876beae880356ab560e584b63e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac886c0876beae880356ab560e584b63e">bitSubRange</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, const tbb::blocked_range&lt; size_t &gt; &amp;range, const tbb::blocked_range&lt; size_t &gt; &amp;subRange)</td></tr>
 <tr class="separator:ac886c0876beae880356ab560e584b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bd79eee90fc2c0edb4ad601a2405b3c" id="r_a3bd79eee90fc2c0edb4ad601a2405b3c"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename CM , typename F &gt; </td></tr>
-<tr class="memitem:a3bd79eee90fc2c0edb4ad601a2405b3c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3bd79eee90fc2c0edb4ad601a2405b3c">ForAllRanged</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, const CM &amp;callMaker, F &amp;&amp;f)</td></tr>
-<tr class="separator:a3bd79eee90fc2c0edb4ad601a2405b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f85ef918c6f42f0b53973d00bb6a720" id="r_a5f85ef918c6f42f0b53973d00bb6a720"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename CM , typename F &gt; </td></tr>
-<tr class="memitem:a5f85ef918c6f42f0b53973d00bb6a720"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5f85ef918c6f42f0b53973d00bb6a720">ForAllRanged</a> (const BS &amp;bs, const CM &amp;callMaker, F &amp;&amp;f)</td></tr>
-<tr class="separator:a5f85ef918c6f42f0b53973d00bb6a720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a003ae747d026a9348bbd8cf8eb29b30f" id="r_a003ae747d026a9348bbd8cf8eb29b30f"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename CM , typename F &gt; </td></tr>
-<tr class="memitem:a003ae747d026a9348bbd8cf8eb29b30f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a003ae747d026a9348bbd8cf8eb29b30f">ForAllRanged</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, const CM &amp;callMaker, F &amp;&amp;f, ProgressCallback progressCb, size_t reportProgressEveryBit=1024)</td></tr>
-<tr class="separator:a003ae747d026a9348bbd8cf8eb29b30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dae19e97b7c75a723c2c38ab4f6f379" id="r_a4dae19e97b7c75a723c2c38ab4f6f379"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename CM , typename F &gt; </td></tr>
-<tr class="memitem:a4dae19e97b7c75a723c2c38ab4f6f379"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4dae19e97b7c75a723c2c38ab4f6f379">ForAllRanged</a> (const BS &amp;bs, const CM &amp;callMaker, F &amp;&amp;f, ProgressCallback progressCb, size_t reportProgressEveryBit=1024)</td></tr>
-<tr class="separator:a4dae19e97b7c75a723c2c38ab4f6f379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357fb7ee5dcb97530561b61703771f02" id="r_a357fb7ee5dcb97530561b61703771f02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a357fb7ee5dcb97530561b61703771f02">forAllRanged</a> (const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;<a class="el" href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;)&gt; f)</td></tr>
+<tr class="separator:a357fb7ee5dcb97530561b61703771f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2d97d78925db0934e887b795c0c84f" id="r_afd2d97d78925db0934e887b795c0c84f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd2d97d78925db0934e887b795c0c84f">forAllRanged</a> (const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;<a class="el" href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx)</td></tr>
+<tr class="separator:afd2d97d78925db0934e887b795c0c84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc8ec5da5f21c7b1fb5aee09e55b094" id="r_a5dc8ec5da5f21c7b1fb5aee09e55b094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dc8ec5da5f21c7b1fb5aee09e55b094">forAllRanged</a> (const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;<a class="el" href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx, ProgressCallback progressCb, size_t reportProgressEveryBit=1024)</td></tr>
+<tr class="separator:a5dc8ec5da5f21c7b1fb5aee09e55b094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364f6c3c44118bfca1b525a51dd54626" id="r_a364f6c3c44118bfca1b525a51dd54626"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:a364f6c3c44118bfca1b525a51dd54626"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a364f6c3c44118bfca1b525a51dd54626">ForAllRanged</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:a364f6c3c44118bfca1b525a51dd54626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05fc848939177c9fd25511b45bf05c3" id="r_ab05fc848939177c9fd25511b45bf05c3"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ab05fc848939177c9fd25511b45bf05c3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab05fc848939177c9fd25511b45bf05c3">ForAllRanged</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ab05fc848939177c9fd25511b45bf05c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a60790ca97df099f162ff79d253be07f1" name="a60790ca97df099f162ff79d253be07f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60790ca97df099f162ff79d253be07f1">&#9670;&#160;</a></span>Range</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a60790ca97df099f162ff79d253be07f1">MR::BitSetParallel::Range</a> = tbb::blocked_range&lt;size_t&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8c54ac4b7f59d210bf4835cfa5d86a8c" name="a8c54ac4b7f59d210bf4835cfa5d86a8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c54ac4b7f59d210bf4835cfa5d86a8c">&#9670;&#160;</a></span>bitRange()</h2>
@@ -288,62 +309,18 @@ template&lt;typename IndexType &gt; </div>
 
 </div>
 </div>
-<a id="a5f85ef918c6f42f0b53973d00bb6a720" name="a5f85ef918c6f42f0b53973d00bb6a720"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f85ef918c6f42f0b53973d00bb6a720">&#9670;&#160;</a></span>ForAllRanged() <span class="overload">[1/4]</span></h2>
+<a id="a364f6c3c44118bfca1b525a51dd54626" name="a364f6c3c44118bfca1b525a51dd54626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a364f6c3c44118bfca1b525a51dd54626">&#9670;&#160;</a></span>ForAllRanged() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BS , typename CM , typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+template&lt;typename BS , typename F , typename ... Cb&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void MR::BitSetParallel::ForAllRanged </td>
+          <td class="memname">auto MR::BitSetParallel::ForAllRanged </td>
           <td>(</td>
           <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const CM &amp;</td>          <td class="paramname"><span class="paramname"><em>callMaker</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4dae19e97b7c75a723c2c38ab4f6f379" name="a4dae19e97b7c75a723c2c38ab4f6f379"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dae19e97b7c75a723c2c38ab4f6f379">&#9670;&#160;</a></span>ForAllRanged() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename BS , typename CM , typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::BitSetParallel::ForAllRanged </td>
-          <td>(</td>
-          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const CM &amp;</td>          <td class="paramname"><span class="paramname"><em>callMaker</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -353,73 +330,113 @@ template&lt;typename BS , typename CM , typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ProgressCallback</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>reportProgressEveryBit</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1024</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3bd79eee90fc2c0edb4ad601a2405b3c" name="a3bd79eee90fc2c0edb4ad601a2405b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bd79eee90fc2c0edb4ad601a2405b3c">&#9670;&#160;</a></span>ForAllRanged() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename IndexType , typename CM , typename F &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::BitSetParallel::ForAllRanged </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitRange</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const CM &amp;</td>          <td class="paramname"><span class="paramname"><em>callMaker</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+          <td class="paramtype">Cb &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a003ae747d026a9348bbd8cf8eb29b30f" name="a003ae747d026a9348bbd8cf8eb29b30f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a003ae747d026a9348bbd8cf8eb29b30f">&#9670;&#160;</a></span>ForAllRanged() <span class="overload">[4/4]</span></h2>
+<a id="ab05fc848939177c9fd25511b45bf05c3" name="ab05fc848939177c9fd25511b45bf05c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05fc848939177c9fd25511b45bf05c3">&#9670;&#160;</a></span>ForAllRanged() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename IndexType , typename CM , typename F &gt; </div>
+template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::BitSetParallel::ForAllRanged </td>
+          <td class="memname">auto MR::BitSetParallel::ForAllRanged </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitRange</em></span>, </td>
+          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const CM &amp;</td>          <td class="paramname"><span class="paramname"><em>callMaker</em></span>, </td>
+          <td class="paramtype">tbb::enumerable_thread_specific&lt; L &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Cb &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a357fb7ee5dcb97530561b61703771f02" name="a357fb7ee5dcb97530561b61703771f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357fb7ee5dcb97530561b61703771f02">&#9670;&#160;</a></span>forAllRanged() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::BitSetParallel::forAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bitRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd2d97d78925db0934e887b795c0c84f" name="afd2d97d78925db0934e887b795c0c84f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2d97d78925db0934e887b795c0c84f">&#9670;&#160;</a></span>forAllRanged() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::BitSetParallel::forAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bitRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;, void *)&gt;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5dc8ec5da5f21c7b1fb5aee09e55b094" name="a5dc8ec5da5f21c7b1fb5aee09e55b094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc8ec5da5f21c7b1fb5aee09e55b094">&#9670;&#160;</a></span>forAllRanged() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::BitSetParallel::forAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bitRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, const <a class="el" href="#a60790ca97df099f162ff79d253be07f1">Range</a> &amp;, void *)&gt;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

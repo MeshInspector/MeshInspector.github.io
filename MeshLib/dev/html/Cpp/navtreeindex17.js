@@ -1,5 +1,14 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1CombinedHistoryAction.html#a7198d283a3b62d0fbafe42a05443108f":[6,0,0,4,36,4],
+"classMR_1_1CombinedHistoryAction.html#a85b30407745962bc5a2675fb77325ef9":[6,0,0,4,36,5],
+"classMR_1_1CombinedHistoryAction.html#ace723fe0552e381f472a4cafa459a886":[6,0,0,4,36,2],
+"classMR_1_1CombinedHistoryAction.html#aee0c2b74bb5b1590616ea67a38a34884":[6,0,0,4,36,1],
+"classMR_1_1CommandLoop.html":[6,0,1,0,1,90],
+"classMR_1_1CommandLoop.html":[6,0,2,0,2,62],
+"classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39":[6,0,1,0,1,90,1],
+"classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39":[6,0,2,0,2,62,1],
+"classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0":[6,0,1,0,1,90,1,2],
 "classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0":[6,0,2,0,2,62,1,2],
 "classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba":[6,0,1,0,1,90,1,3],
 "classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba":[6,0,2,0,2,62,1,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#af6ff220d789ac2f9c41960ab99a6517f":[6,0,2,0,2,0,0,0],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#afcc3f132d5643509fe55e57845968424":[6,0,1,0,1,2,0,3],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#afcc3f132d5643509fe55e57845968424":[6,0,2,0,2,0,0,3],
-"classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,1,0],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45":[6,0,0,1,0,2],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#a2f11c9de4efd17bdc6ac47d85b97c079":[6,0,0,1,0,6],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#a5c175130af9cbdf1fac5b175f1f44ae3":[6,0,0,1,0,5],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#aa58e46d5a0d4b887dfc6f4edddafa860":[6,0,0,1,0,4],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#ade8474a42b222e2956b6fe29750ac544":[6,0,0,1,0,1],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159":[6,0,0,1,0,3],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63":[6,0,0,1,0,0],
-"classMR_1_1Cuda_1_1PointsProjector.html":[6,0,1,0,1,2,2],
-"classMR_1_1Cuda_1_1PointsProjector.html":[6,0,2,0,2,0,2]
+"classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,1,0]
 };

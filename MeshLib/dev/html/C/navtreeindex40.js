@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"MRHeapBytes_8h.html#af47e1d768546a43d180d3cfe29e3e72e":[6,2,1,0,0,0,1,109,2],
 "MRHeapBytes_8h_source.html":[6,2,1,0,0,0,1,109],
 "MRHeap_8h.html":[6,2,1,0,0,0,1,108],
 "MRHeap_8h.html#a053c8d6dd8159b686be1cc342b24d9ac":[6,2,1,0,0,0,1,108,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "MRHistoryAction_8h.html#a8a919ca06dc32884ce17df3cb066398b":[6,2,1,0,0,0,1,111,66],
 "MRHistoryAction_8h.html#a8af97c4970a56e814bd376afedbd5a0e":[6,2,1,0,0,0,1,111,143],
 "MRHistoryAction_8h.html#a8b03fa31acad30d5c4f261f8f7788478":[6,2,1,0,0,0,1,111,199],
-"MRHistoryAction_8h.html#a8c1be63f9d8c1928fa7f66028a1a0438":[6,2,1,0,0,0,1,111,289],
-"MRHistoryAction_8h.html#a8c4c90a4aea9802d902450673ea63575":[6,2,1,0,0,0,1,111,63]
+"MRHistoryAction_8h.html#a8c1be63f9d8c1928fa7f66028a1a0438":[6,2,1,0,0,0,1,111,289]
 };

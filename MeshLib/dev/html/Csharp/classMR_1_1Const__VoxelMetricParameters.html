@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__VoxelMetricParameters.html',''); ini
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__VoxelMetricParameters-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_VoxelMetricParameters Class Reference</div></div>
@@ -184,7 +185,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_VoxelMetricPa
 <tr class="memdesc:a4cfa7da5e39acd7f6418951154a8ebe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a4cfa7da5e39acd7f6418951154a8ebe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac70bfd8e59f54bafd2535f9b4115919e" id="r_ac70bfd8e59f54bafd2535f9b4115919e"><td class="memItemLeft" align="right" valign="top"><a id="ac70bfd8e59f54bafd2535f9b4115919e" name="ac70bfd8e59f54bafd2535f9b4115919e"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_VoxelMetricParameters</b> (ulong <a class="el" href="#a7724f90892da5e6ba7de9c3be129254a">start</a>, ulong <a class="el" href="#aef75e4322d27b7cc0d165a84ce996ba4">stop</a>, float <a class="el" href="#ad32ff4025346aac922afce9e5794233e">maxDistRatio</a>, MR.SlicePlane <a class="el" href="#a32e30efd8facefba036c42199e77faa6">plane</a>, MR.QuarterBit quatersMask)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_VoxelMetricParameters</b> (ulong start, ulong stop, float maxDistRatio, MR.SlicePlane plane, MR.QuarterBit quatersMask)</td></tr>
 <tr class="memdesc:ac70bfd8e59f54bafd2535f9b4115919e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1VoxelMetricParameters.html">MR.VoxelMetricParameters</a></code> elementwise. <br /></td></tr>
 <tr class="separator:ac70bfd8e59f54bafd2535f9b4115919e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac074a53645e40f222952206ce41d0838" id="r_ac074a53645e40f222952206ce41d0838"><td class="memItemLeft" align="right" valign="top"><a id="ac074a53645e40f222952206ce41d0838" name="ac074a53645e40f222952206ce41d0838"></a>
@@ -198,23 +199,45 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a87e25353d0b02e9de0766f88aefe20d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af86f0afc85859d80e2e5eb90db431483" id="r_af86f0afc85859d80e2e5eb90db431483"><td class="memItemLeft" align="right" valign="top"><a id="af86f0afc85859d80e2e5eb90db431483" name="af86f0afc85859d80e2e5eb90db431483"></a>
+unsafe ulong *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_start</b></td></tr>
+<tr class="memdesc:af86f0afc85859d80e2e5eb90db431483"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop voxel index <br /></td></tr>
+<tr class="separator:af86f0afc85859d80e2e5eb90db431483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf164bffd8409d78025fc46b22855a0" id="r_a9cf164bffd8409d78025fc46b22855a0"><td class="memItemLeft" align="right" valign="top"><a id="a9cf164bffd8409d78025fc46b22855a0" name="a9cf164bffd8409d78025fc46b22855a0"></a>
+unsafe ulong *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_stop</b></td></tr>
+<tr class="memdesc:a9cf164bffd8409d78025fc46b22855a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed <br /></td></tr>
+<tr class="separator:a9cf164bffd8409d78025fc46b22855a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21dd2bec1d85bbcae71540d07ee78d8b" id="r_a21dd2bec1d85bbcae71540d07ee78d8b"><td class="memItemLeft" align="right" valign="top"><a id="a21dd2bec1d85bbcae71540d07ee78d8b" name="a21dd2bec1d85bbcae71540d07ee78d8b"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_maxDistRatio</b></td></tr>
+<tr class="memdesc:a21dd2bec1d85bbcae71540d07ee78d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) <br /></td></tr>
+<tr class="separator:a21dd2bec1d85bbcae71540d07ee78d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98db8493dc268ebd4cf9dac3560fe26e" id="r_a98db8493dc268ebd4cf9dac3560fe26e"><td class="memItemLeft" align="right" valign="top"><a id="a98db8493dc268ebd4cf9dac3560fe26e" name="a98db8493dc268ebd4cf9dac3560fe26e"></a>
+unsafe MR.SlicePlane *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_plane</b></td></tr>
+<tr class="memdesc:a98db8493dc268ebd4cf9dac3560fe26e"><td class="mdescLeft">&#160;</td><td class="mdescRight">quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All <br /></td></tr>
+<tr class="separator:a98db8493dc268ebd4cf9dac3560fe26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94bd6c3bc998f32488230281214276a" id="r_ab94bd6c3bc998f32488230281214276a"><td class="memItemLeft" align="right" valign="top"><a id="ab94bd6c3bc998f32488230281214276a" name="ab94bd6c3bc998f32488230281214276a"></a>
+unsafe MR.QuarterBit *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_quatersMask</b></td></tr>
+<tr class="separator:ab94bd6c3bc998f32488230281214276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_VoxelMetricParameters &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a7724f90892da5e6ba7de9c3be129254a" id="r_a7724f90892da5e6ba7de9c3be129254a"><td class="memItemLeft" align="right" valign="top"><a id="a7724f90892da5e6ba7de9c3be129254a" name="a7724f90892da5e6ba7de9c3be129254a"></a>
 unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><b>start</b><code> [get]</code></td></tr>
-<tr class="memdesc:a7724f90892da5e6ba7de9c3be129254a"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop voxel index <br /></td></tr>
 <tr class="separator:a7724f90892da5e6ba7de9c3be129254a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef75e4322d27b7cc0d165a84ce996ba4" id="r_aef75e4322d27b7cc0d165a84ce996ba4"><td class="memItemLeft" align="right" valign="top"><a id="aef75e4322d27b7cc0d165a84ce996ba4" name="aef75e4322d27b7cc0d165a84ce996ba4"></a>
 unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b><code> [get]</code></td></tr>
-<tr class="memdesc:aef75e4322d27b7cc0d165a84ce996ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed <br /></td></tr>
 <tr class="separator:aef75e4322d27b7cc0d165a84ce996ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32ff4025346aac922afce9e5794233e" id="r_ad32ff4025346aac922afce9e5794233e"><td class="memItemLeft" align="right" valign="top"><a id="ad32ff4025346aac922afce9e5794233e" name="ad32ff4025346aac922afce9e5794233e"></a>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>maxDistRatio</b><code> [get]</code></td></tr>
-<tr class="memdesc:ad32ff4025346aac922afce9e5794233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) <br /></td></tr>
 <tr class="separator:ad32ff4025346aac922afce9e5794233e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32e30efd8facefba036c42199e77faa6" id="r_a32e30efd8facefba036c42199e77faa6"><td class="memItemLeft" align="right" valign="top"><a id="a32e30efd8facefba036c42199e77faa6" name="a32e30efd8facefba036c42199e77faa6"></a>
 unsafe MR.SlicePlane&#160;</td><td class="memItemRight" valign="bottom"><b>plane</b><code> [get]</code></td></tr>
-<tr class="memdesc:a32e30efd8facefba036c42199e77faa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All <br /></td></tr>
 <tr class="separator:a32e30efd8facefba036c42199e77faa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95312e0d349d60912b68dfb5d8f01040" id="r_a95312e0d349d60912b68dfb5d8f01040"><td class="memItemLeft" align="right" valign="top"><a id="a95312e0d349d60912b68dfb5d8f01040" name="a95312e0d349d60912b68dfb5d8f01040"></a>
 unsafe MR.QuarterBit&#160;</td><td class="memItemRight" valign="bottom"><b>quatersMask</b><code> [get]</code></td></tr>
@@ -224,13 +247,6 @@ unsafe MR.QuarterBit&#160;</td><td class="memItemRight" valign="bottom"><b>quate
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_VoxelMetricParameters &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters for building metric function Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelMetricParameters.html">MR.VoxelMetricParameters</a></code>. This is the const half of the class. </p>

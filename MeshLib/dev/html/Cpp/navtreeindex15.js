@@ -1,5 +1,14 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,83],
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,2,55],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,83,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,2,55,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,83,1],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,2,55,1],
+"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,50],
+"classMR_1_1ChangVoxelSelectionAction.html#a4415dbb47a28341c589cec0b8e663598":[6,0,0,4,50,2],
+"classMR_1_1ChangVoxelSelectionAction.html#a4512ecdae4e84b9075a24176a4a76a9c":[6,0,0,4,50,6],
 "classMR_1_1ChangVoxelSelectionAction.html#a6057cf602ef3a35238b374a070de3fde":[6,0,0,4,50,4],
 "classMR_1_1ChangVoxelSelectionAction.html#a7c97719d888ca0660e62cd6b8d7bddb3":[6,0,0,4,50,1],
 "classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,47],
@@ -240,14 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeXfAction.html#ae815e9391aa0939f6e52ef2fa566b74e":[6,0,0,4,35,4],
 "classMR_1_1CircleObject.html":[6,0,0,11,0,0],
 "classMR_1_1CircleObject.html#a017f7698e351617036f9cdae6d9c5c85":[6,0,0,11,0,0,47],
-"classMR_1_1CircleObject.html#a03a20ed4c23cbe2f92fa47488f4f5294":[6,0,0,11,0,0,5],
-"classMR_1_1CircleObject.html#a03db679e2882af849e9e73fef761f6d6":[6,0,0,11,0,0,35],
-"classMR_1_1CircleObject.html#a043759275dd4be2c8babbfd81e2fc1bf":[6,0,0,11,0,0,9],
-"classMR_1_1CircleObject.html#a0771e50b5f42223ae0df4a1cb9e05a0c":[6,0,0,11,0,0,56],
-"classMR_1_1CircleObject.html#a0ad3d16230055c00421826a7dc0ca293":[6,0,0,11,0,0,57],
-"classMR_1_1CircleObject.html#a11f6bfe0c3300847e6a0fe3465acf853":[6,0,0,11,0,0,10],
-"classMR_1_1CircleObject.html#a16b0d1f2e588dd56d9b1f0d696cf491c":[6,0,0,11,0,0,43],
-"classMR_1_1CircleObject.html#a192e021c7ba5f4bbaeb315115ebae535":[6,0,0,11,0,0,11],
-"classMR_1_1CircleObject.html#a1ab62ec16879208a4a5a5a036564dacd":[6,0,0,11,0,0,46],
-"classMR_1_1CircleObject.html#a1dc0c763d86a420d20fa6d3d6c895e2e":[6,0,0,11,0,0,4]
+"classMR_1_1CircleObject.html#a03a20ed4c23cbe2f92fa47488f4f5294":[6,0,0,11,0,0,5]
 };

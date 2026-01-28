@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__PrecipitationSimulator_1_1Const__Sim
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_PrecipitationSimulator.Const_SimulationStep Class Reference</div></div>
@@ -185,7 +186,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_SimulationSte
 <tr class="memdesc:a205aeb68f2b4a342673abde5d2f3f11f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a205aeb68f2b4a342673abde5d2f3f11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a0101d8d9991f5e1168af2d074bb09c" id="r_a2a0101d8d9991f5e1168af2d074bb09c"><td class="memItemLeft" align="right" valign="top"><a id="a2a0101d8d9991f5e1168af2d074bb09c" name="a2a0101d8d9991f5e1168af2d074bb09c"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_SimulationStep</b> (<a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f">MR.PrecipitationSimulator.Event</a> <a class="el" href="#a056404819ef86cec577f73d63f1376d0">event_</a>, float <a class="el" href="#ad972dc0a3be060e5bbb9724c62f77c6c">amount</a>, <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> <a class="el" href="#a0749b043d7146ea230ecfcd4925ecaca">basin</a>, <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> neiBasin)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_SimulationStep</b> (<a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f">MR.PrecipitationSimulator.Event</a> event_, float amount, <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> basin, <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> neiBasin)</td></tr>
 <tr class="memdesc:a2a0101d8d9991f5e1168af2d074bb09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR.PrecipitationSimulator.SimulationStep</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a2a0101d8d9991f5e1168af2d074bb09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65049628b07350ffc44195d112878044" id="r_a65049628b07350ffc44195d112878044"><td class="memItemLeft" align="right" valign="top"><a id="a65049628b07350ffc44195d112878044" name="a65049628b07350ffc44195d112878044"></a>
@@ -199,15 +200,34 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a62dfd89838cccc7306e25e1ba95b6d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:acdf3ba248ca4a4bf129a4f8922a1320d" id="r_acdf3ba248ca4a4bf129a4f8922a1320d"><td class="memItemLeft" align="right" valign="top"><a id="acdf3ba248ca4a4bf129a4f8922a1320d" name="acdf3ba248ca4a4bf129a4f8922a1320d"></a>
+unsafe <a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f">MR.PrecipitationSimulator.Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_event_</b></td></tr>
+<tr class="memdesc:acdf3ba248ca4a4bf129a4f8922a1320d"><td class="mdescLeft">&#160;</td><td class="mdescRight">amount of precipitation (in same units as mesh coordinates and water level) <br /></td></tr>
+<tr class="separator:acdf3ba248ca4a4bf129a4f8922a1320d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4231b2f0cd4793429d7ba623b2d09147" id="r_a4231b2f0cd4793429d7ba623b2d09147"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4231b2f0cd4793429d7ba623b2d09147">__ref_storage_amount</a></td></tr>
+<tr class="separator:a4231b2f0cd4793429d7ba623b2d09147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abefc52c4b5b05226e0787c5abcf66bec" id="r_abefc52c4b5b05226e0787c5abcf66bec"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abefc52c4b5b05226e0787c5abcf66bec">__ref_storage_basin</a></td></tr>
+<tr class="separator:abefc52c4b5b05226e0787c5abcf66bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800d5d28d3683156ce0b7b7437b2eb72" id="r_a800d5d28d3683156ce0b7b7437b2eb72"><td class="memItemLeft" align="right" valign="top"><a id="a800d5d28d3683156ce0b7b7437b2eb72" name="a800d5d28d3683156ce0b7b7437b2eb72"></a>
+unsafe <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_neiBasin</b></td></tr>
+<tr class="separator:a800d5d28d3683156ce0b7b7437b2eb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SimulationStep &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a056404819ef86cec577f73d63f1376d0" id="r_a056404819ef86cec577f73d63f1376d0"><td class="memItemLeft" align="right" valign="top"><a id="a056404819ef86cec577f73d63f1376d0" name="a056404819ef86cec577f73d63f1376d0"></a>
 unsafe <a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f">MR.PrecipitationSimulator.Event</a>&#160;</td><td class="memItemRight" valign="bottom"><b>event_</b><code> [get]</code></td></tr>
-<tr class="memdesc:a056404819ef86cec577f73d63f1376d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">amount of precipitation (in same units as mesh coordinates and water level) <br /></td></tr>
 <tr class="separator:a056404819ef86cec577f73d63f1376d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad972dc0a3be060e5bbb9724c62f77c6c" id="r_ad972dc0a3be060e5bbb9724c62f77c6c"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad972dc0a3be060e5bbb9724c62f77c6c">amount</a><code> [get]</code></td></tr>
+<tr class="memitem:ad972dc0a3be060e5bbb9724c62f77c6c" id="r_ad972dc0a3be060e5bbb9724c62f77c6c"><td class="memItemLeft" align="right" valign="top"><a id="ad972dc0a3be060e5bbb9724c62f77c6c" name="ad972dc0a3be060e5bbb9724c62f77c6c"></a>
+unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>amount</b><code> [get]</code></td></tr>
 <tr class="separator:ad972dc0a3be060e5bbb9724c62f77c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0749b043d7146ea230ecfcd4925ecaca" id="r_a0749b043d7146ea230ecfcd4925ecaca"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0749b043d7146ea230ecfcd4925ecaca">basin</a><code> [get]</code></td></tr>
+<tr class="memitem:a0749b043d7146ea230ecfcd4925ecaca" id="r_a0749b043d7146ea230ecfcd4925ecaca"><td class="memItemLeft" align="right" valign="top"><a id="a0749b043d7146ea230ecfcd4925ecaca" name="a0749b043d7146ea230ecfcd4925ecaca"></a>
+unsafe ref readonly <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>basin</b><code> [get]</code></td></tr>
 <tr class="separator:a0749b043d7146ea230ecfcd4925ecaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad47ac3c6441b87b55e1f472f13f7fd91" id="r_ad47ac3c6441b87b55e1f472f13f7fd91"><td class="memItemLeft" align="right" valign="top"><a id="ad47ac3c6441b87b55e1f472f13f7fd91" name="ad47ac3c6441b87b55e1f472f13f7fd91"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>neiBasin</b><code> [get]</code></td></tr>
@@ -217,19 +237,12 @@ unsafe ref readonly <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVe
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SimulationStep &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR.PrecipitationSimulator.SimulationStep</a></code>. This is the const half of the class. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a id="ad972dc0a3be060e5bbb9724c62f77c6c" name="ad972dc0a3be060e5bbb9724c62f77c6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad972dc0a3be060e5bbb9724c62f77c6c">&#9670;&#160;</a></span>amount</h2>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4231b2f0cd4793429d7ba623b2d09147" name="a4231b2f0cd4793429d7ba623b2d09147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4231b2f0cd4793429d7ba623b2d09147">&#9670;&#160;</a></span>__ref_storage_amount</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,12 +251,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe float MR.Const_PrecipitationSimulator.Const_SimulationStep.amount</td>
+          <td class="memname">unsafe float* MR.Const_PrecipitationSimulator.Const_SimulationStep.__ref_storage_amount</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -251,8 +264,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td>
 
 </div>
 </div>
-<a id="a0749b043d7146ea230ecfcd4925ecaca" name="a0749b043d7146ea230ecfcd4925ecaca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0749b043d7146ea230ecfcd4925ecaca">&#9670;&#160;</a></span>basin</h2>
+<a id="abefc52c4b5b05226e0787c5abcf66bec" name="abefc52c4b5b05226e0787c5abcf66bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abefc52c4b5b05226e0787c5abcf66bec">&#9670;&#160;</a></span>__ref_storage_basin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,12 +274,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe ref readonly <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> MR.Const_PrecipitationSimulator.Const_SimulationStep.basin</td>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a>* MR.Const_PrecipitationSimulator.Const_SimulationStep.__ref_storage_basin</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

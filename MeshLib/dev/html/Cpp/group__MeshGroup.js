@@ -85,6 +85,7 @@ var group__MeshGroup =
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#a8c51d60daa697bded00c3dba010ba133", null ],
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#a978a7a4d0d504596cbd2adc30be92b74", null ],
       [ "assign", "../Csharp/classMR_1_1MeshTriPoint.html#a3fe477a84218153937d1c93ab88ae5e4", null ],
-      [ "bary", "../Csharp/classMR_1_1MeshTriPoint.html#a2619c838f16c04709d2c6fc8f036dedf", null ]
+      [ "bary", "../Csharp/classMR_1_1MeshTriPoint.html#a2619c838f16c04709d2c6fc8f036dedf", null ],
+      [ "e", "../Csharp/classMR_1_1MeshTriPoint.html#a19c95799b626586eaf51e597210086ab", null ]
     ] ]
 ];

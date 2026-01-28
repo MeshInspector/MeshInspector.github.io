@@ -210,7 +210,7 @@ unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><b>heapBytes</b>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a78adfff75f4a273143dac90b0f0f4cf1" id="r_a78adfff75f4a273143dac90b0f0f4cf1"><td class="memItemLeft" align="right" valign="top"><a id="a78adfff75f4a273143dac90b0f0f4cf1" name="a78adfff75f4a273143dac90b0f0f4cf1"></a>
-new unsafe <a class="el" href="classMR_1_1Vector__Float__MRVoxelId.html">MR.Vector_Float_MRVoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>data</b><code> [get]</code></td></tr>
+new unsafe <a class="el" href="classMR_1_1Vector__Float__MRVoxelId.html">MR.Vector_Float_MRVoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>data</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a78adfff75f4a273143dac90b0f0f4cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2c6c69e71b24d06211365f85d68a997" id="r_aa2c6c69e71b24d06211365f85d68a997"><td class="memItemLeft" align="right" valign="top"><a id="aa2c6c69e71b24d06211365f85d68a997" name="aa2c6c69e71b24d06211365f85d68a997"></a>
 new unsafe ref <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dims</b><code> [get]</code></td></tr>
@@ -220,7 +220,7 @@ new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#1
 <tr class="separator:a6d6d0ccff508adc68a2284af438e6e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Const__SimpleVolume"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__SimpleVolume')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a></td></tr>
 <tr class="memitem:a6e5727ee430fc6a3077da4e81f59d4c4 inherit properties_classMR_1_1Const__SimpleVolume" id="r_a6e5727ee430fc6a3077da4e81f59d4c4"><td class="memItemLeft" align="right" valign="top">
-unsafe <a class="el" href="classMR_1_1Const__Vector__Float__MRVoxelId.html">MR.Const_Vector_Float_MRVoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>data</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__Vector__Float__MRVoxelId.html">MR.Const_Vector_Float_MRVoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>data</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a6e5727ee430fc6a3077da4e81f59d4c4 inherit properties_classMR_1_1Const__SimpleVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03253b88b13b49dad161f833bfc7ef19 inherit properties_classMR_1_1Const__SimpleVolume" id="r_a03253b88b13b49dad161f833bfc7ef19"><td class="memItemLeft" align="right" valign="top">
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dims</b><code> [get]</code></td></tr>
@@ -240,6 +240,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:afb3718297e304481562554db7e79b2e2 inherit pro_methods_classMR_1_1Const__SimpleVolume" id="r_afb3718297e304481562554db7e79b2e2"><td class="memItemLeft" align="right" valign="top">
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:afb3718297e304481562554db7e79b2e2 inherit pro_methods_classMR_1_1Const__SimpleVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Const__SimpleVolume"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Const__SimpleVolume')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a></td></tr>
+<tr class="memitem:ae01f26476ffd679b967d65dcafad8df8 inherit pro_attribs_classMR_1_1Const__SimpleVolume" id="r_ae01f26476ffd679b967d65dcafad8df8"><td class="memItemLeft" align="right" valign="top">
+unsafe <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_dims</b></td></tr>
+<tr class="separator:ae01f26476ffd679b967d65dcafad8df8 inherit pro_attribs_classMR_1_1Const__SimpleVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ad92a8d941ab13e0e473793d18aa79 inherit pro_attribs_classMR_1_1Const__SimpleVolume" id="r_a08ad92a8d941ab13e0e473793d18aa79"><td class="memItemLeft" align="right" valign="top">
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_voxelSize</b></td></tr>
+<tr class="separator:a08ad92a8d941ab13e0e473793d18aa79 inherit pro_attribs_classMR_1_1Const__SimpleVolume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SimpleVolume &gt;</a></td></tr>
 <tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>

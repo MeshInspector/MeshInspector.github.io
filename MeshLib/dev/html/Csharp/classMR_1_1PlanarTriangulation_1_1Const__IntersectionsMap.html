@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1PlanarTriangulation_1_1Const__Intersections
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.PlanarTriangulation.Const_IntersectionsMap Class Reference</div></div>
@@ -198,6 +199,16 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a98d5f2969b404dfff7869913af08cc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3b10be7bfde7a77b0f0f3b96b3d37ba1" id="r_a3b10be7bfde7a77b0f0f3b96b3d37ba1"><td class="memItemLeft" align="right" valign="top"><a id="a3b10be7bfde7a77b0f0f3b96b3d37ba1" name="a3b10be7bfde7a77b0f0f3b96b3d37ba1"></a>
+unsafe ulong *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_shift</b></td></tr>
+<tr class="separator:a3b10be7bfde7a77b0f0f3b96b3d37ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_IntersectionsMap &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a67785331ec14d195bf3968bb0490d165" id="r_a67785331ec14d195bf3968bb0490d165"><td class="memItemLeft" align="right" valign="top"><a id="a67785331ec14d195bf3968bb0490d165" name="a67785331ec14d195bf3968bb0490d165"></a>
@@ -205,7 +216,7 @@ unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><b>shift</b><cod
 <tr class="memdesc:a67785331ec14d195bf3968bb0490d165"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift of index <br /></td></tr>
 <tr class="separator:a67785331ec14d195bf3968bb0490d165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1df1893c8f49f881a27782e2ee650ab4" id="r_a1df1893c8f49f881a27782e2ee650ab4"><td class="memItemLeft" align="right" valign="top"><a id="a1df1893c8f49f881a27782e2ee650ab4" name="a1df1893c8f49f881a27782e2ee650ab4"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo.html">MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>map</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulationIntersectionInfo.html">MR.Std.Const_Vector_MRPlanarTriangulationIntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>map</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a1df1893c8f49f881a27782e2ee650ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">map[id-shift] = {lower intersection edge, upper intersection edge} <br /></td></tr>
 <tr class="separator:a1df1893c8f49f881a27782e2ee650ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_IntersectionsMap &gt;</a></td></tr>
@@ -213,13 +224,6 @@ unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__MRPlanarTriangulatio
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_IntersectionsMap &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>struct to map new vertices (only appear on intersections) of the outline to it's edges Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html">MR.PlanarTriangulation.IntersectionsMap</a></code>. This is the const half of the class. </p>

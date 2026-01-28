@@ -1,5 +1,14 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1AddVisualProperties.html#a099d73dfec242eced929d4f4705c90fd":[6,0,1,0,1,55,2],
+"classMR_1_1AddVisualProperties.html#a099d73dfec242eced929d4f4705c90fd":[6,0,2,0,2,27,2],
+"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,1,0,1,55,4],
+"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,2,0,2,27,4],
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,1,0,1,55,0],
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,2,0,2,27,0],
+"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,1,0,1,55,1],
+"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,2,0,2,27,1],
+"classMR_1_1AlphaSortGL.html":[6,0,1,0,1,57],
 "classMR_1_1AlphaSortGL.html":[6,0,2,0,2,29],
 "classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,1,0,1,57,1],
 "classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,2,0,2,29,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,1,0,1,82,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,2,0,2,54,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,1,0,1,82,2],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,2,54,2],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,83],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,2,55],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,83,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,2,55,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,83,1],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,2,55,1],
-"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,50],
-"classMR_1_1ChangVoxelSelectionAction.html#a4415dbb47a28341c589cec0b8e663598":[6,0,0,4,50,2],
-"classMR_1_1ChangVoxelSelectionAction.html#a4512ecdae4e84b9075a24176a4a76a9c":[6,0,0,4,50,6]
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,2,54,2]
 };

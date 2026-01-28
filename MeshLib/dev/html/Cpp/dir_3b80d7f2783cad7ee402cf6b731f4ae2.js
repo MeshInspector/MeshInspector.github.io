@@ -126,6 +126,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRFlagOperators.h", "MRFlagOperators_8h.html", "MRFlagOperators_8h" ],
     [ "MRFormat.h", "MRFormat_8h.html", "MRFormat_8h" ],
     [ "MRFreeFormDeformer.h", "MRFreeFormDeformer_8h.html", "MRFreeFormDeformer_8h" ],
+    [ "MRFunctional.h", "MRFunctional_8h.html", "MRFunctional_8h" ],
     [ "MRGcodeLoad.h", "MRGcodeLoad_8h.html", "MRGcodeLoad_8h" ],
     [ "MRGcodeProcessor.h", "MRGcodeProcessor_8h.html", "MRGcodeProcessor_8h" ],
     [ "MRGeodesicPath.h", "MRGeodesicPath_8h.html", "MRGeodesicPath_8h" ],

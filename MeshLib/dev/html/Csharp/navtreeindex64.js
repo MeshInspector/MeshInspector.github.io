@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1FixUndercuts.html#ab776f5f50ca596851e827fcdf047ad1f":[6,3,0,0,0,3581,7],
+"classMR_1_1FixUndercuts.html#abba43d841c90eddd085e1e43f3d772c9":[6,3,0,0,0,3581,4],
+"classMR_1_1FixUndercuts.html#adf937fa7d334303b69f97cabdbdabbe2":[6,3,0,0,0,3581,5],
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html":[6,3,0,0,0,2,9],
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a27612070bc8331d87cc8901935c81d98":[6,3,0,0,0,2,9,0],
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a693b312c0b7100e537c3acb07c369d85":[6,3,0,0,0,2,9,1],
+"classMR_1_1FixUndercuts_1_1Const__FindParams.html":[6,3,0,0,0,2,10],
+"classMR_1_1FixUndercuts_1_1Const__FindParams.html#a1f782988baa79777e76e4cedba66bf1b":[6,3,0,0,0,2,10,4],
+"classMR_1_1FixUndercuts_1_1Const__FindParams.html#a8e1e2ebeb83d0bcc78b5d89b3658e264":[6,3,0,0,0,2,10,2],
+"classMR_1_1FixUndercuts_1_1Const__FindParams.html#acc9106cf5c69957edfb80ce3ef9ce758":[6,3,0,0,0,2,10,0],
 "classMR_1_1FixUndercuts_1_1Const__FindParams.html#ad484195929b9d305643f1b3aff20bafa":[6,3,0,0,0,2,10,1],
 "classMR_1_1FixUndercuts_1_1Const__FindParams.html#af5ec068a9a29ee93b559e0baeb90669d":[6,3,0,0,0,2,10,3],
 "classMR_1_1FixUndercuts_1_1Const__FixParams.html":[6,3,0,0,0,2,11],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a1d12d32537eb15985d82fde53c45532d":[6,3,0,0,0,3611,1],
 "classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#ac4a12f33e8cee330cf2bff7c574c7d0d":[6,3,0,0,0,3611,2],
 "classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#afaa1e7b1edbb4e03f3508eda4248f188":[6,3,0,0,0,3611,0],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html":[6,3,0,0,0,3612],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#a896b61bfdc9e7a1684302c10239b0bff":[6,3,0,0,0,3612,2],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#ae0b98b1503d23b7056e95f606844bd67":[6,3,0,0,0,3612,1],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#afae5e7db1ed4840c13736c23e0425de2":[6,3,0,0,0,3612,0],
-"classMR_1_1Line2d.html":[6,3,0,0,0,3613],
-"classMR_1_1Line2d.html#a020b6a2b62e7805cfe76533e35463a87":[6,3,0,0,0,3613,3],
-"classMR_1_1Line2d.html#a4ed134129a6084d8a6b7e7eb127ad11e":[6,3,0,0,0,3613,1],
-"classMR_1_1Line2d.html#a581efe6d9577fc1656f7c7fed733fbb2":[6,3,0,0,0,3613,0],
-"classMR_1_1Line2d.html#a99ea0c7fc21e4a4cf05de8072aed5d96":[6,3,0,0,0,3613,2],
-"classMR_1_1Line2f.html":[6,3,0,0,0,3614],
-"classMR_1_1Line2f.html#a20d42dd0398c1a5fa4d69868d1592d30":[6,3,0,0,0,3614,2]
+"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html":[6,3,0,0,0,3612]
 };

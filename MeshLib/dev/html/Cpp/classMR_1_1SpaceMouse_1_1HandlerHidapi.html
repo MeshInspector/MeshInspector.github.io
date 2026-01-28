@@ -174,15 +174,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae504a5e70f7acf22ea7a2989e0069f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c3a20e7c69203c9a1f4101f8b2ef82" id="r_a39c3a20e7c69203c9a1f4101f8b2ef82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c3a20e7c69203c9a1f4101f8b2ef82">~HandlerHidapi</a> () override</td></tr>
 <tr class="separator:a39c3a20e7c69203c9a1f4101f8b2ef82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae4e353eea81a023dda11f6f3dc99f93" id="r_aae4e353eea81a023dda11f6f3dc99f93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae4e353eea81a023dda11f6f3dc99f93">initialize</a> (std::function&lt; void(const std::string &amp;)&gt; deviceSignal) override</td></tr>
-<tr class="separator:aae4e353eea81a023dda11f6f3dc99f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e91164e356ea478b0e5df93aaed69c" id="r_a72e91164e356ea478b0e5df93aaed69c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e91164e356ea478b0e5df93aaed69c">initialize</a> () override</td></tr>
+<tr class="memdesc:a72e91164e356ea478b0e5df93aaed69c"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize device  <br /></td></tr>
+<tr class="separator:a72e91164e356ea478b0e5df93aaed69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20c6b0e22bec8be84b2034de74bf6073" id="r_a20c6b0e22bec8be84b2034de74bf6073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c6b0e22bec8be84b2034de74bf6073">handle</a> () override</td></tr>
 <tr class="memdesc:a20c6b0e22bec8be84b2034de74bf6073"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle device state and call <a class="el" href="classMR_1_1Viewer.html">Viewer</a> signals  <br /></td></tr>
 <tr class="separator:a20c6b0e22bec8be84b2034de74bf6073"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a994fc4dfda356b83c63f43558741149f" id="r_a994fc4dfda356b83c63f43558741149f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a994fc4dfda356b83c63f43558741149f">activateMouseScrollZoom</a> (bool activeMouseScrollZoom)</td></tr>
-<tr class="separator:a994fc4dfda356b83c63f43558741149f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a992687da73333d30adbd51e3ce657de7" id="r_a992687da73333d30adbd51e3ce657de7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a992687da73333d30adbd51e3ce657de7">isMouseScrollZoomActive</a> ()</td></tr>
-<tr class="separator:a992687da73333d30adbd51e3ce657de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc021818a03274186e2b78274e47551" id="r_a3dc021818a03274186e2b78274e47551"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc021818a03274186e2b78274e47551">hasValidDeviceConnected</a> () const</td></tr>
+<tr class="memdesc:a3dc021818a03274186e2b78274e47551"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this handler has connected device  <br /></td></tr>
+<tr class="separator:a3dc021818a03274186e2b78274e47551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1SpaceMouse_1_1Handler"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1SpaceMouse_1_1Handler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1SpaceMouse_1_1Handler.html">MR::SpaceMouse::Handler</a></td></tr>
 <tr class="memitem:acef4a0601b4b1e8c5eaa19be8b3a7437 inherit pub_methods_classMR_1_1SpaceMouse_1_1Handler" id="r_acef4a0601b4b1e8c5eaa19be8b3a7437"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SpaceMouse_1_1Handler.html#acef4a0601b4b1e8c5eaa19be8b3a7437">~Handler</a> ()=default</td></tr>
 <tr class="separator:acef4a0601b4b1e8c5eaa19be8b3a7437 inherit pub_methods_classMR_1_1SpaceMouse_1_1Handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,23 +252,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a994fc4dfda356b83c63f43558741149f" name="a994fc4dfda356b83c63f43558741149f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a994fc4dfda356b83c63f43558741149f">&#9670;&#160;</a></span>activateMouseScrollZoom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::SpaceMouse::HandlerHidapi::activateMouseScrollZoom </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>activeMouseScrollZoom</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a20c6b0e22bec8be84b2034de74bf6073" name="a20c6b0e22bec8be84b2034de74bf6073"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20c6b0e22bec8be84b2034de74bf6073">&#9670;&#160;</a></span>handle()</h2>
 
@@ -298,8 +281,27 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aae4e353eea81a023dda11f6f3dc99f93" name="aae4e353eea81a023dda11f6f3dc99f93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae4e353eea81a023dda11f6f3dc99f93">&#9670;&#160;</a></span>initialize()</h2>
+<a id="a3dc021818a03274186e2b78274e47551" name="a3dc021818a03274186e2b78274e47551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc021818a03274186e2b78274e47551">&#9670;&#160;</a></span>hasValidDeviceConnected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::SpaceMouse::HandlerHidapi::hasValidDeviceConnected </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if this handler has connected device </p>
+
+</div>
+</div>
+<a id="a72e91164e356ea478b0e5df93aaed69c" name="a72e91164e356ea478b0e5df93aaed69c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e91164e356ea478b0e5df93aaed69c">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,7 +312,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool MR::SpaceMouse::HandlerHidapi::initialize </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; void(const std::string &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>deviceSignal</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -320,39 +322,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>initialize device </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">deviceSignal</td><td>every device-related event will be sent here: find, connect, disconnect </td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p>Implements <a class="el" href="classMR_1_1SpaceMouse_1_1Handler.html#a424fdba0d108f8b85f4661b88563b34e">MR::SpaceMouse::Handler</a>.</p>
+<p>initialize device </p>
 
-</div>
-</div>
-<a id="a992687da73333d30adbd51e3ce657de7" name="a992687da73333d30adbd51e3ce657de7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a992687da73333d30adbd51e3ce657de7">&#9670;&#160;</a></span>isMouseScrollZoomActive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API bool MR::SpaceMouse::HandlerHidapi::isMouseScrollZoomActive </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Implements <a class="el" href="classMR_1_1SpaceMouse_1_1Handler.html#a76724a238382d5e5db89b510fbb469b6">MR::SpaceMouse::Handler</a>.</p>
 
 </div>
 </div>

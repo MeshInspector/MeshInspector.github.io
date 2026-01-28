@@ -96,6 +96,7 @@ var hierarchy =
       [ "mrmeshpy.VertBitSet", "classmrmeshpy_1_1VertBitSet.html", null ],
       [ "mrmeshpy.VoxelBitSet", "classmrmeshpy_1_1VoxelBitSet.html", null ]
     ] ],
+    [ "mrmeshpy.BitSetParallel", "classmrmeshpy_1_1BitSetParallel.html", null ],
     [ "mrmeshpy.SeparationPointStorage.Block", "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html", null ],
     [ "mrmeshpy.BMap_FaceId_unsigned_long", "classmrmeshpy_1_1BMap__FaceId__unsigned__long.html", null ],
     [ "mrmeshpy.BMap_GraphEdgeId_GraphEdgeId", "classmrmeshpy_1_1BMap__GraphEdgeId__GraphEdgeId.html", null ],
@@ -1301,6 +1302,7 @@ var hierarchy =
     [ "mrmeshpy.TriPointf", "classmrmeshpy_1_1TriPointf.html", null ],
     [ "mrmeshpy.GridSettings.TriType", "classmrmeshpy_1_1GridSettings_1_1TriType.html", null ],
     [ "mrmeshpy.TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", null ],
+    [ "mrmeshpy.Turn", "classmrmeshpy_1_1Turn.html", null ],
     [ "mrmeshpy.ChangeObjectColorAction.Type", "classmrmeshpy_1_1ChangeObjectColorAction_1_1Type.html", null ],
     [ "mrmeshpy.ChangeSceneAction.Type", "classmrmeshpy_1_1ChangeSceneAction_1_1Type.html", null ],
     [ "mrmeshpy.EndMillCutter.Type", "classmrmeshpy_1_1EndMillCutter_1_1Type.html", null ],

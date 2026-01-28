@@ -10,6 +10,6 @@ var classMR_1_1Const__TriPointd =
     [ "lnext", "classMR_1_1Const__TriPointd.html#a6de7ec4630d6060d7d56299838e7a02a", null ],
     [ "onEdge", "classMR_1_1Const__TriPointd.html#a394d3135638a0bbb4ca04db1ace60dd5", null ],
     [ "operator==", "classMR_1_1Const__TriPointd.html#a9f8ab2ee81aaf006feb7d7629d081c11", null ],
-    [ "a", "classMR_1_1Const__TriPointd.html#af0acc8e7d6447e01afbe4360f7e70e9b", null ],
-    [ "Eps", "classMR_1_1Const__TriPointd.html#aa131ca9457daca50c50ca5e3732c7f67", null ]
+    [ "__ref_storage_a", "classMR_1_1Const__TriPointd.html#afd11870332c4837c2c3ed0b2d0c2e234", null ],
+    [ "__ref_storage_Eps", "classMR_1_1Const__TriPointd.html#a2d22de03db72eca67dc885a7acfc1f15", null ]
 ];

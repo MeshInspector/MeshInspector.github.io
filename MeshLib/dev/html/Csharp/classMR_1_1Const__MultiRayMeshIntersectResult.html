@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__MultiRayMeshIntersectResult.html',''
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__MultiRayMeshIntersectResult-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_MultiRayMeshIntersectResult Class Reference</div></div>
@@ -184,7 +185,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_MultiRayMeshI
 <tr class="memdesc:a64c2d266a8a5876db891f6fb1aaba93a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a64c2d266a8a5876db891f6fb1aaba93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9e97c533f101ad6e2e2d5b30138cce0" id="r_aa9e97c533f101ad6e2e2d5b30138cce0"><td class="memItemLeft" align="right" valign="top"><a id="aa9e97c533f101ad6e2e2d5b30138cce0" name="aa9e97c533f101ad6e2e2d5b30138cce0"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_MultiRayMeshIntersectResult</b> (<a class="elRef" href="../Cpp/classMR_1_1BitSet.html">MR.BitSet</a>? <a class="el" href="#ad2974275ddbca84154bb841e973f18cf">intersectingRays</a>, <a class="el" href="classMR_1_1Std_1_1Vector__Float.html">MR.Std.Vector_Float</a>? <a class="el" href="#a95d6655a555810e50ec136c801056f02">rayDistances</a>, <a class="el" href="classMR_1_1Std_1_1Vector__MRFaceId.html">MR.Std.Vector_MRFaceId</a>? <a class="el" href="#afdddec1a71aae97e50e4c8a9185f614c">isectFaces</a>, <a class="el" href="classMR_1_1Std_1_1Vector__MRTriPointf.html">MR.Std.Vector_MRTriPointf</a>? <a class="el" href="#a9d30805d1937580d45f824eb8f4c98b4">isectBary</a>, <a class="el" href="classMR_1_1Std_1_1Vector__MRVector3f.html">MR.Std.Vector_MRVector3f</a>? isectPts)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_MultiRayMeshIntersectResult</b> (<a class="elRef" href="../Cpp/classMR_1_1BitSet.html">MR.BitSet</a>? intersectingRays, <a class="el" href="classMR_1_1Std_1_1Vector__Float.html">MR.Std.Vector_Float</a>? rayDistances, <a class="el" href="classMR_1_1Std_1_1Vector__MRFaceId.html">MR.Std.Vector_MRFaceId</a>? isectFaces, <a class="el" href="classMR_1_1Std_1_1Vector__MRTriPointf.html">MR.Std.Vector_MRTriPointf</a>? isectBary, <a class="el" href="classMR_1_1Std_1_1Vector__MRVector3f.html">MR.Std.Vector_MRVector3f</a>? isectPts)</td></tr>
 <tr class="memdesc:aa9e97c533f101ad6e2e2d5b30138cce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MultiRayMeshIntersectResult.html">MR.MultiRayMeshIntersectResult</a></code> elementwise. <br /></td></tr>
 <tr class="separator:aa9e97c533f101ad6e2e2d5b30138cce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cb604e54eff73ae54b82feffcf0360b" id="r_a7cb604e54eff73ae54b82feffcf0360b"><td class="memItemLeft" align="right" valign="top"><a id="a7cb604e54eff73ae54b82feffcf0360b" name="a7cb604e54eff73ae54b82feffcf0360b"></a>
@@ -198,23 +199,45 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a987bfbf3b90245babd549ab4ac11d872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a340f967fb3fd0601a9df7cb30b9d1600" id="r_a340f967fb3fd0601a9df7cb30b9d1600"><td class="memItemLeft" align="right" valign="top"><a id="a340f967fb3fd0601a9df7cb30b9d1600" name="a340f967fb3fd0601a9df7cb30b9d1600"></a>
+unsafe MR.BitSet._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_intersectingRays</b></td></tr>
+<tr class="memdesc:a340f967fb3fd0601a9df7cb30b9d1600"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance along each ray till the intersection point or NaN if no intersection <br /></td></tr>
+<tr class="separator:a340f967fb3fd0601a9df7cb30b9d1600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbb75b8921976d025b30de439ce84a9" id="r_a8bbb75b8921976d025b30de439ce84a9"><td class="memItemLeft" align="right" valign="top"><a id="a8bbb75b8921976d025b30de439ce84a9" name="a8bbb75b8921976d025b30de439ce84a9"></a>
+unsafe MR.Std.Vector_Float._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_rayDistances</b></td></tr>
+<tr class="memdesc:a8bbb75b8921976d025b30de439ce84a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersected triangles from mesh <br /></td></tr>
+<tr class="separator:a8bbb75b8921976d025b30de439ce84a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb26b7f987a9e0bc3ae56f3013ed7632" id="r_adb26b7f987a9e0bc3ae56f3013ed7632"><td class="memItemLeft" align="right" valign="top"><a id="adb26b7f987a9e0bc3ae56f3013ed7632" name="adb26b7f987a9e0bc3ae56f3013ed7632"></a>
+unsafe MR.Std.Vector_MRFaceId._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_isectFaces</b></td></tr>
+<tr class="memdesc:adb26b7f987a9e0bc3ae56f3013ed7632"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection <br /></td></tr>
+<tr class="separator:adb26b7f987a9e0bc3ae56f3013ed7632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb278623a519da5c90dff265837ae7af" id="r_afb278623a519da5c90dff265837ae7af"><td class="memItemLeft" align="right" valign="top"><a id="afb278623a519da5c90dff265837ae7af" name="afb278623a519da5c90dff265837ae7af"></a>
+unsafe MR.Std.Vector_MRTriPointf._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_isectBary</b></td></tr>
+<tr class="memdesc:afb278623a519da5c90dff265837ae7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection points or NaNs if no intersection <br /></td></tr>
+<tr class="separator:afb278623a519da5c90dff265837ae7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb41c6e109e72b4b2571061d0b081bb3" id="r_adb41c6e109e72b4b2571061d0b081bb3"><td class="memItemLeft" align="right" valign="top"><a id="adb41c6e109e72b4b2571061d0b081bb3" name="adb41c6e109e72b4b2571061d0b081bb3"></a>
+unsafe MR.Std.Vector_MRVector3f._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_isectPts</b></td></tr>
+<tr class="separator:adb41c6e109e72b4b2571061d0b081bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MultiRayMeshIntersectResult &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ad2974275ddbca84154bb841e973f18cf" id="r_ad2974275ddbca84154bb841e973f18cf"><td class="memItemLeft" align="right" valign="top"><a id="ad2974275ddbca84154bb841e973f18cf" name="ad2974275ddbca84154bb841e973f18cf"></a>
 unsafe MR.? <a class="elRef" href="../Cpp/classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>intersectingRays</b><code> [get]</code></td></tr>
-<tr class="memdesc:ad2974275ddbca84154bb841e973f18cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance along each ray till the intersection point or NaN if no intersection <br /></td></tr>
 <tr class="separator:ad2974275ddbca84154bb841e973f18cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95d6655a555810e50ec136c801056f02" id="r_a95d6655a555810e50ec136c801056f02"><td class="memItemLeft" align="right" valign="top"><a id="a95d6655a555810e50ec136c801056f02" name="a95d6655a555810e50ec136c801056f02"></a>
 unsafe MR.Std.? Vector_Float&#160;</td><td class="memItemRight" valign="bottom"><b>rayDistances</b><code> [get]</code></td></tr>
-<tr class="memdesc:a95d6655a555810e50ec136c801056f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersected triangles from mesh <br /></td></tr>
 <tr class="separator:a95d6655a555810e50ec136c801056f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdddec1a71aae97e50e4c8a9185f614c" id="r_afdddec1a71aae97e50e4c8a9185f614c"><td class="memItemLeft" align="right" valign="top"><a id="afdddec1a71aae97e50e4c8a9185f614c" name="afdddec1a71aae97e50e4c8a9185f614c"></a>
 unsafe MR.Std.? Vector_MRFaceId&#160;</td><td class="memItemRight" valign="bottom"><b>isectFaces</b><code> [get]</code></td></tr>
-<tr class="memdesc:afdddec1a71aae97e50e4c8a9185f614c"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection <br /></td></tr>
 <tr class="separator:afdddec1a71aae97e50e4c8a9185f614c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d30805d1937580d45f824eb8f4c98b4" id="r_a9d30805d1937580d45f824eb8f4c98b4"><td class="memItemLeft" align="right" valign="top"><a id="a9d30805d1937580d45f824eb8f4c98b4" name="a9d30805d1937580d45f824eb8f4c98b4"></a>
 unsafe MR.Std.? Vector_MRTriPointf&#160;</td><td class="memItemRight" valign="bottom"><b>isectBary</b><code> [get]</code></td></tr>
-<tr class="memdesc:a9d30805d1937580d45f824eb8f4c98b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection points or NaNs if no intersection <br /></td></tr>
 <tr class="separator:a9d30805d1937580d45f824eb8f4c98b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7af46788fd33d16dc09bb5e53e1cca71" id="r_a7af46788fd33d16dc09bb5e53e1cca71"><td class="memItemLeft" align="right" valign="top"><a id="a7af46788fd33d16dc09bb5e53e1cca71" name="a7af46788fd33d16dc09bb5e53e1cca71"></a>
 unsafe MR.Std.? Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><b>isectPts</b><code> [get]</code></td></tr>
@@ -224,13 +247,6 @@ unsafe MR.Std.? Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bot
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MultiRayMeshIntersectResult &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MultiRayMeshIntersectResult.html">MR.MultiRayMeshIntersectResult</a></code>. This is the const half of the class. </p>

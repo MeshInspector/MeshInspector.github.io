@@ -178,6 +178,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:abe08d8d5c70c2a7fb9600f5a1dfd1687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2cb99914308eb7429fd11738cf79483" id="r_aa2cb99914308eb7429fd11738cf79483"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a></td></tr>
 <tr class="separator:aa2cb99914308eb7429fd11738cf79483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5de264b6065dbf84f6b3fa0f6530592" id="r_ab5de264b6065dbf84f6b3fa0f6530592"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td></tr>
+<tr class="separator:ab5de264b6065dbf84f6b3fa0f6530592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac913b928f55547394d82cc3dfb02b594" id="r_ac913b928f55547394d82cc3dfb02b594"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a></td></tr>
 <tr class="separator:ac913b928f55547394d82cc3dfb02b594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -189,6 +191,10 @@ Functions</h2></td></tr>
 <tr class="separator:a1164232423f7ea43c12239f68751120d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1eb7e94c86e5dd20f717918805ad185" id="r_aa1eb7e94c86e5dd20f717918805ad185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSurroundingContour_8h.html#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1eb7e94c86e5dd20f717918805ad185">MR_findShortestCoLoop</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop)</td></tr>
 <tr class="separator:aa1eb7e94c86e5dd20f717918805ad185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c51f1b2e49fad5c89d56d966597de5" id="r_a69c51f1b2e49fad5c89d56d966597de5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c51f1b2e49fad5c89d56d966597de5">MR_findSmallestMetricEquivalentLoops</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a69c51f1b2e49fad5c89d56d966597de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a882085d7d896daf49a4f01589227bd1e" id="r_a882085d7d896daf49a4f01589227bd1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a882085d7d896daf49a4f01589227bd1e">MR_findShortestEquivalentLoops</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop)</td></tr>
+<tr class="separator:a882085d7d896daf49a4f01589227bd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53cd1269ed4da5bce80239c35b8e1e2" id="r_ad53cd1269ed4da5bce80239c35b8e1e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53cd1269ed4da5bce80239c35b8e1e2">MR_DetectTunnelSettings_Get_maxTunnelLength</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="separator:ad53cd1269ed4da5bce80239c35b8e1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a723bd6eb2335bc7580bdebec8eef4348" id="r_a723bd6eb2335bc7580bdebec8eef4348"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a723bd6eb2335bc7580bdebec8eef4348">MR_DetectTunnelSettings_Set_maxTunnelLength</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, float value)</td></tr>
@@ -384,6 +390,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5de264b6065dbf84f6b3fa0f6530592" name="ab5de264b6065dbf84f6b3fa0f6530592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5de264b6065dbf84f6b3fa0f6530592">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1049,6 +1069,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a882085d7d896daf49a4f01589227bd1e" name="a882085d7d896daf49a4f01589227bd1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a882085d7d896daf49a4f01589227bd1e">&#9670;&#160;</a></span>MR_findShortestEquivalentLoops()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findShortestEquivalentLoops </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same as findSmallestMetricEquivalentLoops with euclidean edge length metric Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga58a1b7a9d6de56cf7751d0509ef04452">MR::findShortestEquivalentLoops</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a1164232423f7ea43c12239f68751120d" name="a1164232423f7ea43c12239f68751120d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1164232423f7ea43c12239f68751120d">&#9670;&#160;</a></span>MR_findSmallestMetricCoLoop()</h2>
 
@@ -1077,7 +1119,39 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given not-trivial loop on input, finds the loop that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc">MR::findSmallestMetricCoLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgeId__std__string_8h.html#acc2c8c58bde7da4696e5ce41d7be5946" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgeId_std_string....">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given not-separating loop on input, finds the loop (also not-separation) that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc">MR::findSmallestMetricCoLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgeId__std__string_8h.html#acc2c8c58bde7da4696e5ce41d7be5946" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgeId_std_string....">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a69c51f1b2e49fad5c89d56d966597de5" name="a69c51f1b2e49fad5c89d56d966597de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c51f1b2e49fad5c89d56d966597de5">&#9670;&#160;</a></span>MR_findSmallestMetricEquivalentLoops()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findSmallestMetricEquivalentLoops </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga0496ff6c99ea415eaab1b519264edaf0">MR::findSmallestMetricEquivalentLoops</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

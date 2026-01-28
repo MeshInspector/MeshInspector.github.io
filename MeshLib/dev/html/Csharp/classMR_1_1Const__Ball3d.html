@@ -149,6 +149,8 @@ $(function(){initNavTree('classMR_1_1Const__Ball3d.html',''); initResizable(true
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__Ball3d-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_Ball3d Class Reference</div></div>
@@ -185,7 +187,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Ball3d</b> ()
 <tr class="memdesc:a154c054833d4b8f716aa83cbaa47d1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a154c054833d4b8f716aa83cbaa47d1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d9d0c491beee939d76fd11c8f99e09d" id="r_a4d9d0c491beee939d76fd11c8f99e09d"><td class="memItemLeft" align="right" valign="top"><a id="a4d9d0c491beee939d76fd11c8f99e09d" name="a4d9d0c491beee939d76fd11c8f99e09d"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Ball3d</b> (<a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> <a class="el" href="#a0b383126180756bd1fcc492e2922926e">center</a>, double radiusSq)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Ball3d</b> (<a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> center, double radiusSq)</td></tr>
 <tr class="memdesc:a4d9d0c491beee939d76fd11c8f99e09d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="el" href="classMR_1_1Ball3d.html" title="a ball = points surrounded by a sphere in arbitrary space with vector type V Generated from class MR....">MR.Ball3d</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a4d9d0c491beee939d76fd11c8f99e09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a7b7eee8f886f0bf9097ba5c5e93167" id="r_a1a7b7eee8f886f0bf9097ba5c5e93167"><td class="memItemLeft" align="right" valign="top"><a id="a1a7b7eee8f886f0bf9097ba5c5e93167" name="a1a7b7eee8f886f0bf9097ba5c5e93167"></a>
@@ -207,15 +209,34 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:ad25a547af9b7e1dea984eebbb53cbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a399d5b2ec6c5906a5d7d59b49207f3eb" id="r_a399d5b2ec6c5906a5d7d59b49207f3eb"><td class="memItemLeft" align="right" valign="top"><a id="a399d5b2ec6c5906a5d7d59b49207f3eb" name="a399d5b2ec6c5906a5d7d59b49207f3eb"></a>
+unsafe <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_center</b></td></tr>
+<tr class="memdesc:a399d5b2ec6c5906a5d7d59b49207f3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's squared radius <br /></td></tr>
+<tr class="separator:a399d5b2ec6c5906a5d7d59b49207f3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d7e219574e0d5d9ce809e316b2068e" id="r_a65d7e219574e0d5d9ce809e316b2068e"><td class="memItemLeft" align="right" valign="top"><a id="a65d7e219574e0d5d9ce809e316b2068e" name="a65d7e219574e0d5d9ce809e316b2068e"></a>
+unsafe double *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_radiusSq</b></td></tr>
+<tr class="separator:a65d7e219574e0d5d9ce809e316b2068e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Ball3d &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a4661c464ca53aaa100f7ac136c7e5c12" id="r_a4661c464ca53aaa100f7ac136c7e5c12"><td class="memItemLeft" align="right" valign="top"><a id="a4661c464ca53aaa100f7ac136c7e5c12" name="a4661c464ca53aaa100f7ac136c7e5c12"></a>
+static unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_Elements</b></td></tr>
+<tr class="memdesc:a4661c464ca53aaa100f7ac136c7e5c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's center <br /></td></tr>
+<tr class="separator:a4661c464ca53aaa100f7ac136c7e5c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a6a7f031741dd23ba67b4c1d26dfdc973" id="r_a6a7f031741dd23ba67b4c1d26dfdc973"><td class="memItemLeft" align="right" valign="top"><a id="a6a7f031741dd23ba67b4c1d26dfdc973" name="a6a7f031741dd23ba67b4c1d26dfdc973"></a>
 static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>Elements</b><code> [get]</code></td></tr>
-<tr class="memdesc:a6a7f031741dd23ba67b4c1d26dfdc973"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's center <br /></td></tr>
 <tr class="separator:a6a7f031741dd23ba67b4c1d26dfdc973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b383126180756bd1fcc492e2922926e" id="r_a0b383126180756bd1fcc492e2922926e"><td class="memItemLeft" align="right" valign="top"><a id="a0b383126180756bd1fcc492e2922926e" name="a0b383126180756bd1fcc492e2922926e"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>center</b><code> [get]</code></td></tr>
-<tr class="memdesc:a0b383126180756bd1fcc492e2922926e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's squared radius <br /></td></tr>
 <tr class="separator:a0b383126180756bd1fcc492e2922926e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855ecd48e721cbef8f1f8606c109b46a" id="r_a855ecd48e721cbef8f1f8606c109b46a"><td class="memItemLeft" align="right" valign="top"><a id="a855ecd48e721cbef8f1f8606c109b46a" name="a855ecd48e721cbef8f1f8606c109b46a"></a>
 unsafe double&#160;</td><td class="memItemRight" valign="bottom"><b>radiusSq</b><code> [get]</code></td></tr>
@@ -225,13 +246,6 @@ unsafe double&#160;</td><td class="memItemRight" valign="bottom"><b>radiusSq</b>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Ball3d &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a ball = points surrounded by a sphere in arbitrary space with vector type V Generated from class <code><a class="el" href="classMR_1_1Ball3d.html" title="a ball = points surrounded by a sphere in arbitrary space with vector type V Generated from class MR....">MR.Ball3d</a></code>. This is the const half of the class. </p>

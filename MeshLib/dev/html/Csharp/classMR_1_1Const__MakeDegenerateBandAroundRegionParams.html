@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__MakeDegenerateBandAroundRegionParams
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__MakeDegenerateBandAroundRegionParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_MakeDegenerateBandAroundRegionParams Class Reference</div></div>
@@ -198,6 +199,25 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a7e20a55d35031e437ab7dce1e3f23349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af031cacfe86c356aaa6a176fd7e9d492" id="r_af031cacfe86c356aaa6a176fd7e9d492"><td class="memItemLeft" align="right" valign="top"><a id="af031cacfe86c356aaa6a176fd7e9d492" name="af031cacfe86c356aaa6a176fd7e9d492"></a>
+unsafe MR.FaceBitSet._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_outNewFaces</b></td></tr>
+<tr class="separator:af031cacfe86c356aaa6a176fd7e9d492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af519c2ca5cad93235ca2f3c8bf645a33" id="r_af519c2ca5cad93235ca2f3c8bf645a33"><td class="memItemLeft" align="right" valign="top"><a id="af519c2ca5cad93235ca2f3c8bf645a33" name="af519c2ca5cad93235ca2f3c8bf645a33"></a>
+unsafe MR.UndirectedEdgeBitSet._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_outExtrudedEdges</b></td></tr>
+<tr class="separator:af519c2ca5cad93235ca2f3c8bf645a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73506eea6e9ba47e299bc37cff1faa87" id="r_a73506eea6e9ba47e299bc37cff1faa87"><td class="memItemLeft" align="right" valign="top"><a id="a73506eea6e9ba47e299bc37cff1faa87" name="a73506eea6e9ba47e299bc37cff1faa87"></a>
+unsafe float **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_maxEdgeLength</b></td></tr>
+<tr class="separator:a73506eea6e9ba47e299bc37cff1faa87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad0f906d10809d9ea334577da5e33b90" id="r_aad0f906d10809d9ea334577da5e33b90"><td class="memItemLeft" align="right" valign="top"><a id="aad0f906d10809d9ea334577da5e33b90" name="aad0f906d10809d9ea334577da5e33b90"></a>
+unsafe MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_new2OldMap</b></td></tr>
+<tr class="separator:aad0f906d10809d9ea334577da5e33b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MakeDegenerateBandAroundRegionParams &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a0234c3d0b0c24de96807bfed6021d430" id="r_a0234c3d0b0c24de96807bfed6021d430"><td class="memItemLeft" align="right" valign="top"><a id="a0234c3d0b0c24de96807bfed6021d430" name="a0234c3d0b0c24de96807bfed6021d430"></a>
@@ -217,13 +237,6 @@ unsafe MR.Phmap.? FlatHashMap_MRVertId_MRVertId&#160;</td><td class="memItemRigh
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MakeDegenerateBandAroundRegionParams &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MakeDegenerateBandAroundRegionParams.html">MR.MakeDegenerateBandAroundRegionParams</a></code>. This is the const half of the class. </p>

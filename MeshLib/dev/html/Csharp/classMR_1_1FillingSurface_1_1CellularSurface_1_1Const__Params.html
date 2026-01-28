@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1FillingSurface_1_1CellularSurface_1_1Const_
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.FillingSurface.CellularSurface.Const_Params Class Reference</div></div>
@@ -184,7 +185,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Params</b> ()
 <tr class="memdesc:a382e32ad04dab2a07d520e0617956c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a382e32ad04dab2a07d520e0617956c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89cdbfecc7a5741ca7af86c1a52f8546" id="r_a89cdbfecc7a5741ca7af86c1a52f8546"><td class="memItemLeft" align="right" valign="top"><a id="a89cdbfecc7a5741ca7af86c1a52f8546" name="a89cdbfecc7a5741ca7af86c1a52f8546"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Params</b> (MR.FillingSurface.CellularSurface.Type <a class="el" href="#af03f17b025a064e47e06cb714f769a77">type</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="#ae3097f6a1e0e76eb64b57587632287b3">period</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="#adbd280c1e1c23598003769ce34a2fe65">width</a>, float r, bool highRes, bool preserveTips)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Params</b> (MR.FillingSurface.CellularSurface.Type type, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> period, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> width, float r, bool highRes, bool preserveTips)</td></tr>
 <tr class="memdesc:a89cdbfecc7a5741ca7af86c1a52f8546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR.FillingSurface.CellularSurface.Params</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a89cdbfecc7a5741ca7af86c1a52f8546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a236e8b554d60b25617b5381ee1540a5a" id="r_a236e8b554d60b25617b5381ee1540a5a"><td class="memItemLeft" align="right" valign="top"><a id="a236e8b554d60b25617b5381ee1540a5a" name="a236e8b554d60b25617b5381ee1540a5a"></a>
@@ -198,19 +199,44 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:aa8da11718d9fd15e97a9b5f6d86155ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ac2ab6b1d7fca910bb8002f2a2a98cd5d" id="r_ac2ab6b1d7fca910bb8002f2a2a98cd5d"><td class="memItemLeft" align="right" valign="top"><a id="ac2ab6b1d7fca910bb8002f2a2a98cd5d" name="ac2ab6b1d7fca910bb8002f2a2a98cd5d"></a>
+unsafe MR.FillingSurface.CellularSurface.Type *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_type</b></td></tr>
+<tr class="memdesc:ac2ab6b1d7fca910bb8002f2a2a98cd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance between consecutive cylinders in each direction <br /></td></tr>
+<tr class="separator:ac2ab6b1d7fca910bb8002f2a2a98cd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ca330ea9cf9ba4d3c42140bb22e1f5" id="r_ac5ca330ea9cf9ba4d3c42140bb22e1f5"><td class="memItemLeft" align="right" valign="top"><a id="ac5ca330ea9cf9ba4d3c42140bb22e1f5" name="ac5ca330ea9cf9ba4d3c42140bb22e1f5"></a>
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_period</b></td></tr>
+<tr class="memdesc:ac5ca330ea9cf9ba4d3c42140bb22e1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the width of cylinders in each direction <br /></td></tr>
+<tr class="separator:ac5ca330ea9cf9ba4d3c42140bb22e1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eef0daf59225f73baae9c52f0da1b08" id="r_a5eef0daf59225f73baae9c52f0da1b08"><td class="memItemLeft" align="right" valign="top"><a id="a5eef0daf59225f73baae9c52f0da1b08" name="a5eef0daf59225f73baae9c52f0da1b08"></a>
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_width</b></td></tr>
+<tr class="memdesc:a5eef0daf59225f73baae9c52f0da1b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">the radius of uniting spheres <br /></td></tr>
+<tr class="separator:a5eef0daf59225f73baae9c52f0da1b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96ff5eecd22afbc370038bdafb0038bd" id="r_a96ff5eecd22afbc370038bdafb0038bd"><td class="memItemLeft" align="right" valign="top"><a id="a96ff5eecd22afbc370038bdafb0038bd" name="a96ff5eecd22afbc370038bdafb0038bd"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_r</b></td></tr>
+<tr class="separator:a96ff5eecd22afbc370038bdafb0038bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdcc4241251808cb6436b7aa7237a44f" id="r_acdcc4241251808cb6436b7aa7237a44f"><td class="memItemLeft" align="right" valign="top"><a id="acdcc4241251808cb6436b7aa7237a44f" name="acdcc4241251808cb6436b7aa7237a44f"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_highRes</b></td></tr>
+<tr class="separator:acdcc4241251808cb6436b7aa7237a44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa7e4a1784256c17930d09e6fc3a46c" id="r_adfa7e4a1784256c17930d09e6fc3a46c"><td class="memItemLeft" align="right" valign="top"><a id="adfa7e4a1784256c17930d09e6fc3a46c" name="adfa7e4a1784256c17930d09e6fc3a46c"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_preserveTips</b></td></tr>
+<tr class="separator:adfa7e4a1784256c17930d09e6fc3a46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Params &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:af03f17b025a064e47e06cb714f769a77" id="r_af03f17b025a064e47e06cb714f769a77"><td class="memItemLeft" align="right" valign="top"><a id="af03f17b025a064e47e06cb714f769a77" name="af03f17b025a064e47e06cb714f769a77"></a>
 unsafe MR.FillingSurface.CellularSurface.Type&#160;</td><td class="memItemRight" valign="bottom"><b>type</b><code> [get]</code></td></tr>
-<tr class="memdesc:af03f17b025a064e47e06cb714f769a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance between consecutive cylinders in each direction <br /></td></tr>
 <tr class="separator:af03f17b025a064e47e06cb714f769a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3097f6a1e0e76eb64b57587632287b3" id="r_ae3097f6a1e0e76eb64b57587632287b3"><td class="memItemLeft" align="right" valign="top"><a id="ae3097f6a1e0e76eb64b57587632287b3" name="ae3097f6a1e0e76eb64b57587632287b3"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>period</b><code> [get]</code></td></tr>
-<tr class="memdesc:ae3097f6a1e0e76eb64b57587632287b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the width of cylinders in each direction <br /></td></tr>
 <tr class="separator:ae3097f6a1e0e76eb64b57587632287b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd280c1e1c23598003769ce34a2fe65" id="r_adbd280c1e1c23598003769ce34a2fe65"><td class="memItemLeft" align="right" valign="top"><a id="adbd280c1e1c23598003769ce34a2fe65" name="adbd280c1e1c23598003769ce34a2fe65"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>width</b><code> [get]</code></td></tr>
-<tr class="memdesc:adbd280c1e1c23598003769ce34a2fe65"><td class="mdescLeft">&#160;</td><td class="mdescRight">the radius of uniting spheres <br /></td></tr>
 <tr class="separator:adbd280c1e1c23598003769ce34a2fe65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38b7eca39f19cb50b24f06ed4d963745" id="r_a38b7eca39f19cb50b24f06ed4d963745"><td class="memItemLeft" align="right" valign="top"><a id="a38b7eca39f19cb50b24f06ed4d963745" name="a38b7eca39f19cb50b24f06ed4d963745"></a>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>r</b><code> [get]</code></td></tr>
@@ -226,13 +252,6 @@ unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>preserveTips</
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Params &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html">MR.FillingSurface.CellularSurface.Params</a></code>. This is the const half of the class. </p>
