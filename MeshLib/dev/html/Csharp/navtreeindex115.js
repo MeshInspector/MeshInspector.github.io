@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"classMR_1_1Std_1_1Vector__MRCNCMachineSettingsRotationAxisName.html#a5fd6fe1f540ac3b73f734b5424323aae":[6,3,0,0,0,3803,1469,15],
 "classMR_1_1Std_1_1Vector__MRCNCMachineSettingsRotationAxisName.html#a71155367e29ab0eb4a325e0ee9c9a011":[6,3,0,0,0,3803,1469,25],
 "classMR_1_1Std_1_1Vector__MRCNCMachineSettingsRotationAxisName.html#a7969490f6639e0da38d2ca12e5bdefb2":[6,3,0,0,0,3803,1469,22],
 "classMR_1_1Std_1_1Vector__MRCNCMachineSettingsRotationAxisName.html#aa026658fb4f021ee8daf9b7feb8aadff":[6,3,0,0,0,3803,1469,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "classMR_1_1Std_1_1Vector__MRFaceBitSet.html#a6155fdc3a5ef2f5ea419d97fe2509bf6":[6,3,0,0,0,3803,1479,0],
 "classMR_1_1Std_1_1Vector__MRFaceBitSet.html#a6f68a30cac7d60a2e37b1c8fabbfb7c0":[6,3,0,0,0,3803,1479,9],
 "classMR_1_1Std_1_1Vector__MRFaceBitSet.html#a7a9fe0e79b4c75007f1170e07f8ebbc8":[6,3,0,0,0,3803,1479,5],
-"classMR_1_1Std_1_1Vector__MRFaceBitSet.html#a83d64fe85f19a5e059f4e644e6ecfcd3":[6,3,0,0,0,3803,1479,2],
-"classMR_1_1Std_1_1Vector__MRFaceBitSet.html#a8f29452cca9abfd977bb47c1d403a01e":[6,3,0,0,0,3803,1479,13]
+"classMR_1_1Std_1_1Vector__MRFaceBitSet.html#a83d64fe85f19a5e059f4e644e6ecfcd3":[6,3,0,0,0,3803,1479,2]
 };

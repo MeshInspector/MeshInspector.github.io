@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1PixelBitSet.html#ae026ee37521e35e965c2c2a93967b53d":[6,3,0,0,0,3717,25],
 "classMR_1_1PixelBitSet.html#af2483cd161fd89331438cf48695137e1":[6,3,0,0,0,3717,6],
 "classMR_1_1PlanarTriangulation.html":[6,3,0,0,0,3719],
 "classMR_1_1PlanarTriangulation.html#a12b16db47d4de981fcbd2c22d0ca3369":[6,3,0,0,0,3719,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Polynomial__Double__2.html#af8cd7b4bd2bcc28581e4523b7319c0be":[6,3,0,0,0,3736,0],
 "classMR_1_1Polynomial__Double__3.html":[6,3,0,0,0,3737],
 "classMR_1_1Polynomial__Double__3.html#a81ed32eff912c06427daa8b78fe543cb":[6,3,0,0,0,3737,2],
-"classMR_1_1Polynomial__Double__3.html#adcd627dc029b1b4e6421ef018587299d":[6,3,0,0,0,3737,0],
-"classMR_1_1Polynomial__Double__3.html#afd201b7428bfa4b38105a1f0e76419c1":[6,3,0,0,0,3737,1]
+"classMR_1_1Polynomial__Double__3.html#adcd627dc029b1b4e6421ef018587299d":[6,3,0,0,0,3737,0]
 };

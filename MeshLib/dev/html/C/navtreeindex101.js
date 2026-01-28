@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075":[6,2,1,0,0,0,1,318,2],
+"MRSurfaceDistance_8h_source.html":[6,2,1,0,0,0,1,318],
 "MRSurfaceLineOffset_8h.html":[6,2,1,0,0,0,1,320],
 "MRSurfaceLineOffset_8h.html#a087d1afcc55aadc6e828d844329c9727":[6,2,1,0,0,0,1,320,3],
 "MRSurfaceLineOffset_8h.html#a273eed4f5cadfa1bedd14695f02a2709":[6,2,1,0,0,0,1,320,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "MRSymMatrix2_8h.html#acaafae271f527c35c803f117a8d13ae0":[6,2,1,0,0,0,1,323,142],
 "MRSymMatrix2_8h.html#acd53e8565fcfd205e23a1d1ce63df719":[6,2,1,0,0,0,1,323,42],
 "MRSymMatrix2_8h.html#ace8166975e82778c319273520d00a467":[6,2,1,0,0,0,1,323,98],
-"MRSymMatrix2_8h.html#acfd9cc1ee66632d91eab05bf62ba11ed":[6,2,1,0,0,0,1,323,53],
-"MRSymMatrix2_8h.html#ad017a7428b296dea0440cce6e147110d":[6,2,1,0,0,0,1,323,35],
-"MRSymMatrix2_8h.html#ad07698545cba01e2ae7e10c8a09f50e7":[6,2,1,0,0,0,1,323,78]
+"MRSymMatrix2_8h.html#acfd9cc1ee66632d91eab05bf62ba11ed":[6,2,1,0,0,0,1,323,53]
 };

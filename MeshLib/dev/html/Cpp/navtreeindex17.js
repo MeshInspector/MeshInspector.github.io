@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1CombinedHistoryAction.html#a7198d283a3b62d0fbafe42a05443108f":[6,0,0,4,36,4],
 "classMR_1_1CombinedHistoryAction.html#a85b30407745962bc5a2675fb77325ef9":[6,0,0,4,36,5],
 "classMR_1_1CombinedHistoryAction.html#ace723fe0552e381f472a4cafa459a886":[6,0,0,4,36,2],
 "classMR_1_1CombinedHistoryAction.html#aee0c2b74bb5b1590616ea67a38a34884":[6,0,0,4,36,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#af6ff220d789ac2f9c41960ab99a6517f":[6,0,2,0,2,0,0,0],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#afcc3f132d5643509fe55e57845968424":[6,0,1,0,1,2,0,3],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#afcc3f132d5643509fe55e57845968424":[6,0,2,0,2,0,0,3],
-"classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,1,0],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45":[6,0,0,1,0,2]
+"classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,1,0]
 };

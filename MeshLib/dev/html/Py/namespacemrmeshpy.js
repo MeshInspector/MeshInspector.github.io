@@ -2206,6 +2206,7 @@ var namespacemrmeshpy =
     [ "orientParaboloid3d", "namespacemrmeshpy.html#aa390dd9c5bbdca80cdd45929a6931400", null ],
     [ "orientParaboloid3d", "namespacemrmeshpy.html#a892aaf0062339cb1af8af3c8d8362876", null ],
     [ "pack", "namespacemrmeshpy.html#a823449926a1aa8bd79588c5769428a65", null ],
+    [ "parseBom", "namespacemrmeshpy.html#a6b7ff2efc87d22d9c607b2739485eca4", null ],
     [ "parseFirstNum", "namespacemrmeshpy.html#afda97c8c781983e28d88ada4c342ff89", null ],
     [ "parsePolygon", "namespacemrmeshpy.html#a6b7a835fa14dad27c18d770f608a5a1f", null ],
     [ "partialOffsetMesh", "namespacemrmeshpy.html#afc253e4ce6b106ad367e0649a8b5cd28", null ],

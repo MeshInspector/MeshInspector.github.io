@@ -1955,6 +1955,7 @@ var namespaceMR =
     [ "parallelMinMaxArg", "namespaceMR.html#a76ba72400c108fa8da0ade91509a4215", null ],
     [ "parallelMinMaxArg", "namespaceMR.html#a2abd5d87d7473042366051414d91e416", null ],
     [ "parseAscCoordinate", "namespaceMR.html#afb031d90c2eaeddbeac77675cec10847", null ],
+    [ "parseBom", "namespaceMR.html#a7675760309d4cf587def9a30530afeea", null ],
     [ "parseFirstNum", "namespaceMR.html#ac31683380e84bd274a20968c64c5f40a", null ],
     [ "parseObjCoordinate", "namespaceMR.html#ac7c4deb2569e6bc78bcb6210851b70a9", null ],
     [ "parsePolygon", "namespaceMR.html#ac1fa5e1ea4cfb0aa1699c742597effe7", null ],

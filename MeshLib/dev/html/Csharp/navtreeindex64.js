@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1FixUndercuts.html#abba43d841c90eddd085e1e43f3d772c9":[6,3,0,0,0,3581,4],
 "classMR_1_1FixUndercuts.html#adf937fa7d334303b69f97cabdbdabbe2":[6,3,0,0,0,3581,5],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html":[6,3,0,0,0,2,9],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a27612070bc8331d87cc8901935c81d98":[6,3,0,0,0,2,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#ac4a12f33e8cee330cf2bff7c574c7d0d":[6,3,0,0,0,3611,2],
 "classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#afaa1e7b1edbb4e03f3508eda4248f188":[6,3,0,0,0,3611,0],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html":[6,3,0,0,0,3612],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#a896b61bfdc9e7a1684302c10239b0bff":[6,3,0,0,0,3612,2],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#ae0b98b1503d23b7056e95f606844bd67":[6,3,0,0,0,3612,1]
+"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#a896b61bfdc9e7a1684302c10239b0bff":[6,3,0,0,0,3612,2]
 };

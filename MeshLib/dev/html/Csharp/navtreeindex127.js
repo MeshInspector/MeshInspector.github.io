@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a84196a101ca2a0b6695c030dcd13bc43":[6,3,0,0,0,3803,1591,10],
 "classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a8570dc388eab16041f184fe77e583db8":[6,3,0,0,0,3803,1591,19],
 "classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a8d1ff292fc6be8e7f564d5217cb65af7":[6,3,0,0,0,3803,1591,7],
 "classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a8f67ecd5af612e18789bbd0e4c2ed70b":[6,3,0,0,0,3803,1591,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1Std_1_1__ByValue__Function__MRVector3fFuncFromMRVertId.html":[6,3,0,0,0,3803,53],
 "classMR_1_1Std_1_1__ByValue__Function__MRVector3iFuncFromConstMRVector3fRef.html":[6,3,0,0,0,3803,54],
 "classMR_1_1Std_1_1__ByValue__Function__StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId.html":[6,3,0,0,0,3803,55],
-"classMR_1_1Std_1_1__ByValue__Function__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeat6ddbcafee9e51f998620d4d32baae25e.html":[6,3,0,0,0,3803,56],
-"classMR_1_1Std_1_1__ByValue__Function__UnsignedCharFuncFromConstMRVector3iRef.html":[6,3,0,0,0,3803,57]
+"classMR_1_1Std_1_1__ByValue__Function__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeat6ddbcafee9e51f998620d4d32baae25e.html":[6,3,0,0,0,3803,56]
 };

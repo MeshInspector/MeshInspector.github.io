@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,1,0,1,310,0],
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,2,282,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,1,0,1,310,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,2,282,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,310,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca":[6,0,0,3,12,1],
 "structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459":[6,0,0,3,12,0],
 "structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[6,0,0,3,12,2],
-"structMR_1_1SpaceMouseDownListener.html":[6,0,1,0,1,377],
-"structMR_1_1SpaceMouseDownListener.html":[6,0,2,0,2,349],
-"structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,1,0,1,377,0]
+"structMR_1_1SpaceMouseDownListener.html":[6,0,1,0,1,377]
 };

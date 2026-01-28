@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classMR_1_1Const__CircleObject.html#a472ad436c5796257f900e1e0b0dfee2e":[6,3,0,0,0,2698,55],
 "classMR_1_1Const__CircleObject.html#a47c8ea4f061db3b9a32c20f64ceb45da":[6,3,0,0,0,2698,41],
 "classMR_1_1Const__CircleObject.html#a483e77e247a9d7a8d1bd880835bda68e":[6,3,0,0,0,2698,54],
 "classMR_1_1Const__CircleObject.html#a4b76fbcde46227750d9588b39fcd2b48":[6,3,0,0,0,2698,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classMR_1_1Const__ContoursDistanceMapOptions.html#a9e7afd3100ad3c6fddd8040fd6f8ff1aa103a84d91e18de34821243d0495258ed":[6,3,0,0,0,2713,0,1],
 "classMR_1_1Const__ContoursDistanceMapOptions.html#a9e7afd3100ad3c6fddd8040fd6f8ff1aac47bcac58a7bb1ad27148fb2b6209ab0":[6,3,0,0,0,2713,0,0],
 "classMR_1_1Const__ContoursDistanceMapOptions.html#ac60eeddd1a504a162fed6e3d327b2603":[6,3,0,0,0,2713,4],
-"classMR_1_1Const__ContoursDistanceMapOptions.html#adffd999e7899005a2ba950c25e1bc1a8":[6,3,0,0,0,2713,6],
-"classMR_1_1Const__ContoursDistanceMapOptions.html#af0944ae9eefdd58c0052b99cd187d044":[6,3,0,0,0,2713,8]
+"classMR_1_1Const__ContoursDistanceMapOptions.html#adffd999e7899005a2ba950c25e1bc1a8":[6,3,0,0,0,2713,6]
 };

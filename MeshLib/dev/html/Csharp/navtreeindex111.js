@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"classMR_1_1Std_1_1Pair__MRDistanceMap__MRDistanceMap.html#ad3fc3e8a32de7dc16862472dc6f7758a":[6,3,0,0,0,3803,1406,0],
 "classMR_1_1Std_1_1Pair__MREdgeId__MREdgeId.html":[6,3,0,0,0,3803,1407],
 "classMR_1_1Std_1_1Pair__MREdgeId__MREdgeId.html#a0505d1439bee8c40fab8f88ebaf52ed7":[6,3,0,0,0,3803,1407,1],
 "classMR_1_1Std_1_1Pair__MREdgeId__MREdgeId.html#a35e4b07f211504f8e10bec30530e34f1":[6,3,0,0,0,3803,1407,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "classMR_1_1Std_1_1SharedPtr__Void.html#a4eff0bca7b60fa18e41fb44ff2669afe":[6,3,0,0,0,3803,1431,164],
 "classMR_1_1Std_1_1SharedPtr__Void.html#a516e1984877f682967f48de652a1f7d0":[6,3,0,0,0,3803,1431,241],
 "classMR_1_1Std_1_1SharedPtr__Void.html#a51cb9f841f39672492890f1ff260b853":[6,3,0,0,0,3803,1431,82],
-"classMR_1_1Std_1_1SharedPtr__Void.html#a52ee43578cc335dc2c7152562dbede20":[6,3,0,0,0,3803,1431,70],
-"classMR_1_1Std_1_1SharedPtr__Void.html#a536bb991471c134b69006f1bb13943ec":[6,3,0,0,0,3803,1431,74]
+"classMR_1_1Std_1_1SharedPtr__Void.html#a52ee43578cc335dc2c7152562dbede20":[6,3,0,0,0,3803,1431,70]
 };

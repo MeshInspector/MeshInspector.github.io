@@ -1,5 +1,6 @@
 var NAVTREEINDEX152 =
 {
+"classMR_1_1__InOptMut__PolylineProjectionResult3Arg.html":[6,3,0,0,0,2145],
 "classMR_1_1__InOptMut__PolylineProjectionWithOffsetResult3.html":[6,3,0,0,0,2146],
 "classMR_1_1__InOptMut__PolylineSubdivideSettings.html":[6,3,0,0,0,2147],
 "classMR_1_1__InOptMut__PolylineToDistanceVolumeParams.html":[6,3,0,0,0,2148],
@@ -248,6 +249,5 @@ var NAVTREEINDEX152 =
 "classMR_1_1__InOptMut__ViewportProperty__MRAffineXf3f.html":[6,3,0,0,0,2391],
 "classMR_1_1__InOptMut__ViewportProperty__MRColor.html":[6,3,0,0,0,2392],
 "classMR_1_1__InOptMut__ViewportProperty__MRMatrix3f.html":[6,3,0,0,0,2393],
-"classMR_1_1__InOptMut__ViewportProperty__MRVector4UnsignedChar.html":[6,3,0,0,0,2394],
-"classMR_1_1__InOptMut__ViewportProperty__MRXfBasedCacheMRBox3f.html":[6,3,0,0,0,2395]
+"classMR_1_1__InOptMut__ViewportProperty__MRVector4UnsignedChar.html":[6,3,0,0,0,2394]
 };

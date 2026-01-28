@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Polynomial__Double__3.html#afd201b7428bfa4b38105a1f0e76419c1":[6,3,0,0,0,3737,1],
 "classMR_1_1Polynomial__Double__4.html":[6,3,0,0,0,3738],
 "classMR_1_1Polynomial__Double__4.html#a3d346a9f035b618192af50e0369cabcf":[6,3,0,0,0,3738,1],
 "classMR_1_1Polynomial__Double__4.html#a775f0ae763a79c303783ed8ca0cab156":[6,3,0,0,0,3738,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1SimpleBinaryVolume.html#ad8da19ed4dc59475b012cdc7e05f2da1":[6,3,0,0,0,3794,2],
 "classMR_1_1SimpleBinaryVolume.html#ad9e31731391fdffd65fc94baa6316897":[6,3,0,0,0,3794,1],
 "classMR_1_1SimpleVolume.html":[6,3,0,0,0,3795],
-"classMR_1_1SimpleVolume.html#a2d44f5bca33c64867c2be6f25ac01e27":[6,3,0,0,0,3795,2],
-"classMR_1_1SimpleVolume.html#a4b9b8f171cf312b29a9dfbcf95bdada7":[6,3,0,0,0,3795,1]
+"classMR_1_1SimpleVolume.html#a2d44f5bca33c64867c2be6f25ac01e27":[6,3,0,0,0,3795,2]
 };

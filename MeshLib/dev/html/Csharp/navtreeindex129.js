@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1Std_1_1__ByValue__Vector__MRPointPair.html":[6,3,0,0,0,3803,194],
 "classMR_1_1Std_1_1__ByValue__Vector__MRPointsLoadNamedCloud.html":[6,3,0,0,0,3803,195],
 "classMR_1_1Std_1_1__ByValue__Vector__MRPointsProjectionResult.html":[6,3,0,0,0,3803,196],
 "classMR_1_1Std_1_1__ByValue__Vector__MRQuadraticForm2f.html":[6,3,0,0,0,3803,197],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1Std_1_1__InOptConst__Pair__Float__Float.html":[6,3,0,0,0,3803,418],
 "classMR_1_1Std_1_1__InOptConst__Pair__Float__MRVertId.html":[6,3,0,0,0,3803,419],
 "classMR_1_1Std_1_1__InOptConst__Pair__Int__Int.html":[6,3,0,0,0,3803,420],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRDistanceMap__MRDistanceMap.html":[6,3,0,0,0,3803,421],
-"classMR_1_1Std_1_1__InOptConst__Pair__MREdgeId__MREdgeId.html":[6,3,0,0,0,3803,422]
+"classMR_1_1Std_1_1__InOptConst__Pair__MRDistanceMap__MRDistanceMap.html":[6,3,0,0,0,3803,421]
 };

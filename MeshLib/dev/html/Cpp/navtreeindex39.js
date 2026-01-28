@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1SurfaceManipulationWidget.html#af7d88774175c7d5272ce114c8f7ec8d4":[6,0,1,0,1,387,46],
 "classMR_1_1SurfaceManipulationWidget.html#af7d88774175c7d5272ce114c8f7ec8d4":[6,0,2,0,2,359,46],
 "classMR_1_1SurfaceManipulationWidget.html#af9cf7388fbbb8c4053cd1f1403584d2d":[6,0,1,0,1,387,67],
 "classMR_1_1SurfaceManipulationWidget.html#af9cf7388fbbb8c4053cd1f1403584d2d":[6,0,2,0,2,359,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1TriangulationParameters.html#ac1e7b272843722118f9a5fde65872993":[6,0,0,13,1,7],
 "classMR_1_1TriangulationParameters.html#ae90e00f10fb269fa23df83335568d939":[6,0,0,13,1,5],
 "classMR_1_1TriangulationParameters.html#af8d0577d5c65b2890534c89923773124":[6,0,0,13,1,6],
-"classMR_1_1TypedBitSet.html":[6,0,0,3,3],
-"classMR_1_1TypedBitSet.html#a00ffea5dfa37bddf5433b25ff8620931":[6,0,0,3,3,9]
+"classMR_1_1TypedBitSet.html":[6,0,0,3,3]
 };

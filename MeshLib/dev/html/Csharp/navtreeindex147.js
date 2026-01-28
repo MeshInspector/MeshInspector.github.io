@@ -1,5 +1,6 @@
 var NAVTREEINDEX147 =
 {
+"classMR_1_1__InOptConst__IComputeToolDistance.html":[6,3,0,0,0,1001],
 "classMR_1_1__InOptConst__IFastWindingNumber.html":[6,3,0,0,0,1008],
 "classMR_1_1__InOptConst__IFastWindingNumberByParts.html":[6,3,0,0,0,1009],
 "classMR_1_1__InOptConst__IICPTreeIndexer.html":[6,3,0,0,0,1010],
@@ -248,6 +249,5 @@ var NAVTREEINDEX147 =
 "classMR_1_1__InOptConst__PdfParameters.html":[6,3,0,0,0,1231],
 "classMR_1_1__InOptConst__PixelBitSet.html":[6,3,0,0,0,1232],
 "classMR_1_1__InOptConst__PixelId.html":[6,3,0,0,0,1233],
-"classMR_1_1__InOptConst__Plane3d.html":[6,3,0,0,0,1234],
-"classMR_1_1__InOptConst__Plane3f.html":[6,3,0,0,0,1235]
+"classMR_1_1__InOptConst__Plane3d.html":[6,3,0,0,0,1234]
 };

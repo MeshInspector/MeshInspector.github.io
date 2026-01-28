@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
+"structMR_1_1CharPressedListener.html":[6,0,1,0,1,87],
 "structMR_1_1CharPressedListener.html":[6,0,2,0,2,59],
 "structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,1,0,1,87,3],
 "structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,2,0,2,59,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,2,0,2,94,3],
 "structMR_1_1DrawButtonParams.html":[6,0,1,0,1,123],
 "structMR_1_1DrawButtonParams.html":[6,0,2,0,2,95],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,1,0,1,123,0],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,2,0,2,95,0],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[6,0,1,0,1,123,0,2]
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,1,0,1,123,0]
 };

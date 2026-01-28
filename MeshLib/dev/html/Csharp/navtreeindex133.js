@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1SymMatrix4__UnsignedChar.html#aa94d71ec862918a0eb78578623deca97":[6,3,0,0,0,3815,14],
 "classMR_1_1SymMatrix4__UnsignedChar.html#abdd668c5a9a0e004bcc2dc0ecd9108c8":[6,3,0,0,0,3815,6],
 "classMR_1_1SymMatrix4__UnsignedChar.html#ac9c76ee90e6ce3963f3a6fa27d9207e5":[6,3,0,0,0,3815,10],
 "classMR_1_1SymMatrix4__UnsignedChar.html#ae0c67503a62099ab9cb21faad4b6e9fe":[6,3,0,0,0,3815,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a4de58e16e7bab450742caab00f9c84ed":[6,3,0,0,0,14,7,0],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a675845de867eb0ba6a860161faf61b46":[6,3,0,0,0,14,7,3],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a73c043d7816e7051f40021fbd520e875":[6,3,0,0,0,14,7,4],
-"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a9f8fb0a347cea4d0db4ed81f12f002c8":[6,3,0,0,0,14,7,1],
-"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abd23f678c0f1d72b139cd2d8ea4495de":[6,3,0,0,0,14,7,5]
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a9f8fb0a347cea4d0db4ed81f12f002c8":[6,3,0,0,0,14,7,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"classMR_1_1__InOptConst__ChangeMeshPointsAction.html":[6,3,0,0,0,776],
 "classMR_1_1__InOptConst__ChangeMeshTexturePerFaceAction.html":[6,3,0,0,0,777],
 "classMR_1_1__InOptConst__ChangeMeshTopologyAction.html":[6,3,0,0,0,778],
 "classMR_1_1__InOptConst__ChangeMeshUVCoordsAction.html":[6,3,0,0,0,779],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "classMR_1_1__InOptConst__ICPGroupPair.html":[6,3,0,0,0,1003],
 "classMR_1_1__InOptConst__ICPGroupPairs.html":[6,3,0,0,0,1004],
 "classMR_1_1__InOptConst__ICPPairData.html":[6,3,0,0,0,1005],
-"classMR_1_1__InOptConst__ICPProperties.html":[6,3,0,0,0,1006],
-"classMR_1_1__InOptConst__IComputeToolDistance.html":[6,3,0,0,0,1001]
+"classMR_1_1__InOptConst__ICPProperties.html":[6,3,0,0,0,1006]
 };

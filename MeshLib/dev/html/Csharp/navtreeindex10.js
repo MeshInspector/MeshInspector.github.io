@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1Box__Vector4i.html#a9746a325ab882a34a91071cd82d3a749":[6,3,0,0,0,2550,2],
 "classMR_1_1Box__Vector4i.html#aa302cac622bd33cd76c5600ce804f461":[6,3,0,0,0,2550,6],
 "classMR_1_1Box__Vector4i64.html":[6,3,0,0,0,2551],
 "classMR_1_1Box__Vector4i64.html#a0ef14806e0012e1770d334a9aa45e2a9":[6,3,0,0,0,2551,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html#a5dd6a3a4fb9e253d0b8de16dcaa5eb9f":[6,3,0,0,0,2575,4,2],
 "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html#a873f94ebba7769b887a2c26611ab92e6":[6,3,0,0,0,2575,4,3],
 "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html#aea25a9fa68a01e0329905753e7bcc8de":[6,3,0,0,0,2575,4,0],
-"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__ByValue__PartialColorMap.html":[6,3,0,0,0,2575,0],
-"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__InOptConst__PartialColorMap.html":[6,3,0,0,0,2575,1]
+"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__ByValue__PartialColorMap.html":[6,3,0,0,0,2575,0]
 };

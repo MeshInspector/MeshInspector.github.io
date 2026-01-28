@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1Const__ContoursDistanceMapOptions.html#af0944ae9eefdd58c0052b99cd187d044":[6,3,0,0,0,2713,8],
 "classMR_1_1Const__ContoursMeshAlignParams.html":[6,3,0,0,0,2714],
 "classMR_1_1Const__ContoursMeshAlignParams.html#a1666f8c16bdf1910e0d590ba0c36a45e":[6,3,0,0,0,2714,4],
 "classMR_1_1Const__ContoursMeshAlignParams.html#a3471b85122d59174c9b64c91d9172d64":[6,3,0,0,0,2714,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1Const__DecimateSettings.html#af3dd234ef39f48aa23e8c8f7b26b68b4":[6,3,0,0,0,2733,16],
 "classMR_1_1Const__DeloneSettings.html":[6,3,0,0,0,2734],
 "classMR_1_1Const__DeloneSettings.html#a34c7d8ea1740d3aa29505ced049b0937":[6,3,0,0,0,2734,5],
-"classMR_1_1Const__DeloneSettings.html#a4a10c9adbebde007efb2e8146b2eb71d":[6,3,0,0,0,2734,1],
-"classMR_1_1Const__DeloneSettings.html#a5613e2e85dfc38a7fd4cc433a4e4d362":[6,3,0,0,0,2734,6]
+"classMR_1_1Const__DeloneSettings.html#a4a10c9adbebde007efb2e8146b2eb71d":[6,3,0,0,0,2734,1]
 };

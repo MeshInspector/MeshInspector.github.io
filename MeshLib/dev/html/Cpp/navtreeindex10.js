@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4":[6,0,3,0,0,1,4,367,4],
 "MRString_8h.html#afc9f574268d072e85d31e140353743df":[6,0,3,0,0,1,4,367,9],
 "MRString_8h_source.html":[6,0,3,0,0,1,4,367],
 "MRSubfeatures_8h.html":[6,0,3,0,0,1,4,369],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRTestC_2MRAffineXf_8h.html#af03e75d28febc5009e0a1b2e1f82286d":[6,0,3,0,0,1,8,1,3],
 "MRTestC_2MRAffineXf_8h.html#af14f27e971025d36cb34254a3fb570a0":[6,0,3,0,0,1,8,1,1],
 "MRTestC_2MRAffineXf_8h_source.html":[6,0,3,0,0,1,8,1],
-"MRTestC_2MRBitSet_8h.html":[6,0,3,0,0,1,8,2],
-"MRTestC_2MRBitSet_8h.html#af179eb8d5293c389d6c39fa71812f0b2":[6,0,3,0,0,1,8,2,0]
+"MRTestC_2MRBitSet_8h.html":[6,0,3,0,0,1,8,2]
 };

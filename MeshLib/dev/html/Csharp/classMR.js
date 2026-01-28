@@ -1532,6 +1532,7 @@ var classMR =
     [ "orientParaboloid3d", "classMR.html#a394049d6312693874b1cc138bdaf2f55", null ],
     [ "orientParaboloid3d", "classMR.html#abc2b85db431bed825a9d8098ed435f86", null ],
     [ "pack", "classMR.html#a1ef5e4df4a7bd48167f557ed17fb9e46", null ],
+    [ "parseBom", "classMR.html#a42e73ed7bf2134fa539fa7f25ad696ec", null ],
     [ "parseFirstNum", "classMR.html#a63bc825e61eba9f0d73095d13e2010fb", null ],
     [ "parsePolygon", "classMR.html#a590687549cc1c103e16b3636be3e510c", null ],
     [ "partialOffsetMesh", "classMR.html#aa27187b90e559803040ec098428714cb", null ],

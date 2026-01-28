@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"classMR_1_1__InOptConst__Vector__Int__MRVertId.html#a1480b2d3fb363cc0ea135e90201f27be":[6,3,0,0,0,1453,0],
 "classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html":[6,3,0,0,0,1454],
 "classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a32c96f8bbb48f0d8ee45c7db6752ef2f":[6,3,0,0,0,1454,0],
 "classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html":[6,3,0,0,0,1455],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "classMR_1_1__InOptMut__Buffer__UnsignedChar.html":[6,3,0,0,0,1641],
 "classMR_1_1__InOptMut__CNCMachineSettings.html":[6,3,0,0,0,1688],
 "classMR_1_1__InOptMut__ChangVoxelSelectionAction.html":[6,3,0,0,0,1681],
-"classMR_1_1__InOptMut__ChangeActiveBoxAction.html":[6,3,0,0,0,1642],
-"classMR_1_1__InOptMut__ChangeColoringType.html":[6,3,0,0,0,1643]
+"classMR_1_1__InOptMut__ChangeActiveBoxAction.html":[6,3,0,0,0,1642]
 };

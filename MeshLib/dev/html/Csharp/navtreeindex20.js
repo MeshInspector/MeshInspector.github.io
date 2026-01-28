@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Const__BendTextAlongCurveParams.html#a0520f3d9e179a716ad0bac07eb1b2276":[6,3,0,0,0,2614,2],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a076d252b8d91083010b99238ef3d494a":[6,3,0,0,0,2614,3],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a11486a12a93770713123624e5eb77027":[6,3,0,0,0,2614,1],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a1a218beb7e80376fbbd44f34d994da47":[6,3,0,0,0,2614,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#ad259d35845fc2ed7a1a2b38a1ca95169":[6,3,0,0,0,2644,3],
 "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#adc4c65a9f777b775fc713619996b85f5":[6,3,0,0,0,2644,6],
 "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aedeca5783717dc8229d3ad6b43c6ffa4":[6,3,0,0,0,2644,1],
-"classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aef89ff5068dccfe12ba672ccd402ea47":[6,3,0,0,0,2644,10],
-"classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html":[6,3,0,0,0,2645]
+"classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aef89ff5068dccfe12ba672ccd402ea47":[6,3,0,0,0,2644,10]
 };

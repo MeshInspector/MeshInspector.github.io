@@ -1,5 +1,6 @@
 var NAVTREEINDEX145 =
 {
+"classMR_1_1__ByValue__VdbVolume.html":[6,3,0,0,0,431],
 "classMR_1_1__ByValue__Vector__Char__MRVertId.html":[6,3,0,0,0,432],
 "classMR_1_1__ByValue__Vector__Char__MRVertId.html#a16b796aab04dae02bb1228af7e5a0ad1":[6,3,0,0,0,432,0],
 "classMR_1_1__ByValue__Vector__Double__MRRegionId.html":[6,3,0,0,0,433],
@@ -248,6 +249,5 @@ var NAVTREEINDEX145 =
 "classMR_1_1__InOptConst__ChangeMeshCreasesAction.html":[6,3,0,0,0,772],
 "classMR_1_1__InOptConst__ChangeMeshDataAction.html":[6,3,0,0,0,773],
 "classMR_1_1__InOptConst__ChangeMeshEdgeSelectionAction.html":[6,3,0,0,0,774],
-"classMR_1_1__InOptConst__ChangeMeshFaceSelectionAction.html":[6,3,0,0,0,775],
-"classMR_1_1__InOptConst__ChangeMeshPointsAction.html":[6,3,0,0,0,776]
+"classMR_1_1__InOptConst__ChangeMeshFaceSelectionAction.html":[6,3,0,0,0,775]
 };

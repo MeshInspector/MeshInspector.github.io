@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abd23f678c0f1d72b139cd2d8ea4495de":[6,3,0,0,0,14,7,5],
 "classMR_1_1TriangulationHelpers_1_1Const__Settings.html":[6,3,0,0,0,14,8],
 "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a0fe1751fe67689b9d89c469a25cb79ba":[6,3,0,0,0,14,8,4],
 "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a18f0f9337ee9b1e2a745f8081440e7e9":[6,3,0,0,0,14,8,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a5eaacbbe443ff31a7363380a522e845e":[6,3,0,0,0,3839,9],
 "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a89e3286ec1bff2e65b5c3f0e0cf88fa0":[6,3,0,0,0,3839,0],
 "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a9e9d10c1cb4bc56bc167fb2f5ebcb44e":[6,3,0,0,0,3839,5],
-"classMR_1_1UnionFind__MRUndirectedEdgeId.html#aac23a201e74dbd68bfd28616745bd622":[6,3,0,0,0,3839,8],
-"classMR_1_1UnionFind__MRUndirectedEdgeId.html#ab0b6d1ac6dbc8f75843a36101ca933e2":[6,3,0,0,0,3839,7]
+"classMR_1_1UnionFind__MRUndirectedEdgeId.html#aac23a201e74dbd68bfd28616745bd622":[6,3,0,0,0,3839,8]
 };

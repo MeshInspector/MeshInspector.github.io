@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,1,0,1,276,10],
 "classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,2,0,2,248,10],
 "classMR_1_1PriorityQueue.html#ada44a589fd04a828763560decb38cdf8":[6,0,1,0,1,276,8],
 "classMR_1_1PriorityQueue.html#ada44a589fd04a828763560decb38cdf8":[6,0,2,0,2,248,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1RenderDimensions_1_1PointTask.html":[6,0,2,0,2,16,6],
 "classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe":[6,0,1,0,1,35,6,2],
 "classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe":[6,0,2,0,2,16,6,2],
-"classMR_1_1RenderDimensions_1_1PointTask.html#a98d9ea7c04c135e0a689de9017d7bd33":[6,0,1,0,1,35,6,0],
-"classMR_1_1RenderDimensions_1_1PointTask.html#a98d9ea7c04c135e0a689de9017d7bd33":[6,0,2,0,2,16,6,0]
+"classMR_1_1RenderDimensions_1_1PointTask.html#a98d9ea7c04c135e0a689de9017d7bd33":[6,0,1,0,1,35,6,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX143 =
 {
+"classMR_1_1__ByValueShared__DistanceMeasurementObject.html":[6,3,0,0,0,570],
 "classMR_1_1__ByValueShared__FastWindingNumber.html":[6,3,0,0,0,571],
 "classMR_1_1__ByValueShared__FastWindingNumber.html#a4fb1a6bd0eb7df90635330cda0364309":[6,3,0,0,0,571,0],
 "classMR_1_1__ByValueShared__FeatureObject.html":[6,3,0,0,0,572],
@@ -248,6 +249,5 @@ var NAVTREEINDEX143 =
 "classMR_1_1__ByValue__Expected__StdVectorMRVertBitSet__StdString.html":[6,3,0,0,0,206],
 "classMR_1_1__ByValue__Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html":[6,3,0,0,0,207],
 "classMR_1_1__ByValue__Expected__StdVectorStdSharedPtrMRObjectVoxels__StdString.html":[6,3,0,0,0,208],
-"classMR_1_1__ByValue__Expected__StdVectorStdString__StdString.html":[6,3,0,0,0,209],
-"classMR_1_1__ByValue__Expected__StdVectorStdVectorMREdgeId__StdString.html":[6,3,0,0,0,210]
+"classMR_1_1__ByValue__Expected__StdVectorStdString__StdString.html":[6,3,0,0,0,209]
 };

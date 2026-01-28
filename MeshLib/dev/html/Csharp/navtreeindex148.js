@@ -1,5 +1,6 @@
 var NAVTREEINDEX148 =
 {
+"classMR_1_1__InOptConst__Plane3f.html":[6,3,0,0,0,1235],
 "classMR_1_1__InOptConst__PlaneAccumulator.html":[6,3,0,0,0,1236],
 "classMR_1_1__InOptConst__PlaneObject.html":[6,3,0,0,0,1237],
 "classMR_1_1__InOptConst__PlaneObject.html#acb2eebcb754398de3d265d9bcd0e089b":[6,3,0,0,0,1237,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX148 =
 "classMR_1_1__InOptConst__Vector__Int__MRFaceId.html#af1a61c397f8f3e3a94703de4abd4304a":[6,3,0,0,0,1451,0],
 "classMR_1_1__InOptConst__Vector__Int__MRUndirectedEdgeId.html":[6,3,0,0,0,1452],
 "classMR_1_1__InOptConst__Vector__Int__MRUndirectedEdgeId.html#a15d914fe1f33f9ba1b2ab34d1add90c0":[6,3,0,0,0,1452,0],
-"classMR_1_1__InOptConst__Vector__Int__MRVertId.html":[6,3,0,0,0,1453],
-"classMR_1_1__InOptConst__Vector__Int__MRVertId.html#a1480b2d3fb363cc0ea135e90201f27be":[6,3,0,0,0,1453,0]
+"classMR_1_1__InOptConst__Vector__Int__MRVertId.html":[6,3,0,0,0,1453]
 };

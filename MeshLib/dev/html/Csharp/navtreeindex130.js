@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1Std_1_1__InOptConst__Pair__MREdgeId__MREdgeId.html":[6,3,0,0,0,3803,422],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRFace2RegionMap__Int.html":[6,3,0,0,0,3803,423],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRFaceBitSet__Int.html":[6,3,0,0,0,3803,424],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRFaceBitSet__MRFaceBitSet.html":[6,3,0,0,0,3803,425],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1Std_1_1__InOptConst__Vector__StdArrayStdFilesystemPath4.html":[6,3,0,0,0,3803,570],
 "classMR_1_1Std_1_1__InOptConst__Vector__StdFilesystemPath.html":[6,3,0,0,0,3803,571],
 "classMR_1_1Std_1_1__InOptConst__Vector__StdPairDoubleInt.html":[6,3,0,0,0,3803,572],
-"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMREdgeIdMREdgeId.html":[6,3,0,0,0,3803,573],
-"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMRUint64TMRUint64T.html":[6,3,0,0,0,3803,574]
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMREdgeIdMREdgeId.html":[6,3,0,0,0,3803,573]
 };

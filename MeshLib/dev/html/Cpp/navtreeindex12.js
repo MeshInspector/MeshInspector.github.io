@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRTupleBindings_8h.html":[6,0,3,0,0,1,4,397],
 "MRTupleBindings_8h.html#a01413673c815bd0bfc3dea53829bb94b":[6,0,3,0,0,1,4,397,10],
 "MRTupleBindings_8h.html#a27575a581409754718e3440d21583420":[6,0,3,0,0,1,4,397,11],
 "MRTupleBindings_8h.html#a28ca9a61313c194fdd1d8bd54eb71cbc":[6,0,3,0,0,1,4,397,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRViewerFwd_8h.html#a86f52f96ec63151904d02607a5519085":[6,0,3,0,0,1,10,153,1],
 "MRViewerFwd_8h.html#aab87250b45207cc9942d0f5a85d6cf58":[6,0,3,0,0,1,10,153,0],
 "MRViewerFwd_8h_source.html":[6,0,3,0,0,1,10,153],
-"MRViewerInstance_8h.html":[6,0,3,0,0,1,10,154],
-"MRViewerInstance_8h.html#a3e7c908172571071d6796d054d25a4f4":[6,0,3,0,0,1,10,154,0]
+"MRViewerInstance_8h.html":[6,0,3,0,0,1,10,154]
 };

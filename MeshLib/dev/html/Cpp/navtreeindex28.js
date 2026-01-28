@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ObjectPoints.html#a5db89a163369e231e01829cf5feb00f2":[6,0,0,11,10,43],
 "classMR_1_1ObjectPoints.html#a5e0f48869701f07cc24d3ce1cb122a5a":[6,0,0,11,10,28],
 "classMR_1_1ObjectPoints.html#a5e7e1323b3a2ea009503da07c53ccd3d":[6,0,0,11,10,57],
 "classMR_1_1ObjectPoints.html#a611e4b5689b4c0653b156919a7853b88":[6,0,0,11,10,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1Palette.html#a1db62c44796f0e849665e352c9d02f61":[6,0,1,0,1,248,36],
 "classMR_1_1Palette.html#a1db62c44796f0e849665e352c9d02f61":[6,0,2,0,2,220,36],
 "classMR_1_1Palette.html#a226cbd1fa34656e41eb50cb0ee6d4e4a":[6,0,1,0,1,248,43],
-"classMR_1_1Palette.html#a226cbd1fa34656e41eb50cb0ee6d4e4a":[6,0,2,0,2,220,43],
-"classMR_1_1Palette.html#a342d665441236e2eced9976b08c7e025":[6,0,1,0,1,248,7]
+"classMR_1_1Palette.html#a226cbd1fa34656e41eb50cb0ee6d4e4a":[6,0,2,0,2,220,43]
 };

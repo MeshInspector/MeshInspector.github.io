@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,83],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,2,55],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,83,0],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,2,55,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeXfAction.html#ae815e9391aa0939f6e52ef2fa566b74e":[6,0,0,4,35,4],
 "classMR_1_1CircleObject.html":[6,0,0,11,0,0],
 "classMR_1_1CircleObject.html#a017f7698e351617036f9cdae6d9c5c85":[6,0,0,11,0,0,47],
-"classMR_1_1CircleObject.html#a03a20ed4c23cbe2f92fa47488f4f5294":[6,0,0,11,0,0,5],
-"classMR_1_1CircleObject.html#a03db679e2882af849e9e73fef761f6d6":[6,0,0,11,0,0,35]
+"classMR_1_1CircleObject.html#a03a20ed4c23cbe2f92fa47488f4f5294":[6,0,0,11,0,0,5]
 };

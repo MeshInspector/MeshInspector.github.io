@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[6,0,1,0,1,404,0],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[6,0,2,0,2,376,0],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,1,0,1,404,2],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[6,0,2,0,2,376,2],
 "structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,1,0,1,405],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,1,0,1,44,14,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,2,0,2,20,12,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,1,0,1,44,14,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,2,0,2,20,12,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,1,0,1,44,14,0,1],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,2,0,2,20,12,0,1]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,2,0,2,20,12,0,0]
 };
