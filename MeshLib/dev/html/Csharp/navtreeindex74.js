@@ -1,17 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"classMR_1_1Polynomial__Double__3.html#afd201b7428bfa4b38105a1f0e76419c1":[6,3,0,0,0,3737,1],
-"classMR_1_1Polynomial__Double__4.html":[6,3,0,0,0,3738],
-"classMR_1_1Polynomial__Double__4.html#a3d346a9f035b618192af50e0369cabcf":[6,3,0,0,0,3738,1],
-"classMR_1_1Polynomial__Double__4.html#a775f0ae763a79c303783ed8ca0cab156":[6,3,0,0,0,3738,0],
-"classMR_1_1Polynomial__Double__4.html#a9276dcfe49005bc37307caf4267ebce4":[6,3,0,0,0,3738,2],
-"classMR_1_1Polynomial__Double__5.html":[6,3,0,0,0,3739],
-"classMR_1_1Polynomial__Double__5.html#ab42ba8e5feff2904918435f622daa9e4":[6,3,0,0,0,3739,1],
-"classMR_1_1Polynomial__Double__5.html#ac747fa6793459b6d26f07f829fac4b97":[6,3,0,0,0,3739,2],
-"classMR_1_1Polynomial__Double__5.html#ae3d4c5eed692c66a9ca0bb72b1822bb4":[6,3,0,0,0,3739,0],
-"classMR_1_1Polynomial__Double__6.html":[6,3,0,0,0,3740],
-"classMR_1_1Polynomial__Double__6.html#a09556a6e640be265cf98fc9699285d6f":[6,3,0,0,0,3740,0],
-"classMR_1_1Polynomial__Double__6.html#a7487372022aa084581733e4ee31e758a":[6,3,0,0,0,3740,1],
 "classMR_1_1Polynomial__Double__6.html#a9d4f10b596002747a327b50ab0b45208":[6,3,0,0,0,3740,2],
 "classMR_1_1Polynomial__Float__0.html":[6,3,0,0,0,3741],
 "classMR_1_1Polynomial__Float__0.html#a68989b471d3852dd7e7da9a238bf1a41":[6,3,0,0,0,3741,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX74 =
 "classMR_1_1SimpleBinaryVolume.html#ad8da19ed4dc59475b012cdc7e05f2da1":[6,3,0,0,0,3794,2],
 "classMR_1_1SimpleBinaryVolume.html#ad9e31731391fdffd65fc94baa6316897":[6,3,0,0,0,3794,1],
 "classMR_1_1SimpleVolume.html":[6,3,0,0,0,3795],
-"classMR_1_1SimpleVolume.html#a2d44f5bca33c64867c2be6f25ac01e27":[6,3,0,0,0,3795,2]
+"classMR_1_1SimpleVolume.html#a2d44f5bca33c64867c2be6f25ac01e27":[6,3,0,0,0,3795,2],
+"classMR_1_1SimpleVolume.html#a4b9b8f171cf312b29a9dfbcf95bdada7":[6,3,0,0,0,3795,1],
+"classMR_1_1SimpleVolume.html#a556d3a18400f3338285a47fe6ccf444e":[6,3,0,0,0,3795,0],
+"classMR_1_1SimpleVolume.html#a87d017616f9f4750765b94f17808d596":[6,3,0,0,0,3795,3],
+"classMR_1_1SimpleVolumeMinMax.html":[6,3,0,0,0,3796],
+"classMR_1_1SimpleVolumeMinMax.html#a4819acbe631bef3605a2dc431ce71907":[6,3,0,0,0,3796,0],
+"classMR_1_1SimpleVolumeMinMax.html#a57b9395845a5c83fe7c50fe54cf89a72":[6,3,0,0,0,3796,2],
+"classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911":[6,3,0,0,0,3796,1],
+"classMR_1_1SimpleVolumeMinMax.html#af9aeac3aa596ff28935aed59c300976c":[6,3,0,0,0,3796,3],
+"classMR_1_1SimpleVolumeMinMaxU16.html":[6,3,0,0,0,3797],
+"classMR_1_1SimpleVolumeMinMaxU16.html#a0cdd99fa9e49bfe773d1799d88046ab5":[6,3,0,0,0,3797,0],
+"classMR_1_1SimpleVolumeMinMaxU16.html#a21248d3d5cb2c6ab1f27b5fd46e4184b":[6,3,0,0,0,3797,2],
+"classMR_1_1SimpleVolumeMinMaxU16.html#aaf18ad50cae9f1e115f9e45836163a96":[6,3,0,0,0,3797,1]
 };

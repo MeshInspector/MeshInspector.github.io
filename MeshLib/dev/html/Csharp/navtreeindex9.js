@@ -1,14 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"classMR_1_1Box__ObjVertId.html#ab83804ef79850cbe3d1f04ca0b2ef0ff":[6,3,0,0,0,2531,0],
-"classMR_1_1Box__PixelId.html":[6,3,0,0,0,2532],
-"classMR_1_1Box__PixelId.html#a38daf673297e6e0f0c3ddbf739ffe9f0":[6,3,0,0,0,2532,9],
-"classMR_1_1Box__PixelId.html#a3992e94b1c66f1ce63231a44ffe52c03":[6,3,0,0,0,2532,0],
-"classMR_1_1Box__PixelId.html#a4239fc12f3316fc69c3cdb600070a06e":[6,3,0,0,0,2532,5],
-"classMR_1_1Box__PixelId.html#a5b54b73a756648f2823853cba9bb7a00":[6,3,0,0,0,2532,10],
-"classMR_1_1Box__PixelId.html#a8057cc2382dbdb23911e7b4d6eaab868":[6,3,0,0,0,2532,7],
-"classMR_1_1Box__PixelId.html#aadaed6ec17bb5168a09f62ee49cfcb63":[6,3,0,0,0,2532,3],
-"classMR_1_1Box__PixelId.html#aadca029fe8315d8b9f4ab4aa9b593d1b":[6,3,0,0,0,2532,1],
 "classMR_1_1Box__PixelId.html#ab440f99e58cb761a6735b9ad12a214d6":[6,3,0,0,0,2532,2],
 "classMR_1_1Box__PixelId.html#ac63ef74df385edd35ee38bd8b49beb32":[6,3,0,0,0,2532,8],
 "classMR_1_1Box__PixelId.html#ae3cb4d2a8d01fea00885600e69e0f535":[6,3,0,0,0,2532,4],
@@ -249,5 +240,14 @@ var NAVTREEINDEX9 =
 "classMR_1_1Box__Vector4i.html#a416629c81779e474f1b07768ade38d23":[6,3,0,0,0,2550,10],
 "classMR_1_1Box__Vector4i.html#a6b3cd9c8dca9e79ae582fe8db47cf680":[6,3,0,0,0,2550,8],
 "classMR_1_1Box__Vector4i.html#a812dbfcff8c6ee6f976debe242894676":[6,3,0,0,0,2550,9],
-"classMR_1_1Box__Vector4i.html#a90236558c76cf17725166843e5ee6208":[6,3,0,0,0,2550,3]
+"classMR_1_1Box__Vector4i.html#a90236558c76cf17725166843e5ee6208":[6,3,0,0,0,2550,3],
+"classMR_1_1Box__Vector4i.html#a9746a325ab882a34a91071cd82d3a749":[6,3,0,0,0,2550,2],
+"classMR_1_1Box__Vector4i.html#aa302cac622bd33cd76c5600ce804f461":[6,3,0,0,0,2550,6],
+"classMR_1_1Box__Vector4i64.html":[6,3,0,0,0,2551],
+"classMR_1_1Box__Vector4i64.html#a0ef14806e0012e1770d334a9aa45e2a9":[6,3,0,0,0,2551,5],
+"classMR_1_1Box__Vector4i64.html#a30665c3b0c0c33cb20671f0dbd7617fe":[6,3,0,0,0,2551,11],
+"classMR_1_1Box__Vector4i64.html#a367ca32623034c594332ecc02bbe45e7":[6,3,0,0,0,2551,10],
+"classMR_1_1Box__Vector4i64.html#a661a4ad8ec46284daa3475d7fc5cdc99":[6,3,0,0,0,2551,6],
+"classMR_1_1Box__Vector4i64.html#a7ab76e57380885386dafe9f803a777a1":[6,3,0,0,0,2551,2],
+"classMR_1_1Box__Vector4i64.html#a816680b2da7551052b4f9be8800f861a":[6,3,0,0,0,2551,8]
 };

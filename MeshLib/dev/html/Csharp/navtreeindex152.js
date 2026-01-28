@@ -1,17 +1,5 @@
 var NAVTREEINDEX152 =
 {
-"classMR_1_1__InOptMut__PolylineProjectionResult3Arg.html":[6,3,0,0,0,2145],
-"classMR_1_1__InOptMut__PolylineProjectionWithOffsetResult3.html":[6,3,0,0,0,2146],
-"classMR_1_1__InOptMut__PolylineSubdivideSettings.html":[6,3,0,0,0,2147],
-"classMR_1_1__InOptMut__PolylineToDistanceVolumeParams.html":[6,3,0,0,0,2148],
-"classMR_1_1__InOptMut__PolylineToVolumeParams.html":[6,3,0,0,0,2150],
-"classMR_1_1__InOptMut__PolylineTopology.html":[6,3,0,0,0,2149],
-"classMR_1_1__InOptMut__PolylineTraits__MRVector2f.html":[6,3,0,0,0,2151],
-"classMR_1_1__InOptMut__PolylineTraits__MRVector3f.html":[6,3,0,0,0,2152],
-"classMR_1_1__InOptMut__PolylineUndirectedEdgeIterator.html":[6,3,0,0,0,2153],
-"classMR_1_1__InOptMut__PolynomialWrapper__Double.html":[6,3,0,0,0,2168],
-"classMR_1_1__InOptMut__PolynomialWrapper__Float.html":[6,3,0,0,0,2169],
-"classMR_1_1__InOptMut__Polynomial__Double__0.html":[6,3,0,0,0,2154],
 "classMR_1_1__InOptMut__Polynomial__Double__1.html":[6,3,0,0,0,2155],
 "classMR_1_1__InOptMut__Polynomial__Double__2.html":[6,3,0,0,0,2156],
 "classMR_1_1__InOptMut__Polynomial__Double__3.html":[6,3,0,0,0,2157],
@@ -249,5 +237,17 @@ var NAVTREEINDEX152 =
 "classMR_1_1__InOptMut__ViewportProperty__MRAffineXf3f.html":[6,3,0,0,0,2391],
 "classMR_1_1__InOptMut__ViewportProperty__MRColor.html":[6,3,0,0,0,2392],
 "classMR_1_1__InOptMut__ViewportProperty__MRMatrix3f.html":[6,3,0,0,0,2393],
-"classMR_1_1__InOptMut__ViewportProperty__MRVector4UnsignedChar.html":[6,3,0,0,0,2394]
+"classMR_1_1__InOptMut__ViewportProperty__MRVector4UnsignedChar.html":[6,3,0,0,0,2394],
+"classMR_1_1__InOptMut__ViewportProperty__MRXfBasedCacheMRBox3f.html":[6,3,0,0,0,2395],
+"classMR_1_1__InOptMut__ViewportProperty__UnsignedChar.html":[6,3,0,0,0,2396],
+"classMR_1_1__InOptMut__VisualObject.html":[6,3,0,0,0,2397],
+"classMR_1_1__InOptMut__VolumeIndexer.html":[6,3,0,0,0,2398],
+"classMR_1_1__InOptMut__VolumeSegmentationParameters.html":[6,3,0,0,0,2399],
+"classMR_1_1__InOptMut__VolumeSegmenter.html":[6,3,0,0,0,2400],
+"classMR_1_1__InOptMut__VolumeToMeshByPartsSettings.html":[6,3,0,0,0,2401],
+"classMR_1_1__InOptMut__VoxelBitSet.html":[6,3,0,0,0,2402],
+"classMR_1_1__InOptMut__VoxelId.html":[6,3,0,0,0,2403],
+"classMR_1_1__InOptMut__VoxelLocation.html":[6,3,0,0,0,2404],
+"classMR_1_1__InOptMut__VoxelMetricParameters.html":[6,3,0,0,0,2405],
+"classMR_1_1__InOptMut__VoxelTraits__MRFloatGrid.html":[6,3,0,0,0,2414]
 };

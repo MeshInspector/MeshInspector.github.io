@@ -1,17 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"classMR_1_1Phmap_1_1FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aca39aa3300f63fcc3f8fd5103c6a6807":[6,3,0,0,0,3716,85,2],
-"classMR_1_1Phmap_1_1FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#ae73c5ee6ba3d1ce1236640e4eac3771f":[6,3,0,0,0,3716,85,8],
-"classMR_1_1Phmap_1_1FlatHashMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#afe6a53e480a312716c0bedaf9ca6a04c":[6,3,0,0,0,3716,85,7],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html":[6,3,0,0,0,3716,86],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#a2893cab717abc2094a11fcc27f524b7f":[6,3,0,0,0,3716,86,4],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#a4af62a3af12f4689b81765e328bdf62b":[6,3,0,0,0,3716,86,1],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#a5da3fdf75b4948a2abcc6e5b32bf9577":[6,3,0,0,0,3716,86,2],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#a791c99c7ac29a77dcc95bcc5406906d3":[6,3,0,0,0,3716,86,5],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#a9127b3f136999bc67dfa177a85c456b1":[6,3,0,0,0,3716,86,3],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#a959d93825832e753899dc5f89182043d":[6,3,0,0,0,3716,86,6],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#aaa84254cd75a3d2de679a0a22acae3a8":[6,3,0,0,0,3716,86,8],
-"classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#aaca4ac13df31c5e543683bc5458ec186":[6,3,0,0,0,3716,86,0],
 "classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#aad8d72dfbfdf2f06de82909937f19d0d":[6,3,0,0,0,3716,86,7],
 "classMR_1_1Phmap_1_1FlatHashMap__MRNodeId__MRNodeId.html#af92490d446f833bb798edb9cecb85b41":[6,3,0,0,0,3716,86,9],
 "classMR_1_1Phmap_1_1FlatHashMap__MRObjId__MRObjId.html":[6,3,0,0,0,3716,87],
@@ -249,5 +237,17 @@ var NAVTREEINDEX72 =
 "classMR_1_1PixelBitSet.html#ac81e0ed6df0e4e48ea7d2442e68b522d":[6,3,0,0,0,3717,4],
 "classMR_1_1PixelBitSet.html#acf6d64672f5f33f2ea2707d1cf0d13b2":[6,3,0,0,0,3717,9],
 "classMR_1_1PixelBitSet.html#ad628f248986995f7b720e88d38a27ac1":[6,3,0,0,0,3717,26],
-"classMR_1_1PixelBitSet.html#ad80573675b8f90b8aeddfb94b8210848":[6,3,0,0,0,3717,29]
+"classMR_1_1PixelBitSet.html#ad80573675b8f90b8aeddfb94b8210848":[6,3,0,0,0,3717,29],
+"classMR_1_1PixelBitSet.html#ae026ee37521e35e965c2c2a93967b53d":[6,3,0,0,0,3717,25],
+"classMR_1_1PixelBitSet.html#af2483cd161fd89331438cf48695137e1":[6,3,0,0,0,3717,6],
+"classMR_1_1PlanarTriangulation.html":[6,3,0,0,0,3719],
+"classMR_1_1PlanarTriangulation.html#a12b16db47d4de981fcbd2c22d0ca3369":[6,3,0,0,0,3719,14],
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bf":[6,3,0,0,0,3719,4],
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3289297424e01eda5b788c083bbf3147":[6,3,0,0,0,3719,4,1],
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3d0365a27a39c0af183445fc4d932a8a":[6,3,0,0,0,3719,4,0],
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfaffb9356ff2b7da85c75c92fa7ea03b8b":[6,3,0,0,0,3719,4,2],
+"classMR_1_1PlanarTriangulation.html#a284e7bebb8b5ffd5cb288277726bd05d":[6,3,0,0,0,3719,7],
+"classMR_1_1PlanarTriangulation.html#a34a9cb429fb7084527f2f92fc91cb4fb":[6,3,0,0,0,3719,10],
+"classMR_1_1PlanarTriangulation.html#a5deeeab300c5b42ba33450aca60b58f1":[6,3,0,0,0,3719,9],
+"classMR_1_1PlanarTriangulation.html#a9ea2e6b6957cb821ab256a4d93b4879e":[6,3,0,0,0,3719,13]
 };

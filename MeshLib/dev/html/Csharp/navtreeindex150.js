@@ -1,17 +1,5 @@
 var NAVTREEINDEX150 =
 {
-"classMR_1_1__InOptMut__ChangeColoringType.html":[6,3,0,0,0,1643],
-"classMR_1_1__InOptMut__ChangeDualMarchingCubesAction.html":[6,3,0,0,0,1644],
-"classMR_1_1__InOptMut__ChangeFacesColorMapAction.html":[6,3,0,0,0,1645],
-"classMR_1_1__InOptMut__ChangeGridAction.html":[6,3,0,0,0,1646],
-"classMR_1_1__InOptMut__ChangeIsoAction.html":[6,3,0,0,0,1647],
-"classMR_1_1__InOptMut__ChangeLabelAction.html":[6,3,0,0,0,1648],
-"classMR_1_1__InOptMut__ChangeLinesColorMapAction.html":[6,3,0,0,0,1649],
-"classMR_1_1__InOptMut__ChangeMeshAction.html":[6,3,0,0,0,1650],
-"classMR_1_1__InOptMut__ChangeMeshCreasesAction.html":[6,3,0,0,0,1651],
-"classMR_1_1__InOptMut__ChangeMeshDataAction.html":[6,3,0,0,0,1652],
-"classMR_1_1__InOptMut__ChangeMeshEdgeSelectionAction.html":[6,3,0,0,0,1653],
-"classMR_1_1__InOptMut__ChangeMeshFaceSelectionAction.html":[6,3,0,0,0,1654],
 "classMR_1_1__InOptMut__ChangeMeshPointsAction.html":[6,3,0,0,0,1655],
 "classMR_1_1__InOptMut__ChangeMeshTexturePerFaceAction.html":[6,3,0,0,0,1656],
 "classMR_1_1__InOptMut__ChangeMeshTopologyAction.html":[6,3,0,0,0,1657],
@@ -249,5 +237,17 @@ var NAVTREEINDEX150 =
 "classMR_1_1__InOptMut__IPointsProjector.html":[6,3,0,0,0,1903],
 "classMR_1_1__InOptMut__IPointsToMeshProjector.html":[6,3,0,0,0,1904],
 "classMR_1_1__InOptMut__IRenderObject.html":[6,3,0,0,0,1905],
-"classMR_1_1__InOptMut__Id__MRICPElemtTag.html":[6,3,0,0,0,1886]
+"classMR_1_1__InOptMut__Id__MRICPElemtTag.html":[6,3,0,0,0,1886],
+"classMR_1_1__InOptMut__Image.html":[6,3,0,0,0,1890],
+"classMR_1_1__InOptMut__ImproveSamplingSettings.html":[6,3,0,0,0,1891],
+"classMR_1_1__InOptMut__InSphere.html":[6,3,0,0,0,1893],
+"classMR_1_1__InOptMut__InSphereSearchSettings.html":[6,3,0,0,0,1894],
+"classMR_1_1__InOptMut__InTreePathBuilder.html":[6,3,0,0,0,1899],
+"classMR_1_1__InOptMut__InflateSettings.html":[6,3,0,0,0,1892],
+"classMR_1_1__InOptMut__IntersectionPrecomputes2__Double.html":[6,3,0,0,0,1895],
+"classMR_1_1__InOptMut__IntersectionPrecomputes2__Float.html":[6,3,0,0,0,1896],
+"classMR_1_1__InOptMut__IntersectionPrecomputes__Double.html":[6,3,0,0,0,1897],
+"classMR_1_1__InOptMut__IntersectionPrecomputes__Float.html":[6,3,0,0,0,1898],
+"classMR_1_1__InOptMut__IntrinsicDeloneSettings.html":[6,3,0,0,0,1900],
+"classMR_1_1__InOptMut__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum.html":[6,3,0,0,0,1906]
 };

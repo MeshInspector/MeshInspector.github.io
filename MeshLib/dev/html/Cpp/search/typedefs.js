@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['range_0',['Range',['../namespaceMR_1_1BitSetParallel.html#a60790ca97df099f162ff79d253be07f1',1,'MR::BitSetParallel']]],
-  ['reference_1',['reference',['../classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367',1,'MR::SetBitIteratorT::reference'],['../classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e',1,'MR::Buffer::reference'],['../classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff',1,'MR::Vector::reference']]],
-  ['rendersignal_2',['RenderSignal',['../structMR_1_1ViewerSignals.html#ab4cc13259763aa7b86dd1dca2c8e1c02',1,'MR::ViewerSignals']]],
-  ['responsecallback_3',['ResponseCallback',['../classMR_1_1WebRequest.html#a26a56c4ab553b8e362db5721851b02bc',1,'MR::WebRequest']]],
-  ['result_5ftype_4',['result_type',['../structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f',1,'MR::StopOnTrueCombiner']]],
+  ['reference_0',['reference',['../classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367',1,'MR::SetBitIteratorT::reference'],['../classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e',1,'MR::Buffer::reference'],['../classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff',1,'MR::Vector::reference']]],
+  ['rendersignal_1',['RenderSignal',['../structMR_1_1ViewerSignals.html#ab4cc13259763aa7b86dd1dca2c8e1c02',1,'MR::ViewerSignals']]],
+  ['responsecallback_2',['ResponseCallback',['../classMR_1_1WebRequest.html#a26a56c4ab553b8e362db5721851b02bc',1,'MR::WebRequest']]],
+  ['result_5ftype_3',['result_type',['../structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f',1,'MR::StopOnTrueCombiner']]],
   ['facetreetraits3_0',['FaceTreeTraits3',['../group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632',1,'MR']]],
   ['fillcombinemetric_1',['FillCombineMetric',['../group__FillHoleGroup.html#gaf0a9f8a0620df3a7af664ad4c6aab213',1,'MR']]],
   ['filledgemetric_2',['FillEdgeMetric',['../group__FillHoleGroup.html#ga7f292aee02fc8ca7504a114461b74cd5',1,'MR']]],

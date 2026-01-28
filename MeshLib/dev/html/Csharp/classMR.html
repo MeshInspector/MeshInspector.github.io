@@ -200,8 +200,6 @@ Public Types</h2></td></tr>
 <tr class="separator:afb67fe49bcb6006882e7b08e51b2eeff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d52c069a53aab9d22c0f2c4e3f262a2" id="r_a0d52c069a53aab9d22c0f2c4e3f262a2"><td class="memItemLeft" align="right" valign="top"><a id="a0d52c069a53aab9d22c0f2c4e3f262a2" name="a0d52c069a53aab9d22c0f2c4e3f262a2"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>GeodesicPathApprox</b> </td></tr>
 <tr class="separator:a0d52c069a53aab9d22c0f2c4e3f262a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a119ecb93af42f379f5a1462e9f9987ef" id="r_a119ecb93af42f379f5a1462e9f9987ef"><td class="memItemLeft" align="right" valign="top"><a id="a119ecb93af42f379f5a1462e9f9987ef" name="a119ecb93af42f379f5a1462e9f9987ef"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Turn</b> </td></tr>
-<tr class="separator:a119ecb93af42f379f5a1462e9f9987ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e2748a930a13a0cacf2a0a2da1b6e0d" id="r_a0e2748a930a13a0cacf2a0a2da1b6e0d"><td class="memItemLeft" align="right" valign="top"><a id="a0e2748a930a13a0cacf2a0a2da1b6e0d" name="a0e2748a930a13a0cacf2a0a2da1b6e0d"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>FeaturesObjectKind</b> </td></tr>
 <tr class="separator:a0e2748a930a13a0cacf2a0a2da1b6e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24a027691feb30cad77ca6a162d05c58" id="r_a24a027691feb30cad77ca6a162d05c58"><td class="memItemLeft" align="right" valign="top"><a id="a24a027691feb30cad77ca6a162d05c58" name="a24a027691feb30cad77ca6a162d05c58"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>FeaturePropertyKind</b> </td></tr>
@@ -536,11 +534,6 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:aeefd25abc54607bc39e87bf80e80bf04"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm to compute approximately geodesic path  <a href="#aeefd25abc54607bc39e87bf80e80bf04">More...</a><br /></td></tr>
 <tr class="separator:aeefd25abc54607bc39e87bf80e80bf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e14dd18b0dc9305caffdd32f1a13ead" id="r_a8e14dd18b0dc9305caffdd32f1a13ead"><td class="memItemLeft" align="right" valign="top"><a id="a8e14dd18b0dc9305caffdd32f1a13ead" name="a8e14dd18b0dc9305caffdd32f1a13ead"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e14dd18b0dc9305caffdd32f1a13ead">Turn</a> : byte { <b>Leftmost</b> = 0
-, <b>Rightmost</b> = 1
- }</td></tr>
-<tr class="memdesc:a8e14dd18b0dc9305caffdd32f1a13ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">what way a path can follow in case of several alternatives This enum is intended to be boolean. <br /></td></tr>
-<tr class="separator:a8e14dd18b0dc9305caffdd32f1a13ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae320f7cd2796cef03d0db13f6d36c2b7" id="r_ae320f7cd2796cef03d0db13f6d36c2b7"><td class="memItemLeft" align="right" valign="top"><a id="ae320f7cd2796cef03d0db13f6d36c2b7" name="ae320f7cd2796cef03d0db13f6d36c2b7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae320f7cd2796cef03d0db13f6d36c2b7">FeaturesObjectKind</a> : int { <br />
 &#160;&#160;<b>Point</b> = 0
 , <b>Line</b> = 1
@@ -2886,10 +2879,6 @@ static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>parseFi
 static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>parsePolygon</b> (string str, <a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> &gt;? vertId, <a class="el" href="classMR_1_1Misc_1_1InOut.html">MR.Misc.InOut</a>&lt; int &gt;? numPoints)</td></tr>
 <tr class="memdesc:a590687549cc1c103e16b3636be3e510c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac1fa5e1ea4cfb0aa1699c742597effe7">MR.parsePolygon</a></code>. <br /></td></tr>
 <tr class="separator:a590687549cc1c103e16b3636be3e510c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e73ed7bf2134fa539fa7f25ad696ec" id="r_a42e73ed7bf2134fa539fa7f25ad696ec"><td class="memItemLeft" align="right" valign="top"><a id="a42e73ed7bf2134fa539fa7f25ad696ec" name="a42e73ed7bf2134fa539fa7f25ad696ec"></a>
-static unsafe <a class="el" href="classMR_1_1Std_1_1StringView.html">MR.Std.StringView</a>&#160;</td><td class="memItemRight" valign="bottom"><b>parseBom</b> (string str)</td></tr>
-<tr class="memdesc:a42e73ed7bf2134fa539fa7f25ad696ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7675760309d4cf587def9a30530afeea">MR.parseBom</a></code>. <br /></td></tr>
-<tr class="separator:a42e73ed7bf2134fa539fa7f25ad696ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa152b3ec9f662583d3467e89ea104bed" id="r_aa152b3ec9f662583d3467e89ea104bed"><td class="memItemLeft" align="right" valign="top"><a id="aa152b3ec9f662583d3467e89ea104bed" name="aa152b3ec9f662583d3467e89ea104bed"></a>
 static MR.DepthFunction&#160;</td><td class="memItemRight" valign="bottom"><b>bitand</b> (MR.DepthFunction a, MR.DepthFunction b)</td></tr>
 <tr class="memdesc:aa152b3ec9f662583d3467e89ea104bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator&amp;</code>. <br /></td></tr>
@@ -4869,12 +4858,6 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__MREdgeId.html">MR.St
 static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__MREdgeId.html">MR.Std.Vector_MREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>trackRightBoundaryLoop</b> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> region, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e0)</td></tr>
 <tr class="memdesc:a359598239342b0824d057c5ef2581b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a10723dc5e9c17648ce207691c6c0f547">MR.trackRightBoundaryLoop</a></code>. <br /></td></tr>
 <tr class="separator:a359598239342b0824d057c5ef2581b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20bd5b1dda9985eef5f03c31d7000efa" id="r_a20bd5b1dda9985eef5f03c31d7000efa"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20bd5b1dda9985eef5f03c31d7000efa">extractPath</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e0, <a class="el" href="classMR_1_1EdgeBitSet.html">MR.EdgeBitSet</a> edges, <a class="el" href="classMR_1_1Std_1_1Vector__MREdgeId.html">MR.Std.Vector_MREdgeId</a>? outPath, MR.Turn turn)</td></tr>
-<tr class="memdesc:a20bd5b1dda9985eef5f03c31d7000efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">track the path of edges with set bits in (edges) starting from (e0);  <br /></td></tr>
-<tr class="separator:a20bd5b1dda9985eef5f03c31d7000efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a451406457011cbd3eade54ec90d15acb" id="r_a451406457011cbd3eade54ec90d15acb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a451406457011cbd3eade54ec90d15acb">extractAllLoops</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1EdgeBitSet.html">MR.EdgeBitSet</a> edges, MR.Turn turn)</td></tr>
-<tr class="memdesc:a451406457011cbd3eade54ec90d15acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">tracks are returns all closed loops of edges from the given bit set; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on  <br /></td></tr>
-<tr class="separator:a451406457011cbd3eade54ec90d15acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48f70793bfb4df5aa6055341a781b594" id="r_a48f70793bfb4df5aa6055341a781b594"><td class="memItemLeft" align="right" valign="top"><a id="a48f70793bfb4df5aa6055341a781b594" name="a48f70793bfb4df5aa6055341a781b594"></a>
 static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findLeftBoundary</b> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
 <tr class="memdesc:a48f70793bfb4df5aa6055341a781b594"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all region boundary loops; every loop has region faces on the left, and not-region faces or holes on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1fc4b7cc580d42260b45c0af3ff2fd12">MR.findLeftBoundary</a></code>. <br /></td></tr>
@@ -4883,9 +4866,6 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.ht
 static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findRightBoundary</b> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
 <tr class="memdesc:a35a5ff193dcf904c851c3d36add52fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all region boundary loops; every loop has region faces on the right, and not-region faces or holes on the left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR.findRightBoundary</a></code>. <br /></td></tr>
 <tr class="separator:a35a5ff193dcf904c851c3d36add52fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56fdd3f5cef465728cf70ad07362093" id="r_ad56fdd3f5cef465728cf70ad07362093"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1EdgeBitSet.html">MR.EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad56fdd3f5cef465728cf70ad07362093">findAllLeftBdEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region, bool? innerMeshEdgesOnly=null)</td></tr>
-<tr class="memdesc:ad56fdd3f5cef465728cf70ad07362093"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all edges (e) for which topology.isLeftBdEdge( e, region ) is true;  <br /></td></tr>
-<tr class="separator:ad56fdd3f5cef465728cf70ad07362093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4239fd9cc6a065405e0fa4b4b80e7f36" id="r_a4239fd9cc6a065405e0fa4b4b80e7f36"><td class="memItemLeft" align="right" valign="top"><a id="a4239fd9cc6a065405e0fa4b4b80e7f36" name="a4239fd9cc6a065405e0fa4b4b80e7f36"></a>
 static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>delRegionKeepBd</b> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, bool? keepLoneHoles=null)</td></tr>
 <tr class="memdesc:a4239fd9cc6a065405e0fa4b4b80e7f36"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes all region faces, inner edges and vertices, but keeps boundary edges and vertices of the region (or whole mesh if region is null); if <code>keepLoneHoles</code> is set - keeps boundary even if it has no valid faces on other side returns edge loops, each having deleted region faces on the left, and not-region faces or holes on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#adacfce1ed3976c8879c40d3eb35423cf">MR.delRegionKeepBd</a></code>. Parameter <code>keepLoneHoles</code> defaults to <code>false</code>. <br /></td></tr>
@@ -5488,20 +5468,12 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.ht
 <tr class="separator:a32bcc8e0215d7456390936de2837227b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf12b860959be4155aeb8aa7fef6f13e" id="r_aaf12b860959be4155aeb8aa7fef6f13e"><td class="memItemLeft" align="right" valign="top"><a id="aaf12b860959be4155aeb8aa7fef6f13e" name="aaf12b860959be4155aeb8aa7fef6f13e"></a>
 static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__MREdgeId.html">MR.Std.Vector_MREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findSmallestMetricCoLoop</b> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Std_1_1Const__Vector__MREdgeId.html">MR.Std.Const_Vector_MREdgeId</a> loop, <a class="el" href="classMR_1_1Std_1_1Const__Function__FloatFuncFromMREdgeId.html">MR.Std.Const_Function_FloatFuncFromMREdgeId</a> metric, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
-<tr class="memdesc:aaf12b860959be4155aeb8aa7fef6f13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given not-separating loop on input, finds the loop (also not-separation) that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc">MR.findSmallestMetricCoLoop</a></code>. <br /></td></tr>
+<tr class="memdesc:aaf12b860959be4155aeb8aa7fef6f13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given not-trivial loop on input, finds the loop that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc">MR.findSmallestMetricCoLoop</a></code>. <br /></td></tr>
 <tr class="separator:aaf12b860959be4155aeb8aa7fef6f13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab18c3d680d5c9c23e988d7dead8b7c8a" id="r_ab18c3d680d5c9c23e988d7dead8b7c8a"><td class="memItemLeft" align="right" valign="top"><a id="ab18c3d680d5c9c23e988d7dead8b7c8a" name="ab18c3d680d5c9c23e988d7dead8b7c8a"></a>
 static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__MREdgeId.html">MR.Std.Vector_MREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findShortestCoLoop</b> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Std_1_1Const__Vector__MREdgeId.html">MR.Std.Const_Vector_MREdgeId</a> loop)</td></tr>
 <tr class="memdesc:ab18c3d680d5c9c23e988d7dead8b7c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as findMinimalCoLoop with euclidean edge length metric Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#gad2b33a572c4859f4df4922d782d63598">MR.findShortestCoLoop</a></code>. <br /></td></tr>
 <tr class="separator:ab18c3d680d5c9c23e988d7dead8b7c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaf026178c7ccbe2c7d27a8064daa553" id="r_afaf026178c7ccbe2c7d27a8064daa553"><td class="memItemLeft" align="right" valign="top"><a id="afaf026178c7ccbe2c7d27a8064daa553" name="afaf026178c7ccbe2c7d27a8064daa553"></a>
-static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findSmallestMetricEquivalentLoops</b> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Std_1_1Const__Vector__MREdgeId.html">MR.Std.Const_Vector_MREdgeId</a> loop, <a class="el" href="classMR_1_1Std_1_1Const__Function__FloatFuncFromMREdgeId.html">MR.Std.Const_Function_FloatFuncFromMREdgeId</a> metric, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
-<tr class="memdesc:afaf026178c7ccbe2c7d27a8064daa553"><td class="mdescLeft">&#160;</td><td class="mdescRight">given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga0496ff6c99ea415eaab1b519264edaf0">MR.findSmallestMetricEquivalentLoops</a></code>. <br /></td></tr>
-<tr class="separator:afaf026178c7ccbe2c7d27a8064daa553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495179015bfa8aba5ea3d7f98b4df030" id="r_a495179015bfa8aba5ea3d7f98b4df030"><td class="memItemLeft" align="right" valign="top"><a id="a495179015bfa8aba5ea3d7f98b4df030" name="a495179015bfa8aba5ea3d7f98b4df030"></a>
-static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>findShortestEquivalentLoops</b> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Std_1_1Const__Vector__MREdgeId.html">MR.Std.Const_Vector_MREdgeId</a> loop)</td></tr>
-<tr class="memdesc:a495179015bfa8aba5ea3d7f98b4df030"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga0496ff6c99ea415eaab1b519264edaf0">findSmallestMetricEquivalentLoops</a> with euclidean edge length metric Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga58a1b7a9d6de56cf7751d0509ef04452">MR.findShortestEquivalentLoops</a></code>. <br /></td></tr>
-<tr class="separator:a495179015bfa8aba5ea3d7f98b4df030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2c051d5fe722dc318afb98df86962b" id="r_aeb2c051d5fe722dc318afb98df86962b"><td class="memItemLeft" align="right" valign="top"><a id="aeb2c051d5fe722dc318afb98df86962b" name="aeb2c051d5fe722dc318afb98df86962b"></a>
 static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>detectTunnelFaces</b> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__DetectTunnelSettings.html">MR.Const_DetectTunnelSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:aeb2c051d5fe722dc318afb98df86962b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns tunnels as a number of faces; if you remove these faces and patch every boundary with disk, then the surface will be topology equivalent to sphere Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c">MR.detectTunnelFaces</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
@@ -9718,101 +9690,6 @@ After</div></div>
 
 </div>
 </div>
-<a id="a451406457011cbd3eade54ec90d15acb" name="a451406457011cbd3eade54ec90d15acb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a451406457011cbd3eade54ec90d15acb">&#9670;&#160;</a></span>extractAllLoops()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__StdVectorMREdgeId.html">MR.Std.Vector_StdVectorMREdgeId</a> MR.extractAllLoops </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1EdgeBitSet.html">MR.EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>edges</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MR.Turn</td>          <td class="paramname"><span class="paramname"><em>turn</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>tracks are returns all closed loops of edges from the given bit set; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">turn;</td><td>the bits corresponding to loops are reset in (edges), and to remaining not-closed paths are kept Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6b0c6bd48617b081f8c4e35ca00e873a">MR.extractAllLoops</a></code>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a20bd5b1dda9985eef5f03c31d7000efa" name="a20bd5b1dda9985eef5f03c31d7000efa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20bd5b1dda9985eef5f03c31d7000efa">&#9670;&#160;</a></span>extractPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> MR.extractPath </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1EdgeBitSet.html">MR.EdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>edges</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Std_1_1Vector__MREdgeId.html">MR.Std.Vector_MREdgeId</a>?</td>          <td class="paramname"><span class="paramname"><em>outPath</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MR.Turn</td>          <td class="paramname"><span class="paramname"><em>turn</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>track the path of edges with set bits in (edges) starting from (e0); </p>
-<dl class="section return"><dt>Returns</dt><dd>the last edge of the path or invalid edge if e0's bit in (edge) was reset; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">turn;</td><td>the bits in (edges) for tracked path edges are reset Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a646cb17e45dd4e0d253cd4bb3780c8d1">MR.extractPath</a></code>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a0e458a2f8fa7f03be3fa1dbfbd5392c2" name="a0e458a2f8fa7f03be3fa1dbfbd5392c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e458a2f8fa7f03be3fa1dbfbd5392c2">&#9670;&#160;</a></span>extractSectionsFromPolyline()</h2>
 
@@ -10256,48 +10133,6 @@ Trivial fill with smooth</div></div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>pair (anything removed, how many removed before firstRedoIndex) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">MR.filterHistoryActionsVector</a></code>. Parameter <code>firstRedoIndex</code> defaults to <code>0</code>. Parameter <code>deepFiltering</code> defaults to <code>true</code>. </dd></dl>
-
-</div>
-</div>
-<a id="ad56fdd3f5cef465728cf70ad07362093" name="ad56fdd3f5cef465728cf70ad07362093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56fdd3f5cef465728cf70ad07362093">&#9670;&#160;</a></span>findAllLeftBdEdges()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static unsafe <a class="el" href="classMR_1_1EdgeBitSet.html">MR.EdgeBitSet</a> MR.findAllLeftBdEdges </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>innerMeshEdgesOnly</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns all edges (e) for which topology.isLeftBdEdge( e, region ) is true; </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">innerMeshEdgesOnly</td><td>if true then edges with no right face are excluded Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7f3c7f8578e17b8c8dba8eb34d687df9">MR.findAllLeftBdEdges</a></code>. Parameter <code>innerMeshEdgesOnly</code> defaults to <code>false</code>. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

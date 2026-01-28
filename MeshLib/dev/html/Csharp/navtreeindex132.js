@@ -1,17 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"classMR_1_1Std_1_1__InOptMut__Vector__MRICPGroupPair.html":[6,3,0,0,0,3803,824],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRICPGroupPairs.html":[6,3,0,0,0,3803,825],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRIOFilter.html":[6,3,0,0,0,3803,827],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRIdMRICPElemtTag.html":[6,3,0,0,0,3803,826],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRLine3MeshDouble.html":[6,3,0,0,0,3803,828],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRLine3MeshFloat.html":[6,3,0,0,0,3803,829],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRLineSegm3f.html":[6,3,0,0,0,3803,830],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRMesh.html":[6,3,0,0,0,3803,831],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRMeshBuilderMeshPiece.html":[6,3,0,0,0,3803,832],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRMeshBuilderVertDuplication.html":[6,3,0,0,0,3803,833],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRMeshBuilderVertSpan.html":[6,3,0,0,0,3803,834],
-"classMR_1_1Std_1_1__InOptMut__Vector__MRMeshIntersectionResult.html":[6,3,0,0,0,3803,835],
 "classMR_1_1Std_1_1__InOptMut__Vector__MRMeshLoadNamedMesh.html":[6,3,0,0,0,3803,836],
 "classMR_1_1Std_1_1__InOptMut__Vector__MRMeshOrPointsXf.html":[6,3,0,0,0,3803,837],
 "classMR_1_1Std_1_1__InOptMut__Vector__MRMeshProjectionResult.html":[6,3,0,0,0,3803,838],
@@ -249,5 +237,17 @@ var NAVTREEINDEX132 =
 "classMR_1_1SymMatrix4__UnsignedChar.html#a5d6435960eaca345ef9f09b31b678b85":[6,3,0,0,0,3815,3],
 "classMR_1_1SymMatrix4__UnsignedChar.html#a710c951335981b68e52bf72b4cc05aa7":[6,3,0,0,0,3815,7],
 "classMR_1_1SymMatrix4__UnsignedChar.html#a9201793d07dd8b75df113322747b9a82":[6,3,0,0,0,3815,12],
-"classMR_1_1SymMatrix4__UnsignedChar.html#aa522f85b305081bea5f6668316c41ddd":[6,3,0,0,0,3815,8]
+"classMR_1_1SymMatrix4__UnsignedChar.html#aa522f85b305081bea5f6668316c41ddd":[6,3,0,0,0,3815,8],
+"classMR_1_1SymMatrix4__UnsignedChar.html#aa94d71ec862918a0eb78578623deca97":[6,3,0,0,0,3815,14],
+"classMR_1_1SymMatrix4__UnsignedChar.html#abdd668c5a9a0e004bcc2dc0ecd9108c8":[6,3,0,0,0,3815,6],
+"classMR_1_1SymMatrix4__UnsignedChar.html#ac9c76ee90e6ce3963f3a6fa27d9207e5":[6,3,0,0,0,3815,10],
+"classMR_1_1SymMatrix4__UnsignedChar.html#ae0c67503a62099ab9cb21faad4b6e9fe":[6,3,0,0,0,3815,0],
+"classMR_1_1SymMatrix4__UnsignedChar.html#ae223c73900d3c2d09794c30edbaf22d9":[6,3,0,0,0,3815,9],
+"classMR_1_1SymMatrix4__UnsignedChar.html#aec1d5e18ca565fae2f680dcfae57a84e":[6,3,0,0,0,3815,5],
+"classMR_1_1SymMatrix4__UnsignedChar.html#aef0b053caa5fb9d3bcbfe12beeeeaa27":[6,3,0,0,0,3815,1],
+"classMR_1_1SymMatrix4__UnsignedChar.html#af1faa0c3f64c8991a7fafa937954ff9f":[6,3,0,0,0,3815,13],
+"classMR_1_1SymMatrix4__UnsignedChar.html#af7ad727ddfc2c8cd9d243bfe3e0d63d1":[6,3,0,0,0,3815,2],
+"classMR_1_1SymMatrix4b.html":[6,3,0,0,0,3816],
+"classMR_1_1SymMatrix4b.html#a092fccc6c2cc1061675d6a0ec8158e68":[6,3,0,0,0,3816,15],
+"classMR_1_1SymMatrix4b.html#a1620eb3be76e866ab59130356a162a55":[6,3,0,0,0,3816,6]
 };

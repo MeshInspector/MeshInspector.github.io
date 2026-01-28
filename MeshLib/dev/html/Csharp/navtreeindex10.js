@@ -1,14 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"classMR_1_1Box__Vector4i.html#a9746a325ab882a34a91071cd82d3a749":[6,3,0,0,0,2550,2],
-"classMR_1_1Box__Vector4i.html#aa302cac622bd33cd76c5600ce804f461":[6,3,0,0,0,2550,6],
-"classMR_1_1Box__Vector4i64.html":[6,3,0,0,0,2551],
-"classMR_1_1Box__Vector4i64.html#a0ef14806e0012e1770d334a9aa45e2a9":[6,3,0,0,0,2551,5],
-"classMR_1_1Box__Vector4i64.html#a30665c3b0c0c33cb20671f0dbd7617fe":[6,3,0,0,0,2551,11],
-"classMR_1_1Box__Vector4i64.html#a367ca32623034c594332ecc02bbe45e7":[6,3,0,0,0,2551,10],
-"classMR_1_1Box__Vector4i64.html#a661a4ad8ec46284daa3475d7fc5cdc99":[6,3,0,0,0,2551,6],
-"classMR_1_1Box__Vector4i64.html#a7ab76e57380885386dafe9f803a777a1":[6,3,0,0,0,2551,2],
-"classMR_1_1Box__Vector4i64.html#a816680b2da7551052b4f9be8800f861a":[6,3,0,0,0,2551,8],
 "classMR_1_1Box__Vector4i64.html#a81ebdf6b91988b271cccdb72fc241c03":[6,3,0,0,0,2551,3],
 "classMR_1_1Box__Vector4i64.html#a8edb604768ddbb9fd6026e79707b22ff":[6,3,0,0,0,2551,4],
 "classMR_1_1Box__Vector4i64.html#aa458282e3ef529c2bfd9b29aa57cf0b9":[6,3,0,0,0,2551,7],
@@ -249,5 +240,14 @@ var NAVTREEINDEX10 =
 "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html#a5dd6a3a4fb9e253d0b8de16dcaa5eb9f":[6,3,0,0,0,2575,4,2],
 "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html#a873f94ebba7769b887a2c26611ab92e6":[6,3,0,0,0,2575,4,3],
 "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html#aea25a9fa68a01e0329905753e7bcc8de":[6,3,0,0,0,2575,4,0],
-"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__ByValue__PartialColorMap.html":[6,3,0,0,0,2575,0]
+"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__ByValue__PartialColorMap.html":[6,3,0,0,0,2575,0],
+"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__InOptConst__PartialColorMap.html":[6,3,0,0,0,2575,1],
+"classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__InOptMut__PartialColorMap.html":[6,3,0,0,0,2575,2],
+"classMR_1_1ColorMapAggregator__MRVertTag.html":[6,3,0,0,0,2576],
+"classMR_1_1ColorMapAggregator__MRVertTag.html#a7845fa3cb26a19f858d7d78307774467":[6,3,0,0,0,2576,5],
+"classMR_1_1ColorMapAggregator__MRVertTag.html#a7845fa3cb26a19f858d7d78307774467a6b551379c3c0b59326abdaf3b4395bd3":[6,3,0,0,0,2576,5,0],
+"classMR_1_1ColorMapAggregator__MRVertTag.html#a7845fa3cb26a19f858d7d78307774467a84e358c0cfad27b29c41c888167828f3":[6,3,0,0,0,2576,5,1],
+"classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html":[6,3,0,0,0,2576,3],
+"classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html#a3d39ed38dafed31e07deb0d9a4214e32":[6,3,0,0,0,2576,3,2],
+"classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html#a90d51cb7343141d49b69ce643f9e4ff4":[6,3,0,0,0,2576,3,0]
 };

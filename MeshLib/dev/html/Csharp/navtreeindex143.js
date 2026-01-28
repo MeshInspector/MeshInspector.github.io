@@ -1,17 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"classMR_1_1__ByValueShared__DistanceMeasurementObject.html":[6,3,0,0,0,570],
-"classMR_1_1__ByValueShared__FastWindingNumber.html":[6,3,0,0,0,571],
-"classMR_1_1__ByValueShared__FastWindingNumber.html#a4fb1a6bd0eb7df90635330cda0364309":[6,3,0,0,0,571,0],
-"classMR_1_1__ByValueShared__FeatureObject.html":[6,3,0,0,0,572],
-"classMR_1_1__ByValueShared__HistoryAction.html":[6,3,0,0,0,573],
-"classMR_1_1__ByValueShared__IFastWindingNumber.html":[6,3,0,0,0,574],
-"classMR_1_1__ByValueShared__IPointsToMeshProjector.html":[6,3,0,0,0,575],
-"classMR_1_1__ByValueShared__LineObject.html":[6,3,0,0,0,576],
-"classMR_1_1__ByValueShared__LineObject.html#a0e617c62d49f78ddaa007b8ba6aa42ea":[6,3,0,0,0,576,0],
-"classMR_1_1__ByValueShared__Matrix__Float.html":[6,3,0,0,0,577],
-"classMR_1_1__ByValueShared__MeasurementObject.html":[6,3,0,0,0,578],
-"classMR_1_1__ByValueShared__Mesh.html":[6,3,0,0,0,579],
 "classMR_1_1__ByValueShared__Object.html":[6,3,0,0,0,580],
 "classMR_1_1__ByValueShared__ObjectChildrenHolder.html":[6,3,0,0,0,581],
 "classMR_1_1__ByValueShared__ObjectComparableWithReference.html":[6,3,0,0,0,582],
@@ -249,5 +237,17 @@ var NAVTREEINDEX143 =
 "classMR_1_1__ByValue__Expected__StdVectorMRVertBitSet__StdString.html":[6,3,0,0,0,206],
 "classMR_1_1__ByValue__Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html":[6,3,0,0,0,207],
 "classMR_1_1__ByValue__Expected__StdVectorStdSharedPtrMRObjectVoxels__StdString.html":[6,3,0,0,0,208],
-"classMR_1_1__ByValue__Expected__StdVectorStdString__StdString.html":[6,3,0,0,0,209]
+"classMR_1_1__ByValue__Expected__StdVectorStdString__StdString.html":[6,3,0,0,0,209],
+"classMR_1_1__ByValue__Expected__StdVectorStdVectorMREdgeId__StdString.html":[6,3,0,0,0,210],
+"classMR_1_1__ByValue__Expected__StdVectorStdVectorMRVector2f__StdString.html":[6,3,0,0,0,211],
+"classMR_1_1__ByValue__Expected__StdVectorStdVectorMRVector3f__StdString.html":[6,3,0,0,0,212],
+"classMR_1_1__ByValue__Expected__Void__StdString.html":[6,3,0,0,0,213],
+"classMR_1_1__ByValue__Face2RegionMap.html":[6,3,0,0,0,214],
+"classMR_1_1__ByValue__Face2RegionMap.html#a99955ae5b142f1220db9917699411d16":[6,3,0,0,0,214,0],
+"classMR_1_1__ByValue__FaceBMap.html":[6,3,0,0,0,216],
+"classMR_1_1__ByValue__FaceBitSet.html":[6,3,0,0,0,215],
+"classMR_1_1__ByValue__FaceColorMapAggregator.html":[6,3,0,0,0,217],
+"classMR_1_1__ByValue__FaceColors.html":[6,3,0,0,0,218],
+"classMR_1_1__ByValue__FaceColors.html#a8d990d2f04fb130e54fcef9ae39a4449":[6,3,0,0,0,218,0],
+"classMR_1_1__ByValue__FaceDistancesSettings.html":[6,3,0,0,0,219]
 };

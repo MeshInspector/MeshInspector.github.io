@@ -1,17 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"classMR_1_1VoxelsLoad_1_1__ByValue__DicomStatus.html":[6,3,0,0,0,15,0],
-"classMR_1_1VoxelsLoad_1_1__ByValue__DicomVolume.html":[6,3,0,0,0,15,1],
-"classMR_1_1VoxelsLoad_1_1__ByValue__DicomVolumeAsVdb.html":[6,3,0,0,0,15,2],
-"classMR_1_1VoxelsLoad_1_1__ByValue__LoadingTiffSettings.html":[6,3,0,0,0,15,3],
-"classMR_1_1VoxelsLoad_1_1__InOptConst__DicomStatus.html":[6,3,0,0,0,15,4],
-"classMR_1_1VoxelsLoad_1_1__InOptConst__DicomVolume.html":[6,3,0,0,0,15,5],
-"classMR_1_1VoxelsLoad_1_1__InOptConst__DicomVolumeAsVdb.html":[6,3,0,0,0,15,6],
-"classMR_1_1VoxelsLoad_1_1__InOptConst__LoadingTiffSettings.html":[6,3,0,0,0,15,7],
-"classMR_1_1VoxelsLoad_1_1__InOptConst__RawParameters.html":[6,3,0,0,0,15,8],
-"classMR_1_1VoxelsLoad_1_1__InOptMut__DicomStatus.html":[6,3,0,0,0,15,9],
-"classMR_1_1VoxelsLoad_1_1__InOptMut__DicomVolume.html":[6,3,0,0,0,15,10],
-"classMR_1_1VoxelsLoad_1_1__InOptMut__DicomVolumeAsVdb.html":[6,3,0,0,0,15,11],
 "classMR_1_1VoxelsLoad_1_1__InOptMut__LoadingTiffSettings.html":[6,3,0,0,0,15,12],
 "classMR_1_1VoxelsLoad_1_1__InOptMut__RawParameters.html":[6,3,0,0,0,15,13],
 "classMR_1_1VoxelsSave.html":[6,3,0,0,0,3927],
@@ -249,5 +237,17 @@ var NAVTREEINDEX142 =
 "classMR_1_1__ByValueShared__CylinderObject.html":[6,3,0,0,0,568],
 "classMR_1_1__ByValueShared__CylinderObject.html#a3f9c74176ca49001d67ccc8e45e7e8b9":[6,3,0,0,0,568,0],
 "classMR_1_1__ByValueShared__DistanceMap.html":[6,3,0,0,0,569],
-"classMR_1_1__ByValueShared__DistanceMap.html#abc80308a3943b09b871b74dd7c49a01f":[6,3,0,0,0,569,0]
+"classMR_1_1__ByValueShared__DistanceMap.html#abc80308a3943b09b871b74dd7c49a01f":[6,3,0,0,0,569,0],
+"classMR_1_1__ByValueShared__DistanceMeasurementObject.html":[6,3,0,0,0,570],
+"classMR_1_1__ByValueShared__FastWindingNumber.html":[6,3,0,0,0,571],
+"classMR_1_1__ByValueShared__FastWindingNumber.html#a4fb1a6bd0eb7df90635330cda0364309":[6,3,0,0,0,571,0],
+"classMR_1_1__ByValueShared__FeatureObject.html":[6,3,0,0,0,572],
+"classMR_1_1__ByValueShared__HistoryAction.html":[6,3,0,0,0,573],
+"classMR_1_1__ByValueShared__IFastWindingNumber.html":[6,3,0,0,0,574],
+"classMR_1_1__ByValueShared__IPointsToMeshProjector.html":[6,3,0,0,0,575],
+"classMR_1_1__ByValueShared__LineObject.html":[6,3,0,0,0,576],
+"classMR_1_1__ByValueShared__LineObject.html#a0e617c62d49f78ddaa007b8ba6aa42ea":[6,3,0,0,0,576,0],
+"classMR_1_1__ByValueShared__Matrix__Float.html":[6,3,0,0,0,577],
+"classMR_1_1__ByValueShared__MeasurementObject.html":[6,3,0,0,0,578],
+"classMR_1_1__ByValueShared__Mesh.html":[6,3,0,0,0,579]
 };

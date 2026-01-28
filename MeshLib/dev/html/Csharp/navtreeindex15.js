@@ -1,14 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classMR_1_1ConstBox__Matrix4i.html#a9a59deb9d92e8088e2416c0f3e04c17b":[6,3,0,0,0,3431,24],
-"classMR_1_1ConstBox__Matrix4i.html#ab02cb7ab4d5f672e4f2252689328babd":[6,3,0,0,0,3431,22],
-"classMR_1_1ConstBox__Matrix4i.html#ab6c4431067036a8fbd24ef0319fad564":[6,3,0,0,0,3431,16],
-"classMR_1_1ConstBox__Matrix4i.html#ac1a1e55dbc6c262032d36cb2de69d43f":[6,3,0,0,0,3431,1],
-"classMR_1_1ConstBox__Matrix4i.html#ac82ad2d9c834f97a003e0d2d736d446c":[6,3,0,0,0,3431,8],
-"classMR_1_1ConstBox__Matrix4i.html#ac8a6e9fa0d000d540b6b03a54cec8de3":[6,3,0,0,0,3431,0],
-"classMR_1_1ConstBox__Matrix4i.html#ad3c0816ce3bc810adfae3e2884015ebd":[6,3,0,0,0,3431,30],
-"classMR_1_1ConstBox__Matrix4i.html#ad85f9856ad0777b5007d068c042abe23":[6,3,0,0,0,3431,26],
-"classMR_1_1ConstBox__Matrix4i.html#aec7fdca2ebe4f1c8209b7c7e3c808e3d":[6,3,0,0,0,3431,6],
 "classMR_1_1ConstBox__Matrix4i.html#af260cd3430cfabfefdab06e885ae2bfa":[6,3,0,0,0,3431,4],
 "classMR_1_1ConstBox__Matrix4i.html#af7779a566428a18a49773ecfd3af0368":[6,3,0,0,0,3431,2],
 "classMR_1_1ConstBox__Matrix4i.html#afd99d267658c2b60f65b7dda8ef1f2ef":[6,3,0,0,0,3431,25],
@@ -249,5 +240,14 @@ var NAVTREEINDEX15 =
 "classMR_1_1ConstBox__Vector2i.html#aebe337afe85c3127615f5bd8d7f78c6d":[6,3,0,0,0,3443,10],
 "classMR_1_1ConstBox__Vector2i.html#aee5e28394f5d07365976883c4f1dd634":[6,3,0,0,0,3443,5],
 "classMR_1_1ConstBox__Vector2i.html#aefd03c9e9250f22da50c5014b7ae3567":[6,3,0,0,0,3443,12],
-"classMR_1_1ConstBox__Vector2i64.html":[6,3,0,0,0,3444]
+"classMR_1_1ConstBox__Vector2i64.html":[6,3,0,0,0,3444],
+"classMR_1_1ConstBox__Vector2i64.html#a47fbe7433630f56ea9835f7b8bf8c2a4":[6,3,0,0,0,3444,3],
+"classMR_1_1ConstBox__Vector2i64.html#a4a933497e972d37c6a71f0ba31f69e6c":[6,3,0,0,0,3444,17],
+"classMR_1_1ConstBox__Vector2i64.html#a5490b59e259deec8eeb55de2d96af3ac":[6,3,0,0,0,3444,22],
+"classMR_1_1ConstBox__Vector2i64.html#a54c5de5282203aea43616da5e3b9eb5d":[6,3,0,0,0,3444,24],
+"classMR_1_1ConstBox__Vector2i64.html#a56a0e4eec4b1ee3acdb69591c120cce8":[6,3,0,0,0,3444,11],
+"classMR_1_1ConstBox__Vector2i64.html#a5a3e26ad5d9d6727289a991a1dd7171d":[6,3,0,0,0,3444,21],
+"classMR_1_1ConstBox__Vector2i64.html#a5a85d9599f3b1cf7c224df255c2593d0":[6,3,0,0,0,3444,13],
+"classMR_1_1ConstBox__Vector2i64.html#a6813ffc2b7ddc57f6f57db1cf89d865e":[6,3,0,0,0,3444,7],
+"classMR_1_1ConstBox__Vector2i64.html#a76e4be69fb44523cbce1d75df4f740cd":[6,3,0,0,0,3444,10]
 };

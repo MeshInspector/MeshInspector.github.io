@@ -1,14 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"classMR_1_1Expected__MROneMeshContour__StdString.html":[6,3,0,0,0,3519],
-"classMR_1_1Expected__MROneMeshContour__StdString.html#a00c69bd8e9395434620b838ac87d7fcb":[6,3,0,0,0,3519,4],
-"classMR_1_1Expected__MROneMeshContour__StdString.html#a324b5ee06601e258fcd95e3ca1feabab":[6,3,0,0,0,3519,1],
-"classMR_1_1Expected__MROneMeshContour__StdString.html#a5205d3dbbdc380f3435c5234d70ed478":[6,3,0,0,0,3519,0],
-"classMR_1_1Expected__MROneMeshContour__StdString.html#ad9c120ec375334c32c59994ec0f9486b":[6,3,0,0,0,3519,2],
-"classMR_1_1Expected__MROneMeshContour__StdString.html#ae0d8ba034d07462a005ee184d6a7b636":[6,3,0,0,0,3519,3],
-"classMR_1_1Expected__MRPackMapping__StdString.html":[6,3,0,0,0,3520],
-"classMR_1_1Expected__MRPackMapping__StdString.html#a31c2e31aec0638fe2768e7500b091c69":[6,3,0,0,0,3520,3],
-"classMR_1_1Expected__MRPackMapping__StdString.html#a77710b5750420a227ac978524bf644ea":[6,3,0,0,0,3520,0],
 "classMR_1_1Expected__MRPackMapping__StdString.html#a9d1167b5304a0920f83ab9958f8a453f":[6,3,0,0,0,3520,2],
 "classMR_1_1Expected__MRPackMapping__StdString.html#ad63873252f30c634d5d5e50f3382a9bf":[6,3,0,0,0,3520,1],
 "classMR_1_1Expected__MRPackMapping__StdString.html#aef21126d51be676cddfc99911dae488e":[6,3,0,0,0,3520,4],
@@ -249,5 +240,14 @@ var NAVTREEINDEX61 =
 "classMR_1_1Expected__StdVectorMRVdbVolume__StdString.html#a2b334a88b763db02390585a42f15c936":[6,3,0,0,0,3560,3],
 "classMR_1_1Expected__StdVectorMRVdbVolume__StdString.html#a4524d5f2a6ea27c6d372345b5488cefb":[6,3,0,0,0,3560,4],
 "classMR_1_1Expected__StdVectorMRVdbVolume__StdString.html#a860e40a83fa3ce5bb463bacecff32910":[6,3,0,0,0,3560,0],
-"classMR_1_1Expected__StdVectorMRVdbVolume__StdString.html#aac1fb94afbdc9714fded2edc945cb9a1":[6,3,0,0,0,3560,2]
+"classMR_1_1Expected__StdVectorMRVdbVolume__StdString.html#aac1fb94afbdc9714fded2edc945cb9a1":[6,3,0,0,0,3560,2],
+"classMR_1_1Expected__StdVectorMRVdbVolume__StdString.html#ab815c976b9c8601a66eccdfd40ee4f05":[6,3,0,0,0,3560,1],
+"classMR_1_1Expected__StdVectorMRVertBitSet__StdString.html":[6,3,0,0,0,3561],
+"classMR_1_1Expected__StdVectorMRVertBitSet__StdString.html#a7260aae716816cc03af6fee9fffbe5fe":[6,3,0,0,0,3561,0],
+"classMR_1_1Expected__StdVectorMRVertBitSet__StdString.html#a9a7dfb549b5e17b97f0bf84640591b66":[6,3,0,0,0,3561,3],
+"classMR_1_1Expected__StdVectorMRVertBitSet__StdString.html#aaea90bfb06cdd740b499ff60d5c14af2":[6,3,0,0,0,3561,2],
+"classMR_1_1Expected__StdVectorMRVertBitSet__StdString.html#ab34599fce3b6a0c0608882266fac8c86":[6,3,0,0,0,3561,4],
+"classMR_1_1Expected__StdVectorMRVertBitSet__StdString.html#ad3a6932943bcb8949bc76c5b08c68e47":[6,3,0,0,0,3561,1],
+"classMR_1_1Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html":[6,3,0,0,0,3562],
+"classMR_1_1Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html#a11c5141529bb45fca36721b7edc1bdee":[6,3,0,0,0,3562,3]
 };

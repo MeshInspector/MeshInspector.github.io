@@ -1,6 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"MRFastWindingNumber_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,89,7],
 "MRFastWindingNumber_8h.html#a322d13df5b08430a3fc15930d678441d":[6,2,1,0,0,0,1,89,31],
 "MRFastWindingNumber_8h.html#a3926c1edcc4bbae5388922e26356c1b8":[6,2,1,0,0,0,1,89,36],
 "MRFastWindingNumber_8h.html#a3d2775edc5a0f80cf104f495be573436":[6,2,1,0,0,0,1,89,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX34 =
 "MRFeatureObject_8h.html#a68f451d69633a0e30b01c79682476259":[6,2,1,0,0,0,1,91,57],
 "MRFeatureObject_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,1,91,26],
 "MRFeatureObject_8h.html#a6a850bb5d1e1d67f2455e7dee44b438d":[6,2,1,0,0,0,1,91,197],
-"MRFeatureObject_8h.html#a6bf3387d8f841e45d412c972f87b5a68":[6,2,1,0,0,0,1,91,62]
+"MRFeatureObject_8h.html#a6bf3387d8f841e45d412c972f87b5a68":[6,2,1,0,0,0,1,91,62],
+"MRFeatureObject_8h.html#a6c7b6a374878e1f2785b7024a308119e":[6,2,1,0,0,0,1,91,226]
 };

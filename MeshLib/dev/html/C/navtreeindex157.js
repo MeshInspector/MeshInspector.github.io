@@ -1,17 +1,5 @@
 var NAVTREEINDEX157 =
 {
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#a93aea03c25de83d3827e98658b517a70":[6,2,1,0,0,0,2,316,20],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#a994ee840b5aa4235f2ebd24b919b2bbc":[6,2,1,0,0,0,2,316,7],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#a998646617bf41ec25231c47ac5d59c06":[6,2,1,0,0,0,2,316,14],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#ac50a0557b233b083cd42b047b67149f1":[6,2,1,0,0,0,2,316,15],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#ad7e44b491b9fca9244787ef7ab35d609":[6,2,1,0,0,0,2,316,12],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#ae45e9adadc885f8262eb2ca252f2f3b2":[6,2,1,0,0,0,2,316,11],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc":[6,2,1,0,0,0,2,316,0],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h_source.html":[6,2,1,0,0,0,2,316],
-"std__shared__ptr__MR__ObjectComparableWithReference_8h.html":[6,2,1,0,0,0,2,317],
-"std__shared__ptr__MR__ObjectComparableWithReference_8h.html#a01fc8f6e1a2f2e0485657704f830fb1f":[6,2,1,0,0,0,2,317,11],
-"std__shared__ptr__MR__ObjectComparableWithReference_8h.html#a09a292c2e5bdc22d5fa2fa680ada3116":[6,2,1,0,0,0,2,317,4],
-"std__shared__ptr__MR__ObjectComparableWithReference_8h.html#a27c2a2fb3a2833bee734ef11398a3ce9":[6,2,1,0,0,0,2,317,16],
 "std__shared__ptr__MR__ObjectComparableWithReference_8h.html#a369cc35ca551e5485943a7bd1ca3df66":[6,2,1,0,0,0,2,317,5],
 "std__shared__ptr__MR__ObjectComparableWithReference_8h.html#a430e6a7dae51650e5e66a79e8e16dbc9":[6,2,1,0,0,0,2,317,9],
 "std__shared__ptr__MR__ObjectComparableWithReference_8h.html#a5383c88101fc760db9efed86715bb7d7":[6,2,1,0,0,0,2,317,18],
@@ -249,5 +237,17 @@ var NAVTREEINDEX157 =
 "std__shared__ptr__MR__ObjectPoints_8h.html#af61bbf99a68eb8ec6aa20ba45fb0dd24":[6,2,1,0,0,0,2,325,20],
 "std__shared__ptr__MR__ObjectPoints_8h_source.html":[6,2,1,0,0,0,2,325],
 "std__shared__ptr__MR__ObjectVoxels_8h.html":[6,2,1,0,0,0,2,327],
-"std__shared__ptr__MR__ObjectVoxels_8h.html#a165a9d887bfd6c74e8fe7d45c811e3c5":[6,2,1,0,0,0,2,327,14]
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a165a9d887bfd6c74e8fe7d45c811e3c5":[6,2,1,0,0,0,2,327,14],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a32bc5c89ddb890ddf34f3b133a77f023":[6,2,1,0,0,0,2,327,15],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a4ab6ba14cf49efe08845e81a23a571b7":[6,2,1,0,0,0,2,327,6],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a4b484d976d1077ae78acdc3b6ea174c0":[6,2,1,0,0,0,2,327,0],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a5231ce9553f706c90b4ca32d10319c52":[6,2,1,0,0,0,2,327,12],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a5d8e57a51abfe75997ff52102a20bb9e":[6,2,1,0,0,0,2,327,1],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a72ecd40cc21861923965148fd782317e":[6,2,1,0,0,0,2,327,3],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a85c30286180b50b5ba6f5adb6760ec2f":[6,2,1,0,0,0,2,327,17],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a8c4d149fdf4c5ca1212c5652e45a0a76":[6,2,1,0,0,0,2,327,11],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a9426abe3f842c8e5fdc12cb6b4d24690":[6,2,1,0,0,0,2,327,13],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#a9b56836ef99f2ce9574e3db0600ebcc5":[6,2,1,0,0,0,2,327,9],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#aaca3f8771e997a6c4f5bca801cfc6c31":[6,2,1,0,0,0,2,327,5],
+"std__shared__ptr__MR__ObjectVoxels_8h.html#aadb9a17111a1cd7537dc705da34c1cba":[6,2,1,0,0,0,2,327,18]
 };

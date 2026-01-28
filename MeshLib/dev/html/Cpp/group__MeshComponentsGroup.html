@@ -186,8 +186,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7ddf49eb92204fc207139407ae3bd40b" id="r_ga7ddf49eb92204fc207139407ae3bd40b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7ddf49eb92204fc207139407ae3bd40b">MR::MeshComponents::getComponents</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> &amp;seeds, <a class="elRef" href="../Csharp/classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722">FaceIncidence</a> incidence=FaceIncidence::PerEdge, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd={})</td></tr>
 <tr class="memdesc:ga7ddf49eb92204fc207139407ae3bd40b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed face  <br /></td></tr>
 <tr class="separator:ga7ddf49eb92204fc207139407ae3bd40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga66b96824c77d512f0808874d7ab1cccd" id="r_ga66b96824c77d512f0808874d7ab1cccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66b96824c77d512f0808874d7ab1cccd">MR::MeshComponents::getComponents</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> &amp;seeds, const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *region=nullptr, <a class="elRef" href="../Csharp/classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722">FaceIncidence</a> incidence=FaceIncidence::PerEdge, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd={})</td></tr>
-<tr class="separator:ga66b96824c77d512f0808874d7ab1cccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2c1a5bdd9924f310ad8cc32808c28c81" id="r_ga2c1a5bdd9924f310ad8cc32808c28c81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c1a5bdd9924f310ad8cc32808c28c81">MR::MeshComponents::getLargeByAreaComponents</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, float minArea, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
 <tr class="memdesc:ga2c1a5bdd9924f310ad8cc32808c28c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given area  <br /></td></tr>
 <tr class="separator:ga2c1a5bdd9924f310ad8cc32808c28c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,12 +245,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gac10c907d8a075e150d83213c07b5a200" id="r_gac10c907d8a075e150d83213c07b5a200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac10c907d8a075e150d83213c07b5a200">MR::MeshComponents::getUnionFindStructureFaces</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, <a class="elRef" href="../Csharp/classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722">FaceIncidence</a> incidence=FaceIncidence::PerEdge, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd={})</td></tr>
 <tr class="memdesc:gac10c907d8a075e150d83213c07b5a200"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with different options of face-connectivity  <br /></td></tr>
 <tr class="separator:gac10c907d8a075e150d83213c07b5a200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12885a556aa2c72c212aa5a7b1ea3906" id="r_ga12885a556aa2c72c212aa5a7b1ea3906"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12885a556aa2c72c212aa5a7b1ea3906">MR::MeshComponents::getUnionFindStructureFaces</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *region=nullptr, <a class="elRef" href="../Csharp/classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722">FaceIncidence</a> incidence=FaceIncidence::PerEdge, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd={})</td></tr>
-<tr class="separator:ga12885a556aa2c72c212aa5a7b1ea3906"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03aa19f1555050b3ad3cadd0034b94e8" id="r_ga03aa19f1555050b3ad3cadd0034b94e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03aa19f1555050b3ad3cadd0034b94e8">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd={})</td></tr>
 <tr class="separator:ga03aa19f1555050b3ad3cadd0034b94e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga08009215f08ce1a3fbe9ff82cdf1b110" id="r_ga08009215f08ce1a3fbe9ff82cdf1b110"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08009215f08ce1a3fbe9ff82cdf1b110">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *region=nullptr, const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *isCompBd={})</td></tr>
-<tr class="separator:ga08009215f08ce1a3fbe9ff82cdf1b110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0c25b3e3697cc2efad3f13c664fc87ec" id="r_ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c25b3e3697cc2efad3f13c664fc87ec">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *region=nullptr)</td></tr>
 <tr class="memdesc:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices  <br /></td></tr>
 <tr class="separator:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -744,7 +738,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga7ddf49eb92204fc207139407ae3bd40b" name="ga7ddf49eb92204fc207139407ae3bd40b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7ddf49eb92204fc207139407ae3bd40b">&#9670;&#160;</a></span>getComponents() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ddf49eb92204fc207139407ae3bd40b">&#9670;&#160;</a></span>getComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -781,50 +775,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns union of connected components, each of which contains at least one seed face </p>
-
-</div>
-</div>
-<a id="ga66b96824c77d512f0808874d7ab1cccd" name="ga66b96824c77d512f0808874d7ab1cccd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga66b96824c77d512f0808874d7ab1cccd">&#9670;&#160;</a></span>getComponents() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> MR::MeshComponents::getComponents </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>seeds</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722">FaceIncidence</a></td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FaceIncidence::PerEdge</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1319,7 +1269,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gac10c907d8a075e150d83213c07b5a200" name="gac10c907d8a075e150d83213c07b5a200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac10c907d8a075e150d83213c07b5a200">&#9670;&#160;</a></span>getUnionFindStructureFaces() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac10c907d8a075e150d83213c07b5a200">&#9670;&#160;</a></span>getUnionFindStructureFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1354,47 +1304,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga12885a556aa2c72c212aa5a7b1ea3906" name="ga12885a556aa2c72c212aa5a7b1ea3906"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga12885a556aa2c72c212aa5a7b1ea3906">&#9670;&#160;</a></span>getUnionFindStructureFaces() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> &gt; MR::MeshComponents::getUnionFindStructureFaces </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722">FaceIncidence</a></td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FaceIncidence::PerEdge</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga03aa19f1555050b3ad3cadd0034b94e8" name="ga03aa19f1555050b3ad3cadd0034b94e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03aa19f1555050b3ad3cadd0034b94e8">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03aa19f1555050b3ad3cadd0034b94e8">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1420,40 +1331,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) </p>
-
-</div>
-</div>
-<a id="ga08009215f08ce1a3fbe9ff82cdf1b110" name="ga08009215f08ce1a3fbe9ff82cdf1b110"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga08009215f08ce1a3fbe9ff82cdf1b110">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
