@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"group__VolumeSegmentationGroup.html#ga67be2b8fd2ef849261f668ee98abfcc5":[6,0,0,17,2,2],
 "group__VolumeSegmentationGroup.html#gad44e7dfa9a22ec4a0c94232c1791b7d2":[6,0,0,17,2,3],
 "group__VoxelGroup.html":[6,0,0,17],
 "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985":[6,0,0,17,20],
@@ -249,5 +248,6 @@ var NAVTREEINDEX50 =
 "namespaceMR.html#a2360c210c6fa64143e978b1f2a1b6bff":[6,0,1,0,1,1717],
 "namespaceMR.html#a24a670e24fd91a189a928b3c3db6cd92":[6,0,1,0,1,775],
 "namespaceMR.html#a24b7ac695d3053bcef08895e25b552fa":[6,0,1,0,1,1220],
-"namespaceMR.html#a250501cf8de3c016cf374b34455c335f":[6,0,1,0,1,1345]
+"namespaceMR.html#a250501cf8de3c016cf374b34455c335f":[6,0,1,0,1,1345],
+"namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62":[6,0,1,0,1,1042]
 };

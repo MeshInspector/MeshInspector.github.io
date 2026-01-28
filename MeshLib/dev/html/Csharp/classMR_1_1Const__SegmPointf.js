@@ -9,5 +9,5 @@ var classMR_1_1Const__SegmPointf =
     [ "operator==", "classMR_1_1Const__SegmPointf.html#abd0758639873a2b4a772185e3716ce21", null ],
     [ "operator==", "classMR_1_1Const__SegmPointf.html#ac374c591f07f943fcc579c46f0831aac", null ],
     [ "sym", "classMR_1_1Const__SegmPointf.html#ad608556102b0e85a4efde1085752a657", null ],
-    [ "__ref_storage_Eps", "classMR_1_1Const__SegmPointf.html#a85d3e2bc35de7b68b4638d5cf095aee2", null ]
+    [ "Eps", "classMR_1_1Const__SegmPointf.html#aac3c3ae6ea7643f28d8b8ff942469aca", null ]
 ];

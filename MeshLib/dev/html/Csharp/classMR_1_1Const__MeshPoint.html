@@ -149,7 +149,6 @@ $(function(){initNavTree('classMR_1_1Const__MeshPoint.html',''); initResizable(t
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__MeshPoint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_MeshPoint Class Reference</div></div>
@@ -185,7 +184,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_MeshPoint</b>
 <tr class="memdesc:abb3b89f3d7699df7dd59f951180fdedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:abb3b89f3d7699df7dd59f951180fdedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855746b80ebbf993a7f59a695e6e2e97" id="r_a855746b80ebbf993a7f59a695e6e2e97"><td class="memItemLeft" align="right" valign="top"><a id="a855746b80ebbf993a7f59a695e6e2e97" name="a855746b80ebbf993a7f59a695e6e2e97"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_MeshPoint</b> (<a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="el" href="#a6545c0bd6634b41e8a9ce18f0d43fcd5">triPoint</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pt, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> inDir, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromMRFaceId.html">MR.Std._ByValue_Function_BoolFuncFromMRFaceId</a> notIncidentFaces)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_MeshPoint</b> (<a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="el" href="#a6545c0bd6634b41e8a9ce18f0d43fcd5">triPoint</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="#aed9cf111fa876ae106802642557ddd7a">pt</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="#a6c6d26ee04ecb6763d919ca56ecff4a9">inDir</a>, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromMRFaceId.html">MR.Std._ByValue_Function_BoolFuncFromMRFaceId</a> notIncidentFaces)</td></tr>
 <tr class="memdesc:a855746b80ebbf993a7f59a695e6e2e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR.MeshPoint</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a855746b80ebbf993a7f59a695e6e2e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b4b7f24171c9f736966e82fedcea10" id="r_ae3b4b7f24171c9f736966e82fedcea10"><td class="memItemLeft" align="right" valign="top"><a id="ae3b4b7f24171c9f736966e82fedcea10" name="ae3b4b7f24171c9f736966e82fedcea10"></a>
@@ -199,41 +198,35 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:ad4f104658129cfc833dbe1a6b630c2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a8796ab9ebbea25eb205ace95f93071a0" id="r_a8796ab9ebbea25eb205ace95f93071a0"><td class="memItemLeft" align="right" valign="top"><a id="a8796ab9ebbea25eb205ace95f93071a0" name="a8796ab9ebbea25eb205ace95f93071a0"></a>
-unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_pt</b></td></tr>
-<tr class="memdesc:a8796ab9ebbea25eb205ace95f93071a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">unit direction inside the mesh = minus normal <br /></td></tr>
-<tr class="separator:a8796ab9ebbea25eb205ace95f93071a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a106f6ba20e8be4b8aba16d52b86184e6" id="r_a106f6ba20e8be4b8aba16d52b86184e6"><td class="memItemLeft" align="right" valign="top"><a id="a106f6ba20e8be4b8aba16d52b86184e6" name="a106f6ba20e8be4b8aba16d52b86184e6"></a>
-unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_inDir</b></td></tr>
-<tr class="memdesc:a106f6ba20e8be4b8aba16d52b86184e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">predicate that returns true for mesh faces not-incident to the point <br /></td></tr>
-<tr class="separator:a106f6ba20e8be4b8aba16d52b86184e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MeshPoint &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a6545c0bd6634b41e8a9ce18f0d43fcd5" id="r_a6545c0bd6634b41e8a9ce18f0d43fcd5"><td class="memItemLeft" align="right" valign="top"><a id="a6545c0bd6634b41e8a9ce18f0d43fcd5" name="a6545c0bd6634b41e8a9ce18f0d43fcd5"></a>
-unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>triPoint</b><code> [get, protected set]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>triPoint</b><code> [get]</code></td></tr>
 <tr class="memdesc:a6545c0bd6634b41e8a9ce18f0d43fcd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">3d coordinates <br /></td></tr>
 <tr class="separator:a6545c0bd6634b41e8a9ce18f0d43fcd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed9cf111fa876ae106802642557ddd7a" id="r_aed9cf111fa876ae106802642557ddd7a"><td class="memItemLeft" align="right" valign="top"><a id="aed9cf111fa876ae106802642557ddd7a" name="aed9cf111fa876ae106802642557ddd7a"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pt</b><code> [get]</code></td></tr>
+<tr class="memdesc:aed9cf111fa876ae106802642557ddd7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">unit direction inside the mesh = minus normal <br /></td></tr>
 <tr class="separator:aed9cf111fa876ae106802642557ddd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6d26ee04ecb6763d919ca56ecff4a9" id="r_a6c6d26ee04ecb6763d919ca56ecff4a9"><td class="memItemLeft" align="right" valign="top"><a id="a6c6d26ee04ecb6763d919ca56ecff4a9" name="a6c6d26ee04ecb6763d919ca56ecff4a9"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>inDir</b><code> [get]</code></td></tr>
+<tr class="memdesc:a6c6d26ee04ecb6763d919ca56ecff4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">predicate that returns true for mesh faces not-incident to the point <br /></td></tr>
 <tr class="separator:a6c6d26ee04ecb6763d919ca56ecff4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e8c819be91a660cfad0294247a025a7" id="r_a9e8c819be91a660cfad0294247a025a7"><td class="memItemLeft" align="right" valign="top"><a id="a9e8c819be91a660cfad0294247a025a7" name="a9e8c819be91a660cfad0294247a025a7"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceId.html">MR.Std.Const_Function_BoolFuncFromMRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>notIncidentFaces</b><code> [get, protected set]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceId.html">MR.Std.Const_Function_BoolFuncFromMRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>notIncidentFaces</b><code> [get]</code></td></tr>
 <tr class="separator:a9e8c819be91a660cfad0294247a025a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MeshPoint &gt;</a></td></tr>
 <tr class="memitem:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object" id="r_a4ba8e4178c1dc86ea8037d127dcac158"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MeshPoint &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>describes the point of measurement on mesh Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR.MeshPoint</a></code>. This is the const half of the class. </p>

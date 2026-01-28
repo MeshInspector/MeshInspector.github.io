@@ -1,8 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"classMR_1_1Std_1_1__InOptConst__Pair__Float__MRVertId.html":[6,3,0,0,0,3803,419],
-"classMR_1_1Std_1_1__InOptConst__Pair__Int__Int.html":[6,3,0,0,0,3803,420],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRDistanceMap__MRDistanceMap.html":[6,3,0,0,0,3803,421],
 "classMR_1_1Std_1_1__InOptConst__Pair__MREdgeId__MREdgeId.html":[6,3,0,0,0,3803,422],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRFace2RegionMap__Int.html":[6,3,0,0,0,3803,423],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRFaceBitSet__Int.html":[6,3,0,0,0,3803,424],
@@ -249,5 +246,8 @@ var NAVTREEINDEX130 =
 "classMR_1_1Std_1_1__InOptConst__Vector__StdArrayMRVector3f3.html":[6,3,0,0,0,3803,567],
 "classMR_1_1Std_1_1__InOptConst__Vector__StdArrayMRVertId2.html":[6,3,0,0,0,3803,568],
 "classMR_1_1Std_1_1__InOptConst__Vector__StdArrayMRVertId3.html":[6,3,0,0,0,3803,569],
-"classMR_1_1Std_1_1__InOptConst__Vector__StdArrayStdFilesystemPath4.html":[6,3,0,0,0,3803,570]
+"classMR_1_1Std_1_1__InOptConst__Vector__StdArrayStdFilesystemPath4.html":[6,3,0,0,0,3803,570],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdFilesystemPath.html":[6,3,0,0,0,3803,571],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairDoubleInt.html":[6,3,0,0,0,3803,572],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMREdgeIdMREdgeId.html":[6,3,0,0,0,3803,573]
 };

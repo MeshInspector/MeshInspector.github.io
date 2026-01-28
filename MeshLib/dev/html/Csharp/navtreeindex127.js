@@ -1,8 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a69e9dee4800b53a13cef587e1eb5c72a":[6,3,0,0,0,3803,1591,15],
-"classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a74a4ed2c1f7ab42328de70961bce0098":[6,3,0,0,0,3803,1591,2],
-"classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a7c22412421a4d11d11c4bb4c83a9bc46":[6,3,0,0,0,3803,1591,0],
 "classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a84196a101ca2a0b6695c030dcd13bc43":[6,3,0,0,0,3803,1591,10],
 "classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a8570dc388eab16041f184fe77e583db8":[6,3,0,0,0,3803,1591,19],
 "classMR_1_1Std_1_1Vector__StdVectorMRVarEdgeTri.html#a8d1ff292fc6be8e7f564d5217cb65af7":[6,3,0,0,0,3803,1591,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX127 =
 "classMR_1_1Std_1_1__ByValue__Function__MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat.html":[6,3,0,0,0,3803,50],
 "classMR_1_1Std_1_1__ByValue__Function__MRVector3fFuncFromConstMRVector3iRef.html":[6,3,0,0,0,3803,51],
 "classMR_1_1Std_1_1__ByValue__Function__MRVector3fFuncFromMRUint64TMRUint64T.html":[6,3,0,0,0,3803,52],
-"classMR_1_1Std_1_1__ByValue__Function__MRVector3fFuncFromMRVertId.html":[6,3,0,0,0,3803,53]
+"classMR_1_1Std_1_1__ByValue__Function__MRVector3fFuncFromMRVertId.html":[6,3,0,0,0,3803,53],
+"classMR_1_1Std_1_1__ByValue__Function__MRVector3iFuncFromConstMRVector3fRef.html":[6,3,0,0,0,3803,54],
+"classMR_1_1Std_1_1__ByValue__Function__StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId.html":[6,3,0,0,0,3803,55],
+"classMR_1_1Std_1_1__ByValue__Function__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeat6ddbcafee9e51f998620d4d32baae25e.html":[6,3,0,0,0,3803,56]
 };

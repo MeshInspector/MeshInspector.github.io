@@ -1,6 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
 "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
 "structMR_1_1CharPressedListener.html":[6,0,1,0,1,87],
 "structMR_1_1CharPressedListener.html":[6,0,2,0,2,59],
@@ -249,5 +248,6 @@ var NAVTREEINDEX58 =
 "structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,1,0,1,122,3],
 "structMR_1_1DragStartListener.html#ade7bc14ccb341a505dccf4150a046bb3":[6,0,2,0,2,94,3],
 "structMR_1_1DrawButtonParams.html":[6,0,1,0,1,123],
-"structMR_1_1DrawButtonParams.html":[6,0,2,0,2,95]
+"structMR_1_1DrawButtonParams.html":[6,0,2,0,2,95],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,1,0,1,123,0]
 };

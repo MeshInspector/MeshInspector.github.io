@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"classMR_1_1Polynomial__Double__3.html#adcd627dc029b1b4e6421ef018587299d":[6,3,0,0,0,3737,0],
 "classMR_1_1Polynomial__Double__3.html#afd201b7428bfa4b38105a1f0e76419c1":[6,3,0,0,0,3737,1],
 "classMR_1_1Polynomial__Double__4.html":[6,3,0,0,0,3738],
 "classMR_1_1Polynomial__Double__4.html#a3d346a9f035b618192af50e0369cabcf":[6,3,0,0,0,3738,1],
@@ -217,7 +216,6 @@ var NAVTREEINDEX74 =
 "classMR_1_1SegmPointd.html":[6,3,0,0,0,3791],
 "classMR_1_1SegmPointd.html#a0868b07ca7630846a450ed17fb40c65a":[6,3,0,0,0,3791,4],
 "classMR_1_1SegmPointd.html#a0d638be31f8a28d42b94ff8164da568a":[6,3,0,0,0,3791,2],
-"classMR_1_1SegmPointd.html#a12e177fb70fb3c2609bbba57db877ada":[6,3,0,0,0,3791,6],
 "classMR_1_1SegmPointd.html#a87892e40641dcb93b4a4bc0081fd9417":[6,3,0,0,0,3791,1],
 "classMR_1_1SegmPointd.html#ab26d4c7a2892dfdede39740c68315df7":[6,3,0,0,0,3791,3],
 "classMR_1_1SegmPointd.html#ab9778040c8ad08c996886a8e934bdbff":[6,3,0,0,0,3791,0],
@@ -227,7 +225,6 @@ var NAVTREEINDEX74 =
 "classMR_1_1SegmPointf.html#a79626bfaba80b32c76e0d3b24bd2ebba":[6,3,0,0,0,3792,0],
 "classMR_1_1SegmPointf.html#a915c2f3f92f96e2cd214ac9aa6e597b8":[6,3,0,0,0,3792,2],
 "classMR_1_1SegmPointf.html#a9cd1fcf1878d6daeda23d7e2c5870323":[6,3,0,0,0,3792,3],
-"classMR_1_1SegmPointf.html#aaa814d1b0c9279af10a35e4e1bd5bfe5":[6,3,0,0,0,3792,6],
 "classMR_1_1SegmPointf.html#ae4ed9cb284cee2c143d002de2b00b178":[6,3,0,0,0,3792,5],
 "classMR_1_1SegmPointf.html#af85f0e8bf729561fa0d2691a93a576ce":[6,3,0,0,0,3792,1],
 "classMR_1_1SelfIntersections.html":[6,3,0,0,0,3793],
@@ -249,5 +246,8 @@ var NAVTREEINDEX74 =
 "classMR_1_1SimpleBinaryVolume.html":[6,3,0,0,0,3794],
 "classMR_1_1SimpleBinaryVolume.html#a05f27d76f4fad9fe8f27ad36c787cb90":[6,3,0,0,0,3794,0],
 "classMR_1_1SimpleBinaryVolume.html#ac0cb4fb8e1d1cadf0abed66e9f7c8112":[6,3,0,0,0,3794,3],
-"classMR_1_1SimpleBinaryVolume.html#ad8da19ed4dc59475b012cdc7e05f2da1":[6,3,0,0,0,3794,2]
+"classMR_1_1SimpleBinaryVolume.html#ad8da19ed4dc59475b012cdc7e05f2da1":[6,3,0,0,0,3794,2],
+"classMR_1_1SimpleBinaryVolume.html#ad9e31731391fdffd65fc94baa6316897":[6,3,0,0,0,3794,1],
+"classMR_1_1SimpleVolume.html":[6,3,0,0,0,3795],
+"classMR_1_1SimpleVolume.html#a2d44f5bca33c64867c2be6f25ac01e27":[6,3,0,0,0,3795,2]
 };

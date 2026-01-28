@@ -1,6 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,2,0,2,20,12,0,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,1,0,1,44,14,0,1],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,2,0,2,20,12,0,1],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[6,0,1,0,1,44,14,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX69 =
 "structMR_1_1Vector4.html#a366f9f44e9b5375e2716d7559fea8033":[6,0,0,0,12,2,4],
 "structMR_1_1Vector4.html#a3789873acec0961558649d59f6de2825":[6,0,0,0,12,2,31],
 "structMR_1_1Vector4.html#a406ab28ca8f52a20219ceffe78e52cd5":[6,0,0,0,12,2,23],
-"structMR_1_1Vector4.html#a40d27756dd3dd012e19e847137c16532":[6,0,0,0,12,2,26]
+"structMR_1_1Vector4.html#a40d27756dd3dd012e19e847137c16532":[6,0,0,0,12,2,26],
+"structMR_1_1Vector4.html#a458502d7f4776a6bddef3495ad567541":[6,0,0,0,12,2,2]
 };

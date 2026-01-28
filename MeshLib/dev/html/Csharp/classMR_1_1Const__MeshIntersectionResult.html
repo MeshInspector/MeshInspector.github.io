@@ -150,7 +150,6 @@ $(function(){initNavTree('classMR_1_1Const__MeshIntersectionResult.html',''); in
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__MeshIntersectionResult-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_MeshIntersectionResult Class Reference</div></div>
@@ -207,24 +206,14 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:ad1204266ee7d8967baa97bf75ed0ece5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a842167ec8cd53fa858941130256059eb" id="r_a842167ec8cd53fa858941130256059eb"><td class="memItemLeft" align="right" valign="top"><a id="a842167ec8cd53fa858941130256059eb" name="a842167ec8cd53fa858941130256059eb"></a>
-unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_distanceAlongLine</b></td></tr>
-<tr class="separator:a842167ec8cd53fa858941130256059eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MeshIntersectionResult &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aef508d49dbd944465b2c73ddb7d63c35" id="r_aef508d49dbd944465b2c73ddb7d63c35"><td class="memItemLeft" align="right" valign="top"><a id="aef508d49dbd944465b2c73ddb7d63c35" name="aef508d49dbd944465b2c73ddb7d63c35"></a>
-unsafe <a class="el" href="classMR_1_1Const__PointOnFace.html">MR.Const_PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><b>proj</b><code> [get, protected set]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__PointOnFace.html">MR.Const_PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><b>proj</b><code> [get]</code></td></tr>
 <tr class="memdesc:aef508d49dbd944465b2c73ddb7d63c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores intersected face and global coordinates <br /></td></tr>
 <tr class="separator:aef508d49dbd944465b2c73ddb7d63c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a658c47c6eecc0b0cb0ae5e33baf04ac9" id="r_a658c47c6eecc0b0cb0ae5e33baf04ac9"><td class="memItemLeft" align="right" valign="top"><a id="a658c47c6eecc0b0cb0ae5e33baf04ac9" name="a658c47c6eecc0b0cb0ae5e33baf04ac9"></a>
-unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mtp</b><code> [get, protected set]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mtp</b><code> [get]</code></td></tr>
 <tr class="memdesc:a658c47c6eecc0b0cb0ae5e33baf04ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores barycentric coordinates <br /></td></tr>
 <tr class="separator:a658c47c6eecc0b0cb0ae5e33baf04ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad40c8fee90a9f32fd9ec593e67105920" id="r_ad40c8fee90a9f32fd9ec593e67105920"><td class="memItemLeft" align="right" valign="top"><a id="ad40c8fee90a9f32fd9ec593e67105920" name="ad40c8fee90a9f32fd9ec593e67105920"></a>
@@ -236,6 +225,13 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>distanceAlong
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_MeshIntersectionResult &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshIntersectionResult.html">MR.MeshIntersectionResult</a></code>. Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1MultiMeshIntersectionResult.html">MR.MultiMeshIntersectionResult</a></code> This is the const half of the class. </p>

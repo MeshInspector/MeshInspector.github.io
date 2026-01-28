@@ -1,8 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"classMR_1_1Std_1_1__ByValue__Vector__MRPdfPaletteRowStats.html":[6,3,0,0,0,3803,191],
-"classMR_1_1Std_1_1__ByValue__Vector__MRPixelId.html":[6,3,0,0,0,3803,192],
-"classMR_1_1Std_1_1__ByValue__Vector__MRPlanarTriangulationIntersectionInfo.html":[6,3,0,0,0,3803,193],
 "classMR_1_1Std_1_1__ByValue__Vector__MRPointPair.html":[6,3,0,0,0,3803,194],
 "classMR_1_1Std_1_1__ByValue__Vector__MRPointsLoadNamedCloud.html":[6,3,0,0,0,3803,195],
 "classMR_1_1Std_1_1__ByValue__Vector__MRPointsProjectionResult.html":[6,3,0,0,0,3803,196],
@@ -249,5 +246,8 @@ var NAVTREEINDEX129 =
 "classMR_1_1Std_1_1__InOptConst__Ostream.html":[6,3,0,0,0,3803,415],
 "classMR_1_1Std_1_1__InOptConst__Pair__Bool__Int.html":[6,3,0,0,0,3803,416],
 "classMR_1_1Std_1_1__InOptConst__Pair__Double__Int.html":[6,3,0,0,0,3803,417],
-"classMR_1_1Std_1_1__InOptConst__Pair__Float__Float.html":[6,3,0,0,0,3803,418]
+"classMR_1_1Std_1_1__InOptConst__Pair__Float__Float.html":[6,3,0,0,0,3803,418],
+"classMR_1_1Std_1_1__InOptConst__Pair__Float__MRVertId.html":[6,3,0,0,0,3803,419],
+"classMR_1_1Std_1_1__InOptConst__Pair__Int__Int.html":[6,3,0,0,0,3803,420],
+"classMR_1_1Std_1_1__InOptConst__Pair__MRDistanceMap__MRDistanceMap.html":[6,3,0,0,0,3803,421]
 };

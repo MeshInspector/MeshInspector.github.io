@@ -1,8 +1,5 @@
 var NAVTREEINDEX148 =
 {
-"classMR_1_1__InOptConst__PixelBitSet.html":[6,3,0,0,0,1232],
-"classMR_1_1__InOptConst__PixelId.html":[6,3,0,0,0,1233],
-"classMR_1_1__InOptConst__Plane3d.html":[6,3,0,0,0,1234],
 "classMR_1_1__InOptConst__Plane3f.html":[6,3,0,0,0,1235],
 "classMR_1_1__InOptConst__PlaneAccumulator.html":[6,3,0,0,0,1236],
 "classMR_1_1__InOptConst__PlaneObject.html":[6,3,0,0,0,1237],
@@ -249,5 +246,8 @@ var NAVTREEINDEX148 =
 "classMR_1_1__InOptConst__Vector__Float__MRVoxelId.html":[6,3,0,0,0,1450],
 "classMR_1_1__InOptConst__Vector__Float__MRVoxelId.html#a8b52097ad055e627ede860ad846a8d82":[6,3,0,0,0,1450,0],
 "classMR_1_1__InOptConst__Vector__Int__MRFaceId.html":[6,3,0,0,0,1451],
-"classMR_1_1__InOptConst__Vector__Int__MRFaceId.html#af1a61c397f8f3e3a94703de4abd4304a":[6,3,0,0,0,1451,0]
+"classMR_1_1__InOptConst__Vector__Int__MRFaceId.html#af1a61c397f8f3e3a94703de4abd4304a":[6,3,0,0,0,1451,0],
+"classMR_1_1__InOptConst__Vector__Int__MRUndirectedEdgeId.html":[6,3,0,0,0,1452],
+"classMR_1_1__InOptConst__Vector__Int__MRUndirectedEdgeId.html#a15d914fe1f33f9ba1b2ab34d1add90c0":[6,3,0,0,0,1452,0],
+"classMR_1_1__InOptConst__Vector__Int__MRVertId.html":[6,3,0,0,0,1453]
 };

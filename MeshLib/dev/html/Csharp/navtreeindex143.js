@@ -1,8 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"classMR_1_1__ByValueShared__CylinderObject.html#a3f9c74176ca49001d67ccc8e45e7e8b9":[6,3,0,0,0,568,0],
-"classMR_1_1__ByValueShared__DistanceMap.html":[6,3,0,0,0,569],
-"classMR_1_1__ByValueShared__DistanceMap.html#abc80308a3943b09b871b74dd7c49a01f":[6,3,0,0,0,569,0],
 "classMR_1_1__ByValueShared__DistanceMeasurementObject.html":[6,3,0,0,0,570],
 "classMR_1_1__ByValueShared__FastWindingNumber.html":[6,3,0,0,0,571],
 "classMR_1_1__ByValueShared__FastWindingNumber.html#a4fb1a6bd0eb7df90635330cda0364309":[6,3,0,0,0,571,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX143 =
 "classMR_1_1__ByValue__Expected__StdVectorMROneMeshContour__StdString.html":[6,3,0,0,0,203],
 "classMR_1_1__ByValue__Expected__StdVectorMRPointsLoadNamedCloud__StdString.html":[6,3,0,0,0,204],
 "classMR_1_1__ByValue__Expected__StdVectorMRVdbVolume__StdString.html":[6,3,0,0,0,205],
-"classMR_1_1__ByValue__Expected__StdVectorMRVertBitSet__StdString.html":[6,3,0,0,0,206]
+"classMR_1_1__ByValue__Expected__StdVectorMRVertBitSet__StdString.html":[6,3,0,0,0,206],
+"classMR_1_1__ByValue__Expected__StdVectorStdPairMRVertIdMRVertId__StdString.html":[6,3,0,0,0,207],
+"classMR_1_1__ByValue__Expected__StdVectorStdSharedPtrMRObjectVoxels__StdString.html":[6,3,0,0,0,208],
+"classMR_1_1__ByValue__Expected__StdVectorStdString__StdString.html":[6,3,0,0,0,209]
 };

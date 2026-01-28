@@ -15,5 +15,5 @@ var classMR_1_1Const__EdgePoint =
     [ "operator==", "classMR_1_1Const__EdgePoint.html#ac10c1e6d23b91a7d864fab57f32aca89", null ],
     [ "sym", "classMR_1_1Const__EdgePoint.html#aa8b153b552e13ee1301ecc5a2a9591aa", null ],
     [ "valid", "classMR_1_1Const__EdgePoint.html#aac4ac1e98fd7fa90d129d59261451beb", null ],
-    [ "__ref_storage_e", "classMR_1_1Const__EdgePoint.html#ac15283cca41be20ec5492879caea104b", null ]
+    [ "e", "classMR_1_1Const__EdgePoint.html#a82323f33dd299a1d6b7ce01d479e4358", null ]
 ];

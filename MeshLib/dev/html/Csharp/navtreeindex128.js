@@ -1,8 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"classMR_1_1Std_1_1__ByValue__Function__MRVector3iFuncFromConstMRVector3fRef.html":[6,3,0,0,0,3803,54],
-"classMR_1_1Std_1_1__ByValue__Function__StdVariantFloatMRVector3fFuncFromConstMRFeatureObjectPtrMRViewportId.html":[6,3,0,0,0,3803,55],
-"classMR_1_1Std_1_1__ByValue__Function__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeat6ddbcafee9e51f998620d4d32baae25e.html":[6,3,0,0,0,3803,56],
 "classMR_1_1Std_1_1__ByValue__Function__UnsignedCharFuncFromConstMRVector3iRef.html":[6,3,0,0,0,3803,57],
 "classMR_1_1Std_1_1__ByValue__Function__VoidFunc.html":[6,3,0,0,0,3803,58],
 "classMR_1_1Std_1_1__ByValue__Function__VoidFuncFromConstMREdgePointRef.html":[6,3,0,0,0,3803,59],
@@ -249,5 +246,8 @@ var NAVTREEINDEX128 =
 "classMR_1_1Std_1_1__ByValue__Vector__MROffsetContoursOrigins.html":[6,3,0,0,0,3803,187],
 "classMR_1_1Std_1_1__ByValue__Vector__MROneMeshContour.html":[6,3,0,0,0,3803,188],
 "classMR_1_1Std_1_1__ByValue__Vector__MROneMeshIntersection.html":[6,3,0,0,0,3803,189],
-"classMR_1_1Std_1_1__ByValue__Vector__MRPdfCell.html":[6,3,0,0,0,3803,190]
+"classMR_1_1Std_1_1__ByValue__Vector__MRPdfCell.html":[6,3,0,0,0,3803,190],
+"classMR_1_1Std_1_1__ByValue__Vector__MRPdfPaletteRowStats.html":[6,3,0,0,0,3803,191],
+"classMR_1_1Std_1_1__ByValue__Vector__MRPixelId.html":[6,3,0,0,0,3803,192],
+"classMR_1_1Std_1_1__ByValue__Vector__MRPlanarTriangulationIntersectionInfo.html":[6,3,0,0,0,3803,193]
 };

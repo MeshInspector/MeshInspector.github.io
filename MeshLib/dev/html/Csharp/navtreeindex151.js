@@ -1,8 +1,5 @@
 var NAVTREEINDEX151 =
 {
-"classMR_1_1__InOptMut__IPointsToMeshProjector.html":[6,3,0,0,0,1904],
-"classMR_1_1__InOptMut__IRenderObject.html":[6,3,0,0,0,1905],
-"classMR_1_1__InOptMut__Id__MRICPElemtTag.html":[6,3,0,0,0,1886],
 "classMR_1_1__InOptMut__Image.html":[6,3,0,0,0,1890],
 "classMR_1_1__InOptMut__ImproveSamplingSettings.html":[6,3,0,0,0,1891],
 "classMR_1_1__InOptMut__InSphere.html":[6,3,0,0,0,1893],
@@ -249,5 +246,8 @@ var NAVTREEINDEX151 =
 "classMR_1_1__InOptMut__Polyline2.html":[6,3,0,0,0,2138],
 "classMR_1_1__InOptMut__Polyline2ProjectionWithOffsetResult.html":[6,3,0,0,0,2139],
 "classMR_1_1__InOptMut__Polyline3.html":[6,3,0,0,0,2140],
-"classMR_1_1__InOptMut__PolylineIntersectionResult2.html":[6,3,0,0,0,2141]
+"classMR_1_1__InOptMut__PolylineIntersectionResult2.html":[6,3,0,0,0,2141],
+"classMR_1_1__InOptMut__PolylineMaker.html":[6,3,0,0,0,2142],
+"classMR_1_1__InOptMut__PolylineProjectionResult2.html":[6,3,0,0,0,2143],
+"classMR_1_1__InOptMut__PolylineProjectionResult3.html":[6,3,0,0,0,2144]
 };

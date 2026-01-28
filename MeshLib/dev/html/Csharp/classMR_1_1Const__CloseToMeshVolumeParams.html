@@ -149,7 +149,6 @@ $(function(){initNavTree('classMR_1_1Const__CloseToMeshVolumeParams.html',''); i
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__CloseToMeshVolumeParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_CloseToMeshVolumeParams Class Reference</div></div>
@@ -199,19 +198,6 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a1cac40c0086d70756eb0f9d21b42d644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a50c1a4ed9b21d4e4713704d487c0470e" id="r_a50c1a4ed9b21d4e4713704d487c0470e"><td class="memItemLeft" align="right" valign="top"><a id="a50c1a4ed9b21d4e4713704d487c0470e" name="a50c1a4ed9b21d4e4713704d487c0470e"></a>
-unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_closeDist</b></td></tr>
-<tr class="separator:a50c1a4ed9b21d4e4713704d487c0470e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31d139698b74bdc0527e3f0dd7e74b9e" id="r_a31d139698b74bdc0527e3f0dd7e74b9e"><td class="memItemLeft" align="right" valign="top"><a id="a31d139698b74bdc0527e3f0dd7e74b9e" name="a31d139698b74bdc0527e3f0dd7e74b9e"></a>
-unsafe MR.ConstBox_AffineXf3f._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_meshToWorld</b></td></tr>
-<tr class="separator:a31d139698b74bdc0527e3f0dd7e74b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_CloseToMeshVolumeParams &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a45498eccc3d8ac2031c0136e8cf7d9f3" id="r_a45498eccc3d8ac2031c0136e8cf7d9f3"><td class="memItemLeft" align="right" valign="top"><a id="a45498eccc3d8ac2031c0136e8cf7d9f3" name="a45498eccc3d8ac2031c0136e8cf7d9f3"></a>
@@ -219,7 +205,7 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>closeDist</b>
 <tr class="memdesc:a45498eccc3d8ac2031c0136e8cf7d9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">a resulting voxel will get 1 if that voxel's center is not further than unsigned (closeDist) from the surface, and 0 otherwise <br /></td></tr>
 <tr class="separator:a45498eccc3d8ac2031c0136e8cf7d9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a368684fbef1ddfd51b33b5be05d91267" id="r_a368684fbef1ddfd51b33b5be05d91267"><td class="memItemLeft" align="right" valign="top"><a id="a368684fbef1ddfd51b33b5be05d91267" name="a368684fbef1ddfd51b33b5be05d91267"></a>
-unsafe <a class="el" href="classMR_1_1Const__DistanceVolumeParams.html">MR.Const_DistanceVolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vol</b><code> [get, protected set]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__DistanceVolumeParams.html">MR.Const_DistanceVolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vol</b><code> [get]</code></td></tr>
 <tr class="memdesc:a368684fbef1ddfd51b33b5be05d91267"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimensions, location, and scaling in world space of the expected volume <br /></td></tr>
 <tr class="separator:a368684fbef1ddfd51b33b5be05d91267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3deb2aed657eeef06a8c82100a39d65d" id="r_a3deb2aed657eeef06a8c82100a39d65d"><td class="memItemLeft" align="right" valign="top"><a id="a3deb2aed657eeef06a8c82100a39d65d" name="a3deb2aed657eeef06a8c82100a39d65d"></a>
@@ -231,6 +217,13 @@ unsafe MR.? <a class="el" href="classMR_1_1ConstBox__AffineXf3f.html">ConstBox_A
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_CloseToMeshVolumeParams &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CloseToMeshVolumeParams.html">MR.CloseToMeshVolumeParams</a></code>. This is the const half of the class. </p>

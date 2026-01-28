@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1LineSegm.html#aadd80884a169b1942afb5da781c1a137":[6,0,2,0,2,166,7],
 "structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e":[6,0,1,0,1,194,4],
 "structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e":[6,0,2,0,2,166,4],
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,1,0,1,194,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975":[6,0,0,17,4,0],
 "structMR_1_1MergeVolumePartSettings.html#afd642c0d879285bf9cfb4e609c2cd816":[6,0,0,17,4,6],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,20,0],
-"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,2,9,0]
+"structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,2,9,0],
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,20,0,0]
 };

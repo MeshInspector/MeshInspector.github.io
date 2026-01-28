@@ -1,8 +1,5 @@
 var NAVTREEINDEX150 =
 {
-"classMR_1_1__InOptMut__CNCMachineSettings.html":[6,3,0,0,0,1688],
-"classMR_1_1__InOptMut__ChangVoxelSelectionAction.html":[6,3,0,0,0,1681],
-"classMR_1_1__InOptMut__ChangeActiveBoxAction.html":[6,3,0,0,0,1642],
 "classMR_1_1__InOptMut__ChangeColoringType.html":[6,3,0,0,0,1643],
 "classMR_1_1__InOptMut__ChangeDualMarchingCubesAction.html":[6,3,0,0,0,1644],
 "classMR_1_1__InOptMut__ChangeFacesColorMapAction.html":[6,3,0,0,0,1645],
@@ -249,5 +246,8 @@ var NAVTREEINDEX150 =
 "classMR_1_1__InOptMut__IICPTreeIndexer.html":[6,3,0,0,0,1889],
 "classMR_1_1__InOptMut__IOFilter.html":[6,3,0,0,0,1901],
 "classMR_1_1__InOptMut__IPointPairs.html":[6,3,0,0,0,1902],
-"classMR_1_1__InOptMut__IPointsProjector.html":[6,3,0,0,0,1903]
+"classMR_1_1__InOptMut__IPointsProjector.html":[6,3,0,0,0,1903],
+"classMR_1_1__InOptMut__IPointsToMeshProjector.html":[6,3,0,0,0,1904],
+"classMR_1_1__InOptMut__IRenderObject.html":[6,3,0,0,0,1905],
+"classMR_1_1__InOptMut__Id__MRICPElemtTag.html":[6,3,0,0,0,1886]
 };

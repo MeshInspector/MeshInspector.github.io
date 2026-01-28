@@ -1,6 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"classMR_1_1PixelBitSet.html#ad80573675b8f90b8aeddfb94b8210848":[6,3,0,0,0,3717,29],
 "classMR_1_1PixelBitSet.html#ae026ee37521e35e965c2c2a93967b53d":[6,3,0,0,0,3717,25],
 "classMR_1_1PixelBitSet.html#af2483cd161fd89331438cf48695137e1":[6,3,0,0,0,3717,6],
 "classMR_1_1PlanarTriangulation.html":[6,3,0,0,0,3719],
@@ -18,10 +17,10 @@ var NAVTREEINDEX73 =
 "classMR_1_1PlanarTriangulation.html#ab54f5e80cd451829b80c779726084587":[6,3,0,0,0,3719,8],
 "classMR_1_1PlanarTriangulation.html#ac84e8c5f0eda99741cd16eb749ad76c2":[6,3,0,0,0,3719,11],
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html":[6,3,0,0,0,9,9],
+"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a36fd571e6e84765979b3c0bb5cd7e5d7":[6,3,0,0,0,9,9,3],
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a71036f0e83e936da506018455b64a346":[6,3,0,0,0,9,9,0],
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#aa73706a18abd34f1ae707c072017b8de":[6,3,0,0,0,9,9,1],
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#ab54f20f584023314da8028f21df36b22":[6,3,0,0,0,9,9,2],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#ada33417c5378e62698d0c58dd1bfb01a":[6,3,0,0,0,9,9,3],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html":[6,3,0,0,0,9,10],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a030dd0d3d6e8ee96e87a11438a61df74":[6,3,0,0,0,9,10,6],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a1d7aaae6b931f2d439e784eecd2c495c":[6,3,0,0,0,9,10,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX73 =
 "classMR_1_1Polynomial__Double__2.html#a5b2e6d800466dcee213707fe867a7da4":[6,3,0,0,0,3736,1],
 "classMR_1_1Polynomial__Double__2.html#af8cd7b4bd2bcc28581e4523b7319c0be":[6,3,0,0,0,3736,0],
 "classMR_1_1Polynomial__Double__3.html":[6,3,0,0,0,3737],
-"classMR_1_1Polynomial__Double__3.html#a81ed32eff912c06427daa8b78fe543cb":[6,3,0,0,0,3737,2]
+"classMR_1_1Polynomial__Double__3.html#a81ed32eff912c06427daa8b78fe543cb":[6,3,0,0,0,3737,2],
+"classMR_1_1Polynomial__Double__3.html#adcd627dc029b1b4e6421ef018587299d":[6,3,0,0,0,3737,0]
 };

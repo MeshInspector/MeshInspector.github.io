@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,1,0,1,256],
 "classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,2,0,2,228],
 "classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,1,0,1,256,1],
 "classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[6,0,2,0,2,228,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "classMR_1_1PriorityQueue.html#a7bf03b4612ec1dfe18e90b99153030cc":[6,0,2,0,2,248,5],
 "classMR_1_1PriorityQueue.html#aae44e735cc86835adbb6d48ff4a446ab":[6,0,1,0,1,276,3],
 "classMR_1_1PriorityQueue.html#aae44e735cc86835adbb6d48ff4a446ab":[6,0,2,0,2,248,3],
-"classMR_1_1PriorityQueue.html#ab6d4bc3f087a1d5b9e3acf5c3334f1af":[6,0,1,0,1,276,11]
+"classMR_1_1PriorityQueue.html#ab6d4bc3f087a1d5b9e3acf5c3334f1af":[6,0,1,0,1,276,11],
+"classMR_1_1PriorityQueue.html#ab6d4bc3f087a1d5b9e3acf5c3334f1af":[6,0,2,0,2,248,11]
 };

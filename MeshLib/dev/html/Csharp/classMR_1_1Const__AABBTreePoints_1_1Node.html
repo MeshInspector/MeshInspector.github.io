@@ -199,7 +199,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Node</b> ()</
 <tr class="memdesc:a74a972f6d6cbfdd1a10ee2030757219c inherit pub_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a74a972f6d6cbfdd1a10ee2030757219c inherit pub_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93aed39fe2108375c52409041efdda63 inherit pub_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_a93aed39fe2108375c52409041efdda63"><td class="memItemLeft" align="right" valign="top">
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Node</b> (<a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> box, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> l, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> r)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Node</b> (<a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> <a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html#a931b9ca1064a0a58a01d32deed242dc8">box</a>, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> <a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html#a029116b3190d362c249854b962a56504">l</a>, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> r)</td></tr>
 <tr class="memdesc:a93aed39fe2108375c52409041efdda63 inherit pub_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1AABBTreePoints_1_1Node.html">MR.AABBTreePoints.Node</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a93aed39fe2108375c52409041efdda63 inherit pub_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f4dc1212652f6de995a62e30ee5379 inherit pub_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_a03f4dc1212652f6de995a62e30ee5379"><td class="memItemLeft" align="right" valign="top">
@@ -217,8 +217,9 @@ unsafe <a class="el" href="classMR_1_1Std_1_1Pair__Int__Int.html">MR.Std.Pair_In
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a0aee5cfd5c239c9ca45d545df088cdd0" id="r_a0aee5cfd5c239c9ca45d545df088cdd0"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aee5cfd5c239c9ca45d545df088cdd0">box</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0aee5cfd5c239c9ca45d545df088cdd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; bounding box of whole subtree  <br /></td></tr>
+<tr class="memitem:a0aee5cfd5c239c9ca45d545df088cdd0" id="r_a0aee5cfd5c239c9ca45d545df088cdd0"><td class="memItemLeft" align="right" valign="top"><a id="a0aee5cfd5c239c9ca45d545df088cdd0" name="a0aee5cfd5c239c9ca45d545df088cdd0"></a>
+new unsafe ref <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>box</b><code> [get]</code></td></tr>
+<tr class="memdesc:a0aee5cfd5c239c9ca45d545df088cdd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">left child node for an inner node, or -(l+1) is the index of the first point in a leaf node <br /></td></tr>
 <tr class="separator:a0aee5cfd5c239c9ca45d545df088cdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12d96301f1b568829b60eecbf6ebeb34" id="r_a12d96301f1b568829b60eecbf6ebeb34"><td class="memItemLeft" align="right" valign="top"><a id="a12d96301f1b568829b60eecbf6ebeb34" name="a12d96301f1b568829b60eecbf6ebeb34"></a>
 new unsafe ref <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>l</b><code> [get]</code></td></tr>
@@ -230,9 +231,11 @@ new unsafe ref <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;<
 <tr class="inherit_header properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html">MR.Const_AABBTreePoints.Const_Node</a></td></tr>
 <tr class="memitem:a931b9ca1064a0a58a01d32deed242dc8 inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_a931b9ca1064a0a58a01d32deed242dc8"><td class="memItemLeft" align="right" valign="top">
 unsafe ref readonly <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>box</b><code> [get]</code></td></tr>
+<tr class="memdesc:a931b9ca1064a0a58a01d32deed242dc8 inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">left child node for an inner node, or -(l+1) is the index of the first point in a leaf node <br /></td></tr>
 <tr class="separator:a931b9ca1064a0a58a01d32deed242dc8 inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a029116b3190d362c249854b962a56504 inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_a029116b3190d362c249854b962a56504"><td class="memItemLeft" align="right" valign="top">
 unsafe ref readonly <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>l</b><code> [get]</code></td></tr>
+<tr class="memdesc:a029116b3190d362c249854b962a56504 inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">right child node for an inner node, or -(r+1) is the index of the last point in a leaf node <br /></td></tr>
 <tr class="separator:a029116b3190d362c249854b962a56504 inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3501b13ebf973231780ffabd7b3bbff inherit properties_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_aa3501b13ebf973231780ffabd7b3bbff"><td class="memItemLeft" align="right" valign="top">
 unsafe ref readonly <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>r</b><code> [get]</code></td></tr>
@@ -249,18 +252,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad40b4ec12a8ee80ad8ff5f0160cc9978 inherit pro_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_ad40b4ec12a8ee80ad8ff5f0160cc9978"><td class="memItemLeft" align="right" valign="top">
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:ad40b4ec12a8ee80ad8ff5f0160cc9978 inherit pro_methods_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html">MR.Const_AABBTreePoints.Const_Node</a></td></tr>
-<tr class="memitem:abc2593cb7075310cf72cca24a51a3581 inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_abc2593cb7075310cf72cca24a51a3581"><td class="memItemLeft" align="right" valign="top">
-unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_box</b></td></tr>
-<tr class="memdesc:abc2593cb7075310cf72cca24a51a3581 inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">left child node for an inner node, or -(l+1) is the index of the first point in a leaf node <br /></td></tr>
-<tr class="separator:abc2593cb7075310cf72cca24a51a3581 inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af70ad257d8bfb7d2904012b786c94790 inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_af70ad257d8bfb7d2904012b786c94790"><td class="memItemLeft" align="right" valign="top">
-unsafe <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_l</b></td></tr>
-<tr class="memdesc:af70ad257d8bfb7d2904012b786c94790 inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">right child node for an inner node, or -(r+1) is the index of the last point in a leaf node <br /></td></tr>
-<tr class="separator:af70ad257d8bfb7d2904012b786c94790 inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adadd2d20d2ac5fbf4c775921a065748a inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node" id="r_adadd2d20d2ac5fbf4c775921a065748a"><td class="memItemLeft" align="right" valign="top">
-unsafe <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_r</b></td></tr>
-<tr class="separator:adadd2d20d2ac5fbf4c775921a065748a inherit pro_attribs_classMR_1_1Const__AABBTreePoints_1_1Const__Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Node &gt;</a></td></tr>
 <tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
@@ -268,33 +259,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1AABBTreePoints_1_1Node.html">MR.AABBTreePoints.Node</a></code>. This is the non-const half of the class. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a id="a0aee5cfd5c239c9ca45d545df088cdd0" name="a0aee5cfd5c239c9ca45d545df088cdd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aee5cfd5c239c9ca45d545df088cdd0">&#9670;&#160;</a></span>box</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">new unsafe ref <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> MR.Const_AABBTreePoints.Node.box</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>&lt; bounding box of whole subtree </p>
-<p>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><b>MRAABBTreePoints.cs</b></li>
 </ul>
 </div><!-- contents -->

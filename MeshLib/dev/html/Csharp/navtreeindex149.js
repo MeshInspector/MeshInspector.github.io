@@ -1,8 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"classMR_1_1__InOptConst__Vector__Int__MRUndirectedEdgeId.html":[6,3,0,0,0,1452],
-"classMR_1_1__InOptConst__Vector__Int__MRUndirectedEdgeId.html#a15d914fe1f33f9ba1b2ab34d1add90c0":[6,3,0,0,0,1452,0],
-"classMR_1_1__InOptConst__Vector__Int__MRVertId.html":[6,3,0,0,0,1453],
 "classMR_1_1__InOptConst__Vector__Int__MRVertId.html#a1480b2d3fb363cc0ea135e90201f27be":[6,3,0,0,0,1453,0],
 "classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html":[6,3,0,0,0,1454],
 "classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a32c96f8bbb48f0d8ee45c7db6752ef2f":[6,3,0,0,0,1454,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX149 =
 "classMR_1_1__InOptMut__Buffer__MRVertId.html":[6,3,0,0,0,1638],
 "classMR_1_1__InOptMut__Buffer__MRVertId__MRVertId.html":[6,3,0,0,0,1639],
 "classMR_1_1__InOptMut__Buffer__MRVoxelId__MRVoxelId.html":[6,3,0,0,0,1640],
-"classMR_1_1__InOptMut__Buffer__UnsignedChar.html":[6,3,0,0,0,1641]
+"classMR_1_1__InOptMut__Buffer__UnsignedChar.html":[6,3,0,0,0,1641],
+"classMR_1_1__InOptMut__CNCMachineSettings.html":[6,3,0,0,0,1688],
+"classMR_1_1__InOptMut__ChangVoxelSelectionAction.html":[6,3,0,0,0,1681],
+"classMR_1_1__InOptMut__ChangeActiveBoxAction.html":[6,3,0,0,0,1642]
 };

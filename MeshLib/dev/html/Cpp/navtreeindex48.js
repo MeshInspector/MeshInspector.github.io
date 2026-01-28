@@ -1,6 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9":[6,0,0,0,64],
 "group__MathGroup.html#ga38bf09e48cc1f340d50f86e96d6cc15c":[6,0,0,0,52],
 "group__MathGroup.html#ga3a19f42616def07ddf8bbf9e7dfff991":[6,0,0,0,41],
 "group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0":[6,0,0,0,29],
@@ -249,5 +248,6 @@ var NAVTREEINDEX48 =
 "group__PointCloudComponentsGroup.html#ga14df913179759fda2f2122b83b643423":[6,0,0,19,1,3],
 "group__PointCloudComponentsGroup.html#ga96d04280c74669348a5a1a121f860883":[6,0,0,19,1,1],
 "group__PointCloudComponentsGroup.html#gac22fef282be15fa19c019501c0b5e92b":[6,0,0,19,1,0],
-"group__PointCloudComponentsGroup.html#gae7a32b050223cbf6c42329521657f9a8":[6,0,0,19,1,4]
+"group__PointCloudComponentsGroup.html#gae7a32b050223cbf6c42329521657f9a8":[6,0,0,19,1,4],
+"group__PointCloudComponentsGroup.html#gaf9095649bbc7febf7cf56b9b88cf267f":[6,0,0,19,1,2]
 };

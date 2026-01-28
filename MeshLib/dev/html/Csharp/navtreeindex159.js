@@ -1,8 +1,5 @@
 var NAVTREEINDEX159 =
 {
-"structMR_1_1Matrix4b.html#a8ee10845b8977a778f7370d714035cb9":[6,3,0,0,0,3651,24],
-"structMR_1_1Matrix4b.html#aaafb76acd186eedae54775c73787f05a":[6,3,0,0,0,3651,35],
-"structMR_1_1Matrix4b.html#aad54d3427c23d9c0c0d710ae4361a3a9":[6,3,0,0,0,3651,30],
 "structMR_1_1Matrix4b.html#ab330023efe3bd425b69471c6ee51d81c":[6,3,0,0,0,3651,16],
 "structMR_1_1Matrix4b.html#abe9e5a77e5b470fb7cbee32d6e3d0285":[6,3,0,0,0,3651,6],
 "structMR_1_1Matrix4b.html#abf10b47c32b6a4a2d955dffd1f967d17":[6,3,0,0,0,3651,27],
@@ -249,5 +246,8 @@ var NAVTREEINDEX159 =
 "structMR_1_1PtrAffineXf3f.html":[6,3,0,0,0,3750],
 "structMR_1_1PtrBooleanResultMapperMaps.html":[6,3,0,0,0,3751],
 "structMR_1_1PtrColor.html":[6,3,0,0,0,3752],
-"structMR_1_1PtrEdgeId.html":[6,3,0,0,0,3753]
+"structMR_1_1PtrEdgeId.html":[6,3,0,0,0,3753],
+"structMR_1_1PtrFaceId.html":[6,3,0,0,0,3754],
+"structMR_1_1PtrGraphEdgeId.html":[6,3,0,0,0,3755],
+"structMR_1_1PtrGraphVertId.html":[6,3,0,0,0,3756]
 };

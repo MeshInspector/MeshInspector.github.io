@@ -150,8 +150,6 @@ $(function(){initNavTree('classMR_1_1Const__SegmPointf.html',''); initResizable(
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__SegmPointf-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_SegmPointf Class Reference</div></div>
@@ -244,27 +242,11 @@ Protected Member Functions</h2></td></tr>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a25da3e1c6141ed454d4b3b4e295ff9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:aad898023683bea2e01bdd6dc2c6520d2" id="r_aad898023683bea2e01bdd6dc2c6520d2"><td class="memItemLeft" align="right" valign="top"><a id="aad898023683bea2e01bdd6dc2c6520d2" name="aad898023683bea2e01bdd6dc2c6520d2"></a>
-unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_a</b></td></tr>
-<tr class="separator:aad898023683bea2e01bdd6dc2c6520d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SegmPointf &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a85d3e2bc35de7b68b4638d5cf095aee2" id="r_a85d3e2bc35de7b68b4638d5cf095aee2"><td class="memItemLeft" align="right" valign="top"><a id="a85d3e2bc35de7b68b4638d5cf095aee2" name="a85d3e2bc35de7b68b4638d5cf095aee2"></a>
-static unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_Eps</b></td></tr>
-<tr class="memdesc:a85d3e2bc35de7b68b4638d5cf095aee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 <br /></td></tr>
-<tr class="separator:a85d3e2bc35de7b68b4638d5cf095aee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aac3c3ae6ea7643f28d8b8ff942469aca" id="r_aac3c3ae6ea7643f28d8b8ff942469aca"><td class="memItemLeft" align="right" valign="top"><a id="aac3c3ae6ea7643f28d8b8ff942469aca" name="aac3c3ae6ea7643f28d8b8ff942469aca"></a>
 static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>Eps</b><code> [get]</code></td></tr>
+<tr class="memdesc:aac3c3ae6ea7643f28d8b8ff942469aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 <br /></td></tr>
 <tr class="separator:aac3c3ae6ea7643f28d8b8ff942469aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab44283c404aeda8270c0b0c921d1ea32" id="r_ab44283c404aeda8270c0b0c921d1ea32"><td class="memItemLeft" align="right" valign="top"><a id="ab44283c404aeda8270c0b0c921d1ea32" name="ab44283c404aeda8270c0b0c921d1ea32"></a>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>a</b><code> [get]</code></td></tr>
@@ -274,6 +256,13 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>a</b><code> [
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SegmPointf &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>encodes a point inside a line segment using relative distance in [0,1] Generated from class <code><a class="el" href="classMR_1_1SegmPointf.html" title="encodes a point inside a line segment using relative distance in [0,1] Generated from class MR....">MR.SegmPointf</a></code>. This is the const half of the class. </p>

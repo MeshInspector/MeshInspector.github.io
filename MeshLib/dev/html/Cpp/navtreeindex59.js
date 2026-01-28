@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,1,0,1,123,0],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[6,0,2,0,2,95,0],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[6,0,1,0,1,123,0,2],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[6,0,2,0,2,95,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,2,0,2,131,2],
 "structMR_1_1IdRange.html":[6,0,0,3,5],
 "structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[6,0,0,3,5,0],
-"structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0":[6,0,0,3,5,1]
+"structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0":[6,0,0,3,5,1],
+"structMR_1_1IdRange.html#aff5326f04115631dc2ec0096a162fc58":[6,0,0,3,5,2]
 };

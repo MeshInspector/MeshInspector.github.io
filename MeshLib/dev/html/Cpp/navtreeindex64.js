@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,11,14,0,2,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300":[6,0,0,11,14,0,2,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9":[6,0,0,11,14,0,10],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a3020a0b0e97313d239308d5d16c7f9f3":[6,0,0,11,14,0,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "structMR_1_1PolylineProjectionResult.html":[6,0,0,1,32],
 "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[6,0,0,1,32,3],
 "structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[6,0,0,1,32,0],
-"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[6,0,0,1,32,1]
+"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[6,0,0,1,32,1],
+"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[6,0,0,1,32,2]
 };

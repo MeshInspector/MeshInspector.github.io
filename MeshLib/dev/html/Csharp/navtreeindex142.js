@@ -1,8 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#a40dad51fa6e81737e341cf31cc20e6a3":[6,3,0,0,0,15,20,1],
-"classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#a40e411a419e6b70240c1fc08e32a7d7c":[6,3,0,0,0,15,20,2],
-"classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aa1a3152e58dd2597cbe644d2279bb98e":[6,3,0,0,0,15,20,3],
 "classMR_1_1VoxelsLoad_1_1__ByValue__DicomStatus.html":[6,3,0,0,0,15,0],
 "classMR_1_1VoxelsLoad_1_1__ByValue__DicomVolume.html":[6,3,0,0,0,15,1],
 "classMR_1_1VoxelsLoad_1_1__ByValue__DicomVolumeAsVdb.html":[6,3,0,0,0,15,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX142 =
 "classMR_1_1__ByValueShared__CombinedHistoryAction.html":[6,3,0,0,0,566],
 "classMR_1_1__ByValueShared__ConeObject.html":[6,3,0,0,0,567],
 "classMR_1_1__ByValueShared__ConeObject.html#aec4fd18c9abaaf5cf175ba32ce67e387":[6,3,0,0,0,567,0],
-"classMR_1_1__ByValueShared__CylinderObject.html":[6,3,0,0,0,568]
+"classMR_1_1__ByValueShared__CylinderObject.html":[6,3,0,0,0,568],
+"classMR_1_1__ByValueShared__CylinderObject.html#a3f9c74176ca49001d67ccc8e45e7e8b9":[6,3,0,0,0,568,0],
+"classMR_1_1__ByValueShared__DistanceMap.html":[6,3,0,0,0,569],
+"classMR_1_1__ByValueShared__DistanceMap.html#abc80308a3943b09b871b74dd7c49a01f":[6,3,0,0,0,569,0]
 };
