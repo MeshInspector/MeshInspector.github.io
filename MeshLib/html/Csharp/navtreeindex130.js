@@ -1,16 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"classMR_1_1Std_1_1__InOptConst__Pair__MRFace2RegionMap__Int.html":[6,3,0,0,0,3803,423],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRFaceBitSet__Int.html":[6,3,0,0,0,3803,424],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRFaceBitSet__MRFaceBitSet.html":[6,3,0,0,0,3803,425],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRFaceId__Bool.html":[6,3,0,0,0,3803,426],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRGraphEdgeId__Float.html":[6,3,0,0,0,3803,427],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRPolyline2__MRAffineXf3f.html":[6,3,0,0,0,3803,428],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRUint64T__MRUint64T.html":[6,3,0,0,0,3803,429],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRUndirectedEdgeBitSet__MRUndirectedEdgeBitSet.html":[6,3,0,0,0,3803,430],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRUndirectedEdgeId__Bool.html":[6,3,0,0,0,3803,431],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRVector3d__MRVector3d.html":[6,3,0,0,0,3803,432],
-"classMR_1_1Std_1_1__InOptConst__Pair__MRVector3f__MRVector3f.html":[6,3,0,0,0,3803,433],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRVertId__Bool.html":[6,3,0,0,0,3803,434],
 "classMR_1_1Std_1_1__InOptConst__Pair__MRVertId__MRVertId.html":[6,3,0,0,0,3803,435],
 "classMR_1_1Std_1_1__InOptConst__Pair__StdString__Float.html":[6,3,0,0,0,3803,436],
@@ -249,5 +238,16 @@ var NAVTREEINDEX130 =
 "classMR_1_1Std_1_1__InOptConst__Vector__StdFilesystemPath.html":[6,3,0,0,0,3803,571],
 "classMR_1_1Std_1_1__InOptConst__Vector__StdPairDoubleInt.html":[6,3,0,0,0,3803,572],
 "classMR_1_1Std_1_1__InOptConst__Vector__StdPairMREdgeIdMREdgeId.html":[6,3,0,0,0,3803,573],
-"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMRUint64TMRUint64T.html":[6,3,0,0,0,3803,574]
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMRUint64TMRUint64T.html":[6,3,0,0,0,3803,574],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMRVector3fMRVector3f.html":[6,3,0,0,0,3803,575],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairMRVertIdMRVertId.html":[6,3,0,0,0,3803,576],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdPairStdStringFloat.html":[6,3,0,0,0,3803,577],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrConstMRObject.html":[6,3,0,0,0,3803,578],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRBasicUiRenderTask.html":[6,3,0,0,0,3803,579],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRHistoryAction.html":[6,3,0,0,0,3803,580],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRMesh.html":[6,3,0,0,0,3803,581],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRObject.html":[6,3,0,0,0,3803,582],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRObjectLines.html":[6,3,0,0,0,3803,583],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRObjectMesh.html":[6,3,0,0,0,3803,584],
+"classMR_1_1Std_1_1__InOptConst__Vector__StdSharedPtrMRObjectPoints.html":[6,3,0,0,0,3803,585]
 };

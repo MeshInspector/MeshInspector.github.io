@@ -1,5 +1,8 @@
 var classmrmeshpy_1_1VisualObject =
 [
+    [ "__init__", "classmrmeshpy_1_1VisualObject.html#a3aa4d51e5d881a8faec9b51637da6364", null ],
+    [ "className", "classmrmeshpy_1_1VisualObject.html#a6c501c1b9481a182be58e284667177d2", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1VisualObject.html#a79a6c850c880283962836f4f7c7775ca", null ],
     [ "clone", "classmrmeshpy_1_1VisualObject.html#a1aeb8f658d1ec828372eb5f234f696fd", null ],
     [ "copyAllSolidColors", "classmrmeshpy_1_1VisualObject.html#ae752ebe42b1366e48661b9f506530f7e", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1VisualObject.html#a99a68c12bda4b4c07f5ba725b2b2af59", null ],
@@ -50,5 +53,6 @@ var classmrmeshpy_1_1VisualObject =
     [ "showName", "classmrmeshpy_1_1VisualObject.html#a1982e8baf3d180cb968085525a988ec4", null ],
     [ "supportsVisualizeProperty", "classmrmeshpy_1_1VisualObject.html#af397dd03ebfb70c972d3c4b39e52fc51", null ],
     [ "toggleVisualizeProperty", "classmrmeshpy_1_1VisualObject.html#afccac4560acbe3eb1403c494d2d9b197", null ],
+    [ "typeName", "classmrmeshpy_1_1VisualObject.html#a0e188ed95f73756841030840741720e9", null ],
     [ "useDefaultScenePropertiesOnDeserialization", "classmrmeshpy_1_1VisualObject.html#a5e25b63c3965dc9f65f914e80f164bbd", null ]
 ];

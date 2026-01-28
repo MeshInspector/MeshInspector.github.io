@@ -1,10 +1,15 @@
 var classMR_1_1PlanarTriangulation =
 [
+    [ "ContourIdMap", "../Cpp/namespaceMR_1_1PlanarTriangulation.html#a15dafb65753964c596e32bd173142aba", null ],
+    [ "ContoursIdMap", "../Cpp/namespaceMR_1_1PlanarTriangulation.html#a2861b59a4ea1236fc77b874053b4245a", null ],
+    [ "HolesVertIds", "../Cpp/namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9", null ],
+    [ "HoleVertIds", "../Cpp/namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b", null ],
     [ "WindingMode", "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bf", [
       [ "NonZero", "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3d0365a27a39c0af183445fc4d932a8a", null ],
       [ "Positive", "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3289297424e01eda5b788c083bbf3147", null ],
       [ "Negative", "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfaffb9356ff2b7da85c75c92fa7ea03b8b", null ]
     ] ],
+    [ "WindingMode", "../Cpp/namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9", null ],
     [ "findHoleVertIdsByHoleEdges", "classMR_1_1PlanarTriangulation.html#aabce6890184b20ef505396e0d9e07014", null ],
     [ "getOutline", "classMR_1_1PlanarTriangulation.html#a284e7bebb8b5ffd5cb288277726bd05d", null ],
     [ "getOutline", "classMR_1_1PlanarTriangulation.html#ab54f5e80cd451829b80c779726084587", null ],

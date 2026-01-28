@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1PointCloud =
 [
+    [ "__init__", "classmrmeshpy_1_1PointCloud.html#aa2f848dd7a5e46e9bd2fa378c093f916", null ],
     [ "__init__", "classmrmeshpy_1_1PointCloud.html#a86e40c6a1001156cfa613a0235a2cece", null ],
     [ "addPartByMask", "classmrmeshpy_1_1PointCloud.html#a2c97d52855050d84a8400ea50cf92ef3", null ],
     [ "addPoint", "classmrmeshpy_1_1PointCloud.html#a8884527c29d8dd443384b53c12dc0682", null ],
@@ -20,9 +21,12 @@ var classmrmeshpy_1_1PointCloud =
     [ "invalidateCaches", "classmrmeshpy_1_1PointCloud.html#acf845dbd3aa2ff71ae51238f253f8d64", null ],
     [ "mirror", "classmrmeshpy_1_1PointCloud.html#a490b143eb3c4b3a1c4203c65a4fdc410", null ],
     [ "normals", "classmrmeshpy_1_1PointCloud.html#a23972a978f8a795836fd5e38807a05ff", null ],
+    [ "normals", "classmrmeshpy_1_1PointCloud.html#a0591486b7bf01ea95aea10217793ac6f", null ],
     [ "pack", "classmrmeshpy_1_1PointCloud.html#a0b6ffbd591fab78a902f2d8daa21a62e", null ],
     [ "pack", "classmrmeshpy_1_1PointCloud.html#abad135ceb97f77b6fa9716df1f56b33f", null ],
     [ "points", "classmrmeshpy_1_1PointCloud.html#acdb67f6989ea8100aac560a5bcc83e04", null ],
+    [ "points", "classmrmeshpy_1_1PointCloud.html#a2dc299344e09bed9a7da1f5b9b7767b2", null ],
     [ "transform", "classmrmeshpy_1_1PointCloud.html#aaf28b2aad97713fad7d07fe07fb4f69c", null ],
-    [ "validPoints", "classmrmeshpy_1_1PointCloud.html#a2f4c4855c5051fd1fc2918cfad3d7a2f", null ]
+    [ "validPoints", "classmrmeshpy_1_1PointCloud.html#a2f4c4855c5051fd1fc2918cfad3d7a2f", null ],
+    [ "validPoints", "classmrmeshpy_1_1PointCloud.html#a813b622257c03e198e33d69198f69d34", null ]
 ];

@@ -148,14 +148,14 @@ $(function(){initNavTree('MRChangeScaleAction_8h_source.html',''); initResizable
   <div class="headertitle"><div class="title">MRChangeScaleAction.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRHistoryAction.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRObject.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRVisualObject.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRHeapBytes.h&quot;</span></div>
+<a href="MRChangeScaleAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRObject_8h.html">MRObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVisualObject_8h.html">MRVisualObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRHeapBytes_8h.html">MRHeapBytes.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>ChangeScaleAction : <span class="keyword">public</span> HistoryAction</div>
@@ -163,16 +163,16 @@ $(function(){initNavTree('MRChangeScaleAction_8h_source.html',''); initResizable
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangeScaleAction.html#a2764e98ddb249e87b5c613fd806460af">ChangeScaleAction</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; obj, <span class="keywordtype">float</span> scale ) :</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        obj_{ obj },</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_{ name }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_{ <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            obj-&gt;applyScale(scale);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            scale_ = 1.0f / scale;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            scale_ = 1.0f / <a class="code hl_function" href="namespaceMR_1_1UI.html#a5d2fd1d58ef16bcced4cfefc67d2c023">scale</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
@@ -198,16 +198,22 @@ $(function(){initNavTree('MRChangeScaleAction_8h_source.html',''); initResizable
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>};</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}</div>
+<div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
+<div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
+<div class="ttc" id="aMRObject_8h_html"><div class="ttname"><a href="MRObject_8h.html">MRObject.h</a></div></div>
+<div class="ttc" id="aMRVisualObject_8h_html"><div class="ttname"><a href="MRVisualObject_8h.html">MRVisualObject.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeScaleAction_html_a2764e98ddb249e87b5c613fd806460af"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeScaleAction.html#a2764e98ddb249e87b5c613fd806460af">MR::ChangeScaleAction::ChangeScaleAction</a></div><div class="ttdeci">unsafe ChangeScaleAction(MR._ByValue_ChangeScaleAction _other)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeScaleAction_html_ab1674053823891c4410791c50ec58af2"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeScaleAction.html#ab1674053823891c4410791c50ec58af2">MR::ChangeScaleAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type _1)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1Features_html_a1f7d6b7fed16c703a284c2013da802e2"><div class="ttname"><a href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">MR::Features::name</a></div><div class="ttdeci">std::string name(const T &amp;primitive)</div><div class="ttdef"><b>Definition</b> MRFeatures.h:309</div></div>
+<div class="ttc" id="anamespaceMR_1_1UI_html_a5d2fd1d58ef16bcced4cfefc67d2c023"><div class="ttname"><a href="namespaceMR_1_1UI.html#a5d2fd1d58ef16bcced4cfefc67d2c023">MR::UI::scale</a></div><div class="ttdeci">MRVIEWER_API float scale()</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRChangeScaleAction.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRChangeScaleAction_8h.html">MRChangeScaleAction.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

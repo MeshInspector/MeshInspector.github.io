@@ -1,6 +1,7 @@
 var classMR_1_1UnionFind =
 [
     [ "SizeType", "classMR_1_1UnionFind.html#ad07cce64defb1fcef686551aecfd55d0", null ],
+    [ "UnionFind", "classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1", null ],
     [ "UnionFind", "classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006", null ],
     [ "find", "classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b", null ],
     [ "findUpdateRange", "classMR_1_1UnionFind.html#abf32e7c70e8d67a82d759ad44a5b08c1", null ],

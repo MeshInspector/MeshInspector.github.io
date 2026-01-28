@@ -148,24 +148,24 @@ $(function(){initNavTree('MRAncillaryPoints_8h_source.html',''); initResizable(t
   <div class="headertitle"><div class="title">MRAncillaryPoints.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRAncillaryPoints_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html">   11</a></span><span class="keyword">struct </span>MRVIEWER_CLASS <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    std::shared_ptr&lt;ObjectPoints&gt; obj;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e">   13</a></span>    std::shared_ptr&lt;ObjectPoints&gt; <a class="code hl_variable" href="structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e">obj</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15">   15</a></span>    <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15">AncillaryPoints</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978">   18</a></span>    <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978">AncillaryPoints</a>( <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a> &amp;&amp; b ) <span class="keyword">noexcept</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a> &amp; operator =( <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a> &amp;&amp; b ) { reset(); obj = std::move( b.obj ); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#aecec1c034a47b9b7d102ba9bf6366869">   19</a></span>    <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a> &amp; operator =( <a class="code hl_struct" href="structMR_1_1AncillaryPoints.html">AncillaryPoints</a> &amp;&amp; b ) { reset(); obj = std::move( b.obj ); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b">   22</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b">AncillaryPoints</a>( <a class="code hl_classRef" href="../Csharp/classMR_1_1Object.html">Object</a>&amp; parent ) { make( parent ); }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
@@ -188,8 +188,9 @@ $(function(){initNavTree('MRAncillaryPoints_8h_source.html',''); initResizable(t
 </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="../Csharp/classMR_1_1Object.html">MR::Object</a></div><div class="ttdef"><b>Definition</b> MRObject.h:62</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html">MR::AncillaryPoints</a></div><div class="ttdoc">Helper class to manage ancillary visual points used by plugins.</div><div class="ttdef"><b>Definition</b> MRAncillaryPoints.h:12</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html_a0cdf55740b5048f21da661679c6deddc"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc">MR::AncillaryPoints::addPoint</a></div><div class="ttdeci">MRVIEWER_API void addPoint(const Vector3f &amp;point, const Color &amp;color)</div><div class="ttdoc">add ancillary point with color</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html_a1053dde41fe1dfb09838cbc4f556f23b"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b">MR::AncillaryPoints::AncillaryPoints</a></div><div class="ttdeci">AncillaryPoints(Object &amp;parent)</div><div class="ttdoc">Make not-pickable object, link it to parent object.</div><div class="ttdef"><b>Definition</b> MRAncillaryPoints.h:22</div></div>
@@ -201,6 +202,8 @@ $(function(){initNavTree('MRAncillaryPoints_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html_a537fa4e2293d1858a80b7317ee1f6143"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143">MR::AncillaryPoints::setDepthTest</a></div><div class="ttdeci">MRVIEWER_API void setDepthTest(bool depthTest)</div><div class="ttdoc">Set depth test.</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html_a63a0097eb35e67be4a2ea6f2d5f98402"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402">MR::AncillaryPoints::addPoint</a></div><div class="ttdeci">MRVIEWER_API void addPoint(const Vector3f &amp;point)</div><div class="ttdoc">add ancillary point</div></div>
 <div class="ttc" id="astructMR_1_1AncillaryPoints_html_a7bf2502c9af68ddef2828358eedb94b8"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8">MR::AncillaryPoints::make</a></div><div class="ttdeci">MRVIEWER_API void make(Object &amp;parent)</div><div class="ttdoc">Make not-pickable object, link it to parent object.</div></div>
+<div class="ttc" id="astructMR_1_1AncillaryPoints_html_ac4c339d58512495cb88f10f474fb120e"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#ac4c339d58512495cb88f10f474fb120e">MR::AncillaryPoints::obj</a></div><div class="ttdeci">std::shared_ptr&lt; ObjectPoints &gt; obj</div><div class="ttdef"><b>Definition</b> MRAncillaryPoints.h:13</div></div>
+<div class="ttc" id="astructMR_1_1AncillaryPoints_html_af6fa967b33227eb24738dbe16aa90a15"><div class="ttname"><a href="structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15">MR::AncillaryPoints::AncillaryPoints</a></div><div class="ttdeci">AncillaryPoints()=default</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:9</div></div>
 <div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -209,7 +212,7 @@ $(function(){initNavTree('MRAncillaryPoints_8h_source.html',''); initResizable(t
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><b>MRAncillaryPoints.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRAncillaryPoints_8h.html">MRAncillaryPoints.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

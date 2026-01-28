@@ -1,6 +1,8 @@
 var classmrmeshpy_1_1AngleMeasurementObject =
 [
     [ "__init__", "classmrmeshpy_1_1AngleMeasurementObject.html#a44e5094398c2d722e8f76c60d0457965", null ],
+    [ "className", "classmrmeshpy_1_1AngleMeasurementObject.html#a148d788c52ccf9f86beaf838efb78957", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1AngleMeasurementObject.html#a23b13a0a863e744cd0334bdb2d49133e", null ],
     [ "clone", "classmrmeshpy_1_1AngleMeasurementObject.html#a12dc6efe8b7d81f30825123b91ac1082", null ],
     [ "computeAngle", "classmrmeshpy_1_1AngleMeasurementObject.html#a45a177075898ce7073cd3a0e7328abdc", null ],
     [ "getInfoLines", "classmrmeshpy_1_1AngleMeasurementObject.html#a98de414aae00a3243da639cc137b828a", null ],
@@ -10,7 +12,10 @@ var classmrmeshpy_1_1AngleMeasurementObject =
     [ "getShouldVisualizeRay", "classmrmeshpy_1_1AngleMeasurementObject.html#ab3f5cf518233a4bc32df8c58c986e52e", null ],
     [ "getWorldPoint", "classmrmeshpy_1_1AngleMeasurementObject.html#a994751fa19f3ba7ae85ac8bdb882610b", null ],
     [ "getWorldRay", "classmrmeshpy_1_1AngleMeasurementObject.html#ae62583f8e8b4d989fe0a4a03fdc9bda7", null ],
+    [ "setIsConical", "classmrmeshpy_1_1AngleMeasurementObject.html#a2273530e7a9b3bd3afa65007495f07b5", null ],
     [ "setLocalPoint", "classmrmeshpy_1_1AngleMeasurementObject.html#a7be3ff13d6bc1215d034d2310dbdb534", null ],
     [ "setLocalRays", "classmrmeshpy_1_1AngleMeasurementObject.html#aca8b9bd9f8ce5672f4daecf15560aa88", null ],
-    [ "shallowClone", "classmrmeshpy_1_1AngleMeasurementObject.html#a1d2bfb619159fc0a3c31e5f8e4c5e855", null ]
+    [ "setShouldVisualizeRay", "classmrmeshpy_1_1AngleMeasurementObject.html#a58a2966be7661db6d48a5363616db200", null ],
+    [ "shallowClone", "classmrmeshpy_1_1AngleMeasurementObject.html#a1d2bfb619159fc0a3c31e5f8e4c5e855", null ],
+    [ "typeName", "classmrmeshpy_1_1AngleMeasurementObject.html#a880d2862b045f9d6bbcf6ba21311b584", null ]
 ];

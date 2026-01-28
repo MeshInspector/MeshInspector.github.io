@@ -6,6 +6,8 @@ var classmrmeshpy_1_1WatershedGraph =
     [ "__init__", "classmrmeshpy_1_1WatershedGraph.html#adf232ea255ab4607114cbb5e05595531", null ],
     [ "__init__", "classmrmeshpy_1_1WatershedGraph.html#ab07c4e2ea320c40b72cdde1b20b56676", null ],
     [ "basinInfo", "classmrmeshpy_1_1WatershedGraph.html#ab6babb1eaba19b87f707b06f93b65b7d", null ],
+    [ "basinInfo", "classmrmeshpy_1_1WatershedGraph.html#ab6babb1eaba19b87f707b06f93b65b7d", null ],
+    [ "bdInfo", "classmrmeshpy_1_1WatershedGraph.html#a2c9e83ee31f89e4601e4de67686fc60a", null ],
     [ "bdInfo", "classmrmeshpy_1_1WatershedGraph.html#a2c9e83ee31f89e4601e4de67686fc60a", null ],
     [ "computeBasinVolume", "classmrmeshpy_1_1WatershedGraph.html#a96c04081c36f5a5ce1d41b8926b5cfc5", null ],
     [ "findLowestBd", "classmrmeshpy_1_1WatershedGraph.html#a83b1a7323fdcf21c626983a5a476b4ea", null ],

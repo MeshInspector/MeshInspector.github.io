@@ -1,6 +1,8 @@
 var classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty =
 [
     [ "ReachedVert", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert" ],
+    [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#ad6d59fa56c12f3b2a162e32378201bcd", null ],
+    [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a6c11416670b874ffef55a72bb27f6d55", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c", null ],
     [ "addOrgRingSteps", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100", null ],
     [ "addStart", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066", null ],

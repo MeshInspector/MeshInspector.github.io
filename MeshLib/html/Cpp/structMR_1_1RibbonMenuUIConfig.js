@@ -1,5 +1,6 @@
 var structMR_1_1RibbonMenuUIConfig =
 [
+    [ "operator==", "structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e", null ],
     [ "centerRibbonItems", "structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341", null ],
     [ "drawNotifications", "structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e", null ],
     [ "drawScenePanel", "structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce", null ],

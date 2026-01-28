@@ -146,25 +146,32 @@ $(function(){initNavTree('classMR_1_1FixUndercuts.html',''); initResizable(true)
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1FixUndercuts-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.FixUndercuts Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:afb7dbf2667211aa9d31565ef2d4ad13d" id="r_afb7dbf2667211aa9d31565ef2d4ad13d"><td class="memItemLeft" align="right" valign="top"><a id="afb7dbf2667211aa9d31565ef2d4ad13d" name="afb7dbf2667211aa9d31565ef2d4ad13d"></a>
+typedef std::function&lt; double(const <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a> &amp;, const FindParams &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#afb7dbf2667211aa9d31565ef2d4ad13d">UndercutMetric</a></td></tr>
+<tr class="separator:afb7dbf2667211aa9d31565ef2d4ad13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abba43d841c90eddd085e1e43f3d772c9" id="r_abba43d841c90eddd085e1e43f3d772c9"><td class="memItemLeft" align="right" valign="top"><a id="abba43d841c90eddd085e1e43f3d772c9" name="abba43d841c90eddd085e1e43f3d772c9"></a>
 static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>fix</b> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1FixUndercuts_1_1Const__FixParams.html">MR.FixUndercuts.Const_FixParams</a> params_)</td></tr>
-<tr class="memdesc:abba43d841c90eddd085e1e43f3d772c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes undercut areas by building vertical walls under it, algorithm is performed in voxel space, so the mesh is completely rebuilt after this operation Generated from function <code>MR.FixUndercuts.fix</code>. <br /></td></tr>
+<tr class="memdesc:abba43d841c90eddd085e1e43f3d772c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes undercut areas by building vertical walls under it, algorithm is performed in voxel space, so the mesh is completely rebuilt after this operation Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#a828027410a376eff4887e779d41e2ac7">MR.FixUndercuts.fix</a></code>. <br /></td></tr>
 <tr class="separator:abba43d841c90eddd085e1e43f3d772c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf937fa7d334303b69f97cabdbdabbe2" id="r_adf937fa7d334303b69f97cabdbdabbe2"><td class="memItemLeft" align="right" valign="top"><a id="adf937fa7d334303b69f97cabdbdabbe2" name="adf937fa7d334303b69f97cabdbdabbe2"></a>
 static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html">MR.Std.Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getUndercutAreaMetric</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh)</td></tr>
-<tr class="memdesc:adf937fa7d334303b69f97cabdbdabbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes total area of undercut faces Generated from function <code>MR.FixUndercuts.getUndercutAreaMetric</code>. <br /></td></tr>
+<tr class="memdesc:adf937fa7d334303b69f97cabdbdabbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes total area of undercut faces Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#a6103a164b0037795960a4ecc185199cc">MR.FixUndercuts.getUndercutAreaMetric</a></code>. <br /></td></tr>
 <tr class="separator:adf937fa7d334303b69f97cabdbdabbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94f7387d5252e5409cafb01e0930ee61" id="r_a94f7387d5252e5409cafb01e0930ee61"><td class="memItemLeft" align="right" valign="top"><a id="a94f7387d5252e5409cafb01e0930ee61" name="a94f7387d5252e5409cafb01e0930ee61"></a>
 static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html">MR.Std.Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getUndercutAreaProjectionMetric</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh)</td></tr>
-<tr class="memdesc:a94f7387d5252e5409cafb01e0930ee61"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes summed absolute projected area of undercut Generated from function <code>MR.FixUndercuts.getUndercutAreaProjectionMetric</code>. <br /></td></tr>
+<tr class="memdesc:a94f7387d5252e5409cafb01e0930ee61"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes summed absolute projected area of undercut Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#abe945577bbd648b8f5dfafd9ebd0361e">MR.FixUndercuts.getUndercutAreaProjectionMetric</a></code>. <br /></td></tr>
 <tr class="separator:a94f7387d5252e5409cafb01e0930ee61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19361a65fe7c8618513552f75da3649c" id="r_a19361a65fe7c8618513552f75da3649c"><td class="memItemLeft" align="right" valign="top">static unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19361a65fe7c8618513552f75da3649c">find</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1FixUndercuts_1_1Const__FindParams.html">MR.FixUndercuts.Const_FindParams</a> params_, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a> outUndercuts, <a class="el" href="classMR_1_1Std_1_1Const__Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html">MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef</a>? metric=null)</td></tr>
 <tr class="memdesc:a19361a65fe7c8618513552f75da3649c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds undercuts to.  <br /></td></tr>
@@ -210,7 +217,7 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromCons
 </div><div class="memdoc">
 
 <p>Score candidates with distance maps, lower resolution -&gt; faster score. </p>
-<dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet Generated from function <code>MR.FixUndercuts.distMapImproveDirection</code>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#a4ce77d6cc1b654cd81c517870a1c840f">MR.FixUndercuts.distMapImproveDirection</a></code>. </dd></dl>
 
 </div>
 </div>
@@ -254,7 +261,7 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromCons
 <p>Adds undercuts to. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outUndercuts</td><td>if metric is set returns metric of found undercuts, otherwise returns DBL_MAX Generated from function <code>MR.FixUndercuts.find</code>. Parameter <code>metric</code> defaults to <code>{}</code>. </td></tr>
+    <tr><td class="paramname">outUndercuts</td><td>if metric is set returns metric of found undercuts, otherwise returns DBL_MAX Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#aab7f74dcecd9e3401fed6751e0b70e1a">MR.FixUndercuts.find</a></code>. Parameter <code>metric</code> defaults to <code>{}</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -296,7 +303,7 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromCons
 <p>Adds undercuts to. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outUndercuts</td><td>Generated from function <code>MR.FixUndercuts.find</code>. </td></tr>
+    <tr><td class="paramname">outUndercuts</td><td>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#aab7f74dcecd9e3401fed6751e0b70e1a">MR.FixUndercuts.find</a></code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -335,7 +342,7 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromCons
 </table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet <hr  />
- Top view: / __/ -----&gt; maximum radial line Side view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |&ndash;|---&mdash;|&ndash;| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <code>MR.FixUndercuts.improveDirection</code>. </dd></dl>
+ Top view: / __/ -----&gt; maximum radial line Side view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |&ndash;|---&mdash;|&ndash;| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#a6302d9ddaf5ffbcdafa2451367f8b8e6">MR.FixUndercuts.improveDirection</a></code>. </dd></dl>
 
 </div>
 </div>
@@ -372,7 +379,7 @@ static unsafe <a class="el" href="classMR_1_1Std_1_1Function__DoubleFuncFromCons
 </div><div class="memdoc">
 
 <p>Fast score undercuts projected area via distance map with given resolution lower resolution means lower precision, but faster work. </p>
-<dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet Generated from function <code>MR.FixUndercuts.scoreUndercuts</code>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1FixUndercuts.html#a1533cdae8a0918d9ee6e83cf92f56280">MR.FixUndercuts.scoreUndercuts</a></code>. </dd></dl>
 
 </div>
 </div>

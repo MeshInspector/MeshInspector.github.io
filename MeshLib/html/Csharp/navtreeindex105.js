@@ -1,16 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr3c29cbb0049f24d1ae382abff8cb8b1a.html#a4bfe156b99c4208e1a5ce2a49f971f60":[6,3,0,0,0,3803,1253,4,5],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr3c29cbb0049f24d1ae382abff8cb8b1a.html#aa2d4ff96ca1cc8a0dbe119d9d168d180":[6,3,0,0,0,3803,1253,4,0],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr3c29cbb0049f24d1ae382abff8cb8b1a.html#ab0d7706d9b5296497a6f9a5c8afa2202":[6,3,0,0,0,3803,1253,4,1],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr3c29cbb0049f24d1ae382abff8cb8b1a.html#ad6e0d08d794cef5c263badcb1d3778ec":[6,3,0,0,0,3803,1253,4,4],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html":[6,3,0,0,0,3803,1253,5],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html#a1de0f3cb67e01dcba9b695b4b126d525":[6,3,0,0,0,3803,1253,5,3],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html#a8640aee495c7609650858a1452e70e4b":[6,3,0,0,0,3803,1253,5,2],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html#ac338e8ffd65ed6dde678cbbe5c29a0da":[6,3,0,0,0,3803,1253,5,1],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9849fed16cf48eb48aee65184a2ab56a.html#ac748f360b4127a2bf9c6db146da6a4ee":[6,3,0,0,0,3803,1253,5,0],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9f6648164cfebe0d2b5a7c23e4374993.html":[6,3,0,0,0,3803,1253,0],
-"classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPr9f6648164cfebe0d2b5a7c23e4374993.html#a1bbff671d055959e8568beba7fe349a7":[6,3,0,0,0,3803,1253,0,0],
 "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPra1160d57fb0f85d875076f4a5e33211d.html":[6,3,0,0,0,3803,1253,3],
 "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html":[6,3,0,0,0,3803,1253],
 "classMR_1_1Std_1_1Const__Vector__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html#a0b29335a557aed6ddb06816ea4720001":[6,3,0,0,0,3803,1253,8],
@@ -249,5 +238,16 @@ var NAVTREEINDEX105 =
 "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html#a8e36a5afde7becc67e6d5cb8c6c64d4a":[6,3,0,0,0,3803,1258,18],
 "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html#a8fa417ff078abbfdf9c7d6d3a5319c85":[6,3,0,0,0,3803,1258,20],
 "classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html#a9cfe16fb2d43f49d14e538d23adc5eb3":[6,3,0,0,0,3803,1258,9],
-"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html#ada70ed2ec62873b1a966eeb6c987f610":[6,3,0,0,0,3803,1258,16]
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins.html#ada70ed2ec62873b1a966eeb6c987f610":[6,3,0,0,0,3803,1258,16],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html":[6,3,0,0,0,3803,1258,6],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#a1323e2d56f196c460886394298b35998":[6,3,0,0,0,3803,1258,6,7],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#a1d50e527159126de019780ff2ea2585d":[6,3,0,0,0,3803,1258,6,1],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#a22d9eb994976f39a8d1f1c3e0c090d5c":[6,3,0,0,0,3803,1258,6,3],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#aa548d2c7eb5236f51e8acecf03d5ed8e":[6,3,0,0,0,3803,1258,6,6],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#aaac77a68dce2ecdd2ac05a8b11a846f7":[6,3,0,0,0,3803,1258,6,0],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#abefe045c8027f800cfcba39463787b02":[6,3,0,0,0,3803,1258,6,2],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#af2c37504414fb19194aaf57940d801fd":[6,3,0,0,0,3803,1258,6,5],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1ConstIterator.html#af3347f37f13827d8bee09c3885317880":[6,3,0,0,0,3803,1258,6,4],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1Const__ConstIterator.html":[6,3,0,0,0,3803,1258,4],
+"classMR_1_1Std_1_1Const__Vector__StdVectorMROffsetContoursOrigins_1_1Const__ConstIterator.html#a26fab2ac52cda7526a69552ca3a9f075":[6,3,0,0,0,3803,1258,4,0]
 };

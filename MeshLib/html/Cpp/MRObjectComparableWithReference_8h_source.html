@@ -148,19 +148,19 @@ $(function(){initNavTree('MRObjectComparableWithReference_8h_source.html',''); i
   <div class="headertitle"><div class="title">MRObjectComparableWithReference.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRObjectComparableWithReference_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRVector3.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRMesh/MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;variant&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// A base class for a data-model object that is a feature/measurement that can be compared between two models.</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>MRMESH_CLASS ObjectComparableWithReference</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_define" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> ObjectComparableWithReference</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">virtual</span> ~ObjectComparableWithReference() = <span class="keywordflow">default</span>;</div>
@@ -184,13 +184,13 @@ $(function(){initNavTree('MRObjectComparableWithReference_8h_source.html',''); i
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html">   34</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html">ComparableProperty</a></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordtype">float</span> value = 0;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html#ab9ac8279a8d66047dae4a3de73f94647">   36</a></span>        <span class="keywordtype">float</span> value = 0;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="comment">// This can be null if the reference value isn&#39;t set, or something else is wrong.</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="comment">// This can match whatever is set via `get/setComparisonReferenceValue()`, but not necessarily.</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="comment">// E.g. for point coordinates, those functions act on the reference coordinates (three optional floats), but this number is always zero,</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="comment">//   and the `value` is the distance to those coordinates.</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        std::optional&lt;float&gt; referenceValue = 0.f;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html#a27219918674f15345809979f639c640e">   42</a></span>        std::optional&lt;float&gt; referenceValue = 0.f;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    };</div>
 </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
@@ -208,10 +208,10 @@ $(function(){initNavTree('MRObjectComparableWithReference_8h_source.html',''); i
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">   55</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    {</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="comment">// How much larger can this value be compared to the reference?</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">float</span> positive = 0;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html#aab4637be6f5bd62c250414fb3bfd3000">   58</a></span>        <span class="keywordtype">float</span> positive = 0;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="comment">// How much smaller can this value be compared to the reference?</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="comment">// This number should normally be zero or negative.</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">float</span> negative = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html#a1833d1474b6f1ccbc444523a384c218a">   61</a></span>        <span class="keywordtype">float</span> negative = 0;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    };</div>
 </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
@@ -240,12 +240,12 @@ $(function(){initNavTree('MRObjectComparableWithReference_8h_source.html',''); i
 <div class="foldopen" id="foldopen00086" data-start="{" data-end="};">
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">   86</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">ComparisonReferenceValue</a></div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    {</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keyword">using </span>Var = std::variant&lt;float, Vector3f&gt;;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#ab6bd7006ecd86f31248360a557a17d09">   88</a></span>        <span class="keyword">using </span><a class="code hl_typedef" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#ab6bd7006ecd86f31248360a557a17d09">Var</a> = std::variant&lt;float, Vector3f&gt;;</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keywordtype">bool</span> isSet = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#a8efb7f0e3b145e075d5c168695ee5698">   90</a></span>        <span class="keywordtype">bool</span> isSet = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="comment">// If `isSet == false`, this will hold zeroes, or some other default values.</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        Var var;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#abd15c83314b1e4ade65944996e7f5026">   93</a></span>        <a class="code hl_typedef" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#ab6bd7006ecd86f31248360a557a17d09">Var</a> <a class="code hl_variable" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#abd15c83314b1e4ade65944996e7f5026">var</a>;</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    };</div>
 </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
@@ -260,17 +260,23 @@ $(function(){initNavTree('MRObjectComparableWithReference_8h_source.html',''); i
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> setComparisonReferenceValue( std::size_t i, std::optional&lt;ComparisonReferenceValue::Var&gt; value ) = 0;</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">void</span> setComparisonReferenceVal( std::size_t i, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">ComparisonReferenceValue</a>&amp; value )</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    {</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keywordflow">if</span> ( value.isSet )</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            setComparisonReferenceValue( i, value.var );</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keywordflow">if</span> ( value.<a class="code hl_variable" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#a8efb7f0e3b145e075d5c168695ee5698">isSet</a> )</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            setComparisonReferenceValue( i, value.<a class="code hl_variable" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#abd15c83314b1e4ade65944996e7f5026">var</a> );</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            setComparisonReferenceValue( i, std::nullopt );</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>};</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>}</div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1ObjectComparableWithReference_1_1ComparableProperty_html"><div class="ttname"><a href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html">MR::ObjectComparableWithReference::ComparableProperty</a></div><div class="ttdef"><b>Definition</b> MRObjectComparableWithReference.h:35</div></div>
 <div class="ttc" id="astructMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_html"><div class="ttname"><a href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">MR::ObjectComparableWithReference::ComparisonReferenceValue</a></div><div class="ttdef"><b>Definition</b> MRObjectComparableWithReference.h:87</div></div>
+<div class="ttc" id="astructMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_html_a8efb7f0e3b145e075d5c168695ee5698"><div class="ttname"><a href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#a8efb7f0e3b145e075d5c168695ee5698">MR::ObjectComparableWithReference::ComparisonReferenceValue::isSet</a></div><div class="ttdeci">bool isSet</div><div class="ttdef"><b>Definition</b> MRObjectComparableWithReference.h:90</div></div>
+<div class="ttc" id="astructMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_html_ab6bd7006ecd86f31248360a557a17d09"><div class="ttname"><a href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#ab6bd7006ecd86f31248360a557a17d09">MR::ObjectComparableWithReference::ComparisonReferenceValue::Var</a></div><div class="ttdeci">std::variant&lt; float, Vector3f &gt; Var</div><div class="ttdef"><b>Definition</b> MRObjectComparableWithReference.h:88</div></div>
+<div class="ttc" id="astructMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_html_abd15c83314b1e4ade65944996e7f5026"><div class="ttname"><a href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#abd15c83314b1e4ade65944996e7f5026">MR::ObjectComparableWithReference::ComparisonReferenceValue::var</a></div><div class="ttdeci">Var var</div><div class="ttdef"><b>Definition</b> MRObjectComparableWithReference.h:93</div></div>
 <div class="ttc" id="astructMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_html"><div class="ttname"><a href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">MR::ObjectComparableWithReference::ComparisonTolerance</a></div><div class="ttdef"><b>Definition</b> MRObjectComparableWithReference.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -278,7 +284,7 @@ $(function(){initNavTree('MRObjectComparableWithReference_8h_source.html',''); i
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRObjectComparableWithReference.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRObjectComparableWithReference_8h.html">MRObjectComparableWithReference.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

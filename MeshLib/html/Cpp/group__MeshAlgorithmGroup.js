@@ -15,7 +15,13 @@ var group__MeshAlgorithmGroup =
       [ "applyAndSwap", "../Csharp/classMR_1_1MeshDiff.html#a81527234b7da2d1b541ba756bf43881a", null ],
       [ "assign", "../Csharp/classMR_1_1MeshDiff.html#a2969ef471c11d299873c5859e13824c2", null ]
     ] ],
-    [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", null ],
+    [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", [
+      [ "MeshRegion", "structMR_1_1MeshRegion.html#a35b39c1790f734aa2ed34e68281a8a04", null ],
+      [ "MeshRegion", "structMR_1_1MeshRegion.html#ae376220ccfe757dc78e7edd18501521e", null ],
+      [ "operator=", "structMR_1_1MeshRegion.html#a8fbe26bcbe7891c7be47fb330920e3b4", null ],
+      [ "mesh", "structMR_1_1MeshRegion.html#ad1bf8f740e649b73d3a93bd0eba5e609", null ],
+      [ "region", "structMR_1_1MeshRegion.html#a020e8c1bd5c2c3c5186ff4680d8004b0", null ]
+    ] ],
     [ "MR::MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html", [
       [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#ab7d110cf7a7464a4d6b8531bdf6b7c0d", null ],
       [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#a60eb9ab95581ed9a56c7a101a7452acc", null ],

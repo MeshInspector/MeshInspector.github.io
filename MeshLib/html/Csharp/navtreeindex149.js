@@ -1,16 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html":[6,3,0,0,0,1454],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a32c96f8bbb48f0d8ee45c7db6752ef2f":[6,3,0,0,0,1454,0],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html":[6,3,0,0,0,1455],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a86f2fde53dd7e539e10516859fd0b07e":[6,3,0,0,0,1455,0],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html":[6,3,0,0,0,1456],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html#add09bfe05f1ada52774520bb93e82337":[6,3,0,0,0,1456,0],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html":[6,3,0,0,0,1457],
-"classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html#ab17c09aba2d1b78acaf5da9592bf8662":[6,3,0,0,0,1457,0],
-"classMR_1_1__InOptConst__Vector__MRAABBTreePointsNode__MRNodeId.html":[6,3,0,0,0,1458],
-"classMR_1_1__InOptConst__Vector__MRAABBTreePointsNode__MRNodeId.html#a050226ca74528ed6949d00c61a73d7d4":[6,3,0,0,0,1458,0],
-"classMR_1_1__InOptConst__Vector__MRAffineXf3f__MRObjId.html":[6,3,0,0,0,1459],
 "classMR_1_1__InOptConst__Vector__MRAffineXf3f__MRObjId.html#a435e3dc2d7446f099f39d47d83bf81f3":[6,3,0,0,0,1459,0],
 "classMR_1_1__InOptConst__Vector__MREdgeId__MRFaceId.html":[6,3,0,0,0,1460],
 "classMR_1_1__InOptConst__Vector__MREdgeId__MRFaceId.html#a2ca055987d14f6850d9f39dd6973151e":[6,3,0,0,0,1460,0],
@@ -249,5 +238,16 @@ var NAVTREEINDEX149 =
 "classMR_1_1__InOptMut__CNCMachineSettings.html":[6,3,0,0,0,1688],
 "classMR_1_1__InOptMut__ChangVoxelSelectionAction.html":[6,3,0,0,0,1681],
 "classMR_1_1__InOptMut__ChangeActiveBoxAction.html":[6,3,0,0,0,1642],
-"classMR_1_1__InOptMut__ChangeColoringType.html":[6,3,0,0,0,1643]
+"classMR_1_1__InOptMut__ChangeColoringType.html":[6,3,0,0,0,1643],
+"classMR_1_1__InOptMut__ChangeDualMarchingCubesAction.html":[6,3,0,0,0,1644],
+"classMR_1_1__InOptMut__ChangeFacesColorMapAction.html":[6,3,0,0,0,1645],
+"classMR_1_1__InOptMut__ChangeGridAction.html":[6,3,0,0,0,1646],
+"classMR_1_1__InOptMut__ChangeIsoAction.html":[6,3,0,0,0,1647],
+"classMR_1_1__InOptMut__ChangeLabelAction.html":[6,3,0,0,0,1648],
+"classMR_1_1__InOptMut__ChangeLinesColorMapAction.html":[6,3,0,0,0,1649],
+"classMR_1_1__InOptMut__ChangeMeshAction.html":[6,3,0,0,0,1650],
+"classMR_1_1__InOptMut__ChangeMeshCreasesAction.html":[6,3,0,0,0,1651],
+"classMR_1_1__InOptMut__ChangeMeshDataAction.html":[6,3,0,0,0,1652],
+"classMR_1_1__InOptMut__ChangeMeshEdgeSelectionAction.html":[6,3,0,0,0,1653],
+"classMR_1_1__InOptMut__ChangeMeshFaceSelectionAction.html":[6,3,0,0,0,1654]
 };

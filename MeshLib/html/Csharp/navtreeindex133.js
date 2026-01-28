@@ -1,16 +1,5 @@
 var NAVTREEINDEX133 =
 {
-"classMR_1_1SymMatrix4__UnsignedChar.html#abdd668c5a9a0e004bcc2dc0ecd9108c8":[6,3,0,0,0,3815,6],
-"classMR_1_1SymMatrix4__UnsignedChar.html#ac9c76ee90e6ce3963f3a6fa27d9207e5":[6,3,0,0,0,3815,10],
-"classMR_1_1SymMatrix4__UnsignedChar.html#ae0c67503a62099ab9cb21faad4b6e9fe":[6,3,0,0,0,3815,0],
-"classMR_1_1SymMatrix4__UnsignedChar.html#ae223c73900d3c2d09794c30edbaf22d9":[6,3,0,0,0,3815,9],
-"classMR_1_1SymMatrix4__UnsignedChar.html#aec1d5e18ca565fae2f680dcfae57a84e":[6,3,0,0,0,3815,5],
-"classMR_1_1SymMatrix4__UnsignedChar.html#aef0b053caa5fb9d3bcbfe12beeeeaa27":[6,3,0,0,0,3815,1],
-"classMR_1_1SymMatrix4__UnsignedChar.html#af1faa0c3f64c8991a7fafa937954ff9f":[6,3,0,0,0,3815,13],
-"classMR_1_1SymMatrix4__UnsignedChar.html#af7ad727ddfc2c8cd9d243bfe3e0d63d1":[6,3,0,0,0,3815,2],
-"classMR_1_1SymMatrix4b.html":[6,3,0,0,0,3816],
-"classMR_1_1SymMatrix4b.html#a092fccc6c2cc1061675d6a0ec8158e68":[6,3,0,0,0,3816,15],
-"classMR_1_1SymMatrix4b.html#a1620eb3be76e866ab59130356a162a55":[6,3,0,0,0,3816,6],
 "classMR_1_1SymMatrix4b.html#a1b2e260826a03370037deea55cf4acf0":[6,3,0,0,0,3816,13],
 "classMR_1_1SymMatrix4b.html#a1ffc8cd79d81ced02fc7e916a04c26e6":[6,3,0,0,0,3816,14],
 "classMR_1_1SymMatrix4b.html#a44fba93ca1429fa61e2883416e8fe313":[6,3,0,0,0,3816,5],
@@ -249,5 +238,16 @@ var NAVTREEINDEX133 =
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a675845de867eb0ba6a860161faf61b46":[6,3,0,0,0,14,7,3],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a73c043d7816e7051f40021fbd520e875":[6,3,0,0,0,14,7,4],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a9f8fb0a347cea4d0db4ed81f12f002c8":[6,3,0,0,0,14,7,1],
-"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abd23f678c0f1d72b139cd2d8ea4495de":[6,3,0,0,0,14,7,5]
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abd23f678c0f1d72b139cd2d8ea4495de":[6,3,0,0,0,14,7,5],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html":[6,3,0,0,0,14,8],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a0fe1751fe67689b9d89c469a25cb79ba":[6,3,0,0,0,14,8,4],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a18f0f9337ee9b1e2a745f8081440e7e9":[6,3,0,0,0,14,8,8],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a3817192100c19e846dafc33c9c99fecd":[6,3,0,0,0,14,8,7],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a663f24aa3aafefd52aa1b9ed9431b846":[6,3,0,0,0,14,8,12],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a690b98dbd72486bd330cf5df4132fa2b":[6,3,0,0,0,14,8,2],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a6ca753f6817a1d2880fd549c467e14fb":[6,3,0,0,0,14,8,11],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a90908e354d3d9cd32c8c19bc761ab953":[6,3,0,0,0,14,8,10],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a9bf6b4245005455ec53ffb5f4b033b4b":[6,3,0,0,0,14,8,5],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#aa8c92446f39b9b92b8860a6eb9a28b09":[6,3,0,0,0,14,8,6],
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#aaa9585412c19c4fc910767da1a70dd8e":[6,3,0,0,0,14,8,9]
 };

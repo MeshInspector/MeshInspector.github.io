@@ -1,16 +1,5 @@
 var NAVTREEINDEX144 =
 {
-"classMR_1_1__ByValue__Expected__StdVectorStdVectorMRVector2f__StdString.html":[6,3,0,0,0,211],
-"classMR_1_1__ByValue__Expected__StdVectorStdVectorMRVector3f__StdString.html":[6,3,0,0,0,212],
-"classMR_1_1__ByValue__Expected__Void__StdString.html":[6,3,0,0,0,213],
-"classMR_1_1__ByValue__Face2RegionMap.html":[6,3,0,0,0,214],
-"classMR_1_1__ByValue__Face2RegionMap.html#a99955ae5b142f1220db9917699411d16":[6,3,0,0,0,214,0],
-"classMR_1_1__ByValue__FaceBMap.html":[6,3,0,0,0,216],
-"classMR_1_1__ByValue__FaceBitSet.html":[6,3,0,0,0,215],
-"classMR_1_1__ByValue__FaceColorMapAggregator.html":[6,3,0,0,0,217],
-"classMR_1_1__ByValue__FaceColors.html":[6,3,0,0,0,218],
-"classMR_1_1__ByValue__FaceColors.html#a8d990d2f04fb130e54fcef9ae39a4449":[6,3,0,0,0,218,0],
-"classMR_1_1__ByValue__FaceDistancesSettings.html":[6,3,0,0,0,219],
 "classMR_1_1__ByValue__FaceMap.html":[6,3,0,0,0,220],
 "classMR_1_1__ByValue__FaceMap.html#a33347f12364a96d53aa9e23785eed6ef":[6,3,0,0,0,220,0],
 "classMR_1_1__ByValue__FaceNormals.html":[6,3,0,0,0,221],
@@ -249,5 +238,16 @@ var NAVTREEINDEX144 =
 "classMR_1_1__ByValue__UniqueThreadSafeOwner__MRAABBTree.html":[6,3,0,0,0,428],
 "classMR_1_1__ByValue__UniqueThreadSafeOwner__MRAABBTreePoints.html":[6,3,0,0,0,429],
 "classMR_1_1__ByValue__UniteManyMeshesParams.html":[6,3,0,0,0,430],
-"classMR_1_1__ByValue__VdbVolume.html":[6,3,0,0,0,431]
+"classMR_1_1__ByValue__VdbVolume.html":[6,3,0,0,0,431],
+"classMR_1_1__ByValue__Vector__Char__MRVertId.html":[6,3,0,0,0,432],
+"classMR_1_1__ByValue__Vector__Char__MRVertId.html#a16b796aab04dae02bb1228af7e5a0ad1":[6,3,0,0,0,432,0],
+"classMR_1_1__ByValue__Vector__Double__MRRegionId.html":[6,3,0,0,0,433],
+"classMR_1_1__ByValue__Vector__Double__MRRegionId.html#a2bebfb85031f5f2cae896b5abb44d533":[6,3,0,0,0,433,0],
+"classMR_1_1__ByValue__Vector__Float__MRVoxelId.html":[6,3,0,0,0,434],
+"classMR_1_1__ByValue__Vector__Float__MRVoxelId.html#a7a834353929ab74172e33d60d858bf20":[6,3,0,0,0,434,0],
+"classMR_1_1__ByValue__Vector__Int__MRFaceId.html":[6,3,0,0,0,435],
+"classMR_1_1__ByValue__Vector__Int__MRFaceId.html#a0c2187d5294dac0fe7e3015e360ef600":[6,3,0,0,0,435,0],
+"classMR_1_1__ByValue__Vector__Int__MRUndirectedEdgeId.html":[6,3,0,0,0,436],
+"classMR_1_1__ByValue__Vector__Int__MRUndirectedEdgeId.html#a152a75cb37f35598d2928d515e510a22":[6,3,0,0,0,436,0],
+"classMR_1_1__ByValue__Vector__Int__MRVertId.html":[6,3,0,0,0,437]
 };

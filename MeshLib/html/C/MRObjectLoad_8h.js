@@ -1,0 +1,25 @@
+var MRObjectLoad_8h =
+[
+    [ "MR_expected_MR_LoadedObjects_std_string", "MRObjectLoad_8h.html#afddfdf9f07abac630b268df02dbaed95", null ],
+    [ "MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string", "MRObjectLoad_8h.html#ae40f9724041f0a1171c0b1ea6a829d87", null ],
+    [ "MR_expected_MR_LoadedObjectT_std_string", "MRObjectLoad_8h.html#ac492f1c84cf92602c38877cfaa415714", null ],
+    [ "MR_expected_MR_ObjectDistanceMap_std_string", "MRObjectLoad_8h.html#a3a623c5c822dc68bac26f6ce75eb9381", null ],
+    [ "MR_expected_MR_ObjectGcode_std_string", "MRObjectLoad_8h.html#a106d1db643550876b913cf63822e961c", null ],
+    [ "MR_expected_MR_ObjectLines_std_string", "MRObjectLoad_8h.html#a078c09ececcbefd513f43417b21b06c2", null ],
+    [ "MR_expected_MR_ObjectPoints_std_string", "MRObjectLoad_8h.html#abe325721d3420cbcf1a509382bd56ca9", null ],
+    [ "MR_std_function_bool_from_float", "MRObjectLoad_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
+    [ "MR_std_function_void_from_const_std_filesystem_path_ref", "MRObjectLoad_8h.html#a30107ef4120845cdac99e9368f431014", null ],
+    [ "MR_std_vector_MR_IOFilter", "MRObjectLoad_8h.html#ac9eb9a9e1e6066f522661733a7c739df", null ],
+    [ "MR_deserializeObjectTree", "MRObjectLoad_8h.html#a5f9425181ae03341a073e9551764974e", null ],
+    [ "MR_deserializeObjectTreeFromFolder", "MRObjectLoad_8h.html#a715e5e6eeaab746ae612a76137875888", null ],
+    [ "MR_getAllFilters", "MRObjectLoad_8h.html#a836ffb5fbcec279995802f96bfc68c97", null ],
+    [ "MR_isSupportedFileInSubfolders", "MRObjectLoad_8h.html#adb3ad6eb0ccf720f4bb679f8d88d1f92", null ],
+    [ "MR_loadObjectFromFile", "MRObjectLoad_8h.html#a71fd171039022c3691f4015026e0b62a", null ],
+    [ "MR_loadSceneFromAnySupportedFormat", "MRObjectLoad_8h.html#a3844f472deb17103df5c1e9f50cf9eb6", null ],
+    [ "MR_makeObjectDistanceMapFromFile", "MRObjectLoad_8h.html#a3b9389c5178f5a82332e63a1fc754cb3", null ],
+    [ "MR_makeObjectFromMeshFile", "MRObjectLoad_8h.html#ac50e11935b065eca4620640636426acb", null ],
+    [ "MR_makeObjectGcodeFromFile", "MRObjectLoad_8h.html#af9bf8f86b995bbeeb44e9afb0077b5f3", null ],
+    [ "MR_makeObjectLinesFromFile", "MRObjectLoad_8h.html#a8c9bdf548fff27778f05c22a4eb65f0c", null ],
+    [ "MR_makeObjectMeshFromFile", "MRObjectLoad_8h.html#a3184bfaddc3fbecffa29ee031f5116a4", null ],
+    [ "MR_makeObjectPointsFromFile", "MRObjectLoad_8h.html#a78a24f872fbf3e5774bd17ab5ea1cd50", null ]
+];

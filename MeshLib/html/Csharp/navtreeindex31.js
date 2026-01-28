@@ -1,13 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classMR_1_1Const__GraphEdgeBitSet.html":[6,3,0,0,0,2881],
-"classMR_1_1Const__GraphEdgeBitSet.html#a087f6b7b865093247b737c7439e968de":[6,3,0,0,0,2881,27],
-"classMR_1_1Const__GraphEdgeBitSet.html#a185bbfcb1540bd6b2817f78dbb9768a4":[6,3,0,0,0,2881,4],
-"classMR_1_1Const__GraphEdgeBitSet.html#a1d5ba8d3c473bb303dc74b4de90ae706":[6,3,0,0,0,2881,15],
-"classMR_1_1Const__GraphEdgeBitSet.html#a21622f3eea79f2132c629da2cf8b9c9b":[6,3,0,0,0,2881,7],
-"classMR_1_1Const__GraphEdgeBitSet.html#a21b725326dbd487482c0acd341515ab8":[6,3,0,0,0,2881,32],
-"classMR_1_1Const__GraphEdgeBitSet.html#a25913667a065ef4700e952b74fa68be4":[6,3,0,0,0,2881,16],
-"classMR_1_1Const__GraphEdgeBitSet.html#a282f2d9a22b16196b6bc746c29144377":[6,3,0,0,0,2881,12],
 "classMR_1_1Const__GraphEdgeBitSet.html#a2e6c6fb1b494fa08042527674b3a5172":[6,3,0,0,0,2881,20],
 "classMR_1_1Const__GraphEdgeBitSet.html#a2f4e311beca5e4bd1944c480b7303732":[6,3,0,0,0,2881,29],
 "classMR_1_1Const__GraphEdgeBitSet.html#a367aee18e62506c8754b74ff82c4e7f1":[6,3,0,0,0,2881,24],
@@ -249,5 +241,13 @@ var NAVTREEINDEX31 =
 "classMR_1_1Const__ImproveSamplingSettings.html#a7466763b29259233f5f62e2b6629512b":[6,3,0,0,0,2900,2],
 "classMR_1_1Const__ImproveSamplingSettings.html#a85eacbc740e6b63503e475a6bc155127":[6,3,0,0,0,2900,4],
 "classMR_1_1Const__ImproveSamplingSettings.html#a89bb7db1478fcdbaf680d88b95af03c0":[6,3,0,0,0,2900,1],
-"classMR_1_1Const__ImproveSamplingSettings.html#ab5707cfdd893961c5e28550f1dba2459":[6,3,0,0,0,2900,5]
+"classMR_1_1Const__ImproveSamplingSettings.html#ab5707cfdd893961c5e28550f1dba2459":[6,3,0,0,0,2900,5],
+"classMR_1_1Const__ImproveSamplingSettings.html#ac2d3b32a8874cbdc88658fe074150ec1":[6,3,0,0,0,2900,7],
+"classMR_1_1Const__ImproveSamplingSettings.html#ac51a1249adfb36538ee1013bdaac8cf0":[6,3,0,0,0,2900,3],
+"classMR_1_1Const__ImproveSamplingSettings.html#af7f4aa5a36d4a1d978c131a8b7e89d38":[6,3,0,0,0,2900,10],
+"classMR_1_1Const__InSphere.html":[6,3,0,0,0,2902],
+"classMR_1_1Const__InSphere.html#a43e5504cd5c95d5bc72fdc81805fc471":[6,3,0,0,0,2902,0],
+"classMR_1_1Const__InSphere.html#a83a777ae8cb12e4f02c2788081dfb19f":[6,3,0,0,0,2902,2],
+"classMR_1_1Const__InSphere.html#ae5b8f0050a54dba3f5613914e382f61a":[6,3,0,0,0,2902,1],
+"classMR_1_1Const__InSphere.html#afcc01a78c88b1e73de1121cde86b9362":[6,3,0,0,0,2902,3]
 };

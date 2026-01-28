@@ -146,21 +146,31 @@ $(function(){initNavTree('classMR_1_1SceneLoad.html',''); initResizable(true); }
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1SceneLoad-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.SceneLoad Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a0b87b3918d63624f559f15d25ecb9c3a" id="r_a0b87b3918d63624f559f15d25ecb9c3a"><td class="memItemLeft" align="right" valign="top"><a id="a0b87b3918d63624f559f15d25ecb9c3a" name="a0b87b3918d63624f559f15d25ecb9c3a"></a>
+typedef Expected&lt; LoadedObject &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#a0b87b3918d63624f559f15d25ecb9c3a">SceneLoader</a>)</td></tr>
+<tr class="separator:a0b87b3918d63624f559f15d25ecb9c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9301168bfb0258833ac6729cfb138a9" id="r_ad9301168bfb0258833ac6729cfb138a9"><td class="memItemLeft" align="right" valign="top"><a id="ad9301168bfb0258833ac6729cfb138a9" name="ad9301168bfb0258833ac6729cfb138a9"></a>
+typedef std::function&lt; void(Result)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9">PostLoadCallback</a></td></tr>
+<tr class="separator:ad9301168bfb0258833ac6729cfb138a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6454c7eeb30ea3233839662323f54406" id="r_a6454c7eeb30ea3233839662323f54406"><td class="memItemLeft" align="right" valign="top"><a id="a6454c7eeb30ea3233839662323f54406" name="a6454c7eeb30ea3233839662323f54406"></a>
 static unsafe <a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR.SceneLoad.Result</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromAnySupportedFormat</b> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__StdFilesystemPath.html">MR.Std.Const_Vector_StdFilesystemPath</a> files, <a class="el" href="classMR_1_1SceneLoad_1_1Const__Settings.html">MR.SceneLoad.Const_Settings</a>? settings=null)</td></tr>
-<tr class="memdesc:a6454c7eeb30ea3233839662323f54406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects Generated from function <code>MR.SceneLoad.fromAnySupportedFormat</code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memdesc:a6454c7eeb30ea3233839662323f54406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#ac487a300831be5cc92806c51ce12f922">MR.SceneLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
 <tr class="separator:a6454c7eeb30ea3233839662323f54406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6435fed9e0649b9bed9095860303cb6" id="r_ad6435fed9e0649b9bed9095860303cb6"><td class="memItemLeft" align="right" valign="top"><a id="ad6435fed9e0649b9bed9095860303cb6" name="ad6435fed9e0649b9bed9095860303cb6"></a>
 static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>asyncFromAnySupportedFormat</b> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__StdFilesystemPath.html">MR.Std.Const_Vector_StdFilesystemPath</a> files, <a class="el" href="classMR_1_1Std_1_1Const__Function__VoidFuncFromMRSceneLoadResult.html">MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult</a> postLoadCallback, <a class="el" href="classMR_1_1SceneLoad_1_1Const__Settings.html">MR.SceneLoad.Const_Settings</a>? settings=null)</td></tr>
-<tr class="memdesc:ad6435fed9e0649b9bed9095860303cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.SceneLoad.asyncFromAnySupportedFormat</code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memdesc:ad6435fed9e0649b9bed9095860303cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#adf9736b6c4eba76b43a108d16f183036">MR.SceneLoad.asyncFromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
 <tr class="separator:ad6435fed9e0649b9bed9095860303cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>

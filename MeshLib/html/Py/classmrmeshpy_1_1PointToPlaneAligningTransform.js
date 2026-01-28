@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1PointToPlaneAligningTransform =
 [
+    [ "__init__", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#afaab3136798629dea905f4512fcf7b99", null ],
     [ "__init__", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a8198d421da1d3ec5720d565926755def", null ],
     [ "add", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a4bf80119cf4eff4a9e7da2d0b68114ea", null ],
     [ "add", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a4fbb576bf292287c1895d22b42b9e149", null ],

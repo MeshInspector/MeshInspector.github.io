@@ -13,12 +13,15 @@ var group__BooleanGroup =
         [ "B", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571", null ],
         [ "Count", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
+      [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9", null ],
       [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd", null ],
+      [ "getMaps", "structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#a98265093e5d605c22ac13fb59ac056b2", null ],
       [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],
-      [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ]
+      [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ],
+      [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
     ] ],
     [ "MR::BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html", [
       [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#ad2883b0992b59d222f1157ace89dd4ef", null ],
@@ -45,6 +48,7 @@ var group__BooleanGroup =
       ] ],
       [ "new2oldEdgesMap", "structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
       [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
+      [ "None", "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
       [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
     ] ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", [
@@ -52,6 +56,11 @@ var group__BooleanGroup =
       [ "resultCut", "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400", null ]
     ] ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", [
+      [ "operator bool", "structMR_1_1BooleanResult.html#ab6a130e652e944be8b2d65e3ea1c273a", null ],
+      [ "operator*", "structMR_1_1BooleanResult.html#ac0af7e2df53a77da2787428be4cc77d8", null ],
+      [ "operator*", "structMR_1_1BooleanResult.html#ac98caba27fe5a9fdbaa3e4aafff41f2a", null ],
+      [ "operator->", "structMR_1_1BooleanResult.html#aa632af00548f4dfb2a5e70d9518e874f", null ],
+      [ "operator->", "structMR_1_1BooleanResult.html#ad2591d2b1ef80f9dc169034f419d83e4", null ],
       [ "valid", "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289", null ],
       [ "errorString", "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df", null ],
       [ "mesh", "structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486", null ],

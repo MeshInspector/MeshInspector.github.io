@@ -17,12 +17,25 @@ var group__AABBTreeGroup =
       [ "getLeafOrderAndReset", "../Csharp/classMR_1_1AABBTree.html#a831781f0173f17a059fe1f1c9d27c6e1", null ],
       [ "refit", "../Csharp/classMR_1_1AABBTree.html#a5c12b4649d8570fc421d9165d47230f3", null ]
     ] ],
-    [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
-    [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
+    [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", [
+      [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46", null ],
+      [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7", null ],
+      [ "box", "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5", null ],
+      [ "leafId", "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d", null ]
+    ] ],
+    [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", [
+      [ "BoxT", "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e", null ],
+      [ "LeafId", "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9", null ],
+      [ "LeafTag", "structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a", null ]
+    ] ],
     [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", [
+      [ "BoxT", "structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01", null ],
+      [ "LeafId", "structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0", null ],
       [ "leaf", "structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6", null ],
       [ "leafId", "structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b", null ],
+      [ "setLeafId", "structMR_1_1AABBTreeNode.html#ac745781b04cbfa210bd5d3005b17e084", null ],
       [ "box", "structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0", null ],
+      [ "l", "structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9", null ],
       [ "r", "structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e", null ]
     ] ],
     [ "MR::NodeNode", "../Csharp/classMR_1_1NodeNode.html", [
@@ -47,7 +60,10 @@ var group__AABBTreeGroup =
         [ "l", "structMR_1_1AABBTreePoints_1_1Node.html#af8f74a9f0dc8b291dca8ff290c8b45a1", null ],
         [ "r", "structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa", null ]
       ] ],
-      [ "Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
+      [ "Point", "structMR_1_1AABBTreePoints_1_1Point.html", [
+        [ "coord", "structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be", null ],
+        [ "id", "structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077", null ]
+      ] ],
       [ "AABBTreePoints", "../Csharp/classMR_1_1AABBTreePoints.html#a644a4d5a0d24918d9cdab7d496128704", null ],
       [ "AABBTreePoints", "../Csharp/classMR_1_1AABBTreePoints.html#a5c2f71cf9ef21aac7a83acb86427eb91", null ],
       [ "AABBTreePoints", "../Csharp/classMR_1_1AABBTreePoints.html#ad24157dc906bb637917b5fae45f6647f", null ],
@@ -57,10 +73,18 @@ var group__AABBTreeGroup =
       [ "refit", "../Csharp/classMR_1_1AABBTreePoints.html#a233c82a526d1389bc9440a59eb28b919", null ]
     ] ],
     [ "MR::PolylineTraits< V >", "structMR_1_1PolylineTraits.html", null ],
-    [ "MR::PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", null ],
-    [ "MR::PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", null ],
+    [ "MR::PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", [
+      [ "Polyline", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d", null ]
+    ] ],
+    [ "MR::PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", [
+      [ "Polyline", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b", null ]
+    ] ],
     [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", [
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a", null ],
+      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c", null ],
+      [ "operator=", "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a", null ],
+      [ "SharedThreadSafeOwner< AABBTreePolyline >", "classMR_1_1AABBTreePolyline.html#ac9462890b338f7d6d0455c3137f6a48b", null ],
+      [ "UniqueThreadSafeOwner< AABBTreePolyline >", "classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef", null ]
     ] ],
     [ "MR::FaceFace", "../Csharp/classMR_1_1FaceFace.html", [
@@ -85,12 +109,26 @@ var group__AABBTreeGroup =
       [ "calcWithDistances", "../Csharp/classMR_1_1FastWindingNumber.html#ad7b3b9e5aa9ae7837980d0fd067d6afc", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
+      [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
+      [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],
+      [ "idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
+      [ "idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
+      [ "invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],
+      [ "maxDimIdxZ", "group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2", null ],
       [ "sign", "group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d", null ],
-      [ "Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ]
+      [ "Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
+      [ "Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
+      [ "Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
     ] ],
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", [
+      [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b", null ],
+      [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b", null ],
+      [ "idxX", "structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8", null ],
+      [ "invDir", "structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd", null ],
+      [ "maxDimIdxY", "structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f", null ],
       [ "sign", "structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60", null ],
-      [ "Sx", "structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f", null ]
+      [ "Sx", "structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f", null ],
+      [ "Sy", "structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de", null ]
     ] ],
     [ "MR::EdgeTri", "../Csharp/classMR_1_1EdgeTri.html", [
       [ "EdgeTri", "../Csharp/classMR_1_1EdgeTri.html#a745dfd57a31af7f128c8d62c2080289b", null ],
@@ -99,7 +137,11 @@ var group__AABBTreeGroup =
       [ "assign", "../Csharp/classMR_1_1EdgeTri.html#ab28ebc17d8a017dd3c16feca9ce3cca2", null ]
     ] ],
     [ "MR::VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html", [
-      [ "FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", null ],
+      [ "FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", [
+        [ "operator==", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a408a18646248d1d57deb6e7546ec9716", null ],
+        [ "face", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace", null ],
+        [ "isEdgeATriB", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a29688551fde640070c748b997eddb5ab", null ]
+      ] ],
       [ "VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html#a937042cd5f21708e75c60cce7d2a8efe", null ],
       [ "VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html#a64b96b9c400abce05a4b1311d6695f44", null ],
       [ "VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html#addc01e47759d41b0227cc3c12a1ba9e2", null ],
@@ -214,6 +256,7 @@ var group__AABBTreeGroup =
       [ "setPointCloud", "../Csharp/classMR_1_1PointsProjector.html#a2a10ac52db9e5932b79ab4c2b09b3ab6", null ]
     ] ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
+      [ "operator bool", "structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c", null ],
       [ "valid", "structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598", null ],
       [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
@@ -241,17 +284,37 @@ var group__AABBTreeGroup =
       [ "update", "classMR_1_1SharedThreadSafeOwner.html#a0369c315650a9542cd2919ed23b596f5", null ]
     ] ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", [
+      [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html#aeef82c61856472cfd39c42fe30004d4a", null ],
+      [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html#ab82d0ad01192df7f52ddc46eb3d6b7a6", null ],
+      [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html#ad109e39c613cdd106e350b62dad36efe", null ],
+      [ "~UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html#a3d73291f1f47c3b4d4a33166f8d09a6a", null ],
       [ "get", "classMR_1_1UniqueThreadSafeOwner.html#a6ab481f5b5794550188bd3bc3557b15f", null ],
       [ "getOrCreate", "classMR_1_1UniqueThreadSafeOwner.html#ae534b2090bbb82c6fee33efc2f3c0c34", null ],
       [ "heapBytes", "classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943", null ],
+      [ "operator=", "classMR_1_1UniqueThreadSafeOwner.html#af6ec1dea9bb6597f1eb584a24ebedd26", null ],
+      [ "operator=", "classMR_1_1UniqueThreadSafeOwner.html#a6346fa8c52ec4d101fcbe69d489a04dc", null ],
       [ "reset", "classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2", null ],
       [ "update", "classMR_1_1UniqueThreadSafeOwner.html#a116e9e31af9a5c5fb15cf8d9278226b1", null ]
     ] ],
+    [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9", null ],
+    [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632", null ],
     [ "MR::FoundBoxedTriCallback", "group__AABBTreeGroup.html#ga4349e23b1c03bbeb120c81f3cbb8b615", null ],
+    [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470", null ],
+    [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
+    [ "MR::FoundEdgeCallback3", "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
     [ "MR::FoundTriCallback", "group__AABBTreeGroup.html#ga3fa10deed3f5f765a28d62f2a9667c0f", null ],
+    [ "MR::Line3dMesh", "group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283", null ],
+    [ "MR::Line3fMesh", "group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6", null ],
+    [ "MR::LineTreeTraits", "group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c", null ],
+    [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf", null ],
+    [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],
     [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
+    [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
+      [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
+      [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
+    ] ],
     [ "MR::createProjectionTransforms", "group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1", null ],
     [ "MR::findBoxedTrisInBall", "group__AABBTreeGroup.html#ga565cdeaec23b7bd65c3776723571fac0", null ],
     [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb", null ],
@@ -312,14 +375,19 @@ var group__AABBTreeGroup =
     [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga354aa28c5105859923d024949d724b5f", null ],
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
+    [ "MR::getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga125d7b99c7b4840e87a3470ef0c64b17", null ],
+    [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
+    [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d", null ],
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga3358455877a4f3ab26bb581338d86cd4", null ],
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778", null ],
     [ "MR::isPointInsidePolyline", "group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
+    [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
     [ "MR::multiRayMeshIntersect", "group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045", null ],
+    [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
     [ "MR::planeMeshIntersect", "group__AABBTreeGroup.html#ga8b2db465de4ef2df4f0f85fa142a612f", null ],
     [ "MR::processCloseTriangles", "group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151", null ],
@@ -330,6 +398,12 @@ var group__AABBTreeGroup =
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa", null ],
     [ "MR::signedDistanceToMesh", "group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0", null ],
     [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga4b8be9888719bfd9c5944dc6293c902d", null ],
+    [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
+    [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
+    [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],
+    [ "MR::IntersectionPrecomputes::maxDimIdxZ", "group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2", null ],
     [ "MR::IntersectionPrecomputes::sign", "group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d", null ],
-    [ "MR::IntersectionPrecomputes::Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ]
+    [ "MR::IntersectionPrecomputes::Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
+    [ "MR::IntersectionPrecomputes::Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
+    [ "MR::IntersectionPrecomputes::Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
 ];

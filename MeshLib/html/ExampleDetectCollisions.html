@@ -150,17 +150,17 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><p>Following code presents example of finding collision triangles of two meshes</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMakeSphereMesh.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMakeSphereMesh_8h.html">MRMesh/MRMakeSphereMesh.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMatrix3.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRAffineXf.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshCollide.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">auto</span> meshA = MR::makeUVSphere(); <span class="comment">// make mesh A</span></div>
-<div class="line">    <span class="keyword">auto</span> meshB = MR::makeUVSphere(); <span class="comment">// make mesh B</span></div>
+<div class="line">    <span class="keyword">auto</span> meshA = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a>(); <span class="comment">// make mesh A</span></div>
+<div class="line">    <span class="keyword">auto</span> meshB = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a>(); <span class="comment">// make mesh B</span></div>
 <div class="line">    meshB.transform( <a class="code hl_functionRef" href="./Csharp/structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883">MR::AffineXf3f::translation</a>( <a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a>( 0.1f, 0.1f, 0.1f ) ) ); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> collidingFacePairs = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6">MR::findCollidingTriangles</a>( meshA, meshB ); <span class="comment">// find each pair of colliding faces</span></div>
@@ -176,8 +176,11 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="line">    std::cout &lt;&lt; isColliding &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
+<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMakeSphereMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMakeSphereMesh_8h.html">MRMakeSphereMesh.h</a></div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga47e983a2ba53dbe6d49313488f3cae23"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23">MR::findCollidingTriangleBitsets</a></div><div class="ttdeci">MRMESH_API std::pair&lt; FaceBitSet, FaceBitSet &gt; findCollidingTriangleBitsets(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gaaeb209f0c917451a03debbf058fc39e6"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6">MR::findCollidingTriangles</a></div><div class="ttdeci">MRMESH_API std::vector&lt; FaceFace &gt; findCollidingTriangles(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</div></div>
+<div class="ttc" id="anamespaceMR_html_a669b6772939a2427c2564e7a4a66b25e"><div class="ttname"><a href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></div><div class="ttdeci">MRMESH_API Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf3f_html_a6f7864db8ce7c5de0f3bd4cff16cb883"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html#a6f7864db8ce7c5de0f3bd4cff16cb883">MR::AffineXf3f::translation</a></div><div class="ttdeci">static unsafe MR.AffineXf3f translation(in MR.Vector3f b)</div></div>
 <div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></li>
@@ -198,114 +201,150 @@ $(function(){initNavTree('ExampleDetectCollisions.html',''); initResizable(true)
 <div class="line">isColliding = <span class="keywordflow">not</span> mm.findCollidingTriangles(meshA,meshB,firstIntersectionOnly=<span class="keyword">True</span>).empty() <span class="comment"># fast check if mesh A and mesh B collide</span></div>
 <div class="line">print(isColliding)</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMakeSphereMesh.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRAffineXf.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMesh.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMeshPart.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMeshCollide.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRFaceFace.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRBitSet.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_vector_MR_FaceFace.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_pair_MR_FaceBitSet_MR_FaceBitSet.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMakeSphereMesh_8h.html">MRCMesh/MRMakeSphereMesh.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRAffineXf_8h.html">MRCMesh/MRAffineXf.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMeshPart_8h.html">MRCMesh/MRMeshPart.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRMeshCollide_8h.html">MRCMesh/MRMeshCollide.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRFaceFace_8h.html">MRCMesh/MRFaceFace.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./C/MRBitSet_8h.html">MRCMesh/MRBitSet.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__vector__MR__FaceFace_8h.html">MRCMisc/std_vector_MR_FaceFace.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html">MRCMisc/std_pair_MR_FaceBitSet_MR_FaceBitSet.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">void</span> )</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
-<div class="line">    MR_Mesh* meshA = MR_makeUVSphere( NULL, NULL, NULL ); <span class="comment">// make mesh A</span></div>
-<div class="line">    MR_Mesh* meshB = MR_makeUVSphere( NULL, NULL, NULL ); <span class="comment">// make mesh B</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> shift = MR_Vector3f_Construct_3( 0.1f, 0.1f, 0.1f );</div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> xf = MR_AffineXf3f_translation( &amp;shift );</div>
-<div class="line">    MR_Mesh_transform( meshB, &amp;xf, NULL ); <span class="comment">// shift mesh B for better demonstration</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* meshA = <a class="code hl_functionRef" href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a>( NULL, NULL, NULL ); <span class="comment">// make mesh A</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* meshB = <a class="code hl_functionRef" href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a>( NULL, NULL, NULL ); <span class="comment">// make mesh B</span></div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> shift = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#af2e653638a00b182a7c92d75e6380c93">MR_Vector3f_Construct_3</a>( 0.1f, 0.1f, 0.1f );</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> xf = <a class="code hl_functionRef" href="./C/MRAffineXf_8h.html#a681c9904308f101a25d3cea705ed2bf6">MR_AffineXf3f_translation</a>( &amp;shift );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a>( meshB, &amp;xf, NULL ); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
-<div class="line">    MR_MeshPart* mpA = MR_MeshPart_Construct( meshA, NULL );</div>
-<div class="line">    MR_MeshPart* mpB = MR_MeshPart_Construct( meshB, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mpA = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( meshA, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mpB = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( meshB, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_std_vector_MR_FaceFace* collidingFacePairs = MR_findCollidingTriangles( mpA, mpB, NULL, NULL ); <span class="comment">// find each pair of colliding faces</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a>* collidingFacePairs = <a class="code hl_functionRef" href="./C/MRMeshCollide_8h.html#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a>( mpA, mpB, NULL, NULL ); <span class="comment">// find each pair of colliding faces</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_FaceFace_Size( collidingFacePairs ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <a class="code hl_typedefRef" href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i = 0; i &lt; <a class="code hl_functionRef" href="./C/std__vector__MR__FaceFace_8h.html#a0b7d3e3840c9833ffc1df676d2303b06">MR_std_vector_MR_FaceFace_Size</a>( collidingFacePairs ); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// print each pair of colliding faces</span></div>
-<div class="line">        MR_FaceFace* ff = MR_std_vector_MR_FaceFace_At( collidingFacePairs, i );</div>
-<div class="line">        fprintf( stdout, <span class="stringliteral">&quot;%d %d\n&quot;</span>, *MR_FaceId_get( MR_FaceFace_Get_aFace( ff ) ), *MR_FaceId_get( MR_FaceFace_Get_bFace( ff ) ) );</div>
+<div class="line">        <a class="code hl_typedefRef" href="./C/MRFaceFace_8h.html#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a>* ff = <a class="code hl_functionRef" href="./C/std__vector__MR__FaceFace_8h.html#a305386d22acc3d2b36b99262edff3ac6">MR_std_vector_MR_FaceFace_At</a>( collidingFacePairs, i );</div>
+<div class="line">        fprintf( stdout, <span class="stringliteral">&quot;%d %d\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a>( <a class="code hl_functionRef" href="./C/MRFaceFace_8h.html#a974f01b9647664814573a9c0f47443e6">MR_FaceFace_Get_aFace</a>( ff ) ), *<a class="code hl_functionRef" href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a>( <a class="code hl_functionRef" href="./C/MRFaceFace_8h.html#a783f59febd8b2a48e01179e3a4228715">MR_FaceFace_Get_bFace</a>( ff ) ) );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// find bitsets of colliding faces</span></div>
-<div class="line">    MR_std_pair_MR_FaceBitSet_MR_FaceBitSet* collidingBitSets = MR_findCollidingTriangleBitsets( mpA, mpB, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshCollide_8h.html#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a>* collidingBitSets = <a class="code hl_functionRef" href="./C/MRMeshCollide_8h.html#aa7b06d1e1a64adfa8b6b48ea296e99b6">MR_findCollidingTriangleBitsets</a>( mpA, mpB, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_uint64_t numColA = MR_BitSet_count(</div>
-<div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
-<div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_First( collidingBitSets ) ) );</div>
-<div class="line">    MR_uint64_t numColB = MR_BitSet_count(</div>
-<div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
-<div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Second( collidingBitSets ) ) );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> numColA = <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#abab382a8932cd9bb00a09215ddb35024">MR_BitSet_count</a>(</div>
+<div class="line">        <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a4f22019b23d0187944be5d0719b36d0d">MR_FaceBitSet_UpcastTo_MR_BitSet</a>(</div>
+<div class="line">            <a class="code hl_functionRef" href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#a133f71eaaf120e9e39155b09403a5bb8">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_First</a>( collidingBitSets ) ) );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> numColB = <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#abab382a8932cd9bb00a09215ddb35024">MR_BitSet_count</a>(</div>
+<div class="line">        <a class="code hl_functionRef" href="./C/MRBitSet_8h.html#a4f22019b23d0187944be5d0719b36d0d">MR_FaceBitSet_UpcastTo_MR_BitSet</a>(</div>
+<div class="line">            <a class="code hl_functionRef" href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#af607812127d34233006ea30b06aea6e9">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Second</a>( collidingBitSets ) ) );</div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%d\n&quot;</span>, numColA ); <span class="comment">// print number of colliding faces from mesh A</span></div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%d\n&quot;</span>, numColB ); <span class="comment">// print number of colliding faces from mesh B</span></div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// fast check if mesh A and mesh B collide</span></div>
 <div class="line">    <span class="keywordtype">bool</span> firstIntersectionsOnly = <span class="keyword">true</span>;</div>
-<div class="line">    MR_std_vector_MR_FaceFace* fastCheck = MR_findCollidingTriangles( mpA, mpB, NULL, &amp;firstIntersectionsOnly );</div>
-<div class="line">    <span class="keywordtype">bool</span> isColliding = !MR_std_vector_MR_FaceFace_IsEmpty( fastCheck );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a>* fastCheck = <a class="code hl_functionRef" href="./C/MRMeshCollide_8h.html#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a>( mpA, mpB, NULL, &amp;firstIntersectionsOnly );</div>
+<div class="line">    <span class="keywordtype">bool</span> isColliding = !<a class="code hl_functionRef" href="./C/std__vector__MR__FaceFace_8h.html#a48848d90357adce353a4b0c9fcb3574c">MR_std_vector_MR_FaceFace_IsEmpty</a>( fastCheck );</div>
 <div class="line">    <span class="keywordflow">if</span> ( isColliding )</div>
 <div class="line">        fprintf( stdout, <span class="stringliteral">&quot;true\n&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">else</span></div>
 <div class="line">        fprintf( stdout, <span class="stringliteral">&quot;false\n&quot;</span> );</div>
 <div class="line"> </div>
-<div class="line">    MR_std_vector_MR_FaceFace_Destroy( fastCheck );</div>
-<div class="line">    MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy( collidingBitSets );</div>
-<div class="line">    MR_std_vector_MR_FaceFace_Destroy( collidingFacePairs );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/std__vector__MR__FaceFace_8h.html#aed26ad7d280dba85c8eba72b49291d6b">MR_std_vector_MR_FaceFace_Destroy</a>( fastCheck );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#a76e68f9a277e8991bf428e110313ebad">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy</a>( collidingBitSets );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/std__vector__MR__FaceFace_8h.html#aed26ad7d280dba85c8eba72b49291d6b">MR_std_vector_MR_FaceFace_Destroy</a>( collidingFacePairs );</div>
 <div class="line"> </div>
-<div class="line">    MR_MeshPart_Destroy( mpB );</div>
-<div class="line">    MR_MeshPart_Destroy( mpA );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( mpB );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( mpA );</div>
 <div class="line"> </div>
-<div class="line">    MR_Mesh_Destroy( meshB );</div>
-<div class="line">    MR_Mesh_Destroy( meshA );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( meshB );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( meshA );</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRAABBTree_8h_html_af1ba30a3fa8a895c1f72e182f3e73e17"><div class="ttname"><a href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></div><div class="ttdeci">struct MR_MeshPart MR_MeshPart</div></div>
+<div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="./C/MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
+<div class="ttc" id="aMRAffineXf_8h_html_a681c9904308f101a25d3cea705ed2bf6"><div class="ttname"><a href="./C/MRAffineXf_8h.html#a681c9904308f101a25d3cea705ed2bf6">MR_AffineXf3f_translation</a></div><div class="ttdeci">MRC_API MR_AffineXf3f MR_AffineXf3f_translation(const MR_Vector3f *b)</div></div>
+<div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="./C/MRBitSet_8h.html">MRBitSet.h</a></div></div>
+<div class="ttc" id="aMRBitSet_8h_html_a4f22019b23d0187944be5d0719b36d0d"><div class="ttname"><a href="./C/MRBitSet_8h.html#a4f22019b23d0187944be5d0719b36d0d">MR_FaceBitSet_UpcastTo_MR_BitSet</a></div><div class="ttdeci">MRC_API const MR_BitSet * MR_FaceBitSet_UpcastTo_MR_BitSet(const MR_FaceBitSet *object)</div></div>
+<div class="ttc" id="aMRBitSet_8h_html_abab382a8932cd9bb00a09215ddb35024"><div class="ttname"><a href="./C/MRBitSet_8h.html#abab382a8932cd9bb00a09215ddb35024">MR_BitSet_count</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_BitSet_count(const MR_BitSet *_this)</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRFaceFace_8h_html"><div class="ttname"><a href="./C/MRFaceFace_8h.html">MRFaceFace.h</a></div></div>
+<div class="ttc" id="aMRFaceFace_8h_html_a3adc232a1bd3f56864f810f00d984ae1"><div class="ttname"><a href="./C/MRFaceFace_8h.html#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a></div><div class="ttdeci">struct MR_FaceFace MR_FaceFace</div></div>
+<div class="ttc" id="aMRFaceFace_8h_html_a783f59febd8b2a48e01179e3a4228715"><div class="ttname"><a href="./C/MRFaceFace_8h.html#a783f59febd8b2a48e01179e3a4228715">MR_FaceFace_Get_bFace</a></div><div class="ttdeci">MRC_API const MR_FaceId * MR_FaceFace_Get_bFace(const MR_FaceFace *_this)</div></div>
+<div class="ttc" id="aMRFaceFace_8h_html_a974f01b9647664814573a9c0f47443e6"><div class="ttname"><a href="./C/MRFaceFace_8h.html#a974f01b9647664814573a9c0f47443e6">MR_FaceFace_Get_aFace</a></div><div class="ttdeci">MRC_API const MR_FaceId * MR_FaceFace_Get_aFace(const MR_FaceFace *_this)</div></div>
+<div class="ttc" id="aMRId_8h_html_a42a6f5b90c643e1e1e727f7aa39c37fd"><div class="ttname"><a href="./C/MRId_8h.html#a42a6f5b90c643e1e1e727f7aa39c37fd">MR_FaceId_get</a></div><div class="ttdeci">MRC_API int * MR_FaceId_get(MR_FaceId *_this)</div></div>
+<div class="ttc" id="aMRMakeSphereMesh_8h_html_a13d746bd629f411a1b204ed144e88ea6"><div class="ttname"><a href="./C/MRMakeSphereMesh_8h.html#a13d746bd629f411a1b204ed144e88ea6">MR_makeUVSphere</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeUVSphere(const float *radius, const int *horisontalResolution, const int *verticalResolution)</div></div>
+<div class="ttc" id="aMRMeshCollide_8h_html"><div class="ttname"><a href="./C/MRMeshCollide_8h.html">MRMeshCollide.h</a></div></div>
+<div class="ttc" id="aMRMeshCollide_8h_html_a43987a7ef95446878c91e59b0ef55b11"><div class="ttname"><a href="./C/MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a></div><div class="ttdeci">struct MR_std_vector_MR_FaceFace MR_std_vector_MR_FaceFace</div></div>
+<div class="ttc" id="aMRMeshCollide_8h_html_a8ceedec9dcad3f944edabd2d4d228de7"><div class="ttname"><a href="./C/MRMeshCollide_8h.html#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a></div><div class="ttdeci">struct MR_std_pair_MR_FaceBitSet_MR_FaceBitSet MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</div></div>
+<div class="ttc" id="aMRMeshCollide_8h_html_aa7b06d1e1a64adfa8b6b48ea296e99b6"><div class="ttname"><a href="./C/MRMeshCollide_8h.html#aa7b06d1e1a64adfa8b6b48ea296e99b6">MR_findCollidingTriangleBitsets</a></div><div class="ttdeci">MRC_API MR_std_pair_MR_FaceBitSet_MR_FaceBitSet * MR_findCollidingTriangleBitsets(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A)</div></div>
+<div class="ttc" id="aMRMeshCollide_8h_html_ab422b73d45c4fe9bf3b79eb5a9cb00b3"><div class="ttname"><a href="./C/MRMeshCollide_8h.html#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a></div><div class="ttdeci">MRC_API MR_std_vector_MR_FaceFace * MR_findCollidingTriangles(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A, const bool *firstIntersectionOnly)</div></div>
+<div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="./C/MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
+<div class="ttc" id="aMRMeshPart_8h_html_aa166b642217494c14ed7f285e1b0fe56"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshPart_Destroy(const MR_MeshPart *_this)</div></div>
+<div class="ttc" id="aMRMeshPart_8h_html_aeeedbba2bfc476ada96fa53559390476"><div class="ttname"><a href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a></div><div class="ttdeci">MRC_API MR_MeshPart * MR_MeshPart_Construct(const MR_Mesh *m, const MR_FaceBitSet *bs)</div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html_a0946724aa4818c028be83125b2858446"><div class="ttname"><a href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a></div><div class="ttdeci">MRC_API void MR_Mesh_transform(MR_Mesh *_this, const MR_AffineXf3f *xf, const MR_VertBitSet *region)</div></div>
+<div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
+<div class="ttc" id="aMRVector3_8h_html_af2e653638a00b182a7c92d75e6380c93"><div class="ttname"><a href="./C/MRVector3_8h.html#af2e653638a00b182a7c92d75e6380c93">MR_Vector3f_Construct_3</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Vector3f_Construct_3(float x, float y, float z)</div></div>
+<div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div></div>
+<div class="ttc" id="astd__pair__MR__FaceBitSet__MR__FaceBitSet_8h_html"><div class="ttname"><a href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html">std_pair_MR_FaceBitSet_MR_FaceBitSet.h</a></div></div>
+<div class="ttc" id="astd__pair__MR__FaceBitSet__MR__FaceBitSet_8h_html_a133f71eaaf120e9e39155b09403a5bb8"><div class="ttname"><a href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#a133f71eaaf120e9e39155b09403a5bb8">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_First</a></div><div class="ttdeci">MRC_API const MR_FaceBitSet * MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_First(const MR_std_pair_MR_FaceBitSet_MR_FaceBitSet *_this)</div></div>
+<div class="ttc" id="astd__pair__MR__FaceBitSet__MR__FaceBitSet_8h_html_a76e68f9a277e8991bf428e110313ebad"><div class="ttname"><a href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#a76e68f9a277e8991bf428e110313ebad">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy(const MR_std_pair_MR_FaceBitSet_MR_FaceBitSet *_this)</div></div>
+<div class="ttc" id="astd__pair__MR__FaceBitSet__MR__FaceBitSet_8h_html_af607812127d34233006ea30b06aea6e9"><div class="ttname"><a href="./C/std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#af607812127d34233006ea30b06aea6e9">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Second</a></div><div class="ttdeci">MRC_API const MR_FaceBitSet * MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Second(const MR_std_pair_MR_FaceBitSet_MR_FaceBitSet *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__vector__MR__FaceFace_8h_html"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html">std_vector_MR_FaceFace.h</a></div></div>
+<div class="ttc" id="astd__vector__MR__FaceFace_8h_html_a0b7d3e3840c9833ffc1df676d2303b06"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html#a0b7d3e3840c9833ffc1df676d2303b06">MR_std_vector_MR_FaceFace_Size</a></div><div class="ttdeci">MRC_API size_t MR_std_vector_MR_FaceFace_Size(const MR_std_vector_MR_FaceFace *_this)</div></div>
+<div class="ttc" id="astd__vector__MR__FaceFace_8h_html_a305386d22acc3d2b36b99262edff3ac6"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html#a305386d22acc3d2b36b99262edff3ac6">MR_std_vector_MR_FaceFace_At</a></div><div class="ttdeci">MRC_API const MR_FaceFace * MR_std_vector_MR_FaceFace_At(const MR_std_vector_MR_FaceFace *_this, size_t i)</div></div>
+<div class="ttc" id="astd__vector__MR__FaceFace_8h_html_a48848d90357adce353a4b0c9fcb3574c"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html#a48848d90357adce353a4b0c9fcb3574c">MR_std_vector_MR_FaceFace_IsEmpty</a></div><div class="ttdeci">MRC_API bool MR_std_vector_MR_FaceFace_IsEmpty(const MR_std_vector_MR_FaceFace *_this)</div></div>
+<div class="ttc" id="astd__vector__MR__FaceFace_8h_html_aed26ad7d280dba85c8eba72b49291d6b"><div class="ttname"><a href="./C/std__vector__MR__FaceFace_8h.html#aed26ad7d280dba85c8eba72b49291d6b">MR_std_vector_MR_FaceFace_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_vector_MR_FaceFace_Destroy(const MR_std_vector_MR_FaceFace *_this)</div></div>
 <div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a></div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>;</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>;</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Collision {</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args) {</div>
 <div class="line"> </div>
-<div class="line">        var meshA = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeUVSphere();</div>
-<div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.makeUVSphere();</div>
+<div class="line">        var meshA = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere();</div>
+<div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere();</div>
 <div class="line"> </div>
-<div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">Vector3f</a>(0.1f, 0.1f, 0.1f)));</div>
+<div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a>.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_structRef" href="./Csharp/structMR_1_1Vector3f.html">Vector3f</a>(0.1f, 0.1f, 0.1f)));</div>
 <div class="line"> </div>
 <div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
 <div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
 <div class="line"> </div>
 <div class="line">        Console.WriteLine(<span class="stringliteral">&quot; --- Beginning Colliding Test! --- &quot;</span>);</div>
-<div class="line">        var collidingFacePairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB);</div>
+<div class="line">        var collidingFacePairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB);</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFacePairs.size(); i++) {</div>
 <div class="line">            var pair = collidingFacePairs[i];</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;FaceA: {pair.aFace.id} FaceB: {pair.bFace.id}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line"> </div>
-<div class="line">        var collidingFaceBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.findCollidingTriangleBitsets(meshPartA, meshPartB);</div>
+<div class="line">        var collidingFaceBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangleBitsets(meshPartA, meshPartB);</div>
 <div class="line">        var bitSet = collidingFaceBitSet.first();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshA: {bitSet.count()}&quot;</span>);</div>
 <div class="line">        bitSet = collidingFaceBitSet.second();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.count()}&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).isEmpty();</div>
+<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).isEmpty();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Meshes are colliding: {isColliding}\n&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1AffineXf3f_html"><div class="ttname"><a href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></div></div>
 </div><!-- fragment --></li>
 </ul>

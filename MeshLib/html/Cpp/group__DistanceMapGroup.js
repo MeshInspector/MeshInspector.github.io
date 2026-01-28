@@ -103,8 +103,20 @@ var group__DistanceMapGroup =
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#aaade34a3fb7a2c857f510fe790b579ba", null ],
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#acf8fa4cfb8a7330e6a5182113284bfd3", null ],
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#a59ae113b31f2a918e5c85bdcf9593efc", null ],
+      [ "RectIndexer", "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d", null ],
       [ "assign", "../Csharp/classMR_1_1RectIndexer.html#a320c5f45653d5d1ebff32d13ca5db2db", null ],
-      [ "resize", "../Csharp/classMR_1_1RectIndexer.html#a1c86a4b8850368f0ce7e6b4ed448a6a8", null ]
+      [ "resize", "group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f", null ],
+      [ "resize", "../Csharp/classMR_1_1RectIndexer.html#a1c86a4b8850368f0ce7e6b4ed448a6a8", null ],
+      [ "toIndex", "group__DistanceMapGroup.html#gacf16438d65e6771b0a308b2e232e86b1", null ],
+      [ "toPos", "group__DistanceMapGroup.html#ga920d5e2ba75ebd9fe641aae7d50cce9f", null ]
+    ] ],
+    [ "MR::OutEdge2", "group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6", [
+      [ "MR::OutEdge2::Invalid", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "MR::OutEdge2::PlusY", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a", null ],
+      [ "MR::OutEdge2::MinusY", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565", null ],
+      [ "MR::OutEdge2::PlusX", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7", null ],
+      [ "MR::OutEdge2::MinusX", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454", null ],
+      [ "MR::OutEdge2::Count", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::combineXYderivativeMaps", "group__DistanceMapGroup.html#ga27435b7d8c5a7876aa45b60ea840b353", null ],
     [ "MR::computeDistanceMap", "group__DistanceMapGroup.html#gaf972733cbe1eca39d0f85671e30b514c", null ],
@@ -119,9 +131,17 @@ var group__DistanceMapGroup =
     [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga875406db41d922b9e6b597a1cc589c02", null ],
     [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga6d0dc4485cbdb50e2e0663aedcc73986", null ],
     [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56", null ],
+    [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga1acaca885d3034b9c8ef1f5cb9b8824a", null ],
     [ "MR::distanceMapToMesh", "group__DistanceMapGroup.html#ga145ea179a83ff19d1734af8771bba71a", null ],
     [ "MR::edgePointsFromContours", "group__DistanceMapGroup.html#ga00ea89be5cae9953d5df7ef382259b58", null ],
     [ "MR::expandPixelMask", "group__DistanceMapGroup.html#ga6c5838a3065551d1adbcde13e5cf895b", null ],
+    [ "MR::opposite", "group__DistanceMapGroup.html#ga91a308e751ba7d6ace30ea1a895eb3fb", null ],
     [ "MR::polylineOffset", "group__DistanceMapGroup.html#gaf720ea7221e6ad284c8b0b80e5c58364", null ],
-    [ "MR::shrinkPixelMask", "group__DistanceMapGroup.html#gacbedf1abc59aa1401992cc4d1e1ed306", null ]
+    [ "MR::RectIndexer::RectIndexer", "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d", null ],
+    [ "MR::RectIndexer::resize", "group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f", null ],
+    [ "MR::shrinkPixelMask", "group__DistanceMapGroup.html#gacbedf1abc59aa1401992cc4d1e1ed306", null ],
+    [ "MR::RectIndexer::toIndex", "group__DistanceMapGroup.html#gacf16438d65e6771b0a308b2e232e86b1", null ],
+    [ "MR::RectIndexer::toPos", "group__DistanceMapGroup.html#ga920d5e2ba75ebd9fe641aae7d50cce9f", null ],
+    [ "MR::allOutEdges2", "group__DistanceMapGroup.html#gaf0cff421c4d16669d4c549f214bb8477", null ],
+    [ "MR::OutEdge2Count", "group__DistanceMapGroup.html#ga1fe8adc8eeed5eae0d5217546cb26d59", null ]
 ];

@@ -148,14 +148,14 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
   <div class="headertitle"><div class="title">MROffsetContours.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRConstants.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRExpected.h&quot;</span></div>
+<a href="MROffsetContours_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRConstants_8h.html">MRConstants.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>OffsetContourIndex</div>
@@ -217,16 +217,16 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">float</span> minAnglePrecision = PI_F / 9.0f; <span class="comment">// 20 deg</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">float</span> maxSharpAngle = PI_F * 2.0f / 3.0f; <span class="comment">// 120 deg</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    OffsetContoursVertMaps* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1OffsetContoursParams.html#ab471275ec374e91c82463c88815adb0b">indicesMap</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#aa1ca3de2c14300f1ae943c8a5e18ff92">OffsetContoursVertMaps</a>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1OffsetContoursParams.html#ab471275ec374e91c82463c88815adb0b">indicesMap</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>[[nodiscard]] MRMESH_API Contours2f <a class="code hl_functionRef" href="../Csharp/classMR.html#a8f80818732ef934288bcb3335ec8e1de">offsetContours</a>( <span class="keyword">const</span> Contours2f&amp; contours, <span class="keywordtype">float</span> offset,</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">const</span> OffsetContoursParams&amp; params = {} );</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">   80</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours2f <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> Contours2f&amp; contours, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">using </span>ContoursVariableOffset = std::function&lt;float( <span class="keywordtype">int</span>, <span class="keywordtype">int</span> )&gt;;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>[[nodiscard]] MRMESH_API Contours2f offsetContours( <span class="keyword">const</span> Contours2f&amp; contours, </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    ContoursVariableOffset offset, <span class="keyword">const</span> OffsetContoursParams&amp; params = {} );</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="namespaceMR.html#a27899d08f51f8b1106ec145d7a116f9f">   86</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours2f <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> Contours2f&amp; contours, </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    ContoursVariableOffset offset, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">struct </span>OffsetContoursRestoreZParams</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>{</div>
@@ -235,24 +235,30 @@ $(function(){initNavTree('MROffsetContours_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">int</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1OffsetContoursRestoreZParams.html#a1205e017a48c5fb39141381c4ee12a7c">relaxIterations</a> = 1;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>[[nodiscard]] MRMESH_API Contours3f offsetContours( <span class="keyword">const</span> Contours3f&amp; contours, <span class="keywordtype">float</span> offset,</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">const</span> OffsetContoursParams&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5603e7e0bf45735134643ec3745b0573">  101</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours3f <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> Contours3f&amp; contours, <span class="keywordtype">float</span> offset,</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>[[nodiscard]] MRMESH_API Contours3f offsetContours( <span class="keyword">const</span> Contours3f&amp; contours,</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    ContoursVariableOffset offset, <span class="keyword">const</span> OffsetContoursParams&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespaceMR.html#aade58963fb6a70bd69db550185bd5af7">  105</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours3f <a class="code hl_function" href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">offsetContours</a>( <span class="keyword">const</span> Contours3f&amp; contours,</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    ContoursVariableOffset offset, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1OffsetContoursParams.html">OffsetContoursParams</a>&amp; params = {}, <span class="keyword">const</span> OffsetContoursRestoreZParams&amp; zParmas = {} );</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>}</div>
+<div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aclassMR_1_1OffsetContoursParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1OffsetContoursParams.html">MR::OffsetContoursParams</a></div><div class="ttdef"><b>Definition</b> MROffsetContours.h:48</div></div>
 <div class="ttc" id="aclassMR_1_1OffsetContoursParams_html_ab471275ec374e91c82463c88815adb0b"><div class="ttname"><a href="../Csharp/classMR_1_1OffsetContoursParams.html#ab471275ec374e91c82463c88815adb0b">MR::OffsetContoursParams::indicesMap</a></div><div class="ttdeci">new unsafe MR.Std.? Vector_StdVectorMROffsetContoursOrigins indicesMap</div></div>
 <div class="ttc" id="aclassMR_1_1OffsetContoursRestoreZParams_html_a1205e017a48c5fb39141381c4ee12a7c"><div class="ttname"><a href="../Csharp/classMR_1_1OffsetContoursRestoreZParams.html#a1205e017a48c5fb39141381c4ee12a7c">MR::OffsetContoursRestoreZParams::relaxIterations</a></div><div class="ttdeci">new unsafe ref int relaxIterations</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a8f80818732ef934288bcb3335ec8e1de"><div class="ttname"><a href="../Csharp/classMR.html#a8f80818732ef934288bcb3335ec8e1de">MR::offsetContours</a></div><div class="ttdeci">static unsafe MR.Std.Vector_StdVectorMRVector2f offsetContours(MR.Std.Const_Vector_StdVectorMRVector2f contours, float offset, MR.Const_OffsetContoursParams? params_=null)</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a13fd7f6f4c21ca10264a68af45c700bd"><div class="ttname"><a href="namespaceMR.html#a13fd7f6f4c21ca10264a68af45c700bd">MR::offsetContours</a></div><div class="ttdeci">MRMESH_API Contours2f offsetContours(const Contours2f &amp;contours, float offset, const OffsetContoursParams &amp;params={})</div><div class="ttdoc">offsets 2d contours in plane</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_aa1ca3de2c14300f1ae943c8a5e18ff92"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#aa1ca3de2c14300f1ae943c8a5e18ff92">mrmeshpy::OffsetContoursVertMaps</a></div><div class="ttdeci">OffsetContoursVertMaps</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MROffsetContours.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MROffsetContours_8h.html">MROffsetContours.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -1,5 +1,6 @@
 var classMR_1_1ImageLoad =
 [
+    [ "ImageLoader", "../Cpp/namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53", null ],
     [ "fromAnySupportedFormat", "classMR_1_1ImageLoad.html#ad1494ca8b7d8a6d0c11896779b7b6bfa", null ],
     [ "fromJpeg", "classMR_1_1ImageLoad.html#a6294b5614fb4cdcd07f85458fac2a5db", null ],
     [ "fromJpeg", "classMR_1_1ImageLoad.html#a3ca04d3ae3cbfb2d0ecbeb42a8efbc60", null ],

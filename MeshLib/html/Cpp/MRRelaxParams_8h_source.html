@@ -148,14 +148,14 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
   <div class="headertitle"><div class="title">MRRelaxParams.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRRelaxParams_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRVectorTraits.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRPch/MRBindingMacros.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>RelaxParams</div>
@@ -184,30 +184,37 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> V&gt;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>[[nodiscard]] <span class="keyword">inline</span> V getLimitedPos( <span class="keyword">const</span> V &amp; pos, <span class="keyword">const</span> V &amp; guidePos, <span class="keyword">typename</span> VectorTraits&lt;V&gt;::BaseType maxGuideDistSq )</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="namespaceMR.html#ab3c3135929071104083ade4ce59d105d">   44</a></span>[[nodiscard]] <span class="keyword">inline</span> V <a class="code hl_function" href="namespaceMR.html#ab3c3135929071104083ade4ce59d105d">getLimitedPos</a>( <span class="keyword">const</span> V &amp; pos, <span class="keyword">const</span> V &amp; guidePos, <span class="keyword">typename</span> <a class="code hl_typedef" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VectorTraits&lt;V&gt;::BaseType</a> maxGuideDistSq )</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    assert( maxGuideDistSq &gt; 0 );</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">const</span> <span class="keyword">auto</span> d = pos - guidePos;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">float</span> distSq = sqr( d );</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">float</span> distSq = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">sqr</a>( d );</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">if</span> ( distSq &lt;= maxGuideDistSq )</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> pos;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">return</span> guidePos + std::sqrt( maxGuideDistSq / distSq ) * d;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
+</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_a25edc7a8669087781f5180c67a704a7d"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#a25edc7a8669087781f5180c67a704a7d">MR::RelaxParams::region</a></div><div class="ttdeci">new unsafe MR.? Const_VertBitSet region</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_a3a35234771b7e73df2d9d2ac55d86881"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#a3a35234771b7e73df2d9d2ac55d86881">MR::RelaxParams::iterations</a></div><div class="ttdeci">new unsafe ref int iterations</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_a6a77807fb4269a27dbe4ed779b218721"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#a6a77807fb4269a27dbe4ed779b218721">MR::RelaxParams::limitNearInitial</a></div><div class="ttdeci">new unsafe ref bool limitNearInitial</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_ab63b0c054897c1b08f7e126ae1794748"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#ab63b0c054897c1b08f7e126ae1794748">MR::RelaxParams::force</a></div><div class="ttdeci">new unsafe ref float force</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_ae949db566df3a3532f3bebfa7dfcd11c"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#ae949db566df3a3532f3bebfa7dfcd11c">MR::RelaxParams::maxInitialDist</a></div><div class="ttdeci">new unsafe ref float maxInitialDist</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdoc">squared value</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:752</div></div>
+<div class="ttc" id="anamespaceMR_html_ab3c3135929071104083ade4ce59d105d"><div class="ttname"><a href="namespaceMR.html#ab3c3135929071104083ade4ce59d105d">MR::getLimitedPos</a></div><div class="ttdeci">V getLimitedPos(const V &amp;pos, const V &amp;guidePos, typename VectorTraits&lt; V &gt;::BaseType maxGuideDistSq)</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:44</div></div>
+<div class="ttc" id="astructMR_1_1VectorTraits_html_adbadae2704ad269b8d78edbb0f2faa93"><div class="ttname"><a href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">MR::VectorTraits::BaseType</a></div><div class="ttdeci">T BaseType</div><div class="ttdef"><b>Definition</b> MRMesh/MRVectorTraits.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRRelaxParams.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRRelaxParams_8h.html">MRRelaxParams.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

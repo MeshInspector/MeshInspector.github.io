@@ -1,5 +1,7 @@
 var classMR_1_1LinesSave =
 [
+    [ "LinesFileSaver", "../Cpp/namespaceMR_1_1LinesSave.html#af60c53a3373b70b68b166f03994a8894", null ],
+    [ "LinesStreamSaver", "../Cpp/namespaceMR_1_1LinesSave.html#a268aa90e5a330542295cca4a34787a08", null ],
     [ "toAnySupportedFormat", "classMR_1_1LinesSave.html#a69b2d6ac1891da9955927f62259f434b", null ],
     [ "toAnySupportedFormat", "classMR_1_1LinesSave.html#ac4628f9ce6da5d349d87805342d8f216", null ],
     [ "toDxf", "classMR_1_1LinesSave.html#ab6905ca3386a1af2c2be033c982e88f4", null ],

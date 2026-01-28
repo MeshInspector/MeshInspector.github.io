@@ -1,16 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"classMR_1_1__InOptConst__ChangeMeshTexturePerFaceAction.html":[6,3,0,0,0,777],
-"classMR_1_1__InOptConst__ChangeMeshTopologyAction.html":[6,3,0,0,0,778],
-"classMR_1_1__InOptConst__ChangeMeshUVCoordsAction.html":[6,3,0,0,0,779],
-"classMR_1_1__InOptConst__ChangeNameAction.html":[6,3,0,0,0,780],
-"classMR_1_1__InOptConst__ChangeObjectAction.html":[6,3,0,0,0,781],
-"classMR_1_1__InOptConst__ChangeObjectColorAction.html":[6,3,0,0,0,782],
-"classMR_1_1__InOptConst__ChangeObjectSelectedAction.html":[6,3,0,0,0,783],
-"classMR_1_1__InOptConst__ChangeObjectVisibilityAction.html":[6,3,0,0,0,784],
-"classMR_1_1__InOptConst__ChangeOneNormalInCloudAction.html":[6,3,0,0,0,785],
-"classMR_1_1__InOptConst__ChangeOnePointInCloudAction.html":[6,3,0,0,0,786],
-"classMR_1_1__InOptConst__ChangeOnePointInPolylineAction.html":[6,3,0,0,0,787],
 "classMR_1_1__InOptConst__ChangePointCloudAction.html":[6,3,0,0,0,788],
 "classMR_1_1__InOptConst__ChangePointCloudNormalsAction.html":[6,3,0,0,0,789],
 "classMR_1_1__InOptConst__ChangePointCloudPointsAction.html":[6,3,0,0,0,790],
@@ -249,5 +238,16 @@ var NAVTREEINDEX146 =
 "classMR_1_1__InOptConst__ICPGroupPairs.html":[6,3,0,0,0,1004],
 "classMR_1_1__InOptConst__ICPPairData.html":[6,3,0,0,0,1005],
 "classMR_1_1__InOptConst__ICPProperties.html":[6,3,0,0,0,1006],
-"classMR_1_1__InOptConst__IComputeToolDistance.html":[6,3,0,0,0,1001]
+"classMR_1_1__InOptConst__IComputeToolDistance.html":[6,3,0,0,0,1001],
+"classMR_1_1__InOptConst__IFastWindingNumber.html":[6,3,0,0,0,1008],
+"classMR_1_1__InOptConst__IFastWindingNumberByParts.html":[6,3,0,0,0,1009],
+"classMR_1_1__InOptConst__IICPTreeIndexer.html":[6,3,0,0,0,1010],
+"classMR_1_1__InOptConst__IOFilter.html":[6,3,0,0,0,1022],
+"classMR_1_1__InOptConst__IPointPairs.html":[6,3,0,0,0,1023],
+"classMR_1_1__InOptConst__IPointsProjector.html":[6,3,0,0,0,1024],
+"classMR_1_1__InOptConst__IPointsToMeshProjector.html":[6,3,0,0,0,1025],
+"classMR_1_1__InOptConst__IRenderObject.html":[6,3,0,0,0,1026],
+"classMR_1_1__InOptConst__Id__MRICPElemtTag.html":[6,3,0,0,0,1007],
+"classMR_1_1__InOptConst__Image.html":[6,3,0,0,0,1011],
+"classMR_1_1__InOptConst__ImproveSamplingSettings.html":[6,3,0,0,0,1012]
 };

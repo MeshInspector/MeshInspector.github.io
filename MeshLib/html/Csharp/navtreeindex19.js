@@ -1,13 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ae8c01a3119b03787c79b38da9056af93":[6,3,0,0,0,2595,27],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#aecdec9b9b535c36144f363b5bf793185":[6,3,0,0,0,2595,0],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af056523901188357be747ca67b432013":[6,3,0,0,0,2595,76],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af3356b2e374e04322cf298187b0ee85a":[6,3,0,0,0,2595,66],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af383e3771cb6e165ce7d6eba9debfd85":[6,3,0,0,0,2595,73],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af7ce1567ae6a729e026c3717cffde195":[6,3,0,0,0,2595,51],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af7e102c6a0443eea7323752df839e0c3":[6,3,0,0,0,2595,45],
-"classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af8f431186d78f788c791d395ffbf3944":[6,3,0,0,0,2595,33],
 "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#afe2dbe0903dbf08543f82364fe102698":[6,3,0,0,0,2595,12],
 "classMR_1_1Const__AllLocalTriangulations.html":[6,3,0,0,0,2598],
 "classMR_1_1Const__AllLocalTriangulations.html#a6e5de51511cce5fd478e60dbfd638591":[6,3,0,0,0,2598,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX19 =
 "classMR_1_1Const__BendContoursAlongCurveParams.html#adc7a8a5e26bd80986c68dcd130d38f4f":[6,3,0,0,0,2613,6],
 "classMR_1_1Const__BendContoursAlongCurveParams.html#aeef8567d2adee7582843448db1614426":[6,3,0,0,0,2613,4],
 "classMR_1_1Const__BendTextAlongCurveParams.html":[6,3,0,0,0,2614],
-"classMR_1_1Const__BendTextAlongCurveParams.html#a0520f3d9e179a716ad0bac07eb1b2276":[6,3,0,0,0,2614,2]
+"classMR_1_1Const__BendTextAlongCurveParams.html#a0520f3d9e179a716ad0bac07eb1b2276":[6,3,0,0,0,2614,2],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a076d252b8d91083010b99238ef3d494a":[6,3,0,0,0,2614,3],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a11486a12a93770713123624e5eb77027":[6,3,0,0,0,2614,1],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a1a218beb7e80376fbbd44f34d994da47":[6,3,0,0,0,2614,7],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a23542c1560734440eb30aa037911032d":[6,3,0,0,0,2614,5],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a8061392a1acd5751927363635d66cfda":[6,3,0,0,0,2614,6],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a8f02305dfb4ff0685007537f834d5e55":[6,3,0,0,0,2614,0],
+"classMR_1_1Const__BendTextAlongCurveParams.html#ab998438af8f391801c125f377e1902e6":[6,3,0,0,0,2614,4],
+"classMR_1_1Const__BestFitParabolad.html":[6,3,0,0,0,2615]
 };

@@ -150,16 +150,16 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="contents">
 <div class="textblock"><p>Example of mesh decimation</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFwd.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshDecimate.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBuffer.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBuffer_8h.html">MRMesh/MRBuffer.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    <span class="keyword">auto</span> meshRes = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
@@ -198,6 +198,11 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
+<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRBuffer_8h_html"><div class="ttname"><a href="./Cpp/MRBuffer_8h.html">MRBuffer.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="./Cpp/MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="agroup__DecimateGroup_html_ga16a994862b0ba8f6a68c61463be0ed4e"><div class="ttname"><a href="./Cpp/group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e">MR::decimateMesh</a></div><div class="ttdeci">MRMESH_API DecimateResult decimateMesh(Mesh &amp;mesh, const DecimateSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
@@ -213,7 +218,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
-<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Repack mesh optimally.</span></div>
 <div class="line"><span class="comment"># It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
@@ -231,11 +236,14 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">settings.subdivideParts = 64</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Decimate mesh</span></div>
-<div class="line">mrmeshpy.decimateMesh(mesh, settings)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#aba479cc39cd960dea946a7bfc6d1e937">mrmeshpy.decimateMesh</a>(mesh, settings)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;decimatedMesh.stl&quot;</span>)</div>
+<div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;decimatedMesh.stl&quot;</span>)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1DecimateSettings_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1DecimateSettings.html">mrmeshpy::DecimateSettings</a></div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_aba479cc39cd960dea946a7bfc6d1e937"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#aba479cc39cd960dea946a7bfc6d1e937">mrmeshpy::decimateMesh</a></div><div class="ttdeci">DecimateResult decimateMesh(Mesh mesh, DecimateSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>
@@ -243,64 +251,91 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshDecimate.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRString.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshDecimate_8h.html">MRCMesh/MRMeshDecimate.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshLoad_8h.html">MRCMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRString_8h.html">MRCMesh/MRString.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__void__std__string_8h.html">MRCMisc/expected_void_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">void</span> )</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
-<div class="line">    MR_DecimateSettings* params = MR_DecimateSettings_DefaultConstruct();</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshDecimate_8h.html#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a>* params = <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a11fc6de32c51d96f2d0ecf2cdf0d89f2">MR_DecimateSettings_DefaultConstruct</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
-<div class="line">    MR_DecimateSettings_Set_maxDeletedFaces( params, 1000 ); <span class="comment">// Number of faces to be deleted</span></div>
-<div class="line">    MR_DecimateSettings_Set_maxError( params, 0.05f ); <span class="comment">// Maximum error when decimation stops</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a4d09c1fedfc51a805ef7ca440f69964f">MR_DecimateSettings_Set_maxDeletedFaces</a>( params, 1000 ); <span class="comment">// Number of faces to be deleted</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a02682bf31c53ea3dbcb40690424eabd4">MR_DecimateSettings_Set_maxError</a>( params, 0.05f ); <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
 <div class="line">    <span class="comment">// Recommended to set to the number of available CPU cores or more for the best performance</span></div>
-<div class="line">    MR_DecimateSettings_Set_subdivideParts( params, 64 );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a3cffeb8691245162333b40c6b03532e6">MR_DecimateSettings_Set_subdivideParts</a>( params, 64 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
-<div class="line">    MR_DecimateResult* result = MR_decimateMesh( mesh, params );</div>
-<div class="line">    MR_DecimateSettings_Destroy( params );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshDecimate_8h.html#a1c2bfbb682daa7da43026c7be3a4796e">MR_DecimateResult</a>* result = <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aff543414478a21a6383678de5719058b">MR_decimateMesh</a>( mesh, params );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aba4b49c1fc63bf6029d452bff2a12f37">MR_DecimateSettings_Destroy</a>( params );</div>
 <div class="line"> </div>
-<div class="line">    printf( <span class="stringliteral">&quot;Removed %d vertices, %d faces\n&quot;</span>, *MR_DecimateResult_Get_vertsDeleted( result ), *MR_DecimateResult_Get_facesDeleted( result ) );</div>
-<div class="line">    MR_DecimateResult_Destroy( result );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;Removed %d vertices, %d faces\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#ab6bdafd695829e0a593cf745ea0a9709">MR_DecimateResult_Get_vertsDeleted</a>( result ), *<a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#a06c3771203515b927d8d73f1f1677b33">MR_DecimateResult_Get_facesDeleted</a>( result ) );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshDecimate_8h.html#aae88d6da898d1a97e1f9b7a9688b45e7">MR_DecimateResult_Destroy</a>( result );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">fail:</div>
-<div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html">MRMeshDecimate.h</a></div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a02682bf31c53ea3dbcb40690424eabd4"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a02682bf31c53ea3dbcb40690424eabd4">MR_DecimateSettings_Set_maxError</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_maxError(MR_DecimateSettings *_this, float value)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a06c3771203515b927d8d73f1f1677b33"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a06c3771203515b927d8d73f1f1677b33">MR_DecimateResult_Get_facesDeleted</a></div><div class="ttdeci">MRC_API const int * MR_DecimateResult_Get_facesDeleted(const MR_DecimateResult *_this)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a11fc6de32c51d96f2d0ecf2cdf0d89f2"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a11fc6de32c51d96f2d0ecf2cdf0d89f2">MR_DecimateSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_DecimateSettings * MR_DecimateSettings_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a1c2bfbb682daa7da43026c7be3a4796e"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a1c2bfbb682daa7da43026c7be3a4796e">MR_DecimateResult</a></div><div class="ttdeci">struct MR_DecimateResult MR_DecimateResult</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a3cffeb8691245162333b40c6b03532e6"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a3cffeb8691245162333b40c6b03532e6">MR_DecimateSettings_Set_subdivideParts</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_subdivideParts(MR_DecimateSettings *_this, int value)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a4d09c1fedfc51a805ef7ca440f69964f"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a4d09c1fedfc51a805ef7ca440f69964f">MR_DecimateSettings_Set_maxDeletedFaces</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Set_maxDeletedFaces(MR_DecimateSettings *_this, int value)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_a6e3ff7daeb59ebc150f578d14cef449a"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a></div><div class="ttdeci">struct MR_DecimateSettings MR_DecimateSettings</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_aae88d6da898d1a97e1f9b7a9688b45e7"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aae88d6da898d1a97e1f9b7a9688b45e7">MR_DecimateResult_Destroy</a></div><div class="ttdeci">MRC_API void MR_DecimateResult_Destroy(const MR_DecimateResult *_this)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_ab6bdafd695829e0a593cf745ea0a9709"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#ab6bdafd695829e0a593cf745ea0a9709">MR_DecimateResult_Get_vertsDeleted</a></div><div class="ttdeci">MRC_API const int * MR_DecimateResult_Get_vertsDeleted(const MR_DecimateResult *_this)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_aba4b49c1fc63bf6029d452bff2a12f37"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aba4b49c1fc63bf6029d452bff2a12f37">MR_DecimateSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_DecimateSettings_Destroy(const MR_DecimateSettings *_this)</div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html_aff543414478a21a6383678de5719058b"><div class="ttname"><a href="./C/MRMeshDecimate_8h.html#aff543414478a21a6383678de5719058b">MR_decimateMesh</a></div><div class="ttdeci">MRC_API MR_DecimateResult * MR_decimateMesh(MR_Mesh *mesh, const MR_DecimateSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRString_8h_html"><div class="ttname"><a href="./C/MRString_8h.html">MRString.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>
@@ -315,20 +350,20 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            var mesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR.DecimateSettings</a> ds = <span class="keyword">new</span>();</div>
-<div class="line">            ds.strategy = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.DecimateStrategy.MinimizeError;</div>
+<div class="line">            ds.strategy = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DecimateStrategy.MinimizeError;</div>
 <div class="line">            ds.maxError = 1e-5f * mesh.computeBoundingBox().diagonal();</div>
 <div class="line">            ds.tinyEdgeLength = 1e-3f;</div>
 <div class="line">            ds.packMesh = <span class="keyword">true</span>;</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Decimate mesh</span></div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateResult.html">MR.DecimateResult</a> result = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.decimateMesh(mesh, ds);</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateResult.html">MR.DecimateResult</a> result = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.decimateMesh(mesh, ds);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/classMR_1_1MeshSave_1_1BinaryStlSaver.html">MeshSave</a>.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -336,10 +371,10 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassMR_1_1MeshSave_1_1BinaryStlSaver_html"><div class="ttname"><a href="./Cpp/classMR_1_1MeshSave_1_1BinaryStlSaver.html">MR::MeshSave</a></div></div>
-<div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Features_1_1Traits.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1DecimateResult_html"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateResult.html">MR::DecimateResult</a></div></div>
-<div class="ttc" id="astructMR_1_1MeshLoad_1_1MeshLoader_html"><div class="ttname"><a href="./Cpp/structMR_1_1MeshLoad_1_1MeshLoader.html">MR::MeshLoad</a></div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>

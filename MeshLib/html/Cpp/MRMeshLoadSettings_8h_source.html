@@ -148,12 +148,12 @@ $(function(){initNavTree('MRMeshLoadSettings_8h_source.html',''); initResizable(
   <div class="headertitle"><div class="title">MRMeshLoadSettings.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRProgressCallback.h&quot;</span></div>
+<a href="MRMeshLoadSettings_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRProgressCallback.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">struct </span>MeshLoadSettings</div>
@@ -161,8 +161,8 @@ $(function(){initNavTree('MRMeshLoadSettings_8h_source.html',''); initResizable(
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    std::optional&lt;Edges&gt;* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#a7f2a3a7e7d2d7949c1bc324f0b7d3544">edges</a> = <span class="keyword">nullptr</span>; </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    VertColors* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#a50eb3f448a1163fcf66117244b09c735">colors</a> = <span class="keyword">nullptr</span>;    </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    FaceColors* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#ab4be2241a96959be436b266c95f2c6b9">faceColors</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    VertUVCoords* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#ae17e0ede5f26c0110bd85238e1f0dd8a">uvCoords</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    VertNormals* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#a777c1dcb86f60d0b704ca87ea9258391">normals</a> = <span class="keyword">nullptr</span>;  </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917">VertUVCoords</a>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#ae17e0ede5f26c0110bd85238e1f0dd8a">uvCoords</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#aba8a59e8721d6ab8c38f64db8b8869e2">VertNormals</a>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#a777c1dcb86f60d0b704ca87ea9258391">normals</a> = <span class="keyword">nullptr</span>;  </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    MeshTexture* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#a37cea6b2091b4f82f419cdf8f97d65b9">texture</a> = <span class="keyword">nullptr</span>;  </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">int</span>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#af31d0ad6b79198efb860ee2e8611206c">skippedFaceCount</a> = <span class="keyword">nullptr</span>; </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">int</span>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MeshLoadSettings.html#a3c1d1ea11c9095c91d47a883a68cd360">duplicatedVertexCount</a> = <span class="keyword">nullptr</span>; </div>
@@ -172,6 +172,8 @@ $(function(){initNavTree('MRMeshLoadSettings_8h_source.html',''); initResizable(
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html_a37cea6b2091b4f82f419cdf8f97d65b9"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html#a37cea6b2091b4f82f419cdf8f97d65b9">MR::MeshLoadSettings::texture</a></div><div class="ttdeci">new unsafe MR.? MeshTexture texture</div></div>
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html_a3c1d1ea11c9095c91d47a883a68cd360"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html#a3c1d1ea11c9095c91d47a883a68cd360">MR::MeshLoadSettings::duplicatedVertexCount</a></div><div class="ttdeci">new unsafe MR.Misc.? Box&lt; int &gt; duplicatedVertexCount</div></div>
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html_a50eb3f448a1163fcf66117244b09c735"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html#a50eb3f448a1163fcf66117244b09c735">MR::MeshLoadSettings::colors</a></div><div class="ttdeci">new unsafe MR.? VertColors colors</div></div>
@@ -182,14 +184,16 @@ $(function(){initNavTree('MRMeshLoadSettings_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html_ae17e0ede5f26c0110bd85238e1f0dd8a"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html#ae17e0ede5f26c0110bd85238e1f0dd8a">MR::MeshLoadSettings::uvCoords</a></div><div class="ttdeci">new unsafe MR.? VertCoords2 uvCoords</div></div>
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html_af31d0ad6b79198efb860ee2e8611206c"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html#af31d0ad6b79198efb860ee2e8611206c">MR::MeshLoadSettings::skippedFaceCount</a></div><div class="ttdeci">new unsafe MR.Misc.? Box&lt; int &gt; skippedFaceCount</div></div>
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html_afb94dddc64420e17e279df591afef11b"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html#afb94dddc64420e17e279df591afef11b">MR::MeshLoadSettings::callback</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat callback</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a3c3fe8b7846cb7642c7b2cba525f3917"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917">mrmeshpy::VertUVCoords</a></div><div class="ttdeci">VertUVCoords</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_aba8a59e8721d6ab8c38f64db8b8869e2"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#aba8a59e8721d6ab8c38f64db8b8869e2">mrmeshpy::VertNormals</a></div><div class="ttdeci">VertNormals</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRMeshLoadSettings.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMeshLoadSettings_8h.html">MRMeshLoadSettings.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

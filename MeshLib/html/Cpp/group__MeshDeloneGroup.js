@@ -23,5 +23,7 @@ var group__MeshDeloneGroup =
     [ "MR::checkDeloneQuadrangleInMesh", "group__MeshDeloneGroup.html#ga7f0776ed8d7398131ea482b6ed7d84c6", null ],
     [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#ga019b5724cb66137386f7769a26dc7292", null ],
     [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d", null ],
-    [ "MR::makeDeloneOriginRing", "group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d", null ]
+    [ "MR::makeDeloneEdgeFlips", "group__MeshDeloneGroup.html#ga5ae5dd28b839b5244d2464da8f51fa2b", null ],
+    [ "MR::makeDeloneOriginRing", "group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d", null ],
+    [ "MR::makeDeloneOriginRing", "group__MeshDeloneGroup.html#ga0a9e9023f129516daf5b28bfb921ae73", null ]
 ];

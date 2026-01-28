@@ -1,5 +1,6 @@
 var classMR_1_1FewSmallest =
 [
+    [ "FewSmallest", "classMR_1_1FewSmallest.html#afe398061489451b6194321a60829929f", null ],
     [ "FewSmallest", "classMR_1_1FewSmallest.html#a10dd64ad23fa331c4f425f5d5400e9ac", null ],
     [ "clear", "classMR_1_1FewSmallest.html#af536aae957f76a53b47070d11d2a4181", null ],
     [ "empty", "classMR_1_1FewSmallest.html#a5c8ddf759620fd8b0d272d4695422839", null ],

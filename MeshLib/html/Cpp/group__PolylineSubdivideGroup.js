@@ -14,5 +14,6 @@ var group__PolylineSubdivideGroup =
       [ "region", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#ae4df253b46c53e0b39d79de30333fad0", null ],
       [ "useCurvature", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#ae5954a531e884eb32fe4f89eeb979bee", null ]
     ] ],
-    [ "MR::subdividePolyline", "group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58", null ]
+    [ "MR::subdividePolyline", "group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58", null ],
+    [ "MR::subdividePolyline", "group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9", null ]
 ];

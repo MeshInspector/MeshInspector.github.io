@@ -148,18 +148,18 @@ $(function(){initNavTree('MRSceneRoot_8h_source.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">MRSceneRoot.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRObject.h&quot;</span></div>
+<a href="MRSceneRoot_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRObject_8h.html">MRObject.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span>MRMESH_CLASS SceneRootObject final : <span class="keyword">public</span> Object</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_define" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> SceneRootObject final : <span class="keyword">public</span> Object</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    MRMESH_API SceneRootObject();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> SceneRootObject();</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    SceneRootObject( SceneRootObject&amp;&amp; ) noexcept = default;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
@@ -184,53 +184,58 @@ $(function(){initNavTree('MRSceneRoot_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> setName( std::string )<span class="keyword"> override </span>{ Object::setName( SceneRootObject::RootName() ); }</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    MRMESH_API <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; clone() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; clone() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    MRMESH_API std::shared_ptr&lt;SceneRootObject&gt; cloneRoot() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;SceneRootObject&gt; cloneRoot() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    SceneRootObject( <span class="keyword">const</span> SceneRootObject&amp; other ) = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> serializeFields_( Json::Value&amp; root ) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> serializeFields_( Json::Value&amp; root ) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    MRMESH_API <span class="keywordtype">void</span> deserializeFields_( <span class="keyword">const</span> Json::Value&amp; root ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> deserializeFields_( <span class="keyword">const</span> Json::Value&amp; root ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>MRMESH_API std::shared_ptr&lt;SceneRootObject&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#acec7416383774fa62ff91607c30a89bc">createRootFormObject</a>( std::shared_ptr&lt;Object&gt; obj );</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="namespaceMR.html#a4a16b61709f08cfac2280d5b1167bb24">   54</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;SceneRootObject&gt; <a class="code hl_function" href="namespaceMR.html#a4a16b61709f08cfac2280d5b1167bb24">createRootFormObject</a>( std::shared_ptr&lt;Object&gt; obj );</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">class </span>SceneRoot</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">class </span><a class="code hl_classRef" href="../Csharp/classMR_1_1SceneRoot.html">SceneRoot</a></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#ifndef MR_SCENEROOT_CONST</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    MRMESH_API <span class="keyword">static</span> SceneRootObject&amp; get();</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    MRMESH_API <span class="keyword">static</span> std::shared_ptr&lt;SceneRootObject&gt;&amp; getSharedPtr();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SceneRootObject.html">SceneRootObject</a>&amp; get();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> std::shared_ptr&lt;SceneRootObject&gt;&amp; getSharedPtr();</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    MRMESH_API <span class="keyword">static</span> <span class="keywordtype">void</span> setScenePath( <span class="keyword">const</span> std::filesystem::path&amp; scenePath );</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <span class="keywordtype">void</span> setScenePath( <span class="keyword">const</span> std::filesystem::path&amp; scenePath );</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> SceneRootObject&amp; constGet();</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    MRMESH_API <span class="keyword">static</span> std::shared_ptr&lt;const SceneRootObject&gt; constGetSharedPtr();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SceneRootObject.html">SceneRootObject</a>&amp; constGet();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> std::shared_ptr&lt;const SceneRootObject&gt; constGetSharedPtr();</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    MRMESH_API <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path&amp; getScenePath();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path&amp; getScenePath();</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">static</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SceneRoot.html#ab38d00140222cf6a4d49342bf98c6042">SceneRoot</a>&amp; instance_();</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1SceneRoot.html#ab38d00140222cf6a4d49342bf98c6042">SceneRoot</a>();</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">static</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SceneRoot.html">SceneRoot</a>&amp; instance_();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <a class="code hl_classRef" href="../Csharp/classMR_1_1SceneRoot.html">SceneRoot</a>();</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    std::shared_ptr&lt;SceneRootObject&gt; root_;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    std::filesystem::path scenePath_;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}</div>
-<div class="ttc" id="aclassMR_1_1SceneRoot_html_ab38d00140222cf6a4d49342bf98c6042"><div class="ttname"><a href="../Csharp/classMR_1_1SceneRoot.html#ab38d00140222cf6a4d49342bf98c6042">MR::SceneRoot::SceneRoot</a></div><div class="ttdeci">unsafe SceneRoot(MR._ByValue_SceneRoot _other)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_acec7416383774fa62ff91607c30a89bc"><div class="ttname"><a href="../Csharp/classMR.html#acec7416383774fa62ff91607c30a89bc">MR::createRootFormObject</a></div><div class="ttdeci">static unsafe MR.SceneRootObject createRootFormObject(MR._ByValueShared_Object obj)</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
+<div class="ttc" id="aMRObject_8h_html"><div class="ttname"><a href="MRObject_8h.html">MRObject.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1SceneRootObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1SceneRootObject.html">MR::SceneRootObject</a></div><div class="ttdef"><b>Definition</b> MRSceneRoot.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1SceneRoot_html"><div class="ttname"><a href="../Csharp/classMR_1_1SceneRoot.html">MR::SceneRoot</a></div><div class="ttdef"><b>Definition</b> MRSceneRoot.h:59</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a4a16b61709f08cfac2280d5b1167bb24"><div class="ttname"><a href="namespaceMR.html#a4a16b61709f08cfac2280d5b1167bb24">MR::createRootFormObject</a></div><div class="ttdeci">MRMESH_API std::shared_ptr&lt; SceneRootObject &gt; createRootFormObject(std::shared_ptr&lt; Object &gt; obj)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRSceneRoot.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRSceneRoot_8h.html">MRSceneRoot.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

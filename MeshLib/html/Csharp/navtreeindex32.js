@@ -1,13 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1Const__ImproveSamplingSettings.html#ac2d3b32a8874cbdc88658fe074150ec1":[6,3,0,0,0,2900,7],
-"classMR_1_1Const__ImproveSamplingSettings.html#ac51a1249adfb36538ee1013bdaac8cf0":[6,3,0,0,0,2900,3],
-"classMR_1_1Const__ImproveSamplingSettings.html#af7f4aa5a36d4a1d978c131a8b7e89d38":[6,3,0,0,0,2900,10],
-"classMR_1_1Const__InSphere.html":[6,3,0,0,0,2902],
-"classMR_1_1Const__InSphere.html#a43e5504cd5c95d5bc72fdc81805fc471":[6,3,0,0,0,2902,0],
-"classMR_1_1Const__InSphere.html#a83a777ae8cb12e4f02c2788081dfb19f":[6,3,0,0,0,2902,2],
-"classMR_1_1Const__InSphere.html#ae5b8f0050a54dba3f5613914e382f61a":[6,3,0,0,0,2902,1],
-"classMR_1_1Const__InSphere.html#afcc01a78c88b1e73de1121cde86b9362":[6,3,0,0,0,2902,3],
 "classMR_1_1Const__InSphereSearchSettings.html":[6,3,0,0,0,2903],
 "classMR_1_1Const__InSphereSearchSettings.html#a41de8f79e5bccb9120b70dabdc2d56e4":[6,3,0,0,0,2903,4],
 "classMR_1_1Const__InSphereSearchSettings.html#a6a1a85a4973c3daca4d9eabd66d11a27":[6,3,0,0,0,2903,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__LineObject.html#aa5e4b357ee2b1d816ead20fab3570fe0":[6,3,0,0,0,2937,62],
 "classMR_1_1Const__LineObject.html#aa8595b40ed59a71d9bffd24bd8bc7403":[6,3,0,0,0,2937,30],
 "classMR_1_1Const__LineObject.html#aaa97212a09185a641dc79bd20542c8e1":[6,3,0,0,0,2937,19],
-"classMR_1_1Const__LineObject.html#aab2040352307841cb2ea4a5f29717055":[6,3,0,0,0,2937,34]
+"classMR_1_1Const__LineObject.html#aab2040352307841cb2ea4a5f29717055":[6,3,0,0,0,2937,34],
+"classMR_1_1Const__LineObject.html#aab8df7ecac702c91eda21e360aba4790":[6,3,0,0,0,2937,20],
+"classMR_1_1Const__LineObject.html#ab023cef0d80c4c0b3f34a18959f0982f":[6,3,0,0,0,2937,25],
+"classMR_1_1Const__LineObject.html#ab1aba6705b5c90a706267a5ed7baed4a":[6,3,0,0,0,2937,2],
+"classMR_1_1Const__LineObject.html#ab63af8768ba87522d7d5d39bc77cbe75":[6,3,0,0,0,2937,69],
+"classMR_1_1Const__LineObject.html#abacfb7a727aa549228c9c666774a7594":[6,3,0,0,0,2937,85],
+"classMR_1_1Const__LineObject.html#ac51131dba64c72b33ba1748084d63855":[6,3,0,0,0,2937,55],
+"classMR_1_1Const__LineObject.html#ac7d4db93f60c298492e15124c1b1c0a6":[6,3,0,0,0,2937,23],
+"classMR_1_1Const__LineObject.html#acb55c8905af4399bf66ab3ca230fe438":[6,3,0,0,0,2937,64]
 };

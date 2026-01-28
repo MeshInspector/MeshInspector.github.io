@@ -1,13 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classMR_1_1ConstBox__Box2f.html#a5c4771ebb82a78a9185f9e239e1643e8":[6,3,0,0,0,3406,10],
-"classMR_1_1ConstBox__Box2f.html#a658cf8c027dc63bae3320a9aaffec1b8":[6,3,0,0,0,3406,5],
-"classMR_1_1ConstBox__Box2f.html#a75b86a0e2d68d2f423c727e2943c5f68":[6,3,0,0,0,3406,20],
-"classMR_1_1ConstBox__Box2f.html#a821c858188b9810b38b4a9d6dbbc0e7f":[6,3,0,0,0,3406,16],
-"classMR_1_1ConstBox__Box2f.html#a8276b5f466be9a073766746983f8d164":[6,3,0,0,0,3406,23],
-"classMR_1_1ConstBox__Box2f.html#a8793489cf241e6dca61d8f1a1f30e0a6":[6,3,0,0,0,3406,24],
-"classMR_1_1ConstBox__Box2f.html#a8aeef08e9471e393244df7077d637b43":[6,3,0,0,0,3406,6],
-"classMR_1_1ConstBox__Box2f.html#aa3a590f652127b2708bc07bd4b3090e2":[6,3,0,0,0,3406,22],
 "classMR_1_1ConstBox__Box2f.html#aa91e547a2e7ccc83d876fe1b20abc47d":[6,3,0,0,0,3406,4],
 "classMR_1_1ConstBox__Box2f.html#aac1b1e46c4e591f1167f829e149d5120":[6,3,0,0,0,3406,3],
 "classMR_1_1ConstBox__Box2f.html#ab079ac4fffc16d1157bc0a91fd6d6a1d":[6,3,0,0,0,3406,26],
@@ -249,5 +241,13 @@ var NAVTREEINDEX12 =
 "classMR_1_1ConstBox__EdgeId.html#a8e4e4c02c116294c4ee56173cd71bfaf":[6,3,0,0,0,3414,22],
 "classMR_1_1ConstBox__EdgeId.html#a97ca5b4e4048cd98b7d4a2f96fa0cb54":[6,3,0,0,0,3414,17],
 "classMR_1_1ConstBox__EdgeId.html#a9bd1eb890549549520e9e700981d7561":[6,3,0,0,0,3414,19],
-"classMR_1_1ConstBox__EdgeId.html#aa3772386b3cd54d576361f5a2ab06e81":[6,3,0,0,0,3414,10]
+"classMR_1_1ConstBox__EdgeId.html#aa3772386b3cd54d576361f5a2ab06e81":[6,3,0,0,0,3414,10],
+"classMR_1_1ConstBox__EdgeId.html#aa868440e58b4c1069c74ce5c51f8bfd1":[6,3,0,0,0,3414,14],
+"classMR_1_1ConstBox__EdgeId.html#aa9b85b15978080e0d9228edd1d57dd76":[6,3,0,0,0,3414,2],
+"classMR_1_1ConstBox__EdgeId.html#aad7fcb5fdcb2d5ebb8f6503832f3fa4c":[6,3,0,0,0,3414,20],
+"classMR_1_1ConstBox__EdgeId.html#acfd11c8362d83af0585cc05922b64043":[6,3,0,0,0,3414,11],
+"classMR_1_1ConstBox__EdgeId.html#af04bc278f04a00780ee579312833a2d2":[6,3,0,0,0,3414,4],
+"classMR_1_1ConstBox__FaceId.html":[6,3,0,0,0,3415],
+"classMR_1_1ConstBox__FaceId.html#a05d3595557a59daad6f19a13407174d1":[6,3,0,0,0,3415,6],
+"classMR_1_1ConstBox__FaceId.html#a17284d5bc5c8554d8c79357a2e6ec67c":[6,3,0,0,0,3415,5]
 };

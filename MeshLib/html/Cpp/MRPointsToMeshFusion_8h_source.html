@@ -148,14 +148,14 @@ $(function(){initNavTree('MRPointsToMeshFusion_8h_source.html',''); initResizabl
   <div class="headertitle"><div class="title">MRPointsToMeshFusion.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRPointsToMeshFusion_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVoxelsFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRMesh/MRExpected.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRMesh/MRProgressCallback.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRMesh/MRProgressCallback.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>PointsToDistanceVolumeParams;</div>
@@ -174,31 +174,38 @@ $(function(){initNavTree('MRPointsToMeshFusion_8h_source.html',''); initResizabl
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointsToMeshParameters.html#a390fdb484b83c77269e7fa1889e8ca0c">progress</a>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MR_BIND_IGNORE std::function&lt;Expected&lt;void&gt;( <span class="keyword">const</span> PointCloud&amp; cloud, <span class="keyword">const</span> PointsToDistanceVolumeParams&amp; params, std::function&lt;Expected&lt;void&gt;( <span class="keyword">const</span> SimpleVolumeMinMax&amp; volume, <span class="keywordtype">int</span> zOffset )&gt; addPart, <span class="keywordtype">int</span> layerOverlap )&gt; createVolumeCallbackByParts;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MR_BIND_IGNORE std::function&lt;Expected&lt;void&gt;( <span class="keyword">const</span> PointCloud&amp; cloud, <span class="keyword">const</span> PointsToDistanceVolumeParams&amp; params, std::function&lt;Expected&lt;void&gt;( <span class="keyword">const</span> SimpleVolumeMinMax&amp; <a class="code hl_function" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, <span class="keywordtype">int</span> zOffset )&gt; addPart, <span class="keywordtype">int</span> layerOverlap )&gt; createVolumeCallbackByParts;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    MR_BIND_IGNORE std::function&lt;Expected&lt;SimpleVolumeMinMax&gt;( <span class="keyword">const</span> PointCloud&amp; cloud, <span class="keyword">const</span> PointsToDistanceVolumeParams&amp; params )&gt; createVolumeCallback;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    MR_BIND_IGNORE std::function&lt;bool ( <span class="keyword">const</span> PointCloud&amp; cloud, <span class="keyword">const</span> PointsToDistanceVolumeParams&amp; params )&gt; canCreateVolume;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>[[nodiscard]] MRVOXELS_API Expected&lt;Mesh&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#aded9bfc7255db4ba61ac2de3d19147f5">pointsToMeshFusion</a>( <span class="keyword">const</span> PointCloud &amp; cloud, <span class="keyword">const</span> PointsToMeshParameters&amp; params );</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">   48</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Expected&lt;Mesh&gt; <a class="code hl_function" href="namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">pointsToMeshFusion</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointCloud.html">PointCloud</a> &amp; cloud, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointsToMeshParameters.html">PointsToMeshParameters</a>&amp; params );</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
+<div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
+<div class="ttc" id="aclassMR_1_1PointCloud_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></div><div class="ttdef"><b>Definition</b> MRPointsToMeshFusion.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html_a1f898069b35d15056dcb8fbd26242357"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html#a1f898069b35d15056dcb8fbd26242357">MR::PointsToMeshParameters::voxelSize</a></div><div class="ttdeci">new unsafe ref float voxelSize</div></div>
 <div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html_a390fdb484b83c77269e7fa1889e8ca0c"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html#a390fdb484b83c77269e7fa1889e8ca0c">MR::PointsToMeshParameters::progress</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat progress</div></div>
 <div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html_a58a4f83b2417d6c88131a6d0c43b1f57"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html#a58a4f83b2417d6c88131a6d0c43b1f57">MR::PointsToMeshParameters::sigma</a></div><div class="ttdeci">new unsafe ref float sigma</div></div>
 <div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html_a5ff8455f44ce9ed6c9b7fd3496d854d3"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html#a5ff8455f44ce9ed6c9b7fd3496d854d3">MR::PointsToMeshParameters::minWeight</a></div><div class="ttdeci">new unsafe ref float minWeight</div></div>
 <div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html_af0f8c78fe86d196cb36164132d7ea88e"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html#af0f8c78fe86d196cb36164132d7ea88e">MR::PointsToMeshParameters::vColors</a></div><div class="ttdeci">new unsafe MR.? VertColors vColors</div></div>
 <div class="ttc" id="aclassMR_1_1PointsToMeshParameters_html_affb338bbb532625c6377d3a5c08059b8"><div class="ttname"><a href="../Csharp/classMR_1_1PointsToMeshParameters.html#affb338bbb532625c6377d3a5c08059b8">MR::PointsToMeshParameters::ptColors</a></div><div class="ttdeci">new unsafe MR.? Const_VertColors ptColors</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_aded9bfc7255db4ba61ac2de3d19147f5"><div class="ttname"><a href="../Csharp/classMR.html#aded9bfc7255db4ba61ac2de3d19147f5">MR::pointsToMeshFusion</a></div><div class="ttdeci">static unsafe MR.Mesh pointsToMeshFusion(MR.Const_PointCloud cloud, MR.Const_PointsToMeshParameters params_)</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a83e40508b3f05b594da19748c1da2d05"><div class="ttname"><a href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">MR::volume</a></div><div class="ttdeci">MRMESH_API double volume(const MeshTopology &amp;topology, const VertCoords &amp;points, const FaceBitSet *region=nullptr)</div></div>
+<div class="ttc" id="anamespaceMR_html_abbc1adfce73c26127f80973b21afcbf4"><div class="ttname"><a href="namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">MR::pointsToMeshFusion</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; pointsToMeshFusion(const PointCloud &amp;cloud, const PointsToMeshParameters &amp;params)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><b>MRPointsToMeshFusion.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><a class="el" href="MRPointsToMeshFusion_8h.html">MRPointsToMeshFusion.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -1301,7 +1301,6 @@ var hierarchy =
     [ "mrmeshpy.TriPointf", "classmrmeshpy_1_1TriPointf.html", null ],
     [ "mrmeshpy.GridSettings.TriType", "classmrmeshpy_1_1GridSettings_1_1TriType.html", null ],
     [ "mrmeshpy.TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", null ],
-    [ "mrmeshpy.Turn", "classmrmeshpy_1_1Turn.html", null ],
     [ "mrmeshpy.ChangeObjectColorAction.Type", "classmrmeshpy_1_1ChangeObjectColorAction_1_1Type.html", null ],
     [ "mrmeshpy.ChangeSceneAction.Type", "classmrmeshpy_1_1ChangeSceneAction_1_1Type.html", null ],
     [ "mrmeshpy.EndMillCutter.Type", "classmrmeshpy_1_1EndMillCutter_1_1Type.html", null ],

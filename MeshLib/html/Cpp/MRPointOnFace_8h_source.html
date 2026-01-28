@@ -148,14 +148,14 @@ $(function(){initNavTree('MRPointOnFace_8h_source.html',''); initResizable(true)
   <div class="headertitle"><div class="title">MRPointOnFace.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRPointOnFace_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRId.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;iosfwd&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>PointOnFace</div>
@@ -167,22 +167,25 @@ $(function(){initNavTree('MRPointOnFace_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    [[nodiscard]] <span class="keywordtype">bool</span> valid()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointOnFace.html#a3c91225e185da7ec0efd6f9122913602">face</a>.valid(); }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    [[nodiscard]] <span class="keyword">explicit</span> <span class="keyword">operator</span> bool()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointOnFace.html#a3c91225e185da7ec0efd6f9122913602">face</a>.valid(); }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    MRMESH_API <span class="keyword">friend</span> std::ostream&amp; operator&lt;&lt;( std::ostream&amp; s, <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointOnFace.html#a21df00bf253dec0dacb806c1c16c6955">PointOnFace</a>&amp; pof );</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    MRMESH_API <span class="keyword">friend</span> std::istream&amp; operator&gt;&gt;( std::istream&amp; s, <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointOnFace.html#a21df00bf253dec0dacb806c1c16c6955">PointOnFace</a>&amp; pof );</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">friend</span> std::ostream&amp; operator&lt;&lt;( std::ostream&amp; s, <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointOnFace.html#a21df00bf253dec0dacb806c1c16c6955">PointOnFace</a>&amp; pof );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">friend</span> std::istream&amp; operator&gt;&gt;( std::istream&amp; s, <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointOnFace.html#a21df00bf253dec0dacb806c1c16c6955">PointOnFace</a>&amp; pof );</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1PointOnFace_html_a21df00bf253dec0dacb806c1c16c6955"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnFace.html#a21df00bf253dec0dacb806c1c16c6955">MR::PointOnFace::PointOnFace</a></div><div class="ttdeci">unsafe PointOnFace()</div></div>
 <div class="ttc" id="aclassMR_1_1PointOnFace_html_a3c91225e185da7ec0efd6f9122913602"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnFace.html#a3c91225e185da7ec0efd6f9122913602">MR::PointOnFace::face</a></div><div class="ttdeci">new unsafe ref MR.FaceId face</div></div>
 <div class="ttc" id="aclassMR_1_1PointOnFace_html_a64cb63010573d6e30be5ac7ce0590ac3"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnFace.html#a64cb63010573d6e30be5ac7ce0590ac3">MR::PointOnFace::point</a></div><div class="ttdeci">new unsafe ref MR.Vector3f point</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRPointOnFace.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRPointOnFace_8h.html">MRPointOnFace.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

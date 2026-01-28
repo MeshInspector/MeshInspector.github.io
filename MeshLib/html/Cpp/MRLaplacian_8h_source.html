@@ -148,15 +148,15 @@ $(function(){initNavTree('MRLaplacian_8h_source.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">MRLaplacian.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRLaplacian_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRBitSet.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRVector.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MREnums.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector_8h.html">MRVector.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MREnums_8h.html">MREnums.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;MRPch/MREigenSparseCore.h&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>Laplacian</div>
@@ -168,21 +168,21 @@ $(function(){initNavTree('MRLaplacian_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        No    <span class="comment">// ignore initial mesh shape in the region and just position vertices smoothly in the region</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    };</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    MRMESH_API <span class="keyword">explicit</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65">Laplacian</a>( Mesh &amp; mesh );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">explicit</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65">Laplacian</a>( Mesh &amp; mesh );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65">Laplacian</a>( <span class="keyword">const</span> MeshTopology &amp; topology, VertCoords &amp; points ) : topology_( topology ), points_( points ) { }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#acdc9ec6609072cedbcde3da4d864e3a7">init</a>( <span class="keyword">const</span> VertBitSet &amp; freeVerts, EdgeWeights weights, VertexMass vmass = VertexMass::Unit,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#acdc9ec6609072cedbcde3da4d864e3a7">init</a>( <span class="keyword">const</span> VertBitSet &amp; freeVerts, EdgeWeights weights, VertexMass vmass = VertexMass::Unit,</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        RememberShape rem = Laplacian::RememberShape::Yes );</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5">fixVertex</a>( VertId v, <span class="keywordtype">bool</span> smooth = <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5">fixVertex</a>( VertId v, <span class="keywordtype">bool</span> smooth = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5">fixVertex</a>( VertId v, <span class="keyword">const</span> Vector3f &amp; fixedPos, <span class="keywordtype">bool</span> smooth = <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5">fixVertex</a>( VertId v, <span class="keyword">const</span> Vector3f &amp; fixedPos, <span class="keywordtype">bool</span> smooth = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a6ab6466ee01c85f49d6bfd5955ba7de0">updateSolver</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#a6ab6466ee01c85f49d6bfd5955ba7de0">updateSolver</a>();</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#adec94b8812ff2f12bbe9e564894393f4">apply</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#adec94b8812ff2f12bbe9e564894393f4">apply</a>();</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#ad42cac80dba53264cee7888c3f137692">applyToScalar</a>( VertScalars &amp; scalarField );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Laplacian.html#ad42cac80dba53264cee7888c3f137692">applyToScalar</a>( VertScalars &amp; scalarField );</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    [[nodiscard]] <span class="keyword">const</span> VertBitSet &amp; region()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> region_; }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
@@ -224,7 +224,7 @@ $(function(){initNavTree('MRLaplacian_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    };</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    std::vector&lt;Equation&gt; equations_;</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keyword">struct </span>Element</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keyword">struct </span><a class="code hl_enumeration" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">Element</a></div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    {</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordtype">double</span> coeff = 0;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        VertId neiVert;</div>
@@ -258,20 +258,26 @@ $(function(){initNavTree('MRLaplacian_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>};</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a11962dd32eeeb55c9aa2dbb3ea05db65"><div class="ttname"><a href="../Csharp/classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65">MR::Laplacian::Laplacian</a></div><div class="ttdeci">unsafe Laplacian(MR._ByValue_Laplacian _other)</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a479045a960528acf02d857b5d88a13e5"><div class="ttname"><a href="../Csharp/classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5">MR::Laplacian::fixVertex</a></div><div class="ttdeci">unsafe void fixVertex(MR.VertId v, bool? smooth=null)</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_a6ab6466ee01c85f49d6bfd5955ba7de0"><div class="ttname"><a href="../Csharp/classMR_1_1Laplacian.html#a6ab6466ee01c85f49d6bfd5955ba7de0">MR::Laplacian::updateSolver</a></div><div class="ttdeci">unsafe void updateSolver()</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_acdc9ec6609072cedbcde3da4d864e3a7"><div class="ttname"><a href="../Csharp/classMR_1_1Laplacian.html#acdc9ec6609072cedbcde3da4d864e3a7">MR::Laplacian::init</a></div><div class="ttdeci">unsafe void init(MR.Const_VertBitSet freeVerts, MR.EdgeWeights weights, MR.VertexMass? vmass=null, MR.Laplacian.RememberShape? rem=null)</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_ad42cac80dba53264cee7888c3f137692"><div class="ttname"><a href="../Csharp/classMR_1_1Laplacian.html#ad42cac80dba53264cee7888c3f137692">MR::Laplacian::applyToScalar</a></div><div class="ttdeci">unsafe void applyToScalar(MR.VertScalars scalarField)</div></div>
 <div class="ttc" id="aclassMR_1_1Laplacian_html_adec94b8812ff2f12bbe9e564894393f4"><div class="ttname"><a href="../Csharp/classMR_1_1Laplacian.html#adec94b8812ff2f12bbe9e564894393f4">MR::Laplacian::apply</a></div><div class="ttdeci">unsafe void apply()</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1ImGuiMeasurementIndicators_html_ab3d1526afb0782fa9501df90cb1b2898"><div class="ttname"><a href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898">MR::ImGuiMeasurementIndicators::Element</a></div><div class="ttdeci">Element</div><div class="ttdef"><b>Definition</b> MRImGuiMeasurementIndicators.h:99</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRLaplacian.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRLaplacian_8h.html">MRLaplacian.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -148,11 +148,11 @@ $(function(){initNavTree('MRPartMapping_8h_source.html',''); initResizable(true)
   <div class="headertitle"><div class="title">MRPartMapping.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRPartMapping_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span>PartMapping</div>
@@ -161,29 +161,34 @@ $(function(){initNavTree('MRPartMapping_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="comment">// each map here can be either dense vector or hash map, the type is set by the user and preserved by mesh copying functions;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="comment">// dense maps are better by speed and memory when source mesh is packed and must be copied entirely;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="comment">// hash maps minimize memory consumption when only a small portion of source mesh is copied</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    FaceMapOrHashMap * src2tgtFaces = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    VertMapOrHashMap * src2tgtVerts = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    WholeEdgeMapOrHashMap * src2tgtEdges = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a6939dfea38e4f5ca9b72050f4bf4cb9a">FaceMapOrHashMap</a> * src2tgtFaces = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#afe0a89723c2136bdc0d7faaa15806429">VertMapOrHashMap</a> * src2tgtVerts = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a06df4c5c798cce024e8f846182bf236d">WholeEdgeMapOrHashMap</a> * src2tgtEdges = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// target.id -&gt; source.id</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">// dense vectors are better by speed and memory when target mesh was empty before copying</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    FaceMapOrHashMap * tgt2srcFaces = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    VertMapOrHashMap * tgt2srcVerts = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    WholeEdgeMapOrHashMap * tgt2srcEdges = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a6939dfea38e4f5ca9b72050f4bf4cb9a">FaceMapOrHashMap</a> * tgt2srcFaces = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#afe0a89723c2136bdc0d7faaa15806429">VertMapOrHashMap</a> * tgt2srcVerts = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a06df4c5c798cce024e8f846182bf236d">WholeEdgeMapOrHashMap</a> * tgt2srcEdges = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PartMapping.html#a60b244018f6eea2bd210b60c38e873e0">clear</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PartMapping.html#a60b244018f6eea2bd210b60c38e873e0">clear</a>();</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aclassMR_1_1PartMapping_html_a60b244018f6eea2bd210b60c38e873e0"><div class="ttname"><a href="../Csharp/classMR_1_1PartMapping.html#a60b244018f6eea2bd210b60c38e873e0">MR::PartMapping::clear</a></div><div class="ttdeci">unsafe void clear()</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a06df4c5c798cce024e8f846182bf236d"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a06df4c5c798cce024e8f846182bf236d">mrmeshpy::WholeEdgeMapOrHashMap</a></div><div class="ttdeci">WholeEdgeMapOrHashMap</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a6939dfea38e4f5ca9b72050f4bf4cb9a"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a6939dfea38e4f5ca9b72050f4bf4cb9a">mrmeshpy::FaceMapOrHashMap</a></div><div class="ttdeci">FaceMapOrHashMap</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_afe0a89723c2136bdc0d7faaa15806429"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#afe0a89723c2136bdc0d7faaa15806429">mrmeshpy::VertMapOrHashMap</a></div><div class="ttdeci">VertMapOrHashMap</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRPartMapping.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRPartMapping_8h.html">MRPartMapping.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -56,7 +56,7 @@ var annotated_dup =
         [ "_InOptMut_SubfeatureInfo", "classMR_1_1Features_1_1__InOptMut__SubfeatureInfo.html", null ],
         [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html", "classMR_1_1Features_1_1Const__MeasureResult" ],
         [ "Const_SubfeatureInfo", "classMR_1_1Features_1_1Const__SubfeatureInfo.html", "classMR_1_1Features_1_1Const__SubfeatureInfo" ],
-        [ "Primitives", "classMR_1_1Features_1_1Primitives.html", null ],
+        [ "Primitives", "classMR_1_1Features_1_1Primitives.html", "classMR_1_1Features_1_1Primitives" ],
         [ "Traits", "classMR_1_1Features_1_1Traits.html", null ]
       ] ],
       [ "FillingSurface", null, [

@@ -148,17 +148,17 @@ $(function(){initNavTree('MRProjectionMeshAttribute_8h_source.html',''); initRes
   <div class="headertitle"><div class="title">MRProjectionMeshAttribute.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRProjectionMeshAttribute_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRAffineXf.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRMatrix3.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRMesh.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRBitSetParallelFor.h&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRMeshProject.h&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;MRMeshAttributesToUpdate.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRAffineXf_8h.html">MRAffineXf.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRBitSetParallelFor_8h.html">MRBitSetParallelFor.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshProject_8h.html">MRMeshProject.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshAttributesToUpdate_8h.html">MRMeshAttributesToUpdate.h</a>&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">struct </span>ProjectAttributeParams</div>
@@ -168,19 +168,20 @@ $(function(){initNavTree('MRProjectionMeshAttribute_8h_source.html',''); initRes
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">bool</span> projectVertAttribute( <span class="keyword">const</span> MeshVertPart&amp; mp, <span class="keyword">const</span> Mesh&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> ProjectAttributeParams&amp; params = {} );</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#af2199fb84f92befa49011fd4f55f4f09">projectVertAttribute</a>( <span class="keyword">const</span> MeshVertPart&amp; mp, <span class="keyword">const</span> Mesh&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> ProjectAttributeParams&amp; params = {} );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">bool</span> projectFaceAttribute( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keyword">const</span> Mesh&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> ProjectAttributeParams&amp; params = {} );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#afb43cdb85d285bf367875ed35c3d8d7a">projectFaceAttribute</a>( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keyword">const</span> Mesh&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> ProjectAttributeParams&amp; params = {} );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>[[nodiscard]] MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a7bee34310b3afb4c4843566ce7e28778">projectObjectMeshData</a>( </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">const</span> ObjectMeshData&amp; oldMeshData, ObjectMeshData&amp; newMeshData, <span class="keyword">const</span> FaceBitSet* region = <span class="keyword">nullptr</span>,</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> ProjectAttributeParams&amp; params = {} );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespaceMR.html#acaa5c4c3fe921e2f2b78146aae104a33">   39</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;void&gt; <a class="code hl_function" href="namespaceMR.html#acaa5c4c3fe921e2f2b78146aae104a33">projectObjectMeshData</a>( </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1ObjectMeshData.html">ObjectMeshData</a>&amp; oldMeshData, <a class="code hl_classRef" href="../Csharp/classMR_1_1ObjectMeshData.html">ObjectMeshData</a>&amp; newMeshData, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>* region = <span class="keyword">nullptr</span>,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">bool</span> projectVertAttribute( <span class="keyword">const</span> MeshVertPart&amp; mp, <span class="keyword">const</span> Mesh&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> ProjectAttributeParams&amp; params )</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="namespaceMR.html#af2199fb84f92befa49011fd4f55f4f09">   44</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#af2199fb84f92befa49011fd4f55f4f09">projectVertAttribute</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshVertPart.html">MeshVertPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a>&amp; params )</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">BitSetParallelFor</a>( mp.mesh.topology.getVertIds( mp.region ), [&amp;] ( VertId <span class="keywordtype">id</span> )</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">BitSetParallelFor</a>( mp.mesh.topology.getVertIds( mp.region ), [&amp;] ( <a class="code hl_structRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> <span class="keywordtype">id</span> )</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        auto point = !params.xfs.rigidXfPoint ? mp.mesh.points[id] : ( *params.xfs.rigidXfPoint )( mp.mesh.points[id] );</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        auto projectionResult = findProjection( point, oldMesh, FLT_MAX, params.xfs.nonRigidXfTree );</div>
@@ -192,11 +193,13 @@ $(function(){initNavTree('MRProjectionMeshAttribute_8h_source.html',''); initRes
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    },</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    params.progressCb );</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
+</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">bool</span> projectFaceAttribute( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keyword">const</span> Mesh&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> ProjectAttributeParams&amp; params )</div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="namespaceMR.html#afb43cdb85d285bf367875ed35c3d8d7a">   60</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#afb43cdb85d285bf367875ed35c3d8d7a">projectFaceAttribute</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; oldMesh, F&amp;&amp; func, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1ProjectAttributeParams.html">ProjectAttributeParams</a>&amp; params )</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">BitSetParallelFor</a>( mp.mesh.topology.getFaceIds( mp.region ), [&amp;] ( FaceId newFaceId )</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">BitSetParallelFor</a>( mp.mesh.topology.getFaceIds( mp.region ), [&amp;] ( <a class="code hl_structRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> newFaceId )</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    {</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        auto point = !params.xfs.rigidXfPoint ? mp.mesh.triCenter( newFaceId ) : ( *params.xfs.rigidXfPoint )( mp.mesh.triCenter( newFaceId ) );</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        auto projectionResult = findProjection( point, oldMesh, FLT_MAX, params.xfs.nonRigidXfTree );</div>
@@ -204,18 +207,37 @@ $(function(){initNavTree('MRProjectionMeshAttribute_8h_source.html',''); initRes
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    },</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    params.progressCb );</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
+</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a7bee34310b3afb4c4843566ce7e28778"><div class="ttname"><a href="../Csharp/classMR.html#a7bee34310b3afb4c4843566ce7e28778">MR::projectObjectMeshData</a></div><div class="ttdeci">static unsafe void projectObjectMeshData(MR.Const_ObjectMeshData oldMeshData, MR.ObjectMeshData newMeshData, MR.Const_FaceBitSet? region=null, MR.Const_ProjectAttributeParams? params_=null)</div></div>
+<div class="ttc" id="aMRBitSetParallelFor_8h_html"><div class="ttname"><a href="MRBitSetParallelFor_8h.html">MRBitSetParallelFor.h</a></div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html">MRMeshAttributesToUpdate.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMeshProject_8h_html"><div class="ttname"><a href="MRMeshProject_8h.html">MRMeshProject.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRAffineXf_8h_html"><div class="ttname"><a href="MRMesh_2MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMatrix3_8h_html"><div class="ttname"><a href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1FaceBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1FaceBitSet.html">MR::FaceBitSet</a></div></div>
+<div class="ttc" id="aclassMR_1_1MeshPart_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a></div></div>
+<div class="ttc" id="aclassMR_1_1MeshVertPart_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshVertPart.html">MR::MeshVertPart</a></div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1ObjectMeshData_html"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:14</div></div>
+<div class="ttc" id="aclassMR_1_1ProjectAttributeParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1ProjectAttributeParams.html">MR::ProjectAttributeParams</a></div><div class="ttdef"><b>Definition</b> MRProjectionMeshAttribute.h:16</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga6f038e999890735ffdb5f8119eb5650e"><div class="ttname"><a href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a></div><div class="ttdeci">auto BitSetParallelFor(const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</div><div class="ttdef"><b>Definition</b> MRBitSetParallelFor.h:191</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_acaa5c4c3fe921e2f2b78146aae104a33"><div class="ttname"><a href="namespaceMR.html#acaa5c4c3fe921e2f2b78146aae104a33">MR::projectObjectMeshData</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; projectObjectMeshData(const ObjectMeshData &amp;oldMeshData, ObjectMeshData &amp;newMeshData, const FaceBitSet *region=nullptr, const ProjectAttributeParams &amp;params={})</div><div class="ttdoc">finds attributes of new mesh by projecting faces/vertices on old mesh</div></div>
+<div class="ttc" id="anamespaceMR_html_af2199fb84f92befa49011fd4f55f4f09"><div class="ttname"><a href="namespaceMR.html#af2199fb84f92befa49011fd4f55f4f09">MR::projectVertAttribute</a></div><div class="ttdeci">bool projectVertAttribute(const MeshVertPart &amp;mp, const Mesh &amp;oldMesh, F &amp;&amp;func, const ProjectAttributeParams &amp;params={})</div><div class="ttdef"><b>Definition</b> MRProjectionMeshAttribute.h:44</div></div>
+<div class="ttc" id="anamespaceMR_html_afb43cdb85d285bf367875ed35c3d8d7a"><div class="ttname"><a href="namespaceMR.html#afb43cdb85d285bf367875ed35c3d8d7a">MR::projectFaceAttribute</a></div><div class="ttdeci">bool projectFaceAttribute(const MeshPart &amp;mp, const Mesh &amp;oldMesh, F &amp;&amp;func, const ProjectAttributeParams &amp;params={})</div><div class="ttdef"><b>Definition</b> MRProjectionMeshAttribute.h:60</div></div>
+<div class="ttc" id="astructMR_1_1FaceId_html"><div class="ttname"><a href="../Csharp/structMR_1_1FaceId.html">MR::FaceId</a></div></div>
+<div class="ttc" id="astructMR_1_1VertId_html"><div class="ttname"><a href="../Csharp/structMR_1_1VertId.html">MR::VertId</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRProjectionMeshAttribute.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRProjectionMeshAttribute_8h.html">MRProjectionMeshAttribute.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

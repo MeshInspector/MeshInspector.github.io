@@ -1,5 +1,7 @@
 var classMR_1_1LinesLoad =
 [
+    [ "LinesFileLoader", "../Cpp/namespaceMR_1_1LinesLoad.html#a90da90447771026ea69eb4b7e8a2c5af", null ],
+    [ "LinesStreamLoader", "../Cpp/namespaceMR_1_1LinesLoad.html#a8ba03f82b986b90262ac83290496a441", null ],
     [ "fromAnySupportedFormat", "classMR_1_1LinesLoad.html#a1d551a44ea9216efbfaf21d4942f5bdb", null ],
     [ "fromAnySupportedFormat", "classMR_1_1LinesLoad.html#ad8a88425db54e0b1d81936ca884b200b", null ],
     [ "fromMrLines", "classMR_1_1LinesLoad.html#a0760d05b020a4ba0e450e058d06fc168", null ],

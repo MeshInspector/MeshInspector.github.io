@@ -64,5 +64,7 @@ var group__VisualObjectGroup =
       [ "sortChildren", "../Csharp/classMR_1_1VisualObject.html#a9b0e70d1e015fbdb149016b80b70419a", null ],
       [ "swap", "../Csharp/classMR_1_1VisualObject.html#a0e2cad6914630619fa337a6a143774b9", null ],
       [ "toggleVisualizeProperty", "../Csharp/classMR_1_1VisualObject.html#a641fea3aa6a0bdd74b495ffc5aeffe3d", null ]
-    ] ]
+    ] ],
+    [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
+    [ "MR::DirtyFlags", "group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269", null ]
 ];

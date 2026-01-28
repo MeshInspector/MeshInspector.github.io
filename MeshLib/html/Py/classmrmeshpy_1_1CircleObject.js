@@ -2,6 +2,8 @@ var classmrmeshpy_1_1CircleObject =
 [
     [ "__init__", "classmrmeshpy_1_1CircleObject.html#ad0e48950b1d06ccdde14433a4958b3ff", null ],
     [ "__init__", "classmrmeshpy_1_1CircleObject.html#a6c2cc6bd88924946089ae0df20600f0a", null ],
+    [ "className", "classmrmeshpy_1_1CircleObject.html#abead0b7f35e9df9a59edf120b387a397", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1CircleObject.html#a53aab371be8dbe4e23e0992212f032e1", null ],
     [ "clone", "classmrmeshpy_1_1CircleObject.html#a4e27ddaeda8f7c07c2b23ceef768daf6", null ],
     [ "getAllSharedProperties", "classmrmeshpy_1_1CircleObject.html#a8dbd2151dcd63a76abeeaf6f60d22c2a", null ],
     [ "getCenter", "classmrmeshpy_1_1CircleObject.html#ab3380128ff88dde14b9498ab8facffe5", null ],
@@ -11,5 +13,6 @@ var classmrmeshpy_1_1CircleObject =
     [ "setCenter", "classmrmeshpy_1_1CircleObject.html#aeb6163ed0c4a771f45204ad3d11d0898", null ],
     [ "setNormal", "classmrmeshpy_1_1CircleObject.html#a0aa295403cfe7d80433f1cc919ab48bd", null ],
     [ "setRadius", "classmrmeshpy_1_1CircleObject.html#a043a69ee077d7180d6e069028f612d01", null ],
-    [ "shallowClone", "classmrmeshpy_1_1CircleObject.html#a3cf97dad78bfa4d75340504a970a0c2c", null ]
+    [ "shallowClone", "classmrmeshpy_1_1CircleObject.html#a3cf97dad78bfa4d75340504a970a0c2c", null ],
+    [ "typeName", "classmrmeshpy_1_1CircleObject.html#a391c0bfd1a55b06b1de0f33874ddf0de", null ]
 ];

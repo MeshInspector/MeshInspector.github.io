@@ -148,20 +148,20 @@ $(function(){initNavTree('MRLineObject_8h_source.html',''); initResizable(true);
   <div class="headertitle"><div class="title">MRLineObject.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRLineObject_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRPch/MRBindingMacros.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRFeatureObject.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRVisualObject.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRFeatureObject_8h.html">MRFeatureObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRVisualObject_8h.html">MRVisualObject.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>MRMESH_CLASS LineObject : <span class="keyword">public</span> FeatureObject</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_define" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> LineObject : <span class="keyword">public</span> FeatureObject</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    MRMESH_API LineObject();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    MRMESH_API LineObject( <span class="keyword">const</span> std::vector&lt;Vector3f&gt;&amp; pointsToApprox );</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> LineObject();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> LineObject( <span class="keyword">const</span> std::vector&lt;Vector3f&gt;&amp; pointsToApprox );</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    LineObject( LineObject&amp;&amp; ) noexcept = default;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    LineObject&amp; operator = ( LineObject&amp;&amp; ) noexcept = default;</div>
@@ -178,20 +178,20 @@ $(function(){initNavTree('MRLineObject_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    LineObject( ProtectedStruct, <span class="keyword">const</span> LineObject&amp; obj ) : LineObject( obj )</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {}</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    MRMESH_API <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; clone() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    MRMESH_API <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; shallowClone() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; clone() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; shallowClone() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    MRMESH_API Vector3f getDirection( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    MRMESH_API Vector3f getCenter( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    MRMESH_API <span class="keywordtype">void</span> setDirection( <span class="keyword">const</span> Vector3f&amp; normal, ViewportId <span class="keywordtype">id</span> = {} );</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    MRMESH_API <span class="keywordtype">void</span> setCenter( <span class="keyword">const</span> Vector3f&amp; center, ViewportId <span class="keywordtype">id</span> = {} );</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    MRMESH_API <span class="keywordtype">void</span> setLength( <span class="keywordtype">float</span> size, ViewportId <span class="keywordtype">id</span> = {} );</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    [[nodiscard]] MRMESH_API <span class="keywordtype">float</span> getLength( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f getDirection( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f getCenter( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setDirection( <span class="keyword">const</span> Vector3f&amp; normal, ViewportId <span class="keywordtype">id</span> = {} );</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setCenter( <span class="keyword">const</span> Vector3f&amp; center, ViewportId <span class="keywordtype">id</span> = {} );</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setLength( <span class="keywordtype">float</span> size, ViewportId <span class="keywordtype">id</span> = {} );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">float</span> getLength( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// Returns point considered as base for the feature</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    [[nodiscard]] MRMESH_API <span class="keyword">virtual</span> Vector3f getBasePoint( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> Vector3f getBasePoint( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span> <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    [[nodiscard]] MRMESH_API Vector3f getPointA( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    [[nodiscard]] MRMESH_API Vector3f getPointB( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f getPointA( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f getPointB( ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    [[deprecated( <span class="stringliteral">&quot;This confusingly sets half-length. Use `setLength(halfLen * 2)` instead.&quot;</span> )]]</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    MR_BIND_IGNORE <span class="keywordtype">void</span> setSize( <span class="keywordtype">float</span> halfLen, ViewportId <span class="keywordtype">id</span> = {} )</div>
@@ -199,16 +199,16 @@ $(function(){initNavTree('MRLineObject_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        setLength( halfLen * 2 , <span class="keywordtype">id</span> );</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    [[nodiscard]] MRMESH_API FeatureObjectProjectPointResult projectPoint( <span class="keyword">const</span> Vector3f&amp; point, ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FeatureObjectProjectPointResult projectPoint( <span class="keyword">const</span> Vector3f&amp; point, ViewportId <span class="keywordtype">id</span> = {} ) <span class="keyword">const</span> <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    MRMESH_API <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;FeatureObjectSharedProperty&gt;&amp; getAllSharedProperties() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;FeatureObjectSharedProperty&gt;&amp; getAllSharedProperties() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    LineObject( <span class="keyword">const</span> LineObject&amp; other ) = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> swapBase_( Object&amp; other ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> swapBase_( Object&amp; other ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    MRMESH_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> serializeFields_( Json::Value&amp; root ) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> serializeFields_( Json::Value&amp; root ) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">virtual</span> Expected&lt;std::future&lt;Expected&lt;void&gt;&gt;&gt; serializeModel_( <span class="keyword">const</span> std::filesystem::path&amp; )<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">        </span>{ <span class="keywordflow">return</span> {}; }</div>
@@ -216,18 +216,23 @@ $(function(){initNavTree('MRLineObject_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">virtual</span> Expected&lt;void&gt; deserializeModel_( <span class="keyword">const</span> std::filesystem::path&amp;, ProgressCallback )<span class="keyword"> override</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">        </span>{ <span class="keywordflow">return</span> {}; }</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    MRMESH_API <span class="keywordtype">void</span> setupRenderObject_() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setupRenderObject_() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>};</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aMRFeatureObject_8h_html"><div class="ttname"><a href="MRFeatureObject_8h.html">MRFeatureObject.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
+<div class="ttc" id="aMRVisualObject_8h_html"><div class="ttname"><a href="MRVisualObject_8h.html">MRVisualObject.h</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRLineObject.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRLineObject_8h.html">MRLineObject.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

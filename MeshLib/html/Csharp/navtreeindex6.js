@@ -1,13 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a9fc53fdbd88dcd3535ae52099cee94f7":[6,3,0,0,0,2441,43],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#aa095f6922d245634db1d24daf9951a61":[6,3,0,0,0,2441,8],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#aabd9b8a766c10b22bc49326887858132":[6,3,0,0,0,2441,27],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#aaff3b80ada520f3cf02bb2ead8ae7959":[6,3,0,0,0,2441,48],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ab67beea1e9f949643d441af9d21a1d16":[6,3,0,0,0,2441,45],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ab769fc8c6d6af58e3ab044a47daa0cc6":[6,3,0,0,0,2441,4],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#abf98fc3dab2867d1ae956f6df6b07321":[6,3,0,0,0,2441,22],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ac90756639d6bd45bbda40c5251f34685":[6,3,0,0,0,2441,26],
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#aca97d47a528e3c367160d201b6135eb6":[6,3,0,0,0,2441,11],
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ad45a11ca54eb31d125d8c4449cc65854":[6,3,0,0,0,2441,19],
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ad684546cd75ed99174214812238105fc":[6,3,0,0,0,2441,29],
@@ -249,5 +241,13 @@ var NAVTREEINDEX6 =
 "classMR_1_1Box__AffineXf2d.html#a8155a21e2b53e8b50792673f776e3c93":[6,3,0,0,0,2493,0],
 "classMR_1_1Box__AffineXf2d.html#a8c59fcb730100bd8279a8be94d091f0e":[6,3,0,0,0,2493,4],
 "classMR_1_1Box__AffineXf2d.html#aa7eb5accf022107613e116a99033fcfe":[6,3,0,0,0,2493,2],
-"classMR_1_1Box__AffineXf2d.html#aa8c78e6ba1d336c64508c87cb68ee404":[6,3,0,0,0,2493,5]
+"classMR_1_1Box__AffineXf2d.html#aa8c78e6ba1d336c64508c87cb68ee404":[6,3,0,0,0,2493,5],
+"classMR_1_1Box__AffineXf2d.html#ac3c49ab5cf22727f0ef7416e51c5da4e":[6,3,0,0,0,2493,1],
+"classMR_1_1Box__AffineXf2f.html":[6,3,0,0,0,2494],
+"classMR_1_1Box__AffineXf2f.html#a0b83a720e8872935988aad8e77289249":[6,3,0,0,0,2494,4],
+"classMR_1_1Box__AffineXf2f.html#a139a150d73a3088663d03bc6abf0174a":[6,3,0,0,0,2494,5],
+"classMR_1_1Box__AffineXf2f.html#a7f1b3f6516113a95f8ad6ecd1cdf6b53":[6,3,0,0,0,2494,3],
+"classMR_1_1Box__AffineXf2f.html#a854b39e1153119a0f6c9629ba18765b2":[6,3,0,0,0,2494,2],
+"classMR_1_1Box__AffineXf2f.html#ae22a8fd8ec56be3ce5f26a188088f9e6":[6,3,0,0,0,2494,0],
+"classMR_1_1Box__AffineXf2f.html#af51857610c2d15cafb327b7df5de3670":[6,3,0,0,0,2494,1]
 };

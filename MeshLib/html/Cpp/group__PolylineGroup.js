@@ -1,6 +1,7 @@
 var group__PolylineGroup =
 [
     [ "MR::Polyline< V >", "structMR_1_1Polyline.html", [
+      [ "Polyline", "structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a", null ],
       [ "Polyline", "structMR_1_1Polyline.html#a9142ac9cb66c174e62a22937ddb32c24", null ],
       [ "Polyline", "structMR_1_1Polyline.html#ab6d5abcf7fd7877a16aa2665eee6913e", null ],
       [ "Polyline", "structMR_1_1Polyline.html#aa95a33cc56a264a94edd7ef4c0f833bf", null ],
@@ -22,6 +23,7 @@ var group__PolylineGroup =
       [ "edgePoint", "structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289", null ],
       [ "edgeSegment", "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12", null ],
       [ "edgeVector", "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f", null ],
+      [ "findCenterFromPoints", "structMR_1_1Polyline.html#a6e23e900e2959a7be3356ae3e71c017a", null ],
       [ "getAABBTree", "structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b", null ],
       [ "getAABBTreeNotCreate", "structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179", null ],
       [ "getBoundingBox", "structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b", null ],
@@ -31,12 +33,15 @@ var group__PolylineGroup =
       [ "mirror", "structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65", null ],
       [ "orgPnt", "structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d", null ],
       [ "pack", "structMR_1_1Polyline.html#a8d063b261d3c64f8a2882f0b2eaf77ed", null ],
+      [ "splitEdge", "structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8", null ],
       [ "splitEdge", "structMR_1_1Polyline.html#a17426532df4513648d6e3d0212e8f334", null ],
       [ "toEdgePoint", "structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a", null ],
       [ "toEdgePoint", "structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288", null ],
       [ "toPolyline", "structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a", null ],
       [ "totalLength", "structMR_1_1Polyline.html#a2a9c58f07401349f8113bfc5e5e03619", null ],
-      [ "transform", "structMR_1_1Polyline.html#a850c5acb1d7b21b7652c8b44f7e53965", null ]
+      [ "transform", "structMR_1_1Polyline.html#a850c5acb1d7b21b7652c8b44f7e53965", null ],
+      [ "points", "structMR_1_1Polyline.html#a8e343d92cbb2ec14812dc38e4ba107fd", null ],
+      [ "topology", "structMR_1_1Polyline.html#a92d855c680b2d29a825203463bd926fe", null ]
     ] ],
     [ "MR::PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html", [
       [ "PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab", null ],

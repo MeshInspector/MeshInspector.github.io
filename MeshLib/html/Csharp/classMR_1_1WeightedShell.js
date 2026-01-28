@@ -1,5 +1,6 @@
 var classMR_1_1WeightedShell =
 [
+    [ "meshToDistanceVolumeT", "../Cpp/namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984", null ],
     [ "calculateShellWeightsFromRegions", "classMR_1_1WeightedShell.html#a763a6fe685b45f4558b004904cd284eb", null ],
     [ "meshShell", "classMR_1_1WeightedShell.html#a8760db9d0c498327bdb200da4b78de33", null ],
     [ "meshShell", "classMR_1_1WeightedShell.html#a06e94717e57a00157fcde0c34721f6dc", null ],

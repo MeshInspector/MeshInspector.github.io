@@ -148,18 +148,19 @@ $(function(){initNavTree('MRMesh_2MRFixSelfIntersections_8h_source.html',''); in
   <div class="headertitle"><div class="title">MRMesh/MRFixSelfIntersections.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRMesh_2MRFixSelfIntersections_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRExpected.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>SelfIntersections</div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="}">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespaceMR_1_1SelfIntersections.html">    9</a></span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1SelfIntersections.html">SelfIntersections</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>Settings</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html">Settings</a></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#a6a7b75403982314efbe4f9e584d400d3">touchIsIntersection</a> = <span class="keyword">true</span>; </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">enum class</span> Method</div>
@@ -174,27 +175,34 @@ $(function(){initNavTree('MRMesh_2MRFixSelfIntersections_8h_source.html',''); in
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#a6d5fb28de0351dd6c0f01b2c984046e9">callback</a> = {};</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>MRMESH_API Expected&lt;FaceBitSet&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1SelfIntersections.html#a5ecc81b59c3fff49b34c4d6db1b9e69d">getFaces</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keywordtype">bool</span> touchIsIntersection = <span class="keyword">true</span>, ProgressCallback cb = {} );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319">   38</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;FaceBitSet&gt; <a class="code hl_function" href="namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319">getFaces</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keywordtype">bool</span> touchIsIntersection = <span class="keyword">true</span>, ProgressCallback cb = {} );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MRMESH_API Expected&lt;void&gt; <a class="code hl_functionRef" href="../Csharp/classMR_1_1SelfIntersections.html#a08c2d73fabc1f3cff484d0615628d0d6">fix</a>( Mesh&amp; mesh, <span class="keyword">const</span> Settings&amp; settings );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a">   41</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;void&gt; <a class="code hl_function" href="namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a">fix</a>( <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html">Settings</a>&amp; settings );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1SelfIntersections_1_1Settings_html"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRFixSelfIntersections.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1SelfIntersections_1_1Settings_html_a3f1808353d0c3fb3fd149c5be4bb393b"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#a3f1808353d0c3fb3fd149c5be4bb393b">MR::SelfIntersections::Settings::maxExpand</a></div><div class="ttdeci">new unsafe ref int maxExpand</div></div>
 <div class="ttc" id="aclassMR_1_1SelfIntersections_1_1Settings_html_a6a7b75403982314efbe4f9e584d400d3"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#a6a7b75403982314efbe4f9e584d400d3">MR::SelfIntersections::Settings::touchIsIntersection</a></div><div class="ttdeci">new unsafe ref bool touchIsIntersection</div></div>
 <div class="ttc" id="aclassMR_1_1SelfIntersections_1_1Settings_html_a6d5fb28de0351dd6c0f01b2c984046e9"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#a6d5fb28de0351dd6c0f01b2c984046e9">MR::SelfIntersections::Settings::callback</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat callback</div></div>
 <div class="ttc" id="aclassMR_1_1SelfIntersections_1_1Settings_html_ad7465e182463e34befdd374819b08e2c"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#ad7465e182463e34befdd374819b08e2c">MR::SelfIntersections::Settings::relaxIterations</a></div><div class="ttdeci">new unsafe ref int relaxIterations</div></div>
 <div class="ttc" id="aclassMR_1_1SelfIntersections_1_1Settings_html_aef2e41a1aa236f2510cd5add2c1d89f4"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections_1_1Settings.html#aef2e41a1aa236f2510cd5add2c1d89f4">MR::SelfIntersections::Settings::subdivideEdgeLen</a></div><div class="ttdeci">new unsafe ref float subdivideEdgeLen</div></div>
-<div class="ttc" id="aclassMR_1_1SelfIntersections_html_a08c2d73fabc1f3cff484d0615628d0d6"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections.html#a08c2d73fabc1f3cff484d0615628d0d6">MR::SelfIntersections::fix</a></div><div class="ttdeci">static unsafe void fix(MR.Mesh mesh, MR.SelfIntersections.Const_Settings settings)</div></div>
-<div class="ttc" id="aclassMR_1_1SelfIntersections_html_a5ecc81b59c3fff49b34c4d6db1b9e69d"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections.html#a5ecc81b59c3fff49b34c4d6db1b9e69d">MR::SelfIntersections::getFaces</a></div><div class="ttdeci">static unsafe MR.FaceBitSet getFaces(MR.Const_Mesh mesh, bool? touchIsIntersection=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aclassMR_1_1SelfIntersections_html"><div class="ttname"><a href="../Csharp/classMR_1_1SelfIntersections.html">MR::SelfIntersections</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1SelfIntersections_html_a24ad77f8c120ef0bda1b37e38b622319"><div class="ttname"><a href="namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319">MR::SelfIntersections::getFaces</a></div><div class="ttdeci">MRMESH_API Expected&lt; FaceBitSet &gt; getFaces(const Mesh &amp;mesh, bool touchIsIntersection=true, ProgressCallback cb={})</div><div class="ttdoc">Find all self-intersections faces component-wise.</div></div>
+<div class="ttc" id="anamespaceMR_1_1SelfIntersections_html_a31221cba193e98804d912de6685cd94a"><div class="ttname"><a href="namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a">MR::SelfIntersections::fix</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; fix(Mesh &amp;mesh, const Settings &amp;settings)</div><div class="ttdoc">Finds and fixes self-intersections per component:</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRFixSelfIntersections.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMesh_2MRFixSelfIntersections_8h.html">MRFixSelfIntersections.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
