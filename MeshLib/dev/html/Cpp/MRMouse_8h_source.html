@@ -148,11 +148,11 @@ $(function(){initNavTree('MRMouse_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRMouse.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRMouse_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">enum class</span> MouseButton</div>
@@ -160,8 +160,8 @@ $(function(){initNavTree('MRMouse_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    Left = 0, <span class="comment">// GLFW_MOUSE_BUTTON_1</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    Right = 1, <span class="comment">// GLFW_MOUSE_BUTTON_2</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    Middle = 2, <span class="comment">// GLFW_MOUSE_BUTTON_3</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Count,</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    NoButton = Count</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_enumvalue" href="namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>,</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    NoButton = <a class="code hl_enumvalue" href="namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// Standard mouse functions for camera control</span></div>
@@ -171,10 +171,11 @@ $(function(){initNavTree('MRMouse_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Rotation,       <span class="comment">// Rotate camera around selected point</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    Translation,    <span class="comment">// Translate camera preserving its direction</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    Roll,           <span class="comment">// Rotate camera around axis orthogonal to screen</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Count</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_enumvalue" href="namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">inline</span> std::string getMouseModeString( MouseMode mode )</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespaceMR.html#a338d701994ea7476fe1b7aa25f480a86">   27</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#a338d701994ea7476fe1b7aa25f480a86">getMouseModeString</a>( MouseMode mode )</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">constexpr</span> std::array&lt;<span class="keyword">const</span> <span class="keywordtype">char</span>*, size_t( MouseMode::Count )&gt; names =</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
@@ -185,16 +186,19 @@ $(function(){initNavTree('MRMouse_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    };</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> names[int( mode )];</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
+</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1UI_html_a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9">MR::UI::TextureType::Count</a></div><div class="ttdeci">@ Count</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a338d701994ea7476fe1b7aa25f480a86"><div class="ttname"><a href="namespaceMR.html#a338d701994ea7476fe1b7aa25f480a86">MR::getMouseModeString</a></div><div class="ttdeci">std::string getMouseModeString(MouseMode mode)</div><div class="ttdef"><b>Definition</b> MRMouse.h:27</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><b>MRMouse.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRMouse_8h.html">MRMouse.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

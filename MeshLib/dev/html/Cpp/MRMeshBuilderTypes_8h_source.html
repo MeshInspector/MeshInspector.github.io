@@ -148,12 +148,12 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html',''); initResizable(
   <div class="headertitle"><div class="title">MRMeshBuilderTypes.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRMeshBuilderTypes_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRId.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">using </span>ThreePoints [[deprecated]] MR_BIND_IGNORE = std::array&lt;Vector3f, 3&gt;;</div>
@@ -165,7 +165,7 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html',''); initResizable(
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1MeshBuilder_1_1Triangle.html#a504123c86663628d55f0a704dbf7b05e">Triangle</a>() noexcept = default;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1MeshBuilder_1_1Triangle.html#a504123c86663628d55f0a704dbf7b05e">Triangle</a>( VertId a, VertId b, VertId c, FaceId f ) : f(f) { v[0] = a; v[1] = b; v[2] = c; }</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    ThreeVertIds v;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a4e191b85eb59e160c6f514aacd9da955">ThreeVertIds</a> v;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    FaceId f;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> operator==( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1MeshBuilder_1_1Triangle.html#a504123c86663628d55f0a704dbf7b05e">Triangle</a>&amp; other )<span class="keyword">const</span></div>
@@ -195,19 +195,21 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html',''); initResizable(
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>} <span class="comment">//namespace MeshBuilder</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshBuilder_1_1BuildSettings_html_a1ad1fbe7ffbc9f7f7bb36d70615c15bf"><div class="ttname"><a href="../Csharp/classMR_1_1MeshBuilder_1_1BuildSettings.html#a1ad1fbe7ffbc9f7f7bb36d70615c15bf">MR::MeshBuilder::BuildSettings::region</a></div><div class="ttdeci">new unsafe MR.? FaceBitSet region</div></div>
 <div class="ttc" id="aclassMR_1_1MeshBuilder_1_1BuildSettings_html_a20a2fc972d67e27dec752690835a92c6"><div class="ttname"><a href="../Csharp/classMR_1_1MeshBuilder_1_1BuildSettings.html#a20a2fc972d67e27dec752690835a92c6">MR::MeshBuilder::BuildSettings::skippedFaceCount</a></div><div class="ttdeci">new unsafe MR.Misc.? Box&lt; int &gt; skippedFaceCount</div></div>
 <div class="ttc" id="aclassMR_1_1MeshBuilder_1_1BuildSettings_html_a5e91b3252a2b750bdbff5c1460c006a1"><div class="ttname"><a href="../Csharp/classMR_1_1MeshBuilder_1_1BuildSettings.html#a5e91b3252a2b750bdbff5c1460c006a1">MR::MeshBuilder::BuildSettings::allowNonManifoldEdge</a></div><div class="ttdeci">new unsafe ref bool allowNonManifoldEdge</div></div>
 <div class="ttc" id="aclassMR_1_1MeshBuilder_1_1BuildSettings_html_af5cb0e459769ff383450f1d21a8309da"><div class="ttname"><a href="../Csharp/classMR_1_1MeshBuilder_1_1BuildSettings.html#af5cb0e459769ff383450f1d21a8309da">MR::MeshBuilder::BuildSettings::shiftFaceId</a></div><div class="ttdeci">new unsafe ref int shiftFaceId</div></div>
 <div class="ttc" id="aclassMR_1_1MeshBuilder_1_1Triangle_html_a504123c86663628d55f0a704dbf7b05e"><div class="ttname"><a href="../Csharp/classMR_1_1MeshBuilder_1_1Triangle.html#a504123c86663628d55f0a704dbf7b05e">MR::MeshBuilder::Triangle::Triangle</a></div><div class="ttdeci">unsafe Triangle()</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a4e191b85eb59e160c6f514aacd9da955"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a4e191b85eb59e160c6f514aacd9da955">mrmeshpy::ThreeVertIds</a></div><div class="ttdeci">ThreeVertIds</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRMeshBuilderTypes.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMeshBuilderTypes_8h.html">MRMeshBuilderTypes.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

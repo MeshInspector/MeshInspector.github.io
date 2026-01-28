@@ -148,12 +148,12 @@ $(function(){initNavTree('MRHistoryAction_8h_source.html',''); initResizable(tru
   <div class="headertitle"><div class="title">MRHistoryAction.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<a href="MRHistoryAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>HistoryAction</div>
@@ -176,20 +176,22 @@ $(function(){initNavTree('MRHistoryAction_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">using </span>HistoryStackFilter = std::function&lt;bool( <span class="keyword">const</span> std::shared_ptr&lt;HistoryAction&gt;&amp; )&gt;;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">using </span>HistoryActionsVector = std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>MRMESH_API std::pair&lt;bool, int&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a9c597de04826beda112a6ae75267ff0e">filterHistoryActionsVector</a>( HistoryActionsVector&amp; historyVector,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">   39</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt;bool, int&gt; <a class="code hl_function" href="namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">filterHistoryActionsVector</a>( HistoryActionsVector&amp; historyVector,</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    HistoryStackFilter filteringCondition, <span class="keywordtype">size_t</span> firstRedoIndex = 0, <span class="keywordtype">bool</span> deepFiltering = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_a4fa0656138f24560d866d1a306a4f8fc"><div class="ttname"><a href="../Csharp/classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc">MR::HistoryAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type actionType)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a9c597de04826beda112a6ae75267ff0e"><div class="ttname"><a href="../Csharp/classMR.html#a9c597de04826beda112a6ae75267ff0e">MR::filterHistoryActionsVector</a></div><div class="ttdeci">static unsafe MR.Std.Pair_Bool_Int filterHistoryActionsVector(MR.Std.Vector_StdSharedPtrMRHistoryAction historyVector, MR.Std._ByValue_Function_BoolFuncFromConstStdSharedPtrMRHistoryActionRef filteringCondition, ulong? firstRedoIndex=null, bool? deepFiltering=null)</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_abde0e5a6e5cf5e3e9648a38740dd9804"><div class="ttname"><a href="namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">MR::filterHistoryActionsVector</a></div><div class="ttdeci">MRMESH_API std::pair&lt; bool, int &gt; filterHistoryActionsVector(HistoryActionsVector &amp;historyVector, HistoryStackFilter filteringCondition, size_t firstRedoIndex=0, bool deepFiltering=true)</div><div class="ttdoc">Remove actions from history actions vector that match the condition.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRHistoryAction.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRHistoryAction_8h.html">MRHistoryAction.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -148,23 +148,23 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
   <div class="headertitle"><div class="title">MRChangeVoxelSelectionAction.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRVoxelsFwd.h&quot;</span></div>
+<a href="MRChangeVoxelSelectionAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRHistoryAction.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRObjectVoxels.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRMesh/MRHistoryAction.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRObjectVoxels_8h.html">MRObjectVoxels.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>ChangVoxelSelectionAction : <span class="keyword">public</span> HistoryAction</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">using </span>Obj = ObjectVoxels;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">   16</a></span>    <span class="keyword">using </span><a class="code hl_classRef" href="../Csharp/classMR_1_1ObjectVoxels.html">Obj</a> = <a class="code hl_classRef" href="../Csharp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">   19</a></span>    <a class="code hl_function" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">ChangVoxelSelectionAction</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::shared_ptr&lt;Obj&gt;&amp; objVoxels ) :</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        name_{ name },</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">   19</a></span>    <a class="code hl_function" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">ChangVoxelSelectionAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;Obj&gt;&amp; objVoxels ) :</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        name_{ <a class="code hl_function" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">name</a> },</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        objVoxels_{ objVoxels }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">if</span> ( !objVoxels_ )</div>
@@ -173,10 +173,12 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
 </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">   28</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">name</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f">   33</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f">action</a>( Type )<span class="keyword"> override</span></div>
@@ -189,10 +191,12 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
 </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VoxelBitSet.html">VoxelBitSet</a>&amp; selection()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2">   42</a></span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VoxelBitSet.html">VoxelBitSet</a>&amp; <a class="code hl_function" href="group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2">selection</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> selection_;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
+</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e">   48</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;Obj&gt;&amp; )</div>
@@ -213,19 +217,25 @@ $(function(){initNavTree('MRChangeVoxelSelectionAction_8h_source.html',''); init
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
+<div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
+<div class="ttc" id="aMRObjectVoxels_8h_html"><div class="ttname"><a href="MRObjectVoxels_8h.html">MRObjectVoxels.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1ObjectVoxels_html"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></div><div class="ttdef"><b>Definition</b> MRObjectVoxels.h:17</div></div>
 <div class="ttc" id="aclassMR_1_1VoxelBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1VoxelBitSet.html">MR::VoxelBitSet</a></div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="agroup__HistoryGroup_html_ga4613d2480c87b60c6d32385f80849bbe"><div class="ttname"><a href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">MR::ChangVoxelSelectionAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:28</div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_ga54f4bbe409819b2a781e9d559f22298e"><div class="ttname"><a href="group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e">MR::ChangVoxelSelectionAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;)</div><div class="ttdoc">empty because set dirty is inside selectFaces</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:48</div></div>
+<div class="ttc" id="agroup__HistoryGroup_html_ga639784e559a258dafd067f1e374d0ae2"><div class="ttname"><a href="group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2">MR::ChangVoxelSelectionAction::selection</a></div><div class="ttdeci">const VoxelBitSet &amp; selection() const</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:42</div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_ga970e3207174343bffc6f631586e4f59d"><div class="ttname"><a href="group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d">MR::ChangVoxelSelectionAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:51</div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_gacd0912663f58360180bc863ab572daf4"><div class="ttname"><a href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction</a></div><div class="ttdeci">ChangVoxelSelectionAction(const std::string &amp;name, const std::shared_ptr&lt; Obj &gt; &amp;objVoxels)</div><div class="ttdoc">use this constructor to remember object's face selection before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:19</div></div>
 <div class="ttc" id="agroup__HistoryGroup_html_gaebcfdaaba426fea5c32f5ca836a7085f"><div class="ttname"><a href="group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f">MR::ChangVoxelSelectionAction::action</a></div><div class="ttdeci">virtual void action(Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelSelectionAction.h:33</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><b>MRChangeVoxelSelectionAction.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><a class="el" href="MRChangeVoxelSelectionAction_8h.html">MRChangeVoxelSelectionAction.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

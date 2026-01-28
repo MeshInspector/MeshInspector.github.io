@@ -223,13 +223,16 @@ var group__HistoryGroup =
     [ "MR::ChangeValue< T >", "classMR_1_1ChangeValue.html", [
       [ "ChangeValue", "classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1", null ],
       [ "action", "classMR_1_1ChangeValue.html#a0cdf8d0a543743f5f83872b03ff33891", null ],
-      [ "heapBytes", "classMR_1_1ChangeValue.html#a49b7b6012fb8adf78381f77cf6a1b9b1", null ]
+      [ "heapBytes", "classMR_1_1ChangeValue.html#a49b7b6012fb8adf78381f77cf6a1b9b1", null ],
+      [ "name", "classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52", null ]
     ] ],
     [ "MR::ChangeVertsColorMapAction< T >", "classMR_1_1ChangeVertsColorMapAction.html", [
+      [ "Obj", "classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77", null ],
       [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448", null ],
       [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389", null ],
       [ "action", "classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43", null ],
-      [ "heapBytes", "classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303", null ]
+      [ "heapBytes", "classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303", null ],
+      [ "name", "classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2", null ]
     ] ],
     [ "MR::ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html", [
       [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892", null ],
@@ -281,6 +284,7 @@ var group__HistoryGroup =
       [ "assign", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a20fa5594fb46e2591d7f7747efa526a3", null ]
     ] ],
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", [
+      [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410", null ],
       [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
         [ "AppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727", null ],
         [ "PreUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2", null ],
@@ -291,6 +295,7 @@ var group__HistoryGroup =
         [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]
       ] ],
+      [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],
       [ "appendAction", "classMR_1_1HistoryStore.html#aa0c8ea0276f02eca0f11f888ecfc39f4", null ],
       [ "calcUsedMemory", "classMR_1_1HistoryStore.html#ae5153ad77359e03f6105aa8db1293b14", null ],
       [ "clear", "classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25", null ],
@@ -308,12 +313,14 @@ var group__HistoryGroup =
       [ "setSavedState", "classMR_1_1HistoryStore.html#ae49bd57fda5c9d3b6005f942e9ee7f45", null ],
       [ "setScopeBlockPtr", "classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad", null ],
       [ "undo", "classMR_1_1HistoryStore.html#a0bce5005471a434712469838de3edcd7", null ],
-      [ "undoRedoInProgress", "classMR_1_1HistoryStore.html#a759c9c7fe846fe0738cf8846bfb0cbad", null ]
+      [ "undoRedoInProgress", "classMR_1_1HistoryStore.html#a759c9c7fe846fe0738cf8846bfb0cbad", null ],
+      [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
     ] ],
     [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", [
       [ "ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ],
       [ "action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
-      [ "heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ]
+      [ "heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ],
+      [ "name", "group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39", null ]
     ] ],
     [ "MR::ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html", [
       [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#a0a8d020b6c8c67de77b8ae5b40a95902", null ],
@@ -347,19 +354,28 @@ var group__HistoryGroup =
       [ "assign", "../Csharp/classMR_1_1ChangeGridAction.html#a18af0eb3d350566f157779cefc3dde76", null ]
     ] ],
     [ "MR::ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html", [
+      [ "Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
       [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a7c97719d888ca0660e62cd6b8d7bddb3", null ],
       [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a4415dbb47a28341c589cec0b8e663598", null ],
       [ "ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
       [ "action", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a6057cf602ef3a35238b374a070de3fde", null ],
       [ "action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
       [ "assign", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a4512ecdae4e84b9075a24176a4a76a9c", null ],
-      [ "heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ]
+      [ "heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
+      [ "name", "group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe", null ],
+      [ "selection", "group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ]
     ] ],
+    [ "MR::ChangVoxelSelectionAction::Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
     [ "MR::ChangVoxelSelectionAction::action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
     [ "MR::ViewportParametersAction::action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
     [ "MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
     [ "MR::ChangVoxelSelectionAction::heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
     [ "MR::ViewportParametersAction::heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ],
+    [ "MR::ChangVoxelSelectionAction::name", "group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe", null ],
+    [ "MR::ViewportParametersAction::name", "group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39", null ],
+    [ "MR::ChangVoxelSelectionAction::selection", "group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ],
     [ "MR::ChangVoxelSelectionAction::setObjectDirty", "group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e", null ],
-    [ "MR::ViewportParametersAction::ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ]
+    [ "MR::ViewportParametersAction::ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ],
+    [ "MR::cmpOld", "group__HistoryGroup.html#gad99fa852d419f9e626ea9fa47d4c7884", null ],
+    [ "MR::setNew", "group__HistoryGroup.html#ga66d1f6caeb3fa983f8d823d501d10cc3", null ]
 ];

@@ -5,6 +5,7 @@ var classMR_1_1MeshComponents =
       [ "PerVertex", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029", null ]
     ] ],
     [ "FaceIncidence", "../Cpp/group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", null ],
+    [ "FaceIncidence", "../Cpp/group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", null ],
     [ "excludeFullySelectedComponents", "classMR_1_1MeshComponents.html#acbf116452fe4c2bb1c56d5c6c8378244", null ],
     [ "expandToComponents", "classMR_1_1MeshComponents.html#a1e8c081fae74fe2929d40ea02416a878", null ],
     [ "getAllComponents", "classMR_1_1MeshComponents.html#aff1256cad28929e76abb10573de91d0b", null ],

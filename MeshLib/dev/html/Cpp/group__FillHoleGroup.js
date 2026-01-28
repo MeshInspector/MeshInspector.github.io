@@ -10,6 +10,7 @@ var group__FillHoleGroup =
       [ "maxPolygonSubdivisions", "structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9", null ],
       [ "metric", "structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d", null ],
       [ "outNewFaces", "structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4", null ],
+      [ "Simple", "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a", null ],
       [ "smoothBd", "structMR_1_1FillHoleParams.html#abf9a5efac84779d01fd72d9f3d75dbc5", null ],
       [ "stopBeforeBadTriangulation", "structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e", null ]
     ] ],
@@ -43,6 +44,9 @@ var group__FillHoleGroup =
       [ "edgeMetric", "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61", null ],
       [ "triangleMetric", "structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22", null ]
     ] ],
+    [ "MR::FillCombineMetric", "group__FillHoleGroup.html#gaf0a9f8a0620df3a7af664ad4c6aab213", null ],
+    [ "MR::FillEdgeMetric", "group__FillHoleGroup.html#ga7f292aee02fc8ca7504a114461b74cd5", null ],
+    [ "MR::FillTriangleMetric", "group__FillHoleGroup.html#ga9a2b22c68476e1176c0f8a8f43542611", null ],
     [ "MR::buildBottom", "group__FillHoleGroup.html#ga7bee2d636a1f5f931ac54f6f841c07f7", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaf61677f65331b42d3022a70d4b550a13", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],

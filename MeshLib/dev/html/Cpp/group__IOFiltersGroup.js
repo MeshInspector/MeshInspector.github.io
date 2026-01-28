@@ -6,6 +6,7 @@ var group__IOFiltersGroup =
       [ "IOFilter", "../Csharp/classMR_1_1IOFilter.html#a0b830f47b1f513041d7686c506b09e92", null ],
       [ "assign", "../Csharp/classMR_1_1IOFilter.html#a6bd0e9c93b8a88241c60f7fd372dbfec", null ]
     ] ],
+    [ "MR::IOFilters", "group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b", null ],
     [ "MR::findFilter", "group__IOFiltersGroup.html#gadd9420cabaaa71b707111e6213f0fdc6", null ],
     [ "MR::operator|", "group__IOFiltersGroup.html#ga92c17e5c77b16529d727a2fe2b1c1148", null ]
 ];

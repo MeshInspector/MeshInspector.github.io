@@ -2,6 +2,8 @@ var classmrmeshpy_1_1LineObject =
 [
     [ "__init__", "classmrmeshpy_1_1LineObject.html#a707b2540d964efa703893afe49306580", null ],
     [ "__init__", "classmrmeshpy_1_1LineObject.html#a5a8936c1eaa24d70f6c024352b277912", null ],
+    [ "className", "classmrmeshpy_1_1LineObject.html#ab4779c6f90afaa1ab6ef95d5354e1a18", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1LineObject.html#ac6575cb2096dfa85f7474ca964215fe6", null ],
     [ "clone", "classmrmeshpy_1_1LineObject.html#a0a51955f3410656c8857f0147e5a3dec", null ],
     [ "getAllSharedProperties", "classmrmeshpy_1_1LineObject.html#a797c0e1d17fe80281036cad697cdcc15", null ],
     [ "getBasePoint", "classmrmeshpy_1_1LineObject.html#a0215f1a7e45722ce08dcfb027108b8b9", null ],
@@ -14,5 +16,6 @@ var classmrmeshpy_1_1LineObject =
     [ "setCenter", "classmrmeshpy_1_1LineObject.html#a3a38ce42412625b786e9fafb4a178ece", null ],
     [ "setDirection", "classmrmeshpy_1_1LineObject.html#a8059a8e72acb788caf25c94017941ff0", null ],
     [ "setLength", "classmrmeshpy_1_1LineObject.html#aa4c58b0d1bd94a71a9cf74befa3df488", null ],
-    [ "shallowClone", "classmrmeshpy_1_1LineObject.html#ae277cf72dcad1ae300fe560003afdf58", null ]
+    [ "shallowClone", "classmrmeshpy_1_1LineObject.html#ae277cf72dcad1ae300fe560003afdf58", null ],
+    [ "typeName", "classmrmeshpy_1_1LineObject.html#afa7d13e6a3c01fdbe0dd30dd27213202", null ]
 ];

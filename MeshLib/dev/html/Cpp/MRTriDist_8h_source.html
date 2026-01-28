@@ -148,9 +148,9 @@ $(function(){initNavTree('MRTriDist_8h_source.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">MRTriDist.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRTriDist_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">/*************************************************************************\</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
@@ -192,39 +192,44 @@ $(function(){initNavTree('MRTriDist_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"></span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">\**************************************************************************/</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">// This version is not in the bindings, because the pointer parameters are assumed to point to single objects, which is wrong here.</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>MRMESH_API MR_BIND_IGNORE <span class="keywordtype">float</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a5deabeac137235334a845dd615a7a43c">triDist</a>( Vector3f &amp; p, Vector3f &amp; q, <span class="keyword">const</span> Vector3f s[3], <span class="keyword">const</span> Vector3f t[3] );</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="namespaceMR.html#a33ec3255300c2f2575cf39c46bd8f578">   49</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR_BIND_IGNORE <span class="keywordtype">float</span> <a class="code hl_function" href="namespaceMR.html#a33ec3255300c2f2575cf39c46bd8f578">triDist</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; p, <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; q, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> s[3], <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> t[3] );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">inline</span> <span class="keywordtype">float</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a5deabeac137235334a845dd615a7a43c">triDist</a>( Vector3f &amp; p, Vector3f &amp; q, <span class="keyword">const</span> std::array&lt;Vector3f, 3&gt; &amp; s, <span class="keyword">const</span> std::array&lt;Vector3f, 3&gt; &amp; t )</div>
+<div class="foldopen" id="foldopen00061" data-start="{" data-end="}">
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="namespaceMR.html#ac1bad3906fe116bb8f0ecdd2cb9063bf">   61</a></span><span class="keyword">inline</span> <span class="keywordtype">float</span> <a class="code hl_function" href="namespaceMR.html#a33ec3255300c2f2575cf39c46bd8f578">triDist</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; p, <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; q, <span class="keyword">const</span> std::array&lt;Vector3f, 3&gt; &amp; s, <span class="keyword">const</span> std::array&lt;Vector3f, 3&gt; &amp; t )</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>{</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordflow">return</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a5deabeac137235334a845dd615a7a43c">triDist</a>( p, q, s.data(), t.data() );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#a33ec3255300c2f2575cf39c46bd8f578">triDist</a>( p, q, s.data(), t.data() );</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}</div>
+</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a2c3c348aed536bce85261fa0f7822725">segPoints</a>(</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="namespaceMR.html#a5a67f76a82c38c8966aceae2506683e7">   69</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a5a67f76a82c38c8966aceae2506683e7">segPoints</a>(</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>          <span class="comment">// if both closest points are in segment endpoints, then directed from closest point 1 to closest point 2,</span></div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>          <span class="comment">// if both closest points are inner to the segments, then its orthogonal to both segments and directed from 1 to 2,</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>          <span class="comment">// otherwise it is orthogonal to the segment with inner closest point and rotated toward/away the other closest point in endpoint</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>          Vector3f &amp; VEC,</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>          Vector3f &amp; X, Vector3f &amp; Y,             <span class="comment">// closest points</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>          <span class="keyword">const</span> Vector3f &amp; P, <span class="keyword">const</span> Vector3f &amp; A, <span class="comment">// seg 1 origin, vector</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>          <span class="keyword">const</span> Vector3f &amp; Q, <span class="keyword">const</span> Vector3f &amp; B);<span class="comment">// seg 2 origin, vector</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>          <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; VEC,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>          <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; X, <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; Y,             <span class="comment">// closest points</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>          <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; P, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; A, <span class="comment">// seg 1 origin, vector</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>          <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; Q, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; B);<span class="comment">// seg 2 origin, vector</span></div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a2c3c348aed536bce85261fa0f7822725"><div class="ttname"><a href="../Csharp/classMR.html#a2c3c348aed536bce85261fa0f7822725">MR::segPoints</a></div><div class="ttdeci">static unsafe void segPoints(ref MR.Vector3f VEC, ref MR.Vector3f X, ref MR.Vector3f Y, in MR.Vector3f P, in MR.Vector3f A, in MR.Vector3f Q, in MR.Vector3f B)</div></div>
-<div class="ttc" id="aclassMR_html_a5deabeac137235334a845dd615a7a43c"><div class="ttname"><a href="../Csharp/classMR.html#a5deabeac137235334a845dd615a7a43c">MR::triDist</a></div><div class="ttdeci">static unsafe float triDist(ref MR.Vector3f p, ref MR.Vector3f q, in MR.Std.Array_MRVector3f_3 s, in MR.Std.Array_MRVector3f_3 t)</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a33ec3255300c2f2575cf39c46bd8f578"><div class="ttname"><a href="namespaceMR.html#a33ec3255300c2f2575cf39c46bd8f578">MR::triDist</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE float triDist(Vector3f &amp;p, Vector3f &amp;q, const Vector3f s[3], const Vector3f t[3])</div></div>
+<div class="ttc" id="anamespaceMR_html_a5a67f76a82c38c8966aceae2506683e7"><div class="ttname"><a href="namespaceMR.html#a5a67f76a82c38c8966aceae2506683e7">MR::segPoints</a></div><div class="ttdeci">MRMESH_API void segPoints(Vector3f &amp;VEC, Vector3f &amp;X, Vector3f &amp;Y, const Vector3f &amp;P, const Vector3f &amp;A, const Vector3f &amp;Q, const Vector3f &amp;B)</div><div class="ttdoc">Returns closest points between an segment pair.</div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRTriDist.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRTriDist_8h.html">MRTriDist.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

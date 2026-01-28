@@ -148,12 +148,12 @@ $(function(){initNavTree('MRViewportProperty_8h_source.html',''); initResizable(
   <div class="headertitle"><div class="title">MRViewportProperty.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRViewportProperty_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRViewportId.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewportId_8h.html">MRViewportId.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
@@ -162,11 +162,11 @@ $(function(){initNavTree('MRViewportProperty_8h_source.html',''); initResizable(
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1ViewportProperty.html">ViewportProperty</a></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_class" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_class" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>( <span class="keyword">const</span> T&amp; def ) :def_{ def } {}</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586">   19</a></span>    <a class="code hl_function" href="classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586">ViewportProperty</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html#a2586f5567b0637427c76e0c13b0bfa95">   20</a></span>    <a class="code hl_function" href="classMR_1_1ViewportProperty.html#a2586f5567b0637427c76e0c13b0bfa95">ViewportProperty</a>( <span class="keyword">const</span> T&amp; def ) :def_{ def } {}</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html#ad54a5352850df53cbcbd00002e92b00e">   22</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ViewportProperty.html#ad54a5352850df53cbcbd00002e92b00e">set</a>( T def ) { def_ = std::move( def ); }</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html#a84c311368b6811ab85337014147411cd">   24</a></span>    <span class="keyword">const</span> T &amp; <a class="code hl_function" href="classMR_1_1ViewportProperty.html#a84c311368b6811ab85337014147411cd">get</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> def_; }</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>          T &amp; <a class="code hl_function" href="classMR_1_1ViewportProperty.html#a84c311368b6811ab85337014147411cd">get</a>()       { <span class="keywordflow">return</span> def_; }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html#a2bd23f5da1c45f3e3883a09d930aa408">   25</a></span>          T &amp; <a class="code hl_function" href="classMR_1_1ViewportProperty.html#a2bd23f5da1c45f3e3883a09d930aa408">get</a>()       { <span class="keywordflow">return</span> def_; }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classMR_1_1ViewportProperty.html#a60baa3c068605f833fbcdadd3ad908e7">   28</a></span>    T &amp; <a class="code hl_function" href="classMR_1_1ViewportProperty.html#a60baa3c068605f833fbcdadd3ad908e7">operator[]</a>( <a class="code hl_structRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> <span class="keywordtype">id</span> )</div>
@@ -227,7 +227,11 @@ $(function(){initNavTree('MRViewportProperty_8h_source.html',''); initResizable(
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRViewportId_8h_html"><div class="ttname"><a href="MRViewportId_8h.html">MRViewportId.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html"><div class="ttname"><a href="classMR_1_1ViewportProperty.html">MR::ViewportProperty</a></div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1ViewportProperty_html_a08a3a7775fba5eb3fce855a27cf8d586"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586">MR::ViewportProperty::ViewportProperty</a></div><div class="ttdeci">ViewportProperty()=default</div></div>
+<div class="ttc" id="aclassMR_1_1ViewportProperty_html_a2586f5567b0637427c76e0c13b0bfa95"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#a2586f5567b0637427c76e0c13b0bfa95">MR::ViewportProperty::ViewportProperty</a></div><div class="ttdeci">ViewportProperty(const T &amp;def)</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:20</div></div>
+<div class="ttc" id="aclassMR_1_1ViewportProperty_html_a2bd23f5da1c45f3e3883a09d930aa408"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#a2bd23f5da1c45f3e3883a09d930aa408">MR::ViewportProperty::get</a></div><div class="ttdeci">T &amp; get()</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:25</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html_a47e346ad25a2c7948afa750f53070d5b"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#a47e346ad25a2c7948afa750f53070d5b">MR::ViewportProperty::set</a></div><div class="ttdeci">void set(T v, ViewportId id)</div><div class="ttdoc">sets specific property value for given viewport (or default value if !id)</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:33</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html_a60baa3c068605f833fbcdadd3ad908e7"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#a60baa3c068605f833fbcdadd3ad908e7">MR::ViewportProperty::operator[]</a></div><div class="ttdeci">T &amp; operator[](ViewportId id)</div><div class="ttdoc">returns direct access to value associated with given viewport (or default value if !...</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:28</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html_a84c311368b6811ab85337014147411cd"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#a84c311368b6811ab85337014147411cd">MR::ViewportProperty::get</a></div><div class="ttdeci">const T &amp; get() const</div><div class="ttdoc">gets default property value</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:24</div></div>
@@ -235,7 +239,7 @@ $(function(){initNavTree('MRViewportProperty_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html_ab7e94f2d0f3a20692500763dc1e160e2"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#ab7e94f2d0f3a20692500763dc1e160e2">MR::ViewportProperty::reset</a></div><div class="ttdeci">bool reset()</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:68</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html_ad54a5352850df53cbcbd00002e92b00e"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#ad54a5352850df53cbcbd00002e92b00e">MR::ViewportProperty::set</a></div><div class="ttdeci">void set(T def)</div><div class="ttdoc">sets default property value</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:22</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportProperty_html_ae8ca1fb6bc59e88d43f1d96bd4c17034"><div class="ttname"><a href="classMR_1_1ViewportProperty.html#ae8ca1fb6bc59e88d43f1d96bd4c17034">MR::ViewportProperty::reset</a></div><div class="ttdeci">bool reset(ViewportId id)</div><div class="ttdef"><b>Definition</b> MRViewportProperty.h:57</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1ViewportId_html"><div class="ttname"><a href="../Csharp/structMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -243,7 +247,7 @@ $(function(){initNavTree('MRViewportProperty_8h_source.html',''); initResizable(
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRViewportProperty.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRViewportProperty_8h.html">MRViewportProperty.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

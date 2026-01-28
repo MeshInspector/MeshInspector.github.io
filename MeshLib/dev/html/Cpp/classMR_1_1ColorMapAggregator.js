@@ -1,10 +1,13 @@
 var classMR_1_1ColorMapAggregator =
 [
-    [ "PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
+    [ "PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", "structMR_1_1ColorMapAggregator_1_1PartialColorMap" ],
+    [ "ColorMap", "classMR_1_1ColorMapAggregator.html#a20df43a4a312f6aa3f049476f78584d6", null ],
+    [ "ElementBitSet", "classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df", null ],
     [ "AggregateMode", "classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712a", [
       [ "Overlay", "classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3", null ],
       [ "Blending", "classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3", null ]
     ] ],
+    [ "ColorMapAggregator", "classMR_1_1ColorMapAggregator.html#a9f26415001a0635aeb73a8ff7e00b20c", null ],
     [ "aggregate", "classMR_1_1ColorMapAggregator.html#a9770717c450d8512e0357f181a6b0b34", null ],
     [ "erase", "classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194", null ],
     [ "getColorMapNumber", "classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042", null ],

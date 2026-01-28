@@ -148,11 +148,11 @@ $(function(){initNavTree('MRMesh_2MRMeshExtrude_8h_source.html',''); initResizab
   <div class="headertitle"><div class="title">MRMesh/MRMeshExtrude.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRMesh_2MRMeshExtrude_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// holds together settings for makeDegenerateBandAroundRegion</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">struct </span>MakeDegenerateBandAroundRegionParams</div>
@@ -164,21 +164,27 @@ $(function(){initNavTree('MRMesh_2MRMeshExtrude_8h_source.html',''); initResizab
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="comment">// (optional) return legth of the longest edges from the boundary of the region</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">float</span>* maxEdgeLength = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// (optional) map of new vertices to old ones</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    VertHashMap* new2OldMap = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a2c7c73a22a8d0b0183523147f1bf813f">VertHashMap</a>* new2OldMap = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a092fce2d448c0d374f0fe8a33aab5947">makeDegenerateBandAroundRegion</a>( Mesh&amp; mesh, <span class="keyword">const</span> FaceBitSet&amp; region, <span class="keyword">const</span> MakeDegenerateBandAroundRegionParams&amp; params = {} );</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespaceMR.html#a22f39580f90cbdb1bd5c77bd7b922251">   28</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a22f39580f90cbdb1bd5c77bd7b922251">makeDegenerateBandAroundRegion</a>( <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>&amp; region, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MakeDegenerateBandAroundRegionParams.html">MakeDegenerateBandAroundRegionParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a092fce2d448c0d374f0fe8a33aab5947"><div class="ttname"><a href="../Csharp/classMR.html#a092fce2d448c0d374f0fe8a33aab5947">MR::makeDegenerateBandAroundRegion</a></div><div class="ttdeci">static unsafe void makeDegenerateBandAroundRegion(MR.Mesh mesh, MR.Const_FaceBitSet region, MR.Const_MakeDegenerateBandAroundRegionParams? params_=null)</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aclassMR_1_1FaceBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1FaceBitSet.html">MR::FaceBitSet</a></div></div>
+<div class="ttc" id="aclassMR_1_1MakeDegenerateBandAroundRegionParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1MakeDegenerateBandAroundRegionParams.html">MR::MakeDegenerateBandAroundRegionParams</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshExtrude.h:9</div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a22f39580f90cbdb1bd5c77bd7b922251"><div class="ttname"><a href="namespaceMR.html#a22f39580f90cbdb1bd5c77bd7b922251">MR::makeDegenerateBandAroundRegion</a></div><div class="ttdeci">MRMESH_API void makeDegenerateBandAroundRegion(Mesh &amp;mesh, const FaceBitSet &amp;region, const MakeDegenerateBandAroundRegionParams &amp;params={})</div><div class="ttdoc">Create a band of degenerate faces along the border of the specified region and the rest of the mesh.</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a2c7c73a22a8d0b0183523147f1bf813f"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a2c7c73a22a8d0b0183523147f1bf813f">mrmeshpy::VertHashMap</a></div><div class="ttdeci">VertHashMap</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRMeshExtrude.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMesh_2MRMeshExtrude_8h.html">MRMeshExtrude.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

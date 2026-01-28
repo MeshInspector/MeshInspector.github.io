@@ -148,41 +148,46 @@ $(function(){initNavTree('MREdgeLengthMesh_8h_source.html',''); initResizable(tr
   <div class="headertitle"><div class="title">MREdgeLengthMesh.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MREdgeLengthMesh_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshTopology.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshTopology_8h.html">MRMeshTopology.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>[[nodiscard]] EdgeLengthMesh</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    MeshTopology topology;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    UndirectedEdgeScalars edgeLengths;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    UndirectedEdgeScalars <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a608fe2f91ca0858e02ff00229811db8b">edgeLengths</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    [[nodiscard]] MRMESH_API <span class="keyword">static</span> EdgeLengthMesh fromMesh( <span class="keyword">const</span> Mesh&amp; mesh );</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> EdgeLengthMesh fromMesh( <span class="keyword">const</span> Mesh&amp; mesh );</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    [[nodiscard]] MRMESH_API <span class="keywordtype">float</span> leftCotan( EdgeId e ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">float</span> <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8d9c2b1eea54aa46a8f881fad1cc2510">leftCotan</a>( EdgeId e ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    [[nodiscard]] <span class="keywordtype">float</span> cotan( UndirectedEdgeId ue )<span class="keyword"> const </span>{ EdgeId e{ ue }; <span class="keywordflow">return</span> leftCotan( e ) + leftCotan( e.sym() ); }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    [[nodiscard]] <span class="keywordtype">float</span> <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a30ad40f6cda55298f5e401d8d72a1f3a">cotan</a>( UndirectedEdgeId ue )<span class="keyword"> const </span>{ EdgeId e{ ue }; <span class="keywordflow">return</span> <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8d9c2b1eea54aa46a8f881fad1cc2510">leftCotan</a>( e ) + <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8d9c2b1eea54aa46a8f881fad1cc2510">leftCotan</a>( e.sym() ); }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    [[nodiscard]] <span class="keywordtype">bool</span> isDelone( UndirectedEdgeId ue, <span class="keywordtype">float</span> threshold = 0 )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> cotan( ue ) &gt;= threshold; }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    [[nodiscard]] <span class="keywordtype">bool</span> isDelone( UndirectedEdgeId ue, <span class="keywordtype">float</span> threshold = 0 )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a30ad40f6cda55298f5e401d8d72a1f3a">cotan</a>( ue ) &gt;= threshold; }</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    [[nodiscard]] MRMESH_API std::optional&lt;float&gt; edgeLengthAfterFlip( EdgeId e ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt;float&gt; edgeLengthAfterFlip( EdgeId e ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    MRMESH_API <span class="keywordtype">bool</span> flipEdge( EdgeId e );</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> flipEdge( EdgeId e );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMesh_2MRMeshTopology_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a30ad40f6cda55298f5e401d8d72a1f3a"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a30ad40f6cda55298f5e401d8d72a1f3a">mrmeshpy::cotan</a></div><div class="ttdeci">float cotan(MeshTopology topology, VertCoords points, UndirectedEdgeId ue)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a608fe2f91ca0858e02ff00229811db8b"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a608fe2f91ca0858e02ff00229811db8b">mrmeshpy::edgeLengths</a></div><div class="ttdeci">UndirectedEdgeScalars edgeLengths(MeshTopology topology, VertCoords points)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a8d9c2b1eea54aa46a8f881fad1cc2510"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a8d9c2b1eea54aa46a8f881fad1cc2510">mrmeshpy::leftCotan</a></div><div class="ttdeci">float leftCotan(MeshTopology topology, VertCoords points, EdgeId e)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MREdgeLengthMesh.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MREdgeLengthMesh_8h.html">MREdgeLengthMesh.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

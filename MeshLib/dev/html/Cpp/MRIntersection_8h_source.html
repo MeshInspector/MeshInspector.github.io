@@ -148,17 +148,17 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
   <div class="headertitle"><div class="title">MRIntersection.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRIntersection_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRPlane3.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRLine3.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRLineSegm.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRVector2.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRBox.h&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;MRSphere.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRPlane3_8h.html">MRPlane3.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRLine3_8h.html">MRLine3.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRLineSegm_8h.html">MRLineSegm.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRVector2.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBox_8h.html">MRBox.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRSphere_8h.html">MRSphere.h</a>&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
@@ -167,13 +167,13 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3">   22</a></span>std::optional&lt;Line3&lt;T&gt;&gt; <a class="code hl_function" href="group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3">intersection</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a>&amp; plane1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a>&amp; plane2,</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    T errorLimit = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 ) )</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">const</span> <span class="keyword">auto</span> crossDir = cross( plane1.n, plane2.n );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">const</span> <span class="keyword">auto</span> crossDir = cross( plane1.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, plane2.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a> );</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">if</span> ( crossDir.lengthSq() &lt; errorLimit * errorLimit )</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a> matrix( plane1.n, plane2.n, crossDir );</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">const</span> <span class="keyword">auto</span> point = matrix.inverse() * <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>( plane1.d, plane2.d, 0 );</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a> matrix( plane1.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, plane2.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, crossDir );</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">const</span> <span class="keyword">auto</span> point = matrix.inverse() * <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>( plane1.<a class="code hl_variable" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a>, plane2.<a class="code hl_variable" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a>, 0 );</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">return</span> Line3&lt;T&gt;( point, crossDir.normalized() );</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>}</div>
@@ -184,10 +184,10 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf">   40</a></span>std::optional&lt;Vector3&lt;T&gt;&gt; <a class="code hl_function" href="group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3">intersection</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a>&amp; plane, <span class="keyword">const</span> Line3&lt;T&gt;&amp; line,</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    T errorLimit = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 ) )</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">const</span> <span class="keyword">auto</span> den = dot( plane.n, line.d );</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">const</span> <span class="keyword">auto</span> den = dot( plane.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, line.d );</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">if</span> ( std::abs(den) &lt; errorLimit )</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> line.p + ( plane.d - dot( plane.n, line.p ) ) / den * line.d;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> line.p + ( plane.<a class="code hl_variable" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a> - dot( plane.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, line.p ) ) / den * line.d;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
@@ -233,12 +233,12 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4">   90</a></span>std::optional&lt;T&gt; <a class="code hl_function" href="group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4">distanceSq</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a>&amp; plane1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a>&amp; plane2,</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    T errorLimit = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 ) )</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>{</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">const</span> <span class="keyword">auto</span> crossDir = cross( plane1.n, plane2.n );</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">const</span> <span class="keyword">auto</span> crossDir = cross( plane1.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, plane2.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a> );</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordflow">if</span> ( crossDir.lengthSq() &gt;= errorLimit * errorLimit )</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordflow">return</span> ( plane2.n * plane2.d - plane1.n * plane1.d ).lengthSq();</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordflow">return</span> ( plane2.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a> * plane2.<a class="code hl_variable" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a> - plane1.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a> * plane1.<a class="code hl_variable" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a> ).lengthSq();</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>}</div>
 </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
@@ -259,11 +259,11 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="group__IntersectionGroup.html#ga0687cd4a683d6fecc91850b82a02be37">  116</a></span>std::optional&lt;T&gt; <a class="code hl_function" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a>&amp; plane, <span class="keyword">const</span> Line3&lt;T&gt;&amp; line,</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    T errorLimit = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 ) )</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>{</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">const</span> <span class="keyword">auto</span> den = dot( plane.n, line.d );</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">const</span> <span class="keyword">auto</span> den = dot( plane.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a>, line.d );</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordflow">if</span> ( std::abs( den ) &gt;= errorLimit )</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">return</span> std::abs( dot( line.p, plane.n ) - plane.d );</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">return</span> std::abs( dot( line.p, plane.<a class="code hl_variable" href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">n</a> ) - plane.<a class="code hl_variable" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a> );</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>}</div>
 </div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
@@ -394,7 +394,7 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>                    cand.b[iDir] += e * u;</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>                }</div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>            }</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            <span class="keyword">const</span> <span class="keyword">auto</span> distSq = cand.lengthSq();</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            <span class="keyword">const</span> <span class="keyword">auto</span> distSq = cand.<a class="code hl_function" href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">lengthSq</a>();</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            <span class="keywordflow">if</span> ( distSq &lt; bestDistSq )</div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            {</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                bestDistSq = distSq;</div>
@@ -412,11 +412,11 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>{</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <span class="keyword">using </span>T = <span class="keyword">typename</span> V::ValueType;</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    std::optional&lt;std::pair&lt;T,T&gt;&gt; res;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="keyword">const</span> <span class="keyword">auto</span> p = line.p - sphere.center;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="keyword">const</span> <span class="keyword">auto</span> p = line.p - sphere.<a class="code hl_variable" href="structMR_1_1Sphere.html#ac761a3c59ab76b111bb301d71558d5a7">center</a>;</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <span class="keyword">const</span> <span class="keyword">auto</span> d = line.d;</div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="keyword">const</span> <span class="keyword">auto</span> dd = dot( d, d );</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <span class="keyword">const</span> <span class="keyword">auto</span> pd = dot( p, d );</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="keyword">const</span> <span class="keyword">auto</span> des4 = sqr( pd ) - dd * ( dot( p, p ) - sqr( sphere.radius ) );</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="keyword">const</span> <span class="keyword">auto</span> des4 = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">sqr</a>( pd ) - dd * ( dot( p, p ) - <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">sqr</a>( sphere.<a class="code hl_variable" href="structMR_1_1Sphere.html#ac91793706fe6273028dbecc98e540b1b">radius</a> ) );</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="keywordflow">if</span> ( des4 &lt; 0 )</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        <span class="keywordflow">return</span> res;</div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keyword">const</span> <span class="keyword">auto</span> sqrtDes4 = std::sqrt( des4 );</div>
@@ -429,24 +429,36 @@ $(function(){initNavTree('MRIntersection_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRLine3_8h_html"><div class="ttname"><a href="MRLine3_8h.html">MRLine3.h</a></div></div>
+<div class="ttc" id="aMRLineSegm_8h_html"><div class="ttname"><a href="MRLineSegm_8h.html">MRLineSegm.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRPlane3_8h_html"><div class="ttname"><a href="MRPlane3_8h.html">MRPlane3.h</a></div></div>
+<div class="ttc" id="aMRSphere_8h_html"><div class="ttname"><a href="MRSphere_8h.html">MRSphere.h</a></div></div>
+<div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1LineSegm2f_html"><div class="ttname"><a href="../Csharp/classMR_1_1LineSegm2f.html">MR::LineSegm2f</a></div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__IntersectionGroup_html_ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><div class="ttname"><a href="group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3">MR::intersection</a></div><div class="ttdeci">std::optional&lt; Line3&lt; T &gt; &gt; intersection(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</div><div class="ttdef"><b>Definition</b> MRIntersection.h:22</div></div>
 <div class="ttc" id="agroup__IntersectionGroup_html_ga8fe41c203bb90cc8a7dc06426f6682f4"><div class="ttname"><a href="group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4">MR::distanceSq</a></div><div class="ttdeci">std::optional&lt; T &gt; distanceSq(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</div><div class="ttdef"><b>Definition</b> MRIntersection.h:90</div></div>
 <div class="ttc" id="agroup__IntersectionGroup_html_ga9f71b2c20cd6a91f42d8d76dbc038190"><div class="ttname"><a href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">MR::distance</a></div><div class="ttdeci">std::optional&lt; T &gt; distance(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</div><div class="ttdef"><b>Definition</b> MRIntersection.h:104</div></div>
 <div class="ttc" id="agroup__IntersectionGroup_html_gaab24181e6c7cccda09f6e6fc5045f3a4"><div class="ttname"><a href="group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4">MR::closestPoints</a></div><div class="ttdeci">LineSegm3&lt; T &gt; closestPoints(const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2)</div><div class="ttdef"><b>Definition</b> MRIntersection.h:130</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdoc">squared value</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:752</div></div>
 <div class="ttc" id="astructMR_1_1Line_html"><div class="ttname"><a href="structMR_1_1Line.html">MR::Line</a></div><div class="ttdef"><b>Definition</b> MRLine.h:13</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMatrix3.h:21</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html"><div class="ttname"><a href="structMR_1_1Plane3.html">MR::Plane3</a></div><div class="ttdef"><b>Definition</b> MRPlane3.h:18</div></div>
+<div class="ttc" id="astructMR_1_1Plane3_html_a6e5e2b0ad95eae3a0388468db8a83a63"><div class="ttname"><a href="structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63">MR::Plane3::n</a></div><div class="ttdeci">Vector3&lt; T &gt; n</div><div class="ttdef"><b>Definition</b> MRPlane3.h:19</div></div>
+<div class="ttc" id="astructMR_1_1Plane3_html_aa721053621e7ed2a54dc3f05081f7c04"><div class="ttname"><a href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">MR::Plane3::d</a></div><div class="ttdeci">T d</div><div class="ttdef"><b>Definition</b> MRPlane3.h:20</div></div>
 <div class="ttc" id="astructMR_1_1Sphere_html"><div class="ttname"><a href="structMR_1_1Sphere.html">MR::Sphere</a></div><div class="ttdef"><b>Definition</b> MRSphere.h:11</div></div>
+<div class="ttc" id="astructMR_1_1Sphere_html_ac761a3c59ab76b111bb301d71558d5a7"><div class="ttname"><a href="structMR_1_1Sphere.html#ac761a3c59ab76b111bb301d71558d5a7">MR::Sphere::center</a></div><div class="ttdeci">V center</div><div class="ttdef"><b>Definition</b> MRSphere.h:14</div></div>
+<div class="ttc" id="astructMR_1_1Sphere_html_ac91793706fe6273028dbecc98e540b1b"><div class="ttname"><a href="structMR_1_1Sphere.html#ac91793706fe6273028dbecc98e540b1b">MR::Sphere::radius</a></div><div class="ttdeci">T radius</div><div class="ttdef"><b>Definition</b> MRSphere.h:15</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:30</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_aedb5f8de6324a8ee5e71243c4b67104c"><div class="ttname"><a href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">MR::Vector3::lengthSq</a></div><div class="ttdeci">T lengthSq() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRIntersection.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRIntersection_8h.html">MRIntersection.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

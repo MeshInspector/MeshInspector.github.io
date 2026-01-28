@@ -1,5 +1,8 @@
 var classMR_1_1VoxelsLoad =
 [
+    [ "VoxelsLoader", "../Cpp/namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96", null ],
+    [ "DicomStatusEnum", "../Cpp/namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6", null ],
+    [ "GridType", "../Cpp/namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19", null ],
     [ "createObjectVoxels", "classMR_1_1VoxelsLoad.html#a622c95726333ec68a788191e4f69b3b5", null ],
     [ "findDicomFoldersRecursively", "classMR_1_1VoxelsLoad.html#a4712b0e40fa9832c74bff26290225549", null ],
     [ "findRawParameters", "classMR_1_1VoxelsLoad.html#a73061b630e4a1d31327cc2fe1b42f7bd", null ],

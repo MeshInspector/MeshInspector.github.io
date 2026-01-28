@@ -148,13 +148,13 @@ $(function(){initNavTree('MRPolylineEdgeIterator_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">MRPolylineEdgeIterator.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRPolylineEdgeIterator_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRPolylineTopology.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRIteratorRange.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRPolylineTopology_8h.html">MRPolylineTopology.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRIteratorRange_8h.html">MRIteratorRange.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;iterator&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>PolylineUndirectedEdgeIterator</div>
@@ -202,18 +202,21 @@ $(function(){initNavTree('MRPolylineEdgeIterator_8h_source.html',''); initResiza
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">operator ==</a>( <span class="keyword">const</span> PolylineUndirectedEdgeIterator &amp; a, <span class="keyword">const</span> PolylineUndirectedEdgeIterator &amp; b )</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    { <span class="keywordflow">return</span> *a == *b; }</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> operator !=( <span class="keyword">const</span> PolylineUndirectedEdgeIterator &amp; a, <span class="keyword">const</span> PolylineUndirectedEdgeIterator &amp; b )</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">operator !=</a>( <span class="keyword">const</span> PolylineUndirectedEdgeIterator &amp; a, <span class="keyword">const</span> PolylineUndirectedEdgeIterator &amp; b )</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    { <span class="keywordflow">return</span> *a != *b; }</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">inline</span> IteratorRange&lt;PolylineUndirectedEdgeIterator&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#af80fc9878313c38c7eec7af256c43f2d">undirectedEdges</a>( <span class="keyword">const</span> PolylineTopology &amp; topology )</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">inline</span> IteratorRange&lt;PolylineUndirectedEdgeIterator&gt; <a class="code hl_function" href="namespaceMR.html#a6de91a42354f4257ba3081c18a497828">undirectedEdges</a>( <span class="keyword">const</span> PolylineTopology &amp; topology )</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    { <span class="keywordflow">return</span> { PolylineUndirectedEdgeIterator( topology ), PolylineUndirectedEdgeIterator() }; }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRIteratorRange_8h_html"><div class="ttname"><a href="MRIteratorRange_8h.html">MRIteratorRange.h</a></div></div>
+<div class="ttc" id="aMRPolylineTopology_8h_html"><div class="ttname"><a href="MRPolylineTopology_8h.html">MRPolylineTopology.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1PolylineUndirectedEdgeIterator_html_a7b536c90a1c6c21896efbdc4227179ab"><div class="ttname"><a href="../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab">MR::PolylineUndirectedEdgeIterator::PolylineUndirectedEdgeIterator</a></div><div class="ttdeci">unsafe PolylineUndirectedEdgeIterator()</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_af80fc9878313c38c7eec7af256c43f2d"><div class="ttname"><a href="../Csharp/classMR.html#af80fc9878313c38c7eec7af256c43f2d">MR::undirectedEdges</a></div><div class="ttdeci">static unsafe MR.IteratorRange_MRUndirectedEdgeIterator undirectedEdges(MR.Const_MeshTopology topology)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga300a438da6440ee7d2e92933bcfa6018"><div class="ttname"><a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></div><div class="ttdeci">MRMESH_API bool operator==(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdoc">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but la...</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a5534d2437ed57cabae82ae75a441b224"><div class="ttname"><a href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:101</div></div>
+<div class="ttc" id="anamespaceMR_html_a6de91a42354f4257ba3081c18a497828"><div class="ttname"><a href="namespaceMR.html#a6de91a42354f4257ba3081c18a497828">MR::undirectedEdges</a></div><div class="ttdeci">IteratorRange&lt; UndirectedEdgeIterator &gt; undirectedEdges(const MeshTopology &amp;topology)</div><div class="ttdef"><b>Definition</b> MREdgeIterator.h:58</div></div>
 <div class="ttc" id="astructMR_1_1UndirectedEdgeId_html_a751ad34caef973ae9e188254c5484a75"><div class="ttname"><a href="../Csharp/structMR_1_1UndirectedEdgeId.html#a751ad34caef973ae9e188254c5484a75">MR::UndirectedEdgeId::valid</a></div><div class="ttdeci">readonly unsafe bool valid()</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -221,7 +224,7 @@ $(function(){initNavTree('MRPolylineEdgeIterator_8h_source.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRPolylineEdgeIterator.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRPolylineEdgeIterator_8h.html">MRPolylineEdgeIterator.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

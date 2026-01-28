@@ -152,35 +152,59 @@ $(function(){initNavTree('classMR_1_1SpaceMouse_1_1Device.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 
-<p>This class holds information and state of single SpaceMouse device.  
+<p>This class holds information and state of single <a class="el" href="namespaceMR_1_1SpaceMouse.html">SpaceMouse</a> device.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRSpaceMouseDevice_8h_source.html">MRSpaceMouseDevice.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67852d2b3c384bdba442c7a9823cd3f5" id="r_a67852d2b3c384bdba442c7a9823cd3f5"><td class="memItemLeft" align="right" valign="top"><a id="a67852d2b3c384bdba442c7a9823cd3f5" name="a67852d2b3c384bdba442c7a9823cd3f5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>updateDevice</b> (VendorId vId, ProductId pId)</td></tr>
-<tr class="memdesc:a67852d2b3c384bdba442c7a9823cd3f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates internal data by device ids (does nothing if ids is same for current device) <br /></td></tr>
+<tr class="memitem:a67852d2b3c384bdba442c7a9823cd3f5" id="r_a67852d2b3c384bdba442c7a9823cd3f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67852d2b3c384bdba442c7a9823cd3f5">updateDevice</a> (<a class="el" href="namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18">VendorId</a> vId, <a class="el" href="namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0">ProductId</a> pId)</td></tr>
+<tr class="memdesc:a67852d2b3c384bdba442c7a9823cd3f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates internal data by device ids (does nothing if ids is same for current device)  <br /></td></tr>
 <tr class="separator:a67852d2b3c384bdba442c7a9823cd3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f36ca52d35888612beb1f08e1e3d2a4" id="r_a9f36ca52d35888612beb1f08e1e3d2a4"><td class="memItemLeft" align="right" valign="top"><a id="a9f36ca52d35888612beb1f08e1e3d2a4" name="a9f36ca52d35888612beb1f08e1e3d2a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resetDevice</b> ()</td></tr>
-<tr class="memdesc:a9f36ca52d35888612beb1f08e1e3d2a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates this device and its state. <br /></td></tr>
+<tr class="memitem:a9f36ca52d35888612beb1f08e1e3d2a4" id="r_a9f36ca52d35888612beb1f08e1e3d2a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f36ca52d35888612beb1f08e1e3d2a4">resetDevice</a> ()</td></tr>
+<tr class="memdesc:a9f36ca52d35888612beb1f08e1e3d2a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates this device and its state.  <br /></td></tr>
 <tr class="separator:a9f36ca52d35888612beb1f08e1e3d2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ad7cb30ab2894c06a1bceb21811fc99" id="r_a5ad7cb30ab2894c06a1bceb21811fc99"><td class="memItemLeft" align="right" valign="top"><a id="a5ad7cb30ab2894c06a1bceb21811fc99" name="a5ad7cb30ab2894c06a1bceb21811fc99"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>valid</b> () const</td></tr>
-<tr class="memdesc:a5ad7cb30ab2894c06a1bceb21811fc99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this device is set and valid. <br /></td></tr>
+<tr class="memitem:a5ad7cb30ab2894c06a1bceb21811fc99" id="r_a5ad7cb30ab2894c06a1bceb21811fc99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ad7cb30ab2894c06a1bceb21811fc99">valid</a> () const</td></tr>
+<tr class="memdesc:a5ad7cb30ab2894c06a1bceb21811fc99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this device is set and valid.  <br /></td></tr>
 <tr class="separator:a5ad7cb30ab2894c06a1bceb21811fc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e84419b5a55d15608dce2aa9a257691" id="r_a1e84419b5a55d15608dce2aa9a257691"><td class="memItemLeft" align="right" valign="top"><a id="a1e84419b5a55d15608dce2aa9a257691" name="a1e84419b5a55d15608dce2aa9a257691"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseRawEvent</b> (const DataPacketRaw &amp;raw, int numBytes, <a class="el" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a> &amp;action) const</td></tr>
-<tr class="memdesc:a1e84419b5a55d15608dce2aa9a257691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses data from raw packet to unified <code>action</code> <br /></td></tr>
+<tr class="memitem:a1e84419b5a55d15608dce2aa9a257691" id="r_a1e84419b5a55d15608dce2aa9a257691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e84419b5a55d15608dce2aa9a257691">parseRawEvent</a> (const <a class="el" href="namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62">DataPacketRaw</a> &amp;raw, int numBytes, <a class="el" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a> &amp;action) const</td></tr>
+<tr class="memdesc:a1e84419b5a55d15608dce2aa9a257691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses data from raw packet to unified <code>action</code>  <br /></td></tr>
 <tr class="separator:a1e84419b5a55d15608dce2aa9a257691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac63b830535e25136ec10d5382f59088e" id="r_ac63b830535e25136ec10d5382f59088e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac63b830535e25136ec10d5382f59088e">processAction</a> (const <a class="el" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a> &amp;action)</td></tr>
 <tr class="separator:ac63b830535e25136ec10d5382f59088e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class holds information and state of single SpaceMouse device. </p>
+<div class="textblock"><p>This class holds information and state of single <a class="el" href="namespaceMR_1_1SpaceMouse.html">SpaceMouse</a> device. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1e84419b5a55d15608dce2aa9a257691" name="a1e84419b5a55d15608dce2aa9a257691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e84419b5a55d15608dce2aa9a257691">&#9670;&#160;</a></span>parseRawEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SpaceMouse::Device::parseRawEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62">DataPacketRaw</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>raw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numBytes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>action</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parses data from raw packet to unified <code>action</code> </p>
+
+</div>
+</div>
 <a id="ac63b830535e25136ec10d5382f59088e" name="ac63b830535e25136ec10d5382f59088e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac63b830535e25136ec10d5382f59088e">&#9670;&#160;</a></span>processAction()</h2>
 
@@ -199,6 +223,67 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>parseRawEvent</b> (co
 
 </div>
 </div>
+<a id="a9f36ca52d35888612beb1f08e1e3d2a4" name="a9f36ca52d35888612beb1f08e1e3d2a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f36ca52d35888612beb1f08e1e3d2a4">&#9670;&#160;</a></span>resetDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SpaceMouse::Device::resetDevice </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invalidates this device and its state. </p>
+
+</div>
+</div>
+<a id="a67852d2b3c384bdba442c7a9823cd3f5" name="a67852d2b3c384bdba442c7a9823cd3f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67852d2b3c384bdba442c7a9823cd3f5">&#9670;&#160;</a></span>updateDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SpaceMouse::Device::updateDevice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18">VendorId</a></td>          <td class="paramname"><span class="paramname"><em>vId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0">ProductId</a></td>          <td class="paramname"><span class="paramname"><em>pId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates internal data by device ids (does nothing if ids is same for current device) </p>
+
+</div>
+</div>
+<a id="a5ad7cb30ab2894c06a1bceb21811fc99" name="a5ad7cb30ab2894c06a1bceb21811fc99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad7cb30ab2894c06a1bceb21811fc99">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SpaceMouse::Device::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if this device is set and valid. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRSpaceMouseDevice_8h_source.html">MRSpaceMouseDevice.h</a></li>
 </ul>
@@ -208,7 +293,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>parseRawEvent</b> (co
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><b>SpaceMouse</b></li><li class="navelem"><a class="el" href="classMR_1_1SpaceMouse_1_1Device.html">Device</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1SpaceMouse.html">SpaceMouse</a></li><li class="navelem"><a class="el" href="classMR_1_1SpaceMouse_1_1Device.html">Device</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

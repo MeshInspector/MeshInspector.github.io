@@ -148,38 +148,41 @@ $(function(){initNavTree('MRSpaceMouseHandler_8h_source.html',''); initResizable
   <div class="headertitle"><div class="title">MRSpaceMouseHandler.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRSpaceMouseHandler_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>MR::SpaceMouse</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1SpaceMouse.html">MR::SpaceMouse</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Handler.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1SpaceMouse_1_1Handler.html">Handler</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classMR_1_1SpaceMouse_1_1Handler.html">~Handler</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Handler.html#acef4a0601b4b1e8c5eaa19be8b3a7437">   14</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1Handler.html#acef4a0601b4b1e8c5eaa19be8b3a7437">~Handler</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Handler.html#a424fdba0d108f8b85f4661b88563b34e">   18</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1Handler.html#a424fdba0d108f8b85f4661b88563b34e">initialize</a>( std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> std::string&amp;)&gt; deviceSignal = {} ) = 0;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Handler.html#a01f9deabc5763930ffe1c5e13e08278d">   21</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1Handler.html#a01f9deabc5763930ffe1c5e13e08278d">handle</a>() = 0;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Handler.html#a76724a238382d5e5db89b510fbb469b6">   17</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1Handler.html#a76724a238382d5e5db89b510fbb469b6">initialize</a>() = 0;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1SpaceMouse_1_1Handler.html#a01f9deabc5763930ffe1c5e13e08278d">   20</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SpaceMouse_1_1Handler.html#a01f9deabc5763930ffe1c5e13e08278d">handle</a>() = 0;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Handler_html"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Handler.html">MR::SpaceMouse::Handler</a></div><div class="ttdoc">base class for handler of spacemouse devices</div><div class="ttdef"><b>Definition</b> MRSpaceMouseHandler.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Handler_html_a01f9deabc5763930ffe1c5e13e08278d"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Handler.html#a01f9deabc5763930ffe1c5e13e08278d">MR::SpaceMouse::Handler::handle</a></div><div class="ttdeci">virtual void handle()=0</div><div class="ttdoc">handle device state and call Viewer signals</div></div>
-<div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Handler_html_a424fdba0d108f8b85f4661b88563b34e"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Handler.html#a424fdba0d108f8b85f4661b88563b34e">MR::SpaceMouse::Handler::initialize</a></div><div class="ttdeci">virtual bool initialize(std::function&lt; void(const std::string &amp;)&gt; deviceSignal={})=0</div></div>
+<div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Handler_html_a76724a238382d5e5db89b510fbb469b6"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Handler.html#a76724a238382d5e5db89b510fbb469b6">MR::SpaceMouse::Handler::initialize</a></div><div class="ttdeci">virtual bool initialize()=0</div><div class="ttdoc">initialize device</div></div>
+<div class="ttc" id="aclassMR_1_1SpaceMouse_1_1Handler_html_acef4a0601b4b1e8c5eaa19be8b3a7437"><div class="ttname"><a href="classMR_1_1SpaceMouse_1_1Handler.html#acef4a0601b4b1e8c5eaa19be8b3a7437">MR::SpaceMouse::Handler::~Handler</a></div><div class="ttdeci">virtual ~Handler()=default</div></div>
+<div class="ttc" id="anamespaceMR_1_1SpaceMouse_html"><div class="ttname"><a href="namespaceMR_1_1SpaceMouse.html">MR::SpaceMouse</a></div><div class="ttdef"><b>Definition</b> MRSpaceMouseController.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><b>MRSpaceMouseHandler.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRSpaceMouseHandler_8h.html">MRSpaceMouseHandler.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

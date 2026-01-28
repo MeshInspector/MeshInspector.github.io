@@ -156,28 +156,52 @@ $(function(){initNavTree('classMR_1_1RecentFilesStore.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab3bdf57745bbf11b5ac6fd1b27edcb68" id="r_ab3bdf57745bbf11b5ac6fd1b27edcb68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3bdf57745bbf11b5ac6fd1b27edcb68">RecentFilesStore</a> ()=default</td></tr>
+<tr class="separator:ab3bdf57745bbf11b5ac6fd1b27edcb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a230eadaf39638e9cec8fb6d95f662964" id="r_a230eadaf39638e9cec8fb6d95f662964"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a230eadaf39638e9cec8fb6d95f662964">RecentFilesStore</a> (std::string appName, int capacity=10)</td></tr>
 <tr class="separator:a230eadaf39638e9cec8fb6d95f662964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c0cee2c949bedab99c902e62d77a9f" id="r_a91c0cee2c949bedab99c902e62d77a9f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91c0cee2c949bedab99c902e62d77a9f">storeFile</a> (const std::filesystem::path &amp;file) const</td></tr>
 <tr class="separator:a91c0cee2c949bedab99c902e62d77a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eb2308612fd7822086319b3609a28cf" id="r_a8eb2308612fd7822086319b3609a28cf"><td class="memItemLeft" align="right" valign="top"><a id="a8eb2308612fd7822086319b3609a28cf" name="a8eb2308612fd7822086319b3609a28cf"></a>
-MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStoredFiles</b> () const</td></tr>
-<tr class="memdesc:a8eb2308612fd7822086319b3609a28cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns filenames from storage. <br /></td></tr>
+<tr class="memitem:a8eb2308612fd7822086319b3609a28cf" id="r_a8eb2308612fd7822086319b3609a28cf"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb2308612fd7822086319b3609a28cf">getStoredFiles</a> () const</td></tr>
+<tr class="memdesc:a8eb2308612fd7822086319b3609a28cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns filenames from storage.  <br /></td></tr>
 <tr class="separator:a8eb2308612fd7822086319b3609a28cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f48973b157bca4ee2c0e34407310654" id="r_a1f48973b157bca4ee2c0e34407310654"><td class="memItemLeft" align="right" valign="top"><a id="a1f48973b157bca4ee2c0e34407310654" name="a1f48973b157bca4ee2c0e34407310654"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getCapacity</b> () const</td></tr>
-<tr class="memdesc:a1f48973b157bca4ee2c0e34407310654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns maximum size of recently opened files stack. <br /></td></tr>
+<tr class="memitem:a1f48973b157bca4ee2c0e34407310654" id="r_a1f48973b157bca4ee2c0e34407310654"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f48973b157bca4ee2c0e34407310654">getCapacity</a> () const</td></tr>
+<tr class="memdesc:a1f48973b157bca4ee2c0e34407310654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns maximum size of recently opened files stack.  <br /></td></tr>
 <tr class="separator:a1f48973b157bca4ee2c0e34407310654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1875cd68c58a0a3c20766750d0768342" id="r_a1875cd68c58a0a3c20766750d0768342"><td class="memItemLeft" align="right" valign="top"><a id="a1875cd68c58a0a3c20766750d0768342" name="a1875cd68c58a0a3c20766750d0768342"></a>
-MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><b>onUpdate</b> (const boost::function&lt; void(const FileNamesStack &amp;files)&gt; &amp;slot, boost::signals2::connect_position position=boost::signals2::at_back)</td></tr>
-<tr class="memdesc:a1875cd68c58a0a3c20766750d0768342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every update of this store. <br /></td></tr>
+<tr class="memitem:a1875cd68c58a0a3c20766750d0768342" id="r_a1875cd68c58a0a3c20766750d0768342"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1875cd68c58a0a3c20766750d0768342">onUpdate</a> (const boost::function&lt; void(const FileNamesStack &amp;files)&gt; &amp;slot, boost::signals2::connect_position <a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a>=boost::signals2::at_back)</td></tr>
+<tr class="memdesc:a1875cd68c58a0a3c20766750d0768342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every update of this store.  <br /></td></tr>
 <tr class="separator:a1875cd68c58a0a3c20766750d0768342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class exists to store and load recently opened files from system storage (registry for Windows) </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab3bdf57745bbf11b5ac6fd1b27edcb68" name="ab3bdf57745bbf11b5ac6fd1b27edcb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3bdf57745bbf11b5ac6fd1b27edcb68">&#9670;&#160;</a></span>RecentFilesStore() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::RecentFilesStore::RecentFilesStore </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a230eadaf39638e9cec8fb6d95f662964" name="a230eadaf39638e9cec8fb6d95f662964"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a230eadaf39638e9cec8fb6d95f662964">&#9670;&#160;</a></span>RecentFilesStore()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a230eadaf39638e9cec8fb6d95f662964">&#9670;&#160;</a></span>RecentFilesStore() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,6 +231,75 @@ MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" vali
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1f48973b157bca4ee2c0e34407310654" name="a1f48973b157bca4ee2c0e34407310654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f48973b157bca4ee2c0e34407310654">&#9670;&#160;</a></span>getCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::RecentFilesStore::getCapacity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns maximum size of recently opened files stack. </p>
+
+</div>
+</div>
+<a id="a8eb2308612fd7822086319b3609a28cf" name="a8eb2308612fd7822086319b3609a28cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eb2308612fd7822086319b3609a28cf">&#9670;&#160;</a></span>getStoredFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::vector&lt; std::filesystem::path &gt; MR::RecentFilesStore::getStoredFiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns filenames from storage. </p>
+
+</div>
+</div>
+<a id="a1875cd68c58a0a3c20766750d0768342" name="a1875cd68c58a0a3c20766750d0768342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1875cd68c58a0a3c20766750d0768342">&#9670;&#160;</a></span>onUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API boost::signals2::connection MR::RecentFilesStore::onUpdate </td>
+          <td>(</td>
+          <td class="paramtype">const boost::function&lt; void(const FileNamesStack &amp;files)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::signals2::connect_position</td>          <td class="paramname"><span class="paramname"><em>position</em></span><span class="paramdefsep"> = </span><span class="paramdefval">boost::signals2::at_back</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connects given slot to receive signal on every update of this store. </p>
+
+</div>
+</div>
 <a id="a91c0cee2c949bedab99c902e62d77a9f" name="a91c0cee2c949bedab99c902e62d77a9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91c0cee2c949bedab99c902e62d77a9f">&#9670;&#160;</a></span>storeFile()</h2>
 
@@ -234,7 +327,7 @@ MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" vali
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1RecentFilesStore.html">RecentFilesStore</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1RecentFilesStore.html">RecentFilesStore</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

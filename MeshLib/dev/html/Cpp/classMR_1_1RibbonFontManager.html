@@ -153,75 +153,198 @@ $(function(){initNavTree('classMR_1_1RibbonFontManager.html',''); initResizable(
   <div class="headertitle"><div class="title">MR::RibbonFontManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="MRRibbonFontManager_8h_source.html">MRRibbonFontManager.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aba42ec493818f2de36d60f069b34cee4" id="r_aba42ec493818f2de36d60f069b34cee4"><td class="memItemLeft" align="right" valign="top"><a id="aba42ec493818f2de36d60f069b34cee4" name="aba42ec493818f2de36d60f069b34cee4"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>FontType</b> { <br />
-&#160;&#160;<b>Default</b>
-, <b>Small</b>
-, <b>Middle</b>
-, <b>SemiBold</b>
+<tr class="memitem:aba42ec493818f2de36d60f069b34cee4" id="r_aba42ec493818f2de36d60f069b34cee4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a> { <br />
+&#160;&#160;<a class="el" href="#aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67">Default</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592">Small</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4ab1ca34f82e83c52b010f86955f264e05">Middle</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4a57da4df095766e2b4e9012d34ae8e221">SemiBold</a>
 , <br />
-&#160;&#160;<b>Icons</b>
-, <b>Big</b>
-, <b>BigSemiBold</b>
-, <b>Headline</b>
+&#160;&#160;<a class="el" href="#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8">Icons</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3">Big</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c">BigSemiBold</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0">Headline</a>
 , <br />
-&#160;&#160;<b>Monospace</b>
-, <b>Count</b>
+&#160;&#160;<a class="el" href="#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384">Monospace</a>
+, <a class="el" href="#aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
 <br />
  }</td></tr>
 <tr class="separator:aba42ec493818f2de36d60f069b34cee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467cb9c5acd294f0d22ad2b2388f4ccb" id="r_a467cb9c5acd294f0d22ad2b2388f4ccb"><td class="memItemLeft" align="right" valign="top"><a id="a467cb9c5acd294f0d22ad2b2388f4ccb" name="a467cb9c5acd294f0d22ad2b2388f4ccb"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>FontFile</b> { <br />
-&#160;&#160;<b>Regular</b>
-, <b>RegularSC</b>
-, <b>SemiBold</b>
-, <b>Monospace</b>
+<tr class="memitem:a467cb9c5acd294f0d22ad2b2388f4ccb" id="r_a467cb9c5acd294f0d22ad2b2388f4ccb"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccb">FontFile</a> { <br />
+&#160;&#160;<a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345">Regular</a>
+, <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e">RegularSC</a>
+, <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccba57da4df095766e2b4e9012d34ae8e221">SemiBold</a>
+, <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384">Monospace</a>
 , <br />
-&#160;&#160;<b>Icons</b>
-, <b>Count</b>
+&#160;&#160;<a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8">Icons</a>
+, <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
 <br />
  }</td></tr>
 <tr class="separator:a467cb9c5acd294f0d22ad2b2388f4ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab37a19ee9fe77c068e749dc7e8dfd6b2" id="r_ab37a19ee9fe77c068e749dc7e8dfd6b2"><td class="memItemLeft" align="right" valign="top"><a id="ab37a19ee9fe77c068e749dc7e8dfd6b2" name="ab37a19ee9fe77c068e749dc7e8dfd6b2"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>FontFilePaths</b> = std::array&lt;std::filesystem::path, size_t( FontFile::Count )&gt;</td></tr>
+<tr class="memitem:ab37a19ee9fe77c068e749dc7e8dfd6b2" id="r_ab37a19ee9fe77c068e749dc7e8dfd6b2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> = std::array&lt;std::filesystem::path, size_t( <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9">FontFile::Count</a> )&gt;</td></tr>
 <tr class="separator:ab37a19ee9fe77c068e749dc7e8dfd6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef885272e89706ec05cb6ab51b2eb47b" id="r_aef885272e89706ec05cb6ab51b2eb47b"><td class="memItemLeft" align="right" valign="top"><a id="aef885272e89706ec05cb6ab51b2eb47b" name="aef885272e89706ec05cb6ab51b2eb47b"></a>
-MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><b>loadAllFonts</b> (ImWchar *charRanges)</td></tr>
-<tr class="memdesc:aef885272e89706ec05cb6ab51b2eb47b"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all fonts using in ribbon menu <br /></td></tr>
+<tr class="memitem:acf93e10106173992a8391b7e12038700" id="r_acf93e10106173992a8391b7e12038700"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf93e10106173992a8391b7e12038700">RibbonFontManager</a> ()</td></tr>
+<tr class="separator:acf93e10106173992a8391b7e12038700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef885272e89706ec05cb6ab51b2eb47b" id="r_aef885272e89706ec05cb6ab51b2eb47b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef885272e89706ec05cb6ab51b2eb47b">loadAllFonts</a> (ImWchar *charRanges)</td></tr>
+<tr class="memdesc:aef885272e89706ec05cb6ab51b2eb47b"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all fonts using in ribbon menu  <br /></td></tr>
 <tr class="separator:aef885272e89706ec05cb6ab51b2eb47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3f9e2f7788079bfaece40298c022f53" id="r_ad3f9e2f7788079bfaece40298c022f53"><td class="memItemLeft" align="right" valign="top"><a id="ad3f9e2f7788079bfaece40298c022f53" name="ad3f9e2f7788079bfaece40298c022f53"></a>
-MRVIEWER_API ImFont *&#160;</td><td class="memItemRight" valign="bottom"><b>getFontByType</b> (FontType type) const</td></tr>
-<tr class="memdesc:ad3f9e2f7788079bfaece40298c022f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">get font by font type <br /></td></tr>
+<tr class="memitem:ad3f9e2f7788079bfaece40298c022f53" id="r_ad3f9e2f7788079bfaece40298c022f53"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f9e2f7788079bfaece40298c022f53">getFontByType</a> (<a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a> type) const</td></tr>
+<tr class="memdesc:ad3f9e2f7788079bfaece40298c022f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">get font by font type  <br /></td></tr>
 <tr class="separator:ad3f9e2f7788079bfaece40298c022f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af67d4ecfff6fa832444a2a214a3f471a" id="r_af67d4ecfff6fa832444a2a214a3f471a"><td class="memItemLeft" align="right" valign="top"><a id="af67d4ecfff6fa832444a2a214a3f471a" name="af67d4ecfff6fa832444a2a214a3f471a"></a>
-MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><b>getMenuFontPath</b> () const</td></tr>
-<tr class="memdesc:af67d4ecfff6fa832444a2a214a3f471a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get ribbon menu font path <br /></td></tr>
+<tr class="memitem:af67d4ecfff6fa832444a2a214a3f471a" id="r_af67d4ecfff6fa832444a2a214a3f471a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af67d4ecfff6fa832444a2a214a3f471a">getMenuFontPath</a> () const</td></tr>
+<tr class="memdesc:af67d4ecfff6fa832444a2a214a3f471a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get ribbon menu font path  <br /></td></tr>
 <tr class="separator:af67d4ecfff6fa832444a2a214a3f471a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5736661718edce158b7b07f4beca13e" id="r_aa5736661718edce158b7b07f4beca13e"><td class="memItemLeft" align="right" valign="top"><a id="aa5736661718edce158b7b07f4beca13e" name="aa5736661718edce158b7b07f4beca13e"></a>
-const FontFilePaths &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getAllFontPaths</b> () const</td></tr>
-<tr class="memdesc:aa5736661718edce158b7b07f4beca13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns list of all font paths <br /></td></tr>
+<tr class="memitem:aa5736661718edce158b7b07f4beca13e" id="r_aa5736661718edce158b7b07f4beca13e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5736661718edce158b7b07f4beca13e">getAllFontPaths</a> () const</td></tr>
+<tr class="memdesc:aa5736661718edce158b7b07f4beca13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns list of all font paths  <br /></td></tr>
 <tr class="separator:aa5736661718edce158b7b07f4beca13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea173f1a1a258e47371b455d842de8e" id="r_a7ea173f1a1a258e47371b455d842de8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea173f1a1a258e47371b455d842de8e">setNewFontPaths</a> (const FontFilePaths &amp;paths)</td></tr>
+<tr class="memitem:a7ea173f1a1a258e47371b455d842de8e" id="r_a7ea173f1a1a258e47371b455d842de8e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea173f1a1a258e47371b455d842de8e">setNewFontPaths</a> (const <a class="el" href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> &amp;paths)</td></tr>
 <tr class="separator:a7ea173f1a1a258e47371b455d842de8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d99ef9d5a6b87aaad1197070ab64af0" id="r_a0d99ef9d5a6b87aaad1197070ab64af0"><td class="memItemLeft" align="right" valign="top"><a id="a0d99ef9d5a6b87aaad1197070ab64af0" name="a0d99ef9d5a6b87aaad1197070ab64af0"></a>
-static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>getFontSizeByType</b> (FontType type)</td></tr>
-<tr class="memdesc:a0d99ef9d5a6b87aaad1197070ab64af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get font size by font type <br /></td></tr>
+<tr class="memitem:a0d99ef9d5a6b87aaad1197070ab64af0" id="r_a0d99ef9d5a6b87aaad1197070ab64af0"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d99ef9d5a6b87aaad1197070ab64af0">getFontSizeByType</a> (<a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a> type)</td></tr>
+<tr class="memdesc:a0d99ef9d5a6b87aaad1197070ab64af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get font size by font type  <br /></td></tr>
 <tr class="separator:a0d99ef9d5a6b87aaad1197070ab64af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a518edbd9a7eae398440e4c334020dcf5" id="r_a518edbd9a7eae398440e4c334020dcf5"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a518edbd9a7eae398440e4c334020dcf5">getFontByTypeStatic</a> (FontType type)</td></tr>
+<tr class="memitem:a518edbd9a7eae398440e4c334020dcf5" id="r_a518edbd9a7eae398440e4c334020dcf5"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a518edbd9a7eae398440e4c334020dcf5">getFontByTypeStatic</a> (<a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a> type)</td></tr>
 <tr class="separator:a518edbd9a7eae398440e4c334020dcf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5007fb2bb8bb0c50e9b8141d7c7b8a1d" id="r_a5007fb2bb8bb0c50e9b8141d7c7b8a1d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API FontAndSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5007fb2bb8bb0c50e9b8141d7c7b8a1d">getFontAndSizeByTypeStatic</a> (FontType type)</td></tr>
+<tr class="memitem:a5007fb2bb8bb0c50e9b8141d7c7b8a1d" id="r_a5007fb2bb8bb0c50e9b8141d7c7b8a1d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API FontAndSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5007fb2bb8bb0c50e9b8141d7c7b8a1d">getFontAndSizeByTypeStatic</a> (<a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a> type)</td></tr>
 <tr class="separator:a5007fb2bb8bb0c50e9b8141d7c7b8a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d18d71db7c19b02d1b5ad1bfe8f2aa8" id="r_a0d18d71db7c19b02d1b5ad1bfe8f2aa8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">initFontManagerInstance</a> (<a class="el" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a> *ribbonFontManager)</td></tr>
 <tr class="separator:a0d18d71db7c19b02d1b5ad1bfe8f2aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ab37a19ee9fe77c068e749dc7e8dfd6b2" name="ab37a19ee9fe77c068e749dc7e8dfd6b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">&#9670;&#160;</a></span>FontFilePaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">MR::RibbonFontManager::FontFilePaths</a> = std::array&lt;std::filesystem::path, size_t( <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9">FontFile::Count</a> )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a467cb9c5acd294f0d22ad2b2388f4ccb" name="a467cb9c5acd294f0d22ad2b2388f4ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467cb9c5acd294f0d22ad2b2388f4ccb">&#9670;&#160;</a></span>FontFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a467cb9c5acd294f0d22ad2b2388f4ccb">MR::RibbonFontManager::FontFile</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345" name="a467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345"></a>Regular&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e" name="a467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e"></a>RegularSC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a467cb9c5acd294f0d22ad2b2388f4ccba57da4df095766e2b4e9012d34ae8e221" name="a467cb9c5acd294f0d22ad2b2388f4ccba57da4df095766e2b4e9012d34ae8e221"></a>SemiBold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384" name="a467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384"></a>Monospace&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8" name="a467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8"></a>Icons&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9" name="a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aba42ec493818f2de36d60f069b34cee4" name="aba42ec493818f2de36d60f069b34cee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba42ec493818f2de36d60f069b34cee4">&#9670;&#160;</a></span>FontType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#aba42ec493818f2de36d60f069b34cee4">MR::RibbonFontManager::FontType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67" name="aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592" name="aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592"></a>Small&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4ab1ca34f82e83c52b010f86955f264e05" name="aba42ec493818f2de36d60f069b34cee4ab1ca34f82e83c52b010f86955f264e05"></a>Middle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4a57da4df095766e2b4e9012d34ae8e221" name="aba42ec493818f2de36d60f069b34cee4a57da4df095766e2b4e9012d34ae8e221"></a>SemiBold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8" name="aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8"></a>Icons&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3" name="aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3"></a>Big&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c" name="aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c"></a>BigSemiBold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0" name="aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0"></a>Headline&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384" name="aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384"></a>Monospace&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9" name="aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acf93e10106173992a8391b7e12038700" name="acf93e10106173992a8391b7e12038700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf93e10106173992a8391b7e12038700">&#9670;&#160;</a></span>RibbonFontManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API MR::RibbonFontManager::RibbonFontManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa5736661718edce158b7b07f4beca13e" name="aa5736661718edce158b7b07f4beca13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5736661718edce158b7b07f4beca13e">&#9670;&#160;</a></span>getAllFontPaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> &amp; MR::RibbonFontManager::getAllFontPaths </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns list of all font paths </p>
+
+</div>
+</div>
 <a id="a5007fb2bb8bb0c50e9b8141d7c7b8a1d" name="a5007fb2bb8bb0c50e9b8141d7c7b8a1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5007fb2bb8bb0c50e9b8141d7c7b8a1d">&#9670;&#160;</a></span>getFontAndSizeByTypeStatic()</h2>
 
@@ -234,7 +357,7 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
         <tr>
           <td class="memname">static MRVIEWER_API FontAndSize MR::RibbonFontManager::getFontAndSizeByTypeStatic </td>
           <td>(</td>
-          <td class="paramtype">FontType</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -245,6 +368,25 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
 </table>
 </div><div class="memdoc">
 <p>get font by font type (need to avoid dynamic cast menu to ribbon menu) </p>
+
+</div>
+</div>
+<a id="ad3f9e2f7788079bfaece40298c022f53" name="ad3f9e2f7788079bfaece40298c022f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f9e2f7788079bfaece40298c022f53">&#9670;&#160;</a></span>getFontByType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API ImFont * MR::RibbonFontManager::getFontByType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get font by font type </p>
 
 </div>
 </div>
@@ -260,7 +402,7 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
         <tr>
           <td class="memname">static MRVIEWER_API ImFont * MR::RibbonFontManager::getFontByTypeStatic </td>
           <td>(</td>
-          <td class="paramtype">FontType</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -271,6 +413,52 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
 </table>
 </div><div class="memdoc">
 <p>get font by font type (need to avoid dynamic cast menu to ribbon menu) </p>
+
+</div>
+</div>
+<a id="a0d99ef9d5a6b87aaad1197070ab64af0" name="a0d99ef9d5a6b87aaad1197070ab64af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d99ef9d5a6b87aaad1197070ab64af0">&#9670;&#160;</a></span>getFontSizeByType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API float MR::RibbonFontManager::getFontSizeByType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba42ec493818f2de36d60f069b34cee4">FontType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get font size by font type </p>
+
+</div>
+</div>
+<a id="af67d4ecfff6fa832444a2a214a3f471a" name="af67d4ecfff6fa832444a2a214a3f471a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af67d4ecfff6fa832444a2a214a3f471a">&#9670;&#160;</a></span>getMenuFontPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::filesystem::path MR::RibbonFontManager::getMenuFontPath </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get ribbon menu font path </p>
 
 </div>
 </div>
@@ -300,6 +488,25 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
 
 </div>
 </div>
+<a id="aef885272e89706ec05cb6ab51b2eb47b" name="aef885272e89706ec05cb6ab51b2eb47b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef885272e89706ec05cb6ab51b2eb47b">&#9670;&#160;</a></span>loadAllFonts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::RibbonFontManager::loadAllFonts </td>
+          <td>(</td>
+          <td class="paramtype">ImWchar *</td>          <td class="paramname"><span class="paramname"><em>charRanges</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>load all fonts using in ribbon menu </p>
+
+</div>
+</div>
 <a id="a7ea173f1a1a258e47371b455d842de8e" name="a7ea173f1a1a258e47371b455d842de8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ea173f1a1a258e47371b455d842de8e">&#9670;&#160;</a></span>setNewFontPaths()</h2>
 
@@ -309,7 +516,7 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
         <tr>
           <td class="memname">MRVIEWER_API void MR::RibbonFontManager::setNewFontPaths </td>
           <td>(</td>
-          <td class="paramtype">const FontFilePaths &amp;</td>          <td class="paramname"><span class="paramname"><em>paths</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#ab37a19ee9fe77c068e749dc7e8dfd6b2">FontFilePaths</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>paths</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -327,7 +534,7 @@ static MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><b>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

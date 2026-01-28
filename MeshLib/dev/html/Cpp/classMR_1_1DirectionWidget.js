@@ -1,7 +1,7 @@
 var classMR_1_1DirectionWidget =
 [
     [ "Arrow", "structMR_1_1DirectionWidget_1_1Arrow.html", "structMR_1_1DirectionWidget_1_1Arrow" ],
-    [ "ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", null ],
+    [ "ChangeDirAction", "classMR_1_1DirectionWidget_1_1ChangeDirAction.html", "classMR_1_1DirectionWidget_1_1ChangeDirAction" ],
     [ "ChangeVisibleAction", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html", "classMR_1_1DirectionWidget_1_1ChangeVisibleAction" ],
     [ "OnDirectionChangedCallback", "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275", null ],
     [ "create", "classMR_1_1DirectionWidget.html#a71d4351e8ab58f288d52351d11efb325", null ],
@@ -17,9 +17,11 @@ var classMR_1_1DirectionWidget =
     [ "getLocalLength", "classMR_1_1DirectionWidget.html#abda6f36244742f23c84a5e38c2d13d1b", null ],
     [ "getParentPtr", "classMR_1_1DirectionWidget.html#a4aba9720112d3e1c3b3b3e824211c962", null ],
     [ "isMouseBlocked", "classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028", null ],
+    [ "isVisible", "classMR_1_1DirectionWidget.html#a46d8141ed9672c79a97e527372067a9d", null ],
     [ "obj", "classMR_1_1DirectionWidget.html#aa6740ac9480b8cb2330ae4e01ff0b534", null ],
     [ "reset", "classMR_1_1DirectionWidget.html#a5a2acfb8fd29d43fee23934a66211193", null ],
     [ "setColor", "classMR_1_1DirectionWidget.html#a332d85c9b4078c99b321602470690461", null ],
+    [ "setMouseBlocked", "classMR_1_1DirectionWidget.html#aaacce6a74f1585b599a10bda3b361f5e", null ],
     [ "setOnDirectionChangedCallback", "classMR_1_1DirectionWidget.html#a67a12d304a83009a1db343a406e4f46e", null ],
     [ "setVisible", "classMR_1_1DirectionWidget.html#a2f9a3921002f4bf6b9fccd0e978e48c9", null ],
     [ "updateArrow", "classMR_1_1DirectionWidget.html#ae541308fd431b72330eecbe49bd76a59", null ],

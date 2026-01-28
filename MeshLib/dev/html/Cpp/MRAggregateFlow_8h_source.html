@@ -148,14 +148,14 @@ $(function(){initNavTree('MRAggregateFlow_8h_source.html',''); initResizable(tru
   <div class="headertitle"><div class="title">MRAggregateFlow.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRAggregateFlow_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshTriPoint.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRVector.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRPolyline.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector_8h.html">MRVector.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRPolyline_8h.html">MRPolyline.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>FlowOrigin</div>
@@ -174,13 +174,13 @@ $(function(){initNavTree('MRAggregateFlow_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">class </span>FlowAggregator</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    MRMESH_API <a class="code hl_functionRef" href="../Csharp/classMR_1_1FlowAggregator.html#adfae61e01263aed18ad1d37cd41a7063">FlowAggregator</a>( <span class="keyword">const</span> Mesh &amp; mesh, <span class="keyword">const</span> VertScalars &amp; heights );</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_functionRef" href="../Csharp/classMR_1_1FlowAggregator.html#adfae61e01263aed18ad1d37cd41a7063">FlowAggregator</a>( <span class="keyword">const</span> Mesh &amp; mesh, <span class="keyword">const</span> VertScalars &amp; heights );</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    MRMESH_API VertScalars computeFlow( <span class="keyword">const</span> std::vector&lt;FlowOrigin&gt; &amp; starts, <span class="keyword">const</span> OutputFlows &amp; out = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars computeFlow( <span class="keyword">const</span> std::vector&lt;FlowOrigin&gt; &amp; starts, <span class="keyword">const</span> OutputFlows &amp; out = {} ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// same with all amounts equal to 1</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    MRMESH_API VertScalars computeFlow( <span class="keyword">const</span> std::vector&lt;MeshTriPoint&gt; &amp; starts, <span class="keyword">const</span> OutputFlows &amp; out = {} ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars computeFlow( <span class="keyword">const</span> std::vector&lt;MeshTriPoint&gt; &amp; starts, <span class="keyword">const</span> OutputFlows &amp; out = {} ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="comment">// general version that supplies starts in a functional way</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    MRMESH_API VertScalars computeFlow( <span class="keywordtype">size_t</span> numStarts,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars computeFlow( <span class="keywordtype">size_t</span> numStarts,</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keyword">const</span> std::function&lt;MeshTriPoint(<span class="keywordtype">size_t</span>)&gt; &amp; startById, </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keyword">const</span> std::function&lt;<span class="keywordtype">float</span>(<span class="keywordtype">size_t</span>)&gt; &amp; amountById,</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keyword">const</span> std::function&lt;<span class="keyword">const</span> FaceBitSet*(<span class="keywordtype">size_t</span>)&gt; &amp; regionById, </div>
@@ -189,20 +189,20 @@ $(function(){initNavTree('MRAggregateFlow_8h_source.html',''); initResizable(tru
 <div class="foldopen" id="foldopen00049" data-start="{" data-end="};">
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="structMR_1_1FlowAggregator_1_1Flows.html">   49</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FlowAggregator_1_1Flows.html">Flows</a></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_classRef" href="../Csharp/classMR_1_1Polyline3.html">Polyline3</a> polyline;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> flowPerEdge;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structMR_1_1FlowAggregator_1_1Flows.html#ace1c7b358cce696bd6d7409cc71984d1">   51</a></span>        <a class="code hl_classRef" href="../Csharp/classMR_1_1Polyline3.html">Polyline3</a> <a class="code hl_variable" href="structMR_1_1FlowAggregator_1_1Flows.html#ace1c7b358cce696bd6d7409cc71984d1">polyline</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="structMR_1_1FlowAggregator_1_1Flows.html#a1b00cb5cc3b4966d2b6b9b009a6ed153">   52</a></span>        <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> <a class="code hl_variable" href="structMR_1_1FlowAggregator_1_1Flows.html#a1b00cb5cc3b4966d2b6b9b009a6ed153">flowPerEdge</a>;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    };</div>
 </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    MRMESH_API HashMap&lt;VertId, Flows&gt; computeFlowsPerBasin( <span class="keyword">const</span> std::vector&lt;FlowOrigin&gt; &amp; starts ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> HashMap&lt;VertId, Flows&gt; computeFlowsPerBasin( <span class="keyword">const</span> std::vector&lt;FlowOrigin&gt; &amp; starts ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">// same with all amounts equal to 1</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    MRMESH_API HashMap&lt;VertId, Flows&gt; computeFlowsPerBasin( <span class="keyword">const</span> std::vector&lt;MeshTriPoint&gt; &amp; starts ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> HashMap&lt;VertId, Flows&gt; computeFlowsPerBasin( <span class="keyword">const</span> std::vector&lt;MeshTriPoint&gt; &amp; starts ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="comment">// general version that supplies starts in a functional way</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    MRMESH_API HashMap&lt;VertId, Flows&gt; computeFlowsPerBasin( <span class="keywordtype">size_t</span> numStarts,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> HashMap&lt;VertId, Flows&gt; computeFlowsPerBasin( <span class="keywordtype">size_t</span> numStarts,</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keyword">const</span> std::function&lt;<a class="code hl_classRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a>(<span class="keywordtype">size_t</span>)&gt; &amp; startById, </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keyword">const</span> std::function&lt;<span class="keywordtype">float</span>(<span class="keywordtype">size_t</span>)&gt; &amp; amountById ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    [[nodiscard]] MRMESH_API <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> computeCatchmentDelineation() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> computeCatchmentDelineation() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp; mesh_;</div>
@@ -214,6 +214,10 @@ $(function(){initNavTree('MRAggregateFlow_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMeshTriPoint_8h_html"><div class="ttname"><a href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a></div></div>
+<div class="ttc" id="aMRPolyline_8h_html"><div class="ttname"><a href="MRPolyline_8h.html">MRPolyline.h</a></div></div>
+<div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FlowAggregator_html_adfae61e01263aed18ad1d37cd41a7063"><div class="ttname"><a href="../Csharp/classMR_1_1FlowAggregator.html#adfae61e01263aed18ad1d37cd41a7063">MR::FlowAggregator::FlowAggregator</a></div><div class="ttdeci">unsafe FlowAggregator(MR._ByValue_FlowAggregator _other)</div></div>
 <div class="ttc" id="aclassMR_1_1FlowOrigin_html_a15fa5600549d1f24c4149b379cae905e"><div class="ttname"><a href="../Csharp/classMR_1_1FlowOrigin.html#a15fa5600549d1f24c4149b379cae905e">MR::FlowOrigin::amount</a></div><div class="ttdeci">new unsafe ref float amount</div></div>
 <div class="ttc" id="aclassMR_1_1FlowOrigin_html_a3692c42d79ae9584e8cd093ab67d2a03"><div class="ttname"><a href="../Csharp/classMR_1_1FlowOrigin.html#a3692c42d79ae9584e8cd093ab67d2a03">MR::FlowOrigin::point</a></div><div class="ttdeci">new unsafe MR.MeshTriPoint point</div></div>
@@ -228,15 +232,17 @@ $(function(){initNavTree('MRAggregateFlow_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1VertMap_html"><div class="ttname"><a href="../Csharp/classMR_1_1VertMap.html">MR::VertMap</a></div></div>
 <div class="ttc" id="aclassMR_1_1VertScalars_html"><div class="ttname"><a href="../Csharp/classMR_1_1VertScalars.html">MR::VertScalars</a></div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FlowAggregator_1_1Flows_html"><div class="ttname"><a href="structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></div><div class="ttdef"><b>Definition</b> MRAggregateFlow.h:50</div></div>
+<div class="ttc" id="astructMR_1_1FlowAggregator_1_1Flows_html_a1b00cb5cc3b4966d2b6b9b009a6ed153"><div class="ttname"><a href="structMR_1_1FlowAggregator_1_1Flows.html#a1b00cb5cc3b4966d2b6b9b009a6ed153">MR::FlowAggregator::Flows::flowPerEdge</a></div><div class="ttdeci">UndirectedEdgeScalars flowPerEdge</div><div class="ttdef"><b>Definition</b> MRAggregateFlow.h:52</div></div>
+<div class="ttc" id="astructMR_1_1FlowAggregator_1_1Flows_html_ace1c7b358cce696bd6d7409cc71984d1"><div class="ttname"><a href="structMR_1_1FlowAggregator_1_1Flows.html#ace1c7b358cce696bd6d7409cc71984d1">MR::FlowAggregator::Flows::polyline</a></div><div class="ttdeci">Polyline3 polyline</div><div class="ttdef"><b>Definition</b> MRAggregateFlow.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRAggregateFlow.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRAggregateFlow_8h.html">MRAggregateFlow.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

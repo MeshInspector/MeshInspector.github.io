@@ -148,17 +148,17 @@ $(function(){initNavTree('MRBasinVolume_8h_source.html',''); initResizable(true)
   <div class="headertitle"><div class="title">MRBasinVolume.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRBasinVolume_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span>BasinVolumeCalculator</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    MRMESH_API <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1BasinVolumeCalculator.html#a92f9bdf4461453d1bc6500d4a5463652">addTerrainTri</a>( Triangle3f t, <span class="keywordtype">float</span> level );</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1BasinVolumeCalculator.html#a92f9bdf4461453d1bc6500d4a5463652">addTerrainTri</a>( Triangle3f t, <span class="keywordtype">float</span> level );</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    [[nodiscard]] <span class="keywordtype">double</span> getVolume()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> sum_ / 6; }</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
@@ -166,19 +166,23 @@ $(function(){initNavTree('MRBasinVolume_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">double</span> sum_ = 0;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>[[nodiscard]] MRMESH_API <span class="keywordtype">double</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a011b438ec30026164cea6def62f94de2">computeBasinVolume</a>( <span class="keyword">const</span> Mesh&amp; mesh, <span class="keyword">const</span> FaceBitSet&amp; faces, <span class="keywordtype">float</span> level );</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespaceMR.html#af2a8e4d15f275db7aee166a70fe3c11c">   26</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">double</span> <a class="code hl_function" href="namespaceMR.html#af2a8e4d15f275db7aee166a70fe3c11c">computeBasinVolume</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a>&amp; faces, <span class="keywordtype">float</span> level );</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aclassMR_1_1BasinVolumeCalculator_html_a92f9bdf4461453d1bc6500d4a5463652"><div class="ttname"><a href="../Csharp/classMR_1_1BasinVolumeCalculator.html#a92f9bdf4461453d1bc6500d4a5463652">MR::BasinVolumeCalculator::addTerrainTri</a></div><div class="ttdeci">unsafe bool addTerrainTri(MR.Std.Array_MRVector3f_3 t, float level)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a011b438ec30026164cea6def62f94de2"><div class="ttname"><a href="../Csharp/classMR.html#a011b438ec30026164cea6def62f94de2">MR::computeBasinVolume</a></div><div class="ttdeci">static unsafe double computeBasinVolume(MR.Const_Mesh mesh, MR.Const_FaceBitSet faces, float level)</div></div>
+<div class="ttc" id="aclassMR_1_1FaceBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1FaceBitSet.html">MR::FaceBitSet</a></div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_af2a8e4d15f275db7aee166a70fe3c11c"><div class="ttname"><a href="namespaceMR.html#af2a8e4d15f275db7aee166a70fe3c11c">MR::computeBasinVolume</a></div><div class="ttdeci">MRMESH_API double computeBasinVolume(const Mesh &amp;mesh, const FaceBitSet &amp;faces, float level)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRBasinVolume.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRBasinVolume_8h.html">MRBasinVolume.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

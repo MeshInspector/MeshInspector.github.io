@@ -1,5 +1,6 @@
 var classMR_1_1FixUndercuts =
 [
+    [ "UndercutMetric", "../Cpp/namespaceMR_1_1FixUndercuts.html#afb7dbf2667211aa9d31565ef2d4ad13d", null ],
     [ "distMapImproveDirection", "classMR_1_1FixUndercuts.html#a3298ccc305ef370df07890656513eb12", null ],
     [ "find", "classMR_1_1FixUndercuts.html#a19361a65fe7c8618513552f75da3649c", null ],
     [ "find", "classMR_1_1FixUndercuts.html#a92bd929ec1b2758b5bc393293ad091e4", null ],

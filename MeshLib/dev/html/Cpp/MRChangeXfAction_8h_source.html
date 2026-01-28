@@ -148,13 +148,13 @@ $(function(){initNavTree('MRChangeXfAction_8h_source.html',''); initResizable(tr
   <div class="headertitle"><div class="title">MRChangeXfAction.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRHistoryAction.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRObject.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRAffineXf3.h&quot;</span></div>
+<a href="MRChangeXfAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRObject_8h.html">MRObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRAffineXf3_8h.html">MRAffineXf3.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>ChangeXfAction : <span class="keyword">public</span> HistoryAction</div>
@@ -163,20 +163,20 @@ $(function(){initNavTree('MRChangeXfAction_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892">ChangeXfAction</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        obj_{ obj },</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        xf_{ obj-&gt;xf() },</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_{ name }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_{ <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892">ChangeXfAction</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; obj, <span class="keyword">const</span> AffineXf3f&amp; newXf ) :</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        obj_{ obj },</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        xf_{ obj-&gt;xf() },</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        name_{ name }</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        name_{ <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">if</span> ( obj_ )</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            obj_-&gt;setXf( newXf );</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
@@ -207,16 +207,20 @@ $(function(){initNavTree('MRChangeXfAction_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
+<div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
+<div class="ttc" id="aMRObject_8h_html"><div class="ttname"><a href="MRObject_8h.html">MRObject.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeXfAction_html_a41ccc6603a8b6a7d46cedf10de7f570b"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeXfAction.html#a41ccc6603a8b6a7d46cedf10de7f570b">MR::ChangeXfAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type _1)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeXfAction_html_acb1b4d5b560d1d94f02450e08f399892"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892">MR::ChangeXfAction::ChangeXfAction</a></div><div class="ttdeci">unsafe ChangeXfAction(MR._ByValue_ChangeXfAction _other)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1Features_html_a1f7d6b7fed16c703a284c2013da802e2"><div class="ttname"><a href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">MR::Features::name</a></div><div class="ttdeci">std::string name(const T &amp;primitive)</div><div class="ttdef"><b>Definition</b> MRFeatures.h:309</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRChangeXfAction.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRChangeXfAction_8h.html">MRChangeXfAction.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

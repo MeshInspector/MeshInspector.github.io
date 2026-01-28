@@ -148,15 +148,15 @@ $(function(){initNavTree('MRRebuildMesh_8h_source.html',''); initResizable(true)
   <div class="headertitle"><div class="title">MRRebuildMesh.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRRebuildMesh_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVoxelsFwd.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMesh/MRMeshPart.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRMesh/MRExpected.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRMesh/MREnums.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRMesh/MRSignDetectionMode.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshPart_8h.html">MRMesh/MRMeshPart.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MREnums_8h.html">MRMesh/MREnums.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRSignDetectionMode_8h.html">MRMesh/MRSignDetectionMode.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>RebuildMeshSettings</div>
@@ -188,9 +188,17 @@ $(function(){initNavTree('MRRebuildMesh_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::function&lt;void(SignDetectionMode)&gt; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1RebuildMeshSettings.html#a47a6cfa3cba3da511c4030ab5bd63e37">onSignDetectionModeSelected</a>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>[[nodiscard]] MRVOXELS_API Expected&lt;Mesh&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a4b0db30e86821abcdb5d2d088f815556">rebuildMesh</a>( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keyword">const</span> RebuildMeshSettings&amp; settings );</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="namespaceMR.html#ae3f5900ab5832382ad11410977098452">   65</a></span>[[nodiscard]] <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Expected&lt;Mesh&gt; <a class="code hl_function" href="namespaceMR.html#ae3f5900ab5832382ad11410977098452">rebuildMesh</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a>&amp; mp, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1RebuildMeshSettings.html">RebuildMeshSettings</a>&amp; settings );</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
+<div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
+<div class="ttc" id="aMRSignDetectionMode_8h_html"><div class="ttname"><a href="MRSignDetectionMode_8h.html">MRSignDetectionMode.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
+<div class="ttc" id="aclassMR_1_1MeshPart_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a></div></div>
+<div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></div><div class="ttdef"><b>Definition</b> MRRebuildMesh.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html_a25c06468022502c806bc59c208cbce23"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html#a25c06468022502c806bc59c208cbce23">MR::RebuildMeshSettings::progress</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat progress</div></div>
 <div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html_a2ece5739c2508a4979af93b06d90b2c3"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html#a2ece5739c2508a4979af93b06d90b2c3">MR::RebuildMeshSettings::outSharpEdges</a></div><div class="ttdeci">new unsafe MR.? UndirectedEdgeBitSet outSharpEdges</div></div>
 <div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html_a311e9844f73510dabf2388f36c2257f7"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html#a311e9844f73510dabf2388f36c2257f7">MR::RebuildMeshSettings::fwn</a></div><div class="ttdeci">new unsafe MR.IFastWindingNumber fwn</div></div>
@@ -202,15 +210,15 @@ $(function(){initNavTree('MRRebuildMesh_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html_af0dbcaf69ab86fdf8ff783a07dfd2ed0"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html#af0dbcaf69ab86fdf8ff783a07dfd2ed0">MR::RebuildMeshSettings::preSubdivide</a></div><div class="ttdeci">new unsafe ref bool preSubdivide</div></div>
 <div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html_af1e76cc18b9192228272bd52eda483e5"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html#af1e76cc18b9192228272bd52eda483e5">MR::RebuildMeshSettings::windingNumberThreshold</a></div><div class="ttdeci">new unsafe ref float windingNumberThreshold</div></div>
 <div class="ttc" id="aclassMR_1_1RebuildMeshSettings_html_af6b0bfd14a1bdf91361c18092958818c"><div class="ttname"><a href="../Csharp/classMR_1_1RebuildMeshSettings.html#af6b0bfd14a1bdf91361c18092958818c">MR::RebuildMeshSettings::voxelSize</a></div><div class="ttdeci">new unsafe ref float voxelSize</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a4b0db30e86821abcdb5d2d088f815556"><div class="ttname"><a href="../Csharp/classMR.html#a4b0db30e86821abcdb5d2d088f815556">MR::rebuildMesh</a></div><div class="ttdeci">static unsafe MR.Mesh rebuildMesh(MR.Const_MeshPart mp, MR.Const_RebuildMeshSettings settings)</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_ae3f5900ab5832382ad11410977098452"><div class="ttname"><a href="namespaceMR.html#ae3f5900ab5832382ad11410977098452">MR::rebuildMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; rebuildMesh(const MeshPart &amp;mp, const RebuildMeshSettings &amp;settings)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><b>MRRebuildMesh.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_0548e20a3bcd59381bf0bdb32f67cd97.html">MRVoxels</a></li><li class="navelem"><a class="el" href="MRRebuildMesh_8h.html">MRRebuildMesh.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

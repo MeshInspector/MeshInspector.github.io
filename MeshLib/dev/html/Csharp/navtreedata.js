@@ -121,11 +121,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"classMR.html#a23039389de154996fb3f6ecb7153b481",
+"classMR.html#a22adb75ebaff91cdb5159f104b26ea5ea68be4837f6c739877233e527a996dd00",
 "classMR.html#a53549a2b8d701e1dc6522dc3c126a943",
-"classMR.html#a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9",
-"classMR.html#ab75ba536145e2c152d05abc39a879b52",
-"classMR.html#ae6094b1156744b6776e681af89178d32",
+"classMR.html#a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0",
+"classMR.html#ab7886c63e2f13306ed98c13acf8acb47",
+"classMR.html#ae5f9325574818a883684e25b1364d60a",
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a9fc53fdbd88dcd3535ae52099cee94f7",
 "classMR_1_1Box__AffineXf2d.html#ac3c49ab5cf22727f0ef7416e51c5da4e",
 "classMR_1_1Box__Matrix2b.html#a769890adf66a0d16547281f801589fc9",
@@ -274,13 +274,15 @@ var NAVTREEINDEX =
 "classMR_1_1__InOptMut__ImproveSamplingSettings.html",
 "classMR_1_1__InOptMut__PolylineProjectionWithOffsetResult3.html",
 "classMR_1_1__InOptMut__ViewportProperty__UnsignedChar.html",
-"structMR_1_1Box1i.html#a3ff27a1c469d7fabc7dad75f5f2cfc9a",
-"structMR_1_1Box3i.html#a3d265dd833807fb747d9ec4e4741dbe4",
-"structMR_1_1Matrix2f.html#a7059115b42cca92c737c51930d7264da",
-"structMR_1_1Matrix3i64.html#a81c796340e4c7bb540630489afa4f8b0",
-"structMR_1_1ObjId.html#a3471ccc3c8ffbde9261f701bb33d579c",
-"structMR_1_1Vector2f.html#af05b53c616787f289c0a41a299b1406f",
-"structMR_1_1Vector4d.html#a41aa7559c5674e00c94558b149945df6"
+"namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936",
+"namespaceMR.html#ad9aaf9760f28ddb9fb832eab131b7bcc",
+"structMR_1_1Box1i64.html#a854c554a416a2496f244db659c9fc3dd",
+"structMR_1_1Box3i64.html#a916e7802f5a76a775392adafca0b63e4",
+"structMR_1_1Matrix2i.html#a71473dff6cbcd6f542fe3fb3042dc827",
+"structMR_1_1Matrix4b.html#abe9e5a77e5b470fb7cbee32d6e3d0285",
+"structMR_1_1PtrObjId.html",
+"structMR_1_1Vector2i64.html#a33eee3f1c36572ea63cede5a02df5125",
+"structMR_1_1Vector4f.html#ad4b4f5aeb7cff4281125d3f776d22ccc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -148,15 +148,15 @@ $(function(){initNavTree('MROutlierPoints_8h_source.html',''); initResizable(tru
   <div class="headertitle"><div class="title">MROutlierPoints.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMesh/MRExpected.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRUnionFind.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRBitSet.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRConstants.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRFlagOperators.h&quot;</span></div>
+<a href="MROutlierPoints_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRUnionFind_8h.html">MRUnionFind.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRConstants_8h.html">MRConstants.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRFlagOperators_8h.html">MRFlagOperators.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>OutlierParams</div>
@@ -173,24 +173,24 @@ $(function(){initNavTree('MROutlierPoints_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    WeaklyConnected = 1 &lt;&lt; 1, </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    FarSurface = 1 &lt;&lt; 2, </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    AwayNormal = 1 &lt;&lt; 3, </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    All = SmallComponents | WeaklyConnected | FarSurface | AwayNormal</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = SmallComponents | WeaklyConnected | FarSurface | AwayNormal</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>MR_MAKE_FLAG_OPERATORS( OutlierTypeMask )</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><a class="code hl_define" href="MRFlagOperators_8h.html#afbd9348d27fb58bbb0befb3db34fab6a">MR_MAKE_FLAG_OPERATORS</a>( OutlierTypeMask )</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">class </span>MRMESH_CLASS OutliersDetector</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">class </span><a class="code hl_define" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> OutliersDetector</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    OutliersDetector() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    MRMESH_API Expected&lt;void&gt; prepare( <span class="keyword">const</span> PointCloud&amp; pc, <span class="keywordtype">float</span> radius, OutlierTypeMask mask, ProgressCallback progress = {} ); <span class="comment">// calculate caches</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;void&gt; prepare( <span class="keyword">const</span> PointCloud&amp; pc, <span class="keywordtype">float</span> radius, OutlierTypeMask mask, ProgressCallback progress = {} ); <span class="comment">// calculate caches</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    MRMESH_API <span class="keywordtype">void</span> setParams( <span class="keyword">const</span> OutlierParams&amp; params );</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    MRMESH_API <span class="keyword">const</span> OutlierParams&amp; getParams()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_; }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setParams( <span class="keyword">const</span> OutlierParams&amp; params );</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> OutlierParams&amp; getParams()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> params_; }</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    MRMESH_API Expected&lt;VertBitSet&gt; find( OutlierTypeMask mask, ProgressCallback progress = {} ); <span class="comment">// unite and calculate actual outliers</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;VertBitSet&gt; <a class="code hl_function" href="namespaceMR_1_1FixUndercuts.html#aab7f74dcecd9e3401fed6751e0b70e1a">find</a>( OutlierTypeMask mask, ProgressCallback progress = {} ); <span class="comment">// unite and calculate actual outliers</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    MRMESH_API <span class="keyword">const</span> std::vector&lt;uint8_t&gt;&amp; getWeaklyConnectedStat() { <span class="keywordflow">return</span> weaklyConnectedStat_; }</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> std::vector&lt;uint8_t&gt;&amp; getWeaklyConnectedStat() { <span class="keywordflow">return</span> weaklyConnectedStat_; }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    Expected&lt;VertBitSet&gt; findSmallComponents( ProgressCallback progress = {} );</div>
@@ -222,9 +222,19 @@ $(function(){initNavTree('MROutlierPoints_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    ProgressCallback progress = {}; </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>};</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>MRMESH_API Expected&lt;VertBitSet&gt; <a class="code hl_functionRef" href="../Csharp/classMR.html#a27bf2c0b9934d2e218338a55977b4acd">findOutliers</a>( <span class="keyword">const</span> PointCloud&amp; pc, <span class="keyword">const</span> FindOutliersParams&amp; params );</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17">   97</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;VertBitSet&gt; <a class="code hl_function" href="namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17">findOutliers</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointCloud.html">PointCloud</a>&amp; pc, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1FindOutliersParams.html">FindOutliersParams</a>&amp; params );</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>}</div>
+<div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
+<div class="ttc" id="aMRFlagOperators_8h_html"><div class="ttname"><a href="MRFlagOperators_8h.html">MRFlagOperators.h</a></div></div>
+<div class="ttc" id="aMRFlagOperators_8h_html_afbd9348d27fb58bbb0befb3db34fab6a"><div class="ttname"><a href="MRFlagOperators_8h.html#afbd9348d27fb58bbb0befb3db34fab6a">MR_MAKE_FLAG_OPERATORS</a></div><div class="ttdeci">#define MR_MAKE_FLAG_OPERATORS(T)</div><div class="ttdef"><b>Definition</b> MRFlagOperators.h:6</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
+<div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
+<div class="ttc" id="aMRUnionFind_8h_html"><div class="ttname"><a href="MRUnionFind_8h.html">MRUnionFind.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1FindOutliersParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1FindOutliersParams.html">MR::FindOutliersParams</a></div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:87</div></div>
 <div class="ttc" id="aclassMR_1_1FindOutliersParams_html_a0a63ee3aba2a9eb01995a74cf11f7879"><div class="ttname"><a href="../Csharp/classMR_1_1FindOutliersParams.html#a0a63ee3aba2a9eb01995a74cf11f7879">MR::FindOutliersParams::finderParams</a></div><div class="ttdeci">new unsafe MR.OutlierParams finderParams</div></div>
 <div class="ttc" id="aclassMR_1_1FindOutliersParams_html_aa603fcda68b76482ab300b2d27701348"><div class="ttname"><a href="../Csharp/classMR_1_1FindOutliersParams.html#aa603fcda68b76482ab300b2d27701348">MR::FindOutliersParams::mask</a></div><div class="ttdeci">new unsafe ref MR.OutlierTypeMask mask</div></div>
 <div class="ttc" id="aclassMR_1_1FindOutliersParams_html_ac44467beec2aeb25c4fc67154e94e982"><div class="ttname"><a href="../Csharp/classMR_1_1FindOutliersParams.html#ac44467beec2aeb25c4fc67154e94e982">MR::FindOutliersParams::radius</a></div><div class="ttdeci">new unsafe ref float radius</div></div>
@@ -232,16 +242,19 @@ $(function(){initNavTree('MROutlierPoints_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aclassMR_1_1OutlierParams_html_a745993883e4d84fb0d11a9b988f83c2e"><div class="ttname"><a href="../Csharp/classMR_1_1OutlierParams.html#a745993883e4d84fb0d11a9b988f83c2e">MR::OutlierParams::minHeight</a></div><div class="ttdeci">new unsafe ref float minHeight</div></div>
 <div class="ttc" id="aclassMR_1_1OutlierParams_html_a7bfa46ba4f09ac1665aac522898cb2b1"><div class="ttname"><a href="../Csharp/classMR_1_1OutlierParams.html#a7bfa46ba4f09ac1665aac522898cb2b1">MR::OutlierParams::maxNeighbors</a></div><div class="ttdeci">new unsafe ref int maxNeighbors</div></div>
 <div class="ttc" id="aclassMR_1_1OutlierParams_html_af3184d787d43b01c1d66c9e651d211e6"><div class="ttname"><a href="../Csharp/classMR_1_1OutlierParams.html#af3184d787d43b01c1d66c9e651d211e6">MR::OutlierParams::maxClusterSize</a></div><div class="ttdeci">new unsafe ref int maxClusterSize</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a27bf2c0b9934d2e218338a55977b4acd"><div class="ttname"><a href="../Csharp/classMR.html#a27bf2c0b9934d2e218338a55977b4acd">MR::findOutliers</a></div><div class="ttdeci">static unsafe MR.VertBitSet findOutliers(MR.Const_PointCloud pc, MR.Const_FindOutliersParams params_)</div></div>
+<div class="ttc" id="aclassMR_1_1PointCloud_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
 <div class="ttc" id="aclassMR_html_aba5d1f481147b18098cbddd20dbf9255"><div class="ttname"><a href="../Csharp/classMR.html#aba5d1f481147b18098cbddd20dbf9255">MR::OutlierTypeMask</a></div><div class="ttdeci">OutlierTypeMask</div></div>
+<div class="ttc" id="anamespaceImGui_html_a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680">ImGui::PaletteChanges::All</a></div><div class="ttdeci">@ All</div></div>
+<div class="ttc" id="anamespaceMR_1_1FixUndercuts_html_aab7f74dcecd9e3401fed6751e0b70e1a"><div class="ttname"><a href="namespaceMR_1_1FixUndercuts.html#aab7f74dcecd9e3401fed6751e0b70e1a">MR::FixUndercuts::find</a></div><div class="ttdeci">MRVOXELS_API double find(const Mesh &amp;mesh, const FindParams &amp;params, FaceBitSet &amp;outUndercuts, const UndercutMetric &amp;metric={})</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a83c915f7d70a05ed28c1dbf2186f4b17"><div class="ttname"><a href="namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17">MR::findOutliers</a></div><div class="ttdeci">MRMESH_API Expected&lt; VertBitSet &gt; findOutliers(const PointCloud &amp;pc, const FindOutliersParams &amp;params)</div><div class="ttdoc">Finding outlier points.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MROutlierPoints.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MROutlierPoints_8h.html">MROutlierPoints.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

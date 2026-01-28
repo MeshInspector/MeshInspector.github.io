@@ -148,11 +148,11 @@ $(function(){initNavTree('MRDipole_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRDipole.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRDipole_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">struct </span>Dipole</div>
@@ -168,30 +168,38 @@ $(function(){initNavTree('MRDipole_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">if</span> ( dd &lt;= betaSq * rr )</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordflow">if</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> d = std::sqrt( dd ); d &gt; 0 )</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            addTo += dot( dp, dirArea ) / ( d * dd );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            addTo += <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a3f43152e36719d28d8b49136d8b29fe6">dot</a>( dp, dirArea ) / ( d * dd );</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">static_assert</span>( <span class="keyword">sizeof</span>( Dipole ) == 8 * <span class="keyword">sizeof</span>( <span class="keywordtype">float</span> ) );</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#acec61d8702c54a9a100573ebaa8111f0">calcDipoles</a>( Dipoles&amp; dipoles, <span class="keyword">const</span> AABBTree&amp; tree, <span class="keyword">const</span> Mesh&amp; mesh );</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>[[nodiscard]] MRMESH_API Dipoles <a class="code hl_functionRef" href="../Csharp/classMR.html#acec61d8702c54a9a100573ebaa8111f0">calcDipoles</a>( <span class="keyword">const</span> AABBTree&amp; tree, <span class="keyword">const</span> Mesh&amp; mesh );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">   33</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">calcDipoles</a>( <a class="code hl_classRef" href="../Csharp/classMR_1_1Dipoles.html">Dipoles</a>&amp; dipoles, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1AABBTree.html">AABBTree</a>&amp; tree, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh );</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespaceMR.html#a0b97af3090cdd24b2080c19142252e80">   34</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_classRef" href="../Csharp/classMR_1_1Dipoles.html">Dipoles</a> <a class="code hl_function" href="namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">calcDipoles</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1AABBTree.html">AABBTree</a>&amp; tree, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh );</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>[[nodiscard]] MRMESH_API <span class="keywordtype">float</span> <a class="code hl_functionRef" href="../Csharp/classMR.html#a57ec6c4e79e8c196de9e7cffc82343c1">calcFastWindingNumber</a>( <span class="keyword">const</span> Dipoles&amp; dipoles, <span class="keyword">const</span> AABBTree&amp; tree, <span class="keyword">const</span> Mesh&amp; mesh,</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> Vector3f &amp; q, <span class="keywordtype">float</span> beta, FaceId skipFace );</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0">   40</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">float</span> <a class="code hl_function" href="namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0">calcFastWindingNumber</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Dipoles.html">Dipoles</a>&amp; dipoles, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1AABBTree.html">AABBTree</a>&amp; tree, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a>&amp; mesh,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp; q, <span class="keywordtype">float</span> beta, <a class="code hl_structRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> skipFace );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
-<div class="ttc" id="aclassMR_html_a57ec6c4e79e8c196de9e7cffc82343c1"><div class="ttname"><a href="../Csharp/classMR.html#a57ec6c4e79e8c196de9e7cffc82343c1">MR::calcFastWindingNumber</a></div><div class="ttdeci">static unsafe float calcFastWindingNumber(MR.Const_Dipoles dipoles, MR.Const_AABBTree tree, MR.Const_Mesh mesh, in MR.Vector3f q, float beta, MR.FaceId skipFace)</div></div>
-<div class="ttc" id="aclassMR_html_acec61d8702c54a9a100573ebaa8111f0"><div class="ttname"><a href="../Csharp/classMR.html#acec61d8702c54a9a100573ebaa8111f0">MR::calcDipoles</a></div><div class="ttdeci">static unsafe void calcDipoles(MR.Dipoles dipoles, MR.Const_AABBTree tree, MR.Const_Mesh mesh)</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1AABBTree_html"><div class="ttname"><a href="../Csharp/classMR_1_1AABBTree.html">MR::AABBTree</a></div><div class="ttdef"><b>Definition</b> MRAABBTree.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1Dipoles_html"><div class="ttname"><a href="../Csharp/classMR_1_1Dipoles.html">MR::Dipoles</a></div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_aaab44aa4df541376791cff0c6b1c60f0"><div class="ttname"><a href="namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0">MR::calcFastWindingNumber</a></div><div class="ttdeci">MRMESH_API float calcFastWindingNumber(const Dipoles &amp;dipoles, const AABBTree &amp;tree, const Mesh &amp;mesh, const Vector3f &amp;q, float beta, FaceId skipFace)</div></div>
+<div class="ttc" id="anamespaceMR_html_abb1e0bf1a4c242908e10db3d858a3260"><div class="ttname"><a href="namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">MR::calcDipoles</a></div><div class="ttdeci">MRMESH_API void calcDipoles(Dipoles &amp;dipoles, const AABBTree &amp;tree, const Mesh &amp;mesh)</div><div class="ttdoc">calculates dipoles for given mesh and AABB-tree</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a3f43152e36719d28d8b49136d8b29fe6"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a3f43152e36719d28d8b49136d8b29fe6">mrmeshpy::dot</a></div><div class="ttdeci">float dot(Vector3f a, Vector3f b)</div></div>
+<div class="ttc" id="astructMR_1_1FaceId_html"><div class="ttname"><a href="../Csharp/structMR_1_1FaceId.html">MR::FaceId</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3f.html">MR::Vector3f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRDipole.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRDipole_8h.html">MRDipole.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

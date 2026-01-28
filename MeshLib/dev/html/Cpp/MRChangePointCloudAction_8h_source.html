@@ -148,15 +148,15 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
   <div class="headertitle"><div class="title">MRChangePointCloudAction.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRHistoryAction.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRObjectPoints.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRPointCloud.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRHeapBytes.h&quot;</span></div>
+<a href="MRChangePointCloudAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRObjectPoints_8h.html">MRObjectPoints.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRPointCloud_8h.html">MRPointCloud.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRHeapBytes_8h.html">MRHeapBytes.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>ChangePointCloudAction : <span class="keyword">public</span> HistoryAction</div>
@@ -166,7 +166,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangePointCloudAction.html#adfc174c2d35dbf7c48817ce9a5b90a3d">ChangePointCloudAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        objPoints_{ obj },</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        name_{ std::move( name ) }</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        name_{ std::move( <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> ) }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        {</div>
@@ -175,7 +175,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        }</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> name_; }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> name_; }</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangePointCloudAction.html#a1ad60546bf27a07549a8f5d999929ea4">action</a>( HistoryAction::Type )<span class="keyword"> override</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
@@ -208,7 +208,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a5e008b332b248ee55fa6843e93bb8771">ChangePointCloudPointsAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj ) :</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        objPoints_{ obj },</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        name_{ std::move( name ) }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        name_{ std::move( <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> ) }</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    {</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        {</div>
@@ -220,12 +220,12 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a5e008b332b248ee55fa6843e93bb8771">ChangePointCloudPointsAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj, VertCoords &amp;&amp; newPoints ) :</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        objPoints_{ obj },</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        clonePoints_{ std::move( newPoints ) },</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        name_{ std::move( name ) }</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        name_{ std::move( <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> ) }</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    {</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a99c78e51614ea1ec44c4c7748752ec57">action</a>( HistoryAction::Type::Redo );</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    }</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
@@ -268,7 +268,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a976ad1472a2448a00ef650ced1670db2">ChangeOnePointInCloudAction</a>( std::string name, <span class="keyword">const</span> std::shared_ptr&lt;ObjectPoints&gt;&amp; obj, VertId pointId ) :</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        objPoints_{ obj },</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        pointId_{ pointId },</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        name_{ std::move( name ) }</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        name_{ std::move( <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> ) }</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    {</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        {</div>
@@ -282,12 +282,12 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        objPoints_{ obj },</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        pointId_{ pointId },</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        safeCoords_{ newCoords },</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        name_{ std::move( name ) }</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        name_{ std::move( <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a> ) }</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    {</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        <a class="code hl_functionRef" href="../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#ac4b36c3c75fbbd438563cfd9c459c9fb">action</a>( HistoryAction::Type::Redo );</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    }</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">name</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        <span class="keywordflow">return</span> name_;</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    }</div>
@@ -327,21 +327,26 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html',''); initResi
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>};</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
+<div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRPointCloud_8h_html"><div class="ttname"><a href="MRMesh_2MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRObjectPoints_8h_html"><div class="ttname"><a href="MRObjectPoints_8h.html">MRObjectPoints.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeOnePointInCloudAction_html_a976ad1472a2448a00ef650ced1670db2"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a976ad1472a2448a00ef650ced1670db2">MR::ChangeOnePointInCloudAction::ChangeOnePointInCloudAction</a></div><div class="ttdeci">unsafe ChangeOnePointInCloudAction(MR._ByValue_ChangeOnePointInCloudAction _other)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeOnePointInCloudAction_html_ac4b36c3c75fbbd438563cfd9c459c9fb"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#ac4b36c3c75fbbd438563cfd9c459c9fb">MR::ChangeOnePointInCloudAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type _1)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangePointCloudAction_html_a1ad60546bf27a07549a8f5d999929ea4"><div class="ttname"><a href="../Csharp/classMR_1_1ChangePointCloudAction.html#a1ad60546bf27a07549a8f5d999929ea4">MR::ChangePointCloudAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type _1)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangePointCloudAction_html_adfc174c2d35dbf7c48817ce9a5b90a3d"><div class="ttname"><a href="../Csharp/classMR_1_1ChangePointCloudAction.html#adfc174c2d35dbf7c48817ce9a5b90a3d">MR::ChangePointCloudAction::ChangePointCloudAction</a></div><div class="ttdeci">unsafe ChangePointCloudAction(MR._ByValue_ChangePointCloudAction _other)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangePointCloudPointsAction_html_a5e008b332b248ee55fa6843e93bb8771"><div class="ttname"><a href="../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a5e008b332b248ee55fa6843e93bb8771">MR::ChangePointCloudPointsAction::ChangePointCloudPointsAction</a></div><div class="ttdeci">unsafe ChangePointCloudPointsAction(MR._ByValue_ChangePointCloudPointsAction _other)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangePointCloudPointsAction_html_a99c78e51614ea1ec44c4c7748752ec57"><div class="ttname"><a href="../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a99c78e51614ea1ec44c4c7748752ec57">MR::ChangePointCloudPointsAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type _1)</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:298</div></div>
+<div class="ttc" id="anamespaceMR_1_1Features_html_a1f7d6b7fed16c703a284c2013da802e2"><div class="ttname"><a href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">MR::Features::name</a></div><div class="ttdeci">std::string name(const T &amp;primitive)</div><div class="ttdef"><b>Definition</b> MRFeatures.h:309</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRChangePointCloudAction.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRChangePointCloudAction_8h.html">MRChangePointCloudAction.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

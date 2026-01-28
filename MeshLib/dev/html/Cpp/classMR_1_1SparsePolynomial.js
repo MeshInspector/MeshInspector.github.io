@@ -7,5 +7,8 @@ var classMR_1_1SparsePolynomial =
     [ "empty", "classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba", null ],
     [ "get", "classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d", null ],
     [ "isPositive", "classMR_1_1SparsePolynomial.html#a555f6678115944f56cb6b347fcbc297a", null ],
-    [ "setZeroCoeff", "classMR_1_1SparsePolynomial.html#a687ad0841acd4ba8dd03d5915fdaecf3", null ]
+    [ "operator+=", "classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247", null ],
+    [ "operator-=", "classMR_1_1SparsePolynomial.html#a33daec7c11a36c33eb5530ffa262a597", null ],
+    [ "setZeroCoeff", "classMR_1_1SparsePolynomial.html#a687ad0841acd4ba8dd03d5915fdaecf3", null ],
+    [ "operator*", "classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011", null ]
 ];

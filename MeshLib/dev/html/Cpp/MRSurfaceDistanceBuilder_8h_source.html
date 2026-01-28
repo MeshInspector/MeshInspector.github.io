@@ -148,16 +148,16 @@ $(function(){initNavTree('MRSurfaceDistanceBuilder_8h_source.html',''); initResi
   <div class="headertitle"><div class="title">MRSurfaceDistanceBuilder.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRSurfaceDistanceBuilder_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRId.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRVector.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRVector3.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector_8h.html">MRVector.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;cfloat&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;queue&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR.html">MR</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
@@ -180,16 +180,16 @@ $(function(){initNavTree('MRSurfaceDistanceBuilder_8h_source.html',''); initResi
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">class </span>SurfaceDistanceBuilder</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>{</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    MRMESH_API <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a0ef5acb22e3b599c8c37f78a8fbb4d47">SurfaceDistanceBuilder</a>( <span class="keyword">const</span> Mesh &amp; mesh, <span class="keyword">const</span> VertBitSet* region );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a0ef5acb22e3b599c8c37f78a8fbb4d47">SurfaceDistanceBuilder</a>( <span class="keyword">const</span> Mesh &amp; mesh, <span class="keyword">const</span> VertBitSet* region );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a0ef5acb22e3b599c8c37f78a8fbb4d47">SurfaceDistanceBuilder</a>( <span class="keyword">const</span> Mesh &amp; mesh, <span class="keyword">const</span> Vector3f &amp; target, <span class="keyword">const</span> VertBitSet* region ) :</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a0ef5acb22e3b599c8c37f78a8fbb4d47">SurfaceDistanceBuilder</a>( mesh, region) { target_ = target; }</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#ac7b35a0449debbc29aacef0410c9edc7">addStartRegion</a>( <span class="keyword">const</span> VertBitSet &amp; region, <span class="keywordtype">float</span> startDistance );</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#aa81a04b73d010dc88d1e51138e9e6bfe">addStartVertices</a>( <span class="keyword">const</span> HashMap&lt;VertId, float&gt;&amp; startVertices );</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#ac143451e18c893f7e2fe051a14bcdd10">addStart</a>( <span class="keyword">const</span> MeshTriPoint &amp; start );</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#ac7b35a0449debbc29aacef0410c9edc7">addStartRegion</a>( <span class="keyword">const</span> VertBitSet &amp; region, <span class="keywordtype">float</span> startDistance );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#aa81a04b73d010dc88d1e51138e9e6bfe">addStartVertices</a>( <span class="keyword">const</span> HashMap&lt;VertId, float&gt;&amp; startVertices );</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#ac143451e18c893f7e2fe051a14bcdd10">addStart</a>( <span class="keyword">const</span> MeshTriPoint &amp; start );</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    MRMESH_API <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#ae7c224f695e6ef1421a4fabaef34be54">setMaxVertUpdates</a>( <span class="keywordtype">int</span> v );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#ae7c224f695e6ef1421a4fabaef34be54">setMaxVertUpdates</a>( <span class="keywordtype">int</span> v );</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    MRMESH_API VertId <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#af7464bf0dd439f0b95d8cb0b82e711bd">growOne</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertId <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#af7464bf0dd439f0b95d8cb0b82e711bd">growOne</a>();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    VertScalars <a class="code hl_functionRef" href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a6336b38bddbb9c98ed1c33e416a2933d">takeDistanceMap</a>() { <span class="keywordflow">return</span> std::move( vertDistanceMap_ ); }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">public</span>:</div>
@@ -213,6 +213,10 @@ $(function(){initNavTree('MRSurfaceDistanceBuilder_8h_source.html',''); initResi
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceDistanceBuilder_html_a0ef5acb22e3b599c8c37f78a8fbb4d47"><div class="ttname"><a href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a0ef5acb22e3b599c8c37f78a8fbb4d47">MR::SurfaceDistanceBuilder::SurfaceDistanceBuilder</a></div><div class="ttdeci">unsafe SurfaceDistanceBuilder(MR._ByValue_SurfaceDistanceBuilder _other)</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceDistanceBuilder_html_a6336b38bddbb9c98ed1c33e416a2933d"><div class="ttname"><a href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#a6336b38bddbb9c98ed1c33e416a2933d">MR::SurfaceDistanceBuilder::takeDistanceMap</a></div><div class="ttdeci">unsafe MR.VertScalars takeDistanceMap()</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceDistanceBuilder_html_aa81a04b73d010dc88d1e51138e9e6bfe"><div class="ttname"><a href="../Csharp/classMR_1_1SurfaceDistanceBuilder.html#aa81a04b73d010dc88d1e51138e9e6bfe">MR::SurfaceDistanceBuilder::addStartVertices</a></div><div class="ttdeci">unsafe void addStartVertices(MR.Phmap.Const_FlatHashMap_MRVertId_Float startVertices)</div></div>
@@ -224,15 +228,15 @@ $(function(){initNavTree('MRSurfaceDistanceBuilder_8h_source.html',''); initResi
 <div class="ttc" id="aclassMR_1_1VertDistance_html_a05a39b605828e3abe02e49514a3bfdf7"><div class="ttname"><a href="../Csharp/classMR_1_1VertDistance.html#a05a39b605828e3abe02e49514a3bfdf7">MR::VertDistance::VertDistance</a></div><div class="ttdeci">unsafe VertDistance()</div></div>
 <div class="ttc" id="aclassMR_1_1VertDistance_html_a17463369178a499e805b20fd7e9be674"><div class="ttname"><a href="../Csharp/classMR_1_1VertDistance.html#a17463369178a499e805b20fd7e9be674">MR::VertDistance::vert</a></div><div class="ttdeci">new unsafe ref MR.VertId vert</div></div>
 <div class="ttc" id="aclassMR_1_1VertDistance_html_aa96d9d35b662f403769c9315fb4b6cad"><div class="ttname"><a href="../Csharp/classMR_1_1VertDistance.html#aa96d9d35b662f403769c9315fb4b6cad">MR::VertDistance::distance</a></div><div class="ttdeci">new unsafe ref float distance</div></div>
-<div class="ttc" id="aclassMR_html"><div class="ttname"><a href="../Csharp/classMR.html">MR</a></div></div>
 <div class="ttc" id="agroup__SurfaceDistanceBuilder_html_ga6116f007cc43a35299cac2d382c9ba9e"><div class="ttname"><a href="group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e">MR::operator&lt;</a></div><div class="ttdeci">bool operator&lt;(const VertDistance &amp;a, const VertDistance &amp;b)</div><div class="ttdoc">smaller distance to be the first</div><div class="ttdef"><b>Definition</b> MRSurfaceDistanceBuilder.h:29</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><b>MRSurfaceDistanceBuilder.h</b></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRSurfaceDistanceBuilder_8h.html">MRSurfaceDistanceBuilder.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
