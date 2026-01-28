@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1ObjectLinesHolder.html#a49456270c385529352de0504d1fa88cc":[6,0,0,11,8,48],
+"classMR_1_1ObjectLinesHolder.html#a497a6ffbee081140099e22359592d6c4":[6,0,0,11,8,12],
+"classMR_1_1ObjectLinesHolder.html#a49873d8a27c705e21621e2aaf4788377":[6,0,0,11,8,44],
 "classMR_1_1ObjectLinesHolder.html#a4fc510feacb6ed169f64a3f5274ea8c6":[6,0,0,11,8,18],
 "classMR_1_1ObjectLinesHolder.html#a525aed64853ffb3c819c3e7fe22635e7":[6,0,0,11,8,52],
 "classMR_1_1ObjectLinesHolder.html#a58ad6553ff1ca76732f23a8ea18b1c02":[6,0,0,11,8,19],
@@ -182,10 +185,10 @@ var NAVTREEINDEX10 =
 "classMR_1_1ObjectPoints.html#ae1dec67e892d7ccdfbc28e97f4759ef1":[6,0,0,11,10,51],
 "classMR_1_1ObjectPoints.html#aed4a1086a5e4359ab0f9f2711c586190":[6,0,0,11,10,8],
 "classMR_1_1ObjectPoints.html#aee5df9e57559b0529c7da59f221f3a5b":[6,0,0,11,10,45],
-"classMR_1_1ObjectTransformWidget.html":[6,0,2,0,2,204],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,2,0,2,204,0],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a4db820bb720239af368c1f2e8afca2a3":[6,0,2,0,2,204,0,1],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a9af38d8c2827041c970c5eec9eb10e05":[6,0,2,0,2,204,0,0],
+"classMR_1_1ObjectTransformWidget.html":[6,0,2,0,2,206],
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,2,0,2,206,0],
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a4db820bb720239af368c1f2e8afca2a3":[6,0,2,0,2,206,0,1],
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a9af38d8c2827041c970c5eec9eb10e05":[6,0,2,0,2,206,0,0],
 "classMR_1_1ObjectVoxels.html":[6,0,0,11,14],
 "classMR_1_1ObjectVoxels.html#a00ae5c8b25dec05562a32aff4805b73e":[6,0,0,11,14,32],
 "classMR_1_1ObjectVoxels.html#a022ecb7e995892b60d3fd4fafeff60be":[6,0,0,11,14,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1ObjectVoxels.html#a89c150d0fab3afd1a4d670a3da097ead":[6,0,0,11,14,79],
 "classMR_1_1ObjectVoxels.html#a8ede9abe426bc91d70f35385bbe613bf":[6,0,0,11,14,12],
 "classMR_1_1ObjectVoxels.html#a93ee13ab550208620fa6269afc890b86":[6,0,0,11,14,4],
-"classMR_1_1ObjectVoxels.html#a9598c1ff7708b5e5e56e0a418ba3d7c6":[6,0,0,11,14,15],
-"classMR_1_1ObjectVoxels.html#a99c0d498f63fb293a8492f42596f1760":[6,0,0,11,14,58],
-"classMR_1_1ObjectVoxels.html#a9a4b4b3ac79c82fdce42d3994a9898ac":[6,0,0,11,14,85],
-"classMR_1_1ObjectVoxels.html#a9c30dbd5a90c724c1a9b104b4297dd92":[6,0,0,11,14,57]
+"classMR_1_1ObjectVoxels.html#a9598c1ff7708b5e5e56e0a418ba3d7c6":[6,0,0,11,14,15]
 };

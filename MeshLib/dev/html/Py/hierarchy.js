@@ -96,6 +96,7 @@ var hierarchy =
       [ "mrmeshpy.VertBitSet", "classmrmeshpy_1_1VertBitSet.html", null ],
       [ "mrmeshpy.VoxelBitSet", "classmrmeshpy_1_1VoxelBitSet.html", null ]
     ] ],
+    [ "mrmeshpy.BitSetParallel", "classmrmeshpy_1_1BitSetParallel.html", null ],
     [ "mrmeshpy.SeparationPointStorage.Block", "classmrmeshpy_1_1SeparationPointStorage_1_1Block.html", null ],
     [ "mrmeshpy.BMap_FaceId_unsigned_long", "classmrmeshpy_1_1BMap__FaceId__unsigned__long.html", null ],
     [ "mrmeshpy.BMap_GraphEdgeId_GraphEdgeId", "classmrmeshpy_1_1BMap__GraphEdgeId__GraphEdgeId.html", null ],

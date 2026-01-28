@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"classMR_1_1DirectionWidget.html#a11e755a24b227cd14672ec94bfcd5028":[6,0,2,0,2,84,16],
 "classMR_1_1DirectionWidget.html#a167c6b1a7f459b928ff38d1a1136b2cb":[6,0,2,0,2,84,8],
 "classMR_1_1DirectionWidget.html#a255140a32cc6331fc4ab0919d6f4ef48":[6,0,2,0,2,84,26],
 "classMR_1_1DirectionWidget.html#a29827ac67baeb7b760b6387c4656a046":[6,0,2,0,2,84,24],
@@ -191,13 +192,15 @@ var NAVTREEINDEX6 =
 "classMR_1_1FrameCounter.html":[6,0,2,0,2,116],
 "classMR_1_1FrameRedrawRequest.html":[6,0,2,0,2,117],
 "classMR_1_1FramebufferData.html":[6,0,2,0,2,115],
-"classMR_1_1GLStaticHolder.html":[6,0,2,0,2,120],
-"classMR_1_1GcodeToolsLibrary.html":[6,0,2,0,2,118],
-"classMR_1_1GlBuffer.html":[6,0,2,0,2,119],
-"classMR_1_1GlTexture.html":[6,0,2,0,2,121],
-"classMR_1_1GlTexture2.html":[6,0,2,0,2,122],
-"classMR_1_1GlTexture2DArray.html":[6,0,2,0,2,123],
-"classMR_1_1GlTexture3.html":[6,0,2,0,2,124],
+"classMR_1_1FunctionRef.html":[6,0,2,0,2,118],
+"classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4.html":[6,0,2,0,2,119],
+"classMR_1_1GLStaticHolder.html":[6,0,2,0,2,122],
+"classMR_1_1GcodeToolsLibrary.html":[6,0,2,0,2,120],
+"classMR_1_1GlBuffer.html":[6,0,2,0,2,121],
+"classMR_1_1GlTexture.html":[6,0,2,0,2,123],
+"classMR_1_1GlTexture2.html":[6,0,2,0,2,124],
+"classMR_1_1GlTexture2DArray.html":[6,0,2,0,2,125],
+"classMR_1_1GlTexture3.html":[6,0,2,0,2,126],
 "classMR_1_1Heap.html":[6,0,0,3,6],
 "classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195":[6,0,0,3,6,5],
 "classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744":[6,0,0,3,6,7],
@@ -210,7 +213,7 @@ var NAVTREEINDEX6 =
 "classMR_1_1Histogram.html#ab0bbd3d8742e66c6ff69d2e691a4f7ad":[6,0,0,0,16,0],
 "classMR_1_1Histogram.html#ab3d9c69327e5a321eefd6c70cb0a5593":[6,0,0,0,16,5],
 "classMR_1_1Histogram.html#abca61af5d0c72a9284ec588336d45e0d":[6,0,0,0,16,1],
-"classMR_1_1Historian.html":[6,0,2,0,2,126],
+"classMR_1_1Historian.html":[6,0,2,0,2,128],
 "classMR_1_1HistoryAction.html":[6,0,0,4,37],
 "classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc":[6,0,0,4,37,0],
 "classMR_1_1HistoryStore.html":[6,0,0,4,43],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1HoleFillPlan.html#a635d6b9767b9151f3b8fb7ad79d1c7b6":[6,0,0,9,3,3,3],
 "classMR_1_1HoleFillPlan.html#ac80deb9d88cce363defdb3837c5414d5":[6,0,0,9,3,3,2],
 "classMR_1_1HoleFillPlan.html#af23ed8e6d4f9447fefddfd0b5f69e90a":[6,0,0,9,3,3,1],
-"classMR_1_1IDragDropHandler.html":[6,0,2,0,2,133],
-"classMR_1_1IOFilter.html":[6,0,0,2,6,0],
-"classMR_1_1IOFilter.html#a0b830f47b1f513041d7686c506b09e92":[6,0,0,2,6,0,2],
-"classMR_1_1IOFilter.html#a6bd0e9c93b8a88241c60f7fd372dbfec":[6,0,0,2,6,0,3]
+"classMR_1_1IDragDropHandler.html":[6,0,2,0,2,135]
 };

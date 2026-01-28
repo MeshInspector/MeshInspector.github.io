@@ -299,6 +299,8 @@ var hierarchy =
     [ "MR::FrameCounter", "classMR_1_1FrameCounter.html", null ],
     [ "MR::FrameRedrawRequest", "classMR_1_1FrameRedrawRequest.html", null ],
     [ "MR::detail::FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", null ],
+    [ "MR::FunctionRef< F >", "classMR_1_1FunctionRef.html", null ],
+    [ "MR::FunctionRef< R(Args...)>", "classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4.html", null ],
     [ "MR::GcodeToolsLibrary", "classMR_1_1GcodeToolsLibrary.html", null ],
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
