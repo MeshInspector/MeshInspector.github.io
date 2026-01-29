@@ -4,6 +4,7 @@ PROJECT_NAME           = "MeshLib C Docs"
 LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutC.xml
 INPUT                  = ../MeshLib/Cbindings/ \
                          ../MeshLib/doxygen/APICPage.dox
+EXCLUDE                = ../MeshLib/Cbindings/MRCMisc
 FILE_PATTERNS          = *.h \
                          *.dox
 HTML_OUTPUT            = html/C

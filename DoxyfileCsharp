@@ -4,12 +4,12 @@ PROJECT_NAME           = "MeshLib C# Docs"
 LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutCsharp.xml
 INPUT                  = ../MeshLib/CsharpBindings/ \
                          ../MeshLib/doxygen/APICsharpPage.dox
+EXCLUDE                = ../MeshLib/CsharpBindings/MRCMisc \
+                         ../MeshLib/CsharpBindings/__common.cs
 FILE_PATTERNS          = *.cs \
                          *.dox
 HTML_OUTPUT            = html/Csharp
 
 # For C# projects
-EXTRACT_ALL            = NO
 EXTRACT_STATIC         = YES
-
-EXCLUDE_SYMBOLS        = Json std 
+EXCLUDE_SYMBOLS        = Json std _A* _B* _C* _D* _E* _F* _G* _H* _I* _J* _K* _L* _M* _N* _O* _P* _Q* _R* _S* _T* _U* _V* _W* _X* _Y* _Z*
