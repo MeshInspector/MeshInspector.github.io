@@ -3,6 +3,7 @@ var classMR_1_1Const__GridToMeshSettings =
     [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#aa76b3dd0cd754117ae459d1c2748fb6e", null ],
     [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#a6bdcc3d0517f346dca16ebee6317c1fa", null ],
     [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#a11c8061ce574db55e63cdfda25369924", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__GridToMeshSettings.html#afe374d65dd3f90c7ef88fb56c587aea9", null ],
     [ "adaptivity", "classMR_1_1Const__GridToMeshSettings.html#ad8a1876c7f4d9dbc85cafab1b7711683", null ],
     [ "cb", "classMR_1_1Const__GridToMeshSettings.html#ae81f8887a891b572b3fbb0a76281e5a1", null ],
     [ "isoValue", "classMR_1_1Const__GridToMeshSettings.html#aad733f4ad8fc5a4610f8092c8c08a955", null ],

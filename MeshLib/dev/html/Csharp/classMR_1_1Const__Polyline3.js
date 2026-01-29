@@ -5,6 +5,7 @@ var classMR_1_1Const__Polyline3 =
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a4db9dd2fb35b0631e58e6ae9b5831246", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a50b3ff3c9371dab15a339275f6010815", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a591075975a8403b2738e9c619c5d6d94", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Polyline3.html#aa61b67a7578a89aac70d4af0f2ac9478", null ],
     [ "averageEdgeLength", "classMR_1_1Const__Polyline3.html#a2abca48dfaf837bdfe96177dce51ca97", null ],
     [ "computeBoundingBox", "classMR_1_1Const__Polyline3.html#a90c186e84928d0713c6dfa7498890f53", null ],
     [ "contours", "classMR_1_1Const__Polyline3.html#a562c5d5b51193f47a15c9ce818db3f19", null ],

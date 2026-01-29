@@ -14,5 +14,6 @@ var classMR_1_1Features_1_1Const__MeasureResult =
     [ "Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#a68f0f564a167a8f327bd9004098d6bb8", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ae658bdbb48abcae76822e3c852754872", null ],
-    [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ad2cac969d0d14adabbae6d088dafe4c2", null ]
+    [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ad2cac969d0d14adabbae6d088dafe4c2", null ],
+    [ "_FinalizeFields", "classMR_1_1Features_1_1Const__MeasureResult.html#adcab402972c7721c5480adfd29251313", null ]
 ];

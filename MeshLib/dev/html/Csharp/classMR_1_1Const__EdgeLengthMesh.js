@@ -3,6 +3,7 @@ var classMR_1_1Const__EdgeLengthMesh =
     [ "Const_EdgeLengthMesh", "classMR_1_1Const__EdgeLengthMesh.html#abbd94190ff06db9fbd7685d7e7ee9bd1", null ],
     [ "Const_EdgeLengthMesh", "classMR_1_1Const__EdgeLengthMesh.html#a886ee832cdd2d3bf3031cfb533bc52e8", null ],
     [ "Const_EdgeLengthMesh", "classMR_1_1Const__EdgeLengthMesh.html#a1710ef740ece223bee79f18867dd9cab", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__EdgeLengthMesh.html#adbca7b429113c79caadb42c5f7400eba", null ],
     [ "cotan", "classMR_1_1Const__EdgeLengthMesh.html#ab2064d34831193f11f3487f704e90973", null ],
     [ "edgeLengthAfterFlip", "classMR_1_1Const__EdgeLengthMesh.html#aef1e8caf3c8151c6e6423873084ed65b", null ],
     [ "fromMesh", "classMR_1_1Const__EdgeLengthMesh.html#acb006f3b4937faf8dcb58a0f74770e24", null ],

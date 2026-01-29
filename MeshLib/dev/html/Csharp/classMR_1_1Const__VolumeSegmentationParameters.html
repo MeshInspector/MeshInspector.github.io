@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__VolumeSegmentationParameters.html','
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__VolumeSegmentationParameters-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_VolumeSegmentationParameters Class Reference</div></div>
@@ -197,6 +198,26 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a738a91403b12ff69b0fcb136833a73db" id="r_a738a91403b12ff69b0fcb136833a73db"><td class="memItemLeft" align="right" valign="top"><a id="a738a91403b12ff69b0fcb136833a73db" name="a738a91403b12ff69b0fcb136833a73db"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a738a91403b12ff69b0fcb136833a73db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e89a0e224eafb2170b1378e9e1f148a" id="r_a3e89a0e224eafb2170b1378e9e1f148a"><td class="memItemLeft" align="right" valign="top"><a id="a3e89a0e224eafb2170b1378e9e1f148a" name="a3e89a0e224eafb2170b1378e9e1f148a"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a3e89a0e224eafb2170b1378e9e1f148a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a3e89a0e224eafb2170b1378e9e1f148a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ad37841e0eb7b574f0c1bc83e9b9e3ad9" id="r_ad37841e0eb7b574f0c1bc83e9b9e3ad9"><td class="memItemLeft" align="right" valign="top"><a id="ad37841e0eb7b574f0c1bc83e9b9e3ad9" name="ad37841e0eb7b574f0c1bc83e9b9e3ad9"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_buildPathExponentModifier</b></td></tr>
+<tr class="separator:ad37841e0eb7b574f0c1bc83e9b9e3ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24a3f00a3481ac610632b6598f591f36" id="r_a24a3f00a3481ac610632b6598f591f36"><td class="memItemLeft" align="right" valign="top"><a id="a24a3f00a3481ac610632b6598f591f36" name="a24a3f00a3481ac610632b6598f591f36"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_segmentationExponentModifier</b></td></tr>
+<tr class="separator:a24a3f00a3481ac610632b6598f591f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd3355a5f3f9f2a9e10b0f6e7865839" id="r_abdd3355a5f3f9f2a9e10b0f6e7865839"><td class="memItemLeft" align="right" valign="top"><a id="abdd3355a5f3f9f2a9e10b0f6e7865839" name="abdd3355a5f3f9f2a9e10b0f6e7865839"></a>
+unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_voxelsExpansion</b></td></tr>
+<tr class="separator:abdd3355a5f3f9f2a9e10b0f6e7865839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_VolumeSegmentationParameters &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -217,13 +238,6 @@ unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>voxelsExpansion
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_VolumeSegmentationParameters &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters for volume segmentation. </p>

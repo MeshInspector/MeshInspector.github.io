@@ -5,6 +5,7 @@ var classMR_1_1FaceScalars =
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a2b7570ea7f5055329d556dd20467164d", null ],
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a21dfa50ae6e961ab985172e332c2db19", null ],
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a8cdd33f5a1189fdcd850e66b27a80de3", null ],
+    [ "_FinalizeFields", "classMR_1_1FaceScalars.html#a05d49705deda8b3be51757c36b350c72", null ],
     [ "assign", "classMR_1_1FaceScalars.html#a4e588aefd74e45fc7a6a093649d899fb", null ],
     [ "autoResizeAt", "classMR_1_1FaceScalars.html#ab8624c25c880496d579c8dd82f344d2d", null ],
     [ "autoResizeSet", "classMR_1_1FaceScalars.html#a8ec37b736329cc61ebb33bc5d5d7e328", null ],

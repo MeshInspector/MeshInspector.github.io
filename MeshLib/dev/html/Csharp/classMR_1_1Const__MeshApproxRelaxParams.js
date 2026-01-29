@@ -2,6 +2,7 @@ var classMR_1_1Const__MeshApproxRelaxParams =
 [
     [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a3cb277927896ace2932e0b8fa32097e5", null ],
     [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a14a6c245ded1990729febe37a46b280a", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__MeshApproxRelaxParams.html#a32375ddce7571e784201497aacb8057f", null ],
     [ "force", "classMR_1_1Const__MeshApproxRelaxParams.html#a6b08133bb7443e349d4d68fcf2d365fd", null ],
     [ "hardSmoothTetrahedrons", "classMR_1_1Const__MeshApproxRelaxParams.html#af7cd6813413c87589211e2419a1859b9", null ],
     [ "iterations", "classMR_1_1Const__MeshApproxRelaxParams.html#ac362678c59d37aa041fcdba84e5e2d37", null ],

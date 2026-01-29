@@ -3,6 +3,7 @@ var classMR_1_1QuadraticForm3d =
     [ "QuadraticForm3d", "classMR_1_1QuadraticForm3d.html#ab5e24115a6e50b134cd4d1d494c2731b", null ],
     [ "QuadraticForm3d", "classMR_1_1QuadraticForm3d.html#ae7656d52fba26a5a372239347ab640f8", null ],
     [ "QuadraticForm3d", "classMR_1_1QuadraticForm3d.html#a323c6657e8d4ff4fec78dd3ffd3f6a0a", null ],
+    [ "_FinalizeFields", "classMR_1_1QuadraticForm3d.html#a868787d1853d3c9320c8f40ddcf6cee4", null ],
     [ "addDistToLine", "classMR_1_1QuadraticForm3d.html#a4be18aab67dc83b99cacc79c894c1c66", null ],
     [ "addDistToLine", "classMR_1_1QuadraticForm3d.html#a6b9f935665c56f05c18dd904897b80f1", null ],
     [ "addDistToOrigin", "classMR_1_1QuadraticForm3d.html#a217f3cf2e38c1a4f3f9eaac6192db519", null ],

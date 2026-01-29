@@ -9,14 +9,15 @@ var classMR_1_1Const__MeshToDistanceMapParams =
     [ "Const_MeshToDistanceMapParams", "classMR_1_1Const__MeshToDistanceMapParams.html#a366d4c9f69139a2225bb1cc6d99944d8", null ],
     [ "Const_MeshToDistanceMapParams", "classMR_1_1Const__MeshToDistanceMapParams.html#af470cb126455385f6fc69e9ece37ba93", null ],
     [ "Const_MeshToDistanceMapParams", "classMR_1_1Const__MeshToDistanceMapParams.html#a64c58176cc5e344c8e6568216bf78c3d", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__MeshToDistanceMapParams.html#a6e525994afa8aad3751ca9502a9a008c", null ],
     [ "operator MR.AffineXf3f", "classMR_1_1Const__MeshToDistanceMapParams.html#a793d62584899bd2892ce7ce4c3927fbf", null ],
     [ "xf", "classMR_1_1Const__MeshToDistanceMapParams.html#aa25013835ac5c7fe5e8f40698a750ddd", null ],
-    [ "allowNegativeValues", "classMR_1_1Const__MeshToDistanceMapParams.html#a6bfd0ba72c2ce3af341693d0622a6f9e", null ],
-    [ "direction", "classMR_1_1Const__MeshToDistanceMapParams.html#a3e4d3afa23f3eb8dec97c33016e4cc6d", null ],
-    [ "maxValue", "classMR_1_1Const__MeshToDistanceMapParams.html#a3bb4f6f4a673c09f1bbffeb0b627230b", null ],
-    [ "minValue", "classMR_1_1Const__MeshToDistanceMapParams.html#ad78031c3c878d3422295d3eab37f9f68", null ],
-    [ "orgPoint", "classMR_1_1Const__MeshToDistanceMapParams.html#a23ce4794adea9a774a8f822cbbcb14a5", null ],
-    [ "useDistanceLimits", "classMR_1_1Const__MeshToDistanceMapParams.html#a104b54b63543d19c25f41be8d1a70d48", null ],
-    [ "xRange", "classMR_1_1Const__MeshToDistanceMapParams.html#a8a88cd84945e5d8a522ed079ec73f01a", null ],
-    [ "yRange", "classMR_1_1Const__MeshToDistanceMapParams.html#aabaf35e7ad0ed020d16fb5ac18652a27", null ]
+    [ "__ref_storage_allowNegativeValues", "classMR_1_1Const__MeshToDistanceMapParams.html#a01cd549a8688338785fec6ecc5bf04c0", null ],
+    [ "__ref_storage_direction", "classMR_1_1Const__MeshToDistanceMapParams.html#a7d6b855eb5866544e4d487226af435ec", null ],
+    [ "__ref_storage_maxValue", "classMR_1_1Const__MeshToDistanceMapParams.html#af965bd839493518f68b4f48d45f32dcb", null ],
+    [ "__ref_storage_minValue", "classMR_1_1Const__MeshToDistanceMapParams.html#aa32a09a330a5c9e67fc31ae793c78e52", null ],
+    [ "__ref_storage_orgPoint", "classMR_1_1Const__MeshToDistanceMapParams.html#a7f5a677b651c62e41bac54cd1bd5ced1", null ],
+    [ "__ref_storage_useDistanceLimits", "classMR_1_1Const__MeshToDistanceMapParams.html#a4ba098de452ca63068b3d08c6cc80e01", null ],
+    [ "__ref_storage_xRange", "classMR_1_1Const__MeshToDistanceMapParams.html#ad8827cfa7f6aa916f62f3fb07ce26551", null ],
+    [ "__ref_storage_yRange", "classMR_1_1Const__MeshToDistanceMapParams.html#ac9862af2925ffe1a9310b1ad96bec95e", null ]
 ];

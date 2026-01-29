@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__DecimateResult.html',''); initResiza
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__DecimateResult-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_DecimateResult Class Reference</div></div>
@@ -181,7 +182,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_DecimateResul
 <tr class="memdesc:a9df741eb243c4be19b6d493485176e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a9df741eb243c4be19b6d493485176e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2aabf4392f12894a4fc35dbd8c9831" id="r_a8e2aabf4392f12894a4fc35dbd8c9831"><td class="memItemLeft" align="right" valign="top"><a id="a8e2aabf4392f12894a4fc35dbd8c9831" name="a8e2aabf4392f12894a4fc35dbd8c9831"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_DecimateResult</b> (int <a class="el" href="#a91c98b381b6991b0e0069a8376d7d0f9">vertsDeleted</a>, int facesDeleted, float <a class="el" href="#a5456b0caf0b6a9c23fd0bc1415845d79">errorIntroduced</a>, bool <a class="el" href="#ad763af2dbf47a8a939569c8051ca9003">cancelled</a>)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_DecimateResult</b> (int vertsDeleted, int facesDeleted, float <a class="el" href="#a5456b0caf0b6a9c23fd0bc1415845d79">errorIntroduced</a>, bool <a class="el" href="#ad763af2dbf47a8a939569c8051ca9003">cancelled</a>)</td></tr>
 <tr class="memdesc:a8e2aabf4392f12894a4fc35dbd8c9831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1DecimateResult.html">MR.DecimateResult</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a8e2aabf4392f12894a4fc35dbd8c9831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c341a077eefbc722d492805c46ebc9" id="r_a66c341a077eefbc722d492805c46ebc9"><td class="memItemLeft" align="right" valign="top"><a id="a66c341a077eefbc722d492805c46ebc9" name="a66c341a077eefbc722d492805c46ebc9"></a>
@@ -194,12 +195,35 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8251025fbe0db48525cbabc39f8d19a1" id="r_a8251025fbe0db48525cbabc39f8d19a1"><td class="memItemLeft" align="right" valign="top"><a id="a8251025fbe0db48525cbabc39f8d19a1" name="a8251025fbe0db48525cbabc39f8d19a1"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a8251025fbe0db48525cbabc39f8d19a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808a6168d9afaa5599fac11a69dab40f" id="r_a808a6168d9afaa5599fac11a69dab40f"><td class="memItemLeft" align="right" valign="top"><a id="a808a6168d9afaa5599fac11a69dab40f" name="a808a6168d9afaa5599fac11a69dab40f"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a808a6168d9afaa5599fac11a69dab40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a808a6168d9afaa5599fac11a69dab40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a234b48c767df5d6318bda691848f475c" id="r_a234b48c767df5d6318bda691848f475c"><td class="memItemLeft" align="right" valign="top"><a id="a234b48c767df5d6318bda691848f475c" name="a234b48c767df5d6318bda691848f475c"></a>
+unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_vertsDeleted</b></td></tr>
+<tr class="memdesc:a234b48c767df5d6318bda691848f475c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number deleted faces. <br /></td></tr>
+<tr class="separator:a234b48c767df5d6318bda691848f475c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac68cb8a04579c2941516c9aa8fb3ac98" id="r_ac68cb8a04579c2941516c9aa8fb3ac98"><td class="memItemLeft" align="right" valign="top"><a id="ac68cb8a04579c2941516c9aa8fb3ac98" name="ac68cb8a04579c2941516c9aa8fb3ac98"></a>
+unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_facesDeleted</b></td></tr>
+<tr class="separator:ac68cb8a04579c2941516c9aa8fb3ac98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8f7c36b6a49faf64964014e7178215" id="r_a3d8f7c36b6a49faf64964014e7178215"><td class="memItemLeft" align="right" valign="top"><a id="a3d8f7c36b6a49faf64964014e7178215" name="a3d8f7c36b6a49faf64964014e7178215"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_errorIntroduced</b></td></tr>
+<tr class="separator:a3d8f7c36b6a49faf64964014e7178215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362b95cf4f7aa8ac89ab91e4d56ef361" id="r_a362b95cf4f7aa8ac89ab91e4d56ef361"><td class="memItemLeft" align="right" valign="top"><a id="a362b95cf4f7aa8ac89ab91e4d56ef361" name="a362b95cf4f7aa8ac89ab91e4d56ef361"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_cancelled</b></td></tr>
+<tr class="separator:a362b95cf4f7aa8ac89ab91e4d56ef361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_DecimateResult &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a91c98b381b6991b0e0069a8376d7d0f9" id="r_a91c98b381b6991b0e0069a8376d7d0f9"><td class="memItemLeft" align="right" valign="top"><a id="a91c98b381b6991b0e0069a8376d7d0f9" name="a91c98b381b6991b0e0069a8376d7d0f9"></a>
 unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>vertsDeleted</b><code> [get]</code></td></tr>
-<tr class="memdesc:a91c98b381b6991b0e0069a8376d7d0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number deleted faces. <br /></td></tr>
 <tr class="separator:a91c98b381b6991b0e0069a8376d7d0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab964ab4404ac8749894ed0fd536c61d4" id="r_ab964ab4404ac8749894ed0fd536c61d4"><td class="memItemLeft" align="right" valign="top"><a id="ab964ab4404ac8749894ed0fd536c61d4" name="ab964ab4404ac8749894ed0fd536c61d4"></a>
 unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>facesDeleted</b><code> [get]</code></td></tr>
@@ -215,13 +239,6 @@ unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>cancelled</b><
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_DecimateResult &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a5456b0caf0b6a9c23fd0bc1415845d79" name="a5456b0caf0b6a9c23fd0bc1415845d79"></a>

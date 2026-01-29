@@ -4,6 +4,7 @@ var classMR_1_1Matrix4__UnsignedChar =
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#aae3886aa14a9963ccf149e55cf8c3385", null ],
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#a7dd9db425e2f3854fcc7227c8adef470", null ],
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#acfc0ae987818f071fbcf3072b3c85495", null ],
+    [ "_FinalizeFields", "classMR_1_1Matrix4__UnsignedChar.html#aab31f6c5aec9fb69f129a07a868942b2", null ],
     [ "addAssign", "classMR_1_1Matrix4__UnsignedChar.html#ad781f2515915d6b971cff2b0c1e651c6", null ],
     [ "assign", "classMR_1_1Matrix4__UnsignedChar.html#ab2f17004cab5413dfdf33433786b3d02", null ],
     [ "call", "classMR_1_1Matrix4__UnsignedChar.html#a23e46983372ed5980506017b8da4901b", null ],

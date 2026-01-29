@@ -5,6 +5,7 @@ var classMR_1_1VertMap =
     [ "VertMap", "classMR_1_1VertMap.html#a527519b7400c88493190e1f941cfc6bb", null ],
     [ "VertMap", "classMR_1_1VertMap.html#a6be7b63dbc26ebf34013dd6d45400bd0", null ],
     [ "VertMap", "classMR_1_1VertMap.html#a44ed9e3b8b9e820ed5b35758214e2c19", null ],
+    [ "_FinalizeFields", "classMR_1_1VertMap.html#a738df91ac4ff731f83ac1047f1d248fe", null ],
     [ "assign", "classMR_1_1VertMap.html#a7de65b7598d94e28cfe63242a63db15d", null ],
     [ "autoResizeAt", "classMR_1_1VertMap.html#a541fe84e8141ab0d8b276a0c82504e2c", null ],
     [ "autoResizeSet", "classMR_1_1VertMap.html#a9abf5c6631966c9044d3de0c774b4537", null ],

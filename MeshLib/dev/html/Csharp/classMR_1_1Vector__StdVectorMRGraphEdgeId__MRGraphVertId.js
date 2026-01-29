@@ -5,6 +5,7 @@ var classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId =
     [ "Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#acf6bb76ad4326f69370bae9f41ff5374", null ],
     [ "Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#abbedd3604cd10d8c06e637126ec477e8", null ],
     [ "Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#a0b3c3b7a0e0ee40580397335fd4bbf58", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#aa6ca7d66cefe3e5cc028b34801634be7", null ],
     [ "assign", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#ab961f47c092f85db2a997f674d08ea8f", null ],
     [ "autoResizeAt", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#a06d4a07b3740c98494368cd4d273dce4", null ],
     [ "autoResizeSet", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#a69591f56821403597b8529dce98afcd5", null ],

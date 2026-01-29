@@ -5,6 +5,7 @@ var classMR_1_1Const__TriCornerUVCoords =
     [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#ae3f094201bfc8554da5dd06a0e1a1c57", null ],
     [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#a1488ec637e064c3bfacb892ab2cfe71a", null ],
     [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#a53ad8b24ce08421df8b6619f0262ddb2", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__TriCornerUVCoords.html#a1ed6f3e648612c7701364f6fac4d6b6b", null ],
     [ "back", "classMR_1_1Const__TriCornerUVCoords.html#addf800dc6a9e85c87ed09f626c054ee3", null ],
     [ "backId", "classMR_1_1Const__TriCornerUVCoords.html#aa4c05638d58b2441665e5607bdb8fdc8", null ],
     [ "beginId", "classMR_1_1Const__TriCornerUVCoords.html#aee33573799dd90998b6e3173054c31e6", null ],

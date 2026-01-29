@@ -87,6 +87,7 @@ var group__DistanceMapGroup =
       [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a662fda52cacab21f277647212a1e69a8", null ],
       [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a099b5439dc28727a75aa1543275f4ba3", null ],
       [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a02dda1fdf844fadaea0ea737a3ea97b0", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a27018d56a7c7d351546a00357a62e514", null ],
       [ "assign", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#afb85e50d2e5a9883a7fb31329397dd27", null ],
       [ "distanceMapToWorld", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#ab67dafb04467db1c9aa9fa909f838080", null ],
       [ "progress", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a5a9d7bf6b4e30b3287b6b2d9fc03e222", null ]
@@ -95,6 +96,7 @@ var group__DistanceMapGroup =
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#ac7ba069e335f2dea6644a77d5df2c0ca", null ],
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a2c2015d2958818e4fbbb13d56e13013e", null ],
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a7cd2881005d6a5361cc257aafb7eb152", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a3fc6e192ead3f8238c0562c0433a54d2", null ],
       [ "assign", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a7fc380a1bb5b0bb90bcf30e9a81c4dcc", null ],
       [ "progress", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#aac7a79a4c9c7dc392e7a7da80b3f2379", null ],
       [ "xf", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a66e2579c66d13bbf394a0d66a8cc5ecb", null ]

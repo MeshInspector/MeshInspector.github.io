@@ -2,6 +2,7 @@ var classMR_1_1Const__SymMatrix3d =
 [
     [ "Const_SymMatrix3d", "classMR_1_1Const__SymMatrix3d.html#a8676117ea0747adf5f53d02a17f476a8", null ],
     [ "Const_SymMatrix3d", "classMR_1_1Const__SymMatrix3d.html#a8f8ab594c9a6a1bcb179abf0db43182a", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__SymMatrix3d.html#a589757d066fad9a49d286ebf9421c213", null ],
     [ "det", "classMR_1_1Const__SymMatrix3d.html#af383b91eccae32af93ccbc9502d57f1e", null ],
     [ "diagonal", "classMR_1_1Const__SymMatrix3d.html#a6fbaa57213016843ac6147066104bfb1", null ],
     [ "eigens", "classMR_1_1Const__SymMatrix3d.html#a2f639724fc6a0f1b84d5f11e76b2879e", null ],

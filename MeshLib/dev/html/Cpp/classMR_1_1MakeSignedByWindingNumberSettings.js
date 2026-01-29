@@ -3,6 +3,7 @@ var classMR_1_1MakeSignedByWindingNumberSettings =
     [ "MakeSignedByWindingNumberSettings", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#a99eb76059a021ad2082beddffdd4158d", null ],
     [ "MakeSignedByWindingNumberSettings", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#a3006cd9373753b5ddf46cd5715ce8944", null ],
     [ "MakeSignedByWindingNumberSettings", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#adc5f73cb8d983e84c53e7a71d4e4b0c7", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#a40b1390f40b0282de625348c3253a60b", null ],
     [ "assign", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#a99cea99d7e1ee0fc2957d8f1ce582052", null ],
     [ "fwn", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#adb9c56a991e95e26d4f4d20bfb8576e0", null ],
     [ "meshToGridXf", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html#aaac2b4e5767707d1ceb29f643e13cfe6", null ],

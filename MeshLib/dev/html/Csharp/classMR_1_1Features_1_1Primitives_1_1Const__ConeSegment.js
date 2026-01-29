@@ -3,6 +3,7 @@ var classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment =
     [ "Const_ConeSegment", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a2bc4f78bc78edab356bd09a71c36c0ae", null ],
     [ "Const_ConeSegment", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a4f9909582b4c971e424932be016044b0", null ],
     [ "Const_ConeSegment", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a9cac329c354271dc71fc1d22831270c1", null ],
+    [ "_FinalizeFields", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a74d2e33f5ce71baab0593051cb27bb5a", null ],
     [ "axis", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a4611718edf077904630de52e094e22c1", null ],
     [ "baseCircle", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a7cbe03a79a548b96ccd7efeace17410d", null ],
     [ "basePlane", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html#a7709025305e5129a62a0862a57f99801", null ],

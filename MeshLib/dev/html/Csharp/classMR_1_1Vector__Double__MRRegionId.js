@@ -5,6 +5,7 @@ var classMR_1_1Vector__Double__MRRegionId =
     [ "Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html#aca751a5565c15e5acd4e9441729224fc", null ],
     [ "Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html#a6606ab41d1944451ca63656f6626ba63", null ],
     [ "Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html#a581ae6dde63896d888023613c1949722", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__Double__MRRegionId.html#a077beb48cf25958ab0e2b5318a68b307", null ],
     [ "assign", "classMR_1_1Vector__Double__MRRegionId.html#a2bf94b4d1a192e29a7763ae906bf91ff", null ],
     [ "autoResizeAt", "classMR_1_1Vector__Double__MRRegionId.html#a0ac7dba4c524ea87f6d45a51307dc8f7", null ],
     [ "autoResizeSet", "classMR_1_1Vector__Double__MRRegionId.html#ac139e180e96a86b09efe1a140b297c91", null ],

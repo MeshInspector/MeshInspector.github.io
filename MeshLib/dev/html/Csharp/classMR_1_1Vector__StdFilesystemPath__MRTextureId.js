@@ -5,6 +5,7 @@ var classMR_1_1Vector__StdFilesystemPath__MRTextureId =
     [ "Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#aa2e0f3137e8dd702f2ba7de4ba8d4d73", null ],
     [ "Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a80e329401eabd2b06648e54fe73bd660", null ],
     [ "Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a1e7d0dcbd05f56766be34a070a6f6155", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a5906c1657677494cff98715c96295066", null ],
     [ "assign", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#ab30a0038956fce27573a75e36060974d", null ],
     [ "autoResizeAt", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a39afcf52b4ebf426007b326c291851eb", null ],
     [ "autoResizeSet", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a5da71d5bf50b60d590110ffb3cd5ce02", null ],

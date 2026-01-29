@@ -3,6 +3,7 @@ var classMR_1_1DenoiseViaNormalsSettings =
     [ "DenoiseViaNormalsSettings", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a25627dcab94d4cd126e432a1b9d8e469", null ],
     [ "DenoiseViaNormalsSettings", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a94ddf14ac7e79a1a0c2bc8126015862a", null ],
     [ "DenoiseViaNormalsSettings", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a4ac896a87625b20513873e18fdefc76b", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a82b84b10adea8b129f17de3f9a0c4a23", null ],
     [ "assign", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a1469aa8ace65ead884e64786b07d43a1", null ],
     [ "beta", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#adb3af5a3ba12b28f690ec76e46a1a439", null ],
     [ "cb", "../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a11e4e77d34776c5f42f2a5e3a7a22f37", null ],

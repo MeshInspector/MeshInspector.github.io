@@ -3,6 +3,7 @@ var classMR_1_1ImproveSamplingSettings =
     [ "ImproveSamplingSettings", "../Csharp/classMR_1_1ImproveSamplingSettings.html#a1a447894c0c444baa26b9e469bb70550", null ],
     [ "ImproveSamplingSettings", "../Csharp/classMR_1_1ImproveSamplingSettings.html#af0d7d5b2ef4f35874441cf72dd5d71c0", null ],
     [ "ImproveSamplingSettings", "../Csharp/classMR_1_1ImproveSamplingSettings.html#a3047aca01c89a4d701be7a0c9e5c36c0", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1ImproveSamplingSettings.html#a549c14daf84c669f581fca8075ac79a8", null ],
     [ "assign", "../Csharp/classMR_1_1ImproveSamplingSettings.html#aedbbca11d3906ea134be298aaa5d0786", null ],
     [ "cloudOfSamples", "../Csharp/classMR_1_1ImproveSamplingSettings.html#a363f8ca3168b9428d3f214bcfe0d4ffb", null ],
     [ "minPointsInSample", "../Csharp/classMR_1_1ImproveSamplingSettings.html#aa5d77053a689abf8f34dbbcc176351fa", null ],

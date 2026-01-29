@@ -5,6 +5,7 @@ var classMR_1_1Polyline3 =
     [ "Polyline3", "classMR_1_1Polyline3.html#af8f1a6b433f91f81b3cbfcba24c0b3aa", null ],
     [ "Polyline3", "classMR_1_1Polyline3.html#ab9dee7c0b44ee980e07fe8ce2da4874e", null ],
     [ "Polyline3", "classMR_1_1Polyline3.html#a37ae7c53db9ae9fc388fe74e0224b2b5", null ],
+    [ "_FinalizeFields", "classMR_1_1Polyline3.html#a46659eced08b3e0a6cec6f7f88f94d56", null ],
     [ "addFromEdgePath", "classMR_1_1Polyline3.html#af8f4add17db92ffc3943916ab52ffc76", null ],
     [ "addFromGeneralSurfacePath", "classMR_1_1Polyline3.html#a74093132d65d8c18845c75b2cc82a3ac", null ],
     [ "addFromPoints", "classMR_1_1Polyline3.html#a301571e93dd0375bf2312a3362832abc", null ],

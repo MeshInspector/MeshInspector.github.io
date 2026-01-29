@@ -2,6 +2,7 @@ var classMR_1_1Const__SimpleVolumeMinMaxU16 =
 [
     [ "Const_SimpleVolumeMinMaxU16", "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a3caab504518cb0b97416f95ece311f44", null ],
     [ "Const_SimpleVolumeMinMaxU16", "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a57e8f240627806f8e621a6591992c22e", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a81b1f302678bfe5439f97623cd02ca3d", null ],
     [ "center", "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a2d6c55b618454cab4b7a2a6fb2d9b364", null ],
     [ "corner", "classMR_1_1Const__SimpleVolumeMinMaxU16.html#ad3e0056b60ac2887eb25dfd2f973ee0f", null ],
     [ "diagonal", "classMR_1_1Const__SimpleVolumeMinMaxU16.html#abcefcdc95dc9184b4254914769876077", null ],

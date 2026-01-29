@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__DecimatePolylineResult.html',''); in
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__DecimatePolylineResult-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_DecimatePolylineResult Class Reference</div></div>
@@ -181,7 +182,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_DecimatePolyl
 <tr class="memdesc:a3579ed9e4ba091c2ccce282047c72897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a3579ed9e4ba091c2ccce282047c72897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a343f9cae890e5d9862999610ee0b0f5a" id="r_a343f9cae890e5d9862999610ee0b0f5a"><td class="memItemLeft" align="right" valign="top"><a id="a343f9cae890e5d9862999610ee0b0f5a" name="a343f9cae890e5d9862999610ee0b0f5a"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_DecimatePolylineResult</b> (int <a class="el" href="#a6680ace05d23c039e8c63cbb62b7fdfa">vertsDeleted</a>, float errorIntroduced)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_DecimatePolylineResult</b> (int vertsDeleted, float errorIntroduced)</td></tr>
 <tr class="memdesc:a343f9cae890e5d9862999610ee0b0f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1DecimatePolylineResult.html">MR.DecimatePolylineResult</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a343f9cae890e5d9862999610ee0b0f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ba4019d18fbfe0f53e75f98657e3f3" id="r_a14ba4019d18fbfe0f53e75f98657e3f3"><td class="memItemLeft" align="right" valign="top"><a id="a14ba4019d18fbfe0f53e75f98657e3f3" name="a14ba4019d18fbfe0f53e75f98657e3f3"></a>
@@ -194,12 +195,29 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aab00612441e530d0f28783b5d692b6df" id="r_aab00612441e530d0f28783b5d692b6df"><td class="memItemLeft" align="right" valign="top"><a id="aab00612441e530d0f28783b5d692b6df" name="aab00612441e530d0f28783b5d692b6df"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:aab00612441e530d0f28783b5d692b6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e077e9dd74ad4dcf0073f20aa4a5c5" id="r_ae7e077e9dd74ad4dcf0073f20aa4a5c5"><td class="memItemLeft" align="right" valign="top"><a id="ae7e077e9dd74ad4dcf0073f20aa4a5c5" name="ae7e077e9dd74ad4dcf0073f20aa4a5c5"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:ae7e077e9dd74ad4dcf0073f20aa4a5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:ae7e077e9dd74ad4dcf0073f20aa4a5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a1557a98331bb4a45981eed10b2effcea" id="r_a1557a98331bb4a45981eed10b2effcea"><td class="memItemLeft" align="right" valign="top"><a id="a1557a98331bb4a45981eed10b2effcea" name="a1557a98331bb4a45981eed10b2effcea"></a>
+unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_vertsDeleted</b></td></tr>
+<tr class="memdesc:a1557a98331bb4a45981eed10b2effcea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max different (as distance) between original contour and result contour. <br /></td></tr>
+<tr class="separator:a1557a98331bb4a45981eed10b2effcea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa32c4a42cb2002b4d8108f5ac89bb5c4" id="r_aa32c4a42cb2002b4d8108f5ac89bb5c4"><td class="memItemLeft" align="right" valign="top"><a id="aa32c4a42cb2002b4d8108f5ac89bb5c4" name="aa32c4a42cb2002b4d8108f5ac89bb5c4"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_errorIntroduced</b></td></tr>
+<tr class="separator:aa32c4a42cb2002b4d8108f5ac89bb5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_DecimatePolylineResult &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a6680ace05d23c039e8c63cbb62b7fdfa" id="r_a6680ace05d23c039e8c63cbb62b7fdfa"><td class="memItemLeft" align="right" valign="top"><a id="a6680ace05d23c039e8c63cbb62b7fdfa" name="a6680ace05d23c039e8c63cbb62b7fdfa"></a>
 unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>vertsDeleted</b><code> [get]</code></td></tr>
-<tr class="memdesc:a6680ace05d23c039e8c63cbb62b7fdfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max different (as distance) between original contour and result contour. <br /></td></tr>
 <tr class="separator:a6680ace05d23c039e8c63cbb62b7fdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35b92d3ad7eac376c4af51488751bfd1" id="r_a35b92d3ad7eac376c4af51488751bfd1"><td class="memItemLeft" align="right" valign="top"><a id="a35b92d3ad7eac376c4af51488751bfd1" name="a35b92d3ad7eac376c4af51488751bfd1"></a>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>errorIntroduced</b><code> [get]</code></td></tr>
@@ -209,13 +227,6 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>errorIntroduc
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_DecimatePolylineResult &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><b>MRPolylineDecimate.cs</b></li>

@@ -5,6 +5,7 @@ var classMR_1_1Vector__UnsignedShort__MRVoxelId =
     [ "Vector_UnsignedShort_MRVoxelId", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#a217b35d1f4f62e96d01596e539b133e5", null ],
     [ "Vector_UnsignedShort_MRVoxelId", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#a6ea915d8e3a722704453a53eacc60219", null ],
     [ "Vector_UnsignedShort_MRVoxelId", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#a8bc3d43e3bdc6502efa0548da87511a2", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#a13cf78f576c94ae164f39e87d8cdb958", null ],
     [ "assign", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#a14bd2915a9a09b3d4cfd7cc783161cb3", null ],
     [ "autoResizeAt", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#abc7d155965823ecb3caa3093c274dd2f", null ],
     [ "autoResizeSet", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html#a3d7db03ff39ece6842e4976001518497", null ],

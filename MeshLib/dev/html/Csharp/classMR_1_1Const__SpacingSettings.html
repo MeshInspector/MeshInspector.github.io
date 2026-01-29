@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__SpacingSettings.html',''); initResiz
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__SpacingSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_SpacingSettings Class Reference</div></div>
@@ -197,6 +198,29 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a85bcb9272d17825de3375e846b556eb9" id="r_a85bcb9272d17825de3375e846b556eb9"><td class="memItemLeft" align="right" valign="top"><a id="a85bcb9272d17825de3375e846b556eb9" name="a85bcb9272d17825de3375e846b556eb9"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a85bcb9272d17825de3375e846b556eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c286bf8911be75496d39834281a5645" id="r_a8c286bf8911be75496d39834281a5645"><td class="memItemLeft" align="right" valign="top"><a id="a8c286bf8911be75496d39834281a5645" name="a8c286bf8911be75496d39834281a5645"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a8c286bf8911be75496d39834281a5645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a8c286bf8911be75496d39834281a5645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a271e1d5779128c536772d2bd32228671" id="r_a271e1d5779128c536772d2bd32228671"><td class="memItemLeft" align="right" valign="top"><a id="a271e1d5779128c536772d2bd32228671" name="a271e1d5779128c536772d2bd32228671"></a>
+unsafe MR.Const_VertBitSet._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_region</b></td></tr>
+<tr class="separator:a271e1d5779128c536772d2bd32228671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5072a8eb5a9087c3186637946dc4e075" id="r_a5072a8eb5a9087c3186637946dc4e075"><td class="memItemLeft" align="right" valign="top"><a id="a5072a8eb5a9087c3186637946dc4e075" name="a5072a8eb5a9087c3186637946dc4e075"></a>
+unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_numIters</b></td></tr>
+<tr class="separator:a5072a8eb5a9087c3186637946dc4e075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af025763c0385cf620b476592e48fe707" id="r_af025763c0385cf620b476592e48fe707"><td class="memItemLeft" align="right" valign="top"><a id="af025763c0385cf620b476592e48fe707" name="af025763c0385cf620b476592e48fe707"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_stabilizer</b></td></tr>
+<tr class="separator:af025763c0385cf620b476592e48fe707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5492a6272fca0ea4680aef4b4f929206" id="r_a5492a6272fca0ea4680aef4b4f929206"><td class="memItemLeft" align="right" valign="top"><a id="a5492a6272fca0ea4680aef4b4f929206" name="a5492a6272fca0ea4680aef4b4f929206"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_maxSumNegW</b></td></tr>
+<tr class="separator:a5492a6272fca0ea4680aef4b4f929206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SpacingSettings &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -205,7 +229,7 @@ unsafe MR.? <a class="el" href="classMR_1_1Const__VertBitSet.html">Const_VertBit
 <tr class="memdesc:a49235829ded05bab8f234806d2d47706"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices to be moved by the algorithm, nullptr means all valid vertices <br /></td></tr>
 <tr class="separator:a49235829ded05bab8f234806d2d47706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34db5089afcd5df762031ee9447eb1e1" id="r_a34db5089afcd5df762031ee9447eb1e1"><td class="memItemLeft" align="right" valign="top"><a id="a34db5089afcd5df762031ee9447eb1e1" name="a34db5089afcd5df762031ee9447eb1e1"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUndirectedEdgeId.html">MR.Std.Const_Function_FloatFuncFromMRUndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dist</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__FloatFuncFromMRUndirectedEdgeId.html">MR.Std.Const_Function_FloatFuncFromMRUndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dist</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a34db5089afcd5df762031ee9447eb1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a369bace66218ad254411802f4ef7272f" id="r_a369bace66218ad254411802f4ef7272f"><td class="memItemLeft" align="right" valign="top"><a id="a369bace66218ad254411802f4ef7272f" name="a369bace66218ad254411802f4ef7272f"></a>
 unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>numIters</b><code> [get]</code></td></tr>
@@ -220,7 +244,7 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>maxSumNegW</b
 <tr class="memdesc:a6e661e3366f8750a4fb0dd4143f53df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically <br /></td></tr>
 <tr class="separator:a6e661e3366f8750a4fb0dd4143f53df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae78c69a5d5c3befad8db288464e445e9" id="r_ae78c69a5d5c3befad8db288464e445e9"><td class="memItemLeft" align="right" valign="top"><a id="ae78c69a5d5c3befad8db288464e445e9" name="ae78c69a5d5c3befad8db288464e445e9"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceId.html">MR.Std.Const_Function_BoolFuncFromMRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>isInverted</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFaceId.html">MR.Std.Const_Function_BoolFuncFromMRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>isInverted</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:ae78c69a5d5c3befad8db288464e445e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration <br /></td></tr>
 <tr class="separator:ae78c69a5d5c3befad8db288464e445e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SpacingSettings &gt;</a></td></tr>
@@ -228,13 +252,6 @@ unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromMRFace
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_SpacingSettings &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR.SpacingSettings</a></code>. This is the const half of the class. </p>

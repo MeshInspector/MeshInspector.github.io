@@ -5,6 +5,7 @@ var classMR_1_1Vector__MRVertBitSet__MRObjId =
     [ "Vector_MRVertBitSet_MRObjId", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#ad88e05819119bdf26cee9675e9b0d4e2", null ],
     [ "Vector_MRVertBitSet_MRObjId", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a1ee38c0a6cf8e29cd8efa8430b50c9b7", null ],
     [ "Vector_MRVertBitSet_MRObjId", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a217b2c3f7275a6bc5a4e291d1e28a7f3", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a2fd9141b79a62fa6033726820e04b61b", null ],
     [ "assign", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a123d1c99723913659983f108c015619b", null ],
     [ "autoResizeAt", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a2852d79208b07b441dac10976bbb260e", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a88be87f715a179b0de816c350126c6b2", null ],

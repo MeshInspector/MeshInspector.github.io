@@ -7,6 +7,7 @@ var classMR_1_1Const__MultiwayICPSamplingParameters =
     [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a663a6b2133aafd1b7ffdc4dc3a7b7e2e", null ],
     [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a794085d2fe807e9bff4810e7beb73896", null ],
     [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#aa228dcfefdd697669166380ac8218651", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__MultiwayICPSamplingParameters.html#abb5c06b65b7c5a394ebafef8a7f3dedd", null ],
     [ "cb", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a53dde0bbfb4b9a61d688b74b844d499e", null ],
     [ "maxGroupSize", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a14b02722b8dd89e8c53b058efaeba94b", null ],
     [ "samplingVoxelSize", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a8c469606f793755abebd5f356d029860", null ]

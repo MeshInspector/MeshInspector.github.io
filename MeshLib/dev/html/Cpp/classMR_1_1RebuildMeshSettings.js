@@ -3,6 +3,7 @@ var classMR_1_1RebuildMeshSettings =
     [ "RebuildMeshSettings", "../Csharp/classMR_1_1RebuildMeshSettings.html#a507d23963b1a2cb1d4d9c73a8b9b83f0", null ],
     [ "RebuildMeshSettings", "../Csharp/classMR_1_1RebuildMeshSettings.html#a5d6d60d71860f80051959130c5c23b3e", null ],
     [ "RebuildMeshSettings", "../Csharp/classMR_1_1RebuildMeshSettings.html#af06806f775b8df087dc97f31fb70b636", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1RebuildMeshSettings.html#ab8507332b52c0a0f662417f5f9845499", null ],
     [ "assign", "../Csharp/classMR_1_1RebuildMeshSettings.html#a00c4275aef1b1248b44d74f526e34620", null ],
     [ "closeHolesInHoleWindingNumber", "../Csharp/classMR_1_1RebuildMeshSettings.html#a39c995357e466ff28935d7d5cb61080e", null ],
     [ "decimate", "../Csharp/classMR_1_1RebuildMeshSettings.html#a49327eee56e82fb22ef3b02746f46e81", null ],

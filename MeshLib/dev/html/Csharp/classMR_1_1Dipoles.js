@@ -5,6 +5,7 @@ var classMR_1_1Dipoles =
     [ "Dipoles", "classMR_1_1Dipoles.html#a432402ed8acfc39a2eed6911316488d2", null ],
     [ "Dipoles", "classMR_1_1Dipoles.html#a5eab51aaeffed23cec75b9d756c6c779", null ],
     [ "Dipoles", "classMR_1_1Dipoles.html#afd901e1747851db81ccfbc8bf78062cb", null ],
+    [ "_FinalizeFields", "classMR_1_1Dipoles.html#aa4a3e5dcae9f9249b52ec010625f33a0", null ],
     [ "assign", "classMR_1_1Dipoles.html#a5f449c34e9132e8b7169761844fe3aa0", null ],
     [ "autoResizeAt", "classMR_1_1Dipoles.html#a11b583021e974bf78abf5c0045954d9f", null ],
     [ "autoResizeSet", "classMR_1_1Dipoles.html#a929f5fba424e2b92249d8f6ef8b9d412", null ],

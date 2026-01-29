@@ -7,6 +7,7 @@ var classMR_1_1Const__ContoursDistanceMapOptions =
     [ "Const_ContoursDistanceMapOptions", "classMR_1_1Const__ContoursDistanceMapOptions.html#a40b12c2e13f90db91766f50980b3b903", null ],
     [ "Const_ContoursDistanceMapOptions", "classMR_1_1Const__ContoursDistanceMapOptions.html#a4995d6b420c2c5f291c53c333cacb770", null ],
     [ "Const_ContoursDistanceMapOptions", "classMR_1_1Const__ContoursDistanceMapOptions.html#a068f6489f491f7072b039a7a9ad2553b", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__ContoursDistanceMapOptions.html#af6f1fed6c6de047e71acc658c3a62b49", null ],
     [ "maxDist", "classMR_1_1Const__ContoursDistanceMapOptions.html#ac60eeddd1a504a162fed6e3d327b2603", null ],
     [ "minDist", "classMR_1_1Const__ContoursDistanceMapOptions.html#a88cf0f041142d17c156d4c95634974dd", null ],
     [ "offsetParameters", "classMR_1_1Const__ContoursDistanceMapOptions.html#adffd999e7899005a2ba950c25e1bc1a8", null ],

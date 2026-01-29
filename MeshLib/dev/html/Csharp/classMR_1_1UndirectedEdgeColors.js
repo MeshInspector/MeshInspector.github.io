@@ -5,6 +5,7 @@ var classMR_1_1UndirectedEdgeColors =
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a60d56dc0a6c6939a99bdcb0d5c229bcc", null ],
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#ab2c8e321dd59c6b3016cc1e569d52e65", null ],
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a81accfb6ef42b3a667825daf1593cdfc", null ],
+    [ "_FinalizeFields", "classMR_1_1UndirectedEdgeColors.html#a241288e0ea4d69c08c7a33f5389ca4ac", null ],
     [ "assign", "classMR_1_1UndirectedEdgeColors.html#adef8581b5d0978aaf21a1a5c759567bc", null ],
     [ "autoResizeAt", "classMR_1_1UndirectedEdgeColors.html#a8538eb77c9491a566e03ac08930009b6", null ],
     [ "autoResizeSet", "classMR_1_1UndirectedEdgeColors.html#a2c5d06351c256f1d6f95bce43c6385b4", null ],

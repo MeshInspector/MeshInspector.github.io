@@ -3,6 +3,7 @@ var classMR_1_1Const__EdgeSegment =
     [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#a058b18a38e0c6e681a6b968f59d767ea", null ],
     [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#aa237f633fbd6c8f1279d9e963952f695", null ],
     [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#aae3cf19d94fc2db167aa76da1e09ed9a", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__EdgeSegment.html#af4561987caef10bbf03f53d65ca5ca0e", null ],
     [ "edgePointA", "classMR_1_1Const__EdgeSegment.html#a357b10f338dce58b16482f41a7affa98", null ],
     [ "edgePointB", "classMR_1_1Const__EdgeSegment.html#a49c9abe4006a276791f3f4a2e416bf32", null ],
     [ "operator==", "classMR_1_1Const__EdgeSegment.html#ae29e62a49064fb271420358be34e3e4a", null ],

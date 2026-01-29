@@ -5,6 +5,7 @@ var classMR_1_1EdgeMap =
     [ "EdgeMap", "classMR_1_1EdgeMap.html#a86b97441ee77c12c03338b0bf25dce48", null ],
     [ "EdgeMap", "classMR_1_1EdgeMap.html#a9416202bb1f6d49b46bbcbfa12021e80", null ],
     [ "EdgeMap", "classMR_1_1EdgeMap.html#ae5639b5a5ecdeb68449c2b245bbe293d", null ],
+    [ "_FinalizeFields", "classMR_1_1EdgeMap.html#a57d9a6f31349b89a7c0f86cff4da0c3c", null ],
     [ "assign", "classMR_1_1EdgeMap.html#aa79fc19ac54b1705571ac185e6721a3d", null ],
     [ "autoResizeAt", "classMR_1_1EdgeMap.html#add5a4589c93a3ccd2149f537fbe4c549", null ],
     [ "autoResizeSet", "classMR_1_1EdgeMap.html#ae910100357d707caa6af9f571f69615f", null ],

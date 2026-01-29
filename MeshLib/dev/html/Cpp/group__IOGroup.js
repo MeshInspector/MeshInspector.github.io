@@ -21,6 +21,7 @@ var group__IOGroup =
       [ "SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#addc73467fa8c5d45998b2523031205cf", null ],
       [ "SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#ab3ab677d03242ed05312d7c7a1df8493", null ],
       [ "SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#ae211ac06c46860c4303e9529b49d2695", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#ab686782dc474fcd26a37a4c195fecd49", null ],
       [ "assign", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#a72f0aa885190cb5164d09439ef3943a1", null ]
     ] ],
     [ "MR::PointsLoad::fromAnySupportedFormat", "group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa", null ],

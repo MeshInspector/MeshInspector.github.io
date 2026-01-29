@@ -4,6 +4,7 @@ var classMR_1_1Const__Plane3d =
     [ "Const_Plane3d", "classMR_1_1Const__Plane3d.html#aceb793dad818be4406ca885b9c0f4a9d", null ],
     [ "Const_Plane3d", "classMR_1_1Const__Plane3d.html#ae35dac61b1428e72b6f1d3f953f8a7f0", null ],
     [ "Const_Plane3d", "classMR_1_1Const__Plane3d.html#a42f8d0b48f8f77a1e56366f9f89ae122", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Plane3d.html#ab7fb2fedff464a7a38e5ef4f47969475", null ],
     [ "distance", "classMR_1_1Const__Plane3d.html#ab2bca999eb2f1f9536f3488d40eaa39f", null ],
     [ "fromDirAndPt", "classMR_1_1Const__Plane3d.html#acf7d859d499b7b6bf0ec9387ed78681b", null ],
     [ "normalized", "classMR_1_1Const__Plane3d.html#a09c02ca1d6c1d9120b248eb1cb65072e", null ],

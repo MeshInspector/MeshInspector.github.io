@@ -3,6 +3,7 @@ var classMR_1_1Const__BooleanResult =
     [ "Const_BooleanResult", "classMR_1_1Const__BooleanResult.html#a3b68ca57fe6112e8cc5cf00ae3a8e958", null ],
     [ "Const_BooleanResult", "classMR_1_1Const__BooleanResult.html#a568bbfe5f7ff99396907554751d1a38b", null ],
     [ "Const_BooleanResult", "classMR_1_1Const__BooleanResult.html#ae3a10abc369b67f6a04003dcf6eeb08a", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__BooleanResult.html#a43d54eb75268a7c94ac21b68f3138f54", null ],
     [ "arrow", "classMR_1_1Const__BooleanResult.html#a531e61f8d7c222fa4935a6224aff3fe4", null ],
     [ "deref", "classMR_1_1Const__BooleanResult.html#a2e2f9cc61f5167a8ceb93dbf1bb06e8d", null ],
     [ "operator bool", "classMR_1_1Const__BooleanResult.html#abe3d19b7af151f4ea70026cdd923d87e", null ],

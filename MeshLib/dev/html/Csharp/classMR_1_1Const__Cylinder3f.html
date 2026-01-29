@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__Cylinder3f.html',''); initResizable(
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__Cylinder3f-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_Cylinder3f Class Reference</div></div>
@@ -210,11 +211,28 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a754c73566568f82ad9942af2ff83d7e9" id="r_a754c73566568f82ad9942af2ff83d7e9"><td class="memItemLeft" align="right" valign="top"><a id="a754c73566568f82ad9942af2ff83d7e9" name="a754c73566568f82ad9942af2ff83d7e9"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a754c73566568f82ad9942af2ff83d7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e05bcd02fa5acc71103b48953a69d2" id="r_ae2e05bcd02fa5acc71103b48953a69d2"><td class="memItemLeft" align="right" valign="top"><a id="ae2e05bcd02fa5acc71103b48953a69d2" name="ae2e05bcd02fa5acc71103b48953a69d2"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:ae2e05bcd02fa5acc71103b48953a69d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:ae2e05bcd02fa5acc71103b48953a69d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a44d90f1c35e31477d2445295dc84b597" id="r_a44d90f1c35e31477d2445295dc84b597"><td class="memItemLeft" align="right" valign="top"><a id="a44d90f1c35e31477d2445295dc84b597" name="a44d90f1c35e31477d2445295dc84b597"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_radius</b></td></tr>
+<tr class="separator:a44d90f1c35e31477d2445295dc84b597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e2f3136d9a49408079bc75170f21b7" id="r_a10e2f3136d9a49408079bc75170f21b7"><td class="memItemLeft" align="right" valign="top"><a id="a10e2f3136d9a49408079bc75170f21b7" name="a10e2f3136d9a49408079bc75170f21b7"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_length</b></td></tr>
+<tr class="separator:a10e2f3136d9a49408079bc75170f21b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Cylinder3f &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a7c2b7e62146e590e51a580accb2f9287" id="r_a7c2b7e62146e590e51a580accb2f9287"><td class="memItemLeft" align="right" valign="top"><a id="a7c2b7e62146e590e51a580accb2f9287" name="a7c2b7e62146e590e51a580accb2f9287"></a>
-unsafe <a class="el" href="classMR_1_1Const__Line3f.html">MR.Const_Line3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mainAxis</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__Line3f.html">MR.Const_Line3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mainAxis</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a7c2b7e62146e590e51a580accb2f9287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc34082638c93cf58cad1743b4205411" id="r_acc34082638c93cf58cad1743b4205411"><td class="memItemLeft" align="right" valign="top"><a id="acc34082638c93cf58cad1743b4205411" name="acc34082638c93cf58cad1743b4205411"></a>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>radius</b><code> [get]</code></td></tr>
@@ -227,13 +245,6 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>length</b><co
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Cylinder3f &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="el" href="classMR_1_1Cylinder3f.html" title="Generated from class MR.Cylinder3f. This is the non-const half of the class.">MR.Cylinder3f</a></code>. This is the const half of the class. </p>

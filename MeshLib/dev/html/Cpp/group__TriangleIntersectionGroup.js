@@ -3,6 +3,7 @@ var group__TriangleIntersectionGroup =
     [ "MR::TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html", [
       [ "TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html#a85cf83c7e28f559b5b4642be1b6c767e", null ],
       [ "TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html#a29594d31a57c2c211075a6b3fbb7ffbf", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1TriIntersectResult.html#a99f7dbb82ed468da592fa1091bae1257", null ],
       [ "assign", "../Csharp/classMR_1_1TriIntersectResult.html#ab9405d73aa12df2aaa88a3f4354fca55", null ]
     ] ],
     [ "MR::doesEdgeXySeparate", "group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305", null ],

@@ -3,6 +3,7 @@ var classMR_1_1Const__DecimateSettings =
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a3a3dde2ea4cfeb3893a023c4ad3769fa", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aab19d575f42e85e2812eb6522c9dcdce", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a416cbe92341394d850efa8a7306a0d67", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__DecimateSettings.html#a5592da064eec78fcb6faf597c94fd850", null ],
     [ "adjustCollapse", "classMR_1_1Const__DecimateSettings.html#a9dc97006f89ea9b6e0685824668404f7", null ],
     [ "angleWeightedDistToPlane", "classMR_1_1Const__DecimateSettings.html#a5b98104d4d0ce4400db01ab16d5d758a", null ],
     [ "bdVerts", "classMR_1_1Const__DecimateSettings.html#a3a224d397338d60b39de339802c6aa90", null ],

@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__OneMeshContour.html',''); initResiza
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__OneMeshContour-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_OneMeshContour Class Reference</div></div>
@@ -197,11 +198,25 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0d60953788205c2670952e2b1e5d9321" id="r_a0d60953788205c2670952e2b1e5d9321"><td class="memItemLeft" align="right" valign="top"><a id="a0d60953788205c2670952e2b1e5d9321" name="a0d60953788205c2670952e2b1e5d9321"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a0d60953788205c2670952e2b1e5d9321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a2bdf823de04ea401a276c21a45f90" id="r_a54a2bdf823de04ea401a276c21a45f90"><td class="memItemLeft" align="right" valign="top"><a id="a54a2bdf823de04ea401a276c21a45f90" name="a54a2bdf823de04ea401a276c21a45f90"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a54a2bdf823de04ea401a276c21a45f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a54a2bdf823de04ea401a276c21a45f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a696ab7d04ab2a24dac3ae9d9a1243e21" id="r_a696ab7d04ab2a24dac3ae9d9a1243e21"><td class="memItemLeft" align="right" valign="top"><a id="a696ab7d04ab2a24dac3ae9d9a1243e21" name="a696ab7d04ab2a24dac3ae9d9a1243e21"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_closed</b></td></tr>
+<tr class="separator:a696ab7d04ab2a24dac3ae9d9a1243e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_OneMeshContour &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a1d6b36df9a491d96a91d48a51c627633" id="r_a1d6b36df9a491d96a91d48a51c627633"><td class="memItemLeft" align="right" valign="top"><a id="a1d6b36df9a491d96a91d48a51c627633" name="a1d6b36df9a491d96a91d48a51c627633"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection.html">MR.Std.Const_Vector_MROneMeshIntersection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>intersections</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__MROneMeshIntersection.html">MR.Std.Const_Vector_MROneMeshIntersection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>intersections</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a1d6b36df9a491d96a91d48a51c627633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae111db9379e3cd3eb03c35a9d97f8e64" id="r_ae111db9379e3cd3eb03c35a9d97f8e64"><td class="memItemLeft" align="right" valign="top"><a id="ae111db9379e3cd3eb03c35a9d97f8e64" name="ae111db9379e3cd3eb03c35a9d97f8e64"></a>
 unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>closed</b><code> [get]</code></td></tr>
@@ -211,13 +226,6 @@ unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>closed</b><cod
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_OneMeshContour &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR.OneMeshContour</a></code>. This is the const half of the class. </p>

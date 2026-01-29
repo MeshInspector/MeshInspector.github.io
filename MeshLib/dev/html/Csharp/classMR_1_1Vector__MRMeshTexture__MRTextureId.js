@@ -5,6 +5,7 @@ var classMR_1_1Vector__MRMeshTexture__MRTextureId =
     [ "Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#a1478b190afa1fb96f2590a3ae0cf517d", null ],
     [ "Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#ad7fb85cf7d98c6e8e208dfb588359e0c", null ],
     [ "Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#a576eb90c835f2655def90e5c0a226feb", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#a86a2232b549f8659e82f75cbc28441b2", null ],
     [ "assign", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#aabb469c1fad56ba9229300d48b2b64c9", null ],
     [ "autoResizeAt", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#a8fb874ff0a319b33ae4d1455af017c29", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html#a01b5455f4d83c611fc263fd66e5e9cc7", null ],

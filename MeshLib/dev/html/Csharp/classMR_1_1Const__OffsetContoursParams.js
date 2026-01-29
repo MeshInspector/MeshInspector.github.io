@@ -15,5 +15,6 @@ var classMR_1_1Const__OffsetContoursParams =
     [ "Const_OffsetContoursParams", "classMR_1_1Const__OffsetContoursParams.html#a9a1c8081a5041009976ff692498330af", null ],
     [ "Const_OffsetContoursParams", "classMR_1_1Const__OffsetContoursParams.html#ab0ac0f3c2f8156a9098aac37cf8c616d", null ],
     [ "Const_OffsetContoursParams", "classMR_1_1Const__OffsetContoursParams.html#a11d1ccca87697b67ed4a74e8f697a811", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__OffsetContoursParams.html#a0a675797e25312c20c3ecd21e524c1a6", null ],
     [ "indicesMap", "classMR_1_1Const__OffsetContoursParams.html#aa2c96ce29b9083ce7f5e0e5021c0af71", null ]
 ];

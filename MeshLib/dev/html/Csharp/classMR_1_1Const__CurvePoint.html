@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__CurvePoint.html',''); initResizable(
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__CurvePoint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_CurvePoint Class Reference</div></div>
@@ -184,7 +185,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_CurvePoint</b
 <tr class="memdesc:ad201d9879d6f4dd1ab48fee81e2de52a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:ad201d9879d6f4dd1ab48fee81e2de52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa66078cd0790c74bd958f24d936af046" id="r_aa66078cd0790c74bd958f24d936af046"><td class="memItemLeft" align="right" valign="top"><a id="aa66078cd0790c74bd958f24d936af046" name="aa66078cd0790c74bd958f24d936af046"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_CurvePoint</b> (<a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="#ab6c000a20408bde179a55d7e24cb02e0">pos</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="#abe795dda3ec88dd30a8dae3d2530fa91">dir</a>, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> snorm)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_CurvePoint</b> (<a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pos, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> dir, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> snorm)</td></tr>
 <tr class="memdesc:aa66078cd0790c74bd958f24d936af046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1CurvePoint.html">MR.CurvePoint</a></code> elementwise. <br /></td></tr>
 <tr class="separator:aa66078cd0790c74bd958f24d936af046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90000edcdf66d2366f6837f920ebc67a" id="r_a90000edcdf66d2366f6837f920ebc67a"><td class="memItemLeft" align="right" valign="top"><a id="a90000edcdf66d2366f6837f920ebc67a" name="a90000edcdf66d2366f6837f920ebc67a"></a>
@@ -197,16 +198,36 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a21b2413a5298acae47ac8d94339e5693" id="r_a21b2413a5298acae47ac8d94339e5693"><td class="memItemLeft" align="right" valign="top"><a id="a21b2413a5298acae47ac8d94339e5693" name="a21b2413a5298acae47ac8d94339e5693"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a21b2413a5298acae47ac8d94339e5693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d13842d7bc900b27409beb886cd316" id="r_a17d13842d7bc900b27409beb886cd316"><td class="memItemLeft" align="right" valign="top"><a id="a17d13842d7bc900b27409beb886cd316" name="a17d13842d7bc900b27409beb886cd316"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a17d13842d7bc900b27409beb886cd316"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a17d13842d7bc900b27409beb886cd316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab12ac4ea178f848ffeb6d94c22610d74" id="r_ab12ac4ea178f848ffeb6d94c22610d74"><td class="memItemLeft" align="right" valign="top"><a id="ab12ac4ea178f848ffeb6d94c22610d74" name="ab12ac4ea178f848ffeb6d94c22610d74"></a>
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_pos</b></td></tr>
+<tr class="memdesc:ab12ac4ea178f848ffeb6d94c22610d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">direction along the curve <br /></td></tr>
+<tr class="separator:ab12ac4ea178f848ffeb6d94c22610d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae974b86ef2b857a7ba70245b085c1345" id="r_ae974b86ef2b857a7ba70245b085c1345"><td class="memItemLeft" align="right" valign="top"><a id="ae974b86ef2b857a7ba70245b085c1345" name="ae974b86ef2b857a7ba70245b085c1345"></a>
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_dir</b></td></tr>
+<tr class="memdesc:ae974b86ef2b857a7ba70245b085c1345"><td class="mdescLeft">&#160;</td><td class="mdescRight">the normal of the surface where the curve is located <br /></td></tr>
+<tr class="separator:ae974b86ef2b857a7ba70245b085c1345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b19b9869e5e340de57bec253f47de7b" id="r_a5b19b9869e5e340de57bec253f47de7b"><td class="memItemLeft" align="right" valign="top"><a id="a5b19b9869e5e340de57bec253f47de7b" name="a5b19b9869e5e340de57bec253f47de7b"></a>
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_snorm</b></td></tr>
+<tr class="separator:a5b19b9869e5e340de57bec253f47de7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_CurvePoint &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ab6c000a20408bde179a55d7e24cb02e0" id="r_ab6c000a20408bde179a55d7e24cb02e0"><td class="memItemLeft" align="right" valign="top"><a id="ab6c000a20408bde179a55d7e24cb02e0" name="ab6c000a20408bde179a55d7e24cb02e0"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pos</b><code> [get]</code></td></tr>
-<tr class="memdesc:ab6c000a20408bde179a55d7e24cb02e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">direction along the curve <br /></td></tr>
 <tr class="separator:ab6c000a20408bde179a55d7e24cb02e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe795dda3ec88dd30a8dae3d2530fa91" id="r_abe795dda3ec88dd30a8dae3d2530fa91"><td class="memItemLeft" align="right" valign="top"><a id="abe795dda3ec88dd30a8dae3d2530fa91" name="abe795dda3ec88dd30a8dae3d2530fa91"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dir</b><code> [get]</code></td></tr>
-<tr class="memdesc:abe795dda3ec88dd30a8dae3d2530fa91"><td class="mdescLeft">&#160;</td><td class="mdescRight">the normal of the surface where the curve is located <br /></td></tr>
 <tr class="separator:abe795dda3ec88dd30a8dae3d2530fa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eee33e98d1280fad629ec6392bfd8ec" id="r_a3eee33e98d1280fad629ec6392bfd8ec"><td class="memItemLeft" align="right" valign="top"><a id="a3eee33e98d1280fad629ec6392bfd8ec" name="a3eee33e98d1280fad629ec6392bfd8ec"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>snorm</b><code> [get]</code></td></tr>
@@ -216,13 +237,6 @@ unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_CurvePoint &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CurvePoint.html">MR.CurvePoint</a></code>. This is the const half of the class. </p>

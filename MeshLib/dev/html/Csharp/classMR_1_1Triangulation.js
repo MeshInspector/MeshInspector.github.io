@@ -5,6 +5,7 @@ var classMR_1_1Triangulation =
     [ "Triangulation", "classMR_1_1Triangulation.html#a11f56413e0a4ead139f2fd258b002c53", null ],
     [ "Triangulation", "classMR_1_1Triangulation.html#a1cdf04868b63fa653f6ebb0f7405feb5", null ],
     [ "Triangulation", "classMR_1_1Triangulation.html#ab801ad89f08ad1c57c7176f71fdcc731", null ],
+    [ "_FinalizeFields", "classMR_1_1Triangulation.html#a62d39ec30ea3fdbb348c1f6217119a88", null ],
     [ "assign", "classMR_1_1Triangulation.html#af3773cdc1e54e4e0f8e878c6f0553286", null ],
     [ "autoResizeAt", "classMR_1_1Triangulation.html#a0c9c411a222fccaeb88a8d94a5a60a79", null ],
     [ "autoResizeSet", "classMR_1_1Triangulation.html#a6b31ce23a80adf14bb45b73a64ab3cd7", null ],

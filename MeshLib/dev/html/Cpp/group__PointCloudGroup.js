@@ -3,6 +3,7 @@ var group__PointCloudGroup =
     [ "MR::PointCloud", "../Csharp/classMR_1_1PointCloud.html", [
       [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#a4d782ee2ce58df0cb8f8e1304482f12c", null ],
       [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#abbebb117a9a8e2c986d53ff756cbd476", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1PointCloud.html#acdaee8b6df06661f62a8939c1cbedb51", null ],
       [ "addPartByMask", "../Csharp/classMR_1_1PointCloud.html#a022f9171b642872585c29444895003f0", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a11a8de8c87003c23bb7c4fa80facf8d6", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a5e88af4b4426f9a92fc67cfb4b6e2af4", null ],

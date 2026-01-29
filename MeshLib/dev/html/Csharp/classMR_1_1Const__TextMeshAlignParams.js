@@ -2,6 +2,7 @@ var classMR_1_1Const__TextMeshAlignParams =
 [
     [ "Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html#a3ea8b0c44217fe21239acaf6c9a65a6a", null ],
     [ "Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html#a6e5571b83ce9f4e19b693300e02cc335", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__TextMeshAlignParams.html#ab69f766f96ea63a2d28a182b33e64e14", null ],
     [ "direction", "classMR_1_1Const__TextMeshAlignParams.html#a916ba43e869c07a03096ec0ef3af2699", null ],
     [ "fontBasedSizeCalc", "classMR_1_1Const__TextMeshAlignParams.html#a0f98ca95ed867eb98cd9251b546e299a", null ],
     [ "fontHeight", "classMR_1_1Const__TextMeshAlignParams.html#ac7a36b41fc01dc785fb68f113ac9f1f1", null ],

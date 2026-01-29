@@ -5,6 +5,7 @@ var classMR_1_1EdgePoint =
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a516ef5f472c5216f0048787ae3a4e1e3", null ],
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a5f7172d14fff7bb8cbd1b092576bf405", null ],
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a95e3ddd0151cac739884a28894cd425d", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1EdgePoint.html#a5502b5a46850509beed784878dd65c7e", null ],
     [ "assign", "../Csharp/classMR_1_1EdgePoint.html#a5e0a95b62e036b305c97582404c64981", null ],
     [ "moveToClosestVertex", "../Csharp/classMR_1_1EdgePoint.html#a14c52358111de479d6d6dd4ff1e26d54", null ],
     [ "e", "../Csharp/classMR_1_1EdgePoint.html#ae5f75fe64f2411d7350e562e7ca200a8", null ]

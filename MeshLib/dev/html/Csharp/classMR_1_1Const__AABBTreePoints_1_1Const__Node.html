@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__AABBTreePoints_1_1Const__Node.html',
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__AABBTreePoints_1_1Const__Node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_AABBTreePoints.Const_Node Class Reference</div></div>
@@ -185,7 +186,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Node</b> ()</
 <tr class="memdesc:a74a972f6d6cbfdd1a10ee2030757219c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a74a972f6d6cbfdd1a10ee2030757219c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93aed39fe2108375c52409041efdda63" id="r_a93aed39fe2108375c52409041efdda63"><td class="memItemLeft" align="right" valign="top"><a id="a93aed39fe2108375c52409041efdda63" name="a93aed39fe2108375c52409041efdda63"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Node</b> (<a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> <a class="el" href="#a931b9ca1064a0a58a01d32deed242dc8">box</a>, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> <a class="el" href="#a029116b3190d362c249854b962a56504">l</a>, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> r)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_Node</b> (<a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> box, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> l, <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> r)</td></tr>
 <tr class="memdesc:a93aed39fe2108375c52409041efdda63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1AABBTreePoints_1_1Node.html">MR.AABBTreePoints.Node</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a93aed39fe2108375c52409041efdda63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f4dc1212652f6de995a62e30ee5379" id="r_a03f4dc1212652f6de995a62e30ee5379"><td class="memItemLeft" align="right" valign="top"><a id="a03f4dc1212652f6de995a62e30ee5379" name="a03f4dc1212652f6de995a62e30ee5379"></a>
@@ -206,16 +207,36 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ad40b4ec12a8ee80ad8ff5f0160cc9978" id="r_ad40b4ec12a8ee80ad8ff5f0160cc9978"><td class="memItemLeft" align="right" valign="top"><a id="ad40b4ec12a8ee80ad8ff5f0160cc9978" name="ad40b4ec12a8ee80ad8ff5f0160cc9978"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:ad40b4ec12a8ee80ad8ff5f0160cc9978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9864745607ba66f6cbb6ee823198d675" id="r_a9864745607ba66f6cbb6ee823198d675"><td class="memItemLeft" align="right" valign="top"><a id="a9864745607ba66f6cbb6ee823198d675" name="a9864745607ba66f6cbb6ee823198d675"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a9864745607ba66f6cbb6ee823198d675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a9864745607ba66f6cbb6ee823198d675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:abc2593cb7075310cf72cca24a51a3581" id="r_abc2593cb7075310cf72cca24a51a3581"><td class="memItemLeft" align="right" valign="top"><a id="abc2593cb7075310cf72cca24a51a3581" name="abc2593cb7075310cf72cca24a51a3581"></a>
+unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_box</b></td></tr>
+<tr class="memdesc:abc2593cb7075310cf72cca24a51a3581"><td class="mdescLeft">&#160;</td><td class="mdescRight">left child node for an inner node, or -(l+1) is the index of the first point in a leaf node <br /></td></tr>
+<tr class="separator:abc2593cb7075310cf72cca24a51a3581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70ad257d8bfb7d2904012b786c94790" id="r_af70ad257d8bfb7d2904012b786c94790"><td class="memItemLeft" align="right" valign="top"><a id="af70ad257d8bfb7d2904012b786c94790" name="af70ad257d8bfb7d2904012b786c94790"></a>
+unsafe <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_l</b></td></tr>
+<tr class="memdesc:af70ad257d8bfb7d2904012b786c94790"><td class="mdescLeft">&#160;</td><td class="mdescRight">right child node for an inner node, or -(r+1) is the index of the last point in a leaf node <br /></td></tr>
+<tr class="separator:af70ad257d8bfb7d2904012b786c94790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadd2d20d2ac5fbf4c775921a065748a" id="r_adadd2d20d2ac5fbf4c775921a065748a"><td class="memItemLeft" align="right" valign="top"><a id="adadd2d20d2ac5fbf4c775921a065748a" name="adadd2d20d2ac5fbf4c775921a065748a"></a>
+unsafe <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_r</b></td></tr>
+<tr class="separator:adadd2d20d2ac5fbf4c775921a065748a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Node &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a931b9ca1064a0a58a01d32deed242dc8" id="r_a931b9ca1064a0a58a01d32deed242dc8"><td class="memItemLeft" align="right" valign="top"><a id="a931b9ca1064a0a58a01d32deed242dc8" name="a931b9ca1064a0a58a01d32deed242dc8"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><b>box</b><code> [get]</code></td></tr>
-<tr class="memdesc:a931b9ca1064a0a58a01d32deed242dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">left child node for an inner node, or -(l+1) is the index of the first point in a leaf node <br /></td></tr>
 <tr class="separator:a931b9ca1064a0a58a01d32deed242dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a029116b3190d362c249854b962a56504" id="r_a029116b3190d362c249854b962a56504"><td class="memItemLeft" align="right" valign="top"><a id="a029116b3190d362c249854b962a56504" name="a029116b3190d362c249854b962a56504"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>l</b><code> [get]</code></td></tr>
-<tr class="memdesc:a029116b3190d362c249854b962a56504"><td class="mdescLeft">&#160;</td><td class="mdescRight">right child node for an inner node, or -(r+1) is the index of the last point in a leaf node <br /></td></tr>
 <tr class="separator:a029116b3190d362c249854b962a56504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3501b13ebf973231780ffabd7b3bbff" id="r_aa3501b13ebf973231780ffabd7b3bbff"><td class="memItemLeft" align="right" valign="top"><a id="aa3501b13ebf973231780ffabd7b3bbff" name="aa3501b13ebf973231780ffabd7b3bbff"></a>
 unsafe ref readonly <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>r</b><code> [get]</code></td></tr>
@@ -225,13 +246,6 @@ unsafe ref readonly <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Node &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1AABBTreePoints_1_1Node.html">MR.AABBTreePoints.Node</a></code>. This is the const half of the class. </p>

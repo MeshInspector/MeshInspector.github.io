@@ -12,6 +12,7 @@ var classMR_1_1Const__BooleanResultMapper =
     ] ],
     [ "Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html#a0f0f8b825061bdf94c068842f74ada22", null ],
     [ "Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html#a093261f8519e80a2421089f23c0055e3", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__BooleanResultMapper.html#a79ec04d12036b72769f2159de4693bf7", null ],
     [ "getMaps", "classMR_1_1Const__BooleanResultMapper.html#a6af09173985861b4df807c90ae252ed1", null ],
     [ "map", "classMR_1_1Const__BooleanResultMapper.html#adac473f45960c58001dc282fa9b7adf6", null ],
     [ "map", "classMR_1_1Const__BooleanResultMapper.html#a830c4f6a08c5c9db35e21fb3fb73d63f", null ],

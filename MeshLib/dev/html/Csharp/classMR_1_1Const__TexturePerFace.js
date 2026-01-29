@@ -5,6 +5,7 @@ var classMR_1_1Const__TexturePerFace =
     [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#ae7dd7b4391c8458f3f041a32a03b54de", null ],
     [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#a1175fbd2b319c3511a083026e92cf126", null ],
     [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#a5180b7d4ca576a75a6b7a74fedda7088", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__TexturePerFace.html#ab94ce826f8d9e503b9b013a56c6ecb05", null ],
     [ "back", "classMR_1_1Const__TexturePerFace.html#a6ac6fa484a79c833186ff02f7020fdd9", null ],
     [ "backId", "classMR_1_1Const__TexturePerFace.html#aad45b2f47a5a5ef2fe416849046df826", null ],
     [ "beginId", "classMR_1_1Const__TexturePerFace.html#acd3a55a100ff566a92dfc18a6d564410", null ],

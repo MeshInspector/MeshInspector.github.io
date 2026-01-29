@@ -9,6 +9,7 @@ var classMR_1_1Const__Pdf_1_1Const__ImageParams =
     [ "Const_ImageParams", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#a10a4fde04a76ffa3f67a2830e7735097", null ],
     [ "Const_ImageParams", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#a0b48680160eeccd62953588ce4b8ed4e", null ],
     [ "Const_ImageParams", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#a081571fc2457f585e7257f2eee8b7bef", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#ad0515638c67db63722d33d37a497de0e", null ],
     [ "caption", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#a6c3a6df0bc4de7d6787e532793a0c3da", null ],
     [ "size", "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#aa2f497531f47a7c3a323a916db4d3c00", null ]
 ];

@@ -2,6 +2,7 @@ var classMR_1_1PointsSave_1_1CtmSavePointsOptions =
 [
     [ "CtmSavePointsOptions", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#ab30a942d4c29425a35bc9f5a1e2d3d15", null ],
     [ "CtmSavePointsOptions", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a71f0ec81b22f6e0d3aa07e813ed87ffa", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#ae418acd34b5947c799ad3990b0ac31c0", null ],
     [ "assign", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a64ec600d0beae0a182569587df0019b8", null ],
     [ "colors", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a344cee3f61428d9345893c6cb15fb531", null ],
     [ "comment", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#abfaf5dd241e38e1983c9fcbb7bbf7d55", null ],

@@ -5,6 +5,7 @@ var classMR_1_1FaceMap =
     [ "FaceMap", "classMR_1_1FaceMap.html#a645d6cefe909be53acad03ca97f97a7c", null ],
     [ "FaceMap", "classMR_1_1FaceMap.html#a22d16c52f9b039eb59828c449a6e3e25", null ],
     [ "FaceMap", "classMR_1_1FaceMap.html#ae874b6d5cd05175166f2f4ddc0a2ac4c", null ],
+    [ "_FinalizeFields", "classMR_1_1FaceMap.html#a7b328d424763ec1136c3f1dd079aa236", null ],
     [ "assign", "classMR_1_1FaceMap.html#a862c5a3080a577ec8f0d418a04c28953", null ],
     [ "autoResizeAt", "classMR_1_1FaceMap.html#a7581d85539f96c39f9c7695343fd076f", null ],
     [ "autoResizeSet", "classMR_1_1FaceMap.html#aab3451c9f1a0962314ad05af47610ade", null ],

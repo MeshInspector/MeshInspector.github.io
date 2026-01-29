@@ -5,6 +5,7 @@ var classMR_1_1Const__Triangulation =
     [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#ac4e9508bf566a137f7c7bb64b94b5466", null ],
     [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#a0fec9b0886db84273e85df3ca6aee324", null ],
     [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#aa4341e3ff4b18674528bfea972893789", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Triangulation.html#a1cec6e5a9014755f327415652d7ee664", null ],
     [ "back", "classMR_1_1Const__Triangulation.html#a2b1760e881dc6233f19e909ca624e15b", null ],
     [ "backId", "classMR_1_1Const__Triangulation.html#a86d458fb73ad93939df866eda7eda4f6", null ],
     [ "beginId", "classMR_1_1Const__Triangulation.html#a0bc80d632dfc888b4b1cfb822ea07814", null ],

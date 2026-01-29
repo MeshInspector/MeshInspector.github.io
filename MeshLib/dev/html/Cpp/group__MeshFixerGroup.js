@@ -4,6 +4,7 @@ var group__MeshFixerGroup =
       [ "FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a3c9b5a14a7d0e81bed4a289ee27d1b76", null ],
       [ "FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a706a42905fd83d916dec3dd177680d19", null ],
       [ "FixMeshDegeneraciesParams", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a2ad2ea9e85e256bcffb91c9e3bc93519", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a1e6a1cbd28d5b47e743457f475975a9c", null ],
       [ "assign", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#afd7292ca48775e0ab94233157bde5f54", null ],
       [ "criticalTriAspectRatio", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#ae34824faf9d7160cc8698775f5060672", null ],
       [ "maxAngleChange", "../Csharp/classMR_1_1FixMeshDegeneraciesParams.html#a99d770ee3259c6f1bc5ba163f3910971", null ],
@@ -25,6 +26,7 @@ var group__MeshFixerGroup =
       [ "FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html#a5a8334df1e9ecf84c6bea4f4d2180f2e", null ],
       [ "FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html#a6ecc07dc16e1798c642a31533aabe1f0", null ],
       [ "FindDisorientationParams", "../Csharp/classMR_1_1FindDisorientationParams.html#ad2b59bbf468b95b034491daeed513270", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1FindDisorientationParams.html#a0800f8cbbdb82349533ec97688c4c4eb", null ],
       [ "assign", "../Csharp/classMR_1_1FindDisorientationParams.html#a22f525f95365f524c74f821d3f2d946a", null ],
       [ "virtualFillHoles", "../Csharp/classMR_1_1FindDisorientationParams.html#a7c8b77fe078d4351170c27bde91cf33d", null ]
     ] ],

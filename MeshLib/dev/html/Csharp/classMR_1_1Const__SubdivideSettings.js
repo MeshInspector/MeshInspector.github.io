@@ -3,6 +3,7 @@ var classMR_1_1Const__SubdivideSettings =
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a14fd7dd1a38583764e857562c06685a3", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a42aa4749a018b62f833ba9024c77e28b", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a188023ed4a15e58cb7783f4f1a85324d", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__SubdivideSettings.html#a6e1514876f432e7057f62e98dbf60680", null ],
     [ "beforeEdgeSplit", "classMR_1_1Const__SubdivideSettings.html#a19927104d631e7f8159836bb33a61ee6", null ],
     [ "criticalAspectRatioFlip", "classMR_1_1Const__SubdivideSettings.html#a39080af4b5e8cfdff7f5523b605db6cf", null ],
     [ "maintainRegion", "classMR_1_1Const__SubdivideSettings.html#aa7b5c3182a8181ed2703c5b8e3082a5d", null ],

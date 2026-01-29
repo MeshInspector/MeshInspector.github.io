@@ -1,6 +1,7 @@
 var classMR_1_1Const__PolynomialWrapper__Double =
 [
     [ "Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html#a23621e8bbdc627763369a5a5286ca87e", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__PolynomialWrapper__Double.html#a8114bdef86fc72d189df5a4cfeba4676", null ],
     [ "call", "classMR_1_1Const__PolynomialWrapper__Double.html#a5fe042b1ec436bf59052bd6dfe4572ae", null ],
     [ "deriv", "classMR_1_1Const__PolynomialWrapper__Double.html#ac06f0d83ed31cf79fb36a37fab673d81", null ],
     [ "intervalMin", "classMR_1_1Const__PolynomialWrapper__Double.html#a4739892854a821402c891bf98195a740", null ]

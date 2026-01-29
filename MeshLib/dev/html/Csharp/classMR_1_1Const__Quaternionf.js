@@ -6,6 +6,7 @@ var classMR_1_1Const__Quaternionf =
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a0bb33f1a5850af4f68e115f4b407eac9", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a7bb8fabf33cf342b5381c4bb0e2b9d4b", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a5a57d12636247db4852ef1c0feb76a8a", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Quaternionf.html#a5b12e440c86689fd95f6e9d950247da4", null ],
     [ "angle", "classMR_1_1Const__Quaternionf.html#adf749588cbbdc65fc4093ad47c3d516b", null ],
     [ "axis", "classMR_1_1Const__Quaternionf.html#aa161cde902b2823477a5fad8e5d6cf33", null ],
     [ "call", "classMR_1_1Const__Quaternionf.html#a9e46e2b0128d88673e04889c83537c9b", null ],
@@ -23,7 +24,7 @@ var classMR_1_1Const__Quaternionf =
     [ "slerp", "classMR_1_1Const__Quaternionf.html#a851554426a977f88d60f00fcedd0ef28", null ],
     [ "slerp", "classMR_1_1Const__Quaternionf.html#a6f087c919498b60849a7b474dc3b4548", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a57048a64f93c2ca4e98822bfeab6a40a", null ],
-    [ "a", "classMR_1_1Const__Quaternionf.html#a65d29c13d60e6d90f9daabc17db29c9c", null ],
-    [ "b", "classMR_1_1Const__Quaternionf.html#abf05bc6a3c4eb7eccbf68bb2e04cc731", null ],
-    [ "c", "classMR_1_1Const__Quaternionf.html#ae9072fd8f50ccdd4e076b57c9f29a802", null ]
+    [ "__ref_storage_a", "classMR_1_1Const__Quaternionf.html#a02a7729a186bb819897ed10f504123ac", null ],
+    [ "__ref_storage_b", "classMR_1_1Const__Quaternionf.html#a2b0a193ce05f44a3c56ad6fcf8cc95f1", null ],
+    [ "__ref_storage_c", "classMR_1_1Const__Quaternionf.html#a30d543171609311dbd1c342221dd46be", null ]
 ];

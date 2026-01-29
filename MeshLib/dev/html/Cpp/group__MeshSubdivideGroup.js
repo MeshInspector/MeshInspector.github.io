@@ -4,6 +4,7 @@ var group__MeshSubdivideGroup =
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#afab9ec8867cf7ea966aca70cd693d026", null ],
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#a06ccf85c000a4f350b7195e11c285f3c", null ],
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#a77e5fc9232369309ce10093b3e9a59cd", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1SubdivideSettings.html#a2d805d4ba66cf5164c4500606c98fbde", null ],
       [ "assign", "../Csharp/classMR_1_1SubdivideSettings.html#ac0725c0a8ca1e72ee28c30686ef32d02", null ],
       [ "beforeEdgeSplit", "../Csharp/classMR_1_1SubdivideSettings.html#a67877f5bb4f990a1e522dee95cd7bc09", null ],
       [ "criticalAspectRatioFlip", "../Csharp/classMR_1_1SubdivideSettings.html#a092d79fdac95176ce7e847dbddcad5d6", null ],

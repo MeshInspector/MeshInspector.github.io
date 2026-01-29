@@ -6,6 +6,7 @@ var classMR_1_1Const__MeshTriPoint =
     [ "Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#ac64bf71cc7bf4e3ba38b98b62c2f4fe4", null ],
     [ "Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#afa426370df9ae5db8aa4c579621c39bb", null ],
     [ "Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#ac77d6a0353da9933db5da0d59d681660", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__MeshTriPoint.html#ad69db14f005313ff086b696c60ca269e", null ],
     [ "canonical", "classMR_1_1Const__MeshTriPoint.html#a0a9f251fb674b3736aa006d321171352", null ],
     [ "fromTriangle", "classMR_1_1Const__MeshTriPoint.html#a39d5d02a422ddccf47f862be73825e89", null ],
     [ "getWeightedVerts", "classMR_1_1Const__MeshTriPoint.html#ab6d70123f2757c9eeab8ae65ce26a25b", null ],

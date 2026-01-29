@@ -2,6 +2,7 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
 [
     [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a2087714eb68ddd99ccf8a221a98427ac", null ],
     [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1235822151a819d05a5720b08866dee6", null ],
+    [ "_FinalizeFields", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ac6365b51d5281abdd8f27a7026e02ee3", null ],
     [ "colors", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a82a2c56caf3b7db4aec562fe2247bf0e", null ],
     [ "comment", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a23cd7c0114f5f841945a9a0a56f5280d", null ],
     [ "compressionLevel", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aa972689c9367e4d850656f9810c06fbd", null ],

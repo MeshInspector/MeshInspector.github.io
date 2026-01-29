@@ -5,6 +5,7 @@ var classMR_1_1Vector__Char__MRVertId =
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#af721c580d83d11a76eebd48c1ff62383", null ],
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#a0dab58b64c6a00fe29361ca03fb1e82f", null ],
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#a3e451124c1d77cd40f6da6c90e56e9ba", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__Char__MRVertId.html#a1db8ed1f8be60563fa61da82d7244383", null ],
     [ "assign", "classMR_1_1Vector__Char__MRVertId.html#a529e4301194aba10290019d8cbac0c46", null ],
     [ "autoResizeAt", "classMR_1_1Vector__Char__MRVertId.html#a198e46d8e2c9755e9a36855dc745fac0", null ],
     [ "autoResizeSet", "classMR_1_1Vector__Char__MRVertId.html#a333dd9e8f423efa6428adfe901734c92", null ],

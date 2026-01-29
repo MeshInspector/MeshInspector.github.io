@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__LinesLoadSettings.html',''); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__LinesLoadSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_LinesLoadSettings Class Reference</div></div>
@@ -184,7 +185,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_LinesLoadSett
 <tr class="memdesc:a525971bc1e7b944154d4828f7ac99576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:a525971bc1e7b944154d4828f7ac99576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e9067470629eb0291e26ba9e176001b" id="r_a4e9067470629eb0291e26ba9e176001b"><td class="memItemLeft" align="right" valign="top"><a id="a4e9067470629eb0291e26ba9e176001b" name="a4e9067470629eb0291e26ba9e176001b"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_LinesLoadSettings</b> (<a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? <a class="el" href="#a4d367e2c395b847a39441c7ba8eb95a7">colors</a>, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a> <a class="el" href="#a470cb2a1d4cb6a0832c309c93c525ab0">callback</a>, bool telemetrySignal)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_LinesLoadSettings</b> (<a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? colors, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a> <a class="el" href="#a470cb2a1d4cb6a0832c309c93c525ab0">callback</a>, bool telemetrySignal)</td></tr>
 <tr class="memdesc:a4e9067470629eb0291e26ba9e176001b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1LinesLoadSettings.html">MR.LinesLoadSettings</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a4e9067470629eb0291e26ba9e176001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7638587c03ea78b125b49145621f470e" id="r_a7638587c03ea78b125b49145621f470e"><td class="memItemLeft" align="right" valign="top"><a id="a7638587c03ea78b125b49145621f470e" name="a7638587c03ea78b125b49145621f470e"></a>
@@ -197,15 +198,32 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a619461756a1fc18648565fb642841239" id="r_a619461756a1fc18648565fb642841239"><td class="memItemLeft" align="right" valign="top"><a id="a619461756a1fc18648565fb642841239" name="a619461756a1fc18648565fb642841239"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a619461756a1fc18648565fb642841239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c9fac846692c3a78d66fc21a986aec" id="r_a55c9fac846692c3a78d66fc21a986aec"><td class="memItemLeft" align="right" valign="top"><a id="a55c9fac846692c3a78d66fc21a986aec" name="a55c9fac846692c3a78d66fc21a986aec"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a55c9fac846692c3a78d66fc21a986aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a55c9fac846692c3a78d66fc21a986aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:adde8a139c2189b3a232d7250282ec10e" id="r_adde8a139c2189b3a232d7250282ec10e"><td class="memItemLeft" align="right" valign="top"><a id="adde8a139c2189b3a232d7250282ec10e" name="adde8a139c2189b3a232d7250282ec10e"></a>
+unsafe MR.VertColors._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_colors</b></td></tr>
+<tr class="memdesc:adde8a139c2189b3a232d7250282ec10e"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for set progress and stop process <br /></td></tr>
+<tr class="separator:adde8a139c2189b3a232d7250282ec10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c133d4ff2d32eabcba4e451725d4e96" id="r_a7c133d4ff2d32eabcba4e451725d4e96"><td class="memItemLeft" align="right" valign="top"><a id="a7c133d4ff2d32eabcba4e451725d4e96" name="a7c133d4ff2d32eabcba4e451725d4e96"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_telemetrySignal</b></td></tr>
+<tr class="separator:a7c133d4ff2d32eabcba4e451725d4e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_LinesLoadSettings &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a4d367e2c395b847a39441c7ba8eb95a7" id="r_a4d367e2c395b847a39441c7ba8eb95a7"><td class="memItemLeft" align="right" valign="top"><a id="a4d367e2c395b847a39441c7ba8eb95a7" name="a4d367e2c395b847a39441c7ba8eb95a7"></a>
 unsafe MR.? <a class="el" href="classMR_1_1VertColors.html">VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><b>colors</b><code> [get]</code></td></tr>
-<tr class="memdesc:a4d367e2c395b847a39441c7ba8eb95a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for set progress and stop process <br /></td></tr>
 <tr class="separator:a4d367e2c395b847a39441c7ba8eb95a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a470cb2a1d4cb6a0832c309c93c525ab0" id="r_a470cb2a1d4cb6a0832c309c93c525ab0"><td class="memItemLeft" align="right" valign="top"><a id="a470cb2a1d4cb6a0832c309c93c525ab0" name="a470cb2a1d4cb6a0832c309c93c525ab0"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>callback</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>callback</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a470cb2a1d4cb6a0832c309c93c525ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about loading <br /></td></tr>
 <tr class="separator:a470cb2a1d4cb6a0832c309c93c525ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a03a532adcfaf0f7f8c301727fa1862" id="r_a8a03a532adcfaf0f7f8c301727fa1862"><td class="memItemLeft" align="right" valign="top"><a id="a8a03a532adcfaf0f7f8c301727fa1862" name="a8a03a532adcfaf0f7f8c301727fa1862"></a>
@@ -216,13 +234,6 @@ unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>telemetrySigna
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_LinesLoadSettings &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>setting for polyline loading from external format, and locations of optional output data Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1LinesLoadSettings.html">MR.LinesLoadSettings</a></code>. This is the const half of the class. </p>

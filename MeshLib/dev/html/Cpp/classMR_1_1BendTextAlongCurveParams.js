@@ -3,6 +3,7 @@ var classMR_1_1BendTextAlongCurveParams =
     [ "BendTextAlongCurveParams", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#ac920e84c5df108f873d9b5e8a1d2dc6c", null ],
     [ "BendTextAlongCurveParams", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#a955aca15a3785e82e514c7e91b488813", null ],
     [ "BendTextAlongCurveParams", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#a5ccd4d2139d456f366933e826d549bad", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#af82c86b4dc25c141762e0a9fafaf1d97", null ],
     [ "assign", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#ab8c2e73e265544201025016b2e9db8a4", null ],
     [ "periodicCurve", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#a4d395c0158b3d29dd5b51b76f077c614", null ],
     [ "pivotBoxPoint", "../Csharp/classMR_1_1BendTextAlongCurveParams.html#ad599e8074622c78868d1dd724eb4d9e3", null ],

@@ -4,6 +4,7 @@ var group__PolylineSubdivideGroup =
       [ "PolylineSubdivideSettings", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#a806445da71b7f999727cc7334bf43a63", null ],
       [ "PolylineSubdivideSettings", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#aeccd3a98e71d8c7303b519e6f03d012d", null ],
       [ "PolylineSubdivideSettings", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#a51b96e0fe17f39e563356c6fcbd3c091", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#a51659239defc6f6f810730b6376218d3", null ],
       [ "assign", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#a2d0ee28383a5c98f2588c56d0825125f", null ],
       [ "maxEdgeLen", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#aef0e2b462d5e96efa9e91879401a1533", null ],
       [ "maxEdgeSplits", "../Csharp/classMR_1_1PolylineSubdivideSettings.html#a30786f743f4d38f16a5566df8e3595bd", null ],

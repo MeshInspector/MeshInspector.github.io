@@ -4,12 +4,14 @@ var group__BasicStructuresGroup =
       [ "Image", "../Csharp/classMR_1_1Image.html#a1f036f874c471aa6766cdf669331e4f9", null ],
       [ "Image", "../Csharp/classMR_1_1Image.html#a601f4b5c1a8b6cb4097f98bb8f91b0af", null ],
       [ "Image", "../Csharp/classMR_1_1Image.html#a883df314f57ad180b5cb8bb1180f9b63", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1Image.html#a2f43ad38064aaf7ff84f05bdc8050e1c", null ],
       [ "assign", "../Csharp/classMR_1_1Image.html#afeeedc7d3b5c7cfe108b11c461eef319", null ],
       [ "this[in MR.Vector2i p]", "../Csharp/classMR_1_1Image.html#a6fde70b541bd3844938e4009eb0f2a73", null ]
     ] ],
     [ "MR::MeshTexture", "../Csharp/classMR_1_1MeshTexture.html", [
       [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#ab15c60a201193db4373f406496231a31", null ],
       [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#af1b87156b4b14e515348c6436dd02adf", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1MeshTexture.html#a99da0ed068c9ab337012e8f788c3143a", null ],
       [ "assign", "../Csharp/classMR_1_1MeshTexture.html#a354f98bc40300b98fd45b1a6b7cd2708", null ]
     ] ],
     [ "MR::SceneColors", "../Csharp/classMR_1_1SceneColors.html", null ],

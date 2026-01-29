@@ -8,5 +8,6 @@ var classMR_1_1Const__FindDisorientationParams =
     [ "Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html#a4712b6c5c0e1d7dd417b9491557f8880", null ],
     [ "Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html#a15598f434e190ab7d936830aa61e2ce8", null ],
     [ "Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html#a1769ba39a72d3dfa5e8efe5b3dbf8dbe", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__FindDisorientationParams.html#a6817eaacb2ed781b058bd40229c8927a", null ],
     [ "virtualFillHoles", "classMR_1_1Const__FindDisorientationParams.html#a15145a15a767c794a6d377ca5bf6a1c6", null ]
 ];

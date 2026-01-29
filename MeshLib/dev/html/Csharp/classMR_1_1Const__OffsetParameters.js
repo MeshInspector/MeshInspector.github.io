@@ -2,6 +2,7 @@ var classMR_1_1Const__OffsetParameters =
 [
     [ "Const_OffsetParameters", "classMR_1_1Const__OffsetParameters.html#a75ca2a11590b3bc4961267efd28d913a", null ],
     [ "Const_OffsetParameters", "classMR_1_1Const__OffsetParameters.html#a41dd762be0428ab420d72c98151e9bdf", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__OffsetParameters.html#a3fb548a40bc40fe46492d1ff144151b9", null ],
     [ "callBack", "classMR_1_1Const__OffsetParameters.html#a6218d115146301cb0b9413c2a54f116f", null ],
     [ "closeHolesInHoleWindingNumber", "classMR_1_1Const__OffsetParameters.html#aa4dc9ae0952ce87ec502e17a747c8a8f", null ],
     [ "fwn", "classMR_1_1Const__OffsetParameters.html#a41ead8e68d40a344910cfb76f367f60d", null ],

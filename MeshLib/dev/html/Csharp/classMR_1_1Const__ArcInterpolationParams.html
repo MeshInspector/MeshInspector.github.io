@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__ArcInterpolationParams.html',''); in
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__ArcInterpolationParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_ArcInterpolationParams Class Reference</div></div>
@@ -197,6 +198,23 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a52b5d17319dfbe2afcaa9ab6e348c11c" id="r_a52b5d17319dfbe2afcaa9ab6e348c11c"><td class="memItemLeft" align="right" valign="top"><a id="a52b5d17319dfbe2afcaa9ab6e348c11c" name="a52b5d17319dfbe2afcaa9ab6e348c11c"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a52b5d17319dfbe2afcaa9ab6e348c11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a8d20945834fca650e20c222f80521" id="r_a62a8d20945834fca650e20c222f80521"><td class="memItemLeft" align="right" valign="top"><a id="a62a8d20945834fca650e20c222f80521" name="a62a8d20945834fca650e20c222f80521"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a62a8d20945834fca650e20c222f80521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a62a8d20945834fca650e20c222f80521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a6036a7c10d8554d9a00164f833d722cb" id="r_a6036a7c10d8554d9a00164f833d722cb"><td class="memItemLeft" align="right" valign="top"><a id="a6036a7c10d8554d9a00164f833d722cb" name="a6036a7c10d8554d9a00164f833d722cb"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_eps</b></td></tr>
+<tr class="separator:a6036a7c10d8554d9a00164f833d722cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc55ec06cd7ca8ec0a347b083b3a517c" id="r_acc55ec06cd7ca8ec0a347b083b3a517c"><td class="memItemLeft" align="right" valign="top"><a id="acc55ec06cd7ca8ec0a347b083b3a517c" name="acc55ec06cd7ca8ec0a347b083b3a517c"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_maxRadius</b></td></tr>
+<tr class="separator:acc55ec06cd7ca8ec0a347b083b3a517c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ArcInterpolationParams &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -207,20 +225,13 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>eps</b><code>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>maxRadius</b><code> [get]</code></td></tr>
 <tr class="separator:a61d040dd0cc5ab453f23f49693d262b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a16b8a5305ab3c4eb8d225097f6daae" id="r_a2a16b8a5305ab3c4eb8d225097f6daae"><td class="memItemLeft" align="right" valign="top"><a id="a2a16b8a5305ab3c4eb8d225097f6daae" name="a2a16b8a5305ab3c4eb8d225097f6daae"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cb</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cb</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a2a16b8a5305ab3c4eb8d225097f6daae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ArcInterpolationParams &gt;</a></td></tr>
 <tr class="memitem:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object" id="r_a4ba8e4178c1dc86ea8037d127dcac158"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ArcInterpolationParams &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ArcInterpolationParams.html">MR.ArcInterpolationParams</a></code>. This is the const half of the class. </p>

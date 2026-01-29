@@ -7,6 +7,7 @@ var classMR_1_1Const__Matrix3__UnsignedChar =
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad9cda8ccdb8d920852828c6b5fc944e8", null ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad6197f678396b06b3df67a229b3db607", null ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#a25915feb78be11dd6944a51b33fbfd36", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Matrix3__UnsignedChar.html#ab141349b027d8d29f4558a4d32d2d90f", null ],
     [ "col", "classMR_1_1Const__Matrix3__UnsignedChar.html#a6b871a925ff8700fb5939afae9229fd9", null ],
     [ "det", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad7c8f70118a9974a91fa827e17e63164", null ],
     [ "fromColumns", "classMR_1_1Const__Matrix3__UnsignedChar.html#a2496ba88abb6e85f249eb2bad2ff3194", null ],

@@ -8,6 +8,7 @@ var classMR_1_1Const__VarEdgeTri =
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#aceab15a9b4b6d1b7036e9c11420e32ef", null ],
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#a5a7cd3aa3c5720dd27df9787cef024eb", null ],
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#a07041d76d5e0bc62975913805a759daa", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__VarEdgeTri.html#a84335ffe10542635d031a4e853291858", null ],
     [ "edgeTri", "classMR_1_1Const__VarEdgeTri.html#a73e2f4853e00a096632228e4368af89f", null ],
     [ "isEdgeATriB", "classMR_1_1Const__VarEdgeTri.html#a78c8aec0b3dad7471d4800eb391176db", null ],
     [ "operator bool", "classMR_1_1Const__VarEdgeTri.html#acf090ba15d5944ff40fb32692aa4a673", null ],

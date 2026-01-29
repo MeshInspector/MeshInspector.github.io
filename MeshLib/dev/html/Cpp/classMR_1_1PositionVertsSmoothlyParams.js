@@ -3,6 +3,7 @@ var classMR_1_1PositionVertsSmoothlyParams =
     [ "PositionVertsSmoothlyParams", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#a9eb281de4ec9a415a1c706cbb38549b9", null ],
     [ "PositionVertsSmoothlyParams", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#ab576d0b7aced2845f7acf6bde48a01bb", null ],
     [ "PositionVertsSmoothlyParams", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#a0ab443d9ad1c058d4d3cc3d81a18d294", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#ae04d684b8c6f6f627666798c645c7d76", null ],
     [ "assign", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#a543c96f1332089058abaf07978109066", null ],
     [ "edgeWeights", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#a666ae59729a2dedde6f2b9aab091e8f5", null ],
     [ "region", "../Csharp/classMR_1_1PositionVertsSmoothlyParams.html#aa930c5cf73dc2eef162868fbdf33c1d0", null ],

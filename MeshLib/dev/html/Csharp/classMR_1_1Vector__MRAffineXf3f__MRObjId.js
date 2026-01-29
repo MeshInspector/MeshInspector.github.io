@@ -5,6 +5,7 @@ var classMR_1_1Vector__MRAffineXf3f__MRObjId =
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a8a884858feae7d5a0dff17fb585810ae", null ],
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a9ae5d5f0e969baf34100373fa625a3ed", null ],
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#aa7718dcf7334ad20f734678a1b628337", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a9826cae06fc83ae595adddd35d254544", null ],
     [ "assign", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#add3766c6bb782ce9764bb14df20786a2", null ],
     [ "autoResizeAt", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a94dc23de76f5e4069965e50362eceb7a", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#ae399c3c1fdf13e3eea81167f2bdf6a4d", null ],

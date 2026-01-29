@@ -150,6 +150,7 @@ $(function(){initNavTree('classMR_1_1Const__PolylineProjectionResult3.html','');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__PolylineProjectionResult3-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_PolylineProjectionResult3 Class Reference</div></div>
@@ -210,6 +211,26 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:acfe4c3e7ecea1debc74d3df0121e1648" id="r_acfe4c3e7ecea1debc74d3df0121e1648"><td class="memItemLeft" align="right" valign="top"><a id="acfe4c3e7ecea1debc74d3df0121e1648" name="acfe4c3e7ecea1debc74d3df0121e1648"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:acfe4c3e7ecea1debc74d3df0121e1648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dcf2c9b1a2c0bbf739e77eacc19aae1" id="r_a7dcf2c9b1a2c0bbf739e77eacc19aae1"><td class="memItemLeft" align="right" valign="top"><a id="a7dcf2c9b1a2c0bbf739e77eacc19aae1" name="a7dcf2c9b1a2c0bbf739e77eacc19aae1"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a7dcf2c9b1a2c0bbf739e77eacc19aae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a7dcf2c9b1a2c0bbf739e77eacc19aae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a29cf23719318c6cf3c033690c1f90ce0" id="r_a29cf23719318c6cf3c033690c1f90ce0"><td class="memItemLeft" align="right" valign="top"><a id="a29cf23719318c6cf3c033690c1f90ce0" name="a29cf23719318c6cf3c033690c1f90ce0"></a>
+unsafe <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_line</b></td></tr>
+<tr class="separator:a29cf23719318c6cf3c033690c1f90ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a913b974fa0418ca6b86660fb0da8360b" id="r_a913b974fa0418ca6b86660fb0da8360b"><td class="memItemLeft" align="right" valign="top"><a id="a913b974fa0418ca6b86660fb0da8360b" name="a913b974fa0418ca6b86660fb0da8360b"></a>
+unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_point</b></td></tr>
+<tr class="separator:a913b974fa0418ca6b86660fb0da8360b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b4705a1571ee94febf4fdfb380649ab" id="r_a2b4705a1571ee94febf4fdfb380649ab"><td class="memItemLeft" align="right" valign="top"><a id="a2b4705a1571ee94febf4fdfb380649ab" name="a2b4705a1571ee94febf4fdfb380649ab"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_distSq</b></td></tr>
+<tr class="separator:a2b4705a1571ee94febf4fdfb380649ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_PolylineProjectionResult3 &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -230,13 +251,6 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>distSq</b><co
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_PolylineProjectionResult3 &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="el" href="classMR_1_1PolylineProjectionResult3.html" title="Generated from class MR.PolylineProjectionResult3. Derived classes: Direct: (non-virtual) MR....">MR.PolylineProjectionResult3</a></code>. Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1PolylineProjectionResult3Arg.html">MR.PolylineProjectionResult3Arg</a></code> This is the const half of the class. </p>

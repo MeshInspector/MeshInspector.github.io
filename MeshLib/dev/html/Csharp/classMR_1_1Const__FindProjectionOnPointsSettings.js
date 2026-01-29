@@ -3,6 +3,7 @@ var classMR_1_1Const__FindProjectionOnPointsSettings =
     [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#a6f5ef1af6b1ad1d8871d165f36c1a2c0", null ],
     [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#a957e8e8fe939e0d0e419f3521605346c", null ],
     [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#aaeb4a0f612f71ddd244a2fe396bb493c", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__FindProjectionOnPointsSettings.html#a0c2ff8ec7d562ac89f570bae680c184d", null ],
     [ "cb", "classMR_1_1Const__FindProjectionOnPointsSettings.html#ab5a15b7d1c7c7dbd1ce00b21fc16490c", null ],
     [ "loDistLimitSq", "classMR_1_1Const__FindProjectionOnPointsSettings.html#aab906e8eafa305bcad5a063eedb6b531", null ],
     [ "skipSameIndex", "classMR_1_1Const__FindProjectionOnPointsSettings.html#a3e5194ddb488da871083c77bb64f0068", null ],

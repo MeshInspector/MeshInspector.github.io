@@ -2,6 +2,7 @@ var classMR_1_1WeightedShell_1_1Const__ParametersMetric =
 [
     [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#ae7203ea67df7c591d5a20f2173f2f9c3", null ],
     [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a9f0940194aa1a7d454301f6ae94a0502", null ],
+    [ "_FinalizeFields", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#ac8be16876dc8ba6a381b23df88f6c33f", null ],
     [ "dist", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a529360dbef6f5081c9827886abf5ecbb", null ],
     [ "numLayers", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a8ad2632f00c6734d3bd6035f0e166077", null ],
     [ "offset", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#ae60db3c3f878bf4dfd9361c622bba85b", null ],

@@ -5,6 +5,7 @@ var classMR_1_1Const__VertCoords2 =
     [ "Const_VertCoords2", "classMR_1_1Const__VertCoords2.html#a1a2b81dfa661fac3b4d896d12b90bc0e", null ],
     [ "Const_VertCoords2", "classMR_1_1Const__VertCoords2.html#a0632844576278d9063611049473954fc", null ],
     [ "Const_VertCoords2", "classMR_1_1Const__VertCoords2.html#ad4297d35f775d0a9cc90ff39b4967e44", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__VertCoords2.html#ad8984b9ae96f4ce96ca179bccd4003c6", null ],
     [ "back", "classMR_1_1Const__VertCoords2.html#a732ddedc44fe819be016b3a85938c146", null ],
     [ "backId", "classMR_1_1Const__VertCoords2.html#a5ecc482de42f8b833f9194963165d2b7", null ],
     [ "beginId", "classMR_1_1Const__VertCoords2.html#ad207a200dbe64ab7d22a92e6a5599f02", null ],

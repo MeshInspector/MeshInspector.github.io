@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__ComputeSteepestDescentPathSettings.h
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__ComputeSteepestDescentPathSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_ComputeSteepestDescentPathSettings Class Reference</div></div>
@@ -197,11 +198,28 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a83567992ee988201a4b336d292733004" id="r_a83567992ee988201a4b336d292733004"><td class="memItemLeft" align="right" valign="top"><a id="a83567992ee988201a4b336d292733004" name="a83567992ee988201a4b336d292733004"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a83567992ee988201a4b336d292733004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9342155089946c423f1289d5a10ab032" id="r_a9342155089946c423f1289d5a10ab032"><td class="memItemLeft" align="right" valign="top"><a id="a9342155089946c423f1289d5a10ab032" name="a9342155089946c423f1289d5a10ab032"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a9342155089946c423f1289d5a10ab032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a9342155089946c423f1289d5a10ab032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a6718773bfaba29fd22d59b4641726e54" id="r_a6718773bfaba29fd22d59b4641726e54"><td class="memItemLeft" align="right" valign="top"><a id="a6718773bfaba29fd22d59b4641726e54" name="a6718773bfaba29fd22d59b4641726e54"></a>
+unsafe MR.Box_VertId._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_outVertexReached</b></td></tr>
+<tr class="separator:a6718773bfaba29fd22d59b4641726e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a2229f509053d3268b649430ee6367" id="r_ad1a2229f509053d3268b649430ee6367"><td class="memItemLeft" align="right" valign="top"><a id="ad1a2229f509053d3268b649430ee6367" name="ad1a2229f509053d3268b649430ee6367"></a>
+unsafe MR.EdgePoint._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><b>__ptr_storage_outBdReached</b></td></tr>
+<tr class="separator:ad1a2229f509053d3268b649430ee6367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ComputeSteepestDescentPathSettings &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a04f88a085cca958e5b26cbca92fb4b52" id="r_a04f88a085cca958e5b26cbca92fb4b52"><td class="memItemLeft" align="right" valign="top"><a id="a04f88a085cca958e5b26cbca92fb4b52" name="a04f88a085cca958e5b26cbca92fb4b52"></a>
-unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a04f88a085cca958e5b26cbca92fb4b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">if valid, then the descent is stopped as soon as same triangle with (end) is reached <br /></td></tr>
 <tr class="separator:a04f88a085cca958e5b26cbca92fb4b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02b607ad524426b1c1f2d9c90cf96a82" id="r_a02b607ad524426b1c1f2d9c90cf96a82"><td class="memItemLeft" align="right" valign="top"><a id="a02b607ad524426b1c1f2d9c90cf96a82" name="a02b607ad524426b1c1f2d9c90cf96a82"></a>
@@ -217,13 +235,6 @@ unsafe MR.? <a class="elRef" href="../Cpp/structMR_1_1EdgePoint.html">EdgePoint<
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ComputeSteepestDescentPathSettings &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR.ComputeSteepestDescentPathSettings</a></code>. This is the const half of the class. </p>

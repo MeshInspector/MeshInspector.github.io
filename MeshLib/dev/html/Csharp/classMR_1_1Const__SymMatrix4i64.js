@@ -2,6 +2,7 @@ var classMR_1_1Const__SymMatrix4i64 =
 [
     [ "Const_SymMatrix4i64", "classMR_1_1Const__SymMatrix4i64.html#a7fa6a2833be0c9e2f9a5bc050e98e5a7", null ],
     [ "Const_SymMatrix4i64", "classMR_1_1Const__SymMatrix4i64.html#a4fcd450110c8780358e530ba5a117aeb", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__SymMatrix4i64.html#ac9ad7382eeef05f53dbcb718bff3fc02", null ],
     [ "diagonal", "classMR_1_1Const__SymMatrix4i64.html#a4e25825f298b36ff1465bd29fce5556d", null ],
     [ "identity", "classMR_1_1Const__SymMatrix4i64.html#a88e01bbfeaf800e4da1d154e225cd504", null ],
     [ "normSq", "classMR_1_1Const__SymMatrix4i64.html#ad5cecb67feb589b40e4ad74bd305076d", null ],

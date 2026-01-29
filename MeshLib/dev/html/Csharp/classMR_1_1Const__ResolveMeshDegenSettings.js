@@ -3,6 +3,7 @@ var classMR_1_1Const__ResolveMeshDegenSettings =
     [ "Const_ResolveMeshDegenSettings", "classMR_1_1Const__ResolveMeshDegenSettings.html#a713d7bcb27c5c01cd2e9c162eaac69fa", null ],
     [ "Const_ResolveMeshDegenSettings", "classMR_1_1Const__ResolveMeshDegenSettings.html#ad34400329ecefc306122bddf6e71676d", null ],
     [ "Const_ResolveMeshDegenSettings", "classMR_1_1Const__ResolveMeshDegenSettings.html#a8121dea0b1f4c754e1e9b2e028dccc33", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__ResolveMeshDegenSettings.html#a85fb25fb1881540cb5b6fe0caa80857f", null ],
     [ "criticalAspectRatio", "classMR_1_1Const__ResolveMeshDegenSettings.html#adf325fbcb9cc97710851044f1ef082a0", null ],
     [ "maxAngleChange", "classMR_1_1Const__ResolveMeshDegenSettings.html#a9b52467280b076968175a7eb0e5a018b", null ],
     [ "maxDeviation", "classMR_1_1Const__ResolveMeshDegenSettings.html#a3bfbb163be311e0174551aa4641d89f7", null ],

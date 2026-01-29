@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__ZCompensateParams.html',''); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__ZCompensateParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_ZCompensateParams Class Reference</div></div>
@@ -197,6 +198,26 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa6352b8b9527afef9d1b2229d7484b36" id="r_aa6352b8b9527afef9d1b2229d7484b36"><td class="memItemLeft" align="right" valign="top"><a id="aa6352b8b9527afef9d1b2229d7484b36" name="aa6352b8b9527afef9d1b2229d7484b36"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:aa6352b8b9527afef9d1b2229d7484b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2a7b0e5fb2addc95ae2891985ba0bf" id="r_a4e2a7b0e5fb2addc95ae2891985ba0bf"><td class="memItemLeft" align="right" valign="top"><a id="a4e2a7b0e5fb2addc95ae2891985ba0bf" name="a4e2a7b0e5fb2addc95ae2891985ba0bf"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a4e2a7b0e5fb2addc95ae2891985ba0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a4e2a7b0e5fb2addc95ae2891985ba0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a6d694e9a0a0861917382fa93c03b83d7" id="r_a6d694e9a0a0861917382fa93c03b83d7"><td class="memItemLeft" align="right" valign="top"><a id="a6d694e9a0a0861917382fa93c03b83d7" name="a6d694e9a0a0861917382fa93c03b83d7"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_maxShift</b></td></tr>
+<tr class="separator:a6d694e9a0a0861917382fa93c03b83d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada140429f8ba689b21fee5652c565b12" id="r_ada140429f8ba689b21fee5652c565b12"><td class="memItemLeft" align="right" valign="top"><a id="ada140429f8ba689b21fee5652c565b12" name="ada140429f8ba689b21fee5652c565b12"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_reduceSelfIntersections</b></td></tr>
+<tr class="separator:ada140429f8ba689b21fee5652c565b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd5a230565b63316b51f2c88ecc0888" id="r_a8dd5a230565b63316b51f2c88ecc0888"><td class="memItemLeft" align="right" valign="top"><a id="a8dd5a230565b63316b51f2c88ecc0888" name="a8dd5a230565b63316b51f2c88ecc0888"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_minThickness</b></td></tr>
+<tr class="separator:a8dd5a230565b63316b51f2c88ecc0888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ZCompensateParams &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -211,7 +232,7 @@ unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>minThickness<
 <tr class="memdesc:a0b01b4292a1fb05dc101057c69e8ab95"><td class="mdescLeft">&#160;</td><td class="mdescRight">only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle <br /></td></tr>
 <tr class="separator:a0b01b4292a1fb05dc101057c69e8ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ea2b58cb673068e52a3a485f972e71" id="r_ab0ea2b58cb673068e52a3a485f972e71"><td class="memItemLeft" align="right" valign="top"><a id="ab0ea2b58cb673068e52a3a485f972e71" name="ab0ea2b58cb673068e52a3a485f972e71"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:ab0ea2b58cb673068e52a3a485f972e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report progress and cancel processing <br /></td></tr>
 <tr class="separator:ab0ea2b58cb673068e52a3a485f972e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ZCompensateParams &gt;</a></td></tr>
@@ -219,13 +240,6 @@ unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_ZCompensateParams &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR.ZCompensateParams</a></code>. This is the const half of the class. </p>

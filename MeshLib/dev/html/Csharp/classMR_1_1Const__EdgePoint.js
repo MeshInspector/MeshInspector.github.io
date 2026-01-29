@@ -5,6 +5,7 @@ var classMR_1_1Const__EdgePoint =
     [ "Const_EdgePoint", "classMR_1_1Const__EdgePoint.html#af831aece7589101cf6ecf63c0eb348d0", null ],
     [ "Const_EdgePoint", "classMR_1_1Const__EdgePoint.html#ae1cddc19a2b936d8690160b8b2a9feec", null ],
     [ "Const_EdgePoint", "classMR_1_1Const__EdgePoint.html#aff94ef6b354e565e0aab8832de7fb32c", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__EdgePoint.html#aedfe9e1c68078aaca6f1d583b819a399", null ],
     [ "getClosestVertex", "classMR_1_1Const__EdgePoint.html#a4055bc4de109cb5883493ad118ccd2cc", null ],
     [ "getClosestVertex", "classMR_1_1Const__EdgePoint.html#a279684181c8c6e0166ff0d88b037b5c4", null ],
     [ "inVertex", "classMR_1_1Const__EdgePoint.html#a5f43e85d482f91d3c7450194e75d22b8", null ],
@@ -15,5 +16,5 @@ var classMR_1_1Const__EdgePoint =
     [ "operator==", "classMR_1_1Const__EdgePoint.html#ac10c1e6d23b91a7d864fab57f32aca89", null ],
     [ "sym", "classMR_1_1Const__EdgePoint.html#aa8b153b552e13ee1301ecc5a2a9591aa", null ],
     [ "valid", "classMR_1_1Const__EdgePoint.html#aac4ac1e98fd7fa90d129d59261451beb", null ],
-    [ "e", "classMR_1_1Const__EdgePoint.html#a82323f33dd299a1d6b7ce01d479e4358", null ]
+    [ "__ref_storage_e", "classMR_1_1Const__EdgePoint.html#ac15283cca41be20ec5492879caea104b", null ]
 ];

@@ -2,6 +2,7 @@ var classMR_1_1Const__SignedDistanceToMeshOptions =
 [
     [ "Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html#acee03c62d7ef6ff396a0bf8ef4757694", null ],
     [ "Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html#a04510a3a3ca747b368591d4caa7bacfa", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__SignedDistanceToMeshOptions.html#a6186bbd1b98e1f1c799c4386c734f3be", null ],
     [ "maxDistSq", "classMR_1_1Const__SignedDistanceToMeshOptions.html#ad120654f7b7749891efc5461d841ef0c", null ],
     [ "minDistSq", "classMR_1_1Const__SignedDistanceToMeshOptions.html#a0495c93e005e7045b12fafa93d26ae1a", null ],
     [ "nullOutsideMinMax", "classMR_1_1Const__SignedDistanceToMeshOptions.html#a810884f23761081876306c5968301fad", null ],

@@ -4,6 +4,7 @@ var classMR_1_1Const__Vector4__UnsignedChar =
     [ "Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html#a8103618271cb01d0f1247e94ad4a2034", null ],
     [ "Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html#a126561ea5257762f689c078a7b4987ce", null ],
     [ "Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html#a33b0d662655c71967d44bbeda29719e5", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__Vector4__UnsignedChar.html#a23d5b1e49a49d62194db273308951682", null ],
     [ "diagonal", "classMR_1_1Const__Vector4__UnsignedChar.html#a5082e21de56a225670e1ae9a842d156a", null ],
     [ "length", "classMR_1_1Const__Vector4__UnsignedChar.html#a92d83f9714e14ec01350eee1e359c3af", null ],
     [ "lengthSq", "classMR_1_1Const__Vector4__UnsignedChar.html#a4472533ed3d7f9e0ea0497874b1b1910", null ],

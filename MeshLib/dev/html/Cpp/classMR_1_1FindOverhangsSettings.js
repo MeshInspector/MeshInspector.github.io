@@ -3,6 +3,7 @@ var classMR_1_1FindOverhangsSettings =
     [ "FindOverhangsSettings", "../Csharp/classMR_1_1FindOverhangsSettings.html#af4e93c106a07fbaa569be135e17299e1", null ],
     [ "FindOverhangsSettings", "../Csharp/classMR_1_1FindOverhangsSettings.html#a20ab788b0cb0f559a201601bcc08cd2d", null ],
     [ "FindOverhangsSettings", "../Csharp/classMR_1_1FindOverhangsSettings.html#a6b84ac5e0a67cbb7a8ff4db4a69bcb8f", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1FindOverhangsSettings.html#a143a617909eb9093c60354b379df9dbb", null ],
     [ "assign", "../Csharp/classMR_1_1FindOverhangsSettings.html#a667884d7e33bee2399813cd1e0b3eefd", null ],
     [ "axis", "../Csharp/classMR_1_1FindOverhangsSettings.html#aea130257b78e8d7044701e45f8b1ccbb", null ],
     [ "hops", "../Csharp/classMR_1_1FindOverhangsSettings.html#af8d9bd5d2b40e20c1e1b0db3e40cc7b1", null ],

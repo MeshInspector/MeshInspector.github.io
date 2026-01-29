@@ -3,6 +3,7 @@ var classMR_1_1TriangulationHelpers_1_1Const__Settings =
     [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#ad96539033b9f1b4d9a97d89f15460bf8", null ],
     [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#ac146efa1afe22f0e270199b012738b5e", null ],
     [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a690b98dbd72486bd330cf5df4132fa2b", null ],
+    [ "_FinalizeFields", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a374409fdf89455cdcad248ddb65de71b", null ],
     [ "actualRadius", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#ae82ad0bf8f544f2081d336ef3dd27db9", null ],
     [ "allNeighbors", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a0fe1751fe67689b9d89c469a25cb79ba", null ],
     [ "automaticRadiusIncrease", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a9bf6b4245005455ec53ffb5f4b033b4b", null ],

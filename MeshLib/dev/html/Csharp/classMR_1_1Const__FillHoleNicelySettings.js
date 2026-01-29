@@ -3,6 +3,7 @@ var classMR_1_1Const__FillHoleNicelySettings =
     [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a2a376b2e57dac74eedf2e97a9e996ac3", null ],
     [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a6ea442607f38c60a74a3aa44b2e7f5eb", null ],
     [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#abc45baf156c3c5f8229cb22bf72c0ff2", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__FillHoleNicelySettings.html#ae61783048812ea63d30a1d0baa7974ba", null ],
     [ "beforeEdgeSplit", "classMR_1_1Const__FillHoleNicelySettings.html#ae21e3f0a4f6b855fb40e34a719cda38d", null ],
     [ "colorMap", "classMR_1_1Const__FillHoleNicelySettings.html#a76890b23100aaed673fa3d6cf1ac3e43", null ],
     [ "edgeWeights", "classMR_1_1Const__FillHoleNicelySettings.html#a46719a9a6ca04de557166f154ec3bfa6", null ],

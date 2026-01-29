@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1SceneLoad_1_1Const__Result.html',''); initR
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1SceneLoad_1_1Const__Result-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.SceneLoad.Const_Result Class Reference</div></div>
@@ -197,11 +198,25 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5f6df42fdaf24503e794df634d4fde30" id="r_a5f6df42fdaf24503e794df634d4fde30"><td class="memItemLeft" align="right" valign="top"><a id="a5f6df42fdaf24503e794df634d4fde30" name="a5f6df42fdaf24503e794df634d4fde30"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a5f6df42fdaf24503e794df634d4fde30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc079554ae95c6aa974a727e0bc0e2b5" id="r_adc079554ae95c6aa974a727e0bc0e2b5"><td class="memItemLeft" align="right" valign="top"><a id="adc079554ae95c6aa974a727e0bc0e2b5" name="adc079554ae95c6aa974a727e0bc0e2b5"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:adc079554ae95c6aa974a727e0bc0e2b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:adc079554ae95c6aa974a727e0bc0e2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ac6452394b350ef7574a5a86aee1dbb4b" id="r_ac6452394b350ef7574a5a86aee1dbb4b"><td class="memItemLeft" align="right" valign="top"><a id="ac6452394b350ef7574a5a86aee1dbb4b" name="ac6452394b350ef7574a5a86aee1dbb4b"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_isSceneConstructed</b></td></tr>
+<tr class="separator:ac6452394b350ef7574a5a86aee1dbb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Result &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a606c60bea69bc6c6576f7a4bf74adf47" id="r_a606c60bea69bc6c6576f7a4bf74adf47"><td class="memItemLeft" align="right" valign="top"><a id="a606c60bea69bc6c6576f7a4bf74adf47" name="a606c60bea69bc6c6576f7a4bf74adf47"></a>
-unsafe <a class="el" href="classMR_1_1Const__SceneRootObject.html">MR.Const_SceneRootObject</a>&#160;</td><td class="memItemRight" valign="bottom"><b>scene</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__SceneRootObject.html">MR.Const_SceneRootObject</a>&#160;</td><td class="memItemRight" valign="bottom"><b>scene</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a606c60bea69bc6c6576f7a4bf74adf47"><td class="mdescLeft">&#160;</td><td class="mdescRight">The loaded scene or empty object. <br /></td></tr>
 <tr class="separator:a606c60bea69bc6c6576f7a4bf74adf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5ad7373d30c808c1a42dd065d906ae8" id="r_ac5ad7373d30c808c1a42dd065d906ae8"><td class="memItemLeft" align="right" valign="top"><a id="ac5ad7373d30c808c1a42dd065d906ae8" name="ac5ad7373d30c808c1a42dd065d906ae8"></a>
@@ -209,15 +224,15 @@ unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSceneConstru
 <tr class="memdesc:ac5ad7373d30c808c1a42dd065d906ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks whether the scene was loaded from a single file (false) or was built from scratch (true) <br /></td></tr>
 <tr class="separator:ac5ad7373d30c808c1a42dd065d906ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a11fa4229363914e7b0da616f4cb8bd" id="r_a0a11fa4229363914e7b0da616f4cb8bd"><td class="memItemLeft" align="right" valign="top"><a id="a0a11fa4229363914e7b0da616f4cb8bd" name="a0a11fa4229363914e7b0da616f4cb8bd"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__StdFilesystemPath.html">MR.Std.Const_Vector_StdFilesystemPath</a>&#160;</td><td class="memItemRight" valign="bottom"><b>loadedFiles</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Vector__StdFilesystemPath.html">MR.Std.Const_Vector_StdFilesystemPath</a>&#160;</td><td class="memItemRight" valign="bottom"><b>loadedFiles</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a0a11fa4229363914e7b0da616f4cb8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of successfully loaded files. <br /></td></tr>
 <tr class="separator:a0a11fa4229363914e7b0da616f4cb8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e2d9c106e706108e6d6af8c8dc2e2bd" id="r_a1e2d9c106e706108e6d6af8c8dc2e2bd"><td class="memItemLeft" align="right" valign="top"><a id="a1e2d9c106e706108e6d6af8c8dc2e2bd" name="a1e2d9c106e706108e6d6af8c8dc2e2bd"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__String.html">MR.Std.Const_String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>errorSummary</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__String.html">MR.Std.Const_String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>errorSummary</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a1e2d9c106e706108e6d6af8c8dc2e2bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error summary text. <br /></td></tr>
 <tr class="separator:a1e2d9c106e706108e6d6af8c8dc2e2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51b7ff9deee56eb0afed3bf77cf77787" id="r_a51b7ff9deee56eb0afed3bf77cf77787"><td class="memItemLeft" align="right" valign="top"><a id="a51b7ff9deee56eb0afed3bf77cf77787" name="a51b7ff9deee56eb0afed3bf77cf77787"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__String.html">MR.Std.Const_String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>warningSummary</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__String.html">MR.Std.Const_String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>warningSummary</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a51b7ff9deee56eb0afed3bf77cf77787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning summary text. <br /></td></tr>
 <tr class="separator:a51b7ff9deee56eb0afed3bf77cf77787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Result &gt;</a></td></tr>
@@ -225,13 +240,6 @@ unsafe <a class="el" href="classMR_1_1Std_1_1Const__String.html">MR.Std.Const_St
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_Result &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Scene loading result Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR.SceneLoad.Result</a></code>. This is the const half of the class. </p>

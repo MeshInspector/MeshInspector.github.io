@@ -2,6 +2,7 @@ var classMR_1_1Const__PointPair =
 [
     [ "Const_PointPair", "classMR_1_1Const__PointPair.html#adc0940e38387186369631cab71c9192b", null ],
     [ "Const_PointPair", "classMR_1_1Const__PointPair.html#ad6be1f05b3efa772d7b038ddb6bf95c1", null ],
+    [ "_FinalizeFields", "classMR_1_1Const__PointPair.html#afda5d8c2f7d055a3121be4c9870138a9", null ],
     [ "operator==", "classMR_1_1Const__PointPair.html#a0ffdc58d883d2b9721a977be96828695", null ],
     [ "distSq", "classMR_1_1Const__PointPair.html#a3756bf2d28087cbab69a2e1a847d47de", null ],
     [ "normalsAngleCos", "classMR_1_1Const__PointPair.html#a38c629fd3feefdba3268112e5ddc6e1e", null ],

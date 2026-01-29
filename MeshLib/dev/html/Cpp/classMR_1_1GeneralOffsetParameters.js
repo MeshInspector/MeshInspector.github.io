@@ -2,6 +2,7 @@ var classMR_1_1GeneralOffsetParameters =
 [
     [ "GeneralOffsetParameters", "../Csharp/classMR_1_1GeneralOffsetParameters.html#a3174f7ffd455fc609b29bff1269aeec7", null ],
     [ "GeneralOffsetParameters", "../Csharp/classMR_1_1GeneralOffsetParameters.html#a3ba5f1962f6198367132def886156473", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1GeneralOffsetParameters.html#a3ac3c30f7f91a1d5996b255629c0df1a", null ],
     [ "assign", "../Csharp/classMR_1_1GeneralOffsetParameters.html#aed11d4bd8b5373df2e0a8013e8799b2f", null ],
     [ "callBack", "../Csharp/classMR_1_1GeneralOffsetParameters.html#a1f8cee35c153c06e0a600ce2f84a24a9", null ],
     [ "closeHolesInHoleWindingNumber", "../Csharp/classMR_1_1GeneralOffsetParameters.html#a518fc3f4a982b3f09ecf0dac94c4bbbc", null ],

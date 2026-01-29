@@ -5,6 +5,7 @@ var classMR_1_1Vector__MRModelPointsData__MRObjId =
     [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#af75e65911e970a907222e8a9649a4cca", null ],
     [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#ac85ac2f68c4ba6bac8868091afc18e21", null ],
     [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#acebb32ea913651014ed73713d6002650", null ],
+    [ "_FinalizeFields", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#ab711ac65dedf8928559e2af94bc6d1fa", null ],
     [ "assign", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a8c97bae63e15350543703a84c31374ff", null ],
     [ "autoResizeAt", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a650399bf822ebbc01f32a0789302fccd", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a34e4034fdc4fa8991b8d3224bde594ba", null ],

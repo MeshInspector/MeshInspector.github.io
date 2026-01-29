@@ -150,6 +150,7 @@ $(function(){initNavTree('classMR_1_1Const__FindDisorientationParams.html',''); 
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__FindDisorientationParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_FindDisorientationParams Class Reference</div></div>
@@ -207,6 +208,23 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4ab8372152000de6e9ee7c43f48e0f56" id="r_a4ab8372152000de6e9ee7c43f48e0f56"><td class="memItemLeft" align="right" valign="top"><a id="a4ab8372152000de6e9ee7c43f48e0f56" name="a4ab8372152000de6e9ee7c43f48e0f56"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a4ab8372152000de6e9ee7c43f48e0f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6817eaacb2ed781b058bd40229c8927a" id="r_a6817eaacb2ed781b058bd40229c8927a"><td class="memItemLeft" align="right" valign="top"><a id="a6817eaacb2ed781b058bd40229c8927a" name="a6817eaacb2ed781b058bd40229c8927a"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a6817eaacb2ed781b058bd40229c8927a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a6817eaacb2ed781b058bd40229c8927a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a9fe01dee8dc4a11c18e459bfeaa1cee3" id="r_a9fe01dee8dc4a11c18e459bfeaa1cee3"><td class="memItemLeft" align="right" valign="top"><a id="a9fe01dee8dc4a11c18e459bfeaa1cee3" name="a9fe01dee8dc4a11c18e459bfeaa1cee3"></a>
+unsafe <a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d">MR.FindDisorientationParams.RayMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_mode</b></td></tr>
+<tr class="separator:a9fe01dee8dc4a11c18e459bfeaa1cee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320ea40f4efbca2c6edb7217b9c96983" id="r_a320ea40f4efbca2c6edb7217b9c96983"><td class="memItemLeft" align="right" valign="top"><a id="a320ea40f4efbca2c6edb7217b9c96983" name="a320ea40f4efbca2c6edb7217b9c96983"></a>
+unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_virtualFillHoles</b></td></tr>
+<tr class="separator:a320ea40f4efbca2c6edb7217b9c96983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_FindDisorientationParams &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -218,20 +236,13 @@ unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>virtualFillHol
 <tr class="memdesc:a15145a15a767c794a6d377ca5bf6a1c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">if set - copy mesh, and fills holes for better quality in case of ray going out through hole <br /></td></tr>
 <tr class="separator:a15145a15a767c794a6d377ca5bf6a1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afab43660e8355cfa7d67cabeacea4f7d" id="r_afab43660e8355cfa7d67cabeacea4f7d"><td class="memItemLeft" align="right" valign="top"><a id="afab43660e8355cfa7d67cabeacea4f7d" name="afab43660e8355cfa7d67cabeacea4f7d"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cb</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cb</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:afab43660e8355cfa7d67cabeacea4f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_FindDisorientationParams &gt;</a></td></tr>
 <tr class="memitem:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object" id="r_a4ba8e4178c1dc86ea8037d127dcac158"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_FindDisorientationParams &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters for <code>findDisorientedFaces</code> function Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR.FindDisorientationParams</a></code>. This is the const half of the class. </p>

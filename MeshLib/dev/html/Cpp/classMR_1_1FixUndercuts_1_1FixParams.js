@@ -3,6 +3,7 @@ var classMR_1_1FixUndercuts_1_1FixParams =
     [ "FixParams", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#a69615acd13b4a1a82cb9800996600d58", null ],
     [ "FixParams", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#a2b6698f319945ed58e546d0f429d5ca9", null ],
     [ "FixParams", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#a79170634547d9c967c92fc16a1dd9e35", null ],
+    [ "_FinalizeFields", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#a585bccacd844d9dad5ed47b250dcd5d0", null ],
     [ "assign", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#a685b149e70b08995f64d2e9eba1f4536", null ],
     [ "bottomExtension", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#a9a9a5fc1340288e9351b0d8398c15b9b", null ],
     [ "findParameters", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html#af24dfe8f4b1d0b15ec63bdb8392b2d7c", null ],

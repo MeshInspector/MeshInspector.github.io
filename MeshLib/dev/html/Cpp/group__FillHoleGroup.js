@@ -28,6 +28,7 @@ var group__FillHoleGroup =
       [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#a29d8e66ba2fe6237505716aa89048294", null ],
       [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#af23ed8e6d4f9447fefddfd0b5f69e90a", null ],
       [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#ac80deb9d88cce363defdb3837c5414d5", null ],
+      [ "_FinalizeFields", "../Csharp/classMR_1_1HoleFillPlan.html#ad16ddaffc1736a940c0ff8fcc68c3d9d", null ],
       [ "assign", "../Csharp/classMR_1_1HoleFillPlan.html#a635d6b9767b9151f3b8fb7ad79d1c7b6", null ]
     ] ],
     [ "MR::MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html", [

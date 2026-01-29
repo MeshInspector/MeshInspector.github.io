@@ -149,6 +149,7 @@ $(function(){initNavTree('classMR_1_1Const__FindOutliersParams.html',''); initRe
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__FindOutliersParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_FindOutliersParams Class Reference</div></div>
@@ -184,7 +185,7 @@ unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_FindOutliersP
 <tr class="memdesc:ab42a5ad487a10ce7ba10a57a0036b151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
 <tr class="separator:ab42a5ad487a10ce7ba10a57a0036b151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab1b562522ba70ad198ccaaed220d9c" id="r_a3ab1b562522ba70ad198ccaaed220d9c"><td class="memItemLeft" align="right" valign="top"><a id="a3ab1b562522ba70ad198ccaaed220d9c" name="a3ab1b562522ba70ad198ccaaed220d9c"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_FindOutliersParams</b> (<a class="el" href="classMR_1_1Const__OutlierParams.html">MR.Const_OutlierParams</a> <a class="el" href="#a75d62dd5e35da1e6e81948a92bf03e9c">finderParams</a>, float <a class="el" href="#a9699d0ea49aa8b95cdc0d8ff1e6bb89f">radius</a>, MR.OutlierTypeMask <a class="el" href="#a9ec479d99a1cf57ea46bd0f7619cc3ec">mask</a>, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a> progress)</td></tr>
+unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>Const_FindOutliersParams</b> (<a class="el" href="classMR_1_1Const__OutlierParams.html">MR.Const_OutlierParams</a> <a class="el" href="#a75d62dd5e35da1e6e81948a92bf03e9c">finderParams</a>, float radius, MR.OutlierTypeMask mask, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a> progress)</td></tr>
 <tr class="memdesc:a3ab1b562522ba70ad198ccaaed220d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FindOutliersParams.html">MR.FindOutliersParams</a></code> elementwise. <br /></td></tr>
 <tr class="separator:a3ab1b562522ba70ad198ccaaed220d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38ef6df7a2d5c3cdaf19ef423f0221f5" id="r_a38ef6df7a2d5c3cdaf19ef423f0221f5"><td class="memItemLeft" align="right" valign="top"><a id="a38ef6df7a2d5c3cdaf19ef423f0221f5" name="a38ef6df7a2d5c3cdaf19ef423f0221f5"></a>
@@ -197,36 +198,46 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1aba7e851ef4043a7298f904f2beab1c" id="r_a1aba7e851ef4043a7298f904f2beab1c"><td class="memItemLeft" align="right" valign="top"><a id="a1aba7e851ef4043a7298f904f2beab1c" name="a1aba7e851ef4043a7298f904f2beab1c"></a>
 virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 <tr class="separator:a1aba7e851ef4043a7298f904f2beab1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b11e57c50fc240d6ea428c318803872" id="r_a3b11e57c50fc240d6ea428c318803872"><td class="memItemLeft" align="right" valign="top"><a id="a3b11e57c50fc240d6ea428c318803872" name="a3b11e57c50fc240d6ea428c318803872"></a>
+unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>_FinalizeFields</b> ()</td></tr>
+<tr class="memdesc:a3b11e57c50fc240d6ea428c318803872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors call this at the end to initialize class fields. <br /></td></tr>
+<tr class="separator:a3b11e57c50fc240d6ea428c318803872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a2c52ea120faeb91d944e0b6a2d5c144a" id="r_a2c52ea120faeb91d944e0b6a2d5c144a"><td class="memItemLeft" align="right" valign="top"><a id="a2c52ea120faeb91d944e0b6a2d5c144a" name="a2c52ea120faeb91d944e0b6a2d5c144a"></a>
+unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_radius</b></td></tr>
+<tr class="memdesc:a2c52ea120faeb91d944e0b6a2d5c144a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask of the types of outliers that are looking for. <br /></td></tr>
+<tr class="separator:a2c52ea120faeb91d944e0b6a2d5c144a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3daa08cd68cc63fc631dfb670a80da62" id="r_a3daa08cd68cc63fc631dfb670a80da62"><td class="memItemLeft" align="right" valign="top"><a id="a3daa08cd68cc63fc631dfb670a80da62" name="a3daa08cd68cc63fc631dfb670a80da62"></a>
+unsafe MR.OutlierTypeMask *&#160;</td><td class="memItemRight" valign="bottom"><b>__ref_storage_mask</b></td></tr>
+<tr class="memdesc:a3daa08cd68cc63fc631dfb670a80da62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback. <br /></td></tr>
+<tr class="separator:a3daa08cd68cc63fc631dfb670a80da62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_FindOutliersParams &gt;</a></td></tr>
+<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
+<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a75d62dd5e35da1e6e81948a92bf03e9c" id="r_a75d62dd5e35da1e6e81948a92bf03e9c"><td class="memItemLeft" align="right" valign="top"><a id="a75d62dd5e35da1e6e81948a92bf03e9c" name="a75d62dd5e35da1e6e81948a92bf03e9c"></a>
-unsafe <a class="el" href="classMR_1_1Const__OutlierParams.html">MR.Const_OutlierParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>finderParams</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Const__OutlierParams.html">MR.Const_OutlierParams</a>&#160;</td><td class="memItemRight" valign="bottom"><b>finderParams</b><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a75d62dd5e35da1e6e81948a92bf03e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius of the search for neighboring points for analysis. <br /></td></tr>
 <tr class="separator:a75d62dd5e35da1e6e81948a92bf03e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9699d0ea49aa8b95cdc0d8ff1e6bb89f" id="r_a9699d0ea49aa8b95cdc0d8ff1e6bb89f"><td class="memItemLeft" align="right" valign="top"><a id="a9699d0ea49aa8b95cdc0d8ff1e6bb89f" name="a9699d0ea49aa8b95cdc0d8ff1e6bb89f"></a>
 unsafe float&#160;</td><td class="memItemRight" valign="bottom"><b>radius</b><code> [get]</code></td></tr>
-<tr class="memdesc:a9699d0ea49aa8b95cdc0d8ff1e6bb89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask of the types of outliers that are looking for. <br /></td></tr>
 <tr class="separator:a9699d0ea49aa8b95cdc0d8ff1e6bb89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ec479d99a1cf57ea46bd0f7619cc3ec" id="r_a9ec479d99a1cf57ea46bd0f7619cc3ec"><td class="memItemLeft" align="right" valign="top"><a id="a9ec479d99a1cf57ea46bd0f7619cc3ec" name="a9ec479d99a1cf57ea46bd0f7619cc3ec"></a>
 unsafe MR.OutlierTypeMask&#160;</td><td class="memItemRight" valign="bottom"><b>mask</b><code> [get]</code></td></tr>
-<tr class="memdesc:a9ec479d99a1cf57ea46bd0f7619cc3ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback. <br /></td></tr>
 <tr class="separator:a9ec479d99a1cf57ea46bd0f7619cc3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce84e02f56e730d10c0ff2d27bb1cf6" id="r_a3ce84e02f56e730d10c0ff2d27bb1cf6"><td class="memItemLeft" align="right" valign="top"><a id="a3ce84e02f56e730d10c0ff2d27bb1cf6" name="a3ce84e02f56e730d10c0ff2d27bb1cf6"></a>
-unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b><code> [get]</code></td></tr>
+unsafe <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b><code> [get, protected set]</code></td></tr>
 <tr class="separator:a3ce84e02f56e730d10c0ff2d27bb1cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_FindOutliersParams &gt;</a></td></tr>
 <tr class="memitem:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object" id="r_a4ba8e4178c1dc86ea8037d127dcac158"><td class="memItemLeft" align="right" valign="top">
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
 <tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
 <tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; Const_FindOutliersParams &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Outlier point search parameters Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindOutliersParams.html">MR.FindOutliersParams</a></code>. This is the const half of the class. </p>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,1,0],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45":[6,0,0,1,0,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a2f11c9de4efd17bdc6ac47d85b97c079":[6,0,0,1,0,6],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a5c175130af9cbdf1fac5b175f1f44ae3":[6,0,0,1,0,5],
@@ -167,16 +168,17 @@ var NAVTREEINDEX18 =
 "classMR_1_1DepthPeelingGL.html#ae232501168d80d208a5e9cd05a4688db":[6,0,1,0,1,111,3],
 "classMR_1_1DepthPeelingGL.html#ae232501168d80d208a5e9cd05a4688db":[6,0,2,0,2,83,3],
 "classMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"classMR_1_1DetectTunnelSettings.html#a0b8b5c85abf9db87e7e2ad0e89b21e9f":[6,0,0,16,4,0,8],
-"classMR_1_1DetectTunnelSettings.html#a24c5dc43275e330226c7422927cd463f":[6,0,0,16,4,0,3],
+"classMR_1_1DetectTunnelSettings.html#a0b8b5c85abf9db87e7e2ad0e89b21e9f":[6,0,0,16,4,0,9],
+"classMR_1_1DetectTunnelSettings.html#a24c5dc43275e330226c7422927cd463f":[6,0,0,16,4,0,4],
 "classMR_1_1DetectTunnelSettings.html#a467dc1cbc289ea1265d84dffbf2c55df":[6,0,0,16,4,0,2],
 "classMR_1_1DetectTunnelSettings.html#a4eb9d16445155cd8a7d77dd01d2d1655":[6,0,0,16,4,0,0],
-"classMR_1_1DetectTunnelSettings.html#a68b007c4eb80865d90ec5a5cdc284098":[6,0,0,16,4,0,5],
+"classMR_1_1DetectTunnelSettings.html#a66abdc69b15ee564fbd57c9702cee704":[6,0,0,16,4,0,3],
+"classMR_1_1DetectTunnelSettings.html#a68b007c4eb80865d90ec5a5cdc284098":[6,0,0,16,4,0,6],
 "classMR_1_1DetectTunnelSettings.html#a6a6a66a8b10c0a546b005e3d79ef3b8d":[6,0,0,16,4,0,1],
-"classMR_1_1DetectTunnelSettings.html#a894196449b15605733a65f2f2ca90eec":[6,0,0,16,4,0,9],
-"classMR_1_1DetectTunnelSettings.html#a98dbdacb703cc7a992cbe17953669c9e":[6,0,0,16,4,0,7],
-"classMR_1_1DetectTunnelSettings.html#ab53170b70a40416d5373a5b135d2febe":[6,0,0,16,4,0,4],
-"classMR_1_1DetectTunnelSettings.html#adc555b54ed2e8763296a62b1572e7a81":[6,0,0,16,4,0,6],
+"classMR_1_1DetectTunnelSettings.html#a894196449b15605733a65f2f2ca90eec":[6,0,0,16,4,0,10],
+"classMR_1_1DetectTunnelSettings.html#a98dbdacb703cc7a992cbe17953669c9e":[6,0,0,16,4,0,8],
+"classMR_1_1DetectTunnelSettings.html#ab53170b70a40416d5373a5b135d2febe":[6,0,0,16,4,0,5],
+"classMR_1_1DetectTunnelSettings.html#adc555b54ed2e8763296a62b1572e7a81":[6,0,0,16,4,0,7],
 "classMR_1_1DirectionWidget.html":[6,0,1,0,1,112],
 "classMR_1_1DirectionWidget.html":[6,0,2,0,2,84],
 "classMR_1_1DirectionWidget.html#a0128153cf5d0c06d9fdfd105c8255ba5":[6,0,1,0,1,112,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a2ec215e7b7102eb9a43ce86c525e2425":[6,0,2,0,2,84,2,2],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd":[6,0,1,0,1,112,2,3],
 "classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#a8b31501499578aedaea3b467387980cd":[6,0,2,0,2,84,2,3],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,1,0,1,112,2,1],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,2,0,2,84,2,1],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad8f6ba3f974fae829f4eae6ddb94761a":[6,0,1,0,1,112,2,0]
+"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html#ad330db9f1a8d058d8e6ccf93621ac572":[6,0,1,0,1,112,2,1]
 };
