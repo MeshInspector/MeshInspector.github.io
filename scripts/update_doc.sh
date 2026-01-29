@@ -6,7 +6,7 @@ if [ $# -lt 1 ]; then
     echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
 fi
 
-MODULES=(Main Cpp Py C)
+MODULES=(Main Cpp Py C Csharp)
 if [ $# -eq 2 ]; then
     MODULES=($(<$2))
 fi
@@ -26,15 +26,25 @@ mkdir -p ${TARGET_DIR}/html
 # clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
+if [ "$CHECK_WARNINGS" = false ]; then
+    rm log*.txt
+fi
+
 # generate tag files
 for MODULE in ${MODULES[*]}
 do
     cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
+    echo "" >> Doxyfile${MODULE}Tag
     echo "GENERATE_TAGFILE = MeshLib/MeshLib${MODULE}.tag" >> Doxyfile${MODULE}Tag
     echo "========== ${MODULE}" >> log_tag.txt
     echo "========== ${MODULE}" >> log_tag_error.txt
-    doxygen ./Doxyfile${MODULE}Tag 1>> log_tag.txt 2>> log_tag_error.txt
+    start=$(date +%s.%N)
+    doxygen -d time ./Doxyfile${MODULE}Tag 1>> log_tag.txt 2>> log_tag_error.txt
+    end=$(date +%s.%N)
+    runtime=$(echo "$end - $start" | bc)
+    echo "${MODULE} tag $runtime seconds" >> log_time.txt
     rm Doxyfile${MODULE}Tag
+    
 done
 rm -rf ${TARGET_DIR}/html/*
 
@@ -58,14 +68,24 @@ do
         if [ "$MODULE" = "$MODULE_2" ]; then
             continue
         elif [ "$MODULE_2" = "Main" ]; then
+            echo "" >> Doxyfile${MODULE}Tag
             echo "TAGFILES += MeshLib/MeshLib${MODULE_2}.tag=../" >> Doxyfile${MODULE}Tag
         else
+            echo "" >> Doxyfile${MODULE}Tag
             echo "TAGFILES += MeshLib/MeshLib${MODULE_2}.tag=${DIR}/${MODULE_2}/" >> Doxyfile${MODULE}Tag
         fi
     done
+    if [ "$MODULE" = "Cpp" ]; then
+        echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
+        echo "XML_OUTPUT = ./xml" >> Doxyfile${MODULE}Tag
+    fi
     echo "========== ${MODULE}" >> log.txt
     echo "========== ${MODULE}" >> log_error.txt
-    doxygen ./Doxyfile${MODULE}Tag 1>> log.txt 2>> log_error.txt
+    start=$(date +%s.%N)
+    doxygen -d time ./Doxyfile${MODULE}Tag 1>> log.txt 2>> log_error.txt
+    end=$(date +%s.%N)
+    runtime=$(echo "$end - $start" | bc)
+    echo "${MODULE} $runtime seconds" >> log_time.txt
     rm Doxyfile${MODULE}Tag
 done
 
