@@ -4,7 +4,6 @@ CHECK_WARNINGS=true
 
 if [ $# -lt 1 ]; then
     echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
-    CHECK_WARNINGS=false
 fi
 
 MODULES=(Main Cpp Py C Csharp)
