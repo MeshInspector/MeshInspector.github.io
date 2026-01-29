@@ -14,5 +14,6 @@ var classMR_1_1Quaternionf =
     [ "Quaternionf", "classMR_1_1Quaternionf.html#a1c71ef6bdee5037714588390f70a211a", null ],
     [ "a", "classMR_1_1Quaternionf.html#a1c8eb5a31f7c3065dbae7281fa403fac", null ],
     [ "b", "classMR_1_1Quaternionf.html#aa3b5180256e698ab23cbbe1108db7608", null ],
-    [ "c", "classMR_1_1Quaternionf.html#ab1a919c14244077ed44ac7b458ae5060", null ]
+    [ "c", "classMR_1_1Quaternionf.html#ab1a919c14244077ed44ac7b458ae5060", null ],
+    [ "d", "classMR_1_1Quaternionf.html#ab8292b981d0b4697b9cbc6d5e44b604a", null ]
 ];

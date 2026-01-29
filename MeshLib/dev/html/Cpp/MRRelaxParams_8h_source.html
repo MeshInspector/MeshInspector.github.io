@@ -150,7 +150,7 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
 <div class="contents">
 <a href="MRRelaxParams_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRPch/MRBindingMacros.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
@@ -177,7 +177,7 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    MR_BIND_IGNORE <span class="keywordtype">int</span> _padding;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">enum class</span> RelaxApproxType</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">enum class</span> <a class="code hl_enumerationRef" href="../Csharp/classMR.html#a04fbc78203c3033872b6d43c31d2805c">RelaxApproxType</a></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>{</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    Planar,</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    Quadric,</div>
@@ -197,13 +197,14 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
 </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_a25edc7a8669087781f5180c67a704a7d"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#a25edc7a8669087781f5180c67a704a7d">MR::RelaxParams::region</a></div><div class="ttdeci">new unsafe MR.? Const_VertBitSet region</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_a3a35234771b7e73df2d9d2ac55d86881"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#a3a35234771b7e73df2d9d2ac55d86881">MR::RelaxParams::iterations</a></div><div class="ttdeci">new unsafe ref int iterations</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_a6a77807fb4269a27dbe4ed779b218721"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#a6a77807fb4269a27dbe4ed779b218721">MR::RelaxParams::limitNearInitial</a></div><div class="ttdeci">new unsafe ref bool limitNearInitial</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_ab63b0c054897c1b08f7e126ae1794748"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#ab63b0c054897c1b08f7e126ae1794748">MR::RelaxParams::force</a></div><div class="ttdeci">new unsafe ref float force</div></div>
 <div class="ttc" id="aclassMR_1_1RelaxParams_html_ae949db566df3a3532f3bebfa7dfcd11c"><div class="ttname"><a href="../Csharp/classMR_1_1RelaxParams.html#ae949db566df3a3532f3bebfa7dfcd11c">MR::RelaxParams::maxInitialDist</a></div><div class="ttdeci">new unsafe ref float maxInitialDist</div></div>
+<div class="ttc" id="aclassMR_html_a04fbc78203c3033872b6d43c31d2805c"><div class="ttname"><a href="../Csharp/classMR.html#a04fbc78203c3033872b6d43c31d2805c">MR::RelaxApproxType</a></div><div class="ttdeci">RelaxApproxType</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdoc">squared value</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:752</div></div>
 <div class="ttc" id="anamespaceMR_html_ab3c3135929071104083ade4ce59d105d"><div class="ttname"><a href="namespaceMR.html#ab3c3135929071104083ade4ce59d105d">MR::getLimitedPos</a></div><div class="ttdeci">V getLimitedPos(const V &amp;pos, const V &amp;guidePos, typename VectorTraits&lt; V &gt;::BaseType maxGuideDistSq)</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:44</div></div>

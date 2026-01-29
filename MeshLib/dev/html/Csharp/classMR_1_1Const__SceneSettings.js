@@ -4,6 +4,20 @@ var classMR_1_1Const__SceneSettings =
       [ "UseDefaultScenePropertiesOnDeserialization", "classMR_1_1Const__SceneSettings.html#a9ef457c7d4c1d20de5a98c10f5697b94a227e8dc9a98750c5dd23f4ea2da04c7a", null ],
       [ "Count", "classMR_1_1Const__SceneSettings.html#a9ef457c7d4c1d20de5a98c10f5697b94ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
+    [ "FloatType", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36d", [
+      [ "FeaturePointsAlpha", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da76f1624926021a8e4a671dd85c3cdc00", null ],
+      [ "FeatureLinesAlpha", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dae3241ff3a6a1c4e22348c34a6ef69904", null ],
+      [ "FeatureMeshAlpha", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da9e62e749ce08f2fc8cb6437f1b409778", null ],
+      [ "FeatureSubPointsAlpha", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da643f1e82cb1a542f73852553cdb88310", null ],
+      [ "FeatureSubLinesAlpha", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36daad36d169353d55602524d078a697a16b", null ],
+      [ "FeatureSubMeshAlpha", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dafa71df10d1ecadd399ea1c886d42daf3", null ],
+      [ "FeatureLineWidth", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da8a3aad920f8a916d4abf44b25a86ef1e", null ],
+      [ "FeatureSubLineWidth", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dafc0611ad1874f59b7e47820b4cdd72e9", null ],
+      [ "FeaturePointSize", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dabaca4c96c2c2eb0beb55075d1dfb25ce", null ],
+      [ "FeatureSubPointSize", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da42e73be4e6a3c410002eb381e9575f5b", null ],
+      [ "AmbientCoefSelectedObj", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da8ac314a210ce649b6362765e85106c2a", null ],
+      [ "Count", "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "ShadingMode", "classMR_1_1Const__SceneSettings.html#ab15c090ffcb727728253f63e2586b202", [
       [ "AutoDetect", "classMR_1_1Const__SceneSettings.html#ab15c090ffcb727728253f63e2586b202a10c84306f5bb51fdad714b1f2f4463cf", null ],
       [ "Smooth", "classMR_1_1Const__SceneSettings.html#ab15c090ffcb727728253f63e2586b202ae510cdf33cd497134b47b9316314d4b4", null ],

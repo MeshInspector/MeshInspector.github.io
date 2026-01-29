@@ -5,11 +5,12 @@ var classMR_1_1Const__Polyline2 =
     [ "Const_Polyline2", "classMR_1_1Const__Polyline2.html#aa5baa2987450efcbebaeab9c0bb85d21", null ],
     [ "Const_Polyline2", "classMR_1_1Const__Polyline2.html#a4f86626285b78a592bc563aa70cc90c9", null ],
     [ "Const_Polyline2", "classMR_1_1Const__Polyline2.html#af8a6b4be403c4a4f21efbf22a83ae914", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__Polyline2.html#afae489193db0c94a394fce9987cf15f8", null ],
     [ "averageEdgeLength", "classMR_1_1Const__Polyline2.html#acce3f0e4eddc1a3c141cba591e54f27e", null ],
     [ "computeBoundingBox", "classMR_1_1Const__Polyline2.html#a9b4019ef6c19060e06379e1297ed7f12", null ],
     [ "contours", "classMR_1_1Const__Polyline2.html#aef328151ee1d3890f90deaea46739b8a", null ],
     [ "destPnt", "classMR_1_1Const__Polyline2.html#a9c78d41452db4c1b4514a0cbab735bf2", null ],
+    [ "Dispose", "classMR_1_1Const__Polyline2.html#a51d3d58fd329009c4cb9a486ce57dc07", null ],
+    [ "Dispose", "classMR_1_1Const__Polyline2.html#a1d711afb50b231e938198f1a4b5ef2c3", null ],
     [ "edgeCenter", "classMR_1_1Const__Polyline2.html#a3cf6877996d6fa01650afe71065c633c", null ],
     [ "edgeLength", "classMR_1_1Const__Polyline2.html#a1e9f595e48da0451758ed5ccd4bef25d", null ],
     [ "edgeLengthSq", "classMR_1_1Const__Polyline2.html#a431add856352467734a2229395dc045e", null ],
@@ -28,5 +29,7 @@ var classMR_1_1Const__Polyline2 =
     [ "orgPnt", "classMR_1_1Const__Polyline2.html#a9073f4d565fbea8805ef6a68db987971", null ],
     [ "toEdgePoint", "classMR_1_1Const__Polyline2.html#a35fda8d7c226504ce1732795c63f5ddd", null ],
     [ "toEdgePoint", "classMR_1_1Const__Polyline2.html#a76feae005da2e0424f357d5fce108e9d", null ],
-    [ "totalLength", "classMR_1_1Const__Polyline2.html#acf1dbc5888bee9e01248f6418ca58eb0", null ]
+    [ "totalLength", "classMR_1_1Const__Polyline2.html#acf1dbc5888bee9e01248f6418ca58eb0", null ],
+    [ "points", "classMR_1_1Const__Polyline2.html#ac202551f3e96340996ba910f6d8bd298", null ],
+    [ "topology", "classMR_1_1Const__Polyline2.html#a2c64b50bd786c273d6f53732bc891dff", null ]
 ];

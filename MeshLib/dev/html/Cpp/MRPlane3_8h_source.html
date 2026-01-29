@@ -150,7 +150,7 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MRPlane3_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;iosfwd&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#if MR_HAS_REQUIRES</span></div>
@@ -246,11 +246,11 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:34</div></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga300a438da6440ee7d2e92933bcfa6018"><div class="ttname"><a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></div><div class="ttdeci">MRMESH_API bool operator==(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdoc">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but la...</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a5534d2437ed57cabae82ae75a441b224"><div class="ttname"><a href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:101</div></div>
+<div class="ttc" id="anamespaceMR_html_a5534d2437ed57cabae82ae75a441b224"><div class="ttname"><a href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRColor.h:101</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html"><div class="ttname"><a href="structMR_1_1Plane3.html">MR::Plane3</a></div><div class="ttdef"><b>Definition</b> MRPlane3.h:18</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_a29f7ab9c3671dc6904b3a79d854445ad"><div class="ttname"><a href="structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad">MR::Plane3::Plane3</a></div><div class="ttdeci">constexpr Plane3() noexcept=default</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_a383135f606af5200e0386204ae1eecf3"><div class="ttname"><a href="structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3">MR::Plane3::normalized</a></div><div class="ttdeci">Plane3 normalized() const</div><div class="ttdoc">returns same plane represented with unit n-vector</div><div class="ttdef"><b>Definition</b> MRPlane3.h:40</div></div>
@@ -266,7 +266,7 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="astructMR_1_1Plane3_html_ab78bbcb21e57f07de12885121b3e2177"><div class="ttname"><a href="structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177">MR::Plane3::invTransformed</a></div><div class="ttdeci">Plane3&lt; T &gt; invTransformed(const Plane3&lt; T &gt; &amp;pl, const AffineXf3&lt; T &gt; &amp;ixf)</div><div class="ttdef"><b>Definition</b> MRPlane3.h:70</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_ad931841bd9391994b3b9a9669c546b86"><div class="ttname"><a href="structMR_1_1Plane3.html#ad931841bd9391994b3b9a9669c546b86">MR::Plane3::operator-</a></div><div class="ttdeci">Plane3 operator-() const</div><div class="ttdoc">returns same plane represented with flipped direction of n-vector</div><div class="ttdef"><b>Definition</b> MRPlane3.h:36</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_adc61a99fd27dc36f7b0c520abb625106"><div class="ttname"><a href="structMR_1_1Plane3.html#adc61a99fd27dc36f7b0c520abb625106">MR::Plane3::fromDirAndPt</a></div><div class="ttdeci">static constexpr Plane3 fromDirAndPt(const Vector3&lt; T &gt; &amp;n, const Vector3&lt; T &gt; &amp;p)</div><div class="ttdef"><b>Definition</b> MRPlane3.h:30</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:30</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:30</div></div>
 <div class="ttc" id="astructMR_1_1VectorTraits_html"><div class="ttname"><a href="structMR_1_1VectorTraits.html">MR::VectorTraits</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVectorTraits.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

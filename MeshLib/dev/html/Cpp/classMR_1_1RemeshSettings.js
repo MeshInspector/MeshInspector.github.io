@@ -3,7 +3,6 @@ var classMR_1_1RemeshSettings =
     [ "RemeshSettings", "../Csharp/classMR_1_1RemeshSettings.html#ad9b6380e8d637f8c2ba5e5f2c36fd115", null ],
     [ "RemeshSettings", "../Csharp/classMR_1_1RemeshSettings.html#a836b113cd92a52793147b9564e585ffa", null ],
     [ "RemeshSettings", "../Csharp/classMR_1_1RemeshSettings.html#ac157e99791f8e2ae24ae565be1367f03", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1RemeshSettings.html#a276fa8d9f4ceee781d47acabfcac6769", null ],
     [ "assign", "../Csharp/classMR_1_1RemeshSettings.html#a8135724dd2f44a816686ce14a292c35a", null ],
     [ "finalRelaxIters", "../Csharp/classMR_1_1RemeshSettings.html#aa850f0dfa5b2ea1499d220174d5f5dea", null ],
     [ "finalRelaxNoShrinkage", "../Csharp/classMR_1_1RemeshSettings.html#a29dd5f95d7806750d40e89020792465a", null ],

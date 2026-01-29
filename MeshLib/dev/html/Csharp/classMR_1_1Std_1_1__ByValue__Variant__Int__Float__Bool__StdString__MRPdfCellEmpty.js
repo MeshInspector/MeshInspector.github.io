@@ -1,8 +1,0 @@
-var classMR_1_1Std_1_1__ByValue__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty =
-[
-    [ "operator _ByValue_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1__ByValue__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a85dcb33ffc7ec67590664fd5168c2e5c", null ],
-    [ "operator _ByValue_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1__ByValue__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a8c3ea98984dbe7106cc31ccf04c7a9f4", null ],
-    [ "operator _ByValue_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1__ByValue__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a3656b6c9f0674db7dff288254187e7e3", null ],
-    [ "operator _ByValue_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1__ByValue__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a82d86bc31886f60f9cce15bf7152bae3", null ],
-    [ "operator _ByValue_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1__ByValue__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a6e996a65b185694b49056c5c426eee57", null ]
-];

@@ -7,11 +7,13 @@ var classMR_1_1Const__Matrix__Float =
     [ "call", "classMR_1_1Const__Matrix__Float.html#afaf2d50c4863b07a1ad6f323369ab36b", null ],
     [ "data", "classMR_1_1Const__Matrix__Float.html#a82eb9e800136bc2b48caffb3a8eb481d", null ],
     [ "dims", "classMR_1_1Const__Matrix__Float.html#af160e5f924d1568ce6ab02bbd44fb6e5", null ],
+    [ "Dispose", "classMR_1_1Const__Matrix__Float.html#a8254df506bb8796ea214bfd868a20ef0", null ],
+    [ "Dispose", "classMR_1_1Const__Matrix__Float.html#abf51e7bf53dd0682fc63f462646c064d", null ],
     [ "getColsNum", "classMR_1_1Const__Matrix__Float.html#a752fea6035795b0c917e2e18de6f0928", null ],
     [ "getRowsNum", "classMR_1_1Const__Matrix__Float.html#a508793b4fa96ce5c6683f9a0a11a156f", null ],
+    [ "operator MR.Const_RectIndexer", "classMR_1_1Const__Matrix__Float.html#a72678966e485259b4a6f6779b18f6f71", null ],
     [ "size", "classMR_1_1Const__Matrix__Float.html#a99f71dad3381929b763f2ec10ee2c094", null ],
     [ "toIndex", "classMR_1_1Const__Matrix__Float.html#a45d1f01c80d1a29c27bcd61f0ec49f7a", null ],
     [ "toPixelId", "classMR_1_1Const__Matrix__Float.html#a47cec9a6128304db23af3d7fd1c15a09", null ],
-    [ "transposed", "classMR_1_1Const__Matrix__Float.html#aef5b7d3f0581313d2e603e24fc4fced0", null ],
-    [ "_IsOwning", "classMR_1_1Const__Matrix__Float.html#accc102f743fc86e455b7d939d0ca2aa4", null ]
+    [ "transposed", "classMR_1_1Const__Matrix__Float.html#aef5b7d3f0581313d2e603e24fc4fced0", null ]
 ];

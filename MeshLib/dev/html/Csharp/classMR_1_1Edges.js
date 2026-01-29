@@ -5,7 +5,6 @@ var classMR_1_1Edges =
     [ "Edges", "classMR_1_1Edges.html#ab313863625ab22ed0ed63cdedabaa016", null ],
     [ "Edges", "classMR_1_1Edges.html#a64bfb56535091e9a5912b0b48cf49aca", null ],
     [ "Edges", "classMR_1_1Edges.html#a824c2b899a57a7a595447a20c9dc4a91", null ],
-    [ "_FinalizeFields", "classMR_1_1Edges.html#a6e9f5d9763b3d6f00076260110c8ffa9", null ],
     [ "assign", "classMR_1_1Edges.html#acb543f3d8ff1c216f922a9988809cc2c", null ],
     [ "autoResizeAt", "classMR_1_1Edges.html#ae2d240fad035e243dde7417e418b13e5", null ],
     [ "autoResizeSet", "classMR_1_1Edges.html#a632bc8cadcd329bae3800b212ab2a031", null ],

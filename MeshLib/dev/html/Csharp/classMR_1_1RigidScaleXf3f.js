@@ -5,5 +5,6 @@ var classMR_1_1RigidScaleXf3f =
     [ "RigidScaleXf3f", "classMR_1_1RigidScaleXf3f.html#a39b73a9bb9ad09512b0ac82d0b4a614d", null ],
     [ "assign", "classMR_1_1RigidScaleXf3f.html#abdb8701aef14dafbc5cd7305d5147d47", null ],
     [ "a", "classMR_1_1RigidScaleXf3f.html#a14f28a87e4b6b89466c1af6382650bec", null ],
-    [ "b", "classMR_1_1RigidScaleXf3f.html#a5ecd1e9e1f305dbcfd58bbe00639574c", null ]
+    [ "b", "classMR_1_1RigidScaleXf3f.html#a5ecd1e9e1f305dbcfd58bbe00639574c", null ],
+    [ "s", "classMR_1_1RigidScaleXf3f.html#ad41dc504cec2c59a7774d7ed794f2868", null ]
 ];

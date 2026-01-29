@@ -151,7 +151,7 @@ $(function(){initNavTree('MRPointCloudTriangulation_8h_source.html',''); initRes
 <a href="MRPointCloudTriangulation_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRConstants_8h.html">MRConstants.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRProgressCallback.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
@@ -179,7 +179,7 @@ $(function(){initNavTree('MRPointCloudTriangulation_8h_source.html',''); initRes
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">struct </span>FillHolesWithExtraPointsParams</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>{</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    TriangulationParameters triangulation;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    TriangulationParameters <a class="code hl_propertyRef" href="../Csharp/classMR_1_1FillHolesWithExtraPointsParams.html#adf1e6ef6717a73027512b4b1b4916878">triangulation</a>;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">const</span> VertBitSet* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1FillHolesWithExtraPointsParams.html#a03abae216e129db9a94f718cc8c1d417">modifyBdVertices</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>};</div>
@@ -190,12 +190,13 @@ $(function(){initNavTree('MRPointCloudTriangulation_8h_source.html',''); initRes
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FillHolesWithExtraPointsParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1FillHolesWithExtraPointsParams.html">MR::FillHolesWithExtraPointsParams</a></div><div class="ttdef"><b>Definition</b> MRPointCloudTriangulation.h:90</div></div>
 <div class="ttc" id="aclassMR_1_1FillHolesWithExtraPointsParams_html_a03abae216e129db9a94f718cc8c1d417"><div class="ttname"><a href="../Csharp/classMR_1_1FillHolesWithExtraPointsParams.html#a03abae216e129db9a94f718cc8c1d417">MR::FillHolesWithExtraPointsParams::modifyBdVertices</a></div><div class="ttdeci">new unsafe MR.? Const_VertBitSet modifyBdVertices</div></div>
-<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
-<div class="ttc" id="aclassMR_1_1PointCloud_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1FillHolesWithExtraPointsParams_html_adf1e6ef6717a73027512b4b1b4916878"><div class="ttname"><a href="../Csharp/classMR_1_1FillHolesWithExtraPointsParams.html#adf1e6ef6717a73027512b4b1b4916878">MR::FillHolesWithExtraPointsParams::triangulation</a></div><div class="ttdeci">new unsafe MR.TriangulationParameters triangulation</div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1PointCloud_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRPointCloud.h:17</div></div>
 <div class="ttc" id="aclassMR_1_1TriangulationParameters_html"><div class="ttname"><a href="../Csharp/classMR_1_1TriangulationParameters.html">MR::TriangulationParameters</a></div><div class="ttdef"><b>Definition</b> MRPointCloudTriangulation.h:22</div></div>
 <div class="ttc" id="aclassMR_1_1TriangulationParameters_html_a070f3cf1633e3f00920a74ea54fbcfda"><div class="ttname"><a href="../Csharp/classMR_1_1TriangulationParameters.html#a070f3cf1633e3f00920a74ea54fbcfda">MR::TriangulationParameters::automaticRadiusIncrease</a></div><div class="ttdeci">new unsafe ref bool automaticRadiusIncrease</div></div>
 <div class="ttc" id="aclassMR_1_1TriangulationParameters_html_a6c057842916a3f769cd412072e2dc4a8"><div class="ttname"><a href="../Csharp/classMR_1_1TriangulationParameters.html#a6c057842916a3f769cd412072e2dc4a8">MR::TriangulationParameters::numNeighbours</a></div><div class="ttdeci">new unsafe ref int numNeighbours</div></div>

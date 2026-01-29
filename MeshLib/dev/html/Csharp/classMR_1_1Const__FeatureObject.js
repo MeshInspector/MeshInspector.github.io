@@ -4,6 +4,8 @@ var classMR_1_1Const__FeatureObject =
     [ "classNameInPlural", "classMR_1_1Const__FeatureObject.html#a5b13b1b219b97620b20f3a796eb33b16", null ],
     [ "clone", "classMR_1_1Const__FeatureObject.html#a8b9c133a709d0c71f027fa9c4f4c6f87", null ],
     [ "cloneTree", "classMR_1_1Const__FeatureObject.html#a955cd4b8c2b62b9503144986618d1132", null ],
+    [ "Dispose", "classMR_1_1Const__FeatureObject.html#abbf6c0c19dd7b952ea70ec3eefd36703", null ],
+    [ "Dispose", "classMR_1_1Const__FeatureObject.html#a6e09bcaac8d16893967f38359c4176b6", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__FeatureObject.html#a118cc0a398bccf13c684707499b16b03", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__FeatureObject.html#a16fbc147499cd24c20e411eeac0b90f6", null ],
     [ "getAmbientStrength", "classMR_1_1Const__FeatureObject.html#a33e3558e7b28735951e0c398971a1c2e", null ],
@@ -56,6 +58,11 @@ var classMR_1_1Const__FeatureObject =
     [ "isSelected", "classMR_1_1Const__FeatureObject.html#a798013c4a42bd23865208c16baea298f", null ],
     [ "isVisible", "classMR_1_1Const__FeatureObject.html#a430bfd7c3998bf13338123116f8531f6", null ],
     [ "name", "classMR_1_1Const__FeatureObject.html#aa2a382111a134efea2ffec22421401a5", null ],
+    [ "operator Const_FeatureObject?", "classMR_1_1Const__FeatureObject.html#a875a3e848c4ede5fca5ce95053c1d71a", null ],
+    [ "operator Const_FeatureObject?", "classMR_1_1Const__FeatureObject.html#a06277fd3af2c8037719395f4e30f0c3f", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__FeatureObject.html#a762a998ed16e4e40362ad2d72ae1939d", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__FeatureObject.html#a145a18c94b086766fded4c8d9927baee", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__FeatureObject.html#a1db6d74da6246b588547333e56c38e5e", null ],
     [ "projectPoint", "classMR_1_1Const__FeatureObject.html#ac50d1a46be6f0236123d39100a77bc14", null ],
     [ "render", "classMR_1_1Const__FeatureObject.html#ad7643173ea1765f901ec09e97badc99a", null ],
     [ "renderForPicker", "classMR_1_1Const__FeatureObject.html#aba5c480e660713f3625f26259163a79f", null ],
@@ -76,6 +83,5 @@ var classMR_1_1Const__FeatureObject =
     [ "visibilityMask", "classMR_1_1Const__FeatureObject.html#a72612750a1c1c2486e720774c7c149ab", null ],
     [ "worldXf", "classMR_1_1Const__FeatureObject.html#aaa0bda662155a843286fe4cbbd5a2bd8", null ],
     [ "xf", "classMR_1_1Const__FeatureObject.html#a30a6e45ec15995726e9b8004611868ec", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__FeatureObject.html#a262c70266ff66987f581b9d0c131d003", null ],
-    [ "_IsOwning", "classMR_1_1Const__FeatureObject.html#a986fd9e48a02bb037c88e0f7119ecdd2", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__FeatureObject.html#a262c70266ff66987f581b9d0c131d003", null ]
 ];

@@ -7,6 +7,8 @@ var structMR_1_1Vector3i64 =
     [ "addAssign", "structMR_1_1Vector3i64.html#ac86edcf675c55d8f85c74689d4421a6f", null ],
     [ "diagonal", "structMR_1_1Vector3i64.html#adce94aa33a04accdd47b433d34873e17", null ],
     [ "divAssign", "structMR_1_1Vector3i64.html#abb7c7acb82fc10577d6aa86b56199837", null ],
+    [ "Equals", "structMR_1_1Vector3i64.html#a3236247dbb6c5c9ba59ae4803d0f3541", null ],
+    [ "Equals", "structMR_1_1Vector3i64.html#a3a832c0882f5f6d270034ac4d17f282a", null ],
     [ "furthestBasisVector", "structMR_1_1Vector3i64.html#ac0702ee6193140989233b435b6873713", null ],
     [ "index", "structMR_1_1Vector3i64.html#a9ce2a9da327a518fd36e1794f4070917", null ],
     [ "length", "structMR_1_1Vector3i64.html#a0692fed5d2ba8b829aab32c62482c280", null ],
@@ -16,6 +18,7 @@ var structMR_1_1Vector3i64 =
     [ "minusZ", "structMR_1_1Vector3i64.html#a930d8b9b142152c0a896e19866d80b3d", null ],
     [ "mulAssign", "structMR_1_1Vector3i64.html#a24288946f96bb1797222c5d772368534", null ],
     [ "operator Vector3i64", "structMR_1_1Vector3i64.html#aea8287d986ced3150fc3a95f969b6cc9", null ],
+    [ "operator!=", "structMR_1_1Vector3i64.html#aa254c83439965a2b3f15547422830cc8", null ],
     [ "operator*", "structMR_1_1Vector3i64.html#a5f33467dc2ffdab38f9e5c3096bd9332", null ],
     [ "operator*", "structMR_1_1Vector3i64.html#a81bf7dc27353027efe9917fd981bc042", null ],
     [ "operator+", "structMR_1_1Vector3i64.html#a66a1fe3dcd6370bfaa3db425e600f3d2", null ],
@@ -28,5 +31,8 @@ var structMR_1_1Vector3i64 =
     [ "plusY", "structMR_1_1Vector3i64.html#abd8edb63e6002236d035a7648d00b0e9", null ],
     [ "plusZ", "structMR_1_1Vector3i64.html#a1e0d0476de5fd3dabd14c6c5305af095", null ],
     [ "subAssign", "structMR_1_1Vector3i64.html#a4df66ed119c90d89745b92f8ee0f2d53", null ],
+    [ "x", "structMR_1_1Vector3i64.html#aa47dac2b81c06102a3a80d5e72296484", null ],
+    [ "y", "structMR_1_1Vector3i64.html#a2839d6c080b1c0a726eaff97077cc49b", null ],
+    [ "z", "structMR_1_1Vector3i64.html#ad09a25aedb10250aaa1b84c25b002f53", null ],
     [ "this[int e]", "structMR_1_1Vector3i64.html#a7e3afe9f4c5e0ef9bd331ab4862bad0a", null ]
 ];

@@ -7,6 +7,8 @@ var classMR_1_1Const__SphereObject =
     [ "classNameInPlural", "classMR_1_1Const__SphereObject.html#a3ba59408cbff1956f8057e26e9ca85d5", null ],
     [ "clone", "classMR_1_1Const__SphereObject.html#ac781c18d75cd341e6eb634c203c92488", null ],
     [ "cloneTree", "classMR_1_1Const__SphereObject.html#a6509a228edbffa1e0861e13c2a52a469", null ],
+    [ "Dispose", "classMR_1_1Const__SphereObject.html#af47a5fb641ebe4ced920ec30f811cf73", null ],
+    [ "Dispose", "classMR_1_1Const__SphereObject.html#a24a4ae82705e47baf828a763cf6d01eb", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__SphereObject.html#ad9888df40bdc955a669a0d0127926f7e", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__SphereObject.html#ab201abb2a088caf3134f36d360b07ff4", null ],
     [ "getAmbientStrength", "classMR_1_1Const__SphereObject.html#a03dfc6f99fb5f2012b358361787492b2", null ],
@@ -62,6 +64,15 @@ var classMR_1_1Const__SphereObject =
     [ "isVisible", "classMR_1_1Const__SphereObject.html#a8278cac84e25999a434916b5bb6e000d", null ],
     [ "name", "classMR_1_1Const__SphereObject.html#a08bd1199f33666a23dcab2e8b97743fb", null ],
     [ "operator Const_SphereObject", "classMR_1_1Const__SphereObject.html#a60adb6f58d7537cab211e79bc8601016", null ],
+    [ "operator Const_SphereObject?", "classMR_1_1Const__SphereObject.html#a24d83318e2b8e01f178229e7fcc55482", null ],
+    [ "operator Const_SphereObject?", "classMR_1_1Const__SphereObject.html#ad4d413b7390875278e50a1974a653b20", null ],
+    [ "operator Const_SphereObject?", "classMR_1_1Const__SphereObject.html#a525a7be8138b22d610aa0ef35acdb2a2", null ],
+    [ "operator Const_SphereObject?", "classMR_1_1Const__SphereObject.html#a0ba74498c5028a4f9f80bfd14175654f", null ],
+    [ "operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__SphereObject.html#a303b48d196e72323bec767f5d717b1f5", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__SphereObject.html#af8ee6c8907d241cef17c732c63f0ca1a", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__SphereObject.html#a7705c859f4df181381973324e66bd911", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__SphereObject.html#af9d9b0cc0198d438abeb6c8dd351a9e6", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__SphereObject.html#aef3b205fc12bee18607629fd4e8b10b1", null ],
     [ "projectPoint", "classMR_1_1Const__SphereObject.html#a2be91766362ff64499795bb08a4d32a9", null ],
     [ "render", "classMR_1_1Const__SphereObject.html#a5b464498ec9f490ee52b64a2628fa680", null ],
     [ "renderForPicker", "classMR_1_1Const__SphereObject.html#a2d8ea8b2d10d83c7e522785c0c9547d9", null ],
@@ -82,6 +93,5 @@ var classMR_1_1Const__SphereObject =
     [ "visibilityMask", "classMR_1_1Const__SphereObject.html#a444aa2b517cc1a0b034fbf871bbacfa1", null ],
     [ "worldXf", "classMR_1_1Const__SphereObject.html#aa9a856c4fc6d93676a9982fe4594ae41", null ],
     [ "xf", "classMR_1_1Const__SphereObject.html#a9ee23c422ec08029a201ad1baacb69fd", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__SphereObject.html#a6f0c2f82be91c82e2acb729aef750a77", null ],
-    [ "_IsOwning", "classMR_1_1Const__SphereObject.html#ab58ccdbea826577d63b20c616de40dfe", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__SphereObject.html#a6f0c2f82be91c82e2acb729aef750a77", null ]
 ];

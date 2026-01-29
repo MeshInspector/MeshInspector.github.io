@@ -6,6 +6,8 @@ var classMR_1_1Const__FloatGrid =
     [ "arrow", "classMR_1_1Const__FloatGrid.html#a17b28d884403b5f944e29a9d63b90295", null ],
     [ "deepCopy", "classMR_1_1Const__FloatGrid.html#abb42252c02770c36353b412de7b1861e", null ],
     [ "deref", "classMR_1_1Const__FloatGrid.html#a43ee68899b706596c0742191bccc55b1", null ],
+    [ "Dispose", "classMR_1_1Const__FloatGrid.html#aaaa5118c958684f670e703802c1014cb", null ],
+    [ "Dispose", "classMR_1_1Const__FloatGrid.html#a98806d0b0161f9ea15abbc1bd94d6a38", null ],
     [ "get", "classMR_1_1Const__FloatGrid.html#a854bdbd772eab81e6804fbf7cd10d375", null ],
     [ "operator bool", "classMR_1_1Const__FloatGrid.html#a00c3e9348c4ade7a07ab64c983eba6fd", null ],
     [ "operator Const_FloatGrid", "classMR_1_1Const__FloatGrid.html#a03f9e66f00de65dcedfd3247055d9da5", null ],

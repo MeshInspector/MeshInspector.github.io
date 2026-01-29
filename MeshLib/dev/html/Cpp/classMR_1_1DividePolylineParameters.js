@@ -3,7 +3,6 @@ var classMR_1_1DividePolylineParameters =
     [ "DividePolylineParameters", "../Csharp/classMR_1_1DividePolylineParameters.html#ab44b6e201bfdb383a3089f76203686ad", null ],
     [ "DividePolylineParameters", "../Csharp/classMR_1_1DividePolylineParameters.html#a27a3d4ed74897a3d7942e8f523419168", null ],
     [ "DividePolylineParameters", "../Csharp/classMR_1_1DividePolylineParameters.html#a5fd241ed2a6757408f815d61801e2632", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1DividePolylineParameters.html#ac0be775b1e5303df1659cdee9341e1a6", null ],
     [ "assign", "../Csharp/classMR_1_1DividePolylineParameters.html#a9c321e33ef433879597cfb61d262561a", null ],
     [ "closeLineAfterCut", "../Csharp/classMR_1_1DividePolylineParameters.html#a8c0fcacdc82112bbce7d87bcf5bae6cc", null ],
     [ "onEdgeSplitCallback", "../Csharp/classMR_1_1DividePolylineParameters.html#ad091c7a60513b137393a67ea6bb559ad", null ],

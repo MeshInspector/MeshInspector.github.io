@@ -5,6 +5,8 @@ var classMR_1_1Const__MeasurementObject =
     [ "classNameInPlural", "classMR_1_1Const__MeasurementObject.html#a0d3bfe92f554537fe509b6f9c34bc655", null ],
     [ "clone", "classMR_1_1Const__MeasurementObject.html#ac6a72688bc447643fbeda8b71dcc4e46", null ],
     [ "cloneTree", "classMR_1_1Const__MeasurementObject.html#a85422c4d43000f0e513e4a35c64c9f05", null ],
+    [ "Dispose", "classMR_1_1Const__MeasurementObject.html#a849b84e78febebd9ce280c44f8ab2a88", null ],
+    [ "Dispose", "classMR_1_1Const__MeasurementObject.html#a5306852b6b5f38fc63df6c9b411fa808", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__MeasurementObject.html#a08fd674d4d033f40130b571873554a48", null ],
     [ "getAmbientStrength", "classMR_1_1Const__MeasurementObject.html#add51ff6fade221904d0a9a7fcb7c7303", null ],
     [ "getBackColor", "classMR_1_1Const__MeasurementObject.html#a6e914701402de1461260963d721a20f7", null ],
@@ -42,6 +44,11 @@ var classMR_1_1Const__MeasurementObject =
     [ "isSelected", "classMR_1_1Const__MeasurementObject.html#a181f6871f57cdb5eead5aaba6049d2f0", null ],
     [ "isVisible", "classMR_1_1Const__MeasurementObject.html#a3e11bcca93e89e3c941c0a20dfbcd6dd", null ],
     [ "name", "classMR_1_1Const__MeasurementObject.html#a5a093e3d9b54df8f54931477613d57fc", null ],
+    [ "operator Const_MeasurementObject?", "classMR_1_1Const__MeasurementObject.html#a3149650ada94b94a6220ab914a525e82", null ],
+    [ "operator Const_MeasurementObject?", "classMR_1_1Const__MeasurementObject.html#aa9bbcb6de94e32c4fcc5a345a0bbb850", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__MeasurementObject.html#a78e40ce73f36d7fe2366b5bcbf9cbc85", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__MeasurementObject.html#a07784db19f564440fe68991688c2dd34", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__MeasurementObject.html#a242f18311847beda6316b5ca03d211a7", null ],
     [ "render", "classMR_1_1Const__MeasurementObject.html#a0430401d11fabe8bf1fbe04fb8043b63", null ],
     [ "renderForPicker", "classMR_1_1Const__MeasurementObject.html#aee86c99748b0654a375db8d295e2c43a", null ],
     [ "renderUi", "classMR_1_1Const__MeasurementObject.html#a46a382aa09219eacad373645323c1588", null ],
@@ -61,6 +68,5 @@ var classMR_1_1Const__MeasurementObject =
     [ "visibilityMask", "classMR_1_1Const__MeasurementObject.html#a919d029b69cdf348de52b0e9eb5df751", null ],
     [ "worldXf", "classMR_1_1Const__MeasurementObject.html#addedb42c6d70a7b850ad4d4492293867", null ],
     [ "xf", "classMR_1_1Const__MeasurementObject.html#afe595e5c6ca78f12700ac625ba1fe7de", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__MeasurementObject.html#a00989d8eadc183a3908b4e47bbd520c0", null ],
-    [ "_IsOwning", "classMR_1_1Const__MeasurementObject.html#a45861292ef96088bd726ff7e2f4e1d7b", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__MeasurementObject.html#a00989d8eadc183a3908b4e47bbd520c0", null ]
 ];

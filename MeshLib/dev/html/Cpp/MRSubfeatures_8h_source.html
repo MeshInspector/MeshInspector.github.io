@@ -161,14 +161,14 @@ $(function(){initNavTree('MRSubfeatures_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>SubfeatureInfo</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="comment">// A user-friendly name.</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::string_view name;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::string_view <a class="code hl_propertyRef" href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html#ad7e64904888a46e50cd5658ddd230371">name</a>;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// Whether the feature has infinite length.</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">bool</span> isInfinite = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html#a2c1286115d395c8902bb18de5dd491d8">isInfinite</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// Call this to create this subfeature.</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">// Pass the same feature you passed to `forEachSubfeature()`, or a DIFFERENT one to create the same kind of subfeature relative to that.</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    std::function&lt;Primitives::Variant( <span class="keyword">const</span> Features::Primitives::Variant&amp; feature )&gt; create;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    std::function&lt;Primitives::Variant( <span class="keyword">const</span> Features::Primitives::Variant&amp; feature )&gt; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html#a7c8e99103ca7c27a54df3af46a56509c">create</a>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">// A user callback for `forEachSubfeature()`.</span></div>
@@ -182,6 +182,9 @@ $(function(){initNavTree('MRSubfeatures_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
 <div class="ttc" id="aMRFeatures_8h_html"><div class="ttname"><a href="MRFeatures_8h.html">MRFeatures.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aclassMR_1_1Features_1_1SubfeatureInfo_html_a2c1286115d395c8902bb18de5dd491d8"><div class="ttname"><a href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html#a2c1286115d395c8902bb18de5dd491d8">MR::Features::SubfeatureInfo::isInfinite</a></div><div class="ttdeci">new unsafe ref bool isInfinite</div></div>
+<div class="ttc" id="aclassMR_1_1Features_1_1SubfeatureInfo_html_a7c8e99103ca7c27a54df3af46a56509c"><div class="ttname"><a href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html#a7c8e99103ca7c27a54df3af46a56509c">MR::Features::SubfeatureInfo::create</a></div><div class="ttdeci">new unsafe MR.Std.Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef create</div></div>
+<div class="ttc" id="aclassMR_1_1Features_1_1SubfeatureInfo_html_ad7e64904888a46e50cd5658ddd230371"><div class="ttname"><a href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html#ad7e64904888a46e50cd5658ddd230371">MR::Features::SubfeatureInfo::name</a></div><div class="ttdeci">new unsafe MR.Std.StringView name</div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_html"><div class="ttname"><a href="namespaceMR_1_1Features.html">MR::Features</a></div><div class="ttdef"><b>Definition</b> MRFeatures.h:20</div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_html_a97570d41ec01a7111b742503bdc2c5dc"><div class="ttname"><a href="namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc">MR::Features::forEachSubfeature</a></div><div class="ttdeci">MRMESH_API void forEachSubfeature(const Features::Primitives::Variant &amp;feature, const SubfeatureFunc &amp;func)</div></div>
 </div><!-- fragment --></div><!-- contents -->

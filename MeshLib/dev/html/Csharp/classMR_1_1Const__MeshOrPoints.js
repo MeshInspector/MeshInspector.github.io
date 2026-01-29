@@ -1,7 +1,5 @@
 var classMR_1_1Const__MeshOrPoints =
 [
-    [ "_InOptConst_ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1__InOptConst__ProjectionResult.html", null ],
-    [ "_InOptMut_ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1__InOptMut__ProjectionResult.html", null ],
     [ "Const_ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult.html", "classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult" ],
     [ "ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult" ],
     [ "Const_MeshOrPoints", "classMR_1_1Const__MeshOrPoints.html#ac7d80ad1837a502088fca4fb53953e83", null ],
@@ -14,6 +12,8 @@ var classMR_1_1Const__MeshOrPoints =
     [ "asPointCloudPart", "classMR_1_1Const__MeshOrPoints.html#a76e8f7cb3c35de307a40cbd3ae04e171", null ],
     [ "cacheAABBTree", "classMR_1_1Const__MeshOrPoints.html#abfe0c9df2b2e6d56152dd200ce9a1c7f", null ],
     [ "computeBoundingBox", "classMR_1_1Const__MeshOrPoints.html#a2cf9162dd055ed8f2141f99ed6caf2c7", null ],
+    [ "Dispose", "classMR_1_1Const__MeshOrPoints.html#afe487db0790e340c8322158b2d429a2a", null ],
+    [ "Dispose", "classMR_1_1Const__MeshOrPoints.html#a7e8a45856fe01f5e165a6c1d394c98ed", null ],
     [ "getObjBoundingBox", "classMR_1_1Const__MeshOrPoints.html#a8ba609b7d4e05eb3857ecf1f43ae1293", null ],
     [ "limitedProjector", "classMR_1_1Const__MeshOrPoints.html#a7afb9dc41f0afa1a6cd9bf1c1a32441e", null ],
     [ "normals", "classMR_1_1Const__MeshOrPoints.html#a95358978cc6377955ecb19fc96f505b7", null ],

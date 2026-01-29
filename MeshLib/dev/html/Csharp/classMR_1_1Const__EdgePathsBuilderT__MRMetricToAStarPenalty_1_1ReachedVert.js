@@ -6,5 +6,6 @@ var classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert =
     [ "assign", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a7716bf516b460d0529be0c2e6e6a95a2", null ],
     [ "backward", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a09e778b1ee45529de4abf0298cfa44a9", null ],
     [ "metric", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a030205c9b494f63a0747cb5f67898ffa", null ],
-    [ "penalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776", null ]
+    [ "penalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776", null ],
+    [ "v", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a96efde9039ac3948eca4fa52a492dded", null ]
 ];

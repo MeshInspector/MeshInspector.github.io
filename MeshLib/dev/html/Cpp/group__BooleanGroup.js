@@ -36,7 +36,6 @@ var group__BooleanGroup =
       [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#af1c83868539c57eaeeecccf03ff26738", null ],
       [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#ae54495bbb37a19315a597b57fcf968e7", null ],
       [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#acb304b62495c8212feca48ee1ba8d101", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1NewEdgesMap.html#a0b378fd09f919aeddb0d377695b05c0c", null ],
       [ "assign", "../Csharp/classMR_1_1NewEdgesMap.html#acd090fcf0bc89fe7e27bf8330cb0ea35", null ],
       [ "map", "../Csharp/classMR_1_1NewEdgesMap.html#ab7172e3d43dfedf26185e4da95d335d6", null ],
       [ "splitEdges", "../Csharp/classMR_1_1NewEdgesMap.html#a0ade3d587a06a3ab61ee67b30cfb2929", null ]

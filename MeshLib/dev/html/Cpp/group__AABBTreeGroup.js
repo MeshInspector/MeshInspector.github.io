@@ -42,7 +42,9 @@ var group__AABBTreeGroup =
       [ "NodeNode", "../Csharp/classMR_1_1NodeNode.html#a1b443c190a800d1396417d42f0b7756f", null ],
       [ "NodeNode", "../Csharp/classMR_1_1NodeNode.html#a42143bd900e96aeaa15bdbdaadc38e37", null ],
       [ "NodeNode", "../Csharp/classMR_1_1NodeNode.html#ab32c44f82547df4cd2abe6c732ba8bfe", null ],
-      [ "assign", "../Csharp/classMR_1_1NodeNode.html#a87a6a1b86496781f0815995d0060879c", null ]
+      [ "assign", "../Csharp/classMR_1_1NodeNode.html#a87a6a1b86496781f0815995d0060879c", null ],
+      [ "aNode", "../Csharp/classMR_1_1NodeNode.html#a9c64f2332e43f1728aabb94013875894", null ],
+      [ "bNode", "../Csharp/classMR_1_1NodeNode.html#aab61070e7af069f5165ab2424b9499ba", null ]
     ] ],
     [ "MR::AABBTreeObjects", "../Csharp/classMR_1_1AABBTreeObjects.html", [
       [ "AABBTreeObjects", "../Csharp/classMR_1_1AABBTreeObjects.html#a07e600be0e012c3f5fe385bd8f0a7177", null ],
@@ -91,13 +93,17 @@ var group__AABBTreeGroup =
       [ "FaceFace", "../Csharp/classMR_1_1FaceFace.html#a96668098d42f2fa436a1ecd71a2d1ee5", null ],
       [ "FaceFace", "../Csharp/classMR_1_1FaceFace.html#a916922bf52cad831991c27797a1fcf7a", null ],
       [ "FaceFace", "../Csharp/classMR_1_1FaceFace.html#aef294d9f41d864302a12ff501943fd65", null ],
-      [ "assign", "../Csharp/classMR_1_1FaceFace.html#a7125dba4d66444f4f3ea58c7ac718629", null ]
+      [ "assign", "../Csharp/classMR_1_1FaceFace.html#a7125dba4d66444f4f3ea58c7ac718629", null ],
+      [ "aFace", "../Csharp/classMR_1_1FaceFace.html#a1abd657335f7f2582706c2ffdbb21556", null ],
+      [ "bFace", "../Csharp/classMR_1_1FaceFace.html#acae2f7902e16a918dad894db890808ac", null ]
     ] ],
     [ "MR::UndirectedEdgeUndirectedEdge", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html", [
       [ "UndirectedEdgeUndirectedEdge", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#ad4b51f8fdbf04e308dc4f054434a68b3", null ],
       [ "UndirectedEdgeUndirectedEdge", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#a285e8092d1ceb14d6c242949b9aed61a", null ],
       [ "UndirectedEdgeUndirectedEdge", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#a5a69c50a06dde7621cc885677c92a76d", null ],
-      [ "assign", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#a0cd51293bf36075a34ce50abb426b91c", null ]
+      [ "assign", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#a0cd51293bf36075a34ce50abb426b91c", null ],
+      [ "aUndirEdge", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#ab11c0cd2478877033ab4a9b2cba86501", null ],
+      [ "bUndirEdge", "../Csharp/classMR_1_1UndirectedEdgeUndirectedEdge.html#a66a631be0176d0a43027a995b82c7175", null ]
     ] ],
     [ "MR::FastWindingNumber", "../Csharp/classMR_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "../Csharp/classMR_1_1FastWindingNumber.html#a0fa361c5d2196e6f5999923fb70fd88a", null ],
@@ -134,7 +140,9 @@ var group__AABBTreeGroup =
       [ "EdgeTri", "../Csharp/classMR_1_1EdgeTri.html#a745dfd57a31af7f128c8d62c2080289b", null ],
       [ "EdgeTri", "../Csharp/classMR_1_1EdgeTri.html#a8e032997e899cbf98d90ba2153ac3355", null ],
       [ "EdgeTri", "../Csharp/classMR_1_1EdgeTri.html#a7610b4fa511e4cd0f9608df8b2c3652a", null ],
-      [ "assign", "../Csharp/classMR_1_1EdgeTri.html#ab28ebc17d8a017dd3c16feca9ce3cca2", null ]
+      [ "assign", "../Csharp/classMR_1_1EdgeTri.html#ab28ebc17d8a017dd3c16feca9ce3cca2", null ],
+      [ "edge", "../Csharp/classMR_1_1EdgeTri.html#a79c87607875a309d73a373bdeaf4669d", null ],
+      [ "tri", "../Csharp/classMR_1_1EdgeTri.html#ada61369c1cf9b967f4e6f8e9b810d182", null ]
     ] ],
     [ "MR::VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html", [
       [ "FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", [
@@ -146,14 +154,14 @@ var group__AABBTreeGroup =
       [ "VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html#a64b96b9c400abce05a4b1311d6695f44", null ],
       [ "VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html#addc01e47759d41b0227cc3c12a1ba9e2", null ],
       [ "VarEdgeTri", "../Csharp/classMR_1_1VarEdgeTri.html#aee326b52da70a7045fb861e7ae7d81e7", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1VarEdgeTri.html#a33f65e1be18376b65febc3607b520455", null ],
-      [ "assign", "../Csharp/classMR_1_1VarEdgeTri.html#a4b070376c2ab8c71bb9ddf6000c9707f", null ]
+      [ "assign", "../Csharp/classMR_1_1VarEdgeTri.html#a4b070376c2ab8c71bb9ddf6000c9707f", null ],
+      [ "edge", "../Csharp/classMR_1_1VarEdgeTri.html#afa5ab5347dc38bbc21af8303e1d956e7", null ],
+      [ "flaggedTri", "../Csharp/classMR_1_1VarEdgeTri.html#a1f28e0d3c4c306611e585de5f4eb85a1", null ]
     ] ],
     [ "MR::MeshIntersectionResult", "../Csharp/classMR_1_1MeshIntersectionResult.html", [
       [ "MeshIntersectionResult", "../Csharp/classMR_1_1MeshIntersectionResult.html#aa60d379fecec6f15aa6155f210070548", null ],
       [ "MeshIntersectionResult", "../Csharp/classMR_1_1MeshIntersectionResult.html#a97fb143f55e638e9b952a0be279de405", null ],
       [ "MeshIntersectionResult", "../Csharp/classMR_1_1MeshIntersectionResult.html#a74d1d5d6411a6b4718636256afb063cb", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1MeshIntersectionResult.html#a346d3a678a5415ccfa523aafd371f0d1", null ],
       [ "assign", "../Csharp/classMR_1_1MeshIntersectionResult.html#a7538dca67c0be98cc55490edd30be9c3", null ],
       [ "distanceAlongLine", "../Csharp/classMR_1_1MeshIntersectionResult.html#a7de2c929d2fe83acde97870716169342", null ],
       [ "mtp", "../Csharp/classMR_1_1MeshIntersectionResult.html#a03cb48bf74c78540570d751913d1f9e6", null ],
@@ -167,12 +175,12 @@ var group__AABBTreeGroup =
       [ "intersectingRays", "../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#a697c4e6e62007458abb67c319d787edc", null ],
       [ "isectBary", "../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#a22c3fe6969e21ca25cc06d6d59b2942b", null ],
       [ "isectFaces", "../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#a7cb70fc3acd1f293810ea45c04c2255d", null ],
+      [ "isectPts", "../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#ab74456b7ba6c7165dd02995473d7e05b", null ],
       [ "rayDistances", "../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#acc8d1677b570543589d2fe42e4eaf6da", null ]
     ] ],
     [ "MR::MultiMeshIntersectionResult", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html", [
       [ "MultiMeshIntersectionResult", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html#a8556c93f26f475a2d57bd1c2dfd7b79c", null ],
       [ "MultiMeshIntersectionResult", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html#a06faa4977fda624c0fa671708079480b", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html#a056b8b873393e3977bf7d00aae0479c2", null ],
       [ "assign", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html#abae793fbbd3654e8008eee3ed3ec6893", null ],
       [ "distanceAlongLine", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html#a404e932c5529de77e8d6659b41fd06d8", null ],
       [ "mesh", "../Csharp/classMR_1_1MultiMeshIntersectionResult.html#ac572d4ac53a18a8d702c367369f1e72a", null ],
@@ -190,7 +198,6 @@ var group__AABBTreeGroup =
       [ "MeshMeshDistanceResult", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a9c9dc417792ea6ed1bb5c9ea6d0b9c96", null ],
       [ "MeshMeshDistanceResult", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a13667738dad78182627be90a991dbdf5", null ],
       [ "MeshMeshDistanceResult", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a6ee14595dd5b4db5f2c59062b26d4f89", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a507fa45af92b966e375c2560775dd086", null ],
       [ "assign", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a04b6bb0ef30bfed62b3a95a0c473291b", null ],
       [ "a", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a30f679a95c80acae78501075ea399ade", null ],
       [ "b", "../Csharp/classMR_1_1MeshMeshDistanceResult.html#a5daab4919b40987165999755442d6973", null ],
@@ -200,7 +207,6 @@ var group__AABBTreeGroup =
       [ "MeshMeshSignedDistanceResult", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#ae0289f3e7fed258e813ddd931298d42a", null ],
       [ "MeshMeshSignedDistanceResult", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#a5bbd24fbfbb8e73b8fc3d4bed6b2da19", null ],
       [ "MeshMeshSignedDistanceResult", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#a1fd38ab2fdaaa466e855987056373ee4", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#a50918425101ef3e83d6c9ddbe6388cac", null ],
       [ "assign", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#a47ea2bb46009b834e6865fdf6d273702", null ],
       [ "a", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#aa5664deb655e09cc7f6f60b3e2c682e6", null ],
       [ "b", "../Csharp/classMR_1_1MeshMeshSignedDistanceResult.html#acc4007475fc7333ebb102fc7994128d3", null ],
@@ -210,7 +216,6 @@ var group__AABBTreeGroup =
       [ "MeshProjectionResult", "../Csharp/classMR_1_1MeshProjectionResult.html#a751457aa2de847d39b666525bfb5c509", null ],
       [ "MeshProjectionResult", "../Csharp/classMR_1_1MeshProjectionResult.html#af8c23c8112718e6d1382e454ae6577fd", null ],
       [ "MeshProjectionResult", "../Csharp/classMR_1_1MeshProjectionResult.html#a2a798a64b74f53686a57e8073f5caa31", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1MeshProjectionResult.html#a4f978ecb4c1e93f16a34afed14624579", null ],
       [ "assign", "../Csharp/classMR_1_1MeshProjectionResult.html#a91b59ecdd496936d210b4df438c383cc", null ],
       [ "distSq", "../Csharp/classMR_1_1MeshProjectionResult.html#aef52dd6ef5ddadb01b688c2356eff839", null ],
       [ "mtp", "../Csharp/classMR_1_1MeshProjectionResult.html#a57404b38a3dc6773fcd86e2fa3243911", null ],
@@ -221,13 +226,13 @@ var group__AABBTreeGroup =
       [ "MeshProjectionTransforms", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a3c9a86fd036f439ff8f39543d517dc0f", null ],
       [ "MeshProjectionTransforms", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a2e18186d90a07ce796be6800c10b77b8", null ],
       [ "assign", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a64aa7f05b3996015abedc6dca49c2b2e", null ],
+      [ "nonRigidXfTree", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a8a8866c79ad2da34fc9e2ea41a57f855", null ],
       [ "rigidXfPoint", "../Csharp/classMR_1_1MeshProjectionTransforms.html#a0bb6e8cf8f8c3f7eeb72aa019f5ecfc3", null ]
     ] ],
     [ "MR::SignedDistanceToMeshResult", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html", [
       [ "SignedDistanceToMeshResult", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#aacf2869100ab7d211214e6934e6c48fc", null ],
       [ "SignedDistanceToMeshResult", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#a553f9ce804fab2e421fb0056377bc412", null ],
       [ "SignedDistanceToMeshResult", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#a83d62fb9d913612ba31a7ff6b88c7599", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#a13ff472a568307fa6b1be1f0b8d11e62", null ],
       [ "assign", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#ad282fb6dd98fc5a97112c0c8a282069a", null ],
       [ "dist", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#a415b41fda3e1bc40b38d77e78f5f997d", null ],
       [ "mtp", "../Csharp/classMR_1_1SignedDistanceToMeshResult.html#a871d0acf87337aab71699f0bfd3b7af4", null ],
@@ -245,7 +250,6 @@ var group__AABBTreeGroup =
       [ "FindProjectionOnPointsSettings", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8", null ],
       [ "FindProjectionOnPointsSettings", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a99dc2a7d9a715f087c42a8baa67491fc", null ],
       [ "FindProjectionOnPointsSettings", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a7d7772702105a5150d954c572fe23b90", null ],
       [ "assign", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642", null ],
       [ "cb", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a42d37560700fcb28b87f3cdf6c449f4b", null ],
       [ "loDistLimitSq", "../Csharp/classMR_1_1FindProjectionOnPointsSettings.html#a1e180c4868011c58860dd2b901fa3938", null ],
@@ -276,7 +280,8 @@ var group__AABBTreeGroup =
       [ "assign", "../Csharp/classMR_1_1PolylineProjectionResult3Arg.html#a71bba2eb1b0d103925ff02d4b9bc57c7", null ],
       [ "distSq", "../Csharp/classMR_1_1PolylineProjectionResult3Arg.html#ad0960703d369d71d7d3083d37ce3fb35", null ],
       [ "line", "../Csharp/classMR_1_1PolylineProjectionResult3Arg.html#a22447420c394d340aa12ff27395ee98c", null ],
-      [ "point", "../Csharp/classMR_1_1PolylineProjectionResult3Arg.html#acad2855c4972db1cc341663d9097a5b0", null ]
+      [ "point", "../Csharp/classMR_1_1PolylineProjectionResult3Arg.html#acad2855c4972db1cc341663d9097a5b0", null ],
+      [ "pointId", "../Csharp/classMR_1_1PolylineProjectionResult3Arg.html#a69ff01c300b063c7f2bcd51fa9e0ecfe", null ]
     ] ],
     [ "MR::PolylineProjectionWithOffsetResult< V >", "structMR_1_1PolylineProjectionWithOffsetResult.html", [
       [ "dist", "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d", null ],

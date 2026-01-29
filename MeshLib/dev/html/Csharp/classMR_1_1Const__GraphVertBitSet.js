@@ -12,6 +12,8 @@ var classMR_1_1Const__GraphVertBitSet =
     [ "bits", "classMR_1_1Const__GraphVertBitSet.html#a9e1fc2f9a8c0c3f34dc0b759a1ecbeb1", null ],
     [ "capacity", "classMR_1_1Const__GraphVertBitSet.html#a21bc4477517f9bfbda419b6f18db2032", null ],
     [ "count", "classMR_1_1Const__GraphVertBitSet.html#aaf8a7407d0968725b81378146e08db39", null ],
+    [ "Dispose", "classMR_1_1Const__GraphVertBitSet.html#a2ee02fb91b9d15a5644948ef1574dbf4", null ],
+    [ "Dispose", "classMR_1_1Const__GraphVertBitSet.html#a5e0d89d8ef37b844db8c1a5a68ec698c", null ],
     [ "empty", "classMR_1_1Const__GraphVertBitSet.html#aee86eddfbbadf6f62c1d28abdb0f9e6c", null ],
     [ "endId", "classMR_1_1Const__GraphVertBitSet.html#a1512016fc4b22ef5045fd679ea7b00e9", null ],
     [ "findFirst", "classMR_1_1Const__GraphVertBitSet.html#a42278d544ce557d4c0bc5d7b42b6428e", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__GraphVertBitSet =
     [ "none", "classMR_1_1Const__GraphVertBitSet.html#ae308fbbc60412ab2e8f3f07384f47263", null ],
     [ "nthSetBit", "classMR_1_1Const__GraphVertBitSet.html#ac6cfe5042920c5dc1af7dba984d33926", null ],
     [ "numBlocks", "classMR_1_1Const__GraphVertBitSet.html#a95b10e0a6084adb8bb72c3946649bec7", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__GraphVertBitSet.html#a736709edd2a53ea0ba895e8d39586f27", null ],
     [ "operator&", "classMR_1_1Const__GraphVertBitSet.html#a43de6e018058ee8785705f8e3191d601", null ],
     [ "operator-", "classMR_1_1Const__GraphVertBitSet.html#a7ba375ce8231953877d3b59ea6fd8199", null ],
     [ "operator^", "classMR_1_1Const__GraphVertBitSet.html#aeeae07db14aaf9638a4aea2c7cffd2fd", null ],
     [ "operator|", "classMR_1_1Const__GraphVertBitSet.html#a9165a3ea07362590ef1050c48239b103", null ],
     [ "size", "classMR_1_1Const__GraphVertBitSet.html#a594f38f3d9c8ce99053b4bab31c95976", null ],
     [ "test", "classMR_1_1Const__GraphVertBitSet.html#acc98f29f689230b3e7709bd5a1160125", null ],
-    [ "uncheckedTest", "classMR_1_1Const__GraphVertBitSet.html#a2979f32347b24196436e02568abd6127", null ]
+    [ "uncheckedTest", "classMR_1_1Const__GraphVertBitSet.html#a2979f32347b24196436e02568abd6127", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__GraphVertBitSet.html#a8a895545eaf4f64e68f56bae0a8c5fce", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__GraphVertBitSet.html#a754766f041325d7a5869a73c6207d851", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__GraphVertBitSet.html#ae365e37b159d0e1271452d4d2e2452f5", null ],
+    [ "Npos", "classMR_1_1Const__GraphVertBitSet.html#afed23f598cc39b297ba552f91be976df", null ]
 ];

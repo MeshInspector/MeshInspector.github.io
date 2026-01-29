@@ -4,6 +4,8 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "classNameInPlural", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a877f9b80505f0d145dc405f79feddac0", null ],
     [ "clone", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ac87fa118537c4c807d9ba64fdd2c56e5", null ],
     [ "cloneTree", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#adbe1480f2b77b4acd074018389cf7118", null ],
+    [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ac3aeff380aede657941e0d2fa841bc3e", null ],
+    [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a9d101b98f6b1152e338715e917120671", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a91a5560b096830357d15d249981bfd4b", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a53833252e7f09456d30be299c4f8dd3a", null ],
     [ "getAmbientStrength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ab8ea9e6891bd9d72ff22d754ff1a8249", null ],
@@ -56,6 +58,13 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "isSelected", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ab3e797fe31b9e6410afad9fb7833a2cb", null ],
     [ "isVisible", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a125b6d6f05cc02d4619db6efc488cff6", null ],
     [ "name", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a1a1e8b474261289fc9c8a1884d909200", null ],
+    [ "operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a29b35c6f1fad625472ab253afa6e618d", null ],
+    [ "operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a44d9a48b50b75f25c6cebd22bfcee3da", null ],
+    [ "operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ad1995d63222a7ad1a300c15732da8157", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a9474abd26f2d00db90c2506701307d38", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a252244d194a49dc054343556d1cfadb5", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a00ed506eacf22e39075f6da322c15be1", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#aa9547961626ffd8d377cec75dc3ab49d", null ],
     [ "projectPoint", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a6cc144192b8affb2b599d5f61e8f4182", null ],
     [ "render", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a31a17d63301daa2dca14ff836ad3b502", null ],
     [ "renderForPicker", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a57705c030f28ab48727d2b23f8600c0a", null ],
@@ -76,6 +85,5 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "visibilityMask", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af383e3771cb6e165ce7d6eba9debfd85", null ],
     [ "worldXf", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#ab8e25feb48e7a936addad27e0aeb5a19", null ],
     [ "xf", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a3556837de756e6a1dc7f4c8244b020d3", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af056523901188357be747ca67b432013", null ],
-    [ "_IsOwning", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#a5b826fdc024830c4b44b562778d5187c", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html#af056523901188357be747ca67b432013", null ]
 ];

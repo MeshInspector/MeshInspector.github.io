@@ -15,6 +15,7 @@ var classMR_1_1PixelBitSet =
     [ "flip", "classMR_1_1PixelBitSet.html#abb30e018fe7f877d5a9e991928ca1101", null ],
     [ "flip", "classMR_1_1PixelBitSet.html#a6129c0ea0655e81c1b61786fc4d6841a", null ],
     [ "flip", "classMR_1_1PixelBitSet.html#a018339c863ff6e653b33fd6637534757", null ],
+    [ "operator MR.BitSet", "classMR_1_1PixelBitSet.html#a496e78f1246762eba8e64767b84d1282", null ],
     [ "popBack", "classMR_1_1PixelBitSet.html#a29831e5f85456749dc415d8d6223bbf6", null ],
     [ "pushBack", "classMR_1_1PixelBitSet.html#abc3a7cd6be3c98bf3607aa2bdbea03c9", null ],
     [ "reserve", "classMR_1_1PixelBitSet.html#a36bf739fab816b5af19b28ff20329c0f", null ],

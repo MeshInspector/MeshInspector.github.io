@@ -9,6 +9,8 @@ var structMR_1_1Vector3f =
     [ "addAssign", "structMR_1_1Vector3f.html#a22333e215901faef3f7cb816c46b031f", null ],
     [ "diagonal", "structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e", null ],
     [ "divAssign", "structMR_1_1Vector3f.html#a25309cae98e7f2cc07f0966565ea0786", null ],
+    [ "Equals", "structMR_1_1Vector3f.html#a8977f32929d76bf7bb251028bde6b144", null ],
+    [ "Equals", "structMR_1_1Vector3f.html#a0d4c8aa3a344d0fa2db742b00481ecce", null ],
     [ "furthestBasisVector", "structMR_1_1Vector3f.html#ac2dd2eb8ef853c7c0f2570f25b9618d7", null ],
     [ "index", "structMR_1_1Vector3f.html#a3cb0579eec4f38bee26ea936d12cb082", null ],
     [ "isFinite", "structMR_1_1Vector3f.html#ab89812dcefb06225cc8956cf47bf24ee", null ],
@@ -20,6 +22,7 @@ var structMR_1_1Vector3f =
     [ "mulAssign", "structMR_1_1Vector3f.html#adb2171449923e01a86cb4b1450836dd4", null ],
     [ "normalized", "structMR_1_1Vector3f.html#a77a2c2ea4655d18cc0ab74132ed93c38", null ],
     [ "operator Vector3f", "structMR_1_1Vector3f.html#adaf8081661fa4b31534ade364a2f2e8a", null ],
+    [ "operator!=", "structMR_1_1Vector3f.html#a24eaaf04cb7f8c27209d846b04012c5e", null ],
     [ "operator*", "structMR_1_1Vector3f.html#a79469fe89f2153ca06bda38e699c49af", null ],
     [ "operator*", "structMR_1_1Vector3f.html#af916483eba55d3aedb7ff01faa1496aa", null ],
     [ "operator+", "structMR_1_1Vector3f.html#ab4a119750dfeba7d6fb6b01266e4b73d", null ],
@@ -35,5 +38,8 @@ var structMR_1_1Vector3f =
     [ "subAssign", "structMR_1_1Vector3f.html#a3caade5bf04fd8d035312aa536f6e6a5", null ],
     [ "transformed", "structMR_1_1Vector3f.html#a411800c154bd06560941c0a20cb2a83c", null ],
     [ "unsignZeroValues", "structMR_1_1Vector3f.html#aa9855b7b9a4da2614c4af583c8de8479", null ],
+    [ "x", "structMR_1_1Vector3f.html#ad8932a90c066fb006adb0327e4ad8651", null ],
+    [ "y", "structMR_1_1Vector3f.html#a4cfc5bc3343205540bddbc3490e789df", null ],
+    [ "z", "structMR_1_1Vector3f.html#ae4fdb290376218f6f08590039e9b5487", null ],
     [ "this[int e]", "structMR_1_1Vector3f.html#aa5463fa498ba13c12f9d2e21bf410443", null ]
 ];

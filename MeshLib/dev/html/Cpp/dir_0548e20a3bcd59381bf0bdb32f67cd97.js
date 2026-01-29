@@ -29,7 +29,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRSweptVolume.h", "MRSweptVolume_8h.html", "MRSweptVolume_8h" ],
     [ "MRTeethMaskToDirectionVolume.h", "MRTeethMaskToDirectionVolume_8h.html", "MRTeethMaskToDirectionVolume_8h" ],
     [ "MRToolPath.h", "MRToolPath_8h.html", "MRToolPath_8h" ],
-    [ "MRVDBConversions.h", "MRVoxels_2MRVDBConversions_8h.html", "MRVoxels_2MRVDBConversions_8h" ],
+    [ "MRVDBConversions.h", "MRVDBConversions_8h.html", "MRVDBConversions_8h" ],
     [ "MRVDBFloatGrid.h", "MRVDBFloatGrid_8h.html", "MRVDBFloatGrid_8h" ],
     [ "MRVDBProgressInterrupter.h", "MRVDBProgressInterrupter_8h.html", "MRVDBProgressInterrupter_8h" ],
     [ "MRVolumeInterpolation.h", "MRVolumeInterpolation_8h.html", "MRVolumeInterpolation_8h" ],

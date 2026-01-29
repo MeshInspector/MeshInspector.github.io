@@ -15,6 +15,7 @@ var classMR_1_1FaceBitSet =
     [ "flip", "classMR_1_1FaceBitSet.html#a7ef06ee70cd85e7b1475fcdced1239f2", null ],
     [ "flip", "classMR_1_1FaceBitSet.html#a493b0d826f0b69eba15bc71cd6b366ea", null ],
     [ "flip", "classMR_1_1FaceBitSet.html#a91199b3b340b5ba8b8e258708fd92b01", null ],
+    [ "operator MR.BitSet", "classMR_1_1FaceBitSet.html#a734da20e66693be29b7cf10d591af6f9", null ],
     [ "popBack", "classMR_1_1FaceBitSet.html#a37ddc331dd47e959f144d51b7cbab7e1", null ],
     [ "pushBack", "classMR_1_1FaceBitSet.html#a210ec37ee507bb419c7b0d80e075d2fc", null ],
     [ "reserve", "classMR_1_1FaceBitSet.html#aa0ac4a8deeb31e0d920671e9143ce855", null ],

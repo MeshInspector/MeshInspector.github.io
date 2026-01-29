@@ -12,6 +12,8 @@ var classMR_1_1Const__ObjBitSet =
     [ "bits", "classMR_1_1Const__ObjBitSet.html#a607b11d40c82e9b9c2d1ffbbcfcc6c6b", null ],
     [ "capacity", "classMR_1_1Const__ObjBitSet.html#a02b8517f857ce5834cba3a095d2fc629", null ],
     [ "count", "classMR_1_1Const__ObjBitSet.html#aaa94d7a17c05d7d8f9f23d7601de6003", null ],
+    [ "Dispose", "classMR_1_1Const__ObjBitSet.html#a6b0002096e70ae83ca1cf3e21a63be81", null ],
+    [ "Dispose", "classMR_1_1Const__ObjBitSet.html#ac1f723c914351ec3c68a2d93c1f79e0c", null ],
     [ "empty", "classMR_1_1Const__ObjBitSet.html#aacf62e7e599b7851d7b26a10972b78b1", null ],
     [ "endId", "classMR_1_1Const__ObjBitSet.html#a863eb9a04fdb68994678e2a60c3210f1", null ],
     [ "findFirst", "classMR_1_1Const__ObjBitSet.html#a8d2f54756beabe69b55607b2c1ea64b7", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__ObjBitSet =
     [ "none", "classMR_1_1Const__ObjBitSet.html#a95eda67f3348935085feb666cf2229ef", null ],
     [ "nthSetBit", "classMR_1_1Const__ObjBitSet.html#aaa1851b7db65e73d6c37250b5e4c4021", null ],
     [ "numBlocks", "classMR_1_1Const__ObjBitSet.html#a1a25f44211909afc1a890f46505be6b4", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__ObjBitSet.html#a568805d69949526dabd55bdad6fd743f", null ],
     [ "operator&", "classMR_1_1Const__ObjBitSet.html#a1f0e28dc8e0eea6e48f5a378bf77e58b", null ],
     [ "operator-", "classMR_1_1Const__ObjBitSet.html#a52a2676abc90c94deeb8c2ceec5038fc", null ],
     [ "operator^", "classMR_1_1Const__ObjBitSet.html#a6f50828f9440ab6cc4846ad5255f2172", null ],
     [ "operator|", "classMR_1_1Const__ObjBitSet.html#a0f48a7e35d690629b91e1e57e93b9bfd", null ],
     [ "size", "classMR_1_1Const__ObjBitSet.html#a609c04bbd1783701b434b87628187d80", null ],
     [ "test", "classMR_1_1Const__ObjBitSet.html#ad307f37652467b2eb99960ea261543d6", null ],
-    [ "uncheckedTest", "classMR_1_1Const__ObjBitSet.html#af5ee4ad25870d2b23540ba3b0158c2be", null ]
+    [ "uncheckedTest", "classMR_1_1Const__ObjBitSet.html#af5ee4ad25870d2b23540ba3b0158c2be", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__ObjBitSet.html#afa5fa9f21291a1bcf4ef274a6913ad31", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__ObjBitSet.html#aa51747e6144d5a323b726fef04e5b541", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__ObjBitSet.html#a22893f7c4a7eb6b9e4e04cf5fefed284", null ],
+    [ "Npos", "classMR_1_1Const__ObjBitSet.html#acfbf1883473f565e0ed3c59f9c7d65e8", null ]
 ];

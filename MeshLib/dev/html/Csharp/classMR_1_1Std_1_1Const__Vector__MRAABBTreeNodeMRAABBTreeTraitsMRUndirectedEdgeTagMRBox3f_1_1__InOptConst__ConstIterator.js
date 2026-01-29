@@ -1,4 +1,0 @@
-var classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1_1__InOptConst__ConstIterator =
-[
-    [ "operator _InOptConst_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1_1__InOptConst__ConstIterator.html#aa63a56f9db7f1598e50a0e5473555106", null ]
-];

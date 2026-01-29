@@ -152,7 +152,7 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRIRenderObject_8h.html">MRMesh/MRIRenderObject.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRGladGlfw_8h.html">MRGladGlfw.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRMesh/MRVector2.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRGLTexture_8h.html">MRGLTexture.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRGLMacro_8h.html">MRGLMacro.h</a>&quot;</span></div>
@@ -221,7 +221,7 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classMR_1_1GlTexture2.html#a8e2bbcd5e2ecf6bf2c331ea5dbb39b0b">   69</a></span>    <span class="keyword">static</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> <a class="code hl_function" href="classMR_1_1GlTexture2.html#a8e2bbcd5e2ecf6bf2c331ea5dbb39b0b">ToResolution</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a>&amp; value )</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a>( value.x, value.y, 1 );</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a>( value.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">x</a>, value.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a38a3b0fa73739adf5f4f2b6d0c9166e8">y</a>, 1 );</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
 </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">private</span>:</div>
@@ -447,11 +447,11 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="namespaceMR.html#a340ef00828cc9761a27857d5d7c8bfb6">  272</a></span>MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a340ef00828cc9761a27857d5d7c8bfb6">objectPostRenderSetup</a>( <span class="keyword">const</span> TransparencyMode&amp; tMode, RenderModelPassMask desiredPass, <span class="keywordtype">bool</span> deptTesting );</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRGLMacro_8h_html"><div class="ttname"><a href="MRGLMacro_8h.html">MRGLMacro.h</a></div></div>
 <div class="ttc" id="aMRGLTexture_8h_html"><div class="ttname"><a href="MRGLTexture_8h.html">MRGLTexture.h</a></div></div>
 <div class="ttc" id="aMRGladGlfw_8h_html"><div class="ttname"><a href="MRGladGlfw_8h.html">MRGladGlfw.h</a></div></div>
 <div class="ttc" id="aMRIRenderObject_8h_html"><div class="ttname"><a href="MRIRenderObject_8h.html">MRIRenderObject.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRColor_8h_html"><div class="ttname"><a href="MRMesh_2MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FramebufferData_html"><div class="ttname"><a href="classMR_1_1FramebufferData.html">MR::FramebufferData</a></div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:214</div></div>
 <div class="ttc" id="aclassMR_1_1FramebufferData_html_a0e6cc8cca8e2d3918f94804fd7f763da"><div class="ttname"><a href="classMR_1_1FramebufferData.html#a0e6cc8cca8e2d3918f94804fd7f763da">MR::FramebufferData::gen</a></div><div class="ttdeci">MRVIEWER_API void gen(const Vector2i &amp;size, bool copyDepth, int msaaPow, bool highPrecisionDepth=false)</div></div>
@@ -515,6 +515,8 @@ $(function(){initNavTree('MRRenderGLHelpers_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructMR_1_1FramebufferData_1_1DrawParams_html"><div class="ttname"><a href="structMR_1_1FramebufferData_1_1DrawParams.html">MR::FramebufferData::DrawParams</a></div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:243</div></div>
 <div class="ttc" id="astructMR_1_1FramebufferData_1_1DrawParams_html_aa2e19e590532ab087bb31b0097bba55c"><div class="ttname"><a href="structMR_1_1FramebufferData_1_1DrawParams.html#aa2e19e590532ab087bb31b0097bba55c">MR::FramebufferData::DrawParams::size</a></div><div class="ttdeci">Vector2i size</div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:244</div></div>
 <div class="ttc" id="astructMR_1_1Vector2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector2i_html_a38a3b0fa73739adf5f4f2b6d0c9166e8"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html#a38a3b0fa73739adf5f4f2b6d0c9166e8">MR::Vector2i::y</a></div><div class="ttdeci">int y</div></div>
+<div class="ttc" id="astructMR_1_1Vector2i_html_a3cc8847be3639be24b143385b7bd1a31"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">MR::Vector2i::x</a></div><div class="ttdeci">int x</div></div>
 <div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

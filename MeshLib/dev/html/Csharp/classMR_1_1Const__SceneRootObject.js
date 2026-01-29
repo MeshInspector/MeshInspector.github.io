@@ -7,6 +7,8 @@ var classMR_1_1Const__SceneRootObject =
     [ "clone", "classMR_1_1Const__SceneRootObject.html#a04dfc3efdafc40e5ad7491e66f0ec7a4", null ],
     [ "cloneRoot", "classMR_1_1Const__SceneRootObject.html#aaa2d0e7ffd0adeaf80132ce676fa7b45", null ],
     [ "cloneTree", "classMR_1_1Const__SceneRootObject.html#a1dd977b4eb0d941dffa305c2b7ea51a6", null ],
+    [ "Dispose", "classMR_1_1Const__SceneRootObject.html#a776eb2ccb08f59405dc3bdf3b3595dfc", null ],
+    [ "Dispose", "classMR_1_1Const__SceneRootObject.html#acdfb90a06e77444310ec8da15295820b", null ],
     [ "getInfoLines", "classMR_1_1Const__SceneRootObject.html#a72dcfac9b6da41389f5d29a098ebc8b9", null ],
     [ "getModelHash", "classMR_1_1Const__SceneRootObject.html#ab9b0bcde8775ad61e472d652ccfcd184", null ],
     [ "getRedrawFlag", "classMR_1_1Const__SceneRootObject.html#ae5aef1eca6fe7412b1a4503170703065", null ],
@@ -26,6 +28,9 @@ var classMR_1_1Const__SceneRootObject =
     [ "isSelected", "classMR_1_1Const__SceneRootObject.html#af97da69bf1c65759d6a4cad04f346576", null ],
     [ "isVisible", "classMR_1_1Const__SceneRootObject.html#a2b82795bb96a2577009e5246aa428b89", null ],
     [ "name", "classMR_1_1Const__SceneRootObject.html#a4ef3c16042a59a54d0ff4eaef3c123bd", null ],
+    [ "operator Const_SceneRootObject?", "classMR_1_1Const__SceneRootObject.html#aed3c52f1fad2ea9f3c96d103b5ef90cf", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__SceneRootObject.html#abee2207d50b91af35a1ebdcdc747ce11", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__SceneRootObject.html#a9376b604c86507a7f5e4694f51f3173f", null ],
     [ "resetRedrawFlag", "classMR_1_1Const__SceneRootObject.html#a4f57e180d9a66945dda9b36b1dd91ff9", null ],
     [ "rootName", "classMR_1_1Const__SceneRootObject.html#aa4b971b6153ff19c612d55af7773e8c0", null ],
     [ "sameModels", "classMR_1_1Const__SceneRootObject.html#a12942de94d357d5c5bf006cf55df66ae", null ],
@@ -39,6 +44,5 @@ var classMR_1_1Const__SceneRootObject =
     [ "visibilityMask", "classMR_1_1Const__SceneRootObject.html#aaee0de6be03488d56601fcfcd14d4a62", null ],
     [ "worldXf", "classMR_1_1Const__SceneRootObject.html#af4cf78e3109c88c73d07791950805b7c", null ],
     [ "xf", "classMR_1_1Const__SceneRootObject.html#a4b51378a21b1fc82c5834f4ea9f070f7", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__SceneRootObject.html#a76be3e303900716f148ff0963e246499", null ],
-    [ "_IsOwning", "classMR_1_1Const__SceneRootObject.html#a820de9b843fdbc0b244693f53caf3264", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__SceneRootObject.html#a76be3e303900716f148ff0963e246499", null ]
 ];

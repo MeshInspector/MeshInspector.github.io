@@ -9,6 +9,8 @@ var structMR_1_1Box3i64 =
     [ "contains", "structMR_1_1Box3i64.html#a7151284f8102475370674663a709652e", null ],
     [ "corner", "structMR_1_1Box3i64.html#ae8e329f7f8a9ee2c3659ebc356dbc637", null ],
     [ "diagonal", "structMR_1_1Box3i64.html#aa99bc60c87a1f2d45100be6219c41a6c", null ],
+    [ "Equals", "structMR_1_1Box3i64.html#ac7255a48155e019c5f497175968e4645", null ],
+    [ "Equals", "structMR_1_1Box3i64.html#a562a6ff501d4165a8e0b78a27bceea57", null ],
     [ "expanded", "structMR_1_1Box3i64.html#a56ce8b38d74615730193f2a3e2bf80b5", null ],
     [ "fromMinAndSize", "structMR_1_1Box3i64.html#a3cc7e8a4f4f9793941ba6041b27c9012", null ],
     [ "getBoxClosestPointTo", "structMR_1_1Box3i64.html#ab63de740d3c8b60254d012a362e8a2ef", null ],
@@ -25,9 +27,12 @@ var structMR_1_1Box3i64 =
     [ "intersection", "structMR_1_1Box3i64.html#aaff713f01d08e0e31e5e4546bdd833a7", null ],
     [ "intersects", "structMR_1_1Box3i64.html#aaa787cc9010363815544174e1489ed16", null ],
     [ "operator Box3i64", "structMR_1_1Box3i64.html#a2d6477e799ba9b1080f77b04b65a3c59", null ],
+    [ "operator!=", "structMR_1_1Box3i64.html#a4514ce7f52b76118cc087b997982c24a", null ],
     [ "operator==", "structMR_1_1Box3i64.html#a161fce0583fd84bf843885f84757591e", null ],
     [ "size", "structMR_1_1Box3i64.html#a03238041c81cd21789df96ba6730e55f", null ],
     [ "valid", "structMR_1_1Box3i64.html#ab1f68341abebcea3eaad46ba11a28bc0", null ],
     [ "volume", "structMR_1_1Box3i64.html#a916e7802f5a76a775392adafca0b63e4", null ],
+    [ "max", "structMR_1_1Box3i64.html#a5a281e69c82321f0219a1fd813e027b0", null ],
+    [ "min", "structMR_1_1Box3i64.html#a877aee4f48616a52b045a4f01493e91c", null ],
     [ "this[int e]", "structMR_1_1Box3i64.html#a63547722abb0d6284d0168946ae18fa8", null ]
 ];

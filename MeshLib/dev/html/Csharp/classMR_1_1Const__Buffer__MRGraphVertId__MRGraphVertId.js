@@ -7,6 +7,8 @@ var classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId =
     [ "beginId", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#a10d5214fab73d7c760bb7e3f01f16dd1", null ],
     [ "capacity", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#a6d408421281a2fb6a7d8857169a71b26", null ],
     [ "data", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#afc10439971a5265e8c8e0e4e8bbc8af7", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#a8e12a43420b861ab1ca010e674c7d384", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#a62c04e24d1594523b5a1b7b7054498ac", null ],
     [ "empty", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#aa758146e90c2cecab7c9c5efa32fec32", null ],
     [ "endId", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#a98ee35866cebbc0587ea7d732281ff74", null ],
     [ "heapBytes", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#a700f1ad3a425ceb38829f63c378825a5", null ],

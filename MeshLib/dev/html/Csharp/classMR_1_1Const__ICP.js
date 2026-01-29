@@ -5,6 +5,8 @@ var classMR_1_1Const__ICP =
     [ "Const_ICP", "classMR_1_1Const__ICP.html#af287d5873bcb6650f925f64d6b706be1", null ],
     [ "Const_ICP", "classMR_1_1Const__ICP.html#a2c12ff1f17c72c5c34d23c191bafd21e", null ],
     [ "Const_ICP", "classMR_1_1Const__ICP.html#a64750361729c199e93884b318d94de8d", null ],
+    [ "Dispose", "classMR_1_1Const__ICP.html#a890e6b3bc494a5b4834c7935a4018f82", null ],
+    [ "Dispose", "classMR_1_1Const__ICP.html#a18e996a748ba8e06e58ddfc34919d4f9", null ],
     [ "getFlt2RefPairs", "classMR_1_1Const__ICP.html#a05dbf3f2b64df3b8431e5104d5432f9c", null ],
     [ "getMeanSqDistToPlane", "classMR_1_1Const__ICP.html#a5c8306778695bf55ac7849b7da18f407", null ],
     [ "getMeanSqDistToPoint", "classMR_1_1Const__ICP.html#a993bf9b5b54573888c0fb8463adb44d0", null ],

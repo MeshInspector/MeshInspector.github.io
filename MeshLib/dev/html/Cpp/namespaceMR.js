@@ -66,9 +66,9 @@ var namespaceMR =
     ] ],
     [ "ImageLoad", "namespaceMR_1_1ImageLoad.html", [
       [ "fromAnySupportedFormat", "group__ImageLoadGroup.html#gad0427ed61cb0d0f0200d126cac01cc2b", null ],
-      [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#ae8821d566f46821f54b6b253e4b0ca45", null ],
-      [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77", null ],
-      [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#a609852c259a33cf29095566d9ce1d8e2", null ],
+      [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#a3f2b6d3e696c684fb005f0afdf2ae4ab", null ],
+      [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#ab4748a7b41e7803211a8015322e020e5", null ],
+      [ "fromJpeg", "namespaceMR_1_1ImageLoad.html#af2f74031c0a87951c6e6265193e491bb", null ],
       [ "fromPng", "namespaceMR_1_1ImageLoad.html#af27fe391469ee464adae9aeb0019ac28", null ],
       [ "fromPng", "namespaceMR_1_1ImageLoad.html#a036b1bc335fefcd579c125e0dba99c0b", null ],
       [ "fromTiff", "namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e", null ]

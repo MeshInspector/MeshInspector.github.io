@@ -163,8 +163,8 @@ $(function(){initNavTree('MRMultiwayICP_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">using </span>ICPElementBitSet = TaggedBitSet&lt;ICPElemtTag&gt;;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">struct </span>ICPGroupPair : <span class="keyword">public</span> ICPPairData</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    ObjVertId srcId;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    ObjVertId tgtClosestId;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    ObjVertId <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ICPGroupPair.html#a6426ff58ac9cfcbad4841b0d8f819cad">srcId</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    ObjVertId <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ICPGroupPair.html#a6cedb8ba402e4861b67dfc373416552e">tgtClosestId</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">struct </span>ICPGroupPairs : <span class="keyword">public</span> IPointPairs</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
@@ -205,7 +205,7 @@ $(function(){initNavTree('MRMultiwayICP_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        Sequential, </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        AABBTreeBased </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    } cascadeMode{ CascadeMode::AABBTreeBased };</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    } <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MultiwayICPSamplingParameters.html#ab63c7f7a5e0e6569a14f1d5d2087cce1">cascadeMode</a>{ CascadeMode::AABBTreeBased };</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MultiwayICPSamplingParameters.html#aac33ab4e44bb5da9c919f09d5a082bf6">cb</a>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
@@ -296,11 +296,14 @@ $(function(){initNavTree('MRMultiwayICP_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="MRICP_8h.html">MRICP.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
+<div class="ttc" id="aclassMR_1_1ICPGroupPair_html_a6426ff58ac9cfcbad4841b0d8f819cad"><div class="ttname"><a href="../Csharp/classMR_1_1ICPGroupPair.html#a6426ff58ac9cfcbad4841b0d8f819cad">MR::ICPGroupPair::srcId</a></div><div class="ttdeci">new unsafe ref MR.ObjVertId srcId</div></div>
+<div class="ttc" id="aclassMR_1_1ICPGroupPair_html_a6cedb8ba402e4861b67dfc373416552e"><div class="ttname"><a href="../Csharp/classMR_1_1ICPGroupPair.html#a6cedb8ba402e4861b67dfc373416552e">MR::ICPGroupPair::tgtClosestId</a></div><div class="ttdeci">new unsafe ref MR.ObjVertId tgtClosestId</div></div>
 <div class="ttc" id="aclassMR_1_1ICPGroupPairs_html"><div class="ttname"><a href="../Csharp/classMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></div><div class="ttdef"><b>Definition</b> MRMultiwayICP.h:20</div></div>
 <div class="ttc" id="aclassMR_1_1ICPGroupPairs_html_a50186eaa3f6cc6c83c3e4f1c30fe9361"><div class="ttname"><a href="../Csharp/classMR_1_1ICPGroupPairs.html#a50186eaa3f6cc6c83c3e4f1c30fe9361">MR::ICPGroupPairs::vec</a></div><div class="ttdeci">new unsafe MR.Std.Vector_MRICPGroupPair vec</div></div>
 <div class="ttc" id="aclassMR_1_1IICPTreeIndexer_html"><div class="ttname"><a href="../Csharp/classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></div><div class="ttdef"><b>Definition</b> MRMultiwayICP.h:38</div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayICPSamplingParameters_html_a48bd9dd98342105b5d0d51738cb27e80"><div class="ttname"><a href="../Csharp/classMR_1_1MultiwayICPSamplingParameters.html#a48bd9dd98342105b5d0d51738cb27e80">MR::MultiwayICPSamplingParameters::samplingVoxelSize</a></div><div class="ttdeci">new unsafe ref float samplingVoxelSize</div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayICPSamplingParameters_html_aac33ab4e44bb5da9c919f09d5a082bf6"><div class="ttname"><a href="../Csharp/classMR_1_1MultiwayICPSamplingParameters.html#aac33ab4e44bb5da9c919f09d5a082bf6">MR::MultiwayICPSamplingParameters::cb</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat cb</div></div>
+<div class="ttc" id="aclassMR_1_1MultiwayICPSamplingParameters_html_ab63c7f7a5e0e6569a14f1d5d2087cce1"><div class="ttname"><a href="../Csharp/classMR_1_1MultiwayICPSamplingParameters.html#ab63c7f7a5e0e6569a14f1d5d2087cce1">MR::MultiwayICPSamplingParameters::cascadeMode</a></div><div class="ttdeci">new unsafe ref MR.MultiwayICPSamplingParameters.CascadeMode cascadeMode</div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayICPSamplingParameters_html_ad54766e983baa153a76d2e66ce965ed5"><div class="ttname"><a href="../Csharp/classMR_1_1MultiwayICPSamplingParameters.html#ad54766e983baa153a76d2e66ce965ed5">MR::MultiwayICPSamplingParameters::maxGroupSize</a></div><div class="ttdeci">new unsafe ref int maxGroupSize</div></div>
 <div class="ttc" id="aclassMR_1_1ObjBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1ObjBitSet.html">MR::ObjBitSet</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>

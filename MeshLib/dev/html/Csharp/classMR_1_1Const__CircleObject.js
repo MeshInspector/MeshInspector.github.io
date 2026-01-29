@@ -7,6 +7,8 @@ var classMR_1_1Const__CircleObject =
     [ "classNameInPlural", "classMR_1_1Const__CircleObject.html#a1cdf76dcf1b9f98bad8ddec62d2ecf52", null ],
     [ "clone", "classMR_1_1Const__CircleObject.html#a0f610dbc74e4b17083feeac62f87e1dc", null ],
     [ "cloneTree", "classMR_1_1Const__CircleObject.html#ae17965d576f4961dde64bc49cf7657f3", null ],
+    [ "Dispose", "classMR_1_1Const__CircleObject.html#a4f59ce78416d91dd4e46505532b31e8e", null ],
+    [ "Dispose", "classMR_1_1Const__CircleObject.html#affff7b19f53c7a82950efb95b79c06ec", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__CircleObject.html#a83f279b6bfa10a1909093fa6d89a2821", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__CircleObject.html#a915a56c558a0afa8b696ee0e15dab943", null ],
     [ "getAmbientStrength", "classMR_1_1Const__CircleObject.html#a9908bd05195ddf170b8ae25c04a57fe0", null ],
@@ -62,6 +64,15 @@ var classMR_1_1Const__CircleObject =
     [ "isVisible", "classMR_1_1Const__CircleObject.html#aed53087c7b95c23e16f4edfc2575e257", null ],
     [ "name", "classMR_1_1Const__CircleObject.html#af18f0b92035274d29e652c63d71aae32", null ],
     [ "operator Const_CircleObject", "classMR_1_1Const__CircleObject.html#a7209e43130357f57a0902f899e52e7d4", null ],
+    [ "operator Const_CircleObject?", "classMR_1_1Const__CircleObject.html#a8cc5a4ed28b3f2812d49994afb375050", null ],
+    [ "operator Const_CircleObject?", "classMR_1_1Const__CircleObject.html#a9019af99f4e956e2766942b86148cb23", null ],
+    [ "operator Const_CircleObject?", "classMR_1_1Const__CircleObject.html#ad3f010dddbd5439707f7640d672529e7", null ],
+    [ "operator Const_CircleObject?", "classMR_1_1Const__CircleObject.html#a12fc9154c99428bf17f1801468916ffb", null ],
+    [ "operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__CircleObject.html#a408460cab9641c36cc54666a0463d8b4", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__CircleObject.html#a628cba148c7560a736503ec569c0e0b8", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__CircleObject.html#aae5e21cef9d66929ae2f2355575605f4", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__CircleObject.html#a19de78d28fe290fb69915ebcf63e0b44", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__CircleObject.html#add65199ee4eb2a4ee789948585b9204f", null ],
     [ "projectPoint", "classMR_1_1Const__CircleObject.html#af949f4a155b3a451d3447b5d8fd9d3d8", null ],
     [ "render", "classMR_1_1Const__CircleObject.html#a6c938a0ce6557c36a68d932c78aa4d6e", null ],
     [ "renderForPicker", "classMR_1_1Const__CircleObject.html#ad1d3bfb8d0f4974ccb7f0f648a3efcca", null ],
@@ -82,6 +93,5 @@ var classMR_1_1Const__CircleObject =
     [ "visibilityMask", "classMR_1_1Const__CircleObject.html#a0bf5670cbb4bcc0f79d8f442a25b2fcb", null ],
     [ "worldXf", "classMR_1_1Const__CircleObject.html#a6fee0cdefbc791f9402de28f7416bca2", null ],
     [ "xf", "classMR_1_1Const__CircleObject.html#a9e5d7a5d0ccefe92cdba0474523b1ee7", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__CircleObject.html#afc93f530344dd22554f5145e6f691c61", null ],
-    [ "_IsOwning", "classMR_1_1Const__CircleObject.html#a32a3429f66db5ad183f4af9fc97b6222", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__CircleObject.html#afc93f530344dd22554f5145e6f691c61", null ]
 ];

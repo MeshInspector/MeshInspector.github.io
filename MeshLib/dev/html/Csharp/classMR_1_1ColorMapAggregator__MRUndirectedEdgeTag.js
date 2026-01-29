@@ -1,8 +1,5 @@
 var classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag =
 [
-    [ "_ByValue_PartialColorMap", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__ByValue__PartialColorMap.html", null ],
-    [ "_InOptConst_PartialColorMap", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__InOptConst__PartialColorMap.html", null ],
-    [ "_InOptMut_PartialColorMap", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1__InOptMut__PartialColorMap.html", null ],
     [ "Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap.html", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" ],
     [ "PartialColorMap", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap.html", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap" ],
     [ "AggregateMode", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag.html#a0d457bfb39175a76c85f8931dee3105e", [

@@ -15,6 +15,7 @@ var classMR_1_1GraphEdgeBitSet =
     [ "flip", "classMR_1_1GraphEdgeBitSet.html#a5e5477cde4da3fc83b3d76e8b0b08236", null ],
     [ "flip", "classMR_1_1GraphEdgeBitSet.html#ad65852477fc0107712d51d326b998ece", null ],
     [ "flip", "classMR_1_1GraphEdgeBitSet.html#afafa2b34fc971bd77c5c7369b43a6977", null ],
+    [ "operator MR.BitSet", "classMR_1_1GraphEdgeBitSet.html#a7f261174cb2ae1f3abf487c3ea9ee1d0", null ],
     [ "popBack", "classMR_1_1GraphEdgeBitSet.html#a3c91724ab7453d3e8592a62a1d3dfa96", null ],
     [ "pushBack", "classMR_1_1GraphEdgeBitSet.html#af9a55ed0ad2bf185bcf5a1b1d0fe947b", null ],
     [ "reserve", "classMR_1_1GraphEdgeBitSet.html#a0c62b20a6fca167bd9edb41da6284fd6", null ],

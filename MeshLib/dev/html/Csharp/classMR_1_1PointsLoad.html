@@ -155,101 +155,705 @@ $(function(){initNavTree('classMR_1_1PointsLoad.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:acaeabf1d4cced15a0961b626a6e9b868" id="r_acaeabf1d4cced15a0961b626a6e9b868"><td class="memItemLeft" align="right" valign="top"><a id="acaeabf1d4cced15a0961b626a6e9b868" name="acaeabf1d4cced15a0961b626a6e9b868"></a>
-typedef Expected&lt; <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">PointCloud</a> &gt;(*)(const std::filesystem::path &amp;, const <a class="elRef" href="../Cpp/structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868">PointsFileLoader</a>)</td></tr>
+<tr class="memitem:acaeabf1d4cced15a0961b626a6e9b868" id="r_acaeabf1d4cced15a0961b626a6e9b868"><td class="memItemLeft" align="right" valign="top">typedef Expected&lt; <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">PointCloud</a> &gt;(*)(const std::filesystem::path &amp;, const <a class="elRef" href="../Cpp/structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868">PointsFileLoader</a>)</td></tr>
 <tr class="separator:acaeabf1d4cced15a0961b626a6e9b868"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f81139db68679c906d09ff033071478" id="r_a0f81139db68679c906d09ff033071478"><td class="memItemLeft" align="right" valign="top"><a id="a0f81139db68679c906d09ff033071478" name="a0f81139db68679c906d09ff033071478"></a>
-typedef Expected&lt; <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">PointCloud</a> &gt;(*)(std::istream &amp;, const <a class="elRef" href="../Cpp/structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478">PointsStreamLoader</a>)</td></tr>
+<tr class="memitem:a0f81139db68679c906d09ff033071478" id="r_a0f81139db68679c906d09ff033071478"><td class="memItemLeft" align="right" valign="top">typedef Expected&lt; <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">PointCloud</a> &gt;(*)(std::istream &amp;, const <a class="elRef" href="../Cpp/structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478">PointsStreamLoader</a>)</td></tr>
 <tr class="separator:a0f81139db68679c906d09ff033071478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a41482212997d8c721ae8f497c4b81c35" id="r_a41482212997d8c721ae8f497c4b81c35"><td class="memItemLeft" align="right" valign="top"><a id="a41482212997d8c721ae8f497c4b81c35" name="a41482212997d8c721ae8f497c4b81c35"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromCtm</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a41482212997d8c721ae8f497c4b81c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR.PointsLoad.fromCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a41482212997d8c721ae8f497c4b81c35" id="r_a41482212997d8c721ae8f497c4b81c35"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41482212997d8c721ae8f497c4b81c35">fromCtm</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a41482212997d8c721ae8f497c4b81c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR.PointsLoad.fromCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a41482212997d8c721ae8f497c4b81c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b48011a7c016b4d451251954b6e56b" id="r_a44b48011a7c016b4d451251954b6e56b"><td class="memItemLeft" align="right" valign="top"><a id="a44b48011a7c016b4d451251954b6e56b" name="a44b48011a7c016b4d451251954b6e56b"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromCtm</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a44b48011a7c016b4d451251954b6e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR.PointsLoad.fromCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a44b48011a7c016b4d451251954b6e56b" id="r_a44b48011a7c016b4d451251954b6e56b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b48011a7c016b4d451251954b6e56b">fromCtm</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a44b48011a7c016b4d451251954b6e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR.PointsLoad.fromCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a44b48011a7c016b4d451251954b6e56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e527512ac9d84f26b1ef9b1ee6c611a" id="r_a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="memItemLeft" align="right" valign="top"><a id="a7e527512ac9d84f26b1ef9b1ee6c611a" name="a7e527512ac9d84f26b1ef9b1ee6c611a"></a>
-static unsafe <a class="el" href="classMR_1_1Std_1_1Vector__MRPointsLoadNamedCloud.html">MR.Std.Vector_MRPointsLoadNamedCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromSceneE57File</b> (string file, <a class="el" href="classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html">MR.PointsLoad.Const_E57LoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261">MR.PointsLoad.fromSceneE57File</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a7e527512ac9d84f26b1ef9b1ee6c611a" id="r_a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRPointsLoadNamedCloud&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e527512ac9d84f26b1ef9b1ee6c611a">fromSceneE57File</a> (string file, <a class="el" href="classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html">MR.PointsLoad.Const_E57LoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261">MR.PointsLoad.fromSceneE57File</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5bec718b73ec3b68699a6fe0aaa904a" id="r_ad5bec718b73ec3b68699a6fe0aaa904a"><td class="memItemLeft" align="right" valign="top"><a id="ad5bec718b73ec3b68699a6fe0aaa904a" name="ad5bec718b73ec3b68699a6fe0aaa904a"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromE57</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ad5bec718b73ec3b68699a6fe0aaa904a"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .e57 file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232">MR.PointsLoad.fromE57</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ad5bec718b73ec3b68699a6fe0aaa904a" id="r_ad5bec718b73ec3b68699a6fe0aaa904a"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5bec718b73ec3b68699a6fe0aaa904a">fromE57</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:ad5bec718b73ec3b68699a6fe0aaa904a"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .e57 file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232">MR.PointsLoad.fromE57</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ad5bec718b73ec3b68699a6fe0aaa904a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b9f0ece0fa4136c55f986719981f6c1" id="r_a1b9f0ece0fa4136c55f986719981f6c1"><td class="memItemLeft" align="right" valign="top"><a id="a1b9f0ece0fa4136c55f986719981f6c1" name="a1b9f0ece0fa4136c55f986719981f6c1"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromE57</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a1b9f0ece0fa4136c55f986719981f6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232">MR.PointsLoad.fromE57</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a1b9f0ece0fa4136c55f986719981f6c1" id="r_a1b9f0ece0fa4136c55f986719981f6c1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b9f0ece0fa4136c55f986719981f6c1">fromE57</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a1b9f0ece0fa4136c55f986719981f6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232">MR.PointsLoad.fromE57</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a1b9f0ece0fa4136c55f986719981f6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42970dc9afb16615ea9164dab06f97c7" id="r_a42970dc9afb16615ea9164dab06f97c7"><td class="memItemLeft" align="right" valign="top"><a id="a42970dc9afb16615ea9164dab06f97c7" name="a42970dc9afb16615ea9164dab06f97c7"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1LoadedObjects.html">MR.LoadedObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><b>loadObjectFromE57</b> (string path, <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>? cb=null)</td></tr>
-<tr class="memdesc:a42970dc9afb16615ea9164dab06f97c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a0b7a6c4b1858171ee10c0d0af8ebd77b">MR.PointsLoad.loadObjectFromE57</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a42970dc9afb16615ea9164dab06f97c7" id="r_a42970dc9afb16615ea9164dab06f97c7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1LoadedObjects.html">MR.LoadedObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42970dc9afb16615ea9164dab06f97c7">loadObjectFromE57</a> (string path, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
+<tr class="memdesc:a42970dc9afb16615ea9164dab06f97c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a0b7a6c4b1858171ee10c0d0af8ebd77b">MR.PointsLoad.loadObjectFromE57</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a42970dc9afb16615ea9164dab06f97c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58a5f3fd2410f34afee84d233f757a2d" id="r_a58a5f3fd2410f34afee84d233f757a2d"><td class="memItemLeft" align="right" valign="top"><a id="a58a5f3fd2410f34afee84d233f757a2d" name="a58a5f3fd2410f34afee84d233f757a2d"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromLas</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a58a5f3fd2410f34afee84d233f757a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .las file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372">MR.PointsLoad.fromLas</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a58a5f3fd2410f34afee84d233f757a2d" id="r_a58a5f3fd2410f34afee84d233f757a2d"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a5f3fd2410f34afee84d233f757a2d">fromLas</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a58a5f3fd2410f34afee84d233f757a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .las file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372">MR.PointsLoad.fromLas</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a58a5f3fd2410f34afee84d233f757a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09185b3b04fb14e9f680304272dc158c" id="r_a09185b3b04fb14e9f680304272dc158c"><td class="memItemLeft" align="right" valign="top"><a id="a09185b3b04fb14e9f680304272dc158c" name="a09185b3b04fb14e9f680304272dc158c"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromLas</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a09185b3b04fb14e9f680304272dc158c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372">MR.PointsLoad.fromLas</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a09185b3b04fb14e9f680304272dc158c" id="r_a09185b3b04fb14e9f680304272dc158c"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09185b3b04fb14e9f680304272dc158c">fromLas</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a09185b3b04fb14e9f680304272dc158c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372">MR.PointsLoad.fromLas</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a09185b3b04fb14e9f680304272dc158c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73e9d49a0aa7e22d6dab505ebd37d7d7" id="r_a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="memItemLeft" align="right" valign="top"><a id="a73e9d49a0aa7e22d6dab505ebd37d7d7" name="a73e9d49a0aa7e22d6dab505ebd37d7d7"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromText</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .csv, .asc, .xyz, .txt file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">MR.PointsLoad.fromText</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a73e9d49a0aa7e22d6dab505ebd37d7d7" id="r_a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e9d49a0aa7e22d6dab505ebd37d7d7">fromText</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .csv, .asc, .xyz, .txt file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">MR.PointsLoad.fromText</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a21b059e2dc485b242ab4e75277d202" id="r_a3a21b059e2dc485b242ab4e75277d202"><td class="memItemLeft" align="right" valign="top"><a id="a3a21b059e2dc485b242ab4e75277d202" name="a3a21b059e2dc485b242ab4e75277d202"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromText</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a3a21b059e2dc485b242ab4e75277d202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">MR.PointsLoad.fromText</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a3a21b059e2dc485b242ab4e75277d202" id="r_a3a21b059e2dc485b242ab4e75277d202"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a21b059e2dc485b242ab4e75277d202">fromText</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a3a21b059e2dc485b242ab4e75277d202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">MR.PointsLoad.fromText</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a3a21b059e2dc485b242ab4e75277d202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e1c59b6bb682a95125496be80d57a86" id="r_a4e1c59b6bb682a95125496be80d57a86"><td class="memItemLeft" align="right" valign="top"><a id="a4e1c59b6bb682a95125496be80d57a86" name="a4e1c59b6bb682a95125496be80d57a86"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromPts</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a4e1c59b6bb682a95125496be80d57a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from Laser scan plain data format (.pts) file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">MR.PointsLoad.fromPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a4e1c59b6bb682a95125496be80d57a86" id="r_a4e1c59b6bb682a95125496be80d57a86"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e1c59b6bb682a95125496be80d57a86">fromPts</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a4e1c59b6bb682a95125496be80d57a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from Laser scan plain data format (.pts) file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">MR.PointsLoad.fromPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a4e1c59b6bb682a95125496be80d57a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5201227fdeccf2d729e4c78641b8e134" id="r_a5201227fdeccf2d729e4c78641b8e134"><td class="memItemLeft" align="right" valign="top"><a id="a5201227fdeccf2d729e4c78641b8e134" name="a5201227fdeccf2d729e4c78641b8e134"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromPts</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a5201227fdeccf2d729e4c78641b8e134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">MR.PointsLoad.fromPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a5201227fdeccf2d729e4c78641b8e134" id="r_a5201227fdeccf2d729e4c78641b8e134"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5201227fdeccf2d729e4c78641b8e134">fromPts</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a5201227fdeccf2d729e4c78641b8e134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">MR.PointsLoad.fromPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a5201227fdeccf2d729e4c78641b8e134"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e90b48dc07197f2934996be2baa2f7b" id="r_a6e90b48dc07197f2934996be2baa2f7b"><td class="memItemLeft" align="right" valign="top"><a id="a6e90b48dc07197f2934996be2baa2f7b" name="a6e90b48dc07197f2934996be2baa2f7b"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromPly</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a6e90b48dc07197f2934996be2baa2f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ply file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">MR.PointsLoad.fromPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a6e90b48dc07197f2934996be2baa2f7b" id="r_a6e90b48dc07197f2934996be2baa2f7b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e90b48dc07197f2934996be2baa2f7b">fromPly</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a6e90b48dc07197f2934996be2baa2f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ply file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">MR.PointsLoad.fromPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a6e90b48dc07197f2934996be2baa2f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bc04a059349f014e1165d50519ba712" id="r_a5bc04a059349f014e1165d50519ba712"><td class="memItemLeft" align="right" valign="top"><a id="a5bc04a059349f014e1165d50519ba712" name="a5bc04a059349f014e1165d50519ba712"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromPly</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a5bc04a059349f014e1165d50519ba712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">MR.PointsLoad.fromPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a5bc04a059349f014e1165d50519ba712" id="r_a5bc04a059349f014e1165d50519ba712"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bc04a059349f014e1165d50519ba712">fromPly</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a5bc04a059349f014e1165d50519ba712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">MR.PointsLoad.fromPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a5bc04a059349f014e1165d50519ba712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a581d1bb5784a299619435eb1af5cf4e4" id="r_a581d1bb5784a299619435eb1af5cf4e4"><td class="memItemLeft" align="right" valign="top"><a id="a581d1bb5784a299619435eb1af5cf4e4" name="a581d1bb5784a299619435eb1af5cf4e4"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromObj</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a581d1bb5784a299619435eb1af5cf4e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .obj file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">MR.PointsLoad.fromObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a581d1bb5784a299619435eb1af5cf4e4" id="r_a581d1bb5784a299619435eb1af5cf4e4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a581d1bb5784a299619435eb1af5cf4e4">fromObj</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a581d1bb5784a299619435eb1af5cf4e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .obj file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">MR.PointsLoad.fromObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a581d1bb5784a299619435eb1af5cf4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e55526bc62d3c6fee9b9877ea1e3c3a" id="r_a2e55526bc62d3c6fee9b9877ea1e3c3a"><td class="memItemLeft" align="right" valign="top"><a id="a2e55526bc62d3c6fee9b9877ea1e3c3a" name="a2e55526bc62d3c6fee9b9877ea1e3c3a"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromObj</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a2e55526bc62d3c6fee9b9877ea1e3c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">MR.PointsLoad.fromObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a2e55526bc62d3c6fee9b9877ea1e3c3a" id="r_a2e55526bc62d3c6fee9b9877ea1e3c3a"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e55526bc62d3c6fee9b9877ea1e3c3a">fromObj</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a2e55526bc62d3c6fee9b9877ea1e3c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">MR.PointsLoad.fromObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a2e55526bc62d3c6fee9b9877ea1e3c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9815642e0c36886c3e9c58ee783120e" id="r_af9815642e0c36886c3e9c58ee783120e"><td class="memItemLeft" align="right" valign="top"><a id="af9815642e0c36886c3e9c58ee783120e" name="af9815642e0c36886c3e9c58ee783120e"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromDxf</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:af9815642e0c36886c3e9c58ee783120e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">MR.PointsLoad.fromDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:af9815642e0c36886c3e9c58ee783120e" id="r_af9815642e0c36886c3e9c58ee783120e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9815642e0c36886c3e9c58ee783120e">fromDxf</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:af9815642e0c36886c3e9c58ee783120e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">MR.PointsLoad.fromDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:af9815642e0c36886c3e9c58ee783120e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12f5d4e8f3e31a88b73e6a7a96039493" id="r_a12f5d4e8f3e31a88b73e6a7a96039493"><td class="memItemLeft" align="right" valign="top"><a id="a12f5d4e8f3e31a88b73e6a7a96039493" name="a12f5d4e8f3e31a88b73e6a7a96039493"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromDxf</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a12f5d4e8f3e31a88b73e6a7a96039493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">MR.PointsLoad.fromDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a12f5d4e8f3e31a88b73e6a7a96039493" id="r_a12f5d4e8f3e31a88b73e6a7a96039493"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f5d4e8f3e31a88b73e6a7a96039493">fromDxf</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a12f5d4e8f3e31a88b73e6a7a96039493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">MR.PointsLoad.fromDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a12f5d4e8f3e31a88b73e6a7a96039493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a807e0acdc6797b2e9278c2612d13be55" id="r_a807e0acdc6797b2e9278c2612d13be55"><td class="memItemLeft" align="right" valign="top"><a id="a807e0acdc6797b2e9278c2612d13be55" name="a807e0acdc6797b2e9278c2612d13be55"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromAnySupportedFormat</b> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a807e0acdc6797b2e9278c2612d13be55"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads points from it Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR.PointsLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a807e0acdc6797b2e9278c2612d13be55" id="r_a807e0acdc6797b2e9278c2612d13be55"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a807e0acdc6797b2e9278c2612d13be55">fromAnySupportedFormat</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a807e0acdc6797b2e9278c2612d13be55"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads points from it Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR.PointsLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a807e0acdc6797b2e9278c2612d13be55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3f6f9aefe03d5c1313483f26d459790" id="r_ad3f6f9aefe03d5c1313483f26d459790"><td class="memItemLeft" align="right" valign="top"><a id="ad3f6f9aefe03d5c1313483f26d459790" name="ad3f6f9aefe03d5c1313483f26d459790"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromAnySupportedFormat</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_, string extension, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ad3f6f9aefe03d5c1313483f26d459790"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR.PointsLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ad3f6f9aefe03d5c1313483f26d459790" id="r_ad3f6f9aefe03d5c1313483f26d459790"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f6f9aefe03d5c1313483f26d459790">fromAnySupportedFormat</a> (MR.Std.Istream in_, string extension, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:ad3f6f9aefe03d5c1313483f26d459790"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR.PointsLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ad3f6f9aefe03d5c1313483f26d459790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad3f6f9aefe03d5c1313483f26d459790" name="ad3f6f9aefe03d5c1313483f26d459790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f6f9aefe03d5c1313483f26d459790">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>extension</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR.PointsLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a807e0acdc6797b2e9278c2612d13be55" name="a807e0acdc6797b2e9278c2612d13be55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807e0acdc6797b2e9278c2612d13be55">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>detects the format from file extension and loads points from it Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR.PointsLoad.fromAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a44b48011a7c016b4d451251954b6e56b" name="a44b48011a7c016b4d451251954b6e56b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b48011a7c016b4d451251954b6e56b">&#9670;&#160;</a></span>fromCtm() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromCtm </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR.PointsLoad.fromCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a41482212997d8c721ae8f497c4b81c35" name="a41482212997d8c721ae8f497c4b81c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41482212997d8c721ae8f497c4b81c35">&#9670;&#160;</a></span>fromCtm() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromCtm </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR.PointsLoad.fromCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a12f5d4e8f3e31a88b73e6a7a96039493" name="a12f5d4e8f3e31a88b73e6a7a96039493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f5d4e8f3e31a88b73e6a7a96039493">&#9670;&#160;</a></span>fromDxf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">MR.PointsLoad.fromDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="af9815642e0c36886c3e9c58ee783120e" name="af9815642e0c36886c3e9c58ee783120e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9815642e0c36886c3e9c58ee783120e">&#9670;&#160;</a></span>fromDxf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga20c9e8324f81247ee337a60745ad7c8c">MR.PointsLoad.fromDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a1b9f0ece0fa4136c55f986719981f6c1" name="a1b9f0ece0fa4136c55f986719981f6c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9f0ece0fa4136c55f986719981f6c1">&#9670;&#160;</a></span>fromE57() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromE57 </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232">MR.PointsLoad.fromE57</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ad5bec718b73ec3b68699a6fe0aaa904a" name="ad5bec718b73ec3b68699a6fe0aaa904a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5bec718b73ec3b68699a6fe0aaa904a">&#9670;&#160;</a></span>fromE57() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromE57 </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .e57 file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#abd37d2ce03a3b80ed6007282794d1232">MR.PointsLoad.fromE57</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a09185b3b04fb14e9f680304272dc158c" name="a09185b3b04fb14e9f680304272dc158c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09185b3b04fb14e9f680304272dc158c">&#9670;&#160;</a></span>fromLas() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromLas </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372">MR.PointsLoad.fromLas</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a58a5f3fd2410f34afee84d233f757a2d" name="a58a5f3fd2410f34afee84d233f757a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58a5f3fd2410f34afee84d233f757a2d">&#9670;&#160;</a></span>fromLas() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromLas </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .las file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ab39953df84a0deacd37f047884a37372">MR.PointsLoad.fromLas</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a2e55526bc62d3c6fee9b9877ea1e3c3a" name="a2e55526bc62d3c6fee9b9877ea1e3c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e55526bc62d3c6fee9b9877ea1e3c3a">&#9670;&#160;</a></span>fromObj() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromObj </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">MR.PointsLoad.fromObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a581d1bb5784a299619435eb1af5cf4e4" name="a581d1bb5784a299619435eb1af5cf4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581d1bb5784a299619435eb1af5cf4e4">&#9670;&#160;</a></span>fromObj() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromObj </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .obj file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga397a19d78a3050dda279565c1962c330">MR.PointsLoad.fromObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a5bc04a059349f014e1165d50519ba712" name="a5bc04a059349f014e1165d50519ba712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bc04a059349f014e1165d50519ba712">&#9670;&#160;</a></span>fromPly() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromPly </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">MR.PointsLoad.fromPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a6e90b48dc07197f2934996be2baa2f7b" name="a6e90b48dc07197f2934996be2baa2f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e90b48dc07197f2934996be2baa2f7b">&#9670;&#160;</a></span>fromPly() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromPly </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .ply file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga64740729d79ac47a437b07ade4cdd263">MR.PointsLoad.fromPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a5201227fdeccf2d729e4c78641b8e134" name="a5201227fdeccf2d729e4c78641b8e134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5201227fdeccf2d729e4c78641b8e134">&#9670;&#160;</a></span>fromPts() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromPts </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">MR.PointsLoad.fromPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a4e1c59b6bb682a95125496be80d57a86" name="a4e1c59b6bb682a95125496be80d57a86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e1c59b6bb682a95125496be80d57a86">&#9670;&#160;</a></span>fromPts() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromPts </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from Laser scan plain data format (.pts) file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga365add9d0f24601d5f6b167a7401409c">MR.PointsLoad.fromPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a7e527512ac9d84f26b1ef9b1ee6c611a" name="a7e527512ac9d84f26b1ef9b1ee6c611a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e527512ac9d84f26b1ef9b1ee6c611a">&#9670;&#160;</a></span>fromSceneE57File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe MR.Std.Vector_MRPointsLoadNamedCloud MR.PointsLoad.fromSceneE57File </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html">MR.PointsLoad.Const_E57LoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261">MR.PointsLoad.fromSceneE57File</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a3a21b059e2dc485b242ab4e75277d202" name="a3a21b059e2dc485b242ab4e75277d202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a21b059e2dc485b242ab4e75277d202">&#9670;&#160;</a></span>fromText() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromText </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">MR.PointsLoad.fromText</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a73e9d49a0aa7e22d6dab505ebd37d7d7" name="a73e9d49a0aa7e22d6dab505ebd37d7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e9d49a0aa7e22d6dab505ebd37d7d7">&#9670;&#160;</a></span>fromText() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromText </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .csv, .asc, .xyz, .txt file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56">MR.PointsLoad.fromText</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a42970dc9afb16615ea9164dab06f97c7" name="a42970dc9afb16615ea9164dab06f97c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42970dc9afb16615ea9164dab06f97c7">&#9670;&#160;</a></span>loadObjectFromE57()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="elRef" href="../Cpp/structMR_1_1LoadedObjects.html">MR.LoadedObjects</a> MR.PointsLoad.loadObjectFromE57 </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a0b7a6c4b1858171ee10c0d0af8ebd77b">MR.PointsLoad.loadObjectFromE57</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><b>MRCtm.cs</b></li>
-<li><b>MRE57.cs</b></li>
-<li><b>MRLas.cs</b></li>
-<li><b>MRPointsLoad.cs</b></li>
+<li><a class="el" href="MRCtm_8cs.html">MRCtm.cs</a></li>
+<li><a class="el" href="MRE57_8cs.html">MRE57.cs</a></li>
+<li><a class="el" href="MRLas_8cs.html">MRLas.cs</a></li>
+<li><a class="el" href="MRPointsLoad_8cs.html">MRPointsLoad.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

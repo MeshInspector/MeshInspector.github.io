@@ -7,6 +7,8 @@ var classMR_1_1Const__ObjectLinesHolder =
     [ "classNameInPlural", "classMR_1_1Const__ObjectLinesHolder.html#ac63abb311d74c5a0ac98505f2f0fc6aa", null ],
     [ "clone", "classMR_1_1Const__ObjectLinesHolder.html#ab88cf16e16bf5f8db023c2e0d3f933bf", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectLinesHolder.html#accd2eeb4ae03b5017c7fd59934fd659a", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectLinesHolder.html#a0c5501823b48dbd34683941c3b8f68de", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectLinesHolder.html#a6cdeee6dd12e73d6b75477e1627b09f3", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectLinesHolder.html#a17bbeaeacf659eac081e39b9969f9431", null ],
     [ "getAmbientStrength", "classMR_1_1Const__ObjectLinesHolder.html#a09888b17a40041a1bf0991cfe15ea6f3", null ],
     [ "getBackColor", "classMR_1_1Const__ObjectLinesHolder.html#a131b4c657f230b6550dd3b130e8ad1a4", null ],
@@ -51,6 +53,11 @@ var classMR_1_1Const__ObjectLinesHolder =
     [ "name", "classMR_1_1Const__ObjectLinesHolder.html#af9a8178c1e70dd1915b9c99ad9b6a2f7", null ],
     [ "numComponents", "classMR_1_1Const__ObjectLinesHolder.html#ad62b6380e1c8b4866a801f9be28011e4", null ],
     [ "numUndirectedEdges", "classMR_1_1Const__ObjectLinesHolder.html#ad52881f6b8fde8bfec803ca46bc2db7f", null ],
+    [ "operator Const_ObjectLinesHolder?", "classMR_1_1Const__ObjectLinesHolder.html#af010b0d9ad4964329d26a978450b6232", null ],
+    [ "operator Const_ObjectLinesHolder?", "classMR_1_1Const__ObjectLinesHolder.html#a94eaa9c668030597300851770a5fe0f3", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ObjectLinesHolder.html#a29de5c7d051a63bb07424d6d2150fb48", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectLinesHolder.html#a70a9e27a852556637a343f6a380c0135", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectLinesHolder.html#a7c99c8dd57d14742df2cffe5ebb05a68", null ],
     [ "polyline", "classMR_1_1Const__ObjectLinesHolder.html#a698d60373f65b48ad4eb0cd6da6761f5", null ],
     [ "render", "classMR_1_1Const__ObjectLinesHolder.html#a865d0b2b55cff3656b2e7c2afbd6b306", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectLinesHolder.html#ac9e5f2de325ddd8747a9c69f78060f55", null ],
@@ -72,6 +79,5 @@ var classMR_1_1Const__ObjectLinesHolder =
     [ "visibilityMask", "classMR_1_1Const__ObjectLinesHolder.html#a95432f5baa7e0d423febd594d9f64a37", null ],
     [ "worldXf", "classMR_1_1Const__ObjectLinesHolder.html#afe018df05112f2e187278b2ea15f1440", null ],
     [ "xf", "classMR_1_1Const__ObjectLinesHolder.html#a406adf9cb4c3111bb780db82a88c740f", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ObjectLinesHolder.html#a7a3b9d2dc4839a5ab81a560f9b0a27a3", null ],
-    [ "_IsOwning", "classMR_1_1Const__ObjectLinesHolder.html#aa80673c41a5bcc3cb0b4bfe253ee7a00", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ObjectLinesHolder.html#a7a3b9d2dc4839a5ab81a560f9b0a27a3", null ]
 ];

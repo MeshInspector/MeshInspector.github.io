@@ -1,0 +1,22 @@
+var structMR_1_1SubdivideSettings =
+[
+    [ "beforeEdgeSplit", "../Cpp/structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8", null ],
+    [ "criticalAspectRatioFlip", "../Cpp/structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30", null ],
+    [ "maintainRegion", "../Cpp/structMR_1_1SubdivideSettings.html#acfa476aa1e7c9c2507f12fde82a81f8f", null ],
+    [ "maxAngleChangeAfterFlip", "../Cpp/structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce", null ],
+    [ "maxDeviationAfterFlip", "../Cpp/structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476", null ],
+    [ "maxEdgeLen", "../Cpp/structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250", null ],
+    [ "maxEdgeSplits", "../Cpp/structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d", null ],
+    [ "maxSplittableTriAspectRatio", "../Cpp/structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f", null ],
+    [ "maxTriAspectRatio", "../Cpp/structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1", null ],
+    [ "minSharpDihedralAngle", "../Cpp/structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5", null ],
+    [ "newVerts", "../Cpp/structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d", null ],
+    [ "notFlippable", "../Cpp/structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5", null ],
+    [ "onEdgeSplit", "../Cpp/structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413", null ],
+    [ "onVertCreated", "../Cpp/structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111", null ],
+    [ "progressCallback", "../Cpp/structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce", null ],
+    [ "projectOnOriginalMesh", "../Cpp/structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d", null ],
+    [ "region", "../Cpp/structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa", null ],
+    [ "smoothMode", "../Cpp/structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0", null ],
+    [ "subdivideBorder", "../Cpp/structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc", null ]
+];

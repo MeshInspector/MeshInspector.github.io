@@ -9,6 +9,8 @@ var structMR_1_1FaceId =
     [ "addAssign", "structMR_1_1FaceId.html#a340409d77bebb6a20220d5d1e6f0b771", null ],
     [ "decr", "structMR_1_1FaceId.html#a5473ecff33d0192f06f429c9904fc8c7", null ],
     [ "decr", "structMR_1_1FaceId.html#af215b0e215bce00e0014b572f65d1a2a", null ],
+    [ "Equals", "structMR_1_1FaceId.html#a5115cc7471a351205d99bbb6533f0bea", null ],
+    [ "Equals", "structMR_1_1FaceId.html#a245c970c296bc0efee57b96665b5990a", null ],
     [ "get", "structMR_1_1FaceId.html#ae624a5b9bf83b4719ec962f19a9c0e19", null ],
     [ "incr", "structMR_1_1FaceId.html#abd9441420b2868d191ac5c17ec08c252", null ],
     [ "incr", "structMR_1_1FaceId.html#af2eb387fa741062359e2c35feffc7684", null ],
@@ -16,7 +18,9 @@ var structMR_1_1FaceId =
     [ "operator bool", "structMR_1_1FaceId.html#ad63e8736519e7575ab45b540f4546263", null ],
     [ "operator FaceId", "structMR_1_1FaceId.html#a8f9cb48359f38570614b423ef91f9b3a", null ],
     [ "operator int", "structMR_1_1FaceId.html#a842e7e317c95301c87d35447e63f60e7", null ],
+    [ "operator!=", "structMR_1_1FaceId.html#a16ac88eed98f851131e9484245b0b119", null ],
     [ "operator==", "structMR_1_1FaceId.html#affb49327242b47166f734bed0c6ae624", null ],
     [ "subAssign", "structMR_1_1FaceId.html#afb9c9690674c89add1205c55485509c4", null ],
-    [ "valid", "structMR_1_1FaceId.html#a439db538d514ffe337d29e23aa3f4e4b", null ]
+    [ "valid", "structMR_1_1FaceId.html#a439db538d514ffe337d29e23aa3f4e4b", null ],
+    [ "id", "structMR_1_1FaceId.html#ac5657c11ba1c136f7a33e61bc660c92d", null ]
 ];

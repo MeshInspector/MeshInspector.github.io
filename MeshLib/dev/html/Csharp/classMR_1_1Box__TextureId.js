@@ -11,5 +11,5 @@ var classMR_1_1Box__TextureId =
     [ "get", "classMR_1_1Box__TextureId.html#a308546ded3d4d043ffaccb5905dd2983", null ],
     [ "incr", "classMR_1_1Box__TextureId.html#aaf42c1e7820a66f8ad1c22a52c4eb022", null ],
     [ "subAssign", "classMR_1_1Box__TextureId.html#ab5b63e0c16e736c1bbc87366c8b77af7", null ],
-    [ "_Ref", "classMR_1_1Box__TextureId.html#a4d59094ea8b3004580efb3bd8cddc4bc", null ]
+    [ "id", "classMR_1_1Box__TextureId.html#ad56c2cb7da1fc3106e346ac7fad719e8", null ]
 ];

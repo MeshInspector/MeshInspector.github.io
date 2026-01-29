@@ -3,8 +3,9 @@ var group__TriangleIntersectionGroup =
     [ "MR::TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html", [
       [ "TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html#a85cf83c7e28f559b5b4642be1b6c767e", null ],
       [ "TriIntersectResult", "../Csharp/classMR_1_1TriIntersectResult.html#a29594d31a57c2c211075a6b3fbb7ffbf", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1TriIntersectResult.html#a99f7dbb82ed468da592fa1091bae1257", null ],
-      [ "assign", "../Csharp/classMR_1_1TriIntersectResult.html#ab9405d73aa12df2aaa88a3f4354fca55", null ]
+      [ "assign", "../Csharp/classMR_1_1TriIntersectResult.html#ab9405d73aa12df2aaa88a3f4354fca55", null ],
+      [ "bary", "../Csharp/classMR_1_1TriIntersectResult.html#a5b49cc9e41838a348de8e93f416dc13b", null ],
+      [ "t", "../Csharp/classMR_1_1TriIntersectResult.html#ac19596207dbd1d0021458e4589392f6f", null ]
     ] ],
     [ "MR::doesEdgeXySeparate", "group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305", null ],
     [ "MR::doTriangleLineIntersect", "group__TriangleIntersectionGroup.html#gab7bfc61216e86c7e985c25378fcc7bdb", null ],

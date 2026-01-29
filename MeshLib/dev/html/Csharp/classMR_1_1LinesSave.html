@@ -155,58 +155,412 @@ $(function(){initNavTree('classMR_1_1LinesSave.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:af60c53a3373b70b68b166f03994a8894" id="r_af60c53a3373b70b68b166f03994a8894"><td class="memItemLeft" align="right" valign="top"><a id="af60c53a3373b70b68b166f03994a8894" name="af60c53a3373b70b68b166f03994a8894"></a>
-typedef Expected&lt; void &gt;(*)(const <a class="el" href="classMR_1_1Polyline3.html">Polyline3</a> &amp;, const std::filesystem::path &amp;, const <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">SaveSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1LinesSave.html#af60c53a3373b70b68b166f03994a8894">LinesFileSaver</a>)</td></tr>
+<tr class="memitem:af60c53a3373b70b68b166f03994a8894" id="r_af60c53a3373b70b68b166f03994a8894"><td class="memItemLeft" align="right" valign="top">typedef Expected&lt; void &gt;(*)(const <a class="el" href="classMR_1_1Polyline3.html">Polyline3</a> &amp;, const std::filesystem::path &amp;, const <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">SaveSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1LinesSave.html#af60c53a3373b70b68b166f03994a8894">LinesFileSaver</a>)</td></tr>
 <tr class="separator:af60c53a3373b70b68b166f03994a8894"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a268aa90e5a330542295cca4a34787a08" id="r_a268aa90e5a330542295cca4a34787a08"><td class="memItemLeft" align="right" valign="top"><a id="a268aa90e5a330542295cca4a34787a08" name="a268aa90e5a330542295cca4a34787a08"></a>
-typedef Expected&lt; void &gt;(*)(const <a class="el" href="classMR_1_1Polyline3.html">Polyline3</a> &amp;, std::ostream &amp;, const <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">SaveSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1LinesSave.html#a268aa90e5a330542295cca4a34787a08">LinesStreamSaver</a>)</td></tr>
+<tr class="memitem:a268aa90e5a330542295cca4a34787a08" id="r_a268aa90e5a330542295cca4a34787a08"><td class="memItemLeft" align="right" valign="top">typedef Expected&lt; void &gt;(*)(const <a class="el" href="classMR_1_1Polyline3.html">Polyline3</a> &amp;, std::ostream &amp;, const <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">SaveSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1LinesSave.html#a268aa90e5a330542295cca4a34787a08">LinesStreamSaver</a>)</td></tr>
 <tr class="separator:a268aa90e5a330542295cca4a34787a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a75d351e4617e72b2865fb789101997d8" id="r_a75d351e4617e72b2865fb789101997d8"><td class="memItemLeft" align="right" valign="top"><a id="a75d351e4617e72b2865fb789101997d8" name="a75d351e4617e72b2865fb789101997d8"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toMrLines</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a75d351e4617e72b2865fb789101997d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .mrlines file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = true is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR.LinesSave.toMrLines</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a75d351e4617e72b2865fb789101997d8" id="r_a75d351e4617e72b2865fb789101997d8"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d351e4617e72b2865fb789101997d8">toMrLines</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a75d351e4617e72b2865fb789101997d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .mrlines file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = true is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR.LinesSave.toMrLines</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a75d351e4617e72b2865fb789101997d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f81fdf5159b4e0278af28db171044d" id="r_af2f81fdf5159b4e0278af28db171044d"><td class="memItemLeft" align="right" valign="top"><a id="af2f81fdf5159b4e0278af28db171044d" name="af2f81fdf5159b4e0278af28db171044d"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toMrLines</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:af2f81fdf5159b4e0278af28db171044d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR.LinesSave.toMrLines</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:af2f81fdf5159b4e0278af28db171044d" id="r_af2f81fdf5159b4e0278af28db171044d"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f81fdf5159b4e0278af28db171044d">toMrLines</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, MR.Std.Ostream out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:af2f81fdf5159b4e0278af28db171044d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR.LinesSave.toMrLines</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:af2f81fdf5159b4e0278af28db171044d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a733e26cff308835ee40a8012d30547b4" id="r_a733e26cff308835ee40a8012d30547b4"><td class="memItemLeft" align="right" valign="top"><a id="a733e26cff308835ee40a8012d30547b4" name="a733e26cff308835ee40a8012d30547b4"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toPts</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a733e26cff308835ee40a8012d30547b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .pts file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR.LinesSave.toPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a733e26cff308835ee40a8012d30547b4" id="r_a733e26cff308835ee40a8012d30547b4"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a733e26cff308835ee40a8012d30547b4">toPts</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a733e26cff308835ee40a8012d30547b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .pts file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR.LinesSave.toPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a733e26cff308835ee40a8012d30547b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8965ec94b3ed4cc4263bc08bd373cee6" id="r_a8965ec94b3ed4cc4263bc08bd373cee6"><td class="memItemLeft" align="right" valign="top"><a id="a8965ec94b3ed4cc4263bc08bd373cee6" name="a8965ec94b3ed4cc4263bc08bd373cee6"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toPts</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a8965ec94b3ed4cc4263bc08bd373cee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR.LinesSave.toPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a8965ec94b3ed4cc4263bc08bd373cee6" id="r_a8965ec94b3ed4cc4263bc08bd373cee6"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8965ec94b3ed4cc4263bc08bd373cee6">toPts</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, MR.Std.Ostream out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a8965ec94b3ed4cc4263bc08bd373cee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR.LinesSave.toPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a8965ec94b3ed4cc4263bc08bd373cee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39321d76d8d64f42604dc2896918495b" id="r_a39321d76d8d64f42604dc2896918495b"><td class="memItemLeft" align="right" valign="top"><a id="a39321d76d8d64f42604dc2896918495b" name="a39321d76d8d64f42604dc2896918495b"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toDxf</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a39321d76d8d64f42604dc2896918495b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .dxf file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR.LinesSave.toDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a39321d76d8d64f42604dc2896918495b" id="r_a39321d76d8d64f42604dc2896918495b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39321d76d8d64f42604dc2896918495b">toDxf</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a39321d76d8d64f42604dc2896918495b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .dxf file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR.LinesSave.toDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a39321d76d8d64f42604dc2896918495b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6905ca3386a1af2c2be033c982e88f4" id="r_ab6905ca3386a1af2c2be033c982e88f4"><td class="memItemLeft" align="right" valign="top"><a id="ab6905ca3386a1af2c2be033c982e88f4" name="ab6905ca3386a1af2c2be033c982e88f4"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toDxf</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ab6905ca3386a1af2c2be033c982e88f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR.LinesSave.toDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ab6905ca3386a1af2c2be033c982e88f4" id="r_ab6905ca3386a1af2c2be033c982e88f4"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6905ca3386a1af2c2be033c982e88f4">toDxf</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, MR.Std.Ostream out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:ab6905ca3386a1af2c2be033c982e88f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR.LinesSave.toDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ab6905ca3386a1af2c2be033c982e88f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16fb6d35f63ec2eb100f0e7c924e3612" id="r_a16fb6d35f63ec2eb100f0e7c924e3612"><td class="memItemLeft" align="right" valign="top"><a id="a16fb6d35f63ec2eb100f0e7c924e3612" name="a16fb6d35f63ec2eb100f0e7c924e3612"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toPly</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a16fb6d35f63ec2eb100f0e7c924e3612"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b">MR.LinesSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a16fb6d35f63ec2eb100f0e7c924e3612" id="r_a16fb6d35f63ec2eb100f0e7c924e3612"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16fb6d35f63ec2eb100f0e7c924e3612">toPly</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a16fb6d35f63ec2eb100f0e7c924e3612"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b">MR.LinesSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a16fb6d35f63ec2eb100f0e7c924e3612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac27a12e3f39b1bb3049e7ef827708e8f" id="r_ac27a12e3f39b1bb3049e7ef827708e8f"><td class="memItemLeft" align="right" valign="top"><a id="ac27a12e3f39b1bb3049e7ef827708e8f" name="ac27a12e3f39b1bb3049e7ef827708e8f"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toPly</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ac27a12e3f39b1bb3049e7ef827708e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b">MR.LinesSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ac27a12e3f39b1bb3049e7ef827708e8f" id="r_ac27a12e3f39b1bb3049e7ef827708e8f"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac27a12e3f39b1bb3049e7ef827708e8f">toPly</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, MR.Std.Ostream out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:ac27a12e3f39b1bb3049e7ef827708e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b">MR.LinesSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ac27a12e3f39b1bb3049e7ef827708e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4628f9ce6da5d349d87805342d8f216" id="r_ac4628f9ce6da5d349d87805342d8f216"><td class="memItemLeft" align="right" valign="top"><a id="ac4628f9ce6da5d349d87805342d8f216" name="ac4628f9ce6da5d349d87805342d8f216"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ac4628f9ce6da5d349d87805342d8f216"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and saves polyline in it Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR.LinesSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ac4628f9ce6da5d349d87805342d8f216" id="r_ac4628f9ce6da5d349d87805342d8f216"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4628f9ce6da5d349d87805342d8f216">toAnySupportedFormat</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:ac4628f9ce6da5d349d87805342d8f216"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and saves polyline in it Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR.LinesSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ac4628f9ce6da5d349d87805342d8f216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b2d6ac1891da9955927f62259f434b" id="r_a69b2d6ac1891da9955927f62259f434b"><td class="memItemLeft" align="right" valign="top"><a id="a69b2d6ac1891da9955927f62259f434b" name="a69b2d6ac1891da9955927f62259f434b"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string extension, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a69b2d6ac1891da9955927f62259f434b"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR.LinesSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a69b2d6ac1891da9955927f62259f434b" id="r_a69b2d6ac1891da9955927f62259f434b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69b2d6ac1891da9955927f62259f434b">toAnySupportedFormat</a> (<a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a> polyline, string extension, MR.Std.Ostream out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a69b2d6ac1891da9955927f62259f434b"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR.LinesSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a69b2d6ac1891da9955927f62259f434b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a69b2d6ac1891da9955927f62259f434b" name="a69b2d6ac1891da9955927f62259f434b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b2d6ac1891da9955927f62259f434b">&#9670;&#160;</a></span>toAnySupportedFormat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>extension</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR.LinesSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ac4628f9ce6da5d349d87805342d8f216" name="ac4628f9ce6da5d349d87805342d8f216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4628f9ce6da5d349d87805342d8f216">&#9670;&#160;</a></span>toAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>detects the format from file extension and saves polyline in it Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga7daab131397a83e2aceac630038c48c2">MR.LinesSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ab6905ca3386a1af2c2be033c982e88f4" name="ab6905ca3386a1af2c2be033c982e88f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6905ca3386a1af2c2be033c982e88f4">&#9670;&#160;</a></span>toDxf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toDxf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR.LinesSave.toDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a39321d76d8d64f42604dc2896918495b" name="a39321d76d8d64f42604dc2896918495b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39321d76d8d64f42604dc2896918495b">&#9670;&#160;</a></span>toDxf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toDxf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .dxf file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gadbd1551d2a728738185c2a7b126509cc">MR.LinesSave.toDxf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="af2f81fdf5159b4e0278af28db171044d" name="af2f81fdf5159b4e0278af28db171044d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f81fdf5159b4e0278af28db171044d">&#9670;&#160;</a></span>toMrLines() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toMrLines </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR.LinesSave.toMrLines</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a75d351e4617e72b2865fb789101997d8" name="a75d351e4617e72b2865fb789101997d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d351e4617e72b2865fb789101997d8">&#9670;&#160;</a></span>toMrLines() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toMrLines </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .mrlines file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = true is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca">MR.LinesSave.toMrLines</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ac27a12e3f39b1bb3049e7ef827708e8f" name="ac27a12e3f39b1bb3049e7ef827708e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac27a12e3f39b1bb3049e7ef827708e8f">&#9670;&#160;</a></span>toPly() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toPly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b">MR.LinesSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a16fb6d35f63ec2eb100f0e7c924e3612" name="a16fb6d35f63ec2eb100f0e7c924e3612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16fb6d35f63ec2eb100f0e7c924e3612">&#9670;&#160;</a></span>toPly() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toPly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .ply file Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b">MR.LinesSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a8965ec94b3ed4cc4263bc08bd373cee6" name="a8965ec94b3ed4cc4263bc08bd373cee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8965ec94b3ed4cc4263bc08bd373cee6">&#9670;&#160;</a></span>toPts() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toPts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR.LinesSave.toPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a733e26cff308835ee40a8012d30547b4" name="a733e26cff308835ee40a8012d30547b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a733e26cff308835ee40a8012d30547b4">&#9670;&#160;</a></span>toPts() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.LinesSave.toPts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline3.html">MR.Const_Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .pts file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20">MR.LinesSave.toPts</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><b>MRLinesSave.cs</b></li>
+<li><a class="el" href="MRLinesSave_8cs.html">MRLinesSave.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

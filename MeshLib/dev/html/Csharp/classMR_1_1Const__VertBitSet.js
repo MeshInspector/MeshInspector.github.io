@@ -12,8 +12,12 @@ var classMR_1_1Const__VertBitSet =
     [ "bits", "classMR_1_1Const__VertBitSet.html#ae7c52349234a154a7d979c21c4cf1987", null ],
     [ "capacity", "classMR_1_1Const__VertBitSet.html#ac0c518acefe973556095c4fbde30a467", null ],
     [ "count", "classMR_1_1Const__VertBitSet.html#a51636af110e6357c9b3e903585ff1e69", null ],
+    [ "Dispose", "classMR_1_1Const__VertBitSet.html#a52228a203118282651dcb4379d838585", null ],
+    [ "Dispose", "classMR_1_1Const__VertBitSet.html#a6a97c43c3c73afcf8eae9d36566f0137", null ],
     [ "empty", "classMR_1_1Const__VertBitSet.html#a4dcc0ad3e184a1b338cbc93db25a8e61", null ],
     [ "endId", "classMR_1_1Const__VertBitSet.html#ac46800bc13e2039378c6b80a138e9a80", null ],
+    [ "Equals", "classMR_1_1Const__VertBitSet.html#a6e72d931e3e942ac83fbe327d9b8973f", null ],
+    [ "Equals", "classMR_1_1Const__VertBitSet.html#aaeaf067125ab458f13d59c7fe261b303", null ],
     [ "findFirst", "classMR_1_1Const__VertBitSet.html#ab3a5469158fd0f432369b896971c2050", null ],
     [ "findLast", "classMR_1_1Const__VertBitSet.html#af6af9075e79a9634131cb6b36b0c4854", null ],
     [ "findNext", "classMR_1_1Const__VertBitSet.html#ae7e7eace75b736633c4685dd67df767d", null ],
@@ -29,6 +33,8 @@ var classMR_1_1Const__VertBitSet =
     [ "none", "classMR_1_1Const__VertBitSet.html#a0a25cfb456b7b85d28dd8196941aad8f", null ],
     [ "nthSetBit", "classMR_1_1Const__VertBitSet.html#ada73720c6742f6c518f41a698c5b4bc2", null ],
     [ "numBlocks", "classMR_1_1Const__VertBitSet.html#a89e3a1352bac48cf47c67c799274b5a3", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__VertBitSet.html#a873d96ed3db3584f644096a26d996b5c", null ],
+    [ "operator!=", "classMR_1_1Const__VertBitSet.html#ad9b64a83b00a3264cf52f4dd5d209438", null ],
     [ "operator&", "classMR_1_1Const__VertBitSet.html#a646abcbae504d1ac9e7415271d3a933a", null ],
     [ "operator-", "classMR_1_1Const__VertBitSet.html#a991858615a7be3e730fcf11fa80c3f0b", null ],
     [ "operator==", "classMR_1_1Const__VertBitSet.html#a60994891eeda0abb7a17f762c68583bd", null ],
@@ -36,5 +42,9 @@ var classMR_1_1Const__VertBitSet =
     [ "operator|", "classMR_1_1Const__VertBitSet.html#aff2d3fc60fc6f0c222d253e780d8b1b9", null ],
     [ "size", "classMR_1_1Const__VertBitSet.html#aa1103592d50a769dde22869f1e05f01c", null ],
     [ "test", "classMR_1_1Const__VertBitSet.html#aabdf809360066b7483d911bb47c4483c", null ],
-    [ "uncheckedTest", "classMR_1_1Const__VertBitSet.html#ae738048565029cc148c1eb61686525c6", null ]
+    [ "uncheckedTest", "classMR_1_1Const__VertBitSet.html#ae738048565029cc148c1eb61686525c6", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__VertBitSet.html#add10def62ae5a9d825c283b42a738217", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__VertBitSet.html#a6072c9cb3c15e1890fdbd5b1a348813b", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__VertBitSet.html#aa7c83098f19488e83f5705130b35cdb8", null ],
+    [ "Npos", "classMR_1_1Const__VertBitSet.html#aeb003673003de2f4ee76f687729690ca", null ]
 ];

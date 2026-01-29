@@ -8,6 +8,8 @@ var structMR_1_1Vector3i =
     [ "addAssign", "structMR_1_1Vector3i.html#a40784d697f7257593ebe3459ccb8546e", null ],
     [ "diagonal", "structMR_1_1Vector3i.html#a3cbd914c674cc15b8e2370c86bfd344c", null ],
     [ "divAssign", "structMR_1_1Vector3i.html#a85a27d2504438bbed6c9ac73bbe7b1eb", null ],
+    [ "Equals", "structMR_1_1Vector3i.html#a88abe49fe8a4c7e20d12424ed6fa1b1d", null ],
+    [ "Equals", "structMR_1_1Vector3i.html#a99960f9c6896d4dddfccb02e1e492264", null ],
     [ "furthestBasisVector", "structMR_1_1Vector3i.html#accf697edcafcd6cc60dff867da644502", null ],
     [ "index", "structMR_1_1Vector3i.html#af2df89aa52a525b7db0f58739063cf7f", null ],
     [ "length", "structMR_1_1Vector3i.html#af08a104b1e79c17d334200e95aab87b6", null ],
@@ -17,6 +19,7 @@ var structMR_1_1Vector3i =
     [ "minusZ", "structMR_1_1Vector3i.html#ab60834c66cb67d2e982df3ac11a4c66a", null ],
     [ "mulAssign", "structMR_1_1Vector3i.html#ad68baad5ac0c87549d26f2becb3c8d4d", null ],
     [ "operator Vector3i", "structMR_1_1Vector3i.html#a8ae4ae28b603b6fa674d32fe78a72fe4", null ],
+    [ "operator!=", "structMR_1_1Vector3i.html#a4f603308505b8cfc85d228b2ebc7a7d9", null ],
     [ "operator*", "structMR_1_1Vector3i.html#a5c9e05bc2d3642fd494bc966642fe789", null ],
     [ "operator*", "structMR_1_1Vector3i.html#a176950cf2a666502bfb6afa2b1e45845", null ],
     [ "operator+", "structMR_1_1Vector3i.html#a52cb2424d05f67b0408b86d07ce8f39e", null ],
@@ -29,5 +32,8 @@ var structMR_1_1Vector3i =
     [ "plusY", "structMR_1_1Vector3i.html#aa1e47c9f32848ba0c75a673bb69da32d", null ],
     [ "plusZ", "structMR_1_1Vector3i.html#ac9e20da7af2c406385679a79267bbd5c", null ],
     [ "subAssign", "structMR_1_1Vector3i.html#ab6157358fa0b90deee5837c9b89114aa", null ],
+    [ "x", "structMR_1_1Vector3i.html#ab2799f2328d15963c27b6c5dca3ce699", null ],
+    [ "y", "structMR_1_1Vector3i.html#a41eae45719419d4cd84f423e343caab9", null ],
+    [ "z", "structMR_1_1Vector3i.html#a5d6832920d055ccccd58fa5849c3161b", null ],
     [ "this[int e]", "structMR_1_1Vector3i.html#af15ebd99af014db1c0ac27f215aa16ed", null ]
 ];

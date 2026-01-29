@@ -7,6 +7,7 @@ var group__VoxelPathGroup =
       [ "assign", "../Csharp/classMR_1_1VoxelMetricParameters.html#a240cdee4d23eea612d6c1b00907afcd4", null ],
       [ "maxDistRatio", "../Csharp/classMR_1_1VoxelMetricParameters.html#aaf7981485a2688b63b0e34b345637060", null ],
       [ "plane", "../Csharp/classMR_1_1VoxelMetricParameters.html#a9cae0d5c1d0dc11ee35e8c152b8987dd", null ],
+      [ "quatersMask", "../Csharp/classMR_1_1VoxelMetricParameters.html#a4291965aee52e1768148f13542bafc88", null ],
       [ "start", "../Csharp/classMR_1_1VoxelMetricParameters.html#a319d35a08b2da31a6788f8c2b428be31", null ],
       [ "stop", "../Csharp/classMR_1_1VoxelMetricParameters.html#a013f27dd734136065c748ce751630b90", null ]
     ] ],

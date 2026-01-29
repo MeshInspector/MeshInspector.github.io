@@ -7,6 +7,8 @@ var classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId =
     [ "beginId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a45b39eebd868f71f8db3dba2e7e41ec1", null ],
     [ "capacity", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a6d3ff6e7896db0af2f7274559a047f3e", null ],
     [ "data", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a20f92e1931cc85180f6e07e026395aa1", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a25183dc44e36972de5550f46688d924a", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a7548e392643a82087f123423034107a3", null ],
     [ "empty", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#aa57545312a8164e795724c58d4c4b0d0", null ],
     [ "endId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a4721cf84bf8806abc621e2d15e42dc87", null ],
     [ "heapBytes", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#ae3ac9b77ccf9220f168faa403a3a9c8f", null ],

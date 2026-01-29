@@ -5,7 +5,6 @@ var classMR_1_1EdgeScalars =
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#a6aad644e58c2184f5db6a5983605ba4e", null ],
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#aa2ea179acade981aa7c71fe46b20a7bf", null ],
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#ac09e1b97fae02e76bdb04f63810bc637", null ],
-    [ "_FinalizeFields", "classMR_1_1EdgeScalars.html#a54baf94761116a9479169707e8350ecf", null ],
     [ "assign", "classMR_1_1EdgeScalars.html#a19bcb4d15fbe19559e7dcb436727a8fa", null ],
     [ "autoResizeAt", "classMR_1_1EdgeScalars.html#adc23501012a5fcfa7798903327c0a101", null ],
     [ "autoResizeSet", "classMR_1_1EdgeScalars.html#a359f1613434f51ea703f19ea84253fd9", null ],

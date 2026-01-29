@@ -5,7 +5,6 @@ var classMR_1_1Face2RegionMap =
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a33eab4683061ce441890cabc90979c0b", null ],
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#ae19ca389055776f2d012b820cef471ae", null ],
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a211d6b45f396a7d0acfb34e1ffd6150a", null ],
-    [ "_FinalizeFields", "classMR_1_1Face2RegionMap.html#a5974552d44a1cfccbcd85bf14363a4ac", null ],
     [ "assign", "classMR_1_1Face2RegionMap.html#aa333dd08ec5024a625e8574727e9224b", null ],
     [ "autoResizeAt", "classMR_1_1Face2RegionMap.html#ae713881c2f92b4b500fba1d3a2be5e13", null ],
     [ "autoResizeSet", "classMR_1_1Face2RegionMap.html#a8266e16098fc06e39461a2dd828eb0af", null ],

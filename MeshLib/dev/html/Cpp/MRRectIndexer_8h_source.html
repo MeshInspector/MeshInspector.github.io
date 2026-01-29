@@ -218,15 +218,15 @@ $(function(){initNavTree('MRRectIndexer_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f">   66</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1RectIndexer.html#a1c86a4b8850368f0ce7e6b4ed448a6a8">RectIndexer::resize</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> &amp; dims ) </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>{</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    dims_ = dims;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    size_ = size_t( dims_.x ) * dims_.y;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    size_ = size_t( dims_.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">x</a> ) * dims_.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a38a3b0fa73739adf5f4f2b6d0c9166e8">y</a>;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>}</div>
 </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="group__DistanceMapGroup.html#ga920d5e2ba75ebd9fe641aae7d50cce9f">   72</a></span><span class="keyword">inline</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> RectIndexer::toPos( <span class="keywordtype">size_t</span> <span class="keywordtype">id</span> )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> y = int(<span class="keywordtype">id</span>) / dims_.x;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">int</span> x = int(<span class="keywordtype">id</span>) % dims_.x;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> y = int(<span class="keywordtype">id</span>) / dims_.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">x</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">int</span> x = int(<span class="keywordtype">id</span>) % dims_.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">x</a>;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordflow">return</span> {x, y};</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
 </div>
@@ -234,7 +234,7 @@ $(function(){initNavTree('MRRectIndexer_8h_source.html',''); initResizable(true)
 <div class="foldopen" id="foldopen00079" data-start="{" data-end="}">
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="group__DistanceMapGroup.html#gacf16438d65e6771b0a308b2e232e86b1">   79</a></span><span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__DistanceMapGroup.html#gacf16438d65e6771b0a308b2e232e86b1">RectIndexer::toIndex</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> &amp; pos )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">return</span> pos.x + pos.y * size_t(dims_.x);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">return</span> pos.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">x</a> + pos.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a38a3b0fa73739adf5f4f2b6d0c9166e8">y</a> * size_t(dims_.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">x</a>);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>}</div>
 </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
@@ -260,6 +260,8 @@ $(function(){initNavTree('MRRectIndexer_8h_source.html',''); initResizable(true)
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1PixelId_html"><div class="ttname"><a href="../Csharp/structMR_1_1PixelId.html">MR::PixelId</a></div></div>
 <div class="ttc" id="astructMR_1_1Vector2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector2i_html_a38a3b0fa73739adf5f4f2b6d0c9166e8"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html#a38a3b0fa73739adf5f4f2b6d0c9166e8">MR::Vector2i::y</a></div><div class="ttdeci">int y</div></div>
+<div class="ttc" id="astructMR_1_1Vector2i_html_a3cc8847be3639be24b143385b7bd1a31"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html#a3cc8847be3639be24b143385b7bd1a31">MR::Vector2i::x</a></div><div class="ttdeci">int x</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

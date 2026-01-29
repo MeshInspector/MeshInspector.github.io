@@ -7,6 +7,8 @@ var classMR_1_1Const__CylinderObject =
     [ "classNameInPlural", "classMR_1_1Const__CylinderObject.html#a81336d0eff52c89dcafe5b692196ee1c", null ],
     [ "clone", "classMR_1_1Const__CylinderObject.html#af3f253c4892e55892bc8a17474e91b89", null ],
     [ "cloneTree", "classMR_1_1Const__CylinderObject.html#a040a671c056d9904c933573b55539b1e", null ],
+    [ "Dispose", "classMR_1_1Const__CylinderObject.html#afa05943c1f8903e6122ae75414406b48", null ],
+    [ "Dispose", "classMR_1_1Const__CylinderObject.html#aae7062e2f3b954e2846b07ac87f4d780", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__CylinderObject.html#aad792f8473af5859d4885cbd2497467e", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__CylinderObject.html#aee3325eeeafa94d806fab2d5a5fcb1bd", null ],
     [ "getAmbientStrength", "classMR_1_1Const__CylinderObject.html#a40ef08b304ae7fdde6e8e161466f498b", null ],
@@ -64,6 +66,15 @@ var classMR_1_1Const__CylinderObject =
     [ "isVisible", "classMR_1_1Const__CylinderObject.html#ad2abbe8ae0b50a6b89eedb69c9077d0a", null ],
     [ "name", "classMR_1_1Const__CylinderObject.html#acb274a0c3fdfad484690674a58109482", null ],
     [ "operator Const_CylinderObject", "classMR_1_1Const__CylinderObject.html#a16ad77c40cadc701f500c68d7acf0b2b", null ],
+    [ "operator Const_CylinderObject?", "classMR_1_1Const__CylinderObject.html#aa9e55a96f9be069bb2ff7f06eb0162eb", null ],
+    [ "operator Const_CylinderObject?", "classMR_1_1Const__CylinderObject.html#a8a713cbdad796817264739711997d4ef", null ],
+    [ "operator Const_CylinderObject?", "classMR_1_1Const__CylinderObject.html#aa3399e2412d61a7248de22fdd93c5c6d", null ],
+    [ "operator Const_CylinderObject?", "classMR_1_1Const__CylinderObject.html#a07e6fd1d53b3388e9ebb4531bc98ea69", null ],
+    [ "operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__CylinderObject.html#a166969c527e8630ed78d97806343fd39", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__CylinderObject.html#a67d031acc515362587ba8a4408f779b3", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__CylinderObject.html#a855c8771fe0f5a3bdade6c0fa480f276", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__CylinderObject.html#ae55cf1732b6537c73b134494b7da8da9", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__CylinderObject.html#a2d434ac995b14083e9a2ba214f123c3e", null ],
     [ "projectPoint", "classMR_1_1Const__CylinderObject.html#aff33d0a87d75e3d7ed63589c6945e0e1", null ],
     [ "render", "classMR_1_1Const__CylinderObject.html#a9180374e81f64aaf94ae44be792448e6", null ],
     [ "renderForPicker", "classMR_1_1Const__CylinderObject.html#a9c289e1762261967b66825b71a2b0b3d", null ],
@@ -84,6 +95,5 @@ var classMR_1_1Const__CylinderObject =
     [ "visibilityMask", "classMR_1_1Const__CylinderObject.html#ad55ecfb73626007a70330ef948e78ca7", null ],
     [ "worldXf", "classMR_1_1Const__CylinderObject.html#afa28da3ddabf76cf5002147296a8a706", null ],
     [ "xf", "classMR_1_1Const__CylinderObject.html#ae07b6995aaee262c9d70f666253f5dab", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__CylinderObject.html#a53d4d6f43cefc54e28cc68e0c5231be9", null ],
-    [ "_IsOwning", "classMR_1_1Const__CylinderObject.html#a6ad3e4b445c3f519e3a2b0c8fd44dd07", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__CylinderObject.html#a53d4d6f43cefc54e28cc68e0c5231be9", null ]
 ];

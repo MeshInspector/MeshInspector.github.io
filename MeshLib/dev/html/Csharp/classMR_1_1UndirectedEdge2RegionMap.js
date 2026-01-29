@@ -5,7 +5,6 @@ var classMR_1_1UndirectedEdge2RegionMap =
     [ "UndirectedEdge2RegionMap", "classMR_1_1UndirectedEdge2RegionMap.html#a83ba17572efcddb65f0993585af4a940", null ],
     [ "UndirectedEdge2RegionMap", "classMR_1_1UndirectedEdge2RegionMap.html#a3ac4748966b25f005748b4ef528cc2f0", null ],
     [ "UndirectedEdge2RegionMap", "classMR_1_1UndirectedEdge2RegionMap.html#a0cb85311f016255483b9e0d20fe0577b", null ],
-    [ "_FinalizeFields", "classMR_1_1UndirectedEdge2RegionMap.html#a2b3efb336b4db40499dd613c0d296a1f", null ],
     [ "assign", "classMR_1_1UndirectedEdge2RegionMap.html#a5eb1d0b7b4c61b4feff29ce4f3b34ac0", null ],
     [ "autoResizeAt", "classMR_1_1UndirectedEdge2RegionMap.html#a635332e048b8177debc41a23c23c60f7", null ],
     [ "autoResizeSet", "classMR_1_1UndirectedEdge2RegionMap.html#a6e74fb0c40c39ba38e3c40ef510e6693", null ],

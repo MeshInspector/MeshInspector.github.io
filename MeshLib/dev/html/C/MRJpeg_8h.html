@@ -151,8 +151,9 @@ $(function(){initNavTree('MRJpeg_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRJpeg.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRJpeg_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -169,13 +170,13 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abafa8df68de7615a9755bfd17842c05d" id="r_abafa8df68de7615a9755bfd17842c05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abafa8df68de7615a9755bfd17842c05d">MR_ImageLoad_fromJpeg_1_std_filesystem_path</a> (const char *path, const char *path_end)</td></tr>
-<tr class="separator:abafa8df68de7615a9755bfd17842c05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51655f0ee8f48f5c71e5e186b51e7a69" id="r_a51655f0ee8f48f5c71e5e186b51e7a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51655f0ee8f48f5c71e5e186b51e7a69">MR_ImageLoad_fromJpeg_1_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in)</td></tr>
-<tr class="separator:a51655f0ee8f48f5c71e5e186b51e7a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa68caae7bfef43d22dd06324019562" id="r_a1fa68caae7bfef43d22dd06324019562"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fa68caae7bfef43d22dd06324019562">MR_ImageLoad_fromJpeg_2</a> (const char *data, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
-<tr class="separator:a1fa68caae7bfef43d22dd06324019562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d526436c6c5192c523b0ee6f777ee1f" id="r_a5d526436c6c5192c523b0ee6f777ee1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d526436c6c5192c523b0ee6f777ee1f">MR_ImageSave_toJpeg</a> (const <a class="el" href="#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
+<tr class="memitem:a140c1ee85de6c2b6b0617ff04e69933f" id="r_a140c1ee85de6c2b6b0617ff04e69933f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a140c1ee85de6c2b6b0617ff04e69933f">MR_ImageLoad_fromJpeg_2_std_filesystem_path</a> (const char *path, const char *path_end, const bool *ignoreDecompressErrors)</td></tr>
+<tr class="separator:a140c1ee85de6c2b6b0617ff04e69933f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddc5ebd6ae2ff26823ed54d9af91c5f" id="r_adddc5ebd6ae2ff26823ed54d9af91c5f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adddc5ebd6ae2ff26823ed54d9af91c5f">MR_ImageLoad_fromJpeg_2_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const bool *ignoreDecompressErrors)</td></tr>
+<tr class="separator:adddc5ebd6ae2ff26823ed54d9af91c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9419a5f87bbf65038119c504d96992d" id="r_aa9419a5f87bbf65038119c504d96992d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9419a5f87bbf65038119c504d96992d">MR_ImageLoad_fromJpeg_3</a> (const char *data, MR_uint64_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, const bool *ignoreDecompressErrors)</td></tr>
+<tr class="separator:aa9419a5f87bbf65038119c504d96992d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d526436c6c5192c523b0ee6f777ee1f" id="r_a5d526436c6c5192c523b0ee6f777ee1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d526436c6c5192c523b0ee6f777ee1f">MR_ImageSave_toJpeg</a> (const <a class="el" href="#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
 <tr class="separator:a5d526436c6c5192c523b0ee6f777ee1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -236,65 +237,84 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="abafa8df68de7615a9755bfd17842c05d" name="abafa8df68de7615a9755bfd17842c05d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abafa8df68de7615a9755bfd17842c05d">&#9670;&#160;</a></span>MR_ImageLoad_fromJpeg_1_std_filesystem_path()</h2>
+<a id="a140c1ee85de6c2b6b0617ff04e69933f" name="a140c1ee85de6c2b6b0617ff04e69933f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a140c1ee85de6c2b6b0617ff04e69933f">&#9670;&#160;</a></span>MR_ImageLoad_fromJpeg_2_std_filesystem_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> * MR_ImageLoad_fromJpeg_1_std_filesystem_path </td>
+          <td class="memname">MRC_API <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> * MR_ImageLoad_fromJpeg_2_std_filesystem_path </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path_end</em></span>&#160;)</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path_end</em></span>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-<p>loads from .jpg format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77">MR::ImageLoad::fromJpeg</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Image__std__string_8h.html#a546f00d8e86a2a77282047264d88e6a2" title="Destroys a heap-allocated instance of MR_expected_MR_Image_std_string. Does nothing if the pointer is...">MR_expected_MR_Image_std_string_Destroy()</a></code> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="a51655f0ee8f48f5c71e5e186b51e7a69" name="a51655f0ee8f48f5c71e5e186b51e7a69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51655f0ee8f48f5c71e5e186b51e7a69">&#9670;&#160;</a></span>MR_ImageLoad_fromJpeg_1_std_istream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> * MR_ImageLoad_fromJpeg_1_std_istream </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>ignoreDecompressErrors</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77">MR::ImageLoad::fromJpeg</a></code>. Parameter <code>in</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Image__std__string_8h.html#a546f00d8e86a2a77282047264d88e6a2" title="Destroys a heap-allocated instance of MR_expected_MR_Image_std_string. Does nothing if the pointer is...">MR_expected_MR_Image_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads from .jpg format </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ignoreDecompressErrors</td><td>if true do not return decompression error if the header was read sucessfully Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#ab4748a7b41e7803211a8015322e020e5">MR::ImageLoad::fromJpeg</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>ignoreDecompressErrors</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Image_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a1fa68caae7bfef43d22dd06324019562" name="a1fa68caae7bfef43d22dd06324019562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fa68caae7bfef43d22dd06324019562">&#9670;&#160;</a></span>MR_ImageLoad_fromJpeg_2()</h2>
+<a id="adddc5ebd6ae2ff26823ed54d9af91c5f" name="adddc5ebd6ae2ff26823ed54d9af91c5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddc5ebd6ae2ff26823ed54d9af91c5f">&#9670;&#160;</a></span>MR_ImageLoad_fromJpeg_2_std_istream()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> * MR_ImageLoad_fromJpeg_2 </td>
+          <td class="memname">MRC_API <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> * MR_ImageLoad_fromJpeg_2_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>ignoreDecompressErrors</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#ab4748a7b41e7803211a8015322e020e5">MR::ImageLoad::fromJpeg</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>ignoreDecompressErrors</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Image_std_string_Destroy()</code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa9419a5f87bbf65038119c504d96992d" name="aa9419a5f87bbf65038119c504d96992d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9419a5f87bbf65038119c504d96992d">&#9670;&#160;</a></span>MR_ImageLoad_fromJpeg_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> * MR_ImageLoad_fromJpeg_3 </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+          <td class="paramtype">MR_uint64_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>ignoreDecompressErrors</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77">MR::ImageLoad::fromJpeg</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Image__std__string_8h.html#a546f00d8e86a2a77282047264d88e6a2" title="Destroys a heap-allocated instance of MR_expected_MR_Image_std_string. Does nothing if the pointer is...">MR_expected_MR_Image_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#ab4748a7b41e7803211a8015322e020e5">MR::ImageLoad::fromJpeg</a></code>. Parameter <code>ignoreDecompressErrors</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Image_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -305,7 +325,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_ImageSave_toJpeg </td>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_ImageSave_toJpeg </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
         </tr>
@@ -321,7 +341,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves in .jpg format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageSave.html#a38b56fa1d15ca5efa69ac7cfa37ca1a4">MR::ImageSave::toJpeg</a></code>. Parameter <code>image</code> can not be null. It is a single object. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>saves in .jpg format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageSave.html#a38b56fa1d15ca5efa69ac7cfa37ca1a4">MR::ImageSave::toJpeg</a></code>. Parameter <code>image</code> can not be null. It is a single object. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

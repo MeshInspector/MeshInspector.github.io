@@ -5,7 +5,6 @@ var classMR_1_1UndirectedEdgeMap =
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#a997244969c2e6f54931425e7cc839e98", null ],
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#aebafba78d366a55bf171635683d48e20", null ],
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#a0c38f6e87b270eb6ab327f149ab373de", null ],
-    [ "_FinalizeFields", "classMR_1_1UndirectedEdgeMap.html#affebbd8a68467be1a061f250892ff378", null ],
     [ "assign", "classMR_1_1UndirectedEdgeMap.html#aa80c5ce02876471002e553f140a54762", null ],
     [ "autoResizeAt", "classMR_1_1UndirectedEdgeMap.html#a08cb64a357b2823e1e6f23d737fe807a", null ],
     [ "autoResizeSet", "classMR_1_1UndirectedEdgeMap.html#ac90243b01789c1116c764a2ab9c7bd02", null ],

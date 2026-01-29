@@ -5,5 +5,6 @@ var classMR_1_1Box__AffineXf2f =
     [ "Box_AffineXf2f", "classMR_1_1Box__AffineXf2f.html#a854b39e1153119a0f6c9629ba18765b2", null ],
     [ "Box_AffineXf2f", "classMR_1_1Box__AffineXf2f.html#a7f1b3f6516113a95f8ad6ecd1cdf6b53", null ],
     [ "Assign", "classMR_1_1Box__AffineXf2f.html#a0b83a720e8872935988aad8e77289249", null ],
-    [ "_Ref", "classMR_1_1Box__AffineXf2f.html#a139a150d73a3088663d03bc6abf0174a", null ]
+    [ "a", "classMR_1_1Box__AffineXf2f.html#a3bae2e6eec185fba2cb7561d3b6d6fdd", null ],
+    [ "b", "classMR_1_1Box__AffineXf2f.html#a44bd89d7d0a528c37f67ec7a6578d2a6", null ]
 ];

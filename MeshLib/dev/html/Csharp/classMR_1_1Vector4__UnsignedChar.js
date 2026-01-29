@@ -9,5 +9,9 @@ var classMR_1_1Vector4__UnsignedChar =
     [ "divAssign", "classMR_1_1Vector4__UnsignedChar.html#a99669e132266081b350999a3b6c305ae", null ],
     [ "mulAssign", "classMR_1_1Vector4__UnsignedChar.html#a8fd4fa724e43aac5915bef69694934c8", null ],
     [ "subAssign", "classMR_1_1Vector4__UnsignedChar.html#a9bb75c578874a65ff7fd0646b10e0d35", null ],
-    [ "this[int e]", "classMR_1_1Vector4__UnsignedChar.html#a643c6878b20f6a6d39961fd8407da895", null ]
+    [ "this[int e]", "classMR_1_1Vector4__UnsignedChar.html#a643c6878b20f6a6d39961fd8407da895", null ],
+    [ "w", "classMR_1_1Vector4__UnsignedChar.html#a3903cb3d63ae76210dff6134ff589c9f", null ],
+    [ "x", "classMR_1_1Vector4__UnsignedChar.html#ad33f20dea10648e3abbd04508a5ce340", null ],
+    [ "y", "classMR_1_1Vector4__UnsignedChar.html#a67a142ddccf7fde506da6935b003652b", null ],
+    [ "z", "classMR_1_1Vector4__UnsignedChar.html#af7e43c5fa7ec443aa1aabdef38f42ae3", null ]
 ];

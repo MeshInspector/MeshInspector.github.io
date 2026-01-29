@@ -5,11 +5,12 @@ var classMR_1_1Const__Polyline3 =
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a4db9dd2fb35b0631e58e6ae9b5831246", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a50b3ff3c9371dab15a339275f6010815", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a591075975a8403b2738e9c619c5d6d94", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__Polyline3.html#aa61b67a7578a89aac70d4af0f2ac9478", null ],
     [ "averageEdgeLength", "classMR_1_1Const__Polyline3.html#a2abca48dfaf837bdfe96177dce51ca97", null ],
     [ "computeBoundingBox", "classMR_1_1Const__Polyline3.html#a90c186e84928d0713c6dfa7498890f53", null ],
     [ "contours", "classMR_1_1Const__Polyline3.html#a562c5d5b51193f47a15c9ce818db3f19", null ],
     [ "destPnt", "classMR_1_1Const__Polyline3.html#aa993494d87d594c20d0b1a752d6bc309", null ],
+    [ "Dispose", "classMR_1_1Const__Polyline3.html#ab057babadeb80a6ee743f272649db825", null ],
+    [ "Dispose", "classMR_1_1Const__Polyline3.html#afb2c480bf4098f55b5c6d72fedc4819b", null ],
     [ "edgeCenter", "classMR_1_1Const__Polyline3.html#a9726296e4f45d902b1e9c40d7d0d7c4f", null ],
     [ "edgeLength", "classMR_1_1Const__Polyline3.html#ad6572a637b9071465f75e03f048ea51a", null ],
     [ "edgeLengthSq", "classMR_1_1Const__Polyline3.html#a2d4195f388118cfe374cf1447745d1a5", null ],
@@ -29,5 +30,6 @@ var classMR_1_1Const__Polyline3 =
     [ "toEdgePoint", "classMR_1_1Const__Polyline3.html#ab02f19cce0fb96fac2967e14861e352a", null ],
     [ "toEdgePoint", "classMR_1_1Const__Polyline3.html#acf7c94c25d0a8b09acfc30d3f6be5070", null ],
     [ "totalLength", "classMR_1_1Const__Polyline3.html#a0e3ebec3ba0fb5d7016b5001248bc6dd", null ],
-    [ "_IsOwning", "classMR_1_1Const__Polyline3.html#adc194f168252cb919fdf0f591fd21f50", null ]
+    [ "points", "classMR_1_1Const__Polyline3.html#a1d122ac31854d888ba8a79290af06a12", null ],
+    [ "topology", "classMR_1_1Const__Polyline3.html#a0f576f8385bfeee2ef61d868c81f354d", null ]
 ];

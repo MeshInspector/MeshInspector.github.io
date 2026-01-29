@@ -4,6 +4,8 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "classNameInPlural", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#afe8344fb5d0b6c9fca57283b6cdd4895", null ],
     [ "clone", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a847cfa06f17b1b6649c7fde353be8e03", null ],
     [ "cloneTree", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a61362135bb3a6788bac790214ad0a494", null ],
+    [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a9fd73f8839d0d6e3bd7472e54e0778d2", null ],
+    [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a7bea20b84c36ca92dde5d6d5397d8da9", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ac5b304d503d1326b53e0221f4b06b77b", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#aa8813cd0df282209b1a3b0f193bbbf34", null ],
     [ "getAmbientStrength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a959fb3b3f8a7f58bfb34f6cfadcb7afc", null ],
@@ -56,6 +58,13 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "isSelected", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a9d6013e75d0fa4ce5703838b393e656f", null ],
     [ "isVisible", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ac90629827693d53a9f87c20bcc228e13", null ],
     [ "name", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a6398e56d97647b3f596081f39389ce3d", null ],
+    [ "operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength?", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ab177d62413e062f467239e3c663a58ea", null ],
+    [ "operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength?", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#af2d776dc02d56d198a016f507d4f7257", null ],
+    [ "operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength?", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#afc4ead682a5072c98da6cc12c13632d0", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a0ac9f9e847a4afd23a6820f21bafc981", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ad71d118f5189d8a85c2787046bfd7cbc", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ab88aba5c07a540fd641f7ca605d46aac", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ab7dc6e153187daeca3fa3a2988a71ca3", null ],
     [ "projectPoint", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a261af9a3367b5a2a5efec53eed8d1179", null ],
     [ "render", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a0f212ec56a2ee92d9dbeda36445b691a", null ],
     [ "renderForPicker", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#aceb9394404d4e2e811faca4978e489f5", null ],
@@ -76,6 +85,5 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "visibilityMask", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a13aa3f3c69279d88684b25a8ab3be076", null ],
     [ "worldXf", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a017dce2588733ef8f8fe5a3eed534351", null ],
     [ "xf", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a8df1600b289a9a7f1f84b04fa2618ec7", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a4ac0b0378ac0cd8f6500900117e8ca83", null ],
-    [ "_IsOwning", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a99be617329545d3a15a922221cd3404c", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a4ac0b0378ac0cd8f6500900117e8ca83", null ]
 ];

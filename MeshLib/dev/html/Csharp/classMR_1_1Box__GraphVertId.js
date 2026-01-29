@@ -11,5 +11,5 @@ var classMR_1_1Box__GraphVertId =
     [ "get", "classMR_1_1Box__GraphVertId.html#aba8b7731385ee41a9103318467cbbd1f", null ],
     [ "incr", "classMR_1_1Box__GraphVertId.html#a3014c27c8d6902d54d584fd651512856", null ],
     [ "subAssign", "classMR_1_1Box__GraphVertId.html#a4afe519d534eda53de634a28992e6ffc", null ],
-    [ "_Ref", "classMR_1_1Box__GraphVertId.html#a1b3af39784768143ecf7796d65bb1180", null ]
+    [ "id", "classMR_1_1Box__GraphVertId.html#ad91f280703e370b02a6d5e7a701bcc06", null ]
 ];

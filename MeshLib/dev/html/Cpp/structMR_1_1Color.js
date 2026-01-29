@@ -11,10 +11,16 @@ var structMR_1_1Color =
     [ "Color", "../Csharp/structMR_1_1Color.html#a307b4d651534d3f04bb7650e779cb856", null ],
     [ "addAssign", "../Csharp/structMR_1_1Color.html#ad63c17e1f61a663b1c183de06427831c", null ],
     [ "divAssign", "../Csharp/structMR_1_1Color.html#acc0bd6892860ac1f35c04f3f5519f939", null ],
+    [ "Equals", "../Csharp/structMR_1_1Color.html#ae1d150bd030c811b0c01edb9e997792c", null ],
+    [ "Equals", "../Csharp/structMR_1_1Color.html#adc4bbafcf99ae7f47d40877b5c9ae4ca", null ],
     [ "getUInt32", "../Csharp/structMR_1_1Color.html#a66b38e1bd6e7a3af0802ce5aa0d83d06", null ],
     [ "index", "../Csharp/structMR_1_1Color.html#a9507de3ef26d2f238f3526912e1f38d7", null ],
     [ "mulAssign", "../Csharp/structMR_1_1Color.html#addb0a5dc3810d0d64d5755775790547c", null ],
     [ "scaledAlpha", "../Csharp/structMR_1_1Color.html#a952c304d98b18174ea4d3f1b151d99d1", null ],
     [ "subAssign", "../Csharp/structMR_1_1Color.html#a877161156933ecb93a2fa59760d32fee", null ],
+    [ "a", "../Csharp/structMR_1_1Color.html#a7e2f7fe0cd22f67273ee468aafde1e91", null ],
+    [ "b", "../Csharp/structMR_1_1Color.html#a0424f11b16ae038911b195ee7422b6bb", null ],
+    [ "g", "../Csharp/structMR_1_1Color.html#aeff589268fddaa89281a10042fad230b", null ],
+    [ "r", "../Csharp/structMR_1_1Color.html#a731adcd29979d9ee8a5ce472dbacaff9", null ],
     [ "this[int e]", "../Csharp/structMR_1_1Color.html#a5c01efad80de2f8591ce04f64582fd94", null ]
 ];

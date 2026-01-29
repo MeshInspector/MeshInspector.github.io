@@ -2,6 +2,8 @@ var classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax =
 [
     [ "Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a92800bec5132261a8802e953fa24240d", null ],
     [ "Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a3491115775bfd48656b1b5af13e02d40", null ],
+    [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#af240541f2ddb1c29561c99d4ffeea375", null ],
+    [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a7d66931703d3a109f9afe255f74c363c", null ],
     [ "getBestPolynomial", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a5a278fa69d73b94b9ce63ab80507a3aa", null ],
     [ "getDerivatives", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a1de9e3b766d5104ab8cacc933f560904", null ],
     [ "getOffsetVector", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a50f6df56bd4ac43421abff5e943307cb", null ],

@@ -3,7 +3,6 @@ var classMR_1_1Const__MeshOrPoints_1_1ProjectionResult =
     [ "ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#aa0b8584765a5477d97eae6afa02228fb", null ],
     [ "ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#ab9733b577cc2da7ce592944dbb801579", null ],
     [ "ProjectionResult", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#a5dfb7466738a2dd7b6a361f8e66c6388", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#a5548818f324c333d16abd888b227612f", null ],
     [ "assign", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#a37676ec4b3c8991c6bc698a009f51849", null ],
     [ "closestVert", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#a0bb605b7837e81322e03f5fb469745b1", null ],
     [ "distSq", "classMR_1_1Const__MeshOrPoints_1_1ProjectionResult.html#a4910b363e5c18aa8b8f3710eb2b8cc11", null ],

@@ -5,7 +5,6 @@ var classMR_1_1FaceNormals =
     [ "FaceNormals", "classMR_1_1FaceNormals.html#acf451e1e148cb92de7e7f7505ef25c52", null ],
     [ "FaceNormals", "classMR_1_1FaceNormals.html#ab33327b826801fa3efbdbb2258d8ddae", null ],
     [ "FaceNormals", "classMR_1_1FaceNormals.html#aec2ad6cc936d69d3bd7275fb99d0c83c", null ],
-    [ "_FinalizeFields", "classMR_1_1FaceNormals.html#a17eb8ed648413e1d935a87d51ad2288c", null ],
     [ "assign", "classMR_1_1FaceNormals.html#a5ebc07ffd813b6e2817945fbab877e4e", null ],
     [ "autoResizeAt", "classMR_1_1FaceNormals.html#a8d6d8472c2805299ae481bc79e9cb873", null ],
     [ "autoResizeSet", "classMR_1_1FaceNormals.html#a273f2647ec6c1a9c72d71bf501bde1fa", null ],

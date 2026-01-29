@@ -12,6 +12,8 @@ var classMR_1_1Const__PixelBitSet =
     [ "bits", "classMR_1_1Const__PixelBitSet.html#aec6bf8175646db618ca23b3c33a04f0b", null ],
     [ "capacity", "classMR_1_1Const__PixelBitSet.html#a24c8cc5e54115da1925c55e692136608", null ],
     [ "count", "classMR_1_1Const__PixelBitSet.html#a8e6a30d667c1983a3662743e6201070f", null ],
+    [ "Dispose", "classMR_1_1Const__PixelBitSet.html#a2056360af9d5794d8b4ab1836b4d6e22", null ],
+    [ "Dispose", "classMR_1_1Const__PixelBitSet.html#aba85f5313ffe8d71267cfadbe77f761e", null ],
     [ "empty", "classMR_1_1Const__PixelBitSet.html#a6b8d8e3ee603013955e6faf3f56fdc4a", null ],
     [ "endId", "classMR_1_1Const__PixelBitSet.html#a78b408782fe6b509e97edf0dc1d8fb9e", null ],
     [ "findFirst", "classMR_1_1Const__PixelBitSet.html#abf53a8da6bcd380e5bcd3b83a424223d", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__PixelBitSet =
     [ "none", "classMR_1_1Const__PixelBitSet.html#a3e4f2732760be2818a2401681d01cf37", null ],
     [ "nthSetBit", "classMR_1_1Const__PixelBitSet.html#a0807a9b9ff9a8c1fe34f063b425cb3d3", null ],
     [ "numBlocks", "classMR_1_1Const__PixelBitSet.html#ab3596c24b1f67099ec4b5f5eb3755147", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__PixelBitSet.html#af41e8400b2fda7905830acb4e49b10f8", null ],
     [ "operator&", "classMR_1_1Const__PixelBitSet.html#adcf51bd1105cd9750be9fbb6abcfd830", null ],
     [ "operator-", "classMR_1_1Const__PixelBitSet.html#a8f74327e2f08dafb4eb8425f37624e42", null ],
     [ "operator^", "classMR_1_1Const__PixelBitSet.html#a7b4b5619437010adb0e81e0eefad4d21", null ],
     [ "operator|", "classMR_1_1Const__PixelBitSet.html#a5c83e94573cff9add3f5eb74c76ab55b", null ],
     [ "size", "classMR_1_1Const__PixelBitSet.html#ac420307f929d294dab43d209aeaa7002", null ],
     [ "test", "classMR_1_1Const__PixelBitSet.html#a05e94795f4b03b7c76e8581b46585122", null ],
-    [ "uncheckedTest", "classMR_1_1Const__PixelBitSet.html#a7f927623275c9251af3e304715651fd3", null ]
+    [ "uncheckedTest", "classMR_1_1Const__PixelBitSet.html#a7f927623275c9251af3e304715651fd3", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__PixelBitSet.html#a8a7ec7ea2aeb787cd48092ff6d77917c", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__PixelBitSet.html#ad3683c4242b23e2189501d79cdd6281a", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__PixelBitSet.html#af9e925b74c1afbe855084f7c3794491c", null ],
+    [ "Npos", "classMR_1_1Const__PixelBitSet.html#ab28ac84789526318c0d23fbd1dc23b70", null ]
 ];

@@ -1,5 +1,6 @@
 var classMR_1_1Const__IPointsToMeshProjector =
 [
-    [ "projectionsHeapBytes", "classMR_1_1Const__IPointsToMeshProjector.html#a143e03848fab0b962220943483fcabe1", null ],
-    [ "_IsOwning", "classMR_1_1Const__IPointsToMeshProjector.html#adf906ddcfb09c691287b3519f59d7867", null ]
+    [ "Dispose", "classMR_1_1Const__IPointsToMeshProjector.html#a44f7693285db5decbc90aa4a1f7b76ba", null ],
+    [ "Dispose", "classMR_1_1Const__IPointsToMeshProjector.html#a43fb66ffd31b0d0fa7fa06787a453402", null ],
+    [ "projectionsHeapBytes", "classMR_1_1Const__IPointsToMeshProjector.html#a143e03848fab0b962220943483fcabe1", null ]
 ];

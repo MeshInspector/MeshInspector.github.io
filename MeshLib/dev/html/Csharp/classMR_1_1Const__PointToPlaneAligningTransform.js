@@ -6,6 +6,8 @@ var classMR_1_1Const__PointToPlaneAligningTransform =
     [ "calculateAmendmentWithScale", "classMR_1_1Const__PointToPlaneAligningTransform.html#a19d0022bc2197ef00ecbe4806c81f510", null ],
     [ "calculateFixedAxisAmendment", "classMR_1_1Const__PointToPlaneAligningTransform.html#a50fd04c8d9c722e16017ebaa6b131a18", null ],
     [ "calculateOrthogonalAxisAmendment", "classMR_1_1Const__PointToPlaneAligningTransform.html#a38f05e6c7e0a69bf355d11caf6c982d7", null ],
+    [ "Dispose", "classMR_1_1Const__PointToPlaneAligningTransform.html#a492d61a05550238b58115dce97a615a5", null ],
+    [ "Dispose", "classMR_1_1Const__PointToPlaneAligningTransform.html#abbc4c47e28ef91c3c4ea48b7d06ce1ac", null ],
     [ "findBestRigidScaleXf", "classMR_1_1Const__PointToPlaneAligningTransform.html#aad63ecb149bd446219d64c59573babcd", null ],
     [ "findBestRigidXf", "classMR_1_1Const__PointToPlaneAligningTransform.html#a2a30a7fa5657204067209c35f966c29b", null ],
     [ "findBestRigidXfFixedRotationAxis", "classMR_1_1Const__PointToPlaneAligningTransform.html#a05b4de2b8fd756de121a490eaca5f4d3", null ],

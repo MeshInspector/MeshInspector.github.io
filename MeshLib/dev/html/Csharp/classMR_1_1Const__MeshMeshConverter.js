@@ -5,5 +5,7 @@ var classMR_1_1Const__MeshMeshConverter =
     [ "call", "classMR_1_1Const__MeshMeshConverter.html#a190dc72ee2f5f209cd6ecf832a89a461", null ],
     [ "call", "classMR_1_1Const__MeshMeshConverter.html#a6c4de21cf404b81684a02dff66dc1bad", null ],
     [ "call", "classMR_1_1Const__MeshMeshConverter.html#a113ac5a4b60d26de36cd269f66eed39a", null ],
-    [ "call", "classMR_1_1Const__MeshMeshConverter.html#ae61ab3215eb686e0024c5bc148e232de", null ]
+    [ "call", "classMR_1_1Const__MeshMeshConverter.html#ae61ab3215eb686e0024c5bc148e232de", null ],
+    [ "Dispose", "classMR_1_1Const__MeshMeshConverter.html#a77faa9a19ada9690fd460ecdfc5239ef", null ],
+    [ "Dispose", "classMR_1_1Const__MeshMeshConverter.html#a01dcfb54a30933c0eedc0e2597a0a50e", null ]
 ];

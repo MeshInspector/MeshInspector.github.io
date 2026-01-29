@@ -11,6 +11,10 @@ var classMR_1_1ConstBox__Matrix4f =
     [ "col", "classMR_1_1ConstBox__Matrix4f.html#a13d7e3fae696e639b8ee0ccc351c72fe", null ],
     [ "data", "classMR_1_1ConstBox__Matrix4f.html#acdb807dc10ece79d28faf1445e613920", null ],
     [ "det", "classMR_1_1ConstBox__Matrix4f.html#ad1296b94aacc14672c9f105fe2113dbd", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Matrix4f.html#aa1c6379640f78e51fd32dce4055771c1", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Matrix4f.html#aba66da96957034d88bf22aa1611e5952", null ],
+    [ "Equals", "classMR_1_1ConstBox__Matrix4f.html#a3af8763e3e665d0f15e340b19d626439", null ],
+    [ "Equals", "classMR_1_1ConstBox__Matrix4f.html#a84c1d9dc79567584a9ac31121a53933b", null ],
     [ "getRotation", "classMR_1_1ConstBox__Matrix4f.html#a272c68bcd06255e2b6ea6dd484c893f6", null ],
     [ "getTranslation", "classMR_1_1ConstBox__Matrix4f.html#a606defdad08e9a12c3980c5da9e6d713", null ],
     [ "identity", "classMR_1_1ConstBox__Matrix4f.html#a975388a386b92cd7cb1d967e2d28b2e6", null ],
@@ -20,6 +24,7 @@ var classMR_1_1ConstBox__Matrix4f =
     [ "operator ConstBox_Matrix4f", "classMR_1_1ConstBox__Matrix4f.html#ae813d3fa2fce607a764c0b92b7c5be67", null ],
     [ "operator ConstBox_Matrix4f", "classMR_1_1ConstBox__Matrix4f.html#afaa0243c947009a55694f7686118a80b", null ],
     [ "operator MR.AffineXf3f", "classMR_1_1ConstBox__Matrix4f.html#a7f18e055f739ddc419feaa87fa106efa", null ],
+    [ "operator!=", "classMR_1_1ConstBox__Matrix4f.html#ac741673ef9107dc2d9bf45072fe1e6f3", null ],
     [ "operator*", "classMR_1_1ConstBox__Matrix4f.html#ad1ccc629ac2004b88ac8e955810ddd07", null ],
     [ "operator*", "classMR_1_1ConstBox__Matrix4f.html#a22efcaef40a0d9791201f56e6e6e08f9", null ],
     [ "operator*", "classMR_1_1ConstBox__Matrix4f.html#aee4a802c0af76700e968a581f478c174", null ],
@@ -33,7 +38,9 @@ var classMR_1_1ConstBox__Matrix4f =
     [ "trace", "classMR_1_1ConstBox__Matrix4f.html#acbf31fd25992ad3e284b0af4bb46248d", null ],
     [ "transposed", "classMR_1_1ConstBox__Matrix4f.html#aabc8b1b3371f7827d3a93f2116c91097", null ],
     [ "zero", "classMR_1_1ConstBox__Matrix4f.html#a61305ea4e4392d2313a16a0bc30cc6a1", null ],
-    [ "_Ref", "classMR_1_1ConstBox__Matrix4f.html#a097e61e2107589b7c85f807c9a6e6553", null ],
     [ "this[int row]", "classMR_1_1ConstBox__Matrix4f.html#abb2c626c6a8bab7cb1321112f64b4aca", null ],
-    [ "x", "classMR_1_1ConstBox__Matrix4f.html#aeaee1c9d78a3c4835931084779aa348b", null ]
+    [ "w", "classMR_1_1ConstBox__Matrix4f.html#af8385ad18ca413046167dfd7141c6536", null ],
+    [ "x", "classMR_1_1ConstBox__Matrix4f.html#aeaee1c9d78a3c4835931084779aa348b", null ],
+    [ "y", "classMR_1_1ConstBox__Matrix4f.html#a2d48501ed8f8fa8eda62bf267413483d", null ],
+    [ "z", "classMR_1_1ConstBox__Matrix4f.html#a45888d4d16876770d23bfa6cef635e07", null ]
 ];

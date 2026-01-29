@@ -3,7 +3,6 @@ var classMR_1_1FillHoleNicelySettings =
     [ "FillHoleNicelySettings", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a207fce1a1f09ea5b55b7182177593dc9", null ],
     [ "FillHoleNicelySettings", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a8ab76f20adebe53c4e49ce8a446d9927", null ],
     [ "FillHoleNicelySettings", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a35848ced490102e01fc0e37cf7de7f7c", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a094ad1363462be379e024311642c1685", null ],
     [ "assign", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a56e579c62b4d52819ad32f8f3440a9d0", null ],
     [ "beforeEdgeSplit", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a7ae1241a3534936fe1adc89631a5ebe8", null ],
     [ "colorMap", "../Csharp/classMR_1_1FillHoleNicelySettings.html#a340c2f489d2cb9191ae5ff94ab64721f", null ],

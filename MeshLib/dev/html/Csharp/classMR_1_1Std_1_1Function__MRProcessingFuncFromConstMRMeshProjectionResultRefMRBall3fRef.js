@@ -1,6 +1,0 @@
-var classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef =
-[
-    [ "Function_MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef", "classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef.html#a2ce9d1cce6a95546423f1aff59207fb4", null ],
-    [ "Function_MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef", "classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef.html#a1395be47bc54fccad2a0bc45f4b0fa4b", null ],
-    [ "assign", "classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMRMeshProjectionResultRefMRBall3fRef.html#a5a61b3b2e585ab029014f6564e407d89", null ]
-];

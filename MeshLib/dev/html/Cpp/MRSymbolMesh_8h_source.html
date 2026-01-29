@@ -162,7 +162,7 @@ $(function(){initNavTree('MRSymbolMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">enum</span> AlignType {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">enum</span> <a class="code hl_enumerationRef" href="../Csharp/classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4">AlignType</a> {</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    Left,</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Center,</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Right,</div>
@@ -171,24 +171,24 @@ $(function(){initNavTree('MRSymbolMesh_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">struct </span>SymbolMeshParams</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// Text that will be made mesh</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    std::string text;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    std::string <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#a46f00c1ade84d2d506e286b6b5b791ea">text</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// Detailization of Bezier curves on font glyphs</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">int</span> fontDetalization{5};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">int</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#a1326fa62046ea6a7170c6106e781970e">fontDetalization</a>{5};</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">// Additional offset between symbols</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// X: In symbol size: 1.0f adds one &quot;space&quot;, 0.5 adds half &quot;space&quot;.</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">// Y: In symbol size: 1.0f adds one base height, 0.5 adds half base height</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    Vector2f symbolsDistanceAdditionalOffset{ 0.0f, 0.0f };</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    Vector2f <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#a461d9d9b2101cca106da046d16258ae5">symbolsDistanceAdditionalOffset</a>{ 0.0f, 0.0f };</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">// Symbols thickness will be modified by this value (newThickness = modifier*baseSymbolHeight + defaultThickness)</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">// note: changing this to non-zero values cause costly calculations</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">float</span> symbolsThicknessOffsetModifier{ 0.0f };</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#a002a7a65eae9e64ee0c95e198af2b67f">symbolsThicknessOffsetModifier</a>{ 0.0f };</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">// alignment of the text inside bbox</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    AlignType align{AlignType::Left};</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    AlignType <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#a9ff4f1c62cdf99b4a3b871f9bf69d2e3">align</a>{AlignType::Left};</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifdef _WIN32</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// Path to font file</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    std::filesystem::path pathToFontFile = GetWindowsInstallDirectory() / <span class="stringliteral">&quot;Fonts&quot;</span> / <span class="stringliteral">&quot;Consola.ttf&quot;</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    std::filesystem::path <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#aa275fe91818dbc12017376563e7d8566">pathToFontFile</a> = GetWindowsInstallDirectory() / <span class="stringliteral">&quot;Fonts&quot;</span> / <span class="stringliteral">&quot;Consola.ttf&quot;</span>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// Path to font file</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    std::filesystem::path pathToFontFile;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    std::filesystem::path <a class="code hl_propertyRef" href="../Csharp/classMR_1_1SymbolMeshParams.html#aa275fe91818dbc12017376563e7d8566">pathToFontFile</a>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif </span><span class="comment">// _WIN32</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// max font size with 128 &lt;&lt; 6 FT_F26Dot6 font size</span></div>
@@ -208,6 +208,13 @@ $(function(){initNavTree('MRSymbolMesh_8h_source.html',''); initResizable(true);
 <div class="ttc" id="aMRSystem_8h_html"><div class="ttname"><a href="MRSystem_8h.html">MRSystem.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1SymbolMeshParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></div><div class="ttdef"><b>Definition</b> MRSymbolMesh.h:22</div></div>
+<div class="ttc" id="aclassMR_1_1SymbolMeshParams_html_a002a7a65eae9e64ee0c95e198af2b67f"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html#a002a7a65eae9e64ee0c95e198af2b67f">MR::SymbolMeshParams::symbolsThicknessOffsetModifier</a></div><div class="ttdeci">new unsafe ref float symbolsThicknessOffsetModifier</div></div>
+<div class="ttc" id="aclassMR_1_1SymbolMeshParams_html_a1326fa62046ea6a7170c6106e781970e"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html#a1326fa62046ea6a7170c6106e781970e">MR::SymbolMeshParams::fontDetalization</a></div><div class="ttdeci">new unsafe ref int fontDetalization</div></div>
+<div class="ttc" id="aclassMR_1_1SymbolMeshParams_html_a461d9d9b2101cca106da046d16258ae5"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html#a461d9d9b2101cca106da046d16258ae5">MR::SymbolMeshParams::symbolsDistanceAdditionalOffset</a></div><div class="ttdeci">new unsafe ref MR.Vector2f symbolsDistanceAdditionalOffset</div></div>
+<div class="ttc" id="aclassMR_1_1SymbolMeshParams_html_a46f00c1ade84d2d506e286b6b5b791ea"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html#a46f00c1ade84d2d506e286b6b5b791ea">MR::SymbolMeshParams::text</a></div><div class="ttdeci">new unsafe MR.Std.String text</div></div>
+<div class="ttc" id="aclassMR_1_1SymbolMeshParams_html_a9ff4f1c62cdf99b4a3b871f9bf69d2e3"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html#a9ff4f1c62cdf99b4a3b871f9bf69d2e3">MR::SymbolMeshParams::align</a></div><div class="ttdeci">new unsafe ref MR.AlignType align</div></div>
+<div class="ttc" id="aclassMR_1_1SymbolMeshParams_html_aa275fe91818dbc12017376563e7d8566"><div class="ttname"><a href="../Csharp/classMR_1_1SymbolMeshParams.html#aa275fe91818dbc12017376563e7d8566">MR::SymbolMeshParams::pathToFontFile</a></div><div class="ttdeci">new unsafe MR.Std.Filesystem.Path pathToFontFile</div></div>
+<div class="ttc" id="aclassMR_html_a26510111e54c3ec0cf6367dc91c7c0f4"><div class="ttname"><a href="../Csharp/classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4">MR::AlignType</a></div><div class="ttdeci">AlignType</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a32402204da19d3e70a57443f237fb242"><div class="ttname"><a href="namespaceMR.html#a32402204da19d3e70a57443f237fb242">MR::createSymbolsMesh</a></div><div class="ttdeci">MRSYMBOLMESH_API Expected&lt; Mesh &gt; createSymbolsMesh(const SymbolMeshParams &amp;params)</div></div>
 <div class="ttc" id="anamespaceMR_html_a3864227e969c9b436c4ee8357ec33d20"><div class="ttname"><a href="namespaceMR.html#a3864227e969c9b436c4ee8357ec33d20">MR::createSymbolContours</a></div><div class="ttdeci">MRSYMBOLMESH_API Expected&lt; Contours2f &gt; createSymbolContours(const SymbolMeshParams &amp;params)</div></div>

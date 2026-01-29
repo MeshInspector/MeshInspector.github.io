@@ -6,9 +6,14 @@ var classMR_1_1ConstBox__Vector2b =
     [ "ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html#a7ab4f5f8cf54d5851ed563fb1abf6409", null ],
     [ "ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html#a24c8301006ed64c9d9cdf7c2244b1cba", null ],
     [ "diagonal", "classMR_1_1ConstBox__Vector2b.html#a775994bd789913b7a23a6bac088ba6c5", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Vector2b.html#a421d358aedc6d364f3cd71839ce0fd7c", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Vector2b.html#adc48551b06592e6b2bc8db72cc47dfe7", null ],
+    [ "Equals", "classMR_1_1ConstBox__Vector2b.html#abd6374bd320d86daaee752b0b459c7f2", null ],
+    [ "Equals", "classMR_1_1ConstBox__Vector2b.html#a20987f445fc349eb6140b80691ba4454", null ],
     [ "length", "classMR_1_1ConstBox__Vector2b.html#a6e0bf979e0d865c12cc4bdac270788a1", null ],
     [ "lengthSq", "classMR_1_1ConstBox__Vector2b.html#a3ae71343afc84d39cba785395d5f641a", null ],
     [ "operator ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html#a21ce1dcaf280212a9d0f00cfe525a3f1", null ],
+    [ "operator!=", "classMR_1_1ConstBox__Vector2b.html#a8bed6460fd6ed0d6853a1517531d51f8", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector2b.html#ab8ad7b8b8bd3c8770480721ac306949b", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector2b.html#af17866cb37555c758fad391dd7a4aea0", null ],
     [ "operator+", "classMR_1_1ConstBox__Vector2b.html#aea69fd27385236faae030d2d1135519d", null ],
@@ -19,6 +24,9 @@ var classMR_1_1ConstBox__Vector2b =
     [ "operator==", "classMR_1_1ConstBox__Vector2b.html#a611f69ec0195996b9375517756d6a446", null ],
     [ "plusX", "classMR_1_1ConstBox__Vector2b.html#aea71401787a81b8088618da42aa96bd4", null ],
     [ "plusY", "classMR_1_1ConstBox__Vector2b.html#a7e4bb86b528af15d7104f1607d525e33", null ],
-    [ "_Ref", "classMR_1_1ConstBox__Vector2b.html#a670fac0d2a85cc40e53c657a9d09d905", null ],
-    [ "this[int e]", "classMR_1_1ConstBox__Vector2b.html#a6084e601d8b9891d3a0eb9be5ad11f33", null ]
+    [ "__ref_storage_Elements", "classMR_1_1ConstBox__Vector2b.html#a2efa05aa719f16246a50f3238b13ce33", null ],
+    [ "Elements", "classMR_1_1ConstBox__Vector2b.html#a968060423761ab3f65c0b18a2209bfea", null ],
+    [ "this[int e]", "classMR_1_1ConstBox__Vector2b.html#a6084e601d8b9891d3a0eb9be5ad11f33", null ],
+    [ "x", "classMR_1_1ConstBox__Vector2b.html#a688aec1e702658d29f620c670827bfc3", null ],
+    [ "y", "classMR_1_1ConstBox__Vector2b.html#aa1a835014aa0959c3109542860180ef7", null ]
 ];

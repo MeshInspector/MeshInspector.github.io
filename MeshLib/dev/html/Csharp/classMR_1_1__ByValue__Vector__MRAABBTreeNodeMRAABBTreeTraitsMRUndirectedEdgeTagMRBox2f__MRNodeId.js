@@ -1,4 +1,0 @@
-var classMR_1_1__ByValue__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId =
-[
-    [ "operator _ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1__ByValue__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a292cf4d1a5336c211dce601c1c12b3a4", null ]
-];

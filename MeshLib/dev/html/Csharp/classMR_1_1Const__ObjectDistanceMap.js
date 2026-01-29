@@ -11,6 +11,8 @@ var classMR_1_1Const__ObjectDistanceMap =
     [ "cloneTree", "classMR_1_1Const__ObjectDistanceMap.html#a70104988fcfff477f530ab86541ca470", null ],
     [ "creases", "classMR_1_1Const__ObjectDistanceMap.html#a41b08ed1eba1a4e1f27ec760eb4009c0", null ],
     [ "data", "classMR_1_1Const__ObjectDistanceMap.html#aca975b6685c1d7a537a321fb4cd62929", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectDistanceMap.html#a535337cb002b3bac118a68133ce9b486", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectDistanceMap.html#a0a4596f669ed52fa23c8b4bce1521202", null ],
     [ "flatShading", "classMR_1_1Const__ObjectDistanceMap.html#ab7156fc1b5ec5d7b45ff0f14c738a795", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectDistanceMap.html#a60c57ab0c620f804dc064e795cc6d2fe", null ],
     [ "getAmbientStrength", "classMR_1_1Const__ObjectDistanceMap.html#a8a75341b85c0257105e4f5b92cce538e", null ],
@@ -85,6 +87,13 @@ var classMR_1_1Const__ObjectDistanceMap =
     [ "numSelectedEdges", "classMR_1_1Const__ObjectDistanceMap.html#a8b65bc2212b1f84a8a2fef19567d17cf", null ],
     [ "numSelectedFaces", "classMR_1_1Const__ObjectDistanceMap.html#ac5399113a31f236fe5742e8d383f986d", null ],
     [ "numUndirectedEdges", "classMR_1_1Const__ObjectDistanceMap.html#a97144befb586532db2e9b9eed90630b7", null ],
+    [ "operator Const_ObjectDistanceMap?", "classMR_1_1Const__ObjectDistanceMap.html#aca3a5d5c8b4653775017daaf3599c449", null ],
+    [ "operator Const_ObjectDistanceMap?", "classMR_1_1Const__ObjectDistanceMap.html#a4c421f411b61ab15839a61e13abc679a", null ],
+    [ "operator Const_ObjectDistanceMap?", "classMR_1_1Const__ObjectDistanceMap.html#a8b675c9f9524d3c81870787f2fe31fc2", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ObjectDistanceMap.html#ae518cbe994c48bf48e8e3fc006f86eeb", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectDistanceMap.html#ae68e09f5df9df975e4897672509785cd", null ],
+    [ "operator MR.Const_ObjectMeshHolder", "classMR_1_1Const__ObjectDistanceMap.html#aaaba11e11b4bb4f42d16e4db0921ded9", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectDistanceMap.html#ac6a5b78bb5b50366ea7c24e85190ccdd", null ],
     [ "render", "classMR_1_1Const__ObjectDistanceMap.html#a343ced4d1d2ca7eaf07d6e192c7c6097", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectDistanceMap.html#a42b6c78721dc82c204c48cd87b4798fb", null ],
     [ "renderUi", "classMR_1_1Const__ObjectDistanceMap.html#ad9112410de56bf519228dbbb0da5adf5", null ],
@@ -108,6 +117,5 @@ var classMR_1_1Const__ObjectDistanceMap =
     [ "volume", "classMR_1_1Const__ObjectDistanceMap.html#affd8d969252399a043b0866ba90d3d74", null ],
     [ "worldXf", "classMR_1_1Const__ObjectDistanceMap.html#acb4521cf3f75731dd8f908ff4c1c78a1", null ],
     [ "xf", "classMR_1_1Const__ObjectDistanceMap.html#ad2447eb724f28dd2ede279f7b37275b1", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ObjectDistanceMap.html#a208f9c952c251f4df166bcb2e881c7e8", null ],
-    [ "_IsOwning", "classMR_1_1Const__ObjectDistanceMap.html#a856ff50275e2bc5ae8bcae4d7324f281", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ObjectDistanceMap.html#a208f9c952c251f4df166bcb2e881c7e8", null ]
 ];

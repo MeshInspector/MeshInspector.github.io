@@ -3,6 +3,8 @@ var classMR_1_1Const__MultiwayICP =
     [ "Const_MultiwayICP", "classMR_1_1Const__MultiwayICP.html#af859c2fe0a35178d281f0afb8463907b", null ],
     [ "Const_MultiwayICP", "classMR_1_1Const__MultiwayICP.html#aae83d2f77fe9376c326b9ca40818856b", null ],
     [ "devIndependentEquationsModeEnabled", "classMR_1_1Const__MultiwayICP.html#a6f0bc82fc12524c25f5d7a592d840d31", null ],
+    [ "Dispose", "classMR_1_1Const__MultiwayICP.html#a3cf16c768ed797ae2c3e08d98d103725", null ],
+    [ "Dispose", "classMR_1_1Const__MultiwayICP.html#af6da23940467aaa85ebaf2d247625f5e", null ],
     [ "getCascadeIndexer", "classMR_1_1Const__MultiwayICP.html#a1aec6644019d10896b0910c545124303", null ],
     [ "getMeanSqDistToPlane", "classMR_1_1Const__MultiwayICP.html#ab031dda855389eeebe636cd487324cba", null ],
     [ "getMeanSqDistToPoint", "classMR_1_1Const__MultiwayICP.html#ab8cb701aa8f0428ca6e8234e695da4ee", null ],

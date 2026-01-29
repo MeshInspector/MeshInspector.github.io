@@ -1,5 +1,0 @@
-var classMR_1_1Std_1_1__InOptConst__Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId =
-[
-    [ "operator _InOptConst_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1__InOptConst__Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a610ad3fefe022b4a9a5a4896e19eb4d5", null ],
-    [ "operator _InOptConst_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1__InOptConst__Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#ada03621d068a93c3d46f0233d9997d8f", null ]
-];

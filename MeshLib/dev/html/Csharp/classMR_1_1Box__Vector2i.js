@@ -10,6 +10,7 @@ var classMR_1_1Box__Vector2i =
     [ "divAssign", "classMR_1_1Box__Vector2i.html#ac2c6ba75ec4b36148044ae185c224f30", null ],
     [ "mulAssign", "classMR_1_1Box__Vector2i.html#a4ce23c937a9030333afbc45ac22afbe1", null ],
     [ "subAssign", "classMR_1_1Box__Vector2i.html#adb132bba54b96ead82326f08b19af228", null ],
-    [ "_Ref", "classMR_1_1Box__Vector2i.html#ace249f5b91a742f43b6964f4ca43e833", null ],
-    [ "this[int e]", "classMR_1_1Box__Vector2i.html#a9433fc9ca59ee50deaa3f0607c767832", null ]
+    [ "this[int e]", "classMR_1_1Box__Vector2i.html#a9433fc9ca59ee50deaa3f0607c767832", null ],
+    [ "x", "classMR_1_1Box__Vector2i.html#ad925ad09b230dd974383388c6cc87545", null ],
+    [ "y", "classMR_1_1Box__Vector2i.html#a12dc028e73ef776119345cefa89d80ae", null ]
 ];

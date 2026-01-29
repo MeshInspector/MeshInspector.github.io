@@ -2,7 +2,6 @@ var classMR_1_1Const__Mesh =
 [
     [ "Const_Mesh", "classMR_1_1Const__Mesh.html#a66bf626fa6179f74d29b64d7699dfffc", null ],
     [ "Const_Mesh", "classMR_1_1Const__Mesh.html#af727989920b727d309ac085966c0e095", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__Mesh.html#adebdd1d70808577418f1fb1f2e89eb33", null ],
     [ "area", "classMR_1_1Const__Mesh.html#a6c703e2be679150316cd78d49d6d9fb8", null ],
     [ "area", "classMR_1_1Const__Mesh.html#a5416dcbe11b054b95d6ea180ab14404e", null ],
     [ "averageEdgeLength", "classMR_1_1Const__Mesh.html#a381f5f9893d294684d687fca219a0b2f", null ],
@@ -25,6 +24,8 @@ var classMR_1_1Const__Mesh =
     [ "discreteGaussianCurvature", "classMR_1_1Const__Mesh.html#a4cbc3986a13f34d9d4a2cd88e29d71e3", null ],
     [ "discreteMeanCurvature", "classMR_1_1Const__Mesh.html#add61237bc2a74e12e5be8ab83ac63d6c", null ],
     [ "discreteMeanCurvature", "classMR_1_1Const__Mesh.html#a1dc6d4be764deabf0008ccc6e05eeb33", null ],
+    [ "Dispose", "classMR_1_1Const__Mesh.html#a080e3dea59b9f82d1c1c979b5ac729f1", null ],
+    [ "Dispose", "classMR_1_1Const__Mesh.html#af1ef08ac4be3e3ca98e7185e34a6452a", null ],
     [ "edgeCenter", "classMR_1_1Const__Mesh.html#ad325cd068039c118531fc1649cf8d4d7", null ],
     [ "edgeLength", "classMR_1_1Const__Mesh.html#afd4b06f4d8c89be5e801225cfbbcb8d8", null ],
     [ "edgeLengths", "classMR_1_1Const__Mesh.html#a20e475e0be88f70481d28ce96abc323f", null ],
@@ -33,6 +34,8 @@ var classMR_1_1Const__Mesh =
     [ "edgePoint", "classMR_1_1Const__Mesh.html#a96acea5436674b0af8c64ad30c281fb8", null ],
     [ "edgeSegment", "classMR_1_1Const__Mesh.html#abf1db289edd8103a37c6bca9d1ecf2cf", null ],
     [ "edgeVector", "classMR_1_1Const__Mesh.html#a7540c4ef0d3a4b8d7229cd70c9677b05", null ],
+    [ "Equals", "classMR_1_1Const__Mesh.html#a7caffbba44b66f9bf0ccb57a1a8130ea", null ],
+    [ "Equals", "classMR_1_1Const__Mesh.html#a714d77a9c0483483fdba55e7dd214767", null ],
     [ "findCenterFromBBox", "classMR_1_1Const__Mesh.html#ad15b8db8ebc481ac46827a740985faa6", null ],
     [ "findCenterFromFaces", "classMR_1_1Const__Mesh.html#ae903c07e3477d5847572ad8dc3e3433c", null ],
     [ "findCenterFromPoints", "classMR_1_1Const__Mesh.html#a6caece146a91435f945eb372b3b3221b", null ],
@@ -74,6 +77,7 @@ var classMR_1_1Const__Mesh =
     [ "normal", "classMR_1_1Const__Mesh.html#a24971fc4db264e829bc4f2df06272a5c", null ],
     [ "normal", "classMR_1_1Const__Mesh.html#ab056b79581fa8cbce47839ba87dabf80", null ],
     [ "normal", "classMR_1_1Const__Mesh.html#a521a5f970653858e99295adecf53cb86", null ],
+    [ "operator!=", "classMR_1_1Const__Mesh.html#a48a27dc4023b8583ad18ff5ad546729b", null ],
     [ "operator==", "classMR_1_1Const__Mesh.html#a12a04ce1f7f2d282b879a7969427dce0", null ],
     [ "orgPnt", "classMR_1_1Const__Mesh.html#ab36ddc1c4d54c982c38c58d840e57627", null ],
     [ "projArea", "classMR_1_1Const__Mesh.html#a5feb26c6ff75057824d4421dc1f5cced", null ],
@@ -97,5 +101,6 @@ var classMR_1_1Const__Mesh =
     [ "triCenter", "classMR_1_1Const__Mesh.html#a574a5b9faf16dbaf7004176f19768b70", null ],
     [ "triPoint", "classMR_1_1Const__Mesh.html#a927d6910bbb60c750429d0e71f42a6bc", null ],
     [ "volume", "classMR_1_1Const__Mesh.html#a25b3e00bdca69eac2df0551794f0b0e4", null ],
-    [ "_IsOwning", "classMR_1_1Const__Mesh.html#abacb1321f56b1122701290bbf40b1d22", null ]
+    [ "points", "classMR_1_1Const__Mesh.html#a1ccb34d668a2c00f42576ea6c392b1b9", null ],
+    [ "topology", "classMR_1_1Const__Mesh.html#a88a4dc260b087b82b1c2c1d6087f037a", null ]
 ];

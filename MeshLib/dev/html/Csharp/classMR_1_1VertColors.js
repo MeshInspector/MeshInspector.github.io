@@ -5,7 +5,6 @@ var classMR_1_1VertColors =
     [ "VertColors", "classMR_1_1VertColors.html#a73af90a72334230968a1535e2b959478", null ],
     [ "VertColors", "classMR_1_1VertColors.html#ad5eda78635378a066715465b054a58fe", null ],
     [ "VertColors", "classMR_1_1VertColors.html#ab7432429e72fb039c64f0d919c3fd684", null ],
-    [ "_FinalizeFields", "classMR_1_1VertColors.html#ae512b669fa76374fc9866c671e0e0c01", null ],
     [ "assign", "classMR_1_1VertColors.html#a7dc8fc7d138c15d7c530fa7c9f33b0a9", null ],
     [ "autoResizeAt", "classMR_1_1VertColors.html#ace2046df0e58da5306127d88b5ff3aa4", null ],
     [ "autoResizeSet", "classMR_1_1VertColors.html#aa3cbbbb7f200f3176133da739be105c1", null ],

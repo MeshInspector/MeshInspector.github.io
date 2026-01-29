@@ -152,7 +152,7 @@ $(function(){initNavTree('MRVoxelsApplyTransform_8h_source.html',''); initResiza
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
@@ -160,8 +160,8 @@ $(function(){initNavTree('MRVoxelsApplyTransform_8h_source.html',''); initResiza
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>TransformVdbVolumeResult</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    VdbVolume volume;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">bool</span> boxFixed = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    VdbVolume <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TransformVdbVolumeResult.html#a2f7b7aadbd6f9589e65c189d4aa21fad">volume</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TransformVdbVolumeResult.html#a89cc47c951b3cb6606949c568c78c3d8">boxFixed</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> TransformVdbVolumeResult</div>
@@ -171,11 +171,13 @@ $(function(){initNavTree('MRVoxelsApplyTransform_8h_source.html',''); initResiza
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
 <div class="ttc" id="aMRVoxelsVolume_8h_html"><div class="ttname"><a href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ObjectVoxels_html"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></div><div class="ttdef"><b>Definition</b> MRObjectVoxels.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1TransformVdbVolumeResult_html_a2f7b7aadbd6f9589e65c189d4aa21fad"><div class="ttname"><a href="../Csharp/classMR_1_1TransformVdbVolumeResult.html#a2f7b7aadbd6f9589e65c189d4aa21fad">MR::TransformVdbVolumeResult::volume</a></div><div class="ttdeci">new unsafe MR.VdbVolume volume</div></div>
+<div class="ttc" id="aclassMR_1_1TransformVdbVolumeResult_html_a89cc47c951b3cb6606949c568c78c3d8"><div class="ttname"><a href="../Csharp/classMR_1_1TransformVdbVolumeResult.html#a89cc47c951b3cb6606949c568c78c3d8">MR::TransformVdbVolumeResult::boxFixed</a></div><div class="ttdeci">new unsafe ref bool boxFixed</div></div>
 <div class="ttc" id="aclassMR_1_1VdbVolume_html"><div class="ttname"><a href="../Csharp/classMR_1_1VdbVolume.html">MR::VdbVolume</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a61aa1dd48053861144e41cb0184b0ab8"><div class="ttname"><a href="namespaceMR.html#a61aa1dd48053861144e41cb0184b0ab8">MR::voxelsApplyTransform</a></div><div class="ttdeci">MRVOXELS_API bool voxelsApplyTransform(ObjectVoxels &amp;obj, const AffineXf3f &amp;xf, bool fixBox)</div></div>

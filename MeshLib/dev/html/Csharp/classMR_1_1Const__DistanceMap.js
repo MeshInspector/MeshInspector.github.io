@@ -6,6 +6,8 @@ var classMR_1_1Const__DistanceMap =
     [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a379b761ec294baf14cca2da25b47434a", null ],
     [ "data", "classMR_1_1Const__DistanceMap.html#ac6435171a461bd7f28cfb55c4ba75435", null ],
     [ "dims", "classMR_1_1Const__DistanceMap.html#ac600fb0ae58f35f51277108e51eab95c", null ],
+    [ "Dispose", "classMR_1_1Const__DistanceMap.html#ab3d8b1f4b6322c57fe383fb075ba5a7d", null ],
+    [ "Dispose", "classMR_1_1Const__DistanceMap.html#a6cca14a2a97317429dfacbffa4cab120", null ],
     [ "get", "classMR_1_1Const__DistanceMap.html#a7e2d37ca341892e7bd981e9e03e99c59", null ],
     [ "get", "classMR_1_1Const__DistanceMap.html#ab5292fb5a02e601810272d0f81e2bc67", null ],
     [ "getDerivativeMap", "classMR_1_1Const__DistanceMap.html#a2c17de9136e14b23a76949850a7b7182", null ],
@@ -26,6 +28,7 @@ var classMR_1_1Const__DistanceMap =
     [ "min", "classMR_1_1Const__DistanceMap.html#abfc0ab92fb0d428d4e9e97c90e4714db", null ],
     [ "numPoints", "classMR_1_1Const__DistanceMap.html#abd06210d18a5cdf22d00eb06cb619217", null ],
     [ "operator Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a14f3803ac7f0eac2cfb91b449a419107", null ],
+    [ "operator MR.Const_RectIndexer", "classMR_1_1Const__DistanceMap.html#aa3c297f57245ff303af79e80515efcae", null ],
     [ "operator-", "classMR_1_1Const__DistanceMap.html#ace3810787a6f6e73324507af716e43e8", null ],
     [ "resX", "classMR_1_1Const__DistanceMap.html#a74756a855a7427158fc45ad3590a4ee9", null ],
     [ "resY", "classMR_1_1Const__DistanceMap.html#a7fde80d9d4f1916be2cbe1cea1c6c454", null ],
@@ -34,6 +37,6 @@ var classMR_1_1Const__DistanceMap =
     [ "toPixelId", "classMR_1_1Const__DistanceMap.html#a3e989c24d264703c0a0ffd38174c9a5e", null ],
     [ "unproject", "classMR_1_1Const__DistanceMap.html#a1add7939a1245c90e22c77c8806622c2", null ],
     [ "unprojectInterpolated", "classMR_1_1Const__DistanceMap.html#a265aae6df9735feb5e433643056b434a", null ],
-    [ "_IsOwning", "classMR_1_1Const__DistanceMap.html#a3d109c500af85325ca5bb82937518bb5", null ],
+    [ "__ref_storage_NOTVALIDVALUE", "classMR_1_1Const__DistanceMap.html#a4bf2cac99936a105687a263cbd18a3f0", null ],
     [ "NOTVALIDVALUE", "classMR_1_1Const__DistanceMap.html#a07e45fe6874d28cdcf1e45af4274257c", null ]
 ];

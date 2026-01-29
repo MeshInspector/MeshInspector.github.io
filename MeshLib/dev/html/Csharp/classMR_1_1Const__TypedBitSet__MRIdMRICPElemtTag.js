@@ -12,6 +12,8 @@ var classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag =
     [ "bits", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a181d0afcef2152527acf611d37776ff0", null ],
     [ "capacity", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a12b4f3187e56c2eeb6c09981f75fec1a", null ],
     [ "count", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#ad4b27fa593f3e302c71b1b04a7e556cf", null ],
+    [ "Dispose", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a011c8421acf891515d5d69140cfe61d7", null ],
+    [ "Dispose", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a0e227fcb7568a095c010fdbf46b965f1", null ],
     [ "empty", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a21093fe82d70f64efe6d6d9eb54fb486", null ],
     [ "endId", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#ab34cb152acdea1c1697b9cedc2ec91ca", null ],
     [ "findFirst", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a626873cba0adf444dfbfd1dc69424be5", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag =
     [ "none", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#ab325830ee7d5e4c118d657a76d7e9d49", null ],
     [ "nthSetBit", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a8226bea9cd54c441f84ce047dbf2dd88", null ],
     [ "numBlocks", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a0363394f7b7f5e8ad267d912eeded19d", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a54a1327a11e88fecd97112f853b52303", null ],
     [ "operator&", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a737b59c237c71f9ec7594ae146a50eb8", null ],
     [ "operator-", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#af556caf59de938f5afffeb45f66c6bc3", null ],
     [ "operator^", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#af1eae5cf3b60711cbf153ec92f8eefe5", null ],
     [ "operator|", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#aee83c37831ae54c84c866dc38864f928", null ],
     [ "size", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#aeedb22cc63590ed550d0d2d0552c6960", null ],
     [ "test", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#aceab113219c4ee4bbf623006bd430264", null ],
-    [ "uncheckedTest", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a296461af910c2f51596d67cf0be53456", null ]
+    [ "uncheckedTest", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a296461af910c2f51596d67cf0be53456", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a880705073c7548f73859c2d3c274f1bd", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#afc73d63c382dcdbc90fe70cbf4c01bdc", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#af38718d449814499d2c58544424b1c33", null ],
+    [ "Npos", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#ad0df17ff347d2ecb6bc64f8ddd19f3c0", null ]
 ];

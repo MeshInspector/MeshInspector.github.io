@@ -5,7 +5,6 @@ var classMR_1_1WholeEdgeMap =
     [ "WholeEdgeMap", "classMR_1_1WholeEdgeMap.html#a352a009d25d94a8fbb8b751940d4ee4e", null ],
     [ "WholeEdgeMap", "classMR_1_1WholeEdgeMap.html#a7ecedd2d6061047499b52b95eb41b89a", null ],
     [ "WholeEdgeMap", "classMR_1_1WholeEdgeMap.html#a1bec7fff995d4a15ad098f9ce5e33493", null ],
-    [ "_FinalizeFields", "classMR_1_1WholeEdgeMap.html#a8de740ed76a372d22ea26a1d403fdc94", null ],
     [ "assign", "classMR_1_1WholeEdgeMap.html#a70dfa0f1cad61132e317c40b17a322e1", null ],
     [ "autoResizeAt", "classMR_1_1WholeEdgeMap.html#a96e56aa2e9244211158da3012a8ec972", null ],
     [ "autoResizeSet", "classMR_1_1WholeEdgeMap.html#a0249fcc6ca4a8c9b99da642d1b3a00e7", null ],

@@ -155,24 +155,94 @@ $(function(){initNavTree('classMR_1_1ObjectSave.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a04cd611d4176bd7db5a7ca47e17c8f91" id="r_a04cd611d4176bd7db5a7ca47e17c8f91"><td class="memItemLeft" align="right" valign="top"><a id="a04cd611d4176bd7db5a7ca47e17c8f91" name="a04cd611d4176bd7db5a7ca47e17c8f91"></a>
-typedef Expected&lt; void &gt;(*)(const <a class="elRef" href="../Cpp/classMR_1_1Object.html">Object</a> &amp;, const std::filesystem::path &amp;, const Settings &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#a04cd611d4176bd7db5a7ca47e17c8f91">ObjectSaver</a>)</td></tr>
+<tr class="memitem:a04cd611d4176bd7db5a7ca47e17c8f91" id="r_a04cd611d4176bd7db5a7ca47e17c8f91"><td class="memItemLeft" align="right" valign="top">typedef Expected&lt; void &gt;(*)(const <a class="elRef" href="../Cpp/classMR_1_1Object.html">Object</a> &amp;, const std::filesystem::path &amp;, const Settings &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#a04cd611d4176bd7db5a7ca47e17c8f91">ObjectSaver</a>)</td></tr>
 <tr class="separator:a04cd611d4176bd7db5a7ca47e17c8f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a02ea345222c8335edd77a73314e87e68" id="r_a02ea345222c8335edd77a73314e87e68"><td class="memItemLeft" align="right" valign="top"><a id="a02ea345222c8335edd77a73314e87e68" name="a02ea345222c8335edd77a73314e87e68"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedSceneFormat</b> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> object_, string file, <a class="el" href="classMR_1_1ObjectSave_1_1Const__Settings.html">MR.ObjectSave.Const_Settings</a>? settings=null)</td></tr>
-<tr class="memdesc:a02ea345222c8335edd77a73314e87e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">save an object tree to a given file file format must be scene-capable Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#a69e0def5ecc5e5bf5dc89d3a4fe892ff">MR.ObjectSave.toAnySupportedSceneFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a02ea345222c8335edd77a73314e87e68" id="r_a02ea345222c8335edd77a73314e87e68"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02ea345222c8335edd77a73314e87e68">toAnySupportedSceneFormat</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> object_, string file, <a class="el" href="classMR_1_1ObjectSave_1_1Const__Settings.html">MR.ObjectSave.Const_Settings</a>? settings=null)</td></tr>
+<tr class="memdesc:a02ea345222c8335edd77a73314e87e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">save an object tree to a given file file format must be scene-capable Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#a69e0def5ecc5e5bf5dc89d3a4fe892ff">MR.ObjectSave.toAnySupportedSceneFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a02ea345222c8335edd77a73314e87e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2eff38293664a74185b3ba0781db0bb" id="r_ac2eff38293664a74185b3ba0781db0bb"><td class="memItemLeft" align="right" valign="top"><a id="ac2eff38293664a74185b3ba0781db0bb" name="ac2eff38293664a74185b3ba0781db0bb"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> object_, string file, <a class="el" href="classMR_1_1ObjectSave_1_1Const__Settings.html">MR.ObjectSave.Const_Settings</a>? settings=null)</td></tr>
-<tr class="memdesc:ac2eff38293664a74185b3ba0781db0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">save a scene object to a given file if the file format is scene-capable, saves all the object's entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#add2495742f624ca0843f8ace8045dce5">MR.ObjectSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ac2eff38293664a74185b3ba0781db0bb" id="r_ac2eff38293664a74185b3ba0781db0bb"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eff38293664a74185b3ba0781db0bb">toAnySupportedFormat</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> object_, string file, <a class="el" href="classMR_1_1ObjectSave_1_1Const__Settings.html">MR.ObjectSave.Const_Settings</a>? settings=null)</td></tr>
+<tr class="memdesc:ac2eff38293664a74185b3ba0781db0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">save a scene object to a given file if the file format is scene-capable, saves all the object's entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#add2495742f624ca0843f8ace8045dce5">MR.ObjectSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ac2eff38293664a74185b3ba0781db0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac2eff38293664a74185b3ba0781db0bb" name="ac2eff38293664a74185b3ba0781db0bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2eff38293664a74185b3ba0781db0bb">&#9670;&#160;</a></span>toAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.ObjectSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a></td>          <td class="paramname"><span class="paramname"><em>object_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ObjectSave_1_1Const__Settings.html">MR.ObjectSave.Const_Settings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save a scene object to a given file if the file format is scene-capable, saves all the object's entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#add2495742f624ca0843f8ace8045dce5">MR.ObjectSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a02ea345222c8335edd77a73314e87e68" name="a02ea345222c8335edd77a73314e87e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ea345222c8335edd77a73314e87e68">&#9670;&#160;</a></span>toAnySupportedSceneFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.ObjectSave.toAnySupportedSceneFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a></td>          <td class="paramname"><span class="paramname"><em>object_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ObjectSave_1_1Const__Settings.html">MR.ObjectSave.Const_Settings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save an object tree to a given file file format must be scene-capable Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ObjectSave.html#a69e0def5ecc5e5bf5dc89d3a4fe892ff">MR.ObjectSave.toAnySupportedSceneFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><b>MRObjectSave.cs</b></li>
-<li><b>MRObjectSaveSettings.cs</b></li>
+<li><a class="el" href="MRObjectSave_8cs.html">MRObjectSave.cs</a></li>
+<li><a class="el" href="MRObjectSaveSettings_8cs.html">MRObjectSaveSettings.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

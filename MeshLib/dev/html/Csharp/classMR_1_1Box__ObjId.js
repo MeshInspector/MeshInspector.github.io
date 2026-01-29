@@ -11,5 +11,5 @@ var classMR_1_1Box__ObjId =
     [ "get", "classMR_1_1Box__ObjId.html#ade09a0d97e833aff6e59a320636ef655", null ],
     [ "incr", "classMR_1_1Box__ObjId.html#aef093adf9c67ec4f99cdd6c7d91e6dcb", null ],
     [ "subAssign", "classMR_1_1Box__ObjId.html#a2287371ee6d2b5367685d48b5d1c8efd", null ],
-    [ "_Ref", "classMR_1_1Box__ObjId.html#aa909fb5def34ba33562a1b721b33389e", null ]
+    [ "id", "classMR_1_1Box__ObjId.html#a543e15df3749432228a08864bef293fe", null ]
 ];

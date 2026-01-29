@@ -7,6 +7,8 @@ var classMR_1_1Const__Buffer__MRNodeId__MRNodeId =
     [ "beginId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a8373d4d7890363f9fdf100dd2713ba2c", null ],
     [ "capacity", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a2601c166f57c74e08a751e29f520d7e8", null ],
     [ "data", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#acc8ebcec997858e2652ed2a31253f6f8", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a3ce6888cb2c19665d765de248461cedc", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a9c783a94dea15e4619e97bddb35bf7f6", null ],
     [ "empty", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a81d076e1212e5f465c192b0592e92f97", null ],
     [ "endId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#aec757fdca60fe908b05ee7f17f742f39", null ],
     [ "heapBytes", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a5922ab22134eebde9ecd06b1814dd5aa", null ],

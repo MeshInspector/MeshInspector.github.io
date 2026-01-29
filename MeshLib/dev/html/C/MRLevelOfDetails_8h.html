@@ -151,7 +151,7 @@ $(function(){initNavTree('MRLevelOfDetails_8h.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">MRLevelOfDetails.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 </div>
 <p><a href="MRLevelOfDetails_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -164,7 +164,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae3a0f308b9244dc5030ec02bb494d60c" id="r_ae3a0f308b9244dc5030ec02bb494d60c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3a0f308b9244dc5030ec02bb494d60c">MR_makeLevelOfDetails</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int maxDepth)</td></tr>
+<tr class="memitem:ae3a0f308b9244dc5030ec02bb494d60c" id="r_ae3a0f308b9244dc5030ec02bb494d60c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3a0f308b9244dc5030ec02bb494d60c">MR_makeLevelOfDetails</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int maxDepth)</td></tr>
 <tr class="separator:ae3a0f308b9244dc5030ec02bb494d60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -204,7 +204,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_makeLevelOfDetails </td>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_makeLevelOfDetails </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -215,7 +215,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>divides given mesh into hierarchy of mesh objects: the deepest level of the hierarchy has all details from the original mesh; top levels have progressively less number of objects and less details in each; the number of faces in any object on any level is about the same. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a67bf57254e8c7f3c074470d69e1be4fa">MR::makeLevelOfDetails</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+<p>divides given mesh into hierarchy of mesh objects: the deepest level of the hierarchy has all details from the original mesh; top levels have progressively less number of objects and less details in each; the number of faces in any object on any level is about the same. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a67bf57254e8c7f3c074470d69e1be4fa">MR::makeLevelOfDetails</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_shared_ptr_MR_Object_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

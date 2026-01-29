@@ -6,11 +6,19 @@ var classMR_1_1Const__TriPointd =
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#ac3fe80cff9a135cd59e08dc989a8e773", null ],
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a9ad2358c5035b564ad932d669ec6efce", null ],
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a453acd5dddd16544384c3feb62188675", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__TriPointd.html#af390099ab8c774b73067e64bd0205b6a", null ],
+    [ "Dispose", "classMR_1_1Const__TriPointd.html#a55abbc680ac2ff16bbb67225b7ad44f1", null ],
+    [ "Dispose", "classMR_1_1Const__TriPointd.html#aaa67e90d1a7b80c6d13c400fbc5d075f", null ],
+    [ "Equals", "classMR_1_1Const__TriPointd.html#a4d345fd2a12f2204f615797c360cdaf6", null ],
+    [ "Equals", "classMR_1_1Const__TriPointd.html#a49308178467be8b956c72bbb6c0a5df1", null ],
     [ "inVertex", "classMR_1_1Const__TriPointd.html#aa88f07bd8c660dc7e6db59c87cf65477", null ],
     [ "lnext", "classMR_1_1Const__TriPointd.html#a6de7ec4630d6060d7d56299838e7a02a", null ],
     [ "onEdge", "classMR_1_1Const__TriPointd.html#a394d3135638a0bbb4ca04db1ace60dd5", null ],
+    [ "operator!=", "classMR_1_1Const__TriPointd.html#ae3a6ffc2f9ef66691210d8fd0758a32e", null ],
     [ "operator==", "classMR_1_1Const__TriPointd.html#a9f8ab2ee81aaf006feb7d7629d081c11", null ],
     [ "__ref_storage_a", "classMR_1_1Const__TriPointd.html#afd11870332c4837c2c3ed0b2d0c2e234", null ],
-    [ "__ref_storage_Eps", "classMR_1_1Const__TriPointd.html#a2d22de03db72eca67dc885a7acfc1f15", null ]
+    [ "__ref_storage_b", "classMR_1_1Const__TriPointd.html#ae3d248db9ad87d5f15f3f3e4c2415fbd", null ],
+    [ "__ref_storage_Eps", "classMR_1_1Const__TriPointd.html#a2d22de03db72eca67dc885a7acfc1f15", null ],
+    [ "a", "classMR_1_1Const__TriPointd.html#af0acc8e7d6447e01afbe4360f7e70e9b", null ],
+    [ "b", "classMR_1_1Const__TriPointd.html#aecb8228ff5da43597816a787f7163544", null ],
+    [ "Eps", "classMR_1_1Const__TriPointd.html#aa131ca9457daca50c50ca5e3732c7f67", null ]
 ];

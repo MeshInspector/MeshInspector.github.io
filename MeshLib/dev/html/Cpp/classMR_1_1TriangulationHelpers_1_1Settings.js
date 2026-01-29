@@ -13,5 +13,6 @@ var classMR_1_1TriangulationHelpers_1_1Settings =
     [ "numNeis", "../Csharp/classMR_1_1TriangulationHelpers_1_1Settings.html#a861338a3bc1c70dab69ad83127222cc0", null ],
     [ "orientedNormals", "../Csharp/classMR_1_1TriangulationHelpers_1_1Settings.html#a4a28c13edd719230af4d3fbd1c6b94a6", null ],
     [ "radius", "../Csharp/classMR_1_1TriangulationHelpers_1_1Settings.html#ad06dc459a2e13fb0b20045c18d06d019", null ],
-    [ "searchNeighbors", "../Csharp/classMR_1_1TriangulationHelpers_1_1Settings.html#a8b74a1b99e7d145cb7e03237ccaf01c1", null ]
+    [ "searchNeighbors", "../Csharp/classMR_1_1TriangulationHelpers_1_1Settings.html#a8b74a1b99e7d145cb7e03237ccaf01c1", null ],
+    [ "untrustedNormals", "../Csharp/classMR_1_1TriangulationHelpers_1_1Settings.html#a905444d0026391ea3dc367108f4120ba", null ]
 ];

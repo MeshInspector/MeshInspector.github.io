@@ -3,7 +3,6 @@ var classMR_1_1MeshPointAndDistance =
     [ "MeshPointAndDistance", "../Csharp/classMR_1_1MeshPointAndDistance.html#ac96100edaca68e2cbf2b8529beed720c", null ],
     [ "MeshPointAndDistance", "../Csharp/classMR_1_1MeshPointAndDistance.html#a445a5bcbae45207c9373c65222e3a00e", null ],
     [ "MeshPointAndDistance", "../Csharp/classMR_1_1MeshPointAndDistance.html#a356f373a235761f7b9966fcebdf27f19", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1MeshPointAndDistance.html#ac96bc6c92f502879dbca46c1e41f5839", null ],
     [ "assign", "../Csharp/classMR_1_1MeshPointAndDistance.html#acc51d15900f4e610758c4affbe31e57f", null ],
     [ "bidirectionalOrOutside", "../Csharp/classMR_1_1MeshPointAndDistance.html#a2eafb67e155f898d0a36f68dd5c18d16", null ],
     [ "eucledeanDist", "../Csharp/classMR_1_1MeshPointAndDistance.html#a4f14f58f6e2841956054d22cffc3ec1b", null ],

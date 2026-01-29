@@ -7,6 +7,8 @@ var classMR_1_1Const__LineObject =
     [ "classNameInPlural", "classMR_1_1Const__LineObject.html#ae612540a55fbff970e8ec03826e8adde", null ],
     [ "clone", "classMR_1_1Const__LineObject.html#a34e436242b738aea9f1162d28754f5e5", null ],
     [ "cloneTree", "classMR_1_1Const__LineObject.html#a36e1f0cf924e9b24f330176df365c75b", null ],
+    [ "Dispose", "classMR_1_1Const__LineObject.html#a65d2231f12a0c8c352bb9a7729d337e9", null ],
+    [ "Dispose", "classMR_1_1Const__LineObject.html#abfb6ccdd3561bfb72f9a426f82e2e302", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__LineObject.html#a087dd91dd13db8eb622e2d35fb66c962", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__LineObject.html#a1797ffb0ba6ad2840f848b0b13c1d44c", null ],
     [ "getAmbientStrength", "classMR_1_1Const__LineObject.html#a3acbde0d9cdb21f00523cfe288161573", null ],
@@ -65,6 +67,13 @@ var classMR_1_1Const__LineObject =
     [ "isVisible", "classMR_1_1Const__LineObject.html#aa5e4b357ee2b1d816ead20fab3570fe0", null ],
     [ "name", "classMR_1_1Const__LineObject.html#a5c4e540e38e39a9dc39fe435278a6b3d", null ],
     [ "operator Const_LineObject", "classMR_1_1Const__LineObject.html#acb55c8905af4399bf66ab3ca230fe438", null ],
+    [ "operator Const_LineObject?", "classMR_1_1Const__LineObject.html#ab7b8d5d2bfbe2f919d687dfc96be8314", null ],
+    [ "operator Const_LineObject?", "classMR_1_1Const__LineObject.html#a49b76772509cc95cb75f8d8d9ebc4bf1", null ],
+    [ "operator Const_LineObject?", "classMR_1_1Const__LineObject.html#a8ebe8d4126a1c81ab1e6487b23d3529e", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__LineObject.html#aed48db05523848f9b9b3e0d2b3f30634", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__LineObject.html#aa58695f05a7a4b66f4a4f042ca4cad71", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__LineObject.html#ad9cd60a4269a2ee3449a140a69e302b7", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__LineObject.html#aaaa45c35b87da6c9eb6085818cd963bf", null ],
     [ "projectPoint", "classMR_1_1Const__LineObject.html#a38048b4b2e7680cc5e25129d67e581ec", null ],
     [ "render", "classMR_1_1Const__LineObject.html#a6db0c9cb77bb58cf7f413de304e7f465", null ],
     [ "renderForPicker", "classMR_1_1Const__LineObject.html#aeefee2ccb0d1673ba8485392a489c3d4", null ],
@@ -85,6 +94,5 @@ var classMR_1_1Const__LineObject =
     [ "visibilityMask", "classMR_1_1Const__LineObject.html#aede842572d71ef68c3ceee040224e23a", null ],
     [ "worldXf", "classMR_1_1Const__LineObject.html#a01d4ca0041ba060d490f00ea0aa19c74", null ],
     [ "xf", "classMR_1_1Const__LineObject.html#a483397d25e808558aa3f7e702b1cc5b9", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__LineObject.html#abacfb7a727aa549228c9c666774a7594", null ],
-    [ "_IsOwning", "classMR_1_1Const__LineObject.html#a86ee3e875946e42768aaaf9b024e0b1d", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__LineObject.html#abacfb7a727aa549228c9c666774a7594", null ]
 ];

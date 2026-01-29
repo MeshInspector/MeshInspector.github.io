@@ -150,7 +150,7 @@ $(function(){initNavTree('MRMeshDecimateCallbacks_8h_source.html',''); initResiz
 <div class="contents">
 <a href="MRMeshDecimateCallbacks_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshAttributesToUpdate_8h.html">MRMeshAttributesToUpdate.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
@@ -169,8 +169,8 @@ $(function(){initNavTree('MRMeshDecimateCallbacks_8h_source.html',''); initResiz
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">auto</span> preCollapse = [&amp;] ( <a class="code hl_structRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> edgeToCollapse, <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&amp; newEdgeOrgPos )</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">const</span> <span class="keyword">auto</span> org = mesh.topology.org( edgeToCollapse );</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">const</span> <span class="keyword">auto</span> dest = mesh.topology.dest( edgeToCollapse );</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">const</span> <span class="keyword">auto</span> org = mesh.<a class="code hl_propertyRef" href="../Csharp/classMR_1_1Mesh.html#a504c6630e7c1492cbe741522640f0d95">topology</a>.org( edgeToCollapse );</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">const</span> <span class="keyword">auto</span> dest = mesh.<a class="code hl_propertyRef" href="../Csharp/classMR_1_1Mesh.html#a504c6630e7c1492cbe741522640f0d95">topology</a>.dest( edgeToCollapse );</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keyword">const</span> <span class="keyword">auto</span> orgPos = mesh.orgPnt( edgeToCollapse );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keyword">const</span> <span class="keyword">auto</span> destPos = mesh.destPnt( edgeToCollapse );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
@@ -201,9 +201,10 @@ $(function(){initNavTree('MRMeshDecimateCallbacks_8h_source.html',''); initResiz
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
 <div class="ttc" id="aMRMeshAttributesToUpdate_8h_html"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html">MRMeshAttributesToUpdate.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshAttributesToUpdate.html">MR::MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MRMeshAttributesToUpdate.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html_a504c6630e7c1492cbe741522640f0d95"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html#a504c6630e7c1492cbe741522640f0d95">MR::Mesh::topology</a></div><div class="ttdeci">new unsafe MR.MeshTopology topology</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6a7366107d12ccfd107de14a60b74775"><div class="ttname"><a href="namespaceMR.html#a6a7366107d12ccfd107de14a60b74775">MR::meshPreCollapseVertAttribute</a></div><div class="ttdeci">MRMESH_API PreCollapseCallback meshPreCollapseVertAttribute(const Mesh &amp;mesh, const MeshAttributesToUpdate &amp;params)</div></div>

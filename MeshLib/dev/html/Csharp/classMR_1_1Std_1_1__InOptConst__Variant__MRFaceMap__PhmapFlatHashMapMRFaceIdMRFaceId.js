@@ -1,5 +1,0 @@
-var classMR_1_1Std_1_1__InOptConst__Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId =
-[
-    [ "operator _InOptConst_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1__InOptConst__Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a2e5eb490c63853bd83cd6ae355091323", null ],
-    [ "operator _InOptConst_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1__InOptConst__Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a048a7d677938a6429405e5aaef2f1360", null ]
-];

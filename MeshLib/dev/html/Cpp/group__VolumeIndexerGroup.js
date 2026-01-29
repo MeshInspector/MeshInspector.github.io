@@ -7,7 +7,9 @@ var group__VolumeIndexerGroup =
       [ "assign", "../Csharp/classMR_1_1VoxelLocation.html#ab31f0ba991ada68471a8ca077c5be635", null ],
       [ "operator bool", "group__VoxelGroup.html#ga3f90dd1eb37b8e96421048a44936a299", null ],
       [ "id", "group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e", null ],
-      [ "pos", "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531", null ]
+      [ "pos", "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531", null ],
+      [ "id", "../Csharp/classMR_1_1VoxelLocation.html#a99c8e937e49625bd95ba2385cb4ea12a", null ],
+      [ "pos", "../Csharp/classMR_1_1VoxelLocation.html#affb2b57503ac3e10c48ed5f6fd912b1f", null ]
     ] ],
     [ "MR::VolumeIndexer", "../Csharp/classMR_1_1VolumeIndexer.html", [
       [ "VolumeIndexer", "../Csharp/classMR_1_1VolumeIndexer.html#a3aa8901144de8797fecd23bd8b823e58", null ],

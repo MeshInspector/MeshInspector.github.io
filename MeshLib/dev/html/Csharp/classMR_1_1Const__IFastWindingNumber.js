@@ -1,4 +1,5 @@
 var classMR_1_1Const__IFastWindingNumber =
 [
-    [ "_IsOwning", "classMR_1_1Const__IFastWindingNumber.html#a6c5a302cf1aeb8bc4137d617c430e4a9", null ]
+    [ "Dispose", "classMR_1_1Const__IFastWindingNumber.html#a04b914fd85a4ba6cee47149f0fb5f48c", null ],
+    [ "Dispose", "classMR_1_1Const__IFastWindingNumber.html#a846097ec72d3f85805131a0c51ffe61e", null ]
 ];

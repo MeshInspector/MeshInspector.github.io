@@ -2,5 +2,7 @@ var classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegm
 [
     [ "Const_Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a9b023d9f807daaa591ef2a43516571aa", null ],
     [ "Const_Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a07609e92425910fe47a8c09be99d2d78", null ],
+    [ "Dispose", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a6488a5cfe87fc34a5de5c120c2f6fc81", null ],
+    [ "Dispose", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a56998405976a406028c0f47ea247080e", null ],
     [ "measure", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a7c58a3b14ffa0f1fd598ab11afce6f1a", null ]
 ];

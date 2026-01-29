@@ -6,6 +6,8 @@ var classMR_1_1Const__VisualObject =
     [ "classNameInPlural", "classMR_1_1Const__VisualObject.html#ababab9303c0a975ddd33baf78ab43864", null ],
     [ "clone", "classMR_1_1Const__VisualObject.html#ab2743863801d7d4862ca9b666a954c9e", null ],
     [ "cloneTree", "classMR_1_1Const__VisualObject.html#aed5ab701a8e8ba9830f0a4431c439c64", null ],
+    [ "Dispose", "classMR_1_1Const__VisualObject.html#a3a691bed6d74f01539a4d620686410c2", null ],
+    [ "Dispose", "classMR_1_1Const__VisualObject.html#a3078f81c09d54fb07ae1ed75ea8f00fc", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__VisualObject.html#ad0f43a8225769d169e491d417e45987e", null ],
     [ "getAmbientStrength", "classMR_1_1Const__VisualObject.html#a4f1cd300ec0a46c2610bcc10d0364a25", null ],
     [ "getBackColor", "classMR_1_1Const__VisualObject.html#a5619cebf853898931dec28a12cec2ffb", null ],
@@ -43,6 +45,9 @@ var classMR_1_1Const__VisualObject =
     [ "isSelected", "classMR_1_1Const__VisualObject.html#ae6fe9ff0c6560f9a04b73095685a749f", null ],
     [ "isVisible", "classMR_1_1Const__VisualObject.html#a6fd85d72257c7d236cd7fdff430fc286", null ],
     [ "name", "classMR_1_1Const__VisualObject.html#a3b7a256689fa766d0d9feaa150ba8b1a", null ],
+    [ "operator Const_VisualObject?", "classMR_1_1Const__VisualObject.html#a78f3107d1b213de5a067f79cee4e1fa2", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__VisualObject.html#ab38460237d74e30dbe253333e1c1f62e", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__VisualObject.html#a744f8a8bca988105187c98891920dc18", null ],
     [ "render", "classMR_1_1Const__VisualObject.html#a3d8f6fed354d52463b2f88c1aa4e5972", null ],
     [ "renderForPicker", "classMR_1_1Const__VisualObject.html#a361e8de814d43e1b7124ad2e1c1e8915", null ],
     [ "renderUi", "classMR_1_1Const__VisualObject.html#aa91b9ade4a3d82671b4ea0127af47b7d", null ],
@@ -63,6 +68,5 @@ var classMR_1_1Const__VisualObject =
     [ "visibilityMask", "classMR_1_1Const__VisualObject.html#a78b315ae5abe47b6cf8b07199eba2481", null ],
     [ "worldXf", "classMR_1_1Const__VisualObject.html#a0dd034ce2ce18abaf5d6ec6201b1c7cb", null ],
     [ "xf", "classMR_1_1Const__VisualObject.html#a3656c8a54a1ca416ab2d3fd42e348d6b", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__VisualObject.html#a8b8b71a21bf0cecb93715815ce9f381e", null ],
-    [ "_IsOwning", "classMR_1_1Const__VisualObject.html#a562399aaaa3a040ef37dac5285820ecf", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__VisualObject.html#a8b8b71a21bf0cecb93715815ce9f381e", null ]
 ];

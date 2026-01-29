@@ -1,11 +1,5 @@
 var classMR_1_1Const__WatershedGraph =
 [
-    [ "_InOptConst_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1__InOptConst__BasinInfo.html", null ],
-    [ "_InOptConst_BdInfo", "classMR_1_1Const__WatershedGraph_1_1__InOptConst__BdInfo.html", null ],
-    [ "_InOptConst_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1__InOptConst__OverflowPoint.html", null ],
-    [ "_InOptMut_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1__InOptMut__BasinInfo.html", null ],
-    [ "_InOptMut_BdInfo", "classMR_1_1Const__WatershedGraph_1_1__InOptMut__BdInfo.html", null ],
-    [ "_InOptMut_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1__InOptMut__OverflowPoint.html", null ],
     [ "BasinInfo", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html", "classMR_1_1Const__WatershedGraph_1_1BasinInfo" ],
     [ "BdInfo", "classMR_1_1Const__WatershedGraph_1_1BdInfo.html", "classMR_1_1Const__WatershedGraph_1_1BdInfo" ],
     [ "Const_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" ],
@@ -17,6 +11,8 @@ var classMR_1_1Const__WatershedGraph =
     [ "basinInfo", "classMR_1_1Const__WatershedGraph.html#ac9447d809d9ef1d0aeff30227e686a8c", null ],
     [ "bdInfo", "classMR_1_1Const__WatershedGraph.html#a31de89c0a8cbc38b0ff147964c9e5a21", null ],
     [ "computeBasinVolume", "classMR_1_1Const__WatershedGraph.html#a357cf3b382c4c5ccf698ff0880d49304", null ],
+    [ "Dispose", "classMR_1_1Const__WatershedGraph.html#a72791815064705f510688b22383b9953", null ],
+    [ "Dispose", "classMR_1_1Const__WatershedGraph.html#ae0e567d149da049088a18666cd550e23", null ],
     [ "findLowestBd", "classMR_1_1Const__WatershedGraph.html#a6d574a3eb3a2b48a58c68533612aaa81", null ],
     [ "flowsFinallyTo", "classMR_1_1Const__WatershedGraph.html#a333453a0138e87a3207bc017fdd93362", null ],
     [ "flowsTo", "classMR_1_1Const__WatershedGraph.html#aa8306747f48a7b801fe22a6cde442403", null ],

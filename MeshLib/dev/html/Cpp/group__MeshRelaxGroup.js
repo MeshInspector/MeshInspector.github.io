@@ -36,6 +36,7 @@ var group__MeshRelaxGroup =
       [ "maxInitialDist", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a8a163a03ba292adb2564c2686f06e719", null ],
       [ "region", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a73f3038b349afb74f1bcd16dcaf19eaa", null ],
       [ "surfaceDilateRadius", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a6a2bf9299774fa6af8fa9131c4eb1b2d", null ],
+      [ "type", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a6c6221567d59717a3854b2d4ccdf2e91", null ],
       [ "weights", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a20b9f027ef9fb92dbdfd954b469a7303", null ]
     ] ],
     [ "MR::equalizeTriAreas", "group__MeshRelaxGroup.html#ga4d18f403309407bc884de403549fd99f", null ],

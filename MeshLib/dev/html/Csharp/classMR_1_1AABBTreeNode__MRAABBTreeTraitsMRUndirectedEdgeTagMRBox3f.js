@@ -6,5 +6,6 @@ var classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f =
     [ "assign", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a73b35af9443c28fec894f29cab4f3bcb", null ],
     [ "setLeafId", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a1bfd30f5c68f2c80244db2b713765ec0", null ],
     [ "box", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#af764f52c3afcba911409f82ca4f66551", null ],
-    [ "l", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#aad1a4bf2e11095050edb04fa83863e6e", null ]
+    [ "l", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#aad1a4bf2e11095050edb04fa83863e6e", null ],
+    [ "r", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#adfafdb95c90f13460114064a07e1d5d4", null ]
 ];

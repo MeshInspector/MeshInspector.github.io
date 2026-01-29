@@ -7,11 +7,14 @@ var structMR_1_1Vector3b =
     [ "addAssign", "structMR_1_1Vector3b.html#a18a806d01672b139f32652e10d5f127b", null ],
     [ "diagonal", "structMR_1_1Vector3b.html#a5bb6813010b025adcab6f05e2891ff03", null ],
     [ "divAssign", "structMR_1_1Vector3b.html#ac5da583585508dac95c8d815d9836c29", null ],
+    [ "Equals", "structMR_1_1Vector3b.html#ad5ef6c075ee78681286a351c42939b54", null ],
+    [ "Equals", "structMR_1_1Vector3b.html#a63ee33ca237eafbc5beb2dcf3f880720", null ],
     [ "index", "structMR_1_1Vector3b.html#a9373111c5738ca5a9a5a067d92a02563", null ],
     [ "length", "structMR_1_1Vector3b.html#a2fd48b7dccb844e4ecc1012be55faf33", null ],
     [ "lengthSq", "structMR_1_1Vector3b.html#abd9d6b46f3d8d36b7eeb8044a7e6285f", null ],
     [ "mulAssign", "structMR_1_1Vector3b.html#a6dc189733604c9e08b2dd4cb4b478511", null ],
     [ "operator Vector3b", "structMR_1_1Vector3b.html#a5371dea21ae48ffb3977eebc0a15afc7", null ],
+    [ "operator!=", "structMR_1_1Vector3b.html#adee1dc27f528511f195252b943e4e53b", null ],
     [ "operator*", "structMR_1_1Vector3b.html#ac0e37f7a162fcf7e048b65328cd73550", null ],
     [ "operator*", "structMR_1_1Vector3b.html#a29c75b0bec996c5cad3b9f318165ab44", null ],
     [ "operator+", "structMR_1_1Vector3b.html#ae3ed52b3b955c63ea3063fa03485a6e1", null ],
@@ -24,5 +27,11 @@ var structMR_1_1Vector3b =
     [ "plusY", "structMR_1_1Vector3b.html#a64beba8d803f9874c304d2d2ed37940c", null ],
     [ "plusZ", "structMR_1_1Vector3b.html#a5a8d52a0e2de3a85b499688259e8dd4b", null ],
     [ "subAssign", "structMR_1_1Vector3b.html#aa657b263878b85d134433efcb9df68f8", null ],
-    [ "this[int e]", "structMR_1_1Vector3b.html#a13b9392da8a82b6b9e2cbf36f178d6a2", null ]
+    [ "__storage_x", "structMR_1_1Vector3b.html#ab34eaa9a0d645325b93506afdf333782", null ],
+    [ "__storage_y", "structMR_1_1Vector3b.html#a0b73c88b8095f9fff562e09c79fcfcf1", null ],
+    [ "__storage_z", "structMR_1_1Vector3b.html#ada9db8b4ed576a8e3a5305f8b8ffa900", null ],
+    [ "this[int e]", "structMR_1_1Vector3b.html#a13b9392da8a82b6b9e2cbf36f178d6a2", null ],
+    [ "x", "structMR_1_1Vector3b.html#a842b6a490dcfb072e1b130ffb15197c5", null ],
+    [ "y", "structMR_1_1Vector3b.html#afb70503b65353920dfb167f4b7ff1f18", null ],
+    [ "z", "structMR_1_1Vector3b.html#aa80498a0cb1defc0f3b0b5cd72c9ee6c", null ]
 ];

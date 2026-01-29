@@ -12,6 +12,8 @@ var classMR_1_1Const__UndirectedEdgeBitSet =
     [ "bits", "classMR_1_1Const__UndirectedEdgeBitSet.html#a8667087b8410337fbd6e8d8eb83eb78d", null ],
     [ "capacity", "classMR_1_1Const__UndirectedEdgeBitSet.html#a497c8094d7d06bd3c5aa351ec155ce95", null ],
     [ "count", "classMR_1_1Const__UndirectedEdgeBitSet.html#a945227a641a39c92e7fb8a3d3a3680e2", null ],
+    [ "Dispose", "classMR_1_1Const__UndirectedEdgeBitSet.html#a71162a946d99b2d65d9af00dee955de1", null ],
+    [ "Dispose", "classMR_1_1Const__UndirectedEdgeBitSet.html#a88edebce3baf6c807130b6ecaae6155f", null ],
     [ "empty", "classMR_1_1Const__UndirectedEdgeBitSet.html#a6b454b8683fcf73df7c3cddd7be8b43e", null ],
     [ "endId", "classMR_1_1Const__UndirectedEdgeBitSet.html#a4af7449fa28e5903fa3fcb85e89c9d0b", null ],
     [ "findFirst", "classMR_1_1Const__UndirectedEdgeBitSet.html#a0b0dd2d135d2491b0bb5317abdc1b5f2", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__UndirectedEdgeBitSet =
     [ "none", "classMR_1_1Const__UndirectedEdgeBitSet.html#aef9d184bd2f2eccbf6eb5763a8fa49a1", null ],
     [ "nthSetBit", "classMR_1_1Const__UndirectedEdgeBitSet.html#a8a50a0516ba5a21bf9aac57f99a92f7e", null ],
     [ "numBlocks", "classMR_1_1Const__UndirectedEdgeBitSet.html#adf7938a992a53b2b6cfdba62876c37d4", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__UndirectedEdgeBitSet.html#ab8969791257f18f12e3d028e3ddc8f7c", null ],
     [ "operator&", "classMR_1_1Const__UndirectedEdgeBitSet.html#a1e8cd4ada8c018f500f663163f58ec09", null ],
     [ "operator-", "classMR_1_1Const__UndirectedEdgeBitSet.html#aa0af2cc5529a97acf2f9512c5b39e663", null ],
     [ "operator^", "classMR_1_1Const__UndirectedEdgeBitSet.html#abfc9692e851bdab14e193142cb99f6b3", null ],
     [ "operator|", "classMR_1_1Const__UndirectedEdgeBitSet.html#a1f91322af928448c21189b200b02db77", null ],
     [ "size", "classMR_1_1Const__UndirectedEdgeBitSet.html#ac1886b164b164d2165303c86ba99bab5", null ],
     [ "test", "classMR_1_1Const__UndirectedEdgeBitSet.html#adc9605ef4fcbf737a9b6d700f6272fcb", null ],
-    [ "uncheckedTest", "classMR_1_1Const__UndirectedEdgeBitSet.html#aedf99d1a19a39908ec5c7fb58302e8a3", null ]
+    [ "uncheckedTest", "classMR_1_1Const__UndirectedEdgeBitSet.html#aedf99d1a19a39908ec5c7fb58302e8a3", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__UndirectedEdgeBitSet.html#a0f14f6a2066b62d7c2b059f57560f03b", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__UndirectedEdgeBitSet.html#a95920cb054e53d004c4ac850d3dd3238", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__UndirectedEdgeBitSet.html#a335386c13b6b077cdc4a3360eeeb0c58", null ],
+    [ "Npos", "classMR_1_1Const__UndirectedEdgeBitSet.html#a9e2763f72c5662b16f2bce150792c6b1", null ]
 ];

@@ -15,6 +15,7 @@ var classMR_1_1VoxelBitSet =
     [ "flip", "classMR_1_1VoxelBitSet.html#a617e59aa3c5403cc768a86790e832ca0", null ],
     [ "flip", "classMR_1_1VoxelBitSet.html#acf253c49211b0763e5bb7bfdc56e2672", null ],
     [ "flip", "classMR_1_1VoxelBitSet.html#a912a270defec2628498cd3b04d388935", null ],
+    [ "operator MR.BitSet", "classMR_1_1VoxelBitSet.html#a12840dde980a3d21bff449fcab13815e", null ],
     [ "popBack", "classMR_1_1VoxelBitSet.html#a17bcdd946c29440f8bfd93f835ffa18f", null ],
     [ "pushBack", "classMR_1_1VoxelBitSet.html#a9a144a944b6b8cfeed49f9d90be48152", null ],
     [ "reserve", "classMR_1_1VoxelBitSet.html#aba000a2c0a6dd3e0c38db552982281b2", null ],

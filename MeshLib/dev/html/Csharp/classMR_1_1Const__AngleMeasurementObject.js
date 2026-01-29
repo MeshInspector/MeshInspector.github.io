@@ -7,6 +7,8 @@ var classMR_1_1Const__AngleMeasurementObject =
     [ "clone", "classMR_1_1Const__AngleMeasurementObject.html#a34ed208db5b1278fd88bd54d4c3ba128", null ],
     [ "cloneTree", "classMR_1_1Const__AngleMeasurementObject.html#adbbe32c4a1c25aeea336b92b8bb9cc6e", null ],
     [ "computeAngle", "classMR_1_1Const__AngleMeasurementObject.html#a8e071f1462d52b87c43efb48a75c01d8", null ],
+    [ "Dispose", "classMR_1_1Const__AngleMeasurementObject.html#a2a8df7467391bccedc23d69e812f4045", null ],
+    [ "Dispose", "classMR_1_1Const__AngleMeasurementObject.html#a5c0a0e775b488b4694916f0cc654baed", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__AngleMeasurementObject.html#abee1f78a7287b4a92eb2cbbae57050ba", null ],
     [ "getAmbientStrength", "classMR_1_1Const__AngleMeasurementObject.html#a99269e28242066ab28ae482f8e281fd5", null ],
     [ "getBackColor", "classMR_1_1Const__AngleMeasurementObject.html#ae9cd015ef39c91c5e2d4eb882f385e13", null ],
@@ -50,6 +52,13 @@ var classMR_1_1Const__AngleMeasurementObject =
     [ "isSelected", "classMR_1_1Const__AngleMeasurementObject.html#a2d9eaafe315817373eea9117451ba2d5", null ],
     [ "isVisible", "classMR_1_1Const__AngleMeasurementObject.html#ab2c3a4c147cbff912a83eae5038d6fbd", null ],
     [ "name", "classMR_1_1Const__AngleMeasurementObject.html#a3bbdb09cbc44270397afbc6f045b004d", null ],
+    [ "operator Const_AngleMeasurementObject?", "classMR_1_1Const__AngleMeasurementObject.html#a0d89b7b0cbbee44b3f8800825bb94006", null ],
+    [ "operator Const_AngleMeasurementObject?", "classMR_1_1Const__AngleMeasurementObject.html#a5cf8b262b80afadfaad945de4d2b016c", null ],
+    [ "operator Const_AngleMeasurementObject?", "classMR_1_1Const__AngleMeasurementObject.html#ab44fc1e95f49f9f725fffd11ec948519", null ],
+    [ "operator MR.Const_MeasurementObject", "classMR_1_1Const__AngleMeasurementObject.html#af2dae94e2d479801b2ddba98df268577", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__AngleMeasurementObject.html#aecc842ea4d8b9929b400892ac65a5839", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__AngleMeasurementObject.html#a62c80c929df03a7d7e39acd27e0ac768", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__AngleMeasurementObject.html#a293e82493bd6106a38e153f5732a419f", null ],
     [ "render", "classMR_1_1Const__AngleMeasurementObject.html#ade6a1ac9e980e0a71fcac1d864898163", null ],
     [ "renderForPicker", "classMR_1_1Const__AngleMeasurementObject.html#a66bc3db7badecf38deb4b2f261477d78", null ],
     [ "renderUi", "classMR_1_1Const__AngleMeasurementObject.html#a6300ce188125aece964e838bfae55179", null ],
@@ -69,6 +78,5 @@ var classMR_1_1Const__AngleMeasurementObject =
     [ "visibilityMask", "classMR_1_1Const__AngleMeasurementObject.html#a888f501e1c1004eac15f0a18cbcfe995", null ],
     [ "worldXf", "classMR_1_1Const__AngleMeasurementObject.html#a60039ba059e5aee43efc5b5909ba050f", null ],
     [ "xf", "classMR_1_1Const__AngleMeasurementObject.html#aa1a28a2a57f71865f285e1cc5d22e100", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__AngleMeasurementObject.html#aa2fad1892491f8f78c21ffe617b167b1", null ],
-    [ "_IsOwning", "classMR_1_1Const__AngleMeasurementObject.html#a17ad7059977d6235fee60eaa78768573", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__AngleMeasurementObject.html#aa2fad1892491f8f78c21ffe617b167b1", null ]
 ];

@@ -2,6 +2,8 @@ var classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f =
 [
     [ "Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#ae119ff65a78b841e437415bd113ef6b7", null ],
     [ "Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a65ab0ad70e94f71390b0e57421ef8993", null ],
+    [ "Dispose", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#af2049458e749524fc176e1a4d0b9de1c", null ],
+    [ "Dispose", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#ae9a5408f262ebb5d58b69658ca243142", null ],
     [ "getBoundingBox", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a5681a4829ea59f863853688037e2a231", null ],
     [ "getLeafOrder", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#ab8cb1978e0646a49c267f1bf7a282c8a", null ],
     [ "getNodesFromLeaves", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#acdb43f4ed2b7b0d9578e95e3e114f977", null ],

@@ -10,8 +10,14 @@ var classMR_1_1Const__EndMillCutter =
     [ "Const_EndMillCutter", "classMR_1_1Const__EndMillCutter.html#abd3be45b833bb128aa6c2962dc827843", null ],
     [ "Const_EndMillCutter", "classMR_1_1Const__EndMillCutter.html#a53e7026b1ab89910bad7a4c9c04522c2", null ],
     [ "Const_EndMillCutter", "classMR_1_1Const__EndMillCutter.html#a1696791260e818be3d2b5d0d0eb52533", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__EndMillCutter.html#a6116716e4065a96faba801fc5a0c8eb2", null ],
+    [ "Dispose", "classMR_1_1Const__EndMillCutter.html#ad10e2024e51f24d6186a5e11647d4da1", null ],
+    [ "Dispose", "classMR_1_1Const__EndMillCutter.html#a780edb0142409cc5245caf9c67cacef4", null ],
+    [ "__ref_storage_cornerRadius", "classMR_1_1Const__EndMillCutter.html#ad19000c2e872f0225208d1199209ac91", null ],
+    [ "__ref_storage_cuttingAngle", "classMR_1_1Const__EndMillCutter.html#a0d87af6298db507007ad7a12642d6062", null ],
+    [ "__ref_storage_endDiameter", "classMR_1_1Const__EndMillCutter.html#ab781b011aa3fac727002a84141dcabef", null ],
+    [ "__ref_storage_type", "classMR_1_1Const__EndMillCutter.html#a6d9f0b9af1a833f33c492d51047732de", null ],
     [ "cornerRadius", "classMR_1_1Const__EndMillCutter.html#a54cf043b50e657759b28145b8ada4267", null ],
     [ "cuttingAngle", "classMR_1_1Const__EndMillCutter.html#a945a33589332dbcd461856c5b123f08d", null ],
-    [ "endDiameter", "classMR_1_1Const__EndMillCutter.html#aec845ab7bbe2b715121bbf0443834f18", null ]
+    [ "endDiameter", "classMR_1_1Const__EndMillCutter.html#aec845ab7bbe2b715121bbf0443834f18", null ],
+    [ "type", "classMR_1_1Const__EndMillCutter.html#a378a75cc2554cae8be0661330736859e", null ]
 ];

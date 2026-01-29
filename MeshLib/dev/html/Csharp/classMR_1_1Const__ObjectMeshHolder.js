@@ -10,6 +10,8 @@ var classMR_1_1Const__ObjectMeshHolder =
     [ "cloneTree", "classMR_1_1Const__ObjectMeshHolder.html#a20979fb085817fde4d30f7d18ff78019", null ],
     [ "creases", "classMR_1_1Const__ObjectMeshHolder.html#a4e4575bd4a237f932713462a750188f4", null ],
     [ "data", "classMR_1_1Const__ObjectMeshHolder.html#abed6b908b95ea64eb3480dd1635bc93f", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectMeshHolder.html#af1277d2a14b464185e9c5f0b63916996", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectMeshHolder.html#ab39ade7a1072c8c36d6114eb1a85be28", null ],
     [ "flatShading", "classMR_1_1Const__ObjectMeshHolder.html#a9b200abcadc347a3f8c42666546be627", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectMeshHolder.html#a61971d87453fa9db67435f0f30ea1388", null ],
     [ "getAmbientStrength", "classMR_1_1Const__ObjectMeshHolder.html#ab3d65fde9d0320fb4e36e770c46506ca", null ],
@@ -82,6 +84,11 @@ var classMR_1_1Const__ObjectMeshHolder =
     [ "numSelectedEdges", "classMR_1_1Const__ObjectMeshHolder.html#aec0da9802edfc16d0d301762b7b0e264", null ],
     [ "numSelectedFaces", "classMR_1_1Const__ObjectMeshHolder.html#a99686cc90d7db3174ef4433f49e1679b", null ],
     [ "numUndirectedEdges", "classMR_1_1Const__ObjectMeshHolder.html#a5f80dcaa432dd15a5e1c1771e6045679", null ],
+    [ "operator Const_ObjectMeshHolder?", "classMR_1_1Const__ObjectMeshHolder.html#aefc2caa3bf4868e055209273ee55fc87", null ],
+    [ "operator Const_ObjectMeshHolder?", "classMR_1_1Const__ObjectMeshHolder.html#a81566a88adf3541bac3f83a5f032c84c", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ObjectMeshHolder.html#a6cbc0677be2952c4a75ef96aa92a9b6d", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectMeshHolder.html#a6dd3d4a37ab244b8c2bf760c32b6ba36", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectMeshHolder.html#a4857c70aab8f18e201b500488b968b97", null ],
     [ "render", "classMR_1_1Const__ObjectMeshHolder.html#ae957440c747f425f3083c78f4c99cc40", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectMeshHolder.html#a8de2aae9a5542e48ca4f894108784706", null ],
     [ "renderUi", "classMR_1_1Const__ObjectMeshHolder.html#a7c49d3dcbeb5ca4ca1bdb04bc1a4c11b", null ],
@@ -105,6 +112,5 @@ var classMR_1_1Const__ObjectMeshHolder =
     [ "volume", "classMR_1_1Const__ObjectMeshHolder.html#a51725bdcc90b55a8a84e4ebf9a16cf1e", null ],
     [ "worldXf", "classMR_1_1Const__ObjectMeshHolder.html#ae44c77b7d7a36de47dc76a96bbdacae1", null ],
     [ "xf", "classMR_1_1Const__ObjectMeshHolder.html#a85314773ebfb7035a8328f2461bfeaa0", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ObjectMeshHolder.html#abab590186529d09435ac035227404000", null ],
-    [ "_IsOwning", "classMR_1_1Const__ObjectMeshHolder.html#a6cd0536113b16507dae12da51519c080", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ObjectMeshHolder.html#abab590186529d09435ac035227404000", null ]
 ];

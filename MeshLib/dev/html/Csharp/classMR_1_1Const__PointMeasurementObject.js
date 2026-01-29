@@ -8,6 +8,8 @@ var classMR_1_1Const__PointMeasurementObject =
     [ "cloneTree", "classMR_1_1Const__PointMeasurementObject.html#aa92761682ae807c1f27d5723654c2036", null ],
     [ "comparisonToleranceIsAlwaysOnlyPositive", "classMR_1_1Const__PointMeasurementObject.html#a27a6b3e0497b03894a137a8b9ff8ea54", null ],
     [ "computeComparableProperty", "classMR_1_1Const__PointMeasurementObject.html#a88a84c9d9d72ff20341bc96ded82c1e9", null ],
+    [ "Dispose", "classMR_1_1Const__PointMeasurementObject.html#adb84c9bd4e36225a663729109689f710", null ],
+    [ "Dispose", "classMR_1_1Const__PointMeasurementObject.html#af616453898ae055ec23f6ab71339bd9e", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__PointMeasurementObject.html#a5dd0dad53195c0b2a0ed461cc14253f2", null ],
     [ "getAmbientStrength", "classMR_1_1Const__PointMeasurementObject.html#a20499d535fa522fc733fc9cd577f17cb", null ],
     [ "getBackColor", "classMR_1_1Const__PointMeasurementObject.html#a2a7e567127e8541d511ad064b309e076", null ],
@@ -53,6 +55,15 @@ var classMR_1_1Const__PointMeasurementObject =
     [ "name", "classMR_1_1Const__PointMeasurementObject.html#a3e613fb94057051bb92e0e25c55edd52", null ],
     [ "numComparableProperties", "classMR_1_1Const__PointMeasurementObject.html#af5b93a33a64d3b8d01ae17ffc467d387", null ],
     [ "numComparisonReferenceValues", "classMR_1_1Const__PointMeasurementObject.html#a804941efd39486d76e62bfae7feb468f", null ],
+    [ "operator Const_PointMeasurementObject?", "classMR_1_1Const__PointMeasurementObject.html#a82b41a7be9d99c7693bc267088f5fe83", null ],
+    [ "operator Const_PointMeasurementObject?", "classMR_1_1Const__PointMeasurementObject.html#a37d2429dc9ea36e21a2e30cc704826d5", null ],
+    [ "operator Const_PointMeasurementObject?", "classMR_1_1Const__PointMeasurementObject.html#aeaf066695c1a173656ebc1179a97b72e", null ],
+    [ "operator Const_PointMeasurementObject?", "classMR_1_1Const__PointMeasurementObject.html#a8f26dc785beb0fc00094f3b6202752f1", null ],
+    [ "operator MR.Const_MeasurementObject", "classMR_1_1Const__PointMeasurementObject.html#aa37dab846321f0067376d52301293063", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__PointMeasurementObject.html#a8fc492a9daf82e552ac89040aefc2293", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__PointMeasurementObject.html#a1e2b2d54382e8c0071cc47d9117cd888", null ],
+    [ "operator MR.Const_ObjectComparableWithReference", "classMR_1_1Const__PointMeasurementObject.html#a18dd8f9d2007d4b57c2da5e459424a2a", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__PointMeasurementObject.html#a386ebe3b7e2a23986f0339b46b3f65f2", null ],
     [ "render", "classMR_1_1Const__PointMeasurementObject.html#a1de78cc70ed5007af173a5b93428ebf1", null ],
     [ "renderForPicker", "classMR_1_1Const__PointMeasurementObject.html#a11414f8654661ff390bc29e428d1dbcc", null ],
     [ "renderUi", "classMR_1_1Const__PointMeasurementObject.html#a0165507422dbd46f503be5a5c7d89618", null ],
@@ -72,6 +83,5 @@ var classMR_1_1Const__PointMeasurementObject =
     [ "visibilityMask", "classMR_1_1Const__PointMeasurementObject.html#a1337a4e8b50b9ed7108e981b94a28ea8", null ],
     [ "worldXf", "classMR_1_1Const__PointMeasurementObject.html#a1040b9e40fab36c651d663ea9fcfb57d", null ],
     [ "xf", "classMR_1_1Const__PointMeasurementObject.html#ab3ed43bf7a8352b24399e533de06ad33", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__PointMeasurementObject.html#acc067c0c6d5a7e41b20408e948fa1397", null ],
-    [ "_IsOwning", "classMR_1_1Const__PointMeasurementObject.html#a70ee63715cfe4a005e804211d594ea6b", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__PointMeasurementObject.html#acc067c0c6d5a7e41b20408e948fa1397", null ]
 ];

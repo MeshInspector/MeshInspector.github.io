@@ -207,7 +207,7 @@ Matrices</h3>
  This function is defined in <code>&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</code>.</p>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Affine transformations</h2>
-<p>Most transformations in MeshLib are represented using a matrix-vector pair — <code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code>, defined in <code>&lt;MRMesh/MRAffineXf.h&gt;</code>.</p>
+<p>Most transformations in MeshLib are represented using a matrix-vector pair — <code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code>, defined in <code>&lt;<a class="elRef" href="./Cpp/MRAffineXf_8h.html">MRMesh/MRAffineXf.h</a>&gt;</code>.</p>
 <p>This this pair, the vector holds the translation (offset) and the matrix holds rotation (and also scale and shear).</p>
 <p>Those work in 2 and 3 dimensions, and like everythine else above are templated.</p>
 <p><code><a class="elRef" href="./Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></code> are very similar to 4x4 matrices widely used in computer graphics, but without the last row, which is assumed to be <code>(0,0,0,1)</code> (since it's not useful if you're not computing perspective projection matrices). It can be converted to and from <code><a class="elRef" href="./Csharp/structMR_1_1Matrix4f.html">MR::Matrix4f</a></code>, more on that below.</p>

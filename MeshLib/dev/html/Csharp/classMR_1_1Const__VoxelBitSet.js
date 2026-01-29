@@ -12,6 +12,8 @@ var classMR_1_1Const__VoxelBitSet =
     [ "bits", "classMR_1_1Const__VoxelBitSet.html#a05d704c14a1756d589b2df693ee97b17", null ],
     [ "capacity", "classMR_1_1Const__VoxelBitSet.html#ab3eaa358b4b504984ddf87b883662a9f", null ],
     [ "count", "classMR_1_1Const__VoxelBitSet.html#a717d5440e53ee98dc375013bc8c1cf9b", null ],
+    [ "Dispose", "classMR_1_1Const__VoxelBitSet.html#a84240fd89d78cea84e9cee2f57350284", null ],
+    [ "Dispose", "classMR_1_1Const__VoxelBitSet.html#a08ed2d66ea780167e36032b1decec912", null ],
     [ "empty", "classMR_1_1Const__VoxelBitSet.html#a0f2c57e5e83fd8b56746fa86ff3451fc", null ],
     [ "endId", "classMR_1_1Const__VoxelBitSet.html#af7448f21991467bab5ffca8f7d292aa7", null ],
     [ "findFirst", "classMR_1_1Const__VoxelBitSet.html#a465f4fd2e75fcfaf27eb5539d066d7b0", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__VoxelBitSet =
     [ "none", "classMR_1_1Const__VoxelBitSet.html#a6c72866b57c2195e9a9fcae124e55c9f", null ],
     [ "nthSetBit", "classMR_1_1Const__VoxelBitSet.html#a6ba612e4af75f6c250efc1ce5a6b455e", null ],
     [ "numBlocks", "classMR_1_1Const__VoxelBitSet.html#ab195ba97935f09d7ba16eec06cc3d25a", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__VoxelBitSet.html#a771f8d961d8c603f0a2ad8e155b2a909", null ],
     [ "operator&", "classMR_1_1Const__VoxelBitSet.html#a89750f47ff3381d8dc66fcf11242051d", null ],
     [ "operator-", "classMR_1_1Const__VoxelBitSet.html#a5dcb41ee4731ccdfadf82e148dc41bca", null ],
     [ "operator^", "classMR_1_1Const__VoxelBitSet.html#a57732d2c51e98bfb468e5f00efc6557d", null ],
     [ "operator|", "classMR_1_1Const__VoxelBitSet.html#a015a6b64da14354a0ffc844481984ecb", null ],
     [ "size", "classMR_1_1Const__VoxelBitSet.html#ad4edfdb53d808dd1dc977608a4cc27e3", null ],
     [ "test", "classMR_1_1Const__VoxelBitSet.html#a3edd01d406fdf330a1ecb4ef530f9e39", null ],
-    [ "uncheckedTest", "classMR_1_1Const__VoxelBitSet.html#a7772a22a66cf7082ae6a9fb55b8220fa", null ]
+    [ "uncheckedTest", "classMR_1_1Const__VoxelBitSet.html#a7772a22a66cf7082ae6a9fb55b8220fa", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__VoxelBitSet.html#a4598cb26efb8d907f4b21b6ffa1224ed", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__VoxelBitSet.html#ae3489fea1dadcb486f7b91309e5dd6d5", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__VoxelBitSet.html#a967e5bb29e3774c65b8181e0e72b37a8", null ],
+    [ "Npos", "classMR_1_1Const__VoxelBitSet.html#ae20a321573f4f42ddd0bea98b999cb31", null ]
 ];

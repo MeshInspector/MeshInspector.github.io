@@ -7,6 +7,8 @@ var classMR_1_1Const__RadiusMeasurementObject =
     [ "clone", "classMR_1_1Const__RadiusMeasurementObject.html#a9fb83f5ac5e5413c8bec4ee6d8fd64e6", null ],
     [ "cloneTree", "classMR_1_1Const__RadiusMeasurementObject.html#a6753be8815c2aa2d66bf99e1e70f2367", null ],
     [ "computeRadiusOrDiameter", "classMR_1_1Const__RadiusMeasurementObject.html#ae4445696ac3905bd9f40f630aec330aa", null ],
+    [ "Dispose", "classMR_1_1Const__RadiusMeasurementObject.html#ab465b4e53c15f3c78e02cdd4d7598309", null ],
+    [ "Dispose", "classMR_1_1Const__RadiusMeasurementObject.html#a83daf9f33afe3ff03392945eb23bc3ec", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__RadiusMeasurementObject.html#a3bb45920cdd26dbd8d8f52acef994da8", null ],
     [ "getAmbientStrength", "classMR_1_1Const__RadiusMeasurementObject.html#acbab0ddabf3c55760533cb5df051b648", null ],
     [ "getBackColor", "classMR_1_1Const__RadiusMeasurementObject.html#a76f9d905a67d8d0565e0bf3b07bb1998", null ],
@@ -53,6 +55,13 @@ var classMR_1_1Const__RadiusMeasurementObject =
     [ "isSelected", "classMR_1_1Const__RadiusMeasurementObject.html#a0c80b00876559293a90f9c4be2b20bc9", null ],
     [ "isVisible", "classMR_1_1Const__RadiusMeasurementObject.html#ae6e9facec9960857514ad5e84f3eb164", null ],
     [ "name", "classMR_1_1Const__RadiusMeasurementObject.html#a26b33d70abee6142422afb41c7928a93", null ],
+    [ "operator Const_RadiusMeasurementObject?", "classMR_1_1Const__RadiusMeasurementObject.html#ae0d88f5ac9a86938d6b75f71998bf037", null ],
+    [ "operator Const_RadiusMeasurementObject?", "classMR_1_1Const__RadiusMeasurementObject.html#abb06ce341f2d206a8447eec38f9ec16a", null ],
+    [ "operator Const_RadiusMeasurementObject?", "classMR_1_1Const__RadiusMeasurementObject.html#af63762393a4c1fcdd7bdebd04aff4243", null ],
+    [ "operator MR.Const_MeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html#a4ed961785bac768a006ef2e4749f5303", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__RadiusMeasurementObject.html#aba2948718b1832369a34580bc33c46e4", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__RadiusMeasurementObject.html#a2ade826a08dc049202cea75ad8d560b9", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__RadiusMeasurementObject.html#a6e033ecd701e880b636fb9825225eb6c", null ],
     [ "render", "classMR_1_1Const__RadiusMeasurementObject.html#a47c9a7b0dee3c8c17d4ebe11b4d51402", null ],
     [ "renderForPicker", "classMR_1_1Const__RadiusMeasurementObject.html#ab2e2a1026345569823469dbaaf682d0f", null ],
     [ "renderUi", "classMR_1_1Const__RadiusMeasurementObject.html#a3145d3c07ffc9a58120afdbf21aad1ad", null ],
@@ -72,6 +81,5 @@ var classMR_1_1Const__RadiusMeasurementObject =
     [ "visibilityMask", "classMR_1_1Const__RadiusMeasurementObject.html#a326df35522624b3d00d6c8ec517a26ae", null ],
     [ "worldXf", "classMR_1_1Const__RadiusMeasurementObject.html#ac6fe96ef76a04f14477576423c4c0652", null ],
     [ "xf", "classMR_1_1Const__RadiusMeasurementObject.html#a3f517e4f6ec313a1ec18090bed9d2d04", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__RadiusMeasurementObject.html#acacd77db40668fefbf6513075580387f", null ],
-    [ "_IsOwning", "classMR_1_1Const__RadiusMeasurementObject.html#ab93010cebdc3471315693cdaa293476a", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__RadiusMeasurementObject.html#acacd77db40668fefbf6513075580387f", null ]
 ];

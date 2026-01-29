@@ -4,7 +4,6 @@ var group__TunnelDetectorGroup =
       [ "DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html#a4eb9d16445155cd8a7d77dd01d2d1655", null ],
       [ "DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html#a6a6a66a8b10c0a546b005e3d79ef3b8d", null ],
       [ "DetectTunnelSettings", "../Csharp/classMR_1_1DetectTunnelSettings.html#a467dc1cbc289ea1265d84dffbf2c55df", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1DetectTunnelSettings.html#a66abdc69b15ee564fbd57c9702cee704", null ],
       [ "assign", "../Csharp/classMR_1_1DetectTunnelSettings.html#a24c5dc43275e330226c7422927cd463f", null ],
       [ "buildCoLoops", "../Csharp/classMR_1_1DetectTunnelSettings.html#ab53170b70a40416d5373a5b135d2febe", null ],
       [ "filterEquivalentCoLoops", "../Csharp/classMR_1_1DetectTunnelSettings.html#a68b007c4eb80865d90ec5a5cdc284098", null ],

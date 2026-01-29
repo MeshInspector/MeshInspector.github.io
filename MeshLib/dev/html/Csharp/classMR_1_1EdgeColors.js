@@ -5,7 +5,6 @@ var classMR_1_1EdgeColors =
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a7c1f599fc5112eb9e479dd778965c353", null ],
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a0f06b0a4864ac16b8510867ba66b4620", null ],
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a099a1321da8ce2dc5744074ec37dde9f", null ],
-    [ "_FinalizeFields", "classMR_1_1EdgeColors.html#a9846bf49faeadb6ecfac4b38000b1bff", null ],
     [ "assign", "classMR_1_1EdgeColors.html#ad48de439f751767acf4bb72cbcbbb0e5", null ],
     [ "autoResizeAt", "classMR_1_1EdgeColors.html#a5c1ad0686b164a1be7f202977ecbcf2b", null ],
     [ "autoResizeSet", "classMR_1_1EdgeColors.html#a37bc80844820ad0a58e1ff65a7fc99ef", null ],

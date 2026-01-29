@@ -8,6 +8,8 @@ var classMR_1_1Const__Object =
     [ "classNameInPlural", "classMR_1_1Const__Object.html#a572cb45556d45a0b24f4ec547005c398", null ],
     [ "clone", "classMR_1_1Const__Object.html#ae60cad5effd964ec06f7df2ba6d24591", null ],
     [ "cloneTree", "classMR_1_1Const__Object.html#ac63401674377d244d24dd8370f93cb1d", null ],
+    [ "Dispose", "classMR_1_1Const__Object.html#ae8fd02ea186677e346b908348e4173d1", null ],
+    [ "Dispose", "classMR_1_1Const__Object.html#ac72feb51ffa1555cace2e53b65a98964", null ],
     [ "find", "classMR_1_1Const__Object.html#a970f9c71d943bc470ff72049dacdf44a", null ],
     [ "findCommonAncestor", "classMR_1_1Const__Object.html#a0cf58ca9074b2ddee53ba2ec0d9adec7", null ],
     [ "getInfoLines", "classMR_1_1Const__Object.html#adbad9fc8e95409f5696c061e8051a4a9", null ],
@@ -29,6 +31,7 @@ var classMR_1_1Const__Object =
     [ "isSelected", "classMR_1_1Const__Object.html#adca72961c36e326e095660a1e9cc13a8", null ],
     [ "isVisible", "classMR_1_1Const__Object.html#a2c8842187d6b1535519293ab492c32e7", null ],
     [ "name", "classMR_1_1Const__Object.html#aff37b16127d7bfe2afba90952dc9fc06", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__Object.html#a3fefc6704856cfd46f008e3003d2e845", null ],
     [ "parent", "classMR_1_1Const__Object.html#abb23e26306283c5947ad36f1554861c3", null ],
     [ "resetRedrawFlag", "classMR_1_1Const__Object.html#acf27b22954bb303c09c2e0d5f21f6044", null ],
     [ "sameModels", "classMR_1_1Const__Object.html#a67e4662bf242581f76a2a309b0e74e2c", null ],
@@ -42,6 +45,5 @@ var classMR_1_1Const__Object =
     [ "visibilityMask", "classMR_1_1Const__Object.html#ab787e0b7ee43cd958932f474ff01f27d", null ],
     [ "worldXf", "classMR_1_1Const__Object.html#a703a51e9af952a986809091543b246cd", null ],
     [ "xf", "classMR_1_1Const__Object.html#a46a3ff60e9e655a4e6d26908595b429c", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__Object.html#a75adfe058c919c11aebea2bdbe16ac4b", null ],
-    [ "_IsOwning", "classMR_1_1Const__Object.html#a0960e94d9a57094ddc433e479e5c7477", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__Object.html#a75adfe058c919c11aebea2bdbe16ac4b", null ]
 ];

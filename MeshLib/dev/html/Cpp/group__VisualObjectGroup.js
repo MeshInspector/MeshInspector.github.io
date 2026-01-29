@@ -15,7 +15,8 @@ var group__VisualObjectGroup =
       [ "Dirty", "../Csharp/classMR_1_1Dirty.html#a638c9a0eb804875fbb233118a9861750", null ],
       [ "assign", "../Csharp/classMR_1_1Dirty.html#a16dc21b9f6670b7a9af6d7109268fb92", null ],
       [ "assign", "../Csharp/classMR_1_1Dirty.html#a41ac3d51fbb699d0751b0f3f22f7bea7", null ],
-      [ "convertTo_UnsignedIntRef", "../Csharp/classMR_1_1Dirty.html#aadc5f0701f10a701f5e9d10d352333b0", null ]
+      [ "convertTo_UnsignedIntRef", "../Csharp/classMR_1_1Dirty.html#aadc5f0701f10a701f5e9d10d352333b0", null ],
+      [ "f", "../Csharp/classMR_1_1Dirty.html#a0df442d7b9184dfb6c24eb5bd214787a", null ]
     ] ],
     [ "MR::VisualObject", "../Csharp/classMR_1_1VisualObject.html", [
       [ "VisualObject", "../Csharp/classMR_1_1VisualObject.html#a1a2947d0fc7d25c529942b8219766825", null ],
@@ -66,5 +67,6 @@ var group__VisualObjectGroup =
       [ "toggleVisualizeProperty", "../Csharp/classMR_1_1VisualObject.html#a641fea3aa6a0bdd74b495ffc5aeffe3d", null ]
     ] ],
     [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
-    [ "MR::DirtyFlags", "group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269", null ]
+    [ "MR::DirtyFlags", "group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269", null ],
+    [ "MR::VisualizeMaskType", "../Csharp/classMR.html#a93c701ffcc6efc02cd75b0925eb9c829", null ]
 ];

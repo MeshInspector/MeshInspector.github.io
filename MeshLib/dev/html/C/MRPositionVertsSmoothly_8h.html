@@ -152,8 +152,8 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h.html',''); initResizable(tr
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/common.h&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -184,175 +184,175 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac264fe91d9e7f00e6acc7f2184e0af54" id="r_ac264fe91d9e7f00e6acc7f2184e0af54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac264fe91d9e7f00e6acc7f2184e0af54">MR_positionVertsSmoothly_5</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
+<tr class="memitem:ac264fe91d9e7f00e6acc7f2184e0af54" id="r_ac264fe91d9e7f00e6acc7f2184e0af54"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac264fe91d9e7f00e6acc7f2184e0af54">MR_positionVertsSmoothly_5</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
 <tr class="separator:ac264fe91d9e7f00e6acc7f2184e0af54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936f1658b7a503c88e4674b1a766b8ca" id="r_a936f1658b7a503c88e4674b1a766b8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936f1658b7a503c88e4674b1a766b8ca">MR_positionVertsSmoothly_6</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
+<tr class="memitem:a936f1658b7a503c88e4674b1a766b8ca" id="r_a936f1658b7a503c88e4674b1a766b8ca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936f1658b7a503c88e4674b1a766b8ca">MR_positionVertsSmoothly_6</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *edgeWeights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fixedSharpVertices)</td></tr>
 <tr class="separator:a936f1658b7a503c88e4674b1a766b8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad178be71e5aa549d3e5735d7713bce9" id="r_aad178be71e5aa549d3e5735d7713bce9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad178be71e5aa549d3e5735d7713bce9">MR_PositionVertsSmoothlyParams_Get_region</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:aad178be71e5aa549d3e5735d7713bce9" id="r_aad178be71e5aa549d3e5735d7713bce9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad178be71e5aa549d3e5735d7713bce9">MR_PositionVertsSmoothlyParams_Get_region</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:aad178be71e5aa549d3e5735d7713bce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b0aa7a32f32c02b8e18fa8b62768d57" id="r_a9b0aa7a32f32c02b8e18fa8b62768d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0aa7a32f32c02b8e18fa8b62768d57">MR_PositionVertsSmoothlyParams_Set_region</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:a9b0aa7a32f32c02b8e18fa8b62768d57" id="r_a9b0aa7a32f32c02b8e18fa8b62768d57"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0aa7a32f32c02b8e18fa8b62768d57">MR_PositionVertsSmoothlyParams_Set_region</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="separator:a9b0aa7a32f32c02b8e18fa8b62768d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d740d8f5b7de3767a7c463ff5aeb93e" id="r_a2d740d8f5b7de3767a7c463ff5aeb93e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d740d8f5b7de3767a7c463ff5aeb93e">MR_PositionVertsSmoothlyParams_GetMutable_region</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a2d740d8f5b7de3767a7c463ff5aeb93e" id="r_a2d740d8f5b7de3767a7c463ff5aeb93e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d740d8f5b7de3767a7c463ff5aeb93e">MR_PositionVertsSmoothlyParams_GetMutable_region</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:a2d740d8f5b7de3767a7c463ff5aeb93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a21a23b6eb1a0693488f0dba3bb4862" id="r_a0a21a23b6eb1a0693488f0dba3bb4862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a21a23b6eb1a0693488f0dba3bb4862">MR_PositionVertsSmoothlyParams_Get_vertShifts</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a0a21a23b6eb1a0693488f0dba3bb4862" id="r_a0a21a23b6eb1a0693488f0dba3bb4862"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a21a23b6eb1a0693488f0dba3bb4862">MR_PositionVertsSmoothlyParams_Get_vertShifts</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:a0a21a23b6eb1a0693488f0dba3bb4862"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30bce08bccb6ee3baaeae74612275f79" id="r_a30bce08bccb6ee3baaeae74612275f79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bce08bccb6ee3baaeae74612275f79">MR_PositionVertsSmoothlyParams_Set_vertShifts</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="memitem:a30bce08bccb6ee3baaeae74612275f79" id="r_a30bce08bccb6ee3baaeae74612275f79"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bce08bccb6ee3baaeae74612275f79">MR_PositionVertsSmoothlyParams_Set_vertShifts</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
 <tr class="separator:a30bce08bccb6ee3baaeae74612275f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed85a293fe6d949a285b1997e4087f2e" id="r_aed85a293fe6d949a285b1997e4087f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed85a293fe6d949a285b1997e4087f2e">MR_PositionVertsSmoothlyParams_GetMutable_vertShifts</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:aed85a293fe6d949a285b1997e4087f2e" id="r_aed85a293fe6d949a285b1997e4087f2e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed85a293fe6d949a285b1997e4087f2e">MR_PositionVertsSmoothlyParams_GetMutable_vertShifts</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:aed85a293fe6d949a285b1997e4087f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa73e0f38d04b843d6ec867b71b7c07" id="r_a7aa73e0f38d04b843d6ec867b71b7c07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa73e0f38d04b843d6ec867b71b7c07">MR_PositionVertsSmoothlyParams_Get_stabilizer</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a7aa73e0f38d04b843d6ec867b71b7c07" id="r_a7aa73e0f38d04b843d6ec867b71b7c07"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa73e0f38d04b843d6ec867b71b7c07">MR_PositionVertsSmoothlyParams_Get_stabilizer</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:a7aa73e0f38d04b843d6ec867b71b7c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495ba3efd7055223d3ce8afcb92898f7" id="r_a495ba3efd7055223d3ce8afcb92898f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a495ba3efd7055223d3ce8afcb92898f7">MR_PositionVertsSmoothlyParams_Set_stabilizer</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a495ba3efd7055223d3ce8afcb92898f7" id="r_a495ba3efd7055223d3ce8afcb92898f7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a495ba3efd7055223d3ce8afcb92898f7">MR_PositionVertsSmoothlyParams_Set_stabilizer</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, float value)</td></tr>
 <tr class="separator:a495ba3efd7055223d3ce8afcb92898f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d96daf1a24b176b303e89cf0d6ca66c" id="r_a8d96daf1a24b176b303e89cf0d6ca66c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d96daf1a24b176b303e89cf0d6ca66c">MR_PositionVertsSmoothlyParams_GetMutable_stabilizer</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a8d96daf1a24b176b303e89cf0d6ca66c" id="r_a8d96daf1a24b176b303e89cf0d6ca66c"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d96daf1a24b176b303e89cf0d6ca66c">MR_PositionVertsSmoothlyParams_GetMutable_stabilizer</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:a8d96daf1a24b176b303e89cf0d6ca66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad53fc95f0d9f0ef1cded11d31726fcb5" id="r_ad53fc95f0d9f0ef1cded11d31726fcb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53fc95f0d9f0ef1cded11d31726fcb5">MR_PositionVertsSmoothlyParams_Get_vertStabilizers</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:ad53fc95f0d9f0ef1cded11d31726fcb5" id="r_ad53fc95f0d9f0ef1cded11d31726fcb5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53fc95f0d9f0ef1cded11d31726fcb5">MR_PositionVertsSmoothlyParams_Get_vertStabilizers</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:ad53fc95f0d9f0ef1cded11d31726fcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac225787ed8b7157fe65d0a20baae41e2" id="r_ac225787ed8b7157fe65d0a20baae41e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac225787ed8b7157fe65d0a20baae41e2">MR_PositionVertsSmoothlyParams_Set_vertStabilizers</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *value)</td></tr>
+<tr class="memitem:ac225787ed8b7157fe65d0a20baae41e2" id="r_ac225787ed8b7157fe65d0a20baae41e2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac225787ed8b7157fe65d0a20baae41e2">MR_PositionVertsSmoothlyParams_Set_vertStabilizers</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *value)</td></tr>
 <tr class="separator:ac225787ed8b7157fe65d0a20baae41e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a315d4f8b1d1072f8abc3d9d440a5fade" id="r_a315d4f8b1d1072f8abc3d9d440a5fade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a315d4f8b1d1072f8abc3d9d440a5fade">MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a315d4f8b1d1072f8abc3d9d440a5fade" id="r_a315d4f8b1d1072f8abc3d9d440a5fade"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a315d4f8b1d1072f8abc3d9d440a5fade">MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:a315d4f8b1d1072f8abc3d9d440a5fade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3bd91bbfa6b6a5205a2e8b7c9258c55" id="r_aa3bd91bbfa6b6a5205a2e8b7c9258c55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3bd91bbfa6b6a5205a2e8b7c9258c55">MR_PositionVertsSmoothlyParams_Get_edgeWeights</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:aa3bd91bbfa6b6a5205a2e8b7c9258c55" id="r_aa3bd91bbfa6b6a5205a2e8b7c9258c55"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3bd91bbfa6b6a5205a2e8b7c9258c55">MR_PositionVertsSmoothlyParams_Get_edgeWeights</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:aa3bd91bbfa6b6a5205a2e8b7c9258c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51d2b9e2e40ac0c1164aadd85d5ce3f8" id="r_a51d2b9e2e40ac0c1164aadd85d5ce3f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d2b9e2e40ac0c1164aadd85d5ce3f8">MR_PositionVertsSmoothlyParams_Set_edgeWeights</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *value)</td></tr>
+<tr class="memitem:a51d2b9e2e40ac0c1164aadd85d5ce3f8" id="r_a51d2b9e2e40ac0c1164aadd85d5ce3f8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d2b9e2e40ac0c1164aadd85d5ce3f8">MR_PositionVertsSmoothlyParams_Set_edgeWeights</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, MR_PassBy value_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *value)</td></tr>
 <tr class="separator:a51d2b9e2e40ac0c1164aadd85d5ce3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c254e115e842898af9ec6df61fb9cf3" id="r_a7c254e115e842898af9ec6df61fb9cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c254e115e842898af9ec6df61fb9cf3">MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a7c254e115e842898af9ec6df61fb9cf3" id="r_a7c254e115e842898af9ec6df61fb9cf3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c254e115e842898af9ec6df61fb9cf3">MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="separator:a7c254e115e842898af9ec6df61fb9cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4704d0f834e75fb40788521498fffd25" id="r_a4704d0f834e75fb40788521498fffd25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4704d0f834e75fb40788521498fffd25">MR_PositionVertsSmoothlyParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a4704d0f834e75fb40788521498fffd25" id="r_a4704d0f834e75fb40788521498fffd25"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4704d0f834e75fb40788521498fffd25">MR_PositionVertsSmoothlyParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a4704d0f834e75fb40788521498fffd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a818f707c9d6d86d9d4d5c0fac7f083b8" id="r_a818f707c9d6d86d9d4d5c0fac7f083b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818f707c9d6d86d9d4d5c0fac7f083b8">MR_PositionVertsSmoothlyParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a818f707c9d6d86d9d4d5c0fac7f083b8" id="r_a818f707c9d6d86d9d4d5c0fac7f083b8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818f707c9d6d86d9d4d5c0fac7f083b8">MR_PositionVertsSmoothlyParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a818f707c9d6d86d9d4d5c0fac7f083b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcdfdf58c92eaa3bb2f8437342eed157" id="r_abcdfdf58c92eaa3bb2f8437342eed157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcdfdf58c92eaa3bb2f8437342eed157">MR_PositionVertsSmoothlyParams_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *vertShifts, float stabilizer, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> vertStabilizers_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *vertStabilizers, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> edgeWeights_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *edgeWeights)</td></tr>
+<tr class="memitem:abcdfdf58c92eaa3bb2f8437342eed157" id="r_abcdfdf58c92eaa3bb2f8437342eed157"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcdfdf58c92eaa3bb2f8437342eed157">MR_PositionVertsSmoothlyParams_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *vertShifts, float stabilizer, MR_PassBy vertStabilizers_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *vertStabilizers, MR_PassBy edgeWeights_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *edgeWeights)</td></tr>
 <tr class="separator:abcdfdf58c92eaa3bb2f8437342eed157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af259531ac28a990b34ea1f037c8a0611" id="r_af259531ac28a990b34ea1f037c8a0611"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af259531ac28a990b34ea1f037c8a0611">MR_PositionVertsSmoothlyParams_OffsetPtr</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af259531ac28a990b34ea1f037c8a0611" id="r_af259531ac28a990b34ea1f037c8a0611"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af259531ac28a990b34ea1f037c8a0611">MR_PositionVertsSmoothlyParams_OffsetPtr</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:af259531ac28a990b34ea1f037c8a0611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5366a88dbe1aab126442b3eaa1504e1" id="r_ad5366a88dbe1aab126442b3eaa1504e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5366a88dbe1aab126442b3eaa1504e1">MR_PositionVertsSmoothlyParams_OffsetMutablePtr</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ad5366a88dbe1aab126442b3eaa1504e1" id="r_ad5366a88dbe1aab126442b3eaa1504e1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5366a88dbe1aab126442b3eaa1504e1">MR_PositionVertsSmoothlyParams_OffsetMutablePtr</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:ad5366a88dbe1aab126442b3eaa1504e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4439fd887782bab41a4b94aca56040f1" id="r_a4439fd887782bab41a4b94aca56040f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4439fd887782bab41a4b94aca56040f1">MR_PositionVertsSmoothlyParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_other)</td></tr>
+<tr class="memitem:a4439fd887782bab41a4b94aca56040f1" id="r_a4439fd887782bab41a4b94aca56040f1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4439fd887782bab41a4b94aca56040f1">MR_PositionVertsSmoothlyParams_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_other)</td></tr>
 <tr class="separator:a4439fd887782bab41a4b94aca56040f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3751cfec47bcc96afd09ebfdf214d0e" id="r_ab3751cfec47bcc96afd09ebfdf214d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3751cfec47bcc96afd09ebfdf214d0e">MR_PositionVertsSmoothlyParams_Destroy</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:ab3751cfec47bcc96afd09ebfdf214d0e" id="r_ab3751cfec47bcc96afd09ebfdf214d0e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3751cfec47bcc96afd09ebfdf214d0e">MR_PositionVertsSmoothlyParams_Destroy</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="memdesc:ab3751cfec47bcc96afd09ebfdf214d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PositionVertsSmoothlyParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ab3751cfec47bcc96afd09ebfdf214d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a78c0f555279bc1761ae3f01d9a264" id="r_a12a78c0f555279bc1761ae3f01d9a264"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a78c0f555279bc1761ae3f01d9a264">MR_PositionVertsSmoothlyParams_DestroyArray</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
+<tr class="memitem:a12a78c0f555279bc1761ae3f01d9a264" id="r_a12a78c0f555279bc1761ae3f01d9a264"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a78c0f555279bc1761ae3f01d9a264">MR_PositionVertsSmoothlyParams_DestroyArray</a> (const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this)</td></tr>
 <tr class="memdesc:a12a78c0f555279bc1761ae3f01d9a264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PositionVertsSmoothlyParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a12a78c0f555279bc1761ae3f01d9a264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2794542fd7d28b913af0694a0b881d81" id="r_a2794542fd7d28b913af0694a0b881d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2794542fd7d28b913af0694a0b881d81">MR_PositionVertsSmoothlyParams_AssignFromAnother</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_other)</td></tr>
+<tr class="memitem:a2794542fd7d28b913af0694a0b881d81" id="r_a2794542fd7d28b913af0694a0b881d81"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2794542fd7d28b913af0694a0b881d81">MR_PositionVertsSmoothlyParams_AssignFromAnother</a> (<a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_this, MR_PassBy _other_pass_by, <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *_other)</td></tr>
 <tr class="separator:a2794542fd7d28b913af0694a0b881d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abecc467d5183327b99fb181d6a266e00" id="r_abecc467d5183327b99fb181d6a266e00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abecc467d5183327b99fb181d6a266e00">MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
+<tr class="memitem:abecc467d5183327b99fb181d6a266e00" id="r_abecc467d5183327b99fb181d6a266e00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abecc467d5183327b99fb181d6a266e00">MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
 <tr class="separator:abecc467d5183327b99fb181d6a266e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a976b08c78372e27987dfe13d3a2a20fd" id="r_a976b08c78372e27987dfe13d3a2a20fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976b08c78372e27987dfe13d3a2a20fd">MR_positionVertsSmoothlySharpBd_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
+<tr class="memitem:a976b08c78372e27987dfe13d3a2a20fd" id="r_a976b08c78372e27987dfe13d3a2a20fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976b08c78372e27987dfe13d3a2a20fd">MR_positionVertsSmoothlySharpBd_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
 <tr class="separator:a976b08c78372e27987dfe13d3a2a20fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add13f88efa95f038b4106254dd27d746" id="r_add13f88efa95f038b4106254dd27d746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a6cc2b78a67b0b3773417b073b9b28af7">MRC_DEPRECATED</a> <a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add13f88efa95f038b4106254dd27d746">MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="memitem:add13f88efa95f038b4106254dd27d746" id="r_add13f88efa95f038b4106254dd27d746"><td class="memItemLeft" align="right" valign="top">MRC_DEPRECATED MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add13f88efa95f038b4106254dd27d746">MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
 <tr class="separator:add13f88efa95f038b4106254dd27d746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4de621a570c2227a7ad8bb6ece5d928" id="r_aa4de621a570c2227a7ad8bb6ece5d928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4de621a570c2227a7ad8bb6ece5d928">MR_SpacingSettings_Get_region</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:aa4de621a570c2227a7ad8bb6ece5d928" id="r_aa4de621a570c2227a7ad8bb6ece5d928"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4de621a570c2227a7ad8bb6ece5d928">MR_SpacingSettings_Get_region</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:aa4de621a570c2227a7ad8bb6ece5d928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63e4a2a661f33618e34bdbdb21dc481b" id="r_a63e4a2a661f33618e34bdbdb21dc481b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e4a2a661f33618e34bdbdb21dc481b">MR_SpacingSettings_Set_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:a63e4a2a661f33618e34bdbdb21dc481b" id="r_a63e4a2a661f33618e34bdbdb21dc481b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e4a2a661f33618e34bdbdb21dc481b">MR_SpacingSettings_Set_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="separator:a63e4a2a661f33618e34bdbdb21dc481b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a963de22818206b285fb838aecbfe8b7d" id="r_a963de22818206b285fb838aecbfe8b7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963de22818206b285fb838aecbfe8b7d">MR_SpacingSettings_GetMutable_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a963de22818206b285fb838aecbfe8b7d" id="r_a963de22818206b285fb838aecbfe8b7d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963de22818206b285fb838aecbfe8b7d">MR_SpacingSettings_GetMutable_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a963de22818206b285fb838aecbfe8b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a295aacec501e7d627ea75dd3d54d93a2" id="r_a295aacec501e7d627ea75dd3d54d93a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a295aacec501e7d627ea75dd3d54d93a2">MR_SpacingSettings_Get_dist</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a295aacec501e7d627ea75dd3d54d93a2" id="r_a295aacec501e7d627ea75dd3d54d93a2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a295aacec501e7d627ea75dd3d54d93a2">MR_SpacingSettings_Get_dist</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a295aacec501e7d627ea75dd3d54d93a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3423f366aa0f0ff4ca64284621b8cf55" id="r_a3423f366aa0f0ff4ca64284621b8cf55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3423f366aa0f0ff4ca64284621b8cf55">MR_SpacingSettings_Set_dist</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *value)</td></tr>
+<tr class="memitem:a3423f366aa0f0ff4ca64284621b8cf55" id="r_a3423f366aa0f0ff4ca64284621b8cf55"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3423f366aa0f0ff4ca64284621b8cf55">MR_SpacingSettings_Set_dist</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, MR_PassBy value_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *value)</td></tr>
 <tr class="separator:a3423f366aa0f0ff4ca64284621b8cf55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2698e0876d41b7677526171d7d74ecd" id="r_ae2698e0876d41b7677526171d7d74ecd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2698e0876d41b7677526171d7d74ecd">MR_SpacingSettings_GetMutable_dist</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:ae2698e0876d41b7677526171d7d74ecd" id="r_ae2698e0876d41b7677526171d7d74ecd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2698e0876d41b7677526171d7d74ecd">MR_SpacingSettings_GetMutable_dist</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:ae2698e0876d41b7677526171d7d74ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0708eea2c38035fb8a90fd83c0b72b22" id="r_a0708eea2c38035fb8a90fd83c0b72b22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0708eea2c38035fb8a90fd83c0b72b22">MR_SpacingSettings_Get_numIters</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a0708eea2c38035fb8a90fd83c0b72b22" id="r_a0708eea2c38035fb8a90fd83c0b72b22"><td class="memItemLeft" align="right" valign="top">MRC_API const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0708eea2c38035fb8a90fd83c0b72b22">MR_SpacingSettings_Get_numIters</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a0708eea2c38035fb8a90fd83c0b72b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d8a8431f5fe6ab5b2e76e5a62cb70f" id="r_a53d8a8431f5fe6ab5b2e76e5a62cb70f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d8a8431f5fe6ab5b2e76e5a62cb70f">MR_SpacingSettings_Set_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, int value)</td></tr>
+<tr class="memitem:a53d8a8431f5fe6ab5b2e76e5a62cb70f" id="r_a53d8a8431f5fe6ab5b2e76e5a62cb70f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d8a8431f5fe6ab5b2e76e5a62cb70f">MR_SpacingSettings_Set_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, int value)</td></tr>
 <tr class="separator:a53d8a8431f5fe6ab5b2e76e5a62cb70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc56288eba720f756f3f4229f27c3761" id="r_afc56288eba720f756f3f4229f27c3761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc56288eba720f756f3f4229f27c3761">MR_SpacingSettings_GetMutable_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:afc56288eba720f756f3f4229f27c3761" id="r_afc56288eba720f756f3f4229f27c3761"><td class="memItemLeft" align="right" valign="top">MRC_API int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc56288eba720f756f3f4229f27c3761">MR_SpacingSettings_GetMutable_numIters</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:afc56288eba720f756f3f4229f27c3761"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5da0dc88c9af2b98aa854c926d2bcb3b" id="r_a5da0dc88c9af2b98aa854c926d2bcb3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da0dc88c9af2b98aa854c926d2bcb3b">MR_SpacingSettings_Get_stabilizer</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a5da0dc88c9af2b98aa854c926d2bcb3b" id="r_a5da0dc88c9af2b98aa854c926d2bcb3b"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da0dc88c9af2b98aa854c926d2bcb3b">MR_SpacingSettings_Get_stabilizer</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a5da0dc88c9af2b98aa854c926d2bcb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0df93afc27de3f4565301dcb16661bcf" id="r_a0df93afc27de3f4565301dcb16661bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0df93afc27de3f4565301dcb16661bcf">MR_SpacingSettings_Set_stabilizer</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a0df93afc27de3f4565301dcb16661bcf" id="r_a0df93afc27de3f4565301dcb16661bcf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0df93afc27de3f4565301dcb16661bcf">MR_SpacingSettings_Set_stabilizer</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a0df93afc27de3f4565301dcb16661bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a958c1e132b6150aa9a5555c55b23c708" id="r_a958c1e132b6150aa9a5555c55b23c708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a958c1e132b6150aa9a5555c55b23c708">MR_SpacingSettings_GetMutable_stabilizer</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a958c1e132b6150aa9a5555c55b23c708" id="r_a958c1e132b6150aa9a5555c55b23c708"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a958c1e132b6150aa9a5555c55b23c708">MR_SpacingSettings_GetMutable_stabilizer</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a958c1e132b6150aa9a5555c55b23c708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac444da328e74fb710b5e5164798bff02" id="r_ac444da328e74fb710b5e5164798bff02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac444da328e74fb710b5e5164798bff02">MR_SpacingSettings_Get_maxSumNegW</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:ac444da328e74fb710b5e5164798bff02" id="r_ac444da328e74fb710b5e5164798bff02"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac444da328e74fb710b5e5164798bff02">MR_SpacingSettings_Get_maxSumNegW</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:ac444da328e74fb710b5e5164798bff02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09a48092fed95a15e3f77a2e1af0fb78" id="r_a09a48092fed95a15e3f77a2e1af0fb78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09a48092fed95a15e3f77a2e1af0fb78">MR_SpacingSettings_Set_maxSumNegW</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a09a48092fed95a15e3f77a2e1af0fb78" id="r_a09a48092fed95a15e3f77a2e1af0fb78"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09a48092fed95a15e3f77a2e1af0fb78">MR_SpacingSettings_Set_maxSumNegW</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a09a48092fed95a15e3f77a2e1af0fb78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa91153ab56f14181d8b36f6d1e810d86" id="r_aa91153ab56f14181d8b36f6d1e810d86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91153ab56f14181d8b36f6d1e810d86">MR_SpacingSettings_GetMutable_maxSumNegW</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:aa91153ab56f14181d8b36f6d1e810d86" id="r_aa91153ab56f14181d8b36f6d1e810d86"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91153ab56f14181d8b36f6d1e810d86">MR_SpacingSettings_GetMutable_maxSumNegW</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:aa91153ab56f14181d8b36f6d1e810d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1091df714f358bb5b42d8724c02bb0f9" id="r_a1091df714f358bb5b42d8724c02bb0f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1091df714f358bb5b42d8724c02bb0f9">MR_SpacingSettings_Get_isInverted</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a1091df714f358bb5b42d8724c02bb0f9" id="r_a1091df714f358bb5b42d8724c02bb0f9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1091df714f358bb5b42d8724c02bb0f9">MR_SpacingSettings_Get_isInverted</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a1091df714f358bb5b42d8724c02bb0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55a0262e31c6f95983b14c637eaf4f0" id="r_ac55a0262e31c6f95983b14c637eaf4f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55a0262e31c6f95983b14c637eaf4f0">MR_SpacingSettings_Set_isInverted</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *value)</td></tr>
+<tr class="memitem:ac55a0262e31c6f95983b14c637eaf4f0" id="r_ac55a0262e31c6f95983b14c637eaf4f0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55a0262e31c6f95983b14c637eaf4f0">MR_SpacingSettings_Set_isInverted</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *value)</td></tr>
 <tr class="separator:ac55a0262e31c6f95983b14c637eaf4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993b90722eba52c732eb0e210d0b5b35" id="r_a993b90722eba52c732eb0e210d0b5b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993b90722eba52c732eb0e210d0b5b35">MR_SpacingSettings_GetMutable_isInverted</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a993b90722eba52c732eb0e210d0b5b35" id="r_a993b90722eba52c732eb0e210d0b5b35"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993b90722eba52c732eb0e210d0b5b35">MR_SpacingSettings_GetMutable_isInverted</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="separator:a993b90722eba52c732eb0e210d0b5b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d4c96f65ab64f7b18d90d23bc25ee1a" id="r_a9d4c96f65ab64f7b18d90d23bc25ee1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d4c96f65ab64f7b18d90d23bc25ee1a">MR_SpacingSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a9d4c96f65ab64f7b18d90d23bc25ee1a" id="r_a9d4c96f65ab64f7b18d90d23bc25ee1a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d4c96f65ab64f7b18d90d23bc25ee1a">MR_SpacingSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a9d4c96f65ab64f7b18d90d23bc25ee1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad43b541f21dd03ae8a3fdbe0617242a4" id="r_ad43b541f21dd03ae8a3fdbe0617242a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43b541f21dd03ae8a3fdbe0617242a4">MR_SpacingSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ad43b541f21dd03ae8a3fdbe0617242a4" id="r_ad43b541f21dd03ae8a3fdbe0617242a4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43b541f21dd03ae8a3fdbe0617242a4">MR_SpacingSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ad43b541f21dd03ae8a3fdbe0617242a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af209b13efc80e52883a0801eee9b9ba9" id="r_af209b13efc80e52883a0801eee9b9ba9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af209b13efc80e52883a0801eee9b9ba9">MR_SpacingSettings_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> dist_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *dist, int numIters, float stabilizer, float maxSumNegW, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> isInverted_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *isInverted)</td></tr>
+<tr class="memitem:af209b13efc80e52883a0801eee9b9ba9" id="r_af209b13efc80e52883a0801eee9b9ba9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af209b13efc80e52883a0801eee9b9ba9">MR_SpacingSettings_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, MR_PassBy dist_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *dist, int numIters, float stabilizer, float maxSumNegW, MR_PassBy isInverted_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> *isInverted)</td></tr>
 <tr class="separator:af209b13efc80e52883a0801eee9b9ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11285f700bcdde458814eb55f547f707" id="r_a11285f700bcdde458814eb55f547f707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11285f700bcdde458814eb55f547f707">MR_SpacingSettings_OffsetPtr</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a11285f700bcdde458814eb55f547f707" id="r_a11285f700bcdde458814eb55f547f707"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11285f700bcdde458814eb55f547f707">MR_SpacingSettings_OffsetPtr</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a11285f700bcdde458814eb55f547f707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40d2898bb7911ce57dbc79cf2a2a465f" id="r_a40d2898bb7911ce57dbc79cf2a2a465f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d2898bb7911ce57dbc79cf2a2a465f">MR_SpacingSettings_OffsetMutablePtr</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a40d2898bb7911ce57dbc79cf2a2a465f" id="r_a40d2898bb7911ce57dbc79cf2a2a465f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d2898bb7911ce57dbc79cf2a2a465f">MR_SpacingSettings_OffsetMutablePtr</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a40d2898bb7911ce57dbc79cf2a2a465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b0ba3015ed539a8126bf6289674389f" id="r_a3b0ba3015ed539a8126bf6289674389f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b0ba3015ed539a8126bf6289674389f">MR_SpacingSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_other)</td></tr>
+<tr class="memitem:a3b0ba3015ed539a8126bf6289674389f" id="r_a3b0ba3015ed539a8126bf6289674389f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b0ba3015ed539a8126bf6289674389f">MR_SpacingSettings_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_other)</td></tr>
 <tr class="separator:a3b0ba3015ed539a8126bf6289674389f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7befd208800c27e60bf3922b1921de73" id="r_a7befd208800c27e60bf3922b1921de73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7befd208800c27e60bf3922b1921de73">MR_SpacingSettings_Destroy</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:a7befd208800c27e60bf3922b1921de73" id="r_a7befd208800c27e60bf3922b1921de73"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7befd208800c27e60bf3922b1921de73">MR_SpacingSettings_Destroy</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="memdesc:a7befd208800c27e60bf3922b1921de73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SpacingSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7befd208800c27e60bf3922b1921de73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f394c3570ce8873ccf41cd94922630" id="r_af2f394c3570ce8873ccf41cd94922630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f394c3570ce8873ccf41cd94922630">MR_SpacingSettings_DestroyArray</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
+<tr class="memitem:af2f394c3570ce8873ccf41cd94922630" id="r_af2f394c3570ce8873ccf41cd94922630"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f394c3570ce8873ccf41cd94922630">MR_SpacingSettings_DestroyArray</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="memdesc:af2f394c3570ce8873ccf41cd94922630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SpacingSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:af2f394c3570ce8873ccf41cd94922630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc10d7c32a88e7423876f4f51b44bf5c" id="r_adc10d7c32a88e7423876f4f51b44bf5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc10d7c32a88e7423876f4f51b44bf5c">MR_SpacingSettings_AssignFromAnother</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_other)</td></tr>
+<tr class="memitem:adc10d7c32a88e7423876f4f51b44bf5c" id="r_adc10d7c32a88e7423876f4f51b44bf5c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc10d7c32a88e7423876f4f51b44bf5c">MR_SpacingSettings_AssignFromAnother</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, MR_PassBy _other_pass_by, <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_other)</td></tr>
 <tr class="separator:adc10d7c32a88e7423876f4f51b44bf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f92733074cd2f848a3b80a5aa43a69d" id="r_a3f92733074cd2f848a3b80a5aa43a69d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f92733074cd2f848a3b80a5aa43a69d">MR_positionVertsWithSpacing_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *settings)</td></tr>
+<tr class="memitem:a3f92733074cd2f848a3b80a5aa43a69d" id="r_a3f92733074cd2f848a3b80a5aa43a69d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f92733074cd2f848a3b80a5aa43a69d">MR_positionVertsWithSpacing_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *settings)</td></tr>
 <tr class="separator:a3f92733074cd2f848a3b80a5aa43a69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3cc06f3d8fc1f923159339747100d2c" id="r_af3cc06f3d8fc1f923159339747100d2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3cc06f3d8fc1f923159339747100d2c">MR_positionVertsWithSpacing_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *settings)</td></tr>
+<tr class="memitem:af3cc06f3d8fc1f923159339747100d2c" id="r_af3cc06f3d8fc1f923159339747100d2c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3cc06f3d8fc1f923159339747100d2c">MR_positionVertsWithSpacing_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *settings)</td></tr>
 <tr class="separator:af3cc06f3d8fc1f923159339747100d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53db43d1cd28c1cfa0ec9f27846fa963" id="r_a53db43d1cd28c1cfa0ec9f27846fa963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53db43d1cd28c1cfa0ec9f27846fa963">MR_InflateSettings_Get_pressure</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:a53db43d1cd28c1cfa0ec9f27846fa963" id="r_a53db43d1cd28c1cfa0ec9f27846fa963"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53db43d1cd28c1cfa0ec9f27846fa963">MR_InflateSettings_Get_pressure</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:a53db43d1cd28c1cfa0ec9f27846fa963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2582c7793a8ea7885c793122e42ec4f" id="r_af2582c7793a8ea7885c793122e42ec4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2582c7793a8ea7885c793122e42ec4f">MR_InflateSettings_Set_pressure</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:af2582c7793a8ea7885c793122e42ec4f" id="r_af2582c7793a8ea7885c793122e42ec4f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2582c7793a8ea7885c793122e42ec4f">MR_InflateSettings_Set_pressure</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, float value)</td></tr>
 <tr class="separator:af2582c7793a8ea7885c793122e42ec4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade90e9aaa88f5d9fd79992366c4ff0ff" id="r_ade90e9aaa88f5d9fd79992366c4ff0ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade90e9aaa88f5d9fd79992366c4ff0ff">MR_InflateSettings_GetMutable_pressure</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:ade90e9aaa88f5d9fd79992366c4ff0ff" id="r_ade90e9aaa88f5d9fd79992366c4ff0ff"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade90e9aaa88f5d9fd79992366c4ff0ff">MR_InflateSettings_GetMutable_pressure</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:ade90e9aaa88f5d9fd79992366c4ff0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83161540b4a41f29c84ea4af233d1146" id="r_a83161540b4a41f29c84ea4af233d1146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83161540b4a41f29c84ea4af233d1146">MR_InflateSettings_Get_iterations</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:a83161540b4a41f29c84ea4af233d1146" id="r_a83161540b4a41f29c84ea4af233d1146"><td class="memItemLeft" align="right" valign="top">MRC_API const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83161540b4a41f29c84ea4af233d1146">MR_InflateSettings_Get_iterations</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:a83161540b4a41f29c84ea4af233d1146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a646b5479a5811b0905c7485f502eade4" id="r_a646b5479a5811b0905c7485f502eade4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646b5479a5811b0905c7485f502eade4">MR_InflateSettings_Set_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, int value)</td></tr>
+<tr class="memitem:a646b5479a5811b0905c7485f502eade4" id="r_a646b5479a5811b0905c7485f502eade4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646b5479a5811b0905c7485f502eade4">MR_InflateSettings_Set_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, int value)</td></tr>
 <tr class="separator:a646b5479a5811b0905c7485f502eade4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad811a0d3fd08a34b26102f4276caab0a" id="r_ad811a0d3fd08a34b26102f4276caab0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad811a0d3fd08a34b26102f4276caab0a">MR_InflateSettings_GetMutable_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:ad811a0d3fd08a34b26102f4276caab0a" id="r_ad811a0d3fd08a34b26102f4276caab0a"><td class="memItemLeft" align="right" valign="top">MRC_API int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad811a0d3fd08a34b26102f4276caab0a">MR_InflateSettings_GetMutable_iterations</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:ad811a0d3fd08a34b26102f4276caab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b3c649510826401f4620b1e5149f77c" id="r_a3b3c649510826401f4620b1e5149f77c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3c649510826401f4620b1e5149f77c">MR_InflateSettings_Get_preSmooth</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:a3b3c649510826401f4620b1e5149f77c" id="r_a3b3c649510826401f4620b1e5149f77c"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3c649510826401f4620b1e5149f77c">MR_InflateSettings_Get_preSmooth</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:a3b3c649510826401f4620b1e5149f77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda5cd6e9dbbb119268c350dd76a1d03" id="r_adda5cd6e9dbbb119268c350dd76a1d03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda5cd6e9dbbb119268c350dd76a1d03">MR_InflateSettings_Set_preSmooth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:adda5cd6e9dbbb119268c350dd76a1d03" id="r_adda5cd6e9dbbb119268c350dd76a1d03"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda5cd6e9dbbb119268c350dd76a1d03">MR_InflateSettings_Set_preSmooth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:adda5cd6e9dbbb119268c350dd76a1d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaedd481aa189552e3eccc63888cd55e4" id="r_aaedd481aa189552e3eccc63888cd55e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaedd481aa189552e3eccc63888cd55e4">MR_InflateSettings_GetMutable_preSmooth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:aaedd481aa189552e3eccc63888cd55e4" id="r_aaedd481aa189552e3eccc63888cd55e4"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaedd481aa189552e3eccc63888cd55e4">MR_InflateSettings_GetMutable_preSmooth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:aaedd481aa189552e3eccc63888cd55e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02847ad4eceb79617b8d340d702754e3" id="r_a02847ad4eceb79617b8d340d702754e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02847ad4eceb79617b8d340d702754e3">MR_InflateSettings_Get_gradualPressureGrowth</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:a02847ad4eceb79617b8d340d702754e3" id="r_a02847ad4eceb79617b8d340d702754e3"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02847ad4eceb79617b8d340d702754e3">MR_InflateSettings_Get_gradualPressureGrowth</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:a02847ad4eceb79617b8d340d702754e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07bdcfc2176fb6a54b7de8269512d4a0" id="r_a07bdcfc2176fb6a54b7de8269512d4a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07bdcfc2176fb6a54b7de8269512d4a0">MR_InflateSettings_Set_gradualPressureGrowth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:a07bdcfc2176fb6a54b7de8269512d4a0" id="r_a07bdcfc2176fb6a54b7de8269512d4a0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07bdcfc2176fb6a54b7de8269512d4a0">MR_InflateSettings_Set_gradualPressureGrowth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:a07bdcfc2176fb6a54b7de8269512d4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcf41f945f4499eeeb2a39a0cb9ef48e" id="r_afcf41f945f4499eeeb2a39a0cb9ef48e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf41f945f4499eeeb2a39a0cb9ef48e">MR_InflateSettings_GetMutable_gradualPressureGrowth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:afcf41f945f4499eeeb2a39a0cb9ef48e" id="r_afcf41f945f4499eeeb2a39a0cb9ef48e"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf41f945f4499eeeb2a39a0cb9ef48e">MR_InflateSettings_GetMutable_gradualPressureGrowth</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="separator:afcf41f945f4499eeeb2a39a0cb9ef48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30af6e75758740cec8e8be0ad9181fa" id="r_ac30af6e75758740cec8e8be0ad9181fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30af6e75758740cec8e8be0ad9181fa">MR_InflateSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ac30af6e75758740cec8e8be0ad9181fa" id="r_ac30af6e75758740cec8e8be0ad9181fa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30af6e75758740cec8e8be0ad9181fa">MR_InflateSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ac30af6e75758740cec8e8be0ad9181fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a059f9c6181c42f1fa69b768b7933ac11" id="r_a059f9c6181c42f1fa69b768b7933ac11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a059f9c6181c42f1fa69b768b7933ac11">MR_InflateSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a059f9c6181c42f1fa69b768b7933ac11" id="r_a059f9c6181c42f1fa69b768b7933ac11"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a059f9c6181c42f1fa69b768b7933ac11">MR_InflateSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a059f9c6181c42f1fa69b768b7933ac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a2460f470a0d3dda34c0a48b7549ba" id="r_a12a2460f470a0d3dda34c0a48b7549ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a2460f470a0d3dda34c0a48b7549ba">MR_InflateSettings_ConstructFrom</a> (float pressure, int iterations, bool preSmooth, bool gradualPressureGrowth)</td></tr>
+<tr class="memitem:a12a2460f470a0d3dda34c0a48b7549ba" id="r_a12a2460f470a0d3dda34c0a48b7549ba"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a2460f470a0d3dda34c0a48b7549ba">MR_InflateSettings_ConstructFrom</a> (float pressure, int iterations, bool preSmooth, bool gradualPressureGrowth)</td></tr>
 <tr class="separator:a12a2460f470a0d3dda34c0a48b7549ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d367e2982b29985808263f56806fcdb" id="r_a4d367e2982b29985808263f56806fcdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d367e2982b29985808263f56806fcdb">MR_InflateSettings_OffsetPtr</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4d367e2982b29985808263f56806fcdb" id="r_a4d367e2982b29985808263f56806fcdb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d367e2982b29985808263f56806fcdb">MR_InflateSettings_OffsetPtr</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a4d367e2982b29985808263f56806fcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c9511dd7b365ca3e6da384c9dc7a1f" id="r_a05c9511dd7b365ca3e6da384c9dc7a1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c9511dd7b365ca3e6da384c9dc7a1f">MR_InflateSettings_OffsetMutablePtr</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a05c9511dd7b365ca3e6da384c9dc7a1f" id="r_a05c9511dd7b365ca3e6da384c9dc7a1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c9511dd7b365ca3e6da384c9dc7a1f">MR_InflateSettings_OffsetMutablePtr</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a05c9511dd7b365ca3e6da384c9dc7a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84e14cadb557b9573ec1808aa658fc1a" id="r_a84e14cadb557b9573ec1808aa658fc1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e14cadb557b9573ec1808aa658fc1a">MR_InflateSettings_ConstructFromAnother</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_other)</td></tr>
+<tr class="memitem:a84e14cadb557b9573ec1808aa658fc1a" id="r_a84e14cadb557b9573ec1808aa658fc1a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e14cadb557b9573ec1808aa658fc1a">MR_InflateSettings_ConstructFromAnother</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_other)</td></tr>
 <tr class="separator:a84e14cadb557b9573ec1808aa658fc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa41768440da921917757eef958f8781c" id="r_aa41768440da921917757eef958f8781c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa41768440da921917757eef958f8781c">MR_InflateSettings_Destroy</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:aa41768440da921917757eef958f8781c" id="r_aa41768440da921917757eef958f8781c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa41768440da921917757eef958f8781c">MR_InflateSettings_Destroy</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="memdesc:aa41768440da921917757eef958f8781c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_InflateSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:aa41768440da921917757eef958f8781c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d17ef724b66cbe94410e64e104299e5" id="r_a4d17ef724b66cbe94410e64e104299e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d17ef724b66cbe94410e64e104299e5">MR_InflateSettings_DestroyArray</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
+<tr class="memitem:a4d17ef724b66cbe94410e64e104299e5" id="r_a4d17ef724b66cbe94410e64e104299e5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d17ef724b66cbe94410e64e104299e5">MR_InflateSettings_DestroyArray</a> (const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this)</td></tr>
 <tr class="memdesc:a4d17ef724b66cbe94410e64e104299e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_InflateSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a4d17ef724b66cbe94410e64e104299e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3f3ddc432299bbc04f12f57031029f" id="r_acf3f3ddc432299bbc04f12f57031029f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3f3ddc432299bbc04f12f57031029f">MR_InflateSettings_AssignFromAnother</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_other)</td></tr>
+<tr class="memitem:acf3f3ddc432299bbc04f12f57031029f" id="r_acf3f3ddc432299bbc04f12f57031029f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3f3ddc432299bbc04f12f57031029f">MR_InflateSettings_AssignFromAnother</a> (<a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_this, const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *_other)</td></tr>
 <tr class="separator:acf3f3ddc432299bbc04f12f57031029f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29767e810aa0cb57d3b79e4aefbb8d7a" id="r_a29767e810aa0cb57d3b79e4aefbb8d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29767e810aa0cb57d3b79e4aefbb8d7a">MR_inflate_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *settings)</td></tr>
+<tr class="memitem:a29767e810aa0cb57d3b79e4aefbb8d7a" id="r_a29767e810aa0cb57d3b79e4aefbb8d7a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29767e810aa0cb57d3b79e4aefbb8d7a">MR_inflate_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *settings)</td></tr>
 <tr class="separator:a29767e810aa0cb57d3b79e4aefbb8d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9990b74be0eb7dc1996b5d1e34bf3590" id="r_a9990b74be0eb7dc1996b5d1e34bf3590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9990b74be0eb7dc1996b5d1e34bf3590">MR_inflate_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *settings)</td></tr>
+<tr class="memitem:a9990b74be0eb7dc1996b5d1e34bf3590" id="r_a9990b74be0eb7dc1996b5d1e34bf3590"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9990b74be0eb7dc1996b5d1e34bf3590">MR_inflate_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *settings)</td></tr>
 <tr class="separator:a9990b74be0eb7dc1996b5d1e34bf3590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ce7f04cba8df6b4963b606cb5a5bb8" id="r_a49ce7f04cba8df6b4963b606cb5a5bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ce7f04cba8df6b4963b606cb5a5bb8">MR_inflate1</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, float pressure)</td></tr>
+<tr class="memitem:a49ce7f04cba8df6b4963b606cb5a5bb8" id="r_a49ce7f04cba8df6b4963b606cb5a5bb8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ce7f04cba8df6b4963b606cb5a5bb8">MR_inflate1</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts, float pressure)</td></tr>
 <tr class="separator:a49ce7f04cba8df6b4963b606cb5a5bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -507,7 +507,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_inflate1 </td>
+          <td class="memname">MRC_API void MR_inflate1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -539,7 +539,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_inflate_3 </td>
+          <td class="memname">MRC_API void MR_inflate_3 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -571,7 +571,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_inflate_4 </td>
+          <td class="memname">MRC_API void MR_inflate_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -603,7 +603,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_AssignFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -625,7 +625,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_ConstructFrom </td>
+          <td class="memname">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pressure</em></span>, </td>
         </tr>
@@ -657,7 +657,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_ConstructFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -675,7 +675,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_DefaultConstruct </td>
+          <td class="memname">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -693,7 +693,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_DefaultConstructArray </td>
+          <td class="memname">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -711,7 +711,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InflateSettings_Destroy </td>
+          <td class="memname">MRC_API void MR_InflateSettings_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -730,7 +730,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InflateSettings_DestroyArray </td>
+          <td class="memname">MRC_API void MR_InflateSettings_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -749,7 +749,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_InflateSettings_Get_gradualPressureGrowth </td>
+          <td class="memname">MRC_API const bool * MR_InflateSettings_Get_gradualPressureGrowth </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -767,7 +767,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_InflateSettings_Get_iterations </td>
+          <td class="memname">MRC_API const int * MR_InflateSettings_Get_iterations </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -785,7 +785,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_InflateSettings_Get_preSmooth </td>
+          <td class="memname">MRC_API const bool * MR_InflateSettings_Get_preSmooth </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -803,7 +803,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_InflateSettings_Get_pressure </td>
+          <td class="memname">MRC_API const float * MR_InflateSettings_Get_pressure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -821,7 +821,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_InflateSettings_GetMutable_gradualPressureGrowth </td>
+          <td class="memname">MRC_API bool * MR_InflateSettings_GetMutable_gradualPressureGrowth </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -839,7 +839,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_InflateSettings_GetMutable_iterations </td>
+          <td class="memname">MRC_API int * MR_InflateSettings_GetMutable_iterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -857,7 +857,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_InflateSettings_GetMutable_preSmooth </td>
+          <td class="memname">MRC_API bool * MR_InflateSettings_GetMutable_preSmooth </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -875,7 +875,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_InflateSettings_GetMutable_pressure </td>
+          <td class="memname">MRC_API float * MR_InflateSettings_GetMutable_pressure </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -893,7 +893,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_OffsetMutablePtr </td>
+          <td class="memname">MRC_API <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -915,7 +915,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_OffsetPtr </td>
+          <td class="memname">MRC_API const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> * MR_InflateSettings_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -937,7 +937,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InflateSettings_Set_gradualPressureGrowth </td>
+          <td class="memname">MRC_API void MR_InflateSettings_Set_gradualPressureGrowth </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -959,7 +959,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InflateSettings_Set_iterations </td>
+          <td class="memname">MRC_API void MR_InflateSettings_Set_iterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -981,7 +981,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InflateSettings_Set_preSmooth </td>
+          <td class="memname">MRC_API void MR_InflateSettings_Set_preSmooth </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1003,7 +1003,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InflateSettings_Set_pressure </td>
+          <td class="memname">MRC_API void MR_InflateSettings_Set_pressure </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1025,7 +1025,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothly_5 </td>
+          <td class="memname">MRC_API void MR_positionVertsSmoothly_5 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1068,7 +1068,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothly_6 </td>
+          <td class="memname">MRC_API void MR_positionVertsSmoothly_6 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1110,14 +1110,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_AssignFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1137,7 +1137,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_ConstructFrom </td>
+          <td class="memname">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
@@ -1154,7 +1154,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>vertStabilizers_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>vertStabilizers_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1164,7 +1164,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeights_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>edgeWeights_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1184,9 +1184,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_ConstructFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1206,7 +1206,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_DefaultConstruct </td>
+          <td class="memname">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1224,7 +1224,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_DefaultConstructArray </td>
+          <td class="memname">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1242,7 +1242,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Destroy </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1261,7 +1261,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_DestroyArray </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1280,7 +1280,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_PositionVertsSmoothlyParams_Get_edgeWeights </td>
+          <td class="memname">MRC_API const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_PositionVertsSmoothlyParams_Get_edgeWeights </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1298,7 +1298,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PositionVertsSmoothlyParams_Get_region </td>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PositionVertsSmoothlyParams_Get_region </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1316,7 +1316,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PositionVertsSmoothlyParams_Get_stabilizer </td>
+          <td class="memname">MRC_API const float * MR_PositionVertsSmoothlyParams_Get_stabilizer </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1334,7 +1334,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const  * MR_PositionVertsSmoothlyParams_Get_vertShifts </td>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const  * MR_PositionVertsSmoothlyParams_Get_vertShifts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1352,7 +1352,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_PositionVertsSmoothlyParams_Get_vertStabilizers </td>
+          <td class="memname">MRC_API const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_PositionVertsSmoothlyParams_Get_vertStabilizers </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1370,7 +1370,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights </td>
+          <td class="memname">MRC_API <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_PositionVertsSmoothlyParams_GetMutable_edgeWeights </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1388,7 +1388,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PositionVertsSmoothlyParams_GetMutable_region </td>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PositionVertsSmoothlyParams_GetMutable_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1406,7 +1406,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PositionVertsSmoothlyParams_GetMutable_stabilizer </td>
+          <td class="memname">MRC_API float * MR_PositionVertsSmoothlyParams_GetMutable_stabilizer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1424,7 +1424,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> ** MR_PositionVertsSmoothlyParams_GetMutable_vertShifts </td>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> ** MR_PositionVertsSmoothlyParams_GetMutable_vertShifts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1442,7 +1442,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers </td>
+          <td class="memname">MRC_API <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_PositionVertsSmoothlyParams_GetMutable_vertStabilizers </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1460,7 +1460,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_OffsetMutablePtr </td>
+          <td class="memname">MRC_API <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1482,7 +1482,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_OffsetPtr </td>
+          <td class="memname">MRC_API const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> * MR_PositionVertsSmoothlyParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1504,14 +1504,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_edgeWeights </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_Set_edgeWeights </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1531,7 +1531,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_region </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_Set_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1553,7 +1553,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_stabilizer </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_Set_stabilizer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1575,7 +1575,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_vertShifts </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_Set_vertShifts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1597,14 +1597,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PositionVertsSmoothlyParams_Set_vertStabilizers </td>
+          <td class="memname">MRC_API void MR_PositionVertsSmoothlyParams_Set_vertStabilizers </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1624,7 +1624,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams </td>
+          <td class="memname">MRC_API void MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1646,7 +1646,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common_8h.html#a6cc2b78a67b0b3773417b073b9b28af7">MRC_DEPRECATED</a> <a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet </td>
+          <td class="memname">MRC_DEPRECATED MRC_API void MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1668,7 +1668,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsSmoothlySharpBd_3 </td>
+          <td class="memname">MRC_API void MR_positionVertsSmoothlySharpBd_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1695,7 +1695,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsWithSpacing_2 </td>
+          <td class="memname">MRC_API void MR_positionVertsWithSpacing_2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1717,7 +1717,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_positionVertsWithSpacing_3 </td>
+          <td class="memname">MRC_API void MR_positionVertsWithSpacing_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1744,14 +1744,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_AssignFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1771,14 +1771,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_ConstructFrom </td>
+          <td class="memname">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>dist_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>dist_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1803,7 +1803,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>isInverted_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>isInverted_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1823,9 +1823,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_ConstructFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1845,7 +1845,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_DefaultConstruct </td>
+          <td class="memname">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1863,7 +1863,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_DefaultConstructArray </td>
+          <td class="memname">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1881,7 +1881,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Destroy </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1900,7 +1900,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_DestroyArray </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1919,7 +1919,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_SpacingSettings_Get_dist </td>
+          <td class="memname">MRC_API const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_SpacingSettings_Get_dist </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1937,7 +1937,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> * MR_SpacingSettings_Get_isInverted </td>
+          <td class="memname">MRC_API const <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> * MR_SpacingSettings_Get_isInverted </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1955,7 +1955,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SpacingSettings_Get_maxSumNegW </td>
+          <td class="memname">MRC_API const float * MR_SpacingSettings_Get_maxSumNegW </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1973,7 +1973,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_SpacingSettings_Get_numIters </td>
+          <td class="memname">MRC_API const int * MR_SpacingSettings_Get_numIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1991,7 +1991,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_SpacingSettings_Get_region </td>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_SpacingSettings_Get_region </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2009,7 +2009,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SpacingSettings_Get_stabilizer </td>
+          <td class="memname">MRC_API const float * MR_SpacingSettings_Get_stabilizer </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2027,7 +2027,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_SpacingSettings_GetMutable_dist </td>
+          <td class="memname">MRC_API <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_SpacingSettings_GetMutable_dist </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2045,7 +2045,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> * MR_SpacingSettings_GetMutable_isInverted </td>
+          <td class="memname">MRC_API <a class="el" href="MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621">MR_std_function_bool_from_MR_FaceId</a> * MR_SpacingSettings_GetMutable_isInverted </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2063,7 +2063,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SpacingSettings_GetMutable_maxSumNegW </td>
+          <td class="memname">MRC_API float * MR_SpacingSettings_GetMutable_maxSumNegW </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2081,7 +2081,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_SpacingSettings_GetMutable_numIters </td>
+          <td class="memname">MRC_API int * MR_SpacingSettings_GetMutable_numIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2099,7 +2099,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_SpacingSettings_GetMutable_region </td>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_SpacingSettings_GetMutable_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2117,7 +2117,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SpacingSettings_GetMutable_stabilizer </td>
+          <td class="memname">MRC_API float * MR_SpacingSettings_GetMutable_stabilizer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2135,7 +2135,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_OffsetMutablePtr </td>
+          <td class="memname">MRC_API <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2157,7 +2157,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_OffsetPtr </td>
+          <td class="memname">MRC_API const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> * MR_SpacingSettings_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2179,14 +2179,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Set_dist </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Set_dist </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2206,14 +2206,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Set_isInverted </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Set_isInverted </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2233,7 +2233,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Set_maxSumNegW </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Set_maxSumNegW </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2255,7 +2255,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Set_numIters </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Set_numIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2277,7 +2277,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Set_region </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Set_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2299,7 +2299,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SpacingSettings_Set_stabilizer </td>
+          <td class="memname">MRC_API void MR_SpacingSettings_Set_stabilizer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

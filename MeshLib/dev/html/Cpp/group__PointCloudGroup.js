@@ -3,7 +3,6 @@ var group__PointCloudGroup =
     [ "MR::PointCloud", "../Csharp/classMR_1_1PointCloud.html", [
       [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#a4d782ee2ce58df0cb8f8e1304482f12c", null ],
       [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#abbebb117a9a8e2c986d53ff756cbd476", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1PointCloud.html#acdaee8b6df06661f62a8939c1cbedb51", null ],
       [ "addPartByMask", "../Csharp/classMR_1_1PointCloud.html#a022f9171b642872585c29444895003f0", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a11a8de8c87003c23bb7c4fa80facf8d6", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a5e88af4b4426f9a92fc67cfb4b6e2af4", null ],
@@ -38,7 +37,8 @@ var group__PointCloudGroup =
       [ "limitNearInitial", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a5ae949fb204a4258640690eb47d30e05", null ],
       [ "maxInitialDist", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#ac2da44309cc6f470a18fb6fde664c92e", null ],
       [ "neighborhoodRadius", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a737c49734315fdb3d7fd32ef285b5be5", null ],
-      [ "region", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00", null ]
+      [ "region", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00", null ],
+      [ "type", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a9f212056331e43f999e81fea6369b897", null ]
     ] ],
     [ "MR::RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html", [
       [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#ab620c4934731dccd4bdee16ff007aca0", null ],

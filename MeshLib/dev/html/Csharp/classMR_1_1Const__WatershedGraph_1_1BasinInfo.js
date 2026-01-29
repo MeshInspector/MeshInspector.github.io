@@ -12,5 +12,6 @@ var classMR_1_1Const__WatershedGraph_1_1BasinInfo =
     [ "lowestBdLevel", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a1023ac43dde1e2a3779839df43a68085", null ],
     [ "lowestLevel", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a5de5f91c7fd2a37a527e2a1d2d506356", null ],
     [ "lowestVert", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a956a84a091693fd7c677cf5bf93b83c0", null ],
-    [ "maxVolume", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a3fb934bfd112ab135edf3560b6c66b9c", null ]
+    [ "maxVolume", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a3fb934bfd112ab135edf3560b6c66b9c", null ],
+    [ "overflowVia", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#af3279c4a8c2144a497333127ee893940", null ]
 ];

@@ -5,5 +5,7 @@ var classMR_1_1NoDefInit__MRRegionId =
     [ "addAssign", "classMR_1_1NoDefInit__MRRegionId.html#a71e35d778d47510c570e10c98ac4f5d4", null ],
     [ "assign", "classMR_1_1NoDefInit__MRRegionId.html#a0b38cec3b4933968a9ab42b13e7203ee", null ],
     [ "get", "classMR_1_1NoDefInit__MRRegionId.html#ac8b0db799d389dd6f0baa735bf61a7c4", null ],
-    [ "subAssign", "classMR_1_1NoDefInit__MRRegionId.html#addd77ec28cbe1fe043b7c70e4db4063a", null ]
+    [ "operator MR.Box_RegionId", "classMR_1_1NoDefInit__MRRegionId.html#a0d5c3997a6f013385417195cb6d18c3c", null ],
+    [ "subAssign", "classMR_1_1NoDefInit__MRRegionId.html#addd77ec28cbe1fe043b7c70e4db4063a", null ],
+    [ "id", "classMR_1_1NoDefInit__MRRegionId.html#a627e883e1aa1f8e7e764444c633d5e0e", null ]
 ];

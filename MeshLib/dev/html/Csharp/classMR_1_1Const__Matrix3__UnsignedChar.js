@@ -1,20 +1,22 @@
 var classMR_1_1Const__Matrix3__UnsignedChar =
 [
-    [ "_InOptConst_QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1__InOptConst__QR.html", null ],
-    [ "_InOptMut_QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1__InOptMut__QR.html", null ],
     [ "Const_QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR.html", "classMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR" ],
     [ "QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1QR.html", "classMR_1_1Const__Matrix3__UnsignedChar_1_1QR" ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad9cda8ccdb8d920852828c6b5fc944e8", null ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad6197f678396b06b3df67a229b3db607", null ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#a25915feb78be11dd6944a51b33fbfd36", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__Matrix3__UnsignedChar.html#ab141349b027d8d29f4558a4d32d2d90f", null ],
     [ "col", "classMR_1_1Const__Matrix3__UnsignedChar.html#a6b871a925ff8700fb5939afae9229fd9", null ],
     [ "det", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad7c8f70118a9974a91fa827e17e63164", null ],
+    [ "Dispose", "classMR_1_1Const__Matrix3__UnsignedChar.html#ace0f29f74c2c1cd14070d3f1cacd7ba8", null ],
+    [ "Dispose", "classMR_1_1Const__Matrix3__UnsignedChar.html#a019468d2b60e808d39b48fa7817e39ca", null ],
+    [ "Equals", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad28ac4c4efc4c45a6eb387f8d485a112", null ],
+    [ "Equals", "classMR_1_1Const__Matrix3__UnsignedChar.html#aee385590bdce76a0e86b8cadb2433f2a", null ],
     [ "fromColumns", "classMR_1_1Const__Matrix3__UnsignedChar.html#a2496ba88abb6e85f249eb2bad2ff3194", null ],
     [ "fromRows", "classMR_1_1Const__Matrix3__UnsignedChar.html#ab7ed4d1bca84e1b7772f4603707136ce", null ],
     [ "identity", "classMR_1_1Const__Matrix3__UnsignedChar.html#a72fc92bc1671d725f571fa3195e2cc2e", null ],
     [ "norm", "classMR_1_1Const__Matrix3__UnsignedChar.html#a2d1b113089dc44ab3dfe09650d8c89df", null ],
     [ "normSq", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad0907b07564a25ae55c462ee6ff40034", null ],
+    [ "operator!=", "classMR_1_1Const__Matrix3__UnsignedChar.html#a5b8ca9c8b6e1dc3ccaf10c44f2a62a44", null ],
     [ "operator*", "classMR_1_1Const__Matrix3__UnsignedChar.html#a2b05784c246bd1523d9f70e4dc200d6f", null ],
     [ "operator*", "classMR_1_1Const__Matrix3__UnsignedChar.html#a0cdfda67e55f3a2022f94d2fa50d8ff0", null ],
     [ "operator*", "classMR_1_1Const__Matrix3__UnsignedChar.html#a6b5c43f5dc223c90a7a6c5d6e0b637ec", null ],
@@ -30,5 +32,7 @@ var classMR_1_1Const__Matrix3__UnsignedChar =
     [ "transposed", "classMR_1_1Const__Matrix3__UnsignedChar.html#a5b28f3fea5ae5552d4874b672b8b983c", null ],
     [ "zero", "classMR_1_1Const__Matrix3__UnsignedChar.html#acf3a5e3ed2598a0987eec93e34cd927b", null ],
     [ "this[int row]", "classMR_1_1Const__Matrix3__UnsignedChar.html#a151d97844474868dab52d1378ebdf280", null ],
-    [ "x", "classMR_1_1Const__Matrix3__UnsignedChar.html#a5c7d66cc0da7646a5680e6fe84513be0", null ]
+    [ "x", "classMR_1_1Const__Matrix3__UnsignedChar.html#a5c7d66cc0da7646a5680e6fe84513be0", null ],
+    [ "y", "classMR_1_1Const__Matrix3__UnsignedChar.html#ade935711687f0fdb8821cc75d6f87934", null ],
+    [ "z", "classMR_1_1Const__Matrix3__UnsignedChar.html#aa9ccd703ac2a9397c1274ea7c17fb1d1", null ]
 ];

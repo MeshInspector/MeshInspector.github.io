@@ -7,6 +7,8 @@ var structMR_1_1PixelId =
     [ "addAssign", "structMR_1_1PixelId.html#ad220c7f5d77c933f05362b074a49b822", null ],
     [ "decr", "structMR_1_1PixelId.html#ad1dd4c514dc3406bdf46f7a9943f4fd1", null ],
     [ "decr", "structMR_1_1PixelId.html#aa4de7d93f40811ebe264021ed33f5a2b", null ],
+    [ "Equals", "structMR_1_1PixelId.html#a8b0fb7cb8b45381478ac7928ad147ae4", null ],
+    [ "Equals", "structMR_1_1PixelId.html#a265d611ef02c709ae2edd06f42bc0ac6", null ],
     [ "get", "structMR_1_1PixelId.html#a5e697e50283ff17ff606416bfbaa7c01", null ],
     [ "incr", "structMR_1_1PixelId.html#aab49726076788bb23f8b2c5807c9a727", null ],
     [ "incr", "structMR_1_1PixelId.html#a60ea3507089cf72d1716c49a6074d6dd", null ],
@@ -14,7 +16,9 @@ var structMR_1_1PixelId =
     [ "operator bool", "structMR_1_1PixelId.html#ae1b6fd5706afbc01b4d327264d6f00b0", null ],
     [ "operator int", "structMR_1_1PixelId.html#af53ce02741648bb491666d49bbbce538", null ],
     [ "operator PixelId", "structMR_1_1PixelId.html#a1889d0dd0e794643e888048c7bafc959", null ],
+    [ "operator!=", "structMR_1_1PixelId.html#a8af04599c369d309d494961b5b7c6504", null ],
     [ "operator==", "structMR_1_1PixelId.html#ab285ac9f7d192e052e0e742d425882ef", null ],
     [ "subAssign", "structMR_1_1PixelId.html#afdfa9cbf84cfe77563107f004bc4ec52", null ],
-    [ "valid", "structMR_1_1PixelId.html#ac893455a03b18ac680ec5e6b3ac6d1f1", null ]
+    [ "valid", "structMR_1_1PixelId.html#ac893455a03b18ac680ec5e6b3ac6d1f1", null ],
+    [ "id", "structMR_1_1PixelId.html#af0aa30b9ef65c0f81f738ca982f37da2", null ]
 ];

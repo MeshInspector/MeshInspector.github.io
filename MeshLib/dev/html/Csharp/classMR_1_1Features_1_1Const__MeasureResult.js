@@ -1,19 +1,19 @@
 var classMR_1_1Features_1_1Const__MeasureResult =
 [
-    [ "_InOptConst_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1__InOptConst__Angle.html", null ],
-    [ "_InOptConst_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1__InOptConst__BasicPart.html", null ],
-    [ "_InOptConst_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1__InOptConst__Distance.html", null ],
-    [ "_InOptMut_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1__InOptMut__Angle.html", null ],
-    [ "_InOptMut_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1__InOptMut__BasicPart.html", null ],
-    [ "_InOptMut_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1__InOptMut__Distance.html", null ],
     [ "Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" ],
     [ "BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" ],
     [ "Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" ],
     [ "Const_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart" ],
     [ "Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" ],
     [ "Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" ],
+    [ "Status", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#a68f0f564a167a8f327bd9004098d6bb8", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ae658bdbb48abcae76822e3c852754872", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ad2cac969d0d14adabbae6d088dafe4c2", null ],
-    [ "_FinalizeFields", "classMR_1_1Features_1_1Const__MeasureResult.html#adcab402972c7721c5480adfd29251313", null ]
+    [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult.html#a0f8238495e7072e8f864b3e4f0a5f571", null ],
+    [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult.html#aa717440f1fd231c8e4dc442e09cdc1c6", null ],
+    [ "angle", "classMR_1_1Features_1_1Const__MeasureResult.html#aea6d02d56de6923f0735384398b0ffd3", null ],
+    [ "centerDistance", "classMR_1_1Features_1_1Const__MeasureResult.html#a7b7522a7b4eea2a56bf2f3feb116c21c", null ],
+    [ "distance", "classMR_1_1Features_1_1Const__MeasureResult.html#ad7d67c6a6ea243f68129921e5987e480", null ],
+    [ "intersections", "classMR_1_1Features_1_1Const__MeasureResult.html#a42a1e22d9546ada9489c1e75df183d7d", null ]
 ];

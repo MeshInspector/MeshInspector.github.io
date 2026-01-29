@@ -3,6 +3,9 @@ var classMR_1_1MeshBuilder_1_1MeshPiece =
     [ "MeshPiece", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#ab002f169e0d57f763fa2b592baccf848", null ],
     [ "MeshPiece", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#a7bdf215b30d777c2327247ff89678b84", null ],
     [ "MeshPiece", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#af28fc86825c31b7cb2d45dee84088e1b", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#a818d412d6b31a2ebfffe9bfd72af6953", null ],
-    [ "assign", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#a6895976075f242a4f9e8ee0b1b6e7f14", null ]
+    [ "assign", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#a6895976075f242a4f9e8ee0b1b6e7f14", null ],
+    [ "fmap", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#a21f72d90a9a226245f83228584085476", null ],
+    [ "rem", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#a14624a9d40e77e0ef15da04cf2114998", null ],
+    [ "topology", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#ab02d104cd9429ba4f9ba62099d5c8dd8", null ],
+    [ "vmap", "../Csharp/classMR_1_1MeshBuilder_1_1MeshPiece.html#afd72df44775808f5a501afc1db24a767", null ]
 ];

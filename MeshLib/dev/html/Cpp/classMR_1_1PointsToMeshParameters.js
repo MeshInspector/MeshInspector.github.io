@@ -2,7 +2,6 @@ var classMR_1_1PointsToMeshParameters =
 [
     [ "PointsToMeshParameters", "../Csharp/classMR_1_1PointsToMeshParameters.html#a769a4608cfe2ade7419accaac40ea706", null ],
     [ "PointsToMeshParameters", "../Csharp/classMR_1_1PointsToMeshParameters.html#a73f41c25251a4a618deaf9bcd9e78619", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1PointsToMeshParameters.html#a13f44317c2b5bc920a0617b1a066863a", null ],
     [ "assign", "../Csharp/classMR_1_1PointsToMeshParameters.html#a465bd035b1b7fe5b3da9277b1382ae90", null ],
     [ "minWeight", "../Csharp/classMR_1_1PointsToMeshParameters.html#a5ff8455f44ce9ed6c9b7fd3496d854d3", null ],
     [ "progress", "../Csharp/classMR_1_1PointsToMeshParameters.html#a390fdb484b83c77269e7fa1889e8ca0c", null ],

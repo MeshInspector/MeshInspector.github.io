@@ -1,5 +1,7 @@
 var classMR_1_1Const__NoCtor__MRGraphVertId =
 [
     [ "Const_NoCtor_MRGraphVertId", "classMR_1_1Const__NoCtor__MRGraphVertId.html#a5bcc30d16ed327efcc3fdd0dedf82b65", null ],
-    [ "Const_NoCtor_MRGraphVertId", "classMR_1_1Const__NoCtor__MRGraphVertId.html#ac60e08b16e55a96ec74b8f0b6de319c9", null ]
+    [ "Const_NoCtor_MRGraphVertId", "classMR_1_1Const__NoCtor__MRGraphVertId.html#ac60e08b16e55a96ec74b8f0b6de319c9", null ],
+    [ "Dispose", "classMR_1_1Const__NoCtor__MRGraphVertId.html#ab3e1fa514818296002bc9408db064220", null ],
+    [ "Dispose", "classMR_1_1Const__NoCtor__MRGraphVertId.html#a3b32590085a50c4c30ca5267aa30b175", null ]
 ];

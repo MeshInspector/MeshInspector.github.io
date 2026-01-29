@@ -1,5 +1,13 @@
 var classMR_1_1Const__DistanceMeasurementObject =
 [
+    [ "DistanceMode", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109", [
+      [ "Euclidean", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109a3e43207685247008d9e1ae53ecf8cab3", null ],
+      [ "EuclideanWithSignedDeltasPerAxis", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109a97f1ebf719c30591abad493438085342", null ],
+      [ "EuclideanWithAbsoluteDeltasPerAxis", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109af266119a6fbb597150bd68bb7651f622", null ],
+      [ "XAbsolute", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109a7d7bbc4d26ba571b73a83b1883157ed3", null ],
+      [ "YAbsolute", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109a5e13233e7e344f6f11ed19fa34be5366", null ],
+      [ "ZAbsolute", "classMR_1_1Const__DistanceMeasurementObject.html#acf15b94c2c7b5914d8f61654843b6109accd9473cc4ef4f0a62e4f5b309934906", null ]
+    ] ],
     [ "Const_DistanceMeasurementObject", "classMR_1_1Const__DistanceMeasurementObject.html#a7edf359d0164972133e9e738b2aba07d", null ],
     [ "Const_DistanceMeasurementObject", "classMR_1_1Const__DistanceMeasurementObject.html#ac105ef85d724fe681f6572336624d0ee", null ],
     [ "className", "classMR_1_1Const__DistanceMeasurementObject.html#af4ee6692131c4a016ca56b385c101efd", null ],
@@ -9,6 +17,8 @@ var classMR_1_1Const__DistanceMeasurementObject =
     [ "comparisonToleranceIsAlwaysOnlyPositive", "classMR_1_1Const__DistanceMeasurementObject.html#a7295e36a3dcd7f81468f9bc69e5022c9", null ],
     [ "computeComparableProperty", "classMR_1_1Const__DistanceMeasurementObject.html#aea0391c75d00d53026b8cebfc848d170", null ],
     [ "computeDistance", "classMR_1_1Const__DistanceMeasurementObject.html#a316478ecae431ed28805ff5112b99552", null ],
+    [ "Dispose", "classMR_1_1Const__DistanceMeasurementObject.html#a6d2e8f7520bb65e7787af6ad675fe9f5", null ],
+    [ "Dispose", "classMR_1_1Const__DistanceMeasurementObject.html#a97e5d29cea1a15148b2d497fd347a31e", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__DistanceMeasurementObject.html#ac07133bb823474c68c47f9afc0c63ba0", null ],
     [ "getAmbientStrength", "classMR_1_1Const__DistanceMeasurementObject.html#ac03ce774d98d62e82c93b728ca05608b", null ],
     [ "getBackColor", "classMR_1_1Const__DistanceMeasurementObject.html#ac7600089d11edf0022d527cfa6c8c97b", null ],
@@ -58,6 +68,15 @@ var classMR_1_1Const__DistanceMeasurementObject =
     [ "name", "classMR_1_1Const__DistanceMeasurementObject.html#a79ff28be8cdb90ed55ec0038cb987477", null ],
     [ "numComparableProperties", "classMR_1_1Const__DistanceMeasurementObject.html#a98b6e9b20bac6e3482771db709f86049", null ],
     [ "numComparisonReferenceValues", "classMR_1_1Const__DistanceMeasurementObject.html#a89b890e31debb752e2b39659ca5d10bb", null ],
+    [ "operator Const_DistanceMeasurementObject?", "classMR_1_1Const__DistanceMeasurementObject.html#a185e8cbf1ebf1a713989e98296890e28", null ],
+    [ "operator Const_DistanceMeasurementObject?", "classMR_1_1Const__DistanceMeasurementObject.html#a2da9792e1e70ca4db513aa7ab701e6f9", null ],
+    [ "operator Const_DistanceMeasurementObject?", "classMR_1_1Const__DistanceMeasurementObject.html#a06f0bbddb48abd4959e1323b90eed6e5", null ],
+    [ "operator Const_DistanceMeasurementObject?", "classMR_1_1Const__DistanceMeasurementObject.html#aa6c3e58b3ab32bee1410c7d2cb2eccd3", null ],
+    [ "operator MR.Const_MeasurementObject", "classMR_1_1Const__DistanceMeasurementObject.html#a2fd68556ef1c9e52c4840f40981589e6", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__DistanceMeasurementObject.html#a6f5658944c89e0239752ec186cc5c79e", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__DistanceMeasurementObject.html#a4eb1f35d16be86e8d9ed65aac04d913d", null ],
+    [ "operator MR.Const_ObjectComparableWithReference", "classMR_1_1Const__DistanceMeasurementObject.html#a666aaeb281c42a467c2d33ec2aa408d1", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__DistanceMeasurementObject.html#a242e26bb5513ae2a4c348e3a6c740121", null ],
     [ "render", "classMR_1_1Const__DistanceMeasurementObject.html#a9c557d2286f27ecec58e4d04f24f3b8b", null ],
     [ "renderForPicker", "classMR_1_1Const__DistanceMeasurementObject.html#ab4300596b37e4722c02280fc6d44bab2", null ],
     [ "renderUi", "classMR_1_1Const__DistanceMeasurementObject.html#a06497d2b2e5e3f7887223474c372f44b", null ],
@@ -77,6 +96,5 @@ var classMR_1_1Const__DistanceMeasurementObject =
     [ "visibilityMask", "classMR_1_1Const__DistanceMeasurementObject.html#a6ceff22adcc14d8ca06b7d62e8e6228a", null ],
     [ "worldXf", "classMR_1_1Const__DistanceMeasurementObject.html#a491cd22755080b5bd568155599a50c99", null ],
     [ "xf", "classMR_1_1Const__DistanceMeasurementObject.html#ace93ce0a32bdaa26460b2a899f5a7b93", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__DistanceMeasurementObject.html#a199df3e7b2511ae6c360525de373bfac", null ],
-    [ "_IsOwning", "classMR_1_1Const__DistanceMeasurementObject.html#a50beec04d3c95037bb87b8298dc6037c", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__DistanceMeasurementObject.html#a199df3e7b2511ae6c360525de373bfac", null ]
 ];

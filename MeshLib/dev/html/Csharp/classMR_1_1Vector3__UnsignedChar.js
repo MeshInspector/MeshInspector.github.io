@@ -9,5 +9,8 @@ var classMR_1_1Vector3__UnsignedChar =
     [ "divAssign", "classMR_1_1Vector3__UnsignedChar.html#a13e8fa6204d4fd47772fce4d517d5d1c", null ],
     [ "mulAssign", "classMR_1_1Vector3__UnsignedChar.html#a5a29a95641dcfde7a3e97ad931b3bd91", null ],
     [ "subAssign", "classMR_1_1Vector3__UnsignedChar.html#aeedb23f39ac88f51bb9b5aaf45a47dbe", null ],
-    [ "this[int e]", "classMR_1_1Vector3__UnsignedChar.html#a993ee93edd12629b966447cb11feb659", null ]
+    [ "this[int e]", "classMR_1_1Vector3__UnsignedChar.html#a993ee93edd12629b966447cb11feb659", null ],
+    [ "x", "classMR_1_1Vector3__UnsignedChar.html#a98e766f713cfbe7e9a9a1c60cd83631c", null ],
+    [ "y", "classMR_1_1Vector3__UnsignedChar.html#ac3dedb4a9f77f352b12747a64fa86619", null ],
+    [ "z", "classMR_1_1Vector3__UnsignedChar.html#ab12775cdfc8d21393cfbdee3444c0b97", null ]
 ];

@@ -12,6 +12,8 @@ var classMR_1_1Const__EdgeBitSet =
     [ "bits", "classMR_1_1Const__EdgeBitSet.html#a85c72472bc43401f380f1fc88b6bd487", null ],
     [ "capacity", "classMR_1_1Const__EdgeBitSet.html#af5056fe39e9c8e5c819681d82e5a69bb", null ],
     [ "count", "classMR_1_1Const__EdgeBitSet.html#ac50b2a1e00bc759eedf05539a7affba8", null ],
+    [ "Dispose", "classMR_1_1Const__EdgeBitSet.html#a3a1afbf366be763e118c65a83b460a85", null ],
+    [ "Dispose", "classMR_1_1Const__EdgeBitSet.html#a34a73afe941c35fc42015f292657d6c0", null ],
     [ "empty", "classMR_1_1Const__EdgeBitSet.html#ad6c733bd556923fd5b7ca57ed73c8f71", null ],
     [ "endId", "classMR_1_1Const__EdgeBitSet.html#ad78ee2964632ab85cf1a813796d888c5", null ],
     [ "findFirst", "classMR_1_1Const__EdgeBitSet.html#ae2e5374e10423eb785f59c876652b0ac", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__EdgeBitSet =
     [ "none", "classMR_1_1Const__EdgeBitSet.html#a280fc105a989e1176e214ca467fba27b", null ],
     [ "nthSetBit", "classMR_1_1Const__EdgeBitSet.html#a925815338800437e5e44e7cbaaba770a", null ],
     [ "numBlocks", "classMR_1_1Const__EdgeBitSet.html#a226a2d3be018fd722e91d5ed35c562ff", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__EdgeBitSet.html#a401e2a3eca770322698bcc8dea1f7f35", null ],
     [ "operator&", "classMR_1_1Const__EdgeBitSet.html#a27c9e7c816f80aeaffdc6bd687a54a9a", null ],
     [ "operator-", "classMR_1_1Const__EdgeBitSet.html#a4f8f29d3d26cfa2ec3b1ee5e14dad518", null ],
     [ "operator^", "classMR_1_1Const__EdgeBitSet.html#abf1adbf965a78f783055d2ffd4e3d062", null ],
     [ "operator|", "classMR_1_1Const__EdgeBitSet.html#a348d9e9b236e5e518e72baed042b4533", null ],
     [ "size", "classMR_1_1Const__EdgeBitSet.html#a85b136816c22cbb6361e40c7ddbd8356", null ],
     [ "test", "classMR_1_1Const__EdgeBitSet.html#a791aa1b6ac4940b330ef065147d7d453", null ],
-    [ "uncheckedTest", "classMR_1_1Const__EdgeBitSet.html#a91be02b0fdd4b4b81abc279155fbda3f", null ]
+    [ "uncheckedTest", "classMR_1_1Const__EdgeBitSet.html#a91be02b0fdd4b4b81abc279155fbda3f", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__EdgeBitSet.html#ac9eee2a54d3a3527e1a9861941cf6aee", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__EdgeBitSet.html#a84c387f2a4059cd9c7d6dbc7d30dc41b", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__EdgeBitSet.html#a057816912cf1fba5f8e9ca2473980734", null ],
+    [ "Npos", "classMR_1_1Const__EdgeBitSet.html#acdd43068096be52fcc07946dd3fa719e", null ]
 ];

@@ -5,7 +5,6 @@ var classMR_1_1FaceColors =
     [ "FaceColors", "classMR_1_1FaceColors.html#afb44db1600cd7f6ac6d9bf9724baa8a0", null ],
     [ "FaceColors", "classMR_1_1FaceColors.html#aca8c3f2ddca4d943eec4f511b1fb73d9", null ],
     [ "FaceColors", "classMR_1_1FaceColors.html#a5c5bc807f0e446ee38d393100a7c8ad4", null ],
-    [ "_FinalizeFields", "classMR_1_1FaceColors.html#a2bc7f7437417c2fe3cc4170cd386aa0d", null ],
     [ "assign", "classMR_1_1FaceColors.html#a1efc3c58b9efa3de8dcc74321c8d952f", null ],
     [ "autoResizeAt", "classMR_1_1FaceColors.html#ac3470ca21c4fd53487319d8a11cf453a", null ],
     [ "autoResizeSet", "classMR_1_1FaceColors.html#a3861b65018283ce8cba092f7b3fa0dae", null ],

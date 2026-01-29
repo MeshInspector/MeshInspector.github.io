@@ -7,6 +7,8 @@ var classMR_1_1Const__PointObject =
     [ "classNameInPlural", "classMR_1_1Const__PointObject.html#a6720ebcc6c51cc6f4bc33c15f2d78a5c", null ],
     [ "clone", "classMR_1_1Const__PointObject.html#ad0b1ef1f53508ca31183a84515b8c0be", null ],
     [ "cloneTree", "classMR_1_1Const__PointObject.html#a86dd285c5f96eb019273820a7f507d01", null ],
+    [ "Dispose", "classMR_1_1Const__PointObject.html#af159d3dc0bd7b1906d0501534bf506b1", null ],
+    [ "Dispose", "classMR_1_1Const__PointObject.html#a9ff75e14a9072d6bcdc006ddc7c23ff2", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__PointObject.html#a70fffa691256d53491278083cb32b745", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__PointObject.html#adc1b88392c7da7a7f999bd75a5c4c91f", null ],
     [ "getAmbientStrength", "classMR_1_1Const__PointObject.html#a3a6f6069126c0e10f0e717e591431177", null ],
@@ -61,6 +63,13 @@ var classMR_1_1Const__PointObject =
     [ "isVisible", "classMR_1_1Const__PointObject.html#ad4e0784b3d0170c3975e73ed98f394db", null ],
     [ "name", "classMR_1_1Const__PointObject.html#ac4f743c0115df68691f562349ab1d255", null ],
     [ "operator Const_PointObject", "classMR_1_1Const__PointObject.html#a7da4056cd6da07dfa1aace5324d33302", null ],
+    [ "operator Const_PointObject?", "classMR_1_1Const__PointObject.html#a46947a8c9a86f66fcd4d01cdee9f2bd6", null ],
+    [ "operator Const_PointObject?", "classMR_1_1Const__PointObject.html#acaf192d1f6fca935fc54b5948f040da0", null ],
+    [ "operator Const_PointObject?", "classMR_1_1Const__PointObject.html#aed12b3f7e4fe7ddac008d6831a66c5a2", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__PointObject.html#a03cbc37afe7db8d8b6c56ffa6a37913d", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__PointObject.html#a314096fbbf102576492ac511eb9154b5", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__PointObject.html#a5f0d4bd9418ac15c4c6872080ebe4603", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__PointObject.html#a0758eef1e6d0ed17a04ed52211baae06", null ],
     [ "projectPoint", "classMR_1_1Const__PointObject.html#ab5bd57e169a9412509ae3e1c25b015b7", null ],
     [ "render", "classMR_1_1Const__PointObject.html#a9e3453100f9beeb900c1a16e8b6cb31a", null ],
     [ "renderForPicker", "classMR_1_1Const__PointObject.html#a7fc0ebe46bdc2267e2097b0cec268cf7", null ],
@@ -81,6 +90,5 @@ var classMR_1_1Const__PointObject =
     [ "visibilityMask", "classMR_1_1Const__PointObject.html#a4e4b8bc42a023e9b708cb4aa5e2e4abb", null ],
     [ "worldXf", "classMR_1_1Const__PointObject.html#a6e482dec4bb900524e7254919de036e8", null ],
     [ "xf", "classMR_1_1Const__PointObject.html#a482c5f4a13a3bbccbf7997707d0e28fa", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__PointObject.html#a0ac84a8ec2afb4c3706ed9f2830847e5", null ],
-    [ "_IsOwning", "classMR_1_1Const__PointObject.html#aaab4765af81319765b261879675d5de1", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__PointObject.html#a0ac84a8ec2afb4c3706ed9f2830847e5", null ]
 ];

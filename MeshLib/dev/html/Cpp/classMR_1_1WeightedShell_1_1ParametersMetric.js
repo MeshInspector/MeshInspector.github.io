@@ -2,7 +2,6 @@ var classMR_1_1WeightedShell_1_1ParametersMetric =
 [
     [ "ParametersMetric", "../Csharp/classMR_1_1WeightedShell_1_1ParametersMetric.html#a02a917f5d71a4830cfb1f5dd88a7e3b0", null ],
     [ "ParametersMetric", "../Csharp/classMR_1_1WeightedShell_1_1ParametersMetric.html#aacef6ded7117e592c6a19078d77f6931", null ],
-    [ "_FinalizeFields", "../Csharp/classMR_1_1WeightedShell_1_1ParametersMetric.html#afd75d95a2b67e5688b60dd2fd1d4c89b", null ],
     [ "assign", "../Csharp/classMR_1_1WeightedShell_1_1ParametersMetric.html#afe986ada87964990d7046bc7312d2a42", null ],
     [ "dist", "../Csharp/classMR_1_1WeightedShell_1_1ParametersMetric.html#a4ada3a35f14b03bba83920f726f39ca4", null ],
     [ "numLayers", "../Csharp/classMR_1_1WeightedShell_1_1ParametersMetric.html#a7de848ed9ad5d6bb182ec2f87885856f", null ],

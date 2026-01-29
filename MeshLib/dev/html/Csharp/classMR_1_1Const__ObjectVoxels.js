@@ -1,7 +1,5 @@
 var classMR_1_1Const__ObjectVoxels =
 [
-    [ "_InOptConst_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1__InOptConst__VolumeRenderingParams.html", null ],
-    [ "_InOptMut_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1__InOptMut__VolumeRenderingParams.html", null ],
     [ "Const_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html", "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams" ],
     [ "VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1VolumeRenderingParams.html", "classMR_1_1Const__ObjectVoxels_1_1VolumeRenderingParams" ],
     [ "Const_ObjectVoxels", "classMR_1_1Const__ObjectVoxels.html#aec3a2500ebf69f84ca30d3929e79ada6", null ],
@@ -16,6 +14,8 @@ var classMR_1_1Const__ObjectVoxels =
     [ "creases", "classMR_1_1Const__ObjectVoxels.html#aea56313bd9544f6334e381fcb6a06c00", null ],
     [ "data", "classMR_1_1Const__ObjectVoxels.html#a2258619706d93e48f503087e495ddcde", null ],
     [ "dimensions", "classMR_1_1Const__ObjectVoxels.html#a7d3099416eeb609d65d1b6e969e3b60d", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectVoxels.html#a0418b92f41c34583605c23a5d407a137", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectVoxels.html#ac3573a330d9f26d8091f09e474b3471b", null ],
     [ "flatShading", "classMR_1_1Const__ObjectVoxels.html#abed5439817944dd8c342f5bfc4b2c03c", null ],
     [ "getActiveBounds", "classMR_1_1Const__ObjectVoxels.html#a686ce2878abc9e7e9f6a235606c14b33", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectVoxels.html#ad1d715c1028e6b49888c9a077e3bae9a", null ],
@@ -103,6 +103,13 @@ var classMR_1_1Const__ObjectVoxels =
     [ "numSelectedEdges", "classMR_1_1Const__ObjectVoxels.html#a200e3aefd622ced39e355e359cc748b1", null ],
     [ "numSelectedFaces", "classMR_1_1Const__ObjectVoxels.html#a1eb0e1521e253c8d4d5d818c3cc17b4c", null ],
     [ "numUndirectedEdges", "classMR_1_1Const__ObjectVoxels.html#a54b66a7a7839f4cda419abd6a0df899e", null ],
+    [ "operator Const_ObjectVoxels?", "classMR_1_1Const__ObjectVoxels.html#ab31ce2d9f5749865a2a6a26178caed7e", null ],
+    [ "operator Const_ObjectVoxels?", "classMR_1_1Const__ObjectVoxels.html#a629f598d04c5bceee4257a63e3810824", null ],
+    [ "operator Const_ObjectVoxels?", "classMR_1_1Const__ObjectVoxels.html#a1b84b4bc25c5c9ca6b99cc43afe7981e", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ObjectVoxels.html#af89564f611d11d2d7e8729f644adb764", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectVoxels.html#ad1c37db44af53581d6ce008b98e8fad7", null ],
+    [ "operator MR.Const_ObjectMeshHolder", "classMR_1_1Const__ObjectVoxels.html#aa3f7374a28634f5d9c4ea28674c84e28", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectVoxels.html#a1b3c5aa3593c24c9fba451730ced7cbf", null ],
     [ "prepareDataForVolumeRendering", "classMR_1_1Const__ObjectVoxels.html#ab40079ce7f60b1e665af5ea695501387", null ],
     [ "recalculateHistogram", "classMR_1_1Const__ObjectVoxels.html#a06980c7d27484be4ff781a96feaca6f0", null ],
     [ "recalculateIsoSurface", "classMR_1_1Const__ObjectVoxels.html#a46a4ea5230da1af21f2a3023f67702d0", null ],
@@ -133,6 +140,5 @@ var classMR_1_1Const__ObjectVoxels =
     [ "voxelSize", "classMR_1_1Const__ObjectVoxels.html#ad58ff7a51768820a43496e55786c6c98", null ],
     [ "worldXf", "classMR_1_1Const__ObjectVoxels.html#a8d509c604bd41f9a0e2171a24fab4a98", null ],
     [ "xf", "classMR_1_1Const__ObjectVoxels.html#ae870afc1ca81b909f81b845de5a148e1", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ObjectVoxels.html#a6b6162c70cd42e0e1d1b0afaf7d6b5a8", null ],
-    [ "_IsOwning", "classMR_1_1Const__ObjectVoxels.html#a5321d56db46041276a8e68b3764e64ca", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ObjectVoxels.html#a6b6162c70cd42e0e1d1b0afaf7d6b5a8", null ]
 ];

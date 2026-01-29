@@ -6,6 +6,9 @@ var classMR_1_1Const__ContoursDistanceMapOffset =
     ] ],
     [ "Const_ContoursDistanceMapOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html#a8abbde783c7c1749c8fb30bd0b52a918", null ],
     [ "Const_ContoursDistanceMapOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html#ad6a915b9d0bddf5e97e4461c704f9532", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__ContoursDistanceMapOffset.html#aa43fc985ba4c52f9698026bde236417e", null ],
-    [ "perEdgeOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html#ad5b95d2d95c90e466d08db4f40029359", null ]
+    [ "Dispose", "classMR_1_1Const__ContoursDistanceMapOffset.html#a343ef351a19670c401571268fa48dc3a", null ],
+    [ "Dispose", "classMR_1_1Const__ContoursDistanceMapOffset.html#aafbf93c104cf7fffeb8e8df0cd69d64a", null ],
+    [ "__ref_storage_type", "classMR_1_1Const__ContoursDistanceMapOffset.html#a195cfe4dec3bceb88aaf25e9d97d7742", null ],
+    [ "perEdgeOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html#ad5b95d2d95c90e466d08db4f40029359", null ],
+    [ "type", "classMR_1_1Const__ContoursDistanceMapOffset.html#a5e9c4ab1da8491fb94b3b33cd484dd64", null ]
 ];

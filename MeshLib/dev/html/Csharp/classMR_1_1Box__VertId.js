@@ -12,5 +12,5 @@ var classMR_1_1Box__VertId =
     [ "get", "classMR_1_1Box__VertId.html#a74df6f3edea75cfb0f89d20af2d07454", null ],
     [ "incr", "classMR_1_1Box__VertId.html#aa031b68b9ba8250fc3f3ac793589b9a3", null ],
     [ "subAssign", "classMR_1_1Box__VertId.html#afe998b43cfdd35c6131fa248395cea29", null ],
-    [ "_Ref", "classMR_1_1Box__VertId.html#a67dfbf666cbfa424e7659762338317fd", null ]
+    [ "id", "classMR_1_1Box__VertId.html#a72635cc54bfd6a4b0a85ea65f8e77887", null ]
 ];

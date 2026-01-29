@@ -2,7 +2,19 @@ var classMR_1_1Const__MeshApproxRelaxParams =
 [
     [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a3cb277927896ace2932e0b8fa32097e5", null ],
     [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a14a6c245ded1990729febe37a46b280a", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__MeshApproxRelaxParams.html#a32375ddce7571e784201497aacb8057f", null ],
+    [ "Dispose", "classMR_1_1Const__MeshApproxRelaxParams.html#af781880b585bb071b55d9c37861707ab", null ],
+    [ "Dispose", "classMR_1_1Const__MeshApproxRelaxParams.html#a020a0810bec95e795b5f6695de66c730", null ],
+    [ "operator MR.Const_MeshRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a17c740a8b88a11ca922f48213febeff8", null ],
+    [ "operator MR.Const_RelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a5f37dc60b3c9ec7db048158252209f50", null ],
+    [ "__ptr_storage_region", "classMR_1_1Const__MeshApproxRelaxParams.html#a15f715af7e447605a5c445948c753185", null ],
+    [ "__ptr_storage_weights", "classMR_1_1Const__MeshApproxRelaxParams.html#a5d6a1ae952b6feb90e423ba45c93beb4", null ],
+    [ "__ref_storage_force", "classMR_1_1Const__MeshApproxRelaxParams.html#a2831cd4e25d817b6fba80f3e0bcb5ecd", null ],
+    [ "__ref_storage_hardSmoothTetrahedrons", "classMR_1_1Const__MeshApproxRelaxParams.html#a5dc782061dac841b4c7d874ba18adf52", null ],
+    [ "__ref_storage_iterations", "classMR_1_1Const__MeshApproxRelaxParams.html#ad0492e21bd56ce778049eeee41e1abfa", null ],
+    [ "__ref_storage_limitNearInitial", "classMR_1_1Const__MeshApproxRelaxParams.html#aa0b02a1c5a8ebf213cf1685d9a2a7034", null ],
+    [ "__ref_storage_maxInitialDist", "classMR_1_1Const__MeshApproxRelaxParams.html#a15c0ae3510e802be27e6ed06ceb98821", null ],
+    [ "__ref_storage_surfaceDilateRadius", "classMR_1_1Const__MeshApproxRelaxParams.html#a62f547f8f60b11f960c54137b6f68d5a", null ],
+    [ "__ref_storage_type", "classMR_1_1Const__MeshApproxRelaxParams.html#a537f470dc2ef071ad036ee33f79ce2ed", null ],
     [ "force", "classMR_1_1Const__MeshApproxRelaxParams.html#a6b08133bb7443e349d4d68fcf2d365fd", null ],
     [ "hardSmoothTetrahedrons", "classMR_1_1Const__MeshApproxRelaxParams.html#af7cd6813413c87589211e2419a1859b9", null ],
     [ "iterations", "classMR_1_1Const__MeshApproxRelaxParams.html#ac362678c59d37aa041fcdba84e5e2d37", null ],
@@ -10,5 +22,6 @@ var classMR_1_1Const__MeshApproxRelaxParams =
     [ "maxInitialDist", "classMR_1_1Const__MeshApproxRelaxParams.html#ac876131fed4074ce6aed9dce0328121e", null ],
     [ "region", "classMR_1_1Const__MeshApproxRelaxParams.html#a9f0c1d10bdce59ebae6e2cc3f775499a", null ],
     [ "surfaceDilateRadius", "classMR_1_1Const__MeshApproxRelaxParams.html#af03dd01172d80fd2acc24e436983345b", null ],
+    [ "type", "classMR_1_1Const__MeshApproxRelaxParams.html#a72401fa0e161e63e977d07f2d49237d1", null ],
     [ "weights", "classMR_1_1Const__MeshApproxRelaxParams.html#a0e5a47cf1358fa174e8f4855d28d16da", null ]
 ];

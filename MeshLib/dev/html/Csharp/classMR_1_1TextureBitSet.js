@@ -15,6 +15,7 @@ var classMR_1_1TextureBitSet =
     [ "flip", "classMR_1_1TextureBitSet.html#a52e710c70864372f470f2b13c5b3cf4a", null ],
     [ "flip", "classMR_1_1TextureBitSet.html#aafc97dfb5467fde3b770e6fbf63100e6", null ],
     [ "flip", "classMR_1_1TextureBitSet.html#a54d515a15b97cd3027c7a4e685a45367", null ],
+    [ "operator MR.BitSet", "classMR_1_1TextureBitSet.html#a5c65bfc94f535444c8acd0e85a31d5f3", null ],
     [ "popBack", "classMR_1_1TextureBitSet.html#a676a8853e4088def5f2b8c2b544b9895", null ],
     [ "pushBack", "classMR_1_1TextureBitSet.html#a0e5709216b6ab0513661f60699b06c27", null ],
     [ "reserve", "classMR_1_1TextureBitSet.html#a7201baa44835882106db07304be8ec63", null ],

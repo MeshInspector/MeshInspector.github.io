@@ -12,6 +12,8 @@ var classMR_1_1Const__DenseBox =
     [ "center", "classMR_1_1Const__DenseBox.html#a46c1352ef97744c3ac495b6c4d491855", null ],
     [ "contains", "classMR_1_1Const__DenseBox.html#a667faf5dac5fa677ae881041f4cd16d6", null ],
     [ "corner", "classMR_1_1Const__DenseBox.html#aaa5be17482f663f6e218cac9bbc94e9a", null ],
+    [ "Dispose", "classMR_1_1Const__DenseBox.html#a4316fd74195449e4121645b7ed40a207", null ],
+    [ "Dispose", "classMR_1_1Const__DenseBox.html#a9074e8f140c8dd6a2205333fe4d80e0a", null ],
     [ "operator Const_DenseBox", "classMR_1_1Const__DenseBox.html#ab10566f60944ee8614b9bc3d862508d4", null ],
     [ "operator Const_DenseBox", "classMR_1_1Const__DenseBox.html#a8e437c1bbbd4847a01f4ce082df0462e", null ],
     [ "operator Const_DenseBox", "classMR_1_1Const__DenseBox.html#a3f775513202cbbf53d0e5a36d4956676", null ],

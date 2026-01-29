@@ -6,8 +6,11 @@ var classMR_1_1Const__MeshTriPoint =
     [ "Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#ac64bf71cc7bf4e3ba38b98b62c2f4fe4", null ],
     [ "Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#afa426370df9ae5db8aa4c579621c39bb", null ],
     [ "Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#ac77d6a0353da9933db5da0d59d681660", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__MeshTriPoint.html#ad69db14f005313ff086b696c60ca269e", null ],
     [ "canonical", "classMR_1_1Const__MeshTriPoint.html#a0a9f251fb674b3736aa006d321171352", null ],
+    [ "Dispose", "classMR_1_1Const__MeshTriPoint.html#a42889961ba46ef28c88d2e85e8e8590b", null ],
+    [ "Dispose", "classMR_1_1Const__MeshTriPoint.html#a7c4297a5638809049e9f312c89267253", null ],
+    [ "Equals", "classMR_1_1Const__MeshTriPoint.html#af92b2dc826130dc197b0c32d09a1a8ea", null ],
+    [ "Equals", "classMR_1_1Const__MeshTriPoint.html#a05005828f80a5678d1244271629cd496", null ],
     [ "fromTriangle", "classMR_1_1Const__MeshTriPoint.html#a39d5d02a422ddccf47f862be73825e89", null ],
     [ "getWeightedVerts", "classMR_1_1Const__MeshTriPoint.html#ab6d70123f2757c9eeab8ae65ce26a25b", null ],
     [ "inVertex", "classMR_1_1Const__MeshTriPoint.html#a5994e5de3b4de5dcae024a27bf55eb0f", null ],
@@ -18,7 +21,10 @@ var classMR_1_1Const__MeshTriPoint =
     [ "operator bool", "classMR_1_1Const__MeshTriPoint.html#af716ee3b0d1cf4f5142926852d58584b", null ],
     [ "operator Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#a516351e72a537c573ba9b458d15fe2be", null ],
     [ "operator Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html#a9f1fa3609572e1a76c1a486be81d3be2", null ],
+    [ "operator!=", "classMR_1_1Const__MeshTriPoint.html#af6936010c71894cc1f2889793f947526", null ],
     [ "operator==", "classMR_1_1Const__MeshTriPoint.html#a61ae4e82a0a1ba70b9007251d2926279", null ],
     [ "valid", "classMR_1_1Const__MeshTriPoint.html#adb70eeed166ea593f881dc3a5420a07f", null ],
-    [ "bary", "classMR_1_1Const__MeshTriPoint.html#a202e5cba957cf4e6c77aec84891afba3", null ]
+    [ "__ref_storage_e", "classMR_1_1Const__MeshTriPoint.html#adce42f74a045c6d95a710462ea5386ff", null ],
+    [ "bary", "classMR_1_1Const__MeshTriPoint.html#a202e5cba957cf4e6c77aec84891afba3", null ],
+    [ "e", "classMR_1_1Const__MeshTriPoint.html#a1da3fe35c7b0c5e74206373c58fb2676", null ]
 ];

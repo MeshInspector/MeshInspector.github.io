@@ -152,7 +152,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRAxis_8h.html">MRMesh/MRAxis.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRPolyline_8h.html">MRMesh/MRPolyline.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRMesh/MRProgressCallback.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
@@ -160,7 +160,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">enum class</span> BypassDirection</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">enum class</span> <a class="code hl_enumerationRef" href="../Csharp/classMR.html#a4c32f3ff80d7644f35d698296c9b8ca3">BypassDirection</a></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Clockwise,</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    CounterClockwise</div>
@@ -169,78 +169,78 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">struct </span>ToolPathParams</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="comment">// radius of the milling tool</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">float</span> millRadius = {};</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a7195a5a6a112d727d4027663b44689d0">millRadius</a> = {};</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// size of voxel needed to offset mesh</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">float</span> voxelSize = {};</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a8e43edb51706453ebe54d9c97baf17d6">voxelSize</a> = {};</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// distance between sections built along Z axis</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">// in Constant Cusp mode sectionStep should be bigger than voxelSize (x1.2 or more is recomended)</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">float</span> sectionStep = {};</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a52895b7bcf2496f6f864eb70ed364035">sectionStep</a> = {};</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// if distance to the next section is smaller than it, transition will be performed along the surface</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">// otherwise transition will be through the safe plane</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">float</span> critTransitionLength = {};</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a80f060994654a40c5e161377d6ea6a8f">critTransitionLength</a> = {};</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">// when the mill is moving down, it will be slowed down in this distance from mesh</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">float</span> plungeLength = {};</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#ac4579aa03e64fdb7234a4300c8788612">plungeLength</a> = {};</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">// when the mill is moving up, it will be slowed down in this distance from mesh</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">float</span> retractLength = {};</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a431f76cb999c251164a712802aa04b88">retractLength</a> = {};</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="comment">// speed of slow movement down</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">float</span> plungeFeed = {};</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#abc4d04bb6f64591a34091bb98b9c4ee8">plungeFeed</a> = {};</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// speed of slow movement up</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">float</span> retractFeed = {};</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#ad79a884fa62a9ae24d96533cab3e227b">retractFeed</a> = {};</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// speed of regular milling</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">float</span> baseFeed = {};</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a9e42c852eca5bd424fbe5b64ddc271a9">baseFeed</a> = {};</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="comment">// z-coordinate of plane where tool can move in any direction without touching the object</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">float</span> safeZ = {};</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#aca860cdb913aec0be2767b4df1627ff5">safeZ</a> = {};</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="comment">// which direction isolines or sections should be passed in</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    BypassDirection bypassDir = BypassDirection::Clockwise;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    BypassDirection <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#aed6c08d09f3c0117b0dc971b599306c2">bypassDir</a> = BypassDirection::Clockwise;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">// mesh can be transformed using xf parameter</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">const</span> AffineXf3f* xf = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">const</span> AffineXf3f* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a901d3e156b5cfbfb148e2fcc2544960b">xf</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="comment">// if true then a tool path for a flat milling tool will be generated</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">bool</span> flatTool = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#ac759b76e49fa12d353ee0523fb99d750">flatTool</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// callback for reporting on progress</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    ProgressCallback cb = {};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a7086152986bb979df3b1acf0387c50d6">cb</a> = {};</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">// if &gt; 0 - expand the trajectory creation area and create toolpath to mill excess material to make empty areas.</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">// The area has the shape of a box.</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">// Lacing specific only.</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">float</span> toolpathExpansion = 0.f;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a543238597e8d8ac1e9ec18c66ee5a34d">toolpathExpansion</a> = 0.f;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">// optional output, stores isolines without transits</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a244b94f1cbef9badbe2ead6a3bbcd740">Contours3f</a>* isolines = <span class="keyword">nullptr</span>;  </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a244b94f1cbef9badbe2ead6a3bbcd740">Contours3f</a>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a8a27b8bd50ed333dc059140fcefb1774">isolines</a> = <span class="keyword">nullptr</span>;  </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">// optional output, polyline containing start vertices for isolines</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a244b94f1cbef9badbe2ead6a3bbcd740">Contours3f</a>* startContours = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a244b94f1cbef9badbe2ead6a3bbcd740">Contours3f</a>* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a962b186fdbdbcb96795399b3c5c7f958">startContours</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="comment">// start vertices on the offset mesh used for calcutating isolines</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::vector&lt;Vector3f&gt;* startVertices = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::vector&lt;Vector3f&gt;* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#a0e51c97b4114992ebac39cc646b3f924">startVertices</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    MeshPart* offsetMesh = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    MeshPart* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathParams.html#ac9e62a8512dcbccca9bf426e60378ed3">offsetMesh</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">struct </span>ConstantCuspParams : ToolPathParams</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>{</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">// if true isolines will be processed from center point to the boundary (usually it means from up to down)</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">bool</span> fromCenterToBoundary = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">bool</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ConstantCuspParams.html#ae8fbe8df4b09cedd330a7ca233f3367f">fromCenterToBoundary</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>};</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">struct </span>LineInterpolationParams</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>{</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">// maximal deviation from given line</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">float</span> eps = {};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1LineInterpolationParams.html#a1db43807bc61db1747fdf2d0997c44c9">eps</a> = {};</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">// maximal length of the line</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">float</span> maxLength = {};</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1LineInterpolationParams.html#a85e29fe7a32e64ce1a67c1357d00c878">maxLength</a> = {};</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="comment">// callback for reporting on progress</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    ProgressCallback cb = {};</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1LineInterpolationParams.html#aa6d654db941e05998cded5b4096a5680">cb</a> = {};</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">struct </span>ArcInterpolationParams</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>{</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="comment">// maximal deviation of arc from given path</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">float</span> eps = {};</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ArcInterpolationParams.html#a843a6b500f0606b83fafbe1db975a602">eps</a> = {};</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="comment">// maximal radius of the arc</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">float</span> maxRadius = {};</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ArcInterpolationParams.html#a7b08becbaf0a29e247c7f1a0e3741cb5">maxRadius</a> = {};</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="comment">// callback for reporting on progress</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    ProgressCallback cb = {};</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    ProgressCallback <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ArcInterpolationParams.html#a85070e607deb5fe2f48492578342e32a">cb</a> = {};</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>};</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">enum class</span> MoveType</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">enum class</span> <a class="code hl_enumerationRef" href="../Csharp/classMR.html#ae8b6d4808fb530b2853f712a381e2fee">MoveType</a></div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>{</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    None = -1,</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    FastLinear = 0,</div>
@@ -249,7 +249,7 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    ArcCCW = 3</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>};</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">enum class</span> ArcPlane</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">enum class</span> <a class="code hl_enumerationRef" href="../Csharp/classMR.html#afd36e700e6c3e32c350de8faa2cc7b37">ArcPlane</a></div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>{</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    None = -1,</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    XY = 17,</div>
@@ -260,27 +260,27 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">struct </span>GCommand</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>{</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="comment">// type of command GX (G0, G1, etc). By default - G1</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    MoveType type = MoveType::Linear;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    MoveType <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#a1f540ff737b6b24655bbf11279e152b7">type</a> = MoveType::Linear;</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="comment">// Place for comment</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    ArcPlane arcPlane = ArcPlane::None;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    ArcPlane <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#a2691f3f5eb5e6890bb1b46eef25b851e">arcPlane</a> = ArcPlane::None;</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="comment">// feedrate for move</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">float</span> feed = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#ae8681db90df6db7a9a6af8eb179d4d45">feed</a> = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="comment">// coordinates of destination point</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">float</span> x = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">float</span> y = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">float</span> z = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#a7113ab0dd165e89ff589e21e0904bb89">x</a> = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#a75cde9698b11b1f6d6dc0e8896d0618b">y</a> = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#ab84f1e602242cfba9b8722c759ffab22">z</a> = std::numeric_limits&lt;float&gt;::quiet_NaN();</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// if moveType is ArcCW or ArcCCW center of the arc shoult be specified</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    Vector3f arcCenter = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">Vector3f::diagonal</a>( std::numeric_limits&lt;float&gt;::quiet_NaN() );</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    Vector3f <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GCommand.html#aa090fc1ce084662b83e1405da50cfc7a">arcCenter</a> = <a class="code hl_functionRef" href="../Csharp/structMR_1_1Vector3f.html#a2fdceeff57d05e3bfae1b9c00a08144e">Vector3f::diagonal</a>( std::numeric_limits&lt;float&gt;::quiet_NaN() );</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>};</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">struct </span>ToolPathResult</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>{</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="comment">// mesh after fixing undercuts and offset</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    Mesh modifiedMesh;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    Mesh <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathResult.html#a167287ee16c313cf9cd4d83144a5552c">modifiedMesh</a>;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="comment">// selected region projected from the original mesh to the offset</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    FaceBitSet modifiedRegion;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    FaceBitSet <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathResult.html#ae5ab3f685c93ea5c455b370d77bc1da0">modifiedRegion</a>;</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="comment">// constains type of movement and its feed</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    std::vector&lt;GCommand&gt; commands;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    std::vector&lt;GCommand&gt; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ToolPathResult.html#ac06ea1507435f9cab5d0cc83b95dd890">commands</a>;</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>};</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="comment">// compute path of the milling tool for the given mesh with parameters ( direction of milling is from up to down along Z-direction )</span></div>
@@ -317,18 +317,57 @@ $(function(){initNavTree('MRToolPath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>}</div>
 <div class="ttc" id="aMRAxis_8h_html"><div class="ttname"><a href="MRAxis_8h.html">MRAxis.h</a></div></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRPolyline_8h_html"><div class="ttname"><a href="MRPolyline_8h.html">MRPolyline.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1ArcInterpolationParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1ArcInterpolationParams.html">MR::ArcInterpolationParams</a></div><div class="ttdef"><b>Definition</b> MRToolPath.h:84</div></div>
+<div class="ttc" id="aclassMR_1_1ArcInterpolationParams_html_a7b08becbaf0a29e247c7f1a0e3741cb5"><div class="ttname"><a href="../Csharp/classMR_1_1ArcInterpolationParams.html#a7b08becbaf0a29e247c7f1a0e3741cb5">MR::ArcInterpolationParams::maxRadius</a></div><div class="ttdeci">new unsafe ref float maxRadius</div></div>
+<div class="ttc" id="aclassMR_1_1ArcInterpolationParams_html_a843a6b500f0606b83fafbe1db975a602"><div class="ttname"><a href="../Csharp/classMR_1_1ArcInterpolationParams.html#a843a6b500f0606b83fafbe1db975a602">MR::ArcInterpolationParams::eps</a></div><div class="ttdeci">new unsafe ref float eps</div></div>
+<div class="ttc" id="aclassMR_1_1ArcInterpolationParams_html_a85070e607deb5fe2f48492578342e32a"><div class="ttname"><a href="../Csharp/classMR_1_1ArcInterpolationParams.html#a85070e607deb5fe2f48492578342e32a">MR::ArcInterpolationParams::cb</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat cb</div></div>
 <div class="ttc" id="aclassMR_1_1ConstantCuspParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1ConstantCuspParams.html">MR::ConstantCuspParams</a></div><div class="ttdef"><b>Definition</b> MRToolPath.h:68</div></div>
+<div class="ttc" id="aclassMR_1_1ConstantCuspParams_html_ae8fbe8df4b09cedd330a7ca233f3367f"><div class="ttname"><a href="../Csharp/classMR_1_1ConstantCuspParams.html#ae8fbe8df4b09cedd330a7ca233f3367f">MR::ConstantCuspParams::fromCenterToBoundary</a></div><div class="ttdeci">new unsafe ref bool fromCenterToBoundary</div></div>
 <div class="ttc" id="aclassMR_1_1FaceBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1FaceBitSet.html">MR::FaceBitSet</a></div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_a1f540ff737b6b24655bbf11279e152b7"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#a1f540ff737b6b24655bbf11279e152b7">MR::GCommand::type</a></div><div class="ttdeci">new unsafe ref MR.MoveType type</div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_a2691f3f5eb5e6890bb1b46eef25b851e"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#a2691f3f5eb5e6890bb1b46eef25b851e">MR::GCommand::arcPlane</a></div><div class="ttdeci">new unsafe ref MR.ArcPlane arcPlane</div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_a7113ab0dd165e89ff589e21e0904bb89"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#a7113ab0dd165e89ff589e21e0904bb89">MR::GCommand::x</a></div><div class="ttdeci">new unsafe ref float x</div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_a75cde9698b11b1f6d6dc0e8896d0618b"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#a75cde9698b11b1f6d6dc0e8896d0618b">MR::GCommand::y</a></div><div class="ttdeci">new unsafe ref float y</div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_aa090fc1ce084662b83e1405da50cfc7a"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#aa090fc1ce084662b83e1405da50cfc7a">MR::GCommand::arcCenter</a></div><div class="ttdeci">new unsafe ref MR.Vector3f arcCenter</div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_ab84f1e602242cfba9b8722c759ffab22"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#ab84f1e602242cfba9b8722c759ffab22">MR::GCommand::z</a></div><div class="ttdeci">new unsafe ref float z</div></div>
+<div class="ttc" id="aclassMR_1_1GCommand_html_ae8681db90df6db7a9a6af8eb179d4d45"><div class="ttname"><a href="../Csharp/classMR_1_1GCommand.html#ae8681db90df6db7a9a6af8eb179d4d45">MR::GCommand::feed</a></div><div class="ttdeci">new unsafe ref float feed</div></div>
 <div class="ttc" id="aclassMR_1_1LineInterpolationParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1LineInterpolationParams.html">MR::LineInterpolationParams</a></div><div class="ttdef"><b>Definition</b> MRToolPath.h:74</div></div>
+<div class="ttc" id="aclassMR_1_1LineInterpolationParams_html_a1db43807bc61db1747fdf2d0997c44c9"><div class="ttname"><a href="../Csharp/classMR_1_1LineInterpolationParams.html#a1db43807bc61db1747fdf2d0997c44c9">MR::LineInterpolationParams::eps</a></div><div class="ttdeci">new unsafe ref float eps</div></div>
+<div class="ttc" id="aclassMR_1_1LineInterpolationParams_html_a85e29fe7a32e64ce1a67c1357d00c878"><div class="ttname"><a href="../Csharp/classMR_1_1LineInterpolationParams.html#a85e29fe7a32e64ce1a67c1357d00c878">MR::LineInterpolationParams::maxLength</a></div><div class="ttdeci">new unsafe ref float maxLength</div></div>
+<div class="ttc" id="aclassMR_1_1LineInterpolationParams_html_aa6d654db941e05998cded5b4096a5680"><div class="ttname"><a href="../Csharp/classMR_1_1LineInterpolationParams.html#aa6d654db941e05998cded5b4096a5680">MR::LineInterpolationParams::cb</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat cb</div></div>
 <div class="ttc" id="aclassMR_1_1MeshPart_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshPart.html">MR::MeshPart</a></div></div>
-<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Mesh_html"><div class="ttname"><a href="../Csharp/classMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:23</div></div>
 <div class="ttc" id="aclassMR_1_1ToolPathParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html">MR::ToolPathParams</a></div><div class="ttdef"><b>Definition</b> MRToolPath.h:20</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a0e51c97b4114992ebac39cc646b3f924"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a0e51c97b4114992ebac39cc646b3f924">MR::ToolPathParams::startVertices</a></div><div class="ttdeci">new unsafe MR.Std.? Vector_MRVector3f startVertices</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a431f76cb999c251164a712802aa04b88"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a431f76cb999c251164a712802aa04b88">MR::ToolPathParams::retractLength</a></div><div class="ttdeci">new unsafe ref float retractLength</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a52895b7bcf2496f6f864eb70ed364035"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a52895b7bcf2496f6f864eb70ed364035">MR::ToolPathParams::sectionStep</a></div><div class="ttdeci">new unsafe ref float sectionStep</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a543238597e8d8ac1e9ec18c66ee5a34d"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a543238597e8d8ac1e9ec18c66ee5a34d">MR::ToolPathParams::toolpathExpansion</a></div><div class="ttdeci">new unsafe ref float toolpathExpansion</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a7086152986bb979df3b1acf0387c50d6"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a7086152986bb979df3b1acf0387c50d6">MR::ToolPathParams::cb</a></div><div class="ttdeci">new unsafe MR.Std.Function_BoolFuncFromFloat cb</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a7195a5a6a112d727d4027663b44689d0"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a7195a5a6a112d727d4027663b44689d0">MR::ToolPathParams::millRadius</a></div><div class="ttdeci">new unsafe ref float millRadius</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a80f060994654a40c5e161377d6ea6a8f"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a80f060994654a40c5e161377d6ea6a8f">MR::ToolPathParams::critTransitionLength</a></div><div class="ttdeci">new unsafe ref float critTransitionLength</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a8a27b8bd50ed333dc059140fcefb1774"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a8a27b8bd50ed333dc059140fcefb1774">MR::ToolPathParams::isolines</a></div><div class="ttdeci">new unsafe MR.Std.? Vector_StdVectorMRVector3f isolines</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a8e43edb51706453ebe54d9c97baf17d6"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a8e43edb51706453ebe54d9c97baf17d6">MR::ToolPathParams::voxelSize</a></div><div class="ttdeci">new unsafe ref float voxelSize</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a901d3e156b5cfbfb148e2fcc2544960b"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a901d3e156b5cfbfb148e2fcc2544960b">MR::ToolPathParams::xf</a></div><div class="ttdeci">new unsafe MR.? ConstBox_AffineXf3f xf</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a962b186fdbdbcb96795399b3c5c7f958"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a962b186fdbdbcb96795399b3c5c7f958">MR::ToolPathParams::startContours</a></div><div class="ttdeci">new unsafe MR.Std.? Vector_StdVectorMRVector3f startContours</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_a9e42c852eca5bd424fbe5b64ddc271a9"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#a9e42c852eca5bd424fbe5b64ddc271a9">MR::ToolPathParams::baseFeed</a></div><div class="ttdeci">new unsafe ref float baseFeed</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_abc4d04bb6f64591a34091bb98b9c4ee8"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#abc4d04bb6f64591a34091bb98b9c4ee8">MR::ToolPathParams::plungeFeed</a></div><div class="ttdeci">new unsafe ref float plungeFeed</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_ac4579aa03e64fdb7234a4300c8788612"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#ac4579aa03e64fdb7234a4300c8788612">MR::ToolPathParams::plungeLength</a></div><div class="ttdeci">new unsafe ref float plungeLength</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_ac759b76e49fa12d353ee0523fb99d750"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#ac759b76e49fa12d353ee0523fb99d750">MR::ToolPathParams::flatTool</a></div><div class="ttdeci">new unsafe ref bool flatTool</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_ac9e62a8512dcbccca9bf426e60378ed3"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#ac9e62a8512dcbccca9bf426e60378ed3">MR::ToolPathParams::offsetMesh</a></div><div class="ttdeci">new unsafe MR.? MeshPart offsetMesh</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_aca860cdb913aec0be2767b4df1627ff5"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#aca860cdb913aec0be2767b4df1627ff5">MR::ToolPathParams::safeZ</a></div><div class="ttdeci">new unsafe ref float safeZ</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_ad79a884fa62a9ae24d96533cab3e227b"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#ad79a884fa62a9ae24d96533cab3e227b">MR::ToolPathParams::retractFeed</a></div><div class="ttdeci">new unsafe ref float retractFeed</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathParams_html_aed6c08d09f3c0117b0dc971b599306c2"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathParams.html#aed6c08d09f3c0117b0dc971b599306c2">MR::ToolPathParams::bypassDir</a></div><div class="ttdeci">new unsafe ref MR.BypassDirection bypassDir</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathResult_html_a167287ee16c313cf9cd4d83144a5552c"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathResult.html#a167287ee16c313cf9cd4d83144a5552c">MR::ToolPathResult::modifiedMesh</a></div><div class="ttdeci">new unsafe MR.Mesh modifiedMesh</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathResult_html_ac06ea1507435f9cab5d0cc83b95dd890"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathResult.html#ac06ea1507435f9cab5d0cc83b95dd890">MR::ToolPathResult::commands</a></div><div class="ttdeci">new unsafe MR.Std.Vector_MRGCommand commands</div></div>
+<div class="ttc" id="aclassMR_1_1ToolPathResult_html_ae5ab3f685c93ea5c455b370d77bc1da0"><div class="ttname"><a href="../Csharp/classMR_1_1ToolPathResult.html#ae5ab3f685c93ea5c455b370d77bc1da0">MR::ToolPathResult::modifiedRegion</a></div><div class="ttdeci">new unsafe MR.FaceBitSet modifiedRegion</div></div>
+<div class="ttc" id="aclassMR_html_a4c32f3ff80d7644f35d698296c9b8ca3"><div class="ttname"><a href="../Csharp/classMR.html#a4c32f3ff80d7644f35d698296c9b8ca3">MR::BypassDirection</a></div><div class="ttdeci">BypassDirection</div></div>
+<div class="ttc" id="aclassMR_html_ae8b6d4808fb530b2853f712a381e2fee"><div class="ttname"><a href="../Csharp/classMR.html#ae8b6d4808fb530b2853f712a381e2fee">MR::MoveType</a></div><div class="ttdeci">MoveType</div></div>
+<div class="ttc" id="aclassMR_html_afd36e700e6c3e32c350de8faa2cc7b37"><div class="ttname"><a href="../Csharp/classMR.html#afd36e700e6c3e32c350de8faa2cc7b37">MR::ArcPlane</a></div><div class="ttdeci">ArcPlane</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a05e67fe513dddb7486b86a59420ff5da"><div class="ttname"><a href="namespaceMR.html#a05e67fe513dddb7486b86a59420ff5da">MR::constantCuspToolPath</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; ToolPathResult &gt; constantCuspToolPath(const MeshPart &amp;mp, const ConstantCuspParams &amp;params)</div></div>
 <div class="ttc" id="anamespaceMR_html_a5b9808eb4889c505cb2dc513fa536a42"><div class="ttname"><a href="namespaceMR.html#a5b9808eb4889c505cb2dc513fa536a42">MR::exportToolPathToGCode</a></div><div class="ttdeci">MRVOXELS_API std::shared_ptr&lt; ObjectGcode &gt; exportToolPathToGCode(const std::vector&lt; GCommand &gt; &amp;commands)</div></div>

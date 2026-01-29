@@ -150,9 +150,9 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html',''); initResizable(tru
 <div class="contents">
 <a href="MRMarkedContour_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
@@ -160,7 +160,7 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">struct </span>MarkedContour3f</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a518a606de3a3f4f80e0ec69b5602b661">Contour3f</a> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MarkedContour3f.html#a14017c6c385dd31ce235e5c19510f81c">contour</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    BitSet marks; </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    BitSet <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MarkedContour3f.html#a037878be29beea2f2c5a995f54fa46de">marks</a>; </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>};</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="namespaceMR.html#acd259cc34db34b6aee3060c1baf8822d">   16</a></span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR.html#a250501cf8de3c016cf374b34455c335f">isClosed</a>( <span class="keyword">const</span> Contour3f&amp; c ) { <span class="keywordflow">return</span> c.size() &gt; 1 &amp;&amp; c.front() == c.back(); }</div>
@@ -206,13 +206,14 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7fdb7eb094811ed5d74ac5dbb128319f">   75</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_classRef" href="../Csharp/classMR_1_1MarkedContour3f.html">MarkedContour3f</a> <a class="code hl_function" href="namespaceMR.html#a658ce22569ca9a5d8cb0d41cbb4c33e3">makeSpline</a>( <span class="keyword">const</span> Contour3f &amp; controlPoints, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1SplineSettings.html">SplineSettings</a> &amp; settings );</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>} <span class="comment">//namespace MR</span></div>
+<div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1BitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1BitSet.html">MR::BitSet</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:24</div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1BitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1BitSet.html">MR::BitSet</a></div><div class="ttdef"><b>Definition</b> MRBitSet.h:24</div></div>
 <div class="ttc" id="aclassMR_1_1BitSet_html_ae6b90de471d576c9e1561439e05df047"><div class="ttname"><a href="../Csharp/classMR_1_1BitSet.html#ae6b90de471d576c9e1561439e05df047">MR::BitSet::set</a></div><div class="ttdeci">unsafe MR.BitSet set(ulong n, ulong len, bool val)</div></div>
 <div class="ttc" id="aclassMR_1_1MarkedContour3f_html"><div class="ttname"><a href="../Csharp/classMR_1_1MarkedContour3f.html">MR::MarkedContour3f</a></div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1MarkedContour3f_html_a037878be29beea2f2c5a995f54fa46de"><div class="ttname"><a href="../Csharp/classMR_1_1MarkedContour3f.html#a037878be29beea2f2c5a995f54fa46de">MR::MarkedContour3f::marks</a></div><div class="ttdeci">new unsafe MR.BitSet marks</div></div>
 <div class="ttc" id="aclassMR_1_1MarkedContour3f_html_a14017c6c385dd31ce235e5c19510f81c"><div class="ttname"><a href="../Csharp/classMR_1_1MarkedContour3f.html#a14017c6c385dd31ce235e5c19510f81c">MR::MarkedContour3f::contour</a></div><div class="ttdeci">new unsafe MR.Std.Vector_MRVector3f contour</div></div>
 <div class="ttc" id="aclassMR_1_1SplineSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1SplineSettings.html">MR::SplineSettings</a></div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:53</div></div>
 <div class="ttc" id="aclassMR_1_1SplineSettings_html_a1db69d1c397c5f5d0ea6a9657d00342b"><div class="ttname"><a href="../Csharp/classMR_1_1SplineSettings.html#a1db69d1c397c5f5d0ea6a9657d00342b">MR::SplineSettings::iterations</a></div><div class="ttdeci">new unsafe ref int iterations</div></div>

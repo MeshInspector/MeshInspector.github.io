@@ -6,5 +6,6 @@ var classMR_1_1Const__AABBTreePoints_1_1Node =
     [ "assign", "classMR_1_1Const__AABBTreePoints_1_1Node.html#acfdc0689c8c38aa8b9aa4188b8a6ded5", null ],
     [ "setLeafPointRange", "classMR_1_1Const__AABBTreePoints_1_1Node.html#ad0761827273475deb0d1b65e9aed676b", null ],
     [ "box", "classMR_1_1Const__AABBTreePoints_1_1Node.html#a0aee5cfd5c239c9ca45d545df088cdd0", null ],
-    [ "l", "classMR_1_1Const__AABBTreePoints_1_1Node.html#a12d96301f1b568829b60eecbf6ebeb34", null ]
+    [ "l", "classMR_1_1Const__AABBTreePoints_1_1Node.html#a12d96301f1b568829b60eecbf6ebeb34", null ],
+    [ "r", "classMR_1_1Const__AABBTreePoints_1_1Node.html#a6c1cf45c3585a3413479d73e4ccf0ca1", null ]
 ];

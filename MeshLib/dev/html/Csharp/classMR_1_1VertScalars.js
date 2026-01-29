@@ -5,7 +5,6 @@ var classMR_1_1VertScalars =
     [ "VertScalars", "classMR_1_1VertScalars.html#ab5cf4e40565c8eda1e052e810888792d", null ],
     [ "VertScalars", "classMR_1_1VertScalars.html#a4e2ad3b3ebacac61abf94fceca5e15fd", null ],
     [ "VertScalars", "classMR_1_1VertScalars.html#aae49fbdfe12e095510e0fd4c329e1384", null ],
-    [ "_FinalizeFields", "classMR_1_1VertScalars.html#ae1e76c65453e331c2409fc0990c06cb0", null ],
     [ "assign", "classMR_1_1VertScalars.html#ab4bb52e739169cc6118747d76a72639f", null ],
     [ "autoResizeAt", "classMR_1_1VertScalars.html#a646b542f63a96c83d56810901517455f", null ],
     [ "autoResizeSet", "classMR_1_1VertScalars.html#a30998558f3bbf9dd805bb1dc4e982554", null ],

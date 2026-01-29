@@ -12,8 +12,12 @@ var classMR_1_1Const__FaceBitSet =
     [ "bits", "classMR_1_1Const__FaceBitSet.html#a64ea93ef75e1410652487bd774226e1e", null ],
     [ "capacity", "classMR_1_1Const__FaceBitSet.html#a011fb3e2de2935b80e88a093e8b32323", null ],
     [ "count", "classMR_1_1Const__FaceBitSet.html#aae945b4e2834c660e1a78960a6710395", null ],
+    [ "Dispose", "classMR_1_1Const__FaceBitSet.html#afb7cb74bfd47e0bd918ed6dc217e26b1", null ],
+    [ "Dispose", "classMR_1_1Const__FaceBitSet.html#a56013e6fa7273b98b99adbb14ee113bb", null ],
     [ "empty", "classMR_1_1Const__FaceBitSet.html#adf383ff8d010c1a40f22a2683098193e", null ],
     [ "endId", "classMR_1_1Const__FaceBitSet.html#a92074f746c1c1559230beb01d275567b", null ],
+    [ "Equals", "classMR_1_1Const__FaceBitSet.html#a796d713c96d31358051dd1c7cd526b02", null ],
+    [ "Equals", "classMR_1_1Const__FaceBitSet.html#a53b8c73332a56ddfe739fa0418bca23f", null ],
     [ "findFirst", "classMR_1_1Const__FaceBitSet.html#a5e749bcfd63493f1c3aec11ce82c60e6", null ],
     [ "findLast", "classMR_1_1Const__FaceBitSet.html#a47149759e54446cfd09b68031c194516", null ],
     [ "findNext", "classMR_1_1Const__FaceBitSet.html#aaae98de3a19bc57aadb23fe8ed6e92b1", null ],
@@ -29,6 +33,8 @@ var classMR_1_1Const__FaceBitSet =
     [ "none", "classMR_1_1Const__FaceBitSet.html#af7daeb58bc5cc8d876e91d509d99cb62", null ],
     [ "nthSetBit", "classMR_1_1Const__FaceBitSet.html#a3d452df671416a401feb45a7a564d2b0", null ],
     [ "numBlocks", "classMR_1_1Const__FaceBitSet.html#a35bd59a40329e8b46c2981349c4e2a07", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__FaceBitSet.html#a72b0414c0dba23c282691fc93ddc9f83", null ],
+    [ "operator!=", "classMR_1_1Const__FaceBitSet.html#a292e317ae8ec8d373ce958dd348249a1", null ],
     [ "operator&", "classMR_1_1Const__FaceBitSet.html#abb456316d8aae1b914eb8ebb4c242917", null ],
     [ "operator-", "classMR_1_1Const__FaceBitSet.html#aa0759c34e5fd9eb6f603edd98e8dc8d0", null ],
     [ "operator==", "classMR_1_1Const__FaceBitSet.html#afa5dac6633316d32edb5de73830486ed", null ],
@@ -36,5 +42,9 @@ var classMR_1_1Const__FaceBitSet =
     [ "operator|", "classMR_1_1Const__FaceBitSet.html#a99f7cb46aa34a93eae996fee1b1b9aaa", null ],
     [ "size", "classMR_1_1Const__FaceBitSet.html#a9cf02e4e1a54b3e654d1bee1da963d05", null ],
     [ "test", "classMR_1_1Const__FaceBitSet.html#a7e540db05cfc6e0f8ca4e145c417316d", null ],
-    [ "uncheckedTest", "classMR_1_1Const__FaceBitSet.html#aaf633389afebf2eb229cbf103b08d152", null ]
+    [ "uncheckedTest", "classMR_1_1Const__FaceBitSet.html#aaf633389afebf2eb229cbf103b08d152", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__FaceBitSet.html#a7a1b57e281c0676b5c1cdbed1c5897ff", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__FaceBitSet.html#a28ca17be0f0cabf0a281fd9187a23e2a", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__FaceBitSet.html#a78bc57702a096223372a41d221eb3d97", null ],
+    [ "Npos", "classMR_1_1Const__FaceBitSet.html#a40df1d12785a5ee7834d8af654cad0f3", null ]
 ];

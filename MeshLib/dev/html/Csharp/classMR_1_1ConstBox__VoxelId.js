@@ -5,10 +5,15 @@ var classMR_1_1ConstBox__VoxelId =
     [ "ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html#a1c28cdc918d9944fadeeca3e1840529d", null ],
     [ "ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html#a935c39a57290f4989416e2406a828e09", null ],
     [ "ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html#ab8c586c7265056872797feff25d630a7", null ],
+    [ "Dispose", "classMR_1_1ConstBox__VoxelId.html#a4b2de53b0417c852718e2c6346e1bc61", null ],
+    [ "Dispose", "classMR_1_1ConstBox__VoxelId.html#adb3a68ea72afe2fc53e9d19b7fde1237", null ],
+    [ "Equals", "classMR_1_1ConstBox__VoxelId.html#ae1616f818177ce64c6ddeb95c7933b33", null ],
+    [ "Equals", "classMR_1_1ConstBox__VoxelId.html#aff0357b00a30327c7873e31fe7226cec", null ],
     [ "less", "classMR_1_1ConstBox__VoxelId.html#a399b9b31a83dc756834748332b4a3d47", null ],
     [ "operator bool", "classMR_1_1ConstBox__VoxelId.html#a4938ecf9e877d9fe5c9a143126a48e56", null ],
     [ "operator ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html#a776cd652cf8d84009cf14347a4443309", null ],
     [ "operator ulong", "classMR_1_1ConstBox__VoxelId.html#a34f5088de486f18bcdb9bb7aa38f747f", null ],
+    [ "operator!=", "classMR_1_1ConstBox__VoxelId.html#aa525d21951681a59bbb74de099a1cfe2", null ],
     [ "operator+", "classMR_1_1ConstBox__VoxelId.html#ab799d03dce7c9e140e9cc5982947946d", null ],
     [ "operator+", "classMR_1_1ConstBox__VoxelId.html#a61a9396d73370bf18bc0e8f865812220", null ],
     [ "operator+", "classMR_1_1ConstBox__VoxelId.html#a93db3c19b27b790b43da06de0866aa40", null ],
@@ -19,5 +24,5 @@ var classMR_1_1ConstBox__VoxelId =
     [ "operator--", "classMR_1_1ConstBox__VoxelId.html#a9d44c9ef98934be541371be1317e9259", null ],
     [ "operator==", "classMR_1_1ConstBox__VoxelId.html#ab4760e4de8d697a492e7447f7e360ed8", null ],
     [ "valid", "classMR_1_1ConstBox__VoxelId.html#a48c4f5a94472035a523189e4a421c44e", null ],
-    [ "_Ref", "classMR_1_1ConstBox__VoxelId.html#a63c4ebe2671ab4152837034ffc15820f", null ]
+    [ "id", "classMR_1_1ConstBox__VoxelId.html#a6d6c07f9918225822d7fdb6215948546", null ]
 ];

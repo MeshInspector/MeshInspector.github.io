@@ -7,6 +7,8 @@ var structMR_1_1VoxelId =
     [ "addAssign", "structMR_1_1VoxelId.html#ac2da7337e0a2ba694ea7e59bff5fc8da", null ],
     [ "decr", "structMR_1_1VoxelId.html#ae632542a477c18faab90f868333926c4", null ],
     [ "decr", "structMR_1_1VoxelId.html#a9269fa9e26e6a9659c6b914bc8ca1651", null ],
+    [ "Equals", "structMR_1_1VoxelId.html#aa3dddbcc4a53cd3e5e29f02747b16e99", null ],
+    [ "Equals", "structMR_1_1VoxelId.html#acb24f7520d441975e03fc52fb1e3d887", null ],
     [ "get", "structMR_1_1VoxelId.html#a032b8a4cb0601cd50e168f9637759b40", null ],
     [ "incr", "structMR_1_1VoxelId.html#a43fc1040f1073db75274cfcb22c783ab", null ],
     [ "incr", "structMR_1_1VoxelId.html#ac25fab4c42a2558b1a256772962fed44", null ],
@@ -14,6 +16,7 @@ var structMR_1_1VoxelId =
     [ "operator bool", "structMR_1_1VoxelId.html#ab775e245505df1013ddf24dc418d9c48", null ],
     [ "operator ulong", "structMR_1_1VoxelId.html#a73fc8b568d27df79456bdb5aac5124e8", null ],
     [ "operator VoxelId", "structMR_1_1VoxelId.html#a159e228f641a305cf60abd6f8c5dfe2e", null ],
+    [ "operator!=", "structMR_1_1VoxelId.html#a2761094aa3d77d1ca547cac982aaaad4", null ],
     [ "operator+", "structMR_1_1VoxelId.html#a31ff6169fe5784f576c0bccce613d9c0", null ],
     [ "operator+", "structMR_1_1VoxelId.html#a070c17c80f00e7df7a288704f7d0b263", null ],
     [ "operator+", "structMR_1_1VoxelId.html#a84a015d6f35edfb9c4dddf4276419901", null ],
@@ -22,5 +25,6 @@ var structMR_1_1VoxelId =
     [ "operator-", "structMR_1_1VoxelId.html#a3b183328553e079c8cf86b054e2a1f0a", null ],
     [ "operator==", "structMR_1_1VoxelId.html#a044820b8fbfcce3074d106aaee8235d9", null ],
     [ "subAssign", "structMR_1_1VoxelId.html#aadfff1b9a605991e23a815607978fc97", null ],
-    [ "valid", "structMR_1_1VoxelId.html#ae9be485f60f285438fd4c9992b567356", null ]
+    [ "valid", "structMR_1_1VoxelId.html#ae9be485f60f285438fd4c9992b567356", null ],
+    [ "id", "structMR_1_1VoxelId.html#acfe5559fc2c60c81b399d13b4cfc69f1", null ]
 ];

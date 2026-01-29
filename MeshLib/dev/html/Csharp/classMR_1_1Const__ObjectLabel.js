@@ -7,6 +7,8 @@ var classMR_1_1Const__ObjectLabel =
     [ "classNameInPlural", "classMR_1_1Const__ObjectLabel.html#ade4c817dc574fe34816735544ec1d085", null ],
     [ "clone", "classMR_1_1Const__ObjectLabel.html#aca7b671e7b3dee769e84259ce62f91ac", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectLabel.html#a2c67e1ca0db25a623eaf1347fe54123e", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectLabel.html#a4c1c58c108bb696167f725d64407cca7", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectLabel.html#af4f2e9c2828be259b476ec0ad08d3c52", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectLabel.html#ac1919800b56b6d6d1e89b079df9c5149", null ],
     [ "getAmbientStrength", "classMR_1_1Const__ObjectLabel.html#ab16063a90f9a69b6115bd29cb00b24a6", null ],
     [ "getBackColor", "classMR_1_1Const__ObjectLabel.html#a919c119bb5ee1c8f682680906862fb96", null ],
@@ -59,6 +61,11 @@ var classMR_1_1Const__ObjectLabel =
     [ "isVisible", "classMR_1_1Const__ObjectLabel.html#af0ca3af87cdf38303a8ab5be4d93932c", null ],
     [ "labelRepresentingMesh", "classMR_1_1Const__ObjectLabel.html#ae64860698b6645c23bbd66751f986e28", null ],
     [ "name", "classMR_1_1Const__ObjectLabel.html#a272547b7a46c00bbf9a0a40599cfc84b", null ],
+    [ "operator Const_ObjectLabel?", "classMR_1_1Const__ObjectLabel.html#aa71346bd16f48f8bb12162e56ad1f24d", null ],
+    [ "operator Const_ObjectLabel?", "classMR_1_1Const__ObjectLabel.html#a8b59cf41cc4676b006f906d343f45f83", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ObjectLabel.html#a8169e6bc18a06626868b652f2de2b6bf", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectLabel.html#a9f4f3ff1618f6857885b29d2eac7448a", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectLabel.html#a021b8200bd68b187117fc1647cf8b44b", null ],
     [ "render", "classMR_1_1Const__ObjectLabel.html#a985854cf796ee1372cb6308d01aba330", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectLabel.html#ad60a91b7e9d65c49cff6444869495ff2", null ],
     [ "renderUi", "classMR_1_1Const__ObjectLabel.html#a3c0ada506284284585735d7e8815c7f8", null ],
@@ -78,6 +85,5 @@ var classMR_1_1Const__ObjectLabel =
     [ "visibilityMask", "classMR_1_1Const__ObjectLabel.html#a4e615263783ccd500f7da33c5859e7a1", null ],
     [ "worldXf", "classMR_1_1Const__ObjectLabel.html#a558d8fbbc5be204ef2063ffc67b0e2b3", null ],
     [ "xf", "classMR_1_1Const__ObjectLabel.html#ae00ef3796515704f52cd2e78a933bf0f", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ObjectLabel.html#acfd2f844869ef52cebc5c0f144d9e551", null ],
-    [ "_IsOwning", "classMR_1_1Const__ObjectLabel.html#a3d29ff1b8309eb49fc6ac5f6dad405c8", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ObjectLabel.html#acfd2f844869ef52cebc5c0f144d9e551", null ]
 ];

@@ -1,5 +1,0 @@
-var classMR_1_1Std_1_1Const__Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef =
-[
-    [ "Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html#a13a27ffb75ba5d9f2b5a40e4406e84c2", null ],
-    [ "Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef", "classMR_1_1Std_1_1Const__Function__DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef.html#a29898b8da1b84f0e691d241597f0573e", null ]
-];

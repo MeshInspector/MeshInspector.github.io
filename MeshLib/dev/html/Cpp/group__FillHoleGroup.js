@@ -22,14 +22,17 @@ var group__FillHoleGroup =
       [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#a60ba7e6d45c9326c46eb178a8eb172da", null ],
       [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#a20adabbdbfa027f7e5684556b7221c50", null ],
       [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#ad76b82bdb5b6b344e7e815572fbd83fc", null ],
-      [ "assign", "../Csharp/classMR_1_1FillHoleItem.html#a525c31821bdc6f5145a8ab7f14d3ba72", null ]
+      [ "assign", "../Csharp/classMR_1_1FillHoleItem.html#a525c31821bdc6f5145a8ab7f14d3ba72", null ],
+      [ "edgeCode1", "../Csharp/classMR_1_1FillHoleItem.html#aad2db2030da4e98808498486f222dd2b", null ],
+      [ "edgeCode2", "../Csharp/classMR_1_1FillHoleItem.html#a50442d05f9750f08ee0e585e35b59c26", null ]
     ] ],
     [ "MR::HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html", [
       [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#a29d8e66ba2fe6237505716aa89048294", null ],
       [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#af23ed8e6d4f9447fefddfd0b5f69e90a", null ],
       [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#ac80deb9d88cce363defdb3837c5414d5", null ],
-      [ "_FinalizeFields", "../Csharp/classMR_1_1HoleFillPlan.html#ad16ddaffc1736a940c0ff8fcc68c3d9d", null ],
-      [ "assign", "../Csharp/classMR_1_1HoleFillPlan.html#a635d6b9767b9151f3b8fb7ad79d1c7b6", null ]
+      [ "assign", "../Csharp/classMR_1_1HoleFillPlan.html#a635d6b9767b9151f3b8fb7ad79d1c7b6", null ],
+      [ "items", "../Csharp/classMR_1_1HoleFillPlan.html#aea3d4b461e370e3b086ff883f1ae6855", null ],
+      [ "numTris", "../Csharp/classMR_1_1HoleFillPlan.html#a34f810739595a6937d1d1f4efc78f268", null ]
     ] ],
     [ "MR::MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html", [
       [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#ad12fab67f8b0eee7cd08814876cee084", null ],

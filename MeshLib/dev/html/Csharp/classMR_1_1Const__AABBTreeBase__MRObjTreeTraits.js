@@ -2,6 +2,8 @@ var classMR_1_1Const__AABBTreeBase__MRObjTreeTraits =
 [
     [ "Const_AABBTreeBase_MRObjTreeTraits", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a08af00e88651090a8c702669ba289148", null ],
     [ "Const_AABBTreeBase_MRObjTreeTraits", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#af901dc7c7b07d7db34512a8f4f6e25bf", null ],
+    [ "Dispose", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a2fa2cd33325a582f536f20f9630acd4b", null ],
+    [ "Dispose", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#abccb3883b171ac6cc47e4e0efc903563", null ],
     [ "getBoundingBox", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a98e5499961508b7f33ea6c0f1a1e1853", null ],
     [ "getLeafOrder", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#ac82d2a09cf944bb6ffe6734c7b4bd123", null ],
     [ "getNodesFromLeaves", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#aa09cee8390205dcca219f339735cf8c8", null ],

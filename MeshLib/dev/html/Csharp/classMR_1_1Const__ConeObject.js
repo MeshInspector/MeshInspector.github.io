@@ -7,6 +7,8 @@ var classMR_1_1Const__ConeObject =
     [ "classNameInPlural", "classMR_1_1Const__ConeObject.html#ab622cb386c15aac22e60b38af9734fa4", null ],
     [ "clone", "classMR_1_1Const__ConeObject.html#acacafe1d5ec0c537869cb5dbb02f7f41", null ],
     [ "cloneTree", "classMR_1_1Const__ConeObject.html#ad068d091330c85f007f1cebd83b2334c", null ],
+    [ "Dispose", "classMR_1_1Const__ConeObject.html#a08a6a195d57b19f874c8b820d95c0f2a", null ],
+    [ "Dispose", "classMR_1_1Const__ConeObject.html#a4fd200c4f64b587e7d882e9b19fb0d77", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__ConeObject.html#a01979884756a271375ca251896f08d23", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ConeObject.html#a08e4420dc62fde7bcfa964c165a09efe", null ],
     [ "getAmbientStrength", "classMR_1_1Const__ConeObject.html#a1d802de13a8a7481c9081b3b8997992a", null ],
@@ -65,6 +67,15 @@ var classMR_1_1Const__ConeObject =
     [ "isVisible", "classMR_1_1Const__ConeObject.html#a1779e36d703df21d0ce0a4ce66d6c04b", null ],
     [ "name", "classMR_1_1Const__ConeObject.html#a76750efa19f5ec72245279ad2e38360c", null ],
     [ "operator Const_ConeObject", "classMR_1_1Const__ConeObject.html#a7e817c4e570f5a5f0ee5435e07da2256", null ],
+    [ "operator Const_ConeObject?", "classMR_1_1Const__ConeObject.html#a982126168471759b146ba2ab3afddcd5", null ],
+    [ "operator Const_ConeObject?", "classMR_1_1Const__ConeObject.html#abbdb63bef4bda9c0620680dc3cb3934b", null ],
+    [ "operator Const_ConeObject?", "classMR_1_1Const__ConeObject.html#a53d4fba98a4b240c673b9a0335fc5584", null ],
+    [ "operator Const_ConeObject?", "classMR_1_1Const__ConeObject.html#a60203f0117d81b7c3457e305c9fa473c", null ],
+    [ "operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__ConeObject.html#afacc432ece26e8dbed43c5e075604b0e", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__ConeObject.html#aec9b4e7d0808c7c6cc302cb2448b63e4", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ConeObject.html#ae3a8b836bbacec94a3b7a3b1715ac597", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ConeObject.html#a6e9b228741e003378bab7e419e5b609c", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ConeObject.html#aaea5dd01f638fabd236009332b4ac700", null ],
     [ "projectPoint", "classMR_1_1Const__ConeObject.html#a901f647e4a2538a32c03cf93cd4c19ef", null ],
     [ "render", "classMR_1_1Const__ConeObject.html#a30f76e040b8321a080fd6a01d32d8a38", null ],
     [ "renderForPicker", "classMR_1_1Const__ConeObject.html#ab406786fb2bebb226587277edd1f69af", null ],
@@ -85,6 +96,5 @@ var classMR_1_1Const__ConeObject =
     [ "visibilityMask", "classMR_1_1Const__ConeObject.html#ab76e0b3c17cb50d8025c5e5823fdcdad", null ],
     [ "worldXf", "classMR_1_1Const__ConeObject.html#ac94a660af156c09999b462cf4b5dbb66", null ],
     [ "xf", "classMR_1_1Const__ConeObject.html#afdf74573015bff168bd6f3ff485854aa", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ConeObject.html#a21c0efe27875e7f0fcca9036cd5880ee", null ],
-    [ "_IsOwning", "classMR_1_1Const__ConeObject.html#a264b5dd62d44bd40afe5712803d3487f", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ConeObject.html#a21c0efe27875e7f0fcca9036cd5880ee", null ]
 ];

@@ -150,7 +150,7 @@ $(function(){initNavTree('MRTriangleIntersection_8h_source.html',''); initResiza
 <div class="contents">
 <a href="MRTriangleIntersection_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRIntersectionPrecomputes_8h.html">MRIntersectionPrecomputes.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRTriPoint_8h.html">MRTriPoint.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRLineSegm_8h.html">MRLineSegm.h</a>&quot;</span></div>
@@ -165,12 +165,12 @@ $(function(){initNavTree('MRTriangleIntersection_8h_source.html',''); initResiza
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">struct </span>TriIntersectResult</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">// barycentric representation</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    TriPointf bary;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    TriPointf <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TriIntersectResult.html#a5b49cc9e41838a348de8e93f416dc13b">bary</a>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">// distance from ray origin to p in dir length units</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">float</span> t = 0;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TriIntersectResult.html#ac19596207dbd1d0021458e4589392f6f">t</a> = 0;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1TriIntersectResult.html#a85cf83c7e28f559b5b4642be1b6c767e">TriIntersectResult</a>(<span class="keywordtype">float</span> U, <span class="keywordtype">float</span> V, <span class="keywordtype">float</span> dist)</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        bary.a = U; bary.b = V; t = dist;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TriIntersectResult.html#a5b49cc9e41838a348de8e93f416dc13b">bary</a>.a = U; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TriIntersectResult.html#a5b49cc9e41838a348de8e93f416dc13b">bary</a>.b = V; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1TriIntersectResult.html#ac19596207dbd1d0021458e4589392f6f">t</a> = dist;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
@@ -587,10 +587,12 @@ $(function(){initNavTree('MRTriangleIntersection_8h_source.html',''); initResiza
 <div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRIntersectionPrecomputes_8h_html"><div class="ttname"><a href="MRIntersectionPrecomputes_8h.html">MRIntersectionPrecomputes.h</a></div></div>
 <div class="ttc" id="aMRLineSegm_8h_html"><div class="ttname"><a href="MRLineSegm_8h.html">MRLineSegm.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRTriPoint_8h_html"><div class="ttname"><a href="MRTriPoint_8h.html">MRTriPoint.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1TriIntersectResult_html"><div class="ttname"><a href="../Csharp/classMR_1_1TriIntersectResult.html">MR::TriIntersectResult</a></div><div class="ttdef"><b>Definition</b> MRTriangleIntersection.h:19</div></div>
+<div class="ttc" id="aclassMR_1_1TriIntersectResult_html_a5b49cc9e41838a348de8e93f416dc13b"><div class="ttname"><a href="../Csharp/classMR_1_1TriIntersectResult.html#a5b49cc9e41838a348de8e93f416dc13b">MR::TriIntersectResult::bary</a></div><div class="ttdeci">new unsafe MR.TriPointf bary</div></div>
 <div class="ttc" id="aclassMR_1_1TriIntersectResult_html_a85cf83c7e28f559b5b4642be1b6c767e"><div class="ttname"><a href="../Csharp/classMR_1_1TriIntersectResult.html#a85cf83c7e28f559b5b4642be1b6c767e">MR::TriIntersectResult::TriIntersectResult</a></div><div class="ttdeci">unsafe TriIntersectResult(MR.Const_TriIntersectResult _other)</div></div>
+<div class="ttc" id="aclassMR_1_1TriIntersectResult_html_ac19596207dbd1d0021458e4589392f6f"><div class="ttname"><a href="../Csharp/classMR_1_1TriIntersectResult.html#ac19596207dbd1d0021458e4589392f6f">MR::TriIntersectResult::t</a></div><div class="ttdeci">new unsafe ref float t</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga1e89bb11cf7c4693e1c8839963994a08"><div class="ttname"><a href="group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08">MR::IntersectionPrecomputes::idxY</a></div><div class="ttdeci">int idxY</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:124</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga21465bc7d67177777744f39ac171940c"><div class="ttname"><a href="group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c">MR::IntersectionPrecomputes::Sx</a></div><div class="ttdeci">T Sx</div><div class="ttdoc">precomputed factors</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:130</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga59240ce19dcf5b27221a347b22086fcb"><div class="ttname"><a href="group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb">MR::IntersectionPrecomputes::idxX</a></div><div class="ttdeci">int idxX</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:123</div></div>
@@ -615,7 +617,7 @@ $(function(){initNavTree('MRTriangleIntersection_8h_source.html',''); initResiza
 <div class="ttc" id="astructMR_1_1IntersectionPrecomputes_html"><div class="ttname"><a href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:503</div></div>
 <div class="ttc" id="astructMR_1_1LineSegm_html"><div class="ttname"><a href="structMR_1_1LineSegm.html">MR::LineSegm</a></div><div class="ttdef"><b>Definition</b> MRLineSegm.h:12</div></div>
 <div class="ttc" id="astructMR_1_1Vector2_html"><div class="ttname"><a href="structMR_1_1Vector2.html">MR::Vector2</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:29</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:30</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:30</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

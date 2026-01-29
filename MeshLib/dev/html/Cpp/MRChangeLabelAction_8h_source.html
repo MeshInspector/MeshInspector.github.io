@@ -191,7 +191,7 @@ $(function(){initNavTree('MRChangeLabelAction_8h_source.html',''); initResizable
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> heapBytes()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> label_.text.capacity() + <span class="keyword">sizeof</span>( float ) * 5 + actionName_.capacity();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> label_.<a class="code hl_propertyRef" href="../Csharp/classMR_1_1PositionedText.html#a80bc1e820ef920546477e1070e75a12a">text</a>.capacity() + <span class="keyword">sizeof</span>( float ) * 5 + actionName_.capacity();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    std::shared_ptr&lt;ObjectLabel&gt; obj_;</div>
@@ -209,6 +209,7 @@ $(function(){initNavTree('MRChangeLabelAction_8h_source.html',''); initResizable
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeLabelAction_html_a23b22e4e6a934fba23781f57343526ea"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeLabelAction.html#a23b22e4e6a934fba23781f57343526ea">MR::ChangeLabelAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type _1)</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeLabelAction_html_acb09239d2d1b86147ba645498909c8e1"><div class="ttname"><a href="../Csharp/classMR_1_1ChangeLabelAction.html#acb09239d2d1b86147ba645498909c8e1">MR::ChangeLabelAction::ChangeLabelAction</a></div><div class="ttdeci">unsafe ChangeLabelAction(MR._ByValue_ChangeLabelAction _other)</div></div>
+<div class="ttc" id="aclassMR_1_1PositionedText_html_a80bc1e820ef920546477e1070e75a12a"><div class="ttname"><a href="../Csharp/classMR_1_1PositionedText.html#a80bc1e820ef920546477e1070e75a12a">MR::PositionedText::text</a></div><div class="ttdeci">new unsafe MR.Std.String text</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -151,7 +151,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="textblock"><p>Export example of points and triangles from mesh (e.g. for rendering)</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRCube_8h.html">MRMesh/MRCube.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
@@ -172,6 +172,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aMRCube_8h_html"><div class="ttname"><a href="./Cpp/MRCube_8h.html">MRCube.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html_ac19d6db4200945b6861959bd421a41e1"><div class="ttname"><a href="./Cpp/namespaceMR.html#ac19d6db4200945b6861959bd421a41e1">MR::makeCube</a></div><div class="ttdeci">MRMESH_API Mesh makeCube(const Vector3f &amp;size=Vector3f::diagonal(1.0f), const Vector3f &amp;base=Vector3f::diagonal(-0.5f))</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --></li>
@@ -207,7 +208,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// extract faces</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a>* t = <a class="code hl_functionRef" href="./C/MRMeshTopology_8h.html#a73d163898fff3a9677b56151e186df53">MR_MeshTopology_getTriangulation</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ) );</div>
-<div class="line">    <span class="keyword">const</span> <a class="code hl_structRef" href="./C/structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *faces = <a class="code hl_functionRef" href="./C/MRVector_8h.html#a14c1277722b38e9a1dcb5656b57b23fe">MR_Triangulation_data_const</a>( t );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_typedefRef" href="./C/MRSeparationPoint_8h.html#a93a0c4d7b47d7dae609a79a31bf54018">MR_std_array_MR_VertId_3</a> *faces = <a class="code hl_functionRef" href="./C/MRVector_8h.html#a14c1277722b38e9a1dcb5656b57b23fe">MR_Triangulation_data_const</a>( t );</div>
 <div class="line">    <span class="keywordtype">size_t</span> facesNum = <a class="code hl_functionRef" href="./C/MRVector_8h.html#ab5faabe57a8f5618fcf291239ff01787">MR_Triangulation_size</a>( t );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
@@ -215,7 +216,7 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line">        printf( <span class="stringliteral">&quot;  face %d:  %d, %d, %d\n&quot;</span>, (<span class="keywordtype">int</span>)i, faces[i].elems[0].id_, faces[i].elems[1].id_, faces[i].elems[2].id_ );</div>
 <div class="line">    <span class="comment">// ...and can also be cast to an integer array</span></div>
 <div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
-<div class="line">    memcpy( faceData, faces, <span class="keyword">sizeof</span>( <a class="code hl_structRef" href="./C/structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> ) * facesNum );</div>
+<div class="line">    memcpy( faceData, faces, <span class="keyword">sizeof</span>( <a class="code hl_typedefRef" href="./C/MRSeparationPoint_8h.html#a93a0c4d7b47d7dae609a79a31bf54018">MR_std_array_MR_VertId_3</a> ) * facesNum );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937">MR_Triangulation_Destroy</a>( t );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( mesh );</div>
@@ -228,10 +229,10 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="ttc" id="aMRIdentifyVertices_8h_html_a33f2cead15f3bf37534d3678feb4af22"><div class="ttname"><a href="./C/MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a></div><div class="ttdeci">struct MR_Triangulation MR_Triangulation</div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html"><div class="ttname"><a href="./C/MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html_a73d163898fff3a9677b56151e186df53"><div class="ttname"><a href="./C/MRMeshTopology_8h.html#a73d163898fff3a9677b56151e186df53">MR_MeshTopology_getTriangulation</a></div><div class="ttdeci">MRC_API MR_Triangulation * MR_MeshTopology_getTriangulation(const MR_MeshTopology *_this)</div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
 <div class="ttc" id="aMRMesh_8h_html_a761c97b0a5355c535d2a0d2284172cf7"><div class="ttname"><a href="./C/MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7">MR_Mesh_Get_points</a></div><div class="ttdeci">MRC_API const MR_VertCoords * MR_Mesh_Get_points(const MR_Mesh *_this)</div></div>
 <div class="ttc" id="aMRMesh_8h_html_a9b14debb3b7b0ebd19d7cbd8ba217aa7"><div class="ttname"><a href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a></div><div class="ttdeci">MRC_API const MR_MeshTopology * MR_Mesh_Get_topology(const MR_Mesh *_this)</div></div>
+<div class="ttc" id="aMRSeparationPoint_8h_html_a93a0c4d7b47d7dae609a79a31bf54018"><div class="ttname"><a href="./C/MRSeparationPoint_8h.html#a93a0c4d7b47d7dae609a79a31bf54018">MR_std_array_MR_VertId_3</a></div><div class="ttdeci">struct MR_std_array_MR_VertId_3 MR_std_array_MR_VertId_3</div></div>
 <div class="ttc" id="aMRString_8h_html"><div class="ttname"><a href="./C/MRString_8h.html">MRString.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="./C/MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html_aadd5d699d8a8ef0087a5e0e476e127fc"><div class="ttname"><a href="./C/MRVector3_8h.html#aadd5d699d8a8ef0087a5e0e476e127fc">MR_Vector3f_diagonal</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Vector3f_diagonal(float a)</div></div>
@@ -243,7 +244,6 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="ttc" id="aMRVector_8h_html_ac9e1111f7a4d68cfa09b73ea9b5384b5"><div class="ttname"><a href="./C/MRVector_8h.html#ac9e1111f7a4d68cfa09b73ea9b5384b5">MR_VertCoords_data_const</a></div><div class="ttdeci">MRC_API const MR_Vector3f * MR_VertCoords_data_const(const MR_VertCoords *_this)</div></div>
 <div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
-<div class="ttc" id="astructMR__std__array__MR__VertId__3_html"><div class="ttname"><a href="./C/structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshExportExample</div>
 <div class="line">{</div>

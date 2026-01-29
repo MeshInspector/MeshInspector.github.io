@@ -5,6 +5,8 @@ var classMR_1_1Const__VolumeIndexer =
     [ "areNeigbors", "classMR_1_1Const__VolumeIndexer.html#a9cb54cd5edb16fe9e3f9c90ed14d8c4a", null ],
     [ "areNeigbors", "classMR_1_1Const__VolumeIndexer.html#a4b4487608965f92a8dfaa8871ca306b6", null ],
     [ "dims", "classMR_1_1Const__VolumeIndexer.html#adf2b07c9f0ae77fd72a933549c25aa28", null ],
+    [ "Dispose", "classMR_1_1Const__VolumeIndexer.html#a4a19aeca200e326b088b755683588db9", null ],
+    [ "Dispose", "classMR_1_1Const__VolumeIndexer.html#a7862ab3a672d527a2b1e3c5f849f77d8", null ],
     [ "endId", "classMR_1_1Const__VolumeIndexer.html#ae816a3989f7ac0fc5aa0bbbcdf13fc69", null ],
     [ "getExistingNeighbor", "classMR_1_1Const__VolumeIndexer.html#a747a2d9d06249bfb64ff258a6aaa2ac7", null ],
     [ "getNeighbor", "classMR_1_1Const__VolumeIndexer.html#a16adf8ec51f1be924db24397ca900f2b", null ],

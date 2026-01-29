@@ -1,13 +1,13 @@
 var classMR_1_1Const__Graph =
 [
-    [ "_InOptConst_EndVertices", "classMR_1_1Const__Graph_1_1__InOptConst__EndVertices.html", null ],
-    [ "_InOptMut_EndVertices", "classMR_1_1Const__Graph_1_1__InOptMut__EndVertices.html", null ],
     [ "Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html", "classMR_1_1Const__Graph_1_1Const__EndVertices" ],
     [ "EndVertices", "classMR_1_1Const__Graph_1_1EndVertices.html", "classMR_1_1Const__Graph_1_1EndVertices" ],
     [ "Const_Graph", "classMR_1_1Const__Graph.html#a9d934fbd9d6a5cff13ced6e5f1e0f82b", null ],
     [ "Const_Graph", "classMR_1_1Const__Graph.html#adc75fa498d3893935d7eac9f29532d4b", null ],
     [ "areNeighbors", "classMR_1_1Const__Graph.html#aff0be28e4f7995a31545050f9b429812", null ],
     [ "checkValidity", "classMR_1_1Const__Graph.html#a90cb9dadafe9c14b6b60866dd6ccdf10", null ],
+    [ "Dispose", "classMR_1_1Const__Graph.html#ac2f53079644763ca41317b4b1772fce4", null ],
+    [ "Dispose", "classMR_1_1Const__Graph.html#ad2dcaf9e392d309a6564c62dad6a809f", null ],
     [ "edgeSize", "classMR_1_1Const__Graph.html#a2d024e5949cfb9637077a13e28feaec5", null ],
     [ "ends", "classMR_1_1Const__Graph.html#a68a9a41e505e2bbafd9ae2f696f9aac6", null ],
     [ "findEdge", "classMR_1_1Const__Graph.html#a8e516b1bb9f4f9ae171982e5d702dd05", null ],

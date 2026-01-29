@@ -5,7 +5,6 @@ var classMR_1_1VertCoords2 =
     [ "VertCoords2", "classMR_1_1VertCoords2.html#a5614734a46f4781e6e39de6a1974464d", null ],
     [ "VertCoords2", "classMR_1_1VertCoords2.html#a97e137aa34f7db251c48221641271198", null ],
     [ "VertCoords2", "classMR_1_1VertCoords2.html#a66ae4671710b56451610c3153bf856af", null ],
-    [ "_FinalizeFields", "classMR_1_1VertCoords2.html#af523bf74b0b49bf83b279f0042f63d1d", null ],
     [ "assign", "classMR_1_1VertCoords2.html#a68519e07909e81d305a82580ecb1f7c2", null ],
     [ "autoResizeAt", "classMR_1_1VertCoords2.html#a630ae1fab321aaafc2e5a9639b8f89b5", null ],
     [ "autoResizeSet", "classMR_1_1VertCoords2.html#a989a4bbd353c1c20e8d2bee93c506409", null ],

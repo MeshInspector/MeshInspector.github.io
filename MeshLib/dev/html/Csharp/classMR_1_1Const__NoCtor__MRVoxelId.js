@@ -1,5 +1,7 @@
 var classMR_1_1Const__NoCtor__MRVoxelId =
 [
     [ "Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html#ad309e25ca68c771e226f34cc9a65bddb", null ],
-    [ "Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html#af20e7c90f4f28a05e7017ea3389b80ce", null ]
+    [ "Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html#af20e7c90f4f28a05e7017ea3389b80ce", null ],
+    [ "Dispose", "classMR_1_1Const__NoCtor__MRVoxelId.html#a3cf455307f2c5533bfb43f93caef8207", null ],
+    [ "Dispose", "classMR_1_1Const__NoCtor__MRVoxelId.html#ab9dac92a5f194ce0e084bc1e2497fef9", null ]
 ];

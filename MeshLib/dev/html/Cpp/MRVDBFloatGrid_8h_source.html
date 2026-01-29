@@ -152,8 +152,8 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRFloatGrid_8h.html">MRFloatGrid.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// this header includes the whole OpenVDB, so please include it from .cpp files only</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRMesh/MRVector3.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBox_8h.html">MRMesh/MRBox.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRMesh/MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRBox_8h.html">MRMesh/MRBox.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MROpenVDB_8h.html">MROpenVDB.h</a>&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;MRPch/MRBindingMacros.h&quot;</span></div>
@@ -192,7 +192,7 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 <div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">   47</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> openvdb::Coord <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> &amp; v )</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> openvdb::Coord( v.x, v.y, v.z );</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> openvdb::Coord( v.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector3i.html#ab2799f2328d15963c27b6c5dca3ce699">x</a>, v.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector3i.html#a41eae45719419d4cd84f423e343caab9">y</a>, v.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Vector3i.html#a5d6832920d055ccccd58fa5849c3161b">z</a> );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
@@ -206,7 +206,7 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 <div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gafaceca609bb25c112d03e61621d7df0c">   57</a></span>MR_BIND_IGNORE <span class="keyword">inline</span> openvdb::CoordBBox <a class="code hl_function" href="group__BasicStructuresGroup.html#gafaceca609bb25c112d03e61621d7df0c">toVdbBox</a>( <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Box3i.html">Box3i</a>&amp; box )</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> openvdb::CoordBBox( <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( box.min ), <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( box.max ) );</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> openvdb::CoordBBox( <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( box.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Box3i.html#a32f3a5f1893175a0351881bb60d58737">min</a> ), <a class="code hl_function" href="group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">toVdb</a>( box.<a class="code hl_variableRef" href="../Csharp/structMR_1_1Box3i.html#a8feabddada9b75d3ad24c97c98b66733">max</a> ) );</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
 </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
@@ -220,10 +220,10 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>}</div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRFloatGrid_8h_html"><div class="ttname"><a href="MRFloatGrid_8h.html">MRFloatGrid.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMROpenVDB_8h_html"><div class="ttname"><a href="MROpenVDB_8h.html">MROpenVDB.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a9f036b05518b862a538b52711d41d242"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a></div><div class="ttdeci">#define MRVOXELS_CLASS</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1FloatGrid_html"><div class="ttname"><a href="../Csharp/classMR_1_1FloatGrid.html">MR::FloatGrid</a></div><div class="ttdef"><b>Definition</b> MRFloatGrid.h:21</div></div>
@@ -237,8 +237,13 @@ $(function(){initNavTree('MRVDBFloatGrid_8h_source.html',''); initResizable(true
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a9ee1db556a8c20bda08add64497250c6"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a9ee1db556a8c20bda08add64497250c6">mrmeshpy::heapBytes</a></div><div class="ttdeci">int heapBytes(std_vector_Color vec)</div></div>
 <div class="ttc" id="astructMR_1_1Box3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Box3i.html">MR::Box3i</a></div></div>
+<div class="ttc" id="astructMR_1_1Box3i_html_a32f3a5f1893175a0351881bb60d58737"><div class="ttname"><a href="../Csharp/structMR_1_1Box3i.html#a32f3a5f1893175a0351881bb60d58737">MR::Box3i::min</a></div><div class="ttdeci">MR.Vector3i min</div></div>
+<div class="ttc" id="astructMR_1_1Box3i_html_a8feabddada9b75d3ad24c97c98b66733"><div class="ttname"><a href="../Csharp/structMR_1_1Box3i.html#a8feabddada9b75d3ad24c97c98b66733">MR::Box3i::max</a></div><div class="ttdeci">MR.Vector3i max</div></div>
 <div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 <div class="ttc" id="astructMR_1_1Vector3i_html_a3cbd914c674cc15b8e2370c86bfd344c"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html#a3cbd914c674cc15b8e2370c86bfd344c">MR::Vector3i::diagonal</a></div><div class="ttdeci">static MR.Vector3i diagonal(int a)</div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html_a41eae45719419d4cd84f423e343caab9"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html#a41eae45719419d4cd84f423e343caab9">MR::Vector3i::y</a></div><div class="ttdeci">int y</div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html_a5d6832920d055ccccd58fa5849c3161b"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html#a5d6832920d055ccccd58fa5849c3161b">MR::Vector3i::z</a></div><div class="ttdeci">int z</div></div>
+<div class="ttc" id="astructMR_1_1Vector3i_html_ab2799f2328d15963c27b6c5dca3ce699"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html#ab2799f2328d15963c27b6c5dca3ce699">MR::Vector3i::x</a></div><div class="ttdeci">int x</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

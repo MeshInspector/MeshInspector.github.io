@@ -12,6 +12,8 @@ var classMR_1_1Const__GraphEdgeBitSet =
     [ "bits", "classMR_1_1Const__GraphEdgeBitSet.html#a5be5f2ef89ce0efa23f580be2c0f522f", null ],
     [ "capacity", "classMR_1_1Const__GraphEdgeBitSet.html#a9ac5ac9cd87397517ae07eceec3f40d6", null ],
     [ "count", "classMR_1_1Const__GraphEdgeBitSet.html#ab772b7083e6b789ecb2ca7ede5e523ec", null ],
+    [ "Dispose", "classMR_1_1Const__GraphEdgeBitSet.html#a8d0e69ebcbd86b0d4b8566f513fe1866", null ],
+    [ "Dispose", "classMR_1_1Const__GraphEdgeBitSet.html#ad5c34bd9b20dc74c37692ce8a2924e31", null ],
     [ "empty", "classMR_1_1Const__GraphEdgeBitSet.html#a282f2d9a22b16196b6bc746c29144377", null ],
     [ "endId", "classMR_1_1Const__GraphEdgeBitSet.html#a79f6478c9ed310f7d75d6026eae9791a", null ],
     [ "findFirst", "classMR_1_1Const__GraphEdgeBitSet.html#a89e26e83521c9c17412c474b50525407", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__GraphEdgeBitSet =
     [ "none", "classMR_1_1Const__GraphEdgeBitSet.html#ab1b5c7c2defe5ac5346686d8350b0153", null ],
     [ "nthSetBit", "classMR_1_1Const__GraphEdgeBitSet.html#a087f6b7b865093247b737c7439e968de", null ],
     [ "numBlocks", "classMR_1_1Const__GraphEdgeBitSet.html#a4cd0fa3501947ca3cfd22be3beb8c91f", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__GraphEdgeBitSet.html#ae7db8170a4673b1c544c6d7b9af3df82", null ],
     [ "operator&", "classMR_1_1Const__GraphEdgeBitSet.html#a2f4e311beca5e4bd1944c480b7303732", null ],
     [ "operator-", "classMR_1_1Const__GraphEdgeBitSet.html#a88ac504b46135e1d0d08e015948c68d6", null ],
     [ "operator^", "classMR_1_1Const__GraphEdgeBitSet.html#afa5e54b5379106ca627ffd7366af23c9", null ],
     [ "operator|", "classMR_1_1Const__GraphEdgeBitSet.html#a21b725326dbd487482c0acd341515ab8", null ],
     [ "size", "classMR_1_1Const__GraphEdgeBitSet.html#aa654468b20f3ac193a206c0e98119e80", null ],
     [ "test", "classMR_1_1Const__GraphEdgeBitSet.html#a581585fb20989f802780109247727cb1", null ],
-    [ "uncheckedTest", "classMR_1_1Const__GraphEdgeBitSet.html#ab324d3e487126e9142d84f017be6aed7", null ]
+    [ "uncheckedTest", "classMR_1_1Const__GraphEdgeBitSet.html#ab324d3e487126e9142d84f017be6aed7", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__GraphEdgeBitSet.html#a5e1ed5328a9a428d96160e2f6d7f2d5b", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__GraphEdgeBitSet.html#ab22c82988a98552cf7e28ab575955961", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__GraphEdgeBitSet.html#a9fd4af5454a37609460c993ed33e5335", null ],
+    [ "Npos", "classMR_1_1Const__GraphEdgeBitSet.html#a1f7bcd0f421fb535d209f7d18c28650c", null ]
 ];

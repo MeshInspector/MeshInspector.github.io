@@ -15,6 +15,7 @@ var classMR_1_1ObjBitSet =
     [ "flip", "classMR_1_1ObjBitSet.html#a1c3485d66e9631b372ff688bc839ed37", null ],
     [ "flip", "classMR_1_1ObjBitSet.html#ad9a2bbb631c560c4cfd93f6a1fbfd830", null ],
     [ "flip", "classMR_1_1ObjBitSet.html#a3e362de4bece597b2dad0e057d9f790c", null ],
+    [ "operator MR.BitSet", "classMR_1_1ObjBitSet.html#ac4f4c7c96010b00db8f810d168e25e53", null ],
     [ "popBack", "classMR_1_1ObjBitSet.html#ac8a2dd71cd47161416d337d68a2f30c9", null ],
     [ "pushBack", "classMR_1_1ObjBitSet.html#a48d94b4f12e65cccaf55060522aca86a", null ],
     [ "reserve", "classMR_1_1ObjBitSet.html#ab488426fa9a41851346adb6442f3b234", null ],

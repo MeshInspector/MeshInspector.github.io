@@ -12,6 +12,8 @@ var classMR_1_1Const__TextureBitSet =
     [ "bits", "classMR_1_1Const__TextureBitSet.html#a91a7d27546b7bfa3519d8992152c472c", null ],
     [ "capacity", "classMR_1_1Const__TextureBitSet.html#a5fec8421e7a6a7ad0d89db29fb7d5734", null ],
     [ "count", "classMR_1_1Const__TextureBitSet.html#a346c1ff62b6dfc71428c6328cf70a0cf", null ],
+    [ "Dispose", "classMR_1_1Const__TextureBitSet.html#aa0d288bfd9c5dd8a771f881f979970e7", null ],
+    [ "Dispose", "classMR_1_1Const__TextureBitSet.html#a034674d4f09ea6eee4282e2cebb9ebf0", null ],
     [ "empty", "classMR_1_1Const__TextureBitSet.html#a7747cd1938ec6af8d852365559c64a1c", null ],
     [ "endId", "classMR_1_1Const__TextureBitSet.html#a3d5755373c72b51726d617926d1e0f38", null ],
     [ "findFirst", "classMR_1_1Const__TextureBitSet.html#acda9adabbe7b7481fd67c7c30ead83d9", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__TextureBitSet =
     [ "none", "classMR_1_1Const__TextureBitSet.html#a09dbcad32b97fc7faa82206d7afebbbd", null ],
     [ "nthSetBit", "classMR_1_1Const__TextureBitSet.html#a100b94075c4d7d334a3ccd2d46c3cfb1", null ],
     [ "numBlocks", "classMR_1_1Const__TextureBitSet.html#a36e4d4770770b35f7afac93f340a06d6", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__TextureBitSet.html#a15406423f2967caeaeb6bb5c049d3556", null ],
     [ "operator&", "classMR_1_1Const__TextureBitSet.html#ae3f56bedca13285df66c54d65f4d9cee", null ],
     [ "operator-", "classMR_1_1Const__TextureBitSet.html#a7502fb15a6b2413b3b7bea0edd601586", null ],
     [ "operator^", "classMR_1_1Const__TextureBitSet.html#add49990482a558439db56f121bc94f44", null ],
     [ "operator|", "classMR_1_1Const__TextureBitSet.html#a9425bd38b71a9178ab426928303018b7", null ],
     [ "size", "classMR_1_1Const__TextureBitSet.html#ae63cc7968bc28795fdac380c4bd5ab29", null ],
     [ "test", "classMR_1_1Const__TextureBitSet.html#a6c8a604bf42aea48425c5163eab53942", null ],
-    [ "uncheckedTest", "classMR_1_1Const__TextureBitSet.html#a166a0521c00582f96d9eea4f571d9886", null ]
+    [ "uncheckedTest", "classMR_1_1Const__TextureBitSet.html#a166a0521c00582f96d9eea4f571d9886", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__TextureBitSet.html#a2f11d1afadff6171fbdcc39bf4549c43", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__TextureBitSet.html#a39e31054294cb57f089536f489fc38c8", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__TextureBitSet.html#aa4c5b863d12a4c4bd34e9e26a737837f", null ],
+    [ "Npos", "classMR_1_1Const__TextureBitSet.html#a1e63d230b3cac51f944af12538e5ccc8", null ]
 ];

@@ -15,6 +15,7 @@ var classMR_1_1RegionBitSet =
     [ "flip", "classMR_1_1RegionBitSet.html#a4934701f29466d25bf94dc2b88c92947", null ],
     [ "flip", "classMR_1_1RegionBitSet.html#a9131958c1c934cece2da0746f7264038", null ],
     [ "flip", "classMR_1_1RegionBitSet.html#ac557c3a4b87f7c06c9d5f0f7348e8aff", null ],
+    [ "operator MR.BitSet", "classMR_1_1RegionBitSet.html#a9bfdcadd49f76c5bae533de7f7ff20e5", null ],
     [ "popBack", "classMR_1_1RegionBitSet.html#ad874ab63a68ae1f609d335dea5be1854", null ],
     [ "pushBack", "classMR_1_1RegionBitSet.html#a22824cb6705b3f35b7bb14d2bf8bc8e2", null ],
     [ "reserve", "classMR_1_1RegionBitSet.html#aa026bfdbf6b39a046ab47ca4edc1d150", null ],

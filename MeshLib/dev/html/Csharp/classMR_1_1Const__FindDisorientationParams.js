@@ -8,6 +8,11 @@ var classMR_1_1Const__FindDisorientationParams =
     [ "Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html#a4712b6c5c0e1d7dd417b9491557f8880", null ],
     [ "Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html#a15598f434e190ab7d936830aa61e2ce8", null ],
     [ "Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html#a1769ba39a72d3dfa5e8efe5b3dbf8dbe", null ],
-    [ "_FinalizeFields", "classMR_1_1Const__FindDisorientationParams.html#a6817eaacb2ed781b058bd40229c8927a", null ],
+    [ "Dispose", "classMR_1_1Const__FindDisorientationParams.html#abbe8a6b862c0a233bb6107c3faceee1d", null ],
+    [ "Dispose", "classMR_1_1Const__FindDisorientationParams.html#a4ab8372152000de6e9ee7c43f48e0f56", null ],
+    [ "__ref_storage_mode", "classMR_1_1Const__FindDisorientationParams.html#a9fe01dee8dc4a11c18e459bfeaa1cee3", null ],
+    [ "__ref_storage_virtualFillHoles", "classMR_1_1Const__FindDisorientationParams.html#a320ea40f4efbca2c6edb7217b9c96983", null ],
+    [ "cb", "classMR_1_1Const__FindDisorientationParams.html#afab43660e8355cfa7d67cabeacea4f7d", null ],
+    [ "mode", "classMR_1_1Const__FindDisorientationParams.html#a44030b2805a0790175e5ee6739f47913", null ],
     [ "virtualFillHoles", "classMR_1_1Const__FindDisorientationParams.html#a15145a15a767c794a6d377ca5bf6a1c6", null ]
 ];

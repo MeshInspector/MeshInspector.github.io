@@ -9,5 +9,6 @@ var classMR_1_1Matrix__Float =
     [ "clear", "classMR_1_1Matrix__Float.html#abc4530de7958af42202ad7bd6711a252", null ],
     [ "fill", "classMR_1_1Matrix__Float.html#a5aba45abfe9f8d13e4a2a9b56a9dbcda", null ],
     [ "getSubMatrix", "classMR_1_1Matrix__Float.html#aef8cec6914e2e63f8fc5a0e52ac8761c", null ],
+    [ "operator MR.RectIndexer", "classMR_1_1Matrix__Float.html#acf663b871089c1387d5fe74bb85fe3f5", null ],
     [ "resize", "classMR_1_1Matrix__Float.html#ac9434ecc79f9e07850b4b12c97109640", null ]
 ];

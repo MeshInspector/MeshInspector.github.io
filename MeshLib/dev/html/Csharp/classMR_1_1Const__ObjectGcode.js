@@ -8,6 +8,8 @@ var classMR_1_1Const__ObjectGcode =
     [ "classNameInPlural", "classMR_1_1Const__ObjectGcode.html#aee96ecec04c7d72efa362a5dfe950af7", null ],
     [ "clone", "classMR_1_1Const__ObjectGcode.html#a8c372a0b364db3868645dd81e30f0b71", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectGcode.html#a49c019ecc76471ec99abd8aa3f7ab17e", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectGcode.html#a25fa470127aa90a81bd0b3a672f17cfc", null ],
+    [ "Dispose", "classMR_1_1Const__ObjectGcode.html#a77cf53d15073bb58dbd70433d0d3f33d", null ],
     [ "gcodeSource", "classMR_1_1Const__ObjectGcode.html#ad0779f6f5aff5daff70b93f929aa919d", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectGcode.html#a1d3c7e973a2ab46868bd0fd91d045d71", null ],
     [ "getAmbientStrength", "classMR_1_1Const__ObjectGcode.html#a992bb2d20d140239cb291a61004fe1f7", null ],
@@ -56,6 +58,13 @@ var classMR_1_1Const__ObjectGcode =
     [ "name", "classMR_1_1Const__ObjectGcode.html#ad0f2920c3b699bae5471157f7aad99f2", null ],
     [ "numComponents", "classMR_1_1Const__ObjectGcode.html#a4d6c64a4eeffd08aa638a65ef940bc54", null ],
     [ "numUndirectedEdges", "classMR_1_1Const__ObjectGcode.html#a5e5fa4e5a0ccddf658ae4bf963a2e8f6", null ],
+    [ "operator Const_ObjectGcode?", "classMR_1_1Const__ObjectGcode.html#a86c6bea42dd32dcd10ec55e579fe1730", null ],
+    [ "operator Const_ObjectGcode?", "classMR_1_1Const__ObjectGcode.html#ab4926d2ded219e88652e58ee1c63f70a", null ],
+    [ "operator Const_ObjectGcode?", "classMR_1_1Const__ObjectGcode.html#a989df2b52ec1e625a6076c4a6c398d4b", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__ObjectGcode.html#a64383382cdf6ae55d531172353b2fd9b", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectGcode.html#ab380f85fa20cf114ca2ec61929b74f06", null ],
+    [ "operator MR.Const_ObjectLinesHolder", "classMR_1_1Const__ObjectGcode.html#a5b52afa72d170182e158e636923e338b", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectGcode.html#ad1bed89be05667d80dd49c312bb9ab2f", null ],
     [ "polyline", "classMR_1_1Const__ObjectGcode.html#a006d60b9c78e2a1fefcc38efa0caed87", null ],
     [ "render", "classMR_1_1Const__ObjectGcode.html#ac9d8de1725646a8a68707939dbdb5fee", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectGcode.html#aeabfa5d1c970c522471880de842a2a36", null ],
@@ -78,6 +87,5 @@ var classMR_1_1Const__ObjectGcode =
     [ "visibilityMask", "classMR_1_1Const__ObjectGcode.html#a11126f5eeb34eedfc4965cd0c3f195b2", null ],
     [ "worldXf", "classMR_1_1Const__ObjectGcode.html#a16f54dd1fa66b226945af147cabf4216", null ],
     [ "xf", "classMR_1_1Const__ObjectGcode.html#a8f2b68f18458d6ea8da1dfa2a16ab9c2", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__ObjectGcode.html#ad54f34934234ceb1cc94613a9755f9a9", null ],
-    [ "_IsOwning", "classMR_1_1Const__ObjectGcode.html#a81c173ae5b07dac4ffc2b70f9591484b", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__ObjectGcode.html#ad54f34934234ceb1cc94613a9755f9a9", null ]
 ];

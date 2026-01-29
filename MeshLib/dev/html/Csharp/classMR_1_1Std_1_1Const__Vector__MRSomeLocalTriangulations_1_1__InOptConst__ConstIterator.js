@@ -1,4 +1,0 @@
-var classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations_1_1__InOptConst__ConstIterator =
-[
-    [ "operator _InOptConst_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRSomeLocalTriangulations_1_1__InOptConst__ConstIterator.html#aa6f21c97b13467e61c5aba26b67df4cb", null ]
-];

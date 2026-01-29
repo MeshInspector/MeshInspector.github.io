@@ -1,0 +1,6 @@
+var structMR_1_1ThickenParams =
+[
+    [ "insideOffset", "../Cpp/structMR_1_1ThickenParams.html#a84e1ba01802eb40a5e2142beef606294", null ],
+    [ "normalsTrustFactor", "../Cpp/structMR_1_1ThickenParams.html#ac42c225e2b59dab20e2cbbea477458b1", null ],
+    [ "outsideOffset", "../Cpp/structMR_1_1ThickenParams.html#a733a99389aa160de68b6109611d489c6", null ]
+];

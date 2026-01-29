@@ -242,10 +242,41 @@ var classMR =
     [ "WebResponseCallback", "../Cpp/namespaceMR.html#aa81b46bc5e733f50fb93fe00f095b2f8", null ],
     [ "WholeEdgeHashMap", "../Cpp/namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4", null ],
     [ "WholeEdgeMapOrHashMap", "../Cpp/namespaceMR.html#a97913e3bb3380204133f3b371cc4b6de", null ],
+    [ "AlignType", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4", [
+      [ "Left", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4a945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "Center", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
+      [ "Right", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4a92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
     [ "AlignType", "../Cpp/namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470a", null ],
+    [ "AngleUnit", "classMR.html#a1321b5148733c102ad11aaf2d8d1db98", [
+      [ "Radians", "classMR.html#a1321b5148733c102ad11aaf2d8d1db98a682f5298cdcce11e567b7f833843d3be", null ],
+      [ "Degrees", "classMR.html#a1321b5148733c102ad11aaf2d8d1db98a9ef125630442bb42e2e367e0cf70d892", null ],
+      [ "Count", "classMR.html#a1321b5148733c102ad11aaf2d8d1db98ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "AngleUnit", "../Cpp/namespaceMR.html#af673fdef7d01a580ce58c29b84ea9bea", null ],
+    [ "ArcPlane", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37", [
+      [ "None", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "XY", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37a74c53bcd3dcb2bb79993b2fec37d362a", null ],
+      [ "XZ", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37a27db3b98d01e664c17a6620b222c6469", null ],
+      [ "YZ", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37affa4ba973372c3650fd0881abeca6512", null ]
+    ] ],
     [ "ArcPlane", "../Cpp/namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435", null ],
+    [ "AreaUnit", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810", [
+      [ "Microns2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810a72f8d05552b0bee23d16d9d96541ced2", null ],
+      [ "Millimeters2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810ae00aa9647e6c2a803587bfe3aee98b35", null ],
+      [ "Centimeters2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810a95cde4f8bfee300314241a76f1344989", null ],
+      [ "Meters2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810a0cffa203e463e7cf99a6557edb3bb570", null ],
+      [ "Inches2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810ae4b0e20acd41bd95e5c1becde325e93c", null ],
+      [ "Feet2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810a3e88516840cae72b3de16c24604dae3d", null ],
+      [ "Count", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "AreaUnit", "../Cpp/namespaceMR.html#ade788894f8f8c19c83a75d44908bc4e4", null ],
+    [ "Axis", "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1", [
+      [ "X", "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1a02129bb861061d1a052c592e2dc6b383", null ],
+      [ "Y", "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1a57cec4137b614c87cb4e24a3d003a3e0", null ],
+      [ "Z", "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1a21c2e59531c8710156d34a3c30ac81d5", null ],
+      [ "Count", "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "Axis", "../Cpp/namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005", null ],
     [ "BooleanOperation", "classMR.html#ad89c5fb7af9da0df04973fb2cd54e934", [
       [ "InsideA", "classMR.html#ad89c5fb7af9da0df04973fb2cd54e934a833b7406c91f551bd8502cf76bb95c29", null ],
@@ -280,6 +311,10 @@ var classMR =
       [ "DifferenceAB", "../Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "Count", "../Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
+    [ "BypassDirection", "classMR.html#a4c32f3ff80d7644f35d698296c9b8ca3", [
+      [ "Clockwise", "classMR.html#a4c32f3ff80d7644f35d698296c9b8ca3aba360a794737bcc8657a5b6e870d7ba8", null ],
+      [ "CounterClockwise", "classMR.html#a4c32f3ff80d7644f35d698296c9b8ca3a8f23635f9ec49db2161fc5cddf033a79", null ]
+    ] ],
     [ "BypassDirection", "../Cpp/namespaceMR.html#a496117b22a6f09546f0037fb4b5d43aa", null ],
     [ "ColoringType", "classMR.html#a8f76229d82ae0b86e8eeb37ce45170d4", [
       [ "SolidColor", "classMR.html#a8f76229d82ae0b86e8eeb37ce45170d4a63af9903673bdc27b881a7444b1f9854", null ],
@@ -289,6 +324,11 @@ var classMR =
       [ "VertsColorMap", "classMR.html#a8f76229d82ae0b86e8eeb37ce45170d4a4eec2fd5791a957e48b009cdbe2c10dd", null ]
     ] ],
     [ "ColoringType", "../Cpp/namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f", null ],
+    [ "ConeFitterType", "classMR.html#a294c22b69e418098a4582556d50f25fc", [
+      [ "ApproximationPCM", "classMR.html#a294c22b69e418098a4582556d50f25fca966805730aa004c013d26ce8985852a7", null ],
+      [ "HemisphereSearchFit", "classMR.html#a294c22b69e418098a4582556d50f25fca1a4728573c55a3c1ceca7af11776f64b", null ],
+      [ "SpecificAxisFit", "classMR.html#a294c22b69e418098a4582556d50f25fca2c0500afc7ff11f210c486fe633f3384", null ]
+    ] ],
     [ "ConeFitterType", "../Cpp/namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7d", null ],
     [ "ControlBit", "../Cpp/namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6", null ],
     [ "DecimateStrategy", "classMR.html#add28113e16217d08b03c89236a144146", [
@@ -297,7 +337,24 @@ var classMR =
     ] ],
     [ "DecimateStrategy", "../Cpp/namespaceMR.html#a216960c15f7b00558ab28053967a9615", null ],
     [ "DegreesMode", "../Cpp/namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424", null ],
+    [ "DepthFunction", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312b", [
+      [ "Never", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba6e7b34fa59e1bd229b207892956dc41c", null ],
+      [ "Less", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba1cfdf0e8d0c87a228c1f40d9bee7888b", null ],
+      [ "Equal", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312baf5f286e73bda105e538310b3190f75c5", null ],
+      [ "Greater", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba8768a6821cd735aea4f5b0df88c1fc6a", null ],
+      [ "LessOrEqual", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312baa4cbdbb6070a5abb35fc95ecf1e22c14", null ],
+      [ "GreaterOrEqual", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba6f2f0aefb3d22da0f3839453add5f937", null ],
+      [ "NotEqual", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba19bb0af2c3c530538cb41aff7f235b96", null ],
+      [ "Always", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba68eec46437c384d8dad18d5464ebc35c", null ],
+      [ "Default", "classMR.html#a1117518b4d89ca3cdb9ee5dbb315312ba7a1920d61156abc05a60135aefe8bc67", null ]
+    ] ],
     [ "DepthFunction", "../Cpp/namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93", null ],
+    [ "DimensionsVisualizePropertyType", "classMR.html#a62382e7777b8653845c52f97f4d1cef8", [
+      [ "Diameter", "classMR.html#a62382e7777b8653845c52f97f4d1cef8ab5f694488326076ff200c7ab955c0455", null ],
+      [ "Angle", "classMR.html#a62382e7777b8653845c52f97f4d1cef8a45f4ce6c3306644b1efe333f4f8d6929", null ],
+      [ "Length", "classMR.html#a62382e7777b8653845c52f97f4d1cef8aba2a9c6c8c77e03f83ef8bf543612275", null ],
+      [ "Count", "classMR.html#a62382e7777b8653845c52f97f4d1cef8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "DirtyFlags", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29", [
       [ "DIRTYNONE", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29add5edaa3f1d6d8c5b9b89641e8fbe81a", null ],
       [ "DIRTYPOSITION", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a4a6629602786604d83e7373a8734a91a", null ],
@@ -329,6 +386,10 @@ var classMR =
       [ "Cotan", "classMR.html#a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9", null ]
     ] ],
     [ "EdgeWeights", "../Cpp/namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8", null ],
+    [ "ExtremeEdgeType", "classMR.html#af071c64fee1a9a767156db0412240540", [
+      [ "Ridge", "classMR.html#af071c64fee1a9a767156db0412240540ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
+      [ "Gorge", "classMR.html#af071c64fee1a9a767156db0412240540a90290d32b4deae8703b07bfcd17af5a4", null ]
+    ] ],
     [ "ExtremeEdgeType", "../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6", [
       [ "Ridge", "../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
       [ "Gorge", "../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
@@ -336,6 +397,13 @@ var classMR =
     [ "ExtremeEdgeType", "../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6", [
       [ "Ridge", "../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
       [ "Gorge", "../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
+    ] ],
+    [ "FeaturePropertyKind", "classMR.html#ae73e56169505dfc03f856cb75627a2f2", [
+      [ "Position", "classMR.html#ae73e56169505dfc03f856cb75627a2f2a52f5e0bc3859bc5f5e25130b6c7e8881", null ],
+      [ "LinearDimension", "classMR.html#ae73e56169505dfc03f856cb75627a2f2a4b5de0209f71494f1b12eb2b5fe8546c", null ],
+      [ "Direction", "classMR.html#ae73e56169505dfc03f856cb75627a2f2a02674a4ef33e11c879283629996c8ff8", null ],
+      [ "Angle", "classMR.html#ae73e56169505dfc03f856cb75627a2f2a45f4ce6c3306644b1efe333f4f8d6929", null ],
+      [ "Other", "classMR.html#ae73e56169505dfc03f856cb75627a2f2a6311ae17c1ee52b36e68aaf4ad066387", null ]
     ] ],
     [ "FeaturePropertyKind", "../Cpp/namespaceMR.html#a24a027691feb30cad77ca6a162d05c58", null ],
     [ "FeaturesObjectKind", "classMR.html#ae320f7cd2796cef03d0db13f6d36c2b7", [
@@ -349,6 +417,15 @@ var classMR =
       [ "Count", "classMR.html#ae320f7cd2796cef03d0db13f6d36c2b7ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "FeaturesObjectKind", "../Cpp/namespaceMR.html#a0e2748a930a13a0cacf2a0a2da1b6e0d", null ],
+    [ "FeatureVisualizePropertyType", "classMR.html#af0bc306f9a105e46bd21bd41bc0b7923", [
+      [ "Subfeatures", "classMR.html#af0bc306f9a105e46bd21bd41bc0b7923a7963c6b4bfac1b81204074658f22d5b1", null ],
+      [ "DetailsOnNameTag", "classMR.html#af0bc306f9a105e46bd21bd41bc0b7923a25487cb52e04954a856d719f26eb14f1", null ],
+      [ "Count", "classMR.html#af0bc306f9a105e46bd21bd41bc0b7923ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "FilterType", "classMR.html#ac7bb07e14717aed649af2fdab4d00f9d", [
+      [ "Linear", "classMR.html#ac7bb07e14717aed649af2fdab4d00f9da32a843da6ea40ab3b17a3421ccdf671b", null ],
+      [ "Discrete", "classMR.html#ac7bb07e14717aed649af2fdab4d00f9da4984667940802dedc139aa7a430a6553", null ]
+    ] ],
     [ "FilterType", "../Cpp/namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a", null ],
     [ "FitMode", "../Cpp/namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4b", null ],
     [ "FlipEdge", "classMR.html#aa3ebc28a0c17a0a5fc0c9b90a97bfc95", [
@@ -372,6 +449,13 @@ var classMR =
       [ "FastMarching", "classMR.html#aeefd25abc54607bc39e87bf80e80bf04aa379190d516779f65bad72b240e81435", null ]
     ] ],
     [ "GeodesicPathApprox", "../Cpp/namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2", null ],
+    [ "ICPExitType", "classMR.html#a94b9d0e6890f3bde63ce935e2d916183", [
+      [ "NotStarted", "classMR.html#a94b9d0e6890f3bde63ce935e2d916183afa7be7845bc42b3491d9d0377958be94", null ],
+      [ "NotFoundSolution", "classMR.html#a94b9d0e6890f3bde63ce935e2d916183a7602769fc0edb10e4b5187dd3ddf5e4e", null ],
+      [ "MaxIterations", "classMR.html#a94b9d0e6890f3bde63ce935e2d916183a89d18cc81de326d8fc836491777795e0", null ],
+      [ "MaxBadIterations", "classMR.html#a94b9d0e6890f3bde63ce935e2d916183ab6583dfe420a7ba81fa4f7740bd340df", null ],
+      [ "StopMsdReached", "classMR.html#a94b9d0e6890f3bde63ce935e2d916183a233f67a0fc7747cbc3ba87d8708b3791", null ]
+    ] ],
     [ "ICPExitType", "../Cpp/namespaceMR.html#ac977096020e15e4b699043b2c550bf83", null ],
     [ "ICPMethod", "classMR.html#a90fcd9e2a74e2161a52251e979ed957d", [
       [ "Combined", "classMR.html#a90fcd9e2a74e2161a52251e979ed957da55f4b4a94111759e08b3acb1acd12b8c", null ],
@@ -387,12 +471,79 @@ var classMR =
       [ "TranslationOnly", "classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a55fae57b90256ccb618322f9a33784ce", null ]
     ] ],
     [ "ICPMode", "../Cpp/namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677", null ],
+    [ "InvLengthUnit", "classMR.html#aa6e3da0dca345c474015ada44a130757", [
+      [ "InvMicrons", "classMR.html#aa6e3da0dca345c474015ada44a130757a3dce25b79a09894e67452f1f6d44e2fc", null ],
+      [ "InvMillimeters", "classMR.html#aa6e3da0dca345c474015ada44a130757a40bcd170c92c86ce2742929dd2273c19", null ],
+      [ "InvCentimeters", "classMR.html#aa6e3da0dca345c474015ada44a130757a147f76b4e9790ebb8d729ee1348e82a2", null ],
+      [ "InvMeters", "classMR.html#aa6e3da0dca345c474015ada44a130757ad73ec17c9192fdcc251ce8371a83edba", null ],
+      [ "InvInches", "classMR.html#aa6e3da0dca345c474015ada44a130757a526776f4a8e61dd4b5c464defc195f23", null ],
+      [ "InvFeet", "classMR.html#aa6e3da0dca345c474015ada44a130757a5d3d5712dd9831a11902737f8407d8d0", null ],
+      [ "Count", "classMR.html#aa6e3da0dca345c474015ada44a130757ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "InvLengthUnit", "../Cpp/namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5", null ],
+    [ "LabelVisualizePropertyType", "classMR.html#a1d0ab4f9c4cc9b57b10c69bf51e7aa38", [
+      [ "SourcePoint", "classMR.html#a1d0ab4f9c4cc9b57b10c69bf51e7aa38afff5890f0ac191b2a70ebd427668c39a", null ],
+      [ "LeaderLine", "classMR.html#a1d0ab4f9c4cc9b57b10c69bf51e7aa38ac43f0b11a1f2fad74f5110ac8e2fde85", null ],
+      [ "Background", "classMR.html#a1d0ab4f9c4cc9b57b10c69bf51e7aa38aa9ded1e5ce5d75814730bb4caaf49419", null ],
+      [ "Contour", "classMR.html#a1d0ab4f9c4cc9b57b10c69bf51e7aa38a0b3303e86f36d6d2b1266da88cf76e66", null ],
+      [ "Count", "classMR.html#a1d0ab4f9c4cc9b57b10c69bf51e7aa38ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "LengthUnit", "classMR.html#ac25d360f4673587185736923888bcde1", [
+      [ "Microns", "classMR.html#ac25d360f4673587185736923888bcde1a26bbd046bbd7bc6651af2eb1ed52f344", null ],
+      [ "Millimeters", "classMR.html#ac25d360f4673587185736923888bcde1a3be6521a73bcafce5b38459ec548bd11", null ],
+      [ "Centimeters", "classMR.html#ac25d360f4673587185736923888bcde1a3040cc6624f5c309963dee141936b299", null ],
+      [ "Meters", "classMR.html#ac25d360f4673587185736923888bcde1a80b4a3eed88aed8a1c7d8a4418b7f469", null ],
+      [ "Inches", "classMR.html#ac25d360f4673587185736923888bcde1ad73325cdb1cb4f9a1ed11bdab879321d", null ],
+      [ "Feet", "classMR.html#ac25d360f4673587185736923888bcde1a0f2e8e047e38898ec859c631576985e7", null ],
+      [ "Count", "classMR.html#ac25d360f4673587185736923888bcde1ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "LengthUnit", "../Cpp/namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab", null ],
+    [ "LinesVisualizePropertyType", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70", [
+      [ "Points", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70a75dd5f1160a3f02b6fae89c54361a1b3", null ],
+      [ "Smooth", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70ae510cdf33cd497134b47b9316314d4b4", null ],
+      [ "Dashed", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70aeb656e41b6da91494775ecf47a51da91", null ],
+      [ "Count", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "MeshVisualizePropertyType", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8", [
+      [ "Faces", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a4f93ea0836ba76b6f9b81e3eee53a3af", null ],
+      [ "Texture", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8aa3e8ae43188ae76d38f414b2bdb0077b", null ],
+      [ "Edges", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a484afb8d54ec549700b1fe96417519a9", null ],
+      [ "Points", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a75dd5f1160a3f02b6fae89c54361a1b3", null ],
+      [ "SelectedFaces", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a6b3b3d82538ca1904c539f9e00662db5", null ],
+      [ "SelectedEdges", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a85b1042f23b6b30590ec79deddbead06", null ],
+      [ "EnableShading", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a80714f99d4fa891da9fae8240cd6dfde", null ],
+      [ "FlatShading", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8aaf9a3a2488120a10218a58ce96148f29", null ],
+      [ "OnlyOddFragments", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a993fcf42a89f23e1a0a091d93e9c9ebe", null ],
+      [ "BordersHighlight", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a6167a2d0af2e4a8c16603d6b1ab28fae", null ],
+      [ "PolygonOffsetFromCamera", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8af1b5bfe3e4901ca9610e1328f51811f0", null ],
+      [ "Count", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "MouseButton", "../Cpp/namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d", null ],
     [ "MouseMode", "../Cpp/namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75", null ],
+    [ "MovementSpeedUnit", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1", [
+      [ "MicronsPerSecond", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1a88094fd70f7bfe1210f2e807b0661746", null ],
+      [ "MillimetersPerSecond", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1a11f8759b7eef621adb4ba2a91c25fd8f", null ],
+      [ "CentimetersPerSecond", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1a00bdae44bbe524c5f9e207b5154ba899", null ],
+      [ "MetersPerSecond", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1af8afbd8ccb437ab960848b9776ef3603", null ],
+      [ "InchesPerSecond", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1ab1a9f082bc58c1c3be853a7f3d0f774e", null ],
+      [ "FeetPerSecond", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1a0c2e7dd57b9c4b1a8436ae7319a28712", null ],
+      [ "Count", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "MovementSpeedUnit", "../Cpp/namespaceMR.html#ab6428d5776a040cbc748843edbedfa60", null ],
+    [ "MoveType", "classMR.html#ae8b6d4808fb530b2853f712a381e2fee", [
+      [ "None", "classMR.html#ae8b6d4808fb530b2853f712a381e2feea6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "FastLinear", "classMR.html#ae8b6d4808fb530b2853f712a381e2feea7c45b71678fb35e216cb6bd78280e1e2", null ],
+      [ "Linear", "classMR.html#ae8b6d4808fb530b2853f712a381e2feea32a843da6ea40ab3b17a3421ccdf671b", null ],
+      [ "ArcCW", "classMR.html#ae8b6d4808fb530b2853f712a381e2feeaa9479796fed0e84208885bc83352c5ea", null ],
+      [ "ArcCCW", "classMR.html#ae8b6d4808fb530b2853f712a381e2feeacb5dc5739002bbc3b5c303988de899d4", null ]
+    ] ],
     [ "MoveType", "../Cpp/namespaceMR.html#a88f1fdd848610bc41226918baa28e601", null ],
+    [ "NeighborDir", "classMR.html#a2581a1561c74e2ad725a43e2a00f71d0", [
+      [ "X", "classMR.html#a2581a1561c74e2ad725a43e2a00f71d0a02129bb861061d1a052c592e2dc6b383", null ],
+      [ "Y", "classMR.html#a2581a1561c74e2ad725a43e2a00f71d0a57cec4137b614c87cb4e24a3d003a3e0", null ],
+      [ "Z", "classMR.html#a2581a1561c74e2ad725a43e2a00f71d0a21c2e59531c8710156d34a3c30ac81d5", null ],
+      [ "Count", "classMR.html#a2581a1561c74e2ad725a43e2a00f71d0ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "NeighborDir", "../Cpp/namespaceMR.html#a280c060609c3f9f4b19b026220db29fe", null ],
     [ "NestedComponenetsMode", "classMR.html#a22adb75ebaff91cdb5159f104b26ea5e", [
       [ "Remove", "classMR.html#a22adb75ebaff91cdb5159f104b26ea5ea1063e38cb53d94d386f21227fcd84717", null ],
@@ -401,6 +552,9 @@ var classMR =
     ] ],
     [ "NestedComponenetsMode", "../Cpp/namespaceMR.html#a58525252a9ee9abb57d352127584531f", null ],
     [ "NotificationType", "../Cpp/namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d", null ],
+    [ "NoUnit", "classMR.html#a4ed8e209955ad5735d2a5b2bda15628a", [
+      [ "Count", "classMR.html#a4ed8e209955ad5735d2a5b2bda15628aae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "NoUnit", "../Cpp/namespaceMR.html#a696dcb797d4d0815d4e8ab6ffbb39e76", null ],
     [ "NumberStyle", "../Cpp/namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1", null ],
     [ "ObjectSelectivityType", "classMR.html#a3ad7cc53394ab7689120b9c1627e53ad", [
@@ -422,6 +576,16 @@ var classMR =
       [ "Smart", "classMR.html#ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666", null ]
     ] ],
     [ "OrientNormals", "../Cpp/namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8b", null ],
+    [ "OutEdge", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414", [
+      [ "Invalid", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "PlusZ", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414a59bb9bd5dd05e7aa8aca793a81266bb9", null ],
+      [ "MinusZ", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414a65661216a3acfdac8c58d97d97fa10cb", null ],
+      [ "PlusY", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414a89241a914ba5d59de9168c4416e69c4a", null ],
+      [ "MinusY", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414a9cc816b8a2117db796c073f012e78565", null ],
+      [ "PlusX", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414aac53fa7ccf60e6f59512da11975eb8a7", null ],
+      [ "MinusX", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414a6ee0807f5bf1b3e0a4d52919eb298454", null ],
+      [ "Count", "classMR.html#a39258c58105fd8ff811bd0ddb3b28414ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "OutEdge", "../Cpp/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e", [
       [ "Invalid", "../Cpp/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b", null ],
       [ "PlusZ", "../Cpp/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9", null ],
@@ -441,6 +605,14 @@ var classMR =
       [ "PlusX", "../Cpp/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7", null ],
       [ "MinusX", "../Cpp/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454", null ],
       [ "Count", "../Cpp/group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "OutEdge2", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79", [
+      [ "Invalid", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "PlusY", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79a89241a914ba5d59de9168c4416e69c4a", null ],
+      [ "MinusY", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79a9cc816b8a2117db796c073f012e78565", null ],
+      [ "PlusX", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79aac53fa7ccf60e6f59512da11975eb8a7", null ],
+      [ "MinusX", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79a6ee0807f5bf1b3e0a4d52919eb298454", null ],
+      [ "Count", "classMR.html#aa2556093ed70e2854dc1e4adfa12ce79ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "OutEdge2", "../Cpp/group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6", [
       [ "Invalid", "../Cpp/group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b", null ],
@@ -497,7 +669,19 @@ var classMR =
       [ "Count", "classMR.html#a743e44071d03602617e933180226f550ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "PdfBuildinFont", "../Cpp/namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562", null ],
+    [ "PixelSizeUnit", "classMR.html#a36f1edc43c5407065858904e1ca05008", [
+      [ "Pixels", "classMR.html#a36f1edc43c5407065858904e1ca05008ac3d2f5d37334dc978fd8b17fc77408a1", null ],
+      [ "Count", "classMR.html#a36f1edc43c5407065858904e1ca05008ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "PixelSizeUnit", "../Cpp/namespaceMR.html#a081251e7d4b8d991d57cadeed71cf287", null ],
+    [ "PointMeasurementVisualizePropertyType", "classMR.html#a09b7cadbcdd1d628c2b77b66d27be8f9", [
+      [ "CapVisibility", "classMR.html#a09b7cadbcdd1d628c2b77b66d27be8f9af2a12dd7418165516c85f304c5ebe420", null ],
+      [ "Count", "classMR.html#a09b7cadbcdd1d628c2b77b66d27be8f9ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "PointsVisualizePropertyType", "classMR.html#add17e3e4b59d7280b2ba03ecabc11d2c", [
+      [ "SelectedVertices", "classMR.html#add17e3e4b59d7280b2ba03ecabc11d2ca9726a33719e10ce4e913f84a5950e0ce", null ],
+      [ "Count", "classMR.html#add17e3e4b59d7280b2ba03ecabc11d2cae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "Processing", "classMR.html#a2e141c1c8c46db7665c0466e70b3917c", [
       [ "Continue", "classMR.html#a2e141c1c8c46db7665c0466e70b3917caa0bfb8e59e6c13fc8d990781f77694fe", null ],
       [ "Stop", "classMR.html#a2e141c1c8c46db7665c0466e70b3917ca11a755d598c0c417f9a36758c3da7481", null ]
@@ -515,6 +699,13 @@ var classMR =
       [ "StopProcessing", "../Cpp/group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
       [ "ContinueProcessing", "../Cpp/group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
+    [ "QuarterBit", "classMR.html#ab7b877f1fa2b50085aa247d41bbfed19", [
+      [ "LeftLeft", "classMR.html#ab7b877f1fa2b50085aa247d41bbfed19aa149c1d1da2ae1c94f1ae91f4919625a", null ],
+      [ "LeftRight", "classMR.html#ab7b877f1fa2b50085aa247d41bbfed19a955322c98b1fc571e8b6b688ae7d9ee4", null ],
+      [ "RightLeft", "classMR.html#ab7b877f1fa2b50085aa247d41bbfed19a84f58e01676ac59dfa39f05ab0e4fdaf", null ],
+      [ "RightRight", "classMR.html#ab7b877f1fa2b50085aa247d41bbfed19a338f1941aaeb45ceefaa84416d2aaddb", null ],
+      [ "All", "classMR.html#ab7b877f1fa2b50085aa247d41bbfed19ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
     [ "QuarterBit", "../Cpp/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79", [
       [ "LeftLeft", "../Cpp/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a", null ],
       [ "LeftRight", "../Cpp/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4", null ],
@@ -528,8 +719,17 @@ var classMR =
       [ "RightLeft", "../Cpp/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf", null ],
       [ "RightRight", "../Cpp/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb", null ],
       [ "All", "../Cpp/group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
+    [ "RatioUnit", "classMR.html#a6afe1b71d4f7627e504f66bb747ed4cd", [
+      [ "Factor", "classMR.html#a6afe1b71d4f7627e504f66bb747ed4cda3c3ba615798db7340cd94c6e2d59e74e", null ],
+      [ "Percents", "classMR.html#a6afe1b71d4f7627e504f66bb747ed4cdab729dbb16b21361fd712c88df3885ead", null ],
+      [ "Count", "classMR.html#a6afe1b71d4f7627e504f66bb747ed4cdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "RatioUnit", "../Cpp/namespaceMR.html#aa2579613f677dcb6e5d4112ae3f95f4c", null ],
+    [ "RelaxApproxType", "classMR.html#a04fbc78203c3033872b6d43c31d2805c", [
+      [ "Planar", "classMR.html#a04fbc78203c3033872b6d43c31d2805ca93a097009b6443e711996c50b5354adf", null ],
+      [ "Quadric", "classMR.html#a04fbc78203c3033872b6d43c31d2805cadd6dfa467092f93b67f60fb75476b794", null ]
+    ] ],
     [ "RelaxApproxType", "../Cpp/namespaceMR.html#a6ab288ae813e1aa688312e31c258df71", null ],
     [ "RenderModelPassMask", "classMR.html#a2cfe11534ca643c46387ccc93c6822d4", [
       [ "Opaque", "classMR.html#a2cfe11534ca643c46387ccc93c6822d4afaa90538de35640e4b1e31ccf35b6eb5", null ],
@@ -567,6 +767,10 @@ var classMR =
     [ "SelectedTypesMask", "../Cpp/namespaceMR.html#a08fcff6c599b446c2e39ef49b4f62fc0", null ],
     [ "ShaderTransparencyMode", "../Cpp/namespaceMR.html#a26e449af7b615d9ec3575a5298ac7083", null ],
     [ "ShortcutCategory", "../Cpp/namespaceMR.html#abeff4ec21e8ee2ea544cdb4ce4d55d6b", null ],
+    [ "Side", "classMR.html#a29dcb3e30c1418225ff5c8f1bdc4193b", [
+      [ "Negative", "classMR.html#a29dcb3e30c1418225ff5c8f1bdc4193baffb9356ff2b7da85c75c92fa7ea03b8b", null ],
+      [ "Positive", "classMR.html#a29dcb3e30c1418225ff5c8f1bdc4193ba3289297424e01eda5b788c083bbf3147", null ]
+    ] ],
     [ "Side", "../Cpp/namespaceMR.html#a494f6ca56c512e886474f7209f624c48", null ],
     [ "SideRegions", "../Cpp/namespaceMR.html#a3b6b94f5ad3595b510d6842ee045d493", null ],
     [ "SignDetectionMode", "classMR.html#a616095899064d3af43a1861f0ae70fed", [
@@ -592,20 +796,57 @@ var classMR =
     [ "SlicePlane", "../Cpp/group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab", null ],
     [ "SlicePlane", "../Cpp/group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab", null ],
     [ "StatePluginTabs", "../Cpp/namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37", null ],
+    [ "TimeUnit", "classMR.html#a6a6eaf15567d6e7494f180173fb8a9ed", [
+      [ "Seconds", "classMR.html#a6a6eaf15567d6e7494f180173fb8a9eda8f19a8c7566af54ea8981029730e5465", null ],
+      [ "Milliseconds", "classMR.html#a6a6eaf15567d6e7494f180173fb8a9eda38f246763036ccaeba7db6d563c4d821", null ],
+      [ "Count", "classMR.html#a6a6eaf15567d6e7494f180173fb8a9edae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "TimeUnit", "../Cpp/namespaceMR.html#af380c745631672883c31b1875697b2e5", null ],
     [ "Turn", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13ead", [
       [ "Leftmost", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13eada5313b10fe6ecec66888957ac38ee7f9b", null ],
       [ "Rightmost", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9", null ]
     ] ],
     [ "Turn", "../Cpp/namespaceMR.html#a119ecb93af42f379f5a1462e9f9987ef", null ],
+    [ "UseAABBTree", "classMR.html#adc3b249d0ba364990f1bc96d27fa7d88", [
+      [ "No", "classMR.html#adc3b249d0ba364990f1bc96d27fa7d88abafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "Yes", "classMR.html#adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "YesIfAlreadyConstructed", "classMR.html#adc3b249d0ba364990f1bc96d27fa7d88a15e26f8fa2b40c5f5855790886c51a83", null ]
+    ] ],
     [ "UseAABBTree", "../Cpp/namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff", null ],
     [ "VertexMass", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8", [
       [ "Unit", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "NeiArea", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
     [ "VertexMass", "../Cpp/namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd", null ],
+    [ "VisualizeMaskType", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829", [
+      [ "Visibility", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a1729a56cfc89021478498fe0c89a843a", null ],
+      [ "InvertedNormals", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a9f6fb4ccfeeb31d0a8cd19f5238430fa", null ],
+      [ "Name", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a49ee3087348e8d44e1feda1917443987", null ],
+      [ "ClippedByPlane", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a4fd94a9d801d7cb5e1ffacfac690a817", null ],
+      [ "DepthTest", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a16704bc95ff0bd3291ba157e6f06e0ee", null ],
+      [ "Count", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "VolumeUnit", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2", [
+      [ "Microns3", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2aadf510aa5389a609c86ce7f12a3f5135", null ],
+      [ "Millimeters3", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2ac189460c5dd22259b2ee044522491ec7", null ],
+      [ "Centimeters3", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2a52e6442e32b9c4e6d05e8e6a2dfdc6be", null ],
+      [ "Meters3", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2af552b55d2375dac99efc7240b62b2ade", null ],
+      [ "Inches3", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2a6b423e06ca66829ba35a49c3fe598dd6", null ],
+      [ "Feet3", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2ad2c574e4e4f010eeb5a9e5ba5fa12e59", null ],
+      [ "Count", "classMR.html#ab6727c8e704ad9b3f5e483d26e415da2ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "VolumeUnit", "../Cpp/namespaceMR.html#ad9e7a49998c5eecad26ffc58feb2a29a", null ],
+    [ "VoxelFilterType", "classMR.html#a8e520c62ea91e9695f96c3e9340d730a", [
+      [ "Median", "classMR.html#a8e520c62ea91e9695f96c3e9340d730aa66851a3adec6655a7bd563743e4a55a2", null ],
+      [ "Mean", "classMR.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d", null ],
+      [ "Gaussian", "classMR.html#a8e520c62ea91e9695f96c3e9340d730aafedf7ba6075fb5526a7ace0b9385528d", null ]
+    ] ],
     [ "VoxelFilterType", "../Cpp/namespaceMR.html#a8e520c62ea91e9695f96c3e9340d730a", null ],
+    [ "WrapType", "classMR.html#ae7db9a854f022874d626b890ca623e82", [
+      [ "Repeat", "classMR.html#ae7db9a854f022874d626b890ca623e82a7020426cfb0a204051be4b3053d2acc8", null ],
+      [ "Mirror", "classMR.html#ae7db9a854f022874d626b890ca623e82a2403def5083f02105e7802b3b315681e", null ],
+      [ "Clamp", "classMR.html#ae7db9a854f022874d626b890ca623e82a08825280e3f8137556325061ba67ff8c", null ]
+    ] ],
     [ "WrapType", "../Cpp/namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c", null ],
     [ "ZeroMode", "../Cpp/namespaceMR.html#aa591847657e546eba90e70acf2185c02", null ],
     [ "accumulateFaceCenters", "classMR.html#aef0ee8fe3588faa4de9a796ce22ae505", null ],
@@ -1241,10 +1482,6 @@ var classMR =
     [ "getPlaneNormalizedFillMetric", "classMR.html#aa700c2a0ab5340fa456d054a40f02809", null ],
     [ "getRegionBoundaryVerts", "classMR.html#a20968573b76cd2e53ad1cf152e0e1212", null ],
     [ "getRegionEdges", "classMR.html#a196f2a04b1c76f0a0f268e9c5f54c234", null ],
-    [ "getStdCerr", "classMR.html#ab9ec7271695ed6955afe7c0bedc3bdb3", null ],
-    [ "getStdCin", "classMR.html#af66a7a050b3c004abde8c00ce45ce7a8", null ],
-    [ "getStdClog", "classMR.html#a8a42906c5d0df5da6dee974ab9fd3ba2", null ],
-    [ "getStdCout", "classMR.html#a3674c38027988907d3ea1071fc7afcda", null ],
     [ "getSubdividePart", "classMR.html#ad2029431ab7d4495e6ed3f533daf1bf4", null ],
     [ "getSumSqDistToPlane", "classMR.html#abf546042a4484cc6c4a4c1815f87d9a3", null ],
     [ "getSumSqDistToPoint", "classMR.html#ad884edc07370b3a77d87506ef21dc7b2", null ],

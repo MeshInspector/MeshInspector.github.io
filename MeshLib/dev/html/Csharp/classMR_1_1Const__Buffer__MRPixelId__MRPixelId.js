@@ -7,6 +7,8 @@ var classMR_1_1Const__Buffer__MRPixelId__MRPixelId =
     [ "beginId", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#a13cd782d8438d8e1ac75f919d97fe69d", null ],
     [ "capacity", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#af7f33615b9a002053841884d1c24e50e", null ],
     [ "data", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#ad7abd9d0d21ea35a1079bd5d89bbeb8a", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#a5fadad07c5d24030c99d69efed9bf560", null ],
+    [ "Dispose", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#add719df46a7d0aa69583c89b9713073c", null ],
     [ "empty", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#a702e1d339959fb0b66129d4f81a76138", null ],
     [ "endId", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#ad5f710009971df934add8f67338ecd81", null ],
     [ "heapBytes", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html#a7992975ea0506a6f6be3d0b53a4e9584", null ],

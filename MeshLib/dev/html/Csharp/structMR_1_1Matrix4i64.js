@@ -12,6 +12,8 @@ var structMR_1_1Matrix4i64 =
     [ "data_Const", "structMR_1_1Matrix4i64.html#a3b891220354d58164d0cc7a0f3084ca1", null ],
     [ "det", "structMR_1_1Matrix4i64.html#a1e488606926a9dab4047bb673578c8f6", null ],
     [ "divAssign", "structMR_1_1Matrix4i64.html#a9f70aee41ef8eb1bf94b8d4cdfcc57a9", null ],
+    [ "Equals", "structMR_1_1Matrix4i64.html#aa6b4fe0c2e04a3df2c852478908844fb", null ],
+    [ "Equals", "structMR_1_1Matrix4i64.html#a431a8a7669639676bfa55823273e554b", null ],
     [ "getRotation", "structMR_1_1Matrix4i64.html#a5a9387e9a5130d8d675e265012de9402", null ],
     [ "getTranslation", "structMR_1_1Matrix4i64.html#a7b22896b620f8cde92b008cb6c15e48d", null ],
     [ "identity", "structMR_1_1Matrix4i64.html#a2ca6322a43b08125b6654a445df065cb", null ],
@@ -20,6 +22,7 @@ var structMR_1_1Matrix4i64 =
     [ "norm", "structMR_1_1Matrix4i64.html#a73250f3945a7893c14998057d721591f", null ],
     [ "normSq", "structMR_1_1Matrix4i64.html#ac25942cb8ec78d0c3fa50b3934c5cb09", null ],
     [ "operator Matrix4i64", "structMR_1_1Matrix4i64.html#a4c22c1787664d64ddc594f13ea662630", null ],
+    [ "operator!=", "structMR_1_1Matrix4i64.html#ab61fb1a556212445450709e6b6a6a38a", null ],
     [ "operator*", "structMR_1_1Matrix4i64.html#a856c2a4938bb99584f0f73e81a611b3f", null ],
     [ "operator*", "structMR_1_1Matrix4i64.html#a8a60172604615ed02192bcf93221da1c", null ],
     [ "operator*", "structMR_1_1Matrix4i64.html#a74e4e7b756d133def52d461cb604b4c3", null ],
@@ -36,6 +39,9 @@ var structMR_1_1Matrix4i64 =
     [ "trace", "structMR_1_1Matrix4i64.html#a489501011f8fd18c01d364d12887fe46", null ],
     [ "transposed", "structMR_1_1Matrix4i64.html#a49d11aea239396fd1465198537b4bdab", null ],
     [ "zero", "structMR_1_1Matrix4i64.html#a8424782ee58562db04d3f95d14caeb65", null ],
+    [ "w", "structMR_1_1Matrix4i64.html#afe0504f6c61fff969bdb31c5a30092ed", null ],
     [ "x", "structMR_1_1Matrix4i64.html#a89d433852b4babba01012c4bdc8d74a8", null ],
+    [ "y", "structMR_1_1Matrix4i64.html#ae399f49acf5b93aa6ffc0d7244224d9f", null ],
+    [ "z", "structMR_1_1Matrix4i64.html#a124869a54d310a89e48ed060ff68393e", null ],
     [ "this[int row]", "structMR_1_1Matrix4i64.html#aede0048b22ce997b17103752fd9d2a91", null ]
 ];

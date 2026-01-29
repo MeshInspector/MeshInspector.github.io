@@ -8,6 +8,10 @@ var classMR_1_1ConstBox__EdgeId =
     [ "ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html#a00b4c376c89313ec90235916552c4e7c", null ],
     [ "ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html#a1271f33637d481913d958b02725eb100", null ],
     [ "ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html#a36620e134d9f1a0858fb3749e7b00b9c", null ],
+    [ "Dispose", "classMR_1_1ConstBox__EdgeId.html#a8f531ddbe6dc431562883ee4c9058915", null ],
+    [ "Dispose", "classMR_1_1ConstBox__EdgeId.html#a97c7d59eab2bee4752116480bb92a5f3", null ],
+    [ "Equals", "classMR_1_1ConstBox__EdgeId.html#ad5a922338f5ef0cdc6bd21a6e746ade6", null ],
+    [ "Equals", "classMR_1_1ConstBox__EdgeId.html#ad90ab51fabbaa1a0d52a794c5423d2ab", null ],
     [ "even", "classMR_1_1ConstBox__EdgeId.html#a80afb10c3a89403171965b8f7213aa3d", null ],
     [ "less", "classMR_1_1ConstBox__EdgeId.html#a1aadc99cee8e80ad0381d8c1e8ebbfdf", null ],
     [ "odd", "classMR_1_1ConstBox__EdgeId.html#aa3772386b3cd54d576361f5a2ab06e81", null ],
@@ -16,6 +20,7 @@ var classMR_1_1ConstBox__EdgeId =
     [ "operator ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html#a16002ac78e387d1871a0f0a334d7066a", null ],
     [ "operator int", "classMR_1_1ConstBox__EdgeId.html#aa868440e58b4c1069c74ce5c51f8bfd1", null ],
     [ "operator MR.UndirectedEdgeId", "classMR_1_1ConstBox__EdgeId.html#a561ba77c78f1da3b3b9e1b0dad42fc53", null ],
+    [ "operator!=", "classMR_1_1ConstBox__EdgeId.html#a67993898e5de16a9ef7170fcc92f2385", null ],
     [ "operator+", "classMR_1_1ConstBox__EdgeId.html#a5284c5856ca8ed912cd422fbc2ecedf7", null ],
     [ "operator+", "classMR_1_1ConstBox__EdgeId.html#a97ca5b4e4048cd98b7d4a2f96fa0cb54", null ],
     [ "operator+", "classMR_1_1ConstBox__EdgeId.html#a2d3a8560f949c39aa04475e9d4cc8d28", null ],
@@ -25,5 +30,5 @@ var classMR_1_1ConstBox__EdgeId =
     [ "sym", "classMR_1_1ConstBox__EdgeId.html#a8e4e4c02c116294c4ee56173cd71bfaf", null ],
     [ "undirected", "classMR_1_1ConstBox__EdgeId.html#a350fae2d6caf35b173953454049f15ae", null ],
     [ "valid", "classMR_1_1ConstBox__EdgeId.html#a7b2ff2b189471b92f1ef41cf566e790c", null ],
-    [ "_Ref", "classMR_1_1ConstBox__EdgeId.html#a06b6b14b51a431fa4cb5e3c9cee7f01d", null ]
+    [ "id", "classMR_1_1ConstBox__EdgeId.html#ae42fc9f3fdec4b5b9be933714f92039a", null ]
 ];

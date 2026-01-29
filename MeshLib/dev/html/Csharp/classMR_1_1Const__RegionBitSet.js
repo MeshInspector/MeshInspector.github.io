@@ -12,6 +12,8 @@ var classMR_1_1Const__RegionBitSet =
     [ "bits", "classMR_1_1Const__RegionBitSet.html#a88e2a7a06d62336ac0b235aac242f3d1", null ],
     [ "capacity", "classMR_1_1Const__RegionBitSet.html#aa7806b54e0eb3d7cacf0af041df48c00", null ],
     [ "count", "classMR_1_1Const__RegionBitSet.html#a1fb31641b0f03a5b3ce689949e73f8ee", null ],
+    [ "Dispose", "classMR_1_1Const__RegionBitSet.html#a2bebafd389fb989f1802bf71f832bdb8", null ],
+    [ "Dispose", "classMR_1_1Const__RegionBitSet.html#a08d19723d433bc0390a66d985dd0a271", null ],
     [ "empty", "classMR_1_1Const__RegionBitSet.html#a577c85c8f29d06cda42f6b474fb4c408", null ],
     [ "endId", "classMR_1_1Const__RegionBitSet.html#aa797a54956c192f7d278ab8baa2f050d", null ],
     [ "findFirst", "classMR_1_1Const__RegionBitSet.html#ae36b51545cbcf5a7cbcd8a084273aa02", null ],
@@ -29,11 +31,16 @@ var classMR_1_1Const__RegionBitSet =
     [ "none", "classMR_1_1Const__RegionBitSet.html#ae3ec0df5da258de4d32e7b68e77e206d", null ],
     [ "nthSetBit", "classMR_1_1Const__RegionBitSet.html#a11e06af640b0a270690b99a1a708cb94", null ],
     [ "numBlocks", "classMR_1_1Const__RegionBitSet.html#ae3b0a2754f031b8432f45ce5e14d163c", null ],
+    [ "operator MR.Const_BitSet", "classMR_1_1Const__RegionBitSet.html#ae4b14654070d4cc5622680cc0f590d31", null ],
     [ "operator&", "classMR_1_1Const__RegionBitSet.html#a657ed9427a748f7de6b14a1c95c28340", null ],
     [ "operator-", "classMR_1_1Const__RegionBitSet.html#a6295c9d3b960aef5ba8b400aa0b76b3a", null ],
     [ "operator^", "classMR_1_1Const__RegionBitSet.html#a4fc4a38b0844de28c34bd1817754f990", null ],
     [ "operator|", "classMR_1_1Const__RegionBitSet.html#a4dd70bb8958ddd2af90b28bcb271b2cb", null ],
     [ "size", "classMR_1_1Const__RegionBitSet.html#a5646c768ee6003b4fbc2ac81aac5f97b", null ],
     [ "test", "classMR_1_1Const__RegionBitSet.html#a4c78a5813d8f4b8fa5b7c191511b75dc", null ],
-    [ "uncheckedTest", "classMR_1_1Const__RegionBitSet.html#abf6c989881e7fb440644417e017a91f0", null ]
+    [ "uncheckedTest", "classMR_1_1Const__RegionBitSet.html#abf6c989881e7fb440644417e017a91f0", null ],
+    [ "__ref_storage_BitsPerBlock", "classMR_1_1Const__RegionBitSet.html#ab2b2f18d623db6b09fe7575735de5370", null ],
+    [ "__ref_storage_Npos", "classMR_1_1Const__RegionBitSet.html#a0d19258fde34ec1619eb10077d08993d", null ],
+    [ "BitsPerBlock", "classMR_1_1Const__RegionBitSet.html#ab4b527897a35693adcaf076dd8f01331", null ],
+    [ "Npos", "classMR_1_1Const__RegionBitSet.html#aa403b691cb1765fd03cf88b63d1e34e1", null ]
 ];

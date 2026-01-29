@@ -7,6 +7,8 @@ var structMR_1_1Vector4f =
     [ "addAssign", "structMR_1_1Vector4f.html#a5857cdd1ab6a9cc4e2fae388acddf32b", null ],
     [ "diagonal", "structMR_1_1Vector4f.html#adfcf5367af87b3835fc077d3aee75a79", null ],
     [ "divAssign", "structMR_1_1Vector4f.html#a6a29a12d055371fe3a4ce7d2df55996f", null ],
+    [ "Equals", "structMR_1_1Vector4f.html#a7154e4f42e661671e94a632a0cd09ba3", null ],
+    [ "Equals", "structMR_1_1Vector4f.html#a1902d26c06f014bbdba5a93cdcf7cb20", null ],
     [ "index", "structMR_1_1Vector4f.html#afa88fcf68cb8829382f3b1cc3e6c620f", null ],
     [ "isFinite", "structMR_1_1Vector4f.html#a5dbb15ba95ee3d4f7d278ad0f9cdbb87", null ],
     [ "length", "structMR_1_1Vector4f.html#a4e46509c890fc9b60affb4c9d2cc5290", null ],
@@ -14,6 +16,7 @@ var structMR_1_1Vector4f =
     [ "mulAssign", "structMR_1_1Vector4f.html#ad4b4f5aeb7cff4281125d3f776d22ccc", null ],
     [ "normalized", "structMR_1_1Vector4f.html#a06daf6d9d0deaed7b362353466ae0dca", null ],
     [ "operator Vector4f", "structMR_1_1Vector4f.html#a41749e7752d42f9ffd2ee74bc63526aa", null ],
+    [ "operator!=", "structMR_1_1Vector4f.html#ad966c3a6c35fa2d36f4471a3e97697d9", null ],
     [ "operator*", "structMR_1_1Vector4f.html#a5219fc2d65a5f631a22a48690160f5a8", null ],
     [ "operator*", "structMR_1_1Vector4f.html#a220de7e96be7ba808764d7ab3b8aaf41", null ],
     [ "operator+", "structMR_1_1Vector4f.html#a655f3bcea8acc5dbed8c1eea0461d841", null ],
@@ -24,5 +27,9 @@ var structMR_1_1Vector4f =
     [ "operator==", "structMR_1_1Vector4f.html#af5de20a4b68bc4c2709b8c2a9e3879a0", null ],
     [ "proj3d", "structMR_1_1Vector4f.html#a68e897486782085137f3324c5bdbf6e6", null ],
     [ "subAssign", "structMR_1_1Vector4f.html#a8481a7ea358fc6519f010252c4b645fe", null ],
+    [ "w", "structMR_1_1Vector4f.html#a7917024604ace36331a181d6b2bd07d7", null ],
+    [ "x", "structMR_1_1Vector4f.html#ad3b9bf15dfc469a624add86761dc8faf", null ],
+    [ "y", "structMR_1_1Vector4f.html#a7e39f4b1dbb384b625abcdac93f64e8a", null ],
+    [ "z", "structMR_1_1Vector4f.html#a31c570a722fea52be333a576ed9402a2", null ],
     [ "this[int e]", "structMR_1_1Vector4f.html#adbc08c89617b1468c5631e674f25a340", null ]
 ];

@@ -8,6 +8,8 @@ var classMR_1_1Const__PlaneObject =
     [ "classNameInPlural", "classMR_1_1Const__PlaneObject.html#a76e60cddd03fcd71751c48f793887166", null ],
     [ "clone", "classMR_1_1Const__PlaneObject.html#af6fd13159e648234b76cbbd13b60bcef", null ],
     [ "cloneTree", "classMR_1_1Const__PlaneObject.html#a8e685657a222b30fad8974159e5dd2fe", null ],
+    [ "Dispose", "classMR_1_1Const__PlaneObject.html#a7e0b83e370ccc532bc4016d58dbe3dd7", null ],
+    [ "Dispose", "classMR_1_1Const__PlaneObject.html#aa30402ff712bdcca3d8b5ee1edbb7f4d", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__PlaneObject.html#aba5837498954b8ce3c33c7da2e4f4447", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__PlaneObject.html#aa2e34233236584fbae95db17a4894521", null ],
     [ "getAmbientStrength", "classMR_1_1Const__PlaneObject.html#aba6d4e9a965dc07185c1efe0008e5cda", null ],
@@ -65,6 +67,13 @@ var classMR_1_1Const__PlaneObject =
     [ "isVisible", "classMR_1_1Const__PlaneObject.html#a7c1e7fa3184bde5ec1d2c21b96e5b17a", null ],
     [ "name", "classMR_1_1Const__PlaneObject.html#a3a3fc67ca3c58c0b18a621627f6a6c0c", null ],
     [ "operator Const_PlaneObject", "classMR_1_1Const__PlaneObject.html#a8e12b3fd0b0aa83c6990a9dd80561973", null ],
+    [ "operator Const_PlaneObject?", "classMR_1_1Const__PlaneObject.html#a6a3fe0bbbadc4be4f36e6fca65b2ef59", null ],
+    [ "operator Const_PlaneObject?", "classMR_1_1Const__PlaneObject.html#a51b7a7f2e4751417f09acfe857b69655", null ],
+    [ "operator Const_PlaneObject?", "classMR_1_1Const__PlaneObject.html#afdab22cc365986d12b1ebaee8f5df816", null ],
+    [ "operator MR.Const_FeatureObject", "classMR_1_1Const__PlaneObject.html#ac08a4595154b202c76e3ef720d4b6d8c", null ],
+    [ "operator MR.Const_Object", "classMR_1_1Const__PlaneObject.html#af6121ad9176f274bddd1ca3b6f4f24f3", null ],
+    [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__PlaneObject.html#aae4e332bb29d3696b39849fabc847037", null ],
+    [ "operator MR.Const_VisualObject", "classMR_1_1Const__PlaneObject.html#a6904bf0233b6f8412cc2a2973c27668e", null ],
     [ "projectPoint", "classMR_1_1Const__PlaneObject.html#aadb91d5c99fae3792af0c2d2873ee5ae", null ],
     [ "render", "classMR_1_1Const__PlaneObject.html#ad5224fb3df216c9cde395e4fb5e7fe3a", null ],
     [ "renderForPicker", "classMR_1_1Const__PlaneObject.html#ab2715dc1f1bd4c5a461cd13a4428870f", null ],
@@ -85,6 +94,5 @@ var classMR_1_1Const__PlaneObject =
     [ "visibilityMask", "classMR_1_1Const__PlaneObject.html#a10bf060597b071131224cd12cd2323f6", null ],
     [ "worldXf", "classMR_1_1Const__PlaneObject.html#aa2d8fbfc706bc28feeedd8ee9152ddc3", null ],
     [ "xf", "classMR_1_1Const__PlaneObject.html#ac76e388b519ce0f274524c059e4c0b76", null ],
-    [ "xfsForAllViewports", "classMR_1_1Const__PlaneObject.html#a473b7ac1139c7a95b5d88b66a645eeaa", null ],
-    [ "_IsOwning", "classMR_1_1Const__PlaneObject.html#af9b4405591990338d632a94c662e53a1", null ]
+    [ "xfsForAllViewports", "classMR_1_1Const__PlaneObject.html#a473b7ac1139c7a95b5d88b66a645eeaa", null ]
 ];
