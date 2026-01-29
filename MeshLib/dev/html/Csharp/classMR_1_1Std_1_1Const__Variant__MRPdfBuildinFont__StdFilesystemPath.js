@@ -6,5 +6,7 @@ var classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath =
     [ "Const_Variant_MRPdfBuildinFont_StdFilesystemPath", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#a16b9dff968655a74895c8e320ed88d5b", null ],
     [ "getMRPdfBuildinFont", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#ad4ed9fe0b08be72da33c8c9e0c3d4253", null ],
     [ "getStdFilesystemPath", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#a494b1a121732c0beb183afc5941d25c8", null ],
-    [ "index", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#a235d9be9635b3c39b1f63b5fdea0adea", null ]
+    [ "index", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#a235d9be9635b3c39b1f63b5fdea0adea", null ],
+    [ "operator Const_Variant_MRPdfBuildinFont_StdFilesystemPath", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#a8cf5bec4e887479e2f333fd2a15618fc", null ],
+    [ "operator Const_Variant_MRPdfBuildinFont_StdFilesystemPath", "classMR_1_1Std_1_1Const__Variant__MRPdfBuildinFont__StdFilesystemPath.html#a375dec9fa7501b4e7785f8e2e8571c5b", null ]
 ];

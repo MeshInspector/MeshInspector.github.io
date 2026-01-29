@@ -10,5 +10,9 @@ var classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint_
     [ "getMRMeshTriPoint", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#aca99c711078f7fd4f042d51ce41e9158", null ],
     [ "getMRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#a0204704ee58f5759c6ba386a3dc100db", null ],
     [ "getStdMonostate", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#a437432281c28e405bc1c9a239d4c59df", null ],
-    [ "index", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#af482deaf9690004793218e7424c91d83", null ]
+    [ "index", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#af482deaf9690004793218e7424c91d83", null ],
+    [ "operator Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#a30791147c7db464b409da8b4431adcc8", null ],
+    [ "operator Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#a9c2e946e4d8374c939c4275a3327e392", null ],
+    [ "operator Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#a27e1477b077851f3c7acedf86b6c4a8a", null ],
+    [ "operator Const_Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId", "classMR_1_1Std_1_1Const__Variant__StdMonostate__MRMeshTriPoint__MREdgePoint__MRVertId.html#a47512fa17dee17bfa64c0c0d78220199", null ]
 ];

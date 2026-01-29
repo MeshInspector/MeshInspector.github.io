@@ -8,5 +8,7 @@ var classMR_1_1Std_1_1Variant__Float__MRVector3f =
     [ "assignAsFloat", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#a2caf6f11b5362def2bc48acd0fa11d32", null ],
     [ "assignAsMRVector3f", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#aff8822d2935a3abeda8499e50ef6c8f7", null ],
     [ "getFloat", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#ad79862e2b2a46bb75b6467045b591247", null ],
-    [ "getMRVector3f", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#a9b37c53ffb1d003055f3499433e4b489", null ]
+    [ "getMRVector3f", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#a9b37c53ffb1d003055f3499433e4b489", null ],
+    [ "operator Variant_Float_MRVector3f", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#a2a194c8467279ed741b47c114d2aab5b", null ],
+    [ "operator Variant_Float_MRVector3f", "classMR_1_1Std_1_1Variant__Float__MRVector3f.html#a5979d6377788d43d0e0f83b0becf72a2", null ]
 ];

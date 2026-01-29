@@ -8,5 +8,8 @@ var classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegmen
     [ "getMRFeaturesPrimitivesConeSegment", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a4946be5d44126d2ed51a7a9d1cdc89d8", null ],
     [ "getMRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a5a03a509369c479d534a893e06b5f73d", null ],
     [ "getMRSphere3f", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#ab0522fffdd32ea2c004d052bde0cd3f4", null ],
-    [ "index", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a6fa6db45a60f7ceb707b48434c21aca0", null ]
+    [ "index", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a6fa6db45a60f7ceb707b48434c21aca0", null ],
+    [ "operator Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a18658d6b0301b6f598a4d799d8433e61", null ],
+    [ "operator Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a876d6cbb9873aecaac0e0240184bed8e", null ],
+    [ "operator Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1Const__Variant__MRSphere3f__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesPlane.html#a8cb021eb1345f5316266206ccddcca6b", null ]
 ];

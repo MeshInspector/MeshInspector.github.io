@@ -12,5 +12,10 @@ var classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpt
     [ "getInt", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a7d236b2d870fbb16f1070e9d8f473153", null ],
     [ "getMRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a381aab98040e2180809225447879247c", null ],
     [ "getStdString", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#acf4087e8d166dff21f43a8198f45d0a5", null ],
-    [ "index", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#af1684ccc9038257bba8a4465acd8137a", null ]
+    [ "index", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#af1684ccc9038257bba8a4465acd8137a", null ],
+    [ "operator Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a1de03cdefb616c7ec8df63dfaffb1d53", null ],
+    [ "operator Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#ab3e35daa3f265476686cbec6f034d5f7", null ],
+    [ "operator Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a8729660f9df7095231ec8dad218aacd6", null ],
+    [ "operator Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#a765cd1d73705f21e8438f03721a0d257", null ],
+    [ "operator Const_Variant_Int_Float_Bool_StdString_MRPdfCellEmpty", "classMR_1_1Std_1_1Const__Variant__Int__Float__Bool__StdString__MRPdfCellEmpty.html#ae637e3a3e79cade58e60d7b9619b9daa", null ]
 ];

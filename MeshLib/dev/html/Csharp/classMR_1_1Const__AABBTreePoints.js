@@ -18,6 +18,7 @@ var classMR_1_1Const__AABBTreePoints =
     [ "nodes", "classMR_1_1Const__AABBTreePoints.html#a25e7e1b9c562742fd50b72870b6e5839", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a0f498c1406136ec7ee09dc477eb1e86c", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a454206dabdaa6f5cb652fe751157c47f", null ],
+    [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a28c745d63a05c8cefd4305e39bcd40c7", null ],
     [ "orderedPoints", "classMR_1_1Const__AABBTreePoints.html#a6082a61cd4cd4c770a2fb5eff2bd0e19", null ],
     [ "rootNodeId", "classMR_1_1Const__AABBTreePoints.html#a205923661aef6ba04d17e3264cd9d0fb", null ],
     [ "MaxNumPointsInLeaf", "classMR_1_1Const__AABBTreePoints.html#a2cebebbf509c179cd4610c077ee40af2", null ],

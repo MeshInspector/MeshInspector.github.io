@@ -8,5 +8,7 @@ var classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId =
     [ "assignAsMRFaceMap", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a75aed50ed59c0efb62a798e335c574cf", null ],
     [ "assignAsPhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a7b0c3ba0657f487a65079d4ff848d805", null ],
     [ "getMRFaceMap", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a5466b2326bf439c524dccbfeb6549dc8", null ],
-    [ "getPhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a42ea9dc2a9f4e6fa0a4fba9de3e2021f", null ]
+    [ "getPhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a42ea9dc2a9f4e6fa0a4fba9de3e2021f", null ],
+    [ "operator Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a6682514adaa2276a2434beda51a31bab", null ],
+    [ "operator Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId", "classMR_1_1Std_1_1Variant__MRFaceMap__PhmapFlatHashMapMRFaceIdMRFaceId.html#a270671240b569c20ff640fe7651ab117", null ]
 ];

@@ -8,5 +8,7 @@ var classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeI
     [ "assignAsMRWholeEdgeMap", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a260d2f5689cae1c3f17175c53b6fc2ac", null ],
     [ "assignAsPhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a5fe821b4eaacb714a16bee436852e0f0", null ],
     [ "getMRWholeEdgeMap", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a7ea5bea35e72491b7d70e37de091e42f", null ],
-    [ "getPhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a51208d8da50b7066e75f917ddceaf4c0", null ]
+    [ "getPhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a51208d8da50b7066e75f917ddceaf4c0", null ],
+    [ "operator Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#af3d5cb6bfc81ba8e7b879e15f7e13aca", null ],
+    [ "operator Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId", "classMR_1_1Std_1_1Variant__MRWholeEdgeMap__PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId.html#a6ce28bd5edaa5d59a31a4ad3e3a94910", null ]
 ];

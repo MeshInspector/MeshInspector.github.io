@@ -6,5 +6,7 @@ var classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertI
     [ "Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#a1393ead356b02ade462a23192bbb447e", null ],
     [ "getMRVertMap", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#a14a980ce6e47936b4e7010e5f62c301b", null ],
     [ "getPhmapFlatHashMapMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#abeb3c06a7a445748cf50f42052e6df56", null ],
-    [ "index", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#a4a46b4c3c24614bed50900708466d748", null ]
+    [ "index", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#a4a46b4c3c24614bed50900708466d748", null ],
+    [ "operator Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#ac0e064bce52456eec91cdb607393feb2", null ],
+    [ "operator Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId", "classMR_1_1Std_1_1Const__Variant__MRVertMap__PhmapFlatHashMapMRVertIdMRVertId.html#a1a5a1796b122fe9ddad1b5898c0214ce", null ]
 ];

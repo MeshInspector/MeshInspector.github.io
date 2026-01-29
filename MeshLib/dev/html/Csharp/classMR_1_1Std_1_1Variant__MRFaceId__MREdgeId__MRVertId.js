@@ -11,5 +11,8 @@ var classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId =
     [ "assignAsMRVertId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#a252f82e785a1993f4bb616ba17639f1d", null ],
     [ "getMREdgeId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#aa2136d6d67d8271a0a95e1986bfbf2ce", null ],
     [ "getMRFaceId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#a9929127a9b6ac3a0a35d76f1f65a164a", null ],
-    [ "getMRVertId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#a4c49a282d1ff1f5c1b9a68d225e9ceec", null ]
+    [ "getMRVertId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#a4c49a282d1ff1f5c1b9a68d225e9ceec", null ],
+    [ "operator Variant_MRFaceId_MREdgeId_MRVertId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#aa50e1130bc5e605fbc63f8155a6a1dc5", null ],
+    [ "operator Variant_MRFaceId_MREdgeId_MRVertId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#ab4350a08c423dc6d1b8113e816aea174", null ],
+    [ "operator Variant_MRFaceId_MREdgeId_MRVertId", "classMR_1_1Std_1_1Variant__MRFaceId__MREdgeId__MRVertId.html#a4ee7568ea307dee38dc4a361763ce20c", null ]
 ];

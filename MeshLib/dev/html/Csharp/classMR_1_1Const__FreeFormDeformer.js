@@ -9,5 +9,6 @@ var classMR_1_1Const__FreeFormDeformer =
     [ "getCoord", "classMR_1_1Const__FreeFormDeformer.html#a83df84a16059bbfa7f059ea5c4d6d680", null ],
     [ "getIndex", "classMR_1_1Const__FreeFormDeformer.html#a508990a3fdddb8a9a0716f001a81509e", null ],
     [ "getRefGridPointPosition", "classMR_1_1Const__FreeFormDeformer.html#a786e12a9407e50ec8502e5ca86c2fdd4", null ],
-    [ "getResolution", "classMR_1_1Const__FreeFormDeformer.html#a611719a867e60c13b13c57f891fcfa2c", null ]
+    [ "getResolution", "classMR_1_1Const__FreeFormDeformer.html#a611719a867e60c13b13c57f891fcfa2c", null ],
+    [ "operator Const_FreeFormDeformer", "classMR_1_1Const__FreeFormDeformer.html#a6edfc7953d8f43a57281913ea6936ad5", null ]
 ];
