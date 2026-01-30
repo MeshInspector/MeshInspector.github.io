@@ -156,7 +156,7 @@ var searchData=
   ['surfacecontours_21',['SurfaceContours',['../classMR_1_1PickPointManager.html#a517842afda1f1c9d0c1487829fb09fb4',1,'MR::PickPointManager']]],
   ['symmatrixtype_22',['SymMatrixType',['../structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c',1,'MR::Vector2::SymMatrixType'],['../structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff',1,'MR::Vector3::SymMatrixType'],['../structMR_1_1Vector4.html#a7e8e73c7399e2f377d577c269193a4a0',1,'MR::Vector4::SymMatrixType']]],
   ['hash_0',['Hash',['../structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0',1,'MR::MapOrHashMap']]],
-  ['historystorechangedsignal_1',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],
+  ['historystorechangedsignal_1',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a343023db277dd443c995c61ea663f7f3',1,'MR::HistoryStore']]],
   ['holesonobject_2',['HolesOnObject',['../classMR_1_1BoundarySelectionWidget.html#a9e3aafe476e30d362b2b0070a6ce21c6',1,'MR::BoundarySelectionWidget']]],
   ['basefitparams_0',['BaseFitParams',['../classMR_1_1Viewport.html#a14d9ce8dba0a41d18ce159115c94cef4',1,'MR::Viewport']]],
   ['basepickresults_1',['BasePickResults',['../classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e',1,'MR::ViewportGL']]],

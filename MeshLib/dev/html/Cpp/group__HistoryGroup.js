@@ -284,9 +284,10 @@ var group__HistoryGroup =
       [ "assign", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a20fa5594fb46e2591d7f7747efa526a3", null ]
     ] ],
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", [
-      [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410", null ],
+      [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a343023db277dd443c995c61ea663f7f3", null ],
       [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
-        [ "AppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727", null ],
+        [ "PreAppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2", null ],
+        [ "PostAppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02", null ],
         [ "PreUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2", null ],
         [ "PostUndo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c", null ],
         [ "PreRedo", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1", null ],

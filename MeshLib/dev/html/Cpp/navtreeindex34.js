@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1RibbonMenuItem.html#ab499c9049737793e6b1994048b99952c":[6,0,1,0,1,316,11],
 "classMR_1_1RibbonMenuItem.html#ab499c9049737793e6b1994048b99952c":[6,0,2,0,2,288,11],
 "classMR_1_1RibbonMenuItem.html#abf4ea13c8983c44214b92a066e8b7659":[6,0,1,0,1,316,9],
 "classMR_1_1RibbonMenuItem.html#abf4ea13c8983c44214b92a066e8b7659":[6,0,2,0,2,288,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1SceneColors.html":[6,0,0,18,2],
 "classMR_1_1SceneObjectsListDrawer.html":[6,0,1,0,1,349],
 "classMR_1_1SceneObjectsListDrawer.html":[6,0,2,0,2,321],
-"classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,1,0,1,349,22],
-"classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,2,0,2,321,22]
+"classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,1,0,1,349,22]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,311,4],
 "structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,2,283,4],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,320,0],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,2,292,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1SpaceMouseMoveListener.html#a2cfdabbd1ab58db19f09528e678f3729":[6,0,2,0,2,350,2],
 "structMR_1_1SpaceMouseMoveListener.html#a66ccc53a5aad7584a46946801cbc430b":[6,0,1,0,1,378,1],
 "structMR_1_1SpaceMouseMoveListener.html#a66ccc53a5aad7584a46946801cbc430b":[6,0,2,0,2,350,1],
-"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,1,0,1,378,3],
-"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,2,0,2,350,3]
+"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,1,0,1,378,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,2,0,2,350,3],
 "structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,1,0,1,378,0],
 "structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,2,0,2,350,0],
 "structMR_1_1SpaceMouseUpListener.html":[6,0,1,0,1,379],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1TouchpadRotateGestureEndListener.html#ad2d7edd1009fed4d6603ae9ce48ca3bf":[6,0,1,0,1,405,1],
 "structMR_1_1TouchpadRotateGestureEndListener.html#ad2d7edd1009fed4d6603ae9ce48ca3bf":[6,0,2,0,2,377,1],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,1,0,1,406],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,2,0,2,378],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[6,0,1,0,1,406,1]
+"structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,2,0,2,378]
 };

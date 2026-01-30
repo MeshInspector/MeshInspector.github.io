@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classMR_1_1MarkedVoxelSlice.html#a7ae548f5bf2801169f8be5e014429a48":[6,0,2,0,2,170,11],
 "classMR_1_1MarkedVoxelSlice.html#a86a746a3d208f9b05419acf8e15d0bf1":[6,0,1,0,1,198,26],
 "classMR_1_1MarkedVoxelSlice.html#a86a746a3d208f9b05419acf8e15d0bf1":[6,0,2,0,2,170,26],
 "classMR_1_1MarkedVoxelSlice.html#a8cfc8efe67bed7ab6770d8952e75c6b6":[6,0,1,0,1,198,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classMR_1_1MeshToDistanceMapParams.html#a396adcdb1016061e0dd4879729008236":[6,0,0,5,3,7],
 "classMR_1_1MeshToDistanceMapParams.html#a39822d0d4e7f18a2f583a631010ccf00":[6,0,0,5,3,12],
 "classMR_1_1MeshToDistanceMapParams.html#a4c64387c3f628abf2bd82024cfdb6554":[6,0,0,5,3,5],
-"classMR_1_1MeshToDistanceMapParams.html#a5cfe1a3f1a49cc46cfbfc5381ce53bd4":[6,0,0,5,3,19],
-"classMR_1_1MeshToDistanceMapParams.html#a5e801a700f07e77681be593da3576242":[6,0,0,5,3,11]
+"classMR_1_1MeshToDistanceMapParams.html#a5cfe1a3f1a49cc46cfbfc5381ce53bd4":[6,0,0,5,3,19]
 };

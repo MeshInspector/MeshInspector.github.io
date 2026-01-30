@@ -163,21 +163,23 @@ $(function(){initNavTree('classMR_1_1HistoryStore.html',''); initResizable(true)
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:abfd9d90c02f0673577386845f1f608c4" id="r_abfd9d90c02f0673577386845f1f608c4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfd9d90c02f0673577386845f1f608c4">ChangeType</a> { <br />
-&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727">AppendAction</a>
+&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2">PreAppendAction</a>
+, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02">PostAppendAction</a>
 , <a class="el" href="#abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2">PreUndo</a>
 , <a class="el" href="#abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c">PostUndo</a>
-, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1">PreRedo</a>
 , <br />
-&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2">PostRedo</a>
+&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1">PreRedo</a>
+, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2">PostRedo</a>
 , <a class="el" href="#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2">Clear</a>
 , <a class="el" href="#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f">PopAction</a>
-, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">Filter</a>
+, <br />
+&#160;&#160;<a class="el" href="#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a">Filter</a>
 <br />
  }</td></tr>
 <tr class="memdesc:abfd9d90c02f0673577386845f1f608c4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1Signal.html">Signal</a> is called after this store changed.  <a href="#abfd9d90c02f0673577386845f1f608c4">More...</a><br /></td></tr>
 <tr class="separator:abfd9d90c02f0673577386845f1f608c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a440531fdee4c587daae1e792a6c62410" id="r_a440531fdee4c587daae1e792a6c62410"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a> = boost::signals2::signal&lt;void( const <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a>&amp; store, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4">ChangeType</a> )&gt;</td></tr>
-<tr class="separator:a440531fdee4c587daae1e792a6c62410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343023db277dd443c995c61ea663f7f3" id="r_a343023db277dd443c995c61ea663f7f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a343023db277dd443c995c61ea663f7f3">HistoryStoreChangedSignal</a> = boost::signals2::signal&lt;void( const <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a>&amp; store, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4">ChangeType</a>, std::shared_ptr&lt;<a class="elRef" href="../Csharp/classMR_1_1HistoryAction.html">HistoryAction</a>&gt; action )&gt;</td></tr>
+<tr class="separator:a343023db277dd443c995c61ea663f7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -242,20 +244,20 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afcedddcbe7c972d3a5b239e53a0f17ee" id="r_afcedddcbe7c972d3a5b239e53a0f17ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcedddcbe7c972d3a5b239e53a0f17ee">changedSignal</a></td></tr>
+<tr class="memitem:afcedddcbe7c972d3a5b239e53a0f17ee" id="r_afcedddcbe7c972d3a5b239e53a0f17ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a343023db277dd443c995c61ea663f7f3">HistoryStoreChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcedddcbe7c972d3a5b239e53a0f17ee">changedSignal</a></td></tr>
 <tr class="separator:afcedddcbe7c972d3a5b239e53a0f17ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class stores history stack for undo/redo. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a440531fdee4c587daae1e792a6c62410" name="a440531fdee4c587daae1e792a6c62410"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a440531fdee4c587daae1e792a6c62410">&#9670;&#160;</a></span>HistoryStoreChangedSignal</h2>
+<a id="a343023db277dd443c995c61ea663f7f3" name="a343023db277dd443c995c61ea663f7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a343023db277dd443c995c61ea663f7f3">&#9670;&#160;</a></span>HistoryStoreChangedSignal</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a440531fdee4c587daae1e792a6c62410">MR::HistoryStore::HistoryStoreChangedSignal</a> = boost::signals2::signal&lt;void( const <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a>&amp; store, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4">ChangeType</a> )&gt;</td>
+          <td class="memname">using <a class="el" href="#a343023db277dd443c995c61ea663f7f3">MR::HistoryStore::HistoryStoreChangedSignal</a> = boost::signals2::signal&lt;void( const <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a>&amp; store, <a class="el" href="#abfd9d90c02f0673577386845f1f608c4">ChangeType</a>, std::shared_ptr&lt;<a class="elRef" href="../Csharp/classMR_1_1HistoryAction.html">HistoryAction</a>&gt; action )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,16 +287,24 @@ Public Attributes</h2></td></tr>
 
 <p><a class="el" href="structMR_1_1Signal.html">Signal</a> is called after this store changed. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727" name="abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727"></a>AppendAction&#160;</td><td class="fielddoc"><p>additions in scoped block does not provide signal </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2" name="abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2"></a>PreAppendAction&#160;</td><td class="fielddoc"><p>called before action is appended (allows to decorate raw actions with scopes): action - that is about to be added </p>
 </td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" name="abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2"></a>PreUndo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" name="abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c"></a>PostUndo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" name="abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1"></a>PreRedo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" name="abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2"></a>PostRedo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" name="abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2"></a>Clear&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" name="abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f"></a>PopAction&#160;</td><td class="fielddoc"><p>called after removing action that exceeds memory limit </p>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02" name="abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02"></a>PostAppendAction&#160;</td><td class="fielddoc"><p>called after action is appended either to store or to current scope: action - one that was just added </p>
 </td></tr>
-<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" name="abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a"></a>Filter&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" name="abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2"></a>PreUndo&#160;</td><td class="fielddoc"><p>called right before action is undone: action - the that will be undone </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" name="abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c"></a>PostUndo&#160;</td><td class="fielddoc"><p>called right after action is undone: action - the that have been undone </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" name="abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1"></a>PreRedo&#160;</td><td class="fielddoc"><p>called right before action is redone: action - the that will be redone </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" name="abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2"></a>PostRedo&#160;</td><td class="fielddoc"><p>called right after action is redone: action - the that have been redone </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" name="abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2"></a>Clear&#160;</td><td class="fielddoc"><p>called when this store is cleaned: action - nullptr </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" name="abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f"></a>PopAction&#160;</td><td class="fielddoc"><p>called after removing action that exceeds memory limit: action - nullptr </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" name="abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a"></a>Filter&#160;</td><td class="fielddoc"><p>called after this store is filtered: action - nullptr </p>
+</td></tr>
 </table>
 
 </div>
@@ -835,7 +845,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a440531fdee4c587daae1e792a6c62410">HistoryStoreChangedSignal</a> MR::HistoryStore::changedSignal</td>
+          <td class="memname"><a class="el" href="#a343023db277dd443c995c61ea663f7f3">HistoryStoreChangedSignal</a> MR::HistoryStore::changedSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">
