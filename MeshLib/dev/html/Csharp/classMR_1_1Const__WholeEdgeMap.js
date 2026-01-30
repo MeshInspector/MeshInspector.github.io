@@ -2,6 +2,8 @@ var classMR_1_1Const__WholeEdgeMap =
 [
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a9cb7934a3f293fc9c90d78c146f24c4c", null ],
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#aedb4919fd9049a977cf70c410706af10", null ],
+    [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a9d78b5c5f2432384f745b11e45bb4f6c", null ],
+    [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a131fba26df9a7ea9c93b5bf05db7d81b", null ],
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#abdbb1ec11c92133534e384ed4b6e1d5a", null ],
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a9ef3bc70386a7b4c0d67f180c00a4bc5", null ],
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a0d7fdf254e3bf81f98fe739cbf6fbce3", null ],

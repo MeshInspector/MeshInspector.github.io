@@ -1,6 +1,8 @@
 var classMR_1_1VoxelsLoad_1_1Const__DicomStatus =
 [
     [ "Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html#aa8ff6a8d312263668e023f70f65049d9", null ],
+    [ "Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html#aaeb8523fd09c99307c60f5b558338e6f", null ],
+    [ "Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html#aaa7ef355d46f42e9109312a7c50d6025", null ],
     [ "Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html#a750e38111c196c43304a31138d0ffea9", null ],
     [ "Dispose", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html#a30bfb5b91b54a9881e78a779adc2b358", null ],
     [ "Dispose", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html#ae279415420bff39defda5ef069ed377d", null ],

@@ -2,6 +2,8 @@ var classMR_1_1Const__FaceBitSet =
 [
     [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#aae5a6aba3e358a0be6bca7ba862bd410", null ],
     [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#a11164bc36d5980c5215064fabd15dab1", null ],
+    [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#ad2a4f0688011d7dd0183a8882706bb4a", null ],
+    [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#a2624e6ca309af239a612e518effb6171", null ],
     [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#a4c400255d9c92fafbf3fcb8c372977c5", null ],
     [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#a238402903a9d2decd86d5501ddae057c", null ],
     [ "Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html#ac9c64df64662c5957967f337f36dec94", null ],

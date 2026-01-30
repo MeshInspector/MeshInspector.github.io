@@ -3,6 +3,8 @@ var classMR_1_1SaveSettings =
     [ "SaveSettings", "../Csharp/classMR_1_1SaveSettings.html#ae4cf7617b98c26fe584e4f7594cc49d6", null ],
     [ "SaveSettings", "../Csharp/classMR_1_1SaveSettings.html#a2951e0502a87ba12ff3eeb86659415f0", null ],
     [ "SaveSettings", "../Csharp/classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3", null ],
+    [ "SaveSettings", "../Csharp/classMR_1_1SaveSettings.html#ab4bbb1235275abac6d3bdb8595450a3f", null ],
+    [ "SaveSettings", "../Csharp/classMR_1_1SaveSettings.html#ad16752a9c1c605e496c0c05f990c7000", null ],
     [ "assign", "../Csharp/classMR_1_1SaveSettings.html#a58b76e1e39c101b87925043fb9c4f93e", null ],
     [ "colors", "../Csharp/classMR_1_1SaveSettings.html#aaa4a6f1418f0d390c8e9fa5207cc4c41", null ],
     [ "lengthUnit", "../Csharp/classMR_1_1SaveSettings.html#a1eb9ec3042e1085c117217486a570efd", null ],

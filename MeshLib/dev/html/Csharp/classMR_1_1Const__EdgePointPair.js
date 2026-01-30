@@ -2,6 +2,7 @@ var classMR_1_1Const__EdgePointPair =
 [
     [ "Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html#a82864ca1e20fedb22ab4f30f92f64a9d", null ],
     [ "Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html#a3e505233cada82fa5501236cf795edcc", null ],
+    [ "Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html#a808f59ae4161ab82f64bd228360b62e0", null ],
     [ "Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html#ac49c554963b43f4842449d3b6cf94a3c", null ],
     [ "Dispose", "classMR_1_1Const__EdgePointPair.html#abb8761b05a84db4756e408109b14740e", null ],
     [ "Dispose", "classMR_1_1Const__EdgePointPair.html#a27995850eb84455b3bbbcfd726b1db30", null ],

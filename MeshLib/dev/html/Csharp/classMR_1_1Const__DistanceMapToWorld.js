@@ -2,6 +2,7 @@ var classMR_1_1Const__DistanceMapToWorld =
 [
     [ "Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html#a29dcbc511650dadb4356f7d30b02c20e", null ],
     [ "Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html#a6047ab7720ccd9ddf71a1e35588c6511", null ],
+    [ "Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html#a6f8a5d4088f30adb0c5e454aad90d3e1", null ],
     [ "Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html#ab613eb5d68e34adc337a3a42dde2125a", null ],
     [ "Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html#a47e5fb998661c15dd540fa9197589e6e", null ],
     [ "Const_DistanceMapToWorld", "classMR_1_1Const__DistanceMapToWorld.html#a8d88f7ed396ff1cf279c92bad5160265", null ],

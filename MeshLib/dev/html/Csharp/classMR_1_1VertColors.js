@@ -2,6 +2,8 @@ var classMR_1_1VertColors =
 [
     [ "VertColors", "classMR_1_1VertColors.html#a9a15ba2d7d4775f0d097bd11f65de788", null ],
     [ "VertColors", "classMR_1_1VertColors.html#af75260f95b50d85f739731c8b53d2ee6", null ],
+    [ "VertColors", "classMR_1_1VertColors.html#a79372aa2188f61959ea5a1580c882f15", null ],
+    [ "VertColors", "classMR_1_1VertColors.html#a7a8f8f02feacd8a85c48d1b25a872323", null ],
     [ "VertColors", "classMR_1_1VertColors.html#a73af90a72334230968a1535e2b959478", null ],
     [ "VertColors", "classMR_1_1VertColors.html#ad5eda78635378a066715465b054a58fe", null ],
     [ "VertColors", "classMR_1_1VertColors.html#ab7432429e72fb039c64f0d919c3fd684", null ],

@@ -1,6 +1,8 @@
 var classMR_1_1Const__CombinedHistoryAction =
 [
     [ "Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html#aedcfe7e1bbb8473b742623d8ae738169", null ],
+    [ "Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html#aa6f59a368476ad0c643073508274f5ba", null ],
+    [ "Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html#a0af11c1039853d8c5ae32dbdc4ba9421", null ],
     [ "Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html#a1fa16e35943b8678dcce76813b87cd3f", null ],
     [ "Dispose", "classMR_1_1Const__CombinedHistoryAction.html#a1b0b1c4c85f3b7c6e80dc4f8b279b01e", null ],
     [ "Dispose", "classMR_1_1Const__CombinedHistoryAction.html#a291819f843127726449caa10e39d20d8", null ],

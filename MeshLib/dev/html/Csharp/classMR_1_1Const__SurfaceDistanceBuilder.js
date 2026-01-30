@@ -1,6 +1,8 @@
 var classMR_1_1Const__SurfaceDistanceBuilder =
 [
     [ "Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html#a39deef10f397eefc69d032bfa39ec6cf", null ],
+    [ "Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html#ad60694713d832e686b4e0ee78e1388d9", null ],
+    [ "Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html#a94f75048cd9b2ff796e23f6cdf0161a4", null ],
     [ "Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html#a876ccebac8e43c23e4fc8cd52450ef84", null ],
     [ "Const_SurfaceDistanceBuilder", "classMR_1_1Const__SurfaceDistanceBuilder.html#a9539444769626459d19d71d9e4df2efd", null ],
     [ "Dispose", "classMR_1_1Const__SurfaceDistanceBuilder.html#a097dc5313d3d09e396c1e4c1ab39c36e", null ],

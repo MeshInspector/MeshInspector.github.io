@@ -1,6 +1,8 @@
 var classMR_1_1EdgePathsAStarBuilder =
 [
     [ "EdgePathsAStarBuilder", "../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a70a64104594575ac1321fec8d28bd596", null ],
+    [ "EdgePathsAStarBuilder", "../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a35e12b00f998d07b98f1439457adaa4b", null ],
+    [ "EdgePathsAStarBuilder", "../Csharp/classMR_1_1EdgePathsAStarBuilder.html#ae46f64743844b61f370c69dd2adec2f1", null ],
     [ "EdgePathsAStarBuilder", "../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a97fad1e875104144cbe9579600cb9c47", null ],
     [ "EdgePathsAStarBuilder", "../Csharp/classMR_1_1EdgePathsAStarBuilder.html#abe9817a8cd11b03770747a5175bc24b1", null ],
     [ "addOrgRingSteps", "../Csharp/classMR_1_1EdgePathsAStarBuilder.html#a73af0f7972a7561d5d74e8b18bf0bcdc", null ],

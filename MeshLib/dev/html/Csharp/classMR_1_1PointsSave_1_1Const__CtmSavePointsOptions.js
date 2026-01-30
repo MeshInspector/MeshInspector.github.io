@@ -2,6 +2,8 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
 [
     [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a2087714eb68ddd99ccf8a221a98427ac", null ],
     [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1235822151a819d05a5720b08866dee6", null ],
+    [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ad7eacfce73a5e376b210bbf1057b5424", null ],
+    [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aba7517c2316b297697c870ac4be96888", null ],
     [ "Dispose", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aac7fa9077c8fb30c1b0366094d75022c", null ],
     [ "Dispose", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a3defe6c34796914d95f02ac37b01bd6d", null ],
     [ "operator MR.Const_SaveSettings", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#adaedeaf09ab7faeb3632707257fb31d6", null ],

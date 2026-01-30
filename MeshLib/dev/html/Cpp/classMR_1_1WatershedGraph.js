@@ -4,6 +4,8 @@ var classMR_1_1WatershedGraph =
     [ "BdInfo", "structMR_1_1WatershedGraph_1_1BdInfo.html", "structMR_1_1WatershedGraph_1_1BdInfo" ],
     [ "OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", "structMR_1_1WatershedGraph_1_1OverflowPoint" ],
     [ "WatershedGraph", "../Csharp/classMR_1_1WatershedGraph.html#a07aec7776521671ca5286c8e878abc8c", null ],
+    [ "WatershedGraph", "../Csharp/classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c", null ],
+    [ "WatershedGraph", "../Csharp/classMR_1_1WatershedGraph.html#ab19b95643e86cffe573d2e090d07a208", null ],
     [ "WatershedGraph", "../Csharp/classMR_1_1WatershedGraph.html#a12b09913ed53c1b6ab8c54a92704dcda", null ],
     [ "basinInfo", "../Csharp/classMR_1_1WatershedGraph.html#a18232b2ebc524ead9718a678045ba03e", null ],
     [ "bdInfo", "../Csharp/classMR_1_1WatershedGraph.html#a5b2c2401848105a2680e58cd003d954c", null ],

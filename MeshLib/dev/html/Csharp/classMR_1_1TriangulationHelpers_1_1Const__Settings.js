@@ -3,6 +3,7 @@ var classMR_1_1TriangulationHelpers_1_1Const__Settings =
     [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#ad96539033b9f1b4d9a97d89f15460bf8", null ],
     [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#ac146efa1afe22f0e270199b012738b5e", null ],
     [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a690b98dbd72486bd330cf5df4132fa2b", null ],
+    [ "Const_Settings", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a8722adffef6b1de7e08a6362b49a0cab", null ],
     [ "Dispose", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#ac58ce7ec76e517c091d42a6449b1e658", null ],
     [ "Dispose", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a670cfb58585724ee59f8a33bf17af56d", null ],
     [ "__ptr_storage_actualRadius", "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a240f3b7f73bfde0d4a40bb5447b0edb5", null ],

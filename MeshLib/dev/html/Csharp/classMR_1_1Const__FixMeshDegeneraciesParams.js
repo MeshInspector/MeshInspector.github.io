@@ -8,6 +8,8 @@ var classMR_1_1Const__FixMeshDegeneraciesParams =
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a856e69fed4dbc0e9f18955062eaf0b7b", null ],
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a35595e89953b8e3983b7fc198788997a", null ],
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a8297b179e9ea4e71524f4c771f46f210", null ],
+    [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a4ed42362c83a078cabd8cb7e23e9ef5e", null ],
+    [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a0a463aa3bee483acbd62fd902da9dfcf", null ],
     [ "Dispose", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a246b5b45a6f435b22655f939ade88ea4", null ],
     [ "Dispose", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a291a86810571ea0136416d7e3d3a6197", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__FixMeshDegeneraciesParams.html#ac753029452e2336abd75ccdc770f16f2", null ],

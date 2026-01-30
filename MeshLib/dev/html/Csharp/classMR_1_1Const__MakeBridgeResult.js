@@ -3,6 +3,7 @@ var classMR_1_1Const__MakeBridgeResult =
     [ "Const_MakeBridgeResult", "classMR_1_1Const__MakeBridgeResult.html#ab6ec33eab511e4f21616384abcfd8943", null ],
     [ "Const_MakeBridgeResult", "classMR_1_1Const__MakeBridgeResult.html#ac1c75573555925da194975d20d8963ae", null ],
     [ "Const_MakeBridgeResult", "classMR_1_1Const__MakeBridgeResult.html#aa6701287f0edbc38ef58ca6f1a08c58d", null ],
+    [ "Const_MakeBridgeResult", "classMR_1_1Const__MakeBridgeResult.html#a548708504591b5eb2d069a05cc4a84da", null ],
     [ "Dispose", "classMR_1_1Const__MakeBridgeResult.html#ad12b5635885b6ff01575663cc995f4b4", null ],
     [ "Dispose", "classMR_1_1Const__MakeBridgeResult.html#a557accf4ec605934b904924dd8a0c809", null ],
     [ "operator bool", "classMR_1_1Const__MakeBridgeResult.html#af14a69a5cd6fcdd7b72296d06b77bedf", null ],

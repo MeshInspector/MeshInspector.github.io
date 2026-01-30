@@ -2,6 +2,8 @@ var classMR_1_1Const__VdbVolume =
 [
     [ "Const_VdbVolume", "classMR_1_1Const__VdbVolume.html#a44084b4555116919e4af987b8f062021", null ],
     [ "Const_VdbVolume", "classMR_1_1Const__VdbVolume.html#adde4a46d4b14942ea05b5c3eff748ceb", null ],
+    [ "Const_VdbVolume", "classMR_1_1Const__VdbVolume.html#a582f76ba8e6a284b79cacfa1563b29f8", null ],
+    [ "Const_VdbVolume", "classMR_1_1Const__VdbVolume.html#a682bf888d5340eb9ba44cb963d2900a7", null ],
     [ "center", "classMR_1_1Const__VdbVolume.html#a015faede1e25e577ee8d9c2fffab1027", null ],
     [ "corner", "classMR_1_1Const__VdbVolume.html#aa1d3fe7eeed524834f73d248cae928ff", null ],
     [ "diagonal", "classMR_1_1Const__VdbVolume.html#a17276dd201df1a737ba6751e30de2911", null ],

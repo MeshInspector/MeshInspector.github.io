@@ -2,6 +2,7 @@ var classMR_1_1Const__MeshApproxRelaxParams =
 [
     [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a3cb277927896ace2932e0b8fa32097e5", null ],
     [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a14a6c245ded1990729febe37a46b280a", null ],
+    [ "Const_MeshApproxRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#ac42c4ac68dd4efec0a33f31cc81dd646", null ],
     [ "Dispose", "classMR_1_1Const__MeshApproxRelaxParams.html#af781880b585bb071b55d9c37861707ab", null ],
     [ "Dispose", "classMR_1_1Const__MeshApproxRelaxParams.html#a020a0810bec95e795b5f6695de66c730", null ],
     [ "operator MR.Const_MeshRelaxParams", "classMR_1_1Const__MeshApproxRelaxParams.html#a17c740a8b88a11ca922f48213febeff8", null ],

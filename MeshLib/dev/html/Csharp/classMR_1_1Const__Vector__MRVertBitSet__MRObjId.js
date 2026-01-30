@@ -2,6 +2,8 @@ var classMR_1_1Const__Vector__MRVertBitSet__MRObjId =
 [
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a80b83cb69fd9fc9047548113d7d1a27f", null ],
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a26fa782c584f31853d254d8f376a305b", null ],
+    [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a80bab7e0b852ffa786940865a71012bd", null ],
+    [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#af367722ba7871debd2c9a0d84546ec0e", null ],
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a3352e151a2103149082462837350cccd", null ],
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a0615847d18087c5b4cbb1901c4105ea6", null ],
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a12657e058f0ce0adb20e6b949d8c40f3", null ],

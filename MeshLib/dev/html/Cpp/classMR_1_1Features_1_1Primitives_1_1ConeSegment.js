@@ -3,6 +3,7 @@ var classMR_1_1Features_1_1Primitives_1_1ConeSegment =
     [ "ConeSegment", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a336ffa611f8a83553510b0ade6300c9e", null ],
     [ "ConeSegment", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3049dc06a32a670b86b37621ffab85c7", null ],
     [ "ConeSegment", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ae4fea37bf0f8222890b4659da755e266", null ],
+    [ "ConeSegment", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ade70aa3dd899ab2b08c8d9893b3db798", null ],
     [ "assign", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4e25f5bda09fe784428561eb8d208987", null ],
     [ "dir", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a7a31f1b710316583af514d73134b1ace", null ],
     [ "hollow", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#af408f0f57db1dad13bcf26e2b759ad6e", null ],

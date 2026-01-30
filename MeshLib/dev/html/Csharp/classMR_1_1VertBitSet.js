@@ -2,6 +2,8 @@ var classMR_1_1VertBitSet =
 [
     [ "VertBitSet", "classMR_1_1VertBitSet.html#a5af11293c6525574c80755ed06e1232b", null ],
     [ "VertBitSet", "classMR_1_1VertBitSet.html#a28776eb09db7879ab3657fda0cea9381", null ],
+    [ "VertBitSet", "classMR_1_1VertBitSet.html#af325a0809cce9f1168c959131d8864c3", null ],
+    [ "VertBitSet", "classMR_1_1VertBitSet.html#af5c9b1548139f480a269a2cf9ee31a5f", null ],
     [ "VertBitSet", "classMR_1_1VertBitSet.html#aa81aee7091181ad23f30005584e337c4", null ],
     [ "VertBitSet", "classMR_1_1VertBitSet.html#a6c681ec6cdd9d7cb0438c0d717561f69", null ],
     [ "VertBitSet", "classMR_1_1VertBitSet.html#a5ddfe0d859731534167ec5c0e78384be", null ],

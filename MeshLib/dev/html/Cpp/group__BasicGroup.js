@@ -5,6 +5,8 @@ var group__BasicGroup =
     [ "MR::BitSet", "../Csharp/classMR_1_1BitSet.html", [
       [ "BitSet", "../Csharp/classMR_1_1BitSet.html#a9be29d55f98f19cb86e1abb9971e06fa", null ],
       [ "BitSet", "../Csharp/classMR_1_1BitSet.html#a5ba9d128ac6042840fef3519c482f036", null ],
+      [ "BitSet", "../Csharp/classMR_1_1BitSet.html#a2bbbd944bbda7f12b4c057ef1a367180", null ],
+      [ "BitSet", "../Csharp/classMR_1_1BitSet.html#a2ad37fba8d5afd1f0d3c58022d14bbcd", null ],
       [ "BitSet", "../Csharp/classMR_1_1BitSet.html#a9b7871e0923af1b677c0dd90b573264f", null ],
       [ "assign", "../Csharp/classMR_1_1BitSet.html#aab5127868c081567af702f786893297c", null ],
       [ "autoResizeSet", "../Csharp/classMR_1_1BitSet.html#a21211d083a2e6eb1329b5414f84a7f62", null ],

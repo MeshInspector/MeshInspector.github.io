@@ -2,6 +2,8 @@ var classMR_1_1Const__TextMeshAlignParams =
 [
     [ "Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html#a3ea8b0c44217fe21239acaf6c9a65a6a", null ],
     [ "Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html#a6e5571b83ce9f4e19b693300e02cc335", null ],
+    [ "Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html#aed6241010dcf588262659d96d0e62746", null ],
+    [ "Const_TextMeshAlignParams", "classMR_1_1Const__TextMeshAlignParams.html#aa0c6d9ab3cfa36f05fc022bf6a796c04", null ],
     [ "Dispose", "classMR_1_1Const__TextMeshAlignParams.html#a4e3e0357f6e6c3c1c14ae64ca8d546d1", null ],
     [ "Dispose", "classMR_1_1Const__TextMeshAlignParams.html#a4c2ad7ca9647e554f5e25883d126065f", null ],
     [ "operator MR.Const_SymbolMeshParams", "classMR_1_1Const__TextMeshAlignParams.html#a91afc9d42796beb887f4bcadb55f1ed6", null ],

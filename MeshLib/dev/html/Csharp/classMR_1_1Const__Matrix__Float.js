@@ -2,6 +2,8 @@ var classMR_1_1Const__Matrix__Float =
 [
     [ "Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html#a62cdcccf4d7a5af756e72114e7b3bb3b", null ],
     [ "Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html#aa4a7616de2b1450c4d5ee8e31fbfcb51", null ],
+    [ "Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html#a5d24e9e3bcd85d51a7cf328108239fef", null ],
+    [ "Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html#a3a65548304eb077aadb9c759fa8d3bd6", null ],
     [ "Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html#a1be1b1c5c0c5ddc3ee0641366dd868a6", null ],
     [ "call", "classMR_1_1Const__Matrix__Float.html#a136dda684a1efb0311b2ac5a88467001", null ],
     [ "call", "classMR_1_1Const__Matrix__Float.html#afaf2d50c4863b07a1ad6f323369ab36b", null ],

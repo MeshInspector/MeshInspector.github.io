@@ -7,6 +7,8 @@ var classMR_1_1Const__MultiwayICPSamplingParameters =
     [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a663a6b2133aafd1b7ffdc4dc3a7b7e2e", null ],
     [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a794085d2fe807e9bff4810e7beb73896", null ],
     [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#aa228dcfefdd697669166380ac8218651", null ],
+    [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a91a3a21706f6e7d36877cae048cd57f4", null ],
+    [ "Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html#abd6bb3a3a49ec37e7785c1af7e964005", null ],
     [ "Dispose", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a78640ca54b81a371c007bf1e2f468b6b", null ],
     [ "Dispose", "classMR_1_1Const__MultiwayICPSamplingParameters.html#aa9c50fcbddd2a5f51a2f3dea175fa675", null ],
     [ "__ref_storage_cascadeMode", "classMR_1_1Const__MultiwayICPSamplingParameters.html#a7d6764a4baecb03ccd7fc48c3e3c2365", null ],

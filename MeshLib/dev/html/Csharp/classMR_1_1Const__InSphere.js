@@ -3,6 +3,7 @@ var classMR_1_1Const__InSphere =
     [ "Const_InSphere", "classMR_1_1Const__InSphere.html#a43e5504cd5c95d5bc72fdc81805fc471", null ],
     [ "Const_InSphere", "classMR_1_1Const__InSphere.html#ae5b8f0050a54dba3f5613914e382f61a", null ],
     [ "Const_InSphere", "classMR_1_1Const__InSphere.html#a83a777ae8cb12e4f02c2788081dfb19f", null ],
+    [ "Const_InSphere", "classMR_1_1Const__InSphere.html#ad0ae0af3e3c1ce79de13ebec57aed75e", null ],
     [ "Dispose", "classMR_1_1Const__InSphere.html#a45d80624d4536834a6241634b4cff36c", null ],
     [ "Dispose", "classMR_1_1Const__InSphere.html#aad8d1bfd27a1e0029a3a50b753921e89", null ],
     [ "__ref_storage_center", "classMR_1_1Const__InSphere.html#a056762ed9da8c2515f3649903d9cc72e", null ],

@@ -2,6 +2,8 @@ var classMR_1_1Const__Histogram =
 [
     [ "Const_Histogram", "classMR_1_1Const__Histogram.html#a6c633fdedbea206c676a0817ac914d05", null ],
     [ "Const_Histogram", "classMR_1_1Const__Histogram.html#a3bfc53761f1bb3c77deb3beca71a2836", null ],
+    [ "Const_Histogram", "classMR_1_1Const__Histogram.html#a29fe1d11ab3ce4b361e11f9d9037f934", null ],
+    [ "Const_Histogram", "classMR_1_1Const__Histogram.html#a8db32f527e807d9124b48c62b39ece8e", null ],
     [ "Const_Histogram", "classMR_1_1Const__Histogram.html#a12c49ea287fe46a41b14a81a9c6488ff", null ],
     [ "Dispose", "classMR_1_1Const__Histogram.html#a46fb5890cc948ab84ded04f7dfb1174b", null ],
     [ "Dispose", "classMR_1_1Const__Histogram.html#ab5fbbd57abd8d2bd4b42a4cd30d943a4", null ],

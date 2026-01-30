@@ -6,6 +6,8 @@ var classMR_1_1Const__ChangeObjectColorAction =
       [ "Back", "classMR_1_1Const__ChangeObjectColorAction.html#a025794d6068be9cbf39b0e8dcdfae991a0557fa923dcee4d0f86b1409f5c2167f", null ]
     ] ],
     [ "Const_ChangeObjectColorAction", "classMR_1_1Const__ChangeObjectColorAction.html#a808d64317887e54d87ebd45b4822c0db", null ],
+    [ "Const_ChangeObjectColorAction", "classMR_1_1Const__ChangeObjectColorAction.html#a20cf636b335df785d2c581cf7ff8c868", null ],
+    [ "Const_ChangeObjectColorAction", "classMR_1_1Const__ChangeObjectColorAction.html#a0bbf84f135136054ff29ef3a65005be9", null ],
     [ "Const_ChangeObjectColorAction", "classMR_1_1Const__ChangeObjectColorAction.html#a2912aa116ff338eb3f7d6c7ca6ca245c", null ],
     [ "Dispose", "classMR_1_1Const__ChangeObjectColorAction.html#ab7f349753955830cde6526b1582c243c", null ],
     [ "Dispose", "classMR_1_1Const__ChangeObjectColorAction.html#afd6156a826cdc4cb8aa8b0c700512315", null ],

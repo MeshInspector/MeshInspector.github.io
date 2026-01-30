@@ -2,6 +2,7 @@ var classMR_1_1Const__SliceInfo =
 [
     [ "Const_SliceInfo", "classMR_1_1Const__SliceInfo.html#afe7bf8f5471ef7094d35d1db66e481be", null ],
     [ "Const_SliceInfo", "classMR_1_1Const__SliceInfo.html#a21ef3adb2caec534b546cae9dbc9b083", null ],
+    [ "Const_SliceInfo", "classMR_1_1Const__SliceInfo.html#a9e717da767e870c6a31013f472caea86", null ],
     [ "Dispose", "classMR_1_1Const__SliceInfo.html#acd528555b96d7b7aeace8d04111a673b", null ],
     [ "Dispose", "classMR_1_1Const__SliceInfo.html#aa232945b6615f95879f95eae33dc5ea8", null ],
     [ "operator MR.Const_SliceInfoBase", "classMR_1_1Const__SliceInfo.html#a8d4074e1e4bc10755b94c7c4e02d2292", null ],

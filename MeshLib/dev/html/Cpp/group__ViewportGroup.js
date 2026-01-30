@@ -16,6 +16,7 @@ var group__ViewportGroup =
     [ "MR::ViewportMask", "../Csharp/classMR_1_1ViewportMask.html", [
       [ "ViewportMask", "../Csharp/classMR_1_1ViewportMask.html#a0016ae3bac1ac1004fbcf31642637a60", null ],
       [ "ViewportMask", "../Csharp/classMR_1_1ViewportMask.html#a15e5c4896c31c39af5061c4292b981a1", null ],
+      [ "ViewportMask", "../Csharp/classMR_1_1ViewportMask.html#ada23b6be8968c5fed6b04dde3f4855ef", null ],
       [ "ViewportMask", "../Csharp/classMR_1_1ViewportMask.html#a58b092078b78be99433094b369df701b", null ],
       [ "ViewportMask", "../Csharp/classMR_1_1ViewportMask.html#a7a9cfe26786e26cee1e7829839551106", null ],
       [ "assign", "../Csharp/classMR_1_1ViewportMask.html#a18b15efc49661a7695f5256730866f77", null ],
@@ -28,6 +29,7 @@ var group__ViewportGroup =
     [ "MR::ViewportIterator", "../Csharp/classMR_1_1ViewportIterator.html", [
       [ "ViewportIterator", "../Csharp/classMR_1_1ViewportIterator.html#aef20c1a107f776c77076d1e133d0b56d", null ],
       [ "ViewportIterator", "../Csharp/classMR_1_1ViewportIterator.html#a07fadea4fba171f2cd352efd17fe04b4", null ],
+      [ "ViewportIterator", "../Csharp/classMR_1_1ViewportIterator.html#aad4fe21ab7202b4449caf11316bfcc07", null ],
       [ "ViewportIterator", "../Csharp/classMR_1_1ViewportIterator.html#af25ce0deefa7a5583c2ed04f7103e65f", null ],
       [ "assign", "../Csharp/classMR_1_1ViewportIterator.html#af39795b924a7e86e6ab8484b9cee7a6d", null ],
       [ "incr", "../Csharp/classMR_1_1ViewportIterator.html#afa4c3d9c96dbb99350fb818b682a2aee", null ]

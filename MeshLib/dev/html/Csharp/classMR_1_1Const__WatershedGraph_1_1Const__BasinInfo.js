@@ -2,6 +2,7 @@ var classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo =
 [
     [ "Const_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#ad35ee3f91afc5139bde1976f1bae748e", null ],
     [ "Const_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a9152f59d361db4ee7e5d7a8510087cd5", null ],
+    [ "Const_BasinInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a875a848eb358cbebf9d33d8831ba0c79", null ],
     [ "amountTillOverflow", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a2689622805ca8dcc2518a10a06b5b895", null ],
     [ "approxLevel", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#aea6cbf2501cef79ae0f10a8bafdabe8f", null ],
     [ "Dispose", "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a99327c140c7b991d576b79d64bc52865", null ],

@@ -3,6 +3,7 @@ var classMR_1_1Const__Dipole =
     [ "Const_Dipole", "classMR_1_1Const__Dipole.html#a6e86942cd181f0a97cc4a28b54204846", null ],
     [ "Const_Dipole", "classMR_1_1Const__Dipole.html#ad56270822f1262f47b44a266f9b0bbbe", null ],
     [ "Const_Dipole", "classMR_1_1Const__Dipole.html#a56f6206e48e39077704e96fda91d5e0a", null ],
+    [ "Const_Dipole", "classMR_1_1Const__Dipole.html#a6796fed7e1913487d36fb8d6d0f62ac5", null ],
     [ "addIfGoodApprox", "classMR_1_1Const__Dipole.html#ae0eff312f837e5aa799155732b63aae5", null ],
     [ "Dispose", "classMR_1_1Const__Dipole.html#a6254aee6a32157e4ea6588a81f9ac2e6", null ],
     [ "Dispose", "classMR_1_1Const__Dipole.html#ab4932273f67b1be1501c6028b3899428", null ],

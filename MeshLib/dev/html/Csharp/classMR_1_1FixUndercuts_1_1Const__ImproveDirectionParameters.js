@@ -3,6 +3,7 @@ var classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters =
     [ "Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#a7f4204b253b33643f8301fee21332b36", null ],
     [ "Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#a786275415e981d7456ea16a0d2b7be43", null ],
     [ "Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#a1ac59db3bb89646871922bfe38262c67", null ],
+    [ "Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#acdaa2850000cbbbfbb03f8294232a852", null ],
     [ "Dispose", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#adfc84768f2a393b0c9c1604b0025dd23", null ],
     [ "Dispose", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#a91d48bfcedd288f8d49d92d508898be1", null ],
     [ "__ref_storage_baseAngleStep", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html#ad69e30cb1f800957b733a023ec2815d5", null ],

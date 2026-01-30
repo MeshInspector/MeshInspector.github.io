@@ -2,6 +2,8 @@ var classMR_1_1Polyline3 =
 [
     [ "Polyline3", "classMR_1_1Polyline3.html#a15605454ee5f5db6ad8b3e148df56358", null ],
     [ "Polyline3", "classMR_1_1Polyline3.html#aef626367c2aae8cec638b6dc4e8da788", null ],
+    [ "Polyline3", "classMR_1_1Polyline3.html#a35aba6fbcdbad29820f57a2c89938af3", null ],
+    [ "Polyline3", "classMR_1_1Polyline3.html#ae8f835250006de376db81f4d1cb657cc", null ],
     [ "Polyline3", "classMR_1_1Polyline3.html#af8f1a6b433f91f81b3cbfcba24c0b3aa", null ],
     [ "Polyline3", "classMR_1_1Polyline3.html#ab9dee7c0b44ee980e07fe8ce2da4874e", null ],
     [ "Polyline3", "classMR_1_1Polyline3.html#a37ae7c53db9ae9fc388fe74e0224b2b5", null ],

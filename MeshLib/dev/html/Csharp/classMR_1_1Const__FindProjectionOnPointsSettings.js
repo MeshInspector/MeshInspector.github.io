@@ -3,6 +3,8 @@ var classMR_1_1Const__FindProjectionOnPointsSettings =
     [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#a6f5ef1af6b1ad1d8871d165f36c1a2c0", null ],
     [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#a957e8e8fe939e0d0e419f3521605346c", null ],
     [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#aaeb4a0f612f71ddd244a2fe396bb493c", null ],
+    [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#ac97e338584e10277b50eaaf3a7f0bb68", null ],
+    [ "Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html#afbf445411a620cdfef7b9fdaa05b4d45", null ],
     [ "Dispose", "classMR_1_1Const__FindProjectionOnPointsSettings.html#aff776183d72b9d88c68e19503d882a86", null ],
     [ "Dispose", "classMR_1_1Const__FindProjectionOnPointsSettings.html#ab0d7556798254fa93d00bdf56ea385d0", null ],
     [ "__ptr_storage_valid", "classMR_1_1Const__FindProjectionOnPointsSettings.html#aeb74fc30b895fa54ffb113570a375264", null ],

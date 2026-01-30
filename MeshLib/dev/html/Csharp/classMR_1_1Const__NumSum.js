@@ -3,6 +3,7 @@ var classMR_1_1Const__NumSum =
     [ "Const_NumSum", "classMR_1_1Const__NumSum.html#ad2cccf0f6ff41998116973ddcfc76696", null ],
     [ "Const_NumSum", "classMR_1_1Const__NumSum.html#a8666a434e2e2a9111ac0b7a455930078", null ],
     [ "Const_NumSum", "classMR_1_1Const__NumSum.html#a97317e7a9d3edf9dccb8dff60ea37efb", null ],
+    [ "Const_NumSum", "classMR_1_1Const__NumSum.html#a7cab98a3232af92f3e8c9f276e02f179", null ],
     [ "Dispose", "classMR_1_1Const__NumSum.html#a19e9b63b127774f50a8df3e022c689e0", null ],
     [ "Dispose", "classMR_1_1Const__NumSum.html#a2a11cfb5fd948c9ba68932e768f2cc1c", null ],
     [ "operator+", "classMR_1_1Const__NumSum.html#a2ed72b127d76ed4fc03ffd96bf771c44", null ],

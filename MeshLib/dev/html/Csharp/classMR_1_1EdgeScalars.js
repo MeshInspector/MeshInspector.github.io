@@ -2,6 +2,8 @@ var classMR_1_1EdgeScalars =
 [
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658", null ],
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#aafcf8c45acbd2eee3dd76a5ea8ea2276", null ],
+    [ "EdgeScalars", "classMR_1_1EdgeScalars.html#a368678fe1ad71c11803dc769ff3cd4fe", null ],
+    [ "EdgeScalars", "classMR_1_1EdgeScalars.html#a424fde3b08c314aef2cfde4888699873", null ],
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#a6aad644e58c2184f5db6a5983605ba4e", null ],
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#aa2ea179acade981aa7c71fe46b20a7bf", null ],
     [ "EdgeScalars", "classMR_1_1EdgeScalars.html#ac09e1b97fae02e76bdb04f63810bc637", null ],

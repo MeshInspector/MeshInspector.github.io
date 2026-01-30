@@ -2,6 +2,8 @@ var classMR_1_1Const__EdgeBitSet =
 [
     [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#a88e5bdf8604316b99172892a7996bc2e", null ],
     [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#a59208bcc95f98ec132c4c57c90b15e14", null ],
+    [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#a122e8db9b64b5ace94249f2426b1a747", null ],
+    [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#acc596364fbe21c2c7d735d9d526e7836", null ],
     [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#a811dae8404c29f0d5426d80bab699fdc", null ],
     [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#a2c284786ef8adec0283f2f92209c82d6", null ],
     [ "Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html#a4111016874fc3f86f6ec66044068b306", null ],

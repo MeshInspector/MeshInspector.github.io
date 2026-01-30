@@ -3,6 +3,8 @@ var classMR_1_1Const__PositionVertsSmoothlyParams =
     [ "Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html#a3cc4894914ceee33ac30d9e792ea3478", null ],
     [ "Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html#a13fd28a5f67bcb758ee39b65d1d4bc1b", null ],
     [ "Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html#ac427a864023a05444549f140ed757228", null ],
+    [ "Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html#a642550491ec437b6c1e5c2cd3b4d4d94", null ],
+    [ "Const_PositionVertsSmoothlyParams", "classMR_1_1Const__PositionVertsSmoothlyParams.html#a98d56a9bdf341ea21c3a568ad38c545f", null ],
     [ "Dispose", "classMR_1_1Const__PositionVertsSmoothlyParams.html#aeb7fe49f187dc122e15b1f2ae52015df", null ],
     [ "Dispose", "classMR_1_1Const__PositionVertsSmoothlyParams.html#a9690d2890cd910b049cfb673d8384ad4", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__PositionVertsSmoothlyParams.html#a257802ce3e89a8c84940bcd785004c29", null ],

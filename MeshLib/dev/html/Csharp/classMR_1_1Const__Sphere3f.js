@@ -2,6 +2,7 @@ var classMR_1_1Const__Sphere3f =
 [
     [ "Const_Sphere3f", "classMR_1_1Const__Sphere3f.html#a41703ba3059974a9b9dcea2e8dd73222", null ],
     [ "Const_Sphere3f", "classMR_1_1Const__Sphere3f.html#a98a37c30a9c1d74e3685fd73180e7aca", null ],
+    [ "Const_Sphere3f", "classMR_1_1Const__Sphere3f.html#a273f5fdfbade42ca9b80439af2210769", null ],
     [ "Const_Sphere3f", "classMR_1_1Const__Sphere3f.html#a68ac1baff8822771de74e7282f9a66f3", null ],
     [ "Dispose", "classMR_1_1Const__Sphere3f.html#a5c72ad0cb0e17605eb672dc9992e203c", null ],
     [ "Dispose", "classMR_1_1Const__Sphere3f.html#a65c315b0e3c0ffd5bc8b39af773ca7e4", null ],

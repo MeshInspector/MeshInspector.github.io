@@ -3,6 +3,8 @@ var group__PointCloudGroup =
     [ "MR::PointCloud", "../Csharp/classMR_1_1PointCloud.html", [
       [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#a4d782ee2ce58df0cb8f8e1304482f12c", null ],
       [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#abbebb117a9a8e2c986d53ff756cbd476", null ],
+      [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#a6c04d2648e8e4b6dde581ceeb93ed85e", null ],
+      [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#a2378eb7d472fa285de26c116100827e7", null ],
       [ "addPartByMask", "../Csharp/classMR_1_1PointCloud.html#a022f9171b642872585c29444895003f0", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a11a8de8c87003c23bb7c4fa80facf8d6", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a5e88af4b4426f9a92fc67cfb4b6e2af4", null ],
@@ -20,6 +22,7 @@ var group__PointCloudGroup =
     [ "MR::PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html", [
       [ "PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a54b485c440d7a4e469fd1571a87c2887", null ],
       [ "PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html#acf9e19c184e1945431b1dd53698d2cef", null ],
+      [ "PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a99d01b3ce3289da9687aade8fd9de79e", null ],
       [ "assign", "../Csharp/classMR_1_1PointCloudRelaxParams.html#afe57278cc0172ca02f827dbca0603476", null ],
       [ "force", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a996549583f62dc448d5e758adbdc2afe", null ],
       [ "iterations", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a70c3d79d96848834ba724591c0b65fc5", null ],
@@ -31,6 +34,7 @@ var group__PointCloudGroup =
     [ "MR::PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html", [
       [ "PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a339a0669c843a5366cc7a06afd55eaca", null ],
       [ "PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#ae850ca670b2e026dcc7dddb01852d070", null ],
+      [ "PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a5ccdbcc01144fc8e4742f3fad2566802", null ],
       [ "assign", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a938d917fb6e74c12b252eec61aefc5e9", null ],
       [ "force", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#af7c5b151cd681efb052eddb4e6e35584", null ],
       [ "iterations", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#ab630953d03bfb929d16344bb18fa3129", null ],
@@ -43,6 +47,8 @@ var group__PointCloudGroup =
     [ "MR::RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html", [
       [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#ab620c4934731dccd4bdee16ff007aca0", null ],
       [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#adb23c6068fce1fd48aa72d3f572758f8", null ],
+      [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#ade81f5e74f7af98ac60e83b11ef6da38", null ],
+      [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#a6b9b1a239520752175ea710c5f3585b3", null ],
       [ "assign", "../Csharp/classMR_1_1RegularMapMesher.html#a912a44af7d29290ff78d4b9dda1167f1", null ],
       [ "loadDistances", "../Csharp/classMR_1_1RegularMapMesher.html#ac5d4f2f720bd58de6174b98fc233a5aa", null ],
       [ "setDirectionsPC", "../Csharp/classMR_1_1RegularMapMesher.html#a2e612b2b042306bfeba0e406f88da1b5", null ],

@@ -2,6 +2,7 @@ var classMR_1_1Const__FanRecordWithCenter =
 [
     [ "Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html#a6feb693c721e07b3d3cf44ef98af47f6", null ],
     [ "Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html#acc700bac21a214258e8085072288e37b", null ],
+    [ "Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html#a592fa62553e25937f96cbf8dd451181d", null ],
     [ "Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html#ae0e84866785146f1dfab38328276f2b7", null ],
     [ "Dispose", "classMR_1_1Const__FanRecordWithCenter.html#ae5b65c5d40d5f8e8d80f0bc7b545297c", null ],
     [ "Dispose", "classMR_1_1Const__FanRecordWithCenter.html#a0a75a64de50074cf38f815f1d3c4eef9", null ],

@@ -2,6 +2,7 @@ var classMR_1_1SliceInfo =
 [
     [ "SliceInfo", "../Csharp/classMR_1_1SliceInfo.html#af1fa8fddec775cd2362f33f4f589e08d", null ],
     [ "SliceInfo", "../Csharp/classMR_1_1SliceInfo.html#a3dbab359dae4776982d459ed7e16f717", null ],
+    [ "SliceInfo", "../Csharp/classMR_1_1SliceInfo.html#aeecf757557c921f0a6dfadb670f73a3a", null ],
     [ "assign", "../Csharp/classMR_1_1SliceInfo.html#a9e04082cfceb469a794d842bf7de37da", null ],
     [ "fileNum", "../Csharp/classMR_1_1SliceInfo.html#a3cdf13d075d4560705f53bd5f43f9770", null ],
     [ "imagePos", "../Csharp/classMR_1_1SliceInfo.html#a33fed4365f52d8fc4cf8b6d8791bcc45", null ],

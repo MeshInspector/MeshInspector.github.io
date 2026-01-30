@@ -2,6 +2,8 @@ var classMR_1_1Const__PointsToDistanceVolumeParams =
 [
     [ "Const_PointsToDistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html#a0798011f09c9c37531e1e92a64ba0f5c", null ],
     [ "Const_PointsToDistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html#a88813a920eeea25c114fdfdb1b982261", null ],
+    [ "Const_PointsToDistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html#a5536209641c6875b4f851265c92be299", null ],
+    [ "Const_PointsToDistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html#a9601411b3db38a0f8c8ad16ba93c399e", null ],
     [ "Dispose", "classMR_1_1Const__PointsToDistanceVolumeParams.html#a4f6eb6bc9c7fbbf94ef70057c2ec82bc", null ],
     [ "Dispose", "classMR_1_1Const__PointsToDistanceVolumeParams.html#adec32a030f89654e8ad4c9ad063c1564", null ],
     [ "operator MR.Const_DistanceVolumeParams", "classMR_1_1Const__PointsToDistanceVolumeParams.html#a8be7ce126eee649dc0c0f6e7ff8e4d9b", null ],

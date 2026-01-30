@@ -3,6 +3,8 @@ var classMR_1_1Const__SpacingSettings =
     [ "Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html#a23eb378aa3317934ea062bd244e69bed", null ],
     [ "Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html#aec89070662ba2bb51580213654937b21", null ],
     [ "Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html#a4e3dcf73cb6f345f37ce0e7560f9fa48", null ],
+    [ "Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html#a419cb3991b6e9f2f4183fc6807b62e1a", null ],
+    [ "Const_SpacingSettings", "classMR_1_1Const__SpacingSettings.html#a16175a022cbfa26d0df75577811407a0", null ],
     [ "Dispose", "classMR_1_1Const__SpacingSettings.html#a68f190c2259976b9b1923b812daab07f", null ],
     [ "Dispose", "classMR_1_1Const__SpacingSettings.html#a85bcb9272d17825de3375e846b556eb9", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__SpacingSettings.html#a271e1d5779128c536772d2bd32228671", null ],

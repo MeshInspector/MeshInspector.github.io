@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeSurfaceAction =
 [
     [ "Const_ChangeSurfaceAction", "classMR_1_1Const__ChangeSurfaceAction.html#a23bf2adbc2a338c9b1f31e056ce6883d", null ],
+    [ "Const_ChangeSurfaceAction", "classMR_1_1Const__ChangeSurfaceAction.html#a4b265c56c3ff6f5d282e59aa0c2aaed1", null ],
+    [ "Const_ChangeSurfaceAction", "classMR_1_1Const__ChangeSurfaceAction.html#af52b32d03552f92925b407cb5aa717b6", null ],
     [ "Const_ChangeSurfaceAction", "classMR_1_1Const__ChangeSurfaceAction.html#a1dfe42771c103fba141bd7ce86969cdb", null ],
     [ "Dispose", "classMR_1_1Const__ChangeSurfaceAction.html#ac3819fab4550eb0cd17cbd49d158f1e7", null ],
     [ "Dispose", "classMR_1_1Const__ChangeSurfaceAction.html#aa70af8f59b4c973bf572024a896035ee", null ],

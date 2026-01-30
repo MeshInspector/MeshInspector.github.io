@@ -5,6 +5,8 @@ var classMR_1_1GcodeProcessor =
     [ "MoveAction", "structMR_1_1GcodeProcessor_1_1MoveAction.html", "structMR_1_1GcodeProcessor_1_1MoveAction" ],
     [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#a7cea7464f75a10c5ad7574323d255f27", null ],
     [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#a6205fb03c66cae8029ba225847086740", null ],
+    [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#aa43ad6e1996958dc51c4ac7238801c02", null ],
+    [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#a1981fb0d38c61b0cfe5f932acb337d68", null ],
     [ "assign", "../Csharp/classMR_1_1GcodeProcessor.html#a028b26e379c9ac9ec8a8469fe1376c18", null ],
     [ "getCNCMachineSettings", "../Csharp/classMR_1_1GcodeProcessor.html#ab1974efa77013a98d129e57c13b173e7", null ],
     [ "processLine", "../Csharp/classMR_1_1GcodeProcessor.html#a10e195dabf46d85414f3d33a55f4f3cd", null ],

@@ -2,6 +2,8 @@ var classMR_1_1ConstantCuspParams =
 [
     [ "ConstantCuspParams", "../Csharp/classMR_1_1ConstantCuspParams.html#aea26bf9d790abeb8ab28325081fd6afc", null ],
     [ "ConstantCuspParams", "../Csharp/classMR_1_1ConstantCuspParams.html#aa4586f1c5068c22ba07fea62ae8dcc47", null ],
+    [ "ConstantCuspParams", "../Csharp/classMR_1_1ConstantCuspParams.html#a87d569ac97fdd15cde64c4eaf680f892", null ],
+    [ "ConstantCuspParams", "../Csharp/classMR_1_1ConstantCuspParams.html#aefe5cf2d46c2272574764115f157c941", null ],
     [ "assign", "../Csharp/classMR_1_1ConstantCuspParams.html#acfe4dcb772aad7942ba357fb9302b8b0", null ],
     [ "baseFeed", "../Csharp/classMR_1_1ConstantCuspParams.html#a49149680f75c85e851510c4447b43dfe", null ],
     [ "bypassDir", "../Csharp/classMR_1_1ConstantCuspParams.html#a28397b7bf0c6302bd83d093a2c3dbb54", null ],

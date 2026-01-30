@@ -8,6 +8,8 @@ var classMR_1_1Const__MarchingCubesParams =
     [ "Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html#a9933bfba6afdf8eaf0396a54131f11f5", null ],
     [ "Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html#abac960192d6581137d6a35719140c5ae", null ],
     [ "Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html#a791af42d7ad5fab2a32cf0cf5ee07150", null ],
+    [ "Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html#a204135d17770764136f2049203dacc99", null ],
+    [ "Const_MarchingCubesParams", "classMR_1_1Const__MarchingCubesParams.html#a7ae5a6b7357695f6f729d1f3d5b0d195", null ],
     [ "Dispose", "classMR_1_1Const__MarchingCubesParams.html#a32da0b05b44e0da4ad1f1708d819159f", null ],
     [ "Dispose", "classMR_1_1Const__MarchingCubesParams.html#ae7c40add86682c14406cde7e417f3284", null ],
     [ "__ptr_storage_outVoxelPerFaceMap", "classMR_1_1Const__MarchingCubesParams.html#aaefc3a3d2038890ace8e09c6e8facb4c", null ],

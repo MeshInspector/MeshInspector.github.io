@@ -2,6 +2,7 @@ var classMR_1_1Const__CubicBezierCurve2f =
 [
     [ "Const_CubicBezierCurve2f", "classMR_1_1Const__CubicBezierCurve2f.html#a4551eaae9eb6a9a2a5b3767766a1cda5", null ],
     [ "Const_CubicBezierCurve2f", "classMR_1_1Const__CubicBezierCurve2f.html#a3d73c8af6eb98618dc03fdb345d56583", null ],
+    [ "Const_CubicBezierCurve2f", "classMR_1_1Const__CubicBezierCurve2f.html#a57bd70e22cb53839e9b9611b775a8b64", null ],
     [ "Dispose", "classMR_1_1Const__CubicBezierCurve2f.html#aa063d71bba65d04e74e6f8b92a8bc14c", null ],
     [ "Dispose", "classMR_1_1Const__CubicBezierCurve2f.html#a761d038e51caa574307e51967f781e33", null ],
     [ "getPoint", "classMR_1_1Const__CubicBezierCurve2f.html#af6645e86d0998bd33e10ffbae9894ed5", null ],

@@ -3,6 +3,7 @@ var classMR_1_1Const__CurvePoint =
     [ "Const_CurvePoint", "classMR_1_1Const__CurvePoint.html#ad201d9879d6f4dd1ab48fee81e2de52a", null ],
     [ "Const_CurvePoint", "classMR_1_1Const__CurvePoint.html#aa66078cd0790c74bd958f24d936af046", null ],
     [ "Const_CurvePoint", "classMR_1_1Const__CurvePoint.html#a90000edcdf66d2366f6837f920ebc67a", null ],
+    [ "Const_CurvePoint", "classMR_1_1Const__CurvePoint.html#a487848ab31ce153ace79e16c38170423", null ],
     [ "Dispose", "classMR_1_1Const__CurvePoint.html#ae1c6d5f187329de0aa362bc0cec17731", null ],
     [ "Dispose", "classMR_1_1Const__CurvePoint.html#a21b2413a5298acae47ac8d94339e5693", null ],
     [ "__ref_storage_dir", "classMR_1_1Const__CurvePoint.html#ae974b86ef2b857a7ba70245b085c1345", null ],

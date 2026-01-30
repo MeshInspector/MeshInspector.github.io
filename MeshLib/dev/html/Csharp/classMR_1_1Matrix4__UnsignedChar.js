@@ -2,6 +2,7 @@ var classMR_1_1Matrix4__UnsignedChar =
 [
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#a8cfe49a4b6a7180c72931f96f56bc39a", null ],
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#aae3886aa14a9963ccf149e55cf8c3385", null ],
+    [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#a1c33af58725d0882f14c4d048bf8cf2a", null ],
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#a7dd9db425e2f3854fcc7227c8adef470", null ],
     [ "Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html#acfc0ae987818f071fbcf3072b3c85495", null ],
     [ "addAssign", "classMR_1_1Matrix4__UnsignedChar.html#ad781f2515915d6b971cff2b0c1e651c6", null ],

@@ -3,6 +3,8 @@ var classMR_1_1Const__ImproveSamplingSettings =
     [ "Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html#a38141b4ff7b6eac58b1a7dce9af615ca", null ],
     [ "Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html#a89bb7db1478fcdbaf680d88b95af03c0", null ],
     [ "Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html#a7466763b29259233f5f62e2b6629512b", null ],
+    [ "Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html#a830d5795104bbc9531e1ac72cc1de404", null ],
+    [ "Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html#a59ff9ded7ba43b6322b98147b4687137", null ],
     [ "Dispose", "classMR_1_1Const__ImproveSamplingSettings.html#a10cbf7084cdc8264b6ac338cf5e79529", null ],
     [ "Dispose", "classMR_1_1Const__ImproveSamplingSettings.html#af3af2ffd64d2449c2a29af160d1f1486", null ],
     [ "__ptr_storage_cloudOfSamples", "classMR_1_1Const__ImproveSamplingSettings.html#a58724c74cb1129156b0a31c4bba90f95", null ],

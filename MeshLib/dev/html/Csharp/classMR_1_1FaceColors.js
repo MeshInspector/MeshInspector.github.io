@@ -2,6 +2,8 @@ var classMR_1_1FaceColors =
 [
     [ "FaceColors", "classMR_1_1FaceColors.html#aa54c3f2c753553b4479b578ffb17f52c", null ],
     [ "FaceColors", "classMR_1_1FaceColors.html#a7f6381942df6282e306de72592e0be31", null ],
+    [ "FaceColors", "classMR_1_1FaceColors.html#a2810c15f4f0b62ed4e561b6dff7910e8", null ],
+    [ "FaceColors", "classMR_1_1FaceColors.html#a35cf9e13b6270c8bb2a5ebfdb75d08a6", null ],
     [ "FaceColors", "classMR_1_1FaceColors.html#afb44db1600cd7f6ac6d9bf9724baa8a0", null ],
     [ "FaceColors", "classMR_1_1FaceColors.html#aca8c3f2ddca4d943eec4f511b1fb73d9", null ],
     [ "FaceColors", "classMR_1_1FaceColors.html#a5c5bc807f0e446ee38d393100a7c8ad4", null ],

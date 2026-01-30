@@ -2,6 +2,7 @@ var classMR_1_1Const__Box__UnsignedShort =
 [
     [ "Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html#a50bc803596bd8d224a37935c297879f0", null ],
     [ "Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html#ac99bd323030fa480203c0345a4b946aa", null ],
+    [ "Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html#a9fd9e3d7c5d83a80b307aff32dded391", null ],
     [ "Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html#a72b4d2bee2a2d18ce1344cc7315ff280", null ],
     [ "Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html#afc7e5ae90d8ef8878738b72e7453d8db", null ],
     [ "center", "classMR_1_1Const__Box__UnsignedShort.html#ad715ebcd56a7a5161f446a6d93a1ce07", null ],

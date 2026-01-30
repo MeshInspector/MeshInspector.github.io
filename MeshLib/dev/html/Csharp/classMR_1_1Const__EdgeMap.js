@@ -2,6 +2,8 @@ var classMR_1_1Const__EdgeMap =
 [
     [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#a675b24377cf5f93797193390052423f6", null ],
     [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#aaf19c14e5b626bee50b5458a08383327", null ],
+    [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#a3acd27ba35c1a652aff1e4194f27049b", null ],
+    [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#a164fe5ae02065bfa72dac83e3d9e6741", null ],
     [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#a1e0b5e809e544dca52ca202853b05449", null ],
     [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#a77676dabdd07e5d30b0b2746c9ebc5c8", null ],
     [ "Const_EdgeMap", "classMR_1_1Const__EdgeMap.html#a5bb1d87dc45ce96d3d08c7d77b3ab7e1", null ],

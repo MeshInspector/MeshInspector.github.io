@@ -2,6 +2,7 @@ var classMR_1_1Const__Plane3f =
 [
     [ "Const_Plane3f", "classMR_1_1Const__Plane3f.html#a4d9ac7d34b1bb83a124198f081368a68", null ],
     [ "Const_Plane3f", "classMR_1_1Const__Plane3f.html#a875790ad650c7a35e35cec22aaeb88e9", null ],
+    [ "Const_Plane3f", "classMR_1_1Const__Plane3f.html#a80a1d5ab2e7b19906e2be51ffd5486ce", null ],
     [ "Const_Plane3f", "classMR_1_1Const__Plane3f.html#a0e6d421251ab69f6b98cf5025c899e1a", null ],
     [ "Const_Plane3f", "classMR_1_1Const__Plane3f.html#ad386ba366d555812580a4fb00a3bc013", null ],
     [ "Dispose", "classMR_1_1Const__Plane3f.html#a9d03a18e6f869dbbdf277380c741000c", null ],

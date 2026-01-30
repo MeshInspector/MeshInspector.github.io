@@ -3,6 +3,8 @@ var group__DistanceMapGroup =
     [ "MR::DistanceMap", "../Csharp/classMR_1_1DistanceMap.html", [
       [ "DistanceMap", "../Csharp/classMR_1_1DistanceMap.html#af82b21b9e40c4c5fe6a68bca4407d76e", null ],
       [ "DistanceMap", "../Csharp/classMR_1_1DistanceMap.html#a083e273279e285524821ba71e09de012", null ],
+      [ "DistanceMap", "../Csharp/classMR_1_1DistanceMap.html#a7d98a4e56f882f9a8c37260c2a5a3a62", null ],
+      [ "DistanceMap", "../Csharp/classMR_1_1DistanceMap.html#ab14f86c9b3b9d415144b16d622bb7ada", null ],
       [ "DistanceMap", "../Csharp/classMR_1_1DistanceMap.html#a818f6daa8f1f44a01eed795af1148547", null ],
       [ "DistanceMap", "../Csharp/classMR_1_1DistanceMap.html#ac2af1c0086a2c8135c3b76c4a74abdf4", null ],
       [ "assign", "../Csharp/classMR_1_1DistanceMap.html#af8b63e1355a396b9d9b39f7f722363a5", null ],
@@ -24,6 +26,7 @@ var group__DistanceMapGroup =
     ] ],
     [ "MR::ContoursDistanceMapOffset", "../Csharp/classMR_1_1ContoursDistanceMapOffset.html", [
       [ "ContoursDistanceMapOffset", "../Csharp/classMR_1_1ContoursDistanceMapOffset.html#afc6849d78aeb8451349d0f3773a6ceaa", null ],
+      [ "ContoursDistanceMapOffset", "../Csharp/classMR_1_1ContoursDistanceMapOffset.html#acf5624d7c8f1ce8249a4dc371bd56aac", null ],
       [ "ContoursDistanceMapOffset", "../Csharp/classMR_1_1ContoursDistanceMapOffset.html#ab887015f04908c1af36de6cf8d0d535e", null ],
       [ "type", "../Csharp/classMR_1_1ContoursDistanceMapOffset.html#a62849ddcd287448ec0487aa0fa633106", null ]
     ] ],
@@ -31,6 +34,7 @@ var group__DistanceMapGroup =
       [ "ContoursDistanceMapOptions", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#af42db461c4fd4174d62cfe5a4787444c", null ],
       [ "ContoursDistanceMapOptions", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#a46b27893e644fa77d30a93d08dc5d9c9", null ],
       [ "ContoursDistanceMapOptions", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#af1d2dbdb1c301d14976127663503624f", null ],
+      [ "ContoursDistanceMapOptions", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#ac9aac37a098984a0a62ee867c7826ba3", null ],
       [ "assign", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#ab64288b2a90187e2b08835b93334e280", null ],
       [ "maxDist", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#a785961a92e79e3c451e60768fa24c1e6", null ],
       [ "minDist", "../Csharp/classMR_1_1ContoursDistanceMapOptions.html#af7e6825439852f3f7847ee0c5b9e74ff", null ],
@@ -42,6 +46,7 @@ var group__DistanceMapGroup =
     [ "MR::MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html", [
       [ "MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html#af0aaf53cecbd8b3866f1cfbafd27e379", null ],
       [ "MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html#a88d277d5fb1ffa643ac5182abec90a74", null ],
+      [ "MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html#abca3f546fc7c21b946acd4ec8dea92bf", null ],
       [ "MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html#a8b068e94c8ff63f84e658b1bc212991f", null ],
       [ "MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html#a6a0fe096cff44c78650c402253e142ad", null ],
       [ "MeshToDistanceMapParams", "../Csharp/classMR_1_1MeshToDistanceMapParams.html#a82b0997d8439e599e07043c0f88c5a55", null ],
@@ -64,6 +69,7 @@ var group__DistanceMapGroup =
     [ "MR::ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html", [
       [ "ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html#a6d4e4a4ddb48b883d15834467094dcf9", null ],
       [ "ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html#ae0869518ff159f541807e9f129be41cd", null ],
+      [ "ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html#a5eb3471a6b3af5b12f185217fa0489d7", null ],
       [ "ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html#a18df9060bfa264f6f97379b577ead814", null ],
       [ "ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html#af4bb6dfb76aab7498dfbd3fc7fdf7b63", null ],
       [ "ContourToDistanceMapParams", "../Csharp/classMR_1_1ContourToDistanceMapParams.html#a4ddfbc5d17e30d59bf1d5f0b71e9a267", null ],
@@ -78,6 +84,7 @@ var group__DistanceMapGroup =
     [ "MR::DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html", [
       [ "DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html#adf79ddae6bfde2f4c815b2dcabb7760d", null ],
       [ "DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html#a33fdd1e343b40d882e13bb29fba77111", null ],
+      [ "DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html#ab6acb651987dc943e668beddb62f3178", null ],
       [ "DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html#a72e88e17f64ad791e8094559f2cc3ee3", null ],
       [ "DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html#a2460b9ac7406e4bfe47f7297065dcf27", null ],
       [ "DistanceMapToWorld", "../Csharp/classMR_1_1DistanceMapToWorld.html#a33a09f7b1cbf03e01de0d67bdcc9ee0c", null ],
@@ -91,6 +98,8 @@ var group__DistanceMapGroup =
       [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a662fda52cacab21f277647212a1e69a8", null ],
       [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a099b5439dc28727a75aa1543275f4ba3", null ],
       [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a02dda1fdf844fadaea0ea737a3ea97b0", null ],
+      [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#ac3a3475c13d56c84d0de716ecedae55b", null ],
+      [ "DistanceMapLoadSettings", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a56684daf977dd1a85c7c46acffa7b3d2", null ],
       [ "assign", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#afb85e50d2e5a9883a7fb31329397dd27", null ],
       [ "distanceMapToWorld", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#ab67dafb04467db1c9aa9fa909f838080", null ],
       [ "progress", "../Csharp/classMR_1_1DistanceMapLoadSettings.html#a5a9d7bf6b4e30b3287b6b2d9fc03e222", null ]
@@ -99,6 +108,8 @@ var group__DistanceMapGroup =
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#ac7ba069e335f2dea6644a77d5df2c0ca", null ],
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a2c2015d2958818e4fbbb13d56e13013e", null ],
       [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a7cd2881005d6a5361cc257aafb7eb152", null ],
+      [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#acafedddb8b7587777078c61fcda72583", null ],
+      [ "DistanceMapSaveSettings", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a2f4f9fdb8967a93301a279f1c3e70bf1", null ],
       [ "assign", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a7fc380a1bb5b0bb90bcf30e9a81c4dcc", null ],
       [ "progress", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#aac7a79a4c9c7dc392e7a7da80b3f2379", null ],
       [ "xf", "../Csharp/classMR_1_1DistanceMapSaveSettings.html#a66e2579c66d13bbf394a0d66a8cc5ecb", null ]
@@ -106,6 +117,7 @@ var group__DistanceMapGroup =
     [ "MR::RectIndexer", "../Csharp/classMR_1_1RectIndexer.html", [
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#aaade34a3fb7a2c857f510fe790b579ba", null ],
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#acf8fa4cfb8a7330e6a5182113284bfd3", null ],
+      [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#a9a8fe9fd16fe2a6b5f7a5db41227ff47", null ],
       [ "RectIndexer", "../Csharp/classMR_1_1RectIndexer.html#a59ae113b31f2a918e5c85bdcf9593efc", null ],
       [ "RectIndexer", "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d", null ],
       [ "assign", "../Csharp/classMR_1_1RectIndexer.html#a320c5f45653d5d1ebff32d13ca5db2db", null ],

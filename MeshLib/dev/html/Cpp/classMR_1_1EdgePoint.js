@@ -2,6 +2,7 @@ var classMR_1_1EdgePoint =
 [
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a90f457fffa0b69bbeae7421a033f2bbe", null ],
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a96e9be0dff1114a261f086d6084a9fc4", null ],
+    [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a1f38aea768184180ab42febf18549ed2", null ],
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a516ef5f472c5216f0048787ae3a4e1e3", null ],
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a5f7172d14fff7bb8cbd1b092576bf405", null ],
     [ "EdgePoint", "../Csharp/classMR_1_1EdgePoint.html#a95e3ddd0151cac739884a28894cd425d", null ],

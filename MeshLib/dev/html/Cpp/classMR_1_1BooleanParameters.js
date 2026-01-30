@@ -3,6 +3,8 @@ var classMR_1_1BooleanParameters =
     [ "BooleanParameters", "../Csharp/classMR_1_1BooleanParameters.html#abf3789d887f8bff27ed3d65be8b2f7d6", null ],
     [ "BooleanParameters", "../Csharp/classMR_1_1BooleanParameters.html#a3fa28dddefb945bc5b6803d4c77febf9", null ],
     [ "BooleanParameters", "../Csharp/classMR_1_1BooleanParameters.html#a607c522b1dca425875024d2562aaa023", null ],
+    [ "BooleanParameters", "../Csharp/classMR_1_1BooleanParameters.html#aa575bb722008b6b8734d6f5dff719a32", null ],
+    [ "BooleanParameters", "../Csharp/classMR_1_1BooleanParameters.html#a30a38c2c80f6057fa5c047c264da2651", null ],
     [ "assign", "../Csharp/classMR_1_1BooleanParameters.html#ad5e497e4879c97fd381f589e89690655", null ],
     [ "cb", "../Csharp/classMR_1_1BooleanParameters.html#a6578fa036306b2b7c5fc4c81d485e365", null ],
     [ "forceCut", "../Csharp/classMR_1_1BooleanParameters.html#a225aab981cc3810283cd4a45f67ce333", null ],

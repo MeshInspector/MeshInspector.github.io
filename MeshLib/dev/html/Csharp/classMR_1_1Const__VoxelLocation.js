@@ -3,6 +3,7 @@ var classMR_1_1Const__VoxelLocation =
     [ "Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html#abeb1d847309d11f30594accb8ba162db", null ],
     [ "Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html#a87886d46c450fd7d134ef0d19678eab4", null ],
     [ "Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html#a84b864e7d16530bb27e4508d4f1e3387", null ],
+    [ "Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html#ac6a387596376cff4070d1cb82e74099e", null ],
     [ "Dispose", "classMR_1_1Const__VoxelLocation.html#ab43d3bde574cd965d30114b48dc0830f", null ],
     [ "Dispose", "classMR_1_1Const__VoxelLocation.html#a355423683c831f0714ab8266e281ea7c", null ],
     [ "operator bool", "classMR_1_1Const__VoxelLocation.html#a369df2293583c21022e71fa130c556d0", null ],

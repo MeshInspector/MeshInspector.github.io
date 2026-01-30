@@ -1,6 +1,8 @@
 var classMR_1_1Const__EdgePathsAStarBuilder =
 [
     [ "Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html#aa51e4949e032b5d808c7b12d47bf30fd", null ],
+    [ "Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html#a857d21ce9ccb8fda653b114a66b48651", null ],
+    [ "Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html#a01245ac53d9eedc39a551b51a8ab10a6", null ],
     [ "Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html#a473c0de942c6b2a5f64ca21c9d5abf8b", null ],
     [ "Const_EdgePathsAStarBuilder", "classMR_1_1Const__EdgePathsAStarBuilder.html#a82d337366ae14c9feaaf07c0ecac01f1", null ],
     [ "Dispose", "classMR_1_1Const__EdgePathsAStarBuilder.html#a22cae680831b5743588951ecba8739fe", null ],

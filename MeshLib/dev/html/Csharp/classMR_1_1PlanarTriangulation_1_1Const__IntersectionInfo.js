@@ -3,6 +3,7 @@ var classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo =
     [ "Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a1d7aaae6b931f2d439e784eecd2c495c", null ],
     [ "Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#ac6570905ea4042b593390857f0f84cbc", null ],
     [ "Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#ab3af7646fa270984474295e37e2b09a8", null ],
+    [ "Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a1cc311d6eb3ceb07dd42866856e61c96", null ],
     [ "Dispose", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a5ebc137d6e74af3782bf3a32f87feb50", null ],
     [ "Dispose", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a4a336c34aa06cd2efba15cefabfc921c", null ],
     [ "isIntersection", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a68bbe6e1d60cad034ffa1e92e3505f9c", null ],

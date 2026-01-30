@@ -2,6 +2,8 @@ var classMR_1_1ViewportProperty__MRColor =
 [
     [ "ViewportProperty_MRColor", "classMR_1_1ViewportProperty__MRColor.html#acc01a6b509a04f2d6b2e6b12665cb1c9", null ],
     [ "ViewportProperty_MRColor", "classMR_1_1ViewportProperty__MRColor.html#af4d772e4f54e368568088acc4b99361b", null ],
+    [ "ViewportProperty_MRColor", "classMR_1_1ViewportProperty__MRColor.html#a0f7adc4ca3cc2307c807b4992cf93710", null ],
+    [ "ViewportProperty_MRColor", "classMR_1_1ViewportProperty__MRColor.html#a66405b4a647917c8c3028eb2102122f1", null ],
     [ "ViewportProperty_MRColor", "classMR_1_1ViewportProperty__MRColor.html#a3f1a0aadc626468a1aff3431ccbbb654", null ],
     [ "assign", "classMR_1_1ViewportProperty__MRColor.html#aeb093f985166d0538659314723c5bc31", null ],
     [ "get", "classMR_1_1ViewportProperty__MRColor.html#a1b924e27ed3bd3eebfaee306e4897053", null ],

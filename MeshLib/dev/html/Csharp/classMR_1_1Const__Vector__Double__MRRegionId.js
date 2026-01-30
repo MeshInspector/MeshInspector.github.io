@@ -2,6 +2,8 @@ var classMR_1_1Const__Vector__Double__MRRegionId =
 [
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a3bc2d86be6c4bca236626f5a73144456", null ],
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a0c6adf4789748685957f13a719662743", null ],
+    [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a3e589cf64470015374afe910bf4f98bc", null ],
+    [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#aa3f7fc3bad2e8b8f321a7ae8cabfb1b4", null ],
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#aa257227b8fc67fee2a04c7682b8820a6", null ],
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#ae62f84f407f802e26109d764d3617c7d", null ],
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a7b4cb64d7c7e48ac3a4ee951e365e575", null ],

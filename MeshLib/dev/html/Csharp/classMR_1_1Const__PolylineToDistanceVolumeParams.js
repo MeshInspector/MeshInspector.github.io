@@ -3,6 +3,8 @@ var classMR_1_1Const__PolylineToDistanceVolumeParams =
     [ "Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a3ae91caa069ea30687b1176f02a3c787", null ],
     [ "Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a3f068bae3b6b516d2f7b1a8907282796", null ],
     [ "Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a882f5569857c56afd39b4cd8e9f520d9", null ],
+    [ "Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#aec9f87534237507843280576ed6d0dee", null ],
+    [ "Const_PolylineToDistanceVolumeParams", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a2f0b071549c004f0fe181eddab2c51a5", null ],
     [ "Dispose", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#aba91c02bef004a7ed0fe0bcddf7a64e8", null ],
     [ "Dispose", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a0f86a0ce39f6ed9d38c4ded3c1d2b4a8", null ],
     [ "__ptr_storage_outXf", "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a447d3bce54d566e789fa5fbd685e05b4", null ],

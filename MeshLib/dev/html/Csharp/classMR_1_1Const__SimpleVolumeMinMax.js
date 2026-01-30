@@ -2,6 +2,8 @@ var classMR_1_1Const__SimpleVolumeMinMax =
 [
     [ "Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html#abe4ee90a42647f066eb17c2363883d65", null ],
     [ "Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html#a270a685b0b175ba9b542d0e658dd21d2", null ],
+    [ "Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html#a19f39fcb918cfe3c6f38903d40c6cf9a", null ],
+    [ "Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html#a3611ff9dc059638846b72504d3077bdd", null ],
     [ "center", "classMR_1_1Const__SimpleVolumeMinMax.html#a0d6352f416aa8ab9f3d491faaca8c2d9", null ],
     [ "corner", "classMR_1_1Const__SimpleVolumeMinMax.html#ad62cdb47189a417c2d4073da7ac068b1", null ],
     [ "diagonal", "classMR_1_1Const__SimpleVolumeMinMax.html#adde75d5ae11dfb6608c62b31e4120294", null ],

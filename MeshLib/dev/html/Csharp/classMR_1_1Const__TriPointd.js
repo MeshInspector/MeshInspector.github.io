@@ -2,6 +2,7 @@ var classMR_1_1Const__TriPointd =
 [
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a200abfd336daa239e36214b6c336d47b", null ],
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a2ce1a0a3c0b130fdce394a6ed8341273", null ],
+    [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a1ed4c3bc08f4709dd6aebbc36ff8bdbc", null ],
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a1e2025ac6547541baa170563bd0574ae", null ],
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#ac3fe80cff9a135cd59e08dc989a8e773", null ],
     [ "Const_TriPointd", "classMR_1_1Const__TriPointd.html#a9ad2358c5035b564ad932d669ec6efce", null ],

@@ -7,6 +7,8 @@ var classMR_1_1Const__FaceDistancesSettings =
     [ "Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html#a70118b01621bb2f0edbb9d12b9d37a3b", null ],
     [ "Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html#a4f393d2e350e3c46271fe64f18e77bf0", null ],
     [ "Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html#af93d1bc60b64437a10ca414972f7bd9a", null ],
+    [ "Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html#a184b436931b7fc781b33703ea8fa49d6", null ],
+    [ "Const_FaceDistancesSettings", "classMR_1_1Const__FaceDistancesSettings.html#ac0d5651c40f9c6792d39beb94f1088ac", null ],
     [ "Dispose", "classMR_1_1Const__FaceDistancesSettings.html#a94ce7a480cb62317da10b3894325c9f5", null ],
     [ "Dispose", "classMR_1_1Const__FaceDistancesSettings.html#a62a3c2adee148ae295f55c8c3f71c98b", null ],
     [ "__ptr_storage_maxDist", "classMR_1_1Const__FaceDistancesSettings.html#a46466f10a622ef9b9bf95a8759687b3f", null ],

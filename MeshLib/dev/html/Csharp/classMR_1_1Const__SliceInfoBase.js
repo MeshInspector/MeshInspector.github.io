@@ -3,6 +3,7 @@ var classMR_1_1Const__SliceInfoBase =
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#a3c44c11564cff1e0862e659a246a57e7", null ],
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#ad5ace6773cddcaec9decc8e5633b40f9", null ],
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#a3fca98820dbf1b7d43093422ca548ae2", null ],
+    [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#a08167391a4a3ed5daa7f5b6c57a8adbb", null ],
     [ "Dispose", "classMR_1_1Const__SliceInfoBase.html#a600a81b84a06bde132375ffe7c9756d4", null ],
     [ "Dispose", "classMR_1_1Const__SliceInfoBase.html#a35a1d37a5a22c0ded05c48d41e1cbcbe", null ],
     [ "__ref_storage_fileNum", "classMR_1_1Const__SliceInfoBase.html#a934b0fe2ce0cebd184a29ff7efea5353", null ],

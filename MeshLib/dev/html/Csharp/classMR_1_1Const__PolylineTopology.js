@@ -2,6 +2,8 @@ var classMR_1_1Const__PolylineTopology =
 [
     [ "Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html#aa934c92d928ac1c2d5745596fa5ba645", null ],
     [ "Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html#a494536c7a3275fa2905a062bcce4c338", null ],
+    [ "Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html#a6abad8deb7478d235b2fcc21b52ccc9f", null ],
+    [ "Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html#ab596bd48736f75f560a752d8df29188a", null ],
     [ "checkValidity", "classMR_1_1Const__PolylineTopology.html#a732b1e9feb24b7f8d199c88ed63c6191", null ],
     [ "computeNotLoneUndirectedEdges", "classMR_1_1Const__PolylineTopology.html#a04abe0f33818318ed76b5da3722ae9e1", null ],
     [ "dest", "classMR_1_1Const__PolylineTopology.html#a5647fff56b36c90f4a0e1a4917ff71d5", null ],

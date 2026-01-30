@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangVoxelSelectionAction =
 [
     [ "Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html#a0f7618865b7cad0346b62d6f708636b7", null ],
+    [ "Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html#a2d7235c548c198a9b53103978acb620f", null ],
+    [ "Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html#aa69297a48a9ca945c12f36b7667020e4", null ],
     [ "Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html#a2169af460b7ab9ac5caef4f4c8fa92e3", null ],
     [ "Dispose", "classMR_1_1Const__ChangVoxelSelectionAction.html#a17c6002ce157e121dbe48b159c851412", null ],
     [ "Dispose", "classMR_1_1Const__ChangVoxelSelectionAction.html#a5c8ec335d83cf8ff86427219366a8938", null ],

@@ -4,6 +4,8 @@ var group__BasicStructuresGroup =
       [ "Image", "../Csharp/classMR_1_1Image.html#a1f036f874c471aa6766cdf669331e4f9", null ],
       [ "Image", "../Csharp/classMR_1_1Image.html#a601f4b5c1a8b6cb4097f98bb8f91b0af", null ],
       [ "Image", "../Csharp/classMR_1_1Image.html#a883df314f57ad180b5cb8bb1180f9b63", null ],
+      [ "Image", "../Csharp/classMR_1_1Image.html#a524f1129affaadde19a52a3f56195e3a", null ],
+      [ "Image", "../Csharp/classMR_1_1Image.html#a78bedaf6dd1508fecdeb392e45393c9b", null ],
       [ "assign", "../Csharp/classMR_1_1Image.html#afeeedc7d3b5c7cfe108b11c461eef319", null ],
       [ "pixels", "../Csharp/classMR_1_1Image.html#a3025ef66a22d516a56a950a8640b6b58", null ],
       [ "resolution", "../Csharp/classMR_1_1Image.html#ab3d15c40630c7e3ceb4e8d57d721c5cb", null ],
@@ -12,6 +14,8 @@ var group__BasicStructuresGroup =
     [ "MR::MeshTexture", "../Csharp/classMR_1_1MeshTexture.html", [
       [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#ab15c60a201193db4373f406496231a31", null ],
       [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#af1b87156b4b14e515348c6436dd02adf", null ],
+      [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#a2b00927c9cd74b02260c560a5b4a01af", null ],
+      [ "MeshTexture", "../Csharp/classMR_1_1MeshTexture.html#a5005bb704ce6c352baab5ba7fbcd991a", null ],
       [ "assign", "../Csharp/classMR_1_1MeshTexture.html#a354f98bc40300b98fd45b1a6b7cd2708", null ],
       [ "filter", "../Csharp/classMR_1_1MeshTexture.html#a6b67db714567b3e371f411123df06d82", null ],
       [ "pixels", "../Csharp/classMR_1_1MeshTexture.html#af4699389d26379de9a33716959f80fd1", null ],
@@ -23,6 +27,8 @@ var group__BasicStructuresGroup =
     [ "MR::FloatGrid", "../Csharp/classMR_1_1FloatGrid.html", [
       [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a8d1144e6b355f47cb4adce0afb660bc0", null ],
       [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a77dfab6de00024daaba84e96ef355982", null ],
+      [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a0e39a5b3430356ccc17c9a305c13d523", null ],
+      [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a3b9fcac59566358e4146b23c43957b0c", null ],
       [ "FloatGrid", "../Csharp/classMR_1_1FloatGrid.html#a63ba7d46dbcf004a899dc1d2d300ecf1", null ],
       [ "addAssign", "../Csharp/classMR_1_1FloatGrid.html#adbc01aabddb98307299dd068bbcda504", null ],
       [ "assign", "../Csharp/classMR_1_1FloatGrid.html#a4bc4e2189f0f6cfaf69b60a4bfc178f1", null ],
@@ -33,7 +39,9 @@ var group__BasicStructuresGroup =
     ] ],
     [ "MR::OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html", [
       [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#ae73a1bc0af44c763b4dbf8a0fe5101d0", null ],
-      [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#a985904eca89f87d0e9d106b5ecdf7212", null ]
+      [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#a985904eca89f87d0e9d106b5ecdf7212", null ],
+      [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#a756d8e06919d6237679fdacd47879eea", null ],
+      [ "OpenVdbFloatGrid", "../Csharp/classMR_1_1OpenVdbFloatGrid.html#abf886316dec87896122e7f0e386e3f66", null ]
     ] ],
     [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "MR::countVoxelsWithValueGreater", "group__BasicStructuresGroup.html#ga5712e78d9d4422fcdcd7dfed32c2c17e", null ],

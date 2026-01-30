@@ -1,6 +1,7 @@
 var classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin =
 [
     [ "Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#ab06d2cbbab832a6ccabb05716adb56ff", null ],
+    [ "Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#a5814610b851a2182f2edc8ab34755429", null ],
     [ "Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#ad5532b336663f39809ed8f9b4f2302e9", null ],
     [ "deref", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#a82d68d9f97080f8b6b043ff16f4ab148", null ],
     [ "Dispose", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#a8ce6d2d7ce63fa16254e929464801f74", null ],

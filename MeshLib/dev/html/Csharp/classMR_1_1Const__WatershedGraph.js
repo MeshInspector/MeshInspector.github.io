@@ -7,6 +7,8 @@ var classMR_1_1Const__WatershedGraph =
     [ "Const_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint.html", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint" ],
     [ "OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html", "classMR_1_1Const__WatershedGraph_1_1OverflowPoint" ],
     [ "Const_WatershedGraph", "classMR_1_1Const__WatershedGraph.html#aeb1cb051e6714a412ccf296165153207", null ],
+    [ "Const_WatershedGraph", "classMR_1_1Const__WatershedGraph.html#ae8139eea8f311009e9d50c09d4245927", null ],
+    [ "Const_WatershedGraph", "classMR_1_1Const__WatershedGraph.html#a5a745701f2b0040892037ac50eb7c74d", null ],
     [ "Const_WatershedGraph", "classMR_1_1Const__WatershedGraph.html#ac6a565acd1b0c77b8d1447280617d547", null ],
     [ "basinInfo", "classMR_1_1Const__WatershedGraph.html#ac9447d809d9ef1d0aeff30227e686a8c", null ],
     [ "bdInfo", "classMR_1_1Const__WatershedGraph.html#a31de89c0a8cbc38b0ff147964c9e5a21", null ],

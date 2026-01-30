@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangePolylinePointsAction =
 [
     [ "Const_ChangePolylinePointsAction", "classMR_1_1Const__ChangePolylinePointsAction.html#ae6d69c9e981b8ebef3abe7419dbb08a9", null ],
+    [ "Const_ChangePolylinePointsAction", "classMR_1_1Const__ChangePolylinePointsAction.html#a3bd0071840f4ecc09f86ed20c1eb81c0", null ],
+    [ "Const_ChangePolylinePointsAction", "classMR_1_1Const__ChangePolylinePointsAction.html#ac23b59cce86b973b6d1f9329df7c566d", null ],
     [ "Const_ChangePolylinePointsAction", "classMR_1_1Const__ChangePolylinePointsAction.html#a800b5a745838b0da5c0709d4cb7b82b6", null ],
     [ "Dispose", "classMR_1_1Const__ChangePolylinePointsAction.html#ae63126831eb0c66efcf2b85a9769d3b5", null ],
     [ "Dispose", "classMR_1_1Const__ChangePolylinePointsAction.html#a2573cac620dec9424b4dba708c372963", null ],

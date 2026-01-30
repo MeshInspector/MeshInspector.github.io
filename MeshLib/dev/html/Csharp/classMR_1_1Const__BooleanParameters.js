@@ -3,6 +3,8 @@ var classMR_1_1Const__BooleanParameters =
     [ "Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html#a84af1285c9c6b172671e3395b43a748d", null ],
     [ "Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html#a735acd3d3c8d18ce0de71f3d53becbe2", null ],
     [ "Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html#aa1377f5596351060da051955fe4acace", null ],
+    [ "Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html#a7038e1c78c04b3f1f7463995fb35d883", null ],
+    [ "Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html#a903e9afb3baf29d1d912187feafeb257", null ],
     [ "Dispose", "classMR_1_1Const__BooleanParameters.html#a0d49c03181c7d456c66ad1bd8660b9a5", null ],
     [ "Dispose", "classMR_1_1Const__BooleanParameters.html#ade0406a0823f8259ed65e73debf27e90", null ],
     [ "__ptr_storage_mapper", "classMR_1_1Const__BooleanParameters.html#a305fa6160305cc350000887dbd40bc72", null ],

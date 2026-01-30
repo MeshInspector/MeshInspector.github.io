@@ -3,6 +3,8 @@ var classMR_1_1Const__Pdf_1_1Const__TextParams =
     [ "Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#a5f62d05938a0d13091645d41b07c533a", null ],
     [ "Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#a0566390b509cd66c1411c8ee366bf2b7", null ],
     [ "Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#a0a5dc6b46a0dde1ed250904cb4071182", null ],
+    [ "Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#a22903aa27f2853327081bfa552936a99", null ],
+    [ "Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#a7e1dea8c57c5e3ea9dd34ddb997b7bee", null ],
     [ "Dispose", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#aa06b1827142a5de2a161f4eb11bcf385", null ],
     [ "Dispose", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#afe08ea41c6bd6b0a714c205f46712fe4", null ],
     [ "__ref_storage_alignment", "classMR_1_1Const__Pdf_1_1Const__TextParams.html#a42ee492fde4679f7c8502ef2b8ca7fc1", null ],

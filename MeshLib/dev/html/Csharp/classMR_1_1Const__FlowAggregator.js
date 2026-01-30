@@ -3,6 +3,8 @@ var classMR_1_1Const__FlowAggregator =
     [ "Const_Flows", "classMR_1_1Const__FlowAggregator_1_1Const__Flows.html", "classMR_1_1Const__FlowAggregator_1_1Const__Flows" ],
     [ "Flows", "classMR_1_1Const__FlowAggregator_1_1Flows.html", "classMR_1_1Const__FlowAggregator_1_1Flows" ],
     [ "Const_FlowAggregator", "classMR_1_1Const__FlowAggregator.html#a546e21e371eb42325e3d4963620fbcb2", null ],
+    [ "Const_FlowAggregator", "classMR_1_1Const__FlowAggregator.html#ad6b152a881e078f4c1c8fb37f20ba723", null ],
+    [ "Const_FlowAggregator", "classMR_1_1Const__FlowAggregator.html#a98d28a2028ee4bfc8cb5fba2117f0b50", null ],
     [ "Const_FlowAggregator", "classMR_1_1Const__FlowAggregator.html#a36ecae1fd18ea971844121c14da3b593", null ],
     [ "computeCatchmentDelineation", "classMR_1_1Const__FlowAggregator.html#abbd6da02e1b7471e023765f0c0cb920a", null ],
     [ "computeFlow", "classMR_1_1Const__FlowAggregator.html#a4179a8e86e6b26b558584461faf6cf5f", null ],

@@ -3,6 +3,8 @@ var classMR_1_1Const__DecimatePolylineSettings__MRVector2f =
     [ "Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#a619a28ea718c12b58e561709a197b28f", null ],
     [ "Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#aaaa7f93fa1b5b85ff705ab4160cd35ca", null ],
     [ "Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#a50725341b22a133d2dcc3e699b306e4d", null ],
+    [ "Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#aaa8703cc35b37858a23bc2db817d1bca", null ],
+    [ "Const_DecimatePolylineSettings_MRVector2f", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#a1337c01eef025d8a976beaed1d408f7e", null ],
     [ "Dispose", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#a18f5bbc70627b4b39261e648c4fc3f8c", null ],
     [ "Dispose", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#a62c842ce9cef412686ad3a30ea2608b2", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__DecimatePolylineSettings__MRVector2f.html#a9d6adb5215d8354bb499bca663fc98b1", null ],

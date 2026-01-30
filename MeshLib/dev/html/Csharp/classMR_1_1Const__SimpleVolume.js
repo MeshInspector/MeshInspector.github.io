@@ -3,6 +3,8 @@ var classMR_1_1Const__SimpleVolume =
     [ "Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html#a6ab0ed3b8ee65e54e841d5a96f5deb86", null ],
     [ "Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html#af56c9afcb03539477f311c8810254c6a", null ],
     [ "Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html#a645ec2263a5afd4074012e0244178700", null ],
+    [ "Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html#a6ddc1fb19d4ec91307ede9143f26277e", null ],
+    [ "Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html#a44449aaf81e2dbca6285d591199e2350", null ],
     [ "Dispose", "classMR_1_1Const__SimpleVolume.html#a5be935857d422458abcf95cf7066d353", null ],
     [ "Dispose", "classMR_1_1Const__SimpleVolume.html#afb3718297e304481562554db7e79b2e2", null ],
     [ "heapBytes", "classMR_1_1Const__SimpleVolume.html#af32e764c7c4e73b9f49274c4d81088e3", null ],

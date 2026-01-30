@@ -3,6 +3,8 @@ var classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty =
     [ "Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1Const__ReachedVert.html", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1Const__ReachedVert" ],
     [ "ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert" ],
     [ "Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a8f102619988de05bf74e006b5b0198e6", null ],
+    [ "Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#ad6d14ef88bd19db6f05d3040bfa7276b", null ],
+    [ "Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#abdd18c7dc92b7e586b7bc886c75592b5", null ],
     [ "Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a3e350ed055e92c6d5797c23775c67559", null ],
     [ "Const_EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a084501c0a9365f45f33d3b89861a0650", null ],
     [ "Dispose", "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#aceb5040caaca6ac09e4d29512868f6cf", null ],

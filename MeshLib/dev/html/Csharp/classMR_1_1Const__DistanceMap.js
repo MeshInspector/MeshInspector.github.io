@@ -2,6 +2,8 @@ var classMR_1_1Const__DistanceMap =
 [
     [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a0bf861091ff4de0c7917a2c58ec70054", null ],
     [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a2996eb7e63484726d63f0fe16086eadc", null ],
+    [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#ae16537e53e9f12b4121efb5792eb5f59", null ],
+    [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a84e6d9172e5998cafc9bb0bba2863cd1", null ],
     [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a98eb83f9710677e8fc58a4830034286b", null ],
     [ "Const_DistanceMap", "classMR_1_1Const__DistanceMap.html#a379b761ec294baf14cca2da25b47434a", null ],
     [ "data", "classMR_1_1Const__DistanceMap.html#ac6435171a461bd7f28cfb55c4ba75435", null ],

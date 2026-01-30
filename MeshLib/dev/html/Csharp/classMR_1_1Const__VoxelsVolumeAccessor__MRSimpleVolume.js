@@ -1,6 +1,7 @@
 var classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume =
 [
     [ "Const_VoxelsVolumeAccessor_MRSimpleVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#ac9467cf5c456eac46f808cfec3f96810", null ],
+    [ "Const_VoxelsVolumeAccessor_MRSimpleVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a63860fe6783246e6e1caad5c6fba8bfa", null ],
     [ "Const_VoxelsVolumeAccessor_MRSimpleVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a37d09fa4e3482306deffedc4ceee9ccb", null ],
     [ "Dispose", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a78d7a37eeccbcc36db023fb90dcb949a", null ],
     [ "Dispose", "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a62f739c29d987c8f2c612cb2465526cf", null ],

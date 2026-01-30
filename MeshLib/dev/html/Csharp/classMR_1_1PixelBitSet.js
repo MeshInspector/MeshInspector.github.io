@@ -2,6 +2,8 @@ var classMR_1_1PixelBitSet =
 [
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a53055a7810b228297c473a39619b5934", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a89a0e4c4a97289538bae24d179d3f2fc", null ],
+    [ "PixelBitSet", "classMR_1_1PixelBitSet.html#ac2989ba2c2da702c038cfb3224286260", null ],
+    [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a818a9e719c08547654d23e1148827056", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a98795ce8a2a778eda7d7837e7ffb2e87", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a63edc132fe638793c9afef11d26b6320", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#ac81e0ed6df0e4e48ea7d2442e68b522d", null ],

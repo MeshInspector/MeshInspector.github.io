@@ -32,11 +32,14 @@ var group__MathGroup =
     [ "MR::QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html", [
       [ "QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html#aa07acaf6a7203a853fb3621c82b3126f", null ],
       [ "QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html#a34ee226b675faccfae73d4db1eec4762", null ],
+      [ "QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html#a49efd6c5e9fb9e266d51f81b4b62263f", null ],
+      [ "QuadricApprox", "../Csharp/classMR_1_1QuadricApprox.html#a6e228b814d0429216ed181687efc6248", null ],
       [ "addPoint", "../Csharp/classMR_1_1QuadricApprox.html#a0069aeb6381b69537a768f43eddf44a0", null ],
       [ "assign", "../Csharp/classMR_1_1QuadricApprox.html#a5ea57604d1b7bac5738d513da0b4b676", null ]
     ] ],
     [ "MR::DenseBox", "../Csharp/classMR_1_1DenseBox.html", [
       [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a2f01b359ffb4eaec35d03e60d106656f", null ],
+      [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a5b7e3001d3cbc3d572c6736d71cfb57b", null ],
       [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a799cd412c65c1dfd178508920477a66e", null ],
       [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#a66edb7a6cf725308e50f62bd87c2dd95", null ],
       [ "DenseBox", "../Csharp/classMR_1_1DenseBox.html#ae4834da68888983de08fc5219d8c4ea1", null ],
@@ -47,6 +50,8 @@ var group__MathGroup =
     [ "MR::Histogram", "../Csharp/classMR_1_1Histogram.html", [
       [ "Histogram", "../Csharp/classMR_1_1Histogram.html#ab0bbd3d8742e66c6ff69d2e691a4f7ad", null ],
       [ "Histogram", "../Csharp/classMR_1_1Histogram.html#abca61af5d0c72a9284ec588336d45e0d", null ],
+      [ "Histogram", "../Csharp/classMR_1_1Histogram.html#ae17376057394991033ff98dbc0e42999", null ],
+      [ "Histogram", "../Csharp/classMR_1_1Histogram.html#a0123c309b452ca8f4c7673a4a623370c", null ],
       [ "Histogram", "../Csharp/classMR_1_1Histogram.html#a3e83c795c07c0445d6267063b066c59b", null ],
       [ "addHistogram", "../Csharp/classMR_1_1Histogram.html#a8890dd48c1247230c8452d0a556fa6c5", null ],
       [ "addSample", "../Csharp/classMR_1_1Histogram.html#a729336228fb61efb8e91b847bac318f8", null ],
@@ -89,6 +94,7 @@ var group__MathGroup =
       [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#ab8992d425f595fb5f3f48173474495cb", null ],
       [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#abef2e017225d941402175a7fb3bb79aa", null ],
       [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#a0d93de7ebe7568167fc1f2037b47a3d6", null ],
+      [ "PreciseVertCoord", "../Csharp/classMR_1_1PreciseVertCoord.html#a50457f065b336d285d69f56e2e513a23", null ],
       [ "assign", "../Csharp/classMR_1_1PreciseVertCoord.html#ab87d65139c10431f17b0e2890537c0ca", null ],
       [ "id", "../Csharp/classMR_1_1PreciseVertCoord.html#a756c8bd884da3b2f4c83dd94bb70c8a7", null ],
       [ "pt", "../Csharp/classMR_1_1PreciseVertCoord.html#a4d1cd081229e28c005518c82c61ee4e6", null ]

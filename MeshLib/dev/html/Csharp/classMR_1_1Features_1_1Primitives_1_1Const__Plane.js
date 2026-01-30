@@ -3,6 +3,7 @@ var classMR_1_1Features_1_1Primitives_1_1Const__Plane =
     [ "Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#a77f37fb57259000d399c22b9479aa3ef", null ],
     [ "Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#af6919e286dd5cda13ba8317cffb452d9", null ],
     [ "Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#a39043d8a5ad24d65b5542e32f01cc2dc", null ],
+    [ "Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#a2f5cc55fd63a55b8025ae9a40589ccae", null ],
     [ "Dispose", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#a1b1811b0b6c4c0fda618903c8480f0c8", null ],
     [ "Dispose", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#aa566e540fcc8e441166652ce3e0606e0", null ],
     [ "Equals", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html#ab9ef7c01cdc22b658ac2368885a519fc", null ],

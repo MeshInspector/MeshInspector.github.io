@@ -2,6 +2,8 @@ var classMR_1_1MeshOrPointsObject =
 [
     [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a7c10ee09237da9a9a973cd5ffed69253", null ],
     [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a581fe35f1da2142116491bda1deba7a3", null ],
+    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#aaf1ff2d47d59bb0c4b7371e1ab1ed286", null ],
+    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a9fe009d2eb35cb96502b9d321abbfbd1", null ],
     [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a0879bb5048fcc6d1801b4ea72c1ca200", null ],
     [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a36e05fb879e93d25e47edbdecc0abd9b", null ],
     [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a7053ae16c6a505e6f11bad8b3b59e995", null ],

@@ -1,6 +1,8 @@
 var classMR_1_1MeasurementObject =
 [
     [ "MeasurementObject", "../Csharp/classMR_1_1MeasurementObject.html#a4daca720f6c5b3a25a32539f8cc72e3a", null ],
+    [ "MeasurementObject", "../Csharp/classMR_1_1MeasurementObject.html#a5be1f1070da8294a4e5155cdc0002d59", null ],
+    [ "MeasurementObject", "../Csharp/classMR_1_1MeasurementObject.html#a62beb3699cc14947cb9945e0c0a4f33f", null ],
     [ "addChild", "../Csharp/classMR_1_1MeasurementObject.html#ae97e0d92b7530ce4612f15ee8b3c71ce", null ],
     [ "addChildBefore", "../Csharp/classMR_1_1MeasurementObject.html#a6f6f34f94b995f294803b8541b3eeb79", null ],
     [ "addTag", "../Csharp/classMR_1_1MeasurementObject.html#a9fdad3d28edb73a5d26091f433776464", null ],

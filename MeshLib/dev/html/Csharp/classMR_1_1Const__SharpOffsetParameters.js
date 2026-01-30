@@ -2,6 +2,8 @@ var classMR_1_1Const__SharpOffsetParameters =
 [
     [ "Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html#a2132b1bcfa6dfd467624681f21e87b65", null ],
     [ "Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html#a36fea789e0636b654d58c9de1ecdaeb8", null ],
+    [ "Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html#aabdbbdb1f750f4342fdd1ac82c98f66c", null ],
+    [ "Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html#a987f265ea98a08beeeb28026618e2f1b", null ],
     [ "Dispose", "classMR_1_1Const__SharpOffsetParameters.html#ae603c18cd70a6a444a27442b4e1132a8", null ],
     [ "Dispose", "classMR_1_1Const__SharpOffsetParameters.html#a8ca12081fac953b9d965214cb2a1f649", null ],
     [ "operator MR.Const_BaseShellParameters", "classMR_1_1Const__SharpOffsetParameters.html#a60c2265cf9d45b476e7628f9e29f1013", null ],

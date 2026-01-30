@@ -3,6 +3,8 @@ var classMR_1_1Const__ZCompensateParams =
     [ "Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html#ac65351c4041f02d81d9849146338ff77", null ],
     [ "Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html#aabbd7f837e4c4725e7f9b11893b69c58", null ],
     [ "Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html#a7afab3758000657fced628af5a2d5338", null ],
+    [ "Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html#a98a869cc50a64434070e5e77f7e3ddaf", null ],
+    [ "Const_ZCompensateParams", "classMR_1_1Const__ZCompensateParams.html#a60835c091933c4abd694b8a3443fe653", null ],
     [ "Dispose", "classMR_1_1Const__ZCompensateParams.html#a890de997b4dded9fc37f09aac1648d95", null ],
     [ "Dispose", "classMR_1_1Const__ZCompensateParams.html#aa6352b8b9527afef9d1b2229d7484b36", null ],
     [ "__ref_storage_maxShift", "classMR_1_1Const__ZCompensateParams.html#a6d694e9a0a0861917382fa93c03b83d7", null ],

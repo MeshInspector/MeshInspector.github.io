@@ -4,6 +4,8 @@ var classMR_1_1Const__Graph =
     [ "EndVertices", "classMR_1_1Const__Graph_1_1EndVertices.html", "classMR_1_1Const__Graph_1_1EndVertices" ],
     [ "Const_Graph", "classMR_1_1Const__Graph.html#a9d934fbd9d6a5cff13ced6e5f1e0f82b", null ],
     [ "Const_Graph", "classMR_1_1Const__Graph.html#adc75fa498d3893935d7eac9f29532d4b", null ],
+    [ "Const_Graph", "classMR_1_1Const__Graph.html#a6d8f674f384d7c34a293aba7190dc40c", null ],
+    [ "Const_Graph", "classMR_1_1Const__Graph.html#a1b7964780a67417f64a0817f8eee5e90", null ],
     [ "areNeighbors", "classMR_1_1Const__Graph.html#aff0be28e4f7995a31545050f9b429812", null ],
     [ "checkValidity", "classMR_1_1Const__Graph.html#a90cb9dadafe9c14b6b60866dd6ccdf10", null ],
     [ "Dispose", "classMR_1_1Const__Graph.html#ac2f53079644763ca41317b4b1772fce4", null ],

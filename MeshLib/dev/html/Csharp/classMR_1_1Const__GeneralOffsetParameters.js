@@ -2,6 +2,8 @@ var classMR_1_1Const__GeneralOffsetParameters =
 [
     [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html#ab37b16c23d17c3104d6cf5d43b618a5a", null ],
     [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html#ac62711ebe07268883fa200a47c447d86", null ],
+    [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html#ac18a7f660c63a66cc6cb1c00f8e6f072", null ],
+    [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html#a3128d4e8203f39831ed06336c6ca7858", null ],
     [ "Dispose", "classMR_1_1Const__GeneralOffsetParameters.html#a7b00460aab1d250d8922e55ae383a2b3", null ],
     [ "Dispose", "classMR_1_1Const__GeneralOffsetParameters.html#ab4edc22bbde164f8518804c27805c458", null ],
     [ "operator MR.Const_BaseShellParameters", "classMR_1_1Const__GeneralOffsetParameters.html#a7c7b93bbdabc290085739609e57e4e79", null ],

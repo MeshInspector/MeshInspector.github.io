@@ -3,6 +3,8 @@ var classMR_1_1Const__DetectTunnelSettings =
     [ "Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html#a599301ceb9bf7a765bc429da174cc6a5", null ],
     [ "Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html#a7311d304398b66f642c9c48de7bec239", null ],
     [ "Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html#a18e2285bd2c1399cdcd56d626e8adea8", null ],
+    [ "Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html#ac99650f22b9b759019bbb53193993c08", null ],
+    [ "Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html#aac26d09c7b9ca0c32c9e8b2b16464586", null ],
     [ "Dispose", "classMR_1_1Const__DetectTunnelSettings.html#acd5f32030ddad0c29d34dc4ba2224944", null ],
     [ "Dispose", "classMR_1_1Const__DetectTunnelSettings.html#a764eda8262439cadb8a4b455e49a5a26", null ],
     [ "__ref_storage_buildCoLoops", "classMR_1_1Const__DetectTunnelSettings.html#a4561ab8596153cdf3890d5f815c1797c", null ],

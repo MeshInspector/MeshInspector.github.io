@@ -2,6 +2,7 @@ var classMR_1_1Const__Cone3f =
 [
     [ "Const_Cone3f", "classMR_1_1Const__Cone3f.html#a85e536c22e3c744eb9d53e1ebb944a21", null ],
     [ "Const_Cone3f", "classMR_1_1Const__Cone3f.html#abae7e88fc37da3702b54ae03758b41e6", null ],
+    [ "Const_Cone3f", "classMR_1_1Const__Cone3f.html#a79a5d15f7938bfd0d088caf9da4bcff1", null ],
     [ "Const_Cone3f", "classMR_1_1Const__Cone3f.html#ac2f648a90aff927691eced579e1e46d4", null ],
     [ "apex", "classMR_1_1Const__Cone3f.html#af7de7aa17e7e0e48b5ecb27af6d35a85", null ],
     [ "center", "classMR_1_1Const__Cone3f.html#ab303b5e99d6f470b5ee8dbcd2eae778e", null ],

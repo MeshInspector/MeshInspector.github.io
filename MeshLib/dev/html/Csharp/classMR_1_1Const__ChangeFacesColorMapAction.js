@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeFacesColorMapAction =
 [
     [ "Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html#a9f23c020d68955b5a4d57d16f8e09ae8", null ],
+    [ "Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html#a9f7ffd6318ad7388d53af8d99b6d3ee0", null ],
+    [ "Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html#adc0f49644503375793f2903fc691da85", null ],
     [ "Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html#ae1277dc3cd6e515f1f26f439097e8ee6", null ],
     [ "Const_ChangeFacesColorMapAction", "classMR_1_1Const__ChangeFacesColorMapAction.html#a09959ad463d24b4b326e7fe475ab8b8c", null ],
     [ "Dispose", "classMR_1_1Const__ChangeFacesColorMapAction.html#a8e3c4841c31d272b1c93710f0c2ae1fe", null ],

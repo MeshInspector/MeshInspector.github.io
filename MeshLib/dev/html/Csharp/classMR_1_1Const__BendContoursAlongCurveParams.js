@@ -3,6 +3,7 @@ var classMR_1_1Const__BendContoursAlongCurveParams =
     [ "Const_BendContoursAlongCurveParams", "classMR_1_1Const__BendContoursAlongCurveParams.html#a72032ed882dd8a4b8e6c1d8a529a79e0", null ],
     [ "Const_BendContoursAlongCurveParams", "classMR_1_1Const__BendContoursAlongCurveParams.html#a9fc02e4697c873a029757e758f5f1eca", null ],
     [ "Const_BendContoursAlongCurveParams", "classMR_1_1Const__BendContoursAlongCurveParams.html#a346997c57650f47c35bbfc94df150a14", null ],
+    [ "Const_BendContoursAlongCurveParams", "classMR_1_1Const__BendContoursAlongCurveParams.html#a5ae9c6e2a9d1535d3556f3297dd3757e", null ],
     [ "Dispose", "classMR_1_1Const__BendContoursAlongCurveParams.html#a4ca745e199ce2937e1ae664a32ff5091", null ],
     [ "Dispose", "classMR_1_1Const__BendContoursAlongCurveParams.html#ac8673ead5f59be3f12ce1607ad263d1c", null ],
     [ "__ref_storage_extrusion", "classMR_1_1Const__BendContoursAlongCurveParams.html#ada3cea868417b2ef438fe79d9cfa34ff", null ],

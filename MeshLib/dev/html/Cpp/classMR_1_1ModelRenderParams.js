@@ -1,6 +1,7 @@
 var classMR_1_1ModelRenderParams =
 [
     [ "ModelRenderParams", "../Csharp/classMR_1_1ModelRenderParams.html#a161d7238c9bc22df496b39121f0470ea", null ],
+    [ "ModelRenderParams", "../Csharp/classMR_1_1ModelRenderParams.html#a7b57dbd211d25a354c1c4cb619ef4067", null ],
     [ "depthFunction", "../Csharp/classMR_1_1ModelRenderParams.html#a399e7682cb684f167e042ad2f129644a", null ],
     [ "lightPos", "../Csharp/classMR_1_1ModelRenderParams.html#a9aeed8496e77e84d32b4f319ebee2e94", null ],
     [ "normMatrixPtr", "../Csharp/classMR_1_1ModelRenderParams.html#a2118fbe091199d72073dc2841336836b", null ],

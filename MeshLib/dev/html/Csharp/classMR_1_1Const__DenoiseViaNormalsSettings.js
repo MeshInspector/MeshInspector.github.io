@@ -3,6 +3,8 @@ var classMR_1_1Const__DenoiseViaNormalsSettings =
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ada08c71c90ae3f605c3bcede8e135979", null ],
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#aa87a8db2d6057cc55e75992bce72c907", null ],
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a7154fd358861636e8bd0932fe8064a8d", null ],
+    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ac7e021acb19fcaa6062ebfb493a139f1", null ],
+    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a56dcb190e2d3deb42c63bcf5799c3e04", null ],
     [ "Dispose", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a06e2c22d655a8a3bd00b02c81c96e5fb", null ],
     [ "Dispose", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a7688c259ceb0c6ed9b82aff33cdbd2b1", null ],
     [ "__ptr_storage_outCreases", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a48f457319249edb03969a43d030ce96f", null ],

@@ -3,6 +3,8 @@ var classMR_1_1Const__Image =
     [ "Const_Image", "classMR_1_1Const__Image.html#ab920270a752aef9eedceb3337f7d1d6a", null ],
     [ "Const_Image", "classMR_1_1Const__Image.html#a6599eabda56345a244c7d48595cfa6c4", null ],
     [ "Const_Image", "classMR_1_1Const__Image.html#a5efd052c6f836a82aedb70130f3f0634", null ],
+    [ "Const_Image", "classMR_1_1Const__Image.html#a97b054ee9348ee281d584080f2f1980d", null ],
+    [ "Const_Image", "classMR_1_1Const__Image.html#abd4f8ab5095658fafe6461a049e52476", null ],
     [ "Dispose", "classMR_1_1Const__Image.html#a51359fe18f4f00cf36832bfedb5ce02a", null ],
     [ "Dispose", "classMR_1_1Const__Image.html#a73862bb70105d1b5ee9c39170b4e0999", null ],
     [ "heapBytes", "classMR_1_1Const__Image.html#ae8a3e347456ab4022cb804b14cbcfcdb", null ],

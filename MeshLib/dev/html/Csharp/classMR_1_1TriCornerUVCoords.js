@@ -2,6 +2,8 @@ var classMR_1_1TriCornerUVCoords =
 [
     [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#ae7c6efdb7c35dd9959cb010a68d99767", null ],
     [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#ae179b8b4660efc07ed83c0e33138dd5d", null ],
+    [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#a975082f9f5ddae52095b53405eb73f27", null ],
+    [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#a348ee133c4b9faea0a661fedb002e638", null ],
     [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#a5e3efa8420af8dcb01003dbd3103e40f", null ],
     [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#ab6e0c56619d93096831f8ee0b5c57f9b", null ],
     [ "TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#a394b5efa274f23245b6cdb70738608be", null ],

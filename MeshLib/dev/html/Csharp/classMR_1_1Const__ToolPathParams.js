@@ -3,6 +3,8 @@ var classMR_1_1Const__ToolPathParams =
     [ "Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html#a699421b8c469bc54bf642ccc4db46f95", null ],
     [ "Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html#ad2fb946e47e971655c70b13e5e7c85bd", null ],
     [ "Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html#a089e0cab8c26f65a7cf5a419d3505764", null ],
+    [ "Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html#a702da4aded67090073655047a3976732", null ],
+    [ "Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html#a70f9f88261b55c46ddfdb730c6668a74", null ],
     [ "Dispose", "classMR_1_1Const__ToolPathParams.html#a9bfdd835752449af9b7f7cec08d8c059", null ],
     [ "Dispose", "classMR_1_1Const__ToolPathParams.html#a425739a518752427b714fcaf1c2d57d9", null ],
     [ "__ptr_storage_isolines", "classMR_1_1Const__ToolPathParams.html#aa2ee6e1870bb7ced36f8b22012717102", null ],

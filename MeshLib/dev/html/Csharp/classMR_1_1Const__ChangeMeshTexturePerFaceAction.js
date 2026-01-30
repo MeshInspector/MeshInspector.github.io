@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeMeshTexturePerFaceAction =
 [
     [ "Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html#a08e9944cf61878edfa81df9b9c9e9e8b", null ],
+    [ "Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html#a6fc8d5adbf3dc90124f9e52b618b9914", null ],
+    [ "Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html#aad280fb890a15f517cdd5b7168885496", null ],
     [ "Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html#a7c280cfee1e76cdbb03d4423a20a7dcf", null ],
     [ "Const_ChangeMeshTexturePerFaceAction", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html#a975864a9b9dd987d15e6302eb1ecfe77", null ],
     [ "Dispose", "classMR_1_1Const__ChangeMeshTexturePerFaceAction.html#a9ce481c20a381d252e412a35795a29e0", null ],

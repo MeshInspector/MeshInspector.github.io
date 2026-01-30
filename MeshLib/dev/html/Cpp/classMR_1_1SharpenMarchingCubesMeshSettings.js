@@ -3,6 +3,7 @@ var classMR_1_1SharpenMarchingCubesMeshSettings =
     [ "SharpenMarchingCubesMeshSettings", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#a1d73637190bc52b7d862e87fea42b2ff", null ],
     [ "SharpenMarchingCubesMeshSettings", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#ad007227568f01fad1d3f74a47390b266", null ],
     [ "SharpenMarchingCubesMeshSettings", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#a9a763de52c4cbaa55a0bb7d53a9868a5", null ],
+    [ "SharpenMarchingCubesMeshSettings", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#a706ae8f9463ab0e4cbec41635ff407c8", null ],
     [ "assign", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#ae21893fe81182ee2c37e4cff786036d6", null ],
     [ "maxNewRank2VertDev", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#ad0648650b83a3ff84202b68d5ce33075", null ],
     [ "maxNewRank3VertDev", "../Csharp/classMR_1_1SharpenMarchingCubesMeshSettings.html#ade80eace0be2085eb67b36177b7aac5f", null ],

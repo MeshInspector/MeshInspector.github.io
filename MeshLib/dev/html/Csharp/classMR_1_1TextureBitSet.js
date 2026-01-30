@@ -2,6 +2,8 @@ var classMR_1_1TextureBitSet =
 [
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#acef102524c6b2576717a31879b50dc47", null ],
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#acdbd32b09e447f9c5c15ddb02742ffbf", null ],
+    [ "TextureBitSet", "classMR_1_1TextureBitSet.html#a5a312cf3da8d6b926c0b970f1a04cc8c", null ],
+    [ "TextureBitSet", "classMR_1_1TextureBitSet.html#ac93d7afaa170aff6b45361dca039d403", null ],
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#a7d2ebea4d723c5dc7ccf2a94929cf95b", null ],
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#aa9766b613fdd9286a76667dfa568387c", null ],
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#a7841750691be44e3f6d5f0e01c0c0245", null ],

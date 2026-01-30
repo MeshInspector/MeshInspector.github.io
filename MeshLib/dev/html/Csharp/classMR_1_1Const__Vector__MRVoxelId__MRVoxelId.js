@@ -2,6 +2,8 @@ var classMR_1_1Const__Vector__MRVoxelId__MRVoxelId =
 [
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a5cb6998256bae6910e2c0d4f406676e8", null ],
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#adb2917d4eba19ead81812ee9c9f1436d", null ],
+    [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a485919e84b6a741c7b5728659d075d84", null ],
+    [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a7457de9f29c373ef7da508843912c4c3", null ],
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a7ebc51a697cc16cdadb9e6a3d9de5380", null ],
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a1aa005acc84df73b332b0ed667ef6fe5", null ],
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a4c33a06e9d1c00186c517170cc28a129", null ],

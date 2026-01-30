@@ -2,6 +2,8 @@ var classMR_1_1SimpleVolumeMinMax =
 [
     [ "SimpleVolumeMinMax", "classMR_1_1SimpleVolumeMinMax.html#a4819acbe631bef3605a2dc431ce71907", null ],
     [ "SimpleVolumeMinMax", "classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911", null ],
+    [ "SimpleVolumeMinMax", "classMR_1_1SimpleVolumeMinMax.html#abb5c0e54b95410100866cf76a58476c0", null ],
+    [ "SimpleVolumeMinMax", "classMR_1_1SimpleVolumeMinMax.html#ab8565ab63a6e3ea603fbe1449275e4ed", null ],
     [ "assign", "classMR_1_1SimpleVolumeMinMax.html#a57b9395845a5c83fe7c50fe54cf89a72", null ],
     [ "intersect", "classMR_1_1SimpleVolumeMinMax.html#af9aeac3aa596ff28935aed59c300976c", null ],
     [ "operator MR.Box_Box1f", "classMR_1_1SimpleVolumeMinMax.html#a80511b3be1bfb2705c43727c32ea296f", null ],

@@ -3,6 +3,7 @@ var classMR_1_1Const__PreciseVertCoord =
     [ "Const_PreciseVertCoord", "classMR_1_1Const__PreciseVertCoord.html#a69210b85742b6cd1ca7e0ce3e2fbb13a", null ],
     [ "Const_PreciseVertCoord", "classMR_1_1Const__PreciseVertCoord.html#afcb292cee0f733ee371eadcd5838ccdc", null ],
     [ "Const_PreciseVertCoord", "classMR_1_1Const__PreciseVertCoord.html#aa5423604dafd5002b4b32e42132f07f6", null ],
+    [ "Const_PreciseVertCoord", "classMR_1_1Const__PreciseVertCoord.html#a4a05841ec153ff13e2ef2a32bc43ce80", null ],
     [ "Dispose", "classMR_1_1Const__PreciseVertCoord.html#a8a21dea2ff5868a4ab8e025f705f5a8c", null ],
     [ "Dispose", "classMR_1_1Const__PreciseVertCoord.html#a1d4c4bdedd96070bb653f836f06288f9", null ],
     [ "__ref_storage_id", "classMR_1_1Const__PreciseVertCoord.html#aeb9946f836d5f7441bd9fcfe4e1cef92", null ],

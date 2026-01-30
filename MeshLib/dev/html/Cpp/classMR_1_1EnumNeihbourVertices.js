@@ -2,6 +2,8 @@ var classMR_1_1EnumNeihbourVertices =
 [
     [ "EnumNeihbourVertices", "../Csharp/classMR_1_1EnumNeihbourVertices.html#a2fbccad24de8aa6adba0983ec987d2f3", null ],
     [ "EnumNeihbourVertices", "../Csharp/classMR_1_1EnumNeihbourVertices.html#a37e1beab4fc2ea96620b1d0c4a2779a0", null ],
+    [ "EnumNeihbourVertices", "../Csharp/classMR_1_1EnumNeihbourVertices.html#a90ac5cb46e88ceb3df3a32235003d400", null ],
+    [ "EnumNeihbourVertices", "../Csharp/classMR_1_1EnumNeihbourVertices.html#a2b02bf22e693363e661c1d2c1bae67bd", null ],
     [ "assign", "../Csharp/classMR_1_1EnumNeihbourVertices.html#a851e1076361fb8ec917add02ed772809", null ],
     [ "run", "../Csharp/classMR_1_1EnumNeihbourVertices.html#a1927bf91bc65c8ab089a51bb4be85e41", null ],
     [ "run", "../Csharp/classMR_1_1EnumNeihbourVertices.html#aaf98c61a896a1f2e149cb09a53fb1a29", null ]

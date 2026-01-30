@@ -2,6 +2,8 @@ var classMR_1_1Const__Polyline3 =
 [
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a6c8ea7f8ffc770901cd242459ec2ab23", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a22df3487aa795c19276a3b5a45c75490", null ],
+    [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a31ebba2c8f778f9b08ce0d3f59920b26", null ],
+    [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a90a341c6f1d121ff5614972e40f25998", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a4db9dd2fb35b0631e58e6ae9b5831246", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a50b3ff3c9371dab15a339275f6010815", null ],
     [ "Const_Polyline3", "classMR_1_1Const__Polyline3.html#a591075975a8403b2738e9c619c5d6d94", null ],

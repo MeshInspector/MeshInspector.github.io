@@ -3,6 +3,7 @@ var classMR_1_1Const__PolylineProjectionResult3 =
     [ "Const_PolylineProjectionResult3", "classMR_1_1Const__PolylineProjectionResult3.html#a23053265ac629f2cec6450a672663dcd", null ],
     [ "Const_PolylineProjectionResult3", "classMR_1_1Const__PolylineProjectionResult3.html#ac485d94617fafd19c092cd7c12e88f94", null ],
     [ "Const_PolylineProjectionResult3", "classMR_1_1Const__PolylineProjectionResult3.html#ac4cec061dffb161668ecb3819cb767ec", null ],
+    [ "Const_PolylineProjectionResult3", "classMR_1_1Const__PolylineProjectionResult3.html#aa87e85b619e3cc50851428b1e4b23ff7", null ],
     [ "Dispose", "classMR_1_1Const__PolylineProjectionResult3.html#ab66a6b748d52f6b8f53fe9c9139f0265", null ],
     [ "Dispose", "classMR_1_1Const__PolylineProjectionResult3.html#acfe4c3e7ecea1debc74d3df0121e1648", null ],
     [ "operator bool", "classMR_1_1Const__PolylineProjectionResult3.html#af82c9a01997d220050177af8115c4307", null ],

@@ -2,12 +2,16 @@ var group__HistoryGroup =
 [
     [ "MR::ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html", [
       [ "ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a52b89c279f623118bf4fc13e4f082af2", null ],
+      [ "ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a5bb10988283b81fba62af16fa217d5b2", null ],
+      [ "ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a4c7284fa4fbdf8ce9599f39791e4f038", null ],
       [ "ChangeObjectColorAction", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a4b06705d9701327dfc2a508e5fdd6991", null ],
       [ "action", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a1205b93a463ecbdf48d3b77e2b4e9ddd", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeObjectColorAction.html#a38d2b0b98291fe3fc681f50ca5b214ac", null ]
     ] ],
     [ "MR::ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html", [
       [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#ac587b55f7a2b46cc8831cb47d404dde9", null ],
+      [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a3d2d3bab5fba43bacccbf7395a20955a", null ],
+      [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#add6ee427c035a6ea653b49123353065b", null ],
       [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a24f43266b629792387b69ce1ec72be4b", null ],
       [ "ChangeFacesColorMapAction", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a7f32af5dab37f6bd9e3118e80f64ff07", null ],
       [ "action", "../Csharp/classMR_1_1ChangeFacesColorMapAction.html#a78c7c14458a74d3df69b6f5f15c149c8", null ],
@@ -15,6 +19,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html", [
       [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#ac47e3ea8a49270750ce237aab9b48a77", null ],
+      [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a6cf01ebe9bc06ed61d94193aad88d3a3", null ],
+      [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a0ab8d35480b7eb69f9cd7c630a4fee39", null ],
       [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a3fd652887080b57b506147124b6e1976", null ],
       [ "ChangeLinesColorMapAction", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#aec33ae745ec339cd519461dca0ed427e", null ],
       [ "action", "../Csharp/classMR_1_1ChangeLinesColorMapAction.html#a23aa373dabe7a51b693db16e5c98fd27", null ],
@@ -22,6 +28,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html", [
       [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#a981d74a6efd4a31b38bacbf13612a218", null ],
+      [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#a4ec72b7f00f5dfdbe9694b54ca57e7a0", null ],
+      [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#a6899fdff124634006731b0fc70640a3c", null ],
       [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#a5cc1fdcc39882fa6a5ced4e1d0c20c16", null ],
       [ "ChangeColoringType", "../Csharp/classMR_1_1ChangeColoringType.html#aa72dc4a8619ca9ea158b1c835f875312", null ],
       [ "action", "../Csharp/classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119", null ],
@@ -29,6 +37,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html", [
       [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#aa60d87ffe54b088043be20c82631f10f", null ],
+      [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#a74988d26d40512d8eee00deeb3e2032b", null ],
+      [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#a7b83bbca042d86a2babdd852b75c5c0f", null ],
       [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#abd0aa7fda7a5f6d3b9e5e34787efd4a3", null ],
       [ "ChangeMeshAction", "../Csharp/classMR_1_1ChangeMeshAction.html#a34a30b62b864cf70e976c746887c0a13", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshAction.html#acb5cf3017e018215d15c849e7e62df01", null ],
@@ -36,6 +46,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html", [
       [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a778f40b72009d52faf061f0edb5e2d85", null ],
+      [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#ab90c1939f1f910e5b5144beda8c6540f", null ],
+      [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a24eca79c9d55b92020b6900a78bedfa3", null ],
       [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a82f0d8024e59e071029998e351aeb58d", null ],
       [ "ChangeMeshUVCoordsAction", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a5221d19d7afae29376f23e783522938f", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshUVCoordsAction.html#a034c3649d41d6209ba2996eda8ab09fe", null ],
@@ -43,6 +55,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html", [
       [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#a599fadaa33df41a2ee6b0f9e6b1155ba", null ],
+      [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#a0e290867d218258db14f38221136a7b4", null ],
+      [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#a3114ee4bcddafde38606aa3dd94eb6ed", null ],
       [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#ab76415f665557ec89016f2a9e4529892", null ],
       [ "ChangeTextureAction", "../Csharp/classMR_1_1ChangeTextureAction.html#a7ccb8400afe8d62f0d0c956b10b2d172", null ],
       [ "action", "../Csharp/classMR_1_1ChangeTextureAction.html#affdfa1421d10ad05ced49aef622e82dd", null ],
@@ -50,6 +64,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html", [
       [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#af0e7b70fa483ffb738e67e34aa62e610", null ],
+      [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#a7d5466a11c5ca7553a253a6c087a08a6", null ],
+      [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#a5a6bc73ef8b88ecf7f814910854552d1", null ],
       [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#ad786f2b6d886d0dacbca31f9480a0096", null ],
       [ "ChangeMeshPointsAction", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#a679a02eb61549ca482715fb3f03cc3d4", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshPointsAction.html#ad2f4f73282e8362dbf69bd605947f295", null ],
@@ -57,6 +73,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html", [
       [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#ac697e0d5a66bd5665adc0faab144b146", null ],
+      [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#af4b8d2c4c5e4d45a8bd44b870dafeb20", null ],
+      [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#adaf07965cbf0a8f16f53acda097dc0c0", null ],
       [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#ad92592e3a5520ae212a1257326e12d7b", null ],
       [ "ChangeMeshTopologyAction", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#a76a5e9c7958b6ba6960d3ffdfcb4adb5", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshTopologyAction.html#ac0bae2d5d877dccdb4b9b46fbc740664", null ],
@@ -64,6 +82,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html", [
       [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#aa6df06c2a0f2a8ba93ac54d75af5c8e5", null ],
+      [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a1336bd75958b55fa5e680b4877de7c8b", null ],
+      [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a12a6ee7721be116ecf3a7c5707fbe73b", null ],
       [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#abe9c4d69d232902b97d48107c592560c", null ],
       [ "ChangeMeshTexturePerFaceAction", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a1e103384cee2a029f63c2e47fe473054", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a1377c4ec5de1b799f9db318967286e30", null ],
@@ -71,6 +91,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html", [
       [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a8e81a27b0800e1b61e45e48a861ba9ba", null ],
+      [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#ade315b669376cb9a6ba80e20878b978b", null ],
+      [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#ad524015f916a2afa8dba37f54d4a0e1b", null ],
       [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a5cad6fc3e613cdfd19d3712b94ea8bfa", null ],
       [ "ChangeMeshDataAction", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a2c65232d6d1dde587b54dab497c59b59", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshDataAction.html#a660f93b323bf38d2a50096ddef2602c5", null ],
@@ -84,18 +106,24 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html", [
       [ "ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html#a1d82b6634a26cd7a288d82796dfc865a", null ],
+      [ "ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html#a753caa6499163745616d7c04d5d19572", null ],
+      [ "ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html#a211c2e05f9d912435891d15d4d4077ee", null ],
       [ "ChangeNameAction", "../Csharp/classMR_1_1ChangeNameAction.html#a3f5ab9285c0c311f54bee7b3843e0d30", null ],
       [ "action", "../Csharp/classMR_1_1ChangeNameAction.html#a31fe7a1e823a6eafac64e1f938d127e4", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeNameAction.html#af1cfde16ecefcfcd786763a416f04d16", null ]
     ] ],
     [ "MR::ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html", [
       [ "ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html#a17ada46c73a48bca8f75c4863f38bfc8", null ],
+      [ "ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html#a13e205a0d0988c1e01aef80397e81945", null ],
+      [ "ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html#a672abc1b3c7819edcf917a3139c016f8", null ],
       [ "ChangeObjectAction", "../Csharp/classMR_1_1ChangeObjectAction.html#a7ebf8b2defd258d5327a416bd9ccfbe1", null ],
       [ "action", "../Csharp/classMR_1_1ChangeObjectAction.html#a7ee70cf340528a31e91524ecc01bcfae", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeObjectAction.html#a1eba7efd2915fa0eddd1f7740e5e676a", null ]
     ] ],
     [ "MR::ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html", [
       [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#aeec67bea2df66aad38b17fddfa9aa493", null ],
+      [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a89d2b5056a8322b48d0c06ab119e2ccc", null ],
+      [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a1e6a7ad33a1f4f4422ab5073a2aaed61", null ],
       [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a0010ef336bfd42ab265bbc00a3a384c4", null ],
       [ "ChangeVisualizePropertyAction", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a7adf727aef3b095f954f99a91f8013db", null ],
       [ "action", "../Csharp/classMR_1_1ChangeVisualizePropertyAction.html#a8411c0914e34a91b13f191bbdc38de4d", null ],
@@ -103,6 +131,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html", [
       [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#aec1c6d3f25a8b166e8992589eac677d2", null ],
+      [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#a9fb56009f447f3a9a53f8468c97f8c7a", null ],
+      [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#a714f2af8d70c6f4e9a900d65eb167b6c", null ],
       [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#a0336eb6acca1c5e62112603edabeb90b", null ],
       [ "ChangeObjectSelectedAction", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#afac2f44e994fd9c1cd1db4ffcb12be3e", null ],
       [ "action", "../Csharp/classMR_1_1ChangeObjectSelectedAction.html#a962cf2821b88d1c79c2616731f4195be", null ],
@@ -110,6 +140,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html", [
       [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a2ffe2df2e28d2e2e55fd0d3d067769e2", null ],
+      [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#aaf09fcfe16600298a41704abff774c0f", null ],
+      [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#ac10b5989686df6a1a0faf5664bd59b2e", null ],
       [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#ad8a9cf06aad75415112039e29e264912", null ],
       [ "ChangeObjectVisibilityAction", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a299edb2b589199a0d3d17a40c77b90cd", null ],
       [ "action", "../Csharp/classMR_1_1ChangeObjectVisibilityAction.html#a02a09f38fdad838c77e7c9d17f02fe70", null ],
@@ -117,12 +149,16 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html", [
       [ "ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html#adfc174c2d35dbf7c48817ce9a5b90a3d", null ],
+      [ "ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html#ab51c048e52b381914bd16b15795144cb", null ],
+      [ "ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html#a58e46e66cf5ecd858e3a3597bf58e782", null ],
       [ "ChangePointCloudAction", "../Csharp/classMR_1_1ChangePointCloudAction.html#a62c92b41514e59277dcd4322971107b3", null ],
       [ "action", "../Csharp/classMR_1_1ChangePointCloudAction.html#a1ad60546bf27a07549a8f5d999929ea4", null ],
       [ "assign", "../Csharp/classMR_1_1ChangePointCloudAction.html#ad071d98392da491a0045ab32b34226ce", null ]
     ] ],
     [ "MR::ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html", [
       [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a5e008b332b248ee55fa6843e93bb8771", null ],
+      [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a548c82473836aba10424b7209bd3eb73", null ],
+      [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a8654d9d0db6f94a1645f02b10787f77b", null ],
       [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#aa54e142d96b5b7bce3dd92518cf77337", null ],
       [ "ChangePointCloudPointsAction", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#aa09c3f9bc042c67e0bb7d0ec3eb50dee", null ],
       [ "action", "../Csharp/classMR_1_1ChangePointCloudPointsAction.html#a99c78e51614ea1ec44c4c7748752ec57", null ],
@@ -130,6 +166,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html", [
       [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a976ad1472a2448a00ef650ced1670db2", null ],
+      [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a8a2af425c11ff082f53b1ff514dedf7e", null ],
+      [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a72b1b0d831e856016cbe15a9efbcc735", null ],
       [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#a887eab98f7a0ea7a969ce5b92c05b580", null ],
       [ "ChangeOnePointInCloudAction", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#afad5554e1b5248db94bdd9eacd633892", null ],
       [ "action", "../Csharp/classMR_1_1ChangeOnePointInCloudAction.html#ac4b36c3c75fbbd438563cfd9c459c9fb", null ],
@@ -137,6 +175,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html", [
       [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#aa7a2aeacaca06768fcba73c554ba8531", null ],
+      [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#a08af33fc4b4f274834c17a5c0ae26b3e", null ],
+      [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#a99fb827c41967277937cf7fe6808d2e5", null ],
       [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#abb91888c6ea678d0d22fc80c533440b7", null ],
       [ "ChangePointCloudNormalsAction", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#afbef521bc410d949f068fbcbe62ae144", null ],
       [ "action", "../Csharp/classMR_1_1ChangePointCloudNormalsAction.html#aa2251976886e04940bc79fbf6860e9e4", null ],
@@ -144,6 +184,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html", [
       [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a522a6b51a7d4f4191ee5b520f47cb490", null ],
+      [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a9e2d556a1a7072096ad1017075b84494", null ],
+      [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#aada2ec7704dccdf689aa2fab7bc4ac81", null ],
       [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a1dd8fdfbf00d37baae4964a45107d571", null ],
       [ "ChangeOneNormalInCloudAction", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#afbb99fe525e8bcf3dfab0cf7fc81cccd", null ],
       [ "action", "../Csharp/classMR_1_1ChangeOneNormalInCloudAction.html#a871b173d5d105fe3e78e112abb1297a6", null ],
@@ -151,6 +193,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html", [
       [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a2398f8f48ebed86b0c6341028a016a10", null ],
+      [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a86a6e50d02b9db1163d0904b4749b4b5", null ],
+      [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a4fc23b5a59ee82aacf704a004cb09998", null ],
       [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a89798a5121b511a164308c1ca01a6a0b", null ],
       [ "ChangePolylineAction", "../Csharp/classMR_1_1ChangePolylineAction.html#a8ae4983678d403b2c1f44926343102b2", null ],
       [ "action", "../Csharp/classMR_1_1ChangePolylineAction.html#ad88603be79555a236a5cc94deacf77ae", null ],
@@ -158,18 +202,24 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html", [
       [ "ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#a5962de762f36f785b428e2ff48a8c4b7", null ],
+      [ "ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#ade6d73dbb8cbe99f25a3771cf1018374", null ],
+      [ "ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#ab6a73882f83cde6b0e0ba918ad62127c", null ],
       [ "ChangePolylinePointsAction", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#aee038ce52a0d541c465d01e50ddb899b", null ],
       [ "action", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#a4f7d7e5b62810fd511e9e1d32ceb1200", null ],
       [ "assign", "../Csharp/classMR_1_1ChangePolylinePointsAction.html#aa45539cbca541218cebbf29d9b7a1a63", null ]
     ] ],
     [ "MR::ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html", [
       [ "ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#ab076f06e93a6de6f584bb00b28669614", null ],
+      [ "ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#ae828bc30438506e253c435410c73fc35", null ],
+      [ "ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a97d4cf94f90149925b6ac4901332b51c", null ],
       [ "ChangePolylineTopologyAction", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a33b56b2e0051b9e874ddb934311a1958", null ],
       [ "action", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a076864d17c825043e1db7aba87d5fd52", null ],
       [ "assign", "../Csharp/classMR_1_1ChangePolylineTopologyAction.html#a51101fe0b0556bf3af85821667bd02af", null ]
     ] ],
     [ "MR::ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html", [
       [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#a5be505a4256e3d3d31985508f47ecb42", null ],
+      [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#aa897f0f0fcb2daff3aea612bf737526c", null ],
+      [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#adad9aff3af078eea25ea18900e297ace", null ],
       [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#a51d591fa750cb9b5938fa03a65788f69", null ],
       [ "ChangeOnePointInPolylineAction", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#aecf2ccea7941f87c6ef6bf42377850a9", null ],
       [ "action", "../Csharp/classMR_1_1ChangeOnePointInPolylineAction.html#aaddf77920eb8860879f0702f7ea1fb57", null ],
@@ -177,24 +227,32 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html", [
       [ "ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html#a2764e98ddb249e87b5c613fd806460af", null ],
+      [ "ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html#ad62f19e63b761e0a213e6e6f1e7eda3c", null ],
+      [ "ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html#a1f8540ec2ba3a44f5ff3d27547c13a16", null ],
       [ "ChangeScaleAction", "../Csharp/classMR_1_1ChangeScaleAction.html#adaef4c9c3e6472638171e008a86ecb4b", null ],
       [ "action", "../Csharp/classMR_1_1ChangeScaleAction.html#ab1674053823891c4410791c50ec58af2", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeScaleAction.html#a37cd5443fb3803538d7818697e7106f7", null ]
     ] ],
     [ "MR::ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html", [
       [ "ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html#aef840704022a06a4c9f2382bb031e63b", null ],
+      [ "ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html#aae57d44d509f0e90240df744a2845688", null ],
+      [ "ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html#ad31e3211e5091b00197bc515bb739258", null ],
       [ "ChangeSceneAction", "../Csharp/classMR_1_1ChangeSceneAction.html#a44ec1ce57a0843499c0a84bcbb2019f1", null ],
       [ "action", "../Csharp/classMR_1_1ChangeSceneAction.html#ac3b337d9f5baaf934dcb400d0462ee4a", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeSceneAction.html#aaf0e75e81f7c9c9f719bb26ecfb94968", null ]
     ] ],
     [ "MR::ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html", [
       [ "ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#ae081a547586e38a6c26918ef7db27619", null ],
+      [ "ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#a2c1c44ed7e524e216e483c6db7717c75", null ],
+      [ "ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#a5aab0cdd4f714cfd8e6e263f0816cbc0", null ],
       [ "ChangeSceneObjectsOrder", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#a479d8992d02eafb170dfdf5bac65ae50", null ],
       [ "action", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#a08b18f713923fd48160d16a8fac99781", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeSceneObjectsOrder.html#adbd933f8454892ca124ce251e0078f24", null ]
     ] ],
     [ "MR::ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html", [
       [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#af930a33e9a72e8059440b7e0221df99e", null ],
+      [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#adb14d761829222bffbeddde4a7f62aa6", null ],
+      [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a93c32afc1b43794d848d84e1ac1faed8", null ],
       [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a114c230cdf95ada244d25b7f899bc188", null ],
       [ "ChangeMeshFaceSelectionAction", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a978a54519360173be212027550750c0a", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshFaceSelectionAction.html#a1b29a5d063cd9bd2eca85cb1a201e4a0", null ],
@@ -202,6 +260,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html", [
       [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a31d359806339041f958510a09537a8da", null ],
+      [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a2abdf5e3dc7864c51b300b36a0d9ddc3", null ],
+      [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#af7bcc388743a21c455c0964fcf8b5938", null ],
       [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#afbb758792dcd12d2715df0a588c5b796", null ],
       [ "ChangeMeshEdgeSelectionAction", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#ae258d1de6d81ace5845d1bf0a61920f5", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a4acf78b9d6737bbf5676ab67f78217b7", null ],
@@ -209,6 +269,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html", [
       [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#a5fa018f1f7a0f760f13db53a286a78b5", null ],
+      [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#a286cdc89744c179e8ba5fb9ac25d4e1d", null ],
+      [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#aad0cf6bf0bc97bab8616546a359d4daa", null ],
       [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#ac90858a746722f9a3f5843d76095bcfc", null ],
       [ "ChangeMeshCreasesAction", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#ad494599517270335eba39479dc8f7c87", null ],
       [ "action", "../Csharp/classMR_1_1ChangeMeshCreasesAction.html#a1854c6f67cc7b0aed4a1c140864824ec", null ],
@@ -216,6 +278,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html", [
       [ "ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#abae9fe805d3d68140d0d9ebafaf49573", null ],
+      [ "ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#a6e1eb090c89cc58c840ff36bf2d5990f", null ],
+      [ "ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#a0718ce9f5b94d452261563703efc9bf9", null ],
       [ "ChangePointPointSelectionAction", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#af012712edbf7e66018ef32c511a51cae", null ],
       [ "action", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#a84d4c8a2f8d3878fcd88ce280badc358", null ],
       [ "assign", "../Csharp/classMR_1_1ChangePointPointSelectionAction.html#af6b4fe68af3c08fe32f3236fc14b92eb", null ]
@@ -236,6 +300,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html", [
       [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892", null ],
+      [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#a9e4a96cc6074e6bebf69ad0a3c1b3b02", null ],
+      [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#a1f5d629c923683c833982184b9a1228e", null ],
       [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#a4e7b80b28ca3f0265550998e7d40d52f", null ],
       [ "ChangeXfAction", "../Csharp/classMR_1_1ChangeXfAction.html#a79b7a6f9fab81ff6c4c7694b332ebd7f", null ],
       [ "action", "../Csharp/classMR_1_1ChangeXfAction.html#a41ccc6603a8b6a7d46cedf10de7f570b", null ],
@@ -243,6 +309,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html", [
       [ "CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html#a700a0fa9718ca688df2b3ab52dae6824", null ],
+      [ "CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html#a2c7d0e924364b90b431fd3ab200657aa", null ],
+      [ "CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html#a021de2ac1529160ed4f49e1d82e581ca", null ],
       [ "CombinedHistoryAction", "../Csharp/classMR_1_1CombinedHistoryAction.html#aee0c2b74bb5b1590616ea67a38a34884", null ],
       [ "action", "../Csharp/classMR_1_1CombinedHistoryAction.html#ace723fe0552e381f472a4cafa459a886", null ],
       [ "assign", "../Csharp/classMR_1_1CombinedHistoryAction.html#a2f2013983c21cff27e1c97f5bc39374c", null ],
@@ -255,15 +323,19 @@ var group__HistoryGroup =
     [ "MR::CmpOld", "../Csharp/classMR_1_1CmpOld.html", [
       [ "CmpOld", "../Csharp/classMR_1_1CmpOld.html#a4d6411890e1690d764794e3c796a3319", null ],
       [ "CmpOld", "../Csharp/classMR_1_1CmpOld.html#a6630134d4e8b0999e1ece83d49333cd1", null ],
+      [ "CmpOld", "../Csharp/classMR_1_1CmpOld.html#acb98186615c48bbc26db5634e720f5a7", null ],
       [ "assign", "../Csharp/classMR_1_1CmpOld.html#a73142ce0b18c4dc2aaa63eb9006e2a03", null ]
     ] ],
     [ "MR::SetNew", "../Csharp/classMR_1_1SetNew.html", [
       [ "SetNew", "../Csharp/classMR_1_1SetNew.html#ae08f8d7caec2c64f01c1ea85707c06df", null ],
       [ "SetNew", "../Csharp/classMR_1_1SetNew.html#afce5f6bb6bbbd0222b6aea6e7714a5d8", null ],
+      [ "SetNew", "../Csharp/classMR_1_1SetNew.html#ae731f5c384bc10b57be6dd845f966245", null ],
       [ "assign", "../Csharp/classMR_1_1SetNew.html#a84cd19e7b2373576caf4ae7c62514947", null ]
     ] ],
     [ "MR::PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html", [
       [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#a30de1b78ff666a725347b449e06607f1", null ],
+      [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#a5d6c4b1181186d1236e0dad4d2ab53e5", null ],
+      [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#a5e2443898f7e88ef9e637639bfbba4f0", null ],
       [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#ae9b50fc2bece8a066334d3e5b4d0ea7a", null ],
       [ "PartialChangeMeshAction", "../Csharp/classMR_1_1PartialChangeMeshAction.html#ad2d0abad0e0e239ed0ec0133326d4c22", null ],
       [ "action", "../Csharp/classMR_1_1PartialChangeMeshAction.html#a82e55fc67bd55776b69670dda6e70a59", null ],
@@ -271,6 +343,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html", [
       [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a73ca11aa96a7964948d458cc576ab80b", null ],
+      [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#af1397b4d1a6d7e419875f4005ee3c160", null ],
+      [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#ad790f0ee2fc76db225d8848b0f4b1857", null ],
       [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a91cd182ed287806ec995bb8eefe39d25", null ],
       [ "PartialChangeMeshPointsAction", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a846ef4575fe0b0c0caa9c7ac8cd8132f", null ],
       [ "action", "../Csharp/classMR_1_1PartialChangeMeshPointsAction.html#a972de5014bbf59a4e6f50ae0bb2a0be7", null ],
@@ -278,6 +352,8 @@ var group__HistoryGroup =
     ] ],
     [ "MR::PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html", [
       [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a998cb12314dc78b7e25aeffb28fc3580", null ],
+      [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a8043deec05fdbc02155d8663d7c5520f", null ],
+      [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#aa5f1525eaaacd1e7203f5429326d982f", null ],
       [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a242c0344fc8754938a3720673b96b3d7", null ],
       [ "PartialChangeMeshTopologyAction", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#ab29fe92190d1c5cf8d63be290af6b44e", null ],
       [ "action", "../Csharp/classMR_1_1PartialChangeMeshTopologyAction.html#a52f036c5e111b16431f57f68a69fe733", null ],
@@ -325,12 +401,16 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html", [
       [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#a0a8d020b6c8c67de77b8ae5b40a95902", null ],
+      [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#ab1ee054a94f29caa63ad34e349cafe20", null ],
+      [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#aa631dd4f79511831a7e9189d9c5a2544", null ],
       [ "ChangeIsoAction", "../Csharp/classMR_1_1ChangeIsoAction.html#ac3a9b65274e4da8253ace748a75e970d", null ],
       [ "action", "../Csharp/classMR_1_1ChangeIsoAction.html#a96c5e06b6962b3b23cce2734cec81a14", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeIsoAction.html#a0156ca16e9dbe05a2bbcb02db951205e", null ]
     ] ],
     [ "MR::ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html", [
       [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#aba246c956e4a86c2125b1617ba03ca39", null ],
+      [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#a630f9ea7c6b5f5f5fd9a89460594cb10", null ],
+      [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#ae93684965fbccaaaaf217d2665e1dd88", null ],
       [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#a91f16ec799ecbf072ede681a7f7a9122", null ],
       [ "ChangeDualMarchingCubesAction", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#a538fdd76c6ac25ab39a76a2e3ad015d8", null ],
       [ "action", "../Csharp/classMR_1_1ChangeDualMarchingCubesAction.html#ac75375da5fbd1e7c9fcfbc6190db272d", null ],
@@ -338,18 +418,24 @@ var group__HistoryGroup =
     ] ],
     [ "MR::ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html", [
       [ "ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19", null ],
+      [ "ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd", null ],
+      [ "ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#aa42ed921c92f6ee6d545be92ef1fd845", null ],
       [ "ChangeActiveBoxAction", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#a2e8f107ef50ad7ba5b4355c5f4d4a49d", null ],
       [ "action", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeActiveBoxAction.html#a745e66b7df041caacaee35851d7e17a9", null ]
     ] ],
     [ "MR::ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html", [
       [ "ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a5f41e4016c83cca53e4504d00fb27225", null ],
+      [ "ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a52cca979d6de53736c44d474c97763d4", null ],
+      [ "ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a6fac4997d7535c9e3fc7c705a0f92e3e", null ],
       [ "ChangeSurfaceAction", "../Csharp/classMR_1_1ChangeSurfaceAction.html#af452f51e142c048f5d58098116b72a88", null ],
       [ "action", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a6e5d54a9584c4d617a5f8904636403af", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeSurfaceAction.html#a75e0f98ddf289380fbf27895d6edd196", null ]
     ] ],
     [ "MR::ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html", [
       [ "ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html#a04d96001c2ddfed783078a533276f3df", null ],
+      [ "ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html#a22c11892a15e1a1e40612520376b3ec2", null ],
+      [ "ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html#a13c90781d6a04d5f167c6cbd763933cf", null ],
       [ "ChangeGridAction", "../Csharp/classMR_1_1ChangeGridAction.html#afc8f136abd2318ff4919399cd6e07e40", null ],
       [ "action", "../Csharp/classMR_1_1ChangeGridAction.html#ad3847e7fef1aa9074696750b82fb8041", null ],
       [ "assign", "../Csharp/classMR_1_1ChangeGridAction.html#a18af0eb3d350566f157779cefc3dde76", null ]
@@ -357,6 +443,8 @@ var group__HistoryGroup =
     [ "MR::ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html", [
       [ "Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
       [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a7c97719d888ca0660e62cd6b8d7bddb3", null ],
+      [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#aa9634997ae77d0208ea81d116feef5d9", null ],
+      [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a20eff995d8d74dfb6ad01d9b0aa118eb", null ],
       [ "ChangVoxelSelectionAction", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a4415dbb47a28341c589cec0b8e663598", null ],
       [ "ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
       [ "action", "../Csharp/classMR_1_1ChangVoxelSelectionAction.html#a6057cf602ef3a35238b374a070de3fde", null ],

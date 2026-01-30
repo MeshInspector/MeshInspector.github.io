@@ -2,6 +2,8 @@ var classMR_1_1Const__PointsToMeshParameters =
 [
     [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a076346c0ea79f7b88195379911ebcf02", null ],
     [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#ab79bd52781d94d37903c2d935409ec6a", null ],
+    [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a0248e7c825803bab138e061fe38b2ed1", null ],
+    [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a0538a1e85676e7a2ec4e43e28552850d", null ],
     [ "Dispose", "classMR_1_1Const__PointsToMeshParameters.html#a7d4171e271766fda1ab7246a621817c9", null ],
     [ "Dispose", "classMR_1_1Const__PointsToMeshParameters.html#ab36a60055785d5f5a6334ede750da8aa", null ],
     [ "__ptr_storage_ptColors", "classMR_1_1Const__PointsToMeshParameters.html#a90dfa0da91fd9bdc13cae8fb95297fd6", null ],

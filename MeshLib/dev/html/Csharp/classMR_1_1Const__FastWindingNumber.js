@@ -1,6 +1,8 @@
 var classMR_1_1Const__FastWindingNumber =
 [
     [ "Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html#a09cac0cdde62b991ea63064b9fd70a86", null ],
+    [ "Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html#af9952fbdd67790e83df7534840c7190b", null ],
+    [ "Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html#ab154a81352e86fb27f9a15f63bb8dc0a", null ],
     [ "Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html#a7587e29c61db93cec7761c054c221451", null ],
     [ "Dispose", "classMR_1_1Const__FastWindingNumber.html#a92a1eb268ee763268d9949bdbe40aa1e", null ],
     [ "Dispose", "classMR_1_1Const__FastWindingNumber.html#a24bee8c8e3d72752fd52caf6f02b21ea", null ],

@@ -2,6 +2,8 @@ var classMR_1_1Const__Polynomial__Double__1 =
 [
     [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#aa3be7fa6ead8dfcf0a2201f57e4eae7c", null ],
     [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#a76df3cb42f0e07f30dc011db1de5042a", null ],
+    [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#afc9d552c7865e0e92244c52f01356e5e", null ],
+    [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#a8849b20fba01da728d1950d40b94d08e", null ],
     [ "call", "classMR_1_1Const__Polynomial__Double__1.html#a3d7508ef8d6de347239ec47026c5b28c", null ],
     [ "deriv", "classMR_1_1Const__Polynomial__Double__1.html#a0447cfe1bdacd25a414b1ad660cae5d7", null ],
     [ "Dispose", "classMR_1_1Const__Polynomial__Double__1.html#ad7b79292ea412f55384bf5a288f8de72", null ],

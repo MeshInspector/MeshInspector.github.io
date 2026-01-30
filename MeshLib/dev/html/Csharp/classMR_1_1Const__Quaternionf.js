@@ -2,6 +2,7 @@ var classMR_1_1Const__Quaternionf =
 [
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#adf1bfe02d47b568f314b0147b0dd94a8", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a1f81f63ae8de752cdb7bbcdac8461786", null ],
+    [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a152a1b53ef817afead9dd4b57dcc82be", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a11cde6c7e9440c25d1d8bb5ee79f77bf", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a0bb33f1a5850af4f68e115f4b407eac9", null ],
     [ "Const_Quaternionf", "classMR_1_1Const__Quaternionf.html#a7bb8fabf33cf342b5381c4bb0e2b9d4b", null ],

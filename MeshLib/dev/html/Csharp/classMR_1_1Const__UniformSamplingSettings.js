@@ -3,6 +3,8 @@ var classMR_1_1Const__UniformSamplingSettings =
     [ "Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html#a09dea335dbc5359dcb207be062516b6a", null ],
     [ "Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html#a732eed7b3f0ed838756923abf2120f7b", null ],
     [ "Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html#a161b792bb4b5b0b62a9baf9446648b31", null ],
+    [ "Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html#a3548b33e1abf0543a2b4e54eb84bc2d8", null ],
+    [ "Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html#ad911ab2f34c577b61f1555f25af16ce0", null ],
     [ "Dispose", "classMR_1_1Const__UniformSamplingSettings.html#a748c08aff42122564e39195263c5b012", null ],
     [ "Dispose", "classMR_1_1Const__UniformSamplingSettings.html#a8da64fe1e5248a061b92f1fd7d7d6e3b", null ],
     [ "__ptr_storage_pNormals", "classMR_1_1Const__UniformSamplingSettings.html#a82e60de6008227c9001f31e1bf8dd684", null ],

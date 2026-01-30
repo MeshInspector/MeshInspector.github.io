@@ -2,6 +2,7 @@ var classMR_1_1Const__EdgeSegment =
 [
     [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#a058b18a38e0c6e681a6b968f59d767ea", null ],
     [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#aa237f633fbd6c8f1279d9e963952f695", null ],
+    [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#ace370ebd8a78ffe737a694662705ecbf", null ],
     [ "Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html#aae3cf19d94fc2db167aa76da1e09ed9a", null ],
     [ "Dispose", "classMR_1_1Const__EdgeSegment.html#a165301df5698fcb299c7d829371fcb00", null ],
     [ "Dispose", "classMR_1_1Const__EdgeSegment.html#af02c49a5e371a6d65598348cbac20ccb", null ],

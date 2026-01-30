@@ -2,6 +2,7 @@ var classMR_1_1Const__PointToPointAligningTransform =
 [
     [ "Const_PointToPointAligningTransform", "classMR_1_1Const__PointToPointAligningTransform.html#adb5542b3866d47d70533e4bca7ff8b87", null ],
     [ "Const_PointToPointAligningTransform", "classMR_1_1Const__PointToPointAligningTransform.html#aaee5b3f2446fab3ca70a61c7d7224618", null ],
+    [ "Const_PointToPointAligningTransform", "classMR_1_1Const__PointToPointAligningTransform.html#a271c66a5b304c44c7a2b5f7baefb8809", null ],
     [ "centroid1", "classMR_1_1Const__PointToPointAligningTransform.html#afdd0ca4d2685a190cb9c5b977f8b52de", null ],
     [ "centroid2", "classMR_1_1Const__PointToPointAligningTransform.html#adb265a0024578aa6ff7f0e8dc69e0bea", null ],
     [ "Dispose", "classMR_1_1Const__PointToPointAligningTransform.html#aacb84b2829d35b5e4bf767fea8353b8d", null ],

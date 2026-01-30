@@ -3,6 +3,8 @@ var classMR_1_1Const__MakeSignedByWindingNumberSettings =
     [ "Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a7f8fb86b426f8ecd975d6f517f615eba", null ],
     [ "Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a8ea0183c32adf0704cb7a321badaec6a", null ],
     [ "Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a4585efd4f8d52327cea48d24b953f94f", null ],
+    [ "Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a1b394f8f3299dd6a65ba41b0b13c46e8", null ],
+    [ "Const_MakeSignedByWindingNumberSettings", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a281b516529036e240e806687b5fd874a", null ],
     [ "Dispose", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a0993cd1183f93ae1a052f21f1056086e", null ],
     [ "Dispose", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#adb193f6599e528e987dca0322f961e47", null ],
     [ "__ref_storage_meshToGridXf", "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a1e15fcddbc6fb6c01aed32a0670e2590", null ],

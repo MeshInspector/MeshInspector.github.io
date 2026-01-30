@@ -3,6 +3,8 @@ var classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId =
     [ "Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#a0d3eda88124a99796d974a961c34f4af", null ],
     [ "Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#ac835b8832f13e2e5b1eea8438d4aca53", null ],
     [ "Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#a4b76d197f64ec8a9d59b885a9fdd23df", null ],
+    [ "Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#a15c883273f0a821b39d12c426dd81a5d", null ],
+    [ "Const_MapOrHashMap_MREdgeId_MREdgeId", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#a20accb35727dffd832e53b960dd1d345", null ],
     [ "createHashMap", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#ad4ea7aef1a2598c6f68fa6edffaec881", null ],
     [ "createMap", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#a4f820eea813c4313176413840960ec8b", null ],
     [ "Dispose", "classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId.html#ab391bd5fd2f84046be2750a3728a1587", null ],

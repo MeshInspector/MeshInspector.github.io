@@ -2,6 +2,8 @@ var classMR_1_1Const__UndirectedEdge2RegionMap =
 [
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a62a29a702ec3943574cfbc891e583e6b", null ],
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a91c1a694f412ccf97a541e1f5e471fa2", null ],
+    [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#aec5d104df09b5fd54ed06e8d08c53044", null ],
+    [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#acc014a068fa36200bab029b296476ac6", null ],
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a338de5ca577ce767e61af9460c42e418", null ],
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a8de49b709d3010858df343de34db7a78", null ],
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#ad4da85abe7bf3aeb89b0bc41342b6385", null ],

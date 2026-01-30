@@ -3,6 +3,8 @@ var classMR_1_1FixUndercuts_1_1Const__FixParams =
     [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#ad98ee84f9460c29e2c0320d41061a180", null ],
     [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#af01e64bf69e4669ed4dfc6a7a8f4c1c1", null ],
     [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#a5a35ef48610636cbc68b3b93e4abeb4a", null ],
+    [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#a166a2167d033a00194dc41c2485c6fca", null ],
+    [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#ae21d4550f7b0d9ac4ce3b035876296ac", null ],
     [ "Dispose", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#aa1209f77b87b1c14379eff363c3f03af", null ],
     [ "Dispose", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#a18dc406028b945e6373cf522141e1eac", null ],
     [ "__ptr_storage_region", "classMR_1_1FixUndercuts_1_1Const__FixParams.html#a772640e0e5f92729abbc952fa539c485", null ],

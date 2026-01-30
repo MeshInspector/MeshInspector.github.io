@@ -2,6 +2,8 @@ var classMR_1_1TextMeshAlignParams =
 [
     [ "TextMeshAlignParams", "../Csharp/classMR_1_1TextMeshAlignParams.html#a4ae7f2e028dd2da2d0ac030fd019ca4a", null ],
     [ "TextMeshAlignParams", "../Csharp/classMR_1_1TextMeshAlignParams.html#a1ae6db0844c52f4277819b4f6c5fa3b9", null ],
+    [ "TextMeshAlignParams", "../Csharp/classMR_1_1TextMeshAlignParams.html#a7d369a760ea1d649c4ce62020b2909e1", null ],
+    [ "TextMeshAlignParams", "../Csharp/classMR_1_1TextMeshAlignParams.html#acc999948f0dad5b13920ffb51eb8fd6c", null ],
     [ "assign", "../Csharp/classMR_1_1TextMeshAlignParams.html#a9046bca00ac5aa23fc3f96b2127cd409", null ],
     [ "align", "../Csharp/classMR_1_1TextMeshAlignParams.html#ac4f3dc3f912694a811e17a5d4144404c", null ],
     [ "direction", "../Csharp/classMR_1_1TextMeshAlignParams.html#a60fd69d1f38e07a8ff186da1377bb12c", null ],

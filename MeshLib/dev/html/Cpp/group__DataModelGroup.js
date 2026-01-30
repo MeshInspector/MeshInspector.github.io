@@ -6,6 +6,8 @@ var group__DataModelGroup =
     [ "MR::ObjectChildrenHolder", "../Csharp/classMR_1_1ObjectChildrenHolder.html", [
       [ "ObjectChildrenHolder", "../Csharp/classMR_1_1ObjectChildrenHolder.html#a7ba5be97e7dfefb6200789459fd60a8a", null ],
       [ "ObjectChildrenHolder", "../Csharp/classMR_1_1ObjectChildrenHolder.html#aa27e9013f8b949ca89b341d78bafa2d2", null ],
+      [ "ObjectChildrenHolder", "../Csharp/classMR_1_1ObjectChildrenHolder.html#ad437c99119ab7c094c761412853fc697", null ],
+      [ "ObjectChildrenHolder", "../Csharp/classMR_1_1ObjectChildrenHolder.html#acfbf4f853ed5222360d4d5e2f8a90a43", null ],
       [ "assign", "../Csharp/classMR_1_1ObjectChildrenHolder.html#a6a8c99273ac65373743926f3af4fdd5e", null ]
     ] ],
     [ "MR::Object", "../Csharp/classMR_1_1Object.html", [
@@ -452,6 +454,8 @@ var group__DataModelGroup =
     ] ],
     [ "MR::SceneRoot", "../Csharp/classMR_1_1SceneRoot.html", [
       [ "SceneRoot", "../Csharp/classMR_1_1SceneRoot.html#ab38d00140222cf6a4d49342bf98c6042", null ],
+      [ "SceneRoot", "../Csharp/classMR_1_1SceneRoot.html#a870c404c0ad94e3187cad8f920c51963", null ],
+      [ "SceneRoot", "../Csharp/classMR_1_1SceneRoot.html#a3ca512dc61c78464938704b0feeed7c6", null ],
       [ "assign", "../Csharp/classMR_1_1SceneRoot.html#a326d047e0fe513b13c65a34a94051962", null ]
     ] ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", [

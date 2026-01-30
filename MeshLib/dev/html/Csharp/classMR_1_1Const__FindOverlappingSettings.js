@@ -3,6 +3,8 @@ var classMR_1_1Const__FindOverlappingSettings =
     [ "Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html#a65b4f097a5d34cd8908eb20e254e3527", null ],
     [ "Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html#a3d858be62fac75de3dc811857d8029b6", null ],
     [ "Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html#a8e4d8e4c014e4118a9c818a7c816b68e", null ],
+    [ "Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html#a67d4fd671e15f2f9a966744ada23b9f5", null ],
+    [ "Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html#ae09cd55f1ccf63c9a2e26b9c87911889", null ],
     [ "Dispose", "classMR_1_1Const__FindOverlappingSettings.html#a0bc2e7ba2781dffdfaee5e5d546a7fb4", null ],
     [ "Dispose", "classMR_1_1Const__FindOverlappingSettings.html#aa06d4b25f76765507889ae6a10e2f9f7", null ],
     [ "__ref_storage_maxDistSq", "classMR_1_1Const__FindOverlappingSettings.html#a171698626ec9446e0bf30c603794b6c6", null ],

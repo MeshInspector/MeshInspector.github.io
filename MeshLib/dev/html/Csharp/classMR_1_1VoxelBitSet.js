@@ -2,6 +2,8 @@ var classMR_1_1VoxelBitSet =
 [
     [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#a30bb3168a3fd49a53ebffb13d2fae585", null ],
     [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#a0e6d9e63fd820f011128ae68335a4bdb", null ],
+    [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#af6b4a99a74c5b764174b149ab5bb2c92", null ],
+    [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#a78ef8efea5378faacb52b9bc36660832", null ],
     [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#a9e763e82f17bb39c6895a0de783617f9", null ],
     [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#a8ebad859c1b17a2dc641aa8a6f9cc1e5", null ],
     [ "VoxelBitSet", "classMR_1_1VoxelBitSet.html#addea5306e54b33fac91151947b0cd90d", null ],

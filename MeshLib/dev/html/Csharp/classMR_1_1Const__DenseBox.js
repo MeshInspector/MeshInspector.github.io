@@ -1,6 +1,7 @@
 var classMR_1_1Const__DenseBox =
 [
     [ "Const_DenseBox", "classMR_1_1Const__DenseBox.html#ad424bc725ffca4bcb771bf3fa187b4ff", null ],
+    [ "Const_DenseBox", "classMR_1_1Const__DenseBox.html#aa42ee4054663643664efe4a4f63abc97", null ],
     [ "Const_DenseBox", "classMR_1_1Const__DenseBox.html#a1062e17ec2ffc347b71a41ff0583d6b6", null ],
     [ "Const_DenseBox", "classMR_1_1Const__DenseBox.html#a82f7a2ce0be88c7327751ceda7e7a2dc", null ],
     [ "Const_DenseBox", "classMR_1_1Const__DenseBox.html#a0c95c1c9f460deab7c2cece2c524e61c", null ],

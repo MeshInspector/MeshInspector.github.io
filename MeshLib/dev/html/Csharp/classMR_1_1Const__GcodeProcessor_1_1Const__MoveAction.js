@@ -3,6 +3,8 @@ var classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction =
     [ "Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#a3f88ab6a92ea865a0fc299b5fc1ba5d5", null ],
     [ "Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#abdd24334b8e383f2a7b3b3d523aa7e27", null ],
     [ "Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#aeda18e7f469889e9f3664f229eda1db6", null ],
+    [ "Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#a751ae98ff8b7789dc80374417d63b322", null ],
+    [ "Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#aa6ddcf08f5f5c69ee0711a60e6403e04", null ],
     [ "Dispose", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#ad557a914ec3b1e290ebec76bf9673356", null ],
     [ "Dispose", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#ac5ad031cf98381bf0d34faef17c6e67d", null ],
     [ "operator bool", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html#aea30fe819890ac3d91d5e89f4f5612c6", null ],

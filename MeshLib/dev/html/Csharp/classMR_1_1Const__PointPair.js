@@ -2,6 +2,7 @@ var classMR_1_1Const__PointPair =
 [
     [ "Const_PointPair", "classMR_1_1Const__PointPair.html#adc0940e38387186369631cab71c9192b", null ],
     [ "Const_PointPair", "classMR_1_1Const__PointPair.html#ad6be1f05b3efa772d7b038ddb6bf95c1", null ],
+    [ "Const_PointPair", "classMR_1_1Const__PointPair.html#ae2057b3d4c832a43f27724d7a8259b89", null ],
     [ "Dispose", "classMR_1_1Const__PointPair.html#a97b6bfd4325704b718f72b445a97fc72", null ],
     [ "Dispose", "classMR_1_1Const__PointPair.html#afd8e142bbec4acf6bbc899696eea8e5a", null ],
     [ "Equals", "classMR_1_1Const__PointPair.html#ac4b5a3164b25340f980fe417f6da9014", null ],

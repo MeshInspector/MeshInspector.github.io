@@ -2,6 +2,8 @@ var classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId =
 [
     [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#af2416e7bfd22381fa1aa9cb5bc565457", null ],
     [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#ab1a5f5ea0a1ca0142b48d2a19d783758", null ],
+    [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a6fe2c91eef2c2e08ab4cfeebfe54b2ab", null ],
+    [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a4b8f19522599bfb1b7c23659f16a665d", null ],
     [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a7ef4c95b460dc94489766aac7190e9b2", null ],
     [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a6f0cf240147c07c5b9080b3e5b96c96c", null ],
     [ "Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#ace2d78d77e806f97cc01dc66340e984c", null ],

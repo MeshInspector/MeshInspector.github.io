@@ -2,6 +2,8 @@ var classMR_1_1Const__Mesh =
 [
     [ "Const_Mesh", "classMR_1_1Const__Mesh.html#a66bf626fa6179f74d29b64d7699dfffc", null ],
     [ "Const_Mesh", "classMR_1_1Const__Mesh.html#af727989920b727d309ac085966c0e095", null ],
+    [ "Const_Mesh", "classMR_1_1Const__Mesh.html#aabc16c8d2aba46c93c818479cd2bfdd6", null ],
+    [ "Const_Mesh", "classMR_1_1Const__Mesh.html#a853250bb0b9058c74b23ffd5c4a33825", null ],
     [ "area", "classMR_1_1Const__Mesh.html#a6c703e2be679150316cd78d49d6d9fb8", null ],
     [ "area", "classMR_1_1Const__Mesh.html#a5416dcbe11b054b95d6ea180ab14404e", null ],
     [ "averageEdgeLength", "classMR_1_1Const__Mesh.html#a381f5f9893d294684d687fca219a0b2f", null ],

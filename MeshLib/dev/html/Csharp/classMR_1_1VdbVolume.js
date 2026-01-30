@@ -2,6 +2,8 @@ var classMR_1_1VdbVolume =
 [
     [ "VdbVolume", "classMR_1_1VdbVolume.html#a437a67b5b5c63277aa02b1154d7cce16", null ],
     [ "VdbVolume", "classMR_1_1VdbVolume.html#abd0a3edaaacf689f74b81ab20a385a47", null ],
+    [ "VdbVolume", "classMR_1_1VdbVolume.html#aec5e97451fd154c955efd00db9c9e430", null ],
+    [ "VdbVolume", "classMR_1_1VdbVolume.html#a64b7f05a83174ed8ee5ed9ee14437c7a", null ],
     [ "assign", "classMR_1_1VdbVolume.html#ae769456b94972b06bde76e94324d7d15", null ],
     [ "intersect", "classMR_1_1VdbVolume.html#a470d897a5436403d590f87220291c47d", null ],
     [ "operator MR.Box_Box1f", "classMR_1_1VdbVolume.html#a0995f24406f533002ac34a7bf2b49d53", null ],

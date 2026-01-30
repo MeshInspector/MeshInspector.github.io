@@ -3,6 +3,8 @@ var classMR_1_1Const__PointsLoadSettings =
     [ "Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html#a9b4e7a480f0349fb3e45d2bc5264c37e", null ],
     [ "Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html#a1bcf74808a6a3bc7ccc4bba252c38a6e", null ],
     [ "Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html#a09b5f57ff0bd793a1d3b88e98b9ee335", null ],
+    [ "Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html#ae52603bb61a84825d59faebd3bd298aa", null ],
+    [ "Const_PointsLoadSettings", "classMR_1_1Const__PointsLoadSettings.html#a47ac7402f10dbff4adf2351ae77cfbb0", null ],
     [ "Dispose", "classMR_1_1Const__PointsLoadSettings.html#a00ecb45886ea8c6cddff350879d9490f", null ],
     [ "Dispose", "classMR_1_1Const__PointsLoadSettings.html#aee3da2df601c9f075d1ac5df7e36e4c3", null ],
     [ "__ptr_storage_colors", "classMR_1_1Const__PointsLoadSettings.html#a206cbfa5f6869076caf5bfbfed78b37a", null ],

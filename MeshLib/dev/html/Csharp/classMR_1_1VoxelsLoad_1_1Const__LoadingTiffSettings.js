@@ -3,6 +3,8 @@ var classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings =
     [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#ac35c019af708e764856f5f68e47a1ff2", null ],
     [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a31458695b4cc18f58f4bb0922088b886", null ],
     [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a7273eef8dda566a418aa00a2a717b0c5", null ],
+    [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#ae9cda35d714063e1c04b381a62db50f5", null ],
+    [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#aa7bbb3b49ec6b1fa1336374d729f40a7", null ],
     [ "Dispose", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a1464336c087e8640286425f1c4fbbb77", null ],
     [ "Dispose", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#aa8e866ab3dbc18065fa5914886e48d81", null ],
     [ "__ref_storage_gridType", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a53b0fec3f2eedfc533c9ddcd80db076a", null ],

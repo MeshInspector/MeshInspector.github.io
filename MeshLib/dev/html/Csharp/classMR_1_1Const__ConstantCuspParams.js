@@ -2,6 +2,8 @@ var classMR_1_1Const__ConstantCuspParams =
 [
     [ "Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html#a27b32ed26ff54d959271c1596f1064b6", null ],
     [ "Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html#adcc4f6a739efdabc50b85721689052e7", null ],
+    [ "Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html#a3cedd0991c743515e50ca0c6b8c847ba", null ],
+    [ "Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html#a58a77b9aa0888cd0f3e6ff41eedd57a8", null ],
     [ "Dispose", "classMR_1_1Const__ConstantCuspParams.html#a7c509e05b6b991910f130f72ead98623", null ],
     [ "Dispose", "classMR_1_1Const__ConstantCuspParams.html#a1017a0a39696f828bdc36f176c6cc3e2", null ],
     [ "operator MR.Const_ToolPathParams", "classMR_1_1Const__ConstantCuspParams.html#a4473cf52c7613e6ce48c96112765adcf", null ],

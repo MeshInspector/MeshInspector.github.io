@@ -3,6 +3,8 @@ var classMR_1_1Const__DistanceFromWeightedPointsParams =
     [ "Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#af72966d0c6fced746596a100d77710d1", null ],
     [ "Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a72894bbd39fbae4722d03985f17746df", null ],
     [ "Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a9e9fcbab3fec39f762f5645946ff7fb5", null ],
+    [ "Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a21ed4d7aab7a7b81f3bddce7e2f70336", null ],
+    [ "Const_DistanceFromWeightedPointsParams", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a7dc35b19aa5c737575c0c0c1157b9e7f", null ],
     [ "Dispose", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a17eb17774c94d0349b8b771a14ef1711", null ],
     [ "Dispose", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a090c95b97e84dfabb539f1253393f01a", null ],
     [ "__ref_storage_bidirectionalMode", "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a8c4798063ea18d2418780227508dad83", null ],

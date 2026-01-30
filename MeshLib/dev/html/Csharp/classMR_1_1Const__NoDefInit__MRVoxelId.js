@@ -2,6 +2,7 @@ var classMR_1_1Const__NoDefInit__MRVoxelId =
 [
     [ "Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a61ab133a79153387de43efe7d3342044", null ],
     [ "Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a8f65254b314363eacd80152ed7f62392", null ],
+    [ "Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a743bcd0a18005b028fbc955edcedcab0", null ],
     [ "Dispose", "classMR_1_1Const__NoDefInit__MRVoxelId.html#ac095c0f671a7a4d823dad81f83ed102f", null ],
     [ "Dispose", "classMR_1_1Const__NoDefInit__MRVoxelId.html#aba82585af44b18c81e2d2145f82bbb55", null ],
     [ "Equals", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a8be1111213af4f200d5cce9669430cfc", null ],

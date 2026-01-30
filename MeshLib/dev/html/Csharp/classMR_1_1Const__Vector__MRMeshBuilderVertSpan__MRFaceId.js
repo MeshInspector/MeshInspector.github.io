@@ -2,6 +2,8 @@ var classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId =
 [
     [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#af229f28e52554ebf0135323c3b6de286", null ],
     [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#a633532b90092556b0417fea1c03e0903", null ],
+    [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#ab1683d3cef5c23087bb1f7e4e067b731", null ],
+    [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#a9b11defeb8c52cfa3f06ebb22419405d", null ],
     [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#a07c1013959c61361e13c428019b55c38", null ],
     [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#ac4ec8a8c3bd4253d8a32d801d46b2810", null ],
     [ "Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html#ac151eb2ad61bf016de374d952e7f858f", null ],

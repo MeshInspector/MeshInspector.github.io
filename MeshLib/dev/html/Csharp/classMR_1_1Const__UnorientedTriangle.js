@@ -1,6 +1,7 @@
 var classMR_1_1Const__UnorientedTriangle =
 [
     [ "Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html#a2c7f97fd3b529075b252cc84029b9683", null ],
+    [ "Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html#a19daa467c6f8b9b156b4d5e5dd257bd5", null ],
     [ "Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html#aaa10dcd2d0d25050729b4e44419fc89c", null ],
     [ "convertTo_ConstStd_Array_MRVertId_3Ref", "classMR_1_1Const__UnorientedTriangle.html#a02f6485d839e0ad81e280ed44d19d697", null ],
     [ "Dispose", "classMR_1_1Const__UnorientedTriangle.html#aa84c67f4edbd0c45384165ed979b2606", null ],

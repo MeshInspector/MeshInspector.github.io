@@ -1,6 +1,8 @@
 var classMR_1_1Const__MeasurementObject =
 [
     [ "Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html#a9d27d8056c236069fb04fe128df8c63f", null ],
+    [ "Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html#a5dc7e08f9ac1017e0d16c3c2c710666c", null ],
+    [ "Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html#a7a0457b4c108d491d69806b8d8288fed", null ],
     [ "className", "classMR_1_1Const__MeasurementObject.html#a50cb56adad1d3ad82154cac7d2f4d4c1", null ],
     [ "classNameInPlural", "classMR_1_1Const__MeasurementObject.html#a0d3bfe92f554537fe509b6f9c34bc655", null ],
     [ "clone", "classMR_1_1Const__MeasurementObject.html#ac6a72688bc447643fbeda8b71dcc4e46", null ],

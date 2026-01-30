@@ -10,6 +10,8 @@ var classMR_1_1Features_1_1Const__MeasureResult =
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#a68f0f564a167a8f327bd9004098d6bb8", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ae658bdbb48abcae76822e3c852754872", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ad2cac969d0d14adabbae6d088dafe4c2", null ],
+    [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ad98e528a856da63d1129efae53f9ff43", null ],
+    [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#aa47f85fd18d4105bbfc3a6bd3e4322e4", null ],
     [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult.html#a0f8238495e7072e8f864b3e4f0a5f571", null ],
     [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult.html#aa717440f1fd231c8e4dc442e09cdc1c6", null ],
     [ "angle", "classMR_1_1Features_1_1Const__MeasureResult.html#aea6d02d56de6923f0735384398b0ffd3", null ],

@@ -3,6 +3,7 @@ var classMR_1_1Const__MeshPointAndDistance =
     [ "Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html#a88fb5914e5b271002e9f4290973f44c1", null ],
     [ "Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html#a5016457bf6b2e7a2dcb3362a2ed4fbec", null ],
     [ "Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html#afae34c30afa03e3a41fb46c6a970b109", null ],
+    [ "Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html#ae69a3beb0a50c1b2f0631cc8bb30d07b", null ],
     [ "bidirDist", "classMR_1_1Const__MeshPointAndDistance.html#ad53224adbf0edaf75f2a3dc52d4e2396", null ],
     [ "Dispose", "classMR_1_1Const__MeshPointAndDistance.html#a3fba95643f93c732733a1844e2805041", null ],
     [ "Dispose", "classMR_1_1Const__MeshPointAndDistance.html#ac324bbd927ce5301f19f0efb779b458a", null ],

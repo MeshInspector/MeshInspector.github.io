@@ -3,6 +3,8 @@ var classMR_1_1Const__SubdivideSettings =
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a14fd7dd1a38583764e857562c06685a3", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a42aa4749a018b62f833ba9024c77e28b", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a188023ed4a15e58cb7783f4f1a85324d", null ],
+    [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a3664ca2c880c12fcf523182869c4dc82", null ],
+    [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#acc527c301f6bd4852405291464a392af", null ],
     [ "Dispose", "classMR_1_1Const__SubdivideSettings.html#ad200f99ae39e2c98e04f0e26a621f6a2", null ],
     [ "Dispose", "classMR_1_1Const__SubdivideSettings.html#aa18a50333e2cfad6bea54eda05478d1f", null ],
     [ "__ptr_storage_maintainRegion", "classMR_1_1Const__SubdivideSettings.html#a098b85653e15883ddb0721844ba615c8", null ],

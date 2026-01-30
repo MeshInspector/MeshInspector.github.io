@@ -3,6 +3,8 @@ var classMR_1_1Const__FillHoleNicelySettings =
     [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a2a376b2e57dac74eedf2e97a9e996ac3", null ],
     [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a6ea442607f38c60a74a3aa44b2e7f5eb", null ],
     [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#abc45baf156c3c5f8229cb22bf72c0ff2", null ],
+    [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a0aa4bea0f143aacad522fb41dc53ec2d", null ],
+    [ "Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html#a187b51786ab594dd84b889670b4d88ff", null ],
     [ "Dispose", "classMR_1_1Const__FillHoleNicelySettings.html#a62a962753cc4057220b62523662d87d5", null ],
     [ "Dispose", "classMR_1_1Const__FillHoleNicelySettings.html#ae138e2d851dd1bcd5e21a8051aa0eddd", null ],
     [ "__ptr_storage_colorMap", "classMR_1_1Const__FillHoleNicelySettings.html#ae8a579d44282d8e8bdd2b5f607da4218", null ],

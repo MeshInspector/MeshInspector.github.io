@@ -1,6 +1,8 @@
 var classMR_1_1FeatureObjectSharedProperty =
 [
     [ "FeatureObjectSharedProperty", "../Csharp/classMR_1_1FeatureObjectSharedProperty.html#a242619ceb7ebb4e7e708ba7759c15c6f", null ],
+    [ "FeatureObjectSharedProperty", "../Csharp/classMR_1_1FeatureObjectSharedProperty.html#add4676381512af8862c9ea5e808d88cf", null ],
+    [ "FeatureObjectSharedProperty", "../Csharp/classMR_1_1FeatureObjectSharedProperty.html#ae2ea76903c3d462931d8746ee95c60d7", null ],
     [ "assign", "../Csharp/classMR_1_1FeatureObjectSharedProperty.html#adb7d0a2cee810d9348b3104c9754b6d3", null ],
     [ "getter", "../Csharp/classMR_1_1FeatureObjectSharedProperty.html#a1a43eb44eeb36d8e32ebba33a4828314", null ],
     [ "kind", "../Csharp/classMR_1_1FeatureObjectSharedProperty.html#a492d9b6cee76f03deca7210e48f74f4b", null ],

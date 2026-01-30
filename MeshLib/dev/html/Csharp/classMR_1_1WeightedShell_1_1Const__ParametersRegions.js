@@ -4,6 +4,8 @@ var classMR_1_1WeightedShell_1_1Const__ParametersRegions =
     [ "Region", "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region.html", "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region" ],
     [ "Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#aa591c4ccdffb8d5bc16866da8a060c04", null ],
     [ "Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#a4ca271f133427e4943e73a62c7bda912", null ],
+    [ "Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#a15bdb4cd84da667c95f62754be4ef70b", null ],
+    [ "Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#a7b47a915ee0e371c55e40d146132f8d5", null ],
     [ "Dispose", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#a2121165447e5c5f422a8b2eb76c481c6", null ],
     [ "Dispose", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#af3444a0f43abc4f54e418ca7df1425d7", null ],
     [ "operator MR.WeightedShell.Const_ParametersBase", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html#a0c26082963f583ac832ff7c9ad2e2eb5", null ],

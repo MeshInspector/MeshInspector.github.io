@@ -2,6 +2,8 @@ var classMR_1_1Const__FaceNormals =
 [
     [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#a31b78393980face7f4fbc8e31bc950a5", null ],
     [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#a8ef8d1ea026c2a0a554b60cfb2d9e259", null ],
+    [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#a021796db9af59e608548cb1c92704397", null ],
+    [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#a859edcb5eaaa2562801fc0f4509c0e84", null ],
     [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#aa3e5597d10f083819bb5a173c455b187", null ],
     [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#a644a392f38077fc568a06752446bd883", null ],
     [ "Const_FaceNormals", "classMR_1_1Const__FaceNormals.html#abf26c48a5f74849f376e6945dba52f38", null ],

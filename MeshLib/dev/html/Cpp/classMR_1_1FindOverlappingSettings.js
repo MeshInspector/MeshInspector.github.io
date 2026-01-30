@@ -3,6 +3,8 @@ var classMR_1_1FindOverlappingSettings =
     [ "FindOverlappingSettings", "../Csharp/classMR_1_1FindOverlappingSettings.html#af2341a3a1fd62d71b5932f6253dfac17", null ],
     [ "FindOverlappingSettings", "../Csharp/classMR_1_1FindOverlappingSettings.html#a7d3b936d6df29134589b6c79cd07e2aa", null ],
     [ "FindOverlappingSettings", "../Csharp/classMR_1_1FindOverlappingSettings.html#a1c275f2be1c66defff5566910641bccd", null ],
+    [ "FindOverlappingSettings", "../Csharp/classMR_1_1FindOverlappingSettings.html#a076185b3212448d6951e8f04f3d7800f", null ],
+    [ "FindOverlappingSettings", "../Csharp/classMR_1_1FindOverlappingSettings.html#a76c37e6e5b96ffb1d0dabe5ae527e111", null ],
     [ "assign", "../Csharp/classMR_1_1FindOverlappingSettings.html#aa45d8b84680522000e4c77532d5efe8f", null ],
     [ "cb", "../Csharp/classMR_1_1FindOverlappingSettings.html#ada1b52a5931e5c7ce9ac2239931447c0", null ],
     [ "maxDistSq", "../Csharp/classMR_1_1FindOverlappingSettings.html#a107828077696ab8e03547eda1f72c1b2", null ],

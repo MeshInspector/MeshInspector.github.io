@@ -2,6 +2,7 @@ var classMR_1_1SymMatrix2b =
 [
     [ "SymMatrix2b", "classMR_1_1SymMatrix2b.html#ace5357a293c1a8139f23e9ad07faba7d", null ],
     [ "SymMatrix2b", "classMR_1_1SymMatrix2b.html#a87e8aefc1d5607d75ac7bc16b4e486b9", null ],
+    [ "SymMatrix2b", "classMR_1_1SymMatrix2b.html#aef2b42ad6a0e0ff48b8c0bfc2b219132", null ],
     [ "addAssign", "classMR_1_1SymMatrix2b.html#a1887359595a08143fbb42f5314a2083d", null ],
     [ "assign", "classMR_1_1SymMatrix2b.html#aaca614bebb4017782a99624915ffa95b", null ],
     [ "divAssign", "classMR_1_1SymMatrix2b.html#a3203b3c067556b8ede4d582dcb206a19", null ],

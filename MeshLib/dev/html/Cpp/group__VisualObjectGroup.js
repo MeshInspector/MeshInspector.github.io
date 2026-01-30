@@ -5,6 +5,7 @@ var group__VisualObjectGroup =
     [ "MR::IsVisualizeMaskEnum< VisualizeMaskType >", "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html", null ],
     [ "MR::AnyVisualizeMaskEnum", "../Csharp/classMR_1_1AnyVisualizeMaskEnum.html", [
       [ "AnyVisualizeMaskEnum", "../Csharp/classMR_1_1AnyVisualizeMaskEnum.html#a8b303efc4b359c355a6281397afe0711", null ],
+      [ "AnyVisualizeMaskEnum", "../Csharp/classMR_1_1AnyVisualizeMaskEnum.html#ad02b75f9c3df5d617cc37195ed0c1f43", null ],
       [ "AnyVisualizeMaskEnum", "../Csharp/classMR_1_1AnyVisualizeMaskEnum.html#aec84943c64a0cbc70b060668ae35bcb0", null ],
       [ "AnyVisualizeMaskEnum", "../Csharp/classMR_1_1AnyVisualizeMaskEnum.html#a1e18e2ea51a9e99f3ba6a8d17a7cd316", null ],
       [ "AnyVisualizeMaskEnum", "../Csharp/classMR_1_1AnyVisualizeMaskEnum.html#a9fa373eda4efc82492a10721605d915e", null ],
@@ -13,6 +14,7 @@ var group__VisualObjectGroup =
     [ "MR::Dirty", "../Csharp/classMR_1_1Dirty.html", [
       [ "Dirty", "../Csharp/classMR_1_1Dirty.html#a0f210d9ad150a32bfbd850e6a6f5ba7f", null ],
       [ "Dirty", "../Csharp/classMR_1_1Dirty.html#a638c9a0eb804875fbb233118a9861750", null ],
+      [ "Dirty", "../Csharp/classMR_1_1Dirty.html#a4e5f58d3f1b239214834e61590ef2e23", null ],
       [ "assign", "../Csharp/classMR_1_1Dirty.html#a16dc21b9f6670b7a9af6d7109268fb92", null ],
       [ "assign", "../Csharp/classMR_1_1Dirty.html#a41ac3d51fbb699d0751b0f3f22f7bea7", null ],
       [ "convertTo_UnsignedIntRef", "../Csharp/classMR_1_1Dirty.html#aadc5f0701f10a701f5e9d10d352333b0", null ],

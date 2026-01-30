@@ -2,6 +2,8 @@ var classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId =
 [
     [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#a94def4d4657ca82db294785f9c2af9af", null ],
     [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#a66a0c162229948d4060f1667f1289b62", null ],
+    [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#a5973dd5e44aee1d01746655d5e06b7d0", null ],
+    [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#a3affa4e0dab2e50480ef8917d8581cc3", null ],
     [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#ab9a01d600e3a3f3b4c94d6a697be2d8d", null ],
     [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#aea86a7ae76cb923c7fe6c24777227d56", null ],
     [ "Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html#a171f429effb1007c8dabcc319a1db0f4", null ],

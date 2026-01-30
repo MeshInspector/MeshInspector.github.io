@@ -3,6 +3,7 @@ var classMR_1_1Const__FindInnerShellSettings =
     [ "Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html#affc2cb68c9ae49a087a858733ee6424d", null ],
     [ "Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html#aa956b3fda8912e9e9ce9a345c7e99aaa", null ],
     [ "Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html#ab68c19d968c77a98abd790b604d4b3ca", null ],
+    [ "Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html#ab1054b875be6df70c4496a4c04d0a81f", null ],
     [ "Dispose", "classMR_1_1Const__FindInnerShellSettings.html#a8a774a5309199504787a060a28fbc00f", null ],
     [ "Dispose", "classMR_1_1Const__FindInnerShellSettings.html#a25d6377e3d10f61c14207f03a6ade601", null ],
     [ "__ref_storage_maxDistSq", "classMR_1_1Const__FindInnerShellSettings.html#a2eb01c39dd5e327bccd40eeb84361819", null ],

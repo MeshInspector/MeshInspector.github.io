@@ -2,6 +2,7 @@ var classMR_1_1Const__SegmPointd =
 [
     [ "Const_SegmPointd", "classMR_1_1Const__SegmPointd.html#ac533b27f83d5426138d4b5a29350abb0", null ],
     [ "Const_SegmPointd", "classMR_1_1Const__SegmPointd.html#a6d7802cc7766e45b5d4ad16193f5bd68", null ],
+    [ "Const_SegmPointd", "classMR_1_1Const__SegmPointd.html#ae2e54035d8ee91cf6093f570baa4b786", null ],
     [ "Const_SegmPointd", "classMR_1_1Const__SegmPointd.html#a8e33897f4dcd0b9a798756771b34c156", null ],
     [ "Dispose", "classMR_1_1Const__SegmPointd.html#ae78b796f4f1ebf9e7fba7e12363aef98", null ],
     [ "Dispose", "classMR_1_1Const__SegmPointd.html#a85348dc02a89e33be760440c24f90985", null ],

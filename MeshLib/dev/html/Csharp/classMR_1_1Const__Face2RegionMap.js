@@ -2,6 +2,8 @@ var classMR_1_1Const__Face2RegionMap =
 [
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#abcc43723638466ef6b8de3a38adf409a", null ],
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#aeca8cda2e5de3f5d84d51f0a5544d97a", null ],
+    [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#accad96d8ca102004ee2640b340558315", null ],
+    [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#a9eee2a4ab7fe76f27edb55e108f554af", null ],
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#a92c4ecfcacfed698e22e85d9591252bf", null ],
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#a77bb5d512a1c9e0375739b4a8881ce63", null ],
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#a1ba61f4a41ad85e7ff14e351ecd4ecb1", null ],

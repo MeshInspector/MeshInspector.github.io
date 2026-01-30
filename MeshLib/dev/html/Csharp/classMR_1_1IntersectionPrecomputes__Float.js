@@ -2,6 +2,7 @@ var classMR_1_1IntersectionPrecomputes__Float =
 [
     [ "IntersectionPrecomputes_Float", "classMR_1_1IntersectionPrecomputes__Float.html#a07b1a27024ca036aeb11f7cfe1f6bf4b", null ],
     [ "IntersectionPrecomputes_Float", "classMR_1_1IntersectionPrecomputes__Float.html#a3d90f862c4efe88a8ec4e1b90401cf57", null ],
+    [ "IntersectionPrecomputes_Float", "classMR_1_1IntersectionPrecomputes__Float.html#ad59df9c2e327742940f5bca472858099", null ],
     [ "IntersectionPrecomputes_Float", "classMR_1_1IntersectionPrecomputes__Float.html#ab9cee6bc01801a7f935d44ee9706ba04", null ],
     [ "assign", "classMR_1_1IntersectionPrecomputes__Float.html#a7397762caa88604c006fdd413d5407cb", null ],
     [ "operator IntersectionPrecomputes_Float", "classMR_1_1IntersectionPrecomputes__Float.html#a434820577c70f1c9753755deb4b53ec0", null ],

@@ -2,6 +2,8 @@ var classMR_1_1Const__MeshTopology =
 [
     [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a0f182498fbd2164db28faffa332a13b8", null ],
     [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a51bc927b7a6e04ace58b89c1ae325328", null ],
+    [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a711d6369ee00f4d45e4205a85cd67fba", null ],
+    [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a175f23d15dc3361b147e673c9f6c2721", null ],
     [ "bdEdgeSameLeft", "classMR_1_1Const__MeshTopology.html#a39d047536b4bb71ab2fc2c28948b24bf", null ],
     [ "bdEdgeSameOrigin", "classMR_1_1Const__MeshTopology.html#a46cc2d384062deff7ef173e3dac84033", null ],
     [ "bdEdgeWithLeft", "classMR_1_1Const__MeshTopology.html#ac0541dc31d11dc8470cde94fdd285e57", null ],

@@ -3,6 +3,7 @@ var classMR_1_1Const__Cone3ApproximationParams =
     [ "Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html#a80b6c32ef93b00c6b8d26c12b0196215", null ],
     [ "Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html#a6aa455b23f10e1f8d2125a2bceefd611", null ],
     [ "Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html#ad7a1e9bd73c625bc2468f1b1a5f379a6", null ],
+    [ "Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html#acb380d43252a166f86c752a268488ac5", null ],
     [ "Dispose", "classMR_1_1Const__Cone3ApproximationParams.html#a4ad08ac3680725471927eb410a9ef5e7", null ],
     [ "Dispose", "classMR_1_1Const__Cone3ApproximationParams.html#ab81287e4d0fee031c4df8f02077c3021", null ],
     [ "__ref_storage_coneFitterType", "classMR_1_1Const__Cone3ApproximationParams.html#a87d85e2aafa0c20c35a97213cced41df", null ],

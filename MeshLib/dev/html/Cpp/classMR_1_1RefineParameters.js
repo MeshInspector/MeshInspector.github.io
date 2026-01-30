@@ -3,6 +3,8 @@ var classMR_1_1RefineParameters =
     [ "RefineParameters", "../Csharp/classMR_1_1RefineParameters.html#a025cad4241887118592bf5f5b8c372da", null ],
     [ "RefineParameters", "../Csharp/classMR_1_1RefineParameters.html#acdb1439f4f5f467aafc68ab57ac3b073", null ],
     [ "RefineParameters", "../Csharp/classMR_1_1RefineParameters.html#aa339ea784228e1f059eaaf663e269696", null ],
+    [ "RefineParameters", "../Csharp/classMR_1_1RefineParameters.html#aa0934a64cd02007afc18ced8d1a1e5a7", null ],
+    [ "RefineParameters", "../Csharp/classMR_1_1RefineParameters.html#a83763ce0108f8bf15444dfbc2412cc45", null ],
     [ "assign", "../Csharp/classMR_1_1RefineParameters.html#a9d1d42433d6294dd61fd7b1836e2e2f1", null ],
     [ "callback", "../Csharp/classMR_1_1RefineParameters.html#ad2391ef1262f672b4fdc0401d1240013", null ],
     [ "distanceLimit", "../Csharp/classMR_1_1RefineParameters.html#a94153af25978f9bf365b09cb3fde4d69", null ],

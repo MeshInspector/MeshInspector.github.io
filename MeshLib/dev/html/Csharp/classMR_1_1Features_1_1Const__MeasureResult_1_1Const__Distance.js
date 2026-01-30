@@ -2,6 +2,7 @@ var classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance =
 [
     [ "Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html#af968cf07ccfed978f4bb759d3a2f2897", null ],
     [ "Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html#a928da8ca736157b0e27d6f09a722dd87", null ],
+    [ "Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html#acca9feeacff8f355d1cddbf68ca440ec", null ],
     [ "closestPointFor", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html#a08820d5d34321792350876b9be9d90f5", null ],
     [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html#a876dd119ea003da777cee5ee5aeecf96", null ],
     [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html#a3576573f14b9bbcb0a85d60d8a9b1a02", null ],

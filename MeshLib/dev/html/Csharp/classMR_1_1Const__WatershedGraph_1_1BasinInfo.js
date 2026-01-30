@@ -2,6 +2,7 @@ var classMR_1_1Const__WatershedGraph_1_1BasinInfo =
 [
     [ "BasinInfo", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a02ceafadfcb7e93bd9aa3fd856034532", null ],
     [ "BasinInfo", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#ad5ae93fc2cd042865d51955f3cf2b547", null ],
+    [ "BasinInfo", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#ac50f716e86e513a850c2f4399f47ff53", null ],
     [ "assign", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#af253911f4e8aef59c8e44ccfb58409c0", null ],
     [ "updateAccVolume", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#a7bbd67831d83afad908e52988cf0c20c", null ],
     [ "accVolume", "classMR_1_1Const__WatershedGraph_1_1BasinInfo.html#ac648e735c09c336db6cb81b6f9f0bee4", null ],

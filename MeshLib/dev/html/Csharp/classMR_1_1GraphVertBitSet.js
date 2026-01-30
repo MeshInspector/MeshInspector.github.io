@@ -2,6 +2,8 @@ var classMR_1_1GraphVertBitSet =
 [
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a1c27aee46b5b6a7f8b99eaef65abc443", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a340b527ea4abbf4951921f9ac7f06fdc", null ],
+    [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a4fe28eb54792fca4ce7dd22a77f4cc2c", null ],
+    [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a59f02e8529c4fe82c2357064b90cab9c", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a66fff3d23b7da7257c459e132ed80f7d", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a28093ce51fa51d117b15367612871085", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a77b2209a53a267fbf5460cb26fdc6309", null ],

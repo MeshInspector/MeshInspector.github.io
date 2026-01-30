@@ -1,6 +1,8 @@
 var classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax =
 [
     [ "Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html#adc313650a406bb4d406e82c91105304f", null ],
+    [ "Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html#aab39db098ee370ded116929b7edff657", null ],
+    [ "Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html#ab88f11d38bf001ad49cc5af7edfd2993", null ],
     [ "Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html#ac1a47a905d5dbe1be9a1e1cd596380e0", null ],
     [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html#ab5cbaa08f468716cecda416beb95867f", null ],
     [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax.html#a7bebf155bab90a53aa75877da18f61bd", null ],

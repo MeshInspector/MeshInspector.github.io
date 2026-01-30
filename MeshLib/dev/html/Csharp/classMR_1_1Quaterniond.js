@@ -2,6 +2,7 @@ var classMR_1_1Quaterniond =
 [
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a351d46d3c7ce97a351f87ea1a579daed", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a2da06180ec69fc220e7e4b0d8eb64ea5", null ],
+    [ "Quaterniond", "classMR_1_1Quaterniond.html#abaeb60dcd9b929258b50cf6fead25a9b", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a836ed72e35726cdde38eedde5a13391d", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a7896ec3ceebb8b82e456d2708d835d12", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a02008d4f1a2ee92758c4053c915f80e9", null ],

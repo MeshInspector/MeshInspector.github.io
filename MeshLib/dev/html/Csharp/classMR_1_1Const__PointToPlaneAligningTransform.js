@@ -2,6 +2,8 @@ var classMR_1_1Const__PointToPlaneAligningTransform =
 [
     [ "Const_PointToPlaneAligningTransform", "classMR_1_1Const__PointToPlaneAligningTransform.html#a6864d91d5208f0188be4e1aebd2e8885", null ],
     [ "Const_PointToPlaneAligningTransform", "classMR_1_1Const__PointToPlaneAligningTransform.html#a7ccc1add73d71f259b8d3aacc36c995c", null ],
+    [ "Const_PointToPlaneAligningTransform", "classMR_1_1Const__PointToPlaneAligningTransform.html#ab5ce27261c476dc73ed72d730693d99a", null ],
+    [ "Const_PointToPlaneAligningTransform", "classMR_1_1Const__PointToPlaneAligningTransform.html#a04444dd8184308e67bf0883f31c77813", null ],
     [ "calculateAmendment", "classMR_1_1Const__PointToPlaneAligningTransform.html#a3f6eef4bdf66580494a8109a29d85cd2", null ],
     [ "calculateAmendmentWithScale", "classMR_1_1Const__PointToPlaneAligningTransform.html#a19d0022bc2197ef00ecbe4806c81f510", null ],
     [ "calculateFixedAxisAmendment", "classMR_1_1Const__PointToPlaneAligningTransform.html#a50fd04c8d9c722e16017ebaa6b131a18", null ],

@@ -4,6 +4,7 @@ var classMR_1_1Const__VarEdgeTri =
     [ "FlaggedTri", "classMR_1_1Const__VarEdgeTri_1_1FlaggedTri.html", "classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" ],
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#ae1a67a1de019ff1f1c9bb328a9e93d83", null ],
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#aceab15a9b4b6d1b7036e9c11420e32ef", null ],
+    [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#a2e8bb75c701824b1a5b19b2a3c6b6a2b", null ],
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#a5a7cd3aa3c5720dd27df9787cef024eb", null ],
     [ "Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html#a07041d76d5e0bc62975913805a759daa", null ],
     [ "Dispose", "classMR_1_1Const__VarEdgeTri.html#a7346908917b44a2600e39df83aa1ecd4", null ],

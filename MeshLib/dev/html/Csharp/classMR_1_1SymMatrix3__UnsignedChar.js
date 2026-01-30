@@ -2,6 +2,7 @@ var classMR_1_1SymMatrix3__UnsignedChar =
 [
     [ "SymMatrix3_UnsignedChar", "classMR_1_1SymMatrix3__UnsignedChar.html#aa0ecf2ae73b75f50324d83370c88e203", null ],
     [ "SymMatrix3_UnsignedChar", "classMR_1_1SymMatrix3__UnsignedChar.html#ac24de13f5daa00f6990762385d65bed6", null ],
+    [ "SymMatrix3_UnsignedChar", "classMR_1_1SymMatrix3__UnsignedChar.html#a1e382fe3fff067b4086f96819395f5ee", null ],
     [ "addAssign", "classMR_1_1SymMatrix3__UnsignedChar.html#aabc9183bc9c2058f5026d29d7312d0f9", null ],
     [ "assign", "classMR_1_1SymMatrix3__UnsignedChar.html#ab41162f5754b2d5a7cd91f737758639f", null ],
     [ "divAssign", "classMR_1_1SymMatrix3__UnsignedChar.html#a308424c54b5aaeb07dd0920caa955f4c", null ],

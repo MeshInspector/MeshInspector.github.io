@@ -2,6 +2,8 @@ var classMR_1_1Const__GraphEdgeBitSet =
 [
     [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#af90809d5aadc089d53bb9a5c87d31347", null ],
     [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#ab2c0c64e5b65c96334f55574faa688bc", null ],
+    [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#ae698862e37d962bb58689d1cbb8ba84a", null ],
+    [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#a5519036c4c8a3b8b515d490782c359f6", null ],
     [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#adf8dcbb4720832f082709594fb7d9841", null ],
     [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#ac17230951a550deb2c4ea481e3c54fa3", null ],
     [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html#a185bbfcb1540bd6b2817f78dbb9768a4", null ],

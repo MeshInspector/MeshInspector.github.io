@@ -2,6 +2,7 @@ var classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters =
 [
     [ "Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a27612070bc8331d87cc8901935c81d98", null ],
     [ "Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a693b312c0b7100e537c3acb07c369d85", null ],
+    [ "Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#abab7d034913dba4ce06f3c1d799ad567", null ],
     [ "Dispose", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#ab4d3e6921b4c19941bddc80738c7917b", null ],
     [ "Dispose", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a570e8d2afc42e754080c2d09dbfceac2", null ],
     [ "operator MR.FixUndercuts.Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#aa43fc9ba3625c2fa90a6a32720c12cd5", null ],

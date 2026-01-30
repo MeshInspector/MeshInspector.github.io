@@ -1,6 +1,8 @@
 var classMR_1_1Const__SortIntersectionsData =
 [
     [ "Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html#a487d271a5e9c380c3599a60ee1d037e9", null ],
+    [ "Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html#ac752ca9a0e1180c3f5648181e5c1ecde", null ],
+    [ "Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html#a0727b8237d7fb4671173c6522d0b3c5b", null ],
     [ "Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html#a67c867819dfc16780cba241babfd5d47", null ],
     [ "Dispose", "classMR_1_1Const__SortIntersectionsData.html#aea49ed5327bbb6b03569b27177938bf0", null ],
     [ "Dispose", "classMR_1_1Const__SortIntersectionsData.html#aaa9a0740fd51729cc3031c048932d0aa", null ],

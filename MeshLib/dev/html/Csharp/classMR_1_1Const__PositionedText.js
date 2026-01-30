@@ -2,6 +2,8 @@ var classMR_1_1Const__PositionedText =
 [
     [ "Const_PositionedText", "classMR_1_1Const__PositionedText.html#a1f94593e0aecd3a6099255b3e3d95a63", null ],
     [ "Const_PositionedText", "classMR_1_1Const__PositionedText.html#a6788425071a6fe97272243b4748ee9b3", null ],
+    [ "Const_PositionedText", "classMR_1_1Const__PositionedText.html#a4502aa381a7047e268098be4e8e1388f", null ],
+    [ "Const_PositionedText", "classMR_1_1Const__PositionedText.html#a12aea41a6c713819b5d2e7d62759a19a", null ],
     [ "Const_PositionedText", "classMR_1_1Const__PositionedText.html#ac72779fda16a6083eae1015972172421", null ],
     [ "Dispose", "classMR_1_1Const__PositionedText.html#a41a7e3e298538fced08f18d33bb1a1ad", null ],
     [ "Dispose", "classMR_1_1Const__PositionedText.html#a9b9b3e109e3faa930d21e3cb80f25c1a", null ],

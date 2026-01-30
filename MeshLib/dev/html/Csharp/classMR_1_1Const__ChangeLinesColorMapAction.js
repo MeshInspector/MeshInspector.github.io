@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeLinesColorMapAction =
 [
     [ "Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html#ac1e1b35b48e650324a45bc336b18b64c", null ],
+    [ "Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html#af11c9af5dd99ddfc0e5d081e746d43e0", null ],
+    [ "Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html#a5015762b76927ea66162fe5e582aa568", null ],
     [ "Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html#a333c150b4f12e876ced84b86850235f4", null ],
     [ "Const_ChangeLinesColorMapAction", "classMR_1_1Const__ChangeLinesColorMapAction.html#aad07e1c4bb8588e734c040a6d27feb06", null ],
     [ "Dispose", "classMR_1_1Const__ChangeLinesColorMapAction.html#a7da956ec257f300ba65d0aa7f173ec43", null ],

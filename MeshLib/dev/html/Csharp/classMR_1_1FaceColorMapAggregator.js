@@ -2,6 +2,8 @@ var classMR_1_1FaceColorMapAggregator =
 [
     [ "FaceColorMapAggregator", "classMR_1_1FaceColorMapAggregator.html#aeed5f679e579b3b5e6dc63b32afa42c1", null ],
     [ "FaceColorMapAggregator", "classMR_1_1FaceColorMapAggregator.html#afadb0c11dcbaf0b951db432cc365ec71", null ],
+    [ "FaceColorMapAggregator", "classMR_1_1FaceColorMapAggregator.html#a8e7c91fa005772c19a8e086110dc7116", null ],
+    [ "FaceColorMapAggregator", "classMR_1_1FaceColorMapAggregator.html#ad9e73149c296d0312f7f1b76756b6942", null ],
     [ "aggregate", "classMR_1_1FaceColorMapAggregator.html#a4d960c94bd42c5c55b35291f21f6cd49", null ],
     [ "assign", "classMR_1_1FaceColorMapAggregator.html#a3a467aabe6edfaac6ce14228eac6a46e", null ],
     [ "erase", "classMR_1_1FaceColorMapAggregator.html#ad9d48ed850ecdf5d6982e3b1ec028576", null ],

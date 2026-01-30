@@ -2,6 +2,7 @@ var classMR_1_1SymMatrix2i64 =
 [
     [ "SymMatrix2i64", "classMR_1_1SymMatrix2i64.html#ad8ab98fe822e2a498f5cad7fc05a78dd", null ],
     [ "SymMatrix2i64", "classMR_1_1SymMatrix2i64.html#a343ace80824e6297a4245928ff3a32e2", null ],
+    [ "SymMatrix2i64", "classMR_1_1SymMatrix2i64.html#a69285f5b3553a869d2750d9bec2d58d0", null ],
     [ "addAssign", "classMR_1_1SymMatrix2i64.html#ade7e216ddc90bd1e8c68e9f951fc8f99", null ],
     [ "assign", "classMR_1_1SymMatrix2i64.html#ad75e44c5ada473c9cee1226c81a5b208", null ],
     [ "divAssign", "classMR_1_1SymMatrix2i64.html#a4f2df34d7766c7c234123605c27ef3fa", null ],

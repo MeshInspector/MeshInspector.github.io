@@ -3,6 +3,8 @@ var classMR_1_1Const__RefineParameters =
     [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a75ad4c0a71e76262a6f66ccfd25a7ce9", null ],
     [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a534770645ecbca042135e9bef9a6de33", null ],
     [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a93e6073e43c014f9f26265384f5bd3f2", null ],
+    [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a90309a3d6846f51eb4ef97fa8c9c3bed", null ],
+    [ "Const_RefineParameters", "classMR_1_1Const__RefineParameters.html#a57e1608c03648847bcd51abb78291a53", null ],
     [ "Dispose", "classMR_1_1Const__RefineParameters.html#a87303e022272f1b381acc0188f6adbf8", null ],
     [ "Dispose", "classMR_1_1Const__RefineParameters.html#ad01c61c9cb7289b7d1ae7594b92d4ea0", null ],
     [ "__ptr_storage_faceRegion", "classMR_1_1Const__RefineParameters.html#a096a19f98f67a08c9065ee10a500bf2e", null ],

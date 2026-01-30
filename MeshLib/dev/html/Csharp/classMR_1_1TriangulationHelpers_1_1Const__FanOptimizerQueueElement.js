@@ -3,6 +3,7 @@ var classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement =
     [ "Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a4de58e16e7bab450742caab00f9c84ed", null ],
     [ "Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a9f8fb0a347cea4d0db4ed81f12f002c8", null ],
     [ "Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a332ec4d4db171aa9b5e589744f76b2d8", null ],
+    [ "Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a75a8a76c83b960b004d2848eae55a6bd", null ],
     [ "Dispose", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a655ca30982060bf23483886c5330cf28", null ],
     [ "Dispose", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a52be1f35dca34a6a9634356193a2bac0", null ],
     [ "Equals", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a40ac72312a00d43802ee6dd84a8042af", null ],

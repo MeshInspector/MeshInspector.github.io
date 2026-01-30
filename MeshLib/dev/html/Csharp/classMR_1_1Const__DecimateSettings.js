@@ -3,6 +3,8 @@ var classMR_1_1Const__DecimateSettings =
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a3a3dde2ea4cfeb3893a023c4ad3769fa", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aab19d575f42e85e2812eb6522c9dcdce", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a416cbe92341394d850efa8a7306a0d67", null ],
+    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a476b386045686fc33af580f15bf4fd1c", null ],
+    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aed5f611167dc3065bea632c41eb1e2d8", null ],
     [ "Dispose", "classMR_1_1Const__DecimateSettings.html#a13aa77795e9c44082a4e1ab4b2bb2820", null ],
     [ "Dispose", "classMR_1_1Const__DecimateSettings.html#a08f9fdd46eaa7d957b9f55770ba40302", null ],
     [ "__ptr_storage_bdVerts", "classMR_1_1Const__DecimateSettings.html#ac10d86ea5ceebf6004d99f54721de8c0", null ],

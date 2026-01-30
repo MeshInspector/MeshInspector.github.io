@@ -2,6 +2,8 @@ var classMR_1_1Vector__MRUint64T__MRGraphVertId =
 [
     [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#abcf22ddc5b1ae5eb17b35bf574bcc12b", null ],
     [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#aee22cac805c1967ae9fb7c4cc2916c52", null ],
+    [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a1f848c6e193db68f7aa24fcd81836ff3", null ],
+    [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#ab7993898ce9e6870667224d456ecf703", null ],
     [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a2e0cd7b59a0d3babea85007e9ec5f542", null ],
     [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a99d6d8aeefc00575120ca5ebf7eea058", null ],
     [ "Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#ad0b4de248cf44310f507af6d9e9e5865", null ],

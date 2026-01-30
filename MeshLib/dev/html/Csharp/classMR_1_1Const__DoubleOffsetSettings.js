@@ -3,6 +3,8 @@ var classMR_1_1Const__DoubleOffsetSettings =
     [ "Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html#a4809fcfd338dab19285f7943e5b133d6", null ],
     [ "Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html#a3c378452f8f32d5d0d374f3449ce42a9", null ],
     [ "Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html#a65aeba66ec5f221617f4b449f8899874", null ],
+    [ "Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html#adf1504a326efb24589113c99a3a01471", null ],
+    [ "Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html#a4e57251e5a5bae849e217ac9e5eea1cc", null ],
     [ "Dispose", "classMR_1_1Const__DoubleOffsetSettings.html#ac68df2a1746b31b89a79ccacbe62ae57", null ],
     [ "Dispose", "classMR_1_1Const__DoubleOffsetSettings.html#a02807edd03344f7c2f287e97454ffa30", null ],
     [ "__ref_storage_adaptivity", "classMR_1_1Const__DoubleOffsetSettings.html#a86c05e69d8403b8e43416d9278cfc283", null ],

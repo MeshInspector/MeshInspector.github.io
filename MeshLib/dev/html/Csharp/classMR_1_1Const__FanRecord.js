@@ -2,6 +2,7 @@ var classMR_1_1Const__FanRecord =
 [
     [ "Const_FanRecord", "classMR_1_1Const__FanRecord.html#ac6388c0900a9af09bf122ab3160a7ce3", null ],
     [ "Const_FanRecord", "classMR_1_1Const__FanRecord.html#adfc4b76d48f9e7cfa32865a4ff93bd42", null ],
+    [ "Const_FanRecord", "classMR_1_1Const__FanRecord.html#abf6ae6dd2af3f76721c83bf240e13476", null ],
     [ "Const_FanRecord", "classMR_1_1Const__FanRecord.html#a6c137fc19adfe6b959c7fbda5e84b1a3", null ],
     [ "Dispose", "classMR_1_1Const__FanRecord.html#a173957bc0e822fd4987354e717bdc4f3", null ],
     [ "Dispose", "classMR_1_1Const__FanRecord.html#a4d547cf6cbd41a6896dd7dd96eee2aaf", null ],

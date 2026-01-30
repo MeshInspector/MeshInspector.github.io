@@ -3,6 +3,8 @@ var classMR_1_1Const__TeethMaskToDirectionVolumeConvertor =
     [ "Const_ProcessResult", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult.html", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult" ],
     [ "ProcessResult", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" ],
     [ "Const_TeethMaskToDirectionVolumeConvertor", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a9d9d52bc8ce0c80d49550cc4c0ae2a4d", null ],
+    [ "Const_TeethMaskToDirectionVolumeConvertor", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a3df17274ffda86514505a8973d10f51e", null ],
+    [ "Const_TeethMaskToDirectionVolumeConvertor", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#aa57c76a41d4c3da7fa5d313e3c6e640c", null ],
     [ "convertAll", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a14962a79ee62deae55cc6f5be15b23bd", null ],
     [ "convertObject", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#ade864cfb343ae486bc88736939375a78", null ],
     [ "create", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a0ef3cf0a6f7269bb6eeee3636178dfb3", null ],

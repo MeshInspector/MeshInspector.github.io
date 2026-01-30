@@ -3,6 +3,7 @@ var classMR_1_1FindInnerShellSettings =
     [ "FindInnerShellSettings", "../Csharp/classMR_1_1FindInnerShellSettings.html#aafb04edc1a56f609d663c5fbac54dfce", null ],
     [ "FindInnerShellSettings", "../Csharp/classMR_1_1FindInnerShellSettings.html#a63620d6533e113115ecd8948b9a0e2f3", null ],
     [ "FindInnerShellSettings", "../Csharp/classMR_1_1FindInnerShellSettings.html#a7b69cfd5bd812ac047f80bcfe23704b8", null ],
+    [ "FindInnerShellSettings", "../Csharp/classMR_1_1FindInnerShellSettings.html#a60e1e2d621969d5fc5d74f3b1a267595", null ],
     [ "assign", "../Csharp/classMR_1_1FindInnerShellSettings.html#a262a4bbd5a8f519de828467caa1deb62", null ],
     [ "maxDistSq", "../Csharp/classMR_1_1FindInnerShellSettings.html#aa254671229619255334480365985d604", null ],
     [ "minVertsInComp", "../Csharp/classMR_1_1FindInnerShellSettings.html#a3052b97372e1317ee5929314d62052fa", null ],

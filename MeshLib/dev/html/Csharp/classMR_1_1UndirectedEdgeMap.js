@@ -2,6 +2,8 @@ var classMR_1_1UndirectedEdgeMap =
 [
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#aacd14c2394cdd39bfacdf12e89d0bb94", null ],
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#a710afbfa7de41a657cfa8000eb37505b", null ],
+    [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#a414b66fb100cc07f825837593e08904a", null ],
+    [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#aa34ebf371c4105b7a11ce887b5cae18b", null ],
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#a997244969c2e6f54931425e7cc839e98", null ],
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#aebafba78d366a55bf171635683d48e20", null ],
     [ "UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#a0c38f6e87b270eb6ab327f149ab373de", null ],

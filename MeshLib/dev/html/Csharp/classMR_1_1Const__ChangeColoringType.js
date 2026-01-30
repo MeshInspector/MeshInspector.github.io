@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeColoringType =
 [
     [ "Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html#a6d976f7519fbc982662a69850121349e", null ],
+    [ "Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html#af0289b930e19dc46ee07f036c7dc7946", null ],
+    [ "Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html#a177f9369c6343c2d5e432ed323dc71e7", null ],
     [ "Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html#a799f1f5f04b3ac355223a50b0576a0d0", null ],
     [ "Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html#a0f440509d1d42f0cbc11b9c01a608dd9", null ],
     [ "Dispose", "classMR_1_1Const__ChangeColoringType.html#a146a0e140cd19017b7b8a11d75278d26", null ],

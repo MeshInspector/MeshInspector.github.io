@@ -2,5 +2,6 @@ var classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeatur
 [
     [ "Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#ace35db2b29de5370752303c6432341c1", null ],
     [ "Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#afe23bb04d4248d1dd7d53569a13230aa", null ],
+    [ "Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a04645095f42e9eacde2dc92be08e464a", null ],
     [ "assign", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a1ef1f2e1e16858cd2905b8a4e04585a2", null ]
 ];

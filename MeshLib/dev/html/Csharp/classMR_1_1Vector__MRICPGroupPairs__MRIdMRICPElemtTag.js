@@ -2,6 +2,8 @@ var classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag =
 [
     [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#afae7706ec079e83a2a9094b14392b899", null ],
     [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#a80a17b2061bb505aba956b8b0061a36d", null ],
+    [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#a771fe4f9e8b5d9a15f7c32411892bafc", null ],
+    [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#a96a7cf3484c8c4fe2ec483755cf0d30b", null ],
     [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#a24d7c8d777fa296acec889981abbe1a8", null ],
     [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#a4422821db24ba880a98d9b8174821bf8", null ],
     [ "Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html#a2168defadecaccb4bc4b247482d52903", null ],

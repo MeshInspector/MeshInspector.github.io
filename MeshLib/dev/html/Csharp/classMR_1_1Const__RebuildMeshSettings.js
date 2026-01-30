@@ -3,6 +3,8 @@ var classMR_1_1Const__RebuildMeshSettings =
     [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a92652d7cfce6e203f47b9fe202eb2b1a", null ],
     [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a1665d9e65e0737366fd94c4c2b410680", null ],
     [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a0e589ed785e706cfcb186dd6669f845a", null ],
+    [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a1e6ee2786b4e25efac58f410062ca79c", null ],
+    [ "Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html#a9e455586683d3eeecd45354a122d95cf", null ],
     [ "Dispose", "classMR_1_1Const__RebuildMeshSettings.html#a12cc0b5ff4d83b602d6dac053b439525", null ],
     [ "Dispose", "classMR_1_1Const__RebuildMeshSettings.html#ad7bd02e0f2d36576ba2be661aea63623", null ],
     [ "__ptr_storage_outSharpEdges", "classMR_1_1Const__RebuildMeshSettings.html#a6c40aecfe32f5984e64f8ddce0216f9f", null ],

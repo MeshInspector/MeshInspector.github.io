@@ -3,6 +3,8 @@ var classMR_1_1Const__GridToMeshSettings =
     [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#aa76b3dd0cd754117ae459d1c2748fb6e", null ],
     [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#a6bdcc3d0517f346dca16ebee6317c1fa", null ],
     [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#a11c8061ce574db55e63cdfda25369924", null ],
+    [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#a6201b82c07a5b9d3c248f12a9aeb423d", null ],
+    [ "Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html#a7acb1cc277f3fe85fd3096ba101464b8", null ],
     [ "Dispose", "classMR_1_1Const__GridToMeshSettings.html#a667fde96296c57200efdd16ca7b9fce2", null ],
     [ "Dispose", "classMR_1_1Const__GridToMeshSettings.html#a4698ac63bc8626259af07446ded26dd2", null ],
     [ "__ref_storage_adaptivity", "classMR_1_1Const__GridToMeshSettings.html#a7ae30a481e045ee1da356cb91d947465", null ],

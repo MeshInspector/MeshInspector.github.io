@@ -1,6 +1,8 @@
 var classMR_1_1PolynomialWrapper__Double =
 [
     [ "PolynomialWrapper_Double", "classMR_1_1PolynomialWrapper__Double.html#a04cadb91b5177ae652a74bea57e7ee3e", null ],
+    [ "PolynomialWrapper_Double", "classMR_1_1PolynomialWrapper__Double.html#a518113c291317c477bfc9be20bcfffad", null ],
+    [ "PolynomialWrapper_Double", "classMR_1_1PolynomialWrapper__Double.html#ab7e0bed08e5331efba54deb047dddbf2", null ],
     [ "assign", "classMR_1_1PolynomialWrapper__Double.html#a3bb4470396faa7eb3483b4fbb3b5f653", null ],
     [ "poly", "classMR_1_1PolynomialWrapper__Double.html#a6724eb1ffe1307369031607cf1b4e992", null ]
 ];

@@ -3,6 +3,8 @@ var classMR_1_1Const__ArcInterpolationParams =
     [ "Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html#a6f505da6c91cbdc92de67b8eae9c1ca3", null ],
     [ "Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html#aaf0d5baa48c3a9f9f3deb06be33db769", null ],
     [ "Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html#ab7c2f69cc5daf95ee0b2d58687e2abdc", null ],
+    [ "Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html#a2aba3944b6c1b315f03e7e37acef9834", null ],
+    [ "Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html#aade67aea3671b6e241144a5cd4555550", null ],
     [ "Dispose", "classMR_1_1Const__ArcInterpolationParams.html#af428e107cbb61cfadb7dce7b514271e4", null ],
     [ "Dispose", "classMR_1_1Const__ArcInterpolationParams.html#a52b5d17319dfbe2afcaa9ab6e348c11c", null ],
     [ "__ref_storage_eps", "classMR_1_1Const__ArcInterpolationParams.html#a6036a7c10d8554d9a00164f833d722cb", null ],

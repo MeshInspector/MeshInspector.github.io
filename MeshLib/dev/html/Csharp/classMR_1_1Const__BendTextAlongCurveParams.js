@@ -3,6 +3,8 @@ var classMR_1_1Const__BendTextAlongCurveParams =
     [ "Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html#a8f02305dfb4ff0685007537f834d5e55", null ],
     [ "Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html#a11486a12a93770713123624e5eb77027", null ],
     [ "Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html#a0520f3d9e179a716ad0bac07eb1b2276", null ],
+    [ "Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html#af4befa471b3ef1cc10fc4cd30ebd68ef", null ],
+    [ "Const_BendTextAlongCurveParams", "classMR_1_1Const__BendTextAlongCurveParams.html#a0afb34d8cf1e79ba3577641267520974", null ],
     [ "Dispose", "classMR_1_1Const__BendTextAlongCurveParams.html#a2137aebdfaf30d6d2cd5c8c19857ca18", null ],
     [ "Dispose", "classMR_1_1Const__BendTextAlongCurveParams.html#a990c52c39d9a07f07b4514c20bc672a0", null ],
     [ "__ref_storage_fontBasedSizeCalc", "classMR_1_1Const__BendTextAlongCurveParams.html#a11c17db07d9031e03eeb0e05982c0df5", null ],

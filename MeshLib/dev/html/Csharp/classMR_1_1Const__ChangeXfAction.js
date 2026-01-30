@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeXfAction =
 [
     [ "Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html#abbe96c19a77e569c2c6711dfe08a16cf", null ],
+    [ "Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html#abb5965a52ae30fb4b0333d7e64f3d10a", null ],
+    [ "Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html#a35dd80cbbf8d7efcd0e81d63c9eaaae4", null ],
     [ "Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html#a4ebfeea0d04ef95d07fa6d196f1024ee", null ],
     [ "Const_ChangeXfAction", "classMR_1_1Const__ChangeXfAction.html#ac1eb58e5d9d43c37bca4697804fecd5e", null ],
     [ "Dispose", "classMR_1_1Const__ChangeXfAction.html#a7c9f25556464efb7a3472ecb600163b7", null ],

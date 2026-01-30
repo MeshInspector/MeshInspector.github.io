@@ -3,6 +3,8 @@ var classMR_1_1Const__FindOverhangsSettings =
     [ "Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html#a0368635a3a912899184a86d8c3932a6d", null ],
     [ "Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html#a11e84fad61ea457ce55a3eb829631e6c", null ],
     [ "Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html#a9b87cbcab09f430dcf51bd179a5d6f9c", null ],
+    [ "Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html#a3ad26f7471a8cf298891b7e91dcffa6b", null ],
+    [ "Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html#a7efe9fcb3e5ee3a2d59ca626bef78295", null ],
     [ "Dispose", "classMR_1_1Const__FindOverhangsSettings.html#a6651321e4ee27d100173e536a6834fe9", null ],
     [ "Dispose", "classMR_1_1Const__FindOverhangsSettings.html#aa8f26295ce7b297313f32a80db5b9e92", null ],
     [ "__ptr_storage_xf", "classMR_1_1Const__FindOverhangsSettings.html#a6e7726954462cfd54d54833b71c05419", null ],

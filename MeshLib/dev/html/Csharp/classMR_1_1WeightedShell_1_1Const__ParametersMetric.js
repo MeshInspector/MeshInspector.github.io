@@ -2,6 +2,8 @@ var classMR_1_1WeightedShell_1_1Const__ParametersMetric =
 [
     [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#ae7203ea67df7c591d5a20f2173f2f9c3", null ],
     [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a9f0940194aa1a7d454301f6ae94a0502", null ],
+    [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#aa3e71a3491926c73aca856efd0d3541d", null ],
+    [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a5726c6064213938d2fd46042a7f716b8", null ],
     [ "Dispose", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a3340917c90333e085c843dbcbe354ba2", null ],
     [ "Dispose", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a67ac2fe58ba121183066283b356e2dbf", null ],
     [ "operator MR.WeightedShell.Const_ParametersBase", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html#a49a5f05047d9babdfc9fa06f63f4fd98", null ],

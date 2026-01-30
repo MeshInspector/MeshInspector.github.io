@@ -3,6 +3,8 @@ var classMR_1_1ObjectMeshData =
     [ "ObjectMeshData", "../Csharp/classMR_1_1ObjectMeshData.html#abd69cad24f364a7c28bd7f66b64dd76a", null ],
     [ "ObjectMeshData", "../Csharp/classMR_1_1ObjectMeshData.html#a3a8c1e076ed7f516f29752748acc8fab", null ],
     [ "ObjectMeshData", "../Csharp/classMR_1_1ObjectMeshData.html#a477b8f8962998b4d76adf879e84cc37e", null ],
+    [ "ObjectMeshData", "../Csharp/classMR_1_1ObjectMeshData.html#ad58d6bb75f21443efc33486211e33a23", null ],
+    [ "ObjectMeshData", "../Csharp/classMR_1_1ObjectMeshData.html#a7510f902689665dd9b2b69ce50df3c4e", null ],
     [ "assign", "../Csharp/classMR_1_1ObjectMeshData.html#a117cb4c653626f1c12196e3588ff78df", null ],
     [ "creases", "../Csharp/classMR_1_1ObjectMeshData.html#a6d2b636c4e1a6517e3640c5d1c52e53b", null ],
     [ "faceColors", "../Csharp/classMR_1_1ObjectMeshData.html#a9b9270f596c4f8032bedab1827ccc8ff", null ],

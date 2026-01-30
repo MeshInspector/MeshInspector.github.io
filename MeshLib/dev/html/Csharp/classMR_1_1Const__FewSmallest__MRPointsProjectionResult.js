@@ -2,6 +2,8 @@ var classMR_1_1Const__FewSmallest__MRPointsProjectionResult =
 [
     [ "Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#a333128e2c724faa7a202a014408812cc", null ],
     [ "Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#ad683cc7a5bff1147794209688bff124c", null ],
+    [ "Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#af9c092faecea3a54bfbd790469b6432b", null ],
+    [ "Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#a0b721166ccf6bb3b9bc2af6e2d9d6f22", null ],
     [ "Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#a321a60b0310bba4eb21ade9fe9f4cc29", null ],
     [ "Dispose", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#aeb5aee3fa839796962df605f29545c3a", null ],
     [ "Dispose", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#a65ff99477641c3a1bad77a10807a2d30", null ],

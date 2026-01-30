@@ -2,6 +2,8 @@ var classMR_1_1Vector__MRMeshOrPointsXf__MRObjId =
 [
     [ "Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#aa291835c48b5b697cb424d70a52648e2", null ],
     [ "Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a464334316f34c55da6fada4912b82dc3", null ],
+    [ "Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a51e7f5e465c981fd368e29f3b62f401e", null ],
+    [ "Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#acfcd8be84e57d9359d9c4cef39437fbf", null ],
     [ "Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#aa80c65a1d78c4538d2bf2b1b1008069f", null ],
     [ "Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a91fd740279b714bc71b027c7282a4a08", null ],
     [ "assign", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a8aa677c5ed72864b247c66487a51488b", null ],

@@ -2,6 +2,8 @@ var classMR_1_1NodeBitSet =
 [
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#aa05930b694752e4510abb92bb1e430ef", null ],
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#a0349badc164c3e77dbad8647f5e84910", null ],
+    [ "NodeBitSet", "classMR_1_1NodeBitSet.html#a364ce965ae620033fa7251b01bb9024b", null ],
+    [ "NodeBitSet", "classMR_1_1NodeBitSet.html#a5b554a8542a1a5c0b6ec9bd0197726da", null ],
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#a45fcb9e317aa43393d3b50525ae31cdc", null ],
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#a5756bb578ef07a0bf9bbab626743c8d8", null ],
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#ae0bb0f6cb68cd48b2fd063abd222a35f", null ],

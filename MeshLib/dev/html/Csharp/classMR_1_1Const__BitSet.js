@@ -2,6 +2,8 @@ var classMR_1_1Const__BitSet =
 [
     [ "Const_BitSet", "classMR_1_1Const__BitSet.html#afcd6b96cfc1ade119e8ee2b5a96e6609", null ],
     [ "Const_BitSet", "classMR_1_1Const__BitSet.html#a794444336f69ea91434163bba3bef901", null ],
+    [ "Const_BitSet", "classMR_1_1Const__BitSet.html#a2bb5be6ea52977521906e22990790fdc", null ],
+    [ "Const_BitSet", "classMR_1_1Const__BitSet.html#a62400617cb0d8c61daa721efff92e776", null ],
     [ "Const_BitSet", "classMR_1_1Const__BitSet.html#a4ecd0740b67b1673ea02706408b81541", null ],
     [ "all", "classMR_1_1Const__BitSet.html#a7a1f885004d1581045d9ede862161178", null ],
     [ "any", "classMR_1_1Const__BitSet.html#ab8c0a0cd8cfd9fbc9df267181939d075", null ],

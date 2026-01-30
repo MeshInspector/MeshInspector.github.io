@@ -3,6 +3,7 @@ var group__BestFitGroup =
     [ "MR::PointAccumulator", "../Csharp/classMR_1_1PointAccumulator.html", [
       [ "PointAccumulator", "../Csharp/classMR_1_1PointAccumulator.html#a932c86d48f51c256c4309ec041300043", null ],
       [ "PointAccumulator", "../Csharp/classMR_1_1PointAccumulator.html#a82a382b601a6cba70a5ca98a3064f641", null ],
+      [ "PointAccumulator", "../Csharp/classMR_1_1PointAccumulator.html#acd23e7684122defb7cb9651ed7942bc2", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointAccumulator.html#a83d85286f7441e8e519cc9c6dd1ed2c9", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointAccumulator.html#a85bffe3466166ba6c4a888e4ebfa805a", null ],
       [ "addPoint", "../Csharp/classMR_1_1PointAccumulator.html#a4239c771afb18ec319cc8cb95cf319ec", null ],

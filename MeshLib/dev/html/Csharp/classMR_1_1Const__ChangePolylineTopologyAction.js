@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangePolylineTopologyAction =
 [
     [ "Const_ChangePolylineTopologyAction", "classMR_1_1Const__ChangePolylineTopologyAction.html#a75953b763a462463fa5dea3ca6eca9b7", null ],
+    [ "Const_ChangePolylineTopologyAction", "classMR_1_1Const__ChangePolylineTopologyAction.html#a6256f02e4007879c89d0171027baff73", null ],
+    [ "Const_ChangePolylineTopologyAction", "classMR_1_1Const__ChangePolylineTopologyAction.html#aa889f596f04571fb9edbd0d0278a3ca4", null ],
     [ "Const_ChangePolylineTopologyAction", "classMR_1_1Const__ChangePolylineTopologyAction.html#a3aa79c2ef0e84157649b1cc97b996c7c", null ],
     [ "Dispose", "classMR_1_1Const__ChangePolylineTopologyAction.html#a39204f704ef2251e873a737722bd67a5", null ],
     [ "Dispose", "classMR_1_1Const__ChangePolylineTopologyAction.html#a91850d39a02434eedfa2f40f0a809fdf", null ],

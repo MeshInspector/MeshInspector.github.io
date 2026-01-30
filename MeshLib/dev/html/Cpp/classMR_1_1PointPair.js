@@ -2,6 +2,7 @@ var classMR_1_1PointPair =
 [
     [ "PointPair", "../Csharp/classMR_1_1PointPair.html#a8d5639dafb1aa43a724aa79db25108d0", null ],
     [ "PointPair", "../Csharp/classMR_1_1PointPair.html#a0960fc5693b452782da3df8798477c9c", null ],
+    [ "PointPair", "../Csharp/classMR_1_1PointPair.html#a744ddaac49feba398e8f4b1fd0dc7682", null ],
     [ "assign", "../Csharp/classMR_1_1PointPair.html#af1f65c72527757ec9d342b663c6955df", null ],
     [ "distSq", "../Csharp/classMR_1_1PointPair.html#a54f402ca78a997127d51332dc5671793", null ],
     [ "normalsAngleCos", "../Csharp/classMR_1_1PointPair.html#a8cb638bd82e19d47e4073283c7f7a429", null ],

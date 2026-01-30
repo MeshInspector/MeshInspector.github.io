@@ -3,6 +3,7 @@ var classMR_1_1Const__ShellVertexInfo =
     [ "Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html#a2ce1df189c5ae6c45e4d2ecf36d94c10", null ],
     [ "Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html#a392b899f75c281057eaa910b51a25a2b", null ],
     [ "Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html#a96a8c9c8917fc3107066448240e7719b", null ],
+    [ "Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html#a396b995d0ca86f26e7e1bd068e1cdc57", null ],
     [ "Dispose", "classMR_1_1Const__ShellVertexInfo.html#aca916d141ba86bceea717ec56f47d8c4", null ],
     [ "Dispose", "classMR_1_1Const__ShellVertexInfo.html#a166eb0e4e4c69bda7a1024325f444657", null ],
     [ "valid", "classMR_1_1Const__ShellVertexInfo.html#aa3a1d60cf112e6da82a86f36acc08a8c", null ],

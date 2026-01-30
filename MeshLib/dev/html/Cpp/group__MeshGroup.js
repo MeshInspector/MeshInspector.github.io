@@ -4,6 +4,8 @@ var group__MeshGroup =
       [ "EdgeLengthMesh", "../Csharp/classMR_1_1EdgeLengthMesh.html#ab55e99ba8a41f51b42eae0df368f7dc3", null ],
       [ "EdgeLengthMesh", "../Csharp/classMR_1_1EdgeLengthMesh.html#a6838cc3c2aa187e386fd6e4a762418da", null ],
       [ "EdgeLengthMesh", "../Csharp/classMR_1_1EdgeLengthMesh.html#a915461d17320c966d0186c32c99b1428", null ],
+      [ "EdgeLengthMesh", "../Csharp/classMR_1_1EdgeLengthMesh.html#aafde74c38cb9a4983d423f9a8957663c", null ],
+      [ "EdgeLengthMesh", "../Csharp/classMR_1_1EdgeLengthMesh.html#a61bd9819b5683c378778a6a7e80d16bd", null ],
       [ "assign", "../Csharp/classMR_1_1EdgeLengthMesh.html#add454eb6806e41aed595b8efa5588839", null ],
       [ "flipEdge", "../Csharp/classMR_1_1EdgeLengthMesh.html#a475440e95dc0242144686642bb22ecad", null ],
       [ "edgeLengths", "../Csharp/classMR_1_1EdgeLengthMesh.html#a69d24808bd69bbcf0f1fd3a9f045bac5", null ],
@@ -12,6 +14,8 @@ var group__MeshGroup =
     [ "MR::Mesh", "../Csharp/classMR_1_1Mesh.html", [
       [ "Mesh", "../Csharp/classMR_1_1Mesh.html#aa1db14cda63104c807171c5607fdba89", null ],
       [ "Mesh", "../Csharp/classMR_1_1Mesh.html#adc900de18679f1054d88ce16cf318121", null ],
+      [ "Mesh", "../Csharp/classMR_1_1Mesh.html#a8d314af2acc0ebf8bb876bfa059e87a8", null ],
+      [ "Mesh", "../Csharp/classMR_1_1Mesh.html#a9fa5ba08a3fa3ba8aa227fe2de1caad5", null ],
       [ "addMesh", "../Csharp/classMR_1_1Mesh.html#a466f6cad2b51436a361e61648f2fb865", null ],
       [ "addMesh", "../Csharp/classMR_1_1Mesh.html#af28122d6c3bcc15f02f009974fe84bf6", null ],
       [ "addMeshPart", "../Csharp/classMR_1_1Mesh.html#a3be7f8e43fc91a77b3b8f0d3dc89f15c", null ],
@@ -43,6 +47,8 @@ var group__MeshGroup =
     [ "MR::MeshTopology", "../Csharp/classMR_1_1MeshTopology.html", [
       [ "MeshTopology", "../Csharp/classMR_1_1MeshTopology.html#a2f90be272ebbdabccd5def076f1eda8d", null ],
       [ "MeshTopology", "../Csharp/classMR_1_1MeshTopology.html#ab44610e89641216bf4a3ddbe2da25e6e", null ],
+      [ "MeshTopology", "../Csharp/classMR_1_1MeshTopology.html#a592f473a191f647cd8f7194eacf9bff7", null ],
+      [ "MeshTopology", "../Csharp/classMR_1_1MeshTopology.html#a61f7d6f557be0264e5fc2990a6e93dff", null ],
       [ "addFaceId", "../Csharp/classMR_1_1MeshTopology.html#a0cfa07d34a5b833db39b37d46e9ca042", null ],
       [ "addPackedPart", "../Csharp/classMR_1_1MeshTopology.html#acf3e6e7cbd2868023ae9b09c3e15d381", null ],
       [ "addPart", "../Csharp/classMR_1_1MeshTopology.html#ad4bde8ebc39bc224e43fe0913982be6d", null ],
@@ -84,6 +90,7 @@ var group__MeshGroup =
     [ "MR::MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html", [
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#a4ec55ea0d96aa3945075429e904a3a6e", null ],
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#af073948c2a10ef3938ea0141707ec8a2", null ],
+      [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#a4f8e62d9c4e53782b86c460ac47162d8", null ],
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#aa80421768c8988c69efd9311e64dd8c2", null ],
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#a24db18872f63f3b4efe607fe57c4905d", null ],
       [ "MeshTriPoint", "../Csharp/classMR_1_1MeshTriPoint.html#a8c51d60daa697bded00c3dba010ba133", null ],

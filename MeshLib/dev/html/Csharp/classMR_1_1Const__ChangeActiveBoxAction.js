@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeActiveBoxAction =
 [
     [ "Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html#a7fadf4f97094161b2fc763d380dcc537", null ],
+    [ "Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html#a1d46fd4d6ddf6ad1957bc377ba27f2e4", null ],
+    [ "Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html#ac860e5abdc36cd73be8caae21bf49404", null ],
     [ "Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html#af186058e101a70cf5838cdf3933517fe", null ],
     [ "Dispose", "classMR_1_1Const__ChangeActiveBoxAction.html#a916bb3e7c18d93bf906123cf35ff3c19", null ],
     [ "Dispose", "classMR_1_1Const__ChangeActiveBoxAction.html#acb1f0e8c59a25d76504494c04d887832", null ],

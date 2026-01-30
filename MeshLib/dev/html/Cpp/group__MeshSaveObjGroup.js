@@ -4,6 +4,8 @@ var group__MeshSaveObjGroup =
       [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#adf82b8ad5ccfc33432d06ee257111f70", null ],
       [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a41820994bc08d98059e887656367b4ae", null ],
       [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a114ac1f959d1d3a0b1b693b75d7fb9eb", null ],
+      [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#aba9eadb9e88944f38b47642fd3f5b7c1", null ],
+      [ "NamedXfMesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a2b0e73f88d7bcfad3039c176a2ce44e1", null ],
       [ "assign", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a03cafaa84edcb9f6e25ec2402cebcd2e", null ],
       [ "mesh", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#a9907b5a4a41473bda1212c92202d5a4c", null ],
       [ "name", "../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#aace714d323a2552143eafc53f128fc9c", null ],

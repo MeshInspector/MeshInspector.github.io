@@ -3,6 +3,8 @@ var classMR_1_1MeshSave_1_1Const__CtmSaveOptions =
     [ "MeshCompression", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#ab5d519dc6cd42e9205825232de3b0089", null ],
     [ "Const_CtmSaveOptions", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a6088524a1949f2721b8b2d15217ba424", null ],
     [ "Const_CtmSaveOptions", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a21126211f65ab5f27200ff5c3c1aa6b8", null ],
+    [ "Const_CtmSaveOptions", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#aa062cf9ec8579011ff482a24cf81eae6", null ],
+    [ "Const_CtmSaveOptions", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a966226f04373605bbcc2152251d41418", null ],
     [ "Dispose", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a5e90ee5d4c2246f4c1f7310b64cd6864", null ],
     [ "Dispose", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a25a3d5c79f6a66783ee4cdaed0c98729", null ],
     [ "operator MR.Const_SaveSettings", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#adceb62a59dac0eb897a7e4c210441ca6", null ],

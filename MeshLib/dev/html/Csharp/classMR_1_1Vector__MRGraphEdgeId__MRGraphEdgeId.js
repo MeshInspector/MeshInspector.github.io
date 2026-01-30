@@ -2,6 +2,8 @@ var classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId =
 [
     [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#a5537b1aab60ec830ac29e534a1cd4e1a", null ],
     [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#afe9a8983d1e10b0f3697f3cf83a94851", null ],
+    [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#a614f6a6d2e2d96bc89ffe72b06acb720", null ],
+    [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#abef585f6fa1053c9531e2cc0fb563e38", null ],
     [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#a72b28adb0af9c002ecd2166397f4d07b", null ],
     [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#af9851dc94ec16ad621e6e778bb082858", null ],
     [ "Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html#a73796c2ce4037a71cb8af7875ffb98f4", null ],

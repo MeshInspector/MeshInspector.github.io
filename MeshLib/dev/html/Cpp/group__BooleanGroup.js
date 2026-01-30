@@ -27,6 +27,7 @@ var group__BooleanGroup =
       [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#ad2883b0992b59d222f1157ace89dd4ef", null ],
       [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#a5423bc6d9385efe02231a7b3e89cbd72", null ],
       [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#a833c0f6ee14231909d415891b69a7851", null ],
+      [ "BooleanInternalParameters", "../Csharp/classMR_1_1BooleanInternalParameters.html#a2d47ecf9fd1f635559cdf74cc7600cb6", null ],
       [ "assign", "../Csharp/classMR_1_1BooleanInternalParameters.html#a40469601d1e1f038cac4f91f99c02d3f", null ],
       [ "optionalOutCut", "../Csharp/classMR_1_1BooleanInternalParameters.html#a559037667f33f13759dd15407667f9e1", null ],
       [ "originalMeshA", "../Csharp/classMR_1_1BooleanInternalParameters.html#aa53b1edbd97c6cd9e657eff0c7bf484f", null ],
@@ -36,6 +37,8 @@ var group__BooleanGroup =
       [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#af1c83868539c57eaeeecccf03ff26738", null ],
       [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#ae54495bbb37a19315a597b57fcf968e7", null ],
       [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#acb304b62495c8212feca48ee1ba8d101", null ],
+      [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#aa4832d1260cb9bdb36d049f4c28cb518", null ],
+      [ "NewEdgesMap", "../Csharp/classMR_1_1NewEdgesMap.html#a4d500b96c8a39d7e009ee25a9e1f8c36", null ],
       [ "assign", "../Csharp/classMR_1_1NewEdgesMap.html#acd090fcf0bc89fe7e27bf8330cb0ea35", null ],
       [ "map", "../Csharp/classMR_1_1NewEdgesMap.html#ab7172e3d43dfedf26185e4da95d335d6", null ],
       [ "splitEdges", "../Csharp/classMR_1_1NewEdgesMap.html#a0ade3d587a06a3ab61ee67b30cfb2929", null ]

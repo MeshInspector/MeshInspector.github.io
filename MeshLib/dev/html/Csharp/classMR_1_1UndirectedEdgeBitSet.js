@@ -2,6 +2,8 @@ var classMR_1_1UndirectedEdgeBitSet =
 [
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#aedab5528715037f8eaa78e1df49bedc3", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#a2b9d2814771ab6b6d30477dd25f6af46", null ],
+    [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#aee87d70a957a8c06178c0d31d378f665", null ],
+    [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#a57654d71db94fff5f1e5f33c7e16f568", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#aab63b4bef0e72dd64ba9ec2f24fe72db", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#a4500c95d65827abaca65d9535719e212", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#ab827e68958b7e6bf78c6fe737f6dbd61", null ],

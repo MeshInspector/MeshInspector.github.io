@@ -2,6 +2,8 @@ var classMR_1_1ObjMap =
 [
     [ "ObjMap", "classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b", null ],
     [ "ObjMap", "classMR_1_1ObjMap.html#ac73c0a20491519cc9938b987b505f2f7", null ],
+    [ "ObjMap", "classMR_1_1ObjMap.html#a5bf4d513611dad96e778fbc4040350a5", null ],
+    [ "ObjMap", "classMR_1_1ObjMap.html#a4a9ca6d406d0883c68fd2b15ea80798a", null ],
     [ "ObjMap", "classMR_1_1ObjMap.html#aae91f85a2b03c5f63d1125bedef2137d", null ],
     [ "ObjMap", "classMR_1_1ObjMap.html#ae15b03ebec0325c89bfe53a505da4fd3", null ],
     [ "ObjMap", "classMR_1_1ObjMap.html#a7311b7b79e5ef54d25c38e1ce71431d7", null ],

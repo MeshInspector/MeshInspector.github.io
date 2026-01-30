@@ -2,6 +2,7 @@ var classMR_1_1Const__VertDistance =
 [
     [ "Const_VertDistance", "classMR_1_1Const__VertDistance.html#a959f8ccb3123dee78e07f8299fb60593", null ],
     [ "Const_VertDistance", "classMR_1_1Const__VertDistance.html#a71a732ec0ba7a52a66ee01660e6ed871", null ],
+    [ "Const_VertDistance", "classMR_1_1Const__VertDistance.html#a6933b45ab8e3e086505efc603004d8d1", null ],
     [ "Const_VertDistance", "classMR_1_1Const__VertDistance.html#ae1b87ce8d674b466b842335ae4dc2724", null ],
     [ "Dispose", "classMR_1_1Const__VertDistance.html#a40325917cc10699d59fbf7f84fc5d404", null ],
     [ "Dispose", "classMR_1_1Const__VertDistance.html#a3f9cf031f2bb2fd2fce67819d72ee376", null ],

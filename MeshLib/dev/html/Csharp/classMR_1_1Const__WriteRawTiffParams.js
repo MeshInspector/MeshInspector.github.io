@@ -3,6 +3,8 @@ var classMR_1_1Const__WriteRawTiffParams =
     [ "Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html#a36682ee20bf70fc0d967f6d98e7a2873", null ],
     [ "Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html#a8c2571945cc5c5d51818e88c365ee186", null ],
     [ "Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html#a69519525e118498d2d4deaf7383250b4", null ],
+    [ "Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html#a7bed7be547d35d19f9e957465de0e749", null ],
+    [ "Const_WriteRawTiffParams", "classMR_1_1Const__WriteRawTiffParams.html#a2b70c8ca434ecaa50e82e149cf62decc", null ],
     [ "Dispose", "classMR_1_1Const__WriteRawTiffParams.html#aa24fbde955137c1a359a4d4a8f6a49f3", null ],
     [ "Dispose", "classMR_1_1Const__WriteRawTiffParams.html#ad999000d1bc29e9ee7e1ac6ed7744fef", null ],
     [ "__ptr_storage_xf", "classMR_1_1Const__WriteRawTiffParams.html#a777d0d549c99d8a3bfa586d93f862072", null ],

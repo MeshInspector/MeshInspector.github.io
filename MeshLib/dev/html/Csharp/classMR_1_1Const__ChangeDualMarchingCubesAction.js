@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeDualMarchingCubesAction =
 [
     [ "Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html#a0f5dc389324f042e830db9b86eb3e470", null ],
+    [ "Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html#a4d7f85651a8dd47857f88daa49b5f4f0", null ],
+    [ "Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html#a961d7ac58d30b58d144a75d9d6062c53", null ],
     [ "Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html#affc919d94620c60e674371b8d01eb404", null ],
     [ "Const_ChangeDualMarchingCubesAction", "classMR_1_1Const__ChangeDualMarchingCubesAction.html#af761a217eda0f9ee62a0de58ce4a4cac", null ],
     [ "Dispose", "classMR_1_1Const__ChangeDualMarchingCubesAction.html#abe471a85b51ea4b086561cb450be613a", null ],

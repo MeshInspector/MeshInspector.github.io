@@ -2,6 +2,7 @@ var classMR_1_1Const__UndirectedEdgeIterator =
 [
     [ "Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html#a46a61b60de2b7addc8570bb307030400", null ],
     [ "Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html#afc7cf37339002fd2aa06cd5f18a9e6a5", null ],
+    [ "Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html#abc4f9ed915e7fde4d45c815ff1cbf847", null ],
     [ "Const_UndirectedEdgeIterator", "classMR_1_1Const__UndirectedEdgeIterator.html#a10587764efbe1f34b9e2c14f90cf12f3", null ],
     [ "deref", "classMR_1_1Const__UndirectedEdgeIterator.html#a8c2578e30d1fa5e845716b5478c95628", null ],
     [ "Dispose", "classMR_1_1Const__UndirectedEdgeIterator.html#a088f88e9586649bd0307308c1deafc74", null ],

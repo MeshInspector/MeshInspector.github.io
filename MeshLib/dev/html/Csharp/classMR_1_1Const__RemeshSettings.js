@@ -3,6 +3,8 @@ var classMR_1_1Const__RemeshSettings =
     [ "Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html#a55bdf74c5ef12d8d144dd142b2a597f7", null ],
     [ "Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html#a5ef14c324163d4f01d474f51fd4dc19b", null ],
     [ "Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html#a410ac65fa7805e6dffc878b6ba8e1b6e", null ],
+    [ "Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html#a077594c741a03582fbd53595870b456b", null ],
+    [ "Const_RemeshSettings", "classMR_1_1Const__RemeshSettings.html#a856325db4dcc973757f25e2c1d7e34a7", null ],
     [ "Dispose", "classMR_1_1Const__RemeshSettings.html#a435efd47befcca1951d91519244de230", null ],
     [ "Dispose", "classMR_1_1Const__RemeshSettings.html#a045d2a6da473a4cdc752284f7d146c54", null ],
     [ "__ptr_storage_notFlippable", "classMR_1_1Const__RemeshSettings.html#a2e144e264ff95a1dcb4312a23c69cd21", null ],

@@ -3,6 +3,8 @@ var classMR_1_1Const__Pdf_1_1Const__TextCellParams =
     [ "Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#af5b32a41d8ca9d3e568d85ab89274385", null ],
     [ "Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a6221eed1ebd6178861d31f85439d3540", null ],
     [ "Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#ad2ea84154527d9aab84f71d371861648", null ],
+    [ "Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#ada3cd337e15da4d22bdd85e168b08cdf", null ],
+    [ "Const_TextCellParams", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#aa5ca043094866d7f5188f6da3a979c1a", null ],
     [ "Dispose", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a087e4a41740901e8427cb479ace945ff", null ],
     [ "Dispose", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a6638107aadb5a36f1a5922c498d57bb6", null ],
     [ "__ref_storage_colorBackground", "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a01da7be385b4e51b44f2189c439bcf54", null ],

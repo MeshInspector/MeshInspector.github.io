@@ -3,6 +3,7 @@ var classMR_1_1Const__Ball2f =
     [ "Const_Ball2f", "classMR_1_1Const__Ball2f.html#afa1948c9bc4b7c88b8c3940888c0185e", null ],
     [ "Const_Ball2f", "classMR_1_1Const__Ball2f.html#a2324ee90f03c7f0b84ee34a489930b08", null ],
     [ "Const_Ball2f", "classMR_1_1Const__Ball2f.html#a06c4da53bad39dfb06a70971fde21160", null ],
+    [ "Const_Ball2f", "classMR_1_1Const__Ball2f.html#a0a15dd09b2ab556d990d9ea139c0f830", null ],
     [ "Dispose", "classMR_1_1Const__Ball2f.html#a11337cca8c6c6cb3c0c114e296ca6ddc", null ],
     [ "Dispose", "classMR_1_1Const__Ball2f.html#a24bad9103d53354ec4d3a98f8e211890", null ],
     [ "inside", "classMR_1_1Const__Ball2f.html#a7d1b82b0316ccad2c54a23d310b589b3", null ],

@@ -3,6 +3,8 @@ var classMR_1_1VoxelsSave_1_1Const__SavingSettings =
     [ "Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a62530cadedbc8b46a0a362969568ae9b", null ],
     [ "Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a6221727683617fc12909608a0e21857d", null ],
     [ "Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a238b572f259aa6cf798c17a87985ba59", null ],
+    [ "Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a651a71ce25854f9e80e109fbe0ba7885", null ],
+    [ "Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a59d1187658f7da24e5cec43ddb8c2d9a", null ],
     [ "Dispose", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a0a34b0e79922239f13cf491d06703c40", null ],
     [ "Dispose", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a2aa4c71aa5eee09ee6880cc3566faa07", null ],
     [ "__ref_storage_slicePlane", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html#a824fe6ab85cbde843941251053b81fc7", null ],

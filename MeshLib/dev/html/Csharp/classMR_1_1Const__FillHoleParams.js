@@ -8,6 +8,8 @@ var classMR_1_1Const__FillHoleParams =
     [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#aa4aadc8bdf9a4bff488da9d2cfdb698e", null ],
     [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#aeb97acbf79f4b30d512cfb0b3c04967e", null ],
     [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#a207f10f3f2b47c8cf81895a2ff61c253", null ],
+    [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#a2a7d050569b3914564f6d61820bd2f18", null ],
+    [ "Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html#a4a558358310515678bf7b69e674f26b1", null ],
     [ "Dispose", "classMR_1_1Const__FillHoleParams.html#a90408748738558b53693cf14187096c3", null ],
     [ "Dispose", "classMR_1_1Const__FillHoleParams.html#a33ae9664024d96025d1bace827dc593f", null ],
     [ "__ptr_storage_outNewFaces", "classMR_1_1Const__FillHoleParams.html#ae625e856f83777c221c0f0c3774c6a01", null ],

@@ -10,6 +10,8 @@ var classMR_1_1Const__BooleanResultMapper =
     ] ],
     [ "Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html#a0f0f8b825061bdf94c068842f74ada22", null ],
     [ "Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html#a093261f8519e80a2421089f23c0055e3", null ],
+    [ "Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html#a080221768206a0e29e5a5f2ed511dc24", null ],
+    [ "Const_BooleanResultMapper", "classMR_1_1Const__BooleanResultMapper.html#ae940280a43a3f355b6ad395384175833", null ],
     [ "Dispose", "classMR_1_1Const__BooleanResultMapper.html#a4a830f8c85fe2aaeb4124a5f22392555", null ],
     [ "Dispose", "classMR_1_1Const__BooleanResultMapper.html#a16be4d0096aa9c6251a71310ebbef969", null ],
     [ "getMaps", "classMR_1_1Const__BooleanResultMapper.html#a6af09173985861b4df807c90ae252ed1", null ],

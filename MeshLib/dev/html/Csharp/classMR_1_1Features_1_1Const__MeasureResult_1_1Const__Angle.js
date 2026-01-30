@@ -2,6 +2,7 @@ var classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle =
 [
     [ "Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a807047056e74db5d3aea4b51d1a0bad7", null ],
     [ "Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a7b2aa58e7f96eb5e66ff1a7510217ccc", null ],
+    [ "Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#ab26099e002023f754a3adba3bd8506ee", null ],
     [ "computeAngleInRadians", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a32c209f4645e1f9e8bf290e04fc91388", null ],
     [ "dirFor", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a24d76491847546800b03ae63840b732c", null ],
     [ "Dispose", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#adb9d462160b2520bb94e1da342cc6e76", null ],

@@ -2,6 +2,8 @@ var classMR_1_1Const__PointCloud =
 [
     [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a59abbd89562fad50d6114c2177e5e076", null ],
     [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a156c2c92a9e0677f05fa88f4c5178095", null ],
+    [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a486381fc6a18c7f4e5112bc035a207b5", null ],
+    [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a8254276a27440fd47e66c157f1a4df62", null ],
     [ "calcNumValidPoints", "classMR_1_1Const__PointCloud.html#a16de71c2cff1564f1f878e79e76b37e9", null ],
     [ "computeBoundingBox", "classMR_1_1Const__PointCloud.html#af6200453162ea714b3c1aae3c5beb6a4", null ],
     [ "computeBoundingBox", "classMR_1_1Const__PointCloud.html#adee5466eca74a7f9db31a863f4c5ad59", null ],

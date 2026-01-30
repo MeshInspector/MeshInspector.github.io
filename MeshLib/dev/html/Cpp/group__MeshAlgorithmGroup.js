@@ -11,6 +11,8 @@ var group__MeshAlgorithmGroup =
     [ "MR::MeshDiff", "../Csharp/classMR_1_1MeshDiff.html", [
       [ "MeshDiff", "../Csharp/classMR_1_1MeshDiff.html#a4f205e4e1fd57fb2dd050915d9d607da", null ],
       [ "MeshDiff", "../Csharp/classMR_1_1MeshDiff.html#aaf6526c557c92b3f5b3e9fc5bce095f1", null ],
+      [ "MeshDiff", "../Csharp/classMR_1_1MeshDiff.html#a0f00cc150e69f340e0b233207925e9a1", null ],
+      [ "MeshDiff", "../Csharp/classMR_1_1MeshDiff.html#a9357d78269748233754f5667658ffa2d", null ],
       [ "MeshDiff", "../Csharp/classMR_1_1MeshDiff.html#a8a1b3b57fc35c627e6c0ddfeb4233c8d", null ],
       [ "applyAndSwap", "../Csharp/classMR_1_1MeshDiff.html#a81527234b7da2d1b541ba756bf43881a", null ],
       [ "assign", "../Csharp/classMR_1_1MeshDiff.html#a2969ef471c11d299873c5859e13824c2", null ]
@@ -25,6 +27,8 @@ var group__MeshAlgorithmGroup =
     [ "MR::MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html", [
       [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#ab7d110cf7a7464a4d6b8531bdf6b7c0d", null ],
       [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#a60eb9ab95581ed9a56c7a101a7452acc", null ],
+      [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#a59ae6db07219b6d34220471e3c0a1a76", null ],
+      [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#a4493b1ce9c4de8d9a61ba58c34b69627", null ],
       [ "MeshTopologyDiff", "../Csharp/classMR_1_1MeshTopologyDiff.html#a0e0d8a6b74921f3194d166c4bd05e849", null ],
       [ "applyAndSwap", "../Csharp/classMR_1_1MeshTopologyDiff.html#a6e3b1493bfaaae3d2627bf665217722b", null ],
       [ "assign", "../Csharp/classMR_1_1MeshTopologyDiff.html#a326568e5c4c2cb80780c099d3b86ee66", null ]
@@ -32,6 +36,8 @@ var group__MeshAlgorithmGroup =
     [ "MR::VertCoordsDiff", "../Csharp/classMR_1_1VertCoordsDiff.html", [
       [ "VertCoordsDiff", "../Csharp/classMR_1_1VertCoordsDiff.html#a5102d8feec098f916e2c10d8be92db2b", null ],
       [ "VertCoordsDiff", "../Csharp/classMR_1_1VertCoordsDiff.html#a10627d0b3cb91c58fabd235dc82ad3c3", null ],
+      [ "VertCoordsDiff", "../Csharp/classMR_1_1VertCoordsDiff.html#a1aef5a7d78ea84e33c6b3d00540dba1d", null ],
+      [ "VertCoordsDiff", "../Csharp/classMR_1_1VertCoordsDiff.html#a3f1595258a2d1c41983fa10cca2cc1ad", null ],
       [ "VertCoordsDiff", "../Csharp/classMR_1_1VertCoordsDiff.html#a0d5378a2750490e0fe3f761f7323bb0d", null ],
       [ "applyAndSwap", "../Csharp/classMR_1_1VertCoordsDiff.html#a471823260258ce2382478da39c602157", null ],
       [ "assign", "../Csharp/classMR_1_1VertCoordsDiff.html#acddf3b61564aa2e78b768a9d54802b97", null ]

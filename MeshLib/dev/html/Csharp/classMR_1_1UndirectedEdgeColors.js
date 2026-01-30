@@ -2,6 +2,8 @@ var classMR_1_1UndirectedEdgeColors =
 [
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#ab6c21f51eb0ca8100c5865d66860f06e", null ],
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a25c5e6e15ab6183fba63993896a67fe5", null ],
+    [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a194f2cfc2dd7e65cdcca98c077e310f8", null ],
+    [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a058511263d7fbfedec6ae60112f71eec", null ],
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a60d56dc0a6c6939a99bdcb0d5c229bcc", null ],
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#ab2c8e321dd59c6b3016cc1e569d52e65", null ],
     [ "UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html#a81accfb6ef42b3a667825daf1593cdfc", null ],

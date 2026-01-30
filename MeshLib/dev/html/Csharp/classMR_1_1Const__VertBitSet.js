@@ -2,6 +2,8 @@ var classMR_1_1Const__VertBitSet =
 [
     [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#af5f4d6e96a71ef51f2a6d2df9144d7fd", null ],
     [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#aa5e98df9b4e4896b996caf517b774781", null ],
+    [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#ac0da7205ea548c30a4ca6d899ffe9c08", null ],
+    [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#a5423c6c7626a2cb246b35ac23274deeb", null ],
     [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#a978ddc94a7ca470f029655be96711c9e", null ],
     [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#abaaa476597615a581e4c9a0c841cb7cc", null ],
     [ "Const_VertBitSet", "classMR_1_1Const__VertBitSet.html#a11dd34706f37b3ad2cb3f18a3da8e6c9", null ],

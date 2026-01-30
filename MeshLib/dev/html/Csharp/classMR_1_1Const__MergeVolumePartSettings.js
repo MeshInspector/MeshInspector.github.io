@@ -3,6 +3,8 @@ var classMR_1_1Const__MergeVolumePartSettings =
     [ "Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html#aa1186dedafb838649838bd64ba93e3e3", null ],
     [ "Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html#aad4e4a32b01ef5dc79f5563221c64b7f", null ],
     [ "Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html#ab0b12f5b21b8878c7171e0650de762e3", null ],
+    [ "Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html#a016d97a6e50d12c3596bb9ab53ba4122", null ],
+    [ "Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html#a2ec2efaac6f7846d0e00581f84864d0c", null ],
     [ "Dispose", "classMR_1_1Const__MergeVolumePartSettings.html#aab4a063108b167abfe833f53131c5671", null ],
     [ "Dispose", "classMR_1_1Const__MergeVolumePartSettings.html#af8a4c14411d22b7bceff6f6169cebfee", null ],
     [ "__ref_storage_origin", "classMR_1_1Const__MergeVolumePartSettings.html#a14650c4ddd9aceab6464b93265d9edfd", null ],

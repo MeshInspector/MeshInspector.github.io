@@ -3,6 +3,7 @@ var classMR_1_1Const__QuadraticForm2f =
     [ "Const_QuadraticForm2f", "classMR_1_1Const__QuadraticForm2f.html#aa8bc0715c280686f8a9086fe94f65939", null ],
     [ "Const_QuadraticForm2f", "classMR_1_1Const__QuadraticForm2f.html#a015d06e7565108a5395051e705f8a78c", null ],
     [ "Const_QuadraticForm2f", "classMR_1_1Const__QuadraticForm2f.html#a2e1663757b5787940d55d0e5036738dc", null ],
+    [ "Const_QuadraticForm2f", "classMR_1_1Const__QuadraticForm2f.html#ab999d371f915ee2efbfbd96a72a3aba3", null ],
     [ "Dispose", "classMR_1_1Const__QuadraticForm2f.html#a825d5fdc49f738d6a6df83a1d29bfcb5", null ],
     [ "Dispose", "classMR_1_1Const__QuadraticForm2f.html#a3d255eb254e63a0bc63119e2206f41bd", null ],
     [ "eval", "classMR_1_1Const__QuadraticForm2f.html#aa236587b20e0eb5c03349b4d7065cf55", null ],

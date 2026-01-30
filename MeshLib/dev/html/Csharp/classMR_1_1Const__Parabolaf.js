@@ -2,6 +2,7 @@ var classMR_1_1Const__Parabolaf =
 [
     [ "Const_Parabolaf", "classMR_1_1Const__Parabolaf.html#a2d0c2e30f59c82d86e08318ca69329d2", null ],
     [ "Const_Parabolaf", "classMR_1_1Const__Parabolaf.html#a23ca1ab12a8e67200a38de92ef12e17a", null ],
+    [ "Const_Parabolaf", "classMR_1_1Const__Parabolaf.html#a351afb08d02246c5b2bb487b073293fe", null ],
     [ "Const_Parabolaf", "classMR_1_1Const__Parabolaf.html#ad13b5a034a0d2fd1e2b27be4b887e3a4", null ],
     [ "call", "classMR_1_1Const__Parabolaf.html#ab39de5ca4a95e9ead8a78aff3cbb6e44", null ],
     [ "Dispose", "classMR_1_1Const__Parabolaf.html#a32d7cc0fa40d83d1fe7c2a69c31b15e4", null ],

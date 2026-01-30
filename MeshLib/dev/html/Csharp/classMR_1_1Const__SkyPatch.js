@@ -3,6 +3,7 @@ var classMR_1_1Const__SkyPatch =
     [ "Const_SkyPatch", "classMR_1_1Const__SkyPatch.html#a59219d526679146ddaeb68b9762c36f7", null ],
     [ "Const_SkyPatch", "classMR_1_1Const__SkyPatch.html#afa8c2296414aa7ae8b7380010ca3a874", null ],
     [ "Const_SkyPatch", "classMR_1_1Const__SkyPatch.html#a8de40064855577dcf09527d1a92052c8", null ],
+    [ "Const_SkyPatch", "classMR_1_1Const__SkyPatch.html#a06616fb5df3125a1c3102fceee04ded3", null ],
     [ "Dispose", "classMR_1_1Const__SkyPatch.html#a6c00731bbfa732cc13c9a27753c18fbf", null ],
     [ "Dispose", "classMR_1_1Const__SkyPatch.html#aab51b65de899ce97c55f199171bfbcfa", null ],
     [ "__ref_storage_dir", "classMR_1_1Const__SkyPatch.html#af847132e1c1b196fc7a1c76bb6aefcc5", null ],

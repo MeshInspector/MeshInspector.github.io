@@ -3,6 +3,7 @@ var classMR_1_1Const__PointAndDistance =
     [ "Const_PointAndDistance", "classMR_1_1Const__PointAndDistance.html#a1e4f8bcab72aad67d14495ecd4fafca0", null ],
     [ "Const_PointAndDistance", "classMR_1_1Const__PointAndDistance.html#a69163e5d881eb2148e3898feab5a182a", null ],
     [ "Const_PointAndDistance", "classMR_1_1Const__PointAndDistance.html#aade413fbc114fe6727fb8d366c9b3194", null ],
+    [ "Const_PointAndDistance", "classMR_1_1Const__PointAndDistance.html#a555b48f48adc15405bba1394c518617e", null ],
     [ "Dispose", "classMR_1_1Const__PointAndDistance.html#a1d5e20e08fbd8587cae88c6fe09fdf57", null ],
     [ "Dispose", "classMR_1_1Const__PointAndDistance.html#aa36a3a6a0d9de7291cff3a5d10da11d2", null ],
     [ "operator bool", "classMR_1_1Const__PointAndDistance.html#a8f41991c2b1235327a0f98f3668d863f", null ],

@@ -2,6 +2,8 @@ var classMR_1_1VertColorMapAggregator =
 [
     [ "VertColorMapAggregator", "classMR_1_1VertColorMapAggregator.html#af28eb88db5572db895fdf30f1ed2d5f8", null ],
     [ "VertColorMapAggregator", "classMR_1_1VertColorMapAggregator.html#aed14ab3e8e01ab22ae053764c07aabf6", null ],
+    [ "VertColorMapAggregator", "classMR_1_1VertColorMapAggregator.html#ad37b78df508fd0490475d2c5e19b0b62", null ],
+    [ "VertColorMapAggregator", "classMR_1_1VertColorMapAggregator.html#a67bffe0ab2ee44dbd7d3943559c4e554", null ],
     [ "aggregate", "classMR_1_1VertColorMapAggregator.html#abf0154a96061e480547ad1c02b2e8c60", null ],
     [ "assign", "classMR_1_1VertColorMapAggregator.html#aa4ea7dfb4303767befbee737f2bf5d5f", null ],
     [ "erase", "classMR_1_1VertColorMapAggregator.html#afa26691c4311e5a67507895186441af2", null ],

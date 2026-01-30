@@ -1,6 +1,8 @@
 var classMR_1_1Const__ChangeOneNormalInCloudAction =
 [
     [ "Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html#ac2227d714255eed99523fb723c069c83", null ],
+    [ "Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html#a06a3e8994fe7cbbd531f2ea5fb98b982", null ],
+    [ "Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html#abc876a360740934c07dc6878c826a8ed", null ],
     [ "Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html#ab6d1069eaaca3c9c62218516f5efd48f", null ],
     [ "Const_ChangeOneNormalInCloudAction", "classMR_1_1Const__ChangeOneNormalInCloudAction.html#a98968d7c906f221ac244336e0a63fe93", null ],
     [ "Dispose", "classMR_1_1Const__ChangeOneNormalInCloudAction.html#aa41f433a7c26d08382fcb60b83ea97bc", null ],

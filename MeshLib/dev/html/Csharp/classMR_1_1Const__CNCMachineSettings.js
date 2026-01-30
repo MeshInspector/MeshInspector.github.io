@@ -7,6 +7,8 @@ var classMR_1_1Const__CNCMachineSettings =
     ] ],
     [ "Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html#a75e9c393463ac8d3ffc30b7f251ee328", null ],
     [ "Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html#a41e8d8f18b7750ff08576785b0266fd2", null ],
+    [ "Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html#adb2c2c37f93c216bfadeee4a0abcfd37", null ],
+    [ "Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html#a9e44b4f5d7dada9588191e6f4660697d", null ],
     [ "Dispose", "classMR_1_1Const__CNCMachineSettings.html#a69c99d26d6ecb9cd73208f08a5f875bb", null ],
     [ "Dispose", "classMR_1_1Const__CNCMachineSettings.html#a61c5e53033d50ed711c0ce217172190d", null ],
     [ "getAxesCount", "classMR_1_1Const__CNCMachineSettings.html#a2d1969c3245bc7c1b34bc1c0478eedbe", null ],

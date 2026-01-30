@@ -3,6 +3,8 @@ var classMR_1_1Const__SeparationPointStorage_1_1Block =
     [ "Block", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a14b58fe86c56fe340a8f1d0798a43d0f", null ],
     [ "Block", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a308c0499a8395be660fbc135798a6d4c", null ],
     [ "Block", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#af34a70dc4bf26d01775340d68db16477", null ],
+    [ "Block", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#ae396b748dbcd557e94d00bfe70f76469", null ],
+    [ "Block", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#aafb92041c9a6f8a0bad385400c8e625b", null ],
     [ "assign", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#abc7bf5c4a823b6b717ab01828d6576e9", null ],
     [ "coords", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a611dbf2384e5678fdda11283cac4288f", null ],
     [ "faceMap", "classMR_1_1Const__SeparationPointStorage_1_1Block.html#aed25afc5118aca360cdb5d663ed1c3a2", null ],

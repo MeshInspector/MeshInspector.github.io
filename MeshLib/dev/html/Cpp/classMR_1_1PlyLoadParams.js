@@ -3,6 +3,8 @@ var classMR_1_1PlyLoadParams =
     [ "PlyLoadParams", "../Csharp/classMR_1_1PlyLoadParams.html#a85113be70f575948ee1e8c733070f18f", null ],
     [ "PlyLoadParams", "../Csharp/classMR_1_1PlyLoadParams.html#ab8b43c6dcc4eb59f2cca159f40193ff3", null ],
     [ "PlyLoadParams", "../Csharp/classMR_1_1PlyLoadParams.html#a2db581dbc04d57735301ebf7d941b12a", null ],
+    [ "PlyLoadParams", "../Csharp/classMR_1_1PlyLoadParams.html#a70d681fd17e7210e83c4ed60de0b926a", null ],
+    [ "PlyLoadParams", "../Csharp/classMR_1_1PlyLoadParams.html#a2e7fb64b1a53bbae49c9a5d516c8150a", null ],
     [ "assign", "../Csharp/classMR_1_1PlyLoadParams.html#a634e8184f0d3e832a49a9262532a0b93", null ],
     [ "callback", "../Csharp/classMR_1_1PlyLoadParams.html#afedf23b97b7976f86b580a06df488c11", null ],
     [ "colors", "../Csharp/classMR_1_1PlyLoadParams.html#a805e4f12f41cb08430a66ab6b059278f", null ],

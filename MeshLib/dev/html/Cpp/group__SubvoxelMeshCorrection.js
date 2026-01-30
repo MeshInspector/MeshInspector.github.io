@@ -4,6 +4,7 @@ var group__SubvoxelMeshCorrection =
       [ "MoveMeshToVoxelMaxDerivSettings", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a714c1b37cfd9bcbbb8bcc3fd66b269b6", null ],
       [ "MoveMeshToVoxelMaxDerivSettings", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ac6820c7781be4aac1073d7dec8bac0d7", null ],
       [ "MoveMeshToVoxelMaxDerivSettings", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a7c690cd2b38cce22766f4b958ba82da9", null ],
+      [ "MoveMeshToVoxelMaxDerivSettings", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#aa9b0114c0c1c372922abb4deda37c767", null ],
       [ "assign", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a076e8e8cc12bef4017719ef314dd383b", null ],
       [ "degree", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#acede1e05b9e7280577a5ff654bdcc96d", null ],
       [ "intermediateSmoothForce", "../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a60b22f506d394ae8c557011b43705da1", null ],

@@ -3,6 +3,7 @@ var classMR_1_1MinMaxArg__Float__MRVertId =
     [ "MinMaxArg_Float_MRVertId", "classMR_1_1MinMaxArg__Float__MRVertId.html#a593ae0df341b3e23f88c0290df4bf5b5", null ],
     [ "MinMaxArg_Float_MRVertId", "classMR_1_1MinMaxArg__Float__MRVertId.html#abb40813da45ba405964f4b6988413d44", null ],
     [ "MinMaxArg_Float_MRVertId", "classMR_1_1MinMaxArg__Float__MRVertId.html#a2da7f9810e91055e5f18787db81d918f", null ],
+    [ "MinMaxArg_Float_MRVertId", "classMR_1_1MinMaxArg__Float__MRVertId.html#a525b200de9e5d33448df1363ea306937", null ],
     [ "assign", "classMR_1_1MinMaxArg__Float__MRVertId.html#a8b1b65991ba3cd5eb183814f45427d51", null ],
     [ "include", "classMR_1_1MinMaxArg__Float__MRVertId.html#a71856a548ad8abf1fd99f178bdd1443a", null ],
     [ "include", "classMR_1_1MinMaxArg__Float__MRVertId.html#a949fb183b749fffd24840bd3133fd1f7", null ],

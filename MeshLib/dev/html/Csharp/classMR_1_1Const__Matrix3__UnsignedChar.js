@@ -4,6 +4,7 @@ var classMR_1_1Const__Matrix3__UnsignedChar =
     [ "QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1QR.html", "classMR_1_1Const__Matrix3__UnsignedChar_1_1QR" ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad9cda8ccdb8d920852828c6b5fc944e8", null ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad6197f678396b06b3df67a229b3db607", null ],
+    [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#a70968388bb1b4ab8de29444413fc0272", null ],
     [ "Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html#a25915feb78be11dd6944a51b33fbfd36", null ],
     [ "col", "classMR_1_1Const__Matrix3__UnsignedChar.html#a6b871a925ff8700fb5939afae9229fd9", null ],
     [ "det", "classMR_1_1Const__Matrix3__UnsignedChar.html#ad7c8f70118a9974a91fa827e17e63164", null ],

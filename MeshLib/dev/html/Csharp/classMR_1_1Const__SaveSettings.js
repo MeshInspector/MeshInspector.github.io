@@ -3,6 +3,8 @@ var classMR_1_1Const__SaveSettings =
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a74b9ca0113d8bede40794a2276790596", null ],
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a352fb17496128afb5e577503daab5529", null ],
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a4f2b9f60633d28351cade5aa4ebc96c2", null ],
+    [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a506f91750aff9650135b9b0c05d8e27f", null ],
+    [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#aafa05cfac60283d1f9d7aab90303711b", null ],
     [ "Dispose", "classMR_1_1Const__SaveSettings.html#abb442483fd854830392f030c2d8178df", null ],
     [ "Dispose", "classMR_1_1Const__SaveSettings.html#a94d410b5a61ad03e5d0def3476959de7", null ],
     [ "__ptr_storage_colors", "classMR_1_1Const__SaveSettings.html#a5c1c9ea016c1fb2805d45b0d58b9c58d", null ],

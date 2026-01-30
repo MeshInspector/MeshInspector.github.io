@@ -3,6 +3,7 @@ var classMR_1_1Const__VoxelMetricParameters =
     [ "Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html#a4cfa7da5e39acd7f6418951154a8ebe7", null ],
     [ "Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html#ac70bfd8e59f54bafd2535f9b4115919e", null ],
     [ "Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html#ac074a53645e40f222952206ce41d0838", null ],
+    [ "Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html#a10a874be75f162dde40c9b79a050f03d", null ],
     [ "Dispose", "classMR_1_1Const__VoxelMetricParameters.html#aeac212f5334eb57e01e4f38b36055043", null ],
     [ "Dispose", "classMR_1_1Const__VoxelMetricParameters.html#a87e25353d0b02e9de0766f88aefe20d2", null ],
     [ "__ref_storage_maxDistRatio", "classMR_1_1Const__VoxelMetricParameters.html#a21dd2bec1d85bbcae71540d07ee78d8b", null ],

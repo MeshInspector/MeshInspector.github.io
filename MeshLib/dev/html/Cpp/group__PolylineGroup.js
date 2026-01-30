@@ -46,6 +46,7 @@ var group__PolylineGroup =
     [ "MR::PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html", [
       [ "PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab", null ],
       [ "PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#ae39e63997c9444c6f6f2b2f46e76a2b0", null ],
+      [ "PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a47b7da24522f416da1a1838ad23225d1", null ],
       [ "PolylineUndirectedEdgeIterator", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#ac5e8609da875022ead0e1313a57555a1", null ],
       [ "assign", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a25ec8fb806d731ff412e70546d8c4bd5", null ],
       [ "incr", "../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a43fdbb98f98cb4e04d9f51650d0835db", null ]
@@ -53,6 +54,8 @@ var group__PolylineGroup =
     [ "MR::PolylineTopology", "../Csharp/classMR_1_1PolylineTopology.html", [
       [ "PolylineTopology", "../Csharp/classMR_1_1PolylineTopology.html#a5e75be04c18e1a83272f0915eaddcdf1", null ],
       [ "PolylineTopology", "../Csharp/classMR_1_1PolylineTopology.html#af834302c4e4f32a56fcd5758077dbc06", null ],
+      [ "PolylineTopology", "../Csharp/classMR_1_1PolylineTopology.html#a0a3e87b2159633c1aa29ed2a59e2160c", null ],
+      [ "PolylineTopology", "../Csharp/classMR_1_1PolylineTopology.html#ae8cacc2daf025a7f8d691acb41db4287", null ],
       [ "addPart", "../Csharp/classMR_1_1PolylineTopology.html#a7a57bb8298c5963b4c0cffc707423c71", null ],
       [ "addPartByMask", "../Csharp/classMR_1_1PolylineTopology.html#ae5dc1a01d4d16febb475d1ee5ee66e4c", null ],
       [ "addVertId", "../Csharp/classMR_1_1PolylineTopology.html#a76b38237af4cf0caf24e603ce4d3c679", null ],

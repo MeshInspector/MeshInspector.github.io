@@ -2,6 +2,8 @@ var classMR_1_1VertCoords2 =
 [
     [ "VertCoords2", "classMR_1_1VertCoords2.html#acd69768544ee2ab7553365c9806a4476", null ],
     [ "VertCoords2", "classMR_1_1VertCoords2.html#ad89f3c42e003e2ba0809adbacd620acd", null ],
+    [ "VertCoords2", "classMR_1_1VertCoords2.html#adaa0487c4c1c3799d1e36965100e6dca", null ],
+    [ "VertCoords2", "classMR_1_1VertCoords2.html#abe5b3af8656fdf6de0c4ba6e8e5e14c0", null ],
     [ "VertCoords2", "classMR_1_1VertCoords2.html#a5614734a46f4781e6e39de6a1974464d", null ],
     [ "VertCoords2", "classMR_1_1VertCoords2.html#a97e137aa34f7db251c48221641271198", null ],
     [ "VertCoords2", "classMR_1_1VertCoords2.html#a66ae4671710b56451610c3153bf856af", null ],

@@ -1,6 +1,8 @@
 var classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume =
 [
     [ "Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#afb3b3fcc835ac1015160c925f5ed48bf", null ],
+    [ "Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#abf58aeb5e796570efc8cb55a80e6791e", null ],
+    [ "Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#a2ca5dd28029a5e85d31a72d7edab937e", null ],
     [ "Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#a6b8537138511ec08cb74237d9013c7f0", null ],
     [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#acc0684caa9b95054728308342d22068c", null ],
     [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#a74e3948be62d37f0a2be7f844703298e", null ],

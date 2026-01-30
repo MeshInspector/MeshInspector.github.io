@@ -3,6 +3,7 @@ var classMR_1_1Const__SplineSettings =
     [ "Const_SplineSettings", "classMR_1_1Const__SplineSettings.html#a9e83eeb2d727b4400a0c6c8b8f907500", null ],
     [ "Const_SplineSettings", "classMR_1_1Const__SplineSettings.html#a2e48fc6992f07a582af7244851559e90", null ],
     [ "Const_SplineSettings", "classMR_1_1Const__SplineSettings.html#a95dd56ce407fa6eed372fa3ec1943acc", null ],
+    [ "Const_SplineSettings", "classMR_1_1Const__SplineSettings.html#aea424aa5d833b9d08b50da1fa57355bd", null ],
     [ "Dispose", "classMR_1_1Const__SplineSettings.html#a1e0367d32d2df1deb77284cfc8a1bcec", null ],
     [ "Dispose", "classMR_1_1Const__SplineSettings.html#a12786783a8e7b1e42f500af37261f447", null ],
     [ "__ptr_storage_normals", "classMR_1_1Const__SplineSettings.html#aca669ca035951a9b6d9871ff3689ef87", null ],

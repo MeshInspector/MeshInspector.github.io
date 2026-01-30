@@ -1,6 +1,8 @@
 var classMR_1_1FreeFormBestFit =
 [
     [ "FreeFormBestFit", "../Csharp/classMR_1_1FreeFormBestFit.html#a266fdecc68e2c18a8a1ed7c5cec82cf8", null ],
+    [ "FreeFormBestFit", "../Csharp/classMR_1_1FreeFormBestFit.html#a7ca0350ac7bf51b4b866a6d2cad97cdd", null ],
+    [ "FreeFormBestFit", "../Csharp/classMR_1_1FreeFormBestFit.html#a3ba25bdb56559b82d9be3bc3e1a70601", null ],
     [ "FreeFormBestFit", "../Csharp/classMR_1_1FreeFormBestFit.html#a4fb615e35bfcdba0125d52463672556d", null ],
     [ "addOther", "../Csharp/classMR_1_1FreeFormBestFit.html#aded679f21405b803a05f29a716ffdc51", null ],
     [ "addPair", "../Csharp/classMR_1_1FreeFormBestFit.html#a594be8b0f738975d8b12dbd4cde65072", null ],

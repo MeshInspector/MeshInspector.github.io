@@ -2,6 +2,7 @@ var classMR_1_1Const__PolylineUndirectedEdgeIterator =
 [
     [ "Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a0833d2e0db96845041f59633b1402182", null ],
     [ "Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a4eb5ab20865163bcd4c37fe81c27b2b8", null ],
+    [ "Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a6a80a86ed9c982f6fdcc91e55446a3fd", null ],
     [ "Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a172fbd8e60cd2be61b63374e408a4a85", null ],
     [ "deref", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a83f1060220ce0cddde4698b32aab860a", null ],
     [ "Dispose", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a2341f8374dc5874d7fcbd0b7f5872b9e", null ],

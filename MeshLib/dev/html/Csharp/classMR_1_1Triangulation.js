@@ -2,6 +2,8 @@ var classMR_1_1Triangulation =
 [
     [ "Triangulation", "classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f", null ],
     [ "Triangulation", "classMR_1_1Triangulation.html#a441b099ec0c5a5490988aa5fae58032e", null ],
+    [ "Triangulation", "classMR_1_1Triangulation.html#a3a3967bad27328a6ec7d045cc3d646de", null ],
+    [ "Triangulation", "classMR_1_1Triangulation.html#aad93e4b94eb271afcac0aa79b7028241", null ],
     [ "Triangulation", "classMR_1_1Triangulation.html#a11f56413e0a4ead139f2fd258b002c53", null ],
     [ "Triangulation", "classMR_1_1Triangulation.html#a1cdf04868b63fa653f6ebb0f7405feb5", null ],
     [ "Triangulation", "classMR_1_1Triangulation.html#ab801ad89f08ad1c57c7176f71fdcc731", null ],

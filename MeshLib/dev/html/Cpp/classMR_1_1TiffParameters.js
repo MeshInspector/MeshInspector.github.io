@@ -2,6 +2,7 @@ var classMR_1_1TiffParameters =
 [
     [ "TiffParameters", "../Csharp/classMR_1_1TiffParameters.html#abf847c3e7ce88dfe82ae2fbc9d8a5499", null ],
     [ "TiffParameters", "../Csharp/classMR_1_1TiffParameters.html#a89e10c444b44dea35956eb97c3bcffa5", null ],
+    [ "TiffParameters", "../Csharp/classMR_1_1TiffParameters.html#aeaab26f6fa60729545131406f3cfe0b7", null ],
     [ "assign", "../Csharp/classMR_1_1TiffParameters.html#a74a5ba0557281e73868030e890c55079", null ],
     [ "bytesPerSample", "../Csharp/classMR_1_1TiffParameters.html#ad20f07f2ef0b228fc152a0136aacc7c3", null ],
     [ "depth", "../Csharp/classMR_1_1TiffParameters.html#a61033000ffb5e9f8f2ef8e6658d59dbb", null ],

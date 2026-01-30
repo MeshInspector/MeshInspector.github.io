@@ -189,17 +189,17 @@ $(function(){initNavTree('ExampleSignedDistances.html',''); initResizable(true);
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">ref_mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>)</div>
-<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>)</div>
+<div class="line">ref_mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac8fbd30fbee59251c1c5d4e6b108af43">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>)</div>
+<div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac8fbd30fbee59251c1c5d4e6b108af43">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># get object of mrmeshpy.VertScalars - set of distances between points of target mesh and reference mesh</span></div>
-<div class="line">vert_distances = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac6a21121b9c4d29b56c2f373b9746986">mrmeshpy.findSignedDistances</a>(ref_mesh, mesh)</div>
+<div class="line">vert_distances = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#aff36f4153a4616c5be4e14134048517d">mrmeshpy.findSignedDistances</a>(ref_mesh, mesh)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># mrmeshpy.VertScalars is iterable so we can use min() or max() functions</span></div>
 <div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is &quot;</span> + str(min(vert_distances)))</div>
 <div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is &quot;</span> + str(max(vert_distances)))</div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac6a21121b9c4d29b56c2f373b9746986"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac6a21121b9c4d29b56c2f373b9746986">mrmeshpy::findSignedDistances</a></div><div class="ttdeci">VertScalars findSignedDistances(Mesh refMesh, VertCoords testPoints, VertBitSet validTestPoints='{}', MeshProjectionParameters params='{}', IPointsToMeshProjector projector='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac8fbd30fbee59251c1c5d4e6b108af43"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac8fbd30fbee59251c1c5d4e6b108af43">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_aff36f4153a4616c5be4e14134048517d"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#aff36f4153a4616c5be4e14134048517d">mrmeshpy::findSignedDistances</a></div><div class="ttdeci">VertScalars findSignedDistances(Mesh refMesh, VertCoords testPoints, VertBitSet validTestPoints='{}', MeshProjectionParameters params=..., IPointsToMeshProjector projector='{}')</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshPart_8h.html">MRCMesh/MRMeshPart.h</a>&gt;</span></div>

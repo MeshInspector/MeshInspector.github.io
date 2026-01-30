@@ -3,6 +3,8 @@ var classMR_1_1WeightedShell_1_1ParametersRegions =
     [ "Region", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region" ],
     [ "ParametersRegions", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#aa5a78ff6f1eef79e85fd7c5ab813e5a7", null ],
     [ "ParametersRegions", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#a15cf974de31ac65eb620225f6a17f918", null ],
+    [ "ParametersRegions", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#a53eda2023e875c6ce5ec78b41c14ccb5", null ],
+    [ "ParametersRegions", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#a4169402e46e2c1ce3780d401b0dfed32", null ],
     [ "assign", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#a6e98bc235ffc895864601d76f220119d", null ],
     [ "bidirectionalMode", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#ad4cc337a08341a485b5c8b51b8db9ced", null ],
     [ "interpolationDist", "../Csharp/classMR_1_1WeightedShell_1_1ParametersRegions.html#a23c68804051fe40d4f602adfbb6b1337", null ],

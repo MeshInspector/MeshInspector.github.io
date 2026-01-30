@@ -3,6 +3,7 @@ var classMR_1_1ResolveMeshDegenSettings =
     [ "ResolveMeshDegenSettings", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a3abb9fa0adc33a5697376862fb63ac20", null ],
     [ "ResolveMeshDegenSettings", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a3022d733faa0739a33ab241c6b2b629c", null ],
     [ "ResolveMeshDegenSettings", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a9d64a0caecc0ece7ee27a303b458ad21", null ],
+    [ "ResolveMeshDegenSettings", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a62f1c86ea600bcc5e6f248b7f3ff5e26", null ],
     [ "assign", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a90c8ddf678c669625c74af810ea67a01", null ],
     [ "criticalAspectRatio", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a46e311b17df1c61ae8974f0e071a45cc", null ],
     [ "maxAngleChange", "../Csharp/classMR_1_1ResolveMeshDegenSettings.html#a06bcbcd82ce77eb4819b61e7f008dfa3", null ],
