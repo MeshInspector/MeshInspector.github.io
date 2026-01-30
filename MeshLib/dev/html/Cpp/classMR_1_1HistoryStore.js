@@ -1,6 +1,6 @@
 var classMR_1_1HistoryStore =
 [
-    [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a343023db277dd443c995c61ea663f7f3", null ],
+    [ "HistoryStoreChangedSignal", "classMR_1_1HistoryStore.html#a011909b9aa7a4cba9468e81a690b817f", null ],
     [ "ChangeType", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4", [
       [ "PreAppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2", null ],
       [ "PostAppendAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02", null ],
