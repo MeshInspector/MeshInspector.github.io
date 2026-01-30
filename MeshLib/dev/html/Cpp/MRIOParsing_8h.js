@@ -1,8 +1,8 @@
 var MRIOParsing_8h =
 [
     [ "getStreamSize", "MRIOParsing_8h.html#a53767990667a21ffbf9c432afd038be4", null ],
+    [ "hasBom", "MRIOParsing_8h.html#a52b7f670c1f8f598d574a0ba468a9d27", null ],
     [ "parseAscCoordinate", "MRIOParsing_8h.html#afb031d90c2eaeddbeac77675cec10847", null ],
-    [ "parseBom", "MRIOParsing_8h.html#a7675760309d4cf587def9a30530afeea", null ],
     [ "parseFirstNum", "MRIOParsing_8h.html#ac31683380e84bd274a20968c64c5f40a", null ],
     [ "parseObjCoordinate", "MRIOParsing_8h.html#ac7c4deb2569e6bc78bcb6210851b70a9", null ],
     [ "parsePolygon", "MRIOParsing_8h.html#ac1fa5e1ea4cfb0aa1699c742597effe7", null ],

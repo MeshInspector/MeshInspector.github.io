@@ -196,7 +196,7 @@ var NAVTREEINDEX =
 "group__PointCloudTriangulationGroup.html",
 "group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13",
 "namespaceMR.html#a29b6abcd794dd6dfbb8d197b6d944685",
-"namespaceMR.html#a67b0d94d13d167822c0f29d0c8bf0378",
+"namespaceMR.html#a676dff9eff2ba59b0e881d73f18900fe",
 "namespaceMR.html#aacc22ee783b806e9b493cf46cf84c13a",
 "namespaceMR.html#aeb9f9f581e8c2c883585a7e337eac7c4",
 "namespaceMR_1_1ImageLoad.html#af2f74031c0a87951c6e6265193e491bb",

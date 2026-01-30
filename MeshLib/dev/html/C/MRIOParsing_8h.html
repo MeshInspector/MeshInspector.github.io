@@ -153,6 +153,7 @@ $(function(){initNavTree('MRIOParsing_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
 <code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRIOParsing_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -162,8 +163,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:afbb808142b78943a45d860ed6aba54e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
 <tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a169b2cb1c4b9a267fdcd4b388a456d37" id="r_a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a></td></tr>
-<tr class="separator:a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0d822b41437ab650418eb826969703" id="r_a4f0d822b41437ab650418eb826969703"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a></td></tr>
 <tr class="separator:a4f0d822b41437ab650418eb826969703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -175,8 +174,8 @@ Functions</h2></td></tr>
 <tr class="separator:a165e3c0aad0b46e07135c2d6b2f3ccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa162568c11f9dd9c2e997fcd347922b1" id="r_aa162568c11f9dd9c2e997fcd347922b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa162568c11f9dd9c2e997fcd347922b1">MR_parsePolygon</a> (const char *str, const char *str_end, <a class="el" href="structMR__VertId.html">MR_VertId</a> *vertId, int *numPoints)</td></tr>
 <tr class="separator:aa162568c11f9dd9c2e997fcd347922b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad48fff105bc0a9072db2d777865bb9e8" id="r_ad48fff105bc0a9072db2d777865bb9e8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48fff105bc0a9072db2d777865bb9e8">MR_parseBom</a> (const char *str, const char *str_end)</td></tr>
-<tr class="separator:ad48fff105bc0a9072db2d777865bb9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13369ae350e20efd9d5312488289b5f8" id="r_a13369ae350e20efd9d5312488289b5f8"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13369ae350e20efd9d5312488289b5f8">MR_hasBom</a> (const char *str, const char *str_end)</td></tr>
+<tr class="separator:a13369ae350e20efd9d5312488289b5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a077b8debfae88f9cf2267ad2db95c006" name="a077b8debfae88f9cf2267ad2db95c006"></a>
@@ -187,20 +186,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a169b2cb1c4b9a267fdcd4b388a456d37" name="a169b2cb1c4b9a267fdcd4b388a456d37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a169b2cb1c4b9a267fdcd4b388a456d37">&#9670;&#160;</a></span>MR_std_string_view</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -236,14 +221,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ad48fff105bc0a9072db2d777865bb9e8" name="ad48fff105bc0a9072db2d777865bb9e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad48fff105bc0a9072db2d777865bb9e8">&#9670;&#160;</a></span>MR_parseBom()</h2>
+<a id="a13369ae350e20efd9d5312488289b5f8" name="a13369ae350e20efd9d5312488289b5f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13369ae350e20efd9d5312488289b5f8">&#9670;&#160;</a></span>MR_hasBom()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_parseBom </td>
+          <td class="memname">MRC_API bool MR_hasBom </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -254,7 +239,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7675760309d4cf587def9a30530afeea">MR::parseBom</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a52b7f670c1f8f598d574a0ba468a9d27">MR::hasBom</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>

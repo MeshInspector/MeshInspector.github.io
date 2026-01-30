@@ -5726,8 +5726,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a2360c210c6fa64143e978b1f2a1b6bff" id="r_a2360c210c6fa64143e978b1f2a1b6bff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a2360c210c6fa64143e978b1f2a1b6bff"><td class="memTemplItemLeft" align="right" valign="top">Expected&lt; void &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2360c210c6fa64143e978b1f2a1b6bff">parseSingleNumber</a> (const std::string_view &amp;str, T &amp;num)</td></tr>
 <tr class="separator:a2360c210c6fa64143e978b1f2a1b6bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7675760309d4cf587def9a30530afeea" id="r_a7675760309d4cf587def9a30530afeea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7675760309d4cf587def9a30530afeea">parseBom</a> (const std::string_view &amp;str)</td></tr>
-<tr class="separator:a7675760309d4cf587def9a30530afeea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b7f670c1f8f598d574a0ba468a9d27" id="r_a52b7f670c1f8f598d574a0ba468a9d27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52b7f670c1f8f598d574a0ba468a9d27">hasBom</a> (const std::string_view &amp;str)</td></tr>
+<tr class="separator:a52b7f670c1f8f598d574a0ba468a9d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93172f1e06fd94c642f000fd5e190230" id="r_a93172f1e06fd94c642f000fd5e190230"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::unique_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1IRenderObject.html">IRenderObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93172f1e06fd94c642f000fd5e190230">createRenderObject</a> (const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;visObj, const std::type_index &amp;type)</td></tr>
 <tr class="separator:a93172f1e06fd94c642f000fd5e190230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5939add708452e0f1d36d597997afb1" id="r_ad5939add708452e0f1d36d597997afb1"><td class="memTemplParams" colspan="2">template&lt;typename ObjectType &gt; </td></tr>
@@ -23422,6 +23422,23 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 
 </div>
 </div>
+<a id="a52b7f670c1f8f598d574a0ba468a9d27" name="a52b7f670c1f8f598d574a0ba468a9d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b7f670c1f8f598d574a0ba468a9d27">&#9670;&#160;</a></span>hasBom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::hasBom </td>
+          <td>(</td>
+          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a36dd0324e538647cb66802f21a522b68" name="a36dd0324e538647cb66802f21a522b68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36dd0324e538647cb66802f21a522b68">&#9670;&#160;</a></span>hasFormatPlaceholders()</h2>
 
@@ -31235,23 +31252,6 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> *</td>          <td class="paramname"><span class="paramname"><em>c</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7675760309d4cf587def9a30530afeea" name="a7675760309d4cf587def9a30530afeea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7675760309d4cf587def9a30530afeea">&#9670;&#160;</a></span>parseBom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view MR::parseBom </td>
-          <td>(</td>
-          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,6 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"MRPositionedText_8h.html#af6fc30ef508caae69ab88b0f78bb504d":[6,2,1,0,0,0,1,275,13],
 "MRPositionedText_8h_source.html":[6,2,1,0,0,0,1,275],
 "MRPrecipitationSimulator_8h.html":[6,2,1,0,0,0,1,277],
 "MRPrecipitationSimulator_8h.html#a013432e489d4337bafdd4f2355f80558":[6,2,1,0,0,0,1,277,26],
@@ -249,5 +248,6 @@ var NAVTREEINDEX93 =
 "MRProjectionMeshAttribute_8h_source.html":[6,2,1,0,0,0,1,284],
 "MRQuadraticForm_8h.html":[6,2,1,0,0,0,1,285],
 "MRQuadraticForm_8h.html#a0c5773a804fa40baeb5bcf1f1328bbee":[6,2,1,0,0,0,1,285,56],
-"MRQuadraticForm_8h.html#a119c59251c69c21a438de45d0cc8934a":[6,2,1,0,0,0,1,285,68]
+"MRQuadraticForm_8h.html#a119c59251c69c21a438de45d0cc8934a":[6,2,1,0,0,0,1,285,68],
+"MRQuadraticForm_8h.html#a13cd8cbd4d45e7cccbccacbb1336a621":[6,2,1,0,0,0,1,285,5]
 };

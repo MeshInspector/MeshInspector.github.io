@@ -2385,9 +2385,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a590687549cc1c103e16b3636be3e510c" id="r_a590687549cc1c103e16b3636be3e510c"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a590687549cc1c103e16b3636be3e510c">parsePolygon</a> (string str, MR.Misc.InOut&lt; <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> &gt;? vertId, MR.Misc.InOut&lt; int &gt;? numPoints)</td></tr>
 <tr class="memdesc:a590687549cc1c103e16b3636be3e510c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac1fa5e1ea4cfb0aa1699c742597effe7">MR.parsePolygon</a></code>.  <br /></td></tr>
 <tr class="separator:a590687549cc1c103e16b3636be3e510c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e73ed7bf2134fa539fa7f25ad696ec" id="r_a42e73ed7bf2134fa539fa7f25ad696ec"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.StringView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42e73ed7bf2134fa539fa7f25ad696ec">parseBom</a> (string str)</td></tr>
-<tr class="memdesc:a42e73ed7bf2134fa539fa7f25ad696ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7675760309d4cf587def9a30530afeea">MR.parseBom</a></code>.  <br /></td></tr>
-<tr class="separator:a42e73ed7bf2134fa539fa7f25ad696ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a110a7720762c067538698a4e1d797aec" id="r_a110a7720762c067538698a4e1d797aec"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110a7720762c067538698a4e1d797aec">hasBom</a> (string str)</td></tr>
+<tr class="memdesc:a110a7720762c067538698a4e1d797aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a52b7f670c1f8f598d574a0ba468a9d27">MR.hasBom</a></code>.  <br /></td></tr>
+<tr class="separator:a110a7720762c067538698a4e1d797aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa152b3ec9f662583d3467e89ea104bed" id="r_aa152b3ec9f662583d3467e89ea104bed"><td class="memItemLeft" align="right" valign="top">static MR.DepthFunction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa152b3ec9f662583d3467e89ea104bed">bitand</a> (MR.DepthFunction a, MR.DepthFunction b)</td></tr>
 <tr class="memdesc:aa152b3ec9f662583d3467e89ea104bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator&amp;</code>.  <br /></td></tr>
 <tr class="separator:aa152b3ec9f662583d3467e89ea104bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -30864,6 +30864,33 @@ All new faces should be parallel to given direction Generated from function <cod
 
 </div>
 </div>
+<a id="a110a7720762c067538698a4e1d797aec" name="a110a7720762c067538698a4e1d797aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110a7720762c067538698a4e1d797aec">&#9670;&#160;</a></span>hasBom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe bool MR.hasBom </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a52b7f670c1f8f598d574a0ba468a9d27">MR.hasBom</a></code>. </p>
+
+</div>
+</div>
 <a id="a6bf9eb6de99550a7c83fa428a8cf50b9" name="a6bf9eb6de99550a7c83fa428a8cf50b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bf9eb6de99550a7c83fa428a8cf50b9">&#9670;&#160;</a></span>hasFormatPlaceholders()</h2>
 
@@ -39706,33 +39733,6 @@ All new faces should be parallel to given direction Generated from function <cod
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>nullptr if the operation was cancelled Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac3547f635ac7e47bf1cb714faf3cc1cb">MR.pack</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </dd></dl>
-
-</div>
-</div>
-<a id="a42e73ed7bf2134fa539fa7f25ad696ec" name="a42e73ed7bf2134fa539fa7f25ad696ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42e73ed7bf2134fa539fa7f25ad696ec">&#9670;&#160;</a></span>parseBom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static unsafe MR.Std.StringView MR.parseBom </td>
-          <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7675760309d4cf587def9a30530afeea">MR.parseBom</a></code>. </p>
 
 </div>
 </div>
