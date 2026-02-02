@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,2,0,2,220,0,3],
+"structMR_1_1Palette_1_1Histogram.html#a2febf0ba5e0ea521581ed3ff1442af5d":[6,0,1,0,1,248,0,2],
+"structMR_1_1Palette_1_1Histogram.html#a2febf0ba5e0ea521581ed3ff1442af5d":[6,0,2,0,2,220,0,2],
+"structMR_1_1Palette_1_1Histogram.html#a4ec5f5fcd46cb8b19af095df3dc1ccab":[6,0,1,0,1,248,0,1],
+"structMR_1_1Palette_1_1Histogram.html#a4ec5f5fcd46cb8b19af095df3dc1ccab":[6,0,2,0,2,220,0,1],
+"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,1,0,1,248,0,6],
+"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,2,0,2,220,0,6],
+"structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,1,0,1,248,0,4],
 "structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,2,0,2,220,0,4],
 "structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,1,0,1,248,0,0],
 "structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,2,0,2,220,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1PolynomialWrapper.html":[6,0,2,0,2,241],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,269,0],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,2,0,2,241,0],
-"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,1,0,1,269,1],
-"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,2,0,2,241,1],
-"structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,1,0,1,269,4],
-"structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,2,0,2,241,4],
-"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,269,2],
-"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,2,241,2],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,269,3],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,2,241,3],
-"structMR_1_1PostDrawListener.html":[6,0,1,0,1,270]
+"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,1,0,1,269,1]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1PointCloudApproxRelaxParams.html#ae850ca670b2e026dcc7dddb01852d070":[6,0,0,12,2,1],
+"classMR_1_1PointCloudApproxRelaxParams.html#af7c5b151cd681efb052eddb4e6e35584":[6,0,0,12,2,4],
+"classMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
+"classMR_1_1PointCloudRelaxParams.html#a16f1be7dcfa33ab5cabcac9e580116a8":[6,0,0,12,1,9],
+"classMR_1_1PointCloudRelaxParams.html#a3f8d8730b5e1552c1ef9600bb7f845b8":[6,0,0,12,1,6],
+"classMR_1_1PointCloudRelaxParams.html#a54b485c440d7a4e469fd1571a87c2887":[6,0,0,12,1,0],
+"classMR_1_1PointCloudRelaxParams.html#a70c3d79d96848834ba724591c0b65fc5":[6,0,0,12,1,5],
+"classMR_1_1PointCloudRelaxParams.html#a8e1fb0264220a53c401c04c523333316":[6,0,0,12,1,8],
 "classMR_1_1PointCloudRelaxParams.html#a996549583f62dc448d5e758adbdc2afe":[6,0,0,12,1,4],
 "classMR_1_1PointCloudRelaxParams.html#a99d01b3ce3289da9687aade8fd9de79e":[6,0,0,12,1,2],
 "classMR_1_1PointCloudRelaxParams.html#acf9e19c184e1945431b1dd53698d2cef":[6,0,0,12,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1QuadricApprox.html#a6e228b814d0429216ed181687efc6248":[6,0,0,0,14,3],
 "classMR_1_1QuadricApprox.html#aa07acaf6a7203a853fb3621c82b3126f":[6,0,0,0,14,0],
 "classMR_1_1RangeCounter.html":[6,0,1,0,1,284],
-"classMR_1_1RangeCounter.html":[6,0,2,0,2,256],
-"classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8":[6,0,1,0,1,284,0],
-"classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8":[6,0,2,0,2,256,0],
-"classMR_1_1RangeCounter.html#a310cccaba672fdf60cd4fd64f7718b2e":[6,0,1,0,1,284,1],
-"classMR_1_1RangeCounter.html#a310cccaba672fdf60cd4fd64f7718b2e":[6,0,2,0,2,256,1],
-"classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8":[6,0,1,0,1,284,2],
-"classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8":[6,0,2,0,2,256,2],
-"classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[6,0,1,0,1,284,7],
-"classMR_1_1RangeCounter.html#a75a111eb51abd100715ed2283d094687":[6,0,2,0,2,256,7]
+"classMR_1_1RangeCounter.html":[6,0,2,0,2,256]
 };

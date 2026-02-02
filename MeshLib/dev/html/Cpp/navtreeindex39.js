@@ -1,5 +1,13 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1SurfacePointWidget.html#a8d61ebacdd506518179659bb8b8c449b":[6,0,2,0,2,360,29],
+"classMR_1_1SurfacePointWidget.html#a8dd6b1d6da44226abb2ebea02590229b":[6,0,1,0,1,388,14],
+"classMR_1_1SurfacePointWidget.html#a8dd6b1d6da44226abb2ebea02590229b":[6,0,2,0,2,360,14],
+"classMR_1_1SurfacePointWidget.html#a97ca2957633a2a8f6425d4f36a8df687":[6,0,1,0,1,388,8],
+"classMR_1_1SurfacePointWidget.html#a97ca2957633a2a8f6425d4f36a8df687":[6,0,2,0,2,360,8],
+"classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958":[6,0,1,0,1,388,12],
+"classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958":[6,0,2,0,2,360,12],
+"classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e":[6,0,1,0,1,388,3],
 "classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e":[6,0,2,0,2,360,3],
 "classMR_1_1SurfacePointWidget.html#ace3bc954b8623ec3e305c97cda6bf20c":[6,0,1,0,1,388,9],
 "classMR_1_1SurfacePointWidget.html#ace3bc954b8623ec3e305c97cda6bf20c":[6,0,2,0,2,360,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1TypedBitSet.html#ad9dd330c61eb1ba1e9d9de2595f7553e":[6,0,0,3,3,37],
 "classMR_1_1TypedBitSet.html#ae0cd24595367501d92c1d903b48d8719":[6,0,0,3,3,21],
 "classMR_1_1TypedBitSet.html#ae8d95e98e9c75e421fa7b11cac718833":[6,0,0,3,3,31],
-"classMR_1_1TypedBitSet.html#ae94c743dc8b5ce0898c5e3e4cbf884d6":[6,0,0,3,3,17],
-"classMR_1_1TypedBitSet.html#af128e7c662fdfb16768d3f19de265794":[6,0,0,3,3,25],
-"classMR_1_1TypedBitSet.html#af68ef102b7a101a12239b7dcaaad7bf9":[6,0,0,3,3,38],
-"classMR_1_1TypedBitSet.html#af731611c94c36dd23e44c15f8d81127b":[6,0,0,3,3,14],
-"classMR_1_1UI_1_1Disabler.html":[6,0,1,0,1,44,8],
-"classMR_1_1UI_1_1Disabler.html":[6,0,2,0,2,20,6],
-"classMR_1_1UI_1_1Disabler.html#a0cc0c3a1ab599cbdc2aecd9e4b1c3b17":[6,0,1,0,1,44,8,1],
-"classMR_1_1UI_1_1Disabler.html#a0cc0c3a1ab599cbdc2aecd9e4b1c3b17":[6,0,2,0,2,20,6,1],
-"classMR_1_1UI_1_1Disabler.html#a3bf945275917a83dc236e989d7496f33":[6,0,1,0,1,44,8,0]
+"classMR_1_1TypedBitSet.html#ae94c743dc8b5ce0898c5e3e4cbf884d6":[6,0,0,3,3,17]
 };

@@ -6,6 +6,10 @@ var classMR_1_1ImGuiMenu =
     [ "UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" ],
     [ "DrawSceneUiSignal", "classMR_1_1ImGuiMenu.html#a942483ecfa0154d8246586de1560c3eb", null ],
     [ "NameTagClickSignal", "classMR_1_1ImGuiMenu.html#a108b6e7b1762c1e145d04713a3badf63", null ],
+    [ "CoordType", "classMR_1_1ImGuiMenu.html#a2a88aa32db69286a1b09237c0bdadfd6", [
+      [ "Local", "classMR_1_1ImGuiMenu.html#a2a88aa32db69286a1b09237c0bdadfd6a509820290d57f333403f490dde7316f4", null ],
+      [ "World", "classMR_1_1ImGuiMenu.html#a2a88aa32db69286a1b09237c0bdadfd6af5a7924e621e84c9280a9a27e1bcb7f6", null ]
+    ] ],
     [ "NameTagSelectionMode", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587", [
       [ "selectOne", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c", null ],
       [ "toggle", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587a41f984bb082af806e510740db289125d", null ]
@@ -125,6 +129,7 @@ var classMR_1_1ImGuiMenu =
     [ "hidpi_scaling_", "classMR_1_1ImGuiMenu.html#a56862fe69e7b443b52c3ec99d13981a0", null ],
     [ "invertedRotation_", "classMR_1_1ImGuiMenu.html#a44726097595253c81b8abae8fe5fe91f", null ],
     [ "lastRenameObj_", "classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f", null ],
+    [ "Local", "classMR_1_1ImGuiMenu.html#a96f0bc9450fbe39ac5e90abcbc52c36a", null ],
     [ "mainWindowPos_", "classMR_1_1ImGuiMenu.html#ad09d9b751f97c0d1e2ba46c849392a7c", null ],
     [ "mainWindowSize_", "classMR_1_1ImGuiMenu.html#a348b708be326f0e5f3a65a9be9f143b9", null ],
     [ "modalMessageType_", "classMR_1_1ImGuiMenu.html#afea5ae3d33013ab15abbe5747b71e139", null ],
@@ -143,8 +148,8 @@ var classMR_1_1ImGuiMenu =
     [ "sceneWindowSize_", "classMR_1_1ImGuiMenu.html#a1995588bf4401620b33e1a4e6ed8c15d", null ],
     [ "searchPluginsString_", "classMR_1_1ImGuiMenu.html#a493d46d4f1ecabb263dc5528086e2660", null ],
     [ "selectedViewport_", "classMR_1_1ImGuiMenu.html#a25d70db427b76e61497c7fe1c62ac778", null ],
-    [ "selectionBbox_", "classMR_1_1ImGuiMenu.html#adc5bbfd506bfd0a58e4e0a08765d5129", null ],
     [ "selectionChangedToSingleObj_", "classMR_1_1ImGuiMenu.html#aca4f11387f1bcb127e2e9dfd5eef27fa", null ],
+    [ "selectionLocalBox_", "classMR_1_1ImGuiMenu.html#a53309002abe5f491c36f5ef71490a8e9", null ],
     [ "selectionWorldBox_", "classMR_1_1ImGuiMenu.html#ac8a4b5b373c2e5ab3e633a34fd148f12", null ],
     [ "shortcutManager_", "classMR_1_1ImGuiMenu.html#af12f28cc32062db2ff2e65a8abeab3ca", null ],
     [ "showEditTag_", "classMR_1_1ImGuiMenu.html#af0b38f50d2a1f161806e3cdca4a7846c", null ],

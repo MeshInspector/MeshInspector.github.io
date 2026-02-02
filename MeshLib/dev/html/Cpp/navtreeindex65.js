@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,2,0,2,241,1],
+"structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,1,0,1,269,4],
+"structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,2,0,2,241,4],
+"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,269,2],
+"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,2,241,2],
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,269,3],
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,2,241,3],
+"structMR_1_1PostDrawListener.html":[6,0,1,0,1,270],
 "structMR_1_1PostDrawListener.html":[6,0,2,0,2,242],
 "structMR_1_1PostDrawListener.html#a05affc1a2bebb67a6d5111e3a324a96b":[6,0,1,0,1,270,3],
 "structMR_1_1PostDrawListener.html#a05affc1a2bebb67a6d5111e3a324a96b":[6,0,2,0,2,242,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,2,292,0,0],
 "structMR_1_1RibbonMenuUIConfig.html":[6,0,1,0,1,321],
 "structMR_1_1RibbonMenuUIConfig.html":[6,0,2,0,2,293],
-"structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,1,0,1,321,7],
-"structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,2,0,2,293,7],
-"structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,1,0,1,321,8],
-"structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,2,0,2,293,8],
-"structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e":[6,0,1,0,1,321,2],
-"structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e":[6,0,2,0,2,293,2],
-"structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341":[6,0,1,0,1,321,1],
-"structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341":[6,0,2,0,2,293,1],
-"structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,1,0,1,321,0]
+"structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,1,0,1,321,7]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,2,0,2,293,7],
+"structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,1,0,1,321,8],
+"structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,2,0,2,293,8],
+"structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e":[6,0,1,0,1,321,2],
+"structMR_1_1RibbonMenuUIConfig.html#a6ef8462bce49279a9ec938eb5cc74d8e":[6,0,2,0,2,293,2],
+"structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341":[6,0,1,0,1,321,1],
+"structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341":[6,0,2,0,2,293,1],
+"structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,1,0,1,321,0],
 "structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,2,0,2,293,0],
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,1,0,1,321,5],
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,2,0,2,293,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,1,0,1,379,2],
 "structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,2,0,2,351,2],
 "structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,1,0,1,379,3],
-"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,2,0,2,351,3],
-"structMR_1_1SpaceMouse_1_1Action.html":[6,0,1,0,1,41,0],
-"structMR_1_1SpaceMouse_1_1Action.html":[6,0,2,0,2,19,0],
-"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,1,0,1,41,0,1],
-"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,2,0,2,19,0,1],
-"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[6,0,1,0,1,41,0,3],
-"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[6,0,2,0,2,19,0,3],
-"structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[6,0,1,0,1,41,0,2],
-"structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[6,0,2,0,2,19,0,2]
+"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,2,0,2,351,3]
 };

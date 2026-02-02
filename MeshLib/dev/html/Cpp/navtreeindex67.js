@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1SpaceMouse_1_1Action.html":[6,0,1,0,1,41,0],
+"structMR_1_1SpaceMouse_1_1Action.html":[6,0,2,0,2,19,0],
+"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,1,0,1,41,0,1],
+"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,2,0,2,19,0,1],
+"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[6,0,1,0,1,41,0,3],
+"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[6,0,2,0,2,19,0,3],
+"structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[6,0,1,0,1,41,0,2],
+"structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[6,0,2,0,2,19,0,2],
 "structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9":[6,0,1,0,1,41,0,0],
 "structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9":[6,0,2,0,2,19,0,0],
 "structMR_1_1SpaceMouse_1_1Parameters.html":[6,0,1,0,1,41,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,2,0,2,379],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,1,0,1,407,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,2,0,2,379,0],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,1,407,2],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,2,0,2,379,2],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464":[6,0,1,0,1,407,1],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464":[6,0,2,0,2,379,1],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#acf7c6b3a2731668f250b72f7c7b3e25c":[6,0,1,0,1,407,3],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#acf7c6b3a2731668f250b72f7c7b3e25c":[6,0,2,0,2,379,3],
-"structMR_1_1TouchpadSwipeGestureEndListener.html":[6,0,1,0,1,408],
-"structMR_1_1TouchpadSwipeGestureEndListener.html":[6,0,2,0,2,380],
-"structMR_1_1TouchpadSwipeGestureEndListener.html#a4119298e5a70c93a5b96b388ef0bda83":[6,0,1,0,1,408,3]
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,1,407,2]
 };

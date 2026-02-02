@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,2,0,2,182,0],
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,1,0,1,210,5],
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,2,0,2,182,5],
+"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,1,0,1,210,1],
+"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,2,0,2,182,1],
+"structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,1,0,1,210,2],
+"structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,2,0,2,182,2],
+"structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,1,0,1,210,4],
 "structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,2,0,2,182,4],
 "structMR_1_1MinArg.html#ab87329f332e5428c0f493fbd21be1622":[6,0,1,0,1,210,3],
 "structMR_1_1MinArg.html#ab87329f332e5428c0f493fbd21be1622":[6,0,2,0,2,182,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,2,0,2,220,0,7],
 "structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,1,0,1,248,0,5],
 "structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,2,0,2,220,0,5],
-"structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,1,0,1,248,0,3],
-"structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,2,0,2,220,0,3],
-"structMR_1_1Palette_1_1Histogram.html#a2febf0ba5e0ea521581ed3ff1442af5d":[6,0,1,0,1,248,0,2],
-"structMR_1_1Palette_1_1Histogram.html#a2febf0ba5e0ea521581ed3ff1442af5d":[6,0,2,0,2,220,0,2],
-"structMR_1_1Palette_1_1Histogram.html#a4ec5f5fcd46cb8b19af095df3dc1ccab":[6,0,1,0,1,248,0,1],
-"structMR_1_1Palette_1_1Histogram.html#a4ec5f5fcd46cb8b19af095df3dc1ccab":[6,0,2,0,2,220,0,1],
-"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,1,0,1,248,0,6],
-"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,2,0,2,220,0,6],
-"structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,1,0,1,248,0,4]
+"structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,1,0,1,248,0,3]
 };

@@ -277,5 +277,6 @@ var searchData=
   ['colortype_4',['ColorType',['../../Cpp/classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605bef',1,'MR::RibbonIcons']]],
   ['conefittertype_5',['ConeFitterType',['../../Cpp/namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7d',1,'MR::ConeFitterType'],['../../Csharp/classMR.html#a294c22b69e418098a4582556d50f25fc',1,'MR::ConeFitterType']]],
   ['controlbit_6',['ControlBit',['../../Cpp/namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6',1,'MR']]],
-  ['cornertype_7',['CornerType',['../../Cpp/structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4',1,'MR::OffsetContoursParams::CornerType'],['../../Csharp/classMR_1_1Const__OffsetContoursParams.html#ae0f2821bc65b8a253d5755de79511c20',1,'MR::Const_OffsetContoursParams::CornerType']]],
+  ['coordtype_7',['CoordType',['../../Cpp/classMR_1_1ImGuiMenu.html#a2a88aa32db69286a1b09237c0bdadfd6',1,'MR::ImGuiMenu']]],
+  ['cornertype_8',['CornerType',['../../Cpp/structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4',1,'MR::OffsetContoursParams::CornerType'],['../../Csharp/classMR_1_1Const__OffsetContoursParams.html#ae0f2821bc65b8a253d5755de79511c20',1,'MR::Const_OffsetContoursParams::CornerType']]],
 ];

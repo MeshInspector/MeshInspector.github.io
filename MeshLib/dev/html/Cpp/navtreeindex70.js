@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,2,0,2,401,1],
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#aa6933497906e7baf8dd6f57ebded16c4":[6,0,1,0,1,429,0],
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#aa6933497906e7baf8dd6f57ebded16c4":[6,0,2,0,2,401,0],
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[6,0,1,0,1,430],
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[6,0,2,0,2,402],
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a5d100100570da05384e44a635325aa79":[6,0,1,0,1,430,0],
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a5d100100570da05384e44a635325aa79":[6,0,2,0,2,402,0],
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a7a34fb83d68aa2fcc53694b08e464479":[6,0,1,0,1,430,1],
 "structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a7a34fb83d68aa2fcc53694b08e464479":[6,0,2,0,2,402,1],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,1,0,1,431],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,2,0,2,403],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,2,0,2,414,1,3],
 "structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2":[6,0,1,0,1,442,1,20],
 "structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2":[6,0,2,0,2,414,1,20],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f":[6,0,1,0,1,442,1,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f":[6,0,2,0,2,414,1,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb":[6,0,1,0,1,442,1,0,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb":[6,0,2,0,2,414,1,0,0],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61":[6,0,1,0,1,442,1,0,1],
-"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61":[6,0,2,0,2,414,1,0,1],
-"structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d":[6,0,1,0,1,442,1,15],
-"structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d":[6,0,2,0,2,414,1,15],
-"structMR_1_1Viewport_1_1Parameters.html#aba40f3c99bf1294e53abdd88d21278e8":[6,0,1,0,1,442,1,21]
+"structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126f":[6,0,1,0,1,442,1,0]
 };

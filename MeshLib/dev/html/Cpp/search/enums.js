@@ -154,5 +154,6 @@ var searchData=
   ['coloringtype_3',['ColoringType',['../../Csharp/classMR.html#a8f76229d82ae0b86e8eeb37ce45170d4',1,'MR']]],
   ['colortype_4',['ColorType',['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605bef',1,'MR::RibbonIcons']]],
   ['conefittertype_5',['ConeFitterType',['../../Csharp/classMR.html#a294c22b69e418098a4582556d50f25fc',1,'MR']]],
-  ['cornertype_6',['CornerType',['../../Csharp/classMR_1_1Const__OffsetContoursParams.html#ae0f2821bc65b8a253d5755de79511c20',1,'MR::Const_OffsetContoursParams']]],
+  ['coordtype_6',['CoordType',['../classMR_1_1ImGuiMenu.html#a2a88aa32db69286a1b09237c0bdadfd6',1,'MR::ImGuiMenu']]],
+  ['cornertype_7',['CornerType',['../../Csharp/classMR_1_1Const__OffsetContoursParams.html#ae0f2821bc65b8a253d5755de79511c20',1,'MR::Const_OffsetContoursParams']]],
 ];

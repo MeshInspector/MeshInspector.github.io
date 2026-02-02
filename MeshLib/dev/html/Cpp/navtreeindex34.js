@@ -1,5 +1,13 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931":[6,0,1,0,1,314,1],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931":[6,0,2,0,2,286,1],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9":[6,0,1,0,1,314,1,3],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9":[6,0,2,0,2,286,1,3],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2":[6,0,1,0,1,314,1,0],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2":[6,0,2,0,2,286,1,0],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d":[6,0,1,0,1,314,1,2],
+"classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d":[6,0,2,0,2,286,1,2],
 "classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,314,1,4],
 "classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,2,286,1,4],
 "classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9":[6,0,1,0,1,314,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,1,0,1,320,4],
 "classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7":[6,0,2,0,2,292,4],
 "classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5":[6,0,1,0,1,320,7],
-"classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5":[6,0,2,0,2,292,7],
-"classMR_1_1RibbonMenuSearch.html#ac74ec292a21908372b2925b5aa868cf8":[6,0,1,0,1,320,5],
-"classMR_1_1RibbonMenuSearch.html#ac74ec292a21908372b2925b5aa868cf8":[6,0,2,0,2,292,5],
-"classMR_1_1RibbonMenuSearch.html#aebc64b96bc8c8dbcf6ef65641e9a5e4d":[6,0,1,0,1,320,9],
-"classMR_1_1RibbonMenuSearch.html#aebc64b96bc8c8dbcf6ef65641e9a5e4d":[6,0,2,0,2,292,9],
-"classMR_1_1RibbonMenuSearch.html#af63422eb95c89c1f0593b3c8f5dc00d8":[6,0,1,0,1,320,2],
-"classMR_1_1RibbonMenuSearch.html#af63422eb95c89c1f0593b3c8f5dc00d8":[6,0,2,0,2,292,2],
-"classMR_1_1RibbonMenuSearch.html#afcef0eec09d9ab66c4eceebbb8b15d73":[6,0,1,0,1,320,3],
-"classMR_1_1RibbonMenuSearch.html#afcef0eec09d9ab66c4eceebbb8b15d73":[6,0,2,0,2,292,3]
+"classMR_1_1RibbonMenuSearch.html#ac091dc76627f29a6d704646a477f55c5":[6,0,2,0,2,292,7]
 };
