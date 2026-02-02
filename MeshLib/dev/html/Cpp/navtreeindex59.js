@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,1,0,1,123,8],
+"structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,2,0,2,95,8],
 "structMR_1_1DrawListener.html":[6,0,1,0,1,124],
 "structMR_1_1DrawListener.html":[6,0,2,0,2,96],
 "structMR_1_1DrawListener.html#a7761b901894d1b2ee8bf4f413b584755":[6,0,1,0,1,124,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1ImGuiMath_1_1CompareAny.html":[6,0,2,0,2,5,3],
 "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[6,0,1,0,1,15,0,0],
 "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[6,0,2,0,2,5,0,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[6,0,1,0,1,15,0,1],
-"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[6,0,2,0,2,5,0,1],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html":[6,0,1,0,1,15,0,2]
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[6,0,1,0,1,15,0,1]
 };

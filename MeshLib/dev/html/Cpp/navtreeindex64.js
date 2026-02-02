@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,2,0,2,220,0,5],
+"structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,1,0,1,248,0,3],
 "structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,2,0,2,220,0,3],
 "structMR_1_1Palette_1_1Histogram.html#a2febf0ba5e0ea521581ed3ff1442af5d":[6,0,1,0,1,248,0,2],
 "structMR_1_1Palette_1_1Histogram.html#a2febf0ba5e0ea521581ed3ff1442af5d":[6,0,2,0,2,220,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,2,0,2,240,4],
 "structMR_1_1PolynomialWrapper.html":[6,0,1,0,1,269],
 "structMR_1_1PolynomialWrapper.html":[6,0,2,0,2,241],
-"structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,269,0],
-"structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,2,0,2,241,0],
-"structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,1,0,1,269,1]
+"structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,269,0]
 };

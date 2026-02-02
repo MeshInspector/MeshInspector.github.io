@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonMenuUIConfig.html":[6,0,2,0,2,293],
+"structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,1,0,1,321,7],
 "structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,2,0,2,293,7],
 "structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,1,0,1,321,8],
 "structMR_1_1RibbonMenuUIConfig.html#a596b3cd3ab9f14700dc1c54b3d7cdac3":[6,0,2,0,2,293,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SpaceMouseUpListener.html#a4b6e5ab945db3dd418f5e3d32dbd8adb":[6,0,1,0,1,379,1],
 "structMR_1_1SpaceMouseUpListener.html#a4b6e5ab945db3dd418f5e3d32dbd8adb":[6,0,2,0,2,351,1],
 "structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,1,0,1,379,2],
-"structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,2,0,2,351,2],
-"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,1,0,1,379,3],
-"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,2,0,2,351,3]
+"structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,2,0,2,351,2]
 };

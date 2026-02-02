@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,1,0,1,379,3],
+"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[6,0,2,0,2,351,3],
 "structMR_1_1SpaceMouse_1_1Action.html":[6,0,1,0,1,41,0],
 "structMR_1_1SpaceMouse_1_1Action.html":[6,0,2,0,2,19,0],
 "structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,1,0,1,41,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[6,0,2,0,2,378,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,1,0,1,407],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,2,0,2,379],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,1,0,1,407,0],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,2,0,2,379,0],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,1,407,2]
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,1,0,1,407,0]
 };

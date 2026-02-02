@@ -6,6 +6,7 @@ var structMR_1_1AncillaryLines =
     [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a27df408474d83d9c06b47c4b5f344a76", null ],
     [ "AncillaryLines", "structMR_1_1AncillaryLines.html#a1586a42cec861e0cf8edd26f4d31f3ff", null ],
     [ "~AncillaryLines", "structMR_1_1AncillaryLines.html#ac40b43be9d56a0501df43434d19d8cbc", null ],
+    [ "colorizeAxes", "structMR_1_1AncillaryLines.html#ac5d131b80f575df708feec3d91a04efd", null ],
     [ "make", "structMR_1_1AncillaryLines.html#af3281529d1ab8e07ec693f7ffa3072dd", null ],
     [ "make", "structMR_1_1AncillaryLines.html#a1fd7e0a12343aa6772c5231a36d628d7", null ],
     [ "make", "structMR_1_1AncillaryLines.html#a8130f94500e75fddfc646adf79fc1756", null ],
