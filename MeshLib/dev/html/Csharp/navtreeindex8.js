@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"classMR.html#aff79f7928ce9c96848d34a9d5c7e75f5":[6,3,0,0,1,1036],
+"classMR.html#aff80e7b494c3ee46821cacf896416611":[6,3,0,0,1,1082],
 "classMR.html#affc35f9f29712d5c053c50e983b7cce2":[6,3,0,0,1,590],
 "classMR.html#affd314e05844616b16c9fcca2dd95f65":[6,3,0,0,1,837],
 "classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html":[6,3,0,0,0,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a7120620720248d9ffa07802b9d08a0fa":[6,3,0,0,0,33,7],
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a772ffd5550fdf6e45cc2fbd91dbddf73":[6,3,0,0,0,33,36],
 "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a79d25e2d425368b0423f3a4ac34743af":[6,3,0,0,0,33,56],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a7be6bbc3ce61a0ff3e78d0efe408ae22":[6,3,0,0,0,33,22],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a82dc13af4ed3d98b0c9c9a9b0987ee81":[6,3,0,0,0,33,6],
-"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a83cf8dd31db632a6598d04c488f85f99":[6,3,0,0,0,33,45]
+"classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f.html#a7be6bbc3ce61a0ff3e78d0efe408ae22":[6,3,0,0,0,33,22]
 };

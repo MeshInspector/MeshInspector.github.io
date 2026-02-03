@@ -1,5 +1,16 @@
 var group__SurfacePathSubgroup =
 [
+    [ "MR::GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html", [
+      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#a1041cebba080b5c874e56aabda054194", null ],
+      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#a91341dc06e908c798b1a186af909b4b2", null ],
+      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb", null ],
+      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#ac174e2aee8c5fbe146290d7b8222793c", null ],
+      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#a590e5d350f6100b00c485b51e88317c3", null ],
+      [ "assign", "../Csharp/classMR_1_1GeodesicPath.html#a523306eded154eccf3a6acdf42748c30", null ],
+      [ "end", "../Csharp/classMR_1_1GeodesicPath.html#a24c60fe0fdea7c33b4126cdd99c021d3", null ],
+      [ "mids", "../Csharp/classMR_1_1GeodesicPath.html#a6a22753fc20ff717f9e3e3fa43eec994", null ],
+      [ "start", "../Csharp/classMR_1_1GeodesicPath.html#af400498025204fdb1e2c0093e498c86d", null ]
+    ] ],
     [ "MR::ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html", [
       [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a5d5816d5186fe8a08a9af93f7abbbba0", null ],
       [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a4a1de14562cfe2b35b795a50494c9085", null ],
@@ -29,6 +40,8 @@ var group__SurfacePathSubgroup =
     [ "MR::findSteepestDescentPoint", "group__SurfacePathSubgroup.html#ga03317f13dce667de5ec4fce7626aa415", null ],
     [ "MR::findSteepestDescentPoint", "group__SurfacePathSubgroup.html#ga316d288d92ba2fc460dcc7d29398e084", null ],
     [ "MR::findSteepestDescentPoint", "group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2", null ],
+    [ "MR::geodesicPathLength", "group__SurfacePathSubgroup.html#gaa32bef2e775ccf6172324f9718b2089f", null ],
+    [ "MR::geodesicPathToContour3f", "group__SurfacePathSubgroup.html#ga8a5e36542111a308691e110f60e7f364", null ],
     [ "MR::getSurfacePathsViaVertices", "group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],
     [ "MR::surfacePathLength", "group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
     [ "MR::surfacePathsToContours3f", "group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],

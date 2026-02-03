@@ -1363,6 +1363,8 @@ var namespaceMR =
     [ "gaussianFilter", "group__BasicStructuresGroup.html#ga5124238a8f9f74cadab3bc8dcc4438e6", null ],
     [ "gaussianFiltered", "group__BasicStructuresGroup.html#gafc2d64e9f6eb7deafd50ee83fd764989", null ],
     [ "generalOffsetMesh", "namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050", null ],
+    [ "geodesicPathLength", "group__SurfacePathSubgroup.html#gaa32bef2e775ccf6172324f9718b2089f", null ],
+    [ "geodesicPathToContour3f", "group__SurfacePathSubgroup.html#ga8a5e36542111a308691e110f60e7f364", null ],
     [ "get", "namespaceMR.html#a8c1f285288de8cd4487966109876601b", null ],
     [ "get", "group__BoxGroup.html#ga76c5563a8f378f26e9e7cd06542fc0bf", null ],
     [ "get", "namespaceMR.html#aae733878440cead52d3fc2fd6c4429b9", null ],

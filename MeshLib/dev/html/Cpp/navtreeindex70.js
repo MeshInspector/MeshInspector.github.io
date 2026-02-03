@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Vector4.html#ad5b1e1a25f8e5ae5cdb4ec10942c8384":[6,0,0,0,12,2,25],
+"structMR_1_1Vector4.html#adc44955f85b32da55a4f43ea11cd257f":[6,0,0,0,12,2,10],
+"structMR_1_1Vector4.html#ae5b8ac0b6c0e0a39fc6983c0fea0a016":[6,0,0,0,12,2,3],
+"structMR_1_1Vector4.html#ae916672b6c36ebf43d945310616d6897":[6,0,0,0,12,2,21],
+"structMR_1_1Vector4.html#aecd18b3e13e9b87796242a04883f0592":[6,0,0,0,12,2,0],
+"structMR_1_1Vector4.html#afa16e6f10fb59a666d01d58bb1737e85":[6,0,0,0,12,2,14],
+"structMR_1_1VectorTraits.html":[6,0,1,0,1,428],
+"structMR_1_1VectorTraits.html":[6,0,2,0,2,400],
+"structMR_1_1VectorTraits.html#a42bb0645b55adab533c9287aeff02ad0":[6,0,1,0,1,428,1],
+"structMR_1_1VectorTraits.html#a42bb0645b55adab533c9287aeff02ad0":[6,0,2,0,2,400,1],
+"structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93":[6,0,1,0,1,428,0],
+"structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93":[6,0,2,0,2,400,0],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,1,0,1,429],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,2,0,2,401],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,1,0,1,429,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb":[6,0,1,0,1,442,1,5],
 "structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb":[6,0,2,0,2,414,1,5],
 "structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[6,0,1,0,1,442,1,14],
-"structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[6,0,2,0,2,414,1,14],
-"structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94":[6,0,1,0,1,442,1,12],
-"structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94":[6,0,2,0,2,414,1,12],
-"structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9":[6,0,1,0,1,442,1,16],
-"structMR_1_1Viewport_1_1Parameters.html#a79a816e2ea798ee49a1d02cd65fc53a9":[6,0,2,0,2,414,1,16],
-"structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790":[6,0,1,0,1,442,1,11],
-"structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790":[6,0,2,0,2,414,1,11],
-"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,1,0,1,442,1,8],
-"structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40":[6,0,2,0,2,414,1,8],
-"structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,1,0,1,442,1,17],
-"structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,2,0,2,414,1,17],
-"structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,1,0,1,442,1,3],
-"structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,2,0,2,414,1,3]
+"structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21":[6,0,2,0,2,414,1,14]
 };

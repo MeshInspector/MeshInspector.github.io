@@ -1,5 +1,15 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1ObjectLines.html#ad084ba48f1f9dd451bcd85c68b90206f":[6,0,0,11,7,35],
+"classMR_1_1ObjectLines.html#ad801f729b04ebcfcb84da1b10b206f39":[6,0,0,11,7,31],
+"classMR_1_1ObjectLines.html#adb5974c9695e35dbb48c030929ec42db":[6,0,0,11,7,29],
+"classMR_1_1ObjectLines.html#adc02e8585f35d647e6e2f29e63ccb4af":[6,0,0,11,7,37],
+"classMR_1_1ObjectLines.html#aed52d189a92ae8d66cf7e4637b20a28b":[6,0,0,11,7,34],
+"classMR_1_1ObjectLinesHolder.html":[6,0,0,11,8],
+"classMR_1_1ObjectLinesHolder.html#a0385005da43358f055657527ce079fc9":[6,0,0,11,8,8],
+"classMR_1_1ObjectLinesHolder.html#a06fe41f3f9ae4fbd6d462129f8153a37":[6,0,0,11,8,25],
+"classMR_1_1ObjectLinesHolder.html#a1240ce40a9372bb592604f81b8f790ee":[6,0,0,11,8,39],
+"classMR_1_1ObjectLinesHolder.html#a1eae45e94e12cb4ed78e28e998efb1e6":[6,0,0,11,8,29],
 "classMR_1_1ObjectLinesHolder.html#a22cc60c1959300d8156d8b3a6ba09856":[6,0,0,11,8,16],
 "classMR_1_1ObjectLinesHolder.html#a23bc2d8563b97833cb33687d1e4966b9":[6,0,0,11,8,46],
 "classMR_1_1ObjectLinesHolder.html#a267c5004fbd90eeaa6526f04df90585d":[6,0,0,11,8,33],
@@ -239,15 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583":[6,0,1,0,1,234,16],
 "classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583":[6,0,2,0,2,206,16],
 "classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,1,0,1,234,2],
-"classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,2,0,2,206,2],
-"classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,1,0,1,234,19],
-"classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,2,0,2,206,19],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,1,0,1,234,0],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,2,0,2,206,0],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a0afac4f4b06cfb2f11fe773ecb84a131":[6,0,1,0,1,234,0,3],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a0afac4f4b06cfb2f11fe773ecb84a131":[6,0,2,0,2,206,0,3],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a4db820bb720239af368c1f2e8afca2a3":[6,0,1,0,1,234,0,2],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a4db820bb720239af368c1f2e8afca2a3":[6,0,2,0,2,206,0,2],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a68b04cdedc80d6154aa103f169f308be":[6,0,1,0,1,234,0,0],
-"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a68b04cdedc80d6154aa103f169f308be":[6,0,2,0,2,206,0,0]
+"classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,2,0,2,206,2]
 };

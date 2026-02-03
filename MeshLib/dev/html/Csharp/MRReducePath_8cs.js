@@ -1,4 +1,4 @@
-var MRGeodesicPath_8cs =
+var MRReducePath_8cs =
 [
     [ "MR", "classMR.html", "classMR" ]
 ];

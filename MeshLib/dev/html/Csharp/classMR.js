@@ -1403,6 +1403,8 @@ var classMR =
     [ "gaussianFilter", "classMR.html#a9338d02f254b1ab7fda3b63b4192825c", null ],
     [ "gaussianFiltered", "classMR.html#a71ebbedd600545b356c28897f45954db", null ],
     [ "generalOffsetMesh", "classMR.html#a9269906d5c94fa37b468bf62a606f74c", null ],
+    [ "geodesicPathLength", "classMR.html#af23e9b061dd0df762d8428c69d59092e", null ],
+    [ "geodesicPathToContour3f", "classMR.html#a914fc330ba73bb7a41020f190a365784", null ],
     [ "getAligningXf", "classMR.html#af173841fed826ff3c1a155e894ba6b0f", null ],
     [ "getAllFilters", "classMR.html#ac7615c6e4894a59a84ec57986cbfc9c7", null ],
     [ "getAllObjectsInTree", "classMR.html#ab190c8a8dfd7c28437b833728addee75", null ],

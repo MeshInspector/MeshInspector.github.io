@@ -1,5 +1,17 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,268,2],
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,2,240,2],
+"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,1,268,3],
+"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,2,240,3],
+"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,1,0,1,268,0],
+"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,2,0,2,240,0],
+"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,1,0,1,268,1],
+"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,2,0,2,240,1],
+"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,1,0,1,268,4],
+"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,2,0,2,240,4],
+"structMR_1_1PolynomialWrapper.html":[6,0,1,0,1,269],
+"structMR_1_1PolynomialWrapper.html":[6,0,2,0,2,241],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,269,0],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,2,0,2,241,0],
 "structMR_1_1PolynomialWrapper.html#acdd3cc2e21021c7f7efe573ec76a3ad9":[6,0,1,0,1,269,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,1,0,1,311,0],
 "structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,2,0,2,283,0],
 "structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,1,0,1,311,2],
-"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,2,283,2],
-"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,311,3],
-"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,2,283,3],
-"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,311,4],
-"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,2,283,4],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,320,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,2,292,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,1,0,1,320,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,2,0,2,292,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,1,0,1,320,0,1],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,2,0,2,292,0,1],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,1,0,1,320,0,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,2,292,0,0]
+"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,2,283,2]
 };

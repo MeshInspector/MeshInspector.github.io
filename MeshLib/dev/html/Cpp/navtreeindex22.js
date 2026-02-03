@@ -1,5 +1,15 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1ImGuiMenu.html#a4698fb9422936fc36f43f4dcb02fb3d2":[6,0,1,0,1,166,76],
+"classMR_1_1ImGuiMenu.html#a4698fb9422936fc36f43f4dcb02fb3d2":[6,0,2,0,2,138,76],
+"classMR_1_1ImGuiMenu.html#a47c3996c85c24d180bec9f89358e666e":[6,0,1,0,1,166,63],
+"classMR_1_1ImGuiMenu.html#a47c3996c85c24d180bec9f89358e666e":[6,0,2,0,2,138,63],
+"classMR_1_1ImGuiMenu.html#a48361f3a545ce8d2eea45667c5e25775":[6,0,1,0,1,166,108],
+"classMR_1_1ImGuiMenu.html#a48361f3a545ce8d2eea45667c5e25775":[6,0,2,0,2,138,108],
+"classMR_1_1ImGuiMenu.html#a493d46d4f1ecabb263dc5528086e2660":[6,0,1,0,1,166,135],
+"classMR_1_1ImGuiMenu.html#a493d46d4f1ecabb263dc5528086e2660":[6,0,2,0,2,138,135],
+"classMR_1_1ImGuiMenu.html#a4d7a22f188b50d351cefdec8196a9dce":[6,0,1,0,1,166,30],
+"classMR_1_1ImGuiMenu.html#a4d7a22f188b50d351cefdec8196a9dce":[6,0,2,0,2,138,30],
 "classMR_1_1ImGuiMenu.html#a4e9570d57a509d6e4a02c3893c617fe4":[6,0,1,0,1,166,124],
 "classMR_1_1ImGuiMenu.html#a4e9570d57a509d6e4a02c3893c617fe4":[6,0,2,0,2,138,124],
 "classMR_1_1ImGuiMenu.html#a503f28da6e0267912172f146e9e5ecea":[6,0,1,0,1,166,133],
@@ -239,15 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1InplaceStack.html#a565d86f940cdc8e28db187b8937ab40e":[6,0,1,0,1,167,0],
 "classMR_1_1InplaceStack.html#a565d86f940cdc8e28db187b8937ab40e":[6,0,2,0,2,139,0],
 "classMR_1_1InplaceStack.html#a88e08eabbfc027f2e4527ff3ea6a88a4":[6,0,1,0,1,167,4],
-"classMR_1_1InplaceStack.html#a88e08eabbfc027f2e4527ff3ea6a88a4":[6,0,2,0,2,139,4],
-"classMR_1_1InplaceStack.html#abdf7e30f2ab2819a7e7012756916d5c8":[6,0,1,0,1,167,2],
-"classMR_1_1InplaceStack.html#abdf7e30f2ab2819a7e7012756916d5c8":[6,0,2,0,2,139,2],
-"classMR_1_1InplaceStack.html#ada89237259152f2ae9151f5690c5d342":[6,0,1,0,1,167,3],
-"classMR_1_1InplaceStack.html#ada89237259152f2ae9151f5690c5d342":[6,0,2,0,2,139,3],
-"classMR_1_1InplaceStack.html#af90beb98d99a0824a266b9bd5bba41ab":[6,0,1,0,1,167,5],
-"classMR_1_1InplaceStack.html#af90beb98d99a0824a266b9bd5bba41ab":[6,0,2,0,2,139,5],
-"classMR_1_1IntrinsicDeloneSettings.html":[6,0,0,9,1,0],
-"classMR_1_1IntrinsicDeloneSettings.html#a09208d21d7e5e0ef57b0beb7dce16361":[6,0,0,9,1,0,8],
-"classMR_1_1IntrinsicDeloneSettings.html#a60cc5fdd6e52023b9623498af0a26837":[6,0,0,9,1,0,2],
-"classMR_1_1IntrinsicDeloneSettings.html#a6c0054a8013358c74ea9b00801170dec":[6,0,0,9,1,0,7]
+"classMR_1_1InplaceStack.html#a88e08eabbfc027f2e4527ff3ea6a88a4":[6,0,2,0,2,139,4]
 };

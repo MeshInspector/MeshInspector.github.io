@@ -1,5 +1,17 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,1,0,1,406],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,2,0,2,378],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[6,0,1,0,1,406,1],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[6,0,2,0,2,378,1],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e":[6,0,1,0,1,406,3],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e":[6,0,2,0,2,378,3],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[6,0,1,0,1,406,2],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[6,0,2,0,2,378,2],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[6,0,1,0,1,406,0],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[6,0,2,0,2,378,0],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,1,0,1,407],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,2,0,2,379],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,1,0,1,407,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,2,0,2,379,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,1,407,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a":[6,0,1,0,1,44,15,5],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a":[6,0,2,0,2,20,13,5],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,1,0,1,44,15,6],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,2,0,2,20,13,6],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,1,0,1,44,15,2],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,2,0,2,20,13,2],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398":[6,0,1,0,1,44,15,0],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398":[6,0,2,0,2,20,13,0],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#ad890dd1aa255baed72ae0c64e0006c66":[6,0,1,0,1,44,15,4],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#ad890dd1aa255baed72ae0c64e0006c66":[6,0,2,0,2,20,13,4],
-"structMR_1_1UI_1_1SeparatorParams.html":[6,0,1,0,1,44,16],
-"structMR_1_1UI_1_1SeparatorParams.html":[6,0,2,0,2,20,14],
-"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082":[6,0,1,0,1,44,16,5],
-"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082":[6,0,2,0,2,20,14,5],
-"structMR_1_1UI_1_1SeparatorParams.html#a4be657806c20486d8379ad50e45e543d":[6,0,1,0,1,44,16,6],
-"structMR_1_1UI_1_1SeparatorParams.html#a4be657806c20486d8379ad50e45e543d":[6,0,2,0,2,20,14,6]
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,2,0,2,20,13,6]
 };

@@ -495,6 +495,7 @@ var annotated_dup =
       [ "Const_GcodeProcessor", "classMR_1_1Const__GcodeProcessor.html", "classMR_1_1Const__GcodeProcessor" ],
       [ "Const_GCommand", "classMR_1_1Const__GCommand.html", "classMR_1_1Const__GCommand" ],
       [ "Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html", "classMR_1_1Const__GeneralOffsetParameters" ],
+      [ "Const_GeodesicPath", "classMR_1_1Const__GeodesicPath.html", "classMR_1_1Const__GeodesicPath" ],
       [ "Const_Graph", "classMR_1_1Const__Graph.html", "classMR_1_1Const__Graph" ],
       [ "Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html", "classMR_1_1Const__GraphEdgeBitSet" ],
       [ "Const_GraphVertBitSet", "classMR_1_1Const__GraphVertBitSet.html", "classMR_1_1Const__GraphVertBitSet" ],

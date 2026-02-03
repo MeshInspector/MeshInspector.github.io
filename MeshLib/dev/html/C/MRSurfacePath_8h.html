@@ -154,6 +154,7 @@ $(function(){initNavTree('MRSurfacePath_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/common.h&gt;</code><br />
 <code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -189,6 +190,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9eda717f5871eea7d095bcf2f34a7a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b88ecd897f6c27c8428cecc4a91f30" id="r_a79b88ecd897f6c27c8428cecc4a91f30"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a></td></tr>
 <tr class="separator:a79b88ecd897f6c27c8428cecc4a91f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1634d1d822123ef12012bc7bf0bfa90" id="r_ac1634d1d822123ef12012bc7bf0bfa90"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a></td></tr>
+<tr class="separator:ac1634d1d822123ef12012bc7bf0bfa90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e609d8886a9bc5c71190843254bacd5" id="r_a9e609d8886a9bc5c71190843254bacd5"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a8bfed38b4b059ca6a135597d4cc8c7db">MR_PathError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e609d8886a9bc5c71190843254bacd5">MR_PathError</a></td></tr>
 <tr class="separator:a9e609d8886a9bc5c71190843254bacd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4893b0a050ddeb69f3eb2b02732046ab" id="r_a4893b0a050ddeb69f3eb2b02732046ab"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a></td></tr>
@@ -209,6 +212,46 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a69bc2368c200acb45236935d193fbf69" id="r_a69bc2368c200acb45236935d193fbf69"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bc2368c200acb45236935d193fbf69">MR_GeodesicPath_Get_start</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:a69bc2368c200acb45236935d193fbf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9cffe8f4a09b270b66c3409fa4eb325" id="r_aa9cffe8f4a09b270b66c3409fa4eb325"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9cffe8f4a09b270b66c3409fa4eb325">MR_GeodesicPath_Set_start</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *value)</td></tr>
+<tr class="separator:aa9cffe8f4a09b270b66c3409fa4eb325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177afa2c5f6ebb7f59ccff55a1318d28" id="r_a177afa2c5f6ebb7f59ccff55a1318d28"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a177afa2c5f6ebb7f59ccff55a1318d28">MR_GeodesicPath_GetMutable_start</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:a177afa2c5f6ebb7f59ccff55a1318d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c0c12759d893114fe5f9feb8bf04d3" id="r_ab1c0c12759d893114fe5f9feb8bf04d3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c0c12759d893114fe5f9feb8bf04d3">MR_GeodesicPath_Get_mids</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:ab1c0c12759d893114fe5f9feb8bf04d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0b04781289189af8789e3d6611731a" id="r_a2c0b04781289189af8789e3d6611731a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c0b04781289189af8789e3d6611731a">MR_GeodesicPath_Set_mids</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *value)</td></tr>
+<tr class="separator:a2c0b04781289189af8789e3d6611731a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbaeff0668da99dd1aab7e43404cf227" id="r_adbaeff0668da99dd1aab7e43404cf227"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbaeff0668da99dd1aab7e43404cf227">MR_GeodesicPath_GetMutable_mids</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:adbaeff0668da99dd1aab7e43404cf227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f69574611738a452ecfc5b6573ab5e" id="r_a51f69574611738a452ecfc5b6573ab5e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51f69574611738a452ecfc5b6573ab5e">MR_GeodesicPath_Get_end</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:a51f69574611738a452ecfc5b6573ab5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8834d3d7bdc6abc61831bdfa862a7760" id="r_a8834d3d7bdc6abc61831bdfa862a7760"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8834d3d7bdc6abc61831bdfa862a7760">MR_GeodesicPath_Set_end</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *value)</td></tr>
+<tr class="separator:a8834d3d7bdc6abc61831bdfa862a7760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f6c5df9927911a3ed820cea68e701c" id="r_ad3f6c5df9927911a3ed820cea68e701c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f6c5df9927911a3ed820cea68e701c">MR_GeodesicPath_GetMutable_end</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:ad3f6c5df9927911a3ed820cea68e701c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b0a987e515401f3d6d33533344acd6" id="r_a74b0a987e515401f3d6d33533344acd6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74b0a987e515401f3d6d33533344acd6">MR_GeodesicPath_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a74b0a987e515401f3d6d33533344acd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7aa773f024f840dcd2510dbc6fa4ffe" id="r_ae7aa773f024f840dcd2510dbc6fa4ffe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7aa773f024f840dcd2510dbc6fa4ffe">MR_GeodesicPath_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae7aa773f024f840dcd2510dbc6fa4ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c57b1aa7ebace60cbd327dfbdf66e3" id="r_a26c57b1aa7ebace60cbd327dfbdf66e3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26c57b1aa7ebace60cbd327dfbdf66e3">MR_GeodesicPath_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, MR_PassBy mids_pass_by, <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *mids, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
+<tr class="separator:a26c57b1aa7ebace60cbd327dfbdf66e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0af463a8210079369fc0482dea0272d" id="r_ab0af463a8210079369fc0482dea0272d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0af463a8210079369fc0482dea0272d">MR_GeodesicPath_OffsetPtr</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ab0af463a8210079369fc0482dea0272d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb97ea43689af6680a8f76537913858" id="r_aabb97ea43689af6680a8f76537913858"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb97ea43689af6680a8f76537913858">MR_GeodesicPath_OffsetMutablePtr</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:aabb97ea43689af6680a8f76537913858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a029ff6e88bfc2359faaa870b4293da53" id="r_a029ff6e88bfc2359faaa870b4293da53"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a029ff6e88bfc2359faaa870b4293da53">MR_GeodesicPath_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_other)</td></tr>
+<tr class="separator:a029ff6e88bfc2359faaa870b4293da53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4646c176f90a65b7f8e794bd74e30100" id="r_a4646c176f90a65b7f8e794bd74e30100"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4646c176f90a65b7f8e794bd74e30100">MR_GeodesicPath_Destroy</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="memdesc:a4646c176f90a65b7f8e794bd74e30100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_GeodesicPath</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4646c176f90a65b7f8e794bd74e30100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f13b0b552213deb47de82d7a916241d" id="r_a6f13b0b552213deb47de82d7a916241d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f13b0b552213deb47de82d7a916241d">MR_GeodesicPath_DestroyArray</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="memdesc:a6f13b0b552213deb47de82d7a916241d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_GeodesicPath</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6f13b0b552213deb47de82d7a916241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f9103a2c3f297ca37ab0331c0da726" id="r_a18f9103a2c3f297ca37ab0331c0da726"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f9103a2c3f297ca37ab0331c0da726">MR_GeodesicPath_AssignFromAnother</a> (<a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this, MR_PassBy _other_pass_by, <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_other)</td></tr>
+<tr class="separator:a18f9103a2c3f297ca37ab0331c0da726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8416b8bcbfa76104b789b152864dcd2f" id="r_a8416b8bcbfa76104b789b152864dcd2f"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8416b8bcbfa76104b789b152864dcd2f">MR_GeodesicPath_numVertices</a> (const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *_this)</td></tr>
+<tr class="separator:a8416b8bcbfa76104b789b152864dcd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146d7d212330b57a702e2c13aa99f33d" id="r_a146d7d212330b57a702e2c13aa99f33d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a146d7d212330b57a702e2c13aa99f33d">MR_toString_MR_PathError</a> (<a class="el" href="#a8bfed38b4b059ca6a135597d4cc8c7db">MR_PathError</a> error)</td></tr>
 <tr class="separator:a146d7d212330b57a702e2c13aa99f33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d28b09c21c7b31bd0254633ae0b5471" id="r_a2d28b09c21c7b31bd0254633ae0b5471"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d28b09c21c7b31bd0254633ae0b5471">MR_computeSurfacePath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const int *maxGeodesicIters, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
@@ -275,10 +318,14 @@ Functions</h2></td></tr>
 <tr class="separator:a94c51f2f1d92f9251d945b0045001108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86a1971ed1f3a0ea0491c217a9fcce53" id="r_a86a1971ed1f3a0ea0491c217a9fcce53"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a1971ed1f3a0ea0491c217a9fcce53">MR_surfacePathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath)</td></tr>
 <tr class="separator:a86a1971ed1f3a0ea0491c217a9fcce53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6f148e9f70062b4e7febabfdd0c266" id="r_a5a6f148e9f70062b4e7febabfdd0c266"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a6f148e9f70062b4e7febabfdd0c266">MR_geodesicPathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *path)</td></tr>
+<tr class="separator:a5a6f148e9f70062b4e7febabfdd0c266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8565496250e83ea07dc00bbfe10d50a1" id="r_a8565496250e83ea07dc00bbfe10d50a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8565496250e83ea07dc00bbfe10d50a1">MR_surfacePathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *line)</td></tr>
 <tr class="separator:a8565496250e83ea07dc00bbfe10d50a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e949720de99c0a1e8142c8f0353122" id="r_ac5e949720de99c0a1e8142c8f0353122"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5e949720de99c0a1e8142c8f0353122">MR_surfacePathsToContours3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *lines)</td></tr>
 <tr class="separator:ac5e949720de99c0a1e8142c8f0353122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a29469af9ab76976374686bd7a727ab" id="r_a2a29469af9ab76976374686bd7a727ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a29469af9ab76976374686bd7a727ab">MR_geodesicPathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *path)</td></tr>
+<tr class="separator:a2a29469af9ab76976374686bd7a727ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a4893b0a050ddeb69f3eb2b02732046ab" name="a4893b0a050ddeb69f3eb2b02732046ab"></a>
@@ -335,6 +382,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>can be invalid, then the path starts in mids.front() Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>start</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac1634d1d822123ef12012bc7bf0bfa90" name="ac1634d1d822123ef12012bc7bf0bfa90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1634d1d822123ef12012bc7bf0bfa90">&#9670;&#160;</a></span>MR_GeodesicPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>in the most general form, geodesic path can start in any mesh location (MeshTriPoint), then pass triangles along straight lines, making turns on edges (MeshEdgePoint), and finish in any mesh location (MeshTriPoint) Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -1291,6 +1354,444 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a18f9103a2c3f297ca37ab0331c0da726" name="a18f9103a2c3f297ca37ab0331c0da726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f9103a2c3f297ca37ab0331c0da726">&#9670;&#160;</a></span>MR_GeodesicPath_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::GeodesicPath::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+
+</div>
+</div>
+<a id="a26c57b1aa7ebace60cbd327dfbdf66e3" name="a26c57b1aa7ebace60cbd327dfbdf66e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26c57b1aa7ebace60cbd327dfbdf66e3">&#9670;&#160;</a></span>MR_GeodesicPath_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>mids_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>mids</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> elementwise. Parameter <code>start</code> can not be null. It is a single object. The reference to the parameter <code>start</code> might be preserved in the constructed object. The reference to the parameter <code>mids</code> might be preserved in the constructed object. Parameter <code>end</code> can not be null. It is a single object. The reference to the parameter <code>end</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4646c176f90a65b7f8e794bd74e30100" title="Destroys a heap-allocated instance of MR_GeodesicPath. Does nothing if the pointer is null.">MR_GeodesicPath_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+
+</div>
+</div>
+<a id="a029ff6e88bfc2359faaa870b4293da53" name="a029ff6e88bfc2359faaa870b4293da53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029ff6e88bfc2359faaa870b4293da53">&#9670;&#160;</a></span>MR_GeodesicPath_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1GeodesicPath.html#a1041cebba080b5c874e56aabda054194">MR::GeodesicPath::GeodesicPath</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4646c176f90a65b7f8e794bd74e30100" title="Destroys a heap-allocated instance of MR_GeodesicPath. Does nothing if the pointer is null.">MR_GeodesicPath_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a74b0a987e515401f3d6d33533344acd6" name="a74b0a987e515401f3d6d33533344acd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74b0a987e515401f3d6d33533344acd6">&#9670;&#160;</a></span>MR_GeodesicPath_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4646c176f90a65b7f8e794bd74e30100" title="Destroys a heap-allocated instance of MR_GeodesicPath. Does nothing if the pointer is null.">MR_GeodesicPath_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae7aa773f024f840dcd2510dbc6fa4ffe" name="ae7aa773f024f840dcd2510dbc6fa4ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7aa773f024f840dcd2510dbc6fa4ffe">&#9670;&#160;</a></span>MR_GeodesicPath_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a6f13b0b552213deb47de82d7a916241d" title="Destroys a heap-allocated array of MR_GeodesicPath. Does nothing if the pointer is null.">MR_GeodesicPath_DestroyArray()</a></code>. Use <code><a class="el" href="#aabb97ea43689af6680a8f76537913858">MR_GeodesicPath_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab0af463a8210079369fc0482dea0272d">MR_GeodesicPath_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a4646c176f90a65b7f8e794bd74e30100" name="a4646c176f90a65b7f8e794bd74e30100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4646c176f90a65b7f8e794bd74e30100">&#9670;&#160;</a></span>MR_GeodesicPath_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GeodesicPath_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_GeodesicPath</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6f13b0b552213deb47de82d7a916241d" name="a6f13b0b552213deb47de82d7a916241d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f13b0b552213deb47de82d7a916241d">&#9670;&#160;</a></span>MR_GeodesicPath_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GeodesicPath_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_GeodesicPath</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a51f69574611738a452ecfc5b6573ab5e" name="a51f69574611738a452ecfc5b6573ab5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f69574611738a452ecfc5b6573ab5e">&#9670;&#160;</a></span>MR_GeodesicPath_Get_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_GeodesicPath_Get_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>can be invalid, then the path ends in mids.back() Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>end</code>. When this function is called, this object will drop object references it had previously in <code>end</code>. </p>
+
+</div>
+</div>
+<a id="ab1c0c12759d893114fe5f9feb8bf04d3" name="ab1c0c12759d893114fe5f9feb8bf04d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c0c12759d893114fe5f9feb8bf04d3">&#9670;&#160;</a></span>MR_GeodesicPath_Get_mids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> * MR_GeodesicPath_Get_mids </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>mids</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a69bc2368c200acb45236935d193fbf69" name="a69bc2368c200acb45236935d193fbf69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bc2368c200acb45236935d193fbf69">&#9670;&#160;</a></span>MR_GeodesicPath_Get_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_GeodesicPath_Get_start </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>can be invalid, then the path starts in mids.front() Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>start</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>start</code>. When this function is called, this object will drop object references it had previously in <code>start</code>. </p>
+
+</div>
+</div>
+<a id="ad3f6c5df9927911a3ed820cea68e701c" name="ad3f6c5df9927911a3ed820cea68e701c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f6c5df9927911a3ed820cea68e701c">&#9670;&#160;</a></span>MR_GeodesicPath_GetMutable_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_GeodesicPath_GetMutable_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbaeff0668da99dd1aab7e43404cf227" name="adbaeff0668da99dd1aab7e43404cf227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbaeff0668da99dd1aab7e43404cf227">&#9670;&#160;</a></span>MR_GeodesicPath_GetMutable_mids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> * MR_GeodesicPath_GetMutable_mids </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>mids</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. can be invalid, then the path ends in mids.back() Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a177afa2c5f6ebb7f59ccff55a1318d28" name="a177afa2c5f6ebb7f59ccff55a1318d28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177afa2c5f6ebb7f59ccff55a1318d28">&#9670;&#160;</a></span>MR_GeodesicPath_GetMutable_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_GeodesicPath_GetMutable_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8416b8bcbfa76104b789b152864dcd2f" name="a8416b8bcbfa76104b789b152864dcd2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8416b8bcbfa76104b789b152864dcd2f">&#9670;&#160;</a></span>MR_GeodesicPath_numVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_uint64_t MR_GeodesicPath_numVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4">MR::GeodesicPath::numVertices</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aabb97ea43689af6680a8f76537913858" name="aabb97ea43689af6680a8f76537913858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb97ea43689af6680a8f76537913858">&#9670;&#160;</a></span>MR_GeodesicPath_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ab0af463a8210079369fc0482dea0272d" name="ab0af463a8210079369fc0482dea0272d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0af463a8210079369fc0482dea0272d">&#9670;&#160;</a></span>MR_GeodesicPath_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> * MR_GeodesicPath_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a8834d3d7bdc6abc61831bdfa862a7760" name="a8834d3d7bdc6abc61831bdfa862a7760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8834d3d7bdc6abc61831bdfa862a7760">&#9670;&#160;</a></span>MR_GeodesicPath_Set_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GeodesicPath_Set_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>can be invalid, then the path ends in mids.back() Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2c0b04781289189af8789e3d6611731a" name="a2c0b04781289189af8789e3d6611731a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c0b04781289189af8789e3d6611731a">&#9670;&#160;</a></span>MR_GeodesicPath_Set_mids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GeodesicPath_Set_mids </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>mids</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mids</code>. When this function is called, this object will drop object references it had previously in <code>mids</code>. </p>
+
+</div>
+</div>
+<a id="aa9cffe8f4a09b270b66c3409fa4eb325" name="aa9cffe8f4a09b270b66c3409fa4eb325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9cffe8f4a09b270b66c3409fa4eb325">&#9670;&#160;</a></span>MR_GeodesicPath_Set_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GeodesicPath_Set_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>can be invalid, then the path starts in mids.front() Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GeodesicPath.html">MR::GeodesicPath</a></code> named <code>start</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5a6f148e9f70062b4e7febabfdd0c266" name="a5a6f148e9f70062b4e7febabfdd0c266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a6f148e9f70062b4e7febabfdd0c266">&#9670;&#160;</a></span>MR_geodesicPathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_geodesicPathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes the length of the given geodesic path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa32bef2e775ccf6172324f9718b2089f">MR::geodesicPathLength</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a2a29469af9ab76976374686bd7a727ab" name="a2a29469af9ab76976374686bd7a727ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a29469af9ab76976374686bd7a727ab">&#9670;&#160;</a></span>MR_geodesicPathToContour3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_geodesicPathToContour3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns coordinates of all vertices of the given path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8a5e36542111a308691e110f60e7f364">MR::geodesicPathToContour3f</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_Vector3f_Destroy()</code> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a94c51f2f1d92f9251d945b0045001108" name="a94c51f2f1d92f9251d945b0045001108"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94c51f2f1d92f9251d945b0045001108">&#9670;&#160;</a></span>MR_getSurfacePathsViaVertices()</h2>
 
@@ -1331,7 +1832,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the length of surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfacePath</code> can not be null. It is a single object. </p>
+<p>computes the length of the given surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfacePath</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

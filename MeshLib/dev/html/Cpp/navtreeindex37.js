@@ -1,5 +1,15 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1ShortcutManager.html#a5e5ccda452d5473a8328af4b7003e4f3":[6,0,2,0,2,346,9],
+"classMR_1_1ShortcutManager.html#a608ab9e3afbb9351ea419a3ae0215ab2":[6,0,1,0,1,374,8],
+"classMR_1_1ShortcutManager.html#a608ab9e3afbb9351ea419a3ae0215ab2":[6,0,2,0,2,346,8],
+"classMR_1_1ShortcutManager.html#a70996e2b27f24841fb75376870328103":[6,0,1,0,1,374,16],
+"classMR_1_1ShortcutManager.html#a70996e2b27f24841fb75376870328103":[6,0,2,0,2,346,16],
+"classMR_1_1ShortcutManager.html#a912f0a1bddab02d0a371cdf93d4729f1":[6,0,1,0,1,374,3],
+"classMR_1_1ShortcutManager.html#a912f0a1bddab02d0a371cdf93d4729f1":[6,0,2,0,2,346,3],
+"classMR_1_1ShortcutManager.html#a95af7d1cba13355b957e0dd270166269":[6,0,1,0,1,374,2],
+"classMR_1_1ShortcutManager.html#a95af7d1cba13355b957e0dd270166269":[6,0,2,0,2,346,2],
+"classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10":[6,0,1,0,1,374,5],
 "classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10":[6,0,2,0,2,346,5],
 "classMR_1_1ShortcutManager.html#aa81ce4c0f43334be0c680e28346fce2e":[6,0,1,0,1,374,17],
 "classMR_1_1ShortcutManager.html#aa81ce4c0f43334be0c680e28346fce2e":[6,0,2,0,2,346,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1StateListenerPlugin.html#a85268a85190bc88be8cc76981bff5587":[6,0,2,0,2,356,2],
 "classMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
 "classMR_1_1SubdivideSettings.html#a0495785f822f1b829565b004006de39c":[6,0,0,9,7,0,17],
-"classMR_1_1SubdivideSettings.html#a06ccf85c000a4f350b7195e11c285f3c":[6,0,0,9,7,0,1],
-"classMR_1_1SubdivideSettings.html#a092d79fdac95176ce7e847dbddcad5d6":[6,0,0,9,7,0,7],
-"classMR_1_1SubdivideSettings.html#a09723b62c2ee429e07749c6562ee32c5":[6,0,0,9,7,0,20],
-"classMR_1_1SubdivideSettings.html#a108c3d36d349b49603585bfe72c890a3":[6,0,0,9,7,0,16],
-"classMR_1_1SubdivideSettings.html#a274ef1ce22ba407fe9a21296ca6bd856":[6,0,0,9,7,0,21],
-"classMR_1_1SubdivideSettings.html#a41fd6b7c3ed3b70c09f142305456da44":[6,0,0,9,7,0,15],
-"classMR_1_1SubdivideSettings.html#a52c5c6b56c332b0fe279fcdb4b2bfeb8":[6,0,0,9,7,0,10],
-"classMR_1_1SubdivideSettings.html#a578ede60bcf4fe7f86f15abbb22ae89d":[6,0,0,9,7,0,9],
-"classMR_1_1SubdivideSettings.html#a67877f5bb4f990a1e522dee95cd7bc09":[6,0,0,9,7,0,6],
-"classMR_1_1SubdivideSettings.html#a73f6656f15457ff261608dca9bde93b0":[6,0,0,9,7,0,4],
-"classMR_1_1SubdivideSettings.html#a7679fba5e7715c7052d5c7a097898dc3":[6,0,0,9,7,0,22]
+"classMR_1_1SubdivideSettings.html#a06ccf85c000a4f350b7195e11c285f3c":[6,0,0,9,7,0,1]
 };

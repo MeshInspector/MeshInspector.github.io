@@ -2265,12 +2265,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a349c695b6ff571802027d1671ce96c54" id="r_a349c695b6ff571802027d1671ce96c54"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349c695b6ff571802027d1671ce96c54">findBestFreeformDeformation</a> (in <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> box, MR.Std.Const_Vector_MRVector3f source, MR.Std.Const_Vector_MRVector3f target, <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a>? resolution=null, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? samplesToBox=null)</td></tr>
 <tr class="memdesc:a349c695b6ff571802027d1671ce96c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5257f65923756edeb18ddf7a4b1edf81">MR.findBestFreeformDeformation</a></code>. Parameter <code>resolution</code> defaults to <code>Vector3i.diagonal(2)</code>.  <br /></td></tr>
 <tr class="separator:a349c695b6ff571802027d1671ce96c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a239348ff011a378fab46ae6b63fc97d7" id="r_a239348ff011a378fab46ae6b63fc97d7"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239348ff011a378fab46ae6b63fc97d7">reducePathViaVertex</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, MR.Std.Vector_MREdgePoint outPath, MR.Std.Vector_MRVector2f tmp, MR.Std.Vector_MREdgePoint cachePath)</td></tr>
-<tr class="memdesc:a239348ff011a378fab46ae6b63fc97d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">given path s-v-e, tries to decrease its length by moving away from v  <br /></td></tr>
-<tr class="separator:a239348ff011a378fab46ae6b63fc97d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adeae5acc35a0d8dafb0b07fa1e0d9daa" id="r_adeae5acc35a0d8dafb0b07fa1e0d9daa"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeae5acc35a0d8dafb0b07fa1e0d9daa">reducePath</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, MR.Std.Vector_MREdgePoint path, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, int? maxIter=null)</td></tr>
-<tr class="memdesc:adeae5acc35a0d8dafb0b07fa1e0d9daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed Generated from function <code><a class="elRef" href="../Cpp/group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe">MR.reducePath</a></code>. Parameter <code>maxIter</code> defaults to <code>5</code>.  <br /></td></tr>
-<tr class="separator:adeae5acc35a0d8dafb0b07fa1e0d9daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a990810b4f8d2134cad1556387652a" id="r_ad2a990810b4f8d2134cad1556387652a"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2a990810b4f8d2134cad1556387652a">verticesGridSampling</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float voxelSize, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
 <tr class="memdesc:ad2a990810b4f8d2134cad1556387652a"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs sampling of mesh vertices; subdivides mesh bounding box on voxels of approximately given size and returns at most one vertex per voxel; if voxelSize&lt;=0 then returns all region vertices as samples; returns std.nullopt if it was terminated by the callback Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4">MR.verticesGridSampling</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ad2a990810b4f8d2134cad1556387652a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3963,6 +3957,12 @@ element fields:<br  />
 <tr class="memitem:a840f706b183b2902b3a9fa5c2ce5b0d1" id="r_a840f706b183b2902b3a9fa5c2ce5b0d1"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840f706b183b2902b3a9fa5c2ce5b0d1">shrinkPixelMask</a> (<a class="el" href="classMR_1_1PixelBitSet.html">MR.PixelBitSet</a> mask, <a class="el" href="classMR_1_1Const__RectIndexer.html">MR.Const_RectIndexer</a> indexer, int? shrinkage=null)</td></tr>
 <tr class="memdesc:a840f706b183b2902b3a9fa5c2ce5b0d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks <a class="el" href="classMR_1_1PixelBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">PixelBitSet</a> with given number of steps Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gacbedf1abc59aa1401992cc4d1e1ed306">MR.shrinkPixelMask</a></code>. Parameter <code>shrinkage</code> defaults to <code>1</code>.  <br /></td></tr>
 <tr class="separator:a840f706b183b2902b3a9fa5c2ce5b0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239348ff011a378fab46ae6b63fc97d7" id="r_a239348ff011a378fab46ae6b63fc97d7"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239348ff011a378fab46ae6b63fc97d7">reducePathViaVertex</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, MR.Std.Vector_MREdgePoint outPath, MR.Std.Vector_MRVector2f tmp, MR.Std.Vector_MREdgePoint cachePath)</td></tr>
+<tr class="memdesc:a239348ff011a378fab46ae6b63fc97d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">given path s-v-e, tries to decrease its length by moving away from v  <br /></td></tr>
+<tr class="separator:a239348ff011a378fab46ae6b63fc97d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeae5acc35a0d8dafb0b07fa1e0d9daa" id="r_adeae5acc35a0d8dafb0b07fa1e0d9daa"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeae5acc35a0d8dafb0b07fa1e0d9daa">reducePath</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, MR.Std.Vector_MREdgePoint path, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, int? maxIter=null)</td></tr>
+<tr class="memdesc:adeae5acc35a0d8dafb0b07fa1e0d9daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed Generated from function <code><a class="elRef" href="../Cpp/group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe">MR.reducePath</a></code>. Parameter <code>maxIter</code> defaults to <code>5</code>.  <br /></td></tr>
+<tr class="separator:adeae5acc35a0d8dafb0b07fa1e0d9daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4daea017cad17cedfbb1072d7c704ca6" id="r_a4daea017cad17cedfbb1072d7c704ca6"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4daea017cad17cedfbb1072d7c704ca6">trackLeftBoundaryLoop</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e0, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
 <tr class="memdesc:a4daea017cad17cedfbb1072d7c704ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns closed loop of region boundary starting from given region boundary edge (region faces on the left, and not-region faces or holes on the right); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0deb53e0a4ba2c6305e86e1874919f11">MR.trackLeftBoundaryLoop</a></code>.  <br /></td></tr>
 <tr class="separator:a4daea017cad17cedfbb1072d7c704ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4278,14 +4278,20 @@ element fields:<br  />
 <tr class="memdesc:afe75efb26684414cdaf576fb9f6df4c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR.getSurfacePathsViaVertices</a></code>.  <br /></td></tr>
 <tr class="separator:afe75efb26684414cdaf576fb9f6df4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ab6571ddd67a7691ff64f675dda47d" id="r_a32ab6571ddd67a7691ff64f675dda47d"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ab6571ddd67a7691ff64f675dda47d">surfacePathLength</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MREdgePoint surfacePath)</td></tr>
-<tr class="memdesc:a32ab6571ddd67a7691ff64f675dda47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR.surfacePathLength</a></code>.  <br /></td></tr>
+<tr class="memdesc:a32ab6571ddd67a7691ff64f675dda47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of the given surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR.surfacePathLength</a></code>.  <br /></td></tr>
 <tr class="separator:a32ab6571ddd67a7691ff64f675dda47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af23e9b061dd0df762d8428c69d59092e" id="r_af23e9b061dd0df762d8428c69d59092e"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af23e9b061dd0df762d8428c69d59092e">geodesicPathLength</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__GeodesicPath.html">MR.Const_GeodesicPath</a> path)</td></tr>
+<tr class="memdesc:af23e9b061dd0df762d8428c69d59092e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of the given geodesic path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa32bef2e775ccf6172324f9718b2089f">MR.geodesicPathLength</a></code>.  <br /></td></tr>
+<tr class="separator:af23e9b061dd0df762d8428c69d59092e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b0c8c6c660b50e3a5ec760b3c897b61" id="r_a1b0c8c6c660b50e3a5ec760b3c897b61"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b0c8c6c660b50e3a5ec760b3c897b61">surfacePathToContour3f</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MREdgePoint line)</td></tr>
 <tr class="memdesc:a1b0c8c6c660b50e3a5ec760b3c897b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c">MR.surfacePathToContour3f</a></code>.  <br /></td></tr>
 <tr class="separator:a1b0c8c6c660b50e3a5ec760b3c897b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf4283775d2c86ad7f19447a04e86b99" id="r_adf4283775d2c86ad7f19447a04e86b99"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdVectorMRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf4283775d2c86ad7f19447a04e86b99">surfacePathsToContours3f</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMREdgePoint lines)</td></tr>
 <tr class="memdesc:adf4283775d2c86ad7f19447a04e86b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR.surfacePathsToContours3f</a></code>.  <br /></td></tr>
 <tr class="separator:adf4283775d2c86ad7f19447a04e86b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a914fc330ba73bb7a41020f190a365784" id="r_a914fc330ba73bb7a41020f190a365784"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a914fc330ba73bb7a41020f190a365784">geodesicPathToContour3f</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__GeodesicPath.html">MR.Const_GeodesicPath</a> path)</td></tr>
+<tr class="memdesc:a914fc330ba73bb7a41020f190a365784"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns coordinates of all vertices of the given path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8a5e36542111a308691e110f60e7f364">MR.geodesicPathToContour3f</a></code>.  <br /></td></tr>
+<tr class="separator:a914fc330ba73bb7a41020f190a365784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2983017e576f3d038bb1a2af58c6b55" id="r_ae2983017e576f3d038bb1a2af58c6b55"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2983017e576f3d038bb1a2af58c6b55">surroundingContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std._ByValue_Vector_MREdgeId includeEdges, MR.Std.Const_Function_FloatFuncFromMREdgeId edgeMetric, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> dir)</td></tr>
 <tr class="memdesc:ae2983017e576f3d038bb1a2af58c6b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. The algorithm assumes that input edges can be projected on the plane orthogonal to given direction, then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input edges.  <br /></td></tr>
 <tr class="separator:ae2983017e576f3d038bb1a2af58c6b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -27186,6 +27192,68 @@ element fields:<br  />
 
 </div>
 </div>
+<a id="af23e9b061dd0df762d8428c69d59092e" name="af23e9b061dd0df762d8428c69d59092e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af23e9b061dd0df762d8428c69d59092e">&#9670;&#160;</a></span>geodesicPathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe float MR.geodesicPathLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__GeodesicPath.html">MR.Const_GeodesicPath</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the length of the given geodesic path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa32bef2e775ccf6172324f9718b2089f">MR.geodesicPathLength</a></code>. </p>
+
+</div>
+</div>
+<a id="a914fc330ba73bb7a41020f190a365784" name="a914fc330ba73bb7a41020f190a365784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a914fc330ba73bb7a41020f190a365784">&#9670;&#160;</a></span>geodesicPathToContour3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe MR.Std.Vector_MRVector3f MR.geodesicPathToContour3f </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__GeodesicPath.html">MR.Const_GeodesicPath</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns coordinates of all vertices of the given path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8a5e36542111a308691e110f60e7f364">MR.geodesicPathToContour3f</a></code>. </p>
+
+</div>
+</div>
 <a id="af173841fed826ff3c1a155e894ba6b0f" name="af173841fed826ff3c1a155e894ba6b0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af173841fed826ff3c1a155e894ba6b0f">&#9670;&#160;</a></span>getAligningXf()</h2>
 
@@ -45777,7 +45845,7 @@ do not really keeps volume but tries hard </p>
 </table>
 </div><div class="memdoc">
 
-<p>computes the length of surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR.surfacePathLength</a></code>. </p>
+<p>computes the length of the given surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR.surfacePathLength</a></code>. </p>
 
 </div>
 </div>
@@ -48399,7 +48467,6 @@ After</div></div>
 <li><a class="el" href="MRFillHoleNicely_8cs.html">MRFillHoleNicely.cs</a></li>
 <li><a class="el" href="MRFilterCreaseEdges_8cs.html">MRFilterCreaseEdges.cs</a></li>
 <li><a class="el" href="MRFreeFormDeformer_8cs.html">MRFreeFormDeformer.cs</a></li>
-<li><a class="el" href="MRGeodesicPath_8cs.html">MRGeodesicPath.cs</a></li>
 <li><a class="el" href="MRGridSampling_8cs.html">MRGridSampling.cs</a></li>
 <li><a class="el" href="MRHeapBytes_8cs.html">MRHeapBytes.cs</a></li>
 <li><a class="el" href="MRHistoryAction_8cs.html">MRHistoryAction.cs</a></li>
@@ -48504,6 +48571,7 @@ After</div></div>
 <li><a class="el" href="MRRayBoxIntersection_8cs.html">MRRayBoxIntersection.cs</a></li>
 <li><a class="el" href="MRRayBoxIntersection2_8cs.html">MRRayBoxIntersection2.cs</a></li>
 <li><a class="el" href="MRRectIndexer_8cs.html">MRRectIndexer.cs</a></li>
+<li><a class="el" href="MRReducePath_8cs.html">MRReducePath.cs</a></li>
 <li><a class="el" href="MRRegionBoundary_8cs.html">MRRegionBoundary.cs</a></li>
 <li><a class="el" href="MRRegularGridMesh_8cs.html">MRRegularGridMesh.cs</a></li>
 <li><a class="el" href="MRRenderModelParameters_8cs.html">MRRenderModelParameters.cs</a></li>

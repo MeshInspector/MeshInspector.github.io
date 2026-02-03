@@ -155,6 +155,8 @@ $(function(){initNavTree('group__SurfacePathSubgroup.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1GeodesicPath.html">MR::GeodesicPath</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -203,13 +205,19 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaa4dc30756e93cfc4cd2f88758193360" id="r_gaaa4dc30756e93cfc4cd2f88758193360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> SurfacePaths&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;vs)</td></tr>
 <tr class="separator:gaaa4dc30756e93cfc4cd2f88758193360"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacebe3b7371a72e49ddfbabc14fd008b4" id="r_gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const SurfacePath &amp;surfacePath)</td></tr>
-<tr class="memdesc:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of surface path  <br /></td></tr>
+<tr class="memdesc:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of the given surface path  <br /></td></tr>
 <tr class="separator:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa32bef2e775ccf6172324f9718b2089f" id="r_gaa32bef2e775ccf6172324f9718b2089f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa32bef2e775ccf6172324f9718b2089f">MR::geodesicPathLength</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1GeodesicPath.html">GeodesicPath</a> &amp;path)</td></tr>
+<tr class="memdesc:gaa32bef2e775ccf6172324f9718b2089f"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of the given geodesic path  <br /></td></tr>
+<tr class="separator:gaa32bef2e775ccf6172324f9718b2089f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga874e90d25d0cf437f34834d739fa588c" id="r_ga874e90d25d0cf437f34834d739fa588c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contour3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga874e90d25d0cf437f34834d739fa588c">MR::surfacePathToContour3f</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const SurfacePath &amp;line)</td></tr>
 <tr class="memdesc:ga874e90d25d0cf437f34834d739fa588c"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts lines on mesh in 3D contours by computing coordinate of each point  <br /></td></tr>
 <tr class="separator:ga874e90d25d0cf437f34834d739fa588c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8dbc7e2393ed3d315467293b5b2ba1e2" id="r_ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR::surfacePathsToContours3f</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const SurfacePaths &amp;lines)</td></tr>
 <tr class="separator:ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a5e36542111a308691e110f60e7f364" id="r_ga8a5e36542111a308691e110f60e7f364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contour3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8a5e36542111a308691e110f60e7f364">MR::geodesicPathToContour3f</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1GeodesicPath.html">GeodesicPath</a> &amp;path)</td></tr>
+<tr class="memdesc:ga8a5e36542111a308691e110f60e7f364"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns coordinates of all vertices of the given path  <br /></td></tr>
+<tr class="separator:ga8a5e36542111a308691e110f60e7f364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -273,6 +281,9 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> HashMap&lt; <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a>, <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> &gt; MR::computeClosestSurfacePathTargets </td>
@@ -300,6 +311,11 @@ Functions</h2></td></tr>
           <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>for each vertex from (starts) finds the closest vertex from (ends) in geodesic sense </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -692,11 +708,76 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gaa32bef2e775ccf6172324f9718b2089f" name="gaa32bef2e775ccf6172324f9718b2089f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa32bef2e775ccf6172324f9718b2089f">&#9670;&#160;</a></span>geodesicPathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::geodesicPathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1GeodesicPath.html">GeodesicPath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the length of the given geodesic path </p>
+
+</div>
+</div>
+<a id="ga8a5e36542111a308691e110f60e7f364" name="ga8a5e36542111a308691e110f60e7f364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a5e36542111a308691e110f60e7f364">&#9670;&#160;</a></span>geodesicPathToContour3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contour3f MR::geodesicPathToContour3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1GeodesicPath.html">GeodesicPath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns coordinates of all vertices of the given path </p>
+
+</div>
+</div>
 <a id="gaaa4dc30756e93cfc4cd2f88758193360" name="gaaa4dc30756e93cfc4cd2f88758193360"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaaa4dc30756e93cfc4cd2f88758193360">&#9670;&#160;</a></span>getSurfacePathsViaVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> SurfacePaths MR::getSurfacePathsViaVertices </td>
@@ -709,6 +790,11 @@ Functions</h2></td></tr>
           <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices </p>
 
@@ -719,6 +805,9 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::surfacePathLength </td>
@@ -731,9 +820,14 @@ Functions</h2></td></tr>
           <td class="paramtype">const SurfacePath &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>computes the length of surface path </p>
+<p>computes the length of the given surface path </p>
 
 </div>
 </div>
@@ -742,6 +836,9 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours3f MR::surfacePathsToContours3f </td>
@@ -754,6 +851,11 @@ Functions</h2></td></tr>
           <td class="paramtype">const SurfacePaths &amp;</td>          <td class="paramname"><span class="paramname"><em>lines</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -763,6 +865,9 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contour3f MR::surfacePathToContour3f </td>
@@ -775,6 +880,11 @@ Functions</h2></td></tr>
           <td class="paramtype">const SurfacePath &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>converts lines on mesh in 3D contours by computing coordinate of each point </p>

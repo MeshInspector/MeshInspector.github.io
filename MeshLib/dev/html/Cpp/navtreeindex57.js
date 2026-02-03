@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,1,0,1,59,10],
+"structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,2,0,2,31,10],
+"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,1,0,1,59,3],
+"structMR_1_1AncillaryLabel.html#acdfb7bc77de0517f71a4e105a1a4f36d":[6,0,2,0,2,31,3],
+"structMR_1_1AncillaryLabel.html#adc7088401a069525f6737c1000f4dbfa":[6,0,1,0,1,59,7],
+"structMR_1_1AncillaryLabel.html#adc7088401a069525f6737c1000f4dbfa":[6,0,2,0,2,31,7],
+"structMR_1_1AncillaryLabel.html#aecaf97ca8809a5e75a172f56eb930e50":[6,0,1,0,1,59,2],
+"structMR_1_1AncillaryLabel.html#aecaf97ca8809a5e75a172f56eb930e50":[6,0,2,0,2,31,2],
+"structMR_1_1AncillaryLines.html":[6,0,1,0,1,60],
+"structMR_1_1AncillaryLines.html":[6,0,2,0,2,32],
+"structMR_1_1AncillaryLines.html#a1586a42cec861e0cf8edd26f4d31f3ff":[6,0,1,0,1,60,4],
+"structMR_1_1AncillaryLines.html#a1586a42cec861e0cf8edd26f4d31f3ff":[6,0,2,0,2,32,4],
 "structMR_1_1AncillaryLines.html#a19beda95a4a3a81962c578366d47ea85":[6,0,1,0,1,60,0],
 "structMR_1_1AncillaryLines.html#a19beda95a4a3a81962c578366d47ea85":[6,0,2,0,2,32,0],
 "structMR_1_1AncillaryLines.html#a1fd7e0a12343aa6772c5231a36d628d7":[6,0,1,0,1,60,8],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,2,0,2,59,0],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,1,0,1,88,0],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,2,0,2,60,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,88,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,2,60,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,88,0,1],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,2,60,0,1],
-"structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,93],
-"structMR_1_1ConeFittingFunctor.html":[6,0,2,0,2,65],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,93,8],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,2,65,8],
-"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,93,0],
-"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,2,0,2,65,0],
-"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,1,0,1,93,5],
-"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,2,0,2,65,5],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,1,0,1,93,6]
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,88,0,0]
 };

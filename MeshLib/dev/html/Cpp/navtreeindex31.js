@@ -1,5 +1,15 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,2,254,0],
+"classMR_1_1QuadricApprox.html":[6,0,0,0,14],
+"classMR_1_1QuadricApprox.html#a0069aeb6381b69537a768f43eddf44a0":[6,0,0,0,14,4],
+"classMR_1_1QuadricApprox.html#a34ee226b675faccfae73d4db1eec4762":[6,0,0,0,14,1],
+"classMR_1_1QuadricApprox.html#a49efd6c5e9fb9e266d51f81b4b62263f":[6,0,0,0,14,2],
+"classMR_1_1QuadricApprox.html#a5ea57604d1b7bac5738d513da0b4b676":[6,0,0,0,14,5],
+"classMR_1_1QuadricApprox.html#a6e228b814d0429216ed181687efc6248":[6,0,0,0,14,3],
+"classMR_1_1QuadricApprox.html#aa07acaf6a7203a853fb3621c82b3126f":[6,0,0,0,14,0],
+"classMR_1_1RangeCounter.html":[6,0,1,0,1,284],
+"classMR_1_1RangeCounter.html":[6,0,2,0,2,256],
 "classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8":[6,0,1,0,1,284,0],
 "classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8":[6,0,2,0,2,256,0],
 "classMR_1_1RangeCounter.html#a310cccaba672fdf60cd4fd64f7718b2e":[6,0,1,0,1,284,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html":[6,0,2,0,2,17,4],
 "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#a7223265f55a1d01543ece7518bc011ff":[6,0,1,0,1,36,4,1],
 "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#a7223265f55a1d01543ece7518bc011ff":[6,0,2,0,2,17,4,1],
-"classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#aac7d0eb9a73f28680925b75d122b66a4":[6,0,1,0,1,36,4,0],
-"classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#aac7d0eb9a73f28680925b75d122b66a4":[6,0,2,0,2,17,4,0],
-"classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#afbeda6ef29a8b84bed77e748228e20e7":[6,0,1,0,1,36,4,2],
-"classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#afbeda6ef29a8b84bed77e748228e20e7":[6,0,2,0,2,17,4,2],
-"classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent.html":[6,0,1,0,1,36,5],
-"classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent.html":[6,0,2,0,2,17,5],
-"classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent.html#a10691a67ce3667f2e4e0d7e5fda3550d":[6,0,1,0,1,36,5,0],
-"classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent.html#a10691a67ce3667f2e4e0d7e5fda3550d":[6,0,2,0,2,17,5,0],
-"classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html":[6,0,1,0,1,36,6],
-"classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html":[6,0,2,0,2,17,6],
-"classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html#a8082ee9bd4f7d6aa6c8caa39ac0d2e2e":[6,0,1,0,1,36,6,0]
+"classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#aac7d0eb9a73f28680925b75d122b66a4":[6,0,1,0,1,36,4,0]
 };

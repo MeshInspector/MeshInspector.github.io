@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2":[6,0,0,11,14,0,0],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd":[6,0,0,11,14,0,0,1],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255":[6,0,0,11,14,0,0,0],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae":[6,0,0,11,14,0,0,2],
+"structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
+"structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[6,0,0,11,4,0,0],
+"structMR_1_1Palette_1_1Histogram.html":[6,0,1,0,1,248,0],
+"structMR_1_1Palette_1_1Histogram.html":[6,0,2,0,2,220,0],
+"structMR_1_1Palette_1_1Histogram.html#a08df7b7f0ce414687a2567650845e3cd":[6,0,1,0,1,248,0,8],
+"structMR_1_1Palette_1_1Histogram.html#a08df7b7f0ce414687a2567650845e3cd":[6,0,2,0,2,220,0,8],
+"structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,1,0,1,248,0,7],
+"structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,2,0,2,220,0,7],
 "structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,1,0,1,248,0,5],
 "structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,2,0,2,220,0,5],
 "structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,1,0,1,248,0,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Polynomial.html":[6,0,1,0,1,268],
 "structMR_1_1Polynomial.html":[6,0,2,0,2,240],
 "structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,1,0,1,268,5],
-"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,2,240,5],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,268,2],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,2,240,2],
-"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,1,268,3],
-"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,2,240,3],
-"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,1,0,1,268,0],
-"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,2,0,2,240,0],
-"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,1,0,1,268,1],
-"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,2,0,2,240,1],
-"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,1,0,1,268,4],
-"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,2,0,2,240,4],
-"structMR_1_1PolynomialWrapper.html":[6,0,1,0,1,269],
-"structMR_1_1PolynomialWrapper.html":[6,0,2,0,2,241]
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,2,240,5]
 };

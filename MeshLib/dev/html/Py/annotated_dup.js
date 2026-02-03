@@ -382,6 +382,7 @@ var annotated_dup =
       [ "GcodeProcessor", "classmrmeshpy_1_1GcodeProcessor.html", "classmrmeshpy_1_1GcodeProcessor" ],
       [ "GCommand", "classmrmeshpy_1_1GCommand.html", "classmrmeshpy_1_1GCommand" ],
       [ "GeneralOffsetParameters", "classmrmeshpy_1_1GeneralOffsetParameters.html", "classmrmeshpy_1_1GeneralOffsetParameters" ],
+      [ "GeodesicPath", "classmrmeshpy_1_1GeodesicPath.html", "classmrmeshpy_1_1GeodesicPath" ],
       [ "GeodesicPathApprox", "classmrmeshpy_1_1GeodesicPathApprox.html", "classmrmeshpy_1_1GeodesicPathApprox" ],
       [ "Graph", "classmrmeshpy_1_1Graph.html", "classmrmeshpy_1_1Graph" ],
       [ "GraphEdgeBitSet", "classmrmeshpy_1_1GraphEdgeBitSet.html", "classmrmeshpy_1_1GraphEdgeBitSet" ],

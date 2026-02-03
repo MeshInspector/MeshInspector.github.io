@@ -1,5 +1,17 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,311,3],
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,2,283,3],
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,311,4],
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,2,283,4],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,320,0],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,2,292,0],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,1,0,1,320,0,2],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,2,0,2,292,0,2],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,1,0,1,320,0,1],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,2,0,2,292,0,1],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,1,0,1,320,0,0],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[6,0,2,0,2,292,0,0],
 "structMR_1_1RibbonMenuUIConfig.html":[6,0,1,0,1,321],
 "structMR_1_1RibbonMenuUIConfig.html":[6,0,2,0,2,293],
 "structMR_1_1RibbonMenuUIConfig.html#a03e35b23d40e46fa4358fad1f6745421":[6,0,1,0,1,321,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SpaceMouseMoveListener.html":[6,0,2,0,2,350],
 "structMR_1_1SpaceMouseMoveListener.html#a2cfdabbd1ab58db19f09528e678f3729":[6,0,1,0,1,378,2],
 "structMR_1_1SpaceMouseMoveListener.html#a2cfdabbd1ab58db19f09528e678f3729":[6,0,2,0,2,350,2],
-"structMR_1_1SpaceMouseMoveListener.html#a66ccc53a5aad7584a46946801cbc430b":[6,0,1,0,1,378,1],
-"structMR_1_1SpaceMouseMoveListener.html#a66ccc53a5aad7584a46946801cbc430b":[6,0,2,0,2,350,1],
-"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,1,0,1,378,3],
-"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96":[6,0,2,0,2,350,3],
-"structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,1,0,1,378,0],
-"structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,2,0,2,350,0],
-"structMR_1_1SpaceMouseUpListener.html":[6,0,1,0,1,379],
-"structMR_1_1SpaceMouseUpListener.html":[6,0,2,0,2,351],
-"structMR_1_1SpaceMouseUpListener.html#a0a5bf1247e3588e2db497d9836f77454":[6,0,1,0,1,379,0],
-"structMR_1_1SpaceMouseUpListener.html#a0a5bf1247e3588e2db497d9836f77454":[6,0,2,0,2,351,0],
-"structMR_1_1SpaceMouseUpListener.html#a4b6e5ab945db3dd418f5e3d32dbd8adb":[6,0,1,0,1,379,1],
-"structMR_1_1SpaceMouseUpListener.html#a4b6e5ab945db3dd418f5e3d32dbd8adb":[6,0,2,0,2,351,1],
-"structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[6,0,1,0,1,379,2]
+"structMR_1_1SpaceMouseMoveListener.html#a66ccc53a5aad7584a46946801cbc430b":[6,0,1,0,1,378,1]
 };
