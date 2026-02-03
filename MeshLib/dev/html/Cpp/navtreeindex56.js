@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f":[6,0,1,0,1,44,29],
 "namespaceMR_1_1UI_1_1StateStorage.html":[6,0,1,0,1,44,1],
 "namespaceMR_1_1UI_1_1StateStorage.html#a3638eb4d405379f7ea1bda54b46284b2":[6,0,1,0,1,44,1,0],
 "namespaceMR_1_1UI_1_1StateStorage.html#a654e0febe730841dfa2856e4eae81e48":[6,0,1,0,1,44,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1AncillaryLines.html":[6,0,1,0,1,60],
 "structMR_1_1AncillaryLines.html":[6,0,2,0,2,32],
 "structMR_1_1AncillaryLines.html#a1586a42cec861e0cf8edd26f4d31f3ff":[6,0,1,0,1,60,4],
-"structMR_1_1AncillaryLines.html#a1586a42cec861e0cf8edd26f4d31f3ff":[6,0,2,0,2,32,4],
-"structMR_1_1AncillaryLines.html#a19beda95a4a3a81962c578366d47ea85":[6,0,1,0,1,60,0]
+"structMR_1_1AncillaryLines.html#a1586a42cec861e0cf8edd26f4d31f3ff":[6,0,2,0,2,32,4]
 };

@@ -1199,6 +1199,7 @@ var namespaceMR =
     [ "findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23", null ],
     [ "findCollidingTriangles", "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6", null ],
     [ "findComponentBitSet", "namespaceMR.html#ac959a3b1b345a06498d42106baa9a7ec", null ],
+    [ "findContourPointByLength", "group__ContourGroup.html#ga573d02bf11d96ed586e5911742bdb6cf", null ],
     [ "findCreaseEdges", "namespaceMR.html#a4211e9cc9d627cf077e17c86710226ee", null ],
     [ "findDegenerateFaces", "group__MeshFixerGroup.html#ga2053d608172d2309a6dfc184b3c23b54", null ],
     [ "findDirMax", "group__AABBTreeGroup.html#ga650448329cde9ee6b4e27760630a09a1", null ],

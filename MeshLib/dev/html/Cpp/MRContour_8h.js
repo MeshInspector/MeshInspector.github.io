@@ -12,5 +12,6 @@ var MRContour_8h =
     [ "convertContourTo2d", "MRContour_8h.html#aba764c41a940b36b3557d7cfd2dfa4a2", null ],
     [ "convertContourTo2f", "MRContour_8h.html#a2781b4d5e5bf7cc617f8a0eba5a524f6", null ],
     [ "convertContourTo3d", "MRContour_8h.html#ace9504b6b71c3d36b4f5b44b333fe7c4", null ],
-    [ "convertContourTo3f", "MRContour_8h.html#aa4ceecc8e73e44a2e6581d55a462f1ea", null ]
+    [ "convertContourTo3f", "MRContour_8h.html#aa4ceecc8e73e44a2e6581d55a462f1ea", null ],
+    [ "findContourPointByLength", "MRContour_8h.html#ga573d02bf11d96ed586e5911742bdb6cf", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,1,0,1,429],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,2,0,2,401],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,1,0,1,429,1],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,2,0,2,401,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,1,0,1,442,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1":[6,0,2,0,2,414,1,17],
 "structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,1,0,1,442,1,3],
-"structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,2,0,2,414,1,3],
-"structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2":[6,0,1,0,1,442,1,20]
+"structMR_1_1Viewport_1_1Parameters.html#aa0449b17fbc4c4ecf681446e0fb638d6":[6,0,2,0,2,414,1,3]
 };
