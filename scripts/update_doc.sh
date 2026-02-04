@@ -16,6 +16,13 @@ fi
 TARGET_DIR="${1:-MeshLib/local}"
 
 
+fix_comment() {
+    CURRENT_DIR=$(pwd)
+    cd ../MeshLib/
+    find source -name '*.h' -exec perl -pe 's|(?<!/)//(?![/!]) ?|/// |g;s|/\*(?![\*!]) ?|/** |g' -i {} \;
+    cd "$CURRENT_DIR"
+}
+
 prepare_setting_files() {
     echo "1.prepare_setting_files"
     bash ./scripts/pre.sh "$TARGET_DIR"
@@ -24,7 +31,6 @@ prepare_setting_files() {
         return 1
     fi
 }
-
 
 prepare_output_directory() {
     echo "2.prepare_output_directory"
@@ -123,6 +129,7 @@ post_processing() {
     ./scripts/post.sh "$TARGET_DIR"
 }
 
+fix_comment
 prepare_setting_files
 if [[ $? -ne 0 ]]; then
     exit $?
