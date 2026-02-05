@@ -1,5 +1,10 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#a91d19a20948dbb0282a57459ba1adb71":[6,3,0,0,0,774,4],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#aaa217d66a0d0745290382bdc7825f58c":[6,3,0,0,0,774,8],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ab7c287d6f80d6566ecc2c03a1c3a4a31":[6,3,0,0,0,774,6],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ac3ad793602c34182a643474d6444f2c7":[6,3,0,0,0,774,0],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ac4803f516c37e31eac602fc193983888":[6,3,0,0,0,774,1],
 "classMR_1_1Const__TriangleSegmentIntersectResult.html#ada63789126823128a4aa1a3a5987f0c5":[6,3,0,0,0,774,5],
 "classMR_1_1Const__TriangleSegmentIntersectResult.html#adf50ea55aacf20e1cb3056c538999972":[6,3,0,0,0,774,9],
 "classMR_1_1Const__Triangulation.html":[6,3,0,0,0,775],
@@ -244,10 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__UndirectedEdgeBitSet.html#aedf99d1a19a39908ec5c7fb58302e8a3":[6,3,0,0,0,789,40],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#aef9d184bd2f2eccbf6eb5763a8fa49a1":[6,3,0,0,0,789,30],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#af33d96a78f2710b97c02cf8508e3d783":[6,3,0,0,0,789,8],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#afd4a81305f4e3b3eb5873f3e8f5a016b":[6,3,0,0,0,789,5],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#afe0449db8ad4545a4f6afc300800e633":[6,3,0,0,0,789,27],
-"classMR_1_1Const__UndirectedEdgeColors.html":[6,3,0,0,0,791],
-"classMR_1_1Const__UndirectedEdgeColors.html#a06d7a1be2f770300af598747e583e07b":[6,3,0,0,0,791,13],
-"classMR_1_1Const__UndirectedEdgeColors.html#a11a8d125e6cddd7aad839905a87b22a8":[6,3,0,0,0,791,23],
-"classMR_1_1Const__UndirectedEdgeColors.html#a14fe463580d59789781e8b86c9b1ae87":[6,3,0,0,0,791,2]
+"classMR_1_1Const__UndirectedEdgeBitSet.html#afd4a81305f4e3b3eb5873f3e8f5a016b":[6,3,0,0,0,789,5]
 };

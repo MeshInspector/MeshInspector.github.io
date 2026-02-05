@@ -1,5 +1,11 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1UndirectedEdgeBitSet.html#a300660b888018b3d22cb2f29c1fbeb0d":[6,3,0,0,0,1224,30],
+"classMR_1_1UndirectedEdgeBitSet.html#a35b163b781a8c9b83fda1a8abffdbe41":[6,3,0,0,0,1224,19],
+"classMR_1_1UndirectedEdgeBitSet.html#a4500c95d65827abaca65d9535719e212":[6,3,0,0,0,1224,5],
+"classMR_1_1UndirectedEdgeBitSet.html#a452a27cc18d1c8ba1eb0cb372346c81d":[6,3,0,0,0,1224,31],
+"classMR_1_1UndirectedEdgeBitSet.html#a57654d71db94fff5f1e5f33c7e16f568":[6,3,0,0,0,1224,3],
+"classMR_1_1UndirectedEdgeBitSet.html#a5871f0231b5fe7e995e417a1d2d9efb7":[6,3,0,0,0,1224,26],
 "classMR_1_1UndirectedEdgeBitSet.html#a5cbdf29dbdaeb5443003a95750ed74b0":[6,3,0,0,0,1224,36],
 "classMR_1_1UndirectedEdgeBitSet.html#a636f4bb88df31ccb7e388d21a6808c19":[6,3,0,0,0,1224,7],
 "classMR_1_1UndirectedEdgeBitSet.html#a68103e6f1b6ef5bb8fe68f7aac7e16fc":[6,3,0,0,0,1224,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1Vector__Char__MRVertId.html#ae6699578389458140087bfb93aee175a":[6,3,0,0,0,1254,17],
 "classMR_1_1Vector__Char__MRVertId.html#ae9c291d912c714c6e836c01514eab2a3":[6,3,0,0,0,1254,20],
 "classMR_1_1Vector__Char__MRVertId.html#af20d451e2b59923c2c5d93e44d3f5d46":[6,3,0,0,0,1254,12],
-"classMR_1_1Vector__Char__MRVertId.html#af4c450c6658de461a2727df79c5f9093":[6,3,0,0,0,1254,11],
-"classMR_1_1Vector__Char__MRVertId.html#af721c580d83d11a76eebd48c1ff62383":[6,3,0,0,0,1254,4],
-"classMR_1_1Vector__Char__MRVertId.html#af76f84d2b1ccbbf195548af5fd37bb33":[6,3,0,0,0,1254,18],
-"classMR_1_1Vector__Double__MRRegionId.html":[6,3,0,0,0,1255],
-"classMR_1_1Vector__Double__MRRegionId.html#a0292a82e1e173c2b6c5fb944d51e4a18":[6,3,0,0,0,1255,21],
-"classMR_1_1Vector__Double__MRRegionId.html#a0639f3c05e01acd73604e8db7578f26d":[6,3,0,0,0,1255,25],
-"classMR_1_1Vector__Double__MRRegionId.html#a0ac7dba4c524ea87f6d45a51307dc8f7":[6,3,0,0,0,1255,8]
+"classMR_1_1Vector__Char__MRVertId.html#af4c450c6658de461a2727df79c5f9093":[6,3,0,0,0,1254,11]
 };

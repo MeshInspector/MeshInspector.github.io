@@ -1,5 +1,10 @@
 var NAVTREEINDEX53 =
 {
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a9efae3982ec41e6eaf1fd653e928d135":[6,3,0,0,0,588,2],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#aa21f991d22d718932e481388db90c346":[6,3,0,0,0,588,1],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html":[6,3,0,0,0,589],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#a2f255e9de31a29ddc98a94990728b64f":[6,3,0,0,0,589,3],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#a70e1b0b5bcf89998a92db425e01dbfab":[6,3,0,0,0,589,5],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#a8317f86c3b3ff9f68078aa40c38611a6":[6,3,0,0,0,589,4],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#ac5c4b92d25eea507b846a59c5d3f4c16":[6,3,0,0,0,589,1],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#ad4b53ba8164cde4ccca4e03aabcacfbb":[6,3,0,0,0,589,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX53 =
 "classMR_1_1Const__ObjectDistanceMap.html#a9b7c38b67537c5ce32a8b166286b9211":[6,3,0,0,0,569,102],
 "classMR_1_1Const__ObjectDistanceMap.html#a9c8108d3120e8d23e6ac5855c13f5469":[6,3,0,0,0,569,77],
 "classMR_1_1Const__ObjectDistanceMap.html#aa0b07b2086f47958d0e0d82730def14e":[6,3,0,0,0,569,41],
-"classMR_1_1Const__ObjectDistanceMap.html#aa1f628612f0f74ec301065d9807fb6a1":[6,3,0,0,0,569,103],
-"classMR_1_1Const__ObjectDistanceMap.html#aa3ddd6c3e8203c51b204ca71b43770e5":[6,3,0,0,0,569,19],
-"classMR_1_1Const__ObjectDistanceMap.html#aa5c224d24a684434c99b801cd6cac16e":[6,3,0,0,0,569,75],
-"classMR_1_1Const__ObjectDistanceMap.html#aa6aeb7bb841c5e10a9a7dbe27ea5cd49":[6,3,0,0,0,569,59],
-"classMR_1_1Const__ObjectDistanceMap.html#aa898320f7ae6eeb0c8518d627e4795a4":[6,3,0,0,0,569,57],
-"classMR_1_1Const__ObjectDistanceMap.html#aaaba11e11b4bb4f42d16e4db0921ded9":[6,3,0,0,0,569,92]
+"classMR_1_1Const__ObjectDistanceMap.html#aa1f628612f0f74ec301065d9807fb6a1":[6,3,0,0,0,569,103]
 };

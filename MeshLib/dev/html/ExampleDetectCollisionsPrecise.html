@@ -231,14 +231,14 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line"> </div>
 <div class="line">    <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshBoolean_8h.html#a1d5f64a5e4478ee2148c84427aaaf552">MR_CoordinateConverters</a>* converters = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a189e3dabfd0a7a1ec3447323aaee4138">MR_getVectorConverters_3</a>( mpA, mpB, NULL );</div>
-<div class="line">    <span class="comment">// find each intersecting edge/triangle pair </span></div>
+<div class="line">    <span class="comment">// find each intersecting edge/triangle pair</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3">MR_std_vector_MR_VarEdgeTri</a>* collidingFaceEdges = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a07231b1a365cde840b5f025fa69f8c10">MR_findCollidingEdgeTrisPrecise_5</a>(</div>
 <div class="line">        mpA, mpB, MR_PassBy_Copy, <a class="code hl_functionRef" href="./C/MRPrecisePredicates3_8h.html#af87bbfa78b23651f1c40980661bacc36">MR_CoordinateConverters_GetMutable_toInt</a>( converters ), NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// print pairs of edges triangles</span></div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_VarEdgeTri_Size( collidingFaceEdges ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_VarEdgeTri_size( collidingFaceEdges ); ++i )</div>
 <div class="line">    {</div>
-<div class="line">        <a class="code hl_typedefRef" href="./C/MRMeshCollidePrecise_8h.html#a926b482f5586e0d892907eb47615352d">MR_VarEdgeTri</a>* edgeTri = MR_std_vector_MR_VarEdgeTri_MutableAt( collidingFaceEdges, i );</div>
+<div class="line">        <a class="code hl_typedefRef" href="./C/MRMeshCollidePrecise_8h.html#a926b482f5586e0d892907eb47615352d">MR_VarEdgeTri</a>* edgeTri = MR_std_vector_MR_VarEdgeTri_at_mut( collidingFaceEdges, i );</div>
 <div class="line">        <span class="keywordtype">bool</span> edgeATriB = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a7bf4169a79f4c1f25a0e598248a12a6c">MR_VarEdgeTri_isEdgeATriB</a>( edgeTri );</div>
 <div class="line">        <a class="code hl_structRef" href="./C/structMR__FaceId.html">MR_FaceId</a> tri = <a class="code hl_functionRef" href="./C/MRMeshCollidePrecise_8h.html#a83b28778fddb6ca528c8d8ca866097a3">MR_VarEdgeTri_tri</a>( edgeTri );</div>
 <div class="line">        <span class="keywordflow">if</span> ( edgeATriB )</div>
@@ -319,7 +319,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html',''); initResizabl
 <div class="line">        bitSet = collidingFaceBitSet.second();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.count()}&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).isEmpty();</div>
+<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty();</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Is Colliding: {isColliding}\n&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    }</div>

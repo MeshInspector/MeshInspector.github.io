@@ -288,19 +288,19 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56">MR_MeshPart_Destroy</a>( inputMeshPart );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MROffset_8h.html#a8dd34c031667afc80526e0db300db0f2">MR_OffsetParameters_Destroy</a>( params );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* outputMesh = MR_expected_MR_Mesh_std_string_GetMutableValue( outputMeshEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* outputMesh = MR_expected_MR_Mesh_std_string_value_mut( outputMeshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( !outputMesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform offset: %s&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( outputMeshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform offset: %s&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( outputMeshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_offset;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( outputMesh, <span class="stringliteral">&quot;mesh_offset.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save;</div>
 <div class="line">    }</div>
 <div class="line"> </div>

@@ -13,8 +13,8 @@ var MRUnorientedTriangle_8h =
     [ "MR_UnorientedTriangle_Get_verts", "MRUnorientedTriangle_8h.html#a70959cf48fd72ee34af799fe34ca3765", null ],
     [ "MR_UnorientedTriangle_getFlipped", "MRUnorientedTriangle_8h.html#aac92566ba7db9f068c7228cd036bd9a6", null ],
     [ "MR_UnorientedTriangle_GetMutable_verts", "MRUnorientedTriangle_8h.html#a31e44df4ed6582a8049a7cac8ee69a75", null ],
-    [ "MR_UnorientedTriangle_index", "MRUnorientedTriangle_8h.html#ab0a3e57a58b252b55b6c65fa16597876", null ],
-    [ "MR_UnorientedTriangle_index_const", "MRUnorientedTriangle_8h.html#ac77b02a8c83ca9f4b2d0472ee006b21e", null ],
+    [ "MR_UnorientedTriangle_index", "MRUnorientedTriangle_8h.html#aa830abc44906fd9fb39f4521d7b15428", null ],
+    [ "MR_UnorientedTriangle_index_mut", "MRUnorientedTriangle_8h.html#a88657ce16a87c5c372da7d403f06bb16", null ],
     [ "MR_UnorientedTriangle_OffsetMutablePtr", "MRUnorientedTriangle_8h.html#aaa12a3a29005cedbc1f2f6aa5cab2119", null ],
     [ "MR_UnorientedTriangle_OffsetPtr", "MRUnorientedTriangle_8h.html#a68722fa57caa2e32168fb7af496595fe", null ],
     [ "MR_UnorientedTriangle_Set_verts", "MRUnorientedTriangle_8h.html#a2cdd56f9005d43ce0bbf5ec4357ea0e2", null ]

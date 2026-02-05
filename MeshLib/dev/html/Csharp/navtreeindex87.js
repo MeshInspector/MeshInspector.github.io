@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"classMR_1_1Features.html#a031e403055c1ed84cd1cc88f501c75b3":[6,3,0,0,0,999,13],
+"classMR_1_1Features.html#a1098f41c952afd1d5d0663fbe434e3fc":[6,3,0,0,0,999,16],
+"classMR_1_1Features.html#a179386bd1ff72d51a5e218035f9a1fd8":[6,3,0,0,0,999,5],
+"classMR_1_1Features.html#a1be92964efbd1d5655265f0386f2e126":[6,3,0,0,0,999,1],
+"classMR_1_1Features.html#a211bf0f45c7a84b3e46c4d04a7e6a1c5":[6,3,0,0,0,999,2],
+"classMR_1_1Features.html#a249f3499e27b8268016045230e4f09b8":[6,3,0,0,0,999,3],
 "classMR_1_1Features.html#a2fbfe92bf6603af591b19b72be9057dc":[6,3,0,0,0,999,11],
 "classMR_1_1Features.html#a4052b56ecd91dea859d335f13ebadf71":[6,3,0,0,0,999,4],
 "classMR_1_1Features.html#a4548b09b86b70da76215165ced7db3ec":[6,3,0,0,0,999,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#adbfef8f29ab1c5bf067ad7b721cd5932":[6,3,0,0,0,0,1,10,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#af0b90a8b36e6f4f92ff3753779d37f8f":[6,3,0,0,0,0,1,10,0],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#af6e20cc934594b72f356223e38d21fad":[6,3,0,0,0,0,1,10,3],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html":[6,3,0,0,0,0,1,11],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html#a0e6fd061fbb38a2f1cd1ab76da2e4185":[6,3,0,0,0,0,1,11,1],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html#a534dc97dbf09e261ec53c0929403af9d":[6,3,0,0,0,0,1,11,5],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html#a66d54874a3d58ccbad859532bbfa4a16":[6,3,0,0,0,0,1,11,2],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html#a85835dded9d291d992e3a6f2282c0174":[6,3,0,0,0,0,1,11,3],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html#a8f697e38ba3df44a5ede543e50d5b768":[6,3,0,0,0,0,1,11,4],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html#acd52b81c1b35f29ebc1c31306605c7fd":[6,3,0,0,0,0,1,11,0]
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html":[6,3,0,0,0,0,1,11]
 };

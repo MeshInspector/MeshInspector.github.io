@@ -794,10 +794,10 @@ Functions</h2></td></tr>
 <tr class="separator:a1d82676c5e88ef549642c314c666d998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51eaeb6d35d668b6b7317c621fb274bd" id="r_a51eaeb6d35d668b6b7317c621fb274bd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51eaeb6d35d668b6b7317c621fb274bd">MR_VisualObject_setGlobalClippedByPlane</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this, bool on, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *viewportMask)</td></tr>
 <tr class="separator:a51eaeb6d35d668b6b7317c621fb274bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6008077296e67332b59d2f7a40796e47" id="r_a6008077296e67332b59d2f7a40796e47"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6008077296e67332b59d2f7a40796e47">MR_VisualObject_showName</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this, bool on)</td></tr>
-<tr class="separator:a6008077296e67332b59d2f7a40796e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae467a06fb0503a7a4fea73715d647ab5" id="r_ae467a06fb0503a7a4fea73715d647ab5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae467a06fb0503a7a4fea73715d647ab5">MR_VisualObject_showName_const</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this)</td></tr>
-<tr class="separator:ae467a06fb0503a7a4fea73715d647ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5bbaaa5d35b4be18f69c25c9678d23" id="r_a6f5bbaaa5d35b4be18f69c25c9678d23"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5bbaaa5d35b4be18f69c25c9678d23">MR_VisualObject_showName_mut</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this, bool on)</td></tr>
+<tr class="separator:a6f5bbaaa5d35b4be18f69c25c9678d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addec1303b79315fd63af015e2306b8c5" id="r_addec1303b79315fd63af015e2306b8c5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addec1303b79315fd63af015e2306b8c5">MR_VisualObject_showName</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this)</td></tr>
+<tr class="separator:addec1303b79315fd63af015e2306b8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91cace23d26e34c7457a6d6e81882996" id="r_a91cace23d26e34c7457a6d6e81882996"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91cace23d26e34c7457a6d6e81882996">MR_VisualObject_getFrontColor</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this, const bool *selected, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *viewportId)</td></tr>
 <tr class="separator:a91cace23d26e34c7457a6d6e81882996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab92f0360b4592ad906a1712341ab4413" id="r_ab92f0360b4592ad906a1712341ab4413"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab92f0360b4592ad906a1712341ab4413">MR_VisualObject_setFrontColor</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *color, bool selected, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *viewportId)</td></tr>
@@ -8365,14 +8365,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6008077296e67332b59d2f7a40796e47" name="a6008077296e67332b59d2f7a40796e47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6008077296e67332b59d2f7a40796e47">&#9670;&#160;</a></span>MR_VisualObject_showName()</h2>
+<a id="addec1303b79315fd63af015e2306b8c5" name="addec1303b79315fd63af015e2306b8c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addec1303b79315fd63af015e2306b8c5">&#9670;&#160;</a></span>MR_VisualObject_showName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VisualObject_showName </td>
+          <td class="memname">MRC_API bool MR_VisualObject_showName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns whether object name is shown in any viewport Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html#aa23cd40dfdaaebc073129fb1ba57dce7">MR::VisualObject::showName</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6f5bbaaa5d35b4be18f69c25c9678d23" name="a6f5bbaaa5d35b4be18f69c25c9678d23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f5bbaaa5d35b4be18f69c25c9678d23">&#9670;&#160;</a></span>MR_VisualObject_showName_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VisualObject_showName_mut </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -8384,24 +8402,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>shows/hides object name in all viewports Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html#aa23cd40dfdaaebc073129fb1ba57dce7">MR::VisualObject::showName</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="ae467a06fb0503a7a4fea73715d647ab5" name="ae467a06fb0503a7a4fea73715d647ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae467a06fb0503a7a4fea73715d647ab5">&#9670;&#160;</a></span>MR_VisualObject_showName_const()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API bool MR_VisualObject_showName_const </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>returns whether object name is shown in any viewport Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html#aa23cd40dfdaaebc073129fb1ba57dce7">MR::VisualObject::showName</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

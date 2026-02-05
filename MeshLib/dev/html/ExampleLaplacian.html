@@ -275,12 +275,12 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
@@ -310,11 +310,11 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="line">    <span class="keyword">const</span> <a class="code hl_typedefRef" href="./C/MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>* points = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7">MR_Mesh_Get_points</a>( mesh );</div>
 <div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> posV0 = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#af7b49a506a7211d41becbe13f2782fbd">MR_Mesh_normal_MR_VertId</a>( mesh, ancV0 );</div>
 <div class="line">    posV0 = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#a7f7455f8eb846b88749e9c911bb7c59a">MR_mul_MR_Vector3f_float</a>( &amp;posV0, shiftAmount );</div>
-<div class="line">    posV0 = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aa0f1d8d1136c8e7fb4acd87fbca66716">MR_add_MR_Vector3f</a>( <a class="code hl_functionRef" href="./C/MRVector_8h.html#adc8439c0e81d28dff8385db5e7267777">MR_VertCoords_index_const</a>( points, ancV0 ), &amp;posV0 );</div>
+<div class="line">    posV0 = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aa0f1d8d1136c8e7fb4acd87fbca66716">MR_add_MR_Vector3f</a>( <a class="code hl_functionRef" href="./C/MRVector_8h.html#a98bba3cd12b65eee0e3d5aa1810bdafe">MR_VertCoords_index</a>( points, ancV0 ), &amp;posV0 );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRLaplacian_8h.html#ae214e23246bc313c35a071d88706ee7f">MR_Laplacian_fixVertex_3</a>( lDeformer, ancV0, &amp;posV0, NULL );</div>
 <div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> posV1 = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#af7b49a506a7211d41becbe13f2782fbd">MR_Mesh_normal_MR_VertId</a>( mesh, ancV1 );</div>
 <div class="line">    posV1 = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#a7f7455f8eb846b88749e9c911bb7c59a">MR_mul_MR_Vector3f_float</a>( &amp;posV1, shiftAmount );</div>
-<div class="line">    posV1 = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aa0f1d8d1136c8e7fb4acd87fbca66716">MR_add_MR_Vector3f</a>( <a class="code hl_functionRef" href="./C/MRVector_8h.html#adc8439c0e81d28dff8385db5e7267777">MR_VertCoords_index_const</a>( points, ancV1 ), &amp;posV1 );</div>
+<div class="line">    posV1 = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aa0f1d8d1136c8e7fb4acd87fbca66716">MR_add_MR_Vector3f</a>( <a class="code hl_functionRef" href="./C/MRVector_8h.html#a98bba3cd12b65eee0e3d5aa1810bdafe">MR_VertCoords_index</a>( points, ancV1 ), &amp;posV1 );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRLaplacian_8h.html#ae214e23246bc313c35a071d88706ee7f">MR_Laplacian_fixVertex_3</a>( lDeformer, ancV1, &amp;posV1, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Move the free vertices according to the anchor ones</span></div>
@@ -367,7 +367,7 @@ $(function(){initNavTree('ExampleLaplacian.html',''); initResizable(true); });
 <div class="ttc" id="aMRVector3_8h_html_a7f7455f8eb846b88749e9c911bb7c59a"><div class="ttname"><a href="./C/MRVector3_8h.html#a7f7455f8eb846b88749e9c911bb7c59a">MR_mul_MR_Vector3f_float</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_mul_MR_Vector3f_float(const MR_Vector3f *b, float a)</div></div>
 <div class="ttc" id="aMRVector3_8h_html_aa0f1d8d1136c8e7fb4acd87fbca66716"><div class="ttname"><a href="./C/MRVector3_8h.html#aa0f1d8d1136c8e7fb4acd87fbca66716">MR_add_MR_Vector3f</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_add_MR_Vector3f(const MR_Vector3f *a, const MR_Vector3f *b)</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
-<div class="ttc" id="aMRVector_8h_html_adc8439c0e81d28dff8385db5e7267777"><div class="ttname"><a href="./C/MRVector_8h.html#adc8439c0e81d28dff8385db5e7267777">MR_VertCoords_index_const</a></div><div class="ttdeci">MRC_API const MR_Vector3f * MR_VertCoords_index_const(const MR_VertCoords *_this, MR_VertId i)</div></div>
+<div class="ttc" id="aMRVector_8h_html_a98bba3cd12b65eee0e3d5aa1810bdafe"><div class="ttname"><a href="./C/MRVector_8h.html#a98bba3cd12b65eee0e3d5aa1810bdafe">MR_VertCoords_index</a></div><div class="ttdeci">MRC_API const MR_Vector3f * MR_VertCoords_index(const MR_VertCoords *_this, MR_VertId i)</div></div>
 <div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="./C/structMR__Box3f.html">MR_Box3f</a></div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
 <div class="ttc" id="astructMR__VertId_html"><div class="ttname"><a href="./C/structMR__VertId.html">MR_VertId</a></div></div>

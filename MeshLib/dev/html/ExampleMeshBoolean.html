@@ -267,15 +267,15 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshBoolean_8h.html#aac6c23cacaf5f96e13501fde30d1c95e">MR_BooleanResult</a>* result = <a class="code hl_functionRef" href="./C/MRMeshBoolean_8h.html#a67bd9b7954a1caa89ca51c0aba0edc91">MR_boolean_4_const_MR_Mesh_ref</a>( sphere1, sphere2, MR_BooleanOperation_Intersection, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./C/MRMeshBoolean_8h.html#a55d082822776178fe6c073c090073414">MR_BooleanResult_valid</a>( result ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform boolean: %s\n&quot;</span>, MR_std_string_Data( <a class="code hl_functionRef" href="./C/MRMeshBoolean_8h.html#aa77b67b758a722929f63e6302cfece67">MR_BooleanResult_Get_errorString</a>( result ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform boolean: %s\n&quot;</span>, MR_std_string_data( <a class="code hl_functionRef" href="./C/MRMeshBoolean_8h.html#aa77b67b758a722929f63e6302cfece67">MR_BooleanResult_Get_errorString</a>( result ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result to an STL file.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( <a class="code hl_functionRef" href="./C/MRMeshBoolean_8h.html#a7028da224f0287cacc3d1640c1d44aa0">MR_BooleanResult_Get_mesh</a>( result ), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>

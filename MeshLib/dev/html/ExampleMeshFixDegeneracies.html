@@ -228,12 +228,12 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html',''); initResizable(tr
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( input, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -248,17 +248,17 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html',''); initResizable(tr
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* degeneraciesEx = <a class="code hl_functionRef" href="./C/MRMeshFixer_8h.html#a47e489904520d211193647c552f184e7">MR_fixMeshDegeneracies</a>( mesh, params );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshFixer_8h.html#a0db332c93f0c7b31840f4c61f2f59b3d">MR_FixMeshDegeneraciesParams_Destroy</a>( params );</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( degeneraciesEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( degeneraciesEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to fix mesh degeneracies: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( degeneraciesEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to fix mesh degeneracies: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( degeneraciesEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_fix_degen;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, output, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save;</div>
 <div class="line">    }</div>
 <div class="line"> </div>

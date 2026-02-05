@@ -1,5 +1,10 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1Const__ObjectPointsHolder.html#a45e255d628e64daf1a51a3976d226329":[6,3,0,0,0,580,18],
+"classMR_1_1Const__ObjectPointsHolder.html#a4bbd7868e749e880554b8c5d45021152":[6,3,0,0,0,580,53],
+"classMR_1_1Const__ObjectPointsHolder.html#a4ccc21244f741f2e281d3d2a3b43e829":[6,3,0,0,0,580,47],
+"classMR_1_1Const__ObjectPointsHolder.html#a4e1a7da48d2286acb78a2ce317c83ad8":[6,3,0,0,0,580,87],
+"classMR_1_1Const__ObjectPointsHolder.html#a51b6c277fa264b929e2b00c9cf38cb9b":[6,3,0,0,0,580,6],
 "classMR_1_1Const__ObjectPointsHolder.html#a55d7c6c46e5bce37b715a693836b6ba3":[6,3,0,0,0,580,46],
 "classMR_1_1Const__ObjectPointsHolder.html#a59ccebe7711eb092dc705f831918f2c2":[6,3,0,0,0,580,78],
 "classMR_1_1Const__ObjectPointsHolder.html#a5b148896002fc1c144d550143562dbfc":[6,3,0,0,0,580,23],
@@ -244,10 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#ac872ab4d40695cfd6d2be98c7d7816d7":[6,3,0,0,0,582,0,26],
 "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#acdbbb026330d68cb090ffacd3fc38435":[6,3,0,0,0,582,0,5],
 "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#ad52465686ff7ed3b01f2d2e648d3fb45":[6,3,0,0,0,582,0,15],
-"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#ad96a45bcaa0ec78ee8a56e38356e130f":[6,3,0,0,0,582,0,16],
-"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#ae99999fc65e8f802ddab6218c288b62e":[6,3,0,0,0,582,0,6],
-"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#ae9d57c200a22dbf0aaea2fc2b3033875":[6,3,0,0,0,582,0,28],
-"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#aed8cfb5286d365e16bab2fda6ec76a01":[6,3,0,0,0,582,0,19],
-"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#af302d3d97a10d0ae910c9a340384067c":[6,3,0,0,0,582,0,20],
-"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#af6c8cf67bfb5cbba340271c29529ccde":[6,3,0,0,0,582,0,4]
+"classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#ad96a45bcaa0ec78ee8a56e38356e130f":[6,3,0,0,0,582,0,16]
 };

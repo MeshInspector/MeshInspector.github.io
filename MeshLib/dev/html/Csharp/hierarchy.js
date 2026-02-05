@@ -1880,6 +1880,14 @@ var hierarchy =
         [ "MR.WeightedShell.Const_ParametersRegions.Region", "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region.html", null ]
       ] ]
     ] ],
+    [ "IEnumerable", null, [
+      [ "MR.Const_IteratorRange_MRChunkIterator", "classMR_1_1Const__IteratorRange__MRChunkIterator.html", null ],
+      [ "MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html", null ],
+      [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft", "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html", null ],
+      [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin", "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html", null ],
+      [ "MR.Const_IteratorRange_MRUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator.html", null ],
+      [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ]
+    ] ],
     [ "System.IEquatable", null, [
       [ "MR.AffineXf2d", "structMR_1_1AffineXf2d.html", null ],
       [ "MR.AffineXf2f", "structMR_1_1AffineXf2f.html", null ],

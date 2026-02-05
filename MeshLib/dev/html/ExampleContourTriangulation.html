@@ -229,18 +229,18 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="comment">// load image as distance map</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRJpeg_8h.html#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a>* imageLoadRes = <a class="code hl_functionRef" href="./C/MRImageLoad_8h.html#af48f8daf11d1aac28ea705de5cfeee88">MR_ImageLoad_fromAnySupportedFormat</a>( <span class="stringliteral">&quot;logo.jpg&quot;</span>, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a>* image = MR_expected_MR_Image_std_string_GetMutableValue( imageLoadRes );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a>* image = MR_expected_MR_Image_std_string_value_mut( imageLoadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !image )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load image: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Image_std_string_GetError( imageLoadRes ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load image: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Image_std_string_error( imageLoadRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a>* dmRes = <a class="code hl_functionRef" href="./C/MRDistanceMap_8h.html#a030bc73ec31f2e6c0887956115ddd3cd">MR_convertImageToDistanceMap</a>( image, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a>* dm = MR_expected_MR_DistanceMap_std_string_GetMutableValue( dmRes );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a>* dm = MR_expected_MR_DistanceMap_std_string_value_mut( dmRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !dm )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to convert image to distance map: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_DistanceMap_std_string_GetError( dmRes ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to convert image to distance map: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_DistanceMap_std_string_error( dmRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_conversion; <span class="comment">// error while converting image to distance map</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -250,9 +250,9 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* triangulationRes = <a class="code hl_functionRef" href="./C/MR2DContoursTriangulation_8h.html#a729b189bac41c43d382c668875c8abc9">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</a>( conts, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>, NULL, NULL );</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save; <span class="comment">// error while saving file</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>

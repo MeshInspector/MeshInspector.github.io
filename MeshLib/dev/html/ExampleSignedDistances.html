@@ -220,18 +220,18 @@ $(function(){initNavTree('ExampleSignedDistances.html',''); initResizable(true);
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* mesh1Res = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* refMesh = MR_expected_MR_Mesh_std_string_GetMutableValue( mesh1Res );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* refMesh = MR_expected_MR_Mesh_std_string_value_mut( mesh1Res );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !refMesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( mesh1Res ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( mesh1Res ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load_1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* mesh2Res = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh2.ctm&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( mesh2Res );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_value_mut( mesh2Res );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( mesh2Res ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( mesh2Res ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load_2;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -241,7 +241,7 @@ $(function(){initNavTree('ExampleSignedDistances.html',''); initResizable(true);
 <div class="line">    <span class="keywordtype">float</span> maxDist = -FLT_MAX;</div>
 <div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; <a class="code hl_functionRef" href="./C/MRVector_8h.html#a79fca1241fc5c48f3965f6ffb8922b99">MR_VertScalars_size</a>( vertDistances ); ++i )</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordtype">float</span> dist = <a class="code hl_functionRef" href="./C/MRVector_8h.html#a47dde72e8d6f9ddaff1ae13bab4d31f9">MR_VertScalars_data</a>( vertDistances )[i];</div>
+<div class="line">        <span class="keywordtype">float</span> dist = <a class="code hl_functionRef" href="./C/MRVector_8h.html#aff0061f6f13e298d35d2a71f90938f0e">MR_VertScalars_data</a>( vertDistances )[i];</div>
 <div class="line">        <span class="keywordflow">if</span> ( dist &lt; minDist )</div>
 <div class="line">            minDist = dist;</div>
 <div class="line">        <span class="keywordflow">if</span> ( dist &gt; maxDist )</div>
@@ -268,9 +268,9 @@ $(function(){initNavTree('ExampleSignedDistances.html',''); initResizable(true);
 <div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="./C/MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
 <div class="ttc" id="aMRPointsToMeshProjector_8h_html_a203c0e594df87a7126b147ad8b41ace0"><div class="ttname"><a href="./C/MRPointsToMeshProjector_8h.html#a203c0e594df87a7126b147ad8b41ace0">MR_findSignedDistances_4</a></div><div class="ttdeci">MRC_API MR_VertScalars * MR_findSignedDistances_4(const MR_Mesh *refMesh, const MR_Mesh *mesh, const MR_MeshProjectionParameters *params, MR_IPointsToMeshProjector *projector)</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
-<div class="ttc" id="aMRVector_8h_html_a47dde72e8d6f9ddaff1ae13bab4d31f9"><div class="ttname"><a href="./C/MRVector_8h.html#a47dde72e8d6f9ddaff1ae13bab4d31f9">MR_VertScalars_data</a></div><div class="ttdeci">MRC_API float * MR_VertScalars_data(MR_VertScalars *_this)</div></div>
 <div class="ttc" id="aMRVector_8h_html_a79fca1241fc5c48f3965f6ffb8922b99"><div class="ttname"><a href="./C/MRVector_8h.html#a79fca1241fc5c48f3965f6ffb8922b99">MR_VertScalars_size</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_VertScalars_size(const MR_VertScalars *_this)</div></div>
 <div class="ttc" id="aMRVector_8h_html_a83a57f50db4b03b5b3ab957541afdd1f"><div class="ttname"><a href="./C/MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f">MR_VertScalars_Destroy</a></div><div class="ttdeci">MRC_API void MR_VertScalars_Destroy(const MR_VertScalars *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_aff0061f6f13e298d35d2a71f90938f0e"><div class="ttname"><a href="./C/MRVector_8h.html#aff0061f6f13e298d35d2a71f90938f0e">MR_VertScalars_data</a></div><div class="ttdeci">MRC_API const float * MR_VertScalars_data(const MR_VertScalars *_this)</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

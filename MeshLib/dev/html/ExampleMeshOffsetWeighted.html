@@ -282,8 +282,8 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; vertSize; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> <a class="code hl_typedefRef" href="./C/MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>* points = <a class="code hl_functionRef" href="./C/MRVector_8h.html#aff62b69cead829812f109608ebde78ec">MR_VertCoords_Get_vec_</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7">MR_Mesh_Get_points</a>( mesh ) );</div>
-<div class="line">        <span class="keywordtype">float</span> weight = abs( MR_std_vector_MR_Vector3f_At( points, i )-&gt;x / 5.0f );</div>
-<div class="line">        <a class="code hl_functionRef" href="./C/MRVector_8h.html#a47dde72e8d6f9ddaff1ae13bab4d31f9">MR_VertScalars_data</a>( scalars )[i] = weight;</div>
+<div class="line">        <span class="keywordtype">float</span> weight = abs( MR_std_vector_MR_Vector3f_at( points, i )-&gt;x / 5.0f );</div>
+<div class="line">        <a class="code hl_functionRef" href="./C/MRVector_8h.html#a6dee5403e04a651d2305af1602e3031f">MR_VertScalars_data_mut</a>( scalars )[i] = weight;</div>
 <div class="line">        <span class="keywordflow">if</span> ( weight &gt; maxWeight )</div>
 <div class="line">        {</div>
 <div class="line">            maxWeight = weight;</div>
@@ -302,17 +302,17 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="line">    <a class="code hl_functionRef" href="./C/MRClosestWeightedPoint_8h.html#af24bea970e11cee88c639b7c4d267e55">MR_DistanceFromWeightedPointsParams_Set_maxWeight</a>( dist, maxWeight );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* res = <a class="code hl_functionRef" href="./C/MRWeightedPointsShell_8h.html#a267a2de3a030a09bd5d7f0b958560c84">MR_WeightedShell_meshShell_3_MR_VertScalars</a>( mesh, scalars, params );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* resMesh = MR_expected_MR_Mesh_std_string_GetMutableValue( res );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* resMesh = MR_expected_MR_Mesh_std_string_value_mut( res );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !resMesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to create shell: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( res ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to create shell: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( res ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_shell;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( resMesh, <span class="stringliteral">&quot;offset_weighted.ctm&quot;</span>, NULL, NULL );</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save; <span class="comment">// error while saving file</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -350,7 +350,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="ttc" id="aMROffset_8h_html_a94e675d289bd141d1d07a642cc1d8597"><div class="ttname"><a href="./C/MROffset_8h.html#a94e675d289bd141d1d07a642cc1d8597">MR_suggestVoxelSize</a></div><div class="ttdeci">MRC_API float MR_suggestVoxelSize(const MR_MeshPart *mp, float approxNumVoxels)</div></div>
 <div class="ttc" id="aMRTorus_8h_html_ad75f7fc4482dfb1265495d664597e838"><div class="ttname"><a href="./C/MRTorus_8h.html#ad75f7fc4482dfb1265495d664597e838">MR_makeTorus</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeTorus(const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, MR_std_vector_MR_Vector3f *points)</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
-<div class="ttc" id="aMRVector_8h_html_a47dde72e8d6f9ddaff1ae13bab4d31f9"><div class="ttname"><a href="./C/MRVector_8h.html#a47dde72e8d6f9ddaff1ae13bab4d31f9">MR_VertScalars_data</a></div><div class="ttdeci">MRC_API float * MR_VertScalars_data(MR_VertScalars *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_a6dee5403e04a651d2305af1602e3031f"><div class="ttname"><a href="./C/MRVector_8h.html#a6dee5403e04a651d2305af1602e3031f">MR_VertScalars_data_mut</a></div><div class="ttdeci">MRC_API float * MR_VertScalars_data_mut(MR_VertScalars *_this)</div></div>
 <div class="ttc" id="aMRVector_8h_html_a8051103952d4df4381c1e399dca22022"><div class="ttname"><a href="./C/MRVector_8h.html#a8051103952d4df4381c1e399dca22022">MR_VertScalars_Construct_1_uint64_t</a></div><div class="ttdeci">MRC_API MR_VertScalars * MR_VertScalars_Construct_1_uint64_t(MR_uint64_t size)</div></div>
 <div class="ttc" id="aMRVector_8h_html_a83a57f50db4b03b5b3ab957541afdd1f"><div class="ttname"><a href="./C/MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f">MR_VertScalars_Destroy</a></div><div class="ttdeci">MRC_API void MR_VertScalars_Destroy(const MR_VertScalars *_this)</div></div>
 <div class="ttc" id="aMRVector_8h_html_aff62b69cead829812f109608ebde78ec"><div class="ttname"><a href="./C/MRVector_8h.html#aff62b69cead829812f109608ebde78ec">MR_VertCoords_Get_vec_</a></div><div class="ttdeci">MRC_API const MR_std_vector_MR_Vector3f * MR_VertCoords_Get_vec_(const MR_VertCoords *_this)</div></div>

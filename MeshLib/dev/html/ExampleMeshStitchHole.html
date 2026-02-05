@@ -229,6 +229,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_vector_MR_EdgeId.h&gt;</span></div>
 <div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;inttypes.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"> </div>
@@ -240,19 +241,19 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line"> </div>
 <div class="line">    <span class="comment">// First mesh, which will be moved.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh A: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh A: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading_a;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Second mesh, static.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* mesh2Ex = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh2 = MR_expected_MR_Mesh_std_string_GetMutableValue( mesh2Ex );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh2 = MR_expected_MR_Mesh_std_string_value_mut( mesh2Ex );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh2 )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh B: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( mesh2Ex ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh B: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( mesh2Ex ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading_b;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -261,9 +262,9 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a>* edges = <a class="code hl_functionRef" href="./C/MRMeshTopology_8h.html#a51f7e44ab25e1b16a1bccd709c62d76d">MR_MeshTopology_findHoleRepresentiveEdges</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ), NULL );</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_EdgeId_Size( edges ) != 2 )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_EdgeId_size( edges ) != 2 )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Expected exactly 2 holes to stitch, but found %zu\n&quot;</span>, MR_std_vector_MR_EdgeId_Size( edges ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Expected exactly 2 holes to stitch, but found %&quot;</span> PRIu64 <span class="stringliteral">&quot;\n&quot;</span>, MR_std_vector_MR_EdgeId_size( edges ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_not_two_holes;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -276,14 +277,14 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line"> </div>
 <div class="line">    <span class="comment">// We also have a version of this function (`MR_buildCylinderBetweenTwoHoles_2()`) that finds the two holes automatically.</span></div>
 <div class="line">    <span class="comment">// Here we&#39;ve found them manually for demonstration purposes.</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshFillHole_8h.html#a7f3e17319c8051786af783b7c341f240">MR_buildCylinderBetweenTwoHoles_4</a>( mesh, *MR_std_vector_MR_EdgeId_At( edges, 0 ), *MR_std_vector_MR_EdgeId_At( edges, 1 ), params );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshFillHole_8h.html#a7f3e17319c8051786af783b7c341f240">MR_buildCylinderBetweenTwoHoles_4</a>( mesh, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
 <div class="line">    <a class="code hl_functionRef" href="./C/MRMeshFillHole_8h.html#aa6654c3b1cbd7e4932b7270a00868f1a">MR_StitchHolesParams_Destroy</a>( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;MeshStitched.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save;</div>
 <div class="line">    }</div>
 <div class="line"> </div>

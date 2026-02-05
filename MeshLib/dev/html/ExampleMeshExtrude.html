@@ -275,12 +275,12 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
@@ -295,7 +295,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find vertices that will be moved</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>* vertsToMove = <a class="code hl_functionRef" href="./C/MRRegionBoundary_8h.html#ac96a00beebdbe13f883a4136ea332c19">MR_getIncidentVerts_2_MR_FaceBitSet</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ), facesToExtrude );</div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a>* points = <a class="code hl_functionRef" href="./C/MRVector_8h.html#ae8daef92ebac5da3eb33f5403b5c4c8b">MR_VertCoords_data</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a94587e1ee72c767cf28cd076c400805e">MR_Mesh_GetMutable_points</a>( mesh ) );</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a>* points = <a class="code hl_functionRef" href="./C/MRVector_8h.html#a474d9ebf7b866ad1429349f9d0ce5732">MR_VertCoords_data_mut</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a94587e1ee72c767cf28cd076c400805e">MR_Mesh_GetMutable_points</a>( mesh ) );</div>
 <div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> shift = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#a216312ee3a37041f9f87a69464eb2f39">MR_Vector3f_plusZ</a>();</div>
 <div class="line">    <span class="keywordtype">size_t</span> numPoints = <a class="code hl_functionRef" href="./C/MRVector_8h.html#aa5c6fb42f3dc93b5daee662ef028a1e9">MR_VertCoords_size</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a94587e1ee72c767cf28cd076c400805e">MR_Mesh_GetMutable_points</a>( mesh ) );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; numPoints; ++i )</div>
@@ -307,8 +307,8 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;extruded_mesh.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">    <span class="keywordflow">else</span></div>
 <div class="line">        rc = EXIT_SUCCESS;</div>
 <div class="line"> </div>
@@ -338,8 +338,8 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="ttc" id="aMRVector3_8h_html_a216312ee3a37041f9f87a69464eb2f39"><div class="ttname"><a href="./C/MRVector3_8h.html#a216312ee3a37041f9f87a69464eb2f39">MR_Vector3f_plusZ</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Vector3f_plusZ(void)</div></div>
 <div class="ttc" id="aMRVector3_8h_html_aa0f1d8d1136c8e7fb4acd87fbca66716"><div class="ttname"><a href="./C/MRVector3_8h.html#aa0f1d8d1136c8e7fb4acd87fbca66716">MR_add_MR_Vector3f</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_add_MR_Vector3f(const MR_Vector3f *a, const MR_Vector3f *b)</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
+<div class="ttc" id="aMRVector_8h_html_a474d9ebf7b866ad1429349f9d0ce5732"><div class="ttname"><a href="./C/MRVector_8h.html#a474d9ebf7b866ad1429349f9d0ce5732">MR_VertCoords_data_mut</a></div><div class="ttdeci">MRC_API MR_Vector3f * MR_VertCoords_data_mut(MR_VertCoords *_this)</div></div>
 <div class="ttc" id="aMRVector_8h_html_aa5c6fb42f3dc93b5daee662ef028a1e9"><div class="ttname"><a href="./C/MRVector_8h.html#aa5c6fb42f3dc93b5daee662ef028a1e9">MR_VertCoords_size</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_VertCoords_size(const MR_VertCoords *_this)</div></div>
-<div class="ttc" id="aMRVector_8h_html_ae8daef92ebac5da3eb33f5403b5c4c8b"><div class="ttname"><a href="./C/MRVector_8h.html#ae8daef92ebac5da3eb33f5403b5c4c8b">MR_VertCoords_data</a></div><div class="ttdeci">MRC_API MR_Vector3f * MR_VertCoords_data(MR_VertCoords *_this)</div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
 <div class="ttc" id="astructMR__VertId_html"><div class="ttname"><a href="./C/structMR__VertId.html">MR_VertId</a></div></div>
 </div><!-- fragment --></li>

@@ -207,10 +207,10 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html',''); initResiza
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshRes = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh.ctm&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshRes );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshRes ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -218,7 +218,7 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html',''); initResiza
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>* mp = <a class="code hl_functionRef" href="./C/MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476">MR_MeshPart_Construct</a>( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a>* resOpt = <a class="code hl_functionRef" href="./C/MRMeshProject_8h.html#aef5ccb110bfd2bca2881143a0c5498d3">MR_findSignedDistance_MR_Vector3f</a>( &amp;point, mp, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshProject_8h.html#a73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a>* res = MR_std_optional_MR_SignedDistanceToMeshResult_MutableValue( resOpt );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRMeshProject_8h.html#a73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a>* res = MR_std_optional_MR_SignedDistanceToMeshResult_value_mut( resOpt );</div>
 <div class="line">    <span class="keywordflow">if</span> ( res )</div>
 <div class="line">        fprintf( stdout, <span class="stringliteral">&quot;Signed distance from point to mesh: %f\n&quot;</span>, *<a class="code hl_functionRef" href="./C/MRMeshProject_8h.html#ac6983c32da16927610ad230a75ce13ad">MR_SignedDistanceToMeshResult_Get_dist</a>( res ) );</div>
 <div class="line"> </div>

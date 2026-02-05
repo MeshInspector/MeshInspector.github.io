@@ -1,5 +1,10 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#aa70cd022f25530e8b0cd38e6afda4e15":[6,3,0,0,0,556,9],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#aa7ed16fa831451bec307fcf4c6a2baf6":[6,3,0,0,0,556,4],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#ab11c75a073bb0fa22628d65562268293":[6,3,0,0,0,556,1],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#abfd14599009d79303dd297c04aa30006":[6,3,0,0,0,556,12],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#ac8eeac02ce36ffa67ca9631f32b934dc":[6,3,0,0,0,556,13],
 "classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#aca91b0d8c26253de001eb4cf90559110":[6,3,0,0,0,556,11],
 "classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#adbc3e452bb1cf03044e7a2c5f7179a62":[6,3,0,0,0,556,2],
 "classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#ae33ea1b6b01456b78f16be8e33e6007e":[6,3,0,0,0,556,15],
@@ -244,10 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a2238d828d2a8309cbba1f822dd599afd":[6,3,0,0,0,588,4],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a30ded09a90aed8bfcaf28a729613747c":[6,3,0,0,0,588,5],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a3a5f624ceae456d01ca7dc74294acd55":[6,3,0,0,0,588,3],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a6244245eee269d8b3efd5e7795eab1ed":[6,3,0,0,0,588,0],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a9efae3982ec41e6eaf1fd653e928d135":[6,3,0,0,0,588,2],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#aa21f991d22d718932e481388db90c346":[6,3,0,0,0,588,1],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html":[6,3,0,0,0,589],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#a2f255e9de31a29ddc98a94990728b64f":[6,3,0,0,0,589,3],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindSphere.html#a70e1b0b5bcf89998a92db425e01dbfab":[6,3,0,0,0,589,5]
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a6244245eee269d8b3efd5e7795eab1ed":[6,3,0,0,0,588,0]
 };

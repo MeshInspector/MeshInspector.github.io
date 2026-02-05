@@ -1,5 +1,10 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1Const__Polynomial__Double__2.html#adaefd11998f2b4665cb713b8725a7f83":[6,3,0,0,0,658,0],
+"classMR_1_1Const__Polynomial__Double__2.html#aeb7b25880be3e35bef8339d828cf44da":[6,3,0,0,0,658,6],
+"classMR_1_1Const__Polynomial__Double__3.html":[6,3,0,0,0,659],
+"classMR_1_1Const__Polynomial__Double__3.html#a1cbb3ee94fec2c0a5b9475bd2c1d779b":[6,3,0,0,0,659,11],
+"classMR_1_1Const__Polynomial__Double__3.html#a54847ba9a9f09388927f85f83bd18c16":[6,3,0,0,0,659,9],
 "classMR_1_1Const__Polynomial__Double__3.html#a90d18911600cf2466fd75a55937bdc3e":[6,3,0,0,0,659,0],
 "classMR_1_1Const__Polynomial__Double__3.html#a9676d54768e08c5d4ecceeaae023e147":[6,3,0,0,0,659,1],
 "classMR_1_1Const__Polynomial__Double__3.html#a9be8eb729d148c7ed6f7d0056793cafe":[6,3,0,0,0,659,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1Const__ProjectAttributeParams.html#a6b3f74409afee1f2a1c5e5f148ac3f41":[6,3,0,0,0,678,6],
 "classMR_1_1Const__ProjectAttributeParams.html#acc5d799496584199b6351676f29158b3":[6,3,0,0,0,678,8],
 "classMR_1_1Const__ProjectAttributeParams.html#ade07f3bf9bbd1b5273bd52a370066781":[6,3,0,0,0,678,3],
-"classMR_1_1Const__QuadraticForm2d.html":[6,3,0,0,0,679],
-"classMR_1_1Const__QuadraticForm2d.html#a158fcde1f0e36419979398861499515a":[6,3,0,0,0,679,0],
-"classMR_1_1Const__QuadraticForm2d.html#a3e6e22d91f6f359089b1af53c7e2e05f":[6,3,0,0,0,679,2],
-"classMR_1_1Const__QuadraticForm2d.html#a3ea70171bb62708dbb14ade5a7a7209c":[6,3,0,0,0,679,4],
-"classMR_1_1Const__QuadraticForm2d.html#a7cb184d67294e129e09ff764fffb630f":[6,3,0,0,0,679,8],
-"classMR_1_1Const__QuadraticForm2d.html#a8bac5fd7a7e569625c191f4ec45d24f9":[6,3,0,0,0,679,6]
+"classMR_1_1Const__QuadraticForm2d.html":[6,3,0,0,0,679]
 };
